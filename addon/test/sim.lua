@@ -1,0 +1,148 @@
+-- Runs the addon against a fake WoW API and replays a dwarf's first steps.
+--   luajit addon/test/sim.lua      (from the repo root)
+local DIR = "addon/LorekeepersCodex/"
+
+-- ── a fake game ──────────────────────────────────────────────────────────────
+local clock = 1790900000
+function time() return clock end
+date = os.date
+local state = {
+  level = 3, zone = "Dun Morogh", sub = "Anvilmar", target = nil,
+  map = 1426, x = 0.3, y = 0.7,
+  questsDone = { [7777] = true },
+  standing = { [47] = 4 },
+}
+local printed = {}
+function print(msg) table.insert(printed, msg) end
+function strsplit(sep, s)
+  local out = {}
+  for part in (s .. sep):gmatch("(.-)" .. sep:gsub("%-", "%%-")) do table.insert(out, part) end
+  return unpack(out)
+end
+function strtrim(s) return (s:gsub("^%s+", ""):gsub("%s+$", "")) end
+tinsert = table.insert
+function UnitLevel() return state.level end
+function UnitName(u) return u == "target" and "King Magni Bronzebeard" or "Thorin" end
+function UnitGUID(u)
+  if u == "target" and state.target then return ("Creature-0-4170-0-12-%d-0000ABCDEF"):format(state.target) end
+end
+function GetRealZoneText() return state.zone end
+function GetSubZoneText() return state.sub end
+C_Map = {
+  -- A French client would answer "Kharanos" too; Anvilmar stays unnamed here,
+  -- to check the English fallback.
+  GetAreaInfo = function(id) return ({ [131] = "Kharanos", [1] = "Dun Morogh" })[id] end,
+  GetBestMapForUnit = function() return state.map end,
+  GetPlayerMapPosition = function() return { x = state.x, y = state.y } end,
+}
+C_QuestLog = { IsQuestFlaggedCompleted = function(id) return state.questsDone[id] == true end }
+function GetFactionInfoByID(id) return "Ironforge", "", state.standing[id] end
+SOUNDKIT = { IG_QUEST_LOG_OPEN = 1 }
+local sounds = 0
+function PlaySound() sounds = sounds + 1 end
+local ticker
+C_Timer = { NewTicker = function(_, fn) ticker = fn end }
+
+-- UI: any method works and returns something sensible, scripts are kept.
+local function ui()
+  local o = { shown = false, scripts = {} }
+  return setmetatable(o, {
+    __index = function(t, k)
+      if k == "SetScript" then return function(self, name, fn) self.scripts[name] = fn end end
+      if k == "Show" then return function(self) self.shown = true; if self.scripts.OnShow then self.scripts.OnShow(self) end end end
+      if k == "Hide" then return function(self) self.shown = false end end
+      if k == "SetShown" then return function(self, v) if v then self:Show() else self:Hide() end end end
+      if k == "IsShown" then return function(self) return self.shown end end
+      if k == "SetText" then return function(self, v) self.text = v end end
+      if k == "GetStringHeight" then return function() return 14 end end
+      if k == "CreateFontString" or k == "CreateTexture" then return function() return ui() end end
+      return function() return t end
+    end,
+  })
+end
+UIParent, UISpecialFrames, SlashCmdList = ui(), {}, {}
+local events
+function CreateFrame(kind, name)
+  local f = ui()
+  if not events and kind == "Frame" and not name then
+    events = f
+    f.registered = {}
+    f.RegisterEvent = function(self, e) self.registered[e] = true end
+  end
+  if name then _G[name] = f end
+  return f
+end
+local function fire(e, ...)
+  assert(events.registered[e], "not registered: " .. e)
+  events.scripts.OnEvent(events, e, ...)
+end
+
+-- ── load the addon, with test entries for the unlocks the content doesn't use yet ─
+local ns = {}
+assert(loadfile(DIR .. "Content.lua"))("LorekeepersCodex", ns)
+local function entry(title, unlock)
+  return { title = title, kind = "note", chapter = "", unlock = { unlock }, also = {}, text = { { "test" } } }
+end
+ns.content.entries["t-quest"] = entry("Quest done before", { quest = 7777 })
+ns.content.entries["t-quest-new"] = entry("Quest turned in", { quest = 8888 })
+ns.content.entries["t-rep"] = entry("Friendly with Ironforge", { faction = 47, standing = 5 })
+ns.content.entries["t-pos"] = entry("The Great Forge", { map = 1455, x = 57, y = 47, r = 6 })
+assert(loadfile(DIR .. "Core.lua"))("LorekeepersCodex", ns)
+assert(loadfile(DIR .. "Codex.lua"))("LorekeepersCodex", ns)
+
+local function check(cond, msg) assert(cond, msg); io.write("✓ " .. msg .. "\n") end
+local function has(id) return LorekeepersCodexChar.entries[id] ~= nil end
+
+-- ── a session ────────────────────────────────────────────────────────────────
+fire("PLAYER_LOGIN")
+check(LorekeepersCodexChar ~= nil, "the codex is saved per character")
+check(has("foreword") and LorekeepersCodexChar.entries.foreword.retro, "the foreword is there from the start, quietly")
+check(has("war-of-the-three-hammers"), "logging in at Anvilmar unlocks the War of the Three Hammers (English name fallback)")
+check(printed[#printed]:find("War of the Three Hammers", 1, true) ~= nil and sounds == 1, "a new page is announced in chat, with a sound")
+check(has("t-quest") and LorekeepersCodexChar.entries["t-quest"].retro, "a quest done before the codex unlocks quietly")
+check(not has("t-rep"), "Neutral with Ironforge: not yet")
+
+clock = clock + 600; state.level = 5; state.sub = "Kharanos"
+fire("ZONE_CHANGED")
+check(has("kharanos"), "reaching Kharanos unlocks it (name from the client)")
+local k = LorekeepersCodexChar.entries.kharanos
+check(k.level == 5 and k.sub == "Kharanos" and k.zone == "Dun Morogh" and k.at == clock, "a page remembers when, at what level and where")
+
+state.target = 1234
+fire("PLAYER_TARGET_CHANGED")
+check(not has("magni-bronzebeard"), "another creature unlocks nothing")
+state.target = 2784
+fire("PLAYER_TARGET_CHANGED")
+check(has("magni-bronzebeard"), "targeting King Magni unlocks his page")
+
+fire("QUEST_TURNED_IN", 8888)
+check(has("t-quest-new") and not LorekeepersCodexChar.entries["t-quest-new"].retro, "turning in a quest unlocks its page")
+
+state.standing[47] = 5
+fire("UPDATE_FACTION")
+check(has("t-rep"), "reaching Friendly with Ironforge unlocks its page")
+
+state.map, state.x, state.y = 1455, 0.60, 0.49
+check(ticker ~= nil, "a position check runs (there are position pages)")
+ticker()
+check(has("t-pos"), "standing at the Great Forge unlocks it")
+
+local before = 0
+for _ in pairs(LorekeepersCodexChar.entries) do before = before + 1 end
+fire("ZONE_CHANGED")
+fire("PLAYER_TARGET_CHANGED")
+local after = 0
+for _ in pairs(LorekeepersCodexChar.entries) do after = after + 1 end
+check(before == after and sounds == 6, "nothing is unlocked twice (6 pages announced)")
+
+-- ── the book ─────────────────────────────────────────────────────────────────
+SlashCmdList.LOREKEEPERSCODEX("")
+check(LorekeepersCodexFrame and LorekeepersCodexFrame.shown, "/codex opens the book")
+check(next(LorekeepersCodexChar.read) ~= nil, "opening it shows an unread page, marked read")
+check(ns.count() == 8, "8 pages found")
+SlashCmdList.LOREKEEPERSCODEX("")
+check(not LorekeepersCodexFrame.shown, "/codex again closes it")
+printed = {}
+SlashCmdList.LOREKEEPERSCODEX("where")
+check(printed[1]:find("position: 1455 60.0 49.0", 1, true) ~= nil and printed[2]:find("npc: 2784", 1, true) ~= nil, "/codex where gives the position and target in content terms")
+io.write("all good\n")

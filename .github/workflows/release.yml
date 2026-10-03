@@ -1,0 +1,41 @@
+# Pushing a tag vX.Y.Z (scripts/release.sh does it): checks, zips the addon,
+# publishes the GitHub release with the tag's message as its notes, and
+# uploads it to CurseForge once the project exists (repository variable
+# CURSEFORGE_PROJECT_ID, secret CURSEFORGE_TOKEN).
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      TAG: ${{ github.ref_name }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      # checkout leaves the tag lightweight: fetch it again for its message.
+      - run: git fetch --force --tags
+      - uses: oven-sh/setup-bun@v2
+      - run: sudo apt-get install -y -qq luajit
+      - run: bun scripts/build.ts --check && luajit addon/test/sim.lua
+      - name: Zip
+        run: mkdir -p dist && (cd addon && zip -qr ../dist/LorekeepersCodex.zip LorekeepersCodex -x '*.DS_Store')
+      - name: Publish the release
+        run: |
+          git tag -l --format='%(contents)' "$TAG" | sed '/^-----BEGIN PGP SIGNATURE-----/,$d' > notes.md
+          [ -s notes.md ] || { echo "::error::tag $TAG has no message (release notes)"; exit 1; }
+          gh release create "$TAG" --title "$TAG" --notes-file notes.md dist/LorekeepersCodex.zip
+      - name: Upload to CurseForge
+        if: ${{ vars.CURSEFORGE_PROJECT_ID != '' }}
+        env:
+          CF_API_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+          CF_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
+        run: scripts/curseforge-upload.sh dist/LorekeepersCodex.zip notes.md

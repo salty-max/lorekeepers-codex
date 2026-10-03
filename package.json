@@ -1,0 +1,11 @@
+{
+  "name": "lorekeepers-codex",
+  "private": true,
+  "description": "A World of Warcraft Classic addon: a codex of Azeroth's lore that fills in as you explore",
+  "license": "MIT",
+  "scripts": {
+    "build": "bun scripts/build.ts",
+    "check": "bun scripts/build.ts --check && luajit addon/test/sim.lua",
+    "areas": "bun scripts/areas.ts"
+  }
+}
