@@ -40,11 +40,11 @@ Modan), class quests, and anything failing the three tests.
 
 ## Changes to the written chapters
 
-- 📝 Move **The Dark Iron Dwarves** and **The Troggs** from chapter 1 to Peoples
+- ✅ Move **The Dark Iron Dwarves** and **The Troggs** from chapter 1 to Peoples
   and Powers: they live in a dozen zones (Searing Gorge, Badlands, Blackrock
   Depths, Uldaman…). Same ids, so saved progress is kept.
-- 📝 Add **Mekgineer Thermaplugg** to chapter 1 (the Gnomeregan dungeon).
-- 📝 **The Red Dragonflight** stays in the Wetlands: its unlocks are the dragonkin
+- ✅ Add **Mekgineer Thermaplugg** to chapter 1 (the Gnomeregan dungeon).
+- ✅ **The Red Dragonflight** stays in the Wetlands: its unlocks are the dragonkin
   of Grim Batol only, a Wetlands story.
 
 ---
@@ -198,22 +198,22 @@ Banks. Twilight Grove goes to The Dragons of Nightmare. Rares without a story:
 Lord Malathrom, Fenros, Lupos, Nefaru, Naraxis, Commander Felstrom. Met here,
 paged in Peoples and Powers: the worgen, the Defias, ogres.
 
-## Stranglethorn Vale (12 pages)
+## Stranglethorn Vale (12 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Stranglethorn Vale | place | the zone (33) |
-| 📝 Booty Bay | place | Booty Bay (35) (Baron Revilgaz, the Blackwater Raiders) |
-| 📝 Grom'gol Base Camp | place | Grom'gol Base Camp (117) |
-| 📝 Nesingwary's Expedition | place | Nesingwary's Expedition (100); talking to Hemet Nesingwary (715) ❓ a hunter's camp: keep it if it holds as more than a joke |
-| 📝 The Kurzen Rebellion | history | Kurzen's Compound (101); Rebel Camp (99); killing Colonel Kurzen (813) |
-| 📝 The Gurubashi Empire | history | any of the troll ruins: Ruins of Zul'Kunda (102), Ruins of Zul'Mamwe (103), Bal'lal Ruins (123), Balia'mah Ruins (127), Ziata'jai Ruins (128), Mizjah Ruins (129), Zuuldaia Ruins (122), Kal'ai Ruins (125), Tkashi Ruins (126), Ruins of Jubuwal (477), Ruins of Aboraz (311) |
-| 📝 The Bloodscalp and the Skullsplitter | faction | any Bloodscalp (587, 588, 595, 597, 660, 671, 694, 697–699, 701, 702) or Skullsplitter (667, 669, 670, 672, 696, 756, 780–784) kill |
-| 📝 The Gurubashi Arena | place | Gurubashi Arena (1741) |
-| 📝 The Bloodsail Buccaneers | faction | any Bloodsail kill (see the appendix) |
-| 📝 Zul'Gurub | place | the raid (1977): the Atal'ai's city and Hakkar's return |
-| 📝 Hakkar the Soulflayer | figure | killing him (14834); quest The Heart of Hakkar (8183) |
-| 📝 The Zandalar Tribe | faction | Yojamba Isle (3357); talking to Molthor (14875) or Exzhal (14910) |
+| ✅ Stranglethorn Vale | place | the zone (33) |
+| ✅ Booty Bay | place | Booty Bay (35) (Baron Revilgaz, the Blackwater Raiders) |
+| ✅ Grom'gol Base Camp | place | Grom'gol Base Camp (117) |
+| ✅ Nesingwary's Expedition | place | Nesingwary's Expedition (100); talking to Hemet Nesingwary (715) ❓ a hunter's camp: keep it if it holds as more than a joke |
+| ✅ The Kurzen Rebellion | history | Kurzen's Compound (101); Rebel Camp (99); killing Colonel Kurzen (813) |
+| ✅ The Gurubashi Empire | history | any of the troll ruins: Ruins of Zul'Kunda (102), Ruins of Zul'Mamwe (103), Bal'lal Ruins (123), Balia'mah Ruins (127), Ziata'jai Ruins (128), Mizjah Ruins (129), Zuuldaia Ruins (122), Kal'ai Ruins (125), Tkashi Ruins (126), Ruins of Jubuwal (477), Ruins of Aboraz (311) |
+| ✅ The Bloodscalp and the Skullsplitter | faction | any Bloodscalp (587, 588, 595, 597, 660, 671, 694, 697–699, 701, 702) or Skullsplitter (667, 669, 670, 672, 696, 756, 780–784) kill |
+| ✅ The Gurubashi Arena | place | Gurubashi Arena (1741) |
+| ✅ The Bloodsail Buccaneers | faction | any Bloodsail kill (see the appendix) |
+| ✅ Zul'Gurub | place | the raid (1977): the Atal'ai's city and Hakkar's return |
+| ✅ Hakkar the Soulflayer | figure | killing him (14834); quest The Heart of Hakkar (8183) |
+| ✅ The Zandalar Tribe | faction | Yojamba Isle (3357); talking to Molthor (14875) or Exzhal (14910) |
 
 Not paged: the naga coves, the Crystal Shore, Lake Nazferiti, Mosh'Ogg Mound
 (ogres), Venture Co. camps, Jaguero Isle, Nek'mani Wellspring, Zanzil's
@@ -262,31 +262,31 @@ Not paged: Malden's Orchard, Valgan's Field, the Dead Field, the Decrepit Ferry,
 Olsen's Farthing, Deep Elem Mine, the Skittering Dark. Rares without a story:
 Snarlmane, Ravenclaw Regent, Gorefang, Old Vicejaw, Krethis Shadowspinner.
 
-## Hillsbrad Foothills (5 pages)
+## Hillsbrad Foothills (5 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Hillsbrad Foothills | place | the zone (267) |
-| 📝 Southshore | place | Southshore (271) |
-| 📝 Tarren Mill | place | Tarren Mill (272) |
-| 📝 Durnholde Keep | history | Durnholde Keep (275); quest Taretha's Gift (508): Blackmoore, the camps and Thrall's escape |
-| 📝 Dun Garok | place | Dun Garok (290) (Ironforge's southern fortress) |
+| ✅ Hillsbrad Foothills | place | the zone (267) |
+| ✅ Southshore | place | Southshore (271) |
+| ✅ Tarren Mill | place | Tarren Mill (272) |
+| ✅ Durnholde Keep | history | Durnholde Keep (275); quest Taretha's Gift (508): Blackmoore, the camps and Thrall's escape |
+| ✅ Dun Garok | place | Dun Garok (290) (Ironforge's southern fortress) |
 
 Not paged: Hillsbrad Fields, Azurelode Mine, Purgation Isle, Nethander Stead,
 Darrow Hill, Southpoint Tower, the strands. Rares without a story: Narillasanz,
 Tamra Stormpike, Scargil, Lady Zephris, Ro'Bark, Creepthess, Big Samras.
 
-## Alterac Mountains (7 pages)
+## Alterac Mountains (7 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Alterac Mountains | place | the zone (36) |
-| 📝 Dalaran | place | Dalaran (279) (the city under its dome); talking to Archmage Ansirem Runeweaver (2543) |
-| 📝 The Treason of Alterac | history | Ruins of Alterac (281); quest Lord Aliden Perenolde (507): Perenolde and the Horde |
-| 📝 Ravenholdt Manor | place | Ravenholdt Manor (3486); talking to Lord Jorach Ravenholdt (6768) |
-| 📝 Alterac Valley | place | the battleground (2597; the valley in the Alterac Mountains is 2839) |
-| 📝 The Frostwolf Clan | faction | talking to (or targeting) Drek'Thar (11946); reputation Frostwolf Clan (729) friendly |
-| 📝 The Stormpike Guard | faction | talking to (or targeting) Vanndar Stormpike (11948); reputation Stormpike Guard (730) friendly |
+| ✅ Alterac Mountains | place | the zone (36) |
+| ✅ Dalaran | place | Dalaran (279) (the city under its dome); talking to Archmage Ansirem Runeweaver (2543) |
+| ✅ The Treason of Alterac | history | Ruins of Alterac (281); quest Lord Aliden Perenolde (507): Perenolde and the Horde |
+| ✅ Ravenholdt Manor | place | Ravenholdt Manor (3486); talking to Lord Jorach Ravenholdt (6768) |
+| ✅ Alterac Valley | place | the battleground (2597; the valley in the Alterac Mountains is 2839) |
+| ✅ The Frostwolf Clan | faction | talking to (or targeting) Drek'Thar (11946); reputation Frostwolf Clan (729) friendly |
+| ✅ The Stormpike Guard | faction | talking to (or targeting) Vanndar Stormpike (11948); reputation Stormpike Guard (730) friendly |
 
 Not paged: Strahnbrad, Crushridge Hold (ogres), Lordamere Internment Camp
 (covered by Durnholde), Chillwind Point, Gavin's Naze, Sofera's Naze, Dandred's
@@ -294,17 +294,17 @@ Fold, the Uplands. Rares without a story: Stone Fury, Skhowl, Lo'Grosh, Gravis
 Slipknot, Araga, Cranky Benj, Jimmy the Bleeder. Met here, paged in Peoples and
 Powers: the Syndicate, ogres.
 
-## Arathi Highlands (7 pages)
+## Arathi Highlands (7 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Arathi Highlands | place | the zone (45) |
-| 📝 Stromgarde Keep | place | Stromgarde Keep (324) (Trollbane's city; the sword Trol'kalar) |
-| 📝 Thoradin's Wall | history | Thoradin's Wall (Arathi Highlands) (1857): Arathor, the first human kingdom |
-| 📝 Refuge Pointe | place | Refuge Pointe (320) |
-| 📝 Hammerfall | place | Hammerfall (321) (the internment camp Doomhammer and Thrall broke) |
-| 📝 Myzrael | figure | killing her (2755); quest Summoning the Princess (656) ❓ what she is |
-| 📝 Arathi Basin | place | the battleground (3358); the League of Arathor and the Defilers |
+| ✅ Arathi Highlands | place | the zone (45) |
+| ✅ Stromgarde Keep | place | Stromgarde Keep (324) (Trollbane's city; the sword Trol'kalar) |
+| ✅ Thoradin's Wall | history | Thoradin's Wall (Arathi Highlands) (1857): Arathor, the first human kingdom |
+| ✅ Refuge Pointe | place | Refuge Pointe (320) |
+| ✅ Hammerfall | place | Hammerfall (321) (the internment camp Doomhammer and Thrall broke) |
+| ✅ Myzrael | figure | killing her (2755); quest Summoning the Princess (656) ❓ what she is |
+| ✅ Arathi Basin | place | the battleground (3358); the League of Arathor and the Defilers |
 
 Not paged: the Circles of Binding (in Myzrael), Northfold Manor, Dabyrie's
 Farmstead, Go'Shek Farm, Boulder'gor and Boulderfist Hall (ogres), the
@@ -312,18 +312,18 @@ Witherbark lands (forest trolls), the Drowned Reef, Faldir's Cove, the Tower of
 Arathor. Rares without a story: Singer, Foulbelly, Ruul Onestone, Kovork, Molok,
 Zalas Witherbark, Nimar the Slayer, Prince Nazjak, Darbel Montrose.
 
-## The Hinterlands (8 pages)
+## The Hinterlands (8 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 The Hinterlands | place | the zone (47) |
-| 📝 Aerie Peak | place | Aerie Peak (348) |
-| 📝 The Wildhammer Clan | faction | Aerie Peak (348); reputation Wildhammer Clan (471) friendly |
-| 📝 Falstad Wildhammer | figure | talking to him (5635) |
-| 📝 Jintha'Alor | place | Jintha'Alor (354) (the Vilebranch city; the Atal'ai exiles) |
-| 📝 Shadra | figure | killing her (2707); quest Summoning Shadra (2937) |
-| 📝 Revantusk Village | place | Revantusk Village (3317) |
-| 📝 Quel'Danil Lodge | place | Quel'Danil Lodge (350) (high elves on the edge of Quel'Thalas) |
+| ✅ The Hinterlands | place | the zone (47) |
+| ✅ Aerie Peak | place | Aerie Peak (348) |
+| ✅ The Wildhammer Clan | faction | Aerie Peak (348); reputation Wildhammer Clan (471) friendly |
+| ✅ Falstad Wildhammer | figure | talking to him (5635) |
+| ✅ Jintha'Alor | place | Jintha'Alor (354) (the Vilebranch city; the Atal'ai exiles) |
+| ✅ Shadra | figure | killing her (2707); quest Summoning Shadra (2937) |
+| ✅ Revantusk Village | place | Revantusk Village (3317) |
+| ✅ Quel'Danil Lodge | place | Quel'Danil Lodge (350) (high elves on the edge of Quel'Thalas) |
 
 Not paged: Shaol'watha, Agol'watha, Hiri'watha, Zun'watha (troll ruins),
 Skulk Rock, the Altar of Zul, Featherbeard's Hovel, Valorwind Lake. Seradane
@@ -331,39 +331,39 @@ goes to The Dragons of Nightmare. Rares without a story: Razortalon, Old Cliff
 Jumper, The Reak, Ironback, Jalinde Summerdrake, Grimungous, Retherokk, Mith'rethis,
 Witherheart, Zul'arek Hatefowler.
 
-## Western Plaguelands (9 pages)
+## Western Plaguelands (9 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Western Plaguelands | place | the zone (28) |
-| 📝 Chillwind Camp | place | Chillwind Camp (3197) |
-| 📝 Andorhal | history | Ruins of Andorhal (193): the tainted grain and Kel'Thuzad |
-| 📝 Caer Darrow | place | Caer Darrow (2298) |
-| 📝 Scholomance | place | the dungeon (2057) |
-| 📝 The House of Barov | history | quest The Last Barov (5342); talking to Weldon (11023) or Alexi Barov (11022) |
-| 📝 Hearthglen | place | Hearthglen (190); Mardenholde Keep (203); quest In Dreams (5944): Taelan Fordring |
-| 📝 Uther's Tomb | place | Uther's Tomb (196); Sorrow Hill (197) |
-| 📝 The Plague Cauldrons | history | Felstone Field (199), Dalson's Tears (200), The Writhing Haunt (202) or Gahrron's Withering (201); quest The Scourge Cauldrons (5215, 5228) |
+| ✅ Western Plaguelands | place | the zone (28) |
+| ✅ Chillwind Camp | place | Chillwind Camp (3197) |
+| ✅ Andorhal | history | Ruins of Andorhal (193): the tainted grain and Kel'Thuzad |
+| ✅ Caer Darrow | place | Caer Darrow (2298) |
+| ✅ Scholomance | place | the dungeon (2057) |
+| ✅ The House of Barov | history | quest The Last Barov (5342); talking to Weldon (11023) or Alexi Barov (11022) |
+| ✅ Hearthglen | place | Hearthglen (190); Mardenholde Keep (203); quest In Dreams (5944): Taelan Fordring |
+| ✅ Uther's Tomb | place | Uther's Tomb (196); Sorrow Hill (197) |
+| ✅ The Plague Cauldrons | history | Felstone Field (199), Dalson's Tears (200), The Writhing Haunt (202) or Gahrron's Withering (201); quest The Scourge Cauldrons (5215, 5228) |
 
 Not paged: Northridge Lumber Camp, the Weeping Cave, Darrowmere Lake (in Caer
 Darrow), Thondroril River. Rares without a story: Foulmane, Lord Maldazzar,
 Putridius, The Husk, the Scarlet rare elites.
 
-## Eastern Plaguelands (11 pages)
+## Eastern Plaguelands (11 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Eastern Plaguelands | place | the zone (139) |
-| 📝 Light's Hope Chapel | place | Light's Hope Chapel (2268) ❓ the battle there: vanilla sources only |
-| 📝 Tirion Fordring | figure | talking to him (1855): the exiled paladin and Eitrigg |
-| 📝 Darrowshire | history | Darrowshire (2262); quest The Battle of Darrowshire (5721): Pamela Redpath |
-| 📝 Tyr's Hand | place | Tyr's Hand (2266); The Scarlet Basilica (2267) |
-| 📝 Stratholme | history | Stratholme (Eastern Plaguelands) (2279) or the dungeon (2017): the Culling |
-| 📝 Baron Rivendare | figure | killing him (10440) |
-| 📝 Balnazzar | figure | killing him (10813): the dreadlord behind the Scarlet Crusade |
-| 📝 Nathanos Blightcaller | figure | talking to (or targeting) him (11878) |
-| 📝 Naxxramas | place | the raid (3456): the necropolis |
-| 📝 Kel'Thuzad | figure | killing him (15990); quest The Fall of Kel'Thuzad (9120) |
+| ✅ Eastern Plaguelands | place | the zone (139) |
+| ✅ Light's Hope Chapel | place | Light's Hope Chapel (2268) ❓ the battle there: vanilla sources only |
+| ✅ Tirion Fordring | figure | talking to him (1855): the exiled paladin and Eitrigg |
+| ✅ Darrowshire | history | Darrowshire (2262); quest The Battle of Darrowshire (5721): Pamela Redpath |
+| ✅ Tyr's Hand | place | Tyr's Hand (2266); The Scarlet Basilica (2267) |
+| ✅ Stratholme | history | Stratholme (Eastern Plaguelands) (2279) or the dungeon (2017): the Culling |
+| ✅ Baron Rivendare | figure | killing him (10440) |
+| ✅ Balnazzar | figure | killing him (10813): the dreadlord behind the Scarlet Crusade |
+| ✅ Nathanos Blightcaller | figure | talking to (or targeting) him (11878) |
+| ✅ Naxxramas | place | the raid (3456): the necropolis |
+| ✅ Kel'Thuzad | figure | killing him (15990); quest The Fall of Kel'Thuzad (9120) |
 
 Not paged: Corin's Crossing, Northdale, Plaguewood, Terrordale, the Fungal
 Vale, Lake Mereldar, the Infectis and Pestilent Scars, the watchtowers,
@@ -371,102 +371,102 @@ Quel'Lithien Lodge, Zul'Mashar and Mazra'Alor (forest trolls). Rares without a
 story: Duggan Wildhammer, Hed'mush, Thresh'jin, Zul'Brin, Hawkspear, Gish,
 Darkscythe, Deathspeaker Selendre, High General Abbendis.
 
-## The Badlands (5 pages)
+## The Badlands (5 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 The Badlands | place | the zone (3) |
-| 📝 Kargath | place | Kargath (340) (the Kargath Expeditionary Force) |
-| 📝 Hammertoe's Digsite | place | Hammertoe's Digsite (346); Agmond's End (345): the League at Uldaman's door |
-| 📝 Uldaman | place | the dungeon (1337); killing Archaedas (2748) |
-| 📝 The Platinum Discs | history | quest The Platinum Discs (2278): the titans, the earthen, and where dwarves came from |
+| ✅ The Badlands | place | the zone (3) |
+| ✅ Kargath | place | Kargath (340) (the Kargath Expeditionary Force) |
+| ✅ Hammertoe's Digsite | place | Hammertoe's Digsite (346); Agmond's End (345): the League at Uldaman's door |
+| ✅ Uldaman | place | the dungeon (1337); killing Archaedas (2748) |
+| ✅ The Platinum Discs | history | quest The Platinum Discs (2278): the titans, the earthen, and where dwarves came from |
 
 Not paged: Angor Fortress (Dark Irons), Lethlor Ravine, Apocryphan's Rest,
 Camp Kosh and the ogre camps, Mirage Flats, the Dustbowl. Rares without a
 story: Shadowforge Commander, Siege Golem, War Golem, Rumbler, Anathemus,
 Broken Tooth, Zaricotl, 7:XT.
 
-## Searing Gorge (3 pages)
+## Searing Gorge (3 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Searing Gorge | place | the zone (51) |
-| 📝 The Thorium Brotherhood | faction | Thorium Point (1446); reputation Thorium Brotherhood (59) friendly |
-| 📝 The Cauldron | place | The Cauldron (246); The Slag Pit (1443); Grimesilt Dig Site (247) |
+| ✅ Searing Gorge | place | the zone (51) |
+| ✅ The Thorium Brotherhood | faction | Thorium Point (1446); reputation Thorium Brotherhood (59) friendly |
+| ✅ The Cauldron | place | The Cauldron (246); The Slag Pit (1443); Grimesilt Dig Site (247) |
 
 Not paged: Firewatch Ridge, Blackchar Cave, Dustfire Valley, Tanner Camp, the
 Sea of Cinders. Rares without a story: Rekk'tilac, Smoldar, Faulty War Golem,
 Shleipnarr, Scald, Highlord Mastrogonde, Slave Master Blackheart.
 
-## Burning Steppes (6 pages)
+## Burning Steppes (5 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Burning Steppes | place | the zone (46) |
-| 📝 Morgan's Vigil | place | Morgan's Vigil (2418) |
-| 📝 Flame Crest | place | Flame Crest (251) ❓ what it is besides an outpost |
-| 📝 The Ruins of Thaurissan | history | Ruins of Thaurissan (250): the summoning of Ragnaros |
-| 📝 The Altar of Storms | history | Altar of Storms (Burning Steppes) (255): Gul'dan's death knights |
-| 📝 Marshal Windsor | figure | talking to him (9023); quest Marshal Windsor (4241) |
+| ✅ Burning Steppes | place | the zone (46) |
+| ✅ Morgan's Vigil | place | Morgan's Vigil (2418) |
+| ✗ Flame Crest | place | dropped: a small neutral outpost with no story of its own, mentioned on the zone page |
+| ✅ The Ruins of Thaurissan | history | Ruins of Thaurissan (250): the summoning of Ragnaros |
+| ✅ The Altar of Storms | history | Altar of Storms (Burning Steppes) (255): Gul'dan's death knights |
+| ✅ Marshal Windsor | figure | talking to him (9023); quest Marshal Windsor (4241) |
 
 Not paged: Dreadmaul Rock (ogres), Draco'dar and the Pillar of Ash (black
 dragons), Blackrock Pass and Stronghold (the Blackrock clan), Terror Wing Path.
 Rares without a story: Hematos, Thauris Balgarr, Gruklash, Malfunctioning
 Reaver, Hahk'Zor, Gorgon'och, Deathmaw, Terrorspark, Volchan.
 
-## Blackrock Mountain (10 pages)
+## Blackrock Mountain (10 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Blackrock Mountain | place | Blackrock Mountain (25) |
-| 📝 Blackrock Depths | place | the dungeon (1584): Shadowforge City |
-| 📝 Emperor Dagran Thaurissan | figure | killing him (9019) |
-| 📝 Princess Moira Bronzebeard | figure | talking to (or targeting) her (8929); quests The Princess's Surprise (4363), The Princess Saved? (4004) ❓ |
-| 📝 Blackrock Spire | place | the dungeon (1583) |
-| 📝 Warchief Rend Blackhand | figure | killing him (10429): the Dark Horde |
-| 📝 Molten Core | place | the raid (2717) |
-| 📝 Ragnaros | figure | killing him (11502) |
-| 📝 Blackwing Lair | place | the raid (2677) |
-| 📝 Nefarian | figure | killing him (11583), or Lord Victor Nefarius (10162) |
+| ✅ Blackrock Mountain | place | Blackrock Mountain (25) |
+| ✅ Blackrock Depths | place | the dungeon (1584): Shadowforge City |
+| ✅ Emperor Dagran Thaurissan | figure | killing him (9019) |
+| ✅ Princess Moira Bronzebeard | figure | talking to (or targeting) her (8929); quests The Princess's Surprise (4363), The Princess Saved? (4004) ❓ |
+| ✅ Blackrock Spire | place | the dungeon (1583) |
+| ✅ Warchief Rend Blackhand | figure | killing him (10429): the Dark Horde |
+| ✅ Molten Core | place | the raid (2717) |
+| ✅ Ragnaros | figure | killing him (11502) |
+| ✅ Blackwing Lair | place | the raid (2677) |
+| ✅ Nefarian | figure | killing him (11583), or Lord Victor Nefarius (10162) |
 
 Not paged: the Grim Guzzler, Lothos Riftwaker, General Drakkisath (in the
 Spire), Majordomo Executus (in Ragnaros), Vaelastrasz (in Nefarian).
 
-## Swamp of Sorrows (6 pages)
+## Swamp of Sorrows (6 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Swamp of Sorrows | place | the zone (8) |
-| 📝 Stonard | place | Stonard (75) |
-| 📝 The Temple of Atal'Hakkar | place | the dungeon (1477); Pool of Tears (74): the Atal'ai and the sunken temple |
-| 📝 Eranikus | figure | killing the Shade of Eranikus (5709); Itharius's Cave (1777); quest The Essence of Eranikus (3374) |
-| 📝 The Lost Ones | creature | any Lost One kill (755, 757, 759–763, 1106, 6913); Fallow Sanctuary (76) ❓ |
-| 📝 The Fallen Hero | figure | talking to the Fallen Hero of the Horde (7572) ❓ |
+| ✅ Swamp of Sorrows | place | the zone (8) |
+| ✅ Stonard | place | Stonard (75) |
+| ✅ The Temple of Atal'Hakkar | place | the dungeon (1477); Pool of Tears (74): the Atal'ai and the sunken temple |
+| ✅ Eranikus | figure | killing the Shade of Eranikus (5709); Itharius's Cave (1777); quest The Essence of Eranikus (3374) |
+| ✅ The Lost Ones | creature | any Lost One kill (755, 757, 759–763, 1106, 6913); Fallow Sanctuary (76) ❓ |
+| ✅ The Fallen Hero | figure | talking to the Fallen Hero of the Horde (7572) ❓ |
 
 Not paged: Misty Valley, Sorrowmurk, Stagalbog, Splinterspear Junction, the
 Misty Reed and the naga shores. Rares without a story: Lord Captain Wyrmak,
 Fingat, Gilmorian, Molt Thorn.
 
-## Blasted Lands (5 pages)
+## Blasted Lands (5 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Blasted Lands | place | the zone (4) |
-| 📝 Nethergarde Keep | place | Nethergarde Keep (1438) |
-| 📝 The Dark Portal | history | The Dark Portal (72); Rise of the Defiler (2517) |
-| 📝 Lord Kazzak | figure | killing (or targeting) him (12397); The Tainted Scar (73) |
-| 📝 Razelikh the Defiler | figure | killing him (7664); quest You Are Rakh'likh, Demon (3628) |
+| ✅ Blasted Lands | place | the zone (4) |
+| ✅ Nethergarde Keep | place | Nethergarde Keep (1438) |
+| ✅ The Dark Portal | history | The Dark Portal (72); Rise of the Defiler (2517) |
+| ✅ Lord Kazzak | figure | killing (or targeting) him (12397); The Tainted Scar (73) |
+| ✅ Razelikh the Defiler | figure | killing him (7664); quest You Are Rakh'likh, Demon (3628) |
 
 Not paged: Dreadmaul Hold and Post (ogres), Serpent's Coil, Garrison Armory.
 Rares without a story: Mojo the Twisted, Magronos, Akubar, Spiteflayer, Ravage,
 Clack, Deatheye, Grunter, Dreadscorn.
 
-## Deadwind Pass (2 pages)
+## Deadwind Pass (2 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Deadwind Pass | place | the zone (41) |
-| 📝 Karazhan | place | Karazhan (2562); The Master's Cellar (2837): Medivh's tower |
+| ✅ Deadwind Pass | place | the zone (41) |
+| ✅ Karazhan | place | Karazhan (2562); The Master's Cellar (2837): Medivh's tower |
 
 Not paged: Ariden's Camp, Deadman's Crossing, Grosh'gok Compound, Morgan's Plot,
 the Vice.
@@ -546,34 +546,34 @@ Rares without a story: Pridewing Patriarch, Vengeful Ancient, Nal'taszar,
 Brother Ravenoak, Sentinel Amarassan, Sorrow Wing, Sister Riven, Foreman
 Rigger, Taskmaster Whipfang.
 
-## Desolace (8 pages)
+## Desolace (8 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Desolace | place | the zone (405) |
-| 📝 Nijel's Point | place | Nijel's Point (608) |
-| 📝 Shadowprey Village | place | Shadowprey Village (2408) |
-| 📝 The Khans of Desolace | faction | Kolkar Village (609), Gelkis Village (Desolace) (606) or Magram Village (604); reputation Gelkis Clan (92) or Magram Clan (93) friendly |
-| 📝 The Kodo Graveyard | place | Kodo Graveyard (596) |
-| 📝 Mannoroc Coven | place | Mannoroc Coven (602) ❓ |
-| 📝 Maraudon | place | the dungeon (2100) |
-| 📝 Zaetar and Theradras | history | killing Princess Theradras (12201); quest Corruption of Earth and Seed (7064, 7065): the centaurs' parents |
+| ✅ Desolace | place | the zone (405) |
+| ✅ Nijel's Point | place | Nijel's Point (608) |
+| ✅ Shadowprey Village | place | Shadowprey Village (2408) |
+| ✅ The Khans of Desolace | faction | Kolkar Village (609), Gelkis Village (Desolace) (606) or Magram Village (604); reputation Gelkis Clan (92) or Magram Clan (93) friendly |
+| ✅ The Kodo Graveyard | place | Kodo Graveyard (596) |
+| ✅ Mannoroc Coven | place | Mannoroc Coven (602) ❓ |
+| ✅ Maraudon | place | the dungeon (2100) |
+| ✅ Zaetar and Theradras | history | killing Princess Theradras (12201); quest Corruption of Earth and Seed (7064, 7065): the centaurs' parents |
 
 Not paged: Ethel Rethor, Tethris Aran, Sar'theris Strand, Ranazjar Isle (naga),
 Sargeron (satyrs), Thunder Axe Fortress (the Burning Blade), Valley of Spears,
 Valley of Bones, Ghost Walker Post, Kormek's Hut, Bolgan's Hole. Rares without a
 story: Prince Kellen, Kaskk, Hissperak, Giggler, Accursed Slitherblade.
 
-## Feralas (6 pages)
+## Feralas (6 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Feralas | place | the zone (357) |
-| 📝 Feathermoon Stronghold | place | Feathermoon Stronghold (1116) |
-| 📝 Shandris Feathermoon | figure | talking to her (3936) |
-| 📝 Camp Mojache | place | Camp Mojache (1099) |
-| 📝 Dire Maul | place | the dungeon (2557): Eldre'Thalas |
-| 📝 The Shen'dralar | faction | talking to Lorekeeper Lydros (14368); killing Prince Tortheldrin (11486); Immol'thar (11496) |
+| ✅ Feralas | place | the zone (357) |
+| ✅ Feathermoon Stronghold | place | Feathermoon Stronghold (1116) |
+| ✅ Shandris Feathermoon | figure | talking to her (3936) |
+| ✅ Camp Mojache | place | Camp Mojache (1099) |
+| ✅ Dire Maul | place | the dungeon (2557): Eldre'Thalas |
+| ✅ The Shen'dralar | faction | talking to Lorekeeper Lydros (14368); killing Prince Tortheldrin (11486); Immol'thar (11496) |
 
 Not paged: the Twin Colossals, Isle of Dread, the Writhing Deep (silithid),
 Ruins of Isildien, Ravenwind and Solarsal (naga), Woodpaw Hills (gnolls),
@@ -582,29 +582,30 @@ Wilderness, Thalanaar. Dream Bough goes to The Dragons of Nightmare. Rares
 without a story: Lady Szallah, Diamond Head, Bloodroar, Antilus, Arash-ethis,
 Qirot, Old Grizzlegut, Gnarl Leafbrother, Snarler.
 
-## Thousand Needles (3 pages)
+## Thousand Needles (4 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Thousand Needles | place | the zone (400) |
-| 📝 Freewind Post | place | Freewind Post (484) |
-| 📝 The Shimmering Flats | place | The Shimmering Flats (439); Mirage Raceway (2240) |
+| ✅ Thousand Needles | place | the zone (400) |
+| ✅ Freewind Post | place | Freewind Post (484) |
+| ✅ The Shimmering Flats | place | The Shimmering Flats (439); Mirage Raceway (2240) |
+| ✅ The Rustmaul Dig Site | place | The Rustmaul Dig Site: a dwarven dig that broke into a silithid hive |
 
 Not paged: the Great Lift, Highperch, Darkcloud Pinnacle (Grimtotem), Galak
 Hold and Camp E'thok (centaurs), Splithoof, Roguefeather Den, the Screeching
 Canyon. Rares without a story: Achellios, Heartrazor, Ironeye, Vile Sting, Harb
 Foulmountain, Gibblesnik.
 
-## Tanaris (6 pages)
+## Tanaris (6 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Tanaris | place | the zone (440) |
-| 📝 Gadgetzan | place | Gadgetzan (976) |
-| 📝 The Sandfury Trolls | faction | any Sandfury kill (see the appendix: Tanaris and Zul'Farrak) |
-| 📝 Zul'Farrak | place | the dungeon (1176); killing Gahz'rilla (7273) or Chief Ukorz Sandscalp (7267) |
-| 📝 The Caverns of Time | place | Caverns of Time (2300); talking to Anachronos (15192): the bronze dragonflight |
-| 📝 Uldum | history | Valley of the Watchers (990); talking to the Stone Watcher of Norgannon (7918); quest The Stone Watcher (2954) |
+| ✅ Tanaris | place | the zone (440) |
+| ✅ Gadgetzan | place | Gadgetzan (976) |
+| ✅ The Sandfury Trolls | faction | any Sandfury kill (see the appendix: Tanaris and Zul'Farrak) |
+| ✅ Zul'Farrak | place | the dungeon (1176); killing Gahz'rilla (7273) or Chief Ukorz Sandscalp (7267) |
+| ✅ The Caverns of Time | place | Caverns of Time (2300); talking to Anachronos (15192): the bronze dragonflight |
+| ✅ Uldum | history | Valley of the Watchers (990); talking to the Stone Watcher of Norgannon (7918); quest The Stone Watcher (2954) |
 
 Not paged: Steamwheedle Port, Lost Rigger Cove (pirates), Noonshade and the
 Moon ruins, the Gaping Chasm (silithid), Dunemaul Compound (ogres), Thistleshrub
@@ -612,32 +613,32 @@ Valley, Land's End Beach, Sandsorrow Watch. Rares without a story: Krazzilak,
 Jin'Zallah, Omgorn, Cyclok, Kregg Keelhaul, Soriid, Haarka, Greater Firebird,
 Murderous Blisterpaw.
 
-## Un'Goro Crater (4 pages)
+## Un'Goro Crater (4 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Un'Goro Crater | place | the zone (490) |
-| 📝 Marshal's Refuge | place | Marshal's Refuge (541) |
-| 📝 The Crystal Pylons | history | quest Making Sense of It (4321); talking to J.D. Collie (9117): the titans' pylons |
-| 📝 Fire Plume Ridge | place | Fire Plume Ridge (537) |
+| ✅ Un'Goro Crater | place | the zone (490) |
+| ✅ Marshal's Refuge | place | Marshal's Refuge (541) |
+| ✅ The Crystal Pylons | history | quest Making Sense of It (4321); talking to J.D. Collie (9117): the titans' pylons |
+| ✅ Fire Plume Ridge | place | Fire Plume Ridge (537) |
 
 Not paged: Lakkari Tar Pits, Golakka Hot Springs, Terror Run, the Marshlands,
 Fungal Rock, Ironstone Plateau, the Slithering Scar (silithid). Rares without a
 story: Ravasaur Matriarch, Clutchmother Zavas, Gruff, King Mosh, Uhk'loc.
 
-## Silithus (9 pages)
+## Silithus (9 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Silithus | place | the zone (1377) |
-| 📝 Cenarion Hold | place | Cenarion Hold (3425) |
-| 📝 The Abyssal Council | faction | killing any templar, duke or lord of the council (15203–15209, 15211, 15212, 15220, 15305, 15307) |
-| 📝 The Scarab Wall | history | The Scarab Wall (2737); Valor's Rest (3077): the War of the Shifting Sands |
-| 📝 The Scepter of the Shifting Sands | history | The Scarab Dais (2741), where the gong stands (the gong's own quest was done by one player per realm) ❓ |
-| 📝 Ruins of Ahn'Qiraj | place | the raid (3429; the ruins in Silithus are 3454); killing Ossirian (15339) |
-| 📝 Temple of Ahn'Qiraj | place | the raid: area Ahn'Qiraj (3428) or Temple of Ahn'Qiraj (16076) |
-| 📝 C'Thun | figure | killing it (15727) |
-| 📝 Prince Thunderaan | figure | killing him (14435); quest Thunderaan the Windseeker (7786) |
+| ✅ Silithus | place | the zone (1377) |
+| ✅ Cenarion Hold | place | Cenarion Hold (3425) |
+| ✅ The Abyssal Council | faction | killing any templar, duke or lord of the council (15203–15209, 15211, 15212, 15220, 15305, 15307) |
+| ✅ The Scarab Wall | history | The Scarab Wall (2737); Valor's Rest (3077): the War of the Shifting Sands |
+| ✅ The Scepter of the Shifting Sands | history | The Scarab Dais (2741), where the gong stands (the gong's own quest was done by one player per realm) ❓ |
+| ✅ Ruins of Ahn'Qiraj | place | the raid (3429; the ruins in Silithus are 3454); killing Ossirian (15339) |
+| ✅ Temple of Ahn'Qiraj | place | the raid: area Ahn'Qiraj (3428) or Temple of Ahn'Qiraj (16076) |
+| ✅ C'Thun | figure | killing it (15727) |
+| ✅ Prince Thunderaan | figure | killing him (14435); quest Thunderaan the Windseeker (7786) |
 
 Not paged: the hives (silithid), the Twilight camps (Twilight's Hammer),
 Southwind Village, Bronzebeard Encampment, Hermit Ortell, the Crystal Vale,
@@ -719,33 +720,33 @@ Freebooters, silithid, the Venture Company) wander other zones too, so they're
 paged in Peoples and Powers. A traveller in the Barrens unlocks about twenty
 pages.
 
-## Dustwallow Marsh (7 pages)
+## Dustwallow Marsh (7 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Dustwallow Marsh | place | the zone (15) |
-| 📝 Theramore Isle | place | Theramore Isle (513) |
-| 📝 Lady Jaina Proudmoore | figure | talking to (or targeting) her (4968) |
-| 📝 Brackenwall Village | place | Brackenwall Village (496) |
-| 📝 The Shady Rest Inn | history | Shady Rest Inn (403): the burned inn and Daelin's deserters |
-| 📝 Onyxia's Lair | place | the raid (2159); Wyrmbog (511) |
-| 📝 Onyxia | figure | killing her (10184) |
+| ✅ Dustwallow Marsh | place | the zone (15) |
+| ✅ Theramore Isle | place | Theramore Isle (513) |
+| ✅ Lady Jaina Proudmoore | figure | talking to (or targeting) her (4968) |
+| ✅ Brackenwall Village | place | Brackenwall Village (496) |
+| ✅ The Shady Rest Inn | history | Shady Rest Inn (403): the burned inn and Daelin's deserters |
+| ✅ Onyxia's Lair | place | the raid (2159); Wyrmbog (511) |
+| ✅ Onyxia | figure | killing her (10184) |
 
 Not paged: Alcaz Island, Witch Hill and Swamplight Manor, Stonemaul Ruins
 (ogres), Emberstrife's Den (in Onyxia), the Quagmire, Bloodfen Burrow, the
 towers. Rares without a story: Brimgore, Darkmist Widow, Burgle Eye, Drogoth,
 Dart, Ripscale, Hayoc, The Rot, Lord Angler, Oozeworm.
 
-## Azshara (6 pages)
+## Azshara (6 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Azshara | place | the zone (16) |
-| 📝 The Ruins of Eldarath | place | Ruins of Eldarath (1221) (the area's name ends with a space in the client data) |
-| 📝 The Sundering | history | The Shattered Strand (1228): Queen Azshara and the Well |
-| 📝 The Ravencrest Monument | history | Ravencrest Monument (1232); Varo'then's Ghost (6118) |
-| 📝 Azuregos | figure | killing (or targeting) him (6109) |
-| 📝 The Hydraxian Waterlords | faction | talking to Duke Hydraxis (13278); reputation Hydraxian Waterlords (749) friendly |
+| ✅ Azshara | place | the zone (16) |
+| ✅ The Ruins of Eldarath | place | Ruins of Eldarath (1221) (the area's name ends with a space in the client data) |
+| ✅ The Sundering | history | The Shattered Strand (1228): Queen Azshara and the Well |
+| ✅ The Ravencrest Monument | history | Ravencrest Monument (1232); Varo'then's Ghost (6118) |
+| ✅ Azuregos | figure | killing (or targeting) him (6109) |
+| ✅ The Hydraxian Waterlords | faction | talking to Duke Hydraxis (13278); reputation Hydraxian Waterlords (749) friendly |
 
 Not paged: Timbermaw Hold (furbolgs), the Spitelash temples (naga), Haldarr and
 Legash (satyrs), Valormok, Talrendis Point, Thalassian Base Camp, Bear's Head,
@@ -753,15 +754,15 @@ Ursolan, Lake Mennar, the Bay of Storms. Rares without a story: Monnos, Magister
 Hawkhelm, Antilos, Lady Sesspira, General Fangferror, Gatekeeper Rageroar,
 Master Feardred, The Evalcharr, Scalebeard.
 
-## Felwood (5 pages)
+## Felwood (5 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Felwood | place | the zone (361) |
-| 📝 Bloodvenom Post | place | Bloodvenom Post (1997) (trailing space in the client data) |
-| 📝 Talonbranch Glade | place | Talonbranch Glade (1998) (trailing space in the client data) |
-| 📝 The Emerald Sanctuary | place | Emerald Sanctuary (2479) |
-| 📝 Jaedenar | place | Jaedenar (1763); Shadow Hold (1770): the Shadow Council |
+| ✅ Felwood | place | the zone (361) |
+| ✅ Bloodvenom Post | place | Bloodvenom Post (1997) (trailing space in the client data) |
+| ✅ Talonbranch Glade | place | Talonbranch Glade (1998) (trailing space in the client data) |
+| ✅ The Emerald Sanctuary | place | Emerald Sanctuary (2479) |
+| ✅ Jaedenar | place | Jaedenar (1763); Shadow Hold (1770): the Shadow Council |
 
 Not paged: Irontree Woods, Shatter Scar Vale, Deadwood and Felpaw villages
 (furbolgs), Jadefire Glen and Run, Ruins of Constellas (satyrs), Morlos'Aran,
@@ -769,15 +770,15 @@ Bloodvenom Falls. Rares without a
 story: Dessecus, Immolatus, Death Howl, Alshirr, Ragepaw, Olm the Wise,
 Mongress, The Ongar.
 
-## Winterspring (5 pages)
+## Winterspring (5 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Winterspring | place | the zone (618) |
-| 📝 Everlook | place | Everlook (2255) |
-| 📝 Starfall Village | place | Starfall Village (2253) |
-| 📝 The Ruins of Kel'Theril | history | The Ruins of Kel'Theril (2252); Lake Kel'Theril (2251) |
-| 📝 Mazthoril | place | Mazthoril (2245): the blue dragons |
+| ✅ Winterspring | place | the zone (618) |
+| ✅ Everlook | place | Everlook (2255) |
+| ✅ Starfall Village | place | Starfall Village (2253) |
+| ✅ The Ruins of Kel'Theril | history | The Ruins of Kel'Theril (2252); Lake Kel'Theril (2251) |
+| ✅ Mazthoril | place | Mazthoril (2245): the blue dragons |
 
 Not paged: Frostsaber Rock, Darkwhisper Gorge, Frostwhisper Gorge, Dun Mandarr,
 Frostfire Hot Springs, Ice Thistle Hills, Owl Wing Thicket, Moon Horror Den,
@@ -785,13 +786,13 @@ the Hidden Grove, Winterfall Village (furbolgs). Rares without a story:
 General Colbatann, Mezzir, Kashoch, Grizzle Snowpaw, Rak'shiri, Lady Hederine,
 Azurous.
 
-## Moonglade (3 pages)
+## Moonglade (3 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Moonglade | place | the zone (493); Nighthaven (2361) |
-| 📝 Keeper Remulos | figure | talking to him (11832); Shrine of Remulos (2362) |
-| 📝 The Stormrage Barrow Dens | place | Stormrage Barrow Dens (2363): Malfurion asleep in the Dream |
+| ✅ Moonglade | place | the zone (493); Nighthaven (2361) |
+| ✅ Keeper Remulos | figure | talking to him (11832); Shrine of Remulos (2362) |
+| ✅ The Stormrage Barrow Dens | place | Stormrage Barrow Dens (2363): Malfurion asleep in the Dream |
 
 ---
 
@@ -917,11 +918,13 @@ demons too). Check again when the page is written.
 
 | | Written | To write | Total |
 |---|---|---|---|
-| Dun Morogh, Loch Modan, the Wetlands | 36 |  | 36 |
-| The Eastern Kingdoms (20 chapters) | 50 | 96 | 146 |
-| Kalimdor (18 chapters) | 60 | 62 | 122 |
+| Dun Morogh, Loch Modan, the Wetlands | 35 |  | 35 |
+| The Eastern Kingdoms (20 chapters) | 145 |  | 145 |
+| Kalimdor (18 chapters) | 123 |  | 123 |
 | Peoples and Powers | 32 |  | 32 |
-| **The codex** | **178** | **158** | **336** |
+| **The codex** | **335** |  | **335** |
+
+Plus the 9 forewords: 344 entries in the build.
 
 ## Order of writing
 
@@ -935,8 +938,15 @@ The user's order: the peoples first, then the starting zones, then outwards.
    Undercity (with Dun Morogh, done earlier).
 4. ✅ **The lands around them (10–30):** Westfall, Redridge, Duskwood,
    Darkshore, Ashenvale, Silverpine, the Barrens, Stonetalon.
-5. **The middle lands (30–45)** and **the high lands (45–60)**, as zones are
-   reached.
+5. ✅ **The middle lands (30–45):** Hillsbrad, Alterac, Arathi, Stranglethorn,
+   the Badlands, the Swamp of Sorrows, Desolace, Thousand Needles, Dustwallow.
+6. ✅ **The high lands (45–60):** the Hinterlands, the Plaguelands, the
+   Searing Gorge, the Burning Steppes, Blackrock Mountain, the Blasted Lands,
+   Deadwind Pass, Feralas, Tanaris, Un'Goro, Silithus, Azshara, Felwood,
+   Winterspring, Moonglade.
+7. ✅ **Full review** of every page: unlock ids against their names, and every
+   page reread for era (nothing after vanilla and the pre-WotLK novels),
+   unsupported claims and contradictions between pages.
 
 Each wave: ids checked on Wowhead Classic, every fact against the Warcraft
 Wiki and the game's own quest texts (vanilla only: the wiki mixes in later

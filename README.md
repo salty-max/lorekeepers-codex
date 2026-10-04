@@ -16,13 +16,13 @@ to each other; locked ones wait as `· · ·`.
 - **Every client language**: places, creatures and quests are matched by the
   game's ids, not their names.
 
-Written so far: every race's starting lands and capital (Dun Morogh and Ironforge, Elwynn Forest and Stormwind, Teldrassil and Darnassus, Durotar and Orgrimmar, Mulgore and Thunder Bluff, Tirisfal Glades and Undercity), the lands around them (Loch Modan, the Wetlands, Westfall, Redridge, Duskwood, Silverpine, Darkshore, Ashenvale, Stonetalon, the Barrens), and *Peoples and Powers*, the peoples and orders met across many lands. Each race reads its own foreword.
+Written: all of Azeroth's zones of the original game, 335 pages in 42 chapters: every race's starting lands and capital, the lands around them, the middle lands, the high lands (the Hinterlands, the Plaguelands, Blackrock Mountain and the lands around it, the Blasted Lands, Deadwind Pass, Feralas, Tanaris, Un'Goro, Silithus, Azshara, Felwood, Winterspring, Moonglade), and *Peoples and Powers*, the peoples and orders met across many lands. Each race reads its own foreword.
 
 `/codex` or the book by the minimap opens the codex (drag the button to move
 it; `/codex minimap` hides or shows it). Each new page is announced in chat as
-a link that opens the book at that page, with a sound, and by a banner at the
-top of the screen with the page's opening lines (click it to read the page;
-it goes away after a few seconds).
+a link that opens the book at that page, with a sound, and by a slim banner at the
+top of the screen with the page's title (click it to read the page; it goes
+away after a few seconds). The sound is the zone discovery sting by default.
 The banner, the chat line, the sound and the minimap button are set in the
 game's Options, AddOns tab (or `/codex settings`, or right-click the minimap
 button). A zone's
@@ -50,7 +50,6 @@ unlock:              # any one of these unlocks it
   - reputation: 47 friendly
   - position: 1455 57 47 6   # uiMap, x %, y %, radius %
 also: [war-of-the-three-hammers]
-excerpt: ...         # optional: the banner's text (default: the first sentence)
 ---
 Paragraphs separated by blank lines. *A paragraph in asterisks is a signature.*
 ```
