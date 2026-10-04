@@ -8,7 +8,7 @@ unlock:
   - kill: 12467, 12468, 14388
 also: [red-dragonflight, blackrock-clan, great-masquerade, katrana-prestor]
 ---
-Of the five great flights of dragons, the black were made to guard the deep places of the earth, and their master was the Earth-Warder, Neltharion. He betrayed them all. In the Second War he walked among the kings of men in a human guise, and when his schemes came to light the world learned his true name: Deathwing. Where he went after that, no one can say for certain.
+Of the five great flights of dragons, the black were made to guard the deep places of the earth, and their master was the Earth-Warder, Neltharion. He betrayed them all. After the Second War he walked among the kings of men in a human guise, and when his schemes came to light the world learned his true name: Deathwing. Where he went after that, no one can say for certain.
 
 His children have not been idle. His daughter Onyxia keeps a lair in the Dustwallow Marsh, and her brood has spread through the swamp around it. His son Nefarian has made Blackrock Spire his roost, rules the Blackrock orcs from above them, and is said to be breeding dragons of every colour together in the dark, to what end I shudder to imagine.
 

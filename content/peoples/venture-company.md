@@ -10,6 +10,6 @@ also: [steamwheedle-cartel, mulgore]
 ---
 If a thing can be dug up, cut down or pumped out of the ground, the Venture Company is already there with a shredder. It is a goblin concern, a trading company with no loyalty to anyone but its board, and its business is taking what belongs to other people and selling it before they notice.
 
-On Kalimdor they are everywhere. They clear-cut the forests of Stonetalon, they have mined the cliffs of Mulgore against the tauren's express refusal and fouled the water wells while they were at it, and in the Barrens they have pumped the Sludge Fen into a black pool of oil. Across the sea they log the jungle of Stranglethorn and dig for its singing crystals, and the Defias have bought their poisons.
+On Kalimdor they are everywhere. They clear-cut the forests of Stonetalon, they have mined the cliffs of Mulgore against the tauren's express refusal and fouled the water wells while they were at it, and in the Barrens they have pumped the Sludge Fen into a black pool of oil. Across the sea they log the jungle of Stranglethorn and dig in its hills.
 
 Their own kind think little of them. The goblins of the Steamwheedle Cartel, who keep the neutral ports, will pay good coin to anyone who makes the Company's life difficult, and so, I imagine, will every tauren in Mulgore.

@@ -8,7 +8,6 @@ unlock:
   - area: Fel Rock
   - quest: 476
 also: [teldrassil, furbolgs, satyrs, fandral-staghelm]
-excerpt: Teldrassil was grown without the blessing of the Aspects, and its own druids admit that its growth has not been without flaw.
 ---
 Teldrassil was grown without the blessing of the Aspects: of Alexstrasza the Life-Binder, who blessed Nordrassil long ago, and of Nozdormu the Timeless, who gave the night elves their endless years through it. The druids of Dolanaar say so plainly, and they say what has followed: strange beasts rising out of the ground of the tree, and creatures driven mad.
 

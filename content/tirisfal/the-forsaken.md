@@ -7,7 +7,6 @@ unlock:
   - area: Brill
   - npc: 10181
 also: [sylvanas-windrunner, undercity, scourge, deathknell]
-excerpt: When the Lich King's grip on his dead faltered, some of them woke, still dead, but with their minds their own.
 ---
 When the Lich King's grip on his dead faltered, some of them woke. They were still dead, but their minds were their own again, and they remembered what they had been and what had been done to them. They call themselves the Forsaken, and they follow the one who freed them: Sylvanas Windrunner, the Banshee Queen.
 

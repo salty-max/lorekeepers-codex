@@ -12,6 +12,6 @@ also: [kobolds, defias-brotherhood, mosshide-gnolls, hogger]
 ---
 Gnolls are hyena-men, tall and lean, quarrelsome and cruel, and wherever there is a farm with poor walls you will find a pack of them nearby. They follow whoever is strongest, fight among themselves when no one is, and are rarely clever enough to be a danger on their own. The trouble is that they are rarely on their own.
 
-The Riverpaw pack raid Elwynn and Westfall under Hogger, with steel and tactics that someone else must have taught them; the Defias are the likeliest teachers. In Redridge the Shadowhide answer to the warlock Morganth in his tower. In Tirisfal and Silverpine the Rot Hide are dead things, dug from their graves to serve the necromancer Thule Ravenclaw. The Mosshide crowd the Wetlands, the Mudsnout grow poison flowers in Hillsbrad, and across the sea the Palemane skin the beasts of Mulgore and the Woodpaw prowl the hills of Feralas.
+The Riverpaw pack raid Elwynn and Westfall, with Hogger the worst of them. In Redridge the Shadowhide answer to the warlock Morganth in his tower. In Tirisfal and Silverpine the Rot Hide are dead things, dug from their graves to serve the necromancer Thule Ravenclaw. The Mosshide crowd the Wetlands, the Mudsnout grow poison flowers in Hillsbrad, and across the sea the Palemane skin the beasts of Mulgore and the Woodpaw prowl the hills of Feralas.
 
 A single gnoll is a coward. A pack is a different animal, and the farmsteads of three kingdoms have learned to bar their doors at dusk.
