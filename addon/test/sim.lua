@@ -131,7 +131,12 @@ local function check(cond, msg) assert(cond, msg); io.write("✓ " .. msg .. "\n
 local function has(id) return LorekeepersCodexChar.entries[id] ~= nil end
 
 -- ── a session ────────────────────────────────────────────────────────────────
+-- A deleted character's codex, left under the same name.
+LorekeepersCodexChar = { guid = "Player-6113-0DEAD000", entries = { ironforge = { at = 1, level = 20 } }, read = {} }
 fire("PLAYER_LOGIN")
+check(LorekeepersCodexChar.guid == PLAYER and not LorekeepersCodexChar.entries.ironforge, "a new character named like a deleted one starts a fresh codex")
+check(ns.belongsTo({ entries = { kharanos = { level = 2 } } }, PLAYER, 3), "a codex from before 0.1.3 is kept")
+check(not ns.belongsTo({ entries = { kharanos = { level = 20 } } }, PLAYER, 3), "… unless it was found at a higher level than this character's")
 check(LorekeepersCodexChar ~= nil, "the codex is saved per character")
 check(has("foreword") and LorekeepersCodexChar.entries.foreword.retro, "the foreword is there from the start, quietly")
 check(has("war-of-the-three-hammers"), "logging in at Anvilmar unlocks the War of the Three Hammers (English name fallback)")
@@ -258,4 +263,8 @@ check(not LorekeepersCodexFrame.shown, "/codex again closes it")
 printed = {}
 SlashCmdList.LOREKEEPERSCODEX("where")
 check(printed[1]:find("position: 1455 60.0 49.0", 1, true) ~= nil and printed[2]:find("npc: 2784", 1, true) ~= nil, "/codex where gives the position and target in content terms")
+SlashCmdList.LOREKEEPERSCODEX("reset")
+check(ns.count() > 3, "/codex reset alone only asks")
+SlashCmdList.LOREKEEPERSCODEX("reset yes")
+check(LorekeepersCodexChar.guid == PLAYER and LorekeepersCodexChar.entries.foreword and LorekeepersCodexChar.entries.ironforge and not LorekeepersCodexChar.entries.timber, "/codex reset yes starts over, from what the character has already done")
 io.write("all good\n")

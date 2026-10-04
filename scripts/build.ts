@@ -80,9 +80,13 @@ function resolveArea(file: string, spec: string): number | null {
   const m = spec.match(/^(.*?)\s*(?:\((.*)\))?$/);
   const name = m?.[1] ?? spec;
   const parent = m?.[2];
-  let found = areas.filter((a) => a.name === name);
-  if (parent) found = found.filter((a) => areaById.get(a.parent)?.name === parent);
-  if (found.length === 1) return found[0].id;
+  // Some names end with a space in the client data ("Ruins of Eldarath ").
+  let found = areas.filter((a) => a.name.trim() === name);
+  if (parent) found = found.filter((a) => areaById.get(a.parent)?.name.trim() === parent);
+  // Later clients added second copies of some places under the same zone
+  // (Twilight Grove 856 and 16160): the addon matches places by name, so any
+  // of them will do.
+  if (found.length && found.every((a) => a.parent === found[0].parent)) return Math.min(...found.map((a) => a.id));
   if (!found.length) fail(file, `no area "${spec}" in data/areas.json`);
   else fail(file, `"${spec}" is ambiguous: ${found.map((a) => `${a.name} (${areaById.get(a.parent)?.name ?? "zone"})`).join(", ")}; add the parent in parentheses`);
   return null;

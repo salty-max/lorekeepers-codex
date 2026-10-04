@@ -26,7 +26,7 @@ The banner, the chat line, the sound and the minimap button are set in the
 game's Options, AddOns tab (or `/codex settings`, or right-click the minimap
 button). A zone's
 chapter appears in the book with its first page, with a count of the pages
-found there. `/codex where` prints your position
+found there. `/codex reset` starts a character's codex over. `/codex where` prints your position
 and target in the terms content files use (for writing new pages).
 
 For Classic Era (Hardcore, Season of Discovery) and TBC Anniversary. Not

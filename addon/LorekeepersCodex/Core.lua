@@ -125,19 +125,48 @@ end
 local frame = CreateFrame("Frame")
 local handlers = {}
 
-function handlers.PLAYER_LOGIN()
-  LorekeepersCodexChar = LorekeepersCodexChar or {}
-  char = LorekeepersCodexChar
-  char.entries = char.entries or {}
-  char.read = char.read or {}
-  indexAreas()
+-- The game keeps a character's saved variables under its name, so a new
+-- character named like a deleted one inherits its pages. Each codex remembers
+-- whose it is (the character's GUID, unique to it). One saved before it did
+-- (0.1.2 and earlier) is kept, unless it holds pages found at a higher level
+-- than this character has.
+function ns.belongsTo(saved, guid, level)
+  if type(saved) ~= "table" then return false end
+  if saved.guid then return saved.guid == guid end
+  for _, p in pairs(saved.entries or {}) do
+    if (p.level or 0) > level then return false end
+  end
+  return true
+end
+
+-- Pages this character has from the start: the foreword, and what it did
+-- before the codex (quests, reputations, where it stands).
+local function catchUp()
   for _, id in ipairs(always) do unlock(id, true) end
-  -- What this character did before the codex: quests and reputations.
   for questId, ids in pairs(byQuest) do
     if questDone(questId) then for _, id in ipairs(ids) do unlock(id, true) end end
   end
   checkFactions(true)
   checkArea()
+end
+
+local function newCodex(guid)
+  LorekeepersCodexChar = { guid = guid, entries = {}, read = {} }
+  char = LorekeepersCodexChar
+end
+
+function handlers.PLAYER_LOGIN()
+  local guid = UnitGUID("player")
+  if ns.belongsTo(LorekeepersCodexChar, guid, UnitLevel("player")) then
+    char = LorekeepersCodexChar
+    char.guid = guid
+    char.entries = char.entries or {}
+    char.read = char.read or {}
+  else
+    newCodex(guid)
+  end
+  indexAreas()
+  catchUp()
   if C_Timer and next(byMap) then C_Timer.NewTicker(2, checkPosition) end
   ns.createMinimapButton()
   ns.createSettingsPanel()
@@ -188,6 +217,17 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
       pos and ("position: %d %.1f %.1f"):format(map, pos.x * 100, pos.y * 100) or "no position"))
     local target = npcId("target")
     if target then print(PREFIX .. ("target: npc: %d (%s)"):format(target, UnitName("target") or "?")) end
+    return
+  end
+  if msg == "reset" then
+    print(PREFIX .. "this forgets every page this character has found. Type /codex reset yes to do it.")
+    return
+  end
+  if msg == "reset yes" then
+    newCodex(char.guid)
+    catchUp()
+    if ns.refresh then ns.refresh() end
+    print(PREFIX .. ("the codex starts afresh: %d of %d pages."):format(ns.count(), ns.total))
     return
   end
   if msg == "banner" then
