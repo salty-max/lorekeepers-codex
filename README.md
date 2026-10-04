@@ -27,7 +27,18 @@ The banner, the chat line, the sound and the minimap button are set in the
 game's Options, AddOns tab (or `/codex settings`, or right-click the minimap
 button). A zone's
 chapter appears in the book with its first page, with a count of the pages
-found there. The book has a search box (it searches the pages you have found), and creatures that unlock a page say so on their tooltip. `/codex reset` starts a character's codex over. `/codex where` prints your position
+found there. The book has a search box (it searches the pages you have found), and creatures that unlock a page say so on their tooltip. `/codex reset` starts a character's codex over.
+
+Achievements: a second tab in the book (or `/codex achievements`) lists them,
+each character earning its own: milestones for the pages found (10 up to the
+whole codex), feats (pages read; the legendary wanderers; the leaders of your
+side; dungeons; the great powers at the end of the deepest lairs; a page in
+every chapter) and one for each chapter completed, listed once the chapter is
+opened. No counter gives away the codex's full size: the book counts the
+pages of the chapters you have opened. A click on a chapter's title folds its pages away, or opens them again; the
+button beside the search box folds or unfolds them all. Each remembers when and at
+what level it was earned, and is announced like a page. A codex from before
+they existed earns what it already deserves quietly. `/codex where` prints your position
 and target in the terms content files use (for writing new pages).
 
 For Classic Era (Hardcore, Season of Discovery) and TBC Anniversary. Not

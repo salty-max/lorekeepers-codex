@@ -2,8 +2,9 @@
 -- page's title, with a book button (or a click anywhere on it) to read the
 -- page and a close button. It goes away on its own after a few seconds
 -- (bannerSeconds in the settings, 0 to keep it until read or closed), never
--- while the mouse is on it; a page found meanwhile replaces it. Turned off in
--- the settings or with /codex banner.
+-- while the mouse is on it; a page found meanwhile replaces it. An achievement
+-- earned shows the same way, and opens the book at the achievements. Turned
+-- off in the settings or with /codex banner.
 local _, ns = ...
 local C = ns.content
 
@@ -55,15 +56,16 @@ local function build()
   read:SetScript("OnClick", function() banner:Click() end)
   read:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
-    GameTooltip:AddLine("Read this page")
+    GameTooltip:AddLine(banner.achievement and "See your achievements" or "Read this page")
     GameTooltip:Show()
   end)
   read:SetScript("OnLeave", function() GameTooltip:Hide() end)
 
   banner:SetScript("OnClick", function(self)
-    local id = self.id
+    local id, achievement = self.id, self.achievement
     ns.hideBanner()
-    if id then ns.open(id) end
+    if achievement then ns.openAchievements(achievement)
+    elseif id then ns.open(id) end
   end)
 end
 
@@ -72,8 +74,18 @@ function ns.showBanner(id)
   if not banner then build() end
   -- A page found while it shows replaces it (the other waits in the book,
   -- marked unread).
-  banner.id = id
+  banner.id, banner.achievement = id, false
   banner.title:SetText(C.entries[id].title)
+  banner:Show()
+  startTimer()
+end
+
+function ns.showAchievementBanner(id)
+  local a = ns.achievementById[id]
+  if not ns.option("banner") or not a then return end
+  if not banner then build() end
+  banner.id, banner.achievement = false, id
+  banner.title:SetText("|cffffffffAchievement:|r " .. a.title)
   banner:Show()
   startTimer()
 end

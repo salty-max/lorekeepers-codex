@@ -8,6 +8,8 @@ local PREFIX = "|cffc9a227Lorekeeper's Codex:|r "
 -- This character's codex (SavedVariablesPerCharacter):
 --   entries[id] = { at, level, zone, sub, retro }   unlocked pages
 --   read[id] = true                                 pages already opened
+--   achievements[id] = { at, level, retro }         see Achievements.lua
+--   collapsed[chapterId] = true                     chapters folded in the book
 local char
 
 -- ── what unlocks what ────────────────────────────────────────────────────────
@@ -77,7 +79,26 @@ countTotal()
 
 function ns.page(id) return char and ns.available(id) and char.entries[id] or nil end
 function ns.isRead(id) return char and char.read[id] end
-function ns.markRead(id) if char then char.read[id] = true end end
+function ns.markRead(id)
+  if not char or char.read[id] then return end
+  char.read[id] = true
+  ns.checkAchievements()
+end
+-- The pages a reader may know of: those of the chapters it has opened (one
+-- page found) and its foreword. The codex's full size would be a spoiler.
+function ns.knownTotal()
+  local n = 0
+  for id, e in pairs(C.entries) do
+    if e.chapter == "" and ns.page(id) then n = n + 1 end
+  end
+  for _, ch in ipairs(C.chapters) do
+    for _, id in ipairs(ch.entries) do
+      if ns.page(id) then n = n + #ch.entries break end
+    end
+  end
+  return n
+end
+
 function ns.count()
   local n = 0
   if char then for id in pairs(char.entries) do if ns.available(id) then n = n + 1 end end end
@@ -104,6 +125,7 @@ local function unlock(id, retro)
     ns.showBanner(id)
   end
   if ns.onUnlock then ns.onUnlock(id) end
+  ns.checkAchievements(retro)
 end
 ns.unlock = unlock
 
@@ -184,7 +206,7 @@ local function catchUp()
 end
 
 local function newCodex(guid)
-  LorekeepersCodexChar = { guid = guid, entries = {}, read = {} }
+  LorekeepersCodexChar = { guid = guid, entries = {}, read = {}, achievements = {} }
   char = LorekeepersCodexChar
 end
 
@@ -197,16 +219,21 @@ function handlers.PLAYER_LOGIN()
     char.guid = guid
     char.entries = char.entries or {}
     char.read = char.read or {}
+    char.achievements = char.achievements or {}
   else
     newCodex(guid)
   end
   indexAreas()
+  -- What the codex already deserves (saved before achievements existed), then
+  -- what it finds on catching up, all quietly; only new deeds are announced.
+  ns.checkAchievements(true)
   catchUp()
+  ns.checkAchievements(true)
   if C_Timer and next(byMap) then C_Timer.NewTicker(2, checkPosition) end
   ns.createMinimapButton()
   ns.createSettingsPanel()
   -- The only reminder of how to open the book: once, at login.
-  print(PREFIX .. ("%d of %d pages. Type /codex or click the book by the minimap to read them."):format(ns.count(), ns.total))
+  print(PREFIX .. ("%d of %d pages. Type /codex or click the book by the minimap to read them."):format(ns.count(), ns.knownTotal()))
 end
 
 handlers.ZONE_CHANGED = checkArea
@@ -255,14 +282,15 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
     return
   end
   if msg == "reset" then
-    print(PREFIX .. "this forgets every page this character has found. Type /codex reset yes to do it.")
+    print(PREFIX .. "this forgets every page and achievement this character has found. Type /codex reset yes to do it.")
     return
   end
   if msg == "reset yes" then
     newCodex(char.guid)
     catchUp()
+    ns.checkAchievements(true)
     if ns.refresh then ns.refresh() end
-    print(PREFIX .. ("the codex starts afresh: %d of %d pages."):format(ns.count(), ns.total))
+    print(PREFIX .. ("the codex starts afresh: %d of %d pages."):format(ns.count(), ns.knownTotal()))
     return
   end
   if msg == "banner" then
@@ -273,6 +301,10 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
   if msg == "minimap" then
     ns.setOption("minimapHidden", not ns.option("minimapHidden"))
     print(PREFIX .. (ns.option("minimapHidden") and "minimap button hidden (/codex minimap to show it again)." or "minimap button shown."))
+    return
+  end
+  if msg == "achievements" or msg == "ach" then
+    if ns.openAchievements then ns.openAchievements() end
     return
   end
   if msg == "settings" or msg == "options" then

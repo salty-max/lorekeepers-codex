@@ -83,6 +83,8 @@ local function ui()
       if k == "GetText" then return function(self) return rawget(self, "text") or "" end end
       if k == "GetStringHeight" then return function() return 14 end end
       if k == "SetHeight" then return function(self, v) self.height = v end end
+      if k == "SetID" then return function(self, v) self.idValue = v end end
+      if k == "GetID" then return function(self) return rawget(self, "idValue") or 0 end end
       if k == "GetHeight" then return function(self) return rawget(self, "height") or 100 end end
       if k == "SetVerticalScroll" then return function(self, v) self.vscroll = v end end
       if k == "GetVerticalScroll" then return function(self) return rawget(self, "vscroll") or 0 end end
@@ -155,6 +157,7 @@ ns.content.entries["t-quest-new"] = entry("Quest turned in", { quest = 8888 })
 ns.content.entries["t-rep"] = entry("Friendly with Ironforge", { faction = 47, standing = 5 })
 ns.content.entries["t-pos"] = entry("The Great Forge", { map = 1455, x = 57, y = 47, r = 6 })
 assert(loadfile(DIR .. "Core.lua"))("LorekeepersCodex", ns)
+assert(loadfile(DIR .. "Achievements.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Codex.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Minimap.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Banner.lua"))("LorekeepersCodex", ns)
@@ -185,6 +188,7 @@ check(said("|Hlorekeeper:war-of-the-three-hammers|h[The War of the Three Hammers
 local hints = 0
 for _, p in ipairs(printed) do if p:find("/codex", 1, true) then hints = hints + 1 end end
 check(hints == 1 and said("pages. Type /codex or click the book by the minimap"), "the /codex hint appears once, at login, and not in page messages")
+check(ns.knownTotal() < ns.total and said(("%d of %d pages. Type /codex"):format(ns.count(), ns.knownTotal())), "the page count only counts the chapters opened, not the whole codex")
 local banner = LorekeepersCodexBanner
 check(banner and banner.shown and banner.id == "war-of-the-three-hammers", "a banner shows the newest page at the top of the screen")
 check(banner.title.text == "The War of the Three Hammers" and rawget(banner, "text") == nil and rawget(banner, "more") == nil, "… only its title, with a button to read it")
@@ -251,8 +255,11 @@ kill(PLAYER, 1123)
 check(has("frostmane-trolls"), "killing a Frostmane Headhunter unlocks the Frostmane trolls")
 kill(PET, 1132)
 check(has("timber"), "your pet killing Timber (a rare) counts")
+check(ns.earned("wanderer-one") and not ns.earned("wanderer-one").retro, "… and earns an achievement, A Tale Worth Telling")
+check(said("achievement earned: |cffffd100|Hlorekeeper:ach:wanderer-one|h[A Tale Worth Telling]|h|r"), "… announced in chat as a link")
+check(LorekeepersCodexBanner.achievement == "wanderer-one", "… and on the banner")
 kill(PLAYER, 706)
-check(sounds == 9, "another Frostmane kill adds nothing")
+check(sounds == 11 and ns.earned("pages-10"), "another Frostmane kill adds nothing (the tenth page earned Ink on the Fingers)")
 
 state.zone, state.sub = "Ironforge", ""
 fire("ZONE_CHANGED_NEW_AREA")
@@ -305,6 +312,10 @@ SlashCmdList.LOREKEEPERSCODEX("")
 check(LorekeepersCodexFrame and LorekeepersCodexFrame.shown, "/codex opens the book")
 check(next(LorekeepersCodexChar.read) ~= nil, "opening it shows an unread page, marked read")
 check(ns.count() == 13, "13 pages found")
+local expected = 0
+for _, ch in ipairs(ns.content.chapters) do if ns.found(ch) > 0 then expected = expected + #ch.entries end end
+for id, e in pairs(ns.content.entries) do if e.chapter == "" and ns.page(id) then expected = expected + 1 end end
+check(ns.knownTotal() == expected and LorekeepersCodexFrame.count.text == ("%d of %d pages"):format(ns.count(), expected), "the book counts the pages of the opened chapters, and the foreword")
 local C = ns.content
 check(ns.found(C.chapters[1]) == 7 and #C.chapters[1].entries == 17, "Dun Morogh counts 7 of its 17 pages")
 check(C.chapters[#C.chapters].id == "peoples" and ns.found(C.chapters[#C.chapters]) == 0, "Peoples and Powers comes last, hidden until a people is met")
@@ -345,4 +356,85 @@ ns.refresh()
 LorekeepersCodexFrame.search:SetText("")
 ns.refresh()
 check(true, "the book's list follows the search box (results, none, back to chapters)")
+-- ── folding chapters ─────────────────────────────────────────────────────────
+SlashCmdList.LOREKEEPERSCODEX("")
+LorekeepersCodexFrameTab1.scripts.OnClick(LorekeepersCodexFrameTab1)
+local function chapterRow(title)
+  for _, r in ipairs(ns.listRows) do
+    if r.shown and r.text.text == title and r.fold.shown then return r end
+  end
+end
+local function shownRows()
+  local n = 0
+  for _, r in ipairs(ns.listRows) do if r.shown then n = n + 1 end end
+  return n
+end
+local open = shownRows()
+local dunRow = chapterRow(C.chapters[1].title)
+check(dunRow ~= nil, "a chapter's title carries a fold")
+dunRow.scripts.OnClick(dunRow)
+check(LorekeepersCodexChar.collapsed[C.chapters[1].id] and shownRows() == open - #C.chapters[1].entries, "clicking a chapter's title folds its pages away")
+check(chapterRow(C.chapters[1].title), "… the chapter's title and progress stay")
+chapterRow(C.chapters[1].title).scripts.OnClick(chapterRow(C.chapters[1].title))
+check(not LorekeepersCodexChar.collapsed[C.chapters[1].id] and shownRows() == open, "clicking again unfolds it")
+chapterRow(C.chapters[1].title).scripts.OnClick(chapterRow(C.chapters[1].title))
+linkHandlers.lorekeeper("lorekeeper:kharanos")
+check(not LorekeepersCodexChar.collapsed[C.chapters[1].id], "a link to a page in a folded chapter unfolds it")
+check(ns.anyUnfolded(), "with a chapter open, the button folds them all")
+LorekeepersCodexFoldAll.scripts.OnClick(LorekeepersCodexFoldAll)
+local titles = 0
+for _, ch in ipairs(C.chapters) do if ns.found(ch) > 0 then titles = titles + 1 end end
+local loose = 0
+for id, e in pairs(C.entries) do if e.chapter == "" and ns.page(id) then loose = loose + 1 end end
+check(not ns.anyUnfolded() and shownRows() == titles + loose, "one click folds every chapter: only their titles remain")
+LorekeepersCodexFoldAll.scripts.OnClick(LorekeepersCodexFoldAll)
+check(ns.anyUnfolded() and next(LorekeepersCodexChar.collapsed) == nil, "… and the next unfolds them all")
+LorekeepersCodexFrame:Hide()
+
+-- ── achievements ─────────────────────────────────────────────────────────────
+local seen, missing = {}, {}
+for _, a in ipairs(ns.achievements) do
+  assert(not seen[a.id], "duplicate achievement " .. a.id); seen[a.id] = true
+end
+for _, id in ipairs(ns.featPages) do if not C.entries[id] then table.insert(missing, id) end end
+check(#missing == 0, "every page an achievement names exists" .. (#missing > 0 and (": " .. table.concat(missing, ", ")) or ""))
+check(#ns.achievements == 9 + 4 + 9 + #C.chapters, "milestones, feats and one achievement per chapter")
+-- A codex from before achievements: what it deserves is recorded quietly.
+for _, id in ipairs(C.chapters[2].entries) do ns.unlock(id, true) end
+LorekeepersCodexChar.achievements = {}
+printed = {}
+local before = sounds
+ns.checkAchievements(true)
+check(ns.earned("pages-10") and ns.earned("pages-10").retro and #printed == 0 and sounds == before, "achievements a codex already deserves are recorded quietly")
+local dun = C.chapters[1]
+for _, id in ipairs(dun.entries) do ns.unlock(id) end
+check(ns.earned("chapter-" .. dun.id) and ns.earned("chapter-" .. dun.id).level == state.level, "finding every page of a chapter earns its achievement, with the level")
+local n = 0
+for id in pairs(C.entries) do if ns.page(id) and n < 10 then ns.markRead(id); n = n + 1 end end
+check(ns.earned("read-10"), "reading ten pages earns A Page by the Fire")
+check(not ns.earned("leaders"), "meeting one leader is not enough")
+for _, id in ipairs({ "thrall", "cairne-bloodhoof", "sylvanas-windrunner", "voljin" }) do ns.unlock(id) end
+check(ns.earned("leaders"), "the four leaders of either side earn Friends in High Places")
+LorekeepersCodexFrame:Hide()
+ns.openAchievements("leaders")
+check(LorekeepersCodexFrame.shown and LorekeepersCodexFrame.selectedTab == 2 and LorekeepersCodexAchievements.shown and not LorekeepersCodexList.shown, "an achievement opens the book at the achievements tab")
+check(LorekeepersCodexFrame.count.text == ("%d of %d achievements"):format(ns.achievementCount()), "… which counts them")
+local _, shown = ns.achievementCount()
+check(shown < #ns.achievements and not ns.achievementVisible(ns.achievementById["chapter-silithus"]), "… leaving out the chapters not yet opened")
+check(ns.achievementVisible(ns.achievementById["chapter-" .. dun.id]), "… but listing those already opened")
+check(ns.achievementById["pages-all"].unit == "pages" and ns.achievementById["travelled"].unit == "chapters", "the whole codex's size is never shown: a count instead")
+check(LorekeepersCodexAchievements.vscroll and LorekeepersCodexAchievements.vscroll > 0, "… and scrolls to the one opened")
+LorekeepersCodexFrameTab1.scripts.OnClick(LorekeepersCodexFrameTab1)
+check(LorekeepersCodexFrame.selectedTab == 1 and LorekeepersCodexList.shown and not LorekeepersCodexAchievements.shown, "the Pages tab brings the pages back")
+LorekeepersCodexFrame:Hide()
+linkHandlers.lorekeeper("lorekeeper:ach:pages-10")
+check(LorekeepersCodexFrame.shown and LorekeepersCodexFrame.selectedTab == 2, "an achievement link in chat opens the achievements")
+linkHandlers.lorekeeper("lorekeeper:kharanos")
+check(LorekeepersCodexFrame.selectedTab == 1, "a page link goes back to the pages")
+SlashCmdList.LOREKEEPERSCODEX("achievements")
+check(LorekeepersCodexFrame.selectedTab == 2, "/codex achievements opens them too")
+SlashCmdList.LOREKEEPERSCODEX("reset yes")
+local loud = false
+for _, e in pairs(LorekeepersCodexChar.achievements) do if not e.retro then loud = true end end
+check(not ns.earned("leaders") and not ns.earned("chapter-" .. dun.id) and not loud, "/codex reset forgets the achievements (what the codex still earns comes back quietly)")
 io.write("all good\n")
