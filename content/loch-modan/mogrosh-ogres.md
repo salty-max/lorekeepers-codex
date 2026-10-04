@@ -5,7 +5,7 @@ kind: faction
 unlock:
   - kill: 1178, 1179, 1180, 1181, 1183 # Mo'grosh Ogre, Enforcer, Brute, Shaman, Mystic
   - area: Mo'grosh Stronghold
-also: [loch-modan]
+also: [loch-modan, ogres]
 ---
 In the north-east of Loch Modan, the Mo'grosh ogres have made a stronghold of their own and dare anyone to come and take it.
 

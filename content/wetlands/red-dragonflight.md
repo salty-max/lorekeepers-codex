@@ -4,7 +4,7 @@ title: The Red Dragonflight
 kind: creature
 unlock:
   - kill: 1045, 1046, 1047, 1048, 1049, 1050 # the dragonkin of Grim Batol
-also: [grim-batol, dragonmaw-clan]
+also: [grim-batol, dragonmaw-clan, black-dragonflight]
 ---
 The red dragons belong to Alexstrasza, whom the old tales call the Life-Binder. They are among the oldest and greatest powers in the world, and the orcs of the Dragonmaw once held them in chains.
 

@@ -5,7 +5,7 @@ kind: faction
 unlock:
   - kill: 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014 # every Mosshide
   - area: Mosshide Fen
-also: [wetlands]
+also: [wetlands, gnolls]
 ---
 Gnolls are everywhere in the human kingdoms, and the Wetlands have their own: the Mosshide, who live in the fens and raid whatever passes.
 

@@ -65,6 +65,7 @@ local function elapse()
   end
 end
 function UnitXP() return 0 end
+function UnitRace() return "Dwarf", "Dwarf" end
 
 -- UI: any method works and returns something sensible, scripts are kept.
 local function ui()
@@ -160,7 +161,11 @@ check(ns.belongsTo({ entries = { kharanos = { level = 2 } } }, PLAYER, 3), "a co
 check(not ns.belongsTo({ entries = { kharanos = { level = 20 } } }, PLAYER, 3), "… unless it was found at a higher level than this character's")
 check(not ns.belongsTo({ entries = { ["rockjaw-troggs"] = { level = 1 } } }, PLAYER, 1, 0), "… or this character is brand new (level 1, no experience)")
 check(LorekeepersCodexChar ~= nil, "the codex is saved per character")
-check(has("foreword") and LorekeepersCodexChar.entries.foreword.retro, "the foreword is there from the start, quietly")
+check(has("foreword-dwarf") and LorekeepersCodexChar.entries["foreword-dwarf"].retro, "the dwarf's foreword is there from the start, quietly")
+check(not has("foreword-human") and not ns.available("foreword-human"), "… and no other race's")
+local pages = 0
+for _ in pairs(ns.content.entries) do pages = pages + 1 end
+check(ns.total == pages - 8, "the other races' forewords don't count in the total")
 check(has("war-of-the-three-hammers"), "logging in at Anvilmar unlocks the War of the Three Hammers (English name fallback)")
 local function said(text) for _, p in ipairs(printed) do if p:find(text, 1, true) then return p end end end
 check(said("|Hlorekeeper:war-of-the-three-hammers|h[The War of the Three Hammers]|h|r has been added to the codex.") and sounds == 2, "a new page is announced in chat as a link, with a sound")
@@ -283,7 +288,8 @@ check(LorekeepersCodexFrame and LorekeepersCodexFrame.shown, "/codex opens the b
 check(next(LorekeepersCodexChar.read) ~= nil, "opening it shows an unread page, marked read")
 check(ns.count() == 13, "13 pages found")
 local C = ns.content
-check(ns.found(C.chapters[1]) == 7 and #C.chapters[1].entries == 18, "Dun Morogh counts 7 of its 18 pages")
+check(ns.found(C.chapters[1]) == 7 and #C.chapters[1].entries == 17, "Dun Morogh counts 7 of its 17 pages")
+check(C.chapters[#C.chapters].id == "peoples" and ns.found(C.chapters[#C.chapters]) == 0, "Peoples and Powers comes last, hidden until a people is met")
 check(ns.found(C.chapters[2]) == 0, "Loch Modan, not visited, has no page found: its chapter stays hidden")
 check(ns.found(C.chapters[3]) == 1, "the Wetlands show once Menethil is found")
 SlashCmdList.LOREKEEPERSCODEX("")
@@ -294,5 +300,5 @@ check(printed[1]:find("position: 1455 60.0 49.0", 1, true) ~= nil and printed[2]
 SlashCmdList.LOREKEEPERSCODEX("reset")
 check(ns.count() > 3, "/codex reset alone only asks")
 SlashCmdList.LOREKEEPERSCODEX("reset yes")
-check(LorekeepersCodexChar.guid == PLAYER and LorekeepersCodexChar.entries.foreword and LorekeepersCodexChar.entries.ironforge and not LorekeepersCodexChar.entries.timber, "/codex reset yes starts over, from what the character has already done")
+check(LorekeepersCodexChar.guid == PLAYER and LorekeepersCodexChar.entries["foreword-dwarf"] and LorekeepersCodexChar.entries.ironforge and not LorekeepersCodexChar.entries.timber, "/codex reset yes starts over, from what the character has already done")
 io.write("all good\n")
