@@ -42,22 +42,40 @@ local function indexAreas()
 end
 
 -- ── the codex ────────────────────────────────────────────────────────────────
-ns.total = 0
-for _ in pairs(C.entries) do ns.total = ns.total + 1 end
+-- Some pages are for some races only (the forewords): a character neither
+-- sees nor counts the others. "other" stands for the races without a page of
+-- their own (the Burning Crusade's).
+local RACES = { Human = true, Dwarf = true, NightElf = true, Gnome = true, Orc = true, Troll = true, Tauren = true, Scourge = true }
+local race
+function ns.available(id)
+  local e = C.entries[id]
+  if not e then return false end
+  if not e.race then return true end
+  if not race then return false end
+  return e.race[race] or (e.race.other and not RACES[race]) or false
+end
 
-function ns.page(id) return char and char.entries[id] end
+local function countTotal()
+  ns.total = 0
+  for id in pairs(C.entries) do
+    if ns.available(id) then ns.total = ns.total + 1 end
+  end
+end
+countTotal()
+
+function ns.page(id) return char and ns.available(id) and char.entries[id] or nil end
 function ns.isRead(id) return char and char.read[id] end
 function ns.markRead(id) if char then char.read[id] = true end end
 function ns.count()
   local n = 0
-  if char then for _ in pairs(char.entries) do n = n + 1 end end
+  if char then for id in pairs(char.entries) do if ns.available(id) then n = n + 1 end end end
   return n
 end
 
 -- retro: found by looking back (a quest done before the addon, a page given
 -- from the start): recorded quietly.
 local function unlock(id, retro)
-  if not char or char.entries[id] or not C.entries[id] then return end
+  if not char or char.entries[id] or not ns.available(id) then return end
   char.entries[id] = {
     at = time(),
     level = UnitLevel("player"),
@@ -158,6 +176,8 @@ local function newCodex(guid)
 end
 
 function handlers.PLAYER_LOGIN()
+  race = select(2, UnitRace("player"))
+  countTotal()
   local guid = UnitGUID("player")
   if ns.belongsTo(LorekeepersCodexChar, guid, UnitLevel("player"), UnitXP("player")) then
     char = LorekeepersCodexChar

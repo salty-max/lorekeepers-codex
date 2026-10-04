@@ -17,6 +17,8 @@
  *     - position: 1455 74 10 6  # within 6 (map %) of x 74 y 10 on uiMap 1455
  *   also: [war-of-the-three-hammers]
  *   excerpt: ...                # the banner's text; default: the first sentence
+ *   race: Dwarf, Gnome          # only for these races (UnitRace tokens, or
+ *                               # "other" for races without a page of their own)
  *   ---
  *   Paragraphs, separated by blank lines. A paragraph in *asterisks* is a signature.
  *
@@ -35,11 +37,12 @@ const CONTENT = join(ROOT, "content");
 const OUT = join(ROOT, "addon/LorekeepersCodex/Content.lua");
 
 const KINDS = ["place", "figure", "faction", "creature", "history", "note"] as const;
+const RACES = ["Human", "Dwarf", "NightElf", "Gnome", "Orc", "Troll", "Tauren", "Scourge", "other"];
 const STANDINGS: Record<string, number> = { hated: 1, hostile: 2, unfriendly: 3, neutral: 4, friendly: 5, honored: 6, revered: 7, exalted: 8 };
 
 type Area = { id: number; name: string; parent: number };
 type Unlock = { always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number };
-type Entry = { id: string; title: string; kind: string; chapter: string; unlock: Unlock[]; also: string[]; excerpt: string; text: { italic: boolean; text: string }[]; file: string };
+type Entry = { id: string; title: string; kind: string; chapter: string; unlock: Unlock[]; also: string[]; excerpt: string; race: string[]; text: { italic: boolean; text: string }[]; file: string };
 
 const areas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas.json"), "utf8"));
 const areaById = new Map(areas.map((a) => [a.id, a]));
@@ -86,7 +89,8 @@ function resolveArea(file: string, spec: string): number | null {
   // Later clients added second copies of some places under the same zone
   // (Twilight Grove 856 and 16160): the addon matches places by name, so any
   // of them will do.
-  if (found.length && found.every((a) => a.parent === found[0].parent)) return Math.min(...found.map((a) => a.id));
+  const parentName = (a: Area) => areaById.get(a.parent)?.name.trim() ?? "";
+  if (found.length && found.every((a) => parentName(a) === parentName(found[0]))) return Math.min(...found.map((a) => a.id));
   if (!found.length) fail(file, `no area "${spec}" in data/areas.json`);
   else fail(file, `"${spec}" is ambiguous: ${found.map((a) => `${a.name} (${areaById.get(a.parent)?.name ?? "zone"})`).join(", ")}; add the parent in parentheses`);
   return null;
@@ -182,6 +186,7 @@ for (const file of walk(CONTENT).sort()) {
     also,
     text: paragraphs(body),
     excerpt: typeof meta.excerpt === "string" ? meta.excerpt : excerpt(paragraphs(body)),
+    race: typeof meta.race === "string" ? meta.race.split(",").map((r) => r.trim()) : [],
     file,
   });
 }
@@ -193,6 +198,7 @@ for (const e of entries) {
   if (e.chapter && !chapters.has(e.chapter)) fail(e.file, `chapter folder ${e.chapter} has no _chapter.md`);
   for (const a of e.also) if (!entries.some((o) => o.id === a)) fail(e.file, `also: no entry "${a}"`);
   if (!e.text.length) fail(e.file, "no text");
+  for (const r of e.race) if (!RACES.includes(r)) fail(e.file, `race: one of ${RACES.join(", ")}`);
 }
 if (errors.length) {
   console.error(errors.map((e) => `✗ ${e}`).join("\n"));
@@ -235,7 +241,7 @@ ${entries
       title = ${q(e.title)}, kind = ${q(e.kind)}, chapter = ${q(e.chapter)},
       unlock = { ${e.unlock.map(unlockLua).join(", ")} },
       also = { ${e.also.map(q).join(", ")} },
-      excerpt = ${q(e.excerpt)},
+      excerpt = ${q(e.excerpt)},${e.race.length ? ` race = { ${e.race.map((r) => `${r} = true`).join(", ")} },` : ""}
       text = {
 ${e.text.map((p) => `        { ${p.italic ? "italic = true, " : ""}${q(p.text)} },`).join("\n")}
       },

@@ -224,11 +224,15 @@ local function build()
 
   book:SetScript("OnShow", function()
     if not current or not ns.page(current) then
-      -- First opening: the newest unread page, else the foreword.
+      -- First opening: an unread page, else this character's foreword.
       for id in pairs(C.entries) do
         if ns.page(id) and not ns.isRead(id) then current = id break end
       end
-      current = current or "foreword"
+      if not current then
+        for id, e in pairs(C.entries) do
+          if e.chapter == "" and ns.page(id) then current = id break end
+        end
+      end
     end
     showPage(current)
     ns.refresh()

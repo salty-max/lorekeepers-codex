@@ -1,7 +1,8 @@
 ---
-id: foreword
+id: foreword-other
 title: A Word from the Archivist
 kind: note
+race: other
 unlock: always
 ---
 Traveller, if this ledger has found its way into your pack, then the Hall of Explorers has judged you worth the ink.
