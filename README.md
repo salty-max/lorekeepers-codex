@@ -16,7 +16,7 @@ to each other; locked ones wait as `· · ·`.
 - **Every client language**: places, creatures and quests are matched by the
   game's ids, not their names.
 
-First chapter in progress: **Dun Morogh** and the dwarven lands.
+Written so far: every race's starting lands and capital (Dun Morogh and Ironforge, Elwynn Forest and Stormwind, Teldrassil and Darnassus, Durotar and Orgrimmar, Mulgore and Thunder Bluff, Tirisfal Glades and Undercity), Loch Modan and the Wetlands, and *Peoples and Powers*, the peoples and orders met across many lands. Each race reads its own foreword.
 
 `/codex` or the book by the minimap opens the codex (drag the button to move
 it; `/codex minimap` hides or shows it). Each new page is announced in chat as

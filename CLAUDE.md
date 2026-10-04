@@ -25,7 +25,7 @@ Three tests, all required: (1) there's a story beyond what the game shows;
 (2) the player meets it at a clear moment (arriving, talking, killing,
 finishing a story); lore never met directly hangs on a place or person that
 evokes it (the War of the Three Hammers unlocks at Anvilmar); (3) it holds up
-in vanilla-era sources.
+in sources from before Wrath of the Lich King (see Lore below).
 
 - Zones: every zone gets one page.
 - Places: towns, capitals (one page each, no districts), landmarks with a
@@ -45,10 +45,19 @@ in vanilla-era sources.
 - Voice: an archivist of the Explorers' League, writing from the Hall of
   Explorers in Ironforge; addresses the reader as "traveller"; warm, dry, a
   scholar's asides. Short: two to four paragraphs.
-- Lore: **vanilla-era only** (what was known in Classic, ~patch 1.12): no later
-  expansions, no future fates. Original wording, never copied from wikis or
-  game text. Check every fact against the Warcraft Wiki before release; when
-  sources disagree or it's uncertain, write around it rather than guess.
+- Lore (the user's scope): **everything from the origin of the universe up to
+  the vanilla era**, as told by sources published before Wrath of the Lich King
+  (Nov 2008): Warcraft I, II and III (with their manuals), World of Warcraft up
+  to patch 1.12 (its quests, books and item texts), and the novels of that time
+  (Of Blood and Honor, Day of the Dragon, Lord of the Clans, The Last Guardian,
+  the War of the Ancients trilogy, Cycle of Hatred, Rise of the Horde, Tides of
+  Darkness, Beyond the Dark Portal, Night of the Dragon). Nothing from later
+  expansions, novels or retcons (Chronicle, Arthas, Stormrage, Warlords' Draenor
+  …), and no future fates. Original wording, never copied from wikis or game
+  text. Research each page: the Warcraft Wiki (`?action=raw` gives the source),
+  checked against the period sources above (vanilla quest texts on Wowhead);
+  the wiki mixes eras, so date every claim. When sources disagree or it's
+  uncertain, write around it rather than guess.
 - Unlocks (the user's rules): places when discovered; figures when talked to;
   mobs and rares when killed (a people's page lists every creature id of it);
   capitals get one page for the whole city (no per-district pages). Ids are

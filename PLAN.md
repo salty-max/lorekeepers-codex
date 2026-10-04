@@ -1,5 +1,7 @@
 # Pages to write, per chapter
 
+Forewords: 9 written, one per race and a general one (only the reader's own counts).
+
 The editorial line is in CLAUDE.md ("What deserves a page"). A zone gets as
 many pages as it has stories. Sources: the zone's sub-zones from the game's area
 table (`data/areas.json`), its creatures and quests from Wowhead Classic (ids
@@ -47,7 +49,7 @@ Modan), class quests, and anything failing the three tests.
 
 ---
 
-## Chapter 1: Dun Morogh and Ironforge (18 pages, 17 written)
+## Chapter 1: Dun Morogh and Ironforge (18 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -59,7 +61,7 @@ Modan), class quests, and anything failing the three tests.
 | ✅ Gnomeregan | history | Gnomeregan (Dun Morogh) (133) |
 | ✅ The Gnomeregan Exiles | faction | Steelgrill's Depot (189); talking to Mekkatorque (7937) |
 | ✅ High Tinker Mekkatorque | figure | talking to him (7937) |
-| 📝 Mekgineer Thermaplugg | figure | killing him (7800): the gnome who flooded Gnomeregan with radiation and kept it |
+| ✅ Mekgineer Thermaplugg | figure | killing him (7800): the gnome who flooded Gnomeregan with radiation and kept it |
 | ✅ The Leper Gnomes | creature | killing a Leper Gnome (1211) |
 | ✅ The Frostmane Trolls | faction | any Frostmane kill (706, 946, 1120–1124, 1397); Frostmane Hold (135) |
 | ✅ The Wendigos | creature | Wendigo kills (1134, 1135); The Grizzled Den (136) |
@@ -121,22 +123,22 @@ Dragonmaw Battlemaster.
 
 # The Eastern Kingdoms
 
-## Elwynn Forest and Stormwind (12 pages)
+## Elwynn Forest and Stormwind (12 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Elwynn Forest | place | the zone (12) |
-| 📝 Northshire Abbey | place | Northshire Valley (9); Northshire Abbey (24) |
-| 📝 Goldshire | place | Goldshire (87) |
-| 📝 Hogger | creature | killing him (448): the Riverpaw chieftain on every wanted poster |
-| 📝 Stormwind City | place | the city (1519) (rebuilt by the stonemasons after the First War) |
-| 📝 The Regency of Stormwind | history | talking to Bolvar Fordragon (1748) or the boy king Anduin Wrynn (1747): King Varian missing, Bolvar regent |
-| 📝 Lady Katrana Prestor | figure | talking to her (1749) ❓ write as the court sees her, no reveal |
-| 📝 The Great Masquerade | history | quest The Great Masquerade (6403, Alliance) or The Testament of Rexxar (6568, Horde): Prestor unmasked as Onyxia |
-| 📝 The Noble Conspiracy | history | killing Lord Gregor Lescovar (1754); quest The Attack! (434): the nobles who paid the Defias |
-| 📝 SI:7 | faction | talking to Master Mathias Shaw (332) |
-| 📝 The Church of the Holy Light | faction | talking to Archbishop Benedictus (1284) or Bishop Farthing (1212) |
-| 📝 The Stockade | place | the dungeon (717): the riot, Bazil Thredd (1716) and Targorr (1696) |
+| ✅ Elwynn Forest | place | the zone (12) |
+| ✅ Northshire Abbey | place | Northshire Valley (9); Northshire Abbey (24) |
+| ✅ Goldshire | place | Goldshire (87) |
+| ✅ Hogger | creature | killing him (448): the Riverpaw chieftain on every wanted poster |
+| ✅ Stormwind City | place | the city (1519) (rebuilt by the stonemasons after the First War) |
+| ✅ The Regency of Stormwind | history | talking to Bolvar Fordragon (1748) or the boy king Anduin Wrynn (1747): King Varian missing, Bolvar regent |
+| ✅ Lady Katrana Prestor | figure | talking to her (1749) ❓ write as the court sees her, no reveal |
+| ✅ The Great Masquerade | history | quest The Great Masquerade (6403, Alliance), or killing Onyxia (10184): Prestor unmasked as Onyxia (the Horde's attunement chain never names Prestor) |
+| ✅ The Noble Conspiracy | history | killing Lord Gregor Lescovar (1754); quest The Attack! (434): the nobles who paid the Defias |
+| ✅ SI:7 | faction | talking to Master Mathias Shaw (332) |
+| ✅ The Church of the Holy Light | faction | talking to Archbishop Benedictus (1284) or Bishop Farthing (1212) |
+| ✅ The Stockade | place | the dungeon (717): the riot, Bazil Thredd (1716) and Targorr (1696) |
 
 Not paged: Tower of Azora (its mage leads to Morganth, in Redridge), Eastvale,
 the mines, the Stonefield–Maclure feud (a local tale), Westbrook Garrison,
@@ -220,22 +222,22 @@ King Mukla. Rares without a story: Mosh'Ogg Butcher, Scale Belly, Lord
 Sakrasis, Gluggle, Roloch, Rippa, Kurmokk, Verifonix. Met here, paged in Peoples
 and Powers: the Venture Company, ogres, the Steamwheedle Cartel, naga, murlocs.
 
-## Tirisfal Glades and Undercity (12 pages)
+## Tirisfal Glades and Undercity (12 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Tirisfal Glades | place | the zone (85) |
-| 📝 Deathknell | place | Deathknell (154) |
-| 📝 Brill | place | Brill (159) |
-| 📝 The Forsaken | faction | Deathknell (154); Brill (159); talking to Sylvanas (10181) |
-| 📝 Lady Sylvanas Windrunner | figure | talking to (or targeting) her (10181) |
-| 📝 Varimathras | figure | talking to (or targeting) him (2425) ❓ vanilla: the dreadlord who serves her |
-| 📝 Undercity | place | the city (1497) |
-| 📝 The Fall of Lordaeron | history | Ruins of Lordaeron (153) (Arthas and King Terenas) |
-| 📝 The Royal Apothecary Society | faction | talking to Master Apothecary Faranell (2055) ❓ only what vanilla shows: a new plague, "for the Scourge" |
-| 📝 The Bulwark | place | The Bulwark (152) (Tirisfal) |
-| 📝 The Scarlet Monastery | place | the dungeon (796) |
-| 📝 Whitemane and Mograine | figure | killing High Inquisitor Whitemane (3977) or Scarlet Commander Mograine (3976) |
+| ✅ Tirisfal Glades | place | the zone (85) |
+| ✅ Deathknell | place | Deathknell (154) |
+| ✅ Brill | place | Brill (159) |
+| ✅ The Forsaken | faction | Deathknell (154); Brill (159); talking to Sylvanas (10181) |
+| ✅ Lady Sylvanas Windrunner | figure | talking to (or targeting) her (10181) |
+| ✅ Varimathras | figure | talking to (or targeting) him (2425) ❓ vanilla: the dreadlord who serves her |
+| ✅ Undercity | place | the city (1497) |
+| ✅ The Fall of Lordaeron | history | Ruins of Lordaeron (153) (Arthas and King Terenas) |
+| ✅ The Royal Apothecary Society | faction | talking to Master Apothecary Faranell (2055) ❓ only what vanilla shows: a new plague, "for the Scourge" |
+| ✅ The Bulwark | place | The Bulwark (152) (Tirisfal) |
+| ✅ The Scarlet Monastery | place | the dungeon (796) |
+| ✅ Whitemane and Mograine | figure | killing High Inquisitor Whitemane (3977) or Scarlet Commander Mograine (3976) |
 
 Not paged: the Agamand family and mills (their own quest tale only), Cold Hearth
 Manor, Solliden and Balnir farmsteads, Garren's Haunt, Night Web's Hollow,
@@ -473,17 +475,17 @@ the Vice.
 
 # Kalimdor
 
-## Teldrassil and Darnassus (7 pages)
+## Teldrassil and Darnassus (7 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Teldrassil | place | the zone (141): the new World Tree |
-| 📝 Shadowglen | place | Shadowglen (188); Aldrassil (256) |
-| 📝 Dolanaar | place | Dolanaar (186) |
-| 📝 The Sickness of Teldrassil | history | Ban'ethil Barrow Den (262); Fel Rock (258); quest Gnarlpine Corruption (476) ❓ only what vanilla shows: maddened furbolgs, a tree not quite well |
-| 📝 Darnassus | place | the city (1657) |
-| 📝 Tyrande Whisperwind | figure | talking to her (7999) |
-| 📝 Arch Druid Fandral Staghelm | figure | talking to him (3516) ❓ no later fate |
+| ✅ Teldrassil | place | the zone (141): the new World Tree |
+| ✅ Shadowglen | place | Shadowglen (188); Aldrassil (256) |
+| ✅ Dolanaar | place | Dolanaar (186) |
+| ✅ The Sickness of Teldrassil | history | Ban'ethil Barrow Den (262); Fel Rock (258); quest Gnarlpine Corruption (476) ❓ only what vanilla shows: maddened furbolgs, a tree not quite well |
+| ✅ Darnassus | place | the city (1657) |
+| ✅ Tyrande Whisperwind | figure | talking to her (7999) |
+| ✅ Arch Druid Fandral Staghelm | figure | talking to him (3516) ❓ no later fate |
 
 Not paged: Starbreeze Village, the Oracle Glade, Lake Al'Ameth, Pools of
 Arlithrien, Wellspring Lake, Rut'theran Village (in Teldrassil), Gnarlpine Hold
@@ -641,22 +643,22 @@ Southwind Village, Bronzebeard Encampment, Hermit Ortell, the Crystal Vale,
 Bones of Grakkarond. Rares without a story: Setis, Gretheer, Lapress, Zora,
 Krellack, Grubthor, Huricanian, Twilight Lord Everun.
 
-## Durotar and Orgrimmar (12 pages)
+## Durotar and Orgrimmar (12 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Durotar | place | the zone (14) |
-| 📝 The Valley of Trials | place | Valley of Trials (363) |
-| 📝 Razor Hill | place | Razor Hill (362) |
-| 📝 Sen'jin Village | place | Sen'jin Village (367) |
-| 📝 The Echo Isles | place | Echo Isles (368); killing Zalazane (3205); quest Zalazane (826) |
-| 📝 The Darkspear Trolls | faction | Sen'jin Village (367); reputation Darkspear Trolls (530) friendly |
-| 📝 Vol'jin | figure | talking to (or targeting) him (10540) |
-| 📝 Tiragarde Keep | place | Tiragarde Keep (372) (Kul Tiras in Durotar) |
-| 📝 Orgrimmar | place | the city (1637) |
-| 📝 Thrall | figure | talking to (or targeting) him (4949) |
-| 📝 Eitrigg | figure | talking to him (3144) |
-| 📝 Ragefire Chasm | place | the dungeon (2437): the Searing Blade |
+| ✅ Durotar | place | the zone (14) |
+| ✅ The Valley of Trials | place | Valley of Trials (363) |
+| ✅ Razor Hill | place | Razor Hill (362) |
+| ✅ Sen'jin Village | place | Sen'jin Village (367) |
+| ✅ The Echo Isles | place | Echo Isles (368); killing Zalazane (3205); quest Zalazane (826) |
+| ✅ The Darkspear Trolls | faction | Sen'jin Village (367); reputation Darkspear Trolls (530) friendly |
+| ✅ Vol'jin | figure | talking to (or targeting) him (10540) |
+| ✅ Tiragarde Keep | place | Tiragarde Keep (372) (Kul Tiras in Durotar) |
+| ✅ Orgrimmar | place | the city (1637) |
+| ✅ Thrall | figure | talking to (or targeting) him (4949) |
+| ✅ Eitrigg | figure | talking to him (3144) |
+| ✅ Ragefire Chasm | place | the dungeon (2437): the Searing Blade |
 
 Not paged: Skull Rock and the Burning Blade Coven (the Burning Blade),
 Razormane Grounds (quilboar), Kolkar Crag (centaurs), Drygulch Ravine
@@ -664,18 +666,18 @@ Razormane Grounds (quilboar), Kolkar Crag (centaurs), Drygulch Ravine
 without a story: Warlord Kolkanis, Watch Commander Zalaphil, Felweaver Scornn,
 Death Flayer, Captain Flat Tusk, Geolord Mottle.
 
-## Mulgore and Thunder Bluff (8 pages)
+## Mulgore and Thunder Bluff (8 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Mulgore | place | the zone (215) |
-| 📝 Camp Narache | place | Camp Narache (221) |
-| 📝 Bloodhoof Village | place | Bloodhoof Village (222) |
-| 📝 Red Rocks | place | Red Rocks (225) (the burial grounds) |
-| 📝 The Earth Mother | history | quest Rites of the Earthmother (776); Spirit Rise (1640) in Thunder Bluff |
-| 📝 Thunder Bluff | place | the city (1638) |
-| 📝 Cairne Bloodhoof | figure | talking to (or targeting) him (3057) |
-| 📝 Arch Druid Hamuul Runetotem | figure | talking to him (5769) |
+| ✅ Mulgore | place | the zone (215) |
+| ✅ Camp Narache | place | Camp Narache (221) |
+| ✅ Bloodhoof Village | place | Bloodhoof Village (222) |
+| ✅ Red Rocks | place | Red Rocks (225) (the burial grounds) |
+| ✅ The Earth Mother | history | quest Rites of the Earthmother (776); Spirit Rise (1640) in Thunder Bluff |
+| ✅ Thunder Bluff | place | the city (1638) |
+| ✅ Cairne Bloodhoof | figure | talking to (or targeting) him (3057) |
+| ✅ Arch Druid Hamuul Runetotem | figure | talking to him (5769) |
 
 Not paged: Bael'dun Digsite (in Bael Modan), the Venture Co. Mine, the water
 wells, Red Cloud Mesa, Windfury Ridge (harpies), Palemane Rock (gnolls),
@@ -761,7 +763,7 @@ Master Feardred, The Evalcharr, Scalebeard.
 
 Not paged: Irontree Woods, Shatter Scar Vale, Deadwood and Felpaw villages
 (furbolgs), Jadefire Glen and Run, Ruins of Constellas (satyrs), Morlos'Aran,
-Bloodvenom Falls. The Shrine of the Deceiver goes to The Satyrs. Rares without a
+Bloodvenom Falls. Rares without a
 story: Dessecus, Immolatus, Death Howl, Alshirr, Ragepaw, Olm the Wise,
 Mongress, The Ongar.
 
@@ -791,7 +793,7 @@ Azurous.
 
 ---
 
-# Peoples and Powers (32 pages, 2 written)
+# Peoples and Powers (32 pages, all written)
 
 Peoples and factions met in many zones. Each page lists every creature id of
 its people: the lists are compiled when the page is written (all Wowhead
@@ -802,36 +804,36 @@ they're met.
 |---|---|---|
 | ✅ The Troggs | creature | any trogg kill (ids in the appendix) (from chapter 1; add Badlands, Uldaman, Wetlands, Gnomeregan troggs) |
 | ✅ The Dark Iron Dwarves | faction | any Dark Iron kill (ids in the appendix) (from chapter 1; add Searing Gorge, Badlands, Burning Steppes, Blackrock Depths) |
-| 📝 The Defias Brotherhood | faction | any Defias kill (ids in the appendix): Elwynn, Westfall, Redridge, Duskwood, the Stockade, the Deadmines |
-| 📝 The Kobolds | creature | any kobold kill (ids in the appendix): Elwynn, Westfall, Redridge, Loch Modan (Tunnel Rats), Arathi (Drywhisker), Thousand Needles (Gravelsnout) |
-| 📝 The Murlocs | creature | any murloc kill (ids in the appendix), both continents |
-| 📝 The Gnolls | creature | any gnoll kill (ids in the appendix): Riverpaw, Redridge, Shadowhide, Mudsnout, Rot Hide, Mosshide, Woodpaw, Palemane |
-| 📝 The Ogres | creature | any ogre kill (ids in the appendix): Mo'grosh, Splinter Fist, Crushridge, Boulderfist, Dustbelcher, Mosh'Ogg, Dreadmaul, Firegut, Gordunni, Dunemaul, Spirestone, Gordok |
-| 📝 The Blackrock Clan | faction | any Blackrock orc kill (ids in the appendix): Redridge, Burning Steppes, Blackrock Spire |
-| 📝 The Black Dragonflight | creature | any black dragonkin or whelp kill (ids in the appendix): Redridge, Badlands, Burning Steppes, Searing Gorge, Dustwallow, Blackrock Spire, Onyxia's brood |
-| 📝 The Syndicate | faction | any Syndicate kill (ids in the appendix): Alterac, Hillsbrad, Arathi |
-| 📝 The Worgen | creature | any worgen kill (ids in the appendix): Duskwood (Nightbane), Silverpine (Moonrage), Shadowfang Keep |
-| 📝 The Scarlet Crusade | faction | any Scarlet kill (ids in the appendix): Tirisfal, Western and Eastern Plaguelands, the Monastery, Stratholme |
-| 📝 The Scourge | faction | any kill of the Scourge's undead (ids in the appendix): Tirisfal, the Plaguelands, Razorfen Downs, Scholomance, Stratholme, Naxxramas |
-| 📝 The Cult of the Damned | faction | any cultist kill (ids in the appendix): the Plaguelands, Scholomance, Stratholme |
-| 📝 The Argent Dawn | faction | talking to an Argent officer: Garush (10839) or Hasana (10856) at the Bulwark, Pureheart (10840) or Lightspark (10857) at Chillwind Camp, Lord Maxwell Tyrosus (11034) or Duke Zverenhoff (11039) at Light's Hope; reputation Argent Dawn (529) friendly |
-| 📝 The Forest Trolls | faction | any Witherbark, Vilebranch or Mossflayer kill (ids in the appendix): Arathi, the Hinterlands, Eastern Plaguelands |
-| 📝 The Venture Company | faction | any Venture Co. kill (ids in the appendix): Stranglethorn, the Barrens, Stonetalon, Mulgore |
-| 📝 The Steamwheedle Cartel | faction | talking to Baron Revilgaz (2496), Marin Noggenfogger (7564) or Gazlowe (3391); reputation Booty Bay (21), Gadgetzan (369), Ratchet (470) or Everlook (577) friendly |
-| 📝 The Southsea Freebooters | faction | any Southsea kill (ids in the appendix): the Barrens, Tanaris |
-| 📝 The Naga | creature | any naga kill (ids in the appendix): Darkshore, Ashenvale, Azshara, Feralas, Desolace, Dustwallow, Stranglethorn, Blackfathom Deeps |
-| 📝 The Satyrs | creature | any satyr kill (ids in the appendix) (Darkshore, Ashenvale, Felwood, Azshara, Desolace); Shrine of the Deceiver (1771): Xavius |
-| 📝 The Centaurs | faction | any Kolkar, Galak, Gelkis, Magram or Maraudine kill (ids in the appendix) |
-| 📝 The Quilboar | faction | any Razormane, Bristleback, Razorfen or Death's Head kill (ids in the appendix) |
-| 📝 The Harpies | creature | any harpy kill (ids in the appendix): Dustwind, Windfury, Witchwing, Bloodfury, Screeching |
-| 📝 The Furbolgs | creature | any furbolg kill (ids in the appendix) (Gnarlpine, Blackwood, Thistlefur, Foulweald, Deadwood, Felpaw, Winterfall); Timbermaw Hold (Felwood 1769, Azshara 1216); reputation Timbermaw Hold (576) friendly |
-| 📝 The Burning Blade | faction | any Burning Blade or Searing Blade kill (ids in the appendix): Durotar, the Barrens, Desolace, Ragefire Chasm |
-| 📝 The Grimtotem | faction | any Grimtotem kill (ids in the appendix): Stonetalon, Thousand Needles, Feralas; talking to Magatha Grimtotem (4046) |
-| 📝 The Silithid | creature | any silithid or Qiraji kill (ids in the appendix): the Barrens, Thousand Needles, Feralas, Tanaris, Un'Goro, Silithus |
-| 📝 The Twilight's Hammer | faction | any Twilight kill (ids in the appendix): Darkshore, Blackfathom Deeps, Searing Gorge, Silithus |
-| 📝 The Cenarion Circle | faction | talking to Keeper Remulos (11832) or Arch Druid Hamuul Runetotem (5769); reputation Cenarion Circle (609) friendly |
-| 📝 The Dragons of Nightmare | creature | killing (or targeting) Ysondre, Lethon, Emeriss or Taerar (14887–14890); Twilight Grove (856), Seradane (356), Dream Bough (1111) or Bough Shadow (438) |
-| 📝 The Burning Legion | faction | any kill of the Legion's ranks (ids in the appendix): Blasted Lands, Felwood, Ashenvale, Desolace, Azshara |
+| ✅ The Defias Brotherhood | faction | any Defias kill (ids in the appendix): Elwynn, Westfall, Redridge, Duskwood, the Stockade, the Deadmines |
+| ✅ The Kobolds | creature | any kobold kill (ids in the appendix): Elwynn, Westfall, Redridge, Loch Modan (Tunnel Rats), Arathi (Drywhisker), Thousand Needles (Gravelsnout) |
+| ✅ The Murlocs | creature | any murloc kill (ids in the appendix), both continents |
+| ✅ The Gnolls | creature | any gnoll kill (ids in the appendix): Riverpaw, Redridge, Shadowhide, Mudsnout, Rot Hide, Mosshide, Woodpaw, Palemane |
+| ✅ The Ogres | creature | any ogre kill (ids in the appendix): Mo'grosh, Splinter Fist, Crushridge, Boulderfist, Dustbelcher, Mosh'Ogg, Dreadmaul, Firegut, Gordunni, Dunemaul, Spirestone, Gordok |
+| ✅ The Blackrock Clan | faction | any Blackrock orc kill (ids in the appendix): Redridge, Burning Steppes, Blackrock Spire |
+| ✅ The Black Dragonflight | creature | any black dragonkin or whelp kill (ids in the appendix): Redridge, Badlands, Burning Steppes, Searing Gorge, Dustwallow, Blackrock Spire, Onyxia's brood |
+| ✅ The Syndicate | faction | any Syndicate kill (ids in the appendix): Alterac, Hillsbrad, Arathi |
+| ✅ The Worgen | creature | any worgen kill (ids in the appendix): Duskwood (Nightbane), Silverpine (Moonrage), Shadowfang Keep |
+| ✅ The Scarlet Crusade | faction | any Scarlet kill (ids in the appendix): Tirisfal, Western and Eastern Plaguelands, the Monastery, Stratholme |
+| ✅ The Scourge | faction | any kill of the Scourge's undead (ids in the appendix): Tirisfal, the Plaguelands, Razorfen Downs, Scholomance, Stratholme, Naxxramas |
+| ✅ The Cult of the Damned | faction | any cultist kill (ids in the appendix): the Plaguelands, Scholomance, Stratholme |
+| ✅ The Argent Dawn | faction | talking to an Argent officer: Garush (10839) or Hasana (10856) at the Bulwark, Pureheart (10840) or Lightspark (10857) at Chillwind Camp, Lord Maxwell Tyrosus (11034) or Duke Zverenhoff (11039) at Light's Hope; reputation Argent Dawn (529) friendly |
+| ✅ The Forest Trolls | faction | any Witherbark, Vilebranch or Mossflayer kill (ids in the appendix): Arathi, the Hinterlands, Eastern Plaguelands |
+| ✅ The Venture Company | faction | any Venture Co. kill (ids in the appendix): Stranglethorn, the Barrens, Stonetalon, Mulgore |
+| ✅ The Steamwheedle Cartel | faction | talking to Baron Revilgaz (2496), Marin Noggenfogger (7564) or Gazlowe (3391); reputation Booty Bay (21), Gadgetzan (369), Ratchet (470) or Everlook (577) friendly |
+| ✅ The Southsea Freebooters | faction | any Southsea kill (ids in the appendix): the Barrens, Tanaris |
+| ✅ The Naga | creature | any naga kill (ids in the appendix): Darkshore, Ashenvale, Azshara, Feralas, Desolace, Dustwallow, Stranglethorn, Blackfathom Deeps |
+| ✅ The Satyrs | creature | any satyr kill (ids in the appendix): Darkshore, Ashenvale, Felwood, Azshara, Desolace |
+| ✅ The Centaurs | faction | any Kolkar, Galak, Gelkis, Magram or Maraudine kill (ids in the appendix) |
+| ✅ The Quilboar | faction | any Razormane, Bristleback, Razorfen or Death's Head kill (ids in the appendix) |
+| ✅ The Harpies | creature | any harpy kill (ids in the appendix): Dustwind, Windfury, Witchwing, Bloodfury, Screeching |
+| ✅ The Furbolgs | creature | any furbolg kill (ids in the appendix) (Gnarlpine, Blackwood, Thistlefur, Foulweald, Deadwood, Felpaw, Winterfall); Timbermaw Hold (Felwood 1769, Azshara 1216); reputation Timbermaw Hold (576) friendly |
+| ✅ The Burning Blade | faction | any Burning Blade or Searing Blade kill (ids in the appendix): Durotar, the Barrens, Desolace, Ragefire Chasm |
+| ✅ The Grimtotem | faction | any Grimtotem kill (ids in the appendix): Stonetalon, Thousand Needles, Feralas; talking to Magatha Grimtotem (4046) |
+| ✅ The Silithid | creature | any silithid or Qiraji kill (ids in the appendix): the Barrens, Thousand Needles, Feralas, Tanaris, Un'Goro, Silithus |
+| ✅ The Twilight's Hammer | faction | any Twilight kill (ids in the appendix): Darkshore, Blackfathom Deeps, Searing Gorge, Silithus |
+| ✅ The Cenarion Circle | faction | talking to Keeper Remulos (11832) or Arch Druid Hamuul Runetotem (5769); reputation Cenarion Circle (609) friendly |
+| ✅ The Dragons of Nightmare | creature | killing (or targeting) Ysondre, Lethon, Emeriss or Taerar (14887–14890); Twilight Grove (856), Seradane (356), Dream Bough (1111) or Bough Shadow (438) |
+| ✅ The Burning Legion | faction | any kill of the Legion's ranks (ids in the appendix): Blasted Lands, Felwood, Ashenvale, Desolace, Azshara |
 
 ---
 
@@ -913,33 +915,27 @@ demons too). Check again when the page is written.
 
 | | Written | To write | Total |
 |---|---|---|---|
-| Dun Morogh, Loch Modan, the Wetlands | 35 | 1 | 36 |
-| The Eastern Kingdoms (20 chapters) | | 147 | 147 |
-| Kalimdor (18 chapters) | | 121 | 121 |
-| Peoples and Powers | 2 | 30 | 32 |
-| **The codex** | **37** | **299** | **336** |
+| Dun Morogh, Loch Modan, the Wetlands | 36 | | 36 |
+| The Eastern Kingdoms (20 chapters) | 24 | 123 | 147 |
+| Kalimdor (18 chapters) | 27 | 94 | 121 |
+| Peoples and Powers | 32 | | 32 |
+| **The codex** | **119** | **217** | **336** |
 
 ## Order of writing
 
-The user plays dwarves, so the waves follow a dwarf's road.
+The user's order: the peoples first, then the starting zones, then outwards.
 
-1. **Khaz Modan's neighbours (10–30):** the chapter changes above; Elwynn and
-   Stormwind, Westfall, Redridge, Duskwood, Darkshore, Ashenvale; the peoples
-   met there (Defias, kobolds, murlocs, gnolls, ogres, worgen, the Blackrock
-   clan, the black dragonflight, naga, satyrs, furbolgs, Twilight's Hammer).
-2. **The middle lands (30–45):** Hillsbrad, Alterac, Arathi, Stranglethorn, the
-   Badlands, the Swamp of Sorrows, Stonetalon, Desolace, Thousand Needles,
-   Dustwallow; the Syndicate, the Venture Company, the Steamwheedle Cartel,
-   forest trolls, centaurs, the Grimtotem, the Southsea Freebooters.
-3. **The high lands (45–60):** the Hinterlands, Searing Gorge, Burning
-   Steppes, Blackrock Mountain, Blasted Lands, Deadwind Pass, Feralas, Tanaris,
-   Un'Goro, Azshara, Felwood, Winterspring, Moonglade, the Plaguelands,
-   Silithus; the Scarlet Crusade, the Scourge, the Cult of the Damned, the
-   Argent Dawn, silithid, the Cenarion Circle, the Dragons of Nightmare, the
-   Burning Legion.
-4. **The other homelands:** Teldrassil and Darnassus, Durotar and Orgrimmar,
-   Mulgore and Thunder Bluff, Tirisfal and Undercity, Silverpine, the Barrens;
-   quilboar, harpies, the Burning Blade.
+1. ✅ **Forewords:** one per race (the reader's own people), and a general one
+   for the Burning Crusade's races.
+2. ✅ **Peoples and Powers** (32 pages).
+3. ✅ **The starting zones:** Elwynn Forest and Stormwind, Teldrassil and
+   Darnassus, Durotar and Orgrimmar, Mulgore and Thunder Bluff, Tirisfal and
+   Undercity (with Dun Morogh, done earlier).
+4. **The lands around them (10–30):** Westfall, Redridge, Duskwood, Darkshore,
+   Ashenvale, Silverpine, the Barrens, Stonetalon.
+5. **The middle lands (30–45)** and **the high lands (45–60)**, as zones are
+   reached.
 
 Each wave: ids checked on Wowhead Classic, every fact against the Warcraft
-Wiki, the ❓ resolved (written around, or the page dropped), then a release.
+Wiki and the game's own quest texts (vanilla only: the wiki mixes in later
+retellings), the ❓ resolved, then a release.
