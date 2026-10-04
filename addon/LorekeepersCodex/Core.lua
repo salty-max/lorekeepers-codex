@@ -67,9 +67,11 @@ local function unlock(id, retro)
   }
   if not retro then
     -- A link: clicking it opens the book at this page (see Codex.lua).
-    print(PREFIX .. ("|cffffd100|Hlorekeeper:%s|h[%s]|h|r has been added to the codex."):format(id, C.entries[id].title))
-    if PlaySound and SOUNDKIT and SOUNDKIT.IG_QUEST_LOG_OPEN then PlaySound(SOUNDKIT.IG_QUEST_LOG_OPEN) end
-    if ns.showBanner then ns.showBanner(id) end
+    if ns.option("chat") then
+      print(PREFIX .. ("|cffffd100|Hlorekeeper:%s|h[%s]|h|r has been added to the codex."):format(id, C.entries[id].title))
+    end
+    ns.playSound()
+    ns.showBanner(id)
   end
   if ns.onUnlock then ns.onUnlock(id) end
 end
@@ -137,7 +139,8 @@ function handlers.PLAYER_LOGIN()
   checkFactions(true)
   checkArea()
   if C_Timer and next(byMap) then C_Timer.NewTicker(2, checkPosition) end
-  if ns.createMinimapButton then ns.createMinimapButton() end
+  ns.createMinimapButton()
+  ns.createSettingsPanel()
   -- The only reminder of how to open the book: once, at login.
   print(PREFIX .. ("%d of %d pages. Type /codex or click the book by the minimap to read them."):format(ns.count(), ns.total))
 end
@@ -188,11 +191,17 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
     return
   end
   if msg == "banner" then
-    print(PREFIX .. (ns.toggleBanner() and "banner shown for new pages." or "banner hidden (/codex banner to show it again)."))
+    ns.setOption("banner", not ns.option("banner"))
+    print(PREFIX .. (ns.option("banner") and "banner shown for new pages." or "banner hidden (/codex banner to show it again)."))
     return
   end
   if msg == "minimap" then
-    print(PREFIX .. (ns.toggleMinimapButton() and "minimap button shown." or "minimap button hidden (/codex minimap to show it again)."))
+    ns.setOption("minimapHidden", not ns.option("minimapHidden"))
+    print(PREFIX .. (ns.option("minimapHidden") and "minimap button hidden (/codex minimap to show it again)." or "minimap button shown."))
+    return
+  end
+  if msg == "settings" or msg == "options" then
+    if not ns.openSettings() then print(PREFIX .. "no settings page in this client: use /codex banner and /codex minimap.") end
     return
   end
   if ns.toggle then ns.toggle() end

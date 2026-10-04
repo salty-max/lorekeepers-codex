@@ -20,8 +20,11 @@ First chapter in progress: **Dun Morogh** and the dwarven lands.
 
 `/codex` or the book by the minimap opens the codex (drag the button to move
 it; `/codex minimap` hides or shows it). Each new page is announced in chat as
-a link that opens the book at that page, and by a banner at the top of the
-screen (click it to read the page; `/codex banner` turns it off). A zone's
+a link that opens the book at that page, with a sound, and by a banner at the
+top of the screen with the page's opening lines (click it to read the page).
+The banner, the chat line, the sound and the minimap button are set in the
+game's Options, AddOns tab (or `/codex settings`, or right-click the minimap
+button). A zone's
 chapter appears in the book with its first page, with a count of the pages
 found there. `/codex where` prints your position
 and target in the terms content files use (for writing new pages).
@@ -46,6 +49,7 @@ unlock:              # any one of these unlocks it
   - reputation: 47 friendly
   - position: 1455 57 47 6   # uiMap, x %, y %, radius %
 also: [war-of-the-three-hammers]
+excerpt: ...         # optional: the banner's text (default: the first sentence)
 ---
 Paragraphs separated by blank lines. *A paragraph in asterisks is a signature.*
 ```

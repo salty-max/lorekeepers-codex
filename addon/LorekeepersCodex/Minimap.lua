@@ -35,7 +35,7 @@ function ns.createMinimapButton()
   button:SetSize(31, 31)
   button:SetFrameStrata("MEDIUM")
   button:SetFrameLevel(8)
-  button:RegisterForClicks("LeftButtonUp")
+  button:RegisterForClicks("LeftButtonUp", "RightButtonUp")
   button:RegisterForDrag("LeftButton")
   button:SetHighlightTexture("Interface\\Minimap\\UI-Minimap-ZoomButton-Highlight")
 
@@ -50,26 +50,24 @@ function ns.createMinimapButton()
   border:SetSize(53, 53)
   border:SetPoint("TOPLEFT")
 
-  button:SetScript("OnClick", function() ns.toggle() end)
+  button:SetScript("OnClick", function(_, mouse)
+    if mouse == "RightButton" then ns.openSettings() else ns.toggle() end
+  end)
   button:SetScript("OnDragStart", function(self) self:SetScript("OnUpdate", follow) end)
   button:SetScript("OnDragStop", function(self) self:SetScript("OnUpdate", nil) end)
   button:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_LEFT")
     GameTooltip:AddLine("Lorekeeper's Codex")
     GameTooltip:AddLine(("%d of %d pages"):format(ns.count(), ns.total), 1, 1, 1)
-    GameTooltip:AddLine("Click to open the book. Drag to move this button.", 0.7, 0.7, 0.7, true)
+    GameTooltip:AddLine("Click to open the book, right-click for the settings. Drag to move this button.", 0.7, 0.7, 0.7, true)
     GameTooltip:Show()
   end)
   button:SetScript("OnLeave", function() GameTooltip:Hide() end)
 
   place()
-  button:SetShown(not settings().minimapHidden)
+  ns.updateMinimapButton()
 end
 
--- /codex minimap: hide or show the button.
-function ns.toggleMinimapButton()
-  local s = settings()
-  s.minimapHidden = not s.minimapHidden
-  if button then button:SetShown(not s.minimapHidden) end
-  return not s.minimapHidden
+function ns.updateMinimapButton()
+  if button then button:SetShown(not ns.option("minimapHidden")) end
 end

@@ -77,18 +77,18 @@ local function row(i)
   r.text:SetPoint("LEFT", 8, 0)
   r.text:SetPoint("RIGHT", -4, 0)
   r.text:SetJustifyH("LEFT")
-  r.count = r:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
-  r.count:SetPoint("RIGHT", -6, 0)
-  -- A chapter's progress, under its title.
+  -- A chapter's progress, under its title: a bar, then the pages found.
   r.bar = CreateFrame("StatusBar", nil, r)
-  r.bar:SetPoint("TOPLEFT", r, "BOTTOMLEFT", 8, -1)
-  r.bar:SetPoint("TOPRIGHT", r, "BOTTOMRIGHT", -6, -1)
+  r.bar:SetPoint("TOPLEFT", r, "BOTTOMLEFT", 8, -2)
+  r.bar:SetPoint("TOPRIGHT", r, "BOTTOMRIGHT", -44, -2)
   r.bar:SetHeight(5)
   r.bar:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar")
   r.bar:SetStatusBarColor(0.85, 0.65, 0.13)
   local bg = r.bar:CreateTexture(nil, "BACKGROUND")
   bg:SetAllPoints()
   bg:SetColorTexture(0, 0, 0, 0.5)
+  r.count = r:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
+  r.count:SetPoint("LEFT", r.bar, "RIGHT", 6, 0)
   r:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
   rows[i] = r
   return r
@@ -122,7 +122,7 @@ function ns.refresh()
       r.bar:SetMinMaxValues(0, total)
       r.bar:SetValue(found)
       r:Disable()
-      y = y + 30
+      y = y + 32
     elseif kind == "locked" then
       r.text:SetFontObject("GameFontDisableSmall")
       r.text:SetText("· · ·")

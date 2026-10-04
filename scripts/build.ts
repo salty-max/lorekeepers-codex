@@ -16,6 +16,7 @@
  *     - reputation: 47 friendly # reaching a standing with a faction
  *     - position: 1455 74 10 6  # within 6 (map %) of x 74 y 10 on uiMap 1455
  *   also: [war-of-the-three-hammers]
+ *   excerpt: ...                # the banner's text; default: the first sentence
  *   ---
  *   Paragraphs, separated by blank lines. A paragraph in *asterisks* is a signature.
  *
@@ -38,7 +39,7 @@ const STANDINGS: Record<string, number> = { hated: 1, hostile: 2, unfriendly: 3,
 
 type Area = { id: number; name: string; parent: number };
 type Unlock = { always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number };
-type Entry = { id: string; title: string; kind: string; chapter: string; unlock: Unlock[]; also: string[]; text: { italic: boolean; text: string }[]; file: string };
+type Entry = { id: string; title: string; kind: string; chapter: string; unlock: Unlock[]; also: string[]; excerpt: string; text: { italic: boolean; text: string }[]; file: string };
 
 const areas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas.json"), "utf8"));
 const areaById = new Map(areas.map((a) => [a.id, a]));
@@ -141,6 +142,13 @@ function paragraphs(body: string) {
     });
 }
 
+// The banner shows a page's first sentence, cut at a word under 280 characters.
+function excerpt(text: { italic: boolean; text: string }[]) {
+  const first = text.find((p) => !p.italic)?.text ?? "";
+  const sentence = first.match(/^(.+?[.!?])(\s|$)/)?.[1] ?? first;
+  return sentence.length <= 280 ? sentence : `${sentence.slice(0, 280).replace(/[\s,;:]+\S*$/, "")}…`;
+}
+
 const walk = (dir: string): string[] =>
   readdirSync(dir).flatMap((f) => (statSync(join(dir, f)).isDirectory() ? walk(join(dir, f)) : f.endsWith(".md") ? [join(dir, f)] : []));
 
@@ -169,6 +177,7 @@ for (const file of walk(CONTENT).sort()) {
     unlock: rules.flatMap((r) => unlockRule(file, r)),
     also,
     text: paragraphs(body),
+    excerpt: typeof meta.excerpt === "string" ? meta.excerpt : excerpt(paragraphs(body)),
     file,
   });
 }
@@ -222,6 +231,7 @@ ${entries
       title = ${q(e.title)}, kind = ${q(e.kind)}, chapter = ${q(e.chapter)},
       unlock = { ${e.unlock.map(unlockLua).join(", ")} },
       also = { ${e.also.map(q).join(", ")} },
+      excerpt = ${q(e.excerpt)},
       text = {
 ${e.text.map((p) => `        { ${p.italic ? "italic = true, " : ""}${q(p.text)} },`).join("\n")}
       },

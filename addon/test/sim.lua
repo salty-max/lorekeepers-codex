@@ -44,8 +44,8 @@ C_Map = {
 C_QuestLog = { IsQuestFlaggedCompleted = function(id) return state.questsDone[id] == true end }
 function GetFactionInfoByID(id) return "Ironforge", "", state.standing[id] end
 SOUNDKIT = { IG_QUEST_LOG_OPEN = 1 }
-local sounds = 0
-function PlaySound() sounds = sounds + 1 end
+local sounds, lastSound = 0, nil
+function PlaySound(id) sounds = sounds + 1; lastSound = id end
 local ticker
 C_Timer = { NewTicker = function(_, fn) ticker = fn end }
 
@@ -75,6 +75,25 @@ function GetCursorPosition() return 0, 0 end
 local linkHandlers = {}
 LinkUtil = { RegisterLinkHandler = function(kind, fn) linkHandlers[kind] = fn end }
 LinkProcessorResponse = { Handled = 2 }
+-- The game's settings panel: keep what the addon registers.
+local panel = { settings = {}, opened = nil }
+Settings = {
+  VarType = { Boolean = "boolean", Number = "number" },
+  RegisterVerticalLayoutCategory = function(name) panel.name = name; return { GetID = function() return 42 end } end,
+  RegisterProxySetting = function(_, variable, _, name, default, get, set)
+    local s = { variable = variable, name = name, default = default, get = get, set = set }
+    panel.settings[variable] = s
+    return s
+  end,
+  CreateCheckbox = function() end,
+  CreateDropdown = function(_, _, options) panel.options = options end,
+  CreateControlTextContainer = function()
+    local data = {}
+    return { Add = function(_, v, l) table.insert(data, { value = v, label = l }) end, GetData = function() return data end }
+  end,
+  RegisterAddOnCategory = function() panel.registered = true end,
+  OpenToCategory = function(id) panel.opened = id end,
+}
 local events
 function CreateFrame(kind, name)
   local f = ui()
@@ -105,6 +124,7 @@ assert(loadfile(DIR .. "Core.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Codex.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Minimap.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Banner.lua"))("LorekeepersCodex", ns)
+assert(loadfile(DIR .. "Settings.lua"))("LorekeepersCodex", ns)
 function wipe(t) for k in pairs(t) do t[k] = nil end return t end
 
 local function check(cond, msg) assert(cond, msg); io.write("✓ " .. msg .. "\n") end
@@ -120,11 +140,16 @@ check(said("|Hlorekeeper:war-of-the-three-hammers|h[The War of the Three Hammers
 local hints = 0
 for _, p in ipairs(printed) do if p:find("/codex", 1, true) then hints = hints + 1 end end
 check(hints == 1 and said("pages. Type /codex or click the book by the minimap"), "the /codex hint appears once, at login, and not in page messages")
-check(LorekeepersCodexBanner and LorekeepersCodexBanner.shown and LorekeepersCodexBanner.id == "dun-morogh", "a banner shows the first new page at the top of the screen")
-LorekeepersCodexBanner.scripts.OnUpdate(LorekeepersCodexBanner, 10)
-check(LorekeepersCodexBanner.shown and LorekeepersCodexBanner.id == "war-of-the-three-hammers", "the next page found waits its turn")
-LorekeepersCodexBanner.scripts.OnUpdate(LorekeepersCodexBanner, 10)
-check(not LorekeepersCodexBanner.shown, "then the banner fades away")
+local banner = LorekeepersCodexBanner
+check(banner and banner.shown and banner.id == "war-of-the-three-hammers", "a banner shows the newest page at the top of the screen")
+check(banner.title.text == "The War of the Three Hammers" and banner.text.text:find("^[^.]+%.$") ~= nil, "… its title and its first sentence")
+check(banner.more.text == "and one more page in the codex", "… and counts the page found just before")
+check(banner.scripts.OnUpdate == nil, "it doesn't fade: it stays until read or closed")
+check(lastSound == 878, "a new page plays the quest-complete sound by default")
+check(panel.registered and panel.name == "Lorekeeper's Codex", "a settings page in the game's options")
+banner.scripts.OnClick(banner)
+check(not banner.shown and LorekeepersCodexFrame.shown and LorekeepersCodexChar.read["war-of-the-three-hammers"], "clicking the banner opens the book at its page")
+LorekeepersCodexFrame:Hide()
 check(LorekeepersCodexMinimapButton ~= nil and LorekeepersCodexSettings.minimapAngle ~= nil, "a minimap button, its place saved for the account")
 check(has("dun-morogh"), "being in Dun Morogh unlocks the zone's page")
 check(has("t-quest") and LorekeepersCodexChar.entries["t-quest"].retro, "a quest done before the codex unlocks quietly")
@@ -197,9 +222,27 @@ SlashCmdList.LOREKEEPERSCODEX("minimap")
 check(LorekeepersCodexSettings.minimapHidden and not LorekeepersCodexMinimapButton.shown, "/codex minimap hides the button")
 SlashCmdList.LOREKEEPERSCODEX("minimap")
 SlashCmdList.LOREKEEPERSCODEX("banner")
+check(panel.settings.LOREKEEPERSCODEX_BANNER.get() == false, "the settings page follows /codex banner")
+panel.settings.LOREKEEPERSCODEX_CHAT.set(false)
+panel.settings.LOREKEEPERSCODEX_SOUND.set(3175)
+check(lastSound == 3175, "choosing a sound plays it")
+printed = {}
 ns.unlock("menethil-harbor")
-check(LorekeepersCodexSettings.banner == false and not LorekeepersCodexBanner.shown, "/codex banner turns the banner off")
-SlashCmdList.LOREKEEPERSCODEX("banner")
+check(not LorekeepersCodexBanner.shown and #printed == 0 and lastSound == 3175, "banner and chat off: a new page only plays the chosen sound")
+panel.settings.LOREKEEPERSCODEX_BANNER.set(true)
+panel.settings.LOREKEEPERSCODEX_CHAT.set(true)
+panel.settings.LOREKEEPERSCODEX_MINIMAPHIDDEN.set(false)
+check(not LorekeepersCodexMinimapButton.shown, "the minimap box unticked hides the button")
+panel.settings.LOREKEEPERSCODEX_MINIMAPHIDDEN.set(true)
+check(LorekeepersCodexMinimapButton.shown, "… and ticked shows it")
+LorekeepersCodexMinimapButton.scripts.OnClick(LorekeepersCodexMinimapButton, "RightButton")
+check(panel.opened == 42, "right-clicking the minimap button opens the settings")
+panel.opened = nil
+SlashCmdList.LOREKEEPERSCODEX("settings")
+check(panel.opened == 42, "/codex settings opens them too")
+local labels = {}
+for _, o in ipairs(panel.options()) do table.insert(labels, o.label) end
+check(#labels == #ns.SOUNDS and labels[#labels] == "None", "the sound can be chosen, or none")
 
 -- ── the book ─────────────────────────────────────────────────────────────────
 SlashCmdList.LOREKEEPERSCODEX("")

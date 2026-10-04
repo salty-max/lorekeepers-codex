@@ -1,76 +1,82 @@
--- A banner at the top centre of the screen when a page is found, in the
--- manner of the game's zone text: "A new page for the codex", then the page's
--- title. It fades in, holds, fades out; finds in a row queue up. Click it to
--- open the page. /codex banner turns it off (LorekeepersCodexSettings.banner).
+-- A banner at the top centre of the screen when a page is found: the page's
+-- title and its opening lines, with a book button (or a click anywhere on it)
+-- to read the page and a close button. It stays until read or closed; pages
+-- found meanwhile replace it, and it counts them. Turned off in the settings
+-- or with /codex banner.
 local _, ns = ...
 local C = ns.content
 
-local FADE_IN, HOLD, FADE_OUT = 0.4, 4, 1.2
+local WIDTH = 640
 local banner
-local queue = {}
-
-local function enabled()
-  LorekeepersCodexSettings = LorekeepersCodexSettings or {}
-  return LorekeepersCodexSettings.banner ~= false
-end
 
 local function build()
-  banner = CreateFrame("Button", "LorekeepersCodexBanner", UIParent)
-  banner:SetSize(600, 80)
-  banner:SetPoint("TOP", 0, -140)
+  banner = CreateFrame("Button", "LorekeepersCodexBanner", UIParent, "BackdropTemplate")
+  banner:SetWidth(WIDTH)
+  banner:SetPoint("TOP", 0, -110)
   banner:SetFrameStrata("HIGH")
+  banner:SetBackdrop({
+    bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
+    edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border",
+    tile = true, tileSize = 32, edgeSize = 32,
+    insets = { left = 11, right = 12, top = 12, bottom = 11 },
+  })
   banner:Hide()
 
-  banner.line = banner:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-  banner.line:SetPoint("TOP", 0, 0)
-  banner.line:SetText("A new page for the codex")
-  banner.line:SetTextColor(0.8, 0.7, 0.45)
+  banner.title = banner:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
+  banner.title:SetPoint("TOP", 0, -20)
+  banner.title:SetPoint("LEFT", 70, 0)
+  banner.title:SetPoint("RIGHT", -70, 0)
 
-  banner.title = banner:CreateFontString(nil, "OVERLAY", "GameFontNormalHuge")
-  banner.title:SetPoint("TOP", banner.line, "BOTTOM", 0, -6)
-  banner.title:SetTextColor(1, 0.82, 0)
+  banner.text = banner:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
+  banner.text:SetPoint("TOPLEFT", banner.title, "BOTTOMLEFT", -50, -8)
+  banner.text:SetPoint("RIGHT", -20, 0)
+  banner.text:SetJustifyH("LEFT")
+  banner.text:SetSpacing(2)
+  banner.text:SetMaxLines(3)
+
+  banner.more = banner:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
+  banner.more:SetPoint("BOTTOMRIGHT", -20, 16)
+
+  local close = CreateFrame("Button", nil, banner, "UIPanelCloseButton")
+  close:SetPoint("TOPRIGHT", -6, -6)
+  close:SetScript("OnClick", function() ns.hideBanner() end)
+
+  local read = CreateFrame("Button", nil, banner)
+  read:SetSize(22, 22)
+  read:SetPoint("RIGHT", close, "LEFT", -2, 0)
+  read:SetNormalTexture("Interface\\Icons\\INV_Misc_Book_09")
+  read:SetHighlightTexture("Interface\\Buttons\\ButtonHilight-Square", "ADD")
+  read:SetScript("OnClick", function() banner:Click() end)
+  read:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
+    GameTooltip:AddLine("Read this page")
+    GameTooltip:Show()
+  end)
+  read:SetScript("OnLeave", function() GameTooltip:Hide() end)
 
   banner:SetScript("OnClick", function(self)
-    if self.id then ns.open(self.id) end
-  end)
-  banner:SetScript("OnUpdate", function(self, elapsed)
-    self.t = self.t + elapsed
-    local t = self.t
-    if t < FADE_IN then
-      self:SetAlpha(t / FADE_IN)
-    elseif t < FADE_IN + HOLD then
-      self:SetAlpha(1)
-    elseif t < FADE_IN + HOLD + FADE_OUT then
-      self:SetAlpha(1 - (t - FADE_IN - HOLD) / FADE_OUT)
-    else
-      self:Hide()
-      local nextId = table.remove(queue, 1)
-      if nextId then ns.showBanner(nextId) end
-    end
+    local id = self.id
+    ns.hideBanner()
+    if id then ns.open(id) end
   end)
 end
 
 function ns.showBanner(id)
-  if not enabled() or not C.entries[id] then return end
+  if not ns.option("banner") or not C.entries[id] then return end
   if not banner then build() end
-  if banner:IsShown() then
-    table.insert(queue, id)
-    return
-  end
+  -- Pages found while it shows: the newest replaces it, the others are counted
+  -- (they wait in the book, marked unread).
+  banner.others = banner:IsShown() and (banner.others or 0) + 1 or 0
   banner.id = id
   banner.title:SetText(C.entries[id].title)
-  banner.t = 0
-  banner:SetAlpha(0)
+  banner.text:SetText(C.entries[id].excerpt or "")
+  banner.more:SetText(banner.others == 0 and ""
+    or banner.others == 1 and "and one more page in the codex"
+    or ("and %d more pages in the codex"):format(banner.others))
+  banner:SetHeight(20 + banner.title:GetStringHeight() + 8 + banner.text:GetStringHeight() + 32)
   banner:Show()
 end
 
--- /codex banner: turn it off or on.
-function ns.toggleBanner()
-  LorekeepersCodexSettings = LorekeepersCodexSettings or {}
-  LorekeepersCodexSettings.banner = not enabled()
-  if not LorekeepersCodexSettings.banner and banner then
-    wipe(queue)
-    banner:Hide()
-  end
-  return LorekeepersCodexSettings.banner
+function ns.hideBanner()
+  if banner then banner:Hide() end
 end
