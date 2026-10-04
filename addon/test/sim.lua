@@ -47,7 +47,24 @@ SOUNDKIT = { IG_QUEST_LOG_OPEN = 1 }
 local sounds, lastSound = 0, nil
 function PlaySound(id) sounds = sounds + 1; lastSound = id end
 local ticker
-C_Timer = { NewTicker = function(_, fn) ticker = fn end }
+local timers = {}
+C_Timer = {
+  NewTicker = function(_, fn) ticker = fn end,
+  NewTimer = function(seconds, fn)
+    local t = { seconds = seconds, fn = fn }
+    t.Cancel = function(self) self.cancelled = true end
+    table.insert(timers, t)
+    return t
+  end,
+}
+-- Run the newest live timer, as if its time had come.
+local function elapse()
+  for i = #timers, 1, -1 do
+    local t = timers[i]
+    if not t.cancelled then t.cancelled = true; t.fn(); return t.seconds end
+  end
+end
+function UnitXP() return 0 end
 
 -- UI: any method works and returns something sensible, scripts are kept.
 local function ui()
@@ -59,6 +76,7 @@ local function ui()
       if k == "Hide" then return function(self) self.shown = false end end
       if k == "SetShown" then return function(self, v) if v then self:Show() else self:Hide() end end end
       if k == "IsShown" then return function(self) return self.shown end end
+      if k == "IsMouseOver" then return function(self) return self.mouseOver == true end end
       if k == "SetText" then return function(self, v) self.text = v end end
       if k == "GetStringHeight" then return function() return 14 end end
       if k == "GetWidth" then return function() return 140 end end
@@ -75,6 +93,7 @@ function GetCursorPosition() return 0, 0 end
 local linkHandlers = {}
 LinkUtil = { RegisterLinkHandler = function(kind, fn) linkHandlers[kind] = fn end }
 LinkProcessorResponse = { Handled = 2 }
+MinimalSliderWithSteppersMixin = { Label = { Right = 2 } }
 -- The game's settings panel: keep what the addon registers.
 local panel = { settings = {}, opened = nil }
 Settings = {
@@ -87,6 +106,8 @@ Settings = {
   end,
   CreateCheckbox = function() end,
   CreateDropdown = function(_, _, options) panel.options = options end,
+  CreateSliderOptions = function(min, max, step) return { min = min, max = max, step = step, SetLabelFormatter = function(self, _, fn) self.format = fn end } end,
+  CreateSlider = function(_, _, options) panel.slider = options end,
   CreateControlTextContainer = function()
     local data = {}
     return { Add = function(_, v, l) table.insert(data, { value = v, label = l }) end, GetData = function() return data end }
@@ -137,6 +158,7 @@ fire("PLAYER_LOGIN")
 check(LorekeepersCodexChar.guid == PLAYER and not LorekeepersCodexChar.entries.ironforge, "a new character named like a deleted one starts a fresh codex")
 check(ns.belongsTo({ entries = { kharanos = { level = 2 } } }, PLAYER, 3), "a codex from before 0.1.3 is kept")
 check(not ns.belongsTo({ entries = { kharanos = { level = 20 } } }, PLAYER, 3), "… unless it was found at a higher level than this character's")
+check(not ns.belongsTo({ entries = { ["rockjaw-troggs"] = { level = 1 } } }, PLAYER, 1, 0), "… or this character is brand new (level 1, no experience)")
 check(LorekeepersCodexChar ~= nil, "the codex is saved per character")
 check(has("foreword") and LorekeepersCodexChar.entries.foreword.retro, "the foreword is there from the start, quietly")
 check(has("war-of-the-three-hammers"), "logging in at Anvilmar unlocks the War of the Three Hammers (English name fallback)")
@@ -152,6 +174,12 @@ check(banner.more.text == "and one more page in the codex", "… and counts the 
 check(banner.scripts.OnUpdate == nil, "it doesn't fade: it stays until read or closed")
 check(lastSound == 878, "a new page plays the quest-complete sound by default")
 check(panel.registered and panel.name == "Lorekeeper's Codex", "a settings page in the game's options")
+banner.mouseOver = true
+check(elapse() == 10 and banner.shown, "the banner stays while the mouse is on it")
+banner.mouseOver = false
+check(elapse() == 1 and not banner.shown, "… and goes away on its own after 10 seconds")
+ns.showBanner("war-of-the-three-hammers")
+check(panel.slider and panel.slider.format(0) == "until closed" and panel.slider.format(15) == "15 s", "how long it stays is a setting (0: until closed)")
 banner.scripts.OnClick(banner)
 check(not banner.shown and LorekeepersCodexFrame.shown and LorekeepersCodexChar.read["war-of-the-three-hammers"], "clicking the banner opens the book at its page")
 LorekeepersCodexFrame:Hide()

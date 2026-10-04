@@ -128,11 +128,13 @@ local handlers = {}
 -- The game keeps a character's saved variables under its name, so a new
 -- character named like a deleted one inherits its pages. Each codex remembers
 -- whose it is (the character's GUID, unique to it). One saved before it did
--- (0.1.2 and earlier) is kept, unless it holds pages found at a higher level
--- than this character has.
-function ns.belongsTo(saved, guid, level)
+-- (0.1.2 and earlier) can't say: it's dropped when this character is brand
+-- new (level 1, no experience: it can't have found pages yet) or when it holds
+-- pages found at a higher level than this character has.
+function ns.belongsTo(saved, guid, level, xp)
   if type(saved) ~= "table" then return false end
   if saved.guid then return saved.guid == guid end
+  if level <= 1 and (xp or 0) == 0 then return false end
   for _, p in pairs(saved.entries or {}) do
     if (p.level or 0) > level then return false end
   end
@@ -157,7 +159,7 @@ end
 
 function handlers.PLAYER_LOGIN()
   local guid = UnitGUID("player")
-  if ns.belongsTo(LorekeepersCodexChar, guid, UnitLevel("player")) then
+  if ns.belongsTo(LorekeepersCodexChar, guid, UnitLevel("player"), UnitXP("player")) then
     char = LorekeepersCodexChar
     char.guid = guid
     char.entries = char.entries or {}

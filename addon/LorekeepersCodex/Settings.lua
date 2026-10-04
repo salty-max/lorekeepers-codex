@@ -3,7 +3,7 @@
 -- so does a right-click on the minimap button.
 local _, ns = ...
 
-local DEFAULTS = { banner = true, chat = true, sound = 878, minimapHidden = false }
+local DEFAULTS = { banner = true, bannerSeconds = 10, chat = true, sound = 878, minimapHidden = false }
 
 -- Sounds for a new page: all from the original game's interface.
 ns.SOUNDS = {
@@ -49,6 +49,16 @@ function ns.createSettingsPanel()
     Settings.CreateCheckbox(category, setting, tooltip)
   end
   checkbox("banner", "Banner for new pages", "Show each new page at the top of the screen, until you read or close it.")
+  local seconds = Settings.RegisterProxySetting(category, "LOREKEEPERSCODEX_BANNERSECONDS", Settings.VarType.Number, "Banner shown for",
+    DEFAULTS.bannerSeconds,
+    function() return ns.option("bannerSeconds") end,
+    function(value) ns.setOption("bannerSeconds", value) end)
+  local options = Settings.CreateSliderOptions(0, 60, 5)
+  options:SetLabelFormatter(MinimalSliderWithSteppersMixin.Label.Right, function(value)
+    return value == 0 and "until closed" or ("%d s"):format(value)
+  end)
+  Settings.CreateSlider(category, seconds, options, "How long the banner stays on screen. At 0 it stays until you read or close it.")
+
   checkbox("chat", "Announce new pages in chat", "A line in chat for each new page, with a link to it.")
 
   local sound = Settings.RegisterProxySetting(category, "LOREKEEPERSCODEX_SOUND", Settings.VarType.Number, "Sound for a new page",

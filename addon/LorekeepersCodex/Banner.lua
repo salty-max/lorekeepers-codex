@@ -1,18 +1,34 @@
 -- A banner at the top centre of the screen when a page is found: the page's
 -- title and its opening lines, with a book button (or a click anywhere on it)
--- to read the page and a close button. It stays until read or closed; pages
--- found meanwhile replace it, and it counts them. Turned off in the settings
--- or with /codex banner.
+-- to read the page and a close button. It goes away on its own after a few
+-- seconds (bannerSeconds in the settings, 0 to keep it until read or closed),
+-- never while the mouse is on it; pages found meanwhile replace it, and it
+-- counts them. Turned off in the settings or with /codex banner.
 local _, ns = ...
 local C = ns.content
 
 local WIDTH = 640
-local banner
+local banner, timer
+
+local function stopTimer()
+  if timer then timer:Cancel() end
+  timer = nil
+end
+
+-- When time is up with the mouse on the banner, look again a second later.
+local function startTimer(seconds)
+  stopTimer()
+  seconds = seconds or ns.option("bannerSeconds")
+  if not (seconds and seconds > 0 and C_Timer) then return end
+  timer = C_Timer.NewTimer(seconds, function()
+    if banner:IsMouseOver() then startTimer(1) else ns.hideBanner() end
+  end)
+end
 
 local function build()
   banner = CreateFrame("Button", "LorekeepersCodexBanner", UIParent, "BackdropTemplate")
   banner:SetWidth(WIDTH)
-  banner:SetPoint("TOP", 0, -110)
+  banner:SetPoint("TOP", 0, -36)
   banner:SetFrameStrata("HIGH")
   banner:SetBackdrop({
     bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
@@ -75,8 +91,10 @@ function ns.showBanner(id)
     or ("and %d more pages in the codex"):format(banner.others))
   banner:SetHeight(20 + banner.title:GetStringHeight() + 8 + banner.text:GetStringHeight() + 32)
   banner:Show()
+  startTimer()
 end
 
 function ns.hideBanner()
+  stopTimer()
   if banner then banner:Hide() end
 end

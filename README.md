@@ -21,7 +21,8 @@ First chapter in progress: **Dun Morogh** and the dwarven lands.
 `/codex` or the book by the minimap opens the codex (drag the button to move
 it; `/codex minimap` hides or shows it). Each new page is announced in chat as
 a link that opens the book at that page, with a sound, and by a banner at the
-top of the screen with the page's opening lines (click it to read the page).
+top of the screen with the page's opening lines (click it to read the page;
+it goes away after a few seconds).
 The banner, the chat line, the sound and the minimap button are set in the
 game's Options, AddOns tab (or `/codex settings`, or right-click the minimap
 button). A zone's
