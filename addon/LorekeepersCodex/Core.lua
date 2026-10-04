@@ -11,7 +11,7 @@ local PREFIX = "|cffc9a227Lorekeeper's Codex:|r "
 local char
 
 -- ── what unlocks what ────────────────────────────────────────────────────────
-local byArea, byNpc, byQuest, byMap, byFaction, always = {}, {}, {}, {}, {}, {}
+local byArea, byNpc, byKill, byQuest, byMap, byFaction, always = {}, {}, {}, {}, {}, {}, {}
 local function push(t, k, v)
   t[k] = t[k] or {}
   table.insert(t[k], v)
@@ -21,6 +21,7 @@ for id, e in pairs(C.entries) do
     if u.always then table.insert(always, id)
     elseif u.area then push(byArea, u.area, id)
     elseif u.npc then push(byNpc, u.npc, id)
+    elseif u.kill then push(byKill, u.kill, id)
     elseif u.quest then push(byQuest, u.quest, id)
     elseif u.faction then table.insert(byFaction, { id = id, faction = u.faction, standing = u.standing })
     elseif u.map then push(byMap, u.map, { id = id, x = u.x, y = u.y, r = u.r })
@@ -65,7 +66,7 @@ local function unlock(id, retro)
     retro = retro or nil,
   }
   if not retro then
-    print(PREFIX .. "a new page, |cffffd100[" .. C.entries[id].title .. "]|r. Type /codex to read it.")
+    print(PREFIX .. "|cffffd100[" .. C.entries[id].title .. "]|r has been added to the codex. Type /codex to read it.")
     if PlaySound and SOUNDKIT and SOUNDKIT.IG_QUEST_LOG_OPEN then PlaySound(SOUNDKIT.IG_QUEST_LOG_OPEN) end
   end
   if ns.onUnlock then ns.onUnlock(id) end
@@ -92,12 +93,12 @@ local function checkPosition()
   end
 end
 
-local function npcId(unit)
-  local guid = UnitGUID(unit)
+local function creatureId(guid)
   if not guid then return end
   local kind, _, _, _, _, id = strsplit("-", guid)
   if kind == "Creature" then return tonumber(id) end
 end
+local function npcId(unit) return creatureId(UnitGUID(unit)) end
 
 local function checkNpc(unit)
   local id = npcId(unit)
@@ -147,6 +148,14 @@ handlers.QUEST_GREETING = talking
 handlers.QUEST_DETAIL = talking
 handlers.MERCHANT_SHOW = talking
 handlers.UPDATE_FACTION = function() checkFactions(false) end
+-- Kills: yours or your pet's (the combat log's PARTY_KILL names the killer).
+function handlers.COMBAT_LOG_EVENT_UNFILTERED()
+  local _, sub, _, source, _, _, _, dest = CombatLogGetCurrentEventInfo()
+  if sub ~= "PARTY_KILL" or (source ~= UnitGUID("player") and source ~= UnitGUID("pet")) then return end
+  local id = creatureId(dest)
+  for _, entry in ipairs(id and byKill[id] or {}) do unlock(entry) end
+end
+
 function handlers.QUEST_TURNED_IN(questId)
   for _, id in ipairs(byQuest[questId] or {}) do unlock(id) end
 end

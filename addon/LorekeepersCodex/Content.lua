@@ -2,9 +2,121 @@
 local _, ns = ...
 ns.content = {
   chapters = {
-    { id = "dun-morogh", title = "Dun Morogh", summary = "The snowbound valleys around Ironforge, cradle of the Bronzebeard clan.", entries = { "kharanos", "magni-bronzebeard", "war-of-the-three-hammers" } },
+    { id = "dun-morogh", title = "Dun Morogh and Ironforge", summary = "The snowbound valleys around Ironforge, cradle of the Bronzebeard clan.", entries = { "coldridge-valley", "dun-morogh", "gnomeregan", "high-tinker-mekkatorque", "ironforge", "kharanos", "magni-bronzebeard", "dark-iron-dwarves", "deeprun-tram", "explorers-league", "frostmane-trolls", "gates-of-ironforge", "gnomeregan-exiles", "leper-gnomes", "rockjaw-troggs", "war-of-the-three-hammers", "wendigos", "timber" } },
+    { id = "loch-modan", title = "Loch Modan", summary = "The lake country east of Ironforge, held by a dam and watched by kings of stone.", entries = { "algaz", "ironbands-excavation-site", "loch-modan", "farstrider-lodge", "mogrosh-ogres", "stonewrought-dam", "valley-of-kings", "thelsamar" } },
+    { id = "wetlands", title = "The Wetlands", summary = "The marshes between Khaz Modan and Arathi, where the dwarven roads run into old wars.", entries = { "nekrosh", "dun-modr", "grim-batol", "menethil-harbor", "dragonmaw-clan", "mosshide-gnolls", "red-dragonflight", "thandol-span", "wetlands", "whelgars-excavation-site" } },
   },
   entries = {
+    ["coldridge-valley"] = {
+      title = "Coldridge Valley", kind = "place", chapter = "dun-morogh",
+      unlock = { { area = 132 } },
+      also = { "war-of-the-three-hammers", "rockjaw-troggs", "frostmane-trolls" },
+      text = {
+        { "Every young dwarf and gnome who takes up arms begins here, in the sheltered valley south of Kharanos, under the eyes of the trainers at Anvilmar." },
+        { "It is a gentle place only by the standards of Dun Morogh. The troggs have tunnels on its slopes and the Frostmane send their young to raid it, which is exactly why the trainers like it: the danger is real, but never more than a recruit can learn from." },
+        { "If you began your road here, you will know the cold of the pass that leads out of it. Everyone remembers that walk." },
+      },
+    },
+    ["dark-iron-dwarves"] = {
+      title = "The Dark Iron Dwarves", kind = "faction", chapter = "dun-morogh",
+      unlock = { { kill = 6123 }, { kill = 1981 }, { kill = 2149 }, { kill = 1222 }, { kill = 1169 }, { kill = 1051 }, { kill = 1052 }, { kill = 1053 }, { kill = 1054 }, { kill = 6523 }, { kill = 3180 }, { kill = 4062 } },
+      also = { "war-of-the-three-hammers", "thandol-span", "dun-modr", "stonewrought-dam" },
+      text = {
+        { "The third of the three hammers, and the one that never forgave. Since the Dark Irons lost their war against Ironforge, and woke Ragnaros in their fury, they have lived in Blackrock Mountain under their emperor, serving the Firelord they summoned." },
+        { "They have not stayed there. Their spies creep about Dun Morogh, their raiders and sappers trouble Loch Modan, and in the Wetlands they have done real harm: they took the fortress of Dun Modr and broke the Thandol Span, the great bridge to the north." },
+        { "A Dark Iron fights with fire, black powder and a grudge two centuries deep. Never turn your back on one." },
+      },
+    },
+    ["deeprun-tram"] = {
+      title = "The Deeprun Tram", kind = "place", chapter = "dun-morogh",
+      unlock = { { area = 2257 } },
+      also = { "ironforge", "gnomeregan-exiles" },
+      text = {
+        { "A tunnel beneath the mountains and the sea floor, from Ironforge all the way to Stormwind, and carriages running along it on rails. When the gnomes first proposed it, half of Ironforge laughed. The laughing stopped when the first tram arrived." },
+        { "It is the finest thing gnomes and dwarves have ever built together, and the plainest proof of the friendship between Ironforge and Stormwind. A journey that once took days now takes minutes." },
+        { "Look out of the window when you pass under the water. Some say they have seen the fish looking back." },
+      },
+    },
+    ["dun-morogh"] = {
+      title = "Dun Morogh", kind = "place", chapter = "dun-morogh",
+      unlock = { { area = 1 } },
+      also = { "kharanos", "ironforge", "frostmane-trolls" },
+      text = {
+        { "Snow nine months of the year, and the other three are not much better. Dun Morogh is the high country around Ironforge, and every dwarf of the Bronzebeard clan learns to walk on its ice before learning to walk anywhere else." },
+        { "It is ours, but we share it, and not always by choice. The Frostmane trolls keep the western hills, troggs dig where they please, and since the fall of Gnomeregan the gnomes have been our neighbours in their own valleys as well as in our city." },
+        { "Learn its roads well, traveller. Most of the dwarves you will ever meet took their first steps along them." },
+      },
+    },
+    ["explorers-league"] = {
+      title = "The Explorers' League", kind = "faction", chapter = "dun-morogh",
+      unlock = { { npc = 5387 }, { npc = 1356 }, { npc = 2916 }, { npc = 8256 } },
+      also = { "ironforge", "magni-bronzebeard", "ironbands-excavation-site", "whelgars-excavation-site" },
+      text = {
+        { "I could hardly leave us out. The Explorers' League is Ironforge's society of historians, archaeologists and diggers: the dwarves who would rather read a ruin than build a hall." },
+        { "We are after the oldest question there is, which is where the dwarves came from. Our digs in Uldaman suggest that the answer lies with the Titans, the makers of the world, and if that is so, it changes how every dwarf should think of himself. King Magni takes it very seriously indeed." },
+        { "You will find us in the Hall of Explorers, under High Explorer Magellas. Bring us anything old, traveller, and anything strange. We will want to hear where you found it." },
+      },
+    },
+    ["frostmane-trolls"] = {
+      title = "The Frostmane Trolls", kind = "faction", chapter = "dun-morogh",
+      unlock = { { kill = 706 }, { kill = 946 }, { kill = 1120 }, { kill = 1121 }, { kill = 1122 }, { kill = 1123 }, { kill = 1124 }, { kill = 1397 }, { area = 135 } },
+      also = { "kharanos" },
+      text = {
+        { "The Frostmane will tell you that these valleys were theirs before the first dwarf hammered stone here, and the League has found nothing to prove them wrong. They are ice trolls, and they have never forgiven us for the mountain." },
+        { "They hold the caves and frozen hills to the west of Kharanos, and when the snow lies deep they come down onto the roads. Do not take them for simple beasts. Their seers and shadowcasters keep old and unpleasant rites, and their headhunters earn the name." },
+        { "A Frostmane fights like the winter itself: patient, cold, and fond of the weak. If you must go into their hold, go with friends, and come out before nightfall." },
+      },
+    },
+    ["gates-of-ironforge"] = {
+      title = "The Gates of Khaz Modan", kind = "place", chapter = "dun-morogh",
+      unlock = { { area = 808 }, { area = 806 } },
+      also = { "ironforge", "loch-modan" },
+      text = {
+        { "Two passes lead east out of Dun Morogh through the mountains to Loch Modan, and both are guarded day and night by the Mountaineers of Ironforge." },
+        { "These gates have closed against every army that has come against Khaz Modan, and the Mountaineers who keep them take that history personally. They will ask your business, look at your boots, and if they like what they see, wave you through with a warning about the troggs." },
+        { "Thank them as you pass. Very few travellers do." },
+      },
+    },
+    ["gnomeregan-exiles"] = {
+      title = "The Gnomeregan Exiles", kind = "faction", chapter = "dun-morogh",
+      unlock = { { area = 189 }, { npc = 7937 } },
+      also = { "gnomeregan", "high-tinker-mekkatorque", "ironforge" },
+      text = {
+        { "A people without a home, and the most cheerful exiles you will ever meet. The gnomes who escaped Gnomeregan live now in Tinker Town, in the heart of Ironforge, and in outposts such as Steelgrill's Depot within sight of their old gates." },
+        { "Do not let the cheer fool you. Every invention they test, every recruit they train, is meant for one day: the day they march back into Gnomeregan and take it back." },
+        { "Ironforge has offered them shelter as long as they need it. Most dwarves are glad of the company, if not of the noise." },
+      },
+    },
+    ["gnomeregan"] = {
+      title = "Gnomeregan", kind = "history", chapter = "dun-morogh",
+      unlock = { { area = 133 } },
+      also = { "gnomeregan-exiles", "high-tinker-mekkatorque", "leper-gnomes", "rockjaw-troggs" },
+      text = {
+        { "For generations the gnomes' capital lay in the western mountains of Dun Morogh, a city of gears and steam that even the smiths of Ironforge admired, though they would never say so aloud." },
+        { "Then the troggs came up from below, more of them than anyone had believed possible. The gnomes could not hold, and High Tinker Mekkatorque took the advice of one of his own engineers, Sicco Thermaplugg: flood the city with a deadly radiation that would kill the invaders. It did. It also killed a great many gnomes who could not escape in time." },
+        { "The survivors fled to Ironforge, and we gave them a corner of the city. As for Thermaplugg, he did not flee. He stayed in the poisoned halls with what remained, and the word from those who have been down there is that he now calls the city his own." },
+      },
+    },
+    ["high-tinker-mekkatorque"] = {
+      title = "High Tinker Mekkatorque", kind = "figure", chapter = "dun-morogh",
+      unlock = { { npc = 7937 } },
+      also = { "gnomeregan", "gnomeregan-exiles" },
+      text = {
+        { "Gelbin Mekkatorque leads the gnomes from a workshop in Tinker Town, which is as close to a throne as any gnome would tolerate." },
+        { "He is a brilliant engineer and, by every account, a kind one, which makes his burden heavier. It was his order that filled Gnomeregan with the radiation that drove out the troggs and killed so many of his people. He took the advice of a trusted engineer, Sicco Thermaplugg, and he has had to watch that same engineer keep the city for himself." },
+        { "He speaks little of it. He simply works, day and night, on the means to go home." },
+      },
+    },
+    ["ironforge"] = {
+      title = "Ironforge", kind = "place", chapter = "dun-morogh",
+      unlock = { { area = 1537 } },
+      also = { "magni-bronzebeard", "war-of-the-three-hammers", "rockjaw-troggs" },
+      text = {
+        { "Ironforge is not built on the mountain; it is built in it. The ancestors of the Bronzebeards hollowed the heart of Khaz Modan into a single vast city, and at its centre burns the Great Forge, whose fires, the smiths will swear to you, have never once gone out." },
+        { "The city turns around the forge like a wheel. King Magni holds court in the High Seat, the Military Ward trains the mountain's defenders, the mages keep to the Mystic Ward, and since the fall of Gnomeregan the gnome exiles have made Tinker Town their own: loud, clever and homesick. Beneath it all runs the Deeprun Tram, gnomish work, carrying travellers under the mountains to Stormwind." },
+        { "And then there is the Hall of Explorers, where you will find me. The League keeps its library here, and its finds: relics from Uldaman, the bones of beasts no one has seen alive, and maps of places most dwarves will only ever read about. Come and see us. We are always short of people who have actually been somewhere." },
+      },
+    },
     ["kharanos"] = {
       title = "Kharanos", kind = "place", chapter = "dun-morogh",
       unlock = { { area = 131 } },
@@ -12,6 +124,16 @@ ns.content = {
       text = {
         { "Kharanos sits in the cold heart of Dun Morogh, on the road between the training grounds of Coldridge Valley and the gates of Ironforge. It is a small town by dwarven reckoning: a smithy, a few stout houses, and the building that makes it famous, the Thunderbrew Distillery, where the Thunderbrew family has been perfecting its ales for longer than anyone cares to admit." },
         { "Do not mistake the warm hearth for safety. Frostmane trolls hold the hills to the west, troggs keep crawling up from the deep places, and since the fall of Gnomeregan its exiles share these roads with us. The town keeps its doors open all the same: a dwarf who turns away a cold traveller is no dwarf at all." },
+      },
+    },
+    ["leper-gnomes"] = {
+      title = "The Leper Gnomes", kind = "creature", chapter = "dun-morogh",
+      unlock = { { kill = 1211 } },
+      also = { "gnomeregan", "gnomeregan-exiles" },
+      text = {
+        { "Not every gnome escaped Gnomeregan. Some lived through the radiation and were changed by it, their bodies ruined and their minds gone strange and violent. The dwarves call them leper gnomes, and the exiles do not like to talk about them at all." },
+        { "They haunt the approaches to the old city and the depots around it, scavenging what they can and attacking those who come too close." },
+        { "If you must fight them, traveller, remember that they were someone's neighbours once." },
       },
     },
     ["magni-bronzebeard"] = {
@@ -22,6 +144,26 @@ ns.content = {
         { "Magni Bronzebeard rules Ironforge from the High Seat, as the Bronzebeards have since the War of the Three Hammers. He is the eldest of three brothers, and the one who stayed. Muradin, the middle brother, went north with the prince of Lordaeron during the Third War and has not been heard from since. Brann, the youngest, would rather crawl through a titan ruin than sit through a council, and is the League's most famous explorer as well as its most often missing." },
         { "The king follows our work closely. If the stones of Uldaman tell the truth, the dwarves were not born of the mountain by chance but shaped from it, long ago, by the Titans themselves. It is a question that matters to him more than he admits." },
         { "His newest grief is his daughter. Princess Moira is held in the Dark Iron city beneath Blackrock Mountain, wed to Emperor Dagran Thaurissan. Ironforge calls it an abduction, and the king has promised a hero's reward to whoever brings her home." },
+      },
+    },
+    ["rockjaw-troggs"] = {
+      title = "The Troggs", kind = "creature", chapter = "dun-morogh",
+      unlock = { { kill = 707 }, { kill = 724 }, { kill = 1115 }, { kill = 1116 }, { kill = 1117 }, { kill = 1118 }, { kill = 1718 }, { kill = 1161 }, { kill = 1162 }, { kill = 1163 }, { kill = 1164 }, { kill = 1165 }, { kill = 1166 }, { kill = 1167 }, { kill = 1197 } },
+      also = { "ironforge", "kharanos" },
+      text = {
+        { "Troggs are the League's shame, and I will not pretend otherwise. When our diggers broke into the deep halls of Uldaman, in the Badlands, something came up with the dust: troggs, crude and numberless, crawling out through tunnels no one knew were there." },
+        { "They have spread through the stone of Khaz Modan ever since. The Rockjaw band hold the quarries and caves of Dun Morogh, the Stonesplinter the valleys of Loch Modan, and others of their kind poured into Gnomeregan in its last days." },
+        { "They are strong, they are stupid, and they are never alone. Where you see one trogg, there are a dozen more in the dark behind it." },
+      },
+    },
+    ["timber"] = {
+      title = "Timber", kind = "creature", chapter = "dun-morogh",
+      unlock = { { kill = 1132 } },
+      also = { "kharanos" },
+      text = {
+        { "The hunters of Kharanos speak of a wolf larger than any in the pack and too wise for their traps. They call him Timber. He chooses his ground, they say, and he never leaves a trail he cannot double back on." },
+        { "As a rule the League has no business with wolves. But a beast that outlives every hunter sent after it has earned a line in any honest record." },
+        { "If this page has found its way into your ledger, traveller, then you have done what better hunters could not. Write it down before the tale grows in the telling." },
       },
     },
     ["war-of-the-three-hammers"] = {
@@ -35,6 +177,16 @@ ns.content = {
         { "The Wildhammers did not stay in Grim Batol either. The death of Queen Modgud, slain at its gates, left a darkness in the stone, and they made a new home at Aerie Peak in the Hinterlands. Ironforge still remembers which clan stayed." },
       },
     },
+    ["wendigos"] = {
+      title = "The Wendigos", kind = "creature", chapter = "dun-morogh",
+      unlock = { { kill = 1134 }, { kill = 1135 }, { area = 136 } },
+      also = { "dun-morogh" },
+      text = {
+        { "Shaggy, white-furred and strong enough to break a dwarf in two, the wendigos keep to the caves of Dun Morogh, the Grizzled Den above all, and come out when hunger gets the better of them." },
+        { "They are beasts, not a people, though they are cleverer than they look and they hunt in numbers. Mountaineers learn early to tell the tracks of a wendigo from those of a bear, and to turn back when they see them." },
+        { "In the deepest of their caves lives the oldest of them, Old Icebeard. Those who have seen him tend to stop describing him halfway through." },
+      },
+    },
     ["foreword"] = {
       title = "A Word from the Archivist", kind = "note", chapter = "",
       unlock = { { always = true } },
@@ -46,7 +198,187 @@ ns.content = {
         { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
       },
     },
+    ["algaz"] = {
+      title = "Algaz", kind = "place", chapter = "loch-modan",
+      unlock = { { area = 925 }, { area = 145 }, { area = 837 }, { area = 836 } },
+      also = { "loch-modan", "wetlands" },
+      text = {
+        { "The road north out of Loch Modan runs through Dun Algaz, a narrow pass cut through the mountains to the Wetlands, and it is guarded at both ends." },
+        { "On our side, the mountaineers of Algaz Station watch the road and the hills around it. Troggs come up in the pass more often than anyone likes, and the Wetlands beyond are no friend to dwarves since the Dark Irons came." },
+        { "When you walk through the pass, look at the stone. It has been worked by dwarven hands for a very long time." },
+      },
+    },
+    ["farstrider-lodge"] = {
+      title = "The Farstrider Lodge", kind = "place", chapter = "loch-modan",
+      unlock = { { area = 147 } },
+      also = { "loch-modan" },
+      text = {
+        { "On the eastern shore of the loch stands a hunting lodge, and the best trackers of the loch country gather there to trade stories, skins and advice." },
+        { "Its name honours the Farstriders, the far-ranging scouts of the elves, and the hunters inside take that name as a standard to live up to. They know every trail between the dam and the southern hills, and the habits of every bear and boar on them." },
+        { "If you mean to hunt in Loch Modan, start here. They will tell you where to go, and more importantly where not to." },
+      },
+    },
+    ["ironbands-excavation-site"] = {
+      title = "Ironband's Excavation Site", kind = "place", chapter = "loch-modan",
+      unlock = { { area = 142 } },
+      also = { "explorers-league", "rockjaw-troggs" },
+      text = {
+        { "One of the League's digs, in the hills of southern Loch Modan, led by Prospector Ironband. What the prospector hoped to find down there I will keep to myself; what he found were troggs." },
+        { "The Stonesplinter came up through the workings in numbers, and the site is now more battlefield than dig. The prospector has not given up, being a dwarf and a member of the League, but he would be very glad of help." },
+        { "This is what the League means when it says digging is dangerous work. The earth is full of things that would rather stay buried, and some that would rather not." },
+      },
+    },
+    ["loch-modan"] = {
+      title = "Loch Modan", kind = "place", chapter = "loch-modan",
+      unlock = { { area = 38 } },
+      also = { "stonewrought-dam", "thelsamar", "gates-of-ironforge" },
+      text = {
+        { "East of the gates lies the gentlest country in Khaz Modan: green hills, pine woods and a long blue loch, all held in place by the great dam at its northern end." },
+        { "It is farming and hunting land, and the dwarves who live here are a little slower to anger and a great deal quicker to offer you a drink than their cousins in Ironforge. They need the good humour. Troggs dig in the southern valleys, ogres hold the north-east, and the Dark Irons have been seen in the hills." },
+        { "Rest in Thelsamar, look at the dam, and visit the Valley of Kings. Then mind your step." },
+      },
+    },
+    ["mogrosh-ogres"] = {
+      title = "The Mo'grosh Ogres", kind = "faction", chapter = "loch-modan",
+      unlock = { { kill = 1178 }, { kill = 1179 }, { kill = 1180 }, { kill = 1181 }, { kill = 1183 }, { area = 143 } },
+      also = { "loch-modan" },
+      text = {
+        { "In the north-east of Loch Modan, the Mo'grosh ogres have made a stronghold of their own and dare anyone to come and take it." },
+        { "Ogres are huge, brutal and much cleverer than dwarves like to admit; their shamans and mystics in particular are not to be taken lightly. The Mo'grosh raid the farms and roads of the loch when they please, and so far no one has had the strength to stop them for good." },
+        { "Do not go into their stronghold alone, traveller. Do not go in at all, if you can avoid it." },
+      },
+    },
+    ["stonewrought-dam"] = {
+      title = "The Stonewrought Dam", kind = "place", chapter = "loch-modan",
+      unlock = { { area = 146 }, { area = 556 } },
+      also = { "loch-modan", "dark-iron-dwarves" },
+      text = {
+        { "The loch is not a work of nature. The dwarves raised the Stonewrought Dam across the northern end of the valley and the water rose behind it, and it has held ever since: one of the great works of Khaz Modan, and a source of quiet pride to every engineer in Ironforge." },
+        { "Stand on top of it and look down at the valley below, then back at the water. You will understand at once why it is guarded, and why the guards do not like to think about what would happen if it ever failed." },
+        { "The Dark Irons understand it too. The League would sleep easier if they did not." },
+      },
+    },
+    ["thelsamar"] = {
+      title = "Thelsamar", kind = "place", chapter = "loch-modan",
+      unlock = { { area = 144 } },
+      also = { "loch-modan" },
+      text = {
+        { "Thelsamar is the heart of Loch Modan: a village of stone houses on the road between Ironforge and the Wetlands, with a forge, a good inn and a gryphon master for those in a hurry." },
+        { "It is the kind of place where everyone knows everyone and the news travels faster than the gryphons. Ask at the inn about anything happening in the loch country and you will hear it three times, each version better than the last." },
+        { "The mountaineers here are stretched thin. If you have a strong arm and a free afternoon, they will find you something to do." },
+      },
+    },
+    ["valley-of-kings"] = {
+      title = "The Valley of Kings", kind = "place", chapter = "loch-modan",
+      unlock = { { area = 924 } },
+      also = { "loch-modan", "war-of-the-three-hammers" },
+      text = {
+        { "Where the road from the Wetlands enters Loch Modan, great figures of stone stand watch over the valley, carved in the likeness, the old tales say, of the dwarf kings of ages past." },
+        { "The League has argued for years about who exactly they are and who carved them. I will spare you the arguments. What matters is that they were made to be seen by everyone who entered Khaz Modan from the north, and to tell them plainly whose country they had entered." },
+        { "Most travellers stop to look up. It is the right thing to do." },
+      },
+    },
+    ["dragonmaw-clan"] = {
+      title = "The Dragonmaw Clan", kind = "faction", chapter = "wetlands",
+      unlock = { { kill = 1034 }, { kill = 1035 }, { kill = 1036 }, { kill = 1037 }, { kill = 1038 }, { kill = 1057 }, { kill = 2102 }, { kill = 2103 }, { area = 1036 } },
+      also = { "grim-batol", "red-dragonflight", "nekrosh" },
+      text = {
+        { "In the Second War, the orcs of the Dragonmaw clan did what no one had done before: they rode dragons into battle. Their secret was cruelty. They held the dragon queen Alexstrasza captive at Grim Batol and used her children as beasts of war." },
+        { "When the dragons were freed, the Dragonmaw were broken, but not destroyed. Their remnants still hold the hills of the Wetlands, raiding the roads and dreaming of the days when the sky belonged to them." },
+        { "They are not the orcs of the new Horde. They are what is left of the old one, and they have not changed their ways." },
+      },
+    },
+    ["dun-modr"] = {
+      title = "Dun Modr", kind = "place", chapter = "wetlands",
+      unlock = { { area = 205 } },
+      also = { "dark-iron-dwarves", "thandol-span" },
+      text = {
+        { "Dun Modr was built to guard the southern end of the Thandol Span, and for many years it did. Now it flies no Bronzebeard banner. The Dark Irons have taken it, and from its walls they strike at the Span and at anyone travelling the road north." },
+        { "It is a bitter thing for any dwarf of Ironforge to see dwarven halls held against us by dwarves. It reminds us that the War of the Three Hammers never really ended." },
+        { "If you pass close, keep your head down. Their riflemen are very good." },
+      },
+    },
+    ["grim-batol"] = {
+      title = "Grim Batol", kind = "history", chapter = "wetlands",
+      unlock = { { area = 1037 } },
+      also = { "war-of-the-three-hammers", "red-dragonflight", "dragonmaw-clan" },
+      text = {
+        { "When the Wildhammers were driven from Ironforge, they carved Grim Batol out of the eastern mountains, and it was a fortress to rival Ironforge itself. Then the Dark Irons came against it, led by Queen Modgud, and though the Wildhammers won the battle and slew her, her death left a darkness in the stone. The Wildhammers would not stay. They went north to the Hinterlands, and Grim Batol stood empty." },
+        { "It did not stay empty. In the Second War the orcs of the Dragonmaw clan made it their stronghold, and there they held Alexstrasza, the queen of the red dragons, prisoner, and forced her children to carry orcs into battle. She was freed in the end, and the Dragonmaw were scattered." },
+        { "The red dragons are there still. Whatever they guard in Grim Batol, they guard it fiercely. Do not go near, traveller. The League has lost enough members to that mountain." },
+      },
+    },
+    ["menethil-harbor"] = {
+      title = "Menethil Harbor", kind = "place", chapter = "wetlands",
+      unlock = { { area = 150 } },
+      also = { "wetlands" },
+      text = {
+        { "A human town on the western shore of the Wetlands, named for the royal house of Lordaeron, which raised it as a harbour for its ships." },
+        { "Lordaeron has fallen to the Scourge, but its harbour has not. Menethil remains a port of the Alliance, and its ships cross the sea to Kalimdor, to Theramore and to Auberdine, carrying soldiers, traders and refugees from the north." },
+        { "It is a damp, busy, brave little town. Buy a drink at the tavern and listen to the sailors: you will hear about places the League has only ever seen on maps." },
+      },
+    },
+    ["mosshide-gnolls"] = {
+      title = "The Mosshide Gnolls", kind = "faction", chapter = "wetlands",
+      unlock = { { kill = 1007 }, { kill = 1008 }, { kill = 1009 }, { kill = 1010 }, { kill = 1011 }, { kill = 1012 }, { kill = 1013 }, { kill = 1014 }, { area = 1020 } },
+      also = { "wetlands" },
+      text = {
+        { "Gnolls are everywhere in the human kingdoms, and the Wetlands have their own: the Mosshide, who live in the fens and raid whatever passes." },
+        { "They are not clever and not brave, but there are a great many of them, and they know the marsh far better than any dwarf ever will. They will not fight you on open ground if they can drag you into the reeds instead." },
+        { "Do not follow them into the reeds." },
+      },
+    },
+    ["nekrosh"] = {
+      title = "Chieftain Nek'rosh", kind = "figure", chapter = "wetlands",
+      unlock = { { kill = 2091 }, { quest = 474 } },
+      also = { "dragonmaw-clan", "grim-batol" },
+      text = {
+        { "Nek'rosh leads what remains of the Dragonmaw in the Wetlands, and he has not given up on the old dream. His clan once rode red dragons; he means for them to do so again, and he has a plan for it, though the League does not know the whole of it." },
+        { "The dwarves of Menethil and the outposts would very much like him stopped before he finds out whether his plan works." },
+        { "If you are the one who stops him, traveller, the League would be grateful for an account of how. Brief, if you can manage it. Accounts of orc chieftains tend to run long." },
+      },
+    },
+    ["red-dragonflight"] = {
+      title = "The Red Dragonflight", kind = "creature", chapter = "wetlands",
+      unlock = { { kill = 1045 }, { kill = 1046 }, { kill = 1047 }, { kill = 1048 }, { kill = 1049 }, { kill = 1050 } },
+      also = { "grim-batol", "dragonmaw-clan" },
+      text = {
+        { "The red dragons belong to Alexstrasza, whom the old tales call the Life-Binder. They are among the oldest and greatest powers in the world, and the orcs of the Dragonmaw once held them in chains." },
+        { "They are free now, but some of them have not left Grim Batol, the place of their captivity. Dragonkin of the red flight walk its halls and guard its gates, and they treat any intruder as an enemy." },
+        { "If you have fought them and lived, you have done something few in the League can claim. Do not make a habit of it." },
+      },
+    },
+    ["thandol-span"] = {
+      title = "The Thandol Span", kind = "place", chapter = "wetlands",
+      unlock = { { area = 881 }, { area = 880 } },
+      also = { "dark-iron-dwarves", "dun-modr", "wetlands" },
+      text = {
+        { "For generations the Thandol Span carried the road from Khaz Modan north across the gorge to the Arathi Highlands and the human kingdoms beyond: a great dwarven bridge, and a promise that dwarves and men would never be cut off from one another." },
+        { "The Dark Irons broke that promise for us. Their saboteurs blew the Span, and the road north is no longer what it was." },
+        { "The League has drawings of the bridge as it stood. When it is rebuilt, and it will be, I mean to be there to see it." },
+      },
+    },
+    ["wetlands"] = {
+      title = "The Wetlands", kind = "place", chapter = "wetlands",
+      unlock = { { area = 11 } },
+      also = { "menethil-harbor", "grim-batol", "thandol-span", "algaz" },
+      text = {
+        { "North of the mountains the ground turns soft and the air turns grey, and you are in the Wetlands: marsh, reed and rain, from the pass of Dun Algaz to the sea at Menethil Harbor." },
+        { "Once this was dwarven country, joined to the kingdoms of men by the Thandol Span. Now it is a crossroads of other people's wars. The Dragonmaw orcs hold the hills, the Dark Irons have taken our fortress at Dun Modr, gnolls and murlocs fill the marshes, and in the east, Grim Batol broods over all of it." },
+        { "Keep to the road, keep your powder dry, and do not linger after dark." },
+      },
+    },
+    ["whelgars-excavation-site"] = {
+      title = "Whelgar's Excavation Site", kind = "place", chapter = "wetlands",
+      unlock = { { area = 118 } },
+      also = { "explorers-league", "wetlands" },
+      text = {
+        { "Another League dig, this one in the Wetlands, where the marsh has preserved things that would have rotted anywhere else: bones of great beasts, and traces of whoever lived here long before the dwarves." },
+        { "It would be a fine site if not for the raptors, which have moved into the dig and treat the diggers as fair game. The League's people there work with one eye on the ground and the other on the reeds." },
+        { "If you are passing, look in on them. They will be very glad to see someone carrying a weapon." },
+      },
+    },
   },
   -- English names of the areas used above (when the client can't name an area id).
-  areaNames = { [77] = "Anvilmar", [131] = "Kharanos" },
+  areaNames = { [1] = "Dun Morogh", [11] = "Wetlands", [38] = "Loch Modan", [77] = "Anvilmar", [118] = "Whelgar's Excavation Site", [131] = "Kharanos", [132] = "Coldridge Valley", [133] = "Gnomeregan", [135] = "Frostmane Hold", [136] = "The Grizzled Den", [142] = "Ironband's Excavation Site", [143] = "Mo'grosh Stronghold", [144] = "Thelsamar", [145] = "Algaz Gate", [146] = "Stonewrought Dam", [147] = "The Farstrider Lodge", [150] = "Menethil Harbor", [189] = "Steelgrill's Depot", [205] = "Dun Modr", [556] = "The Loch", [806] = "South Gate Outpost", [808] = "North Gate Outpost", [836] = "Dun Algaz", [837] = "Dun Algaz", [880] = "Thandol Span", [881] = "Thandol Span", [924] = "Valley of Kings", [925] = "Algaz Station", [1020] = "Mosshide Fen", [1036] = "Angerfang Encampment", [1037] = "Grim Batol", [1537] = "Ironforge", [2257] = "Deeprun Tram" },
 }

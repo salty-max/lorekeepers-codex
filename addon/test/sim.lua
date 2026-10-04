@@ -23,9 +23,15 @@ function strtrim(s) return (s:gsub("^%s+", ""):gsub("%s+$", "")) end
 tinsert = table.insert
 function UnitLevel() return state.level end
 function UnitName(u) return u == "target" and "King Magni Bronzebeard" or "Thorin" end
+local function creature(id) return ("Creature-0-4170-0-12-%d-0000ABCDEF"):format(id) end
+local PLAYER, PET = "Player-6113-0ABCDEF0", "Pet-0-4170-0-12-1860-0100ABCDEF"
 function UnitGUID(u)
-  if u == "target" and state.target then return ("Creature-0-4170-0-12-%d-0000ABCDEF"):format(state.target) end
+  if u == "player" then return PLAYER end
+  if u == "pet" then return PET end
+  if u == "target" and state.target then return creature(state.target) end
 end
+local combatLog
+function CombatLogGetCurrentEventInfo() return unpack(combatLog) end
 function GetRealZoneText() return state.zone end
 function GetSubZoneText() return state.sub end
 C_Map = {
@@ -98,7 +104,8 @@ fire("PLAYER_LOGIN")
 check(LorekeepersCodexChar ~= nil, "the codex is saved per character")
 check(has("foreword") and LorekeepersCodexChar.entries.foreword.retro, "the foreword is there from the start, quietly")
 check(has("war-of-the-three-hammers"), "logging in at Anvilmar unlocks the War of the Three Hammers (English name fallback)")
-check(printed[#printed]:find("War of the Three Hammers", 1, true) ~= nil and sounds == 1, "a new page is announced in chat, with a sound")
+check(printed[#printed]:find("[The War of the Three Hammers]|r has been added to the codex", 1, true) ~= nil and sounds == 2, "a new page is announced in chat (\"… has been added to the codex\"), with a sound")
+check(has("dun-morogh"), "being in Dun Morogh unlocks the zone's page")
 check(has("t-quest") and LorekeepersCodexChar.entries["t-quest"].retro, "a quest done before the codex unlocks quietly")
 check(not has("t-rep"), "Neutral with Ironforge: not yet")
 
@@ -133,13 +140,33 @@ fire("ZONE_CHANGED")
 fire("PLAYER_TARGET_CHANGED")
 local after = 0
 for _ in pairs(LorekeepersCodexChar.entries) do after = after + 1 end
-check(before == after and sounds == 6, "nothing is unlocked twice (6 pages announced)")
+check(before == after and sounds == 7, "nothing is unlocked twice (7 pages announced)")
+
+-- Kills: the killer is in the combat log's PARTY_KILL.
+local function kill(source, id)
+  combatLog = { clock, "PARTY_KILL", false, source, "Thorin", 0, 0, creature(id), "?", 0, 0 }
+  fire("COMBAT_LOG_EVENT_UNFILTERED")
+end
+kill("Player-6113-0FFFFFFF", 1123)
+check(not has("frostmane-trolls"), "someone else's kill unlocks nothing")
+kill(PLAYER, 99999)
+check(not has("frostmane-trolls"), "a creature no page names unlocks nothing")
+kill(PLAYER, 1123)
+check(has("frostmane-trolls"), "killing a Frostmane Headhunter unlocks the Frostmane trolls")
+kill(PET, 1132)
+check(has("timber"), "your pet killing Timber (a rare) counts")
+kill(PLAYER, 706)
+check(sounds == 9, "another Frostmane kill adds nothing")
+
+state.zone, state.sub = "Ironforge", ""
+fire("ZONE_CHANGED_NEW_AREA")
+check(has("ironforge"), "entering Ironforge unlocks its page")
 
 -- ── the book ─────────────────────────────────────────────────────────────────
 SlashCmdList.LOREKEEPERSCODEX("")
 check(LorekeepersCodexFrame and LorekeepersCodexFrame.shown, "/codex opens the book")
 check(next(LorekeepersCodexChar.read) ~= nil, "opening it shows an unread page, marked read")
-check(ns.count() == 8, "8 pages found")
+check(ns.count() == 12, "12 pages found")
 SlashCmdList.LOREKEEPERSCODEX("")
 check(not LorekeepersCodexFrame.shown, "/codex again closes it")
 printed = {}

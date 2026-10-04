@@ -3,8 +3,9 @@
 A World of Warcraft Classic addon: **the lore of Azeroth, written by an
 archivist of the Explorers' League, that fills in as you explore.**
 
-Walk into Kharanos, stand before King Magni in the High Seat, finish the
-right quest chain: a new page appears in your codex. Each page is a short,
+Walk into Kharanos, speak with King Magni in the High Seat, kill your first
+Frostmane troll or a rare like Timber, finish the right quest chain: "[Kharanos]
+has been added to the codex", and the page waits in your book. Each page is a short,
 original text in the voice of a scholar of the Hall of Explorers, and it
 remembers when, at what level and where your character found it. Pages link
 to each other; locked ones wait as `· · ·`.
@@ -31,10 +32,11 @@ Pages live in `content/<chapter>/<id>.md`:
 ---
 id: kharanos
 title: Kharanos
-kind: place          # place | figure | faction | history | note
+kind: place          # place | figure | faction | creature | history | note
 unlock:              # any one of these unlocks it
   - area: Kharanos   # zone or sub-zone, by name (data/areas.json)
-  - npc: 2784        # targeting or talking to this creature
+  - npc: 2784        # talking to (or targeting) this creature
+  - kill: 706, 946   # killing one of these creatures (you or your pet)
   - quest: 1234      # turning in this quest (or having done it)
   - reputation: 47 friendly
   - position: 1455 57 47 6   # uiMap, x %, y %, radius %

@@ -12,11 +12,33 @@ original lore texts that unlock per character as they play. Sister project of
   committed), with validation. `--check` fails if it's stale.
 - `data/areas.json`: the client's AreaTable (wago.tools, `bun scripts/areas.ts`):
   place names in content resolve to area ids, so unlocks work in every language.
-- `addon/LorekeepersCodex/`: `Core.lua` (unlock engine: areas, npcs, quests incl.
-  ones done before, reputations, map positions; per-character SavedVariables
+- `addon/LorekeepersCodex/`: `Core.lua` (unlock engine: areas, npcs talked to or
+  targeted, kills (combat log PARTY_KILL by you or your pet), quests incl. ones
+  done before, reputations, map positions; per-character SavedVariables
   `LorekeepersCodexChar`; `/codex`, `/codex where`), `Codex.lua` (the book UI).
 - `addon/test/sim.lua`: fake WoW API + a replayed session; the UI runs against a
   permissive stub (catches Lua errors, not layout).
+
+## What deserves a page (the user's editorial line)
+
+Three tests, all required: (1) there's a story beyond what the game shows;
+(2) the player meets it at a clear moment (arriving, talking, killing,
+finishing a story); lore never met directly hangs on a place or person that
+evokes it (the War of the Three Hammers unlocks at Anvilmar); (3) it holds up
+in vanilla-era sources.
+
+- Zones: every zone gets one page.
+- Places: towns, capitals (one page each, no districts), landmarks with a
+  story. Not generic camps or quest caves.
+- Figures: lore figures and storyline leads only (rulers, leaders, the heart
+  of a quest chain). Not vendors, trainers, one-off quest givers or locals.
+- Peoples/factions: one page per people, unlocked by any member.
+- Creatures: only rares with a story and identity (Timber); not every rare,
+  not ordinary wildlife.
+- History: regional events, hung on a related place or quest.
+- As many pages as the zone has stories: a small zone 8–10, a large one like
+  the Barrens 30+. Every page still earns its place. The plan per zone is
+  PLAN.md (status, unlock, what to check): update it as pages land.
 
 ## Writing pages (the product is the text)
 
@@ -27,9 +49,12 @@ original lore texts that unlock per character as they play. Sister project of
   expansions, no future fates. Original wording, never copied from wikis or
   game text. Check every fact against the Warcraft Wiki before release; when
   sources disagree or it's uncertain, write around it rather than guess.
-- Unlocks: by game ids. Ironforge has no named sub-areas in Classic: city spots
-  unlock by `position` (collect them in game with `/codex where`). Verify npc and
-  quest ids (Wowhead Classic) before release.
+- Unlocks (the user's rules): places when discovered; figures when talked to;
+  mobs and rares when killed (a people's page lists every creature id of it);
+  capitals get one page for the whole city (no per-district pages). Ids are
+  verified on Wowhead Classic (`/classic/npcs/name:X` embeds the data,
+  `nether.wowhead.com/classic/tooltip/npc/ID` gives the creature type) before
+  writing; never guess one.
 - Textures: only ones the Classic UI itself uses (check Gethe/wow-ui-source,
   branch classic_era); a wrong path silently shows nothing.
 

@@ -6,11 +6,12 @@
  *   ---
  *   id: kharanos
  *   title: Kharanos
- *   kind: place                 # place | figure | faction | history | note
+ *   kind: place                 # place | figure | faction | creature | history | note
  *   unlock:                     # any one of these unlocks it
  *     - area: Kharanos          # a zone or sub-zone, by its name in the game data
  *     - area: Gnomeregan (Dun Morogh)   # parent zone, when the name is ambiguous
- *     - npc: 2784               # targeting or talking to this creature
+ *     - npc: 2784               # talking to (or targeting) this creature
+ *     - kill: 706, 946          # killing one of these creatures
  *     - quest: 1234             # turning in this quest (or having done it)
  *     - reputation: 47 friendly # reaching a standing with a faction
  *     - position: 1455 74 10 6  # within 6 (map %) of x 74 y 10 on uiMap 1455
@@ -32,11 +33,11 @@ const ROOT = new URL("..", import.meta.url).pathname;
 const CONTENT = join(ROOT, "content");
 const OUT = join(ROOT, "addon/LorekeepersCodex/Content.lua");
 
-const KINDS = ["place", "figure", "faction", "history", "note"] as const;
+const KINDS = ["place", "figure", "faction", "creature", "history", "note"] as const;
 const STANDINGS: Record<string, number> = { hated: 1, hostile: 2, unfriendly: 3, neutral: 4, friendly: 5, honored: 6, revered: 7, exalted: 8 };
 
 type Area = { id: number; name: string; parent: number };
-type Unlock = { always: true } | { area: number } | { npc: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number };
+type Unlock = { always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number };
 type Entry = { id: string; title: string; kind: string; chapter: string; unlock: Unlock[]; also: string[]; text: { italic: boolean; text: string }[]; file: string };
 
 const areas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas.json"), "utf8"));
@@ -86,7 +87,19 @@ function resolveArea(file: string, spec: string): number | null {
   return null;
 }
 
-function unlockRule(file: string, rule: string): Unlock | null {
+function unlockRule(file: string, rule: string): Unlock[] {
+  // npc and kill take several ids: one rule each.
+  const many = rule.match(/^(npc|kill):\s*(.+)$/);
+  if (many) {
+    const ids = many[2].split(",").map((v) => Number(v.trim()));
+    if (!ids.every((id) => Number.isInteger(id) && id > 0)) return fail(file, `${many[1]} needs numeric ids`), [];
+    return ids.map((id) => (many[1] === "npc" ? { npc: id } : { kill: id }));
+  }
+  const one = unlockOne(file, rule);
+  return one ? [one] : [];
+}
+
+function unlockOne(file: string, rule: string): Unlock | null {
   if (rule === "always") return { always: true };
   const m = rule.match(/^([a-z]+):\s*(.+)$/);
   if (!m) return fail(file, `bad unlock "${rule}"`), null;
@@ -97,11 +110,10 @@ function unlockRule(file: string, rule: string): Unlock | null {
       const id = resolveArea(file, value);
       return id == null ? null : { area: id };
     }
-    case "npc":
     case "quest": {
       const id = num(value);
-      if (id == null) return fail(file, `${key} needs a numeric id`), null;
-      return key === "npc" ? { npc: id } : { quest: id };
+      if (id == null) return fail(file, "quest needs a numeric id"), null;
+      return { quest: id };
     }
     case "reputation": {
       const [faction, standing] = value.split(/\s+/);
@@ -154,7 +166,7 @@ for (const file of walk(CONTENT).sort()) {
     title: String(meta.title ?? id),
     kind: String(meta.kind),
     chapter,
-    unlock: rules.map((r) => unlockRule(file, r)).filter((u): u is Unlock => u != null),
+    unlock: rules.flatMap((r) => unlockRule(file, r)),
     also,
     text: paragraphs(body),
     file,
@@ -185,6 +197,8 @@ const unlockLua = (u: Unlock) =>
       ? `{ area = ${u.area} }`
       : "npc" in u
         ? `{ npc = ${u.npc} }`
+        : "kill" in u
+          ? `{ kill = ${u.kill} }`
         : "quest" in u
           ? `{ quest = ${u.quest} }`
           : "faction" in u

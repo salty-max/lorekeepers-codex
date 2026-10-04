@@ -6,7 +6,7 @@ local C = ns.content
 
 local INK = { 0.22, 0.14, 0.05 } -- dark brown, on parchment
 local INK_SOFT = { 0.42, 0.30, 0.16 }
-local KIND = { place = "A place", figure = "A figure", faction = "A people", history = "History", note = "" }
+local KIND = { place = "A place", figure = "A figure", faction = "A people", creature = "A creature", history = "History", note = "" }
 
 local book, list, page
 local current
