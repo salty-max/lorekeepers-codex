@@ -10,6 +10,7 @@
  *   unlock:                     # any one of these unlocks it
  *     - area: Kharanos          # a zone or sub-zone, by its name in the game data
  *     - area: Gnomeregan (Dun Morogh)   # parent zone, when the name is ambiguous
+ *     - area: Gnomeregan (zone)         # the top-level area: the dungeon itself
  *     - npc: 2784               # talking to (or targeting) this creature
  *     - kill: 706, 946          # killing one of these creatures
  *     - quest: 1234             # turning in this quest (or having done it)
@@ -85,7 +86,9 @@ function resolveArea(file: string, spec: string): number | null {
   const parent = m?.[2];
   // Some names end with a space in the client data ("Ruins of Eldarath ").
   let found = areas.filter((a) => a.name.trim() === name);
-  if (parent) found = found.filter((a) => areaById.get(a.parent)?.name.trim() === parent);
+  // "(zone)" means a top-level area: a zone, or an instance such as a dungeon.
+  if (parent === "zone") found = found.filter((a) => a.parent === 0);
+  else if (parent) found = found.filter((a) => areaById.get(a.parent)?.name.trim() === parent);
   // Later clients added second copies of some places under the same zone
   // (Twilight Grove 856 and 16160): the addon matches places by name, so any
   // of them will do.
