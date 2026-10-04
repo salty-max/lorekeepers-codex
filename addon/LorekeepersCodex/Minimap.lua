@@ -1,0 +1,75 @@
+-- The book's button on the minimap: click to open the codex, drag to move it
+-- around the minimap. Its place (and whether it shows) is kept for the whole
+-- account in LorekeepersCodexSettings. Built with the textures of the game's
+-- own minimap buttons (the tracking button's border, the zoom highlight).
+local _, ns = ...
+
+local button
+
+local function settings()
+  LorekeepersCodexSettings = LorekeepersCodexSettings or {}
+  local s = LorekeepersCodexSettings
+  if s.minimapAngle == nil then s.minimapAngle = 200 end -- lower left, clear of the game's buttons
+  return s
+end
+
+local function place()
+  local angle = math.rad(settings().minimapAngle)
+  local r = Minimap:GetWidth() / 2 + 10
+  button:ClearAllPoints()
+  button:SetPoint("CENTER", Minimap, "CENTER", math.cos(angle) * r, math.sin(angle) * r)
+end
+
+-- While dragging: the angle from the minimap's centre to the cursor.
+local function follow()
+  local mx, my = Minimap:GetCenter()
+  local cx, cy = GetCursorPosition()
+  local scale = Minimap:GetEffectiveScale()
+  settings().minimapAngle = math.deg(math.atan2(cy / scale - my, cx / scale - mx))
+  place()
+end
+
+function ns.createMinimapButton()
+  if button then return end
+  button = CreateFrame("Button", "LorekeepersCodexMinimapButton", Minimap)
+  button:SetSize(31, 31)
+  button:SetFrameStrata("MEDIUM")
+  button:SetFrameLevel(8)
+  button:RegisterForClicks("LeftButtonUp")
+  button:RegisterForDrag("LeftButton")
+  button:SetHighlightTexture("Interface\\Minimap\\UI-Minimap-ZoomButton-Highlight")
+
+  local icon = button:CreateTexture(nil, "BACKGROUND")
+  icon:SetTexture("Interface\\Icons\\INV_Misc_Book_09")
+  icon:SetSize(20, 20)
+  icon:SetPoint("TOPLEFT", 7, -6)
+  icon:SetTexCoord(0.08, 0.92, 0.08, 0.92)
+
+  local border = button:CreateTexture(nil, "OVERLAY")
+  border:SetTexture("Interface\\Minimap\\MiniMap-TrackingBorder")
+  border:SetSize(53, 53)
+  border:SetPoint("TOPLEFT")
+
+  button:SetScript("OnClick", function() ns.toggle() end)
+  button:SetScript("OnDragStart", function(self) self:SetScript("OnUpdate", follow) end)
+  button:SetScript("OnDragStop", function(self) self:SetScript("OnUpdate", nil) end)
+  button:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_LEFT")
+    GameTooltip:AddLine("Lorekeeper's Codex")
+    GameTooltip:AddLine(("%d of %d pages"):format(ns.count(), ns.total), 1, 1, 1)
+    GameTooltip:AddLine("Click to open the book. Drag to move this button.", 0.7, 0.7, 0.7, true)
+    GameTooltip:Show()
+  end)
+  button:SetScript("OnLeave", function() GameTooltip:Hide() end)
+
+  place()
+  button:SetShown(not settings().minimapHidden)
+end
+
+-- /codex minimap: hide or show the button.
+function ns.toggleMinimapButton()
+  local s = settings()
+  s.minimapHidden = not s.minimapHidden
+  if button then button:SetShown(not s.minimapHidden) end
+  return not s.minimapHidden
+end

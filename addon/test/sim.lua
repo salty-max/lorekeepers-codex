@@ -61,12 +61,20 @@ local function ui()
       if k == "IsShown" then return function(self) return self.shown end end
       if k == "SetText" then return function(self, v) self.text = v end end
       if k == "GetStringHeight" then return function() return 14 end end
+      if k == "GetWidth" then return function() return 140 end end
+      if k == "GetCenter" then return function() return 0, 0 end end
+      if k == "GetEffectiveScale" then return function() return 1 end end
       if k == "CreateFontString" or k == "CreateTexture" then return function() return ui() end end
       return function() return t end
     end,
   })
 end
 UIParent, UISpecialFrames, SlashCmdList = ui(), {}, {}
+Minimap, GameTooltip = ui(), ui()
+function GetCursorPosition() return 0, 0 end
+local linkHandlers = {}
+LinkUtil = { RegisterLinkHandler = function(kind, fn) linkHandlers[kind] = fn end }
+LinkProcessorResponse = { Handled = 2 }
 local events
 function CreateFrame(kind, name)
   local f = ui()
@@ -95,6 +103,9 @@ ns.content.entries["t-rep"] = entry("Friendly with Ironforge", { faction = 47, s
 ns.content.entries["t-pos"] = entry("The Great Forge", { map = 1455, x = 57, y = 47, r = 6 })
 assert(loadfile(DIR .. "Core.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Codex.lua"))("LorekeepersCodex", ns)
+assert(loadfile(DIR .. "Minimap.lua"))("LorekeepersCodex", ns)
+assert(loadfile(DIR .. "Banner.lua"))("LorekeepersCodex", ns)
+function wipe(t) for k in pairs(t) do t[k] = nil end return t end
 
 local function check(cond, msg) assert(cond, msg); io.write("✓ " .. msg .. "\n") end
 local function has(id) return LorekeepersCodexChar.entries[id] ~= nil end
@@ -104,7 +115,17 @@ fire("PLAYER_LOGIN")
 check(LorekeepersCodexChar ~= nil, "the codex is saved per character")
 check(has("foreword") and LorekeepersCodexChar.entries.foreword.retro, "the foreword is there from the start, quietly")
 check(has("war-of-the-three-hammers"), "logging in at Anvilmar unlocks the War of the Three Hammers (English name fallback)")
-check(printed[#printed]:find("[The War of the Three Hammers]|r has been added to the codex", 1, true) ~= nil and sounds == 2, "a new page is announced in chat (\"… has been added to the codex\"), with a sound")
+local function said(text) for _, p in ipairs(printed) do if p:find(text, 1, true) then return p end end end
+check(said("|Hlorekeeper:war-of-the-three-hammers|h[The War of the Three Hammers]|h|r has been added to the codex.") and sounds == 2, "a new page is announced in chat as a link, with a sound")
+local hints = 0
+for _, p in ipairs(printed) do if p:find("/codex", 1, true) then hints = hints + 1 end end
+check(hints == 1 and said("pages. Type /codex or click the book by the minimap"), "the /codex hint appears once, at login, and not in page messages")
+check(LorekeepersCodexBanner and LorekeepersCodexBanner.shown and LorekeepersCodexBanner.id == "dun-morogh", "a banner shows the first new page at the top of the screen")
+LorekeepersCodexBanner.scripts.OnUpdate(LorekeepersCodexBanner, 10)
+check(LorekeepersCodexBanner.shown and LorekeepersCodexBanner.id == "war-of-the-three-hammers", "the next page found waits its turn")
+LorekeepersCodexBanner.scripts.OnUpdate(LorekeepersCodexBanner, 10)
+check(not LorekeepersCodexBanner.shown, "then the banner fades away")
+check(LorekeepersCodexMinimapButton ~= nil and LorekeepersCodexSettings.minimapAngle ~= nil, "a minimap button, its place saved for the account")
 check(has("dun-morogh"), "being in Dun Morogh unlocks the zone's page")
 check(has("t-quest") and LorekeepersCodexChar.entries["t-quest"].retro, "a quest done before the codex unlocks quietly")
 check(not has("t-rep"), "Neutral with Ironforge: not yet")
@@ -162,11 +183,33 @@ state.zone, state.sub = "Ironforge", ""
 fire("ZONE_CHANGED_NEW_AREA")
 check(has("ironforge"), "entering Ironforge unlocks its page")
 
+-- A click on a page link in chat opens the book at that page.
+check(linkHandlers.lorekeeper ~= nil, "codex links have a handler")
+check(linkHandlers.lorekeeper("lorekeeper:kharanos") == 2 and LorekeepersCodexFrame.shown, "clicking [Kharanos] in chat opens the book")
+check(LorekeepersCodexChar.read.kharanos, "… at the Kharanos page")
+linkHandlers.lorekeeper("lorekeeper:grim-batol")
+check(not LorekeepersCodexChar.read["grim-batol"], "a link to a page not found yet opens nothing")
+LorekeepersCodexFrame:Hide()
+LorekeepersCodexMinimapButton.scripts.OnClick()
+check(LorekeepersCodexFrame.shown, "the minimap button opens the book")
+LorekeepersCodexFrame:Hide()
+SlashCmdList.LOREKEEPERSCODEX("minimap")
+check(LorekeepersCodexSettings.minimapHidden and not LorekeepersCodexMinimapButton.shown, "/codex minimap hides the button")
+SlashCmdList.LOREKEEPERSCODEX("minimap")
+SlashCmdList.LOREKEEPERSCODEX("banner")
+ns.unlock("menethil-harbor")
+check(LorekeepersCodexSettings.banner == false and not LorekeepersCodexBanner.shown, "/codex banner turns the banner off")
+SlashCmdList.LOREKEEPERSCODEX("banner")
+
 -- ── the book ─────────────────────────────────────────────────────────────────
 SlashCmdList.LOREKEEPERSCODEX("")
 check(LorekeepersCodexFrame and LorekeepersCodexFrame.shown, "/codex opens the book")
 check(next(LorekeepersCodexChar.read) ~= nil, "opening it shows an unread page, marked read")
-check(ns.count() == 12, "12 pages found")
+check(ns.count() == 13, "13 pages found")
+local C = ns.content
+check(ns.found(C.chapters[1]) == 7 and #C.chapters[1].entries == 18, "Dun Morogh counts 7 of its 18 pages")
+check(ns.found(C.chapters[2]) == 0, "Loch Modan, not visited, has no page found: its chapter stays hidden")
+check(ns.found(C.chapters[3]) == 1, "the Wetlands show once Menethil is found")
 SlashCmdList.LOREKEEPERSCODEX("")
 check(not LorekeepersCodexFrame.shown, "/codex again closes it")
 printed = {}

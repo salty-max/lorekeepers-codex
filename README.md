@@ -18,8 +18,13 @@ to each other; locked ones wait as `· · ·`.
 
 First chapter in progress: **Dun Morogh** and the dwarven lands.
 
-`/codex` opens the book. `/codex where` prints your position and target in
-the terms content files use (for writing new pages).
+`/codex` or the book by the minimap opens the codex (drag the button to move
+it; `/codex minimap` hides or shows it). Each new page is announced in chat as
+a link that opens the book at that page, and by a banner at the top of the
+screen (click it to read the page; `/codex banner` turns it off). A zone's
+chapter appears in the book with its first page, with a count of the pages
+found there. `/codex where` prints your position
+and target in the terms content files use (for writing new pages).
 
 For Classic Era (Hardcore, Season of Discovery) and TBC Anniversary. Not
 affiliated with Blizzard Entertainment.

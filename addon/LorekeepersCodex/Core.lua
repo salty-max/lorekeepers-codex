@@ -66,8 +66,10 @@ local function unlock(id, retro)
     retro = retro or nil,
   }
   if not retro then
-    print(PREFIX .. "|cffffd100[" .. C.entries[id].title .. "]|r has been added to the codex. Type /codex to read it.")
+    -- A link: clicking it opens the book at this page (see Codex.lua).
+    print(PREFIX .. ("|cffffd100|Hlorekeeper:%s|h[%s]|h|r has been added to the codex."):format(id, C.entries[id].title))
     if PlaySound and SOUNDKIT and SOUNDKIT.IG_QUEST_LOG_OPEN then PlaySound(SOUNDKIT.IG_QUEST_LOG_OPEN) end
+    if ns.showBanner then ns.showBanner(id) end
   end
   if ns.onUnlock then ns.onUnlock(id) end
 end
@@ -135,6 +137,9 @@ function handlers.PLAYER_LOGIN()
   checkFactions(true)
   checkArea()
   if C_Timer and next(byMap) then C_Timer.NewTicker(2, checkPosition) end
+  if ns.createMinimapButton then ns.createMinimapButton() end
+  -- The only reminder of how to open the book: once, at login.
+  print(PREFIX .. ("%d of %d pages. Type /codex or click the book by the minimap to read them."):format(ns.count(), ns.total))
 end
 
 handlers.ZONE_CHANGED = checkArea
@@ -180,6 +185,14 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
       pos and ("position: %d %.1f %.1f"):format(map, pos.x * 100, pos.y * 100) or "no position"))
     local target = npcId("target")
     if target then print(PREFIX .. ("target: npc: %d (%s)"):format(target, UnitName("target") or "?")) end
+    return
+  end
+  if msg == "banner" then
+    print(PREFIX .. (ns.toggleBanner() and "banner shown for new pages." or "banner hidden (/codex banner to show it again)."))
+    return
+  end
+  if msg == "minimap" then
+    print(PREFIX .. (ns.toggleMinimapButton() and "minimap button shown." or "minimap button hidden (/codex minimap to show it again)."))
     return
   end
   if ns.toggle then ns.toggle() end

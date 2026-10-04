@@ -5,7 +5,7 @@ local _, ns = ...
 local C = ns.content
 
 local INK = { 0.22, 0.14, 0.05 } -- dark brown, on parchment
-local INK_SOFT = { 0.42, 0.30, 0.16 }
+local INK_SOFT = { 0.34, 0.22, 0.09 } -- dark enough to read on the parchment
 local KIND = { place = "A place", figure = "A figure", faction = "A people", creature = "A creature", history = "History", note = "" }
 
 local book, list, page
@@ -77,9 +77,30 @@ local function row(i)
   r.text:SetPoint("LEFT", 8, 0)
   r.text:SetPoint("RIGHT", -4, 0)
   r.text:SetJustifyH("LEFT")
+  r.count = r:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
+  r.count:SetPoint("RIGHT", -6, 0)
+  -- A chapter's progress, under its title.
+  r.bar = CreateFrame("StatusBar", nil, r)
+  r.bar:SetPoint("TOPLEFT", r, "BOTTOMLEFT", 8, -1)
+  r.bar:SetPoint("TOPRIGHT", r, "BOTTOMRIGHT", -6, -1)
+  r.bar:SetHeight(5)
+  r.bar:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar")
+  r.bar:SetStatusBarColor(0.85, 0.65, 0.13)
+  local bg = r.bar:CreateTexture(nil, "BACKGROUND")
+  bg:SetAllPoints()
+  bg:SetColorTexture(0, 0, 0, 0.5)
   r:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
   rows[i] = r
   return r
+end
+
+-- Pages found in a chapter.
+function ns.found(ch)
+  local n = 0
+  for _, id in ipairs(ch.entries) do
+    if ns.page(id) then n = n + 1 end
+  end
+  return n
 end
 
 function ns.refresh()
@@ -87,17 +108,21 @@ function ns.refresh()
   book.count:SetText(("%d of %d pages"):format(ns.count(), ns.total))
   for _, r in ipairs(rows) do r:Hide() end
   local i, y = 0, 0
-  local function add(kind, text, id)
+  local function add(kind, text, id, found, total)
     i = i + 1
     local r = row(i)
     r:ClearAllPoints()
     r:SetPoint("TOPLEFT", 0, -y)
     r.id = id
+    r.count:SetText(kind == "chapter" and id or "")
+    r.bar:SetShown(kind == "chapter")
     if kind == "chapter" then
       r.text:SetFontObject("GameFontNormal")
       r.text:SetText(text)
+      r.bar:SetMinMaxValues(0, total)
+      r.bar:SetValue(found)
       r:Disable()
-      y = y + 24
+      y = y + 30
     elseif kind == "locked" then
       r.text:SetFontObject("GameFontDisableSmall")
       r.text:SetText("· · ·")
@@ -116,11 +141,15 @@ function ns.refresh()
   for id, e in pairs(C.entries) do
     if e.chapter == "" and ns.page(id) then add("page", nil, id) end
   end
+  -- A chapter appears once one of its pages is found, with its progress.
   for _, ch in ipairs(C.chapters) do
-    y = y + 6
-    add("chapter", ch.title)
-    for _, id in ipairs(ch.entries) do
-      if ns.page(id) then add("page", nil, id) else add("locked") end
+    local found = ns.found(ch)
+    if found > 0 then
+      y = y + 6
+      add("chapter", ch.title, ("%d/%d"):format(found, #ch.entries), found, #ch.entries)
+      for _, id in ipairs(ch.entries) do
+        if ns.page(id) then add("page", nil, id) else add("locked") end
+      end
     end
   end
   list.child:SetHeight(y + 8)
@@ -172,10 +201,11 @@ local function build()
   sheet:SetPoint("BOTTOMRIGHT", -20, 18)
   local paper = sheet:CreateTexture(nil, "BACKGROUND")
   paper:SetAllPoints()
-  -- The parchment of the game's own book reader (ItemTextFrame), shown at its
-  -- real scale from the top left, as that frame does.
+  -- The parchment of the game's own book reader (ItemTextFrame). It fills the
+  -- top-left of a 512×512 texture (about 63% by 70%, measured in game):
+  -- that part, stretched over the whole page.
   paper:SetTexture("Interface\\MailFrame\\UI-MailFrameBG")
-  sheet:SetScript("OnSizeChanged", function(_, w, h) paper:SetTexCoord(0, math.min(1, w / 512), 0, math.min(1, h / 512)) end)
+  paper:SetTexCoord(0, 0.625, 0, 0.70)
 
   page = CreateFrame("ScrollFrame", "LorekeepersCodexPage", sheet, "UIPanelScrollFrameTemplate")
   page:SetPoint("TOPLEFT", 18, -16)
@@ -235,6 +265,28 @@ end
 function ns.toggle()
   if not book then build() end
   book:SetShown(not book:IsShown())
+end
+
+-- Open the book at a page (a click on a codex link in chat).
+function ns.open(id)
+  if not ns.page(id) then return end
+  if not book then build() end
+  current = id
+  if book:IsShown() then
+    showPage(id)
+    ns.refresh()
+  else
+    book:Show()
+  end
+end
+
+-- Codex links in chat (|Hlorekeeper:<id>|h[Title]|h): the game hands links of
+-- an unknown type to the handler registered for it.
+if LinkUtil and LinkUtil.RegisterLinkHandler then
+  LinkUtil.RegisterLinkHandler("lorekeeper", function(link)
+    ns.open(link:match("^lorekeeper:(.+)$"))
+    return LinkProcessorResponse and LinkProcessorResponse.Handled
+  end)
 end
 
 -- A page found while the book is open shows up in the list at once.
