@@ -3,7 +3,7 @@
 -- so does a right-click on the minimap button.
 local _, ns = ...
 
-local DEFAULTS = { banner = true, bannerSeconds = 10, chat = true, sound = 878, minimapHidden = false }
+local DEFAULTS = { banner = true, bannerSeconds = 10, chat = true, sound = 878, minimapHidden = false, tooltipHints = true }
 
 -- Sounds for a new page: all from the original game's interface.
 ns.SOUNDS = {
@@ -70,6 +70,8 @@ function ns.createSettingsPanel()
     for _, s in ipairs(ns.SOUNDS) do options:Add(s[1], s[2]) end
     return options:GetData()
   end, "Played when a page is added to the codex.")
+
+  checkbox("tooltipHints", "Hints on tooltips", "A line on the tooltip of creatures that unlock a page: a page to find, or the page's title once found.")
 
   checkbox("minimapHidden", "Minimap button", "The book by the minimap: click to open the codex, drag to move it.", true)
 

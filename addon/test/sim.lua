@@ -29,6 +29,7 @@ function UnitGUID(u)
   if u == "player" then return PLAYER end
   if u == "pet" then return PET end
   if u == "target" and state.target then return creature(state.target) end
+  if u == "mouseover" and state.mouseover then return creature(state.mouseover) end
 end
 local combatLog
 function CombatLogGetCurrentEventInfo() return unpack(combatLog) end
@@ -79,6 +80,7 @@ local function ui()
       if k == "IsShown" then return function(self) return self.shown end end
       if k == "IsMouseOver" then return function(self) return self.mouseOver == true end end
       if k == "SetText" then return function(self, v) self.text = v end end
+      if k == "GetText" then return function(self) return rawget(self, "text") or "" end end
       if k == "GetStringHeight" then return function() return 14 end end
       if k == "GetWidth" then return function() return 140 end end
       if k == "GetCenter" then return function() return 0, 0 end end
@@ -90,6 +92,12 @@ local function ui()
 end
 UIParent, UISpecialFrames, SlashCmdList = ui(), {}, {}
 Minimap, GameTooltip = ui(), ui()
+-- The tooltip: keep hooks, lines and the unit it shows.
+local tipHooks, tipLines, tipUnit = {}, {}, nil
+GameTooltip.HookScript = function(self, name, fn) tipHooks[name] = fn end
+GameTooltip.GetUnit = function() return "Someone", tipUnit end
+GameTooltip.AddLine = function(self, text) table.insert(tipLines, text) end
+function UnitIsPlayer(u) return u == "player" end
 function GetCursorPosition() return 0, 0 end
 local linkHandlers = {}
 LinkUtil = { RegisterLinkHandler = function(kind, fn) linkHandlers[kind] = fn end }
@@ -147,6 +155,7 @@ assert(loadfile(DIR .. "Codex.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Minimap.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Banner.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Settings.lua"))("LorekeepersCodex", ns)
+assert(loadfile(DIR .. "Hints.lua"))("LorekeepersCodex", ns)
 function wipe(t) for k in pairs(t) do t[k] = nil end return t end
 
 local function check(cond, msg) assert(cond, msg); io.write("✓ " .. msg .. "\n") end
@@ -301,4 +310,30 @@ SlashCmdList.LOREKEEPERSCODEX("reset")
 check(ns.count() > 3, "/codex reset alone only asks")
 SlashCmdList.LOREKEEPERSCODEX("reset yes")
 check(LorekeepersCodexChar.guid == PLAYER and LorekeepersCodexChar.entries["foreword-dwarf"] and LorekeepersCodexChar.entries.ironforge and not LorekeepersCodexChar.entries.timber, "/codex reset yes starts over, from what the character has already done")
+-- ── tooltip hints and search ─────────────────────────────────────────────────
+local function hover(id)
+  tipLines, tipUnit, state.mouseover = {}, "mouseover", id
+  tipHooks.OnTooltipSetUnit(GameTooltip)
+  return table.concat(tipLines, "|")
+end
+check(hover(2091) == "Lorekeeper's Codex: a page to find", "a creature that unlocks a page hints at it on its tooltip")
+ns.unlock("magni-bronzebeard")
+check(hover(2784) == "Lorekeeper's Codex: King Magni Bronzebeard", "… and names the page once it is found")
+check(hover(99999) == "", "creatures with no page get no line")
+LorekeepersCodexSettings.tooltipHints = false
+check(hover(2091) == "", "hints can be turned off")
+LorekeepersCodexSettings.tooltipHints = true
+local function has_(list, id) for _, v in ipairs(list) do if v == id then return true end end end
+ns.unlock("kharanos")
+check(has_(ns.search("thunderbrew"), "kharanos"), "search finds a found page by its text")
+check(has_(ns.search("KHARANOS"), "kharanos"), "… whatever the case")
+check(#ns.search("Grim Batol") == 0, "… and never a page not found yet")
+SlashCmdList.LOREKEEPERSCODEX("")
+LorekeepersCodexFrame.search:SetText("ironforge")
+ns.refresh()
+LorekeepersCodexFrame.search:SetText("no such words")
+ns.refresh()
+LorekeepersCodexFrame.search:SetText("")
+ns.refresh()
+check(true, "the book's list follows the search box (results, none, back to chapters)")
 io.write("all good\n")

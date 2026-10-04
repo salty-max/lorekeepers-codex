@@ -88,6 +88,34 @@ function ns.found(ch)
   return n
 end
 
+-- Search: the pages this character has found whose title or text holds the
+-- query (never locked ones: no spoilers). Text is lowered once, on first use.
+local haystack = {}
+local function matches(id, query)
+  if not haystack[id] then
+    local e = C.entries[id]
+    local parts = { e.title }
+    for _, para in ipairs(e.text) do table.insert(parts, para[1]) end
+    haystack[id] = table.concat(parts, " "):lower()
+  end
+  return haystack[id]:find(query, 1, true) ~= nil
+end
+
+function ns.search(query)
+  local out = {}
+  query = (query or ""):lower():gsub("^%s+", ""):gsub("%s+$", "")
+  if query == "" then return out end
+  for _, ch in ipairs(C.chapters) do
+    for _, id in ipairs(ch.entries) do
+      if ns.page(id) and matches(id, query) then table.insert(out, id) end
+    end
+  end
+  for id, e in pairs(C.entries) do
+    if e.chapter == "" and ns.page(id) and matches(id, query) then table.insert(out, 1, id) end
+  end
+  return out
+end
+
 function ns.refresh()
   if not book then return end
   book.count:SetText(("%d of %d pages"):format(ns.count(), ns.total))
@@ -121,6 +149,27 @@ function ns.refresh()
       y = y + 18
     end
     r:Show()
+  end
+  -- While searching, the list is the results.
+  local query = book.search and book.search:GetText() or ""
+  if query:find("%S") then
+    local results = ns.search(query)
+    for _, id in ipairs(results) do add("page", nil, id) end
+    if #results == 0 then
+      i = i + 1
+      local r = row(i)
+      r:ClearAllPoints()
+      r:SetPoint("TOPLEFT", 0, 0)
+      r.count:SetText("")
+      r.bar:Hide()
+      r.text:SetFontObject("GameFontDisableSmall")
+      r.text:SetText("No page found.")
+      r:Disable()
+      r:Show()
+      y = 18
+    end
+    list.child:SetHeight(y + 8)
+    return
   end
   -- Loose pages (the foreword) first, then each chapter.
   for id, e in pairs(C.entries) do
@@ -171,9 +220,14 @@ local function build()
   book.count = book:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
   book.count:SetPoint("TOPLEFT", 24, -22)
 
-  -- Left: the list.
+  -- Left: a search box, then the list.
+  book.search = CreateFrame("EditBox", "LorekeepersCodexSearch", book, "SearchBoxTemplate")
+  book.search:SetSize(196, 20)
+  book.search:SetPoint("TOPLEFT", 28, -44)
+  book.search:HookScript("OnTextChanged", function() ns.refresh() end)
+
   list = CreateFrame("ScrollFrame", "LorekeepersCodexList", book, "UIPanelScrollFrameTemplate")
-  list:SetPoint("TOPLEFT", 20, -44)
+  list:SetPoint("TOPLEFT", 20, -70)
   list:SetPoint("BOTTOMLEFT", 20, 20)
   list:SetWidth(204)
   list.child = CreateFrame("Frame", nil, list)

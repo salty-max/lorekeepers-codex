@@ -29,6 +29,18 @@ for id, e in pairs(C.entries) do
   end
 end
 
+-- The pages a creature unlocks (by talking to it or killing it), for the
+-- tooltip hint.
+function ns.pagesOfNpc(npcId)
+  local out, seen = {}, {}
+  for _, t in ipairs({ byNpc[npcId] or {}, byKill[npcId] or {} }) do
+    for _, id in ipairs(t) do
+      if not seen[id] then seen[id] = true; table.insert(out, id) end
+    end
+  end
+  return out
+end
+
 -- Areas are matched by name as the client shows it, in its own language: the
 -- names of the area ids come from the client (C_Map.GetAreaInfo), English as
 -- a fallback.
@@ -121,6 +133,7 @@ local function creatureId(guid)
   if kind == "Creature" then return tonumber(id) end
 end
 local function npcId(unit) return creatureId(UnitGUID(unit)) end
+ns.npcId = npcId
 
 local function checkNpc(unit)
   local id = npcId(unit)
