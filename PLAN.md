@@ -53,7 +53,7 @@ Modan), class quests, and anything failing the three tests.
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| ✅ A Word from the Archivist | note | always |
+| ✅ The forewords (one per race, and a general one) | note | always, for the reader's race |
 | ✅ Dun Morogh | place | the zone (1) |
 | ✅ Coldridge Valley | place | Coldridge Valley (132) |
 | ✅ Kharanos | place | Kharanos (131) |
@@ -147,32 +147,32 @@ Lightfingers, Narg the Taskmaster, Morgaine the Sly, Gruff Swiftbite, Mother
 Fang, Fedfennel. Met here, paged in Peoples and Powers: the Defias, kobolds,
 murlocs, gnolls.
 
-## Westfall (7 pages)
+## Westfall (6 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Westfall | place | the zone (40) |
-| 📝 Sentinel Hill | place | Sentinel Hill (108) |
-| 📝 The People's Militia | faction | talking to Gryan Stoutmantle (234), a stonemason who broke with VanCleef |
-| 📝 Moonbrook | place | Moonbrook (20) |
-| 📝 The Deadmines | place | the dungeon (1581): the Defias shipyard in a goblin mine |
-| 📝 Edwin VanCleef | figure | killing him (639); quest The Defias Brotherhood (166) |
-| 📝 The Harvest Golems | creature | killing a Harvest Watcher, Reaper or Rusty Harvest Golem (36, 114, 115, 480) or the Foe Reaper 4000 (573) ❓ thin: keep only if it says something about the Defias and the farms |
+| ✅ Westfall | place | the zone (40) |
+| ✅ Sentinel Hill | place | Sentinel Hill (108) |
+| ✅ The People's Militia | faction | talking to Gryan Stoutmantle (234), a paladin of the Silver Hand born in Westfall |
+| ✅ Moonbrook | place | Moonbrook (20) |
+| ✅ The Deadmines | place | the dungeon (1581): the Defias shipyard in a goblin mine |
+| ✅ Edwin VanCleef | figure | killing him (639); quest The Defias Brotherhood (166) |
+| ✗ The Harvest Golems | | dropped: no vanilla source ties them to a story (they're in the Westfall page) |
 
 Not paged: the Jansen Stead, the Molsen and Saldean farms, Jangolode Mine, the
 Lighthouse (Captain Grayson's ghost has no story), the Dagger Hills, Gold Coast
 Quarry. Rares without a story: Vultros, Sergeant Brashclaw, Slark, Brack,
 Leprithus, Master Digger.
 
-## Redridge Mountains (5 pages)
+## Redridge Mountains (5 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Redridge Mountains | place | the zone (44) |
-| 📝 Lakeshire | place | Lakeshire (69) (Magistrate Solomon's letters to a deaf court: the True Masters chain) |
-| 📝 Stonewatch Keep | place | Stonewatch Keep (2099); Stonewatch (70) |
-| 📝 Gath'Ilzogg | figure | killing him (334): warlord of the Blackrock in Redridge |
-| 📝 Morganth | figure | killing him (397); Tower of Ilgalar (96) |
+| ✅ Redridge Mountains | place | the zone (44) |
+| ✅ Lakeshire | place | Lakeshire (69) (Magistrate Solomon's letters to a deaf court: the True Masters chain) |
+| ✅ Stonewatch Keep | place | Stonewatch Keep (2099); Stonewatch (70) |
+| ✅ Gath'Ilzogg | figure | killing him (334): warlord of the Blackrock in Redridge |
+| ✅ Morganth | figure | killing him (397); Tower of Ilgalar (96) |
 
 Not paged: Render's Valley and Render's Camp (Blackrock camps), Alther's Mill,
 Lake Everstill, Three Corners, Galardell Valley, Rethban Caverns. Rares without
@@ -180,17 +180,17 @@ a story: Kazon, Chatter, Rohh the Silent, Seeker Aqualon, Squiddic, Ribchaser,
 Snarlflare, Boulderheart. Met here, paged in Peoples and Powers: the Blackrock
 clan, gnolls, murlocs, black dragon whelps.
 
-## Duskwood (7 pages)
+## Duskwood (7 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Duskwood | place | the zone (10) (the forest that darkened) |
-| 📝 Darkshire | place | Darkshire (42) |
-| 📝 The Night Watch | faction | talking to Commander Althea Ebonlocke (264) |
-| 📝 Raven Hill | place | Raven Hill (94); Raven Hill Cemetery (492) |
-| 📝 Stalvan Mistmantle | figure | killing him (315); Manor Mistmantle (1098); quest The Legend of Stalvan (98) |
-| 📝 Mor'Ladim | figure | killing him (522); quest Mor'Ladim (228): Morgan Ladimore and his daughter |
-| 📝 The Embalmer | creature | killing Stitches (412) or Eliza (314): Abercrombie, his bride and his gift |
+| ✅ Duskwood | place | the zone (10) (the forest that darkened) |
+| ✅ Darkshire | place | Darkshire (42) |
+| ✅ The Night Watch | faction | talking to Commander Althea Ebonlocke (264) |
+| ✅ Raven Hill | place | Raven Hill (94); Raven Hill Cemetery (492) |
+| ✅ Stalvan Mistmantle | figure | killing him (315); Manor Mistmantle (1098); quest The Legend of Stalvan (98) |
+| ✅ Mor'Ladim | figure | killing him (522); quest Mor'Ladim (228): Morgan Ladimore and his daughter |
+| ✅ The Embalmer | creature | killing Stitches (412) or Eliza (314): Abercrombie, his bride and his gift |
 
 Not paged: Addle's Stead, the Yorgen Farmstead (Sven), Brightwood Grove, the
 Rotting Orchard, Vul'Gol Ogre Mound, Roland's Doom, the Hushed and Darkened
@@ -245,18 +245,18 @@ Gunther and Bethor Iceshard (a side tale). Rares without a story: Muad, Deeb,
 Farmer Solliden, Bayne, Ressan, Fellicent's Shade, Sri'skulk. Met here, paged in
 Peoples and Powers: the Scarlet Crusade, the Scourge, the Cult of the Damned.
 
-## Silverpine Forest (8 pages)
+## Silverpine Forest (8 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Silverpine Forest | place | the zone (130) |
-| 📝 The Sepulcher | place | The Sepulcher (228) |
-| 📝 Pyrewood Village | place | Pyrewood Village (204) (villagers by day, worgen by night) |
-| 📝 Shadowfang Keep | place | the dungeon (209; the keep outside is 236): Baron Silverlaine's keep |
-| 📝 Archmage Arugal | figure | killing him (4275); quest Arugal Must Die (1014) |
-| 📝 The Greymane Wall | history | The Greymane Wall (230): Gilneas shut behind it |
-| 📝 Thule Ravenclaw | figure | killing him (1947); Fenris Isle (172): the necromancer of the Rot Hide gnolls |
-| 📝 Ambermill | place | Ambermill (233) (Dalaran's mages in the forest) |
+| ✅ Silverpine Forest | place | the zone (130) |
+| ✅ The Sepulcher | place | The Sepulcher (228) |
+| ✅ Pyrewood Village | place | Pyrewood Village (204) (villagers by day, worgen by night) |
+| ✅ Shadowfang Keep | place | the dungeon (209; the keep outside is 236): Baron Silverlaine's keep |
+| ✅ Archmage Arugal | figure | killing him (4275); quest Arugal Must Die (1014) |
+| ✅ The Greymane Wall | history | The Greymane Wall (230): Gilneas shut behind it |
+| ✅ Thule Ravenclaw | figure | killing him (1947); Fenris Isle (172): the necromancer of the Rot Hide gnolls |
+| ✅ Ambermill | place | Ambermill (233) (Dalaran's mages in the forest) |
 
 Not paged: Malden's Orchard, Valgan's Field, the Dead Field, the Decrepit Ferry,
 Olsen's Farthing, Deep Elem Mine, the Skittering Dark. Rares without a story:
@@ -492,35 +492,35 @@ Arlithrien, Wellspring Lake, Rut'theran Village (in Teldrassil), Gnarlpine Hold
 (furbolgs). Rares without a story: Blackmoss, Uruson, Grimmaw, Duskstalker, Fury
 Shelda, Threggil.
 
-## Darkshore (7 pages)
+## Darkshore (7 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Darkshore | place | the zone (148) |
-| 📝 Auberdine | place | Auberdine (442) |
-| 📝 The Highborne Ruins | history | Ameth'Aran (447); Bashal'Aran (446); Ruins of Mathystra (443) |
-| 📝 The Tower of Althalaxx | place | Tower of Althalaxx (444) (the Dark Strand) |
-| 📝 The Master's Glaive | place | The Master's Glaive (449) ❓ what is known of it |
-| 📝 Onu | figure | talking to him (3616); Grove of the Ancients (448) |
-| 📝 Remtravel's Excavation | place | Remtravel's Excavation (450) (an Explorers' League dig) |
+| ✅ Darkshore | place | the zone (148) |
+| ✅ Auberdine | place | Auberdine (442) |
+| ✅ The Highborne Ruins | history | Ameth'Aran (447); Bashal'Aran (446); Ruins of Mathystra (443) |
+| ✅ The Tower of Althalaxx | place | Tower of Althalaxx (444) (the Dark Strand) |
+| ✅ The Master's Glaive | place | The Master's Glaive (449) ❓ what is known of it |
+| ✅ Onu | figure | talking to him (3616); Grove of the Ancients (448) |
+| ✅ Remtravel's Excavation | place | Remtravel's Excavation (450) (an Explorers' League dig) |
 
 Not paged: Cliffspring Falls and River, Blackwood Den (furbolgs), Mist's Edge,
 the Long Wash, Twilight Vale and Shore. Rares without a story: Strider
 Clutchmother, Shadowclaw, Lady Moongazer, Carnivous, Licillin, Firecaller
 Radison, Flagglemurk, Lady Vespira, Lord Sinslayer.
 
-## Ashenvale (8 pages)
+## Ashenvale (7 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Ashenvale | place | the zone (331) |
-| 📝 Astranaar | place | Astranaar (415) |
-| 📝 Splintertree Post | place | Splintertree Post (431) |
-| 📝 The Warsong Lumber Camp | history | Warsong Lumber Camp (437); Warsong Labor Camp (3177): the axes, and Cenarius slain |
-| 📝 Demon Fall Canyon | history | Demon Fall Canyon (435); Demon Fall Ridge (436): Grom Hellscream and Mannoroth |
-| 📝 Blackfathom Deeps | place | the dungeon (719); killing Aku'mai (4829) |
-| 📝 The Shrine of Aessina | place | The Shrine of Aessina (416) |
-| 📝 Warsong Gulch | place | the battleground (3277): the Silverwing Sentinels and the Warsong Outriders |
+| ✅ Ashenvale | place | the zone (331) |
+| ✅ Astranaar | place | Astranaar (415) |
+| ✅ Splintertree Post | place | Splintertree Post (431) |
+| ✅ The Warsong Lumber Camp | history | Warsong Lumber Camp (437); Warsong Labor Camp (3177): the axes, and Cenarius slain |
+| ✅ Demon Fall Canyon | history | Demon Fall Canyon (435); Demon Fall Ridge (436): Grom Hellscream and Mannoroth |
+| ✅ Blackfathom Deeps | place | the dungeon (719); killing Aku'mai (4829) |
+| ✗ The Shrine of Aessina | | dropped: no vanilla source gives it a story |
+| ✅ Warsong Gulch | place | the battleground (3277): the Silverwing Sentinels and the Warsong Outriders |
 
 Not paged: Raynewood Retreat, Maestra's Post, Silverwind Refuge, Forest Song,
 Zoram'gar Outpost, Lake Falathim, Mystral Lake, Fallen Sky Lake, Iris Lake, the
@@ -530,17 +530,18 @@ Nightmare. Rares without a story: Akkrilus, Terrowulf Packlord, Lady Vespia,
 Rorgish Jowl, Oakpaw, Branch Snapper, Eck'alom, Mugglefin, Mist Howler, Prince
 Raze, Ursol'lok, Apothecary Falthis.
 
-## Stonetalon Mountains (4 pages)
+## Stonetalon Mountains (5 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 Stonetalon Mountains | place | the zone (406) |
-| 📝 Stonetalon Peak | place | Stonetalon Peak (467); The Talon Den (468) |
-| 📝 Sun Rock Retreat | place | Sun Rock Retreat (460) |
-| 📝 Windshear Crag | place | Windshear Crag (461); The Charred Vale (465): the Venture Co. clear-cut |
+| ✅ Stonetalon Mountains | place | the zone (406) |
+| ✅ Stonetalon Peak | place | Stonetalon Peak (467); The Talon Den (468) |
+| ✅ Sun Rock Retreat | place | Sun Rock Retreat (460) |
+| ✅ Windshear Crag | place | Windshear Crag (461); The Charred Vale (465): the Venture Co. clear-cut |
+| ✅ Boulderslide Ravine | place | Boulderslide Ravine (2540), Boulderslide Cavern (3157); killing Goggeroc (11920); quest Earthen Arise (6481): a sleeping earthen under the mountains |
 
 Not paged: Malaka'jin, Camp Aparaje, Grimtotem Post, the Talondeep Path,
-Webwinder Path, Mirkfallon and Cragpool lakes, Greatwood Vale, Boulderslide.
+Webwinder Path, Mirkfallon and Cragpool lakes, Greatwood Vale.
 Rares without a story: Pridewing Patriarch, Vengeful Ancient, Nal'taszar,
 Brother Ravenoak, Sentinel Amarassan, Sorrow Wing, Sister Riven, Foreman
 Rigger, Taskmaster Whipfang.
@@ -666,7 +667,7 @@ Razormane Grounds (quilboar), Kolkar Crag (centaurs), Drygulch Ravine
 without a story: Warlord Kolkanis, Watch Commander Zalaphil, Felweaver Scornn,
 Death Flayer, Captain Flat Tusk, Geolord Mottle.
 
-## Mulgore and Thunder Bluff (8 pages, all written)
+## Mulgore and Thunder Bluff (9 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -678,30 +679,31 @@ Death Flayer, Captain Flat Tusk, Geolord Mottle.
 | ✅ Thunder Bluff | place | the city (1638) |
 | ✅ Cairne Bloodhoof | figure | talking to (or targeting) him (3057) |
 | ✅ Arch Druid Hamuul Runetotem | figure | talking to him (5769) |
+| ✅ Ghost Howl | creature | killing him (3056); quest The Demon Scarred Cloak (770): the white wolf wounded fighting the Legion |
 
 Not paged: Bael'dun Digsite (in Bael Modan), the Venture Co. Mine, the water
 wells, Red Cloud Mesa, Windfury Ridge (harpies), Palemane Rock (gnolls),
 Brambleblade Ravine (quilboar). Magatha Grimtotem is in The Grimtotem. Rares
-without a story: Ghost Howl, Mazzranache, Sister Hatelash, Snagglespear,
+without a story: Mazzranache, Sister Hatelash, Snagglespear,
 Enforcer Emilgund, The Rake.
 
-## The Barrens (13 pages)
+## The Barrens (13 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
-| 📝 The Barrens | place | the zone (17) |
-| 📝 The Crossroads | place | The Crossroads (380) |
-| 📝 Ratchet | place | Ratchet (392) (Gazlowe's port) |
-| 📝 Camp Taurajo | place | Camp Taurajo (378) |
-| 📝 Northwatch Hold | place | Northwatch Hold (385) |
-| 📝 The Mor'shan Rampart | place | The Mor'shan Rampart (1703); Mor'shan Base Camp (1599) |
-| 📝 The Oases | place | Lushwater Oasis (387), The Stagnant Oasis (388) or The Forgotten Pools (386): water gone bad |
-| 📝 Wailing Caverns | place | the dungeon (718) |
-| 📝 The Druids of the Fang | faction | killing Cobrahn, Anacondra, Pythas or Serpentis (3669, 3671, 3670, 3673); quest Leaders of the Fang (914): Naralex's nightmare |
-| 📝 Agamaggan | history | Agama'gor (1700): the boar demigod |
-| 📝 Razorfen Kraul | place | the dungeon (491); killing Charlga Razorflank (4421) |
-| 📝 Razorfen Downs | place | the dungeon (722); killing Amnennar the Coldbringer (7358) |
-| 📝 Bael Modan | place | Bael Modan (359); Bael'dun Keep (2157) (the dwarves' dig) |
+| ✅ The Barrens | place | the zone (17) |
+| ✅ The Crossroads | place | The Crossroads (380) |
+| ✅ Ratchet | place | Ratchet (392) (Gazlowe's port) |
+| ✅ Camp Taurajo | place | Camp Taurajo (378) |
+| ✅ Northwatch Hold | place | Northwatch Hold (385) |
+| ✅ The Mor'shan Rampart | place | The Mor'shan Rampart (1703); Mor'shan Base Camp (1599) |
+| ✅ The Oases | place | Lushwater Oasis (387), The Stagnant Oasis (388) or The Forgotten Pools (386): water gone bad |
+| ✅ Wailing Caverns | place | the dungeon (718) |
+| ✅ The Druids of the Fang | faction | killing Cobrahn, Anacondra, Pythas or Serpentis (3669, 3671, 3670, 3673); quest Leaders of the Fang (914): Naralex's nightmare |
+| ✅ Agamaggan | history | Agama'gor (1700): the boar demigod |
+| ✅ Razorfen Kraul | place | the dungeon (491); killing Charlga Razorflank (4421) |
+| ✅ Razorfen Downs | place | the dungeon (722); killing Amnennar the Coldbringer (7358) |
+| ✅ Bael Modan | place | Bael Modan (359); Bael'dun Keep (2157) (the dwarves' dig) |
 
 Not paged: Honor's Stand, Far Watch Post, Thorn Hill, Blackthorn Ridge,
 Dreadmist Peak (the Burning Blade), the Field of Giants, the Sludge Fen and
@@ -915,11 +917,11 @@ demons too). Check again when the page is written.
 
 | | Written | To write | Total |
 |---|---|---|---|
-| Dun Morogh, Loch Modan, the Wetlands | 36 | | 36 |
-| The Eastern Kingdoms (20 chapters) | 24 | 123 | 147 |
-| Kalimdor (18 chapters) | 27 | 94 | 121 |
-| Peoples and Powers | 32 | | 32 |
-| **The codex** | **119** | **217** | **336** |
+| Dun Morogh, Loch Modan, the Wetlands | 36 |  | 36 |
+| The Eastern Kingdoms (20 chapters) | 50 | 96 | 146 |
+| Kalimdor (18 chapters) | 60 | 62 | 122 |
+| Peoples and Powers | 32 |  | 32 |
+| **The codex** | **178** | **158** | **336** |
 
 ## Order of writing
 
@@ -931,8 +933,8 @@ The user's order: the peoples first, then the starting zones, then outwards.
 3. ✅ **The starting zones:** Elwynn Forest and Stormwind, Teldrassil and
    Darnassus, Durotar and Orgrimmar, Mulgore and Thunder Bluff, Tirisfal and
    Undercity (with Dun Morogh, done earlier).
-4. **The lands around them (10–30):** Westfall, Redridge, Duskwood, Darkshore,
-   Ashenvale, Silverpine, the Barrens, Stonetalon.
+4. ✅ **The lands around them (10–30):** Westfall, Redridge, Duskwood,
+   Darkshore, Ashenvale, Silverpine, the Barrens, Stonetalon.
 5. **The middle lands (30–45)** and **the high lands (45–60)**, as zones are
    reached.
 
