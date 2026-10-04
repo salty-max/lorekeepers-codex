@@ -16,10 +16,10 @@ local function showPage(id)
   if not e or not ns.page(id) then return end
   ns.markRead(id)
   page.title:SetText(e.title)
+  -- All in the same ink: the signature (an italic paragraph) used to be a
+  -- lighter brown, which read as faded on the parchment.
   local paras = {}
-  for _, para in ipairs(e.text) do
-    table.insert(paras, para.italic and ("|cff6b4a26%s|r"):format(para[1]) or para[1])
-  end
+  for _, para in ipairs(e.text) do table.insert(paras, para[1]) end
   page.body:SetText(table.concat(paras, "\n\n"))
 
   -- "See also": the related pages this character has found.
@@ -41,7 +41,7 @@ local function showPage(id)
       end
       b.text:SetText("» " .. C.entries[other].title)
       b.text:SetTextColor(0.55, 0.22, 0.05)
-      b:SetScript("OnClick", function() showPage(other); ns.refresh() end)
+      b:SetScript("OnClick", function() showPage(other); ns.refresh(true) end)
       b:SetPoint("TOPLEFT", page.seeAlso, "BOTTOMLEFT", 0, -4 - (n - 1) * 18)
       b:Show()
     end
@@ -116,8 +116,21 @@ function ns.search(query)
   return out
 end
 
-function ns.refresh()
+-- Scroll the list so the open page's row shows, in the middle if it was out
+-- of sight. The scroll range is worked out here: the frame's own may not have
+-- caught up with the list's new height yet.
+local function reveal(y)
+  local height = list:GetHeight()
+  local top = list:GetVerticalScroll()
+  if y >= top and y + 18 <= top + height then return end
+  local max = math.max(0, list.child:GetHeight() - height)
+  list:SetVerticalScroll(math.min(max, math.max(0, y - (height - 18) / 2)))
+end
+
+-- reveal: scroll to the open page (opening the book, a link, the banner).
+function ns.refresh(scrollToCurrent)
   if not book then return end
+  local currentY
   book.count:SetText(("%d of %d pages"):format(ns.count(), ns.total))
   for _, r in ipairs(rows) do r:Hide() end
   local i, y = 0, 0
@@ -127,6 +140,7 @@ function ns.refresh()
     r:ClearAllPoints()
     r:SetPoint("TOPLEFT", 0, -y)
     r.id = id
+    if kind == "page" and id == current then currentY = y end
     r.count:SetText(kind == "chapter" and id or "")
     r.bar:SetShown(kind == "chapter")
     if kind == "chapter" then
@@ -169,6 +183,7 @@ function ns.refresh()
       y = 18
     end
     list.child:SetHeight(y + 8)
+    if scrollToCurrent and currentY then reveal(currentY) end
     return
   end
   -- Loose pages (the foreword) first, then each chapter.
@@ -187,6 +202,7 @@ function ns.refresh()
     end
   end
   list.child:SetHeight(y + 8)
+  if scrollToCurrent and currentY then reveal(currentY) end
 end
 
 -- ── the book ─────────────────────────────────────────────────────────────────
@@ -289,7 +305,7 @@ local function build()
       end
     end
     showPage(current)
-    ns.refresh()
+    ns.refresh(true)
   end)
 end
 
@@ -305,7 +321,7 @@ function ns.open(id)
   current = id
   if book:IsShown() then
     showPage(id)
-    ns.refresh()
+    ns.refresh(true)
   else
     book:Show()
   end

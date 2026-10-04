@@ -3,10 +3,12 @@
 -- so does a right-click on the minimap button.
 local _, ns = ...
 
-local DEFAULTS = { banner = true, bannerSeconds = 10, chat = true, sound = 878, minimapHidden = false, tooltipHints = true }
+local DEFAULTS = { banner = true, bannerSeconds = 10, chat = true, sound = -1, minimapHidden = false, tooltipHints = true }
 
--- Sounds for a new page: all from the original game's interface.
+-- Sounds for a new page: all from the original game's interface. -1 is the
+-- sting heard on discovering a new zone, which differs by race.
 ns.SOUNDS = {
+  { -1, "Zone discovery" },
   { 878, "Quest complete" },
   { 3175, "Map ping" },
   { 8960, "Ready check" },
@@ -29,8 +31,15 @@ function ns.setOption(key, value)
   if key == "minimapHidden" then ns.updateMinimapButton() end
 end
 
+-- The exploration sound kit of each race (Undead's token is Scourge).
+local DISCOVERY = { Human = 4140, Orc = 4141, Scourge = 4142, Tauren = 4143, Troll = 4144, NightElf = 4145, Gnome = 4146, Dwarf = 4147 }
+
 function ns.playSound(id)
   id = id or ns.option("sound")
+  if id == -1 then
+    local _, race = UnitRace("player")
+    id = DISCOVERY[race] or DISCOVERY.Human
+  end
   if id and id > 0 and PlaySound then PlaySound(id) end
 end
 

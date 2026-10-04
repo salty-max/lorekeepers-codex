@@ -82,6 +82,10 @@ local function ui()
       if k == "SetText" then return function(self, v) self.text = v end end
       if k == "GetText" then return function(self) return rawget(self, "text") or "" end end
       if k == "GetStringHeight" then return function() return 14 end end
+      if k == "SetHeight" then return function(self, v) self.height = v end end
+      if k == "GetHeight" then return function(self) return rawget(self, "height") or 100 end end
+      if k == "SetVerticalScroll" then return function(self, v) self.vscroll = v end end
+      if k == "GetVerticalScroll" then return function(self) return rawget(self, "vscroll") or 0 end end
       if k == "GetWidth" then return function() return 140 end end
       if k == "GetCenter" then return function() return 0, 0 end end
       if k == "GetEffectiveScale" then return function() return 1 end end
@@ -183,10 +187,9 @@ for _, p in ipairs(printed) do if p:find("/codex", 1, true) then hints = hints +
 check(hints == 1 and said("pages. Type /codex or click the book by the minimap"), "the /codex hint appears once, at login, and not in page messages")
 local banner = LorekeepersCodexBanner
 check(banner and banner.shown and banner.id == "war-of-the-three-hammers", "a banner shows the newest page at the top of the screen")
-check(banner.title.text == "The War of the Three Hammers" and banner.text.text:find("^[^.]+%.$") ~= nil, "… its title and its first sentence")
-check(banner.more.text == "and one more page in the codex", "… and counts the page found just before")
+check(banner.title.text == "The War of the Three Hammers" and rawget(banner, "text") == nil and rawget(banner, "more") == nil, "… only its title, with a button to read it")
 check(banner.scripts.OnUpdate == nil, "it doesn't fade: it stays until read or closed")
-check(lastSound == 878, "a new page plays the quest-complete sound by default")
+check(lastSound == 4147, "a new page plays the zone discovery sound by default (the dwarf's)")
 check(panel.registered and panel.name == "Lorekeeper's Codex", "a settings page in the game's options")
 banner.mouseOver = true
 check(elapse() == 10 and banner.shown, "the banner stays while the mouse is on it")
@@ -259,6 +262,12 @@ check(has("ironforge"), "entering Ironforge unlocks its page")
 check(linkHandlers.lorekeeper ~= nil, "codex links have a handler")
 check(linkHandlers.lorekeeper("lorekeeper:kharanos") == 2 and LorekeepersCodexFrame.shown, "clicking [Kharanos] in chat opens the book")
 check(LorekeepersCodexChar.read.kharanos, "… at the Kharanos page")
+LorekeepersCodexList.vscroll = 0
+linkHandlers.lorekeeper("lorekeeper:ironforge")
+check(LorekeepersCodexList.vscroll > 0, "… and the list scrolls down to a page further on")
+local far = LorekeepersCodexList.vscroll
+linkHandlers.lorekeeper("lorekeeper:foreword-dwarf")
+check(LorekeepersCodexList.vscroll < far, "… or back up to one above")
 linkHandlers.lorekeeper("lorekeeper:grim-batol")
 check(not LorekeepersCodexChar.read["grim-batol"], "a link to a page not found yet opens nothing")
 LorekeepersCodexFrame:Hide()

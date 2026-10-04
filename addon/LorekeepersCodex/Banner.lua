@@ -1,13 +1,13 @@
--- A banner at the top centre of the screen when a page is found: the page's
--- title and its opening lines, with a book button (or a click anywhere on it)
--- to read the page and a close button. It goes away on its own after a few
--- seconds (bannerSeconds in the settings, 0 to keep it until read or closed),
--- never while the mouse is on it; pages found meanwhile replace it, and it
--- counts them. Turned off in the settings or with /codex banner.
+-- A slim banner at the top centre of the screen when a page is found: the
+-- page's title, with a book button (or a click anywhere on it) to read the
+-- page and a close button. It goes away on its own after a few seconds
+-- (bannerSeconds in the settings, 0 to keep it until read or closed), never
+-- while the mouse is on it; a page found meanwhile replaces it. Turned off in
+-- the settings or with /codex banner.
 local _, ns = ...
 local C = ns.content
 
-local WIDTH = 640
+local WIDTH, HEIGHT = 420, 52
 local banner, timer
 
 local function stopTimer()
@@ -27,7 +27,7 @@ end
 
 local function build()
   banner = CreateFrame("Button", "LorekeepersCodexBanner", UIParent, "BackdropTemplate")
-  banner:SetWidth(WIDTH)
+  banner:SetSize(WIDTH, HEIGHT)
   banner:SetPoint("TOP", 0, -36)
   banner:SetFrameStrata("HIGH")
   banner:SetBackdrop({
@@ -39,22 +39,12 @@ local function build()
   banner:Hide()
 
   banner.title = banner:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
-  banner.title:SetPoint("TOP", 0, -20)
-  banner.title:SetPoint("LEFT", 70, 0)
-  banner.title:SetPoint("RIGHT", -70, 0)
-
-  banner.text = banner:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
-  banner.text:SetPoint("TOPLEFT", banner.title, "BOTTOMLEFT", -50, -8)
-  banner.text:SetPoint("RIGHT", -20, 0)
-  banner.text:SetJustifyH("LEFT")
-  banner.text:SetSpacing(2)
-  banner.text:SetMaxLines(3)
-
-  banner.more = banner:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
-  banner.more:SetPoint("BOTTOMRIGHT", -20, 16)
+  banner.title:SetPoint("LEFT", 60, 0)
+  banner.title:SetPoint("RIGHT", -60, 0)
+  banner.title:SetWordWrap(false)
 
   local close = CreateFrame("Button", nil, banner, "UIPanelCloseButton")
-  close:SetPoint("TOPRIGHT", -6, -6)
+  close:SetPoint("RIGHT", -8, 0)
   close:SetScript("OnClick", function() ns.hideBanner() end)
 
   local read = CreateFrame("Button", nil, banner)
@@ -80,16 +70,10 @@ end
 function ns.showBanner(id)
   if not ns.option("banner") or not C.entries[id] then return end
   if not banner then build() end
-  -- Pages found while it shows: the newest replaces it, the others are counted
-  -- (they wait in the book, marked unread).
-  banner.others = banner:IsShown() and (banner.others or 0) + 1 or 0
+  -- A page found while it shows replaces it (the other waits in the book,
+  -- marked unread).
   banner.id = id
   banner.title:SetText(C.entries[id].title)
-  banner.text:SetText(C.entries[id].excerpt or "")
-  banner.more:SetText(banner.others == 0 and ""
-    or banner.others == 1 and "and one more page in the codex"
-    or ("and %d more pages in the codex"):format(banner.others))
-  banner:SetHeight(20 + banner.title:GetStringHeight() + 8 + banner.text:GetStringHeight() + 32)
   banner:Show()
   startTimer()
 end
