@@ -45,7 +45,8 @@ bun scripts/build.ts --check
 luajit addon/test/sim.lua >/dev/null
 
 git add -A
-git commit -q -m "chore(release): $TAG"
+# Nothing to commit when the TOC already had this version (the first release).
+git diff --cached --quiet || git commit -q -m "chore(release): $TAG"
 git tag -a "$TAG" --cleanup=verbatim -F "$NOTES"
 git push -q origin main "$TAG"
 echo "pushed $TAG"
