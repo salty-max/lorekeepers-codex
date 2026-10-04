@@ -7,7 +7,7 @@ unlock:
   - kill: 1161, 1162, 1163, 1164, 1165, 1166, 1167, 1197 # the Stonesplinter, Loch Modan
 also: [ironforge, kharanos]
 ---
-Troggs are the League's shame, and I will not pretend otherwise. When our diggers broke into the deep halls of Uldaman, in the Badlands, something came up with the dust: troggs, crude and numberless, crawling out through tunnels no one knew were there.
+Troggs are a dwarven shame, and I will not pretend the League is blameless. They slept in the deep places around Uldaman, in the Badlands, until dwarven digging woke them, and then they came up: crude and numberless, crawling out through tunnels no one knew were there.
 
 They have spread through the stone of Khaz Modan ever since. The Rockjaw band hold the quarries and caves of Dun Morogh, the Stonesplinter the valleys of Loch Modan, and others of their kind poured into Gnomeregan in its last days.
 

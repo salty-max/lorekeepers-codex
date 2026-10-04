@@ -6,7 +6,7 @@ unlock:
   - area: Ironforge
 also: [magni-bronzebeard, war-of-the-three-hammers, rockjaw-troggs]
 ---
-Ironforge is not built on the mountain; it is built in it. The ancestors of the Bronzebeards hollowed the heart of Khaz Modan into a single vast city, and at its centre burns the Great Forge, whose fires, the smiths will swear to you, have never once gone out.
+Ironforge is not built on the mountain; it is built in it. Our ancestors hollowed the heart of Ironforge Mountain into a single vast city, ring within ring of halls, and at its centre burns the Great Forge, whose light reaches every corner of the city.
 
 The city turns around the forge like a wheel. King Magni holds court in the High Seat, the Military Ward trains the mountain's defenders, the mages keep to the Mystic Ward, and since the fall of Gnomeregan the gnome exiles have made Tinker Town their own: loud, clever and homesick. Beneath it all runs the Deeprun Tram, gnomish work, carrying travellers under the mountains to Stormwind.
 

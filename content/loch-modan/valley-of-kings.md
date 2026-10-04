@@ -6,8 +6,8 @@ unlock:
   - area: Valley of Kings
 also: [loch-modan, war-of-the-three-hammers]
 ---
-Where the road from the Wetlands enters Loch Modan, great figures of stone stand watch over the valley, carved in the likeness, the old tales say, of the dwarf kings of ages past.
+In the south-west of Loch Modan, where the road turns south towards the Searing Gorge, two great kings of stone stand watch: Madoran Bronzebeard and Khardros Wildhammer, who led their clans in the War of the Three Hammers.
 
-The League has argued for years about who exactly they are and who carved them. I will spare you the arguments. What matters is that they were made to be seen by everyone who entered Khaz Modan from the north, and to tell them plainly whose country they had entered.
+Their sons raised these statues after their deaths, to honour them and to warn whoever came up that road that the dwarven kingdoms would not be taken. The Dark Irons were to the south then, as they are now. The message has not changed.
 
-Most travellers stop to look up. It is the right thing to do.
+Stop and look up, traveller. Bronzebeard and Wildhammer stand side by side here, as they rarely have anywhere since.

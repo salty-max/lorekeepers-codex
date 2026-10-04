@@ -7,7 +7,7 @@ unlock:
   - area: Frostmane Hold
 also: [kharanos]
 ---
-The Frostmane will tell you that these valleys were theirs before the first dwarf hammered stone here, and the League has found nothing to prove them wrong. They are ice trolls, and they have never forgiven us for the mountain.
+The Frostmane ruled these frozen valleys long before Ironforge was great, until dwarven armies drove them back into the hills. They are ice trolls, and they have never forgiven us for the mountain.
 
 They hold the caves and frozen hills to the west of Kharanos, and when the snow lies deep they come down onto the roads. Do not take them for simple beasts. Their seers and shadowcasters keep old and unpleasant rites, and their headhunters earn the name.
 

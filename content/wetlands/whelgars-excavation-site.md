@@ -6,8 +6,8 @@ unlock:
   - area: Whelgar's Excavation Site
 also: [explorers-league, wetlands]
 ---
-Another League dig, this one in the Wetlands, where the marsh has preserved things that would have rotted anywhere else: bones of great beasts, and traces of whoever lived here long before the dwarves.
+Another of the League's digs, this one in the marshes of the Wetlands, under Prospector Whelgar. The marsh keeps what it swallows, and the League had high hopes for what lay beneath it.
 
-It would be a fine site if not for the raptors, which have moved into the dig and treat the diggers as fair game. The League's people there work with one eye on the ground and the other on the reeds.
+Then the raptors came. They moved into the dig and treated the diggers as fair game, and the League's people were driven out onto a ridge above the site, where some of them are waiting still for the beasts to leave.
 
 If you are passing, look in on them. They will be very glad to see someone carrying a weapon.

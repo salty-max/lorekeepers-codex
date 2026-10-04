@@ -6,8 +6,8 @@ unlock:
   - area: The Farstrider Lodge
 also: [loch-modan]
 ---
-On the eastern shore of the loch stands a hunting lodge, and the best trackers of the loch country gather there to trade stories, skins and advice.
+In the south-east of Loch Modan stands a hunters' lodge, built in the graceful style of the elves and named for the Farstriders, the far-ranging rangers of Quel'Thalas. Its hunters today are mostly dwarves and men, under Marek Ironheart.
 
-Its name honours the Farstriders, the far-ranging scouts of the elves, and the hunters inside take that name as a standard to live up to. They know every trail between the dam and the southern hills, and the habits of every bear and boar on them.
+The best trackers of the loch country gather there to trade stories, skins and advice, and to train those who would follow the hunter's path. They know every trail between the dam and the southern hills, and the habits of every bear and boar on them.
 
 If you mean to hunt in Loch Modan, start here. They will tell you where to go, and more importantly where not to.
