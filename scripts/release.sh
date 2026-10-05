@@ -43,6 +43,8 @@ echo "release $TAG: addon $current → $VERSION"
 perl -pi -e "s/^## Version: .*/## Version: $VERSION/" "$TOC"
 bun scripts/build.ts --check
 luajit addon/test/sim.lua >/dev/null
+FOREVER=1 luajit addon/test/sim.lua >/dev/null
+bun scripts/package.ts --no-zip >/dev/null
 
 git add -A
 # Nothing to commit when the TOC already had this version (the first release).

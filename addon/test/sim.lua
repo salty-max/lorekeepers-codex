@@ -1,6 +1,13 @@
 -- Runs the addon against a fake WoW API and replays a dwarf's first steps.
---   luajit addon/test/sim.lua      (from the repo root)
+--   luajit addon/test/sim.lua              (from the repo root): Classic
+--   FOREVER=1 luajit addon/test/sim.lua    the same on Forever's client: no
+--                                          combat log, secret values, C_Reputation
 local DIR = "addon/LorekeepersCodex/"
+local FOREVER = os.getenv("FOREVER") == "1"
+function GetBuildInfo() return "1.15.8", "60000", "Oct 1 2026", FOREVER and 16001 or 11509 end
+-- Values the game hides from addons on Forever.
+local secrets = {}
+if FOREVER then issecretvalue = function(v) return secrets[v] == true end end
 
 -- ── a fake game ──────────────────────────────────────────────────────────────
 local clock = 1790900000
@@ -43,7 +50,11 @@ C_Map = {
   GetPlayerMapPosition = function() return { x = state.x, y = state.y } end,
 }
 C_QuestLog = { IsQuestFlaggedCompleted = function(id) return state.questsDone[id] == true end }
-function GetFactionInfoByID(id) return "Ironforge", "", state.standing[id] end
+if FOREVER then
+  C_Reputation = { GetFactionDataByID = function(id) return { name = "Ironforge", reaction = state.standing[id] } end }
+else
+  function GetFactionInfoByID(id) return "Ironforge", "", state.standing[id] end
+end
 SOUNDKIT = { IG_QUEST_LOG_OPEN = 1 }
 local sounds, lastSound = 0, nil
 function PlaySound(id) sounds = sounds + 1; lastSound = id end
@@ -131,13 +142,16 @@ Settings = {
   OpenToCategory = function(id) panel.opened = id end,
 }
 local events
+local frames = {}
 function CreateFrame(kind, name)
   local f = ui()
-  if not events and kind == "Frame" and not name then
-    events = f
-    f.registered = {}
-    f.RegisterEvent = function(self, e) self.registered[e] = true end
+  f.registered = {}
+  f.RegisterEvent = function(self, e)
+    if FOREVER and e == "COMBAT_LOG_EVENT_UNFILTERED" then error("COMBAT_LOG_EVENT_UNFILTERED: forbidden") end
+    self.registered[e] = true
   end
+  table.insert(frames, f)
+  if not events and kind == "Frame" and not name then events = f end
   if name then _G[name] = f end
   return f
 end
@@ -148,7 +162,7 @@ end
 
 -- ── load the addon, with test entries for the unlocks the content doesn't use yet ─
 local ns = {}
-assert(loadfile(DIR .. "Content.lua"))("LorekeepersCodex", ns)
+assert(loadfile(DIR .. (FOREVER and "Content_Forever.lua" or "Content_Classic.lua")))("LorekeepersCodex", ns)
 local function entry(title, unlock)
   return { title = title, kind = "note", chapter = "", unlock = { unlock }, also = {}, text = { { "test" } } }
 end
@@ -163,6 +177,7 @@ assert(loadfile(DIR .. "Minimap.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Banner.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Settings.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Hints.lua"))("LorekeepersCodex", ns)
+assert(loadfile(DIR .. "Scan.lua"))("LorekeepersCodex", ns)
 function wipe(t) for k in pairs(t) do t[k] = nil end return t end
 
 local function check(cond, msg) assert(cond, msg); io.write("✓ " .. msg .. "\n") end
@@ -181,7 +196,10 @@ check(has("foreword-dwarf") and LorekeepersCodexChar.entries["foreword-dwarf"].r
 check(not has("foreword-human") and not ns.available("foreword-human"), "… and no other race's")
 local pages = 0
 for _ in pairs(ns.content.entries) do pages = pages + 1 end
-check(ns.total == pages - 8, "the other races' forewords don't count in the total")
+local others = 0
+for _, e in pairs(ns.content.entries) do if e.race and not e.race.Dwarf then others = others + 1 end end
+check(ns.total == pages - others and others == (FOREVER and 9 or 8), "the other races' forewords don't count in the total")
+check(ns.content.client == (FOREVER and "forever" or "classic") and (ns.content.entries["foreword-skyborne"] ~= nil) == FOREVER, "each game's content file holds that game's pages only")
 check(has("war-of-the-three-hammers"), "logging in at Anvilmar unlocks the War of the Three Hammers (English name fallback)")
 local function said(text) for _, p in ipairs(printed) do if p:find(text, 1, true) then return p end end end
 check(said("|Hlorekeeper:war-of-the-three-hammers|h[The War of the Three Hammers]|h|r has been added to the codex.") and sounds == 2, "a new page is announced in chat as a link, with a sound")
@@ -242,10 +260,24 @@ local after = 0
 for _ in pairs(LorekeepersCodexChar.entries) do after = after + 1 end
 check(before == after and sounds == 7, "nothing is unlocked twice (7 pages announced)")
 
--- Kills: the killer is in the combat log's PARTY_KILL.
+-- Kills: the killer is in the combat log's PARTY_KILL. On Forever, which has
+-- no combat log for addons, meeting the creature (targeting it) counts.
 local function kill(source, id)
+  if FOREVER then
+    if source ~= PLAYER and source ~= PET then return end
+    local was = state.target
+    state.target = id
+    fire("PLAYER_TARGET_CHANGED")
+    state.target = was
+    return
+  end
   combatLog = { clock, "PARTY_KILL", false, source, "Thorin", 0, 0, creature(id), "?", 0, 0 }
   fire("COMBAT_LOG_EVENT_UNFILTERED")
+end
+if FOREVER then
+  check(not events.registered.COMBAT_LOG_EVENT_UNFILTERED and ns.meetKills and ns.forever, "Forever: the combat log isn't registered, meeting a creature counts instead")
+else
+  check(events.registered.COMBAT_LOG_EVENT_UNFILTERED and not ns.meetKills, "Classic: kills come from the combat log")
 end
 kill("Player-6113-0FFFFFFF", 1123)
 check(not has("frostmane-trolls"), "someone else's kill unlocks nothing")
@@ -439,4 +471,40 @@ SlashCmdList.LOREKEEPERSCODEX("reset yes")
 local loud = false
 for _, e in pairs(LorekeepersCodexChar.achievements) do if not e.retro then loud = true end end
 check(not ns.earned("leaders") and not ns.earned("chapter-" .. dun.id) and not loud, "/codex reset forgets the achievements (what the codex still earns comes back quietly)")
-io.write("all good\n")
+-- ── the two clients ───────────────────────────────────────────────────────────
+check(not ns.available("foreword-skyborne"), "the Skyborne foreword is for the Skyborne")
+ns.unlock("furbolgs")
+check((#ns.search("blackmaw") > 0) == FOREVER and (#ns.search("another hold in azshara") > 0) == not FOREVER,
+  "a page shows its Forever paragraphs on Forever only, its Classic ones elsewhere")
+ns.content.entries["t-forever"] = entry("Forever only", { always = true })
+ns.content.entries["t-forever"].client = "forever"
+check(ns.available("t-forever") == FOREVER, "a Forever-only page exists only on Forever")
+if FOREVER then
+  secrets[creature(2091)] = true
+  check(hover(2091) == "", "Forever: a secret creature id gets no hint, and no error")
+  secrets[creature(2091)] = nil
+end
+
+-- ── /codex scan ───────────────────────────────────────────────────────────────
+local scanFrame
+for _, f in ipairs(frames) do if f.registered.ITEM_TEXT_READY then scanFrame = f end end
+local function scanFire(e, ...) scanFrame.scripts.OnEvent(scanFrame, e, ...) end
+printed = {}
+SlashCmdList.LOREKEEPERSCODEX("scan")
+check(printed[1]:find("scan off", 1, true) and not LorekeepersCodexScan.on, "/codex scan says what it has, off by default")
+state.target = 1123
+scanFire("PLAYER_TARGET_CHANGED")
+check(not LorekeepersCodexScan.npcs[1123], "… and records nothing while off")
+SlashCmdList.LOREKEEPERSCODEX("scan on")
+scanFire("PLAYER_TARGET_CHANGED")
+check(LorekeepersCodexScan.on and LorekeepersCodexScan.npcs[1123] and LorekeepersCodexScan.npcs[1123].zone == state.zone, "scan on: creatures met are recorded, with where")
+check(LorekeepersCodexScan.races.Dwarf and next(LorekeepersCodexScan.areas), "… with the race's token and the area")
+function GetQuestID() return 4242 end
+function GetTitleText() return "A Test Quest" end
+function GetQuestText() return "Go and see." end
+function GetObjectiveText() return "See." end
+scanFire("QUEST_DETAIL")
+check(LorekeepersCodexScan.quests[4242].text == "Go and see." and LorekeepersCodexScan.quests[4242].title == "A Test Quest", "… and the quests read, with their texts")
+SlashCmdList.LOREKEEPERSCODEX("scan clear")
+check(not LorekeepersCodexScan.quests[4242] and LorekeepersCodexScan.on, "/codex scan clear empties it")
+io.write(FOREVER and "all good (Forever)\n" or "all good\n")

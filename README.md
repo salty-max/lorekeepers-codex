@@ -41,8 +41,14 @@ what level it was earned, and is announced like a page. A codex from before
 they existed earns what it already deserves quietly. `/codex where` prints your position
 and target in the terms content files use (for writing new pages).
 
-For Classic Era (Hardcore, Season of Discovery) and TBC Anniversary. Not
-affiliated with Blizzard Entertainment.
+For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of
+Warcraft: Forever (in beta; see [FOREVER.md](FOREVER.md)). On Forever, which
+closes the combat log to addons, pages that unlock on a kill also unlock when
+you target the creature; some pages and paragraphs belong to one game only, and
+the Skyborne have their own foreword. `/codex scan on` records the areas,
+creatures, quest texts and books you meet, for writing Forever's new chapters
+(`scripts/scan-export.lua` turns the saved file into JSON). Not affiliated
+with Blizzard Entertainment.
 
 The [Vanilla lore review](docs/lore-review.md) records the entry-by-entry source checks, corrections and source handling and the remaining editorial exception.
 
@@ -58,28 +64,33 @@ kind: place          # place | figure | faction | creature | history | note
 unlock:              # any one of these unlocks it
   - area: Kharanos   # zone or sub-zone, by name (data/areas.json)
   - npc: 2784        # talking to (or targeting) this creature
-  - kill: 706, 946   # killing one of these creatures (you or your pet)
+  - kill: 706, 946   # killing one of these creatures (you or your pet; on Forever, targeting it)
   - quest: 1234      # turning in this quest (or having done it)
   - reputation: 47 friendly
   - position: 1455 57 47 6   # uiMap, x %, y %, radius %
 also: [war-of-the-three-hammers]
+client: forever      # optional: on this game only (forever or classic)
 ---
 Paragraphs separated by blank lines. *A paragraph in asterisks is a signature.*
+
+[forever] A paragraph starting with [forever] or [classic] shows on that game only.
 ```
 
 `bun scripts/build.ts` checks every page (ids, unlock rules, links, place
-names) and writes `addon/LorekeepersCodex/Content.lua`.
+names) and writes one content file per game (`Content_Classic.lua`,
+`Content_Forever.lua`).
 
 ## Develop
 
 ```bash
-bun run build      # content → Content.lua
-bun run check      # Content.lua up to date + simulation
-luajit addon/test/sim.lua
+bun run build      # content → Content_Classic.lua, Content_Forever.lua
+bun run check      # both up to date + simulation on both games
+bun run package    # dist/classic, dist/forever: one installable addon per game, zipped
 ```
 
 Releases: `scripts/release.sh NOTES.md` bumps the version, checks, tags and
-pushes; GitHub Actions publishes the zip (and uploads it to CurseForge once
+pushes; GitHub Actions publishes both zips, `LorekeepersCodex-classic.zip`
+and `LorekeepersCodex-forever.zip` (and uploads them to CurseForge once
 configured).
 
 ## License

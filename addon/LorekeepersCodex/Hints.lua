@@ -10,7 +10,9 @@ local TO_FIND = { 1, 0.82, 0 }
 local function addHint(tooltip)
   if tooltip ~= GameTooltip or not ns.option("tooltipHints") then return end
   local _, unit = tooltip:GetUnit()
-  if not unit or UnitIsPlayer(unit) then return end
+  if not unit or ns.secret(unit) then return end
+  local isPlayer = UnitIsPlayer(unit)
+  if ns.secret(isPlayer) or isPlayer then return end
   local id = ns.npcId(unit)
   if not id then return end
   local missing = false

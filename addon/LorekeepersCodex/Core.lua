@@ -1,9 +1,22 @@
--- Lorekeeper's Codex: the entries in Content.lua (built from content/*.md)
+-- Lorekeeper's Codex: the entries in Content.lua (built from content/*.md, one
+-- file per game: scripts/package.ts ships each in its own package)
 -- unlock as this character explores. Each unlock is a page in its codex, with
 -- when, at what level and where it was found.
 local _, ns = ...
 local C = ns.content
 local PREFIX = "|cffc9a227Lorekeeper's Codex:|r "
+
+-- Which game: World of Warcraft: Forever (the original world on the modern
+-- client, interface 16xxx) or Classic (Era, TBC Anniversary). Some pages and
+-- paragraphs are for one client only (see available() and the book).
+local interface = select(4, GetBuildInfo()) or 0
+ns.forever = interface >= 16000 and interface < 20000
+ns.client = ns.forever and "forever" or "classic"
+
+-- Forever hides some values from addons ("secret values", in combat or
+-- instances): never compare or print one.
+local function secret(v) return issecretvalue ~= nil and issecretvalue(v) end
+ns.secret = secret
 
 -- This character's codex (SavedVariablesPerCharacter):
 --   entries[id] = { at, level, zone, sub, retro }   unlocked pages
@@ -58,12 +71,13 @@ end
 -- ── the codex ────────────────────────────────────────────────────────────────
 -- Some pages are for some races only (the forewords): a character neither
 -- sees nor counts the others. "other" stands for the races without a page of
--- their own (the Burning Crusade's).
-local RACES = { Human = true, Dwarf = true, NightElf = true, Gnome = true, Orc = true, Troll = true, Tauren = true, Scourge = true }
+-- their own (the Burning Crusade's). Forever's Skyborne have their own.
+local RACES = { Human = true, Dwarf = true, NightElf = true, Gnome = true, Orc = true, Troll = true, Tauren = true, Scourge = true, Skyborne = true }
 local race
 function ns.available(id)
   local e = C.entries[id]
   if not e then return false end
+  if e.client and e.client ~= ns.client then return false end
   if not e.race then return true end
   if not race then return false end
   return e.race[race] or (e.race.other and not RACES[race]) or false
@@ -150,7 +164,7 @@ local function checkPosition()
 end
 
 local function creatureId(guid)
-  if not guid then return end
+  if not guid or secret(guid) then return end
   local kind, _, _, _, _, id = strsplit("-", guid)
   if kind == "Creature" then return tonumber(id) end
 end
@@ -167,9 +181,19 @@ local function questDone(id)
   return IsQuestFlaggedCompleted and IsQuestFlaggedCompleted(id)
 end
 
+-- A faction's standing (1 hated .. 8 exalted): the old function on Classic,
+-- C_Reputation on the modern client.
+local function standingWith(faction)
+  if C_Reputation and C_Reputation.GetFactionDataByID then
+    local data = C_Reputation.GetFactionDataByID(faction)
+    return data and data.reaction
+  end
+  if GetFactionInfoByID then return (select(3, GetFactionInfoByID(faction))) end
+end
+
 local function checkFactions(retro)
   for _, f in ipairs(byFaction) do
-    local _, _, standing = GetFactionInfoByID(f.faction)
+    local standing = standingWith(f.faction)
     if standing and standing >= f.standing then unlock(f.id, retro) end
   end
 end
@@ -232,6 +256,11 @@ function handlers.PLAYER_LOGIN()
   if C_Timer and next(byMap) then C_Timer.NewTicker(2, checkPosition) end
   ns.createMinimapButton()
   ns.createSettingsPanel()
+  -- The package made for the other game: it works, but says so.
+  if C.client and C.client ~= ns.client then
+    print(PREFIX .. ("this is the %s package, and this is %s: install the %s package to read this game's pages."):format(
+      C.client == "forever" and "Forever" or "Classic", ns.forever and "Forever" or "Classic", ns.forever and "Forever" or "Classic"))
+  end
   -- The only reminder of how to open the book: once, at login.
   print(PREFIX .. ("%d of %d pages. Type /codex or click the book by the minimap to read them."):format(ns.count(), ns.knownTotal()))
 end
@@ -240,7 +269,17 @@ handlers.ZONE_CHANGED = checkArea
 handlers.ZONE_CHANGED_INDOORS = checkArea
 handlers.ZONE_CHANGED_NEW_AREA = checkArea
 handlers.PLAYER_ENTERING_WORLD = checkArea
-handlers.PLAYER_TARGET_CHANGED = function() checkNpc("target") end
+-- Where the combat log is closed to addons (Forever), meeting a creature
+-- counts for the pages its kill would unlock: targeting it, alive or dead.
+local function checkMeeting(unit)
+  if not ns.meetKills then return end
+  local id = npcId(unit)
+  for _, entry in ipairs(id and byKill[id] or {}) do unlock(entry) end
+end
+handlers.PLAYER_TARGET_CHANGED = function()
+  checkNpc("target")
+  checkMeeting("target")
+end
 local function talking() checkNpc("npc") end
 handlers.GOSSIP_SHOW = talking
 handlers.QUEST_GREETING = talking
@@ -263,7 +302,15 @@ frame:SetScript("OnEvent", function(_, event, ...)
   if event ~= "PLAYER_LOGIN" and not char then return end
   handlers[event](...)
 end)
-for event in pairs(handlers) do frame:RegisterEvent(event) end
+-- The combat log, for kills: not on Forever, which forbids it (registering it
+-- throws); if it is refused anywhere else, meeting counts instead.
+for event in pairs(handlers) do
+  if event == "COMBAT_LOG_EVENT_UNFILTERED" then
+    if ns.forever or not pcall(frame.RegisterEvent, frame, event) then ns.meetKills = true end
+  else
+    frame:RegisterEvent(event)
+  end
+end
 
 -- ── /codex ───────────────────────────────────────────────────────────────────
 SLASH_LOREKEEPERSCODEX1 = "/codex"
@@ -278,7 +325,8 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
       GetRealZoneText() or "?", GetSubZoneText() ~= "" and GetSubZoneText() or "-", tostring(map),
       pos and ("position: %d %.1f %.1f"):format(map, pos.x * 100, pos.y * 100) or "no position"))
     local target = npcId("target")
-    if target then print(PREFIX .. ("target: npc: %d (%s)"):format(target, UnitName("target") or "?")) end
+    local name = UnitName("target")
+    if target then print(PREFIX .. ("target: npc: %d (%s)"):format(target, (name and not secret(name)) and name or "?")) end
     return
   end
   if msg == "reset" then
@@ -301,6 +349,11 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
   if msg == "minimap" then
     ns.setOption("minimapHidden", not ns.option("minimapHidden"))
     print(PREFIX .. (ns.option("minimapHidden") and "minimap button hidden (/codex minimap to show it again)." or "minimap button shown."))
+    return
+  end
+  local scan = msg:match("^scan%s*(%a*)$")
+  if scan then
+    if ns.scanCommand then ns.scanCommand(scan) end
     return
   end
   if msg == "achievements" or msg == "ach" then

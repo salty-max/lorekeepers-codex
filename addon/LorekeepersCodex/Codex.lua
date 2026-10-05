@@ -20,7 +20,9 @@ local function showPage(id)
   -- All in the same ink: the signature (an italic paragraph) used to be a
   -- lighter brown, which read as faded on the parchment.
   local paras = {}
-  for _, para in ipairs(e.text) do table.insert(paras, para[1]) end
+  for _, para in ipairs(e.text) do
+    if not para.client or para.client == ns.client then table.insert(paras, para[1]) end
+  end
   page.body:SetText(table.concat(paras, "\n\n"))
 
   -- "See also": the related pages this character has found.
@@ -103,7 +105,9 @@ local function matches(id, query)
   if not haystack[id] then
     local e = C.entries[id]
     local parts = { e.title }
-    for _, para in ipairs(e.text) do table.insert(parts, para[1]) end
+    for _, para in ipairs(e.text) do
+      if not para.client or para.client == ns.client then table.insert(parts, para[1]) end
+    end
     haystack[id] = plain(table.concat(parts, " "))
   end
   return haystack[id]:find(query, 1, true) ~= nil
@@ -376,9 +380,17 @@ function ns.showTab(n)
   if n == 2 then ns.refreshAchievements() else ns.refresh(true) end
 end
 
+-- The character sheet's tabs on Classic; the shared panel tabs where that
+-- template doesn't exist (the modern client of Forever).
+local function hasTemplate(name)
+  if not (C_XMLUtil and C_XMLUtil.GetTemplateInfo) then return name == "CharacterFrameTabButtonTemplate" end
+  return C_XMLUtil.GetTemplateInfo(name) ~= nil
+end
+
 local function buildTabs()
+  local template = hasTemplate("CharacterFrameTabButtonTemplate") and "CharacterFrameTabButtonTemplate" or "PanelTabButtonTemplate"
   for n, label in ipairs({ "Pages", "Achievements" }) do
-    local tab = CreateFrame("Button", "LorekeepersCodexFrameTab" .. n, book, "CharacterFrameTabButtonTemplate")
+    local tab = CreateFrame("Button", "LorekeepersCodexFrameTab" .. n, book, template)
     tab:SetID(n)
     tab:SetText(label)
     if n == 1 then tab:SetPoint("TOPLEFT", book, "BOTTOMLEFT", 14, 8)
@@ -553,13 +565,20 @@ end
 
 -- Codex links in chat (|Hlorekeeper:<id>|h[Title]|h): the game hands links of
 -- an unknown type to the handler registered for it.
+local function followLink(link)
+  local id = link:match("^lorekeeper:(.+)$")
+  if not id then return end
+  local achievement = id:match("^ach:(.+)$")
+  if achievement then ns.openAchievements(achievement) else ns.open(id) end
+end
 if LinkUtil and LinkUtil.RegisterLinkHandler then
   LinkUtil.RegisterLinkHandler("lorekeeper", function(link)
-    local id = link:match("^lorekeeper:(.+)$")
-    local achievement = id and id:match("^ach:(.+)$")
-    if achievement then ns.openAchievements(achievement) else ns.open(id) end
+    followLink(link)
     return LinkProcessorResponse and LinkProcessorResponse.Handled
   end)
+elseif hooksecurefunc and SetItemRef then
+  -- Clients without the link registry still pass every click to SetItemRef.
+  hooksecurefunc("SetItemRef", function(link) followLink(link) end)
 end
 
 -- A page found while the book is open shows up in the list at once; so does

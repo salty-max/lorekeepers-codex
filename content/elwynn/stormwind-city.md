@@ -10,4 +10,6 @@ Stormwind is the greatest city of men, and it is the second Stormwind to stand i
 
 The masons of the Stonemasons' Guild raised it in white stone, finer than before: the Cathedral of Light, the canals and the keep above them all. The House of Nobles then refused to pay them, and the masons' grievance has since become the Defias Brotherhood, so that the most beautiful city in the Alliance is also the most bitterly remembered.
 
-It is a city of trade and soldiers, of priests and spies, and of a court that whispers. The boy on the throne is its king; the men and women around him rule it.
+[classic] It is a city of trade and soldiers, of priests and spies, and of a court that whispers. The boy on the throne is its king; the men and women around him rule it.
+
+[forever] It is a city of trade and soldiers, with ships in its harbour, of priests and spies, and of a court that whispers. The boy on the throne is its king; the men and women around him rule it.

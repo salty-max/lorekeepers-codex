@@ -8,8 +8,13 @@ original lore texts that unlock per character as they play. Sister project of
 
 - `content/<chapter>/<id>.md`: the pages (front matter + paragraphs), and
   `_chapter.md` per chapter (title, order, one-line summary). The source of truth.
-- `scripts/build.ts`: content → `addon/LorekeepersCodex/Content.lua` (generated,
-  committed), with validation. `--check` fails if it's stale.
+- `scripts/build.ts`: content → `addon/LorekeepersCodex/Content_Classic.lua`
+  and `Content_Forever.lua` (generated, committed: each holds its game's pages
+  and paragraphs only), with validation. `--check` fails if one is stale.
+- `scripts/package.ts` (`bun run package`): one package per game in `dist/`
+  (folder + zip), its content file as `Content.lua` and a TOC with its game's
+  interface versions (the source TOC has an `@INTERFACE@` placeholder: the
+  source folder is not installable). Releases attach both zips.
 - `data/areas.json`: the client's AreaTable (wago.tools, `bun scripts/areas.ts`):
   place names in content resolve to area ids, so unlocks work in every language.
 - `addon/LorekeepersCodex/`: `Core.lua` (unlock engine: areas, npcs talked to or
@@ -45,6 +50,12 @@ as flavour text without an in-entry label. This does not permit unsupported
 historical claims in other entries.
 
 ## Writing pages (the product is the text)
+
+- Two games read the codex: Classic and Forever (the original world on the
+  modern client, with new zones, quests and the Skyborne). A page or paragraph
+  for one only says so (`client:` front matter, `[forever]`/`[classic]`
+  paragraphs). Forever-only content may use Forever's own texts (quests, NPCs,
+  books); everything else keeps the pre-WotLK rule below. See FOREVER.md.
 
 - Voice: an archivist of the Explorers' League, writing from the Hall of
   Explorers in Ironforge; addresses the reader as "traveller"; warm, dry, a

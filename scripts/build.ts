@@ -1,5 +1,5 @@
 /**
- * content/**\/*.md → addon/LorekeepersCodex/Content.lua
+ * content/**\/*.md → addon/LorekeepersCodex/Content_Classic.lua, Content_Forever.lua
  *
  * Each entry is a Markdown file with a small front matter:
  *
@@ -19,30 +19,36 @@
  *   also: [war-of-the-three-hammers]
  *   race: Dwarf, Gnome          # only for these races (UnitRace tokens, or
  *                               # "other" for races without a page of their own)
+ *   client: forever             # only on this client (forever or classic)
  *   ---
  *   Paragraphs, separated by blank lines. A paragraph in *asterisks* is a signature.
+ *   A paragraph starting with [forever] or [classic] shows on that client only
+ *   (a Forever variant: the [classic] paragraph and its [forever] replacement).
+ *   On Forever, which closes the combat log to addons, kill unlocks also fire
+ *   on targeting the creature.
  *
  * A chapter is a folder with a _chapter.md (title, order, a one-line summary).
  * Places are resolved to the game's area ids (data/areas.json, from the client's
  * AreaTable), so unlocking works in every client language.
  *
- *   bun scripts/build.ts          write Content.lua
- *   bun scripts/build.ts --check  fail if Content.lua isn't up to date
+ *   bun scripts/build.ts          write the content files
+ *   bun scripts/build.ts --check  fail if one isn't up to date
  */
 import { readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join, relative } from "node:path";
 
 const ROOT = new URL("..", import.meta.url).pathname;
 const CONTENT = join(ROOT, "content");
-const OUT = join(ROOT, "addon/LorekeepersCodex/Content.lua");
 
 const KINDS = ["place", "figure", "faction", "creature", "history", "note"] as const;
-const RACES = ["Human", "Dwarf", "NightElf", "Gnome", "Orc", "Troll", "Tauren", "Scourge", "other"];
+const RACES = ["Human", "Dwarf", "NightElf", "Gnome", "Orc", "Troll", "Tauren", "Scourge", "Skyborne", "other"];
 const STANDINGS: Record<string, number> = { hated: 1, hostile: 2, unfriendly: 3, neutral: 4, friendly: 5, honored: 6, revered: 7, exalted: 8 };
 
 type Area = { id: number; name: string; parent: number };
 type Unlock = { always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number };
-type Entry = { id: string; title: string; kind: string; chapter: string; unlock: Unlock[]; also: string[]; race: string[]; text: { italic: boolean; text: string }[]; file: string };
+type Entry = { id: string; title: string; kind: string; chapter: string; unlock: Unlock[]; also: string[]; race: string[]; client: string; text: Para[]; file: string };
+type Para = { italic: boolean; text: string; client: string };
+const CLIENTS = ["classic", "forever"];
 
 const areas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas.json"), "utf8"));
 const areaById = new Map(areas.map((a) => [a.id, a]));
@@ -146,9 +152,13 @@ function paragraphs(body: string) {
     .split(/\n\s*\n/)
     .map((p) => p.replace(/\s*\n\s*/g, " ").trim())
     .filter(Boolean)
-    .map((p) => {
+    .map((p): Para => {
+      // "[forever] ..." or "[classic] ...": a paragraph for one client only.
+      const m = p.match(/^\[(\w+)\]\s+/);
+      const client = m ? m[1] : "";
+      if (m) p = p.slice(m[0].length);
       const italic = /^\*[^*].*[^*]\*$/.test(p);
-      return { italic, text: italic ? p.slice(1, -1) : p };
+      return { italic, text: italic ? p.slice(1, -1) : p, client };
     });
 }
 
@@ -186,6 +196,7 @@ for (const file of walk(CONTENT).sort()) {
     also,
     text: paragraphs(body),
     race: typeof meta.race === "string" ? meta.race.split(",").map((r) => r.trim()) : [],
+    client: typeof meta.client === "string" ? meta.client.trim() : "",
     file,
   });
 }
@@ -198,6 +209,8 @@ for (const e of entries) {
   for (const a of e.also) if (!entries.some((o) => o.id === a)) fail(e.file, `also: no entry "${a}"`);
   if (!e.text.length) fail(e.file, "no text");
   for (const r of e.race) if (!RACES.includes(r)) fail(e.file, `race: one of ${RACES.join(", ")}`);
+  if (e.client && !CLIENTS.includes(e.client)) fail(e.file, `client: one of ${CLIENTS.join(", ")}`);
+  for (const p of e.text) if (p.client && !CLIENTS.includes(p.client)) fail(e.file, `[${p.client}]: one of ${CLIENTS.join(", ")}`);
 }
 if (errors.length) {
   console.error(errors.map((e) => `✗ ${e}`).join("\n"));
@@ -222,26 +235,39 @@ const unlockLua = (u: Unlock) =>
           : "faction" in u
             ? `{ faction = ${u.faction}, standing = ${u.standing} }`
             : `{ map = ${u.map}, x = ${u.x}, y = ${u.y}, r = ${u.r} }`;
-const usedAreas = [...new Set(entries.flatMap((e) => e.unlock.flatMap((u) => ("area" in u ? [u.area] : []))))].sort((a, b) => a - b);
+// One content file per game: each holds only that game's pages and paragraphs
+// (front matter client:, [forever]/[classic] paragraphs), and its links and
+// chapters follow. scripts/package.ts ships each with its own TOC.
+const GAMES = [
+  { client: "classic", out: join(ROOT, "addon/LorekeepersCodex/Content_Classic.lua") },
+  { client: "forever", out: join(ROOT, "addon/LorekeepersCodex/Content_Forever.lua") },
+];
 
-const lua = `-- Generated by scripts/build.ts from content/: edit the Markdown, not this file.
+function luaFor(client: string) {
+  const mine = (c: string) => !c || c === client;
+  const kept = entries.filter((e) => mine(e.client));
+  const keptIds = new Set(kept.map((e) => e.id));
+  const usedAreas = [...new Set(kept.flatMap((e) => e.unlock.flatMap((u) => ("area" in u ? [u.area] : []))))].sort((a, b) => a - b);
+  const chapterList = [...chapters.values()]
+    .sort((a, b) => a.order - b.order)
+    .map((c) => ({ ...c, entries: c.entries.filter((id) => keptIds.has(id)) }))
+    .filter((c) => c.entries.length);
+  const lua = `-- Generated by scripts/build.ts from content/: edit the Markdown, not this file.
 local _, ns = ...
 ns.content = {
+  client = ${q(client)},
   chapters = {
-${[...chapters.values()]
-  .sort((a, b) => a.order - b.order)
-  .map((c) => `    { id = ${q(c.id)}, title = ${q(c.title)}, summary = ${q(c.summary)}, entries = { ${c.entries.map(q).join(", ")} } },`)
-  .join("\n")}
+${chapterList.map((c) => `    { id = ${q(c.id)}, title = ${q(c.title)}, summary = ${q(c.summary)}, entries = { ${c.entries.map(q).join(", ")} } },`).join("\n")}
   },
   entries = {
-${entries
+${kept
   .map(
     (e) => `    [${q(e.id)}] = {
       title = ${q(e.title)}, kind = ${q(e.kind)}, chapter = ${q(e.chapter)},
       unlock = { ${e.unlock.map(unlockLua).join(", ")} },
-      also = { ${e.also.map(q).join(", ")} },${e.race.length ? ` race = { ${e.race.map((r) => `${r} = true`).join(", ")} },` : ""}
+      also = { ${e.also.filter((a) => keptIds.has(a)).map(q).join(", ")} },${e.race.length ? ` race = { ${e.race.map((r) => `${r} = true`).join(", ")} },` : ""}
       text = {
-${e.text.map((p) => `        { ${p.italic ? "italic = true, " : ""}${q(p.text)} },`).join("\n")}
+${e.text.filter((p) => mine(p.client)).map((p) => `        { ${p.italic ? "italic = true, " : ""}${q(p.text)} },`).join("\n")}
       },
     },`,
   )
@@ -251,21 +277,27 @@ ${e.text.map((p) => `        { ${p.italic ? "italic = true, " : ""}${q(p.text)} 
   areaNames = { ${usedAreas.map((id) => `[${id}] = ${q(areaById.get(id)!.name)}`).join(", ")} },
 }
 `;
+  return { lua, count: kept.length, chapters: chapterList.length };
+}
 
 if (process.argv.includes("--check")) {
-  const current = (() => {
+  let stale = false;
+  for (const g of GAMES) {
+    const { lua, count } = luaFor(g.client);
+    let current = "";
     try {
-      return readFileSync(OUT, "utf8");
-    } catch {
-      return "";
-    }
-  })();
-  if (current !== lua) {
-    console.error("✗ Content.lua is out of date: run bun scripts/build.ts");
-    process.exit(1);
+      current = readFileSync(g.out, "utf8");
+    } catch {}
+    if (current !== lua) {
+      console.error(`✗ ${relative(ROOT, g.out)} is out of date: run bun scripts/build.ts`);
+      stale = true;
+    } else console.log(`✓ ${relative(ROOT, g.out)} up to date (${count} entries)`);
   }
-  console.log(`✓ Content.lua up to date (${entries.length} entries)`);
+  if (stale) process.exit(1);
 } else {
-  writeFileSync(OUT, lua);
-  console.log(`✓ ${entries.length} entries in ${chapters.size} chapter(s) → ${relative(ROOT, OUT)}`);
+  for (const g of GAMES) {
+    const { lua, count, chapters: n } = luaFor(g.client);
+    writeFileSync(g.out, lua);
+    console.log(`✓ ${g.client}: ${count} entries in ${n} chapter(s) → ${relative(ROOT, g.out)}`);
+  }
 }

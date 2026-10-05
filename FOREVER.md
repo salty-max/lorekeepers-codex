@@ -13,7 +13,7 @@ one package. This plan records the decisions and the work, in two waves.
 | Lore sources for Forever-only pages | **Forever's own texts** (quests, NPCs, books), and only Forever readers see those pages. Original pages keep the pre-WotLK rule. |
 | Original pages contradicted by Forever | **Forever variants:** Forever-only paragraphs or replacement text; Classic readers see the original. |
 | Skyborne | **Their own foreword now**, written during the port from what the beta shows of them and Zephras Isle. |
-| Packaging | **One zip, two TOCs**, one version and changelog. |
+| Packaging | **One source, two packages:** one version and changelog, a zip per game (`LorekeepersCodex-classic.zip`, `LorekeepersCodex-forever.zip`), each with only its game's content and interface versions. |
 | Testing | **On the beta, by the user**, with a `/codex scan` command that records ids for the second wave. |
 
 ## What Forever changes (from the beta's AreaTable, wago.tools `wow_classic_beta`)
@@ -39,35 +39,59 @@ one package. This plan records the decisions and the work, in two waves.
 - Wowhead knows few Forever quests and nothing in the new zones: their ids
   come from the client.
 
-## Wave 1: the port (before launch)
+## Wave 1: the port (done, to test on the beta)
 
-1. **Two TOCs:** `LorekeepersCodex.toc` (Classic Era, TBC) as now, and
-   `LorekeepersCodex_Camelot.toc` with `## Interface: 16001` (the beta's
-   value; check it at launch). The Forever TOC also loads `Forever.lua`.
-2. **Client flag:** `ns.forever`, set by `Forever.lua` (only the Forever TOC
-   loads it), so the code never guesses from the build.
-3. **Combat log:** registered only on Classic. Registering it on Forever
-   throws, and our event loop would stop there.
-4. **Meeting counts (Forever):** on target and mouseover, a creature's kill
-   pages unlock too. The tooltip hint keeps working (same ids).
-5. **Secret values:** `issecretvalue` checks before using a GUID or a name
-   (tooltip hint, target, `/codex where`).
-6. **Content gating:** front matter `client: forever` (Forever-only pages) and
-   `client: classic`; per-paragraph variants (`<!-- forever -->` blocks, or a
-   `forever:` replacement for a whole paragraph). The build emits both; the
-   addon shows what fits the client. Counts, chapters and achievements follow.
-7. **Forever variants of contradicted pages:** at least the Greymane Wall (the
-   Ruins of Gilneas are open), the furbolgs (Blackmaw Hold), Stormwind (its
-   harbour), Dalaran (the city as a dungeon), and any found in testing.
-8. **Skyborne foreword:** their race token (from `UnitRace` on a Skyborne
-   character, via `/codex scan`) and a foreword from Forever's texts.
-9. **`/codex scan`:** records, per character, every area entered (id and
-   name), NPC targeted (id, name, zone) and quest accepted or turned in (id,
-   title, text), in a saved table the build can read, for the second wave.
-10. **Simulation:** a Forever mode (no combat log, secret values, the
-    `_Camelot` TOC's file list) beside the Classic one.
-11. **Release:** the release zip holds both TOCs; the README says which
-    clients are supported.
+1. ✅ **Two packages from one source:** the build writes
+   `Content_Classic.lua` and `Content_Forever.lua` (each with its game's
+   pages and paragraphs only); `bun run package` assembles `dist/classic` and
+   `dist/forever`, each with its content file and a TOC for its game (`11509,
+   20506` / `16001`). The addon also asks the client which game it is
+   (`GetBuildInfo`, interface 16xxx is Forever: `ns.forever`, `ns.client`),
+   for the combat log and the API; a package installed on the other game
+   still works and says so at login.
+2. ✅ **Combat log:** not registered on Forever (it throws there); if any
+   client refuses it, meeting counts instead.
+3. ✅ **Meeting counts (Forever):** targeting a creature, alive or dead,
+   unlocks the pages its kill would. The tooltip hint is unchanged.
+4. ✅ **Secret values:** `ns.secret()` (`issecretvalue`) before using a GUID,
+   a name or a boolean (creature ids, tooltip hint, `/codex where`, scan).
+5. ✅ **Modern API:** reputations through `C_Reputation.GetFactionDataByID`
+   when the old `GetFactionInfoByID` is gone; the book's tabs fall back to
+   `PanelTabButtonTemplate` when the character sheet's template is missing;
+   chat links fall back to `SetItemRef` without `LinkUtil`.
+6. ✅ **Content gating:** `client: forever|classic` front matter;
+   `[forever]` / `[classic]` paragraphs. Counts, chapters, search and
+   achievements follow the reader's game.
+7. ✅ **Forever variants:** the furbolgs (Azshara's hold is Blackmaw Hold) and
+   Stormwind (its harbour). **Waiting for Forever's texts (scan):** the
+   Greymane Wall (the Ruins of Gilneas), Dalaran (the city as a dungeon), the
+   Shen'dralar (the Shal'nan's rebellion, told in Forever's books), Moonglade
+   and Mount Hyjal, and any found in testing.
+8. ✅ **Skyborne foreword** (`foreword-skyborne`, race token `Skyborne`, from
+   the beta's ChrRaces; lore from Forever's Skyborne texts as the Warcraft
+   Wiki reports them).
+9. ✅ **`/codex scan on|off|clear`:** account-wide (`LorekeepersCodexScan`):
+   areas, creatures (id, name, level, where), quests (id, title, texts,
+   giver), NPC gossip, books, race tokens. `scripts/scan-export.lua` turns the
+   SavedVariables file into JSON.
+10. ✅ **Simulation:** `FOREVER=1 luajit addon/test/sim.lua` (no combat log,
+    secret values, `C_Reputation`), in `bun run check`, CI and releases.
+11. ✅ **Release:** both zips attached to each GitHub release (and uploaded to
+    CurseForge per game once the project exists).
+
+### To test on the beta
+
+Install `dist/forever/LorekeepersCodex` (after `bun run package`) into
+`World of Warcraft/_classic_beta_/Interface/AddOns/`.
+
+
+- The addon loads without "out of date" or Lua errors.
+- Targeting a creature unlocks its people's page (a Frostmane troll, say).
+- A reputation page (Ironforge friendly) and a quest page unlock.
+- Tooltip hints appear in the open world, and nothing errors in a dungeon.
+- The book opens, both tabs work, links in chat open the book.
+- A Skyborne character gets the Skyborne foreword.
+- `/codex scan on`, play a while, log out: the SavedVariables file holds data.
 
 ## Wave 2: Forever's content (after launch)
 
@@ -79,9 +103,8 @@ pages for the nine new dungeons and the raids, and new pages in the old zones
 
 ## Open points
 
-- The `_Camelot` TOC suffix and `16001` come from community guides: check
-  both on the beta client.
-- Whether `UnitGUID` of creatures is secret outside instances (the hint and
-  meeting unlocks depend on it): test on the beta.
-- `CharacterFrameTabButtonTemplate` on Mainline: if missing, switch the book's
-  tabs to `PanelTabButtonTemplate` on Forever.
+- `16001` comes from community guides: check the client accepts it (no "out
+  of date" warning).
+- Whether creature GUIDs are secret outside instances (the hint and meeting
+  unlocks depend on them): the addon copes either way, but unlocks would only
+  happen where they are not.

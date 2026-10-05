@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
-# Upload the addon zip to CurseForge (called by .github/workflows/curseforge.yml).
+# Upload one package zip to CurseForge (called by .github/workflows/release.yml,
+# once per game).
 #   CF_API_TOKEN   CurseForge API token (curseforge.com → account → API tokens)
 #   CF_PROJECT_ID  the CurseForge project id
-#   $1             WowLocker-addon.zip     $2  changelog (markdown)
+#   $1             LorekeepersCodex-classic.zip or -forever.zip   $2  changelog (markdown)
 # Game versions come from the TOC's "## Interface:" list (11509 → 1.15.9,
-# 20506 → 2.5.6). When CurseForge doesn't list that exact version yet, the
+# 20506 → 2.5.6, 16001 → 1.60.1 for Forever). When CurseForge doesn't list that exact version yet, the
 # newest one of the same line (1.15.x, 2.5.x) is used.
 set -euo pipefail
 ZIP="$1"
@@ -31,7 +32,7 @@ for i in $INTERFACES; do
 done
 
 METADATA=$(jq -n \
-  --arg name "Lorekeeper's Codex $VERSION" \
+  --arg name "Lorekeeper's Codex $VERSION ($(grep -q 16001 <<<"$INTERFACES" && echo Forever || echo Classic))" \
   --rawfile changelog "$CHANGELOG" \
   --argjson versions "$(printf '%s\n' "${IDS[@]}" | jq -s 'map(tonumber)')" \
   '{displayName: $name, changelog: $changelog, changelogType: "markdown", gameVersions: $versions, releaseType: "release"}')
