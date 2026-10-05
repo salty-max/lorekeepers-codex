@@ -6,8 +6,6 @@ unlock:
   - area: The Farstrider Lodge
 also: [loch-modan]
 ---
-In the south-east of Loch Modan stands a hunters' lodge, built in the graceful style of the elves and named for the Farstriders, the far-ranging rangers of Quel'Thalas. Its hunters today are mostly dwarves and men, under Marek Ironheart.
+Hunters gather at the Farstrider Lodge in south-eastern Loch Modan. Marek Ironheart trades in crocolisk meat and skins, while Daryl the Young offers challenges to anyone willing to test their skill. There is ample work here for a bow, and no shortage of conversation about who handles one best.
 
-The best trackers of the loch country gather there to trade stories, skins and advice, and to train those who would follow the hunter's path. They know every trail between the dam and the southern hills, and the habits of every bear and boar on them.
-
-If you mean to hunt in Loch Modan, start here. They will tell you where to go, and more importantly where not to.
+Vyrin Swiftwind proposes a different test. She wants Ol’ Sooty killed as part of a scheme to expose Daryl’s boasting. You may learn something about hunting at the lodge, traveller, but you will learn a good deal about hunters too.

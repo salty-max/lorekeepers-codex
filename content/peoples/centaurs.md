@@ -10,8 +10,8 @@ unlock:
   - kill: 10617, 10720, 11685, 11688, 12976, 12977
 also: [cairne-bloodhoof]
 ---
-The centaurs of Kalimdor were born of a forbidden love: Zaetar, a son of the demigod Cenarius, and Theradras, a princess of the elemental earth. Their children were cruel and misshapen, and when Zaetar looked at them with shame, they killed him. Theradras buried him in her caverns at Maraudon, and the centaurs keep his tomb as holy ground to this day.
+The centaurs descend from Zaetar, a son of Cenarius, and Theradras, a princess of elemental earth. They killed their father; their mother buried him in Maraudon. His children still guard the tomb as sacred ground.
 
-There were five first khans, and the clans still carry their names: the Kolkar in the Barrens and Desolace, the Gelkis and Magram who fight each other across Desolace, the Galak of Thousand Needles and the Maraudine who guard the tomb itself. For generations they hunted the tauren across the plains, until the orcs came and Cairne Bloodhoof drove them back.
+Their clans include the Kolkar of the Barrens and Desolace, the rival Gelkis and Magram, the Galak of Thousand Needles and the Maraudine at the tomb. For generations they pursued the tauren across Kalimdor’s plains, until Cairne and his orc allies drove them back.
 
-They are raiders and nothing else: they plant nothing and build little, and take what they want from those who do. A traveller in the Barrens learns to listen for hooves.
+The clans continue to raid. Learn their names as well as the sound of their hooves, traveller. The quarrels between them matter to those trying to live within reach of their camps.

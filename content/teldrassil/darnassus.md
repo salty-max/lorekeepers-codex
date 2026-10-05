@@ -6,8 +6,6 @@ unlock:
   - area: Darnassus
 also: [tyrande-whisperwind, fandral-staghelm, teldrassil, cenarion-circle]
 ---
-Darnassus is the city of the night elves, built in the branches of Teldrassil, and it is the strangest capital I have ever walked through: a city with almost no walls, its halls grown rather than built, lit by moonlight and the glow of the great Temple of the Moon, with waterfalls running through its streets.
+Darnassus stands in Teldrassil’s crown, a new capital built after the Third War. Moonlight, waterfalls and the glow of the Temple of the Moon fill a city with few walls and halls grown among the branches. An Ironforge dwarf is accustomed to having rather more stone overhead.
 
-It is new, younger than I am, though you would never guess it. Before the last war the night elves had no need of cities; they lived scattered through the forests of Ashenvale, unseen and unknown to the rest of us for ten thousand years. They built Darnassus when they lost the World Tree on Hyjal and came out into the world, and they have joined the Alliance since.
-
-Two powers sit there: the priestesses of the moon in the Temple, under Tyrande Whisperwind, and the druids in the Cenarion Enclave, under Fandral Staghelm. The night elves are polite about this arrangement. They are polite about everything.
+The night elves have joined the Alliance, opening this city to visitors from peoples they long kept apart from. Tyrande Whisperwind leads the priestesses from the Temple, while Fandral Staghelm directs the druids in the Cenarion Enclave. Learn those two places, traveller. Much of the city’s business begins in one or the other.

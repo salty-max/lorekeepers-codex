@@ -6,6 +6,6 @@ unlock:
   - area: Eastern Plaguelands
 also: [lights-hope-chapel, stratholme, tyrs-hand, scourge, western-plaguelands]
 ---
-The Eastern Plaguelands were the Eastweald, the green eastern country of Lordaeron, with its villages, its abbeys and the great city of Stratholme. The plague took all of it. The trees are dead or dying, the fungus grows as tall as a house, and the rivers run foul. Where the Western Plaguelands are a battlefield, these are the Scourge's own country.
+The Eastweald once held Lordaeron’s eastern villages, abbeys and the city of Stratholme. The plague transformed it into the Eastern Plaguelands. Its trees are dead or dying, great fungus rises among them, and foul water runs through country the Scourge largely controls.
 
-Only a few hold out. The Argent Dawn keeps Light's Hope Chapel in the east, the Scarlet Crusade holds Tyr's Hand in the south-east, an old exile lives by the lake, and the Forsaken's champion keeps a farmhouse at the Marris Stead. Everyone else here is dead, and most of the dead are still walking.
+Light’s Hope Chapel shelters the Argent Dawn in the east; the Scarlet Crusade retains Tyr’s Hand in the south-east. Tirion Fordring lives in exile beside the Thondroril River, and Nathanos Blightcaller occupies his old farmhouse at the Marris Stead. These scattered inhabitants have very different purposes. Learn where each stands, traveller, before counting any occupied building as a refuge.

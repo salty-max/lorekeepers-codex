@@ -6,6 +6,6 @@ unlock:
   - npc: 2425
 also: [sylvanas-windrunner, burning-legion, undercity]
 ---
-Varimathras is a dreadlord, one of the demons the Burning Legion set over the Scourge to watch it, and after the Lich King's prince left for Northrend, he and his brothers ruled the ruins of Lordaeron. When Sylvanas broke free she overpowered him, and he chose to serve her rather than die; at her command he turned against his own brothers.
+After Arthas departed for Northrend, Varimathras and his fellow dreadlords ruled the ruins of Lordaeron. The Burning Legion had placed these demons over the Scourge. Sylvanas, newly free of the Lich King’s control, overpowered Varimathras and offered him a choice between service and death. He chose service, then turned against his brothers at her command.
 
-He stands at her side in the Undercity now, and sees to the Forsaken's affairs at home while she looks north. I am told he is perfectly courteous. I am also told that the Dark Lady has never once turned her back on him.
+He now stands beside her in the Undercity and attends to the Forsaken’s affairs while she looks north. Remember the terms under which he entered her service, traveller. His first concern in accepting them was his own survival.

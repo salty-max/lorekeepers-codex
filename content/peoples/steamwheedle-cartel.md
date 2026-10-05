@@ -10,8 +10,8 @@ unlock:
   - reputation: 577 friendly
 also: [venture-company, southsea-freebooters]
 ---
-The goblins of the Steamwheedle Cartel have learned what most peoples never do: that war is a very good customer, as long as you sell to both sides. In the Second War they sold their sappers, their alchemy and their zeppelins to the Horde. Since then they have sold to everyone, and kept their towns open to all comers.
+The Steamwheedle Cartel trades with both Alliance and Horde. Its goblins have found that people willing to fight each other still need supplies, and that both sets of coins are worth taking. Their towns offer a place to conduct the business.
 
-Those towns are the cartel's great work: Booty Bay at the tip of Stranglethorn, Gadgetzan in the deserts of Tanaris, Ratchet on the coast of the Barrens and Everlook in the snows of Winterspring. Within their walls no Alliance soldier may draw on a Horde one, and the goblin bruisers who keep that peace are very good at it. Each town has its own baron or mayor, and above them all stand the goblins' trade princes.
+Booty Bay, Gadgetzan, Ratchet and Everlook span jungle, desert, coast and snow. Bruisers enforce peace within them. Revilgaz oversees Booty Bay, while Gazlowe has work for visitors in Ratchet; each port has troubles that trade alone will not settle.
 
-They are not a kind people, and they will charge you for the water you drink in Gadgetzan. But they keep their word when it is written down, and in a world at war, a neutral harbour is worth more than gold.
+A traveller can buy provisions, find employment and meet the other faction without immediately reaching for a weapon. The cartel charges for much of what it offers, but a neutral stopping place has value in a world whose roads run through so many wars.

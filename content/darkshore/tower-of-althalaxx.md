@@ -6,6 +6,6 @@ unlock:
   - area: Tower of Althalaxx (Darkshore)
 also: [darkshore, burning-legion, argent-dawn]
 ---
-North-east of Auberdine stands a ruined tower, Althalaxx, and strange things have been happening around it. The Sentinels of Auberdine sent a watcher to find out what, and he did not come back. The answer, when it came, was the Dark Strand: a cult of night elves who have taken up the warlock's arts, the very magic that destroyed their people.
+Balthule Shadowstrike watches the ruined tower of Althalaxx north-east of Auberdine. He stays at his post rather than risk missing a clue. The activity around it leads to the Dark Strand, a cult of night elves practising warlock magic. Their people have reason enough to remember what such arts can bring.
 
-They do not work alone. The trail from the tower leads south into Ashenvale, to an orc warlock at the Fire Scar Shrine, and from there the hunt is taken up by Delgren the Purifier, of the Argent Dawn, who has made it his business.
+The investigation reaches south into Ashenvale, to an orc warlock at Fire Scar Shrine. Delgren the Purifier of the Argent Dawn takes up the hunt there. If you follow the trail, traveller, keep the tower’s name in your notes; the work it begins carries you well beyond its walls.

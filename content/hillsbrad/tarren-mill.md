@@ -6,6 +6,6 @@ unlock:
   - area: Tarren Mill (Hillsbrad Foothills)
 also: [the-forsaken, royal-apothecary-society, southshore, varimathras]
 ---
-Tarren Mill was a village of millers and farmers in the hills above Hillsbrad. The Forsaken have it now, and it is their stronghold in the south, held by the Deathguard under a High Executor who answers to Varimathras himself.
+Millers and farmers once occupied Tarren Mill. The Forsaken now hold it as a southern stronghold, with Deathguard serving a High Executor who answers to Varimathras. Southshore is only a short ride away.
 
-Her orders are plain, and I have seen them: to raid the farms of Hillsbrad and quell what she calls the human infestation, until the apothecaries can finish their new plague. Southshore lies a short ride to the south, and the two towns have been at war since the Forsaken came.
+Darthalia orders raids against Hillsbrad’s farms and calls their human inhabitants an infestation. She means to subdue them while the apothecaries finish their new plague. The war between these towns reaches well beyond their guards, traveller; the farmers and their crops are named in its orders.

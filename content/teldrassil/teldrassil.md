@@ -10,4 +10,4 @@ Teldrassil is a tree, and I write that sentence knowing how foolish it sounds. I
 
 The night elves once had another such tree, Nordrassil, on Mount Hyjal, and while it stood they never aged. At the end of the last war they let it be broken to destroy the demon Archimonde, and gave up their immortality with it. When the war was over, the druids under Fandral Staghelm grew Teldrassil to take its place.
 
-The old tree had the blessing of the great dragons. The new one does not, and its own keepers admit that its growth has not been without flaw. I will say more of that elsewhere. For now, take ship from Auberdine, climb from Rut'theran, and see it: there is nothing else like it in the world.
+The old tree had the blessing of the great dragons. The new one does not, and its own keepers admit that its growth has not been without flaw. I will say more of that elsewhere. For now, take ship from Auberdine, pass through the gateway from Rut'theran, and see it: there is nothing else like it in the world.

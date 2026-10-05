@@ -6,6 +6,6 @@ unlock:
   - kill: 9019
 also: [ruins-of-thaurissan, moira-bronzebeard, ragnaros, blackrock-depths, dark-iron-dwarves, mekgineer-thermaplugg]
 ---
-Emperor Dagran Thaurissan is the descendant of the Sorcerer-Thane who woke Ragnaros, and the ruler of the Dark Iron dwarves in Shadowforge City. He rules them in the Firelord's name: he calls himself Ragnaros's most powerful servant.
+Dagran Thaurissan rules the Dark Irons in Shadowforge City, descended from the Sorcerer-Thane who summoned Ragnaros. The emperor calls himself the Firelord’s most powerful servant. His crown has not freed his clan from the power his ancestor brought upon it.
 
-He carries the hammer Ironfoe, taken from Marshal Windsor. His agents have reached as far as Gnomeregan, and he took King Magni's daughter, Moira, for his bride. Magni sent champions to kill him and bring her home. They did the first.
+He carries Ironfoe, and his agents have reached as far as Gnomeregan. He also made King Magni’s daughter Moira his bride. Magni sent champions to kill him and bring her home. They killed the emperor; Moira’s answer made the rest of their errand rather less simple.

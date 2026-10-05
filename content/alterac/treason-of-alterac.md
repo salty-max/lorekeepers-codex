@@ -7,6 +7,6 @@ unlock:
   - quest: 507
 also: [syndicate, durnholde-keep, alterac-mountains]
 ---
-In the Second War, when the seven kingdoms of men stood together against the Horde, one king did not: Aiden Perenolde of Alterac, who thought the Horde would win and sold his allies to it, opening the way for the orcs and passing them the Alliance's plans. When the war was won, the Alliance did not forgive him. Alterac was broken up, its crown taken away, and its nobles stripped of their lands.
+King Aiden Perenolde judged that the Horde would win the Second War. While the other human kingdoms fought together, Alterac opened a way for the orcs and supplied them with Alliance plans. When the Alliance won, Lordaeron imposed martial law. The rulers then disputed what should become of the kingdom.
 
-The capital stands in ruins in the mountains, its libraries scattered, and Stormwind's loremasters send scholars to save what books they can. Perenolde's son, Aliden, was not content with ruins. He gathered the disinherited nobles into the Syndicate, and dreamed, as his mentor Blackmoore had, of putting the orcs back in chains.
+Alterac’s capital is ruined and its libraries scattered. Stormwind sends scholars to recover the books. Perenolde’s son Aliden has pursued another inheritance: he leads the Syndicate, including former Alterac nobles, and plans to enslave the orcs as his mentor Blackmoore intended. There are several kinds of salvage being attempted here, traveller. The scholars’ is the one I would commend.

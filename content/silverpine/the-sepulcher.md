@@ -6,6 +6,6 @@ unlock:
   - area: The Sepulcher
 also: [the-forsaken, archmage-arugal, ambermill, thule-ravenclaw, varimathras]
 ---
-The Sepulcher is the Forsaken's stronghold in Silverpine, a cluster of crypts and mausoleums in a clearing in the woods, held by the Deathguard and the Deathstalkers. From here the Forsaken mean to secure the forest, and, by their own orders, more than the forest: the Banshee Queen has charged Varimathras with the conquest of the human and dwarven lands to the south.
+The Sepulcher is a cluster of crypts and mausoleums in Silverpine, held by Forsaken Deathguard and Deathstalkers. From this stronghold they mean to secure the forest. The Banshee Queen’s orders reach further: Varimathras is charged with conquering the human and dwarven lands to the south.
 
-For now they have their hands full. Arugal's worgen, the Rot Hide gnolls and the mages of Ambermill keep the Sepulcher busy, and its master would very much like someone to clean up what he calls Arugal's mess.
+For now, Arugal’s worgen, the Rot Hide gnolls and Ambermill’s mages keep its forces occupied close to home. The Forsaken want Arugal’s work undone in particular. Study the immediate errands as well as the larger orders, traveller; one shows the obstacles to the other.

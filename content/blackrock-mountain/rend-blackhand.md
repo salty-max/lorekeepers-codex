@@ -6,6 +6,6 @@ unlock:
   - kill: 10429
 also: [blackrock-clan, blackrock-spire, nefarian, thrall, eitrigg]
 ---
-Rend Blackhand is the son of Blackhand the Destroyer, the first Warchief of the Horde. With his brother Maim, he led the Black Tooth Grin in the Second War under Orgrim Doomhammer, the orc who had killed their father, and neither brother ever forgave him. When the Horde was beaten, they escaped to Blackrock Spire, and Rend named himself Warchief of what was left.
+Rend is the son of Blackhand the Destroyer, the Horde’s first Warchief. He and his brother Maim led the Black Tooth Grin under Orgrim Doomhammer, their father’s killer, while seeking both vengeance and the position Blackhand had lost.
 
-When Ner'zhul's envoys came from Draenor to call them back to the Horde, Rend laughed at them. Then Nefarian came, and Rend became his servant. He calls his band the Dark Horde, and he holds that he is the true Warchief, not Thrall. Thrall disagrees, and has asked for his head.
+Rend now claims the title of Warchief from Blackrock Spire, serving Nefarian and commanding the dragon’s orcs. Thrall rejects that claim and sends champions to kill him, with Eitrigg’s knowledge of the Blackrock helping guide the response. You will hear two claims to the Horde here, traveller, but only one of these leaders answers to a black dragon.

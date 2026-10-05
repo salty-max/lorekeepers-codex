@@ -7,8 +7,6 @@ unlock:
   - area: South Gate Outpost
 also: [ironforge, loch-modan]
 ---
-Two passes lead east out of Dun Morogh through the mountains to Loch Modan, and both are guarded day and night by the Mountaineers of Ironforge.
+The North Gate and South Gate passes carry travellers between Dun Morogh and Loch Modan. Mountaineers keep outposts along both routes. In mountain country, a narrow road can demand as much guarding as a broad frontier.
 
-These gates have closed against every army that has come against Khaz Modan, and the Mountaineers who keep them take that history personally. They will ask your business, look at your boots, and if they like what they see, wave you through with a warning about the troggs.
-
-Thank them as you pass. Very few travellers do.
+Captain Rugelfuss explains the difficulty from the Loch Modan side. His regiment must hold the gate rather than pursue nearby troggs, while the Ironforge Reserve is committed to the Alliance front. He asks adventurers to defend the land his soldiers cannot leave their posts to cover. Pass through, traveller, but do not mistake a guarded gate for a promise about the whole country beyond it.

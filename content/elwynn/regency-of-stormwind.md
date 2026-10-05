@@ -6,8 +6,8 @@ unlock:
   - npc: 1748, 1747
 also: [katrana-prestor, stormwind-city]
 ---
-King Varian Wrynn, son of the murdered King Llane, raised as a boy among the refugees in Lordaeron, has vanished. He left Stormwind on a diplomatic voyage and never arrived, and no one in the kingdom can say, or will say, what became of him.
+King Varian Wrynn has vanished. He was the son of King Llane, murdered in the First War, and grew up among Stormwind’s refugees in Lordaeron. His own fate remains unknown in the city he ruled.
 
-His young son Anduin wears the crown in his place. The kingdom is held for him by Highlord Bolvar Fordragon, a paladin and soldier of the Alliance, who commands the city's forces and keeps the young king safe. At Bolvar's side, always, is the royal adviser, Lady Katrana Prestor.
+His young son Anduin wears the crown. Highlord Bolvar Fordragon holds the kingdom for him, commands its forces and guards the boy. The royal adviser, Lady Katrana Prestor, stands at Bolvar’s side.
 
-I have met Bolvar, and he is an honest man. But it is a dangerous thing for a kingdom to be ruled by its regent's advisers, and Stormwind's army is spread thin across a land that needs it everywhere.
+Stormwind’s army is spread thin, and demands arrive from every quarter. When you visit the keep, traveller, remember how much business has fallen to the people around that young throne.

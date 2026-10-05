@@ -8,6 +8,6 @@ unlock:
   - area: Grimesilt Dig Site
 also: [searing-gorge, thorium-brotherhood, dark-iron-dwarves]
 ---
-The Cauldron is a great open pit in the middle of the Searing Gorge, ringed with the Dark Irons' digging machines, where they mine the earth for their master in the heat and the fire. Slaves do the work, and have been driven so mad by it that they will fight anyone who tries to free them.
+The Cauldron is the Dark Irons’ great mining pit in the Searing Gorge, surrounded by digging machines and worked in the heat with slave labour. Some of its captives have been driven to such madness that they attack even those who would release them.
 
-Grimesilt is a smaller dig to the south-east, and below the Cauldron is the Slag Pit, whose new commander, Overseer Maltorius, was once an agent of the Thorium Brotherhood and went back to his old masters. And there is an outhouse at Grimesilt with a key, which I mention only so you know I was thorough.
+The smaller Grimesilt dig lies south-east of it. Beneath the main pit, Overseer Maltorius commands the Slag Pit, having abandoned the Thorium Brotherhood to return to his former masters. There is also an outhouse at Grimesilt with a key. A traveller’s business in this country can involve remarkably different sorts of confinement.

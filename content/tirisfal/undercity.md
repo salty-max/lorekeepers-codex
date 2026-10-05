@@ -6,6 +6,6 @@ unlock:
   - area: Undercity
 also: [the-forsaken, sylvanas-windrunner, fall-of-lordaeron, royal-apothecary-society]
 ---
-The capital of Lordaeron was the greatest city of men in the north, and it is a ruin now: broken walls, a shattered throne room, and courtyards where nothing grows. The Forsaken live beneath it, in the old crypts and catacombs, which they have made into a city of their own: the Undercity, with a canal of green ooze running round its rings, and a royal quarter where the Banshee Queen keeps her court.
+Lordaeron’s capital lies in ruins above the Forsaken’s own city. Beyond its broken walls are the shattered throne room and lifeless courtyards. Beneath them, old crypts and catacombs have become the Undercity, arranged around rings of green ooze. Sylvanas holds court in its royal quarter.
 
-It is the strangest capital in the world, and the least welcoming, and its people know it. I went down once, under a flag of scholarly truce, and came up again, which I am told is more than some visitors manage.
+Merchants, trainers and guards occupy the other quarters, and the Royal Apothecary Society works in the Apothecarium. The Forsaken have made a functioning capital below the wreck of the one they knew in life. A traveller looking only at the ruins above would miss where the kingdom’s surviving affairs are now conducted.

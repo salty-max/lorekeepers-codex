@@ -23,8 +23,8 @@ unlock:
   - kill: 16452, 16573, 16861, 16981, 16982, 16983, 16984
 also: [cult-of-the-damned, scarlet-crusade, argent-dawn, fall-of-lordaeron, the-forsaken]
 ---
-The Scourge is the army of the Lich King, a power that sits on a throne of ice in Northrend and speaks into the minds of the dead. It came to Lordaeron as a plague, carried in the grain by a cult of the Lich King's worshippers, and everyone who ate of it and died rose again to serve him. The kingdom's own prince, Arthas, finished the work, and then took ship for Northrend to stand beside his master.
+The Scourge is the army of the Lich King, a power that sits on a throne of ice in Northrend and speaks into the minds of the dead. It came to Lordaeron as a plague, carried in the grain by a cult of the Lich King's worshippers, and everyone who ate of it and died rose again to serve him. The kingdom's own prince, Arthas, finished the work, and later returned to Northrend, where he claimed the Frozen Throne.
 
 What he left behind is the Plaguelands: a kingdom of the dead, with ghouls in the fields, abominations stitched together from corpses, and the plague cauldrons poisoning the earth. Stratholme is theirs, under the Baron Rivendare, and Scholomance, and the farmsteads of half the north. Now a black citadel hangs in the sky over the Eastern Plaguelands, Naxxramas, and its master is the lich Kel'Thuzad.
 
-The dead do not tire, and they do not stop. The Argent Dawn, the Scarlet Crusade and the Forsaken all fight them, and none of the three can stand the others. That suits the Lich King very well.
+The dead do not tire, and they do not stop. The Argent Dawn, the Scarlet Crusade and the Forsaken all fight them, despite the distrust between them. At Light's Hope Chapel, the Dawn and Crusade have agreed to cooperate against Naxxramas.

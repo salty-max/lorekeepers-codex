@@ -33,7 +33,7 @@ ns.content = {
     { id = "feralas", title = "Feralas", summary = "Giant trees, ogres, and the ruins of the Highborne.", entries = { "camp-mojache", "dire-maul", "feathermoon-stronghold", "feralas", "shandris-feathermoon", "shendralar" } },
     { id = "thousand-needles", title = "Thousand Needles", summary = "A canyon of stone spires, and a salt flat where goblins and gnomes race.", entries = { "freewind-post", "rustmaul-dig-site", "shimmering-flats", "thousand-needles" } },
     { id = "tanaris", title = "Tanaris", summary = "The great desert of the south, and the gates of the Watchers.", entries = { "gadgetzan", "tanaris", "caverns-of-time", "sandfury-trolls", "uldum", "zulfarrak" } },
-    { id = "ungoro-crater", title = "Un'Goro Crater", summary = "A lost world in a crater, and the titans' crystals.", entries = { "fire-plume-ridge", "marshals-refuge", "crystal-pylons", "ungoro-crater" } },
+    { id = "ungoro-crater", title = "Un'Goro Crater", summary = "A lost world in a crater, and the mysterious crystals.", entries = { "fire-plume-ridge", "marshals-refuge", "crystal-pylons", "ungoro-crater" } },
     { id = "silithus", title = "Silithus", summary = "The insect desert, the Scarab Wall, and what sleeps behind it.", entries = { "cthun", "cenarion-hold", "prince-thunderaan", "ruins-of-ahnqiraj", "silithus", "temple-of-ahnqiraj", "abyssal-council", "the-scarab-wall", "the-scepter-of-the-shifting-sands" } },
     { id = "durotar", title = "Durotar and Orgrimmar", summary = "The red land Thrall gave his people, and the city named for the Warchief who freed them.", entries = { "durotar", "eitrigg", "orgrimmar", "ragefire-chasm", "razor-hill", "senjin-village", "darkspear-trolls", "echo-isles", "valley-of-trials", "thrall", "tiragarde-keep", "voljin" } },
     { id = "mulgore", title = "Mulgore and Thunder Bluff", summary = "The green plains of the tauren, and the city on the mesas.", entries = { "hamuul-runetotem", "bloodhoof-village", "cairne-bloodhoof", "camp-narache", "ghost-howl", "mulgore", "red-rocks", "earth-mother", "thunder-bluff" } },
@@ -78,8 +78,9 @@ ns.content = {
       unlock = { { npc = 11946 }, { faction = 729, standing = 5 } },
       also = { "alterac-valley", "thrall", "stormpike-guard" },
       text = {
-        { "The Frostwolves were the clan of Durotan, Thrall's father, and they refused to drink the demon's blood when the rest of the Horde did. For that Gul'dan exiled them to a valley in the Alterac Mountains, where they lived hard and free. Durotan was murdered, but his people endured, and when Thrall escaped from Durnholde it was the Frostwolves who took him in and taught him what it was to be an orc." },
-        { "When Thrall freed the camps and led the Horde across the sea, the Frostwolves stayed in their valley, under their old shaman, Drek'Thar, who taught Thrall the shaman's ways and is now blind. They want only to be left alone in it. The Stormpike have not left them alone." },
+        { "Durotan’s Frostwolves refused the demon blood that bound much of the Horde. When he opposed the warlocks and their invasion of Azeroth, Gul’dan exiled his clan. They made a hard living in the Alterac Mountains. Durotan was murdered, but the clan endured." },
+        { "His son Thrall found them after escaping Durnholde. They taught him the life of his people, and their shaman Drek’Thar taught him to follow the elements. When Thrall later freed the internment camps and led the Horde across the sea, the Frostwolves remained in their valley." },
+        { "Drek’Thar, now blind, still leads them there. They want to retain their home; the Stormpike expedition has brought a claim from Ironforge against it. Remember how the clan came to this place, traveller, when you hear the argument over who belongs in it." },
       },
     },
     ["ravenholdt-manor"] = {
@@ -87,8 +88,8 @@ ns.content = {
       unlock = { { area = 3486 }, { npc = 6768 } },
       also = { "syndicate", "alterac-mountains" },
       text = {
-        { "Hidden in the hills above Hillsbrad, where you will not find it unless it wants you to, stands Ravenholdt Manor, the house of the Assassins' League and its master, Lord Jorach Ravenholdt. It is a school for thieves and killers, and a very good one, and it chooses its students: they do not apply, they are invited." },
-        { "Ravenholdt has been fighting the Syndicate for years, and its masters despise them as hacks and amateurs. They have found the best way to hurt the Syndicate is to steal its emblems, since a Syndicate man who loses his is dealt with by his own. I have never been invited to the manor. I have, however, been watched." },
+        { "Ravenholdt Manor lies hidden in the hills above Hillsbrad. Lord Jorach Ravenholdt directs the Assassins’ League from it, training thieves and killers whom the house selects for itself. Prospective students receive invitations; an application would be an unusual way to announce your talents here." },
+        { "The League has long opposed the Syndicate, whose members it regards as amateurs. Stealing their emblems is a useful part of the quarrel: a Syndicate man who loses his can expect punishment from his own side. If the manor offers you work, traveller, expect it to test more than your skill with a blade." },
       },
     },
     ["stormpike-guard"] = {
@@ -96,8 +97,8 @@ ns.content = {
       unlock = { { npc = 11948 }, { faction = 730, standing = 5 } },
       also = { "alterac-valley", "frostwolf-clan", "magni-bronzebeard", "explorers-league" },
       text = {
-        { "The Stormpike are a dwarven clan of Ironforge, and their guard came to Alterac Valley as an expedition: to mine its riches and search for the relics of our ancestors, in the company of the Explorers' League. They say they were attacked by the Frostwolves without provocation. The Frostwolves say the same of them." },
-        { "Their commander is Vanndar Stormpike, and King Magni has given him a royal command to take the valley for Ironforge. I know some of the Stormpike, and they are good dwarves. I also know how the valley looks from the other side, and I wish someone in Ironforge would stop and think about it before the next spring." },
+        { "The Stormpike Guard came to Alterac Valley to mine and to seek relics of dwarven ancestry, with the Explorers’ League accompanying the expedition. They say the Frostwolves attacked without provocation. The Frostwolves give the same account with the names reversed." },
+        { "Vanndar Stormpike commands the Guard, and King Magni has ordered him to take the valley for Ironforge. The Frostwolves already live there and resist the order. I serve the League, traveller, but our interest in what lies beneath the ground does not settle the claims of those living above it." },
       },
     },
     ["treason-of-alterac"] = {
@@ -105,8 +106,8 @@ ns.content = {
       unlock = { { area = 281 }, { quest = 507 } },
       also = { "syndicate", "durnholde-keep", "alterac-mountains" },
       text = {
-        { "In the Second War, when the seven kingdoms of men stood together against the Horde, one king did not: Aiden Perenolde of Alterac, who thought the Horde would win and sold his allies to it, opening the way for the orcs and passing them the Alliance's plans. When the war was won, the Alliance did not forgive him. Alterac was broken up, its crown taken away, and its nobles stripped of their lands." },
-        { "The capital stands in ruins in the mountains, its libraries scattered, and Stormwind's loremasters send scholars to save what books they can. Perenolde's son, Aliden, was not content with ruins. He gathered the disinherited nobles into the Syndicate, and dreamed, as his mentor Blackmoore had, of putting the orcs back in chains." },
+        { "King Aiden Perenolde judged that the Horde would win the Second War. While the other human kingdoms fought together, Alterac opened a way for the orcs and supplied them with Alliance plans. When the Alliance won, Lordaeron imposed martial law. The rulers then disputed what should become of the kingdom." },
+        { "Alterac’s capital is ruined and its libraries scattered. Stormwind sends scholars to recover the books. Perenolde’s son Aliden has pursued another inheritance: he leads the Syndicate, including former Alterac nobles, and plans to enslave the orcs as his mentor Blackmoore intended. There are several kinds of salvage being attempted here, traveller. The scholars’ is the one I would commend." },
       },
     },
     ["arathi-basin"] = {
@@ -123,8 +124,9 @@ ns.content = {
       unlock = { { area = 45 } },
       also = { "stromgarde-keep", "thoradins-wall", "refuge-pointe", "hammerfall", "myzrael", "syndicate", "forest-trolls" },
       text = {
-        { "The Arathi Highlands are broad, windswept uplands of grass and stone between Hillsbrad and the Wetlands, and they are where the kingdoms of men began. Here the human tribes were first united, under a king named Thoradin, into the empire of Arathor, with its capital at Strom; every human kingdom since has grown from that root." },
-        { "It is a sad, empty country now. Strom became Stromgarde, and Stromgarde is in ruins, fought over by Syndicate thieves, ogres and the trolls of the Witherbark. Strange circles of standing stones stand in the hills, with giants to guard them. The Alliance holds Refuge Pointe, the Horde holds Hammerfall, and in the basin to the south the two fight over farms, mines and mills as if the old empire were still worth having." },
+        { "The Arathi Highlands are windswept country between Hillsbrad and the Wetlands. Here Thoradin united the human tribes into Arathor, with its capital at Strom. Every later human kingdom grew from that beginning." },
+        { "Strom became Stromgarde. Its ruins are now divided among its defenders, Syndicate thieves and ogres. Witherbark trolls occupy settlements in the hills, while giants guard strange circles of standing stones. Refuge Pointe holds the Alliance’s camp and Hammerfall the Horde’s; their forces fight over the basin’s farms, mines and mills to the south." },
+        { "Look at the old stonework as you cross Arathi, traveller. The human kingdoms began here; the people defending Stromgarde are still trying to keep a part of that beginning their own." },
       },
     },
     ["hammerfall"] = {
@@ -132,8 +134,8 @@ ns.content = {
       unlock = { { area = 321 } },
       also = { "thrall", "arathi-highlands", "durnholde-keep" },
       text = {
-        { "After the Second War, Hammerfall was one of the largest of the internment camps where the defeated orcs were held. Thrall and Orgrim Doomhammer broke it open together. In the chaos of that night a knight rode up behind Doomhammer and drove a lance through his back, and the greatest Warchief of the Horde died on this ground." },
-        { "The Horde has rebuilt it as a fortress and named it for him, a stockade full of orcs who remember. Some of them were prisoners here. They do not talk much about it, but they will tell you how Doomhammer looked in his black armour, with his hammer raised, the night the gates came down." },
+        { "Hammerfall was a great orc internment camp after the Second War. Thrall and Orgrim Doomhammer broke it open together. During the fighting, a knight struck Doomhammer from behind with a lance, and the former Warchief died here." },
+        { "The Horde has rebuilt the camp as a fortress and named it in his memory. Some of the orcs within its stockade were once prisoners on this ground. Keep that history beside the name, traveller: their stronghold occupies a place where their freedom was won and their leader lost." },
       },
     },
     ["myzrael"] = {
@@ -141,8 +143,8 @@ ns.content = {
       unlock = { { kill = 2755 }, { quest = 656 } },
       also = { "arathi-highlands", "kobolds", "masters-glaive" },
       text = {
-        { "Beneath the Arathi Highlands something is imprisoned, held down by four great standing stones, the Circles of Binding, and guarded by the giants of the hills. She calls herself Myzrael, a princess of the earth, and she speaks to travellers through crystal shards, asking to be set free." },
-        { "Some have obliged her. When she was free, she spoke of gathering her strength and having her revenge on her captors, and that is when those who had helped her began to wonder why the giants had chained her in the first place." },
+        { "At the Shards of Myzrael in the Arathi Highlands, a traveller can speak to an imprisoned princess of the earth. Myzrael asks to be released from beneath the ground. Her account begins with a request for help." },
+        { "Theldurin the Lost supplies the warning that request lacks. If she grows strong enough, he says, she will challenge her captors. He asks adventurers to summon and defeat her, then restore her shackles to the shards. Hear him before deciding how to help her. There is more than one account of why these bonds exist." },
       },
     },
     ["refuge-pointe"] = {
@@ -159,8 +161,8 @@ ns.content = {
       unlock = { { area = 324 } },
       also = { "arathi-highlands", "refuge-pointe", "syndicate", "forest-trolls" },
       text = {
-        { "Stromgarde stands on the site of Strom, the first city of men, and its lords, the Trollbanes, held the oldest crown in the human kingdoms. They earned their name: Lord Ignaeus of Strom fought the troll empire with a sword the trolls called Trol'kalar, the troll-slayer, and broke them." },
-        { "The city is a ruin now, its walls breached, its towers held by the Syndicate under Lord Falconcrest, with ogres in one quarter and trolls in another. The survivors of Stromgarde fight on from Refuge Pointe and dream of taking it back. Trol'kalar itself is said to lie somewhere in the ruins still." },
+        { "Stromgarde occupies the site of Strom, the first human city. Its Trollbane rulers held the oldest crown of the human kingdoms. Lord Ignaeus fought the trolls with the sword they called Trol’kalar, the troll-slayer, and the family’s name remembers that war." },
+        { "The present city is divided. Lord Falconcrest’s Syndicate holds its towers, ogres occupy one quarter, and Stromgarde’s defenders retain another. Other survivors fight from Refuge Pointe to recover their home. Trol’kalar remains in Trollbane’s tomb, behind wards that the reunited sigils can open. The city has lost much, traveller, but its defenders have not surrendered their claim to it." },
       },
     },
     ["thoradins-wall"] = {
@@ -178,7 +180,7 @@ ns.content = {
       also = { "astranaar", "splintertree-post", "warsong-lumber-camp", "demon-fall-canyon", "furbolgs", "satyrs" },
       text = {
         { "Ashenvale is the ancient forest of the night elves: vast trees, silver moonlight, still lakes and ruins older than any kingdom of men. For ten thousand years the night elves lived here hidden, guarded by their Sentinels and the demigod Cenarius, and let no one in." },
-        { "Then the orcs came to Kalimdor, needing timber for their new land, and the forest has been at war ever since. In the last war the Warsong clan cut into Ashenvale, killed Cenarius, and set the demons loose in its heart; the night elves have not forgiven them, and the Horde has not stopped cutting. Now Sentinels and Warsong outriders skirmish along the forest's eastern edge, while furbolgs gone mad, satyrs and naga trouble everyone alike." },
+        { "Then the orcs came to Kalimdor, needing timber for their new land, and the forest has been at war ever since. In the last war the Warsong clan cut into Ashenvale and killed Cenarius while under Mannoroth's corruption; the night elves have not forgiven them, and the Horde has not stopped cutting. Now Sentinels and Warsong outriders skirmish along the forest's eastern edge, while furbolgs gone mad, satyrs and naga trouble everyone alike." },
       },
     },
     ["astranaar"] = {
@@ -186,8 +188,8 @@ ns.content = {
       unlock = { { area = 415 } },
       also = { "ashenvale", "demon-fall-canyon" },
       text = {
-        { "Astranaar is the night elves' town in the heart of Ashenvale, built on an island in a forest lake and reached by a bridge, with a moonwell, an inn and the barracks of the Sentinels who hold the forest. It is beautiful and very tense." },
-        { "Its people have their own sorrows. A father in Astranaar has a daughter sick with a fever and nightmares that no ordinary remedy will break, and the herbalists talk of the forest itself turning ill. The Sentinels say the corruption came with the demons in the war, and has never quite left." },
+        { "Astranaar stands on an island in an Ashenvale lake, joined to the forest by bridges. Its moonwell, inn and Sentinel barracks give the night elves a centre from which to defend the country around it. It is a beautiful town with very little ease." },
+        { "A father here seeks help for his daughter’s fever and nightmares. Ordinary remedies have failed her. Herbalists speak of sickness in the forest itself, while the Sentinels blame corruption left by the demons of the war. A traveller coming to help defend Astranaar may find the town’s troubles begin well inside its guarded approaches." },
       },
     },
     ["blackfathom-deeps"] = {
@@ -222,8 +224,8 @@ ns.content = {
       unlock = { { area = 3277 } },
       also = { "warsong-lumber-camp", "ashenvale", "splintertree-post" },
       text = {
-        { "Warsong Gulch is a valley on the southern edge of Ashenvale where the Warsong clan cut deepest, and where the night elves have decided they will not let them cut further. The Silverwing Sentinels hold one end of it, the Warsong Outriders the other, and the two fight over it without end, each trying to carry off the other's banner." },
-        { "The Horde calls it a logging camp, the Alliance an invasion. Both send their best. It is the one place in the world where I have seen the war between the two put on a schedule." },
+        { "In Warsong Gulch, on Ashenvale’s southern edge, the night elves have drawn their stand against further Warsong logging. Silverwing Sentinels hold one end of the valley and Warsong Outriders the other. Their fighters cross between the camps to seize the enemy’s banner." },
+        { "The Horde regards this as defence of a logging operation; the Alliance regards the operation as an invasion. Both send fighters from far beyond Ashenvale. Whichever camp receives you, traveller, the quarrel began with the forest around it, and that forest remains at stake." },
       },
     },
     ["warsong-lumber-camp"] = {
@@ -249,8 +251,8 @@ ns.content = {
       unlock = { { kill = 6109 }, { npc = 6109 } },
       also = { "azshara", "the-sundering", "the-scepter-of-the-shifting-sands" },
       text = {
-        { "Azuregos is a blue dragon who lives in the south of Azshara, and he has made himself the guardian of the land's magic. The Highborne left their arcane treasures all over Azshara, and the blue dragonflight, the guardians of magic, have watched over them since the Sundering. Some say he seeks something greater, the Vials of Eternity, which were filled at the Well itself." },
-        { "He fights anyone who comes for those treasures, and he likes to talk while he does it. He is also, it seems, a keeper of the scepter that sealed Ahn'Qiraj, or of one of its pieces, and he is not happy about it." },
+        { "Azuregos is a blue dragon found in southern Azshara, among ruins left by the Highborne’s use of magic. His flight guards that power, and this coast has ample reminders of the reasons such guardians might keep watch." },
+        { "His instructions concerning the Scepter of the Shifting Sands send investigators after the blue shard, held by the great shark Maws. A magical ledger and a device to draw out the shark are part of the task. Read carefully, traveller. An ancient dragon has managed to leave a rather complicated set of instructions for fetching one missing piece." },
       },
     },
     ["hydraxian-waterlords"] = {
@@ -264,11 +266,11 @@ ns.content = {
     },
     ["ravencrest-monument"] = {
       title = "The Ravencrest Monument", kind = "history", chapter = "azshara",
-      unlock = { { area = 1232 }, { kill = 6118 } },
+      unlock = { { area = 1232 } },
       also = { "the-sundering", "azshara", "naga" },
       text = {
-        { "On the southern cliffs of Azshara, above the sea, stand the broken legs of a colossus: all that is left of a great statue. The monument bears the name of Lord Kur'talos Ravencrest, the lord of Black Rook Hold, who led the night elves against the demons in the War of the Ancients. The naga have taken the ruins, and the rest of the statue lies scattered or under the waves." },
-        { "He has company. Among the ruins walks the ghost of Captain Varo'then, the commander of Queen Azshara's guard, who served her and the demons in that war, and whom Malfurion Stormrage slew. Ten thousand years on, the queen's captain still haunts the monument of the queen's enemy." },
+        { "The broken legs of a great statue stand on Azshara’s southern cliffs. The place is called Ravencrest Monument; naga occupy the ruins, and the remainder of the colossus lies scattered or beneath the sea. Even what is left makes a substantial landmark." },
+        { "Lord Kur’talos Ravencrest commanded night elf resistance in the War of the Ancients from Black Rook Hold. His name recalls those who opposed Azshara and the Legion. Keep them in the history of these shores too, traveller. The queen’s court was not the whole of the people whose world was destroyed." },
       },
     },
     ["ruins-of-eldarath"] = {
@@ -276,8 +278,8 @@ ns.content = {
       unlock = { { area = 1221 } },
       also = { "azshara", "the-sundering", "naga", "explorers-league" },
       text = {
-        { "Eldarath was a great city of the Highborne, before the Sundering, and its ruins still cling to the eastern cliffs of Azshara above the Bay of Storms; most of the city fell into the sea when the world broke. The Highborne carved their insights into the arcane on runes and tablets and left them in public places, for all to ponder, and some of them can still be read." },
-        { "The night elves shun the place. The naga hold it now, under their warlord Krellian, from the Temple of Zin-Malor, and the Explorers' League would very much like rubbings of the runes, if someone can get past the naga to take them. I did. I recommend going at low tide." },
+        { "Eldarath’s Highborne ruins cling to Azshara’s eastern cliffs above the Bay of Storms. Much of the city fell into the sea during the Sundering. Its inhabitants had carved their arcane learning into runes and tablets in public places, and some remain readable among the broken stone." },
+        { "Warlord Krellian’s naga now hold the ruins from the Temple of Zin-Malor. The night elves avoid the place, but the Explorers’ League wants rubbings of the inscriptions. If you can get past the naga, traveller, those tablets may preserve something the sea has not yet taken." },
       },
     },
     ["the-sundering"] = {
@@ -312,9 +314,9 @@ ns.content = {
       unlock = { { quest = 2278 } },
       also = { "uldaman", "rockjaw-troggs", "explorers-league" },
       text = {
-        { "At the bottom of Uldaman, guarded by the stone keeper Archaedas, lie four great discs of platinum, and a stone watcher speaks for them. It says that the titans, whom it calls the Creators, made the earthen out of Azeroth's own stone, to help them shape the deep places of the world; that the earthen were strong, tireless, and very hard to harm." },
-        { "It says that something went wrong. Under strain, the earthen's making came apart, and it gave two results. One kept the earthen's strength and lost its mind: the troggs, whom the Creators judged a failure and locked away beneath the earth. The other kept the strength and the wits, sometimes more wit than the earthen had, and lost the stone. Those were the dwarves." },
-        { "I have read the copy the League brought home many times, and I am not ashamed to say that the first time, I wept. We came from the stone of this world, and the troggs are our brothers. Make of that what you will. I am still making something of it myself." },
+        { "Deep in Uldaman, beyond the stone keeper Archaedas, four platinum discs preserve an account spoken by a stone watcher. It calls the Titans the Creators. They made the earthen from Azeroth’s stone to shape its deep places: strong workers, tireless and difficult to harm." },
+        { "The watcher says their making broke down under strain. One result retained their strength but lost their reason: the troggs, judged a failure and sealed beneath the earth. Another retained strength and wit but lost the stone. Those were the dwarves." },
+        { "You can understand why the League values this record, traveller. It gives us a beginning to investigate, and makes the creatures disturbing our digs part of the same question as our own ancestors." },
       },
     },
     ["the-badlands"] = {
@@ -331,8 +333,8 @@ ns.content = {
       unlock = { { area = 1337 }, { kill = 2748 } },
       also = { "platinum-discs", "hammertoes-digsite", "rockjaw-troggs", "dark-iron-dwarves" },
       text = {
-        { "Uldaman is a vault of the titans, buried under the mountains of the Badlands since the world was young: vast halls of carved stone, giant stone guardians, and doors no dwarf has ever opened. The League's excavations broke into it, and the troggs came pouring out of it, and we learned at last where the troggs had come from." },
-        { "Now the troggs hold its outer halls, the Shadowforge Dark Irons dig in it for the titans' secrets, and the Explorers' League fights both. At the very bottom, behind its last guardian, the stone keeper Archaedas, lie the Discs of Norgannon: the titans' own record of how they made the world, and of how they made us." },
+        { "Uldaman lies beneath the Badlands, a Titan vault of carved halls and great stone guardians. The League’s excavations opened a way into it. Troggs poured out, giving our diggers an unwelcome answer to a question we had long asked about those creatures." },
+        { "Troggs now occupy the outer halls, and Shadowforge Dark Irons seek the secrets within. The League contends with both. Beyond Archaedas, the vault’s final guardian, lie the Discs of Norgannon and their account of the Titans’ work. We have good reason to keep digging, traveller, even after learning what else our excavations can release." },
       },
     },
     ["agamaggan"] = {
@@ -349,8 +351,9 @@ ns.content = {
       unlock = { { area = 359 }, { area = 2157 } },
       also = { "the-barrens", "explorers-league", "rockjaw-troggs" },
       text = {
-        { "In the south-east of the Barrens there is a dwarven dig, Bael Modan, with a fortress, Bael'dun Keep, a great cannon and flying machines, under General Twinbraid. The dwarves are digging for the ancient past, as dwarves do, and it is not a happy story, and I will not pretend it is." },
-        { "The land was the home of the Stonespire tauren, and they held it holy. The dwarves blasted it open with black powder, and the Stonespire were killed or driven off; the last of them wanders the roads nearby, looking for revenge, and the Horde has given it to him. One of the dig's own men, Feegly, was cursed by a stone he dug up and went mad. And there is a prospector of the Explorers' League among them, Khazgorm, which I set down because this ledger would be worthless if it only told the stories that flatter its author's people." },
+        { "General Twinbraid’s dwarves dig at Bael Modan in the south-eastern Barrens, beside Bael’dun Keep. A cannon and flying machines support the settlement. Prospector Khazgorm of the Explorers’ League is among them, which gives me reason to record the work and reason to examine it carefully." },
+        { "Gann Stonespire says the land was his tribe’s home and provider. He describes it torn apart by blasts and machines, with diplomacy having failed. He now asks for the dig’s leader to be killed and its flying machine destroyed. Within the expedition, Feegly has gone mad under a curse from a stone he unearthed." },
+        { "A dig’s purpose does not tell the whole story of its effects, traveller. Gann’s account belongs beside the dwarves’ search for the ancient past, especially in a ledger kept by one of their own people." },
       },
     },
     ["barrens-oases"] = {
@@ -385,8 +388,8 @@ ns.content = {
       unlock = { { area = 1703 }, { area = 1599 } },
       also = { "warsong-lumber-camp", "the-barrens", "ashenvale" },
       text = {
-        { "The Mor'shan Rampart is the Horde's great wall at the northern edge of the Barrens, where the grassland meets the forest of Ashenvale. Every log that comes out of Ashenvale for Orgrimmar passes through it, and every night elf raid on the Horde's loggers comes back towards it." },
-        { "It is a wall on a border that both sides call theirs. There will be fighting at Mor'shan for as long as the orcs need timber and the night elves love their trees." },
+        { "Mor’shan stands at the Barrens’ northern edge, where grassland gives way to Ashenvale. The Horde guards the route through the rampart, towards the Warsong logging operations and their conflict with the Sentinels." },
+        { "The wall marks a border neither side regards as settled. The orcs need timber, and the night elves defend the forest supplying it. Passing north, traveller, takes you from the Horde’s open roads into a country where that traffic itself is part of the quarrel." },
       },
     },
     ["northwatch-hold"] = {
@@ -394,8 +397,8 @@ ns.content = {
       unlock = { { area = 385 } },
       also = { "ratchet", "the-barrens", "tiragarde-keep" },
       text = {
-        { "Northwatch Hold is a fortress on the Merchant Coast of the Barrens, held by soldiers of Theramore who have never been convinced that the war with the Horde is over. It sits a day's march from the Crossroads and fires on anything that comes near, goblin ships included." },
-        { "Lady Proudmoore made peace with Thrall. Northwatch did not, entirely, and every orc in the Barrens knows it." },
+        { "Soldiers of Theramore hold Northwatch above the Merchant Coast, south of Ratchet. Captain Thalo’thas Brightsun accuses its gunners of sinking ships from his fleet. He asks adventurers to silence the cannons and kill Captain Fairmount." },
+        { "Jaina Proudmoore made peace with Thrall, yet fighting continues around the hold. A traveller along this coast can see why a ruler’s agreement and a soldier’s conduct must both be recorded when describing that peace." },
       },
     },
     ["ratchet"] = {
@@ -421,8 +424,8 @@ ns.content = {
       unlock = { { area = 491 }, { kill = 4421 } },
       also = { "agamaggan", "quilboar", "razorfen-downs" },
       text = {
-        { "Razorfen Kraul is the greatest of the quilboar thorn-warrens, a maze of giant briars and tunnels in the south of the Barrens, and the heart of the quilboar people. Its mistress is the crone Charlga Razorflank, a quilboar shaman of real power, and her warriors keep a great boar, Agathelos, in the depths of the warren." },
-        { "The night elves of Feralas sent two of their own to look into the Kraul, with a dwarf named Lonebrow, and none of them came out. I knew of Lonebrow. He was a brave soul, as the elves said, and I would like his journal back." },
+        { "Charlga Razorflank rules Razorfen Kraul, a great maze of briars and tunnels in the southern Barrens. The quilboar shaman’s warriors keep the boar Agathelos in its depths. The warren is a stronghold at the heart of their people." },
+        { "Henrig Lonebrow’s journal records his captivity there beside the wounded druid Heralath. Heralath asked him to warn Falfindel Waywarder at Thalanaar of Charlga’s growing power. Lonebrow reached the Great Lift, but his body lies there with the journal. Falfindel asks others to complete their work. If you take up the errand, traveller, you are carrying forward a warning that its first messenger did not live to deliver." },
       },
     },
     ["the-barrens"] = {
@@ -439,8 +442,8 @@ ns.content = {
       unlock = { { area = 380 } },
       also = { "the-barrens", "centaurs" },
       text = {
-        { "The Crossroads is the Horde's fortress at the meeting of the great roads through the Barrens, north to Orgrimmar, west to Mulgore, east to Ratchet and south to Thousand Needles. It is a stockade, an inn, a wind rider's roost and a great many soldiers, under a shaman named Sergra Darkthorn." },
-        { "Nearly every young orc, troll and tauren passes through it, and the centaurs know it: the walls are attacked often enough that the guards have stopped mentioning it." },
+        { "The Barrens’ great roads meet at the Crossroads: north towards Orgrimmar, west to Mulgore, east to Ratchet and south to Thousand Needles. The Horde keeps a stockade, an inn and a wind rider’s roost here, with a garrison serving the traffic between them." },
+        { "Centaur activity and stolen supplies give that garrison work beyond its walls. Sergra Darkthorn offers hunting trials as well. You may come here to change roads, traveller, and find yourself following a trail into the grass before continuing your journey." },
       },
     },
     ["wailing-caverns"] = {
@@ -448,8 +451,8 @@ ns.content = {
       unlock = { { area = 718 } },
       also = { "druids-of-the-fang", "barrens-oases", "cenarion-circle", "dragons-of-nightmare" },
       text = {
-        { "Beneath the Barrens lies a maze of caverns where underground rivers run and steam bursts from the rock with a sound like mourning, and so they are called the Wailing Caverns. A night elf druid named Naralex found them, and saw a chance: if he could join the waters of the caverns to the Emerald Dream, he believed, the Barrens could bloom green again." },
-        { "He went down with his disciples and lay down to dream. The dream went wrong. Naralex has not woken, the creatures of the caverns have been twisted into strange and savage forms, and most of his disciples have turned into something else. One of them still waits by his master's side, hoping someone will help him wake." },
+        { "Steam sounds like mourning in the caverns below the Barrens, where rivers pass through a maze of rock. Naralex saw their waters as a means of healing the dry country above. By linking them to the Emerald Dream, he hoped to make the Barrens green." },
+        { "He descended with his disciples and slept. The dream became a nightmare. Naralex has not woken, the caverns’ creatures have changed, and most of his followers have fallen with him. One disciple still seeks help to reach his master and perform a waking ritual. The waters once offered hope to a druid, traveller; his remaining follower has placed that hope in whoever will help him get through." },
       },
     },
     ["blackrock-depths"] = {
@@ -458,7 +461,7 @@ ns.content = {
       also = { "dagran-thaurissan", "moira-bronzebeard", "marshal-windsor", "molten-core", "dark-iron-dwarves" },
       text = {
         { "Blackrock Depths is the Dark Irons' city under the mountain: Shadowforge City, with its prisons, its arena, its vaults, its golem works and its tavern, the Grim Guzzler, where they brew a dark ale. At the bottom of it, in his palace, sits the emperor, and beyond him lies the way down into the Firelord's own domain." },
-        { "The Alliance and the Horde both come here, the Horde for the Dark Irons' golems and their secrets, the Alliance for a captured marshal and for King Magni's daughter. I came for the history. There is a great deal of it, and most of it is on fire." },
+        { "The Alliance and the Horde both come here, the Horde for the Dark Irons' golems and their secrets, the Alliance for a captured marshal and for King Magni's daughter. There is a great deal of history here, and most of it is on fire." },
       },
     },
     ["blackrock-mountain"] = {
@@ -475,8 +478,8 @@ ns.content = {
       unlock = { { area = 1583 } },
       also = { "rend-blackhand", "nefarian", "blackrock-clan", "black-dragonflight", "blackrock-mountain" },
       text = {
-        { "Blackrock Spire is the fortress at the top of the mountain, carved by the Dark Irons and taken from them by the orcs. In the Second War it was Orgrim Doomhammer's stronghold, and the Alliance besieged it at the very end, when Anduin Lothar fell at its gates and the Horde was broken." },
-        { "The orcs who escaped took the Spire again, under Rend Blackhand and his brother Maim, and fought the Dark Irons for it until the dragons came. Now the lower Spire is full of orcs, trolls and ogres, the upper Spire belongs to the black dragonflight, and everything in it answers to Nefarian." },
+        { "The Dark Irons carved Blackrock Spire above their city, then lost it to the orcs. Orgrim Doomhammer held it in the Second War. The Alliance besieged the fortress near the war’s end; Anduin Lothar fell at its gates before the Horde was broken." },
+        { "Rend Blackhand now commands its orcs in Nefarian’s service. Orcs, trolls and ogres fill the lower Spire, while the dragon and his followers hold the heights. The climb is through an occupied fortress, traveller, with a different master from the one its builders intended." },
       },
     },
     ["blackwing-lair"] = {
@@ -484,8 +487,8 @@ ns.content = {
       unlock = { { area = 2677 } },
       also = { "nefarian", "black-dragonflight", "red-dragonflight", "blackrock-spire" },
       text = {
-        { "Blackwing Lair is Nefarian's own fortress, at the very top of Blackrock Spire. It is a place of dragons and of what Nefarian does to them: he breeds new dragons there, mixing the blood of all the dragonflights into the chromatic dragons, to make an army no one could stand against." },
-        { "The red dragon Vaelastrasz guards its first halls, forced to Nefarian's will. He was a friend of the mortal races once, and he begs those who reach him to end it." },
+        { "Nefarian holds Blackwing Lair at the summit of Blackrock Spire. Here he breeds chromatic dragons by combining the blood of the dragonflights, seeking an army capable of overwhelming his enemies. The lair is both his fortress and the place where he makes its future soldiers." },
+        { "The red dragon Vaelastrasz is there under Nefarian’s control. Once a friend to mortals, he begs those who reach him to end his suffering. There is little comfort in reaching a friend here, traveller, when this is what he must ask of you." },
       },
     },
     ["dagran-thaurissan"] = {
@@ -493,8 +496,8 @@ ns.content = {
       unlock = { { kill = 9019 } },
       also = { "ruins-of-thaurissan", "moira-bronzebeard", "ragnaros", "blackrock-depths", "dark-iron-dwarves", "mekgineer-thermaplugg" },
       text = {
-        { "Emperor Dagran Thaurissan is the descendant of the Sorcerer-Thane who woke Ragnaros, and the ruler of the Dark Iron dwarves in Shadowforge City. He rules them in the Firelord's name: he calls himself Ragnaros's most powerful servant." },
-        { "He carries the hammer Ironfoe, taken from Marshal Windsor. His agents have reached as far as Gnomeregan, and he took King Magni's daughter, Moira, for his bride. Magni sent champions to kill him and bring her home. They did the first." },
+        { "Dagran Thaurissan rules the Dark Irons in Shadowforge City, descended from the Sorcerer-Thane who summoned Ragnaros. The emperor calls himself the Firelord’s most powerful servant. His crown has not freed his clan from the power his ancestor brought upon it." },
+        { "He carries Ironfoe, and his agents have reached as far as Gnomeregan. He also made King Magni’s daughter Moira his bride. Magni sent champions to kill him and bring her home. They killed the emperor; Moira’s answer made the rest of their errand rather less simple." },
       },
     },
     ["moira-bronzebeard"] = {
@@ -502,8 +505,8 @@ ns.content = {
       unlock = { { npc = 8929 }, { quest = 4363 }, { quest = 4004 } },
       also = { "magni-bronzebeard", "dagran-thaurissan", "ironforge", "blackrock-depths" },
       text = {
-        { "Moira is King Magni's only daughter, and the heir to Ironforge. She was carried off by the Dark Irons, and became the wife of Emperor Thaurissan; her father believes she is under the emperor's spell, and sent champions to free her." },
-        { "When they killed her husband, she did not thank them. Thaurissan, she said, was a great and honourable dwarf, and she is carrying his child, and that child will be the next ruler of Ironforge, whether her father approves or not. Perhaps it is the spell speaking. I have been told so, and I wrote it down, and I do not believe it." },
+        { "Moira Bronzebeard is Magni’s only daughter and heir to Ironforge. The Dark Irons carried her away, and she became Emperor Dagran Thaurissan’s wife. Her father believed the emperor had placed her under a spell and sent champions to release her." },
+        { "They killed Thaurissan. Moira called him a great and honourable dwarf, and told them she carried his child. She declared that child would inherit Ironforge, regardless of Magni’s approval. You may have carried Magni’s orders, traveller, but Moira has an answer of her own." },
       },
     },
     ["molten-core"] = {
@@ -520,8 +523,8 @@ ns.content = {
       unlock = { { kill = 11583 }, { npc = 10162 } },
       also = { "onyxia", "black-dragonflight", "blackwing-lair", "rend-blackhand", "ragnaros" },
       text = {
-        { "Nefarian is the son of Deathwing, the black Dragon Aspect, and the brother of Onyxia. Like his sister, he hides among mortals in human shape, as Lord Victor Nefarius, and like her, he is far more dangerous than any human could be. He came to Blackrock Spire at Deathwing's bidding when the Horde was broken, and made its orcs his servants." },
-        { "From Blackwing Lair, he wars on Ragnaros for the mountain, and breeds his chromatic dragons, with the help of the Dark Horde, to rule the world. The Alliance and the Horde have both sent champions against him; it is said that his head, if it is ever taken, will be hung for all to see." },
+        { "Nefarian is Deathwing’s son and Onyxia’s brother. Like his sister, he takes human form: Lord Victor Nefarius commands the orcs of Blackrock Spire. The name conceals a dragon with designs far beyond the fortress." },
+        { "From Blackwing Lair he fights Ragnaros for control of the mountain and breeds chromatic dragons with the Dark Horde’s help. He intends them for wider conquest. Alliance and Horde champions have been sent against him, with the promise that his severed head will be displayed. A traveller seeking that prize must first pass through the army he has already gathered." },
       },
     },
     ["ragnaros"] = {
@@ -529,8 +532,8 @@ ns.content = {
       unlock = { { kill = 11502 } },
       also = { "molten-core", "dagran-thaurissan", "ruins-of-thaurissan", "war-of-the-three-hammers", "nefarian" },
       text = {
-        { "Ragnaros is the Firelord, an elemental lord of fire, one of the great powers of the world's elements. The Dark Irons called him up out of the deep places of the earth two hundred years ago, to win a war, and he has kept them as slaves ever since. Their emperor calls himself his servant, and his elementals walk the gorge and the steppes." },
-        { "He waits in the Molten Core, in a lake of lava, and only his majordomo may call him up from it. His war is with Nefarian, for the mountain; with the Dark Irons, for nothing, for they are his; and with the Waterlords, for ever." },
+        { "Ragnaros, the Firelord, is an elemental lord summoned by the Dark Irons centuries ago in the hope of winning their war. He has held them in service ever since. Their emperor proclaims himself his servant, while fire elementals roam the gorge and steppes his arrival devastated." },
+        { "In the Molten Core he waits amid lava, to be called forth by his majordomo. Nefarian contests his hold on the mountain, and the Hydraxian Waterlords continue their ancient opposition to him. The Dark Irons live between those powers, still bound to the one their ancestors asked for help." },
       },
     },
     ["rend-blackhand"] = {
@@ -538,8 +541,8 @@ ns.content = {
       unlock = { { kill = 10429 } },
       also = { "blackrock-clan", "blackrock-spire", "nefarian", "thrall", "eitrigg" },
       text = {
-        { "Rend Blackhand is the son of Blackhand the Destroyer, the first Warchief of the Horde. With his brother Maim, he led the Black Tooth Grin in the Second War under Orgrim Doomhammer, the orc who had killed their father, and neither brother ever forgave him. When the Horde was beaten, they escaped to Blackrock Spire, and Rend named himself Warchief of what was left." },
-        { "When Ner'zhul's envoys came from Draenor to call them back to the Horde, Rend laughed at them. Then Nefarian came, and Rend became his servant. He calls his band the Dark Horde, and he holds that he is the true Warchief, not Thrall. Thrall disagrees, and has asked for his head." },
+        { "Rend is the son of Blackhand the Destroyer, the Horde’s first Warchief. He and his brother Maim led the Black Tooth Grin under Orgrim Doomhammer, their father’s killer, while seeking both vengeance and the position Blackhand had lost." },
+        { "Rend now claims the title of Warchief from Blackrock Spire, serving Nefarian and commanding the dragon’s orcs. Thrall rejects that claim and sends champions to kill him, with Eitrigg’s knowledge of the Blackrock helping guide the response. You will hear two claims to the Horde here, traveller, but only one of these leaders answers to a black dragon." },
       },
     },
     ["blasted-lands"] = {
@@ -556,8 +559,8 @@ ns.content = {
       unlock = { { kill = 12397 }, { area = 73 } },
       also = { "burning-legion", "blasted-lands", "the-dark-portal" },
       text = {
-        { "Lord Kazzak is the greatest of the Burning Legion's demons still left in our world. Since the Third War, he has made the Tainted Scar, in the south of the Blasted Lands, his own, with his doomguard and his felguard around him." },
-        { "He is a huge, horned thing, and he does not hide: he walks the Scar in the open, and when the heroes of the Alliance and the Horde come for him, he grows stronger with every one he kills." },
+        { "Lord Kazzak holds the Tainted Scar in the southern Blasted Lands. Since the Third War, this great doomguard has occupied it with felguard and others of his kind. He walks openly among them, a horned servant of the Burning Legion with little need for concealment." },
+        { "Heroes of both factions have gone against him. Each one he kills strengthens him. Bear that in mind, traveller, if you join them: a failed attack can leave the next party facing a stronger enemy." },
       },
     },
     ["nethergarde-keep"] = {
@@ -565,8 +568,8 @@ ns.content = {
       unlock = { { area = 1438 } },
       also = { "the-dark-portal", "dalaran", "blasted-lands" },
       text = {
-        { "Nethergarde Keep was built after the Second War, at Archmage Khadgar's urging, to watch over the Dark Portal, so that no Horde would ever again come through it unseen. The kingdoms of the Alliance paid for it, some more willingly than others, and the mages of Dalaran manned it. When the orcs did open the Portal again, Nethergarde was the first place they struck." },
-        { "Dalaran is gone now, and Nethergarde depends on Stormwind's supply caravans. Its mages still study the Portal and the waste it made, and one of their scholars keeps Khadgar's own essays on dimensional convergence. There is even a draenei among them, Kum'isha, who hopes to open a way home." },
+        { "Khadgar urged the building of Nethergarde after the Second War, to keep watch over the Dark Portal. The Alliance kingdoms paid for it with varying degrees of enthusiasm, and Dalaran supplied its mages. When the orcs reopened the Portal, they besieged the keep. The watch had been needed." },
+        { "Nethergarde now relies on Stormwind’s caravans. Its mages study the Portal and the waste around it; one scholar preserves Khadgar’s essays on dimensional convergence. Elsewhere in the Blasted Lands, the draenei Kum’isha seeks relics that might open a route home. A traveller will find several reasons to study a passage that has brought so much harm." },
       },
     },
     ["razelikh-the-defiler"] = {
@@ -584,7 +587,7 @@ ns.content = {
       also = { "nethergarde-keep", "karazhan", "blackrock-clan", "burning-legion" },
       text = {
         { "The Dark Portal is a great gate of stone between our world and Draenor, the orcs' world. The warlock Gul'dan opened it from the other side, and the Guardian Medivh helped him from ours, and through it, some twenty-five years ago, came the Horde. The First War, the Second War, everything that followed, came through that gate." },
-        { "After the Second War it was shattered, and opened again by Ner'zhul, who wanted new worlds to conquer. An Alliance expedition under Khadgar and Turalyon went through it to Draenor to end the threat, and destroyed the Portal from the other side, knowing they could never come back. It stands now cold and broken in the middle of the waste, and the demons gather around it." },
+        { "After the Second War it was shattered, and opened again by Ner'zhul, who wanted new worlds to conquer. An Alliance expedition under Khadgar and Turalyon went through it to Draenor to end the threat, and destroyed the Portal from the other side, cutting their route back to Azeroth. Its great stone frame stands in the middle of the waste, its passage dormant, and the demons gather around it." },
       },
     },
     ["altar-of-storms"] = {
@@ -592,8 +595,8 @@ ns.content = {
       unlock = { { area = 255 } },
       also = { "blackrock-clan", "ogres", "blackrock-spire" },
       text = {
-        { "In the shadow of Blackrock Spire stands an Altar of Storms, one of the dark altars of the old Horde. In the Second War, the Horde's warlocks worked their magic on such altars, and it was there that ogres were made into ogre magi, cunning and able to cast spells." },
-        { "The Blackrock clan's warlocks still gather at this one for their rituals. A warlock who studied it, Mor'zul Bloodbringer, keeps a camp nearby, and those who learn from him are sent on errands I would rather not describe." },
+        { "The Altar of Storms stands in Blackrock Spire’s shadow, a surviving place of the old Horde’s warlock rites. In the Second War, magic worked at such altars turned ogres into ogre magi, giving them cunning and the power to cast spells." },
+        { "Blackrock warlocks still gather here. Mor’zul Bloodbringer, who has studied the altar, camps nearby and sends other warlocks on errands of his own. There is history to examine, traveller, but the altar’s use did not end with the war that made it notorious." },
       },
     },
     ["burning-steppes"] = {
@@ -610,8 +613,8 @@ ns.content = {
       unlock = { { npc = 9023 }, { quest = 4241 } },
       also = { "morgans-vigil", "blackrock-depths", "katrana-prestor", "great-masquerade" },
       text = {
-        { "Marshal Reginald Windsor commanded the Alliance soldiers at Morgan's Vigil. He gathered proof that the black dragonflight drove the Blackrock orcs, and he believed, more and more, that someone in Stormwind did not want that proof to be found. He was captured by the Dark Irons on his way, and his hammer, Ironfoe, taken from him; his notes were taken too, and the Dark Irons set out to break their code." },
-        { "They found him alive in the prison of Shadowforge City, swearing that Bolvar was blind and that the proof stood two feet from him. Those who rescued him learned what he meant soon after." },
+        { "Marshal Reginald Windsor commanded Alliance soldiers at Morgan’s Vigil and gathered evidence linking the Blackrock orcs to the black dragonflight. He came to suspect that someone in Stormwind wanted the evidence lost. The Dark Irons captured him and took his notes, then set about deciphering their code." },
+        { "Windsor survived in Shadowforge City’s prison. He insisted that Bolvar Fordragon was blind to the truth, though the proof stood two feet from him. Those who rescued the marshal soon learned what he meant. If you find him, traveller, give his insistence the attention his imprisonment has denied it." },
       },
     },
     ["morgans-vigil"] = {
@@ -619,8 +622,8 @@ ns.content = {
       unlock = { { area = 2418 } },
       also = { "burning-steppes", "marshal-windsor", "black-dragonflight", "lakeshire", "katrana-prestor" },
       text = {
-        { "Morgan's Vigil is a burnt village in the south-east of the Burning Steppes, held by a few Alliance soldiers under Marshal Maxwell, with a ruined mage tower and a camp of tents. It stands guard between the Blackrock orcs and Lakeshire, just over the mountains." },
-        { "The people here have learned something terrible: the Blackrock orcs are not only savages, they are pawns. It is the black dragonflight that drives them, and that fuels their rage. They sent word to Stormwind. Stormwind asked for proof, and Lady Prestor, who knows so much of dragons, saw nothing to worry about." },
+        { "Morgan’s Vigil occupies a burned village in the south-eastern Burning Steppes. A ruined mage tower and tents shelter Alliance soldiers under Marshal Maxwell. They stand between the Blackrock forces and Lakeshire, beyond the mountains." },
+        { "Their reports identify the black dragonflight as the power driving the orcs. Stormwind asked for proof; Lady Prestor saw no cause for alarm. A traveller can learn here both what the soldiers have discovered and how little help that discovery has yet brought them." },
       },
     },
     ["ruins-of-thaurissan"] = {
@@ -628,7 +631,7 @@ ns.content = {
       unlock = { { area = 250 } },
       also = { "war-of-the-three-hammers", "ragnaros", "dark-iron-dwarves", "blackrock-mountain" },
       text = {
-        { "These are the ruins of the city of Thaurissan, the capital of the Dark Iron clan after they left Ironforge, some two hundred years ago, when the Burning Steppes were green. When their armies were destroyed at Ironforge and Grim Batol, the Sorcerer-Thane Thaurissan and seven of his greatest dwarves went down to call on the powers sleeping beneath the world, to turn the war." },
+        { "These are the ruins of the city of Thaurissan, the capital of the Dark Iron clan after they left Ironforge, centuries ago, when the Burning Steppes were green. When their armies were destroyed at Ironforge and Grim Batol, the Sorcerer-Thane Thaurissan and seven of his greatest dwarves went down to call on the powers sleeping beneath the world, to turn the war." },
         { "What answered was Ragnaros, the Lord of Fire. The mountain burst. The city was destroyed, the valleys burned, and the Dark Irons who lived became the Firelord's slaves. The relics of the city still remember: those who touch them see eight dwarves at a ritual, and then one alone, kneeling among seven corpses before a pillar of flame. A goblin in Morgan's Vigil, Maxwort, will tell you that the Seven were dwarves of great knowledge, and that knowledge brings wealth. Goblins." },
       },
     },
@@ -637,7 +640,7 @@ ns.content = {
       unlock = { { area = 442 } },
       also = { "darkshore", "remtravels-excavation" },
       text = {
-        { "Auberdine is the night elves' harbour on Darkshore, a village of graceful houses on the shore, with ships for Teldrassil, for Menethil Harbor across the sea, and for Theramore in the south. For most travellers from the Eastern Kingdoms it is the first night elf town they ever see." },
+        { "Auberdine is the night elves' harbour on Darkshore, a village of graceful houses on the shore, with ships for Teldrassil and for Menethil Harbor across the sea. For most travellers from the Eastern Kingdoms it is the first night elf town they ever see." },
         { "The Sentinels who keep it have their hands full, and they are glad of help. The League has a friend here too; ask after Prospector Remtravel, and be prepared for a long story." },
       },
     },
@@ -673,8 +676,8 @@ ns.content = {
       unlock = { { npc = 3616 }, { area = 448 } },
       also = { "masters-glaive", "darkshore", "cenarion-circle" },
       text = {
-        { "Onu is an Ancient of Lore, one of the great tree-spirits who have watched over the night elves' forests since before there were night elves, and he dwells in the Grove of the Ancients in the south of Darkshore. He speaks slowly, and he does not waste words on the young." },
-        { "He has been watching the troubles of the coast: the naga in the falls, the Twilight's Hammer at the Master's Glaive, the old powers they pray to. He knows more than he tells. I count it one of the honours of my life that he once let me sit in his shade and ask him three questions, and answered two." },
+        { "Onu, an Ancient of Lore, stands in the Grove of the Ancients in southern Darkshore. He asks travellers to investigate the Master’s Glaive, where the Twilight’s Hammer searches among the remains of a fallen power. Onu believes that something of its strength may still be found there, long after its death." },
+        { "He supplies a phial that creates a scrying bowl, allowing him to speak with the person carrying out his investigation. Take it with you, traveller. An Ancient need not walk to the Glaive to take an interest in what the cult discovers there." },
       },
     },
     ["remtravels-excavation"] = {
@@ -682,8 +685,8 @@ ns.content = {
       unlock = { { area = 450 } },
       also = { "darkshore", "auberdine", "explorers-league" },
       text = {
-        { "Prospector Remtravel is a legend at the Explorers' League academy in Ironforge, a dwarf of great discoveries, and he is digging in the south of Darkshore for the fossils of the ancient world. He found them; he also found that the ground held golems of stone, which rose up and overran the site while he went on studying. His young assistant ran for help. Remtravel did not notice he needed it." },
-        { "His finds go to our League office in Darnassus, to Chief Archaeologist Greywhisker. I have seen one of them: a fossil from an age older than any people of this world, and I would walk into a field of golems for another." },
+        { "Prospector Remtravel digs in southern Darkshore. His assistant Hollee remembers him as a celebrated explorer from the Ironforge academy, and as a man with very little awareness of what happens around him. When golems overran the excavation, she fled to Auberdine for help. He continued studying." },
+        { "His mysterious fossil has drawn the attention of Chief Archaeologist Greywhisker in Darnassus. A resemblance to another find leads the enquiry on to Flagongut in Menethil Harbor. There is work for a traveller here both in carrying the evidence and in keeping the prospector alive long enough to consider it." },
       },
     },
     ["tower-of-althalaxx"] = {
@@ -691,8 +694,8 @@ ns.content = {
       unlock = { { area = 444 } },
       also = { "darkshore", "burning-legion", "argent-dawn" },
       text = {
-        { "North-east of Auberdine stands a ruined tower, Althalaxx, and strange things have been happening around it. The Sentinels of Auberdine sent a watcher to find out what, and he did not come back. The answer, when it came, was the Dark Strand: a cult of night elves who have taken up the warlock's arts, the very magic that destroyed their people." },
-        { "They do not work alone. The trail from the tower leads south into Ashenvale, to an orc warlock at the Fire Scar Shrine, and from there the hunt is taken up by Delgren the Purifier, of the Argent Dawn, who has made it his business." },
+        { "Balthule Shadowstrike watches the ruined tower of Althalaxx north-east of Auberdine. He stays at his post rather than risk missing a clue. The activity around it leads to the Dark Strand, a cult of night elves practising warlock magic. Their people have reason enough to remember what such arts can bring." },
+        { "The investigation reaches south into Ashenvale, to an orc warlock at Fire Scar Shrine. Delgren the Purifier of the Argent Dawn takes up the hunt there. If you follow the trail, traveller, keep the tower’s name in your notes; the work it begins carries you well beyond its walls." },
       },
     },
     ["deadwind-pass"] = {
@@ -700,8 +703,8 @@ ns.content = {
       unlock = { { area = 41 } },
       also = { "karazhan", "duskwood", "swamp-of-sorrows" },
       text = {
-        { "Deadwind Pass is a deep, grey valley between Duskwood and the Swamp of Sorrows, where nothing grows and the wind is always cold. There are no villages, no farms and no trade here, only ogres, crows and a few ruined camps. Even the trees are dead." },
-        { "People say the valley was not always like this, and that it died with its master. At its heart stands a single tower, Karazhan, and the land around it is cursed by what happened there." },
+        { "Deadwind Pass cuts a grey valley between Duskwood and the Swamp of Sorrows. Dead trees, crows and ruined camps line the route. There are no working villages or farms, and the ogres offer little reason to linger." },
+        { "Medivh’s tower, Karazhan, stands at its heart, above abandoned buildings. The pass joins two inhabited regions without offering their comforts. Make your preparations before entering, traveller; the road through is easier to recommend than a place to stop." },
       },
     },
     ["karazhan"] = {
@@ -709,8 +712,9 @@ ns.content = {
       unlock = { { area = 2562 }, { area = 2837 } },
       also = { "deadwind-pass", "the-dark-portal", "burning-legion" },
       text = {
-        { "Karazhan is the tower of Medivh, the last Guardian of Tirisfal, the greatest mage of his age. The Guardian was the champion the mages of the world chose, in secret, to stand against the Burning Legion, and Medivh's mother, Aegwynn, had held that power before him. But Sargeras, the lord of the Legion, had hidden himself in Medivh from before his birth, and through Medivh he helped Gul'dan open the Dark Portal and bring the Horde into our world." },
-        { "Medivh was killed in his tower by his apprentice Khadgar and his friend Anduin Lothar, before the end of the First War. He was not, it seems, entirely finished: he came back, years later, to warn the world of the Legion. Karazhan has been sealed ever since, and those who go near it see things that happened there long ago, and things that never happened at all." },
+        { "Karazhan was Medivh’s tower. As the last Guardian of Tirisfal, he held the power entrusted to a secret champion against the Burning Legion, inherited from his mother Aegwynn. Sargeras had hidden within him before his birth. Through Medivh, the Legion’s lord helped Gul’dan open the Dark Portal." },
+        { "Khadgar and Anduin Lothar killed Medivh in the tower before the First War ended. Years later he returned to warn the world of the Legion. His death, as with so much of his history, proved less straightforward than it first appeared." },
+        { "The ruined village and the Master’s Cellar lie at the tower’s foot. A traveller may explore those remains, but the tower itself offers no ordinary welcome. These pages can tell you what its master brought into the world; its closed doors give little help in learning what he left within." },
       },
     },
     ["desolace"] = {
@@ -727,7 +731,7 @@ ns.content = {
       unlock = { { area = 609 }, { area = 606 }, { area = 604 }, { faction = 92, standing = 5 }, { faction = 93, standing = 5 } },
       also = { "centaurs", "zaetar-and-theradras", "maraudon" },
       text = {
-        { "Desolace is centaur country, and its clans are many: the Kolkar in the north, the Gelkis in the south-west, the Magram in the south-east, the Maraudine guarding the holy tomb. Each has its khan, each claims descent from one of the first khans, the children of Zaetar, and each hates the others nearly as much as it hates everyone else." },
+        { "Desolace is centaur country, and its clans are many: the Kolkar in the north, the Gelkis in the south-west, the Magram in the south-east, the Maraudine guarding the holy tomb. The Gelkis and Magram are bitter rivals, and each offers work against the other." },
         { "The Alliance and the Horde have both realised that a united centaur nation would sweep them out of Desolace, and that the clans' hatred of one another is the best weapon they have. So both play the same game: ally with the Gelkis or the Magram, kill the other clan's warriors until the friendship is earned, and learn from your new friends how to break the rest. It works. I find it a little sad that it does." },
       },
     },
@@ -754,8 +758,8 @@ ns.content = {
       unlock = { { area = 2100 } },
       also = { "zaetar-and-theradras", "centaurs", "satyrs", "twilights-hammer" },
       text = {
-        { "Maraudon is the holiest place of the centaurs, a vast cavern in the south-west of Desolace where their father, Zaetar, lies buried; only the most devout centaurs may enter it. Deeper still, beyond caverns of glittering crystal, lives their mother, Theradras." },
-        { "It is not a peaceful tomb. A satyr lord, Vyletongue, has spread his poison through the caves and made a creature of rot to serve him; Zaetar's own son, Celebras, wanders inside, cursed; and a woman of the Twilight's Hammer has been asking travellers to bring her carvings from the crystal caverns, where, she says, relics of the old gods lie. I would not take her the carvings." },
+        { "Maraudon is the centaurs’ holy place in south-western Desolace. Their father Zaetar lies buried within its vast caverns, and their mother Theradras dwells beyond chambers of glittering crystal. Only the most devout among the centaurs may enter." },
+        { "The tomb is troubled. Lord Vyletongue spreads poison through the caves and has made a creature of rot; Zaetar’s nephew Celebras wanders there under a curse. A woman of the Twilight’s Hammer asks for carvings from the crystal caverns, claiming they hold relics of the Old Gods. I would be careful whose purposes your journey serves, traveller. There are several parties interested in what lies beneath this sacred ground." },
       },
     },
     ["nijels-point"] = {
@@ -763,8 +767,8 @@ ns.content = {
       unlock = { { area = 608 } },
       also = { "khans-of-desolace", "desolace" },
       text = {
-        { "Nijel's Point is the Alliance's outpost in the north of Desolace, a fortified camp in the hills under the shadow of Stonetalon. Its soldiers watch the centaurs, the demons of the Mannoroc Coven and the roads, and they are glad of any help they can get." },
-        { "The centaurs here are many and strong, and the Alliance's captains have hit on an old trick: set the clans against each other, ally with one, and learn from it how to beat the rest." },
+        { "Nijel’s Point is the Alliance’s camp in northern Desolace, fortified in the hills beneath Stonetalon. Its soldiers watch the roads, the centaur clans and the demons of the Mannoroc Coven. Visitors willing to help will find no shortage of work." },
+        { "The captains have chosen to exploit the centaurs’ rivalries, making allies of one clan to learn how to defeat the others. It is a practical answer to a difficult position, traveller. The friendship you help establish here may begin with a request for the deaths of someone else’s neighbours." },
       },
     },
     ["shadowprey-village"] = {
@@ -781,8 +785,8 @@ ns.content = {
       unlock = { { kill = 12201 }, { quest = 7064 }, { quest = 7065 } },
       also = { "maraudon", "centaurs", "cenarion-circle", "keeper-remulos" },
       text = {
-        { "Zaetar was a son of Cenarius, the demigod of the forest. Theradras was a princess of the elemental earth, a force of stone and chaos. They loved each other, against every rule of their kinds, and their children were the centaurs." },
-        { "The centaurs were born savage and cursed, and in their savagery they killed their own father. Theradras laid him to rest in her caverns at Maraudon, and his children guard his tomb to this day, and still revere him. The druids would like his remains back; a druid of the Circle waits near Shadowprey for anyone strong enough to face Theradras and recover them. Remulos, I imagine, would like his brother home." },
+        { "Zaetar was Cenarius’s son, a being of the forest. Theradras was a princess of elemental earth. Their union produced the centaurs, who killed their own father. Theradras laid him in Maraudon’s caverns, where his children still revere him and guard his tomb." },
+        { "A druid of the Cenarion Circle waits near Shadowprey, seeking someone able to face Theradras and recover Zaetar’s remains. The centaurs’ sacred ground is also the resting place of a member of Cenarius’s family. Those histories meet in the same tomb, traveller, however differently its guardians and the druids regard it." },
       },
     },
     ["coldridge-valley"] = {
@@ -790,9 +794,8 @@ ns.content = {
       unlock = { { area = 132 } },
       also = { "war-of-the-three-hammers", "rockjaw-troggs", "frostmane-trolls" },
       text = {
-        { "Every young dwarf and gnome who takes up arms begins here, in the sheltered valley south of Kharanos, under the eyes of the trainers at Anvilmar." },
-        { "It is a gentle place only by the standards of Dun Morogh. The troggs have tunnels on its slopes and the Frostmane send their young to raid it, which is exactly why the trainers like it: the danger is real, but never more than a recruit can learn from." },
-        { "If you began your road here, you will know the cold of the pass that leads out of it. Everyone remembers that walk." },
+        { "Anvilmar gathers dwarven and gnomish recruits in Coldridge Valley, south of Kharanos. Here they find their trainers, their first orders, and the mountain pass that will take them out into Dun Morogh. A modest beginning, perhaps, but every road has one." },
+        { "The orders concern more than practice. Rockjaw troggs threaten the valley, Frostmane trolls have made a camp nearby, and Balir Frosthammer and Grelin Whitebeard need help against them. Keep your weapon close, traveller. The recruits are needed before they have even left the valley." },
       },
     },
     ["deeprun-tram"] = {
@@ -800,9 +803,9 @@ ns.content = {
       unlock = { { area = 2257 } },
       also = { "ironforge", "gnomeregan-exiles" },
       text = {
-        { "A tunnel deep beneath the mountains, from Ironforge all the way to Stormwind, and carriages running along it on rails. The gnomes built it after the Second War, and when they first proposed it, half of Ironforge laughed. The laughing stopped when the first tram arrived." },
-        { "It is the finest thing gnomes and dwarves have ever built together, and the plainest proof of the friendship between Ironforge and Stormwind. A journey that once took days now takes minutes." },
-        { "Part of the way runs through a great lake deep under the earth, behind walls you can see through. Look out of the window as you pass. Some say they have seen something large looking back." },
+        { "The Deeprun Tram carries passengers between Ironforge and Stormwind on moving platforms beneath the earth. It has reduced a journey of days to a matter of minutes. Even a dwarf fond of walking can appreciate that achievement." },
+        { "The tunnel gives our friendship with Stormwind a practical form: two capitals joined by a route that spares their travellers the long road overland. Gnomish ingenuity has saved a great many pairs of boots." },
+        { "Watch the windows where the tunnel passes through water, traveller. Some passengers say they have seen something large looking back. You should have time for a glance before the platform carries you on." },
       },
     },
     ["dun-morogh"] = {
@@ -810,7 +813,7 @@ ns.content = {
       unlock = { { area = 1 } },
       also = { "kharanos", "ironforge", "frostmane-trolls" },
       text = {
-        { "Snow nine months of the year, and the other three are not much better. Dun Morogh is the high country around Ironforge, and every dwarf of the Bronzebeard clan learns to walk on its ice before learning to walk anywhere else." },
+        { "Dun Morogh is the snowy high country around Ironforge, home to the dwarves of the Bronzebeard clan and their gnomish neighbours." },
         { "It is ours, but we share it, and not always by choice. The Frostmane trolls keep the western hills, troggs dig where they please, and since the fall of Gnomeregan the gnomes have been our neighbours in their own valleys as well as in our city." },
         { "Learn its roads well, traveller. Most of the dwarves you will ever meet took their first steps along them." },
       },
@@ -830,9 +833,8 @@ ns.content = {
       unlock = { { kill = 706 }, { kill = 946 }, { kill = 1120 }, { kill = 1121 }, { kill = 1122 }, { kill = 1123 }, { kill = 1124 }, { kill = 1397 }, { area = 135 } },
       also = { "kharanos" },
       text = {
-        { "The Frostmane ruled these frozen valleys long before Ironforge was great, until dwarven armies drove them back into the hills. They are ice trolls, and they have never forgiven us for the mountain." },
-        { "They hold the caves and frozen hills to the west of Kharanos, and when the snow lies deep they come down onto the roads. Do not take them for simple beasts. Their seers and shadowcasters keep old and unpleasant rites, and their headhunters earn the name." },
-        { "A Frostmane fights like the winter itself: patient, cold, and fond of the weak. If you must go into their hold, go with friends, and come out before nightfall." },
+        { "The Frostmane are the ice trolls of Dun Morogh. Their hold lies west of Kharanos, and their camps reach into the snowy valleys, including Coldridge. Among them are headhunters, seers and shadowcasters; the mountain guards have more to contend with than spears alone." },
+        { "Grelin Whitebeard warns of renewed activity, and the guards ask travellers to help meet the threat. You will hear the dwarven account of the quarrel readily enough, traveller. Take care when approaching the camps: the Frostmane have their own means of answering." },
       },
     },
     ["gates-of-ironforge"] = {
@@ -840,9 +842,8 @@ ns.content = {
       unlock = { { area = 808 }, { area = 806 } },
       also = { "ironforge", "loch-modan" },
       text = {
-        { "Two passes lead east out of Dun Morogh through the mountains to Loch Modan, and both are guarded day and night by the Mountaineers of Ironforge." },
-        { "These gates have closed against every army that has come against Khaz Modan, and the Mountaineers who keep them take that history personally. They will ask your business, look at your boots, and if they like what they see, wave you through with a warning about the troggs." },
-        { "Thank them as you pass. Very few travellers do." },
+        { "The North Gate and South Gate passes carry travellers between Dun Morogh and Loch Modan. Mountaineers keep outposts along both routes. In mountain country, a narrow road can demand as much guarding as a broad frontier." },
+        { "Captain Rugelfuss explains the difficulty from the Loch Modan side. His regiment must hold the gate rather than pursue nearby troggs, while the Ironforge Reserve is committed to the Alliance front. He asks adventurers to defend the land his soldiers cannot leave their posts to cover. Pass through, traveller, but do not mistake a guarded gate for a promise about the whole country beyond it." },
       },
     },
     ["gnomeregan-exiles"] = {
@@ -860,9 +861,9 @@ ns.content = {
       unlock = { { area = 133 } },
       also = { "gnomeregan-exiles", "high-tinker-mekkatorque", "leper-gnomes", "rockjaw-troggs" },
       text = {
-        { "For generations the gnomes' capital lay in the western mountains of Dun Morogh, a city of gears and steam that even the smiths of Ironforge admired, though they would never say so aloud." },
-        { "Then the troggs came up from below, more of them than anyone had believed possible. The gnomes could not hold, and High Tinker Mekkatorque took the advice of one of his own engineers, Sicco Thermaplugg: flood the city with a deadly radiation that would kill the invaders. It did. It also killed a great many gnomes who could not escape in time." },
-        { "The survivors fled to Ironforge, and we gave them a corner of the city. As for Thermaplugg, he did not flee. He stayed in the poisoned halls with what remained, and the word from those who have been down there is that he now calls the city his own." },
+        { "Gnomeregan lies beneath western Dun Morogh, the old gnomish capital brought to ruin during the crisis of the Third War. Troggs invaded its halls. To stop them, the gnomes released radiation through their own city." },
+        { "The troggs survived. Many gnomes died, and others were transformed into the violent survivors now called leper gnomes. Those who escaped found shelter in Ironforge. The cost of the attempt is still plain in the poisoned halls." },
+        { "Sicco Thermaplugg remains there. High Tinker Mekkatorque calls him a traitor and asks adventurers to kill him. If you enter, traveller, remember that this was a capital full of homes and workshops. Its people are still trying to recover what is left." },
       },
     },
     ["high-tinker-mekkatorque"] = {
@@ -870,9 +871,8 @@ ns.content = {
       unlock = { { npc = 7937 } },
       also = { "gnomeregan", "gnomeregan-exiles" },
       text = {
-        { "Gelbin Mekkatorque leads the gnomes from a workshop in Tinker Town, which is as close to a throne as any gnome would tolerate." },
-        { "He is a brilliant engineer and, by every account, a kind one, which makes his burden heavier. It was his order that filled Gnomeregan with the radiation that drove out the troggs and killed so many of his people. He took the advice of a trusted engineer, Sicco Thermaplugg, and he has had to watch that same engineer keep the city for himself." },
-        { "He speaks little of it. He simply works, day and night, on the means to go home." },
+        { "Gelbin Mekkatorque leads the gnomes from Tinker Town in Ironforge. The dwarves have given his people a refuge, but their own capital remains beneath Dun Morogh. A home borrowed from friends cannot settle the loss of Gnomeregan." },
+        { "The radiation released against its invading troggs failed to eradicate them and devastated the gnomes as well. Mekkatorque once trusted Sicco Thermaplugg; now he accuses him of betraying the city and asks adventurers to enter it and kill him. It is a bitter account, traveller, from a leader who has lost his city and the confidence he placed in a colleague." },
       },
     },
     ["ironforge"] = {
@@ -880,7 +880,7 @@ ns.content = {
       unlock = { { area = 1537 } },
       also = { "magni-bronzebeard", "war-of-the-three-hammers", "rockjaw-troggs" },
       text = {
-        { "Ironforge is not built on the mountain; it is built in it. Our ancestors hollowed the heart of Ironforge Mountain into a single vast city, ring within ring of halls, and at its centre burns the Great Forge, whose light reaches every corner of the city." },
+        { "Ironforge is not built on the mountain; it is built in it. Its halls lie within Ironforge Mountain, and at its centre burns the Great Forge." },
         { "The city turns around the forge like a wheel. King Magni holds court in the High Seat, the Military Ward trains the mountain's defenders, the mages keep to the Mystic Ward, and since the fall of Gnomeregan the gnome exiles have made Tinker Town their own: loud, clever and homesick. Beneath it all runs the Deeprun Tram, gnomish work, carrying travellers under the mountains to Stormwind." },
         { "And then there is the Hall of Explorers, where you will find me. The League keeps its library here, and its finds: relics from Uldaman, the bones of beasts no one has seen alive, and maps of places most dwarves will only ever read about. Come and see us. We are always short of people who have actually been somewhere." },
       },
@@ -909,9 +909,9 @@ ns.content = {
       unlock = { { npc = 2784 } },
       also = { "war-of-the-three-hammers" },
       text = {
-        { "Magni Bronzebeard rules Ironforge from the High Seat, as the Bronzebeards have since the War of the Three Hammers. He is the eldest of three brothers, and the one who stayed. Muradin, the middle brother, went north with the prince of Lordaeron during the Third War and has not been heard from since. Brann, the youngest, would rather crawl through a titan ruin than sit through a council, and is the League's most famous explorer as well as its most often missing." },
-        { "The king follows our work closely. If the stones of Uldaman tell the truth, the dwarves were not born of the mountain by chance but shaped from it, long ago, by the Titans themselves. It is a question that matters to him more than he admits." },
-        { "His newest grief is his daughter. Princess Moira is held in the Dark Iron city beneath Blackrock Mountain, wed to Emperor Dagran Thaurissan. Ironforge calls it an abduction, and the king has promised a hero's reward to whoever brings her home." },
+        { "King Magni Bronzebeard holds court in Ironforge’s High Seat, ruling the city his clan has held since the War of the Three Hammers. He is the eldest of three brothers. Muradin went north with the prince of Lordaeron during the Third War and has not been heard from since. Brann is the League’s most famous explorer, and one of the hardest to keep track of." },
+        { "Magni follows our work closely. The finds at Uldaman suggest that the dwarves were shaped long ago by the Titans. A king with so long a lineage has reason to ask where it began; we have reason to welcome his interest." },
+        { "His daughter concerns him more urgently. Princess Moira is in the Dark Iron city beneath Blackrock Mountain, wed to Emperor Dagran Thaurissan. Ironforge calls it an abduction, and Magni promises a hero’s reward for bringing her home. If you take up that charge, traveller, you carry a father’s hopes as well as a king’s orders." },
       },
     },
     ["mekgineer-thermaplugg"] = {
@@ -919,9 +919,9 @@ ns.content = {
       unlock = { { kill = 7800 }, { quest = 2929 } },
       also = { "gnomeregan", "high-tinker-mekkatorque", "leper-gnomes", "rockjaw-troggs", "dark-iron-dwarves" },
       text = {
-        { "Sicco Thermaplugg was High Tinker Mekkatorque's trusted adviser, one of the cleverest engineers in Gnomeregan, and it was his counsel the High Tinker took when the troggs overran the city: flood it with radiation and kill them all. The radiation killed the troggs. It killed a great many gnomes too, and the survivors fled to Ironforge." },
-        { "Thermaplugg did not flee. He stayed in the poisoned halls with the leper gnomes the radiation had left behind, and has made himself master of what remains, a mad king of an empty city. The troggs are still there with him, and lately the Dark Iron dwarves have been seen in the depths as well, which no gnome likes the sound of." },
-        { "Mekkatorque says plainly now that Thermaplugg betrayed him and all his people. He wants the city back, and he wants the traitor dead. I have heard him call Thermaplugg the king of nothing, which is the angriest thing I have ever heard a gnome say." },
+        { "Sicco Thermaplugg remains in Gnomeregan while High Tinker Mekkatorque leads its exiles from Ironforge. The High Tinker once trusted him. That trust has ended in a charge of betrayal and a request for his death." },
+        { "The radiation released in the city failed to eradicate the troggs and devastated its gnomish inhabitants. Thermaplugg rules in the ruins, among the creatures the attempt was meant to destroy and the survivors it left behind." },
+        { "Mekkatorque asks adventurers to carry his judgement into those halls. It is a bitter errand, traveller: the man who has made himself king occupies the home his former countrymen are struggling to reclaim." },
       },
     },
     ["timber"] = {
@@ -929,9 +929,9 @@ ns.content = {
       unlock = { { kill = 1132 } },
       also = { "kharanos" },
       text = {
-        { "The hunters of Kharanos speak of a wolf larger than any in the pack and too wise for their traps. They call him Timber. He chooses his ground, they say, and he never leaves a trail he cannot double back on." },
-        { "As a rule the League has no business with wolves. But a beast that outlives every hunter sent after it has earned a line in any honest record." },
-        { "If this page has found its way into your ledger, traveller, then you have done what better hunters could not. Write it down before the tale grows in the telling." },
+        { "The hunters of Kharanos call him Timber: a wolf larger than his fellows, with a troublesome understanding of traps. They say he chooses his ground and doubles back on his own trail. Every hunter sent after him has been outlived by the quarry." },
+        { "Wolves seldom trouble the League’s records. This one has made a fair case for inclusion, though I doubt he would appreciate the distinction." },
+        { "If you have killed him, traveller, set down what happened while you remember it. The hunters will have their own account soon enough." },
       },
     },
     ["war-of-the-three-hammers"] = {
@@ -950,9 +950,8 @@ ns.content = {
       unlock = { { kill = 1134 }, { kill = 1135 }, { area = 136 } },
       also = { "dun-morogh" },
       text = {
-        { "In the caves of Dun Morogh, the Grizzled Den above all, live the wendigos: big, shaggy and strong enough to break a dwarf in two, and they come out when hunger gets the better of them." },
-        { "They are cleverer than they look and they hunt together. Mountaineers learn early to tell their tracks from those of a bear, and to turn back when they see them." },
-        { "In the deepest part of the Grizzled Den lives the oldest of them, Old Icebeard. Those who have seen him tend to stop describing him halfway through." },
+        { "The Grizzled Den offers shelter from Dun Morogh’s snow, provided you can persuade its wendigos to share it. A courier who fled them left a shipment of ammunition behind. The creatures made the stronger argument." },
+        { "Pilot Stonegear wants their manes for a rug inside his siege engine, Trollplow. Even machinery needs a little comfort in this country, traveller. Retrieving the ammunition and furnishing the engine both require getting rather closer to a wendigo than the courier cared to stay." },
       },
     },
     ["darkspear-trolls"] = {
@@ -960,8 +959,8 @@ ns.content = {
       unlock = { { area = 367 }, { faction = 530, standing = 5 } },
       also = { "voljin", "senjin-village", "echo-isles", "murlocs" },
       text = {
-        { "The Darkspear are jungle trolls, cousins of the Gurubashi of Stranglethorn, and a small tribe that has had to fight for everything. They were living on islands in the southern seas, hard pressed by murlocs and the sea witch the murlocs served, when Thrall's fleet, bound for Kalimdor, stopped on their shore. The orcs fought beside them, their chieftain Sen'jin died, and the survivors followed Thrall across the sea." },
-        { "They have been the Horde's most loyal allies since. Their hunters, shamans and witch doctors serve the Warchief everywhere, and their leader Vol'jin stands at his side in Orgrimmar. They are tall, blue-skinned and tusked, they keep the trolls' old loa, and they are, so far as I have seen, the only trolls in the world who will share a fire with you." },
+        { "The Darkspear are jungle trolls related to Stranglethorn’s Gurubashi. When Thrall’s fleet reached their islands on its journey to Kalimdor, the tribe was fighting murlocs and their sea witch. The orcs fought beside them. Chieftain Sen’jin died, and the surviving Darkspear followed Thrall across the sea." },
+        { "Vol’jin now leads them from Orgrimmar, close to the Warchief. Their hunters, shamans and witch doctors serve throughout the Horde, keeping the trolls’ old loa as they make a home among new allies. Remember the islands as well as the alliance, traveller; the tribe’s place here began with people helping one another in a desperate fight." },
       },
     },
     ["durotar"] = {
@@ -988,8 +987,9 @@ ns.content = {
       unlock = { { npc = 3144 } },
       also = { "thrall", "blackrock-clan" },
       text = {
-        { "Eitrigg is an old warrior of the first Horde and now an adviser to Thrall in Orgrimmar. When word came that Rend Blackhand still lived, it was Eitrigg the Warchief consulted: no one alive knows the Blackrock better." },
-        { "He left the Horde once, he will tell you, sick of the warlocks and the demon-worship that had swallowed it, and wandered alone in the wilds of Lordaeron. There a paladin of the Silver Hand, Tirion Fordring, met him in battle and spared him, and when Eitrigg was taken prisoner, Tirion spoke for him, and was stripped of his lands and his order for refusing to call an orc an enemy. Tirion helped him escape, and when Eitrigg later heard the young Warchief speak of a Horde free of demons, guided by its shamans, he came back. He does not forget a debt." },
+        { "Eitrigg advises Thrall in Orgrimmar, an old warrior with knowledge the new Horde still needs. When Warlord Goretooth learned that Rend Blackhand lived, he sent adventurers to consult Eitrigg about the Blackrock." },
+        { "Rivalry among Horde leaders had cost Eitrigg his sons and driven him away from its wars. Living alone near Hearthglen, he fought Tirion Fordring, then saved the paladin from a collapsing tower. Tirion later defended him at the cost of his standing in the Silver Hand." },
+        { "During Thrall’s attack on Stratholme, Tirion freed Eitrigg. Outside the city, Thrall asked him to help restore the Horde’s old ways, and he accepted. You can see why the Warchief values his counsel, traveller: Eitrigg knows both the Horde he left and the reason he chose to return." },
       },
     },
     ["orgrimmar"] = {
@@ -1062,8 +1062,8 @@ ns.content = {
       unlock = { { npc = 10540 } },
       also = { "darkspear-trolls", "thrall", "orgrimmar" },
       text = {
-        { "Vol'jin is the chieftain of the Darkspear trolls and a shadow hunter, one of the trolls' priest-warriors who walk with the loa. He is the son of Sen'jin, who died on the Darkspear islands the day Thrall's fleet arrived, and he has kept his father's pledge to the Horde without wavering." },
-        { "He lives in Orgrimmar now, close to the Warchief, while his people hold Sen'jin Village and wait to take back the Echo Isles. He is quiet, watchful and very hard to read, and the orcs listen when he speaks." },
+        { "Vol’jin leads the Darkspear and is a shadow hunter, one of their priest-warriors who walk with the loa. His father Sen’jin died during the fighting on the islands where Thrall’s fleet first met the tribe. Vol’jin has maintained his father’s pledge to the Horde." },
+        { "He stays near Thrall in Orgrimmar while his people hold Sen’jin Village and look towards reclaiming the Echo Isles. A traveller seeking the Darkspear’s leader will therefore find him in the capital, with the tribe’s lost home still among his concerns." },
       },
     },
     ["darkshire"] = {
@@ -1099,8 +1099,8 @@ ns.content = {
       unlock = { { npc = 264 } },
       also = { "darkshire", "morladim", "duskwood" },
       text = {
-        { "When Stormwind took its commissioned guards out of Duskwood, the people of Darkshire raised their own. The Night Watch is a militia of townsfolk under Commander Althea Ebonlocke, and it holds the road through the forest and the gates of the town against everything the darkness sends at them: the dead of Raven Hill, the worgen, the ogres and worse." },
-        { "They are not soldiers, most of them, and they are stretched very thin. But they have kept Darkshire alive. Among them serves a young woman named Sarah Ladimore, whose father's story you will find elsewhere in these pages." },
+        { "Commander Althea Ebonlocke leads the Night Watch, the militia Darkshire raised after Stormwind withdrew its commissioned guards. The townsfolk defend their road and gates against Raven Hill’s dead, the worgen, the ogres, and whatever else comes out of the forest." },
+        { "Most are not soldiers, and there are too few of them. They have nevertheless kept Darkshire alive. Sarah Ladimore serves among them; her father’s history is elsewhere in this ledger. If the Watch asks for your help, traveller, it is a town’s people asking you to share the work of keeping their home." },
       },
     },
     ["raven-hill"] = {
@@ -1108,8 +1108,8 @@ ns.content = {
       unlock = { { area = 94 }, { area = 492 } },
       also = { "the-embalmer", "morladim", "darkshire", "scourge" },
       text = {
-        { "Raven Hill was a village in the west of the forest, and its cemetery was the largest in the land. The village is empty now, and the cemetery has spread until it dominates the hillside, and its dead do not rest: skeletons walk the rows at night, ghouls dig in the graves, and the Watch cannot keep them down." },
-        { "Something stirs them. In a house on the hill above the cemetery lives a necromancer named Morbent Fel, and a woodsman whose family he killed would very much like to see him dead. And in a shack overlooking the graves lives an old hermit who used to come into town for supplies, and has not been seen in some time." },
+        { "Raven Hill’s village stands empty beside a cemetery that has spread across the hillside. Skeletons walk its rows, ghouls dig among the graves, and the Night Watch cannot keep the dead at rest. The graveyard has become more dangerous than the abandoned houses around it." },
+        { "Morbent Fel, a necromancer, lives in a house above the cemetery. A woodsman whose family he killed wants him dead. Nearby, an old hermit occupies a shack overlooking the graves; he once came into Darkshire for supplies, but has not been seen there for some time. There is business enough on this hill to occupy a traveller, and little of it is pleasant." },
       },
     },
     ["stalvan-mistmantle"] = {
@@ -1117,8 +1117,8 @@ ns.content = {
       unlock = { { kill = 315 }, { area = 1098 }, { quest = 98 } },
       also = { "duskwood", "darkshire" },
       text = {
-        { "Stalvan Mistmantle was a teacher, the headmaster of the schoolhouse in Moonbrook and a tutor to the families of the countryside, and he fell in love with a pupil of his, a girl named Tilloa. She was promised to another, and when she spoke of Stalvan as one might of a kindly old uncle, something in him broke. What followed was called a massacre by those who found it." },
-        { "He fled home to his family's manor in the woods north-east of Darkshire, and has been there ever since, alone and mad, until whatever lives in the darkness of Duskwood got into him. The trail of his story is scattered from Westfall to Stormwind, in letters, journals and a ring, and Madame Eva in Darkshire, who has her own reasons for wanting it followed, will set you on it." },
+        { "Stalvan Mistmantle taught at Moonbrook’s schoolhouse and worked as a tutor to families in the countryside. He became obsessed with a pupil, Tilloa, who was promised to someone else. She regarded him as a kindly old uncle. The killing that followed her rejection was described as a massacre." },
+        { "Stalvan withdrew to his family’s manor north-east of Darkshire, alone and mad, and was changed further by Duskwood’s darkness. Letters, journals and a ring trace his history through Westfall and Stormwind. Madame Eva will set you on that trail, traveller. Follow the evidence carefully; his own words are part of what must be examined." },
       },
     },
     ["the-embalmer"] = {
@@ -1162,8 +1162,8 @@ ns.content = {
       unlock = { { kill = 10184 } },
       also = { "onyxias-lair", "katrana-prestor", "great-masquerade", "black-dragonflight" },
       text = {
-        { "Onyxia is the daughter of Deathwing, the sister of Nefarian, and the most dangerous creature I have ever had to write about in a courtly voice. For years she sat at the side of Stormwind's regent as Lady Katrana Prestor, bending the kingdom's will and keeping its army at home while her brother's orcs burned Redridge. Marshal Windsor unmasked her before the whole court, and she fled here, to her lair in the marsh." },
-        { "She is very old, very large and very clever, and she breathes fire enough to empty a cave. The young of both factions go into her lair to kill her, and some of them succeed. I have heard it said that she has died more than once. I have also heard it said that the dragons of her flight are hard to keep dead." },
+        { "Onyxia, Deathwing’s daughter and Nefarian’s sister, spent years advising Stormwind’s regent as Lady Katrana Prestor. She bent the kingdom’s will and kept its troops at home while her brother’s orcs threatened Redridge. Marshal Windsor exposed her before the court. She fled to Dustwallow Marsh." },
+        { "Her lair is another matter from her place at court. She is an ancient, formidable dragon, and champions of both factions seek a way inside. A traveller who has learned her human name has learned why to oppose her; reaching her cave still leaves the dragon herself to contend with." },
       },
     },
     ["onyxias-lair"] = {
@@ -1171,8 +1171,8 @@ ns.content = {
       unlock = { { area = 2159 }, { area = 511 } },
       also = { "onyxia", "black-dragonflight", "dustwallow-marsh" },
       text = {
-        { "In the Wyrmbog, in the south of Dustwallow Marsh, there is a great cave in a cliff, and in it Onyxia, daughter of Deathwing, makes her lair. Her brood swarms the swamp around it: whelps, drakes, dragonspawn and the black dragon Emberstrife, who keeps the way." },
-        { "No one walks into it uninvited. The dragons can tell their own from intruders, and the ways of tricking them, of passing as one of the brood, run through the Blackrock Spire and the general who commands it, and a long road of danger. Those who have made it say the cave is full of eggs." },
+        { "Onyxia keeps her lair in the Wyrmbog, in southern Dustwallow. Black dragonkin occupy the surrounding country, and her brood’s eggs lie in the cave. Getting past the marsh’s dangers is only the beginning of the approach." },
+        { "Wards protect the entrance. Both Alliance and Horde preparations lead to General Drakkisath in Blackrock Spire, whose blood is required for a working Drakefire Amulet. The Horde also uses an illusion to deceive Emberstrife during its investigation, but it is the amulet that permits entry. Bring the right means of passage, traveller; knowledge of the dragon’s hiding place will not open her door." },
       },
     },
     ["shady-rest-inn"] = {
@@ -1198,8 +1198,8 @@ ns.content = {
       unlock = { { kill = 10813 } },
       also = { "scarlet-crusade", "varimathras", "sylvanas-windrunner", "stratholme", "burning-legion" },
       text = {
-        { "Balnazzar is a dreadlord, one of the three left in Lordaeron to watch over the Scourge for the Burning Legion. When Arthas came back from Kalimdor and the Legion was beaten, the dreadlords turned on him and drove him out, and Balnazzar ruled the ruins of Lordaeron, until Sylvanas and her Forsaken took it from him. She had his brother Varimathras kill him, and everyone believed he was dead." },
-        { "He was not. He has been for years the Grand Crusader Dathrohan, at the head of the Scarlet Crusade in its bastion in Stratholme. The Crusade, sworn to destroy the Scourge and the darkness, takes its orders from a demon. If any of them ever suspected, I have not met them." },
+        { "Balnazzar was one of the dreadlords left in Lordaeron to oversee the Scourge for the Burning Legion. After the Legion’s defeat, they challenged Arthas’s rule. Arthas escaped their rebellion and went to Northrend; Sylvanas later took their kingdom from them. At her command, Varimathras appeared to kill his brother Balnazzar." },
+        { "The death was believed, but the demon survived. He assumed the identity of Grand Crusader Dathrohan and ruled the Scarlet bastion in Stratholme. Defeating the apparent crusader reveals what stands beneath the disguise. It is an ugly discovery, traveller, for an order devoted to destroying the very evil issuing its commands." },
       },
     },
     ["baron-rivendare"] = {
@@ -1207,8 +1207,8 @@ ns.content = {
       unlock = { { kill = 10440 } },
       also = { "stratholme", "kelthuzad", "argent-dawn" },
       text = {
-        { "Baron Rivendare is the master of Stratholme in death, a death knight on a dead horse who rules the Scourge's half of the city from his slaughterhouse. The Argent Dawn call him Kel'Thuzad's errand boy, and Duke Zverenhoff of Light's Hope asks for his head." },
-        { "Those who came for him found Ysida Harmon in his keeping, an Argent Dawn crusader taken captive, and her husband begging for her rescue." },
+        { "Baron Rivendare rules the Scourge’s half of Stratholme from its slaughterhouse, a death knight mounted on a dead horse. The Argent Dawn calls him Kel’Thuzad’s errand boy. Duke Zverenhoff at Light’s Hope Chapel asks for his head." },
+        { "Rivendare also holds the Argent Dawn crusader Ysida Harmon captive. Her husband seeks her rescue. Keep her in mind, traveller, if the Duke’s bounty brings you into the city. Someone there still needs to come out alive." },
       },
     },
     ["darrowshire"] = {
@@ -1216,7 +1216,7 @@ ns.content = {
       unlock = { { area = 2262 }, { quest = 5721 } },
       also = { "eastern-plaguelands", "scourge", "lights-hope-chapel" },
       text = {
-        { "Darrowshire was a village in the south of the Eastweald. When the Scourge came, its people stood and fought, with the paladin Davil Lightfire of the Silver Hand and Joseph Redpath at their head, against the ghoul lord Horgus and the death knight Marduk Blackpool. For a while they held. In the end, Redpath fell and was raised in the Scourge's service, and the village died." },
+        { "Darrowshire was a village in the south of the Eastweald. When the Scourge came, its people stood and fought, with the paladin Davil Lightfire of the Silver Hand and Joseph Redpath at their head, against the ghoul lord Horgus and the death knight Marduk Blackpool. For a while they held. In the end, Marduk tore loose and corrupted Redpath's spirit, turning it against the defenders, and the village died." },
         { "The battle goes on in Darrowshire still, among the ghosts. A little girl, Pamela Redpath, wanders the ruins waiting for her father to come home. With the relics of the battle, it is said, the spirits of Darrowshire can be raised to fight it again, and this time Joseph Redpath's soul may be saved." },
       },
     },
@@ -1225,8 +1225,8 @@ ns.content = {
       unlock = { { area = 139 } },
       also = { "lights-hope-chapel", "stratholme", "tyrs-hand", "scourge", "western-plaguelands" },
       text = {
-        { "The Eastern Plaguelands were the Eastweald, the green eastern country of Lordaeron, with its villages, its abbeys and the great city of Stratholme. The plague took all of it. The trees are dead or dying, the fungus grows as tall as a house, and the rivers run foul. Where the Western Plaguelands are a battlefield, these are the Scourge's own country." },
-        { "Only a few hold out. The Argent Dawn keeps Light's Hope Chapel in the east, the Scarlet Crusade holds Tyr's Hand in the south-east, an old exile lives by the lake, and the Forsaken's champion keeps a farmhouse at the Marris Stead. Everyone else here is dead, and most of the dead are still walking." },
+        { "The Eastweald once held Lordaeron’s eastern villages, abbeys and the city of Stratholme. The plague transformed it into the Eastern Plaguelands. Its trees are dead or dying, great fungus rises among them, and foul water runs through country the Scourge largely controls." },
+        { "Light’s Hope Chapel shelters the Argent Dawn in the east; the Scarlet Crusade retains Tyr’s Hand in the south-east. Tirion Fordring lives in exile beside the Thondroril River, and Nathanos Blightcaller occupies his old farmhouse at the Marris Stead. These scattered inhabitants have very different purposes. Learn where each stands, traveller, before counting any occupied building as a refuge." },
       },
     },
     ["kelthuzad"] = {
@@ -1243,8 +1243,8 @@ ns.content = {
       unlock = { { area = 2268 } },
       also = { "argent-dawn", "church-of-the-holy-light", "naxxramas", "kelthuzad" },
       text = {
-        { "Light's Hope Chapel is one of the oldest holy places of the Church of the Holy Light, a small stone chapel on the eastern hills of the Plaguelands. It stands on consecrated ground in the middle of the dead country. It is the home of the Argent Dawn, under Lord Maxwell Tyrosus, and anyone who fights the Scourge is welcome there, Alliance or Horde." },
-        { "When the necropolis of Naxxramas came over the Plaguelands, it was at Light's Hope that the Argent Dawn met even the Scarlet Crusade, and the two old enemies agreed to fight the Scourge together. Kel'Thuzad's phylactery, when it was finally taken, was brought here." },
+        { "Light’s Hope is a small stone chapel on consecrated ground in the eastern Plaguelands. Lord Maxwell Tyrosus leads the Argent Dawn there. Anyone fighting the Scourge may find a welcome, whether they come from the Alliance or the Horde." },
+        { "When Naxxramas appeared above the country, even the Scarlet Crusade met the Argent Dawn here to agree on a common fight. Kel’Thuzad’s captured phylactery was later brought to the chapel. A traveller passing its walls sees a modest building for a place where so many enemies have had reason to meet." },
       },
     },
     ["nathanos-blightcaller"] = {
@@ -1261,8 +1261,8 @@ ns.content = {
       unlock = { { area = 3456 }, { quest = 9033 } },
       also = { "kelthuzad", "scourge", "argent-dawn", "lights-hope-chapel" },
       text = {
-        { "Naxxramas is a necropolis, a citadel of the Scourge that floats in the sky over the Plaguelands, and it is Kel'Thuzad's seat. From it the Scourge came down on the cities of Azeroth in a great invasion, and the Argent Dawn called on every living soul to stand against it." },
-        { "Five years after the last war, the Lich King stirs again, and Kel'Thuzad gathers his armies in Naxxramas for another attack on our lands. Inside are his greatest servants: abominations and spiders, plague-bringers, and four horsemen, death knights who were once the Light's champions." },
+        { "Naxxramas hangs above the Plaguelands, a floating Scourge citadel and Kel’Thuzad’s seat. From it came forces for a great invasion of Azeroth’s cities, bringing the Argent Dawn to call on everyone willing to oppose the dead." },
+        { "Five years after the last war, the Lich King stirs again and Kel’Thuzad gathers armies for another attack. Abominations, spiders and plague-bringers occupy the necropolis, along with four horsemen who were once champions of the Light. Look up when you cross the Plaguelands, traveller. Their commander has a fortress that need not depend on holding the road beneath it." },
       },
     },
     ["stratholme"] = {
@@ -1279,8 +1279,9 @@ ns.content = {
       unlock = { { npc = 1855 } },
       also = { "eitrigg", "hearthglen", "scarlet-crusade", "stratholme" },
       text = {
-        { "Tirion Fordring was a paladin of the Silver Hand and lord of Mardenholde Keep, in Hearthglen. One day, near his lands, he found an old orc, Eitrigg, and the orc saved his life. Tirion would not let him be killed. When the men of his own keep came for the orc, Tirion fought them, and he was tried for treason in Lordaeron. He was stripped of his titles and his lands, and cast out of Lordaeron. His wife told their son Taelan that his father was dead." },
-        { "He lives now in a little hut by a lake in the Eastern Plaguelands, an old man, alone. He has not forgotten his son. Taelan grew up to lead the Scarlet Crusade at Hearthglen, and Tirion sends travellers to gather the things of the boy's past: the toy hammer Tirion gave him, the standard of the Silver Hand he threw down at Northdale, a painting hidden in Stratholme. Tirion means to bring him home." },
+        { "You may find Tirion Fordring in a little hut beside the Thondroril River. He was once lord of Mardenholde Keep at Hearthglen and a paladin of the Silver Hand. There is little in his present lodging to suggest either distinction." },
+        { "The orc Eitrigg saved his life. Tirion resisted his capture and, at his trial in Stratholme, refused to abandon the oath he had sworn to him. His titles and holdings were taken away, and he was sent into exile. His wife told their son Taelan that he was dead." },
+        { "Taelan now leads the Scarlet Crusade at Hearthglen. Tirion asks travellers to recover a toy hammer he gave the boy, the Silver Hand standard Taelan cast down at Northdale, and a painting hidden in Stratholme. These are the things he hopes will reach his son. If he entrusts you with the errand, traveller, remember that he is trying to bring Taelan home." },
       },
     },
     ["tyrs-hand"] = {
@@ -1297,9 +1298,9 @@ ns.content = {
       unlock = { { npc = 1284 }, { npc = 1212 } },
       also = { "northshire-abbey", "stormwind-city" },
       text = {
-        { "The faith of the Holy Light is the faith of mankind: the belief that virtue, compassion and sacrifice draw on a power that heals and protects. Its church came south from Lordaeron long ago, and its seat in Stormwind is the Cathedral of Light, under Archbishop Benedictus." },
-        { "It was a churchman, Archbishop Alonsus Faol, who founded the Knights of the Silver Hand in the Second War, the first paladins: warriors who fight with the Light as well as the sword. Uther the Lightbringer led them. Since Lordaeron fell the church's centre has been Stormwind, and its priests and paladins serve all through the Alliance; we dwarves have learned the Light from them too." },
-        { "I am a practical dwarf and I will not pretend to understand it. But I have seen a priest of the Light set a broken leg with a prayer, and I no longer argue." },
+        { "The Church of the Holy Light teaches that virtue, compassion and sacrifice draw on a power that can heal and protect. The faith came south from Lordaeron, and Stormwind’s Cathedral of Light is now its seat, under Archbishop Benedictus. Dwarves have learned its ways from their human neighbours too." },
+        { "In the Second War, Archbishop Alonsus Faol founded the Knights of the Silver Hand. These first paladins, led by Uther the Lightbringer, brought the Light to the battlefield alongside their swords. Since Lordaeron’s fall, Stormwind has become the church’s centre, and its priests and paladins serve throughout the Alliance." },
+        { "Questions of faith may occupy a scholar for years. A wounded traveller has a more immediate reason to be grateful for a priest’s learning." },
       },
     },
     ["elwynn-forest"] = {
@@ -1308,7 +1309,7 @@ ns.content = {
       also = { "northshire-abbey", "goldshire", "stormwind-city", "hogger", "defias-brotherhood", "kobolds", "gnolls" },
       text = {
         { "Elwynn is the forest that feeds Stormwind: tall old trees, open meadows, farms and vineyards and the slow river running down to Westfall. It is the gentlest country in the human lands, and it is hard, walking its roads on a summer morning, to believe what happened here." },
-        { "In the First War the orcs came through these woods. They burned the farms, the abbey and the villages one after another, and then they took the city itself. The forest has grown back since, and the people with it, but if you look you will still find the odd orcish catapult rotting among the trees." },
+        { "In the First War the orcs came through these woods. They burned the farms, the abbey and the villages one after another, and then they took the city itself. The kingdom was rebuilt after the Second War, and the woods shelter farms and settlements again." },
         { "The peace is thinner than it looks. Kobolds have taken the mines, the Riverpaw gnolls raid from the west, and the red-masked Defias have spread out of Westfall into the woods. Ask any farmer in Elwynn whether the king's soldiers come when they are called." },
       },
     },
@@ -1317,8 +1318,8 @@ ns.content = {
       unlock = { { area = 87 } },
       also = { "elwynn-forest", "hogger" },
       text = {
-        { "Every road in Elwynn passes through Goldshire, and every traveller on those roads stops at the Lion's Pride Inn, which is the best reason I know to visit the town. It is an old place, older than the wars, and it burned with the rest of Elwynn when the orcs came in the First War." },
-        { "It was rebuilt after the Second War, when the people came home from exile in Lordaeron, and it is busy again now: a smithy, a market, a marshal who keeps the peace, and a steady stream of the young of the kingdom on their way to make their names. Marshal Dughan's bounty board is always full, and rarely with good news." },
+        { "Goldshire stands at an Elwynn crossroads, with the Lion’s Pride Inn ready for travellers and Marshal Dughan ready to give them work. The village is older than the wars. It burned when the orcs came through Elwynn in the First War." },
+        { "After the Second War, Stormwind’s people returned from exile in Lordaeron and rebuilt it. The smithy and market are busy again, and young adventurers stop here on their way to make a name. Look over Dughan’s bounty board while you are here, traveller. The village has recovered; the marshal still has plenty to worry about." },
       },
     },
     ["great-masquerade"] = {
@@ -1326,9 +1327,9 @@ ns.content = {
       unlock = { { quest = 6403 }, { kill = 10184 } },
       also = { "katrana-prestor", "black-dragonflight", "regency-of-stormwind" },
       text = {
-        { "Marshal Reginald Windsor, a soldier of Stormwind who would not let go of a suspicion, spent years gathering proof against the Highlord's adviser, and lost it all in the dungeons of Blackrock Mountain. Rescued at last, he came home with new proof, and with friends, and walked into Stormwind Keep to put it before Bolvar Fordragon." },
-        { "The proof was this: Lady Katrana Prestor was Onyxia, daughter of Deathwing, sister of the Nefarian who rules the Blackrock Spire. For years she had sat at the heart of the kingdom, keeping its army at home while her brother's orcs burned the Redridge, and bending the Highlord to her will. Windsor broke the spell before the whole court, and she fled to her lair in the Dustwallow Marsh." },
-        { "Windsor did not live to enjoy his victory, I am told. But the kingdom owes him its eyes, and every traveller who has since faced Onyxia in her lair owes him the knowledge of who she was." },
+        { "Marshal Reginald Windsor gathered proof against Highlord Bolvar Fordragon’s adviser, only to lose it in the dungeons of Blackrock Mountain. After his rescue, he returned with fresh evidence and companions willing to stand beside him. He brought both into Stormwind Keep." },
+        { "There he exposed Lady Katrana Prestor as Onyxia, daughter of Deathwing and sister of Nefarian. She had kept Stormwind’s army at home while her brother’s orcs threatened Redridge, and bent Bolvar to her will. Windsor broke her disguise before the court. She fled to her lair in Dustwallow Marsh." },
+        { "Windsor died in the confrontation. Set down his name, traveller, if you record the dragon’s defeat. His part in it began long before anyone reached her lair." },
       },
     },
     ["hogger"] = {
@@ -1336,8 +1337,8 @@ ns.content = {
       unlock = { { kill = 448 } },
       also = { "gnolls", "goldshire" },
       text = {
-        { "The Riverpaw gnolls have many chiefs, but only one of them has his face on every wanted poster in Elwynn. Hogger is bigger than his kin, stronger, cleverer and a great deal meaner, and from his hill in the south-west of the forest he leads the raids that have the farmers of Elwynn barring their doors." },
-        { "Marshal Dughan of Goldshire will pay well for proof that he is dead. Many young heroes have gone to collect, and a fair number of them have come back carried." },
+        { "The wanted notice at Westbrook Garrison describes Hogger as a huge gnoll, camped to the south in south-western Elwynn. He belongs to the Riverpaw, and the Stormwind guards have been unable to capture him. A reward is offered for his claw." },
+        { "The notice advises bringing a group. Follow that advice, traveller. A guard’s admission that he needs help is more useful than an adventurer’s confidence that he does not." },
       },
     },
     ["katrana-prestor"] = {
@@ -1354,9 +1355,9 @@ ns.content = {
       unlock = { { kill = 1754 }, { quest = 434 } },
       also = { "defias-brotherhood", "si-7", "the-stockade" },
       text = {
-        { "Among the papers on Edwin VanCleef's body was a letter, sealed and never sent, addressed to the City Architect of Stormwind. It led, by way of the Stockade and a prisoner named Bazil Thredd, to a visitor who had come to see Thredd once or twice a week, under a false name, and from him to a man called Marzon the Silent Blade." },
-        { "Marzon answered to Lord Gregor Lescovar, a noble of the House, who had been passing the Brotherhood the secrets of the court. A lord so well connected was beyond the reach of any law. So SI:7's friends arranged a meeting in the castle gardens, and Lescovar and his blade did not leave it." },
-        { "The masons were wronged by the nobles. It is worth remembering that at least one noble was wronging the kingdom in return." },
+        { "A sealed letter found on Edwin VanCleef’s body began the investigation. Addressed to Stormwind’s City Architect, it led to Bazil Thredd in the Stockade, then to a visitor who had called on the prisoner under a false name. The trail eventually reached Marzon the Silent Blade." },
+        { "Marzon served Lord Gregor Lescovar, a noble passing court secrets to the Defias Brotherhood. Bringing so well-connected a man to justice presented difficulties. SI:7’s friends arranged a meeting in the castle gardens; Lescovar and Marzon were killed there." },
+        { "The Brotherhood began with the nobles’ refusal to pay the masons who rebuilt Stormwind. Keep Lescovar in the account too, traveller. One of those nobles was helping the enemies his own city now had to fight." },
       },
     },
     ["northshire-abbey"] = {
@@ -1364,9 +1365,8 @@ ns.content = {
       unlock = { { area = 9 }, { area = 24 } },
       also = { "elwynn-forest", "church-of-the-holy-light" },
       text = {
-        { "The clerics of Northshire came south from Lordaeron centuries ago to spread the faith of the Holy Light, and built their abbey in a quiet valley above the forest. For as long as Stormwind has had a church, Northshire has been its school and its conscience." },
-        { "The orcs burned it in the First War, and after the Second War the Archbishop, Alonsus Faol, raised it again and founded a new order there, the Brotherhood of Northshire, of priests, clerics and paladins together. Now the abbey trains the young of the kingdom in arms and in faith, and its monks keep a library I would dearly like an afternoon in." },
-        { "Even here the troubles of the kingdom reach: kobolds in the vineyards, wolves in the woods and Defias thieves in the hills. The brothers say their prayers and bar their doors." },
+        { "Northshire Abbey stands in a valley at Elwynn’s northern edge. Its clerics served Stormwind during the First War, before the kingdom fell to the Horde. After the Second War, Alonsus Faol helped rebuild the city and reform the Brotherhood of Northshire." },
+        { "The abbey now instructs the kingdom’s recruits in arms as well as faith. There is use for both close at hand: kobolds occupy the mine, wolves roam the valley, and Defias thieves have taken the vineyards. You need not travel far from your teachers to find your first responsibilities, traveller." },
       },
     },
     ["regency-of-stormwind"] = {
@@ -1374,9 +1374,9 @@ ns.content = {
       unlock = { { npc = 1748 }, { npc = 1747 } },
       also = { "katrana-prestor", "stormwind-city" },
       text = {
-        { "King Varian Wrynn, son of the murdered King Llane, raised as a boy among the refugees in Lordaeron, has vanished. He left Stormwind on a diplomatic voyage and never arrived, and no one in the kingdom can say, or will say, what became of him." },
-        { "His young son Anduin wears the crown in his place. The kingdom is held for him by Highlord Bolvar Fordragon, a paladin and soldier of the Alliance, who commands the city's forces and keeps the young king safe. At Bolvar's side, always, is the royal adviser, Lady Katrana Prestor." },
-        { "I have met Bolvar, and he is an honest man. But it is a dangerous thing for a kingdom to be ruled by its regent's advisers, and Stormwind's army is spread thin across a land that needs it everywhere." },
+        { "King Varian Wrynn has vanished. He was the son of King Llane, murdered in the First War, and grew up among Stormwind’s refugees in Lordaeron. His own fate remains unknown in the city he ruled." },
+        { "His young son Anduin wears the crown. Highlord Bolvar Fordragon holds the kingdom for him, commands its forces and guards the boy. The royal adviser, Lady Katrana Prestor, stands at Bolvar’s side." },
+        { "Stormwind’s army is spread thin, and demands arrive from every quarter. When you visit the keep, traveller, remember how much business has fallen to the people around that young throne." },
       },
     },
     ["si-7"] = {
@@ -1384,8 +1384,8 @@ ns.content = {
       unlock = { { npc = 332 } },
       also = { "noble-conspiracy", "defias-brotherhood" },
       text = {
-        { "SI:7 is the intelligence service of Stormwind, and if you can find its door you are either very clever or expected. Its master is Mathias Shaw, who works out of the barracks in Old Town and knows, as far as I can tell, something unflattering about everyone in the city." },
-        { "It is SI:7 that uncovered the Stonemasons' part in the Defias, SI:7 that watches the nobles, and SI:7's friends who settled the matter of Lord Lescovar when the law could not. Its agents are rogues in all but name, and Shaw does not apologise for it. A kingdom with enemies in its own court, he would say, needs people who can go where honest men cannot." },
+        { "Mathias Shaw directs Stormwind’s intelligence service from the barracks in Old Town. SI:7 concerns itself with the affairs that seldom reach a public notice board: the Defias, the secrets of the nobles, and the connections between them." },
+        { "Its investigations helped uncover the Stonemasons’ part in the Brotherhood and Lord Lescovar’s dealings with it. When the law offered no easy way to reach the noble, Shaw’s friends settled the matter in the castle gardens. If you are asked to assist the service, traveller, read the instructions carefully. They may tell you rather more about its methods than its name does." },
       },
     },
     ["stormwind-city"] = {
@@ -1394,7 +1394,7 @@ ns.content = {
       also = { "regency-of-stormwind", "defias-brotherhood", "church-of-the-holy-light", "si-7", "the-stockade", "elwynn-forest" },
       text = {
         { "Stormwind is the greatest city of men, and it is the second Stormwind to stand in this place. The first was sacked by the Horde in the First War and burned to the ground; King Llane was murdered, and his people fled north to Lordaeron with the champion Anduin Lothar. When the Second War was won, they came home and built it again." },
-        { "The masons of the Stonemasons' Guild raised it in white stone, finer than before: the Cathedral of Light, the harbour, the canals and the keep above them all. The House of Nobles then refused to pay them, and the masons' grievance has since become the Defias Brotherhood, so that the most beautiful city in the Alliance is also the most bitterly remembered." },
+        { "The masons of the Stonemasons' Guild raised it in white stone, finer than before: the Cathedral of Light, the canals and the keep above them all. The House of Nobles then refused to pay them, and the masons' grievance has since become the Defias Brotherhood, so that the most beautiful city in the Alliance is also the most bitterly remembered." },
         { "It is a city of trade and soldiers, of priests and spies, and of a court that whispers. The boy on the throne is its king; the men and women around him rule it." },
       },
     },
@@ -1403,8 +1403,8 @@ ns.content = {
       unlock = { { area = 717 } },
       also = { "defias-brotherhood", "noble-conspiracy", "stormwind-city" },
       text = {
-        { "The Stockade is the prison of Stormwind, dug into the rock beneath the canals, and for most of its life it has been a dull place. That changed when the Defias were caught and sent there in numbers. VanCleef's lieutenant, Bazil Thredd, was among them, and under his hand the inmates rose, took the cells and held them." },
-        { "The Warden asked for help, and got it from the kind of adventurers who do not ask too many questions about who they are killing. Among the rioters was an orc named Targorr the Dread, and the city has slept better since he stopped." },
+        { "Stormwind’s prison lies beneath its canals, cut into the rock below the city. Among the Defias confined there was Edwin VanCleef’s lieutenant, Bazil Thredd. Under his leadership the inmates rose and took control of the cells." },
+        { "The Warden called for adventurers to put down the revolt. Thredd was not the only dangerous prisoner within: the orc Targorr the Dread was among the rioters. It is an uncomfortable place to have an enemy stronghold, traveller, underneath the streets of your own capital." },
       },
     },
     ["bloodvenom-post"] = {
@@ -1467,7 +1467,7 @@ ns.content = {
       also = { "shendralar", "ogres", "satyrs", "feralas", "highborne-ruins" },
       text = {
         { "Dire Maul was Eldre'Thalas, a city of the Highborne, built in Queen Azshara's day to keep her most prized arcane secrets. It survived the Sundering, and much of it stands still, a city of white stone in the forest, its halls full of books and ghosts." },
-        { "Now it is broken into three. The Gordunni ogres hold the north, and crown a new king whenever the old one is killed. The satyr Alzzin the Wildshaper holds the east, and has corrupted the city's Fruit of Fertility into a foul thing called the Felvine. The west is still held by the last of the Highborne, the Shen'dralar, around their library, which I would give a great deal to read." },
+        { "Now it is broken into three. The Gordok ogres hold the north, and crown a new king whenever the old one is killed. The satyr Alzzin the Wildshaper holds the east, and has corrupted the city's Fruit of Fertility into a foul thing called the Felvine. The west is still held by the last of the Highborne, the Shen'dralar, around their library, which I would give a great deal to read." },
       },
     },
     ["feathermoon-stronghold"] = {
@@ -1475,8 +1475,8 @@ ns.content = {
       unlock = { { area = 1116 } },
       also = { "shandris-feathermoon", "feralas", "naga" },
       text = {
-        { "Feathermoon Stronghold stands on Sardor Isle, off the coast of Feralas, a fortress of the Sentinels with white walls and a harbour, reached by boat from the mainland. It is the night elves' great outpost in the south-west of Kalimdor, and it bears the name of its commander, General Shandris Feathermoon." },
-        { "From here the Sentinels fight the Hatecrest naga in the ruins of Solarsal and watch the ogres of the forest, and scholars study the old elven ruins of Feralas. Theirs is a lonely post. I liked it very much." },
+        { "Feathermoon Stronghold stands on Sardor Isle off Feralas’s coast, reached by boat from the mainland. General Shandris Feathermoon commands its Sentinels from white walls above a harbor. The fortress bears her name." },
+        { "Its soldiers oppose the Hatecrest naga at Solarsal and watch the forest’s ogres. Scholars also work among Feralas’s old elven ruins. An island outpost might seem remote to a traveller, but this one puts its garrison close to the coast it must defend." },
       },
     },
     ["feralas"] = {
@@ -1485,7 +1485,7 @@ ns.content = {
       also = { "feathermoon-stronghold", "camp-mojache", "dire-maul", "ogres", "grimtotem", "naga" },
       text = {
         { "Feralas is a land of rain and giants, on the west coast of Kalimdor: a forest of trees so tall their crowns are lost in the mist, with ancient ruins in their roots. The night elves built here long before the Sundering, and their stones are everywhere, overgrown and broken; the scholars of Feathermoon spend their lives among them, and still cannot say what half of them were." },
-        { "Today the forest belongs to the Gordunni ogres, who grow in number every year, to gnolls, yetis, naga on the coast and the Grimtotem in the hills. The Sentinels keep an island stronghold off the coast, the Horde a camp in the east, and in the heart of the forest stands the broken Highborne city the ogres call Dire Maul." },
+        { "Today the forest belongs to the Gordunni ogres, whose growing numbers concern the nearby settlements, to gnolls, yetis, naga on the coast and the Grimtotem in the hills. The Sentinels keep an island stronghold off the coast, the Horde a camp in the east, and in the heart of the forest stands the broken Highborne city the ogres call Dire Maul." },
       },
     },
     ["shandris-feathermoon"] = {
@@ -1493,8 +1493,9 @@ ns.content = {
       unlock = { { npc = 3936 } },
       also = { "tyrande-whisperwind", "feathermoon-stronghold", "burning-legion", "satyrs" },
       text = {
-        { "Shandris Feathermoon is the General of the Sentinels, the night elves' army. She was a girl when the Burning Legion first came, ten thousand years ago, and lost her family to the demons. Tyrande Whisperwind found her, and took her in, and Shandris followed her everywhere after that, into battle too, though Tyrande forbade it. When the satyr Xavius had Malfurion at his mercy, it was Shandris's arrow that saved him." },
-        { "She has stood at Tyrande's side ever since, through the Sundering and the long ages that followed. Today she commands from Feathermoon Stronghold, far from Darnassus, where the Sentinels are most needed." },
+        { "General Shandris Feathermoon commands the Sentinels from the stronghold bearing her name. Her service beside Tyrande began in the War of the Ancients, when she was a child fleeing Ara-Hinam, separated from her family and believed orphaned. Tyrande took her into her care." },
+        { "Shandris followed her into danger despite orders to remain behind. One of her arrows struck Xavius; Malfurion used the wood of its embedded shaft to overcome the satyr. The child had a part in the war before anyone would have chosen to give her one." },
+        { "She has stood beside Tyrande through the Sundering and the ages since. Today her command lies far from Darnassus, in Feralas. If you meet her there, traveller, you are meeting someone whose duty began in the same catastrophe that left so many of the forest’s ruins." },
       },
     },
     ["shendralar"] = {
@@ -1502,8 +1503,8 @@ ns.content = {
       unlock = { { npc = 14368 }, { kill = 11486 }, { kill = 11496 } },
       also = { "dire-maul", "burning-legion", "highborne-ruins" },
       text = {
-        { "The Shen'dralar are the last Highborne of Eldre'Thalas, sorcerers who have lived in their city since before the Sundering. Cut off from the Well of Eternity, they found another source for their magic: a demon, Immol'thar, whom they bound in a prison under the city, held by five pylons, and drained of his power for thousands of years. It is that power that keeps them alive." },
-        { "Their prince, Tortheldrin, rules them still, and their ghosts haunt the halls around him. But not every Shen'dralar wishes to go on like this. Some have given up their immortality for freedom, and the keepers of their great library, the Athenaeum, will reward those who help them with what they know. The age of the immortals, one of them told me, has long since passed." },
+        { "The Shen’dralar have remained in Eldre’Thalas since before the Sundering. Cut off from the Well of Eternity, they bound the demon Immol’thar beneath their city with five pylons. For thousands of years they have drained his power to sustain themselves." },
+        { "Prince Tortheldrin still rules, surrounded by halls haunted with his people’s ghosts. Some Shen’dralar have chosen freedom over immortality. The Shen’dralar Ancient asks for Tortheldrin’s death and peace for the spirits, while keepers of the Athenaeum reward help with their knowledge. There is a remarkable library here, traveller, but the history of how its people survived deserves equal attention." },
       },
     },
     ["foreword-dwarf"] = {
@@ -1511,10 +1512,10 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { Dwarf = true },
       text = {
-        { "Traveller, if this ledger has found its way into your pack, then the Hall of Explorers has judged you worth the ink." },
-        { "The League records everything: the stones our ancestors cut, the names of the clans, the wars that broke them and the roads that bound them together again. Most of it sleeps in the vaults beneath Ironforge, where no one reads it. Better that it should travel." },
-        { "Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { "Traveller, welcome to this ledger of Azeroth. I have begun with the country around Ironforge, where a dwarf may know every road and still have questions about the stones beside it." },
+        { "The pages follow our clans, the wars that divided them, and the older works the League is trying to understand. They follow other peoples too. Our history has crossed theirs often enough that a book confined to dwarves would leave much unexplained." },
+        { "Carry it with you, and read a page when a place gives you reason to pause. A ruin is easier to notice than the life it once sheltered. Both deserve a place in the record." },
+        { italic = true, "An archivist of the Explorers’ League, Hall of Explorers, Ironforge" },
       },
     },
     ["foreword-gnome"] = {
@@ -1522,10 +1523,10 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { Gnome = true },
       text = {
-        { "Traveller, this ledger was bound for one of the gnomes, and I write the first page of it with some care. Your city still stands beneath the snows of Dun Morogh, and you cannot go home." },
-        { "Ironforge has given your people a corner of its halls, and you have filled it with more noise and cleverness than the mountain has heard in a thousand years. We are honoured, mostly. The League keeps a shelf for Gnomeregan, and one day I hope to close it with a happier entry than the last." },
-        { "Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { "Traveller, I have written this first page for a gnome with some care. Gnomeregan still lies beneath Dun Morogh, and your people cannot yet return to it. A ledger of old places ought to recognise that some losses are still being lived through." },
+        { "Ironforge has offered your people shelter. You have brought ingenuity and a considerable quantity of noise into our halls; we are glad of the company, with occasional reservations about the noise. The account of Gnomeregan is here, along with the country its exiles now share." },
+        { "Read these pages wherever your work takes you. I hope the entry about your home will one day need a happier addition. Until then, its history belongs beside the inventions and errands that may help you recover it." },
+        { italic = true, "An archivist of the Explorers’ League, Hall of Explorers, Ironforge" },
       },
     },
     ["foreword-human"] = {
@@ -1533,10 +1534,10 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { Human = true },
       text = {
-        { "Traveller, this ledger was bound for a reader of Stormwind, and I am glad of it. Your people and mine have stood together since the Second War, when the Horde came north, and there is hardly a battle in our records since without a human name beside a dwarven one." },
-        { "Your kingdom has been burned to the ground once already and raised again, stone by stone, by masons who are still waiting to be paid. You will find that story in these pages, and others your heralds prefer not to sing." },
-        { "Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { "Traveller, I am glad to send this ledger to a reader of Stormwind. Your people and mine have stood together since the Second War; our accounts of the battles since have seldom lacked names from both." },
+        { "Stormwind was destroyed and rebuilt. Its new stonework is a great achievement, and the unpaid masons who raised it are part of its history too. You will find that account here beside the stories your kingdom has more reason to celebrate." },
+        { "Use the book as you travel. Towns, ruins and roads can tell you how a country came to be as you find it, provided someone keeps track of the people who made them." },
+        { italic = true, "An archivist of the Explorers’ League, Hall of Explorers, Ironforge" },
       },
     },
     ["foreword-nightelf"] = {
@@ -1555,10 +1556,10 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { Orc = true },
       text = {
-        { "Traveller, this ledger was bound for one of the orcs, and you may wonder why a dwarf of Ironforge would write for you at all. Our grandfathers fought, and I will not pretend otherwise. But the League has always held that knowledge belongs to whoever goes looking for it, and you, it seems, have gone looking." },
-        { "Your people came into this world through the Dark Portal, were beaten, and spent long years in the camps of Lordaeron. Then a young warchief named Thrall led you across the sea to a red land he named Durotar, after his father. That is more history than most peoples make in a thousand years, and the League has written down what it could." },
-        { "Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { "Traveller, you may wonder why a dwarf of Ironforge has written a ledger for an orc. Our peoples have fought, and the pages do not hide it. That gives us reason to understand what happened, even where we disagree about it." },
+        { "The Dark Portal brought your people here. Defeat brought them into Lordaeron’s camps; Thrall led them out and across the sea to Durotar, named for his father. The League has tried to follow that history alongside the lives it crossed." },
+        { "Take the book on your journeys. You will find old enemies in it, but also places and people whose stories reach beyond either of our banners." },
+        { italic = true, "An archivist of the Explorers’ League, Hall of Explorers, Ironforge" },
       },
     },
     ["foreword-other"] = {
@@ -1566,10 +1567,10 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { other = true },
       text = {
-        { "Traveller, if this ledger has found its way into your pack, then the Hall of Explorers has judged you worth the ink." },
-        { "The League records everything: the stones our ancestors cut, the names of the clans, the wars that broke them and the roads that bound them together again. Most of it sleeps in the vaults beneath Ironforge, where no one reads it. Better that it should travel." },
-        { "Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { "Traveller, welcome. This ledger follows Azeroth’s towns, ruins and roads, and the people whose lives have left them as you find them. You need no particular ancestry to take an interest in where you are standing." },
+        { "I write from Ironforge’s Hall of Explorers, where the League gathers records and studies what its diggers bring home. A dwarf’s account will have a dwarf’s interests, but the world has given us more to investigate than the affairs of our own clans." },
+        { "Read a page when your travels bring you to its place. The stones may have survived better than the names; I have tried to keep both within reach." },
+        { italic = true, "An archivist of the Explorers’ League, Hall of Explorers, Ironforge" },
       },
     },
     ["foreword-tauren"] = {
@@ -1577,10 +1578,10 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { Tauren = true },
       text = {
-        { "Traveller, this ledger was bound for one of the tauren, and I write it knowing that your people keep their history in songs and in the memory of the land, not in ink. Take these pages as a dwarf's attempt to listen." },
-        { "For generations your tribes wandered the plains of Kalimdor, harried by the centaur. Cairne Bloodhoof gathered them with the help of the orcs, and now they have a home in Mulgore, on the high mesas of Thunder Bluff, under the eye of the Earth Mother. The League has walked many of the same roads, and has tried to tread lightly." },
-        { "Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { "Traveller, your people keep much of their history in songs and the memory of the land. I offer these pages as a dwarf’s attempt to listen and set down what he has understood." },
+        { "The tauren wandered Kalimdor’s plains for generations under pressure from the centaur. Cairne Bloodhoof, with the orcs’ help, gathered the tribes into Mulgore. Thunder Bluff now stands above the grasslands as a home for people long denied a settled one." },
+        { "Your homeland has its place here, alongside others you may visit. Read their accounts with the same attention you give your own elders. I would be glad if a traveller found something worth remembering in them." },
+        { italic = true, "An archivist of the Explorers’ League, Hall of Explorers, Ironforge" },
       },
     },
     ["foreword-troll"] = {
@@ -1588,7 +1589,7 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { Troll = true },
       text = {
-        { "Traveller, this ledger was bound for one of the Darkspear, and I will begin with an admission: troll history is older than ours, and the League holds only the corners of it. Your kind built empires in the jungles of the south and the forests of the north long before Ironforge was more than a cave." },
+        { "Traveller, this ledger was bound for one of the Darkspear, and I will begin with an admission: troll history is older than ours, and the League holds only the corners of it. Your kind built empires in the jungles of the south and the forests of the north long before the kingdoms of men arose." },
         { "Your tribe was small and hard pressed when Thrall's ships found you on your islands, and you have kept faith with the Horde ever since, on the shores of Durotar beneath Sen'jin's name. Where these pages fall short of what your elders could tell, trust your elders." },
         { "Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home." },
         { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
@@ -1599,10 +1600,10 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { Scourge = true },
       text = {
-        { "Traveller, this ledger was bound for one of the Forsaken, and I will be honest: I did not know how to begin it. Many of the places in these pages you may remember from a life before, when Lordaeron was a kingdom and its capital stood above the ground." },
-        { "Your people broke free of the Lich King's will and follow the Banshee Queen now, from the halls beneath the ruined city. What you have become, the League does not pretend to understand. What you were, it has tried to record faithfully." },
-        { "Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { "Traveller, I have found this first page harder to write than most. You may remember Lordaeron’s towns as they were before the plague, when its capital stood above the ground. I know them through the records of people who no longer live there." },
+        { "The Forsaken freed themselves from the Lich King and now follow Sylvanas beneath that ruined city. The League has tried to record both the kingdom that fell and the people who remain. Much about your present life lies beyond a dwarf’s understanding." },
+        { "Carry the ledger if it is useful to you. Where a place recalls something these pages cannot tell, your own memory may supply what our records lack." },
+        { italic = true, "An archivist of the Explorers’ League, Hall of Explorers, Ironforge" },
       },
     },
     ["dun-garok"] = {
@@ -1619,8 +1620,9 @@ ns.content = {
       unlock = { { area = 275 }, { quest = 508 } },
       also = { "thrall", "syndicate", "hillsbrad-foothills" },
       text = {
-        { "Durnholde Keep was the fortress that ruled the internment camps after the Second War, where the defeated orcs of the Horde were kept behind walls. Its master was Lord Aedelas Blackmoore, and it was here that he raised an orc child as a slave and a gladiator, meaning to make him the general of a tame army. The orc's name was Thrall." },
-        { "A girl of the household, Taretha Foxton, befriended the slave and helped him escape, and he went on to free his whole people. Blackmoore is dead now, and the keep belongs to the Syndicate. Its lord, Aliden Perenolde, dreamed of putting the orcs back in chains as Blackmoore had, and he gave Taretha's pendant to his mistress as a trinket. Thrall has never forgotten Taretha. His agents came to Hillsbrad for that pendant, and the Warchief has it back now." },
+        { "Durnholde controlled the orc internment camps after the Second War. Its master, Aedelas Blackmoore, raised an orc child as a slave and gladiator, intending him to command an obedient army. The child was Thrall. Taretha Foxton, a girl of Blackmoore’s household, befriended him and helped him escape." },
+        { "Thrall went on to free his people. Blackmoore is dead, and the Syndicate holds the keep. His ambitions survived elsewhere: at a manor beside Lordamere Lake, Aliden Perenolde planned to enslave orcs in his turn. His companion Elysa carried Taretha’s pendant." },
+        { "Thrall’s agents came to Hillsbrad to recover it, and the Warchief has it again. A pendant is a small thing to set beside the fall of a fortress, traveller. It preserves the name of someone whose help made that fall possible." },
       },
     },
     ["hillsbrad-foothills"] = {
@@ -1637,8 +1639,8 @@ ns.content = {
       unlock = { { area = 271 } },
       also = { "hillsbrad-foothills", "tarren-mill", "syndicate" },
       text = {
-        { "Southshore is a fishing town and harbour on the coast of Hillsbrad, and the strongest place left to the living in these hills: an inn, a town hall, a magistrate, and a garrison that has been fighting the Forsaken of Tarren Mill for as long as either has been there." },
-        { "It has a town historian, Kundric Zanden, who keeps its records with a diligence I find touching, and the loremasters of Stormwind send their scholars through it on their way to the ruins of Alterac. I spent a week here once. It was the best week of fish I have ever eaten." },
+        { "Southshore is a fishing town and harbor on Hillsbrad’s coast, with an inn, a town hall and a garrison fighting the Forsaken of Tarren Mill. It remains a stronghold of the living in a country where that distinction matters." },
+        { "Kundric Zanden keeps its history, and Stormwind’s loremasters send scholars through the town towards Alterac’s ruined libraries. I am glad to find records kept in such a place. A traveller can obtain supplies here, but can also learn something of the country those supplies must carry them through." },
       },
     },
     ["tarren-mill"] = {
@@ -1646,8 +1648,8 @@ ns.content = {
       unlock = { { area = 272 } },
       also = { "the-forsaken", "royal-apothecary-society", "southshore", "varimathras" },
       text = {
-        { "Tarren Mill was a village of millers and farmers in the hills above Hillsbrad. The Forsaken have it now, and it is their stronghold in the south, held by the Deathguard under a High Executor who answers to Varimathras himself." },
-        { "Her orders are plain, and I have seen them: to raid the farms of Hillsbrad and quell what she calls the human infestation, until the apothecaries can finish their new plague. Southshore lies a short ride to the south, and the two towns have been at war since the Forsaken came." },
+        { "Millers and farmers once occupied Tarren Mill. The Forsaken now hold it as a southern stronghold, with Deathguard serving a High Executor who answers to Varimathras. Southshore is only a short ride away." },
+        { "Darthalia orders raids against Hillsbrad’s farms and calls their human inhabitants an infestation. She means to subdue them while the apothecaries finish their new plague. The war between these towns reaches well beyond their guards, traveller; the farmers and their crops are named in its orders." },
       },
     },
     ["aerie-peak"] = {
@@ -1664,8 +1666,8 @@ ns.content = {
       unlock = { { npc = 5635 } },
       also = { "wildhammer-clan", "aerie-peak" },
       text = {
-        { "Falstad Wildhammer is the High Thane of the Wildhammer clan, and he rules Aerie Peak from among its gryphon roosts. He is a famous rider himself and a hard, cheerful dwarf, very much a Wildhammer: he will drink with you, laugh at you, and tell you that Ironforge's halls would do it good to see some sky." },
-        { "His people are not part of Ironforge, and he will remind anyone who forgets. But the Wildhammer have stood with the Alliance before, and Falstad keeps that faith in his own way. He is also, I happen to know, very good company." },
+        { "High Thane Falstad Wildhammer rules Aerie Peak among its gryphon roosts. The riders’ work reaches far beyond the Hinterlands: when Brohann Caskbelly seeks a pilot lost over the Swamp of Sorrows, he sends adventurers to Falstad for news." },
+        { "The Wildhammer govern themselves. Their independence does not erase their history with the Alliance, and Falstad remains a useful contact for those seeking its gryphon riders. Do not mistake a shared cause for rule from Ironforge, traveller. His clan has its own thane and its own home." },
       },
     },
     ["jinthaalor"] = {
@@ -1682,8 +1684,8 @@ ns.content = {
       unlock = { { area = 350 } },
       also = { "wildhammer-clan", "revantusk-village", "forest-trolls" },
       text = {
-        { "Quel'Danil Lodge is a hunting lodge of the high elves in the forests of the Hinterlands, a long way south of their homeland of Quel'Thalas. Its rangers, the Highvale, keep company with the Wildhammer, hunt the hills and fight the trolls, as the elves of Quel'Thalas have always fought the Amani." },
-        { "Quel'Thalas itself lies north of the Plaguelands, behind the ruin the Scourge made of it, and its people do not speak much of what happened there. The elves of Quel'Danil are courteous and very sad. I have never asked them why. I did not need to." },
+        { "Quel’Danil Lodge is the Highvale elves’ home in the Hinterlands, well south of Quel’Thalas. Its rangers hunt the hills, oppose the forest trolls and keep company with the Wildhammer. Their alliance with the dwarves is part of a much older quarrel between the elves and the Amani." },
+        { "Their homeland lies beyond the Plaguelands, devastated by the Scourge. Here the lodge remains a place of communication, with ambassadors seeking relations among other peoples. If you visit, traveller, you will find a small settlement whose concerns reach well beyond its hunting grounds." },
       },
     },
     ["revantusk-village"] = {
@@ -1691,8 +1693,8 @@ ns.content = {
       unlock = { { area = 3317 } },
       also = { "forest-trolls", "jinthaalor", "queldanil-lodge" },
       text = {
-        { "Revantusk Village is a village of forest trolls on the eastern coast of the Hinterlands, and the only forest trolls in the world who have taken the Horde's side. The Revantusk are a small tribe and hard pressed, and they fight the Vilebranch of Jintha'Alor, who took their elder for a sacrifice, and the Wildhammer, who have made friends with the high elves." },
-        { "Their hatred of the high elves is older than anyone's memory: the Amani and the elves of Quel'Thalas have been enemies since the elves first came to these lands. The orcs of the Horde do not ask too many questions about it." },
+        { "The Revantusk hold a village on the Hinterlands’ eastern coast. They are forest trolls allied with the Horde, a small tribe pressed by larger neighbours. The Vilebranch took their elder for sacrifice, and the Wildhammer’s friendship with the high elves gives them another quarrel close at hand." },
+        { "The Amani and the elves of Quel’Thalas have been enemies since the elves settled these lands. That older hostility lives on among the Revantusk. Their place in the Horde does not make the Hinterlands’ disputes simple, traveller; it gives outsiders a reason to become involved in them." },
       },
     },
     ["shadra"] = {
@@ -1737,9 +1739,8 @@ ns.content = {
       unlock = { { area = 147 } },
       also = { "loch-modan" },
       text = {
-        { "In the south-east of Loch Modan stands a hunters' lodge, built in the graceful style of the elves and named for the Farstriders, the far-ranging rangers of Quel'Thalas. Its hunters today are mostly dwarves and men, under Marek Ironheart." },
-        { "The best trackers of the loch country gather there to trade stories, skins and advice, and to train those who would follow the hunter's path. They know every trail between the dam and the southern hills, and the habits of every bear and boar on them." },
-        { "If you mean to hunt in Loch Modan, start here. They will tell you where to go, and more importantly where not to." },
+        { "Hunters gather at the Farstrider Lodge in south-eastern Loch Modan. Marek Ironheart trades in crocolisk meat and skins, while Daryl the Young offers challenges to anyone willing to test their skill. There is ample work here for a bow, and no shortage of conversation about who handles one best." },
+        { "Vyrin Swiftwind proposes a different test. She wants Ol’ Sooty killed as part of a scheme to expose Daryl’s boasting. You may learn something about hunting at the lodge, traveller, but you will learn a good deal about hunters too." },
       },
     },
     ["ironbands-excavation-site"] = {
@@ -1777,9 +1778,8 @@ ns.content = {
       unlock = { { area = 146 }, { area = 556 } },
       also = { "loch-modan", "dark-iron-dwarves" },
       text = {
-        { "The Stonewrought Dam closes the northern end of Loch Modan: one of the great works of Khaz Modan, and a source of quiet pride to every engineer in Ironforge." },
-        { "The League enjoys a quieter joke about it. The dam was designed by Franclorn Forgewright, an architect of the Dark Iron clan, whose \"stonewrought\" method gave it its name. Now the Dark Irons attack the very dam one of their own designed, and Ironforge has had to double its guard under Chief Engineer Hinderweir." },
-        { "Stand on top of it and look down at the valley below, then back at the water. You will understand at once why it is guarded so closely." },
+        { "The Stonewrought Dam holds the northern end of the Loch. Its wall and waterfall are among the great sights of Khaz Modan. Take time to admire them, traveller; a great deal of work went into giving you that view." },
+        { "Chief Engineer Hinderweir has found a Dark Iron plot against the dam. His investigation leads to an explosive keg and the mixture needed to disarm it. The dwarves guard this work closely, with good reason. People depend on the wall holding, and Hinderweir has rather more at stake than an engineer’s pride." },
       },
     },
     ["thelsamar"] = {
@@ -1797,7 +1797,7 @@ ns.content = {
       unlock = { { area = 924 } },
       also = { "loch-modan", "war-of-the-three-hammers" },
       text = {
-        { "In the south-west of Loch Modan, where the road turns south towards the Searing Gorge, two great kings of stone stand watch: Madoran Bronzebeard and Khardros Wildhammer, who led their clans in the War of the Three Hammers." },
+        { "In the south-west of Loch Modan, two great kings of stone stand watch: Madoran Bronzebeard and Khardros Wildhammer, who led their clans in the War of the Three Hammers." },
         { "Their sons raised these statues after their deaths, to honour them and to warn whoever came up that road that the dwarven kingdoms would not be taken. The Dark Irons were to the south then, as they are now. The message has not changed." },
         { "Stop and look up, traveller. Bronzebeard and Wildhammer stand side by side here, as they rarely have anywhere since." },
       },
@@ -1807,8 +1807,8 @@ ns.content = {
       unlock = { { npc = 11832 }, { area = 2362 } },
       also = { "moonglade", "cenarion-circle", "dragons-of-nightmare", "eranikus", "tyrande-whisperwind" },
       text = {
-        { "Remulos is the son of Cenarius, the demigod of the forest, and the keeper of the Moonglade. He has the shape of a great stag below the waist, like his father, and he has watched over the druids for ten thousand years, since they first learned their craft from Cenarius." },
-        { "He is grave and kind, and very worried. The green dragons are coming out of the Dream, and the Nightmare is in them. When Eranikus, the consort of Ysera, was summoned to the Moonglade, the Nightmare came with him, and Nighthaven had to be defended against him until Tyrande arrived to redeem him. Remulos is not a soldier. I am glad he had friends." },
+        { "Keeper Remulos is Cenarius’s son, with his father’s stag-like lower body. Druids come to his shrine in Moonglade for aid. The Nightmare spreading through the Emerald Dream has given them urgent reason to seek it." },
+        { "When Eranikus, Ysera’s consort, was summoned here, the Nightmare came with him. Remulos defended Nighthaven while his allies fought to free the dragon. Tyrande arrived to redeem Eranikus. A traveller may know Moonglade as a place of peace; its keeper has had to fight for that peace at the heart of the village." },
       },
     },
     ["moonglade"] = {
@@ -1825,8 +1825,8 @@ ns.content = {
       unlock = { { area = 2363 } },
       also = { "moonglade", "keeper-remulos", "dragons-of-nightmare", "tyrande-whisperwind" },
       text = {
-        { "Beneath the hills of the Moonglade lie the barrow dens of the druids, where they sleep in the Emerald Dream, sometimes for years at a time, while their spirits walk in it. They are named for Malfurion Stormrage, the first of the druids." },
-        { "In the last war, Tyrande had to wake the druids from these dens to fight the demons. Malfurion sleeps again now, in the Dream, and he has not come back. With the Nightmare spreading through the Dream, the druids who keep watch here are troubled, and so is Remulos." },
+        { "Druids sleep beneath Moonglade’s hills while their spirits walk the Emerald Dream, sometimes for years. These barrow dens bear Malfurion Stormrage’s name, recalling the first druid and the long practice of his followers." },
+        { "During the Third War, Tyrande called sleeping druids back to face the Legion. Malfurion is now missing, his fate unknown to the druids. With the Nightmare spreading, the keepers of the dens and Remulos have reason to fear for those within the Dream. Tread carefully here, traveller. The stillness above the sleeping druids tells little of what their spirits may be facing." },
       },
     },
     ["bloodhoof-village"] = {
@@ -1862,9 +1862,9 @@ ns.content = {
       unlock = { { quest = 776 }, { area = 1640 } },
       also = { "camp-narache", "bloodhoof-village", "red-rocks", "thunder-bluff" },
       text = {
-        { "The tauren call the land their most holy provider, and they worship it in the person of the Earth Mother, who made the world and every living thing on it, and to whom all things return in death. A tauren does not take from the land without need, and does not waste what he takes. Their shamans speak with the spirits of the earth, their seers read visions, and their dead are laid to rest where the ancestors can watch over the living." },
-        { "Every young tauren must pass the Rites of the Earth Mother before the elders of Thunder Bluff will accept them: the Rite of Strength, against the enemies of the tribe; the Rite of Vision, drinking the Water of the Seers and following what appears in the fire; and the Rite of Wisdom, receiving the blessing of the ancestors at Red Rocks. Then they climb to Thunder Bluff and stand before the High Chieftain." },
-        { "I have watched a tauren hunter thank a kodo before he killed it, and I have thought about it since." },
+        { "The tauren revere the Earth Mother as the source of the world and its life. Their traditions teach respect for the land’s gifts and care against waste. Shamans speak with its spirits, seers follow visions, and the ancestors remain part of the lives of those who come after them." },
+        { "Young tauren undertake the Rites of the Earth Mother before the elders of Thunder Bluff accept them. Strength is proved against the tribe’s enemies. Vision comes through the Water of the Seers and what appears in the fire. Wisdom requires the ancestors’ blessing at Red Rocks. The journey ends before the High Chieftain." },
+        { "Attend to the rites if you wish to understand your hosts, traveller. Hunting, memory and the land are joined in the way a young tauren earns a place among them." },
       },
     },
     ["ghost-howl"] = {
@@ -1872,8 +1872,8 @@ ns.content = {
       unlock = { { kill = 3056 }, { quest = 770 } },
       also = { "mulgore", "burning-legion", "bloodhoof-village" },
       text = {
-        { "On the plains around the foot of Thunder Bluff roams a great white wolf the tauren call Ghost Howl. He fought the Burning Legion in the last war, alongside the tauren, and they honoured him for it. A demon's blow left a wound in his side that has never healed." },
-        { "It has not healed in him, either. The pain has turned him against the people he once fought for, and he wanders Mulgore alone now, savage and old. The hunters of Bloodhoof Village speak of him with sorrow rather than anger; at least one of them tried, in his youth, to put the wolf out of his misery, and failed. Whoever finally does it will carry his scarred hide back to them, and they will understand." },
+        { "Ghost Howl is a great wolf of Mulgore whose hide bears a terrible wound from fighting the Burning Legion. The scar gives this particular hunter’s trophy a history beyond the chase across the plains." },
+        { "Skorn Whitecloud recognises the hide at Bloodhoof Village. He offers the hunter one of his weapons and hopes the wolf’s spirit has found peace. Bring him the trophy, traveller, and you will hear respect for the creature alongside praise for the person who overcame it." },
       },
     },
     ["hamuul-runetotem"] = {
@@ -1881,8 +1881,8 @@ ns.content = {
       unlock = { { npc = 5769 } },
       also = { "cairne-bloodhoof", "cenarion-circle", "thunder-bluff" },
       text = {
-        { "Hamuul Runetotem is the Arch Druid of Thunder Bluff and the first tauren in many generations to walk the druid's path. He saw the druids of the night elves fight at Mount Hyjal, sought them out when the war was over, and asked to be taught; he learned so well that the Cenarion Circle now counts him among its leaders." },
-        { "He is one of Cairne's most trusted counsellors, and he keeps the druids of Elder Rise. The tauren were made for that path, I suspect: patient, rooted and slow to anger. But it took a war to bring them to it, and a tauren of unusual humility to ask an elf for lessons." },
+        { "Arch Druid Hamuul Runetotem stands on Thunder Bluff’s Elder Rise, among the tauren’s teachers and spiritual leaders. His place there gives the druids a voice in the city as well as a home." },
+        { "Reports from the Wailing Caverns bring adventurers to him from beyond Mulgore. He sends them to Nara Wildmane to continue the enquiry. The work of the Cenarion Circle reaches into tauren country, traveller; following one troubled cavern’s history can bring you to this mesa and its druids." },
       },
     },
     ["mulgore"] = {
@@ -1908,9 +1908,9 @@ ns.content = {
       unlock = { { area = 1638 } },
       also = { "cairne-bloodhoof", "hamuul-runetotem", "mulgore", "grimtotem" },
       text = {
-        { "Thunder Bluff is built on top of a cluster of mesas, hundreds of feet above the grass of Mulgore, and the only way up is by the great lifts at either end, unless you have a wind rider. The rises are joined by rope bridges that sway in the wind. A dwarf who does not like heights should leave his pride at the bottom." },
-        { "It is the first city the tauren have ever had. For countless generations they were nomads, and the centaur saw to it that they never stayed anywhere long; when Cairne Bloodhoof and the orcs drove the centaur off, he built his people a refuge here, and tribe after tribe has come to it. Now it is a city of traders and artisans, of hunters back from the plains, of druids on Elder Rise and shamans and seers on the Spirit Rise." },
-        { "There are tauren who quarrel with the way Cairne leads them, the Grimtotem first among them. But every tauren I have met agrees that he is the wisest of them all." },
+        { "Thunder Bluff stands high on Mulgore’s mesas, reached by great lifts or a wind rider. Rope bridges join its rises. An Ironforge dwarf accustomed to solid floors may want to look where he puts his feet before looking at the view." },
+        { "Cairne built this refuge after the tauren and orcs drove back the centaur. Tribes long accustomed to wandering gathered here. Traders and artisans now share it with hunters, Elder Rise’s druids, and the shamans and seers of Spirit Rise." },
+        { "Cairne remains High Chieftain at its centre. The Grimtotem are among those who oppose his leadership. A traveller sees a people with a city at last, though a permanent home has not ended the disagreements among its tribes." },
       },
     },
     ["argent-dawn"] = {
@@ -1918,9 +1918,9 @@ ns.content = {
       unlock = { { npc = 10839 }, { npc = 10856 }, { npc = 10840 }, { npc = 10857 }, { npc = 11034 }, { npc = 11039 }, { faction = 529, standing = 5 } },
       also = { "scourge", "scarlet-crusade", "the-bulwark" },
       text = {
-        { "The Argent Dawn fights the Scourge and asks no one's banner. Its knights, priests and scholars come from every race of both the Alliance and the Horde, and it keeps faith with neither: it is enough for the Dawn that you fight the dead. Its seat is Light's Hope Chapel, in the Eastern Plaguelands, under Lord Maxwell Tyrosus." },
-        { "Its officers keep posts at the Bulwark in Tirisfal and at Chillwind Camp, where they will reward anyone who brings them the scourgestones the dead carry, and its envoys sit in Stormwind, Darnassus and as far away as Everlook. I have dealt with them often. They are courteous, they are tired, and they are almost always right." },
-        { "The Dawn and the Scarlet Crusade fight the same enemy and cannot abide each other. The Dawn sees the Crusade's hatred of every stranger as a gift to the Lich King, and says so." },
+        { "The Argent Dawn recruits against the Scourge from both Alliance and Horde. Its knights, priests and scholars ask what a traveller is prepared to fight, rather than which banner they follow. Lord Maxwell Tyrosus leads it from Light’s Hope Chapel in the Eastern Plaguelands." },
+        { "Officers at Chillwind Camp and the Bulwark issue commissions and accept the scourgestones carried by the dead. Envoys work in Stormwind, Darnassus and Everlook. The Dawn has made its war a cause people of either faction can join." },
+        { "It shares an enemy with the Scarlet Crusade and little affection for its methods. The Dawn regards the Crusade’s suspicion of every stranger as aid to the Lich King. There is practical sense in that objection: the fight already has enemies enough." },
       },
     },
     ["black-dragonflight"] = {
@@ -1928,9 +1928,9 @@ ns.content = {
       unlock = { { kill = 441 }, { kill = 2725 }, { kill = 4323 }, { kill = 4324 }, { kill = 7040 }, { kill = 7041 }, { kill = 7042 }, { kill = 7043 }, { kill = 7044 }, { kill = 7045 }, { kill = 7046 }, { kill = 7047 }, { kill = 7048 }, { kill = 7049 }, { kill = 9096 }, { kill = 9461 }, { kill = 10083 }, { kill = 10366 }, { kill = 10371 }, { kill = 10372 }, { kill = 11262 }, { kill = 12129 }, { kill = 12260 }, { kill = 12422 }, { kill = 12460 }, { kill = 12463 }, { kill = 12464 }, { kill = 12465 }, { kill = 12467 }, { kill = 12468 }, { kill = 14388 } },
       also = { "red-dragonflight", "blackrock-clan", "great-masquerade", "katrana-prestor" },
       text = {
-        { "Of the five great flights of dragons, the black were made to guard the deep places of the earth, and their master was the Earth-Warder, Neltharion. He betrayed them all. After the Second War he walked among the kings of men in a human guise, and when his schemes came to light the world learned his true name: Deathwing. Where he went after that, no one can say for certain." },
-        { "His children have not been idle. His daughter Onyxia keeps a lair in the Dustwallow Marsh, and her brood has spread through the swamp around it. His son Nefarian has made Blackrock Spire his roost, rules the Blackrock orcs from above them, and is said to be breeding dragons of every colour together in the dark, to what end I shudder to imagine." },
-        { "Their whelps nest in Redridge, the Badlands and the Burning Steppes, and their dragonspawn walk on two legs with blade and spell. A black dragon will wear a mortal's face if it suits its purpose. If a lord or lady of the court seems to know too much, and to love the kingdom too little, remember that." },
+        { "Neltharion was the Earth-Warder, charged with guarding the world’s deep places. His betrayal of the other dragonflights gave him the name Deathwing. After the Second War he entered the councils of human kings as Lord Prestor, hiding a dragon behind a nobleman’s face. He escaped the Aspects after the struggle at Grim Batol; his present refuge is unknown in these accounts." },
+        { "His children occupy places we can name. Onyxia keeps a lair and brood in Dustwallow Marsh. Nefarian holds Blackrock Spire, commands its orcs and breeds chromatic dragons above them. Black whelps nest in Redridge, the Badlands and the Burning Steppes, while armed dragonspawn serve the flight on the ground." },
+        { "A black dragon’s power includes choosing when to appear as something else. Remember Lord Prestor, traveller, if a courtier’s knowledge and loyalties begin to trouble you." },
       },
     },
     ["blackrock-clan"] = {
@@ -1939,7 +1939,7 @@ ns.content = {
       also = { "black-dragonflight", "eitrigg" },
       text = {
         { "The Blackrock were the greatest clan of the old Horde. Their chieftain Blackhand led it as Warchief in the First War, until Orgrim Doomhammer broke his skull and took the title, and Doomhammer was a Blackrock too. When the Horde fell, most of the clan went into the camps with everyone else, and many of those who came out followed Thrall." },
-        { "Not all of them. Blackhand's sons, Rend and Maim, gathered what was left of their father's clan inside Blackrock Mountain, and there they keep the old ways: the conquest, the cruelty and the cult of the Warchief. Rend calls himself Warchief to this day, and gives Thrall's name nothing but contempt. Worse, he has thrown in with the black dragons who roost in the upper Spire." },
+        { "Not all of them. Blackhand's sons, Rend and Maim, gathered survivors inside Blackrock Mountain. Rend's followers still keep the old ways: the conquest, the cruelty and the cult of the Warchief. Rend calls himself Warchief to this day, and gives Thrall's name nothing but contempt. Worse, he has thrown in with the black dragons who roost in the upper Spire." },
         { "From the mountain the clan raids north and west. They hold the Burning Steppes, they have taken Stonewatch Keep in Redridge, and the people of Lakeshire live within sight of their fires. Whatever the Horde has become in Durotar, this is what it was." },
       },
     },
@@ -1957,8 +1957,8 @@ ns.content = {
       unlock = { { kill = 89 }, { kill = 3102 }, { kill = 3772 }, { kill = 3774 }, { kill = 4676 }, { kill = 4677 }, { kill = 4678 }, { kill = 4679 }, { kill = 4680 }, { kill = 4681 }, { kill = 4682 }, { kill = 4684 }, { kill = 4685 }, { kill = 5760 }, { kill = 6010 }, { kill = 6011 }, { kill = 6071 }, { kill = 6072 }, { kill = 6073 }, { kill = 6115 }, { kill = 7125 }, { kill = 7126 }, { kill = 7135 }, { kill = 7136 }, { kill = 7137 }, { kill = 7461 }, { kill = 7462 }, { kill = 7463 }, { kill = 7664 }, { kill = 7665 }, { kill = 7666 }, { kill = 7667 }, { kill = 7728 }, { kill = 7734 }, { kill = 7735 }, { kill = 8608 }, { kill = 8616 }, { kill = 8675 }, { kill = 8716 }, { kill = 8717 }, { kill = 8718 }, { kill = 9454 }, { kill = 9862 }, { kill = 9877 }, { kill = 10201 }, { kill = 10261 }, { kill = 10263 }, { kill = 10373 }, { kill = 11697 }, { kill = 11859 }, { kill = 12396 }, { kill = 12397 }, { kill = 14101 }, { kill = 14483 }, { kill = 14506 }, { kill = 14668 } },
       also = { "satyrs", "burning-blade" },
       text = {
-        { "Every other enemy in these pages is of this world. The Burning Legion is not. It is an army of demons, gathered from a thousand conquered worlds by the fallen titan Sargeras, and it has come for ours three times: once ten thousand years ago, through the night elves' Well of Eternity; once through the orcs, whom its servants corrupted and sent through the Dark Portal; and once in the last war, when its general Archimonde fell at the foot of the World Tree on Mount Hyjal." },
-        { "It has never entirely left. Lord Kazzak holds the Blasted Lands with a host of demons around the dead Dark Portal. The Shadow Council's warlocks keep demons in Jaedenar, in Felwood, where the whole forest has rotted around them. Doomguard and infernals walk Ashenvale's Demon Fall Canyon, where Grom Hellscream killed Mannoroth, and Desolace's Mannoroc Coven, and the ruins of Azshara." },
+        { "The Burning Legion is an army of demons, gathered from a thousand conquered worlds by the fallen titan Sargeras, and it has come for ours three times: once ten thousand years ago, through the night elves' Well of Eternity; once through the orcs, whom its servants corrupted and sent through the Dark Portal; and once in the last war, when its general Archimonde fell at the foot of the World Tree on Mount Hyjal." },
+        { "It has never entirely left. Lord Kazzak holds the Blasted Lands with a host of demons around the dormant Dark Portal. The Shadow Council's warlocks keep demons in Jaedenar, in Felwood, where the whole forest has rotted around them. Doomguard and infernals walk Ashenvale's Demon Fall Canyon, where Grom Hellscream killed Mannoroth, and Desolace's Mannoroc Coven, and the ruins of Azshara." },
         { "The Legion is patient. It has lost three wars and is still here, and I do not believe it has finished with us." },
       },
     },
@@ -1967,7 +1967,7 @@ ns.content = {
       unlock = { { npc = 11832 }, { npc = 5769 }, { faction = 609, standing = 5 } },
       also = { "silithid", "dragons-of-nightmare", "hamuul-runetotem", "fandral-staghelm" },
       text = {
-        { "The Cenarion Circle is the fellowship of the druids, named for the demigod Cenarius who taught the first of them. Its founder was Malfurion Stormrage, who led the night elves against the Burning Legion ten thousand years ago and lies now asleep in the Emerald Dream, in the barrow dens of Moonglade, while his spirit wanders it. For most of its history the Circle was a night elf order; now the tauren have their druids in it too, and Arch Druid Hamuul Runetotem of Thunder Bluff was the first of them." },
+        { "The Cenarion Circle is the fellowship of the druids, named for the demigod Cenarius who taught the first of them. Its founder was Malfurion Stormrage, who led the night elves against the Burning Legion ten thousand years ago and is now missing; his fellow druids do not know what became of him. For most of its history the Circle was a night elf order; now the tauren have their druids in it too, and Arch Druid Hamuul Runetotem represents them in Thunder Bluff." },
         { "Its seat is Nighthaven, in the Moonglade, under Keeper Remulos, son of Cenarius, and both the Alliance and the Horde may walk there in peace. It keeps posts wherever nature is wounded: at Stonetalon Peak, in the poisoned woods of Felwood, and at Cenarion Hold in Silithus, from which it watches the insect hives and the walls of Ahn'Qiraj." },
         { "The druids are patient beyond any dwarf's understanding, and they think in seasons and centuries. When the Circle says that something is wrong, the wise listen." },
       },
@@ -1977,9 +1977,9 @@ ns.content = {
       unlock = { { kill = 2967 }, { kill = 2968 }, { kill = 3119 }, { kill = 3120 }, { kill = 3272 }, { kill = 3273 }, { kill = 3274 }, { kill = 3275 }, { kill = 3394 }, { kill = 3395 }, { kill = 3396 }, { kill = 3397 }, { kill = 4093 }, { kill = 4094 }, { kill = 4095 }, { kill = 4096 }, { kill = 4097 }, { kill = 4099 }, { kill = 4632 }, { kill = 4633 }, { kill = 4634 }, { kill = 4635 }, { kill = 4636 }, { kill = 4637 }, { kill = 4638 }, { kill = 4639 }, { kill = 4640 }, { kill = 4641 }, { kill = 4642 }, { kill = 4643 }, { kill = 4644 }, { kill = 4645 }, { kill = 4646 }, { kill = 4647 }, { kill = 4648 }, { kill = 4649 }, { kill = 4651 }, { kill = 4652 }, { kill = 4653 }, { kill = 4654 }, { kill = 4655 }, { kill = 4656 }, { kill = 4657 }, { kill = 4658 }, { kill = 4659 }, { kill = 4661 }, { kill = 5402 }, { kill = 5600 }, { kill = 5601 }, { kill = 5602 }, { kill = 5808 }, { kill = 6069 }, { kill = 6070 }, { kill = 7404 }, { kill = 9523 }, { kill = 9524 }, { kill = 10617 }, { kill = 10720 }, { kill = 11685 }, { kill = 11688 }, { kill = 12976 }, { kill = 12977 } },
       also = { "cairne-bloodhoof" },
       text = {
-        { "The centaurs of Kalimdor were born of a forbidden love: Zaetar, a son of the demigod Cenarius, and Theradras, a princess of the elemental earth. Their children were cruel and misshapen, and when Zaetar looked at them with shame, they killed him. Theradras buried him in her caverns at Maraudon, and the centaurs keep his tomb as holy ground to this day." },
-        { "There were five first khans, and the clans still carry their names: the Kolkar in the Barrens and Desolace, the Gelkis and Magram who fight each other across Desolace, the Galak of Thousand Needles and the Maraudine who guard the tomb itself. For generations they hunted the tauren across the plains, until the orcs came and Cairne Bloodhoof drove them back." },
-        { "They are raiders and nothing else: they plant nothing and build little, and take what they want from those who do. A traveller in the Barrens learns to listen for hooves." },
+        { "The centaurs descend from Zaetar, a son of Cenarius, and Theradras, a princess of elemental earth. They killed their father; their mother buried him in Maraudon. His children still guard the tomb as sacred ground." },
+        { "Their clans include the Kolkar of the Barrens and Desolace, the rival Gelkis and Magram, the Galak of Thousand Needles and the Maraudine at the tomb. For generations they pursued the tauren across Kalimdor’s plains, until Cairne and his orc allies drove them back." },
+        { "The clans continue to raid. Learn their names as well as the sound of their hooves, traveller. The quarrels between them matter to those trying to live within reach of their camps." },
       },
     },
     ["cult-of-the-damned"] = {
@@ -2009,7 +2009,7 @@ ns.content = {
       text = {
         { "When the orcs razed Stormwind in the First War, it was the Stonemasons' Guild, under a master named Edwin VanCleef, who raised it again. When the work was done, the House of Nobles would not pay them. VanCleef led his masons in a riot through the new streets, and left the city swearing revenge." },
         { "The guild became a gang. In Westfall they took the name of the Defias Brotherhood, tied red cloths over their faces, and set about ruining the farmland that feeds the city: burning fields, driving out the families, and making allies of anyone who would have them. Goblin engineers work for them in the Deadmines, and their reach goes as far as Elwynn, Redridge, Duskwood and the city's own prison, where VanCleef's lieutenant Bazil Thredd raised the inmates in revolt." },
-        { "I have met masons who still speak of VanCleef with respect, and I understand why. The nobles owed those men their wages. But whatever the Brotherhood once stood for, the farmers of Westfall have paid for it far more dearly than any lord in Stormwind." },
+        { "The masons had a grievance over their unpaid work. But whatever the Brotherhood once stood for, the farmers of Westfall have paid for it far more dearly than any lord in Stormwind." },
       },
     },
     ["dragons-of-nightmare"] = {
@@ -2017,8 +2017,8 @@ ns.content = {
       unlock = { { kill = 14887 }, { kill = 14888 }, { kill = 14889 }, { kill = 14890 }, { npc = 14887 }, { npc = 14888 }, { npc = 14889 }, { npc = 14890 }, { area = 856 }, { area = 356 }, { area = 1111 }, { area = 438 } },
       also = { "cenarion-circle" },
       text = {
-        { "The green dragons belong to Ysera, the Dreamer, and their charge is the Emerald Dream: the world as it might have been, untouched, where the druids walk in their sleep. Four of Ysera's greatest lieutenants, Ysondre, Lethon, Emeriss and Taerar, were set to guard the four portals to the Dream that stand in the great trees of Azeroth: in Duskwood, the Hinterlands, Feralas and Ashenvale." },
-        { "Something has gone wrong in the Dream. The druids call it the Nightmare, and it has taken those four. They have come out of the portals twisted, and they attack anyone who comes near; Emeriss rots, Taerar splits into shades of himself, Lethon drinks the spirits of the fallen. Keeper Remulos in Moonglade has been gathering fragments of the corruption from each portal, and I gather the news is not good." },
+        { "Ysera’s green dragons guard the Emerald Dream, the unspoiled world through which sleeping druids travel. Four lieutenants watched its great tree portals: Ysondre, Lethon, Emeriss and Taerar, stationed in Duskwood, the Hinterlands, Feralas and Ashenvale." },
+        { "The Nightmare has taken them. They emerge twisted and attack those who approach. Emeriss spreads rot, Taerar divides into shades, and Lethon draws out the spirits of the fallen. Remulos gathers fragments of corruption from the portals to investigate. A traveller reaching one of these trees may find the very guardian who should have made it safe has become its danger." },
       },
     },
     ["forest-trolls"] = {
@@ -2028,7 +2028,7 @@ ns.content = {
       text = {
         { "Long before there were men in Lordaeron, the forests of the north belonged to the trolls of the Amani empire, and they have never forgiven anyone for taking them. When the high elves came over the sea and settled Quel'Thalas, the Amani made war on them for generations, until the elves and the first human kingdom, Arathor, broke them together in the Troll Wars. Their capital, Zul'Aman, still stands deep in the eastern woods." },
         { "The trolls came back in the Second War, when their warlord Zul'jin led the forest tribes beside the Horde against the elves and the men of Lordaeron, and lost again. What remains are tribes scattered through the hills: the Witherbark in Arathi and the Hinterlands, the Vilebranch in their temple-city of Jintha'Alor, the Mossflayer in the woods of the Eastern Plaguelands, where many of them now rot with the plague." },
-        { "They are tall, green-skinned and tusked, they keep the old gods of the trolls, and some keep worse customs than that. The Revantusk of the Hinterlands are the exception: they have taken the Horde's side, and the orcs of Revantusk Village will vouch for them." },
+        { "They are tall, green-skinned and tusked, they keep the old gods of the trolls, and some keep worse customs than that. The Revantusk of the Hinterlands are the exception: they have taken the Horde's side, and their Horde allies will vouch for them." },
       },
     },
     ["furbolgs"] = {
@@ -2037,8 +2037,8 @@ ns.content = {
       also = { "burning-legion", "sickness-of-teldrassil" },
       text = {
         { "The furbolgs are bear-men of the northern forests of Kalimdor, big, slow-spoken and, for most of their long history, peaceful. They were friends of the night elves, and ten thousand years ago they fought beside them against the Burning Legion. Most of them only wanted to be left alone in their woods." },
-        { "Something has gone badly wrong with them. Tribe after tribe has fallen into a madness: the Gnarlpine on Teldrassil, the Blackwood of Darkshore, the Thistlefur and Foulweald in Ashenvale, the Deadwood and Felpaw in Felwood, the Winterfall in Winterspring. The night elves blame the demons' corruption that soaks the land, and in Felwood, at least, they are surely right." },
-        { "Only the Timbermaw have kept their minds. They hold the tunnels between Felwood, Winterspring and Azshara, they trust no one, and they are slowly coming to respect those who help them against their poisoned kin." },
+        { "Something has gone badly wrong with them. Tribe after tribe has fallen into a madness: the Gnarlpine on Teldrassil, the Blackwood of Darkshore, the Thistlefur and Foulweald in Ashenvale, the Deadwood in Felwood, the Winterfall in Winterspring. The night elves blame the demons' corruption that soaks the land, and in Felwood, at least, they are surely right." },
+        { "The Timbermaw have kept their minds. They hold the tunnels between Felwood, Winterspring and Moonglade, and have another hold in Azshara. They distrust outsiders, but they are slowly coming to respect those who help them against their poisoned kin." },
       },
     },
     ["gnolls"] = {
@@ -2046,9 +2046,8 @@ ns.content = {
       unlock = { { kill = 97 }, { kill = 98 }, { kill = 117 }, { kill = 123 }, { kill = 124 }, { kill = 125 }, { kill = 423 }, { kill = 424 }, { kill = 426 }, { kill = 429 }, { kill = 430 }, { kill = 431 }, { kill = 432 }, { kill = 433 }, { kill = 434 }, { kill = 445 }, { kill = 446 }, { kill = 448 }, { kill = 452 }, { kill = 453 }, { kill = 478 }, { kill = 500 }, { kill = 501 }, { kill = 568 }, { kill = 579 }, { kill = 580 }, { kill = 1007 }, { kill = 1008 }, { kill = 1009 }, { kill = 1010 }, { kill = 1011 }, { kill = 1012 }, { kill = 1013 }, { kill = 1014 }, { kill = 1065 }, { kill = 1426 }, { kill = 1674 }, { kill = 1675 }, { kill = 1772 }, { kill = 1773 }, { kill = 1939 }, { kill = 1940 }, { kill = 1941 }, { kill = 1942 }, { kill = 1943 }, { kill = 1944 }, { kill = 2372 }, { kill = 2373 }, { kill = 2949 }, { kill = 2950 }, { kill = 2951 }, { kill = 5249 }, { kill = 5251 }, { kill = 5253 }, { kill = 5254 }, { kill = 5255 }, { kill = 5258 }, { kill = 10991 } },
       also = { "kobolds", "defias-brotherhood", "mosshide-gnolls", "hogger" },
       text = {
-        { "Gnolls are hyena-men, tall and lean, quarrelsome and cruel, and wherever there is a farm with poor walls you will find a pack of them nearby. They follow whoever is strongest, fight among themselves when no one is, and are rarely clever enough to be a danger on their own. The trouble is that they are rarely on their own." },
-        { "The Riverpaw pack raid Elwynn and Westfall, with Hogger the worst of them. In Redridge the Shadowhide answer to the warlock Morganth in his tower. In Tirisfal and Silverpine the Rot Hide are dead things, dug from their graves to serve the necromancer Thule Ravenclaw. The Mosshide crowd the Wetlands, the Mudsnout grow poison flowers in Hillsbrad, and across the sea the Palemane skin the beasts of Mulgore and the Woodpaw prowl the hills of Feralas." },
-        { "A single gnoll is a coward. A pack is a different animal, and the farmsteads of three kingdoms have learned to bar their doors at dusk." },
+        { "The Riverpaw raid Elwynn and Westfall; the Mosshide occupy the Wetlands. These packs have different histories. Hogger’s wanted notice warns that he is too dangerous for a lone hunter, while Rethiel’s account says the Mosshide once lived peacefully beside their neighbours." },
+        { "Some packs serve other powers. Redridge’s Shadowhide answer to Morganth, and Thule Ravenclaw commands the undead Rot Hide in Tirisfal and Silverpine. Across the sea, the Palemane hunt in Mulgore and the Woodpaw live in Feralas. Ask which pack you are facing, traveller. Its name will tell you more about the trouble ahead than a general opinion of gnolls." },
       },
     },
     ["grimtotem"] = {
@@ -2065,8 +2064,8 @@ ns.content = {
       unlock = { { kill = 2962 }, { kill = 2963 }, { kill = 2964 }, { kill = 2965 }, { kill = 3115 }, { kill = 3118 }, { kill = 3276 }, { kill = 3277 }, { kill = 3278 }, { kill = 3279 }, { kill = 3280 }, { kill = 4022 }, { kill = 4023 }, { kill = 4024 }, { kill = 4025 }, { kill = 4026 }, { kill = 4027 }, { kill = 4100 }, { kill = 4101 }, { kill = 4104 }, { kill = 5785 }, { kill = 5830 }, { kill = 12579 } },
       also = {  },
       text = {
-        { "Harpies are winged women with taloned feet and arms that end in feathers, and they are as cruel as anything that flies. Their first home was the high peaks of the Stonetalon Mountains. They have since spread across the whole of Kalimdor, nesting wherever there are travellers to rob: the Dustwind in Durotar, the Windfury in Mulgore, the Witchwing in the Barrens, the Bloodfury still in Stonetalon, and the screeching flocks of Thousand Needles." },
-        { "The night elves tell a tale that the harpies were once women of Queen Azshara's court, cursed for a betrayal ten thousand years ago. I cannot vouch for it. I can vouch for their nests, which you will smell long before you see them, and for their storm-witches, who call down lightning on caravans and laugh while they do it." },
+        { "Harpies nest throughout Kalimdor, hunting and casting spells with wings and talons to carry them over the ground. The Dustwind occupy Durotar, the Windfury Mulgore, the Witchwing the Barrens and the Bloodfury Stonetalon. Their flocks have made enemies among the settlements below." },
+        { "Ruul Eagletalon sends hunters against the Windfury as a trial. Stonetalon’s druids seek the Charred Vale back from the Bloodfury so they can restore it. A traveller passing beneath their nesting grounds has practical reason to learn which flock holds them." },
       },
     },
     ["kobolds"] = {
@@ -2084,9 +2083,8 @@ ns.content = {
       unlock = { { kill = 46 }, { kill = 126 }, { kill = 127 }, { kill = 171 }, { kill = 285 }, { kill = 391 }, { kill = 422 }, { kill = 456 }, { kill = 458 }, { kill = 513 }, { kill = 515 }, { kill = 517 }, { kill = 544 }, { kill = 545 }, { kill = 548 }, { kill = 578 }, { kill = 732 }, { kill = 735 }, { kill = 747 }, { kill = 750 }, { kill = 751 }, { kill = 752 }, { kill = 871 }, { kill = 873 }, { kill = 875 }, { kill = 877 }, { kill = 879 }, { kill = 1024 }, { kill = 1025 }, { kill = 1026 }, { kill = 1027 }, { kill = 1028 }, { kill = 1029 }, { kill = 1083 }, { kill = 1418 }, { kill = 1543 }, { kill = 1544 }, { kill = 1545 }, { kill = 1767 }, { kill = 1768 }, { kill = 1908 }, { kill = 1909 }, { kill = 1957 }, { kill = 1958 }, { kill = 2201 }, { kill = 2202 }, { kill = 2203 }, { kill = 2204 }, { kill = 2205 }, { kill = 2206 }, { kill = 2207 }, { kill = 2208 }, { kill = 2374 }, { kill = 2375 }, { kill = 2376 }, { kill = 2377 }, { kill = 3737 }, { kill = 3739 }, { kill = 3740 }, { kill = 3742 }, { kill = 4358 }, { kill = 4359 }, { kill = 4360 }, { kill = 4361 }, { kill = 4362 }, { kill = 4363 }, { kill = 4457 }, { kill = 4458 }, { kill = 4459 }, { kill = 4460 }, { kill = 4461 }, { kill = 4818 }, { kill = 7015 }, { kill = 10323 } },
       also = { "naga", "darkspear-trolls" },
       text = {
-        { "No people in this ledger is harder to write about than the murlocs, because no one has ever had a conversation with one. They are fish-men of the coasts and lakes, with wide mouths, many teeth and a gurgling cry you will hear before you see them, and they live in crowded villages of huts and nets along almost every shore of both continents." },
-        { "They are newcomers to the land, or so the old accounts say. A generation ago they kept to the sea; now they are moving inland, up the rivers and into the lakes, and some scholars believe the movement is no accident. The naga have been rising from the deep in the same years, and there are whispers that the murlocs answer to them, or to something older still that sleeps in the ocean's dark. I have no proof of it. I note only that a murloc oracle is a stranger thing than a murloc ought to be." },
-        { "Whatever they are, they were the making of the Horde, in a way: it was a murloc host, serving a sea witch, that Thrall drove off the Darkspear islands, and the Darkspear have been his allies ever since." },
+        { "Murloc huts and fishing nets line shores on both continents, from Elwynn’s waters to Darkshore. Hunters and oracles occupy their settlements, often attacking those who approach. A traveller can meet several tribes without learning much of the history behind their presence." },
+        { "One tribe had a decisive part in the new Horde’s journey. Murlocs serving a sea witch captured trolls and orcs on the Darkspear islands. Thrall’s followers fought their way free; Sen’jin died, and the surviving Darkspear sailed with them to Kalimdor. That alliance began beside a shore defended by murlocs, long before it had a home in Durotar." },
       },
     },
     ["naga"] = {
@@ -2094,9 +2092,9 @@ ns.content = {
       unlock = { { kill = 1907 }, { kill = 2179 }, { kill = 2180 }, { kill = 2181 }, { kill = 2182 }, { kill = 2183 }, { kill = 2320 }, { kill = 2368 }, { kill = 2369 }, { kill = 2370 }, { kill = 2371 }, { kill = 2595 }, { kill = 2596 }, { kill = 2775 }, { kill = 2779 }, { kill = 3711 }, { kill = 3712 }, { kill = 3713 }, { kill = 3715 }, { kill = 3717 }, { kill = 3944 }, { kill = 4364 }, { kill = 4366 }, { kill = 4368 }, { kill = 4370 }, { kill = 4371 }, { kill = 4374 }, { kill = 4711 }, { kill = 4712 }, { kill = 4713 }, { kill = 4714 }, { kill = 4715 }, { kill = 4716 }, { kill = 4718 }, { kill = 4719 }, { kill = 4802 }, { kill = 4803 }, { kill = 4805 }, { kill = 4807 }, { kill = 4831 }, { kill = 5331 }, { kill = 5332 }, { kill = 5333 }, { kill = 5334 }, { kill = 5335 }, { kill = 5336 }, { kill = 5337 }, { kill = 5343 }, { kill = 6190 }, { kill = 6193 }, { kill = 6194 }, { kill = 6195 }, { kill = 6196 }, { kill = 6243 }, { kill = 6649 }, { kill = 7016 }, { kill = 7017 }, { kill = 7885 }, { kill = 7886 }, { kill = 8136 }, { kill = 10559 }, { kill = 12204 }, { kill = 12205 }, { kill = 12321 } },
       also = { "murlocs" },
       text = {
-        { "Ten thousand years ago, when the Well of Eternity tore itself apart and the sea swallowed the night elves' capital, the Highborne of Queen Azshara's court went down with it. They did not drown. Something changed them in the dark, into serpents from the waist down, with scales and fins, and some of them with four arms, and they built a new kingdom on the floor of the sea. The old tales say their queen is with them still." },
-        { "For millennia no one saw them. Then, in the last war, they rose: Lady Vashj led a host of them in the service of Illidan Stormrage, and since then their warbands have come ashore all over the world. They hold the Zoram Strand of Ashenvale, the ruined coasts of Azshara and Darkshore, the shores of Feralas, Desolace and Dustwallow, and even the drowned temple of Blackfathom Deeps." },
-        { "Their sirens and sea witches are as dangerous as any mage of Dalaran. And I note, as I did of the murlocs, that the two peoples came up from the sea in the same years." },
+        { "The Sundering carried Azshara’s Highborne beneath the sea with their capital. They survived, changed into scaled beings with serpentine lower bodies, fins and, in some cases, four arms. They built a kingdom under the water. The old tales place their queen there still." },
+        { "They returned to the surface during the Third War, when Lady Vashj led naga in Illidan’s service. Warbands now hold the Zoram Strand and drowned Blackfathom temple, the ruined coasts of Azshara and Darkshore, and shores in Feralas, Desolace and Dustwallow." },
+        { "The Highborne’s story did not end when their cities sank, traveller. Those same Highborne now contend for places along the continent’s coasts, changed as much as the land they once knew." },
       },
     },
     ["ogres"] = {
@@ -2104,8 +2102,8 @@ ns.content = {
       unlock = { { kill = 212 }, { kill = 678 }, { kill = 679 }, { kill = 680 }, { kill = 709 }, { kill = 710 }, { kill = 723 }, { kill = 889 }, { kill = 891 }, { kill = 892 }, { kill = 1142 }, { kill = 1144 }, { kill = 1178 }, { kill = 1179 }, { kill = 1180 }, { kill = 1181 }, { kill = 1183 }, { kill = 1251 }, { kill = 1487 }, { kill = 2252 }, { kill = 2253 }, { kill = 2254 }, { kill = 2255 }, { kill = 2256 }, { kill = 2257 }, { kill = 2287 }, { kill = 2416 }, { kill = 2417 }, { kill = 2562 }, { kill = 2564 }, { kill = 2566 }, { kill = 2567 }, { kill = 2569 }, { kill = 2570 }, { kill = 2571 }, { kill = 2701 }, { kill = 2715 }, { kill = 2716 }, { kill = 2717 }, { kill = 2718 }, { kill = 2719 }, { kill = 2720 }, { kill = 2906 }, { kill = 2907 }, { kill = 5229 }, { kill = 5232 }, { kill = 5234 }, { kill = 5236 }, { kill = 5237 }, { kill = 5238 }, { kill = 5239 }, { kill = 5240 }, { kill = 5241 }, { kill = 5471 }, { kill = 5472 }, { kill = 5473 }, { kill = 5474 }, { kill = 5475 }, { kill = 5974 }, { kill = 5975 }, { kill = 5976 }, { kill = 5977 }, { kill = 5978 }, { kill = 7033 }, { kill = 7034 }, { kill = 7035 }, { kill = 7379 }, { kill = 9197 }, { kill = 9198 }, { kill = 9199 }, { kill = 9200 }, { kill = 9201 }, { kill = 9216 }, { kill = 9217 }, { kill = 9218 }, { kill = 9219 }, { kill = 10602 }, { kill = 11440 }, { kill = 11441 }, { kill = 11443 }, { kill = 11444 }, { kill = 11445 }, { kill = 11448 }, { kill = 11450 }, { kill = 11501 }, { kill = 14324 }, { kill = 14325 }, { kill = 14351 } },
       also = { "mogrosh-ogres" },
       text = {
-        { "The ogres came to this world with the Horde, from the same red land as the orcs, and fought in the Second War as its heavy fists. The warlock Gul'dan improved on them, after his fashion: he bred ogres with two heads and the gift of sorcery, the ogre magi, and their kind still rule many of the clans." },
-        { "When the Horde was broken, the ogres did not go into the camps with the orcs. They scattered into the wild places in clans of their own, and have stayed there: the Mo'grosh in Loch Modan, the Splinter Fist in Duskwood, the Crushridge in Alterac, the Boulderfist in Arathi, the Dustbelcher in the Badlands, the Mosh'Ogg in Stranglethorn and the Dreadmaul at the Dark Portal; across the sea the Gordunni in Feralas and the Dunemaul in Tanaris. The Gordok have made themselves at home in the ruins of an elven city in Feralas, and crown whoever kills their king." },
+        { "The ogres came to this world with the Horde, from the same red land as the orcs, and fought in the Second War as its heavy fists. The warlock Gul'dan improved on them, after his fashion: he used the Altar of Storms to grant ogres the powers of the ogre magi, and their kind still rule many of the clans." },
+        { "After the Horde was broken, ogre clans established themselves in the wild places, and have stayed there: the Mo'grosh in Loch Modan, the Splinter Fist in Duskwood, the Crushridge in Alterac, the Boulderfist in Arathi, the Dustbelcher in the Badlands, the Mosh'Ogg in Stranglethorn and the Dreadmaul at the Dark Portal; across the sea the Gordunni in Feralas and the Dunemaul in Tanaris. The Gordok have made themselves at home in the ruins of an elven city in Feralas, and crown whoever kills their king." },
         { "Not every clan has forgotten the old alliance. The Stonemaul of Dustwallow Marsh fight beside the Horde at Brackenwall, and the orcs speak well of them. The rest would rather eat you than talk." },
       },
     },
@@ -2123,9 +2121,8 @@ ns.content = {
       unlock = { { kill = 2212 }, { kill = 3752 }, { kill = 3754 }, { kill = 3755 }, { kill = 3757 }, { kill = 3758 }, { kill = 3759 }, { kill = 3762 }, { kill = 3763 }, { kill = 3765 }, { kill = 3767 }, { kill = 3770 }, { kill = 3771 }, { kill = 4670 }, { kill = 4671 }, { kill = 4672 }, { kill = 4673 }, { kill = 4674 }, { kill = 4675 }, { kill = 4788 }, { kill = 4789 }, { kill = 4798 }, { kill = 4799 }, { kill = 6125 }, { kill = 6126 }, { kill = 6127 }, { kill = 6200 }, { kill = 6201 }, { kill = 6202 }, { kill = 7105 }, { kill = 7106 }, { kill = 7107 }, { kill = 7108 }, { kill = 7109 }, { kill = 7110 }, { kill = 7111 }, { kill = 11451 }, { kill = 11790 } },
       also = { "burning-legion", "sickness-of-teldrassil" },
       text = {
-        { "The first satyr was Xavius, the Highborne counsellor who helped open the way for the Burning Legion in the War of the Ancients. When he failed his master, Sargeras remade him: horned, hoofed and clawed, half elf and half beast. Xavius passed the curse on to others of his kind who were hungry enough for power to accept it, and they have been passing it on ever since." },
-        { "They are demons now, in all but birth, and they live only to corrupt the forests of the night elves who were once their kin. Their camps fester in Darkshore, in Ashenvale at Satyrnaar and in the hills, through the poisoned woods of Felwood and the ruins of Azshara, and in Desolace. Where satyrs have been, the trees sicken, the water turns and the beasts go mad." },
-        { "The night elves kill them on sight, and I have never heard one of their sentinels regret it." },
+        { "Xavius, a Highborne counsellor who helped admit the Legion during the War of the Ancients, became the first satyr. Sargeras remade his failed servant with horns, hooves and claws. Xavius offered the same transformation to other elves hungry for power, and the curse spread." },
+        { "Their encampments now occupy places from Darkshore and Ashenvale to Felwood, Azshara and Desolace. They corrupt the forests of the people they once belonged to, sickening trees, fouling water and twisting beasts. The night elves seek help against them. The damage around a satyr camp gives a traveller reason to remember that its occupants were once of the same people as those trying to heal it." },
       },
     },
     ["scarlet-crusade"] = {
@@ -2135,7 +2132,7 @@ ns.content = {
       text = {
         { "When Prince Arthas murdered his father and Lordaeron fell to the plague, the paladins of the Silver Hand who survived gathered what they could and swore to burn the dead from the land. They became the Scarlet Crusade, and they have been burning ever since: the dead, and the living who look at them wrongly." },
         { "They trust no one. Any stranger might carry the plague, any elf or dwarf might be a spy, and the Forsaken are simply the enemy. From the Monastery in Tirisfal, from Hearthglen and Tyr's Hand, they wage a war that no one else is invited to win. Their Grand Crusader, Saidan Dathrohan, rules them from Stratholme, and their Grand Inquisitor, Isillien, from Hearthglen." },
-        { "I will say this for them: they are brave, and they have killed more of the Scourge than anyone. But the Crusade has been rotten at its heart longer than its knights know. Ask in the Monastery about Highlord Mograine and his blade, the Ashbringer, and listen carefully to who falls silent. And ask the Argent Dawn what they found when they looked closely at the Grand Crusader himself." },
+        { "The Crusade fights the Scourge, but corruption within its own ranks gives another reason to distrust it. Ask in the Monastery about Highlord Mograine and his blade, the Ashbringer, and listen carefully to who falls silent. And ask the Argent Dawn what they found when they looked closely at the Grand Crusader himself." },
       },
     },
     ["scourge"] = {
@@ -2143,9 +2140,9 @@ ns.content = {
       unlock = { { kill = 1520 }, { kill = 1522 }, { kill = 1523 }, { kill = 1525 }, { kill = 1526 }, { kill = 1527 }, { kill = 1528 }, { kill = 1529 }, { kill = 1530 }, { kill = 1654 }, { kill = 1655 }, { kill = 1656 }, { kill = 1657 }, { kill = 1658 }, { kill = 1753 }, { kill = 1783 }, { kill = 1784 }, { kill = 1785 }, { kill = 1787 }, { kill = 1788 }, { kill = 1789 }, { kill = 1791 }, { kill = 1793 }, { kill = 1794 }, { kill = 1795 }, { kill = 1796 }, { kill = 1802 }, { kill = 1805 }, { kill = 1847 }, { kill = 1850 }, { kill = 1852 }, { kill = 1946 }, { kill = 4474 }, { kill = 4475 }, { kill = 6412 }, { kill = 7327 }, { kill = 7328 }, { kill = 7329 }, { kill = 7332 }, { kill = 7333 }, { kill = 7334 }, { kill = 7340 }, { kill = 7341 }, { kill = 7342 }, { kill = 7343 }, { kill = 7344 }, { kill = 7345 }, { kill = 7346 }, { kill = 7347 }, { kill = 7348 }, { kill = 7349 }, { kill = 7351 }, { kill = 7352 }, { kill = 7355 }, { kill = 7357 }, { kill = 7358 }, { kill = 8477 }, { kill = 8523 }, { kill = 8524 }, { kill = 8525 }, { kill = 8526 }, { kill = 8527 }, { kill = 8528 }, { kill = 8529 }, { kill = 8530 }, { kill = 8531 }, { kill = 8532 }, { kill = 8534 }, { kill = 8535 }, { kill = 8538 }, { kill = 8539 }, { kill = 8540 }, { kill = 8541 }, { kill = 8542 }, { kill = 8543 }, { kill = 8544 }, { kill = 8545 }, { kill = 8555 }, { kill = 8556 }, { kill = 8557 }, { kill = 8558 }, { kill = 8567 }, { kill = 8585 }, { kill = 10381 }, { kill = 10382 }, { kill = 10383 }, { kill = 10390 }, { kill = 10391 }, { kill = 10393 }, { kill = 10394 }, { kill = 10405 }, { kill = 10406 }, { kill = 10407 }, { kill = 10408 }, { kill = 10409 }, { kill = 10411 }, { kill = 10412 }, { kill = 10413 }, { kill = 10414 }, { kill = 10416 }, { kill = 10417 }, { kill = 10432 }, { kill = 10433 }, { kill = 10435 }, { kill = 10436 }, { kill = 10437 }, { kill = 10439 }, { kill = 10440 }, { kill = 10463 }, { kill = 10478 }, { kill = 10480 }, { kill = 10481 }, { kill = 10482 }, { kill = 10485 }, { kill = 10486 }, { kill = 10487 }, { kill = 10488 }, { kill = 10489 }, { kill = 10491 }, { kill = 10495 }, { kill = 10506 }, { kill = 10507 }, { kill = 10508 }, { kill = 10516 }, { kill = 10580 }, { kill = 10698 }, { kill = 10699 }, { kill = 10801 }, { kill = 10808 }, { kill = 10809 }, { kill = 10816 }, { kill = 10821 }, { kill = 10825 }, { kill = 10826 }, { kill = 10876 }, { kill = 10901 }, { kill = 10938 }, { kill = 10939 }, { kill = 10943 }, { kill = 10946 }, { kill = 10947 }, { kill = 10951 }, { kill = 10952 }, { kill = 10953 }, { kill = 10954 }, { kill = 11027 }, { kill = 11030 }, { kill = 11058 }, { kill = 11075 }, { kill = 11076 }, { kill = 11077 }, { kill = 11078 }, { kill = 11082 }, { kill = 11121 }, { kill = 11142 }, { kill = 11143 }, { kill = 11197 }, { kill = 11258 }, { kill = 11290 }, { kill = 11291 }, { kill = 11551 }, { kill = 11598 }, { kill = 11622 }, { kill = 12208 }, { kill = 12248 }, { kill = 12250 }, { kill = 12261 }, { kill = 12262 }, { kill = 12263 }, { kill = 14486 }, { kill = 14489 }, { kill = 14516 }, { kill = 14518 }, { kill = 14519 }, { kill = 14520 }, { kill = 14521 }, { kill = 14684 }, { kill = 14686 }, { kill = 14695 }, { kill = 15928 }, { kill = 15929 }, { kill = 15930 }, { kill = 15931 }, { kill = 15932 }, { kill = 15936 }, { kill = 15954 }, { kill = 15956 }, { kill = 15978 }, { kill = 15979 }, { kill = 15989 }, { kill = 15990 }, { kill = 16011 }, { kill = 16017 }, { kill = 16018 }, { kill = 16020 }, { kill = 16021 }, { kill = 16022 }, { kill = 16024 }, { kill = 16025 }, { kill = 16028 }, { kill = 16029 }, { kill = 16060 }, { kill = 16061 }, { kill = 16062 }, { kill = 16063 }, { kill = 16064 }, { kill = 16065 }, { kill = 16067 }, { kill = 16101 }, { kill = 16102 }, { kill = 16119 }, { kill = 16120 }, { kill = 16125 }, { kill = 16126 }, { kill = 16145 }, { kill = 16146 }, { kill = 16154 }, { kill = 16156 }, { kill = 16163 }, { kill = 16165 }, { kill = 16167 }, { kill = 16168 }, { kill = 16184 }, { kill = 16194 }, { kill = 16215 }, { kill = 16216 }, { kill = 16244 }, { kill = 16290 }, { kill = 16360 }, { kill = 16375 }, { kill = 16390 }, { kill = 16427 }, { kill = 16428 }, { kill = 16429 }, { kill = 16441 }, { kill = 16446 }, { kill = 16447 }, { kill = 16451 }, { kill = 16452 }, { kill = 16573 }, { kill = 16861 }, { kill = 16981 }, { kill = 16982 }, { kill = 16983 }, { kill = 16984 } },
       also = { "cult-of-the-damned", "scarlet-crusade", "argent-dawn", "fall-of-lordaeron", "the-forsaken" },
       text = {
-        { "The Scourge is the army of the Lich King, a power that sits on a throne of ice in Northrend and speaks into the minds of the dead. It came to Lordaeron as a plague, carried in the grain by a cult of the Lich King's worshippers, and everyone who ate of it and died rose again to serve him. The kingdom's own prince, Arthas, finished the work, and then took ship for Northrend to stand beside his master." },
+        { "The Scourge is the army of the Lich King, a power that sits on a throne of ice in Northrend and speaks into the minds of the dead. It came to Lordaeron as a plague, carried in the grain by a cult of the Lich King's worshippers, and everyone who ate of it and died rose again to serve him. The kingdom's own prince, Arthas, finished the work, and later returned to Northrend, where he claimed the Frozen Throne." },
         { "What he left behind is the Plaguelands: a kingdom of the dead, with ghouls in the fields, abominations stitched together from corpses, and the plague cauldrons poisoning the earth. Stratholme is theirs, under the Baron Rivendare, and Scholomance, and the farmsteads of half the north. Now a black citadel hangs in the sky over the Eastern Plaguelands, Naxxramas, and its master is the lich Kel'Thuzad." },
-        { "The dead do not tire, and they do not stop. The Argent Dawn, the Scarlet Crusade and the Forsaken all fight them, and none of the three can stand the others. That suits the Lich King very well." },
+        { "The dead do not tire, and they do not stop. The Argent Dawn, the Scarlet Crusade and the Forsaken all fight them, despite the distrust between them. At Light's Hope Chapel, the Dawn and Crusade have agreed to cooperate against Naxxramas." },
       },
     },
     ["silithid"] = {
@@ -2153,9 +2150,9 @@ ns.content = {
       unlock = { { kill = 3250 }, { kill = 3251 }, { kill = 3252 }, { kill = 3253 }, { kill = 3503 }, { kill = 4130 }, { kill = 4131 }, { kill = 4132 }, { kill = 4133 }, { kill = 4196 }, { kill = 5244 }, { kill = 5245 }, { kill = 5246 }, { kill = 5247 }, { kill = 5441 }, { kill = 5450 }, { kill = 5451 }, { kill = 5452 }, { kill = 5453 }, { kill = 5454 }, { kill = 5455 }, { kill = 5456 }, { kill = 5457 }, { kill = 5458 }, { kill = 5459 }, { kill = 5460 }, { kill = 5781 }, { kill = 6551 }, { kill = 6552 }, { kill = 6553 }, { kill = 6554 }, { kill = 6555 }, { kill = 7769 }, { kill = 9496 }, { kill = 9498 }, { kill = 10040 }, { kill = 10041 }, { kill = 11698 }, { kill = 11721 }, { kill = 11722 }, { kill = 11723 }, { kill = 11724 }, { kill = 11725 }, { kill = 11726 }, { kill = 11727 }, { kill = 11728 }, { kill = 11729 }, { kill = 11730 }, { kill = 11731 }, { kill = 11732 }, { kill = 11733 }, { kill = 11734 }, { kill = 13136 }, { kill = 13301 }, { kill = 15246 }, { kill = 15247 }, { kill = 15249 }, { kill = 15250 }, { kill = 15252 }, { kill = 15264 }, { kill = 15277 }, { kill = 15311 }, { kill = 15316 }, { kill = 15317 }, { kill = 15318 }, { kill = 15319 }, { kill = 15320 }, { kill = 15323 }, { kill = 15324 }, { kill = 15325 }, { kill = 15327 }, { kill = 15336 }, { kill = 15343 }, { kill = 15355 }, { kill = 15387 }, { kill = 15414 }, { kill = 15421 }, { kill = 15422 }, { kill = 15424 }, { kill = 15449 }, { kill = 15521 }, { kill = 15537 }, { kill = 15538 }, { kill = 15546 }, { kill = 15555 }, { kill = 15620 }, { kill = 15743 }, { kill = 15744 }, { kill = 15747 }, { kill = 15748 }, { kill = 15749 }, { kill = 15750 }, { kill = 15751 }, { kill = 15752 }, { kill = 15753 }, { kill = 15754 }, { kill = 15756 }, { kill = 15757 }, { kill = 15758 }, { kill = 15759 }, { kill = 15806 }, { kill = 15807 }, { kill = 15808 }, { kill = 15810 }, { kill = 15811 }, { kill = 15812 }, { kill = 15813 }, { kill = 15814 }, { kill = 15815 }, { kill = 15816 }, { kill = 15817 }, { kill = 15934 } },
       also = { "cenarion-circle", "twilights-hammer" },
       text = {
-        { "The silithid are insects, but no insect you have ever swatted: wasps the size of hounds, tunnelers that can bring down a cave, reavers as big as an ogre. They live in great hives under the deserts and jungles of southern Kalimdor, in the Barrens, Thousand Needles, Feralas, Tanaris, Un'Goro and above all in Silithus, which they have hollowed out almost entirely." },
-        { "They are not alone down there. Their masters are the Qiraji, an older and cleverer race of the same kind, who rule from the city of Ahn'Qiraj. A thousand years ago the Qiraji sent their swarms north against the night elves, in the War of the Shifting Sands, and the night elves and the dragons sealed them behind the Scarab Wall. The Cenarion Circle believes that something even older stirs beneath that city, and that the swarms answer to it." },
-        { "The hives are spreading again. Each year the scouts of Feralas and Tanaris find new mounds, and each year they are a little further north." },
+        { "Silithid occupy vast hives beneath southern Kalimdor. Their wasps can be the size of hounds, their reavers as large as ogres, and their tunnelers powerful enough to collapse caves. Hives have appeared in the Barrens, Thousand Needles, Feralas, Tanaris and Un’Goro; Silithus holds the greatest concentration." },
+        { "The qiraji of Ahn’Qiraj command them. A thousand years ago their swarms drove north in the War of the Shifting Sands, until night elves and dragons sealed the city behind the Scarab Wall. The Cenarion Circle believes an older power beneath Ahn’Qiraj directs both masters and servants." },
+        { "Movement around the hives now suggests preparation for a great expansion. The Circle watches closely. For a traveller studying these insects, the work includes finding out how far their tunnels and their masters’ purposes already reach." },
       },
     },
     ["southsea-freebooters"] = {
@@ -2172,9 +2169,9 @@ ns.content = {
       unlock = { { npc = 2496 }, { npc = 7564 }, { npc = 3391 }, { faction = 21, standing = 5 }, { faction = 369, standing = 5 }, { faction = 470, standing = 5 }, { faction = 577, standing = 5 } },
       also = { "venture-company", "southsea-freebooters" },
       text = {
-        { "The goblins of the Steamwheedle Cartel have learned what most peoples never do: that war is a very good customer, as long as you sell to both sides. In the Second War they sold their sappers, their alchemy and their zeppelins to the Horde. Since then they have sold to everyone, and kept their towns open to all comers." },
-        { "Those towns are the cartel's great work: Booty Bay at the tip of Stranglethorn, Gadgetzan in the deserts of Tanaris, Ratchet on the coast of the Barrens and Everlook in the snows of Winterspring. Within their walls no Alliance soldier may draw on a Horde one, and the goblin bruisers who keep that peace are very good at it. Each town has its own baron or mayor, and above them all stand the goblins' trade princes." },
-        { "They are not a kind people, and they will charge you for the water you drink in Gadgetzan. But they keep their word when it is written down, and in a world at war, a neutral harbour is worth more than gold." },
+        { "The Steamwheedle Cartel trades with both Alliance and Horde. Its goblins have found that people willing to fight each other still need supplies, and that both sets of coins are worth taking. Their towns offer a place to conduct the business." },
+        { "Booty Bay, Gadgetzan, Ratchet and Everlook span jungle, desert, coast and snow. Bruisers enforce peace within them. Revilgaz oversees Booty Bay, while Gazlowe has work for visitors in Ratchet; each port has troubles that trade alone will not settle." },
+        { "A traveller can buy provisions, find employment and meet the other faction without immediately reaching for a weapon. The cartel charges for much of what it offers, but a neutral stopping place has value in a world whose roads run through so many wars." },
       },
     },
     ["syndicate"] = {
@@ -2192,9 +2189,9 @@ ns.content = {
       unlock = { { kill = 707 }, { kill = 724 }, { kill = 1115 }, { kill = 1116 }, { kill = 1117 }, { kill = 1118 }, { kill = 1161 }, { kill = 1162 }, { kill = 1163 }, { kill = 1164 }, { kill = 1165 }, { kill = 1166 }, { kill = 1167 }, { kill = 1197 }, { kill = 1393 }, { kill = 1718 }, { kill = 2158 }, { kill = 2159 }, { kill = 2160 }, { kill = 2892 }, { kill = 2893 }, { kill = 2894 }, { kill = 4850 }, { kill = 4851 }, { kill = 4852 }, { kill = 4853 }, { kill = 4854 }, { kill = 4855 }, { kill = 6206 }, { kill = 6207 }, { kill = 6211 }, { kill = 6329 }, { kill = 6733 }, { kill = 7175 }, { kill = 7320 }, { kill = 7321 }, { kill = 10987 }, { kill = 11318 } },
       also = { "ironforge", "kharanos", "gnomeregan", "platinum-discs", "uldaman" },
       text = {
-        { "Troggs are a dwarven shame, and I will not pretend the League is blameless. They slept in the deep places of Uldaman, in the Badlands, where the titans had locked them away, until dwarven digging woke them, and then they came up: crude and numberless, crawling out through tunnels no one knew were there. The titans' own records in Uldaman say what they are: the earthen, gone wrong. So are we, the same records say, though we went wrong rather better." },
-        { "They have spread through the stone of Khaz Modan ever since. The Rockjaw band hold the quarries and caves of Dun Morogh, the Stonesplinter the valleys of Loch Modan, the Stonevault the halls of Uldaman itself, and others of their kind poured into Gnomeregan in its last days. They have even turned up across the sea, on the shores of Darkshore and in the caverns beneath Orgrimmar, though how they got there no one can tell me." },
-        { "They are strong, they are stupid, and they are never alone. Where you see one trogg, there are a dozen more in the dark behind it." },
+        { "The Titan records in Uldaman describe troggs as a failed result of the earthen’s making. They were sealed underground until dwarven excavations opened their halls. Our search for our own beginnings released creatures whose origins were uncomfortably close to them." },
+        { "The Rockjaw occupy Dun Morogh’s quarries and caves, the Stonesplinter Loch Modan’s valleys, and the Stonevault Uldaman itself. Troggs also invaded Gnomeregan. Others have appeared in Darkshore and beneath Orgrimmar, though their route across the sea remains uncertain." },
+        { "Mountaineers ask for help defending roads and settlements, and the gnomes still fight them in their capital. A traveller carrying the League’s ledger will find us interested in trogg history; those guarding a mine have a more immediate concern with keeping them out." },
       },
     },
     ["twilights-hammer"] = {
@@ -2202,9 +2199,8 @@ ns.content = {
       unlock = { { kill = 2338 }, { kill = 2339 }, { kill = 4809 }, { kill = 4810 }, { kill = 4811 }, { kill = 4812 }, { kill = 4813 }, { kill = 4814 }, { kill = 4832 }, { kill = 5860 }, { kill = 5861 }, { kill = 5862 }, { kill = 8419 }, { kill = 8912 }, { kill = 8913 }, { kill = 8914 }, { kill = 8915 }, { kill = 9398 }, { kill = 11803 }, { kill = 11804 }, { kill = 11880 }, { kill = 11881 }, { kill = 11882 }, { kill = 11883 }, { kill = 14479 }, { kill = 15200 }, { kill = 15201 }, { kill = 15213 }, { kill = 15308 }, { kill = 15541 }, { kill = 15542 } },
       also = { "silithid" },
       text = {
-        { "In the Second War the Twilight's Hammer was an orc clan led by the two-headed ogre mage Cho'gall, and even the Horde found it frightening: it fought not for land or glory but because it believed the world should end. The clan did not die with the old Horde. It became a cult, and the cult has spread to every race and every corner of the world." },
-        { "Its people worship powers older than the Legion and darker than the dead, things they call the Old Gods, sleeping beneath the earth. In Blackfathom Deeps they serve some horror of the deep waters; in the Searing Gorge they gather to their idols; in Silithus they have built whole camps, and with them come elemental lords that should never walk the world." },
-        { "I have read their tracts, which are mostly about the end of all things. They seem to look forward to it." },
+        { "Cho’gall’s Twilight’s Hammer began as an orc clan in the Second War, led by a two-headed ogre mage. It fought in the belief that the world should end. The old Horde’s defeat left that purpose alive in a cult with followers from many peoples." },
+        { "The cult worships the Old Gods, ancient powers beneath the earth. Its members serve a horror in Blackfathom Deeps, gather at idols in the Searing Gorge and summon elemental lords in Silithus. Wherever you find their camps, traveller, remember the destruction their name first promised; their changed membership has not made that history reassuring." },
       },
     },
     ["venture-company"] = {
@@ -2222,9 +2218,9 @@ ns.content = {
       unlock = { { kill = 205 }, { kill = 206 }, { kill = 533 }, { kill = 898 }, { kill = 920 }, { kill = 1769 }, { kill = 1770 }, { kill = 1779 }, { kill = 1782 }, { kill = 1892 }, { kill = 1893 }, { kill = 1896 }, { kill = 1924 }, { kill = 2529 }, { kill = 3529 }, { kill = 3531 }, { kill = 3533 }, { kill = 3851 }, { kill = 3853 }, { kill = 3854 }, { kill = 3855 }, { kill = 3857 }, { kill = 3859 }, { kill = 3863 }, { kill = 3914 }, { kill = 3927 }, { kill = 5097 } },
       also = {  },
       text = {
-        { "I can tell you where the worgen came from in only one place, and even there the tale is a strange one. When the Scourge pressed against Silverpine Forest, a mage of the Kirin Tor named Arugal summoned wolf-men out of somewhere else to fight them. They did fight the dead, and then they turned on the living. Arugal went mad, shut himself up in Shadowfang Keep with his creatures, and laid a curse on the village of Pyrewood: its people are human by day and worgen by night." },
-        { "The worgen of Duskwood are another puzzle. The Night Watch say they appeared out of nowhere in a mine south of Darkshire, and the little I have learned points to an old elven relic called the Scythe of Elune, brought into the forest by someone who did not understand what it was." },
-        { "They are tall, grey and strong, they walk upright and run on all fours, and they are cleverer than any wolf. That is all the League knows for certain, and I am in no hurry to learn more." },
+        { "Arugal summoned worgen from another world as Dalaran’s defenders fell to the Scourge. The wolf-men attacked the dead, then turned on the living. The mage retreated to Shadowfang Keep, called them his children and cursed Pyrewood, whose people are human by day and worgen by night." },
+        { "Duskwood presents a different trail. The Night Watch reports their sudden appearance in a mine south of Darkshire. Accounts point towards the Scythe of Elune, an old elven relic carried into the forest by someone who did not understand its power." },
+        { "The creatures are strong, clever and able to run on all fours despite their upright form. Keep the two trails distinct, traveller. Knowing who brought them into one forest has not explained their appearance in the other." },
       },
     },
     ["gathilzogg"] = {
@@ -2232,8 +2228,8 @@ ns.content = {
       unlock = { { kill = 334 }, { quest = 169 } },
       also = { "stonewatch-keep", "blackrock-clan", "black-dragonflight" },
       text = {
-        { "Gath'Ilzogg is the warlord of the Blackrock clan in Redridge, the orc who took Stonewatch Keep and leads the raids on Lakeshire. He answers to the masters of Blackrock Spire in the north, and through them, as Lakeshire has learned to its horror, to the black dragons who sit above the Spire." },
-        { "He is wanted, dead, by order of the magistrate, and holes up in the keep with his best warriors around him. I have no other history of him to give you. Some figures in this ledger are here for what they were; Gath'Ilzogg is here for what he is doing to Redridge." },
+        { "Gath’Ilzogg commands the Blackrock orcs who took Stonewatch Keep. From it he directs raids on Lakeshire, answering to the masters of Blackrock Spire and, through them, the black dragons above it. The town has had cause to learn how far that chain of command reaches." },
+        { "Magistrate Solomon has ordered his death. Gath’Ilzogg remains within the keep, surrounded by his best warriors. There is no long account of his earlier life in these pages, traveller. His place here is earned by the trouble he is causing now." },
       },
     },
     ["lakeshire"] = {
@@ -2259,8 +2255,8 @@ ns.content = {
       unlock = { { area = 44 } },
       also = { "lakeshire", "stonewatch-keep", "blackrock-clan", "gnolls", "morganth" },
       text = {
-        { "The Redridge Mountains are named for their stone, red as rust under the pine woods, and they cradle a long lake, Everstill, with the town of Lakeshire on its western shore. It is good country for timber and fishing, and it has been fought over in every war Stormwind has ever had: the orcs came through these hills in the First War, and they have come back." },
-        { "This time it is the Blackrock clan, out of the Burning Steppes to the north, who have taken Stonewatch Keep and hold the valleys beyond it. Gnolls prowl the canyons, a warlock has made his home in the eastern hills, and black dragon whelps nest in the high caves. Lakeshire has asked Stormwind for soldiers, more than once. You may read elsewhere in this ledger what answer it got." },
+        { "Redridge takes its name from the rust-red stone beneath its pine woods. Lake Everstill lies among the hills, with Lakeshire on its western shore. Timber and fishing support the country, but armies have passed through it often enough: the orcs came in the First War, and the Blackrock have returned." },
+        { "They now hold Stonewatch Keep and the valleys beyond it. Gnolls roam the canyons, a warlock occupies the eastern hills, and black dragon whelps nest in the high caves. Lakeshire has repeatedly asked Stormwind for soldiers. You will find the reasons for that plea along these roads, traveller, even before you reach the magistrate." },
       },
     },
     ["stonewatch-keep"] = {
@@ -2268,8 +2264,8 @@ ns.content = {
       unlock = { { area = 2099 }, { area = 70 } },
       also = { "gathilzogg", "blackrock-clan", "lakeshire" },
       text = {
-        { "Stonewatch Keep was built to guard Redridge from the north, from the very pass the Blackrock came down. It did not hold. The orcs took it, and from its walls they raid the farms north of Lakeshire and keep the townsfolk penned up like cattle. Their ambushers prowl the road between the keep and the town, and somewhere among the ruined towers a regiment of Stormwind's soldiers was cut to pieces; a few survivors, they say, are still held in the caves." },
-        { "Their warlord, Gath'Ilzogg, sits in the keep itself, and Magistrate Solomon has a price on his head." },
+        { "Stonewatch Keep guarded the northern approach to Redridge. The Blackrock came down that approach and took it. Their raiders now strike the farms above Lakeshire, and their ambushers watch the road between the town and the keep. A fortification is useful to whoever holds its walls." },
+        { "A regiment of Stormwind’s soldiers was cut to pieces among the ruined towers; a few survivors are said to be held in the caves. Warlord Gath’Ilzogg occupies the keep itself, with a price on his head from Magistrate Solomon. Look carefully at the ground, traveller. Lakeshire has already lost men trying to recover it." },
       },
     },
     ["searing-gorge"] = {
@@ -2277,8 +2273,8 @@ ns.content = {
       unlock = { { area = 51 } },
       also = { "the-cauldron", "thorium-brotherhood", "dark-iron-dwarves", "war-of-the-three-hammers", "twilights-hammer" },
       text = {
-        { "The Searing Gorge is a bowl of ash and cinders north of Blackrock Mountain, walled in by cliffs, with only a tunnel from Loch Modan and a gate from the Badlands to reach it. It was green country once. It burned when Thaurissan woke the Firelord, and it has not stopped smoking since." },
-        { "The Dark Iron dwarves dig it out for their master, with golems and slaves, from the great pit they call the Cauldron. Fire elementals walk the slag, the Twilight's Hammer have found an altar in the hills of the north-west, and on the cliffs above the pit, a camp of renegade Dark Irons watches all of it." },
+        { "The Searing Gorge lies north of Blackrock Mountain, a basin of ash and cinders enclosed by cliffs. Routes from Loch Modan and the Badlands lead into it. This was once green country, burned when Thaurissan summoned Ragnaros; smoke still rises from what the Firelord left behind." },
+        { "Dark Iron dwarves work the great pit called the Cauldron with slaves and golems. Fire elementals cross the slag, and the Twilight’s Hammer keeps an altar in the north-western hills. Above the pit, renegade Dark Irons hold a camp of their own. You can see much of the country from its cliffs, traveller, though little of the view makes a comfortable prospect." },
       },
     },
     ["the-cauldron"] = {
@@ -2286,8 +2282,8 @@ ns.content = {
       unlock = { { area = 246 }, { area = 1443 }, { area = 247 } },
       also = { "searing-gorge", "thorium-brotherhood", "dark-iron-dwarves" },
       text = {
-        { "The Cauldron is a great open pit in the middle of the Searing Gorge, ringed with the Dark Irons' digging machines, where they mine the earth for their master in the heat and the fire. Slaves do the work, and have been driven so mad by it that they will fight anyone who tries to free them." },
-        { "Grimesilt is a smaller dig to the south-east, and below the Cauldron is the Slag Pit, whose new commander, Overseer Maltorius, was once an agent of the Thorium Brotherhood and went back to his old masters. And there is an outhouse at Grimesilt with a key, which I mention only so you know I was thorough." },
+        { "The Cauldron is the Dark Irons’ great mining pit in the Searing Gorge, surrounded by digging machines and worked in the heat with slave labour. Some of its captives have been driven to such madness that they attack even those who would release them." },
+        { "The smaller Grimesilt dig lies south-east of it. Beneath the main pit, Overseer Maltorius commands the Slag Pit, having abandoned the Thorium Brotherhood to return to his former masters. There is also an outhouse at Grimesilt with a key. A traveller’s business in this country can involve remarkably different sorts of confinement." },
       },
     },
     ["thorium-brotherhood"] = {
@@ -2295,8 +2291,8 @@ ns.content = {
       unlock = { { area = 1446 }, { faction = 59, standing = 5 } },
       also = { "dark-iron-dwarves", "the-cauldron", "blackrock-depths", "molten-core" },
       text = {
-        { "The Thorium Brotherhood are Dark Iron dwarves who have left their emperor, and they are the finest smiths I have ever seen, of any clan. They keep a camp at Thorium Point, on the cliffs above the Cauldron, watching their old kin at work below, and they will deal with anyone who helps them against Thaurissan's people." },
-        { "They know how to make the arms and armour of the Firelord himself, if anyone can bring them what they need from the heart of the mountain. One of them sits in the very tavern of Shadowforge City, under the emperor's nose, trading their secrets. It is not my place to say so, but they are better dwarves than I expected." },
+        { "The Thorium Brotherhood is made up of Dark Iron dwarves who left their emperor. Its smiths work at Thorium Point, above the Cauldron, and trade with those willing to help them against Thaurissan’s forces. A Bronzebeard can admire their craft without much difficulty; the political arrangement takes a little more explaining." },
+        { "They know how to forge the Firelord’s arms and armour, provided someone brings the materials from within the mountain. One of their number even trades in Shadowforge City’s tavern, under the emperor’s nose. If you seek their work, traveller, bring what they need. Their quarrel with their old kin has not diminished their skill." },
       },
     },
     ["abyssal-council"] = {
@@ -2304,8 +2300,8 @@ ns.content = {
       unlock = { { kill = 15203 }, { kill = 15204 }, { kill = 15205 }, { kill = 15206 }, { kill = 15207 }, { kill = 15208 }, { kill = 15209 }, { kill = 15211 }, { kill = 15212 }, { kill = 15220 }, { kill = 15305 }, { kill = 15307 } },
       also = { "twilights-hammer", "silithus", "cenarion-hold" },
       text = {
-        { "In the desert of Silithus, the Twilight's Hammer gathers around strange stones, and calls up the servants of the elements: templars, dukes and lords of fire, air, water and earth, the Abyssal Council. The cultists wear their masters' sigils, and they bring tablets and texts of power, to summon greater and greater servants." },
-        { "The Cenarion Circle wants them stopped, and their texts taken. What the Hammer means to do with an army of elementals in the desert, so close to Ahn'Qiraj, I would rather not know; but I suspect they know exactly what sleeps behind the wall." },
+        { "Twilight’s Hammer cultists gather at summoning stones in Silithus. With sigils, tablets and texts of power, they call templars, dukes and lords of fire, air, water and earth: the servants of the Abyssal Council. Each rite can bring a more powerful elemental into the desert." },
+        { "The Cenarion Circle wants the cult stopped and its texts taken. The stones lie in the same desert as Ahn’Qiraj, a proximity that gives little comfort. If you recover the writings, traveller, the Circle has reason to study them before the cult has reason to use them again." },
       },
     },
     ["cenarion-hold"] = {
@@ -2322,8 +2318,8 @@ ns.content = {
       unlock = { { kill = 15727 } },
       also = { "temple-of-ahnqiraj", "silithid", "uldum" },
       text = {
-        { "C'Thun is one of the Old Gods, powers older and stranger than anything else in this world. It lies at the bottom of the Temple of Ahn'Qiraj, a vast eye and a forest of tentacles, and the qiraji and the silithid are its creatures." },
-        { "It speaks. Those who go near it hear its whispers in their minds, promising and threatening and lying. I set down here only that it was found and that it was slain. I would like not to think about it any more than that." },
+        { "C’Thun lies beneath the Temple of Ahn’Qiraj, one of the ancient powers called the Old Gods. An immense eye and masses of tentacles fill its chamber. The qiraji and their silithid swarms serve it." },
+        { "Those who approach hear whispers in their minds, promises and threats that belong to the creature below. The expedition found and slew it. I can set those events down, traveller, but I take little pleasure in recording a thing capable of answering its observers inside their own thoughts." },
       },
     },
     ["prince-thunderaan"] = {
@@ -2349,8 +2345,8 @@ ns.content = {
       unlock = { { area = 1377 } },
       also = { "cenarion-hold", "the-scarab-wall", "silithid", "twilights-hammer", "cenarion-circle" },
       text = {
-        { "Silithus is a desert in the far south-west of Kalimdor, a land of yellow sand and great hives, where the silithid swarm in their thousands. The insects are the least of it. Behind a great wall in the south lies Ahn'Qiraj, the city of their masters, the qiraji, and something older than either." },
-        { "The Cenarion Circle keeps a hold here to watch them. The Twilight's Hammer has made camps in the desert, for its own purposes, and an army of the Alliance and the Horde together was raised to march on the wall. It is a dreadful place. I spent a week in it and found sand in my notes for a year." },
+        { "Silithus is a desert of yellow sand and great silithid hives in south-western Kalimdor. Behind the Scarab Wall lies Ahn’Qiraj, the city of the insects’ qiraji masters. Something older still lies beneath their rule." },
+        { "The Cenarion Circle watches from its hold, while Twilight’s Hammer cultists gather in desert camps. Alliance and Horde forces have been raised together to march on the wall. Scholars have work here, traveller, but so do soldiers; the hives have made it difficult for either to pursue their business in peace." },
       },
     },
     ["temple-of-ahnqiraj"] = {
@@ -2358,8 +2354,8 @@ ns.content = {
       unlock = { { area = 3428 }, { area = 16076 } },
       also = { "ruins-of-ahnqiraj", "cthun", "silithid", "caverns-of-time" },
       text = {
-        { "At the heart of Ahn'Qiraj stands its temple, the seat of the qiraji, whose emperors, the twin brothers Vek'lor and Vek'nilash, rule their swarms from it. The bronze dragons fear it, and those who go deep into the temple understand why." },
-        { "The qiraji are servants. The silithid, the qiraji, the giant worms and the twin emperors all serve one master, which lies at the bottom of the temple: C'Thun, one of the Old Gods, the ancient powers of the world. The qiraji built their temple around it, and their whole empire to serve it." },
+        { "The twin emperors Vek’lor and Vek’nilash rule the qiraji from the Temple of Ahn’Qiraj. Their servants include the silithid swarms and the great worms within its halls. The bronze dragons regard this place with fear." },
+        { "Beneath the emperors lies C’Thun. The temple and the empire around it serve this Old God, rather than the rulers a traveller first encounters. The emperors hold a court, traveller, above the chamber of their own master." },
       },
     },
     ["the-scarab-wall"] = {
@@ -2394,8 +2390,8 @@ ns.content = {
       unlock = { { kill = 4275 }, { quest = 1014 } },
       also = { "shadowfang-keep", "worgen", "pyrewood-village" },
       text = {
-        { "Arugal was a mage of the Kirin Tor, and when the Scourge pressed against Silverpine he went looking for a weapon against it. He found the worgen, wolf-men from somewhere else, and summoned them. They tore into the dead. Then they turned on the living." },
-        { "Arugal did not take it well. He went mad, called the worgen his children, took Shadowfang Keep for them, and laid his curse on Pyrewood. The Forsaken mage who has studied his spells calls him a fool and a charlatan, and wonders how he was ever admitted to the Kirin Tor. I have no answer. I note only that the Kirin Tor have not come to collect him." },
+        { "As Dalaran’s defenders fell to the Scourge, the Kirin Tor mage Arugal sought a weapon against the dead. He summoned worgen from another world. They attacked the Scourge, then turned on the living they had been brought to protect." },
+        { "Arugal went mad and withdrew to Shadowfang Keep with the worgen he called his children. He also laid a curse upon Pyrewood. A Forsaken mage studying his spells calls him a fool and a charlatan, and questions his admission to the Kirin Tor. Such criticism comes readily from an enemy, traveller, but Silverpine bears ample evidence of what followed his experiment." },
       },
     },
     ["greymane-wall"] = {
@@ -2403,8 +2399,8 @@ ns.content = {
       unlock = { { area = 230 } },
       also = { "silverpine-forest", "pyrewood-village" },
       text = {
-        { "At the southern end of Silverpine a great wall runs from sea to cliff, and behind it lies Gilneas. After the Second War its king, Genn Greymane, quarrelled with the other kings of the Alliance, over the cost of keeping the defeated orcs in their camps among other things, and took his kingdom out of the Alliance altogether. Then he built the wall, and closed its gate." },
-        { "It has kept the plague out, and the dead. It has also kept out everyone who fled to it from the north, and no word has come out of Gilneas since. Whatever is happening behind the Greymane Wall, the Gilneans are keeping it to themselves." },
+        { "The Greymane Wall closes southern Silverpine from sea to cliff, with Gilneas beyond its gate. After the Second War, King Genn Greymane quarrelled with the other Alliance rulers, including over the cost of keeping defeated orcs in internment camps. He withdrew his kingdom from the Alliance and shut it behind this wall." },
+        { "Refugees from the north find the gate closed. No word has come out of Gilneas to explain its present affairs. You may see the wall plainly enough, traveller; it is the country behind it that remains beyond this record." },
       },
     },
     ["pyrewood-village"] = {
@@ -2421,8 +2417,8 @@ ns.content = {
       unlock = { { area = 209 }, { area = 236 } },
       also = { "archmage-arugal", "worgen", "pyrewood-village" },
       text = {
-        { "Shadowfang Keep stands on a bluff above Pyrewood, on the borders of Gilneas, and it was the seat of Baron Silverlaine before the mage Arugal came. Arugal's worgen overran it, and the Baron and his household died in their own halls; their ghosts walk them still, with Commander Springvale, a paladin who served the house." },
-        { "Arugal took the keep for himself and his creatures, and gave it the name it has now. The Forsaken would like it, as a stronghold on their southern border; the deathstalkers they sent to scout it have not come back." },
+        { "Before Arugal came, the fortress above Pyrewood belonged to Baron Silverlaine. The mage’s worgen overran it, and the Baron’s ghost still haunts its halls. Commander Springvale, a paladin, is among its other undead defenders." },
+        { "Arugal retreated here with the worgen he calls his children. The fortress is now known as Shadowfang Keep, a stronghold the Forsaken want on their southern border. Their deathstalkers went in to scout it and have not returned. If you are sent after them, traveller, their silence is part of what you should know before entering." },
       },
     },
     ["silverpine-forest"] = {
@@ -2439,8 +2435,8 @@ ns.content = {
       unlock = { { area = 228 } },
       also = { "the-forsaken", "archmage-arugal", "ambermill", "thule-ravenclaw", "varimathras" },
       text = {
-        { "The Sepulcher is the Forsaken's stronghold in Silverpine, a cluster of crypts and mausoleums in a clearing in the woods, held by the Deathguard and the Deathstalkers. From here the Forsaken mean to secure the forest, and, by their own orders, more than the forest: the Banshee Queen has charged Varimathras with the conquest of the human and dwarven lands to the south." },
-        { "For now they have their hands full. Arugal's worgen, the Rot Hide gnolls and the mages of Ambermill keep the Sepulcher busy, and its master would very much like someone to clean up what he calls Arugal's mess." },
+        { "The Sepulcher is a cluster of crypts and mausoleums in Silverpine, held by Forsaken Deathguard and Deathstalkers. From this stronghold they mean to secure the forest. The Banshee Queen’s orders reach further: Varimathras is charged with conquering the human and dwarven lands to the south." },
+        { "For now, Arugal’s worgen, the Rot Hide gnolls and Ambermill’s mages keep its forces occupied close to home. The Forsaken want Arugal’s work undone in particular. Study the immediate errands as well as the larger orders, traveller; one shows the obstacles to the other." },
       },
     },
     ["thule-ravenclaw"] = {
@@ -2449,7 +2445,7 @@ ns.content = {
       also = { "gnolls", "scourge", "the-sepulcher" },
       text = {
         { "Thule Ravenclaw was a young mage of great promise before the Third War. When the Lich King rose, he betrayed his own to serve the Scourge, and the Forsaken, some of whom studied beside him in life, did not know he still lived until they found his work." },
-        { "He holds Fenris Isle, in a lake off the coast of Silverpine, and the gnolls of the Rot Hide clan are his: dead things, raised and steeped in his foul ichors, which dig up the graves of Tirisfal and carry the bodies to him. What he makes of them, the Forsaken would rather not discover the hard way." },
+        { "He holds Fenris Isle, in Lordamere Lake beside Silverpine, and the gnolls of the Rot Hide clan are his: dead things, raised and steeped in his foul ichors, which dig up the graves of Tirisfal and carry the bodies to him. What he makes of them, the Forsaken would rather not discover the hard way." },
       },
     },
     ["boulderslide-ravine"] = {
@@ -2485,8 +2481,8 @@ ns.content = {
       unlock = { { area = 460 } },
       also = { "stonetalon-mountains", "grimtotem", "stonetalon-peak" },
       text = {
-        { "Sun Rock Retreat is a Horde camp high in the cliffs of central Stonetalon, held by tauren and orcs together. Its shamans gather seeds to regrow what the goblins have burned, and its hunters avenge the tauren village of Camp Aparaje, which the Grimtotem raided and all but wiped out." },
-        { "Not everyone at Sun Rock loves the land. A warlock lodges there, a servant of a master in Jaedenar, who hates the druids of the peak for what he calls their stifling of magic, and will pay anyone who helps him against them. The Horde, it seems, does not ask too many questions in Stonetalon." },
+        { "Tauren and orcs share Sun Rock Retreat in the cliffs of central Stonetalon. Its shamans collect seeds to regrow the burned country. Hunters seek vengeance for Camp Aparaje, the tauren village all but destroyed by the Grimtotem. There is both restoration and reprisal in the camp’s work." },
+        { "A warlock staying here has a different purpose. He serves a master in Jaedenar and pays for help against the peak’s druids, whom he accuses of stifling magic. Listen carefully to who offers each errand, traveller. Sharing a camp does not give its inhabitants the same intentions." },
       },
     },
     ["windshear-crag"] = {
@@ -2512,8 +2508,8 @@ ns.content = {
       unlock = { { kill = 587 }, { kill = 588 }, { kill = 595 }, { kill = 597 }, { kill = 660 }, { kill = 671 }, { kill = 694 }, { kill = 697 }, { kill = 698 }, { kill = 699 }, { kill = 701 }, { kill = 702 }, { kill = 667 }, { kill = 669 }, { kill = 670 }, { kill = 672 }, { kill = 696 }, { kill = 756 }, { kill = 780 }, { kill = 781 }, { kill = 782 }, { kill = 783 }, { kill = 784 } },
       also = { "gurubashi-empire", "gromgol-base-camp" },
       text = {
-        { "Two Gurubashi tribes hold the jungles of Stranglethorn: the Bloodscalp in the north-west, the Skullsplitter in the centre, around the ruins of their ancestors' cities. They are the empire's heirs, and they behave like it: they raid, take heads, and make trophies of their enemies. They hate each other almost as much as they hate everyone else." },
-        { "Each has its chief and its witch doctor, and their headhunters roam the whole north of the jungle. The Bloodscalp have taken a Darkspear prisoner, a chief's son given to Zul'Gurub long ago, and the Darkspear want him back." },
+        { "The Bloodscalp hold north-western Stranglethorn; the Skullsplitter occupy the central jungle. Both live among the ruins of their Gurubashi ancestors. Their headhunters range through the north, taking heads and trophies, and the two tribes regard one another with considerable hostility." },
+        { "Nimboya suspects the Bloodscalp of holding Yenniku, his chief’s youngest son. The search leads elsewhere: Zanzil the Outcast has him under magical control. Follow that distinction, traveller. The first enemy named in an investigation is not always the one responsible." },
       },
     },
     ["booty-bay"] = {
@@ -2521,8 +2517,8 @@ ns.content = {
       unlock = { { area = 35 } },
       also = { "steamwheedle-cartel", "bloodsail-buccaneers", "stranglethorn-vale" },
       text = {
-        { "Booty Bay is a goblin port built into the cliffs of a sea-cave at the southern tip of Stranglethorn: wooden houses on stilts, rope bridges and a harbour full of ships, entered through the open jaws of an enormous shark's skull. It is the Steamwheedle Cartel's town, and its master is Baron Revilgaz, who keeps it neutral and keeps it profitable." },
-        { "The Blackwater Raiders, the pirates who sail for the Baron, have their home here too, and they are at war with the Bloodsail Buccaneers, who would very much like the Baron dead. It is the loudest, dirtiest, merriest town I have ever seen, and I lost a good knife there." },
+        { "Booty Bay clings to the cliffs of a sea-cave at Stranglethorn’s southern tip. Wooden houses, stilts and rope bridges crowd its harbor; an enormous shark’s open jaws mark the entrance. Baron Revilgaz runs the port for the Steamwheedle Cartel, with an interest in keeping it both neutral and profitable." },
+        { "His Blackwater Raiders make their home here too. They are at war with the Bloodsail Buccaneers, who want the Baron dead. A trader can find a haven in the bay, while an armed traveller can find employment in the quarrel beyond it. Revilgaz has business for both." },
       },
     },
     ["gromgol-base-camp"] = {
@@ -2530,8 +2526,8 @@ ns.content = {
       unlock = { { area = 117 } },
       also = { "darkspear-trolls", "bloodscalp-and-skullsplitter", "stranglethorn-vale" },
       text = {
-        { "Grom'gol is the Horde's camp in northern Stranglethorn, a stockade on the coast where the zeppelins from Orgrimmar and Undercity land. The Darkspear have particular business here: this jungle was their ancestors' country, and they have come back looking for what they lost when they left it." },
-        { "One of them is searching for his chief's youngest son, Yenniku, who was given to the trolls of Zul'Gurub as a boy, as the old custom demanded, and was lost to the tribe when the Darkspear left with Thrall. The Bloodscalp have him now, and they are not giving him back." },
+        { "Grom’gol is a Horde stockade on Stranglethorn’s northern coast, served by zeppelins from Orgrimmar and Undercity. For the Darkspear, a journey here is a return to their ancestors’ country. Their business in the jungle includes losses that followed them when they left." },
+        { "Nimboya seeks Yenniku, his chief’s youngest son, given to the trolls of Zul’Gurub as a boy under the old custom. The Darkspear lost him when they departed with Thrall. Nimboya first suspects the Bloodscalp, but the search reveals Zanzil the Outcast’s magical hold over him and leads to an attempt to free his soul. A lost son has brought Nimboya back to the jungle, traveller, with a rather different purpose from the soldiers around him." },
       },
     },
     ["gurubashi-arena"] = {
@@ -2557,8 +2553,8 @@ ns.content = {
       unlock = { { kill = 14834 }, { quest = 8183 } },
       also = { "zulgurub", "gurubashi-empire", "zandalar-tribe", "the-temple-of-atalhakkar" },
       text = {
-        { "Hakkar is the blood god of the trolls, the Soulflayer, a winged serpent of terrible power who feeds on blood and souls. The Atal'ai priests of the Gurubashi first brought him into this world long ago, and his reign was absolute and monstrous, until the tribes rose against his priests and drove them out." },
-        { "He has come back, through Zul'Gurub, and the Zandalar warn that if he cannot be stopped now his new reign will cover the world. Those who have faced him in his temple say that even when he falls, his heart still burns, and that the power in it does not die." },
+        { "Hakkar the Soulflayer is the trolls’ blood god, a winged serpent who feeds on blood and souls. Long ago the Atal’ai brought him into the world. His demand for sacrifice became so terrible that the tribes rose against his priests and drove them into exile." },
+        { "He has returned through Zul’Gurub. The Zandalar warn that his reign will spread across the world unless he is stopped. Even his fallen heart holds power: those who have faced him describe it as still burning. Keep the Zandalar’s warning close, traveller, if you enter that city. They know what his worship once cost their people." },
       },
     },
     ["kurzen-rebellion"] = {
@@ -2566,8 +2562,9 @@ ns.content = {
       unlock = { { area = 101 }, { area = 99 }, { kill = 813 } },
       also = { "stranglethorn-vale", "gurubashi-empire" },
       text = {
-        { "Colonel Kurzen came to Stranglethorn as a soldier, a brilliant tactician and, by every account, once a great and noble man. Something changed him. He made his camp in the north of the jungle, and his men became his men alone, raiding and hunting with a cruelty the jungle itself would envy." },
-        { "Some of them did not follow him into it. They broke away under Lieutenant Doren and hold a rebel camp in the hills, outnumbered ten to one, fighting Kurzen with his own tactics. Their chaplain believes that troll magic has the colonel in its grip, and has been searching the ruins for the legends that might prove it." },
+        { "Colonel Kurzen came to Stranglethorn with a soldier’s reputation: a brilliant tactician, once considered a great and noble man. In the jungle he changed. His followers became a force loyal to him alone, raiding and hunting with a cruelty their former comrades would not accept." },
+        { "Lieutenant Doren led the breakaways into a rebel camp in the hills. Outnumbered ten to one, they fight Kurzen with the tactics he taught them. Brother Nimetz first suspects troll magic, but his investigation leads to Mai’Zoth, an ogre mage, and the Mind’s Eye used to control minds." },
+        { "Nimetz asks for the mage’s death and the recovery of the artifact. Bring particular care to that second task, traveller. He fears that leaving it behind would leave another soldier open to Kurzen’s fate." },
       },
     },
     ["nesingwarys-expedition"] = {
@@ -2575,8 +2572,8 @@ ns.content = {
       unlock = { { area = 100 }, { npc = 715 } },
       also = { "stranglethorn-vale" },
       text = {
-        { "In a clearing in northern Stranglethorn stands a camp of tents, trophies and gun racks: the hunting expedition of Hemet Nesingwary, the most famous big-game hunter in the world. He has come to Stranglethorn for its panthers, tigers and raptors, and to write a novel about it, The Green Hills of Stranglethorn." },
-        { "He is a gruff, generous man, and his camp is the best place in the jungle to prove yourself as a hunter. His manuscript, I am told, blew away in a storm and is scattered all over the jungle. I have read a few pages. They are mostly about killing things." },
+        { "Hemet Nesingwary’s camp occupies a clearing in northern Stranglethorn, well furnished with tents, trophies and gun racks. The renowned hunter has come for panthers, tigers and raptors, and to write The Green Hills of Stranglethorn. He offers visiting hunters ample opportunity to prove themselves." },
+        { "His manuscript blew away and its pages are scattered across the jungle. The chapters recount his hunt, once someone has put them back in order. If you find a page, traveller, keep it. Authors are troublesome enough when they know where their work is." },
       },
     },
     ["stranglethorn-vale"] = {
@@ -2593,8 +2590,8 @@ ns.content = {
       unlock = { { area = 3357 }, { npc = 14875 }, { npc = 14910 } },
       also = { "hakkar", "zulgurub", "gurubashi-empire" },
       text = {
-        { "The Zandalar are the oldest of the trolls, the tribe all the others came from, according to the trolls themselves: priests and scholars who keep the trolls' memory and their gods. They do not often meddle in the affairs of other peoples. They have come to Stranglethorn now, and set up camp on Yojamba Isle off its coast, because of Hakkar." },
-        { "Their leader, Molthor, will deal with anyone, troll or not, who helps them put the Soulflayer down again. A troll asking a dwarf for help is not something I ever expected to see. It tells me how frightened they are." },
+        { "The Zandalar describe themselves as the oldest troll tribe, from whom the others descend. Their priests and scholars preserve the memory of their people and their gods. They seldom intervene in the affairs of other peoples, but Hakkar’s return has brought them to Yojamba Isle off Stranglethorn’s coast." },
+        { "Their leader, Molthor, will work with anyone prepared to oppose the Soulflayer. That invitation includes people the trolls would ordinarily have little reason to welcome. Take the measure of their concern from it, traveller: they have come here to prevent a calamity their own histories teach them to fear." },
       },
     },
     ["zulgurub"] = {
@@ -2602,8 +2599,8 @@ ns.content = {
       unlock = { { area = 1977 } },
       also = { "hakkar", "gurubashi-empire", "zandalar-tribe" },
       text = {
-        { "Zul'Gurub was the capital of the Gurubashi empire, a city of temples in the north-east of the jungle, and for centuries it lay quiet. It is quiet no longer. The high priests of the Gurubashi, and the troll Jin'do the Hexxer above them, have brought Hakkar the Soulflayer back into the world, and the city is his again." },
-        { "Its priests have taken the shapes of the old animal gods, the bat, the panther, the tiger, the snake and the spider, and the blood of the jungle runs to the Soulflayer's altar. If his power grows, the trolls say, his reign will spread across all of Azeroth. Even the other trolls are afraid." },
+        { "Zul’Gurub was the temple-city at the heart of the Gurubashi empire. After centuries of quiet, it is Hakkar’s city again. High priests sent to oppose him have fallen under his power, and the Zandalar must now seek help beyond their own people." },
+        { "The captive priests take the shapes of the old animal gods: bat, panther, tiger, snake and spider. Sacrifice feeds the Soulflayer’s altar. The Zandalar warn that his growing power threatens all Azeroth. If you enter, traveller, remember why they have asked you to go: even those sent to stop him became instruments of his rule." },
       },
     },
     ["eranikus"] = {
@@ -2647,8 +2644,8 @@ ns.content = {
       unlock = { { kill = 755 }, { kill = 757 }, { kill = 759 }, { kill = 760 }, { kill = 761 }, { kill = 762 }, { kill = 763 }, { kill = 1106 }, { kill = 6913 }, { area = 76 } },
       also = { "swamp-of-sorrows", "burning-legion" },
       text = {
-        { "In the east of the swamp there are people who look like nothing else in Azeroth: tall, blue-grey, hooved and tendrilled. A few of them, the exiles at the Harborage, are sane and gentle; they call themselves draenei, and they say they came to this world from the orcs' own, a long and terrible journey. The rest are the Lost Ones." },
-        { "The journey broke them, the exiles say. Once their brethren, the Lost Ones now live in the Fallow Sanctuary like beasts, catching and killing any who come near, and they have stolen the crystals the exiles hold sacred. What the draenei were before the orcs came to their world, and what was done to them, the exiles do not like to say, and I have not pressed them." },
+        { "The exiles at the Harborage call themselves draenei. Hooved and tendrilled, with blue-grey skin, they are unlike the other peoples a traveller usually meets in Azeroth. They say they came from the orcs’ world after a terrible journey. Those at the Harborage remain gentle and willing to speak." },
+        { "Others live in the Fallow Sanctuary and are called the Lost Ones. The exiles say the journey broke their former brethren. They attack those who approach and have stolen crystals the exiles hold sacred. These local accounts tell us little about their earlier life or what happened before they came here. I would rather leave that portion of the page open than supply them with a past they have not described." },
       },
     },
     ["the-temple-of-atalhakkar"] = {
@@ -2701,8 +2698,8 @@ ns.content = {
       unlock = { { area = 990 }, { npc = 7918 }, { quest = 2954 } },
       also = { "platinum-discs", "uldaman", "tanaris", "explorers-league" },
       text = {
-        { "In the far south of Tanaris, in the Valley of the Watchers, stand the sealed gates of Uldum. Beside them, when the platinum discs of Uldaman are brought near, a stone watcher wakes and speaks: it is the Stone Watcher of Norgannon, a guardian of entry, and it will let no one in who does not carry the Plates of Uldum." },
-        { "What we know is what it told us. Uldum is a research facility of the titans, the Creators, for their work on the life of this world, and what is inside can only be reached with the plates. Where those are, the Watcher does not say. The League would give a great deal to know." },
+        { "Uldum’s sealed gates stand in the Valley of the Watchers, far south in Tanaris. Bring the platinum discs of Uldaman near them and the Stone Watcher of Norgannon wakes. It guards entry and requires the Plates of Uldum before it will admit anyone." },
+        { "The Watcher describes a Titan research facility concerned with the life of this world. It does not tell us where the required plates lie. The League has a name, a purpose and a closed gate to investigate, traveller. We would very much like to add a way through it." },
       },
     },
     ["zulfarrak"] = {
@@ -2719,9 +2716,8 @@ ns.content = {
       unlock = { { area = 1657 } },
       also = { "tyrande-whisperwind", "fandral-staghelm", "teldrassil", "cenarion-circle" },
       text = {
-        { "Darnassus is the city of the night elves, built in the branches of Teldrassil, and it is the strangest capital I have ever walked through: a city with almost no walls, its halls grown rather than built, lit by moonlight and the glow of the great Temple of the Moon, with waterfalls running through its streets." },
-        { "It is new, younger than I am, though you would never guess it. Before the last war the night elves had no need of cities; they lived scattered through the forests of Ashenvale, unseen and unknown to the rest of us for ten thousand years. They built Darnassus when they lost the World Tree on Hyjal and came out into the world, and they have joined the Alliance since." },
-        { "Two powers sit there: the priestesses of the moon in the Temple, under Tyrande Whisperwind, and the druids in the Cenarion Enclave, under Fandral Staghelm. The night elves are polite about this arrangement. They are polite about everything." },
+        { "Darnassus stands in Teldrassil’s crown, a new capital built after the Third War. Moonlight, waterfalls and the glow of the Temple of the Moon fill a city with few walls and halls grown among the branches. An Ironforge dwarf is accustomed to having rather more stone overhead." },
+        { "The night elves have joined the Alliance, opening this city to visitors from peoples they long kept apart from. Tyrande Whisperwind leads the priestesses from the Temple, while Fandral Staghelm directs the druids in the Cenarion Enclave. Learn those two places, traveller. Much of the city’s business begins in one or the other." },
       },
     },
     ["dolanaar"] = {
@@ -2729,8 +2725,8 @@ ns.content = {
       unlock = { { area = 186 } },
       also = { "teldrassil", "sickness-of-teldrassil" },
       text = {
-        { "Dolanaar is the village on the road between Shadowglen and Darnassus: a moonwell, an inn and a few graceful buildings among the trees, where the druids and sentinels of the forest gather to compare their troubles. Lately they have had plenty to compare: the furbolgs gone mad, satyrs in the caves, sick creatures in the woods." },
-        { "It is a good place to listen. The night elves are reserved with strangers, but in Dolanaar, over a cup of moonberry juice, they say a little more than they mean to." },
+        { "Dolanaar lies on the road from Shadowglen to Darnassus, gathered around a moonwell with an inn and buildings among the trees. Druids and Sentinels work here close to the forest’s troubles. It is a useful stopping place before a traveller continues to the capital." },
+        { "Lately their concerns include the Gnarlpine furbolgs, satyrs in the caves and sick creatures in the woods. The village’s quiet appearance offers little measure of that work. Listen to what its keepers ask of you; they have watched the change in the country around them." },
       },
     },
     ["fandral-staghelm"] = {
@@ -2747,8 +2743,8 @@ ns.content = {
       unlock = { { area = 188 }, { area = 256 } },
       also = { "teldrassil", "sickness-of-teldrassil" },
       text = {
-        { "Every young night elf begins in Shadowglen, a quiet hollow in the high forest of Teldrassil gathered around a great tree called Aldrassil, in whose boughs their teachers live. Druids, priestesses and sentinels watch over it, and the Conservator who keeps the glade will tell you that nature's balance begins with the smallest things." },
-        { "It is beautiful, and it is not entirely well. The spiders have grown large and the sprites and grells of the woods have turned vicious, and the glade's guardians have the young out clearing them away from the first day." },
+        { "Shadowglen gathers the night elves’ young recruits around Aldrassil, a great tree whose branches house their teachers. Druids, priestesses and Sentinels tend this hollow in Teldrassil’s forest. Its Conservator teaches that nature’s balance begins with small things." },
+        { "The recruits have work before them almost at once. Spiders have grown large, and the sprites and grells have turned vicious. A traveller beginning here learns the guardians’ concern for the forest by helping with what has gone wrong in it." },
       },
     },
     ["sickness-of-teldrassil"] = {
@@ -2756,9 +2752,9 @@ ns.content = {
       unlock = { { kill = 3535 }, { area = 262 }, { area = 258 }, { quest = 476 } },
       also = { "teldrassil", "furbolgs", "satyrs", "fandral-staghelm" },
       text = {
-        { "Teldrassil was grown without the blessing of the Aspects: of Alexstrasza the Life-Binder, who blessed Nordrassil long ago, and of Nozdormu the Timeless, who gave the night elves their endless years through it. The druids of Dolanaar say so plainly, and they say what has followed: strange beasts rising out of the ground of the tree, and creatures driven mad." },
-        { "The Gnarlpine furbolgs were friends of the night elves until a fel moss took hold of their chieftain, Ursal the Mauler, and through him of the tribe; now they raid the villages they once traded with. Even the timberlings have turned: one, Blackmoss, is so overgrown with the dark moss that his heart, cut out, still beats beneath it. A satyr lord has made a nest of the cave called Fel Rock. And in the Ban'ethil Barrow Den, where the Druids of the Talon sleep in the Emerald Dream under a pact with Ysera, their warden has gone quiet." },
-        { "The druids are working on it, and Fandral Staghelm has his remedies. No one in Darnassus will say aloud that the tree itself might be sick. The furbolgs, I notice, are not the only ones who have stopped saying things aloud." },
+        { "Teldrassil lacks the blessings that Alexstrasza and Nozdormu once gave Nordrassil. The druids of Dolanaar speak plainly about this, and about the troubles of the new tree: strange beasts rise from its ground, and creatures once friendly have turned violent." },
+        { "Fel moss took hold of Ursal the Mauler and spread through his Gnarlpine tribe. Blackmoss the timberling is so overgrown that his severed heart still beats beneath the dark growth. A satyr lord occupies Fel Rock. In Ban’ethil, where Druids of the Talon sleep in the Emerald Dream under their pact with Ysera, the warden has fallen silent." },
+        { "Fandral acknowledges the problems and has remedies to offer. Other druids continue their investigations. Bring them what you find, traveller. A tree large enough to shelter a people is also rather large for its keepers to examine." },
       },
     },
     ["teldrassil"] = {
@@ -2768,7 +2764,7 @@ ns.content = {
       text = {
         { "Teldrassil is a tree, and I write that sentence knowing how foolish it sounds. It rises out of the sea off the northern coast of Darkshore, so vast that forests grow on its branches and rivers run along them, and the night elves live in its crown. Its name means \"crown of the earth\"." },
         { "The night elves once had another such tree, Nordrassil, on Mount Hyjal, and while it stood they never aged. At the end of the last war they let it be broken to destroy the demon Archimonde, and gave up their immortality with it. When the war was over, the druids under Fandral Staghelm grew Teldrassil to take its place." },
-        { "The old tree had the blessing of the great dragons. The new one does not, and its own keepers admit that its growth has not been without flaw. I will say more of that elsewhere. For now, take ship from Auberdine, climb from Rut'theran, and see it: there is nothing else like it in the world." },
+        { "The old tree had the blessing of the great dragons. The new one does not, and its own keepers admit that its growth has not been without flaw. I will say more of that elsewhere. For now, take ship from Auberdine, pass through the gateway from Rut'theran, and see it: there is nothing else like it in the world." },
       },
     },
     ["tyrande-whisperwind"] = {
@@ -2776,9 +2772,9 @@ ns.content = {
       unlock = { { npc = 7999 } },
       also = { "darnassus", "cenarion-circle", "fandral-staghelm" },
       text = {
-        { "Tyrande Whisperwind is the High Priestess of Elune and the leader of the night elves, and she has been for ten thousand years. She was a young priestess when the Burning Legion first came through the Well of Eternity, and she fought in that war beside two brothers, Malfurion and Illidan Stormrage. Malfurion she loved. Illidan, they say, loved her, and was the darker for it." },
-        { "For the long ages since, her priestesses and her Sentinels have guarded the forests while the druids slept in the Emerald Dream. In the last war she rallied her people, woke Malfurion from his sleep, and stood at Mount Hyjal when Archimonde fell. Malfurion sleeps again now, in the Moonglade, and Tyrande rules alone from the Temple of the Moon." },
-        { "She is gracious to visitors and formidable in every other respect. I would not like to be the Horde captain who brings her bad news from Ashenvale." },
+        { "Tyrande Whisperwind leads the night elves as High Priestess of Elune. Ten thousand years ago she was a young priestess fighting the Legion beside Malfurion and Illidan Stormrage. She loved Malfurion; Illidan’s love for her went unanswered." },
+        { "While the druids slept in the Emerald Dream, her priestesses and Sentinels guarded the forests through the long ages. In the Third War she rallied the night elves, woke Malfurion and stood at Hyjal when Archimonde fell." },
+        { "Malfurion is now missing, and the druids do not know his fate. Tyrande leads from Darnassus’s Temple of the Moon while Fandral Staghelm heads the druids. Treat her welcome with respect, traveller. The priestess greeting visitors has led her people through wars far older than our kingdoms." },
       },
     },
     ["freewind-post"] = {
@@ -2804,8 +2800,8 @@ ns.content = {
       unlock = { { area = 439 }, { area = 2240 } },
       also = { "thousand-needles", "steamwheedle-cartel" },
       text = {
-        { "The Shimmering Flats are a great salt pan in the east of Thousand Needles, flat, white and blinding, and the goblins and the gnomes have made it the home of the Mirage Raceway: a long oval track where the two peoples race rocket cars against each other, with crowds, bookmakers and a great many crashes." },
-        { "The rivalry is old and good-natured, mostly. The goblins' team is on its eighteenth pilot; the gnomes keep improving their fuel regulators; and the wreckage of past races litters the flats for miles, worth good money to anyone who cares to collect it. I watched a race once. I have never heard a noise like it, and I live in Ironforge." },
+        { "The Shimmering Flats are a broad salt pan in eastern Thousand Needles, white enough to dazzle a traveller’s eyes. Goblins and gnomes have built the Mirage Raceway across it. Their rocket cars circle the track before crowds and bookmakers, with frequent interruptions for crashes." },
+        { "Wreckage supplies Kravel Koalbeard with parts to sell back to the teams. The Brassbolts brothers need helmets for their pilots. A race produces winners, losers and a useful quantity of salvage; the people working beside the track have found occupations in all three." },
       },
     },
     ["thousand-needles"] = {
@@ -2814,7 +2810,7 @@ ns.content = {
       also = { "freewind-post", "shimmering-flats", "centaurs", "grimtotem" },
       text = {
         { "South of the Barrens the ground drops away by a great lift into Thousand Needles: a deep canyon full of towering spires of stone, hundreds of them, standing up out of the dust like the bones of the earth. The tauren live on top of them, the centaurs of the Galak clan in the canyon below, and the wind riders and the harpies in between." },
-        { "In the east the canyon opens into the Shimmering Flats, a dry white bed of salt where it never rains and the heat shimmers off the ground. The goblins and the gnomes have built a race track on it. I am told this is a natural thing for goblins and gnomes to do with a desert." },
+        { "In the east the canyon opens into the Shimmering Flats, a dry white bed of salt where the heat shimmers off the ground. The goblins and the gnomes have built a race track on it. I am told this is a natural thing for goblins and gnomes to do with a desert." },
       },
     },
     ["brill"] = {
@@ -2850,8 +2846,8 @@ ns.content = {
       unlock = { { npc = 2055 } },
       also = { "the-forsaken", "brill", "scourge" },
       text = {
-        { "The Royal Apothecary Society is the Forsaken's academy of alchemy, poison and plague, under its master, Faranell, and the Banshee Queen has given it a great task. She has charged the apothecaries with brewing a new plague, deadlier than any sickness the world has seen, to bring the Lich King's Scourge to ruin." },
-        { "So they say. The apothecaries in Brill, in Hillsbrad and in the hills of Arathi experiment on beasts, on murlocs and on prisoners, and one of them told a traveller, with some satisfaction, that his latest brew was \"a hint of what the Dark Lady has planned for the rest of Azeroth\". Agents of the Alliance in Southshore have been asking questions. So, in a quiet way, have I." },
+        { "Master Faranell leads the Royal Apothecary Society, the Forsaken’s institution of alchemy, poison and plague. Sylvanas has charged it with creating a new sickness powerful enough to destroy the Lich King’s Scourge. That is the purpose its apothecaries proclaim." },
+        { "Their work extends through Brill, Hillsbrad and Arathi, with experiments on beasts, murlocs and prisoners. One apothecary describes his brew as a foretaste of the Dark Lady’s plans for the rest of Azeroth. Alliance agents in Southshore have begun asking questions. The stated enemy and the people made to suffer in the experiments deserve separate lines in the record, traveller." },
       },
     },
     ["scarlet-monastery"] = {
@@ -2859,8 +2855,8 @@ ns.content = {
       unlock = { { area = 796 } },
       also = { "scarlet-crusade", "whitemane-and-mograine", "the-forsaken" },
       text = {
-        { "In the north of Tirisfal, on a hill above the sea, stands the monastery that the Scarlet Crusade has made its fortress: a great walled house of the Light with a library, an armoury, a graveyard and a cathedral, where the Crusade's knights, priests and inquisitors train for their war." },
-        { "From here they wage it on everything around them: the Scourge, the Forsaken and any traveller unlucky enough to look suspicious. The Forsaken would dearly like it gone, and send their champions against it. Its masters are the High Inquisitor Whitemane and the Scarlet Commander, Mograine, in the cathedral." },
+        { "The Scarlet Crusade holds a monastery on a hill in northern Tirisfal, above the sea. Its walls enclose a library, an armoury, a graveyard and a cathedral. Knights, priests and inquisitors train there for a war that extends well beyond the Scourge." },
+        { "The Forsaken are enemies too, as is any traveller the Crusade finds suspicious. High Inquisitor Whitemane and Scarlet Commander Mograine hold the cathedral, while Forsaken champions are sent against the fortress. The monastery has the outward furnishings of a house of the Light; approach with more caution than that description might suggest." },
       },
     },
     ["sylvanas-windrunner"] = {
@@ -2906,8 +2902,8 @@ ns.content = {
       unlock = { { area = 1497 } },
       also = { "the-forsaken", "sylvanas-windrunner", "fall-of-lordaeron", "royal-apothecary-society" },
       text = {
-        { "The capital of Lordaeron was the greatest city of men in the north, and it is a ruin now: broken walls, a shattered throne room, and courtyards where nothing grows. The Forsaken live beneath it, in the old crypts and catacombs, which they have made into a city of their own: the Undercity, with a canal of green ooze running round its rings, and a royal quarter where the Banshee Queen keeps her court." },
-        { "It is the strangest capital in the world, and the least welcoming, and its people know it. I went down once, under a flag of scholarly truce, and came up again, which I am told is more than some visitors manage." },
+        { "Lordaeron’s capital lies in ruins above the Forsaken’s own city. Beyond its broken walls are the shattered throne room and lifeless courtyards. Beneath them, old crypts and catacombs have become the Undercity, arranged around rings of green ooze. Sylvanas holds court in its royal quarter." },
+        { "Merchants, trainers and guards occupy the other quarters, and the Royal Apothecary Society works in the Apothecarium. The Forsaken have made a functioning capital below the wreck of the one they knew in life. A traveller looking only at the ruins above would miss where the kingdom’s surviving affairs are now conducted." },
       },
     },
     ["varimathras"] = {
@@ -2915,8 +2911,8 @@ ns.content = {
       unlock = { { npc = 2425 } },
       also = { "sylvanas-windrunner", "burning-legion", "undercity" },
       text = {
-        { "Varimathras is a dreadlord, one of the demons the Burning Legion set over the Scourge to watch it, and after the Lich King's prince left for Northrend, he and his brothers ruled the ruins of Lordaeron. When Sylvanas broke free she overpowered him, and he chose to serve her rather than die; at her command he turned against his own brothers." },
-        { "He stands at her side in the Undercity now, and sees to the Forsaken's affairs at home while she looks north. I am told he is perfectly courteous. I am also told that the Dark Lady has never once turned her back on him." },
+        { "After Arthas departed for Northrend, Varimathras and his fellow dreadlords ruled the ruins of Lordaeron. The Burning Legion had placed these demons over the Scourge. Sylvanas, newly free of the Lich King’s control, overpowered Varimathras and offered him a choice between service and death. He chose service, then turned against his brothers at her command." },
+        { "He now stands beside her in the Undercity and attends to the Forsaken’s affairs while she looks north. Remember the terms under which he entered her service, traveller. His first concern in accepting them was his own survival." },
       },
     },
     ["whitemane-and-mograine"] = {
@@ -2924,8 +2920,8 @@ ns.content = {
       unlock = { { kill = 3977 }, { kill = 3976 } },
       also = { "scarlet-monastery", "scarlet-crusade" },
       text = {
-        { "High Inquisitor Sally Whitemane is the spiritual leader of the Scarlet Monastery, a priestess of the Light so devout that she can raise the fallen from death; Scarlet Commander Renault Mograine commands its knights. They hold the cathedral together, and when Mograine falls, Whitemane brings him back." },
-        { "Mograine bears a famous name. His father was Highlord Alexandros Mograine, the Ashbringer, the greatest champion the Silver Hand produced against the Scourge, and he is dead. Somewhere in the cathedral there is another High Inquisitor, Fairbanks, who claims to know how the Highlord died, and says that his son was there. The Crusade would rather he kept quiet. Bring him the Highlord's blade, they say, and he will tell you the rest." },
+        { "High Inquisitor Sally Whitemane and Scarlet Commander Renault Mograine hold the Scarlet Monastery’s cathedral. He commands its knights; she guides its faith. Her command of the Light can raise him when he falls, making a victory over the commander less final than a traveller might hope." },
+        { "Renault is the son of Highlord Alexandros Mograine, the Ashbringer, a great champion of the Silver Hand against the Scourge. His father is dead. Fairbanks, another High Inquisitor hidden in the cathedral, claims to know how he died and says that Renault was there. The Crusade would prefer his silence. Those who bring the Highlord’s blade may hear the account it does not wish told." },
       },
     },
     ["crystal-pylons"] = {
@@ -2933,8 +2929,8 @@ ns.content = {
       unlock = { { quest = 4321 }, { npc = 9117 } },
       also = { "ungoro-crater", "marshals-refuge", "uldum" },
       text = {
-        { "All over Un'Goro, coloured crystals grow out of the ground, red, blue, green and yellow, and they hold some kind of power. At Marshal's Refuge, J.D. Collie has studied them, and he heard rumours of great pylons in the wilderness of the crater, lined with crystals inside." },
-        { "The rumours were true. There are three, in the north, the east and the west of the crater, old beyond reckoning and built by no people living. With the right crystals, they work, and Collie has written a manual for using them. Who built them, and why they left a garden of the old world in a crater, nobody at the Refuge can say. The titans had something to do with it, I am certain. I cannot prove it." },
+        { "J.D. Collie studies Un’Goro’s red, blue, green and yellow crystals at Marshal’s Refuge. Reports of crystal-lined pylons send her enquiries into the wilderness, where three stand in the north, east and west of the crater." },
+        { "Her research shows that different combinations of crystals produce useful effects at the pylons. She supplies a manual for those wishing to try them. Read it before experimenting, traveller. Knowing how to make something work is a worthwhile discovery, even while the question of who first built it remains open." },
       },
     },
     ["fire-plume-ridge"] = {
@@ -2942,8 +2938,8 @@ ns.content = {
       unlock = { { area = 537 } },
       also = { "ungoro-crater", "marshals-refuge" },
       text = {
-        { "Fire Plume Ridge is the volcano in the middle of Un'Goro Crater, with lava running down its sides and fire elementals walking in it. The strongest of them, Blazerunner, lives in a cave at its peak, and the heat of the volcano's veins warms the springs and geysers all over the crater." },
-        { "The scholars of Marshal's Refuge would like very much to know what lies at the heart of it. The young explorer Ringo went to look, and was found in a cave on its southern slope, lost and half-cooked." },
+        { "Fire Plume Ridge rises in the middle of Un’Goro, with lava on its slopes and fire elementals among the flows. Blazerunner occupies a cave near the peak. The volcano gives the crater’s explorers a conspicuous subject for study." },
+        { "Ringo went to investigate and was found in a cave on its southern slope, lost and badly overheated. The scholars at Marshal’s Refuge still want to know what lies at the ridge’s heart. A traveller can share their curiosity without sharing Ringo’s preparations." },
       },
     },
     ["marshals-refuge"] = {
@@ -2969,8 +2965,8 @@ ns.content = {
       unlock = { { area = 193 } },
       also = { "cult-of-the-damned", "scourge", "fall-of-lordaeron", "chillwind-camp" },
       text = {
-        { "Andorhal was a prosperous town, the grain hub of northern Lordaeron, and it was here that the plague began. The Cult of the Damned under Kel'Thuzad tainted the town's granaries, and the grain was shipped out to the villages of the north. Everyone who ate of it died, and everyone who died rose again." },
-        { "Prince Arthas came to Andorhal hunting the plague's source, and killed Kel'Thuzad here; it was not the end of the necromancer, as the world has since learned. The town has been the Scourge's ever since. A lich, Araj the Summoner, rules its ruins now, and both the Alliance at Chillwind and the Forsaken at the Bulwark mean to destroy him." },
+        { "Andorhal supplied grain to northern Lordaeron. Kel’Thuzad’s Cult of the Damned tainted its granaries, and the shipments carried the plague into the villages beyond. A prosperous town became a means of spreading death through the country that depended on it." },
+        { "Arthas killed Kel’Thuzad here while pursuing the plague’s source. The necromancer’s death did not end his work. Andorhal remains in Scourge hands, its ruins ruled by Araj the Summoner. Both Chillwind Camp and the Bulwark seek the lich’s destruction. If you enter the town, traveller, you are following a struggle that its granaries helped begin." },
       },
     },
     ["caer-darrow"] = {
@@ -2987,8 +2983,8 @@ ns.content = {
       unlock = { { area = 3197 } },
       also = { "andorhal", "plague-cauldrons", "house-of-barov", "argent-dawn" },
       text = {
-        { "Chillwind Camp is the Alliance's foothold in the Western Plaguelands, a camp of tents in the hills of the south, near Lake Darrowmere. Commander Ashlam Valorfist leads it, and a strange collection of exiles and scholars has gathered round, among them the last living lord of the house of Barov." },
-        { "From here the Alliance strikes at Andorhal and the cauldrons. It is cold, miserable and short of everything, and its soldiers are the bravest I know." },
+        { "Commander Ashlam Valorfist leads the Alliance’s camp in the southern hills of the Western Plaguelands, near Lake Darrowmere. Its tents have drawn soldiers, exiles and scholars, including Weldon Barov, the last living lord of his house." },
+        { "From here the Alliance attacks Andorhal and works against the plague cauldrons. The camp has little comfort or supply to spare. If you have help to offer, traveller, Valorfist has good use for it. His tents are a small beginning for the work ahead." },
       },
     },
     ["hearthglen"] = {
@@ -2996,8 +2992,9 @@ ns.content = {
       unlock = { { area = 190 }, { area = 203 }, { quest = 5944 } },
       also = { "tirion-fordring", "scarlet-crusade", "western-plaguelands" },
       text = {
-        { "Hearthglen is the Scarlet Crusade's great stronghold in the north of the Western Plaguelands, a walled town around Mardenholde Keep, still green and whole in the middle of the plague. Its Grand Inquisitor, Isillien, keeps it so by fire." },
-        { "Its Highlord was Taelan Fordring, the son of a paladin of the Silver Hand who was cast out for sparing an orc. Taelan had lived for years as what he called a puppet of the Grand Crusader, keeping himself alive with memories of his father, and dreaming of seeing him again. He was finally brought out of Hearthglen to his father, and Isillien caught them on the road. The son died in the father's arms." },
+        { "Hearthglen surrounds Mardenholde Keep in the northern Western Plaguelands. The Scarlet Crusade holds its walls, and Grand Inquisitor Isillien keeps a green, surviving town in the middle of the plague country by ruthless means." },
+        { "Its Highlord, Taelan Fordring, grew weary of serving as the Grand Crusader’s puppet. Memories of his father, Tirion, sustained him, and he finally left to seek him. Isillien caught and killed Taelan on the road. Tirion arrived too late, defeated the inquisitor, and knelt beside his son’s body." },
+        { "Taelan’s father had once been cast out of the Silver Hand for sparing an orc. His son wanted to see him again. Remember that hope, traveller, if you record how Taelan’s service to the Crusade ended." },
       },
     },
     ["house-of-barov"] = {
@@ -3006,7 +3003,7 @@ ns.content = {
       also = { "caer-darrow", "scholomance", "chillwind-camp", "the-bulwark" },
       text = {
         { "The Barovs were a noble house of Lordaeron, rich and proud, lords of Caer Darrow. When the plague came, they made their bargain with Kel'Thuzad: their castle to the Cult of the Damned, in return for the safety of their fortune. Kel'Thuzad kept his word in his own way. The lord and his family are in the Scholomance still, as the Scourge's servants." },
-        { "Two sons are left. Weldon Barov is alive, and sits under Alliance protection at Chillwind Camp. Alexi Barov is not, and keeps company with the Forsaken at the Bulwark. Each wants the family fortune; each would like his brother's head on a plate; and each will pay a traveller to fetch it. I have met them both. I found them very alike." },
+        { "Two sons are left. Weldon Barov is alive, and sits under Alliance protection at Chillwind Camp. Alexi Barov is not, and keeps company with the Forsaken at the Bulwark. Each wants the family fortune; each would like his brother's head on a plate; and each will pay a traveller to fetch it. Undeath has not ended this family quarrel." },
       },
     },
     ["plague-cauldrons"] = {
@@ -3014,8 +3011,8 @@ ns.content = {
       unlock = { { area = 199 }, { area = 200 }, { area = 202 }, { area = 201 }, { quest = 5215 }, { quest = 5228 } },
       also = { "scourge", "cult-of-the-damned", "royal-apothecary-society", "chillwind-camp", "the-bulwark" },
       text = {
-        { "Across the farms of the Plaguelands, eight great cauldrons stand bubbling, four in the west and four in the east, and they pour the plague into the air. They are the Scourge's work, and they are why nothing living recovers in these lands. Cauldron lords guard them, and the dead of the farmsteads stand around them." },
-        { "Kel'Thuzad's power is too strong for anyone to put them out. What the Alliance at Chillwind and the Forsaken at the Bulwark can do is open them, take samples of what they brew, and study the plague from the inside. I suspect the Forsaken's apothecaries are more interested in the brew than they say." },
+        { "Eight plague cauldrons stand on the farms of the Plaguelands, four in the west and four in the east. Cauldron lords and the dead of the surrounding farmsteads guard them. Their fumes keep poisoning country that has already lost its people." },
+        { "Kel’Thuzad’s power prevents the Alliance and Forsaken from simply putting them out. Instead, workers at Chillwind and the Bulwark seek samples to prepare counteragents. Added to the cauldrons, these mixtures alter their emissions to weaken the Scourge. The supply must be renewed. There is no single triumphant stroke to this work, traveller; its value depends on people returning to do it again." },
       },
     },
     ["scholomance"] = {
@@ -3041,8 +3038,8 @@ ns.content = {
       unlock = { { area = 28 } },
       also = { "chillwind-camp", "andorhal", "hearthglen", "scholomance", "scourge", "the-bulwark" },
       text = {
-        { "East of Tirisfal lies what was once the richest farmland of Lordaeron, and is now the Western Plaguelands: grey fields, rotting barns, blighted trees and a green poison hanging in the air. This is where the plague of undeath began, in the grain of these farms, and the dead still walk in their thousands." },
-        { "The living hold only a few places. The Alliance and the Argent Dawn keep Chillwind Camp in the south, the Forsaken the Bulwark in the west, the Scarlet Crusade Hearthglen in the north. Between them, the Scourge holds Andorhal, the cauldrons on the farms, and the school of necromancy on the lake. Every traveller who comes here comes to fight." },
+        { "The Western Plaguelands were once rich Lordaeron farmland. Infected grain carried undeath through its villages; grey fields, rotting barns and blighted trees now surround the dead who still walk them. Green poison hangs over land that once fed the kingdom." },
+        { "Chillwind Camp shelters the Alliance and Argent Dawn in the south, the Forsaken hold the Bulwark in the west, and the Scarlet Crusade keeps Hearthglen in the north. Between those footholds lie Andorhal, the plague cauldrons and Scholomance on the lake. A traveller’s route through this country is measured by where the living can still hold ground." },
       },
     },
     ["edwin-vancleef"] = {
@@ -3079,7 +3076,7 @@ ns.content = {
       also = { "peoples-militia", "westfall" },
       text = {
         { "Sentinel Hill is a stone watchtower on a rise in the middle of Westfall, and it is the last place in the province where the law still means something. The People's Militia hold it: a handful of soldiers and a great many former farmers under the paladin Gryan Stoutmantle, who would rather fight for their land than walk away from it." },
-        { "There is not much here: the tower, a few tents, a stable and an inn, and a good view of how bad things have become. But every traveller who wants to help Westfall comes here first, and the Militia have more work than hands." },
+        { "There is not much here: the tower, a few tents and a stable, and a good view of how bad things have become. But every traveller who wants to help Westfall comes here first, and the Militia have more work than hands." },
       },
     },
     ["the-deadmines"] = {
@@ -3087,8 +3084,8 @@ ns.content = {
       unlock = { { area = 1581 } },
       also = { "moonbrook", "edwin-vancleef", "defias-brotherhood" },
       text = {
-        { "The Deadmines were once among the richest mines of Stormwind, worked for gold since long before the wars. They were abandoned when the orcs came, and in the First War they were an ogre's den; Sir Anduin Lothar himself went down into them once, after a holy book the ogres had stolen from Northshire, and came out again, which is more than the ogres did." },
-        { "The Defias have dug them deeper. Below the old shafts the Brotherhood keeps goblin engineers, a foundry and a shredder, and in a hidden cove at the bottom of it all, Edwin VanCleef's men are building a great warship. What a gang of masons and thieves means to do with a warship is not hard to guess, and Stormwind has a harbour." },
+        { "The Deadmines once supplied Stormwind with gold. Abandoned when the orcs came, they became an ogre’s den during the First War. Sir Anduin Lothar entered them to recover a holy book stolen from Northshire and was captured himself. Soldiers from Stormwind brought out both the knight and the book." },
+        { "The Defias have since dug deeper. Their workings contain goblin engineers, a foundry and a shredder, and below the old shafts a hidden cove holds a great warship under construction. VanCleef’s plans extend well beyond stealing from farms. If you descend, traveller, be prepared for rather more than a disused mine." },
       },
     },
     ["westfall"] = {
@@ -3097,7 +3094,7 @@ ns.content = {
       also = { "sentinel-hill", "moonbrook", "peoples-militia", "defias-brotherhood", "gnolls" },
       text = {
         { "Westfall was the breadbasket of Stormwind: wide golden fields, windmills and farmsteads running down to the sea. The orcs burned it in the wars, and the farmers came back and planted again. What the orcs could not finish, the Defias have." },
-        { "The Brotherhood made Westfall its own. They drove the farm families off their land one stead at a time, took Moonbrook for their town and the old mines beneath it for their fortress, and the king's army never came. \"Stormwind has abandoned us,\" the men on Sentinel Hill will tell you, and it is hard to argue. Now the fields are dry, the gnolls of the Riverpaw raid the farms, and the harvest golems, the farmers' own machines, stalk the furrows with no one at their controls. Murlocs hold the coast, and even the lighthouse is haunted." },
+        { "The Brotherhood made Westfall its own. They drove the farm families off their land one stead at a time, took Moonbrook for their town and the old mines beneath it for their fortress, and the king's army never came. \"Stormwind has abandoned us,\" the men on Sentinel Hill will tell you, and it is hard to argue. Now the fields are dry, the gnolls of the Riverpaw raid the farms, and harvest golems stalk the furrows. Murlocs hold the coast, and even the lighthouse is haunted." },
         { "A few stubborn farmers have stayed. Ask Farmer Saldean why, and he will tell you it is his land." },
       },
     },
@@ -3106,9 +3103,8 @@ ns.content = {
       unlock = { { kill = 1034 }, { kill = 1035 }, { kill = 1036 }, { kill = 1037 }, { kill = 1038 }, { kill = 1057 }, { kill = 2102 }, { kill = 2103 }, { area = 1036 } },
       also = { "grim-batol", "red-dragonflight", "nekrosh" },
       text = {
-        { "In the Second War, the orcs of the Dragonmaw clan did what no one had done before: they rode dragons into battle. Their secret was cruelty. They held the dragon queen Alexstrasza captive at Grim Batol and used her children as beasts of war." },
-        { "When the dragons were freed, the Dragonmaw were broken, but not destroyed. Their remnants still hold the hills of the Wetlands, raiding the roads and dreaming of the days when the sky belonged to them." },
-        { "They are not the orcs of the new Horde. They are what is left of the old one, and they have not changed their ways." },
+        { "The Dragonmaw rode red dragons into battle in the Second War. At Grim Batol they held Alexstrasza captive and forced her children to serve the Horde. Their mastery of the sky rested on the imprisonment of a mother and her young." },
+        { "The dragons’ liberation broke the clan’s strength, but Dragonmaw remnants still hold the hills of the Wetlands and raid its roads. These are survivors of the old Horde, rather than followers of the new one. If you meet them, traveller, remember what their former victories required." },
       },
     },
     ["dun-modr"] = {
@@ -3128,7 +3124,7 @@ ns.content = {
       text = {
         { "When the Wildhammers were driven from Ironforge, they carved Grim Batol out of the eastern mountains, and it was a fortress to rival Ironforge itself. Then the Dark Irons came against it, led by Queen Modgud, and though the Wildhammers won the battle and slew her, her death left a darkness in the stone. The Wildhammers would not stay. They went north to the Hinterlands, and Grim Batol stood empty." },
         { "It did not stay empty. In the Second War the orcs of the Dragonmaw clan made it their stronghold, and there they held Alexstrasza, the queen of the red dragons, prisoner, and forced her children to carry orcs into battle. She was freed in the end, and the Dragonmaw were scattered." },
-        { "The red dragons are there still. Whatever they guard in Grim Batol, they guard it fiercely. Do not go near, traveller. The League has lost enough members to that mountain." },
+        { "The red dragons are there still. Whatever they guard in Grim Batol, they guard it fiercely. Do not go near, traveller. The red dragonkin on its approaches are warning enough." },
       },
     },
     ["menethil-harbor"] = {
@@ -3136,9 +3132,8 @@ ns.content = {
       unlock = { { area = 150 } },
       also = { "wetlands" },
       text = {
-        { "After the Second War, Grand Admiral Proudmoore of Kul Tiras took this harbour on the western shore of the Wetlands and rebuilt it for the Alliance, naming it in honour of King Terenas Menethil of Lordaeron." },
-        { "Lordaeron has fallen to the Scourge, but the harbour that bears its king's name has not. A dwarf, Captain Stoutfist, keeps the garrison now, and the town is a mix of every people of the Alliance. Its ships cross the sea to Kalimdor, to Theramore and to Auberdine, carrying soldiers, traders and refugees." },
-        { "It is a damp, busy, brave little town. Buy a drink at the tavern and listen to the sailors: you will hear about places the League has only ever seen on maps." },
+        { "Menethil Harbor stands on the western shore of the Wetlands, an Alliance port with ships bound for Auberdine and Theramore. The road through Dun Algaz joins it to the country inland. A damp little town can be an important place when so many journeys pass through it." },
+        { "Captain Stoutfist needs help against the Dragonmaw orcs threatening the harbor. He asks for their catapults to be destroyed and Chieftain Nek’rosh defeated. Attend to him if you can, traveller. There are people here trying to keep a port open while an enemy prepares to besiege it." },
       },
     },
     ["mosshide-gnolls"] = {
@@ -3146,9 +3141,8 @@ ns.content = {
       unlock = { { kill = 1007 }, { kill = 1008 }, { kill = 1009 }, { kill = 1010 }, { kill = 1011 }, { kill = 1012 }, { kill = 1013 }, { kill = 1014 }, { area = 1020 } },
       also = { "wetlands", "gnolls" },
       text = {
-        { "Gnolls are everywhere in the human kingdoms, and the Wetlands have their own: the Mosshide, who live in the fens and raid whatever passes." },
-        { "They are not clever and not brave, but there are a great many of them, and they know the marsh far better than any dwarf ever will. They will not fight you on open ground if they can drag you into the reeds instead." },
-        { "Do not follow them into the reeds." },
+        { "Mosshide gnolls live in the Wetlands, including the fen that bears their name. Rethiel the Greenwarden says they dwelt peacefully in the region for years. Now, he says, their growing numbers are damaging the marsh’s vegetation." },
+        { "He asks adventurers to kill Mosshide near Dun Algaz. Keep his earlier words in mind, traveller, as well as his request. By the Greenwarden’s own account, these neighbours have not always been enemies." },
       },
     },
     ["nekrosh"] = {
@@ -3166,9 +3160,8 @@ ns.content = {
       unlock = { { kill = 1045 }, { kill = 1046 }, { kill = 1047 }, { kill = 1048 }, { kill = 1049 }, { kill = 1050 } },
       also = { "grim-batol", "dragonmaw-clan", "black-dragonflight" },
       text = {
-        { "The red dragons belong to Alexstrasza, whom the old tales call the Life-Binder. They are among the oldest and greatest powers in the world, and the orcs of the Dragonmaw once held them in chains." },
-        { "They are free now, but some of them have not left Grim Batol, the place of their captivity. Dragonkin of the red flight walk its halls and guard its gates, and they treat any intruder as an enemy." },
-        { "If you have fought them and lived, you have done something few in the League can claim. Do not make a habit of it." },
+        { "Alexstrasza is called the Life-Binder, queen of the red dragons and one of the world’s oldest powers. During the Second War, the Dragonmaw held her captive at Grim Batol and forced her children into their service. The flight has since been freed." },
+        { "Red dragonkin still guard the approaches to Grim Batol. They treat intruders as enemies, whatever business those intruders believe brings them there. Keep your distance, traveller. Knowing what happened to them here does not make an intruder welcome." },
       },
     },
     ["thandol-span"] = {
@@ -3176,9 +3169,9 @@ ns.content = {
       unlock = { { area = 881 }, { area = 880 } },
       also = { "dark-iron-dwarves", "dun-modr", "wetlands" },
       text = {
-        { "For generations the Thandol Span carried the road from Khaz Modan north over the water to the Arathi Highlands and the human kingdoms beyond: a pair of great dwarven bridges, among the finest works our engineers ever finished, and a promise that dwarves and men would never be cut off from one another." },
-        { "The Dark Irons came for it. Their attack all but destroyed one of the two bridges, and dwarven soldiers still hold the other against them, mile by mile and stone by stone." },
-        { "The League has drawings of the Span as it stood. When it is whole again, and it will be, I mean to be there to see it." },
+        { "The Thandol Span carried the road north from Khaz Modan into Arathi and the human kingdoms beyond. Its two great dwarven bridges served that road for generations. An engineer might ask you to admire the stonework; those who depended on the crossing had reason to admire it too." },
+        { "The Dark Irons have all but destroyed one bridge. Dwarven soldiers hold the other, and the road remains open under their guard. A fine piece of engineering is easier to praise when someone else is keeping it standing." },
+        { "Look across at the broken span as you pass, traveller. Both bridges were built to carry people over the water. Only one still can." },
       },
     },
     ["wetlands"] = {

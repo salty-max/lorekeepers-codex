@@ -8,8 +8,8 @@ unlock:
   - kill: 6206, 6207, 6211, 6329, 6733, 7175, 7320, 7321, 10987, 11318
 also: [ironforge, kharanos, gnomeregan, platinum-discs, uldaman]
 ---
-Troggs are a dwarven shame, and I will not pretend the League is blameless. They slept in the deep places of Uldaman, in the Badlands, where the titans had locked them away, until dwarven digging woke them, and then they came up: crude and numberless, crawling out through tunnels no one knew were there. The titans' own records in Uldaman say what they are: the earthen, gone wrong. So are we, the same records say, though we went wrong rather better.
+The Titan records in Uldaman describe troggs as a failed result of the earthen’s making. They were sealed underground until dwarven excavations opened their halls. Our search for our own beginnings released creatures whose origins were uncomfortably close to them.
 
-They have spread through the stone of Khaz Modan ever since. The Rockjaw band hold the quarries and caves of Dun Morogh, the Stonesplinter the valleys of Loch Modan, the Stonevault the halls of Uldaman itself, and others of their kind poured into Gnomeregan in its last days. They have even turned up across the sea, on the shores of Darkshore and in the caverns beneath Orgrimmar, though how they got there no one can tell me.
+The Rockjaw occupy Dun Morogh’s quarries and caves, the Stonesplinter Loch Modan’s valleys, and the Stonevault Uldaman itself. Troggs also invaded Gnomeregan. Others have appeared in Darkshore and beneath Orgrimmar, though their route across the sea remains uncertain.
 
-They are strong, they are stupid, and they are never alone. Where you see one trogg, there are a dozen more in the dark behind it.
+Mountaineers ask for help defending roads and settlements, and the gnomes still fight them in their capital. A traveller carrying the League’s ledger will find us interested in trogg history; those guarding a mine have a more immediate concern with keeping them out.

@@ -6,6 +6,6 @@ unlock:
   - area: Grom'gol Base Camp
 also: [darkspear-trolls, bloodscalp-and-skullsplitter, stranglethorn-vale]
 ---
-Grom'gol is the Horde's camp in northern Stranglethorn, a stockade on the coast where the zeppelins from Orgrimmar and Undercity land. The Darkspear have particular business here: this jungle was their ancestors' country, and they have come back looking for what they lost when they left it.
+Grom’gol is a Horde stockade on Stranglethorn’s northern coast, served by zeppelins from Orgrimmar and Undercity. For the Darkspear, a journey here is a return to their ancestors’ country. Their business in the jungle includes losses that followed them when they left.
 
-One of them is searching for his chief's youngest son, Yenniku, who was given to the trolls of Zul'Gurub as a boy, as the old custom demanded, and was lost to the tribe when the Darkspear left with Thrall. The Bloodscalp have him now, and they are not giving him back.
+Nimboya seeks Yenniku, his chief’s youngest son, given to the trolls of Zul’Gurub as a boy under the old custom. The Darkspear lost him when they departed with Thrall. Nimboya first suspects the Bloodscalp, but the search reveals Zanzil the Outcast’s magical hold over him and leads to an attempt to free his soul. A lost son has brought Nimboya back to the jungle, traveller, with a rather different purpose from the soldiers around him.

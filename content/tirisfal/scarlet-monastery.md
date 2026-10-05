@@ -6,6 +6,6 @@ unlock:
   - area: Scarlet Monastery
 also: [scarlet-crusade, whitemane-and-mograine, the-forsaken]
 ---
-In the north of Tirisfal, on a hill above the sea, stands the monastery that the Scarlet Crusade has made its fortress: a great walled house of the Light with a library, an armoury, a graveyard and a cathedral, where the Crusade's knights, priests and inquisitors train for their war.
+The Scarlet Crusade holds a monastery on a hill in northern Tirisfal, above the sea. Its walls enclose a library, an armoury, a graveyard and a cathedral. Knights, priests and inquisitors train there for a war that extends well beyond the Scourge.
 
-From here they wage it on everything around them: the Scourge, the Forsaken and any traveller unlucky enough to look suspicious. The Forsaken would dearly like it gone, and send their champions against it. Its masters are the High Inquisitor Whitemane and the Scarlet Commander, Mograine, in the cathedral.
+The Forsaken are enemies too, as is any traveller the Crusade finds suspicious. High Inquisitor Whitemane and Scarlet Commander Mograine hold the cathedral, while Forsaken champions are sent against the fortress. The monastery has the outward furnishings of a house of the Light; approach with more caution than that description might suggest.

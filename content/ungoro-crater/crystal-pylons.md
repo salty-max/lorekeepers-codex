@@ -7,6 +7,6 @@ unlock:
   - npc: 9117
 also: [ungoro-crater, marshals-refuge, uldum]
 ---
-All over Un'Goro, coloured crystals grow out of the ground, red, blue, green and yellow, and they hold some kind of power. At Marshal's Refuge, J.D. Collie has studied them, and he heard rumours of great pylons in the wilderness of the crater, lined with crystals inside.
+J.D. Collie studies Un’Goro’s red, blue, green and yellow crystals at Marshal’s Refuge. Reports of crystal-lined pylons send her enquiries into the wilderness, where three stand in the north, east and west of the crater.
 
-The rumours were true. There are three, in the north, the east and the west of the crater, old beyond reckoning and built by no people living. With the right crystals, they work, and Collie has written a manual for using them. Who built them, and why they left a garden of the old world in a crater, nobody at the Refuge can say. The titans had something to do with it, I am certain. I cannot prove it.
+Her research shows that different combinations of crystals produce useful effects at the pylons. She supplies a manual for those wishing to try them. Read it before experimenting, traveller. Knowing how to make something work is a worthwhile discovery, even while the question of who first built it remains open.

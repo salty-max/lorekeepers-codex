@@ -7,6 +7,6 @@ unlock:
   - kill: 2748
 also: [platinum-discs, hammertoes-digsite, rockjaw-troggs, dark-iron-dwarves]
 ---
-Uldaman is a vault of the titans, buried under the mountains of the Badlands since the world was young: vast halls of carved stone, giant stone guardians, and doors no dwarf has ever opened. The League's excavations broke into it, and the troggs came pouring out of it, and we learned at last where the troggs had come from.
+Uldaman lies beneath the Badlands, a Titan vault of carved halls and great stone guardians. The League’s excavations opened a way into it. Troggs poured out, giving our diggers an unwelcome answer to a question we had long asked about those creatures.
 
-Now the troggs hold its outer halls, the Shadowforge Dark Irons dig in it for the titans' secrets, and the Explorers' League fights both. At the very bottom, behind its last guardian, the stone keeper Archaedas, lie the Discs of Norgannon: the titans' own record of how they made the world, and of how they made us.
+Troggs now occupy the outer halls, and Shadowforge Dark Irons seek the secrets within. The League contends with both. Beyond Archaedas, the vault’s final guardian, lie the Discs of Norgannon and their account of the Titans’ work. We have good reason to keep digging, traveller, even after learning what else our excavations can release.

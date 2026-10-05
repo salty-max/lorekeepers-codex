@@ -11,4 +11,4 @@ Long before there were men in Lordaeron, the forests of the north belonged to th
 
 The trolls came back in the Second War, when their warlord Zul'jin led the forest tribes beside the Horde against the elves and the men of Lordaeron, and lost again. What remains are tribes scattered through the hills: the Witherbark in Arathi and the Hinterlands, the Vilebranch in their temple-city of Jintha'Alor, the Mossflayer in the woods of the Eastern Plaguelands, where many of them now rot with the plague.
 
-They are tall, green-skinned and tusked, they keep the old gods of the trolls, and some keep worse customs than that. The Revantusk of the Hinterlands are the exception: they have taken the Horde's side, and the orcs of Revantusk Village will vouch for them.
+They are tall, green-skinned and tusked, they keep the old gods of the trolls, and some keep worse customs than that. The Revantusk of the Hinterlands are the exception: they have taken the Horde's side, and their Horde allies will vouch for them.

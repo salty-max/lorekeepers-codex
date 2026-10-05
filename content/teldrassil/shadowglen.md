@@ -7,6 +7,6 @@ unlock:
   - area: Aldrassil
 also: [teldrassil, sickness-of-teldrassil]
 ---
-Every young night elf begins in Shadowglen, a quiet hollow in the high forest of Teldrassil gathered around a great tree called Aldrassil, in whose boughs their teachers live. Druids, priestesses and sentinels watch over it, and the Conservator who keeps the glade will tell you that nature's balance begins with the smallest things.
+Shadowglen gathers the night elves’ young recruits around Aldrassil, a great tree whose branches house their teachers. Druids, priestesses and Sentinels tend this hollow in Teldrassil’s forest. Its Conservator teaches that nature’s balance begins with small things.
 
-It is beautiful, and it is not entirely well. The spiders have grown large and the sprites and grells of the woods have turned vicious, and the glade's guardians have the young out clearing them away from the first day.
+The recruits have work before them almost at once. Spiders have grown large, and the sprites and grells have turned vicious. A traveller beginning here learns the guardians’ concern for the forest by helping with what has gone wrong in it.

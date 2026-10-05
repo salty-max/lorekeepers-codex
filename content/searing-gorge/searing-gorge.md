@@ -6,6 +6,6 @@ unlock:
   - area: Searing Gorge
 also: [the-cauldron, thorium-brotherhood, dark-iron-dwarves, war-of-the-three-hammers, twilights-hammer]
 ---
-The Searing Gorge is a bowl of ash and cinders north of Blackrock Mountain, walled in by cliffs, with only a tunnel from Loch Modan and a gate from the Badlands to reach it. It was green country once. It burned when Thaurissan woke the Firelord, and it has not stopped smoking since.
+The Searing Gorge lies north of Blackrock Mountain, a basin of ash and cinders enclosed by cliffs. Routes from Loch Modan and the Badlands lead into it. This was once green country, burned when Thaurissan summoned Ragnaros; smoke still rises from what the Firelord left behind.
 
-The Dark Iron dwarves dig it out for their master, with golems and slaves, from the great pit they call the Cauldron. Fire elementals walk the slag, the Twilight's Hammer have found an altar in the hills of the north-west, and on the cliffs above the pit, a camp of renegade Dark Irons watches all of it.
+Dark Iron dwarves work the great pit called the Cauldron with slaves and golems. Fire elementals cross the slag, and the Twilight’s Hammer keeps an altar in the north-western hills. Above the pit, renegade Dark Irons hold a camp of their own. You can see much of the country from its cliffs, traveller, though little of the view makes a comfortable prospect.

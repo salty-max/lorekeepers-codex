@@ -6,6 +6,6 @@ unlock:
   - kill: 3977, 3976
 also: [scarlet-monastery, scarlet-crusade]
 ---
-High Inquisitor Sally Whitemane is the spiritual leader of the Scarlet Monastery, a priestess of the Light so devout that she can raise the fallen from death; Scarlet Commander Renault Mograine commands its knights. They hold the cathedral together, and when Mograine falls, Whitemane brings him back.
+High Inquisitor Sally Whitemane and Scarlet Commander Renault Mograine hold the Scarlet Monastery’s cathedral. He commands its knights; she guides its faith. Her command of the Light can raise him when he falls, making a victory over the commander less final than a traveller might hope.
 
-Mograine bears a famous name. His father was Highlord Alexandros Mograine, the Ashbringer, the greatest champion the Silver Hand produced against the Scourge, and he is dead. Somewhere in the cathedral there is another High Inquisitor, Fairbanks, who claims to know how the Highlord died, and says that his son was there. The Crusade would rather he kept quiet. Bring him the Highlord's blade, they say, and he will tell you the rest.
+Renault is the son of Highlord Alexandros Mograine, the Ashbringer, a great champion of the Silver Hand against the Scourge. His father is dead. Fairbanks, another High Inquisitor hidden in the cathedral, claims to know how he died and says that Renault was there. The Crusade would prefer his silence. Those who bring the Highlord’s blade may hear the account it does not wish told.

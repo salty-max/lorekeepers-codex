@@ -7,8 +7,8 @@ unlock:
   - area: Thandol Span (Arathi Highlands)
 also: [dark-iron-dwarves, dun-modr, wetlands]
 ---
-For generations the Thandol Span carried the road from Khaz Modan north over the water to the Arathi Highlands and the human kingdoms beyond: a pair of great dwarven bridges, among the finest works our engineers ever finished, and a promise that dwarves and men would never be cut off from one another.
+The Thandol Span carried the road north from Khaz Modan into Arathi and the human kingdoms beyond. Its two great dwarven bridges served that road for generations. An engineer might ask you to admire the stonework; those who depended on the crossing had reason to admire it too.
 
-The Dark Irons came for it. Their attack all but destroyed one of the two bridges, and dwarven soldiers still hold the other against them, mile by mile and stone by stone.
+The Dark Irons have all but destroyed one bridge. Dwarven soldiers hold the other, and the road remains open under their guard. A fine piece of engineering is easier to praise when someone else is keeping it standing.
 
-The League has drawings of the Span as it stood. When it is whole again, and it will be, I mean to be there to see it.
+Look across at the broken span as you pass, traveller. Both bridges were built to carry people over the water. Only one still can.

@@ -5,10 +5,10 @@ kind: note
 race: Tauren
 unlock: always
 ---
-Traveller, this ledger was bound for one of the tauren, and I write it knowing that your people keep their history in songs and in the memory of the land, not in ink. Take these pages as a dwarf's attempt to listen.
+Traveller, your people keep much of their history in songs and the memory of the land. I offer these pages as a dwarf’s attempt to listen and set down what he has understood.
 
-For generations your tribes wandered the plains of Kalimdor, harried by the centaur. Cairne Bloodhoof gathered them with the help of the orcs, and now they have a home in Mulgore, on the high mesas of Thunder Bluff, under the eye of the Earth Mother. The League has walked many of the same roads, and has tried to tread lightly.
+The tauren wandered Kalimdor’s plains for generations under pressure from the centaur. Cairne Bloodhoof, with the orcs’ help, gathered the tribes into Mulgore. Thunder Bluff now stands above the grasslands as a home for people long denied a settled one.
 
-Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home.
+Your homeland has its place here, alongside others you may visit. Read their accounts with the same attention you give your own elders. I would be glad if a traveller found something worth remembering in them.
 
-*An archivist of the Explorers' League, Hall of Explorers, Ironforge*
+*An archivist of the Explorers’ League, Hall of Explorers, Ironforge*

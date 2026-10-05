@@ -6,6 +6,6 @@ unlock:
   - area: The Greymane Wall
 also: [silverpine-forest, pyrewood-village]
 ---
-At the southern end of Silverpine a great wall runs from sea to cliff, and behind it lies Gilneas. After the Second War its king, Genn Greymane, quarrelled with the other kings of the Alliance, over the cost of keeping the defeated orcs in their camps among other things, and took his kingdom out of the Alliance altogether. Then he built the wall, and closed its gate.
+The Greymane Wall closes southern Silverpine from sea to cliff, with Gilneas beyond its gate. After the Second War, King Genn Greymane quarrelled with the other Alliance rulers, including over the cost of keeping defeated orcs in internment camps. He withdrew his kingdom from the Alliance and shut it behind this wall.
 
-It has kept the plague out, and the dead. It has also kept out everyone who fled to it from the north, and no word has come out of Gilneas since. Whatever is happening behind the Greymane Wall, the Gilneans are keeping it to themselves.
+Refugees from the north find the gate closed. No word has come out of Gilneas to explain its present affairs. You may see the wall plainly enough, traveller; it is the country behind it that remains beyond this record.

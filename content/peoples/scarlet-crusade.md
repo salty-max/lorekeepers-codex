@@ -16,4 +16,4 @@ When Prince Arthas murdered his father and Lordaeron fell to the plague, the pal
 
 They trust no one. Any stranger might carry the plague, any elf or dwarf might be a spy, and the Forsaken are simply the enemy. From the Monastery in Tirisfal, from Hearthglen and Tyr's Hand, they wage a war that no one else is invited to win. Their Grand Crusader, Saidan Dathrohan, rules them from Stratholme, and their Grand Inquisitor, Isillien, from Hearthglen.
 
-I will say this for them: they are brave, and they have killed more of the Scourge than anyone. But the Crusade has been rotten at its heart longer than its knights know. Ask in the Monastery about Highlord Mograine and his blade, the Ashbringer, and listen carefully to who falls silent. And ask the Argent Dawn what they found when they looked closely at the Grand Crusader himself.
+The Crusade fights the Scourge, but corruption within its own ranks gives another reason to distrust it. Ask in the Monastery about Highlord Mograine and his blade, the Ashbringer, and listen carefully to who falls silent. And ask the Argent Dawn what they found when they looked closely at the Grand Crusader himself.

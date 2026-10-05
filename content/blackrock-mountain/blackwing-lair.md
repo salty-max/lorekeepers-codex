@@ -6,6 +6,6 @@ unlock:
   - area: Blackwing Lair (zone)
 also: [nefarian, black-dragonflight, red-dragonflight, blackrock-spire]
 ---
-Blackwing Lair is Nefarian's own fortress, at the very top of Blackrock Spire. It is a place of dragons and of what Nefarian does to them: he breeds new dragons there, mixing the blood of all the dragonflights into the chromatic dragons, to make an army no one could stand against.
+Nefarian holds Blackwing Lair at the summit of Blackrock Spire. Here he breeds chromatic dragons by combining the blood of the dragonflights, seeking an army capable of overwhelming his enemies. The lair is both his fortress and the place where he makes its future soldiers.
 
-The red dragon Vaelastrasz guards its first halls, forced to Nefarian's will. He was a friend of the mortal races once, and he begs those who reach him to end it.
+The red dragon Vaelastrasz is there under Nefarian’s control. Once a friend to mortals, he begs those who reach him to end his suffering. There is little comfort in reaching a friend here, traveller, when this is what he must ask of you.

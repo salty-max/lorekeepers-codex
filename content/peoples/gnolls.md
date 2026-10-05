@@ -10,8 +10,6 @@ unlock:
   - kill: 5258, 10991
 also: [kobolds, defias-brotherhood, mosshide-gnolls, hogger]
 ---
-Gnolls are hyena-men, tall and lean, quarrelsome and cruel, and wherever there is a farm with poor walls you will find a pack of them nearby. They follow whoever is strongest, fight among themselves when no one is, and are rarely clever enough to be a danger on their own. The trouble is that they are rarely on their own.
+The Riverpaw raid Elwynn and Westfall; the Mosshide occupy the Wetlands. These packs have different histories. Hogger’s wanted notice warns that he is too dangerous for a lone hunter, while Rethiel’s account says the Mosshide once lived peacefully beside their neighbours.
 
-The Riverpaw pack raid Elwynn and Westfall, with Hogger the worst of them. In Redridge the Shadowhide answer to the warlock Morganth in his tower. In Tirisfal and Silverpine the Rot Hide are dead things, dug from their graves to serve the necromancer Thule Ravenclaw. The Mosshide crowd the Wetlands, the Mudsnout grow poison flowers in Hillsbrad, and across the sea the Palemane skin the beasts of Mulgore and the Woodpaw prowl the hills of Feralas.
-
-A single gnoll is a coward. A pack is a different animal, and the farmsteads of three kingdoms have learned to bar their doors at dusk.
+Some packs serve other powers. Redridge’s Shadowhide answer to Morganth, and Thule Ravenclaw commands the undead Rot Hide in Tirisfal and Silverpine. Across the sea, the Palemane hunt in Mulgore and the Woodpaw live in Feralas. Ask which pack you are facing, traveller. Its name will tell you more about the trouble ahead than a general opinion of gnolls.

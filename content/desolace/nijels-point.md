@@ -6,6 +6,6 @@ unlock:
   - area: Nijel's Point (Desolace)
 also: [khans-of-desolace, desolace]
 ---
-Nijel's Point is the Alliance's outpost in the north of Desolace, a fortified camp in the hills under the shadow of Stonetalon. Its soldiers watch the centaurs, the demons of the Mannoroc Coven and the roads, and they are glad of any help they can get.
+Nijel’s Point is the Alliance’s camp in northern Desolace, fortified in the hills beneath Stonetalon. Its soldiers watch the roads, the centaur clans and the demons of the Mannoroc Coven. Visitors willing to help will find no shortage of work.
 
-The centaurs here are many and strong, and the Alliance's captains have hit on an old trick: set the clans against each other, ally with one, and learn from it how to beat the rest.
+The captains have chosen to exploit the centaurs’ rivalries, making allies of one clan to learn how to defeat the others. It is a practical answer to a difficult position, traveller. The friendship you help establish here may begin with a request for the deaths of someone else’s neighbours.

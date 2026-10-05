@@ -7,6 +7,6 @@ unlock:
   - area: Wyrmbog
 also: [onyxia, black-dragonflight, dustwallow-marsh]
 ---
-In the Wyrmbog, in the south of Dustwallow Marsh, there is a great cave in a cliff, and in it Onyxia, daughter of Deathwing, makes her lair. Her brood swarms the swamp around it: whelps, drakes, dragonspawn and the black dragon Emberstrife, who keeps the way.
+Onyxia keeps her lair in the Wyrmbog, in southern Dustwallow. Black dragonkin occupy the surrounding country, and her brood’s eggs lie in the cave. Getting past the marsh’s dangers is only the beginning of the approach.
 
-No one walks into it uninvited. The dragons can tell their own from intruders, and the ways of tricking them, of passing as one of the brood, run through the Blackrock Spire and the general who commands it, and a long road of danger. Those who have made it say the cave is full of eggs.
+Wards protect the entrance. Both Alliance and Horde preparations lead to General Drakkisath in Blackrock Spire, whose blood is required for a working Drakefire Amulet. The Horde also uses an illusion to deceive Emberstrife during its investigation, but it is the amulet that permits entry. Bring the right means of passage, traveller; knowledge of the dragon’s hiding place will not open her door.

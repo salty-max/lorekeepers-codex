@@ -6,6 +6,6 @@ unlock:
   - area: Altar of Storms (Burning Steppes)
 also: [blackrock-clan, ogres, blackrock-spire]
 ---
-In the shadow of Blackrock Spire stands an Altar of Storms, one of the dark altars of the old Horde. In the Second War, the Horde's warlocks worked their magic on such altars, and it was there that ogres were made into ogre magi, cunning and able to cast spells.
+The Altar of Storms stands in Blackrock Spire’s shadow, a surviving place of the old Horde’s warlock rites. In the Second War, magic worked at such altars turned ogres into ogre magi, giving them cunning and the power to cast spells.
 
-The Blackrock clan's warlocks still gather at this one for their rituals. A warlock who studied it, Mor'zul Bloodbringer, keeps a camp nearby, and those who learn from him are sent on errands I would rather not describe.
+Blackrock warlocks still gather here. Mor’zul Bloodbringer, who has studied the altar, camps nearby and sends other warlocks on errands of his own. There is history to examine, traveller, but the altar’s use did not end with the war that made it notorious.

@@ -7,8 +7,8 @@ unlock:
   - reputation: 529 friendly
 also: [scourge, scarlet-crusade, the-bulwark]
 ---
-The Argent Dawn fights the Scourge and asks no one's banner. Its knights, priests and scholars come from every race of both the Alliance and the Horde, and it keeps faith with neither: it is enough for the Dawn that you fight the dead. Its seat is Light's Hope Chapel, in the Eastern Plaguelands, under Lord Maxwell Tyrosus.
+The Argent Dawn recruits against the Scourge from both Alliance and Horde. Its knights, priests and scholars ask what a traveller is prepared to fight, rather than which banner they follow. Lord Maxwell Tyrosus leads it from Light’s Hope Chapel in the Eastern Plaguelands.
 
-Its officers keep posts at the Bulwark in Tirisfal and at Chillwind Camp, where they will reward anyone who brings them the scourgestones the dead carry, and its envoys sit in Stormwind, Darnassus and as far away as Everlook. I have dealt with them often. They are courteous, they are tired, and they are almost always right.
+Officers at Chillwind Camp and the Bulwark issue commissions and accept the scourgestones carried by the dead. Envoys work in Stormwind, Darnassus and Everlook. The Dawn has made its war a cause people of either faction can join.
 
-The Dawn and the Scarlet Crusade fight the same enemy and cannot abide each other. The Dawn sees the Crusade's hatred of every stranger as a gift to the Lich King, and says so.
+It shares an enemy with the Scarlet Crusade and little affection for its methods. The Dawn regards the Crusade’s suspicion of every stranger as aid to the Lich King. There is practical sense in that objection: the fight already has enemies enough.

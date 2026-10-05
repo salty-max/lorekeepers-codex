@@ -6,6 +6,6 @@ unlock:
   - area: Sun Rock Retreat
 also: [stonetalon-mountains, grimtotem, stonetalon-peak]
 ---
-Sun Rock Retreat is a Horde camp high in the cliffs of central Stonetalon, held by tauren and orcs together. Its shamans gather seeds to regrow what the goblins have burned, and its hunters avenge the tauren village of Camp Aparaje, which the Grimtotem raided and all but wiped out.
+Tauren and orcs share Sun Rock Retreat in the cliffs of central Stonetalon. Its shamans collect seeds to regrow the burned country. Hunters seek vengeance for Camp Aparaje, the tauren village all but destroyed by the Grimtotem. There is both restoration and reprisal in the camp’s work.
 
-Not everyone at Sun Rock loves the land. A warlock lodges there, a servant of a master in Jaedenar, who hates the druids of the peak for what he calls their stifling of magic, and will pay anyone who helps him against them. The Horde, it seems, does not ask too many questions in Stonetalon.
+A warlock staying here has a different purpose. He serves a master in Jaedenar and pays for help against the peak’s druids, whom he accuses of stifling magic. Listen carefully to who offers each errand, traveller. Sharing a camp does not give its inhabitants the same intentions.

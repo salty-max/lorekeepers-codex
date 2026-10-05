@@ -7,6 +7,6 @@ unlock:
   - area: Raven Hill Cemetery
 also: [the-embalmer, morladim, darkshire, scourge]
 ---
-Raven Hill was a village in the west of the forest, and its cemetery was the largest in the land. The village is empty now, and the cemetery has spread until it dominates the hillside, and its dead do not rest: skeletons walk the rows at night, ghouls dig in the graves, and the Watch cannot keep them down.
+Raven Hill’s village stands empty beside a cemetery that has spread across the hillside. Skeletons walk its rows, ghouls dig among the graves, and the Night Watch cannot keep the dead at rest. The graveyard has become more dangerous than the abandoned houses around it.
 
-Something stirs them. In a house on the hill above the cemetery lives a necromancer named Morbent Fel, and a woodsman whose family he killed would very much like to see him dead. And in a shack overlooking the graves lives an old hermit who used to come into town for supplies, and has not been seen in some time.
+Morbent Fel, a necromancer, lives in a house above the cemetery. A woodsman whose family he killed wants him dead. Nearby, an old hermit occupies a shack overlooking the graves; he once came into Darkshire for supplies, but has not been seen there for some time. There is business enough on this hill to occupy a traveller, and little of it is pleasant.

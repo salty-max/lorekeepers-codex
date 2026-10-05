@@ -6,6 +6,6 @@ unlock:
   - area: Deadwind Pass
 also: [karazhan, duskwood, swamp-of-sorrows]
 ---
-Deadwind Pass is a deep, grey valley between Duskwood and the Swamp of Sorrows, where nothing grows and the wind is always cold. There are no villages, no farms and no trade here, only ogres, crows and a few ruined camps. Even the trees are dead.
+Deadwind Pass cuts a grey valley between Duskwood and the Swamp of Sorrows. Dead trees, crows and ruined camps line the route. There are no working villages or farms, and the ogres offer little reason to linger.
 
-People say the valley was not always like this, and that it died with its master. At its heart stands a single tower, Karazhan, and the land around it is cursed by what happened there.
+Medivh’s tower, Karazhan, stands at its heart, above abandoned buildings. The pass joins two inhabited regions without offering their comforts. Make your preparations before entering, traveller; the road through is easier to recommend than a place to stop.

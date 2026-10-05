@@ -6,6 +6,6 @@ unlock:
   - area: Chillwind Camp
 also: [andorhal, plague-cauldrons, house-of-barov, argent-dawn]
 ---
-Chillwind Camp is the Alliance's foothold in the Western Plaguelands, a camp of tents in the hills of the south, near Lake Darrowmere. Commander Ashlam Valorfist leads it, and a strange collection of exiles and scholars has gathered round, among them the last living lord of the house of Barov.
+Commander Ashlam Valorfist leads the Alliance’s camp in the southern hills of the Western Plaguelands, near Lake Darrowmere. Its tents have drawn soldiers, exiles and scholars, including Weldon Barov, the last living lord of his house.
 
-From here the Alliance strikes at Andorhal and the cauldrons. It is cold, miserable and short of everything, and its soldiers are the bravest I know.
+From here the Alliance attacks Andorhal and works against the plague cauldrons. The camp has little comfort or supply to spare. If you have help to offer, traveller, Valorfist has good use for it. His tents are a small beginning for the work ahead.

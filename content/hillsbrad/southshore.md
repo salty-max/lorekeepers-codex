@@ -6,6 +6,6 @@ unlock:
   - area: Southshore (Hillsbrad Foothills)
 also: [hillsbrad-foothills, tarren-mill, syndicate]
 ---
-Southshore is a fishing town and harbour on the coast of Hillsbrad, and the strongest place left to the living in these hills: an inn, a town hall, a magistrate, and a garrison that has been fighting the Forsaken of Tarren Mill for as long as either has been there.
+Southshore is a fishing town and harbor on Hillsbrad’s coast, with an inn, a town hall and a garrison fighting the Forsaken of Tarren Mill. It remains a stronghold of the living in a country where that distinction matters.
 
-It has a town historian, Kundric Zanden, who keeps its records with a diligence I find touching, and the loremasters of Stormwind send their scholars through it on their way to the ruins of Alterac. I spent a week here once. It was the best week of fish I have ever eaten.
+Kundric Zanden keeps its history, and Stormwind’s loremasters send scholars through the town towards Alterac’s ruined libraries. I am glad to find records kept in such a place. A traveller can obtain supplies here, but can also learn something of the country those supplies must carry them through.

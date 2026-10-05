@@ -7,6 +7,6 @@ unlock:
   - area: The Tainted Scar (Blasted Lands)
 also: [burning-legion, blasted-lands, the-dark-portal]
 ---
-Lord Kazzak is the greatest of the Burning Legion's demons still left in our world. Since the Third War, he has made the Tainted Scar, in the south of the Blasted Lands, his own, with his doomguard and his felguard around him.
+Lord Kazzak holds the Tainted Scar in the southern Blasted Lands. Since the Third War, this great doomguard has occupied it with felguard and others of his kind. He walks openly among them, a horned servant of the Burning Legion with little need for concealment.
 
-He is a huge, horned thing, and he does not hide: he walks the Scar in the open, and when the heroes of the Alliance and the Horde come for him, he grows stronger with every one he kills.
+Heroes of both factions have gone against him. Each one he kills strengthens him. Bear that in mind, traveller, if you join them: a failed attack can leave the next party facing a stronger enemy.

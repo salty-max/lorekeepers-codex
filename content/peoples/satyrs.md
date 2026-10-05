@@ -8,8 +8,6 @@ unlock:
   - kill: 6202, 7105, 7106, 7107, 7108, 7109, 7110, 7111, 11451, 11790
 also: [burning-legion, sickness-of-teldrassil]
 ---
-The first satyr was Xavius, the Highborne counsellor who helped open the way for the Burning Legion in the War of the Ancients. When he failed his master, Sargeras remade him: horned, hoofed and clawed, half elf and half beast. Xavius passed the curse on to others of his kind who were hungry enough for power to accept it, and they have been passing it on ever since.
+Xavius, a Highborne counsellor who helped admit the Legion during the War of the Ancients, became the first satyr. Sargeras remade his failed servant with horns, hooves and claws. Xavius offered the same transformation to other elves hungry for power, and the curse spread.
 
-They are demons now, in all but birth, and they live only to corrupt the forests of the night elves who were once their kin. Their camps fester in Darkshore, in Ashenvale at Satyrnaar and in the hills, through the poisoned woods of Felwood and the ruins of Azshara, and in Desolace. Where satyrs have been, the trees sicken, the water turns and the beasts go mad.
-
-The night elves kill them on sight, and I have never heard one of their sentinels regret it.
+Their encampments now occupy places from Darkshore and Ashenvale to Felwood, Azshara and Desolace. They corrupt the forests of the people they once belonged to, sickening trees, fouling water and twisting beasts. The night elves seek help against them. The damage around a satyr camp gives a traveller reason to remember that its occupants were once of the same people as those trying to heal it.

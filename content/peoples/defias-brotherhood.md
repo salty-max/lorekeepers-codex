@@ -13,4 +13,4 @@ When the orcs razed Stormwind in the First War, it was the Stonemasons' Guild, u
 
 The guild became a gang. In Westfall they took the name of the Defias Brotherhood, tied red cloths over their faces, and set about ruining the farmland that feeds the city: burning fields, driving out the families, and making allies of anyone who would have them. Goblin engineers work for them in the Deadmines, and their reach goes as far as Elwynn, Redridge, Duskwood and the city's own prison, where VanCleef's lieutenant Bazil Thredd raised the inmates in revolt.
 
-I have met masons who still speak of VanCleef with respect, and I understand why. The nobles owed those men their wages. But whatever the Brotherhood once stood for, the farmers of Westfall have paid for it far more dearly than any lord in Stormwind.
+The masons had a grievance over their unpaid work. But whatever the Brotherhood once stood for, the farmers of Westfall have paid for it far more dearly than any lord in Stormwind.

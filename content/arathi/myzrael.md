@@ -7,6 +7,6 @@ unlock:
   - quest: 656
 also: [arathi-highlands, kobolds, masters-glaive]
 ---
-Beneath the Arathi Highlands something is imprisoned, held down by four great standing stones, the Circles of Binding, and guarded by the giants of the hills. She calls herself Myzrael, a princess of the earth, and she speaks to travellers through crystal shards, asking to be set free.
+At the Shards of Myzrael in the Arathi Highlands, a traveller can speak to an imprisoned princess of the earth. Myzrael asks to be released from beneath the ground. Her account begins with a request for help.
 
-Some have obliged her. When she was free, she spoke of gathering her strength and having her revenge on her captors, and that is when those who had helped her began to wonder why the giants had chained her in the first place.
+Theldurin the Lost supplies the warning that request lacks. If she grows strong enough, he says, she will challenge her captors. He asks adventurers to summon and defeat her, then restore her shackles to the shards. Hear him before deciding how to help her. There is more than one account of why these bonds exist.

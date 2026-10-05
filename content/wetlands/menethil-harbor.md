@@ -6,8 +6,6 @@ unlock:
   - area: Menethil Harbor
 also: [wetlands]
 ---
-After the Second War, Grand Admiral Proudmoore of Kul Tiras took this harbour on the western shore of the Wetlands and rebuilt it for the Alliance, naming it in honour of King Terenas Menethil of Lordaeron.
+Menethil Harbor stands on the western shore of the Wetlands, an Alliance port with ships bound for Auberdine and Theramore. The road through Dun Algaz joins it to the country inland. A damp little town can be an important place when so many journeys pass through it.
 
-Lordaeron has fallen to the Scourge, but the harbour that bears its king's name has not. A dwarf, Captain Stoutfist, keeps the garrison now, and the town is a mix of every people of the Alliance. Its ships cross the sea to Kalimdor, to Theramore and to Auberdine, carrying soldiers, traders and refugees.
-
-It is a damp, busy, brave little town. Buy a drink at the tavern and listen to the sailors: you will hear about places the League has only ever seen on maps.
+Captain Stoutfist needs help against the Dragonmaw orcs threatening the harbor. He asks for their catapults to be destroyed and Chieftain Nek’rosh defeated. Attend to him if you can, traveller. There are people here trying to keep a port open while an enemy prepares to besiege it.

@@ -8,6 +8,8 @@ unlock:
   - kill: 813
 also: [stranglethorn-vale, gurubashi-empire]
 ---
-Colonel Kurzen came to Stranglethorn as a soldier, a brilliant tactician and, by every account, once a great and noble man. Something changed him. He made his camp in the north of the jungle, and his men became his men alone, raiding and hunting with a cruelty the jungle itself would envy.
+Colonel Kurzen came to Stranglethorn with a soldier’s reputation: a brilliant tactician, once considered a great and noble man. In the jungle he changed. His followers became a force loyal to him alone, raiding and hunting with a cruelty their former comrades would not accept.
 
-Some of them did not follow him into it. They broke away under Lieutenant Doren and hold a rebel camp in the hills, outnumbered ten to one, fighting Kurzen with his own tactics. Their chaplain believes that troll magic has the colonel in its grip, and has been searching the ruins for the legends that might prove it.
+Lieutenant Doren led the breakaways into a rebel camp in the hills. Outnumbered ten to one, they fight Kurzen with the tactics he taught them. Brother Nimetz first suspects troll magic, but his investigation leads to Mai’Zoth, an ogre mage, and the Mind’s Eye used to control minds.
+
+Nimetz asks for the mage’s death and the recovery of the artifact. Bring particular care to that second task, traveller. He fears that leaving it behind would leave another soldier open to Kurzen’s fate.

@@ -5,10 +5,10 @@ kind: note
 race: Scourge
 unlock: always
 ---
-Traveller, this ledger was bound for one of the Forsaken, and I will be honest: I did not know how to begin it. Many of the places in these pages you may remember from a life before, when Lordaeron was a kingdom and its capital stood above the ground.
+Traveller, I have found this first page harder to write than most. You may remember Lordaeron’s towns as they were before the plague, when its capital stood above the ground. I know them through the records of people who no longer live there.
 
-Your people broke free of the Lich King's will and follow the Banshee Queen now, from the halls beneath the ruined city. What you have become, the League does not pretend to understand. What you were, it has tried to record faithfully.
+The Forsaken freed themselves from the Lich King and now follow Sylvanas beneath that ruined city. The League has tried to record both the kingdom that fell and the people who remain. Much about your present life lies beyond a dwarf’s understanding.
 
-Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home.
+Carry the ledger if it is useful to you. Where a place recalls something these pages cannot tell, your own memory may supply what our records lack.
 
-*An archivist of the Explorers' League, Hall of Explorers, Ironforge*
+*An archivist of the Explorers’ League, Hall of Explorers, Ironforge*

@@ -8,6 +8,8 @@ unlock:
   - quest: 5944
 also: [tirion-fordring, scarlet-crusade, western-plaguelands]
 ---
-Hearthglen is the Scarlet Crusade's great stronghold in the north of the Western Plaguelands, a walled town around Mardenholde Keep, still green and whole in the middle of the plague. Its Grand Inquisitor, Isillien, keeps it so by fire.
+Hearthglen surrounds Mardenholde Keep in the northern Western Plaguelands. The Scarlet Crusade holds its walls, and Grand Inquisitor Isillien keeps a green, surviving town in the middle of the plague country by ruthless means.
 
-Its Highlord was Taelan Fordring, the son of a paladin of the Silver Hand who was cast out for sparing an orc. Taelan had lived for years as what he called a puppet of the Grand Crusader, keeping himself alive with memories of his father, and dreaming of seeing him again. He was finally brought out of Hearthglen to his father, and Isillien caught them on the road. The son died in the father's arms.
+Its Highlord, Taelan Fordring, grew weary of serving as the Grand Crusader’s puppet. Memories of his father, Tirion, sustained him, and he finally left to seek him. Isillien caught and killed Taelan on the road. Tirion arrived too late, defeated the inquisitor, and knelt beside his son’s body.
+
+Taelan’s father had once been cast out of the Silver Hand for sparing an orc. His son wanted to see him again. Remember that hope, traveller, if you record how Taelan’s service to the Crusade ended.

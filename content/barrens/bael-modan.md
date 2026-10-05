@@ -7,6 +7,8 @@ unlock:
   - area: Bael'dun Keep
 also: [the-barrens, explorers-league, rockjaw-troggs]
 ---
-In the south-east of the Barrens there is a dwarven dig, Bael Modan, with a fortress, Bael'dun Keep, a great cannon and flying machines, under General Twinbraid. The dwarves are digging for the ancient past, as dwarves do, and it is not a happy story, and I will not pretend it is.
+General Twinbraid’s dwarves dig at Bael Modan in the south-eastern Barrens, beside Bael’dun Keep. A cannon and flying machines support the settlement. Prospector Khazgorm of the Explorers’ League is among them, which gives me reason to record the work and reason to examine it carefully.
 
-The land was the home of the Stonespire tauren, and they held it holy. The dwarves blasted it open with black powder, and the Stonespire were killed or driven off; the last of them wanders the roads nearby, looking for revenge, and the Horde has given it to him. One of the dig's own men, Feegly, was cursed by a stone he dug up and went mad. And there is a prospector of the Explorers' League among them, Khazgorm, which I set down because this ledger would be worthless if it only told the stories that flatter its author's people.
+Gann Stonespire says the land was his tribe’s home and provider. He describes it torn apart by blasts and machines, with diplomacy having failed. He now asks for the dig’s leader to be killed and its flying machine destroyed. Within the expedition, Feegly has gone mad under a curse from a stone he unearthed.
+
+A dig’s purpose does not tell the whole story of its effects, traveller. Gann’s account belongs beside the dwarves’ search for the ancient past, especially in a ledger kept by one of their own people.

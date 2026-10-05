@@ -5,10 +5,10 @@ kind: note
 race: Orc
 unlock: always
 ---
-Traveller, this ledger was bound for one of the orcs, and you may wonder why a dwarf of Ironforge would write for you at all. Our grandfathers fought, and I will not pretend otherwise. But the League has always held that knowledge belongs to whoever goes looking for it, and you, it seems, have gone looking.
+Traveller, you may wonder why a dwarf of Ironforge has written a ledger for an orc. Our peoples have fought, and the pages do not hide it. That gives us reason to understand what happened, even where we disagree about it.
 
-Your people came into this world through the Dark Portal, were beaten, and spent long years in the camps of Lordaeron. Then a young warchief named Thrall led you across the sea to a red land he named Durotar, after his father. That is more history than most peoples make in a thousand years, and the League has written down what it could.
+The Dark Portal brought your people here. Defeat brought them into Lordaeron’s camps; Thrall led them out and across the sea to Durotar, named for his father. The League has tried to follow that history alongside the lives it crossed.
 
-Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home.
+Take the book on your journeys. You will find old enemies in it, but also places and people whose stories reach beyond either of our banners.
 
-*An archivist of the Explorers' League, Hall of Explorers, Ironforge*
+*An archivist of the Explorers’ League, Hall of Explorers, Ironforge*

@@ -6,6 +6,8 @@ unlock:
   - npc: 3936
 also: [tyrande-whisperwind, feathermoon-stronghold, burning-legion, satyrs]
 ---
-Shandris Feathermoon is the General of the Sentinels, the night elves' army. She was a girl when the Burning Legion first came, ten thousand years ago, and lost her family to the demons. Tyrande Whisperwind found her, and took her in, and Shandris followed her everywhere after that, into battle too, though Tyrande forbade it. When the satyr Xavius had Malfurion at his mercy, it was Shandris's arrow that saved him.
+General Shandris Feathermoon commands the Sentinels from the stronghold bearing her name. Her service beside Tyrande began in the War of the Ancients, when she was a child fleeing Ara-Hinam, separated from her family and believed orphaned. Tyrande took her into her care.
 
-She has stood at Tyrande's side ever since, through the Sundering and the long ages that followed. Today she commands from Feathermoon Stronghold, far from Darnassus, where the Sentinels are most needed.
+Shandris followed her into danger despite orders to remain behind. One of her arrows struck Xavius; Malfurion used the wood of its embedded shaft to overcome the satyr. The child had a part in the war before anyone would have chosen to give her one.
+
+She has stood beside Tyrande through the Sundering and the ages since. Today her command lies far from Darnassus, in Feralas. If you meet her there, traveller, you are meeting someone whose duty began in the same catastrophe that left so many of the forest’s ruins.

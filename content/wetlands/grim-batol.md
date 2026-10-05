@@ -10,4 +10,4 @@ When the Wildhammers were driven from Ironforge, they carved Grim Batol out of t
 
 It did not stay empty. In the Second War the orcs of the Dragonmaw clan made it their stronghold, and there they held Alexstrasza, the queen of the red dragons, prisoner, and forced her children to carry orcs into battle. She was freed in the end, and the Dragonmaw were scattered.
 
-The red dragons are there still. Whatever they guard in Grim Batol, they guard it fiercely. Do not go near, traveller. The League has lost enough members to that mountain.
+The red dragons are there still. Whatever they guard in Grim Batol, they guard it fiercely. Do not go near, traveller. The red dragonkin on its approaches are warning enough.

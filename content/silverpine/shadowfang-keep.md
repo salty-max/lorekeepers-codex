@@ -7,6 +7,6 @@ unlock:
   - area: Shadowfang Keep (Silverpine Forest)
 also: [archmage-arugal, worgen, pyrewood-village]
 ---
-Shadowfang Keep stands on a bluff above Pyrewood, on the borders of Gilneas, and it was the seat of Baron Silverlaine before the mage Arugal came. Arugal's worgen overran it, and the Baron and his household died in their own halls; their ghosts walk them still, with Commander Springvale, a paladin who served the house.
+Before Arugal came, the fortress above Pyrewood belonged to Baron Silverlaine. The mage’s worgen overran it, and the Baron’s ghost still haunts its halls. Commander Springvale, a paladin, is among its other undead defenders.
 
-Arugal took the keep for himself and his creatures, and gave it the name it has now. The Forsaken would like it, as a stronghold on their southern border; the deathstalkers they sent to scout it have not come back.
+Arugal retreated here with the worgen he calls his children. The fortress is now known as Shadowfang Keep, a stronghold the Forsaken want on their southern border. Their deathstalkers went in to scout it and have not returned. If you are sent after them, traveller, their silence is part of what you should know before entering.

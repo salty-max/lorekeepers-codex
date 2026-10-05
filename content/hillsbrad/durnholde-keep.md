@@ -7,6 +7,8 @@ unlock:
   - quest: 508
 also: [thrall, syndicate, hillsbrad-foothills]
 ---
-Durnholde Keep was the fortress that ruled the internment camps after the Second War, where the defeated orcs of the Horde were kept behind walls. Its master was Lord Aedelas Blackmoore, and it was here that he raised an orc child as a slave and a gladiator, meaning to make him the general of a tame army. The orc's name was Thrall.
+Durnholde controlled the orc internment camps after the Second War. Its master, Aedelas Blackmoore, raised an orc child as a slave and gladiator, intending him to command an obedient army. The child was Thrall. Taretha Foxton, a girl of Blackmoore’s household, befriended him and helped him escape.
 
-A girl of the household, Taretha Foxton, befriended the slave and helped him escape, and he went on to free his whole people. Blackmoore is dead now, and the keep belongs to the Syndicate. Its lord, Aliden Perenolde, dreamed of putting the orcs back in chains as Blackmoore had, and he gave Taretha's pendant to his mistress as a trinket. Thrall has never forgotten Taretha. His agents came to Hillsbrad for that pendant, and the Warchief has it back now.
+Thrall went on to free his people. Blackmoore is dead, and the Syndicate holds the keep. His ambitions survived elsewhere: at a manor beside Lordamere Lake, Aliden Perenolde planned to enslave orcs in his turn. His companion Elysa carried Taretha’s pendant.
+
+Thrall’s agents came to Hillsbrad to recover it, and the Warchief has it again. A pendant is a small thing to set beside the fall of a fortress, traveller. It preserves the name of someone whose help made that fall possible.

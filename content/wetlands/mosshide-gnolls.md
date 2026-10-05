@@ -7,8 +7,6 @@ unlock:
   - area: Mosshide Fen
 also: [wetlands, gnolls]
 ---
-Gnolls are everywhere in the human kingdoms, and the Wetlands have their own: the Mosshide, who live in the fens and raid whatever passes.
+Mosshide gnolls live in the Wetlands, including the fen that bears their name. Rethiel the Greenwarden says they dwelt peacefully in the region for years. Now, he says, their growing numbers are damaging the marsh’s vegetation.
 
-They are not clever and not brave, but there are a great many of them, and they know the marsh far better than any dwarf ever will. They will not fight you on open ground if they can drag you into the reeds instead.
-
-Do not follow them into the reeds.
+He asks adventurers to kill Mosshide near Dun Algaz. Keep his earlier words in mind, traveller, as well as his request. By the Greenwarden’s own account, these neighbours have not always been enemies.

@@ -6,8 +6,8 @@ unlock:
   - area: Gnomeregan (Dun Morogh)
 also: [gnomeregan-exiles, high-tinker-mekkatorque, leper-gnomes, rockjaw-troggs]
 ---
-For generations the gnomes' capital lay in the western mountains of Dun Morogh, a city of gears and steam that even the smiths of Ironforge admired, though they would never say so aloud.
+Gnomeregan lies beneath western Dun Morogh, the old gnomish capital brought to ruin during the crisis of the Third War. Troggs invaded its halls. To stop them, the gnomes released radiation through their own city.
 
-Then the troggs came up from below, more of them than anyone had believed possible. The gnomes could not hold, and High Tinker Mekkatorque took the advice of one of his own engineers, Sicco Thermaplugg: flood the city with a deadly radiation that would kill the invaders. It did. It also killed a great many gnomes who could not escape in time.
+The troggs survived. Many gnomes died, and others were transformed into the violent survivors now called leper gnomes. Those who escaped found shelter in Ironforge. The cost of the attempt is still plain in the poisoned halls.
 
-The survivors fled to Ironforge, and we gave them a corner of the city. As for Thermaplugg, he did not flee. He stayed in the poisoned halls with what remained, and the word from those who have been down there is that he now calls the city his own.
+Sicco Thermaplugg remains there. High Tinker Mekkatorque calls him a traitor and asks adventurers to kill him. If you enter, traveller, remember that this was a capital full of homes and workshops. Its people are still trying to recover what is left.

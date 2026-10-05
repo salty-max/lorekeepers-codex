@@ -7,6 +7,6 @@ unlock:
   - quest: 8183
 also: [zulgurub, gurubashi-empire, zandalar-tribe, the-temple-of-atalhakkar]
 ---
-Hakkar is the blood god of the trolls, the Soulflayer, a winged serpent of terrible power who feeds on blood and souls. The Atal'ai priests of the Gurubashi first brought him into this world long ago, and his reign was absolute and monstrous, until the tribes rose against his priests and drove them out.
+Hakkar the Soulflayer is the trolls’ blood god, a winged serpent who feeds on blood and souls. Long ago the Atal’ai brought him into the world. His demand for sacrifice became so terrible that the tribes rose against his priests and drove them into exile.
 
-He has come back, through Zul'Gurub, and the Zandalar warn that if he cannot be stopped now his new reign will cover the world. Those who have faced him in his temple say that even when he falls, his heart still burns, and that the power in it does not die.
+He has returned through Zul’Gurub. The Zandalar warn that his reign will spread across the world unless he is stopped. Even his fallen heart holds power: those who have faced him describe it as still burning. Keep the Zandalar’s warning close, traveller, if you enter that city. They know what his worship once cost their people.

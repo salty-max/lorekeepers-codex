@@ -7,6 +7,6 @@ unlock:
   - quest: 9033
 also: [kelthuzad, scourge, argent-dawn, lights-hope-chapel]
 ---
-Naxxramas is a necropolis, a citadel of the Scourge that floats in the sky over the Plaguelands, and it is Kel'Thuzad's seat. From it the Scourge came down on the cities of Azeroth in a great invasion, and the Argent Dawn called on every living soul to stand against it.
+Naxxramas hangs above the Plaguelands, a floating Scourge citadel and Kel’Thuzad’s seat. From it came forces for a great invasion of Azeroth’s cities, bringing the Argent Dawn to call on everyone willing to oppose the dead.
 
-Five years after the last war, the Lich King stirs again, and Kel'Thuzad gathers his armies in Naxxramas for another attack on our lands. Inside are his greatest servants: abominations and spiders, plague-bringers, and four horsemen, death knights who were once the Light's champions.
+Five years after the last war, the Lich King stirs again and Kel’Thuzad gathers armies for another attack. Abominations, spiders and plague-bringers occupy the necropolis, along with four horsemen who were once champions of the Light. Look up when you cross the Plaguelands, traveller. Their commander has a fortress that need not depend on holding the road beneath it.

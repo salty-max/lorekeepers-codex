@@ -6,6 +6,6 @@ unlock:
   - area: Wailing Caverns (zone)
 also: [druids-of-the-fang, barrens-oases, cenarion-circle, dragons-of-nightmare]
 ---
-Beneath the Barrens lies a maze of caverns where underground rivers run and steam bursts from the rock with a sound like mourning, and so they are called the Wailing Caverns. A night elf druid named Naralex found them, and saw a chance: if he could join the waters of the caverns to the Emerald Dream, he believed, the Barrens could bloom green again.
+Steam sounds like mourning in the caverns below the Barrens, where rivers pass through a maze of rock. Naralex saw their waters as a means of healing the dry country above. By linking them to the Emerald Dream, he hoped to make the Barrens green.
 
-He went down with his disciples and lay down to dream. The dream went wrong. Naralex has not woken, the creatures of the caverns have been twisted into strange and savage forms, and most of his disciples have turned into something else. One of them still waits by his master's side, hoping someone will help him wake.
+He descended with his disciples and slept. The dream became a nightmare. Naralex has not woken, the caverns’ creatures have changed, and most of his followers have fallen with him. One disciple still seeks help to reach his master and perform a waking ritual. The waters once offered hope to a druid, traveller; his remaining follower has placed that hope in whoever will help him get through.

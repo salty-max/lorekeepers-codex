@@ -11,6 +11,6 @@ unlock:
   - quest: 5228
 also: [scourge, cult-of-the-damned, royal-apothecary-society, chillwind-camp, the-bulwark]
 ---
-Across the farms of the Plaguelands, eight great cauldrons stand bubbling, four in the west and four in the east, and they pour the plague into the air. They are the Scourge's work, and they are why nothing living recovers in these lands. Cauldron lords guard them, and the dead of the farmsteads stand around them.
+Eight plague cauldrons stand on the farms of the Plaguelands, four in the west and four in the east. Cauldron lords and the dead of the surrounding farmsteads guard them. Their fumes keep poisoning country that has already lost its people.
 
-Kel'Thuzad's power is too strong for anyone to put them out. What the Alliance at Chillwind and the Forsaken at the Bulwark can do is open them, take samples of what they brew, and study the plague from the inside. I suspect the Forsaken's apothecaries are more interested in the brew than they say.
+Kel’Thuzad’s power prevents the Alliance and Forsaken from simply putting them out. Instead, workers at Chillwind and the Bulwark seek samples to prepare counteragents. Added to the cauldrons, these mixtures alter their emissions to weaken the Scourge. The supply must be renewed. There is no single triumphant stroke to this work, traveller; its value depends on people returning to do it again.

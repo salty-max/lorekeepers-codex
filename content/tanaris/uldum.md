@@ -8,6 +8,6 @@ unlock:
   - quest: 2954
 also: [platinum-discs, uldaman, tanaris, explorers-league]
 ---
-In the far south of Tanaris, in the Valley of the Watchers, stand the sealed gates of Uldum. Beside them, when the platinum discs of Uldaman are brought near, a stone watcher wakes and speaks: it is the Stone Watcher of Norgannon, a guardian of entry, and it will let no one in who does not carry the Plates of Uldum.
+Uldum’s sealed gates stand in the Valley of the Watchers, far south in Tanaris. Bring the platinum discs of Uldaman near them and the Stone Watcher of Norgannon wakes. It guards entry and requires the Plates of Uldum before it will admit anyone.
 
-What we know is what it told us. Uldum is a research facility of the titans, the Creators, for their work on the life of this world, and what is inside can only be reached with the plates. Where those are, the Watcher does not say. The League would give a great deal to know.
+The Watcher describes a Titan research facility concerned with the life of this world. It does not tell us where the required plates lie. The League has a name, a purpose and a closed gate to investigate, traveller. We would very much like to add a way through it.

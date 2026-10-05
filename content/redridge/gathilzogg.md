@@ -7,6 +7,6 @@ unlock:
   - quest: 169
 also: [stonewatch-keep, blackrock-clan, black-dragonflight]
 ---
-Gath'Ilzogg is the warlord of the Blackrock clan in Redridge, the orc who took Stonewatch Keep and leads the raids on Lakeshire. He answers to the masters of Blackrock Spire in the north, and through them, as Lakeshire has learned to its horror, to the black dragons who sit above the Spire.
+Gath’Ilzogg commands the Blackrock orcs who took Stonewatch Keep. From it he directs raids on Lakeshire, answering to the masters of Blackrock Spire and, through them, the black dragons above it. The town has had cause to learn how far that chain of command reaches.
 
-He is wanted, dead, by order of the magistrate, and holes up in the keep with his best warriors around him. I have no other history of him to give you. Some figures in this ledger are here for what they were; Gath'Ilzogg is here for what he is doing to Redridge.
+Magistrate Solomon has ordered his death. Gath’Ilzogg remains within the keep, surrounded by his best warriors. There is no long account of his earlier life in these pages, traveller. His place here is earned by the trouble he is causing now.

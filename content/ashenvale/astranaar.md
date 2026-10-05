@@ -6,6 +6,6 @@ unlock:
   - area: Astranaar
 also: [ashenvale, demon-fall-canyon]
 ---
-Astranaar is the night elves' town in the heart of Ashenvale, built on an island in a forest lake and reached by a bridge, with a moonwell, an inn and the barracks of the Sentinels who hold the forest. It is beautiful and very tense.
+Astranaar stands on an island in an Ashenvale lake, joined to the forest by bridges. Its moonwell, inn and Sentinel barracks give the night elves a centre from which to defend the country around it. It is a beautiful town with very little ease.
 
-Its people have their own sorrows. A father in Astranaar has a daughter sick with a fever and nightmares that no ordinary remedy will break, and the herbalists talk of the forest itself turning ill. The Sentinels say the corruption came with the demons in the war, and has never quite left.
+A father here seeks help for his daughter’s fever and nightmares. Ordinary remedies have failed her. Herbalists speak of sickness in the forest itself, while the Sentinels blame corruption left by the demons of the war. A traveller coming to help defend Astranaar may find the town’s troubles begin well inside its guarded approaches.

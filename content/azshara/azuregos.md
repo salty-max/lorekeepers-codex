@@ -7,6 +7,6 @@ unlock:
   - npc: 6109
 also: [azshara, the-sundering, the-scepter-of-the-shifting-sands]
 ---
-Azuregos is a blue dragon who lives in the south of Azshara, and he has made himself the guardian of the land's magic. The Highborne left their arcane treasures all over Azshara, and the blue dragonflight, the guardians of magic, have watched over them since the Sundering. Some say he seeks something greater, the Vials of Eternity, which were filled at the Well itself.
+Azuregos is a blue dragon found in southern Azshara, among ruins left by the Highborne’s use of magic. His flight guards that power, and this coast has ample reminders of the reasons such guardians might keep watch.
 
-He fights anyone who comes for those treasures, and he likes to talk while he does it. He is also, it seems, a keeper of the scepter that sealed Ahn'Qiraj, or of one of its pieces, and he is not happy about it.
+His instructions concerning the Scepter of the Shifting Sands send investigators after the blue shard, held by the great shark Maws. A magical ledger and a device to draw out the shark are part of the task. Read carefully, traveller. An ancient dragon has managed to leave a rather complicated set of instructions for fetching one missing piece.

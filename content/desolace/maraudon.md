@@ -6,6 +6,6 @@ unlock:
   - area: Maraudon (zone)
 also: [zaetar-and-theradras, centaurs, satyrs, twilights-hammer]
 ---
-Maraudon is the holiest place of the centaurs, a vast cavern in the south-west of Desolace where their father, Zaetar, lies buried; only the most devout centaurs may enter it. Deeper still, beyond caverns of glittering crystal, lives their mother, Theradras.
+Maraudon is the centaurs’ holy place in south-western Desolace. Their father Zaetar lies buried within its vast caverns, and their mother Theradras dwells beyond chambers of glittering crystal. Only the most devout among the centaurs may enter.
 
-It is not a peaceful tomb. A satyr lord, Vyletongue, has spread his poison through the caves and made a creature of rot to serve him; Zaetar's own son, Celebras, wanders inside, cursed; and a woman of the Twilight's Hammer has been asking travellers to bring her carvings from the crystal caverns, where, she says, relics of the old gods lie. I would not take her the carvings.
+The tomb is troubled. Lord Vyletongue spreads poison through the caves and has made a creature of rot; Zaetar’s nephew Celebras wanders there under a curse. A woman of the Twilight’s Hammer asks for carvings from the crystal caverns, claiming they hold relics of the Old Gods. I would be careful whose purposes your journey serves, traveller. There are several parties interested in what lies beneath this sacred ground.

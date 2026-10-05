@@ -6,6 +6,6 @@ unlock:
   - kill: 15727
 also: [temple-of-ahnqiraj, silithid, uldum]
 ---
-C'Thun is one of the Old Gods, powers older and stranger than anything else in this world. It lies at the bottom of the Temple of Ahn'Qiraj, a vast eye and a forest of tentacles, and the qiraji and the silithid are its creatures.
+C’Thun lies beneath the Temple of Ahn’Qiraj, one of the ancient powers called the Old Gods. An immense eye and masses of tentacles fill its chamber. The qiraji and their silithid swarms serve it.
 
-It speaks. Those who go near it hear its whispers in their minds, promising and threatening and lying. I set down here only that it was found and that it was slain. I would like not to think about it any more than that.
+Those who approach hear whispers in their minds, promises and threats that belong to the creature below. The expedition found and slew it. I can set those events down, traveller, but I take little pleasure in recording a thing capable of answering its observers inside their own thoughts.

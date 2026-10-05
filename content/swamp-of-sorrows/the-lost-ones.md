@@ -7,6 +7,6 @@ unlock:
   - area: Fallow Sanctuary
 also: [swamp-of-sorrows, burning-legion]
 ---
-In the east of the swamp there are people who look like nothing else in Azeroth: tall, blue-grey, hooved and tendrilled. A few of them, the exiles at the Harborage, are sane and gentle; they call themselves draenei, and they say they came to this world from the orcs' own, a long and terrible journey. The rest are the Lost Ones.
+The exiles at the Harborage call themselves draenei. Hooved and tendrilled, with blue-grey skin, they are unlike the other peoples a traveller usually meets in Azeroth. They say they came from the orcs’ world after a terrible journey. Those at the Harborage remain gentle and willing to speak.
 
-The journey broke them, the exiles say. Once their brethren, the Lost Ones now live in the Fallow Sanctuary like beasts, catching and killing any who come near, and they have stolen the crystals the exiles hold sacred. What the draenei were before the orcs came to their world, and what was done to them, the exiles do not like to say, and I have not pressed them.
+Others live in the Fallow Sanctuary and are called the Lost Ones. The exiles say the journey broke their former brethren. They attack those who approach and have stolen crystals the exiles hold sacred. These local accounts tell us little about their earlier life or what happened before they came here. I would rather leave that portion of the page open than supply them with a past they have not described.

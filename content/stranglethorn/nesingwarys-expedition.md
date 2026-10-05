@@ -7,6 +7,6 @@ unlock:
   - npc: 715
 also: [stranglethorn-vale]
 ---
-In a clearing in northern Stranglethorn stands a camp of tents, trophies and gun racks: the hunting expedition of Hemet Nesingwary, the most famous big-game hunter in the world. He has come to Stranglethorn for its panthers, tigers and raptors, and to write a novel about it, The Green Hills of Stranglethorn.
+Hemet Nesingwary’s camp occupies a clearing in northern Stranglethorn, well furnished with tents, trophies and gun racks. The renowned hunter has come for panthers, tigers and raptors, and to write The Green Hills of Stranglethorn. He offers visiting hunters ample opportunity to prove themselves.
 
-He is a gruff, generous man, and his camp is the best place in the jungle to prove yourself as a hunter. His manuscript, I am told, blew away in a storm and is scattered all over the jungle. I have read a few pages. They are mostly about killing things.
+His manuscript blew away and its pages are scattered across the jungle. The chapters recount his hunt, once someone has put them back in order. If you find a page, traveller, keep it. Authors are troublesome enough when they know where their work is.

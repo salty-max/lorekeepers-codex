@@ -10,6 +10,6 @@ also: [black-dragonflight, eitrigg]
 ---
 The Blackrock were the greatest clan of the old Horde. Their chieftain Blackhand led it as Warchief in the First War, until Orgrim Doomhammer broke his skull and took the title, and Doomhammer was a Blackrock too. When the Horde fell, most of the clan went into the camps with everyone else, and many of those who came out followed Thrall.
 
-Not all of them. Blackhand's sons, Rend and Maim, gathered what was left of their father's clan inside Blackrock Mountain, and there they keep the old ways: the conquest, the cruelty and the cult of the Warchief. Rend calls himself Warchief to this day, and gives Thrall's name nothing but contempt. Worse, he has thrown in with the black dragons who roost in the upper Spire.
+Not all of them. Blackhand's sons, Rend and Maim, gathered survivors inside Blackrock Mountain. Rend's followers still keep the old ways: the conquest, the cruelty and the cult of the Warchief. Rend calls himself Warchief to this day, and gives Thrall's name nothing but contempt. Worse, he has thrown in with the black dragons who roost in the upper Spire.
 
 From the mountain the clan raids north and west. They hold the Burning Steppes, they have taken Stonewatch Keep in Redridge, and the people of Lakeshire live within sight of their fires. Whatever the Horde has become in Durotar, this is what it was.

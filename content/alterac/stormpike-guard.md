@@ -7,6 +7,6 @@ unlock:
   - reputation: 730 friendly
 also: [alterac-valley, frostwolf-clan, magni-bronzebeard, explorers-league]
 ---
-The Stormpike are a dwarven clan of Ironforge, and their guard came to Alterac Valley as an expedition: to mine its riches and search for the relics of our ancestors, in the company of the Explorers' League. They say they were attacked by the Frostwolves without provocation. The Frostwolves say the same of them.
+The Stormpike Guard came to Alterac Valley to mine and to seek relics of dwarven ancestry, with the Explorers’ League accompanying the expedition. They say the Frostwolves attacked without provocation. The Frostwolves give the same account with the names reversed.
 
-Their commander is Vanndar Stormpike, and King Magni has given him a royal command to take the valley for Ironforge. I know some of the Stormpike, and they are good dwarves. I also know how the valley looks from the other side, and I wish someone in Ironforge would stop and think about it before the next spring.
+Vanndar Stormpike commands the Guard, and King Magni has ordered him to take the valley for Ironforge. The Frostwolves already live there and resist the order. I serve the League, traveller, but our interest in what lies beneath the ground does not settle the claims of those living above it.

@@ -13,8 +13,8 @@ unlock:
   - kill: 15758, 15759, 15806, 15807, 15808, 15810, 15811, 15812, 15813, 15814, 15815, 15816, 15817, 15934
 also: [cenarion-circle, twilights-hammer]
 ---
-The silithid are insects, but no insect you have ever swatted: wasps the size of hounds, tunnelers that can bring down a cave, reavers as big as an ogre. They live in great hives under the deserts and jungles of southern Kalimdor, in the Barrens, Thousand Needles, Feralas, Tanaris, Un'Goro and above all in Silithus, which they have hollowed out almost entirely.
+Silithid occupy vast hives beneath southern Kalimdor. Their wasps can be the size of hounds, their reavers as large as ogres, and their tunnelers powerful enough to collapse caves. Hives have appeared in the Barrens, Thousand Needles, Feralas, Tanaris and Un’Goro; Silithus holds the greatest concentration.
 
-They are not alone down there. Their masters are the Qiraji, an older and cleverer race of the same kind, who rule from the city of Ahn'Qiraj. A thousand years ago the Qiraji sent their swarms north against the night elves, in the War of the Shifting Sands, and the night elves and the dragons sealed them behind the Scarab Wall. The Cenarion Circle believes that something even older stirs beneath that city, and that the swarms answer to it.
+The qiraji of Ahn’Qiraj command them. A thousand years ago their swarms drove north in the War of the Shifting Sands, until night elves and dragons sealed the city behind the Scarab Wall. The Cenarion Circle believes an older power beneath Ahn’Qiraj directs both masters and servants.
 
-The hives are spreading again. Each year the scouts of Feralas and Tanaris find new mounds, and each year they are a little further north.
+Movement around the hives now suggests preparation for a great expansion. The Circle watches closely. For a traveller studying these insects, the work includes finding out how far their tunnels and their masters’ purposes already reach.

@@ -44,6 +44,8 @@ and target in the terms content files use (for writing new pages).
 For Classic Era (Hardcore, Season of Discovery) and TBC Anniversary. Not
 affiliated with Blizzard Entertainment.
 
+The [Vanilla lore review](docs/lore-review.md) records the entry-by-entry source checks, corrections and source handling and the remaining editorial exception.
+
 ## Writing pages
 
 Pages live in `content/<chapter>/<id>.md`:
@@ -84,3 +86,5 @@ configured).
 
 [MIT](LICENSE): code and text. World of Warcraft is a trademark of Blizzard
 Entertainment, Inc.
+
+The [voice review](docs/voice-review.md) records the chapter-by-chapter writing pass and the decision for each of the 344 entries.

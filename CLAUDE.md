@@ -40,18 +40,27 @@ in sources from before Wrath of the Lich King (see Lore below).
   the Barrens 30+. Every page still earns its place. The plan per zone is
   PLAN.md (status, unlock, what to check): update it as pages land.
 
+Timber is an explicit user-approved exception: preserve its hunter tale
+as flavour text without an in-entry label. This does not permit unsupported
+historical claims in other entries.
+
 ## Writing pages (the product is the text)
 
 - Voice: an archivist of the Explorers' League, writing from the Hall of
   Explorers in Ironforge; addresses the reader as "traveller"; warm, dry, a
   scholar's asides. Short: two to four paragraphs.
+- The approved voice samples are in `docs/voice-comparison.md`. Prefer concrete
+  details and natural flow; keep dry asides sparse, vary openings and endings,
+  and do not turn an entry into an audit note or append advice by habit. The
+  completed entry decisions are recorded in `docs/voice-review.md`.
 - Lore (the user's scope): **everything from the origin of the universe up to
   the vanilla era**, as told by sources published before Wrath of the Lich King
-  (Nov 2008): Warcraft I, II and III (with their manuals), World of Warcraft up
+  (13 Nov 2008): Warcraft I, II and III (with their manuals), World of Warcraft up
   to patch 1.12 (its quests, books and item texts), and the novels of that time
   (Of Blood and Honor, Day of the Dragon, Lord of the Clans, The Last Guardian,
   the War of the Ancients trilogy, Cycle of Hatred, Rise of the Horde, Tides of
-  Darkness, Beyond the Dark Portal, Night of the Dragon). Nothing from later
+  Darkness, Beyond the Dark Portal). A permitted publication may still describe
+  later events: only its history through Vanilla belongs here. Nothing from later
   expansions, novels or retcons (Chronicle, Arthas, Stormrage, Warlords' Draenor
   …), and no future fates. Original wording, never copied from wikis or game
   text. Research each page: the Warcraft Wiki (`?action=raw` gives the source),

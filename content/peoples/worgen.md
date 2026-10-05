@@ -6,8 +6,8 @@ unlock:
   - kill: 205, 206, 533, 898, 920, 1769, 1770, 1779, 1782, 1892, 1893, 1896, 1924, 2529
   - kill: 3529, 3531, 3533, 3851, 3853, 3854, 3855, 3857, 3859, 3863, 3914, 3927, 5097
 ---
-I can tell you where the worgen came from in only one place, and even there the tale is a strange one. When the Scourge pressed against Silverpine Forest, a mage of the Kirin Tor named Arugal summoned wolf-men out of somewhere else to fight them. They did fight the dead, and then they turned on the living. Arugal went mad, shut himself up in Shadowfang Keep with his creatures, and laid a curse on the village of Pyrewood: its people are human by day and worgen by night.
+Arugal summoned worgen from another world as Dalaran’s defenders fell to the Scourge. The wolf-men attacked the dead, then turned on the living. The mage retreated to Shadowfang Keep, called them his children and cursed Pyrewood, whose people are human by day and worgen by night.
 
-The worgen of Duskwood are another puzzle. The Night Watch say they appeared out of nowhere in a mine south of Darkshire, and the little I have learned points to an old elven relic called the Scythe of Elune, brought into the forest by someone who did not understand what it was.
+Duskwood presents a different trail. The Night Watch reports their sudden appearance in a mine south of Darkshire. Accounts point towards the Scythe of Elune, an old elven relic carried into the forest by someone who did not understand its power.
 
-They are tall, grey and strong, they walk upright and run on all fours, and they are cleverer than any wolf. That is all the League knows for certain, and I am in no hurry to learn more.
+The creatures are strong, clever and able to run on all fours despite their upright form. Keep the two trails distinct, traveller. Knowing who brought them into one forest has not explained their appearance in the other.

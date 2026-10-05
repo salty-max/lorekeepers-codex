@@ -7,6 +7,6 @@ unlock:
   - npc: 10162
 also: [onyxia, black-dragonflight, blackwing-lair, rend-blackhand, ragnaros]
 ---
-Nefarian is the son of Deathwing, the black Dragon Aspect, and the brother of Onyxia. Like his sister, he hides among mortals in human shape, as Lord Victor Nefarius, and like her, he is far more dangerous than any human could be. He came to Blackrock Spire at Deathwing's bidding when the Horde was broken, and made its orcs his servants.
+Nefarian is Deathwing’s son and Onyxia’s brother. Like his sister, he takes human form: Lord Victor Nefarius commands the orcs of Blackrock Spire. The name conceals a dragon with designs far beyond the fortress.
 
-From Blackwing Lair, he wars on Ragnaros for the mountain, and breeds his chromatic dragons, with the help of the Dark Horde, to rule the world. The Alliance and the Horde have both sent champions against him; it is said that his head, if it is ever taken, will be hung for all to see.
+From Blackwing Lair he fights Ragnaros for control of the mountain and breeds chromatic dragons with the Dark Horde’s help. He intends them for wider conquest. Alliance and Horde champions have been sent against him, with the promise that his severed head will be displayed. A traveller seeking that prize must first pass through the army he has already gathered.

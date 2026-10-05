@@ -7,8 +7,6 @@ unlock:
   - area: The Loch
 also: [loch-modan, dark-iron-dwarves]
 ---
-The Stonewrought Dam closes the northern end of Loch Modan: one of the great works of Khaz Modan, and a source of quiet pride to every engineer in Ironforge.
+The Stonewrought Dam holds the northern end of the Loch. Its wall and waterfall are among the great sights of Khaz Modan. Take time to admire them, traveller; a great deal of work went into giving you that view.
 
-The League enjoys a quieter joke about it. The dam was designed by Franclorn Forgewright, an architect of the Dark Iron clan, whose "stonewrought" method gave it its name. Now the Dark Irons attack the very dam one of their own designed, and Ironforge has had to double its guard under Chief Engineer Hinderweir.
-
-Stand on top of it and look down at the valley below, then back at the water. You will understand at once why it is guarded so closely.
+Chief Engineer Hinderweir has found a Dark Iron plot against the dam. His investigation leads to an explosive keg and the mixture needed to disarm it. The dwarves guard this work closely, with good reason. People depend on the wall holding, and Hinderweir has rather more at stake than an engineer’s pride.

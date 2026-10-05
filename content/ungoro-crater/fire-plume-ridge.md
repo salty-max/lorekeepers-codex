@@ -6,6 +6,6 @@ unlock:
   - area: Fire Plume Ridge
 also: [ungoro-crater, marshals-refuge]
 ---
-Fire Plume Ridge is the volcano in the middle of Un'Goro Crater, with lava running down its sides and fire elementals walking in it. The strongest of them, Blazerunner, lives in a cave at its peak, and the heat of the volcano's veins warms the springs and geysers all over the crater.
+Fire Plume Ridge rises in the middle of Un’Goro, with lava on its slopes and fire elementals among the flows. Blazerunner occupies a cave near the peak. The volcano gives the crater’s explorers a conspicuous subject for study.
 
-The scholars of Marshal's Refuge would like very much to know what lies at the heart of it. The young explorer Ringo went to look, and was found in a cave on its southern slope, lost and half-cooked.
+Ringo went to investigate and was found in a cave on its southern slope, lost and badly overheated. The scholars at Marshal’s Refuge still want to know what lies at the ridge’s heart. A traveller can share their curiosity without sharing Ringo’s preparations.

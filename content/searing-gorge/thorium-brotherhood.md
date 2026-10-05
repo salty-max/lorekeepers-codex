@@ -7,6 +7,6 @@ unlock:
   - reputation: 59 friendly
 also: [dark-iron-dwarves, the-cauldron, blackrock-depths, molten-core]
 ---
-The Thorium Brotherhood are Dark Iron dwarves who have left their emperor, and they are the finest smiths I have ever seen, of any clan. They keep a camp at Thorium Point, on the cliffs above the Cauldron, watching their old kin at work below, and they will deal with anyone who helps them against Thaurissan's people.
+The Thorium Brotherhood is made up of Dark Iron dwarves who left their emperor. Its smiths work at Thorium Point, above the Cauldron, and trade with those willing to help them against Thaurissan’s forces. A Bronzebeard can admire their craft without much difficulty; the political arrangement takes a little more explaining.
 
-They know how to make the arms and armour of the Firelord himself, if anyone can bring them what they need from the heart of the mountain. One of them sits in the very tavern of Shadowforge City, under the emperor's nose, trading their secrets. It is not my place to say so, but they are better dwarves than I expected.
+They know how to forge the Firelord’s arms and armour, provided someone brings the materials from within the mountain. One of their number even trades in Shadowforge City’s tavern, under the emperor’s nose. If you seek their work, traveller, bring what they need. Their quarrel with their old kin has not diminished their skill.

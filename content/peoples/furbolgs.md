@@ -15,6 +15,6 @@ also: [burning-legion, sickness-of-teldrassil]
 ---
 The furbolgs are bear-men of the northern forests of Kalimdor, big, slow-spoken and, for most of their long history, peaceful. They were friends of the night elves, and ten thousand years ago they fought beside them against the Burning Legion. Most of them only wanted to be left alone in their woods.
 
-Something has gone badly wrong with them. Tribe after tribe has fallen into a madness: the Gnarlpine on Teldrassil, the Blackwood of Darkshore, the Thistlefur and Foulweald in Ashenvale, the Deadwood and Felpaw in Felwood, the Winterfall in Winterspring. The night elves blame the demons' corruption that soaks the land, and in Felwood, at least, they are surely right.
+Something has gone badly wrong with them. Tribe after tribe has fallen into a madness: the Gnarlpine on Teldrassil, the Blackwood of Darkshore, the Thistlefur and Foulweald in Ashenvale, the Deadwood in Felwood, the Winterfall in Winterspring. The night elves blame the demons' corruption that soaks the land, and in Felwood, at least, they are surely right.
 
-Only the Timbermaw have kept their minds. They hold the tunnels between Felwood, Winterspring and Azshara, they trust no one, and they are slowly coming to respect those who help them against their poisoned kin.
+The Timbermaw have kept their minds. They hold the tunnels between Felwood, Winterspring and Moonglade, and have another hold in Azshara. They distrust outsiders, but they are slowly coming to respect those who help them against their poisoned kin.

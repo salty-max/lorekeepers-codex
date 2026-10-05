@@ -7,6 +7,6 @@ unlock:
   - area: Temple of Ahn'Qiraj
 also: [ruins-of-ahnqiraj, cthun, silithid, caverns-of-time]
 ---
-At the heart of Ahn'Qiraj stands its temple, the seat of the qiraji, whose emperors, the twin brothers Vek'lor and Vek'nilash, rule their swarms from it. The bronze dragons fear it, and those who go deep into the temple understand why.
+The twin emperors Vek’lor and Vek’nilash rule the qiraji from the Temple of Ahn’Qiraj. Their servants include the silithid swarms and the great worms within its halls. The bronze dragons regard this place with fear.
 
-The qiraji are servants. The silithid, the qiraji, the giant worms and the twin emperors all serve one master, which lies at the bottom of the temple: C'Thun, one of the Old Gods, the ancient powers of the world. The qiraji built their temple around it, and their whole empire to serve it.
+Beneath the emperors lies C’Thun. The temple and the empire around it serve this Old God, rather than the rulers a traveller first encounters. The emperors hold a court, traveller, above the chamber of their own master.

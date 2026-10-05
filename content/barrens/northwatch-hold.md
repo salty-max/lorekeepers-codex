@@ -6,6 +6,6 @@ unlock:
   - area: Northwatch Hold
 also: [ratchet, the-barrens, tiragarde-keep]
 ---
-Northwatch Hold is a fortress on the Merchant Coast of the Barrens, held by soldiers of Theramore who have never been convinced that the war with the Horde is over. It sits a day's march from the Crossroads and fires on anything that comes near, goblin ships included.
+Soldiers of Theramore hold Northwatch above the Merchant Coast, south of Ratchet. Captain Thalo’thas Brightsun accuses its gunners of sinking ships from his fleet. He asks adventurers to silence the cannons and kill Captain Fairmount.
 
-Lady Proudmoore made peace with Thrall. Northwatch did not, entirely, and every orc in the Barrens knows it.
+Jaina Proudmoore made peace with Thrall, yet fighting continues around the hold. A traveller along this coast can see why a ruler’s agreement and a soldier’s conduct must both be recorded when describing that peace.

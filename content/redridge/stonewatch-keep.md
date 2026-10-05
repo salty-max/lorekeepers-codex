@@ -7,6 +7,6 @@ unlock:
   - area: Stonewatch
 also: [gathilzogg, blackrock-clan, lakeshire]
 ---
-Stonewatch Keep was built to guard Redridge from the north, from the very pass the Blackrock came down. It did not hold. The orcs took it, and from its walls they raid the farms north of Lakeshire and keep the townsfolk penned up like cattle. Their ambushers prowl the road between the keep and the town, and somewhere among the ruined towers a regiment of Stormwind's soldiers was cut to pieces; a few survivors, they say, are still held in the caves.
+Stonewatch Keep guarded the northern approach to Redridge. The Blackrock came down that approach and took it. Their raiders now strike the farms above Lakeshire, and their ambushers watch the road between the town and the keep. A fortification is useful to whoever holds its walls.
 
-Their warlord, Gath'Ilzogg, sits in the keep itself, and Magistrate Solomon has a price on his head.
+A regiment of Stormwind’s soldiers was cut to pieces among the ruined towers; a few survivors are said to be held in the caves. Warlord Gath’Ilzogg occupies the keep itself, with a price on his head from Magistrate Solomon. Look carefully at the ground, traveller. Lakeshire has already lost men trying to recover it.

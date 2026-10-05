@@ -5,10 +5,10 @@ kind: note
 race: Human
 unlock: always
 ---
-Traveller, this ledger was bound for a reader of Stormwind, and I am glad of it. Your people and mine have stood together since the Second War, when the Horde came north, and there is hardly a battle in our records since without a human name beside a dwarven one.
+Traveller, I am glad to send this ledger to a reader of Stormwind. Your people and mine have stood together since the Second War; our accounts of the battles since have seldom lacked names from both.
 
-Your kingdom has been burned to the ground once already and raised again, stone by stone, by masons who are still waiting to be paid. You will find that story in these pages, and others your heralds prefer not to sing.
+Stormwind was destroyed and rebuilt. Its new stonework is a great achievement, and the unpaid masons who raised it are part of its history too. You will find that account here beside the stories your kingdom has more reason to celebrate.
 
-Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home.
+Use the book as you travel. Towns, ruins and roads can tell you how a country came to be as you find it, provided someone keeps track of the people who made them.
 
-*An archivist of the Explorers' League, Hall of Explorers, Ironforge*
+*An archivist of the Explorers’ League, Hall of Explorers, Ironforge*

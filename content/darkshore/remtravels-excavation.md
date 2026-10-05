@@ -6,6 +6,6 @@ unlock:
   - area: Remtravel's Excavation (Darkshore)
 also: [darkshore, auberdine, explorers-league]
 ---
-Prospector Remtravel is a legend at the Explorers' League academy in Ironforge, a dwarf of great discoveries, and he is digging in the south of Darkshore for the fossils of the ancient world. He found them; he also found that the ground held golems of stone, which rose up and overran the site while he went on studying. His young assistant ran for help. Remtravel did not notice he needed it.
+Prospector Remtravel digs in southern Darkshore. His assistant Hollee remembers him as a celebrated explorer from the Ironforge academy, and as a man with very little awareness of what happens around him. When golems overran the excavation, she fled to Auberdine for help. He continued studying.
 
-His finds go to our League office in Darnassus, to Chief Archaeologist Greywhisker. I have seen one of them: a fossil from an age older than any people of this world, and I would walk into a field of golems for another.
+His mysterious fossil has drawn the attention of Chief Archaeologist Greywhisker in Darnassus. A resemblance to another find leads the enquiry on to Flagongut in Menethil Harbor. There is work for a traveller here both in carrying the evidence and in keeping the prospector alive long enough to consider it.

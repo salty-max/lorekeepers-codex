@@ -7,6 +7,6 @@ unlock:
   - area: Grove of the Ancients (Darkshore)
 also: [masters-glaive, darkshore, cenarion-circle]
 ---
-Onu is an Ancient of Lore, one of the great tree-spirits who have watched over the night elves' forests since before there were night elves, and he dwells in the Grove of the Ancients in the south of Darkshore. He speaks slowly, and he does not waste words on the young.
+Onu, an Ancient of Lore, stands in the Grove of the Ancients in southern Darkshore. He asks travellers to investigate the Master’s Glaive, where the Twilight’s Hammer searches among the remains of a fallen power. Onu believes that something of its strength may still be found there, long after its death.
 
-He has been watching the troubles of the coast: the naga in the falls, the Twilight's Hammer at the Master's Glaive, the old powers they pray to. He knows more than he tells. I count it one of the honours of my life that he once let me sit in his shade and ask him three questions, and answered two.
+He supplies a phial that creates a scrying bowl, allowing him to speak with the person carrying out his investigation. Take it with you, traveller. An Ancient need not walk to the Glaive to take an interest in what the cult discovers there.

@@ -944,10 +944,37 @@ The user's order: the peoples first, then the starting zones, then outwards.
    Searing Gorge, the Burning Steppes, Blackrock Mountain, the Blasted Lands,
    Deadwind Pass, Feralas, Tanaris, Un'Goro, Silithus, Azshara, Felwood,
    Winterspring, Moonglade.
-7. ✅ **Full review** of every page: unlock ids against their names, and every
+7. ✅ **Initial review** of every page: unlock ids against their names, and every
    page reread for era (nothing after vanilla and the pre-WotLK novels),
    unsupported claims and contradictions between pages.
 
 Each wave: ids checked on Wowhead Classic, every fact against the Warcraft
 Wiki and the game's own quest texts (vanilla only: the wiki mixes in later
 retellings), the ❓ resolved, then a release.
+
+## Independent lore audit — 5 October 2026
+
+All 344 entries (335 pages and nine forewords) and 42 chapter summaries were
+read again. The [review report](docs/lore-review.md) and
+[coverage ledger](docs/lore-review.json) supersede the initial review as the
+record of source evidence. Corrections address later-era material, mistaken
+identities and locations, quest outcomes, contradictions and invented
+narrator testimony. The ledger separates reviewed entries from specific
+primary-source gaps; writing completion does not certify every lore claim.
+
+No release was made as part of this documentation audit.
+
+The [web follow-up](docs/lore-gap-follow-up.md) resolves thirteen source gaps with
+original passages or corrections. Timber’s factual identity is verified; its
+original hunter tale is retained as flavour text at the user’s explicit request,
+without an in-entry label. No canonical backstory was found.
+
+## Voice rework — 5 October 2026
+
+All 344 entries were considered in chapter-sized chunks: 161 reworked and 183
+retained for their existing voice. The [voice review](docs/voice-review.md) and
+[decision ledger](docs/voice-review.json) record every entry. The approved Timber,
+Thandol Span and Tirion samples were adopted. Headers, saved entry IDs and
+unlock rules were preserved, as were the lore audit’s corrections and source
+qualifications. Chapter summaries were left as reviewed. The final sweep
+checked cadence, uncertainty and cross-entry consistency. No release was made.

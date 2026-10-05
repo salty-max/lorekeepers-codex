@@ -7,6 +7,6 @@ unlock:
   - kill: 667, 669, 670, 672, 696, 756, 780, 781, 782, 783, 784
 also: [gurubashi-empire, gromgol-base-camp]
 ---
-Two Gurubashi tribes hold the jungles of Stranglethorn: the Bloodscalp in the north-west, the Skullsplitter in the centre, around the ruins of their ancestors' cities. They are the empire's heirs, and they behave like it: they raid, take heads, and make trophies of their enemies. They hate each other almost as much as they hate everyone else.
+The Bloodscalp hold north-western Stranglethorn; the Skullsplitter occupy the central jungle. Both live among the ruins of their Gurubashi ancestors. Their headhunters range through the north, taking heads and trophies, and the two tribes regard one another with considerable hostility.
 
-Each has its chief and its witch doctor, and their headhunters roam the whole north of the jungle. The Bloodscalp have taken a Darkspear prisoner, a chief's son given to Zul'Gurub long ago, and the Darkspear want him back.
+Nimboya suspects the Bloodscalp of holding Yenniku, his chief’s youngest son. The search leads elsewhere: Zanzil the Outcast has him under magical control. Follow that distinction, traveller. The first enemy named in an investigation is not always the one responsible.

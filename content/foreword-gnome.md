@@ -5,10 +5,10 @@ kind: note
 race: Gnome
 unlock: always
 ---
-Traveller, this ledger was bound for one of the gnomes, and I write the first page of it with some care. Your city still stands beneath the snows of Dun Morogh, and you cannot go home.
+Traveller, I have written this first page for a gnome with some care. Gnomeregan still lies beneath Dun Morogh, and your people cannot yet return to it. A ledger of old places ought to recognise that some losses are still being lived through.
 
-Ironforge has given your people a corner of its halls, and you have filled it with more noise and cleverness than the mountain has heard in a thousand years. We are honoured, mostly. The League keeps a shelf for Gnomeregan, and one day I hope to close it with a happier entry than the last.
+Ironforge has offered your people shelter. You have brought ingenuity and a considerable quantity of noise into our halls; we are glad of the company, with occasional reservations about the noise. The account of Gnomeregan is here, along with the country its exiles now share.
 
-Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home.
+Read these pages wherever your work takes you. I hope the entry about your home will one day need a happier addition. Until then, its history belongs beside the inventions and errands that may help you recover it.
 
-*An archivist of the Explorers' League, Hall of Explorers, Ironforge*
+*An archivist of the Explorers’ League, Hall of Explorers, Ironforge*

@@ -7,8 +7,6 @@ unlock:
   - area: The Grizzled Den
 also: [dun-morogh]
 ---
-In the caves of Dun Morogh, the Grizzled Den above all, live the wendigos: big, shaggy and strong enough to break a dwarf in two, and they come out when hunger gets the better of them.
+The Grizzled Den offers shelter from Dun Morogh’s snow, provided you can persuade its wendigos to share it. A courier who fled them left a shipment of ammunition behind. The creatures made the stronger argument.
 
-They are cleverer than they look and they hunt together. Mountaineers learn early to tell their tracks from those of a bear, and to turn back when they see them.
-
-In the deepest part of the Grizzled Den lives the oldest of them, Old Icebeard. Those who have seen him tend to stop describing him halfway through.
+Pilot Stonegear wants their manes for a rug inside his siege engine, Trollplow. Even machinery needs a little comfort in this country, traveller. Retrieving the ammunition and furnishing the engine both require getting rather closer to a wendigo than the courier cared to stay.

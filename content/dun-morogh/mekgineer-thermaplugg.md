@@ -7,8 +7,8 @@ unlock:
   - quest: 2929
 also: [gnomeregan, high-tinker-mekkatorque, leper-gnomes, rockjaw-troggs, dark-iron-dwarves]
 ---
-Sicco Thermaplugg was High Tinker Mekkatorque's trusted adviser, one of the cleverest engineers in Gnomeregan, and it was his counsel the High Tinker took when the troggs overran the city: flood it with radiation and kill them all. The radiation killed the troggs. It killed a great many gnomes too, and the survivors fled to Ironforge.
+Sicco Thermaplugg remains in Gnomeregan while High Tinker Mekkatorque leads its exiles from Ironforge. The High Tinker once trusted him. That trust has ended in a charge of betrayal and a request for his death.
 
-Thermaplugg did not flee. He stayed in the poisoned halls with the leper gnomes the radiation had left behind, and has made himself master of what remains, a mad king of an empty city. The troggs are still there with him, and lately the Dark Iron dwarves have been seen in the depths as well, which no gnome likes the sound of.
+The radiation released in the city failed to eradicate the troggs and devastated its gnomish inhabitants. Thermaplugg rules in the ruins, among the creatures the attempt was meant to destroy and the survivors it left behind.
 
-Mekkatorque says plainly now that Thermaplugg betrayed him and all his people. He wants the city back, and he wants the traitor dead. I have heard him call Thermaplugg the king of nothing, which is the angriest thing I have ever heard a gnome say.
+Mekkatorque asks adventurers to carry his judgement into those halls. It is a bitter errand, traveller: the man who has made himself king occupies the home his former countrymen are struggling to reclaim.

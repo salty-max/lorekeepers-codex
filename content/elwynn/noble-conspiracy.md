@@ -7,8 +7,8 @@ unlock:
   - quest: 434
 also: [defias-brotherhood, si-7, the-stockade]
 ---
-Among the papers on Edwin VanCleef's body was a letter, sealed and never sent, addressed to the City Architect of Stormwind. It led, by way of the Stockade and a prisoner named Bazil Thredd, to a visitor who had come to see Thredd once or twice a week, under a false name, and from him to a man called Marzon the Silent Blade.
+A sealed letter found on Edwin VanCleef’s body began the investigation. Addressed to Stormwind’s City Architect, it led to Bazil Thredd in the Stockade, then to a visitor who had called on the prisoner under a false name. The trail eventually reached Marzon the Silent Blade.
 
-Marzon answered to Lord Gregor Lescovar, a noble of the House, who had been passing the Brotherhood the secrets of the court. A lord so well connected was beyond the reach of any law. So SI:7's friends arranged a meeting in the castle gardens, and Lescovar and his blade did not leave it.
+Marzon served Lord Gregor Lescovar, a noble passing court secrets to the Defias Brotherhood. Bringing so well-connected a man to justice presented difficulties. SI:7’s friends arranged a meeting in the castle gardens; Lescovar and Marzon were killed there.
 
-The masons were wronged by the nobles. It is worth remembering that at least one noble was wronging the kingdom in return.
+The Brotherhood began with the nobles’ refusal to pay the masons who rebuilt Stormwind. Keep Lescovar in the account too, traveller. One of those nobles was helping the enemies his own city now had to fight.

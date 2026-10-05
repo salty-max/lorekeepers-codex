@@ -6,6 +6,6 @@ unlock:
   - area: The Stockade
 also: [defias-brotherhood, noble-conspiracy, stormwind-city]
 ---
-The Stockade is the prison of Stormwind, dug into the rock beneath the canals, and for most of its life it has been a dull place. That changed when the Defias were caught and sent there in numbers. VanCleef's lieutenant, Bazil Thredd, was among them, and under his hand the inmates rose, took the cells and held them.
+Stormwind’s prison lies beneath its canals, cut into the rock below the city. Among the Defias confined there was Edwin VanCleef’s lieutenant, Bazil Thredd. Under his leadership the inmates rose and took control of the cells.
 
-The Warden asked for help, and got it from the kind of adventurers who do not ask too many questions about who they are killing. Among the rioters was an orc named Targorr the Dread, and the city has slept better since he stopped.
+The Warden called for adventurers to put down the revolt. Thredd was not the only dangerous prisoner within: the orc Targorr the Dread was among the rioters. It is an uncomfortable place to have an enemy stronghold, traveller, underneath the streets of your own capital.

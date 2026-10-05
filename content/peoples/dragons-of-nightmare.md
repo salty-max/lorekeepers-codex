@@ -11,6 +11,6 @@ unlock:
   - area: Bough Shadow
 also: [cenarion-circle]
 ---
-The green dragons belong to Ysera, the Dreamer, and their charge is the Emerald Dream: the world as it might have been, untouched, where the druids walk in their sleep. Four of Ysera's greatest lieutenants, Ysondre, Lethon, Emeriss and Taerar, were set to guard the four portals to the Dream that stand in the great trees of Azeroth: in Duskwood, the Hinterlands, Feralas and Ashenvale.
+Ysera’s green dragons guard the Emerald Dream, the unspoiled world through which sleeping druids travel. Four lieutenants watched its great tree portals: Ysondre, Lethon, Emeriss and Taerar, stationed in Duskwood, the Hinterlands, Feralas and Ashenvale.
 
-Something has gone wrong in the Dream. The druids call it the Nightmare, and it has taken those four. They have come out of the portals twisted, and they attack anyone who comes near; Emeriss rots, Taerar splits into shades of himself, Lethon drinks the spirits of the fallen. Keeper Remulos in Moonglade has been gathering fragments of the corruption from each portal, and I gather the news is not good.
+The Nightmare has taken them. They emerge twisted and attack those who approach. Emeriss spreads rot, Taerar divides into shades, and Lethon draws out the spirits of the fallen. Remulos gathers fragments of corruption from the portals to investigate. A traveller reaching one of these trees may find the very guardian who should have made it safe has become its danger.

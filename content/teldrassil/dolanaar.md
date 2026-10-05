@@ -6,6 +6,6 @@ unlock:
   - area: Dolanaar
 also: [teldrassil, sickness-of-teldrassil]
 ---
-Dolanaar is the village on the road between Shadowglen and Darnassus: a moonwell, an inn and a few graceful buildings among the trees, where the druids and sentinels of the forest gather to compare their troubles. Lately they have had plenty to compare: the furbolgs gone mad, satyrs in the caves, sick creatures in the woods.
+Dolanaar lies on the road from Shadowglen to Darnassus, gathered around a moonwell with an inn and buildings among the trees. Druids and Sentinels work here close to the forest’s troubles. It is a useful stopping place before a traveller continues to the capital.
 
-It is a good place to listen. The night elves are reserved with strangers, but in Dolanaar, over a cup of moonberry juice, they say a little more than they mean to.
+Lately their concerns include the Gnarlpine furbolgs, satyrs in the caves and sick creatures in the woods. The village’s quiet appearance offers little measure of that work. Listen to what its keepers ask of you; they have watched the change in the country around them.

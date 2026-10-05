@@ -4,9 +4,8 @@ title: The Ravencrest Monument
 kind: history
 unlock:
   - area: Ravencrest Monument
-  - kill: 6118
 also: [the-sundering, azshara, naga]
 ---
-On the southern cliffs of Azshara, above the sea, stand the broken legs of a colossus: all that is left of a great statue. The monument bears the name of Lord Kur'talos Ravencrest, the lord of Black Rook Hold, who led the night elves against the demons in the War of the Ancients. The naga have taken the ruins, and the rest of the statue lies scattered or under the waves.
+The broken legs of a great statue stand on Azshara’s southern cliffs. The place is called Ravencrest Monument; naga occupy the ruins, and the remainder of the colossus lies scattered or beneath the sea. Even what is left makes a substantial landmark.
 
-He has company. Among the ruins walks the ghost of Captain Varo'then, the commander of Queen Azshara's guard, who served her and the demons in that war, and whom Malfurion Stormrage slew. Ten thousand years on, the queen's captain still haunts the monument of the queen's enemy.
+Lord Kur’talos Ravencrest commanded night elf resistance in the War of the Ancients from Black Rook Hold. His name recalls those who opposed Azshara and the Legion. Keep them in the history of these shores too, traveller. The queen’s court was not the whole of the people whose world was destroyed.

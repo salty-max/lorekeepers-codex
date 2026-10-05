@@ -7,6 +7,6 @@ unlock:
   - npc: 6768
 also: [syndicate, alterac-mountains]
 ---
-Hidden in the hills above Hillsbrad, where you will not find it unless it wants you to, stands Ravenholdt Manor, the house of the Assassins' League and its master, Lord Jorach Ravenholdt. It is a school for thieves and killers, and a very good one, and it chooses its students: they do not apply, they are invited.
+Ravenholdt Manor lies hidden in the hills above Hillsbrad. Lord Jorach Ravenholdt directs the Assassins’ League from it, training thieves and killers whom the house selects for itself. Prospective students receive invitations; an application would be an unusual way to announce your talents here.
 
-Ravenholdt has been fighting the Syndicate for years, and its masters despise them as hacks and amateurs. They have found the best way to hurt the Syndicate is to steal its emblems, since a Syndicate man who loses his is dealt with by his own. I have never been invited to the manor. I have, however, been watched.
+The League has long opposed the Syndicate, whose members it regards as amateurs. Stealing their emblems is a useful part of the quarrel: a Syndicate man who loses his can expect punishment from his own side. If the manor offers you work, traveller, expect it to test more than your skill with a blade.

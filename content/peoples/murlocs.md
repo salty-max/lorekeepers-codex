@@ -11,8 +11,6 @@ unlock:
   - kill: 4461, 4818, 7015, 10323
 also: [naga, darkspear-trolls]
 ---
-No people in this ledger is harder to write about than the murlocs, because no one has ever had a conversation with one. They are fish-men of the coasts and lakes, with wide mouths, many teeth and a gurgling cry you will hear before you see them, and they live in crowded villages of huts and nets along almost every shore of both continents.
+Murloc huts and fishing nets line shores on both continents, from Elwynn’s waters to Darkshore. Hunters and oracles occupy their settlements, often attacking those who approach. A traveller can meet several tribes without learning much of the history behind their presence.
 
-They are newcomers to the land, or so the old accounts say. A generation ago they kept to the sea; now they are moving inland, up the rivers and into the lakes, and some scholars believe the movement is no accident. The naga have been rising from the deep in the same years, and there are whispers that the murlocs answer to them, or to something older still that sleeps in the ocean's dark. I have no proof of it. I note only that a murloc oracle is a stranger thing than a murloc ought to be.
-
-Whatever they are, they were the making of the Horde, in a way: it was a murloc host, serving a sea witch, that Thrall drove off the Darkspear islands, and the Darkspear have been his allies ever since.
+One tribe had a decisive part in the new Horde’s journey. Murlocs serving a sea witch captured trolls and orcs on the Darkspear islands. Thrall’s followers fought their way free; Sen’jin died, and the surviving Darkspear sailed with them to Kalimdor. That alliance began beside a shore defended by murlocs, long before it had a home in Durotar.

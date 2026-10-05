@@ -7,8 +7,6 @@ unlock:
   - area: Angerfang Encampment
 also: [grim-batol, red-dragonflight, nekrosh]
 ---
-In the Second War, the orcs of the Dragonmaw clan did what no one had done before: they rode dragons into battle. Their secret was cruelty. They held the dragon queen Alexstrasza captive at Grim Batol and used her children as beasts of war.
+The Dragonmaw rode red dragons into battle in the Second War. At Grim Batol they held Alexstrasza captive and forced her children to serve the Horde. Their mastery of the sky rested on the imprisonment of a mother and her young.
 
-When the dragons were freed, the Dragonmaw were broken, but not destroyed. Their remnants still hold the hills of the Wetlands, raiding the roads and dreaming of the days when the sky belonged to them.
-
-They are not the orcs of the new Horde. They are what is left of the old one, and they have not changed their ways.
+The dragons’ liberation broke the clan’s strength, but Dragonmaw remnants still hold the hills of the Wetlands and raid its roads. These are survivors of the old Horde, rather than followers of the new one. If you meet them, traveller, remember what their former victories required.

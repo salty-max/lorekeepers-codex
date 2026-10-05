@@ -7,6 +7,6 @@ unlock:
   - area: Mirage Raceway
 also: [thousand-needles, steamwheedle-cartel]
 ---
-The Shimmering Flats are a great salt pan in the east of Thousand Needles, flat, white and blinding, and the goblins and the gnomes have made it the home of the Mirage Raceway: a long oval track where the two peoples race rocket cars against each other, with crowds, bookmakers and a great many crashes.
+The Shimmering Flats are a broad salt pan in eastern Thousand Needles, white enough to dazzle a traveller’s eyes. Goblins and gnomes have built the Mirage Raceway across it. Their rocket cars circle the track before crowds and bookmakers, with frequent interruptions for crashes.
 
-The rivalry is old and good-natured, mostly. The goblins' team is on its eighteenth pilot; the gnomes keep improving their fuel regulators; and the wreckage of past races litters the flats for miles, worth good money to anyone who cares to collect it. I watched a race once. I have never heard a noise like it, and I live in Ironforge.
+Wreckage supplies Kravel Koalbeard with parts to sell back to the teams. The Brassbolts brothers need helmets for their pilots. A race produces winners, losers and a useful quantity of salvage; the people working beside the track have found occupations in all three.

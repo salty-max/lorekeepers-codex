@@ -5,10 +5,10 @@ kind: note
 race: Dwarf
 unlock: always
 ---
-Traveller, if this ledger has found its way into your pack, then the Hall of Explorers has judged you worth the ink.
+Traveller, welcome to this ledger of Azeroth. I have begun with the country around Ironforge, where a dwarf may know every road and still have questions about the stones beside it.
 
-The League records everything: the stones our ancestors cut, the names of the clans, the wars that broke them and the roads that bound them together again. Most of it sleeps in the vaults beneath Ironforge, where no one reads it. Better that it should travel.
+The pages follow our clans, the wars that divided them, and the older works the League is trying to understand. They follow other peoples too. Our history has crossed theirs often enough that a book confined to dwarves would leave much unexplained.
 
-Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home.
+Carry it with you, and read a page when a place gives you reason to pause. A ruin is easier to notice than the life it once sheltered. Both deserve a place in the record.
 
-*An archivist of the Explorers' League, Hall of Explorers, Ironforge*
+*An archivist of the Explorers’ League, Hall of Explorers, Ironforge*

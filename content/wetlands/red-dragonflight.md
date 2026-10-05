@@ -6,8 +6,6 @@ unlock:
   - kill: 1045, 1046, 1047, 1048, 1049, 1050 # the dragonkin of Grim Batol
 also: [grim-batol, dragonmaw-clan, black-dragonflight]
 ---
-The red dragons belong to Alexstrasza, whom the old tales call the Life-Binder. They are among the oldest and greatest powers in the world, and the orcs of the Dragonmaw once held them in chains.
+Alexstrasza is called the Life-Binder, queen of the red dragons and one of the world’s oldest powers. During the Second War, the Dragonmaw held her captive at Grim Batol and forced her children into their service. The flight has since been freed.
 
-They are free now, but some of them have not left Grim Batol, the place of their captivity. Dragonkin of the red flight walk its halls and guard its gates, and they treat any intruder as an enemy.
-
-If you have fought them and lived, you have done something few in the League can claim. Do not make a habit of it.
+Red dragonkin still guard the approaches to Grim Batol. They treat intruders as enemies, whatever business those intruders believe brings them there. Keep your distance, traveller. Knowing what happened to them here does not make an intruder welcome.

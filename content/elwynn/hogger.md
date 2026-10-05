@@ -6,6 +6,6 @@ unlock:
   - kill: 448
 also: [gnolls, goldshire]
 ---
-The Riverpaw gnolls have many chiefs, but only one of them has his face on every wanted poster in Elwynn. Hogger is bigger than his kin, stronger, cleverer and a great deal meaner, and from his hill in the south-west of the forest he leads the raids that have the farmers of Elwynn barring their doors.
+The wanted notice at Westbrook Garrison describes Hogger as a huge gnoll, camped to the south in south-western Elwynn. He belongs to the Riverpaw, and the Stormwind guards have been unable to capture him. A reward is offered for his claw.
 
-Marshal Dughan of Goldshire will pay well for proof that he is dead. Many young heroes have gone to collect, and a fair number of them have come back carried.
+The notice advises bringing a group. Follow that advice, traveller. A guard’s admission that he needs help is more useful than an adventurer’s confidence that he does not.

@@ -6,6 +6,6 @@ unlock:
   - area: Ruins of Andorhal
 also: [cult-of-the-damned, scourge, fall-of-lordaeron, chillwind-camp]
 ---
-Andorhal was a prosperous town, the grain hub of northern Lordaeron, and it was here that the plague began. The Cult of the Damned under Kel'Thuzad tainted the town's granaries, and the grain was shipped out to the villages of the north. Everyone who ate of it died, and everyone who died rose again.
+Andorhal supplied grain to northern Lordaeron. Kel’Thuzad’s Cult of the Damned tainted its granaries, and the shipments carried the plague into the villages beyond. A prosperous town became a means of spreading death through the country that depended on it.
 
-Prince Arthas came to Andorhal hunting the plague's source, and killed Kel'Thuzad here; it was not the end of the necromancer, as the world has since learned. The town has been the Scourge's ever since. A lich, Araj the Summoner, rules its ruins now, and both the Alliance at Chillwind and the Forsaken at the Bulwark mean to destroy him.
+Arthas killed Kel’Thuzad here while pursuing the plague’s source. The necromancer’s death did not end his work. Andorhal remains in Scourge hands, its ruins ruled by Araj the Summoner. Both Chillwind Camp and the Bulwark seek the lich’s destruction. If you enter the town, traveller, you are following a struggle that its granaries helped begin.

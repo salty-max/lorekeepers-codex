@@ -6,8 +6,8 @@ unlock:
   - area: Deeprun Tram
 also: [ironforge, gnomeregan-exiles]
 ---
-A tunnel deep beneath the mountains, from Ironforge all the way to Stormwind, and carriages running along it on rails. The gnomes built it after the Second War, and when they first proposed it, half of Ironforge laughed. The laughing stopped when the first tram arrived.
+The Deeprun Tram carries passengers between Ironforge and Stormwind on moving platforms beneath the earth. It has reduced a journey of days to a matter of minutes. Even a dwarf fond of walking can appreciate that achievement.
 
-It is the finest thing gnomes and dwarves have ever built together, and the plainest proof of the friendship between Ironforge and Stormwind. A journey that once took days now takes minutes.
+The tunnel gives our friendship with Stormwind a practical form: two capitals joined by a route that spares their travellers the long road overland. Gnomish ingenuity has saved a great many pairs of boots.
 
-Part of the way runs through a great lake deep under the earth, behind walls you can see through. Look out of the window as you pass. Some say they have seen something large looking back.
+Watch the windows where the tunnel passes through water, traveller. Some passengers say they have seen something large looking back. You should have time for a glance before the platform carries you on.

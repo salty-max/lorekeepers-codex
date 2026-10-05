@@ -6,6 +6,6 @@ unlock:
   - npc: 264
 also: [darkshire, morladim, duskwood]
 ---
-When Stormwind took its commissioned guards out of Duskwood, the people of Darkshire raised their own. The Night Watch is a militia of townsfolk under Commander Althea Ebonlocke, and it holds the road through the forest and the gates of the town against everything the darkness sends at them: the dead of Raven Hill, the worgen, the ogres and worse.
+Commander Althea Ebonlocke leads the Night Watch, the militia Darkshire raised after Stormwind withdrew its commissioned guards. The townsfolk defend their road and gates against Raven Hill’s dead, the worgen, the ogres, and whatever else comes out of the forest.
 
-They are not soldiers, most of them, and they are stretched very thin. But they have kept Darkshire alive. Among them serves a young woman named Sarah Ladimore, whose father's story you will find elsewhere in these pages.
+Most are not soldiers, and there are too few of them. They have nevertheless kept Darkshire alive. Sarah Ladimore serves among them; her father’s history is elsewhere in this ledger. If the Watch asks for your help, traveller, it is a town’s people asking you to share the work of keeping their home.

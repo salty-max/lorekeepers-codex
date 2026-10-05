@@ -6,7 +6,7 @@ unlock:
   - area: Dun Morogh
 also: [kharanos, ironforge, frostmane-trolls]
 ---
-Snow nine months of the year, and the other three are not much better. Dun Morogh is the high country around Ironforge, and every dwarf of the Bronzebeard clan learns to walk on its ice before learning to walk anywhere else.
+Dun Morogh is the snowy high country around Ironforge, home to the dwarves of the Bronzebeard clan and their gnomish neighbours.
 
 It is ours, but we share it, and not always by choice. The Frostmane trolls keep the western hills, troggs dig where they please, and since the fall of Gnomeregan the gnomes have been our neighbours in their own valleys as well as in our city.
 

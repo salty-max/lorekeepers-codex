@@ -9,8 +9,8 @@ unlock:
   - quest: 476
 also: [teldrassil, furbolgs, satyrs, fandral-staghelm]
 ---
-Teldrassil was grown without the blessing of the Aspects: of Alexstrasza the Life-Binder, who blessed Nordrassil long ago, and of Nozdormu the Timeless, who gave the night elves their endless years through it. The druids of Dolanaar say so plainly, and they say what has followed: strange beasts rising out of the ground of the tree, and creatures driven mad.
+Teldrassil lacks the blessings that Alexstrasza and Nozdormu once gave Nordrassil. The druids of Dolanaar speak plainly about this, and about the troubles of the new tree: strange beasts rise from its ground, and creatures once friendly have turned violent.
 
-The Gnarlpine furbolgs were friends of the night elves until a fel moss took hold of their chieftain, Ursal the Mauler, and through him of the tribe; now they raid the villages they once traded with. Even the timberlings have turned: one, Blackmoss, is so overgrown with the dark moss that his heart, cut out, still beats beneath it. A satyr lord has made a nest of the cave called Fel Rock. And in the Ban'ethil Barrow Den, where the Druids of the Talon sleep in the Emerald Dream under a pact with Ysera, their warden has gone quiet.
+Fel moss took hold of Ursal the Mauler and spread through his Gnarlpine tribe. Blackmoss the timberling is so overgrown that his severed heart still beats beneath the dark growth. A satyr lord occupies Fel Rock. In Ban’ethil, where Druids of the Talon sleep in the Emerald Dream under their pact with Ysera, the warden has fallen silent.
 
-The druids are working on it, and Fandral Staghelm has his remedies. No one in Darnassus will say aloud that the tree itself might be sick. The furbolgs, I notice, are not the only ones who have stopped saying things aloud.
+Fandral acknowledges the problems and has remedies to offer. Other druids continue their investigations. Bring them what you find, traveller. A tree large enough to shelter a people is also rather large for its keepers to examine.
