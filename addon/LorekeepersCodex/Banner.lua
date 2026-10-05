@@ -148,12 +148,24 @@ local function setUpAchievement(frame, id)
 end
 
 -- The toast systems, made on first use, where the client has them.
+-- The achievement toast's points shield runs AchievementShield_OnLoad, from
+-- the game's achievement window, which the game loads only when first opened:
+-- load it (as the game does before its own toasts), or use our banner.
+local function shieldReady()
+  if AchievementShield_OnLoad then return true end
+  local load = (C_AddOns and C_AddOns.LoadAddOn) or LoadAddOn
+  if load then pcall(load, "Blizzard_AchievementUI") end
+  return AchievementShield_OnLoad ~= nil
+end
+
 local function toasts()
   if pageToasts then return true end
   if not (AlertFrame and AlertFrame.AddQueuedAlertFrameSubSystem and C_XMLUtil and C_XMLUtil.GetTemplateInfo) then return false end
-  if not (C_XMLUtil.GetTemplateInfo(PAGE_TOAST) and C_XMLUtil.GetTemplateInfo(ACHIEVEMENT_TOAST)) then return false end
+  if not C_XMLUtil.GetTemplateInfo(PAGE_TOAST) then return false end
   pageToasts = AlertFrame:AddQueuedAlertFrameSubSystem(PAGE_TOAST, setUpPage, 2, 6)
-  achievementToasts = AlertFrame:AddQueuedAlertFrameSubSystem(ACHIEVEMENT_TOAST, setUpAchievement, 2, 6)
+  if C_XMLUtil.GetTemplateInfo(ACHIEVEMENT_TOAST) and shieldReady() then
+    achievementToasts = AlertFrame:AddQueuedAlertFrameSubSystem(ACHIEVEMENT_TOAST, setUpAchievement, 2, 6)
+  end
   return true
 end
 
@@ -174,7 +186,7 @@ end
 function ns.showAchievementBanner(id)
   local a = ns.achievementById[id]
   if not ns.option("banner") or not a then return end
-  if toasts() then
+  if toasts() and achievementToasts then
     achievementToasts:AddAlert(id)
     return
   end

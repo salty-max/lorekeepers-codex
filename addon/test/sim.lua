@@ -541,6 +541,9 @@ C_XMLUtil = { GetTemplateInfo = function() return {} end }
 local durations = {}
 AlertFrame_SetDuration = function(frame, seconds) durations[frame] = seconds end
 AlertFrame_OnClick = function(_, button) return button == "RightButton" end
+-- The shield's OnLoad lives in the game's achievement window, loaded on demand.
+local loaded = {}
+C_AddOns = { LoadAddOn = function(name) loaded[name] = true; AchievementShield_OnLoad = function() end end }
 LorekeepersCodexSettings.banner = true
 ns.hideBanner()
 local pid
@@ -557,6 +560,7 @@ ns.showAchievementBanner("pages-10")
 local ach = toasts.AchievementAlertFrameTemplate.shown[1]
 check(ach and ach.Name.text == ns.achievementById["pages-10"].title and ach.Unlocked.text == "Codex achievement" and not ach.Shield.shown,
   "an achievement shows the game's achievement toast, with no points")
+check(loaded.Blizzard_AchievementUI, "… having loaded the game's achievement window first (its shield needs it)")
 AlertFrame, C_XMLUtil = nil, nil
 
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")
