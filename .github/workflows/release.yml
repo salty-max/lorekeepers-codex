@@ -33,11 +33,11 @@ jobs:
           git tag -l --format='%(contents)' "$TAG" | sed '/^-----BEGIN PGP SIGNATURE-----/,$d' > notes.md
           [ -s notes.md ] || { echo "::error::tag $TAG has no message (release notes)"; exit 1; }
           gh release create "$TAG" --title "$TAG" --notes-file notes.md dist/LorekeepersCodex-classic.zip dist/LorekeepersCodex-forever.zip
-      - name: Upload to CurseForge
-        if: ${{ vars.CURSEFORGE_PROJECT_ID != '' }}
-        env:
-          CF_API_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
-          CF_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
-        run: |
-          scripts/curseforge-upload.sh dist/LorekeepersCodex-classic.zip notes.md
-          scripts/curseforge-upload.sh dist/LorekeepersCodex-forever.zip notes.md
+
+  # Then CurseForge, once the project exists (see curseforge.yml).
+  curseforge:
+    needs: release
+    uses: ./.github/workflows/curseforge.yml
+    with:
+      tag: ${{ github.ref_name }}
+    secrets: inherit
