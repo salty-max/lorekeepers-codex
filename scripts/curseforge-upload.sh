@@ -40,7 +40,7 @@ METADATA=$(jq -n \
 echo "Uploading $ZIP (game versions ${IDS[*]})"
 # --fail-with-body: on an error, CurseForge's answer says why.
 curl -sS --fail-with-body -H "X-Api-Token: $CF_API_TOKEN" \
-  -F "metadata=$METADATA" \
+  --form-string "metadata=$METADATA" \
   -F "file=@$ZIP" \
   "$API/projects/$CF_PROJECT_ID/upload-file"
 echo
