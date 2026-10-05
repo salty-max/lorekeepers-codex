@@ -8,6 +8,6 @@ unlock:
   - kill: 15308, 15541, 15542
 also: [silithid]
 ---
-Cho’gall’s Twilight’s Hammer began as an orc clan in the Second War, led by a two-headed ogre mage. It fought in the belief that the world should end. The old Horde’s defeat left that purpose alive in a cult with followers from many peoples.
+Cho'gall's Twilight's Hammer began as an orc clan in the Second War, led by a two-headed ogre mage. It fought in the belief that the world should end. The old Horde's defeat left that purpose alive in a cult with followers from many peoples.
 
-The cult worships the Old Gods, ancient powers beneath the earth. Its members serve a horror in Blackfathom Deeps, gather at idols in the Searing Gorge and summon elemental lords in Silithus. Wherever you find their camps, traveller, remember the destruction their name first promised; their changed membership has not made that history reassuring.
+The cult worships the Old Gods, ancient powers beneath the earth. Its members serve a horror in Blackfathom Deeps, gather at idols in the Searing Gorge and summon elemental lords in Silithus.

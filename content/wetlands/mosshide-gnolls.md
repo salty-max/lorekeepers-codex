@@ -7,6 +7,6 @@ unlock:
   - area: Mosshide Fen
 also: [wetlands, gnolls]
 ---
-Mosshide gnolls live in the Wetlands, including the fen that bears their name. Rethiel the Greenwarden says they dwelt peacefully in the region for years. Now, he says, their growing numbers are damaging the marsh’s vegetation.
+Mosshide gnolls live in the Wetlands, including the fen that bears their name. Rethiel the Greenwarden says they dwelt peacefully in the region for years. Now, he says, their growing numbers are damaging the marsh's vegetation.
 
-He asks adventurers to kill Mosshide near Dun Algaz. Keep his earlier words in mind, traveller, as well as his request. By the Greenwarden’s own account, these neighbours have not always been enemies.
+He asks adventurers to kill Mosshide near Dun Algaz. Keep his earlier words in mind, traveller, as well as his request. By the Greenwarden's own account, these neighbours have not always been enemies.

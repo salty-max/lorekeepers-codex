@@ -10,6 +10,6 @@ unlock:
   - kill: 5258, 10991
 also: [kobolds, defias-brotherhood, mosshide-gnolls, hogger]
 ---
-The Riverpaw raid Elwynn and Westfall; the Mosshide occupy the Wetlands. These packs have different histories. Hogger’s wanted notice warns that he is too dangerous for a lone hunter, while Rethiel’s account says the Mosshide once lived peacefully beside their neighbours.
+The Riverpaw raid Elwynn and Westfall; the Mosshide occupy the Wetlands. These packs have different histories. Hogger's wanted notice warns that he is too dangerous for a lone hunter, while Rethiel's account says the Mosshide once lived peacefully beside their neighbours.
 
-Some packs serve other powers. Redridge’s Shadowhide answer to Morganth, and Thule Ravenclaw commands the undead Rot Hide in Tirisfal and Silverpine. Across the sea, the Palemane hunt in Mulgore and the Woodpaw live in Feralas. Ask which pack you are facing, traveller. Its name will tell you more about the trouble ahead than a general opinion of gnolls.
+Some packs serve other powers. Redridge's Shadowhide answer to Morganth, and Thule Ravenclaw commands the undead Rot Hide in Tirisfal and Silverpine. Across the sea, the Palemane hunt in Mulgore and the Woodpaw live in Feralas. Ask which pack you are facing, traveller. Its name will tell you more about the trouble ahead than a general opinion of gnolls.

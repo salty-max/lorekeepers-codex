@@ -401,3 +401,16 @@ Complete: all 344 entries reviewed; 161 reworked and 183 deliberately retained. 
 | [The Ruins of Kel'Theril](../content/winterspring/ruins-of-keltheril.md) | retained | Retained: the failed ritual and ghost’s final remorse are told without unnecessary additions. |
 | [Starfall Village](../content/winterspring/starfall-village.md) | retained | Retained: the settlement’s work is made specific by the discovery about the wildkin. |
 | [Winterspring](../content/winterspring/winterspring.md) | retained | Retained: snow, springs and the valley’s distinct inhabitants already form a clear regional portrait. |
+
+## Follow-up — 5 October 2026
+
+- **Closing addresses trimmed.** After the rework, 68 entries ended on a
+  sentence addressed to the traveller (one did before). 43 lost that closing
+  sentence where it only advised or moralised; 13 kept it without the
+  address; 12 kept it as it was, where the line earns its place (Leper
+  Gnomes, Magni, Tirion, Moira, Blackwing Lair, Kazzak, the Deadmines, the
+  Farstrider Lodge, C'Thun, Eldarath, the Searing Gorge, the Greymane Wall).
+- **Onyxia's Lair** rewritten for flow, keeping the audited facts.
+- **Plain apostrophes.** The rework's curly apostrophes (142 entries) were
+  made straight again; the build now rejects non-ASCII text, and the book's
+  search treats both apostrophes alike.

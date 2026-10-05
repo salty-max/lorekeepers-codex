@@ -11,4 +11,4 @@ Stormwind was destroyed and rebuilt. Its new stonework is a great achievement, a
 
 Use the book as you travel. Towns, ruins and roads can tell you how a country came to be as you find it, provided someone keeps track of the people who made them.
 
-*An archivist of the Explorers’ League, Hall of Explorers, Ironforge*
+*An archivist of the Explorers' League, Hall of Explorers, Ironforge*

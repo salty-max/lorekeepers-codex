@@ -11,6 +11,6 @@ unlock:
   - kill: 4461, 4818, 7015, 10323
 also: [naga, darkspear-trolls]
 ---
-Murloc huts and fishing nets line shores on both continents, from Elwynn’s waters to Darkshore. Hunters and oracles occupy their settlements, often attacking those who approach. A traveller can meet several tribes without learning much of the history behind their presence.
+Murloc huts and fishing nets line shores on both continents, from Elwynn's waters to Darkshore. Hunters and oracles occupy their settlements, often attacking those who approach. A traveller can meet several tribes without learning much of the history behind their presence.
 
-One tribe had a decisive part in the new Horde’s journey. Murlocs serving a sea witch captured trolls and orcs on the Darkspear islands. Thrall’s followers fought their way free; Sen’jin died, and the surviving Darkspear sailed with them to Kalimdor. That alliance began beside a shore defended by murlocs, long before it had a home in Durotar.
+One tribe had a decisive part in the new Horde's journey. Murlocs serving a sea witch captured trolls and orcs on the Darkspear islands. Thrall's followers fought their way free; Sen'jin died, and the surviving Darkspear sailed with them to Kalimdor. That alliance began beside a shore defended by murlocs, long before it had a home in Durotar.

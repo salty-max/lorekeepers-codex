@@ -13,8 +13,8 @@ unlock:
   - kill: 15758, 15759, 15806, 15807, 15808, 15810, 15811, 15812, 15813, 15814, 15815, 15816, 15817, 15934
 also: [cenarion-circle, twilights-hammer]
 ---
-Silithid occupy vast hives beneath southern Kalimdor. Their wasps can be the size of hounds, their reavers as large as ogres, and their tunnelers powerful enough to collapse caves. Hives have appeared in the Barrens, Thousand Needles, Feralas, Tanaris and Un’Goro; Silithus holds the greatest concentration.
+Silithid occupy vast hives beneath southern Kalimdor. Their wasps can be the size of hounds, their reavers as large as ogres, and their tunnelers powerful enough to collapse caves. Hives have appeared in the Barrens, Thousand Needles, Feralas, Tanaris and Un'Goro; Silithus holds the greatest concentration.
 
-The qiraji of Ahn’Qiraj command them. A thousand years ago their swarms drove north in the War of the Shifting Sands, until night elves and dragons sealed the city behind the Scarab Wall. The Cenarion Circle believes an older power beneath Ahn’Qiraj directs both masters and servants.
+The qiraji of Ahn'Qiraj command them. A thousand years ago their swarms drove north in the War of the Shifting Sands, until night elves and dragons sealed the city behind the Scarab Wall. The Cenarion Circle believes an older power beneath Ahn'Qiraj directs both masters and servants.
 
-Movement around the hives now suggests preparation for a great expansion. The Circle watches closely. For a traveller studying these insects, the work includes finding out how far their tunnels and their masters’ purposes already reach.
+Movement around the hives now suggests preparation for a great expansion. The Circle watches closely. For a traveller studying these insects, the work includes finding out how far their tunnels and their masters' purposes already reach.

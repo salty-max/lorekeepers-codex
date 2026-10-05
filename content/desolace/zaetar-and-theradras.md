@@ -8,6 +8,6 @@ unlock:
   - quest: 7065
 also: [maraudon, centaurs, cenarion-circle, keeper-remulos]
 ---
-Zaetar was Cenarius’s son, a being of the forest. Theradras was a princess of elemental earth. Their union produced the centaurs, who killed their own father. Theradras laid him in Maraudon’s caverns, where his children still revere him and guard his tomb.
+Zaetar was Cenarius's son, a being of the forest. Theradras was a princess of elemental earth. Their union produced the centaurs, who killed their own father. Theradras laid him in Maraudon's caverns, where his children still revere him and guard his tomb.
 
-A druid of the Cenarion Circle waits near Shadowprey, seeking someone able to face Theradras and recover Zaetar’s remains. The centaurs’ sacred ground is also the resting place of a member of Cenarius’s family. Those histories meet in the same tomb, traveller, however differently its guardians and the druids regard it.
+A druid of the Cenarion Circle waits near Shadowprey, seeking someone able to face Theradras and recover Zaetar's remains. The centaurs' sacred ground is also the resting place of a member of Cenarius's family.

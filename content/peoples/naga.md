@@ -10,8 +10,8 @@ unlock:
   - kill: 7017, 7885, 7886, 8136, 10559, 12204, 12205, 12321
 also: [murlocs]
 ---
-The Sundering carried Azshara’s Highborne beneath the sea with their capital. They survived, changed into scaled beings with serpentine lower bodies, fins and, in some cases, four arms. They built a kingdom under the water. The old tales place their queen there still.
+The Sundering carried Azshara's Highborne beneath the sea with their capital. They survived, changed into scaled beings with serpentine lower bodies, fins and, in some cases, four arms. They built a kingdom under the water. The old tales place their queen there still.
 
-They returned to the surface during the Third War, when Lady Vashj led naga in Illidan’s service. Warbands now hold the Zoram Strand and drowned Blackfathom temple, the ruined coasts of Azshara and Darkshore, and shores in Feralas, Desolace and Dustwallow.
+They returned to the surface during the Third War, when Lady Vashj led naga in Illidan's service. Warbands now hold the Zoram Strand and drowned Blackfathom temple, the ruined coasts of Azshara and Darkshore, and shores in Feralas, Desolace and Dustwallow.
 
-The Highborne’s story did not end when their cities sank, traveller. Those same Highborne now contend for places along the continent’s coasts, changed as much as the land they once knew.
+The Highborne's story did not end when their cities sank, traveller. Those same Highborne now contend for places along the continent's coasts, changed as much as the land they once knew.

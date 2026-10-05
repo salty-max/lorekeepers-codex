@@ -663,3 +663,8 @@ The user approved retaining Timber’s original flavour text without an in-entry
 Source IDs and entry IDs were preserved except for the unrelated Varo’then kill trigger on Ravencrest Monument. Existing saved page IDs remain stable. NPC and quest trigger IDs were checked for record existence in the reconstruction; this does not certify the completeness of every faction’s creature list or every spawn location.
 
 `Content.lua` is regenerated from the corrected Markdown. The content builder, repository simulation, whitespace check and ledger coverage/hash comparison passed. These checks validate packaging and review coverage; they do not establish canonical accuracy. No addon behaviour was otherwise changed.
+
+## Follow-up corrections — 5 October 2026
+
+- **Sentinel Hill's inn restored.** Innkeeper Heather (Classic NPC 8931) stands
+  at Sentinel Hill (52.8, 53.4) in Vanilla, so the inn is not a later addition.

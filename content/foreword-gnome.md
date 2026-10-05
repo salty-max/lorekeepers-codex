@@ -11,4 +11,4 @@ Ironforge has offered your people shelter. You have brought ingenuity and a cons
 
 Read these pages wherever your work takes you. I hope the entry about your home will one day need a happier addition. Until then, its history belongs beside the inventions and errands that may help you recover it.
 
-*An archivist of the Explorers’ League, Hall of Explorers, Ironforge*
+*An archivist of the Explorers' League, Hall of Explorers, Ironforge*

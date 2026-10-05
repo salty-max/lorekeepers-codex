@@ -13,4 +13,4 @@ also: [scourge, cult-of-the-damned, royal-apothecary-society, chillwind-camp, th
 ---
 Eight plague cauldrons stand on the farms of the Plaguelands, four in the west and four in the east. Cauldron lords and the dead of the surrounding farmsteads guard them. Their fumes keep poisoning country that has already lost its people.
 
-Kel’Thuzad’s power prevents the Alliance and Forsaken from simply putting them out. Instead, workers at Chillwind and the Bulwark seek samples to prepare counteragents. Added to the cauldrons, these mixtures alter their emissions to weaken the Scourge. The supply must be renewed. There is no single triumphant stroke to this work, traveller; its value depends on people returning to do it again.
+Kel'Thuzad's power prevents the Alliance and Forsaken from simply putting them out. Instead, workers at Chillwind and the Bulwark seek samples to prepare counteragents. Added to the cauldrons, these mixtures alter their emissions to weaken the Scourge. The supply must be renewed.
