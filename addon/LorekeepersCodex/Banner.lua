@@ -115,7 +115,14 @@ end
 local function setUpPage(frame, id)
   local e = C.entries[id]
   frame.codexPage, frame.codexAchievement = id, nil
-  if frame.Icon.SetMask then frame.Icon:SetMask("Interface\\CharacterFrame\\TempPortraitAlphaMask") end
+  -- Round, as the book's pictures: a mask texture (Texture:SetMask, the
+  -- recipe toast's own way, forbids changing the crop afterwards on Forever).
+  if not frame.codexMask and frame.CreateMaskTexture then
+    frame.codexMask = frame:CreateMaskTexture()
+    frame.codexMask:SetTexture("Interface\\CharacterFrame\\TempPortraitAlphaMask", "CLAMPTOBLACKADDITIVE", "CLAMPTOBLACKADDITIVE")
+    frame.codexMask:SetAllPoints(frame.Icon)
+    frame.Icon:AddMaskTexture(frame.codexMask)
+  end
   if e.portrait and SetPortraitTextureFromCreatureDisplayID then
     frame.Icon:SetTexCoord(0, 1, 0, 1)
     SetPortraitTextureFromCreatureDisplayID(frame.Icon, e.portrait)

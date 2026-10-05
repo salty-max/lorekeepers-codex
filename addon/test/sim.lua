@@ -527,6 +527,9 @@ AlertFrame = { AddQueuedAlertFrameSubSystem = function(_, template, setUp)
     local f = ui()
     f.Icon, f.Title, f.Name, f.Unlocked, f.Shield = ui(), ui(), ui(), ui(), ui()
     f.Icon.Texture = ui()
+    -- Forever: a texture given Texture:SetMask can't take new tex coords.
+    f.Icon.SetMask = function(self) self.masked = true end
+    f.Icon.SetTexCoord = function(self) assert(not rawget(self, "masked"), "Cannot set tex coords when texture has mask") end
     setUp(f, ...)
     table.insert(self.shown, f)
     return true
