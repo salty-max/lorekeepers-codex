@@ -518,4 +518,42 @@ scanFire("QUEST_DETAIL")
 check(LorekeepersCodexScan.quests[4242].text == "Go and see." and LorekeepersCodexScan.quests[4242].title == "A Test Quest", "… and the quests read, with their texts")
 SlashCmdList.LOREKEEPERSCODEX("scan clear")
 check(not LorekeepersCodexScan.quests[4242] and LorekeepersCodexScan.on, "/codex scan clear empties it")
+-- The game's own toasts, where the client has them (both do: this is the
+-- path the game takes; the banner above is the fallback).
+local toasts = {}
+AlertFrame = { AddQueuedAlertFrameSubSystem = function(_, template, setUp)
+  local system = { shown = {} }
+  function system:AddAlert(...)
+    local f = ui()
+    f.Icon, f.Title, f.Name, f.Unlocked, f.Shield = ui(), ui(), ui(), ui(), ui()
+    f.Icon.Texture = ui()
+    setUp(f, ...)
+    table.insert(self.shown, f)
+    return true
+  end
+  toasts[template] = system
+  return system
+end }
+C_XMLUtil = { GetTemplateInfo = function() return {} end }
+local durations = {}
+AlertFrame_SetDuration = function(frame, seconds) durations[frame] = seconds end
+AlertFrame_OnClick = function(_, button) return button == "RightButton" end
+LorekeepersCodexSettings.banner = true
+ns.hideBanner()
+local pid
+for id in pairs(C.entries) do if ns.page(id) and not pid then pid = id end end
+ns.showBanner(pid)
+local toast = toasts.NewRecipeLearnedAlertFrameTemplate and toasts.NewRecipeLearnedAlertFrameTemplate.shown[1]
+check(toast and toast.Title.text == "A new page in the codex" and toast.Name.text == C.entries[pid].title
+  and not LorekeepersCodexBanner.shown, "a new page shows the game's own toast, not our banner")
+check(durations[toast] == ns.option("bannerSeconds"), "… for as long as the banner setting says")
+LorekeepersCodexFrame:Hide()
+toast.scripts.OnClick(toast, "LeftButton")
+check(LorekeepersCodexFrame.shown and LorekeepersCodexPage.title.text == C.entries[pid].title, "… and a click on it opens the page")
+ns.showAchievementBanner("pages-10")
+local ach = toasts.AchievementAlertFrameTemplate.shown[1]
+check(ach and ach.Name.text == ns.achievementById["pages-10"].title and ach.Unlocked.text == "Codex achievement" and not ach.Shield.shown,
+  "an achievement shows the game's achievement toast, with no points")
+AlertFrame, C_XMLUtil = nil, nil
+
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")

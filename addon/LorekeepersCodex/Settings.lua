@@ -57,8 +57,8 @@ function ns.createSettingsPanel()
       function(value) ns.setOption(key, value ~= invert) end)
     Settings.CreateCheckbox(category, setting, tooltip)
   end
-  checkbox("banner", "Banner for new pages", "Show each new page at the top of the screen, until you read or close it.")
-  local seconds = Settings.RegisterProxySetting(category, "LOREKEEPERSCODEX_BANNERSECONDS", Settings.VarType.Number, "Banner shown for",
+  checkbox("banner", "Alert for new pages", "Show each new page (and each achievement) in the game's own alert; a click on it reads the page.")
+  local seconds = Settings.RegisterProxySetting(category, "LOREKEEPERSCODEX_BANNERSECONDS", Settings.VarType.Number, "Alert shown for",
     DEFAULTS.bannerSeconds,
     function() return ns.option("bannerSeconds") end,
     function(value) ns.setOption("bannerSeconds", value) end)
@@ -66,7 +66,7 @@ function ns.createSettingsPanel()
   options:SetLabelFormatter(MinimalSliderWithSteppersMixin.Label.Right, function(value)
     return value == 0 and "until closed" or ("%d s"):format(value)
   end)
-  Settings.CreateSlider(category, seconds, options, "How long the banner stays on screen. At 0 it stays until you read or close it.")
+  Settings.CreateSlider(category, seconds, options, "How long the alert stays on screen. At 0 it stays until you read or dismiss it (right-click).")
 
   checkbox("chat", "Announce new pages in chat", "A line in chat for each new page, with a link to it.")
 

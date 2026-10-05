@@ -1,6 +1,9 @@
--- A slim banner at the top centre of the screen when a page is found, in the
--- book's look: the page's picture and title (a click on it reads the page)
--- and a close button. It goes away on its own after a few seconds
+-- When a page is found, the game's own toast (its alert system, the one of
+-- "New Recipe Learned"): the page's round picture, "A new page in the codex"
+-- and its title; a click reads the page, a right-click dismisses it. An
+-- achievement earned gets the game's achievement toast, with the codex's book.
+-- Where the client lacks those, a slim banner of our own at the top centre of
+-- the screen, in the book's look, with a close button. It goes away on its own after a few seconds
 -- (bannerSeconds in the settings, 0 to keep it until read or closed), never
 -- while the mouse is on it; a page found meanwhile replaces it. An achievement
 -- earned shows the same way, and opens the book at the achievements. Turned
@@ -92,8 +95,68 @@ local function fill(kicker, title, hasPicture)
   startTimer()
 end
 
+-- ── the game's toasts ─────────────────────────────────────────────────────────
+local PAGE_TOAST, ACHIEVEMENT_TOAST = "NewRecipeLearnedAlertFrameTemplate", "AchievementAlertFrameTemplate"
+local BOOK = "Interface\\Icons\\INV_Misc_Book_09"
+local pageToasts, achievementToasts
+
+-- How long a toast stays: the banner's setting (0: until read or dismissed).
+local function duration()
+  local seconds = ns.option("bannerSeconds") or 10
+  return seconds > 0 and seconds or 3600
+end
+
+local function onToastClick(self, button, down)
+  if AlertFrame_OnClick and AlertFrame_OnClick(self, button, down) then return end -- right-click: dismissed
+  if self.codexAchievement then ns.openAchievements(self.codexAchievement)
+  elseif self.codexPage then ns.open(self.codexPage) end
+end
+
+local function setUpPage(frame, id)
+  local e = C.entries[id]
+  frame.codexPage, frame.codexAchievement = id, nil
+  if frame.Icon.SetMask then frame.Icon:SetMask("Interface\\CharacterFrame\\TempPortraitAlphaMask") end
+  if e.portrait and SetPortraitTextureFromCreatureDisplayID then
+    frame.Icon:SetTexCoord(0, 1, 0, 1)
+    SetPortraitTextureFromCreatureDisplayID(frame.Icon, e.portrait)
+  else
+    frame.Icon:SetTexture(ns.kindIcon(e.kind) or BOOK)
+    frame.Icon:SetTexCoord(0.08, 0.92, 0.08, 0.92)
+  end
+  frame.Title:SetText("A new page in the codex")
+  frame.Name:SetText(e.title)
+  if AlertFrame_SetDuration then AlertFrame_SetDuration(frame, duration()) end
+  frame:SetScript("OnClick", onToastClick)
+end
+
+local function setUpAchievement(frame, id)
+  local a = ns.achievementById[id]
+  frame.codexPage, frame.codexAchievement = nil, id
+  frame.Icon.Texture:SetTexture(BOOK)
+  frame.Unlocked:SetText("Codex achievement")
+  frame.Name:SetText(a.title)
+  frame.Shield:Hide() -- no points
+  if AlertFrame_SetDuration then AlertFrame_SetDuration(frame, duration()) end
+  frame:SetScript("OnClick", onToastClick)
+end
+
+-- The toast systems, made on first use, where the client has them.
+local function toasts()
+  if pageToasts then return true end
+  if not (AlertFrame and AlertFrame.AddQueuedAlertFrameSubSystem and C_XMLUtil and C_XMLUtil.GetTemplateInfo) then return false end
+  if not (C_XMLUtil.GetTemplateInfo(PAGE_TOAST) and C_XMLUtil.GetTemplateInfo(ACHIEVEMENT_TOAST)) then return false end
+  pageToasts = AlertFrame:AddQueuedAlertFrameSubSystem(PAGE_TOAST, setUpPage, 2, 6)
+  achievementToasts = AlertFrame:AddQueuedAlertFrameSubSystem(ACHIEVEMENT_TOAST, setUpAchievement, 2, 6)
+  return true
+end
+
+-- ── showing ──────────────────────────────────────────────────────────────────
 function ns.showBanner(id)
   if not ns.option("banner") or not C.entries[id] then return end
+  if toasts() then
+    pageToasts:AddAlert(id)
+    return
+  end
   if not banner then build() end
   -- A page found while it shows replaces it (the other waits in the book,
   -- marked unread).
@@ -104,6 +167,10 @@ end
 function ns.showAchievementBanner(id)
   local a = ns.achievementById[id]
   if not ns.option("banner") or not a then return end
+  if toasts() then
+    achievementToasts:AddAlert(id)
+    return
+  end
   if not banner then build() end
   banner.id, banner.achievement = false, id
   banner.picture:Show()

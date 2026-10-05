@@ -169,6 +169,8 @@ local KIND_ICONS = {
 -- A page's round picture: the portrait of its creature (a figure, a typical
 -- one, a leader), else its kind's icon. Returns false when it has none (the
 -- picture is then hidden). Also used by the banner.
+function ns.kindIcon(kind) return KIND_ICONS[kind] end
+
 function ns.pagePicture(p, e)
   local creature = e.portrait and SetPortraitTextureFromCreatureDisplayID
   local icon = not creature and KIND_ICONS[e.kind]

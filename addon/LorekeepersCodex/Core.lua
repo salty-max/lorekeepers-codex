@@ -343,7 +343,7 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
   end
   if msg == "banner" then
     ns.setOption("banner", not ns.option("banner"))
-    print(PREFIX .. (ns.option("banner") and "banner shown for new pages." or "banner hidden (/codex banner to show it again)."))
+    print(PREFIX .. (ns.option("banner") and "alerts shown for new pages." or "alerts hidden (/codex banner to show them again)."))
     return
   end
   if msg == "minimap" then
