@@ -209,7 +209,7 @@ check(hints == 1 and said("pages. Type /codex or click the book by the minimap")
 check(ns.knownTotal() < ns.total and said(("%d of %d pages. Type /codex"):format(ns.count(), ns.knownTotal())), "the page count only counts the chapters opened, not the whole codex")
 local banner = LorekeepersCodexBanner
 check(banner and banner.shown and banner.id == "war-of-the-three-hammers", "a banner shows the newest page at the top of the screen")
-check(banner.title.text == "The War of the Three Hammers" and rawget(banner, "text") == nil and rawget(banner, "more") == nil, "… only its title, with a button to read it")
+check(banner.title.text == "The War of the Three Hammers" and rawget(banner, "text") == nil and rawget(banner, "more") == nil, "… only its title, a click on it to read it")
 check(banner.scripts.OnUpdate == nil, "it doesn't fade: it stays until read or closed")
 check(lastSound == 4147, "a new page plays the zone discovery sound by default (the dwarf's)")
 check(panel.registered and panel.name == "Lorekeeper's Codex", "a settings page in the game's options")

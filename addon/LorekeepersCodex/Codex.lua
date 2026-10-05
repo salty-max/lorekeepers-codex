@@ -166,6 +166,24 @@ local KIND_ICONS = {
   history = "Interface\\Icons\\INV_Misc_Book_11",
   note = "Interface\\Icons\\INV_Misc_Note_01",
 }
+-- A page's round picture: the portrait of its creature (a figure, a typical
+-- one, a leader), else its kind's icon. Returns false when it has none (the
+-- picture is then hidden). Also used by the banner.
+function ns.pagePicture(p, e)
+  local creature = e.portrait and SetPortraitTextureFromCreatureDisplayID
+  local icon = not creature and KIND_ICONS[e.kind]
+  p:SetShown((creature or icon) and true or false)
+  if creature then
+    p.tex:SetTexCoord(0, 1, 0, 1)
+    SetPortraitTextureFromCreatureDisplayID(p.tex, e.portrait)
+  elseif icon then
+    p.tex:SetTexture(icon)
+    p.tex:SetTexCoord(0.08, 0.92, 0.08, 0.92)
+  end
+  return (creature or icon) and true or false
+end
+ns.roundIcon, ns.label, ns.look = roundIcon, label, { T = T, TITLE_FONT = TITLE_FONT, BODY_FONT = BODY_FONT, card = card }
+
 local chapterTitle = {}
 for _, ch in ipairs(C.chapters) do chapterTitle[ch.id] = ch.title end
 
@@ -181,19 +199,7 @@ local function showPage(id)
   local e = C.entries[id]
   if not e or not ns.page(id) then return end
   ns.markRead(id)
-  -- The portrait of the page's creature (a figure, a typical one, a leader),
-  -- else its kind's icon, else none: the title then starts at the edge.
-  local creature = e.portrait and SetPortraitTextureFromCreatureDisplayID
-  local icon = not creature and KIND_ICONS[e.kind]
-  local portrait = creature or icon
-  page.icon:SetShown(portrait and true or false)
-  if creature then
-    page.icon.tex:SetTexCoord(0, 1, 0, 1)
-    SetPortraitTextureFromCreatureDisplayID(page.icon.tex, e.portrait)
-  elseif icon then
-    page.icon.tex:SetTexture(icon)
-    page.icon.tex:SetTexCoord(0.08, 0.92, 0.08, 0.92)
-  end
+  local portrait = ns.pagePicture(page.icon, e)
   page.title:ClearAllPoints()
   if portrait then
     page.title:SetPoint("TOPLEFT", page.icon, "TOPRIGHT", 16, -4)

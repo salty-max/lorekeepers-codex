@@ -1,6 +1,6 @@
--- A slim banner at the top centre of the screen when a page is found: the
--- page's title, with a book button (or a click anywhere on it) to read the
--- page and a close button. It goes away on its own after a few seconds
+-- A slim banner at the top centre of the screen when a page is found, in the
+-- book's look: the page's picture and title (a click on it reads the page)
+-- and a close button. It goes away on its own after a few seconds
 -- (bannerSeconds in the settings, 0 to keep it until read or closed), never
 -- while the mouse is on it; a page found meanwhile replaces it. An achievement
 -- earned shows the same way, and opens the book at the achievements. Turned
@@ -8,7 +8,7 @@
 local _, ns = ...
 local C = ns.content
 
-local WIDTH, HEIGHT = 420, 52
+local WIDTH, HEIGHT = 380, 66
 local banner, timer
 
 local function stopTimer()
@@ -26,41 +26,50 @@ local function startTimer(seconds)
   end)
 end
 
+-- The book's look: a dark panel (Forever: its Professions card; Classic: the
+-- tooltip's dark box with a gold edge), the page's round picture, a short
+-- line in soft gold, the title in the title font.
 local function build()
+  local L = ns.look
   banner = CreateFrame("Button", "LorekeepersCodexBanner", UIParent, "BackdropTemplate")
   banner:SetSize(WIDTH, HEIGHT)
   banner:SetPoint("TOP", 0, -36)
   banner:SetFrameStrata("HIGH")
-  banner:SetBackdrop({
-    bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
-    edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border",
-    tile = true, tileSize = 32, edgeSize = 32,
-    insets = { left = 11, right = 12, top = 12, bottom = 11 },
-  })
+  if ns.forever then
+    local art = L.card(banner)
+    art:SetAllPoints()
+  else
+    banner:SetBackdrop({
+      bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+      edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+      tile = true, tileSize = 16, edgeSize = 16,
+      insets = { left = 4, right = 4, top = 4, bottom = 4 },
+    })
+    banner:SetBackdropColor(0.05, 0.045, 0.04, 0.95)
+    banner:SetBackdropBorderColor(0.72, 0.56, 0.24)
+  end
   banner:Hide()
 
-  banner.title = banner:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
-  banner.title:SetPoint("LEFT", 60, 0)
-  banner.title:SetPoint("RIGHT", -60, 0)
+  banner.picture = ns.roundIcon(banner, 42)
+  banner.picture:SetPoint("LEFT", 14, 0)
+  banner.kicker = ns.label(banner, L.BODY_FONT, 11, L.T.soft)
+  banner.title = ns.label(banner, L.TITLE_FONT, 18, L.T.gold)
   banner.title:SetWordWrap(false)
 
   local close = CreateFrame("Button", nil, banner, "UIPanelCloseButton")
-  close:SetPoint("RIGHT", -8, 0)
+  close:SetSize(24, 24)
+  close:SetPoint("TOPRIGHT", -4, -4)
   close:SetScript("OnClick", function() ns.hideBanner() end)
 
-  local read = CreateFrame("Button", nil, banner)
-  read:SetSize(22, 22)
-  read:SetPoint("RIGHT", close, "LEFT", -2, 0)
-  read:SetNormalTexture("Interface\\Icons\\INV_Misc_Book_09")
-  read:SetHighlightTexture("Interface\\Buttons\\ButtonHilight-Square", "ADD")
-  read:SetScript("OnClick", function() banner:Click() end)
-  read:SetScript("OnEnter", function(self)
+  -- A click anywhere reads the page (or opens the achievements).
+  banner:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
+  banner:GetHighlightTexture():SetAlpha(0.25)
+  banner:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
-    GameTooltip:AddLine(banner.achievement and "See your achievements" or "Read this page")
+    GameTooltip:AddLine(self.achievement and "Click to see your achievements" or "Click to read this page")
     GameTooltip:Show()
   end)
-  read:SetScript("OnLeave", function() GameTooltip:Hide() end)
-
+  banner:SetScript("OnLeave", function() GameTooltip:Hide() end)
   banner:SetScript("OnClick", function(self)
     local id, achievement = self.id, self.achievement
     ns.hideBanner()
@@ -69,15 +78,27 @@ local function build()
   end)
 end
 
+-- Lays out the text beside the picture, or from the edge without one.
+local function fill(kicker, title, hasPicture)
+  banner.kicker:ClearAllPoints()
+  banner.title:ClearAllPoints()
+  local left = hasPicture and 70 or 18
+  banner.kicker:SetPoint("TOPLEFT", left, -15)
+  banner.title:SetPoint("TOPLEFT", banner.kicker, "BOTTOMLEFT", 0, -4)
+  banner.title:SetPoint("RIGHT", -34, 0)
+  banner.kicker:SetText(kicker)
+  banner.title:SetText(title)
+  banner:Show()
+  startTimer()
+end
+
 function ns.showBanner(id)
   if not ns.option("banner") or not C.entries[id] then return end
   if not banner then build() end
   -- A page found while it shows replaces it (the other waits in the book,
   -- marked unread).
   banner.id, banner.achievement = id, false
-  banner.title:SetText(C.entries[id].title)
-  banner:Show()
-  startTimer()
+  fill("A new page in the codex", C.entries[id].title, ns.pagePicture(banner.picture, C.entries[id]))
 end
 
 function ns.showAchievementBanner(id)
@@ -85,9 +106,10 @@ function ns.showAchievementBanner(id)
   if not ns.option("banner") or not a then return end
   if not banner then build() end
   banner.id, banner.achievement = false, id
-  banner.title:SetText("|cffffffffAchievement:|r " .. a.title)
-  banner:Show()
-  startTimer()
+  banner.picture:Show()
+  banner.picture.tex:SetTexture("Interface\\Icons\\INV_Misc_Book_09")
+  banner.picture.tex:SetTexCoord(0.08, 0.92, 0.08, 0.92)
+  fill("Achievement earned", a.title, true)
 end
 
 function ns.hideBanner()
