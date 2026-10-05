@@ -1,15 +1,178 @@
--- The codex as a book: chapters and the pages found in them on the left (a
--- chapter's bar and count tell how many are left; a click on its title folds
--- it away or opens it), the open page on parchment on the right, with links
--- to related pages. A second tab lists the achievements. /codex opens it.
+-- The codex as a book, in a standard game window (portrait, title bar), as
+-- Explorer's Field Journal. On the left, the chapters and the pages found in
+-- them (a chapter's bar and count tell how many are left; a click on its title
+-- folds it away or opens it); on the right, the open page: an icon of its
+-- kind, its title and chapter, the text, and links to related pages. A second
+-- tab lists the achievements. Light text and gold titles on dark panels:
+-- Forever's Professions cards; on Classic, the game's insets and the quest
+-- log's dark book behind the list. /codex opens it.
 local _, ns = ...
 local C = ns.content
 
-local INK = { 0.22, 0.14, 0.05 } -- dark brown, on parchment
+-- ── look ─────────────────────────────────────────────────────────────────────
+local T = {
+  gold = { 0.85, 0.70, 0.42 }, text = { 0.93, 0.88, 0.76 }, soft = { 0.62, 0.57, 0.49 },
+  rule = { 0.85, 0.70, 0.42, 0.25 }, link = { 0.85, 0.70, 0.42 },
+}
+local LATIN = { enUS = true, enGB = true, frFR = true, deDE = true, esES = true, esMX = true, itIT = true, ptBR = true }
+local BODY_FONT = STANDARD_TEXT_FONT or "Fonts\\FRIZQT__.TTF"
+local TITLE_FONT = (not GetLocale or LATIN[GetLocale()]) and "Fonts\\MORPHEUS.TTF" or BODY_FONT
+
+local function label(parent, font, size, color)
+  local fs = parent:CreateFontString(nil, "OVERLAY")
+  fs:SetFont(font, size, "")
+  fs:SetTextColor(unpack(color))
+  fs:SetShadowOffset(1, -1)
+  fs:SetJustifyH("LEFT")
+  return fs
+end
+
+local function rule(parent)
+  local t = parent:CreateTexture(nil, "ARTWORK")
+  t:SetColorTexture(unpack(T.rule))
+  t:SetHeight(1)
+  return t
+end
+
+local function bar(parent)
+  local b = CreateFrame("StatusBar", nil, parent)
+  b:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar")
+  b:SetStatusBarColor(0.85, 0.65, 0.13)
+  local bg = b:CreateTexture(nil, "BACKGROUND")
+  bg:SetAllPoints()
+  bg:SetColorTexture(0, 0, 0, 0.5)
+  return b
+end
+
+-- Forever's Professions card (a dark rounded panel), cut in nine so it
+-- stretches to any size without bending its corners.
+local CARD_FILE, CARD_W, CARD_H = 8164414, 1024, 512
+local CARD = { 1, 665, 1, 143 } -- the generic card, in the texture's pixels
+local CORNER = 16
+local function card(parent)
+  local f = CreateFrame("Frame", nil, parent)
+  local xs = { CARD[1], CARD[1] + CORNER, CARD[2] - CORNER, CARD[2] }
+  local ys = { CARD[3], CARD[3] + CORNER, CARD[4] - CORNER, CARD[4] }
+  for i = 1, 3 do
+    for j = 1, 3 do
+      local tex = f:CreateTexture(nil, "BACKGROUND")
+      tex:SetTexture(CARD_FILE)
+      tex:SetTexCoord(xs[j] / CARD_W, xs[j + 1] / CARD_W, ys[i] / CARD_H, ys[i + 1] / CARD_H)
+      if j ~= 2 then tex:SetWidth(CORNER) end
+      if i ~= 2 then tex:SetHeight(CORNER) end
+      -- Corners pinned to the frame's edges; edges and centre between them.
+      if j == 1 then tex:SetPoint("LEFT", f, "LEFT", 0, 0) end
+      if j == 2 then
+        tex:SetPoint("LEFT", f, "LEFT", CORNER, 0)
+        tex:SetPoint("RIGHT", f, "RIGHT", -CORNER, 0)
+      end
+      if j == 3 then tex:SetPoint("RIGHT", f, "RIGHT", 0, 0) end
+      if i == 1 then tex:SetPoint("TOP", f, "TOP", 0, 0) end
+      if i == 2 then
+        tex:SetPoint("TOP", f, "TOP", 0, -CORNER)
+        tex:SetPoint("BOTTOM", f, "BOTTOM", 0, CORNER)
+      end
+      if i == 3 then tex:SetPoint("BOTTOM", f, "BOTTOM", 0, 0) end
+    end
+  end
+  return f
+end
+
+-- Classic's panels: the game's inset, darkened a little for the text; behind
+-- the list, the quest log's dark book (TBC's two-pane log, where the game has it).
+local function inset(parent, book)
+  local ok, f = pcall(CreateFrame, "Frame", nil, parent, "InsetFrameTemplate")
+  if not (ok and f) then f = CreateFrame("Frame", nil, parent) end
+  local shade = f:CreateTexture(nil, "BACKGROUND", nil, 1)
+  shade:SetPoint("TOPLEFT", 3, -3)
+  shade:SetPoint("BOTTOMRIGHT", -3, 3)
+  shade:SetColorTexture(0.03, 0.025, 0.02, 0.55)
+  if not book then return f end
+  local art = f:CreateTexture(nil, "BACKGROUND", nil, 2)
+  art:SetPoint("TOPLEFT", 3, -3)
+  art:SetPoint("BOTTOMRIGHT", -3, 3)
+  if art:SetTexture("Interface\\QuestFrame\\UI-QuestLogDualPane-Left") == false then
+    art:Hide()
+  else
+    art:SetTexCoord(20 / 512, 318 / 512, 74 / 512, 406 / 512)
+  end
+  return f
+end
+
+local function panel(parent, book)
+  if ns.forever then return card(parent) end
+  return inset(parent, book)
+end
+
+-- A scroll area moved by the mouse wheel, with a thin gold thumb.
+local function scrollArea(name, parent, width)
+  local s = CreateFrame("ScrollFrame", name, parent)
+  local c = CreateFrame("Frame", nil, s)
+  c:SetSize(width, 1)
+  s:SetScrollChild(c)
+  s.child = c
+  s.thumb = s:CreateTexture(nil, "OVERLAY")
+  s.thumb:SetColorTexture(0.85, 0.70, 0.42, 0.45)
+  s.thumb:SetWidth(3)
+  function s:Range() return math.max(0, self.child:GetHeight() - self:GetHeight()) end
+  function s:UpdateThumb()
+    local range, height = self:Range(), self:GetHeight()
+    if range <= 0 then
+      self.thumb:Hide()
+      return
+    end
+    local size = math.max(24, height * height / (height + range))
+    self.thumb:SetHeight(size)
+    self.thumb:ClearAllPoints()
+    self.thumb:SetPoint("TOPRIGHT", self, "TOPRIGHT", 8, -(height - size) * math.min(1, self:GetVerticalScroll() / range))
+    self.thumb:Show()
+  end
+  function s:ScrollTo(y)
+    self:SetVerticalScroll(math.max(0, math.min(y, self:Range())))
+    self:UpdateThumb()
+  end
+  s:EnableMouseWheel(true)
+  s:SetScript("OnMouseWheel", function(self, delta) self:ScrollTo(self:GetVerticalScroll() - delta * 40) end)
+  return s
+end
+
+-- A round icon in a gold ring (the page's kind).
+local MASK = "Interface\\CharacterFrame\\TempPortraitAlphaMask"
+local function roundIcon(parent, size)
+  local p = CreateFrame("Frame", nil, parent)
+  p:SetSize(size, size)
+  p.ring = p:CreateTexture(nil, "BACKGROUND")
+  p.ring:SetTexture(MASK)
+  p.ring:SetVertexColor(0.72, 0.56, 0.24)
+  p.ring:SetPoint("CENTER")
+  p.ring:SetSize(size + 4, size + 4)
+  p.tex = p:CreateTexture(nil, "ARTWORK")
+  p.tex:SetAllPoints()
+  p.tex:SetTexCoord(0.08, 0.92, 0.08, 0.92)
+  local mask = p:CreateMaskTexture()
+  mask:SetTexture(MASK, "CLAMPTOBLACKADDITIVE", "CLAMPTOBLACKADDITIVE")
+  mask:SetAllPoints(p.tex)
+  p.tex:AddMaskTexture(mask)
+  return p
+end
+
+-- What a page is about, said with an icon and a word.
+local KINDS = {
+  place = { "Place", "Interface\\Icons\\INV_Misc_Map_01" },
+  figure = { "Figure", "Interface\\Icons\\INV_Misc_Head_Human_01" },
+  faction = { "Faction", "Interface\\Icons\\INV_BannerPVP_02" },
+  creature = { "Creature", "Interface\\Icons\\INV_Misc_Head_Dragon_01" },
+  history = { "History", "Interface\\Icons\\INV_Misc_Book_11" },
+  note = { "Note", "Interface\\Icons\\INV_Scroll_03" },
+}
+local chapterTitle = {}
+for _, ch in ipairs(C.chapters) do chapterTitle[ch.id] = ch.title end
 
 local book, list, page, achievements
 local build -- the book, made on first opening (below)
 local current
+local WIDTH = 440
+local HEADER_H = 84
 
 -- ── the open page ────────────────────────────────────────────────────────────
 local function showPage(id)
@@ -17,9 +180,11 @@ local function showPage(id)
   local e = C.entries[id]
   if not e or not ns.page(id) then return end
   ns.markRead(id)
+  local kind = KINDS[e.kind] or KINDS.note
+  page.icon.tex:SetTexture(kind[2])
   page.title:SetText(e.title)
-  -- All in the same ink: the signature (an italic paragraph) used to be a
-  -- lighter brown, which read as faded on the parchment.
+  local chapter = e.chapter ~= "" and chapterTitle[e.chapter]
+  page.sub:SetText(chapter and (chapter .. "  -  " .. kind[1]) or kind[1])
   local paras = {}
   for _, para in ipairs(e.text) do
     if not para.client or para.client == ns.client then table.insert(paras, para[1]) end
@@ -29,61 +194,67 @@ local function showPage(id)
   -- "See also": the related pages this character has found.
   for _, b in ipairs(page.links) do b:Hide() end
   local n = 0
+  local y = HEADER_H + page.body:GetStringHeight() + 22
+  page.seeAlso:ClearAllPoints()
+  page.seeAlso:SetPoint("TOPLEFT", page.child, "TOPLEFT", 0, -y)
+  y = y + 32
   for _, other in ipairs(e.also) do
     if ns.page(other) then
       n = n + 1
       local b = page.links[n]
       if not b then
         b = CreateFrame("Button", nil, page.child)
-        b:SetSize(300, 16)
-        b.text = b:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+        b:SetSize(WIDTH, 18)
+        b.text = label(b, BODY_FONT, 12, T.link)
         b.text:SetPoint("LEFT")
-        b.text:SetJustifyH("LEFT")
         b:SetScript("OnEnter", function(self) self.text:SetTextColor(1, 1, 1) end)
-        b:SetScript("OnLeave", function(self) self.text:SetTextColor(0.55, 0.22, 0.05) end)
+        b:SetScript("OnLeave", function(self) self.text:SetTextColor(unpack(T.link)) end)
         page.links[n] = b
       end
       b.text:SetText("» " .. C.entries[other].title)
-      b.text:SetTextColor(0.55, 0.22, 0.05)
+      b.text:SetTextColor(unpack(T.link))
       b:SetScript("OnClick", function() showPage(other); ns.refresh(true) end)
-      b:SetPoint("TOPLEFT", page.seeAlso, "BOTTOMLEFT", 0, -4 - (n - 1) * 18)
+      b:ClearAllPoints()
+      b:SetPoint("TOPLEFT", page.child, "TOPLEFT", 0, -y)
       b:Show()
+      y = y + 20
     end
   end
   page.seeAlso:SetShown(n > 0)
-  page.scroll:SetVerticalScroll(0)
-  page.child:SetHeight(page.title:GetStringHeight() + page.body:GetStringHeight() + 120 + n * 18)
+  if n == 0 then y = y - 32 end
+  page.child:SetHeight(y + 24)
+  page:ScrollTo(0)
 end
 
 -- ── the list of chapters and pages ───────────────────────────────────────────
+local ROW_WIDTH = 204
 local rows = {}
 ns.listRows = rows -- for the tests
 local function row(i)
   local r = rows[i]
   if r then return r end
   r = CreateFrame("Button", nil, list.child)
-  r:SetSize(196, 18)
-  r.text = r:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
-  r.text:SetPoint("LEFT", 8, 0)
+  r:SetSize(ROW_WIDTH, 18)
+  r.text = label(r, BODY_FONT, 12, T.text)
   r.text:SetPoint("RIGHT", -4, 0)
-  r.text:SetJustifyH("LEFT")
+  r.text:SetWordWrap(false)
   -- A chapter's fold: the plus and minus of the game's own lists.
   r.fold = r:CreateTexture(nil, "ARTWORK")
-  r.fold:SetSize(16, 16)
-  r.fold:SetPoint("LEFT", 2, 0)
+  r.fold:SetSize(12, 12)
+  r.fold:SetPoint("TOPLEFT", 2, -4)
   -- A chapter's progress, under its title: a bar, then the pages found.
-  r.bar = CreateFrame("StatusBar", nil, r)
-  r.bar:SetPoint("TOPLEFT", r, "BOTTOMLEFT", 8, -2)
-  r.bar:SetPoint("TOPRIGHT", r, "BOTTOMRIGHT", -44, -2)
-  r.bar:SetHeight(5)
-  r.bar:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar")
-  r.bar:SetStatusBarColor(0.85, 0.65, 0.13)
-  local bg = r.bar:CreateTexture(nil, "BACKGROUND")
-  bg:SetAllPoints()
-  bg:SetColorTexture(0, 0, 0, 0.5)
-  r.count = r:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
+  r.bar = bar(r)
+  r.bar:SetPoint("BOTTOMLEFT", 18, 4)
+  r.bar:SetPoint("BOTTOMRIGHT", -44, 4)
+  r.bar:SetHeight(4)
+  r.count = label(r, BODY_FONT, 10, T.soft)
   r.count:SetPoint("LEFT", r.bar, "RIGHT", 6, 0)
   r:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
+  r.selected = r:CreateTexture(nil, "BACKGROUND")
+  r.selected:SetAllPoints()
+  r.selected:SetTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight")
+  r.selected:SetBlendMode("ADD")
+  r.selected:SetAlpha(0.7)
   rows[i] = r
   return r
 end
@@ -138,9 +309,9 @@ local function reveal(y)
   if y >= top and y + 18 <= top + height then return end
   local max = math.max(0, list.child:GetHeight() - height)
   list:SetVerticalScroll(math.min(max, math.max(0, y - (height - 18) / 2)))
+  list:UpdateThumb()
 end
 
--- reveal: scroll to the open page (opening the book, a link, the banner).
 -- Folded chapters, per character (each codex opens its own chapters).
 local function folded()
   local c = LorekeepersCodexChar
@@ -165,6 +336,9 @@ function ns.foldAll(fold)
   ns.refresh()
 end
 
+local PLUS, MINUS = "Interface\\Buttons\\UI-PlusButton-Up", "Interface\\Buttons\\UI-MinusButton-Up"
+
+-- scrollToCurrent: scroll to the open page (opening the book, a link, the banner).
 function ns.refresh(scrollToCurrent)
   if not book then return end
   if book.selectedTab == 2 then return ns.refreshAchievements() end
@@ -173,7 +347,7 @@ function ns.refresh(scrollToCurrent)
   if e and e.chapter ~= "" then folded()[e.chapter] = nil end
   local currentY
   book.count:SetText(("%d of %d pages"):format(ns.count(), ns.knownTotal()))
-  if book.foldAll then book.foldAll:SetNormalTexture(ns.anyUnfolded() and "Interface\\Buttons\\UI-MinusButton-Up" or "Interface\\Buttons\\UI-PlusButton-Up") end
+  if book.foldAll then book.foldAll:SetNormalTexture(ns.anyUnfolded() and MINUS or PLUS) end
   for _, r in ipairs(rows) do r:Hide() end
   local i, y = 0, 0
   local function add(kind, text, id, found, total, chapter)
@@ -182,31 +356,51 @@ function ns.refresh(scrollToCurrent)
     r:ClearAllPoints()
     r:SetPoint("TOPLEFT", 0, -y)
     r.id = id
-    if kind == "page" and id == current then currentY = y end
+    r.selected:Hide()
     r.count:SetText(kind == "chapter" and id or "")
     r.bar:SetShown(kind == "chapter")
     r.fold:SetShown(kind == "chapter")
-    r.text:SetPoint("LEFT", kind == "chapter" and 20 or 8, 0)
     if kind == "chapter" then
-      r.text:SetFontObject("GameFontNormal")
+      r:SetHeight(32)
+      r.text:ClearAllPoints()
+      r.text:SetPoint("TOPLEFT", 18, -3)
+      r.text:SetPoint("RIGHT", -4, 0)
+      r.text:SetFont(TITLE_FONT, 14, "")
+      r.text:SetTextColor(unpack(T.gold))
       r.text:SetText(text)
       r.bar:SetMinMaxValues(0, total)
       r.bar:SetValue(found)
-      r.fold:SetTexture(folded()[chapter] and "Interface\\Buttons\\UI-PlusButton-Up" or "Interface\\Buttons\\UI-MinusButton-Up")
+      r.fold:SetTexture(folded()[chapter] and PLUS or MINUS)
       r:Enable()
       r:SetScript("OnClick", function()
         folded()[chapter] = not folded()[chapter] or nil
         ns.refresh()
       end)
-      y = y + 32
+      y = y + 34
     else
-      r.text:SetFontObject(id == current and "GameFontNormalSmall" or "GameFontHighlightSmall")
+      r:SetHeight(18)
+      r.text:ClearAllPoints()
+      r.text:SetPoint("LEFT", 18, 0)
+      r.text:SetPoint("RIGHT", -4, 0)
+      r.text:SetFont(BODY_FONT, 12, "")
+      if id == current then
+        currentY = y
+        r.selected:Show()
+        r.text:SetTextColor(1, 1, 1)
+      else
+        r.text:SetTextColor(unpack(T.text))
+      end
       r.text:SetText((ns.isRead(id) and "" or "|cffffd100•|r ") .. C.entries[id].title)
       r:Enable()
       r:SetScript("OnClick", function() showPage(id); ns.refresh() end)
       y = y + 18
     end
     r:Show()
+  end
+  local function finish()
+    list.child:SetHeight(y + 8)
+    list:UpdateThumb()
+    if scrollToCurrent and currentY then reveal(currentY) end
   end
   -- While searching, the list is the results.
   local query = book.search and book.search:GetText() or ""
@@ -218,29 +412,32 @@ function ns.refresh(scrollToCurrent)
       local r = row(i)
       r:ClearAllPoints()
       r:SetPoint("TOPLEFT", 0, 0)
+      r:SetHeight(18)
+      r.selected:Hide()
       r.count:SetText("")
       r.bar:Hide()
       r.fold:Hide()
+      r.text:ClearAllPoints()
       r.text:SetPoint("LEFT", 8, 0)
-      r.text:SetFontObject("GameFontDisableSmall")
+      r.text:SetPoint("RIGHT", -4, 0)
+      r.text:SetFont(BODY_FONT, 12, "")
+      r.text:SetTextColor(unpack(T.soft))
       r.text:SetText("No page found.")
       r:Disable()
       r:Show()
       y = 18
     end
-    list.child:SetHeight(y + 8)
-    if scrollToCurrent and currentY then reveal(currentY) end
-    return
+    return finish()
   end
   -- Loose pages (the foreword) first, then each chapter.
-  for id, e in pairs(C.entries) do
-    if e.chapter == "" and ns.page(id) then add("page", nil, id) end
+  for id, entry in pairs(C.entries) do
+    if entry.chapter == "" and ns.page(id) then add("page", nil, id) end
   end
   -- A chapter appears once one of its pages is found, with its progress.
   for _, ch in ipairs(C.chapters) do
     local found = ns.found(ch)
     if found > 0 then
-      y = y + 6
+      y = y + 4
       add("chapter", ch.title, ("%d/%d"):format(found, #ch.entries), found, #ch.entries, ch.id)
       if not folded()[ch.id] then
         for _, id in ipairs(ch.entries) do
@@ -249,15 +446,15 @@ function ns.refresh(scrollToCurrent)
       end
     end
   end
-  list.child:SetHeight(y + 8)
-  if scrollToCurrent and currentY then reveal(currentY) end
+  finish()
 end
 
 -- ── the achievements ──────────────────────────────────────────────────────────
 -- One row each, under its group's heading: the title (gold once earned), what
 -- it asks, and on the right when it was earned, or how far along it is.
 local GROUPS = { { "milestone", "Milestones" }, { "feat", "Feats" }, { "chapter", "Chapters" } }
-local ROW = 46
+local ROW = 50
+local ACH_WIDTH = 700
 local achRows, headers = {}, {}
 local selected
 
@@ -265,25 +462,20 @@ local function achRow(i)
   local r = achRows[i]
   if r then return r end
   r = CreateFrame("Frame", nil, achievements.child)
-  r:SetSize(680, ROW - 4)
+  r:SetSize(ACH_WIDTH, ROW - 4)
   r.bg = r:CreateTexture(nil, "BACKGROUND")
   r.bg:SetAllPoints()
-  r.title = r:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-  r.title:SetPoint("TOPLEFT", 10, -6)
-  r.text = r:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
-  r.text:SetPoint("TOPLEFT", r.title, "BOTTOMLEFT", 0, -4)
-  r.text:SetWidth(480)
-  r.text:SetJustifyH("LEFT")
-  r.status = r:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
-  r.status:SetPoint("TOPRIGHT", -10, -7)
-  r.bar = CreateFrame("StatusBar", nil, r)
-  r.bar:SetSize(150, 6)
-  r.bar:SetPoint("TOPRIGHT", r.status, "BOTTOMRIGHT", 0, -6)
-  r.bar:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar")
-  r.bar:SetStatusBarColor(0.85, 0.65, 0.13)
-  local bg = r.bar:CreateTexture(nil, "BACKGROUND")
-  bg:SetAllPoints()
-  bg:SetColorTexture(0, 0, 0, 0.5)
+  r.title = label(r, TITLE_FONT, 15, T.gold)
+  r.title:SetPoint("TOPLEFT", 12, -7)
+  r.text = label(r, BODY_FONT, 11, T.soft)
+  r.text:SetPoint("TOPLEFT", r.title, "BOTTOMLEFT", 0, -5)
+  r.text:SetWidth(500)
+  r.status = label(r, BODY_FONT, 11, T.soft)
+  r.status:SetPoint("TOPRIGHT", -12, -8)
+  r.status:SetJustifyH("RIGHT")
+  r.bar = bar(r)
+  r.bar:SetSize(150, 5)
+  r.bar:SetPoint("TOPRIGHT", r.status, "BOTTOMRIGHT", 0, -7)
   achRows[i] = r
   return r
 end
@@ -291,7 +483,13 @@ end
 local function header(i)
   local h = headers[i]
   if h then return h end
-  h = achievements.child:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
+  h = CreateFrame("Frame", nil, achievements.child)
+  h:SetSize(ACH_WIDTH, 26)
+  h.text = label(h, TITLE_FONT, 17, T.gold)
+  h.text:SetPoint("BOTTOMLEFT", 2, 5)
+  h.line = rule(h)
+  h.line:SetPoint("BOTTOMLEFT")
+  h.line:SetPoint("BOTTOMRIGHT")
   headers[i] = h
   return h
 end
@@ -303,9 +501,9 @@ function ns.refreshAchievements()
   for g, group in ipairs(GROUPS) do
     local h = header(g)
     h:ClearAllPoints()
-    h:SetPoint("TOPLEFT", 4, -y - 4)
-    h:SetText(group[2])
-    y = y + 28
+    h:SetPoint("TOPLEFT", 0, -y)
+    h.text:SetText(group[2])
+    y = y + 34
     for _, a in ipairs(ns.achievements) do
       if a.group == group[1] and ns.achievementVisible(a) then
         i = i + 1
@@ -318,11 +516,13 @@ function ns.refreshAchievements()
         r.title:SetText(a.title)
         r.text:SetText(a.text)
         if earned then
-          r.title:SetTextColor(1, 0.82, 0)
+          r.title:SetTextColor(unpack(T.gold))
+          r.text:SetTextColor(unpack(T.text))
           r.status:SetText(("Level %d, %s"):format(earned.level or 0, date("%d %b %Y", earned.at or 0)))
           r.bar:Hide()
         else
-          r.title:SetTextColor(0.6, 0.6, 0.6)
+          r.title:SetTextColor(0.55, 0.53, 0.50)
+          r.text:SetTextColor(unpack(T.soft))
           if a.unit then
             r.status:SetText(("%d %s"):format(done, a.unit))
             r.bar:Hide()
@@ -333,32 +533,35 @@ function ns.refreshAchievements()
             r.bar:SetShown(need > 1)
           end
         end
-        if a.id == selected then r.bg:SetColorTexture(1, 0.82, 0, 0.22)
+        if a.id == selected then r.bg:SetColorTexture(0.85, 0.70, 0.42, 0.22)
         elseif earned then r.bg:SetColorTexture(0.85, 0.65, 0.13, 0.10)
         else r.bg:SetColorTexture(1, 1, 1, 0.03) end
         r:Show()
         y = y + ROW
       end
     end
-    y = y + 8
+    y = y + 12
   end
   for k = i + 1, #achRows do achRows[k]:Hide() end
   achievements.child:SetHeight(y)
+  achievements:UpdateThumb()
   -- An achievement opened from chat or the banner: bring it into view.
   if selectedY then
     local height = achievements:GetHeight()
     local max = math.max(0, y - height)
     achievements:SetVerticalScroll(math.min(max, math.max(0, selectedY - (height - ROW) / 2)))
+    achievements:UpdateThumb()
   end
 end
 
 local function buildAchievements()
-  achievements = CreateFrame("ScrollFrame", "LorekeepersCodexAchievements", book, "UIPanelScrollFrameTemplate")
-  achievements:SetPoint("TOPLEFT", 24, -44)
-  achievements:SetPoint("BOTTOMRIGHT", -40, 20)
-  achievements.child = CreateFrame("Frame", nil, achievements)
-  achievements.child:SetSize(680, 10)
-  achievements:SetScrollChild(achievements.child)
+  book.achPanel = panel(book)
+  book.achPanel:SetPoint("TOPLEFT", 8, -58)
+  book.achPanel:SetPoint("BOTTOMRIGHT", -8, 8)
+  achievements = scrollArea("LorekeepersCodexAchievements", book.achPanel, ACH_WIDTH)
+  achievements:SetPoint("TOPLEFT", 22, -18)
+  achievements:SetPoint("BOTTOMRIGHT", -22, 14)
+  book.achPanel:Hide()
   achievements:Hide()
 end
 
@@ -368,10 +571,12 @@ function ns.showTab(n)
   if not book then return end
   book.selectedTab = n
   if PanelTemplates_SetTab then PanelTemplates_SetTab(book, n) end
+  book.left:SetShown(n == 1)
   book.search:SetShown(n == 1)
   book.foldAll:SetShown(n == 1)
   list:SetShown(n == 1)
   book.sheet:SetShown(n == 1)
+  book.achPanel:SetShown(n == 2)
   achievements:SetShown(n == 2)
   if n == 2 then ns.refreshAchievements() else ns.refresh(true) end
 end
@@ -385,11 +590,11 @@ end
 
 local function buildTabs()
   local template = hasTemplate("CharacterFrameTabButtonTemplate") and "CharacterFrameTabButtonTemplate" or "PanelTabButtonTemplate"
-  for n, label in ipairs({ "Pages", "Achievements" }) do
+  for n, text in ipairs({ "Pages", "Achievements" }) do
     local tab = CreateFrame("Button", "LorekeepersCodexFrameTab" .. n, book, template)
     tab:SetID(n)
-    tab:SetText(label)
-    if n == 1 then tab:SetPoint("TOPLEFT", book, "BOTTOMLEFT", 14, 8)
+    tab:SetText(text)
+    if n == 1 then tab:SetPoint("TOPLEFT", book, "BOTTOMLEFT", 14, 2)
     else tab:SetPoint("LEFT", "LorekeepersCodexFrameTab" .. (n - 1), "RIGHT", -14, 0) end
     tab:SetScript("OnClick", function(self)
       selected = nil
@@ -415,9 +620,25 @@ function ns.openAchievements(id)
 end
 
 -- ── the book ─────────────────────────────────────────────────────────────────
+-- The standard game window (portrait, title bar), its inset removed.
+local TITLE = "Lorekeeper's Codex"
+local function gameWindow()
+  local ok, frame = pcall(CreateFrame, "Frame", "LorekeepersCodexFrame", UIParent, "ButtonFrameTemplate")
+  if not ok or not frame then return nil end
+  if ButtonFrameTemplate_HideButtonBar then ButtonFrameTemplate_HideButtonBar(frame) end
+  if type(frame.Inset) == "table" then frame.Inset:Hide() end
+  local art = "Interface\\Icons\\INV_Misc_Book_09"
+  if frame.SetPortraitToAsset then frame:SetPortraitToAsset(art)
+  elseif type(frame.portrait) == "table" then frame.portrait:SetTexture(art) end
+  if frame.SetTitle then frame:SetTitle(TITLE)
+  elseif type(frame.TitleText) == "table" then frame.TitleText:SetText(TITLE) end
+  return frame
+end
+
 function build()
-  book = CreateFrame("Frame", "LorekeepersCodexFrame", UIParent, "BackdropTemplate")
-  book:SetSize(760, 520)
+  local window = gameWindow()
+  book = window or CreateFrame("Frame", "LorekeepersCodexFrame", UIParent, "BackdropTemplate")
+  book:SetSize(780, 560)
   book:SetPoint("CENTER")
   book:SetFrameStrata("HIGH")
   book:SetToplevel(true)
@@ -427,28 +648,37 @@ function build()
   book:RegisterForDrag("LeftButton")
   book:SetScript("OnDragStart", book.StartMoving)
   book:SetScript("OnDragStop", book.StopMovingOrSizing)
-  book:SetBackdrop({
-    bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
-    edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Gold-Border",
-    tile = true, tileSize = 32, edgeSize = 32,
-    insets = { left = 11, right = 12, top = 12, bottom = 11 },
-  })
   tinsert(UISpecialFrames, "LorekeepersCodexFrame") -- Escape closes it
+  if not window then
+    -- No standard window on this client: a plain dialog frame.
+    book:SetBackdrop({
+      bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
+      edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Gold-Border",
+      tile = true, tileSize = 32, edgeSize = 32,
+      insets = { left = 11, right = 12, top = 12, bottom = 11 },
+    })
+    local title = label(book, TITLE_FONT, 16, T.gold)
+    title:SetPoint("TOP", 0, -16)
+    title:SetText(TITLE)
+    local close = CreateFrame("Button", nil, book, "UIPanelCloseButton")
+    close:SetPoint("TOPRIGHT", -6, -6)
+  end
+  local edge = window and 8 or 14
 
-  local title = book:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
-  title:SetPoint("TOP", 0, -18)
-  title:SetText("Lorekeeper's Codex")
+  -- The count beside the portrait.
+  book.count = label(book, BODY_FONT, 11, T.gold)
+  book.count:SetPoint("TOPLEFT", 64, -36)
 
-  local close = CreateFrame("Button", nil, book, "UIPanelCloseButton")
-  close:SetPoint("TOPRIGHT", -6, -6)
-
-  book.count = book:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
-  book.count:SetPoint("TOPLEFT", 24, -22)
-
-  -- Left: a search box, then the list.
+  -- Left: a search box and the fold-all button, then the list.
+  local left = panel(book, true)
+  book.left = left
+  left:SetPoint("TOPLEFT", edge, -58)
+  left:SetPoint("BOTTOMLEFT", edge, edge)
+  left:SetWidth(244)
   book.search = CreateFrame("EditBox", "LorekeepersCodexSearch", book, "SearchBoxTemplate")
-  book.search:SetSize(172, 20)
-  book.search:SetPoint("TOPLEFT", 28, -44)
+  book.search:SetHeight(20)
+  book.search:SetPoint("TOPLEFT", left, "TOPLEFT", 18, -10)
+  book.search:SetPoint("TOPRIGHT", left, "TOPRIGHT", -34, -10)
   book.search:HookScript("OnTextChanged", function() ns.refresh() end)
 
   -- Beside it, fold or unfold every chapter at once: a minus while any is
@@ -469,55 +699,49 @@ function build()
   book.foldAll:SetScript("OnEnter", tip)
   book.foldAll:SetScript("OnLeave", function() GameTooltip:Hide() end)
 
-  list = CreateFrame("ScrollFrame", "LorekeepersCodexList", book, "UIPanelScrollFrameTemplate")
-  list:SetPoint("TOPLEFT", 20, -70)
-  list:SetPoint("BOTTOMLEFT", 20, 20)
-  list:SetWidth(204)
-  list.child = CreateFrame("Frame", nil, list)
-  list.child:SetSize(204, 10)
-  list:SetScrollChild(list.child)
+  list = scrollArea("LorekeepersCodexList", left, ROW_WIDTH)
+  list:SetPoint("TOPLEFT", left, "TOPLEFT", 12, -40)
+  list:SetPoint("BOTTOMRIGHT", left, "BOTTOMRIGHT", -18, 12)
 
-  -- Right: the page, on parchment.
-  local sheet = CreateFrame("Frame", nil, book)
+  -- Right: the page.
+  local sheet = panel(book)
   book.sheet = sheet
-  sheet:SetPoint("TOPLEFT", 256, -40)
-  sheet:SetPoint("BOTTOMRIGHT", -20, 18)
-  local paper = sheet:CreateTexture(nil, "BACKGROUND")
-  paper:SetAllPoints()
-  -- The parchment of the game's own book reader (ItemTextFrame). It fills the
-  -- top-left of a 512×512 texture (about 63% by 70%, measured in game):
-  -- that part, stretched over the whole page.
-  paper:SetTexture("Interface\\MailFrame\\UI-MailFrameBG")
-  paper:SetTexCoord(0, 0.625, 0, 0.70)
+  sheet:SetPoint("TOPLEFT", left, "TOPRIGHT", 4, 32)
+  sheet:SetPoint("BOTTOMRIGHT", -edge, edge)
 
-  page = CreateFrame("ScrollFrame", "LorekeepersCodexPage", sheet, "UIPanelScrollFrameTemplate")
-  page:SetPoint("TOPLEFT", 18, -16)
-  page:SetPoint("BOTTOMRIGHT", -32, 14)
+  page = scrollArea("LorekeepersCodexPage", sheet, WIDTH)
+  page:SetPoint("TOPLEFT", sheet, "TOPLEFT", 26, -22)
+  page:SetPoint("BOTTOMRIGHT", sheet, "BOTTOMRIGHT", -22, 14)
   page.scroll = page
-  page.child = CreateFrame("Frame", nil, page)
-  page.child:SetSize(420, 10)
-  page:SetScrollChild(page.child)
 
-  page.title = page.child:CreateFontString(nil, "OVERLAY", "QuestTitleFont")
-  page.title:SetPoint("TOPLEFT", 0, 0)
-  page.title:SetWidth(420)
-  page.title:SetJustifyH("LEFT")
-  page.title:SetTextColor(unpack(INK))
-  page.title:SetShadowColor(0, 0, 0, 0)
+  -- The header: the kind's icon, the title, the chapter and kind; a line.
+  page.icon = roundIcon(page.child, 56)
+  page.icon:SetPoint("TOPLEFT", 2, -2)
+  page.title = label(page.child, TITLE_FONT, 24, T.gold)
+  page.title:SetPoint("TOPLEFT", page.icon, "TOPRIGHT", 16, -4)
+  page.title:SetWidth(WIDTH - 78)
+  page.title:SetWordWrap(false)
+  page.sub = label(page.child, BODY_FONT, 12, T.soft)
+  page.sub:SetPoint("TOPLEFT", page.title, "BOTTOMLEFT", 0, -7)
+  page.sub:SetWidth(WIDTH - 78)
+  local headerRule = rule(page.child)
+  headerRule:SetPoint("TOPLEFT", 0, -70)
+  headerRule:SetPoint("TOPRIGHT", 0, -70)
 
-  page.body = page.child:CreateFontString(nil, "OVERLAY", "QuestFont")
-  page.body:SetPoint("TOPLEFT", page.title, "BOTTOMLEFT", 0, -12)
-  page.body:SetWidth(420)
-  page.body:SetJustifyH("LEFT")
-  page.body:SetSpacing(2)
-  page.body:SetTextColor(unpack(INK))
-  page.body:SetShadowColor(0, 0, 0, 0)
+  page.body = label(page.child, BODY_FONT, 13, T.text)
+  page.body:SetPoint("TOPLEFT", 0, -HEADER_H)
+  page.body:SetWidth(WIDTH)
+  page.body:SetSpacing(4)
 
-  page.seeAlso = page.child:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
-  page.seeAlso:SetPoint("TOPLEFT", page.body, "BOTTOMLEFT", 0, -16)
-  page.seeAlso:SetText("See also")
-  page.seeAlso:SetTextColor(unpack(INK))
-  page.seeAlso:SetShadowColor(0, 0, 0, 0)
+  -- "See also": a heading with a line, then the links.
+  page.seeAlso = CreateFrame("Frame", nil, page.child)
+  page.seeAlso:SetSize(WIDTH, 24)
+  page.seeAlso.text = label(page.seeAlso, TITLE_FONT, 16, T.gold)
+  page.seeAlso.text:SetPoint("BOTTOMLEFT", 0, 5)
+  page.seeAlso.text:SetText("See also")
+  local seeRule = rule(page.seeAlso)
+  seeRule:SetPoint("BOTTOMLEFT")
+  seeRule:SetPoint("BOTTOMRIGHT")
   page.links = {}
 
   book:SetScript("OnShow", function()

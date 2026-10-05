@@ -22,7 +22,7 @@ For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of Wa
 
 ## The book
 
-- `/codex`, or the book by the minimap, opens it: chapters on the left, the page on parchment on the right, with links to related pages.
+- `/codex`, or the book by the minimap, opens it: chapters on the left, the page on the right (an icon of its kind, its chapter, the text), with links to related pages.
 - Search the pages you have found.
 - Chapters fold and unfold, one by one or all at once.
 - No spoilers: you only see the chapters you have opened and the pages you have found.
