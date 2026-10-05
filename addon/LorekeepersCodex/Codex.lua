@@ -2,8 +2,9 @@
 -- Explorer's Field Journal. On the left, the chapters and the pages found in
 -- them (a chapter's bar and count tell how many are left; a click on its title
 -- folds it away or opens it); on the right, the open page: its title, its
--- chapter and kind (with, for a figure, a creature or a faction, the game's
--- still portrait of it), the text, and links to related pages. A second
+-- chapter and kind, a round picture (for a figure, a creature or a faction,
+-- the game's still portrait of it; else an icon of its kind), the text, and
+-- links to related pages. A second
 -- tab lists the achievements. Light text and gold titles on dark panels:
 -- Forever's Professions cards; on Classic, the game's insets and the quest
 -- log's dark book behind the list. /codex opens it.
@@ -158,6 +159,13 @@ end
 
 -- What a page is about, in a word.
 local KINDS = { place = "Place", figure = "Figure", faction = "Faction", creature = "Creature", history = "History", note = "Note" }
+-- Pages about no one creature get one icon per kind, true of any of them: a
+-- map for a place, an old book for history, a note for the League's notes.
+local KIND_ICONS = {
+  place = "Interface\\Icons\\INV_Misc_Map_01",
+  history = "Interface\\Icons\\INV_Misc_Book_11",
+  note = "Interface\\Icons\\INV_Misc_Note_01",
+}
 local chapterTitle = {}
 for _, ch in ipairs(C.chapters) do chapterTitle[ch.id] = ch.title end
 
@@ -174,10 +182,18 @@ local function showPage(id)
   if not e or not ns.page(id) then return end
   ns.markRead(id)
   -- The portrait of the page's creature (a figure, a typical one, a leader),
-  -- or none: the title then starts at the edge.
-  local portrait = e.portrait and SetPortraitTextureFromCreatureDisplayID
+  -- else its kind's icon, else none: the title then starts at the edge.
+  local creature = e.portrait and SetPortraitTextureFromCreatureDisplayID
+  local icon = not creature and KIND_ICONS[e.kind]
+  local portrait = creature or icon
   page.icon:SetShown(portrait and true or false)
-  if portrait then SetPortraitTextureFromCreatureDisplayID(page.icon.tex, e.portrait) end
+  if creature then
+    page.icon.tex:SetTexCoord(0, 1, 0, 1)
+    SetPortraitTextureFromCreatureDisplayID(page.icon.tex, e.portrait)
+  elseif icon then
+    page.icon.tex:SetTexture(icon)
+    page.icon.tex:SetTexCoord(0.08, 0.92, 0.08, 0.92)
+  end
   page.title:ClearAllPoints()
   if portrait then
     page.title:SetPoint("TOPLEFT", page.icon, "TOPRIGHT", 16, -4)

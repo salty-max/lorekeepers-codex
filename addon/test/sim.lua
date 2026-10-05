@@ -430,8 +430,10 @@ ns.unlock("magni-bronzebeard")
 ns.open("magni-bronzebeard")
 check(C.entries["magni-bronzebeard"].portrait and LorekeepersCodexPage.icon.shown
   and LorekeepersCodexPage.icon.tex.display == C.entries["magni-bronzebeard"].portrait, "a figure's page shows the figure's portrait")
+LorekeepersCodexPage.icon.tex.SetTexture = function(self, file) self.file = file end
 ns.open("kharanos")
-check(not C.entries.kharanos.portrait and not LorekeepersCodexPage.icon.shown, "… a place's page none")
+check(not C.entries.kharanos.portrait and LorekeepersCodexPage.icon.shown and LorekeepersCodexPage.icon.tex.file:find("Map", 1, true),
+  "… a place's page a map, the icon of every place")
 LorekeepersCodexFrame:Hide()
 
 -- ── achievements ─────────────────────────────────────────────────────────────
