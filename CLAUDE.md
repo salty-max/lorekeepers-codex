@@ -49,6 +49,8 @@ historical claims in other entries.
 - Voice: an archivist of the Explorers' League, writing from the Hall of
   Explorers in Ironforge; addresses the reader as "traveller"; warm, dry, a
   scholar's asides. Short: two to four paragraphs.
+- Plain ASCII text: straight apostrophes and quotes (the build rejects others;
+  some game fonts lack them, and the search matches what players type).
 - The approved voice samples are in `docs/voice-comparison.md`. Prefer concrete
   details and natural flow; keep dry asides sparse, vary openings and endings,
   and do not turn an entry into an audit note or append advice by habit. The

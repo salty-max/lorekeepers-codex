@@ -347,6 +347,8 @@ local function has_(list, id) for _, v in ipairs(list) do if v == id then return
 ns.unlock("kharanos")
 check(has_(ns.search("thunderbrew"), "kharanos"), "search finds a found page by its text")
 check(has_(ns.search("KHARANOS"), "kharanos"), "… whatever the case")
+ns.unlock("zulgurub")
+check(has_(ns.search("zul'gurub"), "zulgurub") and has_(ns.search("zul\226\128\153gurub"), "zulgurub"), "… and whichever apostrophe is typed")
 check(#ns.search("Grim Batol") == 0, "… and never a page not found yet")
 SlashCmdList.LOREKEEPERSCODEX("")
 LorekeepersCodexFrame.search:SetText("ironforge")

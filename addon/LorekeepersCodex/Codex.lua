@@ -96,20 +96,22 @@ end
 
 -- Search: the pages this character has found whose title or text holds the
 -- query (never locked ones: no spoilers). Text is lowered once, on first use.
+-- A curly apostrophe (typed or pasted) counts as a straight one.
+local function plain(s) return (s:lower():gsub("\226\128\153", "'")) end
 local haystack = {}
 local function matches(id, query)
   if not haystack[id] then
     local e = C.entries[id]
     local parts = { e.title }
     for _, para in ipairs(e.text) do table.insert(parts, para[1]) end
-    haystack[id] = table.concat(parts, " "):lower()
+    haystack[id] = plain(table.concat(parts, " "))
   end
   return haystack[id]:find(query, 1, true) ~= nil
 end
 
 function ns.search(query)
   local out = {}
-  query = (query or ""):lower():gsub("^%s+", ""):gsub("%s+$", "")
+  query = plain(query or ""):gsub("^%s+", ""):gsub("%s+$", "")
   if query == "" then return out end
   for _, ch in ipairs(C.chapters) do
     for _, id in ipairs(ch.entries) do

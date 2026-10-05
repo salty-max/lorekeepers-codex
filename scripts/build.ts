@@ -160,7 +160,12 @@ const entries: Entry[] = [];
 for (const file of walk(CONTENT).sort()) {
   const rel = relative(CONTENT, file);
   const chapter = rel.includes("/") ? rel.split("/")[0] : "";
-  const { meta, body } = frontMatter(file, readFileSync(file, "utf8"));
+  const source = readFileSync(file, "utf8");
+  // Plain ASCII, like the game's own texts: some of its fonts lack curly quotes
+  // and dashes, and the book's search matches what players type.
+  const odd = source.match(/[^\x00-\x7f]/);
+  if (odd) fail(file, `non-ASCII character "${odd[0]}": use ' for apostrophes, plain quotes and dashes`);
+  const { meta, body } = frontMatter(file, source);
   if (rel.endsWith("_chapter.md")) {
     chapters.set(chapter, { id: chapter, title: String(meta.title ?? chapter), order: Number(meta.order ?? 99), summary: body.trim(), entries: [] });
     continue;
