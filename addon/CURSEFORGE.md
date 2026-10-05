@@ -16,7 +16,7 @@ For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of Wa
 ## How it works
 
 - Pages unlock on their own: entering a place, talking to (or targeting) someone, defeating creatures, completing quests, reaching a reputation.
-- Each new page is announced in chat (a link that opens it) and by a slim banner at the top of the screen, with a sound.
+- Each new page is announced in chat (a link that opens it) and by the game's own alert, with its picture and a sound. Achievements get the game's achievement alert.
 - Each character keeps its own codex, and each page remembers when, at what level and where you found it.
 - Tooltips of creatures that unlock a page say so.
 
@@ -40,7 +40,7 @@ Each game has its own file: pick the one for yours (the CurseForge app does it f
 
 ## Settings
 
-Options → AddOns → Lorekeeper's Codex (or `/codex settings`, or right-click the minimap button): banner and how long it stays, chat announcements, the sound, tooltip hints, the minimap button.
+Options → AddOns → Lorekeeper's Codex (or `/codex settings`, or right-click the minimap button): alerts and how long they stay, chat announcements, the sound, tooltip hints, the minimap button.
 
 Other commands: `/codex reset` starts a character's codex over; `/codex where` prints your position (for writing pages).
 
