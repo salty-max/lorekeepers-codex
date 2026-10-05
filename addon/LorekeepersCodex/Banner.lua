@@ -149,17 +149,17 @@ end
 
 -- The toast systems, made on first use, where the client has them.
 -- The achievement toast's points shield runs AchievementShield_OnLoad, from
--- the game's achievement window, which the game loads only when first opened:
--- load it (as the game does before its own toasts).
-local function shieldReady()
-  if AchievementShield_OnLoad then return true end
-  local load = (C_AddOns and C_AddOns.LoadAddOn) or LoadAddOn
-  if load then pcall(load, "Blizzard_AchievementUI") end
-  -- Classic Era has the toast but no achievement window (it is for TBC and
-  -- later): the shield's OnLoad is missing, and the toast hides the shield
-  -- anyway. An empty one stands in; nothing else on Era uses the name.
-  if not AchievementShield_OnLoad then AchievementShield_OnLoad = function() end end
-  return true
+-- the game's achievement window, loaded on demand. Classic Era has no such
+-- window, and Forever's (its own game type) doesn't define it: any achievement
+-- toast then warns, ours and the game's own alike, the first one before ours
+-- had a chance to help. So at load, where the game hasn't defined it, a
+-- stand-in does what it does (the shield's two methods); the game's own
+-- replaces it whenever its window loads.
+if not AchievementShield_OnLoad then
+  function AchievementShield_OnLoad(self)
+    self.Desaturate = AchievementShield_Desaturate or function() end
+    self.Saturate = AchievementShield_Saturate or function() end
+  end
 end
 
 local function toasts()
@@ -167,7 +167,7 @@ local function toasts()
   if not (AlertFrame and AlertFrame.AddQueuedAlertFrameSubSystem and C_XMLUtil and C_XMLUtil.GetTemplateInfo) then return false end
   if not C_XMLUtil.GetTemplateInfo(PAGE_TOAST) then return false end
   pageToasts = AlertFrame:AddQueuedAlertFrameSubSystem(PAGE_TOAST, setUpPage, 2, 6)
-  if C_XMLUtil.GetTemplateInfo(ACHIEVEMENT_TOAST) and shieldReady() then
+  if C_XMLUtil.GetTemplateInfo(ACHIEVEMENT_TOAST) then
     achievementToasts = AlertFrame:AddQueuedAlertFrameSubSystem(ACHIEVEMENT_TOAST, setUpAchievement, 2, 6)
   end
   return true
