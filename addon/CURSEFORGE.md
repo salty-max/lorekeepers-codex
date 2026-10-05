@@ -29,7 +29,7 @@ For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of Wa
 
 ## The Library
 
-A second tab: every book, note, letter and plaque you read in the world is copied into the codex, page by page, so you can read it again whenever you like, sorted on shelves (books, notes and letters, plaques and monuments), with where and when you found it. A book you leave half read stays unfinished until you read the rest. Letters written by players are never copied.
+A second tab: every book, note, letter and plaque you read in the world is copied whole into your codex, so you can read it again whenever you like, even a quest letter long since handed in. Sorted on shelves (books, notes and letters, plaques and monuments), with where and when you found it; each character keeps its own. Letters written by players are never copied.
 
 ## Achievements
 

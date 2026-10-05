@@ -1,35 +1,29 @@
 -- The Library: every book, note, letter and plaque this character reads in the
--- world is copied into the codex, page by page, to be read again. The texts
--- are the game's own, kept once for the account; each character records what
--- it found, where and when:
---   LorekeepersCodexLibrary = { texts[id] = { title, material, pages = {}, count },
---                               keys[key] = id, nextId }
---   LorekeepersCodexChar.library[id] = { at, level, zone, sub }
--- Pages are copied as they are turned: a book left half read stays unfinished
--- until the rest is read. Letters written by players are never copied.
--- No spoilers: the Library never says how much there is to find.
+-- world is copied into its codex, whole, to be read again; each character its
+-- own (an orc's library is not a dwarf's):
+--   LorekeepersCodexChar.library = { texts[id] = { title, material, pages, count,
+--                                    at, level, zone, sub }, keys[key] = id, nextId }
+-- On opening a text, the addon turns through every page at once and back to
+-- the first, so a quest letter read once and handed in is copied whole.
+-- Letters written by players are never copied. No spoilers: the Library never
+-- says how much there is to find.
 local _, ns = ...
 local PREFIX = "|cffc9a227Lorekeeper's Codex:|r "
 local secret = ns.secret
 
 local function store()
-  LorekeepersCodexLibrary = LorekeepersCodexLibrary or {}
-  local s = LorekeepersCodexLibrary
+  local c = LorekeepersCodexChar
+  if not c then return { texts = {}, keys = {}, nextId = 1 } end
+  c.library = c.library or {}
+  local s = c.library
   s.texts, s.keys, s.nextId = s.texts or {}, s.keys or {}, s.nextId or 1
   return s
 end
-
-local function mine()
-  local c = LorekeepersCodexChar
-  if not c then return {} end
-  c.library = c.library or {}
-  return c.library
-end
-ns.libraryFound = mine
+ns.library = store
 
 function ns.libraryCount()
   local n = 0
-  for _ in pairs(mine()) do n = n + 1 end
+  for _ in pairs(store().texts) do n = n + 1 end
   return n
 end
 
@@ -63,7 +57,7 @@ end
 ns.libraryPlain = plain
 
 -- ── copying ──────────────────────────────────────────────────────────────────
-local reading -- the text open in the game's reader: { title, material, pages, last }
+local reading -- the text open in the game's reader: { title, material, pages, last, walking }
 
 local function here()
   return GetRealZoneText and GetRealZoneText() or nil, GetSubZoneText and GetSubZoneText() or nil
@@ -83,12 +77,12 @@ local function copy()
     s.texts[id] = { title = reading.title, material = reading.material, pages = {} }
   end
   local text = s.texts[id]
+  local new = not text.at
   for p, page in pairs(reading.pages) do text.pages[p] = page end
   if reading.last then text.count = reading.last end
-  local found = mine()
-  if not found[id] then
+  if new then
     local zone, sub = here()
-    found[id] = { at = time(), level = UnitLevel("player"), zone = zone, sub = sub ~= zone and sub or nil }
+    text.at, text.level, text.zone, text.sub = time(), UnitLevel("player"), zone, sub ~= zone and sub or nil
     if ns.option("chat") then
       print(PREFIX .. ("copied into the Library: |cffffd100|Hlorekeeper:lib:%d|h[%s]|h|r"):format(id, text.title))
     end
@@ -113,8 +107,26 @@ frame:SetScript("OnEvent", function(_, event)
     local page, text = ItemTextGetPage(), ItemTextGetText()
     if secret(page) or secret(text) or not text then return end
     reading.pages[page] = text
-    if not ItemTextHasNextPage() then reading.last = page end
+    local more = ItemTextHasNextPage()
+    if not more then reading.last = page end
+    if reading.walking == "back" then
+      -- turning back to the first page for the reader: nothing to copy
+      if page > 1 then ItemTextPrevPage() else reading.walking = nil end
+      return
+    end
     copy()
+    -- On opening a text, turn through every page at once, then back.
+    if page == 1 and more and not reading.walking and ItemTextNextPage then
+      reading.walking = "forward"
+      ItemTextNextPage()
+    elseif reading.walking == "forward" then
+      if more then
+        ItemTextNextPage()
+      else
+        reading.walking = "back"
+        if page > 1 then ItemTextPrevPage() else reading.walking = nil end
+      end
+    end
   elseif event == "ITEM_TEXT_CLOSED" then
     reading = nil
   end
@@ -158,6 +170,7 @@ local function row(i)
 end
 
 local function textOf(id) return store().texts[id] end
+local function mine() return store().texts end
 
 local function matches(id, query)
   local t = textOf(id)
@@ -255,7 +268,7 @@ function showText(id, pageNumber)
   local t = textOf(id)
   if not t then return end
   currentText, currentPage = id, pageNumber or 1
-  local found = mine()[id] or {}
+  local found = t
   local shelf = shelfOf(t)
   for _, s in ipairs(SHELVES) do
     if s[1] == shelf then
@@ -272,15 +285,14 @@ function showText(id, pageNumber)
   local highest = 0
   for p in pairs(t.pages) do highest = math.max(highest, p) end
   local body = t.pages[currentPage]
-  page.body:SetText(body and plain(body) or "|cff9e9178This page was not copied: read it in the world to complete the book.|r")
-  page.pageLabel:SetText(last and ("Page %d of %d"):format(currentPage, last)
-    or ("Page %d (unfinished: read the rest in the world)"):format(currentPage))
+  page.body:SetText(body and plain(body) or "|cff9e9178This page did not reach the codex; open the text again in the world to copy it.|r")
+  page.pageLabel:SetText(("Page %d of %d"):format(currentPage, last or highest))
   page.prev:SetEnabled(currentPage > 1)
   page.next:SetEnabled(currentPage < (last or highest))
   local multi = (last or highest) > 1
   page.prev:SetShown(multi)
   page.next:SetShown(multi)
-  page.pageLabel:SetShown(multi or not last)
+  page.pageLabel:SetShown(multi)
   page.child:SetHeight(ui.HEADER_H + page.body:GetStringHeight() + 60)
   page:ScrollTo(0)
 end
@@ -293,7 +305,7 @@ function showShelf()
   page.icon:Show()
   page.title:SetText("The Library")
   page.sub:SetText(("%d texts copied"):format(ns.libraryCount()))
-  page.body:SetText("Every book, note and plaque you read in the world is copied here, page by page, so that you can read it again. A book you leave half read stays unfinished until you read the rest. Letters written by players are never copied.")
+  page.body:SetText("Every book, note and plaque you read in the world is copied here whole, so that you can read it again, even a letter long since handed in. Letters written by players are never copied.")
   page.prev:Hide()
   page.next:Hide()
   page.pageLabel:Hide()

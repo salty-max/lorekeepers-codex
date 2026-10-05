@@ -449,25 +449,31 @@ function ItemTextGetPage() return reader.page end
 function ItemTextGetText() return reader.pages[reader.page] end
 function ItemTextHasNextPage() return reader.page < #reader.pages end
 local function readerEvent(e) libraryFrame.scripts.OnEvent(libraryFrame, e) end
-local function read(title, pages, upTo, material, creator)
+function ItemTextNextPage() reader.page = reader.page + 1; readerEvent("ITEM_TEXT_READY") end
+function ItemTextPrevPage() reader.page = reader.page - 1; readerEvent("ITEM_TEXT_READY") end
+-- Opening a text shows its first page; the reader closes on whatever page
+-- it shows then.
+local function read(title, pages, material, creator)
   reader = { title = title, pages = pages, page = 1, material = material or "Parchment", creator = creator }
   readerEvent("ITEM_TEXT_BEGIN")
-  for p = 1, upTo or #pages do reader.page = p; readerEvent("ITEM_TEXT_READY") end
+  readerEvent("ITEM_TEXT_READY")
+  local shownAfter = reader.page
   readerEvent("ITEM_TEXT_CLOSED")
+  return shownAfter
 end
 printed = {}
-read("The Founding of Quel'Thalas", { "In the beginning...", "<HTML><BODY><H1>The Sunwell</H1><P>And so it was.</P></BODY></HTML>", "The end." }, 2)
-local book = LorekeepersCodexLibrary.texts[1]
-check(book and book.pages[1] and book.pages[2] and not book.pages[3] and not book.count and said("copied into the Library: |cffffd100|Hlorekeeper:lib:1|h[The Founding of Quel'Thalas]|h|r"),
-  "a book read is copied into the Library, page by page as turned, and announced with a link")
-check(LorekeepersCodexChar.library[1].zone == state.zone, "… with where it was found")
-read("The Founding of Quel'Thalas", { "In the beginning...", "<HTML><BODY><H1>The Sunwell</H1><P>And so it was.</P></BODY></HTML>", "The end." })
-check(book.pages[3] and book.count == 3 and ns.libraryShelf(book) == "books", "reading the rest completes it; several pages make a book")
+local quelThalas = { "In the beginning...", "<HTML><BODY><H1>The Sunwell</H1><P>And so it was.</P></BODY></HTML>", "The end." }
+local shown = read("The Founding of Quel'Thalas", quelThalas)
+local book = LorekeepersCodexChar.library.texts[1]
+check(book and book.pages[1] and book.pages[2] and book.pages[3] and book.count == 3 and shown == 1
+  and said("copied into the Library: |cffffd100|Hlorekeeper:lib:1|h[The Founding of Quel'Thalas]|h|r"),
+  "a book opened is copied whole at once (every page turned, then back to the first), and announced with a link")
+check(book.zone == state.zone and ns.libraryShelf(book) == "books", "… with where it was found; several pages make a book")
 check(ns.libraryPlain(book.pages[2]) == "The Sunwell\n\nAnd so it was.", "the game's HTML becomes plain paragraphs")
-read("Ironforge plaque", { "Here stood..." }, 1, "Bronze")
-check(ns.libraryShelf(LorekeepersCodexLibrary.texts[2]) == "plaques", "texts cut in metal or stone are plaques")
-read("A letter", { "Dear friend, my secret..." }, 1, "Parchment", "Someplayer")
-check(not LorekeepersCodexLibrary.texts[3], "a letter written by a player is never copied")
+read("Ironforge plaque", { "Here stood..." }, "Bronze")
+check(ns.libraryShelf(LorekeepersCodexChar.library.texts[2]) == "plaques", "texts cut in metal or stone are plaques")
+read("A letter", { "Dear friend, my secret..." }, "Parchment", "Someplayer")
+check(not LorekeepersCodexChar.library.texts[3], "a letter written by a player is never copied")
 LorekeepersCodexFrame:Hide()
 linkHandlers.lorekeeper("lorekeeper:lib:1")
 check(LorekeepersCodexFrame.shown and LorekeepersCodexFrame.selectedTab == 2 and LorekeepersCodexLibraryPage.title.text == "The Founding of Quel'Thalas"
