@@ -1,6 +1,7 @@
--- The codex as a book: chapters and pages on the left (locked pages are
--- "· · ·"; a click on a chapter's title folds it away or opens it), the open page on parchment on the right, with links to related
--- pages. A second tab lists the achievements. /codex opens it.
+-- The codex as a book: chapters and the pages found in them on the left (a
+-- chapter's bar and count tell how many are left; a click on its title folds
+-- it away or opens it), the open page on parchment on the right, with links
+-- to related pages. A second tab lists the achievements. /codex opens it.
 local _, ns = ...
 local C = ns.content
 
@@ -198,11 +199,6 @@ function ns.refresh(scrollToCurrent)
         ns.refresh()
       end)
       y = y + 32
-    elseif kind == "locked" then
-      r.text:SetFontObject("GameFontDisableSmall")
-      r.text:SetText("· · ·")
-      r:Disable()
-      y = y + 18
     else
       r.text:SetFontObject(id == current and "GameFontNormalSmall" or "GameFontHighlightSmall")
       r.text:SetText((ns.isRead(id) and "" or "|cffffd100•|r ") .. C.entries[id].title)
@@ -248,7 +244,7 @@ function ns.refresh(scrollToCurrent)
       add("chapter", ch.title, ("%d/%d"):format(found, #ch.entries), found, #ch.entries, ch.id)
       if not folded()[ch.id] then
         for _, id in ipairs(ch.entries) do
-          if ns.page(id) then add("page", nil, id) else add("locked") end
+          if ns.page(id) then add("page", nil, id) end
         end
       end
     end

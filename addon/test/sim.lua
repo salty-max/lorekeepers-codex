@@ -404,10 +404,14 @@ local function shownRows()
   return n
 end
 local open = shownRows()
+local titles, found, loose = 0, 0, 0
+for _, ch in ipairs(C.chapters) do if ns.found(ch) > 0 then titles = titles + 1; found = found + ns.found(ch) end end
+for id, e in pairs(C.entries) do if e.chapter == "" and ns.page(id) then loose = loose + 1 end end
+check(open == titles + found + loose, "the list shows the pages found, no placeholder for the others")
 local dunRow = chapterRow(C.chapters[1].title)
 check(dunRow ~= nil, "a chapter's title carries a fold")
 dunRow.scripts.OnClick(dunRow)
-check(LorekeepersCodexChar.collapsed[C.chapters[1].id] and shownRows() == open - #C.chapters[1].entries, "clicking a chapter's title folds its pages away")
+check(LorekeepersCodexChar.collapsed[C.chapters[1].id] and shownRows() == open - ns.found(C.chapters[1]), "clicking a chapter's title folds its pages away")
 check(chapterRow(C.chapters[1].title), "… the chapter's title and progress stay")
 chapterRow(C.chapters[1].title).scripts.OnClick(chapterRow(C.chapters[1].title))
 check(not LorekeepersCodexChar.collapsed[C.chapters[1].id] and shownRows() == open, "clicking again unfolds it")
@@ -416,10 +420,6 @@ linkHandlers.lorekeeper("lorekeeper:kharanos")
 check(not LorekeepersCodexChar.collapsed[C.chapters[1].id], "a link to a page in a folded chapter unfolds it")
 check(ns.anyUnfolded(), "with a chapter open, the button folds them all")
 LorekeepersCodexFoldAll.scripts.OnClick(LorekeepersCodexFoldAll)
-local titles = 0
-for _, ch in ipairs(C.chapters) do if ns.found(ch) > 0 then titles = titles + 1 end end
-local loose = 0
-for id, e in pairs(C.entries) do if e.chapter == "" and ns.page(id) then loose = loose + 1 end end
 check(not ns.anyUnfolded() and shownRows() == titles + loose, "one click folds every chapter: only their titles remain")
 LorekeepersCodexFoldAll.scripts.OnClick(LorekeepersCodexFoldAll)
 check(ns.anyUnfolded() and next(LorekeepersCodexChar.collapsed) == nil, "… and the next unfolds them all")

@@ -8,7 +8,8 @@ Frostmane troll or a rare like Timber, finish the right quest chain: "[Kharanos]
 has been added to the codex", and the page waits in your book. Each page is a short,
 original text in the voice of a scholar of the Hall of Explorers, and it
 remembers when, at what level and where your character found it. Pages link
-to each other; locked ones wait as `· · ·`.
+to each other. A chapter lists the pages you have found, with a bar and a count
+for the rest.
 
 - **Per character**: each hero writes their own codex.
 - **Vanilla-era lore only**: what was known in Classic, no spoilers from
