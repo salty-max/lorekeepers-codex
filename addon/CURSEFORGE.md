@@ -27,9 +27,13 @@ For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of Wa
 - Chapters fold and unfold, one by one or all at once.
 - No spoilers: you only see the chapters you have opened and the pages you have found.
 
+## The Library
+
+A second tab: every book, note, letter and plaque you read in the world is copied into the codex, page by page, so you can read it again whenever you like, sorted on shelves (books, notes and letters, plaques and monuments), with where and when you found it. A book you leave half read stays unfinished until you read the rest. Letters written by players are never copied.
+
 ## Achievements
 
-A second tab in the book (`/codex achievements`): page milestones, feats (the legendary wanderers, the leaders of your side, the dungeons, the great powers at the end of the deepest lairs, a page in every chapter) and one for each chapter completed. Each remembers the day and the level you earned it.
+A third tab in the book (`/codex achievements`): page milestones, the Library, feats (the legendary wanderers, the leaders of your side, the dungeons, the great powers at the end of the deepest lairs, a page in every chapter) and one for each chapter completed. Each remembers the day and the level you earned it.
 
 ## Two packages
 

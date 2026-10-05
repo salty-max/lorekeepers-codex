@@ -173,6 +173,7 @@ ns.content.entries["t-pos"] = entry("The Great Forge", { map = 1455, x = 57, y =
 assert(loadfile(DIR .. "Core.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Achievements.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Codex.lua"))("LorekeepersCodex", ns)
+assert(loadfile(DIR .. "Library.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Minimap.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Banner.lua"))("LorekeepersCodex", ns)
 assert(loadfile(DIR .. "Settings.lua"))("LorekeepersCodex", ns)
@@ -436,6 +437,48 @@ check(not C.entries.kharanos.portrait and LorekeepersCodexPage.icon.shown and Lo
   "… a place's page a map, the icon of every place")
 LorekeepersCodexFrame:Hide()
 
+-- ── the library ──────────────────────────────────────────────────────────────
+-- The game's reader: a text, its pages, and who wrote it (players' letters).
+local reader
+local libraryFrame
+for _, f in ipairs(frames) do if f.registered.ITEM_TEXT_BEGIN then libraryFrame = f end end
+function ItemTextGetItem() return reader.title end
+function ItemTextGetMaterial() return reader.material end
+function ItemTextGetCreator() return reader.creator end
+function ItemTextGetPage() return reader.page end
+function ItemTextGetText() return reader.pages[reader.page] end
+function ItemTextHasNextPage() return reader.page < #reader.pages end
+local function readerEvent(e) libraryFrame.scripts.OnEvent(libraryFrame, e) end
+local function read(title, pages, upTo, material, creator)
+  reader = { title = title, pages = pages, page = 1, material = material or "Parchment", creator = creator }
+  readerEvent("ITEM_TEXT_BEGIN")
+  for p = 1, upTo or #pages do reader.page = p; readerEvent("ITEM_TEXT_READY") end
+  readerEvent("ITEM_TEXT_CLOSED")
+end
+printed = {}
+read("The Founding of Quel'Thalas", { "In the beginning...", "<HTML><BODY><H1>The Sunwell</H1><P>And so it was.</P></BODY></HTML>", "The end." }, 2)
+local book = LorekeepersCodexLibrary.texts[1]
+check(book and book.pages[1] and book.pages[2] and not book.pages[3] and not book.count and said("copied into the Library: |cffffd100|Hlorekeeper:lib:1|h[The Founding of Quel'Thalas]|h|r"),
+  "a book read is copied into the Library, page by page as turned, and announced with a link")
+check(LorekeepersCodexChar.library[1].zone == state.zone, "… with where it was found")
+read("The Founding of Quel'Thalas", { "In the beginning...", "<HTML><BODY><H1>The Sunwell</H1><P>And so it was.</P></BODY></HTML>", "The end." })
+check(book.pages[3] and book.count == 3 and ns.libraryShelf(book) == "books", "reading the rest completes it; several pages make a book")
+check(ns.libraryPlain(book.pages[2]) == "The Sunwell\n\nAnd so it was.", "the game's HTML becomes plain paragraphs")
+read("Ironforge plaque", { "Here stood..." }, 1, "Bronze")
+check(ns.libraryShelf(LorekeepersCodexLibrary.texts[2]) == "plaques", "texts cut in metal or stone are plaques")
+read("A letter", { "Dear friend, my secret..." }, 1, "Parchment", "Someplayer")
+check(not LorekeepersCodexLibrary.texts[3], "a letter written by a player is never copied")
+LorekeepersCodexFrame:Hide()
+linkHandlers.lorekeeper("lorekeeper:lib:1")
+check(LorekeepersCodexFrame.shown and LorekeepersCodexFrame.selectedTab == 2 and LorekeepersCodexLibraryPage.title.text == "The Founding of Quel'Thalas"
+  and LorekeepersCodexLibraryPage.body.text == "In the beginning..." and LorekeepersCodexLibraryPage.pageLabel.text == "Page 1 of 3", "a link opens the Library at the text, page 1 of 3")
+LorekeepersCodexLibraryPage.next.scripts.OnClick(LorekeepersCodexLibraryPage.next)
+check(LorekeepersCodexLibraryPage.body.text == "The Sunwell\n\nAnd so it was.", "… and its pages turn")
+local shelves = {}
+for _, r in ipairs(ns.libraryRows) do if r.shown then shelves[r.text.text] = r end end
+check(shelves.Books and shelves["Plaques and Monuments"] and not shelves["Notes and Letters"], "the shelves: only those with something on them")
+LorekeepersCodexFrame:Hide()
+
 -- ── achievements ─────────────────────────────────────────────────────────────
 local seen, missing = {}, {}
 for _, a in ipairs(ns.achievements) do
@@ -443,7 +486,7 @@ for _, a in ipairs(ns.achievements) do
 end
 for _, id in ipairs(ns.featPages) do if not C.entries[id] then table.insert(missing, id) end end
 check(#missing == 0, "every page an achievement names exists" .. (#missing > 0 and (": " .. table.concat(missing, ", ")) or ""))
-check(#ns.achievements == 9 + 4 + 9 + #C.chapters, "milestones, feats and one achievement per chapter")
+check(#ns.achievements == 9 + 4 + 9 + 4 + #C.chapters, "milestones, feats, the Library's and one achievement per chapter")
 -- A codex from before achievements: what it deserves is recorded quietly.
 for _, id in ipairs(C.chapters[2].entries) do ns.unlock(id, true) end
 LorekeepersCodexChar.achievements = {}
@@ -462,7 +505,7 @@ for _, id in ipairs({ "thrall", "cairne-bloodhoof", "sylvanas-windrunner", "volj
 check(ns.earned("leaders"), "the four leaders of either side earn Friends in High Places")
 LorekeepersCodexFrame:Hide()
 ns.openAchievements("leaders")
-check(LorekeepersCodexFrame.shown and LorekeepersCodexFrame.selectedTab == 2 and LorekeepersCodexAchievements.shown and not LorekeepersCodexList.shown, "an achievement opens the book at the achievements tab")
+check(LorekeepersCodexFrame.shown and LorekeepersCodexFrame.selectedTab == 3 and LorekeepersCodexAchievements.shown and not LorekeepersCodexList.shown, "an achievement opens the book at the achievements tab")
 check(LorekeepersCodexFrame.count.text == ("%d of %d achievements"):format(ns.achievementCount()), "… which counts them")
 local _, shown = ns.achievementCount()
 check(shown < #ns.achievements and not ns.achievementVisible(ns.achievementById["chapter-silithus"]), "… leaving out the chapters not yet opened")
@@ -473,11 +516,11 @@ LorekeepersCodexFrameTab1.scripts.OnClick(LorekeepersCodexFrameTab1)
 check(LorekeepersCodexFrame.selectedTab == 1 and LorekeepersCodexList.shown and not LorekeepersCodexAchievements.shown, "the Pages tab brings the pages back")
 LorekeepersCodexFrame:Hide()
 linkHandlers.lorekeeper("lorekeeper:ach:pages-10")
-check(LorekeepersCodexFrame.shown and LorekeepersCodexFrame.selectedTab == 2, "an achievement link in chat opens the achievements")
+check(LorekeepersCodexFrame.shown and LorekeepersCodexFrame.selectedTab == 3, "an achievement link in chat opens the achievements")
 linkHandlers.lorekeeper("lorekeeper:kharanos")
 check(LorekeepersCodexFrame.selectedTab == 1, "a page link goes back to the pages")
 SlashCmdList.LOREKEEPERSCODEX("achievements")
-check(LorekeepersCodexFrame.selectedTab == 2, "/codex achievements opens them too")
+check(LorekeepersCodexFrame.selectedTab == 3, "/codex achievements opens them too")
 SlashCmdList.LOREKEEPERSCODEX("reset yes")
 local loud = false
 for _, e in pairs(LorekeepersCodexChar.achievements) do if not e.retro then loud = true end end

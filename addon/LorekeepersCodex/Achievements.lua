@@ -118,6 +118,12 @@ add("feat", "travelled", "Well Travelled", "Find a page in every chapter of the 
     return n, #C.chapters
   end, { unit = "chapters" })
 
+-- The Library: texts read in the world, copied into the codex.
+for _, t in ipairs({ { 5, "A Shelf Begun" }, { 25, "Collector of Words" }, { 50, "The Librarian's Apprentice" }, { 100, "A Library of One's Own" } }) do
+  add("library", "library-" .. t[1], t[2], ("Copy %d texts into the Library: books, notes, letters or plaques read in the world."):format(t[1]),
+    function() return ns.libraryCount and ns.libraryCount() or 0, t[1] end)
+end
+
 -- One per chapter.
 for _, ch in ipairs(C.chapters) do
   add("chapter", "chapter-" .. ch.id, ch.title, "Find every page of this chapter.",

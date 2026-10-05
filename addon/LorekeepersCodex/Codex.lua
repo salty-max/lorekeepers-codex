@@ -370,7 +370,8 @@ local PLUS, MINUS = "Interface\\Buttons\\UI-PlusButton-Up", "Interface\\Buttons\
 -- scrollToCurrent: scroll to the open page (opening the book, a link, the banner).
 function ns.refresh(scrollToCurrent)
   if not book then return end
-  if book.selectedTab == 2 then return ns.refreshAchievements() end
+  if book.selectedTab == 3 then return ns.refreshAchievements() end
+  if book.selectedTab == 2 then return ns.refreshLibrary and ns.refreshLibrary() end
   -- Going to a page (a link, the banner) unfolds its chapter.
   local e = scrollToCurrent and current and C.entries[current]
   if e and e.chapter ~= "" then folded()[e.chapter] = nil end
@@ -481,7 +482,7 @@ end
 -- ── the achievements ──────────────────────────────────────────────────────────
 -- One row each, under its group's heading: the title (gold once earned), what
 -- it asks, and on the right when it was earned, or how far along it is.
-local GROUPS = { { "milestone", "Milestones" }, { "feat", "Feats" }, { "chapter", "Chapters" } }
+local GROUPS = { { "milestone", "Milestones" }, { "feat", "Feats" }, { "library", "The Library" }, { "chapter", "Chapters" } }
 local ROW = 50
 local ACH_WIDTH = 700
 local achRows, headers = {}, {}
@@ -596,18 +597,26 @@ end
 
 -- The book's two tabs, under its bottom edge, in the style of the character
 -- sheet's.
+-- The tabs: 1 the pages, 2 the Library (Library.lua: its own list and page
+-- in the same panels), 3 the achievements.
 function ns.showTab(n)
   if not book then return end
   book.selectedTab = n
   if PanelTemplates_SetTab then PanelTemplates_SetTab(book, n) end
-  book.left:SetShown(n == 1)
-  book.search:SetShown(n == 1)
+  if n == 2 and not rawget(book, "libraryList") and ns.buildLibrary then ns.buildLibrary(book) end
+  book.left:SetShown(n ~= 3)
+  book.sheet:SetShown(n ~= 3)
+  book.search:SetShown(n ~= 3)
   book.foldAll:SetShown(n == 1)
   list:SetShown(n == 1)
-  book.sheet:SetShown(n == 1)
-  book.achPanel:SetShown(n == 2)
-  achievements:SetShown(n == 2)
-  if n == 2 then ns.refreshAchievements() else ns.refresh(true) end
+  page:SetShown(n == 1)
+  if rawget(book, "libraryList") then
+    book.libraryList:SetShown(n == 2)
+    book.libraryPage:SetShown(n == 2)
+  end
+  book.achPanel:SetShown(n == 3)
+  achievements:SetShown(n == 3)
+  if n == 3 then ns.refreshAchievements() else ns.refresh(true) end
 end
 
 -- The character sheet's tabs on Classic; the shared panel tabs where that
@@ -619,7 +628,7 @@ end
 
 local function buildTabs()
   local template = hasTemplate("CharacterFrameTabButtonTemplate") and "CharacterFrameTabButtonTemplate" or "PanelTabButtonTemplate"
-  for n, text in ipairs({ "Pages", "Achievements" }) do
+  for n, text in ipairs({ "Pages", "Library", "Achievements" }) do
     local tab = CreateFrame("Button", "LorekeepersCodexFrameTab" .. n, book, template)
     tab:SetID(n)
     tab:SetText(text)
@@ -635,7 +644,7 @@ local function buildTabs()
     end)
     if PanelTemplates_TabResize then PanelTemplates_TabResize(tab, 0) end
   end
-  if PanelTemplates_SetNumTabs then PanelTemplates_SetNumTabs(book, 2) end
+  if PanelTemplates_SetNumTabs then PanelTemplates_SetNumTabs(book, 3) end
   book.selectedTab = 1
   if PanelTemplates_SetTab then PanelTemplates_SetTab(book, 1) end
 end
@@ -645,7 +654,7 @@ function ns.openAchievements(id)
   if not book then build() end
   selected = id
   if not book:IsShown() then book:Show() end
-  ns.showTab(2)
+  ns.showTab(3)
 end
 
 -- ── the book ─────────────────────────────────────────────────────────────────
@@ -817,6 +826,8 @@ end
 local function followLink(link)
   local id = link:match("^lorekeeper:(.+)$")
   if not id then return end
+  local text = tonumber(id:match("^lib:(%d+)$"))
+  if text then return ns.openText and ns.openText(text) end
   local achievement = id:match("^ach:(.+)$")
   if achievement then ns.openAchievements(achievement) else ns.open(id) end
 end
@@ -836,3 +847,10 @@ ns.onUnlock = function()
   if book and book:IsShown() then ns.refresh() end
 end
 ns.onAchievement = ns.onUnlock
+
+-- The book's look, for the Library's pages (Library.lua).
+ns.ui = {
+  T = T, TITLE_FONT = TITLE_FONT, BODY_FONT = BODY_FONT, WIDTH = WIDTH, HEADER_H = HEADER_H,
+  label = label, rule = rule, roundIcon = roundIcon, scrollArea = scrollArea,
+  book = function() return book end, build = function() if not book then build() end return book end,
+}

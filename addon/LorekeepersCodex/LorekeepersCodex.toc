@@ -4,7 +4,7 @@
 ## Author: salty-max
 ## Version: 0.6.3
 ## SavedVariablesPerCharacter: LorekeepersCodexChar
-## SavedVariables: LorekeepersCodexSettings, LorekeepersCodexScan
+## SavedVariables: LorekeepersCodexSettings, LorekeepersCodexScan, LorekeepersCodexLibrary
 ## IconTexture: Interface\Icons\INV_Misc_Book_09
 ## X-Website: https://github.com/salty-max/lorekeepers-codex
 ## X-License: MIT
@@ -13,6 +13,7 @@ Content.lua
 Core.lua
 Achievements.lua
 Codex.lua
+Library.lua
 Minimap.lua
 Banner.lua
 Settings.lua

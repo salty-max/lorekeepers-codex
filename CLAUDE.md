@@ -23,7 +23,10 @@ original lore texts that unlock per character as they play. Sister project of
 - `addon/LorekeepersCodex/`: `Core.lua` (unlock engine: areas, npcs talked to or
   targeted, kills (combat log PARTY_KILL by you or your pet), quests incl. ones
   done before, reputations, map positions; per-character SavedVariables
-  `LorekeepersCodexChar`; `/codex`, `/codex where`), `Codex.lua` (the book UI).
+  `LorekeepersCodexChar`; `/codex`, `/codex where`), `Codex.lua` (the book UI: Pages, Library, Achievements tabs),
+  `Library.lua` (books, notes, plaques read in the world, copied page by page
+  from the game's reader into the account-wide `LorekeepersCodexLibrary`; players'
+  letters never; the Library tab).
 - `addon/test/sim.lua`: fake WoW API + a replayed session; the UI runs against a
   permissive stub (catches Lua errors, not layout).
 
