@@ -2,6 +2,7 @@
 id: mosshide-gnolls
 title: The Mosshide Gnolls
 kind: faction
+portrait: 1007
 unlock:
   - kill: 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014 # every Mosshide
   - area: Mosshide Fen

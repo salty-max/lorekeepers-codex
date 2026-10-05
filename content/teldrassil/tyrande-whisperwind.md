@@ -2,6 +2,7 @@
 id: tyrande-whisperwind
 title: Tyrande Whisperwind
 kind: figure
+portrait: 7999
 unlock:
   - npc: 7999
 also: [darnassus, cenarion-circle, fandral-staghelm]

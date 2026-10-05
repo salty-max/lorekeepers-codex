@@ -2,6 +2,7 @@
 id: murlocs
 title: The Murlocs
 kind: creature
+portrait: 46
 unlock:
   - kill: 46, 126, 127, 171, 285, 391, 422, 456, 458, 513, 515, 517, 544, 545
   - kill: 548, 578, 732, 735, 747, 750, 751, 752, 871, 873, 875, 877, 879, 1024

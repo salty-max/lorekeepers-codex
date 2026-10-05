@@ -2,6 +2,7 @@
 id: sylvanas-windrunner
 title: Lady Sylvanas Windrunner
 kind: figure
+portrait: 10181
 unlock:
   - npc: 10181
 also: [the-forsaken, undercity, varimathras, fall-of-lordaeron]

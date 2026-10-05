@@ -2,6 +2,7 @@
 id: black-dragonflight
 title: The Black Dragonflight
 kind: creature
+portrait: 7044
 unlock:
   - kill: 441, 2725, 4323, 4324, 7040, 7041, 7042, 7043, 7044, 7045, 7046, 7047, 7048, 7049
   - kill: 9096, 9461, 10083, 10366, 10371, 10372, 11262, 12129, 12260, 12422, 12460, 12463, 12464, 12465

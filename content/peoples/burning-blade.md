@@ -2,6 +2,7 @@
 id: burning-blade
 title: The Burning Blade
 kind: faction
+portrait: 3195
 unlock:
   - kill: 3195, 3196, 3197, 3198, 3199, 3204, 3379, 3380, 4663, 4664, 4665, 4666, 4667, 4668
   - kill: 4705, 5822, 11322, 11323, 11324, 11518, 11519, 12319, 12320, 13019

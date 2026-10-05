@@ -2,6 +2,7 @@
 id: onu
 title: Onu
 kind: figure
+portrait: 3616
 unlock:
   - npc: 3616
   - area: Grove of the Ancients (Darkshore)

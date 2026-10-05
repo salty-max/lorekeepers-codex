@@ -2,6 +2,7 @@
 id: blackrock-clan
 title: The Blackrock Clan
 kind: faction
+portrait: 435
 unlock:
   - kill: 334, 435, 436, 437, 440, 485, 486, 615, 4064, 4065, 4462, 4463, 4464, 7025
   - kill: 7026, 7027, 7028, 7029, 9237, 9522, 9583, 9605, 9693, 9716, 9717, 9817, 9818, 9819

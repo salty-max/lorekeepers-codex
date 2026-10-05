@@ -2,6 +2,7 @@
 id: thorium-brotherhood
 title: The Thorium Brotherhood
 kind: faction
+portrait: 12944
 unlock:
   - area: Thorium Point
   - reputation: 59 friendly

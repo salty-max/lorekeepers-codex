@@ -423,6 +423,15 @@ LorekeepersCodexFoldAll.scripts.OnClick(LorekeepersCodexFoldAll)
 check(not ns.anyUnfolded() and shownRows() == titles + loose, "one click folds every chapter: only their titles remain")
 LorekeepersCodexFoldAll.scripts.OnClick(LorekeepersCodexFoldAll)
 check(ns.anyUnfolded() and next(LorekeepersCodexChar.collapsed) == nil, "… and the next unfolds them all")
+-- Portraits: the game's still portrait of a page's creature, only where the
+-- page is about one.
+SetPortraitTextureFromCreatureDisplayID = function(tex, display) tex.display = display end
+ns.unlock("magni-bronzebeard")
+ns.open("magni-bronzebeard")
+check(C.entries["magni-bronzebeard"].portrait and LorekeepersCodexPage.icon.shown
+  and LorekeepersCodexPage.icon.tex.display == C.entries["magni-bronzebeard"].portrait, "a figure's page shows the figure's portrait")
+ns.open("kharanos")
+check(not C.entries.kharanos.portrait and not LorekeepersCodexPage.icon.shown, "… a place's page none")
 LorekeepersCodexFrame:Hide()
 
 -- ── achievements ─────────────────────────────────────────────────────────────

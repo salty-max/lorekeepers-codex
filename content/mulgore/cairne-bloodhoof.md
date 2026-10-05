@@ -2,6 +2,7 @@
 id: cairne-bloodhoof
 title: Cairne Bloodhoof
 kind: figure
+portrait: 3057
 unlock:
   - npc: 3057
 also: [thunder-bluff, thrall, centaurs, grimtotem]

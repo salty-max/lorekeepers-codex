@@ -2,6 +2,7 @@
 id: voljin
 title: Vol'jin
 kind: figure
+portrait: 10540
 unlock:
   - npc: 10540
 also: [darkspear-trolls, thrall, orgrimmar]

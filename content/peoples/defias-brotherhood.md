@@ -2,6 +2,7 @@
 id: defias-brotherhood
 title: The Defias Brotherhood
 kind: faction
+portrait: 116
 unlock:
   - kill: 38, 94, 95, 116, 121, 122, 215, 449, 450, 474, 481, 504, 550, 583
   - kill: 589, 590, 594, 598, 619, 634, 636, 639, 643, 644, 645, 646, 647, 657

@@ -2,6 +2,7 @@
 id: the-embalmer
 title: The Embalmer
 kind: creature
+portrait: 412
 unlock:
   - kill: 412, 314
   - quest: 253

@@ -2,6 +2,7 @@
 id: nekrosh
 title: Chieftain Nek'rosh
 kind: figure
+portrait: 2091
 unlock:
   - kill: 2091 # Chieftain Nek'rosh
   - quest: 474 # Defeat Nek'rosh

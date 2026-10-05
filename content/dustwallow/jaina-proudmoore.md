@@ -2,6 +2,7 @@
 id: jaina-proudmoore
 title: Lady Jaina Proudmoore
 kind: figure
+portrait: 4968
 unlock:
   - npc: 4968
 also: [theramore-isle, thrall, tiragarde-keep, fall-of-lordaeron]

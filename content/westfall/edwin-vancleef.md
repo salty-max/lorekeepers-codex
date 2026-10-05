@@ -2,6 +2,7 @@
 id: edwin-vancleef
 title: Edwin VanCleef
 kind: figure
+portrait: 639
 unlock:
   - kill: 639
   - quest: 166

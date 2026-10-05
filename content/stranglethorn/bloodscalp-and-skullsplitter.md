@@ -2,6 +2,7 @@
 id: bloodscalp-and-skullsplitter
 title: The Bloodscalp and the Skullsplitter
 kind: faction
+portrait: 587
 unlock:
   - kill: 587, 588, 595, 597, 660, 671, 694, 697, 698, 699, 701, 702
   - kill: 667, 669, 670, 672, 696, 756, 780, 781, 782, 783, 784

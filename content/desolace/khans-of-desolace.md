@@ -2,6 +2,7 @@
 id: khans-of-desolace
 title: The Khans of Desolace
 kind: faction
+portrait: 5601
 unlock:
   - area: Kolkar Village (Desolace)
   - area: Gelkis Village (Desolace)

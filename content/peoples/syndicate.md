@@ -2,6 +2,7 @@
 id: syndicate
 title: The Syndicate
 kind: faction
+portrait: 2240
 unlock:
   - kill: 2240, 2241, 2242, 2243, 2244, 2245, 2246, 2247, 2260, 2261, 2306, 2319, 2423, 2586
   - kill: 2587, 2588, 2589, 2590, 2591, 2597, 2599, 2638

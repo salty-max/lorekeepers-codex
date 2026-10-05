@@ -2,6 +2,7 @@
 id: dagran-thaurissan
 title: Emperor Dagran Thaurissan
 kind: figure
+portrait: 9019
 unlock:
   - kill: 9019
 also: [ruins-of-thaurissan, moira-bronzebeard, ragnaros, blackrock-depths, dark-iron-dwarves, mekgineer-thermaplugg]

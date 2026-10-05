@@ -2,6 +2,7 @@
 id: azuregos
 title: Azuregos
 kind: figure
+portrait: 6109
 unlock:
   - kill: 6109
   - npc: 6109

@@ -2,6 +2,7 @@
 id: sandfury-trolls
 title: The Sandfury Trolls
 kind: faction
+portrait: 5645
 unlock:
   - kill: 5645, 5646, 5647, 5648, 5649, 5650, 7246, 7247, 7267, 7268, 7271, 7274, 7275, 7787, 7788, 7789, 7795, 7796, 7797, 8127, 8876, 8877, 11387
 also: [zulfarrak, tanaris, hakkar, silithid]

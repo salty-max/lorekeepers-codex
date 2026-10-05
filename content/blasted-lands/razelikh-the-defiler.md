@@ -2,6 +2,7 @@
 id: razelikh-the-defiler
 title: Razelikh the Defiler
 kind: figure
+portrait: 7664
 unlock:
   - kill: 7664
   - quest: 3628

@@ -2,6 +2,7 @@
 id: myzrael
 title: Myzrael
 kind: figure
+portrait: 2755
 unlock:
   - kill: 2755
   - quest: 656

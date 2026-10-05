@@ -2,6 +2,7 @@
 id: furbolgs
 title: The Furbolgs
 kind: creature
+portrait: 2008
 unlock:
   - area: Timbermaw Hold (Felwood)
   - area: Timbermaw Hold (Azshara)

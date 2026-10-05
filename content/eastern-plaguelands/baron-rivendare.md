@@ -2,6 +2,7 @@
 id: baron-rivendare
 title: Baron Rivendare
 kind: figure
+portrait: 10440
 unlock:
   - kill: 10440
 also: [stratholme, kelthuzad, argent-dawn]

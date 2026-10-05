@@ -2,6 +2,7 @@
 id: whitemane-and-mograine
 title: Whitemane and Mograine
 kind: figure
+portrait: 3977
 unlock:
   - kill: 3977, 3976
 also: [scarlet-monastery, scarlet-crusade]

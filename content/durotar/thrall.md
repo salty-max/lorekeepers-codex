@@ -2,6 +2,7 @@
 id: thrall
 title: Thrall
 kind: figure
+portrait: 4949
 unlock:
   - npc: 4949
 also: [orgrimmar, durotar, eitrigg, voljin]

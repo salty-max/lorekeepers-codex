@@ -2,6 +2,7 @@
 id: the-lost-ones
 title: The Lost Ones
 kind: creature
+portrait: 759
 unlock:
   - kill: 755, 757, 759, 760, 761, 762, 763, 1106, 6913
   - area: Fallow Sanctuary

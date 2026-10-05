@@ -2,6 +2,7 @@
 id: magni-bronzebeard
 title: King Magni Bronzebeard
 kind: figure
+portrait: 2784
 unlock:
   - npc: 2784 # King Magni Bronzebeard, the High Seat
 also: [war-of-the-three-hammers]

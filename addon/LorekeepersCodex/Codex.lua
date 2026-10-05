@@ -1,8 +1,9 @@
 -- The codex as a book, in a standard game window (portrait, title bar), as
 -- Explorer's Field Journal. On the left, the chapters and the pages found in
 -- them (a chapter's bar and count tell how many are left; a click on its title
--- folds it away or opens it); on the right, the open page: an icon of its
--- kind, its title and chapter, the text, and links to related pages. A second
+-- folds it away or opens it); on the right, the open page: its title, its
+-- chapter and kind (with, for a figure, a creature or a faction, the game's
+-- still portrait of it), the text, and links to related pages. A second
 -- tab lists the achievements. Light text and gold titles on dark panels:
 -- Forever's Professions cards; on Classic, the game's insets and the quest
 -- log's dark book behind the list. /codex opens it.
@@ -136,7 +137,7 @@ local function scrollArea(name, parent, width)
   return s
 end
 
--- A round icon in a gold ring (the page's kind).
+-- A round portrait in a gold ring.
 local MASK = "Interface\\CharacterFrame\\TempPortraitAlphaMask"
 local function roundIcon(parent, size)
   local p = CreateFrame("Frame", nil, parent)
@@ -148,7 +149,6 @@ local function roundIcon(parent, size)
   p.ring:SetSize(size + 4, size + 4)
   p.tex = p:CreateTexture(nil, "ARTWORK")
   p.tex:SetAllPoints()
-  p.tex:SetTexCoord(0.08, 0.92, 0.08, 0.92)
   local mask = p:CreateMaskTexture()
   mask:SetTexture(MASK, "CLAMPTOBLACKADDITIVE", "CLAMPTOBLACKADDITIVE")
   mask:SetAllPoints(p.tex)
@@ -156,15 +156,8 @@ local function roundIcon(parent, size)
   return p
 end
 
--- What a page is about, said with an icon and a word.
-local KINDS = {
-  place = { "Place", "Interface\\Icons\\INV_Misc_Map_01" },
-  figure = { "Figure", "Interface\\Icons\\INV_Misc_Head_Human_01" },
-  faction = { "Faction", "Interface\\Icons\\INV_BannerPVP_02" },
-  creature = { "Creature", "Interface\\Icons\\INV_Misc_Head_Dragon_01" },
-  history = { "History", "Interface\\Icons\\INV_Misc_Book_11" },
-  note = { "Note", "Interface\\Icons\\INV_Scroll_03" },
-}
+-- What a page is about, in a word.
+local KINDS = { place = "Place", figure = "Figure", faction = "Faction", creature = "Creature", history = "History", note = "Note" }
 local chapterTitle = {}
 for _, ch in ipairs(C.chapters) do chapterTitle[ch.id] = ch.title end
 
@@ -180,11 +173,23 @@ local function showPage(id)
   local e = C.entries[id]
   if not e or not ns.page(id) then return end
   ns.markRead(id)
-  local kind = KINDS[e.kind] or KINDS.note
-  page.icon.tex:SetTexture(kind[2])
+  -- The portrait of the page's creature (a figure, a typical one, a leader),
+  -- or none: the title then starts at the edge.
+  local portrait = e.portrait and SetPortraitTextureFromCreatureDisplayID
+  page.icon:SetShown(portrait and true or false)
+  if portrait then SetPortraitTextureFromCreatureDisplayID(page.icon.tex, e.portrait) end
+  page.title:ClearAllPoints()
+  if portrait then
+    page.title:SetPoint("TOPLEFT", page.icon, "TOPRIGHT", 16, -4)
+  else
+    page.title:SetPoint("TOPLEFT", page.child, "TOPLEFT", 0, -10)
+  end
+  page.title:SetWidth(portrait and WIDTH - 78 or WIDTH)
+  page.sub:SetWidth(portrait and WIDTH - 78 or WIDTH)
   page.title:SetText(e.title)
+  local kind = KINDS[e.kind] or KINDS.note
   local chapter = e.chapter ~= "" and chapterTitle[e.chapter]
-  page.sub:SetText(chapter and (chapter .. "  -  " .. kind[1]) or kind[1])
+  page.sub:SetText(chapter and (chapter .. "  -  " .. kind) or kind)
   local paras = {}
   for _, para in ipairs(e.text) do
     if not para.client or para.client == ns.client then table.insert(paras, para[1]) end
@@ -714,7 +719,7 @@ function build()
   page:SetPoint("BOTTOMRIGHT", sheet, "BOTTOMRIGHT", -22, 14)
   page.scroll = page
 
-  -- The header: the kind's icon, the title, the chapter and kind; a line.
+  -- The header: a portrait (some pages), the title, the chapter and kind; a line.
   page.icon = roundIcon(page.child, 56)
   page.icon:SetPoint("TOPLEFT", 2, -2)
   page.title = label(page.child, TITLE_FONT, 24, T.gold)

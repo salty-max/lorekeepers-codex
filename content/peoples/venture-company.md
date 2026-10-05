@@ -2,6 +2,7 @@
 id: venture-company
 title: The Venture Company
 kind: faction
+portrait: 674
 unlock:
   - kill: 674, 675, 676, 677, 921, 1094, 1095, 1096, 1097, 2975, 2976, 2977, 2978, 2979
   - kill: 3282, 3283, 3284, 3285, 3286, 3988, 3989, 3991, 3992, 3993, 4070, 4260, 7067, 7307

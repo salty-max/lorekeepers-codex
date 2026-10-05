@@ -2,6 +2,7 @@
 id: night-watch
 title: The Night Watch
 kind: faction
+portrait: 264
 unlock:
   - npc: 264
 also: [darkshire, morladim, duskwood]

@@ -2,6 +2,7 @@
 id: eitrigg
 title: Eitrigg
 kind: figure
+portrait: 3144
 unlock:
   - npc: 3144
 also: [thrall, blackrock-clan]

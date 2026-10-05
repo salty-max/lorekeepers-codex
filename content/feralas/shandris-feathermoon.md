@@ -2,6 +2,7 @@
 id: shandris-feathermoon
 title: Shandris Feathermoon
 kind: figure
+portrait: 3936
 unlock:
   - npc: 3936
 also: [tyrande-whisperwind, feathermoon-stronghold, burning-legion, satyrs]

@@ -2,6 +2,7 @@
 id: stormpike-guard
 title: The Stormpike Guard
 kind: faction
+portrait: 11948
 unlock:
   - npc: 11948
   - reputation: 730 friendly

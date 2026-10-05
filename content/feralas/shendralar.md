@@ -2,6 +2,7 @@
 id: shendralar
 title: The Shen'dralar
 kind: faction
+portrait: 14368
 unlock:
   - npc: 14368
   - kill: 11486

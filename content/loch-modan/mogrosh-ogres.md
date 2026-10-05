@@ -2,6 +2,7 @@
 id: mogrosh-ogres
 title: The Mo'grosh Ogres
 kind: faction
+portrait: 1178
 unlock:
   - kill: 1178, 1179, 1180, 1181, 1183 # Mo'grosh Ogre, Enforcer, Brute, Shaman, Mystic
   - area: Mo'grosh Stronghold

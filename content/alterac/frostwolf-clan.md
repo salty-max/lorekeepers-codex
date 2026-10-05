@@ -2,6 +2,7 @@
 id: frostwolf-clan
 title: The Frostwolf Clan
 kind: faction
+portrait: 11946
 unlock:
   - npc: 11946
   - reputation: 729 friendly

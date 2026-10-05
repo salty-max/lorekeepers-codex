@@ -2,6 +2,7 @@
 id: eranikus
 title: Eranikus
 kind: figure
+portrait: 5709
 unlock:
   - kill: 5709
   - area: Itharius's Cave

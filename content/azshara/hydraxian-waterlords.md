@@ -2,6 +2,7 @@
 id: hydraxian-waterlords
 title: The Hydraxian Waterlords
 kind: faction
+portrait: 13278
 unlock:
   - npc: 13278
   - reputation: 749 friendly

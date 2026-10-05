@@ -2,6 +2,7 @@
 id: cenarion-circle
 title: The Cenarion Circle
 kind: faction
+portrait: 11832
 unlock:
   - npc: 11832, 5769
   - reputation: 609 friendly

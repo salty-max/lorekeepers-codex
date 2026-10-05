@@ -17,6 +17,9 @@ original lore texts that unlock per character as they play. Sister project of
   source folder is not installable). Releases attach both zips.
 - `data/areas.json`: the client's AreaTable (wago.tools, `bun scripts/areas.ts`):
   place names in content resolve to area ids, so unlocks work in every language.
+- `data/portraits.json`: display ids of the creatures pages name as their
+  `portrait:` (figures, creatures, factions only; never a guess), from the
+  pinned CMaNGOS database (`python3 scripts/portraits.py`, after adding one).
 - `addon/LorekeepersCodex/`: `Core.lua` (unlock engine: areas, npcs talked to or
   targeted, kills (combat log PARTY_KILL by you or your pet), quests incl. ones
   done before, reputations, map positions; per-character SavedVariables

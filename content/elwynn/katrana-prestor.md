@@ -2,6 +2,7 @@
 id: katrana-prestor
 title: Lady Katrana Prestor
 kind: figure
+portrait: 1749
 unlock:
   - npc: 1749
 also: [regency-of-stormwind, great-masquerade]

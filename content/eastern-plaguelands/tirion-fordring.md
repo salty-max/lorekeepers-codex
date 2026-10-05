@@ -2,6 +2,7 @@
 id: tirion-fordring
 title: Tirion Fordring
 kind: figure
+portrait: 1855
 unlock:
   - npc: 1855
 also: [eitrigg, hearthglen, scarlet-crusade, stratholme]

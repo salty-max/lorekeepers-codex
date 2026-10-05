@@ -2,6 +2,7 @@
 id: varimathras
 title: Varimathras
 kind: figure
+portrait: 2425
 unlock:
   - npc: 2425
 also: [sylvanas-windrunner, burning-legion, undercity]

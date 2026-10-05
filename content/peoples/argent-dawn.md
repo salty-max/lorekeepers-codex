@@ -2,6 +2,7 @@
 id: argent-dawn
 title: The Argent Dawn
 kind: faction
+portrait: 10840
 unlock:
   - npc: 10839, 10856, 10840, 10857, 11034, 11039
   - reputation: 529 friendly

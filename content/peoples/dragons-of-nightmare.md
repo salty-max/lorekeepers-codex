@@ -2,6 +2,7 @@
 id: dragons-of-nightmare
 title: The Dragons of Nightmare
 kind: creature
+portrait: 14887
 unlock:
   - kill: 14887, 14888, 14889, 14890
   - npc: 14887, 14888, 14889, 14890

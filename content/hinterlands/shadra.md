@@ -2,6 +2,7 @@
 id: shadra
 title: Shadra
 kind: figure
+portrait: 2707
 unlock:
   - kill: 2707
   - quest: 2937

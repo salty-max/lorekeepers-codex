@@ -2,6 +2,7 @@
 id: hakkar
 title: Hakkar the Soulflayer
 kind: figure
+portrait: 14834
 unlock:
   - kill: 14834
   - quest: 8183

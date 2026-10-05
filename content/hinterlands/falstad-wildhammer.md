@@ -2,6 +2,7 @@
 id: falstad-wildhammer
 title: Falstad Wildhammer
 kind: figure
+portrait: 5635
 unlock:
   - npc: 5635
 also: [wildhammer-clan, aerie-peak]

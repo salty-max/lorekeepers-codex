@@ -2,6 +2,7 @@
 id: morganth
 title: Morganth
 kind: figure
+portrait: 397
 unlock:
   - kill: 397
   - area: Tower of Ilgalar

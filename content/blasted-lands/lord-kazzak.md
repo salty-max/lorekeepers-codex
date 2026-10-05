@@ -2,6 +2,7 @@
 id: lord-kazzak
 title: Lord Kazzak
 kind: figure
+portrait: 12397
 unlock:
   - kill: 12397
   - area: The Tainted Scar (Blasted Lands)

@@ -2,6 +2,7 @@
 id: church-of-the-holy-light
 title: The Church of the Holy Light
 kind: faction
+portrait: 1284
 unlock:
   - npc: 1284, 1212
 also: [northshire-abbey, stormwind-city]

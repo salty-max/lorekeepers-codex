@@ -2,6 +2,7 @@
 id: dragonmaw-clan
 title: The Dragonmaw Clan
 kind: faction
+portrait: 1034
 unlock:
   - kill: 1034, 1035, 1036, 1037, 1038, 1057, 2102, 2103 # every Dragonmaw of the Wetlands
   - area: Angerfang Encampment

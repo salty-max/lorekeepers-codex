@@ -2,6 +2,7 @@
 id: leper-gnomes
 title: The Leper Gnomes
 kind: creature
+portrait: 1211
 unlock:
   - kill: 1211 # Leper Gnome
 also: [gnomeregan, gnomeregan-exiles]

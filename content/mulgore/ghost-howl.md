@@ -2,6 +2,7 @@
 id: ghost-howl
 title: Ghost Howl
 kind: creature
+portrait: 3056
 unlock:
   - kill: 3056
   - quest: 770

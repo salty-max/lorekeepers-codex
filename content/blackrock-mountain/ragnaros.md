@@ -2,6 +2,7 @@
 id: ragnaros
 title: Ragnaros
 kind: figure
+portrait: 11502
 unlock:
   - kill: 11502
 also: [molten-core, dagran-thaurissan, ruins-of-thaurissan, war-of-the-three-hammers, nefarian]

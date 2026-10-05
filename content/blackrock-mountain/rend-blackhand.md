@@ -2,6 +2,7 @@
 id: rend-blackhand
 title: Warchief Rend Blackhand
 kind: figure
+portrait: 10429
 unlock:
   - kill: 10429
 also: [blackrock-clan, blackrock-spire, nefarian, thrall, eitrigg]

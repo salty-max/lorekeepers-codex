@@ -1,0 +1,450 @@
+{
+ "46": {
+  "name": "Murloc Forager",
+  "display": 441
+ },
+ "80": {
+  "name": "Kobold Laborer",
+  "display": 365
+ },
+ "116": {
+  "name": "Defias Bandit",
+  "display": 2357
+ },
+ "117": {
+  "name": "Riverpaw Gnoll",
+  "display": 175
+ },
+ "234": {
+  "name": "Gryan Stoutmantle",
+  "display": 1690
+ },
+ "264": {
+  "name": "Commander Althea Ebonlocke",
+  "display": 4322
+ },
+ "315": {
+  "name": "Stalvan Mistmantle",
+  "display": 1562
+ },
+ "332": {
+  "name": "Master Mathias Shaw",
+  "display": 1736
+ },
+ "334": {
+  "name": "Gath'Ilzogg",
+  "display": 6050
+ },
+ "397": {
+  "name": "Morganth",
+  "display": 3383
+ },
+ "412": {
+  "name": "Stitches",
+  "display": 1693
+ },
+ "435": {
+  "name": "Blackrock Champion",
+  "display": 6044
+ },
+ "448": {
+  "name": "Hogger",
+  "display": 384
+ },
+ "522": {
+  "name": "Mor'Ladim",
+  "display": 612
+ },
+ "587": {
+  "name": "Bloodscalp Warrior",
+  "display": 4570
+ },
+ "639": {
+  "name": "Edwin VanCleef",
+  "display": 2029
+ },
+ "674": {
+  "name": "Venture Co. Strip Miner",
+  "display": 7202
+ },
+ "678": {
+  "name": "Mosh'Ogg Mauler",
+  "display": 416
+ },
+ "707": {
+  "name": "Rockjaw Trogg",
+  "display": 606
+ },
+ "759": {
+  "name": "Lost One Hunter",
+  "display": 152
+ },
+ "898": {
+  "name": "Nightbane Worgen",
+  "display": 657
+ },
+ "1007": {
+  "name": "Mosshide Gnoll",
+  "display": 3199
+ },
+ "1034": {
+  "name": "Dragonmaw Raider",
+  "display": 4916
+ },
+ "1045": {
+  "name": "Red Dragonspawn",
+  "display": 363
+ },
+ "1051": {
+  "name": "Dark Iron Dwarf",
+  "display": 825
+ },
+ "1120": {
+  "name": "Frostmane Troll",
+  "display": 5608
+ },
+ "1132": {
+  "name": "Timber",
+  "display": 11422
+ },
+ "1135": {
+  "name": "Wendigo",
+  "display": 950
+ },
+ "1178": {
+  "name": "Mo'grosh Ogre",
+  "display": 1122
+ },
+ "1211": {
+  "name": "Leper Gnome",
+  "display": 6921
+ },
+ "1284": {
+  "name": "Archbishop Benedictus",
+  "display": 5072
+ },
+ "1495": {
+  "name": "Deathguard Linnea",
+  "display": 2858
+ },
+ "1520": {
+  "name": "Rattlecage Soldier",
+  "display": 200
+ },
+ "1535": {
+  "name": "Scarlet Warrior",
+  "display": 2471
+ },
+ "1561": {
+  "name": "Bloodsail Raider",
+  "display": 793
+ },
+ "1749": {
+  "name": "Lady Katrana Prestor",
+  "display": 8769
+ },
+ "1855": {
+  "name": "Tirion Fordring",
+  "display": 9477
+ },
+ "1947": {
+  "name": "Thule Ravenclaw",
+  "display": 4430
+ },
+ "2008": {
+  "name": "Gnarlpine Warrior",
+  "display": 6800
+ },
+ "2055": {
+  "name": "Master Apothecary Faranell",
+  "display": 1680
+ },
+ "2091": {
+  "name": "Chieftain Nek'rosh",
+  "display": 4915
+ },
+ "2181": {
+  "name": "Stormscale Myrmidon",
+  "display": 4036
+ },
+ "2240": {
+  "name": "Syndicate Footpad",
+  "display": 3706
+ },
+ "2425": {
+  "name": "Varimathras",
+  "display": 11658
+ },
+ "2496": {
+  "name": "Baron Revilgaz",
+  "display": 7167
+ },
+ "2552": {
+  "name": "Witherbark Troll",
+  "display": 3986
+ },
+ "2707": {
+  "name": "Shadra",
+  "display": 7536
+ },
+ "2755": {
+  "name": "Myzrael",
+  "display": 1165
+ },
+ "2784": {
+  "name": "King Magni Bronzebeard",
+  "display": 3597
+ },
+ "2962": {
+  "name": "Windfury Harpy",
+  "display": 10877
+ },
+ "2967": {
+  "name": "Galak Centaur",
+  "display": 9410
+ },
+ "3056": {
+  "name": "Ghost Howl",
+  "display": 720
+ },
+ "3057": {
+  "name": "Cairne Bloodhoof",
+  "display": 4307
+ },
+ "3111": {
+  "name": "Razormane Quilboar",
+  "display": 1218
+ },
+ "3144": {
+  "name": "Eitrigg",
+  "display": 1619
+ },
+ "3195": {
+  "name": "Burning Blade Thug",
+  "display": 4188
+ },
+ "3252": {
+  "name": "Silithid Swarmer",
+  "display": 2731
+ },
+ "3381": {
+  "name": "Southsea Brigand",
+  "display": 3829
+ },
+ "3516": {
+  "name": "Arch Druid Fandral Staghelm",
+  "display": 1542
+ },
+ "3616": {
+  "name": "Onu",
+  "display": 1455
+ },
+ "3669": {
+  "name": "Lord Cobrahn",
+  "display": 4213
+ },
+ "3754": {
+  "name": "Xavian Betrayer",
+  "display": 11344
+ },
+ "3772": {
+  "name": "Lesser Felguard",
+  "display": 5049
+ },
+ "3936": {
+  "name": "Shandris Feathermoon",
+  "display": 2035
+ },
+ "3977": {
+  "name": "High Inquisitor Whitemane",
+  "display": 2043
+ },
+ "4275": {
+  "name": "Archmage Arugal",
+  "display": 2353
+ },
+ "4809": {
+  "name": "Twilight Acolyte",
+  "display": 2882
+ },
+ "4949": {
+  "name": "Thrall",
+  "display": 4527
+ },
+ "4968": {
+  "name": "Lady Jaina Proudmoore",
+  "display": 2970
+ },
+ "5387": {
+  "name": "High Explorer Magellas",
+  "display": 3596
+ },
+ "5601": {
+  "name": "Khan Jehn",
+  "display": 9433
+ },
+ "5635": {
+  "name": "Falstad Wildhammer",
+  "display": 7005
+ },
+ "5645": {
+  "name": "Sandfury Hideskinner",
+  "display": 6413
+ },
+ "5709": {
+  "name": "Shade of Eranikus",
+  "display": 7806
+ },
+ "5769": {
+  "name": "Arch Druid Hamuul Runetotem",
+  "display": 4519
+ },
+ "6109": {
+  "name": "Azuregos",
+  "display": 11460
+ },
+ "7044": {
+  "name": "Black Drake",
+  "display": 6374
+ },
+ "7572": {
+  "name": "Fallen Hero of the Horde",
+  "display": 6775
+ },
+ "7664": {
+  "name": "Razelikh the Defiler",
+  "display": 10543
+ },
+ "7725": {
+  "name": "Grimtotem Raider",
+  "display": 6835
+ },
+ "7800": {
+  "name": "Mekgineer Thermaplugg",
+  "display": 6980
+ },
+ "7865": {
+  "name": "Wildhammer Sentry",
+  "display": 7859
+ },
+ "7937": {
+  "name": "High Tinker Mekkatorque",
+  "display": 7006
+ },
+ "7999": {
+  "name": "Tyrande Whisperwind",
+  "display": 7274
+ },
+ "8547": {
+  "name": "Death Cultist",
+  "display": 10391
+ },
+ "8929": {
+  "name": "Princess Moira Bronzebeard",
+  "display": 8705
+ },
+ "9019": {
+  "name": "Emperor Dagran Thaurissan",
+  "display": 8807
+ },
+ "9023": {
+  "name": "Marshal Windsor",
+  "display": 8707
+ },
+ "10181": {
+  "name": "Lady Sylvanas Windrunner",
+  "display": 11657
+ },
+ "10184": {
+  "name": "Onyxia",
+  "display": 8570
+ },
+ "10429": {
+  "name": "Warchief Rend Blackhand",
+  "display": 9778
+ },
+ "10440": {
+  "name": "Baron Rivendare",
+  "display": 10729
+ },
+ "10540": {
+  "name": "Vol'jin",
+  "display": 10357
+ },
+ "10813": {
+  "name": "Balnazzar",
+  "display": 10691
+ },
+ "10840": {
+  "name": "Argent Officer Pureheart",
+  "display": 10211
+ },
+ "11502": {
+  "name": "Ragnaros",
+  "display": 11121
+ },
+ "11583": {
+  "name": "Nefarian",
+  "display": 11380
+ },
+ "11832": {
+  "name": "Keeper Remulos",
+  "display": 11906
+ },
+ "11878": {
+  "name": "Nathanos Blightcaller",
+  "display": 11814
+ },
+ "11946": {
+  "name": "Drek'Thar",
+  "display": 11894
+ },
+ "11948": {
+  "name": "Vanndar Stormpike",
+  "display": 11896
+ },
+ "12397": {
+  "name": "Lord Kazzak",
+  "display": 12449
+ },
+ "12944": {
+  "name": "Lokhtos Darkbargainer",
+  "display": 14666
+ },
+ "13278": {
+  "name": "Duke Hydraxis",
+  "display": 10849
+ },
+ "14368": {
+  "name": "Lorekeeper Lydros",
+  "display": 14407
+ },
+ "14435": {
+  "name": "Prince Thunderaan",
+  "display": 14992
+ },
+ "14834": {
+  "name": "Hakkar",
+  "display": 15295
+ },
+ "14875": {
+  "name": "Molthor",
+  "display": 14993
+ },
+ "14887": {
+  "name": "Ysondre",
+  "display": 15364
+ },
+ "15203": {
+  "name": "Prince Skaldrenox",
+  "display": 12002
+ },
+ "15727": {
+  "name": "C'Thun",
+  "display": 15787
+ },
+ "15990": {
+  "name": "Kel'Thuzad",
+  "display": 15945
+ }
+}

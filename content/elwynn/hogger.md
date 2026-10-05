@@ -2,6 +2,7 @@
 id: hogger
 title: Hogger
 kind: creature
+portrait: 448
 unlock:
   - kill: 448
 also: [gnolls, goldshire]

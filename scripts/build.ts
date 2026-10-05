@@ -20,6 +20,10 @@
  *   race: Dwarf, Gnome          # only for these races (UnitRace tokens, or
  *                               # "other" for races without a page of their own)
  *   client: forever             # only on this client (forever or classic)
+ *   portrait: 2784              # the creature whose still portrait heads the
+ *                               # page (figures, creatures, factions: the figure,
+ *                               # a typical one, the leader); its display id
+ *                               # comes from data/portraits.json (scripts/portraits.py)
  *   ---
  *   Paragraphs, separated by blank lines. A paragraph in *asterisks* is a signature.
  *   A paragraph starting with [forever] or [classic] shows on that client only
@@ -46,12 +50,13 @@ const STANDINGS: Record<string, number> = { hated: 1, hostile: 2, unfriendly: 3,
 
 type Area = { id: number; name: string; parent: number };
 type Unlock = { always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number };
-type Entry = { id: string; title: string; kind: string; chapter: string; unlock: Unlock[]; also: string[]; race: string[]; client: string; text: Para[]; file: string };
+type Entry = { id: string; title: string; kind: string; portrait: number; chapter: string; unlock: Unlock[]; also: string[]; race: string[]; client: string; text: Para[]; file: string };
 type Para = { italic: boolean; text: string; client: string };
 const CLIENTS = ["classic", "forever"];
 
 const areas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas.json"), "utf8"));
 const areaById = new Map(areas.map((a) => [a.id, a]));
+const portraits: Record<number, { name: string; display: number }> = JSON.parse(readFileSync(join(ROOT, "data/portraits.json"), "utf8"));
 const errors: string[] = [];
 const fail = (file: string, msg: string) => errors.push(`${relative(ROOT, file)}: ${msg}`);
 
@@ -191,6 +196,7 @@ for (const file of walk(CONTENT).sort()) {
     id,
     title: String(meta.title ?? id),
     kind: String(meta.kind),
+    portrait: Number(meta.portrait ?? 0),
     chapter,
     unlock: rules.flatMap((r) => unlockRule(file, r)),
     also,
@@ -205,6 +211,7 @@ const ids = new Set<string>();
 for (const e of entries) {
   if (ids.has(e.id)) fail(e.file, `duplicate id ${e.id}`);
   ids.add(e.id);
+  if (e.portrait && !portraits[e.portrait]?.display) fail(e.file, `portrait: no display for creature ${e.portrait} (run python3 scripts/portraits.py)`);
   if (e.chapter && !chapters.has(e.chapter)) fail(e.file, `chapter folder ${e.chapter} has no _chapter.md`);
   for (const a of e.also) if (!entries.some((o) => o.id === a)) fail(e.file, `also: no entry "${a}"`);
   if (!e.text.length) fail(e.file, "no text");
@@ -263,7 +270,7 @@ ${chapterList.map((c) => `    { id = ${q(c.id)}, title = ${q(c.title)}, summary 
 ${kept
   .map(
     (e) => `    [${q(e.id)}] = {
-      title = ${q(e.title)}, kind = ${q(e.kind)}, chapter = ${q(e.chapter)},
+      title = ${q(e.title)}, kind = ${q(e.kind)}, chapter = ${q(e.chapter)},${e.portrait ? ` portrait = ${portraits[e.portrait].display},` : ""}
       unlock = { ${e.unlock.map(unlockLua).join(", ")} },
       also = { ${e.also.filter((a) => keptIds.has(a)).map(q).join(", ")} },${e.race.length ? ` race = { ${e.race.map((r) => `${r} = true`).join(", ")} },` : ""}
       text = {

@@ -2,6 +2,7 @@
 id: darkspear-trolls
 title: The Darkspear Trolls
 kind: faction
+portrait: 10540
 unlock:
   - area: Sen'jin Village
   - reputation: 530 friendly

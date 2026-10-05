@@ -2,6 +2,7 @@
 id: peoples-militia
 title: The People's Militia
 kind: faction
+portrait: 234
 unlock:
   - npc: 234
 also: [sentinel-hill, defias-brotherhood, edwin-vancleef]

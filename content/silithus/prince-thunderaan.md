@@ -2,6 +2,7 @@
 id: prince-thunderaan
 title: Prince Thunderaan
 kind: figure
+portrait: 14435
 unlock:
   - kill: 14435
   - quest: 7786

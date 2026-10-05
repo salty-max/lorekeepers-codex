@@ -2,6 +2,7 @@
 id: frostmane-trolls
 title: The Frostmane Trolls
 kind: faction
+portrait: 1120
 unlock:
   - kill: 706, 946, 1120, 1121, 1122, 1123, 1124, 1397 # every Frostmane of Dun Morogh
   - area: Frostmane Hold

@@ -2,6 +2,7 @@
 id: keeper-remulos
 title: Keeper Remulos
 kind: figure
+portrait: 11832
 unlock:
   - npc: 11832
   - area: Shrine of Remulos

@@ -2,6 +2,7 @@
 id: wildhammer-clan
 title: The Wildhammer Clan
 kind: faction
+portrait: 7865
 unlock:
   - area: Aerie Peak
   - reputation: 471 friendly

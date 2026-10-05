@@ -2,6 +2,7 @@
 id: dark-iron-dwarves
 title: The Dark Iron Dwarves
 kind: faction
+portrait: 1051
 unlock:
   - kill: 1051, 1052, 1053, 1054, 1169, 1222, 1981, 2149, 2575, 2577, 2739, 2740, 2742, 2743
   - kill: 2744, 3180, 4062, 4844, 4845, 4846, 4847, 4848, 4849, 5839, 5840, 5844, 5846, 6123

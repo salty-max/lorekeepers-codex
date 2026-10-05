@@ -2,6 +2,7 @@
 id: gnomeregan-exiles
 title: The Gnomeregan Exiles
 kind: faction
+portrait: 7937
 unlock:
   - area: Steelgrill's Depot
   - npc: 7937 # High Tinker Mekkatorque

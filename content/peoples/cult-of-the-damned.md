@@ -2,6 +2,7 @@
 id: cult-of-the-damned
 title: The Cult of the Damned
 kind: faction
+portrait: 8547
 unlock:
   - kill: 1853, 8546, 8547, 8548, 8550, 8551, 8553, 10398, 10399, 10400, 10469, 10470, 10471, 10472
   - kill: 10476, 10477, 10827, 11582

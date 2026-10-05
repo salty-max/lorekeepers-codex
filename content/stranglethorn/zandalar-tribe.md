@@ -2,6 +2,7 @@
 id: zandalar-tribe
 title: The Zandalar Tribe
 kind: faction
+portrait: 14875
 unlock:
   - area: Yojamba Isle
   - npc: 14875, 14910

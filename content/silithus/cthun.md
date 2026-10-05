@@ -2,6 +2,7 @@
 id: cthun
 title: C'Thun
 kind: figure
+portrait: 15727
 unlock:
   - kill: 15727
 also: [temple-of-ahnqiraj, silithid, uldum]

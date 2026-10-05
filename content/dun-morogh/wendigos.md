@@ -2,6 +2,7 @@
 id: wendigos
 title: The Wendigos
 kind: creature
+portrait: 1135
 unlock:
   - kill: 1134, 1135 # Young Wendigo, Wendigo
   - area: The Grizzled Den

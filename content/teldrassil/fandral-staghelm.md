@@ -2,6 +2,7 @@
 id: fandral-staghelm
 title: Arch Druid Fandral Staghelm
 kind: figure
+portrait: 3516
 unlock:
   - npc: 3516
 also: [darnassus, sickness-of-teldrassil, cenarion-circle, silithid]

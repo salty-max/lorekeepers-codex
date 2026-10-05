@@ -2,6 +2,7 @@
 id: moira-bronzebeard
 title: Princess Moira Bronzebeard
 kind: figure
+portrait: 8929
 unlock:
   - npc: 8929
   - quest: 4363

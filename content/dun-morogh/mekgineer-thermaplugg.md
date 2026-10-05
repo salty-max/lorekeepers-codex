@@ -2,6 +2,7 @@
 id: mekgineer-thermaplugg
 title: Mekgineer Thermaplugg
 kind: figure
+portrait: 7800
 unlock:
   - kill: 7800
   - quest: 2929

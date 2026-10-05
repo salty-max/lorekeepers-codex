@@ -2,6 +2,7 @@
 id: nefarian
 title: Nefarian
 kind: figure
+portrait: 11583
 unlock:
   - kill: 11583
   - npc: 10162

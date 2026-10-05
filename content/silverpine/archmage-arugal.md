@@ -2,6 +2,7 @@
 id: archmage-arugal
 title: Archmage Arugal
 kind: figure
+portrait: 4275
 unlock:
   - kill: 4275
   - quest: 1014

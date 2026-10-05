@@ -2,6 +2,7 @@
 id: si-7
 title: SI:7
 kind: faction
+portrait: 332
 unlock:
   - npc: 332
 also: [noble-conspiracy, defias-brotherhood]

@@ -2,6 +2,7 @@
 id: gathilzogg
 title: Gath'Ilzogg
 kind: figure
+portrait: 334
 unlock:
   - kill: 334
   - quest: 169

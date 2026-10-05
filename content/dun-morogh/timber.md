@@ -2,6 +2,7 @@
 id: timber
 title: Timber
 kind: creature
+portrait: 1132
 unlock:
   - kill: 1132 # Timber, a rare wolf of Dun Morogh
 also: [kharanos]

@@ -2,6 +2,7 @@
 id: kelthuzad
 title: Kel'Thuzad
 kind: figure
+portrait: 15990
 unlock:
   - kill: 15990
   - quest: 9120

@@ -2,6 +2,7 @@
 id: hamuul-runetotem
 title: Arch Druid Hamuul Runetotem
 kind: figure
+portrait: 5769
 unlock:
   - npc: 5769
 also: [cairne-bloodhoof, cenarion-circle, thunder-bluff]

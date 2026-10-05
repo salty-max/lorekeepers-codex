@@ -2,6 +2,7 @@
 id: red-dragonflight
 title: The Red Dragonflight
 kind: creature
+portrait: 1045
 unlock:
   - kill: 1045, 1046, 1047, 1048, 1049, 1050 # the dragonkin of Grim Batol
 also: [grim-batol, dragonmaw-clan, black-dragonflight]

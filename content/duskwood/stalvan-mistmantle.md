@@ -2,6 +2,7 @@
 id: stalvan-mistmantle
 title: Stalvan Mistmantle
 kind: figure
+portrait: 315
 unlock:
   - kill: 315
   - area: Manor Mistmantle

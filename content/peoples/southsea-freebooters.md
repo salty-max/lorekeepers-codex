@@ -2,6 +2,7 @@
 id: southsea-freebooters
 title: The Southsea Freebooters
 kind: faction
+portrait: 3381
 unlock:
   - kill: 3381, 3382, 3383, 3384, 3467, 7855, 7856, 7857, 7858, 15685
 also: [steamwheedle-cartel]

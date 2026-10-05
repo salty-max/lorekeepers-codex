@@ -2,6 +2,7 @@
 id: the-forsaken
 title: The Forsaken
 kind: faction
+portrait: 1495
 unlock:
   - area: Deathknell
   - area: Brill

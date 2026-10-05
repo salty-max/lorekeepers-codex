@@ -2,6 +2,7 @@
 id: grimtotem
 title: The Grimtotem
 kind: faction
+portrait: 7725
 unlock:
   - npc: 4046
   - kill: 7725, 7726, 7727, 10758, 10759, 10760, 10761, 11910, 11911, 11912, 11913

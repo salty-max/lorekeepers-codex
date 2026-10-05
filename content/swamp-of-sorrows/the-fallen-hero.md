@@ -2,6 +2,7 @@
 id: the-fallen-hero
 title: The Fallen Hero
 kind: figure
+portrait: 7572
 unlock:
   - npc: 7572
   - quest: 2681

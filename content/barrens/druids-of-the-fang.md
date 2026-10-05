@@ -2,6 +2,7 @@
 id: druids-of-the-fang
 title: The Druids of the Fang
 kind: faction
+portrait: 3669
 unlock:
   - kill: 3669, 3671, 3670, 3673
   - quest: 914

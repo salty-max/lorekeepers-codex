@@ -2,6 +2,7 @@
 id: onyxia
 title: Onyxia
 kind: figure
+portrait: 10184
 unlock:
   - kill: 10184
 also: [onyxias-lair, katrana-prestor, great-masquerade, black-dragonflight]

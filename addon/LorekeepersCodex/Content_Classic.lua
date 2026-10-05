@@ -75,7 +75,7 @@ ns.content = {
       },
     },
     ["frostwolf-clan"] = {
-      title = "The Frostwolf Clan", kind = "faction", chapter = "alterac",
+      title = "The Frostwolf Clan", kind = "faction", chapter = "alterac", portrait = 11894,
       unlock = { { npc = 11946 }, { faction = 729, standing = 5 } },
       also = { "alterac-valley", "thrall", "stormpike-guard" },
       text = {
@@ -94,7 +94,7 @@ ns.content = {
       },
     },
     ["stormpike-guard"] = {
-      title = "The Stormpike Guard", kind = "faction", chapter = "alterac",
+      title = "The Stormpike Guard", kind = "faction", chapter = "alterac", portrait = 11896,
       unlock = { { npc = 11948 }, { faction = 730, standing = 5 } },
       also = { "alterac-valley", "frostwolf-clan", "magni-bronzebeard", "explorers-league" },
       text = {
@@ -140,7 +140,7 @@ ns.content = {
       },
     },
     ["myzrael"] = {
-      title = "Myzrael", kind = "figure", chapter = "arathi",
+      title = "Myzrael", kind = "figure", chapter = "arathi", portrait = 1165,
       unlock = { { kill = 2755 }, { quest = 656 } },
       also = { "arathi-highlands", "kobolds", "masters-glaive" },
       text = {
@@ -248,7 +248,7 @@ ns.content = {
       },
     },
     ["azuregos"] = {
-      title = "Azuregos", kind = "figure", chapter = "azshara",
+      title = "Azuregos", kind = "figure", chapter = "azshara", portrait = 11460,
       unlock = { { kill = 6109 }, { npc = 6109 } },
       also = { "azshara", "the-sundering", "the-scepter-of-the-shifting-sands" },
       text = {
@@ -257,7 +257,7 @@ ns.content = {
       },
     },
     ["hydraxian-waterlords"] = {
-      title = "The Hydraxian Waterlords", kind = "faction", chapter = "azshara",
+      title = "The Hydraxian Waterlords", kind = "faction", chapter = "azshara", portrait = 10849,
       unlock = { { npc = 13278 }, { faction = 749, standing = 5 } },
       also = { "ragnaros", "molten-core", "azshara" },
       text = {
@@ -376,7 +376,7 @@ ns.content = {
       },
     },
     ["druids-of-the-fang"] = {
-      title = "The Druids of the Fang", kind = "faction", chapter = "barrens",
+      title = "The Druids of the Fang", kind = "faction", chapter = "barrens", portrait = 4213,
       unlock = { { kill = 3669 }, { kill = 3671 }, { kill = 3670 }, { kill = 3673 }, { quest = 914 } },
       also = { "wailing-caverns", "cenarion-circle" },
       text = {
@@ -493,7 +493,7 @@ ns.content = {
       },
     },
     ["dagran-thaurissan"] = {
-      title = "Emperor Dagran Thaurissan", kind = "figure", chapter = "blackrock-mountain",
+      title = "Emperor Dagran Thaurissan", kind = "figure", chapter = "blackrock-mountain", portrait = 8807,
       unlock = { { kill = 9019 } },
       also = { "ruins-of-thaurissan", "moira-bronzebeard", "ragnaros", "blackrock-depths", "dark-iron-dwarves", "mekgineer-thermaplugg" },
       text = {
@@ -502,7 +502,7 @@ ns.content = {
       },
     },
     ["moira-bronzebeard"] = {
-      title = "Princess Moira Bronzebeard", kind = "figure", chapter = "blackrock-mountain",
+      title = "Princess Moira Bronzebeard", kind = "figure", chapter = "blackrock-mountain", portrait = 8705,
       unlock = { { npc = 8929 }, { quest = 4363 }, { quest = 4004 } },
       also = { "magni-bronzebeard", "dagran-thaurissan", "ironforge", "blackrock-depths" },
       text = {
@@ -520,7 +520,7 @@ ns.content = {
       },
     },
     ["nefarian"] = {
-      title = "Nefarian", kind = "figure", chapter = "blackrock-mountain",
+      title = "Nefarian", kind = "figure", chapter = "blackrock-mountain", portrait = 11380,
       unlock = { { kill = 11583 }, { npc = 10162 } },
       also = { "onyxia", "black-dragonflight", "blackwing-lair", "rend-blackhand", "ragnaros" },
       text = {
@@ -529,7 +529,7 @@ ns.content = {
       },
     },
     ["ragnaros"] = {
-      title = "Ragnaros", kind = "figure", chapter = "blackrock-mountain",
+      title = "Ragnaros", kind = "figure", chapter = "blackrock-mountain", portrait = 11121,
       unlock = { { kill = 11502 } },
       also = { "molten-core", "dagran-thaurissan", "ruins-of-thaurissan", "war-of-the-three-hammers", "nefarian" },
       text = {
@@ -538,7 +538,7 @@ ns.content = {
       },
     },
     ["rend-blackhand"] = {
-      title = "Warchief Rend Blackhand", kind = "figure", chapter = "blackrock-mountain",
+      title = "Warchief Rend Blackhand", kind = "figure", chapter = "blackrock-mountain", portrait = 9778,
       unlock = { { kill = 10429 } },
       also = { "blackrock-clan", "blackrock-spire", "nefarian", "thrall", "eitrigg" },
       text = {
@@ -556,7 +556,7 @@ ns.content = {
       },
     },
     ["lord-kazzak"] = {
-      title = "Lord Kazzak", kind = "figure", chapter = "blasted-lands",
+      title = "Lord Kazzak", kind = "figure", chapter = "blasted-lands", portrait = 12449,
       unlock = { { kill = 12397 }, { area = 73 } },
       also = { "burning-legion", "blasted-lands", "the-dark-portal" },
       text = {
@@ -574,7 +574,7 @@ ns.content = {
       },
     },
     ["razelikh-the-defiler"] = {
-      title = "Razelikh the Defiler", kind = "figure", chapter = "blasted-lands",
+      title = "Razelikh the Defiler", kind = "figure", chapter = "blasted-lands", portrait = 10543,
       unlock = { { kill = 7664 }, { quest = 3628 } },
       also = { "the-fallen-hero", "burning-legion", "blasted-lands" },
       text = {
@@ -610,7 +610,7 @@ ns.content = {
       },
     },
     ["marshal-windsor"] = {
-      title = "Marshal Windsor", kind = "figure", chapter = "burning-steppes",
+      title = "Marshal Windsor", kind = "figure", chapter = "burning-steppes", portrait = 8707,
       unlock = { { npc = 9023 }, { quest = 4241 } },
       also = { "morgans-vigil", "blackrock-depths", "katrana-prestor", "great-masquerade" },
       text = {
@@ -673,7 +673,7 @@ ns.content = {
       },
     },
     ["onu"] = {
-      title = "Onu", kind = "figure", chapter = "darkshore",
+      title = "Onu", kind = "figure", chapter = "darkshore", portrait = 1455,
       unlock = { { npc = 3616 }, { area = 448 } },
       also = { "masters-glaive", "darkshore", "cenarion-circle" },
       text = {
@@ -728,7 +728,7 @@ ns.content = {
       },
     },
     ["khans-of-desolace"] = {
-      title = "The Khans of Desolace", kind = "faction", chapter = "desolace",
+      title = "The Khans of Desolace", kind = "faction", chapter = "desolace", portrait = 9433,
       unlock = { { area = 609 }, { area = 606 }, { area = 604 }, { faction = 92, standing = 5 }, { faction = 93, standing = 5 } },
       also = { "centaurs", "zaetar-and-theradras", "maraudon" },
       text = {
@@ -820,7 +820,7 @@ ns.content = {
       },
     },
     ["explorers-league"] = {
-      title = "The Explorers' League", kind = "faction", chapter = "dun-morogh",
+      title = "The Explorers' League", kind = "faction", chapter = "dun-morogh", portrait = 3596,
       unlock = { { npc = 5387 }, { npc = 1356 }, { npc = 2916 }, { npc = 8256 } },
       also = { "ironforge", "magni-bronzebeard", "ironbands-excavation-site", "whelgars-excavation-site" },
       text = {
@@ -830,7 +830,7 @@ ns.content = {
       },
     },
     ["frostmane-trolls"] = {
-      title = "The Frostmane Trolls", kind = "faction", chapter = "dun-morogh",
+      title = "The Frostmane Trolls", kind = "faction", chapter = "dun-morogh", portrait = 5608,
       unlock = { { kill = 706 }, { kill = 946 }, { kill = 1120 }, { kill = 1121 }, { kill = 1122 }, { kill = 1123 }, { kill = 1124 }, { kill = 1397 }, { area = 135 } },
       also = { "kharanos" },
       text = {
@@ -848,7 +848,7 @@ ns.content = {
       },
     },
     ["gnomeregan-exiles"] = {
-      title = "The Gnomeregan Exiles", kind = "faction", chapter = "dun-morogh",
+      title = "The Gnomeregan Exiles", kind = "faction", chapter = "dun-morogh", portrait = 7006,
       unlock = { { area = 189 }, { npc = 7937 } },
       also = { "gnomeregan", "high-tinker-mekkatorque", "ironforge" },
       text = {
@@ -868,7 +868,7 @@ ns.content = {
       },
     },
     ["high-tinker-mekkatorque"] = {
-      title = "High Tinker Mekkatorque", kind = "figure", chapter = "dun-morogh",
+      title = "High Tinker Mekkatorque", kind = "figure", chapter = "dun-morogh", portrait = 7006,
       unlock = { { npc = 7937 } },
       also = { "gnomeregan", "gnomeregan-exiles" },
       text = {
@@ -896,7 +896,7 @@ ns.content = {
       },
     },
     ["leper-gnomes"] = {
-      title = "The Leper Gnomes", kind = "creature", chapter = "dun-morogh",
+      title = "The Leper Gnomes", kind = "creature", chapter = "dun-morogh", portrait = 6921,
       unlock = { { kill = 1211 } },
       also = { "gnomeregan", "gnomeregan-exiles" },
       text = {
@@ -906,7 +906,7 @@ ns.content = {
       },
     },
     ["magni-bronzebeard"] = {
-      title = "King Magni Bronzebeard", kind = "figure", chapter = "dun-morogh",
+      title = "King Magni Bronzebeard", kind = "figure", chapter = "dun-morogh", portrait = 3597,
       unlock = { { npc = 2784 } },
       also = { "war-of-the-three-hammers" },
       text = {
@@ -916,7 +916,7 @@ ns.content = {
       },
     },
     ["mekgineer-thermaplugg"] = {
-      title = "Mekgineer Thermaplugg", kind = "figure", chapter = "dun-morogh",
+      title = "Mekgineer Thermaplugg", kind = "figure", chapter = "dun-morogh", portrait = 6980,
       unlock = { { kill = 7800 }, { quest = 2929 } },
       also = { "gnomeregan", "high-tinker-mekkatorque", "leper-gnomes", "rockjaw-troggs", "dark-iron-dwarves" },
       text = {
@@ -926,7 +926,7 @@ ns.content = {
       },
     },
     ["timber"] = {
-      title = "Timber", kind = "creature", chapter = "dun-morogh",
+      title = "Timber", kind = "creature", chapter = "dun-morogh", portrait = 11422,
       unlock = { { kill = 1132 } },
       also = { "kharanos" },
       text = {
@@ -947,7 +947,7 @@ ns.content = {
       },
     },
     ["wendigos"] = {
-      title = "The Wendigos", kind = "creature", chapter = "dun-morogh",
+      title = "The Wendigos", kind = "creature", chapter = "dun-morogh", portrait = 950,
       unlock = { { kill = 1134 }, { kill = 1135 }, { area = 136 } },
       also = { "dun-morogh" },
       text = {
@@ -956,7 +956,7 @@ ns.content = {
       },
     },
     ["darkspear-trolls"] = {
-      title = "The Darkspear Trolls", kind = "faction", chapter = "durotar",
+      title = "The Darkspear Trolls", kind = "faction", chapter = "durotar", portrait = 10357,
       unlock = { { area = 367 }, { faction = 530, standing = 5 } },
       also = { "voljin", "senjin-village", "echo-isles", "murlocs" },
       text = {
@@ -984,7 +984,7 @@ ns.content = {
       },
     },
     ["eitrigg"] = {
-      title = "Eitrigg", kind = "figure", chapter = "durotar",
+      title = "Eitrigg", kind = "figure", chapter = "durotar", portrait = 1619,
       unlock = { { npc = 3144 } },
       also = { "thrall", "blackrock-clan" },
       text = {
@@ -1031,7 +1031,7 @@ ns.content = {
       },
     },
     ["thrall"] = {
-      title = "Thrall", kind = "figure", chapter = "durotar",
+      title = "Thrall", kind = "figure", chapter = "durotar", portrait = 4527,
       unlock = { { npc = 4949 } },
       also = { "orgrimmar", "durotar", "eitrigg", "voljin" },
       text = {
@@ -1059,7 +1059,7 @@ ns.content = {
       },
     },
     ["voljin"] = {
-      title = "Vol'jin", kind = "figure", chapter = "durotar",
+      title = "Vol'jin", kind = "figure", chapter = "durotar", portrait = 10357,
       unlock = { { npc = 10540 } },
       also = { "darkspear-trolls", "thrall", "orgrimmar" },
       text = {
@@ -1086,7 +1086,7 @@ ns.content = {
       },
     },
     ["morladim"] = {
-      title = "Mor'Ladim", kind = "figure", chapter = "duskwood",
+      title = "Mor'Ladim", kind = "figure", chapter = "duskwood", portrait = 612,
       unlock = { { kill = 522 }, { quest = 228 } },
       also = { "raven-hill", "night-watch" },
       text = {
@@ -1096,7 +1096,7 @@ ns.content = {
       },
     },
     ["night-watch"] = {
-      title = "The Night Watch", kind = "faction", chapter = "duskwood",
+      title = "The Night Watch", kind = "faction", chapter = "duskwood", portrait = 4322,
       unlock = { { npc = 264 } },
       also = { "darkshire", "morladim", "duskwood" },
       text = {
@@ -1114,7 +1114,7 @@ ns.content = {
       },
     },
     ["stalvan-mistmantle"] = {
-      title = "Stalvan Mistmantle", kind = "figure", chapter = "duskwood",
+      title = "Stalvan Mistmantle", kind = "figure", chapter = "duskwood", portrait = 1562,
       unlock = { { kill = 315 }, { area = 1098 }, { quest = 98 } },
       also = { "duskwood", "darkshire" },
       text = {
@@ -1123,7 +1123,7 @@ ns.content = {
       },
     },
     ["the-embalmer"] = {
-      title = "The Embalmer", kind = "creature", chapter = "duskwood",
+      title = "The Embalmer", kind = "creature", chapter = "duskwood", portrait = 1693,
       unlock = { { kill = 412 }, { kill = 314 }, { quest = 253 } },
       also = { "raven-hill", "darkshire", "night-watch" },
       text = {
@@ -1150,7 +1150,7 @@ ns.content = {
       },
     },
     ["jaina-proudmoore"] = {
-      title = "Lady Jaina Proudmoore", kind = "figure", chapter = "dustwallow",
+      title = "Lady Jaina Proudmoore", kind = "figure", chapter = "dustwallow", portrait = 2970,
       unlock = { { npc = 4968 } },
       also = { "theramore-isle", "thrall", "tiragarde-keep", "fall-of-lordaeron" },
       text = {
@@ -1159,7 +1159,7 @@ ns.content = {
       },
     },
     ["onyxia"] = {
-      title = "Onyxia", kind = "figure", chapter = "dustwallow",
+      title = "Onyxia", kind = "figure", chapter = "dustwallow", portrait = 8570,
       unlock = { { kill = 10184 } },
       also = { "onyxias-lair", "katrana-prestor", "great-masquerade", "black-dragonflight" },
       text = {
@@ -1195,7 +1195,7 @@ ns.content = {
       },
     },
     ["balnazzar"] = {
-      title = "Balnazzar", kind = "figure", chapter = "eastern-plaguelands",
+      title = "Balnazzar", kind = "figure", chapter = "eastern-plaguelands", portrait = 10691,
       unlock = { { kill = 10813 } },
       also = { "scarlet-crusade", "varimathras", "sylvanas-windrunner", "stratholme", "burning-legion" },
       text = {
@@ -1204,7 +1204,7 @@ ns.content = {
       },
     },
     ["baron-rivendare"] = {
-      title = "Baron Rivendare", kind = "figure", chapter = "eastern-plaguelands",
+      title = "Baron Rivendare", kind = "figure", chapter = "eastern-plaguelands", portrait = 10729,
       unlock = { { kill = 10440 } },
       also = { "stratholme", "kelthuzad", "argent-dawn" },
       text = {
@@ -1231,7 +1231,7 @@ ns.content = {
       },
     },
     ["kelthuzad"] = {
-      title = "Kel'Thuzad", kind = "figure", chapter = "eastern-plaguelands",
+      title = "Kel'Thuzad", kind = "figure", chapter = "eastern-plaguelands", portrait = 15945,
       unlock = { { kill = 15990 }, { quest = 9120 } },
       also = { "cult-of-the-damned", "andorhal", "dalaran", "naxxramas", "scourge", "fall-of-lordaeron" },
       text = {
@@ -1249,7 +1249,7 @@ ns.content = {
       },
     },
     ["nathanos-blightcaller"] = {
-      title = "Nathanos Blightcaller", kind = "figure", chapter = "eastern-plaguelands",
+      title = "Nathanos Blightcaller", kind = "figure", chapter = "eastern-plaguelands", portrait = 11814,
       unlock = { { npc = 11878 } },
       also = { "sylvanas-windrunner", "the-forsaken", "tyrs-hand", "si-7", "eastern-plaguelands" },
       text = {
@@ -1276,7 +1276,7 @@ ns.content = {
       },
     },
     ["tirion-fordring"] = {
-      title = "Tirion Fordring", kind = "figure", chapter = "eastern-plaguelands",
+      title = "Tirion Fordring", kind = "figure", chapter = "eastern-plaguelands", portrait = 9477,
       unlock = { { npc = 1855 } },
       also = { "eitrigg", "hearthglen", "scarlet-crusade", "stratholme" },
       text = {
@@ -1295,7 +1295,7 @@ ns.content = {
       },
     },
     ["church-of-the-holy-light"] = {
-      title = "The Church of the Holy Light", kind = "faction", chapter = "elwynn",
+      title = "The Church of the Holy Light", kind = "faction", chapter = "elwynn", portrait = 5072,
       unlock = { { npc = 1284 }, { npc = 1212 } },
       also = { "northshire-abbey", "stormwind-city" },
       text = {
@@ -1334,7 +1334,7 @@ ns.content = {
       },
     },
     ["hogger"] = {
-      title = "Hogger", kind = "creature", chapter = "elwynn",
+      title = "Hogger", kind = "creature", chapter = "elwynn", portrait = 384,
       unlock = { { kill = 448 } },
       also = { "gnolls", "goldshire" },
       text = {
@@ -1343,7 +1343,7 @@ ns.content = {
       },
     },
     ["katrana-prestor"] = {
-      title = "Lady Katrana Prestor", kind = "figure", chapter = "elwynn",
+      title = "Lady Katrana Prestor", kind = "figure", chapter = "elwynn", portrait = 8769,
       unlock = { { npc = 1749 } },
       also = { "regency-of-stormwind", "great-masquerade" },
       text = {
@@ -1381,7 +1381,7 @@ ns.content = {
       },
     },
     ["si-7"] = {
-      title = "SI:7", kind = "faction", chapter = "elwynn",
+      title = "SI:7", kind = "faction", chapter = "elwynn", portrait = 1736,
       unlock = { { npc = 332 } },
       also = { "noble-conspiracy", "defias-brotherhood" },
       text = {
@@ -1490,7 +1490,7 @@ ns.content = {
       },
     },
     ["shandris-feathermoon"] = {
-      title = "Shandris Feathermoon", kind = "figure", chapter = "feralas",
+      title = "Shandris Feathermoon", kind = "figure", chapter = "feralas", portrait = 2035,
       unlock = { { npc = 3936 } },
       also = { "tyrande-whisperwind", "feathermoon-stronghold", "burning-legion", "satyrs" },
       text = {
@@ -1500,7 +1500,7 @@ ns.content = {
       },
     },
     ["shendralar"] = {
-      title = "The Shen'dralar", kind = "faction", chapter = "feralas",
+      title = "The Shen'dralar", kind = "faction", chapter = "feralas", portrait = 14407,
       unlock = { { npc = 14368 }, { kill = 11486 }, { kill = 11496 } },
       also = { "dire-maul", "burning-legion", "highborne-ruins" },
       text = {
@@ -1663,7 +1663,7 @@ ns.content = {
       },
     },
     ["falstad-wildhammer"] = {
-      title = "Falstad Wildhammer", kind = "figure", chapter = "hinterlands",
+      title = "Falstad Wildhammer", kind = "figure", chapter = "hinterlands", portrait = 7005,
       unlock = { { npc = 5635 } },
       also = { "wildhammer-clan", "aerie-peak" },
       text = {
@@ -1699,7 +1699,7 @@ ns.content = {
       },
     },
     ["shadra"] = {
-      title = "Shadra", kind = "figure", chapter = "hinterlands",
+      title = "Shadra", kind = "figure", chapter = "hinterlands", portrait = 7536,
       unlock = { { kill = 2707 }, { quest = 2937 } },
       also = { "forest-trolls", "royal-apothecary-society", "the-hinterlands" },
       text = {
@@ -1717,7 +1717,7 @@ ns.content = {
       },
     },
     ["wildhammer-clan"] = {
-      title = "The Wildhammer Clan", kind = "faction", chapter = "hinterlands",
+      title = "The Wildhammer Clan", kind = "faction", chapter = "hinterlands", portrait = 7859,
       unlock = { { area = 348 }, { faction = 471, standing = 5 } },
       also = { "aerie-peak", "falstad-wildhammer", "war-of-the-three-hammers", "grim-batol" },
       text = {
@@ -1765,7 +1765,7 @@ ns.content = {
       },
     },
     ["mogrosh-ogres"] = {
-      title = "The Mo'grosh Ogres", kind = "faction", chapter = "loch-modan",
+      title = "The Mo'grosh Ogres", kind = "faction", chapter = "loch-modan", portrait = 1122,
       unlock = { { kill = 1178 }, { kill = 1179 }, { kill = 1180 }, { kill = 1181 }, { kill = 1183 }, { area = 143 } },
       also = { "loch-modan", "ogres" },
       text = {
@@ -1804,7 +1804,7 @@ ns.content = {
       },
     },
     ["keeper-remulos"] = {
-      title = "Keeper Remulos", kind = "figure", chapter = "moonglade",
+      title = "Keeper Remulos", kind = "figure", chapter = "moonglade", portrait = 11906,
       unlock = { { npc = 11832 }, { area = 2362 } },
       also = { "moonglade", "cenarion-circle", "dragons-of-nightmare", "eranikus", "tyrande-whisperwind" },
       text = {
@@ -1840,7 +1840,7 @@ ns.content = {
       },
     },
     ["cairne-bloodhoof"] = {
-      title = "Cairne Bloodhoof", kind = "figure", chapter = "mulgore",
+      title = "Cairne Bloodhoof", kind = "figure", chapter = "mulgore", portrait = 4307,
       unlock = { { npc = 3057 } },
       also = { "thunder-bluff", "thrall", "centaurs", "grimtotem" },
       text = {
@@ -1869,7 +1869,7 @@ ns.content = {
       },
     },
     ["ghost-howl"] = {
-      title = "Ghost Howl", kind = "creature", chapter = "mulgore",
+      title = "Ghost Howl", kind = "creature", chapter = "mulgore", portrait = 720,
       unlock = { { kill = 3056 }, { quest = 770 } },
       also = { "mulgore", "burning-legion", "bloodhoof-village" },
       text = {
@@ -1878,7 +1878,7 @@ ns.content = {
       },
     },
     ["hamuul-runetotem"] = {
-      title = "Arch Druid Hamuul Runetotem", kind = "figure", chapter = "mulgore",
+      title = "Arch Druid Hamuul Runetotem", kind = "figure", chapter = "mulgore", portrait = 4519,
       unlock = { { npc = 5769 } },
       also = { "cairne-bloodhoof", "cenarion-circle", "thunder-bluff" },
       text = {
@@ -1915,7 +1915,7 @@ ns.content = {
       },
     },
     ["argent-dawn"] = {
-      title = "The Argent Dawn", kind = "faction", chapter = "peoples",
+      title = "The Argent Dawn", kind = "faction", chapter = "peoples", portrait = 10211,
       unlock = { { npc = 10839 }, { npc = 10856 }, { npc = 10840 }, { npc = 10857 }, { npc = 11034 }, { npc = 11039 }, { faction = 529, standing = 5 } },
       also = { "scourge", "scarlet-crusade", "the-bulwark" },
       text = {
@@ -1925,7 +1925,7 @@ ns.content = {
       },
     },
     ["black-dragonflight"] = {
-      title = "The Black Dragonflight", kind = "creature", chapter = "peoples",
+      title = "The Black Dragonflight", kind = "creature", chapter = "peoples", portrait = 6374,
       unlock = { { kill = 441 }, { kill = 2725 }, { kill = 4323 }, { kill = 4324 }, { kill = 7040 }, { kill = 7041 }, { kill = 7042 }, { kill = 7043 }, { kill = 7044 }, { kill = 7045 }, { kill = 7046 }, { kill = 7047 }, { kill = 7048 }, { kill = 7049 }, { kill = 9096 }, { kill = 9461 }, { kill = 10083 }, { kill = 10366 }, { kill = 10371 }, { kill = 10372 }, { kill = 11262 }, { kill = 12129 }, { kill = 12260 }, { kill = 12422 }, { kill = 12460 }, { kill = 12463 }, { kill = 12464 }, { kill = 12465 }, { kill = 12467 }, { kill = 12468 }, { kill = 14388 } },
       also = { "red-dragonflight", "blackrock-clan", "great-masquerade", "katrana-prestor" },
       text = {
@@ -1935,7 +1935,7 @@ ns.content = {
       },
     },
     ["blackrock-clan"] = {
-      title = "The Blackrock Clan", kind = "faction", chapter = "peoples",
+      title = "The Blackrock Clan", kind = "faction", chapter = "peoples", portrait = 6044,
       unlock = { { kill = 334 }, { kill = 435 }, { kill = 436 }, { kill = 437 }, { kill = 440 }, { kill = 485 }, { kill = 486 }, { kill = 615 }, { kill = 4064 }, { kill = 4065 }, { kill = 4462 }, { kill = 4463 }, { kill = 4464 }, { kill = 7025 }, { kill = 7026 }, { kill = 7027 }, { kill = 7028 }, { kill = 7029 }, { kill = 9237 }, { kill = 9522 }, { kill = 9583 }, { kill = 9605 }, { kill = 9693 }, { kill = 9716 }, { kill = 9717 }, { kill = 9817 }, { kill = 9818 }, { kill = 9819 }, { kill = 10316 }, { kill = 10317 }, { kill = 10319 }, { kill = 10429 }, { kill = 10742 }, { kill = 10762 } },
       also = { "black-dragonflight", "eitrigg" },
       text = {
@@ -1945,7 +1945,7 @@ ns.content = {
       },
     },
     ["burning-blade"] = {
-      title = "The Burning Blade", kind = "faction", chapter = "peoples",
+      title = "The Burning Blade", kind = "faction", chapter = "peoples", portrait = 4188,
       unlock = { { kill = 3195 }, { kill = 3196 }, { kill = 3197 }, { kill = 3198 }, { kill = 3199 }, { kill = 3204 }, { kill = 3379 }, { kill = 3380 }, { kill = 4663 }, { kill = 4664 }, { kill = 4665 }, { kill = 4666 }, { kill = 4667 }, { kill = 4668 }, { kill = 4705 }, { kill = 5822 }, { kill = 11322 }, { kill = 11323 }, { kill = 11324 }, { kill = 11518 }, { kill = 11519 }, { kill = 12319 }, { kill = 12320 }, { kill = 13019 } },
       also = { "burning-legion", "valley-of-trials", "ragefire-chasm" },
       text = {
@@ -1954,7 +1954,7 @@ ns.content = {
       },
     },
     ["burning-legion"] = {
-      title = "The Burning Legion", kind = "faction", chapter = "peoples",
+      title = "The Burning Legion", kind = "faction", chapter = "peoples", portrait = 5049,
       unlock = { { kill = 89 }, { kill = 3102 }, { kill = 3772 }, { kill = 3774 }, { kill = 4676 }, { kill = 4677 }, { kill = 4678 }, { kill = 4679 }, { kill = 4680 }, { kill = 4681 }, { kill = 4682 }, { kill = 4684 }, { kill = 4685 }, { kill = 5760 }, { kill = 6010 }, { kill = 6011 }, { kill = 6071 }, { kill = 6072 }, { kill = 6073 }, { kill = 6115 }, { kill = 7125 }, { kill = 7126 }, { kill = 7135 }, { kill = 7136 }, { kill = 7137 }, { kill = 7461 }, { kill = 7462 }, { kill = 7463 }, { kill = 7664 }, { kill = 7665 }, { kill = 7666 }, { kill = 7667 }, { kill = 7728 }, { kill = 7734 }, { kill = 7735 }, { kill = 8608 }, { kill = 8616 }, { kill = 8675 }, { kill = 8716 }, { kill = 8717 }, { kill = 8718 }, { kill = 9454 }, { kill = 9862 }, { kill = 9877 }, { kill = 10201 }, { kill = 10261 }, { kill = 10263 }, { kill = 10373 }, { kill = 11697 }, { kill = 11859 }, { kill = 12396 }, { kill = 12397 }, { kill = 14101 }, { kill = 14483 }, { kill = 14506 }, { kill = 14668 } },
       also = { "satyrs", "burning-blade" },
       text = {
@@ -1964,7 +1964,7 @@ ns.content = {
       },
     },
     ["cenarion-circle"] = {
-      title = "The Cenarion Circle", kind = "faction", chapter = "peoples",
+      title = "The Cenarion Circle", kind = "faction", chapter = "peoples", portrait = 11906,
       unlock = { { npc = 11832 }, { npc = 5769 }, { faction = 609, standing = 5 } },
       also = { "silithid", "dragons-of-nightmare", "hamuul-runetotem", "fandral-staghelm" },
       text = {
@@ -1974,7 +1974,7 @@ ns.content = {
       },
     },
     ["centaurs"] = {
-      title = "The Centaurs", kind = "faction", chapter = "peoples",
+      title = "The Centaurs", kind = "faction", chapter = "peoples", portrait = 9410,
       unlock = { { kill = 2967 }, { kill = 2968 }, { kill = 3119 }, { kill = 3120 }, { kill = 3272 }, { kill = 3273 }, { kill = 3274 }, { kill = 3275 }, { kill = 3394 }, { kill = 3395 }, { kill = 3396 }, { kill = 3397 }, { kill = 4093 }, { kill = 4094 }, { kill = 4095 }, { kill = 4096 }, { kill = 4097 }, { kill = 4099 }, { kill = 4632 }, { kill = 4633 }, { kill = 4634 }, { kill = 4635 }, { kill = 4636 }, { kill = 4637 }, { kill = 4638 }, { kill = 4639 }, { kill = 4640 }, { kill = 4641 }, { kill = 4642 }, { kill = 4643 }, { kill = 4644 }, { kill = 4645 }, { kill = 4646 }, { kill = 4647 }, { kill = 4648 }, { kill = 4649 }, { kill = 4651 }, { kill = 4652 }, { kill = 4653 }, { kill = 4654 }, { kill = 4655 }, { kill = 4656 }, { kill = 4657 }, { kill = 4658 }, { kill = 4659 }, { kill = 4661 }, { kill = 5402 }, { kill = 5600 }, { kill = 5601 }, { kill = 5602 }, { kill = 5808 }, { kill = 6069 }, { kill = 6070 }, { kill = 7404 }, { kill = 9523 }, { kill = 9524 }, { kill = 10617 }, { kill = 10720 }, { kill = 11685 }, { kill = 11688 }, { kill = 12976 }, { kill = 12977 } },
       also = { "cairne-bloodhoof" },
       text = {
@@ -1984,7 +1984,7 @@ ns.content = {
       },
     },
     ["cult-of-the-damned"] = {
-      title = "The Cult of the Damned", kind = "faction", chapter = "peoples",
+      title = "The Cult of the Damned", kind = "faction", chapter = "peoples", portrait = 10391,
       unlock = { { kill = 1853 }, { kill = 8546 }, { kill = 8547 }, { kill = 8548 }, { kill = 8550 }, { kill = 8551 }, { kill = 8553 }, { kill = 10398 }, { kill = 10399 }, { kill = 10400 }, { kill = 10469 }, { kill = 10470 }, { kill = 10471 }, { kill = 10472 }, { kill = 10476 }, { kill = 10477 }, { kill = 10827 }, { kill = 11582 } },
       also = { "scourge" },
       text = {
@@ -1994,7 +1994,7 @@ ns.content = {
       },
     },
     ["dark-iron-dwarves"] = {
-      title = "The Dark Iron Dwarves", kind = "faction", chapter = "peoples",
+      title = "The Dark Iron Dwarves", kind = "faction", chapter = "peoples", portrait = 825,
       unlock = { { kill = 1051 }, { kill = 1052 }, { kill = 1053 }, { kill = 1054 }, { kill = 1169 }, { kill = 1222 }, { kill = 1981 }, { kill = 2149 }, { kill = 2575 }, { kill = 2577 }, { kill = 2739 }, { kill = 2740 }, { kill = 2742 }, { kill = 2743 }, { kill = 2744 }, { kill = 3180 }, { kill = 4062 }, { kill = 4844 }, { kill = 4845 }, { kill = 4846 }, { kill = 4847 }, { kill = 4848 }, { kill = 4849 }, { kill = 5839 }, { kill = 5840 }, { kill = 5844 }, { kill = 5846 }, { kill = 6123 }, { kill = 6212 }, { kill = 6228 }, { kill = 6523 }, { kill = 7030 }, { kill = 7036 }, { kill = 7037 }, { kill = 7038 }, { kill = 7091 }, { kill = 7290 }, { kill = 8282 }, { kill = 8283 }, { kill = 8337 }, { kill = 8338 }, { kill = 8391 }, { kill = 8504 }, { kill = 8566 }, { kill = 8637 }, { kill = 8889 }, { kill = 8890 }, { kill = 8891 }, { kill = 8892 }, { kill = 8893 }, { kill = 8894 }, { kill = 8895 }, { kill = 8896 }, { kill = 8897 }, { kill = 8898 }, { kill = 8899 }, { kill = 8900 }, { kill = 8901 }, { kill = 8902 }, { kill = 8903 }, { kill = 8904 }, { kill = 8920 }, { kill = 9018 }, { kill = 9024 }, { kill = 9033 }, { kill = 9041 }, { kill = 9056 }, { kill = 9319 }, { kill = 9437 }, { kill = 9438 }, { kill = 9439 }, { kill = 9441 }, { kill = 9442 }, { kill = 9443 }, { kill = 9537 }, { kill = 9956 }, { kill = 14621 }, { kill = 15692 } },
       also = { "war-of-the-three-hammers", "thandol-span", "dun-modr", "stonewrought-dam" },
       text = {
@@ -2004,7 +2004,7 @@ ns.content = {
       },
     },
     ["defias-brotherhood"] = {
-      title = "The Defias Brotherhood", kind = "faction", chapter = "peoples",
+      title = "The Defias Brotherhood", kind = "faction", chapter = "peoples", portrait = 2357,
       unlock = { { kill = 38 }, { kill = 94 }, { kill = 95 }, { kill = 116 }, { kill = 121 }, { kill = 122 }, { kill = 215 }, { kill = 449 }, { kill = 450 }, { kill = 474 }, { kill = 481 }, { kill = 504 }, { kill = 550 }, { kill = 583 }, { kill = 589 }, { kill = 590 }, { kill = 594 }, { kill = 598 }, { kill = 619 }, { kill = 634 }, { kill = 636 }, { kill = 639 }, { kill = 643 }, { kill = 644 }, { kill = 645 }, { kill = 646 }, { kill = 647 }, { kill = 657 }, { kill = 824 }, { kill = 909 }, { kill = 910 }, { kill = 1663 }, { kill = 1666 }, { kill = 1706 }, { kill = 1707 }, { kill = 1708 }, { kill = 1711 }, { kill = 1715 }, { kill = 1716 }, { kill = 1720 }, { kill = 1725 }, { kill = 1729 }, { kill = 1732 }, { kill = 1763 }, { kill = 4416 }, { kill = 4417 }, { kill = 4418 }, { kill = 5043 }, { kill = 6180 }, { kill = 6846 }, { kill = 6866 }, { kill = 6927 }, { kill = 7050 }, { kill = 7052 }, { kill = 7056 } },
       also = { "stormwind-city", "the-stockade", "noble-conspiracy" },
       text = {
@@ -2014,7 +2014,7 @@ ns.content = {
       },
     },
     ["dragons-of-nightmare"] = {
-      title = "The Dragons of Nightmare", kind = "creature", chapter = "peoples",
+      title = "The Dragons of Nightmare", kind = "creature", chapter = "peoples", portrait = 15364,
       unlock = { { kill = 14887 }, { kill = 14888 }, { kill = 14889 }, { kill = 14890 }, { npc = 14887 }, { npc = 14888 }, { npc = 14889 }, { npc = 14890 }, { area = 856 }, { area = 356 }, { area = 1111 }, { area = 438 } },
       also = { "cenarion-circle" },
       text = {
@@ -2023,7 +2023,7 @@ ns.content = {
       },
     },
     ["forest-trolls"] = {
-      title = "The Forest Trolls", kind = "faction", chapter = "peoples",
+      title = "The Forest Trolls", kind = "faction", chapter = "peoples", portrait = 3986,
       unlock = { { kill = 2552 }, { kill = 2553 }, { kill = 2554 }, { kill = 2555 }, { kill = 2556 }, { kill = 2557 }, { kill = 2558 }, { kill = 2639 }, { kill = 2640 }, { kill = 2641 }, { kill = 2642 }, { kill = 2643 }, { kill = 2644 }, { kill = 2645 }, { kill = 2646 }, { kill = 2647 }, { kill = 2648 }, { kill = 2649 }, { kill = 2650 }, { kill = 2651 }, { kill = 2652 }, { kill = 2653 }, { kill = 2654 }, { kill = 2686 }, { kill = 4465 }, { kill = 4466 }, { kill = 4467 }, { kill = 7809 }, { kill = 8560 }, { kill = 8561 }, { kill = 8562 }, { kill = 11388 }, { kill = 11391 }, { kill = 14748 } },
       also = {  },
       text = {
@@ -2033,7 +2033,7 @@ ns.content = {
       },
     },
     ["furbolgs"] = {
-      title = "The Furbolgs", kind = "creature", chapter = "peoples",
+      title = "The Furbolgs", kind = "creature", chapter = "peoples", portrait = 6800,
       unlock = { { area = 1769 }, { area = 1216 }, { faction = 576, standing = 5 }, { kill = 2006 }, { kill = 2007 }, { kill = 2008 }, { kill = 2009 }, { kill = 2010 }, { kill = 2011 }, { kill = 2012 }, { kill = 2013 }, { kill = 2014 }, { kill = 2039 }, { kill = 2152 }, { kill = 2167 }, { kill = 2168 }, { kill = 2169 }, { kill = 2170 }, { kill = 2171 }, { kill = 2324 }, { kill = 3743 }, { kill = 3745 }, { kill = 3746 }, { kill = 3748 }, { kill = 3749 }, { kill = 3750 }, { kill = 3921 }, { kill = 3922 }, { kill = 3923 }, { kill = 3924 }, { kill = 3925 }, { kill = 3926 }, { kill = 6184 }, { kill = 6185 }, { kill = 6186 }, { kill = 6187 }, { kill = 6188 }, { kill = 6189 }, { kill = 7153 }, { kill = 7154 }, { kill = 7155 }, { kill = 7156 }, { kill = 7157 }, { kill = 7158 }, { kill = 7235 }, { kill = 7438 }, { kill = 7439 }, { kill = 7440 }, { kill = 7441 }, { kill = 7442 }, { kill = 9462 }, { kill = 9464 }, { kill = 10738 }, { kill = 10916 }, { kill = 11516 }, { kill = 11552 }, { kill = 11553 }, { kill = 11690 }, { kill = 11713 }, { kill = 14342 }, { kill = 14372 } },
       also = { "burning-legion", "sickness-of-teldrassil" },
       text = {
@@ -2043,7 +2043,7 @@ ns.content = {
       },
     },
     ["gnolls"] = {
-      title = "The Gnolls", kind = "creature", chapter = "peoples",
+      title = "The Gnolls", kind = "creature", chapter = "peoples", portrait = 175,
       unlock = { { kill = 97 }, { kill = 98 }, { kill = 117 }, { kill = 123 }, { kill = 124 }, { kill = 125 }, { kill = 423 }, { kill = 424 }, { kill = 426 }, { kill = 429 }, { kill = 430 }, { kill = 431 }, { kill = 432 }, { kill = 433 }, { kill = 434 }, { kill = 445 }, { kill = 446 }, { kill = 448 }, { kill = 452 }, { kill = 453 }, { kill = 478 }, { kill = 500 }, { kill = 501 }, { kill = 568 }, { kill = 579 }, { kill = 580 }, { kill = 1007 }, { kill = 1008 }, { kill = 1009 }, { kill = 1010 }, { kill = 1011 }, { kill = 1012 }, { kill = 1013 }, { kill = 1014 }, { kill = 1065 }, { kill = 1426 }, { kill = 1674 }, { kill = 1675 }, { kill = 1772 }, { kill = 1773 }, { kill = 1939 }, { kill = 1940 }, { kill = 1941 }, { kill = 1942 }, { kill = 1943 }, { kill = 1944 }, { kill = 2372 }, { kill = 2373 }, { kill = 2949 }, { kill = 2950 }, { kill = 2951 }, { kill = 5249 }, { kill = 5251 }, { kill = 5253 }, { kill = 5254 }, { kill = 5255 }, { kill = 5258 }, { kill = 10991 } },
       also = { "kobolds", "defias-brotherhood", "mosshide-gnolls", "hogger" },
       text = {
@@ -2052,7 +2052,7 @@ ns.content = {
       },
     },
     ["grimtotem"] = {
-      title = "The Grimtotem", kind = "faction", chapter = "peoples",
+      title = "The Grimtotem", kind = "faction", chapter = "peoples", portrait = 6835,
       unlock = { { npc = 4046 }, { kill = 7725 }, { kill = 7726 }, { kill = 7727 }, { kill = 10758 }, { kill = 10759 }, { kill = 10760 }, { kill = 10761 }, { kill = 11910 }, { kill = 11911 }, { kill = 11912 }, { kill = 11913 } },
       also = { "thunder-bluff" },
       text = {
@@ -2061,7 +2061,7 @@ ns.content = {
       },
     },
     ["harpies"] = {
-      title = "The Harpies", kind = "creature", chapter = "peoples",
+      title = "The Harpies", kind = "creature", chapter = "peoples", portrait = 10877,
       unlock = { { kill = 2962 }, { kill = 2963 }, { kill = 2964 }, { kill = 2965 }, { kill = 3115 }, { kill = 3118 }, { kill = 3276 }, { kill = 3277 }, { kill = 3278 }, { kill = 3279 }, { kill = 3280 }, { kill = 4022 }, { kill = 4023 }, { kill = 4024 }, { kill = 4025 }, { kill = 4026 }, { kill = 4027 }, { kill = 4100 }, { kill = 4101 }, { kill = 4104 }, { kill = 5785 }, { kill = 5830 }, { kill = 12579 } },
       also = {  },
       text = {
@@ -2070,7 +2070,7 @@ ns.content = {
       },
     },
     ["kobolds"] = {
-      title = "The Kobolds", kind = "creature", chapter = "peoples",
+      title = "The Kobolds", kind = "creature", chapter = "peoples", portrait = 365,
       unlock = { { kill = 6 }, { kill = 40 }, { kill = 80 }, { kill = 257 }, { kill = 475 }, { kill = 476 }, { kill = 1172 }, { kill = 1173 }, { kill = 1174 }, { kill = 1175 }, { kill = 1176 }, { kill = 1177 }, { kill = 1202 }, { kill = 1236 }, { kill = 2572 }, { kill = 2573 }, { kill = 2574 }, { kill = 4111 }, { kill = 4112 }, { kill = 4113 }, { kill = 4114 }, { kill = 4116 } },
       also = { "gnolls", "defias-brotherhood", "elwynn-forest" },
       text = {
@@ -2080,7 +2080,7 @@ ns.content = {
       },
     },
     ["murlocs"] = {
-      title = "The Murlocs", kind = "creature", chapter = "peoples",
+      title = "The Murlocs", kind = "creature", chapter = "peoples", portrait = 441,
       unlock = { { kill = 46 }, { kill = 126 }, { kill = 127 }, { kill = 171 }, { kill = 285 }, { kill = 391 }, { kill = 422 }, { kill = 456 }, { kill = 458 }, { kill = 513 }, { kill = 515 }, { kill = 517 }, { kill = 544 }, { kill = 545 }, { kill = 548 }, { kill = 578 }, { kill = 732 }, { kill = 735 }, { kill = 747 }, { kill = 750 }, { kill = 751 }, { kill = 752 }, { kill = 871 }, { kill = 873 }, { kill = 875 }, { kill = 877 }, { kill = 879 }, { kill = 1024 }, { kill = 1025 }, { kill = 1026 }, { kill = 1027 }, { kill = 1028 }, { kill = 1029 }, { kill = 1083 }, { kill = 1418 }, { kill = 1543 }, { kill = 1544 }, { kill = 1545 }, { kill = 1767 }, { kill = 1768 }, { kill = 1908 }, { kill = 1909 }, { kill = 1957 }, { kill = 1958 }, { kill = 2201 }, { kill = 2202 }, { kill = 2203 }, { kill = 2204 }, { kill = 2205 }, { kill = 2206 }, { kill = 2207 }, { kill = 2208 }, { kill = 2374 }, { kill = 2375 }, { kill = 2376 }, { kill = 2377 }, { kill = 3737 }, { kill = 3739 }, { kill = 3740 }, { kill = 3742 }, { kill = 4358 }, { kill = 4359 }, { kill = 4360 }, { kill = 4361 }, { kill = 4362 }, { kill = 4363 }, { kill = 4457 }, { kill = 4458 }, { kill = 4459 }, { kill = 4460 }, { kill = 4461 }, { kill = 4818 }, { kill = 7015 }, { kill = 10323 } },
       also = { "naga", "darkspear-trolls" },
       text = {
@@ -2089,7 +2089,7 @@ ns.content = {
       },
     },
     ["naga"] = {
-      title = "The Naga", kind = "creature", chapter = "peoples",
+      title = "The Naga", kind = "creature", chapter = "peoples", portrait = 4036,
       unlock = { { kill = 1907 }, { kill = 2179 }, { kill = 2180 }, { kill = 2181 }, { kill = 2182 }, { kill = 2183 }, { kill = 2320 }, { kill = 2368 }, { kill = 2369 }, { kill = 2370 }, { kill = 2371 }, { kill = 2595 }, { kill = 2596 }, { kill = 2775 }, { kill = 2779 }, { kill = 3711 }, { kill = 3712 }, { kill = 3713 }, { kill = 3715 }, { kill = 3717 }, { kill = 3944 }, { kill = 4364 }, { kill = 4366 }, { kill = 4368 }, { kill = 4370 }, { kill = 4371 }, { kill = 4374 }, { kill = 4711 }, { kill = 4712 }, { kill = 4713 }, { kill = 4714 }, { kill = 4715 }, { kill = 4716 }, { kill = 4718 }, { kill = 4719 }, { kill = 4802 }, { kill = 4803 }, { kill = 4805 }, { kill = 4807 }, { kill = 4831 }, { kill = 5331 }, { kill = 5332 }, { kill = 5333 }, { kill = 5334 }, { kill = 5335 }, { kill = 5336 }, { kill = 5337 }, { kill = 5343 }, { kill = 6190 }, { kill = 6193 }, { kill = 6194 }, { kill = 6195 }, { kill = 6196 }, { kill = 6243 }, { kill = 6649 }, { kill = 7016 }, { kill = 7017 }, { kill = 7885 }, { kill = 7886 }, { kill = 8136 }, { kill = 10559 }, { kill = 12204 }, { kill = 12205 }, { kill = 12321 } },
       also = { "murlocs" },
       text = {
@@ -2099,7 +2099,7 @@ ns.content = {
       },
     },
     ["ogres"] = {
-      title = "The Ogres", kind = "creature", chapter = "peoples",
+      title = "The Ogres", kind = "creature", chapter = "peoples", portrait = 416,
       unlock = { { kill = 212 }, { kill = 678 }, { kill = 679 }, { kill = 680 }, { kill = 709 }, { kill = 710 }, { kill = 723 }, { kill = 889 }, { kill = 891 }, { kill = 892 }, { kill = 1142 }, { kill = 1144 }, { kill = 1178 }, { kill = 1179 }, { kill = 1180 }, { kill = 1181 }, { kill = 1183 }, { kill = 1251 }, { kill = 1487 }, { kill = 2252 }, { kill = 2253 }, { kill = 2254 }, { kill = 2255 }, { kill = 2256 }, { kill = 2257 }, { kill = 2287 }, { kill = 2416 }, { kill = 2417 }, { kill = 2562 }, { kill = 2564 }, { kill = 2566 }, { kill = 2567 }, { kill = 2569 }, { kill = 2570 }, { kill = 2571 }, { kill = 2701 }, { kill = 2715 }, { kill = 2716 }, { kill = 2717 }, { kill = 2718 }, { kill = 2719 }, { kill = 2720 }, { kill = 2906 }, { kill = 2907 }, { kill = 5229 }, { kill = 5232 }, { kill = 5234 }, { kill = 5236 }, { kill = 5237 }, { kill = 5238 }, { kill = 5239 }, { kill = 5240 }, { kill = 5241 }, { kill = 5471 }, { kill = 5472 }, { kill = 5473 }, { kill = 5474 }, { kill = 5475 }, { kill = 5974 }, { kill = 5975 }, { kill = 5976 }, { kill = 5977 }, { kill = 5978 }, { kill = 7033 }, { kill = 7034 }, { kill = 7035 }, { kill = 7379 }, { kill = 9197 }, { kill = 9198 }, { kill = 9199 }, { kill = 9200 }, { kill = 9201 }, { kill = 9216 }, { kill = 9217 }, { kill = 9218 }, { kill = 9219 }, { kill = 10602 }, { kill = 11440 }, { kill = 11441 }, { kill = 11443 }, { kill = 11444 }, { kill = 11445 }, { kill = 11448 }, { kill = 11450 }, { kill = 11501 }, { kill = 14324 }, { kill = 14325 }, { kill = 14351 } },
       also = { "mogrosh-ogres" },
       text = {
@@ -2109,7 +2109,7 @@ ns.content = {
       },
     },
     ["quilboar"] = {
-      title = "The Quilboar", kind = "faction", chapter = "peoples",
+      title = "The Quilboar", kind = "faction", chapter = "peoples", portrait = 1218,
       unlock = { { kill = 2952 }, { kill = 2953 }, { kill = 3111 }, { kill = 3112 }, { kill = 3113 }, { kill = 3114 }, { kill = 3232 }, { kill = 3258 }, { kill = 3260 }, { kill = 3261 }, { kill = 3263 }, { kill = 3265 }, { kill = 3266 }, { kill = 3267 }, { kill = 3268 }, { kill = 3269 }, { kill = 3271 }, { kill = 3438 }, { kill = 3456 }, { kill = 3457 }, { kill = 3458 }, { kill = 3459 }, { kill = 4420 }, { kill = 4421 }, { kill = 4422 }, { kill = 4424 }, { kill = 4435 }, { kill = 4436 }, { kill = 4437 }, { kill = 4438 }, { kill = 4440 }, { kill = 4442 }, { kill = 4515 }, { kill = 4516 }, { kill = 4517 }, { kill = 4518 }, { kill = 4519 }, { kill = 4520 }, { kill = 4522 }, { kill = 4523 }, { kill = 4525 }, { kill = 4530 }, { kill = 4531 }, { kill = 4532 }, { kill = 4625 }, { kill = 5824 }, { kill = 5859 }, { kill = 5863 }, { kill = 5864 }, { kill = 6035 }, { kill = 6132 }, { kill = 6168 }, { kill = 7335 }, { kill = 7337 }, { kill = 7354 }, { kill = 7355 }, { kill = 7356 }, { kill = 7357 }, { kill = 7872 }, { kill = 7873 }, { kill = 7874 }, { kill = 8554 } },
       also = { "scourge", "red-rocks" },
       text = {
@@ -2118,7 +2118,7 @@ ns.content = {
       },
     },
     ["satyrs"] = {
-      title = "The Satyrs", kind = "creature", chapter = "peoples",
+      title = "The Satyrs", kind = "creature", chapter = "peoples", portrait = 11344,
       unlock = { { kill = 2212 }, { kill = 3752 }, { kill = 3754 }, { kill = 3755 }, { kill = 3757 }, { kill = 3758 }, { kill = 3759 }, { kill = 3762 }, { kill = 3763 }, { kill = 3765 }, { kill = 3767 }, { kill = 3770 }, { kill = 3771 }, { kill = 4670 }, { kill = 4671 }, { kill = 4672 }, { kill = 4673 }, { kill = 4674 }, { kill = 4675 }, { kill = 4788 }, { kill = 4789 }, { kill = 4798 }, { kill = 4799 }, { kill = 6125 }, { kill = 6126 }, { kill = 6127 }, { kill = 6200 }, { kill = 6201 }, { kill = 6202 }, { kill = 7105 }, { kill = 7106 }, { kill = 7107 }, { kill = 7108 }, { kill = 7109 }, { kill = 7110 }, { kill = 7111 }, { kill = 11451 }, { kill = 11790 } },
       also = { "burning-legion", "sickness-of-teldrassil" },
       text = {
@@ -2127,7 +2127,7 @@ ns.content = {
       },
     },
     ["scarlet-crusade"] = {
-      title = "The Scarlet Crusade", kind = "faction", chapter = "peoples",
+      title = "The Scarlet Crusade", kind = "faction", chapter = "peoples", portrait = 2471,
       unlock = { { kill = 1506 }, { kill = 1507 }, { kill = 1535 }, { kill = 1536 }, { kill = 1537 }, { kill = 1538 }, { kill = 1539 }, { kill = 1540 }, { kill = 1660 }, { kill = 1826 }, { kill = 1827 }, { kill = 1831 }, { kill = 1832 }, { kill = 1833 }, { kill = 1834 }, { kill = 1835 }, { kill = 1837 }, { kill = 1838 }, { kill = 1839 }, { kill = 1840 }, { kill = 1841 }, { kill = 1845 }, { kill = 1846 }, { kill = 1883 }, { kill = 1884 }, { kill = 1885 }, { kill = 3975 }, { kill = 3976 }, { kill = 3977 }, { kill = 3983 }, { kill = 4280 }, { kill = 4281 }, { kill = 4282 }, { kill = 4283 }, { kill = 4284 }, { kill = 4285 }, { kill = 4286 }, { kill = 4287 }, { kill = 4288 }, { kill = 4289 }, { kill = 4290 }, { kill = 4291 }, { kill = 4292 }, { kill = 4293 }, { kill = 4294 }, { kill = 4295 }, { kill = 4296 }, { kill = 4297 }, { kill = 4298 }, { kill = 4299 }, { kill = 4300 }, { kill = 4301 }, { kill = 4302 }, { kill = 4303 }, { kill = 4306 }, { kill = 4493 }, { kill = 4494 }, { kill = 4540 }, { kill = 4542 }, { kill = 4543 }, { kill = 6487 }, { kill = 6575 }, { kill = 9447 }, { kill = 9448 }, { kill = 9449 }, { kill = 9450 }, { kill = 9451 }, { kill = 9452 }, { kill = 10418 }, { kill = 10419 }, { kill = 10420 }, { kill = 10421 }, { kill = 10422 }, { kill = 10423 }, { kill = 10424 }, { kill = 10425 }, { kill = 10426 }, { kill = 10605 }, { kill = 10608 }, { kill = 10812 }, { kill = 10813 }, { kill = 11043 }, { kill = 11054 }, { kill = 12128 }, { kill = 12337 }, { kill = 12352 }, { kill = 13118 }, { kill = 15162 } },
       also = { "scourge", "argent-dawn", "scarlet-monastery", "whitemane-and-mograine" },
       text = {
@@ -2137,7 +2137,7 @@ ns.content = {
       },
     },
     ["scourge"] = {
-      title = "The Scourge", kind = "faction", chapter = "peoples",
+      title = "The Scourge", kind = "faction", chapter = "peoples", portrait = 200,
       unlock = { { kill = 1520 }, { kill = 1522 }, { kill = 1523 }, { kill = 1525 }, { kill = 1526 }, { kill = 1527 }, { kill = 1528 }, { kill = 1529 }, { kill = 1530 }, { kill = 1654 }, { kill = 1655 }, { kill = 1656 }, { kill = 1657 }, { kill = 1658 }, { kill = 1753 }, { kill = 1783 }, { kill = 1784 }, { kill = 1785 }, { kill = 1787 }, { kill = 1788 }, { kill = 1789 }, { kill = 1791 }, { kill = 1793 }, { kill = 1794 }, { kill = 1795 }, { kill = 1796 }, { kill = 1802 }, { kill = 1805 }, { kill = 1847 }, { kill = 1850 }, { kill = 1852 }, { kill = 1946 }, { kill = 4474 }, { kill = 4475 }, { kill = 6412 }, { kill = 7327 }, { kill = 7328 }, { kill = 7329 }, { kill = 7332 }, { kill = 7333 }, { kill = 7334 }, { kill = 7340 }, { kill = 7341 }, { kill = 7342 }, { kill = 7343 }, { kill = 7344 }, { kill = 7345 }, { kill = 7346 }, { kill = 7347 }, { kill = 7348 }, { kill = 7349 }, { kill = 7351 }, { kill = 7352 }, { kill = 7355 }, { kill = 7357 }, { kill = 7358 }, { kill = 8477 }, { kill = 8523 }, { kill = 8524 }, { kill = 8525 }, { kill = 8526 }, { kill = 8527 }, { kill = 8528 }, { kill = 8529 }, { kill = 8530 }, { kill = 8531 }, { kill = 8532 }, { kill = 8534 }, { kill = 8535 }, { kill = 8538 }, { kill = 8539 }, { kill = 8540 }, { kill = 8541 }, { kill = 8542 }, { kill = 8543 }, { kill = 8544 }, { kill = 8545 }, { kill = 8555 }, { kill = 8556 }, { kill = 8557 }, { kill = 8558 }, { kill = 8567 }, { kill = 8585 }, { kill = 10381 }, { kill = 10382 }, { kill = 10383 }, { kill = 10390 }, { kill = 10391 }, { kill = 10393 }, { kill = 10394 }, { kill = 10405 }, { kill = 10406 }, { kill = 10407 }, { kill = 10408 }, { kill = 10409 }, { kill = 10411 }, { kill = 10412 }, { kill = 10413 }, { kill = 10414 }, { kill = 10416 }, { kill = 10417 }, { kill = 10432 }, { kill = 10433 }, { kill = 10435 }, { kill = 10436 }, { kill = 10437 }, { kill = 10439 }, { kill = 10440 }, { kill = 10463 }, { kill = 10478 }, { kill = 10480 }, { kill = 10481 }, { kill = 10482 }, { kill = 10485 }, { kill = 10486 }, { kill = 10487 }, { kill = 10488 }, { kill = 10489 }, { kill = 10491 }, { kill = 10495 }, { kill = 10506 }, { kill = 10507 }, { kill = 10508 }, { kill = 10516 }, { kill = 10580 }, { kill = 10698 }, { kill = 10699 }, { kill = 10801 }, { kill = 10808 }, { kill = 10809 }, { kill = 10816 }, { kill = 10821 }, { kill = 10825 }, { kill = 10826 }, { kill = 10876 }, { kill = 10901 }, { kill = 10938 }, { kill = 10939 }, { kill = 10943 }, { kill = 10946 }, { kill = 10947 }, { kill = 10951 }, { kill = 10952 }, { kill = 10953 }, { kill = 10954 }, { kill = 11027 }, { kill = 11030 }, { kill = 11058 }, { kill = 11075 }, { kill = 11076 }, { kill = 11077 }, { kill = 11078 }, { kill = 11082 }, { kill = 11121 }, { kill = 11142 }, { kill = 11143 }, { kill = 11197 }, { kill = 11258 }, { kill = 11290 }, { kill = 11291 }, { kill = 11551 }, { kill = 11598 }, { kill = 11622 }, { kill = 12208 }, { kill = 12248 }, { kill = 12250 }, { kill = 12261 }, { kill = 12262 }, { kill = 12263 }, { kill = 14486 }, { kill = 14489 }, { kill = 14516 }, { kill = 14518 }, { kill = 14519 }, { kill = 14520 }, { kill = 14521 }, { kill = 14684 }, { kill = 14686 }, { kill = 14695 }, { kill = 15928 }, { kill = 15929 }, { kill = 15930 }, { kill = 15931 }, { kill = 15932 }, { kill = 15936 }, { kill = 15954 }, { kill = 15956 }, { kill = 15978 }, { kill = 15979 }, { kill = 15989 }, { kill = 15990 }, { kill = 16011 }, { kill = 16017 }, { kill = 16018 }, { kill = 16020 }, { kill = 16021 }, { kill = 16022 }, { kill = 16024 }, { kill = 16025 }, { kill = 16028 }, { kill = 16029 }, { kill = 16060 }, { kill = 16061 }, { kill = 16062 }, { kill = 16063 }, { kill = 16064 }, { kill = 16065 }, { kill = 16067 }, { kill = 16101 }, { kill = 16102 }, { kill = 16119 }, { kill = 16120 }, { kill = 16125 }, { kill = 16126 }, { kill = 16145 }, { kill = 16146 }, { kill = 16154 }, { kill = 16156 }, { kill = 16163 }, { kill = 16165 }, { kill = 16167 }, { kill = 16168 }, { kill = 16184 }, { kill = 16194 }, { kill = 16215 }, { kill = 16216 }, { kill = 16244 }, { kill = 16290 }, { kill = 16360 }, { kill = 16375 }, { kill = 16390 }, { kill = 16427 }, { kill = 16428 }, { kill = 16429 }, { kill = 16441 }, { kill = 16446 }, { kill = 16447 }, { kill = 16451 }, { kill = 16452 }, { kill = 16573 }, { kill = 16861 }, { kill = 16981 }, { kill = 16982 }, { kill = 16983 }, { kill = 16984 } },
       also = { "cult-of-the-damned", "scarlet-crusade", "argent-dawn", "fall-of-lordaeron", "the-forsaken" },
       text = {
@@ -2147,7 +2147,7 @@ ns.content = {
       },
     },
     ["silithid"] = {
-      title = "The Silithid", kind = "creature", chapter = "peoples",
+      title = "The Silithid", kind = "creature", chapter = "peoples", portrait = 2731,
       unlock = { { kill = 3250 }, { kill = 3251 }, { kill = 3252 }, { kill = 3253 }, { kill = 3503 }, { kill = 4130 }, { kill = 4131 }, { kill = 4132 }, { kill = 4133 }, { kill = 4196 }, { kill = 5244 }, { kill = 5245 }, { kill = 5246 }, { kill = 5247 }, { kill = 5441 }, { kill = 5450 }, { kill = 5451 }, { kill = 5452 }, { kill = 5453 }, { kill = 5454 }, { kill = 5455 }, { kill = 5456 }, { kill = 5457 }, { kill = 5458 }, { kill = 5459 }, { kill = 5460 }, { kill = 5781 }, { kill = 6551 }, { kill = 6552 }, { kill = 6553 }, { kill = 6554 }, { kill = 6555 }, { kill = 7769 }, { kill = 9496 }, { kill = 9498 }, { kill = 10040 }, { kill = 10041 }, { kill = 11698 }, { kill = 11721 }, { kill = 11722 }, { kill = 11723 }, { kill = 11724 }, { kill = 11725 }, { kill = 11726 }, { kill = 11727 }, { kill = 11728 }, { kill = 11729 }, { kill = 11730 }, { kill = 11731 }, { kill = 11732 }, { kill = 11733 }, { kill = 11734 }, { kill = 13136 }, { kill = 13301 }, { kill = 15246 }, { kill = 15247 }, { kill = 15249 }, { kill = 15250 }, { kill = 15252 }, { kill = 15264 }, { kill = 15277 }, { kill = 15311 }, { kill = 15316 }, { kill = 15317 }, { kill = 15318 }, { kill = 15319 }, { kill = 15320 }, { kill = 15323 }, { kill = 15324 }, { kill = 15325 }, { kill = 15327 }, { kill = 15336 }, { kill = 15343 }, { kill = 15355 }, { kill = 15387 }, { kill = 15414 }, { kill = 15421 }, { kill = 15422 }, { kill = 15424 }, { kill = 15449 }, { kill = 15521 }, { kill = 15537 }, { kill = 15538 }, { kill = 15546 }, { kill = 15555 }, { kill = 15620 }, { kill = 15743 }, { kill = 15744 }, { kill = 15747 }, { kill = 15748 }, { kill = 15749 }, { kill = 15750 }, { kill = 15751 }, { kill = 15752 }, { kill = 15753 }, { kill = 15754 }, { kill = 15756 }, { kill = 15757 }, { kill = 15758 }, { kill = 15759 }, { kill = 15806 }, { kill = 15807 }, { kill = 15808 }, { kill = 15810 }, { kill = 15811 }, { kill = 15812 }, { kill = 15813 }, { kill = 15814 }, { kill = 15815 }, { kill = 15816 }, { kill = 15817 }, { kill = 15934 } },
       also = { "cenarion-circle", "twilights-hammer" },
       text = {
@@ -2157,7 +2157,7 @@ ns.content = {
       },
     },
     ["southsea-freebooters"] = {
-      title = "The Southsea Freebooters", kind = "faction", chapter = "peoples",
+      title = "The Southsea Freebooters", kind = "faction", chapter = "peoples", portrait = 3829,
       unlock = { { kill = 3381 }, { kill = 3382 }, { kill = 3383 }, { kill = 3384 }, { kill = 3467 }, { kill = 7855 }, { kill = 7856 }, { kill = 7857 }, { kill = 7858 }, { kill = 15685 } },
       also = { "steamwheedle-cartel" },
       text = {
@@ -2166,7 +2166,7 @@ ns.content = {
       },
     },
     ["steamwheedle-cartel"] = {
-      title = "The Steamwheedle Cartel", kind = "faction", chapter = "peoples",
+      title = "The Steamwheedle Cartel", kind = "faction", chapter = "peoples", portrait = 7167,
       unlock = { { npc = 2496 }, { npc = 7564 }, { npc = 3391 }, { faction = 21, standing = 5 }, { faction = 369, standing = 5 }, { faction = 470, standing = 5 }, { faction = 577, standing = 5 } },
       also = { "venture-company", "southsea-freebooters" },
       text = {
@@ -2176,7 +2176,7 @@ ns.content = {
       },
     },
     ["syndicate"] = {
-      title = "The Syndicate", kind = "faction", chapter = "peoples",
+      title = "The Syndicate", kind = "faction", chapter = "peoples", portrait = 3706,
       unlock = { { kill = 2240 }, { kill = 2241 }, { kill = 2242 }, { kill = 2243 }, { kill = 2244 }, { kill = 2245 }, { kill = 2246 }, { kill = 2247 }, { kill = 2260 }, { kill = 2261 }, { kill = 2306 }, { kill = 2319 }, { kill = 2423 }, { kill = 2586 }, { kill = 2587 }, { kill = 2588 }, { kill = 2589 }, { kill = 2590 }, { kill = 2591 }, { kill = 2597 }, { kill = 2599 }, { kill = 2638 } },
       also = {  },
       text = {
@@ -2186,7 +2186,7 @@ ns.content = {
       },
     },
     ["rockjaw-troggs"] = {
-      title = "The Troggs", kind = "creature", chapter = "peoples",
+      title = "The Troggs", kind = "creature", chapter = "peoples", portrait = 606,
       unlock = { { kill = 707 }, { kill = 724 }, { kill = 1115 }, { kill = 1116 }, { kill = 1117 }, { kill = 1118 }, { kill = 1161 }, { kill = 1162 }, { kill = 1163 }, { kill = 1164 }, { kill = 1165 }, { kill = 1166 }, { kill = 1167 }, { kill = 1197 }, { kill = 1393 }, { kill = 1718 }, { kill = 2158 }, { kill = 2159 }, { kill = 2160 }, { kill = 2892 }, { kill = 2893 }, { kill = 2894 }, { kill = 4850 }, { kill = 4851 }, { kill = 4852 }, { kill = 4853 }, { kill = 4854 }, { kill = 4855 }, { kill = 6206 }, { kill = 6207 }, { kill = 6211 }, { kill = 6329 }, { kill = 6733 }, { kill = 7175 }, { kill = 7320 }, { kill = 7321 }, { kill = 10987 }, { kill = 11318 } },
       also = { "ironforge", "kharanos", "gnomeregan", "platinum-discs", "uldaman" },
       text = {
@@ -2196,7 +2196,7 @@ ns.content = {
       },
     },
     ["twilights-hammer"] = {
-      title = "The Twilight's Hammer", kind = "faction", chapter = "peoples",
+      title = "The Twilight's Hammer", kind = "faction", chapter = "peoples", portrait = 2882,
       unlock = { { kill = 2338 }, { kill = 2339 }, { kill = 4809 }, { kill = 4810 }, { kill = 4811 }, { kill = 4812 }, { kill = 4813 }, { kill = 4814 }, { kill = 4832 }, { kill = 5860 }, { kill = 5861 }, { kill = 5862 }, { kill = 8419 }, { kill = 8912 }, { kill = 8913 }, { kill = 8914 }, { kill = 8915 }, { kill = 9398 }, { kill = 11803 }, { kill = 11804 }, { kill = 11880 }, { kill = 11881 }, { kill = 11882 }, { kill = 11883 }, { kill = 14479 }, { kill = 15200 }, { kill = 15201 }, { kill = 15213 }, { kill = 15308 }, { kill = 15541 }, { kill = 15542 } },
       also = { "silithid" },
       text = {
@@ -2205,7 +2205,7 @@ ns.content = {
       },
     },
     ["venture-company"] = {
-      title = "The Venture Company", kind = "faction", chapter = "peoples",
+      title = "The Venture Company", kind = "faction", chapter = "peoples", portrait = 7202,
       unlock = { { kill = 674 }, { kill = 675 }, { kill = 676 }, { kill = 677 }, { kill = 921 }, { kill = 1094 }, { kill = 1095 }, { kill = 1096 }, { kill = 1097 }, { kill = 2975 }, { kill = 2976 }, { kill = 2977 }, { kill = 2978 }, { kill = 2979 }, { kill = 3282 }, { kill = 3283 }, { kill = 3284 }, { kill = 3285 }, { kill = 3286 }, { kill = 3988 }, { kill = 3989 }, { kill = 3991 }, { kill = 3992 }, { kill = 3993 }, { kill = 4070 }, { kill = 4260 }, { kill = 7067 }, { kill = 7307 }, { kill = 7308 } },
       also = { "steamwheedle-cartel", "mulgore" },
       text = {
@@ -2215,7 +2215,7 @@ ns.content = {
       },
     },
     ["worgen"] = {
-      title = "The Worgen", kind = "creature", chapter = "peoples",
+      title = "The Worgen", kind = "creature", chapter = "peoples", portrait = 657,
       unlock = { { kill = 205 }, { kill = 206 }, { kill = 533 }, { kill = 898 }, { kill = 920 }, { kill = 1769 }, { kill = 1770 }, { kill = 1779 }, { kill = 1782 }, { kill = 1892 }, { kill = 1893 }, { kill = 1896 }, { kill = 1924 }, { kill = 2529 }, { kill = 3529 }, { kill = 3531 }, { kill = 3533 }, { kill = 3851 }, { kill = 3853 }, { kill = 3854 }, { kill = 3855 }, { kill = 3857 }, { kill = 3859 }, { kill = 3863 }, { kill = 3914 }, { kill = 3927 }, { kill = 5097 } },
       also = {  },
       text = {
@@ -2225,7 +2225,7 @@ ns.content = {
       },
     },
     ["gathilzogg"] = {
-      title = "Gath'Ilzogg", kind = "figure", chapter = "redridge",
+      title = "Gath'Ilzogg", kind = "figure", chapter = "redridge", portrait = 6050,
       unlock = { { kill = 334 }, { quest = 169 } },
       also = { "stonewatch-keep", "blackrock-clan", "black-dragonflight" },
       text = {
@@ -2243,7 +2243,7 @@ ns.content = {
       },
     },
     ["morganth"] = {
-      title = "Morganth", kind = "figure", chapter = "redridge",
+      title = "Morganth", kind = "figure", chapter = "redridge", portrait = 3383,
       unlock = { { kill = 397 }, { area = 96 } },
       also = { "gnolls", "worgen", "redridge-mountains" },
       text = {
@@ -2288,7 +2288,7 @@ ns.content = {
       },
     },
     ["thorium-brotherhood"] = {
-      title = "The Thorium Brotherhood", kind = "faction", chapter = "searing-gorge",
+      title = "The Thorium Brotherhood", kind = "faction", chapter = "searing-gorge", portrait = 14666,
       unlock = { { area = 1446 }, { faction = 59, standing = 5 } },
       also = { "dark-iron-dwarves", "the-cauldron", "blackrock-depths", "molten-core" },
       text = {
@@ -2297,7 +2297,7 @@ ns.content = {
       },
     },
     ["abyssal-council"] = {
-      title = "The Abyssal Council", kind = "faction", chapter = "silithus",
+      title = "The Abyssal Council", kind = "faction", chapter = "silithus", portrait = 12002,
       unlock = { { kill = 15203 }, { kill = 15204 }, { kill = 15205 }, { kill = 15206 }, { kill = 15207 }, { kill = 15208 }, { kill = 15209 }, { kill = 15211 }, { kill = 15212 }, { kill = 15220 }, { kill = 15305 }, { kill = 15307 } },
       also = { "twilights-hammer", "silithus", "cenarion-hold" },
       text = {
@@ -2315,7 +2315,7 @@ ns.content = {
       },
     },
     ["cthun"] = {
-      title = "C'Thun", kind = "figure", chapter = "silithus",
+      title = "C'Thun", kind = "figure", chapter = "silithus", portrait = 15787,
       unlock = { { kill = 15727 } },
       also = { "temple-of-ahnqiraj", "silithid", "uldum" },
       text = {
@@ -2324,7 +2324,7 @@ ns.content = {
       },
     },
     ["prince-thunderaan"] = {
-      title = "Prince Thunderaan", kind = "figure", chapter = "silithus",
+      title = "Prince Thunderaan", kind = "figure", chapter = "silithus", portrait = 14992,
       unlock = { { kill = 14435 }, { quest = 7786 } },
       also = { "ragnaros", "molten-core", "silithus" },
       text = {
@@ -2387,7 +2387,7 @@ ns.content = {
       },
     },
     ["archmage-arugal"] = {
-      title = "Archmage Arugal", kind = "figure", chapter = "silverpine",
+      title = "Archmage Arugal", kind = "figure", chapter = "silverpine", portrait = 2353,
       unlock = { { kill = 4275 }, { quest = 1014 } },
       also = { "shadowfang-keep", "worgen", "pyrewood-village" },
       text = {
@@ -2441,7 +2441,7 @@ ns.content = {
       },
     },
     ["thule-ravenclaw"] = {
-      title = "Thule Ravenclaw", kind = "figure", chapter = "silverpine",
+      title = "Thule Ravenclaw", kind = "figure", chapter = "silverpine", portrait = 4430,
       unlock = { { kill = 1947 }, { area = 172 } },
       also = { "gnolls", "scourge", "the-sepulcher" },
       text = {
@@ -2496,7 +2496,7 @@ ns.content = {
       },
     },
     ["bloodsail-buccaneers"] = {
-      title = "The Bloodsail Buccaneers", kind = "faction", chapter = "stranglethorn",
+      title = "The Bloodsail Buccaneers", kind = "faction", chapter = "stranglethorn", portrait = 793,
       unlock = { { kill = 1561 }, { kill = 1562 }, { kill = 1563 }, { kill = 1564 }, { kill = 1565 }, { kill = 1653 }, { kill = 2546 }, { kill = 2548 }, { kill = 2550 }, { kill = 4505 }, { kill = 4506 } },
       also = { "booty-bay", "steamwheedle-cartel" },
       text = {
@@ -2505,7 +2505,7 @@ ns.content = {
       },
     },
     ["bloodscalp-and-skullsplitter"] = {
-      title = "The Bloodscalp and the Skullsplitter", kind = "faction", chapter = "stranglethorn",
+      title = "The Bloodscalp and the Skullsplitter", kind = "faction", chapter = "stranglethorn", portrait = 4570,
       unlock = { { kill = 587 }, { kill = 588 }, { kill = 595 }, { kill = 597 }, { kill = 660 }, { kill = 671 }, { kill = 694 }, { kill = 697 }, { kill = 698 }, { kill = 699 }, { kill = 701 }, { kill = 702 }, { kill = 667 }, { kill = 669 }, { kill = 670 }, { kill = 672 }, { kill = 696 }, { kill = 756 }, { kill = 780 }, { kill = 781 }, { kill = 782 }, { kill = 783 }, { kill = 784 } },
       also = { "gurubashi-empire", "gromgol-base-camp" },
       text = {
@@ -2550,7 +2550,7 @@ ns.content = {
       },
     },
     ["hakkar"] = {
-      title = "Hakkar the Soulflayer", kind = "figure", chapter = "stranglethorn",
+      title = "Hakkar the Soulflayer", kind = "figure", chapter = "stranglethorn", portrait = 15295,
       unlock = { { kill = 14834 }, { quest = 8183 } },
       also = { "zulgurub", "gurubashi-empire", "zandalar-tribe", "the-temple-of-atalhakkar" },
       text = {
@@ -2587,7 +2587,7 @@ ns.content = {
       },
     },
     ["zandalar-tribe"] = {
-      title = "The Zandalar Tribe", kind = "faction", chapter = "stranglethorn",
+      title = "The Zandalar Tribe", kind = "faction", chapter = "stranglethorn", portrait = 14993,
       unlock = { { area = 3357 }, { npc = 14875 }, { npc = 14910 } },
       also = { "hakkar", "zulgurub", "gurubashi-empire" },
       text = {
@@ -2605,7 +2605,7 @@ ns.content = {
       },
     },
     ["eranikus"] = {
-      title = "Eranikus", kind = "figure", chapter = "swamp-of-sorrows",
+      title = "Eranikus", kind = "figure", chapter = "swamp-of-sorrows", portrait = 7806,
       unlock = { { kill = 5709 }, { area = 1777 }, { quest = 3374 } },
       also = { "the-temple-of-atalhakkar", "dragons-of-nightmare", "cenarion-circle" },
       text = {
@@ -2632,7 +2632,7 @@ ns.content = {
       },
     },
     ["the-fallen-hero"] = {
-      title = "The Fallen Hero", kind = "figure", chapter = "swamp-of-sorrows",
+      title = "The Fallen Hero", kind = "figure", chapter = "swamp-of-sorrows", portrait = 6775,
       unlock = { { npc = 7572 }, { quest = 2681 } },
       also = { "razelikh-the-defiler", "stonard", "burning-legion" },
       text = {
@@ -2641,7 +2641,7 @@ ns.content = {
       },
     },
     ["the-lost-ones"] = {
-      title = "The Lost Ones", kind = "creature", chapter = "swamp-of-sorrows",
+      title = "The Lost Ones", kind = "creature", chapter = "swamp-of-sorrows", portrait = 152,
       unlock = { { kill = 755 }, { kill = 757 }, { kill = 759 }, { kill = 760 }, { kill = 761 }, { kill = 762 }, { kill = 763 }, { kill = 1106 }, { kill = 6913 }, { area = 76 } },
       also = { "swamp-of-sorrows", "burning-legion" },
       text = {
@@ -2677,7 +2677,7 @@ ns.content = {
       },
     },
     ["sandfury-trolls"] = {
-      title = "The Sandfury Trolls", kind = "faction", chapter = "tanaris",
+      title = "The Sandfury Trolls", kind = "faction", chapter = "tanaris", portrait = 6413,
       unlock = { { kill = 5645 }, { kill = 5646 }, { kill = 5647 }, { kill = 5648 }, { kill = 5649 }, { kill = 5650 }, { kill = 7246 }, { kill = 7247 }, { kill = 7267 }, { kill = 7268 }, { kill = 7271 }, { kill = 7274 }, { kill = 7275 }, { kill = 7787 }, { kill = 7788 }, { kill = 7789 }, { kill = 7795 }, { kill = 7796 }, { kill = 7797 }, { kill = 8127 }, { kill = 8876 }, { kill = 8877 }, { kill = 11387 } },
       also = { "zulfarrak", "tanaris", "hakkar", "silithid" },
       text = {
@@ -2731,7 +2731,7 @@ ns.content = {
       },
     },
     ["fandral-staghelm"] = {
-      title = "Arch Druid Fandral Staghelm", kind = "figure", chapter = "teldrassil",
+      title = "Arch Druid Fandral Staghelm", kind = "figure", chapter = "teldrassil", portrait = 1542,
       unlock = { { npc = 3516 } },
       also = { "darnassus", "sickness-of-teldrassil", "cenarion-circle", "silithid" },
       text = {
@@ -2769,7 +2769,7 @@ ns.content = {
       },
     },
     ["tyrande-whisperwind"] = {
-      title = "Tyrande Whisperwind", kind = "figure", chapter = "teldrassil",
+      title = "Tyrande Whisperwind", kind = "figure", chapter = "teldrassil", portrait = 7274,
       unlock = { { npc = 7999 } },
       also = { "darnassus", "cenarion-circle", "fandral-staghelm" },
       text = {
@@ -2843,7 +2843,7 @@ ns.content = {
       },
     },
     ["royal-apothecary-society"] = {
-      title = "The Royal Apothecary Society", kind = "faction", chapter = "tirisfal",
+      title = "The Royal Apothecary Society", kind = "faction", chapter = "tirisfal", portrait = 1680,
       unlock = { { npc = 2055 } },
       also = { "the-forsaken", "brill", "scourge" },
       text = {
@@ -2861,7 +2861,7 @@ ns.content = {
       },
     },
     ["sylvanas-windrunner"] = {
-      title = "Lady Sylvanas Windrunner", kind = "figure", chapter = "tirisfal",
+      title = "Lady Sylvanas Windrunner", kind = "figure", chapter = "tirisfal", portrait = 11657,
       unlock = { { npc = 10181 } },
       also = { "the-forsaken", "undercity", "varimathras", "fall-of-lordaeron" },
       text = {
@@ -2880,7 +2880,7 @@ ns.content = {
       },
     },
     ["the-forsaken"] = {
-      title = "The Forsaken", kind = "faction", chapter = "tirisfal",
+      title = "The Forsaken", kind = "faction", chapter = "tirisfal", portrait = 2858,
       unlock = { { area = 154 }, { area = 159 }, { npc = 10181 } },
       also = { "sylvanas-windrunner", "undercity", "scourge", "deathknell" },
       text = {
@@ -2908,7 +2908,7 @@ ns.content = {
       },
     },
     ["varimathras"] = {
-      title = "Varimathras", kind = "figure", chapter = "tirisfal",
+      title = "Varimathras", kind = "figure", chapter = "tirisfal", portrait = 11658,
       unlock = { { npc = 2425 } },
       also = { "sylvanas-windrunner", "burning-legion", "undercity" },
       text = {
@@ -2917,7 +2917,7 @@ ns.content = {
       },
     },
     ["whitemane-and-mograine"] = {
-      title = "Whitemane and Mograine", kind = "figure", chapter = "tirisfal",
+      title = "Whitemane and Mograine", kind = "figure", chapter = "tirisfal", portrait = 2043,
       unlock = { { kill = 3977 }, { kill = 3976 } },
       also = { "scarlet-monastery", "scarlet-crusade" },
       text = {
@@ -3044,7 +3044,7 @@ ns.content = {
       },
     },
     ["edwin-vancleef"] = {
-      title = "Edwin VanCleef", kind = "figure", chapter = "westfall",
+      title = "Edwin VanCleef", kind = "figure", chapter = "westfall", portrait = 2029,
       unlock = { { kill = 639 }, { quest = 166 } },
       also = { "defias-brotherhood", "the-deadmines", "noble-conspiracy", "peoples-militia" },
       text = {
@@ -3063,7 +3063,7 @@ ns.content = {
       },
     },
     ["peoples-militia"] = {
-      title = "The People's Militia", kind = "faction", chapter = "westfall",
+      title = "The People's Militia", kind = "faction", chapter = "westfall", portrait = 1690,
       unlock = { { npc = 234 } },
       also = { "sentinel-hill", "defias-brotherhood", "edwin-vancleef" },
       text = {
@@ -3100,7 +3100,7 @@ ns.content = {
       },
     },
     ["dragonmaw-clan"] = {
-      title = "The Dragonmaw Clan", kind = "faction", chapter = "wetlands",
+      title = "The Dragonmaw Clan", kind = "faction", chapter = "wetlands", portrait = 4916,
       unlock = { { kill = 1034 }, { kill = 1035 }, { kill = 1036 }, { kill = 1037 }, { kill = 1038 }, { kill = 1057 }, { kill = 2102 }, { kill = 2103 }, { area = 1036 } },
       also = { "grim-batol", "red-dragonflight", "nekrosh" },
       text = {
@@ -3138,7 +3138,7 @@ ns.content = {
       },
     },
     ["mosshide-gnolls"] = {
-      title = "The Mosshide Gnolls", kind = "faction", chapter = "wetlands",
+      title = "The Mosshide Gnolls", kind = "faction", chapter = "wetlands", portrait = 3199,
       unlock = { { kill = 1007 }, { kill = 1008 }, { kill = 1009 }, { kill = 1010 }, { kill = 1011 }, { kill = 1012 }, { kill = 1013 }, { kill = 1014 }, { area = 1020 } },
       also = { "wetlands", "gnolls" },
       text = {
@@ -3147,7 +3147,7 @@ ns.content = {
       },
     },
     ["nekrosh"] = {
-      title = "Chieftain Nek'rosh", kind = "figure", chapter = "wetlands",
+      title = "Chieftain Nek'rosh", kind = "figure", chapter = "wetlands", portrait = 4915,
       unlock = { { kill = 2091 }, { quest = 474 } },
       also = { "dragonmaw-clan", "grim-batol" },
       text = {
@@ -3157,7 +3157,7 @@ ns.content = {
       },
     },
     ["red-dragonflight"] = {
-      title = "The Red Dragonflight", kind = "creature", chapter = "wetlands",
+      title = "The Red Dragonflight", kind = "creature", chapter = "wetlands", portrait = 363,
       unlock = { { kill = 1045 }, { kill = 1046 }, { kill = 1047 }, { kill = 1048 }, { kill = 1049 }, { kill = 1050 } },
       also = { "grim-batol", "dragonmaw-clan", "black-dragonflight" },
       text = {

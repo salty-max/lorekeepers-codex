@@ -2,6 +2,7 @@
 id: thule-ravenclaw
 title: Thule Ravenclaw
 kind: figure
+portrait: 1947
 unlock:
   - kill: 1947
   - area: Fenris Isle

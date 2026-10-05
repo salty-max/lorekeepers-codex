@@ -2,6 +2,7 @@
 id: royal-apothecary-society
 title: The Royal Apothecary Society
 kind: faction
+portrait: 2055
 unlock:
   - npc: 2055
 also: [the-forsaken, brill, scourge]

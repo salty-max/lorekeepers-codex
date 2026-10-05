@@ -2,6 +2,7 @@
 id: kobolds
 title: The Kobolds
 kind: creature
+portrait: 80
 unlock:
   - kill: 6, 40, 80, 257, 475, 476, 1172, 1173, 1174, 1175, 1176, 1177, 1202, 1236
   - kill: 2572, 2573, 2574, 4111, 4112, 4113, 4114, 4116

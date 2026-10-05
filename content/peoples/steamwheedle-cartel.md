@@ -2,6 +2,7 @@
 id: steamwheedle-cartel
 title: The Steamwheedle Cartel
 kind: faction
+portrait: 2496
 unlock:
   - npc: 2496, 7564, 3391
   - reputation: 21 friendly

@@ -2,6 +2,7 @@
 id: high-tinker-mekkatorque
 title: High Tinker Mekkatorque
 kind: figure
+portrait: 7937
 unlock:
   - npc: 7937 # High Tinker Mekkatorque, Tinker Town
 also: [gnomeregan, gnomeregan-exiles]

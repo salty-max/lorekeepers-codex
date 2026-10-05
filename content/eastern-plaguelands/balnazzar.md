@@ -2,6 +2,7 @@
 id: balnazzar
 title: Balnazzar
 kind: figure
+portrait: 10813
 unlock:
   - kill: 10813
 also: [scarlet-crusade, varimathras, sylvanas-windrunner, stratholme, burning-legion]

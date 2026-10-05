@@ -2,6 +2,7 @@
 id: marshal-windsor
 title: Marshal Windsor
 kind: figure
+portrait: 9023
 unlock:
   - npc: 9023
   - quest: 4241

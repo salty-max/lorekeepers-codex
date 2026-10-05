@@ -2,6 +2,7 @@
 id: morladim
 title: Mor'Ladim
 kind: figure
+portrait: 522
 unlock:
   - kill: 522
   - quest: 228

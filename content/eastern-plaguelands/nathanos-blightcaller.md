@@ -2,6 +2,7 @@
 id: nathanos-blightcaller
 title: Nathanos Blightcaller
 kind: figure
+portrait: 11878
 unlock:
   - npc: 11878
 also: [sylvanas-windrunner, the-forsaken, tyrs-hand, si-7, eastern-plaguelands]

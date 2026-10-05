@@ -2,6 +2,7 @@
 id: explorers-league
 title: The Explorers' League
 kind: faction
+portrait: 5387
 unlock:
   - npc: 5387, 1356, 2916, 8256 # Magellas, Stormpike, Karnik, Thorius (Hall of Explorers)
 also: [ironforge, magni-bronzebeard, ironbands-excavation-site, whelgars-excavation-site]

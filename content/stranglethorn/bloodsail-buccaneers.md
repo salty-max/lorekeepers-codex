@@ -2,6 +2,7 @@
 id: bloodsail-buccaneers
 title: The Bloodsail Buccaneers
 kind: faction
+portrait: 1561
 unlock:
   - kill: 1561, 1562, 1563, 1564, 1565, 1653, 2546, 2548, 2550, 4505, 4506
 also: [booty-bay, steamwheedle-cartel]
