@@ -91,6 +91,19 @@ local function copy()
   if ns.onLibrary then ns.onLibrary(id) end
 end
 
+-- The game's reader is hidden while the addon turns its pages, so they don't
+-- flash past; it shows again on the first page, or after two seconds whatever
+-- happens.
+local function hideReader()
+  if ItemTextFrame and ItemTextFrame.SetAlpha then ItemTextFrame:SetAlpha(0) end
+  if C_Timer and C_Timer.After then
+    C_Timer.After(2, function() if ItemTextFrame and ItemTextFrame.SetAlpha then ItemTextFrame:SetAlpha(1) end end)
+  end
+end
+local function showReader()
+  if ItemTextFrame and ItemTextFrame.SetAlpha then ItemTextFrame:SetAlpha(1) end
+end
+
 local frame = CreateFrame("Frame")
 frame:RegisterEvent("ITEM_TEXT_BEGIN")
 frame:RegisterEvent("ITEM_TEXT_READY")
@@ -111,24 +124,26 @@ frame:SetScript("OnEvent", function(_, event)
     if not more then reading.last = page end
     if reading.walking == "back" then
       -- turning back to the first page for the reader: nothing to copy
-      if page > 1 then ItemTextPrevPage() else reading.walking = nil end
+      if page > 1 then ItemTextPrevPage() else reading.walking = nil; showReader() end
       return
     end
     copy()
     -- On opening a text, turn through every page at once, then back.
     if page == 1 and more and not reading.walking and ItemTextNextPage then
       reading.walking = "forward"
+      hideReader()
       ItemTextNextPage()
     elseif reading.walking == "forward" then
       if more then
         ItemTextNextPage()
       else
         reading.walking = "back"
-        if page > 1 then ItemTextPrevPage() else reading.walking = nil end
+        if page > 1 then ItemTextPrevPage() else reading.walking = nil; showReader() end
       end
     end
   elseif event == "ITEM_TEXT_CLOSED" then
     reading = nil
+    showReader()
   end
 end)
 

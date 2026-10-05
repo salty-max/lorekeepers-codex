@@ -448,6 +448,8 @@ function ItemTextGetCreator() return reader.creator end
 function ItemTextGetPage() return reader.page end
 function ItemTextGetText() return reader.pages[reader.page] end
 function ItemTextHasNextPage() return reader.page < #reader.pages end
+-- The game's reader frame: its alpha, and the lowest it went.
+ItemTextFrame = { alpha = 1, SetAlpha = function(self, a) self.alpha = a; self.lowest = math.min(self.lowest or 1, a) end }
 local function readerEvent(e) libraryFrame.scripts.OnEvent(libraryFrame, e) end
 function ItemTextNextPage() reader.page = reader.page + 1; readerEvent("ITEM_TEXT_READY") end
 function ItemTextPrevPage() reader.page = reader.page - 1; readerEvent("ITEM_TEXT_READY") end
@@ -468,6 +470,7 @@ local book = LorekeepersCodexChar.library.texts[1]
 check(book and book.pages[1] and book.pages[2] and book.pages[3] and book.count == 3 and shown == 1
   and said("copied into the Library: |cffffd100|Hlorekeeper:lib:1|h[The Founding of Quel'Thalas]|h|r"),
   "a book opened is copied whole at once (every page turned, then back to the first), and announced with a link")
+check(ItemTextFrame.lowest == 0 and ItemTextFrame.alpha == 1, "… the reader hidden while its pages are turned, shown again after")
 check(book.zone == state.zone and ns.libraryShelf(book) == "books", "… with where it was found; several pages make a book")
 check(ns.libraryPlain(book.pages[2]) == "The Sunwell\n\nAnd so it was.", "the game's HTML becomes plain paragraphs")
 read("Ironforge plaque", { "Here stood..." }, "Bronze")
