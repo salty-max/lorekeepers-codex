@@ -1,4 +1,4 @@
-# Lorekeeper's Codex
+# Lorekeeper's Codex: Lore of Azeroth
 
 A World of Warcraft Classic addon: **the lore of Azeroth, written by an
 archivist of the Explorers' League, that fills in as you explore.**

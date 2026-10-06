@@ -1,6 +1,8 @@
-# Lorekeeper's Codex
+# Lorekeeper's Codex: Lore of Azeroth
 
-<!-- Project description for curseforge.com (paste as the project's description). -->
+<!-- Project description for curseforge.com (paste as the project's description).
+The project's title on CurseForge: "Lorekeeper's Codex: Lore of Azeroth" (the
+addon's own name stays Lorekeeper's Codex). -->
 
 **The lore of Azeroth, written for you as you explore.** An archivist of the Explorers' League has left you a ledger: walk into a zone, meet a figure of legend, defeat a people's warriors or finish the right quest, and a new page of history is added to your codex.
 
