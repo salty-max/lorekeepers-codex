@@ -43,9 +43,10 @@ they existed earns what it already deserves quietly. `/codex where` prints your 
 and target in the terms content files use (for writing new pages).
 
 For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of
-Warcraft: Forever (in beta; see [FOREVER.md](FOREVER.md)). On Forever, which
-closes the combat log to addons, pages that unlock on a kill also unlock when
-you target the creature; some pages and paragraphs belong to one game only, and
+Warcraft: Forever (in beta; see [FOREVER.md](FOREVER.md)). Pages that unlock
+on a kill do so on both games, your killing blows and your pet's; on Forever,
+creatures inside dungeons and raids are hidden from every addon, so their
+kills unlock nothing there. Some pages and paragraphs belong to one game only, and
 the Skyborne have their own foreword. `/codex scan on` records the areas,
 creatures, quest texts and books you meet, for writing Forever's new chapters
 (`scripts/scan-export.lua` turns the saved file into JSON). Not affiliated

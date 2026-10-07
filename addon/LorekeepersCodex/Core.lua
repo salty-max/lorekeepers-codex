@@ -269,8 +269,8 @@ handlers.ZONE_CHANGED = checkArea
 handlers.ZONE_CHANGED_INDOORS = checkArea
 handlers.ZONE_CHANGED_NEW_AREA = checkArea
 handlers.PLAYER_ENTERING_WORLD = checkArea
--- Where the combat log is closed to addons (Forever), meeting a creature
--- counts for the pages its kill would unlock: targeting it, alive or dead.
+-- A client with neither PARTY_KILL nor the combat log: meeting a creature
+-- (targeting it, alive or dead) counts for the pages its kill would unlock.
 local function checkMeeting(unit)
   if not ns.meetKills then return end
   local id = npcId(unit)
@@ -286,8 +286,17 @@ handlers.QUEST_GREETING = talking
 handlers.QUEST_DETAIL = talking
 handlers.MERCHANT_SHOW = talking
 handlers.UPDATE_FACTION = function() checkFactions(false) end
--- Kills: yours or your pet's (the combat log's PARTY_KILL names the killer).
+-- Kills: yours or your pet's, however dealt (a DoT, an area spell, a creature
+-- never targeted). PARTY_KILL (killer, victim) is an event of its own where the
+-- client has it (Forever, Classic since 1.15.9), else a line of the combat
+-- log; secret only in a Forever instance, where no creature can be told.
+function handlers.PARTY_KILL(attacker, victim)
+  if not attacker or secret(attacker) or (attacker ~= UnitGUID("player") and attacker ~= UnitGUID("pet")) then return end
+  local id = creatureId(victim)
+  for _, entry in ipairs(id and byKill[id] or {}) do unlock(entry) end
+end
 function handlers.COMBAT_LOG_EVENT_UNFILTERED()
+  if ns.partyKill then return end -- (told by the event of its own)
   local _, sub, _, source, _, _, _, dest = CombatLogGetCurrentEventInfo()
   if sub ~= "PARTY_KILL" or (source ~= UnitGUID("player") and source ~= UnitGUID("pet")) then return end
   local id = creatureId(dest)
@@ -302,14 +311,19 @@ frame:SetScript("OnEvent", function(_, event, ...)
   if event ~= "PLAYER_LOGIN" and not char then return end
   handlers[event](...)
 end)
--- The combat log, for kills: not on Forever, which forbids it (registering it
--- throws); if it is refused anywhere else, meeting counts instead.
+-- Kills: PARTY_KILL where the client has it; else the combat log (not on
+-- Forever, which forbids it: registering it throws); with neither, meeting
+-- counts instead.
 for event in pairs(handlers) do
-  if event == "COMBAT_LOG_EVENT_UNFILTERED" then
-    if ns.forever or not pcall(frame.RegisterEvent, frame, event) then ns.meetKills = true end
-  else
+  if event == "PARTY_KILL" then
+    ns.partyKill = pcall(frame.RegisterEvent, frame, event)
+  elseif event ~= "COMBAT_LOG_EVENT_UNFILTERED" then
     frame:RegisterEvent(event)
   end
+end
+if not ns.partyKill then
+  local log = not ns.forever and pcall(frame.RegisterEvent, frame, "COMBAT_LOG_EVENT_UNFILTERED")
+  if not log then ns.meetKills = true end
 end
 
 -- ── /codex ───────────────────────────────────────────────────────────────────

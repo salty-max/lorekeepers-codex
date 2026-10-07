@@ -21,7 +21,8 @@ original lore texts that unlock per character as they play. Sister project of
   `portrait:` (figures, creatures, factions only; never a guess), from the
   pinned CMaNGOS database (`python3 scripts/portraits.py`, after adding one).
 - `addon/LorekeepersCodex/`: `Core.lua` (unlock engine: areas, npcs talked to or
-  targeted, kills (combat log PARTY_KILL by you or your pet), quests incl. ones
+  targeted, kills by you or your pet: `PARTY_KILL`, an event of its own on
+  Forever and Classic since 1.15.9, else the combat log's line), quests incl. ones
   done before, reputations, map positions; per-character SavedVariables
   `LorekeepersCodexChar`; `/codex`, `/codex where`), `Codex.lua` (the book UI: Pages, Library, Achievements tabs),
   `Library.lua` (books, notes, plaques read in the world, copied whole from the

@@ -148,6 +148,9 @@ function CreateFrame(kind, name)
   f.registered = {}
   f.RegisterEvent = function(self, e)
     if FOREVER and e == "COMBAT_LOG_EVENT_UNFILTERED" then error("COMBAT_LOG_EVENT_UNFILTERED: forbidden") end
+    -- (PARTY_KILL, an event of its own on Forever; the Classic run plays a
+    -- client without it, its kills from the combat log)
+    if not FOREVER and e == "PARTY_KILL" then error("Attempt to register unknown event \"PARTY_KILL\"") end
     self.registered[e] = true
   end
   table.insert(frames, f)
@@ -261,24 +264,27 @@ local after = 0
 for _ in pairs(LorekeepersCodexChar.entries) do after = after + 1 end
 check(before == after and sounds == 7, "nothing is unlocked twice (7 pages announced)")
 
--- Kills: the killer is in the combat log's PARTY_KILL. On Forever, which has
--- no combat log for addons, meeting the creature (targeting it) counts.
+-- Kills: my killing blow or my pet's. On Forever, PARTY_KILL (killer, victim)
+-- is an event of its own; elsewhere (an older client) a line of the combat log.
 local function kill(source, id)
   if FOREVER then
-    if source ~= PLAYER and source ~= PET then return end
-    local was = state.target
-    state.target = id
-    fire("PLAYER_TARGET_CHANGED")
-    state.target = was
+    fire("PARTY_KILL", source, creature(id))
     return
   end
   combatLog = { clock, "PARTY_KILL", false, source, "Thorin", 0, 0, creature(id), "?", 0, 0 }
   fire("COMBAT_LOG_EVENT_UNFILTERED")
 end
 if FOREVER then
-  check(not events.registered.COMBAT_LOG_EVENT_UNFILTERED and ns.meetKills and ns.forever, "Forever: the combat log isn't registered, meeting a creature counts instead")
+  check(not events.registered.COMBAT_LOG_EVENT_UNFILTERED and ns.partyKill and not ns.meetKills,
+    "Forever: kills come from PARTY_KILL (no combat log), not from meeting")
+  -- meeting a creature no longer counts for its kill
+  local was = state.target
+  state.target = 1123
+  fire("PLAYER_TARGET_CHANGED")
+  state.target = was
+  check(not has("frostmane-trolls"), "Forever: targeting a creature unlocks nothing its kill would")
 else
-  check(events.registered.COMBAT_LOG_EVENT_UNFILTERED and not ns.meetKills, "Classic: kills come from the combat log")
+  check(events.registered.COMBAT_LOG_EVENT_UNFILTERED and not ns.meetKills, "Classic (a client without PARTY_KILL): kills come from the combat log")
 end
 kill("Player-6113-0FFFFFFF", 1123)
 check(not has("frostmane-trolls"), "someone else's kill unlocks nothing")

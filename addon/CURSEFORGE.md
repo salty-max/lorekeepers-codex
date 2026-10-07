@@ -42,7 +42,7 @@ A third tab in the book (`/codex achievements`): page milestones, the Library, f
 Each game has its own file: pick the one for yours (the CurseForge app does it for you).
 
 - **Classic**: Classic Era, Hardcore, Season of Discovery, TBC Anniversary.
-- **Forever**: World of Warcraft: Forever. Forever closes the combat log to addons, so pages that unlock on a kill also unlock when you target the creature. `/codex scan on` records the places, creatures and quest texts you meet, to help write Forever's new chapters.
+- **Forever**: World of Warcraft: Forever. Pages that unlock on a kill do so as on Classic; inside dungeons and raids, Forever hides creatures from every addon, so kills there unlock nothing. `/codex scan on` records the places, creatures and quest texts you meet, to help write Forever's new chapters.
 
 ## Settings
 

@@ -8,7 +8,7 @@ one package. This plan records the decisions and the work, in two waves.
 
 | Question | Decision |
 |---|---|
-| Kill unlocks (Forever has no combat log for addons) | **Meeting counts, on Forever only:** targeting a creature, alive or dead, unlocks the pages its kill would. Classic keeps unlocking on the kill. |
+| Kill unlocks (Forever has no combat log for addons) | **The kill, as on Classic** (7 October 2026): `PARTY_KILL` (killer, victim) is an event of its own on Forever (and Classic since 1.15.9). Before: meeting counted on Forever. Inside a Forever instance creature GUIDs are secret: kills there unlock nothing. |
 | Forever's new content | **Second wave**, after launch, once zones and quest texts settle. |
 | Lore sources for Forever-only pages | **Forever's own texts** (quests, NPCs, books), and only Forever readers see those pages. Original pages keep the pre-WotLK rule. |
 | Original pages contradicted by Forever | **Forever variants:** Forever-only paragraphs or replacement text; Classic readers see the original. |
@@ -51,8 +51,9 @@ one package. This plan records the decisions and the work, in two waves.
    still works and says so at login.
 2. ✅ **Combat log:** not registered on Forever (it throws there); if any
    client refuses it, meeting counts instead.
-3. ✅ **Meeting counts (Forever):** targeting a creature, alive or dead,
-   unlocks the pages its kill would. The tooltip hint is unchanged.
+3. ✅ **Kills (Forever):** `PARTY_KILL`, an event of its own, as on Classic
+   (meeting counted until 7 October; it still does on a client with neither
+   that event nor the combat log). The tooltip hint is unchanged.
 4. ✅ **Secret values:** `ns.secret()` (`issecretvalue`) before using a GUID,
    a name or a boolean (creature ids, tooltip hint, `/codex where`, scan).
 5. ✅ **Modern API:** reputations through `C_Reputation.GetFactionDataByID`
