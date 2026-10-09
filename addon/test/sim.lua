@@ -356,10 +356,16 @@ for _, ch in ipairs(ns.content.chapters) do if ns.found(ch) > 0 then expected = 
 for id, e in pairs(ns.content.entries) do if e.chapter == "" and ns.page(id) then expected = expected + 1 end end
 check(ns.knownTotal() == expected and LorekeepersCodexFrame.count.text == ("%d of %d pages"):format(ns.count(), expected), "the book counts the pages of the opened chapters, and the foreword")
 local C = ns.content
-check(ns.found(C.chapters[1]) == 7 and #C.chapters[1].entries == 17, "Dun Morogh counts 7 of its 17 pages")
+-- (the chapters by name: Forever's Zephras Isle comes before Dun Morogh)
+local CH = {}
+for _, ch in ipairs(C.chapters) do
+  CH[ch.id] = ch
+end
+local DUN = FOREVER and 18 or 17 -- (Forever's Hall of Thanes)
+check(ns.found(CH["dun-morogh"]) == 7 and #CH["dun-morogh"].entries == DUN, ("Dun Morogh counts 7 of its %d pages"):format(DUN))
 check(C.chapters[#C.chapters].id == "peoples" and ns.found(C.chapters[#C.chapters]) == 0, "Peoples and Powers comes last, hidden until a people is met")
-check(ns.found(C.chapters[2]) == 0, "Loch Modan, not visited, has no page found: its chapter stays hidden")
-check(ns.found(C.chapters[3]) == 1, "the Wetlands show once Menethil is found")
+check(ns.found(CH["loch-modan"]) == 0, "Loch Modan, not visited, has no page found: its chapter stays hidden")
+check(ns.found(CH["wetlands"]) == 1, "the Wetlands show once Menethil is found")
 SlashCmdList.LOREKEEPERSCODEX("")
 check(not LorekeepersCodexFrame.shown, "/codex again closes it")
 printed = {}
@@ -415,16 +421,16 @@ local titles, found, loose = 0, 0, 0
 for _, ch in ipairs(C.chapters) do if ns.found(ch) > 0 then titles = titles + 1; found = found + ns.found(ch) end end
 for id, e in pairs(C.entries) do if e.chapter == "" and ns.page(id) then loose = loose + 1 end end
 check(open == titles + found + loose, "the list shows the pages found, no placeholder for the others")
-local dunRow = chapterRow(C.chapters[1].title)
+local dunRow = chapterRow(CH["dun-morogh"].title)
 check(dunRow ~= nil, "a chapter's title carries a fold")
 dunRow.scripts.OnClick(dunRow)
-check(LorekeepersCodexChar.collapsed[C.chapters[1].id] and shownRows() == open - ns.found(C.chapters[1]), "clicking a chapter's title folds its pages away")
-check(chapterRow(C.chapters[1].title), "… the chapter's title and progress stay")
-chapterRow(C.chapters[1].title).scripts.OnClick(chapterRow(C.chapters[1].title))
-check(not LorekeepersCodexChar.collapsed[C.chapters[1].id] and shownRows() == open, "clicking again unfolds it")
-chapterRow(C.chapters[1].title).scripts.OnClick(chapterRow(C.chapters[1].title))
+check(LorekeepersCodexChar.collapsed[CH["dun-morogh"].id] and shownRows() == open - ns.found(CH["dun-morogh"]), "clicking a chapter's title folds its pages away")
+check(chapterRow(CH["dun-morogh"].title), "… the chapter's title and progress stay")
+chapterRow(CH["dun-morogh"].title).scripts.OnClick(chapterRow(CH["dun-morogh"].title))
+check(not LorekeepersCodexChar.collapsed[CH["dun-morogh"].id] and shownRows() == open, "clicking again unfolds it")
+chapterRow(CH["dun-morogh"].title).scripts.OnClick(chapterRow(CH["dun-morogh"].title))
 linkHandlers.lorekeeper("lorekeeper:kharanos")
-check(not LorekeepersCodexChar.collapsed[C.chapters[1].id], "a link to a page in a folded chapter unfolds it")
+check(not LorekeepersCodexChar.collapsed[CH["dun-morogh"].id], "a link to a page in a folded chapter unfolds it")
 check(ns.anyUnfolded(), "with a chapter open, the button folds them all")
 LorekeepersCodexFoldAll.scripts.OnClick(LorekeepersCodexFoldAll)
 check(not ns.anyUnfolded() and shownRows() == titles + loose, "one click folds every chapter: only their titles remain")
@@ -503,13 +509,13 @@ for _, id in ipairs(ns.featPages) do if not C.entries[id] then table.insert(miss
 check(#missing == 0, "every page an achievement names exists" .. (#missing > 0 and (": " .. table.concat(missing, ", ")) or ""))
 check(#ns.achievements == 9 + 4 + 9 + 4 + #C.chapters, "milestones, feats, the Library's and one achievement per chapter")
 -- A codex from before achievements: what it deserves is recorded quietly.
-for _, id in ipairs(C.chapters[2].entries) do ns.unlock(id, true) end
+for _, id in ipairs(CH["loch-modan"].entries) do ns.unlock(id, true) end
 LorekeepersCodexChar.achievements = {}
 printed = {}
 local before = sounds
 ns.checkAchievements(true)
 check(ns.earned("pages-10") and ns.earned("pages-10").retro and #printed == 0 and sounds == before, "achievements a codex already deserves are recorded quietly")
-local dun = C.chapters[1]
+local dun = CH["dun-morogh"]
 for _, id in ipairs(dun.entries) do ns.unlock(id) end
 check(ns.earned("chapter-" .. dun.id) and ns.earned("chapter-" .. dun.id).level == state.level, "finding every page of a chapter earns its achievement, with the level")
 local n = 0

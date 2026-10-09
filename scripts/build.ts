@@ -54,8 +54,12 @@ type Entry = { id: string; title: string; kind: string; portrait: number; chapte
 type Para = { italic: boolean; text: string; client: string };
 const CLIENTS = ["classic", "forever"];
 
-const areas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas.json"), "utf8"));
+const classicAreas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas.json"), "utf8"));
+// Forever's own areas (data/areas-forever.json, scripts/areas.ts): for Forever's pages only.
+const foreverAreas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas-forever.json"), "utf8"));
+const areas = [...classicAreas, ...foreverAreas];
 const areaById = new Map(areas.map((a) => [a.id, a]));
+const foreverOnly = new Set(foreverAreas.map((a) => a.id));
 const portraits: Record<number, { name: string; display: number }> = JSON.parse(readFileSync(join(ROOT, "data/portraits.json"), "utf8"));
 const errors: string[] = [];
 const fail = (file: string, msg: string) => errors.push(`${relative(ROOT, file)}: ${msg}`);
@@ -90,12 +94,13 @@ function frontMatter(file: string, src: string): { meta: Record<string, string |
   return { meta, body: m[2] };
 }
 
-function resolveArea(file: string, spec: string): number | null {
+function resolveArea(file: string, spec: string, client: string): number | null {
   const m = spec.match(/^(.*?)\s*(?:\((.*)\))?$/);
   const name = m?.[1] ?? spec;
   const parent = m?.[2];
   // Some names end with a space in the client data ("Ruins of Eldarath ").
-  let found = areas.filter((a) => a.name.trim() === name);
+  // (Forever's own places: on Forever's pages only)
+  let found = areas.filter((a) => a.name.trim() === name && (client === "forever" || !foreverOnly.has(a.id)));
   // "(zone)" means a top-level area: a zone, or an instance such as a dungeon.
   if (parent === "zone") found = found.filter((a) => a.parent === 0);
   else if (parent) found = found.filter((a) => areaById.get(a.parent)?.name.trim() === parent);
@@ -109,7 +114,7 @@ function resolveArea(file: string, spec: string): number | null {
   return null;
 }
 
-function unlockRule(file: string, rule: string): Unlock[] {
+function unlockRule(file: string, rule: string, client: string): Unlock[] {
   // npc and kill take several ids: one rule each.
   const many = rule.match(/^(npc|kill):\s*(.+)$/);
   if (many) {
@@ -117,11 +122,11 @@ function unlockRule(file: string, rule: string): Unlock[] {
     if (!ids.every((id) => Number.isInteger(id) && id > 0)) return fail(file, `${many[1]} needs numeric ids`), [];
     return ids.map((id) => (many[1] === "npc" ? { npc: id } : { kill: id }));
   }
-  const one = unlockOne(file, rule);
+  const one = unlockOne(file, rule, client);
   return one ? [one] : [];
 }
 
-function unlockOne(file: string, rule: string): Unlock | null {
+function unlockOne(file: string, rule: string, client: string): Unlock | null {
   if (rule === "always") return { always: true };
   const m = rule.match(/^([a-z]+):\s*(.+)$/);
   if (!m) return fail(file, `bad unlock "${rule}"`), null;
@@ -129,7 +134,7 @@ function unlockOne(file: string, rule: string): Unlock | null {
   const num = (v: string) => (Number.isInteger(Number(v)) && Number(v) > 0 ? Number(v) : null);
   switch (key) {
     case "area": {
-      const id = resolveArea(file, value);
+      const id = resolveArea(file, value, client);
       return id == null ? null : { area: id };
     }
     case "quest": {
@@ -198,7 +203,7 @@ for (const file of walk(CONTENT).sort()) {
     kind: String(meta.kind),
     portrait: Number(meta.portrait ?? 0),
     chapter,
-    unlock: rules.flatMap((r) => unlockRule(file, r)),
+    unlock: rules.flatMap((r) => unlockRule(file, r, typeof meta.client === "string" ? meta.client.trim() : "")),
     also,
     text: paragraphs(body),
     race: typeof meta.race === "string" ? meta.race.split(",").map((r) => r.trim()) : [],

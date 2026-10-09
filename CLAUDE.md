@@ -17,6 +17,8 @@ original lore texts that unlock per character as they play. Sister project of
   source folder is not installable). Releases attach both zips.
 - `data/areas.json`: the client's AreaTable (wago.tools, `bun scripts/areas.ts`):
   place names in content resolve to area ids, so unlocks work in every language.
+  `data/areas-forever.json`: the areas Forever adds (the beta's table, pinned;
+  `bun scripts/areas.ts --forever`): only Forever's pages may name them.
 - `data/portraits.json`: display ids of the creatures pages name as their
   `portrait:` (figures, creatures, factions only; never a guess), from the
   pinned CMaNGOS database (`python3 scripts/portraits.py`, after adding one).

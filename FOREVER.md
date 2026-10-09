@@ -94,13 +94,33 @@ Install `dist/forever/LorekeepersCodex` (after `bun run package`) into
 - A Skyborne character gets the Skyborne foreword.
 - `/codex scan on`, play a while, log out: the SavedVariables file holds data.
 
-## Wave 2: Forever's content (after launch)
+## Wave 2: Forever's content
 
-New chapters from the scan data and Forever's texts, written like the others:
-the Riverglades, Shen'dralas, Mount Hyjal, the Ruins of Gilneas, Zephras Isle,
-pages for the nine new dungeons and the raids, and new pages in the old zones
-(Stormwind Harbor, Excavation Site: Wetlands, Old Dalaran…). All
-`client: forever`. Chapter achievements come with them on their own.
+New chapters from Forever's texts, written like the others: the Riverglades,
+Shen'dralas, Mount Hyjal, the Ruins of Gilneas, Zephras Isle, pages for the
+nine new dungeons and the raids, and new pages in the old zones (Stormwind
+Harbor, Excavation Site: Wetlands, Old Dalaran…). All `client: forever`.
+Chapter achievements come with them on their own.
+
+**Started 9 October 2026, on the beta's playable content** (the user's
+decision: what the data allows now, the high-level zones after launch). The
+texts are Forever's quest texts, NPC dialogue and in-game crystals as the
+Warcraft Wiki and Wowhead's Forever database report them, with Blizzard's own
+articles; ids from AllTheThings' Forever database and QuestieDB's traces of
+the beta. Forever's areas: `data/areas-forever.json` (`bun scripts/areas.ts
+--forever`, the beta build pinned, only Forever's pages may name them).
+
+- ✅ **Zephras Isle** (chapter `zephras-isle`, order 0): the isle, Valanaar,
+  High Elder Talaanis Shadowsong, the High Order, the Windshapers, the
+  Al'Aketh, the Shrine of Akir, the Shal'nan, the Silence of the Winds.
+- ✅ **The Ruins of Lordaeron** (Tirisfal) and **the Hall of Thanes** (Dun
+  Morogh): pages of their own.
+- ✅ **Dalaran**: a `[forever]` paragraph (the city as a dungeon, the
+  disruption, the High Order's appeal).
+- **Waiting for texts:** Excavation Site: Wetlands (only its objectives are
+  known), the Riverglades, Shen'dralas, Mount Hyjal, Gilneas, the other new
+  dungeons and the raids; and, on Zephras Isle, the cutscenes (Rohash and
+  Lorthuna on the spires), the crystals' full texts and the Nightclaw druids.
 
 ## Open points
 
