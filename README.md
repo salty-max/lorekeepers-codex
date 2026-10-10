@@ -67,7 +67,7 @@ kind: place          # place | figure | faction | creature | history | note | ca
 unlock:              # any one of these unlocks it
   - area: Kharanos   # zone or sub-zone, by name (data/areas.json)
   - npc: 2784        # talking to (or targeting) this creature
-  - kill: 706, 946   # killing one of these creatures (you or your pet; on Forever, targeting it)
+  - kill: 706, 946   # killing one of these creatures (your blow or your pet's)
   - quest: 1234      # turning in this quest (or having done it)
   - reputation: 47 friendly
   - position: 1455 57 47 6   # uiMap, x %, y %, radius %

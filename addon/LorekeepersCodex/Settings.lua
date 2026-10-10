@@ -115,7 +115,8 @@ function ns.createSettingsPanel()
   checkbox(
     "tooltipHints",
     "Hints on tooltips",
-    "A line on the tooltip of creatures that unlock a page: a page to find, or the page's title once found."
+    "A line on the tooltip of creatures that unlock a page (a page to find, or its title once found), and of "
+      .. "players whose people's or calling's page is still to find."
   )
 
   checkbox(
