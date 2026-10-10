@@ -4,6 +4,9 @@
 The project's title on CurseForge: "Lorekeeper's Codex: Lore of Azeroth" (the
 addon's own name stays Lorekeeper's Codex). -->
 
+<!-- Summary (the project's summary on CurseForge and Wago, and the TOCs' Notes):
+The lore of Azeroth, written for you as you explore: each zone, figure of legend, people and quest you meet adds a page to your codex. -->
+
 **The lore of Azeroth, written for you as you explore.** An archivist of the Explorers' League has left you a ledger: walk into a zone, meet a figure of legend, defeat a people's warriors or finish the right quest, and a new page of history is added to your codex.
 
 For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of Warcraft: Forever. A sibling of [Explorer's Field Journal](https://github.com/salty-max/field-journal) and [Hearthtale](https://github.com/salty-max/hearthtale), in the same look (each in its own colours), but it stands alone.

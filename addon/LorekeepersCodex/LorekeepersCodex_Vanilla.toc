@@ -1,6 +1,6 @@
 ## Interface: 11509
 ## Title: Lorekeeper's Codex
-## Notes: The lore of Azeroth, written by an archivist of the Explorers' League, filling in as you explore. /codex to read it.
+## Notes: The lore of Azeroth, written for you as you explore: each zone, figure of legend, people and quest you meet adds a page to your codex.
 ## Author: salty-max
 ## Version: 0.9.1
 ## SavedVariablesPerCharacter: LorekeepersCodexChar
