@@ -10,4 +10,4 @@ Un'Goro is a steaming green bowl sunk between the deserts of Tanaris and Silithu
 
 Tar pits, hot springs and Fire Plume Ridge divide the forest, with a silithid hive in the south. At Marshal's Refuge, the expedition studies a country that seems to have preserved another age. J.D. Collie's experiments with the coloured crystals have begun to reveal their uses; their origin remains a larger question.
 
-[forever] The Shapers' Terrace opens another part of that ancient enquiry. Its presence adds to what explorers can examine, without settling every question raised by the life and strange works of the crater.
+[forever] The Shapers' Terrace has given that question a place to begin.

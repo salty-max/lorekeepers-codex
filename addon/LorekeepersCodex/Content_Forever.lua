@@ -682,7 +682,7 @@ ns.content = {
       text = {
         { "The first paladins were the Knights of the Silver Hand, founded in the Second War by Archbishop Alonsus Faol to carry the Holy Light onto the battlefield. Uther the Lightbringer led them, and they fought for the Alliance through the war and the long peace after it." },
         { "The Third War shattered the order. Prince Arthas, a paladin himself, turned on everything it stood for, and Uther fell to him at Andorhal. Its surviving knights scattered to Stormwind, Ironforge and the Plaguelands, where some serve the Argent Dawn and others the Scarlet Crusade's harsher idea of the Light. The same oath has led its bearers to bitterly different company." },
-        { "Humans and dwarves still swear to the Light in Stormwind and Ironforge, while some of the Forsaken now answer the paladin's calling too. Death has not kept them from answering the Light." },
+        { "Humans and dwarves still swear to the Light in Stormwind and Ironforge, while some of the Forsaken now take up the paladin's calling too. Death has not closed the Light to them." },
       },
     },
     ["priests"] = {
@@ -994,7 +994,7 @@ ns.content = {
       text = {
         { "Ironforge is not built on the mountain; it is built in it. Its halls lie within Ironforge Mountain, and at its centre burns the Great Forge." },
         { "The city turns around the forge like a wheel. King Magni holds court in the High Seat, the Military Ward trains the mountain's defenders, the mages keep to the Mystic Ward, and since the fall of Gnomeregan the gnome exiles have made Tinker Town their own: loud, clever and homesick. Beneath it all runs the Deeprun Tram, gnomish work, carrying travellers under the mountains to Stormwind." },
-        { "Below Old Ironforge lies the Hall of Thanes. Dark Iron intruders have breached it, and Magni has called for their leader, Durgen Dirgehammer, to be killed and the passages sealed again. Even here, a city's oldest halls can become its newest trouble." },
+        { "Below Old Ironforge lies the Hall of Thanes. Dark Iron intruders have breached it, and Magni wants the head of their commander, Durgen Dirgehammer. Even here, a city's oldest halls can become its newest trouble." },
         { "And then there is the Hall of Explorers, where you will find me. The League keeps its library here, and its finds: relics from Uldaman, the bones of beasts no one has seen alive, and maps of places most dwarves will only ever read about. Come and see us. We are always short of people who have actually been somewhere." },
       },
     },
@@ -1230,7 +1230,7 @@ ns.content = {
       unlock = { { kill = 315 }, { area = 1098 }, { quest = 98 } },
       also = { "duskwood", "darkshire" },
       text = {
-        { "Stalvan Mistmantle was a teacher at Moonbrook and a tutor to families in the countryside. He imagined that his pupil Tilloa returned his affection. When she introduced a suitor and called her tutor a kindly old uncle, his own account turned to rage. The family's murder followed." },
+        { "Stalvan Mistmantle was a teacher at Moonbrook and a tutor to families in the countryside. He imagined that his pupil Tilloa returned his affection. When she introduced a suitor and called her tutor a kindly old uncle, his own account turned to rage. The murders followed." },
         { "Letters and journals trace his movements through Westfall and Stormwind to the manor north-east of Darkshire, where Duskwood's darkness has changed him further. Madame Eva's foreboding begins the search, but Stalvan's own words carry much of it onward." },
         { "It is an ugly history to recover from such ordinary papers. A teaching post, a family's correspondence, a pupil's name: the things that should have belonged to a quiet life remain among the traces of those he destroyed." },
       },
@@ -3155,7 +3155,7 @@ ns.content = {
       text = {
         { "Un'Goro is a steaming green bowl sunk between the deserts of Tanaris and Silithus. Devilsaurs stride through its jungle, stegodons and great apes inhabit the basin, and pterrordaxes circle above it. The tauren who travel here speak of creatures nobler than their counterparts outside, and of the crater's connection to the Earth Mother." },
         { "Tar pits, hot springs and Fire Plume Ridge divide the forest, with a silithid hive in the south. At Marshal's Refuge, the expedition studies a country that seems to have preserved another age. J.D. Collie's experiments with the coloured crystals have begun to reveal their uses; their origin remains a larger question." },
-        { "The Shapers' Terrace opens another part of that ancient enquiry. Its presence adds to what explorers can examine, without settling every question raised by the life and strange works of the crater." },
+        { "The Shapers' Terrace has given that question a place to begin." },
       },
     },
     ["andorhal"] = {

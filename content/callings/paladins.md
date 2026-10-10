@@ -12,4 +12,4 @@ The Third War shattered the order. Prince Arthas, a paladin himself, turned on e
 
 [classic] Today the Alliance alone trains paladins, humans and dwarves who swear to the Light in the Cathedral of Light or in Ironforge's Mystic Ward.
 
-[forever] Humans and dwarves still swear to the Light in Stormwind and Ironforge, while some of the Forsaken now answer the paladin's calling too. Death has not kept them from answering the Light.
+[forever] Humans and dwarves still swear to the Light in Stormwind and Ironforge, while some of the Forsaken now take up the paladin's calling too. Death has not closed the Light to them.
