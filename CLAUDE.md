@@ -136,6 +136,6 @@ historical claims in other entries.
 - Release: `scripts/release.sh [--version X.Y.Z] [--hold] NOTES.md` (main
   pushed first); GitHub Actions runs the BigWigs packager (`.pkgmeta`):
   the zip on GitHub, CurseForge (the TOCs' `X-Curse-Project-ID`, secret
-  `CURSEFORGE_TOKEN`) and Wago Addons (`X-Wago-ID`, once its project
-  exists; secret `WAGO_API_TOKEN`). `--hold`: GitHub alone (variable
-  `HOLD_STORES`); the stores later: `gh workflow run release.yml -f tag=vX.Y.Z`.
+  `CURSEFORGE_TOKEN`) and Wago Addons (`X-Wago-ID`, secret
+  `WAGO_API_TOKEN`). `--hold`: GitHub alone (variable `HOLD_STORES`); the
+  stores later: `gh workflow run release.yml -f tag=vX.Y.Z`.
