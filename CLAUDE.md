@@ -22,12 +22,14 @@ original lore texts that unlock per character as they play. Sister project of
 - `data/portraits.json`: display ids of the creatures pages name as their
   `portrait:` (figures, creatures, factions only; never a guess), from the
   pinned CMaNGOS database (`python3 scripts/portraits.py`, after adding one).
-- `addon/LorekeepersCodex/`: `Core.lua` (unlock engine: areas, npcs talked to or
+- `addon/LorekeepersCodex/`: `Core.lua` (the codex's record and its schema,
+  the events every file listens to: `ns.on`, `ns.knows`; the login, `/codex`,
+  `/codex where`), `Unlocks.lua` (the unlock engine: areas, npcs talked to or
   targeted, players targeted (their race's page and class's: `people:`,
-  `calling:`; one's own from the start; `met` for the encounters), kills by you or your pet: `PARTY_KILL`, an event of its own on
-  Forever and Classic since 1.15.9, else the combat log's line), quests incl. ones
-  done before, reputations, map positions; per-character SavedVariables
-  `LorekeepersCodexChar`; `/codex`, `/codex where`), `Codex.lua` (the book UI: Pages, Library, Achievements tabs),
+  `calling:`; one's own from the start; `met` for the encounters), kills by
+  you or your pet: `PARTY_KILL`, an event of its own on Forever and Classic
+  since 1.15.9, else the combat log's line; quests incl. ones done before,
+  reputations, map positions), `Codex.lua` (the book UI: Pages, Library, Achievements tabs),
   `Library.lua` (books, notes, plaques read in the world, copied whole from the
   game's reader: on opening, it turns through every page and back; per character
   in `LorekeepersCodexChar.library`; players' letters never; the Library tab).

@@ -251,15 +251,11 @@ ns.content.entries["t-quest"] = entry("Quest done before", { quest = 7777 })
 ns.content.entries["t-quest-new"] = entry("Quest turned in", { quest = 8888 })
 ns.content.entries["t-rep"] = entry("Friendly with Ironforge", { faction = 47, standing = 5 })
 ns.content.entries["t-pos"] = entry("The Great Forge", { map = 1455, x = 57, y = 47, r = 6 })
-assert(loadfile(DIR .. "Core.lua"))("LorekeepersCodex", ns)
-assert(loadfile(DIR .. "Achievements.lua"))("LorekeepersCodex", ns)
-assert(loadfile(DIR .. "Codex.lua"))("LorekeepersCodex", ns)
-assert(loadfile(DIR .. "Library.lua"))("LorekeepersCodex", ns)
-assert(loadfile(DIR .. "Minimap.lua"))("LorekeepersCodex", ns)
-assert(loadfile(DIR .. "Banner.lua"))("LorekeepersCodex", ns)
-assert(loadfile(DIR .. "Settings.lua"))("LorekeepersCodex", ns)
-assert(loadfile(DIR .. "Hints.lua"))("LorekeepersCodex", ns)
-assert(loadfile(DIR .. "Scan.lua"))("LorekeepersCodex", ns)
+-- The files in the TOC's order; Content.lua is the game's own content file.
+for line in io.lines(DIR .. "LorekeepersCodex.toc") do
+  local f = line:match("^([%w_]+%.lua)%s*$")
+  if f and f ~= "Content.lua" then assert(loadfile(DIR .. f))("LorekeepersCodex", ns) end
+end
 function wipe(t)
   for k in pairs(t) do
     t[k] = nil
@@ -433,7 +429,7 @@ local function kill(source, id)
 end
 if FOREVER then
   check(
-    not events.registered.COMBAT_LOG_EVENT_UNFILTERED and ns.partyKill and not ns.meetKills,
+    not events.registered.COMBAT_LOG_EVENT_UNFILTERED and ns.partyKill,
     "Forever: kills come from PARTY_KILL (no combat log), not from meeting"
   )
   -- meeting a creature no longer counts for its kill
@@ -444,7 +440,7 @@ if FOREVER then
   check(not has("frostmane-trolls"), "Forever: targeting a creature unlocks nothing its kill would")
 else
   check(
-    events.registered.COMBAT_LOG_EVENT_UNFILTERED and not ns.meetKills,
+    events.registered.COMBAT_LOG_EVENT_UNFILTERED and not ns.partyKill,
     "Classic (a client without PARTY_KILL): kills come from the combat log"
   )
 end

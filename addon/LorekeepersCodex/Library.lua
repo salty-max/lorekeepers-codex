@@ -110,12 +110,7 @@ local function showReader()
   if ItemTextFrame and ItemTextFrame.SetAlpha then ItemTextFrame:SetAlpha(1) end
 end
 
-local frame = CreateFrame("Frame")
-frame:RegisterEvent("ITEM_TEXT_BEGIN")
-frame:RegisterEvent("ITEM_TEXT_READY")
-frame:RegisterEvent("ITEM_TEXT_CLOSED")
-frame:SetScript("OnEvent", function(_, event)
-  if not LorekeepersCodexChar then return end
+local function onText(event)
   if event == "ITEM_TEXT_BEGIN" then
     local title, material = ItemTextGetItem(), ItemTextGetMaterial()
     if secret(title) then
@@ -167,7 +162,10 @@ frame:SetScript("OnEvent", function(_, event)
     reading = nil
     showReader()
   end
-end)
+end
+for _, event in ipairs({ "ITEM_TEXT_BEGIN", "ITEM_TEXT_READY", "ITEM_TEXT_CLOSED" }) do
+  ns.on(event, function() onText(event) end)
+end
 
 -- ── the tab ──────────────────────────────────────────────────────────────────
 local ui, book, list, page

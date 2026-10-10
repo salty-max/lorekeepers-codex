@@ -1,248 +1,67 @@
--- Lorekeeper's Codex: the entries in Content.lua (built from content/*.md, one
--- file per game: scripts/package.ts ships each in its own package)
--- unlock as this character explores. Each unlock is a page in its codex, with
--- when, at what level and where it was found.
+-- Lorekeeper's Codex: this character's codex, the events every file listens
+-- to (ns.on) and /codex. The pages unlock in Unlocks.lua, the Library copies
+-- texts read in the world (Library.lua), achievements follow (Achievements.lua)
+-- and the book shows them (Codex.lua, Library.lua's tab).
+--
+--   LorekeepersCodexChar (SavedVariablesPerCharacter), whose codex: guid
+--     entries[id] = { at, level, zone, sub, retro }   unlocked pages
+--     read[id] = true                                 pages already opened
+--     achievements[id] = { at, level, retro }         see Achievements.lua
+--     met = { races, classes, combos }                players met (targeted): their
+--                                                     race and class tokens, and
+--                                                     "Race:CLASS", for the encounters
+--     library = { texts, keys, nextId }               the texts copied (Library.lua)
+--     collapsed[chapterId], libraryFolded[shelf]      the book's folds
 local _, ns = ...
-local C = ns.content
 local PREFIX = "|cffc9a227Lorekeeper's Codex:|r "
+ns.PREFIX = PREFIX
 
 -- Which game: World of Warcraft: Forever (the original world on the modern
 -- client, interface 16xxx) or Classic (Era, TBC Anniversary). Some pages and
--- paragraphs are for one client only (see available() and the book).
+-- paragraphs are for one client only (see Unlocks.lua's available() and the book).
 local interface = select(4, GetBuildInfo()) or 0
 ns.forever = interface >= 16000 and interface < 20000
 ns.client = ns.forever and "forever" or "classic"
 
 -- Forever hides some values from addons ("secret values", in combat or
 -- instances): never compare or print one.
-local function secret(v) return issecretvalue ~= nil and issecretvalue(v) end
-ns.secret = secret
+ns.secret = issecretvalue or function() return false end
 
--- This character's codex (SavedVariablesPerCharacter):
---   entries[id] = { at, level, zone, sub, retro }   unlocked pages
---   read[id] = true                                 pages already opened
---   achievements[id] = { at, level, retro }         see Achievements.lua
---   met = { races, classes, combos }                players met (targeted): their
---                                                   race and class tokens, and
---                                                   "Race:CLASS", for the encounters
---   collapsed[chapterId] = true                     chapters folded in the book
 local char
-
--- ── what unlocks what ────────────────────────────────────────────────────────
-local byArea, byNpc, byKill, byQuest, byMap, byFaction, always = {}, {}, {}, {}, {}, {}, {}
-local byPeople, byCalling = {}, {} -- (a race's page, a class's: one's own, or a player met)
-local function push(t, k, v)
-  t[k] = t[k] or {}
-  table.insert(t[k], v)
-end
-for id, e in pairs(C.entries) do
-  for _, u in ipairs(e.unlock) do
-    if u.always then
-      table.insert(always, id)
-    elseif u.area then
-      push(byArea, u.area, id)
-    elseif u.npc then
-      push(byNpc, u.npc, id)
-    elseif u.kill then
-      push(byKill, u.kill, id)
-    elseif u.quest then
-      push(byQuest, u.quest, id)
-    elseif u.faction then
-      table.insert(byFaction, { id = id, faction = u.faction, standing = u.standing })
-    elseif u.map then
-      push(byMap, u.map, { id = id, x = u.x, y = u.y, r = u.r })
-    elseif u.people then
-      push(byPeople, u.people, id)
-    elseif u.calling then
-      push(byCalling, u.calling, id)
-    end
-  end
-end
-
--- The pages a creature unlocks (by talking to it or killing it), for the
--- tooltip hint.
-function ns.pagesOfNpc(npcId)
-  local out, seen = {}, {}
-  for _, t in ipairs({ byNpc[npcId] or {}, byKill[npcId] or {} }) do
-    for _, id in ipairs(t) do
-      if not seen[id] then
-        seen[id] = true
-        table.insert(out, id)
-      end
-    end
-  end
-  return out
-end
-
--- Areas are matched by name as the client shows it, in its own language: the
--- names of the area ids come from the client (C_Map.GetAreaInfo), English as
--- a fallback.
-local areasByName = {}
-local function indexAreas()
-  for areaId in pairs(byArea) do
-    local name = C_Map and C_Map.GetAreaInfo and C_Map.GetAreaInfo(areaId)
-    if not name or name == "" then name = C.areaNames[areaId] end
-    if name then push(areasByName, name, areaId) end
-  end
-end
-
--- ── the codex ────────────────────────────────────────────────────────────────
--- Some pages are for some races only (the forewords): a character neither
--- sees nor counts the others. "other" stands for the races without a page of
--- their own (the Burning Crusade's). Forever's Skyborne have their own.
-local RACES = {
-  Human = true,
-  Dwarf = true,
-  NightElf = true,
-  Gnome = true,
-  Orc = true,
-  Troll = true,
-  Tauren = true,
-  Scourge = true,
-  Skyborne = true,
-}
-local race
-function ns.available(id)
-  local e = C.entries[id]
-  if not e then return false end
-  if e.client and e.client ~= ns.client then return false end
-  if not e.race then return true end
-  if not race then return false end
-  return e.race[race] or (e.race.other and not RACES[race]) or false
-end
-
-local function countTotal()
-  ns.total = 0
-  for id in pairs(C.entries) do
-    if ns.available(id) then ns.total = ns.total + 1 end
-  end
-end
-countTotal()
-
-function ns.page(id) return char and ns.available(id) and char.entries[id] or nil end
-function ns.isRead(id) return char and char.read[id] end
-function ns.markRead(id)
-  if not char or char.read[id] then return end
-  char.read[id] = true
-  ns.checkAchievements()
-end
--- The pages a reader may know of: those of the chapters it has opened (one
--- page found) and its foreword. The codex's full size would be a spoiler.
-function ns.knownTotal()
-  local n = 0
-  for id, e in pairs(C.entries) do
-    if e.chapter == "" and ns.page(id) then n = n + 1 end
-  end
-  for _, ch in ipairs(C.chapters) do
-    for _, id in ipairs(ch.entries) do
-      if ns.page(id) then
-        n = n + #ch.entries
-        break
-      end
-    end
-  end
-  return n
-end
-
-function ns.count()
-  local n = 0
-  if char then
-    for id in pairs(char.entries) do
-      if ns.available(id) then n = n + 1 end
-    end
-  end
-  return n
-end
-
--- retro: found by looking back (a quest done before the addon, a page given
--- from the start): recorded quietly.
-local function unlock(id, retro)
-  if not char or char.entries[id] or not ns.available(id) then return end
-  char.entries[id] = {
-    at = time(),
-    level = UnitLevel("player"),
-    zone = GetRealZoneText(),
-    sub = GetSubZoneText(),
-    retro = retro or nil,
-  }
-  if not retro then
-    -- A link: clicking it opens the book at this page (see Codex.lua).
-    if ns.option("chat") then
-      print(
-        PREFIX .. ("|cffffd100|Hlorekeeper:%s|h[%s]|h|r has been added to the codex."):format(id, C.entries[id].title)
-      )
-    end
-    ns.playSound()
-    ns.showBanner(id)
-  end
-  if ns.onUnlock then ns.onUnlock(id) end
-  ns.checkAchievements(retro)
-end
-ns.unlock = unlock
-
-local function checkArea()
-  for _, name in ipairs({ GetRealZoneText() or "", GetSubZoneText() or "" }) do
-    for _, areaId in ipairs(areasByName[name] or {}) do
-      for _, id in ipairs(byArea[areaId]) do
-        unlock(id)
-      end
-    end
-  end
-end
-
-local function checkPosition()
-  local map = C_Map and C_Map.GetBestMapForUnit and C_Map.GetBestMapForUnit("player")
-  local spots = map and byMap[map]
-  if not spots then return end
-  local pos = C_Map.GetPlayerMapPosition(map, "player")
-  if not pos then return end
-  local x, y = pos.x * 100, pos.y * 100
-  for _, s in ipairs(spots) do
-    if (x - s.x) ^ 2 + (y - s.y) ^ 2 <= s.r ^ 2 then unlock(s.id) end
-  end
-end
-
-local function creatureId(guid)
-  if not guid or secret(guid) then return end
-  local kind, _, _, _, _, id = strsplit("-", guid)
-  if kind == "Creature" then return tonumber(id) end
-end
-local function npcId(unit) return creatureId(UnitGUID(unit)) end
-ns.npcId = npcId
-
-local function checkNpc(unit)
-  local id = npcId(unit)
-  for _, entry in ipairs(id and byNpc[id] or {}) do
-    unlock(entry)
-  end
-end
-
-local function questDone(id)
-  if C_QuestLog and C_QuestLog.IsQuestFlaggedCompleted then return C_QuestLog.IsQuestFlaggedCompleted(id) end
-  return IsQuestFlaggedCompleted and IsQuestFlaggedCompleted(id)
-end
-
--- A faction's standing (1 hated .. 8 exalted): the old function on Classic,
--- C_Reputation on the modern client.
-local function standingWith(faction)
-  if C_Reputation and C_Reputation.GetFactionDataByID then
-    local data = C_Reputation.GetFactionDataByID(faction)
-    return data and data.reaction
-  end
-  if GetFactionInfoByID then return (select(3, GetFactionInfoByID(faction))) end
-end
-
-local function checkFactions(retro)
-  for _, f in ipairs(byFaction) do
-    local standing = standingWith(f.faction)
-    if standing and standing >= f.standing then unlock(f.id, retro) end
-  end
-end
+function ns.codex() return char end
 
 -- ── events ───────────────────────────────────────────────────────────────────
+-- Every file listens through ns.on (an event a client doesn't know is never
+-- heard). Nothing is heard before the login.
 local frame = CreateFrame("Frame")
-local handlers = {}
+local listeners = {}
 
+frame:SetScript("OnEvent", function(_, event, ...)
+  if event == "PLAYER_LOGIN" then ns.login() end
+  if not char then return end
+  for _, fn in ipairs(listeners[event] or {}) do
+    fn(...)
+  end
+end)
+frame:RegisterEvent("PLAYER_LOGIN")
+
+function ns.on(event, fn)
+  if not listeners[event] then
+    listeners[event] = {}
+    pcall(frame.RegisterEvent, frame, event)
+  end
+  table.insert(listeners[event], fn)
+end
+
+-- Does this client have the event? (registering an unknown one throws)
+local probe = CreateFrame("Frame")
+function ns.knows(event)
+  local ok = pcall(probe.RegisterEvent, probe, event)
+  if ok then probe:UnregisterEvent(event) end
+  return ok
+end
+
+-- ── the login ────────────────────────────────────────────────────────────────
 -- The game keeps a character's saved variables under its name, so a new
 -- character named like a deleted one inherits its pages. Each codex remembers
 -- whose it is (the character's GUID, unique to it). One saved before it did
@@ -259,40 +78,14 @@ function ns.belongsTo(saved, guid, level, xp)
   return true
 end
 
--- Pages this character has from the start: the foreword, its own people's
--- and calling's, and what it did before the codex (quests, reputations,
--- where it stands).
-local function catchUp()
-  for _, id in ipairs(always) do
-    unlock(id, true)
-  end
-  local class = select(2, UnitClass("player"))
-  for _, id in ipairs(byPeople[race or ""] or {}) do
-    unlock(id, true)
-  end
-  for _, id in ipairs(byCalling[class or ""] or {}) do
-    unlock(id, true)
-  end
-  for questId, ids in pairs(byQuest) do
-    if questDone(questId) then
-      for _, id in ipairs(ids) do
-        unlock(id, true)
-      end
-    end
-  end
-  checkFactions(true)
-  checkArea()
-end
-
 local function newCodex(guid)
-  LorekeepersCodexChar =
-    { guid = guid, entries = {}, read = {}, achievements = {}, met = { races = {}, classes = {}, combos = {} } }
-  char = LorekeepersCodexChar
+  char = { guid = guid, entries = {}, read = {}, achievements = {}, met = { races = {}, classes = {}, combos = {} } }
+  LorekeepersCodexChar = char
 end
 
-function handlers.PLAYER_LOGIN()
-  race = select(2, UnitRace("player"))
-  countTotal()
+-- This character's codex, or a new one; then what it deserves already, found
+-- quietly (Unlocks.lua's catch-up), and the book's buttons.
+function ns.login()
   local guid = UnitGUID("player")
   if ns.belongsTo(LorekeepersCodexChar, guid, UnitLevel("player"), UnitXP("player")) then
     char = LorekeepersCodexChar
@@ -304,23 +97,19 @@ function handlers.PLAYER_LOGIN()
   else
     newCodex(guid)
   end
-  indexAreas()
-  -- What the codex already deserves (saved before achievements existed), then
-  -- what it finds on catching up, all quietly; only new deeds are announced.
-  ns.checkAchievements(true)
-  catchUp()
-  ns.checkAchievements(true)
-  if C_Timer and next(byMap) then C_Timer.NewTicker(2, checkPosition) end
+  ns.startUnlocks()
   ns.createMinimapButton()
   ns.createSettingsPanel()
   -- The package made for the other game: it works, but says so.
-  if C.client and C.client ~= ns.client then
+  local made = ns.content.client
+  if made and made ~= ns.client then
+    local this = ns.forever and "Forever" or "Classic"
     print(
       PREFIX
         .. ("this is the %s package, and this is %s: install the %s package to read this game's pages."):format(
-          C.client == "forever" and "Forever" or "Classic",
-          ns.forever and "Forever" or "Classic",
-          ns.forever and "Forever" or "Classic"
+          made == "forever" and "Forever" or "Classic",
+          this,
+          this
         )
     )
   end
@@ -334,136 +123,47 @@ function handlers.PLAYER_LOGIN()
   )
 end
 
-handlers.ZONE_CHANGED = checkArea
-handlers.ZONE_CHANGED_INDOORS = checkArea
-handlers.ZONE_CHANGED_NEW_AREA = checkArea
-handlers.PLAYER_ENTERING_WORLD = checkArea
--- A client with neither PARTY_KILL nor the combat log: meeting a creature
--- (targeting it, alive or dead) counts for the pages its kill would unlock.
-local function checkMeeting(unit)
-  if not ns.meetKills then return end
-  local id = npcId(unit)
-  for _, entry in ipairs(id and byKill[id] or {}) do
-    unlock(entry)
-  end
-end
--- A player met (targeted): their people's page and their calling's, and the
--- meeting itself, for the encounters (Achievements.lua).
-local function checkPlayer(unit)
-  if not UnitIsPlayer(unit) or UnitIsUnit(unit, "player") then return end
-  local _, people = UnitRace(unit)
-  local _, calling = UnitClass(unit)
-  if not people or not calling or secret(people) or secret(calling) then return end
-  for _, id in ipairs(byPeople[people] or {}) do
-    unlock(id)
-  end
-  for _, id in ipairs(byCalling[calling] or {}) do
-    unlock(id)
-  end
-  local met = char.met
-  local combo = people .. ":" .. calling
-  if not met.combos[combo] then
-    met.races[people], met.classes[calling], met.combos[combo] = true, true, true
-    ns.checkAchievements()
-  end
-end
-handlers.PLAYER_TARGET_CHANGED = function()
-  checkNpc("target")
-  checkMeeting("target")
-  checkPlayer("target")
-end
-local function talking() checkNpc("npc") end
-handlers.GOSSIP_SHOW = talking
-handlers.QUEST_GREETING = talking
-handlers.QUEST_DETAIL = talking
-handlers.MERCHANT_SHOW = talking
-handlers.UPDATE_FACTION = function() checkFactions(false) end
--- Kills: yours or your pet's, however dealt (a DoT, an area spell, a creature
--- never targeted). PARTY_KILL (killer, victim) is an event of its own where the
--- client has it (Forever, Classic since 1.15.9), else a line of the combat
--- log; secret only in a Forever instance, where no creature can be told.
-function handlers.PARTY_KILL(attacker, victim)
-  if not attacker or secret(attacker) or (attacker ~= UnitGUID("player") and attacker ~= UnitGUID("pet")) then
-    return
-  end
-  local id = creatureId(victim)
-  for _, entry in ipairs(id and byKill[id] or {}) do
-    unlock(entry)
-  end
-end
-function handlers.COMBAT_LOG_EVENT_UNFILTERED()
-  if ns.partyKill then return end -- (told by the event of its own)
-  local _, sub, _, source, _, _, _, dest = CombatLogGetCurrentEventInfo()
-  if sub ~= "PARTY_KILL" or (source ~= UnitGUID("player") and source ~= UnitGUID("pet")) then return end
-  local id = creatureId(dest)
-  for _, entry in ipairs(id and byKill[id] or {}) do
-    unlock(entry)
-  end
-end
-
-function handlers.QUEST_TURNED_IN(questId)
-  for _, id in ipairs(byQuest[questId] or {}) do
-    unlock(id)
-  end
-end
-
-frame:SetScript("OnEvent", function(_, event, ...)
-  if event ~= "PLAYER_LOGIN" and not char then return end
-  handlers[event](...)
-end)
--- Kills: PARTY_KILL where the client has it; else the combat log (not on
--- Forever, which forbids it: registering it throws); with neither, meeting
--- counts instead.
-for event in pairs(handlers) do
-  if event == "PARTY_KILL" then
-    ns.partyKill = pcall(frame.RegisterEvent, frame, event)
-  elseif event ~= "COMBAT_LOG_EVENT_UNFILTERED" then
-    frame:RegisterEvent(event)
-  end
-end
-if not ns.partyKill then
-  local log = not ns.forever and pcall(frame.RegisterEvent, frame, "COMBAT_LOG_EVENT_UNFILTERED")
-  if not log then ns.meetKills = true end
-end
-
 -- ── /codex ───────────────────────────────────────────────────────────────────
+local USAGE = "/codex opens the book; /codex achievements; /codex settings; /codex banner shows or hides the "
+  .. "alerts; /codex minimap shows or hides the button; /codex reset starts this character's codex over."
+
+local function where()
+  -- For writing content: where am I, in the terms the content files use.
+  local map = C_Map.GetBestMapForUnit("player")
+  local pos = map and C_Map.GetPlayerMapPosition(map, "player")
+  print(
+    PREFIX
+      .. ("%s / %s · uiMap %s · %s"):format(
+        GetRealZoneText() or "?",
+        GetSubZoneText() ~= "" and GetSubZoneText() or "-",
+        tostring(map),
+        pos and ("position: %d %.1f %.1f"):format(map, pos.x * 100, pos.y * 100) or "no position"
+      )
+  )
+  local target = ns.npcId("target")
+  local name = UnitName("target")
+  if target then
+    print(PREFIX .. ("target: npc: %d (%s)"):format(target, (name and not ns.secret(name)) and name or "?"))
+  end
+end
+
 SLASH_LOREKEEPERSCODEX1 = "/codex"
 SLASH_LOREKEEPERSCODEX2 = "/lorekeeper"
 SlashCmdList.LOREKEEPERSCODEX = function(msg)
   msg = strtrim((msg or ""):lower())
-  if msg == "where" then
-    -- For writing content: where am I, in the terms the content files use.
-    local map = C_Map.GetBestMapForUnit("player")
-    local pos = map and C_Map.GetPlayerMapPosition(map, "player")
-    print(
-      PREFIX
-        .. ("%s / %s · uiMap %s · %s"):format(
-          GetRealZoneText() or "?",
-          GetSubZoneText() ~= "" and GetSubZoneText() or "-",
-          tostring(map),
-          pos and ("position: %d %.1f %.1f"):format(map, pos.x * 100, pos.y * 100) or "no position"
-        )
-    )
-    local target = npcId("target")
-    local name = UnitName("target")
-    if target then
-      print(PREFIX .. ("target: npc: %d (%s)"):format(target, (name and not secret(name)) and name or "?"))
-    end
-    return
-  end
-  if msg == "reset" then
+  local scan = msg:match("^scan%s*(%a*)$")
+  if msg == "" then
+    ns.toggle()
+  elseif msg == "where" then
+    where()
+  elseif msg == "reset" then
     print(PREFIX .. "this forgets every page and achievement this character has found. Type /codex reset yes to do it.")
-    return
-  end
-  if msg == "reset yes" then
+  elseif msg == "reset yes" then
     newCodex(char.guid)
-    catchUp()
-    ns.checkAchievements(true)
-    if ns.refresh then ns.refresh() end
+    ns.catchUp()
+    ns.refresh()
     print(PREFIX .. ("the codex starts afresh: %d of %d pages."):format(ns.count(), ns.knownTotal()))
-    return
-  end
-  if msg == "banner" then
+  elseif msg == "banner" then
     ns.setOption("banner", not ns.option("banner"))
     print(
       PREFIX
@@ -471,9 +171,7 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
           ns.option("banner") and "alerts shown for new pages." or "alerts hidden (/codex banner to show them again)."
         )
     )
-    return
-  end
-  if msg == "minimap" then
+  elseif msg == "minimap" then
     ns.setOption("minimapHidden", not ns.option("minimapHidden"))
     print(
       PREFIX
@@ -482,22 +180,15 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
           or "minimap button shown."
         )
     )
-    return
-  end
-  local scan = msg:match("^scan%s*(%a*)$")
-  if scan then
-    if ns.scanCommand then ns.scanCommand(scan) end
-    return
-  end
-  if msg == "achievements" or msg == "ach" then
-    if ns.openAchievements then ns.openAchievements() end
-    return
-  end
-  if msg == "settings" or msg == "options" then
+  elseif scan then
+    ns.scanCommand(scan)
+  elseif msg == "achievements" or msg == "ach" then
+    ns.openAchievements()
+  elseif msg == "settings" or msg == "options" then
     if not ns.openSettings() then
       print(PREFIX .. "no settings page in this client: use /codex banner and /codex minimap.")
     end
-    return
+  else
+    print(PREFIX .. USAGE)
   end
-  if ns.toggle then ns.toggle() end
 end

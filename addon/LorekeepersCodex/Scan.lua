@@ -71,7 +71,6 @@ local function quest(field, text)
   end
 end
 
-local frame = CreateFrame("Frame")
 local handlers = {
   ZONE_CHANGED = area,
   ZONE_CHANGED_INDOORS = area,
@@ -94,11 +93,10 @@ local handlers = {
     b[title].pages[ItemTextGetPage and ItemTextGetPage() or 1] = ItemTextGetText and ItemTextGetText()
   end,
 }
-frame:SetScript("OnEvent", function(_, event, ...)
-  if LorekeepersCodexScan and LorekeepersCodexScan.on and handlers[event] then handlers[event](...) end
-end)
-for event in pairs(handlers) do
-  frame:RegisterEvent(event)
+for event, fn in pairs(handlers) do
+  ns.on(event, function(...)
+    if LorekeepersCodexScan and LorekeepersCodexScan.on then fn(...) end
+  end)
 end
 
 local function count(t)

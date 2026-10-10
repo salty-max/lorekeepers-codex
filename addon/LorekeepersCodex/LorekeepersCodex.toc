@@ -11,6 +11,7 @@
 
 Content.lua
 Core.lua
+Unlocks.lua
 Achievements.lua
 Codex.lua
 Library.lua
