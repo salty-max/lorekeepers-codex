@@ -126,7 +126,7 @@ local function build(b)
   book.achPanel = ui.panel(book)
   book.achPanel:SetPoint("TOPLEFT", 8, -58)
   book.achPanel:SetPoint("BOTTOMRIGHT", -8, 8)
-  achievements = ui.scrollArea("LorekeepersCodexAchievements", book.achPanel, ACH_WIDTH)
+  achievements = ui.scrollArea(book.achPanel, ACH_WIDTH, "LorekeepersCodexAchievements")
   achievements:SetPoint("TOPLEFT", 22, -18)
   achievements:SetPoint("BOTTOMRIGHT", -22, 14)
 end

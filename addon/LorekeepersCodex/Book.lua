@@ -1,169 +1,23 @@
 -- The codex as a book: the standard game window (portrait, title bar), its
 -- tabs (Pages, the Library, Achievements: each a file of its own, *Book.lua,
 -- registered with ns.addTab), the links in chat that open it, and the kit
--- every tab is made of (ns.ui): its look, a list's row, a page's header.
--- Light text and gold titles on dark panels: Forever's Professions cards; on
--- Classic, the game's insets and the quest log's dark book behind the list.
--- /codex opens it.
+-- every tab is made of (ns.ui): the kit's look (Kit.lua) in the Codex's
+-- theme, a list's row, a page's header. /codex opens it.
 local _, ns = ...
 
 -- ── look ─────────────────────────────────────────────────────────────────────
-local T = {
-  gold = { 0.85, 0.70, 0.42 },
-  text = { 0.93, 0.88, 0.76 },
-  soft = { 0.62, 0.57, 0.49 },
-  rule = { 0.85, 0.70, 0.42, 0.25 },
-  link = { 0.85, 0.70, 0.42 },
-  ring = { 0.72, 0.56, 0.24 }, -- (round pictures' rings, the banner's edge)
-  bar = { 0.85, 0.65, 0.13 }, -- (progress)
-  dim = { 0.55, 0.53, 0.50 }, -- (an achievement not yet earned)
-}
-local LATIN = { enUS = true, enGB = true, frFR = true, deDE = true, esES = true, esMX = true, itIT = true, ptBR = true }
-local BODY_FONT = STANDARD_TEXT_FONT or "Fonts\\FRIZQT__.TTF"
-local TITLE_FONT = (not GetLocale or LATIN[GetLocale()]) and "Fonts\\MORPHEUS.TTF" or BODY_FONT
-
-local function label(parent, font, size, color)
-  local fs = parent:CreateFontString(nil, "OVERLAY")
-  fs:SetFont(font, size, "")
-  fs:SetTextColor(unpack(color))
-  fs:SetShadowOffset(1, -1)
-  fs:SetJustifyH("LEFT")
-  return fs
-end
-
-local function rule(parent)
-  local t = parent:CreateTexture(nil, "ARTWORK")
-  t:SetColorTexture(unpack(T.rule))
-  t:SetHeight(1)
-  return t
-end
-
-local function bar(parent)
-  local b = CreateFrame("StatusBar", nil, parent)
-  b:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar")
-  b:SetStatusBarColor(unpack(T.bar))
-  local bg = b:CreateTexture(nil, "BACKGROUND")
-  bg:SetAllPoints()
-  bg:SetColorTexture(0, 0, 0, 0.5)
-  return b
-end
-
--- Forever's Professions card (a dark rounded panel), cut in nine so it
--- stretches to any size without bending its corners.
-local CARD_FILE, CARD_W, CARD_H = 8164414, 1024, 512
-local CARD = { 1, 665, 1, 143 } -- the generic card, in the texture's pixels
-local CORNER = 16
-local function card(parent)
-  local f = CreateFrame("Frame", nil, parent)
-  local xs = { CARD[1], CARD[1] + CORNER, CARD[2] - CORNER, CARD[2] }
-  local ys = { CARD[3], CARD[3] + CORNER, CARD[4] - CORNER, CARD[4] }
-  for i = 1, 3 do
-    for j = 1, 3 do
-      local tex = f:CreateTexture(nil, "BACKGROUND")
-      tex:SetTexture(CARD_FILE)
-      tex:SetTexCoord(xs[j] / CARD_W, xs[j + 1] / CARD_W, ys[i] / CARD_H, ys[i + 1] / CARD_H)
-      if j ~= 2 then tex:SetWidth(CORNER) end
-      if i ~= 2 then tex:SetHeight(CORNER) end
-      -- Corners pinned to the frame's edges; edges and centre between them.
-      if j == 1 then tex:SetPoint("LEFT", f, "LEFT", 0, 0) end
-      if j == 2 then
-        tex:SetPoint("LEFT", f, "LEFT", CORNER, 0)
-        tex:SetPoint("RIGHT", f, "RIGHT", -CORNER, 0)
-      end
-      if j == 3 then tex:SetPoint("RIGHT", f, "RIGHT", 0, 0) end
-      if i == 1 then tex:SetPoint("TOP", f, "TOP", 0, 0) end
-      if i == 2 then
-        tex:SetPoint("TOP", f, "TOP", 0, -CORNER)
-        tex:SetPoint("BOTTOM", f, "BOTTOM", 0, CORNER)
-      end
-      if i == 3 then tex:SetPoint("BOTTOM", f, "BOTTOM", 0, 0) end
-    end
-  end
-  return f
-end
-
--- Classic's panels: the game's inset, darkened a little for the text; behind
--- the list, the quest log's dark book (TBC's two-pane log, where the game has it).
-local function inset(parent, book)
-  local ok, f = pcall(CreateFrame, "Frame", nil, parent, "InsetFrameTemplate")
-  if not (ok and f) then f = CreateFrame("Frame", nil, parent) end
-  local shade = f:CreateTexture(nil, "BACKGROUND", nil, 1)
-  shade:SetPoint("TOPLEFT", 3, -3)
-  shade:SetPoint("BOTTOMRIGHT", -3, 3)
-  shade:SetColorTexture(0.03, 0.025, 0.02, 0.55)
-  if not book then return f end
-  local art = f:CreateTexture(nil, "BACKGROUND", nil, 2)
-  art:SetPoint("TOPLEFT", 3, -3)
-  art:SetPoint("BOTTOMRIGHT", -3, 3)
-  if art:SetTexture("Interface\\QuestFrame\\UI-QuestLogDualPane-Left") == false then
-    art:Hide()
-  else
-    art:SetTexCoord(20 / 512, 318 / 512, 74 / 512, 406 / 512)
-  end
-  return f
-end
-
-local function panel(parent, book)
-  if ns.forever then return card(parent) end
-  return inset(parent, book)
-end
-
--- A scroll area moved by the mouse wheel, with a thin gold thumb.
-local function scrollArea(name, parent, width)
-  local s = CreateFrame("ScrollFrame", name, parent)
-  local c = CreateFrame("Frame", nil, s)
-  c:SetSize(width, 1)
-  s:SetScrollChild(c)
-  s.child = c
-  s.thumb = s:CreateTexture(nil, "OVERLAY")
-  s.thumb:SetColorTexture(T.gold[1], T.gold[2], T.gold[3], 0.45)
-  s.thumb:SetWidth(3)
-  function s:Range() return math.max(0, self.child:GetHeight() - self:GetHeight()) end
-  function s:UpdateThumb()
-    local range, height = self:Range(), self:GetHeight()
-    if range <= 0 then
-      self.thumb:Hide()
-      return
-    end
-    local size = math.max(24, height * height / (height + range))
-    self.thumb:SetHeight(size)
-    self.thumb:ClearAllPoints()
-    self.thumb:SetPoint(
-      "TOPRIGHT",
-      self,
-      "TOPRIGHT",
-      8,
-      -(height - size) * math.min(1, self:GetVerticalScroll() / range)
-    )
-    self.thumb:Show()
-  end
-  function s:ScrollTo(y)
-    self:SetVerticalScroll(math.max(0, math.min(y, self:Range())))
-    self:UpdateThumb()
-  end
-  s:EnableMouseWheel(true)
-  s:SetScript("OnMouseWheel", function(self, delta) self:ScrollTo(self:GetVerticalScroll() - delta * 40) end)
-  return s
-end
-
--- A round portrait in a ring of the book's gold.
-local MASK = "Interface\\CharacterFrame\\TempPortraitAlphaMask"
-local function roundIcon(parent, size)
-  local p = CreateFrame("Frame", nil, parent)
-  p:SetSize(size, size)
-  p.ring = p:CreateTexture(nil, "BACKGROUND")
-  p.ring:SetTexture(MASK)
-  p.ring:SetVertexColor(unpack(T.ring))
-  p.ring:SetPoint("CENTER")
-  p.ring:SetSize(size + 4, size + 4)
-  p.tex = p:CreateTexture(nil, "ARTWORK")
-  p.tex:SetAllPoints()
-  local mask = p:CreateMaskTexture()
-  mask:SetTexture(MASK, "CLAMPTOBLACKADDITIVE", "CLAMPTOBLACKADDITIVE")
-  mask:SetAllPoints(p.tex)
-  p.tex:AddMaskTexture(mask)
-  return p
-end
+-- The kit's (Kit.lua), in the Codex's theme: the family's gold, the panels a
+-- touch cool, like ink in an archive.
+local K = ns.kit
+K.theme({
+  tint = { 0.88, 0.92, 1.00 },
+  shade = { 0.02, 0.025, 0.035, 0.55 },
+})
+local T = K.T
+T.link = T.accent -- (a page's "See also" links)
+local BODY_FONT, TITLE_FONT = K.BODY_FONT, K.TITLE_FONT
+local label, rule, bar, card, panel, scrollArea, roundIcon =
+  K.label, K.rule, K.bar, K.card, K.panel, K.scrollArea, K.roundIcon
 
 -- What a page is about, in a word.
 local KINDS = {
@@ -222,7 +76,6 @@ end
 -- ── a list's row, a page's header ────────────────────────────────────────────
 -- A row of a list on the left: its text, a count, a fold mark, its highlight
 -- and the mark of the one picked out; each tab places them for its kinds.
-local HIGHLIGHT = "Interface\\QuestFrame\\UI-QuestTitleHighlight"
 local ROW_WIDTH = 204
 local function listRow(parent)
   local r = CreateFrame("Button", nil, parent)
@@ -232,12 +85,7 @@ local function listRow(parent)
   r.count = label(r, BODY_FONT, 10, T.soft)
   r.fold = r:CreateTexture(nil, "ARTWORK")
   r.fold:SetSize(12, 12)
-  r:SetHighlightTexture(HIGHLIGHT, "ADD")
-  r.selected = r:CreateTexture(nil, "BACKGROUND")
-  r.selected:SetAllPoints()
-  r.selected:SetTexture(HIGHLIGHT)
-  r.selected:SetBlendMode("ADD")
-  r.selected:SetAlpha(0.7)
+  r.selected = K.highlight(r)
   return r
 end
 
@@ -265,13 +113,13 @@ end
 
 -- The list's and the page's scroll areas, in the book's two panels.
 local function listArea(name, book)
-  local s = scrollArea(name, book.left, ROW_WIDTH)
+  local s = scrollArea(book.left, ROW_WIDTH, name)
   s:SetPoint("TOPLEFT", book.left, "TOPLEFT", 12, -40)
   s:SetPoint("BOTTOMRIGHT", book.left, "BOTTOMRIGHT", -18, 12)
   return s
 end
 local function pageArea(name, book)
-  local s = scrollArea(name, book.sheet, WIDTH)
+  local s = scrollArea(book.sheet, WIDTH, name)
   s:SetPoint("TOPLEFT", book.sheet, "TOPLEFT", 26, -22)
   s:SetPoint("BOTTOMRIGHT", book.sheet, "BOTTOMRIGHT", -22, 14)
   return s
@@ -286,45 +134,9 @@ ns.TAB = TAB
 local tabs, TAB_TITLES = {}, { "Pages", "Library", "Achievements" }
 function ns.addTab(n, tab) tabs[n] = tab end
 
--- The standard game window (portrait, title bar), its inset removed.
+-- The standard game window (portrait: the codex's book; title bar), else a
+-- plain dialog where the client has no such template (Kit.lua).
 local TITLE = "Lorekeeper's Codex"
-local function gameWindow()
-  local ok, frame = pcall(CreateFrame, "Frame", "LorekeepersCodexFrame", UIParent, "ButtonFrameTemplate")
-  if not ok or not frame then return nil end
-  if ButtonFrameTemplate_HideButtonBar then ButtonFrameTemplate_HideButtonBar(frame) end
-  if type(frame.Inset) == "table" then frame.Inset:Hide() end
-  local art = "Interface\\Icons\\INV_Misc_Book_09"
-  if frame.SetPortraitToAsset then
-    frame:SetPortraitToAsset(art)
-  elseif type(frame.portrait) == "table" then
-    frame.portrait:SetTexture(art)
-  end
-  if frame.SetTitle then
-    frame:SetTitle(TITLE)
-  elseif type(frame.TitleText) == "table" then
-    frame.TitleText:SetText(TITLE)
-  end
-  return frame
-end
-
--- No standard window on this client: a plain dialog frame.
-local function dialog()
-  local frame = CreateFrame("Frame", "LorekeepersCodexFrame", UIParent, "BackdropTemplate")
-  frame:SetBackdrop({
-    bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
-    edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Gold-Border",
-    tile = true,
-    tileSize = 32,
-    edgeSize = 32,
-    insets = { left = 11, right = 12, top = 12, bottom = 11 },
-  })
-  local title = label(frame, TITLE_FONT, 16, T.gold)
-  title:SetPoint("TOP", 0, -16)
-  title:SetText(TITLE)
-  local close = CreateFrame("Button", nil, frame, "UIPanelCloseButton")
-  close:SetPoint("TOPRIGHT", -6, -6)
-  return frame
-end
 
 -- Rewrite what the open tab shows. scroll: bring its picked-out row into view.
 function ns.refresh(scroll)
@@ -351,53 +163,10 @@ function ns.showTab(n)
   ns.refresh(true)
 end
 
--- The tabs, under the window's bottom edge, in the style of the character
--- sheet's (the shared panel tabs where that template doesn't exist: Forever).
-local function hasTemplate(name)
-  if not (C_XMLUtil and C_XMLUtil.GetTemplateInfo) then return name == "CharacterFrameTabButtonTemplate" end
-  return C_XMLUtil.GetTemplateInfo(name) ~= nil
-end
-
-local function buildTabs()
-  local template = hasTemplate("CharacterFrameTabButtonTemplate") and "CharacterFrameTabButtonTemplate"
-    or "PanelTabButtonTemplate"
-  for n, text in ipairs(TAB_TITLES) do
-    local tab = CreateFrame("Button", "LorekeepersCodexFrameTab" .. n, book, template)
-    tab:SetID(n)
-    tab:SetText(text)
-    if n == 1 then
-      tab:SetPoint("TOPLEFT", book, "BOTTOMLEFT", 14, 2)
-    else
-      tab:SetPoint("LEFT", "LorekeepersCodexFrameTab" .. (n - 1), "RIGHT", -14, 0)
-    end
-    tab:SetScript("OnClick", function(self)
-      local chosen = tabs[self:GetID()].chosen
-      if chosen then chosen() end
-      ns.showTab(self:GetID())
-      if PlaySound and SOUNDKIT and SOUNDKIT.IG_CHARACTER_INFO_TAB then PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB) end
-    end)
-    tab:SetScript("OnShow", function(self)
-      if PanelTemplates_TabResize then PanelTemplates_TabResize(self, 0) end
-    end)
-    if PanelTemplates_TabResize then PanelTemplates_TabResize(tab, 0) end
-  end
-  if PanelTemplates_SetNumTabs then PanelTemplates_SetNumTabs(book, #TAB_TITLES) end
-end
-
 local function build()
-  local window = gameWindow()
-  book = window or dialog()
-  book:SetSize(780, 560)
-  book:SetPoint("CENTER")
-  book:SetFrameStrata("HIGH")
-  book:SetToplevel(true)
-  book:SetMovable(true)
-  book:EnableMouse(true)
-  book:SetClampedToScreen(true)
-  book:RegisterForDrag("LeftButton")
-  book:SetScript("OnDragStart", book.StartMoving)
-  book:SetScript("OnDragStop", book.StopMovingOrSizing)
-  table.insert(UISpecialFrames, "LorekeepersCodexFrame") -- Escape closes it
+  local window = K.gameWindow("LorekeepersCodexFrame", TITLE, "Interface\\Icons\\INV_Misc_Book_09")
+  book = window or K.dialog("LorekeepersCodexFrame", TITLE)
+  K.movable(book, 780, 560)
 
   -- The count beside the portrait; the list's column below it, the page to
   -- the right, under the title bar; the search box at the top of the list's
@@ -420,7 +189,11 @@ local function build()
 
   book.selectedTab = TAB.pages
   book:SetScript("OnShow", function() ns.showTab(book.selectedTab) end)
-  buildTabs()
+  K.tabs(book, TAB_TITLES, function(n)
+    local chosen = tabs[n].chosen
+    if chosen then chosen() end
+    ns.showTab(n)
+  end)
 end
 
 local function window()

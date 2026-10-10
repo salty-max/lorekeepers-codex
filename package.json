@@ -9,6 +9,8 @@
     "package": "bun scripts/package.ts",
     "areas": "bun scripts/areas.ts",
     "lint:lua": "stylua --check addon && selene addon/LorekeepersCodex",
-    "format:lua": "stylua addon"
+    "format:lua": "stylua addon",
+    "kit:sync": "bun ../addon-kit/sync.ts addon/LorekeepersCodex",
+    "kit:check": "bun ../addon-kit/sync.ts --check addon/LorekeepersCodex"
   }
 }

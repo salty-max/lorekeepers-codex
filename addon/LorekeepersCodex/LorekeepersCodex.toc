@@ -14,6 +14,7 @@ Core.lua
 Unlocks.lua
 Achievements.lua
 Library.lua
+Kit.lua
 Book.lua
 PagesBook.lua
 LibraryBook.lua

@@ -29,7 +29,10 @@ original lore texts that unlock per character as they play. Sister project of
   `calling:`; one's own from the start; `met` for the encounters), kills by
   you or your pet: `PARTY_KILL`, an event of its own on Forever and Classic
   since 1.15.9, else the combat log's line; quests incl. ones done before,
-  reputations, map positions), `Library.lua` (books, notes, plaques read in the world, copied whole from the
+  reputations, map positions), `Kit.lua` (a copy of the kit shared with Hearthtale and the Field Journal,
+  ~/code/addon-kit: the books' look and windows; never edited here: `bun run
+  kit:sync` after changing the kit, `bun run kit:check` to verify; the Codex's
+  theme is set at the top of `Book.lua`), `Library.lua` (books, notes, plaques read in the world, copied whole from the
   game's reader: on opening, it turns through every page and back; per character
   in `LorekeepersCodexChar.library`; players' letters never), `Book.lua` (the
   window, its tabs: each a file of its own registered with `ns.addTab`, the
