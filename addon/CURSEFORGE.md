@@ -9,7 +9,7 @@ The lore of Azeroth, written for you as you explore: each zone, figure of legend
 
 **The lore of Azeroth, written for you as you explore.** An archivist of the Explorers' League has left you a ledger: walk into a zone, meet a figure of legend, defeat a people's warriors or finish the right quest, and a new page of history is added to your codex.
 
-For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of Warcraft: Forever. A sibling of [Explorer's Field Journal](https://github.com/salty-max/field-journal) and [Hearthtale](https://github.com/salty-max/hearthtale), in the same look (each in its own colours), but it stands alone.
+For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of Warcraft: Forever. A sibling of [Explorer's Field Journal](https://www.curseforge.com/wow/addons/explorers-field-journal) and [Hearthtale](https://www.curseforge.com/wow/addons/hearthtale), in the same look (each in its own colours), but it stands alone.
 
 ## What's inside
 
@@ -54,6 +54,13 @@ The first time each character logs in with the codex, a welcome page introduces 
 Settings are each character's own, as in most interface addons. A character can take another's: choose one of your characters of the same game from a list (on the welcome page or the Options page), or bring them from anywhere with a code: `/codex export` on one character, `/codex import CODE` on the other.
 
 Other commands: `/codex achievements` opens the achievements; `/codex minimap` shows or hides the button; `/codex reset` starts a character's codex over (it asks first); `/codex where` prints your position (for writing pages).
+
+## Siblings
+
+The same look, each in its own colours, and each stands alone:
+
+- **[Hearthtale](https://www.curseforge.com/wow/addons/hearthtale)** ([Wago](https://addons.wago.io/addons/E6gzPnN1)). Your character's own journal, written as you play: a diary entry in their voice at each rest, and an epitaph if a Hardcore life ends.
+- **[Explorer's Field Journal](https://www.curseforge.com/wow/addons/explorers-field-journal)** ([Wago](https://addons.wago.io/addons/ZKbq5y61)). A bestiary, an atlas and a record of your fish and herbs, filled in as you travel, with an Explorers' League naturalist's notes.
 
 ## Source
 
