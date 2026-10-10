@@ -13,8 +13,11 @@ Content.lua
 Core.lua
 Unlocks.lua
 Achievements.lua
-Codex.lua
 Library.lua
+Book.lua
+PagesBook.lua
+LibraryBook.lua
+AchievementsBook.lua
 Minimap.lua
 Banner.lua
 Settings.lua

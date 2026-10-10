@@ -1,7 +1,7 @@
 -- Lorekeeper's Codex: this character's codex, the events every file listens
 -- to (ns.on) and /codex. The pages unlock in Unlocks.lua, the Library copies
 -- texts read in the world (Library.lua), achievements follow (Achievements.lua)
--- and the book shows them (Codex.lua, Library.lua's tab).
+-- and the book shows them (Book.lua and its tabs, *Book.lua).
 --
 --   LorekeepersCodexChar (SavedVariablesPerCharacter), whose codex: guid
 --     entries[id] = { at, level, zone, sub, retro }   unlocked pages

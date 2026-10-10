@@ -37,13 +37,13 @@ end
 -- tooltip's dark box with a gold edge), the page's round picture, a short
 -- line in soft gold, the title in the title font.
 local function build()
-  local L = ns.look
+  local ui = ns.ui
   banner = CreateFrame("Button", "LorekeepersCodexBanner", UIParent, "BackdropTemplate")
   banner:SetSize(WIDTH, HEIGHT)
   banner:SetPoint("TOP", 0, -36)
   banner:SetFrameStrata("HIGH")
   if ns.forever then
-    local art = L.card(banner)
+    local art = ui.card(banner)
     art:SetAllPoints()
   else
     banner:SetBackdrop({
@@ -55,14 +55,14 @@ local function build()
       insets = { left = 4, right = 4, top = 4, bottom = 4 },
     })
     banner:SetBackdropColor(0.05, 0.045, 0.04, 0.95)
-    banner:SetBackdropBorderColor(0.72, 0.56, 0.24)
+    banner:SetBackdropBorderColor(unpack(ui.T.ring))
   end
   banner:Hide()
 
-  banner.picture = ns.roundIcon(banner, 42)
+  banner.picture = ui.roundIcon(banner, 42)
   banner.picture:SetPoint("LEFT", 14, 0)
-  banner.kicker = ns.label(banner, L.BODY_FONT, 11, L.T.soft)
-  banner.title = ns.label(banner, L.TITLE_FONT, 18, L.T.gold)
+  banner.kicker = ui.label(banner, ui.BODY_FONT, 11, ui.T.soft)
+  banner.title = ui.label(banner, ui.TITLE_FONT, 18, ui.T.gold)
   banner.title:SetWordWrap(false)
 
   local close = CreateFrame("Button", nil, banner, "UIPanelCloseButton")
@@ -126,7 +126,7 @@ end
 
 local function setUpPage(frame, id)
   local e = C.entries[id]
-  frame.codexPage, frame.codexAchievement = id, nil
+  frame.codexPage, frame.codexAchievement = id, false -- (a toast frame is used again: never left as it was)
   -- Round, as the book's pictures: a mask texture (Texture:SetMask, the
   -- recipe toast's own way, forbids changing the crop afterwards on Forever).
   if not frame.codexMask and frame.CreateMaskTexture then
@@ -139,11 +139,8 @@ local function setUpPage(frame, id)
     frame.codexMask:SetAllPoints(frame.Icon)
     frame.Icon:AddMaskTexture(frame.codexMask)
   end
-  if e.portrait and SetPortraitTextureFromCreatureDisplayID then
-    frame.Icon:SetTexCoord(0, 1, 0, 1)
-    SetPortraitTextureFromCreatureDisplayID(frame.Icon, e.portrait)
-  else
-    frame.Icon:SetTexture(ns.kindIcon(e.kind) or BOOK)
+  if not ns.showPicture(frame.Icon, e) then
+    frame.Icon:SetTexture(BOOK)
     frame.Icon:SetTexCoord(0.08, 0.92, 0.08, 0.92)
   end
   frame.Title:SetText("A new page in the codex")
@@ -154,7 +151,7 @@ end
 
 local function setUpAchievement(frame, id)
   local a = ns.achievementById[id]
-  frame.codexPage, frame.codexAchievement = nil, id
+  frame.codexPage, frame.codexAchievement = false, id
   frame.Icon.Texture:SetTexture(BOOK)
   frame.Unlocked:SetText("Codex achievement")
   frame.Name:SetText(a.title)

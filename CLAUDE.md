@@ -29,10 +29,14 @@ original lore texts that unlock per character as they play. Sister project of
   `calling:`; one's own from the start; `met` for the encounters), kills by
   you or your pet: `PARTY_KILL`, an event of its own on Forever and Classic
   since 1.15.9, else the combat log's line; quests incl. ones done before,
-  reputations, map positions), `Codex.lua` (the book UI: Pages, Library, Achievements tabs),
-  `Library.lua` (books, notes, plaques read in the world, copied whole from the
+  reputations, map positions), `Library.lua` (books, notes, plaques read in the world, copied whole from the
   game's reader: on opening, it turns through every page and back; per character
-  in `LorekeepersCodexChar.library`; players' letters never; the Library tab).
+  in `LorekeepersCodexChar.library`; players' letters never), `Book.lua` (the
+  window, its tabs: each a file of its own registered with `ns.addTab`, the
+  links in chat, and the kit every tab is made of, `ns.ui`: the look, a list's
+  row, a page's header), `PagesBook.lua`, `LibraryBook.lua`,
+  `AchievementsBook.lua` (the tabs), `Banner.lua` (the toasts), `Hints.lua`
+  (tooltips), `Scan.lua` (`/codex scan`, for writing Forever's pages).
 - `addon/test/sim.lua`: fake WoW API + a replayed session; the UI runs against a
   permissive stub (catches Lua errors, not layout).
 

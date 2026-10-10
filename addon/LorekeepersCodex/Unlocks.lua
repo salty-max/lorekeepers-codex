@@ -152,7 +152,7 @@ local function unlock(id, retro)
     retro = retro or nil,
   }
   if not retro then
-    -- A link: clicking it opens the book at this page (see Codex.lua).
+    -- A link: clicking it opens the book at this page (see Book.lua).
     if ns.option("chat") then
       print(
         PREFIX .. ("|cffffd100|Hlorekeeper:%s|h[%s]|h|r has been added to the codex."):format(id, C.entries[id].title)
