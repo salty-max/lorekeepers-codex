@@ -105,5 +105,11 @@ historical claims in other entries.
 
 ## Conventions
 
-Conventional Commits, lowercase subjects, no AI co-author trailers. Before
-calling a change done: `bun run check`.
+- Conventional Commits, lowercase subjects; no AI co-author trailers.
+- Commit locally; ask before any push, release or deploy.
+- Lua: `bun run format:lua` (StyLua, `stylua.toml`) and `bun run lint:lua`
+  (selene, `selene.toml`; the game's globals in `wow.yml`: add one there when
+  the addon calls a new game function). Both run in `bun run check` and CI.
+- Before calling a change done: `bun run check`.
+- Release: `scripts/release.sh [--version X.Y.Z] NOTES.md` (main pushed
+  first); GitHub Actions publishes both zips and uploads them to CurseForge.

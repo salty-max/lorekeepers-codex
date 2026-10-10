@@ -105,11 +105,11 @@ function ns.createSettingsPanel()
     end
   )
   Settings.CreateDropdown(category, sound, function()
-    local options = Settings.CreateControlTextContainer()
+    local sounds = Settings.CreateControlTextContainer()
     for _, s in ipairs(ns.SOUNDS) do
-      options:Add(s[1], s[2])
+      sounds:Add(s[1], s[2])
     end
-    return options:GetData()
+    return sounds:GetData()
   end, "Played when a page is added to the codex.")
 
   checkbox(

@@ -218,9 +218,9 @@ if ns.forever then
   end
 end
 local CALLINGS = { "WARRIOR", "PALADIN", "HUNTER", "ROGUE", "PRIEST", "SHAMAN", "MAGE", "WARLOCK", "DRUID" }
-local function met(kind, list)
+local function met(kind, tokens)
   local seen, n = (LorekeepersCodexChar and LorekeepersCodexChar.met or {})[kind] or {}, 0
-  for _, k in ipairs(list) do
+  for _, k in ipairs(tokens) do
     if seen[k] then n = n + 1 end
   end
   return n
