@@ -90,13 +90,12 @@ names) and writes one content file per game (`Content_Classic.lua`,
 ```bash
 bun run build      # content → Content_Classic.lua, Content_Forever.lua
 bun run check      # both up to date + simulation on both games
-bun run package    # dist/classic, dist/forever: one installable addon per game, zipped
+bun run package    # dist/LorekeepersCodex.zip: one package for every game
 ```
 
 Releases: `scripts/release.sh NOTES.md` bumps the version, checks, tags and
-pushes; GitHub Actions publishes both zips, `LorekeepersCodex-classic.zip`
-and `LorekeepersCodex-forever.zip` (and uploads them to CurseForge once
-configured).
+pushes; GitHub Actions publishes `LorekeepersCodex.zip` (the BigWigs packager)
+on GitHub, CurseForge and Wago Addons.
 
 ## License
 

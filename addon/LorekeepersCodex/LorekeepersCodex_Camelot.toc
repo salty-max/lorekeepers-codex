@@ -1,0 +1,31 @@
+## Interface: 16001
+## Title: Lorekeeper's Codex
+## Notes: The lore of Azeroth, written by an archivist of the Explorers' League, filling in as you explore. /codex to read it.
+## Author: salty-max
+## Version: 0.9.1
+## SavedVariablesPerCharacter: LorekeepersCodexChar
+## SavedVariables: LorekeepersCodexSettings, LorekeepersCodexScan
+## IconTexture: Interface\Icons\INV_Misc_Book_09
+## X-Website: https://github.com/salty-max/lorekeepers-codex
+## X-License: MIT
+## X-Curse-Project-ID: 1727545
+
+# World of Warcraft: Forever. Each game loads its own TOC (_Vanilla: Classic
+# Era, _TBC: TBC Anniversary, _Camelot: Forever), the same but for the interface
+# and the game's data (scripts/package.ts checks).
+Content_Forever.lua
+Core.lua
+Unlocks.lua
+Achievements.lua
+Library.lua
+Kit.lua
+Book.lua
+PagesBook.lua
+LibraryBook.lua
+AchievementsBook.lua
+Minimap.lua
+Banner.lua
+Settings.lua
+Welcome.lua
+Hints.lua
+Scan.lua

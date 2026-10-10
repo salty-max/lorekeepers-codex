@@ -1,4 +1,4 @@
--- What unlocks a page (Content.lua's unlock rules) and the pages this
+-- What unlocks a page (the content file's unlock rules) and the pages this
 -- character has: places entered, creatures talked to or targeted, kills by
 -- you or your pet, quests done (before the codex too), reputations reached,
 -- spots stood on, players met (their people's page and their calling's, one's

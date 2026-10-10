@@ -274,10 +274,10 @@ ns.content.entries["t-quest"] = entry("Quest done before", { quest = 7777 })
 ns.content.entries["t-quest-new"] = entry("Quest turned in", { quest = 8888 })
 ns.content.entries["t-rep"] = entry("Friendly with Ironforge", { faction = 47, standing = 5 })
 ns.content.entries["t-pos"] = entry("The Great Forge", { map = 1455, x = 57, y = 47, r = 6 })
--- The files in the TOC's order; Content.lua is the game's own content file.
-for line in io.lines(DIR .. "LorekeepersCodex.toc") do
+-- The files in the order of the game's own TOC (its content file loaded above).
+for line in io.lines(DIR .. (FOREVER and "LorekeepersCodex_Camelot.toc" or "LorekeepersCodex_Vanilla.toc")) do
   local f = line:match("^([%w_]+%.lua)%s*$")
-  if f and f ~= "Content.lua" then assert(loadfile(DIR .. f))("LorekeepersCodex", ns) end
+  if f and not f:match("^Content_") then assert(loadfile(DIR .. f))("LorekeepersCodex", ns) end
 end
 function wipe(t)
   for k in pairs(t) do

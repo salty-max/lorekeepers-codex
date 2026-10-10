@@ -266,7 +266,7 @@ const unlockLua = (u: Unlock) =>
                 : `{ map = ${u.map}, x = ${u.x}, y = ${u.y}, r = ${u.r} }`;
 // One content file per game: each holds only that game's pages and paragraphs
 // (front matter client:, [forever]/[classic] paragraphs), and its links and
-// chapters follow. scripts/package.ts ships each with its own TOC.
+// chapters follow. Each game's TOC loads its own.
 const GAMES = [
   { client: "classic", out: join(ROOT, "addon/LorekeepersCodex/Content_Classic.lua") },
   { client: "forever", out: join(ROOT, "addon/LorekeepersCodex/Content_Forever.lua") },

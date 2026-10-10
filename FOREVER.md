@@ -13,7 +13,7 @@ one package. This plan records the decisions and the work, in two waves.
 | Lore sources for Forever-only pages | **Forever's own texts** (quests, NPCs, books), and only Forever readers see those pages. Original pages keep the pre-WotLK rule. |
 | Original pages contradicted by Forever | **Forever variants:** Forever-only paragraphs or replacement text; Classic readers see the original. |
 | Skyborne | **Their own foreword now**, written during the port from what the beta shows of them and Zephras Isle. |
-| Packaging | **One source, two packages:** one version and changelog, a zip per game (`LorekeepersCodex-classic.zip`, `LorekeepersCodex-forever.zip`), each with only its game's content and interface versions. |
+| Packaging | **One source, one zip** (since 0.9.2; two packages before): one version and changelog, a TOC per game (`_Vanilla`, `_TBC`, `_Camelot`), each loading only its game's content. |
 | Testing | **On the beta, by the user**, with a `/codex scan` command that records ids for the second wave. |
 
 ## What Forever changes (from the beta's AreaTable, wago.tools `wow_classic_beta`)
@@ -82,7 +82,7 @@ one package. This plan records the decisions and the work, in two waves.
 
 ### To test on the beta
 
-Install `dist/forever/LorekeepersCodex` (after `bun run package`) into
+Install `dist/LorekeepersCodex` (after `bun run package`) into
 `World of Warcraft/_classic_beta_/Interface/AddOns/`.
 
 

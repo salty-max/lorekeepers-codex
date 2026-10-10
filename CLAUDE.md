@@ -11,10 +11,12 @@ original lore texts that unlock per character as they play. Sister project of
 - `scripts/build.ts`: content → `addon/LorekeepersCodex/Content_Classic.lua`
   and `Content_Forever.lua` (generated, committed: each holds its game's pages
   and paragraphs only), with validation. `--check` fails if one is stale.
-- `scripts/package.ts` (`bun run package`): one package per game in `dist/`
-  (folder + zip), its content file as `Content.lua` and a TOC with its game's
-  interface versions (the source TOC has an `@INTERFACE@` placeholder: the
-  source folder is not installable). Releases attach both zips.
+- `addon/LorekeepersCodex` is one package for every game, installable as is: each game
+  loads its own TOC (`LorekeepersCodex_Vanilla.toc`: Classic Era, 11509; `_TBC.toc`:
+  TBC Anniversary, 20506; `_Camelot.toc`: Forever, 16001), the same but for
+  the interface and the game's data (`Content_Classic.lua` or
+  `Content_Forever.lua`). `scripts/package.ts` (`bun run package`) checks they
+  agree and zips `dist/LorekeepersCodex.zip` for a test in the game.
 - `data/areas.json`: the client's AreaTable (wago.tools, `bun scripts/areas.ts`):
   place names in content resolve to area ids, so unlocks work in every language.
   `data/areas-forever.json`: the areas Forever adds (the beta's table, pinned;
@@ -131,5 +133,9 @@ historical claims in other entries.
   (selene, `selene.toml`; the game's globals in `wow.yml`: add one there when
   the addon calls a new game function). Both run in `bun run check` and CI.
 - Before calling a change done: `bun run check`.
-- Release: `scripts/release.sh [--version X.Y.Z] NOTES.md` (main pushed
-  first); GitHub Actions publishes both zips and uploads them to CurseForge.
+- Release: `scripts/release.sh [--version X.Y.Z] [--hold] NOTES.md` (main
+  pushed first); GitHub Actions runs the BigWigs packager (`.pkgmeta`):
+  the zip on GitHub, CurseForge (the TOCs' `X-Curse-Project-ID`, secret
+  `CURSEFORGE_TOKEN`) and Wago Addons (`X-Wago-ID`, once its project
+  exists; secret `WAGO_API_TOKEN`). `--hold`: GitHub alone (variable
+  `HOLD_STORES`); the stores later: `gh workflow run release.yml -f tag=vX.Y.Z`.

@@ -38,12 +38,11 @@ A second tab: every book, note, letter and plaque you read in the world is copie
 
 A third tab in the book (`/codex achievements`): page milestones, the Library, feats (the legendary wanderers, the leaders of your side, the dungeons, the great powers at the end of the deepest lairs, a page in every chapter), encounters (players of every race, of every class, and every pairing of the two) and one for each chapter completed. Each remembers the day and the level you earned it.
 
-## Two packages
+## Every game, one download
 
-Each game has its own file: pick the one for yours (the CurseForge app does it for you).
+The same file for Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of Warcraft: Forever: each game loads its own part.
 
-- **Classic**: Classic Era, Hardcore, Season of Discovery, TBC Anniversary.
-- **Forever**: World of Warcraft: Forever, with a chapter for Zephras Isle and pages for Forever's new dungeons. Pages that unlock on a kill do so as on Classic; inside dungeons and raids, Forever hides creatures from every addon, so kills there unlock nothing. `/codex scan on` records the places, creatures and quest texts you meet, to help write Forever's new chapters.
+On World of Warcraft: Forever, the Codex has a chapter for Zephras Isle and pages for Forever's new dungeons. Pages that unlock on a kill do so as on Classic; inside dungeons and raids, Forever hides creatures from every addon, so kills there unlock nothing. `/codex scan on` records the places, creatures and quest texts you meet, to help write Forever's new chapters.
 
 ## Settings
 
