@@ -21,7 +21,7 @@ For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of Wa
 - Pages unlock on their own: entering a place, talking to (or targeting) someone, targeting a player of another people or class, defeating creatures, completing quests, reaching a reputation.
 - Each new page is announced in chat (a link that opens it) and by the game's own alert, with its picture and a sound. Achievements get the game's achievement alert.
 - Each character keeps its own codex, and each page remembers when, at what level and where you found it.
-- Tooltips of creatures that unlock a page say so.
+- Tooltips of creatures that unlock a page say so, and so do those of players whose people or class you have yet to meet.
 
 ## The book
 

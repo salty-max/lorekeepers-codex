@@ -54,6 +54,21 @@ function ns.pagesOfNpc(npcId)
   return out
 end
 
+-- The pages a player would unlock (their people's and their calling's), for
+-- the tooltip hint.
+function ns.pagesOfPlayer(unit)
+  local _, people = UnitRace(unit)
+  local _, calling = UnitClass(unit)
+  if not people or not calling or secret(people) or secret(calling) then return {} end
+  local out = {}
+  for _, t in ipairs({ byPeople[people] or {}, byCalling[calling] or {} }) do
+    for _, id in ipairs(t) do
+      table.insert(out, id)
+    end
+  end
+  return out
+end
+
 -- Areas are matched by name as the client shows it, in its own language: the
 -- names of the area ids come from the client (C_Map.GetAreaInfo), English as
 -- a fallback.
@@ -207,7 +222,8 @@ end
 -- A player met (targeted): their people's page and their calling's, and the
 -- meeting itself, for the encounters (Achievements.lua).
 local function checkPlayer(unit)
-  if not UnitIsPlayer(unit) or UnitIsUnit(unit, "player") then return end
+  local isPlayer, isMe = UnitIsPlayer(unit), UnitIsUnit(unit, "player")
+  if secret(isPlayer) or secret(isMe) or not isPlayer or isMe then return end
   local _, people = UnitRace(unit)
   local _, calling = UnitClass(unit)
   if not people or not calling or secret(people) or secret(calling) then return end

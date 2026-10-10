@@ -28,7 +28,7 @@ The banner, the chat line, the sound and the minimap button are set in the
 game's Options, AddOns tab (or `/codex settings`, or right-click the minimap
 button). A zone's
 chapter appears in the book with its first page, with a count of the pages
-found there. The book has a search box (it searches the pages you have found), and creatures that unlock a page say so on their tooltip. `/codex reset` starts a character's codex over.
+found there. The book has a search box (it searches the pages you have found), and creatures that unlock a page say so on their tooltip, as do players whose people or class this character has yet to meet. `/codex reset` starts a character's codex over.
 
 Achievements: a second tab in the book (or `/codex achievements`) lists them,
 each character earning its own: milestones for the pages found (10 up to the

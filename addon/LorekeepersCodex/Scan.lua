@@ -60,10 +60,10 @@ local function quest(field, text)
   local id = GetQuestID and GetQuestID()
   if not id or id == 0 then return end
   local q = db().quests
-  q[id] = q[id] or { title = GetTitleText and GetTitleText(), seen = time() }
-  q[id][field] = text
+  q[id] = q[id] or { title = clean(GetTitleText and GetTitleText()), seen = time() }
+  q[id][field] = clean(text)
   if field == "text" then
-    q[id].objective = GetObjectiveText and GetObjectiveText()
+    q[id].objective = clean(GetObjectiveText and GetObjectiveText())
     q[id].giver = clean(UnitName("npc"))
     q[id].giverId = ns.npcId("npc")
     local h = here()
@@ -86,11 +86,12 @@ local handlers = {
     if id and text and text ~= "" then db().gossip[id] = { name = clean(UnitName("npc")), text = text } end
   end,
   ITEM_TEXT_READY = function()
-    local title = ItemTextGetItem and ItemTextGetItem()
+    local title = clean(ItemTextGetItem and ItemTextGetItem())
+    local page = clean(ItemTextGetPage and ItemTextGetPage()) or 1
     if not title then return end
     local b = db().books
     b[title] = b[title] or { pages = {} }
-    b[title].pages[ItemTextGetPage and ItemTextGetPage() or 1] = ItemTextGetText and ItemTextGetText()
+    b[title].pages[page] = clean(ItemTextGetText and ItemTextGetText())
   end,
 }
 for event, fn in pairs(handlers) do

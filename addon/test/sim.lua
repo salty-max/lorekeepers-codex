@@ -92,12 +92,13 @@ local function elapse()
 end
 function UnitXP() return 0 end
 -- (a player targeted: state.player = { race, class }, their tokens)
+local function aPlayer(u) return (u == "target" or u == "mouseover") and state.player end
 function UnitRace(u)
-  if u == "target" and state.player then return state.player.race, state.player.race end
+  if aPlayer(u) then return state.player.race, state.player.race end
   return "Dwarf", "Dwarf"
 end
 function UnitClass(u)
-  if u == "target" and state.player then return state.player.class, state.player.class end
+  if aPlayer(u) then return state.player.class, state.player.class end
   return "Hunter", "HUNTER"
 end
 function UnitIsUnit(a, b) return a == b end
@@ -184,7 +185,7 @@ local tipHooks, tipLines, tipUnit = {}, {}, nil
 GameTooltip.HookScript = function(self, name, fn) tipHooks[name] = fn end
 GameTooltip.GetUnit = function() return "Someone", tipUnit end
 GameTooltip.AddLine = function(self, text) table.insert(tipLines, text) end
-function UnitIsPlayer(u) return u == "player" or (u == "target" and state.player ~= nil) end
+function UnitIsPlayer(u) return u == "player" or (u == "target" or u == "mouseover") and state.player ~= nil end
 function GetCursorPosition() return 0, 0 end
 local linkHandlers = {}
 LinkUtil = { RegisterLinkHandler = function(kind, fn) linkHandlers[kind] = fn end }
@@ -745,6 +746,12 @@ read("Ironforge plaque", { "Here stood..." }, "Bronze")
 check(ns.libraryShelf(LorekeepersCodexChar.library.texts[2]) == "plaques", "texts cut in metal or stone are plaques")
 read("A letter", { "Dear friend, my secret..." }, "Parchment", "Someplayer")
 check(not LorekeepersCodexChar.library.texts[3], "a letter written by a player is never copied")
+if FOREVER then
+  secrets["Someone hidden"] = true
+  read("A sealed letter", { "Of no one known..." }, "Parchment", "Someone hidden")
+  secrets["Someone hidden"] = nil
+  check(not LorekeepersCodexChar.library.texts[3], "Forever: a letter whose writer the game keeps secret is not copied")
+end
 LorekeepersCodexFrame:Hide()
 linkHandlers.lorekeeper("lorekeeper:lib:1")
 check(
@@ -1009,6 +1016,19 @@ fire("PLAYER_TARGET_CHANGED")
 check(has("darkspear-trolls"), "a troll: the Darkspear's page, an older one, by its new rule")
 local pairsFor = ns.achievementById["met-pairs-10"]
 check(select(1, pairsFor.progress()) == 2, "two pairings met so far")
+-- (a player's tooltip: a page to find while their people's or calling's is missing)
+local function hoverPlayer()
+  tipLines, tipUnit, state.mouseover = {}, "mouseover", nil
+  tipHooks.OnTooltipSetUnit(GameTooltip)
+  return table.concat(tipLines, "|")
+end
+state.player = { race = "Tauren", class = "DRUID" }
+check(
+  hoverPlayer() == "Lorekeeper's Codex: a page to find",
+  "a player of a people not met: a page to find, on their tooltip"
+)
+state.player = { race = "Orc", class = "SHAMAN" }
+check(hoverPlayer() == "", "… and nothing once their pages are found")
 state.player = nil
 
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")

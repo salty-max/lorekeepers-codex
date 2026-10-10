@@ -120,15 +120,17 @@ local function onText(event)
     end
     reading = { title = title or "?", material = (not secret(material) and material) or "Parchment", pages = {} }
   elseif event == "ITEM_TEXT_READY" and reading then
+    -- (a player's letter, or one whose writer the game keeps secret: never copied)
     local creator = ItemTextGetCreator and ItemTextGetCreator()
-    if creator and creator ~= "" then
+    if secret(creator) or (creator and creator ~= "") then
       reading.skip = true
       return
-    end -- a player's letter
+    end
     local page, text = ItemTextGetPage(), ItemTextGetText()
     if secret(page) or secret(text) or not text then return end
     reading.pages[page] = text
     local more = ItemTextHasNextPage()
+    if secret(more) then more = false end
     if not more then reading.last = page end
     if reading.walking == "back" then
       -- turning back to the first page for the reader: nothing to copy
