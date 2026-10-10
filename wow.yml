@@ -1,0 +1,161 @@
+# The game's globals the addon uses (selene.toml), and its own: saved
+# variables and the slash command.
+base: lua51
+name: wow
+globals:
+  AchievementShield_Desaturate:
+    any: true
+  AchievementShield_OnLoad:
+    any: true
+  AchievementShield_Saturate:
+    any: true
+  AlertFrame:
+    any: true
+  AlertFrame_OnClick:
+    any: true
+  AlertFrame_SetDuration:
+    any: true
+  ButtonFrameTemplate_HideButtonBar:
+    any: true
+  CLASS_ICON_TCOORDS:
+    any: true
+  C_GossipInfo:
+    any: true
+  C_Map:
+    any: true
+  C_QuestLog:
+    any: true
+  C_Reputation:
+    any: true
+  C_Timer:
+    any: true
+  C_XMLUtil:
+    any: true
+  CombatLogGetCurrentEventInfo:
+    any: true
+  CreateFrame:
+    any: true
+  Enum:
+    any: true
+  GameTooltip:
+    any: true
+  GetBuildInfo:
+    any: true
+  GetCursorPosition:
+    any: true
+  GetFactionInfoByID:
+    any: true
+  GetGossipText:
+    any: true
+  GetLocale:
+    any: true
+  GetObjectiveText:
+    any: true
+  GetProgressText:
+    any: true
+  GetQuestID:
+    any: true
+  GetQuestText:
+    any: true
+  GetRealZoneText:
+    any: true
+  GetRewardText:
+    any: true
+  GetSubZoneText:
+    any: true
+  GetTitleText:
+    any: true
+  IsQuestFlaggedCompleted:
+    any: true
+  ItemTextFrame:
+    any: true
+  ItemTextGetCreator:
+    any: true
+  ItemTextGetItem:
+    any: true
+  ItemTextGetMaterial:
+    any: true
+  ItemTextGetPage:
+    any: true
+  ItemTextGetText:
+    any: true
+  ItemTextHasNextPage:
+    any: true
+  ItemTextNextPage:
+    any: true
+  ItemTextPrevPage:
+    any: true
+  LinkProcessorResponse:
+    any: true
+  LinkUtil:
+    any: true
+  LorekeepersCodexChar:
+    any: true
+  LorekeepersCodexScan:
+    any: true
+  LorekeepersCodexSettings:
+    any: true
+  MinimalSliderWithSteppersMixin:
+    any: true
+  Minimap:
+    any: true
+  PanelTemplates_SetNumTabs:
+    any: true
+  PanelTemplates_SetTab:
+    any: true
+  PanelTemplates_TabResize:
+    any: true
+  PlaySound:
+    any: true
+  SLASH_LOREKEEPERSCODEX1:
+    any: true
+  SLASH_LOREKEEPERSCODEX2:
+    any: true
+  SOUNDKIT:
+    any: true
+  STANDARD_TEXT_FONT:
+    any: true
+  SetItemRef:
+    any: true
+  SetPortraitTextureFromCreatureDisplayID:
+    any: true
+  Settings:
+    any: true
+  SlashCmdList:
+    any: true
+  TooltipDataProcessor:
+    any: true
+  UIParent:
+    any: true
+  UISpecialFrames:
+    any: true
+  UnitClass:
+    any: true
+  UnitGUID:
+    any: true
+  UnitIsPlayer:
+    any: true
+  UnitIsUnit:
+    any: true
+  UnitLevel:
+    any: true
+  UnitName:
+    any: true
+  UnitRace:
+    any: true
+  UnitXP:
+    any: true
+  date:
+    any: true
+  hooksecurefunc:
+    any: true
+  issecretvalue:
+    any: true
+  strsplit:
+    any: true
+  strtrim:
+    any: true
+  time:
+    any: true
+  tinsert:
+    any: true

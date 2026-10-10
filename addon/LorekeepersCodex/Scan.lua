@@ -84,9 +84,7 @@ local handlers = {
   GOSSIP_SHOW = function()
     local id = ns.npcId("npc")
     local text = C_GossipInfo and C_GossipInfo.GetText and C_GossipInfo.GetText() or (GetGossipText and GetGossipText())
-    if id and text and text ~= "" then
-      db().gossip[id] = { name = clean(UnitName("npc")), text = text }
-    end
+    if id and text and text ~= "" then db().gossip[id] = { name = clean(UnitName("npc")), text = text } end
   end,
   ITEM_TEXT_READY = function()
     local title = ItemTextGetItem and ItemTextGetItem()
@@ -99,11 +97,15 @@ local handlers = {
 frame:SetScript("OnEvent", function(_, event, ...)
   if LorekeepersCodexScan and LorekeepersCodexScan.on and handlers[event] then handlers[event](...) end
 end)
-for event in pairs(handlers) do frame:RegisterEvent(event) end
+for event in pairs(handlers) do
+  frame:RegisterEvent(event)
+end
 
 local function count(t)
   local n = 0
-  for _ in pairs(t) do n = n + 1 end
+  for _ in pairs(t) do
+    n = n + 1
+  end
   return n
 end
 
@@ -122,6 +124,15 @@ function ns.scanCommand(arg)
     LorekeepersCodexScan = { on = s.on }
     s = db()
   end
-  print(PREFIX .. ("scan %s: %d areas, %d creatures, %d quests, %d NPC texts, %d books. /codex scan on|off|clear; saved on logout."):format(
-    s.on and "on" or "off", count(s.areas), count(s.npcs), count(s.quests), count(s.gossip), count(s.books)))
+  print(
+    PREFIX
+      .. ("scan %s: %d areas, %d creatures, %d quests, %d NPC texts, %d books. /codex scan on|off|clear; saved on logout."):format(
+        s.on and "on" or "off",
+        count(s.areas),
+        count(s.npcs),
+        count(s.quests),
+        count(s.gossip),
+        count(s.books)
+      )
+  )
 end

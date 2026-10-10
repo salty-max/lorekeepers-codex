@@ -25,7 +25,11 @@ local function startTimer(seconds)
   seconds = seconds or ns.option("bannerSeconds")
   if not (seconds and seconds > 0 and C_Timer) then return end
   timer = C_Timer.NewTimer(seconds, function()
-    if banner:IsMouseOver() then startTimer(1) else ns.hideBanner() end
+    if banner:IsMouseOver() then
+      startTimer(1)
+    else
+      ns.hideBanner()
+    end
   end)
 end
 
@@ -45,7 +49,9 @@ local function build()
     banner:SetBackdrop({
       bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
       edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-      tile = true, tileSize = 16, edgeSize = 16,
+      tile = true,
+      tileSize = 16,
+      edgeSize = 16,
       insets = { left = 4, right = 4, top = 4, bottom = 4 },
     })
     banner:SetBackdropColor(0.05, 0.045, 0.04, 0.95)
@@ -76,8 +82,11 @@ local function build()
   banner:SetScript("OnClick", function(self)
     local id, achievement = self.id, self.achievement
     ns.hideBanner()
-    if achievement then ns.openAchievements(achievement)
-    elseif id then ns.open(id) end
+    if achievement then
+      ns.openAchievements(achievement)
+    elseif id then
+      ns.open(id)
+    end
   end)
 end
 
@@ -108,8 +117,11 @@ end
 
 local function onToastClick(self, button, down)
   if AlertFrame_OnClick and AlertFrame_OnClick(self, button, down) then return end -- right-click: dismissed
-  if self.codexAchievement then ns.openAchievements(self.codexAchievement)
-  elseif self.codexPage then ns.open(self.codexPage) end
+  if self.codexAchievement then
+    ns.openAchievements(self.codexAchievement)
+  elseif self.codexPage then
+    ns.open(self.codexPage)
+  end
 end
 
 local function setUpPage(frame, id)
@@ -119,7 +131,11 @@ local function setUpPage(frame, id)
   -- recipe toast's own way, forbids changing the crop afterwards on Forever).
   if not frame.codexMask and frame.CreateMaskTexture then
     frame.codexMask = frame:CreateMaskTexture()
-    frame.codexMask:SetTexture("Interface\\CharacterFrame\\TempPortraitAlphaMask", "CLAMPTOBLACKADDITIVE", "CLAMPTOBLACKADDITIVE")
+    frame.codexMask:SetTexture(
+      "Interface\\CharacterFrame\\TempPortraitAlphaMask",
+      "CLAMPTOBLACKADDITIVE",
+      "CLAMPTOBLACKADDITIVE"
+    )
     frame.codexMask:SetAllPoints(frame.Icon)
     frame.Icon:AddMaskTexture(frame.codexMask)
   end
@@ -164,7 +180,9 @@ end
 
 local function toasts()
   if pageToasts then return true end
-  if not (AlertFrame and AlertFrame.AddQueuedAlertFrameSubSystem and C_XMLUtil and C_XMLUtil.GetTemplateInfo) then return false end
+  if not (AlertFrame and AlertFrame.AddQueuedAlertFrameSubSystem and C_XMLUtil and C_XMLUtil.GetTemplateInfo) then
+    return false
+  end
   if not C_XMLUtil.GetTemplateInfo(PAGE_TOAST) then return false end
   pageToasts = AlertFrame:AddQueuedAlertFrameSubSystem(PAGE_TOAST, setUpPage, 2, 6)
   if C_XMLUtil.GetTemplateInfo(ACHIEVEMENT_TOAST) then

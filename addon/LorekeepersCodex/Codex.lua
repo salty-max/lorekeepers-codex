@@ -13,8 +13,11 @@ local C = ns.content
 
 -- ── look ─────────────────────────────────────────────────────────────────────
 local T = {
-  gold = { 0.85, 0.70, 0.42 }, text = { 0.93, 0.88, 0.76 }, soft = { 0.62, 0.57, 0.49 },
-  rule = { 0.85, 0.70, 0.42, 0.25 }, link = { 0.85, 0.70, 0.42 },
+  gold = { 0.85, 0.70, 0.42 },
+  text = { 0.93, 0.88, 0.76 },
+  soft = { 0.62, 0.57, 0.49 },
+  rule = { 0.85, 0.70, 0.42, 0.25 },
+  link = { 0.85, 0.70, 0.42 },
 }
 local LATIN = { enUS = true, enGB = true, frFR = true, deDE = true, esES = true, esMX = true, itIT = true, ptBR = true }
 local BODY_FONT = STANDARD_TEXT_FONT or "Fonts\\FRIZQT__.TTF"
@@ -126,7 +129,13 @@ local function scrollArea(name, parent, width)
     local size = math.max(24, height * height / (height + range))
     self.thumb:SetHeight(size)
     self.thumb:ClearAllPoints()
-    self.thumb:SetPoint("TOPRIGHT", self, "TOPRIGHT", 8, -(height - size) * math.min(1, self:GetVerticalScroll() / range))
+    self.thumb:SetPoint(
+      "TOPRIGHT",
+      self,
+      "TOPRIGHT",
+      8,
+      -(height - size) * math.min(1, self:GetVerticalScroll() / range)
+    )
     self.thumb:Show()
   end
   function s:ScrollTo(y)
@@ -158,8 +167,15 @@ local function roundIcon(parent, size)
 end
 
 -- What a page is about, in a word.
-local KINDS =
-  { place = "Place", figure = "Figure", faction = "Faction", creature = "Creature", history = "History", note = "Note", calling = "Calling" }
+local KINDS = {
+  place = "Place",
+  figure = "Figure",
+  faction = "Faction",
+  creature = "Creature",
+  history = "History",
+  note = "Note",
+  calling = "Calling",
+}
 -- Pages about no one creature get one icon per kind, true of any of them: a
 -- map for a place, an old book for history, a note for the League's notes.
 local KIND_ICONS = {
@@ -196,10 +212,13 @@ function ns.pagePicture(p, e)
   end
   return (creature or circle or icon) and true or false
 end
-ns.roundIcon, ns.label, ns.look = roundIcon, label, { T = T, TITLE_FONT = TITLE_FONT, BODY_FONT = BODY_FONT, card = card }
+ns.roundIcon, ns.label, ns.look =
+  roundIcon, label, { T = T, TITLE_FONT = TITLE_FONT, BODY_FONT = BODY_FONT, card = card }
 
 local chapterTitle = {}
-for _, ch in ipairs(C.chapters) do chapterTitle[ch.id] = ch.title end
+for _, ch in ipairs(C.chapters) do
+  chapterTitle[ch.id] = ch.title
+end
 
 local book, list, page, achievements
 local build -- the book, made on first opening (below)
@@ -233,7 +252,9 @@ local function showPage(id)
   page.body:SetText(table.concat(paras, "\n\n"))
 
   -- "See also": the related pages this character has found.
-  for _, b in ipairs(page.links) do b:Hide() end
+  for _, b in ipairs(page.links) do
+    b:Hide()
+  end
   local n = 0
   local y = HEADER_H + page.body:GetStringHeight() + 22
   page.seeAlso:ClearAllPoints()
@@ -254,7 +275,10 @@ local function showPage(id)
       end
       b.text:SetText("» " .. C.entries[other].title)
       b.text:SetTextColor(unpack(T.link))
-      b:SetScript("OnClick", function() showPage(other); ns.refresh(true) end)
+      b:SetScript("OnClick", function()
+        showPage(other)
+        ns.refresh(true)
+      end)
       b:ClearAllPoints()
       b:SetPoint("TOPLEFT", page.child, "TOPLEFT", 0, -y)
       b:Show()
@@ -390,7 +414,9 @@ function ns.refresh(scrollToCurrent)
   local currentY
   book.count:SetText(("%d of %d pages"):format(ns.count(), ns.knownTotal()))
   if book.foldAll then book.foldAll:SetNormalTexture(ns.anyUnfolded() and MINUS or PLUS) end
-  for _, r in ipairs(rows) do r:Hide() end
+  for _, r in ipairs(rows) do
+    r:Hide()
+  end
   local i, y = 0, 0
   local function add(kind, text, id, found, total, chapter)
     i = i + 1
@@ -434,7 +460,10 @@ function ns.refresh(scrollToCurrent)
       end
       r.text:SetText((ns.isRead(id) and "" or "|cffffd100•|r ") .. C.entries[id].title)
       r:Enable()
-      r:SetScript("OnClick", function() showPage(id); ns.refresh() end)
+      r:SetScript("OnClick", function()
+        showPage(id)
+        ns.refresh()
+      end)
       y = y + 18
     end
     r:Show()
@@ -448,7 +477,9 @@ function ns.refresh(scrollToCurrent)
   local query = book.search and book.search:GetText() or ""
   if query:find("%S") then
     local results = ns.search(query)
-    for _, id in ipairs(results) do add("page", nil, id) end
+    for _, id in ipairs(results) do
+      add("page", nil, id)
+    end
     if #results == 0 then
       i = i + 1
       local r = row(i)
@@ -495,7 +526,10 @@ end
 -- One row each, under its group's heading: the title (gold once earned), what
 -- it asks, and on the right when it was earned, or how far along it is.
 local GROUPS = {
-  { "milestone", "Milestones" }, { "feat", "Feats" }, { "encounter", "Encounters" }, { "library", "The Library" },
+  { "milestone", "Milestones" },
+  { "feat", "Feats" },
+  { "encounter", "Encounters" },
+  { "library", "The Library" },
   { "chapter", "Chapters" },
 }
 local ROW = 50
@@ -578,16 +612,22 @@ function ns.refreshAchievements()
             r.bar:SetShown(need > 1)
           end
         end
-        if a.id == selected then r.bg:SetColorTexture(0.85, 0.70, 0.42, 0.22)
-        elseif earned then r.bg:SetColorTexture(0.85, 0.65, 0.13, 0.10)
-        else r.bg:SetColorTexture(1, 1, 1, 0.03) end
+        if a.id == selected then
+          r.bg:SetColorTexture(0.85, 0.70, 0.42, 0.22)
+        elseif earned then
+          r.bg:SetColorTexture(0.85, 0.65, 0.13, 0.10)
+        else
+          r.bg:SetColorTexture(1, 1, 1, 0.03)
+        end
         r:Show()
         y = y + ROW
       end
     end
     y = y + 12
   end
-  for k = i + 1, #achRows do achRows[k]:Hide() end
+  for k = i + 1, #achRows do
+    achRows[k]:Hide()
+  end
   achievements.child:SetHeight(y)
   achievements:UpdateThumb()
   -- An achievement opened from chat or the banner: bring it into view.
@@ -631,7 +671,11 @@ function ns.showTab(n)
   end
   book.achPanel:SetShown(n == 3)
   achievements:SetShown(n == 3)
-  if n == 3 then ns.refreshAchievements() else ns.refresh(true) end
+  if n == 3 then
+    ns.refreshAchievements()
+  else
+    ns.refresh(true)
+  end
 end
 
 -- The character sheet's tabs on Classic; the shared panel tabs where that
@@ -642,13 +686,17 @@ local function hasTemplate(name)
 end
 
 local function buildTabs()
-  local template = hasTemplate("CharacterFrameTabButtonTemplate") and "CharacterFrameTabButtonTemplate" or "PanelTabButtonTemplate"
+  local template = hasTemplate("CharacterFrameTabButtonTemplate") and "CharacterFrameTabButtonTemplate"
+    or "PanelTabButtonTemplate"
   for n, text in ipairs({ "Pages", "Library", "Achievements" }) do
     local tab = CreateFrame("Button", "LorekeepersCodexFrameTab" .. n, book, template)
     tab:SetID(n)
     tab:SetText(text)
-    if n == 1 then tab:SetPoint("TOPLEFT", book, "BOTTOMLEFT", 14, 2)
-    else tab:SetPoint("LEFT", "LorekeepersCodexFrameTab" .. (n - 1), "RIGHT", -14, 0) end
+    if n == 1 then
+      tab:SetPoint("TOPLEFT", book, "BOTTOMLEFT", 14, 2)
+    else
+      tab:SetPoint("LEFT", "LorekeepersCodexFrameTab" .. (n - 1), "RIGHT", -14, 0)
+    end
     tab:SetScript("OnClick", function(self)
       selected = nil
       ns.showTab(self:GetID())
@@ -681,10 +729,16 @@ local function gameWindow()
   if ButtonFrameTemplate_HideButtonBar then ButtonFrameTemplate_HideButtonBar(frame) end
   if type(frame.Inset) == "table" then frame.Inset:Hide() end
   local art = "Interface\\Icons\\INV_Misc_Book_09"
-  if frame.SetPortraitToAsset then frame:SetPortraitToAsset(art)
-  elseif type(frame.portrait) == "table" then frame.portrait:SetTexture(art) end
-  if frame.SetTitle then frame:SetTitle(TITLE)
-  elseif type(frame.TitleText) == "table" then frame.TitleText:SetText(TITLE) end
+  if frame.SetPortraitToAsset then
+    frame:SetPortraitToAsset(art)
+  elseif type(frame.portrait) == "table" then
+    frame.portrait:SetTexture(art)
+  end
+  if frame.SetTitle then
+    frame:SetTitle(TITLE)
+  elseif type(frame.TitleText) == "table" then
+    frame.TitleText:SetText(TITLE)
+  end
   return frame
 end
 
@@ -707,7 +761,9 @@ function build()
     book:SetBackdrop({
       bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
       edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Gold-Border",
-      tile = true, tileSize = 32, edgeSize = 32,
+      tile = true,
+      tileSize = 32,
+      edgeSize = 32,
       insets = { left = 11, right = 12, top = 12, bottom = 11 },
     })
     local title = label(book, TITLE_FONT, 16, T.gold)
@@ -801,11 +857,17 @@ function build()
     if not current or not ns.page(current) then
       -- First opening: an unread page, else this character's foreword.
       for id in pairs(C.entries) do
-        if ns.page(id) and not ns.isRead(id) then current = id break end
+        if ns.page(id) and not ns.isRead(id) then
+          current = id
+          break
+        end
       end
       if not current then
         for id, e in pairs(C.entries) do
-          if e.chapter == "" and ns.page(id) then current = id break end
+          if e.chapter == "" and ns.page(id) then
+            current = id
+            break
+          end
         end
       end
     end
@@ -844,7 +906,11 @@ local function followLink(link)
   local text = tonumber(id:match("^lib:(%d+)$"))
   if text then return ns.openText and ns.openText(text) end
   local achievement = id:match("^ach:(.+)$")
-  if achievement then ns.openAchievements(achievement) else ns.open(id) end
+  if achievement then
+    ns.openAchievements(achievement)
+  else
+    ns.open(id)
+  end
 end
 if LinkUtil and LinkUtil.RegisterLinkHandler then
   LinkUtil.RegisterLinkHandler("lorekeeper", function(link)
@@ -865,7 +931,18 @@ ns.onAchievement = ns.onUnlock
 
 -- The book's look, for the Library's pages (Library.lua).
 ns.ui = {
-  T = T, TITLE_FONT = TITLE_FONT, BODY_FONT = BODY_FONT, WIDTH = WIDTH, HEADER_H = HEADER_H,
-  label = label, rule = rule, roundIcon = roundIcon, scrollArea = scrollArea,
-  book = function() return book end, build = function() if not book then build() end return book end,
+  T = T,
+  TITLE_FONT = TITLE_FONT,
+  BODY_FONT = BODY_FONT,
+  WIDTH = WIDTH,
+  HEADER_H = HEADER_H,
+  label = label,
+  rule = rule,
+  roundIcon = roundIcon,
+  scrollArea = scrollArea,
+  book = function() return book end,
+  build = function()
+    if not book then build() end
+    return book
+  end,
 }

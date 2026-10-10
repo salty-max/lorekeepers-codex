@@ -37,15 +37,24 @@ local function push(t, k, v)
 end
 for id, e in pairs(C.entries) do
   for _, u in ipairs(e.unlock) do
-    if u.always then table.insert(always, id)
-    elseif u.area then push(byArea, u.area, id)
-    elseif u.npc then push(byNpc, u.npc, id)
-    elseif u.kill then push(byKill, u.kill, id)
-    elseif u.quest then push(byQuest, u.quest, id)
-    elseif u.faction then table.insert(byFaction, { id = id, faction = u.faction, standing = u.standing })
-    elseif u.map then push(byMap, u.map, { id = id, x = u.x, y = u.y, r = u.r })
-    elseif u.people then push(byPeople, u.people, id)
-    elseif u.calling then push(byCalling, u.calling, id)
+    if u.always then
+      table.insert(always, id)
+    elseif u.area then
+      push(byArea, u.area, id)
+    elseif u.npc then
+      push(byNpc, u.npc, id)
+    elseif u.kill then
+      push(byKill, u.kill, id)
+    elseif u.quest then
+      push(byQuest, u.quest, id)
+    elseif u.faction then
+      table.insert(byFaction, { id = id, faction = u.faction, standing = u.standing })
+    elseif u.map then
+      push(byMap, u.map, { id = id, x = u.x, y = u.y, r = u.r })
+    elseif u.people then
+      push(byPeople, u.people, id)
+    elseif u.calling then
+      push(byCalling, u.calling, id)
     end
   end
 end
@@ -56,7 +65,10 @@ function ns.pagesOfNpc(npcId)
   local out, seen = {}, {}
   for _, t in ipairs({ byNpc[npcId] or {}, byKill[npcId] or {} }) do
     for _, id in ipairs(t) do
-      if not seen[id] then seen[id] = true; table.insert(out, id) end
+      if not seen[id] then
+        seen[id] = true
+        table.insert(out, id)
+      end
     end
   end
   return out
@@ -78,7 +90,17 @@ end
 -- Some pages are for some races only (the forewords): a character neither
 -- sees nor counts the others. "other" stands for the races without a page of
 -- their own (the Burning Crusade's). Forever's Skyborne have their own.
-local RACES = { Human = true, Dwarf = true, NightElf = true, Gnome = true, Orc = true, Troll = true, Tauren = true, Scourge = true, Skyborne = true }
+local RACES = {
+  Human = true,
+  Dwarf = true,
+  NightElf = true,
+  Gnome = true,
+  Orc = true,
+  Troll = true,
+  Tauren = true,
+  Scourge = true,
+  Skyborne = true,
+}
 local race
 function ns.available(id)
   local e = C.entries[id]
@@ -113,7 +135,10 @@ function ns.knownTotal()
   end
   for _, ch in ipairs(C.chapters) do
     for _, id in ipairs(ch.entries) do
-      if ns.page(id) then n = n + #ch.entries break end
+      if ns.page(id) then
+        n = n + #ch.entries
+        break
+      end
     end
   end
   return n
@@ -121,7 +146,11 @@ end
 
 function ns.count()
   local n = 0
-  if char then for id in pairs(char.entries) do if ns.available(id) then n = n + 1 end end end
+  if char then
+    for id in pairs(char.entries) do
+      if ns.available(id) then n = n + 1 end
+    end
+  end
   return n
 end
 
@@ -139,7 +168,9 @@ local function unlock(id, retro)
   if not retro then
     -- A link: clicking it opens the book at this page (see Codex.lua).
     if ns.option("chat") then
-      print(PREFIX .. ("|cffffd100|Hlorekeeper:%s|h[%s]|h|r has been added to the codex."):format(id, C.entries[id].title))
+      print(
+        PREFIX .. ("|cffffd100|Hlorekeeper:%s|h[%s]|h|r has been added to the codex."):format(id, C.entries[id].title)
+      )
     end
     ns.playSound()
     ns.showBanner(id)
@@ -152,7 +183,9 @@ ns.unlock = unlock
 local function checkArea()
   for _, name in ipairs({ GetRealZoneText() or "", GetSubZoneText() or "" }) do
     for _, areaId in ipairs(areasByName[name] or {}) do
-      for _, id in ipairs(byArea[areaId]) do unlock(id) end
+      for _, id in ipairs(byArea[areaId]) do
+        unlock(id)
+      end
     end
   end
 end
@@ -179,7 +212,9 @@ ns.npcId = npcId
 
 local function checkNpc(unit)
   local id = npcId(unit)
-  for _, entry in ipairs(id and byNpc[id] or {}) do unlock(entry) end
+  for _, entry in ipairs(id and byNpc[id] or {}) do
+    unlock(entry)
+  end
 end
 
 local function questDone(id)
@@ -228,12 +263,22 @@ end
 -- and calling's, and what it did before the codex (quests, reputations,
 -- where it stands).
 local function catchUp()
-  for _, id in ipairs(always) do unlock(id, true) end
+  for _, id in ipairs(always) do
+    unlock(id, true)
+  end
   local class = select(2, UnitClass("player"))
-  for _, id in ipairs(byPeople[race or ""] or {}) do unlock(id, true) end
-  for _, id in ipairs(byCalling[class or ""] or {}) do unlock(id, true) end
+  for _, id in ipairs(byPeople[race or ""] or {}) do
+    unlock(id, true)
+  end
+  for _, id in ipairs(byCalling[class or ""] or {}) do
+    unlock(id, true)
+  end
   for questId, ids in pairs(byQuest) do
-    if questDone(questId) then for _, id in ipairs(ids) do unlock(id, true) end end
+    if questDone(questId) then
+      for _, id in ipairs(ids) do
+        unlock(id, true)
+      end
+    end
   end
   checkFactions(true)
   checkArea()
@@ -270,11 +315,23 @@ function handlers.PLAYER_LOGIN()
   ns.createSettingsPanel()
   -- The package made for the other game: it works, but says so.
   if C.client and C.client ~= ns.client then
-    print(PREFIX .. ("this is the %s package, and this is %s: install the %s package to read this game's pages."):format(
-      C.client == "forever" and "Forever" or "Classic", ns.forever and "Forever" or "Classic", ns.forever and "Forever" or "Classic"))
+    print(
+      PREFIX
+        .. ("this is the %s package, and this is %s: install the %s package to read this game's pages."):format(
+          C.client == "forever" and "Forever" or "Classic",
+          ns.forever and "Forever" or "Classic",
+          ns.forever and "Forever" or "Classic"
+        )
+    )
   end
   -- The only reminder of how to open the book: once, at login.
-  print(PREFIX .. ("%d of %d pages. Type /codex or click the book by the minimap to read them."):format(ns.count(), ns.knownTotal()))
+  print(
+    PREFIX
+      .. ("%d of %d pages. Type /codex or click the book by the minimap to read them."):format(
+        ns.count(),
+        ns.knownTotal()
+      )
+  )
 end
 
 handlers.ZONE_CHANGED = checkArea
@@ -286,7 +343,9 @@ handlers.PLAYER_ENTERING_WORLD = checkArea
 local function checkMeeting(unit)
   if not ns.meetKills then return end
   local id = npcId(unit)
-  for _, entry in ipairs(id and byKill[id] or {}) do unlock(entry) end
+  for _, entry in ipairs(id and byKill[id] or {}) do
+    unlock(entry)
+  end
 end
 -- A player met (targeted): their people's page and their calling's, and the
 -- meeting itself, for the encounters (Achievements.lua).
@@ -295,8 +354,12 @@ local function checkPlayer(unit)
   local _, people = UnitRace(unit)
   local _, calling = UnitClass(unit)
   if not people or not calling or secret(people) or secret(calling) then return end
-  for _, id in ipairs(byPeople[people] or {}) do unlock(id) end
-  for _, id in ipairs(byCalling[calling] or {}) do unlock(id) end
+  for _, id in ipairs(byPeople[people] or {}) do
+    unlock(id)
+  end
+  for _, id in ipairs(byCalling[calling] or {}) do
+    unlock(id)
+  end
   local met = char.met
   local combo = people .. ":" .. calling
   if not met.combos[combo] then
@@ -320,20 +383,28 @@ handlers.UPDATE_FACTION = function() checkFactions(false) end
 -- client has it (Forever, Classic since 1.15.9), else a line of the combat
 -- log; secret only in a Forever instance, where no creature can be told.
 function handlers.PARTY_KILL(attacker, victim)
-  if not attacker or secret(attacker) or (attacker ~= UnitGUID("player") and attacker ~= UnitGUID("pet")) then return end
+  if not attacker or secret(attacker) or (attacker ~= UnitGUID("player") and attacker ~= UnitGUID("pet")) then
+    return
+  end
   local id = creatureId(victim)
-  for _, entry in ipairs(id and byKill[id] or {}) do unlock(entry) end
+  for _, entry in ipairs(id and byKill[id] or {}) do
+    unlock(entry)
+  end
 end
 function handlers.COMBAT_LOG_EVENT_UNFILTERED()
   if ns.partyKill then return end -- (told by the event of its own)
   local _, sub, _, source, _, _, _, dest = CombatLogGetCurrentEventInfo()
   if sub ~= "PARTY_KILL" or (source ~= UnitGUID("player") and source ~= UnitGUID("pet")) then return end
   local id = creatureId(dest)
-  for _, entry in ipairs(id and byKill[id] or {}) do unlock(entry) end
+  for _, entry in ipairs(id and byKill[id] or {}) do
+    unlock(entry)
+  end
 end
 
 function handlers.QUEST_TURNED_IN(questId)
-  for _, id in ipairs(byQuest[questId] or {}) do unlock(id) end
+  for _, id in ipairs(byQuest[questId] or {}) do
+    unlock(id)
+  end
 end
 
 frame:SetScript("OnEvent", function(_, event, ...)
@@ -364,12 +435,20 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
     -- For writing content: where am I, in the terms the content files use.
     local map = C_Map.GetBestMapForUnit("player")
     local pos = map and C_Map.GetPlayerMapPosition(map, "player")
-    print(PREFIX .. ("%s / %s · uiMap %s · %s"):format(
-      GetRealZoneText() or "?", GetSubZoneText() ~= "" and GetSubZoneText() or "-", tostring(map),
-      pos and ("position: %d %.1f %.1f"):format(map, pos.x * 100, pos.y * 100) or "no position"))
+    print(
+      PREFIX
+        .. ("%s / %s · uiMap %s · %s"):format(
+          GetRealZoneText() or "?",
+          GetSubZoneText() ~= "" and GetSubZoneText() or "-",
+          tostring(map),
+          pos and ("position: %d %.1f %.1f"):format(map, pos.x * 100, pos.y * 100) or "no position"
+        )
+    )
     local target = npcId("target")
     local name = UnitName("target")
-    if target then print(PREFIX .. ("target: npc: %d (%s)"):format(target, (name and not secret(name)) and name or "?")) end
+    if target then
+      print(PREFIX .. ("target: npc: %d (%s)"):format(target, (name and not secret(name)) and name or "?"))
+    end
     return
   end
   if msg == "reset" then
@@ -386,12 +465,23 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
   end
   if msg == "banner" then
     ns.setOption("banner", not ns.option("banner"))
-    print(PREFIX .. (ns.option("banner") and "alerts shown for new pages." or "alerts hidden (/codex banner to show them again)."))
+    print(
+      PREFIX
+        .. (
+          ns.option("banner") and "alerts shown for new pages." or "alerts hidden (/codex banner to show them again)."
+        )
+    )
     return
   end
   if msg == "minimap" then
     ns.setOption("minimapHidden", not ns.option("minimapHidden"))
-    print(PREFIX .. (ns.option("minimapHidden") and "minimap button hidden (/codex minimap to show it again)." or "minimap button shown."))
+    print(
+      PREFIX
+        .. (
+          ns.option("minimapHidden") and "minimap button hidden (/codex minimap to show it again)."
+          or "minimap button shown."
+        )
+    )
     return
   end
   local scan = msg:match("^scan%s*(%a*)$")
@@ -404,7 +494,9 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
     return
   end
   if msg == "settings" or msg == "options" then
-    if not ns.openSettings() then print(PREFIX .. "no settings page in this client: use /codex banner and /codex minimap.") end
+    if not ns.openSettings() then
+      print(PREFIX .. "no settings page in this client: use /codex banner and /codex minimap.")
+    end
     return
   end
   if ns.toggle then ns.toggle() end

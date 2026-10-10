@@ -3,7 +3,8 @@
 -- so does a right-click on the minimap button.
 local _, ns = ...
 
-local DEFAULTS = { banner = true, bannerSeconds = 10, chat = true, sound = -1, minimapHidden = false, tooltipHints = true }
+local DEFAULTS =
+  { banner = true, bannerSeconds = 10, chat = true, sound = -1, minimapHidden = false, tooltipHints = true }
 
 -- Sounds for a new page: all from the original game's interface. -1 is the
 -- sting heard on discovering a new zone, which differs by race.
@@ -32,7 +33,8 @@ function ns.setOption(key, value)
 end
 
 -- The exploration sound kit of each race (Undead's token is Scourge).
-local DISCOVERY = { Human = 4140, Orc = 4141, Scourge = 4142, Tauren = 4143, Troll = 4144, NightElf = 4145, Gnome = 4146, Dwarf = 4147 }
+local DISCOVERY =
+  { Human = 4140, Orc = 4141, Scourge = 4142, Tauren = 4143, Troll = 4144, NightElf = 4145, Gnome = 4146, Dwarf = 4147 }
 
 function ns.playSound(id)
   id = id or ns.option("sound")
@@ -51,38 +53,77 @@ function ns.createSettingsPanel()
 
   local function checkbox(key, name, tooltip, invert)
     invert = invert or false
-    local setting = Settings.RegisterProxySetting(category, "LOREKEEPERSCODEX_" .. key:upper(), Settings.VarType.Boolean, name,
+    local setting = Settings.RegisterProxySetting(
+      category,
+      "LOREKEEPERSCODEX_" .. key:upper(),
+      Settings.VarType.Boolean,
+      name,
       not DEFAULTS[key] == invert,
       function() return ns.option(key) ~= invert end,
-      function(value) ns.setOption(key, value ~= invert) end)
+      function(value) ns.setOption(key, value ~= invert) end
+    )
     Settings.CreateCheckbox(category, setting, tooltip)
   end
-  checkbox("banner", "Alert for new pages", "Show each new page (and each achievement) in the game's own alert; a click on it reads the page.")
-  local seconds = Settings.RegisterProxySetting(category, "LOREKEEPERSCODEX_BANNERSECONDS", Settings.VarType.Number, "Alert shown for",
+  checkbox(
+    "banner",
+    "Alert for new pages",
+    "Show each new page (and each achievement) in the game's own alert; a click on it reads the page."
+  )
+  local seconds = Settings.RegisterProxySetting(
+    category,
+    "LOREKEEPERSCODEX_BANNERSECONDS",
+    Settings.VarType.Number,
+    "Alert shown for",
     DEFAULTS.bannerSeconds,
     function() return ns.option("bannerSeconds") end,
-    function(value) ns.setOption("bannerSeconds", value) end)
+    function(value) ns.setOption("bannerSeconds", value) end
+  )
   local options = Settings.CreateSliderOptions(0, 60, 5)
-  options:SetLabelFormatter(MinimalSliderWithSteppersMixin.Label.Right, function(value)
-    return value == 0 and "until closed" or ("%d s"):format(value)
-  end)
-  Settings.CreateSlider(category, seconds, options, "How long the alert stays on screen. At 0 it stays until you read or dismiss it (right-click).")
+  options:SetLabelFormatter(
+    MinimalSliderWithSteppersMixin.Label.Right,
+    function(value) return value == 0 and "until closed" or ("%d s"):format(value) end
+  )
+  Settings.CreateSlider(
+    category,
+    seconds,
+    options,
+    "How long the alert stays on screen. At 0 it stays until you read or dismiss it (right-click)."
+  )
 
   checkbox("chat", "Announce new pages in chat", "A line in chat for each new page, with a link to it.")
 
-  local sound = Settings.RegisterProxySetting(category, "LOREKEEPERSCODEX_SOUND", Settings.VarType.Number, "Sound for a new page",
+  local sound = Settings.RegisterProxySetting(
+    category,
+    "LOREKEEPERSCODEX_SOUND",
+    Settings.VarType.Number,
+    "Sound for a new page",
     DEFAULTS.sound,
     function() return ns.option("sound") end,
-    function(value) ns.setOption("sound", value); ns.playSound(value) end)
+    function(value)
+      ns.setOption("sound", value)
+      ns.playSound(value)
+    end
+  )
   Settings.CreateDropdown(category, sound, function()
     local options = Settings.CreateControlTextContainer()
-    for _, s in ipairs(ns.SOUNDS) do options:Add(s[1], s[2]) end
+    for _, s in ipairs(ns.SOUNDS) do
+      options:Add(s[1], s[2])
+    end
     return options:GetData()
   end, "Played when a page is added to the codex.")
 
-  checkbox("tooltipHints", "Hints on tooltips", "A line on the tooltip of creatures that unlock a page: a page to find, or the page's title once found.")
+  checkbox(
+    "tooltipHints",
+    "Hints on tooltips",
+    "A line on the tooltip of creatures that unlock a page: a page to find, or the page's title once found."
+  )
 
-  checkbox("minimapHidden", "Minimap button", "The book by the minimap: click to open the codex, drag to move it.", true)
+  checkbox(
+    "minimapHidden",
+    "Minimap button",
+    "The book by the minimap: click to open the codex, drag to move it.",
+    true
+  )
 
   Settings.RegisterAddOnCategory(category)
 end

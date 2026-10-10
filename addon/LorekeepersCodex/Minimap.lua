@@ -51,7 +51,11 @@ function ns.createMinimapButton()
   border:SetPoint("TOPLEFT")
 
   button:SetScript("OnClick", function(_, mouse)
-    if mouse == "RightButton" then ns.openSettings() else ns.toggle() end
+    if mouse == "RightButton" then
+      ns.openSettings()
+    else
+      ns.toggle()
+    end
   end)
   button:SetScript("OnDragStart", function(self) self:SetScript("OnUpdate", follow) end)
   button:SetScript("OnDragStop", function(self) self:SetScript("OnUpdate", nil) end)
@@ -60,7 +64,13 @@ function ns.createMinimapButton()
     GameTooltip:AddLine("Lorekeeper's Codex")
     GameTooltip:AddLine(("%d of %d pages"):format(ns.count(), ns.knownTotal()), 1, 1, 1)
     GameTooltip:AddLine(("%d of %d achievements"):format(ns.achievementCount()), 1, 1, 1)
-    GameTooltip:AddLine("Click to open the book, right-click for the settings. Drag to move this button.", 0.7, 0.7, 0.7, true)
+    GameTooltip:AddLine(
+      "Click to open the book, right-click for the settings. Drag to move this button.",
+      0.7,
+      0.7,
+      0.7,
+      true
+    )
     GameTooltip:Show()
   end)
   button:SetScript("OnLeave", function() GameTooltip:Hide() end)

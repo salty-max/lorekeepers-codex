@@ -36,88 +36,158 @@ ns.achievements = list
 ns.achievementById = {}
 local function add(group, id, title, text, progress, extra)
   local a = { group = group, id = id, title = title, text = text, progress = progress }
-  for k, v in pairs(extra or {}) do a[k] = v end
+  for k, v in pairs(extra or {}) do
+    a[k] = v
+  end
   table.insert(list, a)
   ns.achievementById[id] = a
 end
 
-function ns.achievementVisible(a)
-  return not a.visible or a.visible() or ns.earned(a.id) ~= nil
-end
+function ns.achievementVisible(a) return not a.visible or a.visible() or ns.earned(a.id) ~= nil end
 
 -- The pages a feat names, for the tests: all must exist.
 ns.featPages = {}
 local function pages(ids)
-  for _, id in ipairs(ids) do table.insert(ns.featPages, id) end
+  for _, id in ipairs(ids) do
+    table.insert(ns.featPages, id)
+  end
   return ids
 end
 
 -- Milestones: pages found, up to the whole codex.
 for _, m in ipairs({
-  { 10, "Ink on the Fingers" }, { 25, "A Growing Ledger" }, { 50, "Half a Hundred" },
-  { 100, "A Hundred Pages" }, { 150, "Seasoned Traveller" }, { 200, "Two Hundred Pages" },
-  { 250, "Loremaster in the Making" }, { 300, "Three Hundred Pages" },
+  { 10, "Ink on the Fingers" },
+  { 25, "A Growing Ledger" },
+  { 50, "Half a Hundred" },
+  { 100, "A Hundred Pages" },
+  { 150, "Seasoned Traveller" },
+  { 200, "Two Hundred Pages" },
+  { 250, "Loremaster in the Making" },
+  { 300, "Three Hundred Pages" },
 }) do
-  add("milestone", "pages-" .. m[1], m[2], ("Find %d pages."):format(m[1]),
-    function() return ns.count(), m[1] end)
+  add("milestone", "pages-" .. m[1], m[2], ("Find %d pages."):format(m[1]), function() return ns.count(), m[1] end)
 end
-add("milestone", "pages-all", "The Complete Codex", "Find every page of the codex.",
-  function() return ns.count(), ns.total end, { unit = "pages" })
+add(
+  "milestone",
+  "pages-all",
+  "The Complete Codex",
+  "Find every page of the codex.",
+  function() return ns.count(), ns.total end,
+  { unit = "pages" }
+)
 
 -- Feats.
 for _, r in ipairs({
-  { 10, "A Page by the Fire" }, { 50, "Bookworm" }, { 150, "Well Read" }, { 300, "The Archivist's Equal" },
+  { 10, "A Page by the Fire" },
+  { 50, "Bookworm" },
+  { 150, "Well Read" },
+  { 300, "The Archivist's Equal" },
 }) do
-  add("feat", "read-" .. r[1], r[2], ("Read %d pages of your codex."):format(r[1]),
-    function() return readCount(), r[1] end)
+  add(
+    "feat",
+    "read-" .. r[1],
+    r[2],
+    ("Read %d pages of your codex."):format(r[1]),
+    function() return readCount(), r[1] end
+  )
 end
 
 local WANDERERS = pages({ "timber", "ghost-howl", "morladim", "thule-ravenclaw" })
-add("feat", "wanderer-one", "A Tale Worth Telling",
+add(
+  "feat",
+  "wanderer-one",
+  "A Tale Worth Telling",
   "Find the page of a legendary wanderer: Timber, Ghost Howl, Mor'Ladim or Thule Ravenclaw.",
-  function() return math.min(found(WANDERERS), 1), 1 end)
-add("feat", "wanderer-all", "Legends of the Wild", "Find the pages of all four legendary wanderers.",
-  function() return found(WANDERERS), #WANDERERS end)
+  function() return math.min(found(WANDERERS), 1), 1 end
+)
+add(
+  "feat",
+  "wanderer-all",
+  "Legends of the Wild",
+  "Find the pages of all four legendary wanderers.",
+  function() return found(WANDERERS), #WANDERERS end
+)
 
 -- The leaders of the reader's own side: either set counts.
-local ALLIANCE = pages({ "magni-bronzebeard", "high-tinker-mekkatorque", "regency-of-stormwind", "tyrande-whisperwind" })
+local ALLIANCE =
+  pages({ "magni-bronzebeard", "high-tinker-mekkatorque", "regency-of-stormwind", "tyrande-whisperwind" })
 local HORDE = pages({ "thrall", "cairne-bloodhoof", "sylvanas-windrunner", "voljin" })
-add("feat", "leaders", "Friends in High Places",
+add(
+  "feat",
+  "leaders",
+  "Friends in High Places",
   "Find the pages of the four leaders of the Alliance, or of the Horde, by meeting them.",
-  function() return math.max(found(ALLIANCE), found(HORDE)), 4 end)
+  function() return math.max(found(ALLIANCE), found(HORDE)), 4 end
+)
 
 local DUNGEONS = pages({
-  "ragefire-chasm", "the-deadmines", "wailing-caverns", "shadowfang-keep", "the-stockade",
-  "blackfathom-deeps", "gnomeregan", "razorfen-kraul", "scarlet-monastery", "razorfen-downs",
-  "uldaman", "zulfarrak", "maraudon", "the-temple-of-atalhakkar", "blackrock-depths",
-  "blackrock-spire", "dire-maul", "scholomance", "stratholme",
+  "ragefire-chasm",
+  "the-deadmines",
+  "wailing-caverns",
+  "shadowfang-keep",
+  "the-stockade",
+  "blackfathom-deeps",
+  "gnomeregan",
+  "razorfen-kraul",
+  "scarlet-monastery",
+  "razorfen-downs",
+  "uldaman",
+  "zulfarrak",
+  "maraudon",
+  "the-temple-of-atalhakkar",
+  "blackrock-depths",
+  "blackrock-spire",
+  "dire-maul",
+  "scholomance",
+  "stratholme",
 })
-add("feat", "dungeons-5", "Into the Deep", "Find the pages of five dungeons.",
-  function() return math.min(found(DUNGEONS), 5), 5 end)
-add("feat", "dungeons-all", "Delver of the Deep", "Find the pages of every dungeon.",
-  function() return found(DUNGEONS), #DUNGEONS end)
+add(
+  "feat",
+  "dungeons-5",
+  "Into the Deep",
+  "Find the pages of five dungeons.",
+  function() return math.min(found(DUNGEONS), 5), 5 end
+)
+add(
+  "feat",
+  "dungeons-all",
+  "Delver of the Deep",
+  "Find the pages of every dungeon.",
+  function() return found(DUNGEONS), #DUNGEONS end
+)
 
 local LEGENDS = pages({ "onyxia", "ragnaros", "nefarian", "hakkar", "cthun", "kelthuzad" })
-add("feat", "legends-one", "Where Legends Fall",
+add(
+  "feat",
+  "legends-one",
+  "Where Legends Fall",
   "Find the page of one of the great powers that wait at the end of the deepest lairs.",
-  function() return math.min(found(LEGENDS), 1), 1 end)
-add("feat", "legends-all", "Slayer of Legends",
+  function() return math.min(found(LEGENDS), 1), 1 end
+)
+add(
+  "feat",
+  "legends-all",
+  "Slayer of Legends",
   "Find the pages of Onyxia, Ragnaros, Nefarian, Hakkar, C'Thun and Kel'Thuzad.",
-  function() return found(LEGENDS), #LEGENDS end)
+  function() return found(LEGENDS), #LEGENDS end
+)
 
 local TERRORS = pages({ "lord-kazzak", "azuregos", "dragons-of-nightmare" })
-add("feat", "terrors", "Terrors of the Wild",
+add(
+  "feat",
+  "terrors",
+  "Terrors of the Wild",
   "Find the pages of Lord Kazzak, Azuregos and the Dragons of Nightmare.",
-  function() return found(TERRORS), #TERRORS end)
+  function() return found(TERRORS), #TERRORS end
+)
 
-add("feat", "travelled", "Well Travelled", "Find a page in every chapter of the codex.",
-  function()
-    local n = 0
-    for _, ch in ipairs(C.chapters) do
-      if ns.found(ch) > 0 then n = n + 1 end
-    end
-    return n, #C.chapters
-  end, { unit = "chapters" })
+add("feat", "travelled", "Well Travelled", "Find a page in every chapter of the codex.", function()
+  local n = 0
+  for _, ch in ipairs(C.chapters) do
+    if ns.found(ch) > 0 then n = n + 1 end
+  end
+  return n, #C.chapters
+end, { unit = "chapters" })
 
 -- Encounters: players met (targeted, Core.lua's met), every race and every
 -- class this game has, and the pairings of the two it allows.
@@ -136,7 +206,14 @@ local PAIRINGS = {
 if ns.forever then
   table.insert(PEOPLES, "Skyborne")
   PAIRINGS.Skyborne = { "WARRIOR", "HUNTER", "ROGUE", "SHAMAN", "MAGE", "DRUID" }
-  for people, calling in pairs({ Human = "HUNTER", Dwarf = "SHAMAN", Gnome = "PRIEST", Orc = "MAGE", Troll = "WARLOCK", Scourge = "PALADIN" }) do
+  for people, calling in pairs({
+    Human = "HUNTER",
+    Dwarf = "SHAMAN",
+    Gnome = "PRIEST",
+    Orc = "MAGE",
+    Troll = "WARLOCK",
+    Scourge = "PALADIN",
+  }) do
     table.insert(PAIRINGS[people], calling)
   end
 end
@@ -150,31 +227,68 @@ local function met(kind, list)
 end
 local PAIRS = {}
 for people, callings in pairs(PAIRINGS) do
-  for _, calling in ipairs(callings) do table.insert(PAIRS, people .. ":" .. calling) end
+  for _, calling in ipairs(callings) do
+    table.insert(PAIRS, people .. ":" .. calling)
+  end
 end
 ns.pairings = PAIRS -- (for the tests)
-add("encounter", "met-peoples", "Faces of Azeroth", "Meet a player of every race.",
-  function() return met("races", PEOPLES), #PEOPLES end)
-add("encounter", "met-callings", "Every Calling", "Meet a player of every class.",
-  function() return met("classes", CALLINGS), #CALLINGS end)
+add(
+  "encounter",
+  "met-peoples",
+  "Faces of Azeroth",
+  "Meet a player of every race.",
+  function() return met("races", PEOPLES), #PEOPLES end
+)
+add(
+  "encounter",
+  "met-callings",
+  "Every Calling",
+  "Meet a player of every class.",
+  function() return met("classes", CALLINGS), #CALLINGS end
+)
 for _, m in ipairs({ { 10, "A Mixed Company" }, { 25, "A Crowded Road" } }) do
-  add("encounter", "met-pairs-" .. m[1], m[2], ("Meet players of %d different pairings of race and class."):format(m[1]),
-    function() return met("combos", PAIRS), m[1] end)
+  add(
+    "encounter",
+    "met-pairs-" .. m[1],
+    m[2],
+    ("Meet players of %d different pairings of race and class."):format(m[1]),
+    function() return met("combos", PAIRS), m[1] end
+  )
 end
-add("encounter", "met-pairs-all", "All Walks of Life", "Meet a player of every pairing of race and class there is.",
-  function() return met("combos", PAIRS), #PAIRS end)
+add(
+  "encounter",
+  "met-pairs-all",
+  "All Walks of Life",
+  "Meet a player of every pairing of race and class there is.",
+  function() return met("combos", PAIRS), #PAIRS end
+)
 
 -- The Library: texts read in the world, copied into the codex.
-for _, t in ipairs({ { 5, "A Shelf Begun" }, { 25, "Collector of Words" }, { 50, "The Librarian's Apprentice" }, { 100, "A Library of One's Own" } }) do
-  add("library", "library-" .. t[1], t[2], ("Copy %d texts into the Library: books, notes, letters or plaques read in the world."):format(t[1]),
-    function() return ns.libraryCount and ns.libraryCount() or 0, t[1] end)
+for _, t in ipairs({
+  { 5, "A Shelf Begun" },
+  { 25, "Collector of Words" },
+  { 50, "The Librarian's Apprentice" },
+  { 100, "A Library of One's Own" },
+}) do
+  add(
+    "library",
+    "library-" .. t[1],
+    t[2],
+    ("Copy %d texts into the Library: books, notes, letters or plaques read in the world."):format(t[1]),
+    function() return ns.libraryCount and ns.libraryCount() or 0, t[1] end
+  )
 end
 
 -- One per chapter.
 for _, ch in ipairs(C.chapters) do
-  add("chapter", "chapter-" .. ch.id, ch.title, "Find every page of this chapter.",
+  add(
+    "chapter",
+    "chapter-" .. ch.id,
+    ch.title,
+    "Find every page of this chapter.",
     function() return ns.found(ch), #ch.entries end,
-    { visible = function() return ns.found(ch) > 0 end })
+    { visible = function() return ns.found(ch) > 0 end }
+  )
 end
 
 -- ── earning ──────────────────────────────────────────────────────────────────

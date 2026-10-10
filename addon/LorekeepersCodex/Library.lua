@@ -23,7 +23,9 @@ ns.library = store
 
 function ns.libraryCount()
   local n = 0
-  for _ in pairs(store().texts) do n = n + 1 end
+  for _ in pairs(store().texts) do
+    n = n + 1
+  end
   return n
 end
 
@@ -39,7 +41,9 @@ local SHELVES = {
 local function shelfOf(text)
   if CARVED[text.material or ""] then return "plaques" end
   local n = text.count or 0
-  for p in pairs(text.pages) do n = math.max(n, p) end
+  for p in pairs(text.pages) do
+    n = math.max(n, p)
+  end
   return n > 1 and "books" or "notes"
 end
 ns.libraryShelf = shelfOf
@@ -59,9 +63,7 @@ ns.libraryPlain = plain
 -- ── copying ──────────────────────────────────────────────────────────────────
 local reading -- the text open in the game's reader: { title, material, pages, last, walking }
 
-local function here()
-  return GetRealZoneText and GetRealZoneText() or nil, GetSubZoneText and GetSubZoneText() or nil
-end
+local function here() return GetRealZoneText and GetRealZoneText() or nil, GetSubZoneText and GetSubZoneText() or nil end
 
 -- Copies what has been read so far into the Library (a text is known by its
 -- title and the start of its first page).
@@ -78,7 +80,9 @@ local function copy()
   end
   local text = s.texts[id]
   local new = not text.at
-  for p, page in pairs(reading.pages) do text.pages[p] = page end
+  for p, page in pairs(reading.pages) do
+    text.pages[p] = page
+  end
   if reading.last then text.count = reading.last end
   if new then
     local zone, sub = here()
@@ -97,7 +101,9 @@ end
 local function hideReader()
   if ItemTextFrame and ItemTextFrame.SetAlpha then ItemTextFrame:SetAlpha(0) end
   if C_Timer and C_Timer.After then
-    C_Timer.After(2, function() if ItemTextFrame and ItemTextFrame.SetAlpha then ItemTextFrame:SetAlpha(1) end end)
+    C_Timer.After(2, function()
+      if ItemTextFrame and ItemTextFrame.SetAlpha then ItemTextFrame:SetAlpha(1) end
+    end)
   end
 end
 local function showReader()
@@ -112,11 +118,17 @@ frame:SetScript("OnEvent", function(_, event)
   if not LorekeepersCodexChar then return end
   if event == "ITEM_TEXT_BEGIN" then
     local title, material = ItemTextGetItem(), ItemTextGetMaterial()
-    if secret(title) then reading = nil return end
+    if secret(title) then
+      reading = nil
+      return
+    end
     reading = { title = title or "?", material = (not secret(material) and material) or "Parchment", pages = {} }
   elseif event == "ITEM_TEXT_READY" and reading then
     local creator = ItemTextGetCreator and ItemTextGetCreator()
-    if creator and creator ~= "" then reading.skip = true return end -- a player's letter
+    if creator and creator ~= "" then
+      reading.skip = true
+      return
+    end -- a player's letter
     local page, text = ItemTextGetPage(), ItemTextGetText()
     if secret(page) or secret(text) or not text then return end
     reading.pages[page] = text
@@ -124,7 +136,12 @@ frame:SetScript("OnEvent", function(_, event)
     if not more then reading.last = page end
     if reading.walking == "back" then
       -- turning back to the first page for the reader: nothing to copy
-      if page > 1 then ItemTextPrevPage() else reading.walking = nil; showReader() end
+      if page > 1 then
+        ItemTextPrevPage()
+      else
+        reading.walking = nil
+        showReader()
+      end
       return
     end
     copy()
@@ -138,7 +155,12 @@ frame:SetScript("OnEvent", function(_, event)
         ItemTextNextPage()
       else
         reading.walking = "back"
-        if page > 1 then ItemTextPrevPage() else reading.walking = nil; showReader() end
+        if page > 1 then
+          ItemTextPrevPage()
+        else
+          reading.walking = nil
+          showReader()
+        end
       end
     end
   elseif event == "ITEM_TEXT_CLOSED" then
@@ -200,7 +222,9 @@ end
 local showText, showShelf
 
 local function refreshList()
-  for _, r in ipairs(rows) do r:Hide() end
+  for _, r in ipairs(rows) do
+    r:Hide()
+  end
   local query = (book.search:GetText() or ""):lower():gsub("^%s+", ""):gsub("%s+$", "")
   local searching = query ~= ""
   local by = {}
@@ -262,7 +286,10 @@ local function refreshList()
         for _, id in ipairs(ids) do
           local e = add("text", textOf(id).title)
           e.id = id
-          e:SetScript("OnClick", function() showText(id); refreshList() end)
+          e:SetScript("OnClick", function()
+            showText(id)
+            refreshList()
+          end)
           if id == currentText then
             e.selected:Show()
             e.text:SetTextColor(1, 1, 1)
@@ -289,8 +316,14 @@ function showText(id, pageNumber)
     if s[1] == shelf then
       page.icon.tex:SetTexture(s[3])
       page.icon.tex:SetTexCoord(0.08, 0.92, 0.08, 0.92)
-      page.sub:SetText(("%s  -  %s"):format(s[2], found.zone
-        and ("found in %s%s, %s"):format(found.zone, found.sub and (": " .. found.sub) or "", day(found.at)) or "found"))
+      page.sub:SetText(
+        ("%s  -  %s"):format(
+          s[2],
+          found.zone
+              and ("found in %s%s, %s"):format(found.zone, found.sub and (": " .. found.sub) or "", day(found.at))
+            or "found"
+        )
+      )
     end
   end
   page.icon:Show()
@@ -298,9 +331,14 @@ function showText(id, pageNumber)
   -- the pages: those copied, and how many there are once the last was read
   local last = t.count
   local highest = 0
-  for p in pairs(t.pages) do highest = math.max(highest, p) end
+  for p in pairs(t.pages) do
+    highest = math.max(highest, p)
+  end
   local body = t.pages[currentPage]
-  page.body:SetText(body and plain(body) or "|cff9e9178This page did not reach the codex; open the text again in the world to copy it.|r")
+  page.body:SetText(
+    body and plain(body)
+      or "|cff9e9178This page did not reach the codex; open the text again in the world to copy it.|r"
+  )
   page.pageLabel:SetText(("Page %d of %d"):format(currentPage, last or highest))
   page.prev:SetEnabled(currentPage > 1)
   page.next:SetEnabled(currentPage < (last or highest))
@@ -320,7 +358,9 @@ function showShelf()
   page.icon:Show()
   page.title:SetText("The Library")
   page.sub:SetText(("%d texts copied"):format(ns.libraryCount()))
-  page.body:SetText("Every book, note and plaque you read in the world is copied here whole, so that you can read it again, even a letter long since handed in. Letters written by players are never copied.")
+  page.body:SetText(
+    "Every book, note and plaque you read in the world is copied here whole, so that you can read it again, even a letter long since handed in. Letters written by players are never copied."
+  )
   page.prev:Hide()
   page.next:Hide()
   page.pageLabel:Hide()
@@ -332,7 +372,11 @@ function ns.refreshLibrary()
   if not list then return end
   book.count:SetText(("%d texts in the Library"):format(ns.libraryCount()))
   refreshList()
-  if currentText then showText(currentText, currentPage) else showShelf() end
+  if currentText then
+    showText(currentText, currentPage)
+  else
+    showShelf()
+  end
 end
 
 function ns.buildLibrary(b)
@@ -378,8 +422,12 @@ function ns.buildLibrary(b)
   end
   page.prev = arrow("Prev", -150)
   page.next = arrow("Next", 150)
-  page.prev:SetScript("OnClick", function() if currentText then showText(currentText, currentPage - 1) end end)
-  page.next:SetScript("OnClick", function() if currentText then showText(currentText, currentPage + 1) end end)
+  page.prev:SetScript("OnClick", function()
+    if currentText then showText(currentText, currentPage - 1) end
+  end)
+  page.next:SetScript("OnClick", function()
+    if currentText then showText(currentText, currentPage + 1) end
+  end)
 end
 
 -- Open the codex at a text of the Library (lorekeeper:lib:<id>: a link in chat).
