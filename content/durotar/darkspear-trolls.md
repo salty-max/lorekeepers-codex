@@ -4,6 +4,7 @@ title: The Darkspear Trolls
 kind: faction
 portrait: 10540
 unlock:
+  - people: Troll
   - area: Sen'jin Village
   - reputation: 530 friendly
 also: [voljin, senjin-village, echo-isles, murlocs]

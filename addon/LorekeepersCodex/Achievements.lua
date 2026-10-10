@@ -1,5 +1,6 @@
 -- Achievements: milestones (pages found), feats (pages read, sets of pages
--- worth seeking out) and one per chapter, completed. Each character earns its
+-- worth seeking out), encounters (players met: every race, every class, their
+-- pairings) and one per chapter, completed. Each character earns its
 -- own, from its own codex, and each remembers when and at what level:
 --   LorekeepersCodexChar.achievements[id] = { at, level, retro }
 -- Earned at once when the codex reaches them; those reached before the addon
@@ -117,6 +118,51 @@ add("feat", "travelled", "Well Travelled", "Find a page in every chapter of the 
     end
     return n, #C.chapters
   end, { unit = "chapters" })
+
+-- Encounters: players met (targeted, Core.lua's met), every race and every
+-- class this game has, and the pairings of the two it allows.
+local PEOPLES = { "Human", "Dwarf", "NightElf", "Gnome", "Orc", "Troll", "Tauren", "Scourge" }
+local PAIRINGS = {
+  Human = { "WARRIOR", "PALADIN", "ROGUE", "PRIEST", "MAGE", "WARLOCK" },
+  Dwarf = { "WARRIOR", "PALADIN", "HUNTER", "ROGUE", "PRIEST" },
+  NightElf = { "WARRIOR", "HUNTER", "ROGUE", "PRIEST", "DRUID" },
+  Gnome = { "WARRIOR", "ROGUE", "MAGE", "WARLOCK" },
+  Orc = { "WARRIOR", "HUNTER", "ROGUE", "SHAMAN", "WARLOCK" },
+  Troll = { "WARRIOR", "HUNTER", "ROGUE", "PRIEST", "SHAMAN", "MAGE" },
+  Tauren = { "WARRIOR", "HUNTER", "SHAMAN", "DRUID" },
+  Scourge = { "WARRIOR", "ROGUE", "PRIEST", "MAGE", "WARLOCK" },
+}
+-- (Forever: the Skyborne, and the old races' new classes, as its client lists them)
+if ns.forever then
+  table.insert(PEOPLES, "Skyborne")
+  PAIRINGS.Skyborne = { "WARRIOR", "HUNTER", "ROGUE", "SHAMAN", "MAGE", "DRUID" }
+  for people, calling in pairs({ Human = "HUNTER", Dwarf = "SHAMAN", Gnome = "PRIEST", Orc = "MAGE", Troll = "WARLOCK", Scourge = "PALADIN" }) do
+    table.insert(PAIRINGS[people], calling)
+  end
+end
+local CALLINGS = { "WARRIOR", "PALADIN", "HUNTER", "ROGUE", "PRIEST", "SHAMAN", "MAGE", "WARLOCK", "DRUID" }
+local function met(kind, list)
+  local seen, n = (LorekeepersCodexChar and LorekeepersCodexChar.met or {})[kind] or {}, 0
+  for _, k in ipairs(list) do
+    if seen[k] then n = n + 1 end
+  end
+  return n
+end
+local PAIRS = {}
+for people, callings in pairs(PAIRINGS) do
+  for _, calling in ipairs(callings) do table.insert(PAIRS, people .. ":" .. calling) end
+end
+ns.pairings = PAIRS -- (for the tests)
+add("encounter", "met-peoples", "Faces of Azeroth", "Meet a player of every race.",
+  function() return met("races", PEOPLES), #PEOPLES end)
+add("encounter", "met-callings", "Every Calling", "Meet a player of every class.",
+  function() return met("classes", CALLINGS), #CALLINGS end)
+for _, m in ipairs({ { 10, "A Mixed Company" }, { 25, "A Crowded Road" } }) do
+  add("encounter", "met-pairs-" .. m[1], m[2], ("Meet players of %d different pairings of race and class."):format(m[1]),
+    function() return met("combos", PAIRS), m[1] end)
+end
+add("encounter", "met-pairs-all", "All Walks of Life", "Meet a player of every pairing of race and class there is.",
+  function() return met("combos", PAIRS), #PAIRS end)
 
 -- The Library: texts read in the world, copied into the codex.
 for _, t in ipairs({ { 5, "A Shelf Begun" }, { 25, "Collector of Words" }, { 50, "The Librarian's Apprentice" }, { 100, "A Library of One's Own" } }) do

@@ -23,7 +23,8 @@ original lore texts that unlock per character as they play. Sister project of
   `portrait:` (figures, creatures, factions only; never a guess), from the
   pinned CMaNGOS database (`python3 scripts/portraits.py`, after adding one).
 - `addon/LorekeepersCodex/`: `Core.lua` (unlock engine: areas, npcs talked to or
-  targeted, kills by you or your pet: `PARTY_KILL`, an event of its own on
+  targeted, players targeted (their race's page and class's: `people:`,
+  `calling:`; one's own from the start; `met` for the encounters), kills by you or your pet: `PARTY_KILL`, an event of its own on
   Forever and Classic since 1.15.9, else the combat log's line), quests incl. ones
   done before, reputations, map positions; per-character SavedVariables
   `LorekeepersCodexChar`; `/codex`, `/codex where`), `Codex.lua` (the book UI: Pages, Library, Achievements tabs),
@@ -46,7 +47,11 @@ in sources from before Wrath of the Lich King (see Lore below).
   story. Not generic camps or quest caves.
 - Figures: lore figures and storyline leads only (rulers, leaders, the heart
   of a quest chain). Not vendors, trainers, one-off quest givers or locals.
-- Peoples/factions: one page per people, unlocked by any member.
+- Peoples/factions: one page per people, unlocked by any member; the playable
+  peoples by a player of them (`people:`), one's own from the start.
+- Callings: one page per class (`kind: calling`, chapter `callings`), unlocked
+  by a player of it (`calling:`), one's own from the start; a class a game
+  adds (Forever's) in a `[forever]` paragraph.
 - Creatures: only rares with a story and identity (Timber); not every rare,
   not ordinary wildlife.
 - History: regional events, hung on a related place or quest.

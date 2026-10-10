@@ -4,6 +4,7 @@ title: The Forsaken
 kind: faction
 portrait: 1495
 unlock:
+  - people: Scourge
   - area: Deathknell
   - area: Brill
   - npc: 10181

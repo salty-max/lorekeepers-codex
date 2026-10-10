@@ -34,7 +34,8 @@ Achievements: a second tab in the book (or `/codex achievements`) lists them,
 each character earning its own: milestones for the pages found (10 up to the
 whole codex), feats (pages read; the legendary wanderers; the leaders of your
 side; dungeons; the great powers at the end of the deepest lairs; a page in
-every chapter) and one for each chapter completed, listed once the chapter is
+every chapter), encounters (players met by targeting them: every race, every
+class, and their pairings at 10, 25 and all) and one for each chapter completed, listed once the chapter is
 opened. No counter gives away the codex's full size: the book counts the
 pages of the chapters you have opened. A click on a chapter's title folds its pages away, or opens them again; the
 button beside the search box folds or unfolds them all. Each remembers when and at
@@ -62,7 +63,7 @@ Pages live in `content/<chapter>/<id>.md`:
 ---
 id: kharanos
 title: Kharanos
-kind: place          # place | figure | faction | creature | history | note
+kind: place          # place | figure | faction | creature | history | note | calling
 unlock:              # any one of these unlocks it
   - area: Kharanos   # zone or sub-zone, by name (data/areas.json)
   - npc: 2784        # talking to (or targeting) this creature
@@ -70,6 +71,8 @@ unlock:              # any one of these unlocks it
   - quest: 1234      # turning in this quest (or having done it)
   - reputation: 47 friendly
   - position: 1455 57 47 6   # uiMap, x %, y %, radius %
+  - people: Dwarf    # a player of this race met (targeted), or one's own
+  - calling: MAGE    # a player of this class met (targeted), or one's own
 also: [war-of-the-three-hammers]
 client: forever      # optional: on this game only (forever or classic)
 ---

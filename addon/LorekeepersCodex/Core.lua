@@ -22,11 +22,15 @@ ns.secret = secret
 --   entries[id] = { at, level, zone, sub, retro }   unlocked pages
 --   read[id] = true                                 pages already opened
 --   achievements[id] = { at, level, retro }         see Achievements.lua
+--   met = { races, classes, combos }                players met (targeted): their
+--                                                   race and class tokens, and
+--                                                   "Race:CLASS", for the encounters
 --   collapsed[chapterId] = true                     chapters folded in the book
 local char
 
 -- ── what unlocks what ────────────────────────────────────────────────────────
 local byArea, byNpc, byKill, byQuest, byMap, byFaction, always = {}, {}, {}, {}, {}, {}, {}
+local byPeople, byCalling = {}, {} -- (a race's page, a class's: one's own, or a player met)
 local function push(t, k, v)
   t[k] = t[k] or {}
   table.insert(t[k], v)
@@ -40,6 +44,8 @@ for id, e in pairs(C.entries) do
     elseif u.quest then push(byQuest, u.quest, id)
     elseif u.faction then table.insert(byFaction, { id = id, faction = u.faction, standing = u.standing })
     elseif u.map then push(byMap, u.map, { id = id, x = u.x, y = u.y, r = u.r })
+    elseif u.people then push(byPeople, u.people, id)
+    elseif u.calling then push(byCalling, u.calling, id)
     end
   end
 end
@@ -218,10 +224,14 @@ function ns.belongsTo(saved, guid, level, xp)
   return true
 end
 
--- Pages this character has from the start: the foreword, and what it did
--- before the codex (quests, reputations, where it stands).
+-- Pages this character has from the start: the foreword, its own people's
+-- and calling's, and what it did before the codex (quests, reputations,
+-- where it stands).
 local function catchUp()
   for _, id in ipairs(always) do unlock(id, true) end
+  local class = select(2, UnitClass("player"))
+  for _, id in ipairs(byPeople[race or ""] or {}) do unlock(id, true) end
+  for _, id in ipairs(byCalling[class or ""] or {}) do unlock(id, true) end
   for questId, ids in pairs(byQuest) do
     if questDone(questId) then for _, id in ipairs(ids) do unlock(id, true) end end
   end
@@ -230,7 +240,8 @@ local function catchUp()
 end
 
 local function newCodex(guid)
-  LorekeepersCodexChar = { guid = guid, entries = {}, read = {}, achievements = {} }
+  LorekeepersCodexChar =
+    { guid = guid, entries = {}, read = {}, achievements = {}, met = { races = {}, classes = {}, combos = {} } }
   char = LorekeepersCodexChar
 end
 
@@ -244,6 +255,7 @@ function handlers.PLAYER_LOGIN()
     char.entries = char.entries or {}
     char.read = char.read or {}
     char.achievements = char.achievements or {}
+    char.met = char.met or { races = {}, classes = {}, combos = {} }
   else
     newCodex(guid)
   end
@@ -276,9 +288,26 @@ local function checkMeeting(unit)
   local id = npcId(unit)
   for _, entry in ipairs(id and byKill[id] or {}) do unlock(entry) end
 end
+-- A player met (targeted): their people's page and their calling's, and the
+-- meeting itself, for the encounters (Achievements.lua).
+local function checkPlayer(unit)
+  if not UnitIsPlayer(unit) or UnitIsUnit(unit, "player") then return end
+  local _, people = UnitRace(unit)
+  local _, calling = UnitClass(unit)
+  if not people or not calling or secret(people) or secret(calling) then return end
+  for _, id in ipairs(byPeople[people] or {}) do unlock(id) end
+  for _, id in ipairs(byCalling[calling] or {}) do unlock(id) end
+  local met = char.met
+  local combo = people .. ":" .. calling
+  if not met.combos[combo] then
+    met.races[people], met.classes[calling], met.combos[combo] = true, true, true
+    ns.checkAchievements()
+  end
+end
 handlers.PLAYER_TARGET_CHANGED = function()
   checkNpc("target")
   checkMeeting("target")
+  checkPlayer("target")
 end
 local function talking() checkNpc("npc") end
 handlers.GOSSIP_SHOW = talking

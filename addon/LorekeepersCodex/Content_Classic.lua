@@ -44,7 +44,8 @@ ns.content = {
     { id = "felwood", title = "Felwood", summary = "The poisoned forest, where the Skull of Gul'dan was found.", entries = { "bloodvenom-post", "felwood", "jaedenar", "talonbranch-glade", "emerald-sanctuary" } },
     { id = "winterspring", title = "Winterspring", summary = "Snow, goblins, and the Highborne's curse.", entries = { "everlook", "mazthoril", "starfall-village", "ruins-of-keltheril", "winterspring" } },
     { id = "moonglade", title = "Moonglade", summary = "The druids' sacred valley.", entries = { "keeper-remulos", "moonglade", "stormrage-barrow-dens" } },
-    { id = "peoples", title = "Peoples and Powers", summary = "The peoples, orders and factions a traveller meets in many lands, gathered in one place.", entries = { "argent-dawn", "black-dragonflight", "blackrock-clan", "burning-blade", "burning-legion", "cenarion-circle", "centaurs", "cult-of-the-damned", "dark-iron-dwarves", "defias-brotherhood", "dragons-of-nightmare", "forest-trolls", "furbolgs", "gnolls", "grimtotem", "harpies", "kobolds", "murlocs", "naga", "ogres", "quilboar", "satyrs", "scarlet-crusade", "scourge", "silithid", "southsea-freebooters", "steamwheedle-cartel", "syndicate", "rockjaw-troggs", "twilights-hammer", "venture-company", "worgen" } },
+    { id = "callings", title = "The Callings", summary = "The paths of arms, faith and magic a traveller may walk, and where each of them comes from.", entries = { "druids", "hunters", "mages", "paladins", "priests", "rogues", "shamans", "warlocks", "warriors" } },
+    { id = "peoples", title = "Peoples and Powers", summary = "The peoples, orders and factions a traveller meets in many lands, gathered in one place.", entries = { "argent-dawn", "black-dragonflight", "blackrock-clan", "burning-blade", "burning-legion", "cenarion-circle", "centaurs", "cult-of-the-damned", "dark-iron-dwarves", "defias-brotherhood", "dragons-of-nightmare", "dwarves", "forest-trolls", "furbolgs", "gnolls", "grimtotem", "harpies", "humans", "kobolds", "murlocs", "naga", "night-elves", "ogres", "orcs", "quilboar", "satyrs", "scarlet-crusade", "scourge", "silithid", "southsea-freebooters", "steamwheedle-cartel", "syndicate", "tauren", "rockjaw-troggs", "twilights-hammer", "venture-company", "worgen" } },
   },
   entries = {
     ["alterac-mountains"] = {
@@ -636,6 +637,96 @@ ns.content = {
         { "What answered was Ragnaros, the Lord of Fire. The mountain burst. The city was destroyed, the valleys burned, and the Dark Irons who lived became the Firelord's slaves. The relics of the city still remember: those who touch them see eight dwarves at a ritual, and then one alone, kneeling among seven corpses before a pillar of flame. A goblin in Morgan's Vigil, Maxwort, will tell you that the Seven were dwarves of great knowledge, and that knowledge brings wealth. Goblins." },
       },
     },
+    ["druids"] = {
+      title = "Druids", kind = "calling", chapter = "callings",
+      unlock = { { calling = "DRUID" } },
+      also = { "cenarion-circle", "moonglade", "keeper-remulos", "hamuul-runetotem" },
+      text = {
+        { "The first druid was Malfurion Stormrage, taught by the demigod Cenarius before the War of the Ancients. After the Well's destruction, the night elves who had given up the arcane followed him, and for thousands of years the druids slept in the Emerald Dream, waking only when the world needed them." },
+        { "They wake now, and they are not only night elves: the tauren have druids of their own, and both answer to the Cenarion Circle in Moonglade. A druid takes the shapes of the wild, bear, cat and seal among them, heals with the Dream's green magic and calls the moon and the stars down on enemies." },
+        { "Malfurion himself has gone into the Dream and not come back. The druids look for him there, traveller, and look tired when they say so." },
+      },
+    },
+    ["hunters"] = {
+      title = "Hunters", kind = "calling", chapter = "callings",
+      unlock = { { calling = "HUNTER" } },
+      also = {  },
+      text = {
+        { "Every people that lives close to the wild has its hunters. The dwarves have their mountaineers, sure of their aim on any slope; the night elves, their huntresses and Sentinels; the orcs and trolls, their trackers and beast-tamers; the tauren, braves who still follow the herds as their grandparents did." },
+        { "What sets a hunter apart is a companion. A wolf, a cat, a bear, a raptor, a hawk: tamed in the wild and kept for life, it fights at the hunter's side, and the bond between them is the closest thing to friendship I have seen between a person and a beast." },
+        { "The League has employed hunters as guides for as long as it has existed, traveller. They find the road and the dinner, and they keep both from finding us first." },
+      },
+    },
+    ["mages"] = {
+      title = "Mages", kind = "calling", chapter = "callings",
+      unlock = { { calling = "MAGE" } },
+      also = { "dalaran", "jaina-proudmoore", "archmage-arugal" },
+      text = {
+        { "The human art of magic began with a hundred students. During the Troll Wars, the high elves of Quel'Thalas taught them to work spells in exchange for help against the Amani, and their heirs founded Dalaran and its ruling council, the Kirin Tor. For centuries every human mage was trained or watched there." },
+        { "Dalaran fell in the Third War, and its students scattered: to Theramore with Jaina Proudmoore, to Stormwind, to the Undercity among the Forsaken, some of whom studied there in their first lives. The gnomes had their own masters, and the Darkspear their own arts long before the younger races wrote any of it down." },
+        { "A mage conjures fire, frost and pure arcane force, and a good deal of fresh water. I recommend one on every dig, traveller, for the water alone." },
+      },
+    },
+    ["paladins"] = {
+      title = "Paladins", kind = "calling", chapter = "callings",
+      unlock = { { calling = "PALADIN" } },
+      also = { "church-of-the-holy-light", "uthers-tomb", "tirion-fordring", "argent-dawn", "whitemane-and-mograine" },
+      text = {
+        { "The first paladins were the Knights of the Silver Hand, founded in the Second War by Archbishop Alonsus Faol to carry the Holy Light onto the battlefield. Uther the Lightbringer led them, and they fought for the Alliance through the war and the long peace after it." },
+        { "The order did not survive the Third War. Prince Arthas, a paladin himself, turned on everything it stood for, and Uther fell to him at Andorhal. The Silver Hand broke; its knights scattered to Stormwind, Ironforge and the Plaguelands, where some serve the Argent Dawn and others the Scarlet Crusade's harsher idea of the Light." },
+        { "Today the Alliance alone trains paladins, humans and dwarves who swear to the Light in the Cathedral of Light or in Ironforge's Mystic Ward." },
+      },
+    },
+    ["priests"] = {
+      title = "Priests", kind = "calling", chapter = "callings",
+      unlock = { { calling = "PRIEST" } },
+      also = { "church-of-the-holy-light", "northshire-abbey", "tyrande-whisperwind" },
+      text = {
+        { "Priests serve their people's faith, and their people's faith differs. In Stormwind and Ironforge they serve the Holy Light of the church that came south from Lordaeron. The night elves' priestesses serve Elune, the moon, and have kept her temples for ten thousand years." },
+        { "On the Horde's side, the Darkspear have priests of their own, and the Forsaken keep theirs too, whose prayers lean towards the shadow as readily as the Light. A priest of any of them can mend a wound, shield a friend, raise the fallen, or turn the same power on an enemy." },
+        { "They are the most welcome company a dig can have, traveller, and the least appreciated until somebody falls into a shaft." },
+      },
+    },
+    ["rogues"] = {
+      title = "Rogues", kind = "calling", chapter = "callings",
+      unlock = { { calling = "ROGUE" } },
+      also = { "si-7", "ravenholdt-manor", "defias-brotherhood", "syndicate" },
+      text = {
+        { "Every city has its quiet trades, and the rogues practise all of them: the lock that opens without a key, the purse that changes hands without its owner knowing, the blade from behind. Some serve a crown, as Stormwind's SI:7 does; some serve no one but the coin, like the Defias in Westfall and the Syndicate in Alterac." },
+        { "Between the two stand the assassins of Ravenholdt, in the hills of Alterac above Hillsbrad, who are said to choose their contracts and their students with equal care. Rogues of every people pass through its gates, and few talk about what they learned there." },
+        { "A rogue fights with poisons, quick hands and surprise, and leaves when the odds turn. I have hired a few to recover what others had already taken from us, traveller. It is not the League's proudest line of accounts, but it is one of its longest." },
+      },
+    },
+    ["shamans"] = {
+      title = "Shamans", kind = "calling", chapter = "callings",
+      unlock = { { calling = "SHAMAN" } },
+      also = { "thrall", "frostwolf-clan", "earth-mother" },
+      text = {
+        { "On Draenor the orcs' shamans spoke with the elements and their ancestors, until Gul'dan's warlocks turned many of them to fel magic and the spirits fell silent. Among the Frostwolves in Alterac, the old shaman Drek'Thar kept the ways alive, and taught them to a young escaped slave called Thrall." },
+        { "Thrall brought shamanism back to his people, and in Kalimdor they found others who had never lost it: the tauren, who honour the Earth Mother, and the trolls, whose witch doctors had kept their own. A shaman asks earth, fire, water and air for help, and carries a totem of each, and the elements, mostly, answer." },
+        { "The League has learned to ask a shaman's leave before a dig, traveller. The ground has opinions, and they hear them." },
+      },
+    },
+    ["warlocks"] = {
+      title = "Warlocks", kind = "calling", chapter = "callings",
+      unlock = { { calling = "WARLOCK" } },
+      also = { "burning-blade", "burning-legion" },
+      text = {
+        { "Warlock magic came into this world with the Horde. Gul'dan and his Shadow Council learned it from Kil'jaeden, and with it they turned the orcs into weapons of the Burning Legion. The Horde's warlocks raised the dead, called demons and burned whole lands, and their art outlived their masters." },
+        { "Its students are found on both sides now. The Burning Blade still serves the Legion in Durotar; Stormwind's warlocks keep to the cellar of the Slaughtered Lamb; gnomes and Forsaken study it too. A warlock binds demons to serve, lays curses, and pays for power with their own life when nothing else will do." },
+        { "Most cities tolerate warlocks without trusting them, traveller, and the warlocks seem to prefer it that way." },
+      },
+    },
+    ["warriors"] = {
+      title = "Warriors", kind = "calling", chapter = "callings",
+      unlock = { { calling = "WARRIOR" } },
+      also = {  },
+      text = {
+        { "There is no single order of warriors, traveller, only a craft as old as the first quarrel. Lordaeron's footmen and Stormwind's knights, the orc grunts who broke those same walls, the tauren braves of the plains and the Darkspear's hunters of the islands learned the same lessons by different roads." },
+        { "The craft has its schools all the same. A warrior learns to stand three ways: in battle, to strike first and hard; in defence, behind a shield, to hold a line; and in a berserker's fury, which spends the body's strength freely and asks for it back later. Most of the work is learning which the moment needs." },
+        { "Every capital keeps a hall where warriors train the young. The League hires a good many of them as escorts, and I have yet to meet one who did not have an opinion about where we were digging." },
+      },
+    },
     ["auberdine"] = {
       title = "Auberdine", kind = "place", chapter = "darkshore",
       unlock = { { area = 442 } },
@@ -849,7 +940,7 @@ ns.content = {
     },
     ["gnomeregan-exiles"] = {
       title = "The Gnomeregan Exiles", kind = "faction", chapter = "dun-morogh", portrait = 7006,
-      unlock = { { area = 189 }, { npc = 7937 } },
+      unlock = { { people = "Gnome" }, { area = 189 }, { npc = 7937 } },
       also = { "gnomeregan", "high-tinker-mekkatorque", "ironforge" },
       text = {
         { "A people without a home, and the most cheerful exiles you will ever meet. The gnomes who escaped Gnomeregan live now in Tinker Town, in the heart of Ironforge, and in outposts such as Steelgrill's Depot within sight of their old gates." },
@@ -957,7 +1048,7 @@ ns.content = {
     },
     ["darkspear-trolls"] = {
       title = "The Darkspear Trolls", kind = "faction", chapter = "durotar", portrait = 10357,
-      unlock = { { area = 367 }, { faction = 530, standing = 5 } },
+      unlock = { { people = "Troll" }, { area = 367 }, { faction = 530, standing = 5 } },
       also = { "voljin", "senjin-village", "echo-isles", "murlocs" },
       text = {
         { "The Darkspear are jungle trolls related to Stranglethorn's Gurubashi. When Thrall's fleet reached their islands on its journey to Kalimdor, the tribe was fighting murlocs and their sea witch. The orcs fought beside them. Chieftain Sen'jin died, and the surviving Darkspear followed Thrall across the sea." },
@@ -2022,6 +2113,16 @@ ns.content = {
         { "The Nightmare has taken them. They emerge twisted and attack those who approach. Emeriss spreads rot, Taerar divides into shades, and Lethon draws out the spirits of the fallen. Remulos gathers fragments of corruption from the portals to investigate. A traveller reaching one of these trees may find the very guardian who should have made it safe has become its danger." },
       },
     },
+    ["dwarves"] = {
+      title = "The Dwarves of Ironforge", kind = "faction", chapter = "peoples",
+      unlock = { { people = "Dwarf" } },
+      also = { "ironforge", "magni-bronzebeard", "war-of-the-three-hammers", "platinum-discs", "explorers-league" },
+      text = {
+        { "The dwarves have held Khaz Modan from Ironforge since before anyone wrote their history down, and for a long time they did not know where they came from either. The discs the League recovered from Uldaman suggest an answer the scholars still argue over: that the first dwarves were earthen, shaped from the stone by the Titans, who in time became flesh." },
+        { "Three clans once shared the mountain under one High King. When he died they went to war over his throne; the Bronzebeards kept Ironforge, the Wildhammers went north and the Dark Irons woke the Firelord in the south. King Magni Bronzebeard rules now. His brother Muradin went north with Lordaeron's prince and has not been seen since, and his brother Brann is out in the world for the League, which is more or less where we expect him to be." },
+        { "They are a sturdy, careful, generous people who keep their grudges as well as their stonework, and I say that fondly. If a dwarf tells you a bridge will hold, traveller, it will. If a dwarf says the ale is good, form your own view." },
+      },
+    },
     ["forest-trolls"] = {
       title = "The Forest Trolls", kind = "faction", chapter = "peoples", portrait = 3986,
       unlock = { { kill = 2552 }, { kill = 2553 }, { kill = 2554 }, { kill = 2555 }, { kill = 2556 }, { kill = 2557 }, { kill = 2558 }, { kill = 2639 }, { kill = 2640 }, { kill = 2641 }, { kill = 2642 }, { kill = 2643 }, { kill = 2644 }, { kill = 2645 }, { kill = 2646 }, { kill = 2647 }, { kill = 2648 }, { kill = 2649 }, { kill = 2650 }, { kill = 2651 }, { kill = 2652 }, { kill = 2653 }, { kill = 2654 }, { kill = 2686 }, { kill = 4465 }, { kill = 4466 }, { kill = 4467 }, { kill = 7809 }, { kill = 8560 }, { kill = 8561 }, { kill = 8562 }, { kill = 11388 }, { kill = 11391 }, { kill = 14748 } },
@@ -2069,6 +2170,16 @@ ns.content = {
         { "Ruul Eagletalon sends hunters against the Windfury as a trial. Stonetalon's druids seek the Charred Vale back from the Bloodfury so they can restore it. A traveller passing beneath their nesting grounds has practical reason to learn which flock holds them." },
       },
     },
+    ["humans"] = {
+      title = "The Humans", kind = "faction", chapter = "peoples",
+      unlock = { { people = "Human" } },
+      also = { "stormwind-city", "regency-of-stormwind", "fall-of-lordaeron", "church-of-the-holy-light" },
+      text = {
+        { "Humanity's first kingdom was Arathor, raised at Strom in the highlands that still bear its name. Its king, Thoradin, gathered the scattered tribes against the Amani trolls, and in that war the high elves of Quel'Thalas taught a hundred humans to work magic. From Arathor came, in time, seven kingdoms: Stormwind, Lordaeron, Gilneas, Alterac, Stromgarde, Kul Tiras and the mages' city of Dalaran." },
+        { "The orcs came through the Dark Portal and burned Stormwind first. Its people fled north, and the Alliance that won the Second War was built in Lordaeron. Then the plague and the Scourge took Lordaeron itself, Gilneas shut itself behind its wall, and Dalaran fell. Stormwind, rebuilt in white stone, is the greatest human city left, and a boy king sits on its throne under a regent while his father is missing." },
+        { "They are a short-lived people and a stubborn one, traveller. They quarrel among themselves more than is good for them, and rebuild faster than anyone I know. The League has learned to take their maps seriously and their promises of payment with a little care." },
+      },
+    },
     ["kobolds"] = {
       title = "The Kobolds", kind = "creature", chapter = "peoples", portrait = 365,
       unlock = { { kill = 6 }, { kill = 40 }, { kill = 80 }, { kill = 257 }, { kill = 475 }, { kill = 476 }, { kill = 1172 }, { kill = 1173 }, { kill = 1174 }, { kill = 1175 }, { kill = 1176 }, { kill = 1177 }, { kill = 1202 }, { kill = 1236 }, { kill = 2572 }, { kill = 2573 }, { kill = 2574 }, { kill = 4111 }, { kill = 4112 }, { kill = 4113 }, { kill = 4114 }, { kill = 4116 } },
@@ -2098,6 +2209,16 @@ ns.content = {
         { "The Highborne's story did not end when their cities sank, traveller. Those same Highborne now contend for places along the continent's coasts, changed as much as the land they once knew." },
       },
     },
+    ["night-elves"] = {
+      title = "The Night Elves", kind = "faction", chapter = "peoples",
+      unlock = { { people = "NightElf" } },
+      also = { "darnassus", "tyrande-whisperwind", "the-sundering", "fandral-staghelm", "cenarion-circle", "teldrassil" },
+      text = {
+        { "The kaldorei are the oldest people the League has met, and they are too polite to remind us of it often. Ten thousand years ago their Highborne drew on the Well of Eternity until the Burning Legion came for it, and the war that followed broke the world. Afterwards the survivors gave up the arcane. They turned to the druids of Malfurion Stormrage and the priestesses of Elune, and planted a World Tree on Mount Hyjal that kept them from growing old." },
+        { "In the Third War the Legion came back to Hyjal. To destroy the demon Archimonde, the night elves gave up the Tree and their immortality with it. Fandral Staghelm has since grown Teldrassil off the coast of Darkshore, and Darnassus stands in its branches; whether the new Tree is blessed as the old one was, the druids do not say out loud." },
+        { "They now grow old, and they are learning what that means, traveller. Tyrande Whisperwind leads them from the Temple of the Moon while Malfurion is lost in the Dream. If a night elf seems to weigh every word, remember that until a few years ago they had all the time in the world to choose them." },
+      },
+    },
     ["ogres"] = {
       title = "The Ogres", kind = "creature", chapter = "peoples", portrait = 416,
       unlock = { { kill = 212 }, { kill = 678 }, { kill = 679 }, { kill = 680 }, { kill = 709 }, { kill = 710 }, { kill = 723 }, { kill = 889 }, { kill = 891 }, { kill = 892 }, { kill = 1142 }, { kill = 1144 }, { kill = 1178 }, { kill = 1179 }, { kill = 1180 }, { kill = 1181 }, { kill = 1183 }, { kill = 1251 }, { kill = 1487 }, { kill = 2252 }, { kill = 2253 }, { kill = 2254 }, { kill = 2255 }, { kill = 2256 }, { kill = 2257 }, { kill = 2287 }, { kill = 2416 }, { kill = 2417 }, { kill = 2562 }, { kill = 2564 }, { kill = 2566 }, { kill = 2567 }, { kill = 2569 }, { kill = 2570 }, { kill = 2571 }, { kill = 2701 }, { kill = 2715 }, { kill = 2716 }, { kill = 2717 }, { kill = 2718 }, { kill = 2719 }, { kill = 2720 }, { kill = 2906 }, { kill = 2907 }, { kill = 5229 }, { kill = 5232 }, { kill = 5234 }, { kill = 5236 }, { kill = 5237 }, { kill = 5238 }, { kill = 5239 }, { kill = 5240 }, { kill = 5241 }, { kill = 5471 }, { kill = 5472 }, { kill = 5473 }, { kill = 5474 }, { kill = 5475 }, { kill = 5974 }, { kill = 5975 }, { kill = 5976 }, { kill = 5977 }, { kill = 5978 }, { kill = 7033 }, { kill = 7034 }, { kill = 7035 }, { kill = 7379 }, { kill = 9197 }, { kill = 9198 }, { kill = 9199 }, { kill = 9200 }, { kill = 9201 }, { kill = 9216 }, { kill = 9217 }, { kill = 9218 }, { kill = 9219 }, { kill = 10602 }, { kill = 11440 }, { kill = 11441 }, { kill = 11443 }, { kill = 11444 }, { kill = 11445 }, { kill = 11448 }, { kill = 11450 }, { kill = 11501 }, { kill = 14324 }, { kill = 14325 }, { kill = 14351 } },
@@ -2106,6 +2227,16 @@ ns.content = {
         { "The ogres came to this world with the Horde, from the same red land as the orcs, and fought in the Second War as its heavy fists. The warlock Gul'dan improved on them, after his fashion: he used the Altar of Storms to grant ogres the powers of the ogre magi, and their kind still rule many of the clans." },
         { "After the Horde was broken, ogre clans established themselves in the wild places, and have stayed there: the Mo'grosh in Loch Modan, the Splinter Fist in Duskwood, the Crushridge in Alterac, the Boulderfist in Arathi, the Dustbelcher in the Badlands, the Mosh'Ogg in Stranglethorn and the Dreadmaul at the Dark Portal; across the sea the Gordunni in Feralas and the Dunemaul in Tanaris. The Gordok have made themselves at home in the ruins of an elven city in Feralas, and crown whoever kills their king." },
         { "Not every clan has forgotten the old alliance. The Stonemaul of Dustwallow Marsh fight beside the Horde at Brackenwall, and the orcs speak well of them. The rest would rather eat you than talk." },
+      },
+    },
+    ["orcs"] = {
+      title = "The Orcs", kind = "faction", chapter = "peoples",
+      unlock = { { people = "Orc" } },
+      also = { "thrall", "orgrimmar", "durotar", "durnholde-keep", "frostwolf-clan", "blackrock-clan", "burning-blade" },
+      text = {
+        { "The orcs came from Draenor, a world of clans and shamans, and they did not come of their own will. The warlock Gul'dan and his Shadow Council, serving the demon Kil'jaeden, taught them fel magic and led their chieftains to drink the blood of Mannoroth. The Horde that crossed the Dark Portal was born of that bargain, and it burned Stormwind before the Alliance broke it in the Second War." },
+        { "The defeated orcs were penned in internment camps, listless as the demons' fury drained out of them. Thrall, raised a slave at Durnholde, freed them, gave them back the old ways of the shaman and led them across the sea to Kalimdor. At Mount Hyjal they fought the Legion beside humans and night elves, and when Grom Hellscream killed Mannoroth the blood curse was broken." },
+        { "They named their new land Durotar, after Thrall's father, and built Orgrimmar in its rocks. They are a proud people with a long memory of being used, traveller. Offer an orc respect and plain dealing, and never ask one to serve a master again." },
       },
     },
     ["quilboar"] = {
@@ -2183,6 +2314,16 @@ ns.content = {
         { "Alterac was the kingdom that sold the Alliance to the Horde in the Second War, and when the war was won its lands were taken and its nobles stripped of their titles. Some of those nobles have never accepted it. They call themselves the Syndicate, and they are thieves and cutthroats under a lord's banner." },
         { "Their leader was Lord Aliden Perenolde, son of the traitor king, and his dream was to put the orcs back in chains, as they were in the days of the internment camps. His people hold the ruined town of Strahnbrad in Alterac and Durnholde Keep in Hillsbrad, where they rob Southshore's roads and plot against its magistrate, and in Arathi Lord Falconcrest has seized the ruins of Stromgarde itself." },
         { "They are many and they are not very good. The assassins of Ravenholdt, who have fought them for years, call them hacks, and the Forsaken put a price on every head. But a great many thieves can still do a great deal of harm, and the Syndicate do." },
+      },
+    },
+    ["tauren"] = {
+      title = "The Tauren", kind = "faction", chapter = "peoples",
+      unlock = { { people = "Tauren" } },
+      also = { "cairne-bloodhoof", "thunder-bluff", "mulgore", "earth-mother", "centaurs", "grimtotem" },
+      text = {
+        { "The tauren are among the oldest peoples of Kalimdor's plains. For generations their tribes wandered, following the herds and the ways of the Earth Mother, while the centaurs harried them from one camp to the next. Cairne Bloodhoof gathered many of the tribes together, and when Thrall's orcs came ashore, they helped the tauren drive the centaurs back and reach the grasslands of Mulgore." },
+        { "There the tauren raised Thunder Bluff on its mesas and settled, though they keep the habits of the road. They honour the Earth Mother, whose eyes are An'she, the sun, and Mu'sha, the moon. Their shamans speak with the spirits and their druids walk the Dream with the Cenarion Circle. Not every tribe follows Cairne; the Grimtotem keep their own counsel and their own grudges." },
+        { "They are slow to anger and very hard to stop once angered, traveller. The League's archaeologists have found them the most patient hosts on Kalimdor, provided nobody digs where their ancestors are buried." },
       },
     },
     ["rockjaw-troggs"] = {
@@ -2881,7 +3022,7 @@ ns.content = {
     },
     ["the-forsaken"] = {
       title = "The Forsaken", kind = "faction", chapter = "tirisfal", portrait = 2858,
-      unlock = { { area = 154 }, { area = 159 }, { npc = 10181 } },
+      unlock = { { people = "Scourge" }, { area = 154 }, { area = 159 }, { npc = 10181 } },
       also = { "sylvanas-windrunner", "undercity", "scourge", "deathknell" },
       text = {
         { "When the Lich King's grip on his dead faltered, some of them woke. They were still dead, but their minds were their own again, and they remembered what they had been and what had been done to them. They call themselves the Forsaken, and they follow the one who freed them: Sylvanas Windrunner, the Banshee Queen." },

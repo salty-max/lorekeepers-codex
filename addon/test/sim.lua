@@ -77,7 +77,16 @@ local function elapse()
   end
 end
 function UnitXP() return 0 end
-function UnitRace() return "Dwarf", "Dwarf" end
+-- (a player targeted: state.player = { race, class }, their tokens)
+function UnitRace(u)
+  if u == "target" and state.player then return state.player.race, state.player.race end
+  return "Dwarf", "Dwarf"
+end
+function UnitClass(u)
+  if u == "target" and state.player then return state.player.class, state.player.class end
+  return "Hunter", "HUNTER"
+end
+function UnitIsUnit(a, b) return a == b end
 
 -- UI: any method works and returns something sensible, scripts are kept.
 local function ui()
@@ -114,7 +123,7 @@ local tipHooks, tipLines, tipUnit = {}, {}, nil
 GameTooltip.HookScript = function(self, name, fn) tipHooks[name] = fn end
 GameTooltip.GetUnit = function() return "Someone", tipUnit end
 GameTooltip.AddLine = function(self, text) table.insert(tipLines, text) end
-function UnitIsPlayer(u) return u == "player" end
+function UnitIsPlayer(u) return u == "player" or (u == "target" and state.player ~= nil) end
 function GetCursorPosition() return 0, 0 end
 local linkHandlers = {}
 LinkUtil = { RegisterLinkHandler = function(kind, fn) linkHandlers[kind] = fn end }
@@ -256,13 +265,13 @@ check(ticker ~= nil, "a position check runs (there are position pages)")
 ticker()
 check(has("t-pos"), "standing at the Great Forge unlocks it")
 
-local before = 0
+local before, heard = 0, sounds
 for _ in pairs(LorekeepersCodexChar.entries) do before = before + 1 end
 fire("ZONE_CHANGED")
 fire("PLAYER_TARGET_CHANGED")
 local after = 0
 for _ in pairs(LorekeepersCodexChar.entries) do after = after + 1 end
-check(before == after and sounds == 7, "nothing is unlocked twice (7 pages announced)")
+check(before == after and sounds == heard, "nothing is unlocked twice, nor announced again")
 
 -- Kills: my killing blow or my pet's. On Forever, PARTY_KILL (killer, victim)
 -- is an event of its own; elsewhere (an older client) a line of the combat log.
@@ -350,7 +359,7 @@ check(#labels == #ns.SOUNDS and labels[#labels] == "None", "the sound can be cho
 SlashCmdList.LOREKEEPERSCODEX("")
 check(LorekeepersCodexFrame and LorekeepersCodexFrame.shown, "/codex opens the book")
 check(next(LorekeepersCodexChar.read) ~= nil, "opening it shows an unread page, marked read")
-check(ns.count() == 13, "13 pages found")
+check(ns.count() == 15, "15 pages found (one's own people and calling among them)")
 local expected = 0
 for _, ch in ipairs(ns.content.chapters) do if ns.found(ch) > 0 then expected = expected + #ch.entries end end
 for id, e in pairs(ns.content.entries) do if e.chapter == "" and ns.page(id) then expected = expected + 1 end end
@@ -363,7 +372,8 @@ for _, ch in ipairs(C.chapters) do
 end
 local DUN = FOREVER and 18 or 17 -- (Forever's Hall of Thanes)
 check(ns.found(CH["dun-morogh"]) == 7 and #CH["dun-morogh"].entries == DUN, ("Dun Morogh counts 7 of its %d pages"):format(DUN))
-check(C.chapters[#C.chapters].id == "peoples" and ns.found(C.chapters[#C.chapters]) == 0, "Peoples and Powers comes last, hidden until a people is met")
+check(C.chapters[#C.chapters].id == "peoples" and ns.found(C.chapters[#C.chapters]) == 1, "Peoples and Powers comes last, one's own people in it from the start")
+check(ns.found(CH.callings) == 1, "the Callings: one's own, from the start")
 check(ns.found(CH["loch-modan"]) == 0, "Loch Modan, not visited, has no page found: its chapter stays hidden")
 check(ns.found(CH["wetlands"]) == 1, "the Wetlands show once Menethil is found")
 SlashCmdList.LOREKEEPERSCODEX("")
@@ -507,7 +517,7 @@ for _, a in ipairs(ns.achievements) do
 end
 for _, id in ipairs(ns.featPages) do if not C.entries[id] then table.insert(missing, id) end end
 check(#missing == 0, "every page an achievement names exists" .. (#missing > 0 and (": " .. table.concat(missing, ", ")) or ""))
-check(#ns.achievements == 9 + 4 + 9 + 4 + #C.chapters, "milestones, feats, the Library's and one achievement per chapter")
+check(#ns.achievements == 9 + 4 + 9 + 5 + 4 + #C.chapters, "milestones, feats, encounters, the Library's and one achievement per chapter")
 -- A codex from before achievements: what it deserves is recorded quietly.
 for _, id in ipairs(CH["loch-modan"].entries) do ns.unlock(id, true) end
 LorekeepersCodexChar.achievements = {}
@@ -627,5 +637,23 @@ local shield = {}
 AchievementShield_OnLoad(shield)
 check(shield.Saturate and shield.Desaturate, "… its shield's OnLoad stood in at load, as the game's own (its toasts need it too)")
 AlertFrame, C_XMLUtil = nil, nil
+
+-- Players met: one's own people and calling were known from the start;
+-- targeting a player unlocks theirs, and counts toward the encounters.
+check(has("dwarves") and LorekeepersCodexChar.entries.dwarves.retro and has("hunters"),
+  "one's own people and calling: known from the start, quietly")
+check(not has("orcs") and not has("shamans"), "another people's page and calling's: not yet")
+local soundsBefore = sounds
+state.player = { race = "Orc", class = "SHAMAN" }
+fire("PLAYER_TARGET_CHANGED")
+check(has("orcs") and has("shamans") and sounds == soundsBefore + 2, "targeting an orc shaman: the orcs' page and the shamans'")
+local met = LorekeepersCodexChar.met
+check(met.races.Orc and met.classes.SHAMAN and met.combos["Orc:SHAMAN"], "the meeting remembered: the race, the class, the two")
+state.player = { race = "Troll", class = "SHAMAN" }
+fire("PLAYER_TARGET_CHANGED")
+check(has("darkspear-trolls"), "a troll: the Darkspear's page, an older one, by its new rule")
+local pairsFor = ns.achievementById["met-pairs-10"]
+check(select(1, pairsFor.progress()) == 2, "two pairings met so far")
+state.player = nil
 
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")

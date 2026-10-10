@@ -6,7 +6,7 @@
  *   ---
  *   id: kharanos
  *   title: Kharanos
- *   kind: place                 # place | figure | faction | creature | history | note
+ *   kind: place                 # place | figure | faction | creature | history | note | calling
  *   unlock:                     # any one of these unlocks it
  *     - area: Kharanos          # a zone or sub-zone, by its name in the game data
  *     - area: Gnomeregan (Dun Morogh)   # parent zone, when the name is ambiguous
@@ -16,6 +16,8 @@
  *     - quest: 1234             # turning in this quest (or having done it)
  *     - reputation: 47 friendly # reaching a standing with a faction
  *     - position: 1455 74 10 6  # within 6 (map %) of x 74 y 10 on uiMap 1455
+ *     - people: Dwarf           # a player of this race met (targeted), or one's own
+ *     - calling: MAGE           # a player of this class met (targeted), or one's own
  *   also: [war-of-the-three-hammers]
  *   race: Dwarf, Gnome          # only for these races (UnitRace tokens, or
  *                               # "other" for races without a page of their own)
@@ -44,12 +46,13 @@ import { join, relative } from "node:path";
 const ROOT = new URL("..", import.meta.url).pathname;
 const CONTENT = join(ROOT, "content");
 
-const KINDS = ["place", "figure", "faction", "creature", "history", "note"] as const;
+const KINDS = ["place", "figure", "faction", "creature", "history", "note", "calling"] as const;
+const CLASSES = ["WARRIOR", "PALADIN", "HUNTER", "ROGUE", "PRIEST", "SHAMAN", "MAGE", "WARLOCK", "DRUID"];
 const RACES = ["Human", "Dwarf", "NightElf", "Gnome", "Orc", "Troll", "Tauren", "Scourge", "Skyborne", "other"];
 const STANDINGS: Record<string, number> = { hated: 1, hostile: 2, unfriendly: 3, neutral: 4, friendly: 5, honored: 6, revered: 7, exalted: 8 };
 
 type Area = { id: number; name: string; parent: number };
-type Unlock = { always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number };
+type Unlock = { always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number } | { people: string } | { calling: string };
 type Entry = { id: string; title: string; kind: string; portrait: number; chapter: string; unlock: Unlock[]; also: string[]; race: string[]; client: string; text: Para[]; file: string };
 type Para = { italic: boolean; text: string; client: string };
 const CLIENTS = ["classic", "forever"];
@@ -146,6 +149,16 @@ function unlockOne(file: string, rule: string, client: string): Unlock | null {
       const [faction, standing] = value.split(/\s+/);
       if (num(faction) == null || !STANDINGS[standing?.toLowerCase()]) return fail(file, `reputation: <faction id> <${Object.keys(STANDINGS).join("|")}>`), null;
       return { faction: num(faction)!, standing: STANDINGS[standing.toLowerCase()] };
+    }
+    case "people": {
+      const race = value.trim();
+      if (!RACES.includes(race) || race === "other") return fail(file, `people: one of ${RACES.filter((r) => r !== "other").join(", ")}`), null;
+      return { people: race };
+    }
+    case "calling": {
+      const cls = value.trim();
+      if (!CLASSES.includes(cls)) return fail(file, `calling: one of ${CLASSES.join(", ")}`), null;
+      return { calling: cls };
     }
     case "position": {
       const [map, x, y, r] = value.split(/\s+/).map(Number);
@@ -246,7 +259,11 @@ const unlockLua = (u: Unlock) =>
           ? `{ quest = ${u.quest} }`
           : "faction" in u
             ? `{ faction = ${u.faction}, standing = ${u.standing} }`
-            : `{ map = ${u.map}, x = ${u.x}, y = ${u.y}, r = ${u.r} }`;
+            : "people" in u
+              ? `{ people = ${JSON.stringify(u.people)} }`
+              : "calling" in u
+                ? `{ calling = ${JSON.stringify(u.calling)} }`
+                : `{ map = ${u.map}, x = ${u.x}, y = ${u.y}, r = ${u.r} }`;
 // One content file per game: each holds only that game's pages and paragraphs
 // (front matter client:, [forever]/[classic] paragraphs), and its links and
 // chapters follow. scripts/package.ts ships each with its own TOC.

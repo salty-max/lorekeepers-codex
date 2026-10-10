@@ -10,14 +10,15 @@ For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of Wa
 
 ## What's inside
 
-- **335 original pages in 42 chapters**: every zone of the original game, its places, figures, peoples and histories, from the Sundering to the gates of Ahn'Qiraj.
-- **Peoples and Powers**: the Scourge, the Defias, the Dark Irons, the dragonflights, the troggs and some thirty more, met across the world.
+- **349 original pages in 43 chapters**: every zone of the original game, its places, figures, peoples and histories, from the Sundering to the gates of Ahn'Qiraj.
+- **Peoples and Powers**: the playable peoples (your own from the start, the others when you meet one of them), the Scourge, the Defias, the Dark Irons, the dragonflights, the troggs and some thirty more.
+- **The Callings**: a page for each class, where it comes from and who walks it; yours from the start, the others when you meet a player of that class.
 - **A foreword for your race**, so a dwarf, an orc or one of the Forsaken each read the ledger as theirs. On Forever, the Skyborne have their own.
 - **Lore true to the era**: drawn from Warcraft I to III, the original game's quests and books, and the novels published before Wrath of the Lich King. No spoilers from later expansions.
 
 ## How it works
 
-- Pages unlock on their own: entering a place, talking to (or targeting) someone, defeating creatures, completing quests, reaching a reputation.
+- Pages unlock on their own: entering a place, talking to (or targeting) someone, targeting a player of another people or class, defeating creatures, completing quests, reaching a reputation.
 - Each new page is announced in chat (a link that opens it) and by the game's own alert, with its picture and a sound. Achievements get the game's achievement alert.
 - Each character keeps its own codex, and each page remembers when, at what level and where you found it.
 - Tooltips of creatures that unlock a page say so.
@@ -35,7 +36,7 @@ A second tab: every book, note, letter and plaque you read in the world is copie
 
 ## Achievements
 
-A third tab in the book (`/codex achievements`): page milestones, the Library, feats (the legendary wanderers, the leaders of your side, the dungeons, the great powers at the end of the deepest lairs, a page in every chapter) and one for each chapter completed. Each remembers the day and the level you earned it.
+A third tab in the book (`/codex achievements`): page milestones, the Library, feats (the legendary wanderers, the leaders of your side, the dungeons, the great powers at the end of the deepest lairs, a page in every chapter), encounters (players of every race, of every class, and every pairing of the two) and one for each chapter completed. Each remembers the day and the level you earned it.
 
 ## Two packages
 

@@ -158,7 +158,8 @@ local function roundIcon(parent, size)
 end
 
 -- What a page is about, in a word.
-local KINDS = { place = "Place", figure = "Figure", faction = "Faction", creature = "Creature", history = "History", note = "Note" }
+local KINDS =
+  { place = "Place", figure = "Figure", faction = "Faction", creature = "Creature", history = "History", note = "Note", calling = "Calling" }
 -- Pages about no one creature get one icon per kind, true of any of them: a
 -- map for a place, an old book for history, a note for the League's notes.
 local KIND_ICONS = {
@@ -171,18 +172,29 @@ local KIND_ICONS = {
 -- picture is then hidden). Also used by the banner.
 function ns.kindIcon(kind) return KIND_ICONS[kind] end
 
+-- (a calling's page: the class's own round icon, as the game's portraits show it)
+local CIRCLES = "Interface\\TargetingFrame\\UI-Classes-Circles"
+local function callingOf(e)
+  for _, u in ipairs(e.unlock or {}) do
+    if u.calling then return u.calling end
+  end
+end
 function ns.pagePicture(p, e)
   local creature = e.portrait and SetPortraitTextureFromCreatureDisplayID
-  local icon = not creature and KIND_ICONS[e.kind]
-  p:SetShown((creature or icon) and true or false)
+  local circle = not creature and e.kind == "calling" and CLASS_ICON_TCOORDS and CLASS_ICON_TCOORDS[callingOf(e) or ""]
+  local icon = not creature and not circle and KIND_ICONS[e.kind]
+  p:SetShown((creature or circle or icon) and true or false)
   if creature then
     p.tex:SetTexCoord(0, 1, 0, 1)
     SetPortraitTextureFromCreatureDisplayID(p.tex, e.portrait)
+  elseif circle then
+    p.tex:SetTexture(CIRCLES)
+    p.tex:SetTexCoord(unpack(circle))
   elseif icon then
     p.tex:SetTexture(icon)
     p.tex:SetTexCoord(0.08, 0.92, 0.08, 0.92)
   end
-  return (creature or icon) and true or false
+  return (creature or circle or icon) and true or false
 end
 ns.roundIcon, ns.label, ns.look = roundIcon, label, { T = T, TITLE_FONT = TITLE_FONT, BODY_FONT = BODY_FONT, card = card }
 
@@ -482,7 +494,10 @@ end
 -- ── the achievements ──────────────────────────────────────────────────────────
 -- One row each, under its group's heading: the title (gold once earned), what
 -- it asks, and on the right when it was earned, or how far along it is.
-local GROUPS = { { "milestone", "Milestones" }, { "feat", "Feats" }, { "library", "The Library" }, { "chapter", "Chapters" } }
+local GROUPS = {
+  { "milestone", "Milestones" }, { "feat", "Feats" }, { "encounter", "Encounters" }, { "library", "The Library" },
+  { "chapter", "Chapters" },
+}
 local ROW = 50
 local ACH_WIDTH = 700
 local achRows, headers = {}, {}
