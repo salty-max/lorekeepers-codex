@@ -116,8 +116,10 @@ local function ui()
       end
       if k == "Show" then
         return function(self)
+          -- (OnShow on a showing only, as in the game: not on a shown frame)
+          local was = self.shown
           self.shown = true
-          if self.scripts.OnShow then self.scripts.OnShow(self) end
+          if not was and self.scripts.OnShow then self.scripts.OnShow(self) end
         end
       end
       if k == "Hide" then
@@ -240,6 +242,7 @@ local events
 local frames = {}
 function CreateFrame(kind, name)
   local f = ui()
+  f.shown = true -- (a new frame is shown, as in the game)
   f.registered = {}
   f.RegisterEvent = function(self, e)
     if FOREVER and e == "COMBAT_LOG_EVENT_UNFILTERED" then error("COMBAT_LOG_EVENT_UNFILTERED: forbidden") end
