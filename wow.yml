@@ -99,6 +99,8 @@ globals:
     any: true
   LorekeepersCodexSettings:
     any: true
+  MenuUtil:
+    any: true
   MinimalSliderWithSteppersMixin:
     any: true
   Minimap:
@@ -128,6 +130,20 @@ globals:
   SlashCmdList:
     any: true
   TooltipDataProcessor:
+    any: true
+  UIDropDownMenu_AddButton:
+    any: true
+  UIDropDownMenu_CreateInfo:
+    any: true
+  UIDropDownMenu_DisableDropDown:
+    any: true
+  UIDropDownMenu_EnableDropDown:
+    any: true
+  UIDropDownMenu_Initialize:
+    any: true
+  UIDropDownMenu_SetText:
+    any: true
+  UIDropDownMenu_SetWidth:
     any: true
   UIParent:
     any: true
