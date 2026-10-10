@@ -710,6 +710,30 @@ for id, e in pairs(C.entries) do
   if e.chapter == "" and ns.page(id) then loose = loose + 1 end
 end
 check(open == titles + found + loose, "the list shows the pages found, no placeholder for the others")
+-- The pages' select, under the search box: a kind of page.
+local filter = LorekeepersCodexFrame.filter
+check(filter.shown and filter.text:GetText() == "Every kind of page", "the pages' select: every kind at first")
+local places = 0
+for id, e in pairs(C.entries) do
+  if ns.page(id) and e.kind == "place" then places = places + 1 end
+end
+local placeOption
+for k, o in ipairs(filter.options) do
+  if o.value == "place" then placeOption = k end
+end
+check(
+  placeOption and filter.options[placeOption].text == ("Places (%d)"):format(places),
+  "… its kinds, those found, with how many"
+)
+filter.rows[placeOption].scripts.OnClick(filter.rows[placeOption])
+local onlyPlaces = true
+for _, r in ipairs(ns.listRows) do
+  local e = r.shown and C.entries[r.id]
+  if e and e.kind ~= "place" then onlyPlaces = false end
+end
+check(onlyPlaces and shownRows() < open, "… one kind chosen: its pages alone, under their chapters")
+filter.rows[1].scripts.OnClick(filter.rows[1])
+check(shownRows() == open, "… and every kind again")
 local dunRow = chapterRow(CH["dun-morogh"].title)
 check(dunRow ~= nil, "a chapter's title carries a fold")
 dunRow.scripts.OnClick(dunRow)

@@ -195,6 +195,9 @@ local function refresh(scrollToCurrent)
   for _, r in ipairs(rows) do
     r:Hide()
   end
+  -- The select's kind of page ("": every one).
+  local only = ns.filterOf(ns.TAB.pages) or ""
+  local function fits(id) return only == "" or C.entries[id].kind == only end
   local i, y = 0, 0
   local function add(kind, text, id, found, total, chapter)
     i = i + 1
@@ -254,7 +257,10 @@ local function refresh(scrollToCurrent)
   -- While searching, the list is the results.
   local query = book.search and book.search:GetText() or ""
   if query:find("%S") then
-    local results = ns.search(query)
+    local results = {}
+    for _, id in ipairs(ns.search(query)) do
+      if fits(id) then table.insert(results, id) end
+    end
     for _, id in ipairs(results) do
       add("page", nil, id)
     end
@@ -282,17 +288,21 @@ local function refresh(scrollToCurrent)
   end
   -- Loose pages (the foreword) first, then each chapter.
   for id, entry in pairs(C.entries) do
-    if entry.chapter == "" and ns.page(id) then add("page", nil, id) end
+    if entry.chapter == "" and ns.page(id) and fits(id) then add("page", nil, id) end
   end
-  -- A chapter appears once one of its pages is found, with its progress.
+  -- A chapter appears once one of its pages is found, with its progress; one
+  -- kind chosen, the chapters holding a page of it, open, with those alone.
   for _, ch in ipairs(C.chapters) do
-    local found = ns.found(ch)
-    if found > 0 then
+    local found, kept = ns.found(ch), {}
+    for _, id in ipairs(ch.entries) do
+      if ns.page(id) and fits(id) then table.insert(kept, id) end
+    end
+    if found > 0 and #kept > 0 then
       y = y + 4
       add("chapter", ch.title, ("%d/%d"):format(found, #ch.entries), found, #ch.entries, ch.id)
-      if not folded()[ch.id] then
-        for _, id in ipairs(ch.entries) do
-          if ns.page(id) then add("page", nil, id) end
+      if only ~= "" or not folded()[ch.id] then
+        for _, id in ipairs(kept) do
+          add("page", nil, id)
         end
       end
     end
@@ -321,7 +331,7 @@ local function build(b)
   book.foldAll:SetScript("OnEnter", tip)
   book.foldAll:SetScript("OnLeave", function() GameTooltip:Hide() end)
 
-  list = ui.listArea("LorekeepersCodexList", book)
+  list = ui.listArea("LorekeepersCodexList", book, true)
   page = ui.pageArea("LorekeepersCodexPage", book)
   ui.pageHeader(page)
 
@@ -364,7 +374,36 @@ local function show(n)
   if current then showPage(current) end
 end
 
-ns.addTab(ns.TAB.pages, { build = build, show = show, refresh = refresh })
+-- The select's kinds: every one, or a kind of the pages found (with how
+-- many), none not yet met.
+local PLURAL = {
+  place = "Places",
+  figure = "Figures",
+  faction = "Factions and peoples",
+  creature = "Creatures",
+  history = "Histories",
+  note = "Notes",
+  calling = "Callings",
+}
+local ORDER = { "place", "figure", "faction", "creature", "history", "calling", "note" }
+local function kinds()
+  local count = {}
+  for id, e in pairs(C.entries) do
+    if ns.page(id) then count[e.kind] = (count[e.kind] or 0) + 1 end
+  end
+  local out = { { value = "", text = "Every kind of page" } }
+  for _, k in ipairs(ORDER) do
+    if count[k] then table.insert(out, { value = k, text = ("%s (%d)"):format(PLURAL[k], count[k]) }) end
+  end
+  return out
+end
+
+ns.addTab(ns.TAB.pages, {
+  build = build,
+  show = show,
+  refresh = refresh,
+  filter = { default = "", options = kinds },
+})
 
 -- Open the book at a page (a click on a codex link in chat, the banner).
 function ns.open(id)

@@ -111,10 +111,11 @@ local function pageHeader(page)
   page.body:SetSpacing(4)
 end
 
--- The list's and the page's scroll areas, in the book's two panels.
-local function listArea(name, book)
+-- The list's and the page's scroll areas, in the book's two panels
+-- (filtered: the list under the select of a tab with a filter).
+local function listArea(name, book, filtered)
   local s = scrollArea(book.left, ROW_WIDTH, name)
-  s:SetPoint("TOPLEFT", book.left, "TOPLEFT", 12, -40)
+  s:SetPoint("TOPLEFT", book.left, "TOPLEFT", 12, filtered and -70 or -40)
   s:SetPoint("BOTTOMRIGHT", book.left, "BOTTOMRIGHT", -18, 12)
   return s
 end
@@ -133,6 +134,16 @@ ns.TAB = TAB
 -- both panels) }
 local tabs, TAB_TITLES = {}, { "Pages", "Library", "Achievements" }
 function ns.addTab(n, tab) tabs[n] = tab end
+
+-- A tab's choice in its select (the kit's, under the search box: filter =
+-- { default, options() } in its registration), else its default; kept for
+-- the session.
+function ns.filterOf(n)
+  local tab = tabs[n]
+  if not (tab and tab.filter) then return nil end
+  if tab.filterValue == nil then return tab.filter.default end
+  return tab.filterValue
+end
 
 -- The standard game window (portrait: the codex's book; title bar), else a
 -- plain dialog where the client has no such template (Kit.lua).
@@ -157,6 +168,13 @@ function ns.showTab(n)
   book.left:SetShown(not tab.whole)
   book.sheet:SetShown(not tab.whole)
   book.search:SetShown(not tab.whole)
+  if tab.filter and not tab.whole then
+    book.filter:SetOptions(tab.filter.options())
+    book.filter:SetValue(ns.filterOf(n))
+    book.filter:Show()
+  else
+    book.filter:Hide()
+  end
   for _, t in ipairs(tabs) do
     if t.built then t.show(n) end
   end
@@ -186,6 +204,14 @@ local function build()
   book.search:SetPoint("TOPLEFT", book.left, "TOPLEFT", 18, -10)
   book.search:SetPoint("TOPRIGHT", book.left, "TOPRIGHT", -34, -10)
   book.search:HookScript("OnTextChanged", function() ns.refresh() end)
+  -- Under it, the open tab's own select (the pages' kind), if it has one.
+  book.filter = K.select(book.left, 220, "")
+  book.filter:SetPoint("TOPLEFT", book.left, "TOPLEFT", 12, -38)
+  book.filter.onChange = function(value)
+    tabs[book.selectedTab].filterValue = value
+    ns.refresh(true)
+  end
+  book.filter:Hide()
 
   book.selectedTab = TAB.pages
   book:SetScript("OnShow", function() ns.showTab(book.selectedTab) end)

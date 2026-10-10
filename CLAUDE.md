@@ -37,7 +37,9 @@ original lore texts that unlock per character as they play. Sister project of
   in `LorekeepersCodexChar.library`; players' letters never), `Book.lua` (the
   window, its tabs: each a file of its own registered with `ns.addTab`, the
   links in chat, and the kit every tab is made of, `ns.ui`: the look, a list's
-  row, a page's header), `PagesBook.lua`, `LibraryBook.lua`,
+  row, a page's header; a tab's own select under the search box, registered
+  with its tab, `filter = { default, options() }`, its choice `ns.filterOf(n)`:
+  the pages' kind), `PagesBook.lua`, `LibraryBook.lua`,
   `AchievementsBook.lua` (the tabs), `Banner.lua` (the toasts), `Hints.lua`
   (tooltips), `Scan.lua` (`/codex scan`, for writing Forever's pages),
   `Settings.lua` (each character's settings, the kit's profiles: a profile

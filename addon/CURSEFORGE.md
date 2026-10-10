@@ -26,7 +26,7 @@ For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of Wa
 ## The book
 
 - `/codex`, or the book by the minimap, opens it: chapters on the left, the page on the right (an icon of its kind, its chapter, the text), with links to related pages.
-- Search the pages you have found.
+- Search the pages you have found, or show one kind of page at a time (places, figures, peoples, histories...).
 - Chapters fold and unfold, one by one or all at once.
 - No spoilers: you only see the chapters you have opened and the pages you have found.
 
