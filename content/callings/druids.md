@@ -10,6 +10,6 @@ The first druid was Malfurion Stormrage, taught by the demigod Cenarius before t
 
 They wake now, and they are not only night elves: the tauren have druids of their own, and both answer to the Cenarion Circle in Moonglade. A druid takes the shapes of the wild, bear, cat and seal among them, heals with the Dream's green magic and calls the moon and the stars down on enemies.
 
-[forever] The Skyborne have druids among them too, who learned the wild's shapes on an island in the sky.
+[forever] Skyborne druids now practise on both sides of the Alliance's quarrel with the Horde.
 
-Malfurion himself has gone into the Dream and not come back. The druids look for him there, traveller, and look tired when they say so.
+Malfurion himself has gone into the Dream and not come back. For all the Circle's work in the waking world, its greatest teacher remains beyond the reach of an ordinary messenger.

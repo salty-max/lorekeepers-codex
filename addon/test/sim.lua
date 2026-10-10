@@ -878,10 +878,36 @@ check(
 -- ── the two clients ───────────────────────────────────────────────────────────
 check(not ns.available("foreword-skyborne"), "the Skyborne foreword is for the Skyborne")
 ns.unlock("furbolgs")
+local function mentions(id, phrase)
+  for _, paragraph in ipairs(ns.content.entries[id].text) do
+    if paragraph[1]:find(phrase, 1, true) then return true end
+  end
+  return false
+end
 check(
-  (#ns.search("blackmaw") > 0) == FOREVER and (#ns.search("another hold in azshara") > 0) == not FOREVER,
+  mentions("furbolgs", "Blackmaw Hold") == FOREVER
+    and mentions("furbolgs", "closed hold in Azshara") == not FOREVER
+    and mentions("furbolgs", "Timbermaw"),
   "a page shows its Forever paragraphs on Forever only, its Classic ones elsewhere"
 )
+check(
+  mentions("dalaran", "Modera") == FOREVER
+    and mentions("dalaran", "dome of violet light") == not FOREVER
+    and mentions("ironforge", "Hall of Thanes") == FOREVER
+    and mentions("ungoro-crater", "Shapers' Terrace") == FOREVER,
+  "the changed places contain their own world's history without losing shared pages"
+)
+check(
+  mentions("hunters", "Humans now") == FOREVER
+    and mentions("priests", "Gnomes now") == FOREVER
+    and mentions("paladins", "Forsaken now") == FOREVER,
+  "Forever's new callings stay out of the Classic account"
+)
+for id, page in pairs(ns.content.entries) do
+  for _, paragraph in ipairs(page.text) do
+    assert(paragraph[1] ~= "" and not paragraph[1]:match("^%["), id .. ": unreadable prose")
+  end
+end
 ns.content.entries["t-forever"] = entry("Forever only", { always = true })
 ns.content.entries["t-forever"].client = "forever"
 check(ns.available("t-forever") == FOREVER, "a Forever-only page exists only on Forever")

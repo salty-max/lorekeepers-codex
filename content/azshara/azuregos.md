@@ -8,6 +8,8 @@ unlock:
   - npc: 6109
 also: [azshara, the-sundering, the-scepter-of-the-shifting-sands]
 ---
-Azuregos is a blue dragon found in southern Azshara, among ruins left by the Highborne's use of magic. His flight guards that power, and this coast has ample reminders of the reasons such guardians might keep watch.
+Azuregos watches southern Azshara, where the Highborne left enough arcane treasure to occupy a blue dragon for a very long time. His flight guards magic, and this ruined coast has much to explain about why such guardians are needed.
 
-His instructions concerning the Scepter of the Shifting Sands send investigators after the blue shard, held by the great shark Maws. A magical ledger and a device to draw out the shark are part of the task. Read carefully, traveller. An ancient dragon has managed to leave a rather complicated set of instructions for fetching one missing piece.
+His charge also included the blue shard of the Scepter of the Shifting Sands. The search for it leads through a magical ledger and an elaborate means of drawing a great shark called Maws from the Bay of Storms. A missing piece of an ancient sceptre has become a matter of translation, engineering and very large teeth.
+
+There are solemn guardians in the world, traveller. Azuregos's arrangements suggest that centuries of responsibility need not extinguish a dragon's capacity to make work for somebody else.

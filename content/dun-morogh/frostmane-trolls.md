@@ -8,6 +8,6 @@ unlock:
   - area: Frostmane Hold
 also: [kharanos]
 ---
-The Frostmane are the ice trolls of Dun Morogh. Their hold lies west of Kharanos, and their camps reach into the snowy valleys, including Coldridge. Among them are headhunters, seers and shadowcasters; the mountain guards have more to contend with than spears alone.
+The Frostmane occupy the snowy country west of Kharanos and camps as far as Coldridge Valley. Their hold shelters headhunters, seers and shadowcasters, giving the mountaineers more than spearpoints to watch for among the drifts.
 
-Grelin Whitebeard warns of renewed activity, and the guards ask travellers to help meet the threat. You will hear the dwarven account of the quarrel readily enough, traveller. Take care when approaching the camps: the Frostmane have their own means of answering.
+Grelin Whitebeard warns of renewed attacks, and young dwarves are sent out against them almost as soon as they leave home. The quarrel becomes familiar very early: a troll camp beyond the last friendly fire, a report brought back to the guards, and another patrol sent into the same snow.

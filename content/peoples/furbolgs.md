@@ -14,10 +14,10 @@ unlock:
   - kill: 14342, 14372
 also: [burning-legion, sickness-of-teldrassil]
 ---
-The furbolgs are bear-men of the northern forests of Kalimdor, big, slow-spoken and, for most of their long history, peaceful. They were friends of the night elves, and ten thousand years ago they fought beside them against the Burning Legion. Most of them only wanted to be left alone in their woods.
+The furbolgs belong to Kalimdor's northern forests, where their villages and totems have stood beside night elf country for ages. They fought the Burning Legion alongside the elves ten thousand years ago. Their history has room for old friendships, however fiercely a stranger may now be met at a camp.
 
-Something has gone badly wrong with them. Tribe after tribe has fallen into a madness: the Gnarlpine on Teldrassil, the Blackwood of Darkshore, the Thistlefur and Foulweald in Ashenvale, the Deadwood in Felwood, the Winterfall in Winterspring. The night elves blame the demons' corruption that soaks the land, and in Felwood, at least, they are surely right.
+Tribe after tribe has suffered corruption: the Gnarlpine of Teldrassil, the Blackwood of Darkshore, the Deadwood of Felwood and the Winterfall of Winterspring among them. The madness has turned neighbours into enemies. In Felwood, the poisoned land gives the night elves ample reason to blame the Legion's taint.
 
-[classic] The Timbermaw have kept their minds. They hold the tunnels between Felwood, Winterspring and Moonglade, and have another hold in Azshara. They distrust outsiders, but they are slowly coming to respect those who help them against their poisoned kin.
+[classic] The Timbermaw have resisted that fate. They guard the tunnels joining Felwood, Moonglade and Winterspring, and another closed hold in Azshara. Help against their corrupted kin can slowly earn a traveller their trust.
 
-[forever] The Timbermaw have kept their minds. They hold the tunnels between Felwood, Winterspring and Moonglade. They distrust outsiders, but they are slowly coming to respect those who help them against their poisoned kin. Their old hold in Azshara goes by another name now, Blackmaw Hold, and those who go into it go armed.
+[forever] The Timbermaw still guard the tunnels joining Felwood, Moonglade and Winterspring, and can be won over by help against their corrupted kin. Azshara's Blackmaw Hold belongs to a separate tribe, one that has succumbed to corruption.

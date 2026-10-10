@@ -9,8 +9,8 @@ unlock:
   - kill: 12467, 12468, 14388
 also: [red-dragonflight, blackrock-clan, great-masquerade, katrana-prestor]
 ---
-Neltharion was the Earth-Warder, charged with guarding the world's deep places. His betrayal of the other dragonflights gave him the name Deathwing. After the Second War he entered the councils of human kings as Lord Prestor, hiding a dragon behind a nobleman's face. He escaped the Aspects after the struggle at Grim Batol; his present refuge is unknown in these accounts.
+Neltharion was the Earth-Warder, charged with the world's deep places. His betrayal of the other dragonflights gave him the name Deathwing. After the Second War he entered the councils of human kings as Lord Prestor, hiding a dragon behind a nobleman's face. He escaped the Aspects after the struggle at Grim Batol; where he has withdrawn remains unknown.
 
-His children occupy places we can name. Onyxia keeps a lair and brood in Dustwallow Marsh. Nefarian holds Blackrock Spire, commands its orcs and breeds chromatic dragons above them. Black whelps nest in Redridge, the Badlands and the Burning Steppes, while armed dragonspawn serve the flight on the ground.
+His children occupy places we can name. Onyxia keeps her brood in Dustwallow Marsh. Nefarian holds Blackrock Spire, commands its orcs and breeds chromatic dragons above them. Black whelps inhabit Redridge and the Badlands, while dragonspawn guard the flight's greater holdings.
 
-A black dragon's power includes choosing when to appear as something else. Remember Lord Prestor if a courtier's knowledge and loyalties begin to trouble you.
+The lairs are formidable enough. Lord Prestor showed what a black dragon could accomplish with a seat at a council table.

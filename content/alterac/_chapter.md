@@ -2,4 +2,4 @@
 title: Alterac Mountains
 order: 12
 ---
-A fallen kingdom in the snows, a sealed city of mages, and a valley two peoples claim.
+A fallen kingdom in the snows, Dalaran beside the lake, and a valley two peoples claim.

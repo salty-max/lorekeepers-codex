@@ -8,6 +8,6 @@ unlock:
   - quest: 1014
 also: [shadowfang-keep, worgen, pyrewood-village]
 ---
-As Dalaran's defenders fell to the Scourge, the Kirin Tor mage Arugal sought a weapon against the dead. He summoned worgen from another world. They attacked the Scourge, then turned on the living they had been brought to protect.
+As Dalaran's defenders fell to the Scourge, Arugal sought a weapon against the dead. The Kirin Tor mage summoned worgen from another world. They fought the invaders, then turned upon the living they had been called to protect.
 
-Arugal went mad and withdrew to Shadowfang Keep with the worgen he called his children. He also laid a curse upon Pyrewood. A Forsaken mage studying his spells calls him a fool and a charlatan, and questions his admission to the Kirin Tor. Such criticism comes readily from an enemy, but Silverpine bears ample evidence of what followed his experiment.
+Arugal withdrew to Shadowfang Keep and came to regard the worgen as his children. Nearby Pyrewood suffered his curse, its people changed after nightfall. What began as an attempt to save one city has left a keep and a village in the grip of his answer.

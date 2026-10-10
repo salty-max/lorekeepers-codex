@@ -6,6 +6,10 @@ unlock:
   - area: Alterac Mountains
 also: [dalaran, treason-of-alterac, alterac-valley, syndicate, ogres]
 ---
-The Alterac Mountains are high and cold and hard, a land of snowfields, pine and ruin north of Hillsbrad. They were a kingdom once, small and proud, and the kingdom betrayed its neighbours; you will find that story elsewhere in this ledger. What remains are broken castles, Syndicate thieves in the empty towns, ogres in the hills and yetis in the caves.
+Snow covers much of Alterac, but it has done little to conceal the kingdom's fall. Broken castles stand above Syndicate-held towns, ogres occupy the old capital, and the roads climb past caves that now belong to yetis. These were once the heights of a small, proud human realm whose king betrayed the Alliance in the Second War.
 
-Two things in these mountains are not ruins. On the shore of Lordamere Lake the mages of Dalaran are rebuilding their city behind a dome of violet light. And deep in the south, in a valley sheltered from the world, two peoples are at war over who it belongs to.
+[classic] Beside Lordamere Lake, a violet dome encloses Dalaran's rebuilding. The mages have survived the destruction of their city and begun again, though they admit few witnesses to the work.
+
+[forever] Beside Lordamere Lake, Dalaran's rebuilding has run into another calamity. Disrupted ley lines have turned the city's constructs against its inhabitants, and Archmage Modera is seeking the outside help the council would prefer not to need.
+
+Farther into the mountains, the Frostwolves and Stormpike fight over Alterac Valley. The kingdom has vanished, traveller; the arguments over who may live in its hills have outlasted it.

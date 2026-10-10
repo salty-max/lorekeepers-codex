@@ -6,9 +6,9 @@ unlock:
   - calling: MAGE
 also: [dalaran, jaina-proudmoore, archmage-arugal]
 ---
-The human art of magic began with a hundred students. During the Troll Wars, the high elves of Quel'Thalas taught them to work spells in exchange for help against the Amani, and their heirs founded Dalaran and its ruling council, the Kirin Tor. For centuries every human mage was trained or watched there.
+The human art of magic began with a hundred students. During the Troll Wars, the high elves of Quel'Thalas taught them to work spells in exchange for help against the Amani, and their heirs founded Dalaran and its ruling council, the Kirin Tor. The city became the great centre of human arcane learning.
 
-Dalaran fell in the Third War, and its students scattered: to Theramore with Jaina Proudmoore, to Stormwind, to the Undercity among the Forsaken, some of whom studied there in their first lives. The gnomes had their own masters, and the Darkspear their own arts long before the younger races wrote any of it down.
+Dalaran fell in the Third War, and its students scattered: to Theramore with Jaina Proudmoore, to Stormwind, to the Undercity among the Forsaken, some of whom studied there in their first lives. Gnomes and Darkspear trolls have mages of their own. A Kirin Tor education is one road into the art, though its graduates sometimes speak as if it were the only one.
 
 [forever] Orcs have been seen at the mages' trade too, and the Skyborne's High Order has come down looking for the arcane lore their people lost.
 

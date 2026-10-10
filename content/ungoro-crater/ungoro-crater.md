@@ -6,6 +6,8 @@ unlock:
   - area: Un'Goro Crater
 also: [marshals-refuge, crystal-pylons, fire-plume-ridge, silithid, earth-mother]
 ---
-Un'Goro Crater is a great bowl sunk in the deserts of the south, between Tanaris and Silithus, full of a steaming jungle that belongs to another age. Dinosaurs walk here, devilsaurs as big as houses, raptors, stegodons and pterrordaxes, and great apes in the north. The tauren who come here say the beasts are nobler versions of the creatures of the world outside, and that the crater cries of the Earth Mother.
+Un'Goro is a steaming green bowl sunk between the deserts of Tanaris and Silithus. Devilsaurs stride through its jungle, stegodons and great apes inhabit the basin, and pterrordaxes circle above it. The tauren who travel here speak of creatures nobler than their counterparts outside, and of the crater's connection to the Earth Mother.
 
-There are hot springs, tar pits, a volcano in the middle and strange coloured crystals everywhere in the ground, which nobody can explain. The silithid have a hive in the south. The only safe place in the whole crater is a single camp on a ledge in the north.
+Tar pits, hot springs and Fire Plume Ridge divide the forest, with a silithid hive in the south. At Marshal's Refuge, the expedition studies a country that seems to have preserved another age. J.D. Collie's experiments with the coloured crystals have begun to reveal their uses; their origin remains a larger question.
+
+[forever] The Shapers' Terrace opens another part of that ancient enquiry. Its presence adds to what explorers can examine, without settling every question raised by the life and strange works of the crater.

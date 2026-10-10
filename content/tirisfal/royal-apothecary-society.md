@@ -7,6 +7,8 @@ unlock:
   - npc: 2055
 also: [the-forsaken, brill, scourge]
 ---
-Master Faranell leads the Royal Apothecary Society, the Forsaken's institution of alchemy, poison and plague. Sylvanas has charged it with creating a new sickness powerful enough to destroy the Lich King's Scourge. That is the purpose its apothecaries proclaim.
+Master Faranell's Royal Apothecary Society serves the Forsaken with alchemy, poisons and the promise of a new plague. Sylvanas has charged its members with finding a disease that can destroy the Lich King's Scourge. Their preparations reach far beyond the laboratories of the Undercity.
 
-Their work extends through Brill, Hillsbrad and Arathi, with experiments on beasts, murlocs and prisoners. One apothecary describes his brew as a foretaste of the Dark Lady's plans for the rest of Azeroth. Alliance agents in Southshore have begun asking questions. The stated enemy and the people made to suffer in the experiments deserve separate lines in the record.
+In Brill and Hillsbrad, travellers gather blood and other ingredients for experiments on beasts, murlocs and prisoners. Apothecary Lydon looks out over Hillsbrad's flowering country and longs to see his work bring death to it. Whatever the Society's declared enemy, his ambitions plainly include the living.
+
+The Forsaken know better than most what it means to have a plague take one's home. That knowledge has not made all of their apothecaries reluctant to visit the same misery on someone else's.
