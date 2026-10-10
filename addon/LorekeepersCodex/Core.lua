@@ -87,7 +87,8 @@ end
 -- quietly (Unlocks.lua's catch-up), and the book's buttons.
 function ns.login()
   local guid = UnitGUID("player")
-  if ns.belongsTo(LorekeepersCodexChar, guid, UnitLevel("player"), UnitXP("player")) then
+  local before = ns.belongsTo(LorekeepersCodexChar, guid, UnitLevel("player"), UnitXP("player"))
+  if before then
     char = LorekeepersCodexChar
     char.guid = guid
     char.entries = char.entries or {}
@@ -97,6 +98,7 @@ function ns.login()
   else
     newCodex(guid)
   end
+  ns.loadProfile(before)
   ns.startUnlocks()
   ns.createMinimapButton()
   ns.createSettingsPanel()
@@ -125,7 +127,9 @@ end
 
 -- ── /codex ───────────────────────────────────────────────────────────────────
 local USAGE = "/codex opens the book; /codex achievements; /codex settings; /codex banner shows or hides the "
-  .. "alerts; /codex minimap shows or hides the button; /codex reset starts this character's codex over."
+  .. "alerts; /codex minimap shows or hides the button; /codex welcome shows the welcome page again; /codex "
+  .. "export gives this character's settings as a code, /codex import CODE takes them; /codex reset starts this "
+  .. "character's codex over."
 
 local function where()
   -- For writing content: where am I, in the terms the content files use.
@@ -150,7 +154,8 @@ end
 SLASH_LOREKEEPERSCODEX1 = "/codex"
 SLASH_LOREKEEPERSCODEX2 = "/lorekeeper"
 SlashCmdList.LOREKEEPERSCODEX = function(msg)
-  msg = strtrim((msg or ""):lower())
+  local raw = strtrim(msg or "")
+  msg = raw:lower()
   local scan = msg:match("^scan%s*(%a*)$")
   if msg == "" then
     ns.toggle()
@@ -163,6 +168,16 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
     ns.catchUp()
     ns.refresh()
     print(PREFIX .. ("the codex starts afresh: %d of %d pages."):format(ns.count(), ns.knownTotal()))
+  elseif msg == "welcome" then
+    ns.showWelcome()
+  elseif msg == "export" then
+    ns.showWelcome("export")
+  elseif msg:match("^import%s") then
+    if ns.profiles:import(raw:match("^%a+%s+(.+)$")) then
+      print(PREFIX .. "settings imported for this character.")
+    else
+      print(PREFIX .. "that isn't a Lorekeeper's Codex settings code (/codex export makes one).")
+    end
   elseif msg == "banner" then
     ns.setOption("banner", not ns.option("banner"))
     print(

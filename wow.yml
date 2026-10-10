@@ -57,6 +57,8 @@ globals:
     any: true
   GetQuestText:
     any: true
+  GetRealmName:
+    any: true
   GetRealZoneText:
     any: true
   GetRewardText:
@@ -64,6 +66,8 @@ globals:
   GetSubZoneText:
     any: true
   GetTitleText:
+    any: true
+  InCombatLockdown:
     any: true
   IsQuestFlaggedCompleted:
     any: true

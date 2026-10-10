@@ -1,10 +1,31 @@
--- The addon's settings, kept for the whole account in LorekeepersCodexSettings,
--- and their page in the game's Options (AddOns tab). /codex settings opens it;
--- so does a right-click on the minimap button.
+-- The addon's settings, each character's own (its profile, "Name - Realm",
+-- the kit's: Kit.lua), all kept in LorekeepersCodexSettings so that one
+-- character can take another's: chosen among this game's characters, or
+-- brought by a code (/codex export, /codex import CODE). Their page in the
+-- game's Options (AddOns tab): /codex settings, or a right-click on the
+-- minimap button; the welcome page (Welcome.lua) offers them too.
+--
+--   LorekeepersCodexSettings.profiles["Name - Realm"] = { banner,
+--     bannerSeconds, chat, sound, tooltipHints, minimapHidden, minimapAngle,
+--     welcomed }
+--   (the account-wide values of 0.8.0 and before, at the top of the table:
+--   the first profile of a character who kept a codex before takes them)
 local _, ns = ...
+local K = ns.kit
 
-local DEFAULTS =
-  { banner = true, bannerSeconds = 10, chat = true, sound = -1, minimapHidden = false, tooltipHints = true }
+-- (minimapAngle: the button's place around the minimap, in degrees; 200 is
+-- lower left, clear of the game's buttons; welcomed: never copied)
+local DEFAULTS = {
+  banner = true,
+  bannerSeconds = 10,
+  chat = true,
+  sound = -1,
+  minimapHidden = false,
+  minimapAngle = 200,
+  tooltipHints = true,
+  welcomed = false,
+}
+local SHARED = { "banner", "bannerSeconds", "chat", "sound", "tooltipHints", "minimapHidden", "minimapAngle" }
 
 -- Sounds for a new page: all from the original game's interface. -1 is the
 -- sting heard on discovering a new zone, which differs by race.
@@ -18,19 +39,45 @@ ns.SOUNDS = {
   { 0, "None" },
 }
 
-function ns.option(key)
-  LorekeepersCodexSettings = LorekeepersCodexSettings or {}
-  local v = LorekeepersCodexSettings[key]
-  if v == nil then return DEFAULTS[key] end
-  return v
-end
+-- The profiles: a code "LC1:b1:d10:c1:s-1:t1:h0:a200" (the alert and its
+-- seconds, chat, the sound, tooltip hints, the minimap button hidden, its angle).
+local P = K.profiles({
+  saved = function()
+    if type(LorekeepersCodexSettings) ~= "table" then LorekeepersCodexSettings = {} end
+    return LorekeepersCodexSettings
+  end,
+  defaults = DEFAULTS,
+  shared = SHARED,
+  letters = {
+    banner = "b",
+    bannerSeconds = "d",
+    chat = "c",
+    sound = "s",
+    tooltipHints = "t",
+    minimapHidden = "h",
+    minimapAngle = "a",
+  },
+  tag = "LC1",
+  changed = function(key)
+    if key == "banner" and not ns.option("banner") then ns.hideBanner() end
+    if key == "minimapHidden" or key == "minimapAngle" then ns.updateMinimapButton() end
+  end,
+})
+ns.profiles = P
 
-function ns.setOption(key, value)
-  LorekeepersCodexSettings = LorekeepersCodexSettings or {}
-  LorekeepersCodexSettings[key] = value
-  if key == "banner" and not value then ns.hideBanner() end
-  if key == "minimapHidden" then ns.updateMinimapButton() end
+-- This character's profile at its login: its own, else a new one (the
+-- account's old values for a character who kept a codex before, the
+-- defaults for a new one).
+function ns.loadProfile(before)
+  P:load(function(profile, saved)
+    if not before then return end
+    for _, k in ipairs(SHARED) do
+      profile[k] = saved[k]
+    end
+  end)
 end
+function ns.option(key) return P:get(key) end
+function ns.setOption(key, value) P:set(key, value) end
 
 -- The exploration sound kit of each race (Undead's token is Scourge).
 local DISCOVERY =
@@ -124,6 +171,15 @@ function ns.createSettingsPanel()
     "Minimap button",
     "The book by the minimap: click to open the codex, drag to move it.",
     true
+  )
+
+  -- Another character's settings (of this game), for this one.
+  K.copySetting(
+    category,
+    "LOREKEEPERSCODEX_COPYFROM",
+    P,
+    "Another character's choices, for this one (of this game: Classic and Forever keep their own). From elsewhere: /codex export there, then /codex import CODE here.",
+    function(other) print(ns.PREFIX .. ("%s's settings copied."):format(other)) end
   )
 
   Settings.RegisterAddOnCategory(category)

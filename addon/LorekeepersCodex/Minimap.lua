@@ -1,20 +1,13 @@
 -- The book's button on the minimap: click to open the codex, drag to move it
--- around the minimap. Its place (and whether it shows) is kept for the whole
--- account in LorekeepersCodexSettings. Built with the textures of the game's
+-- around the minimap. Its place (and whether it shows) is kept with this
+-- character's settings (Settings.lua). Built with the textures of the game's
 -- own minimap buttons (the tracking button's border, the zoom highlight).
 local _, ns = ...
 
 local button
 
-local function settings()
-  LorekeepersCodexSettings = LorekeepersCodexSettings or {}
-  local s = LorekeepersCodexSettings
-  if s.minimapAngle == nil then s.minimapAngle = 200 end -- lower left, clear of the game's buttons
-  return s
-end
-
 local function place()
-  local angle = math.rad(settings().minimapAngle)
+  local angle = math.rad(ns.option("minimapAngle"))
   local r = Minimap:GetWidth() / 2 + 10
   button:ClearAllPoints()
   button:SetPoint("CENTER", Minimap, "CENTER", math.cos(angle) * r, math.sin(angle) * r)
@@ -25,8 +18,7 @@ local function follow()
   local mx, my = Minimap:GetCenter()
   local cx, cy = GetCursorPosition()
   local scale = Minimap:GetEffectiveScale()
-  settings().minimapAngle = math.deg(math.atan2(cy / scale - my, cx / scale - mx))
-  place()
+  ns.setOption("minimapAngle", math.deg(math.atan2(cy / scale - my, cx / scale - mx)))
 end
 
 function ns.createMinimapButton()
@@ -80,5 +72,7 @@ function ns.createMinimapButton()
 end
 
 function ns.updateMinimapButton()
-  if button then button:SetShown(not ns.option("minimapHidden")) end
+  if not button then return end
+  place()
+  button:SetShown(not ns.option("minimapHidden"))
 end

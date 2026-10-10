@@ -34,6 +34,8 @@ function strsplit(sep, s)
   return unpack(out)
 end
 function strtrim(s) return (s:gsub("^%s+", ""):gsub("%s+$", "")) end
+function GetRealmName() return "Nightslayer" end
+function InCombatLockdown() return false end
 tinsert = table.insert
 function UnitLevel() return state.level end
 function UnitName(u) return u == "target" and "King Magni Bronzebeard" or "Thorin" end
@@ -71,6 +73,7 @@ end
 local ticker
 local timers = {}
 C_Timer = {
+  After = function(_, fn) fn() end,
   NewTicker = function(_, fn) ticker = fn end,
   NewTimer = function(seconds, fn)
     local t = { seconds = seconds, fn = fn }
@@ -118,7 +121,17 @@ local function ui()
         end
       end
       if k == "Hide" then
-        return function(self) self.shown = false end
+        return function(self)
+          local was = self.shown
+          self.shown = false
+          if was and self.scripts.OnHide then self.scripts.OnHide(self) end
+        end
+      end
+      if k == "SetChecked" then
+        return function(self, v) self.checked = v and true or false end
+      end
+      if k == "GetChecked" then
+        return function(self) return rawget(self, "checked") or false end
       end
       if k == "SetShown" then
         return function(self, v)
@@ -194,7 +207,7 @@ MinimalSliderWithSteppersMixin = { Label = { Right = 2 } }
 -- The game's settings panel: keep what the addon registers.
 local panel = { settings = {}, opened = nil }
 Settings = {
-  VarType = { Boolean = "boolean", Number = "number" },
+  VarType = { Boolean = "boolean", Number = "number", String = "string" },
   RegisterVerticalLayoutCategory = function(name)
     panel.name = name
     return { GetID = function() return 42 end }
@@ -205,7 +218,10 @@ Settings = {
     return s
   end,
   CreateCheckbox = function() end,
-  CreateDropdown = function(_, _, options) panel.options = options end,
+  CreateDropdown = function(_, setting, options)
+    setting.options = options
+    panel.options = panel.options or options -- (the first: the sound's)
+  end,
   CreateSliderOptions = function(min, max, step)
     return { min = min, max = max, step = step, SetLabelFormatter = function(self, _, fn) self.format = fn end }
   end,
@@ -237,9 +253,12 @@ function CreateFrame(kind, name)
   if name then _G[name] = f end
   return f
 end
+-- An event, to every frame that registered it (the addon's, the kit's).
 local function fire(e, ...)
   assert(events.registered[e], "not registered: " .. e)
-  events.scripts.OnEvent(events, e, ...)
+  for _, f in ipairs(frames) do
+    if f.registered[e] and f.scripts.OnEvent then f.scripts.OnEvent(f, e, ...) end
+  end
 end
 
 -- ── load the addon, with test entries for the unlocks the content doesn't use yet ─
@@ -366,8 +385,8 @@ check(
 )
 LorekeepersCodexFrame:Hide()
 check(
-  LorekeepersCodexMinimapButton ~= nil and LorekeepersCodexSettings.minimapAngle ~= nil,
-  "a minimap button, its place saved for the account"
+  LorekeepersCodexMinimapButton ~= nil and ns.option("minimapAngle") == 200,
+  "a minimap button, at its place (this character's settings)"
 )
 check(has("dun-morogh"), "being in Dun Morogh unlocks the zone's page")
 check(has("t-quest") and LorekeepersCodexChar.entries["t-quest"].retro, "a quest done before the codex unlocks quietly")
@@ -492,10 +511,7 @@ LorekeepersCodexMinimapButton.scripts.OnClick()
 check(LorekeepersCodexFrame.shown, "the minimap button opens the book")
 LorekeepersCodexFrame:Hide()
 SlashCmdList.LOREKEEPERSCODEX("minimap")
-check(
-  LorekeepersCodexSettings.minimapHidden and not LorekeepersCodexMinimapButton.shown,
-  "/codex minimap hides the button"
-)
+check(ns.option("minimapHidden") and not LorekeepersCodexMinimapButton.shown, "/codex minimap hides the button")
 SlashCmdList.LOREKEEPERSCODEX("minimap")
 SlashCmdList.LOREKEEPERSCODEX("banner")
 check(panel.settings.LOREKEEPERSCODEX_BANNER.get() == false, "the settings page follows /codex banner")
@@ -524,6 +540,61 @@ for _, o in ipairs(panel.options()) do
   table.insert(labels, o.label)
 end
 check(#labels == #ns.SOUNDS and labels[#labels] == "None", "the sound can be chosen, or none")
+
+-- Settings are each character's own (the kit's profiles); the welcome page
+-- offers them once per character, and another character's to take.
+local P = ns.profiles
+local kept = {}
+for _, k in ipairs({ "banner", "bannerSeconds", "chat", "sound", "tooltipHints", "minimapHidden", "minimapAngle" }) do
+  kept[k] = ns.option(k)
+end
+check(
+  P:key() == "Thorin - Nightslayer" and LorekeepersCodexSettings.profiles["Thorin - Nightslayer"],
+  "settings: this character's own profile"
+)
+fire("PLAYER_ENTERING_WORLD", true, false)
+local W = ns.welcome
+check(W.frame and W.frame.shown and #W.rows == 5, "the first login: the welcome page and its five choices")
+local soundRow = W.rows[3]
+check(soundRow.select and soundRow.select:GetValue() == ns.option("sound"), "… the sound in a select, as it is")
+soundRow.select.scripts.OnClick(soundRow.select)
+soundRow.select.rows[2].scripts.OnClick(soundRow.select.rows[2])
+check(ns.option("sound") == 878 and lastSound == 878, "… a sound chosen there is heard and kept")
+W.frame:Hide()
+fire("PLAYER_ENTERING_WORLD", true, false)
+check(not W.frame.shown and ns.option("welcomed"), "… seen once")
+LorekeepersCodexSettings.profiles["Brann - Nightslayer"] = { chat = false, sound = 0, banner = false }
+SlashCmdList.LOREKEEPERSCODEX("welcome")
+local pick = W.picker.select
+check(pick.rows[1].text:GetText() == "Brann - Nightslayer", "… another character of this game, in its select")
+pick.rows[1].scripts.OnClick(pick.rows[1])
+W.picker.copy.scripts.OnClick(W.picker.copy)
+check(
+  ns.option("chat") == false
+    and ns.option("sound") == 0
+    and ns.option("banner") == false
+    and ns.option("bannerSeconds") == 10
+    and not W.rows[1].box:GetChecked(),
+  "… its choices copied (what it lacks: the defaults), the boxes with them"
+)
+local code = P:export()
+check(code:match("^LC1:") and code:find(":s0:", 1, true), "… a code for them: " .. code)
+SlashCmdList.LOREKEEPERSCODEX("import LC1:c1:s-1:b1")
+check(
+  ns.option("chat") and ns.option("sound") == -1 and ns.option("banner"),
+  "… /codex import CODE (a negative number too)"
+)
+check(not P:import("HT1:c1") and ns.option("chat"), "… another addon's code refused")
+local copyFrom = panel.settings.LOREKEEPERSCODEX_COPYFROM
+check(
+  copyFrom and copyFrom.options()[2].value == "Brann - Nightslayer",
+  "… the Options page offers the other characters too"
+)
+W.frame:Hide()
+LorekeepersCodexSettings.profiles["Brann - Nightslayer"] = nil
+for k, v in pairs(kept) do
+  ns.setOption(k, v)
+end
 
 -- ── the book ─────────────────────────────────────────────────────────────────
 SlashCmdList.LOREKEEPERSCODEX("")
@@ -587,9 +658,9 @@ check(hover(2091) == "Lorekeeper's Codex: a page to find", "a creature that unlo
 ns.unlock("magni-bronzebeard")
 check(hover(2784) == "Lorekeeper's Codex: King Magni Bronzebeard", "… and names the page once it is found")
 check(hover(99999) == "", "creatures with no page get no line")
-LorekeepersCodexSettings.tooltipHints = false
+ns.setOption("tooltipHints", false)
 check(hover(2091) == "", "hints can be turned off")
-LorekeepersCodexSettings.tooltipHints = true
+ns.setOption("tooltipHints", true)
 local function has_(list, id)
   for _, v in ipairs(list) do
     if v == id then return true end
@@ -979,7 +1050,7 @@ AlertFrame_SetDuration = function(frame, seconds) durations[frame] = seconds end
 AlertFrame_OnClick = function(_, button) return button == "RightButton" end
 -- The shield's OnLoad: the addon stood one in at load (Classic Era has no
 -- achievement window; Forever's doesn't define it).
-LorekeepersCodexSettings.banner = true
+ns.setOption("banner", true)
 ns.hideBanner()
 local pid
 for id in pairs(C.entries) do

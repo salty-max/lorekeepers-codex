@@ -22,5 +22,6 @@ AchievementsBook.lua
 Minimap.lua
 Banner.lua
 Settings.lua
+Welcome.lua
 Hints.lua
 Scan.lua

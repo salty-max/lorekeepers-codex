@@ -47,7 +47,9 @@ Each game has its own file: pick the one for yours (the CurseForge app does it f
 
 ## Settings
 
-Options → AddOns → Lorekeeper's Codex (or `/codex settings`, or right-click the minimap button): alerts and how long they stay, chat announcements, the sound, tooltip hints, the minimap button.
+The first time each character logs in with the codex, a welcome page introduces it and offers its choices (`/codex welcome` shows it again). After that: Options → AddOns → Lorekeeper's Codex (or `/codex settings`, or right-click the minimap button): alerts and how long they stay, chat announcements, the sound, tooltip hints, the minimap button.
+
+Settings are each character's own, as in most interface addons. A character can take another's: choose one of your characters of the same game from a list (on the welcome page or the Options page), or bring them from anywhere with a code: `/codex export` on one character, `/codex import CODE` on the other.
 
 Other commands: `/codex achievements` opens the achievements; `/codex minimap` shows or hides the button; `/codex reset` starts a character's codex over (it asks first); `/codex where` prints your position (for writing pages).
 

@@ -39,7 +39,16 @@ original lore texts that unlock per character as they play. Sister project of
   links in chat, and the kit every tab is made of, `ns.ui`: the look, a list's
   row, a page's header), `PagesBook.lua`, `LibraryBook.lua`,
   `AchievementsBook.lua` (the tabs), `Banner.lua` (the toasts), `Hints.lua`
-  (tooltips), `Scan.lua` (`/codex scan`, for writing Forever's pages).
+  (tooltips), `Scan.lua` (`/codex scan`, for writing Forever's pages),
+  `Settings.lua` (each character's settings, the kit's profiles: a profile
+  "Name - Realm" in LorekeepersCodexSettings, the minimap button's place among
+  them; copied from another character of this game or from a code `LC1:...`,
+  `/codex export` and `/codex import CODE`; a character who kept a codex before
+  starts from the account's old values; the Options page, its "Copy settings
+  from"), `Welcome.lua` (the kit's welcome page, once per character, `/codex
+  welcome`: the logo, `Media/Logo.tga` from `assets/logo.png` with magick,
+  what the codex is, the choices and another character's; the packages carry
+  `Media/`).
 - `addon/test/sim.lua`: fake WoW API + a replayed session; the UI runs against a
   permissive stub (catches Lua errors, not layout).
 

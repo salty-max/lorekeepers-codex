@@ -33,6 +33,7 @@ for (const game of GAMES) {
     cpSync(join(SRC, f), join(dir, f));
   }
   cpSync(join(SRC, game.content), join(dir, "Content.lua"));
+  cpSync(join(SRC, "Media"), join(dir, "Media"), { recursive: true }); // (the logo, for the welcome page)
   writeFileSync(join(dir, "LorekeepersCodex.toc"), toc.replace("@INTERFACE@", game.interface));
   if (!process.argv.includes("--no-zip")) {
     const zip = join(DIST, `LorekeepersCodex-${game.name}.zip`);
