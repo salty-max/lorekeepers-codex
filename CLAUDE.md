@@ -16,7 +16,9 @@ original lore texts that unlock per character as they play. Sister project of
   TBC Anniversary, 20506; `_Camelot.toc`: Forever, 16001), the same but for
   the interface and the game's data (`Content_Classic.lua` or
   `Content_Forever.lua`). `scripts/package.ts` (`bun run package`) checks they
-  agree and zips `dist/LorekeepersCodex.zip` for a test in the game.
+  agree and zips `dist/LorekeepersCodex-<version>.zip` for a test in the game
+  (`git describe`: the tag, or v0.9.2-2-g1234abc between two, -dirty if
+  changed); a release's is `LorekeepersCodex-vX.Y.Z.zip`.
 - `data/areas.json`: the client's AreaTable (wago.tools, `bun scripts/areas.ts`):
   place names in content resolve to area ids, so unlocks work in every language.
   `data/areas-forever.json`: the areas Forever adds (the beta's table, pinned;
