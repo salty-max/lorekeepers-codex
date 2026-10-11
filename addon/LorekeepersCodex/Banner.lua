@@ -106,7 +106,7 @@ end
 
 -- ── the game's toasts ─────────────────────────────────────────────────────────
 local PAGE_TOAST, ACHIEVEMENT_TOAST = "NewRecipeLearnedAlertFrameTemplate", "AchievementAlertFrameTemplate"
-local BOOK = "Interface\\Icons\\INV_Misc_Book_09"
+local BOOK = "Interface\\AddOns\\LorekeepersCodex\\Media\\Logo"
 local pageToasts, achievementToasts
 
 -- How long a toast stays: the banner's setting (0: until read or dismissed).
@@ -212,7 +212,7 @@ function ns.showAchievementBanner(id)
   if not banner then build() end
   banner.id, banner.achievement = false, id
   banner.picture:Show()
-  banner.picture.tex:SetTexture("Interface\\Icons\\INV_Misc_Book_09")
+  banner.picture.tex:SetTexture("Interface\\AddOns\\LorekeepersCodex\\Media\\Logo")
   banner.picture.tex:SetTexCoord(0.08, 0.92, 0.08, 0.92)
   fill("Achievement earned", a.title, true)
 end

@@ -182,7 +182,7 @@ function ns.showTab(n)
 end
 
 local function build()
-  local window = K.gameWindow("LorekeepersCodexFrame", TITLE, "Interface\\Icons\\INV_Misc_Book_09")
+  local window = K.gameWindow("LorekeepersCodexFrame", TITLE, "Interface\\AddOns\\LorekeepersCodex\\Media\\Logo")
   book = window or K.dialog("LorekeepersCodexFrame", TITLE)
   K.movable(book, 780, 560)
 

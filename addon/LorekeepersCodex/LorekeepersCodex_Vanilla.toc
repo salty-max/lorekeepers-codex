@@ -5,7 +5,7 @@
 ## Version: 0.9.3
 ## SavedVariablesPerCharacter: LorekeepersCodexChar
 ## SavedVariables: LorekeepersCodexSettings, LorekeepersCodexScan
-## IconTexture: Interface\Icons\INV_Misc_Book_09
+## IconTexture: Interface\AddOns\LorekeepersCodex\Media\Logo
 ## X-Website: https://github.com/salty-max/lorekeepers-codex
 ## X-License: MIT
 ## X-Curse-Project-ID: 1727545
