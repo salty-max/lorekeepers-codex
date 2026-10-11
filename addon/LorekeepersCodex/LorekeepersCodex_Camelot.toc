@@ -2,7 +2,7 @@
 ## Title: Lorekeeper's Codex
 ## Notes: The lore of Azeroth, written for you as you explore: each zone, figure of legend, people and quest you meet adds a page to your codex.
 ## Author: salty-max
-## Version: 0.9.3
+## Version: 0.9.4
 ## SavedVariablesPerCharacter: LorekeepersCodexChar
 ## SavedVariables: LorekeepersCodexSettings, LorekeepersCodexScan
 ## IconTexture: Interface\AddOns\LorekeepersCodex\Media\Logo
