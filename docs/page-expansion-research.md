@@ -1,7 +1,8 @@
 # Codex page expansion research
 
-Researched 11 October 2026. This is a proposed shortlist, not approved additions
-to PLAN.md. No entries, unlocks or generated content were changed.
+Researched 11 October 2026; cross-media follow-up 12 October 2026. This is a
+proposed shortlist, not approved additions to PLAN.md. No entries, unlocks or
+generated content were changed.
 
 ## Recommendation
 
@@ -9,6 +10,10 @@ Add depth to encounters the player already has. The strongest gaps are stories
 behind familiar ships, monuments, wanderers and factions, rather than another
 round of small settlements and caves. Start with the nine pages below, then
 choose from the reserves only where a distinct story survives the overlap check.
+
+The cross-media follow-up below adds Drek'Thar as a strong candidate and promotes
+Orgrim Doomhammer from the reserves. It also identifies existing pages that can
+gain depth from fiction without needing another page on the same subject.
 
 Keep Forever's new stories in a separate research queue. Its official previews
 establish useful subjects, but do not supply enough detail to write most pages.
@@ -25,9 +30,14 @@ Classic zones and their best-known landmarks already have pages.
 
 Every recommendation must earn its place under CLAUDE.md's three tests: a story
 beyond the visible encounter, a clear moment of discovery, and period evidence.
-The shared material stops at Vanilla, using the permitted sources published
-before 13 November 2008. A later source describing an ancient event is still a
-later source. Forever's own quests and books can establish its separate history.
+The shared material stops at Vanilla. Cross-media fiction is eligible: the
+encounter supplies the occasion to read, while a novel or short story can supply
+the history. Publication date and the date of the events must be recorded
+separately. The approved pre-Wrath source list in CLAUDE.md supplies the starting
+corpus for this follow-up; a permitted book can still contain an ineligible later
+frame. Later publications require their own continuity review and are not
+automatically admitted because their subject is ancient. Forever's own quests
+and books can establish its separate history.
 
 The proposed unlocks use the existing engine. A book or plaque can be evidence
 without being an unlock: the Library already preserves world texts, but Codex
@@ -35,6 +45,140 @@ pages do not currently unlock on a particular book or an item in a bag. Area
 numbers below were checked against the repository's area tables. Quest texts
 were checked in Classic references and the pinned database; proposed NPC lists
 still need the normal Wowhead Classic and client verification before entry work.
+
+## Cross-media follow-up
+
+The user's direction is to tell Warcraft stories from outside the game too,
+provided they fit Vanilla or Forever. That is particularly valuable here: the
+Codex can explain a person or ruin whose full story the quest log never tells.
+It should still read as an archivist's account grounded in the world the reader
+is exploring.
+
+### How a story qualifies
+
+Check individual claims and passages, rather than declaring a whole novel safe.
+
+1. **When did this happen?** Use history through Vanilla. Separate a historical
+   narrative from a later prologue, epilogue, narrator's present or flash-forward.
+   Do not assign an exact year where the sources only establish an order.
+2. **Whose continuity is it?** Check compatibility with the original games and
+   the relevant client. A story's age does not make film, alternate-Draenor or
+   later retail developments part of Forever. Where Forever establishes a
+   different account, use its evidence and a client-specific paragraph.
+3. **What could this archivist report?** Public events, recorded histories and
+   identifiable accounts are useful. Private thoughts, unrevealed identities
+   and later explanations of an old mystery need different treatment. Do not
+   invent testimony or pretend that the narrator witnessed a novel's scenes.
+4. **Why does this encounter reveal this story?** Keep a clear connection to a
+   person, place or quest. An absent historical figure can be evoked by a
+   namesake or monument, as the existing editorial rules allow. A new biography
+   still needs a distinct subject beyond adjacent pages.
+
+Historical material compatible with both games can share a page. Check each
+game's present situation separately; an unchanged past does not establish an
+unchanged NPC location, allegiance or survival. Use `[classic]` and `[forever]`
+only for an evidenced difference. Do not fabricate a second version just because
+Forever has room to diverge.
+
+### The strongest additions and enrichments
+
+These are research recommendations. Proposed discovery points still require
+client verification before front matter is written.
+
+| Subject | Treatment | Cross-media contribution | Discovery and overlap |
+|---|---|---|---|
+| Drek'Thar | New figure page in Alterac | *Lord of the Clans* makes the relationship between a shaman and the elements personal; *Rise of the Horde* complicates the elder's past | Meet or target the existing Frostwolf leader. The clan page explains the community; this page should explain its teacher. |
+| Orgrim Doomhammer | Promote the reserve; history page in Arathi | Read *Tides of Darkness* beside *Lord of the Clans*: the conqueror and the later liberator belong in the same account | Hammerfall evokes a historical figure who cannot be met. Leave the local battle and settlement to the existing place page. |
+| Durotan and Draka | Reserve history; compare an outline with an expanded Frostwolf page first | *Rise of the Horde* gives the parents choices and responsibilities before they become names in Thrall's biography | Durotar's namesake is a possible anchor. The entry must earn its space beside Durotar, Thrall and the Frostwolves. |
+| The Guardians of Tirisfal | Keep the proposed history page; deepen its source work | *The Last Guardian* supplies the human cost behind the institution and its succession | Karazhan or the Master's Cellar. Keep Medivh's existing tower page focused on the tower. |
+| The Sons of Lothar | Keep the proposed history page | *Beyond the Dark Portal* supplies the expedition behind the five statues | Valley of Heroes. Retain the Vanilla memorials' uncertainty about the missing leaders. |
+| The Burning Blade | Enrich the existing faction page | *Cycle of Hatred* gives a specific example of the cult exploiting hostility between the factions | Retain the existing cult encounters. Compare the new paragraph with Jaina and Theramore before adding a separate history. |
+| Kel'Thuzad | Enrich the existing figure page if the full source supports a useful paragraph | Evelyn Fredericksen's *Road to Damnation* can illuminate the mage's departure from Dalaran | Retain the existing figure's unlocks. A faction overview and a personal fall should each teach something different. |
+| Fandral Staghelm | Enrich the existing figure or Scepter page after an overlap read | Micky Neilson's *The War of the Shifting Sands* gives the war a participant's perspective | Fandral, the Scarab Wall and the Scepter already have pages; avoid a fourth retelling of the same grief. |
+
+For the first three subjects, useful passages were checked in third-party
+reproductions of the original novels:
+
+- [*Lord of the Clans*, chapters 12-14](https://public.ds003.info/wcbooks/novels/Warcraft%20-%20%282001%29%20Lord%20Of%20The%20Clans%20-%20Christie%20Golden.pdf#page=65):
+  Thrall's arrival among the Frostwolves, instruction and Drek'Thar's account of
+  losing his family and demanding their return from the spirits. Chapter 14,
+  PDF pages 77-78, is the strongest starting point for Drek'Thar's own story.
+- [*Lord of the Clans*, chapters 15-16](https://public.ds003.info/wcbooks/novels/Warcraft%20-%20%282001%29%20Lord%20Of%20The%20Clans%20-%20Christie%20Golden.pdf#page=83):
+  Orgrim's account of Durotan and Draka's warning, his suspicion about their
+  escort, the camp campaign and succession. Preserve the distinction between
+  what he knows and what he suspects. Cross-check his earlier war record in
+  [*Tides of Darkness*](https://www.blizzplanet.com/blog/comments/world_of_warcraft_tides_of_darkness___excerpt)
+  before drafting a biography; the checked opening excerpt is not a full-book
+  audit of his conduct.
+- [*Rise of the Horde*, chapters 13-15](https://public.ds003.info/wcbooks/novels/World%20of%20Warcraft%20-%20%282006%29%20Rise%20of%20the%20Horde%20-%20Christie%20Golden.PDF#page=43):
+  the move to warlock magic and the assault on Telmor. Refusing demon blood must
+  not become a claim that the Frostwolves took no part in the draenei's
+  destruction. Read the full parental arc before approving the Durotan/Draka
+  outline.
+
+For Drek'Thar, distinguish his own admission in *Lord of the Clans* from the
+later novel's account of the clan's corruption. Do not turn a specific refusal
+by the elements into an invented universal rule about how every shaman's magic
+works. Exclude his later retail incapacity and alternate-Draenor life.
+
+The other proposed sources have different levels of verification:
+
+- [*The Last Guardian* publisher description and preview](https://books.google.com/books?id=G_Li77NNJ_AC)
+  establish the Guardian institution and Medivh's divided role. The detailed
+  succession narrative still needs the complete relevant passages beside the
+  Vanilla books already listed under candidate 6.
+- [*Beyond the Dark Portal* publisher description](https://www.simonandschuster.com/books/World-of-Warcraft-Beyond-the-Dark-Portal/Aaron-Rosenberg/WORLD-OF-WARCRAFT/9781416565390)
+  establishes the expedition's conflict and destination. It does not justify
+  telling a Vanilla reader the leaders' later whereabouts.
+- [*Cycle of Hatred*, PDF pages 66, 76-77 and 90-94](https://public.ds003.info/wcbooks/novels/World%20of%20Warcraft%20-%20%282006%29%20Cycle%20of%20Hatred%20-%20Keith%20R.%20A.%20DeCandido.PDF#page=66)
+  connect the Burning Blade with Zmodlor's manipulation of both factions and
+  its defeat. Blizzard's [overview of the novel](https://worldofwarcraft.blizzard.com/en-gb/news/9979107/la-biblioth%C3%A8que-le-cycle-de-la-haine)
+  corroborates the central peace-threatening plot. Before entry work, check the
+  novel's sequence against the Vanilla encounters; do not claim its defeat
+  eliminated the cult still present in the game.
+- Blizzard's [*Road to Damnation*](https://worldofwarcraft.blizzard.com/en-us/media/short-story/road-to-damnation)
+  opens with Kel'Thuzad confronting Drenden and Modera over his studies. This
+  follow-up checked the indexed opening, not the full story: his eventual
+  submission to the Lich King needs a complete reading before prose work.
+- Blizzard's [*The War of the Shifting Sands*](https://worldofwarcraft.blizzard.com/media/short-story/war-of-the-shifting-sands)
+  supplies Shiromar's perspective and the dragonflights' involvement. The
+  indexed battle passages were checked; read the complete story, including its
+  framing, before deciding which existing page can use a fresh detail.
+
+The two short stories are especially useful research leads beyond the novels.
+Their current gallery pages do not by themselves establish original publication
+dates; record those from a period archive before adding them to the accepted
+source notes. Original fiction hosted by Blizzard is strong evidence for what
+the story says, but its presence in today's gallery is not a chronology check.
+
+### Important boundaries within cross-media material
+
+- **An old story inside a later frame:** *Rise of the Horde* opens with a Horde
+  that includes blood elves. Use its earlier history without importing that
+  political present, its epilogue's later discoveries or the existence of
+  Thrall's completed written account into Vanilla.
+- **An earlier event in another continuity:** [*Warcraft: Durotan*](https://www.penguinrandomhouse.com/books/532727/warcraft-durotan-the-official-movie-prequel-by-christie-golden/9781783299607/)
+  is explicitly a movie prequel. Its title and early setting do not make it a
+  substitute for *Rise of the Horde* or *Lord of the Clans*.
+- **A later explanation of an old mystery:** keep the Scythe's Vanilla unknowns
+  until evidence belonging to the relevant client resolves them. Ancient
+  backstory from later worgen fiction does not automatically become something
+  this archivist can explain to a Classic reader.
+- **Comics and manga:** include them in the search, but check each issue's
+  events, framing and continuity. The existing Ashbringer reserve is the right
+  place to test this: compare a specific historical passage with the original
+  Scarlet Monastery event before using it. The medium itself neither qualifies
+  nor disqualifies a story. No comic or manga passage was audited in this
+  follow-up.
+- **An unfinished public story:** the missing expedition leaders remain missing
+  in the Vanilla account. Later survival, reunions and campaigns cannot be
+  smuggled into a historical paragraph as a reassuring conclusion.
+
+Start this part of the work with Drek'Thar and Orgrim, plus an outline for a
+single Burning Blade enrichment. Keep Durotan and Draka in reserve until their
+outline is compared with the existing Frostwolf account. Taretha's story can
+deepen Durnholde if needed, but the current page already makes her contribution
+and pendant central; a second page would need a different purpose.
 
 ## The first nine pages
 
@@ -239,7 +383,6 @@ pages to add automatically.
 
 | Candidate | Distinct angle | Encounter and remaining work |
 |---|---|---|
-| Orgrim Doomhammer | A conqueror who later fought to free his people; the history behind Thrall's inheritance | Hammerfall provides the anchor. Read the actual *Lord of the Clans* and *Tides of Darkness* passages before proposing a fuller biography; current Hammerfall and Orgrimmar pages already cover his death and namesakes. |
 | Anduin Lothar | The knight behind the Alliance's survival and the expedition's name | The Burning Steppes memorial is promising. Verify the memorial and an actual discovery trigger. Keep this distinct from the Sons of Lothar, Karazhan and Stormwind. |
 | The Sentinels | The institution that kept watch while the druids slept | The Vanilla book *The Sentinels and the Long Vigil* (175732, pages 1849-1853) supplies the foundation. Check Tyrande and night-elf pages for overlap, then verify member NPCs. Do not fold the Watchers into the Sentinels. |
 | Malfurion / Cenarius | Founding druidism, its teacher and its obligations | They deserve outline comparisons, not automatic biographies. Remulos and the barrow dens offer anchors, but the Sundering, Demon Fall Canyon and Dream pages already carry much of their story. Do not assert Malfurion's bodily location or use later resurrections. |
@@ -308,7 +451,9 @@ with more confidence than collecting isolated names across every new zone.
 ## Writing order and acceptance
 
 Write the Scythe, Third Fleet and Rexxar first: three different experiences
-with strong period stories. Follow with the Timbermaw and High Elves, then
+with strong period stories. The cross-media additions, Drek'Thar and Orgrim,
+can follow Rexxar, alongside a short enrichment of the Burning Blade page.
+Follow with the Timbermaw and High Elves, then
 the Guardians, Sons of Lothar, Dream and Shadow Council. Reassess the reserves
 after reading those additions beside their neighbouring pages.
 
