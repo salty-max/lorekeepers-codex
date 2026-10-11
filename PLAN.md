@@ -34,6 +34,41 @@ is the kit's, shared with Hearthtale's postcards (Hearthtale's PLAN.md).
 | Achievements | Mandatory: a group of their own in the Achievements tab (below). |
 | Picture | Taken when a riddle is solved (after the gesture, once the character is in it), the interface invisible for the instant; kept as the file's stamp with the riddle. The capture is the kit's (`K.snapshot`), shared with the Field Journal's hunts and Hearthtale's postcards. |
 
+### How many (one rule, no exceptions)
+
+One riddle for every zone, every capital and every dungeon and raid of the
+original world: the codex's own chapters and pages, so the book mirrors it.
+
+| | Eastern Kingdoms | Kalimdor | All (Classic) |
+|---|---|---|---|
+| Zones (one a chapter, never its capital) | 23 | 18 | 41 |
+| Capitals | 3 | 3 | 6 |
+| Dungeons (their doors, in the open world) | 11 | 8 | 19 |
+| Raids (their doors) | 4 | 3 | 7 |
+| **Riddles** | **41** | **32** | **73** |
+
+Blackrock Mountain's chapter has its riddle like any zone's, its dungeons and
+raids theirs. Forever adds by the same rule: Zephras Isle's zone and its
+place of the Skyborne, and each new dungeon's door (its pages first). A
+riddle the bar can't be met for is written later, never replaced by a weaker
+place: the count is the goal of the first full release, not of the first.
+
+### Unaided (the reward for not taking a hint)
+
+- **The seal.** Each solved riddle bears a seal: gold, solved from the verse
+  alone; silver, with the zone's name; plain, with the map's circle. The list
+  shows them, and the tab's header counts the gold ones ("31 of 73 solved, 22
+  unaided").
+- **The archivist's margin.** A riddle solved unaided opens a marginal note on
+  its page: one more short paragraph of the place's lore, true and sourced as
+  the page is, that the page itself doesn't tell. Every riddle has one; only
+  the unaided see it, and a riddle solved with a hint keeps it closed for good
+  (its seal says why).
+- **A hint is a choice.** Taking one asks first ("This riddle will no longer
+  earn its gold seal"); hints are never shown by accident, and the verse is
+  always there to come back to.
+- **Achievements** count gold seals (below).
+
 ### The riddle book (a fourth tab, Riddles)
 
 - **What is shown.** Riddles are listed by continent and level band ("Eastern
@@ -75,8 +110,9 @@ it only shades a region.
 ### What a character records
 
 `LorekeepersCodexChar.riddles[id] = { at, level, hints = 0..2, shot }`: when,
-at what level, the hints taken, the picture's stamp (`MMDDYY_HHMMSS`, from
-`SCREENSHOT_SUCCEEDED`). Solved riddles are never unsolved; a reset of the
+at what level, the hints taken (the seal: 0 gold, 1 silver, 2 plain; a hint
+taken before solving is kept even unsolved), the picture's stamp
+(`MMDDYY_HHMMSS`, from `SCREENSHOT_SUCCEEDED`). Solved riddles are never unsolved; a reset of the
 codex resets them.
 
 ### Content (riddles/<id>.md) and the build
@@ -97,6 +133,8 @@ client: both                   # classic | forever | both
 (the verse, four to six lines)
 ---
 (the archivist's note when it is solved, two or three sentences)
+---
+(the margin: one more paragraph of the place's lore, for the unaided only)
 ```
 
 `scripts/build.ts` reads `riddles/`, checks every field (the page exists, the
@@ -133,8 +171,10 @@ ships.
 |---|---|
 | A Riddle Read Aright | the first riddle solved |
 | Ten Answers, Twenty-Five Answers, Every Answer | 10, 25, all the riddles of this game |
-| By Your Own Light | 10 riddles solved without a hint |
 | The Eastern Kingdoms Answered, Kalimdor Answered | every riddle of a continent |
+| Every Land, Every Capital, Every Door | every zone's riddle; every capital's; every dungeon's and raid's |
+| By Your Own Light, Clear Sight, Nothing Asked | 10, 25, all the riddles with a gold seal |
+| Unaided in the East, Unaided in the West | every riddle of a continent with a gold seal |
 | Respects Paid | every riddle that asks for a gesture |
 | After Dark | every riddle that asks for the night |
 | Zephras Isle Answered | Forever: every riddle of the isle |
@@ -268,12 +308,15 @@ build is expected to find, not yet computed.
    Portal. Khadgar and Turalyon closed it from Draenor and did not come back;
    the frame is all the waste has kept."
 
+Their margins (the unaided's paragraph) are written with the rest, from the
+same pages' sources.
+
 Next to write: Kalimdor's share (Moonglade's barrow dens, the Scarab Wall,
 Thunder Bluff, Darnassus, the Caverns of Time's mouth, Dire Maul's outer
 courts), each capital, the dwarves' Thandol Span and Grim Batol from afar,
 and Forever's Zephras Isle (its pages: `shrine-of-akir`, `the-al-aketh`...).
-A first release ships when each continent has at least a dozen and each
-faction's capital its own.
+The first release ships when each continent has at least a dozen and each
+faction's capitals theirs; the full book is the 73 above.
 
 ### Steps
 
