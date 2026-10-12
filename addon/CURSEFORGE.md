@@ -63,6 +63,10 @@ The same look, each in its own colours, and each stands alone:
 - **[Hearthtale](https://www.curseforge.com/wow/addons/hearthtale)** ([Wago](https://addons.wago.io/addons/E6gzPnN1)). Your character's own journal, written as you play: a diary entry in their voice at each rest, and an epitaph if a Hardcore life ends.
 - **[Explorer's Field Journal](https://www.curseforge.com/wow/addons/explorers-field-journal)** ([Wago](https://addons.wago.io/addons/ZKbq5y61)). Riddles that lead you to the world's overlooked corners, rare quarries to hunt, and a bestiary, an atlas and your fish and herbs, filled in as you travel.
 
+## Support
+
+Lorekeeper's Codex is free, and will stay free. If a page has taught you something about the world you play in, you can say thanks with a coffee on [Ko-fi](https://ko-fi.com/salty_max): it helps the codex keep growing. Thank you for reading.
+
 ## Source
 
 MIT licensed: [github.com/salty-max/lorekeepers-codex](https://github.com/salty-max/lorekeepers-codex). Not affiliated with Blizzard Entertainment.
