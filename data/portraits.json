@@ -275,6 +275,10 @@
   "name": "Lady Jaina Proudmoore",
   "display": 2970
  },
+ "5353": {
+  "name": "Itharius",
+  "display": 4494
+ },
  "5387": {
   "name": "High Explorer Magellas",
   "display": 3596
@@ -302,6 +306,18 @@
  "6109": {
   "name": "Azuregos",
   "display": 11460
+ },
+ "6130": {
+  "name": "Blue Scalebane",
+  "display": 6760
+ },
+ "6188": {
+  "name": "Timbermaw Shaman",
+  "display": 2000
+ },
+ "6199": {
+  "name": "Blood Elf Reclaimer",
+  "display": 7923
  },
  "7044": {
   "name": "Black Drake",
@@ -351,9 +367,17 @@
   "name": "Marshal Windsor",
   "display": 8707
  },
+ "9517": {
+  "name": "Shadow Lord Fel'dan",
+  "display": 10198
+ },
  "10181": {
   "name": "Lady Sylvanas Windrunner",
   "display": 11657
+ },
+ "10182": {
+  "name": "Rexxar",
+  "display": 11660
  },
  "10184": {
   "name": "Onyxia",
@@ -403,6 +427,10 @@
   "name": "Vanndar Stormpike",
   "display": 11896
  },
+ "12322": {
+  "name": "Quel'Lithien Protector",
+  "display": 10375
+ },
  "12397": {
   "name": "Lord Kazzak",
   "display": 12449
@@ -434,6 +462,10 @@
  "14887": {
   "name": "Ysondre",
   "display": 15364
+ },
+ "15192": {
+  "name": "Anachronos",
+  "display": 2719
  },
  "15203": {
   "name": "Prince Skaldrenox",

@@ -23,6 +23,10 @@ original lore texts that unlock per character as they play. Sister project of
   place names in content resolve to area ids, so unlocks work in every language.
   `data/areas-forever.json`: the areas Forever adds (the beta's table, pinned;
   `bun scripts/areas.ts --forever`): only Forever's pages may name them.
+- `data/texts.json`: the books and plaques pages unlock by being read
+  (`read: <title>`): each title's text objects in the pinned CMaNGOS database
+  and the title in every client language, from Wowhead Classic's tooltips
+  (`python3 scripts/texts.py`, after adding a read: unlock).
 - `data/portraits.json`: display ids of the creatures pages name as their
   `portrait:` (figures, creatures, factions only; never a guess), from the
   pinned CMaNGOS database (`python3 scripts/portraits.py`, after adding one).
@@ -33,7 +37,8 @@ original lore texts that unlock per character as they play. Sister project of
   `calling:`; one's own from the start; `met` for the encounters), kills by
   you or your pet: `PARTY_KILL`, an event of its own on Forever and Classic
   since 1.15.9, else the combat log's line; quests incl. ones done before,
-  reputations, map positions), `Kit.lua` (a copy of the kit shared with Hearthtale and the Field Journal,
+  reputations, map positions, books and plaques read: `ns.readText` from the
+  Library, by title in any language, and the Library's titles at the login), `Kit.lua` (a copy of the kit shared with Hearthtale and the Field Journal,
   ~/code/addon-kit: the books' look and windows; never edited here: `bun run
   kit:sync` after changing the kit, `bun run kit:check` to verify; the Codex's
   theme is set at the top of `Book.lua`), `Library.lua` (books, notes, plaques read in the world, copied whole from the

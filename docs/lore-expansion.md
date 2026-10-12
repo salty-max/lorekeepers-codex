@@ -18,7 +18,7 @@ vanilla leaves open, another continuity. Each page still goes through the
 usual steps: ids checked on Wowhead Classic, sources read in full, the pages
 it overlaps reread, `bun run check`.
 
-## Wave 0: reading unlocks the old histories
+## Wave 0: reading unlocks the old histories (done, 12 October 2026)
 
 The original game put some forty history books in its libraries, inns and
 dungeons (gameobjects 175724-175763, 21581-21583: *The Old Gods and the
@@ -47,7 +47,7 @@ the order it happened, each page unlocked by its period book wherever a copy
 stands, or by a place that evokes it. The zone chapters keep their local
 histories; this holds what belongs to no single land.
 
-## Wave 1: 31 pages
+## Wave 1: 31 pages (written, 12 October 2026)
 
 ### Ages Past (11)
 

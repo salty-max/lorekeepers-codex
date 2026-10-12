@@ -28,6 +28,10 @@ anachronic to vanilla or Forever: CLAUDE.md, "Lore") to add a substantial
 amount of new lore: 65 pages in three waves, a new chapter (Ages Past, the
 world's history unlocked by the original game's library books) and a `read:`
 unlock. The list, with each page's verified anchors: `docs/lore-expansion.md`.
+Wave 0 and wave 1 written on 12 October 2026: the `read:` unlock (the
+Library's titles, in every language: data/texts.json), the Ages Past
+chapter's eleven histories, eleven peoples and powers, nine pages of the
+lands.
 
 ## How the codex is laid out
 
