@@ -48,7 +48,7 @@ local function showPage(id)
   page:start(e.title, aboutPage(e), ns.pictureOf(e))
   local paras = {}
   for _, para in ipairs(e.text) do
-    if not para.client or para.client == ns.client then table.insert(paras, para[1]) end
+    if ns.shown(para) then table.insert(paras, para[1]) end
   end
   page:text(paras)
   page:paragraph(foundLine(ns.page(id)), T.soft)
@@ -170,7 +170,7 @@ local function matches(id, query)
     local e = C.entries[id]
     local parts = { e.title }
     for _, para in ipairs(e.text) do
-      if not para.client or para.client == ns.client then table.insert(parts, para[1]) end
+      if ns.shown(para) then table.insert(parts, para[1]) end
     end
     haystack[id] = plain(table.concat(parts, " "))
   end

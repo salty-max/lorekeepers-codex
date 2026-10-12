@@ -4,7 +4,7 @@ title: Ironforge
 kind: place
 unlock:
   - area: Ironforge
-also: [magni-bronzebeard, war-of-the-three-hammers, rockjaw-troggs]
+also: [magni-bronzebeard, archesonus, explorers-league, war-of-the-three-hammers, rockjaw-troggs]
 ---
 Ironforge is not built on the mountain; it is built in it. Its halls lie within Ironforge Mountain, and at its centre burns the Great Forge.
 
@@ -12,4 +12,4 @@ The city turns around the forge like a wheel. King Magni holds court in the High
 
 [forever] Below Old Ironforge lies the Hall of Thanes. Dark Iron intruders have breached it, and Magni wants the head of their commander, Durgen Dirgehammer. Even here, a city's oldest halls can become its newest trouble.
 
-And then there is the Hall of Explorers, where you will find me. The League keeps its library here, and its finds: relics from Uldaman, the bones of beasts no one has seen alive, and maps of places most dwarves will only ever read about. Come and see us. We are always short of people who have actually been somewhere.
+And then there is the Hall of Explorers, where the League keeps its library and its finds: relics from Uldaman, the bones of beasts no one has seen alive, and maps of places most dwarves will only ever read about. As for me, you will find me in the High Seat, a few steps from the king's throne. Come and see me. I am always short of people who have actually been somewhere.

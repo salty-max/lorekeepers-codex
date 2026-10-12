@@ -1,6 +1,6 @@
 ---
 id: foreword-dwarf
-title: A Word from the Archivist
+title: A Word from the Royal Historian
 kind: note
 race: Dwarf
 unlock: always
@@ -11,4 +11,4 @@ The pages follow our clans, the wars that divided them, and the older works the 
 
 Carry it with you, and read a page when a place gives you reason to pause. A ruin is easier to notice than the life it once sheltered. Both deserve a place in the record.
 
-*An archivist of the Explorers' League, Hall of Explorers, Ironforge*
+*Royal Historian Archesonus, the High Seat, Ironforge*

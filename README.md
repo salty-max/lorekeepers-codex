@@ -3,10 +3,11 @@
 Lorekeeper's Codex adds a book of Azeroth's lore that fills in as you explore.
 Visit Kharanos, speak with King Magni, defeat a Frostmane troll or finish a
 quest, and you might discover a page about the history behind it. Each page
-is an original text written as a note from an archivist of the Explorers'
-League.
+is an original text written as a note from Archesonus, Royal Historian of
+Ironforge. A Horde character's copy comes from Parqual Fintallas, a historian
+of the Undercity, with his own word in it.
 
-The Codex has **414 pages in 44 chapters**, or **426 pages in 45 chapters on
+The Codex has **416 pages in 44 chapters**, or **428 pages in 45 chapters on
 Forever**. It covers the original world's zones, landmarks, figures, peoples,
 classes and history. Each race gets its own foreword.
 

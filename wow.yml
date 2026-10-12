@@ -159,6 +159,8 @@ globals:
     any: true
   UnitClass:
     any: true
+  UnitFactionGroup:
+    any: true
   UnitGUID:
     any: true
   UnitIsPlayer:

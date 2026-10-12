@@ -81,7 +81,7 @@ for _, r in ipairs({
   { 10, "A Page by the Fire" },
   { 50, "Bookworm" },
   { 150, "Well Read" },
-  { 300, "The Archivist's Equal" },
+  { 300, "The Historian's Equal" },
 }) do
   add(
     "feat",
@@ -118,6 +118,17 @@ add(
   "Friends in High Places",
   "Find the pages of the four leaders of the Alliance, or of the Horde, by meeting them.",
   function() return math.max(found(ALLIANCE), found(HORDE)), 4 end
+)
+
+-- The codex's historians: Archesonus, who wrote it, and Parqual Fintallas, who
+-- sends it on to the Horde. Either one met counts.
+local HISTORIANS = pages({ "archesonus", "parqual-fintallas" })
+add(
+  "feat",
+  "historian",
+  "A Word in Person",
+  "Meet the historian behind your codex: Archesonus in Ironforge's High Seat, or Parqual Fintallas in the Undercity.",
+  function() return math.min(found(HISTORIANS), 1), 1 end
 )
 
 local DUNGEONS = pages({

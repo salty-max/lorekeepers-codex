@@ -33,7 +33,9 @@
  *   ---
  *   Paragraphs, separated by blank lines. A paragraph in *asterisks* is a signature.
  *   A paragraph starting with [forever] or [classic] shows on that client only
- *   (a Forever variant: the [classic] paragraph and its [forever] replacement).
+ *   (a Forever variant: the [classic] paragraph and its [forever] replacement);
+ *   one starting with [alliance] or [horde], to that side's readers only (a
+ *   Horde reader's copy: Parqual Fintallas's word; both tags may lead one).
  *   An unlock starting with [forever] or [classic] exists on that client only.
  *
  * A chapter is a folder with a _chapter.md (title, order, a one-line summary).
@@ -57,8 +59,9 @@ const STANDINGS: Record<string, number> = { hated: 1, hostile: 2, unfriendly: 3,
 type Area = { id: number; name: string; parent: number };
 type Unlock = ({ always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number } | { people: string } | { calling: string } | { read: string[] }) & { client?: string };
 type Entry = { id: string; title: string; kind: string; portrait: number; chapter: string; unlock: Unlock[]; also: string[]; race: string[]; client: string; text: Para[]; file: string };
-type Para = { italic: boolean; text: string; client: string };
+type Para = { italic: boolean; text: string; client: string; side: string };
 const CLIENTS = ["classic", "forever"];
+const SIDES = ["alliance", "horde"];
 
 const classicAreas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas.json"), "utf8"));
 const texts: Record<string, { ids: number[]; names: string[] }> = JSON.parse(readFileSync(join(ROOT, "data/texts.json"), "utf8"));
@@ -192,12 +195,17 @@ function paragraphs(body: string) {
     .map((p) => p.replace(/\s*\n\s*/g, " ").trim())
     .filter(Boolean)
     .map((p): Para => {
-      // "[forever] ..." or "[classic] ...": a paragraph for one client only.
-      const m = p.match(/^\[(\w+)\]\s+/);
-      const client = m ? m[1] : "";
-      if (m) p = p.slice(m[0].length);
+      // "[forever] ..." or "[classic] ...": a paragraph for one client only;
+      // "[alliance] ..." or "[horde] ...": for one side's readers only.
+      let client = "";
+      let side = "";
+      for (let m = p.match(/^\[(\w+)\]\s+/); m; m = p.match(/^\[(\w+)\]\s+/)) {
+        if (SIDES.includes(m[1])) side = m[1];
+        else client = m[1];
+        p = p.slice(m[0].length);
+      }
       const italic = /^\*[^*].*[^*]\*$/.test(p);
-      return { italic, text: italic ? p.slice(1, -1) : p, client };
+      return { italic, text: italic ? p.slice(1, -1) : p, client, side };
     });
 }
 
@@ -256,7 +264,7 @@ for (const e of entries) {
       fail(e.file, `no unlock rule on ${client}`);
     }
   }
-  for (const p of e.text) if (p.client && !CLIENTS.includes(p.client)) fail(e.file, `[${p.client}]: one of ${CLIENTS.join(", ")}`);
+  for (const p of e.text) if (p.client && !CLIENTS.includes(p.client)) fail(e.file, `[${p.client}]: one of ${[...CLIENTS, ...SIDES].join(", ")}`);
 }
 if (errors.length) {
   console.error(errors.map((e) => `✗ ${e}`).join("\n"));
@@ -320,7 +328,7 @@ ${kept
       unlock = { ${rulesFor(e).map(unlockLua).join(", ")} },
       also = { ${e.also.filter((a) => keptIds.has(a)).map(q).join(", ")} },${e.race.length ? ` race = { ${e.race.map((r) => `${r} = true`).join(", ")} },` : ""}
       text = {
-${e.text.filter((p) => mine(p.client)).map((p) => `        { ${p.italic ? "italic = true, " : ""}${q(p.text)} },`).join("\n")}
+${e.text.filter((p) => mine(p.client)).map((p) => `        { ${p.italic ? "italic = true, " : ""}${p.side ? `side = ${q(p.side === "horde" ? "Horde" : "Alliance")}, ` : ""}${q(p.text)} },`).join("\n")}
       },
     },`,
   )

@@ -111,9 +111,14 @@ historical claims in other entries.
   only in its game's content. Forever-only content may use Forever's own texts
   (quests, NPCs, books); everything else keeps the Lore rule below. See FOREVER.md.
 
-- Voice: an archivist of the Explorers' League, writing from the Hall of
-  Explorers in Ironforge; addresses the reader as "traveller"; warm, dry, a
-  scholar's asides. Short: two to four paragraphs.
+- Voice: Royal Historian Archesonus (a dwarf; she), writing from the High
+  Seat in Ironforge, a few steps from King Magni's throne; the Explorers'
+  League is the city's and her help, not her order (never "we" for it);
+  addresses the reader as "traveller"; warm, dry, a scholar's asides. Short:
+  two to four paragraphs. A Horde reader's copy comes through Parqual
+  Fintallas (the Apothecarium, Undercity; Lordaeron's historian before the
+  plague): the Horde races' forewords are his, and his notes in the pages are
+  `[horde]` paragraphs (`[alliance]`: the other side's only).
 - Plain ASCII text: straight apostrophes and quotes (the build rejects others;
   some game fonts lack them, and the search matches what players type).
 - The approved voice samples are in `docs/voice-comparison.md`. Prefer concrete

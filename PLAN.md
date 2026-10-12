@@ -55,9 +55,11 @@ page stops before that ending. The source pages hold the final unlock lists.
 - **Unlocks stay inside their chapter's zone** (and its instances), for the
   same reason. Exceptions: reputations, earned anywhere, and the Peoples and
   Powers chapter.
-- **Both factions read the same book.** The archivist is a dwarf of the
-  Explorers' League; Horde lands are written by a scholar who has been there,
-  fair to the Horde. Faction-only quests are fine as unlocks as long as the page
+- **Both factions read the same book.** Its author is Archesonus, Ironforge's
+  Royal Historian; Horde lands are written by a scholar who has been there,
+  fair to the Horde. A Horde reader's copy comes through Parqual Fintallas of
+  the Undercity: the Horde races' forewords are his, and his notes in the
+  pages (`[horde]` paragraphs). Faction-only quests are fine as unlocks as long as the page
   also unlocks another way for the other faction, or is that faction's story.
 - **Pages unlocked by a quest** use its turn-in (or its having been done before
   the addon, as now).
@@ -73,7 +75,7 @@ page stops before that ending. The source pages hold the final unlock lists.
 
 ---
 
-## Chapter 1: Dun Morogh and Ironforge (18 pages, all written)
+## Chapter 1: Dun Morogh and Ironforge (19 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -93,6 +95,7 @@ page stops before that ending. The source pages hold the final unlock lists.
 | ✅ The Gates of Khaz Modan | place | North Gate Outpost (808) or South Gate Outpost (806) |
 | ✅ Ironforge | place | the city (1537) |
 | ✅ King Magni Bronzebeard | figure | talking to (or targeting) him (2784) |
+| ✅ Royal Historian Archesonus | figure | talking to (or targeting) her (8879): the codex's author, in the High Seat |
 | ✅ The Explorers' League | faction | talking to Magellas (5387), Stormpike (1356), Karnik (2916) or Thorius (8256) |
 | ✅ The Deeprun Tram | place | the tram (area 2257) |
 
@@ -246,7 +249,7 @@ King Mukla. Rares without a story: Mosh'Ogg Butcher, Scale Belly, Lord
 Sakrasis, Gluggle, Roloch, Rippa, Kurmokk, Verifonix. Met here, paged in Peoples
 and Powers: the Venture Company, ogres, the Steamwheedle Cartel, naga, murlocs.
 
-## Tirisfal Glades and Undercity (12 pages, all written)
+## Tirisfal Glades and Undercity (13 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -257,6 +260,7 @@ and Powers: the Venture Company, ogres, the Steamwheedle Cartel, naga, murlocs.
 | ✅ Lady Sylvanas Windrunner | figure | talking to (or targeting) her (10181) |
 | ✅ Varimathras | figure | talking to (or targeting) him (2425) ❓ vanilla: the dreadlord who serves her |
 | ✅ Undercity | place | the city (1497) |
+| ✅ Parqual Fintallas | figure | talking to (or targeting) him (4488): the Horde's copy of the codex comes through him (Test of Lore) |
 | ✅ The Fall of Lordaeron | history | Ruins of Lordaeron (153) (Arthas and King Terenas) |
 | ✅ The Royal Apothecary Society | faction | talking to Master Apothecary Faranell (2055) ❓ only what vanilla shows: a new plague, "for the Scourge" |
 | ✅ The Bulwark | place | The Bulwark (152) (Tirisfal) |

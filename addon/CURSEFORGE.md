@@ -7,13 +7,13 @@ addon's own name stays Lorekeeper's Codex). -->
 <!-- Summary (the project's summary on CurseForge and Wago, and the TOCs' Notes):
 Unlock Azeroth's lore as you explore, meet its people and complete quests. Collect the books and notes you read along the way. -->
 
-Lorekeeper's Codex adds a book of Azeroth's lore that fills in as you explore. Enter a zone, speak to someone important or finish a quest, and you might unlock a page about the history behind it. The pages are written as notes from an archivist of the Explorers' League.
+Lorekeeper's Codex adds a book of Azeroth's lore that fills in as you explore. Enter a zone, speak to someone important or finish a quest, and you might unlock a page about the history behind it. The pages are notes from Archesonus, Royal Historian of Ironforge. On the Horde side, your copy comes from Parqual Fintallas, a historian of the Undercity, who adds a word of his own.
 
 For Classic Era (including Hardcore and Season of Discovery), TBC Anniversary and World of Warcraft: Forever.
 
 ## What you can discover
 
-The Codex contains **414 original pages across 44 chapters**, or **426 pages across 45 chapters on Forever**. It covers the original world's zones, landmarks, notable figures, peoples and history, from the Titans and the Sundering to the gates of Ahn'Qiraj.
+The Codex contains **416 original pages across 44 chapters**, or **428 pages across 45 chapters on Forever**. It covers the original world's zones, landmarks, notable figures, peoples and history, from the Titans and the Sundering to the gates of Ahn'Qiraj.
 
 - **Places and people.** Learn the stories behind the lands you cross and the characters you meet.
 - **Peoples and Powers.** Pages on the playable races, the Scourge, the Defias, the Dark Irons, the dragonflights and many others. Your own race's page is available from the start.
@@ -39,7 +39,7 @@ Texts are copied in full and sorted into shelves, with when and where you read t
 
 ## Achievements
 
-The third tab tracks achievements for discovering pages, building your Library, completing chapters and meeting players of different races and classes. There are also feats for finding legendary wanderers, meeting your faction's leaders and exploring dungeons. Each achievement records the day and level you earned it, and comes with an alert.
+The third tab tracks achievements for discovering pages, building your Library, completing chapters and meeting players of different races and classes. There are also feats for finding legendary wanderers, meeting your faction's leaders, meeting the historian behind your codex and exploring dungeons. Each achievement records the day and level you earned it, and comes with an alert.
 
 Open the tab with `/codex achievements`.
 

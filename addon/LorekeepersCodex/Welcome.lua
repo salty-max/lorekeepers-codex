@@ -15,10 +15,17 @@ local W = K.welcome({
   logo = "Interface\\AddOns\\LorekeepersCodex\\Media\\Logo",
   heading = "Lorekeeper's Codex",
   tagline = "The lore of Azeroth, written for you as you explore.",
-  intro = "An archivist of the Explorers' League has left you a ledger. Walk into a land, meet a figure of "
-    .. "legend, defeat a people's warriors or finish the right quest, and a page of history is added.\n\n"
-    .. "Each character keeps its own codex, with the day and the place each page was found. The Library "
-    .. "copies every book, note and plaque you read, and achievements mark the way.",
+  -- (the ledger's sender, the reader's side's: Core.lua's ns.side)
+  intro = function()
+    return (
+      ns.side() == "Horde" and "Parqual Fintallas, a historian of the Undercity, has sent you a ledger."
+      or "Archesonus, Royal Historian of Ironforge, has left you a ledger."
+    )
+      .. " Walk into a land, meet a figure of legend, defeat a people's warriors or finish the right quest, "
+      .. "and a page of history is added.\n\n"
+      .. "Each character keeps its own codex, with the day and the place each page was found. The Library "
+      .. "copies every book, note and plaque you read, and achievements mark the way."
+  end,
   profiles = ns.profiles,
   choices = function()
     local sounds = {}

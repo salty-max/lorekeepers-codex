@@ -4,7 +4,7 @@ ns.content = {
   client = "forever",
   chapters = {
     { id = "zephras-isle", title = "Zephras Isle", summary = "The flying island of the Skyborne, in Skywall.", entries = { "talaanis-shadowsong", "the-al-aketh", "the-high-order", "the-shalnan", "shrine-of-akir", "the-silence-of-the-winds", "the-windshapers", "valanaar", "zephras-isle" } },
-    { id = "dun-morogh", title = "Dun Morogh and Ironforge", summary = "The snowbound valleys around Ironforge, cradle of the Bronzebeard clan.", entries = { "coldridge-valley", "dun-morogh", "gnomeregan", "high-tinker-mekkatorque", "ironforge", "kharanos", "magni-bronzebeard", "mekgineer-thermaplugg", "deeprun-tram", "explorers-league", "frostmane-trolls", "gates-of-ironforge", "gnomeregan-exiles", "hall-of-thanes", "leper-gnomes", "war-of-the-three-hammers", "wendigos", "timber" } },
+    { id = "dun-morogh", title = "Dun Morogh and Ironforge", summary = "The snowbound valleys around Ironforge, cradle of the Bronzebeard clan.", entries = { "coldridge-valley", "dun-morogh", "gnomeregan", "high-tinker-mekkatorque", "ironforge", "kharanos", "magni-bronzebeard", "mekgineer-thermaplugg", "archesonus", "deeprun-tram", "explorers-league", "frostmane-trolls", "gates-of-ironforge", "gnomeregan-exiles", "hall-of-thanes", "leper-gnomes", "war-of-the-three-hammers", "wendigos", "timber" } },
     { id = "loch-modan", title = "Loch Modan", summary = "The lake country east of Ironforge, held by a dam and watched by kings of stone.", entries = { "algaz", "ironbands-excavation-site", "loch-modan", "farstrider-lodge", "mogrosh-ogres", "stonewrought-dam", "valley-of-kings", "thelsamar" } },
     { id = "wetlands", title = "The Wetlands", summary = "The marshes between Khaz Modan and Arathi, where the dwarven roads run into old wars.", entries = { "nekrosh", "dun-modr", "grim-batol", "menethil-harbor", "dragonmaw-clan", "mosshide-gnolls", "red-dragonflight", "thandol-span", "the-third-fleet", "wetlands", "whelgars-excavation-site" } },
     { id = "elwynn", title = "Elwynn Forest and Stormwind", summary = "The heart of the human kingdom: its forest, its farms and the white city rebuilt from ashes.", entries = { "elwynn-forest", "goldshire", "bolvar-fordragon", "hogger", "katrana-prestor", "northshire-abbey", "si-7", "stormwind-city", "church-of-the-holy-light", "great-masquerade", "noble-conspiracy", "regency-of-stormwind", "sons-of-lothar", "the-stockade", "stonefields-and-maclures" } },
@@ -12,7 +12,7 @@ ns.content = {
     { id = "redridge", title = "Redridge Mountains", summary = "Red hills, a quiet lake and a town besieged from the north.", entries = { "gathilzogg", "lakeshire", "morganth", "redridge-mountains", "stonewatch-keep" } },
     { id = "duskwood", title = "Duskwood", summary = "A forest where night never quite ends, and the dead do not stay buried.", entries = { "darkshire", "duskwood", "morladim", "morbent-fel", "raven-hill", "stalvan-mistmantle", "the-embalmer", "night-watch", "scythe-of-elune" } },
     { id = "stranglethorn", title = "Stranglethorn Vale", summary = "The jungle of the old troll empire, where pirates, hunters and goblins make their fortunes.", entries = { "booty-bay", "gromgol-base-camp", "hakkar", "nesingwarys-expedition", "stranglethorn-vale", "bloodsail-buccaneers", "bloodscalp-and-skullsplitter", "gurubashi-arena", "gurubashi-empire", "kurzen-rebellion", "zandalar-tribe", "zulgurub" } },
-    { id = "tirisfal", title = "Tirisfal Glades and Undercity", summary = "The heartland of fallen Lordaeron, and the Forsaken who rule beneath its ruined capital.", entries = { "alonsus-faol", "brill", "deathknell", "sylvanas-windrunner", "the-agamands", "the-ashbringer", "the-bulwark", "the-crusades-fallen", "fall-of-lordaeron", "the-forsaken", "royal-apothecary-society", "ruins-of-lordaeron", "scarlet-monastery", "tirisfal-glades", "undercity", "varimathras", "whitemane-and-mograine" } },
+    { id = "tirisfal", title = "Tirisfal Glades and Undercity", summary = "The heartland of fallen Lordaeron, and the Forsaken who rule beneath its ruined capital.", entries = { "alonsus-faol", "brill", "deathknell", "sylvanas-windrunner", "parqual-fintallas", "the-agamands", "the-ashbringer", "the-bulwark", "the-crusades-fallen", "fall-of-lordaeron", "the-forsaken", "royal-apothecary-society", "ruins-of-lordaeron", "scarlet-monastery", "tirisfal-glades", "undercity", "varimathras", "whitemane-and-mograine" } },
     { id = "silverpine", title = "Silverpine Forest", summary = "Grey pines between the Forsaken and the closed gate of Gilneas.", entries = { "ambermill", "archmage-arugal", "pyrewood-village", "shadowfang-keep", "silverpine-forest", "greymane-wall", "the-sepulcher", "thule-ravenclaw" } },
     { id = "hillsbrad", title = "Hillsbrad Foothills", summary = "Green hills where the living and the Forsaken fight over every farm.", entries = { "dun-garok", "durnholde-keep", "hillsbrad-foothills", "southshore", "tarren-mill" } },
     { id = "alterac", title = "Alterac Mountains", summary = "A fallen kingdom in the snows, Dalaran beside the lake, and a valley two peoples claim.", entries = { "alterac-mountains", "alterac-valley", "dalaran", "durotan-and-draka", "helcular", "ravenholdt-manor", "frostwolf-clan", "internment-camps", "stormpike-guard", "treason-of-alterac" } },
@@ -268,7 +268,7 @@ ns.content = {
       also = { "alterac-valley", "frostwolf-clan", "magni-bronzebeard", "explorers-league" },
       text = {
         { "The Stormpike Guard came to Alterac Valley to mine and to seek relics of dwarven ancestry, with the Explorers' League accompanying the expedition. They say the Frostwolves attacked without provocation. The Frostwolves give the same account with the names reversed." },
-        { "Vanndar Stormpike commands the Guard, and King Magni has ordered him to take the valley for Ironforge. The Frostwolves already live there and resist the order. I serve the League, but our interest in what lies beneath the ground does not settle the claims of those living above it." },
+        { "Vanndar Stormpike commands the Guard, and King Magni has ordered him to take the valley for Ironforge. The Frostwolves already live there and resist the order. I serve the king who gave that order, but the League's interest in what lies beneath the ground does not settle the claims of those living above it." },
       },
     },
     ["treason-of-alterac"] = {
@@ -540,7 +540,7 @@ ns.content = {
       text = {
         { "Deep in Uldaman, beyond the stone keeper Archaedas, four platinum discs preserve an account spoken by a stone watcher. It calls the Titans the Creators. They made the earthen from Azeroth's stone to shape its deep places: strong workers, tireless and difficult to harm." },
         { "The watcher says their making broke down under strain. One result retained their strength but lost their reason: the troggs, judged a failure and sealed beneath the earth. Another retained strength and wit but lost the stone. Those were the dwarves." },
-        { "You can understand why the League values this record, traveller. It gives us a beginning to investigate, and makes the creatures disturbing our digs part of the same question as our own ancestors." },
+        { "You can understand why the League values this record, traveller. It gives us dwarves a beginning to investigate, and makes the creatures disturbing the League's digs part of the same question as our own ancestors." },
       },
     },
     ["the-badlands"] = {
@@ -557,8 +557,8 @@ ns.content = {
       unlock = { { area = 1337 }, { kill = 2748 } },
       also = { "platinum-discs", "hammertoes-digsite", "rockjaw-troggs", "dark-iron-dwarves" },
       text = {
-        { "Uldaman lies beneath the Badlands, a Titan vault of carved halls and great stone guardians. The League's excavations opened a way into it. Troggs poured out, giving our diggers an unwelcome answer to a question we had long asked about those creatures." },
-        { "Troggs now occupy the outer halls, and Shadowforge Dark Irons seek the secrets within. The League contends with both. Beyond Archaedas, the vault's final guardian, lie the Discs of Norgannon and their account of the Titans' work. We have good reason to keep digging, even after learning what else our excavations can release." },
+        { "Uldaman lies beneath the Badlands, a Titan vault of carved halls and great stone guardians. The League's excavations opened a way into it. Troggs poured out, giving the League's diggers an unwelcome answer to a question long asked about those creatures." },
+        { "Troggs now occupy the outer halls, and Shadowforge Dark Irons seek the secrets within. The League contends with both. Beyond Archaedas, the vault's final guardian, lie the Discs of Norgannon and their account of the Titans' work. The League has good reason to keep digging, even after learning what else its excavations can release." },
       },
     },
     ["agamaggan"] = {
@@ -575,7 +575,7 @@ ns.content = {
       unlock = { { area = 359 }, { area = 2157 } },
       also = { "the-barrens", "explorers-league", "rockjaw-troggs" },
       text = {
-        { "General Twinbraid's dwarves have built Bael Modan beside their dig in the south-eastern Barrens, with a cannon and flying machines to support the settlement. Prospector Khazgorm of the Explorers' League works among them. An old site, a defended camp and one of our own prospectors: the beginnings of a familiar expedition." },
+        { "General Twinbraid's dwarves have built Bael Modan beside their dig in the south-eastern Barrens, with a cannon and flying machines to support the settlement. Prospector Khazgorm of the Explorers' League works among them. An old site, a defended camp and one of the League's own prospectors: the beginnings of a familiar expedition." },
         { "Gann Stonespire describes what preceded it. This was his tribe's home, he says, before the blasts and machines tore the hills apart and drove its people away. Diplomacy has failed him; he now seeks Khazgorm's death and the destruction of the dwarves' flying machine." },
         { "Within the expedition, Feegly has suffered a curse from an unearthed stone. The dig has brought trouble to the people doing the digging as well as to those displaced by it. I would like to be proud of every place the League's name appears. Bael Modan makes that difficult." },
       },
@@ -918,7 +918,7 @@ ns.content = {
         { "Every people that lives close to the wild has its hunters. The dwarves have their mountaineers, sure of their aim on any slope; the night elves, their huntresses and Sentinels; the orcs and trolls, their trackers and beast-tamers; the tauren, braves who still follow the herds as their grandparents did." },
         { "What sets a hunter apart is a companion. A wolf, a cat, a bear, a raptor, an owl: tamed in the wild, it learns to fight at the hunter's side. Feeding and tending it are as much a part of the calling as learning to shoot. The beast has to be persuaded that this new arrangement is worth its while." },
         { "Humans now train as hunters too, and the Skyborne bring hunters to both the Alliance and the Horde." },
-        { "The League has employed hunters as guides for as long as it has existed, traveller. They find the road and the dinner, and they keep both from finding us first." },
+        { "The League has employed hunters as guides for as long as it has existed, traveller. They find the road and the dinner, and they keep both from finding the diggers first." },
       },
     },
     ["mages"] = {
@@ -960,7 +960,7 @@ ns.content = {
       text = {
         { "Every city has its quiet trades, and the rogues practise all of them: the lock that opens without a key, the purse that changes hands without its owner knowing, the blade from behind. Some serve a crown, as Stormwind's SI:7 does; some serve no one but the coin, like the Defias in Westfall and the Syndicate in Alterac." },
         { "Between the two stand the assassins of Ravenholdt, in the hills of Alterac above Hillsbrad, who are said to choose their contracts and their students with equal care. Rogues of every people pass through its gates, and few talk about what they learned there." },
-        { "A rogue fights with poisons, quick hands and surprise, and leaves when the odds turn. I have hired a few to recover what others had already taken from us, traveller. It is not the League's proudest line of accounts, but it is one of its longest." },
+        { "A rogue fights with poisons, quick hands and surprise, and leaves when the odds turn. The League has hired a few to recover what others had already taken from it, traveller. It is not the proudest line in the League's accounts, but it is one of the longest." },
       },
     },
     ["shamans"] = {
@@ -992,7 +992,7 @@ ns.content = {
       text = {
         { "There is no single order of warriors, traveller, only a craft as old as the first quarrel. Lordaeron's footmen and Stormwind's knights, the orc grunts who broke those same walls, the tauren braves of the plains and the Darkspear's hunters of the islands learned the same lessons by different roads." },
         { "The craft has its schools all the same. A warrior learns to stand three ways: in battle, to strike first and hard; in defence, behind a shield, to hold a line; and in a berserker's fury, which spends the body's strength freely and asks for it back later. Most of the work is learning which the moment needs." },
-        { "Every capital keeps a hall where warriors train the young. The League hires a good many of them as escorts, and I have yet to meet one who did not have an opinion about where we were digging." },
+        { "Every capital keeps a hall where warriors train the young. The League hires a good many of them as escorts, and I have yet to meet one who did not have an opinion about where the diggers should dig." },
       },
     },
     ["auberdine"] = {
@@ -1159,6 +1159,16 @@ ns.content = {
         { "A druid of the Cenarion Circle waits near Shadowprey, seeking someone able to face Theradras and recover Zaetar's remains. The centaurs' sacred ground is also the resting place of a member of Cenarius's family." },
       },
     },
+    ["archesonus"] = {
+      title = "Royal Historian Archesonus", kind = "figure", chapter = "dun-morogh", portrait = 8171,
+      unlock = { { npc = 8879 } },
+      also = { "magni-bronzebeard", "ironforge", "explorers-league", "war-of-the-three-hammers", "ruins-of-thaurissan", "parqual-fintallas" },
+      text = {
+        { "So you have found me. I keep Ironforge's history from the High Seat, a few steps from King Magni's throne, and anyone who asks me about it had better have an afternoon to spare." },
+        { "The story I am asked for most is the Dark Irons'. The War of the Three Hammers ended with Sorcerer-Thane Thaurissan calling up Ragnaros, and the Firelord's waking turned their own country to ash. Relics still lie in the ruins of Thaurissan, in the Burning Steppes, holding more of that story than I have been able to read. A traveller who brings me what they say will have my thanks." },
+        { "This ledger is my work, traveller, with a great deal of help from the Explorers' League, who bring home more than any one historian could read. If a page has served you well, I am glad of it. If one has failed you, come and tell me so." },
+      },
+    },
     ["coldridge-valley"] = {
       title = "Coldridge Valley", kind = "place", chapter = "dun-morogh",
       unlock = { { area = 132 } },
@@ -1191,11 +1201,11 @@ ns.content = {
     ["explorers-league"] = {
       title = "The Explorers' League", kind = "faction", chapter = "dun-morogh", portrait = 3596,
       unlock = { { npc = 5387 }, { npc = 1356 }, { npc = 2916 }, { npc = 8256 } },
-      also = { "ironforge", "magni-bronzebeard", "ironbands-excavation-site", "whelgars-excavation-site" },
+      also = { "ironforge", "magni-bronzebeard", "archesonus", "ironbands-excavation-site", "whelgars-excavation-site" },
       text = {
-        { "I could hardly leave us out. The Explorers' League is Ironforge's society of historians, archaeologists and diggers: the dwarves who would rather read a ruin than build a hall." },
-        { "We are after the oldest question there is, which is where the dwarves came from. Our digs in Uldaman suggest that the answer lies with the Titans, the makers of the world, and if that is so, it changes how every dwarf should think of himself. King Magni takes it very seriously indeed." },
-        { "You will find us in the Hall of Explorers, under High Explorer Magellas. Bring us anything old, traveller, and anything strange. We will want to hear where you found it." },
+        { "I could hardly leave the League out. The Explorers' League is Ironforge's society of historians, archaeologists and diggers: the dwarves who would rather read a ruin than build a hall. A royal historian could not ask for better company." },
+        { "They are after the oldest question there is, which is where the dwarves came from. Their digs in Uldaman suggest that the answer lies with the Titans, the makers of the world, and if that is so, it changes how every dwarf should think of himself. King Magni takes it very seriously indeed." },
+        { "You will find them in the Hall of Explorers, under High Explorer Magellas. Bring them anything old, traveller, and anything strange. They will want to hear where you found it, and so will I." },
       },
     },
     ["frostmane-trolls"] = {
@@ -1257,12 +1267,12 @@ ns.content = {
     ["ironforge"] = {
       title = "Ironforge", kind = "place", chapter = "dun-morogh",
       unlock = { { area = 1537 } },
-      also = { "magni-bronzebeard", "war-of-the-three-hammers", "rockjaw-troggs" },
+      also = { "magni-bronzebeard", "archesonus", "explorers-league", "war-of-the-three-hammers", "rockjaw-troggs" },
       text = {
         { "Ironforge is not built on the mountain; it is built in it. Its halls lie within Ironforge Mountain, and at its centre burns the Great Forge." },
         { "The city turns around the forge like a wheel. King Magni holds court in the High Seat, the Military Ward trains the mountain's defenders, the mages keep to the Mystic Ward, and since the fall of Gnomeregan the gnome exiles have made Tinker Town their own: loud, clever and homesick. Beneath it all runs the Deeprun Tram, gnomish work, carrying travellers under the mountains to Stormwind." },
         { "Below Old Ironforge lies the Hall of Thanes. Dark Iron intruders have breached it, and Magni wants the head of their commander, Durgen Dirgehammer. Even here, a city's oldest halls can become its newest trouble." },
-        { "And then there is the Hall of Explorers, where you will find me. The League keeps its library here, and its finds: relics from Uldaman, the bones of beasts no one has seen alive, and maps of places most dwarves will only ever read about. Come and see us. We are always short of people who have actually been somewhere." },
+        { "And then there is the Hall of Explorers, where the League keeps its library and its finds: relics from Uldaman, the bones of beasts no one has seen alive, and maps of places most dwarves will only ever read about. As for me, you will find me in the High Seat, a few steps from the king's throne. Come and see me. I am always short of people who have actually been somewhere." },
       },
     },
     ["kharanos"] = {
@@ -1287,10 +1297,10 @@ ns.content = {
     ["magni-bronzebeard"] = {
       title = "King Magni Bronzebeard", kind = "figure", chapter = "dun-morogh", portrait = 3597,
       unlock = { { npc = 2784 } },
-      also = { "war-of-the-three-hammers" },
+      also = { "war-of-the-three-hammers", "archesonus" },
       text = {
         { "King Magni Bronzebeard holds court in Ironforge's High Seat, ruling the city his clan has held since the War of the Three Hammers. He is the eldest of three brothers. Muradin went north with the prince of Lordaeron during the Third War and has not been heard from since. Brann is the League's most famous explorer, and one of the hardest to keep track of." },
-        { "Magni follows our work closely. The finds at Uldaman suggest that the dwarves were shaped long ago by the Titans. A king with so long a lineage has reason to ask where it began; we have reason to welcome his interest." },
+        { "Magni follows the League's work closely. The finds at Uldaman suggest that the dwarves were shaped long ago by the Titans. A king with so long a lineage has reason to ask where it began, and a historian who stands a few steps from his throne has every reason to welcome his interest." },
         { "His daughter concerns him more urgently. Princess Moira is in the Dark Iron city beneath Blackrock Mountain, wed to Emperor Dagran Thaurissan. Ironforge calls it an abduction, and Magni promises a hero's reward for bringing her home. If you take up that charge, traveller, you carry a father's hopes as well as a king's orders." },
       },
     },
@@ -1310,7 +1320,7 @@ ns.content = {
       also = { "kharanos" },
       text = {
         { "The hunters of Kharanos call him Timber: a wolf larger than his fellows, with a troublesome understanding of traps. They say he chooses his ground and doubles back on his own trail. Every hunter sent after him has been outlived by the quarry." },
-        { "Wolves seldom trouble the League's records. This one has made a fair case for inclusion, though I doubt he would appreciate the distinction." },
+        { "Wolves seldom trouble a royal history. This one has made a fair case for inclusion, though I doubt he would appreciate the distinction." },
         { "If you have killed him, traveller, set down what happened while you remember it. The hunters will have their own account soon enough." },
       },
     },
@@ -1974,14 +1984,14 @@ ns.content = {
       },
     },
     ["foreword-dwarf"] = {
-      title = "A Word from the Archivist", kind = "note", chapter = "",
+      title = "A Word from the Royal Historian", kind = "note", chapter = "",
       unlock = { { always = true } },
       also = {  }, race = { Dwarf = true },
       text = {
         { "Traveller, welcome to this ledger of Azeroth. I have begun with the country around Ironforge, where a dwarf may know every road and still have questions about the stones beside it." },
         { "The pages follow our clans, the wars that divided them, and the older works the League is trying to understand. They follow other peoples too. Our history has crossed theirs often enough that a book confined to dwarves would leave much unexplained." },
         { "Carry it with you, and read a page when a place gives you reason to pause. A ruin is easier to notice than the life it once sheltered. Both deserve a place in the record." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { italic = true, "Royal Historian Archesonus, the High Seat, Ironforge" },
       },
     },
     ["foreword-gnome"] = {
@@ -1992,7 +2002,7 @@ ns.content = {
         { "Traveller, I have written this first page for a gnome with some care. Gnomeregan still lies beneath Dun Morogh, and your people cannot yet return to it. A ledger of old places ought to recognise that some losses are still being lived through." },
         { "Ironforge has offered your people shelter. You have brought ingenuity and a considerable quantity of noise into our halls; we are glad of the company, with occasional reservations about the noise. The account of Gnomeregan is here, along with the country its exiles now share." },
         { "Read these pages wherever your work takes you. I hope the entry about your home will one day need a happier addition. Until then, its history belongs beside the inventions and errands that may help you recover it." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { italic = true, "Royal Historian Archesonus, the High Seat, Ironforge" },
       },
     },
     ["foreword-human"] = {
@@ -2003,7 +2013,7 @@ ns.content = {
         { "Traveller, I am glad to send this ledger to a reader of Stormwind. Your people and mine have stood together since the Second War; our accounts of the battles since have seldom lacked names from both." },
         { "Stormwind was destroyed and rebuilt. Its new stonework is a great achievement, and the unpaid masons who raised it are part of its history too. You will find that account here beside the stories your kingdom has more reason to celebrate." },
         { "Use the book as you travel. Towns, ruins and roads can tell you how a country came to be as you find it, provided someone keeps track of the people who made them." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { italic = true, "Royal Historian Archesonus, the High Seat, Ironforge" },
       },
     },
     ["foreword-nightelf"] = {
@@ -2011,10 +2021,10 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { NightElf = true },
       text = {
-        { "Traveller, this ledger was bound for one of the kaldorei, and I confess that it is an odd thing to offer a history to a people who remember ten thousand years. Forgive a dwarf his presumption. We count our ages in stone; you count yours in the lives of trees." },
+        { "Traveller, this ledger was bound for one of the kaldorei, and I confess that it is an odd thing to offer a history to a people who remember ten thousand years. Forgive a dwarf her presumption. We count our ages in stone; you count yours in the lives of trees." },
         { "For most of those years your people kept to their forests and let no one in. Now you have planted a new World Tree off the coast of Darkshore and opened your gates to the Alliance, and the League has followed its curiosity into your ruins, as it always does. Where we have guessed wrong, I would be grateful to be told." },
         { "Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { italic = true, "Royal Historian Archesonus, the High Seat, Ironforge" },
       },
     },
     ["foreword-orc"] = {
@@ -2022,21 +2032,22 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { Orc = true },
       text = {
-        { "Traveller, you may wonder why a dwarf of Ironforge has written a ledger for an orc. Our peoples have fought, and the pages do not hide it. That gives us reason to understand what happened, even where we disagree about it." },
-        { "The Dark Portal brought your people here. Defeat brought them into Lordaeron's camps; Thrall led them out and across the sea to Durotar, named for his father. The League has tried to follow that history alongside the lives it crossed." },
-        { "Take the book on your journeys. You will find old enemies in it, but also places and people whose stories reach beyond either of our banners." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { "Traveller, the ledger in your hands was written in Ironforge, by Archesonus, King Magni's Royal Historian, and you may wonder why a Forsaken of the Undercity has sent a dwarf's history on to an orc. I was a historian of Lordaeron before the plague took me, and I know a fair account when I read one. Hers is fair more often than I expected." },
+        { "Your people's road is in it. The Dark Portal brought them here; defeat brought them into Lordaeron's internment camps; Thrall led them out and across the sea to Durotar, named for his father. Those camps stood in my kingdom while I was still alive, and I find I read those pages more slowly than the others." },
+        { "Take the book on your journeys. Strength will carry you a long way, but knowledge goes further, and the more you know of a place, the more of it you will see. If your road ever brings you to the Undercity, come and find me. I may have a question for you." },
+        { italic = true, "Parqual Fintallas, the Apothecarium, Undercity" },
       },
     },
     ["foreword-other"] = {
-      title = "A Word from the Archivist", kind = "note", chapter = "",
+      title = "A Word from the Royal Historian", kind = "note", chapter = "",
       unlock = { { always = true } },
       also = {  }, race = { other = true },
       text = {
+        { side = "Horde", "A note in another hand, before the first page: This ledger was written in Ironforge, by Archesonus, its Royal Historian, and it comes to you from the Undercity by way of my desk. She writes as a dwarf of the Alliance, and says so; where she forgets the Horde, read her with that in mind, as I did. Parqual Fintallas, the Apothecarium, Undercity." },
         { "Traveller, welcome. This ledger follows Azeroth's towns, ruins and roads, and the people whose lives have left them as you find them. You need no particular ancestry to take an interest in where you are standing." },
-        { "I write from Ironforge's Hall of Explorers, where the League gathers records and studies what its diggers bring home. A dwarf's account will have a dwarf's interests, but the world has given us more to investigate than the affairs of our own clans." },
+        { "I write from the High Seat in Ironforge, a few steps from the king's throne, and the Explorers' League brings home more for me to read than I will ever finish. A dwarf's account will have a dwarf's interests, but the world has given us more to investigate than the affairs of our own clans." },
         { "Read a page when your travels bring you to its place. The stones may have survived better than the names; I have tried to keep both within reach." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { italic = true, "Royal Historian Archesonus, the High Seat, Ironforge" },
       },
     },
     ["foreword-skyborne"] = {
@@ -2044,10 +2055,11 @@ ns.content = {
       unlock = { { always = true } },
       also = { "dire-maul", "shendralar" }, race = { Skyborne = true },
       text = {
-        { "Traveller, this ledger was bound for one of the Skyborne, and I confess I had to begin it twice. Until your people came down out of the sky, the League did not know you existed. Your own name for yourselves, the shen'dorei, the hidden people, is fairer than anything we could have written." },
-        { "We knew your beginning without knowing it was yours. Your ancestors lived in Eldre'Thalas, the city the ogres now call Dire Maul, and when its prince meant to bind a demon to feed his people's magic, they rose against him behind a masked leader, the Shal'nan. They fled west by sea with the prince's ships behind them, and wind spirits lifted their island into Skywall, out of the world entirely. The League knows those halls in Feralas well. We never guessed that some of the city had got away." },
+        { side = "Horde", "A note in another hand, before the first page: This ledger was written in Ironforge, by Archesonus, its Royal Historian, and it comes to you from the Undercity by way of my desk. Her word to your people was too good to rewrite, so here it is as she wrote it. Parqual Fintallas, the Apothecarium, Undercity." },
+        { "Traveller, this ledger was bound for one of the Skyborne, and I confess I had to begin it twice. Until your people came down out of the sky, no historian in Ironforge knew you existed. Your own name for yourselves, the shen'dorei, the hidden people, is fairer than anything we could have written." },
+        { "We knew your beginning without knowing it was yours. Your ancestors lived in Eldre'Thalas, the city the ogres now call Dire Maul, and when its prince meant to bind a demon to feed his people's magic, they rose against him behind a masked leader, the Shal'nan. They fled west by sea with the prince's ships behind them, and wind spirits lifted their island into Skywall, out of the world entirely. The Explorers' League knows those halls in Feralas well. None of us guessed that some of the city had got away." },
         { "Now the spirits are gone, the isle is failing, and your people have come looking for help, the High Order to Dalaran's mages, the Windshapers to the shamans. This ledger knows the world you have come back to better than the one you left. Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { italic = true, "Royal Historian Archesonus, the High Seat, Ironforge" },
       },
     },
     ["foreword-tauren"] = {
@@ -2055,10 +2067,10 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { Tauren = true },
       text = {
-        { "Traveller, your people keep much of their history in songs and the memory of the land. I offer these pages as a dwarf's attempt to listen and set down what he has understood." },
-        { "The tauren wandered Kalimdor's plains for generations under pressure from the centaur. Cairne Bloodhoof, with the orcs' help, gathered the tribes into Mulgore. Thunder Bluff now stands above the grasslands as a home for people long denied a settled one." },
-        { "Your homeland has its place here, alongside others you may visit. Read their accounts with the same attention you give your own elders. I would be glad if a traveller found something worth remembering in them." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { "Traveller, your people keep their history in songs and in the memory of the land. Mine kept it in books, and I have seen what a plague can make of a library. Perhaps the songs were the wiser choice." },
+        { "The pages that follow were written in Ironforge, by Archesonus, its Royal Historian, and they come to you from the Undercity by way of my desk. They tell how the tauren wandered Kalimdor's plains for generations under pressure from the centaur, and how Cairne Bloodhoof, with the orcs' help, gathered the tribes into Mulgore. Thunder Bluff now stands above the grasslands as a home for a people long denied a settled one." },
+        { "Read them with the attention you give your elders. Where a page and an elder disagree, I would be grateful to hear which, and why. A historian collects such disagreements the way others collect coin." },
+        { italic = true, "Parqual Fintallas, the Apothecarium, Undercity" },
       },
     },
     ["foreword-troll"] = {
@@ -2066,10 +2078,10 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { Troll = true },
       text = {
-        { "Traveller, this ledger was bound for one of the Darkspear, and I will begin with an admission: troll history is older than ours, and the League holds only the corners of it. Your kind built empires in the jungles of the south and the forests of the north long before the kingdoms of men arose." },
-        { "Your tribe was small and hard pressed when Thrall's ships found you on your islands, and you have kept faith with the Horde ever since, on the shores of Durotar beneath Sen'jin's name. Where these pages fall short of what your elders could tell, trust your elders." },
-        { "Wherever history was made, I have left a page for you. Read them by the fire, and remember that every ruin was once someone's home." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { "Traveller, this ledger was bound for one of the Darkspear, and I owe you two admissions. Its pages were written in Ironforge, by Archesonus, the Royal Historian there; I have only sent them on from the Undercity. And troll history is older than anything either of us keeps on a shelf. Your kind built empires in the jungles of the south and the forests of the north long before the kingdoms of men arose." },
+        { "Your tribe was small and hard pressed when Thrall's ships found you on your islands, and you have kept faith with the Horde ever since, on the shores of Durotar beneath Sen'jin's name. My own people came to the Horde later, and by a stranger road. We have a good deal to learn from those who stood by it first." },
+        { "Wherever history was made, the dwarf has left a page for you. Where her pages fall short of what your elders could tell, trust your elders, and then, if you can spare the time, tell me what they said." },
+        { italic = true, "Parqual Fintallas, the Apothecarium, Undercity" },
       },
     },
     ["foreword-undead"] = {
@@ -2077,10 +2089,10 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { Scourge = true },
       text = {
-        { "Traveller, I have found this first page harder to write than most. You may remember Lordaeron's towns as they were before the plague, when its capital stood above the ground. I know them through the records of people who no longer live there." },
-        { "The Forsaken freed themselves from the Lich King and now follow Sylvanas beneath that ruined city. The League has tried to record both the kingdom that fell and the people who remain. Much about your present life lies beyond a dwarf's understanding." },
-        { "Carry the ledger if it is useful to you. Where a place recalls something these pages cannot tell, your own memory may supply what our records lack." },
-        { italic = true, "An archivist of the Explorers' League, Hall of Explorers, Ironforge" },
+        { "Traveller, you and I have both outlived our kingdom. I was a historian of Lordaeron before the plague took me, and you may remember its towns as they were, when its capital stood above the ground. This ledger knows them only through records, for it was written in Ironforge, by Archesonus, King Magni's Royal Historian. I have sent it on all the same. It is a fair account, and fair accounts of our home are rare." },
+        { "The Forsaken freed themselves from the Lich King and now follow Sylvanas beneath the ruins of the city we knew. Much about the life we lead now lies beyond a dwarf's understanding. Where she writes of the Scarlet Crusade, she is kinder to them than I would be." },
+        { "Carry the ledger if it is useful to you. Where a place recalls something these pages cannot tell, trust your own memory over her records, and over mine." },
+        { italic = true, "Parqual Fintallas, the Apothecarium, Undercity" },
       },
     },
     ["dun-garok"] = {
@@ -2910,7 +2922,7 @@ ns.content = {
       text = {
         { "The Titan records in Uldaman describe troggs as a failed result of the earthen's making. They were sealed underground until dwarven excavations opened their halls. Our search for our own beginnings released creatures whose origins were uncomfortably close to them." },
         { "The Rockjaw occupy Dun Morogh's quarries and caves, the Stonesplinter Loch Modan's valleys, and the Stonevault Uldaman itself. Troggs also invaded Gnomeregan. Others have appeared in Darkshore and beneath Orgrimmar, though their route across the sea remains uncertain." },
-        { "Mountaineers ask for help defending roads and settlements, and the gnomes still fight them in their capital. A traveller carrying the League's ledger will find us interested in trogg history; those guarding a mine have a more immediate concern with keeping them out." },
+        { "Mountaineers ask for help defending roads and settlements, and the gnomes still fight them in their capital. A traveller carrying this ledger will find Ironforge's scholars interested in trogg history; those guarding a mine have a more immediate concern with keeping them out." },
       },
     },
     ["twilights-hammer"] = {
@@ -3610,6 +3622,16 @@ ns.content = {
         { "These ruins are where it happened. The Forsaken walk over them every day, and some of them were in the crowd that cheered." },
       },
     },
+    ["parqual-fintallas"] = {
+      title = "Parqual Fintallas", kind = "figure", chapter = "tirisfal", portrait = 10197,
+      unlock = { { npc = 4488 } },
+      also = { "undercity", "the-forsaken", "scarlet-monastery", "archesonus" },
+      text = {
+        { "Before the plague, Parqual Fintallas was one of Lordaeron's great historians. He is Forsaken now and keeps to the Apothecarium in the Undercity, still studying, though what he studies has changed along with him." },
+        { "He sets the Horde's young heroes a test of lore. Before he will ask his question, he sends them to the Scarlet Monastery for the Beginnings of the Undead Threat, a book the Crusade uses to train its paladins against his kind, and he expects them to have read it. Knowledge, he holds, counts for more than strength. I have never heard a historian argue otherwise." },
+        { "We have never met, and are unlikely to. I am told a copy of this ledger has reached him all the same, by roads I would rather not know about. I hope he finds it fair. He would know better than most where it is not." },
+      },
+    },
     ["royal-apothecary-society"] = {
       title = "The Royal Apothecary Society", kind = "faction", chapter = "tirisfal", portrait = 1680,
       unlock = { { npc = 2055 } },
@@ -3710,10 +3732,11 @@ ns.content = {
     ["undercity"] = {
       title = "Undercity", kind = "place", chapter = "tirisfal",
       unlock = { { area = 1497 } },
-      also = { "the-forsaken", "sylvanas-windrunner", "fall-of-lordaeron", "royal-apothecary-society" },
+      also = { "the-forsaken", "sylvanas-windrunner", "fall-of-lordaeron", "royal-apothecary-society", "parqual-fintallas" },
       text = {
         { "Lordaeron's capital lies in ruins above the Forsaken's own city. Beyond its broken walls are the shattered throne room and lifeless courtyards. Beneath them, old crypts and catacombs have become the Undercity, arranged around rings of green ooze. Sylvanas holds court in its royal quarter." },
         { "Merchants, trainers and guards occupy the other quarters, and the Royal Apothecary Society works in the Apothecarium. The Forsaken have made a functioning capital below the wreck of the one they knew in life. A traveller looking only at the ruins above would miss where the kingdom's surviving affairs are now conducted." },
+        { side = "Horde", "Beside this page, in another hand: She has the Apothecarium right, as far as it goes. You will find me there, on the southern of its two bridges, where I put questions to heroes who believe strength is enough. Come and be examined, traveller. P. F." },
       },
     },
     ["varimathras"] = {

@@ -105,6 +105,8 @@ function UnitClass(u)
   return "Hunter", "HUNTER"
 end
 function UnitIsUnit(a, b) return a == b end
+-- (state.side: the reader's, Alliance unless a test says)
+function UnitFactionGroup() return state.side or "Alliance" end
 
 -- UI: any method works and returns something sensible, scripts are kept.
 local function ui()
@@ -672,7 +674,7 @@ local CH = {}
 for _, ch in ipairs(C.chapters) do
   CH[ch.id] = ch
 end
-local DUN = FOREVER and 18 or 17 -- (Forever's Hall of Thanes)
+local DUN = FOREVER and 19 or 18 -- (Forever's Hall of Thanes)
 check(
   ns.found(CH["dun-morogh"]) == 7 and #CH["dun-morogh"].entries == DUN,
   ("Dun Morogh counts 7 of its %d pages"):format(DUN)
@@ -998,7 +1000,7 @@ check(
   "every page an achievement names exists" .. (#missing > 0 and (": " .. table.concat(missing, ", ")) or "")
 )
 check(
-  #ns.achievements == 9 + 4 + 9 + 5 + 4 + #C.chapters,
+  #ns.achievements == 9 + 4 + 10 + 5 + 4 + #C.chapters,
   "milestones, feats, encounters, the Library's and one achievement per chapter"
 )
 -- A codex from before achievements: what it deserves is recorded quietly.
@@ -1034,6 +1036,22 @@ for _, id in ipairs({ "thrall", "cairne-bloodhoof", "sylvanas-windrunner", "volj
   ns.unlock(id)
 end
 check(ns.earned("leaders"), "the four leaders of either side earn Friends in High Places")
+state.target = 4488
+fire("PLAYER_TARGET_CHANGED")
+state.target = nil
+check(
+  has("parqual-fintallas") and ns.earned("historian"),
+  "a historian of the codex met (Parqual Fintallas, or Archesonus) earns A Word in Person"
+)
+-- A paragraph for one side's readers: Parqual's note on the Undercity page.
+local note
+for _, para in ipairs(C.entries.undercity.text) do
+  if para.side then note = para end
+end
+check(note and note.side == "Horde" and not ns.shown(note), "a Horde reader's paragraph is hidden from an Alliance one")
+state.side = "Horde"
+check(ns.shown(note), "… and shown to a Horde reader")
+state.side = nil
 LorekeepersCodexFrame:Hide()
 ns.openAchievements("leaders")
 check(

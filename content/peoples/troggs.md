@@ -13,4 +13,4 @@ The Titan records in Uldaman describe troggs as a failed result of the earthen's
 
 The Rockjaw occupy Dun Morogh's quarries and caves, the Stonesplinter Loch Modan's valleys, and the Stonevault Uldaman itself. Troggs also invaded Gnomeregan. Others have appeared in Darkshore and beneath Orgrimmar, though their route across the sea remains uncertain.
 
-Mountaineers ask for help defending roads and settlements, and the gnomes still fight them in their capital. A traveller carrying the League's ledger will find us interested in trogg history; those guarding a mine have a more immediate concern with keeping them out.
+Mountaineers ask for help defending roads and settlements, and the gnomes still fight them in their capital. A traveller carrying this ledger will find Ironforge's scholars interested in trogg history; those guarding a mine have a more immediate concern with keeping them out.

@@ -287,6 +287,10 @@
   "name": "Archmage Arugal",
   "display": 2353
  },
+ "4488": {
+  "name": "Parqual Fintallas",
+  "display": 10197
+ },
  "4542": {
   "name": "High Inquisitor Fairbanks",
   "display": 2605
@@ -406,6 +410,10 @@
  "8737": {
   "name": "Linken",
   "display": 8012
+ },
+ "8879": {
+  "name": "Royal Historian Archesonus",
+  "display": 8171
  },
  "8888": {
   "name": "Franclorn Forgewright",

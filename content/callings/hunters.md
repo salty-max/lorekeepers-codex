@@ -11,4 +11,4 @@ What sets a hunter apart is a companion. A wolf, a cat, a bear, a raptor, an owl
 
 [forever] Humans now train as hunters too, and the Skyborne bring hunters to both the Alliance and the Horde.
 
-The League has employed hunters as guides for as long as it has existed, traveller. They find the road and the dinner, and they keep both from finding us first.
+The League has employed hunters as guides for as long as it has existed, traveller. They find the road and the dinner, and they keep both from finding the diggers first.

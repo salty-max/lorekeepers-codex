@@ -23,6 +23,16 @@ local interface = select(4, GetBuildInfo()) or 0
 ns.forever = interface >= 16000 and interface < 20000
 ns.client = ns.forever and "forever" or "classic"
 
+-- The reader's side: Archesonus of Ironforge writes the codex; a Horde
+-- reader's copy comes through Parqual Fintallas of the Undercity, with his
+-- word in it (paragraphs for one side only). Any other side reads hers.
+function ns.side() return UnitFactionGroup("player") == "Horde" and "Horde" or "Alliance" end
+
+-- Does a page's paragraph show to this reader: its client's, its side's?
+function ns.shown(para)
+  return (not para.client or para.client == ns.client) and (not para.side or para.side == ns.side())
+end
+
 -- Forever hides some values from addons ("secret values", in combat or
 -- instances): never compare or print one.
 ns.secret = issecretvalue or function() return false end

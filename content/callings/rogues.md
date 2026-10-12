@@ -10,4 +10,4 @@ Every city has its quiet trades, and the rogues practise all of them: the lock t
 
 Between the two stand the assassins of Ravenholdt, in the hills of Alterac above Hillsbrad, who are said to choose their contracts and their students with equal care. Rogues of every people pass through its gates, and few talk about what they learned there.
 
-A rogue fights with poisons, quick hands and surprise, and leaves when the odds turn. I have hired a few to recover what others had already taken from us, traveller. It is not the League's proudest line of accounts, but it is one of its longest.
+A rogue fights with poisons, quick hands and surprise, and leaves when the odds turn. The League has hired a few to recover what others had already taken from it, traveller. It is not the proudest line in the League's accounts, but it is one of the longest.
