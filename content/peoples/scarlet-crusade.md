@@ -13,7 +13,7 @@ unlock:
   - kill: 12337, 12352, 13118, 15162
 also: [scourge, argent-dawn, scarlet-monastery, whitemane-and-mograine]
 ---
-When Prince Arthas murdered his father and Lordaeron fell to the plague, the paladins of the Silver Hand who survived gathered what they could and swore to burn the dead from the land. They became the Scarlet Crusade, and they have been burning ever since: the dead, and the living who look at them wrongly.
+When Prince Arthas murdered his father and Lordaeron fell to the plague, the paladins of the Silver Hand who survived gathered what they could and swore to burn the dead from the land. Three founded the Crusade: High General Abbendis, High Inquisitor Isillien and the Highlord Mograine, the Ashbringer, and in its first days, those who were there say, it was a noble order. They became the Scarlet Crusade, and they have been burning ever since: the dead, and the living who look at them wrongly.
 
 They trust no one. Any stranger might carry the plague, any elf or dwarf might be a spy, and the Forsaken are simply the enemy. From the Monastery in Tirisfal, from Hearthglen and Tyr's Hand, they wage a war that no one else is invited to win. Their Grand Crusader, Saidan Dathrohan, rules them from Stratholme, and their Grand Inquisitor, Isillien, from Hearthglen.
 

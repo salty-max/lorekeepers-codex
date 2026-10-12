@@ -139,7 +139,7 @@ histories; this holds what belongs to no single land.
 | Taelan Fordring | Western Plaguelands / figure ❓ | npc 1842; quest 5944 | Tirion's son, Highlord of the Crusade, and what happened in Hearthglen | Quest 5944 *In Dreams*. Overlap: Tirion, Hearthglen |
 | The Druids of the Talon | Stonetalon / faction ❓ | area The Talon Den (468) | Malfurion's orders of the storm crow and the bear | WC3 ❓ (check the den's creatures) |
 
-## Pages to deepen (no new page)
+## Pages to deepen (no new page; done, 12 October 2026)
 
 | Page | With |
 |---|---|

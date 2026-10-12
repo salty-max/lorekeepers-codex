@@ -30,6 +30,22 @@
    "艾格文和獵龍之戰"
   ]
  },
+ "Aftermath of the Second War": {
+  "ids": [
+   21581
+  ],
+  "names": [
+   "Aftermath of the Second War",
+   "2차 대전쟁의 여파",
+   "Au lendemain de la Deuxième Guerre",
+   "Folgen des Zweiten Krieges",
+   "第二次兽人战争的结局",
+   "Las secuelas de la Segunda Guerra",
+   "Последствия Второй войны",
+   "As Consequências da Segunda Guerra",
+   "第二次獸人戰爭的結局"
+  ]
+ },
  "Archimonde's Return and the Flight to Kalimdor": {
   "ids": [
    175758
@@ -266,6 +282,22 @@
    "Курдран Громовой Молот",
    "Kurdran Martelo Feroz",
    "庫德蘭·蠻錘"
+  ]
+ },
+ "Lethargy of the Orcs": {
+  "ids": [
+   175751
+  ],
+  "names": [
+   "Lethargy of the Orcs",
+   "오크족의 무기력증",
+   "La léthargie des orcs",
+   "Die Lethargie der Orcs",
+   "兽人的消沉",
+   "El letargo de los orcos",
+   "Долгий сон Орков",
+   "Letargia dos Orcs",
+   "獸人的消沉"
   ]
  },
  "Monument to Grom Hellscream": {

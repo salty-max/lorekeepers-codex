@@ -13,7 +13,7 @@ For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of Wa
 
 ## What's inside
 
-- **409 original pages in 44 chapters** (421 in 45 on Forever): every zone of the original game, its places, figures, peoples and histories, and Ages Past, the world's history from the Titans to the last war, from the Sundering to the gates of Ahn'Qiraj.
+- **414 original pages in 44 chapters** (426 in 45 on Forever): every zone of the original game, its places, figures, peoples and histories, and Ages Past, the world's history from the Titans to the last war, from the Sundering to the gates of Ahn'Qiraj.
 - **Peoples and Powers**: the playable peoples (your own from the start, the others when you meet one of them), the Scourge, the Defias, the Dark Irons, the dragonflights, the troggs and some twenty-five more.
 - **The Callings**: a page for each class, where it comes from and who walks it; yours from the start, the others when you meet a player of that class.
 - **A foreword for your race**, so a dwarf, an orc or one of the Forsaken each read the ledger as theirs. On Forever, the Skyborne have their own.

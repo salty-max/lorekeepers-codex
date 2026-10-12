@@ -115,6 +115,10 @@
   "name": "Mo'grosh Ogre",
   "display": 1122
  },
+ "1200": {
+  "name": "Morbent Fel",
+  "display": 4272
+ },
  "1211": {
   "name": "Leper Gnome",
   "display": 6921
@@ -143,9 +147,17 @@
   "name": "Gregor Agamand",
   "display": 646
  },
+ "1748": {
+  "name": "Highlord Bolvar Fordragon",
+  "display": 5566
+ },
  "1749": {
   "name": "Lady Katrana Prestor",
   "display": 8769
+ },
+ "1842": {
+  "name": "Highlord Taelan Fordring",
+  "display": 10341
  },
  "1855": {
   "name": "Tirion Fordring",
