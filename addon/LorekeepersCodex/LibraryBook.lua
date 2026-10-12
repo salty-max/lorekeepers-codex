@@ -191,7 +191,7 @@ function showShelf()
   end
   local figures = { { tostring(ns.libraryCount()), "texts copied" } }
   for _, s in ipairs(SHELVES) do
-    table.insert(figures, { tostring(count[s[1]] or 0), s[2]:lower() })
+    table.insert(figures, { tostring(count[s[1]] or 0), s[1] }) -- (the shelf's short name: books, notes, plaques)
   end
   page:stats(figures)
   page:paragraph(

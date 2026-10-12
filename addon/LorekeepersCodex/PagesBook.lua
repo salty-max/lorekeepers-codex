@@ -95,9 +95,9 @@ function showOverview()
   end)
   page:stats({
     { tostring(ns.count()), "pages found" },
-    { tostring(#opened), #opened == 1 and "chapter opened" or "chapters opened" },
+    { tostring(#opened), #opened == 1 and "chapter" or "chapters" },
     { tostring(unread), "unread" },
-    { tostring(ns.libraryCount()), "texts in the Library" },
+    { tostring(ns.libraryCount()), "library texts" },
   })
   if #recent > 0 then
     page:section("Found lately")
