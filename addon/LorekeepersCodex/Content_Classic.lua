@@ -250,7 +250,7 @@ ns.content = {
         { "After the Second War the Alliance had a problem it had never had before: a whole people for prisoners. The orcs were rounded up into camps, and when the camps overflowed, new ones were built on the plains south of these mountains. King Terenas taxed the other kingdoms to pay for them, and the tax nearly broke the Alliance." },
         { "Then the wardens noticed something strange. The orcs stopped trying to escape; they stopped even fighting one another. They sat. Some called it a disease. Archmage Antonidas of Dalaran thought otherwise: the orcs had been fed on demon magic for generations, and what the wardens were seeing was withdrawal. There was no cure, he concluded, but a spiritual one, and many in the Alliance thought it unwise to look for one at all." },
         { "The chief warden, Aedelas Blackmoore, ruled the camps from Durnholde and kept an orc slave of his own, raised to be a weapon. The slave was Thrall. He found his people sitting behind these walls, and in the end he came back to break the camps open. No orcs are held here now; the Kirin Tor's wizards have taken the old camp for their own use." },
-        { side = "Horde", "In another hand: Those camps stood in my kingdom, on my king's orders. She tells it fairly. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "Those camps stood in my kingdom, on my king's orders. She tells it fairly." },
       },
     },
     ["ravenholdt-manor"] = {
@@ -278,7 +278,7 @@ ns.content = {
       text = {
         { "King Aiden Perenolde judged that the Horde would win the Second War. While the other human kingdoms fought together, Alterac opened a way for the orcs and supplied them with Alliance plans. When the Alliance won, Lordaeron imposed martial law. The rulers then disputed what should become of the kingdom." },
         { "Alterac's capital is ruined and its libraries scattered. Stormwind sends scholars to recover the books. Perenolde's son Aliden has pursued another inheritance: he leads the Syndicate, including former Alterac nobles, and plans to enslave the orcs as his mentor Blackmoore intended. There are several kinds of salvage being attempted here, traveller. The scholars' is the one I would commend." },
-        { side = "Horde", "In another hand: I am glad someone is saving Alterac's books. Whether any of them will ever reach the Undercity is another matter. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "I am glad someone is saving Alterac's books. Whether any of them will ever reach the Undercity is another matter." },
       },
     },
     ["arathi-basin"] = {
@@ -1163,7 +1163,7 @@ ns.content = {
         { "So you have found me. I keep Ironforge's history from the High Seat, a few steps from King Magni's throne, and anyone who asks me about it had better have an afternoon to spare." },
         { "The story I am asked for most is the Dark Irons'. The War of the Three Hammers ended with Sorcerer-Thane Thaurissan calling up Ragnaros, and the Firelord's waking turned their own country to ash. Relics still lie in the ruins of Thaurissan, in the Burning Steppes, holding more of that story than I have been able to read. A traveller who brings me what they say will have my thanks." },
         { "This ledger is my work, traveller, with a great deal of help from the Explorers' League, who bring home more than any one historian could read. If a page has served you well, I am glad of it. If one has failed you, come and tell me so." },
-        { side = "Horde", "In another hand: I have never met her. Hers is still the fairest account of the world I have read in a living hand. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "I have never met her. Hers is still the fairest account of the world I have read in a living hand." },
       },
     },
     ["coldridge-valley"] = {
@@ -1260,7 +1260,7 @@ ns.content = {
         { "Ironforge is not built on the mountain; it is built in it. Its halls lie within Ironforge Mountain, and at its centre burns the Great Forge." },
         { "The city turns around the forge like a wheel. King Magni holds court in the High Seat, the Military Ward trains the mountain's defenders, the mages keep to the Mystic Ward, and since the fall of Gnomeregan the gnome exiles have made Tinker Town their own: loud, clever and homesick. Beneath it all runs the Deeprun Tram, gnomish work, carrying travellers under the mountains to Stormwind." },
         { "And then there is the Hall of Explorers, where the League keeps its library and its finds: relics from Uldaman, the bones of beasts no one has seen alive, and maps of places most dwarves will only ever read about. As for me, you will find me in the High Seat, a few steps from the king's throne. Come and see me. I am always short of people who have actually been somewhere." },
-        { side = "Horde", "In another hand: She means the invitation kindly. I would not advise accepting it in the Horde's colours. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "She means the invitation kindly. I would not advise accepting it in the Horde's colours." },
       },
     },
     ["kharanos"] = {
@@ -1425,7 +1425,7 @@ ns.content = {
         { "Thrall is the Warchief of the Horde, and his life reads like a ballad no one would believe. He was the son of Durotan, chieftain of the Frostwolves, found as an infant beside his murdered parents and raised as a slave and a gladiator in Durnholde Keep by its master, Lord Aedelas Blackmoore, who meant to make him the general of a tame orcish army. He was given the name Thrall, which means slave, and he kept it." },
         { "He escaped, helped by a human girl who had befriended him, found his father's clan in the mountains of Alterac and learned the ways of the shaman. Then, with Grom Hellscream and the old Warchief Orgrim Doomhammer, he broke open the internment camps and freed his people. Doomhammer fell in that war and left the Horde and his hammer to Thrall." },
         { "He led the Horde across the sea to Kalimdor, fought beside the night elves and the humans against the Burning Legion, and built Durotar. He wants peace with the Alliance, and has made it with Jaina Proudmoore of Theramore. Whether the rest of the Alliance wants it is another question." },
-        { side = "Horde", "In another hand: Lordaeron made him a slave, and he still found room for Lordaeron's dead in his Horde. I am not sure I would have. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "Lordaeron made him a slave, and he still found room for Lordaeron's dead in his Horde. I am not sure I would have." },
       },
     },
     ["tiragarde-keep"] = {
@@ -1612,7 +1612,7 @@ ns.content = {
         { "Arthas Menethil was the only son of King Terenas of Lordaeron, a paladin of the Silver Hand trained by Uther himself, and, in happier days, close to the young sorceress Jaina Proudmoore. When the plague came, he rode against it." },
         { "He followed it here ahead of the Scourge and found the grain already eaten. Rather than let the city rise against him, he put its people to the sword; Uther and Jaina would not follow him. The dreadlord Mal'Ganis, who had been waiting for him, withdrew north, and Arthas chased him to Northrend, burned his own ships so his men could not turn back, and took up the runeblade Frostmourne. With it he killed Mal'Ganis, and lost his soul." },
         { "He came home a death knight, killed his father in his own throne room, and led the Scourge through the kingdom he was meant to rule; at Andorhal he killed Uther. Then he went north to the Frozen Throne and, the book in our library says, became the Lich King himself. Stratholme remembers him better than anywhere. Its streets are still full of the people he set out to save." },
-        { side = "Horde", "In another hand: Lordaeron's histories had a chapter waiting for him: the heir, the paladin, the king to come. None of them were wrong about his gifts. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "Lordaeron's histories had a chapter waiting for him: the heir, the paladin, the king to come. None of them were wrong about his gifts." },
       },
     },
     ["balnazzar"] = {
@@ -1640,7 +1640,7 @@ ns.content = {
       text = {
         { "Darrowshire was a village in the south of the Eastweald. When the Scourge came, its people stood and fought, with the paladin Davil Lightfire of the Silver Hand and Joseph Redpath at their head, against the ghoul lord Horgus and the death knight Marduk Blackpool. For a while they held. In the end, Marduk tore loose and corrupted Redpath's spirit, turning it against the defenders, and the village died." },
         { "The battle goes on in Darrowshire still, among the ghosts. A little girl, Pamela Redpath, wanders the ruins waiting for her father to come home. With the relics of the battle, it is said, the spirits of Darrowshire can be raised to fight it again, and this time Joseph Redpath's soul may be saved." },
-        { side = "Horde", "In another hand: Every village in the Eastweald had its Joseph Redpath. Darrowshire is the one whose dead may yet finish the story differently. Help them, if you can. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "Every village in the Eastweald had its Joseph Redpath. Darrowshire is the one whose dead may yet finish the story differently. Help them, if you can." },
       },
     },
     ["eastern-plaguelands"] = {
@@ -1679,7 +1679,7 @@ ns.content = {
       text = {
         { "Nathanos Marris was a ranger lord of Lordaeron, respected by all, and the only human ever allowed to train with the high elves of Quel'Thalas. He died in the Plaguelands. He walks there still, as Nathanos Blightcaller, the Champion of the Banshee Queen, with his blighthounds, at his own old farmhouse at the Marris Stead." },
         { "He gives the Horde's hunters their hardest work, against the beasts of the Plaguelands, the high elves of Quel'Lithien Lodge and the Scarlet Crusade, and calls them all imbeciles. SI:7 sent five agents to learn what had become of him; one came back, and died. The word he brought back was Blightcaller. When the Alliance learned the truth, Highlord Bolvar Fordragon asked for the Blightcaller's head." },
-        { side = "Horde", "In another hand: He calls everyone an imbecile. As a historian I am obliged to record that he is not always wrong. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "He calls everyone an imbecile. As a historian I am obliged to record that he is not always wrong." },
       },
     },
     ["naxxramas"] = {
@@ -1699,7 +1699,7 @@ ns.content = {
         { "Stratholme was the second city of Lordaeron, its jewel in the north. When the plague came there in grain wagons, Prince Arthas arrived with Uther and Jaina and found the whole city sick and turning. He ordered it purged. Uther refused and Jaina left him; Arthas put Stratholme to the sword, house by house, before the dead could rise, and the dreadlord Mal'Ganis was waiting for him at the end of it. The Culling, they call it now, and it was the beginning of Arthas's fall." },
         { "It has seen worse betrayals since. A Stromgarde mage named Ras Frostwhisper gave his life to the Scourge on its bloodied ground, freely, and rose as the lich of Scholomance. And it was here that the Highlord Mograine, the Ashbringer, was led into an ambush by his own son and killed with his own blade." },
         { "The city still burns. The Scourge hold half of it, under Baron Rivendare, and the Scarlet Crusade the other half, from their bastion, under the Grand Crusader. The dead who were not culled still wander its streets, and some of them, the ghosts, would like very much to be set free." },
-        { side = "Horde", "In another hand: There are still those who say the prince was right at Stratholme. I am not one of them. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "There are still those who say the prince was right at Stratholme. I am not one of them." },
       },
     },
     ["tirion-fordring"] = {
@@ -2036,7 +2036,7 @@ ns.content = {
       unlock = { { always = true } },
       also = {  }, race = { other = true },
       text = {
-        { side = "Horde", "A note in another hand, before the first page: This ledger was written in Ironforge, by Archesonus, its Royal Historian, and it comes to you from the Undercity by way of my desk. She writes as a dwarf of the Alliance, and says so; where she forgets the Horde, read her with that in mind, as I did. Parqual Fintallas, the Apothecarium, Undercity." },
+        { side = "Horde", aside = true, sign = "Parqual Fintallas, the Apothecarium, Undercity", "This ledger was written in Ironforge, by Archesonus, its Royal Historian, and it comes to you from the Undercity by way of my desk. She writes as a dwarf of the Alliance, and says so; where she forgets the Horde, read her with that in mind, as I did." },
         { "Traveller, welcome. This ledger follows Azeroth's towns, ruins and roads, and the people whose lives have left them as you find them. You need no particular ancestry to take an interest in where you are standing." },
         { "I write from the High Seat in Ironforge, a few steps from the king's throne, and the Explorers' League brings home more for me to read than I will ever finish. A dwarf's account will have a dwarf's interests, but the world has given us more to investigate than the affairs of our own clans." },
         { "Read a page when your travels bring you to its place. The stones may have survived better than the names; I have tried to keep both within reach." },
@@ -2093,7 +2093,7 @@ ns.content = {
         { "Durnholde controlled the orc internment camps after the Second War. Its master, Aedelas Blackmoore, raised an orc child as a slave and gladiator, intending him to command an obedient army. The child was Thrall. Taretha Foxton, a girl of Blackmoore's household, befriended him and helped him escape." },
         { "Thrall went on to free his people. Blackmoore is dead, and the Syndicate holds the keep. His ambitions survived elsewhere: at a manor beside Lordamere Lake, Aliden Perenolde planned to enslave orcs in his turn. His companion Elysa carried Taretha's pendant." },
         { "Thrall's agents came to Hillsbrad to recover it, and the Warchief has it again. A pendant is a small thing to set beside the fall of a fortress, traveller. It preserves the name of someone whose help made that fall possible." },
-        { side = "Horde", "In another hand: A girl of a Lordaeron household did more for the orcs than the whole of its Alliance. Her name belongs in more histories than this one. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "A girl of a Lordaeron household did more for the orcs than the whole of its Alliance. Her name belongs in more histories than this one." },
       },
     },
     ["hillsbrad-foothills"] = {
@@ -2112,7 +2112,7 @@ ns.content = {
       text = {
         { "Southshore is a fishing town and harbor on Hillsbrad's coast, with an inn, a town hall and a garrison fighting the Forsaken of Tarren Mill. It remains a stronghold of the living in a country where that distinction matters." },
         { "Kundric Zanden keeps its history, and Stormwind's loremasters send scholars through the town towards Alterac's ruined libraries. I am glad to find records kept in such a place. A traveller can obtain supplies here, but can also learn something of the country those supplies must carry them through." },
-        { side = "Horde", "In another hand: Kundric Zanden keeps Southshore's history, and I keep what is left of Lordaeron's. I doubt we would agree on the last chapter. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "Kundric Zanden keeps Southshore's history, and I keep what is left of Lordaeron's. I doubt we would agree on the last chapter." },
       },
     },
     ["tarren-mill"] = {
@@ -2122,7 +2122,7 @@ ns.content = {
       text = {
         { "Millers and farmers once occupied Tarren Mill. The Forsaken now hold it as a southern stronghold, with Deathguard serving a High Executor who answers to Varimathras. Southshore is only a short ride away." },
         { "Darthalia orders raids against Hillsbrad's farms and calls their human inhabitants an infestation. She means to subdue them while the apothecaries finish their new plague. The war between these towns reaches well beyond their guards: the farmers and their crops are named in its orders." },
-        { side = "Horde", "In another hand: We are told the apothecaries' new plague is meant for the Scourge. The last plague killed me, and I should like to see that in writing. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "We are told the apothecaries' new plague is meant for the Scourge. The last plague killed me, and I should like to see that in writing." },
       },
     },
     ["aerie-peak"] = {
@@ -3594,7 +3594,7 @@ ns.content = {
         { "Lordaeron was the first among the kingdoms of men, and its king, Terenas Menethil, had led the Alliance through the Second War. When the plague came out of the north and the dead began to rise, it was his son, Prince Arthas, a paladin of the Silver Hand, who rode out against it." },
         { "Arthas pursued it too far. He put the plague-stricken city of Stratholme to the sword rather than see its people rise, followed the plague's masters to Northrend, and took up a cursed runeblade there, Frostmourne. When he came home the people cheered him through the gates. He walked into his father's throne room and killed him, and the kingdom fell to the dead behind him." },
         { "These ruins are where it happened. The Forsaken walk over them every day, and some of them were in the crowd that cheered." },
-        { side = "Horde", "In another hand: She writes that some of the Forsaken were in the crowd that cheered. Some of us were. I have tried more than once to write that day down, and I have not managed it yet. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "She writes that some of the Forsaken were in the crowd that cheered. Some of us were. I have tried more than once to write that day down, and I have not managed it yet." },
       },
     },
     ["parqual-fintallas"] = {
@@ -3605,7 +3605,7 @@ ns.content = {
         { "Before the plague, Parqual Fintallas was one of Lordaeron's great historians. He is Forsaken now and keeps to the Apothecarium in the Undercity, still studying, though what he studies has changed along with him." },
         { "He sets the Horde's young heroes a test of lore. Before he will ask his question, he sends them to the Scarlet Monastery for the Beginnings of the Undead Threat, a book the Crusade uses to train its paladins against his kind, and he expects them to have read it. Knowledge, he holds, counts for more than strength. I have never heard a historian argue otherwise." },
         { "We have never met, and are unlikely to. I am told a copy of this ledger has reached him all the same, by roads I would rather not know about. I hope he finds it fair. He would know better than most where it is not." },
-        { side = "Horde", "In another hand: She is kinder to me than the Crusade's books are. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "She is kinder to me than the Crusade's books are." },
       },
     },
     ["royal-apothecary-society"] = {
@@ -3625,7 +3625,7 @@ ns.content = {
       text = {
         { "The Scarlet Crusade holds a monastery on a hill in northern Tirisfal, above the sea. Its walls enclose a library, an armoury, a graveyard and a cathedral. Knights, priests and inquisitors train there for a war that extends well beyond the Scourge." },
         { "The Forsaken are enemies too, as is any traveller the Crusade finds suspicious. High Inquisitor Whitemane and Scarlet Commander Mograine hold the cathedral, while Forsaken champions are sent against the fortress. The monastery has the outward furnishings of a house of the Light; approach with more caution than that description might suggest." },
-        { side = "Horde", "In another hand: Behind those walls is a library, and in it a book they use to teach their paladins how to destroy my kind. I send heroes to fetch it, and I ask them to read it before they bring it back. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "Behind those walls is a library, and in it a book they use to teach their paladins how to destroy my kind. I send heroes to fetch it, and I ask them to read it before they bring it back." },
       },
     },
     ["sylvanas-windrunner"] = {
@@ -3637,7 +3637,7 @@ ns.content = {
         { "When the Lich King's power faltered, Sylvanas broke free. She gathered the undead who had woken with her, turned a dreadlord to her service, and took the ruins of Lordaeron's capital for her own. The Forsaken call her the Dark Lady, and they would follow her anywhere." },
         { "She came of a family of rangers. Her elder sister, Alleria, went through the Dark Portal with the Alliance Expedition and never came back; it was Sylvanas who wrote the words on her plaque at Stormwind's gate. The youngest, Vereesa, was a ranger of Quel'Thalas too." },
         { "She wants Arthas dead. Beyond that, she keeps her own counsel, and her eyes give nothing away." },
-        { side = "Horde", "In another hand: She gave us back our minds, which is more than the Light managed. What she means to do with us next, she has not said. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "She gave us back our minds, which is more than the Light managed. What she means to do with us next, she has not said." },
       },
     },
     ["the-agamands"] = {
@@ -3677,7 +3677,7 @@ ns.content = {
         { "The Scarlet Monastery buries its heroes in its own graveyard, and their stones say more about the Crusade than its sermons do. Read them and you find it was never only a human order of Lordaeron: a high wizard and a ranger captain who were citizens of Quel'Thalas, assassins from Dalaran, a warrior of Alterac, a lord of the Red Caverns, an admiral of Kul Tiras." },
         { "Read further and you find how far it went. Orman of Stromgarde, its first Captain General, was lost at the mouth of Icecrown Glacier; the Grand Admiral of the Scarlet Fleet, off the frozen coast of Northrend; the first Chief Assassin, on Northrend's shores. The Crusade carried its war to the Lich King's own door, and the stones are what came back." },
         { "Others fell nearer home: a High Abbot killed defending the Monastery itself, a defender who died slaying a dreadlord, an elf locked in endless combat with a necromancer. Whatever the Crusade has become since, traveller, these were the people who believed in it first." },
-        { side = "Horde", "In another hand: I have read those stones too. I came away with a less generous account. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "I have read those stones too. I came away with a less generous account." },
       },
     },
     ["the-forsaken"] = {
@@ -3688,7 +3688,7 @@ ns.content = {
         { "When the Lich King's grip on his dead faltered, some of them woke. They were still dead, but their minds were their own again, and they remembered what they had been and what had been done to them. They call themselves the Forsaken, and they follow the one who freed them: Sylvanas Windrunner, the Banshee Queen." },
         { "They have taken back the ruin of their kingdom's capital and built a city beneath it, and they wage their own war against the Scourge that made them. They have joined the Horde, which needed allies against the Alliance, and the Horde has accepted them, which the Forsaken needed more. It is not a warm friendship." },
         { "I will not pretend the Forsaken are easy company. Most of them were men and women of Lordaeron, who remember their old lives and cannot go back to them. What they want now, beyond vengeance on the Lich King, no one outside the Undercity can say." },
-        { side = "Horde", "In another hand: No one outside the Undercity can say what we want, she writes. Most of us inside cannot either. I want to know what was done to us, and to write it down properly. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "No one outside the Undercity can say what we want, she writes. Most of us inside cannot either. I want to know what was done to us, and to write it down properly." },
       },
     },
     ["tirisfal-glades"] = {
@@ -3707,7 +3707,7 @@ ns.content = {
       text = {
         { "Lordaeron's capital lies in ruins above the Forsaken's own city. Beyond its broken walls are the shattered throne room and lifeless courtyards. Beneath them, old crypts and catacombs have become the Undercity, arranged around rings of green ooze. Sylvanas holds court in its royal quarter." },
         { "Merchants, trainers and guards occupy the other quarters, and the Royal Apothecary Society works in the Apothecarium. The Forsaken have made a functioning capital below the wreck of the one they knew in life. A traveller looking only at the ruins above would miss where the kingdom's surviving affairs are now conducted." },
-        { side = "Horde", "Beside this page, in another hand: She has the Apothecarium right, as far as it goes. You will find me there, on the southern of its two bridges, where I put questions to heroes who believe strength is enough. Come and be examined, traveller. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "She has the Apothecarium right, as far as it goes. You will find me there, on the southern of its two bridges, where I put questions to heroes who believe strength is enough. Come and be examined, traveller." },
       },
     },
     ["varimathras"] = {
@@ -3717,7 +3717,7 @@ ns.content = {
       text = {
         { "When Arthas departed for Northrend, Varimathras and his fellow dreadlords ruled the ruins of Lordaeron. Sylvanas, newly free of the Lich King's control, defeated him and offered a choice between service and death. He chose service, then helped her turn against his brothers." },
         { "He now stands beside the Banshee Queen in the Undercity. It is an imposing partnership, though its beginning offers little reassurance about the loyalty of either party. Varimathras found a way to survive one change of master; Sylvanas has kept him where she can see him." },
-        { side = "Horde", "In another hand: We pass him in the Royal Quarter and say nothing. I am less sure than the Dark Lady seems to be that keeping him close is the same as keeping him loyal. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "We pass him in the Royal Quarter and say nothing. I am less sure than the Dark Lady seems to be that keeping him close is the same as keeping him loyal." },
       },
     },
     ["whitemane-and-mograine"] = {
@@ -3727,7 +3727,7 @@ ns.content = {
       text = {
         { "High Inquisitor Sally Whitemane and Scarlet Commander Renault Mograine hold the Scarlet Monastery's cathedral. He commands its knights; she guides its faith. Her command of the Light can raise him when he falls, making a victory over the commander less final than a traveller might hope." },
         { "Renault is the son of Highlord Alexandros Mograine, the Ashbringer, a great champion of the Silver Hand against the Scourge. His father is dead. Fairbanks, another High Inquisitor hidden in the cathedral, claims to know how he died and says that Renault was there. The Crusade would prefer his silence. Those who bring the Highlord's blade may hear the account it does not wish told; the Ashbringer's page in this ledger tells what he says." },
-        { side = "Horde", "In another hand: Whitemane raises her commander from the dead, and the Crusade burns the rest of us for less. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "Whitemane raises her commander from the dead, and the Crusade burns the rest of us for less." },
       },
     },
     ["crystal-pylons"] = {
@@ -3783,7 +3783,7 @@ ns.content = {
       text = {
         { "Andorhal supplied grain to northern Lordaeron. Kel'Thuzad's Cult of the Damned tainted its granaries, and the shipments carried the plague into the villages beyond. A prosperous town became a means of spreading death through the country that depended on it." },
         { "Arthas killed Kel'Thuzad here while pursuing the plague's source. The necromancer's death did not end his work. Andorhal remains in Scourge hands, its ruins ruled by Araj the Summoner. Both Chillwind Camp and the Bulwark seek the lich's destruction." },
-        { side = "Horde", "In another hand: The plague came north in Andorhal's grain, not behind an army. That is the part of the story people forget first. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "The plague came north in Andorhal's grain, not behind an army. That is the part of the story people forget first." },
       },
     },
     ["caer-darrow"] = {
@@ -3821,7 +3821,7 @@ ns.content = {
       text = {
         { "Hearthglen surrounds Mardenholde Keep in the northern Western Plaguelands. The Scarlet Crusade holds its walls, and Grand Inquisitor Isillien keeps a green, surviving town in the middle of the plague country by ruthless means." },
         { "The keep was once Tirion Fordring's seat. When he was exiled for defending an orc who had saved his life, his wife told their son Taelan that he was dead. Taelan now holds his father's home for the Crusade. Tirion lives in a hut beside the Thondroril, gathering what he can of the boy's past and looking for a way to reach him." },
-        { side = "Horde", "In another hand: Lordaeron exiled a paladin for sparing an orc. The orcs now share their Horde with Lordaeron's dead, and I have not yet decided what to make of that. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "Lordaeron exiled a paladin for sparing an orc. The orcs now share their Horde with Lordaeron's dead, and I have not yet decided what to make of that." },
       },
     },
     ["house-of-barov"] = {
@@ -3878,7 +3878,7 @@ ns.content = {
       text = {
         { "Uther the Lightbringer was the first of the paladins, anointed by Archbishop Faol, the commander of the Knights of the Silver Hand, Prince Arthas's teacher, and the greatest champion the Light has had among men. He refused to take part in the purge of Stratholme, and Arthas dismissed him for it. When Arthas came back from Northrend with his cursed sword, Uther stood against him, guarding the urn that held King Terenas's ashes, and told his old pupil he hoped there was a special place in hell waiting for him. Arthas killed him." },
         { "His tomb stands on the hill of Sorrow above Lake Darrowmere, a white stone hall with his statue inside, in the middle of the dead country. It is quiet there, as nowhere else in the Plaguelands is, and those who still believe in the Light come to pay their respects." },
-        { side = "Horde", "In another hand: Terenas was my king, and Uther died keeping his ashes. I would like to see that tomb. P. F." },
+        { side = "Horde", aside = true, sign = "P. F.", "Terenas was my king, and Uther died keeping his ashes. I would like to see that tomb." },
       },
     },
     ["western-plaguelands"] = {

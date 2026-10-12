@@ -1051,6 +1051,13 @@ end
 check(note and note.side == "Horde" and not ns.shown(note), "a Horde reader's paragraph is hidden from an Alliance one")
 state.side = "Horde"
 check(ns.shown(note), "… and shown to a Horde reader")
+ns.unlock("undercity")
+linkHandlers.lorekeeper("lorekeeper:undercity")
+local aside = LorekeepersCodexPage.asides[1]
+check(
+  aside and aside.shown and aside.sign.text == "P. F." and aside.text.text:find("Apothecarium", 1, true),
+  "… set apart on the page as an aside, his initials under it"
+)
 state.side = nil
 LorekeepersCodexFrame:Hide()
 ns.openAchievements("leaders")

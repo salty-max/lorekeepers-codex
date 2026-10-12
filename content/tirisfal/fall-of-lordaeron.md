@@ -12,4 +12,4 @@ Arthas pursued it too far. He put the plague-stricken city of Stratholme to the 
 
 These ruins are where it happened. The Forsaken walk over them every day, and some of them were in the crowd that cheered.
 
-[horde] In another hand: She writes that some of the Forsaken were in the crowd that cheered. Some of us were. I have tried more than once to write that day down, and I have not managed it yet. P. F.
+[horde] > She writes that some of the Forsaken were in the crowd that cheered. Some of us were. I have tried more than once to write that day down, and I have not managed it yet. -- P. F.

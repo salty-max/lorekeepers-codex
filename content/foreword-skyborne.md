@@ -7,7 +7,7 @@ client: forever
 unlock: always
 also: [dire-maul, shendralar]
 ---
-[horde] A note in another hand, before the first page: This ledger was written in Ironforge, by Archesonus, its Royal Historian, and it comes to you from the Undercity by way of my desk. Her word to your people was too good to rewrite, so here it is as she wrote it. Parqual Fintallas, the Apothecarium, Undercity.
+[horde] > This ledger was written in Ironforge, by Archesonus, its Royal Historian, and it comes to you from the Undercity by way of my desk. Her word to your people was too good to rewrite, so here it is as she wrote it. -- Parqual Fintallas, the Apothecarium, Undercity
 
 Traveller, this ledger was bound for one of the Skyborne, and I confess I had to begin it twice. Until your people came down out of the sky, no historian in Ironforge knew you existed. Your own name for yourselves, the shen'dorei, the hidden people, is fairer than anything we could have written.
 

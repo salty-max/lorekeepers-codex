@@ -13,4 +13,4 @@ He sets the Horde's young heroes a test of lore. Before he will ask his question
 
 We have never met, and are unlikely to. I am told a copy of this ledger has reached him all the same, by roads I would rather not know about. I hope he finds it fair. He would know better than most where it is not.
 
-[horde] In another hand: She is kinder to me than the Crusade's books are. P. F.
+[horde] > She is kinder to me than the Crusade's books are. -- P. F.

@@ -15,4 +15,4 @@ She came of a family of rangers. Her elder sister, Alleria, went through the Dar
 
 She wants Arthas dead. Beyond that, she keeps her own counsel, and her eyes give nothing away.
 
-[horde] In another hand: She gave us back our minds, which is more than the Light managed. What she means to do with us next, she has not said. P. F.
+[horde] > She gave us back our minds, which is more than the Light managed. What she means to do with us next, she has not said. -- P. F.

@@ -11,4 +11,4 @@ Uther the Lightbringer was the first of the paladins, anointed by Archbishop Fao
 
 His tomb stands on the hill of Sorrow above Lake Darrowmere, a white stone hall with his statue inside, in the middle of the dead country. It is quiet there, as nowhere else in the Plaguelands is, and those who still believe in the Light come to pay their respects.
 
-[horde] In another hand: Terenas was my king, and Uther died keeping his ashes. I would like to see that tomb. P. F.
+[horde] > Terenas was my king, and Uther died keeping his ashes. I would like to see that tomb. -- P. F.

@@ -11,4 +11,4 @@ High Inquisitor Sally Whitemane and Scarlet Commander Renault Mograine hold the 
 
 Renault is the son of Highlord Alexandros Mograine, the Ashbringer, a great champion of the Silver Hand against the Scourge. His father is dead. Fairbanks, another High Inquisitor hidden in the cathedral, claims to know how he died and says that Renault was there. The Crusade would prefer his silence. Those who bring the Highlord's blade may hear the account it does not wish told; the Ashbringer's page in this ledger tells what he says.
 
-[horde] In another hand: Whitemane raises her commander from the dead, and the Crusade burns the rest of us for less. P. F.
+[horde] > Whitemane raises her commander from the dead, and the Crusade burns the rest of us for less. -- P. F.

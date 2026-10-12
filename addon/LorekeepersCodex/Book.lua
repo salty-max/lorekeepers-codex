@@ -12,6 +12,7 @@ local K = ns.kit
 K.theme({
   tint = { 0.88, 0.92, 1.00 },
   shade = { 0.02, 0.025, 0.035, 0.55 },
+  aside = { 0.68, 0.78, 0.62 }, -- (Parqual's ink, the Horde's copy)
 })
 local T = K.T
 T.link = T.accent -- (a page's "See also" links)

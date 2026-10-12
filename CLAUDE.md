@@ -125,7 +125,9 @@ historical claims in other entries.
   others' accounts. Parqual's notes: only where a Forsaken who was Lordaeron's
   historian sees it otherwise (Lordaeron and the plague, the Scarlet Crusade,
   the camps, the Horde's own), never by habit (some 25 pages); one to three
-  sentences, "[horde] In another hand: ... P. F." at the page's end; precise
+  sentences, "[horde] > ... -- P. F." at the page's end (an aside: the kit's
+  page sets it apart in his ink, the initials under it; no "in another hand"
+  in the words); precise
   and cutting, a dead man's dry humour, knowledge over strength, a teacher who
   sets tests, contempt for the Crusade; his point of view only, no new facts of
   his life beyond the sources (Lordaeron's historian before the plague, the

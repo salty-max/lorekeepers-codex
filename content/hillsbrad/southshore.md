@@ -10,4 +10,4 @@ Southshore is a fishing town and harbor on Hillsbrad's coast, with an inn, a tow
 
 Kundric Zanden keeps its history, and Stormwind's loremasters send scholars through the town towards Alterac's ruined libraries. I am glad to find records kept in such a place. A traveller can obtain supplies here, but can also learn something of the country those supplies must carry them through.
 
-[horde] In another hand: Kundric Zanden keeps Southshore's history, and I keep what is left of Lordaeron's. I doubt we would agree on the last chapter. P. F.
+[horde] > Kundric Zanden keeps Southshore's history, and I keep what is left of Lordaeron's. I doubt we would agree on the last chapter. -- P. F.

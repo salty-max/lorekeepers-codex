@@ -36,6 +36,8 @@
  *   (a Forever variant: the [classic] paragraph and its [forever] replacement);
  *   one starting with [alliance] or [horde], to that side's readers only (a
  *   Horde reader's copy: Parqual Fintallas's word; both tags may lead one).
+ *   A paragraph starting with "> " is an aside, a note in another hand, set
+ *   apart on the page; " -- P. F." at its end, the initials signed under it.
  *   An unlock starting with [forever] or [classic] exists on that client only.
  *
  * A chapter is a folder with a _chapter.md (title, order, a one-line summary).
@@ -59,7 +61,7 @@ const STANDINGS: Record<string, number> = { hated: 1, hostile: 2, unfriendly: 3,
 type Area = { id: number; name: string; parent: number };
 type Unlock = ({ always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number } | { people: string } | { calling: string } | { read: string[] }) & { client?: string };
 type Entry = { id: string; title: string; kind: string; portrait: number; chapter: string; unlock: Unlock[]; also: string[]; race: string[]; client: string; text: Para[]; file: string };
-type Para = { italic: boolean; text: string; client: string; side: string };
+type Para = { italic: boolean; text: string; client: string; side: string; aside: boolean; sign: string };
 const CLIENTS = ["classic", "forever"];
 const SIDES = ["alliance", "horde"];
 
@@ -204,8 +206,20 @@ function paragraphs(body: string) {
         else client = m[1];
         p = p.slice(m[0].length);
       }
-      const italic = /^\*[^*].*[^*]\*$/.test(p);
-      return { italic, text: italic ? p.slice(1, -1) : p, client, side };
+      // "> ... -- P. F.": an aside, and its signature.
+      let aside = false;
+      let sign = "";
+      if (p.startsWith("> ")) {
+        aside = true;
+        p = p.slice(2).replace(/\s+>\s+/g, " ");
+        const m = p.match(/\s+--\s+([^-]+)$/);
+        if (m) {
+          sign = m[1].trim();
+          p = p.slice(0, m.index);
+        }
+      }
+      const italic = !aside && /^\*[^*].*[^*]\*$/.test(p);
+      return { italic, text: italic ? p.slice(1, -1) : p, client, side, aside, sign };
     });
 }
 
@@ -328,7 +342,7 @@ ${kept
       unlock = { ${rulesFor(e).map(unlockLua).join(", ")} },
       also = { ${e.also.filter((a) => keptIds.has(a)).map(q).join(", ")} },${e.race.length ? ` race = { ${e.race.map((r) => `${r} = true`).join(", ")} },` : ""}
       text = {
-${e.text.filter((p) => mine(p.client)).map((p) => `        { ${p.italic ? "italic = true, " : ""}${p.side ? `side = ${q(p.side === "horde" ? "Horde" : "Alliance")}, ` : ""}${q(p.text)} },`).join("\n")}
+${e.text.filter((p) => mine(p.client)).map((p) => `        { ${p.italic ? "italic = true, " : ""}${p.side ? `side = ${q(p.side === "horde" ? "Horde" : "Alliance")}, ` : ""}${p.aside ? "aside = true, " : ""}${p.sign ? `sign = ${q(p.sign)}, ` : ""}${q(p.text)} },`).join("\n")}
       },
     },`,
   )

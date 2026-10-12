@@ -11,4 +11,4 @@ Nathanos Marris was a ranger lord of Lordaeron, respected by all, and the only h
 
 He gives the Horde's hunters their hardest work, against the beasts of the Plaguelands, the high elves of Quel'Lithien Lodge and the Scarlet Crusade, and calls them all imbeciles. SI:7 sent five agents to learn what had become of him; one came back, and died. The word he brought back was Blightcaller. When the Alliance learned the truth, Highlord Bolvar Fordragon asked for the Blightcaller's head.
 
-[horde] In another hand: He calls everyone an imbecile. As a historian I am obliged to record that he is not always wrong. P. F.
+[horde] > He calls everyone an imbecile. As a historian I am obliged to record that he is not always wrong. -- P. F.

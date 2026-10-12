@@ -10,4 +10,4 @@ Lordaeron's capital lies in ruins above the Forsaken's own city. Beyond its brok
 
 Merchants, trainers and guards occupy the other quarters, and the Royal Apothecary Society works in the Apothecarium. The Forsaken have made a functioning capital below the wreck of the one they knew in life. A traveller looking only at the ruins above would miss where the kingdom's surviving affairs are now conducted.
 
-[horde] Beside this page, in another hand: She has the Apothecarium right, as far as it goes. You will find me there, on the southern of its two bridges, where I put questions to heroes who believe strength is enough. Come and be examined, traveller. P. F.
+[horde] > She has the Apothecarium right, as far as it goes. You will find me there, on the southern of its two bridges, where I put questions to heroes who believe strength is enough. Come and be examined, traveller. -- P. F.

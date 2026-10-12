@@ -48,7 +48,8 @@ local function showPage(id)
   page:start(e.title, aboutPage(e), ns.pictureOf(e))
   local paras = {}
   for _, para in ipairs(e.text) do
-    if ns.shown(para) then table.insert(paras, para[1]) end
+    -- (an aside: Parqual's note, set apart by the kit's page)
+    if ns.shown(para) then table.insert(paras, para.aside and para or para[1]) end
   end
   page:text(paras)
   page:paragraph(foundLine(ns.page(id)), T.soft)

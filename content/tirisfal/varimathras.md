@@ -11,4 +11,4 @@ When Arthas departed for Northrend, Varimathras and his fellow dreadlords ruled 
 
 He now stands beside the Banshee Queen in the Undercity. It is an imposing partnership, though its beginning offers little reassurance about the loyalty of either party. Varimathras found a way to survive one change of master; Sylvanas has kept him where she can see him.
 
-[horde] In another hand: We pass him in the Royal Quarter and say nothing. I am less sure than the Dark Lady seems to be that keeping him close is the same as keeping him loyal. P. F.
+[horde] > We pass him in the Royal Quarter and say nothing. I am less sure than the Dark Lady seems to be that keeping him close is the same as keeping him loyal. -- P. F.

@@ -13,4 +13,4 @@ He escaped, helped by a human girl who had befriended him, found his father's cl
 
 He led the Horde across the sea to Kalimdor, fought beside the night elves and the humans against the Burning Legion, and built Durotar. He wants peace with the Alliance, and has made it with Jaina Proudmoore of Theramore. Whether the rest of the Alliance wants it is another question.
 
-[horde] In another hand: Lordaeron made him a slave, and he still found room for Lordaeron's dead in his Horde. I am not sure I would have. P. F.
+[horde] > Lordaeron made him a slave, and he still found room for Lordaeron's dead in his Horde. I am not sure I would have. -- P. F.

@@ -5,7 +5,7 @@ kind: note
 race: other
 unlock: always
 ---
-[horde] A note in another hand, before the first page: This ledger was written in Ironforge, by Archesonus, its Royal Historian, and it comes to you from the Undercity by way of my desk. She writes as a dwarf of the Alliance, and says so; where she forgets the Horde, read her with that in mind, as I did. Parqual Fintallas, the Apothecarium, Undercity.
+[horde] > This ledger was written in Ironforge, by Archesonus, its Royal Historian, and it comes to you from the Undercity by way of my desk. She writes as a dwarf of the Alliance, and says so; where she forgets the Horde, read her with that in mind, as I did. -- Parqual Fintallas, the Apothecarium, Undercity
 
 Traveller, welcome. This ledger follows Azeroth's towns, ruins and roads, and the people whose lives have left them as you find them. You need no particular ancestry to take an interest in where you are standing.
 
