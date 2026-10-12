@@ -3,19 +3,13 @@
 base: lua51
 name: wow
 globals:
-  AchievementShield_Desaturate:
-    any: true
   AchievementShield_OnLoad:
-    any: true
-  AchievementShield_Saturate:
     any: true
   AlertFrame:
     any: true
-  AlertFrame_OnClick:
-    any: true
-  AlertFrame_SetDuration:
-    any: true
   ButtonFrameTemplate_HideButtonBar:
+    any: true
+  C_Item:
     any: true
   CLASS_ICON_TCOORDS:
     any: true
@@ -47,6 +41,10 @@ globals:
     any: true
   GetGossipText:
     any: true
+  GetItemIcon:
+    any: true
+  GetItemInfo:
+    any: true
   GetLocale:
     any: true
   GetObjectiveText:
@@ -70,6 +68,8 @@ globals:
   InCombatLockdown:
     any: true
   IsQuestFlaggedCompleted:
+    any: true
+  ITEM_QUALITY_COLORS:
     any: true
   ItemTextFrame:
     any: true
@@ -112,6 +112,8 @@ globals:
   PanelTemplates_TabResize:
     any: true
   PlaySound:
+    any: true
+  SetPortraitTexture:
     any: true
   SLASH_LOREKEEPERSCODEX1:
     any: true

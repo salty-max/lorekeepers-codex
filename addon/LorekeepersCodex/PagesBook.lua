@@ -1,16 +1,17 @@
--- The Pages tab: on the left, the chapters and the pages found in them (a
--- chapter's bar and count tell how many are left; a click on its title folds
--- it away or opens it; a search finds the pages found by their words); on the
--- right, the open page: its title, its chapter and kind, a round picture (for
--- a figure, a creature or a faction, the game's still portrait of it; a
--- calling's class icon; else an icon of its kind), the text, and links to
--- related pages.
+-- The Pages tab: on the left, the codex at a glance, then the chapters and
+-- the pages found in them (a chapter's bar and count tell how many are left;
+-- a click on its title folds it away or opens it; a search finds the pages
+-- found by their words); on the right, the open page (the kit's): its title,
+-- its chapter and kind, a round picture (for a figure, a creature or a
+-- faction, the game's still portrait of it; a calling's class icon; else an
+-- icon of its kind), the text, where and when it was found, and the related
+-- pages found as cards. The codex at a glance: its figures, the pages found
+-- lately, the chapters opened to pick.
 local _, ns = ...
 local C = ns.content
 local ui = ns.ui
-local T, TITLE_FONT, BODY_FONT, WIDTH, HEADER_H, KINDS =
-  ui.T, ui.TITLE_FONT, ui.BODY_FONT, ui.WIDTH, ui.HEADER_H, ui.KINDS
-local label, rule = ui.label, ui.rule
+local T, TITLE_FONT, BODY_FONT, KINDS = ui.T, ui.TITLE_FONT, ui.BODY_FONT, ui.KINDS
+local OVERVIEW = "overview" -- (the codex at a glance, in place of a page)
 
 local chapterTitle = {}
 for _, ch in ipairs(C.chapters) do
@@ -21,68 +22,113 @@ local book, list, page
 local current
 
 -- ── the open page ────────────────────────────────────────────────────────────
+-- What a page is, in a line: its chapter and its kind.
+local function aboutPage(e)
+  local kind = KINDS[e.kind] or KINDS.note
+  local chapter = e.chapter ~= "" and chapterTitle[e.chapter]
+  return chapter and (chapter .. "  -  " .. kind) or kind
+end
+
+-- Where and when this character found it (found by looking back: since when
+-- the codex holds it).
+local function foundLine(rec)
+  if rec.retro then return ("In your codex since %s, at level %d."):format(ui.day(rec.at), rec.level or 0) end
+  local where = rec.zone or "?"
+  if rec.sub and rec.sub ~= "" and rec.sub ~= rec.zone then where = rec.sub .. ", " .. where end
+  return ("Found in %s, at level %d, on %s."):format(where, rec.level or 0, ui.day(rec.at))
+end
+
+local showOverview
 local function showPage(id)
+  if id == OVERVIEW then return showOverview() end
   current = id
   local e = C.entries[id]
   if not e or not ns.page(id) then return end
   ns.markRead(id)
-  local portrait = ns.pagePicture(page.icon, e)
-  page.title:ClearAllPoints()
-  if portrait then
-    page.title:SetPoint("TOPLEFT", page.icon, "TOPRIGHT", 16, -4)
-  else
-    page.title:SetPoint("TOPLEFT", page.child, "TOPLEFT", 0, -10)
-  end
-  page.title:SetWidth(portrait and WIDTH - 78 or WIDTH)
-  page.sub:SetWidth(portrait and WIDTH - 78 or WIDTH)
-  page.title:SetText(e.title)
-  local kind = KINDS[e.kind] or KINDS.note
-  local chapter = e.chapter ~= "" and chapterTitle[e.chapter]
-  page.sub:SetText(chapter and (chapter .. "  -  " .. kind) or kind)
+  page:start(e.title, aboutPage(e), ns.pictureOf(e))
   local paras = {}
   for _, para in ipairs(e.text) do
     if not para.client or para.client == ns.client then table.insert(paras, para[1]) end
   end
-  page.body:SetText(table.concat(paras, "\n\n"))
+  page:text(paras)
+  page:paragraph(foundLine(ns.page(id)), T.soft)
 
-  -- "See also": the related pages this character has found.
-  for _, b in ipairs(page.links) do
-    b:Hide()
-  end
-  local n = 0
-  local y = HEADER_H + page.body:GetStringHeight() + 22
-  page.seeAlso:ClearAllPoints()
-  page.seeAlso:SetPoint("TOPLEFT", page.child, "TOPLEFT", 0, -y)
-  y = y + 32
+  -- "See also": the related pages this character has found, as cards.
+  local also = {}
   for _, other in ipairs(e.also) do
-    if ns.page(other) then
-      n = n + 1
-      local b = page.links[n]
-      if not b then
-        b = CreateFrame("Button", nil, page.child)
-        b:SetSize(WIDTH, 18)
-        b.text = label(b, BODY_FONT, 12, T.link)
-        b.text:SetPoint("LEFT")
-        b:SetScript("OnEnter", function(self) self.text:SetTextColor(1, 1, 1) end)
-        b:SetScript("OnLeave", function(self) self.text:SetTextColor(unpack(T.link)) end)
-        page.links[n] = b
-      end
-      b.text:SetText("» " .. C.entries[other].title)
-      b.text:SetTextColor(unpack(T.link))
-      b:SetScript("OnClick", function()
+    if ns.page(other) then table.insert(also, other) end
+  end
+  if #also > 0 then
+    page:section("See also")
+    for _, other in ipairs(also) do
+      local o = C.entries[other]
+      page:card(o.title, aboutPage(o), ns.pictureOf(o, true), function()
         showPage(other)
         ns.refresh(true)
       end)
-      b:ClearAllPoints()
-      b:SetPoint("TOPLEFT", page.child, "TOPLEFT", 0, -y)
-      b:Show()
-      y = y + 20
     end
   end
-  page.seeAlso:SetShown(n > 0)
-  if n == 0 then y = y - 32 end
-  page.child:SetHeight(y + 24)
-  page:ScrollTo(0)
+  page:finish()
+end
+
+-- ── the codex at a glance ────────────────────────────────────────────────────
+-- Its figures, the pages found lately (not those looked back on), the
+-- chapters opened, to pick.
+local LATELY = 5
+function showOverview()
+  current = OVERVIEW
+  page:start("The Codex", ("%d of %d pages found"):format(ns.count(), ns.knownTotal()), ui.icon(ui.BOOK))
+  local opened, unread, recent = {}, 0, {}
+  for _, ch in ipairs(C.chapters) do
+    if ns.found(ch) > 0 then table.insert(opened, ch) end
+  end
+  for id, e in pairs(C.entries) do
+    local rec = ns.page(id)
+    if rec then
+      if not ns.isRead(id) then unread = unread + 1 end
+      if not rec.retro then table.insert(recent, { id = id, e = e, at = rec.at or 0 }) end
+    end
+  end
+  table.sort(recent, function(a, b)
+    if a.at ~= b.at then return a.at > b.at end
+    return a.e.title < b.e.title
+  end)
+  page:stats({
+    { tostring(ns.count()), "pages found" },
+    { tostring(#opened), #opened == 1 and "chapter opened" or "chapters opened" },
+    { tostring(unread), "unread" },
+    { tostring(ns.libraryCount()), "texts in the Library" },
+  })
+  if #recent > 0 then
+    page:section("Found lately")
+    for i = 1, math.min(LATELY, #recent) do
+      local r = recent[i]
+      page:card(r.e.title, ("%s  -  %s"):format(aboutPage(r.e), ui.day(r.at)), ns.pictureOf(r.e, true), function()
+        showPage(r.id)
+        ns.refresh(true)
+      end)
+    end
+  end
+  if #opened > 0 then
+    page:section("The chapters")
+    local chips = {}
+    for _, ch in ipairs(opened) do
+      table.insert(chips, {
+        ("%s  %d/%d"):format(ch.title, ns.found(ch), #ch.entries),
+        function()
+          -- (its first page found, its chapter open)
+          for _, id in ipairs(ch.entries) do
+            if ns.page(id) then
+              showPage(id)
+              return ns.refresh(true)
+            end
+          end
+        end,
+      })
+    end
+    page:chips(chips)
+  end
+  page:finish()
 end
 
 -- ── the list of chapters and pages ───────────────────────────────────────────
@@ -209,7 +255,27 @@ local function refresh(scrollToCurrent)
     r.count:SetText(kind == "chapter" and id or "")
     r.bar:SetShown(kind == "chapter")
     r.fold:SetShown(kind == "chapter")
-    if kind == "chapter" then
+    if kind == "overview" then
+      r:SetHeight(22)
+      r.text:ClearAllPoints()
+      r.text:SetPoint("LEFT", 4, 0)
+      r.text:SetPoint("RIGHT", -4, 0)
+      r.text:SetFont(TITLE_FONT, 14, "")
+      r.text:SetText(text)
+      if current == OVERVIEW then
+        currentY = y
+        r.selected:Show()
+        r.text:SetTextColor(1, 1, 1)
+      else
+        r.text:SetTextColor(unpack(T.gold))
+      end
+      r:Enable()
+      r:SetScript("OnClick", function()
+        showOverview()
+        ns.refresh()
+      end)
+      y = y + 24
+    elseif kind == "chapter" then
       r:SetHeight(32)
       r.text:ClearAllPoints()
       r.text:SetPoint("TOPLEFT", 18, -3)
@@ -286,7 +352,8 @@ local function refresh(scrollToCurrent)
     end
     return finish()
   end
-  -- Loose pages (the foreword) first, then each chapter.
+  -- The codex at a glance, the loose pages (the foreword), then each chapter.
+  add("overview", "The Codex")
   for id, entry in pairs(C.entries) do
     if entry.chapter == "" and ns.page(id) and fits(id) then add("page", nil, id) end
   end
@@ -333,45 +400,25 @@ local function build(b)
 
   list = ui.listArea("LorekeepersCodexList", book, true)
   page = ui.pageArea("LorekeepersCodexPage", book)
-  ui.pageHeader(page)
-
-  -- "See also": a heading with a line, then the links.
-  page.seeAlso = CreateFrame("Frame", nil, page.child)
-  page.seeAlso:SetSize(WIDTH, 24)
-  page.seeAlso.text = label(page.seeAlso, TITLE_FONT, 16, T.gold)
-  page.seeAlso.text:SetPoint("BOTTOMLEFT", 0, 5)
-  page.seeAlso.text:SetText("See also")
-  local seeRule = rule(page.seeAlso)
-  seeRule:SetPoint("BOTTOMLEFT")
-  seeRule:SetPoint("BOTTOMRIGHT")
-  page.links = {}
 end
 
--- Shown: the open page, or on first opening an unread page, else this
--- character's foreword.
+-- Shown: the open page, or on first opening an unread page, else the codex
+-- at a glance.
 local function show(n)
   book.foldAll:SetShown(n == ns.TAB.pages)
   list:SetShown(n == ns.TAB.pages)
   page:SetShown(n == ns.TAB.pages)
   if n ~= ns.TAB.pages then return end
-  if not current or not ns.page(current) then
-    current = nil
+  if current ~= OVERVIEW and (not current or not ns.page(current)) then
+    current = OVERVIEW
     for id in pairs(C.entries) do
       if ns.page(id) and not ns.isRead(id) then
         current = id
         break
       end
     end
-    if not current then
-      for id, e in pairs(C.entries) do
-        if e.chapter == "" and ns.page(id) then
-          current = id
-          break
-        end
-      end
-    end
   end
-  if current then showPage(current) end
+  showPage(current)
 end
 
 -- The select's kinds: every one, or a kind of the pages found (with how

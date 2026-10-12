@@ -1,7 +1,8 @@
 -- The Library's tab: on the left, the texts copied (Library.lua) on their
 -- shelves (books, notes and letters, plaques), folded or open, and searched by
--- their words; on the right, a text one page at a time, with where and when it
--- was found.
+-- their words; on the right (the kit's page), a text one page at a time, with
+-- where and when it was found; before one is opened, the Library at a glance:
+-- its figures by shelf, the texts copied lately.
 local _, ns = ...
 local ui = ns.ui
 local store, shelfOf, plain = ns.library, ns.libraryShelf, ns.libraryPlain
@@ -127,31 +128,28 @@ local function refreshList()
   list:UpdateThumb()
 end
 
-local function day(at) return date("%d %b %Y", at or 0) end
+-- A text's shelf: { id, name, icon }.
+local function shelfFor(t)
+  local shelf = shelfOf(t)
+  for _, s in ipairs(SHELVES) do
+    if s[1] == shelf then return s end
+  end
+  return SHELVES[1]
+end
 
--- A text, one page at a time.
+-- Where and when it was copied.
+local function foundAt(t)
+  if not t.zone then return "found" end
+  return ("found in %s%s, %s"):format(t.zone, t.sub and t.sub ~= "" and (": " .. t.sub) or "", ui.day(t.at))
+end
+
+-- A text, one page at a time, the arrows that turn them under it.
 function showText(id, pageNumber)
   local t = textOf(id)
   if not t then return end
   currentText, currentPage = id, pageNumber or 1
-  local found = t
-  local shelf = shelfOf(t)
-  for _, s in ipairs(SHELVES) do
-    if s[1] == shelf then
-      page.icon.tex:SetTexture(s[3])
-      page.icon.tex:SetTexCoord(0.08, 0.92, 0.08, 0.92)
-      page.sub:SetText(
-        ("%s  -  %s"):format(
-          s[2],
-          found.zone
-              and ("found in %s%s, %s"):format(found.zone, found.sub and (": " .. found.sub) or "", day(found.at))
-            or "found"
-        )
-      )
-    end
-  end
-  page.icon:Show()
-  page.title:SetText(t.title)
+  local shelf = shelfFor(t)
+  page:start(t.title, ("%s  -  %s"):format(shelf[2], foundAt(t)), ui.icon(shelf[3]))
   -- the pages: those copied, and how many there are once the last was read
   local last = t.count
   local highest = 0
@@ -159,37 +157,63 @@ function showText(id, pageNumber)
     highest = math.max(highest, p)
   end
   local body = t.pages[currentPage]
-  page.body:SetText(
+  page:text({
     body and plain(body)
-      or "|cff9e9178This page did not reach the codex; open the text again in the world to copy it.|r"
-  )
-  page.pageLabel:SetText(("Page %d of %d"):format(currentPage, last or highest))
-  page.prev:SetEnabled(currentPage > 1)
-  page.next:SetEnabled(currentPage < (last or highest))
-  local multi = (last or highest) > 1
-  page.prev:SetShown(multi)
-  page.next:SetShown(multi)
-  page.pageLabel:SetShown(multi)
-  page.child:SetHeight(ui.HEADER_H + page.body:GetStringHeight() + 60)
-  page:ScrollTo(0)
+      or "|cff9e9178This page did not reach the codex; open the text again in the world to copy it.|r",
+  })
+  if (last or highest) > 1 then
+    page.pageLabel:SetText(("Page %d of %d"):format(currentPage, last or highest))
+    page.prev:SetEnabled(currentPage > 1)
+    page.next:SetEnabled(currentPage < (last or highest))
+    page:place(page.turn, 40)
+  else
+    page.turn:Hide()
+  end
+  page:finish()
 end
 ns.showLibraryText = showText
 
+-- The Library at a glance: its figures by shelf, the texts copied lately.
+local LATELY = 5
 function showShelf()
   currentText = nil
-  page.icon.tex:SetTexture("Interface\\Icons\\INV_Misc_Book_09")
-  page.icon.tex:SetTexCoord(0.08, 0.92, 0.08, 0.92)
-  page.icon:Show()
-  page.title:SetText("The Library")
-  page.sub:SetText(("%d texts copied"):format(ns.libraryCount()))
-  page.body:SetText(
-    "Every book, note and plaque you read in the world is copied here whole, so that you can read it again, even a letter long since handed in. Letters written by players are never copied."
+  page:start(
+    "The Library",
+    ("%d texts copied"):format(ns.libraryCount()),
+    ui.icon("Interface\\Icons\\INV_Misc_Book_09")
   )
-  page.prev:Hide()
-  page.next:Hide()
-  page.pageLabel:Hide()
-  page.child:SetHeight(ui.HEADER_H + page.body:GetStringHeight() + 30)
-  page:ScrollTo(0)
+  page.turn:Hide()
+  local count, recent = {}, {}
+  for id, t in pairs(mine()) do
+    local shelf = shelfOf(t)
+    count[shelf] = (count[shelf] or 0) + 1
+    table.insert(recent, { id = id, t = t })
+  end
+  local figures = { { tostring(ns.libraryCount()), "texts copied" } }
+  for _, s in ipairs(SHELVES) do
+    table.insert(figures, { tostring(count[s[1]] or 0), s[2]:lower() })
+  end
+  page:stats(figures)
+  page:paragraph(
+    "Every book, note and plaque you read in the world is copied here whole, so that you can read it again, even a letter long since handed in. Letters written by players are never copied.",
+    ui.T.soft
+  )
+  table.sort(recent, function(a, b)
+    if (a.t.at or 0) ~= (b.t.at or 0) then return (a.t.at or 0) > (b.t.at or 0) end
+    return a.t.title < b.t.title
+  end)
+  if #recent > 0 then
+    page:section("Copied lately")
+    for i = 1, math.min(LATELY, #recent) do
+      local r = recent[i]
+      local shelf = shelfFor(r.t)
+      page:card(r.t.title, ("%s  -  %s"):format(shelf[2], foundAt(r.t)), ui.icon(shelf[3]), function()
+        showText(r.id)
+        refreshList()
+      end)
+    end
+  end
+  page:finish()
 end
 
 local function refresh()
@@ -206,12 +230,13 @@ local function build(b)
   book = b
   list = ui.listArea("LorekeepersCodexLibraryList", book)
   page = ui.pageArea("LorekeepersCodexLibraryPage", book)
-  ui.pageHeader(page)
   -- Turning pages: the spellbook's arrows, and where you are, under the text.
-  page.pageLabel = ui.label(page.child, ui.BODY_FONT, 11, ui.T.soft)
-  page.pageLabel:SetPoint("TOP", page.body, "BOTTOM", 0, -18)
+  page.turn = CreateFrame("Frame", nil, page.child)
+  page.turn:SetSize(ui.WIDTH, 30)
+  page.pageLabel = ui.label(page.turn, ui.BODY_FONT, 11, ui.T.soft)
+  page.pageLabel:SetPoint("TOP", 0, -8)
   local function arrow(dir, x)
-    local button = CreateFrame("Button", nil, page.child)
+    local button = CreateFrame("Button", nil, page.turn)
     button:SetSize(26, 26)
     button:SetPoint("CENTER", page.pageLabel, "CENTER", x, 0)
     button:SetNormalTexture(("Interface\\Buttons\\UI-SpellbookIcon-%sPage-Up"):format(dir))
@@ -235,7 +260,10 @@ local function show(n)
   page:SetShown(n == ns.TAB.library)
 end
 
-ns.addTab(ns.TAB.library, { build = build, show = show, refresh = refresh })
+-- (its tab clicked: the Library at a glance)
+local function chosen() currentText = nil end
+
+ns.addTab(ns.TAB.library, { build = build, show = show, refresh = refresh, chosen = chosen })
 
 -- Open the codex at a text of the Library (lorekeeper:lib:<id>: a link in chat).
 function ns.openText(id)

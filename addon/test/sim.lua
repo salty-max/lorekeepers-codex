@@ -150,6 +150,9 @@ local function ui()
       if k == "IsMouseOver" then
         return function(self) return self.mouseOver == true end
       end
+      if k == "GetFrameLevel" then
+        return function() return 1 end
+      end
       if k == "SetText" then
         return function(self, v) self.text = v end
       end
@@ -264,6 +267,26 @@ local function fire(e, ...)
   end
 end
 
+-- The game's alert container: a frame joins its stack, and it places those
+-- shown, each on top of the one under it (AlertFrameAutoAnchoredMixin's way).
+AlertFrame = { subs = {}, updates = 0 }
+function AlertFrame:AddAutoAnchoredSubSystem(f)
+  f:SetAlertContainer(self)
+  table.insert(self.subs, f)
+end
+function AlertFrame:UpdateAnchors()
+  self.updates = self.updates + 1
+  local rel = self
+  for _, f in ipairs(self.subs) do
+    if f:IsShown() then
+      f:ClearAllPoints()
+      f:SetPoint("BOTTOM", rel, "TOP", 0, 0)
+      f:OnAlertAnchorUpdated()
+      rel = f
+    end
+  end
+end
+
 -- ── load the addon, with test entries for the unlocks the content doesn't use yet ─
 local ns = {}
 assert(loadfile(DIR .. (FOREVER and "Content_Forever.lua" or "Content_Classic.lua")))("LorekeepersCodex", ns)
@@ -278,6 +301,28 @@ ns.content.entries["t-pos"] = entry("The Great Forge", { map = 1455, x = 57, y =
 for line in io.lines(DIR .. (FOREVER and "LorekeepersCodex_Camelot.toc" or "LorekeepersCodex_Vanilla.toc")) do
   local f = line:match("^([%w_]+%.lua)%s*$")
   if f and not f:match("^Content_") then assert(loadfile(DIR .. f))("LorekeepersCodex", ns) end
+end
+-- The banners shown (what each said), and the kit's banners themselves, to
+-- clear them between scenes.
+local toasted, banners = {}, nil
+do
+  local make = ns.kit.banners
+  ns.kit.banners = function(o)
+    banners = make(o)
+    local show = banners.show
+    banners.show = function(self, b)
+      table.insert(toasted, b)
+      return show(self, b)
+    end
+    return banners
+  end
+end
+-- The banner card showing a page or an achievement, if any.
+local function bannerOf(key, value)
+  for i = 1, 2 do
+    local f = _G["LorekeepersCodexBanner" .. i]
+    if f and f.shown and f.shows and f.shows[key] == value then return f end
+  end
 end
 function wipe(t)
   for k in pairs(t) do
@@ -358,16 +403,17 @@ check(
   ns.knownTotal() < ns.total and said(("%d of %d pages. Type /codex"):format(ns.count(), ns.knownTotal())),
   "the page count only counts the chapters opened, not the whole codex"
 )
-local banner = LorekeepersCodexBanner
+check(toasted[#toasted] and toasted[#toasted].page == "war-of-the-three-hammers", "a banner tells of the newest page")
+banners:clear()
+ns.showBanner("war-of-the-three-hammers")
+local banner = LorekeepersCodexBanner1
 check(
-  banner and banner.shown and banner.id == "war-of-the-three-hammers",
-  "a banner shows the newest page at the top of the screen"
-)
-check(
-  banner.title.text == "The War of the Three Hammers"
+  banner.shown
+    and banner.joined
+    and banner.title.text == "The War of the Three Hammers"
     and rawget(banner, "text") == nil
     and rawget(banner, "more") == nil,
-  "… only its title, a click on it to read it"
+  "… among the game's own alerts: only its title, a click on it to read it"
 )
 check(banner.scripts.OnUpdate == nil, "it doesn't fade: it stays until read or closed")
 check(lastSound == 4147, "a new page plays the zone discovery sound by default (the dwarf's)")
@@ -483,7 +529,11 @@ check(
   said("achievement earned: |cffffd100|Hlorekeeper:ach:wanderer-one|h[A Tale Worth Telling]|h|r"),
   "… announced in chat as a link"
 )
-check(LorekeepersCodexBanner.achievement == "wanderer-one", "… and on the banner")
+local achieved = false
+for _, b in ipairs(toasted) do
+  if b.achievement == "wanderer-one" then achieved = true end
+end
+check(achieved, "… and on a banner")
 kill(PLAYER, 706)
 check(
   sounds == 11 and ns.earned("pages-10"),
@@ -522,9 +572,10 @@ panel.settings.LOREKEEPERSCODEX_CHAT.set(false)
 panel.settings.LOREKEEPERSCODEX_SOUND.set(3175)
 check(lastSound == 3175, "choosing a sound plays it")
 printed = {}
+local toastedBefore = #toasted
 ns.unlock("menethil-harbor")
 check(
-  not LorekeepersCodexBanner.shown and #printed == 0 and lastSound == 3175,
+  #toasted == toastedBefore and #printed == 0 and lastSound == 3175,
   "banner and chat off: a new page only plays the chosen sound"
 )
 panel.settings.LOREKEEPERSCODEX_BANNER.set(true)
@@ -712,7 +763,10 @@ end
 for id, e in pairs(C.entries) do
   if e.chapter == "" and ns.page(id) then loose = loose + 1 end
 end
-check(open == titles + found + loose, "the list shows the pages found, no placeholder for the others")
+check(
+  open == 1 + titles + found + loose,
+  "the list shows the codex at a glance, then the pages found, no placeholder for the others"
+)
 -- The pages' select, under the search box: a kind of page.
 local filter = LorekeepersCodexFrame.filter
 check(filter.shown and filter.text:GetText() == "Every kind of page", "the pages' select: every kind at first")
@@ -752,7 +806,10 @@ linkHandlers.lorekeeper("lorekeeper:kharanos")
 check(not LorekeepersCodexChar.collapsed[CH["dun-morogh"].id], "a link to a page in a folded chapter unfolds it")
 check(ns.anyUnfolded(), "with a chapter open, the button folds them all")
 LorekeepersCodexFoldAll.scripts.OnClick(LorekeepersCodexFoldAll)
-check(not ns.anyUnfolded() and shownRows() == titles + loose, "one click folds every chapter: only their titles remain")
+check(
+  not ns.anyUnfolded() and shownRows() == 1 + titles + loose,
+  "one click folds every chapter: only their titles remain"
+)
 LorekeepersCodexFoldAll.scripts.OnClick(LorekeepersCodexFoldAll)
 check(ns.anyUnfolded() and next(LorekeepersCodexChar.collapsed) == nil, "… and the next unfolds them all")
 -- Portraits: the game's still portrait of a page's creature, only where the
@@ -762,18 +819,59 @@ ns.unlock("magni-bronzebeard")
 ns.open("magni-bronzebeard")
 check(
   C.entries["magni-bronzebeard"].portrait
-    and LorekeepersCodexPage.icon.shown
-    and LorekeepersCodexPage.icon.tex.display == C.entries["magni-bronzebeard"].portrait,
+    and LorekeepersCodexPage.portrait.shown
+    and LorekeepersCodexPage.portrait.tex.display == C.entries["magni-bronzebeard"].portrait,
   "a figure's page shows the figure's portrait"
 )
-LorekeepersCodexPage.icon.tex.SetTexture = function(self, file) self.file = file end
+LorekeepersCodexPage.portrait.tex.SetTexture = function(self, file) self.file = file end
 ns.open("kharanos")
 check(
   not C.entries.kharanos.portrait
-    and LorekeepersCodexPage.icon.shown
-    and LorekeepersCodexPage.icon.tex.file:find("Map", 1, true),
+    and LorekeepersCodexPage.portrait.shown
+    and LorekeepersCodexPage.portrait.tex.file:find("Map", 1, true),
   "… a place's page a map, the icon of every place"
 )
+-- Under its text: where it was found; the pages it leads to, found, as cards.
+local function shownText(pool, pattern)
+  for _, x in ipairs(pool) do
+    if x.shown and type(x.text) == "string" and x.text:find(pattern) then return x end
+  end
+end
+check(
+  shownText(LorekeepersCodexPage.paragraphs, "^Found in .-, at level %d+, on %d+ %a+ %d+%.$")
+    or shownText(LorekeepersCodexPage.paragraphs, "^In your codex since "),
+  "a page says where, at what level and when it was found"
+)
+local withAlso, alsoTitle
+for id, e in pairs(C.entries) do
+  for _, other in ipairs(ns.page(id) and e.also or {}) do
+    if ns.page(other) and not withAlso then
+      withAlso, alsoTitle = id, C.entries[other].title
+    end
+  end
+end
+ns.open(withAlso)
+local alsoCard
+for _, c in ipairs(LorekeepersCodexPage.cards) do
+  if c.shown and c.name.text == alsoTitle then alsoCard = c end
+end
+check(withAlso and alsoCard, "… and its related pages found, as cards")
+alsoCard.scripts.OnClick(alsoCard)
+check(LorekeepersCodexPage.title.text == alsoTitle, "… a card opens its page")
+-- The codex at a glance, at the head of the list.
+local overview
+for _, r in ipairs(ns.listRows) do
+  if r.shown and r.text.text == "The Codex" then overview = r end
+end
+overview.scripts.OnClick(overview)
+check(
+  LorekeepersCodexPage.title.text == "The Codex"
+    and LorekeepersCodexPage.tiles[1].value.text == tostring(ns.count())
+    and LorekeepersCodexPage.chipPool[1].shown,
+  "the codex at a glance: its figures, the pages found lately, the chapters to pick"
+)
+LorekeepersCodexPage.chipPool[1].scripts.OnClick(LorekeepersCodexPage.chipPool[1])
+check(LorekeepersCodexPage.title.text ~= "The Codex", "… a chapter picked opens its first page found")
 LorekeepersCodexFrame:Hide()
 
 -- ── the library ──────────────────────────────────────────────────────────────
@@ -859,12 +957,12 @@ check(
   LorekeepersCodexFrame.shown
     and LorekeepersCodexFrame.selectedTab == 2
     and LorekeepersCodexLibraryPage.title.text == "The Founding of Quel'Thalas"
-    and LorekeepersCodexLibraryPage.body.text == "In the beginning..."
+    and LorekeepersCodexLibraryPage.note.text == "In the beginning..."
     and LorekeepersCodexLibraryPage.pageLabel.text == "Page 1 of 3",
   "a link opens the Library at the text, page 1 of 3"
 )
 LorekeepersCodexLibraryPage.next.scripts.OnClick(LorekeepersCodexLibraryPage.next)
-check(LorekeepersCodexLibraryPage.body.text == "The Sunwell\n\nAnd so it was.", "… and its pages turn")
+check(LorekeepersCodexLibraryPage.note.text == "The Sunwell\n\nAnd so it was.", "… and its pages turn")
 local shelves = {}
 for _, r in ipairs(ns.libraryRows) do
   if r.shown then shelves[r.text.text] = r end
@@ -873,6 +971,17 @@ check(
   shelves.Books and shelves["Plaques and Monuments"] and not shelves["Notes and Letters"],
   "the shelves: only those with something on them"
 )
+LorekeepersCodexFrameTab2.scripts.OnClick(LorekeepersCodexFrameTab2)
+local libraryPage = LorekeepersCodexLibraryPage
+check(
+  libraryPage.title.text == "The Library"
+    and libraryPage.tiles[1].value.text == tostring(ns.libraryCount())
+    and libraryPage.cards[1].shown
+    and not libraryPage.turn.shown,
+  "its tab clicked: the Library at a glance, its figures by shelf, the texts copied lately"
+)
+libraryPage.cards[1].scripts.OnClick(libraryPage.cards[1])
+check(libraryPage.title.text ~= "The Library", "… a card opens its text")
 LorekeepersCodexFrame:Hide()
 
 -- ── achievements ─────────────────────────────────────────────────────────────
@@ -951,6 +1060,14 @@ check(
 check(
   LorekeepersCodexAchievements.vscroll and LorekeepersCodexAchievements.vscroll > 0,
   "… and scrolls to the one opened"
+)
+local leadersRow
+for _, r in ipairs(ns.achievementRows) do
+  if r.shown and r.id == "leaders" then leadersRow = r end
+end
+check(
+  leadersRow and leadersRow.medal.shown and leadersRow.status.text:find("^Level"),
+  "… with its group's picture, a medal on it once earned, and when"
 )
 LorekeepersCodexFrameTab1.scripts.OnClick(LorekeepersCodexFrameTab1)
 check(
@@ -1051,35 +1168,7 @@ check(
 )
 SlashCmdList.LOREKEEPERSCODEX("scan clear")
 check(not LorekeepersCodexScan.quests[4242] and LorekeepersCodexScan.on, "/codex scan clear empties it")
--- The game's own toasts, where the client has them (both do: this is the
--- path the game takes; the banner above is the fallback).
-local toasts = {}
-AlertFrame = {
-  AddQueuedAlertFrameSubSystem = function(_, template, setUp)
-    local system = { shown = {} }
-    function system:AddAlert(...)
-      local f = ui()
-      f.Icon, f.Title, f.Name, f.Unlocked, f.Shield = ui(), ui(), ui(), ui(), ui()
-      f.Icon.Texture = ui()
-      -- Forever: a texture given Texture:SetMask can't take new tex coords.
-      f.Icon.SetMask = function(self) self.masked = true end
-      f.Icon.SetTexCoord = function(self)
-        assert(not rawget(self, "masked"), "Cannot set tex coords when texture has mask")
-      end
-      setUp(f, ...)
-      table.insert(self.shown, f)
-      return true
-    end
-    toasts[template] = system
-    return system
-  end,
-}
-C_XMLUtil = { GetTemplateInfo = function() return {} end }
-local durations = {}
-AlertFrame_SetDuration = function(frame, seconds) durations[frame] = seconds end
-AlertFrame_OnClick = function(_, button) return button == "RightButton" end
--- The shield's OnLoad: the addon stood one in at load (Classic Era has no
--- achievement window; Forever's doesn't define it).
+-- A page's banner and an achievement's, among the game's own alerts.
 ns.setOption("banner", true)
 ns.hideBanner()
 local pid
@@ -1087,37 +1176,30 @@ for id in pairs(C.entries) do
   if ns.page(id) and not pid then pid = id end
 end
 ns.showBanner(pid)
-local toast = toasts.NewRecipeLearnedAlertFrameTemplate and toasts.NewRecipeLearnedAlertFrameTemplate.shown[1]
+local card = LorekeepersCodexBanner1
 check(
-  toast
-    and toast.Title.text == "A new page in the codex"
-    and toast.Name.text == C.entries[pid].title
-    and not LorekeepersCodexBanner.shown,
-  "a new page shows the game's own toast, not our banner"
+  card.shown
+    and card.joined
+    and card.kicker.text == "A new page in the codex"
+    and card.title.text == C.entries[pid].title
+    and AlertFrame.updates > 0,
+  "a new page shows its banner, among the game's own alerts"
 )
-check(durations[toast] == ns.option("bannerSeconds"), "… for as long as the banner setting says")
 LorekeepersCodexFrame:Hide()
-toast.scripts.OnClick(toast, "LeftButton")
+card.scripts.OnClick(card, "LeftButton")
 check(
-  LorekeepersCodexFrame.shown and LorekeepersCodexPage.title.text == C.entries[pid].title,
+  not card.shown and LorekeepersCodexFrame.shown and LorekeepersCodexPage.title.text == C.entries[pid].title,
   "… and a click on it opens the page"
 )
 ns.showAchievementBanner("pages-10")
-local ach = toasts.AchievementAlertFrameTemplate.shown[1]
+card = bannerOf("achievement", "pages-10")
 check(
-  ach
-    and ach.Name.text == ns.achievementById["pages-10"].title
-    and ach.Unlocked.text == "Codex achievement"
-    and not ach.Shield.shown,
-  "an achievement shows the game's achievement toast, with no points"
+  card and card.kicker.text == "Achievement earned" and card.title.text == ns.achievementById["pages-10"].title,
+  "an achievement shows its banner, the codex's book on it"
 )
-local shield = {}
-AchievementShield_OnLoad(shield)
-check(
-  shield.Saturate and shield.Desaturate,
-  "… its shield's OnLoad stood in at load, as the game's own (its toasts need it too)"
-)
-AlertFrame, C_XMLUtil = nil, nil
+LorekeepersCodexFrame:Hide()
+card.scripts.OnClick(card, "RightButton")
+check(not card.shown and not LorekeepersCodexFrame.shown, "… a right-click only dismisses it")
 
 -- Players met: one's own people and calling were known from the start;
 -- targeting a player unlocks theirs, and counts toward the encounters.

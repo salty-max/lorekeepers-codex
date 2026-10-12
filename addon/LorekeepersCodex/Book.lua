@@ -1,8 +1,8 @@
 -- The codex as a book: the standard game window (portrait, title bar), its
 -- tabs (Pages, the Library, Achievements: each a file of its own, *Book.lua,
--- registered with ns.addTab), the links in chat that open it, and the kit
--- every tab is made of (ns.ui): the kit's look (Kit.lua) in the Codex's
--- theme, a list's row, a page's header. /codex opens it.
+-- registered with ns.addTab), the links in chat that open it, and what every
+-- tab is made of (ns.ui): the kit's look (Kit.lua) in the Codex's theme, a
+-- list's row, the kit's page on the right. /codex opens it.
 local _, ns = ...
 
 -- ── look ─────────────────────────────────────────────────────────────────────
@@ -18,6 +18,7 @@ T.link = T.accent -- (a page's "See also" links)
 local BODY_FONT, TITLE_FONT = K.BODY_FONT, K.TITLE_FONT
 local label, rule, bar, card, panel, scrollArea, roundIcon =
   K.label, K.rule, K.bar, K.card, K.panel, K.scrollArea, K.roundIcon
+local BOOK = "Interface\\AddOns\\LorekeepersCodex\\Media\\Logo"
 
 -- What a page is about, in a word.
 local KINDS = {
@@ -66,11 +67,16 @@ function ns.showPicture(tex, e)
   tex:SetTexCoord(unpack(ICON_CROP))
   return true
 end
--- The round picture of a page (p: roundIcon), hidden when it has none.
-function ns.pagePicture(p, e)
-  local shown = ns.showPicture(p.tex, e)
-  p:SetShown(shown)
-  return shown
+-- A page's picture as the kit's pages draw one (a setter given the round
+-- picture), nil for a page without one; orBook: the codex's book instead.
+function ns.pictureOf(e, orBook)
+  local has = (e.portrait and SetPortraitTextureFromCreatureDisplayID)
+    or (e.kind == "calling" and CLASS_ICON_TCOORDS and CLASS_ICON_TCOORDS[callingOf(e) or ""])
+    or KIND_ICONS[e.kind]
+  if has then
+    return function(p) ns.showPicture(p.tex, e) end
+  end
+  return orBook and K.icon(BOOK) or nil
 end
 
 -- ── a list's row, a page's header ────────────────────────────────────────────
@@ -89,42 +95,19 @@ local function listRow(parent)
   return r
 end
 
--- A page on the right, in its scroll area: a round picture, the title, a line
--- under it (what the page is, where it was found), a rule, then the text.
-local WIDTH, HEADER_H = 440, 84
-local function pageHeader(page)
-  page.icon = roundIcon(page.child, 56)
-  page.icon:SetPoint("TOPLEFT", 2, -2)
-  page.title = label(page.child, TITLE_FONT, 24, T.gold)
-  page.title:SetPoint("TOPLEFT", page.icon, "TOPRIGHT", 16, -4)
-  page.title:SetWidth(WIDTH - 78)
-  page.title:SetWordWrap(false)
-  page.sub = label(page.child, BODY_FONT, 12, T.soft)
-  page.sub:SetPoint("TOPLEFT", page.title, "BOTTOMLEFT", 0, -7)
-  page.sub:SetWidth(WIDTH - 78)
-  local headerRule = rule(page.child)
-  headerRule:SetPoint("TOPLEFT", 0, -70)
-  headerRule:SetPoint("TOPRIGHT", 0, -70)
-  page.body = label(page.child, BODY_FONT, 13, T.text)
-  page.body:SetPoint("TOPLEFT", 0, -HEADER_H)
-  page.body:SetWidth(WIDTH)
-  page.body:SetSpacing(4)
-end
+-- The page on the right: the kit's (a round picture, the title, a line under
+-- it, a rule, then its parts), as every book of the family.
+local WIDTH, HEADER_H = K.PAGE_WIDTH, K.PAGE_HEADER_H
 
--- The list's and the page's scroll areas, in the book's two panels
--- (filtered: the list under the select of a tab with a filter).
+-- The list's scroll area and the page, in the book's two panels (filtered:
+-- the list under the select of a tab with a filter).
 local function listArea(name, book, filtered)
   local s = scrollArea(book.left, ROW_WIDTH, name)
   s:SetPoint("TOPLEFT", book.left, "TOPLEFT", 12, filtered and -70 or -40)
   s:SetPoint("BOTTOMRIGHT", book.left, "BOTTOMRIGHT", -18, 12)
   return s
 end
-local function pageArea(name, book)
-  local s = scrollArea(book.sheet, WIDTH, name)
-  s:SetPoint("TOPLEFT", book.sheet, "TOPLEFT", 26, -22)
-  s:SetPoint("BOTTOMRIGHT", book.sheet, "BOTTOMRIGHT", -22, 14)
-  return s
-end
+local function pageArea(name, book) return K.page(book.sheet, name) end
 
 -- ── the window ───────────────────────────────────────────────────────────────
 local book
@@ -287,8 +270,10 @@ ns.ui = {
   panel = panel,
   scrollArea = scrollArea,
   roundIcon = roundIcon,
+  icon = K.icon,
+  day = K.day,
+  BOOK = BOOK,
   listRow = listRow,
-  pageHeader = pageHeader,
   listArea = listArea,
   pageArea = pageArea,
   KINDS = KINDS,

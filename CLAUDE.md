@@ -40,18 +40,25 @@ conventions).
   you or your pet: `PARTY_KILL`, an event of its own on Forever and Classic
   since 1.15.9, else the combat log's line; quests incl. ones done before,
   reputations, map positions, books and plaques read: `ns.readText` from the
-  Library, by title in any language, and the Library's titles at the login), `Kit.lua` (a copy of the kit shared with Hearthtale and the Field Journal,
-  ~/code/wow-addons/addon-kit: the books' look and windows; never edited here: `bun run
+  Library, by title in any language, and the Library's titles at the login), `Kit.lua` (a copy of the kit shared with Hearthtale, the Field Journal and
+  Second Wind, ~/code/wow-addons/addon-kit: the books' look and windows, the
+  page and every part of one, the board, the banners; never edited here: `bun run
   kit:sync` after changing the kit, `bun run kit:check` to verify; the Codex's
   theme is set at the top of `Book.lua`), `Library.lua` (books, notes, plaques read in the world, copied whole from the
   game's reader: on opening, it turns through every page and back; per character
   in `LorekeepersCodexChar.library`; players' letters never), `Book.lua` (the
   window, its tabs: each a file of its own registered with `ns.addTab`, the
-  links in chat, and the kit every tab is made of, `ns.ui`: the look, a list's
-  row, a page's header; a tab's own select under the search box, registered
-  with its tab, `filter = { default, options() }`, its choice `ns.filterOf(n)`:
-  the pages' kind), `PagesBook.lua`, `LibraryBook.lua`,
-  `AchievementsBook.lua` (the tabs), `Banner.lua` (the toasts), `Hints.lua`
+  links in chat, and what every tab is made of, `ns.ui`: the look, a list's
+  row, the kit's page (`K.page`: a header, sections, cards, figures, ...); a
+  page's picture, `ns.pictureOf`; a tab's own select under the search box,
+  registered with its tab, `filter = { default, options() }`, its choice
+  `ns.filterOf(n)`: the pages' kind), `PagesBook.lua` (the codex at a glance
+  at the head of the list: figures, the pages found lately, the chapters to
+  pick; a page: its text, where and when it was found, its related pages as
+  cards), `LibraryBook.lua` (the Library at a glance when its tab is clicked:
+  figures by shelf, the texts copied lately; a text a page at a time),
+  `AchievementsBook.lua` (the kit's board), `Banner.lua` (the kit's banners,
+  among the game's alerts: a page found, an achievement), `Hints.lua`
   (tooltips), `Scan.lua` (`/codex scan`, for writing Forever's pages),
   `Settings.lua` (each character's settings, the kit's profiles: a profile
   "Name - Realm" in LorekeepersCodexSettings, the minimap button's place among
