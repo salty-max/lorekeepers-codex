@@ -16,4 +16,4 @@ They have taken back the ruin of their kingdom's capital and built a city beneat
 
 I will not pretend the Forsaken are easy company. Most of them were men and women of Lordaeron, who remember their old lives and cannot go back to them. What they want now, beyond vengeance on the Lich King, no one outside the Undercity can say.
 
-[horde] In another hand: She is right that no one outside the Undercity can say what we want. Most of us inside cannot either. I want to know what was done to us, and to write it down properly, which seems a modest ambition for a dead man. P. F.
+[horde] In another hand: No one outside the Undercity can say what we want, she writes. Most of us inside cannot either. I want to know what was done to us, and to write it down properly. P. F.

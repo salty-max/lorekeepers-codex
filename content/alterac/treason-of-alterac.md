@@ -11,4 +11,4 @@ King Aiden Perenolde judged that the Horde would win the Second War. While the o
 
 Alterac's capital is ruined and its libraries scattered. Stormwind sends scholars to recover the books. Perenolde's son Aliden has pursued another inheritance: he leads the Syndicate, including former Alterac nobles, and plans to enslave the orcs as his mentor Blackmoore intended. There are several kinds of salvage being attempted here, traveller. The scholars' is the one I would commend.
 
-[horde] In another hand: I am glad someone is saving Alterac's books. I only wish the scholars doing it would let one of the dead read them. P. F.
+[horde] In another hand: I am glad someone is saving Alterac's books. Whether any of them will ever reach the Undercity is another matter. P. F.

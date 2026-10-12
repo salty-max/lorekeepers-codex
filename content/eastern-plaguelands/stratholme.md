@@ -13,4 +13,4 @@ It has seen worse betrayals since. A Stromgarde mage named Ras Frostwhisper gave
 
 The city still burns. The Scourge hold half of it, under Baron Rivendare, and the Scarlet Crusade the other half, from their bastion, under the Grand Crusader. The dead who were not culled still wander its streets, and some of them, the ghosts, would like very much to be set free.
 
-[horde] In another hand: There are still those who say the prince was right at Stratholme. None of them, I notice, lived there. P. F.
+[horde] In another hand: There are still those who say the prince was right at Stratholme. I am not one of them. P. F.

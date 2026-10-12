@@ -129,7 +129,10 @@ historical claims in other entries.
   and cutting, a dead man's dry humour, knowledge over strength, a teacher who
   sets tests, contempt for the Crusade; his point of view only, no new facts of
   his life beyond the sources (Lordaeron's historian before the plague, the
-  Test of Lore, its book from the Scarlet Monastery).
+  Test of Lore, its book from the Scarlet Monastery), not even a small one
+  ("mine among them"). Vary the endings and openings: most end plainly, on a
+  disagreement or an open question; a sharp last line only where it is the
+  point (a handful), else the notes become a formula.
 - Plain ASCII text: straight apostrophes and quotes (the build rejects others;
   some game fonts lack them, and the search matches what players type).
 - The approved voice samples are in `docs/voice-comparison.md`. Prefer concrete

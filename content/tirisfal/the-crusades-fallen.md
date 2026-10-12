@@ -21,4 +21,4 @@ Read further and you find how far it went. Orman of Stromgarde, its first Captai
 
 Others fell nearer home: a High Abbot killed defending the Monastery itself, a defender who died slaying a dreadlord, an elf locked in endless combat with a necromancer. Whatever the Crusade has become since, traveller, these were the people who believed in it first.
 
-[horde] In another hand: She is generous to the Crusade's dead, and so can I be. It is the living ones I object to. P. F.
+[horde] In another hand: I have read those stones too. I came away with a less generous account. P. F.

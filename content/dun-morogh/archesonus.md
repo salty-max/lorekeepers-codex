@@ -13,4 +13,4 @@ The story I am asked for most is the Dark Irons'. The War of the Three Hammers e
 
 This ledger is my work, traveller, with a great deal of help from the Explorers' League, who bring home more than any one historian could read. If a page has served you well, I am glad of it. If one has failed you, come and tell me so.
 
-[horde] In another hand: I have never met her. Hers is still the fairest account of the world I have read in a living hand, and I have read a great many. P. F.
+[horde] In another hand: I have never met her. Hers is still the fairest account of the world I have read in a living hand. P. F.

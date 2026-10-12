@@ -12,4 +12,4 @@ Above the Undercity, the streets of Lordaeron's capital are less empty than they
 
 Not everyone who goes up goes for the Banshee Queen. Edward Heartweaver walked to the graveyard every week, looking for the son he lost when Arthas razed the city, until one week he did not come home. And among the abominations stitched together up there is one the apothecaries call the Baron, whom they know by an older name: Othmar Garithos, the lord who made common cause with Sylvanas against the Scourge and did not survive the arrangement. Captain Truman, who served him, still waits in the ruins for his commander to return.
 
-[horde] In another hand: The apothecaries have made better use of Garithos than he ever made of his allies. P. F.
+[horde] In another hand: Of everything on this page, it is Edward Heartweaver's weekly walk I keep coming back to. P. F.

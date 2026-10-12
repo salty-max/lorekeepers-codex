@@ -12,4 +12,4 @@ Then the wardens noticed something strange. The orcs stopped trying to escape; t
 
 The chief warden, Aedelas Blackmoore, ruled the camps from Durnholde and kept an orc slave of his own, raised to be a weapon. The slave was Thrall. He found his people sitting behind these walls, and in the end he came back to break the camps open. No orcs are held here now; the Kirin Tor's wizards have taken the old camp for their own use.
 
-[horde] In another hand: Those camps stood in my kingdom, on my king's orders. The Horde has since been kinder to the Forsaken than Lordaeron ever was to the orcs. P. F.
+[horde] In another hand: Those camps stood in my kingdom, on my king's orders. She tells it fairly. P. F.

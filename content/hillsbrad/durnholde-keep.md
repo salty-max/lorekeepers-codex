@@ -13,4 +13,4 @@ Thrall went on to free his people. Blackmoore is dead, and the Syndicate holds t
 
 Thrall's agents came to Hillsbrad to recover it, and the Warchief has it again. A pendant is a small thing to set beside the fall of a fortress, traveller. It preserves the name of someone whose help made that fall possible.
 
-[horde] In another hand: A girl of a Lordaeron household did more for the orcs than the whole of its Alliance. I find I am proud of her, which is an odd thing to feel about a stranger. P. F.
+[horde] In another hand: A girl of a Lordaeron household did more for the orcs than the whole of its Alliance. Her name belongs in more histories than this one. P. F.
