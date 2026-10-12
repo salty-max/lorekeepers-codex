@@ -3,8 +3,6 @@
 base: lua51
 name: wow
 globals:
-  AchievementShield_OnLoad:
-    any: true
   AlertFrame:
     any: true
   ButtonFrameTemplate_HideButtonBar:
