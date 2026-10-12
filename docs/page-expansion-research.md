@@ -471,6 +471,54 @@ twice. Only then update PLAN.md, rebuild the generated files and run the
 normal checks. No engine changes are needed for the first batch's proposed
 types of trigger.
 
+## Second reading (12 October 2026)
+
+A check of this research against the repository, and leads from the Field
+Journal's expeditions, written the same night.
+
+**Confirmed.** The counts (371 entries) and every existing page named under
+overlap are as stated, and the unlock engine already handles every proposed
+trigger (areas, npcs met or targeted, kills, quests including ones done before,
+reputations): no engine work for the first batch.
+
+**The two short stories are in scope.** *Road to Damnation* was published in
+2006, just before Naxxramas opened, and *The War of the Shifting Sands* just
+before Ahn'Qiraj opened (both collected later in *Paragons*, 2014). Both
+predate Wrath, so CLAUDE.md's source rule admits them. Their full texts still
+need reading before prose work, as noted above.
+
+**Keep the Codex's source rule as it is.** For the Field Journal's riddles the
+user allowed cross-media lore that is not anachronic (Chronicle supplied the
+reason for Thoradin's Wall there). The Codex's rule is stricter: publication
+before Wrath. The phrase above, that later publications "require their own
+continuity review and are not automatically admitted", reads as a loosening;
+CLAUDE.md does not allow them at all. Treat later works as leads only, unless
+the user changes the rule.
+
+**Additions worth a place in the first batch or the reserves:**
+
+| Candidate | Why | Encounter |
+|---|---|---|
+| Varo'then's Ghost | A rare with a real identity: Captain Varo'then, who led Queen Azshara's guard in the War of the Ancients trilogy (2004-2006, on the approved list). The Codex has the Ravencrest Monument and the Sundering, but not the queen's side of that war in a face the player can meet. | A kill (creature 6118, the ruins of Shadowsong Shrine in Azshara); verify the id and spawn on Wowhead Classic. |
+| The Blue Dragonflight | The red and black flights have faction pages, the blue none; *Day of the Dragon* (2001) gives Malygos's broken flight, and the world has Azuregos, Haleh and the dragonkin of Mazthoril and Lake Mennar. Azuregos and Mazthoril already have pages: this one tells the flight, not those two again. | Meeting any blue dragonkin (the Blue Scalebanes and Draconic Mageweavers round Lake Mennar, Mazthoril's drakes). |
+| The Green Dragonflight | Pairs with the proposed Emerald Dream page: Ysera's flight keeps the four doors (Duskwood, the Hinterlands' Seradane, Ashenvale's Bough Shadow, Feralas's Dream Bough). *Dragons of Nightmare* tells only the four who were corrupted. Fold it into the Emerald Dream page if the two would repeat each other. | The doors' guardian drakes, or Itharius in the Swamp of Sorrows. |
+
+**On the shortlist itself.**
+
+- *Drek'Thar* is met only inside Alterac Valley, by the Alliance as the enemy
+  general. The Frostwolf page already says he taught Thrall and that he is
+  blind. The figure page must stand on what *Lord of the Clans* adds (his lost
+  family, chapter 14), or it repeats the clan's page. Lower it below Rexxar.
+- *Orgrim Doomhammer*: Hammerfall already tells his death there. His page must
+  be the conqueror and the hermit (*Tides of Darkness*, *Lord of the Clans*),
+  not the death again.
+- The Emerald Dream page may also use Ralo'shan the Eternal Watcher's lines in
+  Silithus (patch 1.9, period game text): the dream's nightmares seeping into
+  the waking world, told by someone who wakes alive after every death.
+- The Scythe, the Third Fleet, Rexxar and the Sons of Lothar are the strongest
+  four; the Field Journal's riddles touch none of them, because each sits on a
+  quest chain the riddles avoid.
+
 ## Source notes
 
 Classic quest links above refer to their actual quest description and
