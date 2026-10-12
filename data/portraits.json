@@ -139,6 +139,10 @@
   "name": "Bloodsail Raider",
   "display": 793
  },
+ "1654": {
+  "name": "Gregor Agamand",
+  "display": 646
+ },
  "1749": {
   "name": "Lady Katrana Prestor",
   "display": 8769
@@ -150,6 +154,10 @@
  "1947": {
   "name": "Thule Ravenclaw",
   "display": 4430
+ },
+ "1950": {
+  "name": "Rane Yorick",
+  "display": 3540
  },
  "2008": {
   "name": "Gnarlpine Warrior",
@@ -263,6 +271,10 @@
   "name": "Archmage Arugal",
   "display": 2353
  },
+ "4542": {
+  "name": "High Inquisitor Fairbanks",
+  "display": 2605
+ },
  "4809": {
   "name": "Twilight Acolyte",
   "display": 2882
@@ -307,6 +319,14 @@
   "name": "Azuregos",
   "display": 11460
  },
+ "6116": {
+  "name": "Highborne Apparition",
+  "display": 10702
+ },
+ "6118": {
+  "name": "Varo'then's Ghost",
+  "display": 10771
+ },
  "6130": {
   "name": "Blue Scalebane",
   "display": 6760
@@ -323,6 +343,10 @@
   "name": "Black Drake",
   "display": 6374
  },
+ "7309": {
+  "name": "Earthen Custodian",
+  "display": 6025
+ },
  "7572": {
   "name": "Fallen Hero of the Horde",
   "display": 6775
@@ -334,6 +358,10 @@
  "7725": {
   "name": "Grimtotem Raider",
   "display": 6835
+ },
+ "7783": {
+  "name": "Loramus Thalipedes",
+  "display": 6879
  },
  "7800": {
   "name": "Mekgineer Thermaplugg",
@@ -354,6 +382,10 @@
  "8547": {
   "name": "Death Cultist",
   "display": 10391
+ },
+ "8888": {
+  "name": "Franclorn Forgewright",
+  "display": 8698
  },
  "8929": {
   "name": "Princess Moira Bronzebeard",
@@ -390,6 +422,10 @@
  "10440": {
   "name": "Baron Rivendare",
   "display": 10729
+ },
+ "10508": {
+  "name": "Ras Frostwhisper",
+  "display": 7919
  },
  "10540": {
   "name": "Vol'jin",
@@ -438,6 +474,10 @@
  "12944": {
   "name": "Lokhtos Darkbargainer",
   "display": 14666
+ },
+ "13020": {
+  "name": "Vaelastrasz the Corrupt",
+  "display": 13992
  },
  "13278": {
   "name": "Duke Hydraxis",

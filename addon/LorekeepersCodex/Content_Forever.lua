@@ -12,24 +12,24 @@ ns.content = {
     { id = "redridge", title = "Redridge Mountains", summary = "Red hills, a quiet lake and a town besieged from the north.", entries = { "gathilzogg", "lakeshire", "morganth", "redridge-mountains", "stonewatch-keep" } },
     { id = "duskwood", title = "Duskwood", summary = "A forest where night never quite ends, and the dead do not stay buried.", entries = { "darkshire", "duskwood", "morladim", "raven-hill", "stalvan-mistmantle", "the-embalmer", "night-watch", "scythe-of-elune" } },
     { id = "stranglethorn", title = "Stranglethorn Vale", summary = "The jungle of the old troll empire, where pirates, hunters and goblins make their fortunes.", entries = { "booty-bay", "gromgol-base-camp", "hakkar", "nesingwarys-expedition", "stranglethorn-vale", "bloodsail-buccaneers", "bloodscalp-and-skullsplitter", "gurubashi-arena", "gurubashi-empire", "kurzen-rebellion", "zandalar-tribe", "zulgurub" } },
-    { id = "tirisfal", title = "Tirisfal Glades and Undercity", summary = "The heartland of fallen Lordaeron, and the Forsaken who rule beneath its ruined capital.", entries = { "brill", "deathknell", "sylvanas-windrunner", "the-bulwark", "fall-of-lordaeron", "the-forsaken", "royal-apothecary-society", "ruins-of-lordaeron", "scarlet-monastery", "tirisfal-glades", "undercity", "varimathras", "whitemane-and-mograine" } },
+    { id = "tirisfal", title = "Tirisfal Glades and Undercity", summary = "The heartland of fallen Lordaeron, and the Forsaken who rule beneath its ruined capital.", entries = { "alonsus-faol", "brill", "deathknell", "sylvanas-windrunner", "the-agamands", "the-ashbringer", "the-bulwark", "fall-of-lordaeron", "the-forsaken", "royal-apothecary-society", "ruins-of-lordaeron", "scarlet-monastery", "tirisfal-glades", "undercity", "varimathras", "whitemane-and-mograine" } },
     { id = "silverpine", title = "Silverpine Forest", summary = "Grey pines between the Forsaken and the closed gate of Gilneas.", entries = { "ambermill", "archmage-arugal", "pyrewood-village", "shadowfang-keep", "silverpine-forest", "greymane-wall", "the-sepulcher", "thule-ravenclaw" } },
     { id = "hillsbrad", title = "Hillsbrad Foothills", summary = "Green hills where the living and the Forsaken fight over every farm.", entries = { "dun-garok", "durnholde-keep", "hillsbrad-foothills", "southshore", "tarren-mill" } },
-    { id = "alterac", title = "Alterac Mountains", summary = "A fallen kingdom in the snows, Dalaran beside the lake, and a valley two peoples claim.", entries = { "alterac-mountains", "alterac-valley", "dalaran", "durotan-and-draka", "ravenholdt-manor", "frostwolf-clan", "stormpike-guard", "treason-of-alterac" } },
-    { id = "arathi", title = "Arathi Highlands", summary = "The cradle of the human kingdoms, gone to ruin and fought over still.", entries = { "arathi-basin", "arathi-highlands", "hammerfall", "myzrael", "refuge-pointe", "stromgarde-keep", "thoradins-wall" } },
+    { id = "alterac", title = "Alterac Mountains", summary = "A fallen kingdom in the snows, Dalaran beside the lake, and a valley two peoples claim.", entries = { "alterac-mountains", "alterac-valley", "dalaran", "durotan-and-draka", "ravenholdt-manor", "frostwolf-clan", "internment-camps", "stormpike-guard", "treason-of-alterac" } },
+    { id = "arathi", title = "Arathi Highlands", summary = "The cradle of the human kingdoms, gone to ruin and fought over still.", entries = { "arathi-basin", "arathi-highlands", "hammerfall", "myzrael", "orgrim-doomhammer", "refuge-pointe", "stromgarde-keep", "thoradins-wall" } },
     { id = "hinterlands", title = "The Hinterlands", summary = "Wild hills of the Wildhammer dwarves, and the troll temples they share them with.", entries = { "aerie-peak", "falstad-wildhammer", "jinthaalor", "queldanil-lodge", "revantusk-village", "shadra", "the-hinterlands", "wildhammer-clan" } },
-    { id = "western-plaguelands", title = "Western Plaguelands", summary = "The dead heart of Lordaeron, where the plague began.", entries = { "andorhal", "caer-darrow", "chillwind-camp", "hearthglen", "scholomance", "house-of-barov", "plague-cauldrons", "uthers-tomb", "western-plaguelands" } },
-    { id = "eastern-plaguelands", title = "Eastern Plaguelands", summary = "The old Eastweald, Stratholme, and the necropolis in the sky.", entries = { "balnazzar", "baron-rivendare", "darrowshire", "eastern-plaguelands", "kelthuzad", "lights-hope-chapel", "nathanos-blightcaller", "naxxramas", "stratholme", "tirion-fordring", "tyrs-hand" } },
+    { id = "western-plaguelands", title = "Western Plaguelands", summary = "The dead heart of Lordaeron, where the plague began.", entries = { "andorhal", "caer-darrow", "chillwind-camp", "dalsons-tears", "hearthglen", "ras-frostwhisper", "scholomance", "house-of-barov", "plague-cauldrons", "uthers-tomb", "western-plaguelands" } },
+    { id = "eastern-plaguelands", title = "Eastern Plaguelands", summary = "The old Eastweald, Stratholme, and the necropolis in the sky.", entries = { "arthas-menethil", "balnazzar", "baron-rivendare", "darrowshire", "eastern-plaguelands", "kelthuzad", "lights-hope-chapel", "nathanos-blightcaller", "naxxramas", "stratholme", "tirion-fordring", "tyrs-hand" } },
     { id = "badlands", title = "The Badlands", summary = "A red wasteland of canyons, and beneath it the titans' vault of Uldaman.", entries = { "hammertoes-digsite", "kargath", "the-badlands", "platinum-discs", "uldaman" } },
     { id = "searing-gorge", title = "Searing Gorge", summary = "The burnt north side of the mountain, and the Dark Irons' great pit.", entries = { "searing-gorge", "the-cauldron", "thorium-brotherhood" } },
-    { id = "burning-steppes", title = "Burning Steppes", summary = "The ash plain south of the mountain, where Redridge once stood.", entries = { "burning-steppes", "marshal-windsor", "morgans-vigil", "altar-of-storms", "ruins-of-thaurissan" } },
-    { id = "blackrock-mountain", title = "Blackrock Mountain", summary = "The Firelord's mountain, and the war inside it.", entries = { "blackrock-depths", "blackrock-mountain", "blackrock-spire", "blackwing-lair", "dagran-thaurissan", "molten-core", "nefarian", "moira-bronzebeard", "ragnaros", "rend-blackhand" } },
+    { id = "burning-steppes", title = "Burning Steppes", summary = "The ash plain south of the mountain, where Redridge once stood.", entries = { "anduin-lothar", "burning-steppes", "marshal-windsor", "morgans-vigil", "altar-of-storms", "ruins-of-thaurissan" } },
+    { id = "blackrock-mountain", title = "Blackrock Mountain", summary = "The Firelord's mountain, and the war inside it.", entries = { "blackrock-depths", "blackrock-mountain", "blackrock-spire", "blackwing-lair", "dagran-thaurissan", "franclorn-forgewright", "molten-core", "nefarian", "moira-bronzebeard", "ragnaros", "vaelastrasz", "rend-blackhand" } },
     { id = "swamp-of-sorrows", title = "Swamp of Sorrows", summary = "A drowned country of mist and mire, and a temple that sank for its sins.", entries = { "eranikus", "stonard", "swamp-of-sorrows", "the-fallen-hero", "the-lost-ones", "the-temple-of-atalhakkar" } },
     { id = "blasted-lands", title = "Blasted Lands", summary = "The red waste around the Dark Portal.", entries = { "blasted-lands", "lord-kazzak", "nethergarde-keep", "razelikh-the-defiler", "the-dark-portal" } },
     { id = "deadwind-pass", title = "Deadwind Pass", summary = "The dead valley of the last Guardian.", entries = { "deadwind-pass", "karazhan" } },
     { id = "teldrassil", title = "Teldrassil and Darnassus", summary = "The new World Tree of the night elves, and the city in its crown.", entries = { "fandral-staghelm", "darnassus", "dolanaar", "shadowglen", "teldrassil", "sickness-of-teldrassil", "tyrande-whisperwind" } },
     { id = "darkshore", title = "Darkshore", summary = "A long, misty coast of night elf ruins, across the water from the World Tree.", entries = { "auberdine", "darkshore", "onu", "remtravels-excavation", "highborne-ruins", "masters-glaive", "tower-of-althalaxx" } },
-    { id = "ashenvale", title = "Ashenvale", summary = "The ancient forest of the night elves, and the orcs' axes at its edge.", entries = { "ashenvale", "astranaar", "blackfathom-deeps", "demon-fall-canyon", "splintertree-post", "warsong-lumber-camp", "warsong-gulch" } },
+    { id = "ashenvale", title = "Ashenvale", summary = "The ancient forest of the night elves, and the orcs' axes at its edge.", entries = { "ashenvale", "astranaar", "blackfathom-deeps", "demon-fall-canyon", "grom-hellscream", "splintertree-post", "warsong-lumber-camp", "warsong-gulch" } },
     { id = "stonetalon", title = "Stonetalon Mountains", summary = "High peaks and old forests, burning under goblin saws.", entries = { "boulderslide-ravine", "stonetalon-mountains", "stonetalon-peak", "sun-rock-retreat", "windshear-crag" } },
     { id = "desolace", title = "Desolace", summary = "A grey, dead country of centaurs, bones and demons.", entries = { "desolace", "mannoroc-coven", "maraudon", "nijels-point", "rexxar", "shadowprey-village", "khans-of-desolace", "kodo-graveyard", "zaetar-and-theradras" } },
     { id = "feralas", title = "Feralas", summary = "Giant trees, ogres, and the ruins of the Highborne.", entries = { "camp-mojache", "dire-maul", "feathermoon-stronghold", "feralas", "shandris-feathermoon", "shendralar" } },
@@ -37,17 +37,17 @@ ns.content = {
     { id = "tanaris", title = "Tanaris", summary = "The great desert of the south, and the gates of the Watchers.", entries = { "gadgetzan", "tanaris", "caverns-of-time", "sandfury-trolls", "uldum", "zulfarrak" } },
     { id = "ungoro-crater", title = "Un'Goro Crater", summary = "A lost world in a crater, and the mysterious crystals.", entries = { "fire-plume-ridge", "marshals-refuge", "crystal-pylons", "ungoro-crater" } },
     { id = "silithus", title = "Silithus", summary = "The insect desert, the Scarab Wall, and what sleeps behind it.", entries = { "cthun", "cenarion-hold", "prince-thunderaan", "ruins-of-ahnqiraj", "silithus", "temple-of-ahnqiraj", "abyssal-council", "the-scarab-wall", "the-scepter-of-the-shifting-sands" } },
-    { id = "durotar", title = "Durotar and Orgrimmar", summary = "The red land Thrall gave his people, and the city named for the Warchief who freed them.", entries = { "durotar", "eitrigg", "orgrimmar", "ragefire-chasm", "razor-hill", "senjin-village", "darkspear-trolls", "echo-isles", "valley-of-trials", "thrall", "tiragarde-keep", "voljin" } },
+    { id = "durotar", title = "Durotar and Orgrimmar", summary = "The red land Thrall gave his people, and the city named for the Warchief who freed them.", entries = { "daelin-proudmoore", "durotar", "eitrigg", "orgrimmar", "ragefire-chasm", "razor-hill", "senjin-village", "darkspear-trolls", "echo-isles", "valley-of-trials", "thrall", "tiragarde-keep", "voljin" } },
     { id = "mulgore", title = "Mulgore and Thunder Bluff", summary = "The green plains of the tauren, and the city on the mesas.", entries = { "hamuul-runetotem", "bloodhoof-village", "cairne-bloodhoof", "camp-narache", "ghost-howl", "mulgore", "red-rocks", "earth-mother", "thunder-bluff" } },
     { id = "barrens", title = "The Barrens", summary = "The great dry savannah at the heart of Kalimdor, and everyone who fights over it.", entries = { "agamaggan", "bael-modan", "camp-taurajo", "northwatch-hold", "ratchet", "razorfen-downs", "razorfen-kraul", "the-barrens", "the-crossroads", "druids-of-the-fang", "morshan-rampart", "barrens-oases", "wailing-caverns" } },
     { id = "dustwallow", title = "Dustwallow Marsh", summary = "Lady Proudmoore's island city, a swamp full of dragons, and an inn that burned.", entries = { "brackenwall-village", "dustwallow-marsh", "jaina-proudmoore", "onyxia", "onyxias-lair", "shady-rest-inn", "theramore-isle" } },
-    { id = "azshara", title = "Azshara", summary = "The queen's land, on the shore of the sea that swallowed her.", entries = { "azshara", "azuregos", "queen-azshara", "hydraxian-waterlords", "ravencrest-monument", "ruins-of-eldarath", "the-sundering" } },
+    { id = "azshara", title = "Azshara", summary = "The queen's land, on the shore of the sea that swallowed her.", entries = { "azshara", "azuregos", "captain-varothen", "loramus-thalipedes", "queen-azshara", "hydraxian-waterlords", "ravencrest-monument", "ruins-of-eldarath", "the-sundering" } },
     { id = "felwood", title = "Felwood", summary = "The poisoned forest, where the Skull of Gul'dan was found.", entries = { "bloodvenom-post", "felwood", "illidan-stormrage", "jaedenar", "talonbranch-glade", "emerald-sanctuary" } },
     { id = "winterspring", title = "Winterspring", summary = "Snow, goblins, and the Highborne's curse.", entries = { "everlook", "mazthoril", "starfall-village", "ruins-of-keltheril", "winterspring" } },
     { id = "moonglade", title = "Moonglade", summary = "The druids' sacred valley.", entries = { "keeper-remulos", "malfurion-stormrage", "moonglade", "the-emerald-dream", "stormrage-barrow-dens" } },
     { id = "ages-past", title = "Ages Past", summary = "The world's history, from the Titans to the last war, as the old books in its libraries tell it.", entries = { "draenor", "the-battle-of-mount-hyjal", "the-fall-of-quelthalas", "the-first-war", "the-five-aspects", "the-guardians-of-tirisfal", "the-lich-king", "the-ordering", "the-second-war", "the-seven-kingdoms", "the-war-of-the-spider" } },
     { id = "callings", title = "The Callings", summary = "The paths of arms, faith and magic a traveller may walk, and where each of them comes from.", entries = { "druids", "hunters", "mages", "paladins", "priests", "rogues", "shamans", "warlocks", "warriors" } },
-    { id = "peoples", title = "Peoples and Powers", summary = "The peoples, orders and factions a traveller meets in many lands, gathered in one place.", entries = { "cenarius", "elune", "argent-dawn", "black-dragonflight", "blackrock-clan", "blood-elves", "blue-dragonflight", "bronze-dragonflight", "burning-blade", "burning-legion", "cenarion-circle", "centaurs", "cult-of-the-damned", "dark-iron-dwarves", "defias-brotherhood", "dragons-of-nightmare", "dreadlords", "dwarves", "forest-trolls", "furbolgs", "gnolls", "green-dragonflight", "grimtotem", "harpies", "high-elves", "humans", "kobolds", "murlocs", "naga", "night-elves", "ogres", "orcs", "quilboar", "satyrs", "scarlet-crusade", "scourge", "sentinels", "shadow-council", "silithid", "skyborne", "southsea-freebooters", "steamwheedle-cartel", "syndicate", "tauren", "timbermaw", "rockjaw-troggs", "twilights-hammer", "venture-company", "worgen" } },
+    { id = "peoples", title = "Peoples and Powers", summary = "The peoples, orders and factions a traveller meets in many lands, gathered in one place.", entries = { "cenarius", "elune", "argent-dawn", "black-dragonflight", "blackrock-clan", "blood-elves", "blue-dragonflight", "bronze-dragonflight", "burning-blade", "burning-legion", "cenarion-circle", "centaurs", "cult-of-the-damned", "dark-iron-dwarves", "deathstalkers", "defias-brotherhood", "dragons-of-nightmare", "dreadlords", "dwarves", "earthen", "forest-trolls", "furbolgs", "gnolls", "green-dragonflight", "grimtotem", "harpies", "high-elves", "highborne", "humans", "kobolds", "murlocs", "naga", "night-elves", "ogres", "orcs", "quilboar", "satyrs", "scarlet-crusade", "scourge", "sentinels", "shadow-council", "silithid", "skyborne", "southsea-freebooters", "steamwheedle-cartel", "syndicate", "tauren", "timbermaw", "rockjaw-troggs", "twilights-hammer", "venture-company", "worgen" } },
   },
   entries = {
     ["draenor"] = {
@@ -213,6 +213,16 @@ ns.content = {
         { "Drek'Thar, now blind, still leads them there. They want to retain their home; the Stormpike expedition has brought a claim from Ironforge against it." },
       },
     },
+    ["internment-camps"] = {
+      title = "The Internment Camps", kind = "history", chapter = "alterac",
+      unlock = { { area = 278 } },
+      also = { "durnholde-keep", "thrall", "frostwolf-clan", "dalaran", "treason-of-alterac", "orgrim-doomhammer" },
+      text = {
+        { "After the Second War the Alliance had a problem it had never had before: a whole people for prisoners. The orcs were rounded up into camps, and when the camps overflowed, new ones were built on the plains south of these mountains. King Terenas taxed the other kingdoms to pay for them, and the tax nearly broke the Alliance." },
+        { "Then the wardens noticed something strange. The orcs stopped trying to escape; they stopped even fighting one another. They sat. Some called it a disease. Archmage Antonidas of Dalaran thought otherwise: the orcs had been fed on demon magic for generations, and what the wardens were seeing was withdrawal. There was no cure, he concluded, but a spiritual one, and many in the Alliance thought it unwise to look for one at all." },
+        { "The chief warden, Aedelas Blackmoore, ruled the camps from Durnholde and kept an orc slave of his own, raised to be a weapon. The slave was Thrall. He found his people sitting behind these walls, and in the end he came back to break the camps open. No orcs are held here now; the Kirin Tor's wizards have taken the old camp for their own use." },
+      },
+    },
     ["ravenholdt-manor"] = {
       title = "Ravenholdt Manor", kind = "place", chapter = "alterac",
       unlock = { { area = 3486 }, { npc = 6768 } },
@@ -278,6 +288,16 @@ ns.content = {
         { "Afterward, a cry rises from far below the ground. The crystals remain, but their old reassurance is gone; what pulses through them now feels like hatred for the world above. The voice that asked so gently for help has become the most troubling thing about the quiet hillside." },
       },
     },
+    ["orgrim-doomhammer"] = {
+      title = "Orgrim Doomhammer", kind = "figure", chapter = "arathi",
+      unlock = { { area = 321 } },
+      also = { "hammerfall", "thrall", "orgrimmar", "blackrock-clan", "anduin-lothar", "durotan-and-draka", "the-second-war" },
+      text = {
+        { "Orgrim Doomhammer was Durotan's friend on Draenor, a chieftain of the Blackrock clan who saw what the warlocks were doing to his people and, unlike Durotan, waited for his moment. It came in the First War. When Gul'dan's assassins murdered Durotan, Doomhammer killed Blackhand, the puppet warchief Gul'dan had set up, and took the Horde for himself. He destroyed Stormwind and broke the Shadow Council." },
+        { "In the Second War he drove the Horde to the gates of Lordaeron's capital, until Gul'dan's desertion forced him back; he killed Anduin Lothar in single combat in the Burning Steppes, and lost the war anyway. Captured at the Dark Portal and taken to Lordaeron, he escaped and lived for years as a hermit." },
+        { "Thrall found him there. The old warchief, his father's friend, followed the young one, and fell freeing one of the camps; Thrall took up his hammer and his black armour and became Warchief. This town carries his name, and so does the Horde's capital. They remember him as the warchief who lost a war and still made sure there was a Horde left at the end of it." },
+      },
+    },
     ["refuge-pointe"] = {
       title = "Refuge Pointe", kind = "place", chapter = "arathi",
       unlock = { { area = 320 } },
@@ -341,6 +361,16 @@ ns.content = {
         { "The orcs remember him as the one who freed them, and named their great hall in Orgrimmar for him. The canyon is still a place of demons: the Burning Legion's servants hold it, and the ground where Mannoroth fell has never been clean." },
       },
     },
+    ["grom-hellscream"] = {
+      title = "Grom Hellscream", kind = "figure", chapter = "ashenvale",
+      unlock = { { read = { "Monument to Grom Hellscream", "그롬 헬스크림의 기념비", "Monument à Grom Hellscream", "Denkmal für Grom Hellscream", "格罗姆·地狱咆哮的纪念碑", "Monumento a Grom Grito Infernal", "Памятник Грому Адскому Крику", "Monumento para Grom Grito Infernal", "[Monument to Grom Hellscream]" } }, { area = 435 } },
+      also = { "demon-fall-canyon", "warsong-lumber-camp", "thrall", "orcs", "cenarius", "draenor" },
+      text = {
+        { "Grommash Hellscream, chieftain of the Warsong, was the first of the orc chieftains to drink Mannoroth's blood on Draenor, and he led the others to it. When the Horde fell and the clans were driven into the camps, his Warsong alone kept fighting from hiding, the last undefeated chieftain. The young Thrall learned from him what the Horde had once been, and called him friend." },
+        { "In Kalimdor the old hunger took him again. His warriors cut the forests of Ashenvale for the Horde's new home, and when the demigod Cenarius came to drive them out, Grom drank demon blood once more and killed him. Thrall and Jaina Proudmoore brought him back to himself, and he went looking for Mannoroth. He found him in a canyon near here, killed him with his axe, and died of it." },
+        { "Thrall set a stone on the place. 'In many ways,' it reads, 'the curse of our people began and ended with Grom.' His name meant giant's heart, the Warchief writes, and he earned it a hundred times over." },
+      },
+    },
     ["splintertree-post"] = {
       title = "Splintertree Post", kind = "place", chapter = "ashenvale",
       unlock = { { area = 431 } },
@@ -388,6 +418,16 @@ ns.content = {
         { "There are solemn guardians in the world, traveller. Azuregos's arrangements suggest that centuries of responsibility need not extinguish a dragon's capacity to make work for somebody else." },
       },
     },
+    ["captain-varothen"] = {
+      title = "Captain Varo'then", kind = "figure", chapter = "azshara", portrait = 10771,
+      unlock = { { kill = 6118 }, { area = 1235 } },
+      also = { "queen-azshara", "the-sundering", "ravencrest-monument", "malfurion-stormrage", "highborne" },
+      text = {
+        { "Captain Varo'then commanded Queen Azshara's guard in the War of the Ancients: a scarred soldier who claimed to be immune to her charms and was, the stories say, hopelessly in love with her. He served her every whim instead. He fetched the Demon Soul for the Legion and nursed a feud with Malfurion Stormrage to the end." },
+        { "At the last battle above the Well he led the Highborne still loyal to the queen, and told Malfurion that he lived only to serve her, even if it meant the end of Kalimdor. They were nearly the last words he said. Kalimdor, the tale goes, took him at his word and rejected him." },
+        { "His ghost walks the ruins of the Shadowsong Shrine, still in the armour of the queen's guard. Whatever he is guarding now, ten thousand years have not relieved him of it." },
+      },
+    },
     ["hydraxian-waterlords"] = {
       title = "The Hydraxian Waterlords", kind = "faction", chapter = "azshara", portrait = 10849,
       unlock = { { npc = 13278 }, { faction = 749, standing = 5 } },
@@ -395,6 +435,16 @@ ns.content = {
       text = {
         { "On an island in the bay of Azshara lives Duke Hydraxis, a lord of the elementals of water, and the Hydraxian Waterlords he leads are at war with the other elements, above all with fire. Their great enemy is Ragnaros, the Firelord, in his Molten Core." },
         { "They are not friends of mortals, but they will make allies of those who fight their foes: the elementals of earth and air in the Plaguelands' wells and Silithus, and the lords of fire under Blackrock Mountain. To those they trust, they give the water that quenches the runes in the Molten Core, and a way to call out the Firelord's majordomo." },
+      },
+    },
+    ["loramus-thalipedes"] = {
+      title = "Loramus Thalipedes", kind = "figure", chapter = "azshara", portrait = 6879,
+      unlock = { { npc = 7783 }, { quest = 3141 }, { quest = 2744 } },
+      also = { "razelikh-the-defiler", "burning-legion", "azshara", "blasted-lands" },
+      text = {
+        { "On an island off the coast of Azshara, a demon hunter named Loramus Thalipedes lives alone with his felhounds. If you wish to battle demons, he says, you would do well to listen to his tale first." },
+        { "Travellers come to him from the Blasted Lands, where Razelikh the Defiler keeps three servants who cannot die while the amulet pieces bound to them stay in that land. Loramus knows how such wards are broken. It takes the demon lord's true name, which a lesser god of Azshara's coast will trade for a price, and a weapon forged to bear it, made from the crystal the cliff giants of the south leave behind and worked by a smith who can handle fel fire." },
+        { "He laughs at most of those who try. He does not refuse them, and he does not stop them. Whatever he hunted demons for, he seems to have decided long ago that the world needs more people doing it." },
       },
     },
     ["queen-azshara"] = {
@@ -643,6 +693,16 @@ ns.content = {
         { "He carries Ironfoe, and his agents have reached as far as Gnomeregan. He also made King Magni's daughter Moira his bride. Magni sent champions to kill him and bring her home. They killed the emperor; Moira's answer made the rest of their errand rather less simple." },
       },
     },
+    ["franclorn-forgewright"] = {
+      title = "Franclorn Forgewright", kind = "figure", chapter = "blackrock-mountain", portrait = 8698,
+      unlock = { { npc = 8888 }, { quest = 3801 }, { quest = 3802 } },
+      also = { "blackrock-depths", "dark-iron-dwarves", "dagran-thaurissan", "stonewrought-dam" },
+      text = {
+        { "Franclorn Forgewright was the chief architect of the Dark Iron dwarves and the inventor of the stonewrought method of building. He will tell you that you have almost certainly stood on something he made, and the great dam of Loch Modan bears his method's name. Shadowforge City, the Dark Irons' capital under the mountain, was his work." },
+        { "He is dead. His ghost keeps to his tomb in Blackrock Mountain, seen only by those who are dead themselves, and his successor as architect, Fineous Darkvire, has taken his great hammer, Ironfel. Franclorn wants it put back in the hands of the statue the Dark Irons raised to him at the Shrine of Thaurissan. In return he gives up the key to the depths of what he calls his accursed city." },
+        { "He built it all the same. A dwarf can disown a city and still be proud of its stonework, traveller; I have met several." },
+      },
+    },
     ["moira-bronzebeard"] = {
       title = "Princess Moira Bronzebeard", kind = "figure", chapter = "blackrock-mountain", portrait = 8705,
       unlock = { { npc = 8929 }, { quest = 4363 }, { quest = 4004 } },
@@ -686,6 +746,16 @@ ns.content = {
       text = {
         { "Rend is the son of Blackhand the Destroyer, the Horde's first Warchief. He and his brother Maim led the Black Tooth Grin under Orgrim Doomhammer, their father's killer, while seeking both vengeance and the position Blackhand had lost." },
         { "Rend now claims the title of Warchief from Blackrock Spire, serving Nefarian and commanding the dragon's orcs. Thrall rejects that claim and sends champions to kill him, with Eitrigg's knowledge of the Blackrock helping guide the response. You will hear two claims to the Horde here, but only one of these leaders answers to a black dragon." },
+      },
+    },
+    ["vaelastrasz"] = {
+      title = "Vaelastrasz", kind = "figure", chapter = "blackrock-mountain", portrait = 13992,
+      unlock = { { npc = 10296 }, { kill = 13020 } },
+      also = { "red-dragonflight", "nefarian", "blackwing-lair", "blackrock-spire", "the-scepter-of-the-shifting-sands" },
+      text = {
+        { "Vaelastrasz is a red dragon of the Dragonqueen's flight, and a thousand years ago he was entrusted with a shard of the scepter that sealed Ahn'Qiraj. In Blackrock Spire he appears to mortals as Vaelan, in a form, as he puts it, that they can bear to look at, and he helps the bold forge the Seal of Ascension that opens the upper citadel to them." },
+        { "The forging takes gems from three of the Spire's generals and the breath of a black drake whose will has been broken. The red flight has never minded borrowing its enemy's fire." },
+        { "Nefarian caught him in the end. In Blackwing Lair he waits, twisted by the black dragon's corruption, and begs those who reach him to take the scepter shard back before it is destroyed. 'Too late, friends,' he says, and turns on them. Those who bring him down are told afterwards that his soul is at ease. I hope so." },
       },
     },
     ["blasted-lands"] = {
@@ -740,6 +810,16 @@ ns.content = {
       text = {
         { "The Altar of Storms stands in Blackrock Spire's shadow, a surviving place of the old Horde's warlock rites. In the Second War, magic worked at such altars turned ogres into ogre magi, giving them cunning and the power to cast spells." },
         { "Blackrock warlocks still gather here. Mor'zul Bloodbringer, who has studied the altar, camps nearby and sends other warlocks on errands of his own." },
+      },
+    },
+    ["anduin-lothar"] = {
+      title = "Anduin Lothar", kind = "figure", chapter = "burning-steppes",
+      unlock = { { area = 46 } },
+      also = { "the-first-war", "the-second-war", "sons-of-lothar", "blackrock-spire", "karazhan", "orgrim-doomhammer" },
+      text = {
+        { "Anduin Lothar was the last of the Arathi bloodline, the line of Thoradin who first united mankind, and he served King Llane of Stormwind as his champion and lieutenant-at-arms. It was Lothar who stormed Karazhan with young Khadgar and killed Medivh, his old friend, when he understood what the Guardian had done." },
+        { "He came home too late to save Stormwind, led its people across the sea to Lordaeron and became Supreme Commander of the Alliance. Even the elves of Quel'Thalas came, however reluctantly, because of the debt they owed his ancestors." },
+        { "He died here. With the Horde penned in Blackrock Spire, Orgrim Doomhammer charged out with his lieutenants and met Lothar's paladins in the middle of these plains; the two fought until both were spent, and Doomhammer killed him. His lieutenant, Turalyon, took up Lothar's bloodstained shield and broke the Horde in the rout that followed. The expedition that later marched through the Dark Portal went as the Sons of Lothar." },
       },
     },
     ["burning-steppes"] = {
@@ -1213,6 +1293,16 @@ ns.content = {
         { "Pilot Stonegear wants their manes for a rug inside his siege engine, Trollplow. Even machinery needs a little comfort in this country, traveller. Retrieving the ammunition and furnishing the engine both require getting rather closer to a wendigo than the courier cared to stay." },
       },
     },
+    ["daelin-proudmoore"] = {
+      title = "Daelin Proudmoore", kind = "figure", chapter = "durotar",
+      unlock = { { area = 372 } },
+      also = { "tiragarde-keep", "jaina-proudmoore", "rexxar", "the-second-war", "durotar" },
+      text = {
+        { "Daelin Proudmoore, Lord Admiral of Kul Tiras, was a hero of the Second War: he commanded the Alliance's fleets beside Anduin Lothar and Uther the Lightbringer, and he never forgave the orcs. He also had a daughter, Jaina, who went to study magic in Dalaran." },
+        { "He sailed from Lordaeron with his fleet before Arthas destroyed it, searching the seas for survivors, and after many months found Kalimdor, and his daughter, at peace with the Horde. He would not have it. He landed his marines on Durotar's coast, raised this keep, and set out to destroy the orcs before they could take root." },
+        { "Jaina had to choose between her father and the peace, and she chose the peace. Daelin died in the fighting before they could be reconciled. His fleet lies wrecked off this beach, and a few of his men still hold the keep, in the middle of a land named for an orc." },
+      },
+    },
     ["darkspear-trolls"] = {
       title = "The Darkspear Trolls", kind = "faction", chapter = "durotar", portrait = 10357,
       unlock = { { people = "Troll" }, { area = 367 }, { faction = 530, standing = 5 } },
@@ -1461,6 +1551,16 @@ ns.content = {
       text = {
         { "Theramore is the city Jaina Proudmoore built when she led the survivors of Lordaeron across the sea to Kalimdor, a fortress-port of white stone on an island off the coast of Dustwallow. It is the Alliance's strongest hold on the continent, and the only place in the world where a human ruler has made a lasting peace with the Horde." },
         { "Many of its soldiers came across the sea with Lady Proudmoore, Kul Tiran marines among them, and not all of them have made their peace with that peace. Theramore keeps watchtowers through the marsh and a fort in the Barrens, and its captains have more mysteries on their desks than they would like." },
+      },
+    },
+    ["arthas-menethil"] = {
+      title = "Arthas Menethil", kind = "figure", chapter = "eastern-plaguelands",
+      unlock = { { area = 2279 } },
+      also = { "stratholme", "fall-of-lordaeron", "the-lich-king", "uthers-tomb", "jaina-proudmoore", "the-fall-of-quelthalas" },
+      text = {
+        { "Arthas Menethil was the only son of King Terenas of Lordaeron, a paladin of the Silver Hand trained by Uther himself, and, in happier days, close to the young sorceress Jaina Proudmoore. When the plague came, he rode against it." },
+        { "He followed it here ahead of the Scourge and found the grain already eaten. Rather than let the city rise against him, he put its people to the sword; Uther and Jaina would not follow him. The dreadlord Mal'Ganis, who had been waiting for him, withdrew north, and Arthas chased him to Northrend, burned his own ships so his men could not turn back, and took up the runeblade Frostmourne. With it he killed Mal'Ganis, and lost his soul." },
+        { "He came home a death knight, killed his father in his own throne room, and led the Scourge through the kingdom he was meant to rule; at Andorhal he killed Uther. Then he went north to the Frozen Throne and, the book in our library says, became the Lich King himself. Stratholme remembers him better than anywhere. Its streets are still full of the people he set out to save." },
       },
     },
     ["balnazzar"] = {
@@ -2364,6 +2464,16 @@ ns.content = {
         { "A Dark Iron fights with fire, black powder and a grudge two centuries deep. Never turn your back on one." },
       },
     },
+    ["deathstalkers"] = {
+      title = "The Deathstalkers", kind = "faction", chapter = "peoples", portrait = 3540,
+      unlock = { { npc = 1950 }, { npc = 1951 }, { npc = 1978 }, { npc = 2058 }, { npc = 2214 }, { npc = 3849 }, { npc = 4444 }, { npc = 5418 } },
+      also = { "the-forsaken", "varimathras", "sylvanas-windrunner", "silverpine-forest", "shadowfang-keep", "syndicate" },
+      text = {
+        { "The Deathstalkers are the Forsaken's eyes and knives: Lord Varimathras's elite guard, as one of their recruiters puts it, sent ahead of the Dark Lady's armies to see what waits for them. You meet them wherever the Forsaken are pushing their borders: scouting the farms of northern Silverpine, inside Shadowfang Keep to watch Arugal, on the hills above Hillsbrad, gathering reports from the Plaguelands for Nathanos." },
+        { "Joining them is not a matter of asking. Recruits prove their worth, and their discretion, in the Undercity's own back rooms; one such errand found that the Syndicate, the fallen lords of Alterac, had a friend among the city's shopkeepers. With Varimathras's sanction, one of them boasts, their numbers grow." },
+        { "They are not all as grim as the name. Rane and Quinn Yorick are brothers, and Rane, with Quinn barely mended from a ghoul's claws, wants their report delivered before anything else. Dead, but still keen. The Forsaken are full of surprises." },
+      },
+    },
     ["defias-brotherhood"] = {
       title = "The Defias Brotherhood", kind = "faction", chapter = "peoples", portrait = 2357,
       unlock = { { kill = 38 }, { kill = 94 }, { kill = 95 }, { kill = 116 }, { kill = 121 }, { kill = 122 }, { kill = 215 }, { kill = 449 }, { kill = 450 }, { kill = 474 }, { kill = 481 }, { kill = 504 }, { kill = 550 }, { kill = 583 }, { kill = 589 }, { kill = 590 }, { kill = 594 }, { kill = 598 }, { kill = 619 }, { kill = 634 }, { kill = 636 }, { kill = 639 }, { kill = 643 }, { kill = 644 }, { kill = 645 }, { kill = 646 }, { kill = 647 }, { kill = 657 }, { kill = 824 }, { kill = 909 }, { kill = 910 }, { kill = 1663 }, { kill = 1666 }, { kill = 1706 }, { kill = 1707 }, { kill = 1708 }, { kill = 1711 }, { kill = 1715 }, { kill = 1716 }, { kill = 1720 }, { kill = 1725 }, { kill = 1729 }, { kill = 1732 }, { kill = 1763 }, { kill = 4416 }, { kill = 4417 }, { kill = 4418 }, { kill = 5043 }, { kill = 6180 }, { kill = 6846 }, { kill = 6866 }, { kill = 6927 }, { kill = 7050 }, { kill = 7052 }, { kill = 7056 } },
@@ -2401,6 +2511,16 @@ ns.content = {
         { "The dwarves have held Khaz Modan from Ironforge since before anyone wrote their history down, and for a long time they did not know where they came from either. The discs the League recovered from Uldaman suggest an answer the scholars still argue over: that the first dwarves were earthen, shaped from the stone by the Titans, who in time became flesh." },
         { "Three clans once shared the mountain under one High King. When he died they went to war over his throne; the Bronzebeards kept Ironforge, the Wildhammers went north and the Dark Irons woke the Firelord in the south. King Magni Bronzebeard rules now. His brother Muradin went north with Lordaeron's prince and has not been seen since, and his brother Brann is out in the world for the League, which is more or less where we expect him to be." },
         { "They are a sturdy, careful, generous people who keep their grudges as well as their stonework, and I say that fondly. If a dwarf tells you a bridge will hold, traveller, it will. If a dwarf says the ale is good, form your own view." },
+      },
+    },
+    ["earthen"] = {
+      title = "The Earthen", kind = "creature", chapter = "peoples", portrait = 6025,
+      unlock = { { kill = 7011 }, { kill = 7012 }, { kill = 7076 }, { kill = 7077 }, { kill = 7309 }, { kill = 7396 }, { kill = 7397 }, { read = { "Ironforge - the Awakening of the Dwarves", "아이언포지 - 드워프의 탄생", "Ironforge - l'Eveil des Nains", "Ironforge - das Erwachen der Zwerge", "铁炉堡 - 矮人的觉醒", "Forjaz: el despertar de los enanos", "Стальгорн - Пробуждение дворфов", "Altaforja: o Despertar dos Anões", "鐵爐堡 - 矮人的覺醒" } } },
+      also = { "uldaman", "platinum-discs", "dwarves", "the-ordering", "rockjaw-troggs" },
+      text = {
+        { "The earthen were the Titans' stonemasons, made from living rock to carve the deep places of the world. When the Titans left, they went on shaping and guarding those depths, caring little for anything above. The Sundering hurt them as it hurt the earth itself. They lost much of what they had been and sealed themselves in the vaults where they were made: Uldaman, Uldum, Ulduar, as the book in our library names them." },
+        { "After nearly eight thousand years, the earthen of Uldaman woke. They found their stone hides softened into skin and their power over the rock grown weak; they had become mortal. They called themselves dwarves, went out into the waking world, and founded a kingdom under the highest mountain in the land, Khaz Modan, the mountain of Khaz'goroth, around a forge raised in his honour." },
+        { "Not all of them woke. Earthen still stand guard in the halls of Uldaman, and every expedition the League sends there meets them. They do not seem to know whose kin we are." },
       },
     },
     ["elune"] = {
@@ -2478,6 +2598,16 @@ ns.content = {
         { "The high elves began as night elves: Highborne of Azshara's court who survived the Sundering and could not give up their magic. When the druids forbade it on pain of death, their leader, Dath'Remar, answered with a storm of spells over Ashenvale. The druids would not kill so many of their own kin. They exiled them instead, and Dath'Remar's people sailed east across the Maelstrom, glad to be rid of their cautious cousins." },
         { "They came ashore in the north of what men would call Lordaeron and settled first in the glades of Tirisfal, until, after a few years, many of them began to go mad; rumour said something evil slept beneath that ground, and it was never proven. Cut off from the Well, they lost their immortality on the road, grew smaller and paler, and fought the Amani trolls for every mile. At last they founded Quel'Thalas deep in the northern forests, on land the trolls held sacred, and ringed it with runestones. Dath'Remar took the name Sunstrider, 'he who walks the day', and his people have been children of the sun ever since." },
         { "Quel'Thalas is gone now. The elves a traveller meets are what remains of it: rangers holding Quel'Lithien Lodge at the edge of the Plaguelands, the Highvale elves of Quel'Danil Lodge in the Hinterlands, wanderers here and there. They are proud even in exile. Given what they have lost, I find it hard to hold that against them." },
+      },
+    },
+    ["highborne"] = {
+      title = "The Highborne", kind = "faction", chapter = "peoples", portrait = 10702,
+      unlock = { { kill = 2176 }, { kill = 2177 }, { kill = 2178 }, { kill = 6116 }, { kill = 6117 }, { kill = 7523 }, { kill = 7524 }, { kill = 10684 } },
+      also = { "queen-azshara", "the-sundering", "high-elves", "shendralar", "ruins-of-keltheril", "highborne-ruins" },
+      text = {
+        { "The Highborne were the night elves' upper caste, Queen Azshara's chosen servants, who studied the Well of Eternity until they learned magic, and then loved it more than anything else. It was their spellcraft that drew Sargeras to the world, and their queen and her court who opened the way for his Legion." },
+        { "Not all of them shared her fate. Some survived the Sundering among the other night elves and, exiled for clinging to their magic, became the high elves; others held on in Eldre'Thalas, where the Shen'dralar keep their own counsel still. Many simply died, and did not rest." },
+        { "Their dead are easy to find: wailing in the ruins of Darkshore, drifting through Azshara as apparitions and lichlings, suffering by the frozen lake of Kel'Theril in Winterspring. Ten thousand years is a long time to be sorry, traveller. At least one of them, by the lake, seems truly to be." },
       },
     },
     ["humans"] = {
@@ -3306,6 +3436,16 @@ ns.content = {
         { "In the east the canyon opens into the Shimmering Flats, a dry white bed of salt where the heat shimmers off the ground. The goblins and the gnomes have built a race track on it. I am told this is a natural thing for goblins and gnomes to do with a desert." },
       },
     },
+    ["alonsus-faol"] = {
+      title = "Alonsus Faol", kind = "figure", chapter = "tirisfal",
+      unlock = { { area = 173 } },
+      also = { "church-of-the-holy-light", "paladins", "uthers-tomb", "northshire-abbey", "stratholme" },
+      text = {
+        { "Alonsus Faol led the clerics of Northshire before the First War, and when Stormwind fell and the abbey with it, the old man went north with the refugees. In Lordaeron, as Archbishop, he gave the Church of the Holy Light a sword: he founded the Knights of the Silver Hand and anointed his apprentice, Uther, the first of the paladins." },
+        { "His work went further than the battlefield. A plaque in Stormwind's cathedral says he began it in Stratholme, helped reform the Brotherhood of Northshire after the Second War and raised the funds to rebuild Stormwind itself. He died before the plague came, of nothing worse than age, so far as anyone knows." },
+        { "This is said to be where he lies. Before the Scourge it was a place of pilgrimage. Now it gathers the dead of the Scarlet Monastery, and no one comes to mourn him. He deserved better, and so did the order he founded." },
+      },
+    },
     ["brill"] = {
       title = "Brill", kind = "place", chapter = "tirisfal",
       unlock = { { area = 159 } },
@@ -3370,6 +3510,26 @@ ns.content = {
         { "Sylvanas Windrunner was the Ranger-General of Silvermoon, the high elves' greatest archer and the commander of their rangers, and she fought Prince Arthas every step of the way when he marched the Scourge into Quel'Thalas. When he finally broke through, he killed her, and as a punishment for her resistance he did not let her rest: he raised her as a banshee and bound her to his service." },
         { "When the Lich King's power faltered, Sylvanas broke free. She gathered the undead who had woken with her, turned a dreadlord to her service, and took the ruins of Lordaeron's capital for her own. The Forsaken call her the Dark Lady, and they would follow her anywhere." },
         { "She wants Arthas dead. Beyond that, she keeps her own counsel, and her eyes give nothing away." },
+      },
+    },
+    ["the-agamands"] = {
+      title = "The Agamands", kind = "history", chapter = "tirisfal", portrait = 646,
+      unlock = { { area = 157 }, { kill = 1654 }, { kill = 1655 }, { kill = 1656 }, { kill = 1657 }, { quest = 354 }, { quest = 1821 } },
+      also = { "tirisfal-glades", "brill", "the-forsaken", "scourge" },
+      text = {
+        { "The Agamands were the richest family in Tirisfal, and these mills were theirs. When the Scourge came, they fortified the house and told everyone in their employ to stay and help them hold it. The farmhands stayed. They were loyal, one of them says now, and fools." },
+        { "None of it held. The family and their workers died together and rose together, and the Agamands still walk the mills for the Lich King: Gregor, the father, Nissa, his wife, and their sons. Their crypt lies at the north end of the property, among the Scourge." },
+        { "Some of their workers broke free and are Forsaken now. Coleman Farthing, who worked their mills, sends travellers back to destroy what is left of the family and rob their crypt of its heirlooms. Revenge, he says, has a sweet taste; he hopes they knew fear before the end. It is a foolish hope, he admits. He keeps it anyway." },
+      },
+    },
+    ["the-ashbringer"] = {
+      title = "The Ashbringer", kind = "history", chapter = "tirisfal", portrait = 2605,
+      unlock = { { kill = 4542 }, { kill = 3976 } },
+      also = { "scarlet-crusade", "whitemane-and-mograine", "scarlet-monastery", "argent-dawn", "kelthuzad", "stratholme" },
+      text = {
+        { "The Ashbringer was a man before it was a sword. Highlord Mograine founded the Scarlet Crusade with High General Abbendis and High Inquisitor Isillien, when it was still a noble order, and he was called the Ashbringer for what he did to the Lich King's armies: he would walk into whole battalions of undead and come out the other side with nothing behind him but ash. His blade took the name from him." },
+        { "High Inquisitor Fairbanks, who was there, tells how it ended. The Grand Crusader struck a deal with Kel'Thuzad, and Mograine was led into an ambush in Stratholme by his own son, Renault. As the Scourge closed in and the blade began to glow, Renault picked it up and drove it through his father's back. 'What have you done, Renault?' were the Highlord's last words. The man and the blade had been one, and the murder corrupted both; Mograine rose as a death knight of Kel'Thuzad." },
+        { "Fairbanks escaped Stratholme after two days among the dead and told the tale to anyone in the Monastery who would listen. He was murdered for it and hidden in its cathedral. But some heard him, he says, and that is how the Argent Dawn began. Renault leads the Monastery now, as its Scarlet Commander." },
       },
     },
     ["the-bulwark"] = {
@@ -3491,6 +3651,16 @@ ns.content = {
         { "From here the Alliance attacks Andorhal and works against the plague cauldrons. The camp has little comfort or supply to spare. If you have help to offer, traveller, Valorfist has good use for it. His tents are a small beginning for the work ahead." },
       },
     },
+    ["dalsons-tears"] = {
+      title = "Dalson's Tears", kind = "place", chapter = "western-plaguelands",
+      unlock = { { area = 200 }, { quest = 5058 } },
+      also = { "western-plaguelands", "plague-cauldrons", "andorhal" },
+      text = {
+        { "The farm the Plaguelands call Dalson's Tears belonged to a family named Dalson, and their story lies open on a table in the house, in Mrs. Dalson's own hand. Her husband, Harold, had turned. It took everything she had to drag him into the only place she could find that would lock, and she kept the key on her." },
+        { "She meant to leave, but she needed money, and their things were in the cabinet, and she rather thought Harold kept that key on him. She would rest on it, she wrote. She was dead tired. That is the last entry; what became of her, the diary does not say." },
+        { "The Scourge has set one of its plague cauldrons in the family's field since, and the Alliance at Chillwind and the Forsaken at the Bulwark both send travellers to turn its poisons back. Farm by farm, the Plaguelands are full of houses like this one. This is the one where somebody wrote it down." },
+      },
+    },
     ["hearthglen"] = {
       title = "Hearthglen", kind = "place", chapter = "western-plaguelands",
       unlock = { { area = 190 }, { area = 203 }, { quest = 5944 } },
@@ -3517,6 +3687,16 @@ ns.content = {
       text = {
         { "Eight plague cauldrons stand on the farms of the Plaguelands, four in the west and four in the east. Cauldron lords and the dead of the surrounding farmsteads guard them. Their fumes keep poisoning country that has already lost its people." },
         { "Kel'Thuzad's power prevents the Alliance and Forsaken from simply putting them out. Instead, workers at Chillwind and the Bulwark seek samples to prepare counteragents. Added to the cauldrons, these mixtures alter their emissions to weaken the Scourge. The supply must be renewed." },
+      },
+    },
+    ["ras-frostwhisper"] = {
+      title = "Ras Frostwhisper", kind = "figure", chapter = "western-plaguelands", portrait = 7919,
+      unlock = { { kill = 10508 }, { quest = 5461 }, { quest = 5466 } },
+      also = { "scholomance", "cult-of-the-damned", "kelthuzad", "stratholme", "stromgarde-keep" },
+      text = {
+        { "The lich who rules the halls of Scholomance was a man of Stromgarde once, Ras Frostwhisper by name. When the Scourge came to Stratholme he gave his life to it on the city's bloodied ground, freely and with a purpose, to become one of the undying. He oversees the school of necromancy now." },
+        { "The undead fear life as the living fear death, Magistrate Marduke says, and a sentient undead will often destroy every reminder of who it was. Ras missed something. A keepsake of his mortal years still lay in the ruins of Stromgarde, and attuned on the ground where he died, it can make him mortal again: long enough, at least, to be struck down for good." },
+        { "It is a rare thing to undo a lich. It is rarer still that the undoing should begin with something he forgot to throw away." },
       },
     },
     ["scholomance"] = {
@@ -3837,5 +4017,5 @@ ns.content = {
     },
   },
   -- English names of the areas used above (when the client can't name an area id).
-  areaNames = { [1] = "Dun Morogh", [3] = "Badlands", [4] = "Blasted Lands", [8] = "Swamp of Sorrows", [9] = "Northshire Valley", [10] = "Duskwood", [11] = "Wetlands", [12] = "Elwynn Forest", [14] = "Durotar", [15] = "Dustwallow Marsh", [16] = "Azshara", [17] = "The Barrens", [20] = "Moonbrook", [24] = "Northshire Abbey", [25] = "Blackrock Mountain", [28] = "Western Plaguelands", [33] = "Stranglethorn Vale", [35] = "Booty Bay", [36] = "Alterac Mountains", [38] = "Loch Modan", [40] = "Westfall", [41] = "Deadwind Pass", [42] = "Darkshire", [44] = "Redridge Mountains", [45] = "Arathi Highlands", [46] = "Burning Steppes", [47] = "The Hinterlands", [51] = "Searing Gorge", [69] = "Lakeshire", [70] = "Stonewatch", [72] = "The Dark Portal", [73] = "The Tainted Scar", [74] = "Pool of Tears", [75] = "Stonard", [76] = "Fallow Sanctuary", [77] = "Anvilmar", [85] = "Tirisfal Glades", [87] = "Goldshire", [94] = "Raven Hill", [96] = "Tower of Ilgalar", [99] = "Rebel Camp", [100] = "Nesingwary's Expedition", [101] = "Kurzen's Compound", [102] = "Ruins of Zul'Kunda", [103] = "Ruins of Zul'Mamwe", [108] = "Sentinel Hill", [117] = "Grom'gol Base Camp", [118] = "Whelgar's Excavation Site", [122] = "Zuuldaia Ruins", [123] = "Bal'lal Ruins", [125] = "Kal'ai Ruins", [126] = "Tkashi Ruins", [127] = "Balia'mah Ruins", [128] = "Ziata'jai Ruins", [129] = "Mizjah Ruins", [130] = "Silverpine Forest", [131] = "Kharanos", [132] = "Coldridge Valley", [133] = "Gnomeregan", [135] = "Frostmane Hold", [136] = "The Grizzled Den", [139] = "Eastern Plaguelands", [141] = "Teldrassil", [142] = "Ironband's Excavation Site", [143] = "Mo'grosh Stronghold", [144] = "Thelsamar", [145] = "Algaz Gate", [146] = "Stonewrought Dam", [147] = "The Farstrider Lodge", [148] = "Darkshore", [150] = "Menethil Harbor", [152] = "The Bulwark", [153] = "Ruins of Lordaeron", [154] = "Deathknell", [159] = "Brill", [172] = "Fenris Isle", [186] = "Dolanaar", [188] = "Shadowglen", [189] = "Steelgrill's Depot", [190] = "Hearthglen", [193] = "Ruins of Andorhal", [196] = "Uther's Tomb", [197] = "Sorrow Hill", [199] = "Felstone Field", [200] = "Dalson's Tears", [201] = "Gahrron's Withering", [202] = "The Writhing Haunt", [203] = "Mardenholde Keep", [204] = "Pyrewood Village", [205] = "Dun Modr", [209] = "Shadowfang Keep", [215] = "Mulgore", [221] = "Camp Narache", [222] = "Bloodhoof Village", [225] = "Red Rocks", [228] = "The Sepulcher", [230] = "The Greymane Wall", [233] = "Ambermill", [236] = "Shadowfang Keep", [246] = "The Cauldron", [247] = "Grimesilt Dig Site", [250] = "Ruins of Thaurissan", [254] = "Blackrock Mountain", [255] = "Altar of Storms", [256] = "Aldrassil", [258] = "Fel Rock", [262] = "Ban'ethil Barrow Den", [267] = "Hillsbrad Foothills", [271] = "Southshore", [272] = "Tarren Mill", [275] = "Durnholde Keep", [279] = "Dalaran", [281] = "Ruins of Alterac", [290] = "Dun Garok", [311] = "Ruins of Aboraz", [320] = "Refuge Pointe", [321] = "Hammerfall", [324] = "Stromgarde Keep", [331] = "Ashenvale", [340] = "Kargath", [345] = "Agmond's End", [346] = "Hammertoe's Digsite", [348] = "Aerie Peak", [350] = "Quel'Danil Lodge", [354] = "Jintha'Alor", [356] = "Seradane", [357] = "Feralas", [359] = "Bael Modan", [361] = "Felwood", [362] = "Razor Hill", [363] = "Valley of Trials", [367] = "Sen'jin Village", [368] = "Echo Isles", [372] = "Tiragarde Keep", [378] = "Camp Taurajo", [380] = "The Crossroads", [385] = "Northwatch Hold", [386] = "The Forgotten Pools", [387] = "Lushwater Oasis", [388] = "The Stagnant Oasis", [392] = "Ratchet", [400] = "Thousand Needles", [403] = "Shady Rest Inn", [405] = "Desolace", [406] = "Stonetalon Mountains", [415] = "Astranaar", [431] = "Splintertree Post", [435] = "Demon Fall Canyon", [436] = "Demon Fall Ridge", [437] = "Warsong Lumber Camp", [438] = "Bough Shadow", [439] = "The Shimmering Flats", [440] = "Tanaris", [442] = "Auberdine", [443] = "Ruins of Mathystra", [444] = "Tower of Althalaxx", [446] = "Bashal'Aran", [447] = "Ameth'Aran", [448] = "Grove of the Ancients", [449] = "The Master's Glaive", [450] = "Remtravel's Excavation", [460] = "Sun Rock Retreat", [461] = "Windshear Crag", [465] = "The Charred Vale", [467] = "Stonetalon Peak", [468] = "The Talon Den", [477] = "Ruins of Jubuwal", [479] = "The Rustmaul Dig Site", [484] = "Freewind Post", [490] = "Un'Goro Crater", [491] = "Razorfen Kraul", [492] = "Raven Hill Cemetery", [493] = "Moonglade", [496] = "Brackenwall Village", [511] = "Wyrmbog", [513] = "Theramore Isle", [537] = "Fire Plume Ridge", [541] = "Marshal's Refuge", [556] = "The Loch", [596] = "Kodo Graveyard", [602] = "Mannoroc Coven", [604] = "Magram Village", [606] = "Gelkis Village", [608] = "Nijel's Point", [609] = "Kolkar Village", [616] = "Hyjal", [618] = "Winterspring", [717] = "The Stockade", [718] = "Wailing Caverns", [719] = "Blackfathom Deeps", [722] = "Razorfen Downs", [796] = "Scarlet Monastery", [806] = "South Gate Outpost", [808] = "North Gate Outpost", [836] = "Dun Algaz", [837] = "Dun Algaz", [856] = "Twilight Grove", [880] = "Thandol Span", [881] = "Thandol Span", [924] = "Valley of Kings", [925] = "Algaz Station", [976] = "Gadgetzan", [990] = "Valley of the Watchers", [1020] = "Mosshide Fen", [1036] = "Angerfang Encampment", [1037] = "Grim Batol", [1039] = "The Lost Fleet", [1098] = "Manor Mistmantle", [1099] = "Camp Mojache", [1111] = "Dream Bough", [1116] = "Feathermoon Stronghold", [1176] = "Zul'Farrak", [1216] = "Timbermaw Hold", [1220] = "Thalassian Base Camp", [1221] = "Ruins of Eldarath ", [1223] = "Temple of Zin-Malor", [1228] = "The Shattered Strand", [1232] = "Ravencrest Monument", [1337] = "Uldaman", [1377] = "Silithus", [1438] = "Nethergarde Keep", [1443] = "The Slag Pit", [1445] = "Blackrock Mountain", [1446] = "Thorium Point", [1477] = "The Temple of Atal'Hakkar", [1497] = "Undercity", [1519] = "Stormwind City", [1537] = "Ironforge", [1581] = "The Deadmines", [1583] = "Blackrock Spire", [1584] = "Blackrock Depths", [1599] = "Mor'shan Base Camp", [1617] = "Valley of Heroes", [1637] = "Orgrimmar", [1638] = "Thunder Bluff", [1640] = "Spirit Rise", [1657] = "Darnassus", [1700] = "Agama'gor", [1703] = "The Mor'shan Rampart", [1741] = "Gurubashi Arena", [1763] = "Jaedenar", [1769] = "Timbermaw Hold", [1770] = "Shadow Hold", [1777] = "Itharius's Cave", [1857] = "Thoradin's Wall", [1897] = "The Maker's Terrace", [1977] = "Zul'Gurub", [1997] = "Bloodvenom Post ", [1998] = "Talonbranch Glade ", [2017] = "Stratholme", [2057] = "Scholomance", [2099] = "Stonewatch Keep", [2100] = "Maraudon", [2157] = "Bael'dun Keep", [2159] = "Onyxia's Lair", [2161] = "Roland's Doom", [2240] = "Mirage Raceway", [2245] = "Mazthoril", [2251] = "Lake Kel'Theril", [2252] = "The Ruins of Kel'Theril", [2253] = "Starfall Village", [2255] = "Everlook", [2257] = "Deeprun Tram", [2262] = "Darrowshire", [2266] = "Tyr's Hand", [2267] = "The Scarlet Basilica", [2268] = "Light's Hope Chapel", [2276] = "Quel'Lithien Lodge", [2279] = "Stratholme", [2298] = "Caer Darrow", [2300] = "Caverns of Time", [2361] = "Nighthaven", [2362] = "Shrine of Remulos", [2363] = "Stormrage Barrow Dens", [2408] = "Shadowprey Village", [2418] = "Morgan's Vigil", [2437] = "Ragefire Chasm", [2479] = "Emerald Sanctuary", [2517] = "Rise of the Defiler", [2540] = "Boulderslide Ravine", [2557] = "Dire Maul", [2562] = "Karazhan", [2597] = "Alterac Valley", [2677] = "Blackwing Lair", [2717] = "Molten Core", [2737] = "The Scarab Wall", [2741] = "The Scarab Dais", [2797] = "Blackfathom Deeps", [2837] = "The Master's Cellar", [2839] = "Alterac Valley", [3077] = "Valor's Rest", [3157] = "Boulderslide Cavern", [3177] = "Warsong Labor Camp", [3197] = "Chillwind Camp", [3277] = "Warsong Gulch", [3317] = "Revantusk Village", [3357] = "Yojamba Isle", [3358] = "Arathi Basin", [3425] = "Cenarion Hold", [3428] = "Ahn'Qiraj", [3429] = "Ruins of Ahn'Qiraj", [3454] = "Ruins of Ahn'Qiraj", [3456] = "Naxxramas", [3486] = "Ravenholdt Manor", [16076] = "Temple of Ahn'Qiraj", [16593] = "Zephras Isle", [16611] = "Ruins of Lordaeron", [16628] = "Valanaar Skydocks", [16629] = "Shrine of Akir", [16630] = "Rohashi Spires", [16635] = "Thendal Village", [16638] = "Valanaar", [16833] = "Ruins of Ban'aethal", [16919] = "The Hall of Thanes" },
+  areaNames = { [1] = "Dun Morogh", [3] = "Badlands", [4] = "Blasted Lands", [8] = "Swamp of Sorrows", [9] = "Northshire Valley", [10] = "Duskwood", [11] = "Wetlands", [12] = "Elwynn Forest", [14] = "Durotar", [15] = "Dustwallow Marsh", [16] = "Azshara", [17] = "The Barrens", [20] = "Moonbrook", [24] = "Northshire Abbey", [25] = "Blackrock Mountain", [28] = "Western Plaguelands", [33] = "Stranglethorn Vale", [35] = "Booty Bay", [36] = "Alterac Mountains", [38] = "Loch Modan", [40] = "Westfall", [41] = "Deadwind Pass", [42] = "Darkshire", [44] = "Redridge Mountains", [45] = "Arathi Highlands", [46] = "Burning Steppes", [47] = "The Hinterlands", [51] = "Searing Gorge", [69] = "Lakeshire", [70] = "Stonewatch", [72] = "The Dark Portal", [73] = "The Tainted Scar", [74] = "Pool of Tears", [75] = "Stonard", [76] = "Fallow Sanctuary", [77] = "Anvilmar", [85] = "Tirisfal Glades", [87] = "Goldshire", [94] = "Raven Hill", [96] = "Tower of Ilgalar", [99] = "Rebel Camp", [100] = "Nesingwary's Expedition", [101] = "Kurzen's Compound", [102] = "Ruins of Zul'Kunda", [103] = "Ruins of Zul'Mamwe", [108] = "Sentinel Hill", [117] = "Grom'gol Base Camp", [118] = "Whelgar's Excavation Site", [122] = "Zuuldaia Ruins", [123] = "Bal'lal Ruins", [125] = "Kal'ai Ruins", [126] = "Tkashi Ruins", [127] = "Balia'mah Ruins", [128] = "Ziata'jai Ruins", [129] = "Mizjah Ruins", [130] = "Silverpine Forest", [131] = "Kharanos", [132] = "Coldridge Valley", [133] = "Gnomeregan", [135] = "Frostmane Hold", [136] = "The Grizzled Den", [139] = "Eastern Plaguelands", [141] = "Teldrassil", [142] = "Ironband's Excavation Site", [143] = "Mo'grosh Stronghold", [144] = "Thelsamar", [145] = "Algaz Gate", [146] = "Stonewrought Dam", [147] = "The Farstrider Lodge", [148] = "Darkshore", [150] = "Menethil Harbor", [152] = "The Bulwark", [153] = "Ruins of Lordaeron", [154] = "Deathknell", [157] = "Agamand Mills", [159] = "Brill", [172] = "Fenris Isle", [173] = "Faol's Rest", [186] = "Dolanaar", [188] = "Shadowglen", [189] = "Steelgrill's Depot", [190] = "Hearthglen", [193] = "Ruins of Andorhal", [196] = "Uther's Tomb", [197] = "Sorrow Hill", [199] = "Felstone Field", [200] = "Dalson's Tears", [201] = "Gahrron's Withering", [202] = "The Writhing Haunt", [203] = "Mardenholde Keep", [204] = "Pyrewood Village", [205] = "Dun Modr", [209] = "Shadowfang Keep", [215] = "Mulgore", [221] = "Camp Narache", [222] = "Bloodhoof Village", [225] = "Red Rocks", [228] = "The Sepulcher", [230] = "The Greymane Wall", [233] = "Ambermill", [236] = "Shadowfang Keep", [246] = "The Cauldron", [247] = "Grimesilt Dig Site", [250] = "Ruins of Thaurissan", [254] = "Blackrock Mountain", [255] = "Altar of Storms", [256] = "Aldrassil", [258] = "Fel Rock", [262] = "Ban'ethil Barrow Den", [267] = "Hillsbrad Foothills", [271] = "Southshore", [272] = "Tarren Mill", [275] = "Durnholde Keep", [278] = "Lordamere Internment Camp", [279] = "Dalaran", [281] = "Ruins of Alterac", [290] = "Dun Garok", [311] = "Ruins of Aboraz", [320] = "Refuge Pointe", [321] = "Hammerfall", [324] = "Stromgarde Keep", [331] = "Ashenvale", [340] = "Kargath", [345] = "Agmond's End", [346] = "Hammertoe's Digsite", [348] = "Aerie Peak", [350] = "Quel'Danil Lodge", [354] = "Jintha'Alor", [356] = "Seradane", [357] = "Feralas", [359] = "Bael Modan", [361] = "Felwood", [362] = "Razor Hill", [363] = "Valley of Trials", [367] = "Sen'jin Village", [368] = "Echo Isles", [372] = "Tiragarde Keep", [378] = "Camp Taurajo", [380] = "The Crossroads", [385] = "Northwatch Hold", [386] = "The Forgotten Pools", [387] = "Lushwater Oasis", [388] = "The Stagnant Oasis", [392] = "Ratchet", [400] = "Thousand Needles", [403] = "Shady Rest Inn", [405] = "Desolace", [406] = "Stonetalon Mountains", [415] = "Astranaar", [431] = "Splintertree Post", [435] = "Demon Fall Canyon", [436] = "Demon Fall Ridge", [437] = "Warsong Lumber Camp", [438] = "Bough Shadow", [439] = "The Shimmering Flats", [440] = "Tanaris", [442] = "Auberdine", [443] = "Ruins of Mathystra", [444] = "Tower of Althalaxx", [446] = "Bashal'Aran", [447] = "Ameth'Aran", [448] = "Grove of the Ancients", [449] = "The Master's Glaive", [450] = "Remtravel's Excavation", [460] = "Sun Rock Retreat", [461] = "Windshear Crag", [465] = "The Charred Vale", [467] = "Stonetalon Peak", [468] = "The Talon Den", [477] = "Ruins of Jubuwal", [479] = "The Rustmaul Dig Site", [484] = "Freewind Post", [490] = "Un'Goro Crater", [491] = "Razorfen Kraul", [492] = "Raven Hill Cemetery", [493] = "Moonglade", [496] = "Brackenwall Village", [511] = "Wyrmbog", [513] = "Theramore Isle", [537] = "Fire Plume Ridge", [541] = "Marshal's Refuge", [556] = "The Loch", [596] = "Kodo Graveyard", [602] = "Mannoroc Coven", [604] = "Magram Village", [606] = "Gelkis Village", [608] = "Nijel's Point", [609] = "Kolkar Village", [616] = "Hyjal", [618] = "Winterspring", [717] = "The Stockade", [718] = "Wailing Caverns", [719] = "Blackfathom Deeps", [722] = "Razorfen Downs", [796] = "Scarlet Monastery", [806] = "South Gate Outpost", [808] = "North Gate Outpost", [836] = "Dun Algaz", [837] = "Dun Algaz", [856] = "Twilight Grove", [880] = "Thandol Span", [881] = "Thandol Span", [924] = "Valley of Kings", [925] = "Algaz Station", [976] = "Gadgetzan", [990] = "Valley of the Watchers", [1020] = "Mosshide Fen", [1036] = "Angerfang Encampment", [1037] = "Grim Batol", [1039] = "The Lost Fleet", [1098] = "Manor Mistmantle", [1099] = "Camp Mojache", [1111] = "Dream Bough", [1116] = "Feathermoon Stronghold", [1176] = "Zul'Farrak", [1216] = "Timbermaw Hold", [1220] = "Thalassian Base Camp", [1221] = "Ruins of Eldarath ", [1223] = "Temple of Zin-Malor", [1228] = "The Shattered Strand", [1232] = "Ravencrest Monument", [1235] = "Shadowsong Shrine", [1337] = "Uldaman", [1377] = "Silithus", [1438] = "Nethergarde Keep", [1443] = "The Slag Pit", [1445] = "Blackrock Mountain", [1446] = "Thorium Point", [1477] = "The Temple of Atal'Hakkar", [1497] = "Undercity", [1519] = "Stormwind City", [1537] = "Ironforge", [1581] = "The Deadmines", [1583] = "Blackrock Spire", [1584] = "Blackrock Depths", [1599] = "Mor'shan Base Camp", [1617] = "Valley of Heroes", [1637] = "Orgrimmar", [1638] = "Thunder Bluff", [1640] = "Spirit Rise", [1657] = "Darnassus", [1700] = "Agama'gor", [1703] = "The Mor'shan Rampart", [1741] = "Gurubashi Arena", [1763] = "Jaedenar", [1769] = "Timbermaw Hold", [1770] = "Shadow Hold", [1777] = "Itharius's Cave", [1857] = "Thoradin's Wall", [1897] = "The Maker's Terrace", [1977] = "Zul'Gurub", [1997] = "Bloodvenom Post ", [1998] = "Talonbranch Glade ", [2017] = "Stratholme", [2057] = "Scholomance", [2099] = "Stonewatch Keep", [2100] = "Maraudon", [2157] = "Bael'dun Keep", [2159] = "Onyxia's Lair", [2161] = "Roland's Doom", [2240] = "Mirage Raceway", [2245] = "Mazthoril", [2251] = "Lake Kel'Theril", [2252] = "The Ruins of Kel'Theril", [2253] = "Starfall Village", [2255] = "Everlook", [2257] = "Deeprun Tram", [2262] = "Darrowshire", [2266] = "Tyr's Hand", [2267] = "The Scarlet Basilica", [2268] = "Light's Hope Chapel", [2276] = "Quel'Lithien Lodge", [2279] = "Stratholme", [2298] = "Caer Darrow", [2300] = "Caverns of Time", [2361] = "Nighthaven", [2362] = "Shrine of Remulos", [2363] = "Stormrage Barrow Dens", [2408] = "Shadowprey Village", [2418] = "Morgan's Vigil", [2437] = "Ragefire Chasm", [2479] = "Emerald Sanctuary", [2517] = "Rise of the Defiler", [2540] = "Boulderslide Ravine", [2557] = "Dire Maul", [2562] = "Karazhan", [2597] = "Alterac Valley", [2677] = "Blackwing Lair", [2717] = "Molten Core", [2737] = "The Scarab Wall", [2741] = "The Scarab Dais", [2797] = "Blackfathom Deeps", [2837] = "The Master's Cellar", [2839] = "Alterac Valley", [3077] = "Valor's Rest", [3157] = "Boulderslide Cavern", [3177] = "Warsong Labor Camp", [3197] = "Chillwind Camp", [3277] = "Warsong Gulch", [3317] = "Revantusk Village", [3357] = "Yojamba Isle", [3358] = "Arathi Basin", [3425] = "Cenarion Hold", [3428] = "Ahn'Qiraj", [3429] = "Ruins of Ahn'Qiraj", [3454] = "Ruins of Ahn'Qiraj", [3456] = "Naxxramas", [3486] = "Ravenholdt Manor", [16076] = "Temple of Ahn'Qiraj", [16593] = "Zephras Isle", [16611] = "Ruins of Lordaeron", [16628] = "Valanaar Skydocks", [16629] = "Shrine of Akir", [16630] = "Rohashi Spires", [16635] = "Thendal Village", [16638] = "Valanaar", [16833] = "Ruins of Ban'aethal", [16919] = "The Hall of Thanes" },
 }

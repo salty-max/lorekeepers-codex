@@ -95,7 +95,7 @@ histories; this holds what belongs to no single land.
 | Rexxar | Desolace or Feralas / figure ❓ | npc Rexxar 10182, Misha 10204 (he walks the road between them; the dump spawns him in Feralas) | The half-ogre who helped found Durotar and chose the wild (page 3) | The Frozen Throne; *Cycle of Hatred*; quests 6567, 6568. Out: TBC's Rexxar |
 | Durotan and Draka | Alterac / figure | read *Rock of Durotan* (179909, in Alterac Valley); npc Drek'Thar 11946 | The Frostwolf chieftain who refused Gul'dan, his exile in Alterac, the murder, and the child found beside them | *Rise of the Horde*; *Lord of the Clans*. Out: the film, Warlords' Durotan |
 
-## Wave 2: 19 pages
+## Wave 2: 19 pages (written, 12 October 2026: 18; The Broken Alliance folded into Anduin Lothar, the plagued farms narrowed to Dalson's Tears, Lothar unlocked by the Burning Steppes where he fell, the Ashbringer by Fairbanks and Renault in the Monastery)
 
 | Page | Chapter / kind | Unlock | The story | Sources · keep out |
 |---|---|---|---|---|

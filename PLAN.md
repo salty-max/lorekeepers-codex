@@ -31,7 +31,7 @@ unlock. The list, with each page's verified anchors: `docs/lore-expansion.md`.
 Wave 0 and wave 1 written on 12 October 2026: the `read:` unlock (the
 Library's titles, in every language: data/texts.json), the Ages Past
 chapter's eleven histories, eleven peoples and powers, nine pages of the
-lands.
+lands; wave 2 the same day (18 pages).
 
 ## How the codex is laid out
 

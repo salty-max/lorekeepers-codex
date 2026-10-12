@@ -122,6 +122,22 @@
    "寒冰皇冠和冰封王座"
   ]
  },
+ "Ironforge - the Awakening of the Dwarves": {
+  "ids": [
+   175736
+  ],
+  "names": [
+   "Ironforge - the Awakening of the Dwarves",
+   "아이언포지 - 드워프의 탄생",
+   "Ironforge - l'Eveil des Nains",
+   "Ironforge - das Erwachen der Zwerge",
+   "铁炉堡 - 矮人的觉醒",
+   "Forjaz: el despertar de los enanos",
+   "Стальгорн - Пробуждение дворфов",
+   "Altaforja: o Despertar dos Anões",
+   "鐵爐堡 - 矮人的覺醒"
+  ]
+ },
  "Kil'jaeden and the Shadow Pact": {
   "ids": [
    175741
@@ -150,6 +166,22 @@
    "Курдран Громовой Молот",
    "Kurdran Martelo Feroz",
    "庫德蘭·蠻錘"
+  ]
+ },
+ "Monument to Grom Hellscream": {
+  "ids": [
+   21004
+  ],
+  "names": [
+   "Monument to Grom Hellscream",
+   "그롬 헬스크림의 기념비",
+   "Monument à Grom Hellscream",
+   "Denkmal für Grom Hellscream",
+   "格罗姆·地狱咆哮的纪念碑",
+   "Monumento a Grom Grito Infernal",
+   "Памятник Грому Адскому Крику",
+   "Monumento para Grom Grito Infernal",
+   "[Monument to Grom Hellscream]"
   ]
  },
  "Ranger Captain Alleria Windrunner": {
