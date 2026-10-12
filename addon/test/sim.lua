@@ -1194,7 +1194,9 @@ check(
 ns.showAchievementBanner("pages-10")
 card = bannerOf("achievement", "pages-10")
 check(
-  card and card.kicker.text == "Achievement earned" and card.title.text == ns.achievementById["pages-10"].title,
+  card
+    and card.kicker.text == "Lorekeeper's Codex achievement"
+    and card.title.text == ns.achievementById["pages-10"].title,
   "an achievement shows its banner, the codex's book on it"
 )
 LorekeepersCodexFrame:Hide()
