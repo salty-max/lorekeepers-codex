@@ -13,7 +13,7 @@ period texts taking precedence and Vanilla's unresolved mysteries left open.
 | --- | --- | --- |
 | Stonefields and Maclures | Gramma arranges the help; William Pestle brews the invisibility liquor. | Original WoW (2004), quests [Note to William, 107](https://www.wowhead.com/classic/quest=107/note-to-william) and [Collecting Kelp, 112](https://www.wowhead.com/classic/quest=112/collecting-kelp): events in Vanilla Elwynn. |
 | Blood Elves | Separates Vashj's aid, Garithos's sentence, the escape to Outland, Illidan's rescue and Kael's pledge. | *The Frozen Throne* (2003) and the original [WoW manual](https://us.media.blizzard.com/manuals/wow/wow-classic-manual-enUS.pdf) (2004), "Rise of the Blood Elves": events following the Third War. No TBC return or later fate. The library book's compressed account is not used as a precise sequence. |
-| Kel'Thuzad | Naxxramas rises in a vision sent by the Lich King, rather than a physical departure Kel'Thuzad watches then. | Evelyn Fredericksen's [Road to Damnation](https://worldofwarcraft.blizzard.com/en-us/media/short-story/road-to-damnation) (2006): Kel'Thuzad's first journey north, before Warcraft III. |
+| Kel'Thuzad | Naxxramas rises into the air in a vision sent by the Lich King, rather than a physical departure Kel'Thuzad watches then. | Evelyn Fredericksen's [Road to Damnation](https://worldofwarcraft.blizzard.com/en-us/media/short-story/road-to-damnation) (2006): Kel'Thuzad's first journey north, before Warcraft III. |
 | Jaina Proudmoore | Names Jaina again after the Aegwynn passage, so the last sentence has the right subject. | *Cycle of Hatred* (2006): the post-Hyjal, pre-WoW conflict already used in the entry. No historical addition. |
 | First War | Names the Second War instead of promising "the next page". | The histories unlock independently and are sorted by title. Their connection now makes sense in any reading order. |
 | Grom Hellscream; Demon Fall Canyon | Grom's page concentrates on the blood oath, resistance to the camps and friendship with Thrall. The canyon keeps the final battle. Both link to each other. | *Lord of the Clans* (2001), Warcraft III (2002) and the original [Monument to Grom Hellscream, 21004](https://www.wowhead.com/classic/object=21004/monument-to-grom-hellscream): events through Hyjal and their Vanilla memorial. No alternate Draenor. |
@@ -59,14 +59,14 @@ routes remain unless explicitly restricted below.
 | Earthen | 7 | 7 | Uldaman's original earthen. |
 | Green Dragonflight | 1 | 37 | Itharius, Eranikus and his redeemed forms, the Sunken Temple, the four portals and their dragons. |
 | High Elves | 5 | 22 | Both lodges, their rares, and the verified named high elves elsewhere in the original world. |
-| Highborne | 8 | 30 | Original ruined settlements and the living and dead Shen'dralar, including the lorekeepers and Dire Maul bosses. |
+| Highborne | 8 | 29 | Original ruined settlements and the living and dead Shen'dralar, including the lorekeepers and Dire Maul bosses (not their wisps). |
 | Sentinels | 3 | 48 | Shandris, city and settlement guards, named officers and Silverwing Sentinels. |
 | Shadow Council | 10 | 66 | Jaedenar, the Burning and Searing Blades, the Dark Strand, Argus Wake, Shadowsworn and their leaders. |
 | Timbermaw | 0 | 15 | Felwood/Winterspring members, plus Classic's Azshara tribe. Forever keeps the eight shared members. |
 | Wildkin | 12 | 15 | Adds Lunaclaw, his spirit and the Marauding Owlbeast. |
 | Wintersaber Trainers | 1 | 1 | Rivern Frostwind, with the existing reputation and Frostsaber Rock routes. |
 
-The final pools contain 294 distinct creature identities. Each ID was checked
+The final pools contain 293 distinct creature identities. Each ID was checked
 against Wowhead Classic's `nether.wowhead.com/classic/tooltip/npc/ID`, in
 addition to the pinned CMaNGOS template and spawn data. CMaNGOS
 `28ef6259c782928b08a8dc9cacf6bc02e64f2b29` is a community reconstruction, not an
@@ -100,7 +100,8 @@ alone. In particular:
   establishes that distinction.
 - Nefarian's coloured experimental whelps are not added to the free flights.
   Unused templates, debug creatures, pets and mixed-race generic NPC IDs are
-  excluded. Myrokos's ambiguous elf identity is not decided from his model.
+  excluded. Myrokos's ambiguous elf identity is not decided from his model. The
+  Shen'dralar's wisps share the Highborne's faction but are wisps, not Highborne.
   A transformed Scourge sentinel does not count as meeting the living army.
 
 Friendly NPC routes use talking/targeting; hostile creatures use kills. Neutral

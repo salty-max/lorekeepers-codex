@@ -1657,7 +1657,7 @@ ns.content = {
       also = { "cult-of-the-damned", "andorhal", "dalaran", "naxxramas", "scourge", "fall-of-lordaeron" },
       text = {
         { "Kel'Thuzad was an archmage of Dalaran and a member of its ruling council, who went looking for forbidden power. Antonidas found it first, in his warehouses in the north: dead rats he had been trying to keep moving. The Kirin Tor put him on trial and confiscated his work, and Kel'Thuzad, with a friendly voice in his head that had been helping him all along, left them and went north to find its owner." },
-        { "In Northrend a crypt lord, Anub'arak, showed him round a ziggurat called Naxxramas: laboratories, armouries, and cauldrons brewing a fluid that turned the dying into the dead. He was sick at the sight and tried to run, and the Lich King's wraiths would not let him. At the foot of the Frozen Throne he crawled, begged, and swore himself to its master. The Lich King answered with a vision of Naxxramas rising out of the ice, a fortress from which Kel'Thuzad would spread his master's power." },
+        { "In Northrend a crypt lord, Anub'arak, showed him round a ziggurat called Naxxramas: laboratories, armouries, and cauldrons brewing a fluid that turned the dying into the dead. He was sick at the sight and tried to run, and the Lich King's wraiths would not let him. At the foot of the Frozen Throne he crawled, begged, and swore himself to its master. The Lich King answered with a vision of Naxxramas rising into the air, a fortress from which Kel'Thuzad would spread his master's power." },
         { "He came back to found the Cult of the Damned among the poor of Lordaeron, and with them he spread the plague through the grain of Andorhal. Prince Arthas killed him there. His body was carried to Quel'Thalas, to the Sunwell, and raised by its power as a lich." },
         { "He led the Scourge into Dalaran to summon Archimonde himself, and he stood by Arthas when the dreadlords turned on him. When Arthas went north to the Frozen Throne, Kel'Thuzad stayed to rule the Plaguelands in his name, and he rules them still, from Naxxramas. Even destroyed, a lich is not finished while his phylactery lasts." },
       },
@@ -2698,7 +2698,7 @@ ns.content = {
     },
     ["highborne"] = {
       title = "The Highborne", kind = "faction", chapter = "peoples", portrait = 10702,
-      unlock = { { npc = 11486 }, { npc = 14355 }, { npc = 14358 }, { npc = 14361 }, { npc = 14364 }, { npc = 14368 }, { npc = 14369 }, { npc = 14371 }, { npc = 14381 }, { npc = 14382 }, { npc = 14383 }, { npc = 16032 }, { kill = 2176 }, { kill = 2177 }, { kill = 2178 }, { kill = 6116 }, { kill = 6117 }, { kill = 7523 }, { kill = 7524 }, { kill = 10684 }, { kill = 11467 }, { kill = 11469 }, { kill = 11470 }, { kill = 11471 }, { kill = 11472 }, { kill = 11473 }, { kill = 11475 }, { kill = 11486 }, { kill = 11487 }, { kill = 11488 } },
+      unlock = { { npc = 11486 }, { npc = 14355 }, { npc = 14358 }, { npc = 14364 }, { npc = 14368 }, { npc = 14369 }, { npc = 14371 }, { npc = 14381 }, { npc = 14382 }, { npc = 14383 }, { npc = 16032 }, { kill = 2176 }, { kill = 2177 }, { kill = 2178 }, { kill = 6116 }, { kill = 6117 }, { kill = 7523 }, { kill = 7524 }, { kill = 10684 }, { kill = 11467 }, { kill = 11469 }, { kill = 11470 }, { kill = 11471 }, { kill = 11472 }, { kill = 11473 }, { kill = 11475 }, { kill = 11486 }, { kill = 11487 }, { kill = 11488 } },
       also = { "queen-azshara", "the-sundering", "high-elves", "shendralar", "ruins-of-keltheril", "highborne-ruins" },
       text = {
         { "The Highborne were the night elves' upper caste, Queen Azshara's chosen servants, who studied the Well of Eternity until they learned magic, and then loved it more than anything else. It was their spellcraft that drew Sargeras to the world, and their queen and her court who opened the way for his Legion." },
@@ -3824,7 +3824,7 @@ ns.content = {
       also = { "tirion-fordring", "scarlet-crusade", "western-plaguelands" },
       text = {
         { "Hearthglen surrounds Mardenholde Keep in the northern Western Plaguelands. The Scarlet Crusade holds its walls, and Grand Inquisitor Isillien keeps a green, surviving town in the middle of the plague country by ruthless means." },
-        { "The keep was once Tirion Fordring's seat. When he was exiled for refusing to betray an orc who had saved his life, his wife told their son Taelan that he was dead. Taelan now holds his father's home for the Crusade. Tirion lives in a hut beside the Thondroril, gathering what he can of the boy's past and looking for a way to reach him." },
+        { "The keep was once Tirion Fordring's seat. When he was exiled for defending an orc who had saved his life, his wife told their son Taelan that he was dead. Taelan now holds his father's home for the Crusade. Tirion lives in a hut beside the Thondroril, gathering what he can of the boy's past and looking for a way to reach him." },
       },
     },
     ["house-of-barov"] = {

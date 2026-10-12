@@ -4,7 +4,7 @@ title: The Highborne
 kind: faction
 portrait: 6116
 unlock:
-  - npc: 11486, 14355, 14358, 14361, 14364, 14368, 14369, 14371, 14381, 14382, 14383, 16032
+  - npc: 11486, 14355, 14358, 14364, 14368, 14369, 14371, 14381, 14382, 14383, 16032
   - kill: 2176, 2177, 2178, 6116, 6117, 7523, 7524, 10684, 11467, 11469, 11470, 11471, 11472, 11473, 11475, 11486, 11487, 11488
 also: [queen-azshara, the-sundering, high-elves, shendralar, ruins-of-keltheril, highborne-ruins]
 ---
