@@ -1,8 +1,9 @@
 # Lorekeeper's Codex
 
-A WoW Classic addon (Lua 5.1, TOC `## Interface: 11509, 20506`): a codex of
-original lore texts that unlock per character as they play. Sister project of
-~/code/wow-addons/wow-locker (same tooling and conventions).
+A World of Warcraft addon (Lua 5.1; Classic Era, TBC Anniversary and Forever,
+a TOC each): a codex of original lore texts that unlock per character as they
+play. Sister project of ~/code/wow-addons/field-journal (same tooling and
+conventions).
 
 ## Layout
 
