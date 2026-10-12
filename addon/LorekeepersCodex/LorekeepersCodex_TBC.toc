@@ -1,6 +1,6 @@
 ## Interface: 20506
 ## Title: Lorekeeper's Codex
-## Notes: The lore of Azeroth, written for you as you explore: each zone, figure of legend, people and quest you meet adds a page to your codex.
+## Notes: Unlock Azeroth's lore as you explore, meet its people and complete quests. Collect the books and notes you read along the way.
 ## Category: Roleplay
 ## Author: salty-max
 ## Version: 0.9.4

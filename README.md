@@ -1,66 +1,75 @@
 # Lorekeeper's Codex: Lore of Azeroth
 
-A World of Warcraft Classic addon: **the lore of Azeroth, written by an
-archivist of the Explorers' League, that fills in as you explore.**
+Lorekeeper's Codex adds a book of Azeroth's lore that fills in as you explore.
+Visit Kharanos, speak with King Magni, defeat a Frostmane troll or finish a
+quest, and you might discover a page about the history behind it. Each page
+is an original text written as a note from an archivist of the Explorers'
+League.
 
-Walk into Kharanos, speak with King Magni in the High Seat, kill your first
-Frostmane troll or a rare like Timber, finish the right quest chain, read one
-of the history books left on the world's shelves: "[Kharanos] has been added
-to the codex", and the page waits in your book. Each page is a short,
-original text in the voice of a scholar of the Hall of Explorers, and it
-remembers when, at what level and where your character found it. Pages link
-to each other. A chapter lists the pages you have found, with a bar and a count
-for the rest.
+The Codex has **414 pages in 44 chapters**, or **426 pages in 45 chapters on
+Forever**. It covers the original world's zones, landmarks, figures, peoples,
+classes and history. Each race gets its own foreword.
 
-- **Per character**: each hero writes their own codex.
-- **Lore true to the era**: the world's past up to the original game, from
-  Warcraft I to III, the original game's quests and books, and the novels,
-  stories and histories that tell it; nothing later, no spoilers from later
-  expansions.
-- **Every client language**: places, creatures and quests are matched by the
-  game's ids, not their names.
+For Classic Era, Hardcore, Season of Discovery, TBC Anniversary and World of
+Warcraft: Forever. One download covers all of them. See
+[FOREVER.md](FOREVER.md) for Forever support.
 
-Written: all of Azeroth's zones of the original game, 414 pages in 44 chapters (426 in 45 on Forever): every race's starting lands and capital, the lands around them, the middle lands, the high lands (the Hinterlands, the Plaguelands, Blackrock Mountain and the lands around it, the Blasted Lands, Deadwind Pass, Feralas, Tanaris, Un'Goro, Silithus, Azshara, Felwood, Winterspring, Moonglade), *Peoples and Powers*, the peoples and orders met across many lands, and *Ages Past*, the world's history from the Titans to the last war, opened by reading the original game's history books. Each race reads its own foreword.
+## In game
 
-`/codex` or the book by the minimap opens the codex (drag the button to move
-it; `/codex minimap` hides or shows it). Each new page is announced in chat as
-a link that opens the book at that page, with a sound, and by the game's own
-alert (the one of a new recipe learned) with the page's picture and title:
-click it to read the page (a slim banner of the codex's own where the client
-has no such alert; `/codex banner` turns them off). The sound is the zone
-discovery sting by default. A welcome page introduces the codex at each
-character's first login (`/codex welcome`). The alerts, the chat line, the
-sound and the minimap button are set in the game's Options, AddOns tab (or
-`/codex settings`, or right-click the minimap button); each character keeps
-its own, `/codex export` gives them as a code and `/codex import CODE` takes
-another's. A zone's
-chapter appears in the book with its first page, with a count of the pages
-found there. The book has a search box (it searches the pages you have found), and creatures that unlock a page say so on their tooltip, as do players whose people or class this character has yet to meet. `/codex reset` starts a character's codex over.
+Type `/codex` or click the minimap button to read. Browse by chapter, search
+your discovered pages or filter by type. Related pages link to each other.
+Each character keeps a separate codex, with the date, level and location of
+every discovery. Undiscovered pages stay hidden.
 
-Achievements: a second tab in the book (or `/codex achievements`) lists them,
-each character earning its own: milestones for the pages found (10 up to the
-whole codex), feats (pages read; the legendary wanderers; the leaders of your
-side; dungeons; the great powers at the end of the deepest lairs; a page in
-every chapter), encounters (players met by targeting them: every race, every
-class, and their pairings at 10, 25 and all) and one for each chapter completed, listed once the chapter is
-opened. No counter gives away the codex's full size: the book counts the
-pages of the chapters you have opened. A click on a chapter's title folds its pages away, or opens them again; the
-button beside the search box folds or unfolds them all. Each remembers when and at
-what level it was earned, and is announced like a page. A codex from before
-they existed earns what it already deserves quietly. `/codex where` prints your position
-and target in the terms content files use (for writing new pages).
+Pages unlock by exploring, meeting people, defeating creatures, finishing
+quests, gaining reputation and reading books or inscriptions. A chat link,
+an alert and a sound announce each discovery. Tooltips point out creatures
+and players who can unlock a page.
 
-For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of
-Warcraft: Forever (in beta; see [FOREVER.md](FOREVER.md)). Pages that unlock
-on a kill do so on both games, your killing blows and your pet's; on Forever,
-creatures inside dungeons and raids are hidden from every addon, so their
-kills unlock nothing there. Some pages and paragraphs belong to one game only, and
-the Skyborne have their own foreword. `/codex scan on` records the areas,
-creatures, quest texts and books you meet, for writing Forever's new chapters
-(`scripts/scan-export.lua` turns the saved file into JSON). Not affiliated
-with Blizzard Entertainment.
+The lore covers the world's past up to the original game, using Warcraft I
+to III, WoW's quests and books, and the novels and histories about that
+period. Later expansion events and answers to mysteries left open in the
+original game are kept out. The text is in English. Most unlocks use game
+ids, and reading-based unlocks recognise titles in every client language.
 
-The [Vanilla lore review](docs/lore-review.md) records the entry-by-entry source checks, corrections and source handling and the remaining editorial exception.
+On Forever, kill-based unlocks work in the open world. Creatures inside
+dungeons and raids are hidden from addons, so kills there cannot unlock pages.
+Some pages, paragraphs and unlocks differ between Classic and Forever.
+
+## Library and achievements
+
+The **Library** saves the books, notes, quest letters and plaques you read
+in the world. Texts are copied in full, with where and when you found them,
+so you can return to a quest letter after handing it in. Letters written by
+players are never copied.
+
+The **Achievements** tab tracks page milestones, completed chapters, Library
+progress, notable encounters and feats. Each achievement records the day
+and level you earned it. Open the tab with `/codex achievements`.
+
+## Settings and commands
+
+The welcome page appears once per character. Use `/codex welcome` to see it
+again. Settings are under **Options > AddOns > Lorekeeper's Codex**, through
+`/codex settings` or by right-clicking the minimap button.
+
+Choose alerts, their duration, sounds, chat announcements, tooltip hints
+and the minimap button. Each character has its own settings. Copy another
+character's settings in the same game, or transfer them with `/codex export`
+and `/codex import CODE`.
+
+- `/codex minimap` shows or hides the minimap button. Drag it to move it.
+- `/codex banner` toggles page alerts.
+- `/codex reset` clears this character's codex after confirmation.
+- `/codex where` prints your position and target for writing new pages.
+- `/codex scan on` records areas, creatures, quest texts and books to help
+  write Forever content. `scripts/scan-export.lua` converts the saved data
+  to JSON.
+
+The full store description is in [addon/CURSEFORGE.md](addon/CURSEFORGE.md).
+The [Vanilla lore review](docs/lore-review.md) records the source checks and
+corrections. The [voice review](docs/voice-review.md) records the writing
+review of the original 344 entries.
 
 ## Writing pages
 
@@ -90,27 +99,26 @@ Paragraphs separated by blank lines. *A paragraph in asterisks is a signature.*
 [forever] A paragraph starting with [forever] or [classic] shows on that game only.
 ```
 
-`bun scripts/build.ts` checks every page (ids, unlock rules, links, place
-names) and writes one content file per game (`Content_Classic.lua`,
-`Content_Forever.lua`). After adding a `read:` unlock, `python3
-scripts/texts.py` finds the book's objects and its title in every client
-language (data/texts.json); after a new portrait, `python3 scripts/portraits.py`.
+`bun scripts/build.ts` checks ids, unlock rules, links and place names, then
+writes `Content_Classic.lua` and `Content_Forever.lua`.
 
-## Develop
+After adding a `read:` unlock, run `python3 scripts/texts.py` to update the
+book's objects and translated titles in `data/texts.json`. After adding a
+portrait, run `python3 scripts/portraits.py`.
+
+## Development
 
 ```bash
-bun run build      # content → Content_Classic.lua, Content_Forever.lua
-bun run check      # both up to date + simulation on both games
-bun run package    # dist/LorekeepersCodex-<version>.zip: one package for every game
+bun run build      # Build Content_Classic.lua and Content_Forever.lua
+bun run check      # Check Lua, generated files and simulations on both games
+bun run package    # Create dist/LorekeepersCodex-<version>.zip
 ```
 
-Releases: `scripts/release.sh NOTES.md` bumps the version, checks, tags and
-pushes; GitHub Actions publishes `LorekeepersCodex-vX.Y.Z.zip` (the BigWigs packager)
-on GitHub, CurseForge and Wago Addons.
+`scripts/release.sh NOTES.md` runs the release checks, tags and pushes.
+GitHub Actions uses the BigWigs packager to publish
+`LorekeepersCodex-vX.Y.Z.zip` on GitHub, CurseForge and Wago Addons.
 
 ## License
 
-[MIT](LICENSE): code and text. World of Warcraft is a trademark of Blizzard
-Entertainment, Inc.
-
-The [voice review](docs/voice-review.md) records the chapter-by-chapter writing pass and the decision for each of the 344 entries.
+[MIT](LICENSE) for code and text. World of Warcraft is a trademark of
+Blizzard Entertainment, Inc. Not affiliated with Blizzard Entertainment.
