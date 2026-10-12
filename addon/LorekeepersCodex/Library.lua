@@ -119,6 +119,7 @@ local function onText(event)
       return
     end
     reading = { title = title or "?", material = (not secret(material) and material) or "Parchment", pages = {} }
+    if title and ns.readText then ns.readText(title) end
   elseif event == "ITEM_TEXT_READY" and reading then
     -- (a player's letter, or one whose writer the game keeps secret: never copied)
     local creator = ItemTextGetCreator and ItemTextGetCreator()

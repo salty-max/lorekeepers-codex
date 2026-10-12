@@ -16,6 +16,9 @@
  *     - quest: 1234             # turning in this quest (or having done it)
  *     - reputation: 47 friendly # reaching a standing with a faction
  *     - position: 1455 74 10 6  # within 6 (map %) of x 74 y 10 on uiMap 1455
+ *     - read: The Seven Kingdoms  # a book or plaque of the world read (its title:
+ *                               # data/texts.json, python3 scripts/texts.py,
+ *                               # with its name in every language)
  *     - people: Dwarf           # a player of this race met (targeted), or one's own
  *     - calling: MAGE           # a player of this class met (targeted), or one's own
  *   also: [war-of-the-three-hammers]
@@ -52,12 +55,13 @@ const RACES = ["Human", "Dwarf", "NightElf", "Gnome", "Orc", "Troll", "Tauren", 
 const STANDINGS: Record<string, number> = { hated: 1, hostile: 2, unfriendly: 3, neutral: 4, friendly: 5, honored: 6, revered: 7, exalted: 8 };
 
 type Area = { id: number; name: string; parent: number };
-type Unlock = { always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number } | { people: string } | { calling: string };
+type Unlock = { always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number } | { people: string } | { calling: string } | { read: string[] };
 type Entry = { id: string; title: string; kind: string; portrait: number; chapter: string; unlock: Unlock[]; also: string[]; race: string[]; client: string; text: Para[]; file: string };
 type Para = { italic: boolean; text: string; client: string };
 const CLIENTS = ["classic", "forever"];
 
 const classicAreas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas.json"), "utf8"));
+const texts: Record<string, { ids: number[]; names: string[] }> = JSON.parse(readFileSync(join(ROOT, "data/texts.json"), "utf8"));
 // Forever's own areas (data/areas-forever.json, scripts/areas.ts): for Forever's pages only.
 const foreverAreas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas-forever.json"), "utf8"));
 const areas = [...classicAreas, ...foreverAreas];
@@ -159,6 +163,12 @@ function unlockOne(file: string, rule: string, client: string): Unlock | null {
       const cls = value.trim();
       if (!CLASSES.includes(cls)) return fail(file, `calling: one of ${CLASSES.join(", ")}`), null;
       return { calling: cls };
+    }
+    case "read": {
+      // a text object of the world, by its title in every language (scripts/texts.py)
+      const text = texts[value.trim()];
+      if (!text) return fail(file, `read: no text "${value.trim()}" in data/texts.json: python3 scripts/texts.py`), null;
+      return { read: text.names };
     }
     case "position": {
       const [map, x, y, r] = value.split(/\s+/).map(Number);
@@ -263,7 +273,9 @@ const unlockLua = (u: Unlock) =>
               ? `{ people = ${JSON.stringify(u.people)} }`
               : "calling" in u
                 ? `{ calling = ${JSON.stringify(u.calling)} }`
-                : `{ map = ${u.map}, x = ${u.x}, y = ${u.y}, r = ${u.r} }`;
+                : "read" in u
+                  ? `{ read = { ${u.read.map(q).join(", ")} } }`
+                  : `{ map = ${u.map}, x = ${u.x}, y = ${u.y}, r = ${u.r} }`;
 // One content file per game: each holds only that game's pages and paragraphs
 // (front matter client:, [forever]/[classic] paragraphs), and its links and
 // chapters follow. Each game's TOC loads its own.

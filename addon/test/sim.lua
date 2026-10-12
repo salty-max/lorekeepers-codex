@@ -840,6 +840,9 @@ check(
   "… with where it was found; several pages make a book"
 )
 check(ns.libraryPlain(book.pages[2]) == "The Sunwell\n\nAnd so it was.", "the game's HTML becomes plain paragraphs")
+check(ns.codex().entries["high-elves"], "a history read in the world unlocks its page (read: its title)")
+ns.readText("Die sieben Königreiche")
+check(ns.codex().entries["the-seven-kingdoms"], "… and by its title in the game's other languages")
 read("Ironforge plaque", { "Here stood..." }, "Bronze")
 check(ns.libraryShelf(LorekeepersCodexChar.library.texts[2]) == "plaques", "texts cut in metal or stone are plaques")
 read("A letter", { "Dear friend, my secret..." }, "Parchment", "Someplayer")

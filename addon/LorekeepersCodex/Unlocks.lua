@@ -2,7 +2,8 @@
 -- character has: places entered, creatures talked to or targeted, kills by
 -- you or your pet, quests done (before the codex too), reputations reached,
 -- spots stood on, players met (their people's page and their calling's, one's
--- own from the start). Each unlock is a page in the codex, with when, at what
+-- own from the start), books and plaques read (by their title, in any of the
+-- game's languages). Each unlock is a page in the codex, with when, at what
 -- level and where it was found.
 local _, ns = ...
 local C = ns.content
@@ -11,6 +12,7 @@ local PREFIX, secret = ns.PREFIX, ns.secret
 -- ── what unlocks what ────────────────────────────────────────────────────────
 local byArea, byNpc, byKill, byQuest, byMap, byFaction, always = {}, {}, {}, {}, {}, {}, {}
 local byPeople, byCalling = {}, {} -- (a race's page, a class's: one's own, or a player met)
+local byRead = {} -- (a text's title, in each of the game's languages)
 local function push(t, k, v)
   t[k] = t[k] or {}
   table.insert(t[k], v)
@@ -35,6 +37,10 @@ for id, e in pairs(C.entries) do
       push(byPeople, u.people, id)
     elseif u.calling then
       push(byCalling, u.calling, id)
+    elseif u.read then
+      for _, title in ipairs(u.read) do
+        push(byRead, title, id)
+      end
     end
   end
 end
@@ -295,6 +301,14 @@ ns.on("PLAYER_TARGET_CHANGED", function()
   checkPlayer("target")
 end)
 local function talking() checkNpc("npc") end
+
+-- A book or plaque read (Library.lua, as the game's reader opens): the pages
+-- its title unlocks.
+function ns.readText(title)
+  for _, id in ipairs(byRead[title] or {}) do
+    unlock(id)
+  end
+end
 for _, event in ipairs({ "GOSSIP_SHOW", "QUEST_GREETING", "QUEST_DETAIL", "MERCHANT_SHOW" }) do
   ns.on(event, talking)
 end
@@ -325,6 +339,12 @@ function ns.catchUp()
       for _, id in ipairs(ids) do
         unlock(id, true)
       end
+    end
+  end
+  -- (what this character read before: the Library keeps every title)
+  for _, text in pairs(ns.library and ns.library().texts or {}) do
+    for _, id in ipairs(byRead[text.title] or {}) do
+      unlock(id, true)
     end
   end
   checkFactions(true)
