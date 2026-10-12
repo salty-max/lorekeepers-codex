@@ -1,4 +1,19 @@
 {
+ "Admiral Barean Westwind": {
+  "ids": [
+   175772
+  ],
+  "names": [
+   "Admiral Barean Westwind",
+   "제독 바렌 웨스트윈드",
+   "Amiral Barean Westwind",
+   "海军上将巴利·韦斯温",
+   "Almirante Barean Viento Oeste",
+   "Адмирал Бареан Вествинд",
+   "Almirante Barean Zefirália",
+   "[Admiral Barean Westwind]"
+  ]
+ },
  "Aegwynn and the Dragon Hunt": {
   "ids": [
    175738
@@ -47,6 +62,20 @@
    "肯瑞托的大法師卡德加"
   ]
  },
+ "Arellas Fireleaf": {
+  "ids": [
+   175771
+  ],
+  "names": [
+   "Arellas Fireleaf",
+   "아렐라스 파이어리프",
+   "阿雷拉斯·火叶",
+   "Arellas Hojafuego",
+   "Ареллас Огненный Лист",
+   "Arellas Firafolha",
+   "[Arellas Fireleaf]"
+  ]
+ },
  "Charge of the Dragonflights": {
   "ids": [
    175726
@@ -77,6 +106,21 @@
    "達納斯·托爾貝恩"
   ]
  },
+ "Dorgar Stoenbrow": {
+  "ids": [
+   175773
+  ],
+  "names": [
+   "Dorgar Stoenbrow",
+   "도르가르 스톤브로",
+   "Dorgar Stonebrow",
+   "多加尔·石眉",
+   "Dorgar Petrocejas",
+   "Доргар Камнелоб",
+   "Dorgar Hefastão",
+   "[Dorgar Stoenbrow]"
+  ]
+ },
  "Exile of the High Elves": {
   "ids": [
    175731
@@ -93,6 +137,33 @@
    "高等精靈的流放"
   ]
  },
+ "Fellari Swiftarrow": {
+  "ids": [
+   175774
+  ],
+  "names": [
+   "Fellari Swiftarrow",
+   "펠라리 스위프트애로우",
+   "菲尔拉蕾·迅箭",
+   "Fellari Flechaveloz",
+   "Феллари Быстрая Стрела",
+   "Fellari Velosseta",
+   "[Fellari Swiftarrow]"
+  ]
+ },
+ "Ferren Marcus": {
+  "ids": [
+   175775
+  ],
+  "names": [
+   "Ferren Marcus",
+   "페렌 마커스",
+   "费伦·玛库斯",
+   "Феррен Маркус",
+   "Fernando Marco",
+   "[Ferren Marcus]"
+  ]
+ },
  "General Turalyon": {
   "ids": [
    25330
@@ -104,6 +175,20 @@
    "图拉扬将军",
    "Генерал Туралион",
    "圖拉揚將軍"
+  ]
+ },
+ "Holia Sunshield": {
+  "ids": [
+   175777
+  ],
+  "names": [
+   "Holia Sunshield",
+   "홀리아 선쉴드",
+   "阳炎之盾",
+   "Holia Escusol",
+   "Холия Солнечный Щит",
+   "Holia Solbroquel",
+   "[Holia Sunshield]"
   ]
  },
  "Icecrown and the Frozen Throne": {
@@ -120,6 +205,21 @@
    "Ледяная Корона и Ледяной Трон",
    "A Coroa e o Trono de Gelo",
    "寒冰皇冠和冰封王座"
+  ]
+ },
+ "Invar One-Arm": {
+  "ids": [
+   175778
+  ],
+  "names": [
+   "Invar One-Arm",
+   "외팔이 이바르",
+   "Invar le Manchot",
+   "钢铁武器",
+   "Invar Unibrazo",
+   "Инвар Однорукий",
+   "Invar Sem-braço",
+   "[Invar One-Arm]"
   ]
  },
  "Ironforge - the Awakening of the Dwarves": {
@@ -184,6 +284,20 @@
    "[Monument to Grom Hellscream]"
   ]
  },
+ "Orman of Stromgarde": {
+  "ids": [
+   175779
+  ],
+  "names": [
+   "Orman of Stromgarde",
+   "스트롬가드의 오르만",
+   "Orman de Stromgarde",
+   "Orman von Stromgarde",
+   "激流堡的奥玛尔",
+   "Орман из Стромгарда",
+   "[Orman of Stromgarde]"
+  ]
+ },
  "Ranger Captain Alleria Windrunner": {
   "ids": [
    25331
@@ -244,6 +358,22 @@
    "Roca de Durotan",
    "Обелиск Дуротана",
    "Rocha de Durotan"
+  ]
+ },
+ "Sargeras and the Betrayal": {
+  "ids": [
+   175724
+  ],
+  "names": [
+   "Sargeras and the Betrayal",
+   "살게라스와 배반",
+   "Sargeras et la trahison",
+   "Sargeras und der Verrat",
+   "萨格拉斯的背叛",
+   "Sargeras y la traición",
+   "Саргерас и Предательство",
+   "Sargeras e a Traição",
+   "薩格拉斯的背叛"
   ]
  },
  "Sunwell - The Fall of Quel'Thalas": {
@@ -438,6 +568,20 @@
    "世界之樹和翡翠夢境"
   ]
  },
+ "Valea Twinblades": {
+  "ids": [
+   175780
+  ],
+  "names": [
+   "Valea Twinblades",
+   "발리아 트윈블레이즈",
+   "瓦雷亚",
+   "Valea Filosgemelos",
+   "Валея Два Клинка",
+   "Valea Bilâmina",
+   "[Valea Twinblades]"
+  ]
+ },
  "War of the Spider": {
   "ids": [
    175753
@@ -452,6 +596,20 @@
    "Война пауков",
    "A Guerra da Aranha",
    "蜘蛛之戰"
+  ]
+ },
+ "Yana Bloodspear": {
+  "ids": [
+   175781
+  ],
+  "names": [
+   "Yana Bloodspear",
+   "야나 블러드스피어",
+   "亚娜·血矛",
+   "Yana Lanza de Sangre",
+   "Яна Кровавое Копье",
+   "Yana Lanssang",
+   "[Yana Bloodspear]"
   ]
  }
 }

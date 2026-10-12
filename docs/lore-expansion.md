@@ -119,7 +119,7 @@ histories; this holds what belongs to no single land.
 | The Ashbringer | Eastern Plaguelands / history ❓ | kill Highlord Mograine 16062 (Naxxramas) ❓ | The blade, Alexandros Mograine and his son's betrayal | The Scarlet Monastery event (1.11), the Corrupted Ashbringer's texts; the *Ashbringer* comic (2008) where they are silent (research doc, reserves) |
 | Vaelastrasz | Blackrock Mountain / figure | kill Vaelastrasz the Corrupt 13020 (Blackwing Lair); npc 10340 ❓ (the Spire's, spawned by its event) | The red dragon who helped mortals in the Spire and was enslaved in the Lair | UBRS and BWL texts. Overlap: Blackwing Lair |
 
-## Wave 3: 15 pages
+## Wave 3: 15 pages (written, 12 October 2026: 11; Morbent Fel left to Raven Hill, Taelan to Tirion, Bolvar and the Druids of the Talon for want of what the game says of them)
 
 | Page | Chapter / kind | Unlock | The story | Sources · keep out |
 |---|---|---|---|---|

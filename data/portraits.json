@@ -163,6 +163,10 @@
   "name": "Gnarlpine Warrior",
   "display": 6800
  },
+ "2041": {
+  "name": "Ancient Protector",
+  "display": 2429
+ },
  "2055": {
   "name": "Master Apothecary Faranell",
   "display": 1680
@@ -359,6 +363,10 @@
   "name": "Grimtotem Raider",
   "display": 6835
  },
+ "7728": {
+  "name": "Kirith the Damned",
+  "display": 6688
+ },
  "7783": {
   "name": "Loramus Thalipedes",
   "display": 6879
@@ -383,6 +391,10 @@
   "name": "Death Cultist",
   "display": 10391
  },
+ "8737": {
+  "name": "Linken",
+  "display": 8012
+ },
  "8888": {
   "name": "Franclorn Forgewright",
   "display": 8698
@@ -402,6 +414,10 @@
  "9517": {
   "name": "Shadow Lord Fel'dan",
   "display": 10198
+ },
+ "10158": {
+  "name": "Moonkin",
+  "display": 5927
  },
  "10181": {
   "name": "Lady Sylvanas Windrunner",
@@ -430,6 +446,10 @@
  "10540": {
   "name": "Vol'jin",
   "display": 10357
+ },
+ "10618": {
+  "name": "Rivern Frostwind",
+  "display": 10190
  },
  "10813": {
   "name": "Balnazzar",
@@ -470,6 +490,10 @@
  "12397": {
   "name": "Lord Kazzak",
   "display": 12449
+ },
+ "12736": {
+  "name": "Je'neu Sancrea",
+  "display": 12953
  },
  "12944": {
   "name": "Lokhtos Darkbargainer",
