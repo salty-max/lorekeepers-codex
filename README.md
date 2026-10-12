@@ -4,29 +4,36 @@ A World of Warcraft Classic addon: **the lore of Azeroth, written by an
 archivist of the Explorers' League, that fills in as you explore.**
 
 Walk into Kharanos, speak with King Magni in the High Seat, kill your first
-Frostmane troll or a rare like Timber, finish the right quest chain: "[Kharanos]
-has been added to the codex", and the page waits in your book. Each page is a short,
+Frostmane troll or a rare like Timber, finish the right quest chain, read one
+of the history books left on the world's shelves: "[Kharanos] has been added
+to the codex", and the page waits in your book. Each page is a short,
 original text in the voice of a scholar of the Hall of Explorers, and it
 remembers when, at what level and where your character found it. Pages link
 to each other. A chapter lists the pages you have found, with a bar and a count
 for the rest.
 
 - **Per character**: each hero writes their own codex.
-- **Vanilla-era lore only**: what was known in Classic, no spoilers from
-  later expansions.
+- **Lore true to the era**: the world's past up to the original game, from
+  Warcraft I to III, the original game's quests and books, and the novels,
+  stories and histories that tell it; nothing later, no spoilers from later
+  expansions.
 - **Every client language**: places, creatures and quests are matched by the
   game's ids, not their names.
 
-Written: all of Azeroth's zones of the original game, 335 pages in 42 chapters: every race's starting lands and capital, the lands around them, the middle lands, the high lands (the Hinterlands, the Plaguelands, Blackrock Mountain and the lands around it, the Blasted Lands, Deadwind Pass, Feralas, Tanaris, Un'Goro, Silithus, Azshara, Felwood, Winterspring, Moonglade), and *Peoples and Powers*, the peoples and orders met across many lands. Each race reads its own foreword.
+Written: all of Azeroth's zones of the original game, 414 pages in 44 chapters (426 in 45 on Forever): every race's starting lands and capital, the lands around them, the middle lands, the high lands (the Hinterlands, the Plaguelands, Blackrock Mountain and the lands around it, the Blasted Lands, Deadwind Pass, Feralas, Tanaris, Un'Goro, Silithus, Azshara, Felwood, Winterspring, Moonglade), *Peoples and Powers*, the peoples and orders met across many lands, and *Ages Past*, the world's history from the Titans to the last war, opened by reading the original game's history books. Each race reads its own foreword.
 
 `/codex` or the book by the minimap opens the codex (drag the button to move
 it; `/codex minimap` hides or shows it). Each new page is announced in chat as
-a link that opens the book at that page, with a sound, and by a slim banner at the
-top of the screen with the page's title (click it to read the page; it goes
-away after a few seconds). The sound is the zone discovery sting by default.
-The banner, the chat line, the sound and the minimap button are set in the
-game's Options, AddOns tab (or `/codex settings`, or right-click the minimap
-button). A zone's
+a link that opens the book at that page, with a sound, and by the game's own
+alert (the one of a new recipe learned) with the page's picture and title:
+click it to read the page (a slim banner of the codex's own where the client
+has no such alert; `/codex banner` turns them off). The sound is the zone
+discovery sting by default. A welcome page introduces the codex at each
+character's first login (`/codex welcome`). The alerts, the chat line, the
+sound and the minimap button are set in the game's Options, AddOns tab (or
+`/codex settings`, or right-click the minimap button); each character keeps
+its own, `/codex export` gives them as a code and `/codex import CODE` takes
+another's. A zone's
 chapter appears in the book with its first page, with a count of the pages
 found there. The book has a search box (it searches the pages you have found), and creatures that unlock a page say so on their tooltip, as do players whose people or class this character has yet to meet. `/codex reset` starts a character's codex over.
 
@@ -73,6 +80,8 @@ unlock:              # any one of these unlocks it
   - position: 1455 57 47 6   # uiMap, x %, y %, radius %
   - people: Dwarf    # a player of this race met (targeted), or one's own
   - calling: MAGE    # a player of this class met (targeted), or one's own
+  - read: Aegwynn and the Dragon Hunt   # reading this book or plaque, in any language (data/texts.json)
+  - [classic] area: Timbermaw Hold (Azshara)   # an unlock on one game only
 also: [war-of-the-three-hammers]
 client: forever      # optional: on this game only (forever or classic)
 ---
@@ -83,7 +92,9 @@ Paragraphs separated by blank lines. *A paragraph in asterisks is a signature.*
 
 `bun scripts/build.ts` checks every page (ids, unlock rules, links, place
 names) and writes one content file per game (`Content_Classic.lua`,
-`Content_Forever.lua`).
+`Content_Forever.lua`). After adding a `read:` unlock, `python3
+scripts/texts.py` finds the book's objects and its title in every client
+language (data/texts.json); after a new portrait, `python3 scripts/portraits.py`.
 
 ## Develop
 
