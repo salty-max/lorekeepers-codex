@@ -5,7 +5,7 @@ Visit Kharanos, speak with King Magni, defeat a Frostmane troll or finish a
 quest, and you might discover a page about the history behind it. Each page
 is an original text written as a note from Archesonus, Royal Historian of
 Ironforge. A Horde character's copy comes from Parqual Fintallas, a historian
-of the Undercity, with his own word in it.
+of the Undercity, who adds notes of his own in the margins.
 
 The Codex has **416 pages in 44 chapters**, or **428 pages in 45 chapters on
 Forever**. It covers the original world's zones, landmarks, figures, peoples,

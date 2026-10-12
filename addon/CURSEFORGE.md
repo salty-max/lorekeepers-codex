@@ -7,7 +7,7 @@ addon's own name stays Lorekeeper's Codex). -->
 <!-- Summary (the project's summary on CurseForge and Wago, and the TOCs' Notes):
 Unlock Azeroth's lore as you explore, meet its people and complete quests. Collect the books and notes you read along the way. -->
 
-Lorekeeper's Codex adds a book of Azeroth's lore that fills in as you explore. Enter a zone, speak to someone important or finish a quest, and you might unlock a page about the history behind it. The pages are notes from Archesonus, Royal Historian of Ironforge. On the Horde side, your copy comes from Parqual Fintallas, a historian of the Undercity, who adds a word of his own.
+Lorekeeper's Codex adds a book of Azeroth's lore that fills in as you explore. Enter a zone, speak to someone important or finish a quest, and you might unlock a page about the history behind it. The pages are notes from Archesonus, Royal Historian of Ironforge. On the Horde side, your copy comes from Parqual Fintallas, a historian of the Undercity, who adds notes of his own in the margins.
 
 For Classic Era (including Hardcore and Season of Discovery), TBC Anniversary and World of Warcraft: Forever.
 
@@ -39,7 +39,7 @@ Texts are copied in full and sorted into shelves, with when and where you read t
 
 ## Achievements
 
-The third tab tracks achievements for discovering pages, building your Library, completing chapters and meeting players of different races and classes. There are also feats for finding legendary wanderers, meeting your faction's leaders, meeting the historian behind your codex and exploring dungeons. Each achievement records the day and level you earned it, and comes with an alert.
+The third tab tracks achievements for discovering pages, building your Library, completing chapters and meeting players of different races and classes. There are also feats for finding legendary wanderers, meeting your faction's leaders, meeting the historian behind your codex and exploring dungeons. Each achievement records the day and level you earned it, and shows in the game's achievement alert.
 
 Open the tab with `/codex achievements`.
 
