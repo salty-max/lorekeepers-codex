@@ -2,7 +2,7 @@
 
 A WoW Classic addon (Lua 5.1, TOC `## Interface: 11509, 20506`): a codex of
 original lore texts that unlock per character as they play. Sister project of
-~/code/wow-locker (same tooling and conventions).
+~/code/wow-addons/wow-locker (same tooling and conventions).
 
 ## Layout
 
@@ -40,7 +40,7 @@ original lore texts that unlock per character as they play. Sister project of
   since 1.15.9, else the combat log's line; quests incl. ones done before,
   reputations, map positions, books and plaques read: `ns.readText` from the
   Library, by title in any language, and the Library's titles at the login), `Kit.lua` (a copy of the kit shared with Hearthtale and the Field Journal,
-  ~/code/addon-kit: the books' look and windows; never edited here: `bun run
+  ~/code/wow-addons/addon-kit: the books' look and windows; never edited here: `bun run
   kit:sync` after changing the kit, `bun run kit:check` to verify; the Codex's
   theme is set at the top of `Book.lua`), `Library.lua` (books, notes, plaques read in the world, copied whole from the
   game's reader: on opening, it turns through every page and back; per character
