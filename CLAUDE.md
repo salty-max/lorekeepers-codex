@@ -64,7 +64,7 @@ Three tests, all required: (1) there's a story beyond what the game shows;
 (2) the player meets it at a clear moment (arriving, talking, killing,
 finishing a story); lore never met directly hangs on a place or person that
 evokes it (the War of the Three Hammers unlocks at Anvilmar); (3) it holds up
-in sources from before Wrath of the Lich King (see Lore below).
+in sources true to the era (see Lore below).
 
 - Zones: every zone gets one page.
 - Places: towns, capitals (one page each, no districts), landmarks with a
@@ -93,7 +93,7 @@ historical claims in other entries.
   modern client, with new zones, quests and the Skyborne). A page or paragraph
   for one only says so (`client:` front matter, `[forever]`/`[classic]`
   paragraphs). Forever-only content may use Forever's own texts (quests, NPCs,
-  books); everything else keeps the pre-WotLK rule below. See FOREVER.md.
+  books); everything else keeps the Lore rule below. See FOREVER.md.
 
 - Voice: an archivist of the Explorers' League, writing from the Hall of
   Explorers in Ironforge; addresses the reader as "traveller"; warm, dry, a
@@ -104,20 +104,26 @@ historical claims in other entries.
   details and natural flow; keep dry asides sparse, vary openings and endings,
   and do not turn an entry into an audit note or append advice by habit. The
   completed entry decisions are recorded in `docs/voice-review.md`.
-- Lore (the user's scope): **everything from the origin of the universe up to
-  the vanilla era**, as told by sources published before Wrath of the Lich King
-  (13 Nov 2008): Warcraft I, II and III (with their manuals), World of Warcraft up
-  to patch 1.12 (its quests, books and item texts), and the novels of that time
-  (Of Blood and Honor, Day of the Dragon, Lord of the Clans, The Last Guardian,
-  the War of the Ancients trilogy, Cycle of Hatred, Rise of the Horde, Tides of
-  Darkness, Beyond the Dark Portal). A permitted publication may still describe
-  later events: only its history through Vanilla belongs here. Nothing from later
-  expansions, novels or retcons (Chronicle, Arthas, Stormrage, Warlords' Draenor
-  …), and no future fates. Original wording, never copied from wikis or game
-  text. Research each page: the Warcraft Wiki (`?action=raw` gives the source),
-  checked against the period sources above (vanilla quest texts on Wowhead);
-  the wiki mixes eras, so date every claim. When sources disagree or it's
-  uncertain, write around it rather than guess.
+- Lore (the user's scope; loosened on 12 October 2026 to match the Field
+  Journal's): **everything from the origin of the universe up to the vanilla
+  era**, from any source: the games (Warcraft I, II and III with their manuals,
+  World of Warcraft to patch 1.12 with its quests, books and item texts, and a
+  later game's look back at that past), the novels and short stories, the
+  comics and manga, the RPG books, Chronicle. Nothing anachronic to vanilla or
+  Forever: no event after the vanilla era (a later fate, a return, a death to
+  come), and no later answer to a mystery vanilla leaves open (who made the
+  Scythe of Elune, what ails Teldrassil, where Malfurion's spirit wanders,
+  how the earthen became dwarves). When a later retelling contradicts the
+  period texts (Warcraft I-III and the original game, with their manuals and
+  books), the period texts win; where they are silent and the later account
+  disputed, write around it. Other continuities stay out: the Warcraft film
+  with its novel and comic, Warlords' alternate Draenor. Note each source's
+  publication and the time of what it tells, separately. Original wording,
+  never copied from wikis or game text. Research each page: the Warcraft Wiki
+  (`?action=raw` gives the source), checked against the source itself
+  (vanilla quest texts on Wowhead); the wiki mixes eras, so date every claim.
+  When sources disagree or it's uncertain, write around it rather than guess.
+  The pages to add under this rule: `docs/lore-expansion.md`.
 - Unlocks (the user's rules): places when discovered; figures when talked to;
   mobs and rares when killed (a people's page lists every creature id of it);
   capitals get one page for the whole city (no per-district pages). Ids are

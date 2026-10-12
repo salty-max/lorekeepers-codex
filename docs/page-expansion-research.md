@@ -487,7 +487,9 @@ before Ahn'Qiraj opened (both collected later in *Paragons*, 2014). Both
 predate Wrath, so CLAUDE.md's source rule admits them. Their full texts still
 need reading before prose work, as noted above.
 
-**Keep the Codex's source rule as it is.** For the Field Journal's riddles the
+**Superseded (12 October 2026): the user loosened the rule like the Field
+Journal's; see CLAUDE.md, Lore, and `docs/lore-expansion.md`.** Kept as it
+was read: **Keep the Codex's source rule as it is.** For the Field Journal's riddles the
 user allowed cross-media lore that is not anachronic (Chronicle supplied the
 reason for Thoradin's Wall there). The Codex's rule is stricter: publication
 before Wrath. The phrase above, that later publications "require their own

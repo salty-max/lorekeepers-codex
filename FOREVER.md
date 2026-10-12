@@ -10,7 +10,7 @@ one package. This plan records the decisions and the work, in two waves.
 |---|---|
 | Kill unlocks (Forever has no combat log for addons) | **The kill, as on Classic** (7 October 2026): `PARTY_KILL` (killer, victim) is an event of its own on Forever (and Classic since 1.15.9). Before: meeting counted on Forever. Inside a Forever instance creature GUIDs are secret: kills there unlock nothing. |
 | Forever's new content | **Second wave**, after launch, once zones and quest texts settle. |
-| Lore sources for Forever-only pages | **Forever's own texts** (quests, NPCs, books), and only Forever readers see those pages. Original pages keep the pre-WotLK rule. |
+| Lore sources for Forever-only pages | **Forever's own texts** (quests, NPCs, books), and only Forever readers see those pages. Original pages keep CLAUDE.md's Lore rule (any source, nothing anachronic to vanilla or Forever). |
 | Original pages contradicted by Forever | **Forever variants:** Forever-only paragraphs or replacement text; Classic readers see the original. |
 | Skyborne | **Their own foreword now**, written during the port from what the beta shows of them and Zephras Isle. |
 | Packaging | **One source, one zip** (since 0.9.2; two packages before): one version and changelog, a TOC per game (`_Vanilla`, `_TBC`, `_Camelot`), each loading only its game's content. |

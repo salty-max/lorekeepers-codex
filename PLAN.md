@@ -5,7 +5,7 @@ Forewords: 9 written, one per race and a general one (only the reader's own coun
 The editorial line is in CLAUDE.md ("What deserves a page"). A zone gets as
 many pages as it has stories. Sources: the zone's sub-zones from the game's area
 table (`data/areas.json`), its creatures and quests from Wowhead Classic (ids
-checked before writing), lore from the Warcraft Wiki, vanilla era only.
+checked before writing), lore from the Warcraft Wiki and its sources, vanilla era only.
 
 Status: ✅ written · 📝 to write · ❓ needs checking before writing · ✗ dropped.
 
@@ -20,6 +20,14 @@ Planned here first, then moved at the user's word: the riddles are about the
 land's overlooked corners (graves, statues, plaques few look at), the Field
 Journal's exploring, not the codex's pages. Their plan, with the hunts and the
 kit's picture, is the Field Journal's PLAN.md, "Expeditions".
+
+## Lore expansion (12 October 2026)
+
+The user loosened the sources like the Field Journal's (any source, nothing
+anachronic to vanilla or Forever: CLAUDE.md, "Lore") to add a substantial
+amount of new lore: 65 pages in three waves, a new chapter (Ages Past, the
+world's history unlocked by the original game's library books) and a `read:`
+unlock. The list, with each page's verified anchors: `docs/lore-expansion.md`.
 
 ## How the codex is laid out
 
