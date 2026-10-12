@@ -15,3 +15,5 @@ When the Lich King's grip on his dead faltered, some of them woke. They were sti
 They have taken back the ruin of their kingdom's capital and built a city beneath it, and they wage their own war against the Scourge that made them. They have joined the Horde, which needed allies against the Alliance, and the Horde has accepted them, which the Forsaken needed more. It is not a warm friendship.
 
 I will not pretend the Forsaken are easy company. Most of them were men and women of Lordaeron, who remember their old lives and cannot go back to them. What they want now, beyond vengeance on the Lich King, no one outside the Undercity can say.
+
+[horde] In another hand: She is right that no one outside the Undercity can say what we want. Most of us inside cannot either. I want to know what was done to us, and to write it down properly, which seems a modest ambition for a dead man. P. F.

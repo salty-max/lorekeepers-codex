@@ -119,6 +119,17 @@ historical claims in other entries.
   Fintallas (the Apothecarium, Undercity; Lordaeron's historian before the
   plague): the Horde races' forewords are his, and his notes in the pages are
   `[horde]` paragraphs (`[alliance]`: the other side's only).
+- The two voices. Archesonus: a dwarf of the court, warm and dry, proud of
+  Ironforge and honest about it; the Dark Irons are her subject, Magni's house
+  her charge, and she tells a story at length; she knows the Horde's lands from
+  others' accounts. Parqual's notes: only where a Forsaken who was Lordaeron's
+  historian sees it otherwise (Lordaeron and the plague, the Scarlet Crusade,
+  the camps, the Horde's own), never by habit (some 25 pages); one to three
+  sentences, "[horde] In another hand: ... P. F." at the page's end; precise
+  and cutting, a dead man's dry humour, knowledge over strength, a teacher who
+  sets tests, contempt for the Crusade; his point of view only, no new facts of
+  his life beyond the sources (Lordaeron's historian before the plague, the
+  Test of Lore, its book from the Scarlet Monastery).
 - Plain ASCII text: straight apostrophes and quotes (the build rejects others;
   some game fonts lack them, and the search matches what players type).
 - The approved voice samples are in `docs/voice-comparison.md`. Prefer concrete

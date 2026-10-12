@@ -12,3 +12,5 @@ Stratholme was the second city of Lordaeron, its jewel in the north. When the pl
 It has seen worse betrayals since. A Stromgarde mage named Ras Frostwhisper gave his life to the Scourge on its bloodied ground, freely, and rose as the lich of Scholomance. And it was here that the Highlord Mograine, the Ashbringer, was led into an ambush by his own son and killed with his own blade.
 
 The city still burns. The Scourge hold half of it, under Baron Rivendare, and the Scarlet Crusade the other half, from their bastion, under the Grand Crusader. The dead who were not culled still wander its streets, and some of them, the ghosts, would like very much to be set free.
+
+[horde] In another hand: There are still those who say the prince was right at Stratholme. None of them, I notice, lived there. P. F.

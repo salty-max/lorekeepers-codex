@@ -12,3 +12,5 @@ Durnholde controlled the orc internment camps after the Second War. Its master, 
 Thrall went on to free his people. Blackmoore is dead, and the Syndicate holds the keep. His ambitions survived elsewhere: at a manor beside Lordamere Lake, Aliden Perenolde planned to enslave orcs in his turn. His companion Elysa carried Taretha's pendant.
 
 Thrall's agents came to Hillsbrad to recover it, and the Warchief has it again. A pendant is a small thing to set beside the fall of a fortress, traveller. It preserves the name of someone whose help made that fall possible.
+
+[horde] In another hand: A girl of a Lordaeron household did more for the orcs than the whole of its Alliance. I find I am proud of her, which is an odd thing to feel about a stranger. P. F.

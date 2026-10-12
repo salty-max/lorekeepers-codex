@@ -11,3 +11,5 @@ Lordaeron was the first among the kingdoms of men, and its king, Terenas Menethi
 Arthas pursued it too far. He put the plague-stricken city of Stratholme to the sword rather than see its people rise, followed the plague's masters to Northrend, and took up a cursed runeblade there, Frostmourne. When he came home the people cheered him through the gates. He walked into his father's throne room and killed him, and the kingdom fell to the dead behind him.
 
 These ruins are where it happened. The Forsaken walk over them every day, and some of them were in the crowd that cheered.
+
+[horde] In another hand: She writes that some of the Forsaken were in the crowd that cheered. Some of us were. I have spent a good part of my second life wondering what I would have written that evening, had there been an evening. P. F.

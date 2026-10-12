@@ -14,3 +14,5 @@ When the Lich King's power faltered, Sylvanas broke free. She gathered the undea
 She came of a family of rangers. Her elder sister, Alleria, went through the Dark Portal with the Alliance Expedition and never came back; it was Sylvanas who wrote the words on her plaque at Stormwind's gate. The youngest, Vereesa, was a ranger of Quel'Thalas too.
 
 She wants Arthas dead. Beyond that, she keeps her own counsel, and her eyes give nothing away.
+
+[horde] In another hand: She gave us back our minds, which is more than the Light managed. A historian should be impartial about his queen. I am working on it. P. F.

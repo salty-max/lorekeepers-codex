@@ -12,3 +12,5 @@ Thrall is the Warchief of the Horde, and his life reads like a ballad no one wou
 He escaped, helped by a human girl who had befriended him, found his father's clan in the mountains of Alterac and learned the ways of the shaman. Then, with Grom Hellscream and the old Warchief Orgrim Doomhammer, he broke open the internment camps and freed his people. Doomhammer fell in that war and left the Horde and his hammer to Thrall.
 
 He led the Horde across the sea to Kalimdor, fought beside the night elves and the humans against the Burning Legion, and built Durotar. He wants peace with the Alliance, and has made it with Jaina Proudmoore of Theramore. Whether the rest of the Alliance wants it is another question.
+
+[horde] In another hand: Lordaeron made him a slave, and he still found room for Lordaeron's dead in his Horde. I am not sure I would have. P. F.

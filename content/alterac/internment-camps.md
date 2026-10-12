@@ -11,3 +11,5 @@ After the Second War the Alliance had a problem it had never had before: a whole
 Then the wardens noticed something strange. The orcs stopped trying to escape; they stopped even fighting one another. They sat. Some called it a disease. Archmage Antonidas of Dalaran thought otherwise: the orcs had been fed on demon magic for generations, and what the wardens were seeing was withdrawal. There was no cure, he concluded, but a spiritual one, and many in the Alliance thought it unwise to look for one at all.
 
 The chief warden, Aedelas Blackmoore, ruled the camps from Durnholde and kept an orc slave of his own, raised to be a weapon. The slave was Thrall. He found his people sitting behind these walls, and in the end he came back to break the camps open. No orcs are held here now; the Kirin Tor's wizards have taken the old camp for their own use.
+
+[horde] In another hand: Those camps stood in my kingdom, on my king's orders. The Horde has since been kinder to the Forsaken than Lordaeron ever was to the orcs. P. F.

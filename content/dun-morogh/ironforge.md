@@ -13,3 +13,5 @@ The city turns around the forge like a wheel. King Magni holds court in the High
 [forever] Below Old Ironforge lies the Hall of Thanes. Dark Iron intruders have breached it, and Magni wants the head of their commander, Durgen Dirgehammer. Even here, a city's oldest halls can become its newest trouble.
 
 And then there is the Hall of Explorers, where the League keeps its library and its finds: relics from Uldaman, the bones of beasts no one has seen alive, and maps of places most dwarves will only ever read about. As for me, you will find me in the High Seat, a few steps from the king's throne. Come and see me. I am always short of people who have actually been somewhere.
+
+[horde] In another hand: She means the invitation kindly. I would not advise accepting it in the Horde's colours. P. F.

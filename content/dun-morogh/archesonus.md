@@ -12,3 +12,5 @@ So you have found me. I keep Ironforge's history from the High Seat, a few steps
 The story I am asked for most is the Dark Irons'. The War of the Three Hammers ended with Sorcerer-Thane Thaurissan calling up Ragnaros, and the Firelord's waking turned their own country to ash. Relics still lie in the ruins of Thaurissan, in the Burning Steppes, holding more of that story than I have been able to read. A traveller who brings me what they say will have my thanks.
 
 This ledger is my work, traveller, with a great deal of help from the Explorers' League, who bring home more than any one historian could read. If a page has served you well, I am glad of it. If one has failed you, come and tell me so.
+
+[horde] In another hand: I have never met her. Hers is still the fairest account of the world I have read in a living hand, and I have read a great many. P. F.
