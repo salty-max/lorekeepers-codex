@@ -33,6 +33,11 @@ Library's titles, in every language: data/texts.json), the Ages Past
 chapter's eleven histories, eleven peoples and powers, nine pages of the
 lands; wave 2 (18 pages) and wave 3 (11) the same day: 60 new pages in all. Then, at the user's word, the five set aside, found after all (The Broken Alliance in Day of the Dragon and the Warcraft III manual, Bolvar in the original game's own Onyxia chain, Morbent Fel through Sven's quest chain, Taelan through In Dreams, the Druids of the Talon asleep in Teldrassil's Ban'ethil Barrow Den), and the eight pages deepened: 65 new pages.
 
+The subsequent review fixes are in `docs/expansion-follow-up.md`: source
+corrections, expanded membership encounters, Classic-only Azshara Timbermaw
+unlocks, and Taelan's full story awarded after In Dreams. Hearthglen's arrival
+page stops before that ending. The source pages hold the final unlock lists.
+
 ## How the codex is laid out
 
 - **One chapter per zone.** A capital is in its home zone's chapter (Stormwind

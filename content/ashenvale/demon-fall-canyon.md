@@ -5,7 +5,7 @@ kind: history
 unlock:
   - area: Demon Fall Canyon (Ashenvale)
   - area: Demon Fall Ridge
-also: [warsong-lumber-camp, burning-legion, orgrimmar]
+also: [grom-hellscream, warsong-lumber-camp, burning-legion, orgrimmar]
 ---
 After Grom Hellscream drank the demon's blood and killed Cenarius, Thrall and Jaina Proudmoore hunted him down and freed him from its curse. Then Grom went looking for the demon. In a canyon in Ashenvale he found Mannoroth, the pit lord whose blood had damned the orcs, and killed him with his axe, and died of it.
 

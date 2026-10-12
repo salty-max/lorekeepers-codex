@@ -4,7 +4,8 @@ title: The Ancients
 kind: creature
 portrait: 2041
 unlock:
-  - npc: 2041, 3468, 3469
+  - npc: 2041, 3468, 3469, 3616, 9598, 11491, 13419, 14241
+  - kill: 11459, 11489
   - area: Grove of the Ancients (Darkshore)
 also: [onu, cenarius, night-elves, darnassus, the-battle-of-mount-hyjal]
 ---

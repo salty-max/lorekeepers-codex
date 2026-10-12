@@ -61,8 +61,10 @@ one package. This plan records the decisions and the work, in two waves.
    `PanelTabButtonTemplate` when the character sheet's template is missing;
    chat links fall back to `SetItemRef` without `LinkUtil`.
 6. ✅ **Content gating:** `client: forever|classic` front matter;
-   `[forever]` / `[classic]` paragraphs. Counts, chapters, search and
-   achievements follow the reader's game.
+   `[forever]` / `[classic]` paragraphs and individual unlocks. Counts,
+   chapters, search and achievements follow the reader's game. Azshara's
+   original Timbermaw area and tribal IDs are Classic-only; Felwood and
+   reputation still unlock the Timbermaw on both games.
 7. ✅ **Forever variants:** the furbolgs (Azshara's hold is Blackmaw Hold) and
    Stormwind (its harbour). **Waiting for Forever's texts (scan):** the
    Greymane Wall (the Ruins of Gilneas), Dalaran (the city as a dungeon), the

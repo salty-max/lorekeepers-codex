@@ -4,8 +4,7 @@ title: Taelan Fordring
 kind: figure
 portrait: 1842
 unlock:
-  - npc: 1842
-  - quest: 5862
+  - quest: 5944
 also: [tirion-fordring, hearthglen, scarlet-crusade, the-ashbringer]
 ---
 Taelan Fordring grew up believing his father was dead. When Tirion was stripped of his lands for keeping his word to an orc, Taelan's mother stayed behind and told the boy that much. He joined the Scarlet Crusade, rose under the Grand Crusader, cast down the standard of the Silver Hand at Northdale, and became Highlord of the Crusade at Hearthglen.

@@ -22,7 +22,8 @@ original lore texts that unlock per character as they play. Sister project of
 - `data/areas.json`: the client's AreaTable (wago.tools, `bun scripts/areas.ts`):
   place names in content resolve to area ids, so unlocks work in every language.
   `data/areas-forever.json`: the areas Forever adds (the beta's table, pinned;
-  `bun scripts/areas.ts --forever`): only Forever's pages may name them.
+  `bun scripts/areas.ts --forever`): Forever-only pages and `[forever]`
+  unlocks may name them.
 - `data/texts.json`: the books and plaques pages unlock by being read
   (`read: <title>`): each title's text objects in the pinned CMaNGOS database
   and the title in every client language, from Wowhead Classic's tooltips
@@ -97,8 +98,10 @@ historical claims in other entries.
 - Two games read the codex: Classic and Forever (the original world on the
   modern client, with new zones, quests and the Skyborne). A page or paragraph
   for one only says so (`client:` front matter, `[forever]`/`[classic]`
-  paragraphs). Forever-only content may use Forever's own texts (quests, NPCs,
-  books); everything else keeps the Lore rule below. See FOREVER.md.
+  paragraphs). An unlock may also start with `[classic]` or `[forever]` when
+  its place or creature belongs to that game alone; the build keeps that rule
+  only in its game's content. Forever-only content may use Forever's own texts
+  (quests, NPCs, books); everything else keeps the Lore rule below. See FOREVER.md.
 
 - Voice: an archivist of the Explorers' League, writing from the Hall of
   Explorers in Ironforge; addresses the reader as "traveller"; warm, dry, a

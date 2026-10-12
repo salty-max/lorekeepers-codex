@@ -10,6 +10,4 @@ also: [tirion-fordring, scarlet-crusade, western-plaguelands]
 ---
 Hearthglen surrounds Mardenholde Keep in the northern Western Plaguelands. The Scarlet Crusade holds its walls, and Grand Inquisitor Isillien keeps a green, surviving town in the middle of the plague country by ruthless means.
 
-Its Highlord, Taelan Fordring, grew weary of serving as the Grand Crusader's puppet. Memories of his father, Tirion, sustained him, and he finally left to seek him. Isillien caught and killed Taelan on the road. Tirion arrived too late, defeated the inquisitor, and knelt beside his son's body.
-
-Taelan's father had once been cast out of the Silver Hand for sparing an orc. His son wanted to see him again.
+The keep was once Tirion Fordring's seat. When he was exiled for refusing to betray an orc who had saved his life, his wife told their son Taelan that he was dead. Taelan now holds his father's home for the Crusade. Tirion lives in a hut beside the Thondroril, gathering what he can of the boy's past and looking for a way to reach him.

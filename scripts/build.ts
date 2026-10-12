@@ -11,6 +11,7 @@
  *     - area: Kharanos          # a zone or sub-zone, by its name in the game data
  *     - area: Gnomeregan (Dun Morogh)   # parent zone, when the name is ambiguous
  *     - area: Gnomeregan (zone)         # the top-level area: the dungeon itself
+ *     - [classic] area: Timbermaw Hold (Azshara)  # an unlock for one client only
  *     - npc: 2784               # talking to (or targeting) this creature
  *     - kill: 706, 946          # killing one of these creatures
  *     - quest: 1234             # turning in this quest (or having done it)
@@ -33,8 +34,7 @@
  *   Paragraphs, separated by blank lines. A paragraph in *asterisks* is a signature.
  *   A paragraph starting with [forever] or [classic] shows on that client only
  *   (a Forever variant: the [classic] paragraph and its [forever] replacement).
- *   On Forever, which closes the combat log to addons, kill unlocks also fire
- *   on targeting the creature.
+ *   An unlock starting with [forever] or [classic] exists on that client only.
  *
  * A chapter is a folder with a _chapter.md (title, order, a one-line summary).
  * Places are resolved to the game's area ids (data/areas.json, from the client's
@@ -55,14 +55,14 @@ const RACES = ["Human", "Dwarf", "NightElf", "Gnome", "Orc", "Troll", "Tauren", 
 const STANDINGS: Record<string, number> = { hated: 1, hostile: 2, unfriendly: 3, neutral: 4, friendly: 5, honored: 6, revered: 7, exalted: 8 };
 
 type Area = { id: number; name: string; parent: number };
-type Unlock = { always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number } | { people: string } | { calling: string } | { read: string[] };
+type Unlock = ({ always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number } | { people: string } | { calling: string } | { read: string[] }) & { client?: string };
 type Entry = { id: string; title: string; kind: string; portrait: number; chapter: string; unlock: Unlock[]; also: string[]; race: string[]; client: string; text: Para[]; file: string };
 type Para = { italic: boolean; text: string; client: string };
 const CLIENTS = ["classic", "forever"];
 
 const classicAreas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas.json"), "utf8"));
 const texts: Record<string, { ids: number[]; names: string[] }> = JSON.parse(readFileSync(join(ROOT, "data/texts.json"), "utf8"));
-// Forever's own areas (data/areas-forever.json, scripts/areas.ts): for Forever's pages only.
+// Forever's own areas: for Forever-only pages or explicitly [forever] unlocks.
 const foreverAreas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas-forever.json"), "utf8"));
 const areas = [...classicAreas, ...foreverAreas];
 const areaById = new Map(areas.map((a) => [a.id, a]));
@@ -106,7 +106,7 @@ function resolveArea(file: string, spec: string, client: string): number | null 
   const name = m?.[1] ?? spec;
   const parent = m?.[2];
   // Some names end with a space in the client data ("Ruins of Eldarath ").
-  // (Forever's own places: on Forever's pages only)
+  // (Forever's own places: on Forever's pages or [forever] unlocks only)
   let found = areas.filter((a) => a.name.trim() === name && (client === "forever" || !foreverOnly.has(a.id)));
   // "(zone)" means a top-level area: a zone, or an instance such as a dungeon.
   if (parent === "zone") found = found.filter((a) => a.parent === 0);
@@ -122,6 +122,12 @@ function resolveArea(file: string, spec: string, client: string): number | null 
 }
 
 function unlockRule(file: string, rule: string, client: string): Unlock[] {
+  const scoped = rule.match(/^\[(\w+)\]\s+(.*)$/);
+  if (scoped) {
+    if (!CLIENTS.includes(scoped[1])) return fail(file, `[${scoped[1]}]: one of ${CLIENTS.join(", ")}`), [];
+    if (client && client !== scoped[1]) return fail(file, `[${scoped[1]}] unlock on a ${client}-only page`), [];
+    return unlockRule(file, scoped[2], scoped[1]).map((u) => ({ ...u, client: scoped[1] }));
+  }
   // npc and kill take several ids: one rule each.
   const many = rule.match(/^(npc|kill):\s*(.+)$/);
   if (many) {
@@ -245,6 +251,11 @@ for (const e of entries) {
   if (!e.text.length) fail(e.file, "no text");
   for (const r of e.race) if (!RACES.includes(r)) fail(e.file, `race: one of ${RACES.join(", ")}`);
   if (e.client && !CLIENTS.includes(e.client)) fail(e.file, `client: one of ${CLIENTS.join(", ")}`);
+  for (const client of CLIENTS) {
+    if ((!e.client || e.client === client) && !e.unlock.some((u) => !u.client || u.client === client)) {
+      fail(e.file, `no unlock rule on ${client}`);
+    }
+  }
   for (const p of e.text) if (p.client && !CLIENTS.includes(p.client)) fail(e.file, `[${p.client}]: one of ${CLIENTS.join(", ")}`);
 }
 if (errors.length) {
@@ -286,9 +297,10 @@ const GAMES = [
 
 function luaFor(client: string) {
   const mine = (c: string) => !c || c === client;
+  const rulesFor = (e: Entry) => e.unlock.filter((u) => mine(u.client ?? ""));
   const kept = entries.filter((e) => mine(e.client));
   const keptIds = new Set(kept.map((e) => e.id));
-  const usedAreas = [...new Set(kept.flatMap((e) => e.unlock.flatMap((u) => ("area" in u ? [u.area] : []))))].sort((a, b) => a - b);
+  const usedAreas = [...new Set(kept.flatMap((e) => rulesFor(e).flatMap((u) => ("area" in u ? [u.area] : []))))].sort((a, b) => a - b);
   const chapterList = [...chapters.values()]
     .sort((a, b) => a.order - b.order)
     .map((c) => ({ ...c, entries: c.entries.filter((id) => keptIds.has(id)) }))
@@ -305,7 +317,7 @@ ${kept
   .map(
     (e) => `    [${q(e.id)}] = {
       title = ${q(e.title)}, kind = ${q(e.kind)}, chapter = ${q(e.chapter)},${e.portrait ? ` portrait = ${portraits[e.portrait].display},` : ""}
-      unlock = { ${e.unlock.map(unlockLua).join(", ")} },
+      unlock = { ${rulesFor(e).map(unlockLua).join(", ")} },
       also = { ${e.also.filter((a) => keptIds.has(a)).map(q).join(", ")} },${e.race.length ? ` race = { ${e.race.map((r) => `${r} = true`).join(", ")} },` : ""}
       text = {
 ${e.text.filter((p) => mine(p.client)).map((p) => `        { ${p.italic ? "italic = true, " : ""}${q(p.text)} },`).join("\n")}

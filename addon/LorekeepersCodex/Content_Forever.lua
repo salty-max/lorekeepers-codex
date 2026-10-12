@@ -108,7 +108,7 @@ ns.content = {
       text = {
         { "The orcs came through the Dark Portal a few clans at a time, into the swamps east of Stormwind, and for years the kingdom knew them only by their raids. King Llane did not believe such creatures could take his city. His champion, Anduin Lothar, last of the Arathi line, was less sure, and less sure still of their old friend Medivh, whose tower at Karazhan had grown dark indeed." },
         { "Lothar acted on his doubts. With Medivh's young apprentice, Khadgar, he stormed Karazhan and killed the Guardian, and found that Medivh had been behind the invasion from the start. It did not save the kingdom. The Horde, under a new warchief, Orgrim Doomhammer, laid siege to Stormwind Keep, and Llane was killed inside his own walls by Garona, a half-orc assassin of the Shadow Council." },
-        { "Lothar came home to a city in smoking ruins and swore, with the men left to him, to take it back. He led the survivors of Azeroth across the sea to Lordaeron, to ask the other human kingdoms for help, and what came of that is the next page. Stormwind was rebuilt after the second war. Its people have not underestimated an enemy since." },
+        { "Lothar came home to a city in smoking ruins and swore, with the men left to him, to take it back. He led the survivors of Azeroth across the sea to Lordaeron, to ask the other human kingdoms for help. The alliance they made would fight the Second War. Stormwind was rebuilt afterwards. Its people have not underestimated an enemy since." },
       },
     },
     ["the-five-aspects"] = {
@@ -385,7 +385,7 @@ ns.content = {
     ["demon-fall-canyon"] = {
       title = "Demon Fall Canyon", kind = "history", chapter = "ashenvale",
       unlock = { { area = 435 }, { area = 436 } },
-      also = { "warsong-lumber-camp", "burning-legion", "orgrimmar" },
+      also = { "grom-hellscream", "warsong-lumber-camp", "burning-legion", "orgrimmar" },
       text = {
         { "After Grom Hellscream drank the demon's blood and killed Cenarius, Thrall and Jaina Proudmoore hunted him down and freed him from its curse. Then Grom went looking for the demon. In a canyon in Ashenvale he found Mannoroth, the pit lord whose blood had damned the orcs, and killed him with his axe, and died of it." },
         { "The orcs remember him as the one who freed them, and named their great hall in Orgrimmar for him. The canyon is still a place of demons: the Burning Legion's servants hold it, and the ground where Mannoroth fell has never been clean." },
@@ -396,9 +396,9 @@ ns.content = {
       unlock = { { read = { "Monument to Grom Hellscream", "그롬 헬스크림의 기념비", "Monument à Grom Hellscream", "Denkmal für Grom Hellscream", "格罗姆·地狱咆哮的纪念碑", "Monumento a Grom Grito Infernal", "Памятник Грому Адскому Крику", "Monumento para Grom Grito Infernal", "[Monument to Grom Hellscream]" } }, { area = 435 } },
       also = { "demon-fall-canyon", "warsong-lumber-camp", "thrall", "orcs", "cenarius", "draenor" },
       text = {
-        { "Grommash Hellscream, chieftain of the Warsong, was the first of the orc chieftains to drink Mannoroth's blood on Draenor, and he led the others to it. When the Horde fell and the clans were driven into the camps, his Warsong alone kept fighting from hiding, the last undefeated chieftain. The young Thrall learned from him what the Horde had once been, and called him friend." },
-        { "In Kalimdor the old hunger took him again. His warriors cut the forests of Ashenvale for the Horde's new home, and when the demigod Cenarius came to drive them out, Grom drank demon blood once more and killed him. Thrall and Jaina Proudmoore brought him back to himself, and he went looking for Mannoroth. He found him in a canyon near here, killed him with his axe, and died of it." },
-        { "Thrall set a stone on the place. 'In many ways,' it reads, 'the curse of our people began and ended with Grom.' His name meant giant's heart, the Warchief writes, and he earned it a hundred times over." },
+        { "Grommash Hellscream, chieftain of the Warsong, was the first of the orc chieftains to drink Mannoroth's blood on Draenor, and he led the others to it. The strength it gave them bound the clans to the demon whose blood they shared." },
+        { "When the Horde fell and the clans were driven into the camps, his Warsong kept fighting from hiding, and Grom remained an undefeated chieftain. The young Thrall learned from him what the Horde had once been, and found an ally in bringing the scattered clans together. The two sailed for Kalimdor as friends, carrying the hope of a home beyond the camps and the old wars." },
+        { "Grom did not live to see the Horde's new home built. Thrall set a stone where he fell in Demon Fall Canyon. 'In many ways,' it reads, 'the curse of our people began and ended with Grom.' His name meant giant's heart, the Warchief writes, and he earned it a hundred times over." },
       },
     },
     ["splintertree-post"] = {
@@ -1566,7 +1566,7 @@ ns.content = {
       text = {
         { "Jaina Proudmoore was a young sorceress of Dalaran, the daughter of the admiral of Kul Tiras, and a friend of Prince Arthas in happier days. When the plague came she rode beside him, until Stratholme, where she would not follow him. Then a prophet sent her west across the sea, and she led what was left of Lordaeron's people to Kalimdor." },
         { "There she did what no one in the Alliance thought possible: she fought beside Thrall and the night elves against the Burning Legion at Mount Hyjal, and afterwards made peace with the Horde. When her father, Admiral Daelin Proudmoore, came with his fleet to finish the old war, she did not stand in the Horde's way, and he died for it. She has carried that ever since." },
-        { "Keeping the peace has not been easy. A few years after Hyjal, raids and sunk ships nearly set Theramore and Durotar at each other's throats again, until Jaina, working quietly with Thrall, found the Burning Blade behind it and her own chamberlain in its pay. The search took her to a warded corner of Durotar where she met the last person she expected to find alive: Aegwynn, the Guardian, Medivh's mother, living alone. She rules Theramore still, and keeps the peace with Thrall, and I think she is the bravest person in this ledger." },
+        { "Keeping the peace has not been easy. A few years after Hyjal, raids and sunk ships nearly set Theramore and Durotar at each other's throats again, until Jaina, working quietly with Thrall, found the Burning Blade behind it and her own chamberlain in its pay. The search took her to a warded corner of Durotar where she met the last person she expected to find alive: Aegwynn, the Guardian, Medivh's mother, living alone. Jaina rules Theramore still, and keeps the peace with Thrall, and I think she is the bravest person in this ledger." },
       },
     },
     ["onyxia"] = {
@@ -1657,7 +1657,7 @@ ns.content = {
       also = { "cult-of-the-damned", "andorhal", "dalaran", "naxxramas", "scourge", "fall-of-lordaeron" },
       text = {
         { "Kel'Thuzad was an archmage of Dalaran and a member of its ruling council, who went looking for forbidden power. Antonidas found it first, in his warehouses in the north: dead rats he had been trying to keep moving. The Kirin Tor put him on trial and confiscated his work, and Kel'Thuzad, with a friendly voice in his head that had been helping him all along, left them and went north to find its owner." },
-        { "In Northrend a crypt lord, Anub'arak, showed him round a ziggurat called Naxxramas: laboratories, armouries, and cauldrons brewing a fluid that turned the dying into the dead. He was sick at the sight and tried to run, and the Lich King's wraiths would not let him. At the foot of the Frozen Throne he crawled, begged, and swore himself to its master, and watched Naxxramas torn up out of the ice to be his vessel." },
+        { "In Northrend a crypt lord, Anub'arak, showed him round a ziggurat called Naxxramas: laboratories, armouries, and cauldrons brewing a fluid that turned the dying into the dead. He was sick at the sight and tried to run, and the Lich King's wraiths would not let him. At the foot of the Frozen Throne he crawled, begged, and swore himself to its master. The Lich King answered with a vision of Naxxramas rising out of the ice, a fortress from which Kel'Thuzad would spread his master's power." },
         { "He came back to found the Cult of the Damned among the poor of Lordaeron, and with them he spread the plague through the grain of Andorhal. Prince Arthas killed him there. His body was carried to Quel'Thalas, to the Sunwell, and raised by its power as a lich." },
         { "He led the Scourge into Dalaran to summon Archimonde himself, and he stood by Arthas when the dreadlords turned on him. When Arthas went north to the Frozen Throne, Kel'Thuzad stayed to rule the Plaguelands in his name, and he rules them still, from Naxxramas. Even destroyed, a lich is not finished while his phylactery lasts." },
       },
@@ -1840,7 +1840,7 @@ ns.content = {
       also = { "elwynn-forest", "goldshire" },
       text = {
         { "The Stonefields and the Maclures farm on either side of the Fargodeep Mine, south of Goldshire, and the two families have been at odds for longer than anyone bothers to explain. Naturally, Maybell Maclure is in love with Tommy Joe Stonefield. He waits by the river west of his family's farm for her letters; she waits for a chance to slip away." },
-        { "The Stonefields' grandmother is on the young people's side. She knows how to brew a liquor that turns the drinker invisible, if someone will fetch the crystal kelp the murlocs of Crystal Lake hoard, and with it Maybell can walk out of her family's vineyards unseen. She feels guilty deceiving them, she says, but not guilty enough to stay." },
+        { "The Stonefields' grandmother is on the young people's side. She sends a note to her old friend William Pestle in Goldshire, who can brew an invisibility liquor if someone brings him crystal kelp from the murlocs of Crystal Lake. With it Maybell can walk out of her family's vineyards unseen. She feels guilty deceiving them, she says, but not guilty enough to stay." },
         { "The feud goes on around them: a Stonefield aunt accusing young Billy Maclure of stealing her necklace, Ma Stonefield vowing death to the Brackwells' prize sow for eating her vegetables. Elwynn has seen the Defias, the kobolds and the gnolls come and go. The feud has outlasted all of them so far." },
       },
     },
@@ -2412,7 +2412,7 @@ ns.content = {
     },
     ["ancients"] = {
       title = "The Ancients", kind = "creature", chapter = "peoples", portrait = 2429,
-      unlock = { { npc = 2041 }, { npc = 3468 }, { npc = 3469 }, { area = 448 } },
+      unlock = { { npc = 2041 }, { npc = 3468 }, { npc = 3469 }, { npc = 3616 }, { npc = 9598 }, { npc = 11491 }, { npc = 13419 }, { npc = 14241 }, { kill = 11459 }, { kill = 11489 }, { area = 448 } },
       also = { "onu", "cenarius", "night-elves", "darnassus", "the-battle-of-mount-hyjal" },
       text = {
         { "The ancients are the oldest trees of the night elves' forests, grown wise enough to think and strong enough to walk. In the War of the Ancients, Cenarius called them up from the enchanted woods and led them against the Burning Legion, an army of tree-men marching on the queen's own city; in the Third War they marched again." },
@@ -2452,27 +2452,27 @@ ns.content = {
     },
     ["blood-elves"] = {
       title = "The Blood Elves", kind = "faction", chapter = "peoples", portrait = 7923,
-      unlock = { { kill = 6198 }, { kill = 6199 }, { area = 1220 }, { read = { "Rise of the Blood Elves", "블러드 엘프의 등장", "La montée des elfes de sang", "Aufstieg der Blutelfen", "血精灵的崛起", "El levantamiento de los elfos de sangre", "Возвышение эльфов крови", "A Ascensão dos Elfos Sangrentos", "血精靈的崛起" } } },
+      unlock = { { npc = 4198 }, { npc = 7505 }, { npc = 7506 }, { npc = 7826 }, { npc = 8395 }, { npc = 9836 }, { npc = 14387 }, { kill = 6198 }, { kill = 6199 }, { kill = 8578 }, { kill = 8581 }, { kill = 14327 }, { area = 1220 }, { read = { "Rise of the Blood Elves", "블러드 엘프의 등장", "La montée des elfes de sang", "Aufstieg der Blutelfen", "血精灵的崛起", "El levantamiento de los elfos de sangre", "Возвышение эльфов крови", "A Ascensão dos Elfos Sangrentos", "血精靈的崛起" } } },
       also = { "high-elves", "the-fall-of-quelthalas", "illidan-stormrage", "naga", "satyrs", "azshara" },
       text = {
         { "After Quel'Thalas fell, the last of its royal line, Prince Kael'thas Sunstrider, led what remained of the high elves in the Alliance's struggle against the Scourge. They renamed themselves blood elves in honour of their fallen people. Cut off from the Sunwell that had fed them for thousands of years, they also learned how badly they needed its magic, and they suffered for the lack of it." },
-        { "Kael'thas looked for a cure where no one else would: he joined Illidan Stormrage and his naga. The Alliance's commanders called it treason and cast the blood elves out, and Kael'thas followed Illidan to Outland, the broken remnant of the orcs' world. There the book in our library leaves him." },
+        { "With the Alliance demanding battles his depleted forces could not win alone, Kael'thas accepted help from Lady Vashj and her naga. His commander, Garithos, condemned the blood elves as traitors and sentenced them to death. Vashj freed them from the dungeons of Dalaran and led them to Outland, the broken remnant of the orcs' world. There they freed Illidan Stormrage from his captor, and Kael'thas pledged himself to him in return for the magic his people needed." },
         { "Some of his people are much nearer. Blood elves search the cliffs and ruins of Azshara for the magic the Highborne left behind, and grind what they find into a glittering dust; a goblin who took their coin and an orc warband that lent them guards have both learned what their employment is worth. Another has gone into Dire Maul to bleed its ruins of their power. Gershala Nightwhisper in Auberdine fears they are going the way of the satyrs and the naga. I fear he may be right." },
       },
     },
     ["blue-dragonflight"] = {
       title = "The Blue Dragonflight", kind = "creature", chapter = "peoples", portrait = 6760,
-      unlock = { { npc = 10929 }, { kill = 6129 }, { kill = 6130 }, { kill = 6131 }, { kill = 7435 }, { kill = 7436 }, { kill = 7437 } },
+      unlock = { { npc = 6109 }, { npc = 10929 }, { npc = 15481 }, { kill = 193 }, { kill = 6109 }, { kill = 6129 }, { kill = 6130 }, { kill = 6131 }, { kill = 7435 }, { kill = 7436 }, { kill = 7437 }, { kill = 10659 }, { kill = 10660 }, { kill = 10664 } },
       also = { "the-five-aspects", "azuregos", "mazthoril", "black-dragonflight" },
       text = {
         { "Malygos, the Spell-Weaver, was given the care of magic, and his flight has paid for it. When Deathwing turned on the other dragonflights in the War of the Ancients, the blue flight suffered worst; very few survived, and Malygos has not been the same since." },
         { "Their holds in these lands are few. Blue dragonkin guard the shores of Lake Mennar in Azshara, and the caves of Mazthoril in Winterspring hide a refuge where their matron protectorate, Haleh, receives those who hold a blue dragon's scale and stand upon the right rune. The Aspects, she will tell you, insist that their flights stay out of mortal affairs. She will also tell you that Deathwing's children make that difficult." },
-        { "Azuregos, who watches the ruins of southern Azshara, is one of theirs. Treat them politely, traveller. They keep the world's magic, and they have long memories of who misused it." },
+        { "Azuregos keeps his own watch over the ruins of southern Azshara, searching for the arcane treasures the Highborne left behind. The coast has been ruined for ten thousand years, and still gives a blue dragon work to do." },
       },
     },
     ["bronze-dragonflight"] = {
       title = "The Bronze Dragonflight", kind = "faction", chapter = "peoples", portrait = 2719,
-      unlock = { { npc = 15192 }, { npc = 10667 } },
+      unlock = { { npc = 10667 }, { npc = 15192 }, { npc = 15381 }, { kill = 8196 }, { kill = 8197 }, { kill = 8198 } },
       also = { "the-five-aspects", "caverns-of-time", "the-scepter-of-the-shifting-sands", "darrowshire", "andorhal" },
       text = {
         { "Nozdormu, the Timeless One, was given the keeping of time, and his flight guards its pathways. They are seldom seen. When they are, it is usually because something has gone wrong with when things happen." },
@@ -2552,7 +2552,7 @@ ns.content = {
     },
     ["deathstalkers"] = {
       title = "The Deathstalkers", kind = "faction", chapter = "peoples", portrait = 3540,
-      unlock = { { npc = 1950 }, { npc = 1951 }, { npc = 1978 }, { npc = 2058 }, { npc = 2214 }, { npc = 3849 }, { npc = 4444 }, { npc = 5418 } },
+      unlock = { { npc = 1950 }, { npc = 1951 }, { npc = 1978 }, { npc = 2058 }, { npc = 2214 }, { npc = 3849 }, { npc = 4444 }, { npc = 5418 }, { npc = 6467 }, { npc = 15022 } },
       also = { "the-forsaken", "varimathras", "sylvanas-windrunner", "silverpine-forest", "shadowfang-keep", "syndicate" },
       text = {
         { "The Deathstalkers are the Forsaken's eyes and knives: Lord Varimathras's elite guard, as one of their recruiters puts it, sent ahead of the Dark Lady's armies to see what waits for them. You meet them wherever the Forsaken are pushing their borders: scouting the farms of northern Silverpine, inside Shadowfang Keep to watch Arugal, on the hills above Hillsbrad, gathering reports from the Plaguelands for Nathanos." },
@@ -2581,7 +2581,7 @@ ns.content = {
     },
     ["dreadlords"] = {
       title = "The Dreadlords", kind = "creature", chapter = "peoples", portrait = 10691,
-      unlock = { { kill = 10813 }, { npc = 2425 } },
+      unlock = { { npc = 2425 }, { npc = 9516 }, { kill = 7664 }, { kill = 8716 }, { kill = 10813 }, { kill = 14506 } },
       also = { "burning-legion", "varimathras", "balnazzar", "the-lich-king", "the-forsaken", "stratholme" },
       text = {
         { "The dreadlords, the nathrezim, are the Burning Legion's schemers: vampiric, patient, better at corrupting than conquering. Kil'jaeden set them to guard his most dangerous creation, the Lich King. Tichondrius, the most cunning of them, delighted in the plague; Mal'Ganis waited for Prince Arthas at Stratholme; Anetheron fought beside Archimonde on Mount Hyjal." },
@@ -2660,12 +2660,12 @@ ns.content = {
     },
     ["green-dragonflight"] = {
       title = "The Green Dragonflight", kind = "creature", chapter = "peoples", portrait = 4494,
-      unlock = { { npc = 5353 }, { area = 356 }, { area = 1111 }, { area = 856 }, { area = 438 } },
+      unlock = { { npc = 5353 }, { npc = 15628 }, { npc = 15660 }, { kill = 740 }, { kill = 741 }, { kill = 742 }, { kill = 743 }, { kill = 744 }, { kill = 745 }, { kill = 746 }, { kill = 1063 }, { kill = 5312 }, { kill = 5314 }, { kill = 5317 }, { kill = 5319 }, { kill = 5320 }, { kill = 5709 }, { kill = 5718 }, { kill = 5719 }, { kill = 5722 }, { kill = 12474 }, { kill = 12475 }, { kill = 12476 }, { kill = 12477 }, { kill = 12478 }, { kill = 12479 }, { kill = 12496 }, { kill = 12497 }, { kill = 12498 }, { kill = 12900 }, { kill = 14445 }, { kill = 14887 }, { kill = 14888 }, { kill = 14889 }, { kill = 14890 }, { kill = 15302 }, { kill = 15491 }, { area = 356 }, { area = 1111 }, { area = 856 }, { area = 438 } },
       also = { "the-five-aspects", "the-emerald-dream", "dragons-of-nightmare", "eranikus", "cenarion-circle" },
       text = {
         { "Ysera's flight keeps the Emerald Dream, and the four great trees where the Dream touches the waking world: Seradane in the Hinterlands, Bough Shadow in Ashenvale, the Dream Bough in Feralas and the Twilight Grove in Duskwood. The druids walk the Dream through the pact their ancestors made with Ysera; the dragons walk the world rarely." },
         { "Not all of them are well. Something has crept into the Dream and twisted some of Ysera's own children; the four who now haunt the great trees have their own page. Before them there was Eranikus, sleeping above the sunken temple of the Swamp of Sorrows and caught in the same nightmare." },
-        { "Itharius, another of the flight, waits in a cave in that swamp for anyone willing to help redeem him. A dragon asking mortals for aid says a good deal about how things stand in the Dream, traveller. I would not refuse him lightly." },
+        { "Itharius, another of the flight, waits in a cave in that swamp, seeking mortals who can help redeem Eranikus. While the corrupted guardians still haunt the great trees, one of their kin is asking strangers to bring a dragon home." },
       },
     },
     ["grimtotem"] = {
@@ -2688,7 +2688,7 @@ ns.content = {
     },
     ["high-elves"] = {
       title = "The High Elves", kind = "faction", chapter = "peoples", portrait = 10375,
-      unlock = { { npc = 12322 }, { kill = 2691 }, { kill = 2692 }, { kill = 2693 }, { kill = 2694 }, { area = 350 }, { read = { "Exile of the High Elves", "하이 엘프의 유배", "L'exil des hauts-elfes", "Die Verbannung der Hochelfen", "高等精灵的流放", "El exilio de los elfos nobles", "Изгнание Высших эльфов", "O Exílio dos Elfos Superiores", "高等精靈的流放" } }, { read = { "The Founding of Quel'Thalas", "쿠엘탈라스 건국", "La fondation de Quel'Thalas", "Die Gründung von Quel’Thalas", "奎尔萨拉斯的建立", "La fundación de Quel'Thalas", "Основание Кель'Таласа", "A Fundação de Quel'thalas", "奎爾薩拉斯的建立" } } },
+      unlock = { { npc = 1156 }, { npc = 1752 }, { npc = 3339 }, { npc = 3465 }, { npc = 4456 }, { npc = 5498 }, { npc = 7801 }, { npc = 10304 }, { npc = 10976 }, { npc = 11704 }, { npc = 11706 }, { npc = 12322 }, { npc = 14348 }, { kill = 2691 }, { kill = 2692 }, { kill = 2693 }, { kill = 2694 }, { kill = 8214 }, { kill = 8563 }, { kill = 8564 }, { kill = 8565 }, { kill = 10824 }, { area = 350 }, { read = { "Exile of the High Elves", "하이 엘프의 유배", "L'exil des hauts-elfes", "Die Verbannung der Hochelfen", "高等精灵的流放", "El exilio de los elfos nobles", "Изгнание Высших эльфов", "O Exílio dos Elfos Superiores", "高等精靈的流放" } }, { read = { "The Founding of Quel'Thalas", "쿠엘탈라스 건국", "La fondation de Quel'Thalas", "Die Gründung von Quel’Thalas", "奎尔萨拉斯的建立", "La fundación de Quel'Thalas", "Основание Кель'Таласа", "A Fundação de Quel'thalas", "奎爾薩拉斯的建立" } } },
       also = { "queldanil-lodge", "the-fall-of-quelthalas", "blood-elves", "night-elves", "forest-trolls", "the-guardians-of-tirisfal" },
       text = {
         { "The high elves began as night elves: Highborne of Azshara's court who survived the Sundering and could not give up their magic. When the druids forbade it on pain of death, their leader, Dath'Remar, answered with a storm of spells over Ashenvale. The druids would not kill so many of their own kin. They exiled them instead, and Dath'Remar's people sailed east across the Maelstrom, glad to be rid of their cautious cousins." },
@@ -2698,7 +2698,7 @@ ns.content = {
     },
     ["highborne"] = {
       title = "The Highborne", kind = "faction", chapter = "peoples", portrait = 10702,
-      unlock = { { kill = 2176 }, { kill = 2177 }, { kill = 2178 }, { kill = 6116 }, { kill = 6117 }, { kill = 7523 }, { kill = 7524 }, { kill = 10684 } },
+      unlock = { { npc = 11486 }, { npc = 14355 }, { npc = 14358 }, { npc = 14361 }, { npc = 14364 }, { npc = 14368 }, { npc = 14369 }, { npc = 14371 }, { npc = 14381 }, { npc = 14382 }, { npc = 14383 }, { npc = 16032 }, { kill = 2176 }, { kill = 2177 }, { kill = 2178 }, { kill = 6116 }, { kill = 6117 }, { kill = 7523 }, { kill = 7524 }, { kill = 10684 }, { kill = 11467 }, { kill = 11469 }, { kill = 11470 }, { kill = 11471 }, { kill = 11472 }, { kill = 11473 }, { kill = 11475 }, { kill = 11486 }, { kill = 11487 }, { kill = 11488 } },
       also = { "queen-azshara", "the-sundering", "high-elves", "shendralar", "ruins-of-keltheril", "highborne-ruins" },
       text = {
         { "The Highborne were the night elves' upper caste, Queen Azshara's chosen servants, who studied the Well of Eternity until they learned magic, and then loved it more than anything else. It was their spellcraft that drew Sargeras to the world, and their queen and her court who opened the way for his Legion." },
@@ -2816,7 +2816,7 @@ ns.content = {
     },
     ["sentinels"] = {
       title = "The Sentinels", kind = "faction", chapter = "peoples", portrait = 2035,
-      unlock = { { npc = 2081 }, { npc = 2155 }, { npc = 3519 }, { read = { "The Sentinels and the Long Vigil", "파수꾼과 기나긴 철야", "Les Sentinelles et la longue veille", "Die Schildwachen und die lange Wacht", "哨兵和长期流放", "Los centinelas y la gran vigilia", "Часовые и долгое бдение", "As Sentinelas e a Longa Vigília", "哨兵和長期流放" } } },
+      unlock = { { npc = 2081 }, { npc = 2155 }, { npc = 2302 }, { npc = 2930 }, { npc = 3519 }, { npc = 3571 }, { npc = 3639 }, { npc = 3657 }, { npc = 3691 }, { npc = 3694 }, { npc = 3880 }, { npc = 3885 }, { npc = 3936 }, { npc = 4079 }, { npc = 4080 }, { npc = 4262 }, { npc = 5916 }, { npc = 6086 }, { npc = 6087 }, { npc = 7939 }, { npc = 7956 }, { npc = 7957 }, { npc = 7999 }, { npc = 8015 }, { npc = 8396 }, { npc = 8397 }, { npc = 10604 }, { npc = 10606 }, { npc = 11276 }, { npc = 11711 }, { npc = 11806 }, { npc = 12048 }, { npc = 12160 }, { npc = 12429 }, { npc = 12856 }, { npc = 12896 }, { npc = 12897 }, { npc = 13327 }, { npc = 13336 }, { npc = 13427 }, { npc = 14378 }, { npc = 14379 }, { npc = 14380 }, { npc = 14715 }, { npc = 14733 }, { npc = 14753 }, { npc = 15451 }, { npc = 15457 }, { read = { "The Sentinels and the Long Vigil", "파수꾼과 기나긴 철야", "Les Sentinelles et la longue veille", "Die Schildwachen und die lange Wacht", "哨兵和长期流放", "Los centinelas y la gran vigilia", "Часовые и долгое бдение", "As Sentinelas e a Longa Vigília", "哨兵和長期流放" } } },
       also = { "tyrande-whisperwind", "shandris-feathermoon", "night-elves", "elune", "cenarius" },
       text = {
         { "When the druids went to sleep in the Emerald Dream, someone had to keep the forests. Tyrande Whisperwind, High Priestess of Elune, gathered her sisters into an army of warrior women and called them the Sentinels. She asked Malfurion not to leave her for the Dream. He went all the same, and she kept watch." },
@@ -2826,12 +2826,12 @@ ns.content = {
     },
     ["shadow-council"] = {
       title = "The Shadow Council", kind = "faction", chapter = "peoples", portrait = 10198,
-      unlock = { { kill = 7112 }, { kill = 7113 }, { kill = 7114 }, { kill = 7115 }, { kill = 7118 }, { kill = 7120 }, { kill = 7126 }, { kill = 9862 }, { kill = 9517 }, { kill = 2598 }, { read = { "Kil'jaeden and the Shadow Pact", "킬제덴과 암흑 조약", "Kil'jaeden et le Pacte des ombres", "Kil’jaeden und der Schattenpakt", "基尔加丹和阴影契约", "Kil'jaeden y el Pacto de las Sombras", "Кил'джеден и Пакт Тьмы", "Kil'jaeden e o Pacto Sombrio", "基爾加丹和陰影契約" } } },
+      unlock = { { npc = 3216 }, { npc = 4198 }, { npc = 9516 }, { npc = 14522 }, { kill = 2318 }, { kill = 2320 }, { kill = 2336 }, { kill = 2337 }, { kill = 2598 }, { kill = 3195 }, { kill = 3196 }, { kill = 3197 }, { kill = 3198 }, { kill = 3199 }, { kill = 3204 }, { kill = 3379 }, { kill = 3380 }, { kill = 3660 }, { kill = 3664 }, { kill = 3725 }, { kill = 3727 }, { kill = 3728 }, { kill = 3730 }, { kill = 3879 }, { kill = 4663 }, { kill = 4664 }, { kill = 4665 }, { kill = 4666 }, { kill = 4667 }, { kill = 4668 }, { kill = 4705 }, { kill = 5822 }, { kill = 6004 }, { kill = 6005 }, { kill = 6006 }, { kill = 6007 }, { kill = 6008 }, { kill = 6009 }, { kill = 7112 }, { kill = 7113 }, { kill = 7114 }, { kill = 7115 }, { kill = 7118 }, { kill = 7120 }, { kill = 7125 }, { kill = 7126 }, { kill = 7664 }, { kill = 7665 }, { kill = 7666 }, { kill = 7667 }, { kill = 9516 }, { kill = 9517 }, { kill = 9860 }, { kill = 9861 }, { kill = 9862 }, { kill = 9877 }, { kill = 11322 }, { kill = 11323 }, { kill = 11324 }, { kill = 11518 }, { kill = 11519 }, { kill = 12319 }, { kill = 12320 }, { kill = 13019 }, { kill = 14522 }, { kill = 14523 }, { read = { "Kil'jaeden and the Shadow Pact", "킬제덴과 암흑 조약", "Kil'jaeden et le Pacte des ombres", "Kil’jaeden und der Schattenpakt", "基尔加丹和阴影契约", "Kil'jaeden y el Pacto de las Sombras", "Кил'джеден и Пакт Тьмы", "Kil'jaeden e o Pacto Sombrio", "基爾加丹和陰影契約" } } },
       also = { "jaedenar", "burning-legion", "draenor", "orcs", "warlocks", "the-first-war" },
       text = {
         { "The old Horde was never quite ruled by its warchiefs. Behind them stood the Shadow Council, a secret circle the demon Kil'jaeden helped Gul'dan found on Draenor, to steer the clans and spread the warlocks' magic among them. It was the Council that summoned Mannoroth for the chieftains to drink from, the Council that set Blackhand up as warchief to do as he was told, and the Council, with Medivh, that opened the Dark Portal." },
         { "Doomhammer broke its hold when he killed Blackhand and took the Horde for himself, and Gul'dan died torn apart by the demons he loosed at the Tomb of Sargeras. The name outlived them both. Warlocks still gather under it, orcs and Forsaken among them, and still deal with the Legion." },
-        { "Their greatest hold now is Jaedenar in Felwood, where Shadow Lord Fel'dan makes his pacts in the Shadow Hold below. A secret society that everyone has heard of is not much of a secret, traveller. It may still be a society." },
+        { "Their greatest hold now is Jaedenar in Felwood, where Shadow Lord Fel'dan makes his pacts in the Shadow Hold below. While the druids labour to cleanse the forest, the Council's warlocks are still gathering beneath its roots." },
       },
     },
     ["silithid"] = {
@@ -2895,7 +2895,7 @@ ns.content = {
     },
     ["timbermaw"] = {
       title = "The Timbermaw", kind = "faction", chapter = "peoples", portrait = 2000,
-      unlock = { { faction = 576, standing = 5 }, { area = 1769 }, { area = 1216 } },
+      unlock = { { npc = 11516 }, { npc = 11552 }, { npc = 11553 }, { npc = 11554 }, { npc = 11555 }, { npc = 11556 }, { npc = 11557 }, { npc = 11558 }, { faction = 576, standing = 5 }, { area = 1769 } },
       also = { "furbolgs", "felwood", "winterspring", "moonglade" },
       text = {
         { "Of all the furbolg tribes of the north, only the Timbermaw have kept their minds. The corruption that seeped out of Felwood turned the Deadwood and the Winterfall into the snarling creatures you meet on the roads, and the Timbermaw had to watch it happen to their kin. They held on in their tunnels under the mountains between Felwood, Moonglade and Winterspring, and held them against everyone." },
@@ -2934,7 +2934,7 @@ ns.content = {
     },
     ["wildkin"] = {
       title = "The Wildkin", kind = "creature", chapter = "peoples", portrait = 5927,
-      unlock = { { kill = 10157 }, { kill = 10158 }, { kill = 10159 }, { kill = 10160 }, { kill = 2927 }, { kill = 2928 }, { kill = 2929 }, { kill = 7450 }, { kill = 7451 }, { kill = 7452 }, { kill = 7453 }, { kill = 7454 } },
+      unlock = { { npc = 12144 }, { kill = 2927 }, { kill = 2928 }, { kill = 2929 }, { kill = 7450 }, { kill = 7451 }, { kill = 7452 }, { kill = 7453 }, { kill = 7454 }, { kill = 7808 }, { kill = 10157 }, { kill = 10158 }, { kill = 10159 }, { kill = 10160 }, { kill = 12138 } },
       also = { "elune", "night-elves", "winterspring", "darkshore", "the-hinterlands" },
       text = {
         { "The great owl-bears of the north are called wildkin, or moonkin, and the night elves treat them with a reverence travellers do not always share. They are rumoured to have been made by Elune herself, and some say they were her pets. A night elf scholar who studies their feathers finds a magic in them that the creatures do not wield so much as carry, part of their very nature." },
@@ -3824,8 +3824,7 @@ ns.content = {
       also = { "tirion-fordring", "scarlet-crusade", "western-plaguelands" },
       text = {
         { "Hearthglen surrounds Mardenholde Keep in the northern Western Plaguelands. The Scarlet Crusade holds its walls, and Grand Inquisitor Isillien keeps a green, surviving town in the middle of the plague country by ruthless means." },
-        { "Its Highlord, Taelan Fordring, grew weary of serving as the Grand Crusader's puppet. Memories of his father, Tirion, sustained him, and he finally left to seek him. Isillien caught and killed Taelan on the road. Tirion arrived too late, defeated the inquisitor, and knelt beside his son's body." },
-        { "Taelan's father had once been cast out of the Silver Hand for sparing an orc. His son wanted to see him again." },
+        { "The keep was once Tirion Fordring's seat. When he was exiled for refusing to betray an orc who had saved his life, his wife told their son Taelan that he was dead. Taelan now holds his father's home for the Crusade. Tirion lives in a hut beside the Thondroril, gathering what he can of the boy's past and looking for a way to reach him." },
       },
     },
     ["house-of-barov"] = {
@@ -3867,7 +3866,7 @@ ns.content = {
     },
     ["taelan-fordring"] = {
       title = "Taelan Fordring", kind = "figure", chapter = "western-plaguelands", portrait = 10341,
-      unlock = { { npc = 1842 }, { quest = 5862 } },
+      unlock = { { quest = 5944 } },
       also = { "tirion-fordring", "hearthglen", "scarlet-crusade", "the-ashbringer" },
       text = {
         { "Taelan Fordring grew up believing his father was dead. When Tirion was stripped of his lands for keeping his word to an orc, Taelan's mother stayed behind and told the boy that much. He joined the Scarlet Crusade, rose under the Grand Crusader, cast down the standard of the Silver Hand at Northdale, and became Highlord of the Crusade at Hearthglen." },

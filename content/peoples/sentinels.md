@@ -4,7 +4,7 @@ title: The Sentinels
 kind: faction
 portrait: 3936
 unlock:
-  - npc: 2081, 2155, 3519
+  - npc: 2081, 2155, 2302, 2930, 3519, 3571, 3639, 3657, 3691, 3694, 3880, 3885, 3936, 4079, 4080, 4262, 5916, 6086, 6087, 7939, 7956, 7957, 7999, 8015, 8396, 8397, 10604, 10606, 11276, 11711, 11806, 12048, 12160, 12429, 12856, 12896, 12897, 13327, 13336, 13427, 14378, 14379, 14380, 14715, 14733, 14753, 15451, 15457
   - read: The Sentinels and the Long Vigil
 also: [tyrande-whisperwind, shandris-feathermoon, night-elves, elune, cenarius]
 ---

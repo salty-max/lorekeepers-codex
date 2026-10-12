@@ -4,8 +4,8 @@ title: The High Elves
 kind: faction
 portrait: 12322
 unlock:
-  - npc: 12322
-  - kill: 2691, 2692, 2693, 2694
+  - npc: 1156, 1752, 3339, 3465, 4456, 5498, 7801, 10304, 10976, 11704, 11706, 12322, 14348
+  - kill: 2691, 2692, 2693, 2694, 8214, 8563, 8564, 8565, 10824
   - area: Quel'Danil Lodge
   - read: Exile of the High Elves
   - read: The Founding of Quel'Thalas

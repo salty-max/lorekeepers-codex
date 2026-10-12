@@ -18,6 +18,12 @@ vanilla leaves open, another continuity. Each page still goes through the
 usual steps: ids checked on Wowhead Classic, sources read in full, the pages
 it overlaps reread, `bun run check`.
 
+After implementation, the review follow-up in [expansion-follow-up.md](expansion-follow-up.md)
+corrects the source details and expands membership encounters. The tables below
+record the original plan; final unlock lists live in the source pages. In
+particular, Azshara's Timbermaw routes are Classic-only, and Taelan's complete
+story now unlocks only after In Dreams (5944), not on meeting him.
+
 ## Wave 0: reading unlocks the old histories (done, 12 October 2026)
 
 The original game put some forty history books in its libraries, inns and

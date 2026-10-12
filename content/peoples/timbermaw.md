@@ -4,9 +4,11 @@ title: The Timbermaw
 kind: faction
 portrait: 6188
 unlock:
+  - npc: 11516, 11552, 11553, 11554, 11555, 11556, 11557, 11558
+  - [classic] npc: 6184, 6185, 6186, 6187, 6188, 6189, 6651
   - reputation: 576 friendly
   - area: Timbermaw Hold (Felwood)
-  - area: Timbermaw Hold (Azshara)
+  - [classic] area: Timbermaw Hold (Azshara)
 also: [furbolgs, felwood, winterspring, moonglade]
 ---
 Of all the furbolg tribes of the north, only the Timbermaw have kept their minds. The corruption that seeped out of Felwood turned the Deadwood and the Winterfall into the snarling creatures you meet on the roads, and the Timbermaw had to watch it happen to their kin. They held on in their tunnels under the mountains between Felwood, Moonglade and Winterspring, and held them against everyone.

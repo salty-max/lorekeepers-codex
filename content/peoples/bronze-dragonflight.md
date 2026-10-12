@@ -4,7 +4,8 @@ title: The Bronze Dragonflight
 kind: faction
 portrait: 15192
 unlock:
-  - npc: 15192, 10667
+  - npc: 10667, 15192, 15381
+  - kill: 8196, 8197, 8198
 also: [the-five-aspects, caverns-of-time, the-scepter-of-the-shifting-sands, darrowshire, andorhal]
 ---
 Nozdormu, the Timeless One, was given the keeping of time, and his flight guards its pathways. They are seldom seen. When they are, it is usually because something has gone wrong with when things happen.

@@ -1158,4 +1158,133 @@ state.player = { race = "Orc", class = "SHAMAN" }
 check(hoverPlayer() == "", "… and nothing once their pages are found")
 state.player = nil
 
+-- Expansion pages: encounters belong to the actual people, not just a few
+-- representatives or every creature with a similar model.
+do
+  local found = LorekeepersCodexChar.entries
+  local function meet(id)
+    state.target = id
+    fire("PLAYER_TARGET_CHANGED")
+  end
+  found.sentinels = nil
+  meet(3936)
+  check(has("sentinels"), "Shandris Feathermoon unlocks her Sentinels' page")
+  found.sentinels = nil
+  meet(4262)
+  check(has("sentinels"), "an ordinary Darnassus Sentinel unlocks it too")
+  found["blue-dragonflight"] = nil
+  meet(6109)
+  check(has("blue-dragonflight"), "meeting Azuregos unlocks the blue flight")
+  found["blue-dragonflight"] = nil
+  kill(PLAYER, 10659)
+  check(has("blue-dragonflight"), "a Cobalt Whelp kill unlocks the blue flight")
+  found["green-dragonflight"] = nil
+  meet(5709)
+  check(not has("green-dragonflight"), "Eranikus' hostile shade must be killed, not merely targeted")
+  kill(PET, 5709)
+  check(has("green-dragonflight"), "a pet's kill of the Shade of Eranikus unlocks the green flight")
+  found["bronze-dragonflight"] = nil
+  kill(PLAYER, 8197)
+  check(has("bronze-dragonflight"), "Chronalis unlocks the bronze flight")
+  found["blood-elves"], found["shadow-council"], found["high-elves"] = nil, nil, nil
+  meet(4198)
+  check(
+    has("blood-elves") and has("shadow-council") and not has("high-elves"),
+    "Braelyn Firehand belongs to the blood elves and Shadow Council, not the remaining high elves"
+  )
+  found["blood-elves"] = nil
+  meet(14387)
+  check(has("blood-elves"), "Lothos Riftwaker unlocks the blood elves outside Molten Core")
+  found["high-elves"] = nil
+  meet(11706)
+  check(has("high-elves"), "Adon unlocks the high elves at the Thalassian border")
+  found.dreadlords, found["shadow-council"] = nil, nil
+  meet(9516)
+  check(has("dreadlords") and has("shadow-council"), "Lord Banehollow belongs to both pages")
+  found.dreadlords, found["shadow-council"] = nil, nil
+  kill(PLAYER, 7664)
+  check(has("dreadlords") and has("shadow-council"), "Razelikh unlocks the dreadlords and the Shadow Council")
+  found["shadow-council"] = nil
+  meet(3216)
+  check(has("shadow-council"), "Neeru Fireblade unlocks the Shadow Council inside Orgrimmar")
+  found["shadow-council"] = nil
+  kill(PLAYER, 11322)
+  check(has("shadow-council"), "the Searing Blade in Ragefire Chasm belongs to the Shadow Council")
+  found["shadow-council"] = nil
+  kill(PLAYER, 3660)
+  check(has("shadow-council"), "Athrikus Narassin's Dark Strand belongs to the Shadow Council")
+  found["shadow-council"] = nil
+  kill(PLAYER, 2318)
+  check(has("shadow-council"), "an Argus Shadow Mage unlocks the Shadow Council in Alterac")
+  found["shadow-council"] = nil
+  kill(PLAYER, 6004)
+  check(has("shadow-council"), "the Shadowsworn unlock the Shadow Council in the Blasted Lands")
+  found.ancients = nil
+  meet(3616)
+  check(has("ancients"), "Onu unlocks the ancients in Darkshore")
+  found.wildkin = nil
+  kill(PLAYER, 12138)
+  check(has("wildkin"), "Lunaclaw unlocks the wildkin during the druid's trial")
+  found.deathstalkers = nil
+  meet(6497)
+  check(not has("deathstalkers"), "Astor Hadren, the Syndicate courier, is not a Deathstalker")
+  meet(6467)
+  check(has("deathstalkers"), "Mennet Carkad, their recruiter, is a Deathstalker")
+  found.highborne, found["high-elves"] = nil, nil
+  meet(14368)
+  check(has("highborne") and not has("high-elves"), "the Shen'dralar lorekeepers are Highborne")
+  found.highborne = nil
+  kill(PLAYER, 11487)
+  check(has("highborne"), "Magister Kalendris unlocks the Highborne among Dire Maul's dead")
+
+  -- Forever renamed Azshara's hold and its tribe. The same area id and
+  -- original NPC ids must not introduce the Timbermaw there.
+  local areaInfo = C_Map.GetAreaInfo
+  C_Map.GetAreaInfo = function(id)
+    if id == 1216 then return FOREVER and "Blackmaw Hold" or "Timbermaw Hold" end
+    return areaInfo(id)
+  end
+  found.timbermaw = nil
+  state.zone, state.sub = "Azshara", FOREVER and "Blackmaw Hold" or "Timbermaw Hold"
+  ns.startUnlocks()
+  check(has("timbermaw") == not FOREVER, "Azshara's hold unlocks the Timbermaw on Classic only")
+  found.timbermaw = nil
+  meet(6188)
+  check(has("timbermaw") == not FOREVER, "Azshara's original tribal ids unlock the Timbermaw on Classic only")
+  found.timbermaw = nil
+  state.zone, state.sub = "Felwood", "Timbermaw Hold"
+  fire("ZONE_CHANGED")
+  check(has("timbermaw"), "Felwood's Timbermaw Hold unlocks the page on either client")
+  found.timbermaw = nil
+  state.standing[576] = 5
+  fire("UPDATE_FACTION")
+  check(has("timbermaw"), "friendly Timbermaw reputation still unlocks the page")
+  state.standing[576] = nil
+  found.timbermaw = nil
+  meet(11554)
+  check(has("timbermaw"), "meeting Grazle unlocks the Timbermaw on either client")
+  C_Map.GetAreaInfo = areaInfo
+
+  -- This page tells the escort's ending. Neither meeting Taelan nor
+  -- receiving Tirion's disguise should reveal it before the player sees it.
+  found["taelan-fordring"] = nil
+  meet(1842)
+  check(not has("taelan-fordring"), "meeting Taelan does not reveal his ending")
+  fire("QUEST_TURNED_IN", 5862)
+  check(not has("taelan-fordring"), "Scarlet Subterfuge does not reveal Taelan's ending")
+  found.hearthglen = nil
+  state.zone, state.sub = "Western Plaguelands", "Hearthglen"
+  fire("ZONE_CHANGED")
+  check(has("hearthglen") and not has("taelan-fordring"), "Hearthglen can be read before Taelan's story ends")
+  fire("QUEST_TURNED_IN", 5944)
+  check(has("taelan-fordring"), "In Dreams unlocks Taelan's full story")
+  found["taelan-fordring"] = nil
+  state.questsDone[5944] = true
+  ns.catchUp()
+  check(
+    has("taelan-fordring") and found["taelan-fordring"].retro,
+    "In Dreams completed before installing the addon unlocks Taelan quietly"
+  )
+end
+
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")
