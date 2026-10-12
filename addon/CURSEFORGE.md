@@ -13,11 +13,12 @@ For Classic Era (Hardcore, Season of Discovery), TBC Anniversary and World of Wa
 
 ## What's inside
 
-- **349 original pages in 43 chapters** (361 in 44 on Forever): every zone of the original game, its places, figures, peoples and histories, from the Sundering to the gates of Ahn'Qiraj.
+- **409 original pages in 44 chapters** (421 in 45 on Forever): every zone of the original game, its places, figures, peoples and histories, and Ages Past, the world's history from the Titans to the last war, from the Sundering to the gates of Ahn'Qiraj.
 - **Peoples and Powers**: the playable peoples (your own from the start, the others when you meet one of them), the Scourge, the Defias, the Dark Irons, the dragonflights, the troggs and some twenty-five more.
 - **The Callings**: a page for each class, where it comes from and who walks it; yours from the start, the others when you meet a player of that class.
 - **A foreword for your race**, so a dwarf, an orc or one of the Forsaken each read the ledger as theirs. On Forever, the Skyborne have their own.
-- **Lore true to the era**: drawn from Warcraft I to III, the original game's quests and books, and the novels published before Wrath of the Lich King. No spoilers from later expansions.
+- **Lore true to the era**: the world's past up to the original game, drawn from Warcraft I to III, the original game's quests and books, and the novels, stories and histories that tell it. No spoilers from later expansions.
+- **Books that open pages**: read the old histories on the shelves of the world's libraries and inns, the plaques of the Valley of Heroes, a grave or a monument, and their pages join the codex, in every language of the game.
 
 ## How it works
 
