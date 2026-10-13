@@ -1,6 +1,7 @@
 ## Interface: 20506
 ## Title: Lorekeeper's Codex
 ## Notes: Unlock Azeroth's lore as you explore, meet its people and complete quests. Collect the books and notes you read along the way.
+## Notes-frFR: Débloquez l'histoire d'Azeroth en explorant, en rencontrant ses habitants et en accomplissant des quêtes. Collectionnez les livres et les notes que vous lisez en chemin.
 ## Category: Roleplay
 ## Author: salty-max
 ## Version: 0.11.1
