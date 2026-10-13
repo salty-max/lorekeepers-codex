@@ -369,6 +369,20 @@ ns.translate({
         { "Elle partage un ennemi avec la Croisade écarlate, mais guère d'affection pour ses méthodes. L'Aube tient la méfiance de la Croisade envers chaque étranger pour une aide au roi-liche. L'objection a son bon sens : ce combat a déjà bien assez d'ennemis." },
       },
     },
+    ["ashenvale"] = {
+      title = "Ashenvale",
+      text = {
+        { "Ashenvale est l'antique forêt des elfes de la nuit : des arbres immenses, un clair de lune argenté, des lacs immobiles et des ruines plus vieilles que n'importe quel royaume des hommes. Pendant dix mille ans, les elfes de la nuit y vécurent cachés, gardés par leurs Sentinelles et par le demi-dieu Cénarius, et n'y laissèrent entrer personne." },
+        { "Puis les orcs arrivèrent en Kalimdor, avec besoin de bois pour leur nouvelle terre, et la forêt est en guerre depuis. Pendant la dernière guerre, le clan Chanteguerre entama Ashenvale et tua Cénarius sous l'emprise de la corruption de Mannoroth ; les elfes de la nuit ne le leur ont pas pardonné, et la Horde n'a pas cessé de couper. Sentinelles et voltigeurs chanteguerres s'affrontent aujourd'hui le long de la lisière est de la forêt, tandis que des furbolgs devenus fous, des satyres et des nagas inquiètent tout le monde également." },
+      },
+    },
+    ["astranaar"] = {
+      title = "Astranaar",
+      text = {
+        { "Astranaar se dresse sur une île au milieu d'un lac d'Ashenvale, reliée à la forêt par des ponts. Son puits de lune, son auberge et la caserne de ses Sentinelles donnent aux elfes de la nuit un centre d'où défendre le pays alentour. C'est une belle ville qui connaît bien peu de répit." },
+        { "Un père y cherche de l'aide pour la fièvre et les cauchemars de sa fille. Les remèdes ordinaires n'y ont rien fait. Les herboristes parlent d'une maladie de la forêt elle-même, tandis que les Sentinelles accusent la corruption laissée par les démons de la guerre. Un voyageur venu aider à défendre Astranaar découvrira peut-être que les ennuis de la ville commencent bien à l'intérieur de ses abords gardés." },
+      },
+    },
     ["auberdine"] = {
       title = "Auberdine",
       text = {
@@ -397,6 +411,13 @@ ns.translate({
         { "Neltharion était le Gardien de la Terre, chargé des profondeurs du monde. Sa trahison envers les autres vols draconiques lui valut le nom d'Aile de mort. Après la Deuxième Guerre, il entra dans les conseils des rois humains sous le nom de seigneur Prestor, cachant un dragon derrière un visage de noble. Il échappa aux Aspects après la lutte de Grim Batol ; on ignore toujours où il s'est retiré." },
         { "Ses enfants occupent des lieux que nous pouvons nommer. Onyxia garde sa couvée dans le marécage d'Âprefange. Nefarian tient le pic Rochenoire, commande ses orcs et élève au-dessus d'eux des dragons chromatiques. Des dragonnets noirs peuplent les Carmines et les Terres ingrates, tandis que des draconides gardent les plus grands domaines du vol." },
         { "Les repaires sont assez redoutables. Le seigneur Prestor a montré ce qu'un dragon noir pouvait accomplir avec un siège à la table d'un conseil." },
+      },
+    },
+    ["blackfathom-deeps"] = {
+      title = "Les profondeurs de Brassenoire",
+      text = {
+        { "Sur la côte d'Ashenvale, à la grève de Zoram, il y a des cavernes envahies par la mer, et elles renferment les ruines d'un temple d'Elune qui sombra quand le Puits d'éternité fut détruit. Les nagas le trouvèrent les premiers. Puis ce fut le tour du Marteau du crépuscule, mené par un seigneur du crépuscule du nom de Kelris." },
+        { "Leurs papiers disent ce qu'ils y font. Ils rassemblent la puissance des eaux profondes pour nourrir une créature qu'ils appellent Aku'mai, qui dort dans les profondeurs du temple, afin qu'un jour le monde revienne à ce qu'ils appellent son âge le plus glorieux : un âge où régneraient les Dieux très anciens. Les elfes de la nuit et la Horde y envoient tous deux leurs jeunes pour les arrêter, ce qui est peut-être la seule chose sur laquelle les deux s'entendent en Ashenvale." },
       },
     },
     ["blackrock-clan"] = {
@@ -611,6 +632,13 @@ ns.translate({
         { "Quand les orcs rasèrent Hurlevent pendant la Première Guerre, ce fut la guilde des Tailleurs de pierre, sous un maître nommé Edwin VanCleef, qui la rebâtit. Le travail achevé, la Chambre des nobles refusa de les payer. VanCleef mena ses maçons dans une émeute à travers les rues neuves, et quitta la cité en jurant vengeance." },
         { "La guilde devint une bande. Dans la Marche de l'Ouest, ils prirent le nom de Confrérie défias, nouèrent des foulards rouges sur leurs visages, et entreprirent de ruiner les terres agricoles qui nourrissent la cité : brûler les champs, chasser les familles, et s'allier à quiconque voulait d'eux. Des ingénieurs gobelins travaillent pour eux dans les Mortemines, et leur influence s'étend jusqu'à Elwynn, aux Carmines, au Bois de la Pénombre et jusqu'à la prison de la cité, où Bazil Thredd, le lieutenant de VanCleef, a soulevé les détenus." },
         { "Les maçons avaient un grief, pour leur travail impayé. Mais quoi que la Confrérie ait pu défendre un jour, les fermiers de la Marche de l'Ouest l'ont payé bien plus cher que n'importe quel seigneur de Hurlevent." },
+      },
+    },
+    ["demon-fall-canyon"] = {
+      title = "Le canyon de la Malechute",
+      text = {
+        { "Après que Grom Hellscream eut bu le sang du démon et tué Cénarius, Thrall et Jaina Proudmoore le traquèrent et le libérèrent de sa malédiction. Puis Grom partit à la recherche du démon. Dans un canyon d'Ashenvale, il trouva Mannoroth, le seigneur des abîmes dont le sang avait damné les orcs, le tua de sa hache, et en mourut." },
+        { "Les orcs se souviennent de lui comme de celui qui les a libérés, et ont donné son nom à leur grande salle d'Orgrimmar. Le canyon reste un lieu de démons : les serviteurs de la Légion ardente le tiennent, et le sol où tomba Mannoroth n'a jamais été purifié." },
       },
     },
     ["dolanaar"] = {
@@ -910,6 +938,14 @@ ns.translate({
       text = {
         { "La plupart des taurens vivent selon la paix de la Terre-Mère. Pas ceux du Totem sinistre. C'est une tribu qui estime que les autres races n'ont aucun droit sur Kalimdor, taurens en désaccord compris, et qui se bat pour le reprendre sans règles ni pitié." },
         { "Leur matriarche, Magatha Grimtotem, l'Ancienne Mégère, vit à Thunder Bluff même et siège parmi les anciens, ce qui en dit long sur la patience de Cairne Bloodhoof. Ses guerriers sont moins polis. Ils lancent des raids dans les Serres-Rocheuses, tiennent la cime de Noir-nuage à Mille pointes, harcèlent le poste de Librevent, et gardent une enceinte en Feralas. Demandez à un tauren de Librevent ce qu'il pense du Totem sinistre, puis reculez d'un pas." },
+      },
+    },
+    ["grom-hellscream"] = {
+      title = "Grom Hellscream",
+      text = {
+        { "Grommash Hellscream, chef des Chanteguerre, fut le premier des chefs orcs à boire le sang de Mannoroth sur Draenor, et il y mena les autres. La force qu'il leur donna lia les clans au démon dont ils partageaient le sang." },
+        { "Quand la Horde tomba et que les clans furent jetés dans les camps, ses Chanteguerre continuèrent de se battre depuis leurs cachettes, et Grom resta un chef invaincu. Le jeune Thrall apprit de lui ce que la Horde avait été, et trouva en lui un allié pour rassembler les clans dispersés. Les deux firent voile vers Kalimdor en amis, portant l'espoir d'un foyer loin des camps et des vieilles guerres." },
+        { "Grom ne vécut pas assez pour voir bâtir le nouveau foyer de la Horde. Thrall posa une pierre là où il tomba, dans le canyon de la Malechute. « À bien des égards, y lit-on, la malédiction de notre peuple a commencé et s'est achevée avec Grom. » Son nom signifiait cœur de géant, écrit le chef de guerre, et il l'a mérité cent fois." },
       },
     },
     ["hall-of-thanes"] = {
@@ -1551,6 +1587,13 @@ ns.translate({
         { "Leur capitaine sur la Côte des marchands est le baron de Longrivage, et Gazlowe, de Ratchet, a mis sa tête à prix ; les gobelins de Gadgetzan paient tout aussi bien pour les pirates de Tanaris. Il n'y a pas de grande histoire derrière eux, ni roi exilé ni cause perdue. Ce sont des voleurs qui possèdent des bateaux, et la mer est vaste." },
       },
     },
+    ["splintertree-post"] = {
+      title = "Le poste de Bois-brisé",
+      text = {
+        { "Le poste de Bois-brisé est le fort de la Horde à la lisière est d'Ashenvale, une palissade de bois brut où les bûcherons et les cavaliers Chanteguerre tiennent leur camp. Les Sentinelles l'attaquent sans cesse, et les orcs le leur rendent bien." },
+        { "Les orcs disent qu'ils ont besoin du bois : Durotar est une terre de roche rouge, et un peuple doit bâtir. Les elfes de la nuit disent que chaque arbre de cette forêt est plus vieux que la Horde. Les deux ont raison, et c'est bien ce qui rend la chose si difficile." },
+      },
+    },
     ["stalvan-mistmantle"] = {
       title = "Stalvan Mistmantle",
       text = {
@@ -1941,6 +1984,20 @@ ns.translate({
         { "Il n'existe pas d'ordre unique des guerriers, $gvoyageur:voyageuse;, seulement un métier aussi vieux que la première querelle. Les fantassins de Lordaeron et les chevaliers de Hurlevent, les grunts orcs qui ont abattu ces mêmes murailles, les braves taurens des plaines et les chasseurs Darkspear des îles ont appris les mêmes leçons par des chemins différents." },
         { "Le métier a pourtant ses écoles. Un guerrier apprend à se tenir de trois façons : au combat, pour frapper le premier et fort ; en défense, derrière un bouclier, pour tenir une ligne ; et dans la fureur du berserker, qui dépense sans compter les forces du corps et les lui réclame plus tard. L'essentiel du travail consiste à savoir laquelle le moment exige." },
         { "Chaque capitale a une salle où les guerriers forment les jeunes. La Ligue en engage un bon nombre comme escortes, et je n'en ai encore jamais rencontré un qui n'ait pas d'avis sur l'endroit où les fouilleurs devraient creuser." },
+      },
+    },
+    ["warsong-gulch"] = {
+      title = "Le goulet des Chanteguerres",
+      text = {
+        { "Dans le goulet des Chanteguerres, à la lisière sud d'Ashenvale, les elfes de la nuit ont tracé leur ligne contre l'abattage chanteguerre. Les Sentinelles d'Aile-argent tiennent un bout de la vallée et les voltigeurs chanteguerres l'autre. Leurs combattants traversent d'un camp à l'autre pour s'emparer de la bannière ennemie." },
+        { "La Horde y voit la défense d'une exploitation forestière ; l'Alliance voit dans cette exploitation une invasion. Les deux camps envoient des combattants venus de bien au-delà d'Ashenvale." },
+      },
+    },
+    ["warsong-lumber-camp"] = {
+      title = "Le camp de bûcherons chanteguerre",
+      text = {
+        { "Quand les orcs débarquèrent en Kalimdor, Thrall envoya Grom Hellscream et son clan Chanteguerre chercher du bois en Ashenvale. Les gardiens de la forêt ne voulaient pas d'eux, et le demi-dieu Cénarius, le seigneur de la forêt lui-même, se dressa contre eux." },
+        { "Grom ne put le vaincre. Alors il fit ce que les orcs avaient juré de ne plus jamais faire : il but le sang du démon Mannoroth, et grâce à sa force, les Chanteguerre tuèrent Cénarius dans sa propre forêt. La malédiction du démon pesait de nouveau sur eux. Les camps de bûcherons chanteguerres sont toujours là, et coupent toujours, et les elfes de la nuit ont la mémoire longue." },
       },
     },
     ["wendigos"] = {
