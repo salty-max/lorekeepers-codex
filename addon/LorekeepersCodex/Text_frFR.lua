@@ -696,7 +696,7 @@ ns.translate({
       title = "Désolace",
       text = {
         { "Désolace porte bien son nom : un pays gris, sec, à l'air mort, à l'ouest des Serres-Rocheuses, fait de roche couleur de cendre, d'arbres desséchés et d'ossements. Il n'y pousse pas grand-chose. On y meurt beaucoup : les kodos viennent y mourir, et leurs squelettes s'entassent dans un grand cimetière au milieu du pays." },
-        { "Il appartient, s'il appartient à quelqu'un, aux centaures, dont les clans s'y affrontent et dont le lieu le plus sacré, Maraudon, se trouve au sud-ouest. La Lame ardente tient une forteresse au nord et ouvre des portes aux démons, des nagas hantent la côte, et l'Alliance et la Horde y gardent chacune un petit avant-poste nerveux. Ce n'est une terre que personne n'aime." },
+        { "Il appartient, s'il appartient à quelqu'un, aux centaures, dont les clans s'y affrontent et dont le lieu le plus sacré, Maraudon, se trouve au sud-ouest. La Lame ardente tient une forteresse au nord et ouvre des portes aux démons, des nagas hantent la côte, et l'Alliance et la Horde y gardent chacune un petit avant-poste nerveux. Ce n'est pas une terre que l'on aime." },
       },
     },
     ["dolanaar"] = {
@@ -1248,7 +1248,7 @@ ns.translate({
     ["mannoroc-coven"] = {
       title = "Le convent de Mannoroc",
       text = {
-        { "Au sud de Désolace s'étend une vallée calcinée où les démons se promènent ouvertement : gardes funestes, chiens corrompus, infernaux et pire encore, parmi des autels brisés et des flammes vertes. On l'appelle le convent de Mannoroc, et les démons n'y sont pas venus par hasard." },
+        { "Au sud de Désolace s'étend une vallée calcinée où les démons se promènent ouvertement : gardes funestes, gangrechiens, infernaux et pire encore, parmi des autels brisés et des flammes vertes. On l'appelle le convent de Mannoroc, et les démons n'y sont pas venus par hasard." },
         { "On les a laissés entrer. La Lame ardente, depuis sa forteresse du nord, détient une relique appelée la Main d'Iruxos, et grâce à elle, elle a ouvert des portails vers le royaume des démons dans la vallée. Les taurens de Proie-de-l'Ombre tentent de les refermer. Chaque portail fermé est une porte que la Légion doit rouvrir, et la Légion est patiente." },
       },
     },
