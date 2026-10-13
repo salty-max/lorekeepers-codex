@@ -331,9 +331,7 @@ function ns.checkAchievements(quiet)
       if need > 0 and done >= need then
         c.achievements[a.id] = { at = time(), level = UnitLevel("player"), retro = quiet or nil }
         if not quiet then
-          if ns.option("chat") then
-            print(PREFIX .. ("achievement earned: |cffffd100|Hlorekeeper:ach:%s|h[%s]|h|r"):format(a.id, a.title))
-          end
+          print(PREFIX .. ("achievement earned: |cffffd100|Hlorekeeper:ach:%s|h[%s]|h|r"):format(a.id, a.title))
           ns.playSound()
           ns.showAchievementBanner(a.id)
         end

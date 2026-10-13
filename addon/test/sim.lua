@@ -577,18 +577,20 @@ check(ns.option("minimapHidden") and not LorekeepersCodexMinimapButton.shown, "/
 SlashCmdList.LOREKEEPERSCODEX("minimap")
 SlashCmdList.LOREKEEPERSCODEX("banner")
 check(panel.settings.LOREKEEPERSCODEX_BANNER.get() == false, "the settings page follows /codex banner")
-panel.settings.LOREKEEPERSCODEX_CHAT.set(false)
+check(
+  not panel.settings.LOREKEEPERSCODEX_CHAT and panel.settings.LOREKEEPERSCODEX_ACHIEVEMENTTOAST.get() == true,
+  "… no switch for the chat lines (always shown), one for the achievements' alerts"
+)
 panel.settings.LOREKEEPERSCODEX_SOUND.set(3175)
 check(lastSound == 3175, "choosing a sound plays it")
 printed = {}
 local toastedBefore = #toasted
 ns.unlock("menethil-harbor")
 check(
-  #toasted == toastedBefore and #printed == 0 and lastSound == 3175,
-  "banner and chat off: a new page only plays the chosen sound"
+  #toasted == toastedBefore and #printed == 1 and printed[1]:find("has been added", 1, true) and lastSound == 3175,
+  "the page's alert off: a new page has its line in chat and the chosen sound"
 )
 panel.settings.LOREKEEPERSCODEX_BANNER.set(true)
-panel.settings.LOREKEEPERSCODEX_CHAT.set(true)
 panel.settings.LOREKEEPERSCODEX_MINIMAPHIDDEN.set(false)
 check(not LorekeepersCodexMinimapButton.shown, "the minimap box unticked hides the button")
 panel.settings.LOREKEEPERSCODEX_MINIMAPHIDDEN.set(true)
@@ -608,7 +610,15 @@ check(#labels == #ns.SOUNDS and labels[#labels] == "None", "the sound can be cho
 -- offers them once per character, and another character's to take.
 local P = ns.profiles
 local kept = {}
-for _, k in ipairs({ "banner", "bannerSeconds", "chat", "sound", "tooltipHints", "minimapHidden", "minimapAngle" }) do
+for _, k in ipairs({
+  "banner",
+  "bannerSeconds",
+  "achievementToast",
+  "sound",
+  "tooltipHints",
+  "minimapHidden",
+  "minimapAngle",
+}) do
   kept[k] = ns.option(k)
 end
 check(
@@ -626,28 +636,30 @@ check(ns.option("sound") == 878 and lastSound == 878, "… a sound chosen there 
 W.frame:Hide()
 fire("PLAYER_ENTERING_WORLD", true, false)
 check(not W.frame.shown and ns.option("welcomed"), "… seen once")
-LorekeepersCodexSettings.profiles["Brann - Nightslayer"] = { chat = false, sound = 0, banner = false }
+LorekeepersCodexSettings.profiles["Brann - Nightslayer"] = { achievementToast = false, sound = 0, banner = false }
 SlashCmdList.LOREKEEPERSCODEX("welcome")
 local pick = W.picker.select
 check(pick.rows[1].text:GetText() == "Brann - Nightslayer", "… another character of this game, in its select")
 pick.rows[1].scripts.OnClick(pick.rows[1])
 W.picker.copy.scripts.OnClick(W.picker.copy)
 check(
-  ns.option("chat") == false
+  ns.option("achievementToast") == false
     and ns.option("sound") == 0
     and ns.option("banner") == false
     and ns.option("bannerSeconds") == 10
-    and not W.rows[1].box:GetChecked(),
+    and not W.rows[1].box:GetChecked()
+    and not W.rows[2].box:GetChecked(),
   "… its choices copied (what it lacks: the defaults), the boxes with them"
 )
 local code = P:export()
 check(code:match("^LC1:") and code:find(":s0:", 1, true), "… a code for them: " .. code)
-SlashCmdList.LOREKEEPERSCODEX("import LC1:c1:s-1:b1")
+SlashCmdList.LOREKEEPERSCODEX("import LC1:v1:s-1:b1")
 check(
-  ns.option("chat") and ns.option("sound") == -1 and ns.option("banner"),
+  ns.option("achievementToast") and ns.option("sound") == -1 and ns.option("banner"),
   "… /codex import CODE (a negative number too)"
 )
-check(not P:import("HT1:c1") and ns.option("chat"), "… another addon's code refused")
+check(not P:import("HT1:c1") and ns.option("achievementToast"), "… another addon's code refused")
+check(P:import("LC1:c0:s0:b1") and ns.option("sound") == 0, "… an older code's c (the chat lines) left out")
 local copyFrom = panel.settings.LOREKEEPERSCODEX_COPYFROM
 check(
   copyFrom and copyFrom.options()[2].value == "Brann - Nightslayer",
@@ -1237,6 +1249,16 @@ check(
 LorekeepersCodexFrame:Hide()
 card.scripts.OnClick(card, "RightButton")
 check(not card.shown and not LorekeepersCodexFrame.shown, "… a right-click only dismisses it")
+ns.setOption("banner", false)
+ns.showAchievementBanner("pages-10")
+card = bannerOf("achievement", "pages-10")
+check(card, "the pages' alerts off, an achievement's still shows: a switch of its own")
+card.scripts.OnClick(card, "RightButton")
+ns.setOption("achievementToast", false)
+ns.showAchievementBanner("pages-10")
+check(not bannerOf("achievement", "pages-10"), "… which turns them off")
+ns.setOption("banner", true)
+ns.setOption("achievementToast", true)
 
 -- Players met: one's own people and calling were known from the start;
 -- targeting a player unlocks theirs, and counts toward the encounters.

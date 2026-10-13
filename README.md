@@ -54,8 +54,8 @@ The welcome page appears once per character. Use `/codex welcome` to see it
 again. Settings are under **Options > AddOns > Lorekeeper's Codex**, through
 `/codex settings` or by right-clicking the minimap button.
 
-Choose alerts, their duration, sounds, chat announcements, tooltip hints
-and the minimap button. Each character has its own settings. Copy another
+Choose the alerts for new pages and for achievements, their duration,
+sounds, tooltip hints and the minimap button (chat lines always show). Each character has its own settings. Copy another
 character's settings in the same game, or transfer them with `/codex export`
 and `/codex import CODE`.
 

@@ -6,7 +6,8 @@
 -- Codex achievement"; a click opens the achievements. Two at a time, the others wait their turn; each
 -- goes after a few seconds (bannerSeconds in the settings, 0 to keep it until
 -- read or closed), never while the mouse is on it; a right-click or its cross
--- dismisses it. Turned off in the settings or with /codex banner.
+-- dismisses it. Turned off in the settings, a page's and an achievement's
+-- apart (/codex banner: a page's).
 local _, ns = ...
 local C = ns.content
 
@@ -37,7 +38,7 @@ end
 
 function ns.showAchievementBanner(id)
   local a = ns.achievementById[id]
-  if not ns.option("banner") or not a then return end
+  if not ns.option("achievementToast") or not a then return end
   made()
   achievements:show({
     picture = ns.ui.BOOK,

@@ -6,8 +6,11 @@
 -- minimap button; the welcome page (Welcome.lua) offers them too.
 --
 --   LorekeepersCodexSettings.profiles["Name - Realm"] = { banner,
---     bannerSeconds, chat, sound, tooltipHints, minimapHidden, minimapAngle,
---     welcomed }
+--     bannerSeconds, achievementToast, sound, tooltipHints, minimapHidden,
+--     minimapAngle, welcomed }
+--   (banner: a new page's alert; achievementToast: an achievement's. The
+--   chat lines have no setting any more, always shown: a profile's old chat
+--   value is left unread)
 --   (the account-wide values of 0.8.0 and before, at the top of the table:
 --   the first profile of a character who kept a codex before takes them)
 local _, ns = ...
@@ -18,14 +21,15 @@ local K = ns.kit
 local DEFAULTS = {
   banner = true,
   bannerSeconds = 10,
-  chat = true,
+  achievementToast = true,
   sound = -1,
   minimapHidden = false,
   minimapAngle = 200,
   tooltipHints = true,
   welcomed = false,
 }
-local SHARED = { "banner", "bannerSeconds", "chat", "sound", "tooltipHints", "minimapHidden", "minimapAngle" }
+local SHARED =
+  { "banner", "bannerSeconds", "achievementToast", "sound", "tooltipHints", "minimapHidden", "minimapAngle" }
 
 -- Sounds for a new page: all from the original game's interface. -1 is the
 -- sting heard on discovering a new zone, which differs by race.
@@ -39,8 +43,9 @@ ns.SOUNDS = {
   { 0, "None" },
 }
 
--- The profiles: a code "LC1:b1:d10:c1:s-1:t1:h0:a200" (the alert and its
--- seconds, chat, the sound, tooltip hints, the minimap button hidden, its angle).
+-- The profiles: a code "LC1:b1:d10:v1:s-1:t1:h0:a200" (a page's alert and its
+-- seconds, an achievement's alert, the sound, tooltip hints, the minimap button
+-- hidden, its angle; an older code's c, the chat lines, is left out).
 local P = K.profiles({
   saved = function()
     if type(LorekeepersCodexSettings) ~= "table" then LorekeepersCodexSettings = {} end
@@ -51,7 +56,7 @@ local P = K.profiles({
   letters = {
     banner = "b",
     bannerSeconds = "d",
-    chat = "c",
+    achievementToast = "v",
     sound = "s",
     tooltipHints = "t",
     minimapHidden = "h",
@@ -111,10 +116,11 @@ function ns.createSettingsPanel()
     )
     Settings.CreateCheckbox(category, setting, tooltip)
   end
+  checkbox("banner", "Alert for new pages", "Show each new page in the game's own alert; a click on it reads the page.")
   checkbox(
-    "banner",
-    "Alert for new pages",
-    "Show each new page (and each achievement) in the game's own alert; a click on it reads the page."
+    "achievementToast",
+    "Alert for achievements",
+    "Show each achievement earned in the game's achievement alert; a click on it opens the achievements."
   )
   local seconds = Settings.RegisterProxySetting(
     category,
@@ -136,8 +142,6 @@ function ns.createSettingsPanel()
     options,
     "How long the alert stays on screen. At 0 it stays until you read or dismiss it (right-click)."
   )
-
-  checkbox("chat", "Announce new pages in chat", "A line in chat for each new page, with a link to it.")
 
   local sound = Settings.RegisterProxySetting(
     category,

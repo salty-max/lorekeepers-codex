@@ -88,9 +88,7 @@ local function copy()
   if new then
     local zone, sub = here()
     text.at, text.level, text.zone, text.sub = time(), UnitLevel("player"), zone, sub ~= zone and sub or nil
-    if ns.option("chat") then
-      print(PREFIX .. ("copied into the Library: |cffffd100|Hlorekeeper:lib:%d|h[%s]|h|r"):format(id, text.title))
-    end
+    print(PREFIX .. ("copied into the Library: |cffffd100|Hlorekeeper:lib:%d|h[%s]|h|r"):format(id, text.title))
     if ns.checkAchievements then ns.checkAchievements() end
   end
   if ns.onLibrary then ns.onLibrary(id) end

@@ -40,10 +40,10 @@ local W = K.welcome({
         set = function(v) ns.setOption("banner", v) end,
       },
       {
-        text = "A line in chat for each new page",
-        hint = "With a link that opens it.",
-        get = function() return ns.option("chat") end,
-        set = function(v) ns.setOption("chat", v) end,
+        text = "An alert for each achievement",
+        hint = "The game's achievement alert; a click on it opens the achievements.",
+        get = function() return ns.option("achievementToast") end,
+        set = function(v) ns.setOption("achievementToast", v) end,
       },
       {
         text = "Sound for a new page",
