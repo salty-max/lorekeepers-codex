@@ -298,6 +298,7 @@ ns.translate({
     { "Sombre-Comté", "Darkshire" },
     { "Strahnbrande", "Strahnbrad" },
     { "de Forgefer", "d'Ironforge" },
+    { "Foudrepique", "Stormpike" },
     { "Hautebrande", "Hillsbrad" },
     { "Austrivage", "Southshore" },
     { "Fossoyeuse", "Undercity" },
@@ -331,6 +332,22 @@ ns.translate({
         { "Alonsus Faol dirigeait les clercs de Comté-du-Nord avant la Première Guerre, et quand Hurlevent tomba, et l'abbaye avec elle, le vieil homme partit vers le nord avec les réfugiés. En Lordaeron, devenu archevêque, il donna une épée à l'Église de la Lumière sacrée : il fonda les chevaliers de la Main d'argent et oignit son apprenti, Uther, premier des paladins." },
         { "Son œuvre ne s'arrêta pas au champ de bataille. Une plaque de la cathédrale de Hurlevent dit qu'il la commença à Stratholme, aida à refonder la Confrérie de Comté-du-Nord après la Deuxième Guerre et réunit les fonds pour rebâtir Hurlevent elle-même. Il mourut avant l'arrivée de la peste, de rien de pire que la vieillesse, pour autant qu'on le sache." },
         { "C'est ici, dit-on, qu'il repose. Avant le Fléau, c'était un lieu de pèlerinage. Aujourd'hui, il rassemble les morts du Monastère écarlate, et personne ne vient le pleurer. Il méritait mieux, et l'ordre qu'il a fondé aussi." },
+      },
+    },
+    ["alterac-mountains"] = {
+      title = "Montagnes d'Alterac",
+      text = {
+        { "La neige recouvre une grande partie d'Alterac, mais elle n'a guère caché la chute du royaume. Des châteaux brisés dominent des villes tenues par le Syndicat, des ogres occupent l'ancienne capitale, et les routes grimpent devant des grottes qui appartiennent désormais aux yétis. C'étaient autrefois les hauteurs d'un petit royaume humain plein de fierté, dont le roi trahit l'Alliance pendant la Deuxième Guerre." },
+        { client = "classic", "Au bord du lac Lordamere, un dôme violet enferme la reconstruction de Dalaran. Les mages ont survécu à la destruction de leur cité et recommencent, même s'ils admettent peu de témoins à l'ouvrage." },
+        { client = "forever", "Au bord du lac Lordamere, la reconstruction de Dalaran s'est heurtée à une nouvelle calamité. Des lignes telluriques perturbées ont retourné les créations de la cité contre ses habitants, et l'archimage Modera cherche l'aide extérieure dont le conseil préférerait se passer." },
+        { "Plus loin dans les montagnes, les Loup-de-Givre et les Foudrepique se disputent la vallée d'Alterac. Le royaume a disparu, $gvoyageur:voyageuse; ; les querelles sur qui peut vivre dans ses collines lui ont survécu." },
+      },
+    },
+    ["alterac-valley"] = {
+      title = "La vallée d'Alterac",
+      text = {
+        { "Au sud des montagnes d'Alterac se cache une vallée, et deux peuples la revendiquent. Les orcs du clan Loup-de-Givre vivent dans sa partie sud depuis une génération, depuis que le démoniste Gul'dan les y a exilés. Les nains du clan Foudrepique sont venus plus tard, pour creuser : en quête de minerais, et de reliques du passé ancien de notre peuple, que la Ligue des explorateurs croit enfouies sous la glace de la vallée." },
+        { "Les Loup-de-Givre y virent des envahisseurs. Les Foudrepique y virent des orcs qui barraient la route à une honnête érudition, et le roi Magni leur a depuis donné l'ordre royal de prendre la vallée pour Forgefer. Les deux camps s'y affrontent désormais avec des armées, des donjons, des cimetières et des mines, et chacun appelle à l'aide toute son alliance. J'aimerais pouvoir dire que la Ligue n'y est pour rien." },
       },
     },
     ["ambermill"] = {
@@ -578,6 +595,14 @@ ns.translate({
         { "Jaina dut choisir entre son père et la paix, et elle choisit la paix. Daelin mourut dans les combats avant qu'ils aient pu se réconcilier. Sa flotte gît en épave au large de cette plage, et quelques-uns de ses hommes tiennent encore le donjon, au milieu d'une terre qui porte le nom d'un orc." },
       },
     },
+    ["dalaran"] = {
+      title = "Dalaran",
+      text = {
+        { "Les flèches de Dalaran se dressèrent des siècles durant au bord du lac Lordamere, foyer du Kirin Tor et de générations d'étudiants en magie. Pendant la Troisième Guerre, le Fléau prit la cité et tua Antonidas. Archimonde détruisit ensuite ce que ses défenseurs n'avaient pas su sauver." },
+        { client = "classic", "Les survivants du Kirin Tor ont élevé un grand dôme de lumière violette au-dessus des ruines et commencé à rebâtir. Leurs sorciers travaillent toujours à Hautebrande et dans la forêt des Pins argentés, à l'ancien camp d'internement et à Moulin-de-l'Ambre ; l'archimage Ansirem Runeweaver reçoit les voyageurs hors du dôme. Il y a quelque chose de réconfortant dans une cité qui recommence, même quand ses bâtisseurs tiennent à tirer les rideaux." },
+        { client = "forever", "La reconstruction a été rattrapée par une crise à l'intérieur de la cité. Quelque chose a perturbé ses lignes telluriques, rendant ses créations erratiques et destructrices. Le conseil voudrait que l'affaire reste privée ; Modera, dont l'image attend au bord du lac Lordamere, a appelé à l'aide de l'extérieur. Les mages ont survécu à la destruction d'une cité. Elle refuse de laisser leur orgueil contribuer à en provoquer une autre." },
+      },
+    },
     ["dark-iron-dwarves"] = {
       title = "Les nains Sombrefer",
       text = {
@@ -737,6 +762,14 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Une jeune fille d'une maison de Lordaeron a fait plus pour les orcs que toute son Alliance. Son nom mérite de figurer dans d'autres histoires que celle-ci." },
       },
     },
+    ["durotan-and-draka"] = {
+      title = "Durotan et Draka",
+      text = {
+        { "Durotan était le chef du clan Loup-de-Givre, et le seul chef qui refusa de boire. Quand Gul'dan rassembla les clans pour boire le sang de Mannoroth, Durotan refusa, et ne cessa d'avertir quiconque voulait l'entendre que les démonistes détruisaient ce que les orcs avaient été. Gul'dan ne pouvait tuer ouvertement un héros si populaire ; il l'exila donc, lui et tout son clan, à l'extrême bord du nouveau monde : ces montagnes." },
+        { "Sa compagne, Draka, partit en exil avec lui, et leur fils encore nourrisson avec eux. Durotan repartit une fois encore, pour mettre en garde son vieil ami Orgrim Doomhammer contre Gul'dan. Les assassins de Gul'dan le suivirent jusque chez lui et les tuèrent, lui et Draka. Leur fils fut trouvé auprès d'eux par un officier humain, Aedelas Blackmoore, qui l'éleva comme esclave et le nomma Thrall." },
+        { "Les Loup-de-Givre gardent une tombe pour Durotan dans la vallée d'Alterac. Leur prophète, Drek'Thar, en écrivit les mots : le plus brave des leurs, trahi par ceux qui voulaient voir les orcs asservis. Le père du chef de guerre, $gvoyageur:voyageuse;, n'a jamais vu ce que son fils est devenu. Les Loup-de-Givre veillent à ce que le peuple de son fils sache de qui il est le fils." },
+      },
+    },
     ["durotar"] = {
       title = "Durotar",
       text = {
@@ -876,6 +909,14 @@ ns.translate({
         { "Grelin Whitebeard met en garde contre de nouvelles attaques, et les jeunes nains sont envoyés contre eux presque dès qu'ils quittent la maison. La querelle devient vite familière : un camp troll au-delà du dernier feu ami, un rapport remis aux gardes, et une nouvelle patrouille envoyée dans la même neige." },
       },
     },
+    ["frostwolf-clan"] = {
+      title = "Le clan Loup-de-Givre",
+      text = {
+        { "Les Loup-de-Givre de Durotan refusèrent le sang de démon qui lia une grande partie de la Horde. Quand il s'opposa aux démonistes et à leur invasion d'Azeroth, Gul'dan exila son clan. Ils gagnèrent durement leur vie dans les montagnes d'Alterac. Durotan fut assassiné, mais le clan tint bon." },
+        { "Son fils Thrall les trouva après s'être évadé de Fort-de-Durn. Ils lui enseignèrent la vie de son peuple, et leur chaman Drek'Thar lui apprit à suivre les éléments. Quand Thrall libéra plus tard les camps d'internement et mena la Horde par-delà la mer, les Loup-de-Givre restèrent dans leur vallée." },
+        { "Drek'Thar, aveugle désormais, les dirige toujours là-bas. Ils veulent garder leur foyer ; l'expédition Foudrepique a apporté contre lui une revendication de Forgefer." },
+      },
+    },
     ["furbolgs"] = {
       title = "Les furbolgs",
       text = {
@@ -1003,6 +1044,14 @@ ns.translate({
         { "Ruul Eagletalon envoie des chasseurs contre les Furie-des-vents en guise d'épreuve. Les druides des Serres-Rocheuses veulent reprendre le Val calciné aux Rougefurie pour le restaurer. Un voyageur qui passe sous leurs aires a une raison toute pratique d'apprendre quelle nuée les tient." },
       },
     },
+    ["helcular"] = {
+      title = "Helcular",
+      text = {
+        { "Helcular était un sorcier des collines au-dessus d'Austrivage, et il était presque devenu une liche quand les gens d'Austrivage trouvèrent l'antre où il menait ses rituels et le tuèrent. Ils l'enterrèrent dans leur propre cimetière, pour garder un œil sur lui, j'imagine. Son apprenti le prit mal." },
+        { "Les yétis ont désormais l'antre, et avec lui le bâton par lequel Helcular accomplissait ses rites. Il avait bâti trois bûchers cérémoniels dans les grottes de ces montagnes, les flammes d'Azel, de Veraz et d'Uzel, et son apprenti veut qu'on récupère le bâton, qu'on le charge à chacune d'elles et qu'on le plante dans la tombe de son maître, au milieu de la ville humaine." },
+        { "Ce qui sort alors du cimetière d'Austrivage n'est pas le sorcier qu'il était, mais cela se souvient de ceux qui l'ont enterré. Austrivage a bien des ennemis, $gvoyageur:voyageuse;. Celui-là, elle se l'est fait toute seule." },
+      },
+    },
     ["high-elves"] = {
       title = "Les hauts-elfes",
       text = {
@@ -1062,6 +1111,15 @@ ns.translate({
         { "Ce qui distingue un chasseur, c'est son compagnon. Un loup, un félin, un ours, un raptor, une chouette : apprivoisé dans la nature, il apprend à combattre aux côtés du chasseur. Le nourrir et le soigner font autant partie de la vocation qu'apprendre à tirer. Encore faut-il convaincre la bête que ce nouvel arrangement en vaut la peine." },
         { client = "forever", "Les humains se forment désormais eux aussi à la chasse, et les éolides amènent des chasseurs à l'Alliance comme à la Horde." },
         { "La Ligue emploie des chasseurs comme guides depuis qu'elle existe, $gvoyageur:voyageuse;. Ils trouvent la route et le dîner, et s'assurent que ni l'un ni l'autre ne trouve les fouilleurs le premier." },
+      },
+    },
+    ["internment-camps"] = {
+      title = "Les camps d'internement",
+      text = {
+        { "Après la Deuxième Guerre, l'Alliance eut un problème qu'elle n'avait jamais eu : un peuple entier de prisonniers. Les orcs furent rassemblés dans des camps, et quand les camps débordèrent, on en bâtit de nouveaux dans les plaines au sud de ces montagnes. Le roi Terenas imposa les autres royaumes pour les financer, et l'impôt faillit briser l'Alliance." },
+        { "Puis les gardiens remarquèrent quelque chose d'étrange. Les orcs cessèrent d'essayer de s'évader ; ils cessèrent même de se battre entre eux. Ils restaient assis. Certains parlèrent de maladie. L'archimage Antonidas, de Dalaran, pensait autrement : les orcs avaient été nourris de magie démoniaque pendant des générations, et ce que les gardiens voyaient, c'était un manque. Il n'y avait pas de remède, conclut-il, sinon spirituel, et beaucoup dans l'Alliance jugèrent imprudent d'en chercher un." },
+        { "Le gardien en chef, Aedelas Blackmoore, régnait sur les camps depuis Fort-de-Durn et gardait son propre esclave orc, élevé pour être une arme. Cet esclave était Thrall. Il trouva son peuple assis derrière ces murs, et à la fin, il revint briser les camps. Aucun orc n'y est plus retenu ; les sorciers du Kirin Tor ont pris l'ancien camp pour leur propre usage." },
+        { side = "Horde", aside = true, sign = "P. F.", "Ces camps se dressaient dans mon royaume, sur ordre de mon roi. Elle le raconte avec justesse." },
       },
     },
     ["ironbands-excavation-site"] = {
@@ -1383,6 +1441,13 @@ ns.translate({
       text = {
         { "Le village de Colline-aux-Corbeaux se dresse, vide, à côté d'un cimetière qui s'est étendu sur tout le flanc de la colline. Des squelettes arpentent ses rangées, des goules fouillent parmi les tombes, et les Veilleurs ne parviennent pas à garder les morts en repos. Le cimetière est devenu plus dangereux que les maisons abandonnées qui l'entourent." },
         { "Morbent Fel, un nécromancien, vit dans une maison au-dessus du cimetière. Un bûcheron dont il a tué la famille veut sa mort. Tout près, un vieil ermite occupe une cabane qui surplombe les tombes ; il venait autrefois à Sombre-Comté chercher des provisions, mais on ne l'y a pas vu depuis un certain temps." },
+      },
+    },
+    ["ravenholdt-manor"] = {
+      title = "Le manoir de Ravenholdt",
+      text = {
+        { "Le manoir de Ravenholdt est caché dans les collines au-dessus de Hautebrande. Le seigneur Jorach Ravenholdt y dirige la Ligue des assassins, formant des voleurs et des tueurs que la maison choisit elle-même. Les futurs élèves reçoivent des invitations ; poser sa candidature serait une façon inhabituelle d'annoncer ses talents ici." },
+        { "La Ligue s'oppose depuis longtemps au Syndicat, dont elle tient les membres pour des amateurs. Voler leurs insignes fait utilement partie de la querelle : un homme du Syndicat qui perd le sien peut s'attendre à être puni par son propre camp." },
       },
     },
     ["razor-hill"] = {
@@ -1709,6 +1774,13 @@ ns.translate({
         { "L'ingénieur en chef Hinderweir a découvert un complot sombrefer contre le barrage. Son enquête le mène à un tonneau d'explosifs et au mélange nécessaire pour le désamorcer. Les nains gardent cet ouvrage de près, et pour cause. Des gens dépendent de la solidité de ce mur, et Hinderweir a bien plus en jeu que sa fierté d'ingénieur." },
       },
     },
+    ["stormpike-guard"] = {
+      title = "La Garde Foudrepique",
+      text = {
+        { "La Garde Foudrepique est venue dans la vallée d'Alterac pour exploiter des mines et chercher des reliques de l'ascendance naine, et la Ligue des explorateurs accompagne l'expédition. Ils disent que les Loup-de-Givre les ont attaqués sans provocation. Les Loup-de-Givre font le même récit, en inversant les noms." },
+        { "Vanndar Stormpike commande la Garde, et le roi Magni lui a ordonné de prendre la vallée pour Forgefer. Les Loup-de-Givre y vivent déjà et résistent à cet ordre. Je sers le roi qui a donné cet ordre, mais l'intérêt de la Ligue pour ce qui se trouve sous terre ne règle pas les revendications de ceux qui vivent au-dessus." },
+      },
+    },
     ["stormwind-city"] = {
       title = "Hurlevent",
       text = {
@@ -1982,6 +2054,14 @@ ns.translate({
       text = {
         { "Balthule Shadowstrike surveille la tour en ruine d'Althalaxx, au nord-est d'Auberdine. Il reste à son poste plutôt que de risquer de manquer un indice. L'agitation autour de la tour mène à la Rive noire, un culte d'elfes de la nuit qui pratiquent la magie des démonistes. Leur peuple a toutes les raisons de se souvenir de ce que de tels arts peuvent apporter." },
         { "L'enquête descend au sud jusqu'en Ashenvale, vers un démoniste orc au sanctuaire de Scarfeu. Delgren le Purificateur, de l'Aube d'argent, y reprend la traque." },
+      },
+    },
+    ["treason-of-alterac"] = {
+      title = "La trahison d'Alterac",
+      text = {
+        { "Le roi Aiden Perenolde jugea que la Horde gagnerait la Deuxième Guerre. Tandis que les autres royaumes humains combattaient ensemble, Alterac ouvrit un passage aux orcs et leur fournit les plans de l'Alliance. Quand l'Alliance l'emporta, Lordaeron imposa la loi martiale. Les souverains se disputèrent ensuite sur le sort du royaume." },
+        { "La capitale d'Alterac est en ruine et ses bibliothèques dispersées. Hurlevent envoie des érudits récupérer les livres. Le fils de Perenolde, Aliden, poursuit un autre héritage : il dirige le Syndicat, qui compte d'anciens nobles d'Alterac, et projette d'asservir les orcs comme son mentor Blackmoore en avait l'intention. On tente ici plusieurs sortes de sauvetage, $gvoyageur:voyageuse;. Celui des érudits est celui que je recommanderais." },
+        { side = "Horde", aside = true, sign = "P. F.", "Je suis heureux que quelqu'un sauve les livres d'Alterac. Qu'aucun d'eux parvienne un jour jusqu'à Fossoyeuse, c'est une autre affaire." },
       },
     },
     ["twilights-hammer"] = {
