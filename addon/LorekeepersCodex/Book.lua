@@ -4,6 +4,7 @@
 -- tab is made of (ns.ui): the kit's look (Kit.lua) in the Codex's theme, a
 -- list's row, the kit's page on the right. /codex opens it.
 local _, ns = ...
+local L = ns.kit.L
 
 -- ── look ─────────────────────────────────────────────────────────────────────
 -- The kit's (Kit.lua), in the Codex's theme: the family's gold, the panels a
@@ -23,13 +24,13 @@ local BOOK = "Interface\\AddOns\\LorekeepersCodex\\Media\\Logo"
 
 -- What a page is about, in a word.
 local KINDS = {
-  place = "Place",
-  figure = "Figure",
-  faction = "Faction",
-  creature = "Creature",
-  history = "History",
-  note = "Note",
-  calling = "Calling",
+  place = L["Place"],
+  figure = L["Figure"],
+  faction = L["Faction"],
+  creature = L["Creature"],
+  history = L["History"],
+  note = L["Note"],
+  calling = L["Calling"],
 }
 -- Pages about no one creature get one icon per kind, true of any of them: a
 -- map for a place, an old book for history, a note for the League's notes.
@@ -116,7 +117,7 @@ local TAB = { pages = 1, library = 2, achievements = 3 }
 ns.TAB = TAB
 -- tabs[n] = { build(book), show(selected tab), refresh(scroll), whole (over
 -- both panels) }
-local tabs, TAB_TITLES = {}, { "Pages", "Library", "Achievements" }
+local tabs, TAB_TITLES = {}, { L["Pages"], L["Library"], L["Achievements"] }
 function ns.addTab(n, tab) tabs[n] = tab end
 
 -- A tab's choice in its select (the kit's, under the search box: filter =

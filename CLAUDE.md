@@ -71,6 +71,21 @@ conventions).
   welcome`: the logo, `Media/Logo.tga` from `assets/logo.png` with magick,
   what the codex is, the choices and another character's; the packages carry
   `Media/`).
+- Languages (docs/localization.md): every word the addon shows goes through
+  `L["..."]` (`ns.L`, the kit's `K.L`: English by default, a missing word is
+  its own English; plurals through `ns.kit.plural(n, "one", "many")`, dates
+  through the kit's `K.day`); link and colour codes stay outside the words.
+  The TOCs load `Locale.lua` (`ns.translate`) and `Text_[TextLocale].lua`
+  right after the content, before any file reads a word: the client loads
+  its own language's file. `scripts/locales.ts` (`bun run locales`, in
+  `build` and `check`) writes `Text_<locale>.lua` for the game's twelve
+  languages from `i18n/<locale>/` (`meta.json`: plural rule, flagged;
+  `words.json`; `chapters.json`; `pages/<chapter>/<id>.md`, each with the
+  English page's hash in `source:`, `--stamp` writes it, a stub where there's
+  no translation; esMX borrows esES); `--keys` writes `i18n/words.json`, the
+  words to translate; `--check` says which pages are stale (their English
+  changed) and which words are missing. A translation keeps the English
+  page's paragraph marks; its own letters are fine, curly quotes are not.
 - `addon/test/sim.lua`: fake WoW API + a replayed session; the UI runs against a
   permissive stub (catches Lua errors, not layout).
 

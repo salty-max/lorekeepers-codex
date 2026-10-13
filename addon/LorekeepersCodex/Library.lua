@@ -11,6 +11,7 @@
 -- Letters written by players are never copied. No spoilers: the Library never
 -- says how much there is to find. Its tab is LibraryBook.lua.
 local _, ns = ...
+local L = ns.kit.L
 local PREFIX = "|cffc9a227Lorekeeper's Codex:|r "
 local secret = ns.secret
 
@@ -37,9 +38,9 @@ end
 -- rest are notes and letters.
 local CARVED = { Stone = true, Marble = true, Bronze = true, Silver = true }
 local SHELVES = {
-  { "books", "Books", "Interface\\Icons\\INV_Misc_Book_11" },
-  { "notes", "Notes and Letters", "Interface\\Icons\\INV_Misc_Note_01" },
-  { "plaques", "Plaques and Monuments", "Interface\\Icons\\INV_Misc_Map_01" },
+  { "books", L["Books"], "Interface\\Icons\\INV_Misc_Book_11" },
+  { "notes", L["Notes and Letters"], "Interface\\Icons\\INV_Misc_Note_01" },
+  { "plaques", L["Plaques and Monuments"], "Interface\\Icons\\INV_Misc_Map_01" },
 }
 ns.SHELVES = SHELVES
 local function shelfOf(text)
@@ -99,7 +100,8 @@ local function copy()
   if new then
     local zone, sub = here()
     text.at, text.level, text.zone, text.sub = time(), UnitLevel("player"), zone, sub ~= zone and sub or nil
-    print(PREFIX .. ("copied into the Library: |cffffd100|Hlorekeeper:lib:%d|h[%s]|h|r"):format(id, text.title))
+    local link = ("|cffffd100|Hlorekeeper:lib:%d|h[%s]|h|r"):format(id, text.title)
+    print(PREFIX .. L["copied into the Library: %s"]:format(link))
     if ns.checkAchievements then ns.checkAchievements() end
   end
   if ns.onLibrary then ns.onLibrary(id) end

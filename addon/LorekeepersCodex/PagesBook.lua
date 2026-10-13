@@ -8,6 +8,7 @@
 -- pages found as cards. The codex at a glance: its figures, the pages found
 -- lately, the chapters opened to pick.
 local _, ns = ...
+local L = ns.kit.L
 local C = ns.content
 local ui = ns.ui
 local T, TITLE_FONT, BODY_FONT, KINDS = ui.T, ui.TITLE_FONT, ui.BODY_FONT, ui.KINDS
@@ -32,10 +33,10 @@ end
 -- Where and when this character found it (found by looking back: since when
 -- the codex holds it).
 local function foundLine(rec)
-  if rec.retro then return ("In your codex since %s, at level %d."):format(ui.day(rec.at), rec.level or 0) end
+  if rec.retro then return L["In your codex since %s, at level %d."]:format(ui.day(rec.at), rec.level or 0) end
   local where = rec.zone or "?"
   if rec.sub and rec.sub ~= "" and rec.sub ~= rec.zone then where = rec.sub .. ", " .. where end
-  return ("Found in %s, at level %d, on %s."):format(where, rec.level or 0, ui.day(rec.at))
+  return L["Found in %s, at level %d, on %s."]:format(where, rec.level or 0, ui.day(rec.at))
 end
 
 local showOverview
@@ -60,7 +61,7 @@ local function showPage(id)
     if ns.page(other) then table.insert(also, other) end
   end
   if #also > 0 then
-    page:section("See also")
+    page:section(L["See also"])
     for _, other in ipairs(also) do
       local o = C.entries[other]
       page:card(o.title, aboutPage(o), ns.pictureOf(o, true), function()
@@ -78,7 +79,7 @@ end
 local LATELY = 5
 function showOverview()
   current = OVERVIEW
-  page:start("The Codex", ("%d of %d pages found"):format(ns.count(), ns.knownTotal()), ui.icon(ui.BOOK))
+  page:start(L["The Codex"], L["%d of %d pages found"]:format(ns.count(), ns.knownTotal()), ui.icon(ui.BOOK))
   local opened, unread, recent = {}, 0, {}
   for _, ch in ipairs(C.chapters) do
     if ns.found(ch) > 0 then table.insert(opened, ch) end
@@ -95,13 +96,13 @@ function showOverview()
     return a.e.title < b.e.title
   end)
   page:stats({
-    { tostring(ns.count()), "pages found" },
-    { tostring(#opened), #opened == 1 and "chapter" or "chapters" },
-    { tostring(unread), "unread" },
-    { tostring(ns.libraryCount()), "library texts" },
+    { tostring(ns.count()), L["pages found"] },
+    { tostring(#opened), ns.kit.plural(#opened, "chapter", "chapters") },
+    { tostring(unread), L["unread"] },
+    { tostring(ns.libraryCount()), L["library texts"] },
   })
   if #recent > 0 then
-    page:section("Found lately")
+    page:section(L["Found lately"])
     for i = 1, math.min(LATELY, #recent) do
       local r = recent[i]
       page:card(r.e.title, ("%s  -  %s"):format(aboutPage(r.e), ui.day(r.at)), ns.pictureOf(r.e, true), function()
@@ -111,7 +112,7 @@ function showOverview()
     end
   end
   if #opened > 0 then
-    page:section("The chapters")
+    page:section(L["The chapters"])
     local chips = {}
     for _, ch in ipairs(opened) do
       table.insert(chips, {
@@ -237,7 +238,7 @@ local function refresh(scrollToCurrent)
   local e = scrollToCurrent and current and C.entries[current]
   if e and e.chapter ~= "" then folded()[e.chapter] = nil end
   local currentY
-  book.count:SetText(("%d of %d pages"):format(ns.count(), ns.knownTotal()))
+  book.count:SetText(L["%d of %d pages"]:format(ns.count(), ns.knownTotal()))
   book.foldAll:SetNormalTexture(ns.anyUnfolded() and MINUS or PLUS)
   for _, r in ipairs(rows) do
     r:Hide()
@@ -346,7 +347,7 @@ local function refresh(scrollToCurrent)
       r.text:SetPoint("RIGHT", -4, 0)
       r.text:SetFont(BODY_FONT, 12, "")
       r.text:SetTextColor(unpack(T.soft))
-      r.text:SetText("No page found.")
+      r.text:SetText(L["No page found."])
       r:Disable()
       r:Show()
       y = 18
@@ -354,7 +355,7 @@ local function refresh(scrollToCurrent)
     return finish()
   end
   -- The codex at a glance, the loose pages (the foreword), then each chapter.
-  add("overview", "The Codex")
+  add("overview", L["The Codex"])
   for id, entry in pairs(C.entries) do
     if entry.chapter == "" and ns.page(id) and fits(id) then add("page", nil, id) end
   end
@@ -389,7 +390,7 @@ local function build(b)
   book.foldAll:SetHighlightTexture("Interface\\Buttons\\UI-PlusButton-Hilight", "ADD")
   local function tip(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:SetText(ns.anyUnfolded() and "Fold every chapter" or "Unfold every chapter")
+    GameTooltip:SetText(ns.anyUnfolded() and L["Fold every chapter"] or L["Unfold every chapter"])
     GameTooltip:Show()
   end
   book.foldAll:SetScript("OnClick", function(self)
@@ -425,13 +426,13 @@ end
 -- The select's kinds: every one, or a kind of the pages found (with how
 -- many), none not yet met.
 local PLURAL = {
-  place = "Places",
-  figure = "Figures",
-  faction = "Factions and peoples",
-  creature = "Creatures",
-  history = "Histories",
-  note = "Notes",
-  calling = "Callings",
+  place = L["Places"],
+  figure = L["Figures"],
+  faction = L["Factions and peoples"],
+  creature = L["Creatures"],
+  history = L["Histories"],
+  note = L["Notes"],
+  calling = L["Callings"],
 }
 local ORDER = { "place", "figure", "faction", "creature", "history", "calling", "note" }
 local function kinds()
@@ -439,7 +440,7 @@ local function kinds()
   for id, e in pairs(C.entries) do
     if ns.page(id) then count[e.kind] = (count[e.kind] or 0) + 1 end
   end
-  local out = { { value = "", text = "Every kind of page" } }
+  local out = { { value = "", text = L["Every kind of page"] } }
   for _, k in ipairs(ORDER) do
     if count[k] then table.insert(out, { value = k, text = ("%s (%d)"):format(PLURAL[k], count[k]) }) end
   end

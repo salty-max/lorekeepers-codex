@@ -6,6 +6,7 @@
 -- Earned at once when the codex reaches them; those reached before the addon
 -- knew about them (a codex from 0.3.0, a reset) are recorded quietly.
 local _, ns = ...
+local L = ns.kit.L
 local C = ns.content
 local PREFIX = "|cffc9a227Lorekeeper's Codex:|r "
 
@@ -56,38 +57,38 @@ end
 
 -- Milestones: pages found, up to the whole codex.
 for _, m in ipairs({
-  { 10, "Ink on the Fingers" },
-  { 25, "A Growing Ledger" },
-  { 50, "Half a Hundred" },
-  { 100, "A Hundred Pages" },
-  { 150, "Seasoned Traveller" },
-  { 200, "Two Hundred Pages" },
-  { 250, "Loremaster in the Making" },
-  { 300, "Three Hundred Pages" },
+  { 10, L["Ink on the Fingers"] },
+  { 25, L["A Growing Ledger"] },
+  { 50, L["Half a Hundred"] },
+  { 100, L["A Hundred Pages"] },
+  { 150, L["Seasoned Traveller"] },
+  { 200, L["Two Hundred Pages"] },
+  { 250, L["Loremaster in the Making"] },
+  { 300, L["Three Hundred Pages"] },
 }) do
-  add("milestone", "pages-" .. m[1], m[2], ("Find %d pages."):format(m[1]), function() return ns.count(), m[1] end)
+  add("milestone", "pages-" .. m[1], m[2], L["Find %d pages."]:format(m[1]), function() return ns.count(), m[1] end)
 end
 add(
   "milestone",
   "pages-all",
-  "The Complete Codex",
-  "Find every page of the codex.",
+  L["The Complete Codex"],
+  L["Find every page of the codex."],
   function() return ns.count(), ns.total end,
   { unit = "pages" }
 )
 
 -- Feats.
 for _, r in ipairs({
-  { 10, "A Page by the Fire" },
-  { 50, "Bookworm" },
-  { 150, "Well Read" },
-  { 300, "The Historian's Equal" },
+  { 10, L["A Page by the Fire"] },
+  { 50, L["Bookworm"] },
+  { 150, L["Well Read"] },
+  { 300, L["The Historian's Equal"] },
 }) do
   add(
     "feat",
     "read-" .. r[1],
     r[2],
-    ("Read %d pages of your codex."):format(r[1]),
+    L["Read %d pages of your codex."]:format(r[1]),
     function() return readCount(), r[1] end
   )
 end
@@ -96,15 +97,15 @@ local WANDERERS = pages({ "timber", "ghost-howl", "morladim", "thule-ravenclaw" 
 add(
   "feat",
   "wanderer-one",
-  "A Tale Worth Telling",
-  "Find the page of a legendary wanderer: Timber, Ghost Howl, Mor'Ladim or Thule Ravenclaw.",
+  L["A Tale Worth Telling"],
+  L["Find the page of a legendary wanderer: Timber, Ghost Howl, Mor'Ladim or Thule Ravenclaw."],
   function() return math.min(found(WANDERERS), 1), 1 end
 )
 add(
   "feat",
   "wanderer-all",
-  "Legends of the Wild",
-  "Find the pages of all four legendary wanderers.",
+  L["Legends of the Wild"],
+  L["Find the pages of all four legendary wanderers."],
   function() return found(WANDERERS), #WANDERERS end
 )
 
@@ -115,8 +116,8 @@ local HORDE = pages({ "thrall", "cairne-bloodhoof", "sylvanas-windrunner", "volj
 add(
   "feat",
   "leaders",
-  "Friends in High Places",
-  "Find the pages of the four leaders of the Alliance, or of the Horde, by meeting them.",
+  L["Friends in High Places"],
+  L["Find the pages of the four leaders of the Alliance, or of the Horde, by meeting them."],
   function() return math.max(found(ALLIANCE), found(HORDE)), 4 end
 )
 
@@ -126,8 +127,8 @@ local HISTORIANS = pages({ "archesonus", "parqual-fintallas" })
 add(
   "feat",
   "historian",
-  "A Word in Person",
-  "Meet the historian behind your codex: Archesonus in Ironforge's High Seat, or Parqual Fintallas in the Undercity.",
+  L["A Word in Person"],
+  L["Meet the historian behind your codex: Archesonus in Ironforge's High Seat, or Parqual Fintallas in the Undercity."],
   function() return math.min(found(HISTORIANS), 1), 1 end
 )
 
@@ -155,15 +156,15 @@ local DUNGEONS = pages({
 add(
   "feat",
   "dungeons-5",
-  "Into the Deep",
-  "Find the pages of five dungeons.",
+  L["Into the Deep"],
+  L["Find the pages of five dungeons."],
   function() return math.min(found(DUNGEONS), 5), 5 end
 )
 add(
   "feat",
   "dungeons-all",
-  "Delver of the Deep",
-  "Find the pages of every dungeon.",
+  L["Delver of the Deep"],
+  L["Find the pages of every dungeon."],
   function() return found(DUNGEONS), #DUNGEONS end
 )
 
@@ -171,15 +172,15 @@ local LEGENDS = pages({ "onyxia", "ragnaros", "nefarian", "hakkar", "cthun", "ke
 add(
   "feat",
   "legends-one",
-  "Where Legends Fall",
-  "Find the page of one of the great powers that wait at the end of the deepest lairs.",
+  L["Where Legends Fall"],
+  L["Find the page of one of the great powers that wait at the end of the deepest lairs."],
   function() return math.min(found(LEGENDS), 1), 1 end
 )
 add(
   "feat",
   "legends-all",
-  "Slayer of Legends",
-  "Find the pages of Onyxia, Ragnaros, Nefarian, Hakkar, C'Thun and Kel'Thuzad.",
+  L["Slayer of Legends"],
+  L["Find the pages of Onyxia, Ragnaros, Nefarian, Hakkar, C'Thun and Kel'Thuzad."],
   function() return found(LEGENDS), #LEGENDS end
 )
 
@@ -187,12 +188,12 @@ local TERRORS = pages({ "lord-kazzak", "azuregos", "dragons-of-nightmare" })
 add(
   "feat",
   "terrors",
-  "Terrors of the Wild",
-  "Find the pages of Lord Kazzak, Azuregos and the Dragons of Nightmare.",
+  L["Terrors of the Wild"],
+  L["Find the pages of Lord Kazzak, Azuregos and the Dragons of Nightmare."],
   function() return found(TERRORS), #TERRORS end
 )
 
-add("feat", "travelled", "Well Travelled", "Find a page in every chapter of the codex.", function()
+add("feat", "travelled", L["Well Travelled"], L["Find a page in every chapter of the codex."], function()
   local n = 0
   for _, ch in ipairs(C.chapters) do
     if ns.found(ch) > 0 then n = n + 1 end
@@ -246,46 +247,46 @@ ns.pairings = PAIRS -- (for the tests)
 add(
   "encounter",
   "met-peoples",
-  "Faces of Azeroth",
-  "Meet a player of every race.",
+  L["Faces of Azeroth"],
+  L["Meet a player of every race."],
   function() return met("races", PEOPLES), #PEOPLES end
 )
 add(
   "encounter",
   "met-callings",
-  "Every Calling",
-  "Meet a player of every class.",
+  L["Every Calling"],
+  L["Meet a player of every class."],
   function() return met("classes", CALLINGS), #CALLINGS end
 )
-for _, m in ipairs({ { 10, "A Mixed Company" }, { 25, "A Crowded Road" } }) do
+for _, m in ipairs({ { 10, L["A Mixed Company"] }, { 25, L["A Crowded Road"] } }) do
   add(
     "encounter",
     "met-pairs-" .. m[1],
     m[2],
-    ("Meet players of %d different pairings of race and class."):format(m[1]),
+    L["Meet players of %d different pairings of race and class."]:format(m[1]),
     function() return met("combos", PAIRS), m[1] end
   )
 end
 add(
   "encounter",
   "met-pairs-all",
-  "All Walks of Life",
-  "Meet a player of every pairing of race and class there is.",
+  L["All Walks of Life"],
+  L["Meet a player of every pairing of race and class there is."],
   function() return met("combos", PAIRS), #PAIRS end
 )
 
 -- The Library: texts read in the world, copied into the codex.
 for _, t in ipairs({
-  { 5, "A Shelf Begun" },
-  { 25, "Collector of Words" },
-  { 50, "The Librarian's Apprentice" },
-  { 100, "A Library of One's Own" },
+  { 5, L["A Shelf Begun"] },
+  { 25, L["Collector of Words"] },
+  { 50, L["The Librarian's Apprentice"] },
+  { 100, L["A Library of One's Own"] },
 }) do
   add(
     "library",
     "library-" .. t[1],
     t[2],
-    ("Copy %d texts into the Library: books, notes, letters or plaques read in the world."):format(t[1]),
+    L["Copy %d texts into the Library: books, notes, letters or plaques read in the world."]:format(t[1]),
     function() return ns.libraryCount and ns.libraryCount() or 0, t[1] end
   )
 end
@@ -296,7 +297,7 @@ for _, ch in ipairs(C.chapters) do
     "chapter",
     "chapter-" .. ch.id,
     ch.title,
-    "Find every page of this chapter.",
+    L["Find every page of this chapter."],
     function() return ns.found(ch), #ch.entries end,
     { visible = function() return ns.found(ch) > 0 end }
   )
@@ -331,7 +332,8 @@ function ns.checkAchievements(quiet)
       if need > 0 and done >= need then
         c.achievements[a.id] = { at = time(), level = UnitLevel("player"), retro = quiet or nil }
         if not quiet then
-          print(PREFIX .. ("achievement earned: |cffffd100|Hlorekeeper:ach:%s|h[%s]|h|r"):format(a.id, a.title))
+          local link = ("|cffffd100|Hlorekeeper:ach:%s|h[%s]|h|r"):format(a.id, a.title)
+          print(PREFIX .. L["achievement earned: %s"]:format(link))
           ns.playSound()
           ns.showAchievementBanner(a.id)
         end

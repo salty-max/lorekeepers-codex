@@ -9,6 +9,7 @@
 -- dismisses it. Turned off in the settings, a page's and an achievement's
 -- apart (/codex banner: a page's).
 local _, ns = ...
+local L = ns.kit.L
 local C = ns.content
 
 local banners, achievements
@@ -28,9 +29,9 @@ function ns.showBanner(id)
   if not ns.option("banner") or not e then return end
   shown({
     picture = ns.pictureOf(e, true),
-    kicker = "A new page in the codex",
+    kicker = L["A new page in the codex"],
     title = e.title,
-    tip = "Click to read this page",
+    tip = L["Click to read this page"],
     click = function() ns.open(id) end,
     page = id,
   })
@@ -42,9 +43,9 @@ function ns.showAchievementBanner(id)
   made()
   achievements:show({
     picture = ns.ui.BOOK,
-    kicker = "Lorekeeper's Codex achievement",
+    kicker = L["Lorekeeper's Codex achievement"],
     title = a.title,
-    tip = "Click to see your achievements",
+    tip = L["Click to see your achievements"],
     click = function() ns.openAchievements(id) end,
     achievement = id,
   })

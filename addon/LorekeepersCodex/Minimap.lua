@@ -3,6 +3,7 @@
 -- character's settings (Settings.lua). Built with the textures of the game's
 -- own minimap buttons (the tracking button's border, the zoom highlight).
 local _, ns = ...
+local L = ns.kit.L
 
 local button
 
@@ -54,10 +55,10 @@ function ns.createMinimapButton()
   button:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_LEFT")
     GameTooltip:AddLine("Lorekeeper's Codex")
-    GameTooltip:AddLine(("%d of %d pages"):format(ns.count(), ns.knownTotal()), 1, 1, 1)
-    GameTooltip:AddLine(("%d of %d achievements"):format(ns.achievementCount()), 1, 1, 1)
+    GameTooltip:AddLine(L["%d of %d pages"]:format(ns.count(), ns.knownTotal()), 1, 1, 1)
+    GameTooltip:AddLine(L["%d of %d achievements"]:format(ns.achievementCount()), 1, 1, 1)
     GameTooltip:AddLine(
-      "Click to open the book, right-click for the settings. Drag to move this button.",
+      L["Click to open the book, right-click for the settings. Drag to move this button."],
       0.7,
       0.7,
       0.7,

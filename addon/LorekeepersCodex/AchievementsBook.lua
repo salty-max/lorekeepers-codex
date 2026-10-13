@@ -3,6 +3,7 @@
 -- earned: its group's picture, a medal on it once earned, the title, what it
 -- asks, when it was earned or how far along it is). Achievements.lua.
 local _, ns = ...
+local L = ns.kit.L
 local ui = ns.ui
 
 local book, board
@@ -10,23 +11,23 @@ ns.achievementRows = {} -- for the tests
 
 -- (each group: its id, its heading, its picture, the figure it counts in)
 local GROUPS = {
-  { "milestone", "Milestones", "Interface\\Icons\\INV_Misc_Book_09", "deeds" },
-  { "feat", "Feats", "Interface\\Icons\\INV_Misc_Note_01", "deeds" },
+  { "milestone", L["Milestones"], "Interface\\Icons\\INV_Misc_Book_09", "deeds" },
+  { "feat", L["Feats"], "Interface\\Icons\\INV_Misc_Note_01", "deeds" },
   -- (the players met: the reader's own crest, read when drawn)
   {
     "encounter",
-    "Encounters",
+    L["Encounters"],
     function(p) ns.kit.crest(select(2, UnitClass("player")), "Interface\\Icons\\INV_Misc_Note_01")(p) end,
     "encounters",
   },
-  { "library", "The Library", "Interface\\Icons\\INV_Misc_Book_11", "reading" },
-  { "chapter", "Chapters", "Interface\\Icons\\INV_Misc_Map_01", "reading" },
+  { "library", L["The Library"], "Interface\\Icons\\INV_Misc_Book_11", "reading" },
+  { "chapter", L["Chapters"], "Interface\\Icons\\INV_Misc_Map_01", "reading" },
 }
 local FIGURES = {
-  { "all", "earned" },
-  { "deeds", "of the deeds" },
-  { "encounters", "of the encounters" },
-  { "reading", "of the reading" },
+  { "all", L["earned"] },
+  { "deeds", L["of the deeds"] },
+  { "encounters", L["of the encounters"] },
+  { "reading", L["of the reading"] },
 }
 local selected
 
@@ -50,7 +51,7 @@ local function items()
 end
 
 local function refresh()
-  book.count:SetText(("%d of %d achievements"):format(ns.achievementCount()))
+  book.count:SetText(L["%d of %d achievements"]:format(ns.achievementCount()))
   board:refresh(selected)
 end
 

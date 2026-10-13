@@ -307,8 +307,9 @@ ns.content.entries["t-quest-new"] = entry("Quest turned in", { quest = 8888 })
 ns.content.entries["t-rep"] = entry("Friendly with Ironforge", { faction = 47, standing = 5 })
 ns.content.entries["t-pos"] = entry("The Great Forge", { map = 1455, x = 57, y = 47, r = 6 })
 -- The files in the order of the game's own TOC (its content file loaded above).
+-- (the language file as the game picks it, [TextLocale]: English here)
 for line in io.lines(DIR .. (FOREVER and "LorekeepersCodex_Camelot.toc" or "LorekeepersCodex_Vanilla.toc")) do
-  local f = line:match("^([%w_]+%.lua)%s*$")
+  local f = line:gsub("%[TextLocale%]", "enUS"):match("^([%w_]+%.lua)%s*$")
   if f and not f:match("^Content_") then assert(loadfile(DIR .. f))("LorekeepersCodex", ns) end
 end
 -- The banners shown (what each said), and the kit's banners themselves, to
@@ -1486,6 +1487,70 @@ do
   check(
     has("taelan-fordring") and found["taelan-fordring"].retro,
     "In Dreams completed before installing the addon unlocks Taelan quietly"
+  )
+end
+
+-- ── the reader's language ────────────────────────────────────────────────────
+-- Every generated language file loads (a stub where there is no translation);
+-- a translation's words, plural rule, month names, chapters and pages replace
+-- the English, a page keeping only this game's paragraphs and its asides.
+for _, locale in ipairs({
+  "enUS",
+  "enGB",
+  "deDE",
+  "frFR",
+  "esES",
+  "esMX",
+  "ruRU",
+  "ptBR",
+  "itIT",
+  "koKR",
+  "zhCN",
+  "zhTW",
+}) do
+  check(loadfile(DIR .. "Text_" .. locale .. ".lua") ~= nil, "the language file for " .. locale .. " loads")
+end
+do
+  local L, K = ns.L, ns.kit
+  check(L["Begin"] == "Begin" and K.plural(0, "chapter", "chapters") == "chapters", "English by default")
+  ns.translate({
+    locale = "frFR",
+    plural = "fr",
+    words = { ["Begin"] = "Commencer", ["Oct"] = "oct.", ["chapter"] = "chapitre", ["chapters"] = "chapitres" },
+    chapters = { ["wetlands"] = { "Les Paluns", "Des marais entre Khaz Modan et Arathi." } },
+    pages = {
+      ["grim-batol"] = {
+        title = "Grim Batol",
+        text = {
+          { "Premier paragraphe." },
+          { client = "forever", "Pour Forever." },
+          { client = "classic", "Pour Classic." },
+          { side = "Horde", aside = true, sign = "P. F.", "Une note de Parqual." },
+        },
+      },
+    },
+  })
+  local chapter
+  for _, ch in ipairs(ns.content.chapters) do
+    if ch.id == "wetlands" then chapter = ch end
+  end
+  local text = ns.content.entries["grim-batol"].text
+  check(
+    L["Begin"] == "Commencer"
+      and L["Your choices"] == "Your choices"
+      and K.plural(0, "chapter", "chapters") == "chapitre",
+    "a translation: its words, the rest in English, its plural rule (French: 0 is singular)"
+  )
+  check(K.day(os.time({ year = 2026, month = 10, day = 13, hour = 12 })) == "13 oct. 2026", "… its month names")
+  check(chapter.title == "Les Paluns", "… its chapters")
+  check(
+    #text == 3
+      and text[1][1] == "Premier paragraphe."
+      and text[2][1] == (FOREVER and "Pour Forever." or "Pour Classic.")
+      and text[2].client == nil
+      and text[3].aside
+      and text[3].side == "Horde",
+    "… its pages, this game's paragraphs only, Parqual's aside kept"
   )
 end
 

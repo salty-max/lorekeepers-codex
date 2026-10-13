@@ -14,6 +14,7 @@
 --   (the account-wide values of 0.8.0 and before, at the top of the table:
 --   the first profile of a character who kept a codex before takes them)
 local _, ns = ...
+local L = ns.kit.L
 local K = ns.kit
 
 -- (minimapAngle: the button's place around the minimap, in degrees; 200 is
@@ -34,13 +35,13 @@ local SHARED =
 -- Sounds for a new page: all from the original game's interface. -1 is the
 -- sting heard on discovering a new zone, which differs by race.
 ns.SOUNDS = {
-  { -1, "Zone discovery" },
-  { 878, "Quest complete" },
-  { 3175, "Map ping" },
-  { 8960, "Ready check" },
-  { 836, "Page turn" },
-  { 844, "Book opening (quiet)" },
-  { 0, "None" },
+  { -1, L["Zone discovery"] },
+  { 878, L["Quest complete"] },
+  { 3175, L["Map ping"] },
+  { 8960, L["Ready check"] },
+  { 836, L["Page turn"] },
+  { 844, L["Book opening (quiet)"] },
+  { 0, L["None"] },
 }
 
 -- The profiles: a code "LC1:b1:d10:v1:s-1:t1:h0:a200" (a page's alert and its
@@ -116,17 +117,21 @@ function ns.createSettingsPanel()
     )
     Settings.CreateCheckbox(category, setting, tooltip)
   end
-  checkbox("banner", "Alert for new pages", "Show each new page in the game's own alert; a click on it reads the page.")
+  checkbox(
+    "banner",
+    L["Alert for new pages"],
+    L["Show each new page in the game's own alert; a click on it reads the page."]
+  )
   checkbox(
     "achievementToast",
-    "Alert for achievements",
-    "Show each achievement earned in the game's achievement alert; a click on it opens the achievements."
+    L["Alert for achievements"],
+    L["Show each achievement earned in the game's achievement alert; a click on it opens the achievements."]
   )
   local seconds = Settings.RegisterProxySetting(
     category,
     "LOREKEEPERSCODEX_BANNERSECONDS",
     Settings.VarType.Number,
-    "Alert shown for",
+    L["Alert shown for"],
     DEFAULTS.bannerSeconds,
     function() return ns.option("bannerSeconds") end,
     function(value) ns.setOption("bannerSeconds", value) end
@@ -134,20 +139,20 @@ function ns.createSettingsPanel()
   local options = Settings.CreateSliderOptions(0, 60, 5)
   options:SetLabelFormatter(
     MinimalSliderWithSteppersMixin.Label.Right,
-    function(value) return value == 0 and "until closed" or ("%d s"):format(value) end
+    function(value) return value == 0 and L["until closed"] or L["%d s"]:format(value) end
   )
   Settings.CreateSlider(
     category,
     seconds,
     options,
-    "How long the alert stays on screen. At 0 it stays until you read or dismiss it (right-click)."
+    L["How long the alert stays on screen. At 0 it stays until you read or dismiss it (right-click)."]
   )
 
   local sound = Settings.RegisterProxySetting(
     category,
     "LOREKEEPERSCODEX_SOUND",
     Settings.VarType.Number,
-    "Sound for a new page",
+    L["Sound for a new page"],
     DEFAULTS.sound,
     function() return ns.option("sound") end,
     function(value)
@@ -161,19 +166,18 @@ function ns.createSettingsPanel()
       sounds:Add(s[1], s[2])
     end
     return sounds:GetData()
-  end, "Played when a page is added to the codex.")
+  end, L["Played when a page is added to the codex."])
 
   checkbox(
     "tooltipHints",
-    "Hints on tooltips",
-    "A line on the tooltip of creatures that unlock a page (a page to find, or its title once found), and of "
-      .. "players whose people's or calling's page is still to find."
+    L["Hints on tooltips"],
+    L["A line on the tooltip of creatures that unlock a page (a page to find, or its title once found), and of players whose people's or calling's page is still to find."]
   )
 
   checkbox(
     "minimapHidden",
-    "Minimap button",
-    "The book by the minimap: click to open the codex, drag to move it.",
+    L["Minimap button"],
+    L["The book by the minimap: click to open the codex, drag to move it."],
     true
   )
 
@@ -182,8 +186,8 @@ function ns.createSettingsPanel()
     category,
     "LOREKEEPERSCODEX_COPYFROM",
     P,
-    "Another character's choices, for this one (of this game: Classic and Forever keep their own). From elsewhere: /codex export there, then /codex import CODE here.",
-    function(other) print(ns.PREFIX .. ("%s's settings copied."):format(other)) end
+    L["Another character's choices, for this one (of this game: Classic and Forever keep their own). From elsewhere: /codex export there, then /codex import CODE here."],
+    function(other) print(ns.PREFIX .. L["%s's settings copied."]:format(other)) end
   )
 
   Settings.RegisterAddOnCategory(category)

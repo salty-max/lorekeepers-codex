@@ -3,6 +3,7 @@
 -- to find" while their people's page or their calling's is missing (nothing
 -- once found: players are everywhere). Off in the settings (tooltipHints).
 local _, ns = ...
+local L = ns.kit.L
 local C = ns.content
 
 local FOUND = { 0.65, 0.58, 0.45 }
@@ -17,7 +18,7 @@ local function addHint(tooltip)
   if isPlayer then
     for _, pageId in ipairs(ns.pagesOfPlayer(unit)) do
       if ns.available(pageId) and not ns.page(pageId) then
-        tooltip:AddLine("Lorekeeper's Codex: a page to find", unpack(TO_FIND))
+        tooltip:AddLine(L["Lorekeeper's Codex: a page to find"], unpack(TO_FIND))
         return
       end
     end
@@ -29,13 +30,13 @@ local function addHint(tooltip)
   for _, pageId in ipairs(ns.pagesOfNpc(id)) do
     if ns.available(pageId) then
       if ns.page(pageId) then
-        tooltip:AddLine("Lorekeeper's Codex: " .. C.entries[pageId].title, unpack(FOUND))
+        tooltip:AddLine(L["Lorekeeper's Codex: %s"]:format(C.entries[pageId].title), unpack(FOUND))
       else
         missing = true
       end
     end
   end
-  if missing then tooltip:AddLine("Lorekeeper's Codex: a page to find", unpack(TO_FIND)) end
+  if missing then tooltip:AddLine(L["Lorekeeper's Codex: a page to find"], unpack(TO_FIND)) end
 end
 
 if TooltipDataProcessor and TooltipDataProcessor.AddTooltipPostCall and Enum and Enum.TooltipDataType then

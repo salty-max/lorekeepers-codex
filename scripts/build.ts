@@ -48,6 +48,7 @@
  *   bun scripts/build.ts --check  fail if one isn't up to date
  */
 import { readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
+import { frontMatter, paragraphs, SIDES, type Para } from "./markdown";
 import { join, relative } from "node:path";
 
 const ROOT = new URL("..", import.meta.url).pathname;
@@ -61,9 +62,7 @@ const STANDINGS: Record<string, number> = { hated: 1, hostile: 2, unfriendly: 3,
 type Area = { id: number; name: string; parent: number };
 type Unlock = ({ always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number } | { people: string } | { calling: string } | { read: string[] }) & { client?: string };
 type Entry = { id: string; title: string; kind: string; portrait: number; chapter: string; unlock: Unlock[]; also: string[]; race: string[]; client: string; text: Para[]; file: string };
-type Para = { italic: boolean; text: string; client: string; side: string; aside: boolean; sign: string };
 const CLIENTS = ["classic", "forever"];
-const SIDES = ["alliance", "horde"];
 
 const classicAreas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas.json"), "utf8"));
 const texts: Record<string, { ids: number[]; names: string[] }> = JSON.parse(readFileSync(join(ROOT, "data/texts.json"), "utf8"));
@@ -75,36 +74,6 @@ const foreverOnly = new Set(foreverAreas.map((a) => a.id));
 const portraits: Record<number, { name: string; display: number }> = JSON.parse(readFileSync(join(ROOT, "data/portraits.json"), "utf8"));
 const errors: string[] = [];
 const fail = (file: string, msg: string) => errors.push(`${relative(ROOT, file)}: ${msg}`);
-
-function frontMatter(file: string, src: string): { meta: Record<string, string | string[]>; body: string } {
-  const m = src.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
-  if (!m) {
-    fail(file, "no front matter");
-    return { meta: {}, body: src };
-  }
-  const meta: Record<string, string | string[]> = {};
-  let list: string[] | null = null;
-  for (const raw of m[1].split("\n")) {
-    const line = raw.replace(/\s+#.*$/, "");
-    if (!line.trim()) continue;
-    const item = line.match(/^\s+-\s+(.*)$/);
-    if (item && list) {
-      list.push(item[1].trim());
-      continue;
-    }
-    const kv = line.match(/^([a-z]+):\s*(.*)$/);
-    if (!kv) {
-      fail(file, `can't read "${raw}"`);
-      continue;
-    }
-    if (kv[2] === "") meta[kv[1]] = list = [];
-    else {
-      meta[kv[1]] = kv[2].trim();
-      list = null;
-    }
-  }
-  return { meta, body: m[2] };
-}
 
 function resolveArea(file: string, spec: string, client: string): number | null {
   const m = spec.match(/^(.*?)\s*(?:\((.*)\))?$/);
@@ -190,39 +159,6 @@ function unlockOne(file: string, rule: string, client: string): Unlock | null {
   return fail(file, `unknown unlock "${key}"`), null;
 }
 
-function paragraphs(body: string) {
-  return body
-    .trim()
-    .split(/\n\s*\n/)
-    .map((p) => p.replace(/\s*\n\s*/g, " ").trim())
-    .filter(Boolean)
-    .map((p): Para => {
-      // "[forever] ..." or "[classic] ...": a paragraph for one client only;
-      // "[alliance] ..." or "[horde] ...": for one side's readers only.
-      let client = "";
-      let side = "";
-      for (let m = p.match(/^\[(\w+)\]\s+/); m; m = p.match(/^\[(\w+)\]\s+/)) {
-        if (SIDES.includes(m[1])) side = m[1];
-        else client = m[1];
-        p = p.slice(m[0].length);
-      }
-      // "> ... -- P. F.": an aside, and its signature.
-      let aside = false;
-      let sign = "";
-      if (p.startsWith("> ")) {
-        aside = true;
-        p = p.slice(2).replace(/\s+>\s+/g, " ");
-        const m = p.match(/\s+--\s+([^-]+)$/);
-        if (m) {
-          sign = m[1].trim();
-          p = p.slice(0, m.index);
-        }
-      }
-      const italic = !aside && /^\*[^*].*[^*]\*$/.test(p);
-      return { italic, text: italic ? p.slice(1, -1) : p, client, side, aside, sign };
-    });
-}
-
 const walk = (dir: string): string[] =>
   readdirSync(dir).flatMap((f) => (statSync(join(dir, f)).isDirectory() ? walk(join(dir, f)) : f.endsWith(".md") ? [join(dir, f)] : []));
 
@@ -236,7 +172,7 @@ for (const file of walk(CONTENT).sort()) {
   // and dashes, and the book's search matches what players type.
   const odd = source.match(/[^\x00-\x7f]/);
   if (odd) fail(file, `non-ASCII character "${odd[0]}": use ' for apostrophes, plain quotes and dashes`);
-  const { meta, body } = frontMatter(file, source);
+  const { meta, body } = frontMatter(source, (m) => fail(file, m));
   if (rel.endsWith("_chapter.md")) {
     chapters.set(chapter, { id: chapter, title: String(meta.title ?? chapter), order: Number(meta.order ?? 99), summary: body.trim(), entries: [] });
     continue;

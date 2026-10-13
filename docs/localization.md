@@ -1,6 +1,8 @@
 # Localizing the Codex: the plan
 
-Proposed 13 October 2026, not started. The unlocks already work in every
+Proposed 13 October 2026. Step 1 done the same day (the words through `L`,
+`Locale.lua`, `scripts/locales.ts`, the twelve language files as stubs):
+English players see no change. The unlocks already work in every
 client language (area ids, creature ids, book titles in every language); the
 words do not.
 

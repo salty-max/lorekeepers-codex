@@ -4,6 +4,7 @@
 -- where and when it was found; before one is opened, the Library at a glance:
 -- its figures by shelf, the texts copied lately.
 local _, ns = ...
+local L = ns.kit.L
 local ui = ns.ui
 local store, shelfOf, plain = ns.library, ns.libraryShelf, ns.libraryPlain
 local SHELVES = ns.SHELVES
@@ -139,8 +140,8 @@ end
 
 -- Where and when it was copied.
 local function foundAt(t)
-  if not t.zone then return "found" end
-  return ("found in %s%s, %s"):format(t.zone, t.sub and t.sub ~= "" and (": " .. t.sub) or "", ui.day(t.at))
+  if not t.zone then return L["found"] end
+  return L["found in %s%s, %s"]:format(t.zone, t.sub and t.sub ~= "" and (": " .. t.sub) or "", ui.day(t.at))
 end
 
 -- A text, one page at a time, the arrows that turn them under it.
@@ -159,10 +160,10 @@ function showText(id, pageNumber)
   local body = t.pages[currentPage]
   page:text({
     body and plain(body)
-      or "|cff9e9178This page did not reach the codex; open the text again in the world to copy it.|r",
+      or "|cff9e9178" .. L["This page did not reach the codex; open the text again in the world to copy it."] .. "|r",
   })
   if (last or highest) > 1 then
-    page.pageLabel:SetText(("Page %d of %d"):format(currentPage, last or highest))
+    page.pageLabel:SetText(L["Page %d of %d"]:format(currentPage, last or highest))
     page.prev:SetEnabled(currentPage > 1)
     page.next:SetEnabled(currentPage < (last or highest))
     page:place(page.turn, 40)
@@ -178,8 +179,8 @@ local LATELY = 5
 function showShelf()
   currentText = nil
   page:start(
-    "The Library",
-    ("%d texts copied"):format(ns.libraryCount()),
+    L["The Library"],
+    L["%d texts copied"]:format(ns.libraryCount()),
     ui.icon("Interface\\Icons\\INV_Misc_Book_09")
   )
   page.turn:Hide()
@@ -189,13 +190,13 @@ function showShelf()
     count[shelf] = (count[shelf] or 0) + 1
     table.insert(recent, { id = id, t = t })
   end
-  local figures = { { tostring(ns.libraryCount()), "texts copied" } }
+  local figures = { { tostring(ns.libraryCount()), L["texts copied"] } }
   for _, s in ipairs(SHELVES) do
-    table.insert(figures, { tostring(count[s[1]] or 0), s[1] }) -- (the shelf's short name: books, notes, plaques)
+    table.insert(figures, { tostring(count[s[1]] or 0), L[s[1]] }) -- (the shelf's short name: books, notes, plaques)
   end
   page:stats(figures)
   page:paragraph(
-    "Every book, note and plaque you read in the world is copied here whole, so that you can read it again, even a letter long since handed in. Letters written by players are never copied.",
+    L["Every book, note and plaque you read in the world is copied here whole, so that you can read it again, even a letter long since handed in. Letters written by players are never copied."],
     ui.T.soft
   )
   table.sort(recent, function(a, b)
@@ -203,7 +204,7 @@ function showShelf()
     return a.t.title < b.t.title
   end)
   if #recent > 0 then
-    page:section("Copied lately")
+    page:section(L["Copied lately"])
     for i = 1, math.min(LATELY, #recent) do
       local r = recent[i]
       local shelf = shelfFor(r.t)
@@ -217,7 +218,7 @@ function showShelf()
 end
 
 local function refresh()
-  book.count:SetText(("%d texts in the Library"):format(ns.libraryCount()))
+  book.count:SetText(L["%d texts in the Library"]:format(ns.libraryCount()))
   refreshList()
   if currentText then
     showText(currentText, currentPage)

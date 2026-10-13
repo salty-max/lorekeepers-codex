@@ -6,6 +6,7 @@
 -- game's languages). Each unlock is a page in the codex, with when, at what
 -- level and where it was found.
 local _, ns = ...
+local L = ns.kit.L
 local C = ns.content
 local PREFIX, secret = ns.PREFIX, ns.secret
 
@@ -174,9 +175,8 @@ local function unlock(id, retro)
   }
   if not retro then
     -- A link: clicking it opens the book at this page (see Book.lua).
-    print(
-      PREFIX .. ("|cffffd100|Hlorekeeper:%s|h[%s]|h|r has been added to the codex."):format(id, C.entries[id].title)
-    )
+    local link = ("|cffffd100|Hlorekeeper:%s|h[%s]|h|r"):format(id, C.entries[id].title)
+    print(PREFIX .. L["%s has been added to the codex."]:format(link))
     ns.playSound()
     ns.showBanner(id)
   end

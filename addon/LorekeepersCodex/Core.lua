@@ -13,8 +13,12 @@
 --     library = { texts, keys, nextId }               the texts copied (Library.lua)
 --     collapsed[chapterId], libraryFolded[shelf]      the book's folds
 local _, ns = ...
+local L = ns.kit.L
 local PREFIX = "|cffc9a227Lorekeeper's Codex:|r "
 ns.PREFIX = PREFIX
+-- Every word shown goes through L (the kit's, English by default; the
+-- client's language file, Text_<locale>.lua, fills it).
+ns.L = ns.kit.L
 
 -- Which game: World of Warcraft: Forever (the original world on the modern
 -- client, interface 16xxx) or Classic (Era, TBC Anniversary). Some pages and
@@ -118,7 +122,7 @@ function ns.login()
     local this = ns.forever and "Forever" or "Classic"
     print(
       PREFIX
-        .. ("this is the %s package, and this is %s: install the %s package to read this game's pages."):format(
+        .. L["this is the %s package, and this is %s: install the %s package to read this game's pages."]:format(
           made == "forever" and "Forever" or "Classic",
           this,
           this
@@ -128,7 +132,7 @@ function ns.login()
   -- The only reminder of how to open the book: once, at login.
   print(
     PREFIX
-      .. ("%d of %d pages. Type /codex or click the book by the minimap to read them."):format(
+      .. L["%d of %d pages. Type /codex or click the book by the minimap to read them."]:format(
         ns.count(),
         ns.knownTotal()
       )
@@ -136,10 +140,6 @@ function ns.login()
 end
 
 -- ── /codex ───────────────────────────────────────────────────────────────────
-local USAGE = "/codex opens the book; /codex achievements; /codex settings; /codex banner shows or hides the "
-  .. "alerts; /codex minimap shows or hides the button; /codex welcome shows the welcome page again; /codex "
-  .. "export gives this character's settings as a code, /codex import CODE takes them; /codex reset starts this "
-  .. "character's codex over."
 
 local function where()
   -- For writing content: where am I, in the terms the content files use.
@@ -172,28 +172,31 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
   elseif msg == "where" then
     where()
   elseif msg == "reset" then
-    print(PREFIX .. "this forgets every page and achievement this character has found. Type /codex reset yes to do it.")
+    print(
+      PREFIX .. L["this forgets every page and achievement this character has found. Type /codex reset yes to do it."]
+    )
   elseif msg == "reset yes" then
     newCodex(char.guid)
     ns.catchUp()
     ns.refresh()
-    print(PREFIX .. ("the codex starts afresh: %d of %d pages."):format(ns.count(), ns.knownTotal()))
+    print(PREFIX .. L["the codex starts afresh: %d of %d pages."]:format(ns.count(), ns.knownTotal()))
   elseif msg == "welcome" then
     ns.showWelcome()
   elseif msg == "export" then
     ns.showWelcome("export")
   elseif msg:match("^import%s") then
     if ns.profiles:import(raw:match("^%a+%s+(.+)$")) then
-      print(PREFIX .. "settings imported for this character.")
+      print(PREFIX .. L["settings imported for this character."])
     else
-      print(PREFIX .. "that isn't a Lorekeeper's Codex settings code (/codex export makes one).")
+      print(PREFIX .. L["that isn't a Lorekeeper's Codex settings code (/codex export makes one)."])
     end
   elseif msg == "banner" then
     ns.setOption("banner", not ns.option("banner"))
     print(
       PREFIX
         .. (
-          ns.option("banner") and "alerts shown for new pages." or "alerts hidden (/codex banner to show them again)."
+          ns.option("banner") and L["alerts shown for new pages."]
+          or L["alerts hidden (/codex banner to show them again)."]
         )
     )
   elseif msg == "minimap" then
@@ -201,8 +204,8 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
     print(
       PREFIX
         .. (
-          ns.option("minimapHidden") and "minimap button hidden (/codex minimap to show it again)."
-          or "minimap button shown."
+          ns.option("minimapHidden") and L["minimap button hidden (/codex minimap to show it again)."]
+          or L["minimap button shown."]
         )
     )
   elseif scan then
@@ -211,9 +214,12 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
     ns.openAchievements()
   elseif msg == "settings" or msg == "options" then
     if not ns.openSettings() then
-      print(PREFIX .. "no settings page in this client: use /codex banner and /codex minimap.")
+      print(PREFIX .. L["no settings page in this client: use /codex banner and /codex minimap."])
     end
   else
-    print(PREFIX .. USAGE)
+    print(
+      PREFIX
+        .. L["/codex opens the book; /codex achievements; /codex settings; /codex banner shows or hides the alerts; /codex minimap shows or hides the button; /codex welcome shows the welcome page again; /codex export gives this character's settings as a code, /codex import CODE takes them; /codex reset starts this character's codex over."]
+    )
   end
 end
