@@ -407,7 +407,7 @@ ns.translate({
     ["arathi-basin"] = {
       title = "Le bassin Arathi",
       text = {
-        { "Au sud des Hautes-terres s'étend un bassin fertile de fermes, de mines et de moulins, la terre la plus riche qui reste en Arathi, et l'Alliance comme la Horde veulent ce qu'elle produit. La Ligue d'Arathor, fidèle à la mémoire de Stromgarde, se bat pour elle depuis l'ouest. Les Profanateurs, levés par les Réprouvés, depuis l'est." },
+        { "Au sud des Hautes-terres s'étend un bassin fertile de fermes, de mines et de moulins, la terre la plus riche qui reste en Arathi, et l'Alliance comme la Horde veulent ce qu'elle produit. La Ligue d'Arathor, fidèle à la mémoire de Stromgarde, se bat pour elle depuis l'ouest. Les Profanateurs, levés par les Réprouvés, se battent depuis l'est." },
         { "Ils se disputent une ferme, une mine, une scierie, une écurie et une forge, plantant et arrachant les bannières les uns des autres, jour et nuit. Arathor aurait compris : le premier empire des hommes fut bâti sur une terre semblable." },
       },
     },
@@ -3545,7 +3545,7 @@ ns.translate({
       title = "Le clan Wildhammer",
       text = {
         { "Les Wildhammer étaient l'un des trois marteaux de l'ancien royaume de Khaz Modan, et après la guerre qui sépara les trois, ils s'établirent à Grim Batol. Quand la reine sombrefer Modgud y mourut, sa mort laissa une noirceur dans la pierre. Les Wildhammer quittèrent donc les lieux et partirent au nord, vers les Hinterlands, où ils vivent depuis à ciel ouvert, montant des griffons et gardant les anciennes voies des esprits." },
-        { "Ils sont fiers, farouches, très indépendants, et ils pensent que nous autres de Forgefer avons passé trop de temps sous terre. Pendant la Deuxième Guerre, leurs chevaucheurs de griffons combattirent pour l'Alliance et furent la terreur des dragons de la Horde. Ils gardent aujourd'hui leurs intentions pour eux, et leurs propres amis : les hauts-elfes de Quel'Danil parmi eux, ce dont les trolls des Hinterlands leur tiennent rigueur." },
+        { "Ils sont fiers, farouches, très indépendants, et ils pensent que nous autres de Forgefer avons passé trop de temps sous terre. Pendant la Deuxième Guerre, leurs chevaucheurs de griffons combattirent pour l'Alliance et furent la terreur des dragons de la Horde. Ils gardent aujourd'hui leurs intentions pour eux et choisissent eux-mêmes leurs amis : les hauts-elfes de Quel'Danil parmi eux, ce dont les trolls des Hinterlands leur tiennent rigueur." },
       },
     },
     ["wildkin"] = {
@@ -3612,7 +3612,7 @@ ns.translate({
       title = "Zul'Farrak",
       text = {
         { "Zul'Farrak est la cité des trolls Sandfury, une cité fortifiée de grès à l'ouest de Tanaris, avec des pyramides, des sanctuaires et un bassin sacré d'où l'on appelle l'hydre Gahz'rilla des profondeurs. Le chef Ukorz Scalpessable la gouverne, et le sanctuaire du martyr Theka se dresse dans ses murs." },
-        { "Beaucoup viennent ici pour ce que les trolls gardent. Il y a les tablettes de la prophétie de Mosh'aru, qui parlent d'un moyen de contenir l'essence du dieu Hakkar, une lame légendaire et l'agent de trempe des trolls, que les forgerons prisent. Il y a aussi des trésors, qui attirent gobelins et imbéciles en nombre égal. La plupart n'en repartent jamais." },
+        { "Beaucoup viennent ici pour ce que les trolls gardent. Les tablettes de la prophétie de Mosh'aru parlent d'un moyen de contenir l'essence du dieu Hakkar. Il y a aussi une lame légendaire, et l'agent de trempe des trolls, que les forgerons prisent. Et il y a des trésors, qui attirent gobelins et imbéciles en nombre égal. La plupart n'en repartent jamais." },
       },
     },
     ["zulgurub"] = {

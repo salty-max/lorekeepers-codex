@@ -286,7 +286,7 @@ ns.content = {
       unlock = { { area = 3358 } },
       also = { "arathi-highlands", "refuge-pointe", "the-forsaken" },
       text = {
-        { "In the south of the Highlands lies a fertile basin of farms, mines and mills, the richest land left in Arathi, and the Alliance and the Horde both want what it produces. The League of Arathor, sworn to Stromgarde's memory, fights for it from the west. The Defilers, raised by the Forsaken, from the east." },
+        { "In the south of the Highlands lies a fertile basin of farms, mines and mills, the richest land left in Arathi, and the Alliance and the Horde both want what it produces. The League of Arathor, sworn to Stromgarde's memory, fights for it from the west. The Defilers, raised by the Forsaken, fight from the east." },
         { "They fight over a farm, a mine, a lumber mill, a stable and a smithy, raising and tearing down each other's banners, all day and all night. Arathor would have understood: the first empire of men was built on just such land." },
       },
     },
@@ -3443,7 +3443,7 @@ ns.content = {
       also = { "sandfury-trolls", "hakkar", "the-temple-of-atalhakkar", "tanaris" },
       text = {
         { "Zul'Farrak is the city of the Sandfury trolls, a walled city of sandstone in the west of Tanaris, with pyramids, shrines and a sacred pool where the hydra Gahz'rilla is called up from the deep. Chief Ukorz Sandscalp rules it, and the shrine of the martyr Theka stands within its walls." },
-        { "Many come here for what the trolls guard. There are the tablets of the prophecy of Mosh'aru, which speak of a way to contain the god Hakkar's essence, a legendary blade and the trolls' own tempering agent, prized by smiths. There is also treasure, which brings goblins and fools in equal number. Most of them never leave." },
+        { "Many come here for what the trolls guard. The tablets of the prophecy of Mosh'aru speak of a way to contain the god Hakkar's essence. There is a legendary blade too, and the trolls' own tempering agent, which smiths prize. And there is treasure, which brings goblins and fools in equal number. Most of them never leave." },
       },
     },
     ["darnassus"] = {
