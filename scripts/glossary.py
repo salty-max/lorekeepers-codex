@@ -72,6 +72,25 @@ def bare(name):
     return re.sub(r"\s*\([^)]*\)\s*$", "", name or "").strip().replace("\u2019", "'")
 
 
+def by_hand(out, dest):
+    # Names no table gives as Forever writes them, kept by hand from Forever's
+    # own creatures ("Dragonmaw Clan": the faction is the live game's alone,
+    # "Clan Gueule-de-dragon"; Forever's orcs are "Ecumeur Dragonmaw")
+    hand = os.path.join(dest, "glossary-by-hand.json")
+    out["by hand"] = {en: {"use": name} for en, name in (json.load(open(hand, encoding="utf-8")) if os.path.exists(hand) else {}).items()}
+    for kind, entries in out.items():
+        if kind != "by hand":
+            for en in out["by hand"]:
+                entries.pop(en, None)
+    return out
+
+
+def write_glossary(out, dest):
+    with open(os.path.join(dest, "glossary.json"), "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=1, sort_keys=True)
+        f.write("\n")
+
+
 def write_swaps(locale, out, dest):
     # Forever's names that Classic writes otherwise (the longest first: a
     # place's name may hold another's)
@@ -106,9 +125,10 @@ def main():
     locale = sys.argv[1]
     dest = os.path.join(ROOT, "i18n", locale)
     if "--swaps" in sys.argv:
-        # (only classic.json again, from the glossary as it is: after editing
-        # classic-by-hand.json)
-        out = json.load(open(os.path.join(dest, "glossary.json"), encoding="utf-8"))
+        # (only the hand-kept names and classic.json again, from the glossary
+        # as it is: after editing glossary-by-hand.json or classic-by-hand.json)
+        out = by_hand(json.load(open(os.path.join(dest, "glossary.json"), encoding="utf-8")), dest)
+        write_glossary(out, dest)
         print(f"i18n/{locale}/classic.json: {len(write_swaps(locale, out, dest))} Classic names")
         return
     pages = sorted(glob.glob(os.path.join(ROOT, "content", "**", "*.md"), recursive=True))
@@ -163,11 +183,9 @@ def main():
     for kind in out.values():
         for e in kind.values():
             e["use"] = e.get("forever") or e.get("classic") or e.get("retail")
-    dest = os.path.join(ROOT, "i18n", locale)
     os.makedirs(dest, exist_ok=True)
-    with open(os.path.join(dest, "glossary.json"), "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=1, sort_keys=True)
-        f.write("\n")
+    out = by_hand(out, dest)
+    write_glossary(out, dest)
     swaps = write_swaps(locale, out, dest)
     print(f"i18n/{locale}/glossary.json: {sum(len(v) for v in out.values())} names; classic.json: {len(swaps)} Classic names")
 
