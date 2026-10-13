@@ -175,6 +175,8 @@ globals:
     any: true
   UnitRace:
     any: true
+  UnitSex:
+    any: true
   UnitXP:
     any: true
   date:

@@ -1513,16 +1513,26 @@ end
 do
   local L, K = ns.L, ns.kit
   check(L["Begin"] == "Begin" and K.plural(0, "chapter", "chapters") == "chapters", "English by default")
+  UnitSex = function() return 3 end -- (a woman reads)
   ns.translate({
     locale = "frFR",
     plural = "fr",
     words = { ["Begin"] = "Commencer", ["Oct"] = "oct.", ["chapter"] = "chapitre", ["chapters"] = "chapitres" },
     chapters = { ["wetlands"] = { "Les Paluns", "Des marais entre Khaz Modan et Arathi." } },
+    classic = {
+      { "Contreforts de Hautebrande", "Contreforts d'Hillsbrad" },
+      { "de Fossoyeuse", "d'Undercity" },
+      { "de Forgefer", "d'Ironforge" },
+      { "Fossoyeuse", "Undercity" },
+      { "Forgefer", "Ironforge" },
+    },
     pages = {
       ["grim-batol"] = {
         title = "Grim Batol",
         text = {
-          { "Premier paragraphe." },
+          {
+            "Premier paragraphe, $gcher voyageur:chere voyageuse;, de Forgefer aux Contreforts de Hautebrande, loin de Fossoyeuse.",
+          },
           { client = "forever", "Pour Forever." },
           { client = "classic", "Pour Classic." },
           { side = "Horde", aside = true, sign = "P. F.", "Une note de Parqual." },
@@ -1545,12 +1555,20 @@ do
   check(chapter.title == "Les Paluns", "… its chapters")
   check(
     #text == 3
-      and text[1][1] == "Premier paragraphe."
       and text[2][1] == (FOREVER and "Pour Forever." or "Pour Classic.")
       and text[2].client == nil
       and text[3].aside
       and text[3].side == "Horde",
     "… its pages, this game's paragraphs only, Parqual's aside kept"
+  )
+  check(
+    text[1][1]
+      == (
+        FOREVER
+          and "Premier paragraphe, chere voyageuse, de Forgefer aux Contreforts de Hautebrande, loin de Fossoyeuse."
+        or "Premier paragraphe, chere voyageuse, d'Ironforge aux Contreforts d'Hillsbrad, loin d'Undercity."
+      ),
+    "… the reader's gender ($g), and on Classic its own names for the places Forever renamed, elisions and all"
   )
 end
 

@@ -96,6 +96,8 @@ function read(locale: string) {
   if (meta.plural && !PLURALS.includes(meta.plural)) fail(join(dir, "meta.json"), `plural: one of ${PLURALS.join(", ")}`);
   const words = json<Record<string, string>>("words.json", {});
   const chapters = json<Record<string, [string, string]>>("chapters.json", {});
+  // Forever's names Classic writes otherwise (scripts/glossary.py)
+  const classic = json<Record<string, string>>("classic.json", {});
   for (const id of Object.keys(chapters)) if (!chapterIds.has(id)) fail(join(dir, "chapters.json"), `no chapter "${id}"`);
   const pages = new Map<string, Page>();
   for (const file of walk(join(dir, "pages"))) {
@@ -111,7 +113,7 @@ function read(locale: string) {
     }
     pages.set(id, { title: String(m.title), text: paragraphs(body), stale: m.source !== en.hash });
   }
-  return { meta, words, chapters, pages };
+  return { meta, words, chapters, pages, classic };
 }
 
 // ── Lua ─────────────────────────────────────────────────────────────────────
@@ -142,6 +144,13 @@ ${Object.entries(t.words)
 ${Object.entries(t.chapters)
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([id, [title, summary]]) => `    [${q(id)}] = { ${q(title)}, ${q(summary)} },`)
+  .join("\n")}
+  },
+  -- on Classic, its own names for the places Forever renamed (the longest first)
+  classic = {
+${Object.entries(t.classic)
+  .sort(([a], [b]) => b.length - a.length || a.localeCompare(b))
+  .map(([fv, cl]) => `    { ${q(fv)}, ${q(cl)} },`)
   .join("\n")}
   },
   pages = {
