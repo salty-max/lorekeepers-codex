@@ -478,6 +478,20 @@ ns.translate({
         { "C'est un endroit animé, accueillant et pratique. Les taurens de Sabot-de-Sang sont fermiers et éleveurs autant que chasseurs, et ils nourriront un étranger avant de lui demander ce qui l'amène." },
       },
     },
+    ["bloodsail-buccaneers"] = {
+      title = "La Voile sanglante",
+      text = {
+        { "Les boucaniers de la Voile sanglante forment la grande flotte pirate des mers du sud, et leur querelle est avec Baie-du-Butin. Le baron et ses pillards des Flots noirs les empêchent de piller où bon leur semble et les pendent quand ils les attrapent ; la Voile sanglante veut la mort du baron et de son amiral, et fera amiral quiconque lui apportera leurs têtes." },
+        { "Leurs navires mouillent au large de la côte de Strangleronce, le Voile cramoisi parmi eux, et leurs camps tiennent les criques de la Côte sauvage. L'amiral des Flots noirs est Firallon, dont les marins de la Voile sanglante disent qu'il ne saurait pas mener un esquif d'un bord à l'autre d'un lac. Ils ne l'ont pas encore battu." },
+      },
+    },
+    ["bloodscalp-and-skullsplitter"] = {
+      title = "Les Bloodscalp et les Skullsplitter",
+      text = {
+        { "Les Bloodscalp tiennent le nord-ouest de Strangleronce ; les Skullsplitter occupent le centre de la jungle. Les deux vivent parmi les ruines de leurs ancêtres gurubashi. Leurs chasseurs de têtes parcourent le nord, prenant des têtes et des trophées, et les deux tribus se regardent avec une hostilité considérable." },
+        { "Nimboya soupçonne les Bloodscalp de retenir Yenniku, le plus jeune fils de son chef. La recherche mène ailleurs : Zanzil le Paria le tient sous son emprise magique. Suivez cette distinction, $gvoyageur:voyageuse;. Le premier ennemi nommé dans une enquête n'est pas toujours le responsable." },
+      },
+    },
     ["blue-dragonflight"] = {
       title = "Le Vol draconique bleu",
       text = {
@@ -492,6 +506,13 @@ ns.translate({
         { "Le généralissime Bolvar Fordragon commande les armées de Hurlevent et se tient aux côtés de l'enfant-roi, Anduin Wrynn, tandis que son père Varian a disparu. C'est un paladin de la vieille école, pieux, honnête et inébranlable, et il garde les soldats du royaume là où le royaume en a le plus besoin, ce qui est rarement là où les provinces les voudraient." },
         { "C'est un homme prudent, trop prudent peut-être. Quand le magistrat de Comté-du-Lac fit savoir que les orcs Blackrock avaient des dragons derrière eux, Bolvar refusa de déplacer des troupes sur une simple supposition et envoya le messager demander conseil à dame Katrana Prestor. Le maréchal Windsor, qui avait trouvé la preuve, le traita d'imbécile : elle se tenait à deux pas de lui, dit-il, et il ne la voyait pas. Quand Windsor démasqua la dame dans la salle du trône comme étant Onyxia, fille d'Aile de mort, il déclara que même le généralissime avait été sa marionnette, tenu par un médaillon de dragon. À la fin, ce fut Bolvar qui resta avec le médaillon brisé entre les mains." },
         { "Ce n'est pas un imbécile. C'est un honnête homme qui a cru une dragonne sur parole, et je doute qu'il recommence." },
+      },
+    },
+    ["booty-bay"] = {
+      title = "Baie-du-Butin",
+      text = {
+        { "Baie-du-Butin s'accroche aux falaises d'une grotte marine, à la pointe sud de Strangleronce. Maisons de bois, pilotis et ponts de corde se pressent autour de son port ; les mâchoires grandes ouvertes d'un énorme requin en marquent l'entrée. Le baron Revilgaz dirige le port pour le cartel Gentepression, avec le souci de le garder à la fois neutre et rentable." },
+        { "Ses pillards des Flots noirs y ont aussi leur foyer. Ils sont en guerre contre les boucaniers de la Voile sanglante, qui veulent la mort du baron. Un marchand peut trouver un havre dans la baie, et un voyageur armé un emploi dans la querelle au-delà. Revilgaz a des affaires pour les deux." },
       },
     },
     ["boulderslide-ravine"] = {
@@ -1059,6 +1080,34 @@ ns.translate({
         { "Grom ne vécut pas assez pour voir bâtir le nouveau foyer de la Horde. Thrall posa une pierre là où il tomba, dans le canyon de la Malechute. « À bien des égards, y lit-on, la malédiction de notre peuple a commencé et s'est achevée avec Grom. » Son nom signifiait cœur de géant, écrit le chef de guerre, et il l'a mérité cent fois." },
       },
     },
+    ["gromgol-base-camp"] = {
+      title = "Le campement Grom'gol",
+      text = {
+        { "Grom'gol est une palissade de la Horde sur la côte nord de Strangleronce, desservie par des zeppelins venus d'Orgrimmar et de Fossoyeuse. Pour les Darkspear, venir ici, c'est revenir au pays de leurs ancêtres. Leurs affaires dans la jungle comprennent des pertes qui les ont suivis quand ils sont partis." },
+        { "Nimboya cherche Yenniku, le plus jeune fils de son chef, confié enfant aux trolls de Zul'Gurub selon l'ancienne coutume. Les Darkspear l'ont perdu quand ils sont partis avec Thrall. Nimboya soupçonne d'abord les Bloodscalp, mais la recherche révèle l'emprise magique de Zanzil le Paria sur lui et mène à une tentative de libérer son âme." },
+      },
+    },
+    ["gurubashi-arena"] = {
+      title = "L'arène des Gurubashi",
+      text = {
+        { "Au milieu de la jungle se dresse une grande arène de pierre, bâtie par les Gurubashi pour leurs jeux sanglants, il y a bien longtemps. Les trolls sont partis, mais les combats non : les gobelins et les pirates qui la dirigent aujourd'hui organisent des tournois réguliers, et de temps à autre, ils jettent un coffre de trésor au milieu de l'arène et le laissent à quiconque tient encore debout." },
+        { "Elle est ouverte à tous, Alliance comme Horde, c'est-à-dire que c'est le seul endroit de Strangleronce où l'on encourage les deux à s'entretuer." },
+      },
+    },
+    ["gurubashi-empire"] = {
+      title = "L'empire gurubashi",
+      text = {
+        { "Les trolls de la jungle gurubashi régnaient autrefois sur un empire qui s'étendait à travers le sud des royaumes de l'Est et sur les îles de la mer, et Strangleronce en était le cœur, avec la grande cité-temple de Zul'Gurub en son centre. Ses ruines sont partout dans cette jungle : des temples en gradins, des idoles brisées et des routes pavées sous les racines." },
+        { "Sa chute fut l'œuvre de ses propres prêtres. Les Atal'ai firent venir dans le monde le dieu du sang Hakkar l'Écorcheur d'âmes, et sa soif de sacrifices retourna l'empire contre lui-même ; les tribus se soulevèrent, chassèrent les Atal'ai en exil, et se séparèrent. Ce qui resta devint les tribus que nous connaissons : les Skullsplitter et les Bloodscalp dans la jungle, les Darkspear, partis avec Thrall, et d'autres. Les trolls n'ont pas oublié ce qu'ils étaient." },
+      },
+    },
+    ["hakkar"] = {
+      title = "Hakkar l'Écorcheur d'âmes",
+      text = {
+        { "Hakkar l'Écorcheur d'âmes est le dieu du sang des trolls, un serpent ailé qui se nourrit de sang et d'âmes. Il y a longtemps, les Atal'ai le firent venir dans le monde. Ses exigences de sacrifices devinrent si terribles que les tribus se soulevèrent contre ses prêtres et les chassèrent en exil." },
+        { "Il est revenu par Zul'Gurub. Les Zandalar préviennent que son règne s'étendra sur le monde si on ne l'arrête pas. Même son cœur, une fois tombé, garde du pouvoir : ceux qui l'ont affronté le décrivent comme brûlant encore. Gardez à l'esprit l'avertissement des Zandalar, $gvoyageur:voyageuse;, si vous entrez dans cette cité. Ils savent ce que son culte a coûté autrefois à leur peuple." },
+      },
+    },
     ["hall-of-thanes"] = {
       title = "La salle des Thanes",
       text = {
@@ -1227,6 +1276,14 @@ ns.translate({
         { "Tout le monde ne le fait pas. Des fantômes de centaures et de kodos y errent la nuit, et un gobelin a inventé un appareil qui ramène à coups de décharge les bêtes mourantes au travail pour les revendre aux caravanes. Je n'arrive pas à décider si c'est ingénieux ou monstrueux. Je soupçonne les kodos d'avoir un avis." },
       },
     },
+    ["kurzen-rebellion"] = {
+      title = "La rébellion de Kurzen",
+      text = {
+        { "Le colonel Kurzen arriva à Strangleronce avec une réputation de soldat : un tacticien brillant, tenu autrefois pour un homme grand et noble. Dans la jungle, il changea. Ses fidèles devinrent une force loyale envers lui seul, menant raids et chasses avec une cruauté que leurs anciens camarades refusèrent d'accepter." },
+        { "Le lieutenant Doren mena les dissidents dans un camp rebelle dans les collines. À un contre dix, ils combattent Kurzen avec les tactiques qu'il leur a enseignées. Frère Nimetz soupçonne d'abord la magie troll, mais son enquête le mène à Mai'Zoth, un ogre-mage, et à l'Œil de l'esprit dont il se sert pour asservir les esprits." },
+        { "Nimetz demande la mort du mage et la récupération de l'artefact. Apportez un soin particulier à cette seconde tâche, $gvoyageur:voyageuse;. Il craint que le laisser derrière soi n'expose un autre soldat au sort de Kurzen." },
+      },
+    },
     ["lakeshire"] = {
       title = "Comté-du-Lac",
       text = {
@@ -1391,6 +1448,13 @@ ns.translate({
         { "Nek'rosh Skullcrusher mène ce qui reste des Dragonmaw dans les Paluns, et il est bien le fils de son père : Nekros Skullcrusher était l'orc qui retenait la reine des dragons captive à Grim Batol. Quand les dragons se libérèrent, ils se vengèrent du clan. Nek'rosh entend prendre sa revanche à son tour." },
         { "Il reconstruit la force des Dragonmaw dans les collines, et il a fait construire des catapultes pour assiéger Port de Menethil et couper la route du Loch Modan." },
         { "Si c'est vous qui l'arrêtez, $gvoyageur:voyageuse;, la Ligue vous serait reconnaissante d'un récit de la chose. Bref, si vous y parvenez. Les récits sur les chefs orcs ont tendance à s'éterniser." },
+      },
+    },
+    ["nesingwarys-expedition"] = {
+      title = "L'expédition de Nesingwary",
+      text = {
+        { "Le camp de Hemet Nesingwary occupe une clairière au nord de Strangleronce, bien garni de tentes, de trophées et de râteliers à fusils. Le célèbre chasseur est venu pour les panthères, les tigres et les raptors, et pour écrire « Les vertes collines de Strangleronce ». Il offre aux chasseurs de passage de nombreuses occasions de faire leurs preuves." },
+        { "Son manuscrit s'est envolé et ses pages sont éparpillées dans toute la jungle. Les chapitres racontent sa chasse, une fois que quelqu'un les a remis dans l'ordre. Si vous trouvez une page, $gvoyageur:voyageuse;, gardez-la. Les auteurs sont déjà assez pénibles quand ils savent où est leur œuvre." },
       },
     },
     ["night-elves"] = {
@@ -1935,6 +1999,13 @@ ns.translate({
         { client = "forever", "C'est une cité de commerce et de soldats, avec des navires dans son port, de prêtres et d'espions, et d'une cour qui chuchote. L'enfant sur le trône en est le roi ; les hommes et les femmes qui l'entourent la gouvernent." },
       },
     },
+    ["stranglethorn-vale"] = {
+      title = "Vallée de Strangleronce",
+      text = {
+        { "Strangleronce est une jungle, la plus grande des royaumes de l'Est : chaleur, pluie, lianes, panthères, raptors et gorilles, ruines englouties par la verdure, et une longue côte de plages et de criques. C'était le cœur des Gurubashi, l'empire troll qui régnait sur le sud bien avant qu'il n'y ait des royaumes des hommes, et les ruines de leurs temples se dressent partout." },
+        { "Tout le monde vient ici pour quelque chose. Les chasseurs pour les trophées, les gobelins pour l'or et le bois, les pirates pour le butin, et les soldats de l'Alliance comme de la Horde pour combattre les trolls, les ogres et les uns les autres. La jungle les avale presque tous, tôt ou tard." },
+      },
+    },
     ["stromgarde-keep"] = {
       title = "Le donjon de Stromgarde",
       text = {
@@ -2422,12 +2493,26 @@ ns.translate({
         { "Un druide du Cercle cénarien attend près de Proie-de-l'Ombre, en quête de quelqu'un capable d'affronter Theradras et de rapporter la dépouille de Zaetar. La terre sacrée des centaures est aussi le lieu de repos d'un membre de la famille de Cénarius." },
       },
     },
+    ["zandalar-tribe"] = {
+      title = "La tribu Zandalar",
+      text = {
+        { "Les Zandalar se décrivent comme la plus ancienne tribu troll, dont descendent les autres. Leurs prêtres et leurs érudits préservent la mémoire de leur peuple et de leurs dieux. Ils interviennent rarement dans les affaires des autres peuples, mais le retour de Hakkar les a amenés sur l'île de Yojamba, au large de la côte de Strangleronce." },
+        { "Leur chef, Molthor, travaillera avec quiconque est prêt à s'opposer à l'Écorcheur d'âmes. Cette invitation s'étend à des gens que les trolls n'auraient d'ordinaire guère de raisons d'accueillir." },
+      },
+    },
     ["zephras-isle"] = {
       title = "Île de Zéphras",
       text = {
         { "L'île de Zéphras est une île qui vole. Elle flotte dans le Mur-Céleste, le plan élémentaire de l'air, où les esprits du vent emportèrent jadis les shen'dorei, et c'est le foyer des éolides qui sont récemment descendus jusqu'à nous. Son peuple vit à Valanaar, sur la bordure sud-est, dans les villages des hautes-terres de Shen'dar et à Thendal, et dans les fermes des Plaines Aérelles." },
         { "Les esprits qui liaient l'île l'ont quittée il y a quelques siècles. Leurs grands pylônes d'ancrage maintiennent encore Zéphras dans les airs, mais leur magie devient instable, et une nuit, Ban'aethal a commencé à tomber dans le ciel et a dû être évacuée avant le matin. Aucun fend-ciel n'a rejoint les autres îles, Anvilas et Siroccas, depuis un certain temps, et certains shen'dorei craignent d'être tout ce qui reste de leur peuple." },
         { "Je n'y ai jamais mis les pieds, $gvoyageur:voyageuse;, et je vous envie un peu. Tenez-vous loin des bords." },
+      },
+    },
+    ["zulgurub"] = {
+      title = "Zul'Gurub",
+      text = {
+        { "Zul'Gurub était la cité-temple au cœur de l'empire gurubashi. Après des siècles de calme, c'est de nouveau la cité de Hakkar. Les grands prêtres envoyés pour s'opposer à lui sont tombés sous son pouvoir, et les Zandalar doivent désormais chercher de l'aide au-delà de leur propre peuple." },
+        { "Les prêtres captifs prennent la forme des anciens dieux animaux : chauve-souris, panthère, tigre, serpent et araignée. Les sacrifices nourrissent l'autel de l'Écorcheur d'âmes. Les Zandalar préviennent que sa puissance croissante menace tout Azeroth. Si vous y entrez, souvenez-vous pourquoi ils vous ont demandé d'y aller : même ceux qu'on avait envoyés l'arrêter sont devenus les instruments de son règne." },
       },
     },
   },
