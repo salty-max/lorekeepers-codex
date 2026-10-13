@@ -365,6 +365,21 @@ ns.translate({
         { "Ils sont lents à parler et plus lents encore à changer d'avis. Un peuple qui a planté sa capitale dans un arbre, je suppose, apprend à écouter les arbres." },
       },
     },
+    ["arathi-basin"] = {
+      title = "Le bassin Arathi",
+      text = {
+        { "Au sud des Hautes-terres s'étend un bassin fertile de fermes, de mines et de moulins, la terre la plus riche qui reste en Arathi, et l'Alliance comme la Horde veulent ce qu'elle produit. La Ligue d'Arathor, fidèle à la mémoire de Stromgarde, se bat pour elle depuis l'ouest ; les Profanateurs, levés par les Réprouvés, depuis l'est." },
+        { "Ils se disputent une ferme, une mine, une scierie, une écurie et une forge, plantant et arrachant les bannières les uns des autres, jour et nuit. Arathor aurait compris : le premier empire des hommes fut bâti sur une terre semblable." },
+      },
+    },
+    ["arathi-highlands"] = {
+      title = "Hautes-terres Arathies",
+      text = {
+        { "Les Hautes-terres Arathies sont un pays battu par les vents, entre Hautebrande et les Paluns. C'est ici que Thoradin unit les tribus humaines en Arathor, avec Strom pour capitale. Tous les royaumes humains suivants sont nés de ce commencement." },
+        { "Strom devint Stromgarde. Ses ruines sont aujourd'hui partagées entre ses défenseurs, les voleurs du Syndicat et des ogres. Les trolls Witherbark occupent des villages dans les collines, tandis que des géants gardent d'étranges cercles de pierres dressées. Le Refuge de l'Ornière abrite le camp de l'Alliance et Trépas-d'Orgrim celui de la Horde ; leurs forces se disputent les fermes, les mines et les moulins du bassin, au sud." },
+        { "Regardez la vieille maçonnerie en traversant Arathi, $gvoyageur:voyageuse;. Les royaumes humains ont commencé ici ; les gens qui défendent Stromgarde tentent encore de garder pour eux une part de ce commencement." },
+      },
+    },
     ["archesonus"] = {
       title = "Historienne royale Archesonus",
       text = {
@@ -1030,6 +1045,13 @@ ns.translate({
         { "Les morts de la salle ne sont pas en paix. Afadra Mur-de-Dun, gardienne du savoir de Forgefer, demande aux voyageurs d'apaiser les esprits de Courbenclume, et l'un d'eux, Faldrim Courbenclume, semble avoir gardé une vieille rancune bien au-delà de la tombe. Le roi Magni veut la tête du commandant. J'aimerais que la Ligue examine les lieux comme il se doit, une fois les Sombrefer partis." },
       },
     },
+    ["hammerfall"] = {
+      title = "Trépas-d'Orgrim",
+      text = {
+        { "Trépas-d'Orgrim fut un grand camp d'internement d'orcs après la Deuxième Guerre. Thrall et Orgrim Doomhammer le forcèrent ensemble. Pendant les combats, un chevalier frappa Doomhammer dans le dos d'un coup de lance, et l'ancien chef de guerre mourut ici." },
+        { "La Horde a rebâti le camp en forteresse et lui a donné un nom en sa mémoire. Certains des orcs qui vivent derrière sa palissade furent autrefois prisonniers sur cette terre même." },
+      },
+    },
     ["hamuul-runetotem"] = {
       title = "Archidruide Hamuul Runetotem",
       text = {
@@ -1290,6 +1312,14 @@ ns.translate({
         { "Une tribu a joué un rôle décisif dans le voyage de la nouvelle Horde. Des murlocs au service d'une sorcière des mers capturèrent des trolls et des orcs sur les îles des Darkspear. Les fidèles de Thrall se frayèrent un chemin vers la liberté ; Sen'jin mourut, et les Darkspear survivants firent voile avec eux vers Kalimdor. Cette alliance commença au bord d'un rivage défendu par des murlocs, bien avant d'avoir un foyer en Durotar." },
       },
     },
+    ["myzrael"] = {
+      title = "Myzrael",
+      text = {
+        { "Les Éclats de Myzrael font entendre une voix venue de sous les Hautes-terres Arathies. Une princesse de la terre, prisonnière, demande à un voyageur de passage de l'aider à s'échapper, et les cristaux prêtent à la rencontre un sentiment de chaleur et de sécurité." },
+        { "Theldurin l'Égaré en donne un autre récit. Il craint ce qu'elle fera une fois sa force retrouvée, et demande pourquoi les géants l'auraient enchaînée si elle était si facile à maîtriser. Sa réponse est de l'invoquer et de la vaincre, puis de rattacher ses entraves aux éclats." },
+        { "Après cela, un cri monte de très loin sous la terre. Les cristaux demeurent, mais leur ancien réconfort a disparu ; ce qui les traverse désormais ressemble à de la haine pour le monde d'en haut. La voix qui demandait si doucement de l'aide est devenue ce qu'il y a de plus troublant sur ce paisible flanc de colline." },
+      },
+    },
     ["naga"] = {
       title = "Les nagas",
       text = {
@@ -1364,6 +1394,14 @@ ns.translate({
         { "Les orcs sont venus de Draenor, un monde de clans et de chamans, et ils ne sont pas venus de leur plein gré. Le démoniste Gul'dan et son Conseil des ombres, au service du démon Kil'jaeden, leur enseignèrent la magie gangrenée et menèrent leurs chefs à boire le sang de Mannoroth. La Horde qui franchit la Porte des Ténèbres naquit de ce marché, et elle brûla Hurlevent avant que l'Alliance ne la brise pendant la Deuxième Guerre." },
         { "Les orcs vaincus furent parqués dans des camps d'internement, apathiques à mesure que la fureur des démons les quittait. Thrall, élevé en esclave à Fort-de-Durn, les libéra, leur rendit les anciennes voies du chaman et les mena par-delà la mer jusqu'à Kalimdor. Au mont Hyjal, ils combattirent la Légion aux côtés des humains et des elfes de la nuit, et quand Grom Hellscream tua Mannoroth, la malédiction du sang fut brisée." },
         { "Ils nommèrent leur nouvelle terre Durotar, d'après le père de Thrall, et bâtirent Orgrimmar dans ses rochers. C'est un peuple fier, qui garde un long souvenir d'avoir été utilisé, $gvoyageur:voyageuse;. Offrez à un orc du respect et de la franchise, et ne lui demandez jamais de servir à nouveau un maître." },
+      },
+    },
+    ["orgrim-doomhammer"] = {
+      title = "Orgrim Doomhammer",
+      text = {
+        { "Orgrim Doomhammer était l'ami de Durotan sur Draenor, un chef du clan Blackrock qui voyait ce que les démonistes faisaient à son peuple et qui, contrairement à Durotan, attendit son heure. Elle vint pendant la Première Guerre. Quand les assassins de Gul'dan tuèrent Durotan, Doomhammer tua Blackhand, le chef de guerre fantoche que Gul'dan avait installé, et prit la Horde pour lui-même. Il détruisit Hurlevent et brisa le Conseil des ombres." },
+        { "Pendant la Deuxième Guerre, il mena la Horde jusqu'aux portes de la capitale de Lordaeron, jusqu'à ce que la désertion de Gul'dan l'oblige à reculer ; il tua Anduin Lothar en combat singulier dans les Steppes ardentes, et perdit tout de même la guerre. Capturé à la Porte des Ténèbres et emmené en Lordaeron, il s'évada et vécut des années en ermite." },
+        { "Thrall l'y trouva. Le vieux chef de guerre, l'ami de son père, suivit le jeune, et tomba en libérant l'un des camps ; Thrall prit son marteau et son armure noire et devint chef de guerre. Cette ville porte son nom, et la capitale de la Horde aussi. Ils se souviennent de lui comme du chef de guerre qui perdit une guerre et veilla pourtant à ce qu'il reste une Horde à la fin." },
       },
     },
     ["orgrimmar"] = {
@@ -1490,6 +1528,13 @@ ns.translate({
       text = {
         { "Les Carmines tirent leur nom de la pierre rouge rouille sous leurs bois de pins. Le lac Placide s'étend parmi les collines, avec Comté-du-Lac sur sa rive ouest. Le bois et la pêche font vivre le pays, mais les armées l'ont traversé assez souvent : les orcs sont venus pendant la Première Guerre, et les Blackrock sont revenus." },
         { "Ils tiennent désormais le donjon de Guet-de-pierre et les vallées au-delà. Des gnolls rôdent dans les canyons, un démoniste occupe les collines de l'est, et des dragonnets noirs nichent dans les grottes d'altitude. Comté-du-Lac a demandé des soldats à Hurlevent à maintes reprises." },
+      },
+    },
+    ["refuge-pointe"] = {
+      title = "Le Refuge de l'Ornière",
+      text = {
+        { "Le Refuge de l'Ornière est le camp de l'Alliance au milieu des Hautes-terres Arathies, tenu par les survivants de Stromgarde et les soldats venus les aider : quelques tentes, une écurie, un maître de vol et beaucoup de détermination. C'est d'ici qu'ils combattent le Syndicat dans les ruines de leur cité et les Witherbark dans les collines, et c'est d'ici, aussi, que la Ligue d'Arathor part à cheval vers le bassin du sud." },
+        { "Les gens de Stromgarde sont fiers, et leur royaume a été réduit à ce camp. Ils n'ont pas cessé de l'appeler un royaume." },
       },
     },
     ["regency-of-stormwind"] = {
@@ -1790,6 +1835,13 @@ ns.translate({
         { client = "forever", "C'est une cité de commerce et de soldats, avec des navires dans son port, de prêtres et d'espions, et d'une cour qui chuchote. L'enfant sur le trône en est le roi ; les hommes et les femmes qui l'entourent la gouvernent." },
       },
     },
+    ["stromgarde-keep"] = {
+      title = "Le donjon de Stromgarde",
+      text = {
+        { "Stromgarde occupe le site de Strom, la première cité humaine. Ses souverains Trollbane portaient la plus ancienne couronne des royaumes humains. Le seigneur Ignaeus combattit les trolls avec l'épée qu'ils appelaient Trol'kalar, la tueuse de trolls, et le nom de la famille se souvient de cette guerre." },
+        { "La cité actuelle est divisée. Le Syndicat du seigneur Falconcrest tient ses tours, des ogres occupent un quartier, et les défenseurs de Stromgarde en gardent un autre. D'autres survivants combattent depuis le Refuge de l'Ornière pour reprendre leur foyer. Trol'kalar demeure dans la tombe de Trollbane, derrière des protections que les sceaux réunis peuvent ouvrir." },
+      },
+    },
     ["sun-rock-retreat"] = {
       title = "La retraite de Roche-Soleil",
       text = {
@@ -1988,6 +2040,13 @@ ns.translate({
         { "Les montagnards d'ici sont débordés. Si vous avez le bras solide et un après-midi de libre, ils vous trouveront de quoi faire." },
       },
     },
+    ["thoradins-wall"] = {
+      title = "Le mur de Thoradin",
+      text = {
+        { "Thoradin était le chef de la tribu arathi, il y a bien longtemps, qui conquit ou persuada les tribus humaines éparpillées du nord jusqu'à en faire une seule nation, l'empire d'Arathor, et bâtit sa capitale à Strom. Quand les trolls de l'empire amani firent la guerre aux elfes de Quel'thalas, ce fut Thoradin qui mena les hommes combattre à leurs côtés, et les mages humains que les elfes formèrent pendant cette guerre furent le commencement de toute la magie humaine." },
+        { "Son mur court toujours à travers les collines entre Arathi et Hautebrande, brisé désormais, envahi par la végétation, mais toujours grand. Les hommes qui le bâtirent ont disparu depuis longtemps, et l'empire avec eux, mais chaque roi humain a prétendu être son héritier." },
+      },
+    },
     ["thousand-needles"] = {
       title = "Mille pointes",
       text = {
@@ -2061,7 +2120,7 @@ ns.translate({
       text = {
         { "Le roi Aiden Perenolde jugea que la Horde gagnerait la Deuxième Guerre. Tandis que les autres royaumes humains combattaient ensemble, Alterac ouvrit un passage aux orcs et leur fournit les plans de l'Alliance. Quand l'Alliance l'emporta, Lordaeron imposa la loi martiale. Les souverains se disputèrent ensuite sur le sort du royaume." },
         { "La capitale d'Alterac est en ruine et ses bibliothèques dispersées. Hurlevent envoie des érudits récupérer les livres. Le fils de Perenolde, Aliden, poursuit un autre héritage : il dirige le Syndicat, qui compte d'anciens nobles d'Alterac, et projette d'asservir les orcs comme son mentor Blackmoore en avait l'intention. On tente ici plusieurs sortes de sauvetage, $gvoyageur:voyageuse;. Celui des érudits est celui que je recommanderais." },
-        { side = "Horde", aside = true, sign = "P. F.", "Je suis heureux que quelqu'un sauve les livres d'Alterac. Qu'aucun d'eux parvienne un jour jusqu'à Fossoyeuse, c'est une autre affaire." },
+        { side = "Horde", aside = true, sign = "P. F.", "Je suis heureux que quelqu'un sauve les livres d'Alterac. Que l'un d'eux parvienne un jour jusqu'à Fossoyeuse, c'est une autre affaire." },
       },
     },
     ["twilights-hammer"] = {
