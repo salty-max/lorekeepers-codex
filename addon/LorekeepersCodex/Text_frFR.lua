@@ -440,6 +440,23 @@ ns.translate({
         { "Les Sentinelles qui la gardent ont fort à faire, et elles sont heureuses qu'on les aide. La Ligue y a aussi un ami ; demandez des nouvelles du prospecteur Remtravel, et préparez-vous à une longue histoire." },
       },
     },
+    ["azshara"] = {
+      title = "Azshara",
+      text = {
+        { "Azshara porte les couleurs de l'automne parmi les ruines blanches des Bien-nés. Elle porte le nom de la reine qui régnait il y a dix mille ans, et s'étend au bord de la mer qui engloutit une si grande part de son empire. Peu d'endroits offrent une plus belle vue sur une si grande perte." },
+        { "Les nagas occupent la côte et les vieux temples ; les satyres hantent les bois, et des fantômes demeurent parmi les murs brisés. Valormok et la halte de Talrendis sont de petites prises dans un pays encore encombré de revendications plus anciennes. Azuregos surveille les collines du sud, tandis qu'un archimage tient une tour et qu'un seigneur des eaux habite une île de la baie." },
+        { client = "classic", "Dans les collines du nord se dresse la porte close des Grumegueules. Les furbolgs ont gardé cette partie de leur pays pour eux." },
+        { client = "forever", "La porte de pierre du nord mène au repaire des Noiregueules, où la corruption a pris une tribu de furbolgs. Ce ne sont pas les Grumegueules qui gardent les tunnels de Gangrebois. Un vieux nom sur une carte peut être un piètre guide quant aux gens qui vivent derrière une porte." },
+      },
+    },
+    ["azuregos"] = {
+      title = "Azuregos",
+      text = {
+        { "Azuregos veille sur le sud d'Azshara, où les Bien-nés ont laissé assez de trésors arcaniques pour occuper un dragon bleu très longtemps. Son vol garde la magie, et cette côte en ruine a beaucoup à expliquer sur la raison pour laquelle de tels gardiens sont nécessaires." },
+        { "Sa charge comprenait aussi l'éclat bleu du sceptre des Sables changeants. La quête mène à travers un registre magique et un moyen fort élaboré de tirer de la baie des Tempêtes un grand requin appelé Crocs-de-la-mer. Un morceau manquant d'un sceptre ancien est devenu une affaire de traduction, d'ingénierie et de très grandes dents." },
+        { "Il y a de solennels gardiens dans le monde, $gvoyageur:voyageuse;. Les arrangements d'Azuregos laissent penser que des siècles de responsabilité n'ont pas à éteindre chez un dragon le talent de donner du travail aux autres." },
+      },
+    },
     ["bael-modan"] = {
       title = "Bael Modan",
       text = {
@@ -610,6 +627,14 @@ ns.translate({
       text = {
         { "Le camp Taurajo est un camp tauren au sud des Tarides, des tentes et des totems autour d'un feu, le dernier endroit ami sur la route de Mille pointes. Ses habitants chassent dans les plaines du sud et surveillent les hurans des épines de Tranchebauge." },
         { "Il a un drôle d'invité : un huran du nom de Mangletooth, prisonnier des taurens, qui connaît les bénédictions du dieu sanglier Agamaggan et les enseignera à quiconque lui apporte les bonnes pierres. Les taurens le tolèrent. Il est, m'a-t-on dit, très grossier." },
+      },
+    },
+    ["captain-varothen"] = {
+      title = "Capitaine Varo'then",
+      text = {
+        { "Le capitaine Varo'then commandait la garde de la reine Azshara pendant la guerre des Anciens : un soldat balafré qui prétendait être insensible à ses charmes et qui en était, disent les récits, désespérément amoureux. Il servit au contraire tous ses caprices. Il alla chercher l'Âme du démon pour la Légion et entretint une querelle avec Malfurion Stormrage jusqu'à la fin." },
+        { "Lors de la dernière bataille au-dessus du Puits, il mena les Bien-nés restés fidèles à la reine, et dit à Malfurion qu'il ne vivait que pour la servir, même si cela signifiait la fin de Kalimdor. Ce furent presque ses dernières paroles. Kalimdor, raconte l'histoire, le prit au mot et le rejeta." },
+        { "Son fantôme arpente les ruines du sanctuaire de Shadowsong, toujours dans l'armure de la garde de la reine. Quoi qu'il garde aujourd'hui, dix mille ans ne l'ont pas relevé de sa charge." },
       },
     },
     ["caverns-of-time"] = {
@@ -1290,6 +1315,13 @@ ns.translate({
         { "La Ligue emploie des chasseurs comme guides depuis qu'elle existe, $gvoyageur:voyageuse;. Ils trouvent la route et le dîner, et s'assurent que ni l'un ni l'autre ne trouve les fouilleurs le premier." },
       },
     },
+    ["hydraxian-waterlords"] = {
+      title = "Les Hydraxiens",
+      text = {
+        { "Sur une île de la baie d'Azshara vit le duc Hydraxis, un seigneur des élémentaires d'eau, et les Hydraxiens qu'il dirige sont en guerre contre les autres éléments, surtout contre le feu. Leur grand ennemi est Ragnaros, le seigneur du Feu, dans son Cœur du Magma." },
+        { "Ce ne sont pas des amis des mortels, mais ils font leurs alliés de ceux qui combattent leurs ennemis : les élémentaires de terre et d'air des puits des Maleterres et de Silithus, et les seigneurs du feu sous le mont Rochenoire. À ceux en qui ils ont confiance, ils donnent l'eau qui éteint les runes du Cœur du Magma, et un moyen de faire sortir le chambellan du seigneur du Feu." },
+      },
+    },
     ["internment-camps"] = {
       title = "Les camps d'internement",
       text = {
@@ -1412,6 +1444,14 @@ ns.translate({
         { "À l'est des portes s'étend la contrée la plus douce du Khaz Modan : des collines vertes, des bois de pins et un long loch bleu, le tout tenu en place par le grand barrage à son extrémité nord." },
         { "C'est une terre de cultures et de chasse, et les nains qui y vivent sont un peu plus lents à se mettre en colère, et bien plus prompts à vous offrir à boire, que leurs cousins de Forgefer. Ils ont besoin de cette bonne humeur. Les troggs creusent dans les vallées du sud, les ogres tiennent le nord-est, et l'on a vu les Sombrefer dans les collines." },
         { "Reposez-vous à Thelsamar, contemplez le barrage, et visitez la vallée des Rois. Ensuite, faites attention où vous mettez les pieds." },
+      },
+    },
+    ["loramus-thalipedes"] = {
+      title = "Loramus Thalipedes",
+      text = {
+        { "Sur une île au large de la côte d'Azshara, un chasseur de démons nommé Loramus Thalipedes vit seul avec ses gangrechiens. Si vous voulez combattre des démons, dit-il, vous feriez bien d'écouter d'abord son histoire." },
+        { "Des voyageurs viennent à lui depuis les Terres foudroyées, où Razelikh le Souilleur garde trois serviteurs qui ne peuvent mourir tant que les morceaux d'amulette qui leur sont liés restent sur cette terre. Loramus sait comment on brise de telles protections. Il faut le vrai nom du seigneur démon, qu'un dieu mineur de la côte d'Azshara échange contre un prix, et une arme forgée pour le porter, faite du cristal que laissent derrière eux les géants des falaises du sud et travaillée par un forgeron capable de manier le gangrefeu." },
+        { "Il se moque de la plupart de ceux qui essaient. Il ne les refuse pas, et il ne les arrête pas. Quelle qu'ait été la raison pour laquelle il chassait les démons, il semble avoir décidé il y a longtemps que le monde a besoin de plus de gens qui le font." },
       },
     },
     ["lord-kazzak"] = {
@@ -1724,6 +1764,14 @@ ns.translate({
         { "Les villageois le savent, je crois, et vivent avec de la seule façon qu'ils peuvent. C'est l'endroit le plus triste de la forêt des Pins argentés, et la forêt des Pins argentés ne manque pas de concurrents." },
       },
     },
+    ["queen-azshara"] = {
+      title = "La reine Azshara",
+      text = {
+        { "Cette terre porte le nom de la dernière reine des elfes de la nuit, et ce n'est pas un compliment. Azshara était belle et douée et, au début, aimée de tout son peuple. Elle bâtit son palais au bord du Puits d'éternité et l'emplit de ses serviteurs favoris, les Bien-nés, qu'elle chargea d'apprendre ce que pouvait faire la puissance du Puits." },
+        { "Ils apprirent la magie, et elle les changea. Azshara se retira de son peuple et ne parla plus qu'à ses Bien-nés. Puis les ondes de leur art des sorts atteignirent Sargeras, et la reine, submergée par son propre pouvoir, accepta de lui ouvrir la voie. Elle et ses Bien-nés ouvrirent un portail dans les profondeurs du Puits, et la Légion ardente le franchit." },
+        { "À la fin de la guerre des Anciens, le Puits s'effondra et la mer engloutit son palais, sa cité et sa cour. Les elfes de la nuit disent qu'elle fut entraînée au fond avec eux. Les nagas qui hantent ces rivages furent autrefois ses Bien-nés, et les ruines le long de cette côte sont ce qui resta au-dessus de l'eau." },
+      },
+    },
     ["queldanil-lodge"] = {
       title = "Le gîte de Quel'Danil",
       text = {
@@ -1757,6 +1805,13 @@ ns.translate({
       text = {
         { "Le village de Colline-aux-Corbeaux se dresse, vide, à côté d'un cimetière qui s'est étendu sur tout le flanc de la colline. Des squelettes arpentent ses rangées, des goules fouillent parmi les tombes, et les Veilleurs ne parviennent pas à garder les morts en repos. Le cimetière est devenu plus dangereux que les maisons abandonnées qui l'entourent." },
         { "Morbent Fel, un nécromancien, vit dans une maison au-dessus du cimetière. Un bûcheron dont il a tué la famille veut sa mort. Tout près, un vieil ermite occupe une cabane qui surplombe les tombes ; il venait autrefois à Sombre-Comté chercher des provisions, mais on ne l'y a pas vu depuis un certain temps." },
+      },
+    },
+    ["ravencrest-monument"] = {
+      title = "Le colosse de Ravencrest",
+      text = {
+        { "Les jambes brisées d'une grande statue se dressent sur les falaises du sud d'Azshara. L'endroit s'appelle le colosse de Ravencrest ; des nagas occupent les ruines, et le reste du colosse gît éparpillé ou sous la mer. Même ce qui reste fait un repère considérable." },
+        { "Le seigneur Kur'talos Ravencrest commanda la résistance des elfes de la nuit pendant la guerre des Anciens depuis le bastion du Freux. Son nom rappelle ceux qui s'opposèrent à Azshara et à la Légion. Gardez-les aussi dans l'histoire de ces rivages, $gvoyageur:voyageuse;. La cour de la reine n'était pas tout le peuple dont le monde fut détruit." },
       },
     },
     ["ravenholdt-manor"] = {
@@ -1874,6 +1929,13 @@ ns.translate({
         { "La Société royale des apothicaires du maître Faranell sert les Réprouvés par l'alchimie, les poisons et la promesse d'une nouvelle peste. Sylvanas a chargé ses membres de trouver une maladie capable de détruire le Fléau du roi-liche. Leurs préparatifs s'étendent bien au-delà des laboratoires de Fossoyeuse." },
         { "À Brill et à Hautebrande, des voyageurs recueillent du sang et d'autres ingrédients pour des expériences sur des bêtes, des murlocs et des prisonniers. L'apothicaire Lydon contemple la campagne fleurie de Hautebrande et rêve de voir son travail y apporter la mort. Quel que soit l'ennemi déclaré de la Société, ses ambitions à lui englobent clairement les vivants." },
         { "Les Réprouvés savent mieux que quiconque ce que c'est qu'une peste qui vous prend votre foyer. Ce savoir n'a pas rendu tous leurs apothicaires réticents à infliger la même misère au foyer des autres." },
+      },
+    },
+    ["ruins-of-eldarath"] = {
+      title = "Les ruines d'Eldarath",
+      text = {
+        { "Les ruines bien-nées d'Eldarath s'accrochent aux falaises est d'Azshara, au-dessus de la baie des Tempêtes. Une grande partie de la cité tomba dans la mer pendant la Fracture. Ses habitants avaient gravé leur savoir arcanique en runes et sur des tablettes dans des lieux publics, et certaines restent lisibles parmi les pierres brisées." },
+        { "Les nagas du seigneur de guerre Krellian tiennent désormais les ruines depuis le temple de Zin-Malor. Les elfes de la nuit évitent l'endroit, mais la Ligue des explorateurs veut des estampages des inscriptions. Si vous parvenez à passer les nagas, $gvoyageur:voyageuse;, ces tablettes préservent peut-être quelque chose que la mer n'a pas encore pris." },
       },
     },
     ["ruins-of-lordaeron"] = {
@@ -2435,6 +2497,14 @@ ns.translate({
       text = {
         { "La prison de Hurlevent se trouve sous ses canaux, taillée dans la roche sous la cité. Parmi les Défias qui y étaient enfermés se trouvait le lieutenant d'Edwin VanCleef, Bazil Thredd. Sous sa conduite, les détenus se soulevèrent et prirent le contrôle des cellules." },
         { "Le gardien fit appel à des aventuriers pour mater la révolte. Thredd n'était pas le seul prisonnier dangereux à l'intérieur : l'orc Targorr le Terrifiant comptait parmi les émeutiers. C'est un sentiment désagréable que d'avoir une place forte ennemie sous les rues de sa propre capitale." },
+      },
+    },
+    ["the-sundering"] = {
+      title = "La Fracture",
+      text = {
+        { "Il y a dix mille ans, les elfes de la nuit régnaient sur Kalimdor depuis les rives du Puits d'éternité, un lac de magie pure au cœur du monde. Leur reine était Azshara, la plus belle d'entre tous, et ses Bien-nés puisaient sans limite dans la puissance du Puits. Leur magie attira le regard de Sargeras, le seigneur de la Légion ardente, et Azshara et ses Bien-nés lui ouvrirent la voie, persuadés que les démons rendraient le monde parfait." },
+        { "Les elfes de la nuit qui refusèrent de s'incliner combattirent la Légion pendant la guerre des Anciens. Le seigneur Kur'talos Ravencrest les mena d'abord, persuadé que sa reine était prisonnière de ses propres conseillers, jusqu'à ce qu'un assassin envoyé par son capitaine de la garde le tue sur le champ de bataille ; le commandement échut enfin à un jeune officier, Jarod Shadowsong, qui fit ce que Ravencrest avait refusé de faire et appela les autres races, les terrestres, les taurens, les furbolgs, et les demi-dieux de la forêt, Cénarius parmi eux. Le jeune druide Malfurion Stormrage et la prêtresse Tyrande combattirent au cœur de la bataille. Le frère de Malfurion, Illidan, passa aux Bien-nés, et le dragon Neltharion se retourna contre les autres vols." },
+        { "À la fin, Malfurion comprit que le Puits lui-même était la porte de la Légion, et le Puits d'éternité fut détruit. Il se déchira et emporta avec lui le cœur du continent, et la mer s'engouffra dans le trou qu'il laissa. Azshara et ses Bien-nés sombrèrent avec leur palais. De ce rivage, la Grève fracassée, vous contemplez l'endroit où le monde s'est brisé." },
       },
     },
     ["the-temple-of-atalhakkar"] = {
