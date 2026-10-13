@@ -285,11 +285,13 @@ ns.translate({
     { "Comté-du-Nord", "Northshire" },
     { "de Fossoyeuse", "d'Undercity" },
     { "Loup-de-Givre", "Frostwolf" },
-    { "Sabot-de-Sang", "Village Bloodhoof" },
+    { "Sabot-de-Sang", "Bloodhoof" },
+    { "Chanteguerre", "Warsong" },
     { "Comté-du-Lac", "Lakeshire" },
     { "Courbenclume", "Anvilmar" },
     { "d'Austrivage", "de Southshore" },
     { "Fort-de-Durn", "Durnholde" },
+    { "Guet-du-Nord", "Fort du Nord" },
     { "Sombre-Comté", "Darkshire" },
     { "Strahnbrande", "Strahnbrad" },
     { "de Forgefer", "d'Ironforge" },
@@ -1025,7 +1027,7 @@ ns.translate({
     ["morshan-rampart"] = {
       title = "Le rempart de Mor'shan",
       text = {
-        { "Mor'shan se dresse à la lisière nord des Tarides, là où la prairie cède la place à Ashenvale. La Horde garde la route qui traverse le rempart vers les exploitations forestières des Warsong et leur conflit avec les Sentinelles." },
+        { "Mor'shan se dresse à la lisière nord des Tarides, là où la prairie cède la place à Ashenvale. La Horde garde la route qui traverse le rempart vers les exploitations forestières des Chanteguerre et leur conflit avec les Sentinelles." },
         { "Le mur marque une frontière qu'aucun des deux camps ne tient pour réglée. Les orcs ont besoin de bois, et les elfes de la nuit défendent la forêt qui le fournit." },
       },
     },

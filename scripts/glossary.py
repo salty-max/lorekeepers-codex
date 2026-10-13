@@ -6,6 +6,8 @@ launches with, English ones included where Forever's translators kept them:
 "Roi Magni Bronzebeard", but "Forgefer").
 
   python3 scripts/glossary.py frFR
+  python3 scripts/glossary.py frFR --swaps   (classic.json alone, after
+                                              editing classic-by-hand.json)
 
 Places and factions from each game's tables (wago.tools: AreaTable and
 Faction; Classic Era, the pinned Forever build and the live game, in English
@@ -70,8 +72,45 @@ def bare(name):
     return re.sub(r"\s*\([^)]*\)\s*$", "", name or "").strip().replace("\u2019", "'")
 
 
+def write_swaps(locale, out, dest):
+    # Forever's names that Classic writes otherwise (the longest first: a
+    # place's name may hold another's)
+    swaps = {}
+    for kind in out.values():
+        for e in kind.values():
+            fv, cl = e.get("forever"), e.get("classic")
+            if fv and cl and fv != cl and fv not in swaps:
+                swaps[fv] = cl
+    # (by hand, and winning: where a table's name is not the one prose takes,
+    # "Hurlevent" is the city, Classic's "Stormwind", not its zone's "Cite de
+    # Stormwind"; and the bare names inside longer ones, "Rochenoire")
+    hand = os.path.join(dest, "classic-by-hand.json")
+    if os.path.exists(hand):
+        swaps.update(json.load(open(hand, encoding="utf-8")))
+    # (French elides "de" before a vowel: "d'Austrivage" is "de Southshore"
+    # on Classic, "de Fossoyeuse" is "d'Undercity")
+    if locale == "frFR":
+        vowel = lambda w: w[:1] in "AEIOU\u00c2\u00c9\u00c8\u00ca\u00ce\u00d4\u00db"
+        for fv, cl in list(swaps.items()):
+            if vowel(fv) and not vowel(cl):
+                swaps["d'" + fv] = "de " + cl
+            elif not vowel(fv) and vowel(cl):
+                swaps["de " + fv] = "d'" + cl
+    with open(os.path.join(dest, "classic.json"), "w", encoding="utf-8") as f:
+        json.dump(dict(sorted(swaps.items(), key=lambda kv: (-len(kv[0]), kv[0]))), f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    return swaps
+
+
 def main():
     locale = sys.argv[1]
+    dest = os.path.join(ROOT, "i18n", locale)
+    if "--swaps" in sys.argv:
+        # (only classic.json again, from the glossary as it is: after editing
+        # classic-by-hand.json)
+        out = json.load(open(os.path.join(dest, "glossary.json"), encoding="utf-8"))
+        print(f"i18n/{locale}/classic.json: {len(write_swaps(locale, out, dest))} Classic names")
+        return
     pages = sorted(glob.glob(os.path.join(ROOT, "content", "**", "*.md"), recursive=True))
     prose = "\n".join(open(p, encoding="utf-8").read() for p in pages)
     out = {"places": {}, "factions": {}, "figures": {}}
@@ -129,32 +168,7 @@ def main():
     with open(os.path.join(dest, "glossary.json"), "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1, sort_keys=True)
         f.write("\n")
-    # Forever's names that Classic writes otherwise (the longest first: a
-    # place's name may hold another's)
-    swaps = {}
-    for kind in out.values():
-        for e in kind.values():
-            fv, cl = e.get("forever"), e.get("classic")
-            if fv and cl and fv != cl and fv not in swaps:
-                swaps[fv] = cl
-    # (by hand, and winning: where a table's name is not the one prose takes,
-    # "Hurlevent" is the city, Classic's "Stormwind", not its zone's "Cite de
-    # Stormwind"; and the bare names inside longer ones, "Rochenoire")
-    hand = os.path.join(dest, "classic-by-hand.json")
-    if os.path.exists(hand):
-        swaps.update(json.load(open(hand, encoding="utf-8")))
-    # (French elides "de" before a vowel: "d'Austrivage" is "de Southshore"
-    # on Classic, "de Fossoyeuse" is "d'Undercity")
-    if locale == "frFR":
-        vowel = lambda w: w[:1] in "AEIOU\u00c2\u00c9\u00c8\u00ca\u00ce\u00d4\u00db"
-        for fv, cl in list(swaps.items()):
-            if vowel(fv) and not vowel(cl):
-                swaps["d'" + fv] = "de " + cl
-            elif not vowel(fv) and vowel(cl):
-                swaps["de " + fv] = "d'" + cl
-    with open(os.path.join(dest, "classic.json"), "w", encoding="utf-8") as f:
-        json.dump(dict(sorted(swaps.items(), key=lambda kv: (-len(kv[0]), kv[0]))), f, ensure_ascii=False, indent=1)
-        f.write("\n")
+    swaps = write_swaps(locale, out, dest)
     print(f"i18n/{locale}/glossary.json: {sum(len(v) for v in out.values())} names; classic.json: {len(swaps)} Classic names")
 
 if __name__ == "__main__":
