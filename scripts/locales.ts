@@ -119,7 +119,8 @@ function read(locale: string) {
 // The names are Forever's (docs/localization.md): the English names the
 // glossary translates ("Ironforge": "Forgefer"), and the capitalized words of
 // them it leaves out ("Anvilmar" from "Modimus Anvilmar"), left in the
-// translation; never a word some name keeps ("Bronzebeard").
+// translation; never one some name keeps, whatever its case ("Bronzebeard",
+// "Centaure galak").
 function untranslated(locale: string, t: ReturnType<typeof read>): string[] {
   const file = join(I18N, locale, "glossary.json");
   if (!existsSync(file)) return [];
@@ -128,19 +129,23 @@ function untranslated(locale: string, t: ReturnType<typeof read>): string[] {
   const kept = Object.values(glossary)
     .flatMap((kind) => Object.values(kind).map((e) => e.use ?? ""))
     .join("\n");
+  const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  // (a whole word, French elisions included: "d'Elwynn")
+  const word = (n: string, flags = "u") => new RegExp(`(?<!\\p{L})${esc(n)}(?!\\p{L})`, flags);
   for (const kind of Object.values(glossary))
     for (const [en, e] of Object.entries(kind)) {
-      if (!e.use || e.use.includes(en)) continue;
-      names.add(en);
-      for (const w of en.split(/[\s-]+/)) if (/^[A-Z][a-z']{4,}$/.test(w) && !kept.includes(w)) names.add(w);
+      if (!e.use) continue;
+      for (const n of [en, ...en.split(/[\s-]+/).filter((w) => /^[A-Z][a-z']{4,}$/.test(w))])
+        if (!word(n, "iu").test(kept)) names.add(n);
     }
   const prose = [
     ...Object.values(t.words),
     ...Object.values(t.chapters).flat(),
     ...[...t.pages.values()].flatMap((p) => [p.title, ...p.text.map((x) => x.text)]),
-  ].join("\n");
-  const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  return [...names].filter((n) => new RegExp(`(?<![\\p{L}'])${esc(n)}(?![\\p{L}'])`, "u").test(prose)).sort();
+  ]
+    .join("\n")
+    .replaceAll("Lorekeeper's Codex", ""); // (the addon's own name)
+  return [...names].filter((n) => word(n).test(prose)).sort();
 }
 
 // ── Lua ─────────────────────────────────────────────────────────────────────
