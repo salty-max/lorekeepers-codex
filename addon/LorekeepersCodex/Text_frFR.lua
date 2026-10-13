@@ -311,6 +311,13 @@ ns.translate({
     { "Âtreval", "Hearthglen" },
   },
   pages = {
+    ["abyssal-council"] = {
+      title = "Le Conseil abyssal",
+      text = {
+        { "Des sectateurs du Marteau du crépuscule se rassemblent autour de pierres d'invocation en Silithus. Avec des sceaux, des tablettes et des textes de pouvoir, ils appellent des templiers, des ducs et des seigneurs du feu, de l'air, de l'eau et de la terre : les serviteurs du Conseil abyssal. Chaque rite peut amener dans le désert un élémentaire plus puissant." },
+        { "Le Cercle cénarien veut qu'on arrête le culte et qu'on lui prenne ses textes. Les pierres se trouvent dans le même désert qu'Ahn'Qiraj, un voisinage qui n'a rien de réconfortant." },
+      },
+    },
     ["aerie-peak"] = {
       title = "Nid-de-l'Aigle",
       text = {
@@ -719,6 +726,13 @@ ns.translate({
         { "Les druides ont une patience qui dépasse l'entendement de n'importe quel nain, et ils pensent en saisons et en siècles. Quand le Cercle dit que quelque chose ne va pas, les sages écoutent." },
       },
     },
+    ["cenarion-hold"] = {
+      title = "Le Fort cénarien",
+      text = {
+        { "Le Fort cénarien est la forteresse du Cercle cénarien au nord de Silithus, élevée pour surveiller les ruches et la cité scellée du sud. Les druides, de l'Alliance comme de la Horde, gardent ses murs, et la guerre contre les silithides se mène d'ici." },
+        { "Certains au fort ne sont pas ce qu'ils semblent être. Parmi les druides vit la Progéniture de Nozdormu, le vol draconique de bronze sous forme mortelle, qui se souvient de la guerre livrée ici il y a mille ans et guette son retour." },
+      },
+    },
     ["cenarius"] = {
       title = "Cénarius",
       text = {
@@ -762,6 +776,13 @@ ns.translate({
       text = {
         { "Le travail de J.D. Collie commence avec les cristaux colorés éparpillés dans tout Un'Goro. Des rapports sur de grands pylônes garnis de cristaux envoient ses recherches dans la nature sauvage, où trois se dressent au nord, à l'est et à l'ouest du cratère." },
         { "Différentes combinaisons produisent des effets utiles à ces pylônes, et Collie a rédigé un manuel pour de nouvelles expériences. L'expédition peut dès maintenant faire quelque chose des cristaux, même si les desseins de leurs créateurs restent un mystère. Il y a une satisfaction honnête dans une découverte qui atteint l'établi avant les livres d'histoire." },
+      },
+    },
+    ["cthun"] = {
+      title = "C'Thun",
+      text = {
+        { "C'Thun gît sous le temple d'Ahn'Qiraj, l'une des puissances anciennes que l'on appelle les Dieux très anciens. Un œil immense et des masses de tentacules emplissent sa salle. Les qiraji et leurs essaims de silithides le servent." },
+        { "Ceux qui approchent entendent des murmures dans leur esprit, des promesses et des menaces qui appartiennent à la créature d'en dessous. L'expédition l'a trouvé et tué. Je peux consigner ces événements, $gvoyageur:voyageuse;, mais je prends peu de plaisir à rapporter l'existence d'une chose capable de répondre à ses observateurs à l'intérieur de leurs propres pensées." },
       },
     },
     ["cult-of-the-damned"] = {
@@ -1993,6 +2014,13 @@ ns.translate({
         { "C'est la compagnie la plus bienvenue sur un chantier de fouilles, $gvoyageur:voyageuse;, et la moins appréciée jusqu'à ce que quelqu'un tombe dans un puits." },
       },
     },
+    ["prince-thunderaan"] = {
+      title = "Le prince Thunderaan",
+      text = {
+        { "Thunderaan le Cherchevent était un prince des seigneurs élémentaires de l'air, jusqu'à ce que Ragnaros, le seigneur du Feu, dévore son essence. Ce qui restait de lui fut enfermé dans les deux moitiés d'une entrave, que portent les lieutenants du seigneur du Feu dans le Cœur du Magma." },
+        { "En Silithus, un être étrange qui se fait appeler le généralissime Demetrian sait comment le ramener. Apportez-lui les deux moitiés de l'entrave, l'élémentium pour les travailler et l'essence du seigneur du Feu, et le Cherchevent renaîtra. Ce qui sort de cette renaissance n'est pas reconnaissant, mais peut être vaincu ; et de lui, dit-on, on peut faire une lame des tempêtes." },
+      },
+    },
     ["pyrewood-village"] = {
       title = "Bois-du-Bûcher",
       text = {
@@ -2173,6 +2201,13 @@ ns.translate({
         { "La Société royale des apothicaires du maître Faranell sert les Réprouvés par l'alchimie, les poisons et la promesse d'une nouvelle peste. Sylvanas a chargé ses membres de trouver une maladie capable de détruire le Fléau du roi-liche. Leurs préparatifs s'étendent bien au-delà des laboratoires de Fossoyeuse." },
         { "À Brill et à Hautebrande, des voyageurs recueillent du sang et d'autres ingrédients pour des expériences sur des bêtes, des murlocs et des prisonniers. L'apothicaire Lydon contemple la campagne fleurie de Hautebrande et rêve de voir son travail y apporter la mort. Quel que soit l'ennemi déclaré de la Société, ses ambitions à lui englobent clairement les vivants." },
         { "Les Réprouvés savent mieux que quiconque ce que c'est qu'une peste qui vous prend votre foyer. Ce savoir n'a pas rendu tous leurs apothicaires réticents à infliger la même misère au foyer des autres." },
+      },
+    },
+    ["ruins-of-ahnqiraj"] = {
+      title = "Les ruines d'Ahn'Qiraj",
+      text = {
+        { "Quand le gong sonna et que le Mur du scarabée s'ouvrit, les armées de l'Alliance et de la Horde se déversèrent dans la cité extérieure d'Ahn'Qiraj, les Ruines, un lieu de temples brisés et de sable, grouillant d'insectes. Le général qiraji Rajaxx y commande, celui-là même qui tua Valstann Staghelm il y a mille ans, et les Ruines sont gardées en leur cœur par le grand guerrier de pierre Ossirian l'Intouché." },
+        { "Le Cercle cénarien envoya ses propres champions dans les Ruines, et pour eux, la bataille dans la cité fut la fin d'une très vieille guerre." },
       },
     },
     ["ruins-of-eldarath"] = {
@@ -2397,6 +2432,13 @@ ns.translate({
         { "Les silithides occupent de vastes ruches sous le sud de Kalimdor. Leurs guêpes peuvent atteindre la taille d'un chien, leurs ravageurs celle d'un ogre, et leurs fouisseurs sont assez puissants pour effondrer des grottes. Des ruches sont apparues dans les Tarides, à Mille pointes, en Feralas, en Tanaris et à Un'Goro ; c'est en Silithus que se trouve la plus grande concentration." },
         { "Les qiraji d'Ahn'Qiraj les commandent. Il y a mille ans, leurs essaims déferlèrent vers le nord pendant la guerre des Sables changeants, jusqu'à ce que les elfes de la nuit et les dragons scellent la cité derrière le Mur du scarabée. Le Cercle cénarien croit qu'une puissance plus ancienne, sous Ahn'Qiraj, dirige à la fois les maîtres et les serviteurs." },
         { "L'agitation autour des ruches laisse aujourd'hui penser qu'elles se préparent à une grande expansion. Le Cercle surveille de près. Pour un voyageur qui étudie ces insectes, le travail consiste aussi à découvrir jusqu'où s'étendent déjà leurs tunnels et les desseins de leurs maîtres." },
+      },
+    },
+    ["silithus"] = {
+      title = "Silithus",
+      text = {
+        { "Silithus est un désert de sable jaune et de grandes ruches silithides au sud-ouest de Kalimdor. Derrière le Mur du scarabée se trouve Ahn'Qiraj, la cité des maîtres qiraji des insectes. Quelque chose de plus ancien encore se tient sous leur règne." },
+        { "Le Cercle cénarien surveille depuis son fort, tandis que des sectateurs du Marteau du crépuscule se rassemblent dans des camps du désert. Les forces de l'Alliance et de la Horde ont été levées ensemble pour marcher sur le mur." },
       },
     },
     ["silverpine-forest"] = {
@@ -2634,6 +2676,13 @@ ns.translate({
         { "L'ancien arbre avait la bénédiction des grands dragons. Le nouveau ne l'a pas, et ses propres gardiens admettent que sa croissance n'a pas été sans défaut. J'en dirai davantage ailleurs. Pour l'heure, prenez le bateau à Auberdine, passez le portail de Rut'theran, et contemplez-le : il n'y a rien de semblable au monde." },
       },
     },
+    ["temple-of-ahnqiraj"] = {
+      title = "Le temple d'Ahn'Qiraj",
+      text = {
+        { "Les empereurs jumeaux Vek'lor et Vek'nilash règnent sur les qiraji depuis le temple d'Ahn'Qiraj. Leurs serviteurs comprennent les essaims de silithides et les grands vers de ses salles. Les dragons de bronze regardent cet endroit avec crainte." },
+        { "Sous les empereurs gît C'Thun. Le temple et l'empire qui l'entoure servent ce Dieu très ancien, plutôt que les souverains qu'un voyageur rencontre d'abord. Les empereurs tiennent leur cour au-dessus de la salle de leur propre maître." },
+      },
+    },
     ["thandol-span"] = {
       title = "Le viaduc de Thandol",
       text = {
@@ -2765,6 +2814,20 @@ ns.translate({
       text = {
         { "Les exilés du Havre boueux se nomment eux-mêmes draeneï. Avec leurs sabots et leurs tentacules, leur peau d'un bleu-gris, ils ne ressemblent à aucun des autres peuples qu'un voyageur rencontre d'ordinaire en Azeroth. Ils disent être venus du monde des orcs après un terrible voyage. Ceux du Havre boueux restent doux et disposés à parler." },
         { "D'autres vivent au sanctuaire des Friches et sont appelés les Perdus. Les exilés disent que le voyage a brisé leurs anciens frères. Ils attaquent ceux qui approchent et ont volé des cristaux que les exilés tiennent pour sacrés. Ces récits locaux nous apprennent peu de chose sur leur vie d'avant ou sur ce qui s'est passé avant leur arrivée ici. Je préfère laisser cette partie de la page ouverte plutôt que de leur fournir un passé qu'ils n'ont pas décrit." },
+      },
+    },
+    ["the-scarab-wall"] = {
+      title = "Le Mur du scarabée",
+      text = {
+        { "Il y a mille ans, les qiraji et leurs essaims de silithides sortirent d'Ahn'Qiraj et s'abattirent sur Kalimdor, et les elfes de la nuit les combattirent pendant la guerre des Sables changeants. Ils ne purent la gagner seuls. Fandral Staghelm, qui les menait, perdit son fils Valstann aux mains des qiraji : le garçon fut capturé et tué sous les yeux de son père." },
+        { "Les dragons les sauvèrent. Les vols de bronze, rouge, bleu et vert vinrent, et repoussèrent les insectes dans leur cité ; et grâce à leur magie, les elfes de la nuit élevèrent un grand mur de pierre et une barrière à travers le sud de Silithus, le Mur du scarabée, et les y enfermèrent. Les morts de cette guerre reposent au Repos des vaillants, au pied du mur." },
+      },
+    },
+    ["the-scepter-of-the-shifting-sands"] = {
+      title = "Le sceptre des Sables changeants",
+      text = {
+        { "Pour sceller Ahn'Qiraj, le dragon de bronze Anachronos fabriqua un sceptre, le sceptre des Sables changeants, et avec lui il ferma le Mur du scarabée et plaça devant celui-ci un gong sur une estrade. Seul le sceptre, frappé sur le gong, peut le rouvrir. Il le remit à Fandral Staghelm." },
+        { "Fandral n'en voulait pas. Pensant à son fils, il brisa le sceptre sur le sol, et dit qu'il ne souhaitait plus jamais le revoir. Ses morceaux furent confiés aux vols draconiques. Mille ans plus tard, une larme cristalline dans le désert du sud montre encore ce souvenir à ceux qui y regardent, et les dragons de bronze cherchent quelqu'un pour reconstituer le sceptre." },
       },
     },
     ["the-sepulcher"] = {
