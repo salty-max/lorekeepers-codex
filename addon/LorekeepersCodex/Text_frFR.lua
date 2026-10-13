@@ -217,7 +217,7 @@ ns.translate({
     ["badlands"] = { "Terres ingrates", "Un désert rouge de canyons, et sous lui la chambre forte des titans, Uldaman." },
     ["barrens"] = { "Les Tarides", "La grande savane sèche au cœur de Kalimdor, et tous ceux qui se la disputent." },
     ["blackrock-mountain"] = { "Mont Rochenoire", "La montagne du seigneur du Feu, et la guerre qui s'y livre." },
-    ["blasted-lands"] = { "Terres foudroyées", "Le désert rouge autour de la Porte des Ténèbres." },
+    ["blasted-lands"] = { "Terres foudroyées", "Le désert rouge autour de la Porte des ténèbres." },
     ["burning-steppes"] = { "Steppes ardentes", "La plaine de cendres au sud de la montagne, là où s'étendaient jadis les Carmines." },
     ["callings"] = { "Les Vocations", "Les voies des armes, de la foi et de la magie qu'un voyageur peut suivre, et d'où chacune d'elles vient." },
     ["darkshore"] = { "Sombrivage", "Une longue côte brumeuse semée de ruines elfiques, face à l'Arbre-Monde par-delà les eaux." },
@@ -478,6 +478,13 @@ ns.translate({
         { "Depuis la montagne, le clan lance ses raids au nord et à l'ouest. Il tient les Steppes ardentes, il a pris le donjon de Guet-de-pierre dans les Carmines, et les gens de Comté-du-Lac vivent en vue de ses feux. Quoi que la Horde soit devenue en Durotar, voilà ce qu'elle était." },
       },
     },
+    ["blasted-lands"] = {
+      title = "Terres foudroyées",
+      text = {
+        { "Au sud du marais des Chagrins, passé une seule route et un seul donjon, s'étendent les Terres foudroyées : un désert rouge et craquelé de poussière et d'arbres morts, où les bêtes sont déformées et le sol souillé. C'est ici que les orcs entrèrent pour la première fois dans notre monde, par la Porte des ténèbres, et d'ici qu'ils furent repoussés. La terre ne s'en est jamais remise." },
+        { "Des démons de la Légion ardente y marchent encore. L'Alliance monte la garde depuis Rempart-du-Néant, les ogres tiennent leurs propres camps, et la Horde a ses propres affaires avec les démons. Tous ceux qui viennent ici viennent pour la Porte, ou pour ce qu'elle a laissé derrière elle." },
+      },
+    },
     ["blood-elves"] = {
       title = "Les elfes de sang",
       text = {
@@ -571,8 +578,8 @@ ns.translate({
     ["burning-legion"] = {
       title = "La Légion ardente",
       text = {
-        { "La Légion ardente est une armée de démons, rassemblée sur mille mondes conquis par le titan déchu Sargeras, et elle est venue trois fois pour le nôtre : une fois il y a dix mille ans, par le Puits d'éternité des elfes de la nuit ; une fois par les orcs, que ses serviteurs corrompirent et envoyèrent par la Porte des Ténèbres ; et une fois pendant la dernière guerre, quand son général Archimonde tomba au pied de l'Arbre-Monde, sur le mont Hyjal." },
-        { "Elle n'est jamais tout à fait partie. Le seigneur Kazzak tient les Terres foudroyées avec une armée de démons autour de la Porte des Ténèbres endormie. Les démonistes du Conseil des ombres gardent des démons à Jaedenar, en Gangrebois, où toute la forêt a pourri autour d'eux. Gardes funestes et infernaux arpentent le canyon de la Malechute en Ashenvale, où Grom Hellscream tua Mannoroth, le convent de Mannoroc en Désolace, et les ruines d'Azshara." },
+        { "La Légion ardente est une armée de démons, rassemblée sur mille mondes conquis par le titan déchu Sargeras, et elle est venue trois fois pour le nôtre : une fois il y a dix mille ans, par le Puits d'éternité des elfes de la nuit ; une fois par les orcs, que ses serviteurs corrompirent et envoyèrent par la Porte des ténèbres ; et une fois pendant la dernière guerre, quand son général Archimonde tomba au pied de l'Arbre-Monde, sur le mont Hyjal." },
+        { "Elle n'est jamais tout à fait partie. Le seigneur Kazzak tient les Terres foudroyées avec une armée de démons autour de la Porte des ténèbres endormie. Les démonistes du Conseil des ombres gardent des démons à Jaedenar, en Gangrebois, où toute la forêt a pourri autour d'eux. Gardes funestes et infernaux arpentent le canyon de la Malechute en Ashenvale, où Grom Hellscream tua Mannoroth, le convent de Mannoroc en Désolace, et les ruines d'Azshara." },
         { "La Légion est patiente. Elle a perdu trois guerres et elle est toujours là, et je ne crois pas qu'elle en ait fini avec nous." },
       },
     },
@@ -1270,7 +1277,7 @@ ns.translate({
       title = "Les humains",
       text = {
         { "Le premier royaume de l'humanité fut Arathor, élevé à Strom dans les hautes terres qui portent encore son nom. Son roi, Thoradin, rassembla les tribus éparses contre les trolls amani, et pendant cette guerre les hauts-elfes de Quel'thalas apprirent à cent humains à manier la magie. D'Arathor naquirent, avec le temps, sept royaumes : Hurlevent, Lordaeron, Gilnéas, Alterac, Stromgarde, Kul Tiras et la cité des mages, Dalaran." },
-        { "Les orcs franchirent la Porte des Ténèbres et brûlèrent Hurlevent en premier. Son peuple s'enfuit au nord, et l'Alliance qui gagna la Deuxième Guerre fut bâtie en Lordaeron. Puis la peste et le Fléau prirent Lordaeron elle-même, Gilnéas s'enferma derrière son mur, et Dalaran tomba. Hurlevent, rebâtie en pierre blanche, est la plus grande cité humaine qui reste, et un enfant-roi y siège sur le trône sous la garde d'un régent, tandis que son père a disparu." },
+        { "Les orcs franchirent la Porte des ténèbres et brûlèrent Hurlevent en premier. Son peuple s'enfuit au nord, et l'Alliance qui gagna la Deuxième Guerre fut bâtie en Lordaeron. Puis la peste et le Fléau prirent Lordaeron elle-même, Gilnéas s'enferma derrière son mur, et Dalaran tomba. Hurlevent, rebâtie en pierre blanche, est la plus grande cité humaine qui reste, et un enfant-roi y siège sur le trône sous la garde d'un régent, tandis que son père a disparu." },
         { "C'est un peuple à la vie brève et à la tête dure, $gvoyageur:voyageuse;. Ils se querellent entre eux plus qu'il n'est bon pour eux, et rebâtissent plus vite que quiconque de ma connaissance. La Ligue a appris à prendre leurs cartes au sérieux, et leurs promesses de paiement avec un peu de prudence." },
       },
     },
@@ -1353,6 +1360,14 @@ ns.translate({
         { "Ne prenez pas la chaleur du foyer pour de la sécurité. Les trolls Frostmane tiennent les collines de l'ouest, les troggs ne cessent de remonter des profondeurs, et depuis la chute de Gnomeregan ses exilés partagent ces routes avec nous. La ville garde pourtant ses portes ouvertes : un nain qui ferme sa porte à un voyageur transi n'en est pas un." },
       },
     },
+    ["kirith-the-damned"] = {
+      title = "Kirith le Damné",
+      text = {
+        { "Le lieutenant Kirith servait le héros de la Horde dont le fantôme attend aujourd'hui hors de Pierrêche. Tous deux furent capturés dans les Terres foudroyées par l'archimage Allistarj et emprisonnés dans une grotte. Le héros tint bon. La volonté de Kirith céda. Son commandant entendit les expériences depuis sa propre cage, les cris résonnant dans les salles, et après cela, il ne le vit ni ne l'entendit plus." },
+        { "Ce que les expériences ont fait de lui arpente aujourd'hui les Anneaux du serpent sous le nom de Kirith le Damné. Mettez-y fin et ce qui reste du lieutenant vous parlera, et sourira même : il sait comment Razelikh le Souilleur se protège, avec trois serviteurs portant chacun un tiers d'amulette, et il vous renvoie à son commandant avec la nouvelle." },
+        { "Loramus Thalipedes, qui chasse les démons en Azshara, juge inconcevable que quelqu'un ait délivré Kirith de ses souffrances. C'est l'une des rares choses bienveillantes arrivées dans les Terres foudroyées depuis longtemps." },
+      },
+    },
     ["kobolds"] = {
       title = "Les kobolds",
       text = {
@@ -1397,6 +1412,13 @@ ns.translate({
         { "À l'est des portes s'étend la contrée la plus douce du Khaz Modan : des collines vertes, des bois de pins et un long loch bleu, le tout tenu en place par le grand barrage à son extrémité nord." },
         { "C'est une terre de cultures et de chasse, et les nains qui y vivent sont un peu plus lents à se mettre en colère, et bien plus prompts à vous offrir à boire, que leurs cousins de Forgefer. Ils ont besoin de cette bonne humeur. Les troggs creusent dans les vallées du sud, les ogres tiennent le nord-est, et l'on a vu les Sombrefer dans les collines." },
         { "Reposez-vous à Thelsamar, contemplez le barrage, et visitez la vallée des Rois. Ensuite, faites attention où vous mettez les pieds." },
+      },
+    },
+    ["lord-kazzak"] = {
+      title = "Seigneur Kazzak",
+      text = {
+        { "Le seigneur Kazzak tient la Balafre impure, au sud des Terres foudroyées. Depuis la Troisième Guerre, ce grand garde funeste l'occupe avec des gangregardes et d'autres de son espèce. Il marche ouvertement parmi eux, serviteur cornu de la Légion ardente qui n'a guère besoin de se cacher." },
+        { "Des héros des deux factions sont partis contre lui. Chacun de ceux qu'il tue le rend plus fort. Gardez cela en tête, $gvoyageur:voyageuse;, si vous vous joignez à eux : une attaque manquée peut laisser au groupe suivant un ennemi plus fort." },
       },
     },
     ["mages"] = {
@@ -1549,6 +1571,13 @@ ns.translate({
         { "Son manuscrit s'est envolé et ses pages sont éparpillées dans toute la jungle. Les chapitres racontent sa chasse, une fois que quelqu'un les a remis dans l'ordre. Si vous trouvez une page, $gvoyageur:voyageuse;, gardez-la. Les auteurs sont déjà assez pénibles quand ils savent où est leur œuvre." },
       },
     },
+    ["nethergarde-keep"] = {
+      title = "Rempart-du-Néant",
+      text = {
+        { "Khadgar insista pour qu'on bâtisse Rempart-du-Néant après la Deuxième Guerre, afin de surveiller la Porte des ténèbres. Les royaumes de l'Alliance le payèrent avec un enthousiasme variable, et Dalaran fournit ses mages. Quand les orcs rouvrirent la Porte, ils assiégèrent le donjon. La garde avait été nécessaire." },
+        { "Rempart-du-Néant dépend aujourd'hui des caravanes de Hurlevent. Ses mages étudient la Porte et le désert alentour ; un érudit conserve les essais de Khadgar sur la convergence dimensionnelle. Ailleurs dans les Terres foudroyées, la draeneï Kum'isha cherche des reliques qui pourraient ouvrir une route vers chez elle. Un voyageur trouvera plusieurs raisons d'étudier un passage qui a causé tant de mal." },
+      },
+    },
     ["night-elves"] = {
       title = "Les elfes de la nuit",
       text = {
@@ -1597,7 +1626,7 @@ ns.translate({
       title = "Les ogres",
       text = {
         { "Les ogres sont venus dans ce monde avec la Horde, de la même terre rouge que les orcs, et ont combattu pendant la Deuxième Guerre comme ses poings les plus lourds. Le démoniste Gul'dan les améliora, à sa façon : il se servit de l'Autel des tempêtes pour donner à des ogres les pouvoirs des ogres-mages, et les leurs règnent encore sur bien des clans." },
-        { "Après la défaite de la Horde, des clans d'ogres s'installèrent dans les contrées sauvages, et y sont restés : les Mo'grosh au Loch Modan, les Brisepoing au Bois de la Pénombre, les Cassecrête en Alterac, les Rochepoing dans les Hautes-terres Arathies, les Crache-poussières dans les Terres ingrates, les Mosh'Ogg dans la vallée de Strangleronce et les Cognepeur à la Porte des Ténèbres ; de l'autre côté de la mer, les Gordunni en Feralas et les Cognedune en Tanaris. Les Gordok se sont installés comme chez eux dans les ruines d'une cité elfique de Feralas, et couronnent quiconque tue leur roi." },
+        { "Après la défaite de la Horde, des clans d'ogres s'installèrent dans les contrées sauvages, et y sont restés : les Mo'grosh au Loch Modan, les Brisepoing au Bois de la Pénombre, les Cassecrête en Alterac, les Rochepoing dans les Hautes-terres Arathies, les Crache-poussières dans les Terres ingrates, les Mosh'Ogg dans la vallée de Strangleronce et les Cognepeur à la Porte des ténèbres ; de l'autre côté de la mer, les Gordunni en Feralas et les Cognedune en Tanaris. Les Gordok se sont installés comme chez eux dans les ruines d'une cité elfique de Feralas, et couronnent quiconque tue leur roi." },
         { "Tous les clans n'ont pas oublié la vieille alliance. Les Cognepierre du marécage d'Âprefange combattent aux côtés de la Horde à Mur-de-Fougères, et les orcs disent du bien d'eux. Les autres préféreraient vous manger que de vous parler." },
       },
     },
@@ -1625,7 +1654,7 @@ ns.translate({
     ["orcs"] = {
       title = "Les orcs",
       text = {
-        { "Les orcs sont venus de Draenor, un monde de clans et de chamans, et ils ne sont pas venus de leur plein gré. Le démoniste Gul'dan et son Conseil des ombres, au service du démon Kil'jaeden, leur enseignèrent la magie gangrenée et menèrent leurs chefs à boire le sang de Mannoroth. La Horde qui franchit la Porte des Ténèbres naquit de ce marché, et elle brûla Hurlevent avant que l'Alliance ne la brise pendant la Deuxième Guerre." },
+        { "Les orcs sont venus de Draenor, un monde de clans et de chamans, et ils ne sont pas venus de leur plein gré. Le démoniste Gul'dan et son Conseil des ombres, au service du démon Kil'jaeden, leur enseignèrent la magie gangrenée et menèrent leurs chefs à boire le sang de Mannoroth. La Horde qui franchit la Porte des ténèbres naquit de ce marché, et elle brûla Hurlevent avant que l'Alliance ne la brise pendant la Deuxième Guerre." },
         { "Les orcs vaincus furent parqués dans des camps d'internement, apathiques à mesure que la fureur des démons les quittait. Thrall, élevé en esclave à Fort-de-Durn, les libéra, leur rendit les anciennes voies du chaman et les mena par-delà la mer jusqu'à Kalimdor. Au mont Hyjal, ils combattirent la Légion aux côtés des humains et des elfes de la nuit, et quand Grom Hellscream tua Mannoroth, la malédiction du sang fut brisée." },
         { "Ils nommèrent leur nouvelle terre Durotar, d'après le père de Thrall, et bâtirent Orgrimmar dans ses rochers. C'est un peuple fier, qui garde un long souvenir d'avoir été utilisé, $gvoyageur:voyageuse;. Offrez à un orc du respect et de la franchise, et ne lui demandez jamais de servir à nouveau un maître." },
       },
@@ -1634,7 +1663,7 @@ ns.translate({
       title = "Orgrim Doomhammer",
       text = {
         { "Orgrim Doomhammer était l'ami de Durotan sur Draenor, un chef du clan Blackrock qui voyait ce que les démonistes faisaient à son peuple et qui, contrairement à Durotan, attendit son heure. Elle vint pendant la Première Guerre. Quand les assassins de Gul'dan tuèrent Durotan, Doomhammer tua Blackhand, le chef de guerre fantoche que Gul'dan avait installé, et prit la Horde pour lui-même. Il détruisit Hurlevent et brisa le Conseil des ombres." },
-        { "Pendant la Deuxième Guerre, il mena la Horde jusqu'aux portes de la capitale de Lordaeron, jusqu'à ce que la désertion de Gul'dan l'oblige à reculer ; il tua Anduin Lothar en combat singulier dans les Steppes ardentes, et perdit tout de même la guerre. Capturé à la Porte des Ténèbres et emmené en Lordaeron, il s'évada et vécut des années en ermite." },
+        { "Pendant la Deuxième Guerre, il mena la Horde jusqu'aux portes de la capitale de Lordaeron, jusqu'à ce que la désertion de Gul'dan l'oblige à reculer ; il tua Anduin Lothar en combat singulier dans les Steppes ardentes, et perdit tout de même la guerre. Capturé à la Porte des ténèbres et emmené en Lordaeron, il s'évada et vécut des années en ermite." },
         { "Thrall l'y trouva. Le vieux chef de guerre, l'ami de son père, suivit le jeune, et tomba en libérant l'un des camps ; Thrall prit son marteau et son armure noire et devint chef de guerre. Cette ville porte son nom, et la capitale de la Horde aussi. Ils se souviennent de lui comme du chef de guerre qui perdit une guerre et veilla pourtant à ce qu'il reste une Horde à la fin." },
       },
     },
@@ -1735,6 +1764,13 @@ ns.translate({
       text = {
         { "Le manoir de Ravenholdt est caché dans les collines au-dessus de Hautebrande. Le seigneur Jorach Ravenholdt y dirige la Ligue des assassins, formant des voleurs et des tueurs que la maison choisit elle-même. Les futurs élèves reçoivent des invitations ; poser sa candidature serait une façon inhabituelle d'annoncer ses talents ici." },
         { "La Ligue s'oppose depuis longtemps au Syndicat, dont elle tient les membres pour des amateurs. Voler leurs insignes fait utilement partie de la querelle : un homme du Syndicat qui perd le sien peut s'attendre à être puni par son propre camp." },
+      },
+    },
+    ["razelikh-the-defiler"] = {
+      title = "Razelikh le Souilleur",
+      text = {
+        { "Razelikh le Souilleur est un démon qui règne depuis un repaire au sommet de la plus haute montagne des Terres foudroyées, avec trois lieutenants sous ses ordres : Grol le Destructeur, dame Sevine et l'archimage Allistarj. Ils ont pris les guerriers du héros déchu de la Horde, et enfermé leurs esprits dans des pierres de tourment." },
+        { "Le héros déchu envoie des voyageurs libérer ses hommes, tuer les trois lieutenants et prendre leurs amulettes, puis, l'amulette reconstituée, gravir l'autel de Razelikh et appeler le démon. Sa corne, dit-il, prouvera qu'il existe encore des héros dans ce monde ravagé par la guerre." },
       },
     },
     ["razor-hill"] = {
@@ -1934,7 +1970,7 @@ ns.translate({
     ["shadow-council"] = {
       title = "Le Conseil des ombres",
       text = {
-        { "L'ancienne Horde ne fut jamais tout à fait gouvernée par ses chefs de guerre. Derrière eux se tenait le Conseil des ombres, un cercle secret que le démon Kil'jaeden aida Gul'dan à fonder sur Draenor, pour diriger les clans et répandre parmi eux la magie des démonistes. Ce fut le Conseil qui invoqua Mannoroth pour que les chefs boivent son sang, le Conseil qui fit de Blackhand un chef de guerre qui obéissait aux ordres, et le Conseil, avec Medivh, qui ouvrit la Porte des Ténèbres." },
+        { "L'ancienne Horde ne fut jamais tout à fait gouvernée par ses chefs de guerre. Derrière eux se tenait le Conseil des ombres, un cercle secret que le démon Kil'jaeden aida Gul'dan à fonder sur Draenor, pour diriger les clans et répandre parmi eux la magie des démonistes. Ce fut le Conseil qui invoqua Mannoroth pour que les chefs boivent son sang, le Conseil qui fit de Blackhand un chef de guerre qui obéissait aux ordres, et le Conseil, avec Medivh, qui ouvrit la Porte des ténèbres." },
         { "Doomhammer brisa son emprise en tuant Blackhand et en prenant la Horde pour lui-même, et Gul'dan mourut déchiqueté par les démons qu'il avait lâchés à la tombe de Sargeras. Le nom leur a survécu à tous deux. Des démonistes se rassemblent toujours sous sa bannière, orcs et Réprouvés parmi eux, et traitent toujours avec la Légion." },
         { "Leur plus grand repaire est aujourd'hui Jaedenar, en Gangrebois, où le seigneur des ténèbres Fel'dan conclut ses pactes dans le Fort des ombres, en contrebas. Tandis que les druides peinent à purifier la forêt, les démonistes du Conseil continuent de se rassembler sous ses racines." },
       },
@@ -2054,8 +2090,8 @@ ns.translate({
     ["sons-of-lothar"] = {
       title = "Les Fils de Lothar",
       text = {
-        { "Cinq statues se dressent à la porte de Hurlevent, et chaque plaque se termine de la même façon : présumé mort. Ce sont les commandants de l'Expédition de l'Alliance, qui franchirent la Porte des Ténèbres pour gagner le monde même des orcs après la Deuxième Guerre, quand Ner'zhul et les derniers clans la retraversèrent." },
-        { "Khadgar, jadis apprenti de Medivh, les mena, avec le général Turalyon à ses côtés. La forestière elfe Alleria Windrunner partait en éclaireuse pour eux, Kurdran Wildhammer menait les chevaucheurs de griffons, et Danath Trollbane, de Stromgarde, les conseillait. Ils ne purent empêcher Ner'zhul d'ouvrir ses portails vers d'autres mondes, et tandis que Draenor se déchirait, ils choisirent de détruire la Porte des Ténèbres depuis l'autre côté, afin qu'Azeroth ne soit pas entraînée avec lui. Ils réussirent. Quant à savoir si l'un d'eux s'en est échappé, dit le livre de notre bibliothèque, cela reste à voir." },
+        { "Cinq statues se dressent à la porte de Hurlevent, et chaque plaque se termine de la même façon : présumé mort. Ce sont les commandants de l'Expédition de l'Alliance, qui franchirent la Porte des ténèbres pour gagner le monde même des orcs après la Deuxième Guerre, quand Ner'zhul et les derniers clans la retraversèrent." },
+        { "Khadgar, jadis apprenti de Medivh, les mena, avec le général Turalyon à ses côtés. La forestière elfe Alleria Windrunner partait en éclaireuse pour eux, Kurdran Wildhammer menait les chevaucheurs de griffons, et Danath Trollbane, de Stromgarde, les conseillait. Ils ne purent empêcher Ner'zhul d'ouvrir ses portails vers d'autres mondes, et tandis que Draenor se déchirait, ils choisirent de détruire la Porte des ténèbres depuis l'autre côté, afin qu'Azeroth ne soit pas entraînée avec lui. Ils réussirent. Quant à savoir si l'un d'eux s'en est échappé, dit le livre de notre bibliothèque, cela reste à voir." },
         { "Lisez les plaques elles-mêmes. Chacune fut écrite par quelqu'un qui connaissait le héros : Falstad pour Kurdran, Uther pour Turalyon, Thoras Trollbane pour son neveu, Antonidas pour Khadgar, à qui il souhaite bonne chance où qu'il soit. Celle d'Alleria fut écrite par sa sœur, Sylvanas, générale des forestiers de Quel'thalas, avant qu'elle ne devienne ce qu'elle est aujourd'hui." },
       },
     },
@@ -2189,7 +2225,7 @@ ns.translate({
       text = {
         { "Sylvanas Windrunner était la générale des forestiers de Lune-d'argent, la plus grande archère des hauts-elfes et la commandante de leurs forestiers, et elle combattit le prince Arthas à chaque pas quand il mena le Fléau en Quel'thalas. Quand il finit par percer, il la tua, et pour la punir de sa résistance, il ne la laissa pas reposer : il la releva sous la forme d'une banshee et la lia à son service." },
         { "Quand le pouvoir du roi-liche vacilla, Sylvanas se libéra. Elle rassembla les morts-vivants qui s'étaient éveillés avec elle, mit un seigneur de l'effroi à son service, et prit pour elle les ruines de la capitale de Lordaeron. Les Réprouvés l'appellent la Dame noire, et ils la suivraient n'importe où." },
-        { "Elle était issue d'une famille de forestiers. Sa sœur aînée, Alleria, franchit la Porte des Ténèbres avec l'Expédition de l'Alliance et ne revint jamais ; ce fut Sylvanas qui écrivit les mots de sa plaque, à la porte de Hurlevent. La cadette, Vereesa, était elle aussi forestière de Quel'thalas." },
+        { "Elle était issue d'une famille de forestiers. Sa sœur aînée, Alleria, franchit la Porte des ténèbres avec l'Expédition de l'Alliance et ne revint jamais ; ce fut Sylvanas qui écrivit les mots de sa plaque, à la porte de Hurlevent. La cadette, Vereesa, était elle aussi forestière de Quel'thalas." },
         { "Elle veut la mort d'Arthas. Au-delà, elle garde ses intentions pour elle, et ses yeux ne trahissent rien." },
         { side = "Horde", aside = true, sign = "P. F.", "Elle nous a rendu notre esprit, ce que la Lumière n'a pas su faire. Ce qu'elle compte faire de nous ensuite, elle ne l'a pas dit." },
       },
@@ -2313,6 +2349,13 @@ ns.translate({
         { "Lisez plus loin et vous verrez jusqu'où elle est allée. Orman de Stromgarde, son premier capitaine général, se perdit à l'entrée du glacier de la Couronne de glace ; le grand amiral de la Flotte écarlate, au large de la côte gelée du Norfendre ; le premier maître assassin, sur les rivages du Norfendre. La Croisade a porté sa guerre jusqu'à la porte même du roi-liche, et les pierres sont ce qui en est revenu." },
         { "D'autres tombèrent plus près de chez eux : un grand abbé tué en défendant le Monastère lui-même, un défenseur mort en terrassant un seigneur de l'effroi, un elfe pris dans un combat sans fin contre un nécromancien. Quoi que la Croisade soit devenue depuis, $gvoyageur:voyageuse;, ce furent les premiers à croire en elle." },
         { side = "Horde", aside = true, sign = "P. F.", "J'ai lu ces pierres, moi aussi. J'en suis revenu avec un récit moins généreux." },
+      },
+    },
+    ["the-dark-portal"] = {
+      title = "La Porte des ténèbres",
+      text = {
+        { "La Porte des ténèbres est une grande porte de pierre entre notre monde et Draenor, le monde des orcs. Le démoniste Gul'dan l'ouvrit de l'autre côté, le Gardien Medivh l'y aida depuis le nôtre, et par elle, il y a quelque vingt-cinq ans, arriva la Horde. La Première Guerre, la Deuxième Guerre, tout ce qui suivit est passé par cette porte." },
+        { "Après la Deuxième Guerre, elle fut brisée, puis rouverte par Ner'zhul, qui voulait de nouveaux mondes à conquérir. Une expédition de l'Alliance sous Khadgar et Turalyon la franchit pour gagner Draenor et mettre fin à la menace, et détruisit la Porte depuis l'autre côté, coupant sa route de retour vers Azeroth. Son grand cadre de pierre se dresse au milieu du désert, son passage endormi, et les démons se rassemblent autour." },
       },
     },
     ["the-deadmines"] = {
