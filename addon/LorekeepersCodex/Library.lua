@@ -78,13 +78,41 @@ end
 
 local function here() return GetRealZoneText and GetRealZoneText() or nil, GetSubZoneText and GetSubZoneText() or nil end
 
+-- A text's title in the client's language: the translation's for a title
+-- copied in English, else as copied.
+function ns.textTitle(title) return ns.textTitles and ns.textTitles[title] or title end
+
+-- The one copy of a text read again in another language: the copy whose
+-- title is this one's in English (the translation's titles), when there is
+-- exactly one.
+local function copyInAnother(s, title)
+  local found
+  for id, t in pairs(s.texts) do
+    if t.title ~= title and ns.textTitle(t.title) == title then
+      if found then return nil end
+      found = id
+    end
+  end
+  return found
+end
+
 -- Copies what has been read so far into the Library (a text is known by its
--- title and the start of its first page).
+-- title and the start of its first page). A text copied in another language
+-- and read again in this one replaces its copy: the same text, in the
+-- client's words, never twice.
 local function copy()
   if not (reading and reading.pages[1]) or reading.skip then return end
   local s = store()
   local key = reading.title .. "|" .. reading.pages[1]:sub(1, 80)
   local id = s.keys[key]
+  if not id then
+    id = copyInAnother(s, reading.title)
+    if id then
+      s.keys[key] = id
+      local t = s.texts[id]
+      t.title, t.pages, t.count = reading.title, {}, nil
+    end
+  end
   if not id then
     id = s.nextId
     s.nextId = id + 1

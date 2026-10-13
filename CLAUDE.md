@@ -86,7 +86,7 @@ conventions).
   words to translate; `--check` says which pages are stale (their English
   changed) and which words are missing. A translation keeps the English
   page's paragraph marks; its own letters are fine, curly quotes are not.
-  Where a page or a text was found keeps the area ids of the zone and
+  The Library's titles copied in another language read by the client's (`i18n/<locale>/texts.json`, `python3 scripts/text_titles.py <locale>`: every text object and item with a page, Wowhead's titles), and a text read again in the client's language replaces its copy (`ns.textTitle`); its pages stay as copied (the game's own texts are never shipped). Places inside buildings, which have no area id, read by `i18n/<locale>/subzones.json` (`../addon-kit/subzones.py`). Where a page or a text was found keeps the area ids of the zone and
   subzone (`zoneId`, `subId`, by the client's names of the codex's areas,
   `ns.areaOf`) and reads in the client's language (`ns.placeName`: an older
   find, kept only by name, by its English one in `C.areaNames`).

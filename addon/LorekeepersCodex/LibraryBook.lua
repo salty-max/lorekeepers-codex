@@ -38,7 +38,7 @@ local function mine() return store().texts end
 local function matches(id, query)
   local t = textOf(id)
   if not t then return false end
-  if t.title:lower():find(query, 1, true) then return true end
+  if ns.textTitle(t.title):lower():find(query, 1, true) then return true end
   for _, p in pairs(t.pages) do
     if p:lower():find(query, 1, true) then return true end
   end
@@ -98,7 +98,7 @@ local function refreshList()
     local ids = by[shelf[1]]
     if ids then
       empty = false
-      table.sort(ids, function(a, b) return textOf(a).title < textOf(b).title end)
+      table.sort(ids, function(a, b) return ns.textTitle(textOf(a).title) < ns.textTitle(textOf(b).title) end)
       y = y + 4
       local r = add("shelf", shelf[2])
       r.count:SetText(#ids)
@@ -110,7 +110,7 @@ local function refreshList()
       end)
       if open then
         for _, id in ipairs(ids) do
-          local e = add("text", textOf(id).title)
+          local e = add("text", ns.textTitle(textOf(id).title))
           e.id = id
           e:SetScript("OnClick", function()
             showText(id)
@@ -142,7 +142,7 @@ end
 local function foundAt(t)
   if not t.zone then return L["found"] end
   local zone, sub = ns.placeName(t.zone, t.zoneId), t.sub and t.sub ~= "" and ns.placeName(t.sub, t.subId)
-  return L["found in %s%s, %s"]:format(zone, sub and (": " .. sub) or "", ui.day(t.at))
+  return L["found in %s, %s"]:format(sub and L["%s: %s"]:format(zone, sub) or zone, ui.day(t.at))
 end
 
 -- A text, one page at a time, the arrows that turn them under it.
@@ -151,7 +151,7 @@ function showText(id, pageNumber)
   if not t then return end
   currentText, currentPage = id, pageNumber or 1
   local shelf = shelfFor(t)
-  page:start(t.title, ("%s  -  %s"):format(shelf[2], foundAt(t)), ui.icon(shelf[3]))
+  page:start(ns.textTitle(t.title), ("%s  -  %s"):format(shelf[2], foundAt(t)), ui.icon(shelf[3]))
   -- the pages: those copied, and how many there are once the last was read
   local last = t.count
   local highest = 0
@@ -202,14 +202,14 @@ function showShelf()
   )
   table.sort(recent, function(a, b)
     if (a.t.at or 0) ~= (b.t.at or 0) then return (a.t.at or 0) > (b.t.at or 0) end
-    return a.t.title < b.t.title
+    return ns.textTitle(a.t.title) < ns.textTitle(b.t.title)
   end)
   if #recent > 0 then
     page:section(L["Copied lately"])
     for i = 1, math.min(LATELY, #recent) do
       local r = recent[i]
       local shelf = shelfFor(r.t)
-      page:card(r.t.title, ("%s  -  %s"):format(shelf[2], foundAt(r.t)), ui.icon(shelf[3]), function()
+      page:card(ns.textTitle(r.t.title), ("%s  -  %s"):format(shelf[2], foundAt(r.t)), ui.icon(shelf[3]), function()
         showText(r.id)
         refreshList()
       end)

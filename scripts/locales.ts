@@ -12,6 +12,10 @@
  *                                  words, every L["..."] of the addon (its
  *                                  kit's included); i18n/words.json lists them
  *   i18n/<locale>/chapters.json   { "<chapter id>": ["title", "summary"] }
+ *   i18n/<locale>/subzones.json   the places inside buildings, by their English
+ *                                 names (../addon-kit/subzones.py)
+ *   i18n/<locale>/texts.json      the Library's titles by their English ones,
+ *                                 { forever, classic } (scripts/text_titles.py)
  *   i18n/<locale>/pages/<chapter>/<id>.md
  *                                  a page: front matter id, title and source
  *                                  (the English page's hash, written by
@@ -98,6 +102,11 @@ function read(locale: string) {
   const chapters = json<Record<string, [string, string]>>("chapters.json", {});
   // Forever's names Classic writes otherwise (scripts/glossary.py)
   const classic = json<Record<string, string>>("classic.json", {});
+  // the Library's titles in this language, by their English ones, each game's
+  // (scripts/text_titles.py; Classic's only where they differ)
+  const titles = json<{ forever?: Record<string, string>; classic?: Record<string, string> }>("texts.json", {});
+  // the places inside buildings, which have no area id (../addon-kit/subzones.py)
+  const subzones = json<{ forever?: Record<string, string>; classic?: Record<string, string> }>("subzones.json", {});
   for (const id of Object.keys(chapters)) if (!chapterIds.has(id)) fail(join(dir, "chapters.json"), `no chapter "${id}"`);
   const pages = new Map<string, Page>();
   for (const file of walk(join(dir, "pages"))) {
@@ -113,7 +122,7 @@ function read(locale: string) {
     }
     pages.set(id, { title: String(m.title), text: paragraphs(body), stale: m.source !== en.hash });
   }
-  return { meta, words, chapters, pages, classic };
+  return { meta, words, chapters, pages, classic, titles, subzones };
 }
 
 // The names are Forever's (docs/localization.md): the English names the
@@ -176,6 +185,34 @@ ${Object.entries(t.words)
 ${Object.entries(t.chapters)
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([id, [title, summary]]) => `    [${q(id)}] = { ${q(title)}, ${q(summary)} },`)
+  .join("\n")}
+  },
+  -- the Library's titles by their English ones (a text copied in English
+  -- reads by this language's title); Classic's own where they differ
+  titles = {
+${Object.entries(t.titles.forever ?? {})
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([en, tr]) => `    [${q(en)}] = ${q(tr)},`)
+  .join("\n")}
+  },
+  -- the places inside buildings, by their English names (no area id to ask
+  -- the client); Classic's own where they differ
+  subzones = {
+${Object.entries(t.subzones.forever ?? {})
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([en, tr]) => `    [${q(en)}] = ${q(tr)},`)
+  .join("\n")}
+  },
+  subzonesClassic = {
+${Object.entries(t.subzones.classic ?? {})
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([en, tr]) => `    [${q(en)}] = ${q(tr)},`)
+  .join("\n")}
+  },
+  titlesClassic = {
+${Object.entries(t.titles.classic ?? {})
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([en, tr]) => `    [${q(en)}] = ${q(tr)},`)
   .join("\n")}
   },
   -- on Classic, its own names for the places Forever renamed (the longest first)

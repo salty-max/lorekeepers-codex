@@ -1539,7 +1539,38 @@ do
         },
       },
     },
+    titles = { ["The Founding of Quel'Thalas"] = "La fondation de Quel'Thalas" },
+    subzones = { ["The Library"] = "La Bibliothèque" },
   })
+  check(
+    ns.placeName("The Library") == "La Bibliothèque",
+    "… a place inside a building (no area id), by the translation's list"
+  )
+  -- the Library: a title copied in English reads by this language's; the
+  -- text read again in this language replaces its copy, never a second one
+  local lib = LorekeepersCodexChar.library
+  read("The Founding of Quel'Thalas", { "In the beginning...", "The middle.", "The end." })
+  local copies = 0
+  for _ in pairs(lib.texts) do
+    copies = copies + 1
+  end
+  check(
+    ns.textTitle("The Founding of Quel'Thalas") == "La fondation de Quel'Thalas",
+    "… the Library's titles copied in English, in French"
+  )
+  read("La fondation de Quel'Thalas", { "Au commencement...", "La fin." })
+  local after = 0
+  for _ in pairs(lib.texts) do
+    after = after + 1
+  end
+  check(after == copies and (function()
+    for _, t in pairs(lib.texts) do
+      if t.title == "La fondation de Quel'Thalas" then
+        return t.pages[1] == "Au commencement..." and t.pages[3] == nil
+      end
+    end
+    return false
+  end)(), "… and the text read again in French replaces its English copy")
   local chapter
   for _, ch in ipairs(ns.content.chapters) do
     if ch.id == "wetlands" then chapter = ch end

@@ -95,7 +95,8 @@ end
 -- is looked up by the codex's own (C.areaNames). Any other stays as recorded.
 local areaByEnglish = {}
 for areaId, name in pairs(C.areaNames or {}) do
-  areaByEnglish[name] = areaByEnglish[name] or areaId
+  -- (a name some areas share: the lowest id, the same every time)
+  if not areaByEnglish[name] or areaId < areaByEnglish[name] then areaByEnglish[name] = areaId end
 end
 function ns.areaOf(name)
   local ids = name and areasByName[name]
@@ -105,7 +106,8 @@ function ns.placeName(name, areaId)
   areaId = areaId or (name and areaByEnglish[name])
   local here = areaId and C_Map and C_Map.GetAreaInfo and C_Map.GetAreaInfo(areaId)
   if here and here ~= "" then return here end
-  return name
+  -- (a place inside a building: a translation's own list)
+  return ns.subzoneNames and name and ns.subzoneNames[name] or name
 end
 
 -- ── the codex ────────────────────────────────────────────────────────────────

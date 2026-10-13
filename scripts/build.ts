@@ -284,8 +284,9 @@ ${e.text.filter((p) => mine(p.client)).map((p) => `        { ${p.italic ? "itali
   )
   .join("\n")}
   },
-  -- English names of the areas used above (when the client can't name an area id).
-  areaNames = { ${usedAreas.map((id) => `[${id}] = ${q(areaById.get(id)!.name)}`).join(", ")} },
+  -- English names of every area of this game's (when the client can't name an
+  -- area id; and a place recorded in English, read in the client's language).
+  areaNames = { ${(client === "forever" ? areas : classicAreas).map((a) => `[${a.id}] = ${q(a.name.trim())}`).join(", ")} },
 }
 `;
   return { lua, count: kept.length, chapters: chapterList.length };

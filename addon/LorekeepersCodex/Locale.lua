@@ -36,6 +36,28 @@ function ns.translate(t)
   -- every translated word passes here: the reader's gender (the game's own
   -- token, $gmasculine:feminine;) and, on Classic, its own names for the
   -- places Forever renamed (a translation is written with Forever's)
+  -- the Library's titles, this game's (Classic's own where they differ)
+  local titles = {}
+  for en, tr in pairs(t.titles or {}) do
+    titles[en] = tr
+  end
+  if C.client == "classic" then
+    for en, tr in pairs(t.titlesClassic or {}) do
+      titles[en] = tr
+    end
+  end
+  ns.textTitles = titles
+  -- the places inside buildings (no area id to ask the client), this game's
+  local inside = {}
+  for en, tr in pairs(t.subzones or {}) do
+    inside[en] = tr
+  end
+  if C.client == "classic" then
+    for en, tr in pairs(t.subzonesClassic or {}) do
+      inside[en] = tr
+    end
+  end
+  ns.subzoneNames = inside
   local female = UnitSex and UnitSex("player") == 3
   local swaps = C.client == "classic" and t.classic or nil
   local function words(s)
