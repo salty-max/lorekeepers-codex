@@ -311,6 +311,13 @@ ns.translate({
     { "Âtreval", "Hearthglen" },
   },
   pages = {
+    ["aerie-peak"] = {
+      title = "Nid-de-l'Aigle",
+      text = {
+        { "Nid-de-l'Aigle est le foyer des nains Wildhammer, une ville de salles de pierre et de perchoirs à griffons bâtie dans un piton à la lisière ouest des Hinterlands. Elle possède la plus belle volière de griffons du monde, et chaque nain de Forgefer qui a volé à dos de griffon a un Wildhammer à remercier." },
+        { "Ce n'est pas Forgefer. Il n'y a pas de grandes forges ici, peu de murs et encore moins de plafonds ; les Wildhammer vivent au grand air, se peignent la peau de tatouages et parlent aux esprits de la terre. Un nain de Forgefer se sent un peu déplacé à Nid-de-l'Aigle, et c'est voulu." },
+      },
+    },
     ["agamaggan"] = {
       title = "Agamaggan",
       text = {
@@ -937,6 +944,13 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Elle écrit que certains Réprouvés étaient dans la foule qui l'acclamait. Certains d'entre nous y étaient. J'ai plus d'une fois tenté de mettre ce jour par écrit, et je n'y suis pas encore parvenu." },
       },
     },
+    ["falstad-wildhammer"] = {
+      title = "Falstad Wildhammer",
+      text = {
+        { "Le haut thane Falstad Wildhammer règne sur Nid-de-l'Aigle, parmi ses perchoirs à griffons. Le travail des chevaucheurs s'étend bien au-delà des Hinterlands : quand Brohann Caskbelly cherche un pilote perdu au-dessus du marais des Chagrins, il envoie des aventuriers demander des nouvelles à Falstad." },
+        { "Les Wildhammer se gouvernent eux-mêmes. Leur indépendance n'efface pas leur histoire avec l'Alliance, et Falstad reste un contact utile pour qui cherche ses chevaucheurs de griffons. Ne prenez pas une cause commune pour une autorité de Forgefer, $gvoyageur:voyageuse;. Son clan a son propre thane et son propre foyer." },
+      },
+    },
     ["fandral-staghelm"] = {
       title = "Archidruide Fandral Staghelm",
       text = {
@@ -1252,6 +1266,13 @@ ns.translate({
         { "Jaina Proudmoore était une jeune sorcière de Dalaran, la fille de l'amiral de Kul Tiras, et une amie du prince Arthas en des jours plus heureux. Quand la peste arriva, elle chevaucha à ses côtés, jusqu'à Stratholme, où elle refusa de le suivre. Puis un prophète l'envoya vers l'ouest, par-delà la mer, et elle mena ce qui restait du peuple de Lordaeron jusqu'en Kalimdor." },
         { "Là, elle fit ce que personne dans l'Alliance ne croyait possible : elle combattit aux côtés de Thrall et des elfes de la nuit contre la Légion ardente au mont Hyjal, puis fit la paix avec la Horde. Quand son père, l'amiral Daelin Proudmoore, vint avec sa flotte pour achever la vieille guerre, elle ne se mit pas en travers du chemin de la Horde, et il en mourut. Elle porte ce poids depuis." },
         { "Garder la paix n'a pas été facile. Quelques années après Hyjal, des raids et des navires coulés faillirent de nouveau dresser Theramore et Durotar l'une contre l'autre, jusqu'à ce que Jaina, travaillant discrètement avec Thrall, découvre la Lame ardente derrière tout cela, et son propre chambellan à sa solde. Cette enquête la mena dans un coin protégé de Durotar où elle rencontra la dernière personne qu'elle s'attendait à trouver vivante : Aegwynn, la Gardienne, la mère de Medivh, qui vivait seule. Jaina gouverne toujours Theramore et maintient la paix avec Thrall, et je crois que c'est la personne la plus courageuse de ce registre." },
+      },
+    },
+    ["jinthaalor"] = {
+      title = "Jintha'Alor",
+      text = {
+        { "Jintha'Alor est la grande cité-temple des trolls Vilebranch, au sud des Hinterlands, une montagne de pierre en gradins qui s'élève au-dessus de la forêt. À son sommet, la vile prêtresse Maléficia et ses prêtres perpétuent les anciens rites des Amani, et d'autres plus anciens et pires : ils ont fait des prisonniers pour les sacrifier à Hakkar l'Écorcheur d'âmes, le dieu du sang des trolls." },
+        { "Les prêtres atal'ai qui servaient jadis Hakkar dans le sud étendent leur influence jusqu'ici : l'un d'eux, un prêtre condamné à l'exil par son propre peuple, vit parmi les trolls des Hinterlands. Les Vilebranch, je crois, n'ont pas été mécontents de l'accueillir." },
       },
     },
     ["kargath"] = {
@@ -1624,6 +1645,13 @@ ns.translate({
         { "Les villageois le savent, je crois, et vivent avec de la seule façon qu'ils peuvent. C'est l'endroit le plus triste de la forêt des Pins argentés, et la forêt des Pins argentés ne manque pas de concurrents." },
       },
     },
+    ["queldanil-lodge"] = {
+      title = "Le gîte de Quel'Danil",
+      text = {
+        { "Le gîte de Quel'Danil est le foyer des elfes du Haut-val dans les Hinterlands, bien au sud de Quel'thalas. Ses forestiers chassent dans les collines, s'opposent aux trolls des forêts et tiennent compagnie aux Wildhammer. Leur alliance avec les nains fait partie d'une querelle bien plus ancienne entre les elfes et les Amani." },
+        { "Leur patrie se trouve au-delà des Maleterres, dévastée par le Fléau. Ici, le gîte reste un lieu d'échanges, avec des ambassadeurs qui cherchent à nouer des relations avec d'autres peuples." },
+      },
+    },
     ["quilboar"] = {
       title = "Les hurans",
       text = {
@@ -1721,6 +1749,13 @@ ns.translate({
       text = {
         { "Quand des golems envahirent les excavations de Remtravel, au sud de Sombrivage, son assistante s'enfuit à Auberdine chercher de l'aide. Le célèbre prospecteur, lui, resta au travail. L'admiration de Hollee pour ses découvertes survit aux côtés d'un souhait désespéré : qu'il remarque de temps en temps ce qui se passe autour de lui." },
         { "Son mystérieux fossile a éveillé l'intérêt du chef archéologue Greywhisker, et une ressemblance avec une autre trouvaille mène l'enquête jusqu'à Flagongut, à Port de Menethil. Remtravel a trouvé quelque chose qui mérite qu'on s'y intéresse. Le garder en vie assez longtemps pour qu'il finisse de s'y intéresser est devenu une expédition à part entière." },
+      },
+    },
+    ["revantusk-village"] = {
+      title = "Le village des Revantusk",
+      text = {
+        { "Les Revantusk tiennent un village sur la côte est des Hinterlands. Ce sont des trolls des forêts alliés à la Horde, une petite tribu pressée par de plus grands voisins. Les Vilebranch ont pris leur ancien pour le sacrifier, et l'amitié des Wildhammer avec les hauts-elfes leur donne une autre querelle toute proche." },
+        { "Les Amani et les elfes de Quel'thalas sont ennemis depuis que les elfes se sont établis sur ces terres. Cette vieille hostilité vit encore chez les Revantusk." },
       },
     },
     ["rexxar"] = {
@@ -1859,6 +1894,13 @@ ns.translate({
       text = {
         { "Proie-de-l'Ombre est le camp de la Horde sur la côte ouest de Désolace, un village troll et tauren de huttes sur pilotis au bord de la mer, la dernière étape avant la longue route du sud vers Feralas. Ses habitants chassent dans le pays mort et gardent un œil sur les centaures comme sur les démons." },
         { "Une taurène de Proie-de-l'Ombre s'est chargée de fermer les portails démoniaques de la Lame ardente, et un druide du Cercle cénarien campe tout près, attendant quelqu'un d'assez fort pour entrer dans Maraudon. C'est un petit village aux grands problèmes." },
+      },
+    },
+    ["shadra"] = {
+      title = "Shadra",
+      text = {
+        { "Shadra est une déesse araignée des trolls, une loa du venin et des toiles, et les Witherbark la vénèrent à l'autel de Shadra'Alor, dans les Hinterlands. Ce n'est pas une idole. Lisez les bons mots à son autel, et elle vient, grande comme une maison." },
+        { "Les Witherbark gardent des fioles de son venin dans leurs villages, et les apothicaires réprouvés de Moulin-de-Tarren le veulent à tout prix, ce qui vous dit ce qu'ils comptent en faire. Je préférerais que Shadra garde son venin." },
       },
     },
     ["shady-rest-inn"] = {
@@ -2217,6 +2259,13 @@ ns.translate({
         { "Les Sculpte-vents les disent imprudents et arrogants ; l'Ordre suprême y voit de l'hypocrisie. Ils ont payé leur assurance. Elaadrin envoya Belathaan Vœu-Radieux ouvrir des pourparlers avec les Al'Aketh au sanctuaire d'Akir, et Belathaan ne revint jamais ; le culte renvoya sa langue dans une boîte, trempée dans l'argent. Ensuite, Elaadrin reconnut que les Sculpte-vents avaient eu raison." },
       },
     },
+    ["the-hinterlands"] = {
+      title = "Les Hinterlands",
+      text = {
+        { "Au nord d'Arathi s'étendent les Hinterlands : de hautes collines vertes, des vallées profondes, des cascades et une vieille forêt, un pays sauvage qu'aucun roi n'a jamais vraiment gouverné. Les nains Wildhammer y vivent, à Nid-de-l'Aigle, avec leurs griffons. Les trolls des forêts de l'ancien empire amani aussi, dont les temples en ruine couronnent la moitié des collines, et dont les tribus encore vivantes tiennent le reste." },
+        { "C'est un pays beau et dangereux. Des chouettards dans les bois, des limons dans les marais, des trolls Witherbark et Vilebranch dans les ruines, et au sommet du grand temple de Jintha'Alor, des prêtres qui sacrifient encore au dieu du sang. Les chevaucheurs de griffons de Nid-de-l'Aigle gardent un œil sur tout cela depuis les airs." },
+      },
+    },
     ["the-lost-ones"] = {
       title = "Les Perdus",
       text = {
@@ -2531,6 +2580,13 @@ ns.translate({
         { "La grande inquisitrice Sally Whitemane et le commandant écarlate Renault Mograine tiennent la cathédrale du Monastère écarlate. Il commande ses chevaliers ; elle guide sa foi. Sa maîtrise de la Lumière peut le relever quand il tombe, ce qui rend une victoire sur le commandant moins définitive qu'un voyageur pourrait l'espérer." },
         { "Renault est le fils du généralissime Alexandros Mograine, le Porte-cendres, un grand champion de la Main d'argent contre le Fléau. Son père est mort. Fairbanks, un autre grand inquisiteur caché dans la cathédrale, prétend savoir comment il est mort et affirme que Renault était là. La Croisade préférerait son silence. Ceux qui apportent la lame du généralissime entendront peut-être le récit qu'elle ne veut pas voir raconté ; la page du Porte-cendres, dans ce registre, rapporte ce qu'il dit." },
         { side = "Horde", aside = true, sign = "P. F.", "Whitemane relève son commandant d'entre les morts, et la Croisade brûle le reste d'entre nous pour moins que ça." },
+      },
+    },
+    ["wildhammer-clan"] = {
+      title = "Le clan Wildhammer",
+      text = {
+        { "Les Wildhammer étaient l'un des trois marteaux de l'ancien royaume de Khaz Modan, et après la guerre qui sépara les trois, ils s'établirent à Grim Batol. Quand la reine sombrefer Modgud y mourut, sa mort laissa une noirceur dans la pierre ; les Wildhammer quittèrent donc les lieux et partirent au nord, vers les Hinterlands, où ils vivent depuis à ciel ouvert, montant des griffons et gardant les anciennes voies des esprits." },
+        { "Ils sont fiers, farouches, très indépendants, et ils pensent que nous autres de Forgefer avons passé trop de temps sous terre. Pendant la Deuxième Guerre, leurs chevaucheurs de griffons combattirent pour l'Alliance et furent la terreur des dragons de la Horde. Ils gardent aujourd'hui leurs propres conseils, et leurs propres amis : les hauts-elfes de Quel'Danil parmi eux, ce dont les trolls des Hinterlands leur tiennent rigueur." },
       },
     },
     ["wildkin"] = {
