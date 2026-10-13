@@ -576,6 +576,13 @@ ns.translate({
         { "Les orcs le vénèrent, et l'Alliance lui fait davantage confiance qu'à aucun autre chef de la Horde. Les uns comme les autres, je crois, ont raison." },
       },
     },
+    ["camp-mojache"] = {
+      title = "Le camp Mojache",
+      text = {
+        { "Le camp Mojache est le camp de la Horde à l'est de Feralas, un cercle de tentes et de totems taurens sur une colline parmi les arbres géants, près de la route de Hache-tripes. Les taurens d'ici surveillent les ogres Gordunni, dont le nombre augmente, et leurs cousins du Totem sinistre dans les collines du sud, qui ne sont pas des amis de Thunder Bluff." },
+        { "Les sages du camp ont leur propre intérêt pour les ruines. Ils cherchent un maître elfe qui a fui la chute de Quel'thalas avec des artefacts anciens, et ils pensent qu'il est entré dans Hache-tripes." },
+      },
+    },
     ["camp-narache"] = {
       title = "Le camp Narache",
       text = {
@@ -732,6 +739,13 @@ ns.translate({
       text = {
         { "Désolace porte bien son nom : un pays gris, sec, à l'air mort, à l'ouest des Serres-Rocheuses, fait de roche couleur de cendre, d'arbres desséchés et d'ossements. Il n'y pousse pas grand-chose. On y meurt beaucoup : les kodos viennent y mourir, et leurs squelettes s'entassent dans un grand cimetière au milieu du pays." },
         { "Il appartient, s'il appartient à quelqu'un, aux centaures, dont les clans s'y affrontent et dont le lieu le plus sacré, Maraudon, se trouve au sud-ouest. La Lame ardente tient une forteresse au nord et ouvre des portes aux démons, des nagas hantent la côte, et l'Alliance et la Horde y gardent chacune un petit avant-poste nerveux. Ce n'est pas une terre que l'on aime." },
+      },
+    },
+    ["dire-maul"] = {
+      title = "Hache-tripes",
+      text = {
+        { "Hache-tripes était Eldre'Thalas, une cité des Bien-nés, bâtie au temps de la reine Azshara pour garder ses secrets arcaniques les plus précieux. Elle survécut à la Fracture, et une grande partie se dresse encore, une cité de pierre blanche dans la forêt, aux salles pleines de livres et de fantômes." },
+        { "Elle est aujourd'hui brisée en trois. Les ogres Gordok tiennent le nord, et couronnent un nouveau roi chaque fois que l'ancien est tué. Le satyre Alzzin le Modeleur tient l'est, et a corrompu le Fruit de fertilité de la cité en une chose immonde appelée la Gangrevigne. L'ouest est toujours tenu par les derniers des Bien-nés, les Shen'dralar, autour de leur bibliothèque, que je donnerais beaucoup pour lire." },
       },
     },
     ["dolanaar"] = {
@@ -963,6 +977,20 @@ ns.translate({
       text = {
         { "Les chasseurs se retrouvent au pavillon des Pérégrins, au sud-est du Loch Modan. Marek Ironheart fait commerce de viande et de peaux de crocilisque, tandis que Daryl le Jeune lance des défis à quiconque veut mettre son adresse à l'épreuve. Il y a là bien du travail pour un arc, et pas de pénurie de discussions sur qui le manie le mieux." },
         { "Vyrin Swiftwind propose une autre épreuve. Elle veut qu'on tue le Vieux Noiraud, dans le cadre d'un plan pour démasquer les vantardises de Daryl. Vous apprendrez peut-être quelque chose sur la chasse au pavillon, $gvoyageur:voyageuse;, mais vous en apprendrez beaucoup sur les chasseurs." },
+      },
+    },
+    ["feathermoon-stronghold"] = {
+      title = "Le bastion de Feathermoon",
+      text = {
+        { "Le bastion de Feathermoon se dresse sur l'île de Sardor, au large de la côte de Feralas, accessible en bateau depuis le continent. La générale Shandris Feathermoon y commande ses Sentinelles, derrière des murs blancs au-dessus d'un port. La forteresse porte son nom." },
+        { "Ses soldats s'opposent aux nagas Hainecrête de Solarsal et surveillent les ogres de la forêt. Des érudits travaillent aussi parmi les vieilles ruines elfiques de Feralas." },
+      },
+    },
+    ["feralas"] = {
+      title = "Feralas",
+      text = {
+        { "Feralas est un pays de pluie et de géants, sur la côte ouest de Kalimdor : une forêt d'arbres si hauts que leurs cimes se perdent dans la brume, avec des ruines anciennes entre leurs racines. Les elfes de la nuit bâtirent ici bien avant la Fracture, et leurs pierres sont partout, envahies par la végétation et brisées ; les érudits de Feathermoon passent leur vie parmi elles, et ne savent toujours pas dire ce qu'était la moitié d'entre elles." },
+        { "Aujourd'hui, la forêt appartient aux ogres Gordunni, dont le nombre croissant inquiète les établissements voisins, aux gnolls, aux yétis, aux nagas sur la côte et au Totem sinistre dans les collines. Les Sentinelles tiennent un bastion insulaire au large de la côte, la Horde un camp à l'est, et au cœur de la forêt se dresse la cité brisée des Bien-nés que les ogres appellent Hache-tripes." },
       },
     },
     ["forest-trolls"] = {
@@ -1917,6 +1945,21 @@ ns.translate({
         { "Thrall rendit le chamanisme à son peuple, et en Kalimdor ils en trouvèrent d'autres qui ne l'avaient jamais perdu : les taurens, qui honorent la Terre-Mère, et les trolls, dont les féticheurs avaient gardé le leur. Un chaman demande l'aide de la terre, du feu, de l'eau et de l'air, porte un totem de chacun, et les éléments, la plupart du temps, répondent." },
         { client = "forever", "Depuis peu, on voit aussi des nains en appeler à la pierre et à l'orage, et les Sculpte-vents éolides sont descendus chercher leurs esprits du vent perdus auprès des chamans de la Horde." },
         { "La Ligue a appris à demander la permission d'un chaman avant de fouiller, $gvoyageur:voyageuse;. Le sol a ses opinions, et eux les entendent." },
+      },
+    },
+    ["shandris-feathermoon"] = {
+      title = "Shandris Feathermoon",
+      text = {
+        { "La générale Shandris Feathermoon commande les Sentinelles depuis le bastion qui porte son nom. Son service aux côtés de Tyrande commença pendant la guerre des Anciens, quand elle était une enfant qui fuyait Ara-Hinam, séparée de sa famille et crue orpheline. Tyrande la prit sous sa protection." },
+        { "Shandris la suivit dans le danger malgré l'ordre de rester en arrière. L'une de ses flèches toucha Xavius ; Malfurion se servit du bois de la hampe plantée en lui pour vaincre le satyre. L'enfant eut sa part dans la guerre avant que quiconque eût choisi de la lui donner." },
+        { "Elle s'est tenue aux côtés de Tyrande pendant la Fracture et les âges qui ont suivi. Son commandement se trouve aujourd'hui loin de Darnassus, en Feralas." },
+      },
+    },
+    ["shendralar"] = {
+      title = "Les Shen'dralar",
+      text = {
+        { "Les Shen'dralar sont restés à Eldre'Thalas depuis avant la Fracture. Coupés du Puits d'éternité, ils enchaînèrent le démon Immol'thar sous leur cité au moyen de cinq pylônes. Depuis des milliers d'années, ils puisent dans son pouvoir pour subsister." },
+        { "Le prince Tortheldrin règne toujours, entouré de salles hantées par les fantômes de son peuple. Certains Shen'dralar ont préféré la liberté à l'immortalité. L'Ancienne de Shen'Dralar demande la mort de Tortheldrin et la paix pour les esprits, tandis que les gardiens de l'Athenaeum récompensent l'aide qu'on leur apporte par leur savoir. Il y a ici une bibliothèque remarquable, mais l'histoire de la façon dont son peuple a survécu mérite tout autant d'attention." },
       },
     },
     ["shimmering-flats"] = {
