@@ -304,6 +304,14 @@ ns.translate({
     { "Âtreval", "Hearthglen" },
   },
   pages = {
+    ["algaz"] = {
+      title = "Algaz",
+      text = {
+        { "La route qui sort du Loch Modan vers le nord passe par Dun Algaz, un col étroit taillé à travers les montagnes jusqu'aux Paluns, et elle est gardée à ses deux extrémités." },
+        { "De notre côté, les montagnards du poste d'Algaz surveillent la route et les collines alentour. Les troggs remontent dans le col plus souvent qu'on ne le voudrait, et les Paluns, au-delà, ne sont plus une terre amie pour les nains depuis l'arrivée des Sombrefer." },
+        { "Quand vous traverserez le col, regardez la pierre. Elle a été travaillée par des mains naines depuis très longtemps." },
+      },
+    },
     ["alonsus-faol"] = {
       title = "Alonsus Faol",
       text = {
@@ -688,6 +696,13 @@ ns.translate({
         { "Son peuple se souvient d'un chagrin plus que des autres. Il y a mille ans, pendant la guerre contre l'empire insecte d'Ahn'Qiraj, son fils Valstann partit à cheval sauver le village de Sudevent et ne revint pas. Quelques jours plus tard, le général qiraji Rajaxx s'avança devant l'armée des elfes de la nuit en tenant le jeune elfe dans ses griffes, et le mit en pièces sous les yeux de son père. Quand les dragons et les druides scellèrent enfin les Qiraji derrière le Mur du scarabée, Anachronos remit à Fandral le sceptre qui permettrait de le rouvrir, et Fandral le brisa contre la porte. « Je retrouverai mon fils, dit-il au dragon, dussé-je attendre des millénaires. » Il tient l'Enclave cénarienne de Darnassus, étudie les maux de l'arbre qu'il a planté, et vous dira qu'il les a bien en main." },
       },
     },
+    ["farstrider-lodge"] = {
+      title = "Le pavillon des Pérégrins",
+      text = {
+        { "Les chasseurs se retrouvent au pavillon des Pérégrins, au sud-est du Loch Modan. Marek Ironheart fait commerce de viande et de peaux de crocilisque, tandis que Daryl le Jeune lance des défis à quiconque veut mettre son adresse à l'épreuve. Il y a là bien du travail pour un arc, et pas de pénurie de discussions sur qui le manie le mieux." },
+        { "Vyrin Swiftwind propose une autre épreuve. Elle veut qu'on tue le Vieux Noiraud, dans le cadre d'un plan pour démasquer les vantardises de Daryl. Vous apprendrez peut-être quelque chose sur la chasse au pavillon, $gvoyageur:voyageuse;, mais vous en apprendrez beaucoup sur les chasseurs." },
+      },
+    },
     ["forest-trolls"] = {
       title = "Les trolls des forêts",
       text = {
@@ -847,6 +862,14 @@ ns.translate({
         { "La Ligue emploie des chasseurs comme guides depuis qu'elle existe, $gvoyageur:voyageuse;. Ils trouvent la route et le dîner, et s'assurent que ni l'un ni l'autre ne trouve les fouilleurs le premier." },
       },
     },
+    ["ironbands-excavation-site"] = {
+      title = "Excavations de Baguefer",
+      text = {
+        { "L'un des chantiers de la Ligue, dans les collines du sud du Loch Modan, dirigé par le prospecteur Ironband. Ce que le prospecteur espérait trouver là-dessous, je le garderai pour moi ; ce qu'il a trouvé, ce sont des troggs." },
+        { "Les Brisepierre sont remontés en nombre par les galeries, et le site tient désormais plus du champ de bataille que du chantier de fouilles. Le prospecteur n'a pas renoncé, en nain et en membre de la Ligue qu'il est, mais il serait très heureux qu'on l'aide." },
+        { "Voilà ce que la Ligue veut dire quand elle affirme que creuser est un travail dangereux. La terre est pleine de choses qui préféreraient rester enterrées, et de quelques-unes qui préféreraient le contraire." },
+      },
+    },
     ["ironforge"] = {
       title = "Forgefer",
       text = {
@@ -887,6 +910,14 @@ ns.translate({
         { "Si vous devez les combattre, $gvoyageur:voyageuse;, souvenez-vous qu'ils furent un jour les voisins de quelqu'un." },
       },
     },
+    ["loch-modan"] = {
+      title = "Loch Modan",
+      text = {
+        { "À l'est des portes s'étend la contrée la plus douce du Khaz Modan : des collines vertes, des bois de pins et un long loch bleu, le tout tenu en place par le grand barrage à son extrémité nord." },
+        { "C'est une terre de cultures et de chasse, et les nains qui y vivent sont un peu plus lents à se mettre en colère, et bien plus prompts à vous offrir à boire, que leurs cousins de Forgefer. Ils ont besoin de cette bonne humeur. Les troggs creusent dans les vallées du sud, les ogres tiennent le nord-est, et l'on a vu les Sombrefer dans les collines." },
+        { "Reposez-vous à Thelsamar, contemplez le barrage, et visitez la vallée des Rois. Ensuite, faites attention où vous mettez les pieds." },
+      },
+    },
     ["mages"] = {
       title = "Mages",
       text = {
@@ -910,6 +941,14 @@ ns.translate({
         { "Sicco Thermaplugg est resté à Gnomeregan tandis que le grand bricoleur Mekkatorque mène ses exilés depuis Forgefer. Le grand bricoleur lui faisait jadis confiance. Cette confiance a fini en accusation de trahison, et en appel à sa mort." },
         { "Les radiations répandues dans la cité n'ont pas su exterminer les troggs et ont dévasté ses habitants gnomes. Thermaplugg règne dans les ruines, parmi les créatures que la tentative devait détruire et les survivants qu'elle a laissés derrière elle." },
         { "Mekkatorque demande aux aventuriers de porter son jugement dans ces salles." },
+      },
+    },
+    ["mogrosh-ogres"] = {
+      title = "Les ogres Mo'grosh",
+      text = {
+        { "Au nord-est du Loch Modan, les ogres Mo'grosh se sont fait une place forte bien à eux et mettent quiconque au défi de venir la prendre." },
+        { "Les ogres sont énormes, brutaux et bien plus malins que les nains n'aiment l'admettre ; leurs chamans et leurs mystiques, en particulier, ne sont pas à prendre à la légère. Les Mo'grosh pillent les fermes et les routes du loch quand bon leur semble, et jusqu'ici personne n'a eu la force de les arrêter pour de bon." },
+        { "N'entrez pas seul dans leur place forte, $gvoyageur:voyageuse;. N'y entrez pas du tout, si vous pouvez l'éviter." },
       },
     },
     ["moonbrook"] = {
@@ -1010,7 +1049,7 @@ ns.translate({
       title = "La Milice du peuple",
       text = {
         { "Quand les soldats de Hurlevent ne vinrent pas, les gens de la Marche de l'Ouest levèrent les leurs. La Milice du peuple, ce sont quelques soldats, beaucoup de fermiers, et un paladin pour les mener : Gryan Stoutmantle, qui refusait de voir la Marche de l'Ouest abandonnée à la Confrérie." },
-        { "Depuis la colline des Sentinelles, ils patrouillent les routes qu'ils peuvent, chassent les gnolls et les Défias, et envoient leurs éclaireurs dans les collines de la Dague et les ruines de Ruisselune. Stoutmantle a ses propres amis dans les bas-fonds, et c'est par l'un d'eux, un voleur de Comté-du-Lac, qu'il apprit qui dirige la Confrérie et où elle se cache." },
+        { "Depuis la colline des sentinelles, ils patrouillent les routes qu'ils peuvent, chassent les gnolls et les Défias, et envoient leurs éclaireurs dans les collines de la Dague et les ruines de Ruisselune. Stoutmantle a ses propres amis dans les bas-fonds, et c'est par l'un d'eux, un voleur de Comté-du-Lac, qu'il apprit qui dirige la Confrérie et où elle se cache." },
       },
     },
     ["priests"] = {
@@ -1130,9 +1169,9 @@ ns.translate({
       },
     },
     ["sentinel-hill"] = {
-      title = "La colline des Sentinelles",
+      title = "La colline des sentinelles",
       text = {
-        { "La colline des Sentinelles est une tour de guet en pierre sur une hauteur au milieu de la Marche de l'Ouest, et c'est le dernier endroit de la province où la loi veut encore dire quelque chose. La Milice du peuple la tient : une poignée de soldats et beaucoup d'anciens fermiers sous les ordres du paladin Gryan Stoutmantle, qui préfèrent se battre pour leur terre plutôt que de s'en aller." },
+        { "La colline des sentinelles est une tour de guet en pierre sur une hauteur au milieu de la Marche de l'Ouest, et c'est le dernier endroit de la province où la loi veut encore dire quelque chose. La Milice du peuple la tient : une poignée de soldats et beaucoup d'anciens fermiers sous les ordres du paladin Gryan Stoutmantle, qui préfèrent se battre pour leur terre plutôt que de s'en aller." },
         { "Il n'y a pas grand-chose ici : la tour, quelques tentes, une écurie et une auberge, et une belle vue sur l'ampleur du désastre. Mais chaque voyageur qui veut aider la Marche de l'Ouest vient d'abord ici, et la Milice a plus de travail que de bras." },
       },
     },
@@ -1236,6 +1275,13 @@ ns.translate({
         { "Les Stonefield et les Maclure cultivent leurs terres de part et d'autre de la mine de Fargodeep, au sud de Comté-de-l'Or, et les deux familles sont en froid depuis plus longtemps que quiconque ne prend la peine de l'expliquer. Naturellement, Maybell Maclure est amoureuse de Tommy Joe Stonefield. Il attend ses lettres au bord de la rivière, à l'ouest de la ferme de sa famille ; elle attend l'occasion de s'éclipser." },
         { "La grand-mère des Stonefield est du côté des jeunes gens. Elle envoie un mot à son vieil ami William Pestle, à Comté-de-l'Or, qui sait brasser une liqueur d'invisibilité si quelqu'un lui rapporte du varech cristallin pris aux murlocs du lac de Cristal. Grâce à elle, Maybell peut quitter les vignes de sa famille sans être vue. Elle se sent coupable de les tromper, dit-elle, mais pas assez pour rester." },
         { "La querelle continue autour d'eux : une tante Stonefield accuse le jeune Billy Maclure d'avoir volé son collier, Maman Stonefield jure la mort de la truie primée des Brackwell pour avoir mangé ses légumes. Elwynn a vu les Défias, les kobolds et les gnolls aller et venir. Jusqu'ici, la querelle leur a survécu à tous." },
+      },
+    },
+    ["stonewrought-dam"] = {
+      title = "Le barrage de Formepierre",
+      text = {
+        { "Le barrage de Formepierre retient l'extrémité nord du Loch. Son mur et sa cascade comptent parmi les grandes merveilles du Khaz Modan. Prenez le temps de les admirer, $gvoyageur:voyageuse; ; il a fallu énormément de travail pour vous offrir cette vue." },
+        { "L'ingénieur en chef Hinderweir a découvert un complot sombrefer contre le barrage. Son enquête le mène à un tonneau d'explosifs et au mélange nécessaire pour le désamorcer. Les nains gardent cet ouvrage de près, et pour cause. Des gens dépendent de la solidité de ce mur, et Hinderweir a bien plus en jeu que sa fierté d'ingénieur." },
       },
     },
     ["stormwind-city"] = {
@@ -1378,6 +1424,14 @@ ns.translate({
         { "Ce n'est pas un peuple qui pardonne. À la violence du culte, Ayessa a répondu sang pour sang, et les Sculpte-vents disent d'eux-mêmes qu'ils ne pardonnent ni n'oublient. Ils ne veulent aucune paix avec les Al'Aketh, et tiennent la magie que l'Ordre suprême pratique sur leurs sites sacrés pour un danger sur une île qui se défait déjà." },
       },
     },
+    ["thelsamar"] = {
+      title = "Thelsamar",
+      text = {
+        { "Thelsamar est le cœur du Loch Modan : un village de maisons de pierre sur la route entre Forgefer et les Paluns, avec une forge, une bonne auberge et un maître des griffons pour ceux qui sont pressés." },
+        { "C'est le genre d'endroit où tout le monde connaît tout le monde et où les nouvelles voyagent plus vite que les griffons. Demandez à l'auberge ce qui se passe dans le pays du loch et vous l'entendrez trois fois, chaque version meilleure que la précédente." },
+        { "Les montagnards d'ici sont débordés. Si vous avez le bras solide et un après-midi de libre, ils vous trouveront de quoi faire." },
+      },
+    },
     ["thrall"] = {
       title = "Thrall",
       text = {
@@ -1455,6 +1509,14 @@ ns.translate({
         { "Si vous y passez, entrez à l'auberge Calmebrise. À l'étage, les shen'dorei conservent un cristal qui raconte la rébellion de leurs ancêtres à Eldre'Thalas de leur propre point de vue. Je ne connais rien de plus ancien qui parle pour eux, et je donnerais beaucoup pour l'entendre." },
       },
     },
+    ["valley-of-kings"] = {
+      title = "La vallée des Rois",
+      text = {
+        { "Au sud-ouest du Loch Modan, deux grands rois de pierre montent la garde : Madoran Bronzebeard et Khardros Wildhammer, qui menèrent leurs clans pendant la guerre des Trois Marteaux." },
+        { "Leurs fils élevèrent ces statues après leur mort, pour les honorer et pour avertir quiconque montait cette route que les royaumes nains ne seraient pas pris. Les Sombrefer étaient au sud à l'époque, comme ils le sont aujourd'hui. Le message n'a pas changé." },
+        { "Arrêtez-vous et levez les yeux, $gvoyageur:voyageuse;. Bronzebeard et Wildhammer se tiennent ici côte à côte, comme ils l'ont rarement fait ailleurs depuis." },
+      },
+    },
     ["valley-of-trials"] = {
       title = "La vallée des Épreuves",
       text = {
@@ -1522,7 +1584,7 @@ ns.translate({
       title = "Marche de l'Ouest",
       text = {
         { "La Marche de l'Ouest était le grenier de Hurlevent : de vastes champs dorés, des moulins à vent et des fermes qui descendaient jusqu'à la mer. Les orcs la brûlèrent pendant les guerres, et les fermiers revinrent semer de nouveau. Ce que les orcs n'avaient pu achever, les Défias l'ont fait." },
-        { "La Confrérie a fait de la Marche de l'Ouest son domaine. Elle a chassé les familles de fermiers de leurs terres une ferme après l'autre, a pris Ruisselune pour en faire sa ville et les vieilles mines en dessous pour en faire sa forteresse, et l'armée du roi n'est jamais venue. « Hurlevent nous a abandonnés », vous diront les hommes de la colline des Sentinelles, et il est difficile de leur donner tort. Les champs sont secs aujourd'hui, les gnolls Rivepatte attaquent les fermes, et des golems des moissons arpentent les sillons. Les murlocs tiennent la côte, et même le phare est hanté." },
+        { "La Confrérie a fait de la Marche de l'Ouest son domaine. Elle a chassé les familles de fermiers de leurs terres une ferme après l'autre, a pris Ruisselune pour en faire sa ville et les vieilles mines en dessous pour en faire sa forteresse, et l'armée du roi n'est jamais venue. « Hurlevent nous a abandonnés », vous diront les hommes de la colline des sentinelles, et il est difficile de leur donner tort. Les champs sont secs aujourd'hui, les gnolls Rivepatte attaquent les fermes, et des golems des moissons arpentent les sillons. Les murlocs tiennent la côte, et même le phare est hanté." },
         { "Quelques fermiers têtus sont restés. Demandez à Saldean le fermier pourquoi, et il vous répondra que c'est sa terre." },
       },
     },
