@@ -300,6 +300,7 @@ ns.translate({
     { "Fossoyeuse", "Undercity" },
     { "Rochenoire", "Blackrock" },
     { "d'Âtreval", "de Hearthglen" },
+    { "Grisetête", "Greymane" },
     { "Hurlevent", "Stormwind" },
     { "Pierrêche", "Stonard" },
     { "Forgefer", "Ironforge" },
@@ -329,6 +330,13 @@ ns.translate({
         { "C'est ici, dit-on, qu'il repose. Avant le Fléau, c'était un lieu de pèlerinage. Aujourd'hui, il rassemble les morts du Monastère écarlate, et personne ne vient le pleurer. Il méritait mieux, et l'ordre qu'il a fondé aussi." },
       },
     },
+    ["ambermill"] = {
+      title = "Moulin-de-l'Ambre",
+      text = {
+        { "Moulin-de-l'Ambre est un village de l'est de la forêt des Pins argentés qui résiste encore aux Réprouvés, et il résiste grâce aux mages de Dalaran. Le Kirin Tor y a envoyé des sorciers, des protecteurs et des chariots de provisions depuis Hautebrande : beaucoup d'attention pour un village perdu." },
+        { "Les Réprouvés ont découvert pourquoi : sous Moulin-de-l'Ambre se trouve un nœud tellurique endormi, et Dalaran entend le réveiller. Dans quel but, personne au Sépulcre ne le sait, et les sorciers ne le disent pas." },
+      },
+    },
     ["ancients"] = {
       title = "Les Anciens",
       text = {
@@ -344,6 +352,13 @@ ns.translate({
         { "L'histoire qu'on me demande le plus, c'est celle des Sombrefer. La guerre des Trois Marteaux s'acheva quand le thane-sorcier Thaurissan appela Ragnaros, et le réveil du seigneur du Feu réduisit leur propre pays en cendres. Des reliques gisent encore dans les ruines de Thaurissan, dans les Steppes ardentes, et elles en savent plus sur cette histoire que je n'ai pu en lire. Qui me rapportera ce qu'elles disent aura toute ma gratitude." },
         { "Ce registre est mon œuvre, $gvoyageur:voyageuse;, avec beaucoup d'aide de la Ligue des explorateurs, qui rapporte plus de choses qu'une seule historienne n'en pourrait lire. Si une page vous a bien servi, j'en suis heureuse. Si l'une d'elles vous a fait défaut, venez me le dire." },
         { side = "Horde", aside = true, sign = "P. F.", "Je ne l'ai jamais rencontrée. Son récit du monde reste le plus équitable que j'aie lu sous une plume vivante." },
+      },
+    },
+    ["archmage-arugal"] = {
+      title = "Archimage Arugal",
+      text = {
+        { "Tandis que les défenseurs de Dalaran tombaient sous le Fléau, Arugal chercha une arme contre les morts. Le mage du Kirin Tor fit venir des worgens d'un autre monde. Ils combattirent les envahisseurs, puis se retournèrent contre les vivants qu'ils avaient été appelés à protéger." },
+        { "Arugal se retira au donjon d'Ombrecroc et en vint à considérer les worgens comme ses enfants. Bois-du-Bûcher, tout proche, subit sa malédiction : ses habitants changent à la tombée de la nuit. Ce qui avait commencé comme une tentative de sauver une cité a laissé un donjon et un village sous l'emprise de sa réponse." },
       },
     },
     ["argent-dawn"] = {
@@ -839,6 +854,13 @@ ns.translate({
         { "Itharius, un autre membre du vol, attend dans une grotte de ce marais et cherche des mortels capables d'aider à racheter Eranikus. Tandis que les gardiens corrompus hantent toujours les grands arbres, l'un des leurs demande à des inconnus de ramener un dragon chez lui." },
       },
     },
+    ["greymane-wall"] = {
+      title = "Le mur de Grisetête",
+      text = {
+        { "Le mur de Grisetête ferme le sud de la forêt des Pins argentés de la mer à la falaise, avec Gilnéas au-delà de sa porte. Après la Deuxième Guerre, le roi Genn Grisetête se querella avec les autres souverains de l'Alliance, notamment sur le coût de l'entretien des orcs vaincus dans les camps d'internement. Il retira son royaume de l'Alliance et l'enferma derrière ce mur." },
+        { "Les réfugiés venus du nord trouvent la porte close. Aucune nouvelle n'est sortie de Gilnéas pour expliquer ce qui s'y passe aujourd'hui. Vous pouvez voir le mur bien assez clairement, $gvoyageur:voyageuse; ; c'est le pays derrière lui qui reste hors de ce registre." },
+      },
+    },
     ["grimtotem"] = {
       title = "Le Totem sinistre",
       text = {
@@ -1148,6 +1170,13 @@ ns.translate({
         { "C'est la compagnie la plus bienvenue sur un chantier de fouilles, $gvoyageur:voyageuse;, et la moins appréciée jusqu'à ce que quelqu'un tombe dans un puits." },
       },
     },
+    ["pyrewood-village"] = {
+      title = "Bois-du-Bûcher",
+      text = {
+        { "Bois-du-Bûcher est un village près du mur de Grisetête, et de jour il ressemble à n'importe quel autre : des fermiers, un conseil, un bourgmestre. La nuit, ses habitants se changent en worgens. Le mage Arugal leur a infligé cela au moyen d'entraves enchantées, et les Réprouvés qui l'ont étudiée disent que c'est la malédiction la plus étrange qu'ils aient jamais vue." },
+        { "Les villageois le savent, je crois, et vivent avec de la seule façon qu'ils peuvent. C'est l'endroit le plus triste de la forêt des Pins argentés, et la forêt des Pins argentés ne manque pas de concurrents." },
+      },
+    },
     ["quilboar"] = {
       title = "Les hurans",
       text = {
@@ -1306,6 +1335,13 @@ ns.translate({
         { "Leur plus grand repaire est aujourd'hui Jaedenar, en Gangrebois, où le seigneur des ténèbres Fel'dan conclut ses pactes dans le Fort des ombres, en contrebas. Tandis que les druides peinent à purifier la forêt, les démonistes du Conseil continuent de se rassembler sous ses racines." },
       },
     },
+    ["shadowfang-keep"] = {
+      title = "Le donjon d'Ombrecroc",
+      text = {
+        { "Avant l'arrivée d'Arugal, la forteresse au-dessus de Bois-du-Bûcher appartenait au baron d'Argelaine. Les worgens du mage l'envahirent, et le fantôme du baron hante toujours ses salles. Le commandant Springvale, un paladin, compte parmi ses autres défenseurs morts-vivants." },
+        { "Arugal s'est retiré ici avec les worgens qu'il appelle ses enfants. La forteresse est désormais connue sous le nom de donjon d'Ombrecroc, une place forte que les Réprouvés veulent sur leur frontière sud. Leurs Traqueurs noirs y sont entrés en éclaireurs et ne sont pas revenus." },
+      },
+    },
     ["shadowglen"] = {
       title = "Sombrevallon",
       text = {
@@ -1351,6 +1387,13 @@ ns.translate({
         { "Les silithides occupent de vastes ruches sous le sud de Kalimdor. Leurs guêpes peuvent atteindre la taille d'un chien, leurs ravageurs celle d'un ogre, et leurs fouisseurs sont assez puissants pour effondrer des grottes. Des ruches sont apparues dans les Tarides, à Mille pointes, en Feralas, en Tanaris et à Un'Goro ; c'est en Silithus que se trouve la plus grande concentration." },
         { "Les qiraji d'Ahn'Qiraj les commandent. Il y a mille ans, leurs essaims déferlèrent vers le nord pendant la guerre des Sables changeants, jusqu'à ce que les elfes de la nuit et les dragons scellent la cité derrière le Mur du scarabée. Le Cercle cénarien croit qu'une puissance plus ancienne, sous Ahn'Qiraj, dirige à la fois les maîtres et les serviteurs." },
         { "L'agitation autour des ruches laisse aujourd'hui penser qu'elles se préparent à une grande expansion. Le Cercle surveille de près. Pour un voyageur qui étudie ces insectes, le travail consiste aussi à découvrir jusqu'où s'étendent déjà leurs tunnels et les desseins de leurs maîtres." },
+      },
+    },
+    ["silverpine-forest"] = {
+      title = "Forêt des Pins argentés",
+      text = {
+        { "La forêt des Pins argentés est une forêt de grands pins gris sur la côte au sud de Tirisfal, qui descend jusqu'au grand mur coupant Gilnéas du reste du monde. C'était une terre paisible de fermes et de villages de pêcheurs, qui faisait partie du royaume de Lordaeron. La peste l'a traversée, puis les morts, puis pire encore." },
+        { "C'est aujourd'hui une terre frontière. Les Réprouvés tiennent le nord depuis le Sépulcre, les worgens nés de la folie d'un mage chassent dans les bois, des gnolls rongés par la peste creusent dans les champs morts, et les mages de Dalaran tiennent un village à l'est. Tout le monde, dans la forêt des Pins argentés, attend quelque chose, et personne rien de bon." },
       },
     },
     ["skyborne"] = {
@@ -1525,6 +1568,13 @@ ns.translate({
         { "Les Sculpte-vents les disent imprudents et arrogants ; l'Ordre suprême y voit de l'hypocrisie. Ils ont payé leur assurance. Elaadrin envoya Belathaan Vœu-Radieux ouvrir des pourparlers avec les Al'Aketh au sanctuaire d'Akir, et Belathaan ne revint jamais ; le culte renvoya sa langue dans une boîte, trempée dans l'argent. Ensuite, Elaadrin reconnut que les Sculpte-vents avaient eu raison." },
       },
     },
+    ["the-sepulcher"] = {
+      title = "Le Sépulcre",
+      text = {
+        { "Le Sépulcre est un ensemble de cryptes et de mausolées dans la forêt des Pins argentés, tenu par les Gardes noirs et les Traqueurs noirs réprouvés. Depuis cette place forte, ils entendent sécuriser la forêt. Les ordres de la reine banshee vont plus loin : Varimathras est chargé de conquérir les terres humaines et naines du sud." },
+        { "Pour l'heure, les worgens d'Arugal, les gnolls Poil-Putride et les mages de Moulin-de-l'Ambre occupent ses forces tout près de chez elles. Les Réprouvés tiennent en particulier à défaire l'œuvre d'Arugal." },
+      },
+    },
     ["the-shalnan"] = {
       title = "Le Shal'nan",
       text = {
@@ -1568,6 +1618,13 @@ ns.translate({
         { "Il s'évada, aidé par une jeune humaine qui s'était liée d'amitié avec lui, retrouva le clan de son père dans les montagnes d'Alterac et apprit les voies du chaman. Puis, avec Grom Hellscream et le vieux chef de guerre Orgrim Doomhammer, il força les camps d'internement et libéra son peuple. Doomhammer tomba dans cette guerre et laissa à Thrall la Horde et son marteau." },
         { "Il mena la Horde par-delà la mer jusqu'à Kalimdor, combattit aux côtés des elfes de la nuit et des humains contre la Légion ardente, et bâtit Durotar. Il veut la paix avec l'Alliance, et l'a faite avec Jaina Proudmoore de Theramore. Quant à savoir si le reste de l'Alliance la veut, c'est une autre question." },
         { side = "Horde", aside = true, sign = "P. F.", "Lordaeron a fait de lui un esclave, et il a pourtant trouvé de la place dans sa Horde pour les morts de Lordaeron. Je ne suis pas sûr que j'en aurais fait autant." },
+      },
+    },
+    ["thule-ravenclaw"] = {
+      title = "Thule Ravenclaw",
+      text = {
+        { "Thule Ravenclaw était un jeune mage très prometteur avant la Troisième Guerre. Quand le roi-liche s'éleva, il trahit les siens pour servir le Fléau, et les Réprouvés, dont certains avaient étudié à ses côtés de leur vivant, ignoraient qu'il était encore en vie jusqu'à ce qu'ils trouvent son œuvre." },
+        { "Il tient l'île de Fenris, sur le lac Lordamere, au bord de la forêt des Pins argentés, et les gnolls du clan Poil-Putride sont à lui : des choses mortes, relevées et imprégnées de ses ichors immondes, qui déterrent les tombes de Tirisfal et lui apportent les corps. Ce qu'il en fait, les Réprouvés préféreraient ne pas le découvrir à leurs dépens." },
       },
     },
     ["thunder-bluff"] = {
