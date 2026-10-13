@@ -913,6 +913,13 @@ ns.translate({
         { "La paix est plus mince qu'il n'y paraît. Les kobolds ont pris les mines, les gnolls Rivepatte lancent leurs raids depuis l'ouest, et les Défias aux masques rouges ont débordé de la Marche de l'Ouest jusque dans les bois. Demandez à n'importe quel fermier d'Elwynn si les soldats du roi viennent quand on les appelle." },
       },
     },
+    ["eranikus"] = {
+      title = "Eranikus",
+      text = {
+        { "Eranikus est un dragon du vol vert d'Ysera, et le gardien du temple englouti : sa charge était de veiller à ce que les trolls ne fassent plus jamais venir leur dieu. Il a échoué, de son propre aveu, et pire lui est arrivé. Endormi au-dessus du temple, il a été pris par quelque chose de sombre dans le Rêve, qui lui tord l'esprit." },
+        { "Dans les profondeurs du temple, son ombre gît dans un état entre le sommeil et la mort, empêtrée dans les cauchemars, et ce qui lui reste de libre arbitre tend la main aux voyageurs pour qu'ils l'aident. Un autre dragon vert, Itharius, attend dans une grotte du marais, dans l'espoir de le racheter. Je souhaite bonne chance à Itharius. Le Cauchemar qui tient Eranikus est le même qui a pris les lieutenants d'Ysera aux grands arbres." },
+      },
+    },
     ["explorers-league"] = {
       title = "La Ligue des explorateurs",
       text = {
@@ -1969,6 +1976,13 @@ ns.translate({
         { "Un voyageur peut y acheter des provisions, y trouver un emploi et y croiser l'autre faction sans porter aussitôt la main à son arme. Le cartel fait payer une bonne partie de ce qu'il offre, mais une halte neutre a sa valeur dans un monde dont les routes traversent tant de guerres." },
       },
     },
+    ["stonard"] = {
+      title = "Pierrêche",
+      text = {
+        { "Pierrêche est la forteresse de la Horde dans le marais des Chagrins, un donjon de pierre trapu et un amas de huttes sur une butte au-dessus de la fange, tenu par des orcs qui surveillent les Terres foudroyées au sud et les routes de l'Alliance au nord." },
+        { "C'est un endroit sinistre, humide et loyal, et ses habitants envoient leurs guerriers dans le temple du marais et dans les terres démoniaques au-delà sans beaucoup d'illusions sur le nombre de ceux qui reviendront. Hors de ses murs, un fantôme attend des ordres qui ne sont jamais venus." },
+      },
+    },
     ["stonefields-and-maclures"] = {
       title = "Les Stonefield et les Maclure",
       text = {
@@ -2040,6 +2054,13 @@ ns.translate({
       text = {
         { "Taurens et orcs partagent la retraite de Roche-Soleil, dans les falaises du centre des Serres-Rocheuses. Ses chamans recueillent des graines pour faire repousser le pays brûlé. Ses chasseurs cherchent à venger le camp Aparaje, le village tauren presque entièrement détruit par le Totem sinistre. Il y a à la fois de la restauration et des représailles dans le travail du camp." },
         { "Un démoniste qui séjourne ici poursuit un tout autre but. Il sert un maître de Jaedenar et paie pour qu'on l'aide contre les druides du pic, qu'il accuse d'étouffer la magie. Écoutez bien qui vous propose chaque course, $gvoyageur:voyageuse;. Partager un camp ne donne pas à ses occupants les mêmes intentions." },
+      },
+    },
+    ["swamp-of-sorrows"] = {
+      title = "Marais des Chagrins",
+      text = {
+        { "Le marais des Chagrins s'étend à l'est du Bois de la Pénombre, sous un ciel toujours gris : saules et mangroves, eau noire, brume, et beaucoup de boue. Il mérite son nom. Des crocilisques guettent dans les mares, des nagas hantent la côte, et au milieu de la fange se trouve un bassin où un temple troll sombra il y a longtemps, avec des dragons endormis au-dessus." },
+        { "La Horde y a une ville, Pierrêche, et quelques âmes brisées venues d'un autre monde vivent à l'est du marais. Il n'y a pas beaucoup de raisons d'y venir. Celles qui existent sont d'ordinaire très anciennes, ou très dangereuses, et généralement les deux." },
       },
     },
     ["sylvanas-windrunner"] = {
@@ -2173,6 +2194,13 @@ ns.translate({
         { "Ce n'est pas une histoire pour enfants. L'Embaumeur est le vieil ermite Abercrombie, qui vit dans une cabane au-dessus de Colline-aux-Corbeaux, et sa promise attend toujours dans sa tombe. Son dernier présent à Sombre-Comté fut Balafré, un monstre cousu de morts, envoyé en titubant sur la route de la ville ; les Veilleurs se souviennent de la nuit où il arriva." },
       },
     },
+    ["the-fallen-hero"] = {
+      title = "Le héros déchu",
+      text = {
+        { "Hors de Pierrêche se tient le fantôme d'un héros de la Horde, qui attend des ordres. De son vivant, il mena ses guerriers dans les Terres foudroyées sans les attendre, et y trouva ce dont les ordres l'auraient averti : le démon Razelikh et ses lieutenants, qui prirent ses hommes et enfermèrent leurs esprits dans des pierres de tourment." },
+        { "Il se reproche tout cela, et racontera son histoire à quiconque s'arrête pour l'écouter. Il veut que ses hommes soient libérés, et Razelikh détruit, et il aidera tout voyageur prêt à essayer, de la Horde ou de l'Alliance. C'est la seule chose qu'il lui reste à faire." },
+      },
+    },
     ["the-forsaken"] = {
       title = "Les Réprouvés",
       text = {
@@ -2187,6 +2215,13 @@ ns.translate({
       text = {
         { "L'Ordre suprême, ce sont les shen'dorei qui restent attachés aux arcanes, et à leur ascendance chez les érudits bien-nés d'Eldre'Thalas. Quand les esprits du vent partirent, ils en tirèrent une dure leçon : leur peuple s'était si entièrement reposé sur ses protecteurs élémentaires que, sans eux, il était sans défense. L'Ordre suprême entend retrouver le savoir que leurs ancêtres ont perdu et tenir debout tout seul, et son magistère suprême, Elaadrin Trombecalme, compte sur le Kirin Tor de Dalaran pour leur montrer comment." },
         { "Les Sculpte-vents les disent imprudents et arrogants ; l'Ordre suprême y voit de l'hypocrisie. Ils ont payé leur assurance. Elaadrin envoya Belathaan Vœu-Radieux ouvrir des pourparlers avec les Al'Aketh au sanctuaire d'Akir, et Belathaan ne revint jamais ; le culte renvoya sa langue dans une boîte, trempée dans l'argent. Ensuite, Elaadrin reconnut que les Sculpte-vents avaient eu raison." },
+      },
+    },
+    ["the-lost-ones"] = {
+      title = "Les Perdus",
+      text = {
+        { "Les exilés du Havre boueux se nomment eux-mêmes draeneï. Avec leurs sabots et leurs tentacules, leur peau d'un bleu-gris, ils ne ressemblent à aucun des autres peuples qu'un voyageur rencontre d'ordinaire en Azeroth. Ils disent être venus du monde des orcs après un terrible voyage. Ceux du Havre boueux restent doux et disposés à parler." },
+        { "D'autres vivent au sanctuaire des Friches et sont appelés les Perdus. Les exilés disent que le voyage a brisé leurs anciens frères. Ils attaquent ceux qui approchent et ont volé des cristaux que les exilés tiennent pour sacrés. Ces récits locaux nous apprennent peu de chose sur leur vie d'avant ou sur ce qui s'est passé avant leur arrivée ici. Je préfère laisser cette partie de la page ouverte plutôt que de leur fournir un passé qu'ils n'ont pas décrit." },
       },
     },
     ["the-sepulcher"] = {
@@ -2215,6 +2250,13 @@ ns.translate({
       text = {
         { "La prison de Hurlevent se trouve sous ses canaux, taillée dans la roche sous la cité. Parmi les Défias qui y étaient enfermés se trouvait le lieutenant d'Edwin VanCleef, Bazil Thredd. Sous sa conduite, les détenus se soulevèrent et prirent le contrôle des cellules." },
         { "Le gardien fit appel à des aventuriers pour mater la révolte. Thredd n'était pas le seul prisonnier dangereux à l'intérieur : l'orc Targorr le Terrifiant comptait parmi les émeutiers. C'est un sentiment désagréable que d'avoir une place forte ennemie sous les rues de sa propre capitale." },
+      },
+    },
+    ["the-temple-of-atalhakkar"] = {
+      title = "Le temple d'Atal'Hakkar",
+      text = {
+        { "Quand les Gurubashi se soulevèrent contre les prêtres qui avaient fait venir Hakkar dans le monde, les Atal'ai s'enfuirent dans ce marais et bâtirent un temple à leur dieu, et continuèrent de tenter de le rappeler. Les dragons verts d'Ysera les trouvèrent. Ils firent sombrer le temple sous le marais, et Ysera chargea certains des siens de le garder, afin que Hakkar ne revienne jamais par lui." },
+        { "Les Atal'ai y sont toujours, sous l'eau, et leur prophète Jammal'an leur a promis que lorsque Hakkar reviendrait, il leur donnerait la vie éternelle. Ils y sont presque parvenus. Les dragons qui gardent le temple ne sont plus ce qu'ils étaient, et la Horde de Pierrêche comme l'Alliance veulent qu'on arrête les Atal'ai avant que l'Écorcheur d'âmes ne marche de nouveau." },
       },
     },
     ["the-third-fleet"] = {
