@@ -620,6 +620,13 @@ ns.translate({
         { "Ces derniers temps, leurs soucis comprennent les furbolgs Pin-tordu, des satyres dans les grottes et des créatures malades dans les bois. L'air paisible du village ne dit pas grand-chose de ce travail. Écoutez ce que ses gardiens vous demandent ; ils ont vu changer le pays autour d'eux." },
       },
     },
+    ["dragonmaw-clan"] = {
+      title = "Le clan Dragonmaw",
+      text = {
+        { "Les Dragonmaw montaient des dragons rouges au combat pendant la Deuxième Guerre. À Grim Batol, ils retenaient Alexstrasza captive et forçaient ses enfants à servir la Horde. Leur maîtrise du ciel reposait sur l'emprisonnement d'une mère et de ses petits." },
+        { "La libération des dragons brisa la force du clan, mais des restes des Dragonmaw tiennent encore les collines des Paluns et pillent ses routes. Ce sont des survivants de l'ancienne Horde, plutôt que des fidèles de la nouvelle." },
+      },
+    },
     ["dragons-of-nightmare"] = {
       title = "Les dragons du Cauchemar",
       text = {
@@ -657,6 +664,14 @@ ns.translate({
         { "Les druides de Malfurion n'ont jamais formé un seul ordre. Certains prirent la forme du grand ours et devinrent les druides de la Griffe ; d'autres prirent la forme du corbeau-tempête et devinrent les druides de la Serre. Les uns comme les autres respectèrent le pacte conclu avec Ysera et dormirent des siècles durant dans les refuges des saisons tandis que leur esprit parcourait le Rêve d'émeraude, et pendant la Troisième Guerre, Malfurion les réveilla pour combattre." },
         { "Certains dorment encore. Dans le refuge des saisons de Ban'ethil, sur Teldrassil, les druides de la Serre hibernent sous la garde d'un grand gardien. Les furbolgs Pin-tordu y sont entrés par effraction, et l'un d'eux, Ursal le Mutileur, a tant troublé l'appel des dormeurs qu'ils risquent de ne jamais se réveiller. Un druide de la Griffe perdu dans le même refuge a vu son propre corps se retourner contre lui." },
         { "Ils ne sont pas toujours faciles à réveiller. Kerlonian Evershade, un druide de la Griffe tout juste revenu du Rêve, somnole volontiers au bord de la route en Sombrivage, et demande qu'on le réveille avec son cor s'il s'assoupit en chemin. Dix mille ans, c'est long pour avoir été fatigué." },
+      },
+    },
+    ["dun-modr"] = {
+      title = "Dun Modr",
+      text = {
+        { "Dun Modr fut bâti pour garder l'extrémité sud du viaduc de Thandol, et pendant bien des années, il le fit. Aujourd'hui, il n'arbore plus de bannière Bronzebeard. Les Sombrefer l'ont pris, et depuis ses murs, ils frappent le viaduc et quiconque emprunte la route du nord." },
+        { "C'est une chose amère, pour n'importe quel nain de Forgefer, que de voir des salles naines tenues contre nous par des nains. Cela nous rappelle que la guerre des Trois Marteaux n'a jamais vraiment pris fin." },
+        { "Si vous passez à proximité, gardez la tête basse. Leurs fusiliers sont très bons." },
       },
     },
     ["dun-morogh"] = {
@@ -882,6 +897,14 @@ ns.translate({
         { "Les réfugiés venus du nord trouvent la porte close. Aucune nouvelle n'est sortie de Gilnéas pour expliquer ce qui s'y passe aujourd'hui. Vous pouvez voir le mur bien assez clairement, $gvoyageur:voyageuse; ; c'est le pays derrière lui qui reste hors de ce registre." },
       },
     },
+    ["grim-batol"] = {
+      title = "Grim Batol",
+      text = {
+        { "Quand les Wildhammer furent chassés de Forgefer, ils taillèrent Grim Batol dans les montagnes de l'est, et ce fut une forteresse capable de rivaliser avec Forgefer elle-même. Puis les Sombrefer marchèrent contre elle, menés par la reine Modgud, et bien que les Wildhammer aient gagné la bataille et l'aient tuée, sa mort laissa une noirceur dans la pierre. Les Wildhammer ne voulurent pas rester. Ils partirent au nord, vers les Hinterlands, et Grim Batol resta vide." },
+        { "Elle ne le resta pas. Pendant la Deuxième Guerre, les orcs du clan Dragonmaw en firent leur place forte, et y retinrent prisonnière Alexstrasza, la reine des dragons rouges, forçant ses enfants à porter des orcs au combat. Elle fut libérée à la fin, et les Dragonmaw furent dispersés." },
+        { "Les dragons rouges y sont toujours. Quoi qu'ils gardent à Grim Batol, ils le gardent farouchement. N'approchez pas, $gvoyageur:voyageuse;. Les draconiens rouges sur ses abords sont un avertissement suffisant." },
+      },
+    },
     ["grimtotem"] = {
       title = "Le Totem sinistre",
       text = {
@@ -1059,6 +1082,13 @@ ns.translate({
         { "Mekkatorque demande aux aventuriers de porter son jugement dans ces salles." },
       },
     },
+    ["menethil-harbor"] = {
+      title = "Port de Menethil",
+      text = {
+        { "Port de Menethil se dresse sur la rive ouest des Paluns, un port de l'Alliance avec des navires en partance pour Auberdine et Theramore. La route de Dun Algaz le relie à l'intérieur des terres. Une petite ville humide peut devenir un endroit important quand tant de voyages y passent." },
+        { "Le capitaine Stoutfist a besoin d'aide contre les orcs Dragonmaw qui menacent le port. Il demande que leurs catapultes soient détruites et le chef Nek'rosh vaincu. Occupez-vous de lui si vous le pouvez, $gvoyageur:voyageuse;. Il y a ici des gens qui essaient de garder un port ouvert pendant qu'un ennemi se prépare à l'assiéger." },
+      },
+    },
     ["mogrosh-ogres"] = {
       title = "Les ogres Mo'grosh",
       text = {
@@ -1104,6 +1134,13 @@ ns.translate({
         { "Le mur marque une frontière qu'aucun des deux camps ne tient pour réglée. Les orcs ont besoin de bois, et les elfes de la nuit défendent la forêt qui le fournit." },
       },
     },
+    ["mosshide-gnolls"] = {
+      title = "Les gnolls Poil-moussu",
+      text = {
+        { "Les Poil-moussu habitent le marais des Paluns qui porte leur nom. Rethiel le Gouverneur vert se souvient d'années où ils y vivaient en paix ; il voit aujourd'hui leur nombre croître, la végétation écrasée et trop de bois coupé pour leurs feux." },
+        { "Il demande aux voyageurs de tuer des gnolls près de Dun Algaz pour rétablir l'équilibre du marais. Son récit fait de cette affaire une querelle autour d'un foyer partagé devenu surpeuplé et abîmé. Les haches et les feux sont assez familiers à un nain. Ce sont des choses troublantes à retrouver dans la plainte de quelqu'un d'autre sur ce qui arrive à sa terre." },
+      },
+    },
     ["mulgore"] = {
       title = "Mulgore",
       text = {
@@ -1124,6 +1161,14 @@ ns.translate({
         { "La Fracture emporta sous la mer les Bien-nés d'Azshara avec leur capitale. Ils survécurent, changés en êtres couverts d'écailles, au bas du corps de serpent, avec des nageoires et parfois quatre bras. Ils bâtirent un royaume sous les eaux. Les vieux récits y placent toujours leur reine." },
         { "Ils remontèrent à la surface pendant la Troisième Guerre, quand dame Vashj mena des nagas au service d'Illidan. Leurs bandes tiennent désormais la grève de Zoram et le temple englouti de Brassenoire, les côtes en ruine d'Azshara et de Sombrivage, et des rivages en Feralas, en Désolace et dans le marécage d'Âprefange." },
         { "L'histoire des Bien-nés ne s'est pas arrêtée quand leurs cités ont sombré, $gvoyageur:voyageuse;. Ces mêmes Bien-nés se disputent aujourd'hui des places le long des côtes du continent, aussi changés que la terre qu'ils ont connue." },
+      },
+    },
+    ["nekrosh"] = {
+      title = "Chef Nek'rosh",
+      text = {
+        { "Nek'rosh Skullcrusher mène ce qui reste des Dragonmaw dans les Paluns, et il est bien le fils de son père : Nekros Skullcrusher était l'orc qui retenait la reine des dragons captive à Grim Batol. Quand les dragons se libérèrent, ils se vengèrent du clan. Nek'rosh entend prendre sa revanche à son tour." },
+        { "Il reconstruit la force des Dragonmaw dans les collines, et il a fait construire des catapultes pour assiéger Port de Menethil et couper la route du Loch Modan." },
+        { "Si c'est vous qui l'arrêtez, $gvoyageur:voyageuse;, la Ligue vous serait reconnaissante d'un récit de la chose. Bref, si vous y parvenez. Les récits sur les chefs orcs ont tendance à s'éterniser." },
       },
     },
     ["night-elves"] = {
@@ -1282,6 +1327,13 @@ ns.translate({
       text = {
         { "Charlga Trancheflanc règne sur le Kraal de Tranchebauge, un grand dédale de ronces et de tunnels au sud des Tarides. Les guerriers de la chamane huranne gardent le sanglier Agathelos dans ses profondeurs. Le dédale est une place forte au cœur de leur peuple." },
         { "Le journal d'Henrig Lonebrow relate sa captivité là-bas aux côtés du druide blessé Heralath. Heralath lui demanda d'avertir Falfindel Waywarder, à Thalanaar, de la puissance croissante de Charlga. Lonebrow atteignit la Grande élévation, mais son corps y gît avec le journal. Falfindel demande à d'autres d'achever leur tâche." },
+      },
+    },
+    ["red-dragonflight"] = {
+      title = "Le Vol draconique rouge",
+      text = {
+        { "On appelle Alexstrasza la Lieuse-de-vie, reine des dragons rouges et l'une des plus anciennes puissances du monde. Pendant la Deuxième Guerre, les Dragonmaw la retinrent captive à Grim Batol et forcèrent ses enfants à les servir. Le vol a depuis été libéré." },
+        { "Des draconiens rouges gardent encore les abords de Grim Batol. Ils traitent les intrus en ennemis, quelle que soit l'affaire qui, à leurs yeux, les y amène. Gardez vos distances, $gvoyageur:voyageuse;. Savoir ce qui leur est arrivé ici ne rend pas un intrus bienvenu." },
       },
     },
     ["red-rocks"] = {
@@ -1587,6 +1639,14 @@ ns.translate({
         { "L'ancien arbre avait la bénédiction des grands dragons. Le nouveau ne l'a pas, et ses propres gardiens admettent que sa croissance n'a pas été sans défaut. J'en dirai davantage ailleurs. Pour l'heure, prenez le bateau à Auberdine, passez le portail de Rut'theran, et contemplez-le : il n'y a rien de semblable au monde." },
       },
     },
+    ["thandol-span"] = {
+      title = "Le viaduc de Thandol",
+      text = {
+        { "Le viaduc de Thandol portait la route du nord, du Khaz Modan jusqu'à Arathi et aux royaumes humains au-delà. Ses deux grands ponts nains ont servi cette route pendant des générations. Un ingénieur vous demanderait peut-être d'en admirer la maçonnerie ; ceux qui dépendaient de la traversée avaient eux aussi des raisons de l'admirer." },
+        { "Les Sombrefer ont presque entièrement détruit l'un des ponts. Des soldats nains tiennent l'autre, et la route reste ouverte sous leur garde. Un bel ouvrage d'ingénierie est plus facile à louer quand c'est quelqu'un d'autre qui le maintient debout." },
+        { "Regardez le pont brisé en passant, $gvoyageur:voyageuse;. Les deux ponts furent bâtis pour faire passer les gens au-dessus de l'eau. Un seul le peut encore." },
+      },
+    },
     ["the-agamands"] = {
       title = "Les Agamand",
       text = {
@@ -1696,6 +1756,14 @@ ns.translate({
       text = {
         { "La prison de Hurlevent se trouve sous ses canaux, taillée dans la roche sous la cité. Parmi les Défias qui y étaient enfermés se trouvait le lieutenant d'Edwin VanCleef, Bazil Thredd. Sous sa conduite, les détenus se soulevèrent et prirent le contrôle des cellules." },
         { "Le gardien fit appel à des aventuriers pour mater la révolte. Thredd n'était pas le seul prisonnier dangereux à l'intérieur : l'orc Targorr le Terrifiant comptait parmi les émeutiers. C'est un sentiment désagréable que d'avoir une place forte ennemie sous les rues de sa propre capitale." },
+      },
+    },
+    ["the-third-fleet"] = {
+      title = "La Troisième flotte",
+      text = {
+        { "Les épaves sur la rive nord des Paluns étaient la Troisième flotte de Kul Tiras. Lors de son dernier voyage, elle fut surprise au large de cette côte par des dragons rouges, des dragons montés par des orcs, et brûlée et coulée sur place. Les Kultirassiens l'appellent la Flotte maudite." },
+        { "Un seul homme en réchappa : Fitzsimmons, autrefois premier officier de la Maîtresse-des-Vagues, qui boit à Port de Menethil et racontera l'histoire pour le prix d'une chope. Ses compagnons de bord ne reposent pas tous en paix. Quelque chose avait été chargé à bord de l'Intrépide, enfermé dans le coffre du capitaine, et son pouvoir fait que les équipages noyés arpentent toujours leurs ponts pourrissants. Le capitaine Halyndor arpente encore son navire avec la clé." },
+        { "Ce coffre contenait un Œil de Paleth, l'un des orbes que les prêtres humains fabriquaient pour briller de mille feux, devenu noir et maudit par ce qu'il vit cette nuit-là. Les prêtres de Menethil ne purent le purifier ; l'archevêque de Hurlevent, lui, le put. Une flotte ne meurt pas toujours d'un seul coup, $gvoyageur:voyageuse;. Il faut parfois un prêtre et un premier officier têtu pour en finir." },
       },
     },
     ["the-windshapers"] = {
@@ -1888,6 +1956,22 @@ ns.translate({
         { "La Marche de l'Ouest était le grenier de Hurlevent : de vastes champs dorés, des moulins à vent et des fermes qui descendaient jusqu'à la mer. Les orcs la brûlèrent pendant les guerres, et les fermiers revinrent semer de nouveau. Ce que les orcs n'avaient pu achever, les Défias l'ont fait." },
         { "La Confrérie a fait de la Marche de l'Ouest son domaine. Elle a chassé les familles de fermiers de leurs terres une ferme après l'autre, a pris Ruisselune pour en faire sa ville et les vieilles mines en dessous pour en faire sa forteresse, et l'armée du roi n'est jamais venue. « Hurlevent nous a abandonnés », vous diront les hommes de la colline des sentinelles, et il est difficile de leur donner tort. Les champs sont secs aujourd'hui, les gnolls Rivepatte attaquent les fermes, et des golems des moissons arpentent les sillons. Les murlocs tiennent la côte, et même le phare est hanté." },
         { "Quelques fermiers têtus sont restés. Demandez à Saldean le fermier pourquoi, et il vous répondra que c'est sa terre." },
+      },
+    },
+    ["wetlands"] = {
+      title = "Les Paluns",
+      text = {
+        { "Au nord des montagnes, le sol devient mou et l'air devient gris, et vous voilà dans les Paluns : marais, roseaux et pluie, du col de Dun Algaz jusqu'à la mer, à Port de Menethil." },
+        { "C'était autrefois un pays nain, relié aux royaumes des hommes par le viaduc de Thandol. C'est aujourd'hui un carrefour des guerres des autres. Les orcs Dragonmaw tiennent les collines, les Sombrefer ont pris notre forteresse de Dun Modr, gnolls et murlocs emplissent les marais, et à l'est, Grim Batol couve le tout." },
+        { "Restez sur la route, gardez votre poudre au sec, et ne traînez pas après la tombée de la nuit." },
+      },
+    },
+    ["whelgars-excavation-site"] = {
+      title = "Les excavations de Whelgar",
+      text = {
+        { "Un autre des chantiers de la Ligue, celui-ci dans les marais des Paluns, sous la direction du prospecteur Whelgar. Le marais garde ce qu'il avale, et la Ligue nourrissait de grands espoirs sur ce qui s'y trouvait." },
+        { "Puis les raptors sont arrivés. Ils se sont installés sur le chantier et ont traité les fouilleurs comme du gibier, et les gens de la Ligue ont été chassés sur une crête au-dessus du site, où certains attendent encore que les bêtes s'en aillent." },
+        { "Si vous passez par là, allez les voir. Ils seront très heureux de voir quelqu'un qui porte une arme." },
       },
     },
     ["whitemane-and-mograine"] = {

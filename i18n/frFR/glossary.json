@@ -1,4 +1,9 @@
 {
+ "by hand": {
+  "Dragonmaw Clan": {
+   "use": "Clan Dragonmaw"
+  }
+ },
  "factions": {
   "Al'Aketh": {
    "forever": "Al'Aketh",
@@ -127,10 +132,6 @@
   "Dragonflight": {
    "retail": "Dragonflight",
    "use": "Dragonflight"
-  },
-  "Dragonmaw Clan": {
-   "retail": "Clan Gueule-de-dragon",
-   "use": "Clan Gueule-de-dragon"
   },
   "Earthen": {
    "retail": "Terrestres",
