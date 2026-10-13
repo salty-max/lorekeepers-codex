@@ -1139,6 +1139,13 @@ ns.translate({
         { "La Ligue a appris à demander la permission d'un chaman avant de fouiller, $gvoyageur:voyageuse;. Le sol a ses opinions, et eux les entendent." },
       },
     },
+    ["shrine-of-akir"] = {
+      title = "Le sanctuaire d'Akir",
+      text = {
+        { "Le sanctuaire d'Akir, dans les hautes-terres de Shen'dar, est le lieu saint des Al'Aketh, et fut le siège de leur cheffe, la grande prêtresse Lorthuna. Pour le prendre, il fallut l'Ordre suprême, les Sculpte-vents et les gardes-paix réunis, ce qui en dit long sur la force du culte, et plus encore sur la rareté des accords entre ces trois-là. Valennia Poing-Tempête, la capitaine des gardes-paix, fut grièvement blessée dans le sanctuaire intérieur, et Lorthuna s'enfuit par un portail vers les flèches Rohashi, au-dessus." },
+        { "Ce qui s'est passé sur les flèches, les shen'dorei ne l'ont pas consigné pour nous. Lorthuna a quitté Zéphras et le culte a perdu sa tête ; mais les protections qui cachaient l'île à Al'Akir sont tombées avec elle, et le grand ancien ne prétendra pas savoir combien de temps le seigneur des Vents mettra à s'en apercevoir." },
+      },
+    },
     ["si-7"] = {
       title = "SI:7",
       text = {
@@ -1229,6 +1236,13 @@ ns.translate({
         { "Ils sont nombreux, et ils ne sont pas très doués. Les assassins de Ravenholdt, qui les combattent depuis des années, les traitent de tâcherons, et les Réprouvés ont mis chaque tête à prix. Mais un grand nombre de voleurs peut encore faire beaucoup de mal, et le Syndicat en fait." },
       },
     },
+    ["talaanis-shadowsong"] = {
+      title = "Talaanis Chantelombre",
+      text = {
+        { "Talaanis Chantelombre est le grand ancien de l'île de Zéphras, et son peuple dit du bien de lui. Un homme bon, dit-on, et très aimé, ce que la Ligue a appris à ne pas tenir pour acquis chez un dirigeant. Il gouverne depuis Valanaar avec les autres anciens de l'île, parmi lesquels Aetheen des Trombes." },
+        { "Ses années de charge n'ont pas été faciles. Les pylônes faiblissent, les deux ordres de son peuple peinent à s'entendre sur quoi que ce soit, et le culte des Al'Aketh a frappé la tour de guet de l'ouest et tué son propre neveu, un garde-paix. Quand la grande prêtresse du culte fut enfin chassée, il ne parla pas de victoire. Les protections qui avaient caché Zéphras à Al'Akir étaient tombées, et il ne put que dire qu'il faudrait peut-être des années, voire des décennies, avant que le seigneur des Vents ne pose les yeux sur eux." },
+      },
+    },
     ["tauren"] = {
       title = "Les taurens",
       text = {
@@ -1251,6 +1265,13 @@ ns.translate({
         { "Les Agamand étaient la famille la plus riche de Tirisfal, et ces moulins leur appartenaient. Quand le Fléau arriva, ils fortifièrent la maison et ordonnèrent à tous leurs gens de rester les aider à la tenir. Les ouvriers agricoles restèrent. Ils étaient loyaux, dit l'un d'eux aujourd'hui, et idiots." },
         { "Rien ne tint. La famille et ses ouvriers moururent ensemble et se relevèrent ensemble, et les Agamand hantent toujours les moulins pour le roi-liche : Gregor, le père, Nissa, sa femme, et leurs fils. Leur crypte se trouve au nord du domaine, au milieu du Fléau." },
         { "Certains de leurs ouvriers se sont libérés et sont aujourd'hui des Réprouvés. Coleman Farthing, qui travaillait à leurs moulins, renvoie des voyageurs détruire ce qui reste de la famille et dépouiller leur crypte de ses biens de famille. La vengeance, dit-il, a un goût sucré ; il espère qu'ils ont connu la peur avant la fin. C'est un espoir stupide, admet-il. Il le garde quand même." },
+      },
+    },
+    ["the-al-aketh"] = {
+      title = "Les Al'Aketh",
+      text = {
+        { "Les Al'Aketh sont un culte des shen'dorei, reconnaissables à leurs robes grises et à leurs crânes rasés, qui vénèrent Al'Akir, le seigneur des Vents, comme le souverain légitime du Mur-Céleste. Leurs prêcheurs racontent une histoire simple : les shen'dorei sont devenus orgueilleux et ont tenu pour acquise la générosité des vents, et les esprits les ont abandonnés pour cela. Sur une île qui se défait, elle trouve des oreilles." },
+        { "Ils tiennent Falaath, dans les hautes-terres de Shen'dar, et le sanctuaire d'Akir sous leur grande prêtresse, Lorthuna. Ils ont frappé les tours de guet des pylônes, sont tombés sur les druides de la Griffe-de-nuit pour s'emparer d'un pylône à eux, ont envoyé des espions dans les villages et trouvé au moins un traître à Valanaar. Une ancienne garde-paix, Belguilos, dite la Briseuse, commande leurs combattants." },
       },
     },
     ["the-ashbringer"] = {
@@ -1286,11 +1307,39 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Personne hors de Fossoyeuse ne saurait dire ce que nous voulons, écrit-elle. La plupart d'entre nous, à l'intérieur, ne le sauraient pas non plus. Moi, je veux savoir ce qu'on nous a fait, et l'écrire comme il faut." },
       },
     },
+    ["the-high-order"] = {
+      title = "L'Ordre suprême",
+      text = {
+        { "L'Ordre suprême, ce sont les shen'dorei qui restent attachés aux arcanes, et à leur ascendance chez les érudits bien-nés d'Eldre'Thalas. Quand les esprits du vent partirent, ils en tirèrent une dure leçon : leur peuple s'était si entièrement reposé sur ses protecteurs élémentaires que, sans eux, il était sans défense. L'Ordre suprême entend retrouver le savoir que leurs ancêtres ont perdu et tenir debout tout seul, et son magistère suprême, Elaadrin Trombecalme, compte sur le Kirin Tor de Dalaran pour leur montrer comment." },
+        { "Les Sculpte-vents les disent imprudents et arrogants ; l'Ordre suprême y voit de l'hypocrisie. Ils ont payé leur assurance. Elaadrin envoya Belathaan Vœu-Radieux ouvrir des pourparlers avec les Al'Aketh au sanctuaire d'Akir, et Belathaan ne revint jamais ; le culte renvoya sa langue dans une boîte, trempée dans l'argent. Ensuite, Elaadrin reconnut que les Sculpte-vents avaient eu raison." },
+      },
+    },
+    ["the-shalnan"] = {
+      title = "Le Shal'nan",
+      text = {
+        { "Les shen'dorei ne se souviennent du chef qui les fit sortir d'Eldre'Thalas que sous le nom de Shal'nan, le Voilé, à cause du masque d'or sans traits qui cachait son visage. Quand les ambitions du prince Tortheldrin prirent un tour sombre, les rebelles du Shal'nan brisèrent le réseau de foyers de cristal dont le prince dépendait, et s'enfuirent ; ce fut le Shal'nan qui fit la paix avec les esprits du vent et mena son peuple jusqu'au Mur-Céleste." },
+        { "Il les gouverna plus d'un siècle, en chef malgré lui à les en croire, puis remit son autorité à un conseil des provinces une fois les sanctuaires de l'île fondés. Un cristal conservé tout en haut du grand arbre de Thendal raconte son histoire. Il ne dit pas ce qu'il est devenu, et les shen'dorei ne l'ont pas dit non plus, jusqu'ici." },
+      },
+    },
+    ["the-silence-of-the-winds"] = {
+      title = "Le silence des vents",
+      text = {
+        { "Pendant des milliers d'années, les esprits du vent maintinrent l'île de Zéphras dans les airs et les shen'dorei sous leur protection. Il y a quelques siècles, ils partirent, et rien de ce que les shen'dorei ont tenté depuis ne les a ramenés ni n'a expliqué pourquoi. Les fées qui jouent encore au-dessus de l'île sont des échos, sans l'esprit de ceux qui leur parlaient jadis." },
+        { "Ce que les esprits ont laissé derrière eux s'use. Leurs pylônes d'ancrage tiennent l'île ensemble, et leur magie va et vient désormais ; des lignes telluriques ont commencé à percer la surface comme des cicatrices, et l'on rassemble et étudie sérieusement les pierres des vents, qui contiennent la puissance brute des vents. Chaque faction de l'île a sa réponse. Les Sculpte-vents voudraient retrouver les esprits et les ramener, l'Ordre suprême voudrait apprendre à vivre sans eux, et les Al'Aketh voudraient plutôt s'agenouiller devant le seigneur des Vents." },
+      },
+    },
     ["the-stockade"] = {
       title = "La Prison",
       text = {
         { "La prison de Hurlevent se trouve sous ses canaux, taillée dans la roche sous la cité. Parmi les Défias qui y étaient enfermés se trouvait le lieutenant d'Edwin VanCleef, Bazil Thredd. Sous sa conduite, les détenus se soulevèrent et prirent le contrôle des cellules." },
         { "Le gardien fit appel à des aventuriers pour mater la révolte. Thredd n'était pas le seul prisonnier dangereux à l'intérieur : l'orc Targorr le Terrifiant comptait parmi les émeutiers. C'est un sentiment désagréable que d'avoir une place forte ennemie sous les rues de sa propre capitale." },
+      },
+    },
+    ["the-windshapers"] = {
+      title = "Les Sculpte-vents",
+      text = {
+        { "Les Sculpte-vents sont les shen'dorei qui restent fidèles aux esprits du vent. Ils descendent des premiers de leur peuple à avoir reçu le don de vision céleste des esprits, et ils entretenaient les instruments et les constructions que les esprits avaient laissés sur l'île. Ils ont juré de rembourser cette vieille dette : braver le plan élémentaire, retrouver leurs mentors disparus et les ramener. Leur grande voyante du ciel, Ayessa Chantelaube, croit que la voie passe par en bas, en Azeroth, et les chamans du Cercle terrestre se sont tenus à leurs côtés." },
+        { "Ce n'est pas un peuple qui pardonne. À la violence du culte, Ayessa a répondu sang pour sang, et les Sculpte-vents disent d'eux-mêmes qu'ils ne pardonnent ni n'oublient. Ils ne veulent aucune paix avec les Al'Aketh, et tiennent la magie que l'Ordre suprême pratique sur leurs sites sacrés pour un danger sur une île qui se défait déjà." },
       },
     },
     ["thrall"] = {
@@ -1361,6 +1410,13 @@ ns.translate({
         { "La capitale de Lordaeron gît en ruine au-dessus de la propre cité des Réprouvés. Derrière ses murailles brisées se trouvent la salle du trône dévastée et des cours sans vie. En dessous, de vieilles cryptes et des catacombes sont devenues Fossoyeuse, disposée autour d'anneaux de bave verte. Sylvanas tient sa cour dans son quartier royal." },
         { "Marchands, maîtres et gardes occupent les autres quartiers, et la Société royale des apothicaires travaille à l'Apothicarium. Les Réprouvés ont fait une capitale qui fonctionne sous l'épave de celle qu'ils ont connue de leur vivant. Un voyageur qui ne regarderait que les ruines d'en haut manquerait l'endroit où se traitent désormais les affaires qui restent au royaume." },
         { side = "Horde", aside = true, sign = "P. F.", "Elle a raison pour l'Apothicarium, jusqu'à un certain point. Vous m'y trouverez, sur le plus au sud de ses deux ponts, où je pose des questions aux héros qui croient que la force suffit. Venez vous faire examiner, $gvoyageur:voyageuse;." },
+      },
+    },
+    ["valanaar"] = {
+      title = "Valanaar",
+      text = {
+        { "Valanaar est la capitale de l'île de Zéphras, sur sa bordure sud-est, et le siège de son grand ancien. Les fend-ciel accostent à ses quais : de petits navires volants qui reliaient autrefois les îles des shen'dorei et qui, pour la première fois, descendent vers Azeroth, à Dalaran pour l'Ordre suprême et en Mulgore pour les Sculpte-vents." },
+        { "Si vous y passez, entrez à l'auberge Calmebrise. À l'étage, les shen'dorei conservent un cristal qui raconte la rébellion de leurs ancêtres à Eldre'Thalas de leur propre point de vue. Je ne connais rien de plus ancien qui parle pour eux, et je donnerais beaucoup pour l'entendre." },
       },
     },
     ["valley-of-trials"] = {
@@ -1456,6 +1512,14 @@ ns.translate({
         { "Arugal fit venir des worgens d'un autre monde alors que les défenseurs de Dalaran tombaient sous le Fléau. Les hommes-loups attaquèrent les morts, puis se retournèrent contre les vivants. Le mage se retira au donjon d'Ombrecroc, les appela ses enfants et maudit Bois-du-Bûcher, dont les habitants sont humains le jour et worgens la nuit." },
         { "Le Bois de la Pénombre offre une autre piste. Les Veilleurs signalent leur apparition soudaine dans une mine au sud de Sombre-Comté. Des récits pointent vers la Faux d'Elune, une ancienne relique elfique apportée dans la forêt par quelqu'un qui ne comprenait pas son pouvoir." },
         { "Ces créatures sont fortes, rusées, et capables de courir à quatre pattes malgré leur posture droite. Gardez les deux pistes distinctes, $gvoyageur:voyageuse;. Savoir qui les a amenées dans une forêt n'a pas expliqué leur apparition dans l'autre." },
+      },
+    },
+    ["zephras-isle"] = {
+      title = "Île de Zéphras",
+      text = {
+        { "L'île de Zéphras est une île qui vole. Elle flotte dans le Mur-Céleste, le plan élémentaire de l'air, où les esprits du vent emportèrent jadis les shen'dorei, et c'est le foyer des éolides qui sont récemment descendus jusqu'à nous. Son peuple vit à Valanaar, sur la bordure sud-est, dans les villages des hautes-terres de Shen'dar et à Thendal, et dans les fermes des Plaines Aérelles." },
+        { "Les esprits qui liaient l'île l'ont quittée il y a quelques siècles. Leurs grands pylônes d'ancrage maintiennent encore Zéphras dans les airs, mais leur magie devient instable, et une nuit, Ban'aethal a commencé à tomber dans le ciel et a dû être évacuée avant le matin. Aucun fend-ciel n'a rejoint les autres îles, Anvilas et Siroccas, depuis un certain temps, et certains shen'dorei craignent d'être tout ce qui reste de leur peuple." },
+        { "Je n'y ai jamais mis les pieds, $gvoyageur:voyageuse;, et je vous envie un peu. Tenez-vous loin des bords." },
       },
     },
   },
