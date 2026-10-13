@@ -345,6 +345,13 @@ ns.translate({
         { "Elle partage un ennemi avec la Croisade écarlate, mais guère d'affection pour ses méthodes. L'Aube tient la méfiance de la Croisade envers chaque étranger pour une aide au roi-liche. L'objection a son bon sens : ce combat a déjà bien assez d'ennemis." },
       },
     },
+    ["auberdine"] = {
+      title = "Auberdine",
+      text = {
+        { "Auberdine est le port des elfes de la nuit en Sombrivage, un village de maisons gracieuses sur le rivage, avec des navires pour Teldrassil et pour Port de Menethil, de l'autre côté de la mer. Pour la plupart des voyageurs venus des royaumes de l'Est, c'est la première ville elfe de la nuit qu'ils voient de leur vie." },
+        { "Les Sentinelles qui la gardent ont fort à faire, et elles sont heureuses qu'on les aide. La Ligue y a aussi un ami ; demandez des nouvelles du prospecteur Remtravel, et préparez-vous à une longue histoire." },
+      },
+    },
     ["black-dragonflight"] = {
       title = "Le Vol draconique noir",
       text = {
@@ -499,6 +506,13 @@ ns.translate({
         { "Le troisième des trois marteaux, et celui qui n'a jamais pardonné. Depuis que les Sombrefer ont perdu leur guerre contre Forgefer, et réveillé Ragnaros dans leur fureur, ils vivent dans le mont Rochenoire sous leur empereur, Dagran Thaurissan, au service du seigneur du Feu qu'ils ont invoqué." },
         { "Ils n'y sont pas restés. Leurs esclaves creusent le Chaudron dans la gorge des Vents brûlants, leurs fouilleurs d'Ombreforge pillent les ruines d'Uldaman et tiennent la forteresse d'Angor dans les Terres ingrates, leurs espions rôdent en Dun Morogh et leurs pillards harcèlent le Loch Modan. Dans les Paluns, ils ont fait un vrai mal : ils ont pris la forteresse de Dun Modr et brisé le viaduc de Thandol, le grand pont vers le nord." },
         { "Un Sombrefer se bat avec le feu, la poudre noire et une rancune vieille de deux siècles. Ne lui tournez jamais le dos." },
+      },
+    },
+    ["darkshore"] = {
+      title = "Sombrivage",
+      text = {
+        { "Sombrivage est une longue bande de côte brumeuse au bord nord de Kalimdor, une sombre forêt de pins d'un côté et une mer grise de l'autre, avec Teldrassil qui se dresse hors des eaux à l'ouest. Les elfes de la nuit vivent ici depuis avant la Fracture, et la côte est pleine de leurs ruines : les tours et les salles des Bien-nés, l'ancienne noblesse de la cour de la reine Azshara, dont les fantômes les hantent encore." },
+        { "La côte est troublée ces derniers temps. De grandes créatures marines viennent s'échouer et mourir sur les plages, les furbolgs Noirbois sont devenus sauvages, des nagas rôdent sur les rivages, et le Marteau du crépuscule a installé son camp dans le sud. Les elfes de la nuit d'Auberdine sont inquiets, et le disent, ce qui, pour des elfes de la nuit, n'est pas rien." },
       },
     },
     ["darkspear-trolls"] = {
@@ -838,6 +852,13 @@ ns.translate({
         { "Leurs morts sont faciles à trouver : ils gémissent dans les ruines de Sombrivage, errent dans Azshara sous forme d'apparitions et de jeunes liches, souffrent au bord du lac gelé de Kel'Theril, au Berceau-de-l'Hiver. Dix mille ans, c'est long pour regretter, $gvoyageur:voyageuse;. L'un d'eux au moins, au bord du lac, semble le regretter sincèrement." },
       },
     },
+    ["highborne-ruins"] = {
+      title = "Les ruines des Bien-nés",
+      text = {
+        { "Il y a dix mille ans, les Bien-nés, les nobles sorciers de la reine Azshara, habitaient des tours le long de cette côte, dont Ameth'Aran et Bashal'Aran, et y pratiquaient librement leurs magies. La guerre autour du Puits d'éternité les détruisit. Des tablettes d'Ameth'Aran racontent encore l'histoire de sa chute, pour qui sait lire les vieilles runes et ne se laisse pas effrayer par les esprits." },
+        { "Les morts ne sont pas partis. Les fantômes des Bien-nés hantent les deux ruines, et à Ameth'Aran se trouve l'esprit d'une femme nommée Anaya Dawnrunner, dont l'amant, Cerellean Whiteclaw, lui a survécu dix mille ans et rêve encore d'elle à Auberdine. À Bashal'Aran, un autre esprit, Asterion, est retenu prisonnier derrière un sceau posé par l'un des plus puissants des siens, et les satyres et les fées qui se nourrissent de la magie des ruines n'approchent pas de son sanctuaire." },
+      },
+    },
     ["hogger"] = {
       title = "Lardeur",
       text = {
@@ -935,6 +956,13 @@ ns.translate({
         { "Sa fille lui cause un souci plus pressant. La princesse Moira se trouve dans la cité sombrefer sous le mont Rochenoire, mariée à l'empereur Dagran Thaurissan. Forgefer parle d'enlèvement, et Magni promet une récompense digne d'un héros à qui la ramènera. Si vous acceptez cette charge, $gvoyageur:voyageuse;, vous portez les espoirs d'un père autant que les ordres d'un roi." },
       },
     },
+    ["masters-glaive"] = {
+      title = "Le Glaive du Maître",
+      text = {
+        { "Au sud de Sombrivage, une lame immense se dresse, plantée dans la terre, trop grande pour toute main qui parcourt aujourd'hui le monde, et les elfes de la nuit appellent l'endroit le Glaive du Maître. Onu, l'Ancien du savoir, dit qu'il marque l'endroit où tomba l'un des anciens seigneurs de la terre, il y a très, très longtemps." },
+        { "C'est pour cela que le Marteau du crépuscule est venu. Le culte vénère ces anciens seigneurs, et ses membres se sont rassemblés au Glaive et dans les grottes alentour avec des livres de noms qui ne devraient pas être prononcés." },
+      },
+    },
     ["mekgineer-thermaplugg"] = {
       title = "Mekgénieur Thermaplugg",
       text = {
@@ -1009,6 +1037,13 @@ ns.translate({
         { "Les ogres sont venus dans ce monde avec la Horde, de la même terre rouge que les orcs, et ont combattu pendant la Deuxième Guerre comme ses poings les plus lourds. Le démoniste Gul'dan les améliora, à sa façon : il se servit de l'Autel des tempêtes pour donner à des ogres les pouvoirs des ogres-mages, et les leurs règnent encore sur bien des clans." },
         { "Après la défaite de la Horde, des clans d'ogres s'installèrent dans les contrées sauvages, et y sont restés : les Mo'grosh au Loch Modan, les Brisepoing au Bois de la Pénombre, les Cassecrête en Alterac, les Rochepoing dans les Hautes-terres Arathies, les Crache-poussières dans les Terres ingrates, les Mosh'Ogg dans la vallée de Strangleronce et les Cognepeur à la Porte des Ténèbres ; de l'autre côté de la mer, les Gordunni en Feralas et les Cognedune en Tanaris. Les Gordok se sont installés comme chez eux dans les ruines d'une cité elfique de Feralas, et couronnent quiconque tue leur roi." },
         { "Tous les clans n'ont pas oublié la vieille alliance. Les Cognepierre du marécage d'Âprefange combattent aux côtés de la Horde à Mur-de-Fougères, et les orcs disent du bien d'eux. Les autres préféreraient vous manger que de vous parler." },
+      },
+    },
+    ["onu"] = {
+      title = "Onu",
+      text = {
+        { "Onu, un Ancien du savoir, se dresse au Bosquet des Anciens, au sud de Sombrivage. Il demande aux voyageurs d'enquêter sur le Glaive du Maître, où le Marteau du crépuscule fouille parmi les restes d'une puissance déchue. Onu croit que quelque chose de sa force peut encore s'y trouver, longtemps après sa mort." },
+        { "Il fournit une fiole qui crée une coupe de divination, lui permettant de parler à la personne qui mène l'enquête. Emportez-la, $gvoyageur:voyageuse;. Un Ancien n'a pas besoin de marcher jusqu'au Glaive pour s'intéresser à ce que le culte y découvre." },
       },
     },
     ["orcs"] = {
@@ -1095,6 +1130,13 @@ ns.translate({
         { "Le roi Varian Wrynn a disparu. C'était le fils du roi Llane, assassiné pendant la Première Guerre, et il a grandi parmi les réfugiés de Hurlevent, en Lordaeron. Son sort reste inconnu dans la cité même sur laquelle il régnait." },
         { "Son jeune fils Anduin porte la couronne. Le généralissime Bolvar Fordragon tient le royaume pour lui, commande ses forces et veille sur l'enfant. La conseillère royale, dame Katrana Prestor, se tient aux côtés de Bolvar." },
         { "L'armée de Hurlevent est dispersée, et les demandes arrivent de toutes parts." },
+      },
+    },
+    ["remtravels-excavation"] = {
+      title = "Les excavations de Remtravel",
+      text = {
+        { "Quand des golems envahirent les excavations de Remtravel, au sud de Sombrivage, son assistante s'enfuit à Auberdine chercher de l'aide. Le célèbre prospecteur, lui, resta au travail. L'admiration de Hollee pour ses découvertes survit aux côtés d'un souhait désespéré : qu'il remarque de temps en temps ce qui se passe autour de lui." },
+        { "Son mystérieux fossile a éveillé l'intérêt du chef archéologue Greywhisker, et une ressemblance avec une autre trouvaille mène l'enquête jusqu'à Flagongut, à Port de Menethil. Remtravel a trouvé quelque chose qui mérite qu'on s'y intéresse. Le garder en vie assez longtemps pour qu'il finisse de s'y intéresser est devenu une expédition à part entière." },
       },
     },
     ["rockjaw-troggs"] = {
@@ -1477,6 +1519,13 @@ ns.translate({
       text = {
         { "Tirisfal était le cœur du royaume de Lordaeron : des terres agricoles vallonnées, des vergers et des moulins autour de la capitale, la contrée la plus riche du nord. C'est aussi une vieille terre à d'autres égards ; les clairières ont donné leur nom à l'ordre secret des mages, les Gardiens de Tirisfal, qui veillèrent sur le monde pendant des siècles." },
         { "C'est aujourd'hui une terre grise. La peste a pris Lordaeron, les morts ont marché, et la capitale est tombée. Les fermes sont vides, ou pire, les arbres sont sans feuilles et la lumière est toujours pâle. Les Réprouvés la gouvernent depuis les profondeurs de la cité en ruine, la Croisade écarlate depuis son monastère du nord, et le Fléau erre toujours dans les champs entre les deux." },
+      },
+    },
+    ["tower-of-althalaxx"] = {
+      title = "La tour d'Althalaxx",
+      text = {
+        { "Balthule Shadowstrike surveille la tour en ruine d'Althalaxx, au nord-est d'Auberdine. Il reste à son poste plutôt que de risquer de manquer un indice. L'agitation autour de la tour mène à la Rive noire, un culte d'elfes de la nuit qui pratiquent la magie des démonistes. Leur peuple a toutes les raisons de se souvenir de ce que de tels arts peuvent apporter." },
+        { "L'enquête descend au sud jusqu'en Ashenvale, vers un démoniste orc au sanctuaire de Scarfeu. Delgren le Purificateur, de l'Aube d'argent, y reprend la traque." },
       },
     },
     ["twilights-hammer"] = {
