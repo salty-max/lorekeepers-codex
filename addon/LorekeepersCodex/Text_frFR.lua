@@ -304,6 +304,13 @@ ns.translate({
     { "Âtreval", "Hearthglen" },
   },
   pages = {
+    ["agamaggan"] = {
+      title = "Agamaggan",
+      text = {
+        { "Pendant la guerre des Anciens, il y a dix mille ans, les demi-dieux du monde sauvage se levèrent contre la Légion ardente, et parmi eux se trouvait Agamaggan, un grand sanglier. Il tomba. Là où son sang imprégna la terre des Tarides poussèrent des épines colossales, et des pierres rouge sang se formèrent dans le sol ; les hurans vivent parmi les épines, se disent ses enfants, et portent les pierres comme totems." },
+        { "Les chamans des hurans puisent encore dans son pouvoir, et un prisonnier du camp Taurajo partagera ses bénédictions contre le bon prix. Les grands dédales d'épines du sud, Tranchebauge, sont sa tombe, et les hurans les tiennent pour sacrés." },
+      },
+    },
     ["algaz"] = {
       title = "Algaz",
       text = {
@@ -350,6 +357,21 @@ ns.translate({
       text = {
         { "Auberdine est le port des elfes de la nuit en Sombrivage, un village de maisons gracieuses sur le rivage, avec des navires pour Teldrassil et pour Port de Menethil, de l'autre côté de la mer. Pour la plupart des voyageurs venus des royaumes de l'Est, c'est la première ville elfe de la nuit qu'ils voient de leur vie." },
         { "Les Sentinelles qui la gardent ont fort à faire, et elles sont heureuses qu'on les aide. La Ligue y a aussi un ami ; demandez des nouvelles du prospecteur Remtravel, et préparez-vous à une longue histoire." },
+      },
+    },
+    ["bael-modan"] = {
+      title = "Bael Modan",
+      text = {
+        { "Les nains du général Twinbraid ont bâti Bael Modan à côté de leur chantier de fouilles, au sud-est des Tarides, avec un canon et des machines volantes pour soutenir l'établissement. Le prospecteur Khazgorm, de la Ligue des explorateurs, travaille parmi eux. Un site ancien, un camp défendu et l'un des propres prospecteurs de la Ligue : les débuts d'une expédition bien connue." },
+        { "Gann Stonespire décrit ce qui l'a précédée. C'était le foyer de sa tribu, dit-il, avant que les explosions et les machines ne déchirent les collines et n'en chassent ses habitants. La diplomatie l'a déçu ; il veut désormais la mort de Khazgorm et la destruction de la machine volante des nains." },
+        { "Au sein de l'expédition, Feegly a été frappé par la malédiction d'une pierre déterrée. Le chantier a apporté des ennuis à ceux qui creusent comme à ceux qu'il a chassés. J'aimerais pouvoir être fière de chaque endroit où apparaît le nom de la Ligue. Bael Modan me rend la chose difficile." },
+      },
+    },
+    ["barrens-oases"] = {
+      title = "Les oasis",
+      text = {
+        { "Les oasis des Tarides sont sa vie : des mares d'eau douce dans l'herbe sèche, où bêtes et voyageurs viennent boire. Ces derniers temps, elles sont devenues étranges. Les animaux des environs se déforment, les plantes poussent trop vite et de travers, et les druides de Thunder Bluff ont senti une puissance s'infiltrer dans la terre et ont envoyé l'un des leurs la trouver." },
+        { "Il trouva des fissures au fond des mares, qui plongeaient dans la terre. Les oasis sont alimentées par en dessous, par les cavernes sous les Tarides, et ce qui ne va pas dans ces cavernes remonte avec l'eau." },
       },
     },
     ["black-dragonflight"] = {
@@ -443,6 +465,13 @@ ns.translate({
       text = {
         { "Le camp Narache se trouve sur la mesa de Nuage rouge, au sud de Mulgore, un cercle de tentes de peau et de totems autour d'un feu, et c'est là que les jeunes taurens commencent. Le chef Hawkwind et sa famille tiennent le camp, et ils imposent aux jeunes le premier des rites de la Terre-Mère : le rite de la Force, à prouver contre les hurans qui se sont glissés dans le ravin en contrebas." },
         { "C'est d'abord un camp de chasse. Les taurens chassent par besoin et par plaisir, et on attend d'un jeune tauren qu'il rapporte plumes et viande avant que quiconque lui demande ce qu'il sait faire d'autre." },
+      },
+    },
+    ["camp-taurajo"] = {
+      title = "Le camp Taurajo",
+      text = {
+        { "Le camp Taurajo est un camp tauren au sud des Tarides, des tentes et des totems autour d'un feu, le dernier endroit ami sur la route de Mille pointes. Ses habitants chassent dans les plaines du sud et surveillent les hurans des épines de Tranchebauge." },
+        { "Il a un drôle d'invité : un huran du nom de Mangletooth, prisonnier des taurens, qui connaît les bénédictions du dieu sanglier Agamaggan et les enseignera à quiconque lui apporte les bonnes pierres. Les taurens le tolèrent. Il est, m'a-t-on dit, très grossier." },
       },
     },
     ["cenarion-circle"] = {
@@ -589,6 +618,13 @@ ns.translate({
         { "Ils s'éveillent aujourd'hui, et ce ne sont plus seulement des elfes de la nuit : les taurens ont leurs propres druides, et les uns comme les autres répondent au Cercle cénarien, à Reflet-de-Lune. Un druide prend les formes du monde sauvage, entre autres l'ours, le félin et le phoque, soigne par la magie verte du Rêve et fait tomber la lune et les étoiles sur ses ennemis." },
         { client = "forever", "Des druides éolides exercent désormais des deux côtés de la querelle entre l'Alliance et la Horde." },
         { "Malfurion lui-même est parti dans le Rêve et n'en est pas revenu. Malgré tout le travail du Cercle dans le monde éveillé, son plus grand maître reste hors de portée d'un messager ordinaire." },
+      },
+    },
+    ["druids-of-the-fang"] = {
+      title = "Les druides du Croc",
+      text = {
+        { "Les druides du Croc étaient les disciples de Naralex, un ordre de nobles druides qui descendirent dans les cavernes des Lamentations pour guérir les Tarides. Le cauchemar qui prit leur maître les prit aussi. Ils veulent désormais refaire la terre selon leurs propres rêves tordus, et ont pris la forme et le nom de serpents." },
+        { "Ils ont quatre chefs, le seigneur Cobrahn, dame Anacondra, le seigneur Pythas et le seigneur Serpentis, et chacun porte une gemme du rêve. Les druides de Thunder Bluff disent que leurs visages les hantent. Ils aimeraient qu'on leur rapporte les gemmes." },
       },
     },
     ["druids-of-the-talon"] = {
@@ -986,6 +1022,13 @@ ns.translate({
         { "C'est un endroit triste à traverser, et pas un endroit sûr. La Confrérie surveille la route, et quiconque regarde trop longtemps une certaine grange en bordure de la ville a toutes les chances de découvrir pourquoi." },
       },
     },
+    ["morshan-rampart"] = {
+      title = "Le rempart de Mor'shan",
+      text = {
+        { "Mor'shan se dresse à la lisière nord des Tarides, là où la prairie cède la place à Ashenvale. La Horde garde la route qui traverse le rempart vers les exploitations forestières des Warsong et leur conflit avec les Sentinelles." },
+        { "Le mur marque une frontière qu'aucun des deux camps ne tient pour réglée. Les orcs ont besoin de bois, et les elfes de la nuit défendent la forêt qui le fournit." },
+      },
+    },
     ["mulgore"] = {
       title = "Mulgore",
       text = {
@@ -1029,6 +1072,13 @@ ns.translate({
       text = {
         { "L'abbaye de Comté-du-Nord se dresse dans une vallée à la lisière nord d'Elwynn. Ses clercs servirent Hurlevent pendant la Première Guerre, avant que le royaume ne tombe aux mains de la Horde. Après la Deuxième Guerre, Alonsus Faol aida à rebâtir la cité et à refonder la Confrérie de Comté-du-Nord." },
         { "L'abbaye instruit désormais les recrues du royaume aux armes comme à la foi. Les deux ont leur utilité tout près : des kobolds occupent la mine, des loups rôdent dans la vallée, et des voleurs défias ont pris les vignes." },
+      },
+    },
+    ["northwatch-hold"] = {
+      title = "Le Fort de Guet-du-Nord",
+      text = {
+        { "Des soldats de Theramore tiennent le Fort de Guet-du-Nord, au-dessus de la Côte des marchands, au sud de Ratchet. Le capitaine Thalo'thas Brightsun accuse ses artilleurs de couler des navires de sa flotte. Il demande à des aventuriers de faire taire les canons et de tuer le capitaine Fairmount." },
+        { "Jaina Proudmoore a fait la paix avec Thrall, et pourtant les combats continuent autour du fort. Un voyageur qui longe cette côte comprend pourquoi, pour décrire cette paix, il faut consigner à la fois l'accord d'une souveraine et la conduite d'un soldat." },
       },
     },
     ["ogres"] = {
@@ -1110,11 +1160,32 @@ ns.translate({
         { "Le peuple de Thrall a envoyé les jeunes de la Horde nettoyer les lieux. Je vois peu de meilleures leçons sur ce sur quoi une capitale est bâtie." },
       },
     },
+    ["ratchet"] = {
+      title = "Ratchet",
+      text = {
+        { "Ratchet est un port gobelin sur la côte des Tarides, l'une des villes neutres du cartel Gentepression, où vont et viennent les navires de Baie-du-Butin et où personne ne tire la lame contre personne sans le regretter. Son maître est Gazlowe, ce même ingénieur gobelin qui aida Thrall à bâtir Orgrimmar, et il la dirige comme une affaire." },
+        { "Ses ennuis viennent surtout de la mer : les Flibustiers des Mers du sud attaquent ses navires depuis la Côte des marchands, et les artilleurs de l'Alliance du Fort de Guet-du-Nord, plus au sud, en ont coulé quelques-uns par erreur, à ce qu'ils disent." },
+      },
+    },
     ["razor-hill"] = {
       title = "Tranchecolline",
       text = {
         { "Tranchecolline est une ville de garnison sur la route de la vallée des Épreuves à Orgrimmar : une caserne, une auberge, une tour de guet et une palissade de bois taillé en pointe sur une colline au-dessus de la mer. Son commandant, Gar'Thok, la tient pour le chef de guerre et passe le plus clair de ses journées à repousser tout ce qui remonte des canyons ou arrive de la côte." },
         { "Juste au sud se trouve le donjon de Tiragarde, où les hommes de Kul Tiras s'accrochent encore au rivage de Durotar, et l'épave de la flotte de leur amiral pourrit au large de la plage. Les grunts de Tranchecolline gardent un œil attentif sur les deux." },
+      },
+    },
+    ["razorfen-downs"] = {
+      title = "Les Souilles de Tranchebauge",
+      text = {
+        { "Au sud du Kraal s'étend un autre des dédales d'épines d'Agamaggan, les Souilles de Tranchebauge, et il s'y est passé quelque chose de terrible. Les hurans de la Tête de Mort qui les tiennent ont passé un marché avec le Fléau. Une liche, Amnennar le Porte-froid, règne désormais sur les Souilles, le Fléau entretient un ambassadeur parmi les hurans, et les morts marchent parmi les épines de la tombe du dieu sanglier." },
+        { "Comment les serviteurs du roi-liche sont parvenus si loin en Kalimdor, personne ne sait me le dire. Qu'ils y soient, et qu'ils y bâtissent, suffit à inquiéter chaque peuple des Tarides." },
+      },
+    },
+    ["razorfen-kraul"] = {
+      title = "Le Kraal de Tranchebauge",
+      text = {
+        { "Charlga Trancheflanc règne sur le Kraal de Tranchebauge, un grand dédale de ronces et de tunnels au sud des Tarides. Les guerriers de la chamane huranne gardent le sanglier Agathelos dans ses profondeurs. Le dédale est une place forte au cœur de leur peuple." },
+        { "Le journal d'Henrig Lonebrow relate sa captivité là-bas aux côtés du druide blessé Heralath. Heralath lui demanda d'avertir Falfindel Waywarder, à Thalanaar, de la puissance croissante de Charlga. Lonebrow atteignit la Grande élévation, mais son corps y gît avec le journal. Falfindel demande à d'autres d'achever leur tâche." },
       },
     },
     ["red-rocks"] = {
@@ -1399,11 +1470,25 @@ ns.translate({
         { "Fairbanks s'échappa de Stratholme après deux jours parmi les morts et raconta l'histoire à quiconque voulait l'entendre au Monastère. On l'assassina pour cela et on le cacha dans sa cathédrale. Mais certains l'avaient entendu, dit-il, et c'est ainsi que naquit l'Aube d'argent. Renault dirige aujourd'hui le Monastère, en tant que commandant écarlate." },
       },
     },
+    ["the-barrens"] = {
+      title = "Les Tarides",
+      text = {
+        { "Les Tarides sont la grande savane au cœur de Kalimdor : une mer d'herbe jaune et d'arbres épineux sous un ciel immense, avec des troupeaux de zhévras et de kodos, des lions et des raptors, et quelques précieuses oasis où tout ce qui vit ici vient boire. C'est chaud, sec et immense, et cela appartient, autant qu'on puisse le dire, à quiconque tient le prochain point d'eau." },
+        { "Cela fait beaucoup de monde. La Horde tient la Croisée en son cœur et les routes alentour ; les gobelins tiennent Ratchet sur la côte ; l'Alliance tient Guet-du-Nord à l'est et un chantier nain au sud. Les centaures lancent leurs raids depuis les collines, les hurans tiennent les dédales d'épines du sud, les harpies nichent dans les ravines, et la Lame ardente et la KapitalRisk ont leurs camps. Un voyageur des Tarides apprend à boire quand il le peut et à dormir d'un œil." },
+      },
+    },
     ["the-bulwark"] = {
       title = "La Barricade",
       text = {
         { "La Barricade est le mur que les Réprouvés ont élevé à la lisière est de Tirisfal, là où finissent les clairières et où commencent les Maleterres, et ils le tiennent jour et nuit contre le Fléau. Des Gardes noirs en tiennent la porte, et des officiers de l'Aube d'argent y ont aussi un poste, ce qui en dit long sur la crainte que leur inspire à tous ce qui se trouve au-delà." },
         { "On trouve des choses plus étranges à la Barricade. Alexi Barov, le dernier d'une maison noble de Lordaeron qui vendit son château au Culte des damnés, y tient compagnie aux Réprouvés, et a sur la fortune de sa famille des opinions qu'il partage volontiers." },
+      },
+    },
+    ["the-crossroads"] = {
+      title = "La Croisée",
+      text = {
+        { "Les grandes routes des Tarides se rejoignent à la Croisée : au nord vers Orgrimmar, à l'ouest vers Mulgore, à l'est vers Ratchet et au sud vers Mille pointes. La Horde y tient une palissade, une auberge et un perchoir de coursiers du vent, avec une garnison au service du trafic entre les trois." },
+        { "L'activité des centaures et les vols de provisions donnent à cette garnison du travail au-delà de ses murs. Sergra Darkthorn propose aussi des épreuves de chasse." },
       },
     },
     ["the-crusades-fallen"] = {
@@ -1594,6 +1679,13 @@ ns.translate({
       text = {
         { "Vol'jin dirige les Darkspear et c'est un chasseur des ombres, l'un de leurs prêtres-guerriers qui marchent avec les loas. Son père Sen'jin mourut pendant les combats sur les îles où la flotte de Thrall rencontra la tribu pour la première fois. Vol'jin a maintenu l'engagement de son père envers la Horde." },
         { "Il reste près de Thrall à Orgrimmar tandis que son peuple tient le village de Sen'jin et se tourne vers la reconquête des îles de l'Écho. Un voyageur qui cherche le chef des Darkspear le trouvera donc dans la capitale, avec le foyer perdu de la tribu toujours parmi ses soucis." },
+      },
+    },
+    ["wailing-caverns"] = {
+      title = "Les cavernes des Lamentations",
+      text = {
+        { "Dans les cavernes sous les Tarides, où des rivières traversent un dédale de roche, la vapeur a le son d'une plainte de deuil. Naralex vit dans leurs eaux un moyen de guérir le pays aride au-dessus. En les reliant au Rêve d'émeraude, il espérait faire reverdir les Tarides." },
+        { "Il descendit avec ses disciples et s'endormit. Le rêve devint cauchemar. Naralex ne s'est pas réveillé, les créatures des cavernes ont changé, et la plupart de ses fidèles sont tombés avec lui. Un disciple cherche encore de l'aide pour rejoindre son maître et accomplir un rituel d'éveil." },
       },
     },
     ["war-of-the-three-hammers"] = {
