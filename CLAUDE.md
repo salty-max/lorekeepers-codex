@@ -2,7 +2,7 @@
 
 A World of Warcraft addon (Lua 5.1; Classic Era, TBC Anniversary and Forever,
 a TOC each): a codex of original lore texts that unlock per character as they
-play. Sister project of Yonder, in ~/code/wow-addons/field-journal (same tooling and
+play. Sister project of Yonder, in ~/code/wow-addons/yonder (same tooling and
 conventions).
 
 ## Layout
