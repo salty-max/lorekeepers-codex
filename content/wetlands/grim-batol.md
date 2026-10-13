@@ -4,6 +4,7 @@ title: Grim Batol
 kind: history
 unlock:
   - area: Grim Batol
+  - read: The Battle of Grim Batol
 also: [war-of-the-three-hammers, red-dragonflight, dragonmaw-clan]
 ---
 When the Wildhammers were driven from Ironforge, they carved Grim Batol out of the eastern mountains, and it was a fortress to rival Ironforge itself. Then the Dark Irons came against it, led by Queen Modgud, and though the Wildhammers won the battle and slew her, her death left a darkness in the stone. The Wildhammers would not stay. They went north to the Hinterlands, and Grim Batol stood empty.

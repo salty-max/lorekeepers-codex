@@ -4,6 +4,7 @@ title: The War of the Three Hammers
 kind: history
 unlock:
   - area: Anvilmar # named for the last High King
+  - read: War of the Three Hammers
 also: [magni-bronzebeard, kharanos]
 ---
 Some two and a half centuries ago, Ironforge belonged to three clans at once. The Bronzebeards, the Wildhammers and the Dark Irons lived under a single High King, Modimus Anvilmar, and when he died they could not agree on who should follow him.

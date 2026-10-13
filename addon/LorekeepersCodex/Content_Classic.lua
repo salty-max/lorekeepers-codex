@@ -349,7 +349,7 @@ ns.content = {
     },
     ["thoradins-wall"] = {
       title = "Thoradin's Wall", kind = "history", chapter = "arathi",
-      unlock = { { area = 1857 } },
+      unlock = { { area = 1857 }, { read = { "Arathor and the Troll Wars", "아라소르와 트롤 전쟁", "Arathor et les Guerres trolls", "Arathor und die Trollkriege", "阿拉索与巨魔战争", "Arathor y las guerras de los trols", "Аратор и Тролльские Войны", "Arathor e a Guerra dos Trolls", "阿拉索與食人妖戰爭" } } },
       also = { "arathi-highlands", "stromgarde-keep", "forest-trolls" },
       text = {
         { "Thoradin was the chieftain of the Arathi tribe, long ago, who conquered or persuaded the scattered human tribes of the north into a single nation, the empire of Arathor, and built its capital at Strom. When the trolls of the Amani empire made war on the elves of Quel'Thalas, it was Thoradin who led men to fight beside them, and the human mages the elves trained in that war were the beginning of all human magic." },
@@ -1314,7 +1314,7 @@ ns.content = {
     },
     ["war-of-the-three-hammers"] = {
       title = "The War of the Three Hammers", kind = "history", chapter = "dun-morogh",
-      unlock = { { area = 77 } },
+      unlock = { { area = 77 }, { read = { "War of the Three Hammers", "세 망치단의 전쟁", "La guerre des trois clans", "Krieg der drei Hämmer", "三锤之战", "La guerra de los Tres Martillos", "Война Трех Кланов", "A Guerra dos Três Martelos", "三錘之戰" } } },
       also = { "magni-bronzebeard", "kharanos" },
       text = {
         { "Some two and a half centuries ago, Ironforge belonged to three clans at once. The Bronzebeards, the Wildhammers and the Dark Irons lived under a single High King, Modimus Anvilmar, and when he died they could not agree on who should follow him." },
@@ -3682,7 +3682,7 @@ ns.content = {
     },
     ["the-forsaken"] = {
       title = "The Forsaken", kind = "faction", chapter = "tirisfal", portrait = 2858,
-      unlock = { { people = "Scourge" }, { area = 154 }, { area = 159 }, { npc = 10181 } },
+      unlock = { { people = "Scourge" }, { area = 154 }, { area = 159 }, { npc = 10181 }, { read = { "Civil War in the Plaguelands", "오염지대의 내란", "Guerre civile dans les Maleterres", "Bürgerkrieg in den Pestländern", "瘟疫之地的内战", "Guerra civil en las Tierras de la Peste", "Гражданская война в Чумных землях", "Guerra Civil nas Terras Pestilentas", "瘟疫之地的內戰" } } },
       also = { "sylvanas-windrunner", "undercity", "scourge", "deathknell" },
       text = {
         { "When the Lich King's grip on his dead faltered, some of them woke. They were still dead, but their minds were their own again, and they remembered what they had been and what had been done to them. They call themselves the Forsaken, and they follow the one who freed them: Sylvanas Windrunner, the Banshee Queen." },
@@ -3967,7 +3967,7 @@ ns.content = {
     },
     ["grim-batol"] = {
       title = "Grim Batol", kind = "history", chapter = "wetlands",
-      unlock = { { area = 1037 } },
+      unlock = { { area = 1037 }, { read = { "The Battle of Grim Batol", "그림 바톨의 전투", "La bataille de Grim Batol", "Die Schlacht von Grim Batol", "格瑞姆巴托之战", "La batalla de Grim Batol", "Битва при Грим Батол", "A Batalha de Grim Batol", "格瑞姆巴托之戰" } } },
       also = { "war-of-the-three-hammers", "red-dragonflight", "dragonmaw-clan" },
       text = {
         { "When the Wildhammers were driven from Ironforge, they carved Grim Batol out of the eastern mountains, and it was a fortress to rival Ironforge itself. Then the Dark Irons came against it, led by Queen Modgud, and though the Wildhammers won the battle and slew her, her death left a darkness in the stone. The Wildhammers would not stay. They went north to the Hinterlands, and Grim Batol stood empty." },
