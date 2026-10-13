@@ -1,5 +1,8 @@
 {
  "by hand": {
+  "Brann Bronzebeard": {
+   "use": "Brann Bronzebeard"
+  },
   "Dragonmaw Clan": {
    "use": "Clan Dragonmaw"
   }
@@ -52,10 +55,6 @@
    "forever": "Baie-du-Butin",
    "retail": "Baie-du-Butin",
    "use": "Baie-du-Butin"
-  },
-  "Brann Bronzebeard": {
-   "retail": "Brann Barbe-de-Bronze",
-   "use": "Brann Barbe-de-Bronze"
   },
   "Breaker": {
    "retail": "Briseur",

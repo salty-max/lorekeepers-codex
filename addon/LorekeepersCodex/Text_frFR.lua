@@ -425,6 +425,14 @@ ns.translate({
         { "Un père y cherche de l'aide pour la fièvre et les cauchemars de sa fille. Les remèdes ordinaires n'y ont rien fait. Les herboristes parlent d'une maladie de la forêt elle-même, tandis que les Sentinelles accusent la corruption laissée par les démons de la guerre. Un voyageur venu aider à défendre Astranaar découvrira peut-être que les ennuis de la ville commencent bien à l'intérieur de ses abords gardés." },
       },
     },
+    ["atiesh"] = {
+      title = "Atiesh",
+      text = {
+        { "Atiesh était le bâton des Gardiens de Tirisfal, celui de Medivh pour finir, et après sa mort il fut brisé et dispersé. Ses éclats furent rassemblés dans la nécropole de Naxxramas, où Kel'Thuzad siégeait sur son trône en tenant ce que le porteur cherchait. Sa base partit dans Ahn'Qiraj avec l'explorateur nain Brann Bronzebeard, qui en ressortit sans elle." },
+        { "Un bâton qui avait porté le pouvoir d'un Gardien avait aussi porté celui de Sargeras, comme son dernier Gardien, et le mal était toujours en lui. Anachronos, du vol de bronze, près des Grottes du temps, envoie quiconque lui apporte les morceaux à Stratholme, sur la terre consacrée où furent assassinés les plus grands chevaliers de Lordaeron, pour faire sortir la chose qui s'y trouve et la détruire." },
+        { "Très peu le tiendront jamais. Le dragon de bronze dit que celui qui y parvient y a toujours été destiné. Le vol de bronze dit beaucoup ce genre de choses." },
+      },
+    },
     ["auberdine"] = {
       title = "Auberdine",
       text = {
@@ -595,6 +603,13 @@ ns.translate({
       text = {
         { "Le camp Taurajo est un camp tauren au sud des Tarides, des tentes et des totems autour d'un feu, le dernier endroit ami sur la route de Mille pointes. Ses habitants chassent dans les plaines du sud et surveillent les hurans des épines de Tranchebauge." },
         { "Il a un drôle d'invité : un huran du nom de Mangletooth, prisonnier des taurens, qui connaît les bénédictions du dieu sanglier Agamaggan et les enseignera à quiconque lui apporte les bonnes pierres. Les taurens le tolèrent. Il est, m'a-t-on dit, très grossier." },
+      },
+    },
+    ["caverns-of-time"] = {
+      title = "Les Grottes du temps",
+      text = {
+        { "À l'est de Tanaris, parmi les rochers au-dessus de la mer, une grotte descend vers les Grottes du temps, le repaire du vol draconique de bronze. Leur maître est Nozdormu, l'Intemporel, l'Aspect draconique qui veille sur le temps, et ses dragons en gardent les chemins afin que ce qui fut ne puisse être défait." },
+        { "Aucun voyageur ne va bien loin à l'intérieur. Mais à l'entrée des grottes, on a vu attendre un dragon de bronze sous forme mortelle, Anachronos, et il en sait long sur la guerre contre les insectes de Silithus il y a mille ans, et sur le rôle qu'y joua son vol." },
       },
     },
     ["cenarion-circle"] = {
@@ -1030,6 +1045,13 @@ ns.translate({
         { "Une tribu après l'autre a subi la corruption : les Pin-tordu de Teldrassil, les Noirbois de Sombrivage, les Mort-bois de Gangrebois et les Tombe-hiver du Berceau-de-l'Hiver, entre autres. La folie a fait de voisins des ennemis. En Gangrebois, la terre empoisonnée donne aux elfes de la nuit bien des raisons d'accuser la souillure de la Légion." },
         { client = "classic", "Les Grumegueules ont résisté à ce sort. Ils gardent les tunnels qui relient Gangrebois, Reflet-de-Lune et le Berceau-de-l'Hiver, ainsi qu'un autre repaire fermé en Azshara. Aider contre leurs parents corrompus peut lentement valoir à un voyageur leur confiance." },
         { client = "forever", "Les Grumegueules gardent toujours les tunnels qui relient Gangrebois, Reflet-de-Lune et le Berceau-de-l'Hiver, et l'on peut gagner leur confiance en les aidant contre leurs parents corrompus. Le repaire des Noiregueules, en Azshara, appartient à une tribu distincte, qui a succombé à la corruption." },
+      },
+    },
+    ["gadgetzan"] = {
+      title = "Gadgetzan",
+      text = {
+        { "Gadgetzan est une ville gobeline au nord du désert de Tanaris, dirigée pour le cartel Gentepression par Marin Noggenfogger. Elle a des murs, des puits, un hôtel des ventes, une auberge, beaucoup d'ingénieurs et une garde de cogneurs à gages, qui maintiennent la paix avec un grand enthousiasme. L'Alliance et la Horde y commercent toutes deux, et toutes deux s'y tiennent bien, sinon gare." },
+        { "La ville vit de son eau. Ses ingénieurs creusent les puits et devinent où creuser les suivants, et tous les autres paient. C'est aussi l'endroit où acheter presque n'importe quoi, d'un élixir gobelin qui risque de vous changer en squelette aux œufs d'oiseaux étranges, et où entendre parler de presque tout ce qui se passe dans le sud." },
       },
     },
     ["gates-of-ironforge"] = {
@@ -1833,6 +1855,13 @@ ns.translate({
         { "Les nains sont partis. Les insectes, non. Les chasseurs de la Horde qui ont survécu tiennent désormais les silithides pour un danger bien plus grand que n'importe quelle équipe de fouilleurs, et, après avoir lu les rapports, moi aussi. Ce que les nains cherchaient, personne ne me l'a dit. Je ne suis pas sûre qu'ils l'aient trouvé." },
       },
     },
+    ["sandfury-trolls"] = {
+      title = "Les trolls Sandfury",
+      text = {
+        { "Les Sandfury sont les trolls du désert de Tanaris, grands, minces et durs comme le sable sur lequel ils vivent. Leur capitale est Zul'Farrak, à l'ouest du désert, et ils défendent ce qui reste de leurs terres contre tout le monde : l'Alliance, la Horde, les gobelins, les ogres, les bandits, et surtout les insectes du sud." },
+        { "C'est un vieux peuple avec de vieilles guerres derrière lui. Leur martyr Theka mourut en combattant les guerriers insectes venus contre sa cité, et les Sandfury disent que ses meurtriers furent maudits et condamnés à vivre sous forme de scarabées à son sanctuaire. Ils vénèrent la grande hydre Gahz'rilla dans son bassin sacré, et relèvent leurs propres morts pour qu'ils continuent à travailler quand ils tombent." },
+      },
+    },
     ["satyrs"] = {
       title = "Les satyres",
       text = {
@@ -2173,6 +2202,13 @@ ns.translate({
         { "Ses années de charge n'ont pas été faciles. Les pylônes faiblissent, les deux ordres de son peuple peinent à s'entendre sur quoi que ce soit, et le culte des Al'Aketh a frappé la tour de guet de l'ouest et tué son propre neveu, un garde-paix. Quand la grande prêtresse du culte fut enfin chassée, il ne parla pas de victoire. Les protections qui avaient caché Zéphras à Al'Akir étaient tombées, et il ne put que dire qu'il faudrait peut-être des années, voire des décennies, avant que le seigneur des Vents ne pose les yeux sur eux." },
       },
     },
+    ["tanaris"] = {
+      title = "Tanaris",
+      text = {
+        { "Tanaris est le grand désert du sud de Kalimdor, un océan de dunes et de roches brisées entre Mille pointes et la mer. L'eau y vaut plus que l'or, et les gobelins qui tiennent sa seule ville le savent." },
+        { "C'est un désert bien peuplé pour un lieu si vide. Les trolls Sandfury tiennent leur cité à l'ouest, les bandits Bat-le-désert parcourent les dunes, des pirates tiennent la côte sud, des ogres le sud, et dans le Gouffre béant, les silithides s'agitent. Et tout au sud, derrière des portes scellées, se trouve l'un des ouvrages des titans eux-mêmes, dans lequel la Ligue des explorateurs donnerait sa barbe pour entrer." },
+      },
+    },
     ["tarren-mill"] = {
       title = "Moulin-de-Tarren",
       text = {
@@ -2486,6 +2522,13 @@ ns.translate({
         { "Les troggs occupent désormais les salles extérieures, et les Sombrefer Ombreforge cherchent les secrets de l'intérieur. La Ligue se bat contre les deux. Au-delà d'Archaedas, le dernier gardien de la chambre forte, se trouvent les disques de Norgannon et leur récit de l'œuvre des Titans. La Ligue a de bonnes raisons de continuer à creuser, même après avoir appris ce que ses fouilles peuvent libérer d'autre." },
       },
     },
+    ["uldum"] = {
+      title = "Uldum",
+      text = {
+        { "Les portes scellées d'Uldum se dressent dans la vallée des Guetteurs, loin au sud de Tanaris. Approchez-en les disques de platine d'Uldaman et le gardien des pierres de Norgannon s'éveille. Il garde l'entrée et exige les plaques d'Uldum avant d'admettre qui que ce soit." },
+        { "Le gardien décrit un centre de recherche des Titans consacré à la vie de ce monde. Il ne nous dit pas où se trouvent les plaques requises. La Ligue a un nom, un but et une porte fermée sur lesquels enquêter, $gvoyageur:voyageuse;. Nous aimerions beaucoup y ajouter un moyen de passer." },
+      },
+    },
     ["undercity"] = {
       title = "Fossoyeuse",
       text = {
@@ -2683,6 +2726,13 @@ ns.translate({
         { "L'île de Zéphras est une île qui vole. Elle flotte dans le Mur-Céleste, le plan élémentaire de l'air, où les esprits du vent emportèrent jadis les shen'dorei, et c'est le foyer des éolides qui sont récemment descendus jusqu'à nous. Son peuple vit à Valanaar, sur la bordure sud-est, dans les villages des hautes-terres de Shen'dar et à Thendal, et dans les fermes des Plaines Aérelles." },
         { "Les esprits qui liaient l'île l'ont quittée il y a quelques siècles. Leurs grands pylônes d'ancrage maintiennent encore Zéphras dans les airs, mais leur magie devient instable, et une nuit, Ban'aethal a commencé à tomber dans le ciel et a dû être évacuée avant le matin. Aucun fend-ciel n'a rejoint les autres îles, Anvilas et Siroccas, depuis un certain temps, et certains shen'dorei craignent d'être tout ce qui reste de leur peuple." },
         { "Je n'y ai jamais mis les pieds, $gvoyageur:voyageuse;, et je vous envie un peu. Tenez-vous loin des bords." },
+      },
+    },
+    ["zulfarrak"] = {
+      title = "Zul'Farrak",
+      text = {
+        { "Zul'Farrak est la cité des trolls Sandfury, une cité fortifiée de grès à l'ouest de Tanaris, avec des pyramides, des sanctuaires et un bassin sacré d'où l'on appelle l'hydre Gahz'rilla des profondeurs. Le chef Ukorz Scalpessable la gouverne, et le sanctuaire du martyr Theka se dresse dans ses murs." },
+        { "Beaucoup viennent ici pour ce que les trolls gardent : les tablettes de la prophétie de Mosh'aru, qui parlent d'un moyen de contenir l'essence du dieu Hakkar ; une lame légendaire ; l'agent de trempe des trolls, que les forgerons prisent ; et des trésors, qui attirent gobelins et imbéciles en nombre égal. La plupart n'en repartent jamais." },
       },
     },
     ["zulgurub"] = {
