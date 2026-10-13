@@ -434,6 +434,15 @@ ns.translate({
         { "Elle partage un ennemi avec la Croisade écarlate, mais guère d'affection pour ses méthodes. L'Aube tient la méfiance de la Croisade envers chaque étranger pour une aide au roi-liche. L'objection a son bon sens : ce combat a déjà bien assez d'ennemis." },
       },
     },
+    ["arthas-menethil"] = {
+      title = "Arthas Menethil",
+      text = {
+        { "Arthas Menethil était le fils unique du roi Terenas de Lordaeron, un paladin de la Main d'argent formé par Uther lui-même et, en des jours plus heureux, proche de la jeune sorcière Jaina Proudmoore. Quand la peste arriva, il partit la combattre." },
+        { "Il la suivit jusqu'ici, devant le Fléau, et trouva le grain déjà mangé. Plutôt que de laisser la cité se relever contre lui, il passa ses habitants au fil de l'épée ; Uther et Jaina refusèrent de le suivre. Le seigneur de l'effroi Mal'Ganis, qui l'attendait, se retira au nord, et Arthas le poursuivit jusqu'au Norfendre, brûla ses propres navires pour que ses hommes ne puissent faire demi-tour, et prit la lame runique Deuillegivre. Avec elle, il tua Mal'Ganis, et perdit son âme." },
+        { "Il revint chevalier de la mort, tua son père dans sa propre salle du trône, et mena le Fléau à travers le royaume qu'il devait gouverner ; à Andorhal, il tua Uther. Puis il partit au nord vers le Trône de glace et, dit le livre de notre bibliothèque, devint lui-même le roi-liche. Stratholme se souvient de lui mieux que tout autre lieu. Ses rues sont encore pleines des gens qu'il était parti sauver." },
+        { side = "Horde", aside = true, sign = "P. F.", "Les histoires de Lordaeron lui réservaient un chapitre : l'héritier, le paladin, le roi à venir. Aucune ne se trompait sur ses dons." },
+      },
+    },
     ["ashenvale"] = {
       title = "Ashenvale",
       text = {
@@ -486,6 +495,20 @@ ns.translate({
         { "Les nains du général Twinbraid ont bâti Bael Modan à côté de leur chantier de fouilles, au sud-est des Tarides, avec un canon et des machines volantes pour soutenir l'établissement. Le prospecteur Khazgorm, de la Ligue des explorateurs, travaille parmi eux. Un site ancien, un camp défendu et l'un des propres prospecteurs de la Ligue : les débuts d'une expédition bien connue." },
         { "Gann Stonespire décrit ce qui l'a précédée. C'était le foyer de sa tribu, dit-il, avant que les explosions et les machines ne déchirent les collines et n'en chassent ses habitants. La diplomatie l'a déçu ; il veut désormais la mort de Khazgorm et la destruction de la machine volante des nains." },
         { "Au sein de l'expédition, Feegly a été frappé par la malédiction d'une pierre déterrée. Le chantier a apporté des ennuis à ceux qui creusent comme à ceux qu'il a chassés. J'aimerais pouvoir être fière de chaque endroit où apparaît le nom de la Ligue. Bael Modan me rend la chose difficile." },
+      },
+    },
+    ["balnazzar"] = {
+      title = "Balnazzar",
+      text = {
+        { "Balnazzar était l'un des seigneurs de l'effroi laissés en Lordaeron pour surveiller le Fléau pour la Légion ardente. Après la défaite de la Légion, ils contestèrent le règne d'Arthas. Arthas échappa à leur rébellion et partit pour le Norfendre ; Sylvanas leur prit plus tard leur royaume. Sur son ordre, Varimathras sembla tuer son frère Balnazzar." },
+        { "On crut à sa mort, mais le démon survécut. Il prit l'identité du grand croisé Dathrohan et gouverna le bastion écarlate de Stratholme. Vaincre le croisé apparent révèle ce qui se tient sous le déguisement. C'est une découverte affreuse pour un ordre voué à détruire le mal même qui lui donne ses ordres." },
+      },
+    },
+    ["baron-rivendare"] = {
+      title = "Baron Rivendare",
+      text = {
+        { "Le baron Rivendare gouverne la moitié de Stratholme tenue par le Fléau depuis son abattoir, chevalier de la mort monté sur un cheval mort. L'Aube d'argent l'appelle le garçon de courses de Kel'Thuzad. Le duc Nicholas Zverenhoff, à la chapelle de l'Espoir de Lumière, demande sa tête." },
+        { "Rivendare retient aussi prisonnière la croisée de l'Aube d'argent Ysida Harmon. Son mari cherche à la faire délivrer. Gardez-la à l'esprit, $gvoyageur:voyageuse;, si la prime du duc vous amène dans la cité. Quelqu'un là-bas a encore besoin d'en sortir vivant." },
       },
     },
     ["barrens-oases"] = {
@@ -809,6 +832,14 @@ ns.translate({
         { "Les elfes de la nuit ont rejoint l'Alliance et ouvert cette cité à des visiteurs de peuples qu'ils ont longtemps tenus à l'écart. Tyrande Whisperwind dirige les prêtresses depuis le Temple, tandis que Fandral Staghelm guide les druides depuis l'Enclave cénarienne. Retenez ces deux lieux, $gvoyageur:voyageuse;. Une bonne partie des affaires de la cité commence dans l'un ou dans l'autre." },
       },
     },
+    ["darrowshire"] = {
+      title = "Comté-de-Darrow",
+      text = {
+        { "Comté-de-Darrow était un village au sud des Terres de l'Est. Quand le Fléau arriva, ses habitants tinrent bon et se battirent, avec à leur tête le paladin Davil Lightfire, de la Main d'argent, et Joseph Redpath, contre le seigneur goule Horgus et le chevalier de la mort Marduk Noirétang. Un temps, ils tinrent. À la fin, Marduk se libéra et corrompit l'esprit de Redpath, le retournant contre les défenseurs, et le village mourut." },
+        { "La bataille continue à Comté-de-Darrow, parmi les fantômes. Une petite fille, Pamela Redpath, erre dans les ruines en attendant que son père rentre. Avec les reliques de la bataille, dit-on, on peut lever les esprits de Comté-de-Darrow pour qu'ils la livrent à nouveau, et cette fois, l'âme de Joseph Redpath pourrait être sauvée." },
+        { side = "Horde", aside = true, sign = "P. F.", "Chaque village des Terres de l'Est avait son Joseph Redpath. Comté-de-Darrow est celui dont les morts peuvent encore finir l'histoire autrement. Aidez-les, si vous le pouvez." },
+      },
+    },
     ["deathknell"] = {
       title = "Le Glas",
       text = {
@@ -1006,6 +1037,13 @@ ns.translate({
         { "Le Cercle terrestre est un cercle de chamans voué à l'étude et à la préservation des éléments. Ils ont oublié plus de choses sur les étranges anciens dieux, les vieilles légendes et le savoir d'autrefois que la plupart des érudits n'en apprendront jamais, dit un éclaireur de la Horde en Ashenvale, et quand surgit des éléments quelque chose que personne ne sait expliquer, c'est à eux qu'on l'apporte." },
         { "Ils se tiennent en marge des choses : un chaman à l'avant-poste de Zoram'gar, sur la côte d'Ashenvale, étudie ce que la mer rejette de Brassenoire ; un autre à l'Espoir de Lumière, là où les morts se pressent le plus. On a dit leurs intentions pures, même parmi ceux qui doutent de leurs fréquentations ; le Cercle a jadis tendu la main aux Réprouvés, et certains à Thunder Bluff se demandent aujourd'hui si c'était bien sage." },
         { "Une société savante qui répond aux éléments plutôt qu'à un roi. La Ligue reconnaît le genre, et l'envie un peu." },
+      },
+    },
+    ["eastern-plaguelands"] = {
+      title = "Maleterres de l'est",
+      text = {
+        { "Les Terres de l'Est abritaient autrefois les villages de l'est de Lordaeron, ses abbayes et la cité de Stratholme. La peste les a changées en Maleterres de l'est. Ses arbres sont morts ou mourants, de grands champignons s'élèvent parmi eux, et une eau infecte coule à travers un pays que le Fléau contrôle en grande partie." },
+        { "La chapelle de l'Espoir de Lumière abrite l'Aube d'argent à l'est ; la Croisade écarlate garde la Main de Tyr au sud-est. Tirion Fordring vit en exil au bord de la Thondroril, et Nathanos le Flétrisseur occupe son ancienne ferme, à la ferme des Marris. Ces habitants épars ont des desseins bien différents." },
       },
     },
     ["echo-isles"] = {
@@ -1495,6 +1533,15 @@ ns.translate({
         { "Tout le monde ne la lui fait pas. Quand le magistrat Solomon de Comté-du-Lac supplia le trône d'envoyer des soldats contre les orcs Blackrock, ce fut le conseil de dame Prestor qui les retint chez eux, et il est au moins un maréchal de Hurlevent qui ne le lui a jamais pardonné. Je ne consigne que ce que l'on sait. Une érudite qui en écrit davantage sur une dame de la cour a intérêt à être très sûre d'elle." },
       },
     },
+    ["kelthuzad"] = {
+      title = "Kel'Thuzad",
+      text = {
+        { "Kel'Thuzad était un archimage de Dalaran et un membre de son conseil dirigeant, qui partit en quête d'un pouvoir interdit. Antonidas le découvrit le premier, dans ses entrepôts du nord : des rats morts qu'il essayait de faire bouger. Le Kirin Tor le fit juger et confisqua ses travaux, et Kel'Thuzad, avec dans la tête une voix amicale qui l'avait aidé depuis le début, les quitta et partit au nord trouver son propriétaire." },
+        { "Au Norfendre, un seigneur des cryptes, Anub'arak, lui fit visiter une ziggourat appelée Naxxramas : des laboratoires, des armureries, et des chaudrons où bouillait un fluide qui changeait les mourants en morts. Il fut écœuré par ce spectacle et tenta de fuir, et les spectres du roi-liche l'en empêchèrent. Au pied du Trône de glace, il rampa, supplia, et se voua à son maître. Le roi-liche lui répondit par une vision de Naxxramas s'élevant dans les airs, une forteresse d'où Kel'Thuzad répandrait le pouvoir de son maître." },
+        { "Il revint fonder le Culte des damnés parmi les pauvres de Lordaeron, et avec eux, il répandit la peste par le grain d'Andorhal. Le prince Arthas l'y tua. Son corps fut porté en Quel'thalas, jusqu'au Puits de soleil, et relevé par sa puissance sous la forme d'une liche." },
+        { "Il mena le Fléau dans Dalaran pour invoquer Archimonde lui-même, et il se tint aux côtés d'Arthas quand les seigneurs de l'effroi se retournèrent contre lui. Quand Arthas partit au nord vers le Trône de glace, Kel'Thuzad resta pour gouverner les Maleterres en son nom, et il les gouverne toujours, depuis Naxxramas. Même détruite, une liche n'en a pas fini tant que dure son phylactère." },
+      },
+    },
     ["khans-of-desolace"] = {
       title = "Les khans de Désolace",
       text = {
@@ -1553,6 +1600,13 @@ ns.translate({
         { "Tous les gnomes n'ont pas fui Gnomeregan. Certains ont survécu aux radiations et en ont été changés, le corps ravagé et l'esprit devenu étrange et violent. Les nains les appellent gnomes lépreux, et les exilés n'aiment pas du tout parler d'eux." },
         { "Ils hantent les abords de l'ancienne cité et les dépôts alentour, récupérant ce qu'ils peuvent et attaquant quiconque s'approche trop." },
         { "Si vous devez les combattre, $gvoyageur:voyageuse;, souvenez-vous qu'ils furent un jour les voisins de quelqu'un." },
+      },
+    },
+    ["lights-hope-chapel"] = {
+      title = "La chapelle de l'Espoir de Lumière",
+      text = {
+        { "L'Espoir de Lumière est une petite chapelle de pierre sur une terre consacrée, à l'est des Maleterres. Le seigneur Maxwell Tyrosus y dirige l'Aube d'argent. Quiconque combat le Fléau peut y trouver bon accueil, qu'il vienne de l'Alliance ou de la Horde." },
+        { "Quand Naxxramas apparut au-dessus du pays, même la Croisade écarlate vint y rencontrer l'Aube d'argent pour convenir d'un combat commun. Le phylactère capturé de Kel'Thuzad fut plus tard apporté à la chapelle. Un voyageur qui longe ses murs voit un bâtiment bien modeste pour un lieu où tant d'ennemis ont eu des raisons de se rencontrer." },
       },
     },
     ["linken"] = {
@@ -1740,6 +1794,21 @@ ns.translate({
         { "La Fracture emporta sous la mer les Bien-nés d'Azshara avec leur capitale. Ils survécurent, changés en êtres couverts d'écailles, au bas du corps de serpent, avec des nageoires et parfois quatre bras. Ils bâtirent un royaume sous les eaux. Les vieux récits y placent toujours leur reine." },
         { "Ils remontèrent à la surface pendant la Troisième Guerre, quand dame Vashj mena des nagas au service d'Illidan. Leurs bandes tiennent désormais la grève de Zoram et le temple englouti de Brassenoire, les côtes en ruine d'Azshara et de Sombrivage, et des rivages en Feralas, en Désolace et dans le marécage d'Âprefange." },
         { "L'histoire des Bien-nés ne s'est pas arrêtée quand leurs cités ont sombré, $gvoyageur:voyageuse;. Ces mêmes Bien-nés se disputent aujourd'hui des places le long des côtes du continent, aussi changés que la terre qu'ils ont connue." },
+      },
+    },
+    ["nathanos-blightcaller"] = {
+      title = "Nathanos le Flétrisseur",
+      text = {
+        { "Nathanos Marris était un seigneur forestier de Lordaeron, respecté de tous, et le seul humain jamais autorisé à s'entraîner avec les hauts-elfes de Quel'thalas. Il mourut dans les Maleterres. Il y marche encore, sous le nom de Nathanos le Flétrisseur, champion de la reine banshee, avec ses chiens chancreux, dans sa propre ancienne ferme, à la ferme des Marris." },
+        { "Il confie aux chasseurs de la Horde leurs tâches les plus dures, contre les bêtes des Maleterres, les hauts-elfes du gîte de Quel'Lithien et la Croisade écarlate, et les traite tous d'imbéciles. Le SI:7 envoya cinq agents découvrir ce qu'il était devenu ; un seul revint, et mourut. Le mot qu'il rapporta était « Flétrisseur ». Quand l'Alliance apprit la vérité, le généralissime Bolvar Fordragon demanda la tête du Flétrisseur." },
+        { side = "Horde", aside = true, sign = "P. F.", "Il traite tout le monde d'imbécile. En tant qu'historien, je suis tenu de consigner qu'il n'a pas toujours tort." },
+      },
+    },
+    ["naxxramas"] = {
+      title = "Naxxramas",
+      text = {
+        { "Naxxramas flotte au-dessus des Maleterres, une citadelle volante du Fléau et le siège de Kel'Thuzad. D'elle sont venues les forces d'une grande invasion des cités d'Azeroth, ce qui a poussé l'Aube d'argent à appeler tous ceux qui voulaient bien s'opposer aux morts." },
+        { "Cinq ans après la dernière guerre, le roi-liche s'agite de nouveau et Kel'Thuzad rassemble des armées pour une autre attaque. Abominations, araignées et porte-peste occupent la nécropole, avec quatre cavaliers qui furent autrefois des champions de la Lumière. Levez les yeux en traversant les Maleterres, $gvoyageur:voyageuse;. Leur commandant possède une forteresse qui n'a pas besoin de tenir la route en dessous." },
       },
     },
     ["nekrosh"] = {
@@ -2436,6 +2505,15 @@ ns.translate({
         { "Tout le monde vient ici pour quelque chose. Les chasseurs pour les trophées, les gobelins pour l'or et le bois, les pirates pour le butin, et les soldats de l'Alliance comme de la Horde pour combattre les trolls, les ogres et les uns les autres. La jungle les avale presque tous, tôt ou tard." },
       },
     },
+    ["stratholme"] = {
+      title = "Stratholme",
+      text = {
+        { "Stratholme était la deuxième cité de Lordaeron, son joyau du nord. Quand la peste y arriva dans des chariots de grain, le prince Arthas vint avec Uther et Jaina et trouva toute la cité malade, en train de se transformer. Il ordonna de la purger. Uther refusa et Jaina le quitta ; Arthas passa Stratholme au fil de l'épée, maison par maison, avant que les morts ne puissent se relever, et le seigneur de l'effroi Mal'Ganis l'attendait au bout. On l'appelle aujourd'hui l'Épuration, et ce fut le début de la chute d'Arthas." },
+        { "Elle a vu pires trahisons depuis. Un mage de Stromgarde nommé Ras Murmegivre donna sa vie au Fléau sur son sol ensanglanté, librement, et se releva en liche de la Scholomance. Et c'est ici que le généralissime Mograine, le Porte-cendres, fut attiré dans une embuscade par son propre fils et tué de sa propre lame." },
+        { "La cité brûle encore. Le Fléau en tient la moitié, sous le baron Rivendare, et la Croisade écarlate l'autre moitié, depuis son bastion, sous le grand croisé. Les morts qui n'ont pas été épurés errent toujours dans ses rues, et certains d'entre eux, les fantômes, aimeraient beaucoup être libérés." },
+        { side = "Horde", aside = true, sign = "P. F.", "Certains disent encore que le prince avait raison à Stratholme. Je n'en fais pas partie." },
+      },
+    },
     ["stromgarde-keep"] = {
       title = "Le donjon de Stromgarde",
       text = {
@@ -2802,6 +2880,14 @@ ns.translate({
         { "Le donjon tomba avec lui. Mais certains de ses hommes restèrent, et sous un certain lieutenant Benedict et un commandant de la garde nommé Zalaphil, ils l'ont repris et fortifié : une poignée de Kultirassiens au milieu du pays natal de la Horde. Les orcs de Tranchecolline les traitent de traîtres. Les Kultirassiens en diraient à peu près autant de Theramore." },
       },
     },
+    ["tirion-fordring"] = {
+      title = "Tirion Fordring",
+      text = {
+        { "Vous trouverez peut-être Tirion Fordring dans une petite cabane au bord de la Thondroril. Il fut autrefois seigneur du donjon de Mardenholde, à Âtreval, et paladin de la Main d'argent. Il n'y a guère dans son logis actuel de quoi rappeler l'une ou l'autre distinction." },
+        { "L'orc Eitrigg lui sauva la vie. Tirion s'opposa à sa capture et, lors de son procès à Stratholme, refusa de renier le serment qu'il lui avait fait. On lui retira ses titres et ses terres, et on l'envoya en exil. Sa femme dit à leur fils Taelan qu'il était mort." },
+        { "Taelan dirige aujourd'hui la Croisade écarlate à Âtreval. Tirion demande aux voyageurs de récupérer un marteau-jouet qu'il avait donné au garçon, l'étendard de la Main d'argent que Taelan abattit à Valnord, et un tableau caché à Stratholme. Ce sont les choses qu'il espère voir parvenir à son fils. S'il vous confie cette mission, $gvoyageur:voyageuse;, souvenez-vous qu'il essaie de ramener Taelan chez lui." },
+      },
+    },
     ["tirisfal-glades"] = {
       title = "Clairières de Tirisfal",
       text = {
@@ -2837,6 +2923,13 @@ ns.translate({
         { "Tyrande Whisperwind guide les elfes de la nuit en tant que grande prêtresse d'Elune. Il y a dix mille ans, c'était une jeune prêtresse qui combattait la Légion aux côtés de Malfurion et d'Illidan Stormrage. Elle aimait Malfurion ; l'amour qu'Illidan lui portait resta sans réponse. Ce fut elle qui persuada les autres que Malfurion avait raison et que le Puits devait être détruit, et avant la fin, les satyres d'Azshara la firent prisonnière. En chemin, elle recueillit une jeune archère orpheline, Shandris Feathermoon, qui commande aujourd'hui les Sentinelles en tant que générale." },
         { "Pendant que les druides dormaient dans le Rêve d'émeraude, ses prêtresses et ses Sentinelles gardèrent les forêts au fil des longs âges. Pendant la Troisième Guerre, elle rallia les elfes de la nuit, réveilla Malfurion et se tint à Hyjal quand Archimonde tomba." },
         { "Malfurion a désormais disparu, et les druides ignorent son sort. Tyrande gouverne depuis le temple de la Lune de Darnassus, tandis que Fandral Staghelm est à la tête des druides. Recevez son accueil avec respect, $gvoyageur:voyageuse;. La prêtresse qui salue les visiteurs a mené son peuple à travers des guerres bien plus anciennes que nos royaumes." },
+      },
+    },
+    ["tyrs-hand"] = {
+      title = "La Main de Tyr",
+      text = {
+        { "La Main de Tyr est une cité fortifiée au sud-est des Maleterres, au bord de la baie de Tyr, pleine d'églises, et l'un des plus anciens lieux saints de Lordaeron. Elle a déjà connu la guerre : pendant la Deuxième Guerre, des espions d'Alterac poussèrent ses paysans à la révolte pour cacher une mine orque, et la Main d'argent fut envoyée maintenir la paix. Pendant la Troisième Guerre, elle tint contre le Fléau, et elle tient toujours, pour la Croisade écarlate." },
+        { "Le grand maître Valdelmar la gouverne, le grand général Abbendis commande ses soldats, et une voyante que les croisés appellent l'Oracle écarlate conseille le grand croisé. Des courriers chevauchent chaque jour à travers les Maleterres entre la Main de Tyr et Stratholme. Les Réprouvés surveillent chacun d'eux." },
       },
     },
     ["uldaman"] = {
