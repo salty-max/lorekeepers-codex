@@ -692,6 +692,13 @@ ns.translate({
         { "Les orcs se souviennent de lui comme de celui qui les a libérés, et ont donné son nom à leur grande salle d'Orgrimmar. Le canyon reste un lieu de démons : les serviteurs de la Légion ardente le tiennent, et le sol où tomba Mannoroth n'a jamais été purifié." },
       },
     },
+    ["desolace"] = {
+      title = "Désolace",
+      text = {
+        { "Désolace porte bien son nom : un pays gris, sec, à l'air mort, à l'ouest des Serres-Rocheuses, fait de roche couleur de cendre, d'arbres desséchés et d'ossements. Il n'y pousse pas grand-chose. On y meurt beaucoup : les kodos viennent y mourir, et leurs squelettes s'entassent dans un grand cimetière au milieu du pays." },
+        { "Il appartient, s'il appartient à quelqu'un, aux centaures, dont les clans s'y affrontent et dont le lieu le plus sacré, Maraudon, se trouve au sud-ouest. La Lame ardente tient une forteresse au nord et ouvre des portes aux démons, des nagas hantent la côte, et l'Alliance et la Horde y gardent chacune un petit avant-poste nerveux. Ce n'est une terre que personne n'aime." },
+      },
+    },
     ["dolanaar"] = {
       title = "Dolanaar",
       text = {
@@ -1169,6 +1176,13 @@ ns.translate({
         { "Tout le monde ne la lui fait pas. Quand le magistrat Solomon de Comté-du-Lac supplia le trône d'envoyer des soldats contre les orcs Blackrock, ce fut le conseil de dame Prestor qui les retint chez eux, et il est au moins un maréchal de Hurlevent qui ne le lui a jamais pardonné. Je ne consigne que ce que l'on sait. Une érudite qui en écrit davantage sur une dame de la cour a intérêt à être très sûre d'elle." },
       },
     },
+    ["khans-of-desolace"] = {
+      title = "Les khans de Désolace",
+      text = {
+        { "Désolace est un pays de centaures, et ses clans sont nombreux : les Kolkar au nord, les Gelkis au sud-ouest, les Magram au sud-est, les Maraudine qui gardent le tombeau sacré. Les Gelkis et les Magram sont des rivaux acharnés, et chacun offre du travail contre l'autre." },
+        { "L'Alliance et la Horde ont toutes deux compris qu'une nation centaure unie les chasserait de Désolace, et que la haine des clans les uns envers les autres est la meilleure arme dont elles disposent. Alors toutes deux jouent le même jeu : s'allier aux Gelkis ou aux Magram, tuer les guerriers de l'autre clan jusqu'à ce que l'amitié soit gagnée, et apprendre de ses nouveaux amis comment briser les autres. Cela marche. Je trouve un peu triste que cela marche." },
+      },
+    },
     ["kharanos"] = {
       title = "Kharanos",
       text = {
@@ -1182,6 +1196,13 @@ ns.translate({
         { "Chaque mineur de l'Alliance a une histoire de kobold, et la plupart se terminent par une pioche perdue. Les kobolds sont de petites créatures des tunnels à tête de rat, lâches quand ils sont seuls et dangereux en nombre, et ils sont toujours en nombre. Ils portent des bougies sur la tête pour éclairer le noir, et se battront à mort pour une bougie bien après avoir fui devant une épée." },
         { "On en trouve partout où il y a à creuser. Un clan venu des Carmines a envahi les mines de la forêt d'Elwynn et de la Marche de l'Ouest, les Rats des tunnels se sont terrés au-dessus de Thelsamar, les Sèche-moustache servent les géants des Hautes-terres Arathies, et les Mufle-de-gravier fouillent le minerai à Mille pointes." },
         { "Il est facile d'en rire. Les fermiers d'Elwynn, qui leur perdent leur bétail et leurs récoltes, n'en rient pas." },
+      },
+    },
+    ["kodo-graveyard"] = {
+      title = "Le cimetière des kodos",
+      text = {
+        { "Au milieu de Désolace se trouve l'endroit où les kodos viennent mourir : un vaste champ d'os et de défenses, de grandes cages thoraciques qui s'arquent hors de la poussière, et parmi elles de vieux kodos qui arrivent lentement des plaines pour s'y coucher. Personne ne sait pourquoi ils viennent ici, et les taurens traitent l'endroit avec respect." },
+        { "Tout le monde ne le fait pas. Des fantômes de centaures et de kodos y errent la nuit, et un gobelin a inventé un appareil qui ramène à coups de décharge les bêtes mourantes au travail pour les revendre aux caravanes. Je n'arrive pas à décider si c'est ingénieux ou monstrueux. Je soupçonne les kodos d'avoir un avis." },
       },
     },
     ["lakeshire"] = {
@@ -1222,6 +1243,20 @@ ns.translate({
         { "Le roi Magni Bronzebeard tient sa cour au Haut-Siège de Forgefer et règne sur la cité qui appartient à son clan depuis la guerre des Trois Marteaux. Il est l'aîné de trois frères. Muradin est parti vers le nord avec le prince de Lordaeron pendant la Troisième Guerre, et l'on est sans nouvelles de lui depuis. Brann est l'explorateur le plus célèbre de la Ligue, et l'un des plus difficiles à suivre à la trace." },
         { "Magni suit de près les travaux de la Ligue. Les trouvailles d'Uldaman laissent penser que les nains furent façonnés il y a bien longtemps par les Titans. Un roi d'une si longue lignée a de bonnes raisons de demander où elle commence, et une historienne qui se tient à quelques pas de son trône a toutes les raisons de saluer son intérêt." },
         { "Sa fille lui cause un souci plus pressant. La princesse Moira se trouve dans la cité sombrefer sous le mont Rochenoire, mariée à l'empereur Dagran Thaurissan. Forgefer parle d'enlèvement, et Magni promet une récompense digne d'un héros à qui la ramènera. Si vous acceptez cette charge, $gvoyageur:voyageuse;, vous portez les espoirs d'un père autant que les ordres d'un roi." },
+      },
+    },
+    ["mannoroc-coven"] = {
+      title = "Le convent de Mannoroc",
+      text = {
+        { "Au sud de Désolace s'étend une vallée calcinée où les démons se promènent ouvertement : gardes funestes, chiens corrompus, infernaux et pire encore, parmi des autels brisés et des flammes vertes. On l'appelle le convent de Mannoroc, et les démons n'y sont pas venus par hasard." },
+        { "On les a laissés entrer. La Lame ardente, depuis sa forteresse du nord, détient une relique appelée la Main d'Iruxos, et grâce à elle, elle a ouvert des portails vers le royaume des démons dans la vallée. Les taurens de Proie-de-l'Ombre tentent de les refermer. Chaque portail fermé est une porte que la Légion doit rouvrir, et la Légion est patiente." },
+      },
+    },
+    ["maraudon"] = {
+      title = "Maraudon",
+      text = {
+        { "Maraudon est le lieu saint des centaures, au sud-ouest de Désolace. Leur père Zaetar est enseveli dans ses vastes cavernes, et leur mère Theradras demeure au-delà de salles de cristal scintillant. Seuls les plus fervents des centaures peuvent y entrer." },
+        { "Le tombeau est troublé. Le seigneur Vylelangue répand le poison dans les grottes et y a fait naître une créature de pourriture ; le neveu de Zaetar, Celebras, y erre sous le poids d'une malédiction. Une femme du Marteau du crépuscule demande des gravures prises dans les cavernes de cristal, affirmant qu'elles renferment des reliques des Dieux très anciens. Prenez garde à qui votre voyage sert, $gvoyageur:voyageuse;. Plusieurs partis s'intéressent à ce qui se trouve sous cette terre sacrée." },
       },
     },
     ["masters-glaive"] = {
@@ -1349,6 +1384,13 @@ ns.translate({
       text = {
         { "La commandante Althea Ebonlocke dirige les Veilleurs, la milice que Sombre-Comté a levée après que Hurlevent eut retiré ses gardes officiels. Les habitants défendent leur route et leurs portes contre les morts de Colline-aux-Corbeaux, les worgens, les ogres, et tout ce qui peut sortir de la forêt." },
         { "La plupart ne sont pas des soldats, et ils sont trop peu nombreux. Ils ont pourtant gardé Sombre-Comté en vie. Sarah Ladimore sert parmi eux ; l'histoire de son père figure ailleurs dans ce registre." },
+      },
+    },
+    ["nijels-point"] = {
+      title = "La combe de Nijel",
+      text = {
+        { "La combe de Nijel est le camp de l'Alliance au nord de Désolace, fortifié dans les collines au pied des Serres-Rocheuses. Ses soldats surveillent les routes, les clans centaures et les démons du convent de Mannoroc. Les visiteurs prêts à aider ne manqueront pas de travail." },
+        { "Les capitaines ont choisi d'exploiter les rivalités des centaures, en se faisant des alliés d'un clan pour apprendre comment vaincre les autres. C'est une réponse pratique à une situation difficile, $gvoyageur:voyageuse;. L'amitié que vous aidez à nouer ici peut commencer par une demande de mort pour les voisins de quelqu'un d'autre." },
       },
     },
     ["noble-conspiracy"] = {
@@ -1552,6 +1594,14 @@ ns.translate({
         { "Son mystérieux fossile a éveillé l'intérêt du chef archéologue Greywhisker, et une ressemblance avec une autre trouvaille mène l'enquête jusqu'à Flagongut, à Port de Menethil. Remtravel a trouvé quelque chose qui mérite qu'on s'y intéresse. Le garder en vie assez longtemps pour qu'il finisse de s'y intéresser est devenu une expédition à part entière." },
       },
     },
+    ["rexxar"] = {
+      title = "Rexxar",
+      text = {
+        { "Le géant qui suit la route de Désolace avec un ours à ses côtés, c'est Rexxar, champion de la Horde. Il est mi-orc, mi-ogre, un Mok'Nathal, et n'appartient à aucune ville. Misha, son ourse, va partout où il va." },
+        { "Il vint en Durotar à ses premiers jours, quand la terre était neuve et que la Horde cherchait encore ses marques, et Thrall lui confia des tâches que personne d'autre ne pouvait accomplir. Quand l'amiral Daelin Proudmoore débarqua sa flotte pour achever la vieille guerre, Rexxar fut au cœur des combats qui y mirent fin, aux côtés de Thrall et de Cairne et, comme il se trouva, avec l'accord de Jaina Proudmoore. La Horde lui doit une bonne part de son foyer." },
+        { "Il n'est pas resté pour en profiter. Il préfère le monde sauvage aux cités qu'il a aidé à défendre, et s'en tient aux chemins entre les Serres-Rocheuses et Feralas. Le chef de guerre lui envoie encore des voyageurs quand la tâche est rude. Il vous verra avant que vous ne le voyiez, $gvoyageur:voyageuse;. Misha vous verra la première." },
+      },
+    },
     ["rockjaw-troggs"] = {
       title = "Les troggs",
       text = {
@@ -1673,6 +1723,13 @@ ns.translate({
       text = {
         { "Sombrevallon rassemble les jeunes recrues des elfes de la nuit autour d'Aldrassil, un grand arbre dont les branches abritent leurs maîtres. Druides, prêtresses et Sentinelles veillent sur ce creux de la forêt de Teldrassil. Son conservateur enseigne que l'équilibre de la nature commence par les petites choses." },
         { "Les recrues ont du travail presque aussitôt. Les araignées sont devenues énormes, et les fées et les grells sont devenus méchants. Un voyageur qui commence ici apprend le souci que les gardiens ont de la forêt en aidant à réparer ce qui s'y est déréglé." },
+      },
+    },
+    ["shadowprey-village"] = {
+      title = "Proie-de-l'Ombre",
+      text = {
+        { "Proie-de-l'Ombre est le camp de la Horde sur la côte ouest de Désolace, un village troll et tauren de huttes sur pilotis au bord de la mer, la dernière étape avant la longue route du sud vers Feralas. Ses habitants chassent dans le pays mort et gardent un œil sur les centaures comme sur les démons." },
+        { "Une taurène de Proie-de-l'Ombre s'est chargée de fermer les portails démoniaques de la Lame ardente, et un druide du Cercle cénarien campe tout près, attendant quelqu'un d'assez fort pour entrer dans Maraudon. C'est un petit village aux grands problèmes." },
       },
     },
     ["shamans"] = {
@@ -2306,6 +2363,13 @@ ns.translate({
         { "Arugal fit venir des worgens d'un autre monde alors que les défenseurs de Dalaran tombaient sous le Fléau. Les hommes-loups attaquèrent les morts, puis se retournèrent contre les vivants. Le mage se retira au donjon d'Ombrecroc, les appela ses enfants et maudit Bois-du-Bûcher, dont les habitants sont humains le jour et worgens la nuit." },
         { "Le Bois de la Pénombre offre une autre piste. Les Veilleurs signalent leur apparition soudaine dans une mine au sud de Sombre-Comté. Des récits pointent vers la Faux d'Elune, une ancienne relique elfique apportée dans la forêt par quelqu'un qui ne comprenait pas son pouvoir." },
         { "Ces créatures sont fortes, rusées, et capables de courir à quatre pattes malgré leur posture droite. Gardez les deux pistes distinctes, $gvoyageur:voyageuse;. Savoir qui les a amenées dans une forêt n'a pas expliqué leur apparition dans l'autre." },
+      },
+    },
+    ["zaetar-and-theradras"] = {
+      title = "Zaetar et Theradras",
+      text = {
+        { "Zaetar était le fils de Cénarius, un être de la forêt. Theradras était une princesse de la terre élémentaire. De leur union naquirent les centaures, qui tuèrent leur propre père. Theradras le coucha dans les cavernes de Maraudon, où ses enfants le vénèrent encore et gardent son tombeau." },
+        { "Un druide du Cercle cénarien attend près de Proie-de-l'Ombre, en quête de quelqu'un capable d'affronter Theradras et de rapporter la dépouille de Zaetar. La terre sacrée des centaures est aussi le lieu de repos d'un membre de la famille de Cénarius." },
       },
     },
     ["zephras-isle"] = {
