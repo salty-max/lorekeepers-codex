@@ -141,7 +141,8 @@ end
 -- Where and when it was copied.
 local function foundAt(t)
   if not t.zone then return L["found"] end
-  return L["found in %s%s, %s"]:format(t.zone, t.sub and t.sub ~= "" and (": " .. t.sub) or "", ui.day(t.at))
+  local zone, sub = ns.placeName(t.zone, t.zoneId), t.sub and t.sub ~= "" and ns.placeName(t.sub, t.subId)
+  return L["found in %s%s, %s"]:format(zone, sub and (": " .. sub) or "", ui.day(t.at))
 end
 
 -- A text, one page at a time, the arrows that turn them under it.

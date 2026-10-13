@@ -86,6 +86,10 @@ conventions).
   words to translate; `--check` says which pages are stale (their English
   changed) and which words are missing. A translation keeps the English
   page's paragraph marks; its own letters are fine, curly quotes are not.
+  Where a page or a text was found keeps the area ids of the zone and
+  subzone (`zoneId`, `subId`, by the client's names of the codex's areas,
+  `ns.areaOf`) and reads in the client's language (`ns.placeName`: an older
+  find, kept only by name, by its English one in `C.areaNames`).
 - `addon/test/sim.lua`: fake WoW API + a replayed session; the UI runs against a
   permissive stub (catches Lua errors, not layout).
 

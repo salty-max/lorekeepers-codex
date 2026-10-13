@@ -88,6 +88,26 @@ local function indexAreas()
   end
 end
 
+-- A place as this client names it. A find keeps the area ids of its zone and
+-- subzone when the codex knows them (its pages name some 400 places), so it
+-- reads in the client's language whatever language it was found in; an older
+-- find kept only the names, in the language of that day, and an English one
+-- is looked up by the codex's own (C.areaNames). Any other stays as recorded.
+local areaByEnglish = {}
+for areaId, name in pairs(C.areaNames or {}) do
+  areaByEnglish[name] = areaByEnglish[name] or areaId
+end
+function ns.areaOf(name)
+  local ids = name and areasByName[name]
+  return ids and ids[1] or nil
+end
+function ns.placeName(name, areaId)
+  areaId = areaId or (name and areaByEnglish[name])
+  local here = areaId and C_Map and C_Map.GetAreaInfo and C_Map.GetAreaInfo(areaId)
+  if here and here ~= "" then return here end
+  return name
+end
+
 -- ── the codex ────────────────────────────────────────────────────────────────
 -- Some pages are for some races only (the forewords): a character neither
 -- sees nor counts the others. "other" stands for the races without a page of
@@ -166,11 +186,14 @@ end
 local function unlock(id, retro)
   local char = ns.codex()
   if not char or char.entries[id] or not ns.available(id) then return end
+  local zone, sub = GetRealZoneText(), GetSubZoneText()
   char.entries[id] = {
     at = time(),
     level = UnitLevel("player"),
-    zone = GetRealZoneText(),
-    sub = GetSubZoneText(),
+    zone = zone,
+    sub = sub,
+    zoneId = ns.areaOf(zone),
+    subId = ns.areaOf(sub),
     retro = retro or nil,
   }
   if not retro then

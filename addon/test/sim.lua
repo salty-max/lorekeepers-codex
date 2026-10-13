@@ -1572,4 +1572,27 @@ do
   )
 end
 
+-- Where a page was found reads in the client's language: a find keeps its
+-- places' area ids, and an older one, kept in English, is looked up by the
+-- codex's own names; a place the codex does not know stays as recorded.
+do
+  local areaInfo = C_Map.GetAreaInfo
+  C_Map.GetAreaInfo = function(id)
+    return ({ [1] = "Dun Morogh", [131] = "Kharanos", [132] = "Vallée des Frigères" })[id]
+  end
+  local found = LorekeepersCodexChar.entries
+  ns.startUnlocks()
+  found.kharanos = nil
+  state.zone, state.sub = "Dun Morogh", "Kharanos"
+  ns.unlock("kharanos")
+  check(found.kharanos.zoneId == 1 and found.kharanos.subId == 131, "a find keeps the area ids of its zone and subzone")
+  check(
+    ns.placeName("Coldridge Valley") == "Vallée des Frigères"
+      and ns.placeName("Kharanos", 131) == "Kharanos"
+      and ns.placeName("Somewhere Else") == "Somewhere Else",
+    "… and reads in the client's language, an older English one too, an unknown place as recorded"
+  )
+  C_Map.GetAreaInfo = areaInfo
+end
+
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")
