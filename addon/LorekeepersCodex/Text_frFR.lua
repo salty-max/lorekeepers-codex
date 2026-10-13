@@ -801,6 +801,13 @@ ns.translate({
         { "Le capitaine Rugelfuss expose la difficulté depuis le côté du Loch Modan. Son régiment doit tenir la porte plutôt que de pourchasser les troggs voisins, tandis que la Réserve de Forgefer est engagée sur le front de l'Alliance. Il demande aux aventuriers de défendre les terres que ses soldats ne peuvent couvrir sans quitter leur poste." },
       },
     },
+    ["gathilzogg"] = {
+      title = "Gath'Ilzogg",
+      text = {
+        { "Guet-de-pierre fut bâti pour défendre les Carmines. Les guerriers Blackrock de Gath'Ilzogg en ont fait au contraire la place forte d'où ils lancent leurs raids sur Comté-du-Lac, portant la guerre de la montagne jusque dans les fermes et sur les routes autour du lac Placide." },
+        { "Le magistrat Solomon a mis sa tête à prix. Il faut reprendre le donjon autant que tuer son commandant ; la mort de Gath'Ilzogg n'est que le premier pas de cette tâche. Pour Comté-du-Lac, une forteresse sur l'horizon est devenue la mesure de tout ce que la ville ne peut plus atteindre de son propre pays." },
+      },
+    },
     ["ghost-howl"] = {
       title = "Hurleur fantomatique",
       text = {
@@ -983,6 +990,13 @@ ns.translate({
         { "Il est facile d'en rire. Les fermiers d'Elwynn, qui leur perdent leur bétail et leurs récoltes, n'en rient pas." },
       },
     },
+    ["lakeshire"] = {
+      title = "Comté-du-Lac",
+      text = {
+        { "Comté-du-Lac est une ville de maisons en bois au bord du lac Placide, avec une auberge, un hôtel de ville et un pont sur l'eau que les habitants sont encore en train de rebâtir : lors de la dernière invasion, ils ont fondu leur fer pour en faire des épées, et les gnolls ont volé le chargement qui devait le remplacer." },
+        { "Son magistrat, Solomon, est un homme prudent qui a beaucoup de soucis. Les Blackrock tiennent le donjon au nord et enferment ses gens dans leur ville ; il a écrit à Hurlevent pour demander de l'aide, et la réponse est revenue qu'il n'y avait pas assez de soldats à envoyer sur de simples suppositions. Il a appris depuis ce qui pousse vraiment les orcs Blackrock, et qui, à Hurlevent, ne voulait pas qu'on l'entende. Comté-du-Lac, je le soupçonne, ne l'oubliera pas." },
+      },
+    },
     ["leper-gnomes"] = {
       title = "Les gnomes lépreux",
       text = {
@@ -1044,6 +1058,13 @@ ns.translate({
       text = {
         { "Ruisselune était le bourg où se tenait le marché des fermes de la Marche de l'Ouest, et le foyer de ses mineurs, brûlé par les orcs pendant la Première Guerre et rebâti après la Deuxième. C'est aujourd'hui une ville défias : ses habitants chassés, ses maisons pleines de bandits aux masques rouges, et sa vieille forge et sa grange cachant le chemin qui descend vers les Mortemines." },
         { "C'est un endroit triste à traverser, et pas un endroit sûr. La Confrérie surveille la route, et quiconque regarde trop longtemps une certaine grange en bordure de la ville a toutes les chances de découvrir pourquoi." },
+      },
+    },
+    ["morganth"] = {
+      title = "Morganth",
+      text = {
+        { "Dans les contreforts orientaux des Carmines se dresse une tour isolée, Ilgalar, et y vit un démoniste du nom de Morganth, qui a plié les gnolls Sombrepoil à son service au moyen de pendentifs enchantés. La loi de Comté-du-Lac le tient pour un ennemi du royaume, et quiconque l'aide pour un criminel." },
+        { "Un mage d'Elwynn, Theocritus, de la tour d'Azora, écoute les gnolls de Morganth à travers ces mêmes pendentifs, et ce qu'il a entendu l'effraie : Morganth cherche une ancienne relique elfique appelée la Faux d'Elune, et l'a peut-être trouvée. Si c'est le cas, dit Theocritus, tout Hurlevent le sentira. On parle de la même relique au Bois de la Pénombre, à propos des worgens. Je le note, et cela ne me plaît pas." },
       },
     },
     ["morshan-rampart"] = {
@@ -1224,6 +1245,13 @@ ns.translate({
       text = {
         { "À l'est de Thunder Bluff, parmi de grandes pierres rouges, se trouve le cimetière sacré des taurens. Seuls les plus valeureux reposent aux Rochers rouges : les guerriers qui aidèrent à fonder et à défendre Thunder Bluff, et ceux qui donnèrent leur vie pour leur tribu et leurs chefs. On dit que les esprits des ancêtres y marchent encore." },
         { "Les jeunes y viennent pour le dernier des rites, le rite de la Sagesse, recevoir la bénédiction de ces ancêtres. Ces derniers temps, les hurans creusent dans les tombes, et le vieux gardien du savoir qui veille sur elles n'a plus la force de les chasser. Si vous voulez vous faire un ami de chaque tauren de Mulgore, il n'y a pas de moyen plus rapide." },
+      },
+    },
+    ["redridge-mountains"] = {
+      title = "Les Carmines",
+      text = {
+        { "Les Carmines tirent leur nom de la pierre rouge rouille sous leurs bois de pins. Le lac Placide s'étend parmi les collines, avec Comté-du-Lac sur sa rive ouest. Le bois et la pêche font vivre le pays, mais les armées l'ont traversé assez souvent : les orcs sont venus pendant la Première Guerre, et les Blackrock sont revenus." },
+        { "Ils tiennent désormais le donjon de Guet-de-pierre et les vallées au-delà. Des gnolls rôdent dans les canyons, un démoniste occupe les collines de l'est, et des dragonnets noirs nichent dans les grottes d'altitude. Comté-du-Lac a demandé des soldats à Hurlevent à maintes reprises." },
       },
     },
     ["regency-of-stormwind"] = {
@@ -1433,6 +1461,13 @@ ns.translate({
         { "Les Stonefield et les Maclure cultivent leurs terres de part et d'autre de la mine de Fargodeep, au sud de Comté-de-l'Or, et les deux familles sont en froid depuis plus longtemps que quiconque ne prend la peine de l'expliquer. Naturellement, Maybell Maclure est amoureuse de Tommy Joe Stonefield. Il attend ses lettres au bord de la rivière, à l'ouest de la ferme de sa famille ; elle attend l'occasion de s'éclipser." },
         { "La grand-mère des Stonefield est du côté des jeunes gens. Elle envoie un mot à son vieil ami William Pestle, à Comté-de-l'Or, qui sait brasser une liqueur d'invisibilité si quelqu'un lui rapporte du varech cristallin pris aux murlocs du lac de Cristal. Grâce à elle, Maybell peut quitter les vignes de sa famille sans être vue. Elle se sent coupable de les tromper, dit-elle, mais pas assez pour rester." },
         { "La querelle continue autour d'eux : une tante Stonefield accuse le jeune Billy Maclure d'avoir volé son collier, Maman Stonefield jure la mort de la truie primée des Brackwell pour avoir mangé ses légumes. Elwynn a vu les Défias, les kobolds et les gnolls aller et venir. Jusqu'ici, la querelle leur a survécu à tous." },
+      },
+    },
+    ["stonewatch-keep"] = {
+      title = "Le donjon de Guet-de-pierre",
+      text = {
+        { "Le donjon de Guet-de-pierre gardait l'accès nord des Carmines. Les Blackrock sont descendus par cet accès et l'ont pris. Leurs pillards frappent désormais les fermes au-dessus de Comté-du-Lac, et leurs embusqués surveillent la route entre la ville et le donjon. Une fortification est utile à quiconque en tient les murs." },
+        { "Un régiment de soldats de Hurlevent a été taillé en pièces parmi les tours en ruine ; on dit que quelques survivants sont retenus dans les grottes. Gath'Ilzogg occupe le donjon lui-même, et le magistrat Solomon a mis sa tête à prix. Regardez bien le terrain, $gvoyageur:voyageuse;. Comté-du-Lac a déjà perdu des hommes en tentant de le reprendre." },
       },
     },
     ["stonewrought-dam"] = {
