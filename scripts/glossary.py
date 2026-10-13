@@ -92,10 +92,11 @@ def main():
     ids = set()
     import gzip
     db = gzip.open(os.path.join(ROOT, ".cache", "classicdb-28ef6259c782.sql.gz"), "rt", encoding="utf-8", errors="replace").read()
-    i = db.find("INSERT INTO `creature_template` VALUES")
     known = {}
-    for m in re.finditer(r"\((\d+),'((?:[^'\\]|\\.)*)'", db[i : db.find(";\n", i)]):
-        known.setdefault(m.group(2).replace("\\'", "'"), m.group(1))
+    # (the table comes in several INSERTs)
+    for rows in re.finditer(r"INSERT INTO `creature_template` VALUES(.*?);\n", db, re.S):
+        for m in re.finditer(r"\((\d+),'((?:[^'\\]|\\.)*)'", rows.group(1)):
+            known.setdefault(m.group(2).replace("\\'", "'"), m.group(1))
     traces = os.path.join(ROOT, "..", "yonder", ".cache", "forever", "questiedb-npc-7e87203312ef.lua")
     if os.path.exists(traces):
         for m in re.finditer(r"\[(\d+)\] = \{[^{}]*?\[npcKeys\.name\] = \"([^\"]+)\"", open(traces, encoding="utf-8").read()):

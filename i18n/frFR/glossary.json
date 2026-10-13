@@ -499,11 +499,23 @@
    "retail": "Sentinelle de l'Alliance",
    "use": "Sentinelle de l'Alliance"
   },
+  "Alzzin the Wildshaper": {
+   "classic": "Alzzin le Modeleur",
+   "forever": "Alzzin le Modeleur",
+   "retail": "Alzzin le Modeleur",
+   "use": "Alzzin le Modeleur"
+  },
   "Ambassador Ardalan": {
    "classic": "Ambassadeur Ardalan",
    "forever": "Ambassadeur Ardalan",
    "retail": "Ambassadeur Ardalan",
    "use": "Ambassadeur Ardalan"
+  },
+  "Amnennar the Coldbringer": {
+   "classic": "Amnennar le Porte-froid",
+   "forever": "Amnennar le Porte-froid",
+   "retail": "Amnennar le Porte-Froid",
+   "use": "Amnennar le Porte-froid"
   },
   "Anachronos": {
    "classic": "Anachronos",
@@ -576,6 +588,12 @@
    "forever": "Archevêque Benedictus",
    "retail": "Archevêque Benedictus",
    "use": "Archevêque Benedictus"
+  },
+  "Archmage Allistarj": {
+   "classic": "Archimage Allistarj",
+   "forever": "Archimage Allistarj",
+   "retail": "Archimage Allistarj",
+   "use": "Archimage Allistarj"
   },
   "Archmage Ansirem Runeweaver": {
    "classic": "Archimage Ansirem Runeweaver",
@@ -799,11 +817,29 @@
    "retail": "Braelyn Brasemain",
    "use": "Braelyn Firehand"
   },
+  "Brohann Caskbelly": {
+   "classic": "Brohann Caskbelly",
+   "forever": "Brohann Caskbelly",
+   "retail": "Brohann Ventrabière",
+   "use": "Brohann Caskbelly"
+  },
+  "Brood of Nozdormu": {
+   "classic": "Progéniture de Nozdormu",
+   "forever": "Progéniture de Nozdormu",
+   "retail": "Progéniture de Nozdormu",
+   "use": "Progéniture de Nozdormu"
+  },
   "Brother Nimetz": {
    "classic": "Frère Nimetz",
    "forever": "Frère Nimetz",
    "retail": "Frère Nimetz",
    "use": "Frère Nimetz"
+  },
+  "Brother Ravenoak": {
+   "classic": "Frère Ravenoak",
+   "forever": "Frère Ravenoak",
+   "retail": "Frère Corvichêne",
+   "use": "Frère Ravenoak"
   },
   "Burning Blade Thug": {
    "classic": "Nervi de la Lame ardente",
@@ -889,6 +925,12 @@
    "retail": "Chef Vent-du-faucon",
    "use": "Chef Hawkwind"
   },
+  "Chief Ukorz Sandscalp": {
+   "classic": "Chef Ukorz Scalpessable",
+   "forever": "Chef Ukorz Scalpessable",
+   "retail": "Chef Ukorz Scalpessable",
+   "use": "Chef Ukorz Scalpessable"
+  },
   "Chieftain Nek'rosh": {
    "classic": "Chef Nek'rosh",
    "forever": "Chef Nek'rosh",
@@ -919,11 +961,23 @@
    "retail": "Commandant Althea Bouclenoire",
    "use": "Commandant Althea Ebonlocke"
   },
+  "Commander Ashlam Valorfist": {
+   "classic": "Commandant Ashlam Valorfist",
+   "forever": "Commandant Ashlam Valorfist",
+   "retail": "Commandant Ashlam Vaillepoing",
+   "use": "Commandant Ashlam Valorfist"
+  },
   "Commander Springvale": {
    "classic": "Commandant Springvale",
    "forever": "Commandant Springvale",
    "retail": "Commandant Printeval",
    "use": "Commandant Springvale"
+  },
+  "Crusader Lord Valdelmar": {
+   "classic": "Grand maître Valdelmar",
+   "forever": "Grand maître Valdelmar",
+   "retail": "Seigneur croisé Valdelmar",
+   "use": "Grand maître Valdelmar"
   },
   "Curator Thorius": {
    "classic": "Conservateur en chef Thorius",
@@ -954,6 +1008,12 @@
    "forever": "Fille de Cénarius",
    "retail": "Fille de Cénarius",
    "use": "Fille de Cénarius"
+  },
+  "Davil Lightfire": {
+   "classic": "Davil Lightfire",
+   "forever": "Davil Lightfire",
+   "retail": "Davil Lumefeu",
+   "use": "Davil Lightfire"
   },
   "Death Cultist": {
    "classic": "Sectateur de la mort",
@@ -1119,6 +1179,12 @@
    "retail": "[Deprecated for 4.x]Falfindel Waywarder",
    "use": "Falfindel Waywarder"
   },
+  "Fallen Hero": {
+   "classic": "Héros déchu",
+   "forever": "Héros déchu",
+   "retail": "Héros déchu",
+   "use": "Héros déchu"
+  },
   "Fallen Hero of the Horde": {
    "classic": "Héros déchu de la Horde",
    "forever": "Héros déchu de la Horde",
@@ -1137,6 +1203,12 @@
    "retail": "Falstad Marteau-Hardi",
    "use": "Falstad Wildhammer"
   },
+  "Fandral Staghelm": {
+   "classic": "Fandral Staghelm",
+   "forever": "Fandral Staghelm",
+   "retail": "Fandral Forteramure",
+   "use": "Fandral Staghelm"
+  },
   "Farmer Saldean": {
    "classic": "Saldean le fermier",
    "forever": "Saldean le fermier",
@@ -1148,6 +1220,12 @@
    "forever": "Sentinelle de Feathermoon",
    "retail": "Sentinelle de Pennelune",
    "use": "Sentinelle de Feathermoon"
+  },
+  "Fineous Darkvire": {
+   "classic": "Fineous Darkvire",
+   "forever": "Fineous Darkvire",
+   "retail": "Fineous Sombrevire",
+   "use": "Fineous Darkvire"
   },
   "Fiora Longears": {
    "classic": "Fiora Longears",
@@ -1197,11 +1275,29 @@
    "retail": "Gazleu",
    "use": "Gazlowe"
   },
+  "General Angerforge": {
+   "classic": "Général Forgehargne",
+   "forever": "Général Forgehargne",
+   "retail": "Général Forgehargne",
+   "use": "Général Forgehargne"
+  },
+  "General Drakkisath": {
+   "classic": "Général Drakkisath",
+   "forever": "Général Drakkisath",
+   "retail": "Général Drakkisath",
+   "use": "Général Drakkisath"
+  },
   "Gerenzo Wrenchwhistle": {
    "classic": "Gerenzo Wrenchwhistle",
    "forever": "Gerenzo Wrenchwhistle",
    "retail": "Gerenzo Siffleclef",
    "use": "Gerenzo Wrenchwhistle"
+  },
+  "Gershala Nightwhisper": {
+   "classic": "Gershala Nightwhisper",
+   "forever": "Gershala Nightwhisper",
+   "retail": "Gershala Murmenuit",
+   "use": "Gershala Nightwhisper"
   },
   "Ghost Howl": {
    "classic": "Hurleur fantomatique",
@@ -1233,6 +1329,12 @@
    "retail": "Gorn le Borgne",
    "use": "Gorn le Borgne"
   },
+  "Grand Crusader Dathrohan": {
+   "classic": "Grand croisé Dathrohan",
+   "forever": "Grand croisé Dathrohan",
+   "retail": "Grand croisé Dathrohan",
+   "use": "Grand croisé Dathrohan"
+  },
   "Grand Inquisitor Isillien": {
    "classic": "Grand Inquisiteur Isillien",
    "forever": "Grand Inquisiteur Isillien",
@@ -1263,6 +1365,12 @@
    "retail": "Pilleur du Totem-Sinistre",
    "use": "Ecumeur du Totem sinistre"
   },
+  "Grol the Destroyer": {
+   "classic": "Grol le Destructeur",
+   "forever": "Grol le Destructeur",
+   "retail": "Grol le Destructeur",
+   "use": "Grol le Destructeur"
+  },
   "Gryan Stoutmantle": {
    "classic": "Gryan Stoutmantle",
    "forever": "Gryan Stoutmantle",
@@ -1292,6 +1400,12 @@
    "forever": "Grand Explorateur Magellas",
    "retail": "Grand Explorateur Magellas",
    "use": "Grand Explorateur Magellas"
+  },
+  "High General Abbendis": {
+   "classic": "Grand général Abbendis",
+   "forever": "Grand général Abbendis",
+   "retail": "Lynnia Abbendis",
+   "use": "Grand général Abbendis"
   },
   "High Inquisitor Fairbanks": {
    "classic": "Grand Inquisiteur Fairbanks",
@@ -1327,6 +1441,18 @@
    "retail": "Généralissime Bolvar Fordragon",
    "use": "Généralissime Bolvar Fordragon"
   },
+  "Highlord Demitrian": {
+   "classic": "Généralissime Demetrian",
+   "forever": "Généralissime Demetrian",
+   "retail": "Généralissime Demitrian",
+   "use": "Généralissime Demetrian"
+  },
+  "Highlord Mograine": {
+   "classic": "Généralissime Mograine",
+   "forever": "Généralissime Mograine",
+   "retail": "Généralissime Mograine",
+   "use": "Généralissime Mograine"
+  },
   "Highlord Taelan Fordring": {
    "classic": "Généralissime Taelan Fordring",
    "forever": "Généralissime Taelan Fordring",
@@ -1344,6 +1470,12 @@
    "forever": "Lardeur",
    "retail": "Lardeur",
    "use": "Lardeur"
+  },
+  "Hol'anyee Marshal": {
+   "classic": "Hol'anyee Marshal",
+   "forever": "Hol'anyee Marshal",
+   "retail": "Hol'anyee Marshal",
+   "use": "Hol'anyee Marshal"
   },
   "Huntress Leafrunner": {
    "classic": "Chasseresse Leafrunner",
@@ -1411,6 +1543,12 @@
    "retail": "J.D. Collie",
    "use": "J.D. Collie"
   },
+  "Jarod Shadowsong": {
+   "classic": "Jarod Shadowsong",
+   "forever": "Jarod Shadowsong",
+   "retail": "Jarod Chantelombre",
+   "use": "Jarod Shadowsong"
+  },
   "Je'neu Sancrea": {
    "classic": "Je'neu Sancrea",
    "forever": "Je'neu Sancrea",
@@ -1428,6 +1566,12 @@
    "forever": "Jeziba",
    "retail": "Jeziba",
    "use": "Jeziba"
+  },
+  "Joseph Redpath": {
+   "classic": "Joseph Redpath",
+   "forever": "Joseph Redpath",
+   "retail": "Joseph Senterouge",
+   "use": "Joseph Redpath"
   },
   "Kaela Shadowspear": {
    "classic": "Kaela Shadowspear",
@@ -1458,6 +1602,12 @@
    "forever": "Kel'Thuzad",
    "retail": "Kel'Thuzad",
    "use": "Kel'Thuzad"
+  },
+  "Kerlonian Evershade": {
+   "classic": "Kerlonian Evershade",
+   "forever": "Kerlonian Evershade",
+   "retail": "Kerlonian Eternombre",
+   "use": "Kerlonian Evershade"
   },
   "Kernda": {
    "classic": "Kernda",
@@ -1530,6 +1680,12 @@
    "forever": "Dame Katrana Prestor",
    "retail": "Dame Katrana Prestor",
    "use": "Dame Katrana Prestor"
+  },
+  "Lady Sevine": {
+   "classic": "Dame Sevine",
+   "forever": "Dame Sevine",
+   "retail": "Dame Sevine",
+   "use": "Dame Sevine"
   },
   "Lady Sylvanas Windrunner": {
    "classic": "Dame Sylvanas Windrunner",
@@ -1651,6 +1807,12 @@
    "retail": "Seigneur Victor Nefarius",
    "use": "Seigneur Victor Nefarius"
   },
+  "Lord Vyletongue": {
+   "classic": "Seigneur Vylelangue",
+   "forever": "Seigneur Vylelangue",
+   "retail": "Seigneur Vylelangue",
+   "use": "Seigneur Vylelangue"
+  },
   "Lorekeeper Javon": {
    "classic": "Gardien du savoir Javon",
    "forever": "Gardien du savoir Javon",
@@ -1711,11 +1873,29 @@
    "retail": "Magatha Totem-Sinistre",
    "use": "Magatha Grimtotem"
   },
+  "Magistrate Marduke": {
+   "classic": "Magistrat Marduke",
+   "forever": "Magistrat Marduke",
+   "retail": "Magistrat Marduke",
+   "use": "Magistrat Marduke"
+  },
   "Magistrate Solomon": {
    "classic": "Magistrat Solomon",
    "forever": "Magistrat Solomon",
    "retail": "Magistrat Salomon",
    "use": "Magistrat Solomon"
+  },
+  "Malfurion Stormrage": {
+   "classic": "Malfurion Stormrage",
+   "forever": "Malfurion Stormrage",
+   "retail": "Malfurion Hurlorage",
+   "use": "Malfurion Stormrage"
+  },
+  "Marduk Blackpool": {
+   "classic": "Marduk Noirétang",
+   "forever": "Marduk Noirétang",
+   "retail": "Marduk Noirétang",
+   "use": "Marduk Noirétang"
   },
   "Marek Ironheart": {
    "classic": "Marek Ironheart",
@@ -1734,6 +1914,18 @@
    "forever": "Maréchal Dughan",
    "retail": "Maréchal Dughan",
    "use": "Maréchal Dughan"
+  },
+  "Marshal Maxwell": {
+   "classic": "Maréchal Maxwell",
+   "forever": "Maréchal Maxwell",
+   "retail": "Maréchal Maxwell",
+   "use": "Maréchal Maxwell"
+  },
+  "Marshal Reginald Windsor": {
+   "classic": "Maréchal Reginald Windsor",
+   "forever": "Maréchal Reginald Windsor",
+   "retail": "Maréchal Reginald Windsor",
+   "use": "Maréchal Reginald Windsor"
   },
   "Marshal Windsor": {
    "classic": "Maréchal Windsor",
@@ -1825,6 +2017,12 @@
    "retail": "Mor'Ladim",
    "use": "Mor'Ladim"
   },
+  "Mor'zul Bloodbringer": {
+   "classic": "Mor'zul Bloodbringer",
+   "forever": "Mor'zul Bloodbringer",
+   "retail": "Mor'zul Porte-sang",
+   "use": "Mor'zul Bloodbringer"
+  },
   "Morbent Fel": {
    "classic": "Morbent Fel",
    "forever": "Morbent Fel",
@@ -1866,6 +2064,12 @@
    "forever": "Myzrael",
    "retail": "Myzrael",
    "use": "Myzrael"
+  },
+  "Nara Wildmane": {
+   "classic": "Nara Wildmane",
+   "forever": "Nara Wildmane",
+   "retail": "Nara Crin-Sauvage",
+   "use": "Nara Wildmane"
   },
   "Nathanos Blightcaller": {
    "classic": "Nathanos le Flétrisseur",
@@ -1915,6 +2119,24 @@
    "retail": "Onyxia",
    "use": "Onyxia"
   },
+  "Ossirian the Unscarred": {
+   "classic": "Ossirian l'Intouché",
+   "forever": "Ossirian l'Intouché",
+   "retail": "Ossirian l'Intouché",
+   "use": "Ossirian l'Intouché"
+  },
+  "Overseer Maltorius": {
+   "classic": "Surveillant Maltorius",
+   "forever": "Surveillant Maltorius",
+   "retail": "Surveillant Maltorius",
+   "use": "Surveillant Maltorius"
+  },
+  "Pamela Redpath": {
+   "classic": "Pamela Redpath",
+   "forever": "Pamela Redpath",
+   "retail": "Pamela Senterouge",
+   "use": "Pamela Redpath"
+  },
   "Parqual Fintallas": {
    "classic": "Parqual Fintallas",
    "forever": "Parqual Fintallas",
@@ -1932,6 +2154,12 @@
    "forever": "Prêtresse A'moora",
    "retail": "Prêtresse A'moora",
    "use": "Prêtresse A'moora"
+  },
+  "Priestess of Elune": {
+   "classic": "Prêtresse d'Elune",
+   "forever": "Prêtresse d'Elune",
+   "retail": "Prêtresse d'Élune",
+   "use": "Prêtresse d'Elune"
   },
   "Prince Skaldrenox": {
    "classic": "Prince Skaldrenox",
@@ -2052,6 +2280,12 @@
    "forever": "Draconide rouge",
    "retail": "Draconide rouge",
    "use": "Draconide rouge"
+  },
+  "Reginald Windsor": {
+   "classic": "Reginald Windsor",
+   "forever": "Reginald Windsor",
+   "retail": "Reginald Windsor",
+   "use": "Reginald Windsor"
   },
   "Rethiel the Greenwarden": {
    "classic": "Rethiel le Gouverneur vert",
@@ -2405,6 +2639,12 @@
    "forever": "Talaanis Chantelombre",
    "use": "Talaanis Chantelombre"
   },
+  "Taragaman the Hungerer": {
+   "classic": "Taragaman l'Affameur",
+   "forever": "Taragaman l'Affameur",
+   "retail": "Taragaman l'Affameur",
+   "use": "Taragaman l'Affameur"
+  },
   "Targorr the Dread": {
    "classic": "Targorr le Terrifiant",
    "forever": "Targorr le Terrifiant",
@@ -2416,6 +2656,12 @@
    "forever": "Sentinelle de Dolanaar",
    "retail": "Sentinelle de Teldrassil",
    "use": "Sentinelle de Dolanaar"
+  },
+  "The Lich King": {
+   "classic": "Le roi-liche",
+   "forever": "Le roi-liche",
+   "retail": "Le roi-liche",
+   "use": "Le roi-liche"
   },
   "Theldurin the Lost": {
    "classic": "Theldurin l'Egaré",
@@ -2553,6 +2799,12 @@
    "retail": "Vanndar Foudrepique",
    "use": "Vanndar Stormpike"
   },
+  "Varian Wrynn": {
+   "classic": "Varian Wrynn",
+   "forever": "Varian Wrynn",
+   "retail": "Varian Wrynn",
+   "use": "Varian Wrynn"
+  },
   "Varimathras": {
    "classic": "Varimathras",
    "forever": "Varimathras",
@@ -2583,6 +2835,12 @@
    "retail": "Sentinelle vétéran",
    "use": "Sentinelle vétéran"
   },
+  "Vile Priestess Hexx": {
+   "classic": "Vile prêtresse Maléficia",
+   "forever": "Vile prêtresse Maléficia",
+   "retail": "Vile prêtresse Maléficia",
+   "use": "Vile prêtresse Maléficia"
+  },
   "Vol'jin": {
    "classic": "Vol'jin",
    "forever": "Vol'jin",
@@ -2600,6 +2858,12 @@
    "forever": "Chef de guerre Rend Blackhand",
    "retail": "Chef de guerre Rend Main-Noire",
    "use": "Chef de guerre Rend Blackhand"
+  },
+  "Warlord Goretooth": {
+   "classic": "Chef de guerre Goretooth",
+   "forever": "Chef de guerre Goretooth",
+   "retail": "Seigneur de guerre Sangredent",
+   "use": "Chef de guerre Goretooth"
   },
   "Weldon Barov": {
    "classic": "Weldon Barov",
@@ -2631,6 +2895,12 @@
    "retail": "Harpie Furie-des-vents",
    "use": "Harpie Furie-des-vents"
   },
+  "Winna Hazzard": {
+   "classic": "Winna Hazzard",
+   "forever": "Winna Hazzard",
+   "retail": "Winna Hazzard",
+   "use": "Winna Hazzard"
+  },
   "Witherbark Troll": {
    "classic": "Troll Witherbark",
    "forever": "Troll Witherbark",
@@ -2648,6 +2918,12 @@
    "forever": "Jeune wendigo",
    "retail": "Jeune wendigo",
    "use": "Jeune wendigo"
+  },
+  "Ysida Harmon": {
+   "classic": "Ysida Harmon",
+   "forever": "Ysida Harmon",
+   "retail": "Ysida Harmon",
+   "use": "Ysida Harmon"
   },
   "Ysondre": {
    "classic": "Ysondre",
