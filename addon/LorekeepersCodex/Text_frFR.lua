@@ -1354,7 +1354,7 @@ ns.translate({
     ["freewind-post"] = {
       title = "Le poste de Librevent",
       text = {
-        { "Le poste de Librevent est un village tauren bâti au sommet des aiguilles, au milieu du canyon, un ensemble de huttes sur la haute roche reliées par des ponts de corde, auquel on accède par ascenseur. Les coursiers du vent vont et viennent, et les taurens chassent au fond du canyon en contrebas." },
+        { "Le poste de Librevent est un village tauren bâti au sommet des aiguilles, au milieu du canyon, un ensemble de huttes sur la haute roche reliées par des ponts de corde, auquel on accède par ascenseur. Les cavaliers célestes vont et viennent, et les taurens chassent au fond du canyon en contrebas." },
         { "Il subit une pression de deux côtés. Les centaures galak lancent de plus en plus de raids, et les taurens du Totem sinistre, qui tiennent la cime de Noir-nuage toute proche, se sont retournés contre les leurs ; les taurens de Librevent disent qu'ils se comportent étrangement depuis un certain temps. C'est dur, pour un tauren, de dire cela d'un autre tauren." },
       },
     },
@@ -2993,7 +2993,7 @@ ns.translate({
     ["the-crossroads"] = {
       title = "La Croisée",
       text = {
-        { "Les grandes routes des Tarides se rejoignent à la Croisée : au nord vers Orgrimmar, à l'ouest vers Mulgore, à l'est vers Ratchet et au sud vers Mille pointes. La Horde y tient une palissade, une auberge et un perchoir de coursiers du vent, avec une garnison au service du trafic entre les trois." },
+        { "Les grandes routes des Tarides se rejoignent à la Croisée : au nord vers Orgrimmar, à l'ouest vers Mulgore, à l'est vers Ratchet et au sud vers Mille pointes. La Horde y tient une palissade, une auberge et un perchoir de cavaliers célestes, avec une garnison au service du trafic entre les trois." },
         { "L'activité des centaures et les vols de provisions donnent à cette garnison du travail au-delà de ses murs. Sergra Darkthorn propose aussi des épreuves de chasse." },
       },
     },
@@ -3252,7 +3252,7 @@ ns.translate({
     ["thousand-needles"] = {
       title = "Mille pointes",
       text = {
-        { "Au sud des Tarides, le sol plonge par un grand ascenseur jusqu'à Mille pointes : un canyon profond plein de hautes aiguilles de pierre, des centaines, dressées hors de la poussière comme les os de la terre. Les taurens vivent à leur sommet, les centaures du clan galak au fond du canyon, et les coursiers du vent et les harpies entre les deux." },
+        { "Au sud des Tarides, le sol plonge par un grand ascenseur jusqu'à Mille pointes : un canyon profond plein de hautes aiguilles de pierre, des centaines, dressées hors de la poussière comme les os de la terre. Les taurens vivent à leur sommet, les centaures du clan galak au fond du canyon, et les cavaliers célestes et les harpies entre les deux." },
         { "À l'est, le canyon s'ouvre sur les Salines, un lit de sel sec et blanc où la chaleur fait trembler l'air au ras du sol. Les gobelins et les gnomes y ont construit une piste de course. On me dit que c'est une chose bien naturelle à faire d'un désert, pour des gobelins et des gnomes." },
       },
     },
@@ -3275,7 +3275,7 @@ ns.translate({
     ["thunder-bluff"] = {
       title = "Thunder Bluff",
       text = {
-        { "Thunder Bluff se dresse tout en haut des mesas de Mulgore, et l'on y accède par de grands ascenseurs ou à dos de coursier du vent. Des ponts de corde relient ses cimes. Un nain de Forgefer habitué aux sols bien solides fera peut-être bien de regarder où il met les pieds avant de regarder la vue." },
+        { "Thunder Bluff se dresse tout en haut des mesas de Mulgore, et l'on y accède par de grands ascenseurs ou à dos de cavalier céleste. Des ponts de corde relient ses cimes. Un nain de Forgefer habitué aux sols bien solides fera peut-être bien de regarder où il met les pieds avant de regarder la vue." },
         { "Cairne a bâti ce refuge après que les taurens et les orcs eurent repoussé les centaures. Des tribus longtemps habituées à l'errance s'y sont rassemblées. Marchands et artisans le partagent désormais avec les chasseurs, les druides de la cime des Anciens, et les chamans et les voyants de la cime des Esprits." },
         { "Cairne demeure grand chef en son centre. Le Totem sinistre compte parmi ceux qui s'opposent à son autorité. Un voyageur y voit un peuple qui a enfin une cité, même si un foyer permanent n'a pas mis fin aux désaccords entre ses tribus." },
       },
