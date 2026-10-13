@@ -1,5 +1,6 @@
 ---
 id: the-ashbringer
+source: 3b569e6d94c8
 title: Le Porte-cendres
 ---
 Le Porte-cendres fut un homme avant d'être une épée. Le généralissime Mograine fonda la Croisade écarlate avec le grand général Abbendis et le grand inquisiteur Isillien, quand c'était encore un ordre noble, et on l'appelait le Porte-cendres pour ce qu'il faisait aux armées du roi-liche : il entrait dans des bataillons entiers de morts-vivants et en ressortait de l'autre côté sans rien laisser derrière lui que des cendres. Sa lame prit son nom.

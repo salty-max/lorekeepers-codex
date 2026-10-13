@@ -1,5 +1,6 @@
 ---
 id: scarlet-monastery
+source: bef3f9074a2c
 title: Le Monastère écarlate
 ---
 La Croisade écarlate tient un monastère sur une colline du nord de Tirisfal, au-dessus de la mer. Ses murs renferment une bibliothèque, une armurerie, un cimetière et une cathédrale. Chevaliers, prêtres et inquisiteurs s'y forment pour une guerre qui va bien au-delà du Fléau.

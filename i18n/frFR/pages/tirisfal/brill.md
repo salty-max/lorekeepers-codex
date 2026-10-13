@@ -1,5 +1,6 @@
 ---
 id: brill
+source: a88594dbc45f
 title: Brill
 ---
 Brill était une paisible ville de fermiers sur la route à l'est du Glas, et les Réprouvés en ont fait la leur : l'hôtel de ville abrite un magistrat, la taverne des Pendus sert ses étranges boissons à d'étranges clients, et dans sa cave les Gardes noirs gardent leurs prisonniers, des montagnards nains parmi eux, en attendant de s'en occuper.

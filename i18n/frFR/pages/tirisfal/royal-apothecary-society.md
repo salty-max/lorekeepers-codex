@@ -1,5 +1,6 @@
 ---
 id: royal-apothecary-society
+source: 9f471f04f616
 title: La Société royale des apothicaires
 ---
 La Société royale des apothicaires du maître Faranell sert les Réprouvés par l'alchimie, les poisons et la promesse d'une nouvelle peste. Sylvanas a chargé ses membres de trouver une maladie capable de détruire le Fléau du roi-liche. Leurs préparatifs s'étendent bien au-delà des laboratoires de Fossoyeuse.

@@ -1,5 +1,6 @@
 ---
 id: deathknell
+source: d0e4b40da11f
 title: Le Glas
 ---
 Le Glas est une crypte et un village en ruine à la lisière ouest de Tirisfal, et c'est là que les Réprouvés s'éveillent. Les morts de Lordaeron qui se relèvent maîtres de leur esprit sont amenés ici, et le gardien de la crypte les accueille par les mots dont chacun d'eux se souvient : vous n'êtes plus l'esclave du roi-liche.

@@ -1,5 +1,6 @@
 ---
 id: the-bulwark
+source: c375815ed783
 title: La Barricade
 ---
 La Barricade est le mur que les Réprouvés ont élevé à la lisière est de Tirisfal, là où finissent les clairières et où commencent les Maleterres, et ils le tiennent jour et nuit contre le Fléau. Des Gardes noirs en tiennent la porte, et des officiers de l'Aube d'argent y ont aussi un poste, ce qui en dit long sur la crainte que leur inspire à tous ce qui se trouve au-delà.

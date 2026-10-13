@@ -1,5 +1,6 @@
 ---
 id: the-agamands
+source: 0dad89ca24f6
 title: Les Agamand
 ---
 Les Agamand étaient la famille la plus riche de Tirisfal, et ces moulins leur appartenaient. Quand le Fléau arriva, ils fortifièrent la maison et ordonnèrent à tous leurs gens de rester les aider à la tenir. Les ouvriers agricoles restèrent. Ils étaient loyaux, dit l'un d'eux aujourd'hui, et idiots.

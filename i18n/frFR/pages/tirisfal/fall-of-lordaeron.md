@@ -1,5 +1,6 @@
 ---
 id: fall-of-lordaeron
+source: 55b44126ebfc
 title: La chute de Lordaeron
 ---
 Lordaeron était le premier des royaumes des hommes, et son roi, Terenas Menethil, avait mené l'Alliance pendant la Deuxième Guerre. Quand la peste descendit du nord et que les morts commencèrent à se relever, ce fut son fils, le prince Arthas, paladin de la Main d'argent, qui partit la combattre.

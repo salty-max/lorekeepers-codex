@@ -1,5 +1,6 @@
 ---
 id: varimathras
+source: 1eca0f368172
 title: Varimathras
 ---
 Quand Arthas partit pour le Norfendre, Varimathras et ses frères seigneurs de l'effroi régnèrent sur les ruines de Lordaeron. Sylvanas, tout juste libérée de l'emprise du roi-liche, le vainquit et lui offrit le choix entre la servitude et la mort. Il choisit la servitude, puis l'aida à se retourner contre ses frères.

@@ -1,5 +1,6 @@
 ---
 id: the-forsaken
+source: 92782495f9b1
 title: Les Réprouvés
 ---
 Quand l'emprise du roi-liche sur ses morts faiblit, certains d'entre eux s'éveillèrent. Ils étaient toujours morts, mais leur esprit leur appartenait de nouveau, et ils se souvenaient de ce qu'ils avaient été et de ce qu'on leur avait fait. Ils se nomment les Réprouvés, et ils suivent celle qui les a libérés : Sylvanas Windrunner, la reine banshee.

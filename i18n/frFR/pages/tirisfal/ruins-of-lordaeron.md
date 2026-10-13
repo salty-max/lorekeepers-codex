@@ -1,5 +1,6 @@
 ---
 id: ruins-of-lordaeron
+source: 3f66716a8f81
 title: Les ruines de Lordaeron
 ---
 Au-dessus de Fossoyeuse, les rues de la capitale de Lordaeron sont moins vides qu'elles n'en ont l'air depuis la porte. Le Fléau arpente encore en nombre les ruines les plus profondes, et un brouillard impie s'est répandu sur les rues et le vieux cimetière, levé, croient les Gardes noirs, par un nécromancien du nom de Rath'mael, sur le surplomb de Lordamere. Les Réprouvés envoient les forces qu'ils peuvent épargner, et leurs pertes sont telles qu'un paladin du Quartier royal demande aux voyageurs de lui rapporter les membres intacts que laissent les morts.

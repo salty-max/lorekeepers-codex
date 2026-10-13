@@ -1,5 +1,6 @@
 ---
 id: parqual-fintallas
+source: aa5db013bfa1
 title: Parqual Fintallas
 ---
 Avant la peste, Parqual Fintallas était l'un des grands historiens de Lordaeron. Il est aujourd'hui un Réprouvé et se tient à l'Apothicarium de Fossoyeuse, toujours à l'étude, même si l'objet de ses études a changé avec lui.

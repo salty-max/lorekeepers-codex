@@ -1,5 +1,6 @@
 ---
 id: tirisfal-glades
+source: c208daa960ec
 title: Clairières de Tirisfal
 ---
 Tirisfal était le cœur du royaume de Lordaeron : des terres agricoles vallonnées, des vergers et des moulins autour de la capitale, la contrée la plus riche du nord. C'est aussi une vieille terre à d'autres égards ; les clairières ont donné leur nom à l'ordre secret des mages, les Gardiens de Tirisfal, qui veillèrent sur le monde pendant des siècles.

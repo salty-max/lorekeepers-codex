@@ -1,5 +1,6 @@
 ---
 id: the-crusades-fallen
+source: d04006bd6b51
 title: Les morts de la Croisade
 ---
 Le Monastère écarlate enterre ses héros dans son propre cimetière, et leurs pierres en disent plus sur la Croisade que ses sermons. Lisez-les et vous découvrirez qu'elle ne fut jamais un simple ordre humain de Lordaeron : un grand sorcier et un capitaine des forestiers citoyens de Quel'thalas, des assassins de Dalaran, un guerrier d'Alterac, un seigneur des Cavernes rouges, un amiral de Kul Tiras.

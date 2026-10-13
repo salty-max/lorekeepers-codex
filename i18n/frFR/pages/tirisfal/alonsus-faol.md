@@ -1,5 +1,6 @@
 ---
 id: alonsus-faol
+source: 24bbcd34140f
 title: Alonsus Faol
 ---
 Alonsus Faol dirigeait les clercs de Comté-du-Nord avant la Première Guerre, et quand Hurlevent tomba, et l'abbaye avec elle, le vieil homme partit vers le nord avec les réfugiés. En Lordaeron, devenu archevêque, il donna une épée à l'Église de la Lumière sacrée : il fonda les chevaliers de la Main d'argent et oignit son apprenti, Uther, premier des paladins.

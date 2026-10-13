@@ -1,5 +1,6 @@
 ---
 id: undercity
+source: 1cadfbd3a56d
 title: Fossoyeuse
 ---
 La capitale de Lordaeron gît en ruine au-dessus de la propre cité des Réprouvés. Derrière ses murailles brisées se trouvent la salle du trône dévastée et des cours sans vie. En dessous, de vieilles cryptes et des catacombes sont devenues Fossoyeuse, disposée autour d'anneaux de bave verte. Sylvanas tient sa cour dans son quartier royal.
