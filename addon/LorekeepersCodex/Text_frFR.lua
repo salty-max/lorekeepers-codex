@@ -531,6 +531,13 @@ ns.translate({
         { "Nimboya soupçonne les Bloodscalp de retenir Yenniku, le plus jeune fils de son chef. La recherche mène ailleurs : Zanzil le Paria le tient sous son emprise magique. Suivez cette distinction, $gvoyageur:voyageuse;. Le premier ennemi nommé dans une enquête n'est pas toujours le responsable." },
       },
     },
+    ["bloodvenom-post"] = {
+      title = "Le poste de la Vénéneuse",
+      text = {
+        { "Le poste de la Vénéneuse est le camp de la Horde au cœur de Gangrebois, à côté des chutes empoisonnées de la Vénéneuse. Ses habitants combattent le Conseil des ombres à Jaedenar et les choses corrompues de la forêt, et une veuve y attend de se venger du furbolg qui a tué son mari." },
+        { "Tout le monde au poste ne veut pas que Gangrebois guérisse. Une apothicaire réprouvée, Winna Hazzard, étudie le puits de lune corrompu des satyres Jadefeu, en quête dans son eau d'un avantage contre l'Alliance. Je garderais un œil sur son chat." },
+      },
+    },
     ["blue-dragonflight"] = {
       title = "Le Vol draconique bleu",
       text = {
@@ -981,6 +988,13 @@ ns.translate({
         { "La paix est plus mince qu'il n'y paraît. Les kobolds ont pris les mines, les gnolls Rivepatte lancent leurs raids depuis l'ouest, et les Défias aux masques rouges ont débordé de la Marche de l'Ouest jusque dans les bois. Demandez à n'importe quel fermier d'Elwynn si les soldats du roi viennent quand on les appelle." },
       },
     },
+    ["emerald-sanctuary"] = {
+      title = "Le sanctuaire d'Émeraude",
+      text = {
+        { "Le sanctuaire d'Émeraude est un bosquet au sud de Gangrebois, tenu par le Cercle d'émeraude, des druides du Cercle cénarien qui ont juré de guérir la forêt. Ils combattent les satyres Jadefeu et le Conseil des ombres, et étudient l'ambre de sang des élémentaires corrompus, dans l'espoir d'apprendre comment sauver le reste." },
+        { "Leur patience est immense. Ils purifient une à une les chantefleurs et les fleurs-du-vent souillées, et ils purifient les esprits des anciens que les satyres ont liés par la magie gangrenée. C'est un travail lent, et ils savent qu'il pourrait durer plus longtemps qu'aucun d'eux ne vivra. Ce sont des elfes de la nuit ; ils pourraient bien avoir raison." },
+      },
+    },
     ["eranikus"] = {
       title = "Eranikus",
       text = {
@@ -1031,6 +1045,13 @@ ns.translate({
       text = {
         { "Le bastion de Feathermoon se dresse sur l'île de Sardor, au large de la côte de Feralas, accessible en bateau depuis le continent. La générale Shandris Feathermoon y commande ses Sentinelles, derrière des murs blancs au-dessus d'un port. La forteresse porte son nom." },
         { "Ses soldats s'opposent aux nagas Hainecrête de Solarsal et surveillent les ogres de la forêt. Des érudits travaillent aussi parmi les vieilles ruines elfiques de Feralas." },
+      },
+    },
+    ["felwood"] = {
+      title = "Gangrebois",
+      text = {
+        { "Gangrebois était la partie nord de la grande forêt d'Ashenvale. C'est aujourd'hui une terre empoisonnée, aux arbres noirs et tordus, aux rivières vertes, aux furbolgs fous et aux plantes mêmes souillées. Ce sont les démons qui ont fait cela. Pendant la dernière guerre, le seigneur de l'effroi Tichondrius détenait ici le crâne de Gul'dan, et sa corruption se répandit dans les bois ; quand Illidan Stormrage prit pour lui la puissance du crâne, la forêt ne guérit pas." },
+        { "Le Conseil des ombres et ses démons tiennent Jaedenar, les satyres Jadefeu les vieilles ruines, et des anciens et des élémentaires corrompus parcourent les bois. Les druides du Cercle d'émeraude tentent de la guérir, plante après plante ; la Horde tient le poste de la Vénéneuse au milieu, et les elfes de la nuit une clairière au nord, aux portes des Grumegueules." },
       },
     },
     ["feralas"] = {
@@ -1322,6 +1343,14 @@ ns.translate({
         { "Ce ne sont pas des amis des mortels, mais ils font leurs alliés de ceux qui combattent leurs ennemis : les élémentaires de terre et d'air des puits des Maleterres et de Silithus, et les seigneurs du feu sous le mont Rochenoire. À ceux en qui ils ont confiance, ils donnent l'eau qui éteint les runes du Cœur du Magma, et un moyen de faire sortir le chambellan du seigneur du Feu." },
       },
     },
+    ["illidan-stormrage"] = {
+      title = "Illidan Stormrage",
+      text = {
+        { "Illidan était le frère jumeau de Malfurion, et il aimait lui aussi Tyrande ; elle choisit Malfurion. Pendant la guerre des Anciens, il combattit la Légion avec son frère, mais il ne renonça jamais à la magie des Bien-nés, et quand le Puits d'éternité fut détruit, il emporta des fioles de ses eaux au sommet du mont Hyjal et les versa dans un lac, créant un nouveau Puits. Il y voyait un cadeau. Malfurion y vit un crime et, avec l'aide de Cénarius, l'enferma dans une prison souterraine, enchaîné et gardé, pendant dix mille ans." },
+        { "Tyrande le libéra quand la Légion revint, dans l'espoir qu'il aiderait. Dans ces bois, il fit autre chose. Le seigneur de l'effroi Tichondrius détenait ici le crâne de Gul'dan, une relique de démoniste pleine de puissance gangrenée, et Illidan la prit et but sa force. Il en ressortit avec la forme d'un démon, avec certains des souvenirs de Gul'dan, et tua Tichondrius. Malfurion le bannit pour cela." },
+        { "Le livre de notre bibliothèque le fait fuir ensuite, au-delà du monde, vers les restes brisés de la patrie des orcs, avec les nagas et les elfes de sang dans son sillage. Gangrebois ne s'est pas remis non plus de cette nuit-là." },
+      },
+    },
     ["internment-camps"] = {
       title = "Les camps d'internement",
       text = {
@@ -1347,6 +1376,13 @@ ns.translate({
         { client = "forever", "Sous le Vieux Forgefer s'étend la salle des Thanes. Des intrus sombrefer y ont fait une brèche, et Magni veut la tête de leur commandant, Durgen Dirgehammer. Même ici, les plus vieilles salles d'une cité peuvent devenir ses plus récents soucis." },
         { "Et puis il y a le Hall des Explorateurs, où la Ligue garde sa bibliothèque et ses trouvailles : des reliques d'Uldaman, les ossements de bêtes que personne n'a vues vivantes, et des cartes de lieux que la plupart des nains ne connaîtront jamais que par les livres. Quant à moi, vous me trouverez au Haut-Siège, à quelques pas du trône du roi. Venez me voir. Je manque toujours de gens qui sont vraiment allés quelque part." },
         { side = "Horde", aside = true, sign = "P. F.", "Son invitation part d'un bon sentiment. Je ne conseillerais pas de l'accepter aux couleurs de la Horde." },
+      },
+    },
+    ["jaedenar"] = {
+      title = "Jaedenar",
+      text = {
+        { "Jaedenar était un lieu des elfes de la nuit, avec des ruines et des refuges des saisons à l'ouest de Gangrebois. Le Conseil des ombres le tient désormais, le vieux culte de démonistes qui fit jadis des orcs un outil de la Légion ardente. Démonistes orcs et réprouvés, démons et satyres emplissent ses salles, et en dessous, dans le Fort des ombres, le seigneur des ténèbres Fel'dan conclut ses pactes avec la Légion." },
+        { "Le Cercle d'émeraude veut que le Conseil soit détruit. Même à l'intérieur, le culte est en guerre contre lui-même : ses maîtres complotent les uns contre les autres, et chacun de leurs rivaux a des espions aux côtés des autres." },
       },
     },
     ["jaina-proudmoore"] = {
@@ -2307,6 +2343,13 @@ ns.translate({
         { "Ses années de charge n'ont pas été faciles. Les pylônes faiblissent, les deux ordres de son peuple peinent à s'entendre sur quoi que ce soit, et le culte des Al'Aketh a frappé la tour de guet de l'ouest et tué son propre neveu, un garde-paix. Quand la grande prêtresse du culte fut enfin chassée, il ne parla pas de victoire. Les protections qui avaient caché Zéphras à Al'Akir étaient tombées, et il ne put que dire qu'il faudrait peut-être des années, voire des décennies, avant que le seigneur des Vents ne pose les yeux sur eux." },
       },
     },
+    ["talonbranch-glade"] = {
+      title = "La clairière de Griffebranche",
+      text = {
+        { "La clairière de Griffebranche est un petit avant-poste elfe de la nuit au nord de Gangrebois, avec un puits de lune et quelques maisons parmi les arbres corrompus, juste au sud des Grumegueules, le tunnel des furbolgs qui mène à Reflet-de-Lune et au Berceau-de-l'Hiver." },
+        { "C'est un petit îlot de terre saine dans une forêt malade, et les Sentinelles qui le gardent veillent sur la route du nord pour tous les voyageurs qui doivent traverser Gangrebois." },
+      },
+    },
     ["tanaris"] = {
       title = "Tanaris",
       text = {
@@ -2502,7 +2545,7 @@ ns.translate({
     ["the-sundering"] = {
       title = "La Fracture",
       text = {
-        { "Il y a dix mille ans, les elfes de la nuit régnaient sur Kalimdor depuis les rives du Puits d'éternité, un lac de magie pure au cœur du monde. Leur reine était Azshara, la plus belle d'entre tous, et ses Bien-nés puisaient sans limite dans la puissance du Puits. Leur magie attira le regard de Sargeras, le seigneur de la Légion ardente, et Azshara et ses Bien-nés lui ouvrirent la voie, persuadés que les démons rendraient le monde parfait." },
+        { "Il y a dix mille ans, les elfes de la nuit régnaient sur Kalimdor depuis les rives du Puits d'éternité, un lac de magie pure au cœur du monde. Leur reine était Azshara, la plus belle de toutes, et ses Bien-nés puisaient sans limite dans la puissance du Puits. Leur magie attira le regard de Sargeras, le seigneur de la Légion ardente, et Azshara et ses Bien-nés lui ouvrirent la voie, persuadés que les démons rendraient le monde parfait." },
         { "Les elfes de la nuit qui refusèrent de s'incliner combattirent la Légion pendant la guerre des Anciens. Le seigneur Kur'talos Ravencrest les mena d'abord, persuadé que sa reine était prisonnière de ses propres conseillers, jusqu'à ce qu'un assassin envoyé par son capitaine de la garde le tue sur le champ de bataille ; le commandement échut enfin à un jeune officier, Jarod Shadowsong, qui fit ce que Ravencrest avait refusé de faire et appela les autres races, les terrestres, les taurens, les furbolgs, et les demi-dieux de la forêt, Cénarius parmi eux. Le jeune druide Malfurion Stormrage et la prêtresse Tyrande combattirent au cœur de la bataille. Le frère de Malfurion, Illidan, passa aux Bien-nés, et le dragon Neltharion se retourna contre les autres vols." },
         { "À la fin, Malfurion comprit que le Puits lui-même était la porte de la Légion, et le Puits d'éternité fut détruit. Il se déchira et emporta avec lui le cœur du continent, et la mer s'engouffra dans le trou qu'il laissa. Azshara et ses Bien-nés sombrèrent avec leur palais. De ce rivage, la Grève fracassée, vous contemplez l'endroit où le monde s'est brisé." },
       },
