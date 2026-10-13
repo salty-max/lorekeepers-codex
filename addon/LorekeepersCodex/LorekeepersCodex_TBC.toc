@@ -3,7 +3,7 @@
 ## Notes: Unlock Azeroth's lore as you explore, meet its people and complete quests. Collect the books and notes you read along the way.
 ## Category: Roleplay
 ## Author: salty-max
-## Version: 0.10.0
+## Version: 0.11.0
 ## SavedVariablesPerCharacter: LorekeepersCodexChar
 ## SavedVariables: LorekeepersCodexSettings, LorekeepersCodexScan
 ## IconTexture: Interface\AddOns\LorekeepersCodex\Media\Logo
