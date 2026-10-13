@@ -502,6 +502,13 @@ ns.translate({
         { "Je ne dis pas qu'ils ont eu tort ; je n'y étais pas. Mais j'aimerais beaucoup savoir ce qu'un terrestre faisait endormi dans un tonneau sous les Serres-Rocheuses, et qui l'y avait mis." },
       },
     },
+    ["brackenwall-village"] = {
+      title = "Mur-de-Fougères",
+      text = {
+        { "Mur-de-Fougères est le camp de la Horde dans le marécage d'Âprefange, tenu par des orcs et par les ogres du clan Cognepierre. Les Cognepierre sont des alliés de la Horde grâce au maître des bêtes Rexxar, qui fit de leur seigneur Mok'Morokk le chef du clan ; les ogres vous le rappellent, souvent." },
+        { "Ils sont venus à Mur-de-Fougères parce qu'ils y étaient obligés. La couvée d'Onyxia s'est abattue sur leur ancien foyer, au sud du marais, et les a chassés par le feu, et le membre le plus malin du clan, un ogre à deux têtes qui s'exprime mieux que la plupart des nains, essaie de comprendre pourquoi. La Horde aimerait elle aussi savoir pourquoi la fille d'Aile de mort s'intéresse à une petite bande d'ogres." },
+      },
+    },
     ["brill"] = {
       title = "Brill",
       text = {
@@ -805,6 +812,13 @@ ns.translate({
       text = {
         { "Au sud d'Elwynn, les arbres se resserrent, la lumière devient grise, et vous voilà au Bois de la Pénombre. Il faisait autrefois partie de la même forêt verte ; des hommes y vivaient et y cultivaient la terre comme à Elwynn. Puis une obscurité tomba sur ces bois et ne s'est jamais levée. Personne à Sombre-Comté ne peut vous dire pourquoi avec certitude, même si beaucoup jettent un regard vers l'est, vers les terres mortes du défilé de Deuillevent et la tour qui s'y dresse." },
         { "Ce que l'obscurité a apporté est assez clair. Les morts se relèvent du cimetière de Colline-aux-Corbeaux, des worgens chassent dans les bois, des araignées atteignent la taille d'un poney, et des ogres se sont installés dans les collines. Les fermes sont abandonnées, et ceux qui restent se sont rassemblés derrière les lanternes de Sombre-Comté sous leur propre milice, car Hurlevent a retiré ses gardes. C'est un endroit pour voyageurs courageux, et pour des histoires racontées au coin du feu, la porte barrée." },
+      },
+    },
+    ["dustwallow-marsh"] = {
+      title = "Marécage d'Âprefange",
+      text = {
+        { "Le marécage d'Âprefange est un vaste marais humide sur la côte est de Kalimdor, au sud des Tarides : des roseaux, des mares noires, des crocilisques, des raptors et beaucoup de brouillard. Sur une île au large de sa côte se dresse Theramore, la cité humaine de dame Jaina Proudmoore, et dans les confins sud du marais s'étend la tourbière du Ver, où Onyxia a son repaire." },
+        { "Entre les deux, il y a les ogres de Mur-de-Fougères, qui servent la Horde, la ruine brûlée d'une auberge sur laquelle chacun a sa théorie, et un grand nombre de dragons noirs. C'est un marais où l'Alliance et la Horde ont accepté de vivre en voisines, et où toutes deux se surveillent de très près." },
       },
     },
     ["dwarves"] = {
@@ -1169,6 +1183,14 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Son invitation part d'un bon sentiment. Je ne conseillerais pas de l'accepter aux couleurs de la Horde." },
       },
     },
+    ["jaina-proudmoore"] = {
+      title = "Dame Jaina Proudmoore",
+      text = {
+        { "Jaina Proudmoore était une jeune sorcière de Dalaran, la fille de l'amiral de Kul Tiras, et une amie du prince Arthas en des jours plus heureux. Quand la peste arriva, elle chevaucha à ses côtés, jusqu'à Stratholme, où elle refusa de le suivre. Puis un prophète l'envoya vers l'ouest, par-delà la mer, et elle mena ce qui restait du peuple de Lordaeron jusqu'en Kalimdor." },
+        { "Là, elle fit ce que personne dans l'Alliance ne croyait possible : elle combattit aux côtés de Thrall et des elfes de la nuit contre la Légion ardente au mont Hyjal, puis fit la paix avec la Horde. Quand son père, l'amiral Daelin Proudmoore, vint avec sa flotte pour achever la vieille guerre, elle ne se mit pas en travers du chemin de la Horde, et il en mourut. Elle porte ce poids depuis." },
+        { "Garder la paix n'a pas été facile. Quelques années après Hyjal, des raids et des navires coulés faillirent de nouveau dresser Theramore et Durotar l'une contre l'autre, jusqu'à ce que Jaina, travaillant discrètement avec Thrall, découvre la Lame ardente derrière tout cela, et son propre chambellan à sa solde. Cette enquête la mena dans un coin protégé de Durotar où elle rencontra la dernière personne qu'elle s'attendait à trouver vivante : Aegwynn, la Gardienne, la mère de Medivh, qui vivait seule. Jaina gouverne toujours Theramore et maintient la paix avec Thrall, et je crois que c'est la personne la plus courageuse de ce registre." },
+      },
+    },
     ["katrana-prestor"] = {
       title = "Dame Katrana Prestor",
       text = {
@@ -1428,6 +1450,20 @@ ns.translate({
       text = {
         { "Onu, un Ancien du savoir, se dresse au Bosquet des Anciens, au sud de Sombrivage. Il demande aux voyageurs d'enquêter sur le Glaive du Maître, où le Marteau du crépuscule fouille parmi les restes d'une puissance déchue. Onu croit que quelque chose de sa force peut encore s'y trouver, longtemps après sa mort." },
         { "Il fournit une fiole qui crée une coupe de divination, lui permettant de parler à la personne qui mène l'enquête. Emportez-la, $gvoyageur:voyageuse;. Un Ancien n'a pas besoin de marcher jusqu'au Glaive pour s'intéresser à ce que le culte y découvre." },
+      },
+    },
+    ["onyxia"] = {
+      title = "Onyxia",
+      text = {
+        { "Onyxia, fille d'Aile de mort et sœur de Nefarian, passa des années à conseiller le régent de Hurlevent sous les traits de dame Katrana Prestor. Elle plia la volonté du royaume et retint ses troupes chez elles tandis que les orcs de son frère menaçaient les Carmines. Le maréchal Windsor la démasqua devant la cour. Elle s'enfuit dans le marécage d'Âprefange." },
+        { "Son repaire est une autre affaire que sa place à la cour. C'est une dragonne ancienne et redoutable, et des champions des deux factions cherchent un moyen d'y entrer. Un voyageur qui a appris son nom humain sait pourquoi s'opposer à elle ; atteindre sa grotte laisse encore la dragonne elle-même à affronter." },
+      },
+    },
+    ["onyxias-lair"] = {
+      title = "Le repaire d'Onyxia",
+      text = {
+        { "Onyxia a son repaire dans la tourbière du Ver, au sud du marécage d'Âprefange : une grande grotte dans les falaises, avec les œufs de sa couvée à l'intérieur et des draconiens noirs partout dans la tourbière alentour. Traverser le marais est la partie facile." },
+        { "L'entrée est protégée, et seule une Amulette drakefeu ouvre la voie. Alliance et Horde sont envoyées par le long chemin pour en fabriquer une : à travers le pic Rochenoire, pour le sang du général Drakkisath, qui commande les dragons du pic. La route de la Horde passe aussi par le drake Brandeguerre, qu'il faut tromper au moyen d'une illusion, mais c'est l'amulette qui vous fait entrer." },
       },
     },
     ["orcs"] = {
@@ -1730,6 +1766,13 @@ ns.translate({
       text = {
         { "Proie-de-l'Ombre est le camp de la Horde sur la côte ouest de Désolace, un village troll et tauren de huttes sur pilotis au bord de la mer, la dernière étape avant la longue route du sud vers Feralas. Ses habitants chassent dans le pays mort et gardent un œil sur les centaures comme sur les démons." },
         { "Une taurène de Proie-de-l'Ombre s'est chargée de fermer les portails démoniaques de la Lame ardente, et un druide du Cercle cénarien campe tout près, attendant quelqu'un d'assez fort pour entrer dans Maraudon. C'est un petit village aux grands problèmes." },
+      },
+    },
+    ["shady-rest-inn"] = {
+      title = "L'auberge du Repos ombragé",
+      text = {
+        { "Sur la route entre les Tarides et Theramore se trouvait autrefois une auberge, le Repos ombragé, où les voyageurs des deux factions s'arrêtaient pour boire un verre sans qu'on leur pose de questions. Elle a brûlé. Son squelette se dresse encore au bord de la route, et autour, les enquêteurs des deux camps ont trouvé des choses qui ne s'emboîtent pas." },
+        { "Il y a des traces de sabots dans la boue, qui s'éloignent. Il y a un bouclier de fer noir fixé à la cheminée. Et il y a un insigne dans les cendres, l'ancre d'or de Theramore, avec le nom d'un lieutenant, un soldat de marine kultirassien venu par-delà la mer avec dame Proudmoore, porté disparu, et qui semble s'être joint à une bande de déserteurs dans le marais. Qui a brûlé le Repos ombragé, et pourquoi, je l'ignore. Je soupçonne que quelqu'un voulait que l'Alliance et la Horde s'en accusent mutuellement." },
       },
     },
     ["shamans"] = {
@@ -2095,6 +2138,13 @@ ns.translate({
         { "Thelsamar est le cœur du Loch Modan : un village de maisons de pierre sur la route entre Forgefer et les Paluns, avec une forge, une bonne auberge et un maître des griffons pour ceux qui sont pressés." },
         { "C'est le genre d'endroit où tout le monde connaît tout le monde et où les nouvelles voyagent plus vite que les griffons. Demandez à l'auberge ce qui se passe dans le pays du loch et vous l'entendrez trois fois, chaque version meilleure que la précédente." },
         { "Les montagnards d'ici sont débordés. Si vous avez le bras solide et un après-midi de libre, ils vous trouveront de quoi faire." },
+      },
+    },
+    ["theramore-isle"] = {
+      title = "Île de Theramore",
+      text = {
+        { "Theramore est la cité que Jaina Proudmoore bâtit quand elle mena les survivants de Lordaeron par-delà la mer jusqu'en Kalimdor, un port fortifié de pierre blanche sur une île au large de la côte du marécage d'Âprefange. C'est la plus solide place forte de l'Alliance sur le continent, et le seul endroit au monde où un souverain humain a conclu une paix durable avec la Horde." },
+        { "Beaucoup de ses soldats ont traversé la mer avec dame Proudmoore, des soldats de marine kultirassiens parmi eux, et tous n'ont pas fait la paix avec cette paix. Theramore garde des tours de guet à travers le marais et un fort dans les Tarides, et ses capitaines ont sur leur bureau plus de mystères qu'ils n'en voudraient." },
       },
     },
     ["thoradins-wall"] = {
