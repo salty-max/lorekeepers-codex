@@ -1902,6 +1902,13 @@ ns.translate({
         { "La Faux réapparut dans la mine au sud de Sombre-Comté que les gens du pays appellent le Destin de Roland. Un Défias surnommé La Tremblotte la tira d'un tas de gravats, et les worgens jaillirent des parois ; il la perdit de nouveau dans sa fuite, et les archives ne disent pas où elle se trouve aujourd'hui. Le présent d'une déesse, quelque part dans le noir d'une mine du Bois de la Pénombre, qui ouvre peut-être encore des portes. Je préférerais qu'elle soit retrouvée par une prêtresse plutôt que par un prospecteur." },
       },
     },
+    ["searing-gorge"] = {
+      title = "Gorge des Vents brûlants",
+      text = {
+        { "La gorge des Vents brûlants s'étend au nord du mont Rochenoire, une cuvette de cendres et d'escarbilles enfermée entre des falaises. Des routes venues du Loch Modan et des Terres ingrates y mènent. C'était autrefois un pays vert, brûlé quand Thaurissan invoqua Ragnaros ; la fumée s'élève encore de ce que le seigneur du Feu a laissé derrière lui." },
+        { "Les nains Sombrefer exploitent la grande fosse appelée le Chaudron avec des esclaves et des golems. Des élémentaires de feu traversent les scories, et le Marteau du crépuscule tient un autel dans les collines du nord-ouest. Au-dessus de la fosse, des Sombrefer renégats tiennent un camp à eux. Vous pouvez voir une bonne partie du pays depuis ses falaises, $gvoyageur:voyageuse;, même si la vue offre peu de perspectives réconfortantes." },
+      },
+    },
     ["senjin-village"] = {
       title = "Le village de Sen'jin",
       text = {
@@ -2285,6 +2292,13 @@ ns.translate({
         { "On trouve des choses plus étranges à la Barricade. Alexi Barov, le dernier d'une maison noble de Lordaeron qui vendit son château au Culte des damnés, y tient compagnie aux Réprouvés, et a sur la fortune de sa famille des opinions qu'il partage volontiers." },
       },
     },
+    ["the-cauldron"] = {
+      title = "Le Chaudron",
+      text = {
+        { "Le Chaudron est la grande fosse minière des Sombrefer dans la gorge des Vents brûlants, entourée de machines de forage et exploitée dans la chaleur par des esclaves. Certains de ses captifs ont été poussés à une telle folie qu'ils attaquent même ceux qui voudraient les libérer." },
+        { "Le plus petit site de fouilles de Crasseboue se trouve au sud-est. Sous la fosse principale, le surveillant Maltorius commande la Fosse aux scories, après avoir abandonné la Confrérie du thorium pour retourner auprès de ses anciens maîtres. Il y a aussi, à Crasseboue, des latrines avec une clé. Les affaires d'un voyageur dans ce pays peuvent l'amener à des enfermements de natures remarquablement diverses." },
+      },
+    },
     ["the-crossroads"] = {
       title = "La Croisée",
       text = {
@@ -2422,6 +2436,13 @@ ns.translate({
       text = {
         { "Thoradin était le chef de la tribu arathi, il y a bien longtemps, qui conquit ou persuada les tribus humaines éparpillées du nord jusqu'à en faire une seule nation, l'empire d'Arathor, et bâtit sa capitale à Strom. Quand les trolls de l'empire amani firent la guerre aux elfes de Quel'thalas, ce fut Thoradin qui mena les hommes combattre à leurs côtés, et les mages humains que les elfes formèrent pendant cette guerre furent le commencement de toute la magie humaine." },
         { "Son mur court toujours à travers les collines entre Arathi et Hautebrande, brisé désormais, envahi par la végétation, mais toujours grand. Les hommes qui le bâtirent ont disparu depuis longtemps, et l'empire avec eux, mais chaque roi humain a prétendu être son héritier." },
+      },
+    },
+    ["thorium-brotherhood"] = {
+      title = "La Confrérie du thorium",
+      text = {
+        { "La Confrérie du thorium est formée de nains Sombrefer qui ont quitté leur empereur. Ses forgerons travaillent à la Halte du thorium, au-dessus du Chaudron, et commercent avec ceux qui veulent bien les aider contre les forces de Thaurissan. Un Bronzebeard peut admirer leur art sans grande difficulté ; l'arrangement politique demande un peu plus d'explications." },
+        { "Ils savent forger les armes et les armures du seigneur du Feu, pourvu que quelqu'un leur rapporte les matériaux de l'intérieur de la montagne. L'un d'eux fait même commerce dans la taverne de la cité d'Ombreforge, au nez et à la barbe de l'empereur. Si vous voulez leur travail, $gvoyageur:voyageuse;, apportez ce dont ils ont besoin. Leur querelle avec leurs anciens parents n'a rien ôté à leur talent." },
       },
     },
     ["thousand-needles"] = {
