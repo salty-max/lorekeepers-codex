@@ -131,6 +131,13 @@ local function ui()
           if was and self.scripts.OnHide then self.scripts.OnHide(self) end
         end
       end
+      -- (a texture's tint and greying: a ring's colour)
+      if k == "SetVertexColor" then
+        return function(self, r, g, b) self.vertex = { r, g, b } end
+      end
+      if k == "SetDesaturated" then
+        return function(self, v) self.desaturated = v end
+      end
       if k == "SetChecked" then
         return function(self, v) self.checked = v and true or false end
       end
@@ -1091,8 +1098,11 @@ for _, r in ipairs(ns.achievementRows) do
   if r.shown and r.id == "leaders" then leadersRow = r end
 end
 check(
-  leadersRow and leadersRow.medal.shown and leadersRow.status.text:find("^Level"),
-  "… with its group's picture, a medal on it once earned, and when"
+  leadersRow
+    and leadersRow.picture.ring.vertex[2] == ns.kit.RINGS.gold[1][2]
+    and not leadersRow.picture.ring.desaturated
+    and leadersRow.status.text:find("^Level"),
+  "… with its group's picture, its ring gold once earned, and when"
 )
 LorekeepersCodexFrameTab1.scripts.OnClick(LorekeepersCodexFrameTab1)
 check(
