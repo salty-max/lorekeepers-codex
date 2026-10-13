@@ -1,0 +1,182 @@
+{
+  "ages-past": [
+    "Les Âges passés",
+    "L'histoire du monde, des Titans à la dernière guerre, telle que la racontent les vieux livres de ses bibliothèques."
+  ],
+  "alterac": [
+    "Montagnes d'Alterac",
+    "Un royaume déchu dans les neiges, Dalaran au bord du lac, et une vallée que deux peuples se disputent."
+  ],
+  "arathi": [
+    "Hautes-terres Arathies",
+    "Le berceau des royaumes humains, tombé en ruine et toujours disputé."
+  ],
+  "ashenvale": [
+    "Orneval",
+    "L'antique forêt des elfes de la nuit, et les haches des orcs à sa lisière."
+  ],
+  "azshara": [
+    "Azshara",
+    "La terre de la reine, au bord de la mer qui l'a engloutie."
+  ],
+  "badlands": [
+    "Terres Ingrates",
+    "Un désert rouge de canyons, et sous lui la chambre forte des titans, Uldaman."
+  ],
+  "barrens": [
+    "Les Tarides",
+    "La grande savane sèche au cœur de Kalimdor, et tous ceux qui se la disputent."
+  ],
+  "blackrock-mountain": [
+    "Mont Rochenoire",
+    "La montagne du seigneur du Feu, et la guerre qui s'y livre."
+  ],
+  "blasted-lands": [
+    "Terres Foudroyées",
+    "Le désert rouge autour de la Porte des Ténèbres."
+  ],
+  "burning-steppes": [
+    "Steppes Ardentes",
+    "La plaine de cendres au sud de la montagne, là où s'étendaient jadis les Carmines."
+  ],
+  "callings": [
+    "Les Vocations",
+    "Les voies des armes, de la foi et de la magie qu'un voyageur peut suivre, et d'où chacune d'elles vient."
+  ],
+  "darkshore": [
+    "Sombrivage",
+    "Une longue côte brumeuse semée de ruines elfiques, face à l'Arbre-Monde par-delà les eaux."
+  ],
+  "deadwind-pass": [
+    "Défilé de Deuillevent",
+    "La vallée morte du dernier Gardien."
+  ],
+  "desolace": [
+    "Désolace",
+    "Un pays gris et mort, de centaures, d'ossements et de démons."
+  ],
+  "dun-morogh": [
+    "Dun Morogh et Forgefer",
+    "Les vallées enneigées autour de Forgefer, berceau du clan Barbe-de-Bronze."
+  ],
+  "durotar": [
+    "Durotar et Orgrimmar",
+    "La terre rouge que Thrall a donnée à son peuple, et la cité qui porte le nom du chef de guerre qui les a libérés."
+  ],
+  "duskwood": [
+    "Bois de la Pénombre",
+    "Une forêt où la nuit ne finit jamais tout à fait, et où les morts ne restent pas en terre."
+  ],
+  "dustwallow": [
+    "Marécage d'Âprefange",
+    "La cité insulaire de dame Portvaillant, un marais plein de dragons, et une auberge qui a brûlé."
+  ],
+  "eastern-plaguelands": [
+    "Maleterres de l'Est",
+    "L'ancien Eastweald, Stratholme, et la nécropole dans le ciel."
+  ],
+  "elwynn": [
+    "Forêt d'Elwynn et Hurlevent",
+    "Le cœur du royaume humain : sa forêt, ses fermes et la cité blanche rebâtie sur ses cendres."
+  ],
+  "felwood": [
+    "Gangrebois",
+    "La forêt empoisonnée, où l'on trouva le crâne de Gul'dan."
+  ],
+  "feralas": [
+    "Féralas",
+    "Des arbres géants, des ogres, et les ruines des Bien-nés."
+  ],
+  "hillsbrad": [
+    "Contreforts de Hautebrande",
+    "De vertes collines où vivants et Réprouvés se disputent chaque ferme."
+  ],
+  "hinterlands": [
+    "Les Hinterlands",
+    "Les collines sauvages des nains Marteau-Hardi, et les temples trolls qu'ils partagent avec eux."
+  ],
+  "loch-modan": [
+    "Loch Modan",
+    "Le pays du lac à l'est de Forgefer, retenu par un barrage et veillé par des rois de pierre."
+  ],
+  "moonglade": [
+    "Reflet-de-Lune",
+    "La vallée sacrée des druides."
+  ],
+  "mulgore": [
+    "Mulgore et les Pitons-du-Tonnerre",
+    "Les vertes plaines des Taurens, et la cité sur les mesas."
+  ],
+  "peoples": [
+    "Peuples et puissances",
+    "Les peuples, ordres et factions qu'un voyageur rencontre en bien des contrées, réunis en un seul endroit."
+  ],
+  "redridge": [
+    "Les Carmines",
+    "Des collines rouges, un lac paisible et une ville assiégée par le nord."
+  ],
+  "searing-gorge": [
+    "Gorge des Vents brûlants",
+    "Le versant nord et brûlé de la montagne, et la grande fosse des Sombrefer."
+  ],
+  "silithus": [
+    "Silithus",
+    "Le désert des insectes, le Mur du Scarabée, et ce qui dort derrière."
+  ],
+  "silverpine": [
+    "Forêt des Pins-Argentés",
+    "Des pins gris entre les Réprouvés et la porte close de Gilnéas."
+  ],
+  "stonetalon": [
+    "Les Serres-Rocheuses",
+    "De hauts pics et de vieilles forêts, qui brûlent sous les scies des gobelins."
+  ],
+  "stranglethorn": [
+    "Vallée de Strangleronce",
+    "La jungle de l'ancien empire troll, où pirates, chasseurs et gobelins font fortune."
+  ],
+  "swamp-of-sorrows": [
+    "Marais des Chagrins",
+    "Un pays noyé de brume et de fange, et un temple englouti pour ses péchés."
+  ],
+  "tanaris": [
+    "Tanaris",
+    "Le grand désert du sud, et les portes des Guetteurs."
+  ],
+  "teldrassil": [
+    "Teldrassil et Darnassus",
+    "Le nouvel Arbre-Monde des elfes de la nuit, et la cité nichée dans sa cime."
+  ],
+  "thousand-needles": [
+    "Mille pointes",
+    "Un canyon d'aiguilles de pierre, et une étendue de sel où gobelins et gnomes font la course."
+  ],
+  "tirisfal": [
+    "Clairières de Tirisfal et Fossoyeuse",
+    "Le cœur de Lordaeron déchu, et les Réprouvés qui règnent sous sa capitale en ruine."
+  ],
+  "ungoro-crater": [
+    "Cratère d'Un'Goro",
+    "Un monde perdu au fond d'un cratère, et ses mystérieux cristaux."
+  ],
+  "western-plaguelands": [
+    "Maleterres de l'Ouest",
+    "Le cœur mort de Lordaeron, là où la peste a commencé."
+  ],
+  "westfall": [
+    "Marche de l'Ouest",
+    "Le grenier de Hurlevent, tombé en poussière et aux mains des bandits."
+  ],
+  "wetlands": [
+    "Les Paluns",
+    "Les marais entre Khaz Modan et Arathi, où les routes des nains débouchent sur de vieilles guerres."
+  ],
+  "winterspring": [
+    "Berceau-de-l'Hiver",
+    "La neige, les gobelins, et la malédiction des Bien-nés."
+  ],
+  "zephras-isle": [
+    "Île de Zéphras",
+    "L'île volante des Éolides, dans le Mur-Céleste."
+  ]
+}
