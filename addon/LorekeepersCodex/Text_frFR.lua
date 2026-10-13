@@ -554,6 +554,13 @@ ns.translate({
         { "Un Sombrefer se bat avec le feu, la poudre noire et une rancune vieille de deux siècles. Ne lui tournez jamais le dos." },
       },
     },
+    ["darkshire"] = {
+      title = "Sombre-Comté",
+      text = {
+        { "Sombre-Comté est la seule ville qui reste au Bois de la Pénombre, un amas de maisons, un hôtel de ville et une auberge derrière des lanternes que l'on garde allumées jour et nuit. Son bourgmestre, le seigneur Ello Ebonlocke, la gouverne avec un conseil ; sa famille commande les Veilleurs ; et une historienne, Sirra Von'Indi, tient ses archives et vous traduira tout ce que vous lui apporterez, à terme." },
+        { "C'est une ville de gens sombres et de plaisanteries sombres, et de plus d'histoires que n'en devrait avoir une ville de cette taille. Interrogez la vieille diseuse de bonne aventure, Madame Eva, sur n'importe laquelle. Elle sait déjà laquelle vous allez lui demander." },
+      },
+    },
     ["darkshore"] = {
       title = "Sombrivage",
       text = {
@@ -666,6 +673,13 @@ ns.translate({
         { "Durotar est un pays dur : terre rouge, roche rouge, épines et scorpions, brûlé par le soleil et entaillé de canyons secs, avec la mer d'un côté et les longues plaines des Tarides de l'autre. Les orcs l'ont choisi malgré tout. Thrall lui a donné le nom de son père, Durotan, chef du clan Loup-de-Givre, assassiné avant que son fils ait pu le connaître." },
         { "La Horde est venue ici après la dernière guerre, après avoir traversé la mer depuis les camps de Lordaeron et combattu aux côtés des elfes de la nuit et des hommes au mont Hyjal. On ne l'y laissa pas longtemps en paix : l'amiral Daelin Proudmoore, de Kul Tiras, le père de Jaina Proudmoore, lança sa flotte contre les orcs, et fut vaincu. Depuis, les orcs ne cessent de bâtir : Orgrimmar au nord, Tranchecolline sur la route, le village de Sen'jin pour leurs alliés trolls." },
         { "Ils n'ont pas fini de nettoyer le pays. Les centaures lancent des raids depuis l'ouest, les hurans tiennent le sud, et dans les grottes du Rocher du crâne, en vue de la capitale, la Lame ardente vénère les démons qui asservirent jadis les orcs. Durotar est jeune, et le sait." },
+      },
+    },
+    ["duskwood"] = {
+      title = "Bois de la Pénombre",
+      text = {
+        { "Au sud d'Elwynn, les arbres se resserrent, la lumière devient grise, et vous voilà au Bois de la Pénombre. Il faisait autrefois partie de la même forêt verte ; des hommes y vivaient et y cultivaient la terre comme à Elwynn. Puis une obscurité tomba sur ces bois et ne s'est jamais levée. Personne à Sombre-Comté ne peut vous dire pourquoi avec certitude, même si beaucoup jettent un regard vers l'est, vers les terres mortes du défilé de Deuillevent et la tour qui s'y dresse." },
+        { "Ce que l'obscurité a apporté est assez clair. Les morts se relèvent du cimetière de Colline-aux-Corbeaux, des worgens chassent dans les bois, des araignées atteignent la taille d'un poney, et des ogres se sont installés dans les collines. Les fermes sont abandonnées, et ceux qui restent se sont rassemblés derrière les lanternes de Sombre-Comté sous leur propre milice, car Hurlevent a retiré ses gardes. C'est un endroit pour voyageurs courageux, et pour des histoires racontées au coin du feu, la porte barrée." },
       },
     },
     ["dwarves"] = {
@@ -1060,11 +1074,27 @@ ns.translate({
         { "C'est un endroit triste à traverser, et pas un endroit sûr. La Confrérie surveille la route, et quiconque regarde trop longtemps une certaine grange en bordure de la ville a toutes les chances de découvrir pourquoi." },
       },
     },
+    ["morbent-fel"] = {
+      title = "Morbent Fel",
+      text = {
+        { "Morbent Fel est le nécromancien du Bois de la Pénombre, celui qui fait marcher les morts de Colline-aux-Corbeaux, et un allié des sombres cavaliers qui sortent du défilé de Deuillevent. Il vit dans une maison au sommet de la Masure lugubre, au-dessus du cimetière, derrière ses morts et une protection qui détourne chaque coup qu'on lui porte." },
+        { "Sven Yorgen, un bûcheron dont les cavaliers ont tué la femme et les enfants, veut sa mort, et le chemin est long. Le journal d'un Défias apprit à Sven ce qui s'était passé à sa ferme ; l'évêque Farthing, à la cathédrale de Hurlevent, indiqua une arme capable de briser la protection ; le fer nécessaire vint des épaves de la Troisième flotte, au large des Paluns, où sombra une cargaison de fer de Forge-Lumière, et un forgeron nain de Hurlevent en fit le Fléau de Morbent." },
+        { "C'est beaucoup de peine pour un seul nécromancien, $gvoyageur:voyageuse;. Sven ne trouve pas, et je m'aperçois que je ne peux pas lui en vouloir." },
+      },
+    },
     ["morganth"] = {
       title = "Morganth",
       text = {
         { "Dans les contreforts orientaux des Carmines se dresse une tour isolée, Ilgalar, et y vit un démoniste du nom de Morganth, qui a plié les gnolls Sombrepoil à son service au moyen de pendentifs enchantés. La loi de Comté-du-Lac le tient pour un ennemi du royaume, et quiconque l'aide pour un criminel." },
         { "Un mage d'Elwynn, Theocritus, de la tour d'Azora, écoute les gnolls de Morganth à travers ces mêmes pendentifs, et ce qu'il a entendu l'effraie : Morganth cherche une ancienne relique elfique appelée la Faux d'Elune, et l'a peut-être trouvée. Si c'est le cas, dit Theocritus, tout Hurlevent le sentira. On parle de la même relique au Bois de la Pénombre, à propos des worgens. Je le note, et cela ne me plaît pas." },
+      },
+    },
+    ["morladim"] = {
+      title = "Mor'Ladim",
+      text = {
+        { "Morgan Ladimore était un chevalier de ce pays, connu pour défendre les pauvres et les affligés, marié jeune à une jeune femme nommée Lys et père de trois enfants. Quand la guerre éclata en Lordaeron, il partit au nord combattre aux côtés d'Uther le Porteur de lumière, et il vit tout ce que devint cette guerre : la Main d'argent dissoute, Uther mort, la peste. Ce qui le garda sain d'esprit, ce fut la pensée de rentrer chez lui." },
+        { "Il rentra pour trouver une forêt devenue sombre et une maison en ruine, et enfin, au cimetière de Colline-aux-Corbeaux, la tombe de sa femme. Quelque chose se brisa en lui. Quand les gardiens du cimetière tentèrent de le retenir, il les tua, et quand il comprit ce qu'il avait fait, il se tua. On l'enterra à la hâte, hors du cimetière, et en quelques jours sa tombe était vide. Il arpente aujourd'hui le Bois de la Pénombre sous le nom de Mor'Ladim, et tue tous ceux qu'il croise." },
+        { "Il ignorait que l'une de ses filles avait survécu. Sarah Ladimore sert parmi les Veilleurs, et elle voudrait qu'il sache que personne ne lui en veut." },
       },
     },
     ["morshan-rampart"] = {
@@ -1102,6 +1132,13 @@ ns.translate({
         { "Les kaldorei sont le plus ancien peuple que la Ligue ait rencontré, et ils sont trop polis pour nous le rappeler souvent. Il y a dix mille ans, leurs Bien-nés puisèrent dans le Puits d'éternité jusqu'à ce que la Légion ardente vienne le prendre, et la guerre qui suivit brisa le monde. Ensuite, les survivants renoncèrent aux arcanes. Ils se tournèrent vers les druides de Malfurion Stormrage et les prêtresses d'Elune, et plantèrent sur le mont Hyjal un Arbre-Monde qui les empêcha de vieillir." },
         { "Pendant la Troisième Guerre, la Légion revint à Hyjal. Pour détruire le démon Archimonde, les elfes de la nuit sacrifièrent l'Arbre, et leur immortalité avec lui. Fandral Staghelm a depuis fait pousser Teldrassil au large de Sombrivage, et Darnassus se dresse dans ses branches ; quant à savoir si le nouvel Arbre est béni comme l'était l'ancien, les druides ne le disent pas à voix haute." },
         { "Ils vieillissent désormais, et ils apprennent ce que cela signifie, $gvoyageur:voyageuse;. Tyrande Whisperwind les guide depuis le temple de la Lune, tandis que Malfurion est perdu dans le Rêve. Si un elfe de la nuit semble peser chaque mot, souvenez-vous qu'il y a quelques années encore, ils avaient tout le temps du monde pour les choisir." },
+      },
+    },
+    ["night-watch"] = {
+      title = "Les Veilleurs",
+      text = {
+        { "La commandante Althea Ebonlocke dirige les Veilleurs, la milice que Sombre-Comté a levée après que Hurlevent eut retiré ses gardes officiels. Les habitants défendent leur route et leurs portes contre les morts de Colline-aux-Corbeaux, les worgens, les ogres, et tout ce qui peut sortir de la forêt." },
+        { "La plupart ne sont pas des soldats, et ils sont trop peu nombreux. Ils ont pourtant gardé Sombre-Comté en vie. Sarah Ladimore sert parmi eux ; l'histoire de son père figure ailleurs dans ce registre." },
       },
     },
     ["noble-conspiracy"] = {
@@ -1219,6 +1256,13 @@ ns.translate({
         { "Ses ennuis viennent surtout de la mer : les Flibustiers des Mers du sud attaquent ses navires depuis la Côte des marchands, et les artilleurs de l'Alliance du Fort de Guet-du-Nord, plus au sud, en ont coulé quelques-uns par erreur, à ce qu'ils disent." },
       },
     },
+    ["raven-hill"] = {
+      title = "Colline-aux-Corbeaux",
+      text = {
+        { "Le village de Colline-aux-Corbeaux se dresse, vide, à côté d'un cimetière qui s'est étendu sur tout le flanc de la colline. Des squelettes arpentent ses rangées, des goules fouillent parmi les tombes, et les Veilleurs ne parviennent pas à garder les morts en repos. Le cimetière est devenu plus dangereux que les maisons abandonnées qui l'entourent." },
+        { "Morbent Fel, un nécromancien, vit dans une maison au-dessus du cimetière. Un bûcheron dont il a tué la famille veut sa mort. Tout près, un vieil ermite occupe une cabane qui surplombe les tombes ; il venait autrefois à Sombre-Comté chercher des provisions, mais on ne l'y a pas vu depuis un certain temps." },
+      },
+    },
     ["razor-hill"] = {
       title = "Tranchecolline",
       text = {
@@ -1333,6 +1377,14 @@ ns.translate({
         { "Les morts ne se lassent pas, et ils ne s'arrêtent pas. L'Aube d'argent, la Croisade écarlate et les Réprouvés les combattent tous, malgré la méfiance qui les sépare. À la chapelle de l'Espoir de Lumière, l'Aube et la Croisade ont accepté de coopérer contre Naxxramas." },
       },
     },
+    ["scythe-of-elune"] = {
+      title = "La Faux d'Elune",
+      text = {
+        { "Les worgens du Bois de la Pénombre ne sont pas venus d'Arugal, ou pas seulement de lui. L'autre moitié de l'histoire commence en Ashenvale, avec une prêtresse d'Elune nommée Velinde Starsong, qui pria pour avoir le moyen de venger ses camarades tombés contre les démons de Gangrebois, et en reçut un : la Faux d'Elune, une branche de bois tordue et noueuse, peut-être plus ancienne que les elfes de la nuit eux-mêmes." },
+        { "Son journal dit que la tenir affaiblissait les murs du monde. À travers elle, elle vit les worgens mener une guerre qui leur était propre, apprit à leur parler sans mots, et en attira une trentaine dans ce monde pour combattre à ses côtés. D'autres suivirent. Puis des meutes disparurent, et leur nombre continua de croître même quand elle cessa de les appeler, comme si la Faux n'avait plus besoin d'elle. Elle partit vers l'est par-delà la mer, dit le journal, pour chercher un sorcier du Kirin Tor nommé Arugal dont on disait qu'il avait fait la même chose. C'est la dernière entrée." },
+        { "La Faux réapparut dans la mine au sud de Sombre-Comté que les gens du pays appellent le Destin de Roland. Un Défias surnommé La Tremblotte la tira d'un tas de gravats, et les worgens jaillirent des parois ; il la perdit de nouveau dans sa fuite, et les archives ne disent pas où elle se trouve aujourd'hui. Le présent d'une déesse, quelque part dans le noir d'une mine du Bois de la Pénombre, qui ouvre peut-être encore des portes. Je préférerais qu'elle soit retrouvée par une prêtresse plutôt que par un prospecteur." },
+      },
+    },
     ["senjin-village"] = {
       title = "Le village de Sen'jin",
       text = {
@@ -1445,6 +1497,14 @@ ns.translate({
       text = {
         { "Les Flibustiers des Mers du sud sont des pirates des mers chaudes de Kalimdor, et ils s'en prennent avant tout aux gobelins, parce que ce sont les gobelins qui ont le plus de choses qui valent d'être volées. Ils tiennent des camps le long de la Côte des marchands, dans les Tarides, au sud de Ratchet, et dans les criques de Tanaris, et leurs navires guettent tout ce qui quitte un port de Gentepression." },
         { "Leur capitaine sur la Côte des marchands est le baron de Longrivage, et Gazlowe, de Ratchet, a mis sa tête à prix ; les gobelins de Gadgetzan paient tout aussi bien pour les pirates de Tanaris. Il n'y a pas de grande histoire derrière eux, ni roi exilé ni cause perdue. Ce sont des voleurs qui possèdent des bateaux, et la mer est vaste." },
+      },
+    },
+    ["stalvan-mistmantle"] = {
+      title = "Stalvan Mistmantle",
+      text = {
+        { "Stalvan Mistmantle était enseignant à Ruisselune et précepteur dans des familles de la campagne. Il s'imagina que son élève, Tilloa, partageait son affection. Quand elle lui présenta un prétendant et l'appela son gentil vieil oncle, son propre récit tourna à la rage. Les meurtres suivirent." },
+        { "Des lettres et des journaux retracent ses déplacements à travers la Marche de l'Ouest et Hurlevent jusqu'au manoir au nord-est de Sombre-Comté, où l'obscurité du Bois de la Pénombre l'a changé davantage encore. Le pressentiment de Madame Eva lance la recherche, mais ce sont surtout les propres mots de Stalvan qui la font avancer." },
+        { "C'est une histoire laide à reconstituer à partir de papiers si ordinaires. Un poste d'enseignant, la correspondance d'une famille, le nom d'une élève : les choses qui auraient dû appartenir à une vie tranquille demeurent parmi les traces de ceux qu'il a détruits." },
       },
     },
     ["steamwheedle-cartel"] = {
@@ -1585,6 +1645,13 @@ ns.translate({
       text = {
         { "Les Mortemines fournissaient autrefois de l'or à Hurlevent. Abandonnées à l'arrivée des orcs, elles devinrent le repaire d'un ogre pendant la Première Guerre. Sire Anduin Lothar y entra pour récupérer un livre saint volé à Comté-du-Nord, et fut lui-même capturé. Des soldats de Hurlevent ramenèrent et le chevalier et le livre." },
         { "Les Défias ont depuis creusé plus profond. Leurs galeries abritent des ingénieurs gobelins, une fonderie et un déchiqueteur, et sous les vieux puits, une crique cachée abrite un grand navire de guerre en construction. Les projets de VanCleef vont bien au-delà du pillage de fermes. Si vous descendez, $gvoyageur:voyageuse;, attendez-vous à bien plus qu'une mine désaffectée." },
+      },
+    },
+    ["the-embalmer"] = {
+      title = "L'Embaumeur",
+      text = {
+        { "Les enfants de Sombre-Comté connaissent l'histoire de l'Embaumeur : un gentil alchimiste dont la femme, Eliza, mourut, et qui refusa de la laisser partir. Il se servit de magie noire pour placer son propre cœur dans la poitrine de sa femme, et cela la ramena, avec une faim de chair humaine, si bien qu'il dut la garder enterrée." },
+        { "Ce n'est pas une histoire pour enfants. L'Embaumeur est le vieil ermite Abercrombie, qui vit dans une cabane au-dessus de Colline-aux-Corbeaux, et sa promise attend toujours dans sa tombe. Son dernier présent à Sombre-Comté fut Balafré, un monstre cousu de morts, envoyé en titubant sur la route de la ville ; les Veilleurs se souviennent de la nuit où il arriva." },
       },
     },
     ["the-forsaken"] = {
