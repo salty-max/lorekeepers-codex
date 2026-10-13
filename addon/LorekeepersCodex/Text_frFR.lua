@@ -690,6 +690,13 @@ ns.translate({
         { "Ces ordres ne se limitent pas à l'entraînement. Les troggs Mâcheroc menacent la vallée, les trolls Frostmane ont établi un camp tout près, et Balir Frosthammer et Grelin Whitebeard ont besoin d'aide contre eux. Gardez votre arme à portée de main, $gvoyageur:voyageuse;. On a besoin des recrues avant même qu'elles aient quitté la vallée." },
       },
     },
+    ["crystal-pylons"] = {
+      title = "Les pylônes de cristal",
+      text = {
+        { "Le travail de J.D. Collie commence avec les cristaux colorés éparpillés dans tout Un'Goro. Des rapports sur de grands pylônes garnis de cristaux envoient ses recherches dans la nature sauvage, où trois se dressent au nord, à l'est et à l'ouest du cratère." },
+        { "Différentes combinaisons produisent des effets utiles à ces pylônes, et Collie a rédigé un manuel pour de nouvelles expériences. L'expédition peut dès maintenant faire quelque chose des cristaux, même si les desseins de leurs créateurs restent un mystère. Il y a une satisfaction honnête dans une découverte qui atteint l'établi avant les livres d'histoire." },
+      },
+    },
     ["cult-of-the-damned"] = {
       title = "Le Culte des damnés",
       text = {
@@ -1059,6 +1066,13 @@ ns.translate({
       text = {
         { "Feralas est un pays de pluie et de géants, sur la côte ouest de Kalimdor : une forêt d'arbres si hauts que leurs cimes se perdent dans la brume, avec des ruines anciennes entre leurs racines. Les elfes de la nuit bâtirent ici bien avant la Fracture, et leurs pierres sont partout, envahies par la végétation et brisées ; les érudits de Feathermoon passent leur vie parmi elles, et ne savent toujours pas dire ce qu'était la moitié d'entre elles." },
         { "Aujourd'hui, la forêt appartient aux ogres Gordunni, dont le nombre croissant inquiète les établissements voisins, aux gnolls, aux yétis, aux nagas sur la côte et au Totem sinistre dans les collines. Les Sentinelles tiennent un bastion insulaire au large de la côte, la Horde un camp à l'est, et au cœur de la forêt se dresse la cité brisée des Bien-nés que les ogres appellent Hache-tripes." },
+      },
+    },
+    ["fire-plume-ridge"] = {
+      title = "La crête de la Fournaise",
+      text = {
+        { "La crête de la Fournaise s'élève au milieu d'Un'Goro, avec de la lave sur ses pentes et des élémentaires de feu parmi les coulées. Blazerunner occupe une grotte près du sommet. Le volcan offre aux explorateurs du cratère un sujet d'étude bien visible." },
+        { "Ringo est allé enquêter et on l'a retrouvé dans une grotte sur le versant sud, perdu et en pleine surchauffe. Les érudits du refuge des Marshal veulent toujours savoir ce qui se trouve au cœur de la crête. Un voyageur peut partager leur curiosité sans partager les préparatifs de Ringo." },
       },
     },
     ["forest-trolls"] = {
@@ -1474,6 +1488,14 @@ ns.translate({
         { "Si vous devez les combattre, $gvoyageur:voyageuse;, souvenez-vous qu'ils furent un jour les voisins de quelqu'un." },
       },
     },
+    ["linken"] = {
+      title = "Linken",
+      text = {
+        { "Linken est arrivé un jour au refuge des Marshal sans aucune idée de la façon dont il y était parvenu. Personne d'autre ne le sait non plus, dit-il gaiement ; c'est un secret pour tout le monde. C'est un gnome, même si les gnomes du camp remarquent qu'il ne montre rien de leur intérêt pour les gadgets, et il avait un sac, une épée, et une bosse sur la tête." },
+        { "Les souvenirs reviennent morceau par morceau, à mesure que des voyageurs l'aident : une épée à tremper dans les sources chaudes du Berceau-de-l'Hiver, un totem fabriqué avec l'aide d'un ami de Gangrebois. À la fin, il se souvient. Il était venu au cratère pour combattre Blazerunner, l'élémentaire de feu qui garde un artefact appelé la Flamme d'or, et ce devait être la dernière étape d'un long voyage." },
+        { "Il ne la franchit pas lui-même. C'est vous le héros maintenant, dit-il à quiconque l'a aidé, et il l'envoie en avant en le prévenant qu'il est dangereux d'y aller seul. La Flamme, promet-il, sera rapportée dans sa patrie et gardée loin des mains mauvaises. Je n'ai trouvé cette patrie sur aucune carte. J'ai cherché." },
+      },
+    },
     ["loch-modan"] = {
       title = "Loch Modan",
       text = {
@@ -1526,6 +1548,13 @@ ns.translate({
       text = {
         { "Maraudon est le lieu saint des centaures, au sud-ouest de Désolace. Leur père Zaetar est enseveli dans ses vastes cavernes, et leur mère Theradras demeure au-delà de salles de cristal scintillant. Seuls les plus fervents des centaures peuvent y entrer." },
         { "Le tombeau est troublé. Le seigneur Vylelangue répand le poison dans les grottes et y a fait naître une créature de pourriture ; le neveu de Zaetar, Celebras, y erre sous le poids d'une malédiction. Une femme du Marteau du crépuscule demande des gravures prises dans les cavernes de cristal, affirmant qu'elles renferment des reliques des Dieux très anciens. Prenez garde à qui votre voyage sert, $gvoyageur:voyageuse;. Plusieurs partis s'intéressent à ce qui se trouve sous cette terre sacrée." },
+      },
+    },
+    ["marshals-refuge"] = {
+      title = "Le refuge des Marshal",
+      text = {
+        { "Le refuge des Marshal est un camp sur une corniche au bord nord du cratère, où les survivants de l'expédition Marshal ont trouvé abri. L'expédition était venue explorer le cratère sous la conduite de Williden et Hol'anyee Marshal, et elle avait sous-estimé les bêtes : ses camps furent submergés, et ils s'enfuirent sur les hauteurs." },
+        { "Ils y sont toujours, avec une étrange troupe d'érudits, de chasseurs et d'explorateurs perdus qui les ont rejoints, tous occupés à étudier le cratère depuis le seul endroit où rien ne les mangera. L'un d'eux, un explorateur nommé Ringo, est parti seul vers le volcan. J'ai entendu dire qu'on l'a retrouvé." },
       },
     },
     ["masters-glaive"] = {
@@ -2712,6 +2741,14 @@ ns.translate({
         { "La capitale de Lordaeron gît en ruine au-dessus de la propre cité des Réprouvés. Derrière ses murailles brisées se trouvent la salle du trône dévastée et des cours sans vie. En dessous, de vieilles cryptes et des catacombes sont devenues Fossoyeuse, disposée autour d'anneaux de bave verte. Sylvanas tient sa cour dans son quartier royal." },
         { "Marchands, maîtres et gardes occupent les autres quartiers, et la Société royale des apothicaires travaille à l'Apothicarium. Les Réprouvés ont fait une capitale qui fonctionne sous l'épave de celle qu'ils ont connue de leur vivant. Un voyageur qui ne regarderait que les ruines d'en haut manquerait l'endroit où se traitent désormais les affaires qui restent au royaume." },
         { side = "Horde", aside = true, sign = "P. F.", "Elle a raison pour l'Apothicarium, jusqu'à un certain point. Vous m'y trouverez, sur le plus au sud de ses deux ponts, où je pose des questions aux héros qui croient que la force suffit. Venez vous faire examiner, $gvoyageur:voyageuse;." },
+      },
+    },
+    ["ungoro-crater"] = {
+      title = "Cratère d'Un'Goro",
+      text = {
+        { "Un'Goro est une cuvette verte et fumante, enfoncée entre les déserts de Tanaris et de Silithus. Des diablosaures arpentent sa jungle, des stégodons et de grands singes peuplent le bassin, et des pterreurdactyles tournoient au-dessus. Les taurens qui voyagent jusqu'ici parlent de créatures plus nobles que leurs semblables du dehors, et du lien du cratère avec la Terre-Mère." },
+        { "Des fosses de goudron, des sources chaudes et la crête de la Fournaise divisent la forêt, avec une ruche silithide au sud. Au refuge des Marshal, l'expédition étudie un pays qui semble avoir préservé un autre âge. Les expériences de J.D. Collie avec les cristaux colorés ont commencé à révéler leurs usages ; leur origine reste une question plus vaste." },
+        { client = "forever", "La terrasse du Façonneur a donné à cette question un endroit où commencer." },
       },
     },
     ["valanaar"] = {
