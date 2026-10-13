@@ -632,6 +632,14 @@ ns.translate({
         { "Zalazane règne toujours sur les îles, et de là il envoie ses trolls asservis par-delà les eaux pour attirer d'autres membres de la tribu sous son emprise. Ses victimes ne trouvent pas toujours le repos en mourant : l'âme de certaines, disent les trolls, est prisonnière de leur propre crâne, dans un cercle de pouvoir sur la plus grande des îles." },
       },
     },
+    ["edwin-vancleef"] = {
+      title = "Edwin VanCleef",
+      text = {
+        { "Edwin VanCleef était le maître de la guilde des Tailleurs de pierre, l'homme qui rebâtit Hurlevent, et quand les nobles refusèrent de payer ses maçons, il prit le parti des hommes qui avaient travaillé sous ses ordres. Il les mena dans une émeute à travers les rues qu'ils avaient bâties, puis hors de la cité, et dans la Marche de l'Ouest, la guilde devint la Confrérie défias." },
+        { "Il la dirige toujours, depuis son navire au fond des Mortemines, et il n'a jamais pardonné à Hurlevent. Sur son corps, ceux qui finirent par l'atteindre trouvèrent une lettre, scellée et jamais envoyée, adressée à l'architecte de la cité, et elle mena loin, jusqu'aux jardins du donjon royal." },
+        { "J'ai essayé d'écrire sur lui avec justesse. On lui a fait du tort, il en a fait beaucoup en retour, et les fermiers de la Marche de l'Ouest ont payé pour les deux." },
+      },
+    },
     ["eitrigg"] = {
       title = "Eitrigg",
       text = {
@@ -904,6 +912,13 @@ ns.translate({
         { "Mekkatorque demande aux aventuriers de porter son jugement dans ces salles." },
       },
     },
+    ["moonbrook"] = {
+      title = "Ruisselune",
+      text = {
+        { "Ruisselune était le bourg où se tenait le marché des fermes de la Marche de l'Ouest, et le foyer de ses mineurs, brûlé par les orcs pendant la Première Guerre et rebâti après la Deuxième. C'est aujourd'hui une ville défias : ses habitants chassés, ses maisons pleines de bandits aux masques rouges, et sa vieille forge et sa grange cachant le chemin qui descend vers les Mortemines." },
+        { "C'est un endroit triste à traverser, et pas un endroit sûr. La Confrérie surveille la route, et quiconque regarde trop longtemps une certaine grange en bordure de la ville a toutes les chances de découvrir pourquoi." },
+      },
+    },
     ["mulgore"] = {
       title = "Mulgore",
       text = {
@@ -989,6 +1004,13 @@ ns.translate({
         { "Il soumet les jeunes héros de la Horde à une épreuve de savoir. Avant de poser sa question, il les envoie au Monastère écarlate chercher la « Naissance de la menace des morts-vivants », un livre dont la Croisade se sert pour former ses paladins contre ceux de son espèce, et il attend d'eux qu'ils l'aient lu. Le savoir, soutient-il, compte plus que la force. Je n'ai jamais entendu un historien soutenir le contraire." },
         { "Nous ne nous sommes jamais rencontrés, et il est peu probable que cela arrive. On me dit pourtant qu'un exemplaire de ce registre lui est parvenu, par des chemins que je préfère ignorer. J'espère qu'il le trouve juste. Il saurait mieux que la plupart où il ne l'est pas." },
         { side = "Horde", aside = true, sign = "P. F.", "Elle est plus aimable envers moi que les livres de la Croisade." },
+      },
+    },
+    ["peoples-militia"] = {
+      title = "La Milice du peuple",
+      text = {
+        { "Quand les soldats de Hurlevent ne vinrent pas, les gens de la Marche de l'Ouest levèrent les leurs. La Milice du peuple, ce sont quelques soldats, beaucoup de fermiers, et un paladin pour les mener : Gryan Stoutmantle, qui refusait de voir la Marche de l'Ouest abandonnée à la Confrérie." },
+        { "Depuis la colline des Sentinelles, ils patrouillent les routes qu'ils peuvent, chassent les gnolls et les Défias, et envoient leurs éclaireurs dans les collines de la Dague et les ruines de Ruisselune. Stoutmantle a ses propres amis dans les bas-fonds, et c'est par l'un d'eux, un voleur de Comté-du-Lac, qu'il apprit qui dirige la Confrérie et où elle se cache." },
       },
     },
     ["priests"] = {
@@ -1105,6 +1127,13 @@ ns.translate({
       text = {
         { "Le village de Sen'jin est le foyer des trolls Darkspear sur la côte de Durotar, un ensemble de huttes et de tours de guet qui regarde par-delà le détroit vers les îles de l'Écho. Il porte le nom de Sen'jin, le vieux féticheur et chef des Darkspear, qui accueillit Thrall quand la flotte des orcs fit escale dans ses îles, et qui fut tué par les serviteurs d'une sorcière des mers dans les combats qui suivirent." },
         { "Son fils Vol'jin dirige aujourd'hui la tribu. Les trolls avaient voulu vivre sur les îles de l'Écho, mais l'un de leurs propres féticheurs y a perdu la raison, et depuis, les Darkspear s'entassent sur cette bande de rivage, à regarder par-delà les eaux le foyer qu'ils ont perdu." },
+      },
+    },
+    ["sentinel-hill"] = {
+      title = "La colline des Sentinelles",
+      text = {
+        { "La colline des Sentinelles est une tour de guet en pierre sur une hauteur au milieu de la Marche de l'Ouest, et c'est le dernier endroit de la province où la loi veut encore dire quelque chose. La Milice du peuple la tient : une poignée de soldats et beaucoup d'anciens fermiers sous les ordres du paladin Gryan Stoutmantle, qui préfèrent se battre pour leur terre plutôt que de s'en aller." },
+        { "Il n'y a pas grand-chose ici : la tour, quelques tentes, une écurie et une auberge, et une belle vue sur l'ampleur du désastre. Mais chaque voyageur qui veut aider la Marche de l'Ouest vient d'abord ici, et la Milice a plus de travail que de bras." },
       },
     },
     ["sentinels"] = {
@@ -1298,6 +1327,13 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "J'ai lu ces pierres, moi aussi. J'en suis revenu avec un récit moins généreux." },
       },
     },
+    ["the-deadmines"] = {
+      title = "Les Mortemines",
+      text = {
+        { "Les Mortemines fournissaient autrefois de l'or à Hurlevent. Abandonnées à l'arrivée des orcs, elles devinrent le repaire d'un ogre pendant la Première Guerre. Sire Anduin Lothar y entra pour récupérer un livre saint volé à Comté-du-Nord, et fut lui-même capturé. Des soldats de Hurlevent ramenèrent et le chevalier et le livre." },
+        { "Les Défias ont depuis creusé plus profond. Leurs galeries abritent des ingénieurs gobelins, une fonderie et un déchiqueteur, et sous les vieux puits, une crique cachée abrite un grand navire de guerre en construction. Les projets de VanCleef vont bien au-delà du pillage de fermes. Si vous descendez, $gvoyageur:voyageuse;, attendez-vous à bien plus qu'une mine désaffectée." },
+      },
+    },
     ["the-forsaken"] = {
       title = "Les Réprouvés",
       text = {
@@ -1480,6 +1516,14 @@ ns.translate({
       text = {
         { "L'antre Gris offre un abri contre la neige de Dun Morogh, pourvu que vous parveniez à convaincre ses wendigos de le partager. Un coursier qui les a fuis y a laissé derrière lui une cargaison de munitions. Les créatures ont eu le dernier mot." },
         { "Le pilote Stonegear veut leurs crinières pour en faire un tapis dans son engin de siège. Même une machine a besoin d'un peu de confort dans ce pays, $gvoyageur:voyageuse;. Pour récupérer les munitions comme pour meubler l'engin, il faut approcher un wendigo de bien plus près que le coursier n'a voulu le faire." },
+      },
+    },
+    ["westfall"] = {
+      title = "Marche de l'Ouest",
+      text = {
+        { "La Marche de l'Ouest était le grenier de Hurlevent : de vastes champs dorés, des moulins à vent et des fermes qui descendaient jusqu'à la mer. Les orcs la brûlèrent pendant les guerres, et les fermiers revinrent semer de nouveau. Ce que les orcs n'avaient pu achever, les Défias l'ont fait." },
+        { "La Confrérie a fait de la Marche de l'Ouest son domaine. Elle a chassé les familles de fermiers de leurs terres une ferme après l'autre, a pris Ruisselune pour en faire sa ville et les vieilles mines en dessous pour en faire sa forteresse, et l'armée du roi n'est jamais venue. « Hurlevent nous a abandonnés », vous diront les hommes de la colline des Sentinelles, et il est difficile de leur donner tort. Les champs sont secs aujourd'hui, les gnolls Rivepatte attaquent les fermes, et des golems des moissons arpentent les sillons. Les murlocs tiennent la côte, et même le phare est hanté." },
+        { "Quelques fermiers têtus sont restés. Demandez à Saldean le fermier pourquoi, et il vous répondra que c'est sa terre." },
       },
     },
     ["whitemane-and-mograine"] = {
