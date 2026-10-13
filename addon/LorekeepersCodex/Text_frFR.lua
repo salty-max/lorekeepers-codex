@@ -962,6 +962,14 @@ ns.translate({
         { "Ces derniers temps, leurs soucis comprennent les furbolgs Pin-tordu, des satyres dans les grottes et des créatures malades dans les bois. L'air paisible du village ne dit pas grand-chose de ce travail. Écoutez ce que ses gardiens vous demandent ; ils ont vu changer le pays autour d'eux." },
       },
     },
+    ["draenor"] = {
+      title = "Draenor",
+      text = {
+        { "Avant de franchir la Porte, les orcs vivaient sur un monde verdoyant bien à eux, appelé Draenor, en clans qui erraient, chassaient et se querellaient comme le font les clans. Leurs chamans parlaient avec les esprits des éléments et des ancêtres, et de tous, le vieux chaman Ner'zhul était le plus respecté. Ils partageaient le monde avec les draeneï, des exilés venus d'ailleurs, qui bâtissaient leurs cités dans les falaises et ne donnaient guère aux orcs de raisons de faire la guerre." },
+        { "Le démon Kil'jaeden leur en donna une. Il travailla Ner'zhul jusqu'à ce que le peuple du chaman ait soif de sang, et quand Ner'zhul recula devant le dernier pas, le démon trouva un élève plus docile en son apprenti, Gul'dan. Les chamans devinrent des démonistes. On bâtit des arènes pour que les clans s'y affrontent. Gul'dan rassembla les chefs et ils burent le sang du seigneur des abîmes Mannoroth ; de tous, dit le livre de notre bibliothèque, seul Durotan, des Loup-de-Givre, refusa." },
+        { "La Horde qui suivit extermina presque les draeneï, et la magie des démonistes commença de tuer la terre elle-même, jusqu'à ce que les prairies où les orcs erraient depuis des générations soient rouges et stériles. Quand la Porte des ténèbres s'ouvrit, il ne restait plus grand-chose sur Draenor qui valût qu'on y reste. Les exilés du Havre boueux, dans le marais des Chagrins, disent venir de ce monde. Je ferais attention à ce que vous leur dites des orcs." },
+      },
+    },
     ["dragonmaw-clan"] = {
       title = "Le clan Dragonmaw",
       text = {
@@ -2369,6 +2377,14 @@ ns.translate({
         { "C'est un vieux peuple avec de vieilles guerres derrière lui. Leur martyr Theka mourut en combattant les guerriers insectes venus contre sa cité, et les Sandfury disent que ses meurtriers furent maudits et condamnés à vivre sous forme de scarabées à son sanctuaire. Ils vénèrent la grande hydre Gahz'rilla dans son bassin sacré, et relèvent leurs propres morts pour qu'ils continuent à travailler quand ils tombent." },
       },
     },
+    ["sargeras-and-the-betrayal"] = {
+      title = "Sargeras et la Trahison",
+      text = {
+        { "Sargeras fut jadis le champion des Titans. Quand des démons commencèrent à s'échapper du Néant distordu vers les mondes que les Titans avaient ordonnés, le Panthéon choisit son plus grand guerrier, un noble géant de bronze en fusion, pour les traquer, et il le fit pendant des âges innombrables. Il vainquit les érédars, des sorciers qui changeaient des mondes entiers en démons, et les nathrezim, qui dressaient les nations les unes contre les autres, et il les enferma tous." },
+        { "Leur corruption resta en lui. Il sombra dans un désespoir ruminant, puis dans la conviction que l'ordre lui-même était folie et que le chaos était la seule vérité, et enfin dans la haine des Titans eux-mêmes, qu'il tenait pour responsables de l'échec de la création. Sa peau de bronze se fendit sur une fournaise de rage. Il brisa les prisons qu'il avait bâties et libéra les démons, et ils s'inclinèrent devant lui." },
+        { "Parmi les érédars, il choisit deux lieutenants : Kil'jaeden le Trompeur, pour trouver les races les plus sombres et les attirer, et Archimonde le Profanateur, pour mener l'armée. Il appela cette armée la Légion ardente. Combien de mondes elle a brûlés depuis, dit le livre de notre bibliothèque, reste incertain. Nous en connaissons un qu'elle n'a pas réussi à achever." },
+      },
+    },
     ["satyrs"] = {
       title = "Les satyres",
       text = {
@@ -2851,6 +2867,23 @@ ns.translate({
         { "Cela fait beaucoup de monde. La Horde tient la Croisée en son cœur et les routes alentour ; les gobelins tiennent Ratchet sur la côte ; l'Alliance tient Guet-du-Nord à l'est et un chantier nain au sud. Les centaures lancent leurs raids depuis les collines, les hurans tiennent les dédales d'épines du sud, les harpies nichent dans les ravines, et la Lame ardente et la KapitalRisk ont leurs camps. Un voyageur des Tarides apprend à boire quand il le peut et à dormir d'un œil." },
       },
     },
+    ["the-battle-of-mount-hyjal"] = {
+      title = "La bataille du mont Hyjal",
+      text = {
+        { "Quand la Légion ardente revint, elle vint pour l'Arbre-Monde. Archimonde, qui avait mené l'armée de la Légion dix mille ans plus tôt, fut rappelé dans le monde à Dalaran et suivit le Fléau par-delà la mer jusqu'en Kalimdor, résolu à atteindre Nordrassil, au sommet du mont Hyjal." },
+        { "Un prophète le précéda : Medivh, le dernier Gardien, revenu d'au-delà de la mort pour se racheter. Il pressa humains et orcs de faire voile vers l'ouest ensemble, et comme ni les uns ni les autres ne voulaient en entendre parler, il les fit venir séparément, par la prophétie et la ruse. La Horde de Thrall traversa les Tarides et trouva des alliés chez les taurens de Cairne Bloodhoof ; Jaina Proudmoore amena les survivants de Lordaeron. Dans les forêts, ils rencontrèrent les elfes de la nuit, dont la prêtresse, Tyrande Whisperwind, avait tiré Malfurion Stormrage et ses druides de leur long sommeil." },
+        { "Sur la montagne, trois peuples qui ne s'étaient jamais fait confiance combattirent côte à côte, cédant lentement du terrain pendant que Malfurion préparait son piège. Quand Archimonde atteignit l'Arbre-Monde, les esprits de la forêt fondirent sur lui et la puissance même de l'Arbre fut consumée pour le détruire. Sa bénédiction perdue, les elfes de la nuit perdirent l'immortalité qu'ils détenaient depuis dix mille ans." },
+        { "La paix conclue sur Hyjal tient toujours en Durotar et à Theramore, même si tout le monde, d'un côté comme de l'autre, ne s'en réjouit pas." },
+      },
+    },
+    ["the-broken-alliance"] = {
+      title = "L'Alliance brisée",
+      text = {
+        { "L'Alliance de Lordaeron gagna la Deuxième Guerre et ne survécut pas à la paix. La Horde avait rasé le Khaz Modan, la moitié des provinces de Lordaeron et les marches de Quel'thalas ; il fallait rebâtir ce qui restait, et garder quelque part les orcs qui s'étaient rendus. Le roi Terenas choisit la clémence et leur bâtit des camps. Certains des autres rois auraient préféré les voir exécutés, et tous furent imposés pour les payer." },
+        { "Puis Doomhammer s'évada, et chaque royaume soupçonna les autres d'incompétence. Un noble appelé seigneur Prestor vint à la cour de Terenas offrir son aide, dressa les seigneurs les uns contre les autres et faillit bien obtenir à force de paroles le trône vacant d'Alterac ; c'était Aile de mort, et quand on le découvrit, le mal était fait." },
+        { "Un à un, les royaumes suivirent leur propre chemin. Gilnéas s'enferma derrière le mur de Grisetête. Stromgarde se retira. Les hauts-elfes de Quel'thalas, qui ne s'étaient jamais beaucoup souciés de la guerre, quittèrent tout à fait l'Alliance. Seuls quelques-uns restèrent fidèles à Terenas quand la peste arriva, et à ce moment-là, il ne pouvait plus leur demander grand-chose." },
+      },
+    },
     ["the-bulwark"] = {
       title = "La Barricade",
       text = {
@@ -2910,11 +2943,36 @@ ns.translate({
         { "Voilà pourquoi les refuges des saisons de Reflet-de-Lune sont pleins de dormeurs, et pourquoi un druide qui a parcouru le Rêve peut se réveiller avec l'air d'un voyageur revenu de très loin. Ces derniers temps, ils se réveillent troublés. Quelque chose de sombre est entré dans le Rêve, et Remulos, qui garde Reflet-de-Lune, ne dit pas quoi." },
       },
     },
+    ["the-fall-of-quelthalas"] = {
+      title = "La chute de Quel'thalas",
+      text = {
+        { "Pendant des milliers d'années, les hauts-elfes gardèrent leur royaume dans les forêts au nord de Lordaeron, derrière un cercle de pierres runiques, avec le Puits de soleil en son cœur. Pendant la Troisième Guerre, le prince Arthas y vint à la tête du Fléau." },
+        { "Il venait pour un cadavre. L'esprit de Kel'Thuzad lui avait dit que le nécromancien ne pouvait être relevé que dans les eaux du Puits de soleil, et Arthas assiégea donc Quel'thalas. Sylvanas Windrunner, générale des forestiers de Lune-d'argent, le combattit avec tout ce qu'avaient les elfes, et perdit. Arthas la releva sous la forme d'une banshee pour le servir, se fraya un chemin jusqu'au Puits de soleil et y plongea les restes de Kel'Thuzad. La liche se releva. Les eaux furent souillées." },
+        { "Quand le Fléau repartit vers le sud, dit le livre, il ne restait plus un seul elfe vivant en Quel'thalas. Ce n'est pas tout à fait vrai, $gvoyageur:voyageuse; : quelques-uns tiennent encore le gîte de Quel'Lithien, à l'extrême bord des Maleterres, et d'autres gardent un gîte dans les Hinterlands. Mais c'est assez proche de la vérité pour que je ne leur en dispute pas le point." },
+      },
+    },
     ["the-fallen-hero"] = {
       title = "Le héros déchu",
       text = {
         { "Hors de Pierrêche se tient le fantôme d'un héros de la Horde, qui attend des ordres. De son vivant, il mena ses guerriers dans les Terres foudroyées sans les attendre, et y trouva ce dont les ordres l'auraient averti : le démon Razelikh et ses lieutenants, qui prirent ses hommes et enfermèrent leurs esprits dans des pierres de tourment." },
         { "Il se reproche tout cela, et racontera son histoire à quiconque s'arrête pour l'écouter. Il veut que ses hommes soient libérés, et Razelikh détruit, et il aidera tout voyageur prêt à essayer, de la Horde ou de l'Alliance. C'est la seule chose qu'il lui reste à faire." },
+      },
+    },
+    ["the-first-war"] = {
+      title = "La Première Guerre",
+      text = {
+        { "Les orcs franchirent la Porte des ténèbres quelques clans à la fois, dans les marais à l'est de Hurlevent, et pendant des années, le royaume ne les connut que par leurs raids. Le roi Llane ne croyait pas que de telles créatures pussent prendre sa cité. Son champion, Anduin Lothar, dernier de la lignée d'Arathi, en était moins sûr, et moins sûr encore de leur vieil ami Medivh, dont la tour de Karazhan était devenue bien sombre." },
+        { "Lothar agit selon ses doutes. Avec le jeune apprenti de Medivh, Khadgar, il donna l'assaut à Karazhan et tua le Gardien, et découvrit que Medivh avait été derrière l'invasion depuis le début. Cela ne sauva pas le royaume. La Horde, sous un nouveau chef de guerre, Orgrim Doomhammer, assiégea le donjon de Hurlevent, et Llane fut tué dans ses propres murs par Garona, une assassin demi-orque du Conseil des ombres." },
+        { "Lothar rentra dans une cité en ruines fumantes et jura, avec les hommes qui lui restaient, de la reprendre. Il mena les survivants d'Azeroth par-delà la mer jusqu'en Lordaeron, pour demander de l'aide aux autres royaumes humains. L'alliance qu'ils formèrent allait livrer la Deuxième Guerre. Hurlevent fut rebâtie ensuite. Son peuple n'a plus jamais sous-estimé un ennemi depuis." },
+      },
+    },
+    ["the-five-aspects"] = {
+      title = "Les cinq Aspects",
+      text = {
+        { "Avant de quitter le monde, les Titans choisirent cinq vols draconiques pour veiller sur lui, et donnèrent à chacun de leurs chefs une part de leur propre puissance. Ces cinq dragons devinrent les Aspects." },
+        { "Aman'Thul confia au dragon de bronze Nozdormu la garde du temps lui-même : il est l'Intemporel. Eonar confia à la rouge Alexstrasza le soin de tous les êtres vivants, et la couronne de son espèce avec. À la sœur cadette d'Alexstrasza, la verte Ysera, elle confia les lieux sauvages, et Ysera tomba dans une transe d'où elle les surveille encore, dans le Rêve d'émeraude. Norgannon confia au bleu Malygos le soin de la magie. Khaz'goroth, le façonneur du monde, confia au noir Neltharion la terre et ses profondeurs, et le Gardien de la Terre fut le plus grand soutien d'Alexstrasza." },
+        { "Vous savez comment ce dernier a fini. Neltharion forgea l'Âme du démon pour dominer les autres vols et la retourna contre eux pendant la guerre des Anciens ; le monde l'appelle Aile de mort depuis. Le vol de Malygos fut presque anéanti. Des âges plus tard, le même disque enchaîna la reine des dragons elle-même à Grim Batol." },
+        { "Cinq gardiens furent placés au-dessus du monde, $gvoyageur:voyageuse;. L'un d'eux est devenu ce contre quoi les autres le gardent." },
       },
     },
     ["the-forsaken"] = {
@@ -2924,6 +2982,15 @@ ns.translate({
         { "Ils ont repris la ruine de la capitale de leur royaume et bâti une cité en dessous, et ils mènent leur propre guerre contre le Fléau qui les a faits. Ils ont rejoint la Horde, qui avait besoin d'alliés contre l'Alliance, et la Horde les a acceptés, ce dont les Réprouvés avaient plus besoin encore. Ce n'est pas une amitié chaleureuse." },
         { "Je ne prétendrai pas que les Réprouvés soient une compagnie facile. La plupart étaient des hommes et des femmes de Lordaeron, qui se souviennent de leur ancienne vie et ne peuvent y retourner. Ce qu'ils veulent aujourd'hui, au-delà de se venger du roi-liche, personne hors de Fossoyeuse ne saurait le dire." },
         { side = "Horde", aside = true, sign = "P. F.", "Personne hors de Fossoyeuse ne saurait dire ce que nous voulons, écrit-elle. La plupart d'entre nous, à l'intérieur, ne le sauraient pas non plus. Moi, je veux savoir ce qu'on nous a fait, et l'écrire comme il faut." },
+      },
+    },
+    ["the-guardians-of-tirisfal"] = {
+      title = "Les Gardiens de Tirisfal",
+      text = {
+        { "Dalaran apprit tôt le prix de la magie. Ses jeunes mages dépensaient sans compter leur pouvoir, et plus ils en dépensaient, plus le monde s'amincissait autour de leur cité, jusqu'à ce que de petits démons de la Légion ardente commencent à s'y glisser. Les magocrates qui gouvernaient la cité cachèrent ce qu'ils purent. Quand le peuple commença à murmurer de révolution, ils allèrent demander de l'aide aux elfes de Quel'thalas." },
+        { "Les elfes leur dirent ce qu'était la Légion, et ce qu'elle avait déjà fait au monde une fois. Ensemble, le Conseil de Lune-d'argent et les magocrates conclurent un pacte secret : un seul champion mortel, doté des puissances réunies de la magie elfique et humaine, combattrait les agents de la Légion dans une guerre dont personne d'autre ne devrait jamais entendre parler. Un conseil caché, qui se réunissait dans les clairières de Tirisfal où les elfes s'étaient d'abord établis en Lordaeron, choisissait chaque Gardien, et quand l'un d'eux vieillissait ou se lassait, il transmettait le pouvoir sous son propre contrôle attentif." },
+        { "Cela fonctionna pendant des générations. Puis le Conseil choisit Aegwynn, qui n'entendait pas être contrôlée. Elle abattit l'avatar de Sargeras lui-même dans le nord glacé et crut en avoir fini avec lui. Près de neuf cents ans plus tard, refusant de laisser le Conseil désigner son successeur, elle donna naissance à un fils pour hériter de son pouvoir et le nomma Medivh, « gardien des secrets » dans la langue des hauts-elfes. Ce qu'il gardait est raconté à la page de Karazhan." },
+        { "Un ordre qui cache sa guerre au monde entier ne peut pas facilement être corrigé quand il se trompe, $gvoyageur:voyageuse;. Le Conseil l'apprit trop tard." },
       },
     },
     ["the-high-order"] = {
@@ -2940,11 +3007,28 @@ ns.translate({
         { "C'est un pays beau et dangereux. Des chouettards dans les bois, des limons dans les marais, des trolls Witherbark et Vilebranch dans les ruines, et au sommet du grand temple de Jintha'Alor, des prêtres qui sacrifient encore au dieu du sang. Les chevaucheurs de griffons de Nid-de-l'Aigle gardent un œil sur tout cela depuis les airs." },
       },
     },
+    ["the-lich-king"] = {
+      title = "Le roi-liche",
+      text = {
+        { "Le roi-liche fut d'abord un orc. Ner'zhul, le vieux chaman qui mena le premier son peuple à la Légion, s'enfuit dans le Néant distordu après la dernière guerre des orcs, et Kil'jaeden l'y attendait. Le démon mit son corps en pièces morceau par morceau et garda son esprit en vie, puis lui offrit un dernier marché. Ner'zhul accepta. Son esprit fut scellé dans un bloc de glace venu des confins du Néant, et le roi-liche naquit ; ses chevaliers de la mort et ses fidèles furent refaits en liches pour le servir." },
+        { "Kil'jaeden jeta la glace dans le monde. Elle frappa le glacier de la Couronne de glace, au Norfendre, et s'y immobilisa en forme de trône. Depuis le Trône de glace, le roi-liche atteignit les esprits du nord, les trolls des glaces et les wendigos d'abord, puis un village humain au bord de la Désolation des dragons, où il essaya la peste destinée à Lordaeron. Les seigneurs de l'effroi furent chargés de le surveiller. Kil'jaeden ne faisait confiance à personne, surtout pas à un prisonnier." },
+        { "Ce qui en est sorti remplit la moitié des pages de ce registre. Le livre de notre bibliothèque s'achève sur le prince Arthas gravissant le Trône de glace et coiffant le heaume de Ner'zhul, les deux ne faisant plus qu'un. Il dit que l'on raconte qu'il rebâtit la citadelle de la Couronne de glace, et que Kel'Thuzad gouverne les Maleterres en son nom. La Ligue n'a pas d'expédition au Norfendre, $gvoyageur:voyageuse;, et je ne vois aucune raison d'en lancer une." },
+      },
+    },
     ["the-lost-ones"] = {
       title = "Les Perdus",
       text = {
         { "Les exilés du Havre boueux se nomment eux-mêmes draeneï. Avec leurs sabots et leurs tentacules, leur peau d'un bleu-gris, ils ne ressemblent à aucun des autres peuples qu'un voyageur rencontre d'ordinaire en Azeroth. Ils disent être venus du monde des orcs après un terrible voyage. Ceux du Havre boueux restent doux et disposés à parler." },
         { "D'autres vivent au sanctuaire des Friches et sont appelés les Perdus. Les exilés disent que le voyage a brisé leurs anciens frères. Ils attaquent ceux qui approchent et ont volé des cristaux que les exilés tiennent pour sacrés. Ces récits locaux nous apprennent peu de chose sur leur vie d'avant ou sur ce qui s'est passé avant leur arrivée ici. Je préfère laisser cette partie de la page ouverte plutôt que de leur fournir un passé qu'ils n'ont pas décrit." },
+      },
+    },
+    ["the-ordering"] = {
+      title = "L'ordonnancement d'Azeroth",
+      text = {
+        { "Le plus ancien récit de la bibliothèque de la Ligue commence avant que quiconque fût là pour en tenir un. Les Titans, dit-il, allaient de monde en monde pour mettre chacun en ordre, et arrivèrent enfin à celui-ci. Ils le trouvèrent aux mains des élémentaires, et les élémentaires servaient des maîtres plus anciens : les Dieux très anciens." },
+        { "Le Panthéon des Titans leur fit la guerre. Quatre grands seigneurs des éléments menaient les armées des Dieux très anciens, Ragnaros le seigneur du Feu, Therazane la Mère-de-pierre, Al'Akir le seigneur des Vents et Neptulon le Chasse-marée, et l'un après l'autre, ils tombèrent. Les citadelles des Dieux très anciens furent brisées et les dieux eux-mêmes, au nombre de cinq, enchaînés loin sous la terre. Privés de leurs maîtres, les élémentaires furent rejetés dans un plan bien à eux, pour s'y combattre les uns les autres à jamais." },
+        { "Puis les Titans se mirent à l'ouvrage. Ils firent les terrestres de pierre vivante pour sculpter les profondeurs, et les géants des mers pour soulever la terre hors de l'océan. Quand ils eurent fini, il y avait un seul continent, Kalimdor, et en son cœur un lac de puissance scintillante qu'ils nommèrent le Puits d'éternité." },
+        { "Nous déterrons encore leur ouvrage à Uldaman et sur les terrasses des Terres ingrates. De temps à autre, quelque chose qu'ils avaient enterré remonte aussi : un seigneur du Feu sous Rochenoire, un dieu dans les sables de Silithus. Les Titans, je le soupçonne, ont laissé le monde mieux rangé qu'ils ne l'avaient trouvé, mais pas achevé." },
       },
     },
     ["the-scarab-wall"] = {
@@ -2961,11 +3045,28 @@ ns.translate({
         { "Fandral n'en voulait pas. Pensant à son fils, il brisa le sceptre sur le sol, et dit qu'il ne souhaitait plus jamais le revoir. Ses morceaux furent confiés aux vols draconiques. Mille ans plus tard, une larme cristalline dans le désert du sud montre encore ce souvenir à ceux qui y regardent, et les dragons de bronze cherchent quelqu'un pour reconstituer le sceptre." },
       },
     },
+    ["the-second-war"] = {
+      title = "La Deuxième Guerre",
+      text = {
+        { "En Lordaeron, Lothar trouva les rois humains disposés à écouter, pour une fois. Ils acceptèrent de s'unir en Alliance de Lordaeron, la première fois que les héritiers d'Arathor se tenaient sous une même bannière depuis près de trois mille ans, et nommèrent Lothar commandant suprême. Uther le Porteur de lumière, l'amiral Daelin Proudmoore et Turalyon servirent sous ses ordres. Forgefer se joignit à eux, et, plus à contrecœur, quelques hauts-elfes, qui avaient une dette envers la lignée d'Arathi." },
+        { "Doomhammer fit venir des ogres de Draenor et des trolls amani des forêts, submergea le Khaz Modan et marcha vers le nord. La Horde avait trouvé l'Âme du démon et, grâce à elle, asservi la reine des dragons, si bien que des dragons rouges combattaient pour les orcs. Les marches de Quel'thalas brûlèrent, ce qui dissipa les doutes des elfes, et les villes de Lordaeron furent rasées une à une." },
+        { "La Horde était aux portes de la capitale de Lordaeron quand Gul'dan déserta avec la moitié de ses forces pour faire surgir de la mer la tombe de Sargeras, et n'y trouva que des démons enragés. Doomhammer dut faire demi-tour pour le punir. L'Alliance le repoussa au sud jusqu'au pic Rochenoire, où Lothar tomba au pied de la montagne ; Turalyon rallia l'armée, brisa la Horde et détruisit la Porte des ténèbres derrière elle. Les orcs qui survécurent furent rassemblés dans des camps." },
+        { "Le pic, je le note, est de nouveau plein d'orcs." },
+      },
+    },
     ["the-sepulcher"] = {
       title = "Le Sépulcre",
       text = {
         { "Le Sépulcre est un ensemble de cryptes et de mausolées dans la forêt des Pins argentés, tenu par les Gardes noirs et les Traqueurs noirs réprouvés. Depuis cette place forte, ils entendent sécuriser la forêt. Les ordres de la reine banshee vont plus loin : Varimathras est chargé de conquérir les terres humaines et naines du sud." },
         { "Pour l'heure, les worgens d'Arugal, les gnolls Poil-Putride et les mages de Moulin-de-l'Ambre occupent ses forces tout près de chez elles. Les Réprouvés tiennent en particulier à défaire l'œuvre d'Arugal." },
+      },
+    },
+    ["the-seven-kingdoms"] = {
+      title = "Les sept royaumes",
+      text = {
+        { "Arathor ne prit pas fin dans une guerre. Il se désagrégea. Strom resta le cœur de l'empire tandis que de nouvelles cités s'élevaient à travers le nord : Dalaran, où les mages allèrent pratiquer plus librement ; Gilnéas et Alterac, dont les armées s'enfoncèrent dans les montagnes du Khaz Modan et rencontrèrent ainsi les nains de Forgefer ; Kul Tiras, sur son île, qui s'enrichit de la pêche et du commerce et bâtit une flotte pour porter l'un et l'autre." },
+        { "Puis les seigneurs de Strom se lassèrent du sud aride. Ils partirent au nord et bâtirent une nouvelle cité, Lordaeron, et avec le temps, tout le continent prit son nom. Le dernier de la lignée de Thoradin, qui avait soutenu qu'il ne fallait pas abandonner Strom, partit dans l'autre sens, au sud, au-delà des montagnes, et fonda Hurlevent dans une vallée fertile du pays qu'ils appelaient Azeroth. Quelques guerriers restèrent garder les vieux murs, et Strom devint Stromgarde." },
+        { "Sept royaumes, donc, chacun avec ses coutumes et ses rancunes, et aucun ne gouvernant les autres. Il fallut une invasion venue d'un autre monde pour les réunir de nouveau sous une même bannière, près de trois mille ans plus tard, et la bannière ne survécut pas longtemps à la guerre qui l'avait levée. La Ligue a toujours trouvé les nains plus faciles à suivre." },
       },
     },
     ["the-shalnan"] = {
@@ -3010,6 +3111,14 @@ ns.translate({
         { "Les épaves sur la rive nord des Paluns étaient la Troisième flotte de Kul Tiras. Lors de son dernier voyage, elle fut surprise au large de cette côte par des dragons rouges, des dragons montés par des orcs, et brûlée et coulée sur place. Les Kultirassiens l'appellent la Flotte maudite." },
         { "Un seul homme en réchappa : Fitzsimmons, autrefois premier officier de la Maîtresse-des-Vagues, qui boit à Port de Menethil et racontera l'histoire pour le prix d'une chope. Ses compagnons de bord ne reposent pas tous en paix. Quelque chose avait été chargé à bord de l'Intrépide, enfermé dans le coffre du capitaine, et son pouvoir fait que les équipages noyés arpentent toujours leurs ponts pourrissants. Le capitaine Halyndor arpente encore son navire avec la clé." },
         { "Ce coffre contenait un Œil de Paleth, l'un des orbes que les prêtres humains fabriquaient pour briller de mille feux, devenu noir et maudit par ce qu'il vit cette nuit-là. Les prêtres de Menethil ne purent le purifier ; l'archevêque de Hurlevent, lui, le put. Une flotte ne meurt pas toujours d'un seul coup, $gvoyageur:voyageuse;. Il faut parfois un prêtre et un premier officier têtu pour en finir." },
+      },
+    },
+    ["the-war-of-the-spider"] = {
+      title = "La guerre de l'Araignée",
+      text = {
+        { "Tandis que Thrall libérait son peuple des camps, le roi-liche élevait une citadelle au-dessus du glacier de la Couronne de glace, et un royaume du Norfendre lui opposa un refus. Azjol-Nérub s'étendait sous terre, gouverné par les nérubiens, des seigneurs araignées dont les tunnels couraient sous la moitié du continent. Ils étaient insensibles à sa peste et à sa voix dans leur esprit, et ils frappaient ses places fortes et disparaissaient avant qu'il puisse répondre." },
+        { "Il l'emporta à l'usure. Avec les seigneurs de l'effroi et une réserve inépuisable de morts, il envahit Azjol-Nérub et fit s'effondrer ses temples sur la tête des seigneurs araignées. La peste ne pouvait les prendre vivants, mais sa nécromancie pouvait les relever morts, et ainsi les nérubiens en vinrent à servir le maître qu'ils avaient combattu. Il admirait aussi leurs édifices : les forteresses du Fléau sont bâties dans leur style." },
+        { "On peut voir les deux dans les Maleterres. Les démons des cryptes qui rampent parmi le Fléau sont des nérubiens, ou ce qu'il en reste, et les ziggourats des morts sont l'architecture des seigneurs araignées. Le roi-liche garde ses trophées près de lui." },
       },
     },
     ["the-windshapers"] = {
