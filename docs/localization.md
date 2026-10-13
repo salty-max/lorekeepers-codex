@@ -94,6 +94,9 @@ first translation, said so on the store page.
    interface's words through `L[...]`, and the pipeline (English only:
    nothing changes for an English client).
 2. French (reviewed by the user), German, Spanish (esES, also given to esMX).
+   French done 13 October 2026: the 203 words, 45 chapters and all 438
+   pages; the user approved the voice on the Dun Morogh pilot. Names with no
+   game data to check them against are listed for the reviewer.
 3. Russian, Portuguese (ptBR), Italian.
 4. Korean, Chinese (zhTW, zhCN): longer to review, their own typography.
 
