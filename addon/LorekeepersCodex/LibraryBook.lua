@@ -124,7 +124,7 @@ local function refreshList()
       end
     end
   end
-  if empty then add("text", searching and "No text found." or "Nothing read yet."):SetScript("OnClick", nil) end
+  if empty then add("text", searching and L["No text found."] or L["Nothing read yet."]):SetScript("OnClick", nil) end
   list.child:SetHeight(y + 8)
   list:UpdateThumb()
 end

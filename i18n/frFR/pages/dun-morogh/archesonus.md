@@ -9,4 +9,4 @@ L'histoire qu'on me demande le plus, c'est celle des Sombrefer. La guerre des Tr
 
 Ce registre est mon œuvre, $gvoyageur:voyageuse;, avec beaucoup d'aide de la Ligue des explorateurs, qui rapporte plus de choses qu'une seule historienne n'en pourrait lire. Si une page vous a bien servi, j'en suis heureuse. Si l'une d'elles vous a fait défaut, venez me le dire.
 
-[horde] > Je ne l'ai jamais rencontrée. Son récit du monde reste le plus équitable que j'aie lu sous une plume vivante. -- P. F.
+[horde] > Je ne l'ai jamais rencontrée. Son récit du monde reste le plus juste que j'aie lu sous une plume vivante. -- P. F.

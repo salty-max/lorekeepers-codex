@@ -38,7 +38,7 @@ ns.translate({
     ["All Walks of Life"] = "De tous horizons",
     ["An alert for each achievement"] = "Une alerte pour chaque haut fait",
     ["An alert for each new page"] = "Une alerte pour chaque nouvelle page",
-    ["Another character's choices, for this one (of this game: Classic and Forever keep their own). From elsewhere: /codex export there, then /codex import CODE here."] = "Les choix d'un autre personnage, pour celui-ci (de ce jeu : Classic et Forever gardent les leurs). D'ailleurs : /codex export là-bas, puis /codex import CODE ici.",
+    ["Another character's choices, for this one (of this game: Classic and Forever keep their own). From elsewhere: /codex export there, then /codex import CODE here."] = "Les choix d'un autre personnage, pour celui-ci (de ce jeu : Classic et Forever gardent les leurs). Sinon, utilisez /codex export sur l'autre personnage, puis /codex import CODE ici.",
     ["Apr"] = "avr.",
     ["Archesonus, Royal Historian of Ironforge, has left you a ledger."] = "Archesonus, historienne royale de Forgefer, vous a laissé un registre.",
     ["Aug"] = "août",
@@ -138,11 +138,13 @@ ns.translate({
     ["No other character yet"] = "Aucun autre personnage pour l'instant",
     ["No page found."] = "Aucune page trouvée.",
     ["no settings page in this client: use /codex banner and /codex minimap."] = "pas de page de réglages dans ce client : utilisez /codex banner et /codex minimap.",
+    ["No text found."] = "Aucun texte trouvé.",
     ["None"] = "Aucun",
     ["Note"] = "Note",
     ["notes"] = "notes",
     ["Notes"] = "Notes",
     ["Notes and Letters"] = "Notes et lettres",
+    ["Nothing read yet."] = "Aucun texte lu pour le moment.",
     ["Nov"] = "nov.",
     ["Oct"] = "oct.",
     ["of the deeds"] = "des exploits",
@@ -191,7 +193,7 @@ ns.translate({
     ["The Librarian's Apprentice"] = "$gApprenti:Apprentie; bibliothécaire",
     ["The Library"] = "La Bibliothèque",
     ["The lore of Azeroth, written for you as you explore."] = "L'histoire d'Azeroth, écrite pour vous au fil de vos explorations.",
-    ["this forgets every page and achievement this character has found. Type /codex reset yes to do it."] = "ceci efface toutes les pages et tous les hauts faits trouvés par ce personnage. Tapez /codex reset yes pour le faire.",
+    ["this forgets every page and achievement this character has found. Type /codex reset yes to do it."] = "ceci efface toutes les pages trouvées et tous les hauts faits obtenus par ce personnage. Tapez /codex reset yes pour le faire.",
     ["this is the %s package, and this is %s: install the %s package to read this game's pages."] = "ceci est le paquet %s, et ce jeu est %s : installez le paquet %s pour lire les pages de ce jeu.",
     ["This page did not reach the codex; open the text again in the world to copy it."] = "Cette page n'a pas été copiée ; rouvrez le texte dans le monde pour la copier.",
     ["Three Hundred Pages"] = "Trois cents pages",
@@ -232,13 +234,13 @@ ns.translate({
     ["felwood"] = { "Gangrebois", "La forêt empoisonnée, où l'on trouva le crâne de Gul'dan." },
     ["feralas"] = { "Feralas", "Des arbres géants, des ogres, et les ruines des Bien-nés." },
     ["hillsbrad"] = { "Contreforts de Hautebrande", "De vertes collines où vivants et Réprouvés se disputent chaque ferme." },
-    ["hinterlands"] = { "Les Hinterlands", "Les collines sauvages des nains Wildhammer, et les temples trolls qu'ils partagent avec eux." },
-    ["loch-modan"] = { "Loch Modan", "Le pays du lac à l'est de Forgefer, retenu par un barrage et veillé par des rois de pierre." },
+    ["hinterlands"] = { "Les Hinterlands", "Les collines sauvages des nains Wildhammer, où se dressent aussi des temples trolls." },
+    ["loch-modan"] = { "Loch Modan", "Le pays du lac à l'est de Forgefer, où un barrage retient les eaux sous le regard de rois de pierre." },
     ["moonglade"] = { "Reflet-de-Lune", "La vallée sacrée des druides." },
     ["mulgore"] = { "Mulgore et Thunder Bluff", "Les vertes plaines des taurens, et la cité sur les mesas." },
     ["peoples"] = { "Peuples et puissances", "Les peuples, ordres et factions qu'un voyageur rencontre en bien des contrées, réunis en un seul endroit." },
     ["redridge"] = { "Les Carmines", "Des collines rouges, un lac paisible et une ville assiégée par le nord." },
-    ["searing-gorge"] = { "Gorge des Vents brûlants", "Le versant nord et brûlé de la montagne, et la grande fosse des Sombrefer." },
+    ["searing-gorge"] = { "Gorge des Vents brûlants", "Le versant nord calciné de la montagne, et la grande fosse des Sombrefer." },
     ["silithus"] = { "Silithus", "Le désert des insectes, le Mur du scarabée, et ce qui dort derrière." },
     ["silverpine"] = { "Forêt des Pins argentés", "Des pins gris entre les Réprouvés et la porte close de Gilnéas." },
     ["stonetalon"] = { "Les Serres-Rocheuses", "De hauts pics et de vieilles forêts, qui brûlent sous les scies des gobelins." },
@@ -322,14 +324,14 @@ ns.translate({
       title = "Nid-de-l'Aigle",
       text = {
         { "Nid-de-l'Aigle est le foyer des nains Wildhammer, une ville de salles de pierre et de perchoirs à griffons bâtie dans un piton à la lisière ouest des Hinterlands. Elle possède la plus belle volière de griffons du monde, et chaque nain de Forgefer qui a volé à dos de griffon a un Wildhammer à remercier." },
-        { "Ce n'est pas Forgefer. Il n'y a pas de grandes forges ici, peu de murs et encore moins de plafonds ; les Wildhammer vivent au grand air, se peignent la peau de tatouages et parlent aux esprits de la terre. Un nain de Forgefer se sent un peu déplacé à Nid-de-l'Aigle, et c'est voulu." },
+        { "Ce n'est pas Forgefer. Il n'y a pas de grandes forges ici, peu de murs et encore moins de plafonds ; les Wildhammer vivent au grand air, se peignent la peau de tatouages et parlent aux esprits de la terre. Un nain de Forgefer ne se sent pas tout à fait à sa place à Nid-de-l'Aigle, et c'est voulu." },
       },
     },
     ["agamaggan"] = {
       title = "Agamaggan",
       text = {
         { "Pendant la guerre des Anciens, il y a dix mille ans, les demi-dieux du monde sauvage se levèrent contre la Légion ardente, et parmi eux se trouvait Agamaggan, un grand sanglier. Il tomba. Là où son sang imprégna la terre des Tarides poussèrent des épines colossales, et des pierres rouge sang se formèrent dans le sol ; les hurans vivent parmi les épines, se disent ses enfants, et portent les pierres comme totems." },
-        { "Les chamans des hurans puisent encore dans son pouvoir, et un prisonnier du camp Taurajo partagera ses bénédictions contre le bon prix. Les grands dédales d'épines du sud, Tranchebauge, sont sa tombe, et les hurans les tiennent pour sacrés." },
+        { "Les chamans des hurans puisent encore dans son pouvoir, et un prisonnier du camp Taurajo partagera ses bénédictions pour peu qu'on y mette le prix. Les grands dédales d'épines du sud, Tranchebauge, sont sa tombe, et les hurans les tiennent pour sacrés." },
       },
     },
     ["algaz"] = {
@@ -343,7 +345,7 @@ ns.translate({
     ["alonsus-faol"] = {
       title = "Alonsus Faol",
       text = {
-        { "Alonsus Faol dirigeait les clercs de Comté-du-Nord avant la Première Guerre, et quand Hurlevent tomba, et l'abbaye avec elle, le vieil homme partit vers le nord avec les réfugiés. En Lordaeron, devenu archevêque, il donna une épée à l'Église de la Lumière sacrée : il fonda les chevaliers de la Main d'argent et oignit son apprenti, Uther, premier des paladins." },
+        { "Alonsus Faol dirigeait les clercs de Comté-du-Nord avant la Première Guerre, et quand Hurlevent tomba, et l'abbaye avec elle, le vieil homme partit vers le nord avec les réfugiés. En Lordaeron, devenu archevêque, il donna une épée à l'Église de la Lumière sacrée : il fonda l'ordre des chevaliers de la Main d'argent et oignit son apprenti, Uther, premier des paladins." },
         { "Son œuvre ne s'arrêta pas au champ de bataille. Une plaque de la cathédrale de Hurlevent dit qu'il la commença à Stratholme, aida à refonder la Confrérie de Comté-du-Nord après la Deuxième Guerre et réunit les fonds pour rebâtir Hurlevent elle-même. Il mourut avant l'arrivée de la peste, de rien de pire que la vieillesse, pour autant qu'on le sache." },
         { "C'est ici, dit-on, qu'il repose. Avant le Fléau, c'était un lieu de pèlerinage. Aujourd'hui, il rassemble les morts du Monastère écarlate, et personne ne vient le pleurer. Il méritait mieux, et l'ordre qu'il a fondé aussi." },
       },
@@ -359,7 +361,7 @@ ns.translate({
       title = "Montagnes d'Alterac",
       text = {
         { "La neige recouvre une grande partie d'Alterac, mais elle n'a guère caché la chute du royaume. Des châteaux brisés dominent des villes tenues par le Syndicat, des ogres occupent l'ancienne capitale, et les routes grimpent devant des grottes qui appartiennent désormais aux yétis. C'étaient autrefois les hauteurs d'un petit royaume humain plein de fierté, dont le roi trahit l'Alliance pendant la Deuxième Guerre." },
-        { client = "classic", "Au bord du lac Lordamere, un dôme violet enferme la reconstruction de Dalaran. Les mages ont survécu à la destruction de leur cité et recommencent, même s'ils admettent peu de témoins à l'ouvrage." },
+        { client = "classic", "Au bord du lac Lordamere, Dalaran se reconstruit à l'abri d'un dôme violet. Les mages ont survécu à la destruction de leur cité et recommencent, même s'ils admettent peu de témoins à l'ouvrage." },
         { client = "forever", "Au bord du lac Lordamere, la reconstruction de Dalaran s'est heurtée à une nouvelle calamité. Des lignes telluriques perturbées ont retourné les créations de la cité contre ses habitants, et l'archimage Modera cherche l'aide extérieure dont le conseil préférerait se passer." },
         { "Plus loin dans les montagnes, les Loup-de-Givre et les Foudrepique se disputent la vallée d'Alterac. Le royaume a disparu, $gvoyageur:voyageuse; ; les querelles sur qui peut vivre dans ses collines lui ont survécu." },
       },
@@ -423,14 +425,14 @@ ns.translate({
         { "Vous m'avez donc trouvée. Je garde l'histoire de Forgefer depuis le Haut-Siège, à quelques pas du trône du roi Magni, et quiconque m'interroge à son sujet ferait bien d'avoir un après-midi devant lui." },
         { "L'histoire qu'on me demande le plus, c'est celle des Sombrefer. La guerre des Trois Marteaux s'acheva quand le thane-sorcier Thaurissan appela Ragnaros, et le réveil du seigneur du Feu réduisit leur propre pays en cendres. Des reliques gisent encore dans les ruines de Thaurissan, dans les Steppes ardentes, et elles en savent plus sur cette histoire que je n'ai pu en lire. Qui me rapportera ce qu'elles disent aura toute ma gratitude." },
         { "Ce registre est mon œuvre, $gvoyageur:voyageuse;, avec beaucoup d'aide de la Ligue des explorateurs, qui rapporte plus de choses qu'une seule historienne n'en pourrait lire. Si une page vous a bien servi, j'en suis heureuse. Si l'une d'elles vous a fait défaut, venez me le dire." },
-        { side = "Horde", aside = true, sign = "P. F.", "Je ne l'ai jamais rencontrée. Son récit du monde reste le plus équitable que j'aie lu sous une plume vivante." },
+        { side = "Horde", aside = true, sign = "P. F.", "Je ne l'ai jamais rencontrée. Son récit du monde reste le plus juste que j'aie lu sous une plume vivante." },
       },
     },
     ["archmage-arugal"] = {
       title = "Archimage Arugal",
       text = {
         { "Tandis que les défenseurs de Dalaran tombaient sous le Fléau, Arugal chercha une arme contre les morts. Le mage du Kirin Tor fit venir des worgens d'un autre monde. Ils combattirent les envahisseurs, puis se retournèrent contre les vivants qu'ils avaient été appelés à protéger." },
-        { "Arugal se retira au donjon d'Ombrecroc et en vint à considérer les worgens comme ses enfants. Bois-du-Bûcher, tout proche, subit sa malédiction : ses habitants changent à la tombée de la nuit. Ce qui avait commencé comme une tentative de sauver une cité a laissé un donjon et un village sous l'emprise de sa réponse." },
+        { "Arugal se retira au donjon d'Ombrecroc et en vint à considérer les worgens comme ses enfants. Bois-du-Bûcher, tout proche, subit sa malédiction : ses habitants changent à la tombée de la nuit. Ce qui avait commencé comme une tentative de sauver une cité a laissé un donjon et un village à la merci des créatures qu'il avait invoquées pour la sauver." },
       },
     },
     ["argent-dawn"] = {
@@ -454,7 +456,7 @@ ns.translate({
       title = "Ashenvale",
       text = {
         { "Ashenvale est l'antique forêt des elfes de la nuit : des arbres immenses, un clair de lune argenté, des lacs immobiles et des ruines plus vieilles que n'importe quel royaume des hommes. Pendant dix mille ans, les elfes de la nuit y vécurent cachés, gardés par leurs Sentinelles et par le demi-dieu Cénarius, et n'y laissèrent entrer personne." },
-        { "Puis les orcs arrivèrent en Kalimdor, avec besoin de bois pour leur nouvelle terre, et la forêt est en guerre depuis. Pendant la dernière guerre, le clan Chanteguerre entama Ashenvale et tua Cénarius sous l'emprise de la corruption de Mannoroth ; les elfes de la nuit ne le leur ont pas pardonné, et la Horde n'a pas cessé de couper. Sentinelles et voltigeurs chanteguerres s'affrontent aujourd'hui le long de la lisière est de la forêt, tandis que des furbolgs devenus fous, des satyres et des nagas inquiètent tout le monde également." },
+        { "Puis les orcs arrivèrent en Kalimdor, avec un besoin de bois pour leur nouvelle terre, et la forêt est en guerre depuis. Pendant la dernière guerre, le clan Chanteguerre entama Ashenvale et tua Cénarius sous l'emprise de la corruption de Mannoroth ; les elfes de la nuit ne le leur ont pas pardonné, et la Horde n'a pas cessé de couper. Sentinelles et voltigeurs chanteguerres s'affrontent aujourd'hui le long de la lisière est de la forêt, tandis que des furbolgs devenus fous, des satyres et des nagas inquiètent tout le monde également." },
       },
     },
     ["astranaar"] = {
@@ -469,7 +471,7 @@ ns.translate({
       text = {
         { "Atiesh était le bâton des Gardiens de Tirisfal, celui de Medivh pour finir, et après sa mort il fut brisé et dispersé. Ses éclats furent rassemblés dans la nécropole de Naxxramas, où Kel'Thuzad siégeait sur son trône en tenant ce que le porteur cherchait. Sa base partit dans Ahn'Qiraj avec l'explorateur nain Brann Bronzebeard, qui en ressortit sans elle." },
         { "Un bâton qui avait porté le pouvoir d'un Gardien avait aussi porté celui de Sargeras, comme son dernier Gardien, et le mal était toujours en lui. Anachronos, du vol de bronze, près des Grottes du temps, envoie quiconque lui apporte les morceaux à Stratholme, sur la terre consacrée où furent assassinés les plus grands chevaliers de Lordaeron, pour faire sortir la chose qui s'y trouve et la détruire." },
-        { "Très peu le tiendront jamais. Le dragon de bronze dit que celui qui y parvient y a toujours été destiné. Le vol de bronze dit beaucoup ce genre de choses." },
+        { "Rares sont ceux qui le tiendront un jour. Le dragon de bronze dit que celui qui y parvient y a toujours été destiné. Le vol de bronze dit beaucoup ce genre de choses." },
       },
     },
     ["auberdine"] = {
@@ -483,7 +485,7 @@ ns.translate({
       title = "Azshara",
       text = {
         { "Azshara porte les couleurs de l'automne parmi les ruines blanches des Bien-nés. Elle porte le nom de la reine qui régnait il y a dix mille ans, et s'étend au bord de la mer qui engloutit une si grande part de son empire. Peu d'endroits offrent une plus belle vue sur une si grande perte." },
-        { "Les nagas occupent la côte et les vieux temples ; les satyres hantent les bois, et des fantômes demeurent parmi les murs brisés. Valormok et la halte de Talrendis sont de petites prises dans un pays encore encombré de revendications plus anciennes. Azuregos surveille les collines du sud, tandis qu'un archimage tient une tour et qu'un seigneur des eaux habite une île de la baie." },
+        { "Les nagas occupent la côte et les vieux temples ; les satyres hantent les bois, et des fantômes demeurent parmi les murs brisés. Valormok et la halte de Talrendis sont de modestes points d'appui dans un pays encore encombré de revendications plus anciennes. Azuregos surveille les collines du sud, tandis qu'un archimage tient une tour et qu'un seigneur des eaux habite une île de la baie." },
         { client = "classic", "Dans les collines du nord se dresse la porte close des Grumegueules. Les furbolgs ont gardé cette partie de leur pays pour eux." },
         { client = "forever", "La porte de pierre du nord mène au repaire des Noiregueules, où la corruption a pris une tribu de furbolgs. Ce ne sont pas les Grumegueules qui gardent les tunnels de Gangrebois. Un vieux nom sur une carte peut être un piètre guide quant aux gens qui vivent derrière une porte." },
       },
@@ -499,7 +501,7 @@ ns.translate({
     ["bael-modan"] = {
       title = "Bael Modan",
       text = {
-        { "Les nains du général Twinbraid ont bâti Bael Modan à côté de leur chantier de fouilles, au sud-est des Tarides, avec un canon et des machines volantes pour soutenir l'établissement. Le prospecteur Khazgorm, de la Ligue des explorateurs, travaille parmi eux. Un site ancien, un camp défendu et l'un des propres prospecteurs de la Ligue : les débuts d'une expédition bien connue." },
+        { "Les nains du général Twinbraid ont bâti Bael Modan à côté de leur chantier de fouilles, au sud-est des Tarides, avec un canon et des machines volantes pour soutenir l'établissement. Le prospecteur Khazgorm, de la Ligue des explorateurs, travaille parmi eux. Un site ancien, un camp défendu et un prospecteur de la Ligue elle-même : les débuts d'une expédition bien connue." },
         { "Gann Stonespire décrit ce qui l'a précédée. C'était le foyer de sa tribu, dit-il, avant que les explosions et les machines ne déchirent les collines et n'en chassent ses habitants. La diplomatie l'a déçu ; il veut désormais la mort de Khazgorm et la destruction de la machine volante des nains." },
         { "Au sein de l'expédition, Feegly a été frappé par la malédiction d'une pierre déterrée. Le chantier a apporté des ennuis à ceux qui creusent comme à ceux qu'il a chassés. J'aimerais pouvoir être fière de chaque endroit où apparaît le nom de la Ligue. Bael Modan me rend la chose difficile." },
       },
@@ -521,7 +523,7 @@ ns.translate({
     ["barrens-oases"] = {
       title = "Les oasis",
       text = {
-        { "Les oasis des Tarides sont sa vie : des mares d'eau douce dans l'herbe sèche, où bêtes et voyageurs viennent boire. Ces derniers temps, elles sont devenues étranges. Les animaux des environs se déforment, les plantes poussent trop vite et de travers, et les druides de Thunder Bluff ont senti une puissance s'infiltrer dans la terre et ont envoyé l'un des leurs la trouver." },
+        { "Les oasis font vivre les Tarides : des mares d'eau douce dans l'herbe sèche, où bêtes et voyageurs viennent boire. Ces derniers temps, elles sont devenues étranges. Les animaux des environs se déforment, les plantes poussent trop vite et de travers, et les druides de Thunder Bluff ont senti une puissance s'infiltrer dans la terre et ont envoyé l'un des leurs la trouver." },
         { "Il trouva des fissures au fond des mares, qui plongeaient dans la terre. Les oasis sont alimentées par en dessous, par les cavernes sous les Tarides, et ce qui ne va pas dans ces cavernes remonte avec l'eau." },
       },
     },
@@ -587,7 +589,7 @@ ns.translate({
       title = "Les elfes de sang",
       text = {
         { "Après la chute de Quel'thalas, le dernier de sa lignée royale, le prince Kael'thas Sunstrider, mena ce qui restait des hauts-elfes dans la lutte de l'Alliance contre le Fléau. Ils se rebaptisèrent elfes de sang en l'honneur de leur peuple tombé. Coupés du Puits de soleil qui les avait nourris pendant des milliers d'années, ils découvrirent aussi à quel point ils avaient besoin de sa magie, et souffrirent de son manque." },
-        { "Comme l'Alliance exigeait des batailles que ses forces affaiblies ne pouvaient gagner seules, Kael'thas accepta l'aide de dame Vashj et de ses nagas. Son commandant, Garithos, condamna les elfes de sang comme traîtres et les envoya à la mort. Vashj les libéra des cachots de Dalaran et les mena en Outreterre, le reste brisé du monde des orcs. Là, ils libérèrent Illidan Stormrage de sa geôlière, et Kael'thas se mit à son service en échange de la magie dont son peuple avait besoin." },
+        { "Comme l'Alliance exigeait des batailles que ses forces affaiblies ne pouvaient gagner seules, Kael'thas accepta l'aide de dame Vashj et de ses nagas. Son commandant, Garithos, déclara les elfes de sang traîtres et les condamna à mort. Vashj les libéra des cachots de Dalaran et les mena en Outreterre, le reste brisé du monde des orcs. Là, ils libérèrent Illidan Stormrage de sa geôlière, et Kael'thas se mit à son service en échange de la magie dont son peuple avait besoin." },
         { "Certains des siens sont bien plus proches. Des elfes de sang fouillent les falaises et les ruines d'Azshara à la recherche de la magie que les Bien-nés y ont laissée, et broient ce qu'ils trouvent en une poussière scintillante ; un gobelin qui a pris leur argent et une bande d'orcs qui leur a prêté des gardes ont tous deux appris ce que vaut leur emploi. Un autre est entré à Hache-tripes pour vider ses ruines de leur pouvoir. Gershala Nightwhisper, à Auberdine, craint qu'ils ne prennent le chemin des satyres et des nagas. Je crains qu'il n'ait raison." },
       },
     },
@@ -602,7 +604,7 @@ ns.translate({
       title = "La Voile sanglante",
       text = {
         { "Les boucaniers de la Voile sanglante forment la grande flotte pirate des mers du sud, et leur querelle est avec Baie-du-Butin. Le baron et ses pillards des Flots noirs les empêchent de piller où bon leur semble et les pendent quand ils les attrapent ; la Voile sanglante veut la mort du baron et de son amiral, et fera amiral quiconque lui apportera leurs têtes." },
-        { "Leurs navires mouillent au large de la côte de Strangleronce, le Voile cramoisi parmi eux, et leurs camps tiennent les criques de la Côte sauvage. L'amiral des Flots noirs est Firallon, dont les marins de la Voile sanglante disent qu'il ne saurait pas mener un esquif d'un bord à l'autre d'un lac. Ils ne l'ont pas encore battu." },
+        { "Leurs navires mouillent au large de la côte de Strangleronce, le Voile cramoisi parmi eux, et leurs camps tiennent les criques de la Côte sauvage. Leur amiral est Firallon, dont les marins des Flots noirs disent qu'il ne saurait pas mener un esquif d'un bord à l'autre d'un lac. Ils ne l'ont pas encore battu." },
       },
     },
     ["bloodscalp-and-skullsplitter"] = {
@@ -667,7 +669,7 @@ ns.translate({
     ["bronze-dragonflight"] = {
       title = "Le Vol draconique de bronze",
       text = {
-        { "Nozdormu, l'Intemporel, reçut la garde du temps, et son vol en surveille les chemins. On les voit rarement. Quand on les voit, c'est d'ordinaire parce que quelque chose ne va plus dans le moment où les choses arrivent." },
+        { "Nozdormu, l'Intemporel, reçut la garde du temps, et son vol en surveille les chemins. On les voit rarement. Quand on les voit, c'est d'ordinaire parce que les événements ne se produisent plus au bon moment." },
         { "À Andorhal, l'un d'eux se promène sous les traits d'une étrange petite gnome appelée Chromie, et a fait d'une pièce de l'auberge en ruine un lieu qui n'appartient pas tout à fait au reste de la ville. Elle dit que le Fléau a trafiqué le temps à cet endroit ; elle chasse les parasites qui se nourrissent de ses fils rompus, et elle a aidé un voyageur à changer le sort d'un homme tombé à Comté-de-Darrow." },
         { "En Tanaris, près des Grottes du temps, attend Anachronos, qui était au Mur du scarabée il y a mille ans, quand on le scella. Le vol de bronze se souvient de la guerre contre Ahn'Qiraj parce qu'il l'a livrée. Demandez-leur ce qu'ils savent de demain, $gvoyageur:voyageuse;, et ils vous répondront avec un sourire que vos plus grands exploits sont encore à venir." },
       },
@@ -675,7 +677,7 @@ ns.translate({
     ["burning-blade"] = {
       title = "La Lame ardente",
       text = {
-        { "La Lame ardente fut jadis un clan orc, célèbre pour ses maîtres-lames, et certains de ces maîtres-lames se sont libérés des démons et servent encore Thrall. Le reste du nom est passé à un culte. La Lame ardente d'aujourd'hui est une confrérie de démonistes et de fanatiques qui vénèrent les démons ayant jadis asservi leur peuple, et qui répondent au Conseil des ombres, celui-là même qui amena la Horde dans ce monde." },
+        { "La Lame ardente fut jadis un clan orc, célèbre pour ses maîtres-lames, et certains de ces maîtres-lames se sont libérés des démons et servent encore Thrall. Le reste du nom est passé à un culte. La Lame ardente d'aujourd'hui est une confrérie de démonistes et de fanatiques qui vénèrent les démons ayant jadis asservi leur peuple, et qui obéissent au Conseil des ombres, celui-là même qui amena la Horde dans ce monde." },
         { "Ils sont la honte de la Horde, cachée sur ses propres terres. Ils tiennent les grottes du Rocher du crâne en Durotar, en vue d'Orgrimmar, et le pic de Brume-funeste dans les Tarides, où un gangregarde veille sur une graine démoniaque, un lien avec la Légion elle-même ; en Désolace, ils ont fait leur la forteresse de Hache-Tonnerre, et dans les gouffres sous Orgrimmar même, une branche qui se fait appeler la Lame brûlante complote dans le noir. Le peuple de Thrall les traque partout où il les trouve." },
         { "Ils ont été plus près que quiconque n'aime l'admettre de déclencher une nouvelle guerre. Quelques années après le mont Hyjal, un démon mineur du nom de Zmodlor prit le culte en main et dressa Durotar et Theramore l'un contre l'autre : des navires attaqués, des raids imputés à l'autre camp, un traître murmurant dans le conseil de chaque chef, dont le propre chambellan de dame Jaina Proudmoore. Jaina et Thrall découvrirent tout cela ensemble, et la paix tint. Le culte n'en avait pas fini, comme le Rocher du crâne vous le dira." },
       },
@@ -692,7 +694,7 @@ ns.translate({
       title = "Steppes ardentes",
       text = {
         { "Les Steppes ardentes s'étendent au sud du mont Rochenoire, une vaste plaine de cendres, de lave et de roche noire sous un ciel rouge. Autrefois, tout cela formait l'extrémité nord des Carmines, avant que Thaurissan ne réveille le seigneur du Feu. L'explosion qui suivit emporta les montagnes, les forêts et la propre cité des Sombrefer, et laissa ceci." },
-        { "C'est une terre en guerre. Les orcs Blackrock de la Horde noire tiennent le pic et les cols, le vol draconique noir niche sur les hauteurs, et les ogres tiennent le rocher des Cognepeurs. L'Alliance a une prise à la Veille de Morgan, au sud-est, et il y a un petit avant-poste neutre à la Corniche des flammes, sur un rocher au-dessus de la lave, où chacun peut se reposer." },
+        { "C'est une terre en guerre. Les orcs Blackrock de la Horde noire tiennent le pic et les cols, le vol draconique noir niche sur les hauteurs, et les ogres tiennent le rocher des Cognepeurs. L'Alliance dispose d'un point d'appui à la Veille de Morgan, au sud-est, et il y a un petit avant-poste neutre à la Corniche des flammes, sur un rocher au-dessus de la lave, où chacun peut se reposer." },
       },
     },
     ["caer-darrow"] = {
@@ -706,7 +708,7 @@ ns.translate({
       title = "Cairne Bloodhoof",
       text = {
         { "Cairne Bloodhoof est le grand chef des taurens, chef de la tribu Bloodhoof, et le plus vieil ami que la Horde ait en Kalimdor. Quand les orcs de Thrall touchèrent terre, il menait son peuple à travers les plaines, les centaures sur les talons, et les orcs se battirent à leurs côtés. Cairne les remercia par son amitié et ses conseils, et les taurens font partie de la Horde depuis lors." },
-        { "Il est très vieux aujourd'hui, et très grand, et il parle lentement et rarement. Il a bâti Thunder Bluff, y a rassemblé les tribus et donné aux taurens un foyer pour la première fois de mémoire tauren. Son fils Baine tient le village de Sabot-de-Sang, et fut un jour, dit-on, enlevé par les centaures et ramené par un maître des bêtes de la Horde." },
+        { "Il est très vieux aujourd'hui, et très grand, et il parle lentement et rarement. Il a bâti Thunder Bluff, y a rassemblé les tribus et donné aux taurens un foyer pour la première fois de mémoire de tauren. Son fils Baine tient le village de Sabot-de-Sang, et fut un jour, dit-on, enlevé par les centaures et ramené par un maître des bêtes de la Horde." },
         { "Les orcs le vénèrent, et l'Alliance lui fait davantage confiance qu'à aucun autre chef de la Horde. Les uns comme les autres, je crois, ont raison." },
       },
     },
@@ -788,7 +790,7 @@ ns.translate({
       title = "L'Église de la Lumière sacrée",
       text = {
         { "L'Église de la Lumière sacrée enseigne que la vertu, la compassion et le sacrifice puisent à une puissance capable de guérir et de protéger. La foi est venue de Lordaeron vers le sud, et la cathédrale de la Lumière de Hurlevent en est aujourd'hui le siège, sous l'autorité de l'archevêque Benedictus. Les nains aussi ont appris ses voies auprès de leurs voisins humains." },
-        { "Pendant la Deuxième Guerre, l'archevêque Alonsus Faol fonda les chevaliers de la Main d'argent. Ces premiers paladins, menés par Uther le Porteur de lumière, portèrent la Lumière sur le champ de bataille avec leurs épées. Depuis la chute de Lordaeron, Hurlevent est devenue le centre de l'Église, et ses prêtres et paladins servent dans toute l'Alliance." },
+        { "Pendant la Deuxième Guerre, l'archevêque Alonsus Faol fonda l'ordre des chevaliers de la Main d'argent. Ces premiers paladins, menés par Uther le Porteur de lumière, portèrent la Lumière sur le champ de bataille avec leurs épées. Depuis la chute de Lordaeron, Hurlevent est devenue le centre de l'Église, et ses prêtres et paladins servent dans toute l'Alliance." },
         { "Les questions de foi peuvent occuper un érudit pendant des années. Un voyageur blessé a une raison plus immédiate d'être reconnaissant du savoir d'un prêtre." },
       },
     },
@@ -803,7 +805,7 @@ ns.translate({
       title = "Les pylônes de cristal",
       text = {
         { "Le travail de J.D. Collie commence avec les cristaux colorés éparpillés dans tout Un'Goro. Des rapports sur de grands pylônes garnis de cristaux envoient ses recherches dans la nature sauvage, où trois se dressent au nord, à l'est et à l'ouest du cratère." },
-        { "Différentes combinaisons produisent des effets utiles à ces pylônes, et Collie a rédigé un manuel pour de nouvelles expériences. L'expédition peut dès maintenant faire quelque chose des cristaux, même si les desseins de leurs créateurs restent un mystère. Il y a une satisfaction honnête dans une découverte qui atteint l'établi avant les livres d'histoire." },
+        { "Différentes combinaisons produisent des effets utiles à ces pylônes, et Collie a rédigé un manuel pour de nouvelles expériences. L'expédition peut dès maintenant faire quelque chose des cristaux, même si les desseins de leurs créateurs restent un mystère. Il y a une satisfaction toute simple dans une découverte qui atteint l'établi avant les livres d'histoire." },
       },
     },
     ["cthun"] = {
@@ -825,7 +827,7 @@ ns.translate({
       title = "Daelin Proudmoore",
       text = {
         { "Daelin Proudmoore, grand amiral de Kul Tiras, fut un héros de la Deuxième Guerre : il commanda les flottes de l'Alliance aux côtés d'Anduin Lothar et d'Uther le Porteur de lumière, et il ne pardonna jamais aux orcs. Il avait aussi une fille, Jaina, partie étudier la magie à Dalaran." },
-        { "Il quitta Lordaeron avec sa flotte avant qu'Arthas ne la détruise, cherchant des survivants sur les mers, et après bien des mois trouva Kalimdor, et sa fille, en paix avec la Horde. Il ne voulut pas l'accepter. Il débarqua ses soldats de marine sur la côte de Durotar, éleva ce donjon, et entreprit de détruire les orcs avant qu'ils ne prennent racine." },
+        { "Il quitta Lordaeron avec sa flotte avant la destruction du royaume par Arthas, cherchant des survivants sur les mers, et après bien des mois trouva Kalimdor, et sa fille, en paix avec la Horde. Il ne voulut pas l'accepter. Il débarqua ses soldats de marine sur la côte de Durotar, éleva ce donjon, et entreprit de détruire les orcs avant qu'ils ne prennent racine." },
         { "Jaina dut choisir entre son père et la paix, et elle choisit la paix. Daelin mourut dans les combats avant qu'ils aient pu se réconcilier. Sa flotte gît en épave au large de cette plage, et quelques-uns de ses hommes tiennent encore le donjon, au milieu d'une terre qui porte le nom d'un orc." },
       },
     },
@@ -849,21 +851,21 @@ ns.translate({
       text = {
         { "La ferme que les Maleterres appellent les Larmes de Dalson appartenait à une famille du nom de Dalson, et leur histoire est ouverte sur une table de la maison, de la main même de Mme Dalson. Son mari, Harold, s'était transformé. Il lui fallut toute sa force pour le traîner dans le seul endroit qu'elle put trouver qui fermait à clé, et elle garda la clé sur elle." },
         { "Elle comptait partir, mais elle avait besoin d'argent, et leurs affaires étaient dans l'armoire, et elle croyait bien que Harold gardait cette clé-là sur lui. Elle allait dormir là-dessus, écrivit-elle. Elle était morte de fatigue. C'est la dernière entrée ; ce qu'elle devint, le journal ne le dit pas." },
-        { "Le Fléau a depuis installé l'un de ses chaudrons de peste dans le champ de la famille, et l'Alliance du Noroît comme les Réprouvés de la Barricade envoient des voyageurs en retourner les poisons. Ferme après ferme, les Maleterres sont pleines de maisons comme celle-ci. Celle-ci est celle où quelqu'un l'a écrit." },
+        { "Le Fléau a depuis installé l'un de ses chaudrons de peste dans le champ de la famille, et l'Alliance du Noroît comme les Réprouvés de la Barricade envoient des voyageurs y neutraliser les poisons. Ferme après ferme, les Maleterres sont pleines de maisons comme celle-ci. Celle-ci est celle où quelqu'un l'a écrit." },
       },
     },
     ["dark-iron-dwarves"] = {
       title = "Les nains Sombrefer",
       text = {
         { "Le troisième des trois marteaux, et celui qui n'a jamais pardonné. Depuis que les Sombrefer ont perdu leur guerre contre Forgefer, et réveillé Ragnaros dans leur fureur, ils vivent dans le mont Rochenoire sous leur empereur, Dagran Thaurissan, au service du seigneur du Feu qu'ils ont invoqué." },
-        { "Ils n'y sont pas restés. Leurs esclaves creusent le Chaudron dans la gorge des Vents brûlants, leurs fouilleurs d'Ombreforge pillent les ruines d'Uldaman et tiennent la forteresse d'Angor dans les Terres ingrates, leurs espions rôdent en Dun Morogh et leurs pillards harcèlent le Loch Modan. Dans les Paluns, ils ont fait un vrai mal : ils ont pris la forteresse de Dun Modr et brisé le viaduc de Thandol, le grand pont vers le nord." },
+        { "Ils n'y sont pas restés. Leurs esclaves creusent le Chaudron dans la gorge des Vents brûlants, leurs fouilleurs d'Ombreforge pillent les ruines d'Uldaman et tiennent la forteresse d'Angor dans les Terres ingrates, leurs espions rôdent en Dun Morogh et leurs pillards harcèlent le Loch Modan. Dans les Paluns, ils ont causé de lourds dégâts : ils ont pris la forteresse de Dun Modr et brisé le viaduc de Thandol, le grand pont vers le nord." },
         { "Un Sombrefer se bat avec le feu, la poudre noire et une rancune vieille de deux siècles. Ne lui tournez jamais le dos." },
       },
     },
     ["darkshire"] = {
       title = "Sombre-Comté",
       text = {
-        { "Sombre-Comté est la seule ville qui reste au Bois de la Pénombre, un amas de maisons, un hôtel de ville et une auberge derrière des lanternes que l'on garde allumées jour et nuit. Son bourgmestre, le seigneur Ello Ebonlocke, la gouverne avec un conseil ; sa famille commande les Veilleurs ; et une historienne, Sirra Von'Indi, tient ses archives et vous traduira tout ce que vous lui apporterez, à terme." },
+        { "Sombre-Comté est la seule ville qui reste au Bois de la Pénombre, un amas de maisons, un hôtel de ville et une auberge derrière des lanternes que l'on garde allumées jour et nuit. Son bourgmestre, le seigneur Ello Ebonlocke, la gouverne avec un conseil ; sa famille commande les Veilleurs ; et une historienne, Sirra Von'Indi, tient ses archives et vous traduira tout ce que vous lui apporterez, un jour ou l'autre." },
         { "C'est une ville de gens sombres et de plaisanteries sombres, et de plus d'histoires que n'en devrait avoir une ville de cette taille. Interrogez la vieille diseuse de bonne aventure, Madame Eva, sur n'importe laquelle. Elle sait déjà laquelle vous allez lui demander." },
       },
     },
@@ -891,7 +893,7 @@ ns.translate({
     ["darrowshire"] = {
       title = "Comté-de-Darrow",
       text = {
-        { "Comté-de-Darrow était un village au sud des Terres de l'Est. Quand le Fléau arriva, ses habitants tinrent bon et se battirent, avec à leur tête le paladin Davil Lightfire, de la Main d'argent, et Joseph Redpath, contre le seigneur goule Horgus et le chevalier de la mort Marduk Noirétang. Un temps, ils tinrent. À la fin, Marduk se libéra et corrompit l'esprit de Redpath, le retournant contre les défenseurs, et le village mourut." },
+        { "Comté-de-Darrow était un village au sud des Terres de l'Est. Quand le Fléau arriva, ses habitants tinrent bon et se battirent, avec à leur tête le paladin Davil Lightfire, de la Main d'argent, et Joseph Redpath, contre le seigneur goule Horgus et le chevalier de la mort Marduk Noirétang. Un temps, ils tinrent. À la fin, Marduk arracha l'esprit de Redpath et le corrompit, le retournant contre les défenseurs, et le village mourut." },
         { "La bataille continue à Comté-de-Darrow, parmi les fantômes. Une petite fille, Pamela Redpath, erre dans les ruines en attendant que son père rentre. Avec les reliques de la bataille, dit-on, on peut lever les esprits de Comté-de-Darrow pour qu'ils la livrent à nouveau, et cette fois, l'âme de Joseph Redpath pourrait être sauvée." },
         { side = "Horde", aside = true, sign = "P. F.", "Chaque village des Terres de l'Est avait son Joseph Redpath. Comté-de-Darrow est celui dont les morts peuvent encore finir l'histoire autrement. Aidez-les, si vous le pouvez." },
       },
@@ -974,7 +976,7 @@ ns.translate({
       title = "Le clan Dragonmaw",
       text = {
         { "Les Dragonmaw montaient des dragons rouges au combat pendant la Deuxième Guerre. À Grim Batol, ils retenaient Alexstrasza captive et forçaient ses enfants à servir la Horde. Leur maîtrise du ciel reposait sur l'emprisonnement d'une mère et de ses petits." },
-        { "La libération des dragons brisa la force du clan, mais des restes des Dragonmaw tiennent encore les collines des Paluns et pillent ses routes. Ce sont des survivants de l'ancienne Horde, plutôt que des fidèles de la nouvelle." },
+        { "La libération des dragons brisa la force du clan, mais des restes des Dragonmaw tiennent encore les collines des Paluns et pillent leurs routes. Ce sont des survivants de l'ancienne Horde, plutôt que des fidèles de la nouvelle." },
       },
     },
     ["dragons-of-nightmare"] = {
@@ -996,7 +998,7 @@ ns.translate({
       title = "Druides",
       text = {
         { "Le premier druide fut Malfurion Stormrage, instruit par le demi-dieu Cénarius avant la guerre des Anciens. Après la destruction du Puits, les elfes de la nuit qui avaient renoncé aux arcanes le suivirent, et pendant des milliers d'années les druides dormirent dans le Rêve d'émeraude, ne s'éveillant que lorsque le monde avait besoin d'eux." },
-        { "Ils s'éveillent aujourd'hui, et ce ne sont plus seulement des elfes de la nuit : les taurens ont leurs propres druides, et les uns comme les autres répondent au Cercle cénarien, à Reflet-de-Lune. Un druide prend les formes du monde sauvage, entre autres l'ours, le félin et le phoque, soigne par la magie verte du Rêve et fait tomber la lune et les étoiles sur ses ennemis." },
+        { "Ils s'éveillent aujourd'hui, et ce ne sont plus seulement des elfes de la nuit : les taurens ont leurs propres druides, et les uns comme les autres relèvent du Cercle cénarien, à Reflet-de-Lune. Un druide prend les formes du monde sauvage, entre autres l'ours, le félin et le phoque, soigne par la magie verte du Rêve et fait tomber la lune et les étoiles sur ses ennemis." },
         { client = "forever", "Des druides éolides exercent désormais des deux côtés de la querelle entre l'Alliance et la Horde." },
         { "Malfurion lui-même est parti dans le Rêve et n'en est pas revenu. Malgré tout le travail du Cercle dans le monde éveillé, son plus grand maître reste hors de portée d'un messager ordinaire." },
       },
@@ -1081,7 +1083,7 @@ ns.translate({
     ["dwarves"] = {
       title = "Les nains de Forgefer",
       text = {
-        { "Les nains tiennent le Khaz Modan depuis Forgefer depuis avant que quiconque ait mis leur histoire par écrit, et longtemps, ils n'ont pas su non plus d'où ils venaient. Les disques que la Ligue a rapportés d'Uldaman suggèrent une réponse dont les érudits débattent encore : les premiers nains auraient été des terrestres, façonnés dans la pierre par les Titans, qui avec le temps devinrent chair." },
+        { "Depuis Forgefer, les nains tiennent le Khaz Modan depuis bien avant les premiers récits écrits de leur histoire, et longtemps, ils n'ont pas su non plus d'où ils venaient. Les disques que la Ligue a rapportés d'Uldaman suggèrent une réponse dont les érudits débattent encore : les premiers nains auraient été des terrestres, façonnés dans la pierre par les Titans, qui avec le temps devinrent chair." },
         { "Trois clans partageaient jadis la montagne sous un même haut roi. À sa mort, ils se firent la guerre pour son trône ; les Bronzebeard gardèrent Forgefer, les Wildhammer partirent au nord et les Sombrefer réveillèrent le seigneur du Feu au sud. C'est le roi Magni Bronzebeard qui règne aujourd'hui. Son frère Muradin est parti au nord avec le prince de Lordaeron et on ne l'a pas revu depuis, et son frère Brann parcourt le monde pour la Ligue, ce qui est à peu près là où nous nous attendons à le trouver." },
         { "C'est un peuple solide, prudent et généreux, qui entretient ses rancunes aussi bien que ses ouvrages de pierre, et je le dis avec affection. Si un nain vous dit qu'un pont tiendra, $gvoyageur:voyageuse;, il tiendra. Si un nain vous dit que la bière est bonne, faites-vous votre propre idée." },
       },
@@ -1113,7 +1115,7 @@ ns.translate({
     ["eastern-plaguelands"] = {
       title = "Maleterres de l'est",
       text = {
-        { "Les Terres de l'Est abritaient autrefois les villages de l'est de Lordaeron, ses abbayes et la cité de Stratholme. La peste les a changées en Maleterres de l'est. Ses arbres sont morts ou mourants, de grands champignons s'élèvent parmi eux, et une eau infecte coule à travers un pays que le Fléau contrôle en grande partie." },
+        { "Les Terres de l'Est abritaient autrefois les villages de l'est de Lordaeron, ses abbayes et la cité de Stratholme. La peste les a changées en Maleterres de l'est. Les arbres de la région sont morts ou mourants, de grands champignons s'élèvent parmi eux, et une eau infecte coule à travers un pays que le Fléau contrôle en grande partie." },
         { "La chapelle de l'Espoir de Lumière abrite l'Aube d'argent à l'est ; la Croisade écarlate garde la Main de Tyr au sud-est. Tirion Fordring vit en exil au bord de la Thondroril, et Nathanos le Flétrisseur occupe son ancienne ferme, à la ferme des Marris. Ces habitants épars ont des desseins bien différents." },
       },
     },
@@ -1153,7 +1155,7 @@ ns.translate({
       text = {
         { "Elwynn est la forêt qui nourrit Hurlevent : de grands arbres anciens, des prairies ouvertes, des fermes et des vignes, et la lente rivière qui descend vers la Marche de l'Ouest. C'est la contrée la plus douce des terres humaines, et il est difficile, en parcourant ses routes un matin d'été, de croire ce qui s'est passé ici." },
         { "Pendant la Première Guerre, les orcs sont passés par ces bois. Ils ont brûlé les fermes, l'abbaye et les villages l'un après l'autre, puis ils ont pris la cité elle-même. Le royaume a été rebâti après la Deuxième Guerre, et les bois abritent de nouveau des fermes et des villages." },
-        { "La paix est plus mince qu'il n'y paraît. Les kobolds ont pris les mines, les gnolls Rivepatte lancent leurs raids depuis l'ouest, et les Défias aux masques rouges ont débordé de la Marche de l'Ouest jusque dans les bois. Demandez à n'importe quel fermier d'Elwynn si les soldats du roi viennent quand on les appelle." },
+        { "La paix est plus fragile qu'il n'y paraît. Les kobolds ont pris les mines, les gnolls Rivepatte lancent leurs raids depuis l'ouest, et les Défias aux masques rouges ont débordé de la Marche de l'Ouest jusque dans les bois. Demandez à n'importe quel fermier d'Elwynn si les soldats du roi viennent quand on les appelle." },
       },
     },
     ["emerald-sanctuary"] = {
@@ -1261,7 +1263,7 @@ ns.translate({
       },
     },
     ["foreword-gnome"] = {
-      title = "Un mot à un enfant de Gnomeregan",
+      title = "Un mot à $gun enfant:une enfant; de Gnomeregan",
       text = {
         { "$gVoyageur:Voyageuse;, j'ai écrit cette première page pour un gnome avec un soin particulier. Gnomeregan gît toujours sous Dun Morogh, et votre peuple ne peut pas encore y retourner. Un registre des lieux anciens se doit de reconnaître que certaines pertes sont encore en train d'être vécues." },
         { "Forgefer a offert un abri à votre peuple. Vous avez apporté dans nos salles de l'ingéniosité et une quantité considérable de bruit ; nous sommes heureux de cette compagnie, avec quelques réserves occasionnelles quant au bruit. Le récit de Gnomeregan est ici, avec le pays que ses exilés partagent désormais." },
@@ -1272,7 +1274,7 @@ ns.translate({
     ["foreword-human"] = {
       title = "Un mot à $gun fils:une fille; de Hurlevent",
       text = {
-        { "$gVoyageur:Voyageuse;, je suis heureuse d'envoyer ce registre à un lecteur de Hurlevent. Votre peuple et le mien se tiennent côte à côte depuis la Deuxième Guerre ; nos récits des batailles qui ont suivi ont rarement manqué de noms venus des deux." },
+        { "$gVoyageur:Voyageuse;, je suis heureuse d'envoyer ce registre à $gun lecteur:une lectrice; de Hurlevent. Votre peuple et le mien se tiennent côte à côte depuis la Deuxième Guerre ; nos récits des batailles qui ont suivi ont rarement manqué de noms venus des deux." },
         { "Hurlevent fut détruite et rebâtie. Sa nouvelle maçonnerie est une grande réussite, et les maçons impayés qui l'ont élevée font aussi partie de son histoire. Vous trouverez ce récit ici, à côté des histoires que votre royaume a plus de raisons de célébrer." },
         { "Servez-vous du livre en voyageant. Les villes, les ruines et les routes peuvent vous dire comment un pays est devenu ce que vous trouvez, pourvu que quelqu'un garde la trace des gens qui les ont faits." },
         { italic = true, "Historienne royale Archesonus, le Haut-Siège, Forgefer" },
@@ -1281,7 +1283,7 @@ ns.translate({
     ["foreword-nightelf"] = {
       title = "Un mot à $gun Kaldorei:une Kaldorei;",
       text = {
-        { "$gVoyageur:Voyageuse;, ce registre a été relié pour l'un des kaldorei, et j'avoue qu'il est étrange d'offrir une histoire à un peuple qui se souvient de dix mille ans. Pardonnez à une naine sa présomption. Nous comptons nos âges en pierre ; vous comptez les vôtres en vies d'arbres." },
+        { "$gVoyageur:Voyageuse;, ce registre a été relié pour $gl'un:l'une; des kaldorei, et j'avoue qu'il est étrange d'offrir une histoire à un peuple qui se souvient de dix mille ans. Pardonnez à une naine sa présomption. Nous comptons nos âges en pierre ; vous comptez les vôtres en vies d'arbres." },
         { "Pendant la plupart de ces années, votre peuple est resté dans ses forêts sans y laisser entrer personne. Vous avez désormais planté un nouvel Arbre-Monde au large de Sombrivage et ouvert vos portes à l'Alliance, et la Ligue a suivi sa curiosité jusque dans vos ruines, comme toujours. Là où nous nous sommes trompés, je serais reconnaissante qu'on me le dise." },
         { "Partout où l'histoire s'est faite, j'ai laissé une page pour vous. Lisez-les au coin du feu, et souvenez-vous que chaque ruine fut un jour le foyer de quelqu'un." },
         { italic = true, "Historienne royale Archesonus, le Haut-Siège, Forgefer" },
@@ -1307,35 +1309,35 @@ ns.translate({
       },
     },
     ["foreword-skyborne"] = {
-      title = "Un mot à un éolide",
+      title = "Un mot à $gun éolide:une éolide;",
       text = {
         { side = "Horde", aside = true, sign = "Parqual Fintallas, l'Apothicarium, Fossoyeuse", "Ce registre a été écrit à Forgefer, par Archesonus, son historienne royale, et il vous parvient de Fossoyeuse en passant par mon bureau. Son mot à votre peuple était trop bon pour que je le réécrive, alors le voici tel qu'elle l'a écrit." },
-        { "$gVoyageur:Voyageuse;, ce registre a été relié pour l'un des éolides, et j'avoue avoir dû le commencer deux fois. Jusqu'à ce que votre peuple descende du ciel, aucun historien de Forgefer ne savait que vous existiez. Le nom que vous vous donnez, les shen'dorei, le peuple caché, est plus juste que tout ce que nous aurions pu écrire." },
+        { "$gVoyageur:Voyageuse;, ce registre a été relié pour $gl'un:l'une; des éolides, et j'avoue avoir dû le commencer deux fois. Jusqu'à ce que votre peuple descende du ciel, aucun historien de Forgefer ne savait que vous existiez. Le nom que vous vous donnez, les shen'dorei, le peuple caché, est plus juste que tout ce que nous aurions pu écrire." },
         { "Nous connaissions votre commencement sans savoir qu'il était le vôtre. Vos ancêtres vivaient à Eldre'Thalas, la cité que les ogres appellent aujourd'hui Hache-tripes, et quand son prince voulut asservir un démon pour nourrir la magie de son peuple, ils se soulevèrent contre lui derrière un chef masqué, le Shal'nan. Ils s'enfuirent vers l'ouest par la mer, les navires du prince à leurs trousses, et des esprits du vent soulevèrent leur île jusqu'au Mur-Céleste, hors du monde tout entier. La Ligue des explorateurs connaît bien ces salles de Feralas. Aucun de nous ne soupçonnait qu'une partie de la cité s'était échappée." },
         { "Aujourd'hui, les esprits sont partis, l'île se meurt, et votre peuple est venu chercher de l'aide, l'Ordre suprême auprès des mages de Dalaran, les Sculpte-vents auprès des chamans. Ce registre connaît le monde où vous êtes revenus mieux que celui que vous avez quitté. Partout où l'histoire s'est faite, j'ai laissé une page pour vous. Lisez-les au coin du feu, et souvenez-vous que chaque ruine fut un jour le foyer de quelqu'un." },
         { italic = true, "Historienne royale Archesonus, le Haut-Siège, Forgefer" },
       },
     },
     ["foreword-tauren"] = {
-      title = "Un mot à un Shu'halo",
+      title = "Un mot à $gun Shu'halo:une Shu'halo;",
       text = {
         { "$gVoyageur:Voyageuse;, votre peuple garde son histoire dans des chants et dans la mémoire de la terre. Le mien la gardait dans des livres, et une peste peut vider une bibliothèque aussi sûrement qu'une cité. Peut-être les chants étaient-ils le choix le plus sage." },
         { "Les pages qui suivent ont été écrites à Forgefer, par Archesonus, son historienne royale, et elles vous parviennent de Fossoyeuse en passant par mon bureau. Elles racontent comment les taurens errèrent pendant des générations dans les plaines de Kalimdor sous la pression des centaures, et comment Cairne Bloodhoof, avec l'aide des orcs, rassembla les tribus en Mulgore. Thunder Bluff se dresse aujourd'hui au-dessus des prairies, foyer d'un peuple longtemps privé d'un lieu où s'établir." },
-        { "Lisez-les avec l'attention que vous accordez à vos anciens. Là où une page et un ancien ne sont pas d'accord, je serais reconnaissant d'apprendre lequel, et pourquoi. Un historien collectionne ces désaccords comme d'autres collectionnent les pièces." },
+        { "Lisez-les avec l'attention que vous accordez à vos anciens. Là où une page et un ancien ne sont pas d'accord, je vous serais reconnaissant de me dire sur quel point vous relevez un désaccord, et pourquoi. Un historien collectionne ces désaccords comme d'autres collectionnent les pièces." },
         { italic = true, "Parqual Fintallas, l'Apothicarium, Fossoyeuse" },
       },
     },
     ["foreword-troll"] = {
-      title = "Un mot à un Darkspear",
+      title = "Un mot à $gun Darkspear:une Darkspear;",
       text = {
-        { "$gVoyageur:Voyageuse;, ce registre a été relié pour l'un des Darkspear, et je vous dois deux aveux. Ses pages ont été écrites à Forgefer, par Archesonus, l'historienne royale de là-bas ; je n'ai fait que les faire suivre depuis Fossoyeuse. Et l'histoire des trolls est plus ancienne que tout ce que l'un ou l'autre de nous range sur une étagère. Votre espèce a bâti des empires dans les jungles du sud et les forêts du nord bien avant que s'élèvent les royaumes des hommes." },
+        { "$gVoyageur:Voyageuse;, ce registre a été relié pour $gl'un:l'une; des Darkspear, et je vous dois deux aveux. Ses pages ont été écrites à Forgefer, par Archesonus, l'historienne royale de là-bas ; je n'ai fait que les faire suivre depuis Fossoyeuse. Et l'histoire des trolls est plus ancienne que tout ce que l'un ou l'autre de nous range sur une étagère. Votre espèce a bâti des empires dans les jungles du sud et les forêts du nord bien avant que s'élèvent les royaumes des hommes." },
         { "Votre tribu était petite et aux abois quand les navires de Thrall vous trouvèrent sur vos îles, et vous êtes restés fidèles à la Horde depuis, sur les rivages de Durotar, sous le nom de Sen'jin. Mon propre peuple est venu à la Horde plus tard, et par un chemin plus étrange. Nous avons beaucoup à apprendre de ceux qui l'ont soutenue les premiers." },
         { "Partout où l'histoire s'est faite, la naine a laissé une page pour vous. Là où ses pages n'égalent pas ce que vos anciens pourraient raconter, fiez-vous à vos anciens, puis, si vous en avez le temps, dites-moi ce qu'ils ont dit." },
         { italic = true, "Parqual Fintallas, l'Apothicarium, Fossoyeuse" },
       },
     },
     ["foreword-undead"] = {
-      title = "Un mot à un Réprouvé",
+      title = "Un mot à $gun Réprouvé:une Réprouvée;",
       text = {
         { "$gVoyageur:Voyageuse;, vous et moi avons tous deux survécu à notre royaume. J'étais historien de Lordaeron avant que la peste ne m'emporte, et vous vous souvenez peut-être de ses villes telles qu'elles étaient, quand sa capitale se dressait au-dessus du sol. Ce registre ne les connaît que par les archives, car il a été écrit à Forgefer, par Archesonus, l'historienne royale du roi Magni. Je l'ai fait suivre tout de même. C'est un récit juste, et les récits justes de notre patrie sont rares." },
         { "Les Réprouvés se sont libérés du roi-liche et suivent désormais Sylvanas sous les ruines de la cité que nous connaissions. Une grande partie de la vie que nous menons aujourd'hui dépasse l'entendement d'une naine. Là où elle écrit sur la Croisade écarlate, elle est plus aimable envers eux que je ne le serais." },
@@ -1346,7 +1348,7 @@ ns.translate({
     ["franclorn-forgewright"] = {
       title = "Franclorn Forgewright",
       text = {
-        { "Franclorn Forgewright était l'architecte en chef des nains Sombrefer et l'inventeur de la méthode de construction dite de formepierre. Il vous dira que vous vous êtes presque certainement tenu sur quelque chose qu'il a fait, et le grand barrage du Loch Modan porte le nom de sa méthode. La cité d'Ombreforge, la capitale des Sombrefer sous la montagne, fut son œuvre." },
+        { "Franclorn Forgewright était l'architecte en chef des nains Sombrefer et l'inventeur de la méthode de construction dite de formepierre. Il vous dira que vous avez presque certainement déjà marché sur l'un de ses ouvrages, et le grand barrage du Loch Modan porte le nom de sa méthode. La cité d'Ombreforge, la capitale des Sombrefer sous la montagne, fut son œuvre." },
         { "Il est mort. Son fantôme se tient dans son tombeau du mont Rochenoire, visible seulement de ceux qui sont morts eux-mêmes, et son successeur comme architecte, Fineous Darkvire, a pris son grand marteau, Souillefer. Franclorn veut qu'on le remette entre les mains de la statue que les Sombrefer lui ont élevée au sanctuaire de Thaurissan. En échange, il cède la clé des profondeurs de ce qu'il appelle sa cité maudite." },
         { "Il l'a bâtie tout de même. Un nain peut renier une cité et rester fier de sa maçonnerie, $gvoyageur:voyageuse; ; j'en ai rencontré plusieurs." },
       },
@@ -1370,7 +1372,7 @@ ns.translate({
       text = {
         { "Les Loup-de-Givre de Durotan refusèrent le sang de démon qui lia une grande partie de la Horde. Quand il s'opposa aux démonistes et à leur invasion d'Azeroth, Gul'dan exila son clan. Ils gagnèrent durement leur vie dans les montagnes d'Alterac. Durotan fut assassiné, mais le clan tint bon." },
         { "Son fils Thrall les trouva après s'être évadé de Fort-de-Durn. Ils lui enseignèrent la vie de son peuple, et leur chaman Drek'Thar lui apprit à suivre les éléments. Quand Thrall libéra plus tard les camps d'internement et mena la Horde par-delà la mer, les Loup-de-Givre restèrent dans leur vallée." },
-        { "Drek'Thar, aveugle désormais, les dirige toujours là-bas. Ils veulent garder leur foyer ; l'expédition Foudrepique a apporté contre lui une revendication de Forgefer." },
+        { "Drek'Thar, aveugle désormais, les dirige toujours là-bas. Ils veulent garder leur foyer ; l'expédition Foudrepique revendique désormais ces terres au nom de Forgefer." },
       },
     },
     ["furbolgs"] = {
@@ -1406,7 +1408,7 @@ ns.translate({
     ["ghost-howl"] = {
       title = "Hurleur fantomatique",
       text = {
-        { "Hurleur fantomatique est un grand loup de Mulgore dont la peau porte une terrible blessure, reçue en combattant la Légion ardente. La cicatrice donne au trophée de ce chasseur-là une histoire qui dépasse la poursuite à travers les plaines." },
+        { "Hurleur fantomatique est un grand loup de Mulgore dont la peau porte une terrible blessure, reçue en combattant la Légion ardente. La cicatrice donne à ce trophée de chasse une histoire qui dépasse la poursuite à travers les plaines." },
         { "Skorn Whitecloud reconnaît la peau au village de Sabot-de-Sang. Il offre au chasseur l'une de ses armes et espère que l'esprit du loup a trouvé la paix." },
       },
     },
@@ -1443,7 +1445,7 @@ ns.translate({
     ["great-masquerade"] = {
       title = "La grande mascarade",
       text = {
-        { "Le maréchal Reginald Windsor rassembla des preuves contre la conseillère du généralissime Bolvar Fordragon, pour les perdre aussitôt dans les cachots du mont Rochenoire. Une fois secouru, il revint avec de nouvelles preuves et des compagnons prêts à se tenir à ses côtés. Il amena les uns et les autres au donjon de Hurlevent." },
+        { "Le maréchal Reginald Windsor rassembla des preuves contre la conseillère du généralissime Bolvar Fordragon, avant de les perdre dans les cachots du mont Rochenoire. Une fois secouru, il revint avec de nouvelles preuves et des compagnons prêts à se tenir à ses côtés. Il amena les uns et les autres au donjon de Hurlevent." },
         { "Là, il démasqua dame Katrana Prestor : c'était Onyxia, fille d'Aile de mort et sœur de Nefarian. Elle avait retenu l'armée de Hurlevent chez elle tandis que les orcs de son frère menaçaient les Carmines, et plié Bolvar à sa volonté. Windsor brisa son déguisement devant la cour. Elle s'enfuit vers son repaire, dans le marécage d'Âprefange." },
         { "Windsor mourut dans cet affrontement. Inscrivez son nom, $gvoyageur:voyageuse;, si vous consignez la défaite de la dragonne. Sa part dans l'affaire avait commencé bien avant que quiconque atteigne son repaire." },
       },
@@ -1606,7 +1608,7 @@ ns.translate({
       title = "Lardeur",
       text = {
         { "L'avis de recherche de la garnison du ruisseau de l'ouest décrit Lardeur comme un énorme gnoll, campé plus au sud, dans le sud-ouest d'Elwynn. Il appartient aux Rivepatte, et les gardes de Hurlevent n'ont pas réussi à le capturer. Une récompense est offerte pour sa griffe." },
-        { "L'avis conseille de venir en groupe. Suivez ce conseil, $gvoyageur:voyageuse;. Un garde qui admet avoir besoin d'aide est plus utile qu'un aventurier persuadé de ne pas en avoir besoin." },
+        { "L'avis conseille de venir en groupe. Suivez ce conseil, $gvoyageur:voyageuse;. L'aveu d'un garde qui reconnaît avoir besoin d'aide vaut mieux que l'assurance d'un aventurier convaincu du contraire." },
       },
     },
     ["house-of-barov"] = {
@@ -1722,7 +1724,7 @@ ns.translate({
     ["keeper-remulos"] = {
       title = "Gardien Remulos",
       text = {
-        { "Le gardien Remulos est le fils de Cénarius, avec le bas du corps de cerf de son père. Les druides viennent à son sanctuaire de Reflet-de-Lune chercher de l'aide. Le Cauchemar qui se répand dans le Rêve d'émeraude leur a donné des raisons pressantes de la chercher." },
+        { "Le gardien Remulos est le fils de Cénarius, avec, comme son père, le bas du corps d'un cerf. Les druides viennent à son sanctuaire de Reflet-de-Lune chercher de l'aide. Le Cauchemar qui se répand dans le Rêve d'émeraude leur a donné des raisons pressantes de la chercher." },
         { "Quand Eranikus, le compagnon d'Ysera, fut invoqué ici, le Cauchemar vint avec lui. Remulos défendit Havrenuit tandis que ses alliés se battaient pour libérer le dragon. Tyrande arriva pour racheter Eranikus. Un voyageur connaît peut-être Reflet-de-Lune comme un lieu de paix ; son gardien a dû se battre pour cette paix au cœur même du village." },
       },
     },
@@ -1762,7 +1764,7 @@ ns.translate({
       text = {
         { "Chaque mineur de l'Alliance a une histoire de kobold, et la plupart se terminent par une pioche perdue. Les kobolds sont de petites créatures des tunnels à tête de rat, lâches quand ils sont seuls et dangereux en nombre, et ils sont toujours en nombre. Ils portent des bougies sur la tête pour éclairer le noir, et se battront à mort pour une bougie bien après avoir fui devant une épée." },
         { "On en trouve partout où il y a à creuser. Un clan venu des Carmines a envahi les mines de la forêt d'Elwynn et de la Marche de l'Ouest, les Rats des tunnels se sont terrés au-dessus de Thelsamar, les Sèche-moustache servent les géants des Hautes-terres Arathies, et les Mufle-de-gravier fouillent le minerai à Mille pointes." },
-        { "Il est facile d'en rire. Les fermiers d'Elwynn, qui leur perdent leur bétail et leurs récoltes, n'en rient pas." },
+        { "Il est facile d'en rire. Les fermiers d'Elwynn, à qui ils prennent le bétail et les récoltes, n'en rient pas." },
       },
     },
     ["kodo-graveyard"] = {
@@ -1807,7 +1809,7 @@ ns.translate({
       text = {
         { "Linken est arrivé un jour au refuge des Marshal sans aucune idée de la façon dont il y était parvenu. Personne d'autre ne le sait non plus, dit-il gaiement ; c'est un secret pour tout le monde. C'est un gnome, même si les gnomes du camp remarquent qu'il ne montre rien de leur intérêt pour les gadgets, et il avait un sac, une épée, et une bosse sur la tête." },
         { "Les souvenirs reviennent morceau par morceau, à mesure que des voyageurs l'aident : une épée à tremper dans les sources chaudes du Berceau-de-l'Hiver, un totem fabriqué avec l'aide d'un ami de Gangrebois. À la fin, il se souvient. Il était venu au cratère pour combattre Blazerunner, l'élémentaire de feu qui garde un artefact appelé la Flamme d'or, et ce devait être la dernière étape d'un long voyage." },
-        { "Il ne la franchit pas lui-même. C'est vous le héros maintenant, dit-il à quiconque l'a aidé, et il l'envoie en avant en le prévenant qu'il est dangereux d'y aller seul. La Flamme, promet-il, sera rapportée dans sa patrie et gardée loin des mains mauvaises. Je n'ai trouvé cette patrie sur aucune carte. J'ai cherché." },
+        { "Il vous laisse accomplir cette dernière étape. C'est vous le héros maintenant, dit-il à quiconque l'a aidé, et il l'envoie en avant en le prévenant qu'il est dangereux d'y aller seul. La Flamme, promet-il, sera rapportée dans sa patrie et gardée loin des mains mauvaises. Je n'ai trouvé cette patrie sur aucune carte. J'ai cherché." },
       },
     },
     ["loch-modan"] = {
@@ -1822,7 +1824,7 @@ ns.translate({
       title = "Loramus Thalipedes",
       text = {
         { "Sur une île au large de la côte d'Azshara, un chasseur de démons nommé Loramus Thalipedes vit seul avec ses gangrechiens. Si vous voulez combattre des démons, dit-il, vous feriez bien d'écouter d'abord son histoire." },
-        { "Des voyageurs viennent à lui depuis les Terres foudroyées, où Razelikh le Souilleur garde trois serviteurs qui ne peuvent mourir tant que les morceaux d'amulette qui leur sont liés restent sur cette terre. Loramus sait comment on brise de telles protections. Il faut le vrai nom du seigneur démon, qu'un dieu mineur de la côte d'Azshara échange contre un prix, et une arme forgée pour le porter, faite du cristal que laissent derrière eux les géants des falaises du sud et travaillée par un forgeron capable de manier le gangrefeu." },
+        { "Des voyageurs viennent à lui depuis les Terres foudroyées, où Razelikh le Souilleur garde trois serviteurs qui ne peuvent mourir tant que les morceaux d'amulette qui leur sont liés restent sur cette terre. Loramus sait comment on brise de telles protections. Il faut le vrai nom du seigneur démon, qu'un dieu mineur de la côte d'Azshara accepte de révéler moyennant paiement, et une arme forgée pour le porter, faite du cristal que laissent derrière eux les géants des falaises du sud et travaillée par un forgeron capable de manier le gangrefeu." },
         { "Il se moque de la plupart de ceux qui essaient. Il ne les refuse pas, et il ne les arrête pas. Quelle qu'ait été la raison pour laquelle il chassait les démons, il semble avoir décidé il y a longtemps que le monde a besoin de plus de gens qui le font." },
       },
     },
@@ -1912,7 +1914,7 @@ ns.translate({
       title = "Port de Menethil",
       text = {
         { "Port de Menethil se dresse sur la rive ouest des Paluns, un port de l'Alliance avec des navires en partance pour Auberdine et Theramore. La route de Dun Algaz le relie à l'intérieur des terres. Une petite ville humide peut devenir un endroit important quand tant de voyages y passent." },
-        { "Le capitaine Stoutfist a besoin d'aide contre les orcs Dragonmaw qui menacent le port. Il demande que leurs catapultes soient détruites et le chef Nek'rosh vaincu. Occupez-vous de lui si vous le pouvez, $gvoyageur:voyageuse;. Il y a ici des gens qui essaient de garder un port ouvert pendant qu'un ennemi se prépare à l'assiéger." },
+        { "Le capitaine Stoutfist a besoin d'aide contre les orcs Dragonmaw qui menacent le port. Il demande que leurs catapultes soient détruites et le chef Nek'rosh vaincu. Aidez-le si vous le pouvez, $gvoyageur:voyageuse;. Il y a ici des gens qui essaient de garder un port ouvert pendant qu'un ennemi se prépare à l'assiéger." },
       },
     },
     ["mogrosh-ogres"] = {
@@ -1920,7 +1922,7 @@ ns.translate({
       text = {
         { "Au nord-est du Loch Modan, les ogres Mo'grosh se sont fait une place forte bien à eux et mettent quiconque au défi de venir la prendre." },
         { "Les ogres sont énormes, brutaux et bien plus malins que les nains n'aiment l'admettre ; leurs chamans et leurs mystiques, en particulier, ne sont pas à prendre à la légère. Les Mo'grosh pillent les fermes et les routes du loch quand bon leur semble, et jusqu'ici personne n'a eu la force de les arrêter pour de bon." },
-        { "N'entrez pas seul dans leur place forte, $gvoyageur:voyageuse;. N'y entrez pas du tout, si vous pouvez l'éviter." },
+        { "N'entrez pas $gseul:seule; dans leur place forte, $gvoyageur:voyageuse;. N'y entrez pas du tout, si vous pouvez l'éviter." },
       },
     },
     ["moira-bronzebeard"] = {
@@ -1957,7 +1959,7 @@ ns.translate({
       text = {
         { "Morbent Fel est le nécromancien du Bois de la Pénombre, celui qui fait marcher les morts de Colline-aux-Corbeaux, et un allié des sombres cavaliers qui sortent du défilé de Deuillevent. Il vit dans une maison au sommet de la Masure lugubre, au-dessus du cimetière, derrière ses morts et une protection qui détourne chaque coup qu'on lui porte." },
         { "Sven Yorgen, un bûcheron dont les cavaliers ont tué la femme et les enfants, veut sa mort, et le chemin est long. Le journal d'un Défias apprit à Sven ce qui s'était passé à sa ferme ; l'évêque Farthing, à la cathédrale de Hurlevent, indiqua une arme capable de briser la protection ; le fer nécessaire vint des épaves de la Troisième flotte, au large des Paluns, où sombra une cargaison de fer de Forge-Lumière, et un forgeron nain de Hurlevent en fit le Fléau de Morbent." },
-        { "C'est beaucoup de peine pour un seul nécromancien, $gvoyageur:voyageuse;. Sven ne trouve pas, et je m'aperçois que je ne peux pas lui en vouloir." },
+        { "C'est beaucoup de peine pour un seul nécromancien, $gvoyageur:voyageuse;. Sven n'est pas de cet avis, et je m'aperçois que je ne peux pas lui en vouloir." },
       },
     },
     ["morgans-vigil"] = {
@@ -2038,7 +2040,7 @@ ns.translate({
       title = "Naxxramas",
       text = {
         { "Naxxramas flotte au-dessus des Maleterres, une citadelle volante du Fléau et le siège de Kel'Thuzad. D'elle sont venues les forces d'une grande invasion des cités d'Azeroth, ce qui a poussé l'Aube d'argent à appeler tous ceux qui voulaient bien s'opposer aux morts." },
-        { "Cinq ans après la dernière guerre, le roi-liche s'agite de nouveau et Kel'Thuzad rassemble des armées pour une autre attaque. Abominations, araignées et porte-peste occupent la nécropole, avec quatre cavaliers qui furent autrefois des champions de la Lumière. Levez les yeux en traversant les Maleterres, $gvoyageur:voyageuse;. Leur commandant possède une forteresse qui n'a pas besoin de tenir la route en dessous." },
+        { "Cinq ans après la dernière guerre, le roi-liche s'agite de nouveau et Kel'Thuzad rassemble des armées pour une autre attaque. Abominations, araignées et porte-peste occupent la nécropole, avec quatre cavaliers qui furent autrefois des champions de la Lumière. Levez les yeux en traversant les Maleterres, $gvoyageur:voyageuse;. Leur commandant possède une forteresse qui n'a pas besoin de contrôler la route en contrebas." },
       },
     },
     ["nefarian"] = {
@@ -2067,7 +2069,7 @@ ns.translate({
       title = "Rempart-du-Néant",
       text = {
         { "Khadgar insista pour qu'on bâtisse Rempart-du-Néant après la Deuxième Guerre, afin de surveiller la Porte des ténèbres. Les royaumes de l'Alliance le payèrent avec un enthousiasme variable, et Dalaran fournit ses mages. Quand les orcs rouvrirent la Porte, ils assiégèrent le donjon. La garde avait été nécessaire." },
-        { "Rempart-du-Néant dépend aujourd'hui des caravanes de Hurlevent. Ses mages étudient la Porte et le désert alentour ; un érudit conserve les essais de Khadgar sur la convergence dimensionnelle. Ailleurs dans les Terres foudroyées, la draeneï Kum'isha cherche des reliques qui pourraient ouvrir une route vers chez elle. Un voyageur trouvera plusieurs raisons d'étudier un passage qui a causé tant de mal." },
+        { "Rempart-du-Néant dépend aujourd'hui des caravanes de Hurlevent. Ses mages étudient la Porte et le désert alentour ; un érudit conserve les essais de Khadgar sur la convergence dimensionnelle. Ailleurs dans les Terres foudroyées, le draeneï Kum'isha cherche des reliques qui pourraient ouvrir une route vers chez lui. Un voyageur trouvera plusieurs raisons d'étudier un passage qui a causé tant de mal." },
       },
     },
     ["night-elves"] = {
@@ -2089,7 +2091,7 @@ ns.translate({
       title = "La combe de Nijel",
       text = {
         { "La combe de Nijel est le camp de l'Alliance au nord de Désolace, fortifié dans les collines au pied des Serres-Rocheuses. Ses soldats surveillent les routes, les clans centaures et les démons du convent de Mannoroc. Les visiteurs prêts à aider ne manqueront pas de travail." },
-        { "Les capitaines ont choisi d'exploiter les rivalités des centaures, en se faisant des alliés d'un clan pour apprendre comment vaincre les autres. C'est une réponse pratique à une situation difficile, $gvoyageur:voyageuse;. L'amitié que vous aidez à nouer ici peut commencer par une demande de mort pour les voisins de quelqu'un d'autre." },
+        { "Les capitaines ont choisi d'exploiter les rivalités des centaures, en se faisant des alliés d'un clan pour apprendre comment vaincre les autres. C'est une réponse pratique à une situation difficile, $gvoyageur:voyageuse;. L'amitié que vous aidez à nouer ici peut commencer par une invitation à tuer les voisins de quelqu'un d'autre." },
       },
     },
     ["noble-conspiracy"] = {
@@ -2119,7 +2121,7 @@ ns.translate({
       text = {
         { "Les ogres sont venus dans ce monde avec la Horde, de la même terre rouge que les orcs, et ont combattu pendant la Deuxième Guerre comme ses poings les plus lourds. Le démoniste Gul'dan les améliora, à sa façon : il se servit de l'Autel des tempêtes pour donner à des ogres les pouvoirs des ogres-mages, et les leurs règnent encore sur bien des clans." },
         { "Après la défaite de la Horde, des clans d'ogres s'installèrent dans les contrées sauvages, et y sont restés : les Mo'grosh au Loch Modan, les Brisepoing au Bois de la Pénombre, les Cassecrête en Alterac, les Rochepoing dans les Hautes-terres Arathies, les Crache-poussières dans les Terres ingrates, les Mosh'Ogg dans la vallée de Strangleronce et les Cognepeur à la Porte des ténèbres ; de l'autre côté de la mer, les Gordunni en Feralas et les Cognedune en Tanaris. Les Gordok se sont installés comme chez eux dans les ruines d'une cité elfique de Feralas, et couronnent quiconque tue leur roi." },
-        { "Tous les clans n'ont pas oublié la vieille alliance. Les Cognepierre du marécage d'Âprefange combattent aux côtés de la Horde à Mur-de-Fougères, et les orcs disent du bien d'eux. Les autres préféreraient vous manger que de vous parler." },
+        { "Tous les clans n'ont pas oublié la vieille alliance. Les Cognepierre du marécage d'Âprefange combattent aux côtés de la Horde à Mur-de-Fougères, et les orcs disent du bien d'eux. Les autres préféreraient vous manger plutôt que vous parler." },
       },
     },
     ["onu"] = {
@@ -2163,15 +2165,15 @@ ns.translate({
       title = "Orgrimmar",
       text = {
         { "Orgrimmar est la capitale de la Horde, bâtie dans un grand canyon au nord de Durotar et nommée d'après Orgrim Doomhammer, le chef de guerre qui mena la Horde pendant la Deuxième Guerre et mourut en combattant pour la libérer des camps. Thrall porte toujours son marteau. Les gobelins ont aidé à la bâtir, et cela se voit : ce n'est que bois, pointes et peaux sur la pierre, chaud comme une forge et bruyant comme un camp de guerre." },
-        { "En son cœur se dresse le fort Grommash, nommé d'après Grom Hellscream, qui but le sang du démon Mannoroth et condamna son peuple, puis tua Mannoroth de sa propre hache et le libéra. Dans la vallée des Esprits, les chamans et les trolls entretiennent leurs feux, et dans la faille de l'Ombre, m'a-t-on dit, il y a des démonistes que la Horde tolère plus qu'elle ne leur fait confiance." },
+        { "En son cœur se dresse le fort Grommash, nommé d'après Grom Hellscream, qui but le sang du démon Mannoroth et condamna son peuple, puis tua Mannoroth de sa propre hache et le libéra. Dans la vallée des Esprits, les chamans et les trolls entretiennent leurs feux, et dans la faille de l'Ombre, m'a-t-on dit, il y a des démonistes que la Horde tolère sans vraiment leur faire confiance." },
         { "Ce n'est pas une cité qui accueille les nains. Mais c'est une vraie cité, et les orcs l'ont bâtie en une poignée d'années à partir de rien, ce qu'on ne peut pas dire de la plupart." },
       },
     },
     ["paladins"] = {
       title = "Paladins",
       text = {
-        { "Les premiers paladins furent les chevaliers de la Main d'argent, fondés pendant la Deuxième Guerre par l'archevêque Alonsus Faol pour porter la Lumière sacrée sur le champ de bataille. Uther le Porteur de lumière les mena, et ils combattirent pour l'Alliance pendant la guerre et la longue paix qui suivit." },
-        { "La Troisième Guerre brisa l'ordre. Le prince Arthas, lui-même paladin, se retourna contre tout ce qu'il défendait, et Uther tomba sous ses coups à Andorhal. Les chevaliers survivants se dispersèrent à Hurlevent, à Forgefer et dans les Maleterres, où certains servent l'Aube d'argent, et d'autres l'idée plus dure que la Croisade écarlate se fait de la Lumière. Le même serment a mené ceux qui le prêtent vers des compagnies amèrement différentes." },
+        { "Les premiers paladins appartenaient à l'ordre des chevaliers de la Main d'argent, fondé pendant la Deuxième Guerre par l'archevêque Alonsus Faol pour porter la Lumière sacrée sur le champ de bataille. Uther le Porteur de lumière les mena, et ils combattirent pour l'Alliance pendant la guerre et la longue paix qui suivit." },
+        { "La Troisième Guerre brisa l'ordre. Le prince Arthas, lui-même paladin, se retourna contre tout ce qu'il défendait, et Uther tomba sous ses coups à Andorhal. Les chevaliers survivants se dispersèrent à Hurlevent, à Forgefer et dans les Maleterres, où certains servent l'Aube d'argent, et d'autres l'idée plus dure que la Croisade écarlate se fait de la Lumière. Le même serment a mené ceux qui le prêtent vers des compagnies que tout oppose désormais." },
         { client = "classic", "Aujourd'hui, seule l'Alliance forme des paladins : des humains et des nains qui jurent fidélité à la Lumière dans la cathédrale de la Lumière ou à la Garde mystique de Forgefer." },
         { client = "forever", "Humains et nains jurent toujours fidélité à la Lumière à Hurlevent et à Forgefer, tandis que certains Réprouvés embrassent désormais eux aussi la vocation de paladin. La mort ne leur a pas fermé la Lumière." },
       },
@@ -2227,14 +2229,14 @@ ns.translate({
       title = "Bois-du-Bûcher",
       text = {
         { "Bois-du-Bûcher est un village près du mur de Grisetête, et de jour il ressemble à n'importe quel autre : des fermiers, un conseil, un bourgmestre. La nuit, ses habitants se changent en worgens. Le mage Arugal leur a infligé cela au moyen d'entraves enchantées, et les Réprouvés qui l'ont étudiée disent que c'est la malédiction la plus étrange qu'ils aient jamais vue." },
-        { "Les villageois le savent, je crois, et vivent avec de la seule façon qu'ils peuvent. C'est l'endroit le plus triste de la forêt des Pins argentés, et la forêt des Pins argentés ne manque pas de concurrents." },
+        { "Les villageois le savent, je crois, et s'en accommodent comme ils peuvent. C'est l'endroit le plus triste de la forêt des Pins argentés, et la forêt des Pins argentés ne manque pas de concurrents." },
       },
     },
     ["queen-azshara"] = {
       title = "La reine Azshara",
       text = {
         { "Cette terre porte le nom de la dernière reine des elfes de la nuit, et ce n'est pas un compliment. Azshara était belle et douée et, au début, aimée de tout son peuple. Elle bâtit son palais au bord du Puits d'éternité et l'emplit de ses serviteurs favoris, les Bien-nés, qu'elle chargea d'apprendre ce que pouvait faire la puissance du Puits." },
-        { "Ils apprirent la magie, et elle les changea. Azshara se retira de son peuple et ne parla plus qu'à ses Bien-nés. Puis les ondes de leur art des sorts atteignirent Sargeras, et la reine, submergée par son propre pouvoir, accepta de lui ouvrir la voie. Elle et ses Bien-nés ouvrirent un portail dans les profondeurs du Puits, et la Légion ardente le franchit." },
+        { "Ils apprirent la magie, et elle les changea. Azshara se retira de son peuple et ne parla plus qu'à ses Bien-nés. Puis les échos de leurs sortilèges atteignirent Sargeras, et la reine, submergée par son propre pouvoir, accepta de lui ouvrir la voie. Elle et ses Bien-nés ouvrirent un portail dans les profondeurs du Puits, et la Légion ardente le franchit." },
         { "À la fin de la guerre des Anciens, le Puits s'effondra et la mer engloutit son palais, sa cité et sa cour. Les elfes de la nuit disent qu'elle fut entraînée au fond avec eux. Les nagas qui hantent ces rivages furent autrefois ses Bien-nés, et les ruines le long de cette côte sont ce qui resta au-dessus de l'eau." },
       },
     },
@@ -2306,7 +2308,7 @@ ns.translate({
       title = "Razelikh le Souilleur",
       text = {
         { "Razelikh le Souilleur est un démon qui règne depuis un repaire au sommet de la plus haute montagne des Terres foudroyées, avec trois lieutenants sous ses ordres : Grol le Destructeur, dame Sevine et l'archimage Allistarj. Ils ont pris les guerriers du héros déchu de la Horde, et enfermé leurs esprits dans des pierres de tourment." },
-        { "Le héros déchu envoie des voyageurs libérer ses hommes, tuer les trois lieutenants et prendre leurs amulettes, puis, l'amulette reconstituée, gravir l'autel de Razelikh et appeler le démon. Sa corne, dit-il, prouvera qu'il existe encore des héros dans ce monde ravagé par la guerre." },
+        { "Le héros déchu envoie des voyageurs libérer ses hommes, tuer les trois lieutenants et prendre leurs amulettes, puis, l'amulette reconstituée, monter jusqu'à l'autel de Razelikh et appeler le démon. Sa corne, dit-il, prouvera qu'il existe encore des héros dans ce monde ravagé par la guerre." },
       },
     },
     ["razor-hill"] = {
@@ -2370,14 +2372,14 @@ ns.translate({
       title = "Les excavations de Remtravel",
       text = {
         { "Quand des golems envahirent les excavations de Remtravel, au sud de Sombrivage, son assistante s'enfuit à Auberdine chercher de l'aide. Le célèbre prospecteur, lui, resta au travail. L'admiration de Hollee pour ses découvertes survit aux côtés d'un souhait désespéré : qu'il remarque de temps en temps ce qui se passe autour de lui." },
-        { "Son mystérieux fossile a éveillé l'intérêt du chef archéologue Greywhisker, et une ressemblance avec une autre trouvaille mène l'enquête jusqu'à Flagongut, à Port de Menethil. Remtravel a trouvé quelque chose qui mérite qu'on s'y intéresse. Le garder en vie assez longtemps pour qu'il finisse de s'y intéresser est devenu une expédition à part entière." },
+        { "Son mystérieux fossile a éveillé l'intérêt du chef archéologue Greywhisker, et une ressemblance avec une autre trouvaille mène l'enquête jusqu'à Flagongut, à Port de Menethil. Remtravel a trouvé quelque chose qui mérite qu'on s'y intéresse. Le garder en vie assez longtemps pour qu'il puisse l'étudier jusqu'au bout est devenu une expédition à part entière." },
       },
     },
     ["rend-blackhand"] = {
       title = "Chef de guerre Rend Blackhand",
       text = {
         { "Rend est le fils de Blackhand le Destructeur, le premier chef de guerre de la Horde. Lui et son frère Maim menaient les Black Tooth Grin sous Orgrim Doomhammer, le meurtrier de leur père, tout en cherchant à la fois la vengeance et la position que Blackhand avait perdue." },
-        { "Rend revendique aujourd'hui le titre de chef de guerre depuis le pic Rochenoire, au service de Nefarian, à la tête des orcs du dragon. Thrall rejette cette prétention et envoie des champions le tuer, le savoir d'Eitrigg sur les Blackrock aidant à guider la riposte. Vous entendrez ici deux prétentions sur la Horde, mais un seul de ces chefs répond à un dragon noir." },
+        { "Rend revendique aujourd'hui le titre de chef de guerre depuis le pic Rochenoire, au service de Nefarian, à la tête des orcs du dragon. Thrall rejette cette prétention et envoie des champions le tuer, le savoir d'Eitrigg sur les Blackrock aidant à guider la riposte. Vous entendrez ici deux prétentions sur la Horde, mais un seul de ces chefs obéit à un dragon noir." },
       },
     },
     ["revantusk-village"] = {
@@ -2443,7 +2445,7 @@ ns.translate({
     ["ruins-of-lordaeron"] = {
       title = "Les ruines de Lordaeron",
       text = {
-        { "Au-dessus de Fossoyeuse, les rues de la capitale de Lordaeron sont moins vides qu'elles n'en ont l'air depuis la porte. Le Fléau arpente encore en nombre les ruines les plus profondes, et un brouillard impie s'est répandu sur les rues et le vieux cimetière, levé, croient les Gardes noirs, par un nécromancien du nom de Rath'mael, sur le surplomb de Lordamere. Les Réprouvés envoient les forces qu'ils peuvent épargner, et leurs pertes sont telles qu'un paladin du Quartier royal demande aux voyageurs de lui rapporter les membres intacts que laissent les morts." },
+        { "Au-dessus de Fossoyeuse, les rues de la capitale de Lordaeron sont moins vides qu'elles n'en ont l'air depuis la porte. Le Fléau arpente encore en nombre les ruines les plus profondes, et un brouillard impie s'est répandu sur les rues et le vieux cimetière, levé, croient les Gardes noirs, par un nécromancien du nom de Rath'mael, sur le surplomb de Lordamere. Les Réprouvés envoient les forces qu'ils peuvent détacher, et leurs pertes sont telles qu'un paladin du Quartier royal demande aux voyageurs de lui rapporter les membres intacts que laissent les morts." },
         { "Tous ceux qui montent ne le font pas pour la reine banshee. Edward Heartweaver se rendait chaque semaine au cimetière, en quête du fils qu'il avait perdu quand Arthas rasa la cité, jusqu'à la semaine où il ne rentra pas. Et parmi les abominations cousues là-haut, il en est une que les apothicaires appellent le Baron, et qu'ils connaissent sous un nom plus ancien : Othmar Garithos, le seigneur qui fit cause commune avec Sylvanas contre le Fléau et ne survécut pas à l'arrangement. Le capitaine Truman, qui le servait, attend toujours dans les ruines le retour de son commandant." },
         { side = "Horde", aside = true, sign = "P. F.", "De tout ce qui figure sur cette page, c'est la marche hebdomadaire d'Edward Heartweaver qui me revient sans cesse." },
       },
@@ -2473,7 +2475,7 @@ ns.translate({
       title = "Sargeras et la Trahison",
       text = {
         { "Sargeras fut jadis le champion des Titans. Quand des démons commencèrent à s'échapper du Néant distordu vers les mondes que les Titans avaient ordonnés, le Panthéon choisit son plus grand guerrier, un noble géant de bronze en fusion, pour les traquer, et il le fit pendant des âges innombrables. Il vainquit les érédars, des sorciers qui changeaient des mondes entiers en démons, et les nathrezim, qui dressaient les nations les unes contre les autres, et il les enferma tous." },
-        { "Leur corruption resta en lui. Il sombra dans un désespoir ruminant, puis dans la conviction que l'ordre lui-même était folie et que le chaos était la seule vérité, et enfin dans la haine des Titans eux-mêmes, qu'il tenait pour responsables de l'échec de la création. Sa peau de bronze se fendit sur une fournaise de rage. Il brisa les prisons qu'il avait bâties et libéra les démons, et ils s'inclinèrent devant lui." },
+        { "Leur corruption resta en lui. Il sombra dans un désespoir qui le rongeait, puis dans la conviction que l'ordre lui-même était folie et que le chaos était la seule vérité, et enfin dans la haine des Titans eux-mêmes, qu'il tenait pour responsables de l'échec de la création. Sa peau de bronze se fendit sur une fournaise de rage. Il brisa les prisons qu'il avait bâties et libéra les démons, et ils s'inclinèrent devant lui." },
         { "Parmi les érédars, il choisit deux lieutenants : Kil'jaeden le Trompeur, pour trouver les races les plus sombres et les attirer, et Archimonde le Profanateur, pour mener l'armée. Il appela cette armée la Légion ardente. Combien de mondes elle a brûlés depuis, dit le livre de notre bibliothèque, reste incertain. Nous en connaissons un qu'elle n'a pas réussi à achever." },
       },
     },
@@ -2505,7 +2507,7 @@ ns.translate({
       title = "La Scholomance",
       text = {
         { "Sous Caer Darrow se trouve la Scholomance, l'école du Culte des damnés, où l'on forme les nécromanciens et où l'on étudie les arts noirs du Fléau. Son directeur est le sombre maître Gandling, et ses salles sont pleines d'élèves, de maîtres et des choses sur lesquelles ils s'exercent. Sa porte est fermée à quiconque n'a pas de clé." },
-        { "Les Barov y sont aussi, ou ce qu'il en reste : le seigneur et sa dame, relevés par les maîtres auxquels ils ont vendu leur demeure. L'Alliance comme les Réprouvés veulent entrer dans la Scholomance, et tous deux ont découvert que le chemin passe par beaucoup de mauvaise histoire." },
+        { "Les Barov y sont aussi, ou ce qu'il en reste : le seigneur et sa dame, relevés par les maîtres auxquels ils ont vendu leur demeure. L'Alliance comme les Réprouvés veulent entrer dans la Scholomance, et tous deux ont découvert que le chemin passe par un lourd passé." },
       },
     },
     ["scourge"] = {
@@ -2752,7 +2754,7 @@ ns.translate({
       title = "Les Serres-Rocheuses",
       text = {
         { "Les Serres-Rocheuses s'élèvent entre Ashenvale et les Tarides : de hauts pics gris, des vallées profondes et de vieilles forêts, le foyer ancestral des harpies, avec en leur cœur le pic sacré des druides. Les esprits de ces montagnes sont en colère, disent les chamans de la Horde, et ils ont de quoi." },
-        { "Les gobelins de la KapitalRisk sont venus couper, brûler et creuser, et des vallées entières ont disparu avec eux ; le Val calciné, au sud, a été brûlé jusqu'au sol par leurs machines. Les harpies Rougefurie tiennent les hauteurs, le Totem sinistre attaque les villages taurens, et au milieu de tout cela, les druides du pic et les chamans de Roche-Soleil tentent de soigner ce qu'ils peuvent." },
+        { "Les gobelins de la KapitalRisk sont venus couper, brûler et creuser, et des vallées entières ont disparu avec eux ; le Val calciné, au sud, a été entièrement ravagé par le feu de leurs machines. Les harpies Rougefurie tiennent les hauteurs, le Totem sinistre attaque les villages taurens, et au milieu de tout cela, les druides du pic et les chamans de Roche-Soleil tentent de soigner ce qu'ils peuvent." },
       },
     },
     ["stonetalon-peak"] = {
@@ -2810,7 +2812,7 @@ ns.translate({
       title = "Stratholme",
       text = {
         { "Stratholme était la deuxième cité de Lordaeron, son joyau du nord. Quand la peste y arriva dans des chariots de grain, le prince Arthas vint avec Uther et Jaina et trouva toute la cité malade, en train de se transformer. Il ordonna de la purger. Uther refusa et Jaina le quitta ; Arthas passa Stratholme au fil de l'épée, maison par maison, avant que les morts ne puissent se relever, et le seigneur de l'effroi Mal'Ganis l'attendait au bout. On l'appelle aujourd'hui l'Épuration, et ce fut le début de la chute d'Arthas." },
-        { "Elle a vu pires trahisons depuis. Un mage de Stromgarde nommé Ras Murmegivre donna sa vie au Fléau sur son sol ensanglanté, librement, et se releva en liche de la Scholomance. Et c'est ici que le généralissime Mograine, le Porte-cendres, fut attiré dans une embuscade par son propre fils et tué de sa propre lame." },
+        { "Elle a connu de pires trahisons depuis. Un mage de Stromgarde nommé Ras Murmegivre donna sa vie au Fléau sur son sol ensanglanté, librement, et se releva en liche de la Scholomance. Et c'est ici que le généralissime Mograine, le Porte-cendres, fut attiré dans une embuscade par son propre fils et tué de sa propre lame." },
         { "La cité brûle encore. Le Fléau en tient la moitié, sous le baron Rivendare, et la Croisade écarlate l'autre moitié, depuis son bastion, sous le grand croisé. Les morts qui n'ont pas été épurés errent toujours dans ses rues, et certains d'entre eux, les fantômes, aimeraient beaucoup être libérés." },
         { side = "Horde", aside = true, sign = "P. F.", "Certains disent encore que le prince avait raison à Stratholme. Je n'en fais pas partie." },
       },
@@ -2857,7 +2859,7 @@ ns.translate({
     ["taelan-fordring"] = {
       title = "Taelan Fordring",
       text = {
-        { "Taelan Fordring a grandi en croyant son père mort. Quand Tirion fut dépouillé de ses terres pour avoir tenu parole envers un orc, la mère de Taelan resta et dit au garçon qu'il était mort. Il rejoignit la Croisade écarlate, s'éleva sous le grand croisé, abattit l'étendard de la Main d'argent à Valnord, et devint généralissime de la Croisade à Âtreval." },
+        { "Taelan Fordring a grandi en croyant son père mort. Quand Tirion fut dépouillé de ses terres pour avoir tenu parole envers un orc, la mère de Taelan resta et dit au garçon qu'il était mort. Il rejoignit la Croisade écarlate, s'éleva sous le grand croisé, jeta à terre l'étendard de la Main d'argent à Valnord, et devint généralissime de la Croisade à Âtreval." },
         { "Il n'a jamais cessé de rêver de son père, dit-il : de Tirion à ses côtés le jour où il fut fait chevalier, de combattre ensemble le Fléau, de l'honneur de Lordaeron. Quand des voyageurs lui apportent les choses que Tirion gardait pour lui, et la vérité sur ce qu'est devenue la Croisade, il rompt avec elle et part à cheval retrouver son père." },
         { "Il ne va pas loin. Le grand inquisiteur Isillien l'abat devant Âtreval, sous les yeux de l'homme qu'il allait rejoindre, et Tirion tue Isillien au-dessus du corps de son fils. L'Ordre de la Main d'argent, dit Tirion ensuite, renaît. Il lui en a coûté son fils pour se souvenir de sa raison d'être." },
       },
@@ -2886,7 +2888,7 @@ ns.translate({
     ["tarren-mill"] = {
       title = "Moulin-de-Tarren",
       text = {
-        { "Des meuniers et des fermiers occupaient autrefois Moulin-de-Tarren. Les Réprouvés en ont fait leur place forte du sud, avec des Gardes noirs au service d'une grande exécutrice qui répond à Varimathras. Austrivage n'est qu'à une courte chevauchée." },
+        { "Des meuniers et des fermiers occupaient autrefois Moulin-de-Tarren. Les Réprouvés en ont fait leur place forte du sud, avec des Gardes noirs au service d'une grande exécutrice placée sous les ordres de Varimathras. Austrivage n'est qu'à une courte chevauchée." },
         { "Darthalia ordonne des raids contre les fermes de Hautebrande et traite leurs habitants humains d'infestation. Elle entend les soumettre pendant que les apothicaires achèvent leur nouvelle peste. La guerre entre ces villes va bien au-delà de leurs gardes : les fermiers et leurs récoltes sont nommés dans ses ordres." },
         { side = "Horde", aside = true, sign = "P. F.", "On nous dit que la nouvelle peste des apothicaires est destinée au Fléau. La dernière peste m'a tué, et j'aimerais bien voir ça par écrit." },
       },
@@ -2895,7 +2897,7 @@ ns.translate({
       title = "Les taurens",
       text = {
         { "Les taurens comptent parmi les plus anciens peuples des plaines de Kalimdor. Pendant des générations, leurs tribus errèrent, suivant les troupeaux et les voies de la Terre-Mère, tandis que les centaures les harcelaient d'un camp à l'autre. Cairne Bloodhoof rassembla nombre de ces tribus, et quand les orcs de Thrall touchèrent terre, ils aidèrent les taurens à repousser les centaures et à atteindre les prairies de Mulgore." },
-        { "Là, les taurens élevèrent Thunder Bluff sur ses mesas et s'établirent, tout en gardant les habitudes de la route. Ils honorent la Terre-Mère, dont les yeux sont An'she, le soleil, et Mu'sha, la lune. Leurs chamans parlent avec les esprits et leurs druides parcourent le Rêve avec le Cercle cénarien. Toutes les tribus ne suivent pas Cairne ; le Totem sinistre garde ses propres conseils et ses propres rancunes." },
+        { "Là, les taurens élevèrent Thunder Bluff sur ses mesas et s'établirent, tout en gardant les habitudes de la route. Ils honorent la Terre-Mère, dont les yeux sont An'she, le soleil, et Mu'sha, la lune. Leurs chamans parlent avec les esprits et leurs druides parcourent le Rêve avec le Cercle cénarien. Toutes les tribus ne suivent pas Cairne ; le Totem sinistre garde ses intentions pour lui et cultive ses propres rancunes." },
         { "Ils sont lents à la colère et très difficiles à arrêter une fois en colère, $gvoyageur:voyageuse;. Les archéologues de la Ligue ont trouvé en eux les hôtes les plus patients de Kalimdor, pourvu que personne ne creuse là où leurs ancêtres sont enterrés." },
       },
     },
@@ -2993,7 +2995,7 @@ ns.translate({
     ["the-crossroads"] = {
       title = "La Croisée",
       text = {
-        { "Les grandes routes des Tarides se rejoignent à la Croisée : au nord vers Orgrimmar, à l'ouest vers Mulgore, à l'est vers Ratchet et au sud vers Mille pointes. La Horde y tient une palissade, une auberge et un perchoir de cavaliers célestes, avec une garnison au service du trafic entre les trois." },
+        { "Les grandes routes des Tarides se rejoignent à la Croisée : au nord vers Orgrimmar, à l'ouest vers Mulgore, à l'est vers Ratchet et au sud vers Mille pointes. La Horde y tient une palissade, une auberge et un perchoir de cavaliers célestes, avec une garnison au service des voyageurs qui empruntent ces routes." },
         { "L'activité des centaures et les vols de provisions donnent à cette garnison du travail au-delà de ses murs. Sergra Darkthorn propose aussi des épreuves de chasse." },
       },
     },
@@ -3054,7 +3056,7 @@ ns.translate({
       title = "La Première Guerre",
       text = {
         { "Les orcs franchirent la Porte des ténèbres quelques clans à la fois, dans les marais à l'est de Hurlevent, et pendant des années, le royaume ne les connut que par leurs raids. Le roi Llane ne croyait pas que de telles créatures pussent prendre sa cité. Son champion, Anduin Lothar, dernier de la lignée d'Arathi, en était moins sûr, et moins sûr encore de leur vieil ami Medivh, dont la tour de Karazhan était devenue bien sombre." },
-        { "Lothar agit selon ses doutes. Avec le jeune apprenti de Medivh, Khadgar, il donna l'assaut à Karazhan et tua le Gardien, et découvrit que Medivh avait été derrière l'invasion depuis le début. Cela ne sauva pas le royaume. La Horde, sous un nouveau chef de guerre, Orgrim Doomhammer, assiégea le donjon de Hurlevent, et Llane fut tué dans ses propres murs par Garona, une assassin demi-orque du Conseil des ombres." },
+        { "Lothar agit selon ses doutes. Avec le jeune apprenti de Medivh, Khadgar, il donna l'assaut à Karazhan et tua le Gardien, et découvrit que Medivh avait été derrière l'invasion depuis le début. Cela ne sauva pas le royaume. La Horde, sous un nouveau chef de guerre, Orgrim Doomhammer, assiégea le donjon de Hurlevent, et Llane fut tué dans ses propres murs par Garona, une assassine demi-orque du Conseil des ombres." },
         { "Lothar rentra dans une cité en ruines fumantes et jura, avec les hommes qui lui restaient, de la reprendre. Il mena les survivants d'Azeroth par-delà la mer jusqu'en Lordaeron, pour demander de l'aide aux autres royaumes humains. L'alliance qu'ils formèrent allait livrer la Deuxième Guerre. Hurlevent fut rebâtie ensuite. Son peuple n'a plus jamais sous-estimé un ennemi depuis." },
       },
     },
@@ -3080,7 +3082,7 @@ ns.translate({
       title = "Les Gardiens de Tirisfal",
       text = {
         { "Dalaran apprit tôt le prix de la magie. Ses jeunes mages dépensaient sans compter leur pouvoir, et plus ils en dépensaient, plus le monde s'amincissait autour de leur cité, jusqu'à ce que de petits démons de la Légion ardente commencent à s'y glisser. Les magocrates qui gouvernaient la cité cachèrent ce qu'ils purent. Quand le peuple commença à murmurer de révolution, ils allèrent demander de l'aide aux elfes de Quel'thalas." },
-        { "Les elfes leur dirent ce qu'était la Légion, et ce qu'elle avait déjà fait au monde une fois. Ensemble, le Conseil de Lune-d'argent et les magocrates conclurent un pacte secret : un seul champion mortel, doté des puissances réunies de la magie elfique et humaine, combattrait les agents de la Légion dans une guerre dont personne d'autre ne devrait jamais entendre parler. Un conseil caché, qui se réunissait dans les clairières de Tirisfal où les elfes s'étaient d'abord établis en Lordaeron, choisissait chaque Gardien, et quand l'un d'eux vieillissait ou se lassait, il transmettait le pouvoir sous son propre contrôle attentif." },
+        { "Les elfes leur dirent ce qu'était la Légion, et ce qu'elle avait déjà fait au monde une fois. Ensemble, le Conseil de Lune-d'argent et les magocrates conclurent un pacte secret : un seul champion mortel, doté des puissances réunies de la magie elfique et humaine, combattrait les agents de la Légion dans une guerre dont personne d'autre ne devrait jamais entendre parler. Un conseil caché, qui se réunissait dans les clairières de Tirisfal où les elfes s'étaient d'abord établis en Lordaeron, choisissait chaque Gardien, et quand un Gardien vieillissait ou se lassait, le conseil veillait lui-même à la transmission du pouvoir." },
         { "Cela fonctionna pendant des générations. Puis le Conseil choisit Aegwynn, qui n'entendait pas être contrôlée. Elle abattit l'avatar de Sargeras lui-même dans le nord glacé et crut en avoir fini avec lui. Près de neuf cents ans plus tard, refusant de laisser le Conseil désigner son successeur, elle donna naissance à un fils pour hériter de son pouvoir et le nomma Medivh, « gardien des secrets » dans la langue des hauts-elfes. Ce qu'il gardait est raconté à la page de Karazhan." },
         { "Un ordre qui cache sa guerre au monde entier ne peut pas facilement être corrigé quand il se trompe, $gvoyageur:voyageuse;. Le Conseil l'apprit trop tard." },
       },
@@ -3308,7 +3310,7 @@ ns.translate({
       text = {
         { "Vous trouverez peut-être Tirion Fordring dans une petite cabane au bord de la Thondroril. Il fut autrefois seigneur du donjon de Mardenholde, à Âtreval, et paladin de la Main d'argent. Il n'y a guère dans son logis actuel de quoi rappeler l'une ou l'autre distinction." },
         { "L'orc Eitrigg lui sauva la vie. Tirion s'opposa à sa capture et, lors de son procès à Stratholme, refusa de renier le serment qu'il lui avait fait. On lui retira ses titres et ses terres, et on l'envoya en exil. Sa femme dit à leur fils Taelan qu'il était mort." },
-        { "Taelan dirige aujourd'hui la Croisade écarlate à Âtreval. Tirion demande aux voyageurs de récupérer un marteau-jouet qu'il avait donné au garçon, l'étendard de la Main d'argent que Taelan abattit à Valnord, et un tableau caché à Stratholme. Ce sont les choses qu'il espère voir parvenir à son fils. S'il vous confie cette mission, $gvoyageur:voyageuse;, souvenez-vous qu'il essaie de ramener Taelan chez lui." },
+        { "Taelan dirige aujourd'hui la Croisade écarlate à Âtreval. Tirion demande aux voyageurs de récupérer un marteau-jouet qu'il avait donné au garçon, l'étendard de la Main d'argent que Taelan jeta à terre à Valnord, et un tableau caché à Stratholme. Il espère que ces souvenirs sauront encore toucher son fils. S'il vous confie cette mission, $gvoyageur:voyageuse;, souvenez-vous qu'il essaie de ramener Taelan chez lui." },
       },
     },
     ["tirisfal-glades"] = {
@@ -3465,7 +3467,7 @@ ns.translate({
     ["warlocks"] = {
       title = "Démonistes",
       text = {
-        { "Gul'dan apporta la magie démoniste dans la Horde orc. Lui et son Conseil des ombres l'avaient apprise de Kil'jaeden, et grâce à elle ils firent de leur peuple une arme de la Légion ardente. Les démonistes de la Horde relevèrent les morts, invoquèrent des démons et brûlèrent des contrées entières, et leur art survécut à leurs maîtres." },
+        { "Gul'dan apporta la magie démoniste dans la Horde orque. Lui et son Conseil des ombres l'avaient apprise de Kil'jaeden, et grâce à elle ils firent de leur peuple une arme de la Légion ardente. Les démonistes de la Horde relevèrent les morts, invoquèrent des démons et brûlèrent des contrées entières, et leur art survécut à leurs maîtres." },
         { "On trouve aujourd'hui ses élèves des deux côtés. La Lame ardente sert toujours la Légion en Durotar ; les démonistes de Hurlevent se tiennent dans la cave de l'Agneau assassiné ; les gnomes et les Réprouvés l'étudient aussi. Un démoniste lie des démons à son service, jette des malédictions, et paie le pouvoir de sa propre vie quand rien d'autre ne suffit." },
         { client = "forever", "Les Darkspear comptent désormais eux aussi des démonistes parmi leurs lanceurs de sorts." },
         { "La plupart des cités tolèrent les démonistes sans leur faire confiance, $gvoyageur:voyageuse;, et les démonistes semblent préférer qu'il en soit ainsi." },
@@ -3497,14 +3499,14 @@ ns.translate({
       title = "Les wendigos",
       text = {
         { "L'antre Gris offre un abri contre la neige de Dun Morogh, pourvu que vous parveniez à convaincre ses wendigos de le partager. Un coursier qui les a fuis y a laissé derrière lui une cargaison de munitions. Les créatures ont eu le dernier mot." },
-        { "Le pilote Stonegear veut leurs crinières pour en faire un tapis dans son engin de siège. Même une machine a besoin d'un peu de confort dans ce pays, $gvoyageur:voyageuse;. Pour récupérer les munitions comme pour meubler l'engin, il faut approcher un wendigo de bien plus près que le coursier n'a voulu le faire." },
+        { "Le pilote Stonegear veut leurs crinières pour en faire un tapis dans son engin de siège, le Moissonne-trolls. Même une machine a besoin d'un peu de confort dans ce pays, $gvoyageur:voyageuse;. Pour récupérer les munitions comme pour meubler l'engin, il faut approcher un wendigo de bien plus près que le coursier n'a voulu le faire." },
       },
     },
     ["western-plaguelands"] = {
       title = "Maleterres de l'ouest",
       text = {
-        { "Les Maleterres de l'ouest étaient autrefois de riches terres agricoles de Lordaeron. Le grain infecté porta la non-mort à travers ses villages ; des champs gris, des granges pourrissantes et des arbres flétris entourent désormais les morts qui y marchent encore. Un poison vert flotte sur une terre qui nourrissait autrefois le royaume." },
-        { "Le camp du Noroît abrite l'Alliance et l'Aube d'argent au sud, les Réprouvés tiennent la Barricade à l'ouest, et la Croisade écarlate garde Âtreval au nord. Entre ces prises se trouvent Andorhal, les chaudrons de peste et la Scholomance sur le lac. L'itinéraire d'un voyageur dans ce pays se mesure à l'endroit où les vivants tiennent encore bon." },
+        { "Les Maleterres de l'ouest étaient autrefois de riches terres agricoles de Lordaeron. Le grain infecté porta la non-mort à travers leurs villages ; des champs gris, des granges pourrissantes et des arbres flétris entourent désormais les morts qui y marchent encore. Un poison vert flotte sur une terre qui nourrissait autrefois le royaume." },
+        { "Le camp du Noroît abrite l'Alliance et l'Aube d'argent au sud, les Réprouvés tiennent la Barricade à l'ouest, et la Croisade écarlate garde Âtreval au nord. Entre ces points d'appui se trouvent Andorhal, les chaudrons de peste et la Scholomance sur le lac. L'itinéraire d'un voyageur dans ce pays se mesure à l'endroit où les vivants tiennent encore bon." },
       },
     },
     ["westfall"] = {
@@ -3543,7 +3545,7 @@ ns.translate({
       title = "Le clan Wildhammer",
       text = {
         { "Les Wildhammer étaient l'un des trois marteaux de l'ancien royaume de Khaz Modan, et après la guerre qui sépara les trois, ils s'établirent à Grim Batol. Quand la reine sombrefer Modgud y mourut, sa mort laissa une noirceur dans la pierre ; les Wildhammer quittèrent donc les lieux et partirent au nord, vers les Hinterlands, où ils vivent depuis à ciel ouvert, montant des griffons et gardant les anciennes voies des esprits." },
-        { "Ils sont fiers, farouches, très indépendants, et ils pensent que nous autres de Forgefer avons passé trop de temps sous terre. Pendant la Deuxième Guerre, leurs chevaucheurs de griffons combattirent pour l'Alliance et furent la terreur des dragons de la Horde. Ils gardent aujourd'hui leurs propres conseils, et leurs propres amis : les hauts-elfes de Quel'Danil parmi eux, ce dont les trolls des Hinterlands leur tiennent rigueur." },
+        { "Ils sont fiers, farouches, très indépendants, et ils pensent que nous autres de Forgefer avons passé trop de temps sous terre. Pendant la Deuxième Guerre, leurs chevaucheurs de griffons combattirent pour l'Alliance et furent la terreur des dragons de la Horde. Ils gardent aujourd'hui leurs intentions pour eux, et leurs propres amis : les hauts-elfes de Quel'Danil parmi eux, ce dont les trolls des Hinterlands leur tiennent rigueur." },
       },
     },
     ["wildkin"] = {
@@ -3551,7 +3553,7 @@ ns.translate({
       text = {
         { "On appelle les grands hiboux-ours du nord chouettards, ou séléniens, et les elfes de la nuit les traitent avec une révérence que les voyageurs ne partagent pas toujours. On raconte qu'Elune elle-même les aurait créés, et certains disent qu'ils étaient ses compagnons. Une érudite elfe de la nuit qui étudie leurs plumes y trouve une magie que ces créatures ne manient pas tant qu'elles ne la portent, comme une part de leur nature même." },
         { "Ils sont capables d'une grande douceur comme d'une grande férocité, surtout quand quelque chose qu'ils tiennent pour important est menacé, et au Berceau-de-l'Hiver on dit qu'ils gardent des secrets des elfes de la nuit. Certains y sont devenus fous, disent les rapports, pour être restés trop longtemps près de la chose même qu'ils protègent." },
-        { "Ces derniers temps, les doux se font plus rares. Les séléniens de Sombrivage sont attirés par un grand cristal rouge dans les collines de l'est, et les Sentinelles d'Auberdine ne les croient plus inoffensifs. Je laisserais une large place à n'importe quel chouettard, $gvoyageur:voyageuse;, et une plus large encore à un chouettard fou." },
+        { "Ces derniers temps, les doux se font plus rares. Les séléniens de Sombrivage sont attirés par un grand cristal rouge dans les collines de l'est, et les Sentinelles d'Auberdine ne les croient plus inoffensifs. Je me tiendrais à bonne distance de n'importe quel chouettard, $gvoyageur:voyageuse;, et plus loin encore d'un chouettard fou." },
       },
     },
     ["windshear-crag"] = {

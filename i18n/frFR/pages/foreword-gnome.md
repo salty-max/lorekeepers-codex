@@ -1,7 +1,7 @@
 ---
 id: foreword-gnome
 source: e1560faa7afe
-title: Un mot à un enfant de Gnomeregan
+title: Un mot à $gun enfant:une enfant; de Gnomeregan
 ---
 $gVoyageur:Voyageuse;, j'ai écrit cette première page pour un gnome avec un soin particulier. Gnomeregan gît toujours sous Dun Morogh, et votre peuple ne peut pas encore y retourner. Un registre des lieux anciens se doit de reconnaître que certaines pertes sont encore en train d'être vécues.
 

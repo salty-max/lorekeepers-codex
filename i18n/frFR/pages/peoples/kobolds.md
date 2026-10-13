@@ -7,4 +7,4 @@ Chaque mineur de l'Alliance a une histoire de kobold, et la plupart se terminent
 
 On en trouve partout où il y a à creuser. Un clan venu des Carmines a envahi les mines de la forêt d'Elwynn et de la Marche de l'Ouest, les Rats des tunnels se sont terrés au-dessus de Thelsamar, les Sèche-moustache servent les géants des Hautes-terres Arathies, et les Mufle-de-gravier fouillent le minerai à Mille pointes.
 
-Il est facile d'en rire. Les fermiers d'Elwynn, qui leur perdent leur bétail et leurs récoltes, n'en rient pas.
+Il est facile d'en rire. Les fermiers d'Elwynn, à qui ils prennent le bétail et les récoltes, n'en rient pas.

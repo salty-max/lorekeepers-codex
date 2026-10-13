@@ -1,7 +1,7 @@
 ---
 id: foreword-undead
 source: c3eb51e2bbe3
-title: Un mot à un Réprouvé
+title: Un mot à $gun Réprouvé:une Réprouvée;
 ---
 $gVoyageur:Voyageuse;, vous et moi avons tous deux survécu à notre royaume. J'étais historien de Lordaeron avant que la peste ne m'emporte, et vous vous souvenez peut-être de ses villes telles qu'elles étaient, quand sa capitale se dressait au-dessus du sol. Ce registre ne les connaît que par les archives, car il a été écrit à Forgefer, par Archesonus, l'historienne royale du roi Magni. Je l'ai fait suivre tout de même. C'est un récit juste, et les récits justes de notre patrie sont rares.
 

@@ -3,7 +3,7 @@ id: foreword-human
 source: 2b7c93b55f60
 title: Un mot à $gun fils:une fille; de Hurlevent
 ---
-$gVoyageur:Voyageuse;, je suis heureuse d'envoyer ce registre à un lecteur de Hurlevent. Votre peuple et le mien se tiennent côte à côte depuis la Deuxième Guerre ; nos récits des batailles qui ont suivi ont rarement manqué de noms venus des deux.
+$gVoyageur:Voyageuse;, je suis heureuse d'envoyer ce registre à $gun lecteur:une lectrice; de Hurlevent. Votre peuple et le mien se tiennent côte à côte depuis la Deuxième Guerre ; nos récits des batailles qui ont suivi ont rarement manqué de noms venus des deux.
 
 Hurlevent fut détruite et rebâtie. Sa nouvelle maçonnerie est une grande réussite, et les maçons impayés qui l'ont élevée font aussi partie de son histoire. Vous trouverez ce récit ici, à côté des histoires que votre royaume a plus de raisons de célébrer.
 
