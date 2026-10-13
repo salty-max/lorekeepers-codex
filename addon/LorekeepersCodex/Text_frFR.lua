@@ -548,6 +548,34 @@ ns.translate({
         { "Depuis la montagne, le clan lance ses raids au nord et à l'ouest. Il tient les Steppes ardentes, il a pris le donjon de Guet-de-pierre dans les Carmines, et les gens de Comté-du-Lac vivent en vue de ses feux. Quoi que la Horde soit devenue en Durotar, voilà ce qu'elle était." },
       },
     },
+    ["blackrock-depths"] = {
+      title = "Les profondeurs de Rochenoire",
+      text = {
+        { "Les profondeurs de Rochenoire sont la cité des Sombrefer sous la montagne : la cité d'Ombreforge, avec ses prisons, son arène, ses chambres fortes, ses ateliers de golems et sa taverne, le Sinistre Écluseur, où l'on brasse une bière noire. Tout au fond, dans son palais, siège l'empereur, et au-delà de lui s'ouvre le chemin qui descend vers le domaine même du seigneur du Feu." },
+        { "L'Alliance et la Horde viennent toutes deux ici, la Horde pour les golems des Sombrefer et leurs secrets, l'Alliance pour un maréchal capturé et pour la fille du roi Magni. Il y a beaucoup d'histoire ici, et la plus grande partie est en feu." },
+      },
+    },
+    ["blackrock-mountain"] = {
+      title = "Mont Rochenoire",
+      text = {
+        { "Le mont Rochenoire se dresse entre la gorge des Vents brûlants et les Steppes ardentes, une montagne de pierre noire avec du feu en son cœur. Il s'éleva quand Ragnaros arriva, et les Sombrefer, ses esclaves, bâtirent leur cité à l'intérieur. Pendant la Deuxième Guerre, ce fut la grande forteresse de la Horde, et après la guerre, les orcs qui échappèrent à l'Alliance s'y réfugièrent." },
+        { "Aujourd'hui, la montagne est en guerre contre elle-même. Les Sombrefer tiennent les profondeurs pour le seigneur du Feu, et les orcs de la Horde noire, avec les dragons noirs de Nefarian, tiennent le pic au-dessus. Entre eux, au milieu de la montagne, des chaînes pendent au-dessus d'un lac de lave." },
+      },
+    },
+    ["blackrock-spire"] = {
+      title = "Le pic Rochenoire",
+      text = {
+        { "Les Sombrefer taillèrent le pic Rochenoire au-dessus de leur cité, puis le perdirent au profit des orcs. Orgrim Doomhammer le tint pendant la Deuxième Guerre. L'Alliance assiégea la forteresse vers la fin de la guerre ; Anduin Lothar tomba à ses portes avant que la Horde ne soit brisée." },
+        { "Rend Blackhand y commande aujourd'hui les orcs au service de Nefarian. Orcs, trolls et ogres emplissent le bas du pic, tandis que le dragon et ses fidèles tiennent les hauteurs. L'ascension traverse une forteresse occupée, avec un autre maître que celui que voulaient ses bâtisseurs." },
+      },
+    },
+    ["blackwing-lair"] = {
+      title = "Le repaire de l'Aile noire",
+      text = {
+        { "Nefarian tient le repaire de l'Aile noire au sommet du pic Rochenoire. Il y élève des dragons chromatiques en combinant le sang des vols draconiques, en quête d'une armée capable de submerger ses ennemis. Le repaire est à la fois sa forteresse et le lieu où il fabrique ses futurs soldats." },
+        { "Le dragon rouge Vaelastrasz s'y trouve, sous l'emprise de Nefarian. Jadis ami des mortels, il supplie ceux qui l'atteignent de mettre fin à ses souffrances. Il y a peu de réconfort à rejoindre un ami ici, $gvoyageur:voyageuse;, quand c'est cela qu'il doit vous demander." },
+      },
+    },
     ["blasted-lands"] = {
       title = "Terres foudroyées",
       text = {
@@ -799,6 +827,13 @@ ns.translate({
         { "Daelin Proudmoore, grand amiral de Kul Tiras, fut un héros de la Deuxième Guerre : il commanda les flottes de l'Alliance aux côtés d'Anduin Lothar et d'Uther le Porteur de lumière, et il ne pardonna jamais aux orcs. Il avait aussi une fille, Jaina, partie étudier la magie à Dalaran." },
         { "Il quitta Lordaeron avec sa flotte avant qu'Arthas ne la détruise, cherchant des survivants sur les mers, et après bien des mois trouva Kalimdor, et sa fille, en paix avec la Horde. Il ne voulut pas l'accepter. Il débarqua ses soldats de marine sur la côte de Durotar, éleva ce donjon, et entreprit de détruire les orcs avant qu'ils ne prennent racine." },
         { "Jaina dut choisir entre son père et la paix, et elle choisit la paix. Daelin mourut dans les combats avant qu'ils aient pu se réconcilier. Sa flotte gît en épave au large de cette plage, et quelques-uns de ses hommes tiennent encore le donjon, au milieu d'une terre qui porte le nom d'un orc." },
+      },
+    },
+    ["dagran-thaurissan"] = {
+      title = "Empereur Dagran Thaurissan",
+      text = {
+        { "Dagran Thaurissan règne sur les Sombrefer dans la cité d'Ombreforge, descendant du thane-sorcier qui invoqua Ragnaros. Il garde le nom de son ancêtre, et moi l'histoire de son ancêtre ; je doute que nous soyons d'accord sur grand-chose. L'empereur se dit le plus puissant serviteur du seigneur du Feu. Sa couronne n'a pas libéré son clan de la puissance que son ancêtre a fait s'abattre sur lui." },
+        { "Il porte Hostefer, et ses agents sont allés jusqu'à Gnomeregan. Il a aussi fait de la fille du roi Magni, Moira, son épouse. Magni envoya des champions le tuer et la ramener. Ils tuèrent l'empereur ; la réponse de Moira rendit le reste de leur mission nettement moins simple." },
       },
     },
     ["dalaran"] = {
@@ -1206,6 +1241,14 @@ ns.translate({
         { "Bien avant qu'il y ait des hommes en Lordaeron, les forêts du nord appartenaient aux trolls de l'empire amani, et ils n'ont jamais pardonné à personne de les leur avoir prises. Quand les hauts-elfes arrivèrent par la mer et s'établirent en Quel'thalas, les Amani leur firent la guerre pendant des générations, jusqu'à ce que les elfes et le premier royaume humain, Arathor, les brisent ensemble pendant les guerres des Trolls. Leur capitale, Zul'Aman, se dresse toujours au cœur des bois de l'est." },
         { "Les trolls revinrent pendant la Deuxième Guerre, quand leur seigneur de guerre Zul'jin mena les tribus des forêts aux côtés de la Horde contre les elfes et les hommes de Lordaeron, et perdirent de nouveau. Il en reste des tribus éparpillées dans les collines : les Witherbark dans les Hautes-terres Arathies et les Hinterlands, les Vilebranch dans leur cité-temple de Jintha'Alor, les Mossflayer dans les bois des Maleterres de l'est, où beaucoup pourrissent désormais de la peste." },
         { "Ils sont grands, à la peau verte et aux défenses saillantes ; ils gardent les anciens dieux des trolls, et certains gardent des coutumes pires encore. Les Revantusk des Hinterlands sont l'exception : ils ont pris le parti de la Horde, et leurs alliés de la Horde se portent garants d'eux." },
+      },
+    },
+    ["franclorn-forgewright"] = {
+      title = "Franclorn Forgewright",
+      text = {
+        { "Franclorn Forgewright était l'architecte en chef des nains Sombrefer et l'inventeur de la méthode de construction dite de formepierre. Il vous dira que vous vous êtes presque certainement tenu sur quelque chose qu'il a fait, et le grand barrage du Loch Modan porte le nom de sa méthode. La cité d'Ombreforge, la capitale des Sombrefer sous la montagne, fut son œuvre." },
+        { "Il est mort. Son fantôme se tient dans son tombeau du mont Rochenoire, visible seulement de ceux qui sont morts eux-mêmes, et son successeur comme architecte, Fineous Darkvire, a pris son grand marteau, Souillefer. Franclorn veut qu'on le remette entre les mains de la statue que les Sombrefer lui ont élevée au sanctuaire de Thaurissan. En échange, il cède la clé des profondeurs de ce qu'il appelle sa cité maudite." },
+        { "Il l'a bâtie tout de même. Un nain peut renier une cité et rester fier de sa maçonnerie, $gvoyageur:voyageuse; ; j'en ai rencontré plusieurs." },
       },
     },
     ["freewind-post"] = {
@@ -1780,6 +1823,21 @@ ns.translate({
         { "N'entrez pas seul dans leur place forte, $gvoyageur:voyageuse;. N'y entrez pas du tout, si vous pouvez l'éviter." },
       },
     },
+    ["moira-bronzebeard"] = {
+      title = "Princesse Moira Bronzebeard",
+      text = {
+        { "Moira Bronzebeard est la fille unique de Magni et l'héritière de Forgefer. Les Sombrefer l'enlevèrent, et elle devint l'épouse de l'empereur Dagran Thaurissan. Son père croyait que l'empereur l'avait ensorcelée et envoya des champions la délivrer." },
+        { "Ils tuèrent Thaurissan. Moira le dit grand et honorable nain, et leur apprit qu'elle portait son enfant. Elle déclara que cet enfant hériterait de Forgefer, que Magni l'approuve ou non. Vous portiez peut-être les ordres de Magni, $gvoyageur:voyageuse;, mais Moira a sa propre réponse." },
+        { "Je tiens l'histoire de la maison de Magni depuis longtemps. C'est le premier chapitre que je préférerais ne pas avoir à écrire." },
+      },
+    },
+    ["molten-core"] = {
+      title = "Le Cœur du Magma",
+      text = {
+        { "Sous les profondeurs de Rochenoire, sous tout le reste, s'étend le Cœur du Magma, un monde de lave dans les racines de la montagne, le domaine même du seigneur du Feu. Ragnaros y vit depuis que Thaurissan l'invoqua, et ses serviteurs le gardent : des géants de feu et de pierre, les seigneurs déchus de la flamme, et son chambellan, Executus, qui seul peut l'éveiller." },
+        { "Une étrange créature à la porte de la montagne, Lothos Riftwaker, voit des déchirures dans le monde tout autour de lui et montrera le chemin à quiconque est assez hardi. Les Hydraxiens, ennemis ancestraux de Ragnaros, aideront quiconque y va." },
+      },
+    },
     ["moonbrook"] = {
       title = "Ruisselune",
       text = {
@@ -1881,6 +1939,13 @@ ns.translate({
       text = {
         { "Naxxramas flotte au-dessus des Maleterres, une citadelle volante du Fléau et le siège de Kel'Thuzad. D'elle sont venues les forces d'une grande invasion des cités d'Azeroth, ce qui a poussé l'Aube d'argent à appeler tous ceux qui voulaient bien s'opposer aux morts." },
         { "Cinq ans après la dernière guerre, le roi-liche s'agite de nouveau et Kel'Thuzad rassemble des armées pour une autre attaque. Abominations, araignées et porte-peste occupent la nécropole, avec quatre cavaliers qui furent autrefois des champions de la Lumière. Levez les yeux en traversant les Maleterres, $gvoyageur:voyageuse;. Leur commandant possède une forteresse qui n'a pas besoin de tenir la route en dessous." },
+      },
+    },
+    ["nefarian"] = {
+      title = "Nefarian",
+      text = {
+        { "Nefarian est le fils d'Aile de mort et le frère d'Onyxia. Comme sa sœur, il prend forme humaine : le seigneur Victor Nefarius commande les orcs du pic Rochenoire. Ce nom cache un dragon aux desseins qui vont bien au-delà de la forteresse." },
+        { "Depuis le repaire de l'Aile noire, il dispute à Ragnaros le contrôle de la montagne et élève des dragons chromatiques avec l'aide de la Horde noire. Il les destine à de plus vastes conquêtes. Des champions de l'Alliance et de la Horde ont été envoyés contre lui, avec la promesse que sa tête tranchée serait exposée. Un voyageur qui convoite ce trophée doit d'abord traverser l'armée qu'il a déjà rassemblée." },
       },
     },
     ["nekrosh"] = {
@@ -2094,6 +2159,13 @@ ns.translate({
         { "Le peuple de Thrall a envoyé les jeunes de la Horde nettoyer les lieux. Je vois peu de meilleures leçons sur ce sur quoi une capitale est bâtie." },
       },
     },
+    ["ragnaros"] = {
+      title = "Ragnaros",
+      text = {
+        { "Ragnaros, le seigneur du Feu, est un seigneur élémentaire invoqué par les Sombrefer il y a des siècles dans l'espoir de gagner leur guerre. Il les tient à son service depuis. Leur empereur se proclame son serviteur, tandis que des élémentaires de feu parcourent la gorge et les steppes que son arrivée a dévastées." },
+        { "Dans le Cœur du Magma, il attend au milieu de la lave que son chambellan l'appelle. Nefarian lui dispute son emprise sur la montagne, et les Hydraxiens poursuivent contre lui leur opposition ancestrale. Les Sombrefer vivent entre ces puissances, toujours liés à celle à qui leurs ancêtres demandèrent de l'aide." },
+      },
+    },
     ["ras-frostwhisper"] = {
       title = "Ras Murmegivre",
       text = {
@@ -2199,6 +2271,13 @@ ns.translate({
       text = {
         { "Quand des golems envahirent les excavations de Remtravel, au sud de Sombrivage, son assistante s'enfuit à Auberdine chercher de l'aide. Le célèbre prospecteur, lui, resta au travail. L'admiration de Hollee pour ses découvertes survit aux côtés d'un souhait désespéré : qu'il remarque de temps en temps ce qui se passe autour de lui." },
         { "Son mystérieux fossile a éveillé l'intérêt du chef archéologue Greywhisker, et une ressemblance avec une autre trouvaille mène l'enquête jusqu'à Flagongut, à Port de Menethil. Remtravel a trouvé quelque chose qui mérite qu'on s'y intéresse. Le garder en vie assez longtemps pour qu'il finisse de s'y intéresser est devenu une expédition à part entière." },
+      },
+    },
+    ["rend-blackhand"] = {
+      title = "Chef de guerre Rend Blackhand",
+      text = {
+        { "Rend est le fils de Blackhand le Destructeur, le premier chef de guerre de la Horde. Lui et son frère Maim menaient les Black Tooth Grin sous Orgrim Doomhammer, le meurtrier de leur père, tout en cherchant à la fois la vengeance et la position que Blackhand avait perdue." },
+        { "Rend revendique aujourd'hui le titre de chef de guerre depuis le pic Rochenoire, au service de Nefarian, à la tête des orcs du dragon. Thrall rejette cette prétention et envoie des champions le tuer, le savoir d'Eitrigg sur les Blackrock aidant à guider la riposte. Vous entendrez ici deux prétentions sur la Horde, mais un seul de ces chefs répond à un dragon noir." },
       },
     },
     ["revantusk-village"] = {
@@ -3111,6 +3190,14 @@ ns.translate({
         { "Uther le Porteur de lumière fut le premier des paladins, oint par l'archevêque Faol, le commandant des chevaliers de la Main d'argent, le maître du prince Arthas, et le plus grand champion que la Lumière ait eu parmi les hommes. Il refusa de prendre part à la purge de Stratholme, et Arthas le renvoya pour cela. Quand Arthas revint du Norfendre avec son épée maudite, Uther se dressa contre lui, gardant l'urne qui contenait les cendres du roi Terenas, et dit à son ancien élève qu'il espérait qu'une place bien particulière l'attendait en enfer. Arthas le tua." },
         { "Son tombeau se dresse sur la colline des Chagrins, au-dessus du lac Darrowmere, une salle de pierre blanche abritant sa statue, au milieu du pays mort. Il y règne un calme qu'on ne trouve nulle part ailleurs dans les Maleterres, et ceux qui croient encore en la Lumière viennent y rendre hommage." },
         { side = "Horde", aside = true, sign = "P. F.", "Terenas était mon roi, et Uther est mort en gardant ses cendres. J'aimerais voir ce tombeau." },
+      },
+    },
+    ["vaelastrasz"] = {
+      title = "Vaelastrasz",
+      text = {
+        { "Vaelastrasz est un dragon rouge du vol de la reine des dragons, et il y a mille ans, on lui confia un éclat du sceptre qui scella Ahn'Qiraj. Au pic Rochenoire, il apparaît aux mortels sous le nom de Vaelan, sous une forme, comme il dit, qu'ils peuvent supporter de regarder, et il aide les audacieux à forger le Sceau d'ascension qui leur ouvre la citadelle supérieure." },
+        { "La forge demande des gemmes prises à trois des généraux du pic et le souffle d'un drake noir dont la volonté a été brisée. Le vol rouge n'a jamais rechigné à emprunter le feu de son ennemi." },
+        { "Nefarian finit par le capturer. Dans le repaire de l'Aile noire, il attend, perverti par la corruption du dragon noir, et supplie ceux qui l'atteignent de reprendre l'éclat du sceptre avant qu'il ne soit détruit. « Trop tard, mes amis », dit-il, et il se retourne contre eux. Ceux qui l'abattent apprennent ensuite que son âme est en paix. Je l'espère." },
       },
     },
     ["valanaar"] = {
