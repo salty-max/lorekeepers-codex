@@ -357,9 +357,19 @@
    "retail": "Syndicat",
    "use": "Syndicat"
   },
+  "The Defilers": {
+   "classic": "Les Profanateurs",
+   "forever": "Les Profanateurs",
+   "retail": "Profanateurs",
+   "use": "Les Profanateurs"
+  },
   "The Earthen Ring": {
    "retail": "Cercle terrestre",
    "use": "Cercle terrestre"
+  },
+  "The General": {
+   "retail": "Le général",
+   "use": "Le général"
   },
   "The League of Arathor": {
    "classic": "La Ligue d'Arathor",
@@ -370,6 +380,14 @@
   "The Sons of Lothar": {
    "retail": "Fils de Lothar",
    "use": "Fils de Lothar"
+  },
+  "The Watchers": {
+   "forever": "Les Guetteurs",
+   "use": "Les Guetteurs"
+  },
+  "The Weaver": {
+   "retail": "La Tisserande",
+   "use": "La Tisserande"
   },
   "Theramore": {
    "classic": "Theramore",
@@ -4696,10 +4714,26 @@
    "retail": "Viaduc de Thandol",
    "use": "Viaduc de Thandol"
   },
+  "The Athenaeum": {
+   "retail": "L'Athenaeum",
+   "use": "L'Athenaeum"
+  },
   "The Barrens": {
    "classic": "Les Tarides",
    "forever": "Les Tarides",
    "use": "Les Tarides"
+  },
+  "The Basin": {
+   "retail": "Le Bassin",
+   "use": "Le Bassin"
+  },
+  "The Beyond": {
+   "retail": "L'Au-delà",
+   "use": "L'Au-delà"
+  },
+  "The Blightcaller": {
+   "retail": "Le Flétrisseur",
+   "use": "Le Flétrisseur"
   },
   "The Bulwark": {
    "classic": "La Barricade",
@@ -4719,11 +4753,35 @@
    "retail": "Le val Calciné",
    "use": "Le Val calciné"
   },
+  "The Cleft": {
+   "classic": "La Faille",
+   "forever": "La Faille",
+   "retail": "La Faille",
+   "use": "La Faille"
+  },
+  "The Coil": {
+   "classic": "L'Anneau",
+   "forever": "L'Anneau",
+   "retail": "L'Anneau",
+   "use": "L'Anneau"
+  },
+  "The Crimson Veil": {
+   "classic": "Le Voile cramoisi",
+   "forever": "Le Voile cramoisi",
+   "retail": "La Voile cramoisie",
+   "use": "Le Voile cramoisi"
+  },
   "The Crossroads": {
    "classic": "La Croisée",
    "forever": "La Croisée",
    "retail": "La Croisée",
    "use": "La Croisée"
+  },
+  "The Dagger Hills": {
+   "classic": "Les collines de la Dague",
+   "forever": "Les collines de la Dague",
+   "retail": "Les collines de la Dague",
+   "use": "Les collines de la Dague"
   },
   "The Dark Portal": {
    "classic": "La Porte des ténèbres",
@@ -4741,6 +4799,10 @@
    "retail": "Le Rêve d'émeraude",
    "use": "Le Rêve d'émeraude"
   },
+  "The Eternity": {
+   "retail": "L'Éternité",
+   "use": "L'Éternité"
+  },
   "The Farstrider Lodge": {
    "classic": "Le pavillon des Pérégrins",
    "forever": "Le pavillon des Pérégrins",
@@ -4752,6 +4814,26 @@
    "forever": "Les Bassins oubliés",
    "retail": "Les bassins Oubliés",
    "use": "Les Bassins oubliés"
+  },
+  "The Frozen Throne": {
+   "retail": "Le Trône de glace",
+   "use": "Le Trône de glace"
+  },
+  "The Gaping Chasm": {
+   "classic": "Le Gouffre béant",
+   "forever": "Le Gouffre béant",
+   "retail": "Le gouffre Béant",
+   "use": "Le Gouffre béant"
+  },
+  "The Great Forge": {
+   "retail": "La Grande forge",
+   "use": "La Grande forge"
+  },
+  "The Great Lift": {
+   "classic": "La Grande élévation",
+   "forever": "La Grande élévation",
+   "retail": "La Grande élévation",
+   "use": "La Grande élévation"
   },
   "The Greymane Wall": {
    "classic": "Le mur de Greymane",
@@ -4769,11 +4851,21 @@
    "forever": "La salle des Thanes",
    "use": "La salle des Thanes"
   },
+  "The Harborage": {
+   "classic": "Le Havre boueux",
+   "forever": "Le Havre boueux",
+   "retail": "Le havre Boueux",
+   "use": "Le Havre boueux"
+  },
   "The Hinterlands": {
    "classic": "Les Hinterlands",
    "forever": "Les Hinterlands",
    "retail": "Les Hinterlands",
    "use": "Les Hinterlands"
+  },
+  "The Intrepid": {
+   "retail": "L'Intrépide",
+   "use": "L'Intrépide"
   },
   "The Loch": {
    "classic": "Le Loch",
@@ -4793,11 +4885,21 @@
    "retail": "Vignes des Maclure",
    "use": "Les Vignes des Maclure"
   },
+  "The Maelstrom": {
+   "retail": "Le Maelström",
+   "use": "Le Maelström"
+  },
   "The Maker's Terrace": {
    "classic": "La Terrasse des faiseurs",
    "forever": "La Terrasse des faiseurs",
    "retail": "La terrasse du Faiseur",
    "use": "La Terrasse des faiseurs"
+  },
+  "The Marris Stead": {
+   "classic": "La ferme des Marris",
+   "forever": "La ferme des Marris",
+   "retail": "La ferme des Marris",
+   "use": "La ferme des Marris"
   },
   "The Master's Cellar": {
    "classic": "La cave du maître",
@@ -4811,11 +4913,48 @@
    "retail": "Le Glaive du Maître",
    "use": "Le Glaive du Maître"
   },
+  "The Maul": {
+   "classic": "L'Etripoir",
+   "forever": "L'Etripoir",
+   "retail": "L'Étripoir",
+   "use": "L'Etripoir"
+  },
+  "The Merchant Coast": {
+   "classic": "La Côte des marchands",
+   "forever": "La Côte des marchands",
+   "retail": "Côte des Marchands",
+   "use": "La Côte des marchands"
+  },
+  "The Military Ward": {
+   "retail": "La Garde militaire",
+   "use": "La Garde militaire"
+  },
   "The Mor'shan Rampart": {
    "classic": "Le Rempart de Mor'shan",
    "forever": "Le Rempart de Mor'shan",
    "retail": "Le Rempart de Mor'shan",
    "use": "Le Rempart de Mor'shan"
+  },
+  "The Mystic Ward": {
+   "retail": "La Garde mystique",
+   "use": "La Garde mystique"
+  },
+  "The Oasis": {
+   "retail": "L'Oasis",
+   "use": "L'Oasis"
+  },
+  "The Overlook": {
+   "forever": "Le Surplomb",
+   "retail": "Le Surplomb",
+   "use": "Le Surplomb"
+  },
+  "The Retreat": {
+   "retail": "La Retraite",
+   "use": "La Retraite"
+  },
+  "The Ring": {
+   "retail": "L'Anneau",
+   "use": "L'Anneau"
   },
   "The Royal Apothecary": {
    "retail": "L'apothicaire royal",
@@ -4832,6 +4971,12 @@
    "forever": "Site de fouilles de Rustmaul",
    "retail": "Site de fouilles de Cognerouille",
    "use": "Site de fouilles de Rustmaul"
+  },
+  "The Savage Coast": {
+   "classic": "La Côte sauvage",
+   "forever": "La Côte sauvage",
+   "retail": "La côte Sauvage",
+   "use": "La Côte sauvage"
   },
   "The Scarab Dais": {
    "classic": "L'Estrade du scarabée",
@@ -4875,6 +5020,12 @@
    "retail": "La fosse aux Scories",
    "use": "La Fosse aux scories"
   },
+  "The Sludge Fen": {
+   "classic": "La Videfange",
+   "forever": "La Videfange",
+   "retail": "La Videfange",
+   "use": "La Videfange"
+  },
   "The Spire": {
    "retail": "La Flèche",
    "use": "La Flèche"
@@ -4897,9 +5048,17 @@
    "retail": "Ferme des Champierreux",
    "use": "La ferme des Stonefield"
   },
+  "The Stonevault": {
+   "retail": "La Cavepierre",
+   "use": "La Cavepierre"
+  },
   "The Sundering": {
    "retail": "La Fracture",
    "use": "La Fracture"
+  },
+  "The Sunwell": {
+   "retail": "Le Puits de soleil",
+   "use": "Le Puits de soleil"
   },
   "The Tainted Scar": {
    "classic": "La Balafre impure",
@@ -4919,6 +5078,18 @@
    "retail": "Le temple d'Atal'Hakkar",
    "use": "Le temple d'Atal'Hakkar"
   },
+  "The Tomb of Sargeras": {
+   "retail": "Tombe de Sargeras",
+   "use": "Tombe de Sargeras"
+  },
+  "The Twisting Nether": {
+   "retail": "Néant distordu",
+   "use": "Néant distordu"
+  },
+  "The Windrunner": {
+   "retail": "Le Coursevent",
+   "use": "Le Coursevent"
+  },
   "The World Tree": {
    "classic": "L'Arbre-monde",
    "forever": "L'Arbre-monde",
@@ -4930,6 +5101,12 @@
    "forever": "Le Repaire putride",
    "retail": "Le repaire Putride",
    "use": "Le Repaire putride"
+  },
+  "The Zoram Strand": {
+   "classic": "La grève de Zoram",
+   "forever": "La grève de Zoram",
+   "retail": "La grève de Zoram",
+   "use": "La grève de Zoram"
   },
   "Thelsamar": {
    "classic": "Thelsamar",

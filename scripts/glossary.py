@@ -81,7 +81,9 @@ def main():
         loc = {g: table(g, name, locale) for g in PRODUCTS}
         for g in PRODUCTS:
             for id, english in en[g].items():
-                if len(english) < 4 or not re.search(rf"(?<![\w']){re.escape(english)}(?![\w'])", prose):
+                # (prose often drops a name's "The": "the Sludge Fen")
+                bare_en = english[4:] if english.startswith("The ") else english
+                if len(bare_en) < 4 or not re.search(rf"(?<![\w']){re.escape(bare_en)}(?![\w'])", prose):
                     continue
                 entry = out[kind].setdefault(english, {})
                 if loc[g].get(id) and g not in entry:
