@@ -1122,6 +1122,13 @@ ns.translate({
         { "La Horde a rebâti le camp en forteresse et lui a donné un nom en sa mémoire. Certains des orcs qui vivent derrière sa palissade furent autrefois prisonniers sur cette terre même." },
       },
     },
+    ["hammertoes-digsite"] = {
+      title = "Le site de fouilles d'Hammertoe",
+      text = {
+        { "Le site de fouilles d'Hammertoe est le camp de la Ligue des explorateurs aux portes d'Uldaman, nommé d'après le prospecteur qui le dirigeait, et il a connu des jours difficiles. Les troggs sont remontés de la chambre forte et ont submergé les fouilleurs. Le prospecteur Agmond, qui menait les sites du sud, ne donnait plus de nouvelles, et quand quelqu'un est allé voir, on a trouvé son camp, et ce qui restait de lui. Hammertoe lui-même a été enlevé par les Sombrefer du clan Ombreforge, qui veulent savoir ce qu'il sait des ouvrages des titans." },
+        { "Le prospecteur Ryedol tient ce qui reste du chantier, et il ne renonce pas facilement. Hammertoe non plus, je l'espère. Les Ombreforge cherchent dans Uldaman les secrets des golems des titans, et Hammertoe les cherchait avant eux, pour les tenir hors des mains des Sombrefer." },
+      },
+    },
     ["hamuul-runetotem"] = {
       title = "Archidruide Hamuul Runetotem",
       text = {
@@ -1238,6 +1245,13 @@ ns.translate({
         { "Jaina Proudmoore était une jeune sorcière de Dalaran, la fille de l'amiral de Kul Tiras, et une amie du prince Arthas en des jours plus heureux. Quand la peste arriva, elle chevaucha à ses côtés, jusqu'à Stratholme, où elle refusa de le suivre. Puis un prophète l'envoya vers l'ouest, par-delà la mer, et elle mena ce qui restait du peuple de Lordaeron jusqu'en Kalimdor." },
         { "Là, elle fit ce que personne dans l'Alliance ne croyait possible : elle combattit aux côtés de Thrall et des elfes de la nuit contre la Légion ardente au mont Hyjal, puis fit la paix avec la Horde. Quand son père, l'amiral Daelin Proudmoore, vint avec sa flotte pour achever la vieille guerre, elle ne se mit pas en travers du chemin de la Horde, et il en mourut. Elle porte ce poids depuis." },
         { "Garder la paix n'a pas été facile. Quelques années après Hyjal, des raids et des navires coulés faillirent de nouveau dresser Theramore et Durotar l'une contre l'autre, jusqu'à ce que Jaina, travaillant discrètement avec Thrall, découvre la Lame ardente derrière tout cela, et son propre chambellan à sa solde. Cette enquête la mena dans un coin protégé de Durotar où elle rencontra la dernière personne qu'elle s'attendait à trouver vivante : Aegwynn, la Gardienne, la mère de Medivh, qui vivait seule. Jaina gouverne toujours Theramore et maintient la paix avec Thrall, et je crois que c'est la personne la plus courageuse de ce registre." },
+      },
+    },
+    ["kargath"] = {
+      title = "Kargath",
+      text = {
+        { "Kargath est la forteresse de la Horde au nord-ouest des Terres ingrates, une palissade sur une falaise nommée d'après Kargath Bladefist, le chef manchot du clan de la Main brisée pendant la Deuxième Guerre. C'est le camp du corps expéditionnaire de Kargath, et son affaire, c'est la guerre contre les nains Sombrefer du mont Rochenoire, à l'ouest." },
+        { "Les orcs ont leurs raisons. Les Sombrefer du général Forgehargne ont massacré une division entière du corps expéditionnaire, la cent neuvième, et le seigneur de guerre de Kargath a affiché un ordre permanent : tuer à vue. Sur ce seul point, un nain de Forgefer et un orc de Kargath sont d'accord." },
       },
     },
     ["katrana-prestor"] = {
@@ -1577,6 +1591,14 @@ ns.translate({
       text = {
         { "Quand les soldats de Hurlevent ne vinrent pas, les gens de la Marche de l'Ouest levèrent les leurs. La Milice du peuple, ce sont quelques soldats, beaucoup de fermiers, et un paladin pour les mener : Gryan Stoutmantle, qui refusait de voir la Marche de l'Ouest abandonnée à la Confrérie." },
         { "Depuis la colline des sentinelles, ils patrouillent les routes qu'ils peuvent, chassent les gnolls et les Défias, et envoient leurs éclaireurs dans les collines de la Dague et les ruines de Ruisselune. Stoutmantle a ses propres amis dans les bas-fonds, et c'est par l'un d'eux, un voleur de Comté-du-Lac, qu'il apprit qui dirige la Confrérie et où elle se cache." },
+      },
+    },
+    ["platinum-discs"] = {
+      title = "Les disques de platine",
+      text = {
+        { "Au fond d'Uldaman, au-delà du gardien de pierre Archaedas, quatre disques de platine conservent un récit prononcé par un gardien de pierre. Il appelle les Titans les Créateurs. Ils firent les terrestres de la pierre d'Azeroth pour façonner ses profondeurs : des ouvriers forts, infatigables et difficiles à blesser." },
+        { "Le gardien dit que leur fabrication se dégrada sous la contrainte. Un résultat garda leur force mais perdit leur raison : les troggs, jugés ratés et scellés sous la terre. Un autre garda force et esprit mais perdit la pierre. Ce furent les nains." },
+        { "Vous comprenez pourquoi la Ligue tient à ce document, $gvoyageur:voyageuse;. Il nous donne, à nous les nains, un commencement à étudier, et fait des créatures qui troublent les chantiers de la Ligue une part de la même question que nos propres ancêtres." },
       },
     },
     ["priests"] = {
@@ -2100,6 +2122,13 @@ ns.translate({
         { "Fairbanks s'échappa de Stratholme après deux jours parmi les morts et raconta l'histoire à quiconque voulait l'entendre au Monastère. On l'assassina pour cela et on le cacha dans sa cathédrale. Mais certains l'avaient entendu, dit-il, et c'est ainsi que naquit l'Aube d'argent. Renault dirige aujourd'hui le Monastère, en tant que commandant écarlate." },
       },
     },
+    ["the-badlands"] = {
+      title = "Les Terres ingrates",
+      text = {
+        { "Au sud du Loch Modan, la terre s'ouvre en Terres ingrates : roche rouge, canyons secs, mesas et poussière, sans guère un arbre ni un ruisseau. Les busards tournoient, les coyotes se faufilent, les ogres du clan Crache-poussières tiennent les collines, et des dragons noirs nichent dans le ravin de Lethlor, à l'est." },
+        { "Les nains y viennent pourtant, car sous les Terres ingrates se trouve Uldaman, la chambre forte des titans, et la Ligue des explorateurs creuse à sa porte depuis des années. Les Sombrefer aussi, depuis leur forteresse d'Angor, et les troggs, qui en sont sortis. La Horde y a aussi un camp, à Kargath, pour surveiller les Sombrefer. C'est un désert très fréquenté." },
+      },
+    },
     ["the-barrens"] = {
       title = "Les Tarides",
       text = {
@@ -2314,6 +2343,13 @@ ns.translate({
         { "Tyrande Whisperwind guide les elfes de la nuit en tant que grande prêtresse d'Elune. Il y a dix mille ans, c'était une jeune prêtresse qui combattait la Légion aux côtés de Malfurion et d'Illidan Stormrage. Elle aimait Malfurion ; l'amour qu'Illidan lui portait resta sans réponse. Ce fut elle qui persuada les autres que Malfurion avait raison et que le Puits devait être détruit, et avant la fin, les satyres d'Azshara la firent prisonnière. En chemin, elle recueillit une jeune archère orpheline, Shandris Feathermoon, qui commande aujourd'hui les Sentinelles en tant que générale." },
         { "Pendant que les druides dormaient dans le Rêve d'émeraude, ses prêtresses et ses Sentinelles gardèrent les forêts au fil des longs âges. Pendant la Troisième Guerre, elle rallia les elfes de la nuit, réveilla Malfurion et se tint à Hyjal quand Archimonde tomba." },
         { "Malfurion a désormais disparu, et les druides ignorent son sort. Tyrande gouverne depuis le temple de la Lune de Darnassus, tandis que Fandral Staghelm est à la tête des druides. Recevez son accueil avec respect, $gvoyageur:voyageuse;. La prêtresse qui salue les visiteurs a mené son peuple à travers des guerres bien plus anciennes que nos royaumes." },
+      },
+    },
+    ["uldaman"] = {
+      title = "Uldaman",
+      text = {
+        { "Uldaman s'étend sous les Terres ingrates, une chambre forte des Titans faite de salles sculptées et de grands gardiens de pierre. Les fouilles de la Ligue y ont ouvert un passage. Les troggs s'en sont déversés, donnant aux fouilleurs de la Ligue une réponse malvenue à une question longtemps posée sur ces créatures." },
+        { "Les troggs occupent désormais les salles extérieures, et les Sombrefer Ombreforge cherchent les secrets de l'intérieur. La Ligue se bat contre les deux. Au-delà d'Archaedas, le dernier gardien de la chambre forte, se trouvent les disques de Norgannon et leur récit de l'œuvre des Titans. La Ligue a de bonnes raisons de continuer à creuser, même après avoir appris ce que ses fouilles peuvent libérer d'autre." },
       },
     },
     ["undercity"] = {
