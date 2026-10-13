@@ -15,6 +15,6 @@ also: [mogrosh-ogres]
 ---
 The ogres came to this world with the Horde, from the same red land as the orcs, and fought in the Second War as its heavy fists. The warlock Gul'dan improved on them, after his fashion: he used the Altar of Storms to grant ogres the powers of the ogre magi, and their kind still rule many of the clans.
 
-After the Horde was broken, ogre clans established themselves in the wild places, and have stayed there: the Mo'grosh in Loch Modan, the Splinter Fist in Duskwood, the Crushridge in Alterac, the Boulderfist in Arathi, the Dustbelcher in the Badlands, the Mosh'Ogg in Stranglethorn and the Dreadmaul at the Dark Portal; across the sea the Gordunni in Feralas and the Dunemaul in Tanaris. The Gordok have made themselves at home in the ruins of an elven city in Feralas, and crown whoever kills their king.
+After the Horde was broken, ogre clans established themselves in the wild places, and have stayed there: the Mo'grosh in Loch Modan, the Splinter Fist in Duskwood, the Crushridge in Alterac, the Boulderfist in Arathi, the Dustbelcher in the Badlands, the Mosh'Ogg in Stranglethorn and the Dreadmaul at the Dark Portal. Across the sea are the Gordunni in Feralas and the Dunemaul in Tanaris. The Gordok have made themselves at home in the ruins of an elven city in Feralas, and crown whoever kills their king.
 
 Not every clan has forgotten the old alliance. The Stonemaul of Dustwallow Marsh fight beside the Horde at Brackenwall, and the orcs speak well of them. The rest would rather eat you than talk.

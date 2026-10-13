@@ -1,9 +1,9 @@
 ---
 id: tyrande-whisperwind
-source: faf2559659d1
+source: 4c0f1535caee
 title: Tyrande Whisperwind
 ---
-Tyrande Whisperwind guide les elfes de la nuit en tant que grande prêtresse d'Elune. Il y a dix mille ans, c'était une jeune prêtresse qui combattait la Légion aux côtés de Malfurion et d'Illidan Stormrage. Elle aimait Malfurion ; l'amour qu'Illidan lui portait resta sans réponse. Ce fut elle qui persuada les autres que Malfurion avait raison et que le Puits devait être détruit, et avant la fin, les satyres d'Azshara la firent prisonnière. En chemin, elle recueillit une jeune archère orpheline, Shandris Feathermoon, qui commande aujourd'hui les Sentinelles en tant que générale.
+Tyrande Whisperwind guide les elfes de la nuit en tant que grande prêtresse d'Elune. Il y a dix mille ans, c'était une jeune prêtresse qui combattait la Légion aux côtés de Malfurion et d'Illidan Stormrage. Elle aimait Malfurion. L'amour qu'Illidan lui portait resta sans réponse. Ce fut elle qui persuada les autres que Malfurion avait raison et que le Puits devait être détruit, et avant la fin, les satyres d'Azshara la firent prisonnière. En chemin, elle recueillit une jeune archère orpheline, Shandris Feathermoon, qui commande aujourd'hui les Sentinelles en tant que générale.
 
 Pendant que les druides dormaient dans le Rêve d'émeraude, ses prêtresses et ses Sentinelles gardèrent les forêts au fil des longs âges. Pendant la Troisième Guerre, elle rallia les elfes de la nuit, réveilla Malfurion et se tint à Hyjal quand Archimonde tomba.
 

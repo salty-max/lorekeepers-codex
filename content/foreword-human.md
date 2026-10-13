@@ -5,7 +5,7 @@ kind: note
 race: Human
 unlock: always
 ---
-Traveller, I am glad to send this ledger to a reader of Stormwind. Your people and mine have stood together since the Second War; our accounts of the battles since have seldom lacked names from both.
+Traveller, I am glad to send this ledger to a reader of Stormwind. Your people and mine have stood together since the Second War. Our accounts of the battles since have seldom lacked names from both.
 
 Stormwind was destroyed and rebuilt. Its new stonework is a great achievement, and the unpaid masons who raised it are part of its history too. You will find that account here beside the stories your kingdom has more reason to celebrate.
 

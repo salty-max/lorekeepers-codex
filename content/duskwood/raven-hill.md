@@ -9,4 +9,4 @@ also: [the-embalmer, morladim, darkshire, scourge]
 ---
 Raven Hill's village stands empty beside a cemetery that has spread across the hillside. Skeletons walk its rows, ghouls dig among the graves, and the Night Watch cannot keep the dead at rest. The graveyard has become more dangerous than the abandoned houses around it.
 
-Morbent Fel, a necromancer, lives in a house above the cemetery. A woodsman whose family he killed wants him dead. Nearby, an old hermit occupies a shack overlooking the graves; he once came into Darkshire for supplies, but has not been seen there for some time.
+Morbent Fel, a necromancer, lives in a house above the cemetery. A woodsman whose family he killed wants him dead. Nearby, an old hermit occupies a shack overlooking the graves. He once came into Darkshire for supplies, but has not been seen there for some time.

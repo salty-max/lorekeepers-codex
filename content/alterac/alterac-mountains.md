@@ -12,4 +12,4 @@ Snow covers much of Alterac, but it has done little to conceal the kingdom's fal
 
 [forever] Beside Lordamere Lake, Dalaran's rebuilding has run into another calamity. Disrupted ley lines have turned the city's constructs against its inhabitants, and Archmage Modera is seeking the outside help the council would prefer not to need.
 
-Farther into the mountains, the Frostwolves and Stormpike fight over Alterac Valley. The kingdom has vanished, traveller; the arguments over who may live in its hills have outlasted it.
+Farther into the mountains, the Frostwolves and Stormpike fight over Alterac Valley. The kingdom has vanished, traveller. The arguments over who may live in its hills have outlasted it.

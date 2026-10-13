@@ -161,7 +161,7 @@ function showText(id, pageNumber)
   local body = t.pages[currentPage]
   page:text({
     body and plain(body)
-      or "|cff9e9178" .. L["This page did not reach the codex; open the text again in the world to copy it."] .. "|r",
+      or "|cff9e9178" .. L["This page did not reach the codex. Open the text again in the world to copy it."] .. "|r",
   })
   if (last or highest) > 1 then
     page.pageLabel:SetText(L["Page %d of %d"]:format(currentPage, last or highest))

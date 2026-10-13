@@ -13,4 +13,4 @@ Franclorn Forgewright was the chief architect of the Dark Iron dwarves and the i
 
 He is dead. His ghost keeps to his tomb in Blackrock Mountain, seen only by those who are dead themselves, and his successor as architect, Fineous Darkvire, has taken his great hammer, Ironfel. Franclorn wants it put back in the hands of the statue the Dark Irons raised to him at the Shrine of Thaurissan. In return he gives up the key to the depths of what he calls his accursed city.
 
-He built it all the same. A dwarf can disown a city and still be proud of its stonework, traveller; I have met several.
+He built it all the same. A dwarf can disown a city and still be proud of its stonework, traveller. I have met several.

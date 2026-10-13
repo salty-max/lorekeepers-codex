@@ -219,7 +219,7 @@ SlashCmdList.LOREKEEPERSCODEX = function(msg)
   else
     print(
       PREFIX
-        .. L["/codex opens the book; /codex achievements; /codex settings; /codex banner shows or hides the alerts; /codex minimap shows or hides the button; /codex welcome shows the welcome page again; /codex export gives this character's settings as a code, /codex import CODE takes them; /codex reset starts this character's codex over."]
+        .. L["/codex opens the book, /codex achievements its achievements and /codex settings its settings. /codex banner shows or hides the alerts, /codex minimap the button. /codex welcome shows the welcome page again. /codex export gives this character's settings as a code, and /codex import CODE takes them. /codex reset starts this character's codex over."]
     )
   end
 end

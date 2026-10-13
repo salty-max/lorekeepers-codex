@@ -13,4 +13,4 @@ In the south-east of Stonetalon there is a ravine with a deep cave, and the kobo
 
 The earthen, if the discs of Uldaman are to be believed, were made by the titans to shape the world, and they are the forefathers of my own people. I would have given a great deal to speak with one. The shamans of Sun Rock judged him a threat to the land, woke him weakened, and destroyed him before he could find his strength, and the kobolds went back to their digging.
 
-I do not say they were wrong; I was not there. But I would very much like to know what an earthen was doing asleep in a cask under Stonetalon, and who put him there.
+I do not say they were wrong. I was not there. But I would very much like to know what an earthen was doing asleep in a cask under Stonetalon, and who put him there.

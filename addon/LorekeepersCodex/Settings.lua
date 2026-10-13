@@ -120,12 +120,12 @@ function ns.createSettingsPanel()
   checkbox(
     "banner",
     L["Alert for new pages"],
-    L["Show each new page in the game's own alert; a click on it reads the page."]
+    L["Show each new page in the game's own alert. A click on it reads the page."]
   )
   checkbox(
     "achievementToast",
     L["Alert for achievements"],
-    L["Show each achievement earned in the game's achievement alert; a click on it opens the achievements."]
+    L["Show each achievement earned in the game's achievement alert. A click on it opens the achievements."]
   )
   local seconds = Settings.RegisterProxySetting(
     category,

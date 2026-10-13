@@ -10,7 +10,7 @@ unlock:
   - kill: 9862, 9877, 10201, 10261, 10263, 10373, 11697, 11859, 12396, 12397, 14101, 14483, 14506, 14668
 also: [satyrs, burning-blade]
 ---
-The Burning Legion is an army of demons, gathered from a thousand conquered worlds by the fallen titan Sargeras, and it has come for ours three times: once ten thousand years ago, through the night elves' Well of Eternity; once through the orcs, whom its servants corrupted and sent through the Dark Portal; and once in the last war, when its general Archimonde fell at the foot of the World Tree on Mount Hyjal.
+The Burning Legion is an army of demons, gathered from a thousand conquered worlds by the fallen titan Sargeras, and it has come for ours three times. The first time was ten thousand years ago, through the night elves' Well of Eternity. The second came through the orcs, whom its servants corrupted and sent through the Dark Portal. The third was the last war, when its general Archimonde fell at the foot of the World Tree on Mount Hyjal.
 
 It has never entirely left. Lord Kazzak holds the Blasted Lands with a host of demons around the dormant Dark Portal. The Shadow Council's warlocks keep demons in Jaedenar, in Felwood, where the whole forest has rotted around them. Doomguard and infernals walk Ashenvale's Demon Fall Canyon, where Grom Hellscream killed Mannoroth, and Desolace's Mannoroc Coven, and the ruins of Azshara.
 

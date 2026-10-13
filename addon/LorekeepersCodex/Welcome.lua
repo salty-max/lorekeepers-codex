@@ -36,13 +36,13 @@ local W = K.welcome({
     return {
       {
         text = L["An alert for each new page"],
-        hint = L["The game's own alert, with the page's picture; a click on it reads the page."],
+        hint = L["The game's own alert, with the page's picture. A click on it reads the page."],
         get = function() return ns.option("banner") end,
         set = function(v) ns.setOption("banner", v) end,
       },
       {
         text = L["An alert for each achievement"],
-        hint = L["The game's achievement alert; a click on it opens the achievements."],
+        hint = L["The game's achievement alert. A click on it opens the achievements."],
         get = function() return ns.option("achievementToast") end,
         set = function(v) ns.setOption("achievementToast", v) end,
       },
@@ -64,7 +64,7 @@ local W = K.welcome({
       },
       {
         text = L["The book by the minimap"],
-        hint = L["Click it to open the codex; drag it around the minimap."],
+        hint = L["Click it to open the codex, or drag it around the minimap."],
         get = function() return not ns.option("minimapHidden") end,
         set = function(v) ns.setOption("minimapHidden", not v) end,
       },

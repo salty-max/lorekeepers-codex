@@ -9,7 +9,7 @@ unlock:
   - area: Frostsaber Rock
 also: [winterspring, night-elves, sentinels]
 ---
-High on Frostsaber Rock in northern Winterspring, a handful of night elves raise the white sabers of the north. Their leader, Rivern Frostwind, keeps to himself; his presence goes unnoticed by most, he says, which suits him.
+High on Frostsaber Rock in northern Winterspring, a handful of night elves raise the white sabers of the north. Their leader, Rivern Frostwind, keeps to himself. His presence goes unnoticed by most, he says, which suits him.
 
 The cats are not easily earned. Rivern begins anyone who wants one by sending them for meat, from the chimaera and the shardtooth bears, to feed the young sabers in training, and then for help against the Winterfall furbolgs who trouble the rock. It is a long apprenticeship, and few finish it.
 

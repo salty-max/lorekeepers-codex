@@ -14,4 +14,4 @@ The Agamands were the richest family in Tirisfal, and these mills were theirs. W
 
 None of it held. The family and their workers died together and rose together, and the Agamands still walk the mills for the Lich King: Gregor, the father, Nissa, his wife, and their sons. Their crypt lies at the north end of the property, among the Scourge.
 
-Some of their workers broke free and are Forsaken now. Coleman Farthing, who worked their mills, sends travellers back to destroy what is left of the family and rob their crypt of its heirlooms. Revenge, he says, has a sweet taste; he hopes they knew fear before the end. It is a foolish hope, he admits. He keeps it anyway.
+Some of their workers broke free and are Forsaken now. Coleman Farthing, who worked their mills, sends travellers back to destroy what is left of the family and rob their crypt of its heirlooms. Revenge, he says, has a sweet taste. He hopes they knew fear before the end. It is a foolish hope, he admits. He keeps it anyway.

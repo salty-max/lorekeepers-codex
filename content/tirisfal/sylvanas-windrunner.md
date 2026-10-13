@@ -11,7 +11,7 @@ Sylvanas Windrunner was the Ranger-General of Silvermoon, the high elves' greate
 
 When the Lich King's power faltered, Sylvanas broke free. She gathered the undead who had woken with her, turned a dreadlord to her service, and took the ruins of Lordaeron's capital for her own. The Forsaken call her the Dark Lady, and they would follow her anywhere.
 
-She came of a family of rangers. Her elder sister, Alleria, went through the Dark Portal with the Alliance Expedition and never came back; it was Sylvanas who wrote the words on her plaque at Stormwind's gate. The youngest, Vereesa, was a ranger of Quel'Thalas too.
+She came of a family of rangers. Her elder sister, Alleria, went through the Dark Portal with the Alliance Expedition and never came back. It was Sylvanas who wrote the words on her plaque at Stormwind's gate. The youngest, Vereesa, was a ranger of Quel'Thalas too.
 
 She wants Arthas dead. Beyond that, she keeps her own counsel, and her eyes give nothing away.
 

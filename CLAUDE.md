@@ -158,6 +158,9 @@ historical claims in other entries.
   point (a handful), else the notes become a formula.
 - Plain ASCII text: straight apostrophes and quotes (the build rejects others;
   some game fonts lack them, and the search matches what players type).
+- No semicolons in prose, English or French (the user's rule, 14 October
+  2026): two sentences, or a comma, or a rewrite for a list. The gender
+  tokens' own `;` stay.
 - The approved voice samples are in `docs/voice-comparison.md`. Prefer concrete
   details and natural flow; keep dry asides sparse, vary openings and endings,
   and do not turn an entry into an audit note or append advice by habit. The

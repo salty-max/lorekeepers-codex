@@ -10,4 +10,4 @@ Anduin Lothar was the last of the Arathi bloodline, the line of Thoradin who fir
 
 He came home too late to save Stormwind, led its people across the sea to Lordaeron and became Supreme Commander of the Alliance. Even the elves of Quel'Thalas came, however reluctantly, because of the debt they owed his ancestors.
 
-He died here. With the Horde penned in Blackrock Spire, Orgrim Doomhammer charged out with his lieutenants and met Lothar's paladins in the middle of these plains; the two fought until both were spent, and Doomhammer killed him. His lieutenant, Turalyon, took up Lothar's bloodstained shield and broke the Horde in the rout that followed. The expedition that later marched through the Dark Portal went as the Sons of Lothar.
+He died here. With the Horde penned in Blackrock Spire, Orgrim Doomhammer charged out with his lieutenants and met Lothar's paladins in the middle of these plains. The two fought until both were spent, and Doomhammer killed him. His lieutenant, Turalyon, took up Lothar's bloodstained shield and broke the Horde in the rout that followed. The expedition that later marched through the Dark Portal went as the Sons of Lothar.

@@ -1,6 +1,6 @@
 ---
 id: ironforge
-source: 39ac451a6aba
+source: b7278fa6ff5c
 title: Forgefer
 ---
 Forgefer n'est pas bâtie sur la montagne : elle est bâtie dedans. Ses salles sont creusées au cœur de la montagne, et en son centre brûle la Grande forge.

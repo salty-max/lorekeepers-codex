@@ -1,9 +1,9 @@
 ---
 id: ancients
-source: 97d9fdc3cec8
+source: e07519b2da0e
 title: Les Anciens
 ---
-Les Anciens sont les plus vieux arbres des forêts des elfes de la nuit, devenus assez sages pour penser et assez forts pour marcher. Pendant la guerre des Anciens, Cénarius les fit se lever des bois enchantés et les mena contre la Légion ardente, une armée d'hommes-arbres marchant sur la cité même de la reine ; pendant la Troisième Guerre, ils marchèrent de nouveau.
+Les Anciens sont les plus vieux arbres des forêts des elfes de la nuit, devenus assez sages pour penser et assez forts pour marcher. Pendant la guerre des Anciens, Cénarius les fit se lever des bois enchantés et les mena contre la Légion ardente, une armée d'hommes-arbres marchant sur la cité même de la reine. Pendant la Troisième Guerre, ils marchèrent de nouveau.
 
 Ils montent toujours la garde. Des anciens protecteurs veillent sur Teldrassil, un Ancien du savoir et un Ancien de la Guerre tiennent leur place à Darnassus, et Onu, un autre Ancien du savoir, parle au nom de la forêt au Bosquet des Anciens, en Sombrivage.
 

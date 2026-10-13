@@ -9,7 +9,7 @@ unlock:
   - area: Grove of the Ancients (Darkshore)
 also: [onu, cenarius, night-elves, darnassus, the-battle-of-mount-hyjal]
 ---
-The ancients are the oldest trees of the night elves' forests, grown wise enough to think and strong enough to walk. In the War of the Ancients, Cenarius called them up from the enchanted woods and led them against the Burning Legion, an army of tree-men marching on the queen's own city; in the Third War they marched again.
+The ancients are the oldest trees of the night elves' forests, grown wise enough to think and strong enough to walk. In the War of the Ancients, Cenarius called them up from the enchanted woods and led them against the Burning Legion, an army of tree-men marching on the queen's own city. In the Third War they marched again.
 
 They still keep watch. Ancient protectors stand guard on Teldrassil, an Ancient of Lore and an Ancient of War keep their place in Darnassus, and Onu, another Ancient of Lore, speaks for the forest at the Grove of the Ancients in Darkshore.
 

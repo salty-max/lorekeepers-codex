@@ -1,9 +1,9 @@
 ---
 id: burning-legion
-source: ab339ba74aab
+source: cdecd2800c3e
 title: La Légion ardente
 ---
-La Légion ardente est une armée de démons, rassemblée sur mille mondes conquis par le titan déchu Sargeras, et elle est venue trois fois pour le nôtre : une fois il y a dix mille ans, par le Puits d'éternité des elfes de la nuit ; une fois par les orcs, que ses serviteurs corrompirent et envoyèrent par la Porte des ténèbres ; et une fois pendant la dernière guerre, quand son général Archimonde tomba au pied de l'Arbre-Monde, sur le mont Hyjal.
+La Légion ardente est une armée de démons, rassemblée sur mille mondes conquis par le titan déchu Sargeras, et elle est venue trois fois pour le nôtre. La première, il y a dix mille ans, ce fut par le Puits d'éternité des elfes de la nuit. La deuxième, ce fut par les orcs, que ses serviteurs corrompirent et envoyèrent par la Porte des ténèbres. La troisième fut la dernière guerre, quand son général Archimonde tomba au pied de l'Arbre-Monde, sur le mont Hyjal.
 
 Elle n'est jamais tout à fait partie. Le seigneur Kazzak tient les Terres foudroyées avec une armée de démons autour de la Porte des ténèbres endormie. Les démonistes du Conseil des ombres gardent des démons à Jaedenar, en Gangrebois, où toute la forêt a pourri autour d'eux. Gardes funestes et infernaux arpentent le canyon de la Malechute en Ashenvale, où Grom Hellscream tua Mannoroth, le convent de Mannoroc en Désolace, et les ruines d'Azshara.
 

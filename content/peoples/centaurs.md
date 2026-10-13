@@ -12,7 +12,7 @@ unlock:
   - read: Hatred of the Centaur
 also: [cairne-bloodhoof]
 ---
-The centaurs descend from Zaetar, a son of Cenarius, and Theradras, a princess of elemental earth. They killed their father; their mother buried him in Maraudon. His children still guard the tomb as sacred ground.
+The centaurs descend from Zaetar, a son of Cenarius, and Theradras, a princess of elemental earth. They killed their father. Their mother buried him in Maraudon. His children still guard the tomb as sacred ground.
 
 Their clans include the Kolkar of the Barrens and Desolace, the rival Gelkis and Magram, the Galak of Thousand Needles and the Maraudine at the tomb. For generations they pursued the tauren across Kalimdor's plains, until Cairne and his orc allies drove them back.
 

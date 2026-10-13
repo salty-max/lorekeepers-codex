@@ -5,7 +5,7 @@ kind: note
 race: NightElf
 unlock: always
 ---
-Traveller, this ledger was bound for one of the kaldorei, and I confess that it is an odd thing to offer a history to a people who remember ten thousand years. Forgive a dwarf her presumption. We count our ages in stone; you count yours in the lives of trees.
+Traveller, this ledger was bound for one of the kaldorei, and I confess that it is an odd thing to offer a history to a people who remember ten thousand years. Forgive a dwarf her presumption. We count our ages in stone. You count yours in the lives of trees.
 
 For most of those years your people kept to their forests and let no one in. Now you have planted a new World Tree off the coast of Darkshore and opened your gates to the Alliance, and the League has followed its curiosity into your ruins, as it always does. Where we have guessed wrong, I would be grateful to be told.
 

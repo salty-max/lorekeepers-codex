@@ -12,4 +12,4 @@ The Shards of Myzrael offer a voice from beneath the Arathi Highlands. An impris
 
 Theldurin the Lost gives a different account. He fears what she will do once she regains her strength, and asks why the giants chained her if she is so easily controlled. His answer is to summon and defeat her, then bind her shackles to the shards again.
 
-Afterward, a cry rises from far below the ground. The crystals remain, but their old reassurance is gone; what pulses through them now feels like hatred for the world above. The voice that asked so gently for help has become the most troubling thing about the quiet hillside.
+Afterward, a cry rises from far below the ground. The crystals remain, but their old reassurance is gone. What pulses through them now feels like hatred for the world above. The voice that asked so gently for help has become the most troubling thing about the quiet hillside.
