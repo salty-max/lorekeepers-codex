@@ -379,6 +379,14 @@ ns.translate({
         { "Ils sont lents à parler et plus lents encore à changer d'avis. Un peuple qui a planté sa capitale dans un arbre, je suppose, apprend à écouter les arbres." },
       },
     },
+    ["andorhal"] = {
+      title = "Andorhal",
+      text = {
+        { "Andorhal fournissait du grain au nord de Lordaeron. Le Culte des damnés de Kel'Thuzad contamina ses greniers, et les livraisons portèrent la peste dans les villages au-delà. Une ville prospère devint un moyen de répandre la mort dans le pays qui dépendait d'elle." },
+        { "Arthas tua Kel'Thuzad ici en remontant à la source de la peste. La mort du nécromancien ne mit pas fin à son œuvre. Andorhal reste aux mains du Fléau, ses ruines gouvernées par Araj l'Invocateur. Le camp du Noroît comme la Barricade cherchent à détruire la liche." },
+        { side = "Horde", aside = true, sign = "P. F.", "La peste est venue au nord dans le grain d'Andorhal, pas derrière une armée. C'est la partie de l'histoire que les gens oublient en premier." },
+      },
+    },
     ["anduin-lothar"] = {
       title = "Anduin Lothar",
       text = {
@@ -626,7 +634,14 @@ ns.translate({
       title = "Steppes ardentes",
       text = {
         { "Les Steppes ardentes s'étendent au sud du mont Rochenoire, une vaste plaine de cendres, de lave et de roche noire sous un ciel rouge. Autrefois, tout cela formait l'extrémité nord des Carmines, avant que Thaurissan ne réveille le seigneur du Feu. L'explosion qui suivit emporta les montagnes, les forêts et la propre cité des Sombrefer, et laissa ceci." },
-        { "C'est une terre en guerre. Les orcs Blackrock de la Horde noire tiennent le pic et les cols, le vol draconique noir niche sur les hauteurs, et les ogres tiennent le rocher des Cognepeur. L'Alliance a une prise à la Veille de Morgan, au sud-est, et il y a un petit avant-poste neutre à la Corniche des flammes, sur un rocher au-dessus de la lave, où chacun peut se reposer." },
+        { "C'est une terre en guerre. Les orcs Blackrock de la Horde noire tiennent le pic et les cols, le vol draconique noir niche sur les hauteurs, et les ogres tiennent le rocher des Cognepeurs. L'Alliance a une prise à la Veille de Morgan, au sud-est, et il y a un petit avant-poste neutre à la Corniche des flammes, sur un rocher au-dessus de la lave, où chacun peut se reposer." },
+      },
+    },
+    ["caer-darrow"] = {
+      title = "Caer Darrow",
+      text = {
+        { "Caer Darrow est un château sur une île du lac Darrowmere, au sud des Maleterres de l'ouest, et c'était le siège de la maison Barov, l'une des grandes familles nobles de Lordaeron. C'est un endroit calme, brumeux et beau. Sa ville est pleine de fantômes." },
+        { "Les Barov l'ont donné. Pour garder leur fortune quand la peste arriva, ils passèrent un marché avec Kel'Thuzad et livrèrent leur château au Culte des damnés, qui creusa en dessous la Scholomance, l'école de nécromancie du Fléau. Les Barov, au bout du compte, n'ont pas gardé grand-chose." },
       },
     },
     ["cairne-bloodhoof"] = {
@@ -697,6 +712,13 @@ ns.translate({
         { "Les clans continuent leurs raids. Apprenez leurs noms autant que le bruit de leurs sabots, $gvoyageur:voyageuse;. Leurs querelles comptent pour ceux qui essaient de vivre à portée de leurs camps." },
       },
     },
+    ["chillwind-camp"] = {
+      title = "Le camp du Noroît",
+      text = {
+        { "Le commandant Ashlam Valorfist dirige le camp de l'Alliance dans les collines du sud des Maleterres de l'ouest, près du lac Darrowmere. Ses tentes ont attiré des soldats, des exilés et des érudits, dont Weldon Barov, le dernier seigneur vivant de sa maison." },
+        { "D'ici, l'Alliance attaque Andorhal et lutte contre les chaudrons de peste. Le camp a peu de confort et de provisions à revendre. Si vous avez de l'aide à offrir, $gvoyageur:voyageuse;, Valorfist saura en faire bon usage. Ses tentes sont un modeste commencement pour la tâche qui attend." },
+      },
+    },
     ["church-of-the-holy-light"] = {
       title = "L'Église de la Lumière sacrée",
       text = {
@@ -741,6 +763,14 @@ ns.translate({
         { "Les flèches de Dalaran se dressèrent des siècles durant au bord du lac Lordamere, foyer du Kirin Tor et de générations d'étudiants en magie. Pendant la Troisième Guerre, le Fléau prit la cité et tua Antonidas. Archimonde détruisit ensuite ce que ses défenseurs n'avaient pas su sauver." },
         { client = "classic", "Les survivants du Kirin Tor ont élevé un grand dôme de lumière violette au-dessus des ruines et commencé à rebâtir. Leurs sorciers travaillent toujours à Hautebrande et dans la forêt des Pins argentés, à l'ancien camp d'internement et à Moulin-de-l'Ambre ; l'archimage Ansirem Runeweaver reçoit les voyageurs hors du dôme. Il y a quelque chose de réconfortant dans une cité qui recommence, même quand ses bâtisseurs tiennent à tirer les rideaux." },
         { client = "forever", "La reconstruction a été rattrapée par une crise à l'intérieur de la cité. Quelque chose a perturbé ses lignes telluriques, rendant ses créations erratiques et destructrices. Le conseil voudrait que l'affaire reste privée ; Modera, dont l'image attend au bord du lac Lordamere, a appelé à l'aide de l'extérieur. Les mages ont survécu à la destruction d'une cité. Elle refuse de laisser leur orgueil contribuer à en provoquer une autre." },
+      },
+    },
+    ["dalsons-tears"] = {
+      title = "Les Larmes de Dalson",
+      text = {
+        { "La ferme que les Maleterres appellent les Larmes de Dalson appartenait à une famille du nom de Dalson, et leur histoire est ouverte sur une table de la maison, de la main même de Mme Dalson. Son mari, Harold, s'était transformé. Il lui fallut toute sa force pour le traîner dans le seul endroit qu'elle put trouver qui fermait à clé, et elle garda la clé sur elle." },
+        { "Elle comptait partir, mais elle avait besoin d'argent, et leurs affaires étaient dans l'armoire, et elle croyait bien que Harold gardait cette clé-là sur lui. Elle allait dormir là-dessus, écrivit-elle. Elle était morte de fatigue. C'est la dernière entrée ; ce qu'elle devint, le journal ne le dit pas." },
+        { "Le Fléau a depuis installé l'un de ses chaudrons de peste dans le champ de la famille, et l'Alliance du Noroît comme les Réprouvés de la Barricade envoient des voyageurs en retourner les poisons. Ferme après ferme, les Maleterres sont pleines de maisons comme celle-ci. Celle-ci est celle où quelqu'un l'a écrit." },
       },
     },
     ["dark-iron-dwarves"] = {
@@ -1303,6 +1333,14 @@ ns.translate({
         { "Ruul Eagletalon envoie des chasseurs contre les Furie-des-vents en guise d'épreuve. Les druides des Serres-Rocheuses veulent reprendre le Val calciné aux Rougefurie pour le restaurer. Un voyageur qui passe sous leurs aires a une raison toute pratique d'apprendre quelle nuée les tient." },
       },
     },
+    ["hearthglen"] = {
+      title = "Âtreval",
+      text = {
+        { "Âtreval entoure le donjon de Mardenholde, au nord des Maleterres de l'ouest. La Croisade écarlate tient ses murs, et le grand inquisiteur Isillien maintient une ville verte et vivante au milieu du pays de la peste par des moyens impitoyables." },
+        { "Le donjon fut jadis le siège de Tirion Fordring. Quand il fut exilé pour avoir défendu un orc qui lui avait sauvé la vie, sa femme dit à leur fils Taelan qu'il était mort. Taelan tient aujourd'hui la demeure de son père pour la Croisade. Tirion vit dans une cabane au bord de la Thondroril, rassemblant ce qu'il peut du passé du garçon et cherchant un moyen de l'atteindre." },
+        { side = "Horde", aside = true, sign = "P. F.", "Lordaeron a exilé un paladin pour avoir épargné un orc. Les orcs partagent aujourd'hui leur Horde avec les morts de Lordaeron, et je n'ai pas encore décidé quoi en penser." },
+      },
+    },
     ["helcular"] = {
       title = "Helcular",
       text = {
@@ -1353,6 +1391,13 @@ ns.translate({
       text = {
         { "L'avis de recherche de la garnison du ruisseau de l'ouest décrit Lardeur comme un énorme gnoll, campé plus au sud, dans le sud-ouest d'Elwynn. Il appartient aux Rivepatte, et les gardes de Hurlevent n'ont pas réussi à le capturer. Une récompense est offerte pour sa griffe." },
         { "L'avis conseille de venir en groupe. Suivez ce conseil, $gvoyageur:voyageuse;. Un garde qui admet avoir besoin d'aide est plus utile qu'un aventurier persuadé de ne pas en avoir besoin." },
+      },
+    },
+    ["house-of-barov"] = {
+      title = "La maison Barov",
+      text = {
+        { "Les Barov étaient une maison noble de Lordaeron, riche et fière, seigneurs de Caer Darrow. Quand la peste arriva, ils passèrent leur marché avec Kel'Thuzad : leur château au Culte des damnés, en échange de la sécurité de leur fortune. Kel'Thuzad tint parole à sa manière. Le seigneur et sa famille sont toujours à la Scholomance, au service du Fléau." },
+        { "Il reste deux fils. Weldon Barov est vivant, et se tient sous la protection de l'Alliance au camp du Noroît. Alexi Barov ne l'est pas, et tient compagnie aux Réprouvés à la Barricade. Chacun veut la fortune de la famille ; chacun aimerait voir la tête de son frère sur un plateau ; et chacun paiera un voyageur pour aller la chercher. La non-mort n'a pas mis fin à cette querelle de famille." },
       },
     },
     ["humans"] = {
@@ -1841,6 +1886,13 @@ ns.translate({
         { "Depuis la colline des sentinelles, ils patrouillent les routes qu'ils peuvent, chassent les gnolls et les Défias, et envoient leurs éclaireurs dans les collines de la Dague et les ruines de Ruisselune. Stoutmantle a ses propres amis dans les bas-fonds, et c'est par l'un d'eux, un voleur de Comté-du-Lac, qu'il apprit qui dirige la Confrérie et où elle se cache." },
       },
     },
+    ["plague-cauldrons"] = {
+      title = "Les chaudrons de peste",
+      text = {
+        { "Huit chaudrons de peste se dressent dans les fermes des Maleterres, quatre à l'ouest et quatre à l'est. Des seigneurs du Chaudron et les morts des fermes alentour les gardent. Leurs vapeurs continuent d'empoisonner un pays qui a déjà perdu ses habitants." },
+        { "Le pouvoir de Kel'Thuzad empêche l'Alliance et les Réprouvés de simplement les éteindre. À la place, les travailleurs du Noroît et de la Barricade cherchent des échantillons pour préparer des contre-agents. Ajoutés aux chaudrons, ces mélanges altèrent leurs émanations pour affaiblir le Fléau. Il faut en renouveler la provision." },
+      },
+    },
     ["platinum-discs"] = {
       title = "Les disques de platine",
       text = {
@@ -1892,6 +1944,14 @@ ns.translate({
       text = {
         { "Sous Orgrimmar s'étendent des cavernes de feu et de roche en fusion, et la Horde a bâti sa capitale par-dessus sans, semble-t-il, regarder de très près. Des troggs en sont d'abord remontés. Puis la Lame brûlante : un culte de la Lame ardente qui s'est installé dans les profondeurs, sous les pieds mêmes du chef de guerre, avec parmi eux un démon appelé Taragaman l'Affameur." },
         { "Le peuple de Thrall a envoyé les jeunes de la Horde nettoyer les lieux. Je vois peu de meilleures leçons sur ce sur quoi une capitale est bâtie." },
+      },
+    },
+    ["ras-frostwhisper"] = {
+      title = "Ras Murmegivre",
+      text = {
+        { "La liche qui règne sur les salles de la Scholomance fut jadis un homme de Stromgarde, du nom de Ras Murmegivre. Quand le Fléau vint à Stratholme, il lui donna sa vie sur le sol ensanglanté de la cité, librement et dans un but précis, pour devenir l'un des immortels. Il dirige aujourd'hui l'école de nécromancie." },
+        { "Les morts-vivants craignent la vie comme les vivants craignent la mort, dit le magistrat Marduke, et un mort-vivant doué de conscience détruit souvent tout ce qui lui rappelle qui il était. Ras a oublié quelque chose. Un souvenir de ses années mortelles gisait encore dans les ruines de Stromgarde, et accordé sur le sol où il mourut, il peut le rendre mortel à nouveau : assez longtemps, du moins, pour qu'on l'abatte pour de bon." },
+        { "C'est chose rare que de défaire une liche. Plus rare encore que la défaite commence par quelque chose qu'il a oublié de jeter." },
       },
     },
     ["ratchet"] = {
@@ -2090,6 +2150,13 @@ ns.translate({
         { "La Croisade écarlate tient un monastère sur une colline du nord de Tirisfal, au-dessus de la mer. Ses murs renferment une bibliothèque, une armurerie, un cimetière et une cathédrale. Chevaliers, prêtres et inquisiteurs s'y forment pour une guerre qui va bien au-delà du Fléau." },
         { "Les Réprouvés sont aussi des ennemis, tout comme n'importe quel voyageur que la Croisade juge suspect. La grande inquisitrice Whitemane et le commandant écarlate Mograine tiennent la cathédrale, tandis que des champions réprouvés sont envoyés contre la forteresse. Le monastère a les dehors d'une maison de la Lumière ; approchez-le avec plus de prudence que cette description ne pourrait le laisser croire." },
         { side = "Horde", aside = true, sign = "P. F.", "Derrière ces murs se trouve une bibliothèque, et dans celle-ci un livre qui leur sert à apprendre à leurs paladins comment détruire les miens. J'envoie des héros le chercher, et je leur demande de le lire avant de le rapporter." },
+      },
+    },
+    ["scholomance"] = {
+      title = "La Scholomance",
+      text = {
+        { "Sous Caer Darrow se trouve la Scholomance, l'école du Culte des damnés, où l'on forme les nécromanciens et où l'on étudie les arts noirs du Fléau. Son directeur est le sombre maître Gandling, et ses salles sont pleines d'élèves, de maîtres et des choses sur lesquelles ils s'exercent. Sa porte est fermée à quiconque n'a pas de clé." },
+        { "Les Barov y sont aussi, ou ce qu'il en reste : le seigneur et sa dame, relevés par les maîtres auxquels ils ont vendu leur demeure. L'Alliance comme les Réprouvés veulent entrer dans la Scholomance, et tous deux ont découvert que le chemin passe par beaucoup de mauvaise histoire." },
       },
     },
     ["scourge"] = {
@@ -2406,6 +2473,14 @@ ns.translate({
         { "Alterac fut le royaume qui vendit l'Alliance à la Horde pendant la Deuxième Guerre, et une fois la guerre gagnée, ses terres furent confisquées et ses nobles déchus de leurs titres. Certains de ces nobles ne l'ont jamais accepté. Ils se font appeler le Syndicat, et ce sont des voleurs et des coupe-jarrets sous la bannière d'un seigneur." },
         { "Leur chef était le seigneur Aliden Perenolde, fils du roi traître, et son rêve était de remettre les orcs aux fers, comme au temps des camps d'internement. Ses gens tiennent la ville en ruine de Strahnbrande, en Alterac, et le donjon de Fort-de-Durn, à Hautebrande, d'où ils détroussent les voyageurs sur les routes d'Austrivage et complotent contre son magistrat, et dans les Hautes-terres Arathies, le seigneur Falconcrest s'est emparé des ruines de Stromgarde elles-mêmes." },
         { "Ils sont nombreux, et ils ne sont pas très doués. Les assassins de Ravenholdt, qui les combattent depuis des années, les traitent de tâcherons, et les Réprouvés ont mis chaque tête à prix. Mais un grand nombre de voleurs peut encore faire beaucoup de mal, et le Syndicat en fait." },
+      },
+    },
+    ["taelan-fordring"] = {
+      title = "Taelan Fordring",
+      text = {
+        { "Taelan Fordring a grandi en croyant son père mort. Quand Tirion fut dépouillé de ses terres pour avoir tenu parole envers un orc, la mère de Taelan resta et en dit cela au garçon. Il rejoignit la Croisade écarlate, s'éleva sous le grand croisé, abattit l'étendard de la Main d'argent à Valnord, et devint généralissime de la Croisade à Âtreval." },
+        { "Il n'a jamais cessé de rêver de son père, dit-il : de Tirion à ses côtés le jour où il fut fait chevalier, de combattre ensemble le Fléau, de l'honneur de Lordaeron. Quand des voyageurs lui apportent les choses que Tirion gardait pour lui, et la vérité sur ce qu'est devenue la Croisade, il rompt avec elle et part à cheval retrouver son père." },
+        { "Il ne va pas loin. Le grand inquisiteur Isillien l'abat devant Âtreval, sous les yeux de l'homme qu'il chevauchait à la rencontre, et Tirion tue Isillien au-dessus du corps de son fils. L'Ordre de la Main d'argent, dit Tirion ensuite, renaît. Il lui en a coûté son fils pour se souvenir de sa raison d'être." },
       },
     },
     ["talaanis-shadowsong"] = {
@@ -2794,6 +2869,14 @@ ns.translate({
         { client = "forever", "La terrasse du Façonneur a donné à cette question un endroit où commencer." },
       },
     },
+    ["uthers-tomb"] = {
+      title = "Le tombeau d'Uther",
+      text = {
+        { "Uther le Porteur de lumière fut le premier des paladins, oint par l'archevêque Faol, le commandant des chevaliers de la Main d'argent, le maître du prince Arthas, et le plus grand champion que la Lumière ait eu parmi les hommes. Il refusa de prendre part à la purge de Stratholme, et Arthas le renvoya pour cela. Quand Arthas revint du Norfendre avec son épée maudite, Uther se dressa contre lui, gardant l'urne qui contenait les cendres du roi Terenas, et dit à son ancien élève qu'il espérait qu'une place bien particulière l'attendait en enfer. Arthas le tua." },
+        { "Son tombeau se dresse sur la colline des Chagrins, au-dessus du lac Darrowmere, une salle de pierre blanche abritant sa statue, au milieu du pays mort. Il y règne un calme qu'on ne trouve nulle part ailleurs dans les Maleterres, et ceux qui croient encore en la Lumière viennent y rendre hommage." },
+        { side = "Horde", aside = true, sign = "P. F.", "Terenas était mon roi, et Uther est mort en gardant ses cendres. J'aimerais voir ce tombeau." },
+      },
+    },
     ["valanaar"] = {
       title = "Valanaar",
       text = {
@@ -2891,6 +2974,13 @@ ns.translate({
       text = {
         { "L'antre Gris offre un abri contre la neige de Dun Morogh, pourvu que vous parveniez à convaincre ses wendigos de le partager. Un coursier qui les a fuis y a laissé derrière lui une cargaison de munitions. Les créatures ont eu le dernier mot." },
         { "Le pilote Stonegear veut leurs crinières pour en faire un tapis dans son engin de siège. Même une machine a besoin d'un peu de confort dans ce pays, $gvoyageur:voyageuse;. Pour récupérer les munitions comme pour meubler l'engin, il faut approcher un wendigo de bien plus près que le coursier n'a voulu le faire." },
+      },
+    },
+    ["western-plaguelands"] = {
+      title = "Maleterres de l'ouest",
+      text = {
+        { "Les Maleterres de l'ouest étaient autrefois de riches terres agricoles de Lordaeron. Le grain infecté porta la non-mort à travers ses villages ; des champs gris, des granges pourrissantes et des arbres flétris entourent désormais les morts qui y marchent encore. Un poison vert flotte sur une terre qui nourrissait autrefois le royaume." },
+        { "Le camp du Noroît abrite l'Alliance et l'Aube d'argent au sud, les Réprouvés tiennent la Barricade à l'ouest, et la Croisade écarlate garde Âtreval au nord. Entre ces prises se trouvent Andorhal, les chaudrons de peste et la Scholomance sur le lac. L'itinéraire d'un voyageur dans ce pays se mesure à l'endroit où les vivants tiennent encore bon." },
       },
     },
     ["westfall"] = {
