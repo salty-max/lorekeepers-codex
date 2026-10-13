@@ -304,6 +304,14 @@ ns.translate({
     { "Âtreval", "Hearthglen" },
   },
   pages = {
+    ["alonsus-faol"] = {
+      title = "Alonsus Faol",
+      text = {
+        { "Alonsus Faol dirigeait les clercs de Comté-du-Nord avant la Première Guerre, et quand Hurlevent tomba, et l'abbaye avec elle, le vieil homme partit vers le nord avec les réfugiés. En Lordaeron, devenu archevêque, il donna une épée à l'Église de la Lumière sacrée : il fonda les chevaliers de la Main d'argent et oignit son apprenti, Uther, premier des paladins." },
+        { "Son œuvre ne s'arrêta pas au champ de bataille. Une plaque de la cathédrale de Hurlevent dit qu'il la commença à Stratholme, aida à refonder la Confrérie de Comté-du-Nord après la Deuxième Guerre et réunit les fonds pour rebâtir Hurlevent elle-même. Il mourut avant l'arrivée de la peste, de rien de pire que la vieillesse, pour autant qu'on le sache." },
+        { "C'est ici, dit-on, qu'il repose. Avant le Fléau, c'était un lieu de pèlerinage. Aujourd'hui, il rassemble les morts du Monastère écarlate, et personne ne vient le pleurer. Il méritait mieux, et l'ordre qu'il a fondé aussi." },
+      },
+    },
     ["ancients"] = {
       title = "Les Anciens",
       text = {
@@ -353,6 +361,13 @@ ns.translate({
         { "Certains des siens sont bien plus proches. Des elfes de sang fouillent les falaises et les ruines d'Azshara à la recherche de la magie que les Bien-nés y ont laissée, et broient ce qu'ils trouvent en une poussière scintillante ; un gobelin qui a pris leur argent et une bande d'orcs qui leur a prêté des gardes ont tous deux appris ce que vaut leur emploi. Un autre est entré à Hache-tripes pour vider ses ruines de leur pouvoir. Gershala Nightwhisper, à Auberdine, craint qu'ils ne prennent le chemin des satyres et des nagas. Je crains qu'il n'ait raison." },
       },
     },
+    ["bloodhoof-village"] = {
+      title = "Sabot-de-Sang",
+      text = {
+        { "Le village de Sabot-de-Sang est le cœur des plaines, une ville de longues maisons et d'enclos à kodos sur la route entre le camp Narache et Thunder Bluff. Son chef est Baine Bloodhoof, fils du grand chef Cairne, et c'est ici que les jeunes passent le deuxième des rites, le rite de la Vision : ils boivent l'eau des voyants devant le feu du village et suivent là où la vision les mène." },
+        { "C'est un endroit animé, accueillant et pratique. Les taurens de Sabot-de-Sang sont fermiers et éleveurs autant que chasseurs, et ils nourriront un étranger avant de lui demander ce qui l'amène." },
+      },
+    },
     ["blue-dragonflight"] = {
       title = "Le Vol draconique bleu",
       text = {
@@ -367,6 +382,13 @@ ns.translate({
         { "Le généralissime Bolvar Fordragon commande les armées de Hurlevent et se tient aux côtés de l'enfant-roi, Anduin Wrynn, tandis que son père Varian a disparu. C'est un paladin de la vieille école, pieux, honnête et inébranlable, et il garde les soldats du royaume là où le royaume en a le plus besoin, ce qui est rarement là où les provinces les voudraient." },
         { "C'est un homme prudent, trop prudent peut-être. Quand le magistrat de Comté-du-Lac fit savoir que les orcs Blackrock avaient des dragons derrière eux, Bolvar refusa de déplacer des troupes sur une simple supposition et envoya le messager demander conseil à dame Katrana Prestor. Le maréchal Windsor, qui avait trouvé la preuve, le traita d'imbécile : elle se tenait à deux pas de lui, dit-il, et il ne la voyait pas. Quand Windsor démasqua la dame dans la salle du trône comme étant Onyxia, fille d'Aile de mort, il déclara que même le généralissime avait été sa marionnette, tenu par un médaillon de dragon. À la fin, ce fut Bolvar qui resta avec le médaillon brisé entre les mains." },
         { "Ce n'est pas un imbécile. C'est un honnête homme qui a cru une dragonne sur parole, et je doute qu'il recommence." },
+      },
+    },
+    ["brill"] = {
+      title = "Brill",
+      text = {
+        { "Brill était une paisible ville de fermiers sur la route à l'est du Glas, et les Réprouvés en ont fait la leur : l'hôtel de ville abrite un magistrat, la taverne des Pendus sert ses étranges boissons à d'étranges clients, et dans sa cave les Gardes noirs gardent leurs prisonniers, des montagnards nains parmi eux, en attendant de s'en occuper." },
+        { "C'est aussi là que la Société royale des apothicaires fait une bonne part de son travail. Je n'en dirai pas plus, sinon qu'un nain ne devrait pas accepter de boisson à Brill." },
       },
     },
     ["bronze-dragonflight"] = {
@@ -391,6 +413,21 @@ ns.translate({
         { "La Légion ardente est une armée de démons, rassemblée sur mille mondes conquis par le titan déchu Sargeras, et elle est venue trois fois pour le nôtre : une fois il y a dix mille ans, par le Puits d'éternité des elfes de la nuit ; une fois par les orcs, que ses serviteurs corrompirent et envoyèrent par la Porte des Ténèbres ; et une fois pendant la dernière guerre, quand son général Archimonde tomba au pied de l'Arbre-Monde, sur le mont Hyjal." },
         { "Elle n'est jamais tout à fait partie. Le seigneur Kazzak tient les Terres foudroyées avec une armée de démons autour de la Porte des Ténèbres endormie. Les démonistes du Conseil des ombres gardent des démons à Jaedenar, en Gangrebois, où toute la forêt a pourri autour d'eux. Gardes funestes et infernaux arpentent le canyon de la Malechute en Ashenvale, où Grom Hellscream tua Mannoroth, le convent de Mannoroc en Désolace, et les ruines d'Azshara." },
         { "La Légion est patiente. Elle a perdu trois guerres et elle est toujours là, et je ne crois pas qu'elle en ait fini avec nous." },
+      },
+    },
+    ["cairne-bloodhoof"] = {
+      title = "Cairne Bloodhoof",
+      text = {
+        { "Cairne Bloodhoof est le grand chef des taurens, chef de la tribu Bloodhoof, et le plus vieil ami que la Horde ait en Kalimdor. Quand les orcs de Thrall touchèrent terre, il menait son peuple à travers les plaines, les centaures sur les talons, et les orcs se battirent à leurs côtés. Cairne les remercia par son amitié et ses conseils, et les taurens font partie de la Horde depuis lors." },
+        { "Il est très vieux aujourd'hui, et très grand, et il parle lentement et rarement. Il a bâti Thunder Bluff, y a rassemblé les tribus et donné aux taurens un foyer pour la première fois de mémoire tauren. Son fils Baine tient le village de Sabot-de-Sang, et fut un jour, dit-on, enlevé par les centaures et ramené par un maître des bêtes de la Horde." },
+        { "Les orcs le vénèrent, et l'Alliance lui fait davantage confiance qu'à aucun autre chef de la Horde. Les uns comme les autres, je crois, ont raison." },
+      },
+    },
+    ["camp-narache"] = {
+      title = "Le camp Narache",
+      text = {
+        { "Le camp Narache se trouve sur la mesa de Nuage rouge, au sud de Mulgore, un cercle de tentes de peau et de totems autour d'un feu, et c'est là que les jeunes taurens commencent. Le chef Hawkwind et sa famille tiennent le camp, et ils imposent aux jeunes le premier des rites de la Terre-Mère : le rite de la Force, à prouver contre les hurans qui se sont glissés dans le ravin en contrebas." },
+        { "C'est d'abord un camp de chasse. Les taurens chassent par besoin et par plaisir, et on attend d'un jeune tauren qu'il rapporte plumes et viande avant que quiconque lui demande ce qu'il sait faire d'autre." },
       },
     },
     ["cenarion-circle"] = {
@@ -468,6 +505,13 @@ ns.translate({
       text = {
         { "Darnassus se dresse dans la cime de Teldrassil, une nouvelle capitale bâtie après la Troisième Guerre. Le clair de lune, les cascades et l'éclat du temple de la Lune emplissent une cité aux murs rares et aux salles poussées parmi les branches. Un nain de Forgefer est habitué à avoir un peu plus de pierre au-dessus de la tête." },
         { "Les elfes de la nuit ont rejoint l'Alliance et ouvert cette cité à des visiteurs de peuples qu'ils ont longtemps tenus à l'écart. Tyrande Whisperwind dirige les prêtresses depuis le Temple, tandis que Fandral Staghelm guide les druides depuis l'Enclave cénarienne. Retenez ces deux lieux, $gvoyageur:voyageuse;. Une bonne partie des affaires de la cité commence dans l'un ou dans l'autre." },
+      },
+    },
+    ["deathknell"] = {
+      title = "Le Glas",
+      text = {
+        { "Le Glas est une crypte et un village en ruine à la lisière ouest de Tirisfal, et c'est là que les Réprouvés s'éveillent. Les morts de Lordaeron qui se relèvent maîtres de leur esprit sont amenés ici, et le gardien de la crypte les accueille par les mots dont chacun d'eux se souvient : vous n'êtes plus l'esclave du roi-liche." },
+        { "Tous ceux qui se relèvent n'ont pas cette chance. Le nord du village est plein de morts sans esprit, qui appartiennent toujours au roi-liche, et le premier devoir des Réprouvés tout juste éveillés est de les détruire : leurs anciens frères et sœurs, comme le leur rappellent les prêtres des ombres de la chapelle." },
       },
     },
     ["deathstalkers"] = {
@@ -557,6 +601,14 @@ ns.translate({
         { "C'est un peuple solide, prudent et généreux, qui entretient ses rancunes aussi bien que ses ouvrages de pierre, et je le dis avec affection. Si un nain vous dit qu'un pont tiendra, $gvoyageur:voyageuse;, il tiendra. Si un nain vous dit que la bière est bonne, faites-vous votre propre idée." },
       },
     },
+    ["earth-mother"] = {
+      title = "La Terre-Mère",
+      text = {
+        { "Les taurens vénèrent la Terre-Mère comme la source du monde et de sa vie. Leurs traditions enseignent le respect des dons de la terre et le soin d'éviter le gaspillage. Les chamans parlent avec ses esprits, les voyants suivent des visions, et les ancêtres restent mêlés à la vie de ceux qui viennent après eux." },
+        { "Les jeunes taurens accomplissent les rites de la Terre-Mère avant que les anciens de Thunder Bluff ne les acceptent. La Force se prouve contre les ennemis de la tribu. La Vision vient par l'eau des voyants et par ce qui apparaît dans le feu. La Sagesse exige la bénédiction des ancêtres aux Rochers rouges. Le voyage s'achève devant le grand chef." },
+        { "Intéressez-vous aux rites si vous voulez comprendre vos hôtes, $gvoyageur:voyageuse;. La chasse, la mémoire et la terre se rejoignent dans la façon dont un jeune tauren gagne sa place parmi eux." },
+      },
+    },
     ["earthen"] = {
       title = "Les terrestres",
       text = {
@@ -612,6 +664,15 @@ ns.translate({
         { "Vous les trouverez dans le Hall des Explorateurs, sous la direction du grand explorateur Magellas. Apportez-leur tout ce qui est ancien, $gvoyageur:voyageuse;, et tout ce qui est étrange. Ils voudront savoir où vous l'avez trouvé, et moi aussi." },
       },
     },
+    ["fall-of-lordaeron"] = {
+      title = "La chute de Lordaeron",
+      text = {
+        { "Lordaeron était le premier des royaumes des hommes, et son roi, Terenas Menethil, avait mené l'Alliance pendant la Deuxième Guerre. Quand la peste descendit du nord et que les morts commencèrent à se relever, ce fut son fils, le prince Arthas, paladin de la Main d'argent, qui partit la combattre." },
+        { "Arthas la poursuivit trop loin. Il passa au fil de l'épée la cité de Stratholme, frappée par la peste, plutôt que de voir ses habitants se relever, suivit les maîtres de la peste jusqu'au Norfendre, et y prit une lame runique maudite, Deuillegivre. À son retour, le peuple l'acclama jusqu'aux portes. Il entra dans la salle du trône de son père et le tua, et derrière lui le royaume tomba aux mains des morts." },
+        { "C'est dans ces ruines que cela s'est passé. Les Réprouvés y marchent chaque jour, et certains d'entre eux étaient dans la foule qui l'acclamait." },
+        { side = "Horde", aside = true, sign = "P. F.", "Elle écrit que certains Réprouvés étaient dans la foule qui l'acclamait. Certains d'entre nous y étaient. J'ai plus d'une fois tenté de mettre ce jour par écrit, et je n'y suis pas encore parvenu." },
+      },
+    },
     ["fandral-staghelm"] = {
       title = "Archidruide Fandral Staghelm",
       text = {
@@ -648,6 +709,13 @@ ns.translate({
       text = {
         { "Les passages de la porte Nord et de la porte Sud mènent les voyageurs de Dun Morogh au Loch Modan. Des montagnards tiennent des avant-postes sur les deux routes. En montagne, une route étroite peut exiger autant de gardes qu'une large frontière." },
         { "Le capitaine Rugelfuss expose la difficulté depuis le côté du Loch Modan. Son régiment doit tenir la porte plutôt que de pourchasser les troggs voisins, tandis que la Réserve de Forgefer est engagée sur le front de l'Alliance. Il demande aux aventuriers de défendre les terres que ses soldats ne peuvent couvrir sans quitter leur poste." },
+      },
+    },
+    ["ghost-howl"] = {
+      title = "Hurleur fantomatique",
+      text = {
+        { "Hurleur fantomatique est un grand loup de Mulgore dont la peau porte une terrible blessure, reçue en combattant la Légion ardente. La cicatrice donne au trophée de ce chasseur-là une histoire qui dépasse la poursuite à travers les plaines." },
+        { "Skorn Whitecloud reconnaît la peau au village de Sabot-de-Sang. Il offre au chasseur l'une de ses armes et espère que l'esprit du loup a trouvé la paix." },
       },
     },
     ["gnolls"] = {
@@ -708,6 +776,13 @@ ns.translate({
       text = {
         { "Sous Forgefer s'étendent les cavernes du Vieux Forgefer, et parmi elles un lieu que les nains appellent la salle des Thanes. Les Sombrefer en ont trouvé le chemin. Une carte prise à leurs espions à la base d'Ironband montre des tunnels et d'anciennes routes qui convergent sous la cité, et le terre-voyant Farsen, venu du Nid-de-l'Aigle, les a suivis jusqu'à la salle et jusqu'au Sombrefer qui y commande, un certain Durgen Dirgehammer." },
         { "Les morts de la salle ne sont pas en paix. Afadra Mur-de-Dun, gardienne du savoir de Forgefer, demande aux voyageurs d'apaiser les esprits de Courbenclume, et l'un d'eux, Faldrim Courbenclume, semble avoir gardé une vieille rancune bien au-delà de la tombe. Le roi Magni veut la tête du commandant. J'aimerais que la Ligue examine les lieux comme il se doit, une fois les Sombrefer partis." },
+      },
+    },
+    ["hamuul-runetotem"] = {
+      title = "Archidruide Hamuul Runetotem",
+      text = {
+        { "L'archidruide Hamuul Runetotem se tient sur la cime des Anciens de Thunder Bluff, parmi les maîtres et les guides spirituels des taurens. Sa place là-haut donne aux druides une voix dans la cité autant qu'un foyer." },
+        { "Les rapports venus des cavernes des Lamentations lui amènent des aventuriers d'au-delà de Mulgore. Il les envoie à Nara Wildmane pour poursuivre l'enquête." },
       },
     },
     ["harpies"] = {
@@ -829,6 +904,13 @@ ns.translate({
         { "Mekkatorque demande aux aventuriers de porter son jugement dans ces salles." },
       },
     },
+    ["mulgore"] = {
+      title = "Mulgore",
+      text = {
+        { "Après la poussière rouge de Durotar et l'herbe jaune des Tarides, Mulgore est une surprise : des plaines vertes et vallonnées, des lacs et des ruisseaux limpides, des troupeaux de kodos et de trotteurs des plaines, et de grandes mesas au sommet plat qui se dressent au-dessus de l'herbe. C'est la patrie des taurens, et ils la tiennent, pour la première fois de leur longue histoire, comme la leur." },
+        { "Pendant des générations, les taurens errèrent dans les plaines de Kalimdor, harcelés par les centaures partout où ils allaient. Quand les orcs arrivèrent en Kalimdor, Thrall aida le peuple de Cairne Bloodhoof à repousser les centaures et à prendre ces prairies, et les tribus s'y rassemblent depuis. Pourtant, Mulgore n'est pas sans soucis : les hurans Dos-hirsute lancent des raids depuis les ravins, les gnolls crin-pâle chassent ses bêtes, et les gobelins de la KapitalRisk ont creusé une mine dans ses falaises et souillé ses puits malgré le refus exprès des taurens." },
+      },
+    },
     ["murlocs"] = {
       title = "Les murlocs",
       text = {
@@ -900,6 +982,15 @@ ns.translate({
         { client = "forever", "Humains et nains jurent toujours fidélité à la Lumière à Hurlevent et à Forgefer, tandis que certains Réprouvés embrassent désormais eux aussi la vocation de paladin. La mort ne leur a pas fermé la Lumière." },
       },
     },
+    ["parqual-fintallas"] = {
+      title = "Parqual Fintallas",
+      text = {
+        { "Avant la peste, Parqual Fintallas était l'un des grands historiens de Lordaeron. Il est aujourd'hui un Réprouvé et se tient à l'Apothicarium de Fossoyeuse, toujours à l'étude, même si l'objet de ses études a changé avec lui." },
+        { "Il soumet les jeunes héros de la Horde à une épreuve de savoir. Avant de poser sa question, il les envoie au Monastère écarlate chercher la « Naissance de la menace des morts-vivants », un livre dont la Croisade se sert pour former ses paladins contre ceux de son espèce, et il attend d'eux qu'ils l'aient lu. Le savoir, soutient-il, compte plus que la force. Je n'ai jamais entendu un historien soutenir le contraire." },
+        { "Nous ne nous sommes jamais rencontrés, et il est peu probable que cela arrive. On me dit pourtant qu'un exemplaire de ce registre lui est parvenu, par des chemins que je préfère ignorer. J'espère qu'il le trouve juste. Il saurait mieux que la plupart où il ne l'est pas." },
+        { side = "Horde", aside = true, sign = "P. F.", "Elle est plus aimable envers moi que les livres de la Croisade." },
+      },
+    },
     ["priests"] = {
       title = "Prêtres",
       text = {
@@ -930,6 +1021,13 @@ ns.translate({
         { "Juste au sud se trouve le donjon de Tiragarde, où les hommes de Kul Tiras s'accrochent encore au rivage de Durotar, et l'épave de la flotte de leur amiral pourrit au large de la plage. Les grunts de Tranchecolline gardent un œil attentif sur les deux." },
       },
     },
+    ["red-rocks"] = {
+      title = "Les Rochers rouges",
+      text = {
+        { "À l'est de Thunder Bluff, parmi de grandes pierres rouges, se trouve le cimetière sacré des taurens. Seuls les plus valeureux reposent aux Rochers rouges : les guerriers qui aidèrent à fonder et à défendre Thunder Bluff, et ceux qui donnèrent leur vie pour leur tribu et leurs chefs. On dit que les esprits des ancêtres y marchent encore." },
+        { "Les jeunes y viennent pour le dernier des rites, le rite de la Sagesse, recevoir la bénédiction de ces ancêtres. Ces derniers temps, les hurans creusent dans les tombes, et le vieux gardien du savoir qui veille sur elles n'a plus la force de les chasser. Si vous voulez vous faire un ami de chaque tauren de Mulgore, il n'y a pas de moyen plus rapide." },
+      },
+    },
     ["regency-of-stormwind"] = {
       title = "La régence de Hurlevent",
       text = {
@@ -954,6 +1052,22 @@ ns.translate({
         { "Un voleur combat avec des poisons, des mains vives et la surprise, et s'en va quand le vent tourne. La Ligue en a engagé quelques-uns pour récupérer ce que d'autres lui avaient déjà pris, $gvoyageur:voyageuse;. Ce n'est pas la ligne la plus glorieuse de ses comptes, mais c'est l'une des plus longues." },
       },
     },
+    ["royal-apothecary-society"] = {
+      title = "La Société royale des apothicaires",
+      text = {
+        { "La Société royale des apothicaires du maître Faranell sert les Réprouvés par l'alchimie, les poisons et la promesse d'une nouvelle peste. Sylvanas a chargé ses membres de trouver une maladie capable de détruire le Fléau du roi-liche. Leurs préparatifs s'étendent bien au-delà des laboratoires de Fossoyeuse." },
+        { "À Brill et à Hautebrande, des voyageurs recueillent du sang et d'autres ingrédients pour des expériences sur des bêtes, des murlocs et des prisonniers. L'apothicaire Lydon contemple la campagne fleurie de Hautebrande et rêve de voir son travail y apporter la mort. Quel que soit l'ennemi déclaré de la Société, ses ambitions à lui englobent clairement les vivants." },
+        { "Les Réprouvés savent mieux que quiconque ce que c'est qu'une peste qui vous prend votre foyer. Ce savoir n'a pas rendu tous leurs apothicaires réticents à infliger la même misère au foyer des autres." },
+      },
+    },
+    ["ruins-of-lordaeron"] = {
+      title = "Les ruines de Lordaeron",
+      text = {
+        { "Au-dessus de Fossoyeuse, les rues de la capitale de Lordaeron sont moins vides qu'elles n'en ont l'air depuis la porte. Le Fléau arpente encore en nombre les ruines les plus profondes, et un brouillard impie s'est répandu sur les rues et le vieux cimetière, levé, croient les Gardes noirs, par un nécromancien du nom de Rath'mael, sur le surplomb de Lordamere. Les Réprouvés envoient les forces qu'ils peuvent épargner, et leurs pertes sont telles qu'un paladin du Quartier royal demande aux voyageurs de lui rapporter les membres intacts que laissent les morts." },
+        { "Tous ceux qui montent ne le font pas pour la reine banshee. Edward Heartweaver se rendait chaque semaine au cimetière, en quête du fils qu'il avait perdu quand Arthas rasa la cité, jusqu'à la semaine où il ne rentra pas. Et parmi les abominations cousues là-haut, il en est une que les apothicaires appellent le Baron, et qu'ils connaissent sous un nom plus ancien : Othmar Garithos, le seigneur qui fit cause commune avec Sylvanas contre le Fléau et ne survécut pas à l'arrangement. Le capitaine Truman, qui le servait, attend toujours dans les ruines le retour de son commandant." },
+        { side = "Horde", aside = true, sign = "P. F.", "De tout ce qui figure sur cette page, c'est la marche hebdomadaire d'Edward Heartweaver qui me revient sans cesse." },
+      },
+    },
     ["satyrs"] = {
       title = "Les satyres",
       text = {
@@ -968,6 +1082,14 @@ ns.translate({
         { "Quand le prince Arthas assassina son père et que Lordaeron tomba sous la peste, les paladins de la Main d'argent qui survécurent rassemblèrent ce qu'ils purent et jurèrent de purger la terre des morts par le feu. Trois fondèrent la Croisade : le grand général Abbendis, le grand inquisiteur Isillien et le généralissime Mograine, le Porte-cendres, et à ses débuts, disent ceux qui y étaient, ce fut un ordre noble. Ils devinrent la Croisade écarlate, et ils brûlent depuis : les morts, et les vivants qui les regardent de travers." },
         { "Ils ne font confiance à personne. N'importe quel étranger pourrait porter la peste, n'importe quel elfe ou nain pourrait être un espion, et les Réprouvés sont tout simplement l'ennemi. Depuis le Monastère, dans les clairières de Tirisfal, depuis Âtreval et la Main de Tyr, ils mènent une guerre que personne d'autre n'est invité à gagner. Leur grand croisé, Saidan Dathrohan, les gouverne depuis Stratholme, et leur grand inquisiteur, Isillien, depuis Âtreval." },
         { "La Croisade combat le Fléau, mais la corruption dans ses propres rangs donne une autre raison de s'en méfier. Interrogez le Monastère sur le généralissime Mograine et sa lame, le Porte-cendres, et écoutez bien qui se tait. Et demandez à l'Aube d'argent ce qu'elle a trouvé en regardant de près le grand croisé lui-même." },
+      },
+    },
+    ["scarlet-monastery"] = {
+      title = "Le Monastère écarlate",
+      text = {
+        { "La Croisade écarlate tient un monastère sur une colline du nord de Tirisfal, au-dessus de la mer. Ses murs renferment une bibliothèque, une armurerie, un cimetière et une cathédrale. Chevaliers, prêtres et inquisiteurs s'y forment pour une guerre qui va bien au-delà du Fléau." },
+        { "Les Réprouvés sont aussi des ennemis, tout comme n'importe quel voyageur que la Croisade juge suspect. La grande inquisitrice Whitemane et le commandant écarlate Mograine tiennent la cathédrale, tandis que des champions réprouvés sont envoyés contre la forteresse. Le monastère a les dehors d'une maison de la Lumière ; approchez-le avec plus de prudence que cette description ne pourrait le laisser croire." },
+        { side = "Horde", aside = true, sign = "P. F.", "Derrière ces murs se trouve une bibliothèque, et dans celle-ci un livre qui leur sert à apprendre à leurs paladins comment détruire les miens. J'envoie des héros le chercher, et je leur demande de le lire avant de le rapporter." },
       },
     },
     ["scourge"] = {
@@ -1089,6 +1211,16 @@ ns.translate({
         { client = "forever", "C'est une cité de commerce et de soldats, avec des navires dans son port, de prêtres et d'espions, et d'une cour qui chuchote. L'enfant sur le trône en est le roi ; les hommes et les femmes qui l'entourent la gouvernent." },
       },
     },
+    ["sylvanas-windrunner"] = {
+      title = "Dame Sylvanas Windrunner",
+      text = {
+        { "Sylvanas Windrunner était la générale des forestiers de Lune-d'argent, la plus grande archère des hauts-elfes et la commandante de leurs forestiers, et elle combattit le prince Arthas à chaque pas quand il mena le Fléau en Quel'thalas. Quand il finit par percer, il la tua, et pour la punir de sa résistance, il ne la laissa pas reposer : il la releva sous la forme d'une banshee et la lia à son service." },
+        { "Quand le pouvoir du roi-liche vacilla, Sylvanas se libéra. Elle rassembla les morts-vivants qui s'étaient éveillés avec elle, mit un seigneur de l'effroi à son service, et prit pour elle les ruines de la capitale de Lordaeron. Les Réprouvés l'appellent la Dame noire, et ils la suivraient n'importe où." },
+        { "Elle était issue d'une famille de forestiers. Sa sœur aînée, Alleria, franchit la Porte des Ténèbres avec l'Expédition de l'Alliance et ne revint jamais ; ce fut Sylvanas qui écrivit les mots de sa plaque, à la porte de Hurlevent. La cadette, Vereesa, était elle aussi forestière de Quel'thalas." },
+        { "Elle veut la mort d'Arthas. Au-delà, elle garde ses intentions pour elle, et ses yeux ne trahissent rien." },
+        { side = "Horde", aside = true, sign = "P. F.", "Elle nous a rendu notre esprit, ce que la Lumière n'a pas su faire. Ce qu'elle compte faire de nous ensuite, elle ne l'a pas dit." },
+      },
+    },
     ["syndicate"] = {
       title = "Le Syndicat",
       text = {
@@ -1113,6 +1245,47 @@ ns.translate({
         { "L'ancien arbre avait la bénédiction des grands dragons. Le nouveau ne l'a pas, et ses propres gardiens admettent que sa croissance n'a pas été sans défaut. J'en dirai davantage ailleurs. Pour l'heure, prenez le bateau à Auberdine, passez le portail de Rut'theran, et contemplez-le : il n'y a rien de semblable au monde." },
       },
     },
+    ["the-agamands"] = {
+      title = "Les Agamand",
+      text = {
+        { "Les Agamand étaient la famille la plus riche de Tirisfal, et ces moulins leur appartenaient. Quand le Fléau arriva, ils fortifièrent la maison et ordonnèrent à tous leurs gens de rester les aider à la tenir. Les ouvriers agricoles restèrent. Ils étaient loyaux, dit l'un d'eux aujourd'hui, et idiots." },
+        { "Rien ne tint. La famille et ses ouvriers moururent ensemble et se relevèrent ensemble, et les Agamand hantent toujours les moulins pour le roi-liche : Gregor, le père, Nissa, sa femme, et leurs fils. Leur crypte se trouve au nord du domaine, au milieu du Fléau." },
+        { "Certains de leurs ouvriers se sont libérés et sont aujourd'hui des Réprouvés. Coleman Farthing, qui travaillait à leurs moulins, renvoie des voyageurs détruire ce qui reste de la famille et dépouiller leur crypte de ses biens de famille. La vengeance, dit-il, a un goût sucré ; il espère qu'ils ont connu la peur avant la fin. C'est un espoir stupide, admet-il. Il le garde quand même." },
+      },
+    },
+    ["the-ashbringer"] = {
+      title = "Le Porte-cendres",
+      text = {
+        { "Le Porte-cendres fut un homme avant d'être une épée. Le généralissime Mograine fonda la Croisade écarlate avec le grand général Abbendis et le grand inquisiteur Isillien, quand c'était encore un ordre noble, et on l'appelait le Porte-cendres pour ce qu'il faisait aux armées du roi-liche : il entrait dans des bataillons entiers de morts-vivants et en ressortait de l'autre côté sans rien laisser derrière lui que des cendres. Sa lame prit son nom." },
+        { "Le grand inquisiteur Fairbanks, qui était présent, raconte comment cela finit. Le grand croisé passa un marché avec Kel'Thuzad, et Mograine fut attiré dans une embuscade à Stratholme par son propre fils, Renault. Tandis que le Fléau se refermait sur eux et que la lame se mettait à luire, Renault la ramassa et la planta dans le dos de son père. « Qu'as-tu fait, Renault ? » furent les derniers mots du généralissime. L'homme et la lame ne faisaient qu'un, et le meurtre les corrompit tous deux ; Mograine se releva en chevalier de la mort au service de Kel'Thuzad." },
+        { "Fairbanks s'échappa de Stratholme après deux jours parmi les morts et raconta l'histoire à quiconque voulait l'entendre au Monastère. On l'assassina pour cela et on le cacha dans sa cathédrale. Mais certains l'avaient entendu, dit-il, et c'est ainsi que naquit l'Aube d'argent. Renault dirige aujourd'hui le Monastère, en tant que commandant écarlate." },
+      },
+    },
+    ["the-bulwark"] = {
+      title = "La Barricade",
+      text = {
+        { "La Barricade est le mur que les Réprouvés ont élevé à la lisière est de Tirisfal, là où finissent les clairières et où commencent les Maleterres, et ils le tiennent jour et nuit contre le Fléau. Des Gardes noirs en tiennent la porte, et des officiers de l'Aube d'argent y ont aussi un poste, ce qui en dit long sur la crainte que leur inspire à tous ce qui se trouve au-delà." },
+        { "On trouve des choses plus étranges à la Barricade. Alexi Barov, le dernier d'une maison noble de Lordaeron qui vendit son château au Culte des damnés, y tient compagnie aux Réprouvés, et a sur la fortune de sa famille des opinions qu'il partage volontiers." },
+      },
+    },
+    ["the-crusades-fallen"] = {
+      title = "Les morts de la Croisade",
+      text = {
+        { "Le Monastère écarlate enterre ses héros dans son propre cimetière, et leurs pierres en disent plus sur la Croisade que ses sermons. Lisez-les et vous découvrirez qu'elle ne fut jamais un simple ordre humain de Lordaeron : un grand sorcier et un capitaine des forestiers citoyens de Quel'thalas, des assassins de Dalaran, un guerrier d'Alterac, un seigneur des Cavernes rouges, un amiral de Kul Tiras." },
+        { "Lisez plus loin et vous verrez jusqu'où elle est allée. Orman de Stromgarde, son premier capitaine général, se perdit à l'entrée du glacier de la Couronne de glace ; le grand amiral de la Flotte écarlate, au large de la côte gelée du Norfendre ; le premier maître assassin, sur les rivages du Norfendre. La Croisade a porté sa guerre jusqu'à la porte même du roi-liche, et les pierres sont ce qui en est revenu." },
+        { "D'autres tombèrent plus près de chez eux : un grand abbé tué en défendant le Monastère lui-même, un défenseur mort en terrassant un seigneur de l'effroi, un elfe pris dans un combat sans fin contre un nécromancien. Quoi que la Croisade soit devenue depuis, $gvoyageur:voyageuse;, ce furent les premiers à croire en elle." },
+        { side = "Horde", aside = true, sign = "P. F.", "J'ai lu ces pierres, moi aussi. J'en suis revenu avec un récit moins généreux." },
+      },
+    },
+    ["the-forsaken"] = {
+      title = "Les Réprouvés",
+      text = {
+        { "Quand l'emprise du roi-liche sur ses morts faiblit, certains d'entre eux s'éveillèrent. Ils étaient toujours morts, mais leur esprit leur appartenait de nouveau, et ils se souvenaient de ce qu'ils avaient été et de ce qu'on leur avait fait. Ils se nomment les Réprouvés, et ils suivent celle qui les a libérés : Sylvanas Windrunner, la reine banshee." },
+        { "Ils ont repris la ruine de la capitale de leur royaume et bâti une cité en dessous, et ils mènent leur propre guerre contre le Fléau qui les a faits. Ils ont rejoint la Horde, qui avait besoin d'alliés contre l'Alliance, et la Horde les a acceptés, ce dont les Réprouvés avaient plus besoin encore. Ce n'est pas une amitié chaleureuse." },
+        { "Je ne prétendrai pas que les Réprouvés soient une compagnie facile. La plupart étaient des hommes et des femmes de Lordaeron, qui se souviennent de leur ancienne vie et ne peuvent y retourner. Ce qu'ils veulent aujourd'hui, au-delà de se venger du roi-liche, personne hors de Fossoyeuse ne saurait le dire." },
+        { side = "Horde", aside = true, sign = "P. F.", "Personne hors de Fossoyeuse ne saurait dire ce que nous voulons, écrit-elle. La plupart d'entre nous, à l'intérieur, ne le sauraient pas non plus. Moi, je veux savoir ce qu'on nous a fait, et l'écrire comme il faut." },
+      },
+    },
     ["the-stockade"] = {
       title = "La Prison",
       text = {
@@ -1127,6 +1300,14 @@ ns.translate({
         { "Il s'évada, aidé par une jeune humaine qui s'était liée d'amitié avec lui, retrouva le clan de son père dans les montagnes d'Alterac et apprit les voies du chaman. Puis, avec Grom Hellscream et le vieux chef de guerre Orgrim Doomhammer, il força les camps d'internement et libéra son peuple. Doomhammer tomba dans cette guerre et laissa à Thrall la Horde et son marteau." },
         { "Il mena la Horde par-delà la mer jusqu'à Kalimdor, combattit aux côtés des elfes de la nuit et des humains contre la Légion ardente, et bâtit Durotar. Il veut la paix avec l'Alliance, et l'a faite avec Jaina Proudmoore de Theramore. Quant à savoir si le reste de l'Alliance la veut, c'est une autre question." },
         { side = "Horde", aside = true, sign = "P. F.", "Lordaeron a fait de lui un esclave, et il a pourtant trouvé de la place dans sa Horde pour les morts de Lordaeron. Je ne suis pas sûr que j'en aurais fait autant." },
+      },
+    },
+    ["thunder-bluff"] = {
+      title = "Thunder Bluff",
+      text = {
+        { "Thunder Bluff se dresse tout en haut des mesas de Mulgore, et l'on y accède par de grands ascenseurs ou à dos de coursier du vent. Des ponts de corde relient ses cimes. Un nain de Forgefer habitué aux sols bien solides fera peut-être bien de regarder où il met les pieds avant de regarder la vue." },
+        { "Cairne a bâti ce refuge après que les taurens et les orcs eurent repoussé les centaures. Des tribus longtemps habituées à l'errance s'y sont rassemblées. Marchands et artisans le partagent désormais avec les chasseurs, les druides de la cime des Anciens, et les chamans et les voyants de la cime des Esprits." },
+        { "Cairne demeure grand chef en son centre. Le Totem sinistre compte parmi ceux qui s'opposent à son autorité. Un voyageur y voit un peuple qui a enfin une cité, même si un foyer permanent n'a pas mis fin aux désaccords entre ses tribus." },
       },
     },
     ["timber"] = {
@@ -1152,6 +1333,13 @@ ns.translate({
         { "Le donjon tomba avec lui. Mais certains de ses hommes restèrent, et sous un certain lieutenant Benedict et un commandant de la garde nommé Zalaphil, ils l'ont repris et fortifié : une poignée de Kultirassiens au milieu du pays natal de la Horde. Les orcs de Tranchecolline les traitent de traîtres. Les Kultirassiens en diraient à peu près autant de Theramore." },
       },
     },
+    ["tirisfal-glades"] = {
+      title = "Clairières de Tirisfal",
+      text = {
+        { "Tirisfal était le cœur du royaume de Lordaeron : des terres agricoles vallonnées, des vergers et des moulins autour de la capitale, la contrée la plus riche du nord. C'est aussi une vieille terre à d'autres égards ; les clairières ont donné leur nom à l'ordre secret des mages, les Gardiens de Tirisfal, qui veillèrent sur le monde pendant des siècles." },
+        { "C'est aujourd'hui une terre grise. La peste a pris Lordaeron, les morts ont marché, et la capitale est tombée. Les fermes sont vides, ou pire, les arbres sont sans feuilles et la lumière est toujours pâle. Les Réprouvés la gouvernent depuis les profondeurs de la cité en ruine, la Croisade écarlate depuis son monastère du nord, et le Fléau erre toujours dans les champs entre les deux." },
+      },
+    },
     ["twilights-hammer"] = {
       title = "Le Marteau du crépuscule",
       text = {
@@ -1167,11 +1355,27 @@ ns.translate({
         { "Malfurion a désormais disparu, et les druides ignorent son sort. Tyrande gouverne depuis le temple de la Lune de Darnassus, tandis que Fandral Staghelm est à la tête des druides. Recevez son accueil avec respect, $gvoyageur:voyageuse;. La prêtresse qui salue les visiteurs a mené son peuple à travers des guerres bien plus anciennes que nos royaumes." },
       },
     },
+    ["undercity"] = {
+      title = "Fossoyeuse",
+      text = {
+        { "La capitale de Lordaeron gît en ruine au-dessus de la propre cité des Réprouvés. Derrière ses murailles brisées se trouvent la salle du trône dévastée et des cours sans vie. En dessous, de vieilles cryptes et des catacombes sont devenues Fossoyeuse, disposée autour d'anneaux de bave verte. Sylvanas tient sa cour dans son quartier royal." },
+        { "Marchands, maîtres et gardes occupent les autres quartiers, et la Société royale des apothicaires travaille à l'Apothicarium. Les Réprouvés ont fait une capitale qui fonctionne sous l'épave de celle qu'ils ont connue de leur vivant. Un voyageur qui ne regarderait que les ruines d'en haut manquerait l'endroit où se traitent désormais les affaires qui restent au royaume." },
+        { side = "Horde", aside = true, sign = "P. F.", "Elle a raison pour l'Apothicarium, jusqu'à un certain point. Vous m'y trouverez, sur le plus au sud de ses deux ponts, où je pose des questions aux héros qui croient que la force suffit. Venez vous faire examiner, $gvoyageur:voyageuse;." },
+      },
+    },
     ["valley-of-trials"] = {
       title = "La vallée des Épreuves",
       text = {
         { "La vallée des Épreuves est l'endroit où l'on met à l'épreuve les jeunes de la Horde : orcs et trolls, envoyés parmi les sangliers et les scorpides du canyon pour montrer ce qu'ils valent. C'est un endroit étroit, brûlé de soleil, au sud de Tranchecolline, et ses épreuves sont faites pour être dures." },
         { "Tous ses dangers ne sont pas des bêtes. Dans les grottes de la vallée, la Lame ardente a caché ses sectateurs et ses diablotins, assez près des jeunes de la Horde pour que ce soit une insulte, et la première leçon que beaucoup d'orcs apprennent, c'est que le plus vieil ennemi de leur peuple porte parfois un visage d'orc." },
+      },
+    },
+    ["varimathras"] = {
+      title = "Varimathras",
+      text = {
+        { "Quand Arthas partit pour le Norfendre, Varimathras et ses frères seigneurs de l'effroi régnèrent sur les ruines de Lordaeron. Sylvanas, tout juste libérée de l'emprise du roi-liche, le vainquit et lui offrit le choix entre la servitude et la mort. Il choisit la servitude, puis l'aida à se retourner contre ses frères." },
+        { "Il se tient désormais aux côtés de la reine banshee, à Fossoyeuse. C'est une association imposante, même si ses débuts n'offrent guère de garanties sur la loyauté de l'un ou de l'autre. Varimathras a trouvé le moyen de survivre à un changement de maître ; Sylvanas l'a gardé là où elle peut le voir." },
+        { side = "Horde", aside = true, sign = "P. F.", "Nous le croisons dans le Quartier royal sans rien dire. Je suis moins sûr que la Dame noire semble l'être que le garder près de soi revienne à le garder loyal." },
       },
     },
     ["venture-company"] = {
@@ -1220,6 +1424,14 @@ ns.translate({
       text = {
         { "L'antre Gris offre un abri contre la neige de Dun Morogh, pourvu que vous parveniez à convaincre ses wendigos de le partager. Un coursier qui les a fuis y a laissé derrière lui une cargaison de munitions. Les créatures ont eu le dernier mot." },
         { "Le pilote Stonegear veut leurs crinières pour en faire un tapis dans son engin de siège. Même une machine a besoin d'un peu de confort dans ce pays, $gvoyageur:voyageuse;. Pour récupérer les munitions comme pour meubler l'engin, il faut approcher un wendigo de bien plus près que le coursier n'a voulu le faire." },
+      },
+    },
+    ["whitemane-and-mograine"] = {
+      title = "Whitemane et Mograine",
+      text = {
+        { "La grande inquisitrice Sally Whitemane et le commandant écarlate Renault Mograine tiennent la cathédrale du Monastère écarlate. Il commande ses chevaliers ; elle guide sa foi. Sa maîtrise de la Lumière peut le relever quand il tombe, ce qui rend une victoire sur le commandant moins définitive qu'un voyageur pourrait l'espérer." },
+        { "Renault est le fils du généralissime Alexandros Mograine, le Porte-cendres, un grand champion de la Main d'argent contre le Fléau. Son père est mort. Fairbanks, un autre grand inquisiteur caché dans la cathédrale, prétend savoir comment il est mort et affirme que Renault était là. La Croisade préférerait son silence. Ceux qui apportent la lame du généralissime entendront peut-être le récit qu'elle ne veut pas voir raconté ; la page du Porte-cendres, dans ce registre, rapporte ce qu'il dit." },
+        { side = "Horde", aside = true, sign = "P. F.", "Whitemane relève son commandant d'entre les morts, et la Croisade brûle le reste d'entre nous pour moins que ça." },
       },
     },
     ["wildkin"] = {
