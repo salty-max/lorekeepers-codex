@@ -235,7 +235,7 @@ ns.translate({
     ["hinterlands"] = { "Les Hinterlands", "Les collines sauvages des nains Wildhammer, et les temples trolls qu'ils partagent avec eux." },
     ["loch-modan"] = { "Loch Modan", "Le pays du lac à l'est de Forgefer, retenu par un barrage et veillé par des rois de pierre." },
     ["moonglade"] = { "Reflet-de-Lune", "La vallée sacrée des druides." },
-    ["mulgore"] = { "Mulgore et Thunder Bluff", "Les vertes plaines des Taurens, et la cité sur les mesas." },
+    ["mulgore"] = { "Mulgore et Thunder Bluff", "Les vertes plaines des taurens, et la cité sur les mesas." },
     ["peoples"] = { "Peuples et puissances", "Les peuples, ordres et factions qu'un voyageur rencontre en bien des contrées, réunis en un seul endroit." },
     ["redridge"] = { "Les Carmines", "Des collines rouges, un lac paisible et une ville assiégée par le nord." },
     ["searing-gorge"] = { "Gorge des Vents brûlants", "Le versant nord et brûlé de la montagne, et la grande fosse des Sombrefer." },
@@ -253,7 +253,7 @@ ns.translate({
     ["westfall"] = { "Marche de l'Ouest", "Le grenier de Hurlevent, tombé en poussière et aux mains des bandits." },
     ["wetlands"] = { "Les Paluns", "Les marais entre Khaz Modan et Arathi, où les routes des nains débouchent sur de vieilles guerres." },
     ["winterspring"] = { "Berceau-de-l'Hiver", "La neige, les gobelins, et la malédiction des Bien-nés." },
-    ["zephras-isle"] = { "Île de Zéphras", "L'île volante des Éolides, dans le Mur-Céleste." },
+    ["zephras-isle"] = { "Île de Zéphras", "L'île volante des éolides, dans le Mur-Céleste." },
   },
   -- on Classic, its own names for the places Forever renamed (the longest first)
   classic = {
@@ -283,6 +283,7 @@ ns.translate({
     { "Bassin Arathi", "Bassin d'Arathi" },
     { "Comté-de-l'Or", "Goldshire" },
     { "de Fossoyeuse", "d'Undercity" },
+    { "Loup-de-Givre", "Frostwolf" },
     { "Sabot-de-Sang", "Village Bloodhoof" },
     { "Comté-du-Lac", "Lakeshire" },
     { "Courbenclume", "Anvilmar" },
@@ -323,6 +324,15 @@ ns.translate({
         { "Le Tram des profondeurs transporte ses passagers entre Forgefer et Hurlevent sur des plates-formes mobiles, sous la terre. Il a réduit un voyage de plusieurs jours à une affaire de minutes. Même un nain qui aime marcher sait apprécier une telle prouesse." },
         { "Le tunnel donne à notre amitié avec Hurlevent une forme bien concrète : deux capitales reliées par une voie qui épargne à leurs voyageurs la longue route par la surface. L'ingéniosité gnome a sauvé bien des paires de bottes." },
         { "Surveillez les vitres là où le tunnel passe sous l'eau, $gvoyageur:voyageuse;. Certains passagers disent avoir vu quelque chose de très grand les regarder en retour. Vous devriez avoir le temps d'y jeter un œil avant que la plate-forme ne vous emporte." },
+      },
+    },
+    ["druids"] = {
+      title = "Druides",
+      text = {
+        { "Le premier druide fut Malfurion Stormrage, instruit par le demi-dieu Cénarius avant la guerre des Anciens. Après la destruction du Puits, les elfes de la nuit qui avaient renoncé aux arcanes le suivirent, et pendant des milliers d'années les druides dormirent dans le Rêve d'émeraude, ne s'éveillant que lorsque le monde avait besoin d'eux." },
+        { "Ils s'éveillent aujourd'hui, et ce ne sont plus seulement des elfes de la nuit : les taurens ont leurs propres druides, et les uns comme les autres répondent au Cercle cénarien, à Reflet-de-Lune. Un druide prend les formes du monde sauvage, entre autres l'ours, le félin et le phoque, soigne par la magie verte du Rêve et fait tomber la lune et les étoiles sur ses ennemis." },
+        { client = "forever", "Des druides éolides exercent désormais des deux côtés de la querelle entre l'Alliance et la Horde." },
+        { "Malfurion lui-même est parti dans le Rêve et n'en est pas revenu. Malgré tout le travail du Cercle dans le monde éveillé, son plus grand maître reste hors de portée d'un messager ordinaire." },
       },
     },
     ["dun-morogh"] = {
@@ -385,6 +395,15 @@ ns.translate({
         { "Les radiations répandues contre les troggs qui l'envahissaient n'ont pas su les exterminer et ont dévasté les gnomes eux-mêmes. Mekkatorque faisait jadis confiance à Sicco Thermaplugg ; il l'accuse aujourd'hui d'avoir trahi la cité et demande aux aventuriers d'y entrer pour le tuer." },
       },
     },
+    ["hunters"] = {
+      title = "Chasseurs",
+      text = {
+        { "Chaque peuple qui vit près du monde sauvage a ses chasseurs. Les nains ont leurs montagnards, à la visée sûre sur n'importe quelle pente ; les elfes de la nuit, leurs chasseresses et leurs Sentinelles ; les orcs et les trolls, leurs pisteurs et leurs dompteurs de bêtes ; les taurens, des braves qui suivent encore les troupeaux comme le faisaient leurs grands-parents." },
+        { "Ce qui distingue un chasseur, c'est son compagnon. Un loup, un félin, un ours, un raptor, une chouette : apprivoisé dans la nature, il apprend à combattre aux côtés du chasseur. Le nourrir et le soigner font autant partie de la vocation qu'apprendre à tirer. Encore faut-il convaincre la bête que ce nouvel arrangement en vaut la peine." },
+        { client = "forever", "Les humains se forment désormais eux aussi à la chasse, et les éolides amènent des chasseurs à l'Alliance comme à la Horde." },
+        { "La Ligue emploie des chasseurs comme guides depuis qu'elle existe, $gvoyageur:voyageuse;. Ils trouvent la route et le dîner, et s'assurent que ni l'un ni l'autre ne trouve les fouilleurs le premier." },
+      },
+    },
     ["ironforge"] = {
       title = "Forgefer",
       text = {
@@ -410,6 +429,15 @@ ns.translate({
         { "Si vous devez les combattre, $gvoyageur:voyageuse;, souvenez-vous qu'ils furent un jour les voisins de quelqu'un." },
       },
     },
+    ["mages"] = {
+      title = "Mages",
+      text = {
+        { "L'art humain de la magie commença avec cent élèves. Pendant les guerres des Trolls, les hauts-elfes de Quel'thalas leur apprirent à lancer des sorts en échange d'une aide contre les Amani, et leurs héritiers fondèrent Dalaran et son conseil dirigeant, le Kirin Tor. La cité devint le grand foyer du savoir arcanique des humains." },
+        { "Dalaran tomba pendant la Troisième Guerre, et ses élèves se dispersèrent : à Theramore avec Jaina Proudmoore, à Hurlevent, à Fossoyeuse parmi les Réprouvés, dont certains y avaient étudié dans leur première vie. Les gnomes et les trolls Darkspear ont leurs propres mages. Une éducation au Kirin Tor est une des voies vers cet art, même si ses diplômés en parlent parfois comme si c'était la seule." },
+        { client = "forever", "On a vu aussi des orcs s'adonner au métier de mage, et l'Ordre suprême des éolides est descendu chercher le savoir arcanique que leur peuple avait perdu." },
+        { "Un mage fait naître le feu, le givre et la pure force des arcanes, ainsi qu'une bonne quantité d'eau fraîche. J'en recommande un sur chaque chantier de fouilles, $gvoyageur:voyageuse;, ne serait-ce que pour l'eau." },
+      },
+    },
     ["magni-bronzebeard"] = {
       title = "Roi Magni Bronzebeard",
       text = {
@@ -424,6 +452,41 @@ ns.translate({
         { "Sicco Thermaplugg est resté à Gnomeregan tandis que le grand bricoleur Mekkatorque mène ses exilés depuis Forgefer. Le grand bricoleur lui faisait jadis confiance. Cette confiance a fini en accusation de trahison, et en appel à sa mort." },
         { "Les radiations répandues dans la cité n'ont pas su exterminer les troggs et ont dévasté ses habitants gnomes. Thermaplugg règne dans les ruines, parmi les créatures que la tentative devait détruire et les survivants qu'elle a laissés derrière elle." },
         { "Mekkatorque demande aux aventuriers de porter son jugement dans ces salles." },
+      },
+    },
+    ["paladins"] = {
+      title = "Paladins",
+      text = {
+        { "Les premiers paladins furent les chevaliers de la Main d'argent, fondés pendant la Deuxième Guerre par l'archevêque Alonsus Faol pour porter la Lumière sacrée sur le champ de bataille. Uther le Porteur de lumière les mena, et ils combattirent pour l'Alliance pendant la guerre et la longue paix qui suivit." },
+        { "La Troisième Guerre brisa l'ordre. Le prince Arthas, lui-même paladin, se retourna contre tout ce qu'il défendait, et Uther tomba sous ses coups à Andorhal. Les chevaliers survivants se dispersèrent à Hurlevent, à Forgefer et dans les Maleterres, où certains servent l'Aube d'argent, et d'autres l'idée plus dure que la Croisade écarlate se fait de la Lumière. Le même serment a mené ceux qui le prêtent vers des compagnies amèrement différentes." },
+        { client = "classic", "Aujourd'hui, seule l'Alliance forme des paladins : des humains et des nains qui jurent fidélité à la Lumière dans la cathédrale de la Lumière ou à la Garde mystique de Forgefer." },
+        { client = "forever", "Humains et nains jurent toujours fidélité à la Lumière à Hurlevent et à Forgefer, tandis que certains Réprouvés embrassent désormais eux aussi la vocation de paladin. La mort ne leur a pas fermé la Lumière." },
+      },
+    },
+    ["priests"] = {
+      title = "Prêtres",
+      text = {
+        { "Les prêtres servent la foi de leur peuple, et la foi des peuples diffère. À Hurlevent et à Forgefer, ils servent la Lumière sacrée. Les prêtresses des elfes de la nuit servent Elune, la lune, et gardent ses temples depuis dix mille ans." },
+        { "Du côté de la Horde, les Darkspear ont leurs propres prêtres, et les Réprouvés gardent aussi les leurs, dont les prières penchent vers l'ombre aussi volontiers que vers la Lumière. Un prêtre, quel que soit son peuple, sait panser une blessure, protéger un ami, relever les morts, ou retourner ce même pouvoir contre un ennemi." },
+        { client = "forever", "Les gnomes comptent désormais des prêtres parmi les leurs, une vocation de plus dans la compagnie de Brikabrok." },
+        { "C'est la compagnie la plus bienvenue sur un chantier de fouilles, $gvoyageur:voyageuse;, et la moins appréciée jusqu'à ce que quelqu'un tombe dans un puits." },
+      },
+    },
+    ["rogues"] = {
+      title = "Voleurs",
+      text = {
+        { "Chaque cité a ses métiers discrets, et les voleurs les pratiquent tous : la serrure qui s'ouvre sans clé, la bourse qui change de mains à l'insu de son propriétaire, la lame dans le dos. Certains servent une couronne, comme le SI:7 de Hurlevent ; d'autres ne servent que l'or, comme les Défias dans la Marche de l'Ouest et le Syndicat en Alterac." },
+        { "Entre les deux se tiennent les assassins de Ravenholdt, dans les collines d'Alterac au-dessus de Hautebrande, qui choisiraient leurs contrats et leurs élèves avec un soin égal. Des voleurs de tous les peuples franchissent ses portes, et rares sont ceux qui parlent de ce qu'ils y ont appris." },
+        { "Un voleur combat avec des poisons, des mains vives et la surprise, et s'en va quand le vent tourne. La Ligue en a engagé quelques-uns pour récupérer ce que d'autres lui avaient déjà pris, $gvoyageur:voyageuse;. Ce n'est pas la ligne la plus glorieuse de ses comptes, mais c'est l'une des plus longues." },
+      },
+    },
+    ["shamans"] = {
+      title = "Chamans",
+      text = {
+        { "Sur Draenor, les chamans des orcs parlaient avec les éléments et avec leurs ancêtres, jusqu'à ce que les démonistes de Gul'dan en tournent beaucoup vers la magie gangrenée et que les esprits se taisent. Chez les Loup-de-Givre d'Alterac, le vieux chaman Drek'Thar garda vivantes les anciennes voies, et les enseigna à un jeune esclave évadé du nom de Thrall." },
+        { "Thrall rendit le chamanisme à son peuple, et en Kalimdor ils en trouvèrent d'autres qui ne l'avaient jamais perdu : les taurens, qui honorent la Terre-Mère, et les trolls, dont les féticheurs avaient gardé le leur. Un chaman demande l'aide de la terre, du feu, de l'eau et de l'air, porte un totem de chacun, et les éléments, la plupart du temps, répondent." },
+        { client = "forever", "Depuis peu, on voit aussi des nains en appeler à la pierre et à l'orage, et les Sculpte-vents éolides sont descendus chercher leurs esprits du vent perdus auprès des chamans de la Horde." },
+        { "La Ligue a appris à demander la permission d'un chaman avant de fouiller, $gvoyageur:voyageuse;. Le sol a ses opinions, et eux les entendent." },
       },
     },
     ["timber"] = {
@@ -441,6 +504,23 @@ ns.translate({
         { "La querelle devint une guerre sous la montagne. Les Bronzebeard tinrent la cité. Les Wildhammer, menés par le thane Khardros, en furent chassés et élevèrent leur propre forteresse à Grim Batol, et les Sombrefer du thane-sorcier Thaurissan se retirèrent dans les montagnes du sud." },
         { "Les Sombrefer n'en avaient pas fini. Ils marchèrent à la fois sur Forgefer et sur Grim Batol, et perdirent les deux batailles. Dans sa fureur, Thaurissan fit appel à une puissance bien plus ancienne que n'importe quel clan et réveilla Ragnaros, le seigneur du Feu. Le sud brûla : la gorge des Vents brûlants et les Steppes ardentes sont ce qu'il en resta, et depuis, les Sombrefer servent le seigneur du Feu dans le mont Rochenoire." },
         { "Les Wildhammer ne restèrent pas non plus à Grim Batol. La mort de la reine Modgud, tuée à ses portes, laissa une noirceur dans la pierre, et ils se firent un nouveau foyer au Nid-de-l'Aigle, dans les Hinterlands. Forgefer se souvient encore de quel clan est resté." },
+      },
+    },
+    ["warlocks"] = {
+      title = "Démonistes",
+      text = {
+        { "Gul'dan apporta la magie démoniste dans la Horde orc. Lui et son Conseil des ombres l'avaient apprise de Kil'jaeden, et grâce à elle ils firent de leur peuple une arme de la Légion ardente. Les démonistes de la Horde relevèrent les morts, invoquèrent des démons et brûlèrent des contrées entières, et leur art survécut à leurs maîtres." },
+        { "On trouve aujourd'hui ses élèves des deux côtés. La Lame ardente sert toujours la Légion en Durotar ; les démonistes de Hurlevent se tiennent dans la cave de l'Agneau assassiné ; les gnomes et les Réprouvés l'étudient aussi. Un démoniste lie des démons à son service, jette des malédictions, et paie le pouvoir de sa propre vie quand rien d'autre ne suffit." },
+        { client = "forever", "Les Darkspear comptent désormais eux aussi des démonistes parmi leurs lanceurs de sorts." },
+        { "La plupart des cités tolèrent les démonistes sans leur faire confiance, $gvoyageur:voyageuse;, et les démonistes semblent préférer qu'il en soit ainsi." },
+      },
+    },
+    ["warriors"] = {
+      title = "Guerriers",
+      text = {
+        { "Il n'existe pas d'ordre unique des guerriers, $gvoyageur:voyageuse;, seulement un métier aussi vieux que la première querelle. Les fantassins de Lordaeron et les chevaliers de Hurlevent, les grunts orcs qui ont abattu ces mêmes murailles, les braves taurens des plaines et les chasseurs Darkspear des îles ont appris les mêmes leçons par des chemins différents." },
+        { "Le métier a pourtant ses écoles. Un guerrier apprend à se tenir de trois façons : au combat, pour frapper le premier et fort ; en défense, derrière un bouclier, pour tenir une ligne ; et dans la fureur du berserker, qui dépense sans compter les forces du corps et les lui réclame plus tard. L'essentiel du travail consiste à savoir laquelle le moment exige." },
+        { "Chaque capitale a une salle où les guerriers forment les jeunes. La Ligue en engage un bon nombre comme escortes, et je n'en ai encore jamais rencontré un qui n'ait pas d'avis sur l'endroit où les fouilleurs devraient creuser." },
       },
     },
     ["wendigos"] = {
