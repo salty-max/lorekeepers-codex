@@ -1519,19 +1519,12 @@ do
     plural = "fr",
     words = { ["Begin"] = "Commencer", ["Oct"] = "oct.", ["chapter"] = "chapitre", ["chapters"] = "chapitres" },
     chapters = { ["wetlands"] = { "Les Paluns", "Des marais entre Khaz Modan et Arathi." } },
-    classic = {
-      { "Contreforts de Hautebrande", "Contreforts d'Hillsbrad" },
-      { "de Fossoyeuse", "d'Undercity" },
-      { "de Forgefer", "d'Ironforge" },
-      { "Fossoyeuse", "Undercity" },
-      { "Forgefer", "Ironforge" },
-    },
     pages = {
       ["grim-batol"] = {
         title = "Grim Batol",
         text = {
           {
-            "Premier paragraphe, $gcher voyageur:chere voyageuse;, de Forgefer aux Contreforts de Hautebrande, loin de Fossoyeuse.",
+            "Premier paragraphe, $gcher voyageur:chere voyageuse;.",
           },
           { client = "forever", "Pour Forever." },
           { client = "classic", "Pour Classic." },
@@ -1561,15 +1554,7 @@ do
       and text[3].side == "Horde",
     "… its pages, this game's paragraphs only, Parqual's aside kept"
   )
-  check(
-    text[1][1]
-      == (
-        FOREVER
-          and "Premier paragraphe, chere voyageuse, de Forgefer aux Contreforts de Hautebrande, loin de Fossoyeuse."
-        or "Premier paragraphe, chere voyageuse, d'Ironforge aux Contreforts d'Hillsbrad, loin d'Undercity."
-      ),
-    "… the reader's gender ($g), and on Classic its own names for the places Forever renamed, elisions and all"
-  )
+  check(text[1][1] == "Premier paragraphe, chere voyageuse.", "… the reader's gender ($g)")
 end
 
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")

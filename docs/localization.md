@@ -52,11 +52,22 @@ loads exactly what it does today.
 
 ## Names: what the player sees in their game
 
-A page must call a place, a figure or a book what the player's client calls
-it. A glossary per language, from the game's own data: places (AreaTable per
-locale, wago.tools), creatures and figures (Wowhead's localized tooltips,
-already used for the books' titles), items, factions. Translations use it;
-the build warns when a glossary term's English form is left in a translation.
+Every name is translated (the user's rule, 13 October 2026), as the game's
+own translators write it today. Classic Era's French client kept many English
+names from 2005 (Ironforge, Stormwind, Bronzebeard), Forever's mixes old and
+new ("Forgefer", but "Roi Magni Bronzebeard"); the live game has translated
+nearly all of them ("Magni Barbe-de-Bronze", "Crins-de-Givre", "Tonnebiere").
+A page uses the live game's name in both games, even where the player's own
+client still shows the English one.
+
+`python3 scripts/glossary.py <locale>` writes `i18n/<locale>/glossary.json`:
+every place, faction and figure the English pages name, with its name in each
+game (places and factions from AreaTable and Faction per locale, wago.tools;
+figures from Wowhead's localized tooltips) and `use`, the one to write: the
+live game's, else Forever's (its own additions: the Hall of Thanes, the
+Skyborne), else Classic's. A name in none of them (an old figure the live game
+removed, a clan named only in prose) follows the live game's own patterns, and
+is listed for the reviewer.
 
 ## Who translates
 
