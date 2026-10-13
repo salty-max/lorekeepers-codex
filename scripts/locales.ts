@@ -96,6 +96,8 @@ function read(locale: string) {
   if (meta.plural && !PLURALS.includes(meta.plural)) fail(join(dir, "meta.json"), `plural: one of ${PLURALS.join(", ")}`);
   const words = json<Record<string, string>>("words.json", {});
   const chapters = json<Record<string, [string, string]>>("chapters.json", {});
+  // Forever's names Classic writes otherwise (scripts/glossary.py)
+  const classic = json<Record<string, string>>("classic.json", {});
   for (const id of Object.keys(chapters)) if (!chapterIds.has(id)) fail(join(dir, "chapters.json"), `no chapter "${id}"`);
   const pages = new Map<string, Page>();
   for (const file of walk(join(dir, "pages"))) {
@@ -111,22 +113,26 @@ function read(locale: string) {
     }
     pages.set(id, { title: String(m.title), text: paragraphs(body), stale: m.source !== en.hash });
   }
-  return { meta, words, chapters, pages };
+  return { meta, words, chapters, pages, classic };
 }
 
-// Every name is translated (docs/localization.md): the English names the
-// glossary translates, and the capitalized words of them it leaves out
-// ("Bronzebeard" from "Roi Magni Barbe-de-Bronze"), left in the translation.
+// The names are Forever's (docs/localization.md): the English names the
+// glossary translates ("Ironforge": "Forgefer"), and the capitalized words of
+// them it leaves out ("Anvilmar" from "Modimus Anvilmar"), left in the
+// translation; never a word some name keeps ("Bronzebeard").
 function untranslated(locale: string, t: ReturnType<typeof read>): string[] {
   const file = join(I18N, locale, "glossary.json");
   if (!existsSync(file)) return [];
   const glossary: Record<string, Record<string, { use?: string }>> = JSON.parse(readFileSync(file, "utf8"));
   const names = new Set<string>();
+  const kept = Object.values(glossary)
+    .flatMap((kind) => Object.values(kind).map((e) => e.use ?? ""))
+    .join("\n");
   for (const kind of Object.values(glossary))
     for (const [en, e] of Object.entries(kind)) {
       if (!e.use || e.use.includes(en)) continue;
       names.add(en);
-      for (const w of en.split(/[\s-]+/)) if (/^[A-Z][a-z']{4,}$/.test(w) && !e.use.includes(w)) names.add(w);
+      for (const w of en.split(/[\s-]+/)) if (/^[A-Z][a-z']{4,}$/.test(w) && !kept.includes(w)) names.add(w);
     }
   const prose = [
     ...Object.values(t.words),
@@ -165,6 +171,13 @@ ${Object.entries(t.words)
 ${Object.entries(t.chapters)
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([id, [title, summary]]) => `    [${q(id)}] = { ${q(title)}, ${q(summary)} },`)
+  .join("\n")}
+  },
+  -- on Classic, its own names for the places Forever renamed (the longest first)
+  classic = {
+${Object.entries(t.classic)
+  .sort(([a], [b]) => b.length - a.length || a.localeCompare(b))
+  .map(([fv, cl]) => `    { ${q(fv)}, ${q(cl)} },`)
   .join("\n")}
   },
   pages = {

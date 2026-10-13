@@ -52,22 +52,30 @@ loads exactly what it does today.
 
 ## Names: what the player sees in their game
 
-Every name is translated (the user's rule, 13 October 2026), as the game's
-own translators write it today. Classic Era's French client kept many English
-names from 2005 (Ironforge, Stormwind, Bronzebeard), Forever's mixes old and
-new ("Forgefer", but "Roi Magni Bronzebeard"); the live game has translated
-nearly all of them ("Magni Barbe-de-Bronze", "Crins-de-Givre", "Tonnebiere").
-A page uses the live game's name in both games, even where the player's own
-client still shows the English one.
+A page calls a place or a figure what Forever's client calls it (the user's
+rule, 13 October 2026): the game the codex launches with, and what the player
+sees on the map, the nameplates and in the search box. Forever's translators
+renamed some places ("Forgefer", "Hurlevent", "Fossoyeuse", "Courbenclume")
+and kept many English names ("Roi Magni Bronzebeard", "Distillerie
+Thunderbrew", "Repaire des Frostmane"); a page keeps them too, even where the
+live game has translated them since ("Barbe-de-Bronze").
+
+On Classic Era, whose French client kept the 2005 names ("Ironforge",
+"Stormwind", "Mont Blackrock"), Classic's own replace Forever's when the
+language file loads (`Locale.lua`, from `i18n/<locale>/classic.json`, French
+elisions included: "de Forgefer" is "d'Ironforge" there).
 
 `python3 scripts/glossary.py <locale>` writes `i18n/<locale>/glossary.json`:
 every place, faction and figure the English pages name, with its name in each
 game (places and factions from AreaTable and Faction per locale, wago.tools;
-figures from Wowhead's localized tooltips) and `use`, the one to write: the
-live game's, else Forever's (its own additions: the Hall of Thanes, the
-Skyborne), else Classic's. A name in none of them (an old figure the live game
-removed, a clan named only in prose) follows the live game's own patterns, and
-is listed for the reviewer.
+figures from Wowhead's localized tooltips) and `use`, the one to write:
+Forever's, else Classic's, else the live game's (what neither has: Ironforge's
+wards). And `classic.json`, the swaps, with `classic-by-hand.json`'s, which
+win ("Hurlevent" is "Stormwind" in prose, not the zone's "Cite de
+Stormwind"). A name in no data (one only the prose names) follows Forever's
+pattern ("Modimus Courbenclume", as Anvilmar is "Courbenclume") and is listed
+for the reviewer. `bun scripts/locales.ts --check` lists the English names a
+translation left where Forever translates them.
 
 ## Who translates
 

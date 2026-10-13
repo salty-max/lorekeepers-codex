@@ -34,7 +34,7 @@
    "classic": "La Voile sanglante",
    "forever": "La Voile sanglante",
    "retail": "Voile sanglante",
-   "use": "Voile sanglante"
+   "use": "La Voile sanglante"
   },
   "Blue": {
    "classic": "Bleu",
@@ -70,7 +70,7 @@
    "classic": "Lame ardente",
    "forever": "Lame ardente",
    "retail": "Lame-Ardente",
-   "use": "Lame-Ardente"
+   "use": "Lame ardente"
   },
   "Caer Darrow": {
    "classic": "Caer Darrow",
@@ -98,13 +98,13 @@
    "classic": "Nains Sombrefer",
    "forever": "Nains Sombrefer",
    "retail": "Nains sombrefer",
-   "use": "Nains sombrefer"
+   "use": "Nains Sombrefer"
   },
   "Darkspear Trolls": {
    "classic": "Trolls Darkspear",
    "forever": "Trolls Darkspear",
    "retail": "Trolls sombrelances",
-   "use": "Trolls sombrelances"
+   "use": "Trolls Darkspear"
   },
   "Darnassus": {
    "classic": "Darnassus",
@@ -144,7 +144,7 @@
    "classic": "Long-guet",
    "forever": "Long-guet",
    "retail": "Long-Guet",
-   "use": "Long-Guet"
+   "use": "Long-guet"
   },
   "Explorers' League": {
    "retail": "Ligue des explorateurs",
@@ -203,7 +203,7 @@
    "classic": "Les Hydraxiens",
    "forever": "Les Hydraxiens",
    "retail": "Hydraxiens",
-   "use": "Hydraxiens"
+   "use": "Les Hydraxiens"
   },
   "Iron Dwarves": {
    "retail": "Nains de fer",
@@ -285,7 +285,7 @@
    "classic": "Ratchet",
    "forever": "Ratchet",
    "retail": "Cabestan",
-   "use": "Cabestan"
+   "use": "Ratchet"
   },
   "Ravenholdt": {
    "classic": "Ravenholdt",
@@ -325,7 +325,7 @@
    "classic": "Flibustiers des Mers du sud",
    "forever": "Flibustiers des Mers du sud",
    "retail": "Flibustiers des mers du Sud",
-   "use": "Flibustiers des mers du Sud"
+   "use": "Flibustiers des Mers du sud"
   },
   "Spirit": {
    "classic": "Esprit",
@@ -349,7 +349,7 @@
    "classic": "Stormwind",
    "forever": "Stormwind",
    "retail": "Hurlevent",
-   "use": "Hurlevent"
+   "use": "Stormwind"
   },
   "Syndicate": {
    "classic": "Syndicat",
@@ -365,7 +365,7 @@
    "classic": "La Ligue d'Arathor",
    "forever": "La Ligue d'Arathor",
    "retail": "Ligue d'Arathor",
-   "use": "Ligue d'Arathor"
+   "use": "La Ligue d'Arathor"
   },
   "The Sons of Lothar": {
    "retail": "Fils de Lothar",
@@ -391,13 +391,13 @@
    "classic": "Thunder Bluff",
    "forever": "Thunder Bluff",
    "retail": "Pitons-du-Tonnerre",
-   "use": "Pitons-du-Tonnerre"
+   "use": "Thunder Bluff"
   },
   "Timbermaw Hold": {
    "classic": "Les Grumegueules",
    "forever": "Les Grumegueules",
    "retail": "Grumegueules",
-   "use": "Grumegueules"
+   "use": "Les Grumegueules"
   },
   "Titan": {
    "classic": "Titan",
@@ -419,19 +419,19 @@
    "classic": "La KapitalRisk",
    "forever": "La KapitalRisk",
    "retail": "KapitalRisk",
-   "use": "KapitalRisk"
+   "use": "La KapitalRisk"
   },
   "Wailing Caverns": {
    "classic": "Cavernes des lamentations",
    "forever": "Cavernes des lamentations",
    "retail": "Cavernes des Lamentations",
-   "use": "Cavernes des Lamentations"
+   "use": "Cavernes des lamentations"
   },
   "Warsong Outriders": {
    "classic": "Voltigeurs Warsong",
    "forever": "Voltigeurs chanteguerres",
    "retail": "Voltigeurs Chanteguerre",
-   "use": "Voltigeurs Chanteguerre"
+   "use": "Voltigeurs chanteguerres"
   },
   "Wendigo": {
    "retail": "Wendigo",
@@ -441,7 +441,7 @@
    "classic": "Clan Wildhammer",
    "forever": "Clan Wildhammer",
    "retail": "Clan Marteau-Hardi",
-   "use": "Clan Marteau-Hardi"
+   "use": "Clan Wildhammer"
   },
   "Windshapers": {
    "forever": "Sculpte-vents",
@@ -521,13 +521,13 @@
    "classic": "Anaya Dawnrunner",
    "forever": "Anaya Dawnrunner",
    "retail": "Anaya Coursaurore",
-   "use": "Anaya Coursaurore"
+   "use": "Anaya Dawnrunner"
   },
   "Ancient Protector": {
    "classic": "Ancien Protecteur",
    "forever": "Ancien Protecteur",
    "retail": "Ancien protecteur",
-   "use": "Ancien protecteur"
+   "use": "Ancien Protecteur"
   },
   "Ancient of Lore": {
    "classic": "Ancien du savoir",
@@ -539,7 +539,7 @@
    "classic": "Ancien de la Guerre",
    "forever": "Ancien de la Guerre",
    "retail": "Ancien de la guerre",
-   "use": "Ancien de la guerre"
+   "use": "Ancien de la Guerre"
   },
   "Anduin Wrynn": {
    "classic": "Anduin Wrynn",
@@ -563,13 +563,13 @@
    "classic": "Archidruide Fandral Staghelm",
    "forever": "Archidruide Fandral Staghelm",
    "retail": "Archidruide Fandral Forteramure",
-   "use": "Archidruide Fandral Forteramure"
+   "use": "Archidruide Fandral Staghelm"
   },
   "Arch Druid Hamuul Runetotem": {
    "classic": "Archidruide Hamuul Runetotem",
    "forever": "Archidruide Hamuul Runetotem",
    "retail": "Archidruide Hamuul Totem-Runique",
-   "use": "Archidruide Hamuul Totem-Runique"
+   "use": "Archidruide Hamuul Runetotem"
   },
   "Archbishop Benedictus": {
    "classic": "Archevêque Benedictus",
@@ -581,7 +581,7 @@
    "classic": "Archimage Ansirem Runeweaver",
    "forever": "Archimage Ansirem Runeweaver",
    "retail": "Archimage Ansirem Tisserune",
-   "use": "Archimage Ansirem Tisserune"
+   "use": "Archimage Ansirem Runeweaver"
   },
   "Archmage Arugal": {
    "classic": "Archimage Arugal",
@@ -603,13 +603,13 @@
    "classic": "Officier de l'Aube d'argent Garush",
    "forever": "Officier de l'Aube d'argent Garush",
    "retail": "Officier d'argent Garush",
-   "use": "Officier d'argent Garush"
+   "use": "Officier de l'Aube d'argent Garush"
   },
   "Argent Officer Pureheart": {
    "classic": "Officier de l'Aube d'argent Pureheart",
    "forever": "Officier de l'Aube d'argent Pureheart",
    "retail": "Officier d'argent Purecarde",
-   "use": "Officier d'argent Purecarde"
+   "use": "Officier de l'Aube d'argent Pureheart"
   },
   "Argent Quartermaster Hasana": {
    "classic": "Intendante de l'Aube d'argent Hasana",
@@ -621,19 +621,19 @@
    "classic": "Intendant de l'Aube d'argent Lightspark",
    "forever": "Intendant de l'Aube d'argent Lightspark",
    "retail": "Intendant d'argent Feuzopoudre",
-   "use": "Intendant d'argent Feuzopoudre"
+   "use": "Intendant de l'Aube d'argent Lightspark"
   },
   "Ashenvale Outrunner": {
    "classic": "Estafette d'Ashenvale",
    "forever": "Estafette d'Ashenvale",
    "retail": "Estafette d'Orneval",
-   "use": "Estafette d'Orneval"
+   "use": "Estafette d'Ashenvale"
   },
   "Ashenvale Sentinel": {
    "classic": "Sentinelle d'Ashenvale",
    "forever": "Sentinelle d'Ashenvale",
    "retail": "Sentinelle d'Orneval",
-   "use": "Sentinelle d'Orneval"
+   "use": "Sentinelle d'Ashenvale"
   },
   "Astranaar Sentinel": {
    "classic": "Sentinelle d'Astranaar",
@@ -651,7 +651,7 @@
    "classic": "Aurora Skycaller",
    "forever": "Aurora Skycaller",
    "retail": "Aurora Mandeciel",
-   "use": "Aurora Mandeciel"
+   "use": "Aurora Skycaller"
   },
   "Ayessa Dawnsinger": {
    "forever": "Ayessa Chantelaube",
@@ -679,13 +679,13 @@
    "classic": "Baine Bloodhoof",
    "forever": "Baine Bloodhoof",
    "retail": "Baine Sabot-de-Sang",
-   "use": "Baine Sabot-de-Sang"
+   "use": "Baine Bloodhoof"
   },
   "Balir Frosthammer": {
    "classic": "Balir Frosthammer",
    "forever": "Balir Frosthammer",
    "retail": "Balir Martel-de-Givre",
-   "use": "Balir Martel-de-Givre"
+   "use": "Balir Frosthammer"
   },
   "Balnazzar": {
    "classic": "Balnazzar",
@@ -697,7 +697,7 @@
    "classic": "Balthule Shadowstrike",
    "forever": "Balthule Shadowstrike",
    "retail": "Balthule Frappelombre",
-   "use": "Balthule Frappelombre"
+   "use": "Balthule Shadowstrike"
   },
   "Baron Longshore": {
    "classic": "Baron de Longrivage",
@@ -715,7 +715,7 @@
    "classic": "Baron Rivendare",
    "forever": "Baron Rivendare",
    "retail": "Baron Vaillefendre",
-   "use": "Baron Vaillefendre"
+   "use": "Baron Rivendare"
   },
   "Baron Silverlaine": {
    "classic": "Baron d'Argelaine",
@@ -755,7 +755,7 @@
    "classic": "Champion Blackrock",
    "forever": "Champion Blackrock",
    "retail": "Champion rochenoire",
-   "use": "Champion rochenoire"
+   "use": "Champion Blackrock"
   },
   "Blood Elf Reclaimer": {
    "classic": "Vengeur elfe de sang",
@@ -785,7 +785,7 @@
    "classic": "Guerrier Bloodscalp",
    "forever": "Guerrier Bloodscalp",
    "retail": "Guerrier scalp-rouge",
-   "use": "Guerrier scalp-rouge"
+   "use": "Guerrier Bloodscalp"
   },
   "Blue Scalebane": {
    "classic": "Plaiedécaille bleu",
@@ -797,7 +797,7 @@
    "classic": "Braelyn Firehand",
    "forever": "Braelyn Firehand",
    "retail": "Braelyn Brasemain",
-   "use": "Braelyn Brasemain"
+   "use": "Braelyn Firehand"
   },
   "Brother Nimetz": {
    "classic": "Frère Nimetz",
@@ -809,7 +809,7 @@
    "classic": "Nervi de la Lame ardente",
    "forever": "Nervi de la Lame ardente",
    "retail": "Nervi de la Lame-Ardente",
-   "use": "Nervi de la Lame-Ardente"
+   "use": "Nervi de la Lame ardente"
   },
   "C'Thun": {
    "classic": "C'Thun",
@@ -821,19 +821,19 @@
    "classic": "Cairne Bloodhoof",
    "forever": "Cairne Bloodhoof",
    "retail": "Cairne Sabot-de-Sang",
-   "use": "Cairne Sabot-de-Sang"
+   "use": "Cairne Bloodhoof"
   },
   "Caledra Dawnbreeze": {
    "classic": "Caledra Dawnbreeze",
    "forever": "Caledra Dawnbreeze",
    "retail": "Caledra Bisedelaube",
-   "use": "Caledra Bisedelaube"
+   "use": "Caledra Dawnbreeze"
   },
   "Captain Fairmount": {
    "classic": "Capitaine Fairmount",
    "forever": "Capitaine Fairmount",
    "retail": "Capitaine Beaumont",
-   "use": "Capitaine Beaumont"
+   "use": "Capitaine Fairmount"
   },
   "Captain Halyndor": {
    "classic": "Capitaine Halyndor",
@@ -845,31 +845,31 @@
    "classic": "Capitaine Ironhill",
    "forever": "Capitaine Ironhill",
    "retail": "Capitaine Colline-de-fer",
-   "use": "Capitaine Colline-de-fer"
+   "use": "Capitaine Ironhill"
   },
   "Captain Rugelfuss": {
    "classic": "Capitaine Rugelfuss",
    "forever": "Capitaine Rugelfuss",
    "retail": "Capitaine Rudagite",
-   "use": "Capitaine Rudagite"
+   "use": "Capitaine Rugelfuss"
   },
   "Captain Stoutfist": {
    "classic": "Capitaine Stoutfist",
    "forever": "Capitaine Stoutfist",
    "retail": "Capitaine Rudepoing",
-   "use": "Capitaine Rudepoing"
+   "use": "Capitaine Stoutfist"
   },
   "Captain Thalo'thas Brightsun": {
    "classic": "Capitaine Thalo'thas Brightsun",
    "forever": "Capitaine Thalo'thas Brightsun",
    "retail": "Capitaine Thalo'thas Brillesoleil",
-   "use": "Capitaine Thalo'thas Brillesoleil"
+   "use": "Capitaine Thalo'thas Brightsun"
   },
   "Cerellean Whiteclaw": {
    "classic": "Cerellean Whiteclaw",
    "forever": "Cerellean Whiteclaw",
    "retail": "Cerellean Blanchegriffe",
-   "use": "Cerellean Blanchegriffe"
+   "use": "Cerellean Whiteclaw"
   },
   "Champion Sentinel": {
    "classic": "Sentinelle champion",
@@ -887,7 +887,7 @@
    "classic": "Chef Hawkwind",
    "forever": "Chef Hawkwind",
    "retail": "Chef Vent-du-faucon",
-   "use": "Chef Vent-du-faucon"
+   "use": "Chef Hawkwind"
   },
   "Chieftain Nek'rosh": {
    "classic": "Chef Nek'rosh",
@@ -917,13 +917,13 @@
    "classic": "Commandant Althea Ebonlocke",
    "forever": "Commandant Althea Ebonlocke",
    "retail": "Commandant Althea Bouclenoire",
-   "use": "Commandant Althea Bouclenoire"
+   "use": "Commandant Althea Ebonlocke"
   },
   "Commander Springvale": {
    "classic": "Commandant Springvale",
    "forever": "Commandant Springvale",
    "retail": "Commandant Printeval",
-   "use": "Commandant Printeval"
+   "use": "Commandant Springvale"
   },
   "Curator Thorius": {
    "classic": "Conservateur en chef Thorius",
@@ -935,7 +935,7 @@
    "classic": "Nain Sombrefer",
    "forever": "Nain Sombrefer",
    "retail": "Nain sombrefer",
-   "use": "Nain sombrefer"
+   "use": "Nain Sombrefer"
   },
   "Darkmaster Gandling": {
    "classic": "Sombre Maître Gandling",
@@ -965,67 +965,67 @@
    "classic": "Garde noir Linnea",
    "forever": "Garde noir Linnea",
    "retail": "Nécrogarde Linnea",
-   "use": "Nécrogarde Linnea"
+   "use": "Garde noir Linnea"
   },
   "Deathstalker Adamant": {
    "classic": "Traqueur noir Adamant",
    "forever": "Traqueur noir Adamant",
    "retail": "Nécrotraqueur Adamant",
-   "use": "Nécrotraqueur Adamant"
+   "use": "Traqueur noir Adamant"
   },
   "Deathstalker Erland": {
    "classic": "Traqueur noir Erland",
    "forever": "Traqueur noir Erland",
    "retail": "Nécrotraqueur Erland",
-   "use": "Nécrotraqueur Erland"
+   "use": "Traqueur noir Erland"
   },
   "Deathstalker Faerleia": {
    "classic": "Traqueur noir Faerleia",
    "forever": "Traqueur noir Faerleia",
    "retail": "Nécrotraqueuse Faerleia",
-   "use": "Nécrotraqueuse Faerleia"
+   "use": "Traqueur noir Faerleia"
   },
   "Deathstalker Lesh": {
    "classic": "Traqueur noir Lesh",
    "forever": "Traqueur noir Lesh",
    "retail": "Nécrotraqueuse Lesh",
-   "use": "Nécrotraqueuse Lesh"
+   "use": "Traqueur noir Lesh"
   },
   "Deathstalker Mortis": {
    "classic": "Traqueur noir Mortis",
    "forever": "Traqueur noir Mortis",
    "retail": "Nécrotraqueur Mortis",
-   "use": "Nécrotraqueur Mortis"
+   "use": "Traqueur noir Mortis"
   },
   "Deathstalker Vincent": {
    "classic": "Traqueur noir Vincent",
    "forever": "Traqueur noir Vincent",
    "retail": "Nécrotraqueur Vincent",
-   "use": "Nécrotraqueur Vincent"
+   "use": "Traqueur noir Vincent"
   },
   "Deathstalker Zraedus": {
    "classic": "Traqueur noir Zraedus",
    "forever": "Traqueur noir Zraedus",
    "retail": "Nécrotraqueur Zraedus",
-   "use": "Nécrotraqueur Zraedus"
+   "use": "Traqueur noir Zraedus"
   },
   "Defias Bandit": {
    "classic": "Bandit défias",
    "forever": "Bandit défias",
    "retail": "Bandit",
-   "use": "Bandit"
+   "use": "Bandit défias"
   },
   "Delgren the Purifier": {
    "classic": "Delgren le Purificateur",
    "forever": "Delgren le Purificateur",
    "retail": "[DEPRECATED 4.x] Delgren le Purificateur",
-   "use": "[DEPRECATED 4.x] Delgren le Purificateur"
+   "use": "Delgren le Purificateur"
   },
   "Dragonmaw Raider": {
    "classic": "Ecumeur Dragonmaw",
    "forever": "Ecumeur Dragonmaw",
    "retail": "Pilleur gueule-de-dragon",
-   "use": "Pilleur gueule-de-dragon"
+   "use": "Ecumeur Dragonmaw"
   },
   "Drek'Thar": {
    "classic": "Drek'Thar",
@@ -1117,25 +1117,25 @@
    "classic": "Falfindel Waywarder",
    "forever": "Falfindel Waywarder",
    "retail": "[Deprecated for 4.x]Falfindel Waywarder",
-   "use": "[Deprecated for 4.x]Falfindel Waywarder"
+   "use": "Falfindel Waywarder"
   },
   "Fallen Hero of the Horde": {
    "classic": "Héros déchu de la Horde",
    "forever": "Héros déchu de la Horde",
    "retail": "Héros de la Horde tombé au combat",
-   "use": "Héros de la Horde tombé au combat"
+   "use": "Héros déchu de la Horde"
   },
   "Falrin Treeshaper": {
    "classic": "Falrin Treeshaper",
    "forever": "Falrin Treeshaper",
    "retail": "Falrin Sculpteflore",
-   "use": "Falrin Sculpteflore"
+   "use": "Falrin Treeshaper"
   },
   "Falstad Wildhammer": {
    "classic": "Falstad Wildhammer",
    "forever": "Falstad Wildhammer",
    "retail": "Falstad Marteau-Hardi",
-   "use": "Falstad Marteau-Hardi"
+   "use": "Falstad Wildhammer"
   },
   "Farmer Saldean": {
    "classic": "Saldean le fermier",
@@ -1147,25 +1147,25 @@
    "classic": "Sentinelle de Feathermoon",
    "forever": "Sentinelle de Feathermoon",
    "retail": "Sentinelle de Pennelune",
-   "use": "Sentinelle de Pennelune"
+   "use": "Sentinelle de Feathermoon"
   },
   "Fiora Longears": {
    "classic": "Fiora Longears",
    "forever": "Fiora Longears",
    "retail": "Fiora Grandes-oreilles",
-   "use": "Fiora Grandes-oreilles"
+   "use": "Fiora Longears"
   },
   "Franclorn Forgewright": {
    "classic": "Franclorn Forgewright",
    "forever": "Franclorn Forgewright",
    "retail": "Franclorn Le Forgebusier",
-   "use": "Franclorn Le Forgebusier"
+   "use": "Franclorn Forgewright"
   },
   "Frostmane Troll": {
    "classic": "Troll Frostmane",
    "forever": "Troll Frostmane",
    "retail": "Troll crins-de-givre",
-   "use": "Troll crins-de-givre"
+   "use": "Troll Frostmane"
   },
   "Galak Centaur": {
    "classic": "Centaure galak",
@@ -1177,7 +1177,7 @@
    "classic": "Gann Stonespire",
    "forever": "Gann Stonespire",
    "retail": "Gann Cime-de-pierre",
-   "use": "Gann Cime-de-pierre"
+   "use": "Gann Stonespire"
   },
   "Gatekeeper Rageroar": {
    "classic": "Portier Hurlerage",
@@ -1195,13 +1195,13 @@
    "classic": "Gazlowe",
    "forever": "Gazlowe",
    "retail": "Gazleu",
-   "use": "Gazleu"
+   "use": "Gazlowe"
   },
   "Gerenzo Wrenchwhistle": {
    "classic": "Gerenzo Wrenchwhistle",
    "forever": "Gerenzo Wrenchwhistle",
    "retail": "Gerenzo Siffleclef",
-   "use": "Gerenzo Siffleclef"
+   "use": "Gerenzo Wrenchwhistle"
   },
   "Ghost Howl": {
    "classic": "Hurleur fantomatique",
@@ -1213,19 +1213,19 @@
    "classic": "Gilthares Firebough",
    "forever": "Gilthares Firebough",
    "retail": "Gilthares Ramefeu",
-   "use": "Gilthares Ramefeu"
+   "use": "Gilthares Firebough"
   },
   "Gilveradin Sunchaser": {
    "classic": "Gilveradin Sunchaser",
    "forever": "Gilveradin Sunchaser",
    "retail": "Gilveradin Courresoleil",
-   "use": "Gilveradin Courresoleil"
+   "use": "Gilveradin Sunchaser"
   },
   "Gnarlpine Warrior": {
    "classic": "Guerrier Pin-tordu",
    "forever": "Guerrier Pin-tordu",
    "retail": "Guerrier pin-tordu",
-   "use": "Guerrier pin-tordu"
+   "use": "Guerrier Pin-tordu"
   },
   "Gorn One Eye": {
    "classic": "Gorn le Borgne",
@@ -1237,7 +1237,7 @@
    "classic": "Grand Inquisiteur Isillien",
    "forever": "Grand Inquisiteur Isillien",
    "retail": "Grand inquisiteur Isillien",
-   "use": "Grand inquisiteur Isillien"
+   "use": "Grand Inquisiteur Isillien"
   },
   "Grazle": {
    "classic": "Grifleur",
@@ -1255,19 +1255,19 @@
    "classic": "Grelin Whitebeard",
    "forever": "Grelin Whitebeard",
    "retail": "Grelin Blanchebarbe",
-   "use": "Grelin Blanchebarbe"
+   "use": "Grelin Whitebeard"
   },
   "Grimtotem Raider": {
    "classic": "Ecumeur du Totem sinistre",
    "forever": "Ecumeur du Totem sinistre",
    "retail": "Pilleur du Totem-Sinistre",
-   "use": "Pilleur du Totem-Sinistre"
+   "use": "Ecumeur du Totem sinistre"
   },
   "Gryan Stoutmantle": {
    "classic": "Gryan Stoutmantle",
    "forever": "Gryan Stoutmantle",
    "retail": "Maréchal Gryan Roidemantel",
-   "use": "Maréchal Gryan Roidemantel"
+   "use": "Gryan Stoutmantle"
   },
   "Hakkar": {
    "classic": "Hakkar",
@@ -1285,7 +1285,7 @@
    "classic": "Hemet Nesingwary",
    "forever": "Hemet Nesingwary",
    "retail": "Hemet Nesingwary Jr.",
-   "use": "Hemet Nesingwary Jr."
+   "use": "Hemet Nesingwary"
   },
   "High Explorer Magellas": {
    "classic": "Grand Explorateur Magellas",
@@ -1297,13 +1297,13 @@
    "classic": "Grand Inquisiteur Fairbanks",
    "forever": "Grand Inquisiteur Fairbanks",
    "retail": "Grand inquisiteur Fairbanks",
-   "use": "Grand inquisiteur Fairbanks"
+   "use": "Grand Inquisiteur Fairbanks"
   },
   "High Inquisitor Whitemane": {
    "classic": "Grand Inquisiteur Whitemane",
    "forever": "Grand Inquisiteur Whitemane",
    "retail": "Grande inquisitrice Blanchetête",
-   "use": "Grande inquisitrice Blanchetête"
+   "use": "Grand Inquisiteur Whitemane"
   },
   "High Priestess Lorthuna": {
    "forever": "Grande prêtresse Lorthuna",
@@ -1313,7 +1313,7 @@
    "classic": "Grand Bricoleur Mekkatorque",
    "forever": "Grand Bricoleur Mekkatorque",
    "retail": "Grand Bricoleur Mekkanivelle",
-   "use": "Grand Bricoleur Mekkanivelle"
+   "use": "Grand Bricoleur Mekkatorque"
   },
   "Highborne Apparition": {
    "classic": "Apparition bien-née",
@@ -1349,7 +1349,7 @@
    "classic": "Chasseresse Leafrunner",
    "forever": "Chasseresse Leafrunner",
    "retail": "Chasseresse Coursefeuille",
-   "use": "Chasseresse Coursefeuille"
+   "use": "Chasseresse Leafrunner"
   },
   "Huntress Nhemai": {
    "classic": "Chasseresse Nhemai",
@@ -1361,19 +1361,19 @@
    "classic": "Chasseresse Ravenoak",
    "forever": "Chasseresse Ravenoak",
    "retail": "Chasseresse Corvichêne",
-   "use": "Chasseresse Corvichêne"
+   "use": "Chasseresse Ravenoak"
   },
   "Huntress Skymane": {
    "classic": "Chasseresse Crins-de-ciel",
    "forever": "Chasseresse Crins-de-ciel",
    "retail": "Chasseresse Crins-de-Ciel",
-   "use": "Chasseresse Crins-de-Ciel"
+   "use": "Chasseresse Crins-de-ciel"
   },
   "Huntress Swiftriver": {
    "classic": "Chasseresse Swiftriver",
    "forever": "Chasseresse Swiftriver",
    "retail": "Chasseresse Ondevive",
-   "use": "Chasseresse Ondevive"
+   "use": "Chasseresse Swiftriver"
   },
   "Huntress Yaeliura": {
    "classic": "Chasseresse Yaeliura",
@@ -1385,7 +1385,7 @@
    "classic": "Illiyana Moonblaze",
    "forever": "Illiyana Moonblaze",
    "retail": "Illiyana Braselune",
-   "use": "Illiyana Braselune"
+   "use": "Illiyana Moonblaze"
   },
   "Ironbark the Redeemed": {
    "classic": "Ecorcefer le Racheté",
@@ -1421,7 +1421,7 @@
    "classic": "Jer'kai Moonweaver",
    "forever": "Jer'kai Moonweaver",
    "retail": "Jer'kai Tisselune",
-   "use": "Jer'kai Tisselune"
+   "use": "Jer'kai Moonweaver"
   },
   "Jeziba": {
    "classic": "Jeziba",
@@ -1433,7 +1433,7 @@
    "classic": "Kaela Shadowspear",
    "forever": "Kaela Shadowspear",
    "retail": "Kaela Ombrelance",
-   "use": "Kaela Ombrelance"
+   "use": "Kaela Shadowspear"
   },
   "Keeper Albagorm": {
    "classic": "Gardien Albagorm",
@@ -1475,13 +1475,13 @@
    "classic": "Kindal Moonweaver",
    "forever": "Kindal Moonweaver",
    "retail": "Kindal Tisselune",
-   "use": "Kindal Tisselune"
+   "use": "Kindal Moonweaver"
   },
   "King Magni Bronzebeard": {
    "classic": "Roi Magni Bronzebeard",
    "forever": "Roi Magni Bronzebeard",
    "retail": "Roi Magni Barbe-de-Bronze",
-   "use": "Roi Magni Barbe-de-Bronze"
+   "use": "Roi Magni Bronzebeard"
   },
   "Kirith the Damned": {
    "classic": "Kirith le Damné",
@@ -1499,13 +1499,13 @@
    "classic": "Kravel Koalbeard",
    "forever": "Kravel Koalbeard",
    "retail": "[Deprecated for 4.x]Kravel Koalbeard",
-   "use": "[Deprecated for 4.x]Kravel Koalbeard"
+   "use": "Kravel Koalbeard"
   },
   "Kriss Goldenlight": {
    "classic": "Kriss Goldenlight",
    "forever": "Kriss Goldenlight",
    "retail": "Kriss Lumedor",
-   "use": "Kriss Lumedor"
+   "use": "Kriss Goldenlight"
   },
   "Kundric Zanden": {
    "classic": "Kundric Zanden",
@@ -1523,7 +1523,7 @@
    "classic": "Dame Jaina Proudmoore",
    "forever": "Dame Jaina Proudmoore",
    "retail": "Dame Jaina Portvaillant",
-   "use": "Dame Jaina Portvaillant"
+   "use": "Dame Jaina Proudmoore"
   },
   "Lady Katrana Prestor": {
    "classic": "Dame Katrana Prestor",
@@ -1535,7 +1535,7 @@
    "classic": "Dame Sylvanas Windrunner",
    "forever": "Dame Sylvanas Windrunner",
    "retail": "Dame Sylvanas Coursevent",
-   "use": "Dame Sylvanas Coursevent"
+   "use": "Dame Sylvanas Windrunner"
   },
   "Leper Gnome": {
    "classic": "Gnome lépreux",
@@ -1577,7 +1577,7 @@
    "classic": "Lokhtos Darkbargainer",
    "forever": "Lokhtos Darkbargainer",
    "retail": "Lokhtos Sombrescompte",
-   "use": "Lokhtos Sombrescompte"
+   "use": "Lokhtos Darkbargainer"
   },
   "Loramus Thalipedes": {
    "classic": "Loramus Thalipedes",
@@ -1595,7 +1595,7 @@
    "classic": "Seigneur Banehollow",
    "forever": "Seigneur Banehollow",
    "retail": "Seigneur Creuseplaie",
-   "use": "Seigneur Creuseplaie"
+   "use": "Seigneur Banehollow"
   },
   "Lord Cobrahn": {
    "classic": "Seigneur Cobrahn",
@@ -1607,7 +1607,7 @@
    "classic": "Seigneur Falconcrest",
    "forever": "Seigneur Falconcrest",
    "retail": "Seigneur Lépervier",
-   "use": "Seigneur Lépervier"
+   "use": "Seigneur Falconcrest"
   },
   "Lord Gregor Lescovar": {
    "classic": "Seigneur Gregor Lescovar",
@@ -1685,7 +1685,7 @@
    "classic": "Lothos Riftwaker",
    "forever": "Lothos Riftwaker",
    "retail": "Lothos Ouvrefaille",
-   "use": "Lothos Ouvrefaille"
+   "use": "Lothos Riftwaker"
   },
   "Lunaclaw Spirit": {
    "classic": "Esprit de Lunegriffe",
@@ -1697,7 +1697,7 @@
    "classic": "Maman Stonefield",
    "forever": "Maman Stonefield",
    "retail": "Maman Champierreux",
-   "use": "Maman Champierreux"
+   "use": "Maman Stonefield"
   },
   "Madame Eva": {
    "classic": "Madame Eva",
@@ -1709,25 +1709,25 @@
    "classic": "Magatha Grimtotem",
    "forever": "Magatha Grimtotem",
    "retail": "Magatha Totem-Sinistre",
-   "use": "Magatha Totem-Sinistre"
+   "use": "Magatha Grimtotem"
   },
   "Magistrate Solomon": {
    "classic": "Magistrat Solomon",
    "forever": "Magistrat Solomon",
    "retail": "Magistrat Salomon",
-   "use": "Magistrat Salomon"
+   "use": "Magistrat Solomon"
   },
   "Marek Ironheart": {
    "classic": "Marek Ironheart",
    "forever": "Marek Ironheart",
    "retail": "Marek Cœur-de-fer",
-   "use": "Marek Cœur-de-fer"
+   "use": "Marek Ironheart"
   },
   "Marin Noggenfogger": {
    "classic": "Marin Noggenfogger",
    "forever": "Marin Noggenfogger",
    "retail": "Marin Brouillecaboche",
-   "use": "Marin Brouillecaboche"
+   "use": "Marin Noggenfogger"
   },
   "Marshal Dughan": {
    "classic": "Maréchal Dughan",
@@ -1763,7 +1763,7 @@
    "classic": "Mathredis Firestar",
    "forever": "Mathredis Firestar",
    "retail": "Mathredis Brasétoile",
-   "use": "Mathredis Brasétoile"
+   "use": "Mathredis Firestar"
   },
   "Maybell Maclure": {
    "classic": "Maybell Maclure",
@@ -1781,7 +1781,7 @@
    "classic": "Mekgénieur Thermaplugg",
    "forever": "Mekgénieur Thermaplugg",
    "retail": "Mekgénieur Thermojoncteur",
-   "use": "Mekgénieur Thermojoncteur"
+   "use": "Mekgénieur Thermaplugg"
   },
   "Mennet Carkad": {
    "classic": "Mennet Carkad",
@@ -1799,7 +1799,7 @@
    "classic": "Ogre Mo'grosh",
    "forever": "Ogre Mo'grosh",
    "retail": "Ogre mo'grosh",
-   "use": "Ogre mo'grosh"
+   "use": "Ogre Mo'grosh"
   },
   "Molthor": {
    "classic": "Molthor",
@@ -1829,7 +1829,7 @@
    "classic": "Morbent Fel",
    "forever": "Morbent Fel",
    "retail": "Morbent Lagangrène",
-   "use": "Morbent Lagangrène"
+   "use": "Morbent Fel"
   },
   "Morgan Ladimore": {
    "classic": "Morgan Ladimore",
@@ -1841,19 +1841,19 @@
    "classic": "Morganth",
    "forever": "Morganth",
    "retail": "Grand magus Doane",
-   "use": "Grand magus Doane"
+   "use": "Morganth"
   },
   "Mosh'Ogg Mauler": {
    "classic": "Mutileur Mosh'Ogg",
    "forever": "Mutileur Mosh'Ogg",
    "retail": "Marteleur mosh'Ogg",
-   "use": "Marteleur mosh'Ogg"
+   "use": "Mutileur Mosh'Ogg"
   },
   "Mosshide Gnoll": {
    "classic": "Gnoll Poil-moussu",
    "forever": "Gnoll Poil-moussu",
    "retail": "Gnoll poil-moussu",
-   "use": "Gnoll poil-moussu"
+   "use": "Gnoll Poil-moussu"
   },
   "Murloc Forager": {
    "classic": "Fourrageur murloc",
@@ -1877,7 +1877,7 @@
    "classic": "Neeru Fireblade",
    "forever": "Neeru Fireblade",
    "retail": "Arnak Lamefeu",
-   "use": "Arnak Lamefeu"
+   "use": "Neeru Fireblade"
   },
   "Nefarian": {
    "classic": "Nefarian",
@@ -1925,7 +1925,7 @@
    "classic": "Pilote Stonegear",
    "forever": "Pilote Stonegear",
    "retail": "Pilote Engrepierre",
-   "use": "Pilote Engrepierre"
+   "use": "Pilote Stonegear"
   },
   "Priestess A'moora": {
    "classic": "Prêtresse A'moora",
@@ -1943,7 +1943,7 @@
    "classic": "Prince Thunderaan",
    "forever": "Prince Thunderaan",
    "retail": "Prince Tonneraan",
-   "use": "Prince Tonneraan"
+   "use": "Prince Thunderaan"
   },
   "Prince Tortheldrin": {
    "classic": "Prince Tortheldrin",
@@ -1955,13 +1955,13 @@
    "classic": "Princesse Moira Bronzebeard",
    "forever": "Princesse Moira Bronzebeard",
    "retail": "Princesse Moira Barbe-de-Bronze",
-   "use": "Princesse Moira Barbe-de-Bronze"
+   "use": "Princesse Moira Bronzebeard"
   },
   "Prospector Ironband": {
    "classic": "Prospecteur Ironband",
    "forever": "Prospecteur Ironband",
    "retail": "Prospecteur Baguefer",
-   "use": "Prospecteur Baguefer"
+   "use": "Prospecteur Ironband"
   },
   "Prospector Khazgorm": {
    "classic": "Prospecteur Khazgorm",
@@ -1973,7 +1973,7 @@
    "classic": "Prospecteur Remtravel",
    "forever": "Prospecteur Remtravel",
    "retail": "Prospecteur Songerrance",
-   "use": "Prospecteur Songerrance"
+   "use": "Prospecteur Remtravel"
   },
   "Prospector Ryedol": {
    "classic": "Prospecteur Ryedol",
@@ -1985,7 +1985,7 @@
    "classic": "Prospecteur Stormpike",
    "forever": "Prospecteur Stormpike",
    "retail": "Prospecteur Foudrepique",
-   "use": "Prospecteur Foudrepique"
+   "use": "Prospecteur Stormpike"
   },
   "Prospector Whelgar": {
    "classic": "Prospecteur Whelgar",
@@ -2009,7 +2009,7 @@
    "classic": "Raene Wolfrunner",
    "forever": "Raene Wolfrunner",
    "retail": "Raene Mèneloup",
-   "use": "Raene Mèneloup"
+   "use": "Raene Wolfrunner"
   },
   "Ragnaros": {
    "classic": "Ragnaros",
@@ -2045,7 +2045,7 @@
    "classic": "Huran Tranchecrin",
    "forever": "Huran Tranchecrin",
    "retail": "Huran tranchecrin",
-   "use": "Huran tranchecrin"
+   "use": "Huran Tranchecrin"
   },
   "Red Dragonspawn": {
    "classic": "Draconide rouge",
@@ -2057,37 +2057,37 @@
    "classic": "Rethiel le Gouverneur vert",
    "forever": "Rethiel le Gouverneur vert",
    "retail": "Rethiel le Gardien vert",
-   "use": "Rethiel le Gardien vert"
+   "use": "Rethiel le Gouverneur vert"
   },
   "Rexxar": {
    "classic": "Rexxar",
    "forever": "Rexxar",
    "retail": "Rokaro",
-   "use": "Rokaro"
+   "use": "Rexxar"
   },
   "Rimblat Earthshatter": {
    "classic": "Rimblat Brise-terre",
    "forever": "Rimblat Brise-terre",
    "retail": "Rimblat Brise-Terre",
-   "use": "Rimblat Brise-Terre"
+   "use": "Rimblat Brise-terre"
   },
   "Rivern Frostwind": {
    "classic": "Rivern Frostwind",
    "forever": "Rivern Frostwind",
    "retail": "Rivern Givrevent",
-   "use": "Rivern Givrevent"
+   "use": "Rivern Frostwind"
   },
   "Riverpaw Gnoll": {
    "classic": "Gnoll Rivepatte",
    "forever": "Gnoll Rivepatte",
    "retail": "Gnoll rivepatte",
-   "use": "Gnoll rivepatte"
+   "use": "Gnoll Rivepatte"
   },
   "Rockjaw Trogg": {
    "classic": "Trogg Mâcheroc",
    "forever": "Trogg Mâcheroc",
    "retail": "Trogg mâcheroc",
-   "use": "Trogg mâcheroc"
+   "use": "Trogg Mâcheroc"
   },
   "Royal Historian Archesonus": {
    "classic": "Historienne royale Archesonus",
@@ -2099,7 +2099,7 @@
    "classic": "Ruul Eagletalon",
    "forever": "Ruul Eagletalon",
    "retail": "Ruul Serre-d'Aigle",
-   "use": "Ruul Serre-d'Aigle"
+   "use": "Ruul Eagletalon"
   },
   "Salfa": {
    "classic": "Salfa",
@@ -2111,13 +2111,13 @@
    "classic": "Sanath Lim-yo",
    "forever": "Sanath Lim-yo",
    "retail": "Sanath Lim-Yo",
-   "use": "Sanath Lim-Yo"
+   "use": "Sanath Lim-yo"
   },
   "Sandfury Hideskinner": {
    "classic": "Dépeceur Sandfury",
    "forever": "Dépeceur Sandfury",
    "retail": "Dépeceur furie-des-sables",
-   "use": "Dépeceur furie-des-sables"
+   "use": "Dépeceur Sandfury"
   },
   "Scarlet Commander Mograine": {
    "classic": "Commandant écarlate Mograine",
@@ -2147,7 +2147,7 @@
    "classic": "Sentinelle Arynia Cloudsbreak",
    "forever": "Sentinelle Arynia Cloudsbreak",
    "retail": "Sentinelle Arynia Eclairciel",
-   "use": "Sentinelle Arynia Eclairciel"
+   "use": "Sentinelle Arynia Cloudsbreak"
   },
   "Sentinel Aynasha": {
    "classic": "Sentinelle Aynasha",
@@ -2159,19 +2159,19 @@
    "classic": "Sentinelle Dalia Sunblade",
    "forever": "Sentinelle Dalia Sunblade",
    "retail": "Sentinelle Dalia Lamesoleil",
-   "use": "Sentinelle Dalia Lamesoleil"
+   "use": "Sentinelle Dalia Sunblade"
   },
   "Sentinel Elissa Starbreeze": {
    "classic": "Sentinelle Elissa Starbreeze",
    "forever": "Sentinelle Elissa Starbreeze",
    "retail": "[Deprecated for 4.x]Sentinel Elissa Starbreeze",
-   "use": "[Deprecated for 4.x]Sentinel Elissa Starbreeze"
+   "use": "Sentinelle Elissa Starbreeze"
   },
   "Sentinel Farsong": {
    "classic": "Sentinelle Farsong",
    "forever": "Sentinelle Farsong",
    "retail": "Sentinelle Chanteloin",
-   "use": "Sentinelle Chanteloin"
+   "use": "Sentinelle Farsong"
   },
   "Sentinel Glynda Nal'Shea": {
    "classic": "Sentinelle Glynda Nal'Shea",
@@ -2183,19 +2183,19 @@
    "classic": "Sentinelle Keldara Sunblade",
    "forever": "Sentinelle Keldara Sunblade",
    "retail": "Sentinelle Keldara Lamesoleil",
-   "use": "Sentinelle Keldara Lamesoleil"
+   "use": "Sentinelle Keldara Sunblade"
   },
   "Sentinel Kyra Starsong": {
    "classic": "Sentinelle Kyra Starsong",
    "forever": "Sentinelle Kyra Starsong",
    "retail": "Sentinelle Kyra Chantétoile",
-   "use": "Sentinelle Kyra Chantétoile"
+   "use": "Sentinelle Kyra Starsong"
   },
   "Sentinel Melyria Frostshadow": {
    "classic": "Sentinelle Melyria Frostshadow",
    "forever": "Sentinelle Melyria Frostshadow",
    "retail": "Sentinelle Melyria Ombregivre",
-   "use": "Sentinelle Melyria Ombregivre"
+   "use": "Sentinelle Melyria Frostshadow"
   },
   "Sentinel Onaeya": {
    "classic": "Sentinelle Onaeya",
@@ -2219,13 +2219,13 @@
    "classic": "Sentinelle Shayla Nightbreeze",
    "forever": "Sentinelle Shayla Nightbreeze",
    "retail": "Sentinelle Shayla Noctebrise",
-   "use": "Sentinelle Shayla Noctebrise"
+   "use": "Sentinelle Shayla Nightbreeze"
   },
   "Sentinel Silversky": {
    "classic": "Sentinelle Silversky",
    "forever": "Sentinelle Silversky",
    "retail": "Sentinelle Argeciel",
-   "use": "Sentinelle Argeciel"
+   "use": "Sentinelle Silversky"
   },
   "Sentinel Thenysil": {
    "classic": "Sentinelle Thenysil",
@@ -2237,19 +2237,19 @@
    "classic": "Sentinelle Tysha Moonblade",
    "forever": "Sentinelle Tysha Moonblade",
    "retail": "Sentinelle Tysha Lamelune",
-   "use": "Sentinelle Tysha Lamelune"
+   "use": "Sentinelle Tysha Moonblade"
   },
   "Sentinel Velene Starstrike": {
    "classic": "Sentinelle Velene Starstrike",
    "forever": "Sentinelle Velene Starstrike",
    "retail": "Sentinelle Vélène Heurtétoile",
-   "use": "Sentinelle Vélène Heurtétoile"
+   "use": "Sentinelle Velene Starstrike"
   },
   "Sergra Darkthorn": {
    "classic": "Sergra Darkthorn",
    "forever": "Sergra Darkthorn",
    "retail": "Sergra Sombreronce",
-   "use": "Sergra Sombreronce"
+   "use": "Sergra Darkthorn"
   },
   "Shade of Eranikus": {
    "classic": "Ombre d'Eranikus",
@@ -2261,7 +2261,7 @@
    "classic": "Seigneur des ténèbres Fel'dan",
    "forever": "Seigneur des ténèbres Fel'dan",
    "retail": "Seigneur des ténèbres Gangr'dan",
-   "use": "Seigneur des ténèbres Gangr'dan"
+   "use": "Seigneur des ténèbres Fel'dan"
   },
   "Shadowglen Sentinel": {
    "classic": "Sentinelle de Sombrevallon",
@@ -2279,13 +2279,13 @@
    "classic": "Shandris Feathermoon",
    "forever": "Shandris Feathermoon",
    "retail": "Shandris Pennelune",
-   "use": "Shandris Pennelune"
+   "use": "Shandris Feathermoon"
   },
   "Shen'dralar Ancient": {
    "classic": "Ancienne de Shen'Dralar",
    "forever": "Ancienne de Shen'Dralar",
    "retail": "Ancienne des Shen'dralar",
-   "use": "Ancienne des Shen'dralar"
+   "use": "Ancienne de Shen'Dralar"
   },
   "Shen'dralar Provisioner": {
    "classic": "Approvisionneur Shen'dralar",
@@ -2303,7 +2303,7 @@
    "classic": "Zélote Shen'dralar",
    "forever": "Zélote Shen'dralar",
    "retail": "Zélote shen'dralar",
-   "use": "Zélote shen'dralar"
+   "use": "Zélote Shen'dralar"
   },
   "Silithid Swarmer": {
    "classic": "Grouillant silithide",
@@ -2327,7 +2327,7 @@
    "classic": "Guerrier d'Aile-argent",
    "forever": "Guerrier d'Aile-argent",
    "retail": "Guerrière d'Aile-argent",
-   "use": "Guerrière d'Aile-argent"
+   "use": "Guerrier d'Aile-argent"
   },
   "Sirra Von'Indi": {
    "classic": "Sirra Von'Indi",
@@ -2339,7 +2339,7 @@
    "classic": "Skorn Whitecloud",
    "forever": "Skorn Whitecloud",
    "retail": "Skorn Nuage-Blanc",
-   "use": "Skorn Nuage-Blanc"
+   "use": "Skorn Whitecloud"
   },
   "Son of Cenarius": {
    "classic": "Fils de Cénarius",
@@ -2351,7 +2351,7 @@
    "classic": "Brigand des Mers du sud",
    "forever": "Brigand des Mers du sud",
    "retail": "Brigand des mers du Sud",
-   "use": "Brigand des mers du Sud"
+   "use": "Brigand des Mers du sud"
   },
   "Spirit of Azuregos": {
    "classic": "Esprit d'Azuregos",
@@ -2363,7 +2363,7 @@
    "classic": "Stalvan Mistmantle",
    "forever": "Stalvan Mistmantle",
    "retail": "Stalvan Mantebrume",
-   "use": "Stalvan Mantebrume"
+   "use": "Stalvan Mistmantle"
   },
   "Stitches": {
    "classic": "Balafré",
@@ -2415,7 +2415,7 @@
    "classic": "Sentinelle de Teldrassil",
    "forever": "Sentinelle de Dolanaar",
    "retail": "Sentinelle de Teldrassil",
-   "use": "Sentinelle de Teldrassil"
+   "use": "Sentinelle de Dolanaar"
   },
   "Theldurin the Lost": {
    "classic": "Theldurin l'Egaré",
@@ -2433,7 +2433,7 @@
    "classic": "Thule Ravenclaw",
    "forever": "Thule Ravenclaw",
    "retail": "Thule Serres-de-corbeau",
-   "use": "Thule Serres-de-corbeau"
+   "use": "Thule Ravenclaw"
   },
   "Timber": {
    "classic": "Grumeux",
@@ -2445,55 +2445,55 @@
    "classic": "Protecteur Grumegueule",
    "forever": "Protecteur Grumegueule",
    "retail": "Protecteur grumegueule",
-   "use": "Protecteur grumegueule"
+   "use": "Protecteur Grumegueule"
   },
   "Timbermaw Mystic": {
    "classic": "Mystique Grumegueule",
    "forever": "Mystique Grumegueule",
    "retail": "Mystique grumegueule",
-   "use": "Mystique grumegueule"
+   "use": "Mystique Grumegueule"
   },
   "Timbermaw Pathfinder": {
    "classic": "Guide Grumegueule",
    "forever": "Guide Grumegueule",
    "retail": "Guide grumegueule",
-   "use": "Guide grumegueule"
+   "use": "Guide Grumegueule"
   },
   "Timbermaw Shaman": {
    "classic": "Chaman Grumegueule",
    "forever": "Chaman Grumegueule",
    "retail": "Chaman grumegueule",
-   "use": "Chaman grumegueule"
+   "use": "Chaman Grumegueule"
   },
   "Timbermaw Totemic": {
    "classic": "Totémique Grumegueule",
    "forever": "Totémique Grumegueule",
    "retail": "Totémique grumegueule",
-   "use": "Totémique grumegueule"
+   "use": "Totémique Grumegueule"
   },
   "Timbermaw Ursa": {
    "classic": "Ursa Grumegueule",
    "forever": "Ursa Grumegueule",
    "retail": "Ursa grumegueule",
-   "use": "Ursa grumegueule"
+   "use": "Ursa Grumegueule"
   },
   "Timbermaw Warder": {
    "classic": "Garde Grumegueule",
    "forever": "Garde Grumegueule",
    "retail": "Garde grumegueule",
-   "use": "Garde grumegueule"
+   "use": "Garde Grumegueule"
   },
   "Timbermaw Warrior": {
    "classic": "Guerrier Grumegueule",
    "forever": "Guerrier Grumegueule",
    "retail": "Guerrier grumegueule",
-   "use": "Guerrier grumegueule"
+   "use": "Guerrier Grumegueule"
   },
   "Timbermaw Woodbender": {
    "classic": "Pliebois Grumegueule",
    "forever": "Pliebois Grumegueule",
    "retail": "Pliebois grumegueule",
-   "use": "Pliebois grumegueule"
+   "use": "Pliebois Grumegueule"
   },
   "Tirion Fordring": {
    "classic": "Tirion Fordring",
@@ -2505,19 +2505,19 @@
    "classic": "Tommy Joe Stonefield",
    "forever": "Tommy Joe Stonefield",
    "retail": "Tommy Joe Champierreux",
-   "use": "Tommy Joe Champierreux"
+   "use": "Tommy Joe Stonefield"
   },
   "Twilight Acolyte": {
    "classic": "Acolyte du crépuscule",
    "forever": "Acolyte du crépuscule",
    "retail": "Acolyte du Crépuscule",
-   "use": "Acolyte du Crépuscule"
+   "use": "Acolyte du crépuscule"
   },
   "Tyrande Whisperwind": {
    "classic": "Tyrande Whisperwind",
    "forever": "Tyrande Whisperwind",
    "retail": "Tyrande Murmevent",
-   "use": "Tyrande Murmevent"
+   "use": "Tyrande Whisperwind"
   },
   "Ur'dan": {
    "classic": "Ur'dan",
@@ -2529,13 +2529,13 @@
    "classic": "Ursal le Mutileur",
    "forever": "Ursal le Mutileur",
    "retail": "Ursal le Marteleur",
-   "use": "Ursal le Marteleur"
+   "use": "Ursal le Mutileur"
   },
   "Vaelan": {
    "classic": "Vaelan",
    "forever": "Vaelan",
    "retail": "Acride",
-   "use": "Acride"
+   "use": "Vaelan"
   },
   "Vaelastrasz the Corrupt": {
    "classic": "Vaelastrasz le Corrompu",
@@ -2551,7 +2551,7 @@
    "classic": "Vanndar Stormpike",
    "forever": "Vanndar Stormpike",
    "retail": "Vanndar Foudrepique",
-   "use": "Vanndar Foudrepique"
+   "use": "Vanndar Stormpike"
   },
   "Varimathras": {
    "classic": "Varimathras",
@@ -2569,7 +2569,7 @@
    "classic": "Velinde Starsong",
    "forever": "Velinde Starsong",
    "retail": "Velinde Chantétoile",
-   "use": "Velinde Chantétoile"
+   "use": "Velinde Starsong"
   },
   "Venture Co. Strip Miner": {
    "classic": "Carrier de la KapitalRisk",
@@ -2593,13 +2593,13 @@
    "classic": "Vyrin Swiftwind",
    "forever": "Vyrin Swiftwind",
    "retail": "Vyrin Vent-Vif",
-   "use": "Vyrin Vent-Vif"
+   "use": "Vyrin Swiftwind"
   },
   "Warchief Rend Blackhand": {
    "classic": "Chef de guerre Rend Blackhand",
    "forever": "Chef de guerre Rend Blackhand",
    "retail": "Chef de guerre Rend Main-Noire",
-   "use": "Chef de guerre Rend Main-Noire"
+   "use": "Chef de guerre Rend Blackhand"
   },
   "Weldon Barov": {
    "classic": "Weldon Barov",
@@ -2617,13 +2617,13 @@
    "classic": "Sentinelle Wildhammer",
    "forever": "Sentinelle Wildhammer",
    "retail": "Factionnaire marteau-hardi",
-   "use": "Factionnaire marteau-hardi"
+   "use": "Sentinelle Wildhammer"
   },
   "William Pestle": {
    "classic": "William Pestle",
    "forever": "William Pestle",
    "retail": "William Pilon",
-   "use": "William Pilon"
+   "use": "William Pestle"
   },
   "Windfury Harpy": {
    "classic": "Harpie Furie-des-vents",
@@ -2635,7 +2635,7 @@
    "classic": "Troll Witherbark",
    "forever": "Troll Witherbark",
    "retail": "Troll fanécorce",
-   "use": "Troll fanécorce"
+   "use": "Troll Witherbark"
   },
   "Xavian Betrayer": {
    "classic": "Traître de Xavian",
@@ -2714,7 +2714,7 @@
    "classic": "Autel des tempêtes",
    "forever": "Autel des tempêtes",
    "retail": "Autel des Tempêtes",
-   "use": "Autel des Tempêtes"
+   "use": "Autel des tempêtes"
   },
   "Alterac Mountains": {
    "classic": "Montagnes d'Alterac",
@@ -2778,7 +2778,7 @@
    "classic": "Ashenvale",
    "forever": "Ashenvale",
    "retail": "Orneval",
-   "use": "Orneval"
+   "use": "Ashenvale"
   },
   "Astranaar": {
    "classic": "Astranaar",
@@ -2805,7 +2805,7 @@
    "classic": "Terres ingrates",
    "forever": "Terres ingrates",
    "retail": "Terres Ingrates",
-   "use": "Terres Ingrates"
+   "use": "Terres ingrates"
   },
   "Bael Modan": {
    "classic": "Bael Modan",
@@ -2847,7 +2847,7 @@
    "classic": "Baie des tempêtes",
    "forever": "Baie des tempêtes",
    "retail": "Baie des Tempêtes",
-   "use": "Baie des Tempêtes"
+   "use": "Baie des tempêtes"
   },
   "Black Rook Hold": {
    "retail": "Bastion du Freux",
@@ -2892,7 +2892,7 @@
    "classic": "Terres foudroyées",
    "forever": "Terres foudroyées",
    "retail": "Terres Foudroyées",
-   "use": "Terres Foudroyées"
+   "use": "Terres foudroyées"
   },
   "Bloodhoof Village": {
    "classic": "Village Bloodhoof",
@@ -2916,13 +2916,13 @@
    "classic": "Caverne des Eboulis",
    "forever": "Caverne des Eboulis",
    "retail": "Caverne des Éboulis",
-   "use": "Caverne des Éboulis"
+   "use": "Caverne des Eboulis"
   },
   "Boulderslide Ravine": {
    "classic": "Ravin des Eboulis",
    "forever": "Ravin des Eboulis",
    "retail": "Ravin des Éboulis",
-   "use": "Ravin des Éboulis"
+   "use": "Ravin des Eboulis"
   },
   "Brackenwall Village": {
    "classic": "Mur-de-Fougères",
@@ -2940,7 +2940,7 @@
    "classic": "Steppes ardentes",
    "forever": "Steppes ardentes",
    "retail": "Steppes Ardentes",
-   "use": "Steppes Ardentes"
+   "use": "Steppes ardentes"
   },
   "Caer Darrow": {
    "classic": "Caer Darrow",
@@ -2979,19 +2979,19 @@
    "classic": "Grottes du temps",
    "forever": "Grottes du temps",
    "retail": "Grottes du Temps",
-   "use": "Grottes du Temps"
+   "use": "Grottes du temps"
   },
   "Cenarion Enclave": {
    "classic": "Enclave cénarienne",
    "forever": "Enclave cénarienne",
    "retail": "Enclave Cénarienne",
-   "use": "Enclave Cénarienne"
+   "use": "Enclave cénarienne"
   },
   "Cenarion Hold": {
    "classic": "Fort cénarien",
    "forever": "Fort cénarien",
    "retail": "Fort Cénarien",
-   "use": "Fort Cénarien"
+   "use": "Fort cénarien"
   },
   "Chillwind Camp": {
    "classic": "Camp du Noroît",
@@ -3036,7 +3036,7 @@
    "classic": "Cime de Noir-nuage",
    "forever": "Cime de Noir-nuage",
    "retail": "Cime de Noir-Nuage",
-   "use": "Cime de Noir-Nuage"
+   "use": "Cime de Noir-nuage"
   },
   "Darkshire": {
    "classic": "Darkshire",
@@ -3106,7 +3106,7 @@
    "classic": "Hache-tripes",
    "forever": "Hache-tripes",
    "retail": "Hache-Tripes",
-   "use": "Hache-Tripes"
+   "use": "Hache-tripes"
   },
   "Dolanaar": {
    "classic": "Dolanaar",
@@ -3128,13 +3128,13 @@
    "classic": "Pic de Brume-funeste",
    "forever": "Pic de Brume-funeste",
    "retail": "Pic de Brume-Funeste",
-   "use": "Pic de Brume-Funeste"
+   "use": "Pic de Brume-funeste"
   },
   "Dream Bough": {
    "classic": "Bosquet du rêve",
    "forever": "Bosquet du rêve",
    "retail": "Bosquet du Rêve",
-   "use": "Bosquet du Rêve"
+   "use": "Bosquet du rêve"
   },
   "Dun Algaz": {
    "classic": "Dun Algaz",
@@ -3192,7 +3192,7 @@
    "classic": "Maleterres de l'est",
    "forever": "Maleterres de l'est",
    "retail": "Maleterres de l'Est",
-   "use": "Maleterres de l'Est"
+   "use": "Maleterres de l'est"
   },
   "Echo Isles": {
    "classic": "Îles de l'Écho",
@@ -3220,13 +3220,13 @@
    "classic": "Sanctuaire d'émeraude",
    "forever": "Sanctuaire d'émeraude",
    "retail": "Sanctuaire d'Émeraude",
-   "use": "Sanctuaire d'Émeraude"
+   "use": "Sanctuaire d'émeraude"
   },
   "Everlook": {
    "classic": "Long-guet",
    "forever": "Long-guet",
    "retail": "Long-Guet",
-   "use": "Long-Guet"
+   "use": "Long-guet"
   },
   "Falaath Village": {
    "forever": "Falaath",
@@ -3236,7 +3236,7 @@
    "classic": "Sanctuaire des friches",
    "forever": "Sanctuaire des friches",
    "retail": "Sanctuaire des Friches",
-   "use": "Sanctuaire des Friches"
+   "use": "Sanctuaire des friches"
   },
   "Faol's Rest": {
    "classic": "Repos de Faol",
@@ -3248,7 +3248,7 @@
    "classic": "Mine de Fargodeep",
    "forever": "Mine de Fargodeep",
    "retail": "Mine de Fondugouffre",
-   "use": "Mine de Fondugouffre"
+   "use": "Mine de Fargodeep"
   },
   "Farm": {
    "classic": "Ferme",
@@ -3260,7 +3260,7 @@
    "classic": "Bastion de Feathermoon",
    "forever": "Bastion de Feathermoon",
    "retail": "Bastion de Pennelune",
-   "use": "Bastion de Pennelune"
+   "use": "Bastion de Feathermoon"
   },
   "Fel Rock": {
    "classic": "Gangreroche",
@@ -3272,7 +3272,7 @@
    "classic": "Champ de Felstone",
    "forever": "Champ de Felstone",
    "retail": "Champ de Gangrepierre",
-   "use": "Champ de Gangrepierre"
+   "use": "Champ de Felstone"
   },
   "Felwood": {
    "classic": "Gangrebois",
@@ -3284,13 +3284,13 @@
    "classic": "Ile de Fenris",
    "forever": "Ile de Fenris",
    "retail": "Île de Fenris",
-   "use": "Île de Fenris"
+   "use": "Ile de Fenris"
   },
   "Feralas": {
    "classic": "Feralas",
    "forever": "Feralas",
    "retail": "Féralas",
-   "use": "Féralas"
+   "use": "Feralas"
   },
   "Fire Plume Ridge": {
    "classic": "Crête de la Fournaise",
@@ -3308,13 +3308,13 @@
    "classic": "Corniche des flammes",
    "forever": "Corniche des flammes",
    "retail": "Corniche des Flammes",
-   "use": "Corniche des Flammes"
+   "use": "Corniche des flammes"
   },
   "Forlorn Rowe": {
    "classic": "La masure lugubre",
    "forever": "La masure lugubre",
    "retail": "La masure Lugubre",
-   "use": "La masure Lugubre"
+   "use": "La masure lugubre"
   },
   "Freewind Post": {
    "classic": "Poste de Librevent",
@@ -3326,7 +3326,7 @@
    "classic": "Repaire des Frostmane",
    "forever": "Repaire des Frostmane",
    "retail": "Repaire des Crins-de-Givre",
-   "use": "Repaire des Crins-de-Givre"
+   "use": "Repaire des Frostmane"
   },
   "Frostmourne": {
    "retail": "Deuillegivre",
@@ -3415,7 +3415,7 @@
    "classic": "Caverne stérile",
    "forever": "Caverne stérile",
    "retail": "Caverne Stérile",
-   "use": "Caverne Stérile"
+   "use": "Caverne stérile"
   },
   "Gurubashi Arena": {
    "classic": "Arène des Gurubashi",
@@ -3441,7 +3441,7 @@
    "classic": "Site de fouilles d'Hammertoe",
    "forever": "Site de fouilles d'Hammertoe",
    "retail": "Site de fouilles de Martèlorteil",
-   "use": "Site de fouilles de Martèlorteil"
+   "use": "Site de fouilles d'Hammertoe"
   },
   "Hearthglen": {
    "classic": "Hearthglen",
@@ -3483,7 +3483,7 @@
    "classic": "Base d'Ironband",
    "forever": "Base d'Ironband",
    "retail": "Base de Baguefer",
-   "use": "Base de Baguefer"
+   "use": "Base d'Ironband"
   },
   "Ironband's Excavation Site": {
    "classic": "Excavations d'Ironband",
@@ -3541,13 +3541,13 @@
    "classic": "Cimetière des kodos",
    "forever": "Cimetière des kodos",
    "retail": "Cimetière des Kodos",
-   "use": "Cimetière des Kodos"
+   "use": "Cimetière des kodos"
   },
   "Kolkar Village": {
    "classic": "Village des Kolkar",
    "forever": "Village des Kolkar",
    "retail": "Village des Kolkars",
-   "use": "Village des Kolkars"
+   "use": "Village des Kolkar"
   },
   "Kul Tiras": {
    "classic": "Kul Tiras",
@@ -3565,13 +3565,13 @@
    "classic": "Lac Elune'ara",
    "forever": "Lac Elune'ara",
    "retail": "Lac Élune'ara",
-   "use": "Lac Élune'ara"
+   "use": "Lac Elune'ara"
   },
   "Lake Everstill": {
    "classic": "Lac placide",
    "forever": "Lac placide",
    "retail": "Lac Placide",
-   "use": "Lac Placide"
+   "use": "Lac placide"
   },
   "Lake Kel'Theril": {
    "classic": "Lac Kel'Theril",
@@ -3638,7 +3638,7 @@
    "classic": "Oasis luxuriante",
    "forever": "Oasis luxuriante",
    "retail": "Oasis Luxuriante",
-   "use": "Oasis Luxuriante"
+   "use": "Oasis luxuriante"
   },
   "Magram Village": {
    "classic": "Village des Magram",
@@ -3696,7 +3696,7 @@
    "classic": "Piste des mirages",
    "forever": "Piste des mirages",
    "retail": "Piste des Mirages",
-   "use": "Piste des Mirages"
+   "use": "Piste des mirages"
   },
   "Mizjah Ruins": {
    "classic": "Ruines de Mizjah",
@@ -3795,7 +3795,7 @@
    "classic": "Avant-poste de la porte Nord",
    "forever": "Avant-poste de la porte Nord",
    "retail": "Avant-poste de la Porte Nord",
-   "use": "Avant-poste de la Porte Nord"
+   "use": "Avant-poste de la porte Nord"
   },
   "Northdale": {
    "classic": "Valnord",
@@ -3855,7 +3855,7 @@
    "classic": "Bassin des larmes",
    "forever": "Bassin des larmes",
    "retail": "Bassin des Larmes",
-   "use": "Bassin des Larmes"
+   "use": "Bassin des larmes"
   },
   "Pyrewood Village": {
    "classic": "Bois-du-Bûcher",
@@ -3889,7 +3889,7 @@
    "classic": "Ratchet",
    "forever": "Ratchet",
    "retail": "Cabestan",
-   "use": "Cabestan"
+   "use": "Ratchet"
   },
   "Raven Hill": {
    "classic": "Colline-aux-Corbeaux",
@@ -3907,7 +3907,7 @@
    "classic": "Colosse de Ravencrest",
    "forever": "Colosse de Ravencrest",
    "retail": "Chute de Corvaltus",
-   "use": "Chute de Corvaltus"
+   "use": "Colosse de Ravencrest"
   },
   "Ravenholdt Manor": {
    "classic": "Manoir de Ravenholdt",
@@ -3937,7 +3937,7 @@
    "classic": "Camp rebelle",
    "forever": "Camp rebelle",
    "retail": "Camp Rebelle",
-   "use": "Camp Rebelle"
+   "use": "Camp rebelle"
   },
   "Red Cloud Mesa": {
    "classic": "Mesa de Nuage rouge",
@@ -3949,7 +3949,7 @@
    "classic": "Rochers rouges",
    "forever": "Rochers rouges",
    "retail": "Rochers Rouges",
-   "use": "Rochers Rouges"
+   "use": "Rochers rouges"
   },
   "Redridge Mountains": {
    "classic": "Les Carmines",
@@ -3967,13 +3967,13 @@
    "classic": "Excavations de Remtravel",
    "forever": "Excavations de Remtravel",
    "retail": "Excavations de Songerrance",
-   "use": "Excavations de Songerrance"
+   "use": "Excavations de Remtravel"
   },
   "Revantusk Village": {
    "classic": "Village des Revantusk",
    "forever": "Village des Revantusk",
    "retail": "Village des Vengebroches",
-   "use": "Village des Vengebroches"
+   "use": "Village des Revantusk"
   },
   "Ridge": {
    "retail": "Crête",
@@ -4085,13 +4085,13 @@
    "classic": "Ile de Sardor",
    "forever": "Ile de Sardor",
    "retail": "Île de Sardor",
-   "use": "Île de Sardor"
+   "use": "Ile de Sardor"
   },
   "Scarlet Monastery": {
    "classic": "Monastère écarlate",
    "forever": "Monastère écarlate",
    "retail": "Monastère Écarlate",
-   "use": "Monastère Écarlate"
+   "use": "Monastère écarlate"
   },
   "Scholomance": {
    "classic": "Scholomance",
@@ -4115,7 +4115,7 @@
    "classic": "Colline des sentinelles",
    "forever": "Colline des sentinelles",
    "retail": "Colline des Sentinelles",
-   "use": "Colline des Sentinelles"
+   "use": "Colline des sentinelles"
   },
   "Seradane": {
    "classic": "Seradane",
@@ -4133,7 +4133,7 @@
    "classic": "Fort des ombres",
    "forever": "Fort des ombres",
    "retail": "Fort des Ombres",
-   "use": "Fort des Ombres"
+   "use": "Fort des ombres"
   },
   "Shadowfang Keep": {
    "classic": "Donjon d'Ombrecroc",
@@ -4157,7 +4157,7 @@
    "classic": "Sanctuaire de Shadowsong",
    "forever": "Sanctuaire de Shadowsong",
    "retail": "Sanctuaire de Chantelombre",
-   "use": "Sanctuaire de Chantelombre"
+   "use": "Sanctuaire de Shadowsong"
   },
   "Shadra'Alor": {
    "classic": "Shadra'Alor",
@@ -4203,7 +4203,7 @@
    "classic": "Forêt des Pins argentés",
    "forever": "Forêt des Pins argentés",
    "retail": "Forêt des Pins-Argentés",
-   "use": "Forêt des Pins-Argentés"
+   "use": "Forêt des Pins argentés"
   },
   "Skorn": {
    "retail": "Mörg",
@@ -4213,7 +4213,7 @@
    "classic": "Rocher du crâne",
    "forever": "Rocher du crâne",
    "retail": "Rocher du Crâne",
-   "use": "Rocher du Crâne"
+   "use": "Rocher du crâne"
   },
   "Skywall": {
    "forever": "Mur-Céleste",
@@ -4224,13 +4224,13 @@
    "classic": "Colline des chagrins",
    "forever": "Colline des chagrins",
    "retail": "Colline des Chagrins",
-   "use": "Colline des Chagrins"
+   "use": "Colline des chagrins"
   },
   "South Gate Outpost": {
    "classic": "Avant-poste de la porte Sud",
    "forever": "Avant-poste de la porte Sud",
    "retail": "Avant-poste de la Porte Sud",
-   "use": "Avant-poste de la Porte Sud"
+   "use": "Avant-poste de la porte Sud"
   },
   "Southshore": {
    "classic": "Southshore",
@@ -4254,19 +4254,19 @@
    "classic": "Poste de Bois-brisé",
    "forever": "Poste de Bois-brisé",
    "retail": "Poste de Bois-Brisé",
-   "use": "Poste de Bois-Brisé"
+   "use": "Poste de Bois-brisé"
   },
   "Starfall Village": {
    "classic": "Pluie-d'Etoiles",
    "forever": "Pluie-d'Etoiles",
    "retail": "Pluie-d'Étoiles",
-   "use": "Pluie-d'Étoiles"
+   "use": "Pluie-d'Etoiles"
   },
   "Steelgrill's Depot": {
    "classic": "Dépôt de Steelgrill",
    "forever": "Dépôt de Steelgrill",
    "retail": "Dépôt de Grillacier",
-   "use": "Dépôt de Grillacier"
+   "use": "Dépôt de Steelgrill"
   },
   "Stonard": {
    "classic": "Stonard",
@@ -4294,13 +4294,13 @@
    "classic": "Guet-de-pierre",
    "forever": "Guet-de-pierre",
    "retail": "Guet-de-Pierre",
-   "use": "Guet-de-Pierre"
+   "use": "Guet-de-pierre"
   },
   "Stonewatch Keep": {
    "classic": "Donjon de Guet-de-pierre",
    "forever": "Donjon de Guet-de-pierre",
    "retail": "Donjon de Guet-de-Pierre",
-   "use": "Donjon de Guet-de-Pierre"
+   "use": "Donjon de Guet-de-pierre"
   },
   "Stonewrought Dam": {
    "classic": "Barrage de Formepierre",
@@ -4441,7 +4441,7 @@
    "classic": "Le Val calciné",
    "forever": "Le Val calciné",
    "retail": "Le val Calciné",
-   "use": "Le val Calciné"
+   "use": "Le Val calciné"
   },
   "The Crossroads": {
    "classic": "La Croisée",
@@ -4453,7 +4453,7 @@
    "classic": "La Porte des ténèbres",
    "forever": "La Porte des ténèbres",
    "retail": "Porte des ténèbres",
-   "use": "Porte des ténèbres"
+   "use": "La Porte des ténèbres"
   },
   "The Deadmines": {
    "classic": "Les Mortemines",
@@ -4475,7 +4475,7 @@
    "classic": "Les Bassins oubliés",
    "forever": "Les Bassins oubliés",
    "retail": "Les bassins Oubliés",
-   "use": "Les bassins Oubliés"
+   "use": "Les Bassins oubliés"
   },
   "The Greymane Wall": {
    "classic": "Le mur de Greymane",
@@ -4509,25 +4509,25 @@
    "classic": "La flotte perdue",
    "forever": "La flotte perdue",
    "retail": "La flotte Perdue",
-   "use": "La flotte Perdue"
+   "use": "La flotte perdue"
   },
   "The Maclure Vineyards": {
    "classic": "Les Vignes des Maclure",
    "forever": "Les Vignes des Maclure",
    "retail": "Vignes des Maclure",
-   "use": "Vignes des Maclure"
+   "use": "Les Vignes des Maclure"
   },
   "The Maker's Terrace": {
    "classic": "La Terrasse des faiseurs",
    "forever": "La Terrasse des faiseurs",
    "retail": "La terrasse du Faiseur",
-   "use": "La terrasse du Faiseur"
+   "use": "La Terrasse des faiseurs"
   },
   "The Master's Cellar": {
    "classic": "La cave du maître",
    "forever": "La cave du maître",
    "retail": "La cave du Maître",
-   "use": "La cave du Maître"
+   "use": "La cave du maître"
   },
   "The Master's Glaive": {
    "classic": "Le Glaive du Maître",
@@ -4555,7 +4555,7 @@
    "classic": "Site de fouilles de Rustmaul",
    "forever": "Site de fouilles de Rustmaul",
    "retail": "Site de fouilles de Cognerouille",
-   "use": "Site de fouilles de Cognerouille"
+   "use": "Site de fouilles de Rustmaul"
   },
   "The Scarab Dais": {
    "classic": "L'Estrade du scarabée",
@@ -4567,13 +4567,13 @@
    "classic": "Le Mur du scarabée",
    "forever": "Le Mur du scarabée",
    "retail": "Mur du Scarabée",
-   "use": "Mur du Scarabée"
+   "use": "Le Mur du scarabée"
   },
   "The Scarlet Basilica": {
    "classic": "La Basilique écarlate",
    "forever": "La Basilique écarlate",
    "retail": "La basilique Écarlate",
-   "use": "La basilique Écarlate"
+   "use": "La Basilique écarlate"
   },
   "The Sepulcher": {
    "classic": "Le Sépulcre",
@@ -4585,7 +4585,7 @@
    "classic": "La Grève fracassée",
    "forever": "La Grève fracassée",
    "retail": "La grève Fracassée",
-   "use": "La grève Fracassée"
+   "use": "La Grève fracassée"
   },
   "The Shimmering Flats": {
    "classic": "Les Salines",
@@ -4597,7 +4597,7 @@
    "classic": "La Fosse aux scories",
    "forever": "La Fosse aux scories",
    "retail": "La fosse aux Scories",
-   "use": "La fosse aux Scories"
+   "use": "La Fosse aux scories"
   },
   "The Spire": {
    "retail": "La Flèche",
@@ -4607,7 +4607,7 @@
    "classic": "L'oasis stagnante",
    "forever": "L'oasis stagnante",
    "retail": "L'oasis Stagnante",
-   "use": "L'oasis Stagnante"
+   "use": "L'oasis stagnante"
   },
   "The Stockade": {
    "classic": "La Prison",
@@ -4619,7 +4619,7 @@
    "classic": "La ferme des Stonefield",
    "forever": "La ferme des Stonefield",
    "retail": "Ferme des Champierreux",
-   "use": "Ferme des Champierreux"
+   "use": "La ferme des Stonefield"
   },
   "The Sundering": {
    "retail": "La Fracture",
@@ -4647,13 +4647,13 @@
    "classic": "L'Arbre-monde",
    "forever": "L'Arbre-monde",
    "retail": "L'Arbre-Monde",
-   "use": "L'Arbre-Monde"
+   "use": "L'Arbre-monde"
   },
   "The Writhing Haunt": {
    "classic": "Le Repaire putride",
    "forever": "Le Repaire putride",
    "retail": "Le repaire Putride",
-   "use": "Le repaire Putride"
+   "use": "Le Repaire putride"
   },
   "Thelsamar": {
    "classic": "Thelsamar",
@@ -4669,7 +4669,7 @@
    "classic": "Ile de Theramore",
    "forever": "Ile de Theramore",
    "retail": "Île de Theramore",
-   "use": "Île de Theramore"
+   "use": "Ile de Theramore"
   },
   "Thondroril River": {
    "classic": "La Thondroril",
@@ -4705,13 +4705,13 @@
    "classic": "Thunder Bluff",
    "forever": "Thunder Bluff",
    "retail": "Les Pitons-du-Tonnerre",
-   "use": "Les Pitons-du-Tonnerre"
+   "use": "Thunder Bluff"
   },
   "Thunderbrew Distillery": {
    "classic": "Distillerie Thunderbrew",
    "forever": "Distillerie Thunderbrew",
    "retail": "Distillerie Tonnebière",
-   "use": "Distillerie Tonnebière"
+   "use": "Distillerie Thunderbrew"
   },
   "Timbermaw Hold": {
    "classic": "Repaire des Grumegueules",
@@ -4761,7 +4761,7 @@
    "classic": "Bosquet du crépuscule",
    "forever": "Bosquet du crépuscule",
    "retail": "Bosquet crépusculaire",
-   "use": "Bosquet crépusculaire"
+   "use": "Bosquet du crépuscule"
   },
   "Twisting Nether": {
    "retail": "Le Néant distordu",
@@ -4819,13 +4819,13 @@
    "classic": "Vallée des héros",
    "forever": "Vallée des héros",
    "retail": "Vallée des Héros",
-   "use": "Vallée des Héros"
+   "use": "Vallée des héros"
   },
   "Valley of Kings": {
    "classic": "Vallée des rois",
    "forever": "Vallée des rois",
    "retail": "Vallée des Rois",
-   "use": "Vallée des Rois"
+   "use": "Vallée des rois"
   },
   "Valley of Spirits": {
    "retail": "Vallée des Esprits",
@@ -4835,19 +4835,19 @@
    "classic": "Vallée des épreuves",
    "forever": "Vallée des épreuves",
    "retail": "Vallée des Épreuves",
-   "use": "Vallée des Épreuves"
+   "use": "Vallée des épreuves"
   },
   "Valley of the Watchers": {
    "classic": "Vallée des guetteurs",
    "forever": "Vallée des guetteurs",
    "retail": "Vallée des Guetteurs",
-   "use": "Vallée des Guetteurs"
+   "use": "Vallée des guetteurs"
   },
   "Valor's Rest": {
    "classic": "Le repos des vaillants",
    "forever": "Le repos des vaillants",
    "retail": "Repos des vaillants",
-   "use": "Repos des vaillants"
+   "use": "Le repos des vaillants"
   },
   "Valormok": {
    "classic": "Valormok",
@@ -4859,7 +4859,7 @@
    "classic": "Cavernes des lamentations",
    "forever": "Cavernes des lamentations",
    "retail": "Cavernes des Lamentations",
-   "use": "Cavernes des Lamentations"
+   "use": "Cavernes des lamentations"
   },
   "War of the Shifting Sands": {
    "retail": "Guerre des Sables changeants",
@@ -4875,13 +4875,13 @@
    "classic": "Camp de travail Warsong",
    "forever": "Camp de travail chanteguerre",
    "retail": "Camp de travail Chanteguerre",
-   "use": "Camp de travail Chanteguerre"
+   "use": "Camp de travail chanteguerre"
   },
   "Warsong Lumber Camp": {
    "classic": "Camp de bûcherons Warsong",
    "forever": "Camp de bûcherons chanteguerre",
    "retail": "Camp de bûcherons Chanteguerre",
-   "use": "Camp de bûcherons Chanteguerre"
+   "use": "Camp de bûcherons chanteguerre"
   },
   "Well of Eternity": {
    "retail": "Puits d'éternité",
@@ -4891,13 +4891,13 @@
    "classic": "Garnison du ruisseau de l'ouest",
    "forever": "Garnison du ruisseau de l'ouest",
    "retail": "Garnison du ruisseau de l'Ouest",
-   "use": "Garnison du ruisseau de l'Ouest"
+   "use": "Garnison du ruisseau de l'ouest"
   },
   "Western Plaguelands": {
    "classic": "Maleterres de l'ouest",
    "forever": "Maleterres de l'ouest",
    "retail": "Maleterres de l'Ouest",
-   "use": "Maleterres de l'Ouest"
+   "use": "Maleterres de l'ouest"
   },
   "Westfall": {
    "classic": "Marche de l'Ouest",
@@ -4939,7 +4939,7 @@
    "classic": "Ile de Yojamba",
    "forever": "Ile de Yojamba",
    "retail": "Île de Yojamba",
-   "use": "Île de Yojamba"
+   "use": "Ile de Yojamba"
   },
   "Zephras Isle": {
    "forever": "Île de Zéphras",

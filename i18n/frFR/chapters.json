@@ -12,7 +12,7 @@
     "Le berceau des royaumes humains, tombé en ruine et toujours disputé."
   ],
   "ashenvale": [
-    "Orneval",
+    "Ashenvale",
     "L'antique forêt des elfes de la nuit, et les haches des orcs à sa lisière."
   ],
   "azshara": [
@@ -20,7 +20,7 @@
     "La terre de la reine, au bord de la mer qui l'a engloutie."
   ],
   "badlands": [
-    "Terres Ingrates",
+    "Terres ingrates",
     "Un désert rouge de canyons, et sous lui la chambre forte des titans, Uldaman."
   ],
   "barrens": [
@@ -32,11 +32,11 @@
     "La montagne du seigneur du Feu, et la guerre qui s'y livre."
   ],
   "blasted-lands": [
-    "Terres Foudroyées",
+    "Terres foudroyées",
     "Le désert rouge autour de la Porte des Ténèbres."
   ],
   "burning-steppes": [
-    "Steppes Ardentes",
+    "Steppes ardentes",
     "La plaine de cendres au sud de la montagne, là où s'étendaient jadis les Carmines."
   ],
   "callings": [
@@ -57,7 +57,7 @@
   ],
   "dun-morogh": [
     "Dun Morogh et Forgefer",
-    "Les vallées enneigées autour de Forgefer, berceau du clan Barbe-de-Bronze."
+    "Les vallées enneigées autour de Forgefer, berceau du clan Bronzebeard."
   ],
   "durotar": [
     "Durotar et Orgrimmar",
@@ -69,10 +69,10 @@
   ],
   "dustwallow": [
     "Marécage d'Âprefange",
-    "La cité insulaire de dame Portvaillant, un marais plein de dragons, et une auberge qui a brûlé."
+    "La cité insulaire de dame Proudmoore, un marais plein de dragons, et une auberge qui a brûlé."
   ],
   "eastern-plaguelands": [
-    "Maleterres de l'Est",
+    "Maleterres de l'est",
     "L'ancien Eastweald, Stratholme, et la nécropole dans le ciel."
   ],
   "elwynn": [
@@ -84,7 +84,7 @@
     "La forêt empoisonnée, où l'on trouva le crâne de Gul'dan."
   ],
   "feralas": [
-    "Féralas",
+    "Feralas",
     "Des arbres géants, des ogres, et les ruines des Bien-nés."
   ],
   "hillsbrad": [
@@ -93,7 +93,7 @@
   ],
   "hinterlands": [
     "Les Hinterlands",
-    "Les collines sauvages des nains Marteau-Hardi, et les temples trolls qu'ils partagent avec eux."
+    "Les collines sauvages des nains Wildhammer, et les temples trolls qu'ils partagent avec eux."
   ],
   "loch-modan": [
     "Loch Modan",
@@ -104,7 +104,7 @@
     "La vallée sacrée des druides."
   ],
   "mulgore": [
-    "Mulgore et les Pitons-du-Tonnerre",
+    "Mulgore et Thunder Bluff",
     "Les vertes plaines des Taurens, et la cité sur les mesas."
   ],
   "peoples": [
@@ -121,10 +121,10 @@
   ],
   "silithus": [
     "Silithus",
-    "Le désert des insectes, le Mur du Scarabée, et ce qui dort derrière."
+    "Le désert des insectes, le Mur du scarabée, et ce qui dort derrière."
   ],
   "silverpine": [
-    "Forêt des Pins-Argentés",
+    "Forêt des Pins argentés",
     "Des pins gris entre les Réprouvés et la porte close de Gilnéas."
   ],
   "stonetalon": [
@@ -141,7 +141,7 @@
   ],
   "tanaris": [
     "Tanaris",
-    "Le grand désert du sud, et les portes des Guetteurs."
+    "Le grand désert du sud, et les portes des guetteurs."
   ],
   "teldrassil": [
     "Teldrassil et Darnassus",
@@ -160,7 +160,7 @@
     "Un monde perdu au fond d'un cratère, et ses mystérieux cristaux."
   ],
   "western-plaguelands": [
-    "Maleterres de l'Ouest",
+    "Maleterres de l'ouest",
     "Le cœur mort de Lordaeron, là où la peste a commencé."
   ],
   "westfall": [

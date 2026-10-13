@@ -15,16 +15,36 @@ local PLURALS = {
   none = function() return false end,
 }
 
+-- A plain replacement (names hold the pattern characters: "Comte-du-Lac").
+local function replace(s, from, to)
+  local out, i = {}, 1
+  while true do
+    local a, b = s:find(from, i, true)
+    if not a then break end
+    out[#out + 1] = s:sub(i, a - 1)
+    out[#out + 1] = to
+    i = b + 1
+  end
+  out[#out + 1] = s:sub(i)
+  return table.concat(out)
+end
+
 function ns.translate(t)
   ns.locale = t.locale
   K.isOne = PLURALS[t.plural] or K.isOne
   local C = ns.content
   -- every translated word passes here: the reader's gender (the game's own
-  -- token, $gmasculine:feminine;)
+  -- token, $gmasculine:feminine;) and, on Classic, its own names for the
+  -- places Forever renamed (a translation is written with Forever's)
   local female = UnitSex and UnitSex("player") == 3
+  local swaps = C.client == "classic" and t.classic or nil
   local function words(s)
     if type(s) ~= "string" then return s end
-    return (s:gsub("%$g([^:;]*):([^;]*);", function(m, f) return female and f or m end))
+    s = s:gsub("%$g([^:;]*):([^;]*);", function(m, f) return female and f or m end)
+    for _, pair in ipairs(swaps or {}) do
+      if s:find(pair[1], 1, true) then s = replace(s, pair[1], pair[2]) end
+    end
+    return s
   end
   local L = K.L
   for english, word in pairs(t.words or {}) do

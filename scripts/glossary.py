@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """The names a translation must use: every place, faction and figure the
-English pages name, translated (the user's rule, 13 Oct 2026: every name in
-the reader's language, as the game's own translators write it today).
+English pages name, as Forever's client writes it in that language (the
+user's rule, 13 Oct 2026: the names the player sees in the game the codex
+launches with, English ones included where Forever's translators kept them:
+"Roi Magni Bronzebeard", but "Forgefer").
 
   python3 scripts/glossary.py frFR
 
@@ -12,12 +14,14 @@ npc unlocks and portraits, and the characters the prose names) in the three.
 Cached in .cache/i18n/.
 
 Writes i18n/<locale>/glossary.json, { "places" | "factions" | "figures":
-{ English: { "use": name, "retail": ..., "forever": ..., "classic": ... } } }
-for the translator. "use" is the live game's name, the most translated (the
-older clients kept many English ones: "Roi Magni Bronzebeard" on Forever is
-"Magni Barbe-de-Bronze" today), else Forever's, else Classic's. The names
-lose the English some carry in brackets ("Les Carmines (Redridge Mts)") and
-the curly apostrophes.
+{ English: { "use": name, "forever": ..., "classic": ..., "retail": ... } } }
+for the translator: "use" is Forever's name, else Classic's (the same game's
+data, mostly), else the live game's (what neither has: Ironforge's wards).
+And i18n/<locale>/classic.json, { Forever's name: Classic's name } where the
+two clients differ (with i18n/<locale>/classic-by-hand.json's, which win):
+Classic's own replace Forever's when the file loads there (Locale.lua). The
+names lose the English some carry in brackets ("Les Carmines (Redridge
+Mts)") and the curly apostrophes.
 """
 import csv, glob, json, os, re, sys, time, urllib.error, urllib.request
 
@@ -116,13 +120,39 @@ def main():
                 entry[g] = bare(name)
     for kind in out.values():
         for e in kind.values():
-            e["use"] = e.get("retail") or e.get("forever") or e.get("classic")
+            e["use"] = e.get("forever") or e.get("classic") or e.get("retail")
     dest = os.path.join(ROOT, "i18n", locale)
     os.makedirs(dest, exist_ok=True)
     with open(os.path.join(dest, "glossary.json"), "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1, sort_keys=True)
         f.write("\n")
-    print(f"i18n/{locale}/glossary.json: {sum(len(v) for v in out.values())} names")
+    # Forever's names that Classic writes otherwise (the longest first: a
+    # place's name may hold another's)
+    swaps = {}
+    for kind in out.values():
+        for e in kind.values():
+            fv, cl = e.get("forever"), e.get("classic")
+            if fv and cl and fv != cl and fv not in swaps:
+                swaps[fv] = cl
+    # (by hand, and winning: where a table's name is not the one prose takes,
+    # "Hurlevent" is the city, Classic's "Stormwind", not its zone's "Cite de
+    # Stormwind"; and the bare names inside longer ones, "Rochenoire")
+    hand = os.path.join(dest, "classic-by-hand.json")
+    if os.path.exists(hand):
+        swaps.update(json.load(open(hand, encoding="utf-8")))
+    # (French elides "de" before a vowel: "d'Austrivage" is "de Southshore"
+    # on Classic, "de Fossoyeuse" is "d'Undercity")
+    if locale == "frFR":
+        vowel = lambda w: w[:1] in "AEIOU\u00c2\u00c9\u00c8\u00ca\u00ce\u00d4\u00db"
+        for fv, cl in list(swaps.items()):
+            if vowel(fv) and not vowel(cl):
+                swaps["d'" + fv] = "de " + cl
+            elif not vowel(fv) and vowel(cl):
+                swaps["de " + fv] = "d'" + cl
+    with open(os.path.join(dest, "classic.json"), "w", encoding="utf-8") as f:
+        json.dump(dict(sorted(swaps.items(), key=lambda kv: (-len(kv[0]), kv[0]))), f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    print(f"i18n/{locale}/glossary.json: {sum(len(v) for v in out.values())} names; classic.json: {len(swaps)} Classic names")
 
 if __name__ == "__main__":
     main()
