@@ -861,6 +861,13 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Chaque village des Terres de l'Est avait son Joseph Redpath. Comté-de-Darrow est celui dont les morts peuvent encore finir l'histoire autrement. Aidez-les, si vous le pouvez." },
       },
     },
+    ["deadwind-pass"] = {
+      title = "Défilé de Deuillevent",
+      text = {
+        { "Le défilé de Deuillevent taille une vallée grise entre le Bois de la Pénombre et le marais des Chagrins. Des arbres morts, des corbeaux et des camps en ruine bordent la route. Il n'y a ni village habité ni ferme, et les ogres offrent peu de raisons de s'attarder." },
+        { "La tour de Medivh, Karazhan, se dresse en son cœur, au-dessus de bâtiments abandonnés. Le défilé relie deux régions habitées sans offrir leurs commodités." },
+      },
+    },
     ["deathknell"] = {
       title = "Le Glas",
       text = {
@@ -1547,6 +1554,14 @@ ns.translate({
         { "Les prêtres atal'ai qui servaient jadis Hakkar dans le sud étendent leur influence jusqu'ici : l'un d'eux, un prêtre condamné à l'exil par son propre peuple, vit parmi les trolls des Hinterlands. Les Vilebranch, je crois, n'ont pas été mécontents de l'accueillir." },
       },
     },
+    ["karazhan"] = {
+      title = "Karazhan",
+      text = {
+        { "Karazhan était la demeure de Medivh, le dernier Gardien de Tirisfal. Il hérita du pouvoir extraordinaire d'Aegwynn, et avec lui d'un secret qu'elle n'avait pas su voir : Sargeras s'était caché en son fils avant sa naissance. Par le Gardien qui devait s'opposer à la Légion, le seigneur de celle-ci aida Gul'dan à ouvrir la Porte des ténèbres." },
+        { "Khadgar et Anduin Lothar tuèrent Medivh dans cette tour avant la fin de la Première Guerre. Des années plus tard, il revint avertir Azeroth de l'invasion de la Légion. Même la mort n'avait pas su mettre fin à l'histoire du Gardien." },
+        { "Le village en contrebas est en ruine, et la cave du maître s'étend sous ses bâtiments abandonnés. Karazhan elle-même reste fermée. La tour a survécu à l'homme qui y vivait, et à la certitude qu'il y fut jamais tout à fait seul." },
+      },
+    },
     ["kargath"] = {
       title = "Kargath",
       text = {
@@ -1559,6 +1574,13 @@ ns.translate({
       text = {
         { "Dame Katrana Prestor est la plus proche conseillère du généralissime, et fort admirée à la cour : savante, gracieuse et très belle. Elle en sait long sur bien des sujets, les dragons parmi eux, et Bolvar Fordragon lui fait entièrement confiance." },
         { "Tout le monde ne la lui fait pas. Quand le magistrat Solomon de Comté-du-Lac supplia le trône d'envoyer des soldats contre les orcs Blackrock, ce fut le conseil de dame Prestor qui les retint chez eux, et il est au moins un maréchal de Hurlevent qui ne le lui a jamais pardonné. Je ne consigne que ce que l'on sait. Une érudite qui en écrit davantage sur une dame de la cour a intérêt à être très sûre d'elle." },
+      },
+    },
+    ["keeper-remulos"] = {
+      title = "Gardien Remulos",
+      text = {
+        { "Le gardien Remulos est le fils de Cénarius, avec le bas du corps de cerf de son père. Les druides viennent à son sanctuaire de Reflet-de-Lune chercher de l'aide. Le Cauchemar qui se répand dans le Rêve d'émeraude leur a donné des raisons pressantes de la chercher." },
+        { "Quand Eranikus, le compagnon d'Ysera, fut invoqué ici, le Cauchemar vint avec lui. Remulos défendit Havrenuit tandis que ses alliés se battaient pour libérer le dragon. Tyrande arriva pour racheter Eranikus. Un voyageur connaît peut-être Reflet-de-Lune comme un lieu de paix ; son gardien a dû se battre pour cette paix au cœur même du village." },
       },
     },
     ["kelthuzad"] = {
@@ -1685,6 +1707,14 @@ ns.translate({
         { "Sa fille lui cause un souci plus pressant. La princesse Moira se trouve dans la cité sombrefer sous le mont Rochenoire, mariée à l'empereur Dagran Thaurissan. Forgefer parle d'enlèvement, et Magni promet une récompense digne d'un héros à qui la ramènera. Si vous acceptez cette charge, $gvoyageur:voyageuse;, vous portez les espoirs d'un père autant que les ordres d'un roi." },
       },
     },
+    ["malfurion-stormrage"] = {
+      title = "Malfurion Stormrage",
+      text = {
+        { "Malfurion Stormrage était un jeune érudit elfe de la nuit quand les Bien-nés commencèrent à changer, et il fut parmi les premiers à soupçonner pourquoi. Quand la Légion ardente arriva par le Puits d'éternité, il partit avec son frère Illidan et la prêtresse Tyrande à la recherche de Cénarius, qui devint son maître ; ce que Cénarius lui enseigna devint le druidisme. À la fin de la guerre des Anciens, ce fut Malfurion qui comprit que le Puits lui-même devait être détruit, et la Fracture s'ensuivit." },
+        { "Il mena les survivants au mont Hyjal, découvrit qu'Illidan y avait créé un nouveau Puits, et enferma son propre frère dans une prison sous la terre. Il interdit la magie à son peuple, conclut le pacte de l'Arbre-Monde avec les dragons, et partit dormir dans le Rêve d'émeraude des siècles durant, laissant Tyrande monter la garde." },
+        { "Tyrande le réveilla quand la Légion revint, et il détruisit Archimonde au pied de l'Arbre. Il est de nouveau perdu dans le Rêve, et les druides qui dorment dans ces refuges des saisons ne disent pas quand il reviendra. Son peuple apprend à vieillir sans lui." },
+      },
+    },
     ["mannoroc-coven"] = {
       title = "Le convent de Mannoroc",
       text = {
@@ -1755,6 +1785,13 @@ ns.translate({
       text = {
         { "Ruisselune était le bourg où se tenait le marché des fermes de la Marche de l'Ouest, et le foyer de ses mineurs, brûlé par les orcs pendant la Première Guerre et rebâti après la Deuxième. C'est aujourd'hui une ville défias : ses habitants chassés, ses maisons pleines de bandits aux masques rouges, et sa vieille forge et sa grange cachant le chemin qui descend vers les Mortemines." },
         { "C'est un endroit triste à traverser, et pas un endroit sûr. La Confrérie surveille la route, et quiconque regarde trop longtemps une certaine grange en bordure de la ville a toutes les chances de découvrir pourquoi." },
+      },
+    },
+    ["moonglade"] = {
+      title = "Reflet-de-Lune",
+      text = {
+        { "Reflet-de-Lune est une vallée cachée dans les montagnes du nord de Kalimdor, entre Gangrebois et le Berceau-de-l'Hiver, autour du lac Elune'ara. C'est le lieu le plus sacré des druides, elfes de la nuit comme taurens, et le Cercle cénarien a son foyer au village de Havrenuit, au bord du lac. C'est un lieu de paix, ouvert à l'Alliance comme à la Horde." },
+        { "Les druides viennent ici apprendre, et les érudits du Cercle y gardent leurs archives. Lors de la fête lunaire, le monde entier vient honorer les anciens et la lune." },
       },
     },
     ["morbent-fel"] = {
@@ -2559,6 +2596,13 @@ ns.translate({
         { "Vanndar Stormpike commande la Garde, et le roi Magni lui a ordonné de prendre la vallée pour Forgefer. Les Loup-de-Givre y vivent déjà et résistent à cet ordre. Je sers le roi qui a donné cet ordre, mais l'intérêt de la Ligue pour ce qui se trouve sous terre ne règle pas les revendications de ceux qui vivent au-dessus." },
       },
     },
+    ["stormrage-barrow-dens"] = {
+      title = "Le refuge des saisons de Malfurion",
+      text = {
+        { "Les druides dorment sous les collines de Reflet-de-Lune tandis que leur esprit parcourt le Rêve d'émeraude, parfois pendant des années. Ces refuges des saisons portent le nom de Malfurion Stormrage, rappelant le premier druide et la longue pratique de ses fidèles." },
+        { "Pendant la Troisième Guerre, Tyrande rappela les druides endormis pour affronter la Légion. Malfurion a aujourd'hui disparu, et les druides ignorent son sort. Avec le Cauchemar qui se répand, les gardiens des refuges et Remulos ont des raisons de craindre pour ceux qui sont dans le Rêve. Marchez avec précaution ici, $gvoyageur:voyageuse;. Le calme au-dessus des druides endormis dit peu de chose de ce que leurs esprits affrontent peut-être." },
+      },
+    },
     ["stormwind-city"] = {
       title = "Hurlevent",
       text = {
@@ -2777,6 +2821,14 @@ ns.translate({
       text = {
         { "Les enfants de Sombre-Comté connaissent l'histoire de l'Embaumeur : un gentil alchimiste dont la femme, Eliza, mourut, et qui refusa de la laisser partir. Il se servit de magie noire pour placer son propre cœur dans la poitrine de sa femme, et cela la ramena, avec une faim de chair humaine, si bien qu'il dut la garder enterrée." },
         { "Ce n'est pas une histoire pour enfants. L'Embaumeur est le vieil ermite Abercrombie, qui vit dans une cabane au-dessus de Colline-aux-Corbeaux, et sa promise attend toujours dans sa tombe. Son dernier présent à Sombre-Comté fut Balafré, un monstre cousu de morts, envoyé en titubant sur la route de la ville ; les Veilleurs se souviennent de la nuit où il arriva." },
+      },
+    },
+    ["the-emerald-dream"] = {
+      title = "Le Rêve d'émeraude",
+      text = {
+        { "Le Rêve d'émeraude est un monde des esprits hors du monde éveillé, changeant et immense, d'où Ysera la Rêveuse guide la croissance de toute chose sauvage. Les druides le parcourent grâce à un pacte conclu il y a longtemps, après la Fracture, quand les elfes de la nuit plantèrent un Arbre-Monde sur le mont Hyjal." },
+        { "Trois dragons bénirent cet arbre. Alexstrasza planta le gland dans les eaux du nouveau Puits d'éternité ; Nozdormu promit que tant qu'il se dresserait, les elfes de la nuit ne vieilliraient ni ne tomberaient malades ; Ysera le lia à son Rêve. Le prix fut le sommeil des druides. Malfurion et ses fidèles acceptèrent de passer des siècles entiers en hibernation, leur esprit errant sur les chemins du Rêve, et ils tinrent parole." },
+        { "Voilà pourquoi les refuges des saisons de Reflet-de-Lune sont pleins de dormeurs, et pourquoi un druide qui a parcouru le Rêve peut se réveiller avec l'air d'un voyageur revenu de très loin. Ces derniers temps, ils se réveillent troublés. Quelque chose de sombre est entré dans le Rêve, et Remulos, qui garde Reflet-de-Lune, ne dit pas quoi." },
       },
     },
     ["the-fallen-hero"] = {
