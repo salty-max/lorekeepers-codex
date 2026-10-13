@@ -862,6 +862,13 @@ ns.translate({
         { "Ils sont grands, à la peau verte et aux défenses saillantes ; ils gardent les anciens dieux des trolls, et certains gardent des coutumes pires encore. Les Revantusk des Hinterlands sont l'exception : ils ont pris le parti de la Horde, et leurs alliés de la Horde se portent garants d'eux." },
       },
     },
+    ["freewind-post"] = {
+      title = "Le poste de Librevent",
+      text = {
+        { "Le poste de Librevent est un village tauren bâti au sommet des aiguilles, au milieu du canyon, un ensemble de huttes sur la haute roche reliées par des ponts de corde, auquel on accède par ascenseur. Les coursiers du vent vont et viennent, et les taurens chassent au fond du canyon en contrebas." },
+        { "Il subit une pression de deux côtés. Les centaures galak lancent de plus en plus de raids, et les taurens du Totem sinistre, qui tiennent la cime de Noir-nuage toute proche, se sont retournés contre les leurs ; les taurens de Librevent disent qu'ils se comportent étrangement depuis un certain temps. C'est dur, pour un tauren, de dire cela d'un autre tauren." },
+      },
+    },
     ["frostmane-trolls"] = {
       title = "Les trolls Frostmane",
       text = {
@@ -1467,6 +1474,13 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "De tout ce qui figure sur cette page, c'est la marche hebdomadaire d'Edward Heartweaver qui me revient sans cesse." },
       },
     },
+    ["rustmaul-dig-site"] = {
+      title = "Le site de fouilles de Rustmaul",
+      text = {
+        { "Au bord des Salines, une équipe de nains installa un chantier, Rustmaul, en quête de ce qui se trouve sous le sel. La Horde envoya une troupe de guerre pour les chasser. Au beau milieu du combat, le sol s'ouvrit, et des insectes jaillirent d'une grotte du chantier : des silithides, plus que l'un ou l'autre camp n'en avait jamais vu, et ils faillirent tuer tout le monde." },
+        { "Les nains sont partis. Les insectes, non. Les chasseurs de la Horde qui ont survécu tiennent désormais les silithides pour un danger bien plus grand que n'importe quelle équipe de fouilleurs, et, après avoir lu les rapports, moi aussi. Ce que les nains cherchaient, personne ne me l'a dit. Je ne suis pas sûre qu'ils l'aient trouvé." },
+      },
+    },
     ["satyrs"] = {
       title = "Les satyres",
       text = {
@@ -1558,6 +1572,13 @@ ns.translate({
         { "Thrall rendit le chamanisme à son peuple, et en Kalimdor ils en trouvèrent d'autres qui ne l'avaient jamais perdu : les taurens, qui honorent la Terre-Mère, et les trolls, dont les féticheurs avaient gardé le leur. Un chaman demande l'aide de la terre, du feu, de l'eau et de l'air, porte un totem de chacun, et les éléments, la plupart du temps, répondent." },
         { client = "forever", "Depuis peu, on voit aussi des nains en appeler à la pierre et à l'orage, et les Sculpte-vents éolides sont descendus chercher leurs esprits du vent perdus auprès des chamans de la Horde." },
         { "La Ligue a appris à demander la permission d'un chaman avant de fouiller, $gvoyageur:voyageuse;. Le sol a ses opinions, et eux les entendent." },
+      },
+    },
+    ["shimmering-flats"] = {
+      title = "Les Salines",
+      text = {
+        { "Les Salines sont une vaste étendue de sel dans l'est de Mille pointes, assez blanche pour éblouir les yeux d'un voyageur. Gobelins et gnomes y ont construit la piste des Mirages. Leurs voitures-fusées font le tour de la piste devant les foules et les bookmakers, avec de fréquentes interruptions pour cause d'accidents." },
+        { "Les épaves fournissent à Kravel Koalbeard des pièces qu'il revend aux équipes. Les frères Brassbolts ont besoin de casques pour leurs pilotes. Une course produit des gagnants, des perdants et une quantité utile de ferraille ; les gens qui travaillent au bord de la piste ont trouvé à s'occuper des trois." },
       },
     },
     ["shrine-of-akir"] = {
@@ -1893,6 +1914,13 @@ ns.translate({
         { "Thelsamar est le cœur du Loch Modan : un village de maisons de pierre sur la route entre Forgefer et les Paluns, avec une forge, une bonne auberge et un maître des griffons pour ceux qui sont pressés." },
         { "C'est le genre d'endroit où tout le monde connaît tout le monde et où les nouvelles voyagent plus vite que les griffons. Demandez à l'auberge ce qui se passe dans le pays du loch et vous l'entendrez trois fois, chaque version meilleure que la précédente." },
         { "Les montagnards d'ici sont débordés. Si vous avez le bras solide et un après-midi de libre, ils vous trouveront de quoi faire." },
+      },
+    },
+    ["thousand-needles"] = {
+      title = "Mille pointes",
+      text = {
+        { "Au sud des Tarides, le sol plonge par un grand ascenseur jusqu'à Mille pointes : un canyon profond plein de hautes aiguilles de pierre, des centaines, dressées hors de la poussière comme les os de la terre. Les taurens vivent à leur sommet, les centaures du clan galak au fond du canyon, et les coursiers du vent et les harpies entre les deux." },
+        { "À l'est, le canyon s'ouvre sur les Salines, un lit de sel sec et blanc où la chaleur fait trembler l'air au ras du sol. Les gobelins et les gnomes y ont construit une piste de course. On me dit que c'est une chose bien naturelle à faire d'un désert, pour des gobelins et des gnomes." },
       },
     },
     ["thrall"] = {
