@@ -705,6 +705,13 @@ ns.translate({
         { "Ils ne sont pas toujours faciles à réveiller. Kerlonian Evershade, un druide de la Griffe tout juste revenu du Rêve, somnole volontiers au bord de la route en Sombrivage, et demande qu'on le réveille avec son cor s'il s'assoupit en chemin. Dix mille ans, c'est long pour avoir été fatigué." },
       },
     },
+    ["dun-garok"] = {
+      title = "Dun Garok",
+      text = {
+        { "Dun Garok est une forteresse naine bâtie dans les collines du sud-est de Hautebrande, bien loin de chez elle, et sa garnison, sous les ordres du capitaine Ironhill, tient les cols et protège les gens des contreforts et des mines voisines. C'est un petit avant-poste têtu de Forgefer dans une terre de morts, et j'en suis fière." },
+        { "Les Réprouvés la détestent, et envoient leurs pillards contre elle. Les nains les renvoient chez eux." },
+      },
+    },
     ["dun-modr"] = {
       title = "Dun Modr",
       text = {
@@ -719,6 +726,15 @@ ns.translate({
         { "Dun Morogh, ce sont les hautes terres enneigées autour de Forgefer, patrie des nains du clan Bronzebeard et de leurs voisins gnomes." },
         { "Ces terres sont à nous, mais nous les partageons, et pas toujours de bon gré. Les trolls Frostmane tiennent les collines de l'ouest, les troggs creusent où bon leur semble, et depuis la chute de Gnomeregan les gnomes sont nos voisins dans leurs propres vallées autant que dans notre cité." },
         { "Apprenez bien ses routes, $gvoyageur:voyageuse;. La plupart des nains que vous rencontrerez un jour y ont fait leurs premiers pas." },
+      },
+    },
+    ["durnholde-keep"] = {
+      title = "Le donjon de Fort-de-Durn",
+      text = {
+        { "Fort-de-Durn contrôlait les camps d'internement des orcs après la Deuxième Guerre. Son maître, Aedelas Blackmoore, éleva un enfant orc comme esclave et gladiateur, avec l'intention de lui faire commander une armée docile. Cet enfant était Thrall. Taretha Foxton, une jeune fille de la maison de Blackmoore, se lia d'amitié avec lui et l'aida à s'évader." },
+        { "Thrall alla libérer son peuple. Blackmoore est mort, et le Syndicat tient le donjon. Ses ambitions lui ont survécu ailleurs : dans un manoir au bord du lac Lordamere, Aliden Perenolde projetait d'asservir des orcs à son tour. Sa compagne, Elysa, portait le pendentif de Taretha." },
+        { "Les agents de Thrall vinrent à Hautebrande le récupérer, et le chef de guerre l'a de nouveau. Un pendentif est peu de chose à côté de la chute d'une forteresse, $gvoyageur:voyageuse;. Il préserve le nom de quelqu'un dont l'aide a rendu cette chute possible." },
+        { side = "Horde", aside = true, sign = "P. F.", "Une jeune fille d'une maison de Lordaeron a fait plus pour les orcs que toute son Alliance. Son nom mérite de figurer dans d'autres histoires que celle-ci." },
       },
     },
     ["durotar"] = {
@@ -1008,6 +1024,13 @@ ns.translate({
       text = {
         { "Il y a dix mille ans, les Bien-nés, les nobles sorciers de la reine Azshara, habitaient des tours le long de cette côte, dont Ameth'Aran et Bashal'Aran, et y pratiquaient librement leurs magies. La guerre autour du Puits d'éternité les détruisit. Des tablettes d'Ameth'Aran racontent encore l'histoire de sa chute, pour qui sait lire les vieilles runes et ne se laisse pas effrayer par les esprits." },
         { "Les morts ne sont pas partis. Les fantômes des Bien-nés hantent les deux ruines, et à Ameth'Aran se trouve l'esprit d'une femme nommée Anaya Dawnrunner, dont l'amant, Cerellean Whiteclaw, lui a survécu dix mille ans et rêve encore d'elle à Auberdine. À Bashal'Aran, un autre esprit, Asterion, est retenu prisonnier derrière un sceau posé par l'un des plus puissants des siens, et les satyres et les fées qui se nourrissent de la magie des ruines n'approchent pas de son sanctuaire." },
+      },
+    },
+    ["hillsbrad-foothills"] = {
+      title = "Contreforts de Hautebrande",
+      text = {
+        { "Les contreforts de Hautebrande sont un pays vert et vallonné entre les montagnes d'Alterac et la mer : des vergers, des fermes et des pâturages, la vieille ville de Hautebrande et le port d'Austrivage. C'était un coin prospère de Lordaeron, et il est encore vivant, on ne sait comment, ce qui n'est pas rien dans le nord." },
+        { "C'est aussi un champ de bataille. Les Réprouvés tiennent Moulin-de-Tarren dans les collines, et ils attaquent les fermes des champs de Hautebrande, tuent les fermiers et brûlent les récoltes ; les hommes d'Austrivage contre-attaquent. Le Syndicat tient la vieille forteresse de Fort-de-Durn, les mages de Dalaran gardent le camp d'internement au bord du lac Lordamere, et à l'est, les nains de Dun Garok veillent sur les cols. Hautebrande a plus d'armées que de moissons." },
       },
     },
     ["hogger"] = {
@@ -1598,6 +1621,14 @@ ns.translate({
         { "Leur capitaine sur la Côte des marchands est le baron de Longrivage, et Gazlowe, de Ratchet, a mis sa tête à prix ; les gobelins de Gadgetzan paient tout aussi bien pour les pirates de Tanaris. Il n'y a pas de grande histoire derrière eux, ni roi exilé ni cause perdue. Ce sont des voleurs qui possèdent des bateaux, et la mer est vaste." },
       },
     },
+    ["southshore"] = {
+      title = "Austrivage",
+      text = {
+        { "Austrivage est une ville de pêcheurs et un port sur la côte de Hautebrande, avec une auberge, un hôtel de ville et une garnison qui combat les Réprouvés de Moulin-de-Tarren. Elle reste une place forte des vivants dans un pays où cette distinction compte." },
+        { "Kundric Zanden tient son histoire, et les maîtres du savoir de Hurlevent envoient des érudits à travers la ville vers les bibliothèques en ruine d'Alterac. Je suis heureuse de trouver des archives tenues dans un tel endroit. Un voyageur peut s'y procurer des provisions, mais aussi apprendre quelque chose du pays que ces provisions doivent l'aider à traverser." },
+        { side = "Horde", aside = true, sign = "P. F.", "Kundric Zanden tient l'histoire d'Austrivage, et moi celle de ce qui reste de Lordaeron. Je doute que nous soyons d'accord sur le dernier chapitre." },
+      },
+    },
     ["splintertree-post"] = {
       title = "Le poste de Bois-brisé",
       text = {
@@ -1696,6 +1727,14 @@ ns.translate({
       text = {
         { "Talaanis Chantelombre est le grand ancien de l'île de Zéphras, et son peuple dit du bien de lui. Un homme bon, dit-on, et très aimé, ce que la Ligue a appris à ne pas tenir pour acquis chez un dirigeant. Il gouverne depuis Valanaar avec les autres anciens de l'île, parmi lesquels Aetheen des Trombes." },
         { "Ses années de charge n'ont pas été faciles. Les pylônes faiblissent, les deux ordres de son peuple peinent à s'entendre sur quoi que ce soit, et le culte des Al'Aketh a frappé la tour de guet de l'ouest et tué son propre neveu, un garde-paix. Quand la grande prêtresse du culte fut enfin chassée, il ne parla pas de victoire. Les protections qui avaient caché Zéphras à Al'Akir étaient tombées, et il ne put que dire qu'il faudrait peut-être des années, voire des décennies, avant que le seigneur des Vents ne pose les yeux sur eux." },
+      },
+    },
+    ["tarren-mill"] = {
+      title = "Moulin-de-Tarren",
+      text = {
+        { "Des meuniers et des fermiers occupaient autrefois Moulin-de-Tarren. Les Réprouvés en ont fait leur place forte du sud, avec des Gardes noirs au service d'une grande exécutrice qui répond à Varimathras. Austrivage n'est qu'à une courte chevauchée." },
+        { "Darthalia ordonne des raids contre les fermes de Hautebrande et traite leurs habitants humains d'infestation. Elle entend les soumettre pendant que les apothicaires achèvent leur nouvelle peste. La guerre entre ces villes va bien au-delà de leurs gardes : les fermiers et leurs récoltes sont nommés dans ses ordres." },
+        { side = "Horde", aside = true, sign = "P. F.", "On nous dit que la nouvelle peste des apothicaires est destinée au Fléau. La dernière peste m'a tué, et j'aimerais bien voir ça par écrit." },
       },
     },
     ["tauren"] = {
