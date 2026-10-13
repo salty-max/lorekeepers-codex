@@ -125,7 +125,7 @@ function ns.scanCommand(arg)
   end
   print(
     PREFIX
-      .. ("scan %s: %d areas, %d creatures, %d quests, %d NPC texts, %d books. /codex scan on|off|clear; saved on logout."):format(
+      .. ("scan %s: %d areas, %d creatures, %d quests, %d NPC texts, %d books. /codex scan on|off|clear. Saved on logout."):format(
         s.on and "on" or "off",
         count(s.areas),
         count(s.npcs),
