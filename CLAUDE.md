@@ -45,7 +45,9 @@ conventions).
   page and every part of one, the board, the banners; never edited here: `bun run
   kit:sync` after changing the kit, `bun run kit:check` to verify; the Codex's
   theme is set at the top of `Book.lua`), `Library.lua` (books, notes, plaques read in the world, copied whole from the
-  game's reader: on opening, it turns through every page and back; per character
+  game's reader: on opening, it turns through every page and back, a page a frame (never
+  from inside the reader's event: turns nested there crashed the game on a
+  long book); per character
   in `LorekeepersCodexChar.library`; players' letters never), `Book.lua` (the
   window, its tabs: each a file of its own registered with `ns.addTab`, the
   links in chat, and what every tab is made of, `ns.ui`: the look, a list's

@@ -906,8 +906,9 @@ function ItemTextGetItem() return reader.title end
 function ItemTextGetMaterial() return reader.material end
 function ItemTextGetCreator() return reader.creator end
 function ItemTextGetPage() return reader.page end
-function ItemTextGetText() return reader.pages[reader.page] end
-function ItemTextHasNextPage() return reader.page < #reader.pages end
+function ItemTextGetText() return reader.pages[math.min(reader.page, #reader.pages)] end
+-- (a text whose last page leads to itself: its pages never end)
+function ItemTextHasNextPage() return reader.endless or reader.page < #reader.pages end
 -- The game's reader frame: its alpha, and the lowest it went.
 ItemTextFrame = {
   alpha = 1,
@@ -916,7 +917,37 @@ ItemTextFrame = {
     self.lowest = math.min(self.lowest or 1, a)
   end,
 }
-local function readerEvent(e) libraryFrame.scripts.OnEvent(libraryFrame, e) end
+-- The game answers a page turned at once (a text it knows already): its
+-- event comes from inside the turn. How deep the reader's events nested.
+local depth, deepest = 0, 0
+local function readerEvent(e)
+  depth = depth + 1
+  deepest = math.max(deepest, depth)
+  libraryFrame.scripts.OnEvent(libraryFrame, e)
+  depth = depth - 1
+end
+-- What waits for the next frame, run frame after frame.
+local nextFrame = {}
+local after = C_Timer.After
+C_Timer.After = function(seconds, fn)
+  if seconds == 0 then
+    table.insert(nextFrame, fn)
+  else
+    after(seconds, fn)
+  end
+end
+local function nextFrames()
+  local n = 0
+  while #nextFrame > 0 do
+    local now = nextFrame
+    nextFrame = {}
+    for _, fn in ipairs(now) do
+      fn()
+    end
+    n = n + 1
+  end
+  return n
+end
 function ItemTextNextPage()
   reader.page = reader.page + 1
   readerEvent("ITEM_TEXT_READY")
@@ -927,10 +958,13 @@ function ItemTextPrevPage()
 end
 -- Opening a text shows its first page; the reader closes on whatever page
 -- it shows then.
-local function read(title, pages, material, creator)
-  reader = { title = title, pages = pages, page = 1, material = material or "Parchment", creator = creator }
+local function read(title, pages, material, creator, endless)
+  reader =
+    { title = title, pages = pages, page = 1, material = material or "Parchment", creator = creator, endless = endless }
+  deepest = 0
   readerEvent("ITEM_TEXT_BEGIN")
   readerEvent("ITEM_TEXT_READY")
+  nextFrames()
   local shownAfter = reader.page
   readerEvent("ITEM_TEXT_CLOSED")
   return shownAfter
@@ -971,6 +1005,33 @@ if FOREVER then
   read("A sealed letter", { "Of no one known..." }, "Parchment", "Someone hidden")
   secrets["Someone hidden"] = nil
   check(not LorekeepersCodexChar.library.texts[3], "Forever: a letter whose writer the game keeps secret is not copied")
+end
+-- A long book the game knows already (The Alliance of Lordaeron, sixteen
+-- pages): each page turned at a frame of its own, never from inside the
+-- last one's event, which on a long book crashed the game.
+do
+  local long = {}
+  for i = 1, 16 do
+    long[i] = "The Second War, part " .. i .. "."
+  end
+  shown = read("The Alliance of Lordaeron", long)
+  local copied
+  for _, t in pairs(LorekeepersCodexChar.library.texts) do
+    if t.title == "The Alliance of Lordaeron" then copied = t end
+  end
+  check(
+    copied and copied.count == 16 and copied.pages[16] == long[16] and shown == 1 and deepest == 1,
+    "a long book copied whole, a page a frame, the reader's events never nested; back on its first page"
+  )
+  -- … and one whose last page leads to itself: walked to its end, no further.
+  shown = read("A Book Without End", { "The first page.", "The last page, again and again." }, nil, nil, true)
+  for _, t in pairs(LorekeepersCodexChar.library.texts) do
+    if t.title == "A Book Without End" then copied = t end
+  end
+  check(
+    copied.count == 2 and copied.pages[3] == nil and shown == 1,
+    "… a page leading to itself: the book's end, copied once"
+  )
 end
 LorekeepersCodexFrame:Hide()
 linkHandlers.lorekeeper("lorekeeper:lib:1")

@@ -3,8 +3,11 @@
 -- own (an orc's library is not a dwarf's):
 --   LorekeepersCodexChar.library = { texts[id] = { title, material, pages, count,
 --                                    at, level, zone, sub }, keys[key] = id, nextId }
--- On opening a text, the addon turns through every page at once and back to
--- the first, so a quest letter read once and handed in is copied whole.
+-- On opening a text, the addon turns through every page and back to the
+-- first, so a quest letter read once and handed in is copied whole: a page
+-- a frame, never from inside the reader's own event (the game may answer a
+-- turn at once, for a text it knows already, and turning from there nested
+-- every page in the last: deep enough on a long book to crash the game).
 -- Letters written by players are never copied. No spoilers: the Library never
 -- says how much there is to find. Its tab is LibraryBook.lua.
 local _, ns = ...
@@ -63,6 +66,14 @@ ns.libraryPlain = plain
 
 -- ── copying ──────────────────────────────────────────────────────────────────
 local reading -- the text open in the game's reader: { title, material, pages, last, walking }
+local LONGEST = 100 -- pages walked at most (a text whose pages never end)
+
+-- A page turned at the next frame, if the text is still open.
+local function turn(r, fn)
+  C_Timer.After(0, function()
+    if reading == r then fn() end
+  end)
+end
 
 local function here() return GetRealZoneText and GetRealZoneText() or nil, GetSubZoneText and GetSubZoneText() or nil end
 
@@ -127,14 +138,17 @@ local function onText(event)
     end
     local page, text = ItemTextGetPage(), ItemTextGetText()
     if secret(page) or secret(text) or not text then return end
-    reading.pages[page] = text
+    -- (a page that only repeats the one before leads to itself: the text's end)
+    local again = reading.walking == "forward" and page > 1 and reading.pages[page - 1] == text
+    if not again then reading.pages[page] = text end
     local more = ItemTextHasNextPage()
     if secret(more) then more = false end
-    if not more then reading.last = page end
+    more = more and not again and page < LONGEST
+    if not more then reading.last = again and page - 1 or page end
     if reading.walking == "back" then
       -- turning back to the first page for the reader: nothing to copy
       if page > 1 then
-        ItemTextPrevPage()
+        turn(reading, ItemTextPrevPage)
       else
         reading.walking = nil
         showReader()
@@ -142,18 +156,18 @@ local function onText(event)
       return
     end
     copy()
-    -- On opening a text, turn through every page at once, then back.
+    -- On opening a text, turn through every page, then back.
     if page == 1 and more and not reading.walking and ItemTextNextPage then
       reading.walking = "forward"
       hideReader()
-      ItemTextNextPage()
+      turn(reading, ItemTextNextPage)
     elseif reading.walking == "forward" then
       if more then
-        ItemTextNextPage()
+        turn(reading, ItemTextNextPage)
       else
         reading.walking = "back"
         if page > 1 then
-          ItemTextPrevPage()
+          turn(reading, ItemTextPrevPage)
         else
           reading.walking = nil
           showReader()
