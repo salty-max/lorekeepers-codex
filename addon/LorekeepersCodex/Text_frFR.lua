@@ -227,7 +227,7 @@ ns.translate({
     ["durotar"] = { "Durotar et Orgrimmar", "La terre rouge que Thrall a donnée à son peuple, et la cité qui porte le nom du chef de guerre qui les a libérés." },
     ["duskwood"] = { "Bois de la Pénombre", "Une forêt où la nuit ne finit jamais tout à fait, et où les morts ne restent pas en terre." },
     ["dustwallow"] = { "Marécage d'Âprefange", "La cité insulaire de dame Proudmoore, un marais plein de dragons, et une auberge qui a brûlé." },
-    ["eastern-plaguelands"] = { "Maleterres de l'est", "L'ancien Eastweald, Stratholme, et la nécropole dans le ciel." },
+    ["eastern-plaguelands"] = { "Maleterres de l'est", "Les anciennes Terres de l'Est, Stratholme, et la nécropole dans le ciel." },
     ["elwynn"] = { "Forêt d'Elwynn et Hurlevent", "Le cœur du royaume humain : sa forêt, ses fermes et la cité blanche rebâtie sur ses cendres." },
     ["felwood"] = { "Gangrebois", "La forêt empoisonnée, où l'on trouva le crâne de Gul'dan." },
     ["feralas"] = { "Feralas", "Des arbres géants, des ogres, et les ruines des Bien-nés." },
@@ -1099,6 +1099,13 @@ ns.translate({
         { "Dans les profondeurs du temple, son ombre gît dans un état entre le sommeil et la mort, empêtrée dans les cauchemars, et ce qui lui reste de libre arbitre tend la main aux voyageurs pour qu'ils l'aident. Un autre dragon vert, Itharius, attend dans une grotte du marais, dans l'espoir de le racheter. Je souhaite bonne chance à Itharius. Le Cauchemar qui tient Eranikus est le même qui a pris les lieutenants d'Ysera aux grands arbres." },
       },
     },
+    ["everlook"] = {
+      title = "Long-guet",
+      text = {
+        { "Long-guet est une ville gobeline au milieu du Berceau-de-l'Hiver, le port d'escale le plus au nord du cartel Gentepression, avec des murs, une auberge, une banque et une garde de cogneurs gobelins, où l'Alliance et la Horde commercent côte à côte. Il y fait plus chaud qu'on ne le croirait, et bien plus cher." },
+        { "Tout le monde passe par Long-guet. L'Aube d'argent y a un représentant, la Confrérie du thorium un forgeron, et tous les chasseurs, explorateurs et érudits du nord y font halte pour se réchauffer les pieds." },
+      },
+    },
     ["explorers-league"] = {
       title = "La Ligue des explorateurs",
       text = {
@@ -1692,6 +1699,13 @@ ns.translate({
         { "C'est pour cela que le Marteau du crépuscule est venu. Le culte vénère ces anciens seigneurs, et ses membres se sont rassemblés au Glaive et dans les grottes alentour avec des livres de noms qui ne devraient pas être prononcés." },
       },
     },
+    ["mazthoril"] = {
+      title = "Mazthoril",
+      text = {
+        { "Mazthoril est une grande grotte de glace au milieu du Berceau-de-l'Hiver, profonde, froide et pleine de dragons bleus. C'est le foyer du vol draconique bleu en Kalimdor, et des runes de cobalt sur son sol portent ceux qui savent s'en servir jusqu'à Haleh, leur matrone protectrice." },
+        { "Les dragons bleus sont les gardiens de la magie, et ils surveillent de très près le vol draconique noir. Ils savent ce que Nefarian élève au pic Rochenoire, et que cela ne peut être permis ; et comme ils ne peuvent guère l'atteindre dans sa montagne, ils sont prêts à aider les mortels qui le peuvent." },
+      },
+    },
     ["mekgineer-thermaplugg"] = {
       title = "Mekgénieur Thermaplugg",
       text = {
@@ -2168,6 +2182,13 @@ ns.translate({
         { "Les nagas du seigneur de guerre Krellian tiennent désormais les ruines depuis le temple de Zin-Malor. Les elfes de la nuit évitent l'endroit, mais la Ligue des explorateurs veut des estampages des inscriptions. Si vous parvenez à passer les nagas, $gvoyageur:voyageuse;, ces tablettes préservent peut-être quelque chose que la mer n'a pas encore pris." },
       },
     },
+    ["ruins-of-keltheril"] = {
+      title = "Les ruines de Kel'Theril",
+      text = {
+        { "Au bord du lac gelé de Kel'Theril se trouvent les ruines d'une ville des Bien-nés, et ses Bien-nés y sont toujours, sous forme de fantômes. Il y a longtemps, ils volèrent une relique sacrée, le cristal de Zin-Malor, dans son temple, dans l'intention d'en drainer la puissance pour eux-mêmes. Le rituel tourna mal. Le cristal se brisa dans une grande explosion, et ses morceaux furent projetés sous la glace du lac." },
+        { "Les Bien-nés furent maudits et condamnés à rester là où ils avaient commis leur faute, à chercher les morceaux pour toujours. Quand enfin quelqu'un les rassembla et reconstitua le cristal, l'un des fantômes parla : il regrettait, et il savait que rien ne pouvait changer le passé, mais il était en paix. Le temple du cristal est en ruine ; il partit donc chez l'archidruide, à Darnassus." },
+      },
+    },
     ["ruins-of-lordaeron"] = {
       title = "Les ruines de Lordaeron",
       text = {
@@ -2429,6 +2450,13 @@ ns.translate({
         { "Stalvan Mistmantle était enseignant à Ruisselune et précepteur dans des familles de la campagne. Il s'imagina que son élève, Tilloa, partageait son affection. Quand elle lui présenta un prétendant et l'appela son gentil vieil oncle, son propre récit tourna à la rage. Les meurtres suivirent." },
         { "Des lettres et des journaux retracent ses déplacements à travers la Marche de l'Ouest et Hurlevent jusqu'au manoir au nord-est de Sombre-Comté, où l'obscurité du Bois de la Pénombre l'a changé davantage encore. Le pressentiment de Madame Eva lance la recherche, mais ce sont surtout les propres mots de Stalvan qui la font avancer." },
         { "C'est une histoire laide à reconstituer à partir de papiers si ordinaires. Un poste d'enseignant, la correspondance d'une famille, le nom d'une élève : les choses qui auraient dû appartenir à une vie tranquille demeurent parmi les traces de ceux qu'il a détruits." },
+      },
+    },
+    ["starfall-village"] = {
+      title = "Pluie-d'Étoiles",
+      text = {
+        { "Pluie-d'Étoiles est un petit village elfe de la nuit dans les neiges du Berceau-de-l'Hiver, où druides et érudits vivent parmi les arbres. Ses habitants étudient la terre et ses créatures, et les vieilles ruines au bord du lac." },
+        { "C'est une érudite de Pluie-d'Étoiles qui découvrit ce que sont les chouettards du Berceau-de-l'Hiver : non pas des bêtes, mais des créatures d'Elune, la déesse de la lune. L'archidruide de Darnassus s'y intéressa beaucoup. Moi aussi." },
       },
     },
     ["steamwheedle-cartel"] = {
@@ -3136,6 +3164,13 @@ ns.translate({
         { "Tout en haut du roc des Sabres-de-Givre, au nord du Berceau-de-l'Hiver, une poignée d'elfes de la nuit élèvent les sabres blancs du nord. Leur chef, Rivern Frostwind, reste à l'écart ; sa présence passe inaperçue aux yeux de la plupart, dit-il, ce qui lui convient." },
         { "Les félins ne se méritent pas facilement. Rivern commence par envoyer quiconque en veut un chercher de la viande, de chimère et d'ours Crocs acérés, pour nourrir les jeunes sabres en dressage, puis l'appelle à l'aide contre les furbolgs Tombe-hiver qui harcèlent le roc. C'est un long apprentissage, et peu le terminent." },
         { "Ceux qui y parviennent quittent le Berceau-de-l'Hiver sur un sabre-de-givre, ce qui vaut chaque course, m'a-t-on dit. Les félins, pour leur part, semblent penser que l'arrangement était leur idée." },
+      },
+    },
+    ["winterspring"] = {
+      title = "Berceau-de-l'Hiver",
+      text = {
+        { "Le Berceau-de-l'Hiver est la haute vallée enneigée au nord de Gangrebois et à l'est de Reflet-de-Lune, un pays de neige profonde, de lacs gelés et de sources chaudes qui fument dans le froid. Les sabres-de-givre y chassent, ainsi que les chouettes, les yétis, les géants et les chouettards ; les elfes de la nuit élèvent leurs sabres-de-givre au roc des Sabres-de-Givre, et les druides tiennent un village à Pluie-d'Étoiles." },
+        { "Les furbolgs de la tribu Tombe-hiver boivent une eau-de-feu corrompue, venue de Gangrebois, et en deviennent fous. Les dragons bleus ont leur repaire dans les grottes de Mazthoril, et les gobelins de Long-guet vendent tout à tout le monde au carrefour." },
       },
     },
     ["worgen"] = {
