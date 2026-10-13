@@ -281,11 +281,14 @@ ns.translate({
     { "Mont Rochenoire", "Mont Blackrock" },
     { "Pic Rochenoire", "Pic Blackrock" },
     { "Bassin Arathi", "Bassin d'Arathi" },
+    { "chanteguerres", "Warsong" },
+    { "Chanteguerres", "Warsong" },
     { "Comté-de-l'Or", "Goldshire" },
     { "Comté-du-Nord", "Northshire" },
     { "de Fossoyeuse", "d'Undercity" },
     { "Loup-de-Givre", "Frostwolf" },
     { "Sabot-de-Sang", "Bloodhoof" },
+    { "chanteguerre", "Warsong" },
     { "Chanteguerre", "Warsong" },
     { "Comté-du-Lac", "Lakeshire" },
     { "Courbenclume", "Anvilmar" },
@@ -457,6 +460,14 @@ ns.translate({
         { "Le généralissime Bolvar Fordragon commande les armées de Hurlevent et se tient aux côtés de l'enfant-roi, Anduin Wrynn, tandis que son père Varian a disparu. C'est un paladin de la vieille école, pieux, honnête et inébranlable, et il garde les soldats du royaume là où le royaume en a le plus besoin, ce qui est rarement là où les provinces les voudraient." },
         { "C'est un homme prudent, trop prudent peut-être. Quand le magistrat de Comté-du-Lac fit savoir que les orcs Blackrock avaient des dragons derrière eux, Bolvar refusa de déplacer des troupes sur une simple supposition et envoya le messager demander conseil à dame Katrana Prestor. Le maréchal Windsor, qui avait trouvé la preuve, le traita d'imbécile : elle se tenait à deux pas de lui, dit-il, et il ne la voyait pas. Quand Windsor démasqua la dame dans la salle du trône comme étant Onyxia, fille d'Aile de mort, il déclara que même le généralissime avait été sa marionnette, tenu par un médaillon de dragon. À la fin, ce fut Bolvar qui resta avec le médaillon brisé entre les mains." },
         { "Ce n'est pas un imbécile. C'est un honnête homme qui a cru une dragonne sur parole, et je doute qu'il recommence." },
+      },
+    },
+    ["boulderslide-ravine"] = {
+      title = "Le ravin des Éboulis",
+      text = {
+        { "Au sud-est des Serres-Rocheuses s'ouvre un ravin avec une grotte profonde, et les kobolds qui s'y trouvent creusent comme des possédés, en quête d'un cristal rare qu'ils appellent résonite. Les chamans de Roche-Soleil sentirent que quelque chose n'allait pas sous les montagnes et allèrent voir pourquoi, et au fond de la grotte, ils trouvèrent un tonneau de résonite, et endormi à l'intérieur, l'un des terrestres : un être de pierre vivante nommé Goggeroc." },
+        { "Les terrestres, si l'on en croit les disques d'Uldaman, furent créés par les titans pour façonner le monde, et ce sont les ancêtres de mon propre peuple. J'aurais donné beaucoup pour parler avec l'un d'eux. Les chamans de Roche-Soleil le jugèrent dangereux pour la terre, le réveillèrent affaibli et le détruisirent avant qu'il ne retrouve sa force, et les kobolds retournèrent à leurs fouilles." },
+        { "Je ne dis pas qu'ils ont eu tort ; je n'y étais pas. Mais j'aimerais beaucoup savoir ce qu'un terrestre faisait endormi dans un tonneau sous les Serres-Rocheuses, et qui l'y avait mis." },
       },
     },
     ["brill"] = {
@@ -1618,6 +1629,20 @@ ns.translate({
         { "La querelle continue autour d'eux : une tante Stonefield accuse le jeune Billy Maclure d'avoir volé son collier, Maman Stonefield jure la mort de la truie primée des Brackwell pour avoir mangé ses légumes. Elwynn a vu les Défias, les kobolds et les gnolls aller et venir. Jusqu'ici, la querelle leur a survécu à tous." },
       },
     },
+    ["stonetalon-mountains"] = {
+      title = "Les Serres-Rocheuses",
+      text = {
+        { "Les Serres-Rocheuses s'élèvent entre Ashenvale et les Tarides : de hauts pics gris, des vallées profondes et de vieilles forêts, le foyer ancestral des harpies, avec en leur cœur le pic sacré des druides. Les esprits de ces montagnes sont en colère, disent les chamans de la Horde, et ils ont de quoi." },
+        { "Les gobelins de la KapitalRisk sont venus couper, brûler et creuser, et des vallées entières ont disparu avec eux ; le Val calciné, au sud, a été brûlé jusqu'au sol par leurs machines. Les harpies Rougefurie tiennent les hauteurs, le Totem sinistre attaque les villages taurens, et au milieu de tout cela, les druides du pic et les chamans de Roche-Soleil tentent de soigner ce qu'ils peuvent." },
+      },
+    },
+    ["stonetalon-peak"] = {
+      title = "Le pic des Serres-Rocheuses",
+      text = {
+        { "Le pic des Serres-Rocheuses est le plus haut sommet de la chaîne et un lieu sacré des druides elfes de la nuit, qui le gardent avec les esprits de la forêt qu'ils appellent les fils et les filles de Cénarius. Là se dresse l'antre des Serres, où les druides conservent des objets de pouvoir derrière des serrures de leur invention, et où l'un d'eux au moins, frère Ravenoak, dort sous la forme d'un ours, les gardant dans ses rêves." },
+        { "Les gardiens du pic contemplent avec chagrin les montagnes en contrebas : le val brûlé, les forêts abattues, les harpies qui les empêchent de passer pour replanter. Ils sont patients, comme le sont les druides, et ils perdent." },
+      },
+    },
     ["stonewatch-keep"] = {
       title = "Le donjon de Guet-de-pierre",
       text = {
@@ -1639,6 +1664,13 @@ ns.translate({
         { "Les maçons de la guilde des Tailleurs de pierre l'élevèrent en pierre blanche, plus belle qu'avant : la cathédrale de la Lumière, les canaux et le donjon qui les domine tous. La Chambre des nobles refusa ensuite de les payer, et le grief des maçons est depuis devenu la Confrérie défias, si bien que la plus belle cité de l'Alliance est aussi celle dont on se souvient avec le plus d'amertume." },
         { client = "classic", "C'est une cité de commerce et de soldats, de prêtres et d'espions, et d'une cour qui chuchote. L'enfant sur le trône en est le roi ; les hommes et les femmes qui l'entourent la gouvernent." },
         { client = "forever", "C'est une cité de commerce et de soldats, avec des navires dans son port, de prêtres et d'espions, et d'une cour qui chuchote. L'enfant sur le trône en est le roi ; les hommes et les femmes qui l'entourent la gouvernent." },
+      },
+    },
+    ["sun-rock-retreat"] = {
+      title = "La retraite de Roche-Soleil",
+      text = {
+        { "Taurens et orcs partagent la retraite de Roche-Soleil, dans les falaises du centre des Serres-Rocheuses. Ses chamans recueillent des graines pour faire repousser le pays brûlé. Ses chasseurs cherchent à venger le camp Aparaje, le village tauren presque entièrement détruit par le Totem sinistre. Il y a à la fois de la restauration et des représailles dans le travail du camp." },
+        { "Un démoniste qui séjourne ici poursuit un tout autre but. Il sert un maître de Jaedenar et paie pour qu'on l'aide contre les druides du pic, qu'il accuse d'étouffer la magie. Écoutez bien qui vous propose chaque course, $gvoyageur:voyageuse;. Partager un camp ne donne pas à ses occupants les mêmes intentions." },
       },
     },
     ["sylvanas-windrunner"] = {
@@ -2045,6 +2077,13 @@ ns.translate({
         { "On appelle les grands hiboux-ours du nord chouettards, ou séléniens, et les elfes de la nuit les traitent avec une révérence que les voyageurs ne partagent pas toujours. On raconte qu'Elune elle-même les aurait créés, et certains disent qu'ils étaient ses compagnons. Une érudite elfe de la nuit qui étudie leurs plumes y trouve une magie que ces créatures ne manient pas tant qu'elles ne la portent, comme une part de leur nature même." },
         { "Ils sont capables d'une grande douceur comme d'une grande férocité, surtout quand quelque chose qu'ils tiennent pour important est menacé, et au Berceau-de-l'Hiver on dit qu'ils gardent des secrets des elfes de la nuit. Certains y sont devenus fous, disent les rapports, pour être restés trop longtemps près de la chose même qu'ils protègent." },
         { "Ces derniers temps, les doux se font plus rares. Les séléniens de Sombrivage sont attirés par un grand cristal rouge dans les collines de l'est, et les Sentinelles d'Auberdine ne les croient plus inoffensifs. Je laisserais une large place à n'importe quel chouettard, $gvoyageur:voyageuse;, et une plus large encore à un chouettard fou." },
+      },
+    },
+    ["windshear-crag"] = {
+      title = "La combe des Cisailles",
+      text = {
+        { "La combe des Cisailles est le grand camp d'abattage et d'extraction de la KapitalRisk au nord des Serres-Rocheuses, une vallée de souches, de scies, de roues à aubes et de déchiqueteurs, ces machines à forme humaine qui abattent les arbres plus vite que n'importe quelle équipe. Au-dessus de tout cela, près de la grande roue, vit son contremaître, Gerenzo Wrenchwhistle, un gobelin désormais plus métal que chair." },
+        { "Le Val calciné, au sud, est ce que la Compagnie laisse derrière elle : une forêt entière, brûlée. Les druides veulent la replanter, les chamans veulent qu'on arrête les machines, et même certains des ingénieurs de la Compagnie ont démissionné, écœurés." },
       },
     },
     ["wintersaber-trainers"] = {
