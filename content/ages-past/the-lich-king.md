@@ -6,6 +6,7 @@ unlock:
   - read: The Birth of the Lich King
   - read: Icecrown and the Frozen Throne
   - read: The Lich King Triumphant
+  - read: Kel'Thuzad and the Forming of the Scourge
 also: [draenor, scourge, kelthuzad, fall-of-lordaeron, the-war-of-the-spider, cult-of-the-damned]
 ---
 The Lich King began as an orc. Ner'zhul, the old shaman who first led his people to the Legion, fled into the Twisting Nether after the orcs' last war, and Kil'jaeden was waiting for him. The demon tore his body apart piece by piece and kept his spirit alive, then offered him one last bargain. Ner'zhul accepted. His spirit was sealed in a block of ice from the far reaches of the Nether, and the Lich King was born; his death knights and followers were remade as liches to serve him.

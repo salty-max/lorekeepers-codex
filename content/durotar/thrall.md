@@ -5,6 +5,7 @@ kind: figure
 portrait: 4949
 unlock:
   - npc: 4949
+  - read: The New Horde
 also: [orgrimmar, durotar, eitrigg, voljin]
 ---
 Thrall is the Warchief of the Horde, and his life reads like a ballad no one would believe. He was the son of Durotan, chieftain of the Frostwolves, found as an infant beside his murdered parents and raised as a slave and a gladiator in Durnholde Keep by its master, Lord Aedelas Blackmoore, who meant to make him the general of a tame orcish army. He was given the name Thrall, which means slave, and he kept it.

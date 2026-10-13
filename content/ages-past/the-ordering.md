@@ -5,6 +5,7 @@ kind: history
 unlock:
   - read: The Old Gods and the Ordering of Azeroth
   - area: The Maker's Terrace
+  - read: Mythology of the Titans
 also: [uldaman, platinum-discs, ragnaros, the-five-aspects, cthun]
 ---
 The oldest account in the League's library begins before anyone was here to keep one. The Titans, it says, went from world to world putting each in order, and came at last to this one. They found it held by elementals, and the elementals served older masters: the Old Gods.

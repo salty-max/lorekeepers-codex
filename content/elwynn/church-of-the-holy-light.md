@@ -5,6 +5,7 @@ kind: faction
 portrait: 1284
 unlock:
   - npc: 1284, 1212
+  - read: Lady Mara Fordragon
 also: [northshire-abbey, stormwind-city]
 ---
 The Church of the Holy Light teaches that virtue, compassion and sacrifice draw on a power that can heal and protect. The faith came south from Lordaeron, and Stormwind's Cathedral of Light is now its seat, under Archbishop Benedictus. Dwarves have learned its ways from their human neighbours too.

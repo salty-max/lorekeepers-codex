@@ -13,6 +13,7 @@ unlock:
   - read: Orman of Stromgarde
   - read: Valea Twinblades
   - read: Yana Bloodspear
+  - read: Harthal Truesight
 also: [scarlet-crusade, scarlet-monastery, the-ashbringer, whitemane-and-mograine]
 ---
 The Scarlet Monastery buries its heroes in its own graveyard, and their stones say more about the Crusade than its sermons do. Read them and you find it was never only a human order of Lordaeron: a high wizard and a ranger captain who were citizens of Quel'Thalas, assassins from Dalaran, a warrior of Alterac, a lord of the Red Caverns, an admiral of Kul Tiras.

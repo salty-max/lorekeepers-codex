@@ -9,6 +9,7 @@ unlock:
   - area: Gahrron's Withering
   - quest: 5215
   - quest: 5228
+  - read: Compendium of the Fallen
 also: [scourge, cult-of-the-damned, royal-apothecary-society, chillwind-camp, the-bulwark]
 ---
 Eight plague cauldrons stand on the farms of the Plaguelands, four in the west and four in the east. Cauldron lords and the dead of the surrounding farmsteads guard them. Their fumes keep poisoning country that has already lost its people.

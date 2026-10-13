@@ -4,6 +4,7 @@ title: Daelin Proudmoore
 kind: figure
 unlock:
   - area: Tiragarde Keep
+  - read: Grand Admiral Daelin Proudmoore
 also: [tiragarde-keep, jaina-proudmoore, rexxar, the-second-war, durotar]
 ---
 Daelin Proudmoore, Lord Admiral of Kul Tiras, was a hero of the Second War: he commanded the Alliance's fleets beside Anduin Lothar and Uther the Lightbringer, and he never forgave the orcs. He also had a daughter, Jaina, who went to study magic in Dalaran.

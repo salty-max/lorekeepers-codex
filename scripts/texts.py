@@ -2,7 +2,8 @@
 """Texts: the books and plaques of the world a page unlocks by being read
 (front matter "read: <title>"), into data/texts.json (read by
 scripts/build.ts): each title's objects in the CMaNGOS Classic database pinned
-in scripts/portraits.py too (a text object, type 9, of that name) and the title as
+in scripts/portraits.py too (a text object, type 9, a button with a page, type
+10, or an item with a page, of that name) and the title as
 the game writes it in every language, from Wowhead Classic's tooltips (cached
 in .cache/wowhead/), so the unlock works in every client.
 
@@ -42,28 +43,37 @@ def wanted():
     return out
 
 
-def text_objects(sql):
-    """The dump's text objects (type 9): {name: [ids]}."""
-    cols = re.findall(r"^\s*`(\w+)`", re.search(r"CREATE TABLE `gameobject_template` \((.*?)\n\) ENGINE", sql, re.S).group(1), re.M)
-    out = {}
-    for m in re.finditer(r"INSERT INTO `gameobject_template` (?:\([^)]*\) )?VALUES\s*(.*?);\n", sql, re.S):
+def rows(sql, table):
+    """A table of the dump, each row a dict by column."""
+    cols = re.findall(r"^\s*`(\w+)`", re.search(rf"CREATE TABLE `{table}` \((.*?)\n\) ENGINE", sql, re.S).group(1), re.M)
+    for m in re.finditer(rf"INSERT INTO `{table}` (?:\([^)]*\) )?VALUES\s*(.*?);\n", sql, re.S):
         for row in re.finditer(r"\((\d+),(.*?)\)(?=,\(|$)", m.group(1), re.S):
             vals = [row.group(1)] + re.findall(r"'((?:[^'\\]|\\.)*)'|([^,]+)", row.group(2))
             vals = [vals[0]] + [a if a or not b else b for a, b in vals[1:]]
-            d = dict(zip(cols, vals))
-            if d.get("type") == "9":
-                out.setdefault(d["name"].replace("\\'", "'"), []).append(int(d["entry"]))
+            yield dict(zip(cols, vals))
+
+
+def text_objects(sql):
+    """The dump's readable things: {name: [(kind, id)]}: text objects (type
+    9), buttons that open a page (type 10, its data7), items with a page."""
+    out = {}
+    for d in rows(sql, "gameobject_template"):
+        if d.get("type") == "9" or (d.get("type") == "10" and d.get("data7", "0") != "0"):
+            out.setdefault(d["name"].replace("\\'", "'"), []).append(("object", int(d["entry"])))
+    for d in rows(sql, "item_template"):
+        if d.get("PageText", "0") not in ("0", ""):
+            out.setdefault(d["name"].replace("\\'", "'"), []).append(("item", int(d["entry"])))
     return out
 
 
-def names(id):
-    """The object's name in each of Wowhead's locales."""
+def names(kind, id):
+    """The object's or item's name in each of Wowhead's locales."""
     out = []
     for locale in LOCALES:
-        path = os.path.join(WOWHEAD, f"object-{id}-{locale}.json")
+        path = os.path.join(WOWHEAD, f"{kind}-{id}-{locale}.json")
         if not os.path.exists(path):
             os.makedirs(WOWHEAD, exist_ok=True)
-            url = f"https://nether.wowhead.com/classic/tooltip/object/{id}?locale={locale}"
+            url = f"https://nether.wowhead.com/classic/tooltip/{kind}/{id}?locale={locale}"
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r, open(path, "wb") as f:
                 f.write(r.read())
             time.sleep(0.25)
@@ -78,13 +88,14 @@ def main():
     objects = text_objects(sql_text())
     missing = sorted(t for t in titles if t not in objects)
     if missing:
-        raise SystemExit("no text object of that name in the database: " + ", ".join(missing))
+        raise SystemExit("nothing readable of that name in the database: " + ", ".join(missing))
     data = {}
     for t in sorted(titles):
-        ids = sorted(objects[t])
+        found = sorted(objects[t])
+        ids = [id for _, id in found]
         everyone = []
-        for id in ids:
-            everyone += [n for n in names(id) if n not in everyone]
+        for kind, id in found:
+            everyone += [n for n in names(kind, id) if n not in everyone]
         if t not in everyone:
             everyone.insert(0, t)
         data[t] = {"ids": ids, "names": everyone}

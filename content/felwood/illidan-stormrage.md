@@ -4,6 +4,8 @@ title: Illidan Stormrage
 kind: figure
 unlock:
   - area: Felwood
+  - read: Mount Hyjal and Illidan's Gift
+  - read: The Betrayer Ascendant
 also: [felwood, malfurion-stormrage, tyrande-whisperwind, naga, blood-elves, jaedenar]
 ---
 Illidan was Malfurion's twin brother, and he loved Tyrande too; she chose Malfurion. In the War of the Ancients he fought the Legion with his brother, but he never gave up the Highborne's magic, and when the Well of Eternity was destroyed he carried vials of its waters to the top of Mount Hyjal and poured them into a lake, making a new Well. He thought it a gift. Malfurion called it a crime and, with Cenarius's help, sealed him in a barrow prison, chained and guarded, for ten thousand years.

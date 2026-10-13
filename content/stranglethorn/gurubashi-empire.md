@@ -14,6 +14,9 @@ unlock:
   - area: Tkashi Ruins
   - area: Ruins of Jubuwal
   - area: Ruins of Aboraz
+  - read: Empires' Fall
+  - read: The Twin Empires
+  - read: Legends of the Gurubashi, Volume 3
 also: [zulgurub, hakkar, bloodscalp-and-skullsplitter, darkspear-trolls]
 ---
 The jungle trolls of the Gurubashi once ruled an empire that stretched across the south of the Eastern Kingdoms and over the islands of the sea, and Stranglethorn was its heart, with the great temple-city of Zul'Gurub at its centre. Its ruins are everywhere in this jungle: stepped temples, broken idols and paved roads under the roots.

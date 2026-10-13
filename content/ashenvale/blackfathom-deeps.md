@@ -5,6 +5,7 @@ kind: place
 unlock:
   - area: Blackfathom Deeps (zone)
   - area: Blackfathom Deeps (Ashenvale)
+  - read: Lorgalis Manuscript
 also: [twilights-hammer, naga, ashenvale]
 ---
 On the coast of Ashenvale, at the Zoram Strand, there are caverns flooded by the sea, and in them lie the ruins of a temple to Elune that sank when the Well of Eternity was destroyed. The naga found it first. Then the Twilight's Hammer did, led by a Twilight Lord named Kelris.

@@ -6,6 +6,8 @@ unlock:
   - area: Ameth'Aran (Darkshore)
   - area: Bashal'Aran (Darkshore)
   - area: Ruins of Mathystra (Darkshore)
+  - read: The Lay of Ameth'Aran
+  - read: The Fall of Ameth'Aran
 also: [darkshore, satyrs, auberdine]
 ---
 Ten thousand years ago the Highborne, the sorcerer-nobles of Queen Azshara, dwelt in towers along this coast, Ameth'Aran and Bashal'Aran among them, and practised their magics freely. The war at the Well of Eternity destroyed them. Tablets in Ameth'Aran still tell the story of its fall, for anyone who can read the old runes and is not frightened off by the spirits.

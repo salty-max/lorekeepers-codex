@@ -5,6 +5,7 @@ kind: history
 unlock:
   - read: Rise of the Horde
   - area: The Dark Portal
+  - read: The Invasion of Draenor
 also: [orcs, the-dark-portal, shadow-council, burning-legion, frostwolf-clan, the-lost-ones]
 ---
 Before the orcs came through the Portal they lived on a green world of their own, called Draenor, in clans that roamed and hunted and quarrelled much as clans do. Their shamans spoke with the spirits of the elements and of the ancestors, and of all of them the elder shaman Ner'zhul was the most respected. They shared the world with the draenei, exiles from somewhere else, who built their cities in the cliffs and gave the orcs little reason for war.

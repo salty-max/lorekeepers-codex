@@ -11,8 +11,23 @@ of the Ancients have no spawn there), so this goes by the texts themselves.
 Forever's own books are in no database: `/codex scan` records the books read
 on the beta (`LorekeepersCodexScan.books`).
 
-Each binding below is a proposal, to check against the text before adding
-the `read:` line (then `python3 scripts/texts.py`, `bun run build`).
+**Done the same day:** 40 titles bound after reading each text (`read:`
+unlocks; `scripts/texts.py` now takes buttons with a page and items too).
+Changes from the proposals below, once the texts were read: Empires' Fall is
+the trolls' empires falling to the night elves (`gurubashi-empire`); The
+White Stag and the Moon tells Cenarius's birth (`peoples/cenarius`); the
+Compendium of the Fallen is the plague cauldrons'
+(`western-plaguelands/plague-cauldrons`); Terenas's grave goes to
+`tirisfal/fall-of-lordaeron`, Llane's plaque to `ages-past/the-first-war`,
+Lady Mara's to `elwynn/church-of-the-holy-light`, the Uldaman Reliefs to
+`peoples/earthen`. No new page: `azshara/the-sundering` already tells the
+War of the Ancients (its book), and The Kaldorei and the Well of Eternity
+goes to `peoples/highborne`. Left out: the Monument of Remembrance and the
+30-page Green Hills object (not in Classic: Wowhead has no Classic page for
+them; the four Green Hills chapters, items, are bound), the Uldaman Relics,
+the three Troll Legend tablets.
+
+The proposals as first written:
 
 ## Histories (the series of the libraries: Ironforge, Stormwind, Thunder Bluff, Darnassus)
 

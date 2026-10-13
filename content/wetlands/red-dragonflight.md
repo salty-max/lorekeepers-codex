@@ -5,6 +5,7 @@ kind: creature
 portrait: 1045
 unlock:
   - kill: 1045, 1046, 1047, 1048, 1049, 1050 # the dragonkin of Grim Batol
+  - read: The Skull of Tyrannistrasz
 also: [grim-batol, dragonmaw-clan, black-dragonflight]
 ---
 Alexstrasza is called the Life-Binder, queen of the red dragons and one of the world's oldest powers. During the Second War, the Dragonmaw held her captive at Grim Batol and forced her children into their service. The flight has since been freed.

@@ -4,6 +4,7 @@ title: Durotar
 kind: place
 unlock:
   - area: Durotar
+  - read: Old Hatreds - The Colonization of Kalimdor
 also: [orgrimmar, thrall, razor-hill, tiragarde-keep, burning-blade, centaurs, quilboar]
 ---
 Durotar is a hard country: red earth, red rock, thorn and scorpion, burned by the sun and cut by dry canyons, with the sea on one side and the long plains of the Barrens on the other. The orcs chose it anyway. Thrall named it for his father, Durotan, chieftain of the Frostwolf clan, who was murdered before his son could know him.

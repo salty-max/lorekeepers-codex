@@ -5,6 +5,10 @@ kind: place
 unlock:
   - area: Nesingwary's Expedition
   - npc: 715
+  - read: Green Hills of Stranglethorn - Chapter I
+  - read: Green Hills of Stranglethorn - Chapter II
+  - read: Green Hills of Stranglethorn - Chapter III
+  - read: Green Hills of Stranglethorn - Chapter IV
 also: [stranglethorn-vale]
 ---
 Hemet Nesingwary's camp occupies a clearing in northern Stranglethorn, well furnished with tents, trophies and gun racks. The renowned hunter has come for panthers, tigers and raptors, and to write The Green Hills of Stranglethorn. He offers visiting hunters ample opportunity to prove themselves.

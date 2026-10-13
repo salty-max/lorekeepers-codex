@@ -5,6 +5,7 @@ kind: place
 unlock:
   - area: The Temple of Atal'Hakkar (zone)
   - area: Pool of Tears
+  - read: Wrath of Soulflayer
 also: [hakkar, gurubashi-empire, eranikus, dragons-of-nightmare]
 ---
 When the Gurubashi rose against the priests who had brought Hakkar into the world, the Atal'ai fled into this swamp and built a temple to their god, and went on trying to call him back. The green dragons of Ysera found them. They sank the temple beneath the swamp, and Ysera set some of her own to guard it, so that Hakkar should never come through it again.

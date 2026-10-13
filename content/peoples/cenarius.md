@@ -5,6 +5,8 @@ kind: figure
 portrait: 11832
 unlock:
   - npc: 4273, 3994, 4057, 4053, 11832
+  - read: The White Stag and the Moon
+  - read: Forestlord and the first Druids
 also: [keeper-remulos, cenarion-circle, demon-fall-canyon, malfurion-stormrage, druids, sentinels]
 ---
 Cenarius was the lord of the forests, a demigod with a stag's body below the waist and branching antlers, and the night elves' first teacher. Long before the Sundering he grew fond of their curious young people and taught them the ways of the living world. Malfurion Stormrage was his greatest pupil, and druidism is what they made between them.

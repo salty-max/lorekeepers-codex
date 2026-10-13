@@ -6,6 +6,7 @@ portrait: 7309
 unlock:
   - kill: 7011, 7012, 7076, 7077, 7309, 7396, 7397
   - read: Ironforge - the Awakening of the Dwarves
+  - read: Uldaman Reliefs
 also: [uldaman, platinum-discs, dwarves, the-ordering, rockjaw-troggs]
 ---
 The earthen were the Titans' stonemasons, made from living rock to carve the deep places of the world. When the Titans left, they went on shaping and guarding those depths, caring little for anything above. The Sundering hurt them as it hurt the earth itself. They lost much of what they had been and sealed themselves in the vaults where they were made: Uldaman, Uldum, Ulduar, as the book in our library names them.

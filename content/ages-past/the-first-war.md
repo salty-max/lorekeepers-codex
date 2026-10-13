@@ -5,6 +5,7 @@ kind: history
 unlock:
   - read: The Dark Portal and the Fall of Stormwind
   - area: Stormwind City
+  - read: King Llane I of the House of Wrynn
 also: [stormwind-city, karazhan, the-dark-portal, the-second-war, shadow-council]
 ---
 The orcs came through the Dark Portal a few clans at a time, into the swamps east of Stormwind, and for years the kingdom knew them only by their raids. King Llane did not believe such creatures could take his city. His champion, Anduin Lothar, last of the Arathi line, was less sure, and less sure still of their old friend Medivh, whose tower at Karazhan had grown dark indeed.

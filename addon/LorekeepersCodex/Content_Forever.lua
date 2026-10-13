@@ -52,7 +52,7 @@ ns.content = {
   entries = {
     ["draenor"] = {
       title = "Draenor", kind = "history", chapter = "ages-past",
-      unlock = { { read = { "Rise of the Horde", "호드의 등장", "La montée de la Horde", "Aufstieg der Horde", "部落的崛起", "El levantamiento de la Horda", "Возвышение Орды", "A Ascensão da Horda" } }, { area = 72 } },
+      unlock = { { read = { "Rise of the Horde", "호드의 등장", "La montée de la Horde", "Aufstieg der Horde", "部落的崛起", "El levantamiento de la Horda", "Возвышение Орды", "A Ascensão da Horda" } }, { area = 72 }, { read = { "The Invasion of Draenor", "드레노어 침략", "L'invasion de Draenor", "Die Invasion von Draenor", "远征德拉诺", "La invasión de Draenor", "Вторжение в Дренор", "A Invasão de Draenor", "遠征德拉諾" } } },
       also = { "orcs", "the-dark-portal", "shadow-council", "burning-legion", "frostwolf-clan", "the-lost-ones" },
       text = {
         { "Before the orcs came through the Portal they lived on a green world of their own, called Draenor, in clans that roamed and hunted and quarrelled much as clans do. Their shamans spoke with the spirits of the elements and of the ancestors, and of all of them the elder shaman Ner'zhul was the most respected. They shared the world with the draenei, exiles from somewhere else, who built their cities in the cliffs and gave the orcs little reason for war." },
@@ -103,7 +103,7 @@ ns.content = {
     },
     ["the-first-war"] = {
       title = "The First War", kind = "history", chapter = "ages-past",
-      unlock = { { read = { "The Dark Portal and the Fall of Stormwind", "어둠의 문과 스톰윈드의 함락", "La Porte des ténèbres et la chute de Stormwind", "Das Dunkle Portal und der Untergang von Stormwind", "黑暗之门和暴风城的陷落", "El Portal Oscuro y la caída de Ventormenta", "Темный портал и падение Штормграда", "O Portal Negro e a Queda de Ventobravo", "黑暗之門和暴風城的陷落" } }, { area = 1519 } },
+      unlock = { { read = { "The Dark Portal and the Fall of Stormwind", "어둠의 문과 스톰윈드의 함락", "La Porte des ténèbres et la chute de Stormwind", "Das Dunkle Portal und der Untergang von Stormwind", "黑暗之门和暴风城的陷落", "El Portal Oscuro y la caída de Ventormenta", "Темный портал и падение Штормграда", "O Portal Negro e a Queda de Ventobravo", "黑暗之門和暴風城的陷落" } }, { area = 1519 }, { read = { "King Llane I of the House of Wrynn", "린 가문의 국왕 레인 1세", "Roi Llane Ier de la maison Wrynn", "König Llane I. aus dem Hause Wrynn", "乌瑞恩家族的国王，莱尼一世", "El rey Llane I de la Casa de Wrynn", "Король Ллейн I из рода Риннов", "Rei Llane I da Casa de Wrynn", "烏瑞恩家族的國王，萊尼一世" } } },
       also = { "stormwind-city", "karazhan", "the-dark-portal", "the-second-war", "shadow-council" },
       text = {
         { "The orcs came through the Dark Portal a few clans at a time, into the swamps east of Stormwind, and for years the kingdom knew them only by their raids. King Llane did not believe such creatures could take his city. His champion, Anduin Lothar, last of the Arathi line, was less sure, and less sure still of their old friend Medivh, whose tower at Karazhan had grown dark indeed." },
@@ -135,7 +135,7 @@ ns.content = {
     },
     ["the-lich-king"] = {
       title = "The Lich King", kind = "history", chapter = "ages-past",
-      unlock = { { read = { "The Birth of the Lich King", "리치 왕의 탄생", "La naissance du roi-liche", "Die Geburt des Lichkönigs", "巫妖王的诞生", "El naciminento del rey Exánime", "Рождение Короля-лича", "O Nascimento do Lich Rei", "巫妖王的誕生" } }, { read = { "Icecrown and the Frozen Throne", "얼음왕관과 얼음 왕좌", "La Couronne et le Trône de glace", "Eiskrone und Frost-Thron", "冰冠冰川和寒冰王座", "Corona de Hielo y el Trono Helado", "Ледяная Корона и Ледяной Трон", "A Coroa e o Trono de Gelo", "寒冰皇冠和冰封王座" } }, { read = { "The Lich King Triumphant", "리치 왕의 승리", "Le triomphe du roi-liche", "Der Triumph des Lichkönigs", "巫妖王的胜利", "El triunfante rey Exánime", "Триумф Короля-лича", "O Triunfo do Lich Rei", "巫妖王的勝利" } } },
+      unlock = { { read = { "The Birth of the Lich King", "리치 왕의 탄생", "La naissance du roi-liche", "Die Geburt des Lichkönigs", "巫妖王的诞生", "El naciminento del rey Exánime", "Рождение Короля-лича", "O Nascimento do Lich Rei", "巫妖王的誕生" } }, { read = { "Icecrown and the Frozen Throne", "얼음왕관과 얼음 왕좌", "La Couronne et le Trône de glace", "Eiskrone und Frost-Thron", "冰冠冰川和寒冰王座", "Corona de Hielo y el Trono Helado", "Ледяная Корона и Ледяной Трон", "A Coroa e o Trono de Gelo", "寒冰皇冠和冰封王座" } }, { read = { "The Lich King Triumphant", "리치 왕의 승리", "Le triomphe du roi-liche", "Der Triumph des Lichkönigs", "巫妖王的胜利", "El triunfante rey Exánime", "Триумф Короля-лича", "O Triunfo do Lich Rei", "巫妖王的勝利" } }, { read = { "Kel'Thuzad and the Forming of the Scourge", "켈투자드와 스컬지의 형성", "Kel'Thuzad et l'avènement du Fléau", "Kel’Thuzad und das Entstehen der Geißel", "克尔苏加德和天灾军团的建立", "Kel'Thuzad y la formación de la Plaga", "Кел'Тузад и создание Плети", "Kel'Thuzad e a Formação do Flagelo", "科爾蘇加德和天譴軍團的建立" } } },
       also = { "draenor", "scourge", "kelthuzad", "fall-of-lordaeron", "the-war-of-the-spider", "cult-of-the-damned" },
       text = {
         { "The Lich King began as an orc. Ner'zhul, the old shaman who first led his people to the Legion, fled into the Twisting Nether after the orcs' last war, and Kil'jaeden was waiting for him. The demon tore his body apart piece by piece and kept his spirit alive, then offered him one last bargain. Ner'zhul accepted. His spirit was sealed in a block of ice from the far reaches of the Nether, and the Lich King was born; his death knights and followers were remade as liches to serve him." },
@@ -145,7 +145,7 @@ ns.content = {
     },
     ["the-ordering"] = {
       title = "The Ordering of Azeroth", kind = "history", chapter = "ages-past",
-      unlock = { { read = { "The Old Gods and the Ordering of Azeroth", "고대의 신들과 아제로스의 질서 구현", "Les Dieux très anciens et l'ordonnancement d'Azeroth", "Die Alten Götter und die Ordnung von Azeroth", "上古之神和艾泽拉斯的秩序", "Los dioses antiguos y el orden de Azeroth", "Древние Боги и формирование Азерота", "Os Deuses Antigos e a Ordenação de Azeroth", "上古之神和艾澤拉斯的秩序" } }, { area = 1897 } },
+      unlock = { { read = { "The Old Gods and the Ordering of Azeroth", "고대의 신들과 아제로스의 질서 구현", "Les Dieux très anciens et l'ordonnancement d'Azeroth", "Die Alten Götter und die Ordnung von Azeroth", "上古之神和艾泽拉斯的秩序", "Los dioses antiguos y el orden de Azeroth", "Древние Боги и формирование Азерота", "Os Deuses Antigos e a Ordenação de Azeroth", "上古之神和艾澤拉斯的秩序" } }, { area = 1897 }, { read = { "Mythology of the Titans", "티탄 신화", "Mythologie des Titans", "Mythologie der Titanen", "泰坦神话", "Mitología de los titanes", "\"Мифология Титанов\"", "Mitologia dos Titãs", "泰坦神話" } } },
       also = { "uldaman", "platinum-discs", "ragnaros", "the-five-aspects", "cthun" },
       text = {
         { "The oldest account in the League's library begins before anyone was here to keep one. The Titans, it says, went from world to world putting each in order, and came at last to this one. They found it held by elementals, and the elementals served older masters: the Old Gods." },
@@ -377,7 +377,7 @@ ns.content = {
     },
     ["blackfathom-deeps"] = {
       title = "Blackfathom Deeps", kind = "place", chapter = "ashenvale",
-      unlock = { { area = 719 }, { area = 2797 } },
+      unlock = { { area = 719 }, { area = 2797 }, { read = { "Lorgalis Manuscript", "로르갈리스 초본", "Manuscrit de Lorgalis", "Lorgalis-Manuskript", "洛迦里斯手稿", "Manuscrito de Lorgalis", "Манускрипт Лоргалиса" } } },
       also = { "twilights-hammer", "naga", "ashenvale" },
       text = {
         { "On the coast of Ashenvale, at the Zoram Strand, there are caverns flooded by the sea, and in them lie the ruins of a temple to Elune that sank when the Well of Eternity was destroyed. The naga found it first. Then the Twilight's Hammer did, led by a Twilight Lord named Kelris." },
@@ -395,7 +395,7 @@ ns.content = {
     },
     ["grom-hellscream"] = {
       title = "Grom Hellscream", kind = "figure", chapter = "ashenvale",
-      unlock = { { read = { "Monument to Grom Hellscream", "그롬 헬스크림의 기념비", "Monument à Grom Hellscream", "Denkmal für Grom Hellscream", "格罗姆·地狱咆哮的纪念碑", "Monumento a Grom Grito Infernal", "Памятник Грому Адскому Крику", "Monumento para Grom Grito Infernal", "[Monument to Grom Hellscream]" } }, { area = 435 } },
+      unlock = { { read = { "Monument to Grom Hellscream", "그롬 헬스크림의 기념비", "Monument à Grom Hellscream", "Denkmal für Grom Hellscream", "格罗姆·地狱咆哮的纪念碑", "Monumento a Grom Grito Infernal", "Памятник Грому Адскому Крику", "Monumento para Grom Grito Infernal", "[Monument to Grom Hellscream]" } }, { area = 435 }, { read = { "The Armor of Mannoroth", "만노로스의 갑옷", "L'armure de Mannoroth", "Die Rüstung von Mannoroth", "玛诺洛斯的护甲", "La armadura de  Mannoroth", "Броня Маннорота", "A Armadura de Mannoroth", "瑪諾洛斯的護甲" } } },
       also = { "demon-fall-canyon", "warsong-lumber-camp", "thrall", "orcs", "cenarius", "draenor" },
       text = {
         { "Grommash Hellscream, chieftain of the Warsong, was the first of the orc chieftains to drink Mannoroth's blood on Draenor, and he led the others to it. The strength it gave them bound the clans to the demon whose blood they shared." },
@@ -509,7 +509,7 @@ ns.content = {
     },
     ["the-sundering"] = {
       title = "The Sundering", kind = "history", chapter = "azshara",
-      unlock = { { area = 1228 } },
+      unlock = { { area = 1228 }, { read = { "The War of the Ancients", "고대의 전쟁", "La guerre des Anciens", "Der Krieg der Urtume", "上古战争", "La Guerra de los Ancestros", "Война Древних", "A Guerra dos Antigos", "上古戰爭" } } },
       also = { "burning-legion", "tyrande-whisperwind", "ravencrest-monument", "naga", "highborne-ruins" },
       text = {
         { "Ten thousand years ago, the night elves ruled Kalimdor from the shores of the Well of Eternity, a lake of pure magic at the heart of the world. Their queen was Azshara, the fairest of them all, and her Highborne drew on the Well's power without limit. Their magic drew the eye of Sargeras, the lord of the Burning Legion, and Azshara and her Highborne opened the way for him, believing the demons would make the world perfect." },
@@ -840,7 +840,7 @@ ns.content = {
     },
     ["the-dark-portal"] = {
       title = "The Dark Portal", kind = "history", chapter = "blasted-lands",
-      unlock = { { area = 72 }, { area = 2517 } },
+      unlock = { { area = 72 }, { area = 2517 }, { read = { "Beyond the Dark Portal", "어둠의 문 저편", "Au-delà de la Porte des ténèbres", "Jenseits des Dunklen Portals", "跨越黑暗之门", "Más allá de El Portal Oscuro", "За Темным порталом", "Além do Portal Negro", "跨越黑暗之門" } } },
       also = { "nethergarde-keep", "karazhan", "blackrock-clan", "burning-legion" },
       text = {
         { "The Dark Portal is a great gate of stone between our world and Draenor, the orcs' world. The warlock Gul'dan opened it from the other side, and the Guardian Medivh helped him from ours, and through it, some twenty-five years ago, came the Horde. The First War, the Second War, everything that followed, came through that gate." },
@@ -1018,7 +1018,7 @@ ns.content = {
     },
     ["highborne-ruins"] = {
       title = "The Highborne Ruins", kind = "history", chapter = "darkshore",
-      unlock = { { area = 447 }, { area = 446 }, { area = 443 } },
+      unlock = { { area = 447 }, { area = 446 }, { area = 443 }, { read = { "The Lay of Ameth'Aran", "아메스아란의 부흥", "Le Lai d'Ameth'Aran", "Die Lage von Ameth’Aran", "亚米萨兰的衰落", "La instauración de Ameth'Aran", "Песнь об Амет'Аране", "A Fundação de Ameth'Aran", "[The Lay of Ameth'Aran]" } }, { read = { "The Fall of Ameth'Aran", "아메스아란의 멸망", "La Chute de Ameth'Aran", "Der Untergang von Ameth’Aran", "亚米萨兰的毁灭", "La caída de Ameth'Aran", "Падение Амет'Арана", "A Queda de Ameth'Aran", "[The Fall of Ameth'Aran]" } } },
       also = { "darkshore", "satyrs", "auberdine" },
       text = {
         { "Ten thousand years ago the Highborne, the sorcerer-nobles of Queen Azshara, dwelt in towers along this coast, Ameth'Aran and Bashal'Aran among them, and practised their magics freely. The war at the Well of Eternity destroyed them. Tablets in Ameth'Aran still tell the story of its fall, for anyone who can read the old runes and is not frightened off by the spirits." },
@@ -1351,7 +1351,7 @@ ns.content = {
     },
     ["daelin-proudmoore"] = {
       title = "Daelin Proudmoore", kind = "figure", chapter = "durotar",
-      unlock = { { area = 372 } },
+      unlock = { { area = 372 }, { read = { "Grand Admiral Daelin Proudmoore", "댈린 프라우드무어 제독", "Grand-amiral Daelin Proudmoore", "Großadmiral Daelin Proudmoore", "海军上将戴林·普罗德摩尔", "Almirante general Daelin Valiente", "Великий адмирал Даэлин Праудмур", "Grão-almirante Daelin Proudmore", "海軍上將戴林·普勞德摩爾" } } },
       also = { "tiragarde-keep", "jaina-proudmoore", "rexxar", "the-second-war", "durotar" },
       text = {
         { "Daelin Proudmoore, Lord Admiral of Kul Tiras, was a hero of the Second War: he commanded the Alliance's fleets beside Anduin Lothar and Uther the Lightbringer, and he never forgave the orcs. He also had a daughter, Jaina, who went to study magic in Dalaran." },
@@ -1370,7 +1370,7 @@ ns.content = {
     },
     ["durotar"] = {
       title = "Durotar", kind = "place", chapter = "durotar",
-      unlock = { { area = 14 } },
+      unlock = { { area = 14 }, { read = { "Old Hatreds - The Colonization of Kalimdor", "오랜 증오 - 칼림도어에서의 식민지 건설", "Anciennes haines - La colonisation de Kalimdor", "Alter Hass - Die Kolonialisierung von Kalimdor", "古老的仇恨 - 卡利姆多的开拓", "Antiguas rencillas: la colonización de Kalimdor", "Древняя ненависть - Колонизация Калимдора", "Velhos Ódios: a Colonização de Kalimdor", "古老的仇恨 - 卡林多的開拓" } } },
       also = { "orgrimmar", "thrall", "razor-hill", "tiragarde-keep", "burning-blade", "centaurs", "quilboar" },
       text = {
         { "Durotar is a hard country: red earth, red rock, thorn and scorpion, burned by the sun and cut by dry canyons, with the sea on one side and the long plains of the Barrens on the other. The orcs chose it anyway. Thrall named it for his father, Durotan, chieftain of the Frostwolf clan, who was murdered before his son could know him." },
@@ -1436,7 +1436,7 @@ ns.content = {
     },
     ["thrall"] = {
       title = "Thrall", kind = "figure", chapter = "durotar", portrait = 4527,
-      unlock = { { npc = 4949 } },
+      unlock = { { npc = 4949 }, { read = { "The New Horde", "새로운 호드", "La nouvelle Horde", "Die neue Horde", "新的部落", "La nueva Horda", "Новая Орда", "A Nova Horda" } } },
       also = { "orgrimmar", "durotar", "eitrigg", "voljin" },
       text = {
         { "Thrall is the Warchief of the Horde, and his life reads like a ballad no one would believe. He was the son of Durotan, chieftain of the Frostwolves, found as an infant beside his murdered parents and raised as a slave and a gladiator in Durnholde Keep by its master, Lord Aedelas Blackmoore, who meant to make him the general of a tame orcish army. He was given the name Thrall, which means slave, and he kept it." },
@@ -1502,7 +1502,7 @@ ns.content = {
     },
     ["morladim"] = {
       title = "Mor'Ladim", kind = "figure", chapter = "duskwood", portrait = 612,
-      unlock = { { kill = 522 }, { quest = 228 } },
+      unlock = { { kill = 522 }, { quest = 228 }, { read = { "The Story of Morgan Ladimore", "모건 래디모어의 이야기", "L'histoire de Morgan Ladimore", "Die Geschichte von Morgan Ladimore", "摩根·拉迪莫尔的故事", "La historia de Morgan Ladimor", "\"Роман о Моргане Ладиморе\"", "A História de Morgan Ladimore", "摩根·拉迪莫爾的故事" } } },
       also = { "raven-hill", "night-watch" },
       text = {
         { "Morgan Ladimore was a knight of this country, known for defending the poor and the afflicted, married young to a girl named Lys and the father of three children. When the war broke out in Lordaeron he went north to fight beside Uther the Lightbringer, and he saw everything that war became: the Silver Hand disbanded, Uther dead, the plague. What kept him sane was the thought of coming home." },
@@ -1750,7 +1750,7 @@ ns.content = {
     },
     ["church-of-the-holy-light"] = {
       title = "The Church of the Holy Light", kind = "faction", chapter = "elwynn", portrait = 5072,
-      unlock = { { npc = 1284 }, { npc = 1212 } },
+      unlock = { { npc = 1284 }, { npc = 1212 }, { read = { "Lady Mara Fordragon", "여군주 마라 포드래곤", "Dame Mara Fordragon", "Fürstin Mara Fordragon", "玛拉·弗塔根", "Леди Мара Фордрагон", "瑪拉·弗塔根" } } },
       also = { "northshire-abbey", "stormwind-city" },
       text = {
         { "The Church of the Holy Light teaches that virtue, compassion and sacrifice draw on a power that can heal and protect. The faith came south from Lordaeron, and Stormwind's Cathedral of Light is now its seat, under Archbishop Benedictus. Dwarves have learned its ways from their human neighbours too." },
@@ -1912,7 +1912,7 @@ ns.content = {
     },
     ["illidan-stormrage"] = {
       title = "Illidan Stormrage", kind = "figure", chapter = "felwood",
-      unlock = { { area = 361 } },
+      unlock = { { area = 361 }, { read = { "Mount Hyjal and Illidan's Gift", "하이잘 산과 일리단의 선물", "Le Mont Hyjal et le Cadeau d'Illidan", "Der Berg Hyjal und Illidans Geschenk", "海加尔山和伊利丹的礼物", "El Monte Hyjal y el obsequio de Illidan", "Гора Хиджал и Дар Иллидана", "O Monte Hyjal e a Dádiva de Illidan", "海加爾山和伊利丹的禮物" } }, { read = { "The Betrayer Ascendant", "떠오르는 배반자", "Les parents du Traître", "Der aufstrebende Verräter", "背叛者的胜利", "El ascendiente traidor", "Восход Предателя", "O Domínio do Traidor", "[The Betrayer Ascendant]" } } },
       also = { "felwood", "malfurion-stormrage", "tyrande-whisperwind", "naga", "blood-elves", "jaedenar" },
       text = {
         { "Illidan was Malfurion's twin brother, and he loved Tyrande too; she chose Malfurion. In the War of the Ancients he fought the Legion with his brother, but he never gave up the Highborne's magic, and when the Well of Eternity was destroyed he carried vials of its waters to the top of Mount Hyjal and poured them into a lake, making a new Well. He thought it a gift. Malfurion called it a crime and, with Cenarius's help, sealed him in a barrow prison, chained and guarded, for ten thousand years." },
@@ -2537,7 +2537,7 @@ ns.content = {
     },
     ["cenarius"] = {
       title = "Cenarius", kind = "figure", chapter = "peoples", portrait = 11906,
-      unlock = { { npc = 4273 }, { npc = 3994 }, { npc = 4057 }, { npc = 4053 }, { npc = 11832 } },
+      unlock = { { npc = 4273 }, { npc = 3994 }, { npc = 4057 }, { npc = 4053 }, { npc = 11832 }, { read = { "The White Stag and the Moon", "흰 순록과 달", "Le Cerf blanc et la Lune", "Der weiße Hirsch und der Mond", "白鹿和月神", "El ciervo blanco y la Luna", "Белый Олень и Луна", "O Cervo Branco e a Lua" } }, { read = { "Forestlord and the first Druids", "숲의 군주와 첫번째 드루이드", "Le Seigneur des forêts et les premiers druides", "Waldlord und die ersten Druiden", "森林之王和最初的德鲁伊", "El Señor del Bosque y los primeros druidas", "Владыка лесов и первые друиды", "Senhor da Floresta e os Primeiros Druidas", "森林之王和最初的德魯伊" } } },
       also = { "keeper-remulos", "cenarion-circle", "demon-fall-canyon", "malfurion-stormrage", "druids", "sentinels" },
       text = {
         { "Cenarius was the lord of the forests, a demigod with a stag's body below the waist and branching antlers, and the night elves' first teacher. Long before the Sundering he grew fond of their curious young people and taught them the ways of the living world. Malfurion Stormrage was his greatest pupil, and druidism is what they made between them." },
@@ -2547,7 +2547,7 @@ ns.content = {
     },
     ["centaurs"] = {
       title = "The Centaurs", kind = "faction", chapter = "peoples", portrait = 9410,
-      unlock = { { kill = 2967 }, { kill = 2968 }, { kill = 3119 }, { kill = 3120 }, { kill = 3272 }, { kill = 3273 }, { kill = 3274 }, { kill = 3275 }, { kill = 3394 }, { kill = 3395 }, { kill = 3396 }, { kill = 3397 }, { kill = 4093 }, { kill = 4094 }, { kill = 4095 }, { kill = 4096 }, { kill = 4097 }, { kill = 4099 }, { kill = 4632 }, { kill = 4633 }, { kill = 4634 }, { kill = 4635 }, { kill = 4636 }, { kill = 4637 }, { kill = 4638 }, { kill = 4639 }, { kill = 4640 }, { kill = 4641 }, { kill = 4642 }, { kill = 4643 }, { kill = 4644 }, { kill = 4645 }, { kill = 4646 }, { kill = 4647 }, { kill = 4648 }, { kill = 4649 }, { kill = 4651 }, { kill = 4652 }, { kill = 4653 }, { kill = 4654 }, { kill = 4655 }, { kill = 4656 }, { kill = 4657 }, { kill = 4658 }, { kill = 4659 }, { kill = 4661 }, { kill = 5402 }, { kill = 5600 }, { kill = 5601 }, { kill = 5602 }, { kill = 5808 }, { kill = 6069 }, { kill = 6070 }, { kill = 7404 }, { kill = 9523 }, { kill = 9524 }, { kill = 10617 }, { kill = 10720 }, { kill = 11685 }, { kill = 11688 }, { kill = 12976 }, { kill = 12977 } },
+      unlock = { { kill = 2967 }, { kill = 2968 }, { kill = 3119 }, { kill = 3120 }, { kill = 3272 }, { kill = 3273 }, { kill = 3274 }, { kill = 3275 }, { kill = 3394 }, { kill = 3395 }, { kill = 3396 }, { kill = 3397 }, { kill = 4093 }, { kill = 4094 }, { kill = 4095 }, { kill = 4096 }, { kill = 4097 }, { kill = 4099 }, { kill = 4632 }, { kill = 4633 }, { kill = 4634 }, { kill = 4635 }, { kill = 4636 }, { kill = 4637 }, { kill = 4638 }, { kill = 4639 }, { kill = 4640 }, { kill = 4641 }, { kill = 4642 }, { kill = 4643 }, { kill = 4644 }, { kill = 4645 }, { kill = 4646 }, { kill = 4647 }, { kill = 4648 }, { kill = 4649 }, { kill = 4651 }, { kill = 4652 }, { kill = 4653 }, { kill = 4654 }, { kill = 4655 }, { kill = 4656 }, { kill = 4657 }, { kill = 4658 }, { kill = 4659 }, { kill = 4661 }, { kill = 5402 }, { kill = 5600 }, { kill = 5601 }, { kill = 5602 }, { kill = 5808 }, { kill = 6069 }, { kill = 6070 }, { kill = 7404 }, { kill = 9523 }, { kill = 9524 }, { kill = 10617 }, { kill = 10720 }, { kill = 11685 }, { kill = 11688 }, { kill = 12976 }, { kill = 12977 }, { read = { "Hatred of the Centaur", "켄타우로스의 증오", "Haine du centaure", "Hass der Zentauren", "半人马的仇恨", "Odio del Centauro", "Ненависть Кентавра", "O Ódio do Centauro", "半人馬的仇恨" } } },
       also = { "cairne-bloodhoof" },
       text = {
         { "The centaurs descend from Zaetar, a son of Cenarius, and Theradras, a princess of elemental earth. They killed their father; their mother buried him in Maraudon. His children still guard the tomb as sacred ground." },
@@ -2636,7 +2636,7 @@ ns.content = {
     },
     ["earthen"] = {
       title = "The Earthen", kind = "creature", chapter = "peoples", portrait = 6025,
-      unlock = { { kill = 7011 }, { kill = 7012 }, { kill = 7076 }, { kill = 7077 }, { kill = 7309 }, { kill = 7396 }, { kill = 7397 }, { read = { "Ironforge - the Awakening of the Dwarves", "아이언포지 - 드워프의 탄생", "Ironforge - l'Eveil des Nains", "Ironforge - das Erwachen der Zwerge", "铁炉堡 - 矮人的觉醒", "Forjaz: el despertar de los enanos", "Стальгорн - Пробуждение дворфов", "Altaforja: o Despertar dos Anões", "鐵爐堡 - 矮人的覺醒" } } },
+      unlock = { { kill = 7011 }, { kill = 7012 }, { kill = 7076 }, { kill = 7077 }, { kill = 7309 }, { kill = 7396 }, { kill = 7397 }, { read = { "Ironforge - the Awakening of the Dwarves", "아이언포지 - 드워프의 탄생", "Ironforge - l'Eveil des Nains", "Ironforge - das Erwachen der Zwerge", "铁炉堡 - 矮人的觉醒", "Forjaz: el despertar de los enanos", "Стальгорн - Пробуждение дворфов", "Altaforja: o Despertar dos Anões", "鐵爐堡 - 矮人的覺醒" } }, { read = { "Uldaman Reliefs", "울다만 유적", "Relevés d'Uldaman", "Bruchstücke aus Uldaman", "奥达曼浮雕", "Relieves de Uldaman", "Ульдаманские барельефы", "Relíquias de Uldaman", "奧達曼浮雕" } } },
       also = { "uldaman", "platinum-discs", "dwarves", "the-ordering", "rockjaw-troggs" },
       text = {
         { "The earthen were the Titans' stonemasons, made from living rock to carve the deep places of the world. When the Titans left, they went on shaping and guarding those depths, caring little for anything above. The Sundering hurt them as it hurt the earth itself. They lost much of what they had been and sealed themselves in the vaults where they were made: Uldaman, Uldum, Ulduar, as the book in our library names them." },
@@ -2723,7 +2723,7 @@ ns.content = {
     },
     ["highborne"] = {
       title = "The Highborne", kind = "faction", chapter = "peoples", portrait = 10702,
-      unlock = { { npc = 11486 }, { npc = 14355 }, { npc = 14358 }, { npc = 14364 }, { npc = 14368 }, { npc = 14369 }, { npc = 14371 }, { npc = 14381 }, { npc = 14382 }, { npc = 14383 }, { npc = 16032 }, { kill = 2176 }, { kill = 2177 }, { kill = 2178 }, { kill = 6116 }, { kill = 6117 }, { kill = 7523 }, { kill = 7524 }, { kill = 10684 }, { kill = 11467 }, { kill = 11469 }, { kill = 11470 }, { kill = 11471 }, { kill = 11472 }, { kill = 11473 }, { kill = 11475 }, { kill = 11486 }, { kill = 11487 }, { kill = 11488 } },
+      unlock = { { npc = 11486 }, { npc = 14355 }, { npc = 14358 }, { npc = 14364 }, { npc = 14368 }, { npc = 14369 }, { npc = 14371 }, { npc = 14381 }, { npc = 14382 }, { npc = 14383 }, { npc = 16032 }, { kill = 2176 }, { kill = 2177 }, { kill = 2178 }, { kill = 6116 }, { kill = 6117 }, { kill = 7523 }, { kill = 7524 }, { kill = 10684 }, { kill = 11467 }, { kill = 11469 }, { kill = 11470 }, { kill = 11471 }, { kill = 11472 }, { kill = 11473 }, { kill = 11475 }, { kill = 11486 }, { kill = 11487 }, { kill = 11488 }, { read = { "The Kaldorei and the Well of Eternity", "칼도레이와 영원의 샘", "Les Kaldorei et le Puits d'Eternité", "Die Kaldorei und der Brunnen der Ewigkeit", "卡多雷和永恒之井", "Los kaldorei y el Pozo de la Eternidad", "Кальдорай и Источник Вечности", "Os Kaldorei e a Nascente da Eternidade", "卡多雷和永恆之井" } } },
       also = { "queen-azshara", "the-sundering", "high-elves", "shendralar", "ruins-of-keltheril", "highborne-ruins" },
       text = {
         { "The Highborne were the night elves' upper caste, Queen Azshara's chosen servants, who studied the Well of Eternity until they learned magic, and then loved it more than anything else. It was their spellcraft that drew Sargeras to the world, and their queen and her court who opened the way for his Legion." },
@@ -2910,7 +2910,7 @@ ns.content = {
     },
     ["tauren"] = {
       title = "The Tauren", kind = "faction", chapter = "peoples",
-      unlock = { { people = "Tauren" } },
+      unlock = { { people = "Tauren" }, { read = { "Mists of Dawn", "여명의 안개", "Brumes de l'Aube", "Nebel der Dämmerung", "黎明之雾", "Niebla del Amanecer", "Рассветные Туманы", "Brumas da Aurora", "黎明之霧" } }, { read = { "Sorrow of the Earthmother", "대지모신의 슬픔", "La tristesse de la Terre-mère", "Trauer der Erdenmutter", "大地母亲的悲伤", "Dolor de la Madre Tierra", "Скорбь Матери Земли", "Mágoa da Mãe Terra", "大地母親的悲傷" } } },
       also = { "cairne-bloodhoof", "thunder-bluff", "mulgore", "earth-mother", "centaurs", "grimtotem" },
       text = {
         { "The tauren are among the oldest peoples of Kalimdor's plains. For generations their tribes wandered, following the herds and the ways of the Earth Mother, while the centaurs harried them from one camp to the next. Cairne Bloodhoof gathered many of the tribes together, and when Thrall's orcs came ashore, they helped the tauren drive the centaurs back and reach the grasslands of Mulgore." },
@@ -3305,7 +3305,7 @@ ns.content = {
     },
     ["gurubashi-empire"] = {
       title = "The Gurubashi Empire", kind = "history", chapter = "stranglethorn",
-      unlock = { { area = 102 }, { area = 103 }, { area = 123 }, { area = 127 }, { area = 128 }, { area = 129 }, { area = 122 }, { area = 125 }, { area = 126 }, { area = 477 }, { area = 311 } },
+      unlock = { { area = 102 }, { area = 103 }, { area = 123 }, { area = 127 }, { area = 128 }, { area = 129 }, { area = 122 }, { area = 125 }, { area = 126 }, { area = 477 }, { area = 311 }, { read = { "Empires' Fall", "제국의 몰락", "La chute de l'empire", "Der Falls des Imperiums", "帝国的陷落", "La caída de los imperios", "Падение Империи", "A Queda do Império", "帝國的陷落" } }, { read = { "The Twin Empires", "쌍둥이 제국", "Les empires jumeaux", "Die Zwillingsimperien", "两个帝国", "Los Imperios Gemelos", "Империи-близнецы", "Os Impérios Gêmeos", "兩個帝國" } }, { read = { "Legends of the Gurubashi, Volume 3", "구루바시의 전설 3권", "Légendes des Gurubashi, Volume 3", "Legenden der Gurubashi, Band 3", "古拉巴什传奇，第三卷", "Leyendas de los Gurubashi, Volumen 3", "\"Легенды Гурубаши\", том 3", "Lendas dos Gurubashi, Volume 3", "古拉巴什傳奇，第三卷" } } },
       also = { "zulgurub", "hakkar", "bloodscalp-and-skullsplitter", "darkspear-trolls" },
       text = {
         { "The jungle trolls of the Gurubashi once ruled an empire that stretched across the south of the Eastern Kingdoms and over the islands of the sea, and Stranglethorn was its heart, with the great temple-city of Zul'Gurub at its centre. Its ruins are everywhere in this jungle: stepped temples, broken idols and paved roads under the roots." },
@@ -3333,7 +3333,7 @@ ns.content = {
     },
     ["nesingwarys-expedition"] = {
       title = "Nesingwary's Expedition", kind = "place", chapter = "stranglethorn",
-      unlock = { { area = 100 }, { npc = 715 } },
+      unlock = { { area = 100 }, { npc = 715 }, { read = { "Green Hills of Stranglethorn - Chapter I", "가시덤불 골짜기의 푸른 언덕 - 제1장", "Les vertes collines de Strangleronce - Chapitre I", "Die Grünen Hügel des Schlingendorntals - Kapitel I", "荆棘谷的青山 - 第一章", "Las verdes colinas de Tuercespina: Capítulo I", "Зеленые холмы Тернистой долины: глава I", "Grande Espinhaço: Veredas – Capítulo I", "荊棘谷的青山 - 第一章" } }, { read = { "Green Hills of Stranglethorn - Chapter II", "가시덤불 골짜기의 푸른 언덕 - 제2장", "Les vertes collines de Strangleronce - Chapitre II", "Die Grünen Hügel des Schlingendorntals - Kapitel II", "荆棘谷的青山 - 第二章", "Las verdes colinas de Tuercespina: Capítulo II", "Зеленые холмы Тернистой долины: глава II", "Grande Espinhaço: Veredas – Capítulo II", "荊棘谷的青山 - 第二章" } }, { read = { "Green Hills of Stranglethorn - Chapter III", "가시덤불 골짜기의 푸른 언덕 - 제3장", "Les vertes collines de Strangleronce - Chapitre III", "Die Grünen Hügel des Schlingendorntals - Kapitel III", "荆棘谷的青山 - 第三章", "Las verdes colinas de Tuercespina: Capítulo III", "Зеленые холмы Тернистой долины: глава III", "Grande Espinhaço: Veredas – Capítulo III", "荊棘谷的青山 - 第三章" } }, { read = { "Green Hills of Stranglethorn - Chapter IV", "가시덤불 골짜기의 푸른 언덕 - 제4장", "Les vertes collines de Strangleronce - Chapitre IV", "Die Grünen Hügel des Schlingendorntals - Kapitel IV", "荆棘谷的青山 - 第四章", "Las verdes colinas de Tuercespina: Capítulo IV", "Зеленые холмы Тернистой долины: глава IV", "Grande Espinhaço: Veredas – Capítulo IV", "荊棘谷的青山 - 第四章" } } },
       also = { "stranglethorn-vale" },
       text = {
         { "Hemet Nesingwary's camp occupies a clearing in northern Stranglethorn, well furnished with tents, trophies and gun racks. The renowned hunter has come for panthers, tigers and raptors, and to write The Green Hills of Stranglethorn. He offers visiting hunters ample opportunity to prove themselves." },
@@ -3360,7 +3360,7 @@ ns.content = {
     },
     ["zulgurub"] = {
       title = "Zul'Gurub", kind = "place", chapter = "stranglethorn",
-      unlock = { { area = 1977 } },
+      unlock = { { area = 1977 }, { read = { "Altar of Zanza", "잔자의 제단", "Autel de Zanza", "Altar von Zanza", "赞扎祭坛", "Altar de Zanza", "Алтарь Занзы", "贊札祭壇" } } },
       also = { "hakkar", "gurubashi-empire", "zandalar-tribe" },
       text = {
         { "Zul'Gurub was the temple-city at the heart of the Gurubashi empire. After centuries of quiet, it is Hakkar's city again. High priests sent to oppose him have fallen under his power, and the Zandalar must now seek help beyond their own people." },
@@ -3414,7 +3414,7 @@ ns.content = {
     },
     ["the-temple-of-atalhakkar"] = {
       title = "The Temple of Atal'Hakkar", kind = "place", chapter = "swamp-of-sorrows",
-      unlock = { { area = 1477 }, { area = 74 } },
+      unlock = { { area = 1477 }, { area = 74 }, { read = { "Wrath of Soulflayer", "영혼약탈자의 격노", "La colère du fléau des âmes", "Der Zorn des Seelenschinders", "噬灵者的愤怒", "La ira del Cazador de Almas", "Гнев Свежевателя Душ", "A Ira do Esfolador de Almas", "靈魂掠奪者的憤怒" } } },
       also = { "hakkar", "gurubashi-empire", "eranikus", "dragons-of-nightmare" },
       text = {
         { "When the Gurubashi rose against the priests who had brought Hakkar into the world, the Atal'ai fled into this swamp and built a temple to their god, and went on trying to call him back. The green dragons of Ysera found them. They sank the temple beneath the swamp, and Ysera set some of her own to guard it, so that Hakkar should never come through it again." },
@@ -3599,7 +3599,7 @@ ns.content = {
     },
     ["alonsus-faol"] = {
       title = "Alonsus Faol", kind = "figure", chapter = "tirisfal",
-      unlock = { { area = 173 } },
+      unlock = { { area = 173 }, { read = { "Archbishop Alonsus Faol", "대주교 알론수스 파올", "Archevêque Alonsus Faol", "Erzbischof Alonsus Faol", "大主教阿隆索斯·法奥", "Arzobispo Alonsus Faol", "Архиепископ Алонсий Фаол", "Arcebispo Alonso Faol", "大主教阿隆索斯·法奧" } } },
       also = { "church-of-the-holy-light", "paladins", "uthers-tomb", "northshire-abbey", "stratholme" },
       text = {
         { "Alonsus Faol led the clerics of Northshire before the First War, and when Stormwind fell and the abbey with it, the old man went north with the refugees. In Lordaeron, as Archbishop, he gave the Church of the Holy Light a sword: he founded the Knights of the Silver Hand and anointed his apprentice, Uther, the first of the paladins." },
@@ -3627,7 +3627,7 @@ ns.content = {
     },
     ["fall-of-lordaeron"] = {
       title = "The Fall of Lordaeron", kind = "history", chapter = "tirisfal",
-      unlock = { { area = 153 } },
+      unlock = { { area = 153 }, { read = { "The Scourge of Lordaeron", "로데론의 스컬지", "Le Fléau de Lordaeron", "Die Geißel von Lordaeron", "洛丹伦的天灾", "La Plaga de Lordaeron", "Падение Лордерона", "O Flagelo de Lordaeron", "羅德隆的天災" } }, { read = { "Here Lies King Terenas Menethil II", "국왕 테레나스 메네실 2세 여기 잠들다", "Ci-gît le roi Terenas Menethil II", "Hier ruht König Terenas Menethil II.", "泰瑞纳斯·米奈希尔二世在此长眠", "Aquí yace el rey Terenas Menethil II", "Здесь покоится Теренас Менетил II", "Aqui Jaz o Rei Terenas Menethil II", "泰瑞納斯·米奈希爾二世在此長眠" } } },
       also = { "undercity", "scourge", "sylvanas-windrunner" },
       text = {
         { "Lordaeron was the first among the kingdoms of men, and its king, Terenas Menethil, had led the Alliance through the Second War. When the plague came out of the north and the dead began to rise, it was his son, Prince Arthas, a paladin of the Silver Hand, who rode out against it." },
@@ -3720,7 +3720,7 @@ ns.content = {
     },
     ["the-crusades-fallen"] = {
       title = "The Crusade's Fallen", kind = "history", chapter = "tirisfal",
-      unlock = { { read = { "Arellas Fireleaf", "아렐라스 파이어리프", "阿雷拉斯·火叶", "Arellas Hojafuego", "Ареллас Огненный Лист", "Arellas Firafolha", "[Arellas Fireleaf]" } }, { read = { "Admiral Barean Westwind", "제독 바렌 웨스트윈드", "Amiral Barean Westwind", "海军上将巴利·韦斯温", "Almirante Barean Viento Oeste", "Адмирал Бареан Вествинд", "Almirante Barean Zefirália", "[Admiral Barean Westwind]" } }, { read = { "Dorgar Stoenbrow", "도르가르 스톤브로", "Dorgar Stonebrow", "多加尔·石眉", "Dorgar Petrocejas", "Доргар Камнелоб", "Dorgar Hefastão", "[Dorgar Stoenbrow]" } }, { read = { "Fellari Swiftarrow", "펠라리 스위프트애로우", "菲尔拉蕾·迅箭", "Fellari Flechaveloz", "Феллари Быстрая Стрела", "Fellari Velosseta", "[Fellari Swiftarrow]" } }, { read = { "Ferren Marcus", "페렌 마커스", "费伦·玛库斯", "Феррен Маркус", "Fernando Marco", "[Ferren Marcus]" } }, { read = { "Holia Sunshield", "홀리아 선쉴드", "阳炎之盾", "Holia Escusol", "Холия Солнечный Щит", "Holia Solbroquel", "[Holia Sunshield]" } }, { read = { "Invar One-Arm", "외팔이 이바르", "Invar le Manchot", "钢铁武器", "Invar Unibrazo", "Инвар Однорукий", "Invar Sem-braço", "[Invar One-Arm]" } }, { read = { "Orman of Stromgarde", "스트롬가드의 오르만", "Orman de Stromgarde", "Orman von Stromgarde", "激流堡的奥玛尔", "Орман из Стромгарда", "[Orman of Stromgarde]" } }, { read = { "Valea Twinblades", "발리아 트윈블레이즈", "瓦雷亚", "Valea Filosgemelos", "Валея Два Клинка", "Valea Bilâmina", "[Valea Twinblades]" } }, { read = { "Yana Bloodspear", "야나 블러드스피어", "亚娜·血矛", "Yana Lanza de Sangre", "Яна Кровавое Копье", "Yana Lanssang", "[Yana Bloodspear]" } } },
+      unlock = { { read = { "Arellas Fireleaf", "아렐라스 파이어리프", "阿雷拉斯·火叶", "Arellas Hojafuego", "Ареллас Огненный Лист", "Arellas Firafolha", "[Arellas Fireleaf]" } }, { read = { "Admiral Barean Westwind", "제독 바렌 웨스트윈드", "Amiral Barean Westwind", "海军上将巴利·韦斯温", "Almirante Barean Viento Oeste", "Адмирал Бареан Вествинд", "Almirante Barean Zefirália", "[Admiral Barean Westwind]" } }, { read = { "Dorgar Stoenbrow", "도르가르 스톤브로", "Dorgar Stonebrow", "多加尔·石眉", "Dorgar Petrocejas", "Доргар Камнелоб", "Dorgar Hefastão", "[Dorgar Stoenbrow]" } }, { read = { "Fellari Swiftarrow", "펠라리 스위프트애로우", "菲尔拉蕾·迅箭", "Fellari Flechaveloz", "Феллари Быстрая Стрела", "Fellari Velosseta", "[Fellari Swiftarrow]" } }, { read = { "Ferren Marcus", "페렌 마커스", "费伦·玛库斯", "Феррен Маркус", "Fernando Marco", "[Ferren Marcus]" } }, { read = { "Holia Sunshield", "홀리아 선쉴드", "阳炎之盾", "Holia Escusol", "Холия Солнечный Щит", "Holia Solbroquel", "[Holia Sunshield]" } }, { read = { "Invar One-Arm", "외팔이 이바르", "Invar le Manchot", "钢铁武器", "Invar Unibrazo", "Инвар Однорукий", "Invar Sem-braço", "[Invar One-Arm]" } }, { read = { "Orman of Stromgarde", "스트롬가드의 오르만", "Orman de Stromgarde", "Orman von Stromgarde", "激流堡的奥玛尔", "Орман из Стромгарда", "[Orman of Stromgarde]" } }, { read = { "Valea Twinblades", "발리아 트윈블레이즈", "瓦雷亚", "Valea Filosgemelos", "Валея Два Клинка", "Valea Bilâmina", "[Valea Twinblades]" } }, { read = { "Yana Bloodspear", "야나 블러드스피어", "亚娜·血矛", "Yana Lanza de Sangre", "Яна Кровавое Копье", "Yana Lanssang", "[Yana Bloodspear]" } }, { read = { "Harthal Truesight", "하르탈 트루사이트", "真实视界", "Harthal Vistarreal", "Хартал Проницательный", "Hereno Justo", "[Harthal Truesight]" } } },
       also = { "scarlet-crusade", "scarlet-monastery", "the-ashbringer", "whitemane-and-mograine" },
       text = {
         { "The Scarlet Monastery buries its heroes in its own graveyard, and their stones say more about the Crusade than its sermons do. Read them and you find it was never only a human order of Lordaeron: a high wizard and a ranger captain who were citizens of Quel'Thalas, assassins from Dalaran, a warrior of Alterac, a lord of the Red Caverns, an admiral of Kul Tiras." },
@@ -3885,7 +3885,7 @@ ns.content = {
     },
     ["plague-cauldrons"] = {
       title = "The Plague Cauldrons", kind = "history", chapter = "western-plaguelands",
-      unlock = { { area = 199 }, { area = 200 }, { area = 202 }, { area = 201 }, { quest = 5215 }, { quest = 5228 } },
+      unlock = { { area = 199 }, { area = 200 }, { area = 202 }, { area = 201 }, { quest = 5215 }, { quest = 5228 }, { read = { "Compendium of the Fallen", "타락의 개요", "Compendium des Déchus", "Kompendium der Gefallenen", "堕落者纲要", "Compendio de los Caídos", "\"Компендиум павших\"", "Compêndio dos Caídos", "墮落者綱要" } } },
       also = { "scourge", "cult-of-the-damned", "royal-apothecary-society", "chillwind-camp", "the-bulwark" },
       text = {
         { "Eight plague cauldrons stand on the farms of the Plaguelands, four in the west and four in the east. Cauldron lords and the dead of the surrounding farmsteads guard them. Their fumes keep poisoning country that has already lost its people." },
@@ -3923,7 +3923,7 @@ ns.content = {
     },
     ["uthers-tomb"] = {
       title = "Uther's Tomb", kind = "place", chapter = "western-plaguelands",
-      unlock = { { area = 196 }, { area = 197 } },
+      unlock = { { area = 196 }, { area = 197 }, { read = { "Uther the Lightbringer", "빛의 수호자 우서", "Uther, le Porteur de Lumière", "Uther Lightbringer", "光明使者乌瑟尔", "Uther el Iluminado", "Утер Светоносный", "Uther, o Arauto da Luz", "光明使者烏瑟" } } },
       also = { "fall-of-lordaeron", "church-of-the-holy-light", "western-plaguelands" },
       text = {
         { "Uther the Lightbringer was the first of the paladins, anointed by Archbishop Faol, the commander of the Knights of the Silver Hand, Prince Arthas's teacher, and the greatest champion the Light has had among men. He refused to take part in the purge of Stratholme, and Arthas dismissed him for it. When Arthas came back from Northrend with his cursed sword, Uther stood against him, guarding the urn that held King Terenas's ashes, and told his old pupil he hoped there was a special place in hell waiting for him. Arthas killed him." },
@@ -4055,7 +4055,7 @@ ns.content = {
     },
     ["red-dragonflight"] = {
       title = "The Red Dragonflight", kind = "creature", chapter = "wetlands", portrait = 363,
-      unlock = { { kill = 1045 }, { kill = 1046 }, { kill = 1047 }, { kill = 1048 }, { kill = 1049 }, { kill = 1050 } },
+      unlock = { { kill = 1045 }, { kill = 1046 }, { kill = 1047 }, { kill = 1048 }, { kill = 1049 }, { kill = 1050 }, { read = { "The Skull of Tyrannistrasz", "티란니스트라즈의 뼈", "Le crâne de Tyrannistrasz", "Der Schädel des Tyrannistrasz", "塔兰尼斯塔兹的颅骨", "El cráneo de Tyrannistrasz", "Череп Тираннистраса", "O Crânio de Tyrannistrasz", "塔蘭尼斯塔茲的顱骨" } } },
       also = { "grim-batol", "dragonmaw-clan", "black-dragonflight" },
       text = {
         { "Alexstrasza is called the Life-Binder, queen of the red dragons and one of the world's oldest powers. During the Second War, the Dragonmaw held her captive at Grim Batol and forced her children into their service. The flight has since been freed." },

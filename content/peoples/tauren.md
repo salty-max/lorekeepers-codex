@@ -4,6 +4,8 @@ title: The Tauren
 kind: faction
 unlock:
   - people: Tauren
+  - read: Mists of Dawn
+  - read: Sorrow of the Earthmother
 also: [cairne-bloodhoof, thunder-bluff, mulgore, earth-mother, centaurs, grimtotem]
 ---
 The tauren are among the oldest peoples of Kalimdor's plains. For generations their tribes wandered, following the herds and the ways of the Earth Mother, while the centaurs harried them from one camp to the next. Cairne Bloodhoof gathered many of the tribes together, and when Thrall's orcs came ashore, they helped the tauren drive the centaurs back and reach the grasslands of Mulgore.

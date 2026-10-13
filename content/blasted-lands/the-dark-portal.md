@@ -5,6 +5,7 @@ kind: history
 unlock:
   - area: The Dark Portal
   - area: Rise of the Defiler
+  - read: Beyond the Dark Portal
 also: [nethergarde-keep, karazhan, blackrock-clan, burning-legion]
 ---
 The Dark Portal is a great gate of stone between our world and Draenor, the orcs' world. The warlock Gul'dan opened it from the other side, and the Guardian Medivh helped him from ours, and through it, some twenty-five years ago, came the Horde. The First War, the Second War, everything that followed, came through that gate.

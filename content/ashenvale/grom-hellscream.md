@@ -5,6 +5,7 @@ kind: figure
 unlock:
   - read: Monument to Grom Hellscream
   - area: Demon Fall Canyon (Ashenvale)
+  - read: The Armor of Mannoroth
 also: [demon-fall-canyon, warsong-lumber-camp, thrall, orcs, cenarius, draenor]
 ---
 Grommash Hellscream, chieftain of the Warsong, was the first of the orc chieftains to drink Mannoroth's blood on Draenor, and he led the others to it. The strength it gave them bound the clans to the demon whose blood they shared.

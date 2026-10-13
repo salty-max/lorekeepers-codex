@@ -9,6 +9,7 @@ unlock:
   - kill: 4642, 4643, 4644, 4645, 4646, 4647, 4648, 4649, 4651, 4652, 4653, 4654, 4655, 4656
   - kill: 4657, 4658, 4659, 4661, 5402, 5600, 5601, 5602, 5808, 6069, 6070, 7404, 9523, 9524
   - kill: 10617, 10720, 11685, 11688, 12976, 12977
+  - read: Hatred of the Centaur
 also: [cairne-bloodhoof]
 ---
 The centaurs descend from Zaetar, a son of Cenarius, and Theradras, a princess of elemental earth. They killed their father; their mother buried him in Maraudon. His children still guard the tomb as sacred ground.

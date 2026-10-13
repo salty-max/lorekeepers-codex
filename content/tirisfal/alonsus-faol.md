@@ -4,6 +4,7 @@ title: Alonsus Faol
 kind: figure
 unlock:
   - area: Faol's Rest
+  - read: Archbishop Alonsus Faol
 also: [church-of-the-holy-light, paladins, uthers-tomb, northshire-abbey, stratholme]
 ---
 Alonsus Faol led the clerics of Northshire before the First War, and when Stormwind fell and the abbey with it, the old man went north with the refugees. In Lordaeron, as Archbishop, he gave the Church of the Holy Light a sword: he founded the Knights of the Silver Hand and anointed his apprentice, Uther, the first of the paladins.

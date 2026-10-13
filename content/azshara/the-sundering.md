@@ -4,6 +4,7 @@ title: The Sundering
 kind: history
 unlock:
   - area: The Shattered Strand
+  - read: The War of the Ancients
 also: [burning-legion, tyrande-whisperwind, ravencrest-monument, naga, highborne-ruins]
 ---
 Ten thousand years ago, the night elves ruled Kalimdor from the shores of the Well of Eternity, a lake of pure magic at the heart of the world. Their queen was Azshara, the fairest of them all, and her Highborne drew on the Well's power without limit. Their magic drew the eye of Sargeras, the lord of the Burning Legion, and Azshara and her Highborne opened the way for him, believing the demons would make the world perfect.

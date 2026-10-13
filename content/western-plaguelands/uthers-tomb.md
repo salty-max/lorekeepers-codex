@@ -5,6 +5,7 @@ kind: place
 unlock:
   - area: Uther's Tomb
   - area: Sorrow Hill
+  - read: Uther the Lightbringer
 also: [fall-of-lordaeron, church-of-the-holy-light, western-plaguelands]
 ---
 Uther the Lightbringer was the first of the paladins, anointed by Archbishop Faol, the commander of the Knights of the Silver Hand, Prince Arthas's teacher, and the greatest champion the Light has had among men. He refused to take part in the purge of Stratholme, and Arthas dismissed him for it. When Arthas came back from Northrend with his cursed sword, Uther stood against him, guarding the urn that held King Terenas's ashes, and told his old pupil he hoped there was a special place in hell waiting for him. Arthas killed him.

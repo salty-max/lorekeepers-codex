@@ -4,6 +4,8 @@ title: The Fall of Lordaeron
 kind: history
 unlock:
   - area: Ruins of Lordaeron
+  - read: The Scourge of Lordaeron
+  - read: Here Lies King Terenas Menethil II
 also: [undercity, scourge, sylvanas-windrunner]
 ---
 Lordaeron was the first among the kingdoms of men, and its king, Terenas Menethil, had led the Alliance through the Second War. When the plague came out of the north and the dead began to rise, it was his son, Prince Arthas, a paladin of the Silver Hand, who rode out against it.
