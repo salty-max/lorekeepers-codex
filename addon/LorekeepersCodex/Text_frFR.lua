@@ -341,6 +341,13 @@ ns.translate({
         { "C'est ici, dit-on, qu'il repose. Avant le Fléau, c'était un lieu de pèlerinage. Aujourd'hui, il rassemble les morts du Monastère écarlate, et personne ne vient le pleurer. Il méritait mieux, et l'ordre qu'il a fondé aussi." },
       },
     },
+    ["altar-of-storms"] = {
+      title = "L'Autel des tempêtes",
+      text = {
+        { "L'Autel des tempêtes se dresse dans l'ombre du pic Rochenoire, un lieu des rites de démonistes de l'ancienne Horde qui a survécu. Pendant la Deuxième Guerre, la magie pratiquée à de tels autels changea des ogres en ogres-mages, leur donnant la ruse et le pouvoir de lancer des sorts." },
+        { "Des démonistes Blackrock s'y rassemblent toujours. Mor'zul Bloodbringer, qui a étudié l'autel, campe tout près et envoie d'autres démonistes faire des courses pour son propre compte." },
+      },
+    },
     ["alterac-mountains"] = {
       title = "Montagnes d'Alterac",
       text = {
@@ -370,6 +377,14 @@ ns.translate({
         { "Les Anciens sont les plus vieux arbres des forêts des elfes de la nuit, devenus assez sages pour penser et assez forts pour marcher. Pendant la guerre des Anciens, Cénarius les fit se lever des bois enchantés et les mena contre la Légion ardente, une armée d'hommes-arbres marchant sur la cité même de la reine ; pendant la Troisième Guerre, ils marchèrent de nouveau." },
         { "Ils montent toujours la garde. Des anciens protecteurs veillent sur Teldrassil, un Ancien du savoir et un Ancien de la Guerre tiennent leur place à Darnassus, et Onu, un autre Ancien du savoir, parle au nom de la forêt au Bosquet des Anciens, en Sombrivage." },
         { "Ils sont lents à parler et plus lents encore à changer d'avis. Un peuple qui a planté sa capitale dans un arbre, je suppose, apprend à écouter les arbres." },
+      },
+    },
+    ["anduin-lothar"] = {
+      title = "Anduin Lothar",
+      text = {
+        { "Anduin Lothar était le dernier de la lignée d'Arathi, la lignée de Thoradin qui unit le premier l'humanité, et il servait le roi Llane de Hurlevent comme champion et lieutenant d'armes. Ce fut Lothar qui donna l'assaut à Karazhan avec le jeune Khadgar et tua Medivh, son vieil ami, quand il comprit ce que le Gardien avait fait." },
+        { "Il rentra trop tard pour sauver Hurlevent, mena son peuple par-delà la mer jusqu'en Lordaeron et devint commandant suprême de l'Alliance. Même les elfes de Quel'thalas vinrent, à contrecœur, à cause de la dette qu'ils devaient à ses ancêtres." },
+        { "Il mourut ici. Alors que la Horde était acculée au pic Rochenoire, Orgrim Doomhammer chargea avec ses lieutenants et rencontra les paladins de Lothar au milieu de ces plaines ; les deux combattirent jusqu'à épuisement, et Doomhammer le tua. Son lieutenant, Turalyon, ramassa le bouclier ensanglanté de Lothar et brisa la Horde dans la déroute qui suivit. L'expédition qui franchit plus tard la Porte des ténèbres partit sous le nom de Fils de Lothar." },
       },
     },
     ["arathi-basin"] = {
@@ -605,6 +620,13 @@ ns.translate({
         { "La Légion ardente est une armée de démons, rassemblée sur mille mondes conquis par le titan déchu Sargeras, et elle est venue trois fois pour le nôtre : une fois il y a dix mille ans, par le Puits d'éternité des elfes de la nuit ; une fois par les orcs, que ses serviteurs corrompirent et envoyèrent par la Porte des ténèbres ; et une fois pendant la dernière guerre, quand son général Archimonde tomba au pied de l'Arbre-Monde, sur le mont Hyjal." },
         { "Elle n'est jamais tout à fait partie. Le seigneur Kazzak tient les Terres foudroyées avec une armée de démons autour de la Porte des ténèbres endormie. Les démonistes du Conseil des ombres gardent des démons à Jaedenar, en Gangrebois, où toute la forêt a pourri autour d'eux. Gardes funestes et infernaux arpentent le canyon de la Malechute en Ashenvale, où Grom Hellscream tua Mannoroth, le convent de Mannoroc en Désolace, et les ruines d'Azshara." },
         { "La Légion est patiente. Elle a perdu trois guerres et elle est toujours là, et je ne crois pas qu'elle en ait fini avec nous." },
+      },
+    },
+    ["burning-steppes"] = {
+      title = "Steppes ardentes",
+      text = {
+        { "Les Steppes ardentes s'étendent au sud du mont Rochenoire, une vaste plaine de cendres, de lave et de roche noire sous un ciel rouge. Autrefois, tout cela formait l'extrémité nord des Carmines, avant que Thaurissan ne réveille le seigneur du Feu. L'explosion qui suivit emporta les montagnes, les forêts et la propre cité des Sombrefer, et laissa ceci." },
+        { "C'est une terre en guerre. Les orcs Blackrock de la Horde noire tiennent le pic et les cols, le vol draconique noir niche sur les hauteurs, et les ogres tiennent le rocher des Cognepeur. L'Alliance a une prise à la Veille de Morgan, au sud-est, et il y a un petit avant-poste neutre à la Corniche des flammes, sur un rocher au-dessus de la lave, où chacun peut se reposer." },
       },
     },
     ["cairne-bloodhoof"] = {
@@ -1550,6 +1572,13 @@ ns.translate({
         { "Le tombeau est troublé. Le seigneur Vylelangue répand le poison dans les grottes et y a fait naître une créature de pourriture ; le neveu de Zaetar, Celebras, y erre sous le poids d'une malédiction. Une femme du Marteau du crépuscule demande des gravures prises dans les cavernes de cristal, affirmant qu'elles renferment des reliques des Dieux très anciens. Prenez garde à qui votre voyage sert, $gvoyageur:voyageuse;. Plusieurs partis s'intéressent à ce qui se trouve sous cette terre sacrée." },
       },
     },
+    ["marshal-windsor"] = {
+      title = "Le maréchal Windsor",
+      text = {
+        { "Le maréchal Reginald Windsor commandait des soldats de l'Alliance à la Veille de Morgan et rassembla des preuves reliant les orcs Blackrock au vol draconique noir. Il en vint à soupçonner que quelqu'un à Hurlevent voulait que ces preuves se perdent. Les Sombrefer le capturèrent et prirent ses notes, puis entreprirent de déchiffrer leur code." },
+        { "Windsor survécut dans la prison de la cité d'Ombreforge. Il affirmait que Bolvar Fordragon était aveugle à la vérité, bien que la preuve se tînt à deux pas de lui. Ceux qui sauvèrent le maréchal comprirent vite ce qu'il voulait dire." },
+      },
+    },
     ["marshals-refuge"] = {
       title = "Le refuge des Marshal",
       text = {
@@ -1600,6 +1629,13 @@ ns.translate({
         { "Morbent Fel est le nécromancien du Bois de la Pénombre, celui qui fait marcher les morts de Colline-aux-Corbeaux, et un allié des sombres cavaliers qui sortent du défilé de Deuillevent. Il vit dans une maison au sommet de la Masure lugubre, au-dessus du cimetière, derrière ses morts et une protection qui détourne chaque coup qu'on lui porte." },
         { "Sven Yorgen, un bûcheron dont les cavaliers ont tué la femme et les enfants, veut sa mort, et le chemin est long. Le journal d'un Défias apprit à Sven ce qui s'était passé à sa ferme ; l'évêque Farthing, à la cathédrale de Hurlevent, indiqua une arme capable de briser la protection ; le fer nécessaire vint des épaves de la Troisième flotte, au large des Paluns, où sombra une cargaison de fer de Forge-Lumière, et un forgeron nain de Hurlevent en fit le Fléau de Morbent." },
         { "C'est beaucoup de peine pour un seul nécromancien, $gvoyageur:voyageuse;. Sven ne trouve pas, et je m'aperçois que je ne peux pas lui en vouloir." },
+      },
+    },
+    ["morgans-vigil"] = {
+      title = "La Veille de Morgan",
+      text = {
+        { "La Veille de Morgan occupe un village brûlé au sud-est des Steppes ardentes. Une tour de mage en ruine et des tentes abritent des soldats de l'Alliance sous les ordres du maréchal Maxwell. Ils se tiennent entre les forces Blackrock et Comté-du-Lac, au-delà des montagnes." },
+        { "Leurs rapports désignent le vol draconique noir comme la puissance qui pousse les orcs. Hurlevent a demandé des preuves ; dame Prestor n'a vu aucune raison de s'alarmer. Un voyageur peut apprendre ici à la fois ce que les soldats ont découvert et le peu d'aide que cette découverte leur a valu jusqu'ici." },
       },
     },
     ["morganth"] = {
@@ -2009,6 +2045,13 @@ ns.translate({
         { "Au-dessus de Fossoyeuse, les rues de la capitale de Lordaeron sont moins vides qu'elles n'en ont l'air depuis la porte. Le Fléau arpente encore en nombre les ruines les plus profondes, et un brouillard impie s'est répandu sur les rues et le vieux cimetière, levé, croient les Gardes noirs, par un nécromancien du nom de Rath'mael, sur le surplomb de Lordamere. Les Réprouvés envoient les forces qu'ils peuvent épargner, et leurs pertes sont telles qu'un paladin du Quartier royal demande aux voyageurs de lui rapporter les membres intacts que laissent les morts." },
         { "Tous ceux qui montent ne le font pas pour la reine banshee. Edward Heartweaver se rendait chaque semaine au cimetière, en quête du fils qu'il avait perdu quand Arthas rasa la cité, jusqu'à la semaine où il ne rentra pas. Et parmi les abominations cousues là-haut, il en est une que les apothicaires appellent le Baron, et qu'ils connaissent sous un nom plus ancien : Othmar Garithos, le seigneur qui fit cause commune avec Sylvanas contre le Fléau et ne survécut pas à l'arrangement. Le capitaine Truman, qui le servait, attend toujours dans les ruines le retour de son commandant." },
         { side = "Horde", aside = true, sign = "P. F.", "De tout ce qui figure sur cette page, c'est la marche hebdomadaire d'Edward Heartweaver qui me revient sans cesse." },
+      },
+    },
+    ["ruins-of-thaurissan"] = {
+      title = "Les ruines de Thaurissan",
+      text = {
+        { "Ce sont les ruines de la cité de Thaurissan, la capitale du clan Sombrefer après qu'il eut quitté Forgefer, il y a des siècles, quand les Steppes ardentes étaient vertes. Quand leurs armées furent détruites à Forgefer et à Grim Batol, le thane-sorcier Thaurissan et sept de ses plus grands nains descendirent invoquer les puissances qui dormaient sous le monde, pour renverser le cours de la guerre." },
+        { "Ce qui répondit fut Ragnaros, le seigneur du Feu. La montagne explosa. La cité fut détruite, les vallées brûlèrent, et les Sombrefer qui survécurent devinrent les esclaves du seigneur du Feu. Les reliques de la cité s'en souviennent encore : ceux qui les touchent voient huit nains accomplir un rituel, puis un seul, agenouillé parmi sept cadavres devant une colonne de flammes. J'ai raconté cette histoire au Haut-Siège plus de fois que je ne saurais le compter, et ces reliques en expliquent une bonne partie que je n'avais fait que deviner. Un gobelin de la Veille de Morgan, Maxwort, vous dira que les Sept étaient des nains d'un grand savoir, et que le savoir mène à la richesse. Les gobelins." },
       },
     },
     ["rustmaul-dig-site"] = {
