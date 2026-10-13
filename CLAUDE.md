@@ -2,7 +2,7 @@
 
 A World of Warcraft addon (Lua 5.1; Classic Era, TBC Anniversary and Forever,
 a TOC each): a codex of original lore texts that unlock per character as they
-play. Sister project of ~/code/wow-addons/field-journal (same tooling and
+play. Sister project of Yonder, in ~/code/wow-addons/field-journal (same tooling and
 conventions).
 
 ## Layout
@@ -40,7 +40,7 @@ conventions).
   you or your pet: `PARTY_KILL`, an event of its own on Forever and Classic
   since 1.15.9, else the combat log's line; quests incl. ones done before,
   reputations, map positions, books and plaques read: `ns.readText` from the
-  Library, by title in any language, and the Library's titles at the login), `Kit.lua` (a copy of the kit shared with Hearthtale, the Field Journal and
+  Library, by title in any language, and the Library's titles at the login), `Kit.lua` (a copy of the kit shared with Hearthtale, Yonder and
   Second Wind, ~/code/wow-addons/addon-kit: the books' look and windows, the
   page and every part of one, the board, the banners; never edited here: `bun run
   kit:sync` after changing the kit, `bun run kit:check` to verify; the Codex's

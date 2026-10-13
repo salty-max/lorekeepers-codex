@@ -69,7 +69,7 @@ Each character has its own settings. Copy another character's settings within th
 These share the Codex's book style and work independently:
 
 - **[Hearthtale](https://www.curseforge.com/wow/addons/hearthtale)** ([Wago](https://addons.wago.io/addons/E6gzPnN1)) writes a diary for your character as you play, with an epitaph when a Hardcore life ends.
-- **[Explorer's Field Journal](https://www.curseforge.com/wow/addons/explorers-field-journal)** ([Wago](https://addons.wago.io/addons/ZKbq5y61)) offers exploration riddles, rare hunts, a bestiary, an atlas and records of your fish and herbs.
+- **[Yonder](https://www.curseforge.com/wow/addons/explorers-field-journal)** ([Wago](https://addons.wago.io/addons/ZKbq5y61)) offers exploration riddles, rare hunts, a bestiary, an atlas and records of your fish and herbs.
 
 ## Support
 
