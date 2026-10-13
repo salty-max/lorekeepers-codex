@@ -1251,6 +1251,98 @@ ns.translate({
         { "Ils sont grands, à la peau verte et aux défenses saillantes ; ils gardent les anciens dieux des trolls, et certains gardent des coutumes pires encore. Les Revantusk des Hinterlands sont l'exception : ils ont pris le parti de la Horde, et leurs alliés de la Horde se portent garants d'eux." },
       },
     },
+    ["foreword-dwarf"] = {
+      title = "Un mot de l'historienne royale",
+      text = {
+        { "$gVoyageur:Voyageuse;, bienvenue dans ce registre d'Azeroth. J'ai commencé par le pays qui entoure Forgefer, où un nain peut connaître chaque route et se poser encore des questions sur les pierres qui la bordent." },
+        { "Les pages suivent nos clans, les guerres qui les ont divisés, et les ouvrages plus anciens que la Ligue tente de comprendre. Elles suivent aussi d'autres peuples. Notre histoire a croisé la leur assez souvent pour qu'un livre réservé aux nains laisse bien des choses inexpliquées." },
+        { "Emportez-le avec vous, et lisez une page quand un lieu vous donne une raison de vous arrêter. Une ruine se remarque plus facilement que la vie qu'elle abritait. Les deux méritent une place dans les archives." },
+        { italic = true, "Historienne royale Archesonus, le Haut-Siège, Forgefer" },
+      },
+    },
+    ["foreword-gnome"] = {
+      title = "Un mot à un enfant de Gnomeregan",
+      text = {
+        { "$gVoyageur:Voyageuse;, j'ai écrit cette première page pour un gnome avec un soin particulier. Gnomeregan gît toujours sous Dun Morogh, et votre peuple ne peut pas encore y retourner. Un registre des lieux anciens se doit de reconnaître que certaines pertes sont encore en train d'être vécues." },
+        { "Forgefer a offert un abri à votre peuple. Vous avez apporté dans nos salles de l'ingéniosité et une quantité considérable de bruit ; nous sommes heureux de cette compagnie, avec quelques réserves occasionnelles quant au bruit. Le récit de Gnomeregan est ici, avec le pays que ses exilés partagent désormais." },
+        { "Lisez ces pages partout où votre travail vous mène. J'espère que la page consacrée à votre foyer aura un jour besoin d'un ajout plus heureux. D'ici là, son histoire a sa place à côté des inventions et des missions qui vous aideront peut-être à le reprendre." },
+        { italic = true, "Historienne royale Archesonus, le Haut-Siège, Forgefer" },
+      },
+    },
+    ["foreword-human"] = {
+      title = "Un mot à $gun fils:une fille; de Hurlevent",
+      text = {
+        { "$gVoyageur:Voyageuse;, je suis heureuse d'envoyer ce registre à un lecteur de Hurlevent. Votre peuple et le mien se tiennent côte à côte depuis la Deuxième Guerre ; nos récits des batailles qui ont suivi ont rarement manqué de noms venus des deux." },
+        { "Hurlevent fut détruite et rebâtie. Sa nouvelle maçonnerie est une grande réussite, et les maçons impayés qui l'ont élevée font aussi partie de son histoire. Vous trouverez ce récit ici, à côté des histoires que votre royaume a plus de raisons de célébrer." },
+        { "Servez-vous du livre en voyageant. Les villes, les ruines et les routes peuvent vous dire comment un pays est devenu ce que vous trouvez, pourvu que quelqu'un garde la trace des gens qui les ont faits." },
+        { italic = true, "Historienne royale Archesonus, le Haut-Siège, Forgefer" },
+      },
+    },
+    ["foreword-nightelf"] = {
+      title = "Un mot à $gun Kaldorei:une Kaldorei;",
+      text = {
+        { "$gVoyageur:Voyageuse;, ce registre a été relié pour l'un des kaldorei, et j'avoue qu'il est étrange d'offrir une histoire à un peuple qui se souvient de dix mille ans. Pardonnez à une naine sa présomption. Nous comptons nos âges en pierre ; vous comptez les vôtres en vies d'arbres." },
+        { "Pendant la plupart de ces années, votre peuple est resté dans ses forêts sans y laisser entrer personne. Vous avez désormais planté un nouvel Arbre-Monde au large de Sombrivage et ouvert vos portes à l'Alliance, et la Ligue a suivi sa curiosité jusque dans vos ruines, comme toujours. Là où nous nous sommes trompés, je serais reconnaissante qu'on me le dise." },
+        { "Partout où l'histoire s'est faite, j'ai laissé une page pour vous. Lisez-les au coin du feu, et souvenez-vous que chaque ruine fut un jour le foyer de quelqu'un." },
+        { italic = true, "Historienne royale Archesonus, le Haut-Siège, Forgefer" },
+      },
+    },
+    ["foreword-orc"] = {
+      title = "Un mot à un membre de la Horde",
+      text = {
+        { "$gVoyageur:Voyageuse;, le registre que vous tenez a été écrit à Forgefer, par Archesonus, l'historienne royale du roi Magni, et vous vous demandez peut-être pourquoi un Réprouvé de Fossoyeuse envoie l'histoire d'une naine à un orc. J'étais historien de Lordaeron avant que la peste ne m'emporte, et je reconnais un récit juste quand j'en lis un. Le sien l'est plus souvent que je ne m'y attendais." },
+        { "Le chemin de votre peuple y figure. La Porte des ténèbres l'a amené ici ; la défaite l'a conduit dans les camps d'internement de Lordaeron ; Thrall l'en a sorti et lui a fait traverser la mer jusqu'en Durotar, nommé d'après son père. Ces camps se dressaient dans mon royaume de mon vivant, et je m'aperçois que je lis ces pages-là plus lentement que les autres." },
+        { "Emportez le livre dans vos voyages. La force vous mènera loin, mais le savoir mène plus loin encore, et plus vous en savez d'un lieu, plus vous en voyez. Si votre route vous mène un jour à Fossoyeuse, venez me trouver. J'aurai peut-être une question pour vous." },
+        { italic = true, "Parqual Fintallas, l'Apothicarium, Fossoyeuse" },
+      },
+    },
+    ["foreword-other"] = {
+      title = "Un mot de l'historienne royale",
+      text = {
+        { side = "Horde", aside = true, sign = "Parqual Fintallas, l'Apothicarium, Fossoyeuse", "Ce registre a été écrit à Forgefer, par Archesonus, son historienne royale, et il vous parvient de Fossoyeuse en passant par mon bureau. Elle écrit en naine de l'Alliance, et le dit ; là où elle oublie la Horde, lisez-la en gardant cela à l'esprit, comme je l'ai fait." },
+        { "$gVoyageur:Voyageuse;, bienvenue. Ce registre suit les villes, les ruines et les routes d'Azeroth, et les gens dont la vie les a laissées telles que vous les trouvez. Nul besoin d'une ascendance particulière pour s'intéresser à l'endroit où l'on se tient." },
+        { "J'écris depuis le Haut-Siège, à Forgefer, à quelques pas du trône du roi, et la Ligue des explorateurs me rapporte plus de choses à lire que je n'en finirai jamais. Le récit d'une naine aura les intérêts d'une naine, mais le monde nous a donné plus à étudier que les affaires de nos propres clans." },
+        { "Lisez une page quand vos voyages vous mènent à son lieu. Les pierres ont parfois mieux survécu que les noms ; j'ai essayé de garder les deux à portée de main." },
+        { italic = true, "Historienne royale Archesonus, le Haut-Siège, Forgefer" },
+      },
+    },
+    ["foreword-skyborne"] = {
+      title = "Un mot à un éolide",
+      text = {
+        { side = "Horde", aside = true, sign = "Parqual Fintallas, l'Apothicarium, Fossoyeuse", "Ce registre a été écrit à Forgefer, par Archesonus, son historienne royale, et il vous parvient de Fossoyeuse en passant par mon bureau. Son mot à votre peuple était trop bon pour que je le réécrive, alors le voici tel qu'elle l'a écrit." },
+        { "$gVoyageur:Voyageuse;, ce registre a été relié pour l'un des éolides, et j'avoue avoir dû le commencer deux fois. Jusqu'à ce que votre peuple descende du ciel, aucun historien de Forgefer ne savait que vous existiez. Le nom que vous vous donnez, les shen'dorei, le peuple caché, est plus juste que tout ce que nous aurions pu écrire." },
+        { "Nous connaissions votre commencement sans savoir qu'il était le vôtre. Vos ancêtres vivaient à Eldre'Thalas, la cité que les ogres appellent aujourd'hui Hache-tripes, et quand son prince voulut asservir un démon pour nourrir la magie de son peuple, ils se soulevèrent contre lui derrière un chef masqué, le Shal'nan. Ils s'enfuirent vers l'ouest par la mer, les navires du prince à leurs trousses, et des esprits du vent soulevèrent leur île jusqu'au Mur-Céleste, hors du monde tout entier. La Ligue des explorateurs connaît bien ces salles de Feralas. Aucun de nous ne soupçonnait qu'une partie de la cité s'était échappée." },
+        { "Aujourd'hui, les esprits sont partis, l'île se meurt, et votre peuple est venu chercher de l'aide, l'Ordre suprême auprès des mages de Dalaran, les Sculpte-vents auprès des chamans. Ce registre connaît le monde où vous êtes revenus mieux que celui que vous avez quitté. Partout où l'histoire s'est faite, j'ai laissé une page pour vous. Lisez-les au coin du feu, et souvenez-vous que chaque ruine fut un jour le foyer de quelqu'un." },
+        { italic = true, "Historienne royale Archesonus, le Haut-Siège, Forgefer" },
+      },
+    },
+    ["foreword-tauren"] = {
+      title = "Un mot à un Shu'halo",
+      text = {
+        { "$gVoyageur:Voyageuse;, votre peuple garde son histoire dans des chants et dans la mémoire de la terre. Le mien la gardait dans des livres, et une peste peut vider une bibliothèque aussi sûrement qu'une cité. Peut-être les chants étaient-ils le choix le plus sage." },
+        { "Les pages qui suivent ont été écrites à Forgefer, par Archesonus, son historienne royale, et elles vous parviennent de Fossoyeuse en passant par mon bureau. Elles racontent comment les taurens errèrent pendant des générations dans les plaines de Kalimdor sous la pression des centaures, et comment Cairne Bloodhoof, avec l'aide des orcs, rassembla les tribus en Mulgore. Thunder Bluff se dresse aujourd'hui au-dessus des prairies, foyer d'un peuple longtemps privé d'un lieu où s'établir." },
+        { "Lisez-les avec l'attention que vous accordez à vos anciens. Là où une page et un ancien ne sont pas d'accord, je serais reconnaissant d'apprendre lequel, et pourquoi. Un historien collectionne ces désaccords comme d'autres collectionnent les pièces." },
+        { italic = true, "Parqual Fintallas, l'Apothicarium, Fossoyeuse" },
+      },
+    },
+    ["foreword-troll"] = {
+      title = "Un mot à un Darkspear",
+      text = {
+        { "$gVoyageur:Voyageuse;, ce registre a été relié pour l'un des Darkspear, et je vous dois deux aveux. Ses pages ont été écrites à Forgefer, par Archesonus, l'historienne royale de là-bas ; je n'ai fait que les faire suivre depuis Fossoyeuse. Et l'histoire des trolls est plus ancienne que tout ce que l'un ou l'autre de nous range sur une étagère. Votre espèce a bâti des empires dans les jungles du sud et les forêts du nord bien avant que s'élèvent les royaumes des hommes." },
+        { "Votre tribu était petite et aux abois quand les navires de Thrall vous trouvèrent sur vos îles, et vous êtes restés fidèles à la Horde depuis, sur les rivages de Durotar, sous le nom de Sen'jin. Mon propre peuple est venu à la Horde plus tard, et par un chemin plus étrange. Nous avons beaucoup à apprendre de ceux qui l'ont soutenue les premiers." },
+        { "Partout où l'histoire s'est faite, la naine a laissé une page pour vous. Là où ses pages n'égalent pas ce que vos anciens pourraient raconter, fiez-vous à vos anciens, puis, si vous en avez le temps, dites-moi ce qu'ils ont dit." },
+        { italic = true, "Parqual Fintallas, l'Apothicarium, Fossoyeuse" },
+      },
+    },
+    ["foreword-undead"] = {
+      title = "Un mot à un Réprouvé",
+      text = {
+        { "$gVoyageur:Voyageuse;, vous et moi avons tous deux survécu à notre royaume. J'étais historien de Lordaeron avant que la peste ne m'emporte, et vous vous souvenez peut-être de ses villes telles qu'elles étaient, quand sa capitale se dressait au-dessus du sol. Ce registre ne les connaît que par les archives, car il a été écrit à Forgefer, par Archesonus, l'historienne royale du roi Magni. Je l'ai fait suivre tout de même. C'est un récit juste, et les récits justes de notre patrie sont rares." },
+        { "Les Réprouvés se sont libérés du roi-liche et suivent désormais Sylvanas sous les ruines de la cité que nous connaissions. Une grande partie de la vie que nous menons aujourd'hui dépasse l'entendement d'une naine. Là où elle écrit sur la Croisade écarlate, elle est plus aimable envers eux que je ne le serais." },
+        { "Emportez le registre s'il vous est utile. Là où un lieu vous rappelle quelque chose que ces pages ne peuvent dire, fiez-vous à votre propre mémoire plutôt qu'à ses archives, et plutôt qu'aux miennes." },
+        { italic = true, "Parqual Fintallas, l'Apothicarium, Fossoyeuse" },
+      },
+    },
     ["franclorn-forgewright"] = {
       title = "Franclorn Forgewright",
       text = {
