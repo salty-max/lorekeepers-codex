@@ -2086,6 +2086,13 @@ ns.translate({
         { "Hier soll er liegen. Vor der Geißel war es ein Ort der Pilgerfahrt. Heute sammelt er die Toten des Scharlachroten Klosters, und niemand kommt, um ihn zu betrauern. Er hätte Besseres verdient, und der Orden, den er gründete, ebenso." },
       },
     },
+    ["ambermill"] = {
+      title = "Ambermill",
+      text = {
+        { "Ambermill ist ein Dorf im Osten des Silberwalds, das den Verlassenen noch standhält, und es hält stand wegen der Magier von Dalaran. Die Kirin Tor haben Zauberer, Beschützer und Wagenladungen voller Vorräte aus Hillsbrad geschickt, sehr viel Aufmerksamkeit für ein abgelegenes Dorf." },
+        { "Die Verlassenen haben herausgefunden, warum: Unter Ambermill liegt ein ruhender Knotenpunkt von Kraftlinienenergie, und Dalaran will ihn wecken. Wozu, weiß niemand im Grabmal, und die Zauberer sagen es nicht." },
+      },
+    },
     ["archesonus"] = {
       title = "Königliche Historikerin Archesonus",
       text = {
@@ -2093,6 +2100,13 @@ ns.translate({
         { "Die Geschichte, nach der man mich am häufigsten fragt, ist die der Dunkeleisenzwerge. Der Krieg der drei Hämmer endete damit, dass Zauberthan Thaurissan Ragnaros herbeirief, und das Erwachen des Feuerlords verwandelte ihr eigenes Land in Asche. In den Ruinen von Thaurissan, in der Brennenden Steppe, liegen noch Relikte, die mehr von dieser Geschichte bergen, als ich bisher lesen konnte. Wer mir bringt, was sie zu sagen haben, hat meinen Dank." },
         { "Dieses Register ist mein Werk, $gReisender:Reisende;, mit sehr viel Hilfe der Forscherliga, die mehr nach Hause bringt, als eine einzelne Historikerin je lesen könnte. Wenn Euch eine Seite gute Dienste geleistet hat, freut mich das. Wenn eine Euch im Stich gelassen hat, kommt und sagt es mir." },
         { side = "Horde", aside = true, sign = "P. F.", "Ich bin ihr nie begegnet. Ihr Bericht über die Welt ist dennoch der gerechteste, den ich von lebender Hand gelesen habe." },
+      },
+    },
+    ["archmage-arugal"] = {
+      title = "Erzmagier Arugal",
+      text = {
+        { "Als Dalarans Verteidiger der Geißel erlagen, suchte Arugal nach einer Waffe gegen die Toten. Der Magier der Kirin Tor beschwor Worgen aus einer anderen Welt. Sie bekämpften die Eindringlinge und wandten sich dann gegen die Lebenden, die sie schützen sollten." },
+        { "Arugal zog sich nach Burg Shadowfang zurück und begann, die Worgen als seine Kinder zu betrachten. Das nahe Pyrewood litt unter seinem Fluch, seine Bewohner verwandelt nach Einbruch der Nacht. Was als Versuch begann, eine einzige Stadt zu retten, hat eine Burg und ein Dorf im Griff seiner Antwort zurückgelassen." },
       },
     },
     ["bloodsail-buccaneers"] = {
@@ -2182,6 +2196,13 @@ ns.translate({
         { "Die Befreiung der Drachen brach die Stärke des Klans, doch Reste der Dragonmaw halten noch immer die Hügel des Sumpflands und überfallen seine Straßen. Sie sind Überlebende der alten Horde, nicht Gefolgsleute der neuen." },
       },
     },
+    ["dun-garok"] = {
+      title = "Dun Garok",
+      text = {
+        { "Dun Garok ist eine zwergische Festung, in die Hügel im Südosten von Hillsbrad gebaut, sehr weit von zu Hause, und seine Besatzung unter Captain Eisenberg hält die Pässe und schützt die Leute im Vorgebirge und die Minen in der Nähe. Es ist ein sturer kleiner Außenposten Ironforges in einem Land der Toten, und ich bin stolz darauf." },
+        { "Die Verlassenen hassen ihn und schicken ihre Plünderer dagegen. Die Zwerge schicken sie zurück." },
+      },
+    },
     ["dun-modr"] = {
       title = "Dun Modr",
       text = {
@@ -2196,6 +2217,15 @@ ns.translate({
         { "Dun Morogh ist das verschneite Hochland um Ironforge, Heimat der Zwerge des Bronzebeardklans und ihrer gnomischen Nachbarn." },
         { "Es ist unser Land, doch wir teilen es, und nicht immer freiwillig. Die Trolle der Frostmane halten die westlichen Hügel, Troggs graben, wo es ihnen gefällt, und seit dem Fall von Gnomeregan sind die Gnome unsere Nachbarn in ihren eigenen Tälern ebenso wie in unserer Stadt." },
         { "Lernt seine Straßen gut kennen, $gReisender:Reisende;. Die meisten Zwerge, denen Ihr je begegnen werdet, haben auf ihnen ihre ersten Schritte getan." },
+      },
+    },
+    ["durnholde-keep"] = {
+      title = "Burg Durnholde",
+      text = {
+        { "Durnholde verwaltete nach dem Zweiten Krieg die Internierungslager der Orcs. Sein Herr, Aedelas Blackmoore, zog ein Orckind als Sklaven und Gladiator auf und wollte es ein gehorsames Heer befehligen lassen. Das Kind war Thrall. Taretha Foxton, ein Mädchen aus Blackmoores Haushalt, freundete sich mit ihm an und half ihm zu fliehen." },
+        { "Thrall befreite später sein Volk. Blackmoore ist tot, und das Syndikat hält die Burg. Sein Ehrgeiz überlebte anderswo: In einem Anwesen am Lordameresee plante Aliden Perenolde, seinerseits Orcs zu versklaven. Seine Gefährtin Elysa trug Tarethas Anhänger." },
+        { "Thralls Agenten kamen nach Hillsbrad, um ihn zurückzuholen, und der Kriegshäuptling hat ihn wieder. Ein Anhänger ist eine kleine Sache neben dem Fall einer Festung, $gReisender:Reisende;. Er bewahrt den Namen von jemandem, dessen Hilfe diesen Fall möglich machte." },
+        { side = "Horde", aside = true, sign = "P. F.", "Ein Mädchen aus einem Haushalt Lordaerons hat für die Orcs mehr getan als die ganze Allianz Lordaerons. Ihr Name gehört in mehr Chroniken als diese." },
       },
     },
     ["duskwood"] = {
@@ -2297,6 +2327,13 @@ ns.translate({
         { "Windsor starb bei der Konfrontation. Schreibt seinen Namen nieder, $gReisender:Reisende;, wenn Ihr die Niederlage des Drachen verzeichnet. Sein Anteil daran begann lange bevor irgendwer ihren Hort erreichte." },
       },
     },
+    ["greymane-wall"] = {
+      title = "Der Greymane-Wall",
+      text = {
+        { "Der Greymane-Wall schließt den Süden des Silberwalds vom Meer bis zur Klippe ab, mit Gilneas hinter seinem Tor. Nach dem Zweiten Krieg zerstritt sich König Genn Greymane mit den anderen Herrschern der Allianz, unter anderem über die Kosten, die besiegten Orcs in Internierungslagern zu halten. Er zog sein Königreich aus der Allianz zurück und schloss es hinter dieser Mauer ein." },
+        { "Flüchtlinge aus dem Norden finden das Tor verschlossen. Kein Wort ist aus Gilneas herausgedrungen, das seine gegenwärtigen Angelegenheiten erklären würde. Die Mauer könnt Ihr deutlich genug sehen, $gReisender:Reisende;. Es ist das Land dahinter, das außerhalb dieser Aufzeichnungen bleibt." },
+      },
+    },
     ["grim-batol"] = {
       title = "Grim Batol",
       text = {
@@ -2345,6 +2382,13 @@ ns.translate({
       text = {
         { "Gelbin Mekkatorque führt die Gnome von Tüftlerstadt in Ironforge aus. Die Zwerge haben seinem Volk eine Zuflucht gegeben, doch ihre eigene Hauptstadt liegt weiter unter Dun Morogh. Ein von Freunden geliehenes Zuhause kann den Verlust von Gnomeregan nicht aufwiegen." },
         { "Die Strahlung, die gegen die eindringenden Troggs freigesetzt wurde, konnte sie nicht vernichten und hat auch die Gnome verwüstet. Mekkatorque vertraute einst Sicco Thermaplugg. Nun bezichtigt er ihn des Verrats an der Stadt und bittet Abenteurer, hineinzugehen und ihn zu töten." },
+      },
+    },
+    ["hillsbrad-foothills"] = {
+      title = "Vorgebirge von Hillsbrad",
+      text = {
+        { "Das Vorgebirge von Hillsbrad ist grünes, sanft gewelltes Land zwischen den Bergen von Alterac und dem Meer: Obstgärten, Höfe und Weiden, die alte Stadt Hillsbrad und der Hafen von Southshore. Es war ein wohlhabender Winkel Lordaerons, und irgendwie lebt es noch, was im Norden keine Kleinigkeit ist." },
+        { "Es ist auch ein Schlachtfeld. Die Verlassenen halten Tarrens Mühle in den Hügeln, überfallen die Höfe der Felder von Hillsbrad, töten die Bauern und verbrennen die Ernte. Die Männer von Southshore schlagen zurück. Das Syndikat hält die alte Festung Durnholde, die Magier von Dalaran halten das Internierungslager am Lordameresee, und im Osten halten die Zwerge von Dun Garok Wache über die Pässe. Hillsbrad hat mehr Heere als Ernten." },
       },
     },
     ["hogger"] = {
@@ -2546,6 +2590,13 @@ ns.translate({
         { "Von der Späherkuppe aus bestreifen sie die Straßen, die sie können, jagen die Gnolle und die Defias und schicken ihre Späher in die Dolchhügel und die Ruinen von Moonbrook. Stoutmantle hat seine eigenen Freunde in niederen Kreisen, und durch einen von ihnen, einen Schurken in Seenhain, erfuhr er, wer die Bruderschaft anführt und wo sie sich verbirgt." },
       },
     },
+    ["pyrewood-village"] = {
+      title = "Pyrewood",
+      text = {
+        { "Pyrewood ist ein Dorf nahe dem Greymane-Wall, und bei Tag sieht es aus wie jedes andere: Bauern, ein Rat, ein Oberbürgermeister. Bei Nacht verwandeln sich seine Bewohner in Worgen. Der Magier Arugal hat ihnen dies mit verzauberten Fesseln auferlegt, und die Verlassenen, die es erforscht haben, sagen, es sei der seltsamste Fluch, den sie je gesehen hätten." },
+        { "Die Dorfbewohner wissen es, glaube ich, und leben damit auf die einzige Weise, die ihnen bleibt. Es ist der traurigste Ort im Silberwald, und im Silberwald gibt es Konkurrenz." },
+      },
+    },
     ["raven-hill"] = {
       title = "Rabenflucht",
       text = {
@@ -2614,6 +2665,13 @@ ns.translate({
         { "Viel gibt es hier nicht: den Turm, ein paar Zelte, einen Stall und ein Gasthaus, und einen guten Blick darauf, wie schlimm die Dinge geworden sind. Doch jeder Reisende, der Westfall helfen will, kommt zuerst hierher, und die Miliz hat mehr Arbeit als Hände." },
       },
     },
+    ["shadowfang-keep"] = {
+      title = "Burg Shadowfang",
+      text = {
+        { "Bevor Arugal kam, gehörte die Festung über Pyrewood Baron Silverlaine. Die Worgen des Magiers überrannten sie, und der Geist des Barons spukt noch immer in ihren Hallen. Kommandant Springvale, ein Paladin, gehört zu ihren anderen untoten Verteidigern." },
+        { "Arugal zog sich mit den Worgen, die er seine Kinder nennt, hierher zurück. Die Festung heißt nun Burg Shadowfang, ein Bollwerk, das die Verlassenen an ihrer Südgrenze haben wollen. Ihre Todespirscher gingen hinein, um sie auszukundschaften, und sind nicht zurückgekehrt." },
+      },
+    },
     ["si-7"] = {
       title = "SI:7",
       text = {
@@ -2622,12 +2680,27 @@ ns.translate({
         { "Die Kaserne gibt dem Dienst ein unauffälliges Zuhause. Seine Arbeit führt in Räume, in denen sich die Feinde der Stadt sehr achtbar kleiden können." },
       },
     },
+    ["silverpine-forest"] = {
+      title = "Silberwald",
+      text = {
+        { "Der Silberwald ist ein Wald aus hohen grauen Kiefern an der Küste südlich von Tirisfal, der sich bis zu der großen Mauer hinabzieht, die Gilneas von der Welt abschließt. Er war ein stilles Land aus Höfen und Fischerdörfern, Teil des Reiches Lordaeron. Die Seuche kam hindurch, dann die Toten, dann Schlimmeres." },
+        { "Heute ist er ein Grenzland. Die Verlassenen halten den Norden vom Grabmal aus, die Worgen, die ein wahnsinniger Magier erschuf, jagen in den Wäldern, verseuchte Gnolle graben in den toten Feldern, und die Magier von Dalaran halten ein Dorf im Osten. Jeder im Silberwald wartet auf etwas, und keiner auf etwas Gutes." },
+      },
+    },
     ["sons-of-lothar"] = {
       title = "Die Söhne Lothars",
       text = {
         { "Fünf Statuen stehen am Tor von Stormwind, und jede Tafel endet gleich: vermutlich verstorben. Es sind die Befehlshaber der Expedition der Allianz, die nach dem Zweiten Krieg durch das Dunkle Portal in die eigene Welt der Orcs marschierten, als Ner'zhul und die letzten der Klans durch es zurückkamen." },
         { "Khadgar, einst Medivhs Lehrling, führte sie, mit General Turalyon an seiner Seite. Die elfische Waldläuferin Alleria Windrunner kundschaftete für sie, Kurdran Wildhammer führte die Greifenreiter, und Danath Trollbane von Stromgarde beriet sie. Sie konnten Ner'zhul nicht davon abhalten, seine Portale zu anderen Welten zu öffnen, und als Draenor sich selbst zerriss, entschieden sie sich, das Dunkle Portal von der anderen Seite zu zerstören, damit Azeroth nicht mit hinabgerissen würde. Es gelang ihnen. Ob einer von ihnen entkam, bleibt, wie das Buch in unserer Bibliothek sagt, abzuwarten." },
         { "Lest die Tafeln selbst. Jede wurde von jemandem geschrieben, der den Helden kannte: Falstad für Kurdran, Uther für Turalyon, Thoras Trollbane für seinen Neffen, Antonidas für Khadgar, dem er alles Gute wünscht, wo immer er sei. Allerias Tafel schrieb ihre Schwester Sylvanas, Waldläufergeneralin von Quel'Thalas, bevor sie zu dem wurde, was sie heute ist." },
+      },
+    },
+    ["southshore"] = {
+      title = "Southshore",
+      text = {
+        { "Southshore ist ein Fischerort mit Hafen an der Küste von Hillsbrad, mit einem Gasthaus, einem Rathaus und einer Garnison, die gegen die Verlassenen von Tarrens Mühle kämpft. Es bleibt ein Bollwerk der Lebenden in einem Land, in dem dieser Unterschied zählt." },
+        { "Kundric Zanden hütet seine Geschichte, und die Gelehrten Stormwinds schicken Forscher durch den Ort zu den zerstörten Bibliotheken von Alterac. Ich freue mich, an einem solchen Ort geführte Aufzeichnungen zu finden. Ein Reisender kann sich hier mit Vorräten versorgen, kann aber auch etwas über das Land erfahren, durch das ihn diese Vorräte tragen müssen." },
+        { side = "Horde", aside = true, sign = "P. F.", "Kundric Zanden hütet die Geschichte von Southshore, und ich hüte, was von der Lordaerons übrig ist. Über das letzte Kapitel wären wir uns wohl nicht einig." },
       },
     },
     ["stalvan-mistmantle"] = {
@@ -2684,6 +2757,14 @@ ns.translate({
         { "Sie stammte aus einer Familie von Waldläufern. Ihre ältere Schwester Alleria ging mit der Expedition der Allianz durch das Dunkle Portal und kam nie zurück. Es war Sylvanas, die die Worte auf ihre Tafel am Tor von Stormwind schrieb. Die jüngste, Vereesa, war ebenfalls eine Waldläuferin von Quel'Thalas." },
         { "Sie will Arthas tot sehen. Darüber hinaus behält sie ihre Gedanken für sich, und ihre Augen verraten nichts." },
         { side = "Horde", aside = true, sign = "P. F.", "Sie hat uns unseren Verstand zurückgegeben, was mehr ist, als das Licht vermochte. Was sie als Nächstes mit uns vorhat, hat sie nicht gesagt." },
+      },
+    },
+    ["tarren-mill"] = {
+      title = "Tarrens Mühle",
+      text = {
+        { "Einst bewohnten Müller und Bauern Tarrens Mühle. Die Verlassenen halten es nun als südliches Bollwerk, mit einer Todeswache, die einer Hochexekutorin dient, die wiederum Varimathras Rechenschaft schuldet. Southshore ist nur einen kurzen Ritt entfernt." },
+        { "Darthalia befiehlt Überfälle auf die Höfe von Hillsbrad und nennt ihre menschlichen Bewohner eine Plage. Sie will sie unterwerfen, während die Apotheker ihre neue Seuche vollenden. Der Krieg zwischen diesen Orten reicht weit über ihre Wachen hinaus: Die Bauern und ihre Ernten werden in seinen Befehlen beim Namen genannt." },
+        { side = "Horde", aside = true, sign = "P. F.", "Man sagt uns, die neue Seuche der Apotheker sei für die Geißel bestimmt. Die letzte Seuche hat mich getötet, und das hätte ich gern schriftlich." },
       },
     },
     ["thandol-span"] = {
@@ -2749,6 +2830,13 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Niemand außerhalb von Undercity könne sagen, was wir wollen, schreibt sie. Die meisten von uns drinnen können es auch nicht. Ich will wissen, was man uns angetan hat, und es ordentlich niederschreiben." },
       },
     },
+    ["the-sepulcher"] = {
+      title = "Das Grabmal",
+      text = {
+        { "Das Grabmal ist eine Ansammlung von Grüften und Mausoleen im Silberwald, gehalten von der Todeswache und den Todespirschern der Verlassenen. Von diesem Bollwerk aus wollen sie den Wald sichern. Die Befehle der Bansheekönigin reichen weiter: Varimathras ist beauftragt, die Lande der Menschen und Zwerge im Süden zu erobern." },
+        { "Vorerst halten Arugals Worgen, die Gnolle der Moderfelle und die Magier von Ambermill seine Kräfte nahe der Heimat beschäftigt. Besonders wollen die Verlassenen Arugals Werk ungeschehen machen." },
+      },
+    },
     ["the-stockade"] = {
       title = "Das Verlies",
       text = {
@@ -2770,6 +2858,13 @@ ns.translate({
         { "Thelsamar ist das Herz von Loch Modan: ein Dorf aus Steinhäusern an der Straße zwischen Ironforge und dem Sumpfland, mit einer Schmiede, einem guten Gasthaus und einem Greifenmeister für alle, die es eilig haben." },
         { "Es ist die Art von Ort, an dem jeder jeden kennt und die Neuigkeiten schneller reisen als die Greifen. Fragt im Gasthaus nach irgendetwas, das im Seenland geschieht, und Ihr hört es dreimal, jede Fassung besser als die letzte." },
         { "Die Gebirgsjäger hier sind dünn verteilt. Wenn Ihr einen starken Arm und einen freien Nachmittag habt, finden sie etwas für Euch zu tun." },
+      },
+    },
+    ["thule-ravenclaw"] = {
+      title = "Thule Rabenklaue",
+      text = {
+        { "Thule Rabenklaue war vor dem Dritten Krieg ein junger Magier mit großer Zukunft. Als der Lichkönig sich erhob, verriet er die Seinen, um der Geißel zu dienen, und die Verlassenen, von denen manche im Leben neben ihm studiert hatten, wussten nicht, dass er noch lebte, bis sie sein Werk fanden." },
+        { "Er hält die Insel Fenris im Lordameresee neben dem Silberwald, und die Gnolle des Klans der Moderfelle gehören ihm: tote Dinger, erweckt und getränkt in seinen fauligen Säften, die die Gräber von Tirisfal ausheben und ihm die Leichen bringen. Was er aus ihnen macht, würden die Verlassenen lieber nicht auf die harte Tour herausfinden." },
       },
     },
     ["timber"] = {
