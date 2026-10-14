@@ -2079,6 +2079,22 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Ich bin ihr nie begegnet. Ihr Bericht über die Welt ist dennoch der gerechteste, den ich von lebender Hand gelesen habe." },
       },
     },
+    ["bolvar-fordragon"] = {
+      title = "Hochlord Bolvar Fordragon",
+      text = {
+        { "Hochlord Bolvar Fordragon befehligt die Heere Stormwinds und steht dem Knabenkönig Anduin Wrynn zur Seite, solange dessen Vater Varian verschollen ist. Er ist ein Paladin der alten Schule, fromm, ehrlich und unerschütterlich, und er hält die Soldaten des Königreichs dort, wo das Königreich sie am dringendsten braucht, was selten dort ist, wo die Provinzen sie gern hätten." },
+        { "Er ist ein vorsichtiger Mann, vielleicht zu vorsichtig. Als der Magistrat von Seenhain meldete, dass die Orcs der Blackrock Drachen hinter sich hätten, wollte Bolvar keine Truppen auf bloße Vermutungen hin bewegen und schickte den Boten, Lady Katrana Prestor um Rat zu fragen. Marshal Windsor, der den Beweis gefunden hatte, nannte ihn einen Narren: Der Beweis stehe zwei Fuß von ihm entfernt, sagte er, und er sehe ihn nicht. Als Windsor die Lady im Thronsaal als Onyxia entlarvte, die Tochter Todesschwinges, sagte er, selbst der Hochlord sei ihre Marionette gewesen, gehalten von einem Drachenmedaillon. Am Ende blieb Bolvar mit dem zerschmetterten Medaillon in der Hand zurück." },
+        { "Er ist kein Narr. Er ist ein ehrlicher Mann, der einem Drachen aufs Wort glaubte, und ich bezweifle, dass er es noch einmal tun wird." },
+      },
+    },
+    ["church-of-the-holy-light"] = {
+      title = "Die Kirche des Heiligen Lichts",
+      text = {
+        { "Die Kirche des Heiligen Lichts lehrt, dass Tugend, Mitgefühl und Opferbereitschaft aus einer Macht schöpfen, die heilen und schützen kann. Der Glaube kam aus Lordaeron in den Süden, und die Kathedrale des Lichts in Stormwind ist heute sein Sitz, unter Erzbischof Benedictus. Auch die Zwerge haben seine Wege von ihren menschlichen Nachbarn gelernt." },
+        { "Im Zweiten Krieg gründete Erzbischof Alonsus Faol die Ritter der Silbernen Hand. Diese ersten Paladine, angeführt von Uther Lightbringer, trugen das Licht neben ihren Schwertern auf das Schlachtfeld. Seit dem Fall Lordaerons ist Stormwind zum Mittelpunkt der Kirche geworden, und ihre Priester und Paladine dienen überall in der Allianz." },
+        { "Glaubensfragen können einen Gelehrten jahrelang beschäftigen. Ein verwundeter Reisender hat einen unmittelbareren Grund, für die Gelehrsamkeit eines Priesters dankbar zu sein." },
+      },
+    },
     ["coldridge-valley"] = {
       title = "Das Coldridgetal",
       text = {
@@ -2100,6 +2116,14 @@ ns.translate({
         { "Dun Morogh ist das verschneite Hochland um Ironforge, Heimat der Zwerge des Bronzebeardklans und ihrer gnomischen Nachbarn." },
         { "Es ist unser Land, doch wir teilen es, und nicht immer freiwillig. Die Trolle der Frostmane halten die westlichen Hügel, Troggs graben, wo es ihnen gefällt, und seit dem Fall von Gnomeregan sind die Gnome unsere Nachbarn in ihren eigenen Tälern ebenso wie in unserer Stadt." },
         { "Lernt seine Straßen gut kennen, $gReisender:Reisende;. Die meisten Zwerge, denen Ihr je begegnen werdet, haben auf ihnen ihre ersten Schritte getan." },
+      },
+    },
+    ["elwynn-forest"] = {
+      title = "Wald von Elwynn",
+      text = {
+        { "Elwynn ist der Wald, der Stormwind ernährt: hohe alte Bäume, offene Wiesen, Höfe und Weinberge und der träge Fluss, der hinab nach Westfall fließt. Es ist das sanfteste Land in den Reichen der Menschen, und wer an einem Sommermorgen seine Straßen entlanggeht, mag kaum glauben, was hier geschehen ist." },
+        { "Im Ersten Krieg kamen die Orcs durch diese Wälder. Sie brannten die Höfe, die Abtei und die Dörfer eines nach dem anderen nieder und nahmen dann die Stadt selbst ein. Das Königreich wurde nach dem Zweiten Krieg wiederaufgebaut, und die Wälder beherbergen wieder Höfe und Siedlungen." },
+        { "Der Frieden ist dünner, als er aussieht. Kobolde haben die Minen eingenommen, die Gnolle der Flusspfoten fallen von Westen her ein, und die rot maskierten Defias haben sich aus Westfall in die Wälder ausgebreitet. Fragt irgendeinen Bauern in Elwynn, ob die Soldaten des Königs kommen, wenn man sie ruft." },
       },
     },
     ["explorers-league"] = {
@@ -2140,6 +2164,21 @@ ns.translate({
         { "Ironforge hat ihnen Obdach angeboten, solange sie es brauchen. Die meisten Zwerge freuen sich über die Gesellschaft, wenn auch nicht über den Lärm." },
       },
     },
+    ["goldshire"] = {
+      title = "Goldhain",
+      text = {
+        { "Goldhain liegt an einer Wegkreuzung in Elwynn, mit dem Gasthaus Zur Höhle des Löwen, das für Reisende bereitsteht, und Marshal Dughan, der ihnen Arbeit geben will. Das Dorf ist älter als die Kriege. Es brannte, als die Orcs im Ersten Krieg durch Elwynn zogen." },
+        { "Nach dem Zweiten Krieg kehrten die Leute Stormwinds aus dem Exil in Lordaeron zurück und bauten es wieder auf. Die Schmiede und der Markt sind wieder geschäftig, und junge Abenteurer machen hier Halt auf dem Weg, sich einen Namen zu machen. Seht Euch Dughans Kopfgeldbrett an, solange Ihr hier seid, $gReisender:Reisende;. Das Dorf hat sich erholt. Der Marshal hat noch reichlich Sorgen." },
+      },
+    },
+    ["great-masquerade"] = {
+      title = "Die große Maskerade",
+      text = {
+        { "Marshal Reginald Windsor sammelte Beweise gegen die Beraterin von Hochlord Bolvar Fordragon, nur um sie in den Verliesen des Blackrock zu verlieren. Nach seiner Rettung kehrte er mit neuen Beweisen zurück und mit Gefährten, die bereit waren, an seiner Seite zu stehen. Er brachte beides in die Burg Stormwind." },
+        { "Dort entlarvte er Lady Katrana Prestor als Onyxia, Tochter Todesschwinges und Schwester Nefarians. Sie hatte Stormwinds Heer zu Hause gehalten, während die Orcs ihres Bruders das Rotkammgebirge bedrohten, und Bolvar ihrem Willen unterworfen. Windsor brach ihre Verkleidung vor dem Hof. Sie floh in ihren Hort in den Marschen von Dustwallow." },
+        { "Windsor starb bei der Konfrontation. Schreibt seinen Namen nieder, $gReisender:Reisende;, wenn Ihr die Niederlage des Drachen verzeichnet. Sein Anteil daran begann lange bevor irgendwer ihren Hort erreichte." },
+      },
+    },
     ["hall-of-thanes"] = {
       title = "Die Halle der Thanen",
       text = {
@@ -2154,6 +2193,13 @@ ns.translate({
         { "Die Strahlung, die gegen die eindringenden Troggs freigesetzt wurde, konnte sie nicht vernichten und hat auch die Gnome verwüstet. Mekkatorque vertraute einst Sicco Thermaplugg. Nun bezichtigt er ihn des Verrats an der Stadt und bittet Abenteurer, hineinzugehen und ihn zu töten." },
       },
     },
+    ["hogger"] = {
+      title = "Hogger",
+      text = {
+        { "Der Steckbrief an der Weststromgarnison beschreibt Hogger als riesigen Gnoll, der im Süden lagert, im Südwesten von Elwynn. Er gehört zu den Flusspfoten, und den Wachen von Stormwind ist es nicht gelungen, ihn zu fangen. Für seine Klaue ist eine Belohnung ausgesetzt." },
+        { "Der Steckbrief rät, eine Gruppe mitzubringen. Befolgt diesen Rat, $gReisender:Reisende;. Das Eingeständnis einer Wache, dass sie Hilfe braucht, ist nützlicher als die Gewissheit eines Abenteurers, dass er keine braucht." },
+      },
+    },
     ["ironforge"] = {
       title = "Ironforge",
       text = {
@@ -2162,6 +2208,13 @@ ns.translate({
         { client = "forever", "Unter Alt-Ironforge liegt die Halle der Thanen. Eindringlinge der Dunkeleisenzwerge sind hineingebrochen, und Magni will den Kopf ihres Befehlshabers, Durgen Dirgehammer. Selbst hier können die ältesten Hallen einer Stadt zu ihrer neuesten Sorge werden." },
         { "Und dann ist da die Halle der Forscher, wo die Liga ihre Bibliothek und ihre Funde aufbewahrt: Relikte aus Uldaman, die Knochen von Tieren, die niemand lebend gesehen hat, und Karten von Orten, über die die meisten Zwerge nur je lesen werden. Was mich angeht, Ihr findet mich auf dem Hohen Sitz, wenige Schritte vom Thron des Königs entfernt. Besucht mich. Mir fehlt es immer an Leuten, die tatsächlich irgendwo gewesen sind." },
         { side = "Horde", aside = true, sign = "P. F.", "Sie meint die Einladung freundlich. Ich würde nicht raten, sie in den Farben der Horde anzunehmen." },
+      },
+    },
+    ["katrana-prestor"] = {
+      title = "Lady Katrana Prestor",
+      text = {
+        { "Lady Katrana Prestor ist die engste Beraterin des Hochlords und bei Hof sehr bewundert: gelehrt, anmutig und sehr schön. Sie weiß sehr viel über sehr viele Dinge, Drachen eingeschlossen, und Bolvar Fordragon vertraut ihr vollkommen." },
+        { "Nicht alle tun das. Als Magistrat Solomon von Seenhain den Thron um Soldaten gegen die Orcs der Blackrock anflehte, war es Lady Prestors Rat, der sie zu Hause hielt, und es gibt mindestens einen Marshal von Stormwind, der ihr das nie verziehen hat. Ich schreibe nur nieder, was bekannt ist. Eine Gelehrte, die mehr als das über eine Dame des Hofes schreibt, sollte sich ihrer Sache sehr sicher sein." },
       },
     },
     ["kharanos"] = {
@@ -2193,6 +2246,69 @@ ns.translate({
         { "Sicco Thermaplugg ist in Gnomeregan geblieben, während Hochtüftler Mekkatorque die Verbannten von Ironforge aus führt. Der Hochtüftler vertraute ihm einst. Dieses Vertrauen endete in einer Anklage wegen Verrats und der Bitte um seinen Tod." },
         { "Die Strahlung, die in der Stadt freigesetzt wurde, konnte die Troggs nicht vernichten und verwüstete ihre gnomischen Bewohner. Thermaplugg herrscht in den Ruinen, zwischen den Geschöpfen, die der Versuch vernichten sollte, und den Überlebenden, die er zurückließ." },
         { "Mekkatorque bittet Abenteurer, sein Urteil in diese Hallen zu tragen." },
+      },
+    },
+    ["noble-conspiracy"] = {
+      title = "Die Verschwörung der Adligen",
+      text = {
+        { "Ein Brief, den man bei Edwin van Cleefs Leiche fand, führte die Ermittlungen gegen die Defias zurück nach Stormwind hinein. Er führte zu Bazil Thredd im Verlies, zu einem Besucher unter falschem Namen und schließlich zu dem Meuchler, den man Marzon die Stille Klinge nannte." },
+        { "Marzon arbeitete für Lord Gregor Lescovar, der die Geheimnisse des Hofes an die Bruderschaft weitergab. Die Verbindungen des Adligen machten eine öffentliche Anklage schwierig. Die Verbündeten von SI:7 arrangierten ein Treffen in den Schlossgärten, wo Lescovar und Marzon getötet wurden." },
+        { "Der Groll der Steinmetze begann damit, dass Adlige sich weigerten, für den Wiederaufbau Stormwinds zu bezahlen. Lescovar half nun dem Aufstand, den diese Weigerung mit hervorgebracht hatte. Van Cleefs Arm reichte weit tiefer in die Stadt hinein als bis zu den Leuten mit roten Masken." },
+      },
+    },
+    ["northshire-abbey"] = {
+      title = "Abtei von Nordhain",
+      text = {
+        { "Die Abtei von Nordhain steht in einem Tal am nördlichen Rand von Elwynn. Ihre Kleriker dienten Stormwind während des Ersten Krieges, bevor das Königreich an die Horde fiel. Nach dem Zweiten Krieg half Alonsus Faol, die Stadt wiederaufzubauen und die Bruderschaft von Nordhain neu zu ordnen." },
+        { "Die Abtei unterweist die Rekruten des Königreichs heute in den Waffen ebenso wie im Glauben. Für beides gibt es ganz in der Nähe Verwendung: Kobolde besetzen die Mine, Wölfe streifen durch das Tal, und Diebe der Defias haben die Weinberge eingenommen." },
+      },
+    },
+    ["regency-of-stormwind"] = {
+      title = "Die Regentschaft von Stormwind",
+      text = {
+        { "König Varian Wrynn ist verschwunden. Er war der Sohn von König Llane, der im Ersten Krieg ermordet wurde, und wuchs unter den Flüchtlingen Stormwinds in Lordaeron auf. Sein eigenes Schicksal bleibt in der Stadt, über die er herrschte, unbekannt." },
+        { "Sein junger Sohn Anduin trägt die Krone. Hochlord Bolvar Fordragon hält das Königreich für ihn, befehligt seine Streitkräfte und beschützt den Jungen. Die königliche Beraterin, Lady Katrana Prestor, steht an Bolvars Seite." },
+        { "Stormwinds Heer ist dünn verteilt, und Forderungen treffen aus allen Richtungen ein." },
+      },
+    },
+    ["si-7"] = {
+      title = "SI:7",
+      text = {
+        { "Von der Kaserne in der Altstadt aus leitet Mathias Shaw den Nachrichtendienst Stormwinds. SI:7 verfolgt die Geschäfte, die selten auf einem öffentlichen Aushang landen: die Defias, die Geheimnisse der Adligen und die Orte, an denen beide sich treffen." },
+        { "Eine Beschreibung von Bazil Thredds Besucher führte Shaw zu einem Meuchler, der sich Marzon nannte und in den Diensten von Lord Gregor Lescovar stand. Die folgende Ermittlung endete mit beiden Männern tot in den Schlossgärten, außerhalb der bequemen Reichweite gewöhnlicher Gerechtigkeit." },
+        { "Die Kaserne gibt dem Dienst ein unauffälliges Zuhause. Seine Arbeit führt in Räume, in denen sich die Feinde der Stadt sehr achtbar kleiden können." },
+      },
+    },
+    ["sons-of-lothar"] = {
+      title = "Die Söhne Lothars",
+      text = {
+        { "Fünf Statuen stehen am Tor von Stormwind, und jede Tafel endet gleich: vermutlich verstorben. Es sind die Befehlshaber der Expedition der Allianz, die nach dem Zweiten Krieg durch das Dunkle Portal in die eigene Welt der Orcs marschierten, als Ner'zhul und die letzten der Klans durch es zurückkamen." },
+        { "Khadgar, einst Medivhs Lehrling, führte sie, mit General Turalyon an seiner Seite. Die elfische Waldläuferin Alleria Windrunner kundschaftete für sie, Kurdran Wildhammer führte die Greifenreiter, und Danath Trollbane von Stromgarde beriet sie. Sie konnten Ner'zhul nicht davon abhalten, seine Portale zu anderen Welten zu öffnen, und als Draenor sich selbst zerriss, entschieden sie sich, das Dunkle Portal von der anderen Seite zu zerstören, damit Azeroth nicht mit hinabgerissen würde. Es gelang ihnen. Ob einer von ihnen entkam, bleibt, wie das Buch in unserer Bibliothek sagt, abzuwarten." },
+        { "Lest die Tafeln selbst. Jede wurde von jemandem geschrieben, der den Helden kannte: Falstad für Kurdran, Uther für Turalyon, Thoras Trollbane für seinen Neffen, Antonidas für Khadgar, dem er alles Gute wünscht, wo immer er sei. Allerias Tafel schrieb ihre Schwester Sylvanas, Waldläufergeneralin von Quel'Thalas, bevor sie zu dem wurde, was sie heute ist." },
+      },
+    },
+    ["stonefields-and-maclures"] = {
+      title = "Die Stonefields und die Maclures",
+      text = {
+        { "Die Stonefields und die Maclures bewirtschaften ihre Höfe zu beiden Seiten der Tiefenschachtmine, südlich von Goldhain, und die beiden Familien liegen schon länger im Streit, als sich irgendwer zu erklären die Mühe macht. Natürlich ist Maybell Maclure in Tommy Joe Stonefield verliebt. Er wartet am Fluss westlich des Hofs seiner Familie auf ihre Briefe. Sie wartet auf eine Gelegenheit, sich davonzustehlen." },
+        { "Die Großmutter der Stonefields steht auf der Seite der jungen Leute. Sie schickt eine Nachricht an ihren alten Freund William Pestle in Goldhain, der einen Unsichtbarkeitstrank brauen kann, wenn ihm jemand Kristalltang von den Murlocs am Kristallsee bringt. Damit kann Maybell ungesehen aus den Weinbergen ihrer Familie spazieren. Sie fühle sich schuldig, sie zu täuschen, sagt sie, aber nicht schuldig genug, um zu bleiben." },
+        { "Der Streit geht um sie herum weiter: eine Tante der Stonefields, die den jungen Billy Maclure beschuldigt, ihre Halskette gestohlen zu haben, Mutter Stonefield, die der preisgekrönten Sau der Brackwells den Tod schwört, weil sie ihr Gemüse gefressen hat. Elwynn hat die Defias, die Kobolde und die Gnolle kommen und gehen sehen. Der Streit hat sie bisher alle überdauert." },
+      },
+    },
+    ["stormwind-city"] = {
+      title = "Stormwind",
+      text = {
+        { "Stormwind ist die größte Stadt der Menschen, und es ist das zweite Stormwind, das an diesem Ort steht. Das erste wurde im Ersten Krieg von der Horde geplündert und bis auf die Grundmauern niedergebrannt. König Llane wurde ermordet, und sein Volk floh mit dem Helden Anduin Lothar nach Norden, nach Lordaeron. Als der Zweite Krieg gewonnen war, kehrten sie heim und bauten es wieder auf." },
+        { "Die Steinmetze der Steinmetzgilde errichteten es aus weißem Stein, schöner als zuvor: die Kathedrale des Lichts, die Kanäle und die Burg über allem. Das Adelshaus weigerte sich dann, sie zu bezahlen, und der Groll der Steinmetze ist seither zur Bruderschaft der Defias geworden, sodass man sich ausgerechnet an die schönste Stadt der Allianz am bittersten erinnert." },
+        { client = "classic", "Es ist eine Stadt des Handels und der Soldaten, der Priester und der Spione, und eines Hofes, der flüstert. Der Junge auf dem Thron ist ihr König. Die Männer und Frauen um ihn herum regieren sie." },
+        { client = "forever", "Es ist eine Stadt des Handels und der Soldaten, mit Schiffen in ihrem Hafen, der Priester und der Spione, und eines Hofes, der flüstert. Der Junge auf dem Thron ist ihr König. Die Männer und Frauen um ihn herum regieren sie." },
+      },
+    },
+    ["the-stockade"] = {
+      title = "Das Verlies",
+      text = {
+        { "Stormwinds Gefängnis liegt unter seinen Kanälen, in den Fels unter der Stadt gehauen. Unter den Defias, die dort eingesperrt waren, war Edwin van Cleefs Leutnant Bazil Thredd. Unter seiner Führung erhoben sich die Häftlinge und übernahmen die Zellen." },
+        { "Der Aufseher rief Abenteurer, um den Aufstand niederzuschlagen. Thredd war nicht der einzige gefährliche Gefangene darin: Der Orc Targorr der Schreckliche war unter den Aufrührern. Es ist ein unbehaglicher Gedanke, eine feindliche Festung unter den Straßen der eigenen Hauptstadt zu haben." },
       },
     },
     ["timber"] = {
