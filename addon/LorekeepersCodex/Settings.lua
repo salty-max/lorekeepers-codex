@@ -106,6 +106,7 @@ ns.collect = K.collect({
     if type(LorekeepersCodexCollect) ~= "table" then LorekeepersCodexCollect = {} end
     return LorekeepersCodexCollect
   end,
+  prefix = ns.PREFIX,
 })
 
 local category
