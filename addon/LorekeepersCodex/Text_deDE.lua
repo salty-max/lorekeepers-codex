@@ -2118,6 +2118,21 @@ ns.translate({
         { "Achtet auf die Fenster dort, wo der Tunnel durch Wasser führt, $gReisender:Reisende;. Manche Fahrgäste sagen, sie hätten etwas Großes zurückblicken sehen. Ihr solltet Zeit für einen Blick haben, bevor die Plattform Euch weiterträgt." },
       },
     },
+    ["dragonmaw-clan"] = {
+      title = "Der Dragonmawklan",
+      text = {
+        { "Die Dragonmaw ritten im Zweiten Krieg auf roten Drachen in die Schlacht. In Grim Batol hielten sie Alexstrasza gefangen und zwangen ihre Kinder, der Horde zu dienen. Ihre Herrschaft über den Himmel beruhte auf der Gefangenschaft einer Mutter und ihrer Jungen." },
+        { "Die Befreiung der Drachen brach die Stärke des Klans, doch Reste der Dragonmaw halten noch immer die Hügel des Sumpflands und überfallen seine Straßen. Sie sind Überlebende der alten Horde, nicht Gefolgsleute der neuen." },
+      },
+    },
+    ["dun-modr"] = {
+      title = "Dun Modr",
+      text = {
+        { "Dun Modr wurde erbaut, um das Südende des Thandol-Übergangs zu bewachen, und viele Jahre lang tat es das. Heute weht dort kein Banner der Bronzebeards mehr. Die Dunkeleisenzwerge haben es eingenommen, und von seinen Mauern aus greifen sie den Übergang an und jeden, der die Straße nach Norden nimmt." },
+        { "Für jeden Zwerg aus Ironforge ist es bitter, zwergische Hallen von Zwergen gegen uns gehalten zu sehen. Es erinnert uns daran, dass der Krieg der drei Hämmer nie wirklich geendet hat." },
+        { "Wenn Ihr nahe vorbeikommt, zieht den Kopf ein. Ihre Schützen sind sehr gut." },
+      },
+    },
     ["dun-morogh"] = {
       title = "Dun Morogh",
       text = {
@@ -2171,6 +2186,13 @@ ns.translate({
         { "Captain Rugelfuss erklärt die Schwierigkeit von der Seite Loch Modans aus. Sein Regiment muss das Tor halten, statt die Troggs in der Nähe zu verfolgen, während die Reserve von Ironforge an der Front der Allianz gebunden ist. Er bittet Abenteurer, das Land zu verteidigen, für das seine Soldaten ihre Posten nicht verlassen können." },
       },
     },
+    ["gathilzogg"] = {
+      title = "Gath'Ilzogg",
+      text = {
+        { "Steinwacht wurde gebaut, um das Rotkammgebirge zu verteidigen. Gath'Ilzoggs Krieger der Blackrock haben daraus stattdessen die Festung gemacht, von der aus sie Seenhain überfallen und den Krieg des Berges hinab zu den Höfen und Straßen um den Immerruhsee tragen." },
+        { "Magistrat Solomon hat eine Belohnung auf seinen Kopf ausgesetzt. Die Burg muss zurückerobert und ihr Befehlshaber getötet werden. Gath'Ilzoggs Tod ist nur der erste Schritt dieser Arbeit. Für Seenhain ist eine Festung am Horizont zum Maß dafür geworden, wie viel von ihrem eigenen Land die Stadt nicht mehr erreichen kann." },
+      },
+    },
     ["gnomeregan"] = {
       title = "Gnomeregan",
       text = {
@@ -2200,6 +2222,14 @@ ns.translate({
         { "Marshal Reginald Windsor sammelte Beweise gegen die Beraterin von Hochlord Bolvar Fordragon, nur um sie in den Verliesen des Blackrock zu verlieren. Nach seiner Rettung kehrte er mit neuen Beweisen zurück und mit Gefährten, die bereit waren, an seiner Seite zu stehen. Er brachte beides in die Burg Stormwind." },
         { "Dort entlarvte er Lady Katrana Prestor als Onyxia, Tochter Todesschwinges und Schwester Nefarians. Sie hatte Stormwinds Heer zu Hause gehalten, während die Orcs ihres Bruders das Rotkammgebirge bedrohten, und Bolvar ihrem Willen unterworfen. Windsor brach ihre Verkleidung vor dem Hof. Sie floh in ihren Hort in den Marschen von Dustwallow." },
         { "Windsor starb bei der Konfrontation. Schreibt seinen Namen nieder, $gReisender:Reisende;, wenn Ihr die Niederlage des Drachen verzeichnet. Sein Anteil daran begann lange bevor irgendwer ihren Hort erreichte." },
+      },
+    },
+    ["grim-batol"] = {
+      title = "Grim Batol",
+      text = {
+        { "Als die Wildhammer aus Ironforge vertrieben wurden, hauten sie Grim Batol aus den östlichen Bergen, und es war eine Festung, die es mit Ironforge selbst aufnehmen konnte. Dann zogen die Dunkeleisenzwerge unter Königin Modgud dagegen, und obwohl die Wildhammer die Schlacht gewannen und sie erschlugen, hinterließ ihr Tod eine Finsternis im Stein. Die Wildhammer wollten nicht bleiben. Sie zogen nach Norden ins Hinterland, und Grim Batol stand leer." },
+        { "Es blieb nicht leer. Im Zweiten Krieg machten die Orcs des Dragonmawklans es zu ihrer Festung, und dort hielten sie Alexstrasza gefangen, die Königin der roten Drachen, und zwangen ihre Kinder, Orcs in die Schlacht zu tragen. Am Ende wurde sie befreit, und die Dragonmaw wurden zerstreut." },
+        { "Die roten Drachen sind noch immer dort. Was auch immer sie in Grim Batol bewachen, sie bewachen es erbittert. Geht nicht in seine Nähe, $gReisender:Reisende;. Die roten Drachkin an seinen Zugängen sind Warnung genug." },
       },
     },
     ["hall-of-thanes"] = {
@@ -2255,6 +2285,13 @@ ns.translate({
         { "Haltet den warmen Herd nicht für Sicherheit. Trolle der Frostmane halten die Hügel im Westen, Troggs kriechen immer wieder aus den tiefen Orten herauf, und seit dem Fall von Gnomeregan teilen seine Verbannten diese Straßen mit uns. Der Ort hält seine Türen trotzdem offen: Ein Zwerg, der einen frierenden Reisenden abweist, ist überhaupt kein Zwerg." },
       },
     },
+    ["lakeshire"] = {
+      title = "Seenhain",
+      text = {
+        { "Seenhain ist eine Stadt aus Holzhäusern am Ufer des Immerruhsees, mit einem Gasthaus, einem Rathaus und einer Brücke über das Wasser, die die Bewohner noch immer wiederaufbauen: Bei der letzten Invasion schmolzen sie ihr Eisen ein, um Schwerter daraus zu machen, und die Gnolle stahlen die Lieferung, die es ersetzen sollte." },
+        { "Ihr Magistrat Solomon ist ein vorsichtiger Mann mit sehr vielen Sorgen. Die Blackrock halten die Burg im Norden und sperren seine Leute in ihrer Stadt ein. Er hat Stormwind um Hilfe gebeten, und die Antwort kam zurück, es gebe nicht genug Soldaten, um sie auf bloße Vermutungen hin zu entbehren. Seither hat er erfahren, was die Orcs der Blackrock wirklich antreibt und wer in Stormwind ihn nicht gehört haben wollte. Seenhain, so vermute ich, wird es nicht vergessen." },
+      },
+    },
     ["leper-gnomes"] = {
       title = "Die Lepragnome",
       text = {
@@ -2287,6 +2324,13 @@ ns.translate({
         { "Mekkatorque bittet Abenteurer, sein Urteil in diese Hallen zu tragen." },
       },
     },
+    ["menethil-harbor"] = {
+      title = "Der Hafen von Menethil",
+      text = {
+        { "Der Hafen von Menethil liegt an der Westküste des Sumpflands, ein Hafen der Allianz mit Schiffen nach Auberdine und Theramore. Die Straße durch Dun Algaz verbindet ihn mit dem Land im Inneren. Ein feuchtes kleines Städtchen kann ein wichtiger Ort sein, wenn so viele Reisen durch es führen." },
+        { "Captain Stoutfist braucht Hilfe gegen die Orcs der Dragonmaw, die den Hafen bedrohen. Er bittet darum, ihre Katapulte zu zerstören und Häuptling Nek'rosh zu besiegen. Kümmert Euch um ihn, wenn Ihr könnt, $gReisender:Reisende;. Hier versuchen Leute, einen Hafen offen zu halten, während ein Feind sich bereit macht, ihn zu belagern." },
+      },
+    },
     ["mogrosh-ogres"] = {
       title = "Die Oger der Mo'grosh",
       text = {
@@ -2300,6 +2344,28 @@ ns.translate({
       text = {
         { "Moonbrook war die Marktstadt der Höfe von Westfall und die Heimat seiner Bergleute, im Ersten Krieg von den Orcs niedergebrannt und nach dem Zweiten wiederaufgebaut. Heute ist es eine Stadt der Defias: ihre Leute vertrieben, ihre Häuser voller rot maskierter Banditen, und ihre alte Schmiede und ihre Scheune verbergen den Weg hinab in die Todesminen." },
         { "Es ist ein trauriger Ort, um hindurchzugehen, und kein sicherer. Die Bruderschaft beobachtet die Straße, und wer eine gewisse Scheune am Rand der Stadt zu lange ansieht, wird wahrscheinlich herausfinden, warum." },
+      },
+    },
+    ["morganth"] = {
+      title = "Morganth",
+      text = {
+        { "In den östlichen Vorbergen des Rotkammgebirges steht ein einsamer Turm, Ilgalar, und in ihm lebt ein Hexenmeister namens Morganth, der die Gnolle der Schattenfelle mit verzauberten Anhängern in seinen Dienst gezwungen hat. Das Gesetz von Seenhain zählt ihn zu den Feinden des Königreichs und jeden, der ihm hilft, zu den Verbrechern." },
+        { "Ein Magier aus Elwynn, Theocritus vom Turm von Azora, hat Morganths Gnolle durch eben diese Anhänger belauscht, und was er gehört hat, macht ihm Angst: Morganth sucht nach einem alten elfischen Relikt namens Sense von Elune und hat es vielleicht gefunden. Wenn ja, sagt Theocritus, wird ganz Stormwind es zu spüren bekommen. Von demselben Relikt spricht man im Dämmerwald, im Zusammenhang mit den Worgen. Ich vermerke es, und es gefällt mir nicht." },
+      },
+    },
+    ["mosshide-gnolls"] = {
+      title = "Die Gnolle der Moosfelle",
+      text = {
+        { "Die Moosfelle bewohnen das Moor im Sumpfland, das ihren Namen trägt. Rethiel der Sumpfhüter erinnert sich an Jahre, in denen sie dort friedlich lebten. Nun sieht er wachsende Zahlen, plattgetretene Pflanzen und zu viel Holz, das für ihre Feuer geschlagen wird." },
+        { "Er bittet Reisende, Gnolle nahe Dun Algaz zu töten, um das Gleichgewicht des Moors wiederherzustellen. Sein Bericht macht daraus einen Streit um ein gemeinsames Zuhause, das zu eng und beschädigt geworden ist. Die Äxte und Feuer sind einem Zwerg vertraut genug. Es ist beunruhigend, sie in der Klage eines anderen darüber zu finden, was mit dem Land geschieht." },
+      },
+    },
+    ["nekrosh"] = {
+      title = "Häuptling Nek'rosh",
+      text = {
+        { "Nek'rosh Skullcrusher führt, was von den Dragonmaw im Sumpfland übrig ist, und er ist der Sohn seines Vaters: Nekros Skullcrusher war der Orc, der die Drachenkönigin in Grim Batol gefangen hielt. Als die Drachen sich befreiten, nahmen sie Rache am Klan. Nek'rosh will die seine." },
+        { "Er baut die Stärke der Dragonmaw in den Hügeln wieder auf, und er hat Katapulte bauen lassen, um den Hafen von Menethil zu belagern und die Straße nach Loch Modan abzuschneiden." },
+        { "Wenn Ihr derjenige seid, der ihn aufhält, $gReisender:Reisende;, wäre die Liga für einen Bericht darüber dankbar, wie. Kurz, wenn Ihr es schafft. Berichte über Orchäuptlinge geraten gern lang." },
       },
     },
     ["noble-conspiracy"] = {
@@ -2322,6 +2388,20 @@ ns.translate({
       text = {
         { "Als Stormwinds Soldaten nicht kamen, stellten die Leute von Westfall ihre eigenen auf. Die Volksmiliz besteht aus ein paar Soldaten, sehr vielen Bauern und einem Paladin, der sie anführt: Gryan Stoutmantle, der nicht zusehen wollte, wie Westfall der Bruderschaft überlassen wird." },
         { "Von der Späherkuppe aus bestreifen sie die Straßen, die sie können, jagen die Gnolle und die Defias und schicken ihre Späher in die Dolchhügel und die Ruinen von Moonbrook. Stoutmantle hat seine eigenen Freunde in niederen Kreisen, und durch einen von ihnen, einen Schurken in Seenhain, erfuhr er, wer die Bruderschaft anführt und wo sie sich verbirgt." },
+      },
+    },
+    ["red-dragonflight"] = {
+      title = "Der rote Drachenschwarm",
+      text = {
+        { "Alexstrasza nennt man die Lebensbinderin, Königin der roten Drachen und eine der ältesten Mächte der Welt. Während des Zweiten Krieges hielten die Dragonmaw sie in Grim Batol gefangen und zwangen ihre Kinder in ihren Dienst. Der Schwarm ist seither befreit." },
+        { "Rote Drachkin bewachen noch immer die Zugänge zu Grim Batol. Sie behandeln Eindringlinge als Feinde, welches Anliegen diese Eindringlinge auch dorthin zu führen glauben. Haltet Abstand, $gReisender:Reisende;. Zu wissen, was ihnen hier widerfahren ist, macht einen Eindringling nicht willkommen." },
+      },
+    },
+    ["redridge-mountains"] = {
+      title = "Rotkammgebirge",
+      text = {
+        { "Das Rotkammgebirge hat seinen Namen vom rostroten Stein unter seinen Kiefernwäldern. Der Immerruhsee liegt zwischen den Hügeln, mit Seenhain an seinem Westufer. Holz und Fischfang ernähren das Land, doch Heere sind oft genug durch es gezogen: Die Orcs kamen im Ersten Krieg, und die Blackrock sind zurückgekehrt." },
+        { "Sie halten nun Burg Steinwacht und die Täler dahinter. Gnolle streifen durch die Schluchten, ein Hexenmeister besetzt die östlichen Hügel, und schwarze Drachenwelpen nisten in den hohen Höhlen. Seenhain hat Stormwind wiederholt um Soldaten gebeten." },
       },
     },
     ["regency-of-stormwind"] = {
@@ -2363,6 +2443,13 @@ ns.translate({
         { "Der Streit geht um sie herum weiter: eine Tante der Stonefields, die den jungen Billy Maclure beschuldigt, ihre Halskette gestohlen zu haben, Mutter Stonefield, die der preisgekrönten Sau der Brackwells den Tod schwört, weil sie ihr Gemüse gefressen hat. Elwynn hat die Defias, die Kobolde und die Gnolle kommen und gehen sehen. Der Streit hat sie bisher alle überdauert." },
       },
     },
+    ["stonewatch-keep"] = {
+      title = "Burg Steinwacht",
+      text = {
+        { "Burg Steinwacht bewachte den nördlichen Zugang zum Rotkammgebirge. Die Blackrock kamen diesen Zugang herab und nahmen sie ein. Ihre Plünderer überfallen nun die Höfe oberhalb von Seenhain, und ihre Hinterhalte lauern an der Straße zwischen der Stadt und der Burg. Eine Befestigung nützt dem, der ihre Mauern hält." },
+        { "Ein Regiment der Soldaten Stormwinds wurde zwischen den zerfallenen Türmen zerschlagen. Ein paar Überlebende sollen in den Höhlen festgehalten werden. Kriegsherr Gath'Ilzogg besetzt die Burg selbst, mit einem Preis auf seinem Kopf, den Magistrat Solomon ausgesetzt hat. Seht Euch den Boden genau an, $gReisender:Reisende;. Seenhain hat schon Männer bei dem Versuch verloren, ihn zurückzugewinnen." },
+      },
+    },
     ["stonewrought-dam"] = {
       title = "Der Stonewroughtdamm",
       text = {
@@ -2379,6 +2466,14 @@ ns.translate({
         { client = "forever", "Es ist eine Stadt des Handels und der Soldaten, mit Schiffen in ihrem Hafen, der Priester und der Spione, und eines Hofes, der flüstert. Der Junge auf dem Thron ist ihr König. Die Männer und Frauen um ihn herum regieren sie." },
       },
     },
+    ["thandol-span"] = {
+      title = "Der Thandol-Übergang",
+      text = {
+        { "Der Thandol-Übergang trug die Straße von Khaz Modan nach Norden ins Arathihochland und zu den Königreichen der Menschen dahinter. Seine beiden großen zwergischen Brücken dienten dieser Straße über Generationen. Ein Ingenieur bittet Euch vielleicht, das Mauerwerk zu bewundern. Wer auf den Übergang angewiesen war, hatte ebenfalls Grund, es zu bewundern." },
+        { "Die Dunkeleisenzwerge haben eine Brücke so gut wie zerstört. Zwergische Soldaten halten die andere, und die Straße bleibt unter ihrer Bewachung offen. Ein schönes Stück Ingenieurskunst lässt sich leichter loben, wenn jemand anderes es am Stehen hält." },
+        { "Schaut hinüber zur zerbrochenen Brücke, wenn Ihr vorbeikommt, $gReisender:Reisende;. Beide Brücken wurden gebaut, um Menschen über das Wasser zu tragen. Nur eine kann es noch." },
+      },
+    },
     ["the-deadmines"] = {
       title = "Die Todesminen",
       text = {
@@ -2391,6 +2486,14 @@ ns.translate({
       text = {
         { "Stormwinds Gefängnis liegt unter seinen Kanälen, in den Fels unter der Stadt gehauen. Unter den Defias, die dort eingesperrt waren, war Edwin van Cleefs Leutnant Bazil Thredd. Unter seiner Führung erhoben sich die Häftlinge und übernahmen die Zellen." },
         { "Der Aufseher rief Abenteurer, um den Aufstand niederzuschlagen. Thredd war nicht der einzige gefährliche Gefangene darin: Der Orc Targorr der Schreckliche war unter den Aufrührern. Es ist ein unbehaglicher Gedanke, eine feindliche Festung unter den Straßen der eigenen Hauptstadt zu haben." },
+      },
+    },
+    ["the-third-fleet"] = {
+      title = "Die dritte Flotte",
+      text = {
+        { "Die Wracks an der Nordküste des Sumpflands waren die dritte Flotte von Kul Tiras. Auf ihrer letzten Fahrt wurde sie vor dieser Küste von roten Drachen gestellt, von Orcs gerittenen Drachen, und verbrannt und versenkt, wo sie lag. Die Leute von Kul Tiras nennen sie die verlorene Flotte." },
+        { "Ein Mann kam lebend davon: Fitzsimmons, einst Erster Maat der Wave Mistress, der im Hafen von Menethil trinkt und die Geschichte für den Preis eines Humpens erzählt. Nicht alle seine Schiffskameraden ruhen in Frieden. An Bord der INTREPID war etwas verstaut, eingeschlossen in der Geldkassette des Kapitäns, und seine Macht lässt die ertrunkenen Mannschaften über ihre verrottenden Decks gehen. Kapitän Halyndor geht noch immer mit dem Schlüssel über sein Schiff." },
+        { "Was in dieser Kassette lag, war ein Auge von Paleth, eine der Kugeln, die menschliche Priester zum hellen Leuchten schufen, schwarz verflucht von dem, was es in jener Nacht sah. Die Priester von Menethil konnten es nicht reinigen. Der Erzbischof in Stormwind konnte es. Eine Flotte stirbt nicht immer auf einmal, $gReisender:Reisende;. Manchmal braucht es einen Priester und einen sturen Ersten Maat, um die Sache zu Ende zu bringen." },
       },
     },
     ["thelsamar"] = {
@@ -2439,6 +2542,22 @@ ns.translate({
         { "Westfall war die Kornkammer Stormwinds: weite goldene Felder, Windmühlen und Gehöfte, die sich bis zum Meer hinabziehen. Die Orcs brannten es in den Kriegen nieder, und die Bauern kehrten zurück und säten von Neuem. Was die Orcs nicht vollenden konnten, haben die Defias vollendet." },
         { "Die Bruderschaft hat sich Westfall zu eigen gemacht. Sie vertrieb die Bauernfamilien Hof um Hof von ihrem Land, nahm Moonbrook als ihre Stadt und die alten Minen darunter als ihre Festung, und das Heer des Königs kam nie. \"Stormwind hat uns im Stich gelassen\", werden Euch die Männer auf der Späherkuppe sagen, und es fällt schwer, ihnen zu widersprechen. Nun sind die Felder trocken, die Gnolle der Flusspfoten überfallen die Höfe, und Erntegolems pirschen durch die Furchen. Murlocs halten die Küste, und selbst im Leuchtturm spukt es." },
         { "Ein paar sture Bauern sind geblieben. Fragt Bauer Saldean, warum, und er wird Euch sagen, dass es sein Land ist." },
+      },
+    },
+    ["wetlands"] = {
+      title = "Das Sumpfland",
+      text = {
+        { "Nördlich der Berge wird der Boden weich und die Luft grau, und Ihr seid im Sumpfland: Marsch, Schilf und Regen, vom Pass von Dun Algaz bis zum Meer beim Hafen von Menethil." },
+        { "Einst war dies Land der Zwerge, durch den Thandol-Übergang mit den Königreichen der Menschen verbunden. Heute ist es ein Kreuzweg der Kriege anderer Leute. Die Orcs der Dragonmaw halten die Hügel, die Dunkeleisenzwerge haben unsere Festung Dun Modr eingenommen, Gnolle und Murlocs füllen die Marschen, und im Osten brütet Grim Batol über allem." },
+        { "Bleibt auf der Straße, haltet Euer Pulver trocken und verweilt nicht nach Einbruch der Dunkelheit." },
+      },
+    },
+    ["whelgars-excavation-site"] = {
+      title = "Whelgars Ausgrabungsstätte",
+      text = {
+        { "Noch eine Grabung der Liga, diese in den Marschen des Sumpflands, unter Ausgrabungsleiter Whelgar. Die Marsch behält, was sie verschluckt, und die Liga hatte große Hoffnungen in das gesetzt, was unter ihr lag." },
+        { "Dann kamen die Raptoren. Sie zogen in die Grabung ein und betrachteten die Gräber als Freiwild, und die Leute der Liga wurden auf einen Grat über der Stätte vertrieben, wo manche von ihnen noch immer darauf warten, dass die Tiere abziehen." },
+        { "Wenn Ihr vorbeikommt, seht nach ihnen. Sie werden sehr froh sein, jemanden mit einer Waffe zu sehen." },
       },
     },
   },
