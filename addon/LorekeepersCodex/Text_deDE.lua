@@ -2600,6 +2600,15 @@ ns.translate({
         { "Die Befreiung der Drachen brach die Stärke des Klans, doch Reste der Dragonmaw halten noch immer die Hügel des Sumpflands und überfallen seine Straßen. Sie sind Überlebende der alten Horde, nicht Gefolgsleute der neuen." },
       },
     },
+    ["druids"] = {
+      title = "Druiden",
+      text = {
+        { "Der erste Druide war Malfurion Stormrage, vor dem Krieg der Urtume vom Halbgott Cenarius gelehrt. Nach der Zerstörung des Brunnens folgten ihm die Nachtelfen, die dem Arkanen entsagt hatten, und tausende Jahre lang schliefen die Druiden im Smaragdgrünen Traum und erwachten nur, wenn die Welt sie brauchte." },
+        { "Nun erwachen sie, und sie sind nicht nur Nachtelfen: Die Tauren haben eigene Druiden, und beide sind dem Zirkel des Cenarius in Moonglade verpflichtet. Ein Druide nimmt die Gestalten der Wildnis an, Bär, Katze und Robbe unter ihnen, heilt mit der grünen Magie des Traums und ruft Mond und Sterne auf Feinde herab." },
+        { client = "forever", "Druiden der Himmelsgeborenen üben ihre Kunst heute auf beiden Seiten des Streits zwischen Allianz und Horde aus." },
+        { "Malfurion selbst ist in den Traum gegangen und nicht zurückgekehrt. Bei aller Arbeit des Zirkels in der wachen Welt bleibt sein größter Lehrer außerhalb der Reichweite eines gewöhnlichen Boten." },
+      },
+    },
     ["druids-of-the-fang"] = {
       title = "Die Druiden des Giftzahns",
       text = {
@@ -3029,6 +3038,15 @@ ns.translate({
         { "Zwei Söhne sind übrig. Weldon Barov lebt und sitzt unter dem Schutz der Allianz im Chillwind-Lager. Alexi Barov lebt nicht und leistet den Verlassenen am Bollwerk Gesellschaft. Jeder will das Vermögen der Familie. Jeder hätte gern den Kopf seines Bruders auf einem Teller, und jeder bezahlt einen Reisenden dafür, ihn zu holen. Der Untod hat diesen Familienstreit nicht beendet." },
       },
     },
+    ["hunters"] = {
+      title = "Jäger",
+      text = {
+        { "Jedes Volk, das nah an der Wildnis lebt, hat seine Jäger. Die Zwerge haben ihre Gebirgsjäger, treffsicher an jedem Hang, und die Nachtelfen ihre Jägerinnen und Schildwachen. Die Orcs und Trolle haben ihre Fährtenleser und Tierbändiger, und die Tauren ihre Krieger, die den Herden noch folgen wie ihre Großeltern." },
+        { "Was einen Jäger auszeichnet, ist ein Gefährte. Ein Wolf, eine Katze, ein Bär, ein Raptor, eine Eule: in der Wildnis gezähmt, lernt er, an der Seite des Jägers zu kämpfen. Ihn zu füttern und zu pflegen, gehört ebenso zur Berufung wie das Schießen zu lernen. Das Tier muss davon überzeugt werden, dass sich diese neue Abmachung für es lohnt." },
+        { client = "forever", "Auch Menschen lassen sich heute zu Jägern ausbilden, und die Himmelsgeborenen bringen Jäger zur Allianz wie zur Horde." },
+        { "Die Liga beschäftigt Jäger als Führer, solange es sie gibt, $gReisender:Reisende;. Sie finden den Weg und das Abendessen, und sie sorgen dafür, dass keins von beiden zuerst die Gräber findet." },
+      },
+    },
     ["hydraxian-waterlords"] = {
       title = "Die Hydraxianer",
       text = {
@@ -3219,6 +3237,15 @@ ns.translate({
       text = {
         { "Lord Kazzak hält die Faulende Narbe im Süden der Verwüsteten Lande. Seit dem Dritten Krieg hat diese große Verdammniswache sie mit Teufelswachen und anderen ihrer Art besetzt. Er geht offen unter ihnen umher, ein gehörnter Diener der Brennenden Legion, der sich kaum verbergen muss." },
         { "Helden beider Fraktionen sind gegen ihn gezogen. Jeder, den er tötet, macht ihn stärker. Bedenkt das, $gReisender:Reisende;, wenn Ihr Euch ihnen anschließt: Ein gescheiterter Angriff kann die nächste Gruppe einem stärkeren Feind gegenüberstellen." },
+      },
+    },
+    ["mages"] = {
+      title = "Magier",
+      text = {
+        { "Die menschliche Kunst der Magie begann mit hundert Schülern. Während der Trollkriege lehrten die Hochelfen von Quel'Thalas sie, Zauber zu wirken, im Tausch für Hilfe gegen die Amani, und ihre Erben gründeten Dalaran und seinen herrschenden Rat, die Kirin Tor. Die Stadt wurde zum großen Mittelpunkt menschlicher arkaner Gelehrsamkeit." },
+        { "Dalaran fiel im Dritten Krieg, und seine Schüler zerstreuten sich: mit Jaina Proudmoore nach Theramore, nach Stormwind, nach Undercity unter die Verlassenen, von denen manche in ihrem ersten Leben dort studiert hatten. Gnome und Dunkelspeertrolle haben eigene Magier. Eine Ausbildung bei den Kirin Tor ist ein Weg in die Kunst, auch wenn ihre Absolventen manchmal reden, als wäre es der einzige." },
+        { client = "forever", "Man hat auch Orcs beim Handwerk der Magier gesehen, und der Hohe Orden der Himmelsgeborenen ist herabgekommen, um das arkane Wissen zu suchen, das ihr Volk verlor." },
+        { "Ein Magier beschwört Feuer, Frost und reine arkane Kraft, und eine Menge frisches Wasser. Ich empfehle einen bei jeder Grabung, $gReisender:Reisende;, allein wegen des Wassers." },
       },
     },
     ["magni-bronzebeard"] = {
@@ -3507,6 +3534,15 @@ ns.translate({
         { "Es ist keine Stadt, die Zwerge willkommen heißt. Aber es ist eine echte Stadt, und die Orcs haben sie in einer Handvoll Jahren aus dem Nichts erbaut, was man von den meisten nicht sagen kann." },
       },
     },
+    ["paladins"] = {
+      title = "Paladine",
+      text = {
+        { "Die ersten Paladine waren die Ritter der Silbernen Hand, im Zweiten Krieg von Erzbischof Alonsus Faol gegründet, um das Heilige Licht auf das Schlachtfeld zu tragen. Uther Lightbringer führte sie, und sie kämpften für die Allianz durch den Krieg und den langen Frieden danach." },
+        { "Der Dritte Krieg zerschlug den Orden. Prinz Arthas, selbst ein Paladin, wandte sich gegen alles, wofür er stand, und Uther fiel bei Andorhal durch ihn. Seine überlebenden Ritter zerstreuten sich nach Stormwind, Ironforge und in die Pestländer, wo manche der Argentumdämmerung dienen und andere der härteren Vorstellung des Lichts, die der Scharlachrote Kreuzzug hat. Derselbe Eid hat seine Träger in bitter verschiedene Gesellschaft geführt." },
+        { client = "classic", "Heute bildet allein die Allianz Paladine aus, Menschen und Zwerge, die dem Licht in der Kathedrale des Lichts oder im Mystikerviertel von Ironforge die Treue schwören." },
+        { client = "forever", "Menschen und Zwerge schwören dem Licht noch immer in Stormwind und Ironforge die Treue, während einige der Verlassenen nun ebenfalls die Berufung des Paladins ergreifen. Der Tod hat ihnen das Licht nicht verschlossen." },
+      },
+    },
     ["parqual-fintallas"] = {
       title = "Parqual Fintallas",
       text = {
@@ -3536,6 +3572,15 @@ ns.translate({
         { "Tief in Uldaman, jenseits des Steinbewahrers Archaedas, bewahren vier Platinscheiben einen Bericht, den ein steinerner Wächter spricht. Er nennt die Titanen die Schöpfer. Sie schufen die Irdenen aus dem Stein Azeroths, um seine tiefen Orte zu formen: starke Arbeiter, unermüdlich und schwer zu verletzen." },
         { "Der Wächter sagt, ihre Gestalt sei unter Belastung zerfallen. Ein Ergebnis behielt ihre Stärke, verlor aber den Verstand: die Troggs, als Fehlschlag beurteilt und unter der Erde versiegelt. Ein anderes behielt Stärke und Verstand, verlor aber den Stein. Das waren die Zwerge." },
         { "Ihr könnt verstehen, warum die Liga diese Aufzeichnung schätzt, $gReisender:Reisende;. Sie gibt uns Zwergen einen Anfang, den wir erforschen können, und macht die Geschöpfe, die die Grabungen der Liga stören, zum Teil derselben Frage wie unsere eigenen Ahnen." },
+      },
+    },
+    ["priests"] = {
+      title = "Priester",
+      text = {
+        { "Priester dienen dem Glauben ihres Volkes, und der Glaube der Völker ist verschieden. In Stormwind und Ironforge dienen sie dem Heiligen Licht. Die Priesterinnen der Nachtelfen dienen Elune, dem Mond, und hüten ihre Tempel seit zehntausend Jahren." },
+        { "Auf der Seite der Horde haben die Dunkelspeer eigene Priester, und die Verlassenen behalten die ihren, deren Gebete sich ebenso bereitwillig dem Schatten zuneigen wie dem Licht. Ein Priester jedes dieser Völker kann eine Wunde schließen, einen Freund abschirmen, die Gefallenen erwecken oder dieselbe Macht gegen einen Feind wenden." },
+        { client = "forever", "Auch die Gnome zählen nun Priester zu ihrem Volk und fügen der Gesellschaft in Tüftlerstadt eine weitere Berufung hinzu." },
+        { "Sie sind die willkommenste Gesellschaft, die eine Grabung haben kann, $gReisender:Reisende;, und die am wenigsten geschätzte, bis jemand in einen Schacht fällt." },
       },
     },
     ["prince-thunderaan"] = {
@@ -3710,6 +3755,14 @@ ns.translate({
         { "Er blieb nicht, um sie zu genießen. Er zieht die Wildnis den Städten vor, die er verteidigen half, und er bleibt auf den Pfaden zwischen dem Steinkrallengebirge und Feralas. Der Kriegshäuptling schickt noch immer Reisende zu ihm, wenn die Arbeit hart ist. Er wird Euch sehen, bevor Ihr ihn seht, $gReisender:Reisende;. Misha sieht Euch zuerst." },
       },
     },
+    ["rogues"] = {
+      title = "Schurken",
+      text = {
+        { "Jede Stadt hat ihre stillen Gewerbe, und die Schurken üben sie alle aus: das Schloss, das sich ohne Schlüssel öffnet, der Geldbeutel, der den Besitzer wechselt, ohne dass sein Eigentümer es merkt, die Klinge von hinten. Manche dienen einer Krone, wie SI:7 in Stormwind. Manche dienen niemandem außer der Münze, wie die Defias in Westfall und das Syndikat in Alterac." },
+        { "Zwischen beiden stehen die Meuchler von Ravenholdt, in den Hügeln von Alterac über Hillsbrad, die ihre Aufträge und ihre Schüler mit gleicher Sorgfalt wählen sollen. Schurken jedes Volkes gehen durch ihre Tore, und wenige sprechen darüber, was sie dort gelernt haben." },
+        { "Ein Schurke kämpft mit Giften, flinken Händen und Überraschung und geht, wenn sich das Blatt wendet. Die Liga hat ein paar angeheuert, um zurückzuholen, was andere ihr bereits genommen hatten, $gReisender:Reisende;. Es ist nicht die stolzeste Zeile in den Büchern der Liga, aber eine der längsten." },
+      },
+    },
     ["royal-apothecary-society"] = {
       title = "Die Königliche Apothekervereinigung",
       text = {
@@ -3845,6 +3898,15 @@ ns.translate({
       text = {
         { "An der Straße zwischen dem Brachland und Theramore stand einst ein Gasthaus, Zur süßen Ruh, wo Reisende beider Fraktionen auf einen Trunk und ohne Fragen einkehrten. Es brannte nieder. Sein Gerippe steht noch an der Straße, und darum herum haben die Ermittler beider Seiten Dinge gefunden, die nicht zusammenpassen." },
         { "Es gibt Hufspuren im Schlamm, die fortführen. Es gibt einen schwarzen Eisenschild, der am Schornstein befestigt ist. Und es gibt ein Abzeichen in der Asche, den goldenen Anker von Theramore, mit dem Namen eines Leutnants, eines Marinesoldaten aus Kul Tiras, der mit Lady Proudmoore über das Meer kam, als vermisst gilt und sich offenbar einer Bande von Deserteuren in der Marsch angeschlossen hat. Wer das Gasthaus Zur süßen Ruh niederbrannte und warum, weiß ich nicht. Ich vermute, jemand wollte, dass die Allianz und die Horde einander die Schuld daran geben." },
+      },
+    },
+    ["shamans"] = {
+      title = "Schamanen",
+      text = {
+        { "Auf Draenor sprachen die Schamanen der Orcs mit den Elementen und ihren Ahnen, bis Gul'dans Hexenmeister viele von ihnen zur Teufelsmagie brachten und die Geister verstummten. Unter den Frostwolf in Alterac hielt der alte Schamane Drek'Thar die alten Wege lebendig und lehrte sie einen jungen entflohenen Sklaven namens Thrall." },
+        { "Thrall brachte den Schamanismus zu seinem Volk zurück, und in Kalimdor fanden sie andere, die ihn nie verloren hatten: die Tauren, die die Erdenmutter ehren, und die Trolle, deren Hexendoktoren ihre eigenen Wege bewahrt hatten. Ein Schamane bittet Erde, Feuer, Wasser und Luft um Hilfe und trägt von jedem ein Totem, und die Elemente antworten, meistens." },
+        { client = "forever", "In letzter Zeit hat man auch Zwerge den Stein und den Sturm anrufen sehen, und die Windformer der Himmelsgeborenen sind herabgekommen, um unter den Schamanen der Horde nach ihren verlorenen Windgeistern zu suchen." },
+        { "Die Liga hat gelernt, vor einer Grabung einen Schamanen um Erlaubnis zu fragen, $gReisender:Reisende;. Der Boden hat Meinungen, und sie hören sie." },
       },
     },
     ["shandris-feathermoon"] = {
@@ -4539,6 +4601,23 @@ ns.translate({
         { "Der Streit wurde zu einem Krieg unter dem Berg. Die Bronzebeards hielten die Stadt. Die Wildhammer unter Than Khardros wurden vertrieben und errichteten ihre eigene Festung in Grim Batol, und die Dunkeleisenzwerge unter Zauberthan Thaurissan zogen sich in die Berge des Südens zurück." },
         { "Die Dunkeleisenzwerge waren nicht am Ende. Sie marschierten zugleich gegen Ironforge und Grim Batol und verloren beide Schlachten. In seiner Wut griff Thaurissan nach einer Macht, die weit älter war als jeder Klan, und weckte Ragnaros, den Herrn des Feuers. Der Süden brannte: Die Sengende Schlucht und die Brennende Steppe sind, was übrig blieb, und die Dunkeleisenzwerge dienen dem Feuerlord seither im Blackrock." },
         { "Auch die Wildhammer blieben nicht in Grim Batol. Der Tod von Königin Modgud, die vor seinen Toren erschlagen wurde, hinterließ eine Finsternis im Stein, und sie fanden ein neues Zuhause in Aerie Peak im Hinterland. Ironforge erinnert sich noch, welcher Klan geblieben ist." },
+      },
+    },
+    ["warlocks"] = {
+      title = "Hexenmeister",
+      text = {
+        { "Gul'dan brachte die Magie der Hexenmeister in die Horde der Orcs. Er und sein Schattenrat lernten sie von Kil'jaeden, und damit machten sie ihr Volk zu Waffen der Brennenden Legion. Die Hexenmeister der Horde erweckten die Toten, riefen Dämonen und verbrannten ganze Länder, und ihre Kunst überlebte ihre Herren." },
+        { "Ihre Schüler finden sich heute auf beiden Seiten. Die Burning Blade dient der Legion noch immer in Durotar. Die Hexenmeister Stormwinds halten sich im Keller des Geschlachteten Lamms. Auch Gnome und Verlassene studieren sie. Ein Hexenmeister bindet Dämonen in seinen Dienst, spricht Flüche aus und bezahlt die Macht mit seinem eigenen Leben, wenn nichts anderes hilft." },
+        { client = "forever", "Auch die Dunkelspeer zählen nun Hexenmeister zu ihren Zauberwirkern." },
+        { "Die meisten Städte dulden Hexenmeister, ohne ihnen zu trauen, $gReisender:Reisende;, und die Hexenmeister scheinen es so vorzuziehen." },
+      },
+    },
+    ["warriors"] = {
+      title = "Krieger",
+      text = {
+        { "Es gibt keinen einzelnen Orden der Krieger, $gReisender:Reisende;, nur ein Handwerk, so alt wie der erste Streit. Lordaerons Fußsoldaten und Stormwinds Ritter, die Grunzer der Orcs, die eben diese Mauern brachen, die Taurenkrieger der Ebenen und die Jäger der Dunkelspeer von den Inseln lernten dieselben Lektionen auf verschiedenen Wegen." },
+        { "Dennoch hat das Handwerk seine Schulen. Ein Krieger lernt, auf drei Arten zu stehen. Die Kampfhaltung dient dazu, zuerst und hart zuzuschlagen. Die Verteidigungshaltung hält eine Linie hinter einem Schild. Die Raserei eines Berserkers verausgabt die Kraft des Körpers freigiebig und fordert sie später zurück. Der größte Teil der Arbeit besteht darin, zu lernen, was der Augenblick verlangt." },
+        { "Jede Hauptstadt unterhält eine Halle, in der Krieger die Jungen ausbilden. Die Liga heuert sehr viele von ihnen als Begleiter an, und ich habe noch keinen getroffen, der keine Meinung dazu gehabt hätte, wo die Gräber graben sollten." },
       },
     },
     ["warsong-gulch"] = {
