@@ -2,13 +2,13 @@
 
 14 October 2026. Follow-up to `french-readable-gaps.md`. The audit found 29
 records with no French body, including seven with English bodies stored as
-French. This change supplies French for 17 readable texts and preserves one
-empty source page as empty. Eleven records remain documented source exceptions.
+French. This change supplies French for 15 readable texts and preserves one
+empty source page as empty. Thirteen records remain documented source exceptions.
 This covers the audit's records, not every possible Forever-only readable.
 
 ## Translations supplied
 
-The following 16 texts are translated from the pinned English page chains.
+The following 14 texts are translated from the pinned English page chains.
 Their wording is ours, not certified French client text. Pages, facts and
 reader placeholders are preserved. No later lore has been added.
 
@@ -24,8 +24,6 @@ reader placeholders are preserved. No later lore has been added.
 | o177204 | Sorrow of the Earthmother |
 | o177208 | The White Stag and the Moon |
 | o179909 | Rock of Durotan |
-| o181475 | Monument of Remembrance |
-| o181573 | Jar of ashes |
 | i4834 | Venture Co. Documents |
 | i9542 | Simple Letter |
 | i18401 | Foror's Compendium of Dragon Slaying |
@@ -40,8 +38,7 @@ end marker. The cover and end marker are translated here.
 `i20949`, Magical Ledger, has an empty English page. Its French page remains
 empty. There is no text to translate.
 
-The missing labels for Green Hills, Monument of Remembrance and Jar of ashes
-also receive French fallbacks. Verified localized tooltip titles take priority.
+The missing label for Green Hills also receives a French fallback. Verified localized tooltip titles take priority.
 Existing client titles, including the odd "Les parents du Traître", are kept
 for consistency with the game.
 
@@ -54,6 +51,8 @@ obtainability was not independently verified for each client.
 
 | Source | Reason |
 | --- | --- |
+| o181475 | Monument of Remembrance: in neither Classic Era nor Forever (no Wowhead page in either), a later expansion's object. Excluded by the user's call, 14 October 2026. |
+| o181573 | Jar of ashes: the same. |
 | o181895 | Ship-repair title points to an unrelated postscript about Thrall and Outland. |
 | i12564 | Assassination Note points to the Horde Catapult museum plaque. |
 | i1078 | Explicitly deprecated. Duplicates Gramma Stonefield's Note. |
@@ -105,5 +104,5 @@ verified French client wording.
 Rebuild with `python3 scripts/book_texts.py frFR`,
 `python3 scripts/text_titles.py frFR` and `bun run locales`.
 `bun run check` validates the generated addon and runs both client simulations.
-The importer reports 373 unique variants under 355 titles, 11 documented
+The importer reports 371 unique variants under 353 titles, 13 documented
 source exceptions, and no unaccounted records in its pinned 387-record scope.

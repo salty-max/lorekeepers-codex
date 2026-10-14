@@ -163,26 +163,6 @@
     "Ci-gît Durotan, premier chef du clan Loup-de-Givre et père de notre vénéré chef de guerre Thrall. Il était le plus brave d'entre nous, trahi par ceux qui voulaient réduire notre peuple en esclavage. Durotan donna sa vie pour que nous puissions gagner notre liberté. Nous honorons sa mémoire et l'héritage qu'il nous a transmis par son fils.\n\nDrek'Thar, long-voyant des Loups-de-Givre"
    ]
   },
-  "o181475": {
-   "title": "Monument of Remembrance",
-   "source_sha256": "d2cef48fc450d70b8f1fbe936dbf0ecab8e95d523c5e22c7b4b1431b13ff0634",
-   "provenance": "codex-translation",
-   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
-   "pages": [
-    "À la mémoire du commandant suprême des forces alliées, Anduin Lothar. Un homme prêt à tout sacrifier pour défendre son roi, son peuple, son foyer...\n\nQue nos ennemis connaissent nos noms. Que nos alliés honorent notre mort. Nous sommes les Fils de Lothar.\n\n- Général Turalyon"
-   ],
-   "localized_title": "Monument du souvenir"
-  },
-  "o181573": {
-   "title": "Jar of ashes",
-   "source_sha256": "abba83d899b7ec1662cb46e7487ca4170603ab96315684fc98b0c079f32a55d6",
-   "provenance": "codex-translation",
-   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
-   "pages": [
-    "Voici une urne de cendres. Ce sont les cendres de ma raison, de ma passion et de ma volonté. Toutes se sont entièrement consumées d'elles-mêmes. Que tous ceux qui contemplent ces terres désolées des Flammes infernales se souviennent de ce péon déchu. Il versa son sang pour l'Alliance et se sacrifia pour la Horde, avant d'être rendu totalement fou par les êtres malveillants et sans âme qui dévorèrent ce qu'il avait de plus cher. Alors qu'ils se repaissent du fruit de son labeur, puissent-ils subir sa colère. Peut-être pas en ce monde, mais dans tous ceux qui lui succéderont. C'est ma déclaration, mon serment solennel et ma promesse éternelle. Je vengerai mes souffrances."
-   ],
-   "localized_title": "Urne de cendres"
-  },
   "o182203": {
    "title": "The Green Hills of Stranglethorn",
    "source_sha256": "a42672fb9f756a5cf903bcf3b946b132bd133f9394a05e35559dd7f103440310",
@@ -251,6 +231,8 @@
   "i5353": "The pinned pages concern the destruction of Ameth'Aran, ending with Foreboding Plans. No verified corresponding body for this title.",
   "i5688": "Explicit test item. Its pinned page duplicates Letter to Jin'Zil.",
   "i6280": "The pinned page is Yuriv's Tombstone, not a missive. No verified corresponding body.",
+  "o181475": "Not in Classic Era or Forever: Wowhead has no page for it in either game (checked 14 October 2026), a later expansion's object left in the pinned database. The user's call: no translation for it.",
+  "o181573": "Not in Classic Era or Forever: Wowhead has no page for it in either game (checked 14 October 2026), a later expansion's object left in the pinned database. The user's call: no translation for it.",
   "o181895": "The title is a ship-repair book, but the pinned page is an unrelated Outland postscript. No verified corresponding body."
  }
 }
