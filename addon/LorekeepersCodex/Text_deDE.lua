@@ -2070,6 +2070,154 @@ ns.translate({
     { "Das Tal der Geister", "Tal der Geister" },
   },
   pages = {
-
+    ["archesonus"] = {
+      title = "Königliche Historikerin Archesonus",
+      text = {
+        { "Ihr habt mich also gefunden. Ich hüte die Geschichte Ironforges vom Hohen Sitz aus, wenige Schritte vom Thron König Magnis entfernt, und wer mich danach fragt, sollte besser einen freien Nachmittag mitbringen." },
+        { "Die Geschichte, nach der man mich am häufigsten fragt, ist die der Dunkeleisenzwerge. Der Krieg der drei Hämmer endete damit, dass Zauberthan Thaurissan Ragnaros herbeirief, und das Erwachen des Feuerlords verwandelte ihr eigenes Land in Asche. In den Ruinen von Thaurissan, in der Brennenden Steppe, liegen noch Relikte, die mehr von dieser Geschichte bergen, als ich bisher lesen konnte. Wer mir bringt, was sie zu sagen haben, hat meinen Dank." },
+        { "Dieses Register ist mein Werk, $gReisender:Reisende;, mit sehr viel Hilfe der Forscherliga, die mehr nach Hause bringt, als eine einzelne Historikerin je lesen könnte. Wenn Euch eine Seite gute Dienste geleistet hat, freut mich das. Wenn eine Euch im Stich gelassen hat, kommt und sagt es mir." },
+        { side = "Horde", aside = true, sign = "P. F.", "Ich bin ihr nie begegnet. Ihr Bericht über die Welt ist dennoch der gerechteste, den ich von lebender Hand gelesen habe." },
+      },
+    },
+    ["coldridge-valley"] = {
+      title = "Das Coldridgetal",
+      text = {
+        { "Anvilmar versammelt zwergische und gnomische Rekruten im Coldridgetal, südlich von Kharanos. Hier finden sie ihre Lehrer, ihre ersten Befehle und den Gebirgspass, der sie hinaus nach Dun Morogh führt. Ein bescheidener Anfang vielleicht, aber jeder Weg hat einen." },
+        { "Die Befehle betreffen mehr als Übungen. Troggs der Felsenkiefer bedrohen das Tal, Trolle der Frostmane haben in der Nähe ein Lager aufgeschlagen, und Balir Frosthammer und Grelin Whitebeard brauchen Hilfe gegen sie. Haltet Eure Waffe bereit, $gReisender:Reisende;. Die Rekruten werden gebraucht, bevor sie das Tal überhaupt verlassen haben." },
+      },
+    },
+    ["deeprun-tram"] = {
+      title = "Die Tiefenbahn",
+      text = {
+        { "Die Tiefenbahn befördert Reisende auf fahrenden Plattformen unter der Erde zwischen Ironforge und Stormwind. Sie hat eine Reise von Tagen auf wenige Minuten verkürzt. Selbst ein Zwerg, der gern zu Fuß geht, weiß diese Leistung zu schätzen." },
+        { "Der Tunnel gibt unserer Freundschaft mit Stormwind eine praktische Gestalt: zwei Hauptstädte, verbunden durch einen Weg, der ihren Reisenden die lange Straße über Land erspart. Gnomischer Erfindungsgeist hat sehr vielen Stiefelpaaren das Leben gerettet." },
+        { "Achtet auf die Fenster dort, wo der Tunnel durch Wasser führt, $gReisender:Reisende;. Manche Fahrgäste sagen, sie hätten etwas Großes zurückblicken sehen. Ihr solltet Zeit für einen Blick haben, bevor die Plattform Euch weiterträgt." },
+      },
+    },
+    ["dun-morogh"] = {
+      title = "Dun Morogh",
+      text = {
+        { "Dun Morogh ist das verschneite Hochland um Ironforge, Heimat der Zwerge des Bronzebeardklans und ihrer gnomischen Nachbarn." },
+        { "Es ist unser Land, doch wir teilen es, und nicht immer freiwillig. Die Trolle der Frostmane halten die westlichen Hügel, Troggs graben, wo es ihnen gefällt, und seit dem Fall von Gnomeregan sind die Gnome unsere Nachbarn in ihren eigenen Tälern ebenso wie in unserer Stadt." },
+        { "Lernt seine Straßen gut kennen, $gReisender:Reisende;. Die meisten Zwerge, denen Ihr je begegnen werdet, haben auf ihnen ihre ersten Schritte getan." },
+      },
+    },
+    ["explorers-league"] = {
+      title = "Die Forscherliga",
+      text = {
+        { "Die Liga konnte ich kaum auslassen. Die Forscherliga ist Ironforges Gesellschaft der Historiker, Archäologen und Gräber: die Zwerge, die lieber eine Ruine lesen, als eine Halle zu bauen. Eine königliche Historikerin könnte sich keine bessere Gesellschaft wünschen." },
+        { "Sie sind der ältesten Frage auf der Spur, die es gibt, nämlich woher die Zwerge kommen. Ihre Grabungen in Uldaman legen nahe, dass die Antwort bei den Titanen liegt, den Erschaffern der Welt, und wenn das stimmt, ändert es, wie jeder Zwerg von sich selbst denken sollte. König Magni nimmt es tatsächlich sehr ernst." },
+        { "Ihr findet sie in der Halle der Forscher, unter Hochforscher Magellas. Bringt ihnen alles, was alt ist, $gReisender:Reisende;, und alles, was seltsam ist. Sie werden hören wollen, wo Ihr es gefunden habt, und ich ebenso." },
+      },
+    },
+    ["frostmane-trolls"] = {
+      title = "Die Trolle der Frostmane",
+      text = {
+        { "Die Frostmane bewohnen das verschneite Land westlich von Kharanos und Lager bis hinüber zum Coldridgetal. Ihre Höhle beherbergt Kopfjäger, Seher und Schattenzauberer, und so müssen die Gebirgsjäger zwischen den Verwehungen auf mehr achten als auf Speerspitzen." },
+        { "Grelin Whitebeard warnt vor neuen Angriffen, und junge Zwerge werden fast sofort gegen sie ausgeschickt, kaum dass sie von zu Hause fort sind. Der Streit wird sehr früh vertraut: ein Trolllager jenseits des letzten freundlichen Feuers, ein Bericht, der zu den Wachen zurückgebracht wird, und eine weitere Patrouille, die in denselben Schnee geschickt wird." },
+      },
+    },
+    ["gates-of-ironforge"] = {
+      title = "Die Tore von Khaz Modan",
+      text = {
+        { "Der Nordtorpass und der Südtorpass führen Reisende zwischen Dun Morogh und Loch Modan hin und her. Gebirgsjäger halten an beiden Wegen Außenposten. Im Gebirge kann eine schmale Straße so viel Bewachung verlangen wie eine breite Grenze." },
+        { "Captain Rugelfuss erklärt die Schwierigkeit von der Seite Loch Modans aus. Sein Regiment muss das Tor halten, statt die Troggs in der Nähe zu verfolgen, während die Reserve von Ironforge an der Front der Allianz gebunden ist. Er bittet Abenteurer, das Land zu verteidigen, für das seine Soldaten ihre Posten nicht verlassen können." },
+      },
+    },
+    ["gnomeregan"] = {
+      title = "Gnomeregan",
+      text = {
+        { "Gnomeregan liegt unter dem westlichen Dun Morogh, die alte Hauptstadt der Gnome, in der Not des Dritten Krieges zugrunde gerichtet. Troggs drangen in ihre Hallen ein. Um sie aufzuhalten, setzten die Gnome in ihrer eigenen Stadt Strahlung frei." },
+        { "Die Troggs überlebten. Viele Gnome starben, und andere wurden zu den gewalttätigen Überlebenden, die man heute Lepragnome nennt. Wer entkam, fand Zuflucht in Ironforge. Der Preis des Versuchs ist in den vergifteten Hallen noch immer deutlich zu sehen." },
+        { "Sicco Thermaplugg ist noch dort. Hochtüftler Mekkatorque nennt ihn einen Verräter und bittet Abenteurer, ihn zu töten. Wenn Ihr hineingeht, $gReisender:Reisende;, denkt daran, dass dies eine Hauptstadt voller Häuser und Werkstätten war. Ihr Volk versucht noch immer zu retten, was übrig ist." },
+      },
+    },
+    ["gnomeregan-exiles"] = {
+      title = "Die Gnomeregangnome",
+      text = {
+        { "Ein Volk ohne Heimat, und die fröhlichsten Verbannten, denen Ihr je begegnen werdet. Die Gnome, die aus Gnomeregan entkamen, leben nun in Tüftlerstadt, im Herzen von Ironforge, und in Außenposten wie Steelgrills Depot, in Sichtweite ihrer alten Tore." },
+        { "Lasst Euch von der Fröhlichkeit nicht täuschen. Jede Erfindung, die sie erproben, jeder Rekrut, den sie ausbilden, ist für einen einzigen Tag bestimmt: den Tag, an dem sie nach Gnomeregan zurückmarschieren und es sich zurückholen." },
+        { "Ironforge hat ihnen Obdach angeboten, solange sie es brauchen. Die meisten Zwerge freuen sich über die Gesellschaft, wenn auch nicht über den Lärm." },
+      },
+    },
+    ["hall-of-thanes"] = {
+      title = "Die Halle der Thanen",
+      text = {
+        { "Unter Ironforge liegen die Höhlen von Alt-Ironforge, und in ihnen ein Ort, den die Zwerge die Halle der Thanen nennen. Die Dunkeleisenzwerge haben ihren Weg dorthin gefunden. Eine Karte, die man ihren Spionen in Ironbands Truppenlager abgenommen hat, zeigt Tunnel und alte Fernstraßen, die unter der Stadt zusammenlaufen, und Erdseher Farsen, ein Besucher aus Aerie Peak, folgte ihnen hinab bis zur Halle und zu dem Dunkeleisenzwerg, der dort befiehlt, einem gewissen Durgen Dirgehammer." },
+        { "Die eigenen Toten der Halle finden keine Ruhe. Afadra Dunwall, eine Hüterin der Überlieferung aus Ironforge, bittet Reisende, die Geister von Anvilmar zur Ruhe zu betten, und einer von ihnen, Faldrim Anvilmar, scheint einen alten Groll weit über das Grab hinaus bewahrt zu haben. König Magni will den Kopf des Befehlshabers. Ich hätte gern, dass die Liga sich den Ort einmal gründlich ansieht, sobald die Dunkeleisenzwerge draußen sind." },
+      },
+    },
+    ["high-tinker-mekkatorque"] = {
+      title = "Hochtüftler Mekkatorque",
+      text = {
+        { "Gelbin Mekkatorque führt die Gnome von Tüftlerstadt in Ironforge aus. Die Zwerge haben seinem Volk eine Zuflucht gegeben, doch ihre eigene Hauptstadt liegt weiter unter Dun Morogh. Ein von Freunden geliehenes Zuhause kann den Verlust von Gnomeregan nicht aufwiegen." },
+        { "Die Strahlung, die gegen die eindringenden Troggs freigesetzt wurde, konnte sie nicht vernichten und hat auch die Gnome verwüstet. Mekkatorque vertraute einst Sicco Thermaplugg. Nun bezichtigt er ihn des Verrats an der Stadt und bittet Abenteurer, hineinzugehen und ihn zu töten." },
+      },
+    },
+    ["ironforge"] = {
+      title = "Ironforge",
+      text = {
+        { "Ironforge ist nicht auf den Berg gebaut. Es ist in ihn hineingebaut. Seine Hallen liegen im Berg von Ironforge, und in seiner Mitte brennt die Große Schmiede." },
+        { "Die Stadt dreht sich um die Schmiede wie ein Rad. König Magni hält Hof auf dem Hohen Sitz, im Militärviertel werden die Verteidiger des Berges ausgebildet, die Magier bleiben im Mystikerviertel, und seit dem Fall von Gnomeregan haben die verbannten Gnome Tüftlerstadt zu ihrer eigenen gemacht: laut, klug und voller Heimweh. Unter allem verläuft die Tiefenbahn, gnomische Arbeit, die Reisende unter den Bergen hindurch nach Stormwind trägt." },
+        { client = "forever", "Unter Alt-Ironforge liegt die Halle der Thanen. Eindringlinge der Dunkeleisenzwerge sind hineingebrochen, und Magni will den Kopf ihres Befehlshabers, Durgen Dirgehammer. Selbst hier können die ältesten Hallen einer Stadt zu ihrer neuesten Sorge werden." },
+        { "Und dann ist da die Halle der Forscher, wo die Liga ihre Bibliothek und ihre Funde aufbewahrt: Relikte aus Uldaman, die Knochen von Tieren, die niemand lebend gesehen hat, und Karten von Orten, über die die meisten Zwerge nur je lesen werden. Was mich angeht, Ihr findet mich auf dem Hohen Sitz, wenige Schritte vom Thron des Königs entfernt. Besucht mich. Mir fehlt es immer an Leuten, die tatsächlich irgendwo gewesen sind." },
+        { side = "Horde", aside = true, sign = "P. F.", "Sie meint die Einladung freundlich. Ich würde nicht raten, sie in den Farben der Horde anzunehmen." },
+      },
+    },
+    ["kharanos"] = {
+      title = "Kharanos",
+      text = {
+        { "Kharanos liegt im kalten Herzen von Dun Morogh, an der Straße zwischen den Übungsplätzen im Coldridgetal und den Toren von Ironforge. Nach zwergischem Maßstab ist es ein kleiner Ort: eine Schmiede, ein paar stämmige Häuser und das Gebäude, das ihn berühmt macht, die Brauerei Donnerbräu, wo die Familie Donnerbräu ihre Biere schon länger vervollkommnet, als irgendwer zugeben mag." },
+        { "Haltet den warmen Herd nicht für Sicherheit. Trolle der Frostmane halten die Hügel im Westen, Troggs kriechen immer wieder aus den tiefen Orten herauf, und seit dem Fall von Gnomeregan teilen seine Verbannten diese Straßen mit uns. Der Ort hält seine Türen trotzdem offen: Ein Zwerg, der einen frierenden Reisenden abweist, ist überhaupt kein Zwerg." },
+      },
+    },
+    ["leper-gnomes"] = {
+      title = "Die Lepragnome",
+      text = {
+        { "Nicht jeder Gnom ist Gnomeregan entkommen. Manche überlebten die Strahlung und wurden von ihr verändert, ihre Körper zerstört und ihr Geist seltsam und gewalttätig geworden. Die Zwerge nennen sie Lepragnome, und die Verbannten sprechen überhaupt nicht gern über sie." },
+        { "Sie spuken an den Zugängen zur alten Stadt und an den Depots in ihrer Umgebung, plündern, was sie können, und greifen alle an, die zu nahe kommen." },
+        { "Wenn Ihr gegen sie kämpfen müsst, $gReisender:Reisende;, denkt daran, dass sie einmal jemandes Nachbarn waren." },
+      },
+    },
+    ["magni-bronzebeard"] = {
+      title = "König Magni Bronzebeard",
+      text = {
+        { "König Magni Bronzebeard hält Hof auf dem Hohen Sitz von Ironforge und herrscht über die Stadt, die sein Klan seit dem Krieg der drei Hämmer hält. Er ist der älteste von drei Brüdern. Muradin ging im Dritten Krieg mit dem Prinzen von Lordaeron nach Norden, und seither hat man nichts mehr von ihm gehört. Brann ist der berühmteste Forscher der Liga, und einer der am schwersten aufzuspürenden." },
+        { "Magni verfolgt die Arbeit der Liga genau. Die Funde in Uldaman legen nahe, dass die Zwerge vor langer Zeit von den Titanen geformt wurden. Ein König mit einer so langen Ahnenreihe hat Grund zu fragen, wo sie begann, und eine Historikerin, die wenige Schritte von seinem Thron entfernt steht, hat allen Grund, sein Interesse zu begrüßen." },
+        { "Seine Tochter beschäftigt ihn dringender. Prinzessin Moira ist in der Stadt der Dunkeleisenzwerge unter dem Blackrock, vermählt mit Imperator Dagran Thaurissan. Ironforge nennt es eine Entführung, und Magni verspricht demjenigen, der sie heimbringt, den Lohn eines Helden. Wenn Ihr diesen Auftrag annehmt, $gReisender:Reisende;, tragt Ihr die Hoffnungen eines Vaters ebenso wie die Befehle eines Königs." },
+      },
+    },
+    ["mekgineer-thermaplugg"] = {
+      title = "Robogenieur Thermaplugg",
+      text = {
+        { "Sicco Thermaplugg ist in Gnomeregan geblieben, während Hochtüftler Mekkatorque die Verbannten von Ironforge aus führt. Der Hochtüftler vertraute ihm einst. Dieses Vertrauen endete in einer Anklage wegen Verrats und der Bitte um seinen Tod." },
+        { "Die Strahlung, die in der Stadt freigesetzt wurde, konnte die Troggs nicht vernichten und verwüstete ihre gnomischen Bewohner. Thermaplugg herrscht in den Ruinen, zwischen den Geschöpfen, die der Versuch vernichten sollte, und den Überlebenden, die er zurückließ." },
+        { "Mekkatorque bittet Abenteurer, sein Urteil in diese Hallen zu tragen." },
+      },
+    },
+    ["timber"] = {
+      title = "Holzplanke",
+      text = {
+        { "Die Jäger von Kharanos nennen ihn Holzplanke: ein Wolf, größer als seine Artgenossen, mit einem lästigen Verständnis für Fallen. Sie sagen, er wähle sein Gelände und kehre auf seiner eigenen Fährte um. Jeder Jäger, der auf ihn angesetzt wurde, hat erleben müssen, dass die Beute ihn überdauerte." },
+        { "Wölfe beschäftigen eine königliche Chronik selten. Dieser hier hat gute Gründe für seine Aufnahme geliefert, auch wenn ich bezweifle, dass er die Ehre zu schätzen wüsste." },
+        { "Wenn Ihr ihn getötet habt, $gReisender:Reisende;, schreibt auf, was geschehen ist, solange Ihr Euch erinnert. Die Jäger werden schon bald ihren eigenen Bericht haben." },
+      },
+    },
+    ["war-of-the-three-hammers"] = {
+      title = "Der Krieg der drei Hämmer",
+      text = {
+        { "Vor etwa zweieinhalb Jahrhunderten gehörte Ironforge drei Klans zugleich. Die Bronzebeards, die Wildhammer und die Dunkeleisenzwerge lebten unter einem einzigen Hochkönig, Modimus Anvilmar, und als er starb, konnten sie sich nicht einigen, wer ihm folgen sollte." },
+        { "Der Streit wurde zu einem Krieg unter dem Berg. Die Bronzebeards hielten die Stadt. Die Wildhammer unter Than Khardros wurden vertrieben und errichteten ihre eigene Festung in Grim Batol, und die Dunkeleisenzwerge unter Zauberthan Thaurissan zogen sich in die Berge des Südens zurück." },
+        { "Die Dunkeleisenzwerge waren nicht am Ende. Sie marschierten zugleich gegen Ironforge und Grim Batol und verloren beide Schlachten. In seiner Wut griff Thaurissan nach einer Macht, die weit älter war als jeder Klan, und weckte Ragnaros, den Herrn des Feuers. Der Süden brannte: Die Sengende Schlucht und die Brennende Steppe sind, was übrig blieb, und die Dunkeleisenzwerge dienen dem Feuerlord seither im Blackrock." },
+        { "Auch die Wildhammer blieben nicht in Grim Batol. Der Tod von Königin Modgud, die vor seinen Toren erschlagen wurde, hinterließ eine Finsternis im Stein, und sie fanden ein neues Zuhause in Aerie Peak im Hinterland. Ironforge erinnert sich noch, welcher Klan geblieben ist." },
+      },
+    },
+    ["wendigos"] = {
+      title = "Die Wendigos",
+      text = {
+        { "Der altgediente Bau bietet Schutz vor dem Schnee von Dun Morogh, vorausgesetzt, Ihr könnt seine Wendigos überreden, ihn zu teilen. Ein Bote, der vor ihnen floh, ließ eine Munitionslieferung zurück. Die Geschöpfe hatten das stärkere Argument." },
+        { "Pilot Stonegear will ihre Mähnen für einen Teppich in seiner Belagerungsmaschine, der Trollpflug. Selbst Maschinen brauchen in diesem Land ein wenig Behaglichkeit, $gReisender:Reisende;. Die Munition zu bergen und die Maschine auszustatten, verlangt beides, einem Wendigo deutlich näher zu kommen, als dem Boten lieb war." },
+      },
+    },
   },
 })
