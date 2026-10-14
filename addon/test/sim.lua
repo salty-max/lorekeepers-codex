@@ -1712,7 +1712,10 @@ do
       if prose:find(";", 1, true) or prose:find("$g", 1, true) then table.insert(bad, id) end
     end
   end
-  check(#missing == 0 and n > 400, "the German: every page, " .. n .. " of them (" .. table.concat(missing, ", ") .. ")")
+  check(
+    #missing == 0 and n > 400,
+    "the German: every page, " .. n .. " of them (" .. table.concat(missing, ", ") .. ")"
+  )
   check(#bad == 0, "… its gender tokens whole, no semicolon in the prose (" .. table.concat(bad, ", ") .. ")")
   check(
     de.locale == "deDE"
