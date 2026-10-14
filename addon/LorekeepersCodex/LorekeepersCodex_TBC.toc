@@ -4,7 +4,7 @@
 ## Notes-frFR: Débloquez l'histoire d'Azeroth en explorant, en rencontrant ses habitants et en accomplissant des quêtes. Collectionnez les livres et les notes que vous lisez en chemin.
 ## Category: Roleplay
 ## Author: salty-max
-## Version: 0.12.0
+## Version: 0.12.1
 ## SavedVariablesPerCharacter: LorekeepersCodexChar
 ## SavedVariables: LorekeepersCodexSettings, LorekeepersCodexScan
 ## IconTexture: Interface\AddOns\LorekeepersCodex\Media\Logo
