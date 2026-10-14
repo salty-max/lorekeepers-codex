@@ -2214,6 +2214,13 @@ ns.translate({
         { "Der rote Drache Vaelastrasz ist dort unter Nefarians Kontrolle. Einst ein Freund der Sterblichen, fleht er die, die ihn erreichen, an, sein Leiden zu beenden. Es ist wenig Trost, hier einen Freund zu erreichen, $gReisender:Reisende;, wenn er Euch darum bitten muss." },
       },
     },
+    ["blasted-lands"] = {
+      title = "Verwüstete Lande",
+      text = {
+        { "Südlich der Sümpfe des Elends, hinter einer einzigen Straße und einer einzigen Burg, liegen die Verwüsteten Lande: eine rote, rissige Öde aus Staub und toten Bäumen, in der die Tiere verdreht und der Boden vergiftet ist. Hier kamen die Orcs zuerst in unsere Welt, durch das Dunkle Portal, und hier wurden sie zurückgetrieben. Das Land hat sich nie erholt." },
+        { "Dämonen der Brennenden Legion wandeln noch immer hier. Die Allianz hält Wache von Nethergarde aus, die Oger halten ihre eigenen Lager, und die Horde hat ihre eigenen Geschäfte mit den Dämonen. Jeder, der hierher kommt, kommt wegen des Portals oder wegen dessen, was es zurückgelassen hat." },
+      },
+    },
     ["bloodsail-buccaneers"] = {
       title = "Die Blutsegelbukaniere",
       text = {
@@ -2421,6 +2428,13 @@ ns.translate({
         { "Elwynn ist der Wald, der Stormwind ernährt: hohe alte Bäume, offene Wiesen, Höfe und Weinberge und der träge Fluss, der hinab nach Westfall fließt. Es ist das sanfteste Land in den Reichen der Menschen, und wer an einem Sommermorgen seine Straßen entlanggeht, mag kaum glauben, was hier geschehen ist." },
         { "Im Ersten Krieg kamen die Orcs durch diese Wälder. Sie brannten die Höfe, die Abtei und die Dörfer eines nach dem anderen nieder und nahmen dann die Stadt selbst ein. Das Königreich wurde nach dem Zweiten Krieg wiederaufgebaut, und die Wälder beherbergen wieder Höfe und Siedlungen." },
         { "Der Frieden ist dünner, als er aussieht. Kobolde haben die Minen eingenommen, die Gnolle der Flusspfoten fallen von Westen her ein, und die rot maskierten Defias haben sich aus Westfall in die Wälder ausgebreitet. Fragt irgendeinen Bauern in Elwynn, ob die Soldaten des Königs kommen, wenn man sie ruft." },
+      },
+    },
+    ["eranikus"] = {
+      title = "Eranikus",
+      text = {
+        { "Eranikus ist ein Drache aus Yseras grünem Schwarm und der Hüter des versunkenen Tempels: Seine Aufgabe war es, dafür zu sorgen, dass die Trolle ihren Gott nie wieder hervorbrachten. Nach eigener Aussage hat er versagt, und Schlimmeres ist ihm widerfahren. Während er über dem Tempel schlief, wurde er von etwas Dunklem im Traum gefangen, und es verdreht seinen Geist." },
+        { "In den Tiefen des Tempels liegt sein Schemen in einem Zustand zwischen Schlaf und Tod, verstrickt in Albträume, und was von seinem freien Willen übrig ist, streckt sich nach Reisenden aus, um Hilfe zu erbitten. Ein anderer grüner Drache, Itharius, wartet in einer Höhle im Sumpf und hofft, ihn zu erlösen. Ich wünsche Itharius Glück. Der Nachtmahr, der Eranikus festhält, ist derselbe, der Yseras Leutnants an den großen Bäumen genommen hat." },
       },
     },
     ["explorers-league"] = {
@@ -2688,6 +2702,14 @@ ns.translate({
         { "Haltet den warmen Herd nicht für Sicherheit. Trolle der Frostmane halten die Hügel im Westen, Troggs kriechen immer wieder aus den tiefen Orten herauf, und seit dem Fall von Gnomeregan teilen seine Verbannten diese Straßen mit uns. Der Ort hält seine Türen trotzdem offen: Ein Zwerg, der einen frierenden Reisenden abweist, ist überhaupt kein Zwerg." },
       },
     },
+    ["kirith-the-damned"] = {
+      title = "Kirith der Verdammte",
+      text = {
+        { "Leutnant Kirith diente dem Helden der Horde, dessen Geist nun vor Stonard wartet. Die beiden wurden in den Verwüsteten Landen von Erzmagier Allistarj gefangen genommen und dort in einer Höhle eingesperrt. Der Held hielt durch. Kiriths Wille brach. Sein Befehlshaber hörte die Experimente aus seinem eigenen Käfig, die Schreie, die durch die Hallen hallten, und danach sah und hörte er nichts mehr von ihm." },
+        { "Was die Experimente aus ihm machten, wandelt nun als Kirith der Verdammte durch die Schlangenschlinge. Macht dem ein Ende, und was vom Leutnant übrig ist, spricht zu Euch und grinst sogar: Er weiß, wie Razelikh der Entweiher sich schützt, mit drei Dienern, die je ein Drittel eines Amuletts tragen, und er schickt Euch mit der Nachricht zurück zu seinem Befehlshaber." },
+        { "Loramus Thalipedes, der in Azshara Dämonen jagt, nennt es unvorstellbar, dass jemand Kirith von seinem Leiden erlöst hat. Es ist eines der wenigen freundlichen Dinge, die in den Verwüsteten Landen seit langem geschehen sind." },
+      },
+    },
     ["kurzen-rebellion"] = {
       title = "Kurzens Rebellion",
       text = {
@@ -2724,6 +2746,13 @@ ns.translate({
         { "Östlich der Tore liegt das sanfteste Land von Khaz Modan: grüne Hügel, Kiefernwälder und ein langer blauer See, alles gehalten von dem großen Damm an seinem Nordende." },
         { "Es ist Acker- und Jagdland, und die Zwerge, die hier leben, sind ein wenig langsamer im Zorn und sehr viel schneller dabei, Euch etwas zu trinken anzubieten, als ihre Vettern in Ironforge. Die gute Laune brauchen sie. Troggs graben in den südlichen Tälern, Oger halten den Nordosten, und in den Hügeln hat man Dunkeleisenzwerge gesehen." },
         { "Rastet in Thelsamar, seht Euch den Damm an und besucht das Tal der Könige. Dann gebt acht, wohin Ihr tretet." },
+      },
+    },
+    ["lord-kazzak"] = {
+      title = "Lord Kazzak",
+      text = {
+        { "Lord Kazzak hält die Faulende Narbe im Süden der Verwüsteten Lande. Seit dem Dritten Krieg hat diese große Verdammniswache sie mit Teufelswachen und anderen ihrer Art besetzt. Er geht offen unter ihnen umher, ein gehörnter Diener der Brennenden Legion, der sich kaum verbergen muss." },
+        { "Helden beider Fraktionen sind gegen ihn gezogen. Jeder, den er tötet, macht ihn stärker. Bedenkt das, $gReisender:Reisende;, wenn Ihr Euch ihnen anschließt: Ein gescheiterter Angriff kann die nächste Gruppe einem stärkeren Feind gegenüberstellen." },
       },
     },
     ["magni-bronzebeard"] = {
@@ -2868,6 +2897,13 @@ ns.translate({
         { "Sein Manuskript wurde vom Wind davongetragen, und seine Seiten liegen über den ganzen Dschungel verstreut. Die Kapitel erzählen von seiner Jagd, sobald jemand sie wieder in Ordnung gebracht hat. Wenn Ihr eine Seite findet, $gReisender:Reisende;, behaltet sie. Schriftsteller sind schon anstrengend genug, wenn sie wissen, wo ihr Werk ist." },
       },
     },
+    ["nethergarde-keep"] = {
+      title = "Burg Nethergarde",
+      text = {
+        { "Khadgar drängte nach dem Zweiten Krieg auf den Bau von Nethergarde, um das Dunkle Portal zu bewachen. Die Königreiche der Allianz zahlten dafür mit unterschiedlicher Begeisterung, und Dalaran stellte seine Magier. Als die Orcs das Portal wieder öffneten, belagerten sie die Burg. Die Wache war nötig gewesen." },
+        { "Nethergarde ist heute auf Stormwinds Karawanen angewiesen. Seine Magier erforschen das Portal und die Öde ringsum. Ein Gelehrter bewahrt Khadgars Abhandlungen über die Konvergenz der Dimensionen. Anderswo in den Verwüsteten Landen sucht die Draenei Kum'isha nach Relikten, die einen Weg nach Hause öffnen könnten. Ein Reisender findet mehrere Gründe, einen Durchgang zu erforschen, der so viel Unheil gebracht hat." },
+      },
+    },
     ["night-watch"] = {
       title = "Die Nachtwache",
       text = {
@@ -2963,6 +2999,13 @@ ns.translate({
       text = {
         { "Das Ravenholdt-Anwesen liegt verborgen in den Hügeln über Hillsbrad. Lord Jorach Ravenholdt leitet von dort die Auftragsmörderliga und bildet Diebe und Mörder aus, die das Haus selbst auswählt. Mögliche Schüler erhalten Einladungen. Eine Bewerbung wäre hier eine ungewöhnliche Art, seine Talente anzukündigen." },
         { "Die Liga stellt sich seit langem gegen das Syndikat, dessen Mitglieder sie für Stümper hält. Ihre Abzeichen zu stehlen, ist ein nützlicher Teil des Streits: Ein Mann des Syndikats, der seines verliert, muss mit Strafe von seiner eigenen Seite rechnen." },
+      },
+    },
+    ["razelikh-the-defiler"] = {
+      title = "Razelikh der Entweiher",
+      text = {
+        { "Razelikh der Entweiher ist ein Dämon, der von einem Hort auf dem Gipfel des höchsten Berges der Verwüsteten Lande aus herrscht, mit drei Leutnants unter sich: Grol dem Zerstörer, Lady Sevine und Erzmagier Allistarj. Sie nahmen die Krieger des gefallenen Helden der Horde und banden ihre Geister in Steine der Qual." },
+        { "Der gefallene Held hat Reisende ausgeschickt, um seine Männer zu befreien, die drei Leutnants zu töten und ihre Amulette zu nehmen, und mit dem wieder ganzen Amulett zu Razelikhs Altar hinaufzusteigen und den Dämon herauszufordern. Sein Horn, sagt er, wird der Beweis sein, dass es in dieser vom Krieg zerrissenen Welt noch Helden gibt." },
       },
     },
     ["red-dragonflight"] = {
@@ -3107,6 +3150,13 @@ ns.translate({
         { "Es ist eine hässliche Geschichte, die man aus so gewöhnlichen Papieren zusammensetzen muss. Eine Lehrstelle, der Briefwechsel einer Familie, der Name einer Schülerin: die Dinge, die zu einem stillen Leben hätten gehören sollen, bleiben zwischen den Spuren derer, die er zerstörte." },
       },
     },
+    ["stonard"] = {
+      title = "Stonard",
+      text = {
+        { "Stonard ist die Festung der Horde in den Sümpfen des Elends, eine gedrungene Steinburg und ein Haufen Hütten auf einer Anhöhe über dem Morast, gehalten von Orcs, die die Verwüsteten Lande im Süden und die Straßen der Allianz im Norden im Auge behalten." },
+        { "Es ist grimmig, feucht und treu, und seine Leute schicken ihre Krieger in den Tempel des Sumpfes und die Dämonenlande dahinter, ohne sich viele Illusionen darüber zu machen, wie viele zurückkommen werden. Vor seinen Mauern wartet ein Geist auf Befehle, die nie kamen." },
+      },
+    },
     ["stonefields-and-maclures"] = {
       title = "Die Stonefields und die Maclures",
       text = {
@@ -3166,6 +3216,13 @@ ns.translate({
       text = {
         { "Stromgarde steht an der Stelle von Strom, der ersten Stadt der Menschen. Seine Herrscher aus dem Hause Trollbane trugen die älteste Krone der Königreiche der Menschen. Lord Ignaeus bekämpfte die Trolle mit dem Schwert, das sie Trol'kalar nannten, den Trolltöter, und der Name der Familie erinnert an diesen Krieg." },
         { "Die heutige Stadt ist geteilt. Lord Falkensteins Syndikat hält ihre Türme, Oger bewohnen ein Viertel, und Stromgardes Verteidiger halten ein anderes. Weitere Überlebende kämpfen von der Zuflucht aus, um ihre Heimat zurückzugewinnen. Trol'kalar liegt noch immer in Trollbanes Grabmal, hinter Schutzzaubern, die die wiedervereinten Siegelzeichen öffnen können." },
+      },
+    },
+    ["swamp-of-sorrows"] = {
+      title = "Sümpfe des Elends",
+      text = {
+        { "Die Sümpfe des Elends liegen östlich des Dämmerwalds, unter einem Himmel, der immer grau ist: Weiden und Mangroven, schwarzes Wasser, Nebel und sehr viel Schlamm. Sie verdienen ihren Namen. Krokilisken lauern in den Tümpeln, Naga spuken an der Küste, und mitten im Morast liegt ein Teich, in dem vor langer Zeit ein Trolltempel versank, mit schlafenden Drachen darüber." },
+        { "Die Horde hat hier eine Stadt, Stonard, und ein paar gebrochene Seelen aus einer anderen Welt leben im Osten des Sumpfes. Es gibt nicht viele Gründe herzukommen. Die, die es gibt, sind meist sehr alt oder sehr gefährlich, und gewöhnlich beides." },
       },
     },
     ["sylvanas-windrunner"] = {
@@ -3248,6 +3305,13 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Ich habe diese Steine auch gelesen. Ich kam mit einem weniger großzügigen Bericht davon." },
       },
     },
+    ["the-dark-portal"] = {
+      title = "Das Dunkle Portal",
+      text = {
+        { "Das Dunkle Portal ist ein großes Tor aus Stein zwischen unserer Welt und Draenor, der Welt der Orcs. Der Hexenmeister Gul'dan öffnete es von der anderen Seite, und der Wächter Medivh half ihm von unserer, und durch es kam vor etwa fünfundzwanzig Jahren die Horde. Der Erste Krieg, der Zweite Krieg, alles, was folgte, kam durch dieses Tor." },
+        { "Nach dem Zweiten Krieg wurde es zerschlagen und von Ner'zhul wieder geöffnet, der neue Welten erobern wollte. Eine Expedition der Allianz unter Khadgar und Turalyon zog hindurch nach Draenor, um die Bedrohung zu beenden, und zerstörte das Portal von der anderen Seite, womit sie sich den Weg zurück nach Azeroth abschnitt. Sein großer steinerner Rahmen steht mitten in der Öde, sein Durchgang ruht, und die Dämonen sammeln sich darum." },
+      },
+    },
     ["the-deadmines"] = {
       title = "Die Todesminen",
       text = {
@@ -3262,6 +3326,13 @@ ns.translate({
         { "Es ist keine Kindergeschichte. Der Einbalsamierer ist der alte Einsiedler Calvinius, der in einer Hütte über Rabenflucht lebt, und seine Braut wartet noch immer in ihrem Grab. Sein letztes Geschenk an Dunkelhain war Kleiner, ein aus Toten zusammengenähtes Ungeheuer, das er die Straße zur Stadt hinaufwanken ließ. Die Nachtwache erinnert sich an die Nacht, in der es kam." },
       },
     },
+    ["the-fallen-hero"] = {
+      title = "Der gefallene Held",
+      text = {
+        { "Vor Stonard steht der Geist eines Helden der Horde und wartet auf Befehle. Im Leben führte er seine Krieger in die Verwüsteten Lande, ohne auf sie zu warten, und fand dort, wovor die Befehle ihn gewarnt hätten: den Dämon Razelikh und seine Leutnants, die seine Männer nahmen und ihre Geister in Steine der Qual banden." },
+        { "Er gibt sich selbst die Schuld an allem, und er erzählt seine Geschichte jedem, der anhält und zuhört. Er will seine Männer befreit und Razelikh vernichtet sehen, und er hilft jedem Reisenden, der es versuchen will, ob Horde oder Allianz. Es ist das Einzige, was ihm noch zu tun bleibt." },
+      },
+    },
     ["the-forsaken"] = {
       title = "Die Verlassenen",
       text = {
@@ -3269,6 +3340,13 @@ ns.translate({
         { "Sie haben die Ruine der Hauptstadt ihres Königreichs zurückerobert und eine Stadt darunter gebaut, und sie führen ihren eigenen Krieg gegen die Geißel, die sie erschuf. Sie haben sich der Horde angeschlossen, die Verbündete gegen die Allianz brauchte, und die Horde hat sie aufgenommen, was die Verlassenen dringender brauchten. Es ist keine herzliche Freundschaft." },
         { "Ich will nicht so tun, als wären die Verlassenen angenehme Gesellschaft. Die meisten von ihnen waren Männer und Frauen Lordaerons, die sich an ihr altes Leben erinnern und nicht dorthin zurückkönnen. Was sie jetzt wollen, über die Rache am Lichkönig hinaus, kann niemand außerhalb von Undercity sagen." },
         { side = "Horde", aside = true, sign = "P. F.", "Niemand außerhalb von Undercity könne sagen, was wir wollen, schreibt sie. Die meisten von uns drinnen können es auch nicht. Ich will wissen, was man uns angetan hat, und es ordentlich niederschreiben." },
+      },
+    },
+    ["the-lost-ones"] = {
+      title = "Die Verirrten",
+      text = {
+        { "Die Verbannten im sicheren Hafen nennen sich Draenei. Mit Hufen und Fühlern und blaugrauer Haut sind sie anders als die anderen Völker, denen ein Reisender in Azeroth gewöhnlich begegnet. Sie sagen, sie seien nach einer schrecklichen Reise aus der Welt der Orcs gekommen. Die im sicheren Hafen sind sanft geblieben und bereit zu sprechen." },
+        { "Andere leben im Fallow Heiligtum und werden die Verirrten genannt. Die Verbannten sagen, die Reise habe ihre einstigen Brüder zerbrochen. Sie greifen jeden an, der sich nähert, und haben Kristalle gestohlen, die den Verbannten heilig sind. Diese Berichte vor Ort verraten uns wenig über ihr früheres Leben oder darüber, was geschah, bevor sie hierher kamen. Ich lasse diesen Teil der Seite lieber offen, als ihnen eine Vergangenheit anzudichten, die sie nicht beschrieben haben." },
       },
     },
     ["the-sepulcher"] = {
@@ -3283,6 +3361,13 @@ ns.translate({
       text = {
         { "Stormwinds Gefängnis liegt unter seinen Kanälen, in den Fels unter der Stadt gehauen. Unter den Defias, die dort eingesperrt waren, war Edwin van Cleefs Leutnant Bazil Thredd. Unter seiner Führung erhoben sich die Häftlinge und übernahmen die Zellen." },
         { "Der Aufseher rief Abenteurer, um den Aufstand niederzuschlagen. Thredd war nicht der einzige gefährliche Gefangene darin: Der Orc Targorr der Schreckliche war unter den Aufrührern. Es ist ein unbehaglicher Gedanke, eine feindliche Festung unter den Straßen der eigenen Hauptstadt zu haben." },
+      },
+    },
+    ["the-temple-of-atalhakkar"] = {
+      title = "Der Tempel von Atal'Hakkar",
+      text = {
+        { "Als die Gurubashi sich gegen die Priester erhoben, die Hakkar in die Welt gebracht hatten, flohen die Atal'ai in diesen Sumpf, bauten ihrem Gott einen Tempel und versuchten weiter, ihn zurückzurufen. Die grünen Drachen Yseras fanden sie. Sie versenkten den Tempel unter dem Sumpf, und Ysera setzte einige der Ihren zu seiner Bewachung ein, damit Hakkar nie wieder durch ihn kommen sollte." },
+        { "Die Atal'ai sind noch immer darin, unter dem Wasser, und ihr Prophet Jammal'an hat ihnen versprochen, dass Hakkar ihnen bei seiner Rückkehr ewiges Leben schenken werde. Sie haben es beinahe geschafft. Die Drachen, die den Tempel bewachen, sind nicht mehr, was sie waren, und die Horde in Stonard wie die Allianz wollen die Atal'ai aufgehalten sehen, bevor der Seelenschinder wieder wandelt." },
       },
     },
     ["the-third-fleet"] = {
