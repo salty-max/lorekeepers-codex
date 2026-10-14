@@ -1,5 +1,6 @@
 ---
-id: troggs
+id: rockjaw-troggs
+source: 5747f59a0a16
 title: Die Troggs
 ---
 Die Aufzeichnungen der Titanen in Uldaman beschreiben Troggs als missglücktes Ergebnis der Erschaffung der Irdenen. Sie waren unter der Erde versiegelt, bis die Grabungen der Zwerge ihre Hallen öffneten. Unsere Suche nach unseren eigenen Anfängen ließ Geschöpfe frei, deren Ursprung ihnen unangenehm nahe war.

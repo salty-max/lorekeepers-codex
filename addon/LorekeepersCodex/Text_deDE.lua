@@ -3010,6 +3010,98 @@ ns.translate({
         { "Sie sind groß, grünhäutig und haben Hauer, sie halten an den alten Göttern der Trolle fest, und manche an schlimmeren Bräuchen als das. Die Revantusk im Hinterland sind die Ausnahme: Sie haben sich auf die Seite der Horde gestellt, und ihre Verbündeten in der Horde verbürgen sich für sie." },
       },
     },
+    ["foreword-dwarf"] = {
+      title = "Ein Wort der Königlichen Historikerin",
+      text = {
+        { "$gReisender:Reisende;, willkommen in diesem Register Azeroths. Ich habe mit dem Land um Ironforge begonnen, wo ein Zwerg jede Straße kennen und trotzdem Fragen zu den Steinen daneben haben kann." },
+        { "Die Seiten folgen unseren Klans, den Kriegen, die sie entzweiten, und den älteren Werken, die die Liga zu verstehen versucht. Sie folgen auch anderen Völkern. Unsere Geschichte hat die ihre oft genug gekreuzt, dass ein Buch, das sich auf Zwerge beschränkt, vieles unerklärt ließe." },
+        { "Tragt es bei Euch und lest eine Seite, wenn ein Ort Euch Grund zum Innehalten gibt. Eine Ruine fällt leichter ins Auge als das Leben, dem sie einst Obdach gab. Beide verdienen einen Platz in den Aufzeichnungen." },
+        { italic = true, "Königliche Historikerin Archesonus, der Hohe Sitz, Ironforge" },
+      },
+    },
+    ["foreword-gnome"] = {
+      title = "Ein Wort an ein Kind Gnomeregans",
+      text = {
+        { "$gReisender:Reisende;, diese erste Seite für einen Gnom habe ich mit einiger Sorgfalt geschrieben. Gnomeregan liegt noch immer unter Dun Morogh, und Euer Volk kann noch nicht dorthin zurück. Ein Register alter Orte sollte anerkennen, dass manche Verluste noch durchlebt werden." },
+        { "Ironforge hat Eurem Volk Obdach gegeben. Ihr habt Erfindungsgeist und eine beträchtliche Menge Lärm in unsere Hallen gebracht. Wir freuen uns über die Gesellschaft, mit gelegentlichen Vorbehalten gegen den Lärm. Der Bericht über Gnomeregan steht hier, zusammen mit dem Land, das seine Verbannten nun teilen." },
+        { "Lest diese Seiten, wohin Eure Arbeit Euch auch führt. Ich hoffe, der Eintrag über Eure Heimat braucht eines Tages einen glücklicheren Nachtrag. Bis dahin gehört seine Geschichte neben die Erfindungen und Aufträge, die Euch helfen könnten, sie zurückzugewinnen." },
+        { italic = true, "Königliche Historikerin Archesonus, der Hohe Sitz, Ironforge" },
+      },
+    },
+    ["foreword-human"] = {
+      title = "Ein Wort an einen Sohn oder eine Tochter Stormwinds",
+      text = {
+        { "$gReisender:Reisende;, ich freue mich, dieses Register einem Leser aus Stormwind zu schicken. Euer Volk und meines stehen seit dem Zweiten Krieg zusammen. Unseren Berichten über die Schlachten seither fehlten selten Namen von beiden." },
+        { "Stormwind wurde zerstört und wiederaufgebaut. Sein neues Mauerwerk ist eine große Leistung, und die unbezahlten Steinmetze, die es errichteten, gehören ebenfalls zu seiner Geschichte. Ihr findet diesen Bericht hier neben den Geschichten, die Euer Königreich mit mehr Grund feiert." },
+        { "Benutzt das Buch auf Euren Reisen. Städte, Ruinen und Straßen können Euch erzählen, wie ein Land so wurde, wie Ihr es vorfindet, vorausgesetzt, jemand behält die Leute im Blick, die sie schufen." },
+        { italic = true, "Königliche Historikerin Archesonus, der Hohe Sitz, Ironforge" },
+      },
+    },
+    ["foreword-nightelf"] = {
+      title = "Ein Wort an einen der Kaldorei",
+      text = {
+        { "$gReisender:Reisende;, dieses Register war für einen der Kaldorei gebunden, und ich gestehe, es ist seltsam, einem Volk, das sich an zehntausend Jahre erinnert, eine Geschichte anzubieten. Verzeiht einer Zwergin ihre Anmaßung. Wir zählen unsere Zeitalter in Stein. Ihr zählt die Euren in den Leben von Bäumen." },
+        { "Die meisten dieser Jahre blieb Euer Volk in seinen Wäldern und ließ niemanden herein. Nun habt Ihr vor der Küste der Dunkelküste einen neuen Weltenbaum gepflanzt und der Allianz Eure Tore geöffnet, und die Liga ist ihrer Neugier in Eure Ruinen gefolgt, wie sie es immer tut. Wo wir falsch geraten haben, wäre ich dankbar, es zu erfahren." },
+        { "Wo immer Geschichte gemacht wurde, habe ich Euch eine Seite hinterlassen. Lest sie am Feuer, und denkt daran, dass jede Ruine einst jemandes Zuhause war." },
+        { italic = true, "Königliche Historikerin Archesonus, der Hohe Sitz, Ironforge" },
+      },
+    },
+    ["foreword-orc"] = {
+      title = "Ein Wort an einen von der Horde",
+      text = {
+        { "$gReisender:Reisende;, das Register in Euren Händen wurde in Ironforge geschrieben, von Archesonus, König Magnis Königlicher Historikerin, und Ihr fragt Euch vielleicht, warum ein Verlassener aus Undercity die Geschichte einer Zwergin an einen Orc weitergeschickt hat. Ich war ein Historiker Lordaerons, bevor die Seuche mich nahm, und ich erkenne einen gerechten Bericht, wenn ich einen lese. Der ihre ist öfter gerecht, als ich erwartet hatte." },
+        { "Der Weg Eures Volkes steht darin. Das Dunkle Portal brachte es hierher. Die Niederlage brachte es in die Internierungslager Lordaerons. Thrall führte es heraus und über das Meer nach Durotar, benannt nach seinem Vater. Diese Lager standen in meinem Königreich, als ich noch lebte, und ich merke, dass ich diese Seiten langsamer lese als die anderen." },
+        { "Nehmt das Buch auf Eure Reisen mit. Stärke trägt Euch weit, doch Wissen trägt weiter, und je mehr Ihr über einen Ort wisst, desto mehr werdet Ihr von ihm sehen. Wenn Euer Weg Euch je nach Undercity führt, sucht mich auf. Vielleicht habe ich eine Frage an Euch." },
+        { italic = true, "Parqual Fintallas, das Apothekarium, Undercity" },
+      },
+    },
+    ["foreword-other"] = {
+      title = "Ein Wort der Königlichen Historikerin",
+      text = {
+        { side = "Horde", aside = true, sign = "Parqual Fintallas, das Apothekarium, Undercity", "Dieses Register wurde in Ironforge geschrieben, von Archesonus, seiner Königlichen Historikerin, und es kommt aus Undercity über meinen Schreibtisch zu Euch. Sie schreibt als Zwergin der Allianz und sagt es auch. Wo sie die Horde vergisst, lest sie mit diesem Wissen, wie ich es tat." },
+        { "$gReisender:Reisende;, willkommen. Dieses Register folgt den Städten, Ruinen und Straßen Azeroths und den Leuten, deren Leben sie so hinterlassen haben, wie Ihr sie vorfindet. Ihr braucht keine besondere Abstammung, um Euch dafür zu interessieren, wo Ihr steht." },
+        { "Ich schreibe vom Hohen Sitz in Ironforge, wenige Schritte vom Thron des Königs, und die Forscherliga bringt mir mehr zum Lesen heim, als ich je beenden werde. Der Bericht einer Zwergin hat die Interessen einer Zwergin, doch die Welt hat uns mehr zu erforschen gegeben als die Angelegenheiten unserer eigenen Klans." },
+        { "Lest eine Seite, wenn Eure Reisen Euch an ihren Ort führen. Die Steine haben vielleicht besser überdauert als die Namen. Ich habe versucht, beide in Reichweite zu halten." },
+        { italic = true, "Königliche Historikerin Archesonus, der Hohe Sitz, Ironforge" },
+      },
+    },
+    ["foreword-skyborne"] = {
+      title = "Ein Wort an einen der Himmelsgeborenen",
+      text = {
+        { side = "Horde", aside = true, sign = "Parqual Fintallas, das Apothekarium, Undercity", "Dieses Register wurde in Ironforge geschrieben, von Archesonus, seiner Königlichen Historikerin, und es kommt aus Undercity über meinen Schreibtisch zu Euch. Ihr Wort an Euer Volk war zu gut, um es neu zu schreiben, also steht es hier, wie sie es schrieb." },
+        { "$gReisender:Reisende;, dieses Register war für einen der Himmelsgeborenen gebunden, und ich gestehe, ich musste es zweimal beginnen. Bis Euer Volk vom Himmel herabkam, wusste kein Historiker in Ironforge, dass es Euch gibt. Euer eigener Name für Euch, die Shen'dorei, das verborgene Volk, ist schöner als alles, was wir hätten schreiben können." },
+        { "Wir kannten Euren Anfang, ohne zu wissen, dass er Eurer war. Eure Ahnen lebten in Eldre'Thalas, der Stadt, die die Oger heute Düsterbruch nennen, und als ihr Prinz einen Dämon binden wollte, um die Magie seines Volkes zu nähren, erhoben sie sich gegen ihn hinter einem maskierten Anführer, dem Shal'nan. Sie flohen nach Westen übers Meer, die Schiffe des Prinzen hinter sich, und Windgeister hoben ihre Insel in den Himmelswall, ganz aus der Welt hinaus. Die Forscherliga kennt diese Hallen in Feralas gut. Keiner von uns ahnte, dass ein Teil der Stadt entkommen war." },
+        { "Nun sind die Geister fort, die Insel versagt, und Euer Volk ist gekommen, um Hilfe zu suchen, der Hohe Orden bei den Magiern Dalarans, die Windformer bei den Schamanen. Dieses Register kennt die Welt, in die Ihr zurückgekehrt seid, besser als die, die Ihr verlassen habt. Wo immer Geschichte gemacht wurde, habe ich Euch eine Seite hinterlassen. Lest sie am Feuer, und denkt daran, dass jede Ruine einst jemandes Zuhause war." },
+        { italic = true, "Königliche Historikerin Archesonus, der Hohe Sitz, Ironforge" },
+      },
+    },
+    ["foreword-tauren"] = {
+      title = "Ein Wort an einen der Shu'halo",
+      text = {
+        { "$gReisender:Reisende;, Euer Volk bewahrt seine Geschichte in Liedern und im Gedächtnis des Landes. Meines bewahrte sie in Büchern, und eine Seuche kann eine Bibliothek ebenso sicher leeren wie eine Stadt. Vielleicht waren die Lieder die klügere Wahl." },
+        { "Die folgenden Seiten wurden in Ironforge geschrieben, von Archesonus, seiner Königlichen Historikerin, und sie kommen aus Undercity über meinen Schreibtisch zu Euch. Sie erzählen, wie die Tauren generationenlang unter dem Druck der Zentauren über die Ebenen Kalimdors wanderten und wie Cairne Bloodhoof mit Hilfe der Orcs die Stämme in Mulgore versammelte. Thunder Bluff steht nun über dem Grasland als Heimat eines Volkes, dem eine feste Heimat lange verwehrt war." },
+        { "Lest sie mit der Aufmerksamkeit, die Ihr Euren Ältesten schenkt. Wo eine Seite und ein Ältester sich widersprechen, wäre ich dankbar zu hören, in welchem Punkt und warum. Ein Historiker sammelt solche Widersprüche, wie andere Münzen sammeln." },
+        { italic = true, "Parqual Fintallas, das Apothekarium, Undercity" },
+      },
+    },
+    ["foreword-troll"] = {
+      title = "Ein Wort an einen der Dunkelspeer",
+      text = {
+        { "$gReisender:Reisende;, dieses Register war für einen der Dunkelspeer gebunden, und ich schulde Euch zwei Geständnisse. Seine Seiten wurden in Ironforge geschrieben, von Archesonus, der dortigen Königlichen Historikerin. Ich habe sie nur aus Undercity weitergeschickt. Und die Geschichte der Trolle ist älter als alles, was einer von uns beiden im Regal stehen hat. Eure Art baute Reiche in den Dschungeln des Südens und den Wäldern des Nordens, lange bevor die Königreiche der Menschen entstanden." },
+        { "Euer Stamm war klein und hart bedrängt, als Thralls Schiffe Euch auf Euren Inseln fanden, und seither habt Ihr der Horde die Treue gehalten, an den Küsten von Durotar unter Sen'jins Namen. Mein eigenes Volk kam später zur Horde, und auf einem seltsameren Weg. Wir haben viel von denen zu lernen, die zuerst zu ihr standen." },
+        { "Wo immer Geschichte gemacht wurde, hat Euch die Zwergin eine Seite hinterlassen. Wo ihre Seiten hinter dem zurückbleiben, was Eure Ältesten erzählen könnten, vertraut Euren Ältesten, und dann, wenn Ihr die Zeit erübrigen könnt, erzählt mir, was sie sagten." },
+        { italic = true, "Parqual Fintallas, das Apothekarium, Undercity" },
+      },
+    },
+    ["foreword-undead"] = {
+      title = "Ein Wort an einen der Verlassenen",
+      text = {
+        { "$gReisender:Reisende;, Ihr und ich haben beide unser Königreich überlebt. Ich war ein Historiker Lordaerons, bevor die Seuche mich nahm, und Ihr erinnert Euch vielleicht an seine Städte, wie sie waren, als seine Hauptstadt noch über der Erde stand. Dieses Register kennt sie nur aus Aufzeichnungen, denn es wurde in Ironforge geschrieben, von Archesonus, König Magnis Königlicher Historikerin. Ich habe es trotzdem weitergeschickt. Es ist ein gerechter Bericht, und gerechte Berichte über unsere Heimat sind selten." },
+        { "Die Verlassenen befreiten sich vom Lichkönig und folgen nun Sylvanas unter den Ruinen der Stadt, die wir kannten. Vieles an dem Leben, das wir jetzt führen, liegt jenseits des Verständnisses einer Zwergin. Wo sie über den Scharlachroten Kreuzzug schreibt, ist sie freundlicher zu ihm, als ich es wäre." },
+        { "Tragt das Register bei Euch, wenn es Euch nützt. Wo ein Ort etwas wachruft, das diese Seiten nicht erzählen können, vertraut Eurem eigenen Gedächtnis mehr als ihren Aufzeichnungen, und mehr als meinen." },
+        { italic = true, "Parqual Fintallas, das Apothekarium, Undercity" },
+      },
+    },
     ["franclorn-forgewright"] = {
       title = "Franclorn Forgewright",
       text = {
@@ -4060,6 +4152,14 @@ ns.translate({
         { "Der Riese, der mit einem Bären an seiner Seite die Straße durch Desolace entlanggeht, ist Rexxar, Champion der Horde. Er ist halb Orc und halb Oger, von den Mok'Nathal, und er gehört zu keiner Stadt. Misha, seine Bärin, geht, wohin er geht." },
         { "Er kam in den ersten Tagen nach Durotar, als das Land neu war und die Horde noch ihren Halt suchte, und Thrall vertraute ihm Arbeit an, die niemand sonst tun konnte. Als Admiral Daelin Proudmoore seine Flotte landen ließ, um den alten Krieg zu beenden, stand Rexxar im Zentrum der Kämpfe, die ihn beendeten, an der Seite von Thrall und Cairne und, wie es sich fügte, mit Jaina Proudmoores Einverständnis. Die Horde verdankt ihm einen guten Teil ihrer Heimat." },
         { "Er blieb nicht, um sie zu genießen. Er zieht die Wildnis den Städten vor, die er verteidigen half, und er bleibt auf den Pfaden zwischen dem Steinkrallengebirge und Feralas. Der Kriegshäuptling schickt noch immer Reisende zu ihm, wenn die Arbeit hart ist. Er wird Euch sehen, bevor Ihr ihn seht, $gReisender:Reisende;. Misha sieht Euch zuerst." },
+      },
+    },
+    ["rockjaw-troggs"] = {
+      title = "Die Troggs",
+      text = {
+        { "Die Aufzeichnungen der Titanen in Uldaman beschreiben Troggs als missglücktes Ergebnis der Erschaffung der Irdenen. Sie waren unter der Erde versiegelt, bis die Grabungen der Zwerge ihre Hallen öffneten. Unsere Suche nach unseren eigenen Anfängen ließ Geschöpfe frei, deren Ursprung ihnen unangenehm nahe war." },
+        { "Die Felsenkiefer bewohnen die Steinbrüche und Höhlen von Dun Morogh, die Splittersteintroggs die Täler von Loch Modan und die Steingrufttroggs Uldaman selbst. Troggs drangen auch in Gnomeregan ein. Andere sind an der Dunkelküste und unter Orgrimmar aufgetaucht, auch wenn ihr Weg über das Meer ungewiss bleibt." },
+        { "Gebirgsjäger bitten um Hilfe bei der Verteidigung von Straßen und Siedlungen, und die Gnome bekämpfen sie noch immer in ihrer Hauptstadt. Ein Reisender, der dieses Register bei sich trägt, wird die Gelehrten von Ironforge an der Geschichte der Troggs interessiert finden. Wer eine Mine bewacht, hat ein unmittelbareres Anliegen: sie draußen zu halten." },
       },
     },
     ["rogues"] = {
