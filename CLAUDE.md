@@ -20,18 +20,20 @@ conventions).
   agree and zips `dist/LorekeepersCodex-<version>.zip` for a test in the game
   (`git describe`: the tag, or v0.9.2-2-g1234abc between two, -dirty if
   changed); a release's is `LorekeepersCodex-vX.Y.Z.zip`.
-- `data/areas.json`: the client's AreaTable (wago.tools, `bun scripts/areas.ts`):
+- The game's data comes from wow-data's databases (`../wow-data`, beside
+  this folder: the pinned client builds and databases; the scripts import
+  `../../wow-data/src/db` or, in Python, `../wow-data/py/wowdata.py`).
+- `data/areas.json`: the client's AreaTable (`bun scripts/areas.ts`):
   place names in content resolve to area ids, so unlocks work in every language.
-  `data/areas-forever.json`: the areas Forever adds (the beta's table, pinned;
+  `data/areas-forever.json`: the areas Forever adds (Forever's table;
   `bun scripts/areas.ts --forever`): Forever-only pages and `[forever]`
   unlocks may name them.
 - `data/texts.json`: the books and plaques pages unlock by being read
-  (`read: <title>`): each title's text objects in the pinned CMaNGOS database
-  and the title in every client language, from Wowhead Classic's tooltips
-  (`python3 scripts/texts.py`, after adding a read: unlock).
+  (`read: <title>`): each title's text objects and the title in every client
+  language (`python3 scripts/texts.py`, after adding a read: unlock).
 - `data/portraits.json`: display ids of the creatures pages name as their
   `portrait:` (figures, creatures, factions only; never a guess), from the
-  pinned CMaNGOS database (`python3 scripts/portraits.py`, after adding one).
+  Classic database's models (`python3 scripts/portraits.py`, after adding one).
 - `addon/LorekeepersCodex/`: `Core.lua` (the codex's record and its schema,
   the events every file listens to: `ns.on`, `ns.knows`; the login, `/codex`,
   `/codex where`), `Unlocks.lua` (the unlock engine: areas, npcs talked to or
@@ -86,7 +88,7 @@ conventions).
   words to translate; `--check` says which pages are stale (their English
   changed) and which words are missing. A translation keeps the English
   page's paragraph marks; its own letters are fine, curly quotes are not.
-  The Library's titles copied in another language read by the client's (`i18n/<locale>/texts.json`, `python3 scripts/text_titles.py <locale>`: every text object and item with a page, Wowhead's titles), and a text read again in the client's language replaces its copy (`ns.textTitle`). A copy made in English reads in the client's language whole: the game's own texts ship in each language (`i18n/<locale>/books.json`, `python3 scripts/book_texts.py <locale>` from Wowhead's pages saved in `.cache/books-<locale>.json`, which Wowhead serves only to a browser; `ns.textPages`, the reader's $N/$C/$R filled in by `ns.textForReader`): the user's call, 14 October 2026, so a quest item handed in still reads in French. Places inside buildings, which have no area id, read by `i18n/<locale>/subzones.json` (`../addon-kit/subzones.py`). Where a page or a text was found keeps the area ids of the zone and
+  The Library's titles copied in another language read by the client's (`i18n/<locale>/texts.json`, `python3 scripts/text_titles.py <locale>`: every text object and item with a page, each game's titles), and a text read again in the client's language replaces its copy (`ns.textTitle`). A copy made in English reads in the client's language whole: the game's own texts ship in each language (`i18n/<locale>/books.json`, `python3 scripts/book_texts.py <locale>` from wow-data's pages: Wowhead's, saved from a browser, which Wowhead serves only to one; `ns.textPages`, the reader's $N/$C/$R filled in by `ns.textForReader`): the user's call, 14 October 2026, so a quest item handed in still reads in French. Places inside buildings, which have no area id, read by `i18n/<locale>/subzones.json` (`../addon-kit/subzones.py`). Where a page or a text was found keeps the area ids of the zone and
   subzone (`zoneId`, `subId`, by the client's names of the codex's areas,
   `ns.areaOf`) and reads in the client's language (`ns.placeName`: an older
   find, kept only by name, by its English one in `C.areaNames`).

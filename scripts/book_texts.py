@@ -6,56 +6,43 @@ folder:
 
   python3 scripts/book_texts.py frFR
 
-Reads the English texts from the pinned CMaNGOS database (text objects, type
-9, and items with a page: their titles and page chains) and the language's
-pages from .cache/books-<locale>.json, Wowhead's Forever pages for each text
-({ "o<object id>" | "i<item id>": [ HTML pages ] }). Wowhead turns scripts
-away, so that file comes from a browser: each /forever/<lang>/object=<id> or
-item=<id> page embeds new Book({ pages: [...] }) (docs/localization.md).
-Tracked corrections and translations in i18n/<locale>/books-supplement.json
-take precedence, with hashes of their English sources and provenance. Its
-excluded records document deprecated/test items and broken source bindings.
+Reads wow-data's databases (../wow-data): the texts (text objects, type 9,
+and items with a page), their English titles and pages from Classic Era's,
+the language's pages from Forever's (Wowhead's Forever pages, saved from a
+browser and kept in wow-data: Wowhead turns scripts away), the game's markup
+already turned into lines and its placeholders into the game's tokens ($N,
+$C, $R, $gmale:female;). Tracked corrections and translations in
+i18n/<locale>/books-supplement.json take precedence, with hashes of their
+English sources and provenance. Its excluded records document
+deprecated/test items and broken source bindings.
 
 Writes i18n/<locale>/books.json: { English title: [ { first, pages } ] },
 first the start of the English first page (letters only, to tell apart the
-texts that share a title), pages plain text: the game's tags turned into
-lines, its placeholders into the game's tokens ($N, $C, $R, $gmale:female;).
+texts that share a title), pages plain text in the Codex's own rules (plain
+spaces, straight quotes, no semicolons).
 """
-import gzip, hashlib, html, json, os, re, sys
+import hashlib, json, os, re, sys
 
 locale = sys.argv[1]
-db = gzip.open(".cache/classicdb-28ef6259c782.sql.gz", "rt", encoding="utf-8", errors="replace").read()
-VALUE = re.compile(r"'((?:[^'\\]|\\.)*)'|(-?[\d.]+)|NULL")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "wow-data", "py"))
+from wowdata import db
+
+# every text: (key, English title), the objects first, by id
+texts = db("classic").execute(
+    """SELECT key, title FROM (
+         SELECT 'o' || o.id AS key, n.name AS title FROM object o
+         JOIN name n ON n.kind = 'object' AND n.id = o.id AND n.locale = 'enUS' WHERE o.type = 9 AND o.page_id > 0
+         UNION ALL
+         SELECT 'i' || i.id, n.name FROM item i
+         JOIN name n ON n.kind = 'item' AND n.id = i.id AND n.locale = 'enUS' WHERE i.page_id > 0)
+       ORDER BY substr(key, 1, 1) DESC, CAST(substr(key, 2) AS INTEGER)"""
+).fetchall()
 
 
-def unescape(s):
-    return re.sub(r"\\(.)", lambda m: {"n": "\n", "r": "", "t": "\t", "0": ""}.get(m.group(1), m.group(1)), s)
-
-
-def rows(table):
-    for m in re.finditer(rf"INSERT INTO `{table}` VALUES(.*?);\n", db, re.S):
-        for r in re.finditer(r"\(((?:[^()']|'(?:[^'\\]|\\.)*')*)\)", m.group(1)):
-            yield [unescape(v.group(1)) if v.group(1) is not None else (v.group(2) or "") for v in VALUE.finditer(r.group(1))]
-
-
-def columns(table):
-    return re.findall(r"^\s*`(\w+)`", re.search(rf"CREATE TABLE `{table}` \((.*?)\n\)", db, re.S).group(1), re.M)
-
-
-pages = {r[0]: (r[1], r[2]) for r in rows("page_text")}
-ic = columns("item_template")
-ni, pi = ic.index("name"), ic.index("PageText")
-texts = [(f"o{r[0]}", r[3], r[8]) for r in rows("gameobject_template") if r[1] == "9" and r[8] != "0"]
-texts += [(f"i{r[0]}", r[ni], r[pi]) for r in rows("item_template") if len(r) > pi and r[pi] not in ("0", "")]
-
-
-def chain(page):
-    out, seen = [], set()
-    while page and page != "0" and page in pages and page not in seen:
-        seen.add(page)
-        out.append(pages[page][0])
-        page = pages[page][1]
-    return out
+def pages(game, key, loc):
+    """a text's pages in a game and a language, in order"""
+    kind = "object" if key[0] == "o" else "item"
+    return [r[0] for r in db(game).execute("SELECT text FROM readable_page WHERE kind = ? AND id = ? AND locale = ? ORDER BY idx", (kind, int(key[1:]), loc))]
 
 
 def letters(text, n=24):
@@ -63,18 +50,10 @@ def letters(text, n=24):
     return re.sub(r"[^a-z]", "", text.lower())[:n]
 
 
-TOKENS = {"nom": "$N", "name": "$N", "classe": "$C", "class": "$C", "race": "$R"}
-
-
 def plain(page):
-    # the placeholders first, while they are still escaped
-    page = re.sub(r"&lt;([^&]{1,24})&gt;", lambda m: TOKENS.get(m.group(1).lower()) or (
-        "$g%s:%s;" % tuple(m.group(1).split("/")) if m.group(1).count("/") == 1 else "<" + m.group(1) + ">"), page)
-    page = re.sub(r"<br\s*/?>", "\n", page, flags=re.I)
-    page = re.sub(r"</(p|h\d)>", "\n\n", page, flags=re.I)
-    page = re.sub(r"<(?!texte|text)[^>]*>", "", page)
-    page = html.unescape(page).replace(" ", " ").translate(str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"'}))
-    # The user's prose punctuation rule, without touching $gmale:female;.
+    """the Codex's own rules over the game's text: plain spaces, straight
+    quotes, no semicolons (the gender tokens' own kept)"""
+    page = page.replace("\u00a0", " ").translate(str.maketrans({"\u2018": "'", "\u2019": "'", "\u201c": '"', "\u201d": '"'}))
     parts = re.split(r"(\$g[^;]+;)", page)
     page = "".join(p if i % 2 else re.sub(r"\s*;\s*", ", ", p) for i, p in enumerate(parts))
     page = re.sub(r"[ \t]+\n", "\n", page)
@@ -82,22 +61,21 @@ def plain(page):
     return page.strip()
 
 
-source = json.load(open(f".cache/books-{locale}.json", encoding="utf-8"))
 supplement_path = f"i18n/{locale}/books-supplement.json"
 supplement = json.load(open(supplement_path, encoding="utf-8")) if os.path.exists(supplement_path) else {}
 corrections = supplement.get("entries", {})
 excluded = supplement.get("excluded", {})
-known = {key for key, _, _ in texts}
+known = {key for key, _ in texts}
 if (set(corrections) | set(excluded)) - known:
     raise ValueError("Readable supplement references unknown object/item ids")
 if set(corrections) & set(excluded):
     raise ValueError("A readable cannot be both translated and excluded")
 out, missing = {}, []
-for key, title, first in texts:
+for key, title in texts:
     if key in excluded:
         continue
-    en = chain(first)
-    tr = source.get(key)
+    en = pages("classic", key, "enUS")
+    tr = pages("forever", key, locale) or None
     correction = corrections.get(key)
     if correction:
         digest = hashlib.sha256(json.dumps(en, ensure_ascii=False, separators=(",", ":")).encode()).hexdigest()

@@ -1,37 +1,23 @@
 #!/usr/bin/env python3
 """Texts: the books and plaques of the world a page unlocks by being read
 (front matter "read: <title>"), into data/texts.json (read by
-scripts/build.ts): each title's objects in the CMaNGOS Classic database pinned
-in scripts/portraits.py too (a text object, type 9, a button with a page, type
-10, or an item with a page, of that name) and the title as
-the game writes it in every language, from Wowhead Classic's tooltips (cached
-in .cache/wowhead/), so the unlock works in every client.
+scripts/build.ts): each title's objects in wow-data's Classic database
+(../wow-data: a text object, type 9, a button with a page, type 10, or an
+item with a page, of that name) and the title as the game writes it in every
+language, so the unlock works in every client.
 
   python3 scripts/texts.py      (after adding or changing a read: unlock)
 """
-import glob, gzip, json, os, re, time, urllib.request
+import glob, json, os, re, sys
 
-# the database scripts/portraits.py pins (the same file, cached once)
-COMMIT = "28ef6259c782928b08a8dc9cacf6bc02e64f2b29"
-URL = f"https://github.com/cmangos/classic-db/raw/{COMMIT}/Full_DB/ClassicDB_1_12_1_z2815.sql.gz"
-ROOT = os.path.join(os.path.dirname(__file__), "..")
-CACHE = os.path.join(ROOT, ".cache", f"classicdb-{COMMIT[:12]}.sql.gz")
-
-
-def sql_text():
-    if not os.path.exists(CACHE):
-        os.makedirs(os.path.dirname(CACHE), exist_ok=True)
-        urllib.request.urlretrieve(URL, CACHE)
-    with gzip.open(CACHE, "rt", encoding="utf-8", errors="replace") as f:
-        return f.read()
-
+ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+sys.path.insert(0, os.path.join(ROOT, "..", "wow-data", "py"))
+from wowdata import db
 
 OUT = os.path.join(ROOT, "data", "texts.json")
-WOWHEAD = os.path.join(ROOT, ".cache", "wowhead")
-UA = {"User-Agent": "LorekeepersCodex/0.9 (addon data; github.com/salty-max/lorekeepers-codex)"}
-# Wowhead's locales (koKR, frFR, deDE, zhCN, esES, ruRU, ptBR, zhTW); esMX
-# reads esES's names, itIT has none of its own on Classic.
-LOCALES = [0, 1, 2, 3, 4, 6, 7, 8, 10]
+# the languages a title is looked for in, in this order (Wowhead Classic's:
+# esMX reads esES's names, itIT has none of its own on Classic)
+LOCALES = ["enUS", "koKR", "frFR", "deDE", "zhCN", "esES", "ruRU", "ptBR", "zhTW"]
 
 
 def wanted():
@@ -43,49 +29,35 @@ def wanted():
     return out
 
 
-def rows(sql, table):
-    """A table of the dump, each row a dict by column."""
-    cols = re.findall(r"^\s*`(\w+)`", re.search(rf"CREATE TABLE `{table}` \((.*?)\n\) ENGINE", sql, re.S).group(1), re.M)
-    for m in re.finditer(rf"INSERT INTO `{table}` (?:\([^)]*\) )?VALUES\s*(.*?);\n", sql, re.S):
-        for row in re.finditer(r"\((\d+),(.*?)\)(?=,\(|$)", m.group(1), re.S):
-            vals = [row.group(1)] + re.findall(r"'((?:[^'\\]|\\.)*)'|([^,]+)", row.group(2))
-            vals = [vals[0]] + [a if a or not b else b for a, b in vals[1:]]
-            yield dict(zip(cols, vals))
-
-
-def text_objects(sql):
-    """The dump's readable things: {name: [(kind, id)]}: text objects (type
-    9), buttons that open a page (type 10, its data7), items with a page."""
+def text_objects():
+    """The world's readable things: {English name: [(kind, id)]}: text
+    objects (type 9), buttons that open a page (type 10, its data7), items
+    with a page."""
     out = {}
-    for d in rows(sql, "gameobject_template"):
-        if d.get("type") == "9" or (d.get("type") == "10" and d.get("data7", "0") != "0"):
-            out.setdefault(d["name"].replace("\\'", "'"), []).append(("object", int(d["entry"])))
-    for d in rows(sql, "item_template"):
-        if d.get("PageText", "0") not in ("0", ""):
-            out.setdefault(d["name"].replace("\\'", "'"), []).append(("item", int(d["entry"])))
+    for kind, id, name in db("classic").execute(
+        """SELECT 'object', o.id, n.name FROM object o JOIN name n ON n.kind = 'object' AND n.id = o.id AND n.locale = 'enUS'
+           WHERE o.type = 9 OR (o.type = 10 AND json_extract(o.data, '$[7]') != 0)
+           UNION ALL
+           SELECT 'item', i.id, n.name FROM item i JOIN name n ON n.kind = 'item' AND n.id = i.id AND n.locale = 'enUS'
+           WHERE i.page_id > 0"""
+    ):
+        out.setdefault(name, []).append((kind, id))
     return out
 
 
 def names(kind, id):
-    """The object's or item's name in each of Wowhead's locales."""
+    """The object's or item's name in each language, the first of each."""
     out = []
     for locale in LOCALES:
-        path = os.path.join(WOWHEAD, f"{kind}-{id}-{locale}.json")
-        if not os.path.exists(path):
-            os.makedirs(WOWHEAD, exist_ok=True)
-            url = f"https://nether.wowhead.com/classic/tooltip/{kind}/{id}?locale={locale}"
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r, open(path, "wb") as f:
-                f.write(r.read())
-            time.sleep(0.25)
-        name = (json.load(open(path, encoding="utf-8")) or {}).get("name")
-        if name and name not in out:
-            out.append(name)
+        row = db("classic").execute("SELECT name FROM name WHERE kind = ? AND id = ? AND locale = ?", (kind, id, locale)).fetchone()
+        if row and row[0] not in out:
+            out.append(row[0])
     return out
 
 
 def main():
     titles = wanted()
-    objects = text_objects(sql_text())
+    objects = text_objects()
     missing = sorted(t for t in titles if t not in objects)
     if missing:
         raise SystemExit("nothing readable of that name in the database: " + ", ".join(missing))

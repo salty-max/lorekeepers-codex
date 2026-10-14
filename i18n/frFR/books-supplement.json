@@ -2,7 +2,7 @@
  "description": "Supplement to the French readable cache. Authored translations are explicitly distinguished from recovered client text. The source hash covers the pinned English HTML page array as UTF-8 compact JSON.",
  "entries": {
   "i18401": {
-   "title": "Foror's Compendium of Dragon Slaying",
+   "title": "Nostro's Compendium of Dragon Slaying",
    "source_sha256": "5fe73cb618e122a426a72403f3c68abcb4fed6f8ab49e8f86321ad974e5187bc",
    "provenance": "codex-translation",
    "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",

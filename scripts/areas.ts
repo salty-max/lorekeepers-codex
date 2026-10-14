@@ -1,45 +1,38 @@
 /**
  * data/areas.json: the client's area table (zones and sub-zones: id, name,
- * parent), from wago.tools' export of Classic Era. Content files name places;
- * the build turns names into these ids. Run again when a game version adds areas.
+ * parent), Classic Era's, from wow-data's database (../wow-data: the client's
+ * AreaTable at the pinned build). Content files name places; the build turns
+ * names into these ids. Run again when the pin moves.
  *
  * data/areas-forever.json: the areas WoW Forever adds (Zephras Isle, the
- * Riverglades, the new dungeons...), from the beta client's table, pinned to
- * one build; only Forever's pages may name them (scripts/build.ts).
+ * Riverglades, the new dungeons...), from Forever's database the same way;
+ * only Forever's pages may name them (scripts/build.ts).
  *   bun scripts/areas.ts            both
  *   bun scripts/areas.ts --forever  Forever's only (Classic's file untouched)
  */
 import { readFileSync, writeFileSync } from "node:fs";
+import { openDb } from "../../wow-data/src/db";
+import { type Game, PINS } from "../../wow-data/src/pins";
 
-export const FOREVER_BUILD = "1.60.1.70291";
 const foreverOnly = process.argv.includes("--forever");
-async function table(query: string) {
-  const res = await fetch(`https://wago.tools/db2/AreaTable/csv?${query}`);
-  if (!res.ok) throw new Error(`AreaTable: HTTP ${res.status}`);
-  return res.text();
-}
-const res = { ok: true, status: 200, text: () => table("branch=wow_classic_era") };
-// A simple CSV reader: area names may be quoted and contain commas.
-const parse = (line: string) => line.match(/("([^"]|"")*"|[^,]*)(,|$)/g)!.map((c) => c.replace(/,$/, "").replace(/^"|"$/g, "").replace(/""/g, '"'));
-function areasOf(text: string) {
-  const [header, ...lines] = text.trim().split("\n");
-  const cols = header.split(",");
-  const at = (name: string) => cols.indexOf(name);
-  return lines
-    .map(parse)
-    .map((r) => ({ id: Number(r[at("ID")]), name: r[at("AreaName_lang")], parent: Number(r[at("ParentAreaID")] || 0), continent: Number(r[at("ContinentID")] || 0) }))
+type Area = { id: number; name: string; parent: number; continent: number };
+function areasOf(game: Game): Area[] {
+  const rows = openDb(game)
+    .query("SELECT ID, AreaName_lang, ParentAreaID, ContinentID FROM client_AreaTable ORDER BY rowid")
+    .all() as Record<string, number | string | null>[];
+  return rows
+    .map((r) => ({ id: Number(r.ID), name: String(r.AreaName_lang ?? ""), parent: Number(r.ParentAreaID || 0), continent: Number(r.ContinentID || 0) }))
     .filter((a) => a.name);
 }
 const classicFile = new URL("../data/areas.json", import.meta.url);
 if (!foreverOnly) {
-  const areas = areasOf(await res.text());
+  const areas = areasOf("classic");
   writeFileSync(classicFile, JSON.stringify(areas));
-  console.log(`✓ ${areas.length} areas → data/areas.json`);
+  console.log(`✓ ${areas.length} areas (build ${PINS.builds.classic.build}) → data/areas.json`);
 }
 // (the original areas keep their ids on Forever: only the new ones, and none of
 // the client's placeholders)
 const classicIds = new Set((JSON.parse(readFileSync(classicFile, "utf8")) as { id: number }[]).map((a) => a.id));
-const added = areasOf(await table(`product=wow_classic_beta&build=${FOREVER_BUILD}`))
-  .filter((a) => !classicIds.has(a.id) && !/UNUSED|unused|^zz|TEST|Test/.test(a.name));
+const added = areasOf("forever").filter((a) => !classicIds.has(a.id) && !/UNUSED|unused|^zz|TEST|Test/.test(a.name));
 writeFileSync(new URL("../data/areas-forever.json", import.meta.url), JSON.stringify(added));
-console.log(`✓ ${added.length} areas of Forever's own (build ${FOREVER_BUILD}) → data/areas-forever.json`);
+console.log(`✓ ${added.length} areas of Forever's own (build ${PINS.builds.forever.build}) → data/areas-forever.json`);

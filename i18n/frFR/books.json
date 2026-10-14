@@ -1153,14 +1153,6 @@
    ]
   }
  ],
- "Foror's Compendium of Dragon Slaying": [
-  {
-   "first": "fororscompendiumofdragon",
-   "pages": [
-    "Le guide de Nostro du tueur de dragons est un épais volume couvert d'écriture. Malheureusement, le texte semble brouillé et reste incompréhensible."
-   ]
-  }
- ],
  "Fossilized Egg": [
   {
    "first": "foundintheswelteringwast",
@@ -2258,6 +2250,14 @@
     "Je vais vous décrire les terres environnantes que les éclaireurs de Kargath ont explorées :\n\n-Des collines rocailleuses et rouges et de grandes étendues stériles.\n-Un soleil brûlant et des vents violents.\n-Ni lac, ni rivière. Pas même de point d'eau. Pour trouver de l'eau, les habitants doivent creuser profondément dans des puits boueux ou exploiter le peu d'humidité que l'on trouve dans les cactus.\n\nEn d'autres termes : chaud et difficile à supporter.",
     "Les Terres ingrates regorgent d'ennemis. Les ogres rôdent dans les sables brûlants, tendant des embuscades aux voyageurs trop confiants. Les nains Sombrefer habitent des bâtiments à l'est de Kargath et font la guerre à leurs cousins à la peau claire de Loch Modan, qui se trouvent au nord. Les troggs, brutaux et primitifs, chassent les points d'ombre et les défendent sauvagement.\n\nEt loin à l'est dans les Terres ingrates, il y a le ravin de Lethlor où vivent les dragons. Nous ne connaissons ni leur taille ni leur nombre. Les rares éclaireurs à s'en être approchés ne sont jamais revenus.",
     "Il faut dire que nous, les personnes en garnison à Kargath, sommes satisfaits de notre affectation. Ici, nous sommes constamment en état d'alerte et si nous relâchons notre vigilance, nous sommes morts.\n\nEt je ne voudrais pas qu'il en soit autrement.\n\nNeeka Bloodscar\nChef éclaireur, Kargath"
+   ]
+  }
+ ],
+ "Nostro's Compendium of Dragon Slaying": [
+  {
+   "first": "fororscompendiumofdragon",
+   "pages": [
+    "Le guide de Nostro du tueur de dragons est un épais volume couvert d'écriture. Malheureusement, le texte semble brouillé et reste incompréhensible."
    ]
   }
  ],
