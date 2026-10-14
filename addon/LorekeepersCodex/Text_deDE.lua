@@ -2171,6 +2171,34 @@ ns.translate({
         { "Rivendare hält auch die Kreuzfahrerin der Argentumdämmerung Ysida Harmon gefangen. Ihr Mann bittet um ihre Rettung. Behaltet sie im Sinn, $gReisender:Reisende;, wenn das Kopfgeld des Herzogs Euch in die Stadt führt. Dort muss noch jemand lebend herauskommen." },
       },
     },
+    ["blackrock-depths"] = {
+      title = "Blackrocktiefen",
+      text = {
+        { "Die Blackrocktiefen sind die Stadt der Dunkeleisenzwerge unter dem Berg: die Schattenschmiede, mit ihren Gefängnissen, ihrer Arena, ihren Gewölben, ihren Golemwerkstätten und ihrer Taverne, Zum grimmigen Säufer, wo sie ein dunkles Bier brauen. Ganz unten sitzt in seinem Palast der Imperator, und hinter ihm führt der Weg hinab in das eigene Reich des Feuerlords." },
+        { "Die Allianz und die Horde kommen beide hierher, die Horde wegen der Golems der Dunkeleisenzwerge und ihrer Geheimnisse, die Allianz wegen eines gefangenen Marshals und wegen König Magnis Tochter. Hier gibt es sehr viel Geschichte, und das meiste davon steht in Flammen." },
+      },
+    },
+    ["blackrock-mountain"] = {
+      title = "Der Blackrock",
+      text = {
+        { "Der Blackrock steht zwischen der Sengenden Schlucht und der Brennenden Steppe, ein Berg aus schwarzem Stein mit Feuer in seinem Herzen. Er erhob sich, als Ragnaros kam, und die Dunkeleisenzwerge, seine Sklaven, bauten ihre Stadt in seinem Inneren. Im Zweiten Krieg war er die große Festung der Horde, und nach dem Krieg suchten die Orcs, die der Allianz entkamen, in ihm Zuflucht." },
+        { "Heute liegt der Berg mit sich selbst im Krieg. Die Dunkeleisenzwerge halten die Tiefen für den Feuerlord, und die Orcs der Dunklen Horde halten mit Nefarians schwarzen Drachen die Spitze darüber. Zwischen ihnen, in der Mitte des Berges, hängen Ketten über einem See aus Lava." },
+      },
+    },
+    ["blackrock-spire"] = {
+      title = "Blackrockspitze",
+      text = {
+        { "Die Dunkeleisenzwerge hauten die Blackrockspitze über ihrer Stadt aus dem Fels und verloren sie dann an die Orcs. Orgrim Schicksalshammer hielt sie im Zweiten Krieg. Gegen Ende des Krieges belagerte die Allianz die Festung. Anduin Lothar fiel vor ihren Toren, bevor die Horde gebrochen wurde." },
+        { "Rend Blackhand befehligt heute ihre Orcs in Nefarians Diensten. Orcs, Trolle und Oger füllen die untere Spitze, während der Drache und seine Gefolgsleute die Höhen halten. Der Aufstieg führt durch eine besetzte Festung, mit einem anderen Herrn als dem, den ihre Erbauer im Sinn hatten." },
+      },
+    },
+    ["blackwing-lair"] = {
+      title = "Pechschwingenhort",
+      text = {
+        { "Nefarian hält den Pechschwingenhort auf dem Gipfel der Blackrockspitze. Hier züchtet er chromatische Drachen, indem er das Blut der Drachenschwärme vermischt, auf der Suche nach einem Heer, das seine Feinde überwältigen kann. Der Hort ist zugleich seine Festung und der Ort, an dem er ihre künftigen Soldaten erschafft." },
+        { "Der rote Drache Vaelastrasz ist dort unter Nefarians Kontrolle. Einst ein Freund der Sterblichen, fleht er die, die ihn erreichen, an, sein Leiden zu beenden. Es ist wenig Trost, hier einen Freund zu erreichen, $gReisender:Reisende;, wenn er Euch darum bitten muss." },
+      },
+    },
     ["bloodsail-buccaneers"] = {
       title = "Die Blutsegelbukaniere",
       text = {
@@ -2234,6 +2262,13 @@ ns.translate({
       text = {
         { "Anvilmar versammelt zwergische und gnomische Rekruten im Coldridgetal, südlich von Kharanos. Hier finden sie ihre Lehrer, ihre ersten Befehle und den Gebirgspass, der sie hinaus nach Dun Morogh führt. Ein bescheidener Anfang vielleicht, aber jeder Weg hat einen." },
         { "Die Befehle betreffen mehr als Übungen. Troggs der Felsenkiefer bedrohen das Tal, Trolle der Frostmane haben in der Nähe ein Lager aufgeschlagen, und Balir Frosthammer und Grelin Whitebeard brauchen Hilfe gegen sie. Haltet Eure Waffe bereit, $gReisender:Reisende;. Die Rekruten werden gebraucht, bevor sie das Tal überhaupt verlassen haben." },
+      },
+    },
+    ["dagran-thaurissan"] = {
+      title = "Imperator Dagran Thaurissan",
+      text = {
+        { "Dagran Thaurissan herrscht über die Dunkeleisenzwerge in der Schattenschmiede, ein Nachfahre des Zauberthans, der Ragnaros herbeirief. Er trägt den Namen seines Ahnen, und ich hüte die Geschichte seines Ahnen. Ich bezweifle, dass wir uns über viel davon einig wären. Der Imperator nennt sich den mächtigsten Diener des Feuerlords. Seine Krone hat seinen Klan nicht von der Macht befreit, die sein Ahne über ihn brachte." },
+        { "Er trägt Ironfoe, und seine Agenten sind bis nach Gnomeregan gelangt. Außerdem hat er König Magnis Tochter Moira zu seiner Braut gemacht. Magni schickte Streiter, um ihn zu töten und sie heimzubringen. Sie töteten den Imperator. Moiras Antwort machte den Rest ihres Auftrags um einiges weniger einfach." },
       },
     },
     ["dalaran"] = {
@@ -2388,6 +2423,14 @@ ns.translate({
       text = {
         { "Jäger versammeln sich in der Weitschreiter-Lodge im Südosten von Loch Modan. Marek Ironheart handelt mit Krokiliskenfleisch und -häuten, während Daryl der Jüngling jedem Herausforderungen stellt, der seine Geschicklichkeit erproben will. Hier gibt es reichlich Arbeit für einen Bogen und keinen Mangel an Gesprächen darüber, wer ihn am besten führt." },
         { "Vyrin Swiftwind schlägt eine andere Prüfung vor. Sie will Old Sooty tot sehen, als Teil eines Plans, Daryls Prahlerei bloßzustellen. In der Lodge lernt Ihr vielleicht etwas über die Jagd, $gReisender:Reisende;, aber Ihr lernt sehr viel über Jäger." },
+      },
+    },
+    ["franclorn-forgewright"] = {
+      title = "Franclorn Forgewright",
+      text = {
+        { "Franclorn Forgewright war der oberste Baumeister der Dunkeleisenzwerge und der Erfinder der Stonewrought-Bauweise. Er wird Euch sagen, dass Ihr mit ziemlicher Sicherheit schon auf etwas gestanden habt, das er gebaut hat, und der große Damm von Loch Modan trägt den Namen seiner Methode. Die Schattenschmiede, die Hauptstadt der Dunkeleisenzwerge unter dem Berg, war sein Werk." },
+        { "Er ist tot. Sein Geist bleibt in seinem Grabmal im Blackrock, sichtbar nur für die, die selbst tot sind, und sein Nachfolger als Baumeister, Fineous Darkvire, hat seinen großen Hammer Ironfel genommen. Franclorn will ihn wieder in den Händen der Statue sehen, die die Dunkeleisenzwerge ihm am Schrein von Thaurissan errichteten. Dafür gibt er den Schlüssel zu den Tiefen dessen her, was er seine verfluchte Stadt nennt." },
+        { "Gebaut hat er sie trotzdem. Ein Zwerg kann eine Stadt verleugnen und dennoch stolz auf ihr Mauerwerk sein, $gReisender:Reisende;. Ich kenne mehrere." },
       },
     },
     ["frostmane-trolls"] = {
@@ -2678,6 +2721,21 @@ ns.translate({
         { "Geht nicht allein in ihre Festung, $gReisender:Reisende;. Geht überhaupt nicht hinein, wenn Ihr es vermeiden könnt." },
       },
     },
+    ["moira-bronzebeard"] = {
+      title = "Prinzessin Moira Bronzebeard",
+      text = {
+        { "Moira Bronzebeard ist Magnis einzige Tochter und die Erbin von Ironforge. Die Dunkeleisenzwerge verschleppten sie, und sie wurde Imperator Dagran Thaurissans Frau. Ihr Vater glaubte, der Imperator habe sie verzaubert, und schickte Streiter, um sie zu befreien." },
+        { "Sie töteten Thaurissan. Moira nannte ihn einen großen und ehrenhaften Zwerg und sagte ihnen, sie trage sein Kind. Sie erklärte, dieses Kind werde Ironforge erben, ob Magni es billige oder nicht. Ihr mögt Magnis Befehle getragen haben, $gReisender:Reisende;, doch Moira hat eine eigene Antwort." },
+        { "Ich hüte die Geschichte von Magnis Haus schon lange. Dies ist das erste Kapitel davon, das ich lieber nicht schreiben würde." },
+      },
+    },
+    ["molten-core"] = {
+      title = "Geschmolzener Kern",
+      text = {
+        { "Unter den Blackrocktiefen, unter allem, liegt der Geschmolzene Kern, eine Welt aus Lava in den Wurzeln des Berges, das eigene Reich des Feuerlords. Ragnaros lebt dort, seit Thaurissan ihn herbeirief, und seine Diener bewachen es: Riesen aus Feuer und Stein, die gefallenen Herren der Flamme und sein Majordomus Executus, der als Einziger ihn wecken darf." },
+        { "Ein seltsames Wesen am Tor des Berges, Lothos Riftwaker, sieht überall um sich Risse in der Welt und zeigt jedem, der kühn genug ist, den Weg hinein. Die Hydraxianer, Ragnaros' uralte Feinde, helfen jedem, der hineingeht." },
+      },
+    },
     ["moonbrook"] = {
       title = "Moonbrook",
       text = {
@@ -2736,6 +2794,13 @@ ns.translate({
       text = {
         { "Naxxramas schwebt über den Pestländern, eine fliegende Zitadelle der Geißel und Kel'Thuzads Sitz. Von ihr kamen Streitkräfte für einen großen Einfall in die Städte Azeroths, was die Argentumdämmerung dazu brachte, jeden zu rufen, der bereit war, sich den Toten entgegenzustellen." },
         { "Fünf Jahre nach dem letzten Krieg regt sich der Lichkönig wieder, und Kel'Thuzad sammelt Heere für einen weiteren Angriff. Monstrositäten, Spinnen und Seuchenbringer bewohnen die Nekropole, zusammen mit vier Reitern, die einst Streiter des Lichts waren. Schaut nach oben, wenn Ihr die Pestländer durchquert, $gReisender:Reisende;. Ihr Befehlshaber hat eine Festung, die nicht darauf angewiesen ist, die Straße darunter zu halten." },
+      },
+    },
+    ["nefarian"] = {
+      title = "Nefarian",
+      text = {
+        { "Nefarian ist der Sohn Todesschwinges und der Bruder Onyxias. Wie seine Schwester nimmt er menschliche Gestalt an: Lord Victor Nefarius befehligt die Orcs der Blackrockspitze. Der Name verbirgt einen Drachen mit Plänen, die weit über die Festung hinausreichen." },
+        { "Vom Pechschwingenhort aus kämpft er mit Ragnaros um die Herrschaft über den Berg und züchtet mit Hilfe der Dunklen Horde chromatische Drachen. Er hat sie für größere Eroberungen bestimmt. Streiter der Allianz und der Horde wurden gegen ihn geschickt, mit dem Versprechen, dass sein abgetrennter Kopf zur Schau gestellt wird. Ein Reisender, der diesen Preis sucht, muss zuerst durch das Heer, das er bereits versammelt hat." },
       },
     },
     ["nekrosh"] = {
@@ -2813,6 +2878,13 @@ ns.translate({
         { "Die Dorfbewohner wissen es, glaube ich, und leben damit auf die einzige Weise, die ihnen bleibt. Es ist der traurigste Ort im Silberwald, und im Silberwald gibt es Konkurrenz." },
       },
     },
+    ["ragnaros"] = {
+      title = "Ragnaros",
+      text = {
+        { "Ragnaros, der Feuerlord, ist ein Elementarfürst, den die Dunkeleisenzwerge vor Jahrhunderten herbeiriefen, in der Hoffnung, ihren Krieg zu gewinnen. Seither hält er sie in seinem Dienst. Ihr Imperator erklärt sich zu seinem Diener, während Feuerelementare durch die Schlucht und die Steppe streifen, die seine Ankunft verwüstete." },
+        { "Im Geschmolzenen Kern wartet er inmitten der Lava darauf, von seinem Majordomus herbeigerufen zu werden. Nefarian macht ihm die Herrschaft über den Berg streitig, und die Hydraxianer setzen ihren uralten Widerstand gegen ihn fort. Die Dunkeleisenzwerge leben zwischen diesen Mächten, noch immer an den gebunden, den ihre Ahnen um Hilfe baten." },
+      },
+    },
     ["ras-frostwhisper"] = {
       title = "Ras Frostraunen",
       text = {
@@ -2862,6 +2934,13 @@ ns.translate({
         { "König Varian Wrynn ist verschwunden. Er war der Sohn von König Llane, der im Ersten Krieg ermordet wurde, und wuchs unter den Flüchtlingen Stormwinds in Lordaeron auf. Sein eigenes Schicksal bleibt in der Stadt, über die er herrschte, unbekannt." },
         { "Sein junger Sohn Anduin trägt die Krone. Hochlord Bolvar Fordragon hält das Königreich für ihn, befehligt seine Streitkräfte und beschützt den Jungen. Die königliche Beraterin, Lady Katrana Prestor, steht an Bolvars Seite." },
         { "Stormwinds Heer ist dünn verteilt, und Forderungen treffen aus allen Richtungen ein." },
+      },
+    },
+    ["rend-blackhand"] = {
+      title = "Kriegshäuptling Rend Blackhand",
+      text = {
+        { "Rend ist der Sohn von Blackhand dem Zerstörer, dem ersten Kriegshäuptling der Horde. Er und sein Bruder Maim führten die Black Tooth Grin unter Orgrim Schicksalshammer, dem Mörder ihres Vaters, und suchten dabei Rache ebenso wie die Stellung, die Blackhand verloren hatte." },
+        { "Rend beansprucht nun von der Blackrockspitze aus den Titel des Kriegshäuptlings, dient Nefarian und befehligt die Orcs des Drachen. Thrall weist diesen Anspruch zurück und schickt Streiter, um ihn zu töten, wobei Etriggs Wissen über die Blackrock hilft, die Antwort zu lenken. Ihr werdet hier zwei Ansprüche auf die Horde hören, doch nur einer dieser Anführer ist einem schwarzen Drachen Rechenschaft schuldig." },
       },
     },
     ["royal-apothecary-society"] = {
@@ -3202,6 +3281,14 @@ ns.translate({
         { "Uther Lightbringer war der erste der Paladine, gesalbt von Erzbischof Faol, der Befehlshaber der Ritter der Silbernen Hand, Prinz Arthas' Lehrer und der größte Streiter, den das Licht unter den Menschen hatte. Er weigerte sich, an der Säuberung Stratholmes teilzunehmen, und Arthas entließ ihn dafür. Als Arthas mit seinem verfluchten Schwert aus Nordend zurückkam, stellte Uther sich ihm entgegen, als Hüter der Urne mit König Terenas' Asche, und sagte seinem alten Schüler, er hoffe, in der Hölle warte ein besonderer Platz auf ihn. Arthas tötete ihn." },
         { "Sein Grabmal steht auf Sorrow Hill über dem Darrowmeresee, eine Halle aus weißem Stein mit seiner Statue darin, mitten im toten Land. Dort ist es still wie nirgends sonst in den Pestländern, und wer noch an das Licht glaubt, kommt, um ihm die Ehre zu erweisen." },
         { side = "Horde", aside = true, sign = "P. F.", "Terenas war mein König, und Uther starb, als er seine Asche hütete. Ich würde dieses Grabmal gern sehen." },
+      },
+    },
+    ["vaelastrasz"] = {
+      title = "Vaelastrasz",
+      text = {
+        { "Vaelastrasz ist ein roter Drache aus dem Schwarm der Drachenkönigin, und vor tausend Jahren wurde ihm ein Splitter des Zepters anvertraut, das Ahn'Qiraj versiegelte. In der Blackrockspitze erscheint er Sterblichen als Vaelan, in einer Gestalt, wie er sagt, deren Anblick sie ertragen können, und er hilft den Kühnen, das Siegel des Aufstiegs zu schmieden, das ihnen die obere Zitadelle öffnet." },
+        { "Das Schmieden verlangt Edelsteine von drei Generälen der Spitze und den Atem eines schwarzen Drachen, dessen Wille gebrochen wurde. Der rote Schwarm hatte nie etwas dagegen, sich das Feuer seines Feindes zu borgen." },
+        { "Am Ende fing Nefarian ihn. Im Pechschwingenhort wartet er, verdreht von der Verderbnis des schwarzen Drachen, und fleht die an, die ihn erreichen, den Splitter des Zepters zurückzunehmen, bevor er zerstört wird. 'Zu spät, Freunde!', sagt er und wendet sich gegen sie. Wer ihn niederstreckt, erfährt danach, dass seine Seele Frieden gefunden hat. Ich hoffe es." },
       },
     },
     ["valley-of-kings"] = {
