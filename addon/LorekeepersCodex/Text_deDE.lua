@@ -2186,6 +2186,14 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Die Chroniken Lordaerons hatten ein Kapitel, das auf ihn wartete: der Erbe, der Paladin, der künftige König. Keine von ihnen irrte sich in seinen Gaben." },
       },
     },
+    ["atiesh"] = {
+      title = "Atiesh",
+      text = {
+        { "Atiesh war der Stab der Wächter von Tirisfal, am Ende Medivhs, und nach seinem Tod wurde er zerbrochen und verstreut. Seine Splitter wurden aus der Nekropole Naxxramas zusammengetragen, wo Kel'Thuzad auf seinem Thron saß und hielt, was der Träger suchte. Sein Fuß ging mit dem zwergischen Forscher Brann Bronzebeard nach Ahn'Qiraj, der ohne ihn wieder herauskam." },
+        { "Ein Stab, der die Macht eines Wächters getragen hatte, hatte auch die von Sargeras getragen, wie sein letzter Wächter, und das Böse war noch darin. Anachronos vom bronzenen Schwarm, bei den Höhlen der Zeit, schickt jeden, der ihm die Teile bringt, nach Stratholme, auf den geweihten Boden, auf dem die größten Ritter Lordaerons ermordet wurden, um das Ding darin herauszurufen und zu vernichten." },
+        { "Sehr wenige werden ihn je halten. Der bronzene Drache sagt, wer es tut, sei immer dazu bestimmt gewesen. Der bronzene Schwarm sagt solche Dinge sehr oft." },
+      },
+    },
     ["bael-modan"] = {
       title = "Bael Modan",
       text = {
@@ -2351,6 +2359,13 @@ ns.translate({
         { "Es hat einen seltsamen Gast: einen Stacheleber namens Quetschzahn, einen Gefangenen der Tauren, der die Segnungen des Ebergottes Agammagan kennt und sie jedem lehrt, der ihm die richtigen Steine bringt. Die Tauren dulden ihn. Er ist, so sagt man mir, sehr unhöflich." },
       },
     },
+    ["caverns-of-time"] = {
+      title = "Die Höhlen der Zeit",
+      text = {
+        { "Im Osten von Tanaris, zwischen den Felsen über dem Meer, führt eine Höhle hinab in die Höhlen der Zeit, den Hort des bronzenen Drachenschwarms. Ihr Herr ist Nozdormu, der Zeitlose, der Drachenaspekt, der über die Zeit wacht, und seine Drachen bewachen ihre Pfade, damit das, was war, nicht ungeschehen gemacht werden kann." },
+        { "Kein Reisender kommt weit hinein. Doch am Eingang der Höhlen hat man einen bronzenen Drachen in sterblicher Gestalt warten sehen, Anachronos, und er weiß sehr viel über den Krieg gegen die Insekten von Silithus vor tausend Jahren und über den Anteil, den sein Schwarm daran hatte." },
+      },
+    },
     ["chillwind-camp"] = {
       title = "Chillwind-Lager",
       text = {
@@ -2371,6 +2386,13 @@ ns.translate({
       text = {
         { "Anvilmar versammelt zwergische und gnomische Rekruten im Coldridgetal, südlich von Kharanos. Hier finden sie ihre Lehrer, ihre ersten Befehle und den Gebirgspass, der sie hinaus nach Dun Morogh führt. Ein bescheidener Anfang vielleicht, aber jeder Weg hat einen." },
         { "Die Befehle betreffen mehr als Übungen. Troggs der Felsenkiefer bedrohen das Tal, Trolle der Frostmane haben in der Nähe ein Lager aufgeschlagen, und Balir Frosthammer und Grelin Whitebeard brauchen Hilfe gegen sie. Haltet Eure Waffe bereit, $gReisender:Reisende;. Die Rekruten werden gebraucht, bevor sie das Tal überhaupt verlassen haben." },
+      },
+    },
+    ["crystal-pylons"] = {
+      title = "Die Kristallpylonen",
+      text = {
+        { "J.D. Collies Arbeit beginnt mit den farbigen Kristallen, die über ganz Un'Goro verstreut sind. Berichte über große Pylonen, die mit Kristallen besetzt sind, führen ihre Nachforschungen in die Wildnis, wo drei davon im Norden, Osten und Westen des Kraters stehen." },
+        { "Verschiedene Kombinationen erzeugen an diesen Pylonen nützliche Wirkungen, und Collie hat ein Handbuch für weitere Versuche geschrieben. Die Expedition kann jetzt etwas mit den Kristallen anfangen, auch wenn die Absichten ihrer Erbauer ein Rätsel bleiben. Es liegt eine ehrliche Befriedigung in einer Entdeckung, die die Werkbank erreicht, bevor sie die Geschichtsbücher erreicht." },
       },
     },
     ["daelin-proudmoore"] = {
@@ -2636,6 +2658,13 @@ ns.translate({
         { "Heute gehört der Wald den Ogern der Gordunni, deren wachsende Zahl die Siedlungen in der Nähe beunruhigt, Gnollen, Yetis, Naga an der Küste und den Grimmtotem in den Hügeln. Die Schildwachen halten eine Inselfestung vor der Küste, die Horde ein Lager im Osten, und im Herzen des Waldes steht die zerbrochene Stadt der Hochgeborenen, die die Oger Düsterbruch nennen." },
       },
     },
+    ["fire-plume-ridge"] = {
+      title = "Der Feuerfedergrat",
+      text = {
+        { "Der Feuerfedergrat erhebt sich in der Mitte von Un'Goro, mit Lava auf seinen Hängen und Feuerelementaren zwischen den Strömen. Sturmflamme bewohnt eine Höhle nahe dem Gipfel. Der Vulkan gibt den Forschern des Kraters einen auffälligen Gegenstand zum Studium." },
+        { "Ringo ging, um ihn zu erkunden, und wurde in einer Höhle an seinem Südhang gefunden, verirrt und schwer überhitzt. Die Gelehrten in Marshals Zuflucht wollen noch immer wissen, was im Herzen des Grates liegt. Ein Reisender kann ihre Neugier teilen, ohne Ringos Vorbereitungen zu teilen." },
+      },
+    },
     ["franclorn-forgewright"] = {
       title = "Franclorn Forgewright",
       text = {
@@ -2664,6 +2693,13 @@ ns.translate({
         { "Durotans Frostwolf verweigerten das Dämonenblut, das einen Großteil der Horde band. Als er sich den Hexenmeistern und ihrem Einfall in Azeroth widersetzte, verbannte Gul'dan seinen Klan. Sie fristeten ein hartes Leben im Alteracgebirge. Durotan wurde ermordet, doch der Klan überdauerte." },
         { "Sein Sohn Thrall fand sie nach seiner Flucht aus Durnholde. Sie lehrten ihn das Leben seines Volkes, und ihr Schamane Drek'Thar lehrte ihn, den Elementen zu folgen. Als Thrall später die Internierungslager befreite und die Horde über das Meer führte, blieben die Frostwolf in ihrem Tal." },
         { "Drek'Thar, heute blind, führt sie noch immer dort. Sie wollen ihre Heimat behalten. Die Expedition der Stormpike hat einen Anspruch Ironforges dagegen mitgebracht." },
+      },
+    },
+    ["gadgetzan"] = {
+      title = "Gadgetzan",
+      text = {
+        { "Gadgetzan ist eine Goblinstadt im Norden der Wüste von Tanaris, für das Steamwheedle-Kartell von Marin Noggenfogger geführt. Sie hat Mauern, Brunnen, ein Auktionshaus, ein Gasthaus, sehr viele Ingenieure und eine Wache aus angeheuerten Schlägern, die den Frieden mit großer Begeisterung wahren. Allianz und Horde handeln beide hier, und beide benehmen sich, sonst setzt es was." },
+        { "Die Stadt lebt von ihrem Wasser. Ihre Ingenieure graben die Brunnen und ermitteln, wo die nächsten zu graben sind, und alle anderen bezahlen dafür. Es ist auch der Ort, um fast alles zu kaufen, vom Elixier eines Goblins, das einen vielleicht in ein Skelett verwandelt, bis zu den Eiern seltsamer Vögel, und um von fast allem zu hören, was im Süden vor sich geht." },
       },
     },
     ["gates-of-ironforge"] = {
@@ -2965,6 +3001,14 @@ ns.translate({
         { "Als Naxxramas über dem Land erschien, traf sich selbst der Scharlachrote Kreuzzug hier mit der Argentumdämmerung, um sich auf einen gemeinsamen Kampf zu einigen. Kel'Thuzads erbeutete Phylakterie wurde später in die Kapelle gebracht. Ein Reisender, der an ihren Mauern vorbeikommt, sieht ein bescheidenes Gebäude für einen Ort, an dem so viele Feinde Grund hatten, sich zu treffen." },
       },
     },
+    ["linken"] = {
+      title = "Linken",
+      text = {
+        { "Linken tauchte eines Tages in Marshals Zuflucht auf und hatte keine Ahnung, wie er dorthin gekommen war. Niemand sonst weiß es auch, sagt er fröhlich. Es ist ein Geheimnis für alle. Er ist ein Gnom, auch wenn die Gnome des Lagers bemerken, dass er nichts von ihrem Interesse an Apparaten zeigt, und er hatte einen Rucksack, ein Schwert und eine Beule am Kopf." },
+        { "Die Erinnerungen kehren Stück für Stück zurück, während Reisende ihm helfen: ein Schwert, das in den heißen Quellen von Winterspring gehärtet werden muss, ein Totem, das mit Hilfe eines Freundes im Teufelswald entsteht. Am Ende erinnert er sich. Er kam in den Krater, um gegen Sturmflamme zu kämpfen, den Feuerelementar, der ein Artefakt namens Goldene Flamme bewacht, und dies sollte der letzte Schritt einer langen Reise sein." },
+        { "Er geht ihn nicht selbst. Ihr seid jetzt der Held, sagt er zu dem, der ihm geholfen hat, und schickt ihn mit der Warnung weiter, dass es gefährlich sei, allein zu gehen. Die Flamme, verspricht er, werde in seine Heimat zurückgebracht und vor bösen Händen bewahrt. Diese Heimat habe ich auf keiner Karte gefunden. Ich habe gesucht." },
+      },
+    },
     ["loch-modan"] = {
       title = "Loch Modan",
       text = {
@@ -3007,6 +3051,13 @@ ns.translate({
       text = {
         { "Marshal Reginald Windsor befehligte Soldaten der Allianz in Morgans Wacht und sammelte Beweise, die die Orcs der Blackrock mit dem schwarzen Drachenschwarm in Verbindung brachten. Er begann zu vermuten, dass jemand in Stormwind diese Beweise verloren sehen wollte. Die Dunkeleisenzwerge nahmen ihn gefangen, nahmen seine Aufzeichnungen und machten sich daran, ihren Code zu entschlüsseln." },
         { "Windsor überlebte im Gefängnis der Schattenschmiede. Er beharrte darauf, Bolvar Fordragon sei blind für die Wahrheit, obwohl der Beweis zwei Fuß von ihm entfernt stehe. Wer den Marshal rettete, erfuhr bald, was er meinte." },
+      },
+    },
+    ["marshals-refuge"] = {
+      title = "Marshals Zuflucht",
+      text = {
+        { "Marshals Zuflucht ist ein Lager auf einem Felsvorsprung am nördlichen Rand des Kraters, wo die Überlebenden der Expedition von Marshal Schutz suchten. Die Expedition kam unter Williden und Hol'anyee Marshal, um den Krater zu erforschen, und sie unterschätzte die Tiere: Ihre Lager wurden überrannt, und sie flohen auf die Anhöhe." },
+        { "Sie sind noch immer dort, mit einer seltsamen Schar von Gelehrten, Jägern und verirrten Forschern, die sich ihnen angeschlossen haben, und alle studieren den Krater von dem einen Ort aus, an dem nichts sie fressen wird. Einer von ihnen, ein Forscher namens Ringo, wanderte zum Vulkan davon. Wie ich höre, wurde er gefunden." },
       },
     },
     ["mekgineer-thermaplugg"] = {
@@ -3427,6 +3478,13 @@ ns.translate({
         { "Die Zwerge sind fort. Die Insekten nicht. Die Jäger der Horde, die überlebten, halten die Silithiden nun für eine weit größere Gefahr als jede Grabungsmannschaft, und nachdem ich die Berichte gelesen habe, tue ich das auch. Wonach die Zwerge suchten, hat mir niemand gesagt. Ich bin nicht sicher, ob sie es gefunden haben." },
       },
     },
+    ["sandfury-trolls"] = {
+      title = "Die Trolle der Sandfury",
+      text = {
+        { "Die Sandfury sind die Trolle der Wüste von Tanaris, groß, hager und hart wie der Sand, auf dem sie leben. Ihre Hauptstadt ist Zul'Farrak im Westen der Wüste, und sie verteidigen, was von ihren Landen übrig ist, gegen jeden: Allianz, Horde, Goblins, Oger, Banditen und vor allem die Insekten des Südens." },
+        { "Sie sind ein altes Volk mit alten Kriegen hinter sich. Ihr Märtyrer Theka starb im Kampf gegen die Insektenkrieger, die gegen seine Stadt zogen, und die Sandfury sagen, seine Mörder seien verflucht worden, als Skarabäen an seinem Schrein weiterzuleben. Sie verehren die große Hydra Gahz'rilla in ihrem heiligen Teich, und sie erwecken ihre eigenen Toten, damit sie weiterarbeiten, wenn sie fallen." },
+      },
+    },
     ["scarlet-monastery"] = {
       title = "Das Scharlachrote Kloster",
       text = {
@@ -3672,6 +3730,13 @@ ns.translate({
         { "Taelan Fordring wuchs in dem Glauben auf, sein Vater sei tot. Als Tirion seiner Ländereien beraubt wurde, weil er sein Wort gegenüber einem Orc hielt, blieb Taelans Mutter zurück und erzählte dem Jungen so viel. Er trat dem Scharlachroten Kreuzzug bei, stieg unter dem Obersten Kreuzzügler auf, riss das Banner der Silbernen Hand in Northdale nieder und wurde Hochlord des Kreuzzugs in Hearthglen." },
         { "Er habe nie aufgehört, von seinem Vater zu träumen, sagt er: davon, dass Tirion an seiner Seite stünde an dem Tag, an dem er zum Ritter geschlagen würde, dass sie gemeinsam gegen die Geißel kämpften, für die Ehre Lordaerons. Als Reisende ihm die Dinge bringen, die Tirion für ihn aufbewahrt hat, und die Wahrheit darüber, was aus dem Kreuzzug geworden ist, bricht er mit ihm und reitet hinaus, um seinen Vater zu finden." },
         { "Weit kommt er nicht. Großinquisitor Isillien streckt ihn vor Hearthglen nieder, in Sichtweite des Mannes, zu dem er ritt, und Tirion tötet Isillien über dem Leichnam seines Sohnes. Der Orden der Silbernen Hand, sagt Tirion danach, ist wiedergeboren. Es kostete ihn seinen Sohn, sich zu erinnern, wofür er da war." },
+      },
+    },
+    ["tanaris"] = {
+      title = "Tanaris",
+      text = {
+        { "Tanaris ist die große Wüste im Süden Kalimdors, ein Ozean aus Dünen und zerbrochenem Fels zwischen Tausend Nadeln und dem Meer. Wasser ist hier mehr wert als Gold, und die Goblins, die ihre einzige Stadt führen, wissen das." },
+        { "Bei aller Leere ist es eine belebte Wüste. Die Trolle der Sandfury halten ihre Stadt im Westen, Banditen der Wüstenläufer streifen durch die Dünen, Piraten halten die Südküste, Oger den Süden, und in der klaffenden Schlucht regen sich die Silithiden. Und im fernen Süden, hinter versiegelten Toren, liegt eines der eigenen Werke der Titanen, für dessen Betreten die Forscherliga ihre Bärte hergeben würde." },
       },
     },
     ["tarren-mill"] = {
@@ -3942,12 +4007,27 @@ ns.translate({
         { "Troggs bewohnen nun die äußeren Hallen, und Dunkeleisenzwerge der Schattenschmiede suchen die Geheimnisse darin. Die Liga ringt mit beiden. Jenseits von Archaedas, dem letzten Wächter des Gewölbes, liegen die Scheiben von Norgannon und ihr Bericht über das Werk der Titanen. Die Liga hat guten Grund, weiterzugraben, selbst nachdem sie erfahren hat, was ihre Grabungen sonst noch freisetzen können." },
       },
     },
+    ["uldum"] = {
+      title = "Uldum",
+      text = {
+        { "Die versiegelten Tore von Uldum stehen im Tal der Behüter, weit im Süden von Tanaris. Bringt die Platinscheiben von Uldaman in ihre Nähe, und der Steinbehüter von Norgannon erwacht. Er bewacht den Eingang und verlangt die Platten von Uldum, bevor er jemanden einlässt." },
+        { "Der Behüter beschreibt eine Forschungsanlage der Titanen, die sich mit dem Leben dieser Welt befasst. Wo die verlangten Platten liegen, sagt er uns nicht. Die Liga hat einen Namen, einen Zweck und ein verschlossenes Tor zu erforschen, $gReisender:Reisende;. Wir würden sehr gern einen Weg hindurch hinzufügen." },
+      },
+    },
     ["undercity"] = {
       title = "Undercity",
       text = {
         { "Lordaerons Hauptstadt liegt in Trümmern über der eigenen Stadt der Verlassenen. Hinter ihren zerbrochenen Mauern liegen der zerschmetterte Thronsaal und leblose Höfe. Darunter sind alte Grüfte und Katakomben zu Undercity geworden, angelegt um Ringe aus grünem Schleim. Sylvanas hält Hof in ihrem Königsviertel." },
         { "Händler, Lehrer und Wachen bewohnen die anderen Viertel, und die Königliche Apothekervereinigung arbeitet im Apothekarium. Die Verlassenen haben eine funktionierende Hauptstadt unter dem Wrack derjenigen geschaffen, die sie im Leben kannten. Ein Reisender, der nur die Ruinen oben ansieht, würde übersehen, wo die verbliebenen Geschäfte des Königreichs heute geführt werden." },
         { side = "Horde", aside = true, sign = "P. F.", "Mit dem Apothekarium hat sie recht, so weit es reicht. Ihr findet mich dort, auf der südlichen seiner beiden Brücken, wo ich Helden Fragen stelle, die glauben, Stärke genüge. Kommt und lasst Euch prüfen, $gReisender:Reisende;." },
+      },
+    },
+    ["ungoro-crater"] = {
+      title = "Un'Goro-Krater",
+      text = {
+        { "Un'Goro ist ein dampfender grüner Kessel, eingesunken zwischen den Wüsten von Tanaris und Silithus. Teufelssaurier schreiten durch seinen Dschungel, Stegodons und große Affen bewohnen das Becken, und Pterrordaxe kreisen darüber. Die Tauren, die hierher reisen, sprechen von Geschöpfen, edler als ihre Gegenstücke draußen, und von der Verbindung des Kraters zur Erdenmutter." },
+        { "Teergruben, heiße Quellen und der Feuerfedergrat teilen den Wald, mit einem Stock der Silithiden im Süden. In Marshals Zuflucht studiert die Expedition ein Land, das ein anderes Zeitalter bewahrt zu haben scheint. J.D. Collies Versuche mit den farbigen Kristallen haben begonnen, ihre Verwendungen zu enthüllen. Ihr Ursprung bleibt eine größere Frage." },
+        { client = "forever", "Die Shapers' Terrace hat dieser Frage einen Ort gegeben, an dem sie beginnen kann." },
       },
     },
     ["uthers-tomb"] = {
@@ -4084,6 +4164,13 @@ ns.translate({
       text = {
         { "Die Zandalar bezeichnen sich als den ältesten Stamm der Trolle, von dem die anderen abstammen. Ihre Priester und Gelehrten bewahren die Erinnerung an ihr Volk und ihre Götter. Selten mischen sie sich in die Angelegenheiten anderer Völker ein, doch Hakkars Rückkehr hat sie auf die Insel Yojamba vor der Küste des Schlingendorntals gebracht." },
         { "Ihr Anführer Molthor arbeitet mit jedem zusammen, der bereit ist, sich dem Seelenschinder entgegenzustellen. Diese Einladung schließt Leute ein, die die Trolle gewöhnlich wenig Grund hätten willkommen zu heißen." },
+      },
+    },
+    ["zulfarrak"] = {
+      title = "Zul'Farrak",
+      text = {
+        { "Zul'Farrak ist die Stadt der Trolle der Sandfury, eine ummauerte Stadt aus Sandstein im Westen von Tanaris, mit Pyramiden, Schreinen und einem heiligen Teich, aus dem die Hydra Gahz'rilla aus der Tiefe gerufen wird. Häuptling Ukorz Sandscalp herrscht über sie, und der Schrein des Märtyrers Theka steht innerhalb ihrer Mauern." },
+        { "Viele kommen hierher wegen dessen, was die Trolle bewachen. Die Schrifttafeln der Prophezeiung von Mosh'aru sprechen von einem Weg, die Essenz des Gottes Hakkar einzuschließen. Es gibt auch eine legendäre Klinge und das eigene Härtemittel der Trolle, das Schmiede schätzen. Und es gibt Schätze, die Goblins und Narren in gleicher Zahl anlocken. Die meisten von ihnen kommen nie wieder heraus." },
       },
     },
     ["zulgurub"] = {
