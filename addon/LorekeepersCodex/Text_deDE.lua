@@ -2086,11 +2086,42 @@ ns.translate({
         { "Hier soll er liegen. Vor der Geißel war es ein Ort der Pilgerfahrt. Heute sammelt er die Toten des Scharlachroten Klosters, und niemand kommt, um ihn zu betrauern. Er hätte Besseres verdient, und der Orden, den er gründete, ebenso." },
       },
     },
+    ["alterac-mountains"] = {
+      title = "Alteracgebirge",
+      text = {
+        { "Schnee bedeckt einen Großteil von Alterac, doch er hat wenig getan, um den Fall des Königreichs zu verbergen. Zerbrochene Burgen stehen über Städten, die das Syndikat hält, Oger bewohnen die alte Hauptstadt, und die Straßen steigen an Höhlen vorbei, die nun den Yetis gehören. Dies waren einst die Höhen eines kleinen, stolzen Reiches der Menschen, dessen König die Allianz im Zweiten Krieg verriet." },
+        { client = "classic", "Am Lordameresee umschließt eine violette Kuppel den Wiederaufbau Dalarans. Die Magier haben die Zerstörung ihrer Stadt überlebt und neu begonnen, auch wenn sie bei der Arbeit kaum Zeugen zulassen." },
+        { client = "forever", "Am Lordameresee ist Dalarans Wiederaufbau in ein weiteres Unglück geraten. Gestörte Kraftlinien haben die Konstrukte der Stadt gegen ihre Bewohner gewandt, und Erzmagierin Modera sucht die Hilfe von außen, die der Rat lieber nicht bräuchte." },
+        { "Weiter in den Bergen kämpfen die Frostwolf und die Stormpike um das Alteractal. Das Königreich ist verschwunden, $gReisender:Reisende;. Der Streit darüber, wer in seinen Hügeln leben darf, hat es überdauert." },
+      },
+    },
+    ["alterac-valley"] = {
+      title = "Alteractal",
+      text = {
+        { "Im Süden des Alteracgebirges liegt ein verborgenes Tal, und zwei Völker beanspruchen es. Die Orcs des Frostwolfklans leben seit einer Generation in seinem südlichen Teil, seit der Hexenmeister Gul'dan sie dorthin verbannte. Die Zwerge des Stormpikeklans kamen später, um zu graben: nach Erzen und nach Relikten aus der fernen Vergangenheit unseres Volkes, die die Forscherliga unter dem Eis des Tals vermutet." },
+        { "Die Frostwolf sahen Eindringlinge. Die Stormpike sahen Orcs, die ehrlicher Wissenschaft im Weg standen, und König Magni hat ihnen inzwischen den königlichen Befehl erteilt, das Tal für Ironforge einzunehmen. Nun kämpfen die beiden mit Heeren, Burgen, Friedhöfen und Minen quer durch das Tal, und beide Seiten rufen ihr ganzes Bündnis um Hilfe. Ich wünschte, ich könnte sagen, die Liga habe keinen Anteil daran." },
+      },
+    },
     ["ambermill"] = {
       title = "Ambermill",
       text = {
         { "Ambermill ist ein Dorf im Osten des Silberwalds, das den Verlassenen noch standhält, und es hält stand wegen der Magier von Dalaran. Die Kirin Tor haben Zauberer, Beschützer und Wagenladungen voller Vorräte aus Hillsbrad geschickt, sehr viel Aufmerksamkeit für ein abgelegenes Dorf." },
         { "Die Verlassenen haben herausgefunden, warum: Unter Ambermill liegt ein ruhender Knotenpunkt von Kraftlinienenergie, und Dalaran will ihn wecken. Wozu, weiß niemand im Grabmal, und die Zauberer sagen es nicht." },
+      },
+    },
+    ["arathi-basin"] = {
+      title = "Arathibecken",
+      text = {
+        { "Im Süden des Hochlands liegt ein fruchtbares Becken aus Höfen, Minen und Mühlen, das reichste Land, das in Arathi übrig ist, und die Allianz wie die Horde wollen, was es hervorbringt. Der Bund von Arathor, dem Andenken Stromgardes verschworen, kämpft von Westen her darum. Die Entweihten, von den Verlassenen aufgestellt, kämpfen von Osten her." },
+        { "Sie kämpfen um einen Hof, eine Mine, ein Sägewerk, einen Stall und eine Schmiede, hissen die Banner der anderen und reißen sie nieder, den ganzen Tag und die ganze Nacht. Arathor hätte es verstanden: Das erste Reich der Menschen wurde auf genau solchem Land errichtet." },
+      },
+    },
+    ["arathi-highlands"] = {
+      title = "Arathihochland",
+      text = {
+        { "Das Arathihochland ist windgepeitschtes Land zwischen Hillsbrad und dem Sumpfland. Hier vereinte Thoradin die Stämme der Menschen zu Arathor, mit der Hauptstadt Strom. Jedes spätere Königreich der Menschen wuchs aus diesem Anfang." },
+        { "Strom wurde zu Stromgarde. Seine Ruinen sind heute zwischen seinen Verteidigern, Dieben des Syndikats und Ogern aufgeteilt. Trolle der Witherbark bewohnen Siedlungen in den Hügeln, während Riesen seltsame Kreise aus aufrecht stehenden Steinen bewachen. Die Zuflucht beherbergt das Lager der Allianz, Hammerfall das der Horde. Ihre Streitkräfte kämpfen um die Höfe, Minen und Mühlen des Beckens im Süden." },
+        { "Betrachtet das alte Mauerwerk, wenn Ihr Arathi durchquert, $gReisender:Reisende;. Die Königreiche der Menschen haben hier begonnen. Die Leute, die Stromgarde verteidigen, versuchen noch immer, einen Teil dieses Anfangs für sich zu behalten." },
       },
     },
     ["archesonus"] = {
@@ -2158,6 +2189,14 @@ ns.translate({
       text = {
         { "Anvilmar versammelt zwergische und gnomische Rekruten im Coldridgetal, südlich von Kharanos. Hier finden sie ihre Lehrer, ihre ersten Befehle und den Gebirgspass, der sie hinaus nach Dun Morogh führt. Ein bescheidener Anfang vielleicht, aber jeder Weg hat einen." },
         { "Die Befehle betreffen mehr als Übungen. Troggs der Felsenkiefer bedrohen das Tal, Trolle der Frostmane haben in der Nähe ein Lager aufgeschlagen, und Balir Frosthammer und Grelin Whitebeard brauchen Hilfe gegen sie. Haltet Eure Waffe bereit, $gReisender:Reisende;. Die Rekruten werden gebraucht, bevor sie das Tal überhaupt verlassen haben." },
+      },
+    },
+    ["dalaran"] = {
+      title = "Dalaran",
+      text = {
+        { "Dalarans Türme standen jahrhundertelang am Lordameresee, Heimat der Kirin Tor und von Generationen von Schülern der Magie. Im Dritten Krieg nahm die Geißel die Stadt ein und tötete Antonidas. Archimonde zerstörte dann, was ihre Verteidiger nicht hatten retten können." },
+        { client = "classic", "Die überlebenden Kirin Tor haben eine große Kuppel aus violettem Licht über den Ruinen errichtet und mit dem Wiederaufbau begonnen. Ihre Zauberer arbeiten noch immer in Hillsbrad und im Silberwald, im alten Internierungslager und in Ambermill. Erzmagier Ansirem Runeweaver empfängt Reisende vor der Kuppel. Es hat etwas Ermutigendes, wenn eine Stadt neu beginnt, selbst wenn ihre Erbauer darauf bestehen, die Vorhänge zuzuziehen." },
+        { client = "forever", "Der Wiederaufbau ist von einer Krise in der Stadt eingeholt worden. Etwas hat ihre Kraftlinien gestört und ihre Konstrukte unberechenbar und zerstörerisch gemacht. Der Rat will die Sache unter sich behalten. Modera, deren Abbild am Lordameresee wartet, hat um Hilfe von außen gerufen. Die Magier haben die Zerstörung einer Stadt überlebt. Sie ist nicht bereit, ihren Stolz zur Zerstörung einer weiteren beitragen zu lassen." },
       },
     },
     ["darkshire"] = {
@@ -2228,6 +2267,14 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Ein Mädchen aus einem Haushalt Lordaerons hat für die Orcs mehr getan als die ganze Allianz Lordaerons. Ihr Name gehört in mehr Chroniken als diese." },
       },
     },
+    ["durotan-and-draka"] = {
+      title = "Durotan und Draka",
+      text = {
+        { "Durotan war Häuptling des Frostwolfklans, und der eine Häuptling, der nicht trinken wollte. Als Gul'dan die Klans versammelte, um Mannoroths Blut zu trinken, weigerte sich Durotan und warnte jeden, der zuhören wollte, dass die Hexenmeister zerstörten, was die Orcs einmal gewesen waren. Gul'dan konnte einen so beliebten Helden nicht offen töten, also verbannte er ihn und seinen ganzen Klan an den äußersten Rand der neuen Welt: in diese Berge." },
+        { "Seine Gefährtin Draka ging mit ihm ins Exil, und ihr kleiner Sohn mit ihnen. Durotan ging noch einmal zurück, um seinen alten Freund Orgrim Schicksalshammer vor Gul'dan zu warnen. Gul'dans Meuchler folgten ihm nach Hause und ermordeten ihn und Draka. Ihr kleiner Sohn wurde neben ihnen von einem menschlichen Offizier gefunden, Aedelas Blackmoore, der ihn als Sklaven aufzog und Thrall nannte." },
+        { "Die Frostwolf halten im Alteractal ein Grab für Durotan. Ihr Scharfseher Drek'Thar schrieb die Worte darauf: der tapferste ihrer Art, verraten von denen, die die Orcs versklavt sehen wollten. Der Vater des Kriegshäuptlings, $gReisender:Reisende;, hat nie gesehen, was aus seinem Sohn wurde. Die Frostwolf sorgen dafür, dass das Volk seines Sohnes weiß, wessen Sohn er ist." },
+      },
+    },
     ["duskwood"] = {
       title = "Dämmerwald",
       text = {
@@ -2280,6 +2327,14 @@ ns.translate({
       text = {
         { "Die Frostmane bewohnen das verschneite Land westlich von Kharanos und Lager bis hinüber zum Coldridgetal. Ihre Höhle beherbergt Kopfjäger, Seher und Schattenzauberer, und so müssen die Gebirgsjäger zwischen den Verwehungen auf mehr achten als auf Speerspitzen." },
         { "Grelin Whitebeard warnt vor neuen Angriffen, und junge Zwerge werden fast sofort gegen sie ausgeschickt, kaum dass sie von zu Hause fort sind. Der Streit wird sehr früh vertraut: ein Trolllager jenseits des letzten freundlichen Feuers, ein Bericht, der zu den Wachen zurückgebracht wird, und eine weitere Patrouille, die in denselben Schnee geschickt wird." },
+      },
+    },
+    ["frostwolf-clan"] = {
+      title = "Der Frostwolfklan",
+      text = {
+        { "Durotans Frostwolf verweigerten das Dämonenblut, das einen Großteil der Horde band. Als er sich den Hexenmeistern und ihrem Einfall in Azeroth widersetzte, verbannte Gul'dan seinen Klan. Sie fristeten ein hartes Leben im Alteracgebirge. Durotan wurde ermordet, doch der Klan überdauerte." },
+        { "Sein Sohn Thrall fand sie nach seiner Flucht aus Durnholde. Sie lehrten ihn das Leben seines Volkes, und ihr Schamane Drek'Thar lehrte ihn, den Elementen zu folgen. Als Thrall später die Internierungslager befreite und die Horde über das Meer führte, blieben die Frostwolf in ihrem Tal." },
+        { "Drek'Thar, heute blind, führt sie noch immer dort. Sie wollen ihre Heimat behalten. Die Expedition der Stormpike hat einen Anspruch Ironforges dagegen mitgebracht." },
       },
     },
     ["gates-of-ironforge"] = {
@@ -2377,6 +2432,21 @@ ns.translate({
         { "Die eigenen Toten der Halle finden keine Ruhe. Afadra Dunwall, eine Hüterin der Überlieferung aus Ironforge, bittet Reisende, die Geister von Anvilmar zur Ruhe zu betten, und einer von ihnen, Faldrim Anvilmar, scheint einen alten Groll weit über das Grab hinaus bewahrt zu haben. König Magni will den Kopf des Befehlshabers. Ich hätte gern, dass die Liga sich den Ort einmal gründlich ansieht, sobald die Dunkeleisenzwerge draußen sind." },
       },
     },
+    ["hammerfall"] = {
+      title = "Hammerfall",
+      text = {
+        { "Hammerfall war nach dem Zweiten Krieg ein großes Internierungslager für Orcs. Thrall und Orgrim Schicksalshammer brachen es gemeinsam auf. Während der Kämpfe stach ein Ritter Schicksalshammer mit einer Lanze von hinten nieder, und der frühere Kriegshäuptling starb hier." },
+        { "Die Horde hat das Lager als Festung wiederaufgebaut und es ihm zum Gedenken benannt. Manche der Orcs hinter seiner Palisade waren einst Gefangene auf diesem Boden." },
+      },
+    },
+    ["helcular"] = {
+      title = "Helcular",
+      text = {
+        { "Helcular war ein Zauberer aus den Hügeln über Southshore, und er war beinahe ein Lich, als die Leute von Southshore seinen Ritualhort fanden und ihn töteten. Sie begruben ihn auf ihrem eigenen Friedhof, wohl um ihn im Auge zu behalten. Sein Lehrling nahm es schlecht auf." },
+        { "Die Yetis haben den Hort jetzt, und mit ihm die Rute, durch die Helcular seine Riten wirkte. Er hatte in den Höhlen dieser Berge drei zeremonielle Feuer errichtet, die Flammen von Azel, Veraz und Uzel, und sein Lehrling will, dass die Rute geborgen, an jeder von ihnen aufgeladen und in das Grab seines Meisters mitten in der Stadt der Menschen getrieben wird." },
+        { "Was dann aus dem Friedhof von Southshore heraufkommt, ist nicht der Zauberer, der er war, doch es erinnert sich, wer ihn begraben hat. Southshore hat sehr viele Feinde, $gReisender:Reisende;. Diesen hat es sich selbst gemacht." },
+      },
+    },
     ["high-tinker-mekkatorque"] = {
       title = "Hochtüftler Mekkatorque",
       text = {
@@ -2396,6 +2466,15 @@ ns.translate({
       text = {
         { "Der Steckbrief an der Weststromgarnison beschreibt Hogger als riesigen Gnoll, der im Süden lagert, im Südwesten von Elwynn. Er gehört zu den Flusspfoten, und den Wachen von Stormwind ist es nicht gelungen, ihn zu fangen. Für seine Klaue ist eine Belohnung ausgesetzt." },
         { "Der Steckbrief rät, eine Gruppe mitzubringen. Befolgt diesen Rat, $gReisender:Reisende;. Das Eingeständnis einer Wache, dass sie Hilfe braucht, ist nützlicher als die Gewissheit eines Abenteurers, dass er keine braucht." },
+      },
+    },
+    ["internment-camps"] = {
+      title = "Die Internierungslager",
+      text = {
+        { "Nach dem Zweiten Krieg hatte die Allianz ein Problem, das sie nie zuvor gehabt hatte: ein ganzes Volk als Gefangene. Die Orcs wurden in Lager getrieben, und als die Lager überquollen, baute man neue auf den Ebenen südlich dieser Berge. König Terenas besteuerte die anderen Königreiche, um sie zu bezahlen, und die Steuer zerbrach beinahe die Allianz." },
+        { "Dann bemerkten die Aufseher etwas Seltsames. Die Orcs hörten auf zu fliehen. Sie hörten sogar auf, einander zu bekämpfen. Sie saßen. Manche nannten es eine Krankheit. Erzmagier Antonidas von Dalaran sah es anders: Die Orcs waren über Generationen mit dämonischer Magie gefüttert worden, und was die Aufseher sahen, war Entzug. Es gebe kein Heilmittel, schloss er, außer einem geistigen, und viele in der Allianz hielten es für unklug, überhaupt nach einem zu suchen." },
+        { "Der oberste Aufseher, Aedelas Blackmoore, beherrschte die Lager von Durnholde aus und hielt sich einen eigenen Orcsklaven, aufgezogen als Waffe. Der Sklave war Thrall. Er fand sein Volk hinter diesen Mauern sitzend, und am Ende kam er zurück, um die Lager aufzubrechen. Heute werden hier keine Orcs mehr festgehalten. Die Zauberer der Kirin Tor haben das alte Lager für ihre eigenen Zwecke übernommen." },
+        { side = "Horde", aside = true, sign = "P. F.", "Diese Lager standen in meinem Königreich, auf Befehl meines Königs. Sie erzählt es gerecht." },
       },
     },
     ["ironbands-excavation-site"] = {
@@ -2537,6 +2616,14 @@ ns.translate({
         { "Er bittet Reisende, Gnolle nahe Dun Algaz zu töten, um das Gleichgewicht des Moors wiederherzustellen. Sein Bericht macht daraus einen Streit um ein gemeinsames Zuhause, das zu eng und beschädigt geworden ist. Die Äxte und Feuer sind einem Zwerg vertraut genug. Es ist beunruhigend, sie in der Klage eines anderen darüber zu finden, was mit dem Land geschieht." },
       },
     },
+    ["myzrael"] = {
+      title = "Myzrael",
+      text = {
+        { "Die Splitter von Myzrael bieten eine Stimme aus der Tiefe unter dem Arathihochland. Eine gefangene Prinzessin der Erde bittet einen vorbeiziehenden Reisenden, ihr bei der Flucht zu helfen, und die Kristalle verleihen der Begegnung ein Gefühl von Wärme und Geborgenheit." },
+        { "Theldurin der Verirrte erzählt es anders. Er fürchtet, was sie tun wird, sobald sie wieder zu Kräften kommt, und fragt, warum die Riesen sie angekettet haben, wenn sie so leicht zu beherrschen ist. Seine Antwort ist, sie herbeizurufen und zu besiegen und ihre Fesseln dann wieder an die Splitter zu binden." },
+        { "Danach steigt ein Schrei aus der Tiefe unter der Erde auf. Die Kristalle bleiben, doch ihre alte Beruhigung ist fort. Was jetzt durch sie pulsiert, fühlt sich an wie Hass auf die Welt darüber. Die Stimme, die so sanft um Hilfe bat, ist zum Beunruhigendsten an diesem stillen Hang geworden." },
+      },
+    },
     ["nekrosh"] = {
       title = "Häuptling Nek'rosh",
       text = {
@@ -2574,6 +2661,14 @@ ns.translate({
         { "Die Abtei unterweist die Rekruten des Königreichs heute in den Waffen ebenso wie im Glauben. Für beides gibt es ganz in der Nähe Verwendung: Kobolde besetzen die Mine, Wölfe streifen durch das Tal, und Diebe der Defias haben die Weinberge eingenommen." },
       },
     },
+    ["orgrim-doomhammer"] = {
+      title = "Orgrim Schicksalshammer",
+      text = {
+        { "Orgrim Schicksalshammer war Durotans Freund auf Draenor, ein Häuptling des Blackrockklans, der sah, was die Hexenmeister seinem Volk antaten, und anders als Durotan auf seinen Augenblick wartete. Er kam im Ersten Krieg. Als Gul'dans Meuchler Durotan ermordeten, tötete Schicksalshammer Blackhand, den Marionettenkriegshäuptling, den Gul'dan eingesetzt hatte, und nahm die Horde für sich. Er zerstörte Stormwind und zerschlug den Schattenrat." },
+        { "Im Zweiten Krieg trieb er die Horde bis vor die Tore von Lordaerons Hauptstadt, bis Gul'dans Fahnenflucht ihn zurückzwang. Er tötete Anduin Lothar im Zweikampf in der Brennenden Steppe und verlor den Krieg trotzdem. Am Dunklen Portal gefangen genommen und nach Lordaeron gebracht, entkam er und lebte jahrelang als Einsiedler." },
+        { "Thrall fand ihn dort. Der alte Kriegshäuptling, der Freund seines Vaters, folgte dem jungen und fiel bei der Befreiung eines der Lager. Thrall nahm seinen Hammer und seine schwarze Rüstung auf und wurde Kriegshäuptling. Dieser Ort trägt seinen Namen, und ebenso die Hauptstadt der Horde. Man erinnert sich an ihn als den Kriegshäuptling, der einen Krieg verlor und trotzdem dafür sorgte, dass am Ende noch eine Horde übrig war." },
+      },
+    },
     ["parqual-fintallas"] = {
       title = "Parqual Fintallas",
       text = {
@@ -2604,6 +2699,13 @@ ns.translate({
         { "Morbent Fel, ein Nekromant, lebt in einem Haus über dem Friedhof. Ein Holzfäller, dessen Familie er tötete, will ihn tot sehen. In der Nähe bewohnt ein alter Einsiedler eine Hütte mit Blick auf die Gräber. Früher kam er für Vorräte nach Dunkelhain, doch dort hat man ihn schon eine Weile nicht mehr gesehen." },
       },
     },
+    ["ravenholdt-manor"] = {
+      title = "Ravenholdt-Anwesen",
+      text = {
+        { "Das Ravenholdt-Anwesen liegt verborgen in den Hügeln über Hillsbrad. Lord Jorach Ravenholdt leitet von dort die Auftragsmörderliga und bildet Diebe und Mörder aus, die das Haus selbst auswählt. Mögliche Schüler erhalten Einladungen. Eine Bewerbung wäre hier eine ungewöhnliche Art, seine Talente anzukündigen." },
+        { "Die Liga stellt sich seit langem gegen das Syndikat, dessen Mitglieder sie für Stümper hält. Ihre Abzeichen zu stehlen, ist ein nützlicher Teil des Streits: Ein Mann des Syndikats, der seines verliert, muss mit Strafe von seiner eigenen Seite rechnen." },
+      },
+    },
     ["red-dragonflight"] = {
       title = "Der rote Drachenschwarm",
       text = {
@@ -2616,6 +2718,13 @@ ns.translate({
       text = {
         { "Das Rotkammgebirge hat seinen Namen vom rostroten Stein unter seinen Kiefernwäldern. Der Immerruhsee liegt zwischen den Hügeln, mit Seenhain an seinem Westufer. Holz und Fischfang ernähren das Land, doch Heere sind oft genug durch es gezogen: Die Orcs kamen im Ersten Krieg, und die Blackrock sind zurückgekehrt." },
         { "Sie halten nun Burg Steinwacht und die Täler dahinter. Gnolle streifen durch die Schluchten, ein Hexenmeister besetzt die östlichen Hügel, und schwarze Drachenwelpen nisten in den hohen Höhlen. Seenhain hat Stormwind wiederholt um Soldaten gebeten." },
+      },
+    },
+    ["refuge-pointe"] = {
+      title = "Die Zuflucht",
+      text = {
+        { "Die Zuflucht ist das Lager der Allianz mitten im Arathihochland, gehalten von den Überlebenden Stromgardes und den Soldaten, die gekommen sind, um ihnen zu helfen: ein paar Zelte, ein Stall, ein Flugmeister und sehr viel Entschlossenheit. Von hier kämpfen sie gegen das Syndikat in den Ruinen ihrer Stadt und gegen die Witherbark in den Hügeln, und von hier reitet auch der Bund von Arathor hinaus zum Becken im Süden." },
+        { "Die Leute von Stromgarde sind stolz, und ihr Königreich ist auf dieses Lager zusammengeschrumpft. Sie haben nicht aufgehört, es ein Königreich zu nennen." },
       },
     },
     ["regency-of-stormwind"] = {
@@ -2733,6 +2842,13 @@ ns.translate({
         { "Chefingenieur Hinderweir ist einem Anschlag der Dunkeleisenzwerge auf den Damm auf die Spur gekommen. Seine Ermittlung führt zu einem Sprengfass und zu der Mischung, die nötig ist, um es zu entschärfen. Die Zwerge bewachen dieses Werk genau, und aus gutem Grund. Menschen hängen davon ab, dass die Mauer hält, und für Hinderweir steht weit mehr auf dem Spiel als der Stolz eines Ingenieurs." },
       },
     },
+    ["stormpike-guard"] = {
+      title = "Die Stormpikegarde",
+      text = {
+        { "Die Stormpikegarde kam ins Alteractal, um zu schürfen und nach Relikten zwergischer Abstammung zu suchen, und die Forscherliga begleitete die Expedition. Sie sagen, die Frostwolf hätten ohne Anlass angegriffen. Die Frostwolf erzählen dasselbe mit vertauschten Namen." },
+        { "Vanndar Stormpike befehligt die Garde, und König Magni hat ihm befohlen, das Tal für Ironforge einzunehmen. Die Frostwolf leben bereits dort und widersetzen sich dem Befehl. Ich diene dem König, der diesen Befehl gab, doch das Interesse der Liga an dem, was unter der Erde liegt, entscheidet nicht über die Ansprüche derer, die darüber leben." },
+      },
+    },
     ["stormwind-city"] = {
       title = "Stormwind",
       text = {
@@ -2747,6 +2863,13 @@ ns.translate({
       text = {
         { "Das Schlingendorntal ist ein Dschungel, der größte in den Östlichen Königreichen: Hitze, Regen, Ranken, Panther, Raptoren und Gorillas, vom Grün verschluckte Ruinen und eine lange Küste aus Stränden und Buchten. Es war das Herz der Gurubashi, des Trollreichs, das den Süden beherrschte, lange bevor es Königreiche der Menschen gab, und die Ruinen ihrer Tempel stehen überall." },
         { "Jeder kommt wegen irgendetwas hierher. Jäger kommen wegen Trophäen, Goblins wegen Gold und Holz, Piraten wegen Beute, und Soldaten der Allianz und der Horde, um gegen die Trolle, die Oger und einander zu kämpfen. Der Dschungel verschlingt die meisten von ihnen, früher oder später." },
+      },
+    },
+    ["stromgarde-keep"] = {
+      title = "Burg Stromgarde",
+      text = {
+        { "Stromgarde steht an der Stelle von Strom, der ersten Stadt der Menschen. Seine Herrscher aus dem Hause Trollbane trugen die älteste Krone der Königreiche der Menschen. Lord Ignaeus bekämpfte die Trolle mit dem Schwert, das sie Trol'kalar nannten, den Trolltöter, und der Name der Familie erinnert an diesen Krieg." },
+        { "Die heutige Stadt ist geteilt. Lord Falkensteins Syndikat hält ihre Türme, Oger bewohnen ein Viertel, und Stromgardes Verteidiger halten ein anderes. Weitere Überlebende kämpfen von der Zuflucht aus, um ihre Heimat zurückzugewinnen. Trol'kalar liegt noch immer in Trollbanes Grabmal, hinter Schutzzaubern, die die wiedervereinten Siegelzeichen öffnen können." },
       },
     },
     ["sylvanas-windrunner"] = {
@@ -2860,6 +2983,13 @@ ns.translate({
         { "Die Gebirgsjäger hier sind dünn verteilt. Wenn Ihr einen starken Arm und einen freien Nachmittag habt, finden sie etwas für Euch zu tun." },
       },
     },
+    ["thoradins-wall"] = {
+      title = "Thoradinswall",
+      text = {
+        { "Thoradin war vor langer Zeit der Häuptling des Stammes der Arathi, der die verstreuten Stämme der Menschen im Norden eroberte oder überredete, ein einziges Volk zu werden, das Reich Arathor, und seine Hauptstadt in Strom baute. Als die Trolle des Reiches der Amani gegen die Elfen von Quel'Thalas Krieg führten, war es Thoradin, der Menschen an ihrer Seite in den Kampf führte, und die menschlichen Magier, die die Elfen in diesem Krieg ausbildeten, waren der Anfang aller menschlichen Magie." },
+        { "Seine Mauer verläuft noch immer über die Hügel zwischen Arathi und Hillsbrad, heute zerbrochen und überwuchert, aber noch immer groß. Die Männer, die sie bauten, sind längst fort, und das Reich mit ihnen, doch jeder König der Menschen hat behauptet, sein Erbe zu sein." },
+      },
+    },
     ["thule-ravenclaw"] = {
       title = "Thule Rabenklaue",
       text = {
@@ -2880,6 +3010,14 @@ ns.translate({
       text = {
         { "Tirisfal war das Herz des Königreichs Lordaeron: sanft gewelltes Ackerland, Obstgärten und Mühlen rund um die Hauptstadt, das reichste Land im Norden. Es ist auch auf andere Weise alter Boden. Die Lichtungen gaben dem geheimen Orden der Magier seinen Namen, den Wächtern von Tirisfal, die jahrhundertelang über die Welt wachten." },
         { "Heute ist es ein graues Land. Die Seuche nahm Lordaeron, die Toten wandelten, und die Hauptstadt fiel. Die Höfe sind leer oder Schlimmeres, die Bäume blattlos und das Licht immer trüb. Die Verlassenen beherrschen es von unter der zerstörten Stadt aus, der Scharlachrote Kreuzzug von seinem Kloster im Norden, und die Geißel wandert noch über die Felder dazwischen." },
+      },
+    },
+    ["treason-of-alterac"] = {
+      title = "Der Verrat von Alterac",
+      text = {
+        { "König Aiden Perenolde urteilte, dass die Horde den Zweiten Krieg gewinnen würde. Während die anderen Königreiche der Menschen gemeinsam kämpften, öffnete Alterac den Orcs einen Weg und versorgte sie mit den Plänen der Allianz. Als die Allianz siegte, verhängte Lordaeron das Kriegsrecht. Die Herrscher stritten dann darüber, was aus dem Königreich werden sollte." },
+        { "Alteracs Hauptstadt ist zerstört und seine Bibliotheken verstreut. Stormwind schickt Gelehrte, um die Bücher zu bergen. Perenoldes Sohn Aliden hat ein anderes Erbe angetreten: Er führt das Syndikat, zu dem ehemalige Adlige Alteracs gehören, und plant, die Orcs zu versklaven, wie es sein Lehrmeister Blackmoore wollte. Hier wird auf mehrere Arten zu bergen versucht, $gReisender:Reisende;. Die der Gelehrten ist die, die ich empfehlen würde." },
+        { side = "Horde", aside = true, sign = "P. F.", "Es freut mich, dass jemand Alteracs Bücher rettet. Ob je eines davon Undercity erreicht, ist eine andere Frage." },
       },
     },
     ["undercity"] = {
