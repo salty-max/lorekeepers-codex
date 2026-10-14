@@ -193,3 +193,23 @@ globals:
     any: true
   tinsert:
     any: true
+  UnitReaction:
+    any: true
+  UnitClassification:
+    any: true
+  UnitCreatureType:
+    any: true
+  UnitCreatureFamily:
+    any: true
+  GetNumLootItems:
+    any: true
+  GetLootSlotLink:
+    any: true
+  GetLootSourceInfo:
+    any: true
+  UnitExists:
+    any: true
+  SaltyMaxCollector:
+    any: true
+  LorekeepersCodexCollect:
+    any: true

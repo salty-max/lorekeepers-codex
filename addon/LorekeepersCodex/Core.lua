@@ -113,6 +113,7 @@ function ns.login()
     newCodex(guid)
   end
   ns.loadProfile(before)
+  ns.collect:start()
   ns.startUnlocks()
   ns.createMinimapButton()
   ns.createSettingsPanel()

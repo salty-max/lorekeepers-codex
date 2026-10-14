@@ -204,5 +204,7 @@
   "this forgets every page and achievement this character has found. Type /codex reset yes to do it.": "ceci efface toutes les pages trouvées et tous les hauts faits obtenus par ce personnage. Tapez /codex reset yes pour le faire.",
   "this is the %s package, and this is %s: install the %s package to read this game's pages.": "ceci est le paquet %s, et ce jeu est %s : installez le paquet %s pour lire les pages de ce jeu.",
   "unread": "non lues",
-  "until closed": "jusqu'à fermeture"
+  "until closed": "jusqu'à fermeture",
+  "Share what you see": "Partager ce que vous voyez",
+  "Quests, creatures and NPCs' words, as the game tells you, sent by Ravenpost to the addons' database. Never your name, your character or your chat.": "Les quêtes, les créatures et les paroles des PNJ, telles que le jeu vous les donne, envoyées par Ravenpost à la base de données des addons. Jamais votre nom, votre personnage ni vos discussions."
 }

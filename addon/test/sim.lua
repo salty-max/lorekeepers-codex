@@ -104,6 +104,7 @@ function UnitClass(u)
   if aPlayer(u) then return state.player.class, state.player.class end
   return "Hunter", "HUNTER"
 end
+function GetLocale() return "enUS" end
 function UnitIsUnit(a, b) return a == b end
 -- (state.side: the reader's, Alliance unless a test says)
 function UnitFactionGroup() return state.side or "Alliance" end
@@ -628,7 +629,21 @@ check(
 )
 fire("PLAYER_ENTERING_WORLD", true, false)
 local W = ns.welcome
-check(W.frame and W.frame.shown and #W.rows == 5, "the first login: the welcome page and its five choices")
+check(W.frame and W.frame.shown and #W.rows == 6, "the first login: the welcome page and its six choices")
+-- The last: sharing what the game tells of the world (the kit's collector),
+-- off until the player says yes, account-wide in LorekeepersCodexCollect.
+local share = W.rows[6]
+check(
+  not share.box:GetChecked() and not ns.collect:on() and SaltyMaxCollector == nil,
+  "… the last, sharing what you see, off: nothing kept"
+)
+share.scripts.OnClick(share)
+check(
+  ns.collect:on() and LorekeepersCodexCollect.share == true and SaltyMaxCollector ~= nil,
+  "… ticked: on, account-wide, this addon collects"
+)
+share.scripts.OnClick(share)
+check(not ns.collect:on() and next(LorekeepersCodexCollect.facts) == nil, "… unticked: off, what was kept forgotten")
 local soundRow = W.rows[3]
 check(soundRow.select and soundRow.select:GetValue() == ns.option("sound"), "… the sound in a select, as it is")
 soundRow.select.scripts.OnClick(soundRow.select)

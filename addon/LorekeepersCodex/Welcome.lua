@@ -68,6 +68,7 @@ local W = K.welcome({
         get = function() return not ns.option("minimapHidden") end,
         set = function(v) ns.setOption("minimapHidden", not v) end,
       },
+      K.collectChoice(ns.collect),
     }
   end,
   footnote = L["Change them any time: /codex settings, or a right-click on the minimap button. /codex opens the book."],

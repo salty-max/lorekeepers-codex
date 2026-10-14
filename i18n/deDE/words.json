@@ -204,5 +204,7 @@
   "this forgets every page and achievement this character has found. Type /codex reset yes to do it.": "das vergisst jede Seite und jeden Erfolg, die dieser Charakter gefunden hat. Gib /codex reset yes ein, um es zu tun.",
   "this is the %s package, and this is %s: install the %s package to read this game's pages.": "dies ist das Paket für %s, und dies ist %s: Installiere das Paket für %s, um die Seiten dieses Spiels zu lesen.",
   "unread": "ungelesen",
-  "until closed": "bis zum Schließen"
+  "until closed": "bis zum Schließen",
+  "Share what you see": "Teile, was du siehst",
+  "Quests, creatures and NPCs' words, as the game tells you, sent by Ravenpost to the addons' database. Never your name, your character or your chat.": "Quests, Kreaturen und die Worte der NPCs, wie das Spiel sie dir zeigt, von Ravenpost an die Datenbank der Addons geschickt. Nie dein Name, dein Charakter oder dein Chat."
 }

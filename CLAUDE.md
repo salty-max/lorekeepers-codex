@@ -96,6 +96,11 @@ conventions).
   subzone (`zoneId`, `subId`, by the client's names of the codex's areas,
   `ns.areaOf`) and reads in the client's language (`ns.placeName`: an older
   find, kept only by name, by its English one in `C.areaNames`).
+- The opt-in that shares what the game tells of the world (the kit's
+  `K.collect`: quests' texts, creatures' facts, NPCs' lines, loot by source;
+  off until the player ticks it on the welcome page or the Options page)
+  keeps it account-wide in `LorekeepersCodexCollect`, which Ravenpost sends
+  to the addons' database.
 - `addon/test/sim.lua`: fake WoW API + a replayed session; the UI runs against a
   permissive stub (catches Lua errors, not layout).
 

@@ -98,6 +98,16 @@ function ns.playSound(id)
   if id and id > 0 and PlaySound then PlaySound(id) end
 end
 
+-- The opt-in that shares what the game tells of the world with the addons'
+-- database (the kit's, K.collect): account-wide, in LorekeepersCodexCollect, which
+-- Ravenpost sends; off until the player says yes.
+ns.collect = K.collect({
+  saved = function()
+    if type(LorekeepersCodexCollect) ~= "table" then LorekeepersCodexCollect = {} end
+    return LorekeepersCodexCollect
+  end,
+})
+
 local category
 
 function ns.createSettingsPanel()
@@ -180,6 +190,8 @@ function ns.createSettingsPanel()
     L["The book by the minimap: click to open the codex, drag to move it."],
     true
   )
+
+  K.collectSetting(category, "CODEX_SHARE", ns.collect)
 
   -- Another character's settings (of this game), for this one.
   K.copySetting(
