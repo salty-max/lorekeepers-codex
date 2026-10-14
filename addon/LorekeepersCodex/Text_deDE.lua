@@ -2434,6 +2434,13 @@ ns.translate({
         { "Achtet auf die Fenster dort, wo der Tunnel durch Wasser führt, $gReisender:Reisende;. Manche Fahrgäste sagen, sie hätten etwas Großes zurückblicken sehen. Ihr solltet Zeit für einen Blick haben, bevor die Plattform Euch weiterträgt." },
       },
     },
+    ["desolace"] = {
+      title = "Desolace",
+      text = {
+        { "Desolace trägt seinen Namen zu Recht: ein graues, trockenes, tot wirkendes Land westlich des Steinkrallengebirges, alles aschfarbener Fels, verdorrte Bäume und Knochen. Viel wächst hier nicht. Gestorben wird reichlich: Die Kodos kommen dafür hierher, und ihre Skelette liegen aufgetürmt auf einem großen Friedhof mitten im Land." },
+        { "Es gehört, wenn es überhaupt jemandem gehört, den Zentauren, deren Klans einander über das ganze Land hinweg bekämpfen und deren heiligster Ort, Maraudon, in seinem Südwesten liegt. Die Burning Blade hält eine Festung im Norden und öffnet Dämonen die Türen, Naga spuken an der Küste, und die Allianz und die Horde halten je einen kleinen, nervösen Außenposten. Es ist kein Land, das irgendwer liebt." },
+      },
+    },
     ["dragonmaw-clan"] = {
       title = "Der Dragonmawklan",
       text = {
@@ -2849,6 +2856,13 @@ ns.translate({
         { "Er führte die Geißel nach Dalaran, um Archimonde selbst herbeizurufen, und er stand zu Arthas, als die Schreckenslords sich gegen ihn wandten. Als Arthas nach Norden zum Frostthron ging, blieb Kel'Thuzad, um in seinem Namen über die Pestländer zu herrschen, und er herrscht noch immer über sie, von Naxxramas aus. Selbst vernichtet ist ein Lich nicht am Ende, solange seine Phylakterie besteht." },
       },
     },
+    ["khans-of-desolace"] = {
+      title = "Die Khane von Desolace",
+      text = {
+        { "Desolace ist Land der Zentauren, und ihre Klans sind zahlreich: die Kolkar im Norden, die Gelkis im Südwesten, die Magram im Südosten, die Maraudine als Wächter des heiligen Grabes. Die Gelkis und die Magram sind erbitterte Rivalen, und jeder bietet Arbeit gegen den anderen an." },
+        { "Die Allianz und die Horde haben beide erkannt, dass ein geeintes Volk der Zentauren sie aus Desolace hinausfegen würde und dass der Hass der Klans aufeinander die beste Waffe ist, die sie haben. Also spielen beide dasselbe Spiel: sich mit den Gelkis oder den Magram verbünden, die Krieger des anderen Klans töten, bis man sich die Freundschaft verdient hat, und von den neuen Freunden lernen, wie man den Rest bricht. Es funktioniert. Ich finde es ein wenig traurig, dass es das tut." },
+      },
+    },
     ["kharanos"] = {
       title = "Kharanos",
       text = {
@@ -2862,6 +2876,13 @@ ns.translate({
         { "Leutnant Kirith diente dem Helden der Horde, dessen Geist nun vor Stonard wartet. Die beiden wurden in den Verwüsteten Landen von Erzmagier Allistarj gefangen genommen und dort in einer Höhle eingesperrt. Der Held hielt durch. Kiriths Wille brach. Sein Befehlshaber hörte die Experimente aus seinem eigenen Käfig, die Schreie, die durch die Hallen hallten, und danach sah und hörte er nichts mehr von ihm." },
         { "Was die Experimente aus ihm machten, wandelt nun als Kirith der Verdammte durch die Schlangenschlinge. Macht dem ein Ende, und was vom Leutnant übrig ist, spricht zu Euch und grinst sogar: Er weiß, wie Razelikh der Entweiher sich schützt, mit drei Dienern, die je ein Drittel eines Amuletts tragen, und er schickt Euch mit der Nachricht zurück zu seinem Befehlshaber." },
         { "Loramus Thalipedes, der in Azshara Dämonen jagt, nennt es unvorstellbar, dass jemand Kirith von seinem Leiden erlöst hat. Es ist eines der wenigen freundlichen Dinge, die in den Verwüsteten Landen seit langem geschehen sind." },
+      },
+    },
+    ["kodo-graveyard"] = {
+      title = "Der Kodofriedhof",
+      text = {
+        { "Mitten in Desolace liegt der Ort, an dem die Kodos sterben: ein riesiges Feld aus Knochen und Stoßzähnen, gewaltige Brustkörbe, die sich aus dem Staub wölben, und zwischen ihnen alte Kodos, die langsam von den Ebenen hereintrotten, um sich hinzulegen. Niemand weiß, warum sie hierher kommen, und die Tauren begegnen dem Ort mit Achtung." },
+        { "Nicht alle tun das. Geister von Zentauren und Kodos wandern nachts darüber, und ein Goblin hat ein Gerät erfunden, das die sterbenden Tiere mit einem Ruck wieder in den Dienst holt, und verkauft sie an die Karawanen. Ich kann mich nicht entscheiden, ob das klug oder ungeheuerlich ist. Ich vermute, die Kodos haben eine Meinung dazu." },
       },
     },
     ["kurzen-rebellion"] = {
@@ -2915,6 +2936,20 @@ ns.translate({
         { "König Magni Bronzebeard hält Hof auf dem Hohen Sitz von Ironforge und herrscht über die Stadt, die sein Klan seit dem Krieg der drei Hämmer hält. Er ist der älteste von drei Brüdern. Muradin ging im Dritten Krieg mit dem Prinzen von Lordaeron nach Norden, und seither hat man nichts mehr von ihm gehört. Brann ist der berühmteste Forscher der Liga, und einer der am schwersten aufzuspürenden." },
         { "Magni verfolgt die Arbeit der Liga genau. Die Funde in Uldaman legen nahe, dass die Zwerge vor langer Zeit von den Titanen geformt wurden. Ein König mit einer so langen Ahnenreihe hat Grund zu fragen, wo sie begann, und eine Historikerin, die wenige Schritte von seinem Thron entfernt steht, hat allen Grund, sein Interesse zu begrüßen." },
         { "Seine Tochter beschäftigt ihn dringender. Prinzessin Moira ist in der Stadt der Dunkeleisenzwerge unter dem Blackrock, vermählt mit Imperator Dagran Thaurissan. Ironforge nennt es eine Entführung, und Magni verspricht demjenigen, der sie heimbringt, den Lohn eines Helden. Wenn Ihr diesen Auftrag annehmt, $gReisender:Reisende;, tragt Ihr die Hoffnungen eines Vaters ebenso wie die Befehle eines Königs." },
+      },
+    },
+    ["mannoroc-coven"] = {
+      title = "Mannorocs Koven",
+      text = {
+        { "Im Süden von Desolace gibt es ein versengtes Tal, in dem Dämonen offen umhergehen: Verdammniswachen, Teufelshunde, Höllenbestien und Schlimmeres, zwischen zerbrochenen Altären und grünem Feuer. Man nennt es Mannorocs Koven, und die Dämonen sind nicht zufällig dorthin gekommen." },
+        { "Man hat sie hereingelassen. Die Burning Blade hält von ihrer Festung im Norden aus ein Relikt, das man die Hand von Iruxos nennt, und damit hat sie im Tal Portale ins Reich der Dämonen geöffnet. Die Tauren von Shadowprey versuchen, sie zu schließen. Jedes geschlossene Portal ist eine Tür, die die Legion wieder öffnen muss, und die Legion ist geduldig." },
+      },
+    },
+    ["maraudon"] = {
+      title = "Maraudon",
+      text = {
+        { "Maraudon ist die heilige Stätte der Zentauren im Südwesten von Desolace. Ihr Vater Zaetar liegt in seinen riesigen Höhlen begraben, und ihre Mutter Theradras weilt jenseits von Kammern aus glitzerndem Kristall. Nur die Frömmsten unter den Zentauren dürfen hinein." },
+        { "Das Grab ist in Unruhe. Lord Schlangenzunge verbreitet Gift durch die Höhlen und hat ein Geschöpf aus Fäulnis geschaffen. Zaetars Neffe Celebras irrt dort unter einem Fluch umher. Eine Frau vom Twilight-Hammer bittet um Schnitzereien aus den Kristallhöhlen und behauptet, sie bärgen Relikte der Alten Götter. Ich würde genau darauf achten, wessen Zwecken Eure Reise dient, $gReisender:Reisende;. Mehrere Seiten interessieren sich für das, was unter diesem heiligen Boden liegt." },
       },
     },
     ["marshal-windsor"] = {
@@ -3077,6 +3112,13 @@ ns.translate({
       text = {
         { "Kommandantin Althea Ebonlocke führt die Nachtwache, die Miliz, die Dunkelhain aufstellte, nachdem Stormwind seine beauftragten Wachen abgezogen hatte. Die Bewohner verteidigen ihre Straße und ihre Tore gegen die Toten von Rabenflucht, die Worgen, die Oger und was sonst noch aus dem Wald kommt." },
         { "Die meisten sind keine Soldaten, und es sind zu wenige. Dennoch haben sie Dunkelhain am Leben erhalten. Behüterin Ladimore dient unter ihnen. Die Geschichte ihres Vaters steht an anderer Stelle in diesem Register." },
+      },
+    },
+    ["nijels-point"] = {
+      title = "Die Nijelspitze",
+      text = {
+        { "Die Nijelspitze ist das Lager der Allianz im Norden von Desolace, befestigt in den Hügeln unter dem Steinkrallengebirge. Seine Soldaten beobachten die Straßen, die Klans der Zentauren und die Dämonen von Mannorocs Koven. Besucher, die helfen wollen, finden reichlich Arbeit." },
+        { "Die Hauptleute haben sich entschieden, die Rivalitäten der Zentauren auszunutzen, sich einen Klan zum Verbündeten zu machen, um zu lernen, wie man die anderen besiegt. Es ist eine praktische Antwort auf eine schwierige Lage, $gReisender:Reisende;. Die Freundschaft, die Ihr hier zu stiften helft, beginnt vielleicht mit der Bitte um den Tod der Nachbarn eines anderen." },
       },
     },
     ["noble-conspiracy"] = {
@@ -3283,6 +3325,14 @@ ns.translate({
         { "Die Amani und die Elfen von Quel'Thalas sind Feinde, seit die Elfen sich in diesen Landen niederließen. Diese ältere Feindschaft lebt unter den Revantusk fort." },
       },
     },
+    ["rexxar"] = {
+      title = "Rexxar",
+      text = {
+        { "Der Riese, der mit einem Bären an seiner Seite die Straße durch Desolace entlanggeht, ist Rexxar, Champion der Horde. Er ist halb Orc und halb Oger, von den Mok'Nathal, und er gehört zu keiner Stadt. Misha, seine Bärin, geht, wohin er geht." },
+        { "Er kam in den ersten Tagen nach Durotar, als das Land neu war und die Horde noch ihren Halt suchte, und Thrall vertraute ihm Arbeit an, die niemand sonst tun konnte. Als Admiral Daelin Proudmoore seine Flotte landen ließ, um den alten Krieg zu beenden, stand Rexxar im Zentrum der Kämpfe, die ihn beendeten, an der Seite von Thrall und Cairne und, wie es sich fügte, mit Jaina Proudmoores Einverständnis. Die Horde verdankt ihm einen guten Teil ihrer Heimat." },
+        { "Er blieb nicht, um sie zu genießen. Er zieht die Wildnis den Städten vor, die er verteidigen half, und er bleibt auf den Pfaden zwischen dem Steinkrallengebirge und Feralas. Der Kriegshäuptling schickt noch immer Reisende zu ihm, wenn die Arbeit hart ist. Er wird Euch sehen, bevor Ihr ihn seht, $gReisender:Reisende;. Misha sieht Euch zuerst." },
+      },
+    },
     ["royal-apothecary-society"] = {
       title = "Die Königliche Apothekervereinigung",
       text = {
@@ -3362,6 +3412,13 @@ ns.translate({
       text = {
         { "Bevor Arugal kam, gehörte die Festung über Pyrewood Baron Silverlaine. Die Worgen des Magiers überrannten sie, und der Geist des Barons spukt noch immer in ihren Hallen. Kommandant Springvale, ein Paladin, gehört zu ihren anderen untoten Verteidigern." },
         { "Arugal zog sich mit den Worgen, die er seine Kinder nennt, hierher zurück. Die Festung heißt nun Burg Shadowfang, ein Bollwerk, das die Verlassenen an ihrer Südgrenze haben wollen. Ihre Todespirscher gingen hinein, um sie auszukundschaften, und sind nicht zurückgekehrt." },
+      },
+    },
+    ["shadowprey-village"] = {
+      title = "Shadowprey",
+      text = {
+        { "Shadowprey ist das Lager der Horde an der Westküste von Desolace, ein Dorf der Trolle und Tauren aus Pfahlhütten am Meer, der letzte Halt vor der langen Straße nach Süden nach Feralas. Seine Leute jagen im toten Land und behalten die Zentauren und die Dämonen gleichermaßen im Auge." },
+        { "Eine Taurin aus Shadowprey hat es auf sich genommen, die Dämonenportale der Burning Blade zu schließen, und ein Druide des Zirkels des Cenarius lagert in der Nähe und wartet auf jemanden, der stark genug ist, nach Maraudon hineinzugehen. Es ist ein kleines Dorf mit großen Problemen." },
       },
     },
     ["shadra"] = {
@@ -3920,6 +3977,13 @@ ns.translate({
       text = {
         { "Die Scherwindklippe ist das große Holzfäller- und Bergbaulager der Venture Co. im Norden des Steinkrallengebirges, ein Tal aus Baumstümpfen, Sägen, Wasserrädern und Schreddern, den menschenförmigen Maschinen, die Bäume schneller fällen als jede Mannschaft. Über allem, nahe dem großen Rad, lebt sein Aufseher, Gerenzo Wrenchwhistle, ein Goblin, der inzwischen mehr Metall als Fleisch ist." },
         { "Das verbrannte Tal im Süden ist, was die Gesellschaft zurücklässt: ein ganzer Wald, niedergebrannt. Die Druiden wollen ihn neu pflanzen, die Schamanen wollen die Maschinen aufhalten, und selbst einige der eigenen Ingenieure der Gesellschaft haben angewidert gekündigt." },
+      },
+    },
+    ["zaetar-and-theradras"] = {
+      title = "Zaetar und Theradras",
+      text = {
+        { "Zaetar war der Sohn des Cenarius, ein Wesen des Waldes. Theradras war eine Prinzessin der elementaren Erde. Aus ihrer Verbindung gingen die Zentauren hervor, die ihren eigenen Vater töteten. Theradras bettete ihn in den Höhlen von Maraudon zur Ruhe, wo seine Kinder ihn noch immer verehren und sein Grab bewachen." },
+        { "Ein Druide des Zirkels des Cenarius wartet nahe Shadowprey und sucht jemanden, der Theradras gegenübertreten und Zaetars Überreste bergen kann. Der heilige Boden der Zentauren ist auch die Ruhestätte eines Mitglieds der Familie des Cenarius." },
       },
     },
     ["zandalar-tribe"] = {
