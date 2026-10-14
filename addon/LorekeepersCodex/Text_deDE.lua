@@ -4212,6 +4212,14 @@ ns.translate({
         { "Die Druiden sind nun wach, und die Schildwachen sind nicht abgezogen. Ihr findet sie an jedem Posten der Nachtelfen von Teldrassil bis Feathermoon, unter ihrer Generalin Shandris Feathermoon. Wenn eine von ihnen Euch ansieht, als hielte sie schon sehr lange Wache, $gReisender:Reisende;, dann tut sie das vielleicht wirklich." },
       },
     },
+    ["shadow-council"] = {
+      title = "Der Schattenrat",
+      text = {
+        { "Die alte Horde wurde nie ganz von ihren Kriegshäuptlingen regiert. Hinter ihnen stand der Schattenrat, ein geheimer Kreis, den der Dämon Kil'jaeden Gul'dan auf Draenor gründen half, um die Klans zu lenken und die Magie der Hexenmeister unter ihnen zu verbreiten. Es war der Rat, der Mannoroth herbeirief, damit die Häuptlinge von ihm tranken, der Rat, der Blackhand als Kriegshäuptling einsetzte, damit er tat, was man ihm sagte, und der Rat, der mit Medivh das Dunkle Portal öffnete." },
+        { "Schicksalshammer brach seinen Griff, als er Blackhand tötete und die Horde für sich nahm, und Gul'dan starb, zerrissen von den Dämonen, die er am Grabmal des Sargeras entfesselte. Der Name überlebte sie beide. Hexenmeister versammeln sich noch immer unter ihm, Orcs und Verlassene darunter, und verhandeln noch immer mit der Legion." },
+        { "Ihre größte Feste ist heute Jaedenar im Teufelswald, wo Schattenlord Fel'dan seine Pakte in der Schattenfeste darunter schließt. Während die Druiden sich mühen, den Wald zu reinigen, versammeln sich die Hexenmeister des Rates noch immer unter seinen Wurzeln." },
+      },
+    },
     ["shadowfang-keep"] = {
       title = "Burg Shadowfang",
       text = {
@@ -4301,6 +4309,14 @@ ns.translate({
         { "Fandral erkennt die Probleme an und hat Heilmittel anzubieten. Andere Druiden setzen ihre Nachforschungen fort. Bringt ihnen, was Ihr findet, $gReisender:Reisende;. Ein Baum, groß genug, um einem Volk Obdach zu geben, ist auch recht groß, um von seinen Hütern untersucht zu werden." },
       },
     },
+    ["silithid"] = {
+      title = "Die Silithiden",
+      text = {
+        { "Silithiden bewohnen riesige Stöcke unter dem Süden Kalimdors. Ihre Wespen können so groß wie Hunde sein, ihre Krieger so groß wie Oger und ihre Tunnelgräber stark genug, Höhlen zum Einsturz zu bringen. Stöcke sind im Brachland, in Tausend Nadeln, in Feralas, Tanaris und Un'Goro aufgetaucht. Silithus birgt die größte Ansammlung." },
+        { "Die Qiraji von Ahn'Qiraj befehligen sie. Vor tausend Jahren drängten ihre Schwärme im Krieg der Sandstürme nach Norden, bis Nachtelfen und Drachen die Stadt hinter dem Skarabäuswall versiegelten. Der Zirkel des Cenarius glaubt, dass eine ältere Macht unter Ahn'Qiraj Herren und Diener gleichermaßen lenkt." },
+        { "Bewegungen um die Stöcke deuten heute auf Vorbereitungen für eine große Ausbreitung hin. Der Zirkel beobachtet genau. Für einen Reisenden, der diese Insekten erforscht, gehört zur Arbeit herauszufinden, wie weit ihre Tunnel und die Absichten ihrer Herren schon reichen." },
+      },
+    },
     ["silithus"] = {
       title = "Silithus",
       text = {
@@ -4315,12 +4331,27 @@ ns.translate({
         { "Heute ist er ein Grenzland. Die Verlassenen halten den Norden vom Grabmal aus, die Worgen, die ein wahnsinniger Magier erschuf, jagen in den Wäldern, verseuchte Gnolle graben in den toten Feldern, und die Magier von Dalaran halten ein Dorf im Osten. Jeder im Silberwald wartet auf etwas, und keiner auf etwas Gutes." },
       },
     },
+    ["skyborne"] = {
+      title = "Die Himmelsgeborenen",
+      text = {
+        { "Die Himmelsgeborenen nennen sich die Shen'dorei, das verborgene Volk, und bis sie vom Himmel herabkamen, wusste die Liga nicht, dass es sie gibt. Ihre Ahnen lebten in Eldre'Thalas, der Stadt, die die Oger heute Düsterbruch nennen, und erhoben sich gegen einen Prinzen, der einen Dämon binden wollte, um ihre Magie zu nähren. Unter dem maskierten Shal'nan flohen sie übers Meer, und Windgeister hoben ihre Insel aus der Welt hinaus in den Himmelswall." },
+        { "Die Insel Zephras schwebte dort Zeitalter lang. Nun sind die Windgeister fort, die Insel versagt, und die Himmelsgeborenen sind herabgekommen, um Hilfe zu suchen. Der Hohe Orden sucht das arkane Wissen, das ihr Volk verlor, und geht zu den Magiern Dalarans. Die Windformer suchen ihre verschwundenen Geister und gehen zu den Schamanen der Horde." },
+        { "Sie sind wenige, $gReisender:Reisende;, und sie wissen es. Ein Himmelsgeborener, der mit jedem Leben vorsichtig scheint, das eigene eingeschlossen, rechnet damit, wie viele von seinem Volk noch zu verlieren sind." },
+      },
+    },
     ["sons-of-lothar"] = {
       title = "Die Söhne Lothars",
       text = {
         { "Fünf Statuen stehen am Tor von Stormwind, und jede Tafel endet gleich: vermutlich verstorben. Es sind die Befehlshaber der Expedition der Allianz, die nach dem Zweiten Krieg durch das Dunkle Portal in die eigene Welt der Orcs marschierten, als Ner'zhul und die letzten der Klans durch es zurückkamen." },
         { "Khadgar, einst Medivhs Lehrling, führte sie, mit General Turalyon an seiner Seite. Die elfische Waldläuferin Alleria Windrunner kundschaftete für sie, Kurdran Wildhammer führte die Greifenreiter, und Danath Trollbane von Stromgarde beriet sie. Sie konnten Ner'zhul nicht davon abhalten, seine Portale zu anderen Welten zu öffnen, und als Draenor sich selbst zerriss, entschieden sie sich, das Dunkle Portal von der anderen Seite zu zerstören, damit Azeroth nicht mit hinabgerissen würde. Es gelang ihnen. Ob einer von ihnen entkam, bleibt, wie das Buch in unserer Bibliothek sagt, abzuwarten." },
         { "Lest die Tafeln selbst. Jede wurde von jemandem geschrieben, der den Helden kannte: Falstad für Kurdran, Uther für Turalyon, Thoras Trollbane für seinen Neffen, Antonidas für Khadgar, dem er alles Gute wünscht, wo immer er sei. Allerias Tafel schrieb ihre Schwester Sylvanas, Waldläufergeneralin von Quel'Thalas, bevor sie zu dem wurde, was sie heute ist." },
+      },
+    },
+    ["southsea-freebooters"] = {
+      title = "Die Südmeerfreibeuter",
+      text = {
+        { "Die Südmeerfreibeuter sind Piraten der warmen Meere Kalimdors, und sie machen vor allem Jagd auf die Goblins, weil die Goblins am meisten haben, was sich zu stehlen lohnt. Sie halten Lager entlang der Händlerküste des Brachlands, südlich von Ratchet, und in den Buchten von Tanaris, und ihre Schiffe lauern allem auf, was einen Hafen von Steamwheedle verlässt." },
+        { "Ihr Kapitän an der Händlerküste ist Baron Küstenschipper, und Gazlowe von Ratchet hat einen Preis auf seinen Kopf ausgesetzt. Die Goblins von Gadgetzan zahlen ebenso gut für die Piraten von Tanaris. Hinter ihnen steht keine große Geschichte, kein verbannter König und keine verlorene Sache. Sie sind Diebe, die Boote besitzen, und das Meer ist weit." },
       },
     },
     ["southshore"] = {
@@ -4351,6 +4382,14 @@ ns.translate({
       text = {
         { "Starfall ist eine kleine Siedlung der Nachtelfen im Schnee von Winterspring, wo Druiden und Gelehrte zwischen den Bäumen leben. Seine Leute erforschen das Land und seine Geschöpfe und die alten Ruinen am See." },
         { "Es war ein Gelehrter aus Starfall, der herausfand, was die Wildekin von Winterspring sind: keine Tiere, sondern Geschöpfe der Elune, der Mondgöttin. Der Erzdruide in Darnassus war sehr interessiert. Ich ebenso." },
+      },
+    },
+    ["steamwheedle-cartel"] = {
+      title = "Das Steamwheedle-Kartell",
+      text = {
+        { "Das Steamwheedle-Kartell handelt mit Allianz und Horde. Seine Goblins haben festgestellt, dass Leute, die bereit sind, einander zu bekämpfen, trotzdem Vorräte brauchen und dass beide Sorten Münzen es wert sind, genommen zu werden. Ihre Städte bieten einen Ort, an dem man die Geschäfte abwickelt." },
+        { "Booty Bay, Gadgetzan, Ratchet und Everlook reichen über Dschungel, Wüste, Küste und Schnee. Schläger erzwingen den Frieden in ihnen. Revilgaz beaufsichtigt Booty Bay, während Gazlowe in Ratchet Arbeit für Besucher hat. Jeder Hafen hat Sorgen, die der Handel allein nicht regelt." },
+        { "Ein Reisender kann Vorräte kaufen, Arbeit finden und der anderen Fraktion begegnen, ohne sofort zur Waffe zu greifen. Das Kartell lässt sich für vieles bezahlen, was es anbietet, doch ein neutraler Rastplatz hat seinen Wert in einer Welt, deren Straßen durch so viele Kriege führen." },
       },
     },
     ["stonard"] = {
@@ -4466,6 +4505,14 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Sie hat uns unseren Verstand zurückgegeben, was mehr ist, als das Licht vermochte. Was sie als Nächstes mit uns vorhat, hat sie nicht gesagt." },
       },
     },
+    ["syndicate"] = {
+      title = "Das Syndikat",
+      text = {
+        { "Alterac war das Königreich, das die Allianz im Zweiten Krieg an die Horde verkaufte, und als der Krieg gewonnen war, wurden seine Lande eingezogen und seinen Adligen ihre Titel genommen. Manche dieser Adligen haben das nie hingenommen. Sie nennen sich das Syndikat, und sie sind Diebe und Halsabschneider unter dem Banner eines Lords." },
+        { "Ihr Anführer war Lord Aliden Perenolde, Sohn des Verräterkönigs, und sein Traum war es, die Orcs wieder in Ketten zu legen, wie in den Tagen der Internierungslager. Seine Leute halten die zerstörte Stadt Strahnbrad in Alterac und Burg Durnholde in Hillsbrad, wo sie die Straßen von Southshore ausrauben und gegen seinen Magistrat Ränke schmieden, und im Arathihochland hat Lord Falkenstein die Ruinen von Stromgarde selbst an sich gerissen." },
+        { "Sie sind viele, und sie sind nicht sehr gut. Die Meuchler von Ravenholdt, die sie seit Jahren bekämpfen, nennen sie Stümper, und die Verlassenen setzen auf jeden Kopf einen Preis aus. Doch sehr viele Diebe können trotzdem sehr viel Schaden anrichten, und das Syndikat tut es." },
+      },
+    },
     ["taelan-fordring"] = {
       title = "Taelan Fordring",
       text = {
@@ -4501,6 +4548,14 @@ ns.translate({
         { "Einst bewohnten Müller und Bauern Tarrens Mühle. Die Verlassenen halten es nun als südliches Bollwerk, mit einer Todeswache, die einer Hochexekutorin dient, die wiederum Varimathras Rechenschaft schuldet. Southshore ist nur einen kurzen Ritt entfernt." },
         { "Darthalia befiehlt Überfälle auf die Höfe von Hillsbrad und nennt ihre menschlichen Bewohner eine Plage. Sie will sie unterwerfen, während die Apotheker ihre neue Seuche vollenden. Der Krieg zwischen diesen Orten reicht weit über ihre Wachen hinaus: Die Bauern und ihre Ernten werden in seinen Befehlen beim Namen genannt." },
         { side = "Horde", aside = true, sign = "P. F.", "Man sagt uns, die neue Seuche der Apotheker sei für die Geißel bestimmt. Die letzte Seuche hat mich getötet, und das hätte ich gern schriftlich." },
+      },
+    },
+    ["tauren"] = {
+      title = "Die Tauren",
+      text = {
+        { "Die Tauren gehören zu den ältesten Völkern der Ebenen Kalimdors. Generationenlang wanderten ihre Stämme, folgten den Herden und den Wegen der Erdenmutter, während die Zentauren sie von einem Lager zum nächsten jagten. Cairne Bloodhoof sammelte viele der Stämme, und als Thralls Orcs an Land kamen, halfen sie den Tauren, die Zentauren zurückzudrängen und das Grasland von Mulgore zu erreichen." },
+        { "Dort errichteten die Tauren Thunder Bluff auf seinen Tafelbergen und ließen sich nieder, auch wenn sie die Gewohnheiten der Straße behalten. Sie ehren die Erdenmutter, deren Augen An'she sind, die Sonne, und Mu'sha, der Mond. Ihre Schamanen sprechen mit den Geistern, und ihre Druiden wandeln mit dem Zirkel des Cenarius durch den Traum. Nicht jeder Stamm folgt Cairne. Die Grimmtotem gehen ihre eigenen Wege und pflegen ihren eigenen Groll." },
+        { "Sie sind langsam im Zorn und sehr schwer aufzuhalten, wenn sie einmal zornig sind, $gReisender:Reisende;. Die Archäologen der Liga haben sie als die geduldigsten Gastgeber in Kalimdor kennengelernt, vorausgesetzt, niemand gräbt dort, wo ihre Ahnen begraben liegen." },
       },
     },
     ["teldrassil"] = {
@@ -4892,6 +4947,14 @@ ns.translate({
         { "Wenn Ihr ihn getötet habt, $gReisender:Reisende;, schreibt auf, was geschehen ist, solange Ihr Euch erinnert. Die Jäger werden schon bald ihren eigenen Bericht haben." },
       },
     },
+    ["timbermaw"] = {
+      title = "Die Holzschlundfeste",
+      text = {
+        { "Von allen Furbolgstämmen des Nordens hat nur die Holzschlundfeste ihren Verstand bewahrt. Die Verderbnis, die aus dem Teufelswald sickerte, machte die Totenwaldfelle und die Winterfelle zu den knurrenden Geschöpfen, denen man auf den Straßen begegnet, und die Holzschlundfeste musste zusehen, wie es ihren Verwandten geschah. Sie hielt sich in ihren Tunneln unter den Bergen zwischen dem Teufelswald, Moonglade und Winterspring und hielt sie gegen jeden." },
+        { "Sie hat Grund zur Vorsicht. Die meisten Reisenden töten heute jeden Furbolg auf Sicht, ohne zu fragen, zu welchem Stamm er gehört, und so trauen die Furbolgs der Holzschlundfeste sehr wenigen. Helft ihnen gegen die verderbten Stämme, und sie werden beginnen, Euch langsam durch ihre Feste zu lassen. An der Wurzel des Wahnsinns der Winterfelle fand man einen Dämon. Ihn zu töten, gab diesem Stamm, in den Worten der Holzschlundfeste, eine Chance zu überleben." },
+        { "Es macht ihnen keine Freude, gegen ihre eigenen Brüder zu kämpfen. Einer ihrer Späher bittet jene, die für ihn kämpfen, ihm die Einzelheiten zu ersparen. Verdient Euch ihr ganzes Vertrauen, und sie schicken Eurem eigenen König eine Friedensgabe. Es ist das Höflichste, was ein belagertes Volk in diesem Register irgendwem angeboten hat." },
+      },
+    },
     ["tiragarde-keep"] = {
       title = "Burg Tiragarde",
       text = {
@@ -4927,6 +4990,13 @@ ns.translate({
         { "König Aiden Perenolde urteilte, dass die Horde den Zweiten Krieg gewinnen würde. Während die anderen Königreiche der Menschen gemeinsam kämpften, öffnete Alterac den Orcs einen Weg und versorgte sie mit den Plänen der Allianz. Als die Allianz siegte, verhängte Lordaeron das Kriegsrecht. Die Herrscher stritten dann darüber, was aus dem Königreich werden sollte." },
         { "Alteracs Hauptstadt ist zerstört und seine Bibliotheken verstreut. Stormwind schickt Gelehrte, um die Bücher zu bergen. Perenoldes Sohn Aliden hat ein anderes Erbe angetreten: Er führt das Syndikat, zu dem ehemalige Adlige Alteracs gehören, und plant, die Orcs zu versklaven, wie es sein Lehrmeister Blackmoore wollte. Hier wird auf mehrere Arten zu bergen versucht, $gReisender:Reisende;. Die der Gelehrten ist die, die ich empfehlen würde." },
         { side = "Horde", aside = true, sign = "P. F.", "Es freut mich, dass jemand Alteracs Bücher rettet. Ob je eines davon Undercity erreicht, ist eine andere Frage." },
+      },
+    },
+    ["twilights-hammer"] = {
+      title = "Der Twilight-Hammer",
+      text = {
+        { "Cho'galls Twilight-Hammer begann im Zweiten Krieg als Klan der Orcs, angeführt von einem zweiköpfigen Ogermagier. Er kämpfte im Glauben, die Welt solle enden. Die Niederlage der alten Horde ließ dieses Ziel in einem Kult mit Anhängern vieler Völker weiterleben." },
+        { "Der Kult verehrt die Alten Götter, uralte Mächte unter der Erde. Seine Mitglieder dienen einem Schrecken in der Blackfathom-Tiefe, versammeln sich an Götzenbildern in der Sengenden Schlucht und beschwören Elementarfürsten in Silithus." },
       },
     },
     ["tyrande-whisperwind"] = {
@@ -5018,6 +5088,14 @@ ns.translate({
         { "Als Arthas nach Nordend aufbrach, herrschten Varimathras und seine Brüder, die Schreckenslords, über die Ruinen Lordaerons. Sylvanas, gerade erst frei von der Kontrolle des Lichkönigs, besiegte ihn und ließ ihm die Wahl zwischen Dienst und Tod. Er wählte den Dienst und half ihr dann, sich gegen seine Brüder zu wenden." },
         { "Heute steht er an der Seite der Bansheekönigin in Undercity. Es ist eine eindrucksvolle Partnerschaft, auch wenn ihr Anfang wenig Beruhigendes über die Treue beider Seiten verrät. Varimathras fand einen Weg, einen Wechsel des Herrn zu überleben. Sylvanas hat ihn dort behalten, wo sie ihn sehen kann." },
         { side = "Horde", aside = true, sign = "P. F.", "Wir gehen im Königsviertel an ihm vorbei und sagen nichts. Ich bin mir weniger sicher als die Dunkle Fürstin, dass ihn in der Nähe zu halten dasselbe ist, wie ihn treu zu halten." },
+      },
+    },
+    ["venture-company"] = {
+      title = "Die Venture Co.",
+      text = {
+        { "Wenn sich etwas ausgraben, fällen oder aus dem Boden pumpen lässt, ist die Venture Co. schon mit einem Schredder da. Sie ist ein Unternehmen der Goblins, eine Handelsgesellschaft ohne Treue zu irgendwem außer ihrem Vorstand, und ihr Geschäft ist es, zu nehmen, was anderen gehört, und es zu verkaufen, bevor sie es merken." },
+        { "In Kalimdor sind sie überall. Sie roden die Wälder des Steinkrallengebirges kahl, sie haben gegen die ausdrückliche Weigerung der Tauren in den Klippen von Mulgore geschürft und dabei gleich die Brunnen verschmutzt, und im Brachland haben sie das Schlickermoor zu einem schwarzen Ölteich gepumpt. Jenseits des Meeres schlagen sie Holz im Dschungel des Schlingendorntals und graben in seinen Hügeln." },
+        { "Ihresgleichen hält wenig von ihnen. Die Goblins des Steamwheedle-Kartells, die die neutralen Häfen halten, zahlen gutes Geld an jeden, der der Gesellschaft das Leben schwer macht, und ebenso, so stelle ich mir vor, jeder Taure in Mulgore." },
       },
     },
     ["voljin"] = {
@@ -5127,6 +5205,14 @@ ns.translate({
         { "Sie sind stolz, wild, sehr unabhängig, und sie finden, wir aus Ironforge hätten zu lange unter der Erde verbracht. Im Zweiten Krieg kämpften ihre Greifenreiter für die Allianz und waren der Schrecken der Drachen der Horde. Heute behalten sie ihre Gedanken für sich, und ihre eigenen Freunde: die Hochelfen von Quel'Danil unter ihnen, was die Trolle des Hinterlands ihnen übelnehmen." },
       },
     },
+    ["wildkin"] = {
+      title = "Die Wildekin",
+      text = {
+        { "Die großen Eulenbären des Nordens heißen Wildekin oder Moonkin, und die Nachtelfen behandeln sie mit einer Ehrfurcht, die Reisende nicht immer teilen. Es heißt, Elune selbst habe sie erschaffen, und manche sagen, sie seien ihre Lieblinge gewesen. Ein Gelehrter der Nachtelfen, der ihre Federn erforscht, findet darin eine Magie, die die Geschöpfe weniger ausüben als in sich tragen, als Teil ihres Wesens." },
+        { "Sie sind großer Sanftheit und großer Wildheit fähig, besonders wenn etwas bedroht ist, das ihnen wichtig ist, und in Winterspring sollen sie Geheimnisse der Nachtelfen hüten. Manche dort sind wahnsinnig geworden, sagen die Berichte, weil sie zu lange in der Nähe dessen waren, was sie beschützen." },
+        { "In letzter Zeit sind die sanften weniger geworden. Die Moonkin der Dunkelküste werden von einem großen roten Kristall in den östlichen Hügeln angezogen, und die Schildwachen von Auberdine halten sie nicht mehr für harmlos. Ich würde jedem Eulenbären weit ausweichen, $gReisender:Reisende;, und einem wahnsinnigen noch weiter." },
+      },
+    },
     ["windshear-crag"] = {
       title = "Die Scherwindklippe",
       text = {
@@ -5134,11 +5220,27 @@ ns.translate({
         { "Das verbrannte Tal im Süden ist, was die Gesellschaft zurücklässt: ein ganzer Wald, niedergebrannt. Die Druiden wollen ihn neu pflanzen, die Schamanen wollen die Maschinen aufhalten, und selbst einige der eigenen Ingenieure der Gesellschaft haben angewidert gekündigt." },
       },
     },
+    ["wintersaber-trainers"] = {
+      title = "Die Wintersäblerausbilder",
+      text = {
+        { "Hoch oben auf dem Frostsäblerfelsen im Norden von Winterspring zieht eine Handvoll Nachtelfen die weißen Säbler des Nordens auf. Ihr Anführer, Rivern Frostwind, bleibt für sich. Die meisten bemerken seine Anwesenheit nicht, sagt er, was ihm recht ist." },
+        { "Die Katzen sind nicht leicht zu verdienen. Rivern beginnt mit jedem, der eine will, indem er ihn nach Fleisch schickt, von den Chimären und den Splitterzahnbären, um die jungen Säbler in der Ausbildung zu füttern, und dann um Hilfe gegen die Furbolgs der Winterfelle, die dem Felsen zusetzen. Es ist eine lange Lehrzeit, und wenige beenden sie." },
+        { "Wer es tut, reitet auf einem Frostsäbler aus Winterspring hinaus, was, wie man mir sagt, jeden Botengang wert ist. Die Katzen ihrerseits scheinen zu glauben, die Abmachung sei ihre Idee gewesen." },
+      },
+    },
     ["winterspring"] = {
       title = "Winterspring",
       text = {
         { "Winterspring ist das hohe, verschneite Tal nördlich des Teufelswalds und östlich von Moonglade, ein Land aus tiefem Schnee, gefrorenen Seen und heißen Quellen, die in der Kälte dampfen. Frostsäbler jagen hier, und Eulen, Yetis, Riesen und die Wildekin. Die Nachtelfen ziehen ihre Frostsäbler am Frostsäblerfelsen auf, und die Druiden halten ein Dorf in Starfall." },
         { "Die Furbolgs des Stammes der Winterfelle trinken ein verderbtes Feuerwasser, das aus dem Teufelswald heraufgebracht wird, und werden davon wahnsinnig. Die blauen Drachen haben ihren Hort in den Höhlen von Mazthoril, und die Goblins von Everlook verkaufen an der Wegkreuzung alles an jeden." },
+      },
+    },
+    ["worgen"] = {
+      title = "Die Worgen",
+      text = {
+        { "Arugal beschwor Worgen aus einer anderen Welt, als Dalarans Verteidiger der Geißel erlagen. Die Wolfsmenschen griffen die Toten an und wandten sich dann gegen die Lebenden. Der Magier zog sich nach Burg Shadowfang zurück, nannte sie seine Kinder und verfluchte Pyrewood, dessen Bewohner bei Tag Menschen und bei Nacht Worgen sind." },
+        { "Der Dämmerwald bietet eine andere Spur. Die Nachtwache meldet ihr plötzliches Auftauchen in einer Mine südlich von Dunkelhain. Berichte deuten auf die Sense von Elune hin, ein altes elfisches Relikt, das jemand in den Wald trug, der seine Macht nicht verstand." },
+        { "Die Geschöpfe sind stark, klug und können trotz ihrer aufrechten Gestalt auf allen vieren laufen. Haltet die beiden Spuren auseinander, $gReisender:Reisende;. Zu wissen, wer sie in den einen Wald brachte, hat ihr Auftauchen im anderen nicht erklärt." },
       },
     },
     ["zaetar-and-theradras"] = {
