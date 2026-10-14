@@ -2286,6 +2286,14 @@ ns.translate({
         { "Auch seine Schwarzmeerräuber sind hier zu Hause. Sie liegen im Krieg mit den Blutsegelbukanieren, die den Baron tot sehen wollen. Ein Händler findet in der Bucht einen Hafen, ein bewaffneter Reisender findet Arbeit in dem Streit dahinter. Revilgaz hat Geschäfte für beide." },
       },
     },
+    ["boulderslide-ravine"] = {
+      title = "Steinschlagklamm",
+      text = {
+        { "Im Südosten des Steinkrallengebirges gibt es eine Klamm mit einer tiefen Höhle, und die Kobolde darin haben wie besessen gegraben, auf der Suche nach einem seltenen Kristall, den sie Resonit nennen. Die Schamanen von Sonnenfels spürten etwas Falsches unter den Bergen und gingen nachsehen, und am Grund der Höhle fanden sie ein Fass voller Resonit, und darin schlafend einen der Irdenen: ein Wesen aus lebendem Stein namens Goggeroc." },
+        { "Die Irdenen wurden, wenn man den Scheiben von Uldaman glauben darf, von den Titanen geschaffen, um die Welt zu formen, und sie sind die Vorväter meines eigenen Volkes. Ich hätte sehr viel darum gegeben, mit einem zu sprechen. Die Schamanen von Sonnenfels hielten ihn für eine Bedrohung des Landes, weckten ihn geschwächt und vernichteten ihn, bevor er zu Kräften kommen konnte, und die Kobolde gruben weiter." },
+        { "Ich sage nicht, dass sie unrecht hatten. Ich war nicht dabei. Aber ich wüsste sehr gern, was ein Irdener schlafend in einem Fass unter dem Steinkrallengebirge tat, und wer ihn dort hineingelegt hat." },
+      },
+    },
     ["brill"] = {
       title = "Brill",
       text = {
@@ -2585,6 +2593,13 @@ ns.translate({
         { "Franclorn Forgewright war der oberste Baumeister der Dunkeleisenzwerge und der Erfinder der Stonewrought-Bauweise. Er wird Euch sagen, dass Ihr mit ziemlicher Sicherheit schon auf etwas gestanden habt, das er gebaut hat, und der große Damm von Loch Modan trägt den Namen seiner Methode. Die Schattenschmiede, die Hauptstadt der Dunkeleisenzwerge unter dem Berg, war sein Werk." },
         { "Er ist tot. Sein Geist bleibt in seinem Grabmal im Blackrock, sichtbar nur für die, die selbst tot sind, und sein Nachfolger als Baumeister, Fineous Darkvire, hat seinen großen Hammer Ironfel genommen. Franclorn will ihn wieder in den Händen der Statue sehen, die die Dunkeleisenzwerge ihm am Schrein von Thaurissan errichteten. Dafür gibt er den Schlüssel zu den Tiefen dessen her, was er seine verfluchte Stadt nennt." },
         { "Gebaut hat er sie trotzdem. Ein Zwerg kann eine Stadt verleugnen und dennoch stolz auf ihr Mauerwerk sein, $gReisender:Reisende;. Ich kenne mehrere." },
+      },
+    },
+    ["freewind-post"] = {
+      title = "Freiwindposten",
+      text = {
+        { "Der Freiwindposten ist ein Dorf der Tauren oben auf den Nadeln in der Mitte der Schlucht, ein Haufen Hütten auf dem hohen Fels, durch Seilbrücken verbunden und über einen Aufzug zu erreichen. Windreiter kommen und gehen, und die Tauren jagen auf dem Grund der Schlucht darunter." },
+        { "Er steht von zwei Seiten unter Druck. Die Zentauren der Galak fallen immer häufiger ein, und die Tauren der Grimmtotem, die den nahen Düsterwolkengipfel halten, haben sich gegen ihresgleichen gewandt. Die Tauren vom Freiwindposten sagen, sie benähmen sich schon seit einiger Zeit seltsam. Es ist hart für einen Tauren, das über andere Tauren zu sagen." },
       },
     },
     ["frostmane-trolls"] = {
@@ -3291,6 +3306,13 @@ ns.translate({
         { "Was antwortete, war Ragnaros, der Herr des Feuers. Der Berg barst. Die Stadt wurde zerstört, die Täler brannten, und die Dunkeleisenzwerge, die überlebten, wurden die Sklaven des Feuerlords. Die Relikte der Stadt erinnern sich noch: Wer sie berührt, sieht acht Zwerge bei einem Ritual, und dann einen allein, kniend zwischen sieben Leichen vor einer Säule aus Flammen. Ich habe diese Geschichte auf dem Hohen Sitz öfter erzählt, als ich zählen kann, und diese Relikte erklären vieles davon, was ich nur vermutet hatte. Ein Goblin in Morgans Wacht, Maxwort, wird Euch sagen, die Sieben seien Zwerge von großem Wissen gewesen, und Wissen bringe Reichtum. Goblins." },
       },
     },
+    ["rustmaul-dig-site"] = {
+      title = "Die Rustmaul-Grabungsstätte",
+      text = {
+        { "Am Rand der schimmernden Ebene schlug eine Gruppe Zwerge eine Grabung auf, Rustmaul, auf der Suche nach dem, was unter dem Salz liegt. Die Horde schickte einen Kriegstrupp, um sie zu vertreiben. Mitten im Kampf öffnete sich der Boden, und Insekten strömten aus einer Höhle in der Grabung: Silithiden, mehr, als beide Seiten je gesehen hatten, und sie hätten beinahe alle getötet." },
+        { "Die Zwerge sind fort. Die Insekten nicht. Die Jäger der Horde, die überlebten, halten die Silithiden nun für eine weit größere Gefahr als jede Grabungsmannschaft, und nachdem ich die Berichte gelesen habe, tue ich das auch. Wonach die Zwerge suchten, hat mir niemand gesagt. Ich bin nicht sicher, ob sie es gefunden haben." },
+      },
+    },
     ["scarlet-monastery"] = {
       title = "Das Scharlachrote Kloster",
       text = {
@@ -3349,6 +3371,13 @@ ns.translate({
         { "Die Witherbark bewahren in ihren Dörfern Flaschen mit ihrem Gift auf, und die Apotheker der Verlassenen in Tarrens Mühle wollen es sehr dringend, was Euch verrät, was sie damit vorhaben. Mir wäre lieber, Shadra behielte ihr Gift." },
       },
     },
+    ["shimmering-flats"] = {
+      title = "Die schimmernde Ebene",
+      text = {
+        { "Die schimmernde Ebene ist eine weite Salzpfanne im Osten von Tausend Nadeln, weiß genug, um einem Reisenden die Augen zu blenden. Goblins und Gnome haben die Illusionenrennbahn quer darüber gebaut. Ihre Raketenwagen drehen ihre Runden vor Zuschauern und Buchmachern, mit häufigen Unterbrechungen für Unfälle." },
+        { "Die Trümmer versorgen Kravel Koalbeard mit Teilen, die er den Teams zurückverkauft. Die Brüder Brassbolt brauchen Helme für ihre Piloten. Ein Rennen bringt Sieger, Verlierer und eine nützliche Menge Schrott hervor. Die Leute, die neben der Strecke arbeiten, haben in allen dreien eine Beschäftigung gefunden." },
+      },
+    },
     ["si-7"] = {
       title = "SI:7",
       text = {
@@ -3403,6 +3432,20 @@ ns.translate({
         { "Der Streit geht um sie herum weiter: eine Tante der Stonefields, die den jungen Billy Maclure beschuldigt, ihre Halskette gestohlen zu haben, Mutter Stonefield, die der preisgekrönten Sau der Brackwells den Tod schwört, weil sie ihr Gemüse gefressen hat. Elwynn hat die Defias, die Kobolde und die Gnolle kommen und gehen sehen. Der Streit hat sie bisher alle überdauert." },
       },
     },
+    ["stonetalon-mountains"] = {
+      title = "Steinkrallengebirge",
+      text = {
+        { "Das Steinkrallengebirge erhebt sich zwischen Ashenvale und dem Brachland: hohe graue Gipfel, tiefe Täler und alte Wälder, die angestammte Heimat der Harpyien, mit dem heiligen Gipfel der Druiden in seinem Herzen. Die Geister dieser Berge sind zornig, sagen die Schamanen der Horde, und sie haben Grund dazu." },
+        { "Die Goblins der Venture Co. sind gekommen, um zu fällen, zu brennen und zu graben, und ganze Täler sind mit ihnen verschwunden. Das verbrannte Tal im Süden wurde von ihren Maschinen bis auf den Grund niedergebrannt. Die Harpyien der Blutfurien halten die hohen Orte, die Grimmtotem überfallen Dörfer der Tauren, und mittendrin versuchen die Druiden auf dem Gipfel und die Schamanen von Sonnenfels zu heilen, was sie können." },
+      },
+    },
+    ["stonetalon-peak"] = {
+      title = "Der Steinkrallengipfel",
+      text = {
+        { "Der Steinkrallengipfel ist der höchste Gipfel des Gebirges und eine heilige Stätte der Druiden der Nachtelfen, die ihn mit den Waldgeistern hüten, die sie die Söhne und Töchter des Cenarius nennen. Auf ihm steht der Krallenbau, wo die Druiden Dinge der Macht hinter Schlössern eigener Erfindung aufbewahren und wo mindestens einer von ihnen, Bruder Ravenoak, in Gestalt eines Bären schläft und sie in seinen Träumen bewacht." },
+        { "Die Hüter des Gipfels betrachten die Berge darunter mit Kummer: das verbrannte Tal, die gefällten Wälder, die Harpyien, die sie nicht durchlassen, um neu zu pflanzen. Sie sind geduldig, wie Druiden es sind, und sie verlieren." },
+      },
+    },
     ["stonewatch-keep"] = {
       title = "Burg Steinwacht",
       text = {
@@ -3454,6 +3497,13 @@ ns.translate({
       text = {
         { "Stromgarde steht an der Stelle von Strom, der ersten Stadt der Menschen. Seine Herrscher aus dem Hause Trollbane trugen die älteste Krone der Königreiche der Menschen. Lord Ignaeus bekämpfte die Trolle mit dem Schwert, das sie Trol'kalar nannten, den Trolltöter, und der Name der Familie erinnert an diesen Krieg." },
         { "Die heutige Stadt ist geteilt. Lord Falkensteins Syndikat hält ihre Türme, Oger bewohnen ein Viertel, und Stromgardes Verteidiger halten ein anderes. Weitere Überlebende kämpfen von der Zuflucht aus, um ihre Heimat zurückzugewinnen. Trol'kalar liegt noch immer in Trollbanes Grabmal, hinter Schutzzaubern, die die wiedervereinten Siegelzeichen öffnen können." },
+      },
+    },
+    ["sun-rock-retreat"] = {
+      title = "Sonnenfels",
+      text = {
+        { "Tauren und Orcs teilen sich Sonnenfels in den Klippen im Herzen des Steinkrallengebirges. Seine Schamanen sammeln Samen, um das verbrannte Land wieder wachsen zu lassen. Jäger suchen Rache für Camp Aparaje, das Dorf der Tauren, das die Grimmtotem fast zerstört haben. In der Arbeit des Lagers liegen Wiederherstellung und Vergeltung zugleich." },
+        { "Ein Hexenmeister, der hier wohnt, hat ein anderes Ziel. Er dient einem Herrn in Jaedenar und bezahlt für Hilfe gegen die Druiden des Gipfels, denen er vorwirft, die Magie zu ersticken. Hört genau hin, wer welchen Auftrag anbietet, $gReisender:Reisende;. Ein gemeinsames Lager gibt seinen Bewohnern nicht dieselben Absichten." },
       },
     },
     ["swamp-of-sorrows"] = {
@@ -3659,6 +3709,13 @@ ns.translate({
         { "Sie wissen, wie man die Waffen und Rüstungen des Feuerlords schmiedet, vorausgesetzt, jemand bringt die Materialien aus dem Inneren des Berges. Einer von ihnen handelt sogar in der Taverne der Schattenschmiede, unter der Nase des Imperators. Wenn Ihr ihre Arbeit sucht, $gReisender:Reisende;, bringt, was sie brauchen. Ihr Streit mit ihren alten Verwandten hat ihr Können nicht geschmälert." },
       },
     },
+    ["thousand-needles"] = {
+      title = "Tausend Nadeln",
+      text = {
+        { "Südlich des Brachlands fällt der Boden über einen großen Aufzug nach Tausend Nadeln ab: eine tiefe Schlucht voller ragender Steinsäulen, Hunderte davon, die wie die Knochen der Erde aus dem Staub aufragen. Die Tauren leben oben auf ihnen, die Zentauren des Klans der Galak in der Schlucht darunter, und die Windreiter und Harpyien dazwischen." },
+        { "Im Osten öffnet sich die Schlucht zur schimmernden Ebene, einem trockenen weißen Salzbett, über dem die Hitze flimmert. Die Goblins und die Gnome haben darauf eine Rennstrecke gebaut. Man sagt mir, das sei für Goblins und Gnome ganz natürlich, wenn sie eine Wüste vor sich haben." },
+      },
+    },
     ["thrall"] = {
       title = "Thrall",
       text = {
@@ -3856,6 +3913,13 @@ ns.translate({
       text = {
         { "Die Wildhammer waren einer der drei Hämmer des alten Königreichs Khaz Modan, und nach dem Krieg, der die drei entzweite, nahmen sie Grim Batol als Heimat. Als die Königin der Dunkeleisenzwerge Modgud dort starb, hinterließ ihr Tod eine Finsternis im Stein, und so verließen die Wildhammer es und zogen nach Norden ins Hinterland, wo sie seither unter freiem Himmel leben, Greifen reiten und die alten Wege der Geister pflegen." },
         { "Sie sind stolz, wild, sehr unabhängig, und sie finden, wir aus Ironforge hätten zu lange unter der Erde verbracht. Im Zweiten Krieg kämpften ihre Greifenreiter für die Allianz und waren der Schrecken der Drachen der Horde. Heute behalten sie ihre Gedanken für sich, und ihre eigenen Freunde: die Hochelfen von Quel'Danil unter ihnen, was die Trolle des Hinterlands ihnen übelnehmen." },
+      },
+    },
+    ["windshear-crag"] = {
+      title = "Die Scherwindklippe",
+      text = {
+        { "Die Scherwindklippe ist das große Holzfäller- und Bergbaulager der Venture Co. im Norden des Steinkrallengebirges, ein Tal aus Baumstümpfen, Sägen, Wasserrädern und Schreddern, den menschenförmigen Maschinen, die Bäume schneller fällen als jede Mannschaft. Über allem, nahe dem großen Rad, lebt sein Aufseher, Gerenzo Wrenchwhistle, ein Goblin, der inzwischen mehr Metall als Fleisch ist." },
+        { "Das verbrannte Tal im Süden ist, was die Gesellschaft zurücklässt: ein ganzer Wald, niedergebrannt. Die Druiden wollen ihn neu pflanzen, die Schamanen wollen die Maschinen aufhalten, und selbst einige der eigenen Ingenieure der Gesellschaft haben angewidert gekündigt." },
       },
     },
     ["zandalar-tribe"] = {
