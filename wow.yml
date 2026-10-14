@@ -213,3 +213,5 @@ globals:
     any: true
   LorekeepersCodexCollect:
     any: true
+  C_Seasons:
+    any: true
