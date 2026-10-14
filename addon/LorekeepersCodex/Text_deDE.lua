@@ -2193,12 +2193,43 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Die Chroniken Lordaerons hatten ein Kapitel, das auf ihn wartete: der Erbe, der Paladin, der künftige König. Keine von ihnen irrte sich in seinen Gaben." },
       },
     },
+    ["ashenvale"] = {
+      title = "Ashenvale",
+      text = {
+        { "Ashenvale ist der uralte Wald der Nachtelfen: gewaltige Bäume, silbernes Mondlicht, stille Seen und Ruinen, älter als jedes Königreich der Menschen. Zehntausend Jahre lang lebten die Nachtelfen hier verborgen, bewacht von ihren Schildwachen und dem Halbgott Cenarius, und ließen niemanden herein." },
+        { "Dann kamen die Orcs nach Kalimdor und brauchten Holz für ihr neues Land, und seither liegt der Wald im Krieg. Im letzten Krieg schlug der Warsongklan in Ashenvale ein und tötete Cenarius unter dem Einfluss von Mannoroths Verderbnis. Die Nachtelfen haben ihnen nicht vergeben, und die Horde hat nicht aufgehört zu fällen. Nun liefern sich Schildwachen und Vorreiter der Warsong Gefechte am Ostrand des Waldes, während wahnsinnig gewordene Furbolgs, Satyrn und Naga allen gleichermaßen zusetzen." },
+      },
+    },
+    ["astranaar"] = {
+      title = "Astranaar",
+      text = {
+        { "Astranaar steht auf einer Insel in einem See in Ashenvale, durch Brücken mit dem Wald verbunden. Sein Mondbrunnen, sein Gasthaus und die Kaserne der Schildwachen geben den Nachtelfen einen Mittelpunkt, von dem aus sie das Land ringsum verteidigen. Es ist eine schöne Stadt mit sehr wenig Ruhe." },
+        { "Ein Vater hier sucht Hilfe für das Fieber und die Albträume seiner Tochter. Gewöhnliche Heilmittel haben ihr nicht geholfen. Kräuterkundige sprechen von einer Krankheit im Wald selbst, während die Schildwachen der Verderbnis die Schuld geben, die die Dämonen des Krieges hinterlassen haben. Ein Reisender, der kommt, um Astranaar verteidigen zu helfen, stellt vielleicht fest, dass die Sorgen der Stadt weit innerhalb ihrer bewachten Zugänge beginnen." },
+      },
+    },
     ["atiesh"] = {
       title = "Atiesh",
       text = {
         { "Atiesh war der Stab der Wächter von Tirisfal, am Ende Medivhs, und nach seinem Tod wurde er zerbrochen und verstreut. Seine Splitter wurden aus der Nekropole Naxxramas zusammengetragen, wo Kel'Thuzad auf seinem Thron saß und hielt, was der Träger suchte. Sein Fuß ging mit dem zwergischen Forscher Brann Bronzebeard nach Ahn'Qiraj, der ohne ihn wieder herauskam." },
         { "Ein Stab, der die Macht eines Wächters getragen hatte, hatte auch die von Sargeras getragen, wie sein letzter Wächter, und das Böse war noch darin. Anachronos vom bronzenen Schwarm, bei den Höhlen der Zeit, schickt jeden, der ihm die Teile bringt, nach Stratholme, auf den geweihten Boden, auf dem die größten Ritter Lordaerons ermordet wurden, um das Ding darin herauszurufen und zu vernichten." },
         { "Sehr wenige werden ihn je halten. Der bronzene Drache sagt, wer es tut, sei immer dazu bestimmt gewesen. Der bronzene Schwarm sagt solche Dinge sehr oft." },
+      },
+    },
+    ["azshara"] = {
+      title = "Azshara",
+      text = {
+        { "Azshara trägt die Farben des Herbstes zwischen den weißen Ruinen der Hochgeborenen. Es trägt den Namen der Königin, die vor zehntausend Jahren herrschte, und liegt neben dem Meer, das so viel von ihrem Reich verschlang. Wenige Orte bieten einen schöneren Blick auf einen so großen Verlust." },
+        { "Naga bewohnen die Küste und die alten Tempel. Satyrn spuken in den Wäldern, und Geister bleiben zwischen den zerbrochenen Mauern. Valormok und die Talrendisspitze sind kleine Stützpunkte in einem Land, das noch voller älterer Ansprüche ist. Azuregos wacht über die südlichen Hügel, während ein Erzmagier einen Turm hält und ein Wasserfürst eine Insel in der Bucht bewohnt." },
+        { client = "classic", "In den nördlichen Hügeln steht das verschlossene Tor der Holzschlundfeste. Die Furbolgs haben diesen Teil ihres Landes für sich behalten." },
+        { client = "forever", "Das steinerne Tor im Norden führt in die Schwarzschlundfeste, wo die Verderbnis einen Furbolgstamm ergriffen hat. Dies sind nicht die Holzschlundfeste, die die Tunnel im Teufelswald bewachen. Ein alter Name auf einer Karte kann ein schlechter Führer zu dem Volk hinter einem Tor sein." },
+      },
+    },
+    ["azuregos"] = {
+      title = "Azuregos",
+      text = {
+        { "Azuregos wacht über den Süden von Azshara, wo die Hochgeborenen genug arkane Schätze zurückließen, um einen blauen Drachen sehr lange zu beschäftigen. Sein Schwarm hütet die Magie, und diese zerstörte Küste erklärt einiges darüber, warum es solcher Hüter bedarf." },
+        { "Zu seiner Aufgabe gehörte auch der blaue Splitter des Szepters der Sandstürme. Die Suche danach führt über ein magisches Buch und eine ausgeklügelte Methode, einen großen Hai namens Der weiße Riese aus der Bucht der Stürme zu locken. Ein fehlendes Stück eines uralten Szepters ist zu einer Frage von Übersetzung, Ingenieurskunst und sehr großen Zähnen geworden." },
+        { "Es gibt feierliche Hüter in der Welt, $gReisender:Reisende;. Azuregos' Vorkehrungen legen nahe, dass Jahrhunderte der Verantwortung die Fähigkeit eines Drachen nicht auslöschen müssen, jemand anderem Arbeit zu machen." },
       },
     },
     ["bael-modan"] = {
@@ -2228,6 +2259,13 @@ ns.translate({
       text = {
         { "Die Oasen des Brachlands sind sein Leben: Becken mit frischem Wasser im trockenen Gras, an denen die Tiere und die Reisenden trinken. In letzter Zeit sind sie seltsam geworden. Tiere in ihrer Nähe verwachsen, Pflanzen wachsen zu schnell und falsch, und die Druiden von Thunder Bluff spürten eine Macht, die ins Land sickerte, und schickten einen der Ihren, um sie zu finden." },
         { "Er fand Spalten am Grund der Becken, die tief in die Erde reichen. Die Oasen werden von unten gespeist, aus den Höhlen unter dem Brachland, und was auch immer in diesen Höhlen nicht stimmt, kommt mit dem Wasser herauf." },
+      },
+    },
+    ["blackfathom-deeps"] = {
+      title = "Blackfathom-Tiefe",
+      text = {
+        { "An der Küste von Ashenvale, am Zoramstrand, gibt es vom Meer überflutete Höhlen, und in ihnen liegen die Ruinen eines Tempels der Elune, der versank, als der Brunnen der Ewigkeit zerstört wurde. Die Naga fanden ihn zuerst. Dann der Twilight-Hammer, angeführt von einem Twilight-Lord namens Kelris." },
+        { "Ihre Papiere sagen, was sie dort tun. Sie sammeln die Macht der tiefen Wasser, um ein Geschöpf zu nähren, das sie Aku'mai nennen und das in den Tiefen des Tempels schläft, damit die Welt eines Tages zu dem zurückkehrt, was sie ihr größtes Zeitalter nennen: einem Zeitalter der Herrschaft der Alten Götter. Die Nachtelfen und die Horde schicken beide ihre Jungen, um sie aufzuhalten, was vielleicht das Einzige ist, worin sich die beiden in Ashenvale einig sind." },
       },
     },
     ["blackrock-depths"] = {
@@ -2366,6 +2404,14 @@ ns.translate({
         { "Es hat einen seltsamen Gast: einen Stacheleber namens Quetschzahn, einen Gefangenen der Tauren, der die Segnungen des Ebergottes Agammagan kennt und sie jedem lehrt, der ihm die richtigen Steine bringt. Die Tauren dulden ihn. Er ist, so sagt man mir, sehr unhöflich." },
       },
     },
+    ["captain-varothen"] = {
+      title = "Hauptmann Varo'then",
+      text = {
+        { "Hauptmann Varo'then befehligte im Krieg der Urtume die Garde von Königin Azshara: ein vernarbter Soldat, der behauptete, gegen ihre Reize gefeit zu sein, und, so erzählen die Geschichten, hoffnungslos in sie verliebt war. Stattdessen erfüllte er ihr jede Laune. Er holte die Dämonenseele für die Legion und pflegte bis zum Ende eine Fehde mit Malfurion Stormrage." },
+        { "In der letzten Schlacht über dem Brunnen führte er die Hochgeborenen, die der Königin noch treu waren, und sagte Malfurion, er lebe nur, um ihr zu dienen, selbst wenn es das Ende Kalimdors bedeute. Es waren fast die letzten Worte, die er sprach. Kalimdor, so geht die Geschichte, nahm ihn beim Wort und stieß ihn ab." },
+        { "Sein Geist wandelt durch die Ruinen des Shadowsong-Schreins, noch immer in der Rüstung der königlichen Garde. Was auch immer er jetzt bewacht, zehntausend Jahre haben ihn nicht davon entbunden." },
+      },
+    },
     ["caverns-of-time"] = {
       title = "Die Höhlen der Zeit",
       text = {
@@ -2489,6 +2535,13 @@ ns.translate({
         { "Die Tiefenbahn befördert Reisende auf fahrenden Plattformen unter der Erde zwischen Ironforge und Stormwind. Sie hat eine Reise von Tagen auf wenige Minuten verkürzt. Selbst ein Zwerg, der gern zu Fuß geht, weiß diese Leistung zu schätzen." },
         { "Der Tunnel gibt unserer Freundschaft mit Stormwind eine praktische Gestalt: zwei Hauptstädte, verbunden durch einen Weg, der ihren Reisenden die lange Straße über Land erspart. Gnomischer Erfindungsgeist hat sehr vielen Stiefelpaaren das Leben gerettet." },
         { "Achtet auf die Fenster dort, wo der Tunnel durch Wasser führt, $gReisender:Reisende;. Manche Fahrgäste sagen, sie hätten etwas Großes zurückblicken sehen. Ihr solltet Zeit für einen Blick haben, bevor die Plattform Euch weiterträgt." },
+      },
+    },
+    ["demon-fall-canyon"] = {
+      title = "Demonfall-Canyon",
+      text = {
+        { "Nachdem Grom Hellscream das Blut des Dämons getrunken und Cenarius getötet hatte, jagten Thrall und Jaina Proudmoore ihn und befreiten ihn von seinem Fluch. Dann suchte Grom den Dämon. In einer Schlucht in Ashenvale fand er Mannoroth, den Grubenlord, dessen Blut die Orcs verdammt hatte, und tötete ihn mit seiner Axt, und starb daran." },
+        { "Die Orcs erinnern sich an ihn als den, der sie befreite, und benannten ihre große Halle in Orgrimmar nach ihm. Die Schlucht ist noch immer ein Ort der Dämonen: Die Diener der Brennenden Legion halten sie, und der Boden, auf dem Mannoroth fiel, ist nie wieder rein geworden." },
       },
     },
     ["desolace"] = {
@@ -2790,6 +2843,14 @@ ns.translate({
         { "Die roten Drachen sind noch immer dort. Was auch immer sie in Grim Batol bewachen, sie bewachen es erbittert. Geht nicht in seine Nähe, $gReisender:Reisende;. Die roten Drachkin an seinen Zugängen sind Warnung genug." },
       },
     },
+    ["grom-hellscream"] = {
+      title = "Grom Hellscream",
+      text = {
+        { "Grommash Hellscream, Häuptling der Warsong, war der erste der Orchäuptlinge, der auf Draenor Mannoroths Blut trank, und er führte die anderen dazu. Die Stärke, die es ihnen gab, band die Klans an den Dämon, dessen Blut sie teilten." },
+        { "Als die Horde fiel und die Klans in die Lager getrieben wurden, kämpften seine Warsong aus dem Verborgenen weiter, und Grom blieb ein unbesiegter Häuptling. Der junge Thrall lernte von ihm, was die Horde einmal gewesen war, und fand einen Verbündeten, um die zerstreuten Klans zusammenzuführen. Die beiden segelten als Freunde nach Kalimdor, mit der Hoffnung auf eine Heimat jenseits der Lager und der alten Kriege." },
+        { "Grom erlebte nicht mehr, wie die neue Heimat der Horde erbaut wurde. Thrall setzte einen Stein, wo er im Demonfall-Canyon fiel. 'In vielerlei Hinsicht', steht darauf, 'begann und endete der Fluch unseres Volkes mit Grom.' Sein Name bedeutete Riesenherz, schreibt der Kriegshäuptling, und er hat ihn sich hundertfach verdient." },
+      },
+    },
     ["gromgol-base-camp"] = {
       title = "Das Basislager von Grom'gol",
       text = {
@@ -2888,6 +2949,13 @@ ns.translate({
       text = {
         { "Die Barovs waren ein Adelshaus Lordaerons, reich und stolz, die Herren von Caer Darrow. Als die Seuche kam, schlossen sie ihren Handel mit Kel'Thuzad: ihre Burg für den Kult der Verdammten, im Tausch gegen die Sicherheit ihres Vermögens. Kel'Thuzad hielt sein Wort auf seine Weise. Der Lord und seine Familie sind noch immer in der Scholomance, als Diener der Geißel." },
         { "Zwei Söhne sind übrig. Weldon Barov lebt und sitzt unter dem Schutz der Allianz im Chillwind-Lager. Alexi Barov lebt nicht und leistet den Verlassenen am Bollwerk Gesellschaft. Jeder will das Vermögen der Familie. Jeder hätte gern den Kopf seines Bruders auf einem Teller, und jeder bezahlt einen Reisenden dafür, ihn zu holen. Der Untod hat diesen Familienstreit nicht beendet." },
+      },
+    },
+    ["hydraxian-waterlords"] = {
+      title = "Die Hydraxianer",
+      text = {
+        { "Auf einer Insel in der Bucht von Azshara lebt Fürst Hydraxis, ein Herr der Elementare des Wassers, und die Hydraxianer, die er führt, liegen im Krieg mit den anderen Elementen, vor allem mit dem Feuer. Ihr großer Feind ist Ragnaros, der Feuerlord, in seinem Geschmolzenen Kern." },
+        { "Sie sind keine Freunde der Sterblichen, doch sie machen jene zu Verbündeten, die gegen ihre Feinde kämpfen: die Elementare von Erde und Luft in den Brunnen der Pestländer und in Silithus und die Herren des Feuers unter dem Blackrock. Denen, denen sie vertrauen, geben sie das Wasser, das die Runen im Geschmolzenen Kern löscht, und einen Weg, den Majordomus des Feuerlords herauszurufen." },
       },
     },
     ["internment-camps"] = {
@@ -3036,6 +3104,14 @@ ns.translate({
         { "Östlich der Tore liegt das sanfteste Land von Khaz Modan: grüne Hügel, Kiefernwälder und ein langer blauer See, alles gehalten von dem großen Damm an seinem Nordende." },
         { "Es ist Acker- und Jagdland, und die Zwerge, die hier leben, sind ein wenig langsamer im Zorn und sehr viel schneller dabei, Euch etwas zu trinken anzubieten, als ihre Vettern in Ironforge. Die gute Laune brauchen sie. Troggs graben in den südlichen Tälern, Oger halten den Nordosten, und in den Hügeln hat man Dunkeleisenzwerge gesehen." },
         { "Rastet in Thelsamar, seht Euch den Damm an und besucht das Tal der Könige. Dann gebt acht, wohin Ihr tretet." },
+      },
+    },
+    ["loramus-thalipedes"] = {
+      title = "Loramus Thalipedes",
+      text = {
+        { "Auf einer Insel vor der Küste von Azshara lebt ein Dämonenjäger namens Loramus Thalipedes allein mit seinen Teufelshunden. Wenn Ihr gegen Dämonen kämpfen wollt, sagt er, tätet Ihr gut daran, zuerst seine Geschichte anzuhören." },
+        { "Reisende kommen zu ihm aus den Verwüsteten Landen, wo Razelikh der Entweiher drei Diener hält, die nicht sterben können, solange die an sie gebundenen Amulettstücke in diesem Land bleiben. Loramus weiß, wie man solche Schutzzauber bricht. Es braucht den wahren Namen des Dämonenfürsten, den ein niederer Gott an der Küste Azsharas für einen Preis eintauscht, und eine Waffe, geschmiedet, um ihn zu tragen, aus dem Kristall, den die Klippenriesen des Südens zurücklassen, und bearbeitet von einem Schmied, der mit Teufelsfeuer umgehen kann." },
+        { "Er lacht über die meisten, die es versuchen. Er weist sie nicht ab, und er hält sie nicht auf. Wofür er auch immer Dämonen jagte, er scheint vor langer Zeit beschlossen zu haben, dass die Welt mehr Leute braucht, die es tun." },
       },
     },
     ["lord-kazzak"] = {
@@ -3340,6 +3416,14 @@ ns.translate({
         { "Die Dorfbewohner wissen es, glaube ich, und leben damit auf die einzige Weise, die ihnen bleibt. Es ist der traurigste Ort im Silberwald, und im Silberwald gibt es Konkurrenz." },
       },
     },
+    ["queen-azshara"] = {
+      title = "Königin Azshara",
+      text = {
+        { "Dieses Land trägt den Namen der letzten Königin der Nachtelfen, und es ist kein Kompliment. Azshara war schön und begabt und anfangs von ihrem ganzen Volk geliebt. Sie baute ihren Palast am Ufer des Brunnens der Ewigkeit, füllte ihn mit ihren bevorzugten Dienern, den Hochgeborenen, und ließ sie erforschen, was die Macht des Brunnens vermochte." },
+        { "Sie lernten Magie, und sie veränderte sie. Azshara zog sich von ihrem Volk zurück und sprach nur noch mit ihren Hochgeborenen. Dann erreichten die Wellen ihrer Zauberkunst Sargeras, und die Königin, überwältigt von ihrer eigenen Macht, willigte ein, ihm den Weg zu öffnen. Sie und ihre Hochgeborenen schufen ein Portal in den Tiefen des Brunnens, und die Brennende Legion kam hindurch." },
+        { "Am Ende des Krieges der Urtume stürzte der Brunnen ein, und das Meer nahm ihren Palast, ihre Stadt und ihren Hof. Die Nachtelfen sagen, sie sei mit ihnen hinabgezogen worden. Die Naga, die an diesen Küsten spuken, waren einst ihre Hochgeborenen, und die Ruinen an dieser Küste sind, was über dem Wasser übrig blieb." },
+      },
+    },
     ["queldanil-lodge"] = {
       title = "Die Quel'Danil-Hütte",
       text = {
@@ -3381,6 +3465,13 @@ ns.translate({
       text = {
         { "Das Dorf Rabenflucht steht leer neben einem Friedhof, der sich über den ganzen Hang ausgebreitet hat. Skelette wandeln durch seine Reihen, Ghule graben zwischen den Gräbern, und die Nachtwache kann die Toten nicht in Ruhe halten. Der Friedhof ist gefährlicher geworden als die verlassenen Häuser um ihn herum." },
         { "Morbent Fel, ein Nekromant, lebt in einem Haus über dem Friedhof. Ein Holzfäller, dessen Familie er tötete, will ihn tot sehen. In der Nähe bewohnt ein alter Einsiedler eine Hütte mit Blick auf die Gräber. Früher kam er für Vorräte nach Dunkelhain, doch dort hat man ihn schon eine Weile nicht mehr gesehen." },
+      },
+    },
+    ["ravencrest-monument"] = {
+      title = "Das Ravencrest-Monument",
+      text = {
+        { "Die zerbrochenen Beine einer großen Statue stehen auf den südlichen Klippen von Azshara. Der Ort heißt Ravencrest-Monument. Naga besetzen die Ruinen, und der Rest des Kolosses liegt verstreut oder unter dem Meer. Selbst was übrig ist, gibt einen beachtlichen Orientierungspunkt ab." },
+        { "Lord Kur'talos Ravencrest führte im Krieg der Urtume den Widerstand der Nachtelfen von der Rabenwehr aus. Sein Name erinnert an jene, die sich Azshara und der Legion widersetzten. Bewahrt auch sie in der Geschichte dieser Küsten, $gReisender:Reisende;. Der Hof der Königin war nicht das ganze Volk, dessen Welt zerstört wurde." },
       },
     },
     ["ravenholdt-manor"] = {
@@ -3489,6 +3580,13 @@ ns.translate({
       text = {
         { "Als der Gong geschlagen wurde und der Skarabäuswall sich öffnete, strömten die Heere der Allianz und der Horde in die äußere Stadt von Ahn'Qiraj, die Ruinen, ein Ort aus zerbrochenen Tempeln und Sand, der von Insekten wimmelt. Der Qiraji-General Rajaxx befehligt hier, derselbe, der vor tausend Jahren Valstann Staghelm tötete, und die Ruinen werden in ihrem Herzen von dem großen steinernen Krieger Ossirian dem Narbenlosen bewacht." },
         { "Der Zirkel des Cenarius schickte eigene Streiter in die Ruinen, und für sie war die Schlacht in der Stadt das Ende eines sehr alten Krieges." },
+      },
+    },
+    ["ruins-of-eldarath"] = {
+      title = "Die Ruinen von Eldarath",
+      text = {
+        { "Die Ruinen der Hochgeborenen von Eldarath klammern sich an die östlichen Klippen von Azshara über der Bucht der Stürme. Ein Großteil der Stadt stürzte während der Großen Teilung ins Meer. Ihre Bewohner hatten ihr arkanes Wissen an öffentlichen Orten in Runen und Tafeln gemeißelt, und manche sind zwischen dem zerbrochenen Stein noch lesbar." },
+        { "Die Naga von Kriegsherr Krellian halten die Ruinen nun vom Tempel von Zin-Malor aus. Die Nachtelfen meiden den Ort, doch die Forscherliga will Abriebe der Inschriften. Wenn Ihr an den Naga vorbeikommt, $gReisender:Reisende;, bewahren diese Tafeln vielleicht etwas, das das Meer noch nicht genommen hat." },
       },
     },
     ["ruins-of-lordaeron"] = {
@@ -3650,6 +3748,13 @@ ns.translate({
         { "Southshore ist ein Fischerort mit Hafen an der Küste von Hillsbrad, mit einem Gasthaus, einem Rathaus und einer Garnison, die gegen die Verlassenen von Tarrens Mühle kämpft. Es bleibt ein Bollwerk der Lebenden in einem Land, in dem dieser Unterschied zählt." },
         { "Kundric Zanden hütet seine Geschichte, und die Gelehrten Stormwinds schicken Forscher durch den Ort zu den zerstörten Bibliotheken von Alterac. Ich freue mich, an einem solchen Ort geführte Aufzeichnungen zu finden. Ein Reisender kann sich hier mit Vorräten versorgen, kann aber auch etwas über das Land erfahren, durch das ihn diese Vorräte tragen müssen." },
         { side = "Horde", aside = true, sign = "P. F.", "Kundric Zanden hütet die Geschichte von Southshore, und ich hüte, was von der Lordaerons übrig ist. Über das letzte Kapitel wären wir uns wohl nicht einig." },
+      },
+    },
+    ["splintertree-post"] = {
+      title = "Splintertreeposten",
+      text = {
+        { "Der Splintertreeposten ist das Fort der Horde am Ostrand von Ashenvale, eine Palisade aus rohem Holz, in der die Holzfäller und Reiter der Warsong ihr Lager haben. Die Schildwachen greifen es unablässig an, und die Orcs zahlen es ihnen in gleicher Münze heim." },
+        { "Die Orcs sagen, sie brauchten das Holz: Durotar ist ein Land aus rotem Fels, und ein Volk muss bauen. Die Nachtelfen sagen, jeder Baum in diesem Wald sei älter als die Horde. Beide haben recht, und das macht es so schwer." },
       },
     },
     ["stalvan-mistmantle"] = {
@@ -3943,6 +4048,14 @@ ns.translate({
         { "Der Aufseher rief Abenteurer, um den Aufstand niederzuschlagen. Thredd war nicht der einzige gefährliche Gefangene darin: Der Orc Targorr der Schreckliche war unter den Aufrührern. Es ist ein unbehaglicher Gedanke, eine feindliche Festung unter den Straßen der eigenen Hauptstadt zu haben." },
       },
     },
+    ["the-sundering"] = {
+      title = "Die Große Teilung",
+      text = {
+        { "Vor zehntausend Jahren herrschten die Nachtelfen vom Ufer des Brunnens der Ewigkeit aus über Kalimdor, einem See aus reiner Magie im Herzen der Welt. Ihre Königin war Azshara, die schönste von allen, und ihre Hochgeborenen schöpften ohne Grenzen aus der Macht des Brunnens. Ihre Magie zog den Blick von Sargeras auf sich, dem Herrn der Brennenden Legion, und Azshara und ihre Hochgeborenen öffneten ihm den Weg, im Glauben, die Dämonen würden die Welt vollkommen machen." },
+        { "Die Nachtelfen, die sich nicht beugen wollten, bekämpften die Legion im Krieg der Urtume. Lord Kur'talos Ravencrest führte sie zuerst, im Glauben, seine Königin sei eine Gefangene ihrer eigenen Berater, bis ein Meuchler, den ihr Hauptmann der Garde geschickt hatte, ihn auf dem Schlachtfeld tötete. Der Befehl fiel schließlich an einen jungen Offizier, Jarod Shadowsong, der tat, was Ravencrest verweigert hatte, und die anderen Völker rief, die Irdenen, die Tauren, die Furbolgs und die Halbgötter des Waldes, Cenarius unter ihnen. Der junge Druide Malfurion Stormrage und die Priesterin Tyrande kämpften im Herzen des Geschehens. Malfurions Bruder Illidan lief zu den Hochgeborenen über, und der Drache Neltharion wandte sich gegen die anderen Schwärme." },
+        { "Am Ende erkannte Malfurion, dass der Brunnen selbst die Tür der Legion war, und der Brunnen der Ewigkeit wurde zerstört. Er riss sich selbst auseinander und nahm das Herz des Kontinents mit sich, und das Meer stürzte in das Loch, das er hinterließ. Azshara und ihre Hochgeborenen gingen mit ihrem Palast unter. Von dieser Küste aus, dem zertrümmerten Strand, blickt Ihr über den Ort, an dem die Welt zerbrach." },
+      },
+    },
     ["the-temple-of-atalhakkar"] = {
       title = "Der Tempel von Atal'Hakkar",
       text = {
@@ -4153,6 +4266,20 @@ ns.translate({
         { "Der Streit wurde zu einem Krieg unter dem Berg. Die Bronzebeards hielten die Stadt. Die Wildhammer unter Than Khardros wurden vertrieben und errichteten ihre eigene Festung in Grim Batol, und die Dunkeleisenzwerge unter Zauberthan Thaurissan zogen sich in die Berge des Südens zurück." },
         { "Die Dunkeleisenzwerge waren nicht am Ende. Sie marschierten zugleich gegen Ironforge und Grim Batol und verloren beide Schlachten. In seiner Wut griff Thaurissan nach einer Macht, die weit älter war als jeder Klan, und weckte Ragnaros, den Herrn des Feuers. Der Süden brannte: Die Sengende Schlucht und die Brennende Steppe sind, was übrig blieb, und die Dunkeleisenzwerge dienen dem Feuerlord seither im Blackrock." },
         { "Auch die Wildhammer blieben nicht in Grim Batol. Der Tod von Königin Modgud, die vor seinen Toren erschlagen wurde, hinterließ eine Finsternis im Stein, und sie fanden ein neues Zuhause in Aerie Peak im Hinterland. Ironforge erinnert sich noch, welcher Klan geblieben ist." },
+      },
+    },
+    ["warsong-gulch"] = {
+      title = "Warsongschlucht",
+      text = {
+        { "In der Warsongschlucht, am Südrand von Ashenvale, haben die Nachtelfen ihre Stellung gegen weiteres Holzfällen der Warsong bezogen. Die Schildwachen der Silverwing halten das eine Ende des Tals und die Warsongvorhut das andere. Ihre Kämpfer laufen zwischen den Lagern hin und her, um das Banner des Feindes zu erbeuten." },
+        { "Die Horde betrachtet dies als Verteidigung eines Holzfällerbetriebs. Die Allianz betrachtet den Betrieb als Einfall. Beide schicken Kämpfer von weit jenseits Ashenvales." },
+      },
+    },
+    ["warsong-lumber-camp"] = {
+      title = "Das Holzfällerlager der Warsong",
+      text = {
+        { "Als die Orcs in Kalimdor landeten, schickte Thrall Grom Hellscream und seinen Warsongklan nach Ashenvale, um Holz zu holen. Die Hüter des Waldes wollten sie dort nicht haben, und der Halbgott Cenarius, der Herr des Waldes selbst, erhob sich gegen sie." },
+        { "Grom konnte ihn nicht besiegen. Also tat er, was die Orcs geschworen hatten, nie wieder zu tun: Er trank das Blut des Dämons Mannoroth, und mit dessen Stärke töteten die Warsong Cenarius in seinem eigenen Wald. Der Fluch des Dämons lag wieder auf ihnen. Die Holzfällerlager der Warsong sind noch immer hier, und sie fällen noch immer, und die Nachtelfen haben ein langes Gedächtnis." },
       },
     },
     ["wendigos"] = {
