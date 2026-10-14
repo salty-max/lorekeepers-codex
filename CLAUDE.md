@@ -196,6 +196,11 @@ historical claims in other entries.
 - Textures: only ones the Classic UI itself uses (check Gethe/wow-ui-source,
   branch classic_era); a wrong path silently shows nothing.
 
+- `.github/workflows/game-data.yml`: daily and by hand, wow-data's
+  `addon-data.yml` builds the game data again from wow-data's pins (the areas, the texts and their titles, the portraits, the glossaries and the places inside buildings in every language, then `bun run build`);
+  a pull request when a generated file changes, the checks run on it, never
+  merged by itself. The generators' list lives there: a new one goes in too.
+
 ## Conventions
 
 - Conventional Commits, lowercase subjects; no AI co-author trailers.

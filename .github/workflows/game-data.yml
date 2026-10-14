@@ -1,0 +1,38 @@
+# Every day, and by hand: the Codex's game data built again from wow-data's
+# pins (salty-max/wow-data's addon-data.yml: wow-data and addon-kit beside it,
+# the databases downloaded): the areas, the texts and their titles in every
+# language, the portraits, the glossaries and the places inside buildings,
+# then the addon's files. When one changes, a pull request with the checks
+# run (never merged by itself).
+name: Game data
+
+on:
+  schedule:
+    - cron: "27 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  data:
+    uses: salty-max/wow-data/.github/workflows/addon-data.yml@main
+    with:
+      kit: true
+      generate: |
+        bun scripts/areas.ts
+        bun scripts/areas.ts --forever
+        python3 scripts/texts.py
+        python3 scripts/portraits.py
+        for locale in $(ls i18n | grep -E '^[a-z]{2}[A-Z]{2}$'); do
+          python3 scripts/text_titles.py "$locale"
+          python3 scripts/book_texts.py "$locale"
+          python3 scripts/glossary.py "$locale"
+          python3 ../addon-kit/subzones.py "$locale"
+        done
+        bun run build
+      paths: |
+        data
+        i18n
+        addon/LorekeepersCodex
