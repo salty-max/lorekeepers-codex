@@ -2087,12 +2087,33 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Ich bin ihr nie begegnet. Ihr Bericht über die Welt ist dennoch der gerechteste, den ich von lebender Hand gelesen habe." },
       },
     },
+    ["bloodsail-buccaneers"] = {
+      title = "Die Blutsegelbukaniere",
+      text = {
+        { "Die Blutsegelbukaniere sind die große Piratenflotte der südlichen Meere, und ihr Streit gilt Booty Bay. Der Baron und seine Schwarzmeerräuber hindern sie daran, zu plündern, wo es ihnen gefällt, und hängen sie, wenn sie sie fangen. Die Blutsegel wollen den Baron und seinen Flottenmeister tot sehen und machen jeden zum Admiral, der ihnen ihre Köpfe bringt." },
+        { "Ihre Schiffe liegen vor der Küste des Schlingendorntals, die CRIMSON VEIL unter ihnen, und ihre Lager halten die Buchten der ungezähmten Küste. Ihr Flottenmeister ist Firallon, von dem die Seeleute der Schwarzmeerräuber sagen, er könne kein Beiboot über einen See segeln. Geschlagen haben sie ihn noch nicht." },
+      },
+    },
+    ["bloodscalp-and-skullsplitter"] = {
+      title = "Die Bloodscalp und die Skullsplitter",
+      text = {
+        { "Die Bloodscalp halten den Nordwesten des Schlingendorntals. Die Skullsplitter bewohnen den mittleren Dschungel. Beide leben zwischen den Ruinen ihrer Ahnen, der Gurubashi. Ihre Kopfjäger streifen durch den Norden, nehmen Köpfe und Trophäen, und die beiden Stämme begegnen einander mit beträchtlicher Feindseligkeit." },
+        { "Nimboya verdächtigt die Bloodscalp, Yenniku festzuhalten, den jüngsten Sohn seines Häuptlings. Die Suche führt anderswohin: Zanzil der Ausgestoßene hat ihn unter seine magische Kontrolle gebracht. Merkt Euch diesen Unterschied, $gReisender:Reisende;. Der erste Feind, der in einer Ermittlung genannt wird, ist nicht immer der Verantwortliche." },
+      },
+    },
     ["bolvar-fordragon"] = {
       title = "Hochlord Bolvar Fordragon",
       text = {
         { "Hochlord Bolvar Fordragon befehligt die Heere Stormwinds und steht dem Knabenkönig Anduin Wrynn zur Seite, solange dessen Vater Varian verschollen ist. Er ist ein Paladin der alten Schule, fromm, ehrlich und unerschütterlich, und er hält die Soldaten des Königreichs dort, wo das Königreich sie am dringendsten braucht, was selten dort ist, wo die Provinzen sie gern hätten." },
         { "Er ist ein vorsichtiger Mann, vielleicht zu vorsichtig. Als der Magistrat von Seenhain meldete, dass die Orcs der Blackrock Drachen hinter sich hätten, wollte Bolvar keine Truppen auf bloße Vermutungen hin bewegen und schickte den Boten, Lady Katrana Prestor um Rat zu fragen. Marshal Windsor, der den Beweis gefunden hatte, nannte ihn einen Narren: Der Beweis stehe zwei Fuß von ihm entfernt, sagte er, und er sehe ihn nicht. Als Windsor die Lady im Thronsaal als Onyxia entlarvte, die Tochter Todesschwinges, sagte er, selbst der Hochlord sei ihre Marionette gewesen, gehalten von einem Drachenmedaillon. Am Ende blieb Bolvar mit dem zerschmetterten Medaillon in der Hand zurück." },
         { "Er ist kein Narr. Er ist ein ehrlicher Mann, der einem Drachen aufs Wort glaubte, und ich bezweifle, dass er es noch einmal tun wird." },
+      },
+    },
+    ["booty-bay"] = {
+      title = "Booty Bay",
+      text = {
+        { "Booty Bay klammert sich an die Klippen einer Meereshöhle an der Südspitze des Schlingendorntals. Holzhäuser, Pfähle und Hängebrücken drängen sich um seinen Hafen. Das gewaltige offene Maul eines Hais markiert den Eingang. Baron Revilgaz führt den Hafen für das Steamwheedle-Kartell, mit dem Ziel, ihn neutral und einträglich zu halten." },
+        { "Auch seine Schwarzmeerräuber sind hier zu Hause. Sie liegen im Krieg mit den Blutsegelbukanieren, die den Baron tot sehen wollen. Ein Händler findet in der Bucht einen Hafen, ein bewaffneter Reisender findet Arbeit in dem Streit dahinter. Revilgaz hat Geschäfte für beide." },
       },
     },
     ["church-of-the-holy-light"] = {
@@ -2253,6 +2274,34 @@ ns.translate({
         { "Die roten Drachen sind noch immer dort. Was auch immer sie in Grim Batol bewachen, sie bewachen es erbittert. Geht nicht in seine Nähe, $gReisender:Reisende;. Die roten Drachkin an seinen Zugängen sind Warnung genug." },
       },
     },
+    ["gromgol-base-camp"] = {
+      title = "Das Basislager von Grom'gol",
+      text = {
+        { "Grom'gol ist eine Palisade der Horde an der Nordküste des Schlingendorntals, angeflogen von Zeppelinen aus Orgrimmar und Undercity. Für die Dunkelspeer ist eine Reise hierher eine Rückkehr in das Land ihrer Ahnen. Zu ihren Geschäften im Dschungel gehören Verluste, die ihnen folgten, als sie gingen." },
+        { "Nimboya sucht Yenniku, den jüngsten Sohn seines Häuptlings, der den Trollen von Zul'Gurub als Knabe nach altem Brauch übergeben wurde. Die Dunkelspeer verloren ihn, als sie mit Thrall fortgingen. Nimboya verdächtigt zuerst die Bloodscalp, doch die Suche enthüllt Zanzils des Ausgestoßenen magischen Griff um ihn und führt zu dem Versuch, seine Seele zu befreien." },
+      },
+    },
+    ["gurubashi-arena"] = {
+      title = "Die Arena der Gurubashi",
+      text = {
+        { "Mitten im Dschungel steht eine große steinerne Arena, die die Gurubashi vor langer Zeit für ihre Blutspiele erbauten. Die Trolle sind fort, das Kämpfen nicht: Die Goblins und Piraten, die sie heute betreiben, halten regelmäßig Wettkämpfe ab, und ab und zu werfen sie eine Truhe voller Schätze mitten auf den Boden und lassen den nehmen, der dann noch steht." },
+        { "Sie steht allen offen, Allianz und Horde gleichermaßen, was heißt, dass sie der eine Ort im Schlingendorntal ist, an dem beide ermutigt werden, einander umzubringen." },
+      },
+    },
+    ["gurubashi-empire"] = {
+      title = "Das Reich der Gurubashi",
+      text = {
+        { "Die Dschungeltrolle der Gurubashi beherrschten einst ein Reich, das sich über den Süden der Östlichen Königreiche und über die Inseln des Meeres erstreckte, und das Schlingendorntal war sein Herz, mit der großen Tempelstadt Zul'Gurub in seiner Mitte. Seine Ruinen sind überall in diesem Dschungel: Stufentempel, zerbrochene Götzenbilder und gepflasterte Straßen unter den Wurzeln." },
+        { "Sein Fall war das Werk seiner eigenen Priester. Die Atal'ai holten den Blutgott Hakkar den Seelenschinder in die Welt, und sein Hunger nach Opfern brachte das Reich gegen sich selbst auf. Die Stämme erhoben sich, trieben die Atal'ai ins Exil und zerfielen. Was übrig blieb, wurde zu den Stämmen, die wir kennen: die Skullsplitter und die Bloodscalp im Dschungel, die Dunkelspeer, die mit Thrall fortgingen, und andere. Die Trolle haben nicht vergessen, was sie einmal waren." },
+      },
+    },
+    ["hakkar"] = {
+      title = "Hakkar der Seelenschinder",
+      text = {
+        { "Hakkar der Seelenschinder ist der Blutgott der Trolle, eine geflügelte Schlange, die sich von Blut und Seelen nährt. Vor langer Zeit holten die Atal'ai ihn in die Welt. Seine Forderung nach Opfern wurde so schrecklich, dass die Stämme sich gegen seine Priester erhoben und sie ins Exil trieben." },
+        { "Durch Zul'Gurub ist er zurückgekehrt. Die Zandalar warnen, dass seine Herrschaft sich über die ganze Welt ausbreiten wird, wenn man ihn nicht aufhält. Selbst sein gefallenes Herz birgt Macht: Wer ihm gegenübergetreten ist, beschreibt es als noch immer brennend. Behaltet die Warnung der Zandalar im Sinn, $gReisender:Reisende;, wenn Ihr diese Stadt betretet. Sie wissen, was seine Anbetung ihr Volk einst gekostet hat." },
+      },
+    },
     ["hall-of-thanes"] = {
       title = "Die Halle der Thanen",
       text = {
@@ -2312,6 +2361,14 @@ ns.translate({
       text = {
         { "Kharanos liegt im kalten Herzen von Dun Morogh, an der Straße zwischen den Übungsplätzen im Coldridgetal und den Toren von Ironforge. Nach zwergischem Maßstab ist es ein kleiner Ort: eine Schmiede, ein paar stämmige Häuser und das Gebäude, das ihn berühmt macht, die Brauerei Donnerbräu, wo die Familie Donnerbräu ihre Biere schon länger vervollkommnet, als irgendwer zugeben mag." },
         { "Haltet den warmen Herd nicht für Sicherheit. Trolle der Frostmane halten die Hügel im Westen, Troggs kriechen immer wieder aus den tiefen Orten herauf, und seit dem Fall von Gnomeregan teilen seine Verbannten diese Straßen mit uns. Der Ort hält seine Türen trotzdem offen: Ein Zwerg, der einen frierenden Reisenden abweist, ist überhaupt kein Zwerg." },
+      },
+    },
+    ["kurzen-rebellion"] = {
+      title = "Kurzens Rebellion",
+      text = {
+        { "Colonel Kurzen kam mit dem Ruf eines Soldaten ins Schlingendorntal: ein brillanter Taktiker, einst als großer und edler Mann angesehen. Im Dschungel veränderte er sich. Seine Gefolgsleute wurden zu einer Truppe, die allein ihm treu war, und plünderten und jagten mit einer Grausamkeit, die ihre einstigen Kameraden nicht hinnehmen wollten." },
+        { "Lieutenant Doren führte die Abtrünnigen in ein Rebellenlager in den Hügeln. Zehnfach unterlegen bekämpfen sie Kurzen mit der Taktik, die er sie selbst gelehrt hat. Bruder Nimetz vermutet zuerst Trollmagie, doch seine Ermittlung führt zu Mai'Zoth, einem Ogermagier, und zu dem Gedankenauge, mit dem man den Geist beherrscht." },
+        { "Nimetz bittet um den Tod des Magiers und um die Bergung des Artefakts. Verwendet besondere Sorgfalt auf diese zweite Aufgabe, $gReisender:Reisende;. Er fürchtet, dass es, zurückgelassen, einen weiteren Soldaten Kurzens Schicksal ausliefern würde." },
       },
     },
     ["lakeshire"] = {
@@ -2411,6 +2468,13 @@ ns.translate({
         { "Nek'rosh Skullcrusher führt, was von den Dragonmaw im Sumpfland übrig ist, und er ist der Sohn seines Vaters: Nekros Skullcrusher war der Orc, der die Drachenkönigin in Grim Batol gefangen hielt. Als die Drachen sich befreiten, nahmen sie Rache am Klan. Nek'rosh will die seine." },
         { "Er baut die Stärke der Dragonmaw in den Hügeln wieder auf, und er hat Katapulte bauen lassen, um den Hafen von Menethil zu belagern und die Straße nach Loch Modan abzuschneiden." },
         { "Wenn Ihr derjenige seid, der ihn aufhält, $gReisender:Reisende;, wäre die Liga für einen Bericht darüber dankbar, wie. Kurz, wenn Ihr es schafft. Berichte über Orchäuptlinge geraten gern lang." },
+      },
+    },
+    ["nesingwarys-expedition"] = {
+      title = "Nesingwarys Expedition",
+      text = {
+        { "Hemet Nesingwarys Lager liegt auf einer Lichtung im Norden des Schlingendorntals, gut ausgestattet mit Zelten, Trophäen und Gewehrständern. Der berühmte Jäger ist wegen der Panther, Tiger und Raptoren gekommen und um Die Grünen Hügel des Schlingendorntals zu schreiben. Jägern, die vorbeikommen, bietet er reichlich Gelegenheit, sich zu beweisen." },
+        { "Sein Manuskript wurde vom Wind davongetragen, und seine Seiten liegen über den ganzen Dschungel verstreut. Die Kapitel erzählen von seiner Jagd, sobald jemand sie wieder in Ordnung gebracht hat. Wenn Ihr eine Seite findet, $gReisender:Reisende;, behaltet sie. Schriftsteller sind schon anstrengend genug, wenn sie wissen, wo ihr Werk ist." },
       },
     },
     ["night-watch"] = {
@@ -2541,6 +2605,13 @@ ns.translate({
         { client = "forever", "Es ist eine Stadt des Handels und der Soldaten, mit Schiffen in ihrem Hafen, der Priester und der Spione, und eines Hofes, der flüstert. Der Junge auf dem Thron ist ihr König. Die Männer und Frauen um ihn herum regieren sie." },
       },
     },
+    ["stranglethorn-vale"] = {
+      title = "Schlingendorntal",
+      text = {
+        { "Das Schlingendorntal ist ein Dschungel, der größte in den Östlichen Königreichen: Hitze, Regen, Ranken, Panther, Raptoren und Gorillas, vom Grün verschluckte Ruinen und eine lange Küste aus Stränden und Buchten. Es war das Herz der Gurubashi, des Trollreichs, das den Süden beherrschte, lange bevor es Königreiche der Menschen gab, und die Ruinen ihrer Tempel stehen überall." },
+        { "Jeder kommt wegen irgendetwas hierher. Jäger kommen wegen Trophäen, Goblins wegen Gold und Holz, Piraten wegen Beute, und Soldaten der Allianz und der Horde, um gegen die Trolle, die Oger und einander zu kämpfen. Der Dschungel verschlingt die meisten von ihnen, früher oder später." },
+      },
+    },
     ["thandol-span"] = {
       title = "Der Thandol-Übergang",
       text = {
@@ -2640,6 +2711,20 @@ ns.translate({
         { "Noch eine Grabung der Liga, diese in den Marschen des Sumpflands, unter Ausgrabungsleiter Whelgar. Die Marsch behält, was sie verschluckt, und die Liga hatte große Hoffnungen in das gesetzt, was unter ihr lag." },
         { "Dann kamen die Raptoren. Sie zogen in die Grabung ein und betrachteten die Gräber als Freiwild, und die Leute der Liga wurden auf einen Grat über der Stätte vertrieben, wo manche von ihnen noch immer darauf warten, dass die Tiere abziehen." },
         { "Wenn Ihr vorbeikommt, seht nach ihnen. Sie werden sehr froh sein, jemanden mit einer Waffe zu sehen." },
+      },
+    },
+    ["zandalar-tribe"] = {
+      title = "Der Stamm der Zandalar",
+      text = {
+        { "Die Zandalar bezeichnen sich als den ältesten Stamm der Trolle, von dem die anderen abstammen. Ihre Priester und Gelehrten bewahren die Erinnerung an ihr Volk und ihre Götter. Selten mischen sie sich in die Angelegenheiten anderer Völker ein, doch Hakkars Rückkehr hat sie auf die Insel Yojamba vor der Küste des Schlingendorntals gebracht." },
+        { "Ihr Anführer Molthor arbeitet mit jedem zusammen, der bereit ist, sich dem Seelenschinder entgegenzustellen. Diese Einladung schließt Leute ein, die die Trolle gewöhnlich wenig Grund hätten willkommen zu heißen." },
+      },
+    },
+    ["zulgurub"] = {
+      title = "Zul'Gurub",
+      text = {
+        { "Zul'Gurub war die Tempelstadt im Herzen des Reichs der Gurubashi. Nach Jahrhunderten der Stille ist es wieder Hakkars Stadt. Hohepriester, die ausgesandt wurden, um sich ihm entgegenzustellen, sind seiner Macht verfallen, und die Zandalar müssen nun jenseits ihres eigenen Volkes Hilfe suchen." },
+        { "Die gefangenen Priester nehmen die Gestalten der alten Tiergötter an: Fledermaus, Panther, Tiger, Schlange und Spinne. Opfer nähren den Altar des Seelenschinders. Die Zandalar warnen, dass seine wachsende Macht ganz Azeroth bedroht. Wenn Ihr hineingeht, denkt daran, warum sie Euch gebeten haben zu gehen: Selbst jene, die ihn aufhalten sollten, wurden zu Werkzeugen seiner Herrschaft." },
       },
     },
   },
