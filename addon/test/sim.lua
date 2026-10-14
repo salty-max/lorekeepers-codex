@@ -1642,4 +1642,52 @@ do
   C_Map.GetAreaInfo = areaInfo
 end
 
+-- Check the shipped French book catalog, including the circulars whose first
+-- 24 English letters are identical. The importer must not bind all three to
+-- the first translation merely because their openings match.
+do
+  local translated
+  assert(loadfile(DIR .. "Text_frFR.lua"))("LorekeepersCodex", {
+    translate = function(t) translated = t end,
+  })
+  local before = ns.bookTexts
+  ns.bookTexts = translated.books
+  for _, case in ipairs({
+    {
+      "For immediate dissemination to all Twilight's Hammer members.\n\nThe search for the traitor, Ortell,",
+      "Ortell",
+      1,
+    },
+    {
+      "For immediate dissemination to all Twilight Hammer members.\n\nGiven the current state of affairs in Silithus,",
+      "Silithus",
+      1,
+    },
+    {
+      "For immediate dissemination to all Twilight's Hammer members.\n\nThe following information describes the use of wind stones",
+      "pierres des vents",
+      4,
+    },
+  }) do
+    local pages, localized = ns.textPages({ title = "Decoded Twilight Text", pages = { case[1] } })
+    check(
+      localized and #pages == case[3] and pages[1]:find(case[2], 1, true),
+      "the French Twilight circular matches its English text: " .. case[2]
+    )
+  end
+  local pages, localized = ns.textPages({ title = "The Green Hills of Stranglethorn", pages = { "old English copy" } })
+  check(
+    localized and #pages == 30 and pages[30]:find("-- Fin --", 1, true),
+    "the full French Green Hills book keeps its cover, 29 body pages and ending"
+  )
+  local letter = ns.textPages({ title = "Simple Letter", pages = { "old English copy" } })
+  check(
+    letter[1]:find("Dis-moi", 1, true) and not ns.textForReader(letter[1]):find("$C", 1, true),
+    "the missing French warrior letter reads in French with the reader's class"
+  )
+  local unknown = { "A readable outside the catalog." }
+  check(ns.textPages({ title = "Unknown", pages = unknown }) == unknown, "unknown texts keep their recorded pages")
+  ns.bookTexts = before
+end
+
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")

@@ -102,3 +102,31 @@ first translation, said so on the store page.
 
 Then the same for Yonder and Second Wind. Hearthtale writes its entries from
 phrase tables in English grammar: a much bigger job, last.
+
+## Library readable supplements
+
+`python3 scripts/book_texts.py frFR` imports the browser cache, then applies
+`i18n/frFR/books-supplement.json`. This tracked file preserves translations
+and source corrections across cache refreshes. Each entry records its title,
+the SHA-256 of the pinned English HTML page array (compact UTF-8 JSON), its
+French pages and provenance. A changed English source stops the import for
+review. `codex-translation` means a faithful translation written for this
+addon, **not verified wording from the French game client**. `client-text-reuse`
+means previously collected French pages, with any authored portions noted.
+
+The supplement also documents source exceptions. A deprecated/test entry or
+a title pointing to an unrelated page chain stays out of the catalog until
+its actual text can be verified. Its recorded in-game copy remains readable.
+These exceptions do not establish whether an item is obtainable on Forever.
+The current decisions are in [french-readable-translations.md](french-readable-translations.md).
+
+The complete Green Hills book reuses the four French quest chapters in order,
+with a translated cover and ending. The catalog retains page boundaries and
+reader tokens. Prose semicolons become commas and curly quotes become straight
+quotes during import. The semicolon terminating a `$gmale:female;` token stays.
+
+Texts sharing a title use enough letters of their English first page to tell
+their openings apart. Identical English page chains share one translation.
+`bun run check` verifies that the supplement's pages are shipped, rejects
+bracketed English fallback bodies in the French catalog, and exercises the
+three similar Twilight circulars against the generated French addon file.

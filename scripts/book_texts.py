@@ -12,13 +12,16 @@ pages from .cache/books-<locale>.json, Wowhead's Forever pages for each text
 ({ "o<object id>" | "i<item id>": [ HTML pages ] }). Wowhead turns scripts
 away, so that file comes from a browser: each /forever/<lang>/object=<id> or
 item=<id> page embeds new Book({ pages: [...] }) (docs/localization.md).
+Tracked corrections and translations in i18n/<locale>/books-supplement.json
+take precedence, with hashes of their English sources and provenance. Its
+excluded records document deprecated/test items and broken source bindings.
 
 Writes i18n/<locale>/books.json: { English title: [ { first, pages } ] },
 first the start of the English first page (letters only, to tell apart the
 texts that share a title), pages plain text: the game's tags turned into
 lines, its placeholders into the game's tokens ($N, $C, $R, $gmale:female;).
 """
-import gzip, html, json, os, re, sys
+import gzip, hashlib, html, json, os, re, sys
 
 locale = sys.argv[1]
 db = gzip.open(".cache/classicdb-28ef6259c782.sql.gz", "rt", encoding="utf-8", errors="replace").read()
@@ -70,26 +73,64 @@ def plain(page):
     page = re.sub(r"<br\s*/?>", "\n", page, flags=re.I)
     page = re.sub(r"</(p|h\d)>", "\n\n", page, flags=re.I)
     page = re.sub(r"<(?!texte|text)[^>]*>", "", page)
-    page = html.unescape(page).replace(" ", " ").replace("’", "'")
+    page = html.unescape(page).replace(" ", " ").translate(str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"'}))
+    # The user's prose punctuation rule, without touching $gmale:female;.
+    parts = re.split(r"(\$g[^;]+;)", page)
+    page = "".join(p if i % 2 else re.sub(r"\s*;\s*", ", ", p) for i, p in enumerate(parts))
     page = re.sub(r"[ \t]+\n", "\n", page)
     page = re.sub(r"\n{3,}", "\n\n", page)
     return page.strip()
 
 
 source = json.load(open(f".cache/books-{locale}.json", encoding="utf-8"))
+supplement_path = f"i18n/{locale}/books-supplement.json"
+supplement = json.load(open(supplement_path, encoding="utf-8")) if os.path.exists(supplement_path) else {}
+corrections = supplement.get("entries", {})
+excluded = supplement.get("excluded", {})
+known = {key for key, _, _ in texts}
+if (set(corrections) | set(excluded)) - known:
+    raise ValueError("Readable supplement references unknown object/item ids")
+if set(corrections) & set(excluded):
+    raise ValueError("A readable cannot be both translated and excluded")
 out, missing = {}, []
 for key, title, first in texts:
+    if key in excluded:
+        continue
+    en = chain(first)
     tr = source.get(key)
+    correction = corrections.get(key)
+    if correction:
+        digest = hashlib.sha256(json.dumps(en, ensure_ascii=False, separators=(",", ":")).encode()).hexdigest()
+        if correction["title"] != title or correction["source_sha256"] != digest:
+            raise ValueError(f"{key}: translated source changed, review {supplement_path}")
+        tr = correction["pages"]
     if not isinstance(tr, list) or not tr:
         missing.append(f"{key} {title}")
         continue
-    en = chain(first)
     entry = {"first": letters(en[0]) if en else "", "pages": [plain(p) for p in tr]}
+    # Keep enough of the source to distinguish shared openings, such as the
+    # three Twilight circulars beginning "For immediate dissemination...".
+    entry["full_first"] = letters(en[0], None) if en else ""
+    entry["full_source"] = [letters(p, None) for p in en]
+    if correction and correction.get("english_first"):
+        entry["first"] = letters(correction["english_first"])
+        entry["full_first"] = letters(correction["english_first"], None)
     variants = out.setdefault(title, [])
-    if not any(v["pages"] == entry["pages"] for v in variants):
+    if not any(v["pages"] == entry["pages"] or v["full_source"] == entry["full_source"] for v in variants):
         variants.append(entry)
+for title, variants in out.items():
+    for v in variants:
+        others = [w for w in variants if w is not v]
+        while any(w["full_first"].startswith(v["first"]) for w in others):
+            length = len(v["first"]) + 1
+            if length > len(v["full_first"]):
+                raise ValueError(f"{title}: indistinguishable English first pages")
+            v["first"] = v["full_first"][:length]
+    for v in variants:
+        del v["full_first"]
+        del v["full_source"]
 os.makedirs(f"i18n/{locale}", exist_ok=True)
 with open(f"i18n/{locale}/books.json", "w", encoding="utf-8") as f:
     json.dump(dict(sorted(out.items())), f, ensure_ascii=False, indent=1)
     f.write("\n")
-print(f"i18n/{locale}/books.json: {sum(len(v) for v in out.values())} texts under {len(out)} titles; {len(missing)} without a page in {locale}: {', '.join(missing[:12])}{' ...' if len(missing) > 12 else ''}")
+print(f"i18n/{locale}/books.json: {sum(len(v) for v in out.values())} texts under {len(out)} titles; {len(excluded)} documented source exceptions; {len(missing)} unaccounted for: {', '.join(missing[:12])}{' ...' if len(missing) > 12 else ''}")

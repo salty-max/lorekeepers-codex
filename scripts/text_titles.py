@@ -74,6 +74,13 @@ with ThreadPoolExecutor(6) as pool:
             out["forever"].setdefault(english, fv)
         if cl and cl != (fv or english):
             out["classic"].setdefault(english, cl)
+# Labels supplied with the readable supplement fill only titles for which
+# Wowhead had no localized tooltip. Verified client labels always win.
+supplement = f"i18n/{locale}/books-supplement.json"
+if os.path.exists(supplement):
+    for entry in json.load(open(supplement, encoding="utf-8")).get("entries", {}).values():
+        if entry.get("localized_title"):
+            out["forever"].setdefault(entry["title"], entry["localized_title"])
 os.makedirs(f"i18n/{locale}", exist_ok=True)
 with open(f"i18n/{locale}/texts.json", "w", encoding="utf-8") as f:
     json.dump({k: dict(sorted(v.items())) for k, v in out.items()}, f, ensure_ascii=False, indent=1)

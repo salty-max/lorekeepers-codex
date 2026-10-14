@@ -1,0 +1,256 @@
+{
+ "description": "Supplement to the French readable cache. Authored translations are explicitly distinguished from recovered client text. The source hash covers the pinned English HTML page array as UTF-8 compact JSON.",
+ "entries": {
+  "i18401": {
+   "title": "Foror's Compendium of Dragon Slaying",
+   "source_sha256": "5fe73cb618e122a426a72403f3c68abcb4fed6f8ab49e8f86321ad974e5187bc",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "Le guide de Nostro du tueur de dragons est un épais volume couvert d'écriture. Malheureusement, le texte semble brouillé et reste incompréhensible."
+   ]
+  },
+  "i20949": {
+   "title": "Magical Ledger",
+   "source_sha256": "055539df4a0b804c58caf46c0cd2941af10d64c1395ddd8e50b5f55d945841e6",
+   "provenance": "empty-source",
+   "note": "The pinned English page is empty. Preserve it as empty rather than invent text.",
+   "pages": [
+    ""
+   ]
+  },
+  "i21142": {
+   "title": "From the Desk of Lord Victor Nefarius",
+   "source_sha256": "37b3441b8ac579bbca6cc8e0b52a8dc5413fbffe5d96ede865aac4d123621335",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "À qui de droit,\n\nComme j'aime ces petits jeux auxquels nous nous livrons.\n\nSi vous lisez cette lettre, je ne peux qu'en conclure que vous êtes $gparvenu:parvenue;, par miracle ou intervention divine, à me vaincre. Absurde, je sais, mais l'histoire de ce monde a connu des événements plus étranges encore.",
+    "Comme pour toute chose dans la vie, ce triste récit a son heureux revers de tragédie, de chaos et de mal. Vous m'avez certes tué, mais avec tant de lenteur et de désordre que j'ai eu tout le loisir d'écrire cette lettre APRÈS avoir détruit votre unique espoir de sauver ce monde. La poudre de cristal rouge broyé est tout ce qui reste de votre fragment de sceptre.",
+    "Profitez bien des pièces d'armure Némésis et Hurlorage que vous trouverez peut-être dans mon trésor. Croyez-moi lorsque je vous le dis : je prends un immense plaisir à savoir que j'ai accompli ce dont mon père était incapable...\n\nSincèrement,\n\nSeigneur Victor Nefarius\n\"Nefarian\""
+   ]
+  },
+  "i4834": {
+   "title": "Venture Co. Documents",
+   "source_sha256": "72f2a53840826cc0c8ebb1de5866c27a23b2ae437e054747be463f7113a0bb17",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "Superviseur Fizsprocket, vous trouverez ci-joint la liste du matériel que vous avez demandé, approuvée par le président Razdunk.\n\nIl m'a demandé de vous rappeler, en insistant sur ce point, l'intérêt que porte la KapitalRisk à l'implantation de ses activités dans tout Kalimdor. Nos postes de forage et nos mines dans les Tarides se sont révélés rentables et efficaces, mais nous attendons toujours des chiffres de production suffisants pour Mulgore, le territoire dont vous avez la charge.\n\nLe conseil d'administration comprend les difficultés que représente l'établissement",
+    "d'une exploitation à grande échelle si près des terres taurènes, mais ne considère pas qu'elles constituent un obstacle majeur à notre stratégie commerciale dans la région.\n\nNous sommes heureux d'apprendre que l'exploitation minière a commencé dans les plaines de Mulgore, riches en minerais. Le conseil a donc approuvé votre demande de matériel. Outre les minerais, nous pensons que Mulgore a aussi beaucoup à offrir en matière de bois. Vous recevrez donc plusieurs déchiqueteurs de notre dernier modèle, ainsi que les matières premières nécessaires à la construction d'une",
+    "scierie."
+   ]
+  },
+  "i9542": {
+   "title": "Simple Letter",
+   "source_sha256": "0b1cceaa863e193c4d0627aa57f21dc90f7bef107f6d9d9596ce2fe209828c66",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "Dis-moi, $C, as-tu déjà entendu un orc hurler ? As-tu déjà défendu ton foyer contre des gnolls qui cherchaient à t'arracher la gorge ? Ouais, ça paraît brutal, hein ?\n\nEh bien, tu vas avoir besoin de mon aide si tu veux protéger les tiens. Tu me trouveras dans l'abbaye de Comté-du-Nord. Mon savoir n'est pas donné, mais si tu as assez d'expérience, je peux t'enseigner des techniques et des mouvements qui t'aideront à combattre les menaces qui pèsent sur Hurlevent et au-delà.\n\nLlane Beshere, maître des guerriers"
+   ]
+  },
+  "o175747": {
+   "title": "The Invasion of Draenor",
+   "source_sha256": "2a000673bb7f9cf3896da266c5ae8d5cf4cd8044014b0e54daf5bfffeaa22705",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "Alors que les feux de la Deuxième Guerre s'éteignaient, l'Alliance prit des mesures énergiques pour contenir la menace orque. Plusieurs grands camps d'internement furent construits dans le sud de Lordaeron pour y enfermer les orcs capturés. Gardés par les paladins et les soldats vétérans de l'Alliance, ces camps se révélèrent très efficaces.",
+    "Bien que les orcs captifs fussent tendus et impatients de reprendre le combat, les responsables des camps, établis dans l'ancienne forteresse-prison de Fort-de-Durn, préservaient la paix et maintenaient un semblant d'ordre solide.",
+    "Cependant, sur le monde infernal de Draenor, une nouvelle armée orque se préparait à frapper l'Alliance, qui ne se doutait de rien. Ner'zhul, l'ancien mentor de Gul'dan, rallia les clans orcs restants sous sa sombre bannière. Avec l'aide du clan Shadowmoon, le vieux chaman projetait d'ouvrir sur Draenor plusieurs portails qui conduiraient la Horde vers de nouveaux mondes encore intacts.",
+    "Pour alimenter ses nouveaux portails, il lui fallait plusieurs artefacts enchantés d'Azeroth. Afin de se les procurer, Ner'zhul rouvrit la Porte des ténèbres et y lança ses serviteurs avides de conquête.",
+    "La nouvelle Horde, menée par des chefs vétérans tels que Grom Hellscream et Kilrogg Deadeye, du clan Bleeding Hollow, prit les défenseurs de l'Alliance par surprise et ravagea les campagnes. Sous les ordres précis de Ner'zhul, les orcs réunirent rapidement les artefacts dont ils avaient besoin, puis regagnèrent la sécurité de Draenor.",
+    "Le roi Terenas de Lordaeron, convaincu que les orcs préparaient une nouvelle invasion d'Azeroth, réunit ses lieutenants les plus fidèles. Il ordonna au général Turalyon et à l'archimage Khadgar de mener une expédition à travers la Porte des ténèbres pour mettre un terme définitif à la menace orque. Les forces de Turalyon et de Khadgar pénétrèrent en Draenor et affrontèrent à maintes reprises les clans de Ner'zhul sur la péninsule dévastée des Flammes infernales.",
+    "Malgré l'aide de la haute-elfe Alleria Windrunner, du nain Kurdran Wildhammer et du soldat vétéran Danath Trollbane, Khadgar ne parvint pas à empêcher Ner'zhul d'ouvrir ses portails vers d'autres mondes.",
+    "Ner'zhul ouvrit enfin ses portails vers d'autres mondes, sans prévoir le terrible prix qu'il allait payer. Leurs immenses énergies commencèrent à déchirer la trame même de Draenor. Tandis que les forces de Turalyon luttaient désespérément pour rentrer en Azeroth, Draenor se mit à s'effondrer sur elle-même. Grom Hellscream et Kilrogg Deadeye, comprenant que les projets insensés de Ner'zhul condamneraient toute leur race, rallièrent les orcs survivants et s'enfuirent vers la sécurité toute relative d'Azeroth.",
+    "Sur Draenor, Turalyon et Khadgar acceptèrent le sacrifice ultime en décidant de détruire la Porte des ténèbres de leur côté. Même s'ils devaient y laisser leur vie et celle de leurs compagnons, ils savaient que c'était le seul moyen d'assurer la survie d'Azeroth. Alors que Hellscream et Deadeye se frayaient un chemin à travers les rangs humains dans une tentative désespérée pour retrouver leur liberté, la Porte des ténèbres explosa derrière eux. Pour eux et les autres orcs restés sur Azeroth, il n'y aurait plus de retour possible.",
+    "Ner'zhul et son fidèle clan Shadowmoon franchirent le plus grand des portails nouvellement créés, tandis que de gigantesques éruptions volcaniques commençaient à disloquer les continents de Draenor. Les mers brûlantes montèrent et engloutirent les terres déchirées, jusqu'à ce que ce monde supplicié soit consumé dans une immense explosion apocalyptique."
+   ]
+  },
+  "o175759": {
+   "title": "The Betrayer Ascendant",
+   "source_sha256": "52ea0802ec75708201b64e17c730f2baf62231877a0e1fd3a34d4e2d486125f4",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "Durant l'invasion d'Ashenvale par la Légion, Illidan fut libéré de sa prison souterraine après dix mille ans de captivité. Bien qu'il cherchât à rassurer ses compagnons, il renoua bientôt avec ses anciens travers et absorba les énergies d'un puissant artefact de démoniste connu sous le nom de crâne de Gul'dan.",
+    "Illidan acquit ainsi des traits démoniaques et des pouvoirs considérablement accrus. Il reçut aussi certains des anciens souvenirs de Gul'dan, notamment ceux du tombeau de Sargeras, un donjon insulaire qui, disait-on, abritait la dépouille du Titan noir Sargeras.",
+    "Débordant de puissance et libre de parcourir à nouveau le monde, Illidan entreprit de trouver sa place dans le grand ordre des choses. Mais Kil'jaeden vint à sa rencontre et lui fit une offre qu'il ne pouvait refuser. La défaite d'Archimonde au mont Hyjal avait mis Kil'jaeden en colère, mais il avait de plus grandes préoccupations que la vengeance.",
+    "Sentant que sa création, le roi-liche, devenait trop puissante pour rester sous son contrôle, Kil'jaeden ordonna à Illidan de détruire Ner'zhul et d'en finir une fois pour toutes avec le Fléau mort-vivant. En échange, Illidan recevrait une puissance sans pareille et une véritable place parmi les derniers seigneurs de la Légion ardente.",
+    "Illidan accepta et entreprit aussitôt de détruire le Trône de glace, le cercueil de cristal gelé qui abritait l'esprit du roi-liche. Il savait qu'il lui faudrait un artefact puissant pour y parvenir. Grâce aux connaissances tirées des souvenirs de Gul'dan, il décida de chercher le tombeau de Sargeras et de s'emparer de la dépouille du Titan noir.",
+    "Il réclama le paiement d'anciennes dettes aux Bien-nés et attira les nagas serpentins hors de leurs sombres repaires sous-marins. Menés par la rusée sorcière dame Vashj, les nagas aidèrent Illidan à atteindre les îles Brisées, où devait se trouver le tombeau de Sargeras.",
+    "Tandis qu'Illidan partait avec les nagas, la Gardienne Maiev Shadowsong se lança à sa poursuite. Maiev avait été sa geôlière pendant dix mille ans et se réjouissait à l'idée de le capturer de nouveau. Mais Illidan déjoua ses plans et ceux de ses Guetteuses, et réussit malgré leurs efforts à s'emparer de l'OEil de Sargeras. Muni de ce puissant artefact, il se rendit à Dalaran, l'ancienne cité des mages.",
+    "Renforcé par les lignes telluriques de la cité, Illidan utilisa l'OEil pour lancer un sort dévastateur contre la citadelle du roi-liche, à la Couronne de glace, dans le lointain Northrend. Son attaque brisa les défenses du roi-liche et fendit le toit même du monde. Au dernier instant, son frère Malfurion et la prêtresse Tyrande arrivèrent au secours de Maiev et interrompirent le sort destructeur d'Illidan.",
+    "Sachant que Kil'jaeden ne lui pardonnerait pas son échec à détruire le Trône de glace, Illidan s'enfuit vers la dimension désolée appelée Outreterre, dernier vestige de Draenor, l'ancien monde des orcs. Il comptait y échapper à la colère de Kil'jaeden et préparer ses prochaines actions.",
+    "Après avoir réussi à arrêter Illidan, Malfurion et Tyrande regagnèrent la forêt d'Ashenvale pour veiller sur leur peuple. Maiev, elle, ne renonça pas si facilement. Elle suivit Illidan en Outreterre, déterminée à le traduire en justice."
+   ]
+  },
+  "o175773": {
+   "title": "Dorgar Stoenbrow",
+   "source_sha256": "910d530eb7217c420ea76a15176a515389b6dadbda32bb1d2e7d838ded3f1f23",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "Dorgar Stoenbrow\n\nGuerrier de la Croisade écarlate\n\nSeigneur des Cavernes rouges\n\nVu pour la dernière fois dans les montagnes d'Alterac"
+   ]
+  },
+  "o175774": {
+   "title": "Fellari Swiftarrow",
+   "source_sha256": "693bbf8dccbeaff7e27bc1c1b3dbe5137ba3ec501eb9f1a5d9184bb33856cf2d",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "Fellari Swiftarrow\nCapitaine des forestiers de la Croisade écarlate\nOriginaire de Quel'Thalas\nPortée disparue dans les forêts des Pins argentés"
+   ]
+  },
+  "o175775": {
+   "title": "Ferren Marcus",
+   "source_sha256": "3c28a5549b7ccc4cd4b28ac22d17f87e1a9559b7564593951a100939fec45d85",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "Ferren Marcus\n\nGrand abbé du monastère Écarlate\n\nOriginaire de Stratholme\n\nTué en défendant le monastère Écarlate lors du premier assaut de l'été"
+   ]
+  },
+  "o175777": {
+   "title": "Holia Sunshield",
+   "source_sha256": "472faa49e214b924e6944779e501f609b4e8eba31215ff82a0fc13cdd8764976",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "Holia Sunshield\n\nRempart de la Croisade écarlate\n\nTomba en abattant le seigneur de l'effroi Beltheris"
+   ]
+  },
+  "o175781": {
+   "title": "Yana Bloodspear",
+   "source_sha256": "e045d38466431983ab4db0f54309f968aa4d4c3bc8b6da1c345f2fc24f572194",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "Yana Bloodspear\n\nDeuxième assassine en chef de la Croisade écarlate\n\nOriginaire de Dalaran\n\nPortée disparue dans les clairières de Tirisfal"
+   ]
+  },
+  "o177204": {
+   "title": "Sorrow of the Earthmother",
+   "source_sha256": "785f5a9dd62e746bfe7f5d91b5ccfae2c29886532ef9de65ceff306d07c420e1",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "Alors que les enfants de la terre parcouraient les champs de l'aube, ils entendirent de sombres murmures venus des profondeurs du monde. Ces voix leur enseignèrent les arts de la guerre et de la tromperie. Beaucoup de Shu'halo tombèrent sous l'emprise de l'ombre et embrassèrent la malveillance et la cruauté. Ils se retournèrent contre leurs frères restés purs et abandonnèrent leur innocence aux vents des plaines.",
+    "Le coeur lourd devant le malheur de ses enfants, la Terre-mère ne pouvait supporter de les voir ainsi déchoir. Dans son chagrin, elle s'arracha les yeux et les lança dans le ciel infini et étoilé. An'she et Mu'sha, cherchant chacun à apaiser la peine de l'autre, ne pouvaient que poursuivre leur faible lueur à travers le ciel. Les jumeaux se poursuivent encore à chaque tour du monde.",
+    "Bien qu'aveugle, la Terre-mère ne pouvait rester longtemps éloignée du monde qu'elle aimait. Elle prêtait l'oreille aux vents et écoutait tout ce qui se passait dans les champs de l'aube. Son grand coeur demeurait toujours auprès de ses enfants, et sa sagesse aimante ne les quitta jamais."
+   ]
+  },
+  "o177208": {
+   "title": "The White Stag and the Moon",
+   "source_sha256": "9301212e21f8fd76e236e5eab5349f8ddfad8eeeb875817daf52ae870171d200",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "La Terre-mère insuffla l'amour de la chasse à ses enfants innocents, au coeur vaillant. Car les créatures de la première aube étaient sauvages et farouches. Elles se cachaient de la Terre-mère, trouvant refuge dans les ombres et les lieux sauvages du monde. Les Shu'halo les chassaient partout où ils les trouvaient et les apprivoisaient avec la bénédiction de la Terre-mère.",
+    "Un grand esprit leur échappait cependant. Apa'ro, que les elfes de la nuit appellent Malorne, était un fier cerf au pelage blanc comme neige. Ses bois frôlaient la voûte des cieux, et ses puissants sabots creusaient les profondeurs du monde. Les Shu'halo poursuivirent Apa'ro jusqu'aux confins du monde naissant et se rapprochèrent pour prendre le fier cerf au piège.",
+    "Pour leur échapper, le grand cerf bondit dans le ciel. Mais alors qu'il se croyait sauvé, ses puissants bois s'emmêlèrent dans les étoiles, qui le retinrent prisonnier. Malgré ses ruades et ses efforts, Apa'ro ne pouvait se libérer des cieux. C'est alors que Mu'sha le découvrit, tandis qu'elle poursuivait son frère An'she vers l'aube. Elle vit le grand cerf se débattre et en tomba aussitôt amoureuse.",
+    "L'astucieuse lune proposa un marché au grand cerf. Elle le libérerait du piège des étoiles s'il acceptait de l'aimer et de mettre fin à sa solitude.\nMu'sha aima Apa'ro et conçut un enfant de lui. L'enfant, un demi-dieu selon certains, naquit dans les forêts ombreuses de la nuit. Il porterait le nom de Cenarius et suivrait le chemin étoilé entre le monde éveillé et le royaume des cieux."
+   ]
+  },
+  "o179909": {
+   "title": "Rock of Durotan",
+   "source_sha256": "c615ae5551505a89e6ca94184f54b48cb47be119da52074a81a292f4698e666c",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "Ci-gît Durotan, premier chef du clan Loup-de-Givre et père de notre vénéré chef de guerre Thrall. Il était le plus brave d'entre nous, trahi par ceux qui voulaient réduire notre peuple en esclavage. Durotan donna sa vie pour que nous puissions gagner notre liberté. Nous honorons sa mémoire et l'héritage qu'il nous a transmis par son fils.\n\nDrek'Thar, long-voyant des Loups-de-Givre"
+   ]
+  },
+  "o181475": {
+   "title": "Monument of Remembrance",
+   "source_sha256": "d2cef48fc450d70b8f1fbe936dbf0ecab8e95d523c5e22c7b4b1431b13ff0634",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "À la mémoire du commandant suprême des forces alliées, Anduin Lothar. Un homme prêt à tout sacrifier pour défendre son roi, son peuple, son foyer...\n\nQue nos ennemis connaissent nos noms. Que nos alliés honorent notre mort. Nous sommes les Fils de Lothar.\n\n- Général Turalyon"
+   ],
+   "localized_title": "Monument du souvenir"
+  },
+  "o181573": {
+   "title": "Jar of ashes",
+   "source_sha256": "abba83d899b7ec1662cb46e7487ca4170603ab96315684fc98b0c079f32a55d6",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the pinned English page chain. Not verified French client wording.",
+   "pages": [
+    "Voici une urne de cendres. Ce sont les cendres de ma raison, de ma passion et de ma volonté. Toutes se sont entièrement consumées d'elles-mêmes. Que tous ceux qui contemplent ces terres désolées des Flammes infernales se souviennent de ce péon déchu. Il versa son sang pour l'Alliance et se sacrifia pour la Horde, avant d'être rendu totalement fou par les êtres malveillants et sans âme qui dévorèrent ce qu'il avait de plus cher. Alors qu'ils se repaissent du fruit de son labeur, puissent-ils subir sa colère. Peut-être pas en ce monde, mais dans tous ceux qui lui succéderont. C'est ma déclaration, mon serment solennel et ma promesse éternelle. Je vengerai mes souffrances."
+   ],
+   "localized_title": "Urne de cendres"
+  },
+  "o182203": {
+   "title": "The Green Hills of Stranglethorn",
+   "source_sha256": "a42672fb9f756a5cf903bcf3b946b132bd133f9394a05e35559dd7f103440310",
+   "provenance": "client-text-reuse",
+   "note": "Cover translated here. The 29 body pages reuse the four French quest chapters already cached from Wowhead, in order. English book/chapter pages were compared in full, allowing punctuation and spelling differences. The final --The End-- is absent from the chapter cache and translated here.",
+   "pages": [
+    "LES VERTES COLLINES DE STRANGLERONCE\n\npar Hemet Nesingwary",
+    "Notre première journée s'est aussi bien déroulée qu'on pouvait l'espérer. Nous avons surtout oeuvré à préparer l'établissement d'un campement. J'ai repéré un emplacement idéal près d'une rivière. A en juger par les vieux quais abandonnés qui s'y trouvent, ce site a été habité naguère. Quant aux anciens habitants, le temps nous dira peut-être ce qu'ils sont devenus.",
+    "Pour cette expédition, j'ai réuni Ajeck Rouack et sire S. J. Erlgadin, ainsi que mon fidèle serviteur Barnil Stonepot. J'ai combattu aux côtés du père d'Ajeck dans bien des batailles au service de l'Alliance. La voir grandir a été quelque chose de très particulier. Son père l'a bien formée dans les arts du maniement d'arme. Ses talents à l'arc me font demander si elle n'aurait pas du sang elfe.",
+    "Sire S. J. Erlgadin est un aristocrate humain. Son père, le comte Erlgadin, était célèbre pour sa générosité. C'est le comte qui s'est battu pour améliorer les conditions de travail de la Guilde des Maçons pendant la reconstruction de Stormwind après la Deuxième Guerre.",
+    "Dans les années qui suivirent, après la trahison par Stormwind de la Guilde des Maçons, sire Erlgadin devint aigri au sujet du rôle des nobles du royaume. Il ne souhaitait plus conserver la position que la lignée de son père lui réservait à la Maison des Nobles. Mais trêve de digressions. Le but de cette histoire n'est pas de jouer au traité de science politique ni à la biographie. C'est la narration de mes expériences de chasse dans les vertes vallées de Strangleronce.",
+    "Nous nous sommes levés à l'aube. Barnil a commencé à préparer le repas du matin. J'ai constaté qu'Ajeck semblait distraite. La marche serait longue ce jour-là et la chasse s'annonçait dangereuse. Il était vital que chacun reste concentré. Mais Ajeck me semblait incapable de détacher ses yeux de Barnil qui nettoyait ses affaires dans la rivière.",
+    "Alors que j'allais interroger Ajeck sur son manque d'intérêt pour la stratégie de ce jour de chasse, elle s'est précipitée vers son carquois, a sorti une flèche et a tiré en direction du pauvre Barnil. Mais ce n'est pas Barnil qu'Ajeck visait. Lorsque Barnil s'est écarté, bouche bée, un grand crocilisque des rivières flottait à la surface, la flèche d'Ajeck parfaitement plantée entre ses deux yeux.",
+    "Nous sommes partis vers l'ouest, à travers la jungle épaisse. Marchant lentement et précautionneusement, nous avons cherché nos proies dans l'épaisse frondaison. La matinée s'est écoulée dans un silence frustré. Rien ne frémissait dans la vallée, pas même la brise. Au début de l'après-midi, nous étions fatigués et Barnil avait abandonné la démarche silencieuse du chasseur de proies. Il arpentait la région d'un pas lourd, faisant craquer les feuilles mortes et les brindilles.",
+    "Au cours d'un de ces faux-pas, Erlgadin a posé lourdement la main sur l'épaule de Barnil. Ajeck et moi nous sommes lancés un regard, pensant qu'il voulait simplement tancer Barnil. Mais Erlgadin a fait un geste  lent de la tête vers un arbre mort, non loin. Deux yeux noirs nous fixaient au-dessus d'une gueule emplie de crocs acérés.",
+    "C'était un tigre de Strangleronce, un mâle. Avant que j'aie le temps de relever mon arme, Erlgadin a pointé son arbalète vers la bête et a fait feu. Le trait a manqué la tête et a mordu la bête dans le flanc gauche. Le tigre a fait une puérile tentative pour fuir, mais la blessure était trop grave. Il a oscillé quelques secondes et Barnil l'a achevé d'un coup de hache.",
+    "La mise à mort a créé une atmosphère joviale parmi les membres de l'expédition. Barnil a servi de l'hydromel à tous. Mais la bonne humeur n'a pas duré. Alors que nous préparions le cadavre pour le rapporter au campement, nous avons été surpris par un horrible grognement. De toute ma vie je n'ai jamais rien entendu qui soit plus de nature à glacer le sang.",
+    "Sur un précipice rocheux découpé par le soleil couchant, j'ai aperçu le plus gros félin que l'on puisse imaginer. J'ai tiré une salve maladroite avec mon arme, mais le félin n'a pas bougé. Il a grogné à nouveau, plus fort que la première fois, et il a disparu.\n\nNous avons rassemblé nos affaires et nous sommes rentrés au campement.",
+    "J'avais promis à l'équipe que nous passerions le jour suivant à chasser des panthères, car leur fourrure est très chère à Azeroth. Cela est juste, vu le nombre de trappeurs et de chasseurs qui ont perdu la vie au service de l'Alliance.",
+    "Ajeck et sire Erlgadin étaient désireux d'apprendre à chasser efficacement avec un fusil nain. J'ai conseillé aux deux humains de laisser leurs armes primitives au campement. Barnil et moi leur avons fourni des armes à feu parmi les meilleures d'Ironforge.",
+    "Ce jour-là, nous nous sommes aventurés vers le sud, à la suite de traces de panthère fraîches. Nous sommes arrivés à un ravin traversé par un immense pont de corde. Je n'ai pu m'empêcher de penser aux descriptions de Brann sur la région, quand j'ai aperçu cette merveille surplombant le vide. On pense si souvent que les trolls sont une race primitive et sans éducation, mais en observant la parfaite construction du pont je ne pus m'empêcher d'admirer l'habileté avec laquelle les bâtisseurs trolls avaient vaincu cette difficulté apparemment insurmontable.",
+    "Bien vite, Ajeck repéra les traces d'une panthère vers le sud-ouest. Nous avons avancé rapidement, les armes prêtes, avides de rencontrer notre proie. Un craquement de branchages a attiré notre attention. Il y avait quelque chose par là. Un coup d'oeil rapide à Barnil a confirmé mes suppositions. Barnil a lentement relevé son fusil. Cette proie n'était pas pour nous, mais pour nos compagnons humains. D'innombrables panthères avaient perdu la vie au bout de nos canons. C'était au tour des humains.",
+    "Ajeck et sire Erlgadin restaient aux aguets, canon levé vers le feulement qui provenait de la frange mouvante des arbres. Le soleil de midi tapait dur sur nos épaules. Un mince filet de sueur coulait le long des tempes d'Erlgadin lorsqu'il a relevé le chien de son arme. Au cliquetis qui a retenti, la dense végétation s'est ouverte et une panthère noire, un spécimen magnifique, est entrée dans la clairière.",
+    "Les humains ont pointé leur arme sur la panthère qui courait le long de la ligne des arbres. Les canons se déplaçaient en parallèles parfaites. Barnil m'a lancé un coup d'oeil pressant mais j'ai fait non de la tête. Cette chasse était pour les humains, pas pour Barnil ni pour moi. Sire Erlgadin a tiré, mais a manqué la cible. Il n'était visiblement pas préparé au violent recul de l'arme.",
+    "Son arme a failli lui échapper des mains. Le canon a dévié et est venu se placer sous le fusil d'Ajeck. Ajeck a choisi ce moment précis pour tirer. Le coup est parti avec sa détonation caractéristique, mais dans la direction de la ligne d'arbres. Des oiseaux se sont envolés dans toutes les directions avec des cris plaintifs. Un filet de fumée s'est élevé de l'arbre qui avait été touché. Stupéfaits, nous avons vu une énorme branche tomber sur la panthère en pleine course, lui brisant la colonne vertébrale.",
+    "Au fur et à mesure que les semaines passaient, notre stock de peaux de panthère et de tigre grandissait. Je décidai qu'il était temps pour l'expédition de se concentrer sur un nouveau défi : les raptors.\n\nLes humains, tout en appréciant l'expérience de Barnil et la mienne, décidèrent de ne pas se servir d'armes à feu. Ajeck se sentait plus à l'aise avec un arc et sire Erlgadin ne quittait jamais le camp sans une solide arbalète.",
+    "Nous avons levé le camp à l'aube et sommes partis vers le sud en traversant les ruines de Tkashi. Barnil craignait qu'on ne rencontre des membres de la tribu Bloodscalp. J'ai rappelé à Barnil que les Bloodscalp se concentraient surtout sur la destruction de leurs rivaux, les Skullsplitter. Cela, bien sûr, n'a pas rassuré Barnil le moins du monde. Mais j'avais un fusil chargé, des munitions, et trois chasseurs expérimentés pour me réconforter contre la menace d'une embuscade.",
+    "Je me suis déjà tenu devant un immense Infernal sur le champ de bataille, tandis que l'armée de la Légion ardente avançait de toutes les directions. Une bande de trolls sans chef est aussi inoffensive qu'un lapin dans les collines de Dun Morogh.\n\nNous avons traversé les ruines de Tkashi sans incident, au grand soulagement de Barnil. Le groupe s'est ensuite dirigé vers l'ouest, en direction de la Grande Mer, longeant les ruines de Zul'Kunda au sud. C'est alors que nous montions les escarpements du rivage que nous avons repéré notre premier raptor.",
+    "La bête ne nous a pas entendu approcher. Tout ce qu'elle a reçu, c'est une balle entre les yeux. Sire Erlgadin a laissé échapper un cri de joie tandis qu'Ajeck me lançait un coup de tête approbateur. J'ai cherché ma pipe dans mon sac, pour célébrer cette victoire. Barnil a filé vers le haut de la colline pour retrouver le cadavre du raptor. J'ai regardé la bête morte avec la satisfaction qui accompagne chaque joli tir.",
+    "Mais je n'ai pas profité longtemps de ce moment de gloire. Quand j'ai tourné les yeux vers l'horizon, j'ai vu plusieurs silhouettes apparaître au sommet de la colline, juste au-dessus du pauvre Barnil.\n\n*Fuyez, Barnil !* ai-je hurlé. Ajeck, sire Erlgadin et moi avons envoyé une salve de balles et de flèches vers les nouveaux raptors. Dans la confusion, nous en avons abattu un autre.",
+    "Nos tirs mal ajustés ont suffi à couvrir la fuite de Barnil. Il a dévalé la colline pour nous rejoindre. Nous nous sommes précipités dans la jungle, entraînant derrière nous une meute de raptors flagellants.\n\nLes chasseurs étaient désormais les proies.",
+    "J'ai mené le groupe jusqu'à la mer, espérant que le rivage nous fournirait une protection contre les raptors. Dans notre hâte, nous sommes allés trop loin vers le Nord, jusqu'à un promontoire dangereusement escarpé. Erreur fatale. Ma faute. Nous nous sommes retrouvés bloqués sur une corniche, les raptors à quelques pas derrière nous.",
+    "Je fis lentement un pas en avant, arme levée. J'avais conduit ces braves chasseurs à leur mort. J'étais prêt à mourir en tentant de les défendre. Les raptors flagellants sont particulièrement féroces, réputés pour leur inextinguible soif de sang. Ils étaient beaucoup plus nombreux que nous. Mais je n'allais pas les laisser me tuer ainsi que mes camarades sans verser d'abord un peu de leur sang.",
+    "Ajeck et sire Erlgadin ont préparé leurs armes, un à chacun de mes côtés, nos dos tournés vers la mer. Barnil a laissé échapper un soupir et a levé sa hache. Les flagellants étaient presque sur nous. Ils avançaient moins vite. Ils traquaient leurs proies maintenant qu'ils savaient qu'ils nous avaient piégés.",
+    "Et le miracle a eu lieu. Loin sur notre flanc, nous avons entendu le rugissement caractéristique et terrifiant du grand tigre blanc. Malgré leur nombre, les raptors ont fait demi-tour et se sont dispersés dans toutes les directions. Nous avons vu un bref éclair blanc : le tigre passait devant nous et se précipitait sur l'un des raptors. Inutile de donner des ordres : nous savions tous que l'heure de fuir avait sonné.",
+    "Nous avons foncé jusqu'au campement, sans ralentir. Au cours de la nuit, assis silencieusement autour du feu de camp, nous avons médité sur l'étrange destin qui venait de nous sauver la vie. Tels sont les risques de la chasse. Nous jouons avec le destin. Chacun de nous, à un moment ou à un autre, rencontrera sa fin entre ses dents aiguisées. Le nain que je suis est simplement heureux que ce moment ne soit pas arrivé dans les vertes collines de Strangleronce.\n\n-- Fin --"
+   ],
+   "reused_from": [
+    "i2756",
+    "i2757",
+    "i2758",
+    "i2759"
+   ],
+   "localized_title": "Les vertes collines de Strangleronce"
+  },
+  "i5882": {
+   "title": "Captain's Documents",
+   "source_sha256": "2b98a788445d7a5b570505c053938567f13a67bdf2e2aabe6166dddb99b4beb4",
+   "provenance": "client-text-reuse",
+   "english_first": "The Bleeding Sparrow: Manifest",
+   "note": "French cache is correct. The pinned English PageText incorrectly points to Spy's Report. English manifest opening verified at https://www.wowhead.com/forever/item=5882 on 2026-10-14. Keep the actual manifest and letter, not the unrelated report.",
+   "pages": [
+    "Le Moineau sanglant : Manifeste\n\n(20) tonneaux de rhum. Destination : Theramore\n(50) sacs de farine. Destination : Theramore\n(2) caisses d'assortiments d'outils gnomes. Destination : Ratchet\n(30) rouleaux de tissu en coton. Destination : Theramore\n(4) caisses d'épices. Destination : Theramore\n(3) passagers. Destination : Theramore",
+    "Capitaine,\n\nJe vous souhaite bonne chance dans vos voyages. Malheureusement, la bonne fortune n'était pas avec nous lors de notre première tentative d'enlèvement.\n\nLorsque votre groupe a pris contact avec la cible dans les tunnels de Stormwind/Ironforge, ils n'ont trouvé qu'un leurre. Il semble qu'il était plus sage que nous le pensions.\n\nMais le second plan est déjà enclenché. Les agents Defias sont prêts à intercepter la cible quand elle approchera de Theramore. Bientôt Stormwind sentira notre étau autour de son cou.\n\n-M"
+   ]
+  }
+ },
+ "excluded": {
+  "i1078": "Explicitly deprecated item. Its pinned pages duplicate Gramma Stonefield's Note.",
+  "i12564": "The pinned page is the Horde Catapult museum plaque, not the assassination note. Do not bind that translation to this item.",
+  "i1356": "Legacy entry whose pinned page is the last page of Shaw's Report. No verified corresponding body for this title.",
+  "i2793": "Explicitly deprecated item. Its pinned page duplicates Berard's Journal.",
+  "i3677": "Explicitly deprecated item. Its pinned pages duplicate the end of Decrypted Letter.",
+  "i3686": "Explicitly deprecated test item. No player-facing translation is supplied.",
+  "i5174": "The pinned pages are the Control Console Operating Manual, not a note from Neeru. No verified corresponding body.",
+  "i5353": "The pinned pages concern the destruction of Ameth'Aran, ending with Foreboding Plans. No verified corresponding body for this title.",
+  "i5688": "Explicit test item. Its pinned page duplicates Letter to Jin'Zil.",
+  "i6280": "The pinned page is Yuriv's Tombstone, not a missive. No verified corresponding body.",
+  "o181895": "The title is a ship-repair book, but the pinned page is an unrelated Outland postscript. No verified corresponding body."
+ }
+}

@@ -112,6 +112,25 @@ function read(locale: string) {
   // the game's own texts in this language, by their English titles (a text
   // copied in English reads in this one): scripts/book_texts.py
   const books = json<Record<string, { first: string; pages: string[] }[]>>("books.json", {});
+  // Supplements are tracked sources, not disposable browser cache. A rebuild
+  // must retain each translated chain and its page boundaries.
+  const supplement = json<{ entries?: Record<string, { title: string; pages: string[] }> }>("books-supplement.json", {});
+  for (const [id, entry] of Object.entries(supplement.entries ?? {})) {
+    if (!books[entry.title]?.some((v) => JSON.stringify(v.pages) === JSON.stringify(entry.pages))) {
+      fail(join(dir, "books.json"), `${id} ${entry.title}: supplement missing or stale, run scripts/book_texts.py ${locale}`);
+    }
+  }
+  for (const [title, variants] of Object.entries(books)) {
+    for (const variant of variants) {
+      for (const page of variant.pages) {
+        if (CURLY.test(page)) fail(join(dir, "books.json"), `${title}: use straight quotes`);
+        if (page.replace(/\$g[^;]+;/g, "").includes(";")) fail(join(dir, "books.json"), `${title}: semicolon in prose`);
+        if (locale === "frFR" && /^\[[\s\S]*\]$/.test(page.trim()) && (page.match(/\b(?:the|and|of|to)\b/gi)?.length ?? 0) >= 4) {
+          fail(join(dir, "books.json"), `${title}: bracketed English fallback in French text`);
+        }
+      }
+    }
+  }
   for (const id of Object.keys(chapters)) if (!chapterIds.has(id)) fail(join(dir, "chapters.json"), `no chapter "${id}"`);
   const pages = new Map<string, Page>();
   for (const file of walk(join(dir, "pages"))) {
