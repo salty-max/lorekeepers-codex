@@ -333,6 +333,21 @@ for (const locale of LOCALES) {
       .map((f) => [join(CONTENT, f), join(I18N, locale, "pages", f)] as [string, string]);
     for (const m of misnamed(I18N, locale, pairs))
       errors.push(`i18n/${locale}: a name not as the game writes it (or i18n/${locale}/names-ok.json says why): ${m}`);
+    // (a chapter named after a place is titled as the game names it)
+    const glossaryFile = join(I18N, locale, "glossary.json");
+    const okFile = join(I18N, locale, "names-ok.json");
+    if (existsSync(glossaryFile)) {
+      const places: Record<string, { use?: string }> = JSON.parse(readFileSync(glossaryFile, "utf8")).places ?? {};
+      const ok: Record<string, string> = existsSync(okFile) ? JSON.parse(readFileSync(okFile, "utf8")) : {};
+      const plain = (s: string) => s.normalize("NFD").replace(/\p{Mn}/gu, "").replace(/\u2019/g, "'").toLowerCase();
+      for (const [id, [title]] of Object.entries(t.chapters)) {
+        const chapterFile = join(CONTENT, id, "_chapter.md");
+        const en = frontMatter(readFileSync(chapterFile, "utf8"), (msg) => fail(chapterFile, msg)).meta.title as string;
+        const use = places[en]?.use;
+        if (use && !(en in ok) && plain(title) !== plain(use))
+          errors.push(`i18n/${locale}/chapters.json: ${id}: "${title}", the game's "${use}" (or names-ok.json says why)`);
+      }
+    }
   }
 }
 if (errors.length) {
