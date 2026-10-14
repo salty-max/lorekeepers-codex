@@ -66,11 +66,13 @@ language file loads (`Locale.lua`, from `i18n/<locale>/classic.json`, French
 elisions included: "de Forgefer" is "d'Ironforge" there).
 
 `python3 scripts/glossary.py <locale>` writes `i18n/<locale>/glossary.json`:
-every place, faction and figure the English pages name, with its name in each
-game (places and factions from AreaTable and Faction per locale, wago.tools;
-figures from Wowhead's localized tooltips) and `use`, the one to write:
-Forever's, else Classic's, else the live game's (what neither has: Ironforge's
-wards). And `classic.json`, the swaps, with `classic-by-hand.json`'s, which
+every place (zones, the places inside buildings, continents), faction, title
+under a creature's name ("Explorers' League"), people and figure the English
+pages name, with its name in each game (wow-data's databases, each game at its
+pinned build) and `use`, the one to write: Forever's, else Classic's. Names
+neither game has (later lore: Deathwing, Ulduar) are kept by hand in
+`glossary-by-hand.json`, as the pages write them. And `classic.json`, the
+swaps, with `classic-by-hand.json`'s, which
 win ("Hurlevent" is "Stormwind" in prose, not the zone's "Cite de
 Stormwind"). A name in no data (one only the prose names) follows Forever's
 pattern ("Modimus Courbenclume", as Anvilmar is "Courbenclume") and is listed
