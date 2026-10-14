@@ -1,0 +1,150 @@
+{
+ "description": "Supplement to the German readable cache. Authored translations are explicitly distinguished from recovered client text. The source hash covers the pinned English HTML page array as UTF-8 compact JSON.",
+ "entries": {
+  "i18401": {
+   "title": "Nostro's Compendium of Dragon Slaying",
+   "source_sha256": "5fe73cb618e122a426a72403f3c68abcb4fed6f8ab49e8f86321ad974e5187bc",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "pages": [
+    "Nostros Kompendium des Drachentötens ist ein dickes Buch voller Schrift. Leider scheint der Text verworren und ergibt für Euch keinen Sinn."
+   ]
+  },
+  "i20949": {
+   "title": "Magical Ledger",
+   "source_sha256": "055539df4a0b804c58caf46c0cd2941af10d64c1395ddd8e50b5f55d945841e6",
+   "provenance": "empty-source",
+   "note": "The pinned English page is empty. Preserve it as empty rather than invent text.",
+   "pages": [
+    ""
+   ]
+  },
+  "i21142": {
+   "title": "From the Desk of Lord Victor Nefarius",
+   "source_sha256": "37b3441b8ac579bbca6cc8e0b52a8dc5413fbffe5d96ede865aac4d123621335",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "pages": [
+    "An alle, die es angeht,\n\nwie sehr ich diese Spielchen liebe, die wir spielen.\n\nWenn Ihr diesen Brief lest, kann ich nur annehmen, dass es Euch irgendwie, durch ein Wunder oder göttliches Eingreifen, gelungen ist, mich zu bezwingen. Absurd, ich weiß, aber in der Geschichte dieser Welt sind schon seltsamere Dinge geschehen.",
+    "Wie alles im Leben hat auch diese traurige Geschichte einen herrlichen Silberstreif aus Tragödie, Chaos und Bosheit. Ihr habt mich zwar getötet, doch so langsam und ungeordnet, dass mir Zeit genug blieb, diesen Brief zu schreiben, NACHDEM ich Eure einzige Hoffnung zerstört hatte, diese Welt zu retten. Das zerstoßene rote Kristallpulver ist alles, was von Eurem Szeptersplitter übrig ist.",
+    "Erfreut Euch an den Rüstungen der Nemesis und des Stormrage, die Ihr in meiner Schatzkammer finden mögt. Glaubt mir, wenn ich Euch sage: Es bereitet mir großes Vergnügen zu wissen, dass ich vollbracht habe, was meinem Vater nicht gelang...\n\nHochachtungsvoll,\n\nLord Victor Nefarius\n\"Nefarian\""
+   ]
+  },
+  "i5882": {
+   "title": "Captain's Documents",
+   "source_sha256": "2b98a788445d7a5b570505c053938567f13a67bdf2e2aabe6166dddb99b4beb4",
+   "provenance": "client-text-reuse",
+   "english_first": "The Bleeding Sparrow: Manifest",
+   "note": "German cache is correct. The pinned English PageText incorrectly points to Spy's Report. English manifest opening verified at https://www.wowhead.com/forever/item=5882 on 2026-10-14. Keep the actual manifest and letter, not the unrelated report.",
+   "pages": [
+    "Die \"Bleeding Sparrow\": Ladeliste\n\n(20) Fässer Rum. Ziel: Theramore\n(50) Säcke Mehl. Ziel: Theramore\n(2) Kisten diverses Gnomenwerkzeug. Ziel: Ratchet\n(30) Ballen Baumwollstoff. Ziel: Theramore\n(4) Kisten Gewürze. Ziel: Theramore\n(3) Passagiere. Ziel: Theramore",
+    "Captain,\n\nich wünsche Euch Glück auf Euren Reisen. Leider war uns das Glück bei unserem ersten Entführungversuch nicht hold.\n\nAls unsere Gruppe in den Gängen unter Stormwind bzw. Ironforge auf die Zielperson traf, fand sie dort nur einen Lockvogel vor. Er ist wohl doch schlauer als wir ihm zugetraut haben.\n\nAber unser zweiter Plan läuft. Agenten der Defias warten darauf, die Zielperson abzufangen, wenn sie sich Theramore nähert. Bald wird Stormwind unseren Zorn zu spüren bekommen!\n\n- M"
+   ]
+  },
+  "o175773": {
+   "title": "Dorgar Stoenbrow",
+   "source_sha256": "910d530eb7217c420ea76a15176a515389b6dadbda32bb1d2e7d838ded3f1f23",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "pages": [
+    "Dorgar Stoenbrow\n\nKrieger des Scharlachroten Kreuzzugs\n\nHerr der Roten Höhlen\n\nZuletzt im Alteracgebirge gesehen"
+   ]
+  },
+  "o175774": {
+   "title": "Fellari Swiftarrow",
+   "source_sha256": "693bbf8dccbeaff7e27bc1c1b3dbe5137ba3ec501eb9f1a5d9184bb33856cf2d",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "pages": [
+    "Fellari Swiftarrow\nWaldläuferhauptmann des Scharlachroten Kreuzzugs\nBürgerin von Quel'Thalas\nVerschollen in den Wäldern des Silberwalds"
+   ]
+  },
+  "o175775": {
+   "title": "Ferren Marcus",
+   "source_sha256": "3c28a5549b7ccc4cd4b28ac22d17f87e1a9559b7564593951a100939fec45d85",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "pages": [
+    "Ferren Marcus\n\nHochabt des Scharlachroten Klosters\n\nBürger von Stratholme\n\nGefallen bei der Verteidigung des Scharlachroten Klosters beim ersten Sommerangriff"
+   ]
+  },
+  "o175777": {
+   "title": "Holia Sunshield",
+   "source_sha256": "472faa49e214b924e6944779e501f609b4e8eba31215ff82a0fc13cdd8764976",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "pages": [
+    "Holia Sunshield\n\nVerteidigerin des Scharlachroten Kreuzzugs\n\nFiel, als sie den Schreckenslord Beltheris erschlug"
+   ]
+  },
+  "o175781": {
+   "title": "Yana Bloodspear",
+   "source_sha256": "e045d38466431983ab4db0f54309f968aa4d4c3bc8b6da1c345f2fc24f572194",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "pages": [
+    "Yana Bloodspear\n\nZweite Oberste Assassine des Scharlachroten Kreuzzugs\n\nBürgerin von Dalaran\n\nVerschollen in Tirisfal"
+   ]
+  },
+  "o182203": {
+   "title": "The Green Hills of Stranglethorn",
+   "source_sha256": "a42672fb9f756a5cf903bcf3b946b132bd133f9394a05e35559dd7f103440310",
+   "provenance": "client-text-reuse",
+   "note": "Cover translated here. The 29 body pages reuse the four German quest chapters cached from Wowhead, in order. The final --The End-- is absent from the chapter cache and translated here.",
+   "pages": [
+    "DIE GRÜNEN HÜGEL DES SCHLINGENDORNTALS\n\nvon Hemet Nesingwary",
+    "Dafür, dass es unser erster Tag war, lief es heute eigentlich erstaunlich gut. Wir verbrachten einen Großteil der Zeit mit den Vorbereitungen für den Bau eines Basislagers. Ich hatte den idealen Ort dafür am Frischwasserzulauf eines Flusses ausgemacht. Den alten verlassenen Docks nach zu urteilen, war dieser Ort sogar einmal bewohnt gewesen. Doch die einstigen Bewohner sind längst Vergangenheit.",
+    "Für diese Expedition habe ich Ajeck Rouack und Sire S. J. Erlgadin um mich geschart. Zudem steht mir mein getreuer Diener Barnil Stonepot zur Seite. Ich habe an der Seite von Ajecks Vater gar manche Schlacht zur Verteidigung der Allianz gefochten. Sie jetzt erwachsen zu sehen, berührt mich eigentümlich. Ihr Vater hat sie gut in der Waffenkunst unterrichtet. Sie geht so geschickt mit dem Bogen um, dass ich mich frage, ob Elfenblut in ihren Adern fließt.",
+    "Sire S. J. Erlgadin entstammt dem menschlichen Adel. Sein Vater war der für seine Großzügigkeit bekannte Graf Erlgadin. Der Graf war es, der sich während des Wiederaufbaus von Stormwind nach dem Zweiten Großen Krieg für bessere Arbeitsbedingungen für die Steinmetzgilde einsetzte.",
+    "In den Jahren nach dem Verrat Stormwinds an der Steinmetzgilde erfüllte die Rolle, die der Adel im Königreich spielte, Sire Erlgadin zunehmend mit Gram. Er wollte die Stellung, die er von seinem Vater im Oberhaus geerbt hatte, nicht länger wahrnehmen. Aber ich schweife ab. Dies hier soll ja keine politische Abhandlung oder Biografie werden. Vielmehr geht es hier um meine Erfahrungen mit der Großwildjagd in den grünen Hügeln des Schlingendorntals.",
+    "Wir standen beim ersten Sonnenstrahl auf. Barnil machte das Frühstück. Mir fiel auf, dass Ajeck irgendwie irritiert wirkte. Wir hatten einen langen Weg vor uns und unsere Jagd versprach, ziemlich gefährlich zu werden. Eine einzige Unachtsamkeit konnte schlimme Folgen haben. Doch Ajeck konnte ihren Blick anscheinend nicht von Barnil wenden, der am Flussufer ein paar Sachen abwusch.",
+    "Gerade als ich fragen wollte, ob Ajeck denn nicht an der heutigen Jagdstrategie interessiert sei, griff sie nach ihrem Köcher, zog einen Pfeil heraus und schoss ihn just auf unseren armen Barnil ab. Aber der Schuss galt gar nicht Barnil. Denn als der offenen Mundes einen Schritt zur Seite machte, trieb ein großer Flusskrokilisk an die Oberfläche. Ajecks Pfeil steckte genau zwischen seinen großen Augen.",
+    "Wir gingen Richtung Westen durch das Dickicht des Urwalds. Langsam und vorsichtig bahnten wir uns auf der Suche nach Beute unseren Weg durch das Unterholz. Der Morgen verging und nichts passierte. Nicht einmal ein Lufthauch regte sich im Tal. Bis zum Nachmittag hatte sich Unruhe in unserer Expedition breit gemacht. Barnil ließ es an der für einen Jäger so wichtigen Vorsicht mangeln. Er stapfte ziemlich ungeschickt vor sich hin und trat oft auf trockenes Laub oder herabgefallene Zweige.",
+    "Nach einem solchen Fehltritt legte Erlgadin Barnil die Hand schwer auf die Schulter. Ajeck und ich schauten beiläufig. Wir dachten, Erlgadin würde Barnil ob seiner Unvorsichtigkeit endlich einmal die Leviten lesen. Aber Erlgadin wies mit einer langsamen Kopfbewegung in Richtung eines umgestürzten Baumes ganz in der Nähe. Zwei stechend schwarze Augen über einem Maul voller rasiermesserscharfer Zähne starrten uns an.",
+    "Es handelte sich um einen männlichen Schlingendorntiger. Ehe ich auch nur nach meiner Büchse greifen konnte, hatte Erlgadin schon einen Armbrustbolzen abgefeuert. Der Bolzen verfehlte sein Ziel und traf den Tiger nur in der linken Flanke. Er versuchte zu fliehen, aber die Wunde war zu schwer. Das Wildtier taumelte noch einige Sekunden angeschlagen herum, ehe Barnil ihm mit seiner Wurfaxt den Gnadenstoß versetzte.",
+    "Danach waren wir alle in Hochstimmung. Barnin gab eine Runde Met für alle aus. Aber die Freude sollte nicht lange währen. Denn als wir den Kadaver für den Rücktransport zum Stützpunkt fertig machten, hörten wir unvermittelt ein fürchterliches Heulen. In all den Jahren habe ich noch nie etwas so Schreckliches gehört.",
+    "Auf einer felsigen Anhöhe über uns hob sich gegen das Licht der untergehenden Sonne die Silhouette der größten Raubkatze ab, die ich je gesehen habe. Ich gab einen eher unbeholfenen Schuss in Richtung des Tiers ab, das sich davon aber unbeeindruckt zeigte. Die Raubkatze ließ erneut ein Knurren ertönen, lauter noch als beim ersten Mal, und verschwand.\n\nWir packten unsere Sachen und kehrten gut gelaunt ins Lager zurück.",
+    "Ich hatte meinen Begleitern versprochen, dass wir am nächsten Tag Panther jagen würden, da deren Felle in Azeroth sehr gefragt sind. Diese Nachfrage lässt sich nur damit erklären, dass all die fähigen Jäger, Fallensteller und Pelzhändler fort sind und ihr Leben im Namen der Allianz lassen.",
+    "Ajeck und Sire Erlgadin waren ganz erpicht darauf zu lernen, wie man Zwergen-Gewehre einsetzt. Daher hatte ich die beiden Menschen angewiesen, ihre primitiven Distanzwaffen im Stützpunkt zu lassen. Barnil und ich statteten sie also mit den besten Feuerwaffen aus Ironforge aus.",
+    "Wir hielten uns nach Süden und folgten einigen frischen Pantherspuren. Kurz darauf kamen wir an eine Klamm, die von einer phantastischen Hängebrücke überspannt wurde. Ich musste sofort an Branns eindrucksvolle Beschreibungen des Gebiets denken, als ich dieses technische Wunderwerk sah. Es wurde oft behauptet, die einheimischen Trolle seien primitiv und ungebildet, doch als ich auf dieses handwerkliche Meisterwerk blickte, erkannte ich mit einem Mal das außerordentliche Können, mit dem die Erbauer der Trolle das schier unüberwindliche Hindernis überwunden hatten.",
+    "Bald darauf spürte Ajeck im Südwesten den Panther auf. Leise schlichen wir weiter, die Flinten im Anschlag. Das Knacken von Zweigen im Unterholz ließ uns aufhorchen. Da war etwas. Ein Blick genügte, um mich mit Barnil zu verständigen. Er nahm langsam die Flinte herunter. Dieser Abschuss war nicht für uns bestimmt, er sollte unseren menschlichen Freunden gehören. Unzählige Panther waren schon von unseren Flinten zur Strecke gebracht worden. Dieser hier würde von den Menschen erlegt.",
+    "Ajeck und Sire Erlgadin standen unbeweglich und hielten ihre Flinten auf das dichte Buschwerk unter den sanft schwingenden Bäumen gerichtet. Die Mittagssonne brannte auf uns nieder. Ein kleiner Schweißtropfen rann an Erlgadins Schläfe herab, als er den Hahn spannte. In dem Moment, als der Hahn einrastete, teilte sich mit einem Mal das Dickicht und ein großer schwarzer Panther - ein schönes Exemplar - preschte hervor.",
+    "Die Menschen nahmen den Panther aufs Korn, während dieser am Waldrand entlanglief. Die Läufe ihrer Flinten bewegten sich absolut synchron. Barnil warf mir einen drängenden Blick zu, aber ich schüttelte verneinend den Kopf. Diese Jagd war für die Menschen und nicht für Barnil und mich. Erlgadin feuerte, doch er verfehlte den Panther. Auf den starken Rückstoß des Gewehrs war er nicht gefasst.",
+    "Die Büchse ruckte heftig zurück. Er verriss den Schuss seitwärts und geriet mit dem Lauf just unter Ajecks Flinte. Ajeck ihrerseits hatte genau diesen Moment abgepasst, um abzudrücken. Der Schuss verirrte sich irgendwo in die Bäume. Ein Schwarm Vögel flog kreischend aus dem Blätterdach auf und flatterte aufgeregt in alle Himmelsrichtungen davon. Eine Wolke Pulverdampf stieg über einem Baum auf. Fassungslos sahen wir mit an, wie ein gewaltiger Ast geradewegs auf den flüchtenden Panther fiel und ihm das Rückgrat brach.",
+    "Im Laufe der Wochen vergrößerte sich unser Bestand an Panther- und Tigerfellen immens. Daher entschied ich, dass wir uns einem neuen Ziel zuwenden sollten: Raptoren.\n\nSo dankbar die Menschen auch für die Schießübungen waren, die Barnil und ich mit ihnen machten, sie wollten doch von der Benutzung der Feuerwaffen Abstand nehmen. Ajeck kam mit ihrem fein gearbeiteten Bogen weit besser zurecht und Sire Erlgadin verließ das Lager ohnehin nie ohne seine stabile Armbrust.",
+    "Wir machten uns beim ersten Tageslicht in Richtung Süden zu den Tkashi-Ruinen auf. Barnil äußerte sich besorgt, dass wir auf Mitglieder des Bloodscalpstamms treffen könnten. Ich erinnerte ihn daran, dass die Bloodscalps mehr mit der Vernichtung des verfeindeten Skullsplitterstamms beschäftigt waren. Ich brauche wohl nicht zu betonen, dass Barnil alles andere als beruhigt war. Ich für mein Teil vertraute jedoch auf meine geladene Flinte, einen Ranzen Schießpulver und die drei versierten Jäger neben mir und machte mir keine Gedanken über einen möglichen Hinterhalt.",
+    "Ich stand vor einer riesigen Höllenbestie auf dem Schlachtfeld und die Armee der Brennenden Legion näherte sich von allen Seiten. Dagegen wirkt eine Bande Trolle so harmlos wie ein Kaninchen in den Hügeln von Dun Morogh.\n\nWir passierten die Tkashi-Ruinen ohne Zwischenfall, worüber insbesondere Barnil sehr erleichtert war. Die Gruppe ging weiter westwärts Richtung Großes Meer und streifte die Ruinen von Zul'Kunda im Süden. Als wir die Steilküste erklommen, sahen wir ihn: unseren ersten Raptor.",
+    "Das Tier nahm uns noch nicht einmal wahr. Das Einzige, was es von der Expedition mitbekam, war eine Kugel zwischen seinen Augen. Sire Erlgadin ließ ein herzliches \"Hurra!\" hören und Ajeck nickte mir anerkennend zu. Ich kramte in meiner Tasche, weil ich mir zur Feier des Tages ein Pfeifchen gönnen wollte. Barnil kletterte die Anhöhe hinauf, um den Kadaver des Raptors zu holen. Äußerst zufrieden betrachtete ich das tote Vieh.",
+    "Die Freude über den Erfolg währte jedoch nicht lange. Denn als ich zum Horizont blickte, sah ich auf dem Hügel genau über dem armen Barnil gleich mehrere Silhouetten.\n\n\"Lauf, Barnil!\", schrie ich. Ajeck, Sire Erlgadin und ich feuerten aus allen Rohren auf die heranstürmenden Raptoren und deckten sie mit Kugeln, Pfeilen und Bolzen ein. Einer der Raptoren ging tödlich getroffen zu Boden.",
+    "Unsere hastig abgefeuerten Schüsse ermöglichten Barnil die Flucht. Barnil stolperte den Hügel wieder hinunter und schloss sich uns erneut an. Wir schlugen uns in den Urwald, wobei das Rudel Schmetterschwanzraptoren jede unserer Bewegungen genau verfolgte.\n\nAus Jägern waren Gejagte geworden.",
+    "Ich führte die Gruppe in Richtung Meer und hoffte, dass wir an der Küste Schutz vor den Raptoren finden würden. Doch in unserer Hast waren wir zu weit nach Norden abgekommen und befanden uns auf einer gefährlich hohen Erhebung. Das war ein Fehler. Und ich war schuld. Plötzlich standen wir vor steil abfallenden Klippen, die Raptoren nur noch ein paar Schritte hinter uns.",
+    "Ich trat langsam mit erhobener Flinte vor. Ich hatte diese mutigen Jäger ins Verderben geführt. Also wollte ich auch bei ihrer Verteidigung sterben. Schmetterschwanzraptoren sind besonders angriffslustig und bekannt für ihren unstillbaren Blutdurst. Zudem waren sie uns zahlenmäßig weit überlegen. Doch ich wollte verdammt sein, wenn sie mich und meine Kameraden töten könnten, ohne dabei selbst Verluste zu erleiden.",
+    "Ajeck und Sire Erlgadin machten ihre Waffen bereit und gaben mir seitlich Deckung, während wir mit dem Rücken zum Wasser standen. Barnil seufzte ergeben und zog seine Axt. Die Schmetterschwanzraptoren waren schon ganz nah. Sie wurden langsamer. Sie pirschten sich an ihre Beute heran, wussten sie doch, dass wir ihnen nicht mehr entkommen konnten.",
+    "Da geschah das Unglaubliche: Neben uns hörten wir plötzlich das erschreckende Gebrüll des großen weißen Tigers. Augenblicklich drehten die Raptoren ab und stoben in alle Richtungen davon. Wir sahen nur einen weißen Blitz, als der Tiger an uns vorbeischoss und sich auf einen der Raptoren stürzte. Befehle waren unnötig. Wir alle vier wussten, dass es galt, die Beine in die Hand zu nehmen.",
+    "Wir rannten so schnell es ging und ohne Pause zurück zum Stützpunkt. Abends saßen wir noch lange still ums Lagerfeuer herum, wussten wir doch nur zu gut, dass wir unser Leben allein einer merkwürdigen Wendung des Schicksals zu verdanken hatten. Das sind die Risiken eines Großwildjägers. Man spielt mit dem Schicksal, wenn man es herausfordert. Und doch bekommt jeder von uns irgendwann die messerscharfen Zähne seines Schicksals zu spüren. Dieser Zwerg hier ist einfach nur froh, dass dieser Augenblick ihn nicht auf den grünen Hügeln des Schlingendorntals ereilt hat.\n\n--Ende--"
+   ],
+   "reused_from": [
+    "i2756",
+    "i2757",
+    "i2758",
+    "i2759"
+   ],
+   "localized_title": "Die Grünen Hügel des Schlingendorntals"
+  }
+ },
+ "excluded": {
+  "i1078": "Explicitly deprecated item. Its pinned pages duplicate Gramma Stonefield's Note.",
+  "i12564": "The pinned page is the Horde Catapult museum plaque, not the assassination note. Do not bind that translation to this item.",
+  "i1356": "Legacy entry whose pinned page is the last page of Shaw's Report. No verified corresponding body for this title.",
+  "i2793": "Explicitly deprecated item. Its pinned page duplicates Berard's Journal.",
+  "i3677": "Explicitly deprecated item. Its pinned pages duplicate the end of Decrypted Letter.",
+  "i3686": "Explicitly deprecated test item. No player-facing translation is supplied.",
+  "i5174": "The pinned pages are the Control Console Operating Manual, not a note from Neeru. No verified corresponding body.",
+  "i5353": "The pinned pages concern the destruction of Ameth'Aran, ending with Foreboding Plans. No verified corresponding body for this title.",
+  "i5688": "Explicit test item. Its pinned page duplicates Letter to Jin'Zil.",
+  "i6280": "The pinned page is Yuriv's Tombstone, not a missive. No verified corresponding body.",
+  "o181475": "Not in Classic Era or Forever: Wowhead has no page for it in either game (checked 14 October 2026), a later expansion's object left in the pinned database. The user's call: no translation for it.",
+  "o181573": "Not in Classic Era or Forever: Wowhead has no page for it in either game (checked 14 October 2026), a later expansion's object left in the pinned database. The user's call: no translation for it.",
+  "o181895": "The title is a ship-repair book, but the pinned page is an unrelated Outland postscript. No verified corresponding body."
+ }
+}

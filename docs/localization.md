@@ -106,7 +106,11 @@ first translation, said so on the store page.
    Forever's German client's (most of Classic's cities kept English there),
    lore names the data lacks as the German books write them (Todesschwinge,
    Krieg der Urtume, Krieg der Sandstürme, die Große Teilung). The
-   Library's German book texts (Wowhead's German pages) are not yet saved.
+   Library's German books are the game's own (Wowhead's German pages, saved
+   in wow-data 14 October 2026): 391 texts, 10 supplement entries (the five
+   Scarlet plaques, Nostro's Compendium and Nefarius's letter translated
+   here, the Green Hills from the German chapters, the Captain's Documents,
+   the empty ledger).
 3. Russian, Portuguese (ptBR), Italian.
 4. Korean, Chinese (zhTW, zhCN): longer to review, their own typography.
 
@@ -115,14 +119,16 @@ phrase tables in English grammar: a much bigger job, last.
 
 ## Library readable supplements
 
-`python3 scripts/book_texts.py frFR` imports the browser cache, then applies
-`i18n/frFR/books-supplement.json`. This tracked file preserves translations
-and source corrections across cache refreshes. Each entry records its title,
+`python3 scripts/book_texts.py <locale>` imports the browser cache, then
+applies `i18n/<locale>/books-supplement.json` (French and German so far).
+This tracked file preserves translations and source corrections across
+cache refreshes. Each entry records its title,
 the SHA-256 of the pinned English HTML page array (compact UTF-8 JSON), its
-French pages and provenance. A changed English source stops the import for
+translated pages and provenance. A changed English source stops the import for
 review. `codex-translation` means a faithful translation written for this
-addon, **not verified wording from the French game client**. `client-text-reuse`
-means previously collected French pages, with any authored portions noted.
+addon, **not verified wording from that language's game client**. `client-text-reuse`
+means pages already collected in that language, with any authored portions
+noted.
 
 The supplement also documents source exceptions. A deprecated/test entry or
 a title pointing to an unrelated page chain stays out of the catalog until
@@ -130,7 +136,7 @@ its actual text can be verified. Its recorded in-game copy remains readable.
 These exceptions do not establish whether an item is obtainable on Forever.
 The current decisions are in [french-readable-translations.md](french-readable-translations.md).
 
-The complete Green Hills book reuses the four French quest chapters in order,
+The complete Green Hills book reuses the four quest chapters in order,
 with a translated cover and ending. The catalog retains page boundaries and
 reader tokens. Prose semicolons become commas and curly quotes become straight
 quotes during import. The semicolon terminating a `$gmale:female;` token stays.

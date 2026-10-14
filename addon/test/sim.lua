@@ -1723,6 +1723,28 @@ do
       and de.pages.archesonus.title == "Königliche Historikerin Archesonus",
     "… its words and titles"
   )
+  -- the game's own German books: every one the French has, the Green Hills
+  -- whole, the reader's class and gender filled in
+  local short = {}
+  for title in pairs(fr.books) do
+    if not de.books[title] then table.insert(short, title) end
+  end
+  check(#short == 0, "… every book the French has (" .. table.concat(short, ", ") .. ")")
+  local before = ns.bookTexts
+  ns.bookTexts = de.books
+  local hills = ns.textPages({ title = "The Green Hills of Stranglethorn", pages = { "old English copy" } })
+  check(
+    #hills == 30 and hills[1]:find("SCHLINGENDORNTALS", 1, true) and hills[30]:find("--Ende--", 1, true),
+    "… the Green Hills book: its cover, 29 body pages and ending"
+  )
+  local note = ns.textPages({ title = "Rune-Inscribed Note", pages = { "old English copy" } })
+  check(
+    note[1]:find("Ich grüße Euch, $C.", 1, true) and not ns.textForReader(note[1]):find("$C", 1, true),
+    "… a class letter reads with the reader's class"
+  )
+  local journal = ns.textPages({ title = "Klaven Mortwake's Journal", pages = { "old English copy" } })
+  check(journal[1]:find("<unleserlicher Text>", 1, true), "… the game's own asides kept")
+  ns.bookTexts = before
 end
 
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")
