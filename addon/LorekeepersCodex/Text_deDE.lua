@@ -2669,12 +2669,28 @@ ns.translate({
         { "Nicht alle, die sich erheben, haben so viel Glück. Der Norden des Dorfes ist voller geistloser Toter, die noch immer dem Lichkönig gehören, und die erste Pflicht der neu erwachten Verlassenen ist es, sie zu vernichten: ihre einstigen Brüder und Schwestern, wie die Schattenpriester der Kapelle sie erinnern." },
       },
     },
+    ["deathstalkers"] = {
+      title = "Die Todespirscher",
+      text = {
+        { "Die Todespirscher sind die Augen und Messer der Verlassenen: Lord Varimathras' Elitegarde, wie einer ihrer Anwerber es ausdrückt, den Heeren der Dunklen Fürstin vorausgeschickt, um zu sehen, was auf sie wartet. Man begegnet ihnen überall dort, wo die Verlassenen ihre Grenzen vorschieben: auf Erkundung in den Höfen des nördlichen Silberwalds, in Burg Shadowfang, um Arugal zu beobachten, auf den Hügeln über Hillsbrad, wo sie Berichte aus den Pestländern für Nathanos sammeln." },
+        { "Man tritt ihnen nicht einfach durch Fragen bei. Rekruten beweisen ihren Wert und ihre Verschwiegenheit in den eigenen Hinterzimmern von Undercity. Ein solcher Auftrag fand heraus, dass das Syndikat, die gefallenen Lords von Alterac, einen Freund unter den Ladenbesitzern der Stadt hatte. Mit Varimathras' Billigung, prahlt einer von ihnen, wächst ihre Zahl." },
+        { "Sie sind nicht alle so grimmig wie der Name. Rane und Quinn Yorick sind Brüder, und Rane, während Quinn kaum von den Klauen eines Ghuls genesen ist, will vor allem anderen ihren Bericht abgeliefert sehen. Tot, aber noch eifrig. Die Verlassenen sind voller Überraschungen." },
+      },
+    },
     ["deeprun-tram"] = {
       title = "Die Tiefenbahn",
       text = {
         { "Die Tiefenbahn befördert Reisende auf fahrenden Plattformen unter der Erde zwischen Ironforge und Stormwind. Sie hat eine Reise von Tagen auf wenige Minuten verkürzt. Selbst ein Zwerg, der gern zu Fuß geht, weiß diese Leistung zu schätzen." },
         { "Der Tunnel gibt unserer Freundschaft mit Stormwind eine praktische Gestalt: zwei Hauptstädte, verbunden durch einen Weg, der ihren Reisenden die lange Straße über Land erspart. Gnomischer Erfindungsgeist hat sehr vielen Stiefelpaaren das Leben gerettet." },
         { "Achtet auf die Fenster dort, wo der Tunnel durch Wasser führt, $gReisender:Reisende;. Manche Fahrgäste sagen, sie hätten etwas Großes zurückblicken sehen. Ihr solltet Zeit für einen Blick haben, bevor die Plattform Euch weiterträgt." },
+      },
+    },
+    ["defias-brotherhood"] = {
+      title = "Die Bruderschaft der Defias",
+      text = {
+        { "Als die Orcs Stormwind im Ersten Krieg schleiften, war es die Steinmetzgilde unter einem Meister namens Edwin van Cleef, die es wieder errichtete. Als die Arbeit getan war, wollte das Adelshaus sie nicht bezahlen. Van Cleef führte seine Steinmetze in einem Aufruhr durch die neuen Straßen und verließ die Stadt mit dem Schwur der Rache." },
+        { "Aus der Gilde wurde eine Bande. In Westfall nahmen sie den Namen Bruderschaft der Defias an, banden sich rote Tücher vor die Gesichter und machten sich daran, das Ackerland zu ruinieren, das die Stadt ernährt: Felder verbrennen, Familien vertreiben und jeden zum Verbündeten machen, der sie haben wollte. Goblin-Ingenieure arbeiten für sie in den Todesminen, und ihr Arm reicht bis nach Elwynn, ins Rotkammgebirge, in den Dämmerwald und ins eigene Gefängnis der Stadt, wo van Cleefs Leutnant Bazil Thredd die Häftlinge zum Aufstand brachte." },
+        { "Die Steinmetze hatten wegen ihrer unbezahlten Arbeit einen berechtigten Groll. Doch wofür die Bruderschaft auch einmal stand, die Bauern von Westfall haben weit teurer dafür bezahlt als irgendein Lord in Stormwind." },
       },
     },
     ["demon-fall-canyon"] = {
@@ -2718,6 +2734,21 @@ ns.translate({
       text = {
         { "Die Dragonmaw ritten im Zweiten Krieg auf roten Drachen in die Schlacht. In Grim Batol hielten sie Alexstrasza gefangen und zwangen ihre Kinder, der Horde zu dienen. Ihre Herrschaft über den Himmel beruhte auf der Gefangenschaft einer Mutter und ihrer Jungen." },
         { "Die Befreiung der Drachen brach die Stärke des Klans, doch Reste der Dragonmaw halten noch immer die Hügel des Sumpflands und überfallen seine Straßen. Sie sind Überlebende der alten Horde, nicht Gefolgsleute der neuen." },
+      },
+    },
+    ["dragons-of-nightmare"] = {
+      title = "Die Drachen des Nachtmahrs",
+      text = {
+        { "Yseras grüne Drachen hüten den Smaragdgrünen Traum, die unberührte Welt, durch die schlafende Druiden reisen. Vier Leutnants bewachten seine großen Baumportale: Ysondre, Lethon, Emeriss und Taerar, stationiert im Dämmerwald, im Hinterland, in Feralas und in Ashenvale." },
+        { "Der Nachtmahr hat sie genommen. Sie kommen verdreht hervor und greifen an, wer sich nähert. Emeriss verbreitet Fäulnis, Taerar teilt sich in Schemen, und Lethon zieht die Geister der Gefallenen heraus. Remulos sammelt Bruchstücke der Verderbnis von den Portalen, um nachzuforschen. Ein Reisender, der einen dieser Bäume erreicht, findet vielleicht, dass genau der Hüter, der ihn hätte sicher machen sollen, zu seiner Gefahr geworden ist." },
+      },
+    },
+    ["dreadlords"] = {
+      title = "Die Schreckenslords",
+      text = {
+        { "Die Schreckenslords, die Nathrezim, sind die Ränkeschmiede der Brennenden Legion: vampirhaft, geduldig, besser im Verderben als im Erobern. Kil'jaeden setzte sie ein, um seine gefährlichste Schöpfung zu bewachen, den Lichkönig. Tichondrius, der gerissenste von ihnen, ergötzte sich an der Seuche. Mal'Ganis wartete in Stratholme auf Prinz Arthas. Anetheron kämpfte am Hyjal an Archimondes Seite." },
+        { "Als die Macht des Lichkönigs schwand, versuchten seine Kerkermeister, Lordaeron für sich zu nehmen. Sie verloren es an Sylvanas und ihre Verlassenen, die ihre Stadt unter der zerstörten Hauptstadt bauten. Varimathras dient dort nun der Dunklen Fürstin, ob es ihm gefällt oder nicht. Balnazzar trägt in Stratholme das Gesicht des eigenen Anführers des Scharlachroten Kreuzzugs." },
+        { "Ein Schreckenslord zeigt selten, was er ist. Wenn jemand in Amt und Würden darauf erpicht scheint, dass die Lebenden und die Toten einander weiter umbringen, $gReisender:Reisende;, lohnt es sich zu fragen, wem es nützt." },
       },
     },
     ["druids"] = {
@@ -2806,12 +2837,36 @@ ns.translate({
         { "Zwischen ihnen liegen die Oger von Brackenwall, die der Horde dienen, die verbrannte Ruine eines Gasthauses, über die jeder eine Theorie hat, und sehr viele schwarze Drachen. Es ist eine Marsch, in der die Allianz und die Horde vereinbart haben, als Nachbarn zu leben, und in der beide sehr genau hinsehen." },
       },
     },
+    ["dwarves"] = {
+      title = "Die Zwerge von Ironforge",
+      text = {
+        { "Die Zwerge halten Khaz Modan von Ironforge aus, seit bevor irgendwer ihre Geschichte aufschrieb, und lange wussten auch sie nicht, woher sie kamen. Die Scheiben, die die Liga aus Uldaman barg, legen eine Antwort nahe, über die die Gelehrten noch streiten: dass die ersten Zwerge Irdene waren, von den Titanen aus dem Stein geformt, die mit der Zeit zu Fleisch wurden." },
+        { "Drei Klans teilten sich einst den Berg unter einem Hochkönig. Als er starb, zogen sie um seinen Thron in den Krieg. Die Bronzebeards behielten Ironforge, die Wildhammer gingen nach Norden, und die Dunkeleisenzwerge weckten im Süden den Feuerlord. Heute herrscht König Magni Bronzebeard. Sein Bruder Muradin ging mit dem Prinzen von Lordaeron nach Norden und wurde seither nicht mehr gesehen, und sein Bruder Brann ist für die Liga draußen in der Welt, was ungefähr dort ist, wo wir ihn vermuten." },
+        { "Sie sind ein kräftiges, sorgfältiges, großzügiges Volk, das seinen Groll ebenso gut pflegt wie sein Mauerwerk, und ich sage das mit Zuneigung. Wenn Euch ein Zwerg sagt, eine Brücke werde halten, $gReisender:Reisende;, dann hält sie. Wenn ein Zwerg sagt, das Bier sei gut, bildet Euch Eure eigene Meinung." },
+      },
+    },
     ["earth-mother"] = {
       title = "Die Erdenmutter",
       text = {
         { "Die Tauren verehren die Erdenmutter als Quelle der Welt und ihres Lebens. Ihre Überlieferungen lehren Achtung vor den Gaben des Landes und Sorgfalt gegen Verschwendung. Schamanen sprechen mit seinen Geistern, Seher folgen Visionen, und die Ahnen bleiben Teil des Lebens derer, die nach ihnen kommen." },
         { "Junge Tauren legen die Riten der Erdenmutter ab, bevor die Ältesten von Thunder Bluff sie aufnehmen. Kraft wird gegen die Feinde des Stammes bewiesen. Sicht kommt durch das Wasser der Seher und das, was im Feuer erscheint. Weisheit verlangt den Segen der Ahnen an den Teufelsfelsen. Die Reise endet vor dem Oberhäuptling." },
         { "Achtet auf die Riten, wenn Ihr Eure Gastgeber verstehen wollt, $gReisender:Reisende;. Jagd, Erinnerung und das Land verbinden sich in der Art, wie ein junger Taure sich einen Platz unter ihnen verdient." },
+      },
+    },
+    ["earthen"] = {
+      title = "Die Irdenen",
+      text = {
+        { "Die Irdenen waren die Steinmetze der Titanen, aus lebendem Fels geschaffen, um die tiefen Orte der Welt auszuhöhlen. Als die Titanen gingen, formten und bewachten sie diese Tiefen weiter und kümmerten sich wenig um irgendetwas darüber. Die Große Teilung verletzte sie, wie sie die Erde selbst verletzte. Sie verloren viel von dem, was sie gewesen waren, und schlossen sich in den Gewölben ein, in denen sie geschaffen worden waren: Uldaman, Uldum, Ulduar, wie das Buch in unserer Bibliothek sie nennt." },
+        { "Nach fast achttausend Jahren erwachten die Irdenen von Uldaman. Sie fanden ihre steinernen Häute zu Haut erweicht und ihre Macht über den Fels geschwächt. Sie waren sterblich geworden. Sie nannten sich Zwerge, gingen hinaus in die wache Welt und gründeten ein Königreich unter dem höchsten Berg des Landes, Khaz Modan, dem Berg des Khaz'goroth, um eine Schmiede, die zu seinen Ehren errichtet wurde." },
+        { "Nicht alle erwachten. Irdene halten noch immer Wache in den Hallen von Uldaman, und jede Expedition, die die Liga dorthin schickt, trifft auf sie. Sie scheinen nicht zu wissen, wessen Verwandte wir sind." },
+      },
+    },
+    ["earthen-ring"] = {
+      title = "Der irdene Ring",
+      text = {
+        { "Der irdene Ring ist ein Kreis von Schamanen, der sich dem Studium und der Bewahrung der Elemente widmet. Sie hätten mehr über seltsame alte Götter, uralte Legenden und Überlieferungen vergessen, als die meisten Gelehrten je wissen werden, sagt ein Späher der Horde in Ashenvale, und wenn etwas von den Elementen auftaucht, das niemand erklären kann, bringt man es zu ihnen." },
+        { "Sie halten sich an den Rändern der Dinge. Ein Schamane in Zoram'gar an der Küste von Ashenvale erforscht, was das Meer aus der Blackfathom-Tiefe heraufwirft, und ein anderer wartet am hoffnungsvollen Licht, wo die Toten am dichtesten drängen. Ihre Absichten hat man rein genannt, selbst wer die Gesellschaft bezweifelt, die sie pflegen. Der Ring reichte einst den Verlassenen die Hand, und manche in Thunder Bluff fragen sich nun, ob das klug war." },
+        { "Eine gelehrte Gesellschaft, die den Elementen Rechenschaft schuldet statt einem König. Die Liga erkennt die Art wieder und beneidet sie ein wenig." },
       },
     },
     ["eastern-plaguelands"] = {
@@ -2842,6 +2897,14 @@ ns.translate({
         { "Etrigg berät Thrall in Orgrimmar, ein alter Krieger mit Wissen, das die neue Horde noch braucht. Als Kriegsherr Goretooth erfuhr, dass Rend Blackhand noch lebte, schickte er Abenteurer, um Etrigg über die Blackrock zu befragen." },
         { "Rivalitäten unter den Anführern der Horde hatten Etrigg seine Söhne gekostet und ihn von ihren Kriegen fortgetrieben. Als er allein nahe Hearthglen lebte, kämpfte er gegen Tirion Fordring und rettete den Paladin dann aus einem einstürzenden Turm. Tirion verteidigte ihn später auf Kosten seines Ansehens in der Silbernen Hand." },
         { "Während Thralls Angriff auf Stratholme befreite Tirion Etrigg. Vor der Stadt bat Thrall ihn, die alten Wege der Horde wiederherzustellen, und er nahm an." },
+      },
+    },
+    ["elune"] = {
+      title = "Elune",
+      text = {
+        { "Elune ist die Göttin des Mondes und der älteste Glaube der Nachtelfen. In den Tagen vor der Großen Teilung glaubten sie, sie schlafe tagsüber in den Tiefen des Brunnens der Ewigkeit und erwache mit der Nacht. Ihre Priesterinnen hüteten damals ihre Tempel und hüten sie heute, im Tempel des Mondes in Darnassus." },
+        { "Sie antwortet ihnen. Die Nachtelfen verdanken ihr Überleben der Großen Teilung, so sagen sie, ihrer Gnade, und eine Hohepriesterin von Elune, Tyrande Whisperwind, hat sie durch die zehntausend Jahre seither geführt. Ihre Mondbrunnen tränken ihre Städte, und ihre Priesterinnen heilen durch ihr Licht. Im Kampf, so sagt man mir, können sie es als etwas viel weniger Sanftes herabrufen." },
+        { "Eine Nachtelfe wird Euch ihre Göttin selten aufdrängen. Sie hatten lange Zeit, Geduld mit dem Glauben anderer Leute zu lernen, und mit anderen Leuten." },
       },
     },
     ["elwynn-forest"] = {
@@ -2939,6 +3002,14 @@ ns.translate({
         { "Ringo ging, um ihn zu erkunden, und wurde in einer Höhle an seinem Südhang gefunden, verirrt und schwer überhitzt. Die Gelehrten in Marshals Zuflucht wollen noch immer wissen, was im Herzen des Grates liegt. Ein Reisender kann ihre Neugier teilen, ohne Ringos Vorbereitungen zu teilen." },
       },
     },
+    ["forest-trolls"] = {
+      title = "Die Waldtrolle",
+      text = {
+        { "Lange bevor es Menschen in Lordaeron gab, gehörten die Wälder des Nordens den Trollen des Reiches der Amani, und sie haben niemandem vergeben, der sie ihnen nahm. Als die Hochelfen über das Meer kamen und sich in Quel'Thalas niederließen, führten die Amani über Generationen Krieg gegen sie, bis die Elfen und das erste Königreich der Menschen, Arathor, sie gemeinsam in den Trollkriegen brachen. Ihre Hauptstadt Zul'Aman steht noch tief in den östlichen Wäldern." },
+        { "Die Trolle kamen im Zweiten Krieg zurück, als ihr Kriegsherr Zul'jin die Waldstämme an der Seite der Horde gegen die Elfen und die Menschen Lordaerons führte, und verloren erneut. Was übrig ist, sind Stämme, verstreut über die Hügel: die Witherbark im Arathihochland und im Hinterland, die Vilebranch in ihrer Tempelstadt Jintha'Alor, die Moosschinder in den Wäldern der Östlichen Pestländer, wo viele von ihnen nun an der Seuche verfaulen." },
+        { "Sie sind groß, grünhäutig und haben Hauer, sie halten an den alten Göttern der Trolle fest, und manche an schlimmeren Bräuchen als das. Die Revantusk im Hinterland sind die Ausnahme: Sie haben sich auf die Seite der Horde gestellt, und ihre Verbündeten in der Horde verbürgen sich für sie." },
+      },
+    },
     ["franclorn-forgewright"] = {
       title = "Franclorn Forgewright",
       text = {
@@ -2969,6 +3040,15 @@ ns.translate({
         { "Drek'Thar, heute blind, führt sie noch immer dort. Sie wollen ihre Heimat behalten. Die Expedition der Stormpike hat einen Anspruch Ironforges dagegen mitgebracht." },
       },
     },
+    ["furbolgs"] = {
+      title = "Die Furbolgs",
+      text = {
+        { "Die Furbolgs gehören zu den nördlichen Wäldern Kalimdors, wo ihre Dörfer und Totems seit Ewigkeiten neben dem Land der Nachtelfen stehen. Vor zehntausend Jahren kämpften sie an der Seite der Elfen gegen die Brennende Legion. Ihre Geschichte hat Platz für alte Freundschaften, wie heftig ein Fremder heute auch an einem Lager empfangen werden mag." },
+        { "Stamm um Stamm hat unter der Verderbnis gelitten: die Knarzklauen auf Teldrassil, die Schwarzfelle an der Dunkelküste, die Totenwaldfelle im Teufelswald und die Winterfelle in Winterspring unter ihnen. Der Wahnsinn hat Nachbarn zu Feinden gemacht. Im Teufelswald gibt das vergiftete Land den Nachtelfen reichlich Grund, der Verseuchung der Legion die Schuld zu geben." },
+        { client = "classic", "Die Holzschlundfeste hat sich diesem Schicksal widersetzt. Sie bewacht die Tunnel, die den Teufelswald, Moonglade und Winterspring verbinden, und eine weitere verschlossene Feste in Azshara. Hilfe gegen ihre verderbten Verwandten kann einem Reisenden langsam ihr Vertrauen einbringen." },
+        { client = "forever", "Die Holzschlundfeste bewacht noch immer die Tunnel, die den Teufelswald, Moonglade und Winterspring verbinden, und lässt sich durch Hilfe gegen ihre verderbten Verwandten gewinnen. Die Schwarzschlundfeste in Azshara gehört einem anderen Stamm, einem, der der Verderbnis erlegen ist." },
+      },
+    },
     ["gadgetzan"] = {
       title = "Gadgetzan",
       text = {
@@ -2995,6 +3075,13 @@ ns.translate({
       text = {
         { "Geistheuler ist ein großer Wolf aus Mulgore, dessen Fell eine schreckliche Wunde aus dem Kampf gegen die Brennende Legion trägt. Die Narbe gibt dieser besonderen Jagdtrophäe eine Geschichte, die über die Jagd über die Ebenen hinausreicht." },
         { "Skorn Whitecloud erkennt das Fell in Bloodhoof wieder. Er bietet dem Jäger eine seiner Waffen an und hofft, dass der Geist des Wolfes Frieden gefunden hat." },
+      },
+    },
+    ["gnolls"] = {
+      title = "Die Gnolle",
+      text = {
+        { "Die Flusspfoten überfallen Elwynn und Westfall. Die Moosfelle bewohnen das Sumpfland. Diese Rudel haben verschiedene Geschichten. Hoggers Steckbrief warnt, er sei zu gefährlich für einen einzelnen Jäger, während Rethiels Bericht sagt, die Moosfelle hätten einst friedlich neben ihren Nachbarn gelebt." },
+        { "Manche Rudel dienen anderen Mächten. Die Schattenfelle im Rotkammgebirge gehorchen Morganth, und Thule Rabenklaue befehligt die untoten Moderfelle in Tirisfal und im Silberwald. Jenseits des Meeres jagen die Bleichmähnen in Mulgore, und die Waldpfoten leben in Feralas. Fragt, welchem Rudel Ihr gegenübersteht, $gReisender:Reisende;. Sein Name verrät Euch mehr über die Schwierigkeiten vor Euch als eine allgemeine Meinung über Gnolle." },
       },
     },
     ["gnomeregan"] = {
@@ -3028,6 +3115,14 @@ ns.translate({
         { "Windsor starb bei der Konfrontation. Schreibt seinen Namen nieder, $gReisender:Reisende;, wenn Ihr die Niederlage des Drachen verzeichnet. Sein Anteil daran begann lange bevor irgendwer ihren Hort erreichte." },
       },
     },
+    ["green-dragonflight"] = {
+      title = "Der grüne Drachenschwarm",
+      text = {
+        { "Yseras Schwarm hütet den Smaragdgrünen Traum und die vier großen Bäume, an denen der Traum die wache Welt berührt: Seradane im Hinterland, Bough Shadow in Ashenvale, Traum-Geäst in Feralas und den Zwielichtshain im Dämmerwald. Die Druiden wandeln durch den Traum dank des Paktes, den ihre Ahnen mit Ysera schlossen. Die Drachen wandeln selten durch die Welt." },
+        { "Nicht allen geht es gut. Etwas hat sich in den Traum geschlichen und einige von Yseras eigenen Kindern verdreht. Die vier, die nun an den großen Bäumen spuken, haben ihre eigene Seite. Vor ihnen gab es Eranikus, der über dem versunkenen Tempel in den Sümpfen des Elends schlief und im selben Albtraum gefangen wurde." },
+        { "Itharius, ein weiterer des Schwarms, wartet in einer Höhle in diesem Sumpf und sucht Sterbliche, die helfen können, Eranikus zu erlösen. Während die verderbten Hüter noch an den großen Bäumen spuken, bittet einer ihrer Verwandten Fremde, einen Drachen heimzubringen." },
+      },
+    },
     ["greymane-wall"] = {
       title = "Der Greymane-Wall",
       text = {
@@ -3041,6 +3136,13 @@ ns.translate({
         { "Als die Wildhammer aus Ironforge vertrieben wurden, hauten sie Grim Batol aus den östlichen Bergen, und es war eine Festung, die es mit Ironforge selbst aufnehmen konnte. Dann zogen die Dunkeleisenzwerge unter Königin Modgud dagegen, und obwohl die Wildhammer die Schlacht gewannen und sie erschlugen, hinterließ ihr Tod eine Finsternis im Stein. Die Wildhammer wollten nicht bleiben. Sie zogen nach Norden ins Hinterland, und Grim Batol stand leer." },
         { "Es blieb nicht leer. Im Zweiten Krieg machten die Orcs des Dragonmawklans es zu ihrer Festung, und dort hielten sie Alexstrasza gefangen, die Königin der roten Drachen, und zwangen ihre Kinder, Orcs in die Schlacht zu tragen. Am Ende wurde sie befreit, und die Dragonmaw wurden zerstreut." },
         { "Die roten Drachen sind noch immer dort. Was auch immer sie in Grim Batol bewachen, sie bewachen es erbittert. Geht nicht in seine Nähe, $gReisender:Reisende;. Die roten Drachkin an seinen Zugängen sind Warnung genug." },
+      },
+    },
+    ["grimtotem"] = {
+      title = "Die Grimmtotem",
+      text = {
+        { "Die meisten Tauren leben nach dem Frieden der Erdenmutter. Die Grimmtotem nicht. Sie sind ein Stamm, der glaubt, die anderen Völker hätten überhaupt kein Recht auf Kalimdor, Tauren, die anderer Meinung sind, eingeschlossen, und sie kämpfen ohne Regeln und ohne Gnade darum, es zurückzunehmen." },
+        { "Ihre Matriarchin Magatha, die Ältestengreisin, lebt in Thunder Bluff selbst und sitzt unter den Ältesten, was etwas über die Geduld von Cairne Bloodhoof verrät. Ihre Krieger sind weniger höflich. Sie überfallen das Steinkrallengebirge, halten den Düsterwolkengipfel in Tausend Nadeln, setzen dem Freiwindposten zu und unterhalten ein Truppenlager in Feralas. Fragt einen Tauren vom Freiwindposten, was er von den Grimmtotem hält, und tretet dann einen Schritt zurück." },
       },
     },
     ["grom-hellscream"] = {
@@ -3105,6 +3207,13 @@ ns.translate({
       text = {
         { "Erzdruide Hamuul Runetotem steht auf der Anhöhe der Ältesten in Thunder Bluff, unter den Lehrern und geistigen Führern der Tauren. Sein Platz dort gibt den Druiden eine Stimme in der Stadt ebenso wie ein Zuhause." },
         { "Berichte aus den Höhlen des Wehklagens führen Abenteurer von jenseits Mulgores zu ihm. Er schickt sie zu Nara Wildmane, um die Nachforschungen fortzusetzen." },
+      },
+    },
+    ["harpies"] = {
+      title = "Die Harpyien",
+      text = {
+        { "Harpyien nisten überall in Kalimdor, jagen und wirken Zauber, mit Flügeln und Krallen, die sie über den Boden tragen. Die Staubschwingen bewohnen Durotar, die Windfurien Mulgore, die Hexenschwingen das Brachland und die Blutfurien das Steinkrallengebirge. Ihre Schwärme haben sich unter den Siedlungen darunter Feinde gemacht." },
+        { "Ruul Eagletalon schickt Jäger als Prüfung gegen die Windfurien. Die Druiden des Steinkrallengebirges wollen das verbrannte Tal von den Blutfurien zurück, um es wiederherzustellen. Ein Reisender, der unter ihren Nistplätzen hindurchzieht, hat praktischen Grund zu lernen, welcher Schwarm sie hält." },
       },
     },
     ["hearthglen"] = {
