@@ -2331,6 +2331,13 @@ ns.translate({
         { "Nimboya verdächtigt die Bloodscalp, Yenniku festzuhalten, den jüngsten Sohn seines Häuptlings. Die Suche führt anderswohin: Zanzil der Ausgestoßene hat ihn unter seine magische Kontrolle gebracht. Merkt Euch diesen Unterschied, $gReisender:Reisende;. Der erste Feind, der in einer Ermittlung genannt wird, ist nicht immer der Verantwortliche." },
       },
     },
+    ["bloodvenom-post"] = {
+      title = "Blutgiftposten",
+      text = {
+        { "Der Blutgiftposten ist das Lager der Horde im Herzen des Teufelswalds, neben den vergifteten Fällen des Blutgiftflusses. Seine Leute kämpfen gegen den Schattenrat in Jaedenar und die verderbten Dinge des Waldes, und eine Witwe wartet dort auf Rache an dem Furbolg, der ihren Mann tötete." },
+        { "Nicht jeder am Posten will den Teufelswald geheilt sehen. Eine Apothekerin der Verlassenen, Winna Hazzard, erforscht den verderbten Mondbrunnen der Jadefeuersatyrn und sucht in seinem Wasser einen Vorteil gegen die Allianz. Ich würde ihre Katze im Auge behalten." },
+      },
+    },
     ["bolvar-fordragon"] = {
       title = "Hochlord Bolvar Fordragon",
       text = {
@@ -2716,11 +2723,25 @@ ns.translate({
         { "Der Frieden ist dünner, als er aussieht. Kobolde haben die Minen eingenommen, die Gnolle der Flusspfoten fallen von Westen her ein, und die rot maskierten Defias haben sich aus Westfall in die Wälder ausgebreitet. Fragt irgendeinen Bauern in Elwynn, ob die Soldaten des Königs kommen, wenn man sie ruft." },
       },
     },
+    ["emerald-sanctuary"] = {
+      title = "Das Smaragdrefugium",
+      text = {
+        { "Das Smaragdrefugium ist ein Hain im Süden des Teufelswalds, gehalten vom Smaragdkreis, Druiden des Zirkels des Cenarius, die geschworen haben, den Wald zu heilen. Sie kämpfen gegen die Jadefeuersatyrn und den Schattenrat und erforschen den Blutbernstein der verderbten Elementare, in der Hoffnung zu lernen, wie man den Rest rettet." },
+        { "Ihre Geduld ist gewaltig. Sie reinigen die verseuchten Liedblumen und Windblüten eine nach der anderen, und sie läutern die Geister der Urtume, die die Satyrn mit Teufelsmagie gebunden haben. Es ist langsame Arbeit, und sie wissen, dass sie länger dauern kann, als irgendeiner von ihnen leben wird. Sie sind Nachtelfen. Gut möglich, dass sie recht haben." },
+      },
+    },
     ["eranikus"] = {
       title = "Eranikus",
       text = {
         { "Eranikus ist ein Drache aus Yseras grünem Schwarm und der Hüter des versunkenen Tempels: Seine Aufgabe war es, dafür zu sorgen, dass die Trolle ihren Gott nie wieder hervorbrachten. Nach eigener Aussage hat er versagt, und Schlimmeres ist ihm widerfahren. Während er über dem Tempel schlief, wurde er von etwas Dunklem im Traum gefangen, und es verdreht seinen Geist." },
         { "In den Tiefen des Tempels liegt sein Schemen in einem Zustand zwischen Schlaf und Tod, verstrickt in Albträume, und was von seinem freien Willen übrig ist, streckt sich nach Reisenden aus, um Hilfe zu erbitten. Ein anderer grüner Drache, Itharius, wartet in einer Höhle im Sumpf und hofft, ihn zu erlösen. Ich wünsche Itharius Glück. Der Nachtmahr, der Eranikus festhält, ist derselbe, der Yseras Leutnants an den großen Bäumen genommen hat." },
+      },
+    },
+    ["everlook"] = {
+      title = "Everlook",
+      text = {
+        { "Everlook ist eine Goblinstadt mitten in Winterspring, der nördlichste Anlaufhafen des Steamwheedle-Kartells, mit Mauern, einem Gasthaus, einer Bank und einer Wache aus Goblinschlägern, wo Allianz und Horde Seite an Seite handeln. Drinnen ist es wärmer, als man denkt, und weit teurer." },
+        { "Jeder kommt durch Everlook. Die Argentumdämmerung hält hier einen Vertreter, die Thoriumbruderschaft einen Schmied, und alle Jäger, Forscher und Gelehrten des Nordens kehren ein, um sich die Füße zu wärmen." },
       },
     },
     ["explorers-league"] = {
@@ -2766,6 +2787,13 @@ ns.translate({
       text = {
         { "Die Festung Feathermoon steht auf der Insel Sardor vor der Küste von Feralas, mit dem Boot vom Festland aus zu erreichen. Generalin Shandris Feathermoon befehligt ihre Schildwachen von weißen Mauern über einem Hafen aus. Die Festung trägt ihren Namen." },
         { "Ihre Soldaten stellen sich den Naga der Hasskämme bei Solarsal entgegen und beobachten die Oger des Waldes. Auch Gelehrte arbeiten zwischen den alten elfischen Ruinen von Feralas." },
+      },
+    },
+    ["felwood"] = {
+      title = "Teufelswald",
+      text = {
+        { "Der Teufelswald war der nördliche Teil des großen Waldes von Ashenvale. Heute ist er ein vergiftetes Land, seine Bäume schwarz und verkrümmt, seine Flüsse grün, seine Furbolgs wahnsinnig und selbst seine Pflanzen verseucht. Die Dämonen haben das getan. Im letzten Krieg hielt der Schreckenslord Tichondrius hier den Schädel von Gul'dan, und seine Verderbnis breitete sich durch die Wälder aus. Als Illidan Stormrage die Macht des Schädels für sich nahm, wurde der Wald nicht geheilt." },
+        { "Der Schattenrat und seine Dämonen halten Jaedenar, die Jadefeuersatyrn die alten Ruinen, und verderbte Urtume und Elementare wandeln durch die Wälder. Die Druiden des Smaragdkreises versuchen, ihn zu heilen, Pflanze um Pflanze. Die Horde hält den Blutgiftposten mittendrin, und die Nachtelfen eine Lichtung im Norden, an den Toren der Holzschlundfeste." },
       },
     },
     ["feralas"] = {
@@ -3008,6 +3036,14 @@ ns.translate({
         { "Sie sind keine Freunde der Sterblichen, doch sie machen jene zu Verbündeten, die gegen ihre Feinde kämpfen: die Elementare von Erde und Luft in den Brunnen der Pestländer und in Silithus und die Herren des Feuers unter dem Blackrock. Denen, denen sie vertrauen, geben sie das Wasser, das die Runen im Geschmolzenen Kern löscht, und einen Weg, den Majordomus des Feuerlords herauszurufen." },
       },
     },
+    ["illidan-stormrage"] = {
+      title = "Illidan Stormrage",
+      text = {
+        { "Illidan war Malfurions Zwillingsbruder, und auch er liebte Tyrande. Sie wählte Malfurion. Im Krieg der Urtume kämpfte er mit seinem Bruder gegen die Legion, doch er gab die Magie der Hochgeborenen nie auf, und als der Brunnen der Ewigkeit zerstört wurde, trug er Phiolen mit seinem Wasser auf den Gipfel des Hyjal und goss sie in einen See und schuf so einen neuen Brunnen. Er hielt es für ein Geschenk. Malfurion nannte es ein Verbrechen und schloss ihn mit Cenarius' Hilfe in ein Hügelgefängnis ein, angekettet und bewacht, für zehntausend Jahre." },
+        { "Tyrande befreite ihn, als die Legion zurückkam, in der Hoffnung, er werde helfen. In diesen Wäldern tat er etwas anderes. Der Schreckenslord Tichondrius hielt hier den Schädel von Gul'dan, ein Hexenmeisterrelikt voller Teufelsmacht, und Illidan nahm ihn und trank seine Stärke. Er kam daraus in der Gestalt eines Dämons hervor, mit einigen von Gul'dans Erinnerungen, und tötete Tichondrius. Malfurion verbannte ihn dafür." },
+        { "Das Buch in unserer Bibliothek lässt ihn danach fliehen, fort von der Welt, zu den zerbrochenen Resten der Heimat der Orcs, mit den Naga und den Blutelfen im Rücken. Auch der Teufelswald hat sich von dieser Nacht nicht erholt." },
+      },
+    },
     ["internment-camps"] = {
       title = "Die Internierungslager",
       text = {
@@ -3033,6 +3069,13 @@ ns.translate({
         { client = "forever", "Unter Alt-Ironforge liegt die Halle der Thanen. Eindringlinge der Dunkeleisenzwerge sind hineingebrochen, und Magni will den Kopf ihres Befehlshabers, Durgen Dirgehammer. Selbst hier können die ältesten Hallen einer Stadt zu ihrer neuesten Sorge werden." },
         { "Und dann ist da die Halle der Forscher, wo die Liga ihre Bibliothek und ihre Funde aufbewahrt: Relikte aus Uldaman, die Knochen von Tieren, die niemand lebend gesehen hat, und Karten von Orten, über die die meisten Zwerge nur je lesen werden. Was mich angeht, Ihr findet mich auf dem Hohen Sitz, wenige Schritte vom Thron des Königs entfernt. Besucht mich. Mir fehlt es immer an Leuten, die tatsächlich irgendwo gewesen sind." },
         { side = "Horde", aside = true, sign = "P. F.", "Sie meint die Einladung freundlich. Ich würde nicht raten, sie in den Farben der Horde anzunehmen." },
+      },
+    },
+    ["jaedenar"] = {
+      title = "Jaedenar",
+      text = {
+        { "Jaedenar war ein Ort der Nachtelfen, mit Ruinen und Grabhügeln im Westen des Teufelswalds. Heute hält ihn der Schattenrat, der alte Kult der Hexenmeister, der die Orcs einst zu einem Werkzeug der Brennenden Legion machte. Hexenmeister der Orcs und der Verlassenen, Dämonen und Satyrn füllen seine Hallen, und darunter, in der Schattenfeste, schließt Schattenlord Fel'dan seine Pakte mit der Legion." },
+        { "Der Smaragdkreis will den Rat vernichtet sehen. Selbst im Inneren liegt der Kult mit sich selbst im Krieg: Seine Herren intrigieren gegeneinander, und jeder ihrer Rivalen hat Spione an den Seiten der anderen." },
       },
     },
     ["jaina-proudmoore"] = {
@@ -3070,6 +3113,13 @@ ns.translate({
       text = {
         { "Lady Katrana Prestor ist die engste Beraterin des Hochlords und bei Hof sehr bewundert: gelehrt, anmutig und sehr schön. Sie weiß sehr viel über sehr viele Dinge, Drachen eingeschlossen, und Bolvar Fordragon vertraut ihr vollkommen." },
         { "Nicht alle tun das. Als Magistrat Solomon von Seenhain den Thron um Soldaten gegen die Orcs der Blackrock anflehte, war es Lady Prestors Rat, der sie zu Hause hielt, und es gibt mindestens einen Marshal von Stormwind, der ihr das nie verziehen hat. Ich schreibe nur nieder, was bekannt ist. Eine Gelehrte, die mehr als das über eine Dame des Hofes schreibt, sollte sich ihrer Sache sehr sicher sein." },
+      },
+    },
+    ["keeper-remulos"] = {
+      title = "Bewahrer Remulos",
+      text = {
+        { "Bewahrer Remulos ist der Sohn des Cenarius, mit dem hirschgleichen Unterleib seines Vaters. Druiden kommen zu seinem Schrein in Moonglade, um Hilfe zu suchen. Der Nachtmahr, der sich im Smaragdgrünen Traum ausbreitet, hat ihnen dringenden Grund dazu gegeben." },
+        { "Als Eranikus, Yseras Gefährte, hierher gerufen wurde, kam der Nachtmahr mit ihm. Remulos verteidigte Nighthaven, während seine Verbündeten darum kämpften, den Drachen zu befreien. Tyrande kam, um Eranikus zu erlösen. Ein Reisender kennt Moonglade vielleicht als einen Ort des Friedens. Sein Bewahrer musste mitten im Dorf für diesen Frieden kämpfen." },
       },
     },
     ["kelthuzad"] = {
@@ -3179,6 +3229,14 @@ ns.translate({
         { "Seine Tochter beschäftigt ihn dringender. Prinzessin Moira ist in der Stadt der Dunkeleisenzwerge unter dem Blackrock, vermählt mit Imperator Dagran Thaurissan. Ironforge nennt es eine Entführung, und Magni verspricht demjenigen, der sie heimbringt, den Lohn eines Helden. Wenn Ihr diesen Auftrag annehmt, $gReisender:Reisende;, tragt Ihr die Hoffnungen eines Vaters ebenso wie die Befehle eines Königs." },
       },
     },
+    ["malfurion-stormrage"] = {
+      title = "Malfurion Stormrage",
+      text = {
+        { "Malfurion Stormrage war ein junger Gelehrter der Nachtelfen, als die Hochgeborenen sich zu verändern begannen, und er gehörte zu den Ersten, die ahnten, warum. Als die Brennende Legion durch den Brunnen der Ewigkeit kam, ging er mit seinem Bruder Illidan und der Priesterin Tyrande, um Cenarius zu finden, der sein Lehrer wurde. Was Cenarius ihn lehrte, wurde zum Druidentum. Am Ende des Krieges der Urtume war es Malfurion, der erkannte, dass der Brunnen selbst zerstört werden musste, und die Große Teilung folgte." },
+        { "Er führte die Überlebenden zum Hyjal, fand, dass Illidan dort einen neuen Brunnen geschaffen hatte, und schloss seinen eigenen Bruder in einen Hügel unter der Erde ein. Er verbot seinem Volk die Magie, schloss mit den Drachen den Pakt des Weltenbaums und ging jahrhundertelang am Stück in den Smaragdgrünen Traum schlafen, während Tyrande Wache hielt." },
+        { "Tyrande weckte ihn, als die Legion zurückkehrte, und er vernichtete Archimonde am Fuß des Baumes. Nun ist er wieder im Traum verloren, und die Druiden, die in diesen Grabhügeln schlafen, sagen nicht, wann er zurückkommen wird. Sein Volk lernt, ohne ihn alt zu werden." },
+      },
+    },
     ["mannoroc-coven"] = {
       title = "Mannorocs Koven",
       text = {
@@ -3212,6 +3270,13 @@ ns.translate({
       text = {
         { "Im Süden der Dunkelküste steckt eine gewaltige Klinge in der Erde, zu groß für jede Hand, die heute auf der Welt wandelt, und die Nachtelfen nennen den Ort die Meistergleve. Onu, das Urtum der Lehren, sagt, sie markiere einen Ort, an dem einer der alten Herren der Erde fiel, vor langer, langer Zeit." },
         { "Darum ist der Twilight-Hammer gekommen. Der Kult verehrt diese alten Herren, und seine Leute haben sich an der Gleve und in den Höhlen ringsum versammelt, mit Büchern voller Namen, die nicht ausgesprochen werden sollten." },
+      },
+    },
+    ["mazthoril"] = {
+      title = "Mazthoril",
+      text = {
+        { "Mazthoril ist eine große Eishöhle mitten in Winterspring, tief und kalt und voller blauer Drachen. Sie ist die Heimat des blauen Drachenschwarms in Kalimdor, und kobaltblaue Runen auf ihrem Boden tragen jene, die ihren Gebrauch kennen, zu Haleh, ihrer Schutzpatronin." },
+        { "Die blauen Drachen sind die Hüter der Magie, und sie beobachten den schwarzen Drachenschwarm sehr genau. Sie wissen, was Nefarian in der Blackrockspitze züchtet, und dass man es nicht zulassen darf. Und da sie ihn in seinem Berg nicht leicht erreichen können, sind sie bereit, Sterblichen zu helfen, die es können." },
       },
     },
     ["mekgineer-thermaplugg"] = {
@@ -3257,6 +3322,13 @@ ns.translate({
       text = {
         { "Moonbrook war die Marktstadt der Höfe von Westfall und die Heimat seiner Bergleute, im Ersten Krieg von den Orcs niedergebrannt und nach dem Zweiten wiederaufgebaut. Heute ist es eine Stadt der Defias: ihre Leute vertrieben, ihre Häuser voller rot maskierter Banditen, und ihre alte Schmiede und ihre Scheune verbergen den Weg hinab in die Todesminen." },
         { "Es ist ein trauriger Ort, um hindurchzugehen, und kein sicherer. Die Bruderschaft beobachtet die Straße, und wer eine gewisse Scheune am Rand der Stadt zu lange ansieht, wird wahrscheinlich herausfinden, warum." },
+      },
+    },
+    ["moonglade"] = {
+      title = "Moonglade",
+      text = {
+        { "Moonglade ist ein verborgenes Tal in den Bergen im Norden Kalimdors, zwischen dem Teufelswald und Winterspring, um den Elune'ara See. Es ist der heiligste Ort der Druiden, Nachtelfen und Tauren gleichermaßen, und der Zirkel des Cenarius hat sein Zuhause im Dorf Nighthaven am Ufer des Sees. Es ist ein Ort des Friedens, offen für Allianz und Horde gleichermaßen." },
+        { "Druiden kommen hierher, um zu lernen, und die Gelehrten des Zirkels bewahren hier ihre Archive. Zum Mondfest kommt die ganze Welt, um die Ältesten und den Mond zu ehren." },
       },
     },
     ["morbent-fel"] = {
@@ -3660,6 +3732,13 @@ ns.translate({
         { "Die Naga von Kriegsherr Krellian halten die Ruinen nun vom Tempel von Zin-Malor aus. Die Nachtelfen meiden den Ort, doch die Forscherliga will Abriebe der Inschriften. Wenn Ihr an den Naga vorbeikommt, $gReisender:Reisende;, bewahren diese Tafeln vielleicht etwas, das das Meer noch nicht genommen hat." },
       },
     },
+    ["ruins-of-keltheril"] = {
+      title = "Die Ruinen von Kel'Theril",
+      text = {
+        { "Am gefrorenen Kel'Therilsee liegen die Ruinen einer Stadt der Hochgeborenen, und ihre Hochgeborenen sind noch dort, als Geister. Vor langer Zeit stahlen sie ein heiliges Relikt, den Kristall von Zin-Malor, aus seinem Tempel, um seine Macht für sich selbst abzuschöpfen. Das Ritual ging schief. Der Kristall zersprang in einer gewaltigen Explosion, und seine Stücke wurden unter das Eis des Sees getrieben." },
+        { "Die Hochgeborenen wurden verflucht, an dem Ort zu bleiben, an dem sie es getan hatten, und für immer nach den Stücken zu suchen. Als schließlich jemand sie sammelte und den Kristall wieder ganz machte, sprach einer der Geister: Es tue ihm leid, und er wisse, dass nichts die Vergangenheit ändern könne, doch er habe Frieden. Der Tempel des Kristalls liegt in Ruinen, also ging er stattdessen an den Erzdruiden in Darnassus." },
+      },
+    },
     ["ruins-of-lordaeron"] = {
       title = "Die Ruinen von Lordaeron",
       text = {
@@ -3851,6 +3930,13 @@ ns.translate({
         { "Es ist eine hässliche Geschichte, die man aus so gewöhnlichen Papieren zusammensetzen muss. Eine Lehrstelle, der Briefwechsel einer Familie, der Name einer Schülerin: die Dinge, die zu einem stillen Leben hätten gehören sollen, bleiben zwischen den Spuren derer, die er zerstörte." },
       },
     },
+    ["starfall-village"] = {
+      title = "Starfall",
+      text = {
+        { "Starfall ist eine kleine Siedlung der Nachtelfen im Schnee von Winterspring, wo Druiden und Gelehrte zwischen den Bäumen leben. Seine Leute erforschen das Land und seine Geschöpfe und die alten Ruinen am See." },
+        { "Es war ein Gelehrter aus Starfall, der herausfand, was die Wildekin von Winterspring sind: keine Tiere, sondern Geschöpfe der Elune, der Mondgöttin. Der Erzdruide in Darnassus war sehr interessiert. Ich ebenso." },
+      },
+    },
     ["stonard"] = {
       title = "Stonard",
       text = {
@@ -3899,6 +3985,13 @@ ns.translate({
       text = {
         { "Die Stormpikegarde kam ins Alteractal, um zu schürfen und nach Relikten zwergischer Abstammung zu suchen, und die Forscherliga begleitete die Expedition. Sie sagen, die Frostwolf hätten ohne Anlass angegriffen. Die Frostwolf erzählen dasselbe mit vertauschten Namen." },
         { "Vanndar Stormpike befehligt die Garde, und König Magni hat ihm befohlen, das Tal für Ironforge einzunehmen. Die Frostwolf leben bereits dort und widersetzen sich dem Befehl. Ich diene dem König, der diesen Befehl gab, doch das Interesse der Liga an dem, was unter der Erde liegt, entscheidet nicht über die Ansprüche derer, die darüber leben." },
+      },
+    },
+    ["stormrage-barrow-dens"] = {
+      title = "Die Stormrage Grabhügel",
+      text = {
+        { "Druiden schlafen unter den Hügeln von Moonglade, während ihre Geister durch den Smaragdgrünen Traum wandeln, manchmal jahrelang. Diese Grabhügel tragen den Namen Malfurion Stormrages und erinnern an den ersten Druiden und die lange Übung seiner Anhänger." },
+        { "Während des Dritten Krieges rief Tyrande schlafende Druiden zurück, um sich der Legion zu stellen. Malfurion wird nun vermisst, sein Schicksal ist den Druiden unbekannt. Da sich der Nachtmahr ausbreitet, haben die Hüter der Hügel und Remulos Grund, um jene zu fürchten, die im Traum sind. Tretet hier behutsam auf, $gReisender:Reisende;. Die Stille über den schlafenden Druiden verrät wenig über das, dem ihre Geister vielleicht gegenüberstehen." },
       },
     },
     ["stormwind-city"] = {
@@ -3963,6 +4056,13 @@ ns.translate({
         { "Taelan Fordring wuchs in dem Glauben auf, sein Vater sei tot. Als Tirion seiner Ländereien beraubt wurde, weil er sein Wort gegenüber einem Orc hielt, blieb Taelans Mutter zurück und erzählte dem Jungen so viel. Er trat dem Scharlachroten Kreuzzug bei, stieg unter dem Obersten Kreuzzügler auf, riss das Banner der Silbernen Hand in Northdale nieder und wurde Hochlord des Kreuzzugs in Hearthglen." },
         { "Er habe nie aufgehört, von seinem Vater zu träumen, sagt er: davon, dass Tirion an seiner Seite stünde an dem Tag, an dem er zum Ritter geschlagen würde, dass sie gemeinsam gegen die Geißel kämpften, für die Ehre Lordaerons. Als Reisende ihm die Dinge bringen, die Tirion für ihn aufbewahrt hat, und die Wahrheit darüber, was aus dem Kreuzzug geworden ist, bricht er mit ihm und reitet hinaus, um seinen Vater zu finden." },
         { "Weit kommt er nicht. Großinquisitor Isillien streckt ihn vor Hearthglen nieder, in Sichtweite des Mannes, zu dem er ritt, und Tirion tötet Isillien über dem Leichnam seines Sohnes. Der Orden der Silbernen Hand, sagt Tirion danach, ist wiedergeboren. Es kostete ihn seinen Sohn, sich zu erinnern, wofür er da war." },
+      },
+    },
+    ["talonbranch-glade"] = {
+      title = "Nachtlaublichtung",
+      text = {
+        { "Die Nachtlaublichtung ist ein kleiner Außenposten der Nachtelfen im Norden des Teufelswalds, mit einem Mondbrunnen und ein paar Häusern zwischen den verderbten Bäumen, gleich südlich der Holzschlundfeste, dem Tunnel der Furbolgs, der weiter nach Moonglade und Winterspring führt." },
+        { "Sie ist eine kleine Insel aus reinem Boden in einem kranken Wald, und die Schildwachen, die sie halten, bewachen die Straße nach Norden für jeden Reisenden, der durch den Teufelswald muss." },
       },
     },
     ["tanaris"] = {
@@ -4082,6 +4182,14 @@ ns.translate({
       text = {
         { "Die Kinder von Dunkelhain kennen die Geschichte vom Einbalsamierer: einem gütigen Alchemisten, dessen Frau Eliza starb und der sie nicht gehen lassen wollte. Er benutzte dunkle Magie, um sein eigenes Herz in ihre Brust zu setzen, und es brachte sie zurück, mit einem Hunger nach Menschenfleisch, sodass er sie begraben halten musste." },
         { "Es ist keine Kindergeschichte. Der Einbalsamierer ist der alte Einsiedler Calvinius, der in einer Hütte über Rabenflucht lebt, und seine Braut wartet noch immer in ihrem Grab. Sein letztes Geschenk an Dunkelhain war Kleiner, ein aus Toten zusammengenähtes Ungeheuer, das er die Straße zur Stadt hinaufwanken ließ. Die Nachtwache erinnert sich an die Nacht, in der es kam." },
+      },
+    },
+    ["the-emerald-dream"] = {
+      title = "Der Smaragdgrüne Traum",
+      text = {
+        { "Der Smaragdgrüne Traum ist eine Geisterwelt außerhalb der wachen Welt, ständig im Wandel und unermesslich, von der aus Ysera die Träumerin das Wachsen jedes wilden Dings lenkt. Die Druiden wandeln in ihm wegen eines Handels, der vor langer Zeit geschlossen wurde, nach der Großen Teilung, als die Nachtelfen auf dem Hyjal einen Weltenbaum pflanzten." },
+        { "Drei Drachen segneten diesen Baum. Alexstrasza setzte die Eichel in die Wasser des neuen Brunnens der Ewigkeit. Nozdormu versprach, dass die Nachtelfen, solange er stand, nie alt würden oder erkrankten. Ysera band ihn an ihren Traum. Der Preis war der Schlaf der Druiden. Malfurion und seine Anhänger willigten ein, jahrhundertelang am Stück im Winterschlaf zu verbringen, während ihre Geister über die Traumpfade wanderten, und sie hielten den Handel." },
+        { "Darum sind die Grabhügel von Moonglade voller Schläfer, und darum erwacht ein Druide, der im Traum gewandelt ist, vielleicht mit dem Blick eines Reisenden, der von sehr weit her zurückkehrt. In letzter Zeit erwachen sie beunruhigt. Etwas Dunkles ist in den Traum gekommen, und Remulos, der Moonglade hütet, sagt nicht, was." },
       },
     },
     ["the-fallen-hero"] = {
@@ -4449,6 +4557,13 @@ ns.translate({
       text = {
         { "Die Scherwindklippe ist das große Holzfäller- und Bergbaulager der Venture Co. im Norden des Steinkrallengebirges, ein Tal aus Baumstümpfen, Sägen, Wasserrädern und Schreddern, den menschenförmigen Maschinen, die Bäume schneller fällen als jede Mannschaft. Über allem, nahe dem großen Rad, lebt sein Aufseher, Gerenzo Wrenchwhistle, ein Goblin, der inzwischen mehr Metall als Fleisch ist." },
         { "Das verbrannte Tal im Süden ist, was die Gesellschaft zurücklässt: ein ganzer Wald, niedergebrannt. Die Druiden wollen ihn neu pflanzen, die Schamanen wollen die Maschinen aufhalten, und selbst einige der eigenen Ingenieure der Gesellschaft haben angewidert gekündigt." },
+      },
+    },
+    ["winterspring"] = {
+      title = "Winterspring",
+      text = {
+        { "Winterspring ist das hohe, verschneite Tal nördlich des Teufelswalds und östlich von Moonglade, ein Land aus tiefem Schnee, gefrorenen Seen und heißen Quellen, die in der Kälte dampfen. Frostsäbler jagen hier, und Eulen, Yetis, Riesen und die Wildekin. Die Nachtelfen ziehen ihre Frostsäbler am Frostsäblerfelsen auf, und die Druiden halten ein Dorf in Starfall." },
+        { "Die Furbolgs des Stammes der Winterfelle trinken ein verderbtes Feuerwasser, das aus dem Teufelswald heraufgebracht wird, und werden davon wahnsinnig. Die blauen Drachen haben ihren Hort in den Höhlen von Mazthoril, und die Goblins von Everlook verkaufen an der Wegkreuzung alles an jeden." },
       },
     },
     ["zaetar-and-theradras"] = {
