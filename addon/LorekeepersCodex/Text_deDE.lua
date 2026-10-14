@@ -2300,6 +2300,14 @@ ns.translate({
         { "Die Befehle betreffen mehr als Übungen. Troggs der Felsenkiefer bedrohen das Tal, Trolle der Frostmane haben in der Nähe ein Lager aufgeschlagen, und Balir Frosthammer und Grelin Whitebeard brauchen Hilfe gegen sie. Haltet Eure Waffe bereit, $gReisender:Reisende;. Die Rekruten werden gebraucht, bevor sie das Tal überhaupt verlassen haben." },
       },
     },
+    ["daelin-proudmoore"] = {
+      title = "Daelin Proudmoore",
+      text = {
+        { "Daelin Proudmoore, Lordadmiral von Kul Tiras, war ein Held des Zweiten Krieges: Er befehligte die Flotten der Allianz an der Seite von Anduin Lothar und Uther Lightbringer, und er vergab den Orcs nie. Er hatte auch eine Tochter, Jaina, die nach Dalaran ging, um Magie zu studieren." },
+        { "Er segelte mit seiner Flotte aus Lordaeron fort, bevor Arthas es zerstörte, suchte die Meere nach Überlebenden ab und fand nach vielen Monaten Kalimdor, und seine Tochter, im Frieden mit der Horde. Das wollte er nicht hinnehmen. Er setzte seine Marinesoldaten an der Küste von Durotar an Land, errichtete diese Burg und machte sich daran, die Orcs zu vernichten, bevor sie Wurzeln schlagen konnten." },
+        { "Jaina musste zwischen ihrem Vater und dem Frieden wählen, und sie wählte den Frieden. Daelin starb in den Kämpfen, bevor sie sich versöhnen konnten. Seine Flotte liegt als Wrack vor diesem Strand, und ein paar seiner Männer halten noch immer die Burg, mitten in einem Land, das nach einem Orc benannt ist." },
+      },
+    },
     ["dagran-thaurissan"] = {
       title = "Imperator Dagran Thaurissan",
       text = {
@@ -2328,6 +2336,13 @@ ns.translate({
       text = {
         { "Dunkelhain ist die einzige Stadt, die im Dämmerwald übrig ist, ein Haufen Häuser, ein Rathaus und ein Gasthaus hinter Laternen, die Tag und Nacht brennen. Ihr Oberbürgermeister Ello Ebonlocke regiert sie mit einem Rat, und seine Verwandten befehligen die Nachtwache. Eine Historikerin, Sirra Von'Indi, führt ihre Aufzeichnungen und übersetzt alles, was Ihr bringt, irgendwann." },
         { "Es ist eine Stadt grimmiger Leute und grimmiger Witze, und mehr Geschichten, als eine Stadt dieser Größe haben sollte. Fragt die alte Wahrsagerin Madame Eva nach irgendeiner davon. Sie weiß schon, nach welcher Ihr fragen werdet." },
+      },
+    },
+    ["darkspear-trolls"] = {
+      title = "Die Dunkelspeertrolle",
+      text = {
+        { "Die Dunkelspeer sind Dschungeltrolle, verwandt mit den Gurubashi des Schlingendorntals. Als Thralls Flotte auf ihrer Reise nach Kalimdor ihre Inseln erreichte, kämpfte der Stamm gegen Murlocs und ihre Meerhexe. Die Orcs kämpften an ihrer Seite. Häuptling Sen'jin starb, und die überlebenden Dunkelspeer folgten Thrall über das Meer." },
+        { "Vol'jin führt sie nun von Orgrimmar aus, nah beim Kriegshäuptling. Ihre Jäger, Schamanen und Hexendoktoren dienen überall in der Horde und halten an den alten Loa der Trolle fest, während sie sich unter neuen Verbündeten ein Zuhause schaffen." },
       },
     },
     ["darrowshire"] = {
@@ -2407,6 +2422,14 @@ ns.translate({
         { "Die Frostwolf halten im Alteractal ein Grab für Durotan. Ihr Scharfseher Drek'Thar schrieb die Worte darauf: der tapferste ihrer Art, verraten von denen, die die Orcs versklavt sehen wollten. Der Vater des Kriegshäuptlings, $gReisender:Reisende;, hat nie gesehen, was aus seinem Sohn wurde. Die Frostwolf sorgen dafür, dass das Volk seines Sohnes weiß, wessen Sohn er ist." },
       },
     },
+    ["durotar"] = {
+      title = "Durotar",
+      text = {
+        { "Durotar ist ein hartes Land: rote Erde, roter Fels, Dornen und Skorpide, von der Sonne verbrannt und von trockenen Schluchten zerschnitten, mit dem Meer auf der einen Seite und den langen Ebenen des Brachlands auf der anderen. Die Orcs wählten es trotzdem. Thrall benannte es nach seinem Vater Durotan, dem Häuptling des Frostwolfklans, der ermordet wurde, bevor sein Sohn ihn kennen konnte." },
+        { "Die Horde kam nach dem letzten Krieg hierher, nachdem sie aus den Lagern Lordaerons über das Meer gesetzt und am Hyjal an der Seite der Nachtelfen und Menschen gekämpft hatte. Lange ließ man sie nicht in Frieden: Admiral Daelin Proudmoore von Kul Tiras, Jaina Proudmoores Vater, schickte seine Flotte gegen die Orcs und wurde geschlagen. Seither bauen die Orcs: Orgrimmar im Norden, den Klingenhügel an der Straße, Sen'jin für ihre Verbündeten, die Trolle." },
+        { "Das Land haben sie noch nicht ganz gesäubert. Zentauren fallen von Westen her ein, Stacheleber halten den Süden, und in den Höhlen der Knochenhöhle, in Sichtweite der Hauptstadt, verehrt die Burning Blade die Dämonen, die die Orcs einst versklavten. Durotar ist jung, und es weiß es." },
+      },
+    },
     ["duskwood"] = {
       title = "Dämmerwald",
       text = {
@@ -2421,12 +2444,27 @@ ns.translate({
         { "Die Kapelle des hoffnungsvollen Lichts beherbergt im Osten die Argentumdämmerung. Der Scharlachrote Kreuzzug hält Tyrs Hand im Südosten. Tirion Fordring lebt im Exil am Thondroril, und Nathanos Blightcaller bewohnt sein altes Bauernhaus in Marris' Siedlung. Diese verstreuten Bewohner verfolgen sehr verschiedene Ziele." },
       },
     },
+    ["echo-isles"] = {
+      title = "Die Echoinseln",
+      text = {
+        { "Die Echoinseln sollten die neue Heimat der Dunkelspeertrolle werden, eine Handvoll Dschungelinseln vor der Küste von Durotar, ganz ähnlich denen, die sie verlassen hatten. Ein Hexendoktor namens Zalazane änderte das. Er wandte sich dunkler Magie zu, verhexte sein eigenes Volk und zwang es unter seinen Willen, und die treuen Dunkelspeer mussten von den Inseln aufs Festland fliehen." },
+        { "Zalazane herrscht noch immer über die Inseln, und von dort schickt er seine gebannten Trolle übers Wasser, um weitere vom Stamm unter seinen Einfluss zu ziehen. Seine Opfer ruhen nicht immer, wenn sie sterben: Die Seelen mancher, sagen die Trolle, sind in ihren eigenen Schädeln gefangen, in einem Kreis der Macht auf der größten Insel." },
+      },
+    },
     ["edwin-vancleef"] = {
       title = "Edwin van Cleef",
       text = {
         { "Edwin van Cleef war der Meister der Steinmetzgilde, der Mann, der Stormwind wiederaufbaute, und als die Adligen sich weigerten, seine Steinmetze zu bezahlen, stellte er sich zu den Männern, die unter ihm gearbeitet hatten. Er führte sie in einem Aufruhr durch die Straßen, die sie gebaut hatten, und hinaus aus der Stadt, und in Westfall wurde die Gilde zur Bruderschaft der Defias." },
         { "Er führt sie noch immer, von seinem Schiff in der Tiefe der Todesminen aus, und er hat Stormwind nie vergeben. Bei seiner Leiche fanden diejenigen, die ihn schließlich erreichten, einen Brief an den Stadtarchitekten, versiegelt und nie abgeschickt, und er führte sehr weit, bis in die Gärten der königlichen Burg." },
         { "Ich habe versucht, gerecht über ihn zu schreiben. Ihm wurde Unrecht getan, und er tat großes Unrecht zurück, und die Bauern von Westfall zahlten für beides." },
+      },
+    },
+    ["eitrigg"] = {
+      title = "Etrigg",
+      text = {
+        { "Etrigg berät Thrall in Orgrimmar, ein alter Krieger mit Wissen, das die neue Horde noch braucht. Als Kriegsherr Goretooth erfuhr, dass Rend Blackhand noch lebte, schickte er Abenteurer, um Etrigg über die Blackrock zu befragen." },
+        { "Rivalitäten unter den Anführern der Horde hatten Etrigg seine Söhne gekostet und ihn von ihren Kriegen fortgetrieben. Als er allein nahe Hearthglen lebte, kämpfte er gegen Tirion Fordring und rettete den Paladin dann aus einem einstürzenden Turm. Tirion verteidigte ihn später auf Kosten seines Ansehens in der Silbernen Hand." },
+        { "Während Thralls Angriff auf Stratholme befreite Tirion Etrigg. Vor der Stadt bat Thrall ihn, die alten Wege der Horde wiederherzustellen, und er nahm an." },
       },
     },
     ["elwynn-forest"] = {
@@ -2955,6 +2993,14 @@ ns.translate({
         { "Thrall fand ihn dort. Der alte Kriegshäuptling, der Freund seines Vaters, folgte dem jungen und fiel bei der Befreiung eines der Lager. Thrall nahm seinen Hammer und seine schwarze Rüstung auf und wurde Kriegshäuptling. Dieser Ort trägt seinen Namen, und ebenso die Hauptstadt der Horde. Man erinnert sich an ihn als den Kriegshäuptling, der einen Krieg verlor und trotzdem dafür sorgte, dass am Ende noch eine Horde übrig war." },
       },
     },
+    ["orgrimmar"] = {
+      title = "Orgrimmar",
+      text = {
+        { "Orgrimmar ist die Hauptstadt der Horde, in einer großen Schlucht im Norden von Durotar erbaut und nach Orgrim Schicksalshammer benannt, dem Kriegshäuptling, der die Horde im Zweiten Krieg führte und im Kampf um ihre Befreiung aus den Lagern starb. Thrall trägt noch immer seinen Hammer. Die Goblins halfen beim Bau, und das merkt man: Alles ist Holz, Stacheln und Häute auf Stein, heiß wie eine Schmiede und laut wie ein Kriegslager." },
+        { "In ihrem Herzen steht die Feste Grommash, benannt nach Grom Hellscream, der das Blut des Dämons Mannoroth trank und sein Volk verdammte, und der dann Mannoroth mit seiner eigenen Axt tötete und es befreite. Im Tal der Geister halten die Schamanen und die Trolle ihre Feuer, und in der Kluft der Schatten, so sagt man mir, gibt es Hexenmeister, die die Horde eher duldet, als ihnen zu vertrauen." },
+        { "Es ist keine Stadt, die Zwerge willkommen heißt. Aber es ist eine echte Stadt, und die Orcs haben sie in einer Handvoll Jahren aus dem Nichts erbaut, was man von den meisten nicht sagen kann." },
+      },
+    },
     ["parqual-fintallas"] = {
       title = "Parqual Fintallas",
       text = {
@@ -3000,6 +3046,13 @@ ns.translate({
         { "Ihre Heimat liegt jenseits der Pestländer, von der Geißel verwüstet. Hier bleibt die Hütte ein Ort der Verständigung, mit Gesandten, die Beziehungen zu anderen Völkern suchen." },
       },
     },
+    ["ragefire-chasm"] = {
+      title = "Ragefireabgrund",
+      text = {
+        { "Unter Orgrimmar liegen Höhlen aus Feuer und geschmolzenem Gestein, und die Horde hat ihre Hauptstadt darüber gebaut, ohne, wie es scheint, sehr genau hinzusehen. Zuerst kamen Troggs durch sie herauf. Dann die Sengklinge: ein Kult der Burning Blade, der sich in den Tiefen direkt unter den Füßen des Kriegshäuptlings eingerichtet hat, mit einem Dämon namens Taragaman der Hungerleider unter ihnen." },
+        { "Thralls Volk hat die Jungen der Horde hinabgeschickt, um ihn zu säubern. Mir fallen wenige bessere Lektionen darüber ein, worauf eine Hauptstadt gebaut ist." },
+      },
+    },
     ["ragnaros"] = {
       title = "Ragnaros",
       text = {
@@ -3034,6 +3087,13 @@ ns.translate({
       text = {
         { "Razelikh der Entweiher ist ein Dämon, der von einem Hort auf dem Gipfel des höchsten Berges der Verwüsteten Lande aus herrscht, mit drei Leutnants unter sich: Grol dem Zerstörer, Lady Sevine und Erzmagier Allistarj. Sie nahmen die Krieger des gefallenen Helden der Horde und banden ihre Geister in Steine der Qual." },
         { "Der gefallene Held hat Reisende ausgeschickt, um seine Männer zu befreien, die drei Leutnants zu töten und ihre Amulette zu nehmen, und mit dem wieder ganzen Amulett zu Razelikhs Altar hinaufzusteigen und den Dämon herauszufordern. Sein Horn, sagt er, wird der Beweis sein, dass es in dieser vom Krieg zerrissenen Welt noch Helden gibt." },
+      },
+    },
+    ["razor-hill"] = {
+      title = "Klingenhügel",
+      text = {
+        { "Der Klingenhügel ist eine Garnisonsstadt an der Straße vom Tal der Prüfungen nach Orgrimmar: eine Kaserne, ein Gasthaus, ein Wachturm und eine Palisade aus angespitztem Holz auf einem Hügel über dem Meer. Sein Befehlshaber Gar'Thok hält ihn für den Kriegshäuptling und verbringt die meisten seiner Tage damit, alles abzuwehren, was aus den Schluchten heraufkommt oder von der Küste hereindrängt." },
+        { "Gleich südlich liegt Burg Tiragarde, wo sich die Leute von Kul Tiras noch an die Küste von Durotar klammern, und das Wrack der Flotte ihres Admirals verrottet vor dem Strand. Die Grunzer des Klingenhügels behalten beides genau im Auge." },
       },
     },
     ["red-dragonflight"] = {
@@ -3130,6 +3190,13 @@ ns.translate({
       text = {
         { "Die Sengende Schlucht liegt nördlich des Blackrock, ein Becken aus Asche und Schlacke, von Klippen umschlossen. Wege aus Loch Modan und dem Ödland führen hinein. Einst war dies grünes Land, verbrannt, als Thaurissan Ragnaros herbeirief. Noch immer steigt Rauch aus dem auf, was der Feuerlord zurückließ." },
         { "Dunkeleisenzwerge bearbeiten die große Grube, die man den Kessel nennt, mit Sklaven und Golems. Feuerelementare ziehen über die Schlacke, und der Twilight-Hammer hält einen Altar in den nordwestlichen Hügeln. Über der Grube halten abtrünnige Dunkeleisenzwerge ein eigenes Lager. Von ihren Klippen aus könnt Ihr viel vom Land sehen, $gReisender:Reisende;, auch wenn wenig von der Aussicht einen behaglichen Anblick bietet." },
+      },
+    },
+    ["senjin-village"] = {
+      title = "Sen'jin",
+      text = {
+        { "Sen'jin ist die Heimat der Dunkelspeertrolle an der Küste von Durotar, eine Siedlung aus Hütten und Wachtürmen, die über die Meerenge zu den Echoinseln blickt. Sie ist nach Sen'jin benannt, dem alten Hexendoktor und Häuptling der Dunkelspeer, der Thrall willkommen hieß, als die Flotte der Orcs an seinen Inseln anlegte, und der in den folgenden Kämpfen von den Dienern einer Meerhexe getötet wurde." },
+        { "Sein Sohn Vol'jin führt den Stamm heute. Die Trolle wollten auf den Echoinseln leben, doch einer ihrer eigenen Hexendoktoren wurde dort wahnsinnig, und seither drängen sich die Dunkelspeer auf diesem Küstenstreifen und blicken übers Wasser auf die Heimat, die sie verloren haben." },
       },
     },
     ["sentinel-hill"] = {
@@ -3449,6 +3516,15 @@ ns.translate({
         { "Sie wissen, wie man die Waffen und Rüstungen des Feuerlords schmiedet, vorausgesetzt, jemand bringt die Materialien aus dem Inneren des Berges. Einer von ihnen handelt sogar in der Taverne der Schattenschmiede, unter der Nase des Imperators. Wenn Ihr ihre Arbeit sucht, $gReisender:Reisende;, bringt, was sie brauchen. Ihr Streit mit ihren alten Verwandten hat ihr Können nicht geschmälert." },
       },
     },
+    ["thrall"] = {
+      title = "Thrall",
+      text = {
+        { "Thrall ist der Kriegshäuptling der Horde, und sein Leben liest sich wie eine Ballade, die niemand glauben würde. Er war der Sohn Durotans, des Häuptlings der Frostwolf, als Säugling neben seinen ermordeten Eltern gefunden und als Sklave und Gladiator in Burg Durnholde von deren Herrn aufgezogen, Lord Aedelas Blackmoore, der ihn zum General eines zahmen Orcheeres machen wollte. Man gab ihm den Namen Thrall, was Sklave bedeutet, und er behielt ihn." },
+        { "Er entkam mit der Hilfe eines menschlichen Mädchens, das sich mit ihm angefreundet hatte, fand den Klan seines Vaters in den Bergen von Alterac und lernte die Wege des Schamanen. Dann brach er mit Grom Hellscream und dem alten Kriegshäuptling Orgrim Schicksalshammer die Internierungslager auf und befreite sein Volk. Schicksalshammer fiel in diesem Krieg und hinterließ Thrall die Horde und seinen Hammer." },
+        { "Er führte die Horde über das Meer nach Kalimdor, kämpfte an der Seite der Nachtelfen und der Menschen gegen die Brennende Legion und baute Durotar auf. Er will Frieden mit der Allianz und hat ihn mit Jaina Proudmoore von Theramore geschlossen. Ob der Rest der Allianz ihn will, ist eine andere Frage." },
+        { side = "Horde", aside = true, sign = "P. F.", "Lordaeron machte ihn zum Sklaven, und er fand in seiner Horde trotzdem Platz für die Toten Lordaerons. Ich bin nicht sicher, ob ich das getan hätte." },
+      },
+    },
     ["thule-ravenclaw"] = {
       title = "Thule Rabenklaue",
       text = {
@@ -3462,6 +3538,13 @@ ns.translate({
         { "Die Jäger von Kharanos nennen ihn Holzplanke: ein Wolf, größer als seine Artgenossen, mit einem lästigen Verständnis für Fallen. Sie sagen, er wähle sein Gelände und kehre auf seiner eigenen Fährte um. Jeder Jäger, der auf ihn angesetzt wurde, hat erleben müssen, dass die Beute ihn überdauerte." },
         { "Wölfe beschäftigen eine königliche Chronik selten. Dieser hier hat gute Gründe für seine Aufnahme geliefert, auch wenn ich bezweifle, dass er die Ehre zu schätzen wüsste." },
         { "Wenn Ihr ihn getötet habt, $gReisender:Reisende;, schreibt auf, was geschehen ist, solange Ihr Euch erinnert. Die Jäger werden schon bald ihren eigenen Bericht haben." },
+      },
+    },
+    ["tiragarde-keep"] = {
+      title = "Burg Tiragarde",
+      text = {
+        { "Burg Tiragarde ist eine Festung von Kul Tiras an der Küste von Durotar, und sie sollte überhaupt nicht hier sein. Als die Horde sich in ihrem neuen Land niedergelassen hatte, brachte Admiral Daelin Proudmoore, Herr des Inselkönigreichs Kul Tiras, seine Flotte über das Meer, um den Krieg zu beenden, den sein Volk nie vergeben hatte, entgegen dem Frieden, den seine eigene Tochter am Hyjal mit Thrall geschlossen hatte. Er wurde geschlagen und getötet, und seine Flotte liegt als Wrack vor diesem Strand." },
+        { "Die Burg fiel mit ihm. Doch einige seiner Männer blieben, und unter einem Lieutenant Benedict und einem Wachkommandanten namens Zalaphil haben sie sie zurückerobert und befestigt, eine Handvoll Leute aus Kul Tiras mitten in der Heimat der Horde. Die Orcs vom Klingenhügel nennen sie Verräter. Die Leute von Kul Tiras würden über Theramore ziemlich dasselbe sagen." },
       },
     },
     ["tirion-fordring"] = {
@@ -3533,12 +3616,26 @@ ns.translate({
         { "Haltet an und schaut hinauf, $gReisender:Reisende;. Bronzebeard und Wildhammer stehen hier Seite an Seite, wie sie es seither kaum irgendwo sonst getan haben." },
       },
     },
+    ["valley-of-trials"] = {
+      title = "Das Tal der Prüfungen",
+      text = {
+        { "Im Tal der Prüfungen werden die Jungen der Horde geprüft: Orcs und Trolle gleichermaßen, hinausgeschickt zwischen die Eber und Skorpide der Schlucht, um zu zeigen, was in ihnen steckt. Es ist ein enger, sonnenverbrannter Ort südlich des Klingenhügels, und seine Prüfungen sollen hart sein." },
+        { "Nicht alle seine Gefahren sind Tiere. In den Höhlen des Tals hat die Burning Blade ihre Kultisten und ihre Wichtel versteckt, nah genug an den eigenen Jungen der Horde, um beleidigend zu sein, und die erste Lektion, die viele Orcs lernen, ist, dass der älteste Feind ihres Volkes manchmal das Gesicht eines Orcs trägt." },
+      },
+    },
     ["varimathras"] = {
       title = "Varimathras",
       text = {
         { "Als Arthas nach Nordend aufbrach, herrschten Varimathras und seine Brüder, die Schreckenslords, über die Ruinen Lordaerons. Sylvanas, gerade erst frei von der Kontrolle des Lichkönigs, besiegte ihn und ließ ihm die Wahl zwischen Dienst und Tod. Er wählte den Dienst und half ihr dann, sich gegen seine Brüder zu wenden." },
         { "Heute steht er an der Seite der Bansheekönigin in Undercity. Es ist eine eindrucksvolle Partnerschaft, auch wenn ihr Anfang wenig Beruhigendes über die Treue beider Seiten verrät. Varimathras fand einen Weg, einen Wechsel des Herrn zu überleben. Sylvanas hat ihn dort behalten, wo sie ihn sehen kann." },
         { side = "Horde", aside = true, sign = "P. F.", "Wir gehen im Königsviertel an ihm vorbei und sagen nichts. Ich bin mir weniger sicher als die Dunkle Fürstin, dass ihn in der Nähe zu halten dasselbe ist, wie ihn treu zu halten." },
+      },
+    },
+    ["voljin"] = {
+      title = "Vol'jin",
+      text = {
+        { "Vol'jin führt die Dunkelspeer und ist ein Schattenjäger, einer ihrer Priesterkrieger, die mit den Loa wandeln. Sein Vater Sen'jin starb in den Kämpfen auf den Inseln, wo Thralls Flotte zuerst auf den Stamm traf. Vol'jin hat das Versprechen seines Vaters an die Horde gehalten." },
+        { "Er bleibt in Thralls Nähe in Orgrimmar, während sein Volk Sen'jin hält und darauf blickt, die Echoinseln zurückzugewinnen. Ein Reisender, der den Anführer der Dunkelspeer sucht, findet ihn also in der Hauptstadt, die verlorene Heimat des Stammes noch immer unter seinen Sorgen." },
       },
     },
     ["war-of-the-three-hammers"] = {
