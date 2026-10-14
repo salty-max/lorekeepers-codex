@@ -2294,6 +2294,13 @@ ns.translate({
         { "Ich sage nicht, dass sie unrecht hatten. Ich war nicht dabei. Aber ich wüsste sehr gern, was ein Irdener schlafend in einem Fass unter dem Steinkrallengebirge tat, und wer ihn dort hineingelegt hat." },
       },
     },
+    ["brackenwall-village"] = {
+      title = "Brackenwall",
+      text = {
+        { "Brackenwall ist das Lager der Horde in Dustwallow, gehalten von Orcs und von den Ogern des Klans der Stonemaul. Die Stonemaul sind Verbündete der Horde, dank dem Tiermeister Rexxar, der ihren Oberherrn Mok'Morokk zum Anführer des Klans machte. Die Oger erzählen es Euch, und zwar häufig." },
+        { "Sie kamen nach Brackenwall, weil sie mussten. Onyxias Brut fiel über ihre alte Heimat im Süden der Marsch her und brannte sie aus, und das klügste Mitglied des Klans, ein zweiköpfiger Oger, der besser spricht als die meisten Zwerge, versucht herauszufinden, warum. Die Horde wüsste auch gern, warum die Tochter Todesschwinges sich für eine kleine Schar Oger interessiert." },
+      },
+    },
     ["brill"] = {
       title = "Brill",
       text = {
@@ -2321,6 +2328,13 @@ ns.translate({
         { "Cairne Bloodhoof ist der Oberhäuptling der Tauren, Häuptling des Stammes der Bloodhoof und der älteste Freund, den die Horde in Kalimdor hat. Als Thralls Orcs an Land kamen, führte er sein Volk über die Ebenen, mit den Zentauren auf den Fersen, und die Orcs kämpften an ihrer Seite. Cairne vergalt es ihnen mit Freundschaft und Rat, und seither gehören die Tauren zur Horde." },
         { "Er ist heute sehr alt und sehr groß, und er spricht langsam und selten. Er erbaute Thunder Bluff, versammelte die Stämme dort und gab den Tauren zum ersten Mal, seit sie sich erinnern, eine Heimat. Sein Sohn Baine hält Bloodhoof, und einmal, so sagt man, wurde er von den Zentauren verschleppt und von einem Tiermeister der Horde zurückgebracht." },
         { "Die Orcs verehren ihn, und die Allianz traut ihm weiter als jedem anderen Anführer der Horde. Beide, so glaube ich, haben recht." },
+      },
+    },
+    ["camp-mojache"] = {
+      title = "Camp Mojache",
+      text = {
+        { "Camp Mojache ist das Lager der Horde im Osten von Feralas, ein Ring aus Taurenzelten und Totems auf einem Hügel zwischen den riesigen Bäumen, nahe der Straße nach Düsterbruch. Die Tauren hier beobachten die Oger der Gordunni, deren Zahl wächst, und ihre Vettern, die Grimmtotem, in den Hügeln im Süden, die keine Freunde von Thunder Bluff sind." },
+        { "Die Weisen des Lagers haben ihr eigenes Interesse an den Ruinen. Sie suchen einen elfischen Meister, der mit uralten Artefakten vor dem Fall von Quel'Thalas floh, und sie glauben, er sei nach Düsterbruch gegangen." },
       },
     },
     ["camp-narache"] = {
@@ -2441,6 +2455,13 @@ ns.translate({
         { "Es gehört, wenn es überhaupt jemandem gehört, den Zentauren, deren Klans einander über das ganze Land hinweg bekämpfen und deren heiligster Ort, Maraudon, in seinem Südwesten liegt. Die Burning Blade hält eine Festung im Norden und öffnet Dämonen die Türen, Naga spuken an der Küste, und die Allianz und die Horde halten je einen kleinen, nervösen Außenposten. Es ist kein Land, das irgendwer liebt." },
       },
     },
+    ["dire-maul"] = {
+      title = "Düsterbruch",
+      text = {
+        { "Düsterbruch war Eldre'Thalas, eine Stadt der Hochgeborenen, in den Tagen Königin Azsharas erbaut, um ihre kostbarsten arkanen Geheimnisse zu bewahren. Sie überstand die Große Teilung, und vieles davon steht noch, eine Stadt aus weißem Stein im Wald, ihre Hallen voller Bücher und Geister." },
+        { "Heute ist sie in drei Teile zerbrochen. Die Oger der Gordok halten den Norden und krönen einen neuen König, wann immer der alte getötet wird. Der Satyr Alzzin der Wildformer hält den Osten und hat die Frucht der Fruchtbarkeit der Stadt zu einem üblen Ding verdorben, das man die Teufelsranke nennt. Der Westen wird noch von den Letzten der Hochgeborenen gehalten, den Shen'dralar, rund um ihre Bibliothek, die ich für sehr viel gern lesen würde." },
+      },
+    },
     ["dragonmaw-clan"] = {
       title = "Der Dragonmawklan",
       text = {
@@ -2508,6 +2529,13 @@ ns.translate({
       text = {
         { "Südlich von Elwynn rücken die Bäume zusammen, das Licht wird grau, und Ihr seid im Dämmerwald. Einst war er Teil desselben grünen Waldes. Menschen lebten und ackerten hier wie in Elwynn. Dann senkte sich eine Dunkelheit über diese Wälder, die sich nie wieder gehoben hat. Niemand in Dunkelhain kann Euch mit Gewissheit sagen, warum, auch wenn viele nach Osten blicken, zu den toten Landen des Gebirgspasses der Totenwinde und dem Turm, der dort steht." },
         { "Was die Dunkelheit brachte, ist klar genug. Die Toten erheben sich auf dem Friedhof von Rabenflucht, Worgen jagen in den Wäldern, Spinnen werden so groß wie Ponys, und Oger sind in die Hügel gezogen. Die Höfe sind verlassen, und wer geblieben ist, hat sich hinter den Laternen von Dunkelhain unter seiner eigenen Miliz versammelt, denn Stormwind hat seine Wachen abgezogen. Es ist ein Ort für mutige Reisende und für Geschichten, die man bei verriegelter Tür am Feuer erzählt." },
+      },
+    },
+    ["dustwallow-marsh"] = {
+      title = "Marschen von Dustwallow",
+      text = {
+        { "Die Marschen von Dustwallow sind ein weiter, nasser Sumpf an der Ostküste Kalimdors, südlich des Brachlands: Schilf, schwarze Tümpel, Krokilisken, Raptoren und sehr viel Nebel. Auf einer Insel vor ihrer Küste steht Theramore, die Stadt der Menschen von Lady Jaina Proudmoore, und im Süden des Sumpfes liegt der Drachensumpf, wo Onyxia ihren Hort hat." },
+        { "Zwischen ihnen liegen die Oger von Brackenwall, die der Horde dienen, die verbrannte Ruine eines Gasthauses, über die jeder eine Theorie hat, und sehr viele schwarze Drachen. Es ist eine Marsch, in der die Allianz und die Horde vereinbart haben, als Nachbarn zu leben, und in der beide sehr genau hinsehen." },
       },
     },
     ["earth-mother"] = {
@@ -2592,6 +2620,20 @@ ns.translate({
       text = {
         { "Jäger versammeln sich in der Weitschreiter-Lodge im Südosten von Loch Modan. Marek Ironheart handelt mit Krokiliskenfleisch und -häuten, während Daryl der Jüngling jedem Herausforderungen stellt, der seine Geschicklichkeit erproben will. Hier gibt es reichlich Arbeit für einen Bogen und keinen Mangel an Gesprächen darüber, wer ihn am besten führt." },
         { "Vyrin Swiftwind schlägt eine andere Prüfung vor. Sie will Old Sooty tot sehen, als Teil eines Plans, Daryls Prahlerei bloßzustellen. In der Lodge lernt Ihr vielleicht etwas über die Jagd, $gReisender:Reisende;, aber Ihr lernt sehr viel über Jäger." },
+      },
+    },
+    ["feathermoon-stronghold"] = {
+      title = "Festung Feathermoon",
+      text = {
+        { "Die Festung Feathermoon steht auf der Insel Sardor vor der Küste von Feralas, mit dem Boot vom Festland aus zu erreichen. Generalin Shandris Feathermoon befehligt ihre Schildwachen von weißen Mauern über einem Hafen aus. Die Festung trägt ihren Namen." },
+        { "Ihre Soldaten stellen sich den Naga der Hasskämme bei Solarsal entgegen und beobachten die Oger des Waldes. Auch Gelehrte arbeiten zwischen den alten elfischen Ruinen von Feralas." },
+      },
+    },
+    ["feralas"] = {
+      title = "Feralas",
+      text = {
+        { "Feralas ist ein Land aus Regen und Riesen an der Westküste Kalimdors: ein Wald aus Bäumen, so hoch, dass ihre Kronen im Nebel verschwinden, mit uralten Ruinen zwischen ihren Wurzeln. Die Nachtelfen bauten hier lange vor der Großen Teilung, und ihre Steine sind überall, überwuchert und zerbrochen. Die Gelehrten von Feathermoon verbringen ihr Leben zwischen ihnen und können noch immer nicht sagen, was die Hälfte davon einmal war." },
+        { "Heute gehört der Wald den Ogern der Gordunni, deren wachsende Zahl die Siedlungen in der Nähe beunruhigt, Gnollen, Yetis, Naga an der Küste und den Grimmtotem in den Hügeln. Die Schildwachen halten eine Inselfestung vor der Küste, die Horde ein Lager im Osten, und im Herzen des Waldes steht die zerbrochene Stadt der Hochgeborenen, die die Oger Düsterbruch nennen." },
       },
     },
     ["franclorn-forgewright"] = {
@@ -2816,6 +2858,14 @@ ns.translate({
         { client = "forever", "Unter Alt-Ironforge liegt die Halle der Thanen. Eindringlinge der Dunkeleisenzwerge sind hineingebrochen, und Magni will den Kopf ihres Befehlshabers, Durgen Dirgehammer. Selbst hier können die ältesten Hallen einer Stadt zu ihrer neuesten Sorge werden." },
         { "Und dann ist da die Halle der Forscher, wo die Liga ihre Bibliothek und ihre Funde aufbewahrt: Relikte aus Uldaman, die Knochen von Tieren, die niemand lebend gesehen hat, und Karten von Orten, über die die meisten Zwerge nur je lesen werden. Was mich angeht, Ihr findet mich auf dem Hohen Sitz, wenige Schritte vom Thron des Königs entfernt. Besucht mich. Mir fehlt es immer an Leuten, die tatsächlich irgendwo gewesen sind." },
         { side = "Horde", aside = true, sign = "P. F.", "Sie meint die Einladung freundlich. Ich würde nicht raten, sie in den Farben der Horde anzunehmen." },
+      },
+    },
+    ["jaina-proudmoore"] = {
+      title = "Lady Jaina Proudmoore",
+      text = {
+        { "Jaina Proudmoore war eine junge Zauberin aus Dalaran, die Tochter des Admirals von Kul Tiras und in glücklicheren Tagen eine Freundin von Prinz Arthas. Als die Seuche kam, ritt sie an seiner Seite, bis Stratholme, wo sie ihm nicht folgen wollte. Dann schickte ein Prophet sie westwärts über das Meer, und sie führte, was von Lordaerons Volk übrig war, nach Kalimdor." },
+        { "Dort tat sie, was niemand in der Allianz für möglich gehalten hatte: Sie kämpfte am Hyjal an der Seite von Thrall und den Nachtelfen gegen die Brennende Legion und schloss danach Frieden mit der Horde. Als ihr Vater, Admiral Daelin Proudmoore, mit seiner Flotte kam, um den alten Krieg zu beenden, stellte sie sich der Horde nicht in den Weg, und er starb dafür. Das trägt sie seither mit sich." },
+        { "Den Frieden zu halten, war nicht leicht. Ein paar Jahre nach dem Hyjal hätten Überfälle und versenkte Schiffe Theramore und Durotar beinahe wieder aufeinander gehetzt, bis Jaina, still mit Thrall zusammenarbeitend, die Burning Blade dahinter fand und ihren eigenen Kämmerer in deren Sold. Die Suche führte sie in einen geschützten Winkel von Durotar, wo sie die Letzte traf, die sie lebend zu finden erwartet hätte: Aegwynn, die Wächterin, Medivhs Mutter, die allein lebte. Jaina herrscht noch immer über Theramore und hält den Frieden mit Thrall, und ich glaube, sie ist die tapferste Person in diesem Register." },
       },
     },
     ["jinthaalor"] = {
@@ -3143,6 +3193,20 @@ ns.translate({
         { "Jaina Proudmoore hat Frieden mit Thrall geschlossen, und doch gehen die Kämpfe um die Feste weiter. Ein Reisender an dieser Küste versteht, warum man die Vereinbarung einer Herrscherin und das Verhalten eines Soldaten beide festhalten muss, wenn man diesen Frieden beschreibt." },
       },
     },
+    ["onyxia"] = {
+      title = "Onyxia",
+      text = {
+        { "Onyxia, Tochter Todesschwinges und Schwester Nefarians, beriet als Lady Katrana Prestor jahrelang den Regenten von Stormwind. Sie bog den Willen des Königreichs und hielt seine Truppen zu Hause, während die Orcs ihres Bruders das Rotkammgebirge bedrohten. Marshal Windsor entlarvte sie vor dem Hof. Sie floh in die Marschen von Dustwallow." },
+        { "Ihr Hort ist eine andere Sache als ihr Platz bei Hof. Sie ist ein uralter, gewaltiger Drache, und Streiter beider Fraktionen suchen einen Weg hinein. Ein Reisender, der ihren menschlichen Namen kennt, weiß, warum er sich ihr entgegenstellen sollte. Ihre Höhle zu erreichen, lässt einen noch immer mit dem Drachen selbst zurück." },
+      },
+    },
+    ["onyxias-lair"] = {
+      title = "Onyxias Hort",
+      text = {
+        { "Onyxia hat ihren Hort im Drachensumpf, im Süden der Marschen von Dustwallow: eine große Höhle in den Klippen, mit den Eiern ihrer Brut darin und schwarzen Drachkin überall im Moor ringsum. Die Marsch zu durchqueren, ist der leichte Teil." },
+        { "Der Eingang ist gesichert, und nur ein Drachenfeueramulett öffnet den Weg. Allianz und Horde werden gleichermaßen auf den langen Umweg geschickt, um eines herzustellen: durch die Blackrockspitze, für das Blut von General Drakkisath, der die Drachen der Spitze befehligt. Der Weg der Horde führt außerdem an der Drachin Aschenschwinge vorbei, die mit einer Illusion getäuscht werden muss, doch es ist das Amulett, das Euch einlässt." },
+      },
+    },
     ["orgrim-doomhammer"] = {
       title = "Orgrim Schicksalshammer",
       text = {
@@ -3426,6 +3490,28 @@ ns.translate({
       text = {
         { "Shadra ist eine Spinnengöttin der Trolle, ein Loa des Gifts und der Netze, und die Witherbark verehren sie am Altar von Shadra'Alor im Hinterland. Sie ist kein Götzenbild. Sprecht die richtigen Worte an ihrem Altar, und sie kommt, so groß wie ein Haus." },
         { "Die Witherbark bewahren in ihren Dörfern Flaschen mit ihrem Gift auf, und die Apotheker der Verlassenen in Tarrens Mühle wollen es sehr dringend, was Euch verrät, was sie damit vorhaben. Mir wäre lieber, Shadra behielte ihr Gift." },
+      },
+    },
+    ["shady-rest-inn"] = {
+      title = "Das Gasthaus Zur süßen Ruh",
+      text = {
+        { "An der Straße zwischen dem Brachland und Theramore stand einst ein Gasthaus, Zur süßen Ruh, wo Reisende beider Fraktionen auf einen Trunk und ohne Fragen einkehrten. Es brannte nieder. Sein Gerippe steht noch an der Straße, und darum herum haben die Ermittler beider Seiten Dinge gefunden, die nicht zusammenpassen." },
+        { "Es gibt Hufspuren im Schlamm, die fortführen. Es gibt einen schwarzen Eisenschild, der am Schornstein befestigt ist. Und es gibt ein Abzeichen in der Asche, den goldenen Anker von Theramore, mit dem Namen eines Leutnants, eines Marinesoldaten aus Kul Tiras, der mit Lady Proudmoore über das Meer kam, als vermisst gilt und sich offenbar einer Bande von Deserteuren in der Marsch angeschlossen hat. Wer das Gasthaus Zur süßen Ruh niederbrannte und warum, weiß ich nicht. Ich vermute, jemand wollte, dass die Allianz und die Horde einander die Schuld daran geben." },
+      },
+    },
+    ["shandris-feathermoon"] = {
+      title = "Shandris Feathermoon",
+      text = {
+        { "Generalin Shandris Feathermoon befehligt die Schildwachen von der Festung aus, die ihren Namen trägt. Ihr Dienst an Tyrandes Seite begann im Krieg der Urtume, als sie ein Kind auf der Flucht aus Ara-Hinam war, von ihrer Familie getrennt und für eine Waise gehalten. Tyrande nahm sie in ihre Obhut." },
+        { "Shandris folgte ihr in die Gefahr, obwohl man ihr befohlen hatte zurückzubleiben. Einer ihrer Pfeile traf Xavius. Malfurion benutzte das Holz des steckengebliebenen Schafts, um den Satyr zu bezwingen. Das Kind hatte einen Anteil am Krieg, bevor irgendwer ihr freiwillig einen gegeben hätte." },
+        { "Sie hat seit der Großen Teilung und durch die Zeitalter seither an Tyrandes Seite gestanden. Heute liegt ihr Kommando weit von Darnassus entfernt, in Feralas." },
+      },
+    },
+    ["shendralar"] = {
+      title = "Die Shen'dralar",
+      text = {
+        { "Die Shen'dralar sind seit der Zeit vor der Großen Teilung in Eldre'Thalas geblieben. Vom Brunnen der Ewigkeit abgeschnitten, banden sie den Dämon Immol'thar mit fünf Pylonen unter ihrer Stadt. Seit Tausenden von Jahren zapfen sie seine Macht an, um sich selbst zu erhalten." },
+        { "Prinz Tortheldrin herrscht noch immer, umgeben von Hallen, in denen die Geister seines Volkes spuken. Manche Shen'dralar haben die Freiheit der Unsterblichkeit vorgezogen. Die Uralte Shen'dralar bittet um Tortheldrins Tod und um Frieden für die Geister, während die Hüter des Athenaeums Hilfe mit ihrem Wissen belohnen. Hier gibt es eine bemerkenswerte Bibliothek, doch die Geschichte, wie ihr Volk überlebte, verdient ebenso viel Aufmerksamkeit." },
       },
     },
     ["shimmering-flats"] = {
@@ -3750,6 +3836,13 @@ ns.translate({
         { "Thelsamar ist das Herz von Loch Modan: ein Dorf aus Steinhäusern an der Straße zwischen Ironforge und dem Sumpfland, mit einer Schmiede, einem guten Gasthaus und einem Greifenmeister für alle, die es eilig haben." },
         { "Es ist die Art von Ort, an dem jeder jeden kennt und die Neuigkeiten schneller reisen als die Greifen. Fragt im Gasthaus nach irgendetwas, das im Seenland geschieht, und Ihr hört es dreimal, jede Fassung besser als die letzte." },
         { "Die Gebirgsjäger hier sind dünn verteilt. Wenn Ihr einen starken Arm und einen freien Nachmittag habt, finden sie etwas für Euch zu tun." },
+      },
+    },
+    ["theramore-isle"] = {
+      title = "Die Insel Theramore",
+      text = {
+        { "Theramore ist die Stadt, die Jaina Proudmoore baute, als sie die Überlebenden Lordaerons über das Meer nach Kalimdor führte, ein Festungshafen aus weißem Stein auf einer Insel vor der Küste von Dustwallow. Es ist der stärkste Halt der Allianz auf dem Kontinent und der einzige Ort der Welt, an dem eine Herrscherin der Menschen einen dauerhaften Frieden mit der Horde geschlossen hat." },
+        { "Viele seiner Soldaten kamen mit Lady Proudmoore über das Meer, Marinesoldaten aus Kul Tiras darunter, und nicht alle haben ihren Frieden mit diesem Frieden gemacht. Theramore unterhält Wachtürme in der Marsch und ein Fort im Brachland, und seine Hauptleute haben mehr Rätsel auf ihren Schreibtischen, als ihnen lieb ist." },
       },
     },
     ["thoradins-wall"] = {
