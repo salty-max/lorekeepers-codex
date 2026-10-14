@@ -1,4 +1,12 @@
 {
+ "A Bloodstained Envelope": [
+  {
+   "first": "myemilyafewshortdaysagow",
+   "pages": [
+    "Ma chère Emily,\n\nIl y a à peine quelques jours que sur ordre du roi, nous avons levé le camp pour quitter cet endroit perdu et rentrer chez nous. J'avais le cœur léger malgré la désolation environnante, car je savais qu'au bout de la marche glacée jusqu'au rivage et du long et pénible voyage, je trouverais le réconfort de vos bras.\n\nAujourd'hui, nous sommes arrivés sur la côte pour constater que nos bateaux, notre seul moyen de retour, n'étaient plus que des coques carbonisées. Nous ne pouvons plus rentrer et notre seule alternative est de traverser le cœur de cet épouvantable désert.\n\nJe suis allé jusqu'à l'extrême bout du monde pour votre sécurité, Emily... et je regrette à présent de tout mon être de ne pas être resté en Lordaeron avec vous.\n\nJe ne cesse à chaque instant de penser à vous. Vous êtes mon réconfort sur cette terre gelée, la seule parcelle de chaleur que rien ni personne ne peut m'enlever.\n\nMaxwell"
+   ]
+  }
+ ],
  "A Bloodstained Journal Page": [
   {
    "first": "downwardspiralofdespairf",
@@ -7,11 +15,27 @@
    ]
   }
  ],
+ "A Careworn Note": [
+  {
+   "first": "dearestameliatonightihav",
+   "pages": [
+    "Ma chère Amelia,\n\nCette nuit, j'ai vu des choses qui me hanteront jusqu'à la fin des temps.\n\nStratholme est la proie des flammes et nous en sommes responsables.\n\nNotre prince nous a conduit dans les rues, ce soir, nous a ordonné de forcer les portes des maisons et de tuer les habitants dans leur sommeil. Selon le seigneur Arthas, ils étaient contaminés par le Fléau, et nous devions les tuer avant qu'ils ne nous tuent.\n\nCe fut un vrai massacre. Des centaines de personnes sont mortes en silence, passées au fil de l'épée par leurs protecteurs. Je n'ai pas pu le supporter ; je me suis enfui.\n\nJe suis peut-être un déserteur, mais je ne peux commettre de telles atrocités. Je voyais ton visage et celui de nos enfants sur les traits des agonisants. Si refuser d'obéir à ces ordres signifie que je suis un traître, qu'il en soit ainsi.\n\nJ'espère que je trouverai mon chemin pour te rejoindre, mais les routes ne sont pas sûres. Embrasse bien les enfants pour moi.\n\nJames"
+   ]
+  }
+ ],
  "A Clue to Sander's Treasure": [
   {
    "first": "goodworkmateynowyeneedto",
    "pages": [
     "Bon travail, matelot ! Maintenant il va falloir cingler vers l'est. A l'est, vers le haut des falaises, à l'est vers la route. Cherchez les ruines des vieilles cheminées, au bord de la route. Là, vous trouverez un vieux tonneau qui contient l'indice suivant."
+   ]
+  }
+ ],
+ "A Crumpled Missive": [
+  {
+   "first": "helianaivargusyetlivedes",
+   "pages": [
+    "Heliana,\n\nJe suis au regret de vous annoncer que contrairement à vos vœux, je suis encore en vie. Je déteste me traîner dans cette campagne boueuse avec une armure ridicule.\n\nNos ordres nous ont conduit vers Andorhal pour aller chercher du blé, ou un autre truc stupide de ce genre. Je me moque des réserves de nourriture d'Andorhal, ce trou perdu. Toute cette histoire d'engagement dans l'armée est grotesque.\n\nSoyez bien sûre, tante Heliana, que je reviendrais chercher votre héritage. Même si je devais être grièvement blessé et abandonné sans nourriture, je trouverais toujours dans votre contrariété la force de continuer.\n\nVargus"
    ]
   }
  ],
@@ -48,6 +72,14 @@
    ]
   }
  ],
+ "A Ragged Page": [
+  {
+   "first": "samlaaswefollowourlordar",
+   "pages": [
+    "Samla,\n\nNous suivons le seigneur Arthas vers le nord, encore et encore, et mon cœur s'alourdit de jour en jour.  La Lumière resplendissait autrefois sur le jeune paladin, mais je sens aujourd'hui que son esprit s'obscurcit. Son zèle est terni par de sombres ruminations, un cauchemar dans son âme que je ne peux deviner…\n\nNous allons bientôt débarquer  dans les steppes gelées. Alors qu'un grand nombre de ses hommes tombent malades à cause du froid et des batailles qu'ils mènent contre des bêtes putrides, Arthas nous a affirmé que ce qu'il cherchait dans les glaces changera le cours de la bataille. Mais ses paroles ne m'ont pas réconforté... Le sourire sinistre figé sur ses lèvres dédaigneuses après son discours m'a glacé plus profondément que ne l'aurait fait n'importe quel blizzard.\n\nPrie pour nous, Samla, et prie pour notre monde.\n\nTorgal"
+   ]
+  }
+ ],
  "A Short Note": [
   {
    "first": "curgleihavebeeneagerlyaw",
@@ -56,11 +88,27 @@
    ]
   }
  ],
+ "A Smudged Document": [
+  {
+   "first": "dearpamelatomorrowwemake",
+   "pages": [
+    "Ma chère Pamela,\n\nDemain, nous livrerons enfin bataille à Andorhal, et j'ai bien peur que ce soit la dernière lettre que je puisse t'envoyer, mon amour. Les morts-vivants ne se fatiguent jamais, et nous ne sommes que de pauvres êtres humains. Nous ne pourrons pas tenir contre eux. Mais ne te fais pas trop de souci, car même si nous sommes certains de périr, nous gardons espoir. La Lumière vaincra !\n\nEt, mon cœur, je trouve un grand réconfort en sachant que lorsque ces sombres terreurs emporteront nos murs et nous écraseront sous leur nombre, mes dernières pensées ne seront pas tournées vers la mort. Je penserai à toi dans mes bras, et je connaîtrai enfin la paix.\n\nChristoph"
+   ]
+  }
+ ],
  "A Torn Journal Page": [
   {
    "first": "gilestheboyseemsabitramb",
    "pages": [
     "...Giles, le garçon, semble un peu dissipé et ne sera pas facile à éduquer. Mais la fille aînée, Tilloa, semble exceptionnellement brillante. Je ne peux m'empêcher de constater aussi combien elle est belle. Elle est presque une femme désormais. Il paraît que Monseigneur a arrangé son mariage pour l'année prochaine. Mais je m'éloigne du sujet. Cette semaine, je vais accompagner la famille à leur résidence d'été, près du Camp de bûcherons du Val d'est en Elwynn, non loin des Carmines. Je vous donnerai plus de nouvelles depuis là-bas."
+   ]
+  }
+ ],
+ "A Torn Letter": [
+  {
+   "first": "reubeniwritethisletterkn",
+   "pages": [
+    "Reuben,\n\nJ'écris cette lettre en sachant que tu ne la liras peut-être jamais. Mais je ne peux pas rester les bras croisés, en écoutant les bruits sourds qui ébranlent constamment les murs d'Hearthglen. Les morts-vivants assiègent notre village sans interrompre un instant leurs assauts, et nous avons été chargés de défendre les villageois jusqu'à l'arrivée des renforts.\n\nJe me suis cassé la jambe lors de la dernière charge, et je dois rester assis, inutile, l'épée au côté au cas où nos défenses seraient débordées. On n'entend aucun bavardage… seuls les bruits des combats et de la mort. L'air empeste la peur.\n\nLe prince Arthas est là, combattant sur le front avec les hommes. Sans lui, nous serions tombés depuis longtemps. Son amour pour cette terre et ses habitants est contagieux ; jambe cassée ou pas, je ne peux pas rester ici. Chaque épée est nécessaire. J'espère que tu liras cette lettre en des temps meilleurs.\n\nTon ami,\nLeagrem"
    ]
   }
  ],
@@ -169,6 +217,19 @@
    "first": "themalletofzulfarraktocr",
    "pages": [
     "Le Maillet de Zul'Farrak\n\nPour créer le Maillet de Zul'Farrak, il faut voyager jusqu'à l'autel de Zul et obtenir le maillet sacré d'un Gardien troll.\n\nEnsuite, il faut apporter le maillet sacré à l'autel au sommet de la ville troll de Jintha'alor.\n\nUtiliser le maillet sacré à l'autel l'imprégnera de puissance et le transformera en Maillet de Zul'Farrak."
+   ]
+  }
+ ],
+ "Annals of Darrowshire": [
+  {
+   "first": "theannalsofdarrowshireda",
+   "pages": [
+    "Les Annales de Darrowshire\n\nDarrowshire, dont le nom vient du lac Darrowmere situé à l'ouest, est un village coincé dans les contreforts sud de Lordaeron. Connu pour ses habitants humbles et travailleurs, Darrowshire est resté au second plan de l'histoire de Lordaeron jusqu'à la Deuxième Guerre.\n\nDes héros émergèrent durant cette guerre. Et des héros périrent.",
+    "La bataille de Darrowshire\n\nLa bataille de Darrowshire se déroula au milieu de la Deuxième Guerre, quand les forces du Fléau se déchaînèrent contre Lordaeron. Darrowshire fut coupé du gros des forces de l'Alliance, mais la ville fut défendue par une compagnie de troupes, un contingent de paladins de la Main d'argent, et un groupe fidèle d'une milice locale menée par le capitaine Joseph Redpath.",
+    "Les assauts du Fléau sur Darrowshire furent d'abord peu importants. De petits groupes de squelettes et de cadavres en maraude erraient autour du village avant d'être repoussés.\n\nMais le Fléau ne fut pas découragé par la ténacité des défenseurs et réagit en conséquence. Une seconde vague d'attaques suivit bientôt. Des champions parmi les goules, serviteurs du seigneur-goule Horgus, descendirent des collines en hurlant et assiégèrent les défenseurs de Darrowshire.",
+    "Les Défenseurs ont commencé à faiblir, mais des paladins sont venus à leur secours, des disciples de la Main d'argent. Leur chef, Davil Crokford, était originaire de Darrowshire. Il est venu avec ses disciples quand il a entendu parler de l'attaque. Avec les Défenseurs, ils ont repoussé les serviteurs d'Horgus.\n\nQuand Horgus lui-même a pris part à la bataille, il a rencontré Davil. Pendant plusieurs minutes, ils se sont battus et finalement Davil a été victorieux. Malheureusement, après avoir battu le seigneur-goule, il a succombé à une blessure mortelle.",
+    "La bataille s'est poursuivie et le capitaine Redpath a mené sa milice avec bravoure. Elle aurait gagné si le capitaine n'avait pas été corrompu par le chevalier de la mort Marduk le Noir.\n\nAu milieu du combat, Marduk s'est dirigé vers Redpath, et avec de la magie noire il a arraché l'esprit de Redpath, le remplaçant par l'ombre maléfique du brave capitaine.",
+    "Le capitaine Redpath, corrompu, fut à l'origine de la trahison des défenseurs de Darrowshire envers leurs alliés, ainsi que du massacre de ces derniers. Puis les défenseurs se tournèrent vers la ville de Darrowshire et tuèrent tous ceux qui se cachaient dans leur maison.\n\nLe reste de l'armée du Fléau, accompagné de l'esprit corrompu du capitaine Redpath, quitta ensuite le village ravagé de Darrowshire et se rua sur Lordaeron, accroissant ainsi les douleurs et les morts de la Deuxième Guerre."
    ]
   }
  ],
@@ -368,6 +429,14 @@
    ]
   }
  ],
+ "Bolvar's Decree": [
+  {
+   "first": "solomonthecarrierofthisd",
+   "pages": [
+    "Solomon,\n\nLe porteur de ce décret a reçu le statut officiel d'adjoint en exercice des forces de Stormwind. Vous pouvez l'utiliser pour trouver la preuve de l'alliance entre les dragons noirs et les orcs Blackrock. Si une telle preuve était trouvée, cet adjoint devrait me la rapporter à Stormwind, et je donnerais l'ordre aux forces militaires de se porter au secours de Lakeshire.\n\nSalutations,\n\nSeigneur Bolvar Fordragon"
+   ]
+  }
+ ],
  "Bonegrip's Note": [
   {
    "first": "thestarofxilyehgrelborgt",
@@ -389,6 +458,42 @@
     "J'ignore comment j'ai survécu cette nuit-là. J'ai toujours été prudent, toujours rapide à fuir les plaies et les bosses. On me traite de froussard depuis toujours. C'est peut-être ce fort instinct de conservation qui m'a sauvé...\n\nOu peut-être est-ce la Hampe que j'ai arrachée aux décombres. Ce ne peut être la Faux elle-même, je l'ai perdue dans ma course éperdue. Mais si c'est moi qui ai ramené les worgens dans le bois de la Pénombre, peut-être m'ont-ils fait la grâce de me laisser survivre. Qu'ils soient maudits !",
     "Après avoir fui le Destin de Roland, je me suis caché dans une grange appartenant à un homme du nom de Sven. J'ai passé quelques jours dans la grange et une telle horreur me possédait que je n'ai jamais signalé ma présence à Sven ni à sa famille. Mais de ce que j'ai vu depuis ma cachette, j'ai compris que ces fermiers étaient d'honnêtes gens. Si j'étais sorti de mon recoin, je crois qu'ils m'auraient offert l'hospitalité, mais je ne suis pas d'un naturel confiant. Surtout depuis ce choc dans la mine.\n\nAlors je suis resté caché.",
     "<Le reste du livre est vierge>"
+   ]
+  }
+ ],
+ "Brazier of Invocation: User's Manual": [
+  {
+   "first": "brazierofinvocationusers",
+   "pages": [
+    "LE BRASERO D'INVOCATION : MODE D'EMPLOI\n\nOù trouver des lieux hantés\n\nINTRODUCTION\n\nCes pages vous expliqueront où trouver les âmes et les esprits déchus des personnes impliquées dans l'incident de l'amulette du seigneur Valthalak. Bien que vous ayez déjà sauvé mes anciens compagnons, je soupçonne que les échos répugnants du mal qui a corrompu leurs esprits résonnent toujours dans ces lieux hantés. Tel est le pouvoir maléfique de l'esprit du seigneur Valthalak.\n\nLe brasero peut aussi servir à invoquer le seigneur Valthalak mais comme vous avez déjà pu vous en rendre compte, il vaut mieux faire preuve de prudence à ce propos.",
+    "INTRODUCTION, suite...\n\nLe brasero lui-même fonctionne comme le brasero de signal. Placez-le aux alentours de l'un des cinq lieux hantés et il invoquera l'esprit des morts.\n\nAccessoirement et parce que je sais que cela vous intéresse, la bannière de provocation peut être utilisée d'une manière similaire dans l'arène des profondeurs de Blackrock. À votre prochaine visite, et si possible à toutes les suivantes, infligez donc à Theldren et à ses brutes une bonne leçon de ma part.\n\nSi vous voulez en apprendre davantage, continuez à lire.",
+    "ISALIEN\n\nElfe de la nuit, prêtresse de la Lune.\n\nLorsque Isalien décida de quitter la compagnie, elle avait l'intention de se rendre en pèlerinage à Hache-tripes, l'antique cité en ruine que les elfes connaissaient naguère sous le nom d'Eldre'Thalas. Il s'y trouve encore une bibliothèque, un sanctuaire consacré au savoir, que quelques elfes de la nuit ont réussi à préserver. Elle comptait trouver des réponses concernant à la fois le passé de son peuple et les morceaux de l'amulette. Notez qu'elle était très amie avec Falrin Treeshaper.",
+    "ISALIEN, suite...\n\nMalheureusement, au moment où elle entrait dans la ville, elle fut victime d'Alzzin le Modeleur et de ses séides. Son hippogryphe apprivoisé, Empyréen, succomba également. Isalien tomba et ne se releva pas. Il est peut-être préférable qu'elle ne soit pas parvenue à découvrir les secrets de la magie maléfique dont le seigneur Valthalak s'était servi pour enfermer une partie de son essence dans l'amulette.\n\nLa salle découverte où réside Alzzin est l'un des lieux hantés.",
+    "MOR GRAYHOOF\n\nDruide tauren, il fut le premier à succomber.\n\nMor Grayhoof était l'un des plus vaillants compagnons au sein de la Lame ardente. Tragiquement, il a été la première victime des séides maléfiques du seigneur Valthalak.\n\nLorsque nous avons fui la colère de Valthalak, nous étions poursuivis par une véritable armée d'assassins et de traqueurs spectraux. Notre départ du pic Blackrock fut passablement désordonné. Hélas, au cours du trajet, Mor perdit pied. À moins que quelqu'un ne l'ait poussé…Quoi qu'il en soit, il tomba dans les ténèbres de la partie inférieure du pic.",
+    "MOR GRAYHOOF, suite...\n\nPlus tard, nous avons découvert que Mor avait survécu à sa chute. Hélas, mon vieil ami a connu une fin affreuse. Il fut capturé par les trolls de Tazz'Alaor. Peu après, alors que le maître de guerre Voone était en train de le torturer, il fut achevé par un groupe d'assassins au service de Valthalak.\n\nSi vous souhaitez consulter l'écho de l'esprit de Mor Grayhoof, la chambre du maître de guerre Voone est l'un des lieux hantés.",
+    "JARIEN ET SOTHOS\n\nUne fratrie d'aspirants à la Croisade écarlate\n\nJarien et Sothos étaient parmi les gens les plus intolérants que j'aie croisés. Mais ils étaient des combattants exceptionnels, et issus d'une famille riche. Pour ces raisons Anthion, le chef de la Lame voilée, les tolérait.\n\nIls ont fini par se laisser séduire par les enseignements et la philosophie de la Croisade écarlate. Ils avaient toujours fait preuve de beaucoup de zèle dans l'extermination des créatures du Fléau qui croisaient notre chemin, et nous soupçonnions leur famille d'avoir des liens avec cette organisation.",
+    "JARIEN ET SOTHOS, suite...\n\nIls se retrouvèrent donc confrontés aux épreuves réservées à ceux qui souhaitent rejoindre la Croisade. Ils convoitaient le titre de chevalier, ce qui apparemment requiert des épreuves plus compliquées. Nous avons su plus tard que Sothos avait échoué. Jarien refusa de l'admettre, et soutint que son frère devait la rejoindre parmi les chevaliers. Pour cette raison, le Grand croisé Dathrohan finit par les tuer tous les deux au milieu de ses appartements.\n\nPour cette raison, le Trône cramoisi, au cœur du Bastion écarlate de Stratholme, est un autre lieu hanté.",
+    "KORMOK\n\nOgre nécromancien bicéphale\n\nQue dire de Kormok ? C'était un ogre bicéphale, de la variété qui lance des sorts, mais il n'était pas mauvais bougre. Il nous a rejoints quand nous l'avons capturé au cours d'un boulot dans les Steppes ardentes. L'affaire a dégénéré, il nous a aidé à nous en tirer, et il a fini par devenir l'un des principaux mages de la compagnie.\n\nBizarrement, ses deux têtes se comportaient de manière complètement différente. La première était joviale et pas futée, l'autre était matoise et calculatrice, avec un regard mort vaguement effrayant.",
+    "KORMOK, suite...\n\nAu cours de nos voyages, Kormok découvrit le versant nécromantique de la magie. Malheureusement, sa tête effrayante avait un don pour ces pratiques. Elle y prenait un plaisir pervers, surtout lorsqu'elle parvenait à faire apparaître les esprits exilés de l'île de la Purification pour les asservir.\n\nAprès la dissolution de la compagnie, Kormok entra à la Scholomance pour « s'instruire ». Les assassins spectraux n'eurent aucun mal à pénétrer dans l'école. Ils le tuèrent aux pieds de son nouveau maître, Ras Murmegivre.\n\nLa chambre de Ras Murmegivre est l'un des lieux hantés où il est possible d'utiliser le brasero.",
+    "LE SEIGNEUR VALTHALAK\n\nNoble draconique et ancien général du pic Blackrock\n\nAvant le général Drakkisath, il y avait le seigneur Valthalak, un démoniste d'une puissance immense. La direction du pic change assez souvent, et malheureusement pour nous, nous avons été impliqués dans les derniers bouleversements.\n\nNous avons été engagés par un sorcier-contrebandier des environs de Baie-du-Butin, Gremnik Rizzlesprang, pour voler le livre de sorts de Valthalak. Nous ne savons pas s'il voulait l'étudier, le vendre ou les deux, cela n'a plus d'importance. Nous avons infiltré le sommet du pic et nous avons tué Valthalak dans son repaire. C'est là que ça s'est gâté.",
+    "LE SEIGNEUR VALTHALAK, suite...\n\nNous ignorions que le seigneur Valthalak était passé maître dans la manipulation des âmes. Sinon, nous n'aurions pas pris ce boulot. Mais nous l'avons accepté, et ce fut notre dernier.\n\nNous venions de prendre son livre de sorts au cadavre de Valthalak lorsque Kormok a senti quelque chose à propos de son amulette. Il a insisté pour qu'elle devienne sa part du butin. Nous nous sommes disputés, et nous avons bien failli en venir aux mains. Nous ne savions pas que l'amulette renfermait une bonne part de l'esprit de Valthalak. Nous l'avons découvert plus tard, dans la douleur.",
+    "LE SEIGNEUR VALTHALAK, suite...\n\nAvant de fuir, poursuivis par le fantôme de Valthalak et une armée d'assassins spectraux, nous avons divisé l'amulette en plusieurs morceaux. Notre dispute sur l'amulette avait attiré l'attention des défenseurs restants du pic !\n\nNous sommes presque tous sortis du pic, et nous avons cru que nous étions à l'abri. Mais même de l'au-delà, Valthalak nous envoyait ses sbires, où que nous nous cachions. La Lame voilée a éclaté peu après cette mission et nous sommes devenus des cibles encore plus faciles.\n\nComme vous le savez certainement, la résidence du seigneur Valthalak, qui est aujourd'hui la chambre de la Bête dans le pic Blackrock, est le dernier des lieux hantés."
+   ]
+  }
+ ],
+ "Brock's List": [
+  {
+   "first": "belowistheliststudentswh",
+   "pages": [
+    "Voici la liste des étudiants qui ont obtenu une Etoile de platine à l'Ecole des mines de Brock, ce qui leur vaut un Pic de mineur honoraire :\n\nMelia Stoneshaker\nBardin Ironband\nUmi Togglevolt\nRumi Togglevolt\nVorel Steelspire"
+   ]
+  }
+ ],
+ "Call to Arms Announcement": [
+  {
+   "first": "toallablebodiedmenandwom",
+   "pages": [
+    "À tous ceux en état de porter les armes :\n\nLe Fléau est de retour et nous devons oublier nos différends pour faire face à cette menace. L'Aube d'argent ne refusera aucun de ceux qui souhaitent prendre les armes pour lutter contre le Fléau.\n\nLa mobilisation pour la défense de nos contrées s'effectue à la chapelle de l'Espoir de Lumière, dans les Maleterres de l'est. Ensemble, nous vaincrons.\n\nLe gardien des registres\nL'Aube d'argent"
    ]
   }
  ],
@@ -443,6 +548,14 @@
    ]
   }
  ],
+ "Cliffwatcher Longhorn Report": [
+  {
+   "first": "natakaalliswellinthousan",
+   "pages": [
+    "Nataka, tout va bien à Mille pointes. Les centaures sont tout au plus un peu agaçants... Parfois ils attaquent, rien qui ressemble à une véritable menace. Mais il paraît que les clans de centaures s'unissent.\n\nNous avons toujours redouté qu'une telle race fasse taire ses différends... J'essaie de ne pas m'arrêter à ces pensées... Rien n'est capable de pénétrer la haine pure qu'ils ont, même les uns pour les autres.\n\n-Garde-falaise Longhorn"
+   ]
+  }
+ ],
  "Cloth Request": [
   {
    "first": "totheschneidersgooddayit",
@@ -458,6 +571,22 @@
     "Après le succès de Kel'Thuzad à Lordaeron, le roi-liche termina ses préparatifs avant de se lancer à l'assaut de la civilisation humaine. Il créa des objets transportables, appelés chaudrons de peste, pour diffuser son énergie pestilentielle. Ner'zhul ordonna à Kel'Thuzad de transporter ces chaudrons à Lordaeron où ils seraient cachés dans des villages voués au culte.",
     "Les chaudrons, protégés par les membres loyaux du culte, agiront comme des générateurs de peste qui contamineront les fermes et les villes du nord de Lordaeron.\n\nLe plan du roi-liche se déroula à la perfection. Beaucoup de villages du Nord furent contaminés presque immédiatement. Comme pour le Northrend, les citoyens contaminés moururent et devinrent les esclaves du roi-liche.",
     "Les membres du culte, aux ordres de Kel'Thuzad, étaient pressés de mourir et de revenir à la vie pour servir leur seigneur ténébreux. Ils exultaient à l'idée de devenir immortels. Tandis que la peste se répandait, de plus en plus de zombies affluaient des terres du Nord. Kel'Thuzad observait l'armée sans cesse grandissante du roi-liche et la nomma le Fléau. Dans peu de temps, cette armée marcherait sur les portes de Lordaeron... Et éliminerait l'humanité de la surface de ce monde."
+   ]
+  }
+ ],
+ "Consecrated Letter": [
+  {
+   "first": "ihopethisletterfindsyouw",
+   "pages": [
+    "J'espère que vous allez bien, $C. Je le dis avec fierté, car peu peuvent se targuer d'une telle foi, mais ils font également partie de l'élite vraie des protecteurs d'Azeroth.\n\nSouvenez-vous toujours et avant tout que votre devoir est de vous battre contre ceux qui veulent blesser notre monde et corrompre nos foyers.\n\nJ'ai reçu toute autorité pour vous former. Quand vous le voudrez, venez me voir à l'Abbaye de Northshire.\n\n-Frère Sammuel, Maître des paladins"
+   ]
+  }
+ ],
+ "Consecrated Rune": [
+  {
+   "first": "somefearourkindmorethand",
+   "pages": [
+    "Certains nous craignent plus encore que les dragons. D'autres nous envient davantage que les forgerons les plus habiles. Certains se divertissent de notre foi. D'autres sont jaloux de nous voir si bien tenir la bière. Mais en tout état de cause, $C, vous faites partie de l'élite des protecteurs d'Azeroth. La Sainte Lumière nous donne notre force et nous lui donnons la nôtre.\n\nJe vous en dirai plus quand vous connaîtrez mieux ces terres. Vous me trouverez à Anvilmar, au-dessus de la Vallée.\n\n-Bromos Grummner, Maître des paladins"
    ]
   }
  ],
@@ -493,11 +622,52 @@
    ]
   }
  ],
+ "Crude Map": [
+  {
+   "first": "",
+   "pages": [
+    ""
+   ]
+  }
+ ],
  "Crumpled Note": [
   {
    "first": "fleeingfromthezanzilinth",
    "pages": [
     "Fuir les Zanzil dans ce bateau pourrissant semblait sage sur le moment, mais je commence à me dire que la mort aurait été un destin plus favorable.\n\nJe pensais que mes ancêtres m'avaient fait une faveur en me permettant d'échapper à leur colère. Mais je commence à me demander quelle sagesse je vais acquérir si je survis à mon emprisonnement."
+   ]
+  }
+ ],
+ "Crystal Pylon User's Manual": [
+  {
+   "first": "crystalpylonusersmanuala",
+   "pages": [
+    "MANUEL D'UTILISATION DES PYLÔNES DE CRISTAL\n\n \"Guide pour récupérer et utiliser les cristaux de puissance du cratère d'Un'Goro.\"\n\nChapitre 1 : Le pylône du nord\n\nChapitre 2 : Le pylône de l'est\n\nChapitre 3 : Le pylône de l'ouest",
+    "Chapitre 1 : LE PYLONE NORD\n\nLe Pylône\nnord accepte\nles cristaux\njaunes, rouges\net verts.\n\nLe Pylône se focalise sur l'énergie qui peut être créée en utilisant des cristaux jaunes comme source de puissance principale.",
+    "Combinaisons du cristal Nord\n\nIl y a deux effets possibles : une combinaison produit des dégâts, l'autre les supprime.\n\nCHARGE CRISTALLINE : nécessite des cristaux rouges et jaunes.\nCela produit une explosion violente.\n\nRESTAURATION CRISTALLINE : nécessite des cristaux jaunes et verts.\nVous fournit une aura de soins.",
+    "DIAGRAMME DU PYLONE NORD",
+    "Chapitre 2 : LE PYLONE EST\n\nLe Pylône\nest accepte\nles cristaux\nbleus, jaunes\net verts.\n\nLe Pylône se focalise sur l'énergie qui peut être créée en utilisant des cristaux bleus comme source de puissance principale.",
+    "Combinaisons de cristal est\n\nIl y a deux effets possibles : l'un fournit un bonus d'esprit, l'autre crée un bouclier de dégâts.\n\nFORCE CRISTALLINE : nécessite des cristaux bleus et verts.\nVous fournit une amélioration de l'esprit.\n\nFLECHE CRISTALLINE : nécessite des cristaux bleus et jaunes.\nCrée un bouclier qui inflige des dégâts aux attaquants.",
+    "DIAGRAMME DU PYLONE EST",
+    "Chapitre 3 : LE PYLONE OUEST\n\nLe Pylône\nouest accepte\nles cristaux\nrouges, verts\net bleus.\n\nLe Pylône se focalise sur l'énergie qui peut être créée en utilisant des cristaux rouges comme source de puissance principale.",
+    "Combinaisons de cristal ouest\n\nIl y a deux effets possibles : une combinaison améliore votre protection contre les dégâts, l'autre affaiblit les défenses de l'ennemi.\n\nGARDIEN CRISTALLIN : nécessite des cristaux rouges et verts.\nAméliore votre armure.\n\nFISSURES CRISTALLINES : nécessite des cristaux bleus et rouges.\nPeut réduire l'armure d'une cible spécifique.",
+    "DIAGRAMME DU PYLONE OUEST"
+   ]
+  }
+ ],
+ "Crystallized Note": [
+  {
+   "first": "towhomitmayconcernifyoua",
+   "pages": [
+    "Aux intéressés :\n\n Si vous êtes en train de lire cette note, c'est que vous êtes dans l'un des deux endroits suivants :\n\n(1) Sur la péninsule sud d'Azshara.\n\n(2) Dans le ventre d'un géant des falaises.\n\nDans les deux cas, vous êtes en mauvaise posture.\n\nSachez que j'ai eu l'occasion de visiter les deux mais particulièrement le dernier comme le prouve cette lettre.",
+    "Etre à l'intérieur du ventre d'un géant vous laisse du temps pour réfléchir.\n\nAlors que mon corps commence à se cristalliser, j'en suis venu à la conclusion qu'il y a peut-être suffisamment de héros dans ce monde. Si je réussis à m'en sortir, je tordrai le cou de cet orc !\n\n- Windan Shay"
+   ]
+  },
+  {
+   "first": "whatwasithinkingperhapsa",
+   "pages": [
+    "A quoi est-ce que je pensais ?\n\nMais une autre question s'impose : pourquoi suis-je en train d'écrire une note alors que je suis emprisonné dans le ventre d'un géant ?\n\n Deux questions pertinentes pour lesquelles je n'ai pas de réponses immédiates...\n\nIl faut reconnaître que ma mission n'était pas des plus simples. Je suis parti à la recherche d'Azsharite, un cristal unique en Azshara du Sud. Ah, j'aurais pu devenir riche !\n\nBah ! Regardez-moi maintenant...",
+    "Si jamais une quelconque forme de vie intelligente trouve cette note, elle doit se demander ceci : \"Pourquoi se risquer à chahuter avec des géants violents de neuf mètres de haut ?\"\n\n- Mook"
    ]
   }
  ],
@@ -591,6 +761,65 @@
    ]
   }
  ],
+ "Decoded Tablet Transcription": [
+  {
+   "first": "dayourpilgrimageisoverwe",
+   "pages": [
+    "Jour 1\nNotre  pèlerinage est terminé. Nous avons finalement rejoint Silithus, où nous devrons effectuer la prise de contact.  Nous sommes venus de bien des endroits différents pour mettre nos efforts en commun, et mener à bien cette entreprise monumentale.\n\nUne extraordinaire atmosphère de fébrilité règne parmi nous.  Demain, nous consacrerons toute notre énergie à la construction de ce qui nous permettra de communiquer avec EUX.\n\nDemain nous érigerons une pierre des vents !",
+    "Jour 2\nL'emplacement de la Pierre des vents a été le sujet d'un grand débat. Même les plus sages d'entre nous sont incapables de déterminer avec une grande certitude l'endroit exact auquel se réfère la vieille prophétie.\n\nJe suis resté avec le groupe nord d'origine, et le temps prouvera indubitablement que nous avons raison. Soutenir que les lignes d'énergie se croisent à cet endroit selon des angles défavorables est idiot et naïf.\n\nNous avons déjà rassemblé tous les matériaux de construction qui nous sont nécessaires.",
+    "Jour 15\nNotre dévouement a fini par porter ses fruits. Nous sommes le premier camp à avoir terminé la construction d'une pierre des vents. Si les autres imbéciles étaient restés avec nous, nous aurions achevé notre tâche en moins d'une semaine !\n\nDemain, nous commencerons les rituels qui invoqueront le baron Kazum en personne. Il a demandé d'être le premier à tester le système, et nous n'avons pas pu le contredire, car il s'emporte facilement.\n\nJe pense qu'il sera très content de nous."
+   ]
+  }
+ ],
+ "Decoded Twilight Text": [
+  {
+   "first": "forimmediatedisseminatio",
+   "pages": [
+    "À diffuser immédiatement auprès de tous les membres du Marteau du crépuscule.\n\nLa traque du traître Ortell progresse à une allure plus que satisfaisante.  Nos éclaireurs ont pu réduire le champ des recherches à un réseau de cavernes dans la marche de l'Ouest.\n\nLa trahison d'Ortell ne sera pas pardonnée. Sa fuite représente un risque majeur pour la sécurité de notre organisation.\n\nTout individu qui se rendrait coupable de dissimulation d'informations concernant le lieu où se trouve Ortell subira un châtiment exemplaire.\n\n-Seigneur du crépuscule Everun"
+   ]
+  },
+  {
+   "first": "forimmediatedisseminatio",
+   "pages": [
+    "À diffuser immédiatement auprès de tous les membres du Marteau du crépuscule.\n\nEn raison de la situation actuelle à Silithus, toute diffusion des textes du Vrai croyant devra être effectuée sous l'escorte de pas moins de quatre gardes armés du Marteau du crépuscule.\n\nTout membre qui contreviendrait à cette nouvelle directive sera puni sans délai.\n\n-Seigneur du crépuscule D'Sak"
+   ]
+  },
+  {
+   "first": "forimmediatedisseminatio",
+   "pages": [
+    "À diffuser immédiatement auprès de tous les membres du Marteau du crépuscule.\n\nLes informations suivantes décrivent l'utilisation des pierres des vents pour communiquer avec nos maîtres du Conseil abyssal.\n\nToute utilisation frivole des pierres des vents sera punie dans la douleur.\n\n-Gardien du crépuscule Havunth",
+    "Les Templiers des abysses\n\nEn tant qu'initié, vous êtes autorisé à établir contact avec des Templiers des abysses pour des rituels de routine.  Souvenez-vous de toujours porter les vêtements appropriés lorsque vous utilisez les pierres des vents afin d'éviter d'activer nos enchantements défensifs.\n\nEn cas d'urgence, si aucun surveillant n'est présent, vous avez la permission d'invoquer un Templier des abysses.\n\nPour davantage de détails au sujet des rituels d'invocation concernés, consultez le Vrai Croyant du mois dernier.",
+    "Les ducs des abysses\n\nSeuls les acolytes en possession d'un médaillon de statut sont autorisés à établir contact avec des ducs des abysses.  Un médaillon de statut doit être utilisé uniquement par la personne pour laquelle il a été issu à l'origine.\n\nLes membres du Marteau du crépuscule qui se rendraient coupables d'une communication inappropriée avec les ducs des abysses ou d'un usage non autorisé d'un médaillon de statut seront châtiés par moi en personne.",
+    "Le Haut conseil des seigneurs des abysses\n\nSeuls les seigneurs des abysses sont autorisés à entrer en contact avec le prince Skaldrenox, le haut maréchal Trombe, le baron Kazum ou le seigneur Skwol.\n\nLes membres de faible rang du Marteau du crépuscule ne sont autorisés à initier toute forme de communication avec le Haut conseil en aucune circonstance.  Tous ceux qui ne lui appartiennent pas qui utiliseraient une pierre des vents de cette manière seront réduits en cendres sur le champ."
+   ]
+  },
+  {
+   "first": "thestateofthecultvolumei",
+   "pages": [
+    "État du Culte, Volume 92\n\nC'est le cœur réjoui que je vous accueille, mes frères, car notre culte ne pourrait mieux se porter.  Nous sommes légion et nos objectifs n'ont jamais été plus prêts de leur aboutissement.\n\nDe nouvelles recrues continuent d'affluer.  Elles chantent les louanges de nos seigneurs à Sombrivage, elles s'inclinent dans l'allégresse dans la gorge des Vents brûlants, elles embrassent le serviteur de nos maîtres, Aku'mai, dans les Profondeurs de Brassenoire.  Je vous le dis, mes frères et sœurs, bientôt un essaim de fidèles recouvrira tout Azeroth !"
+   ]
+  },
+  {
+   "first": "stateofthecultvolumeitis",
+   "pages": [
+    "État du Culte, Volume 127\n\nEn vérité, aujourd'hui est un jour heureux !  Nous avons été mis à l'épreuve à Silithus et nous avons réussi !\n\nLes nouvelles de la destruction de notre camp le plus au nord pourront troubler les cœurs de ceux qui manquent de foi, mais ce massacre ne doit pas être considéré comme une tragédie.  Non !",
+    "Que notre sang soit versé par l'un des membres du Haut conseil abyssal est une bénédiction !  Nous devrions envier ceux de nos camarades qui sont tombés, car leurs esrpits demeurent à présent dans le ventre d'une bête des plus vertueuses !\n\nGloire aux Dieux très anciens !  Gloire à leurs serviteurs !  Gloire au Marteau du crépuscule !"
+   ]
+  },
+  {
+   "first": "stateofthecultvolumeoppo",
+   "pages": [
+    "État du Culte, Volume 233\n\nUne nouvelle occasion pour nous, mes frères et sœurs!  Le Cercle cénarien, une vile secte d'adorateurs de la nature, envoie à présent ses agents contre nous.  Ils veulent probablement nous empêcher d'invoquer des pierres d'attraction rouges.  Nous ne le permettrons pas !\n\nLes pierres rouges sont d'une importance vitale pour nos nouveaux alliés.  Nous ne devons pas laisser les valets du Cercle cénarien parvenir à leurs fins.  Soyez fermes, mes fidèles amis.  Soyez fermes !"
+   ]
+  },
+  {
+   "first": "howdoweknowtheyloveussom",
+   "pages": [
+    "Comment savons-nous qu'ils nous aiment ?\n\nCertains se demandent peut-être comment les Dieux très anciens et leurs serviteurs pourraient nous aimer.  Est-ce qu'ils ne nous tuent pas ?  Est-ce qu'ils ne nous causent pas à tous douleur et souffrances ?  Comment des êtres ayant un penchant si prononcé pour le mal pourraient-ils connaître l'amour dans leurs cœurs?\n\nLa réponse à cette question est très simple.  Si simple qu'il n'est pas nécessaire de la prononcer.",
+    "La foi.  La foi est la source grâce à laquelle la joie de servir nous inonde.  La foi nous tiendra chaud lors des nuits les plus froides de Silithus.  La foi nous donnera la miséricorde de nos seigneurs quand la Fin des jours arrivera.\n\nLa foi nous sauvera."
+   ]
+  }
+ ],
  "Decorated Headstone": [
   {
    "first": "inlovingmemoryofjessemor",
@@ -637,6 +866,22 @@
    ]
   }
  ],
+ "Diary of Weavil": [
+  {
+   "first": "deardiarytodaymyarchenem",
+   "pages": [
+    "Cher journal,\n\nAujourd'hui, mon ennemi juré, Narain Soothfancy, a tenté de déjouer mes plans en m'envoyant quelques sbires prendre sa place lors de l'exécution. De SON exécution. Tu imagines ?\n\nJe me suis donné un mal fou pour mettre au point un plan génial afin de l'attirer dans cette fichue hutte, et il me fait un coup pareil ? La barbe… je suis trop énervé pour écrire. À plus tard.",
+    "Cher journal,\n\nQuand j'ai quitté ma cachette après avoir rédigé ma dernière note, j'étais dans une rage folle. Vraiment, vraiment furieux ! J'ai décidé de redessiner l'uniforme de mes sbires pour qu'il reflète mes souffrances intérieures. Je me sens un peu mieux, mais il me manque encore quelque chose. Je reviens…",
+    "Cher journal,\n\nVoilà, je me sens beaucoup mieux. J'ai battu l'un de mes sbires jusqu'à ce qu'il pleure comme une petite fille.\n\nEuh… non, en fait, je me sens un peu mal à l'aise. Ah mais minute, je suis un génie du MAL ! Du mal, tu vois ? Je me déçois beaucoup. À plus.",
+    "Cher journal,\n\\Je l'ai serré dans mes bras et je lui ai dit qu'il s'en sortait bien et qu'il devait continuer comme ça. Je me sens mieux. Mais ça reste entre nous, d'accord ?\n\nOù en étais-je ? Ah oui, NARAIN ! ARRGH !!! Je le hais. Quand nous étudiions au Bricolo-institut de Gnomeregan, ses résultats étaient si bons qu'il fallait redéfinir toutes les moyennes en fonction de lui.\n\nEt du coup, ils m'ont chassé de l'école parce que j'étais en dessous des nouvelles normes. En ce qui me concerne, Gnomeregan a eu ce qu'elle méritait !\n\nBon, ça suffit pour aujourd'hui. Bonne nuit, mon cher journal !",
+    "Cher journal,\n\nJe dois veillir. J'ai complètement oublié ce que je te racontais à propos de Narain et de la manière dont il a triché. J'ai si furieux de voir un leurre déguisé en Narain que j'ai demandé à Numéro Deux de massacrer cet imbécile !\n\nAprès, j'ai couru jusqu'à ma machine volante et j'ai commencé à déchirer son livre bien-aimé, stupide et idiot sur le draconique. Quel prétentieux ! Qui le lit le draconique ? Je le hais tant !",
+    "Cher journal,\n\nDésolé, je me suis endormi. J'étais fou de rage et je jetais les chapitres de ce livre stupide un peu partout. Quand j'ai vu un démon en dessous de moi, dans la gorge du Sombre murmure, j'ai décidé de faire une tornade magique avec le premier chapitre. Elle l'a déchiqueté en un million de petits morceaux ! Ça m'a soulagé. Magie + papier = rigolo.\n\nJ'étais tellement content que j'ai decidé de faire un tour dans les Royaumes de l'est. Mon premier arrêt a été pour le Cœur du Magma. Narain en parlait souvent… « Le Cœur du Magma ceci, Ragnaros cela… »",
+    "Tu sais quoi ? S'il aime tant son fichu livre, il pourra toujours le reconstituer en allant au Cœur du Magma et en récupérant un chapitre dans un tas de cendres ! Ah !\n\nEt tant que j'étais dans le coin, je me suis dit que certains des techniciens baveux du labo de ce bon vieux Victor Nefarius auraient peut-être l'usage d'un peu de draconique. Et hop, sitôt dit, sitôt largué !",
+    "C'était en train de devenir un passe-temps à part entière. Je prenais beaucoup de plaisir à découper ce fichu livre en morceaux !\n\nLes largages suivants ont été simples.\n\nUndercity, demeure des morts-vivants fétides et pestilentiels (mais aussi du meilleur chili du monde) en a eu un. Stormwind, capitale du fromage, un autre. Dis, cher journal, as-tu déjà pensé à mettre du fromage de Stormwind sur du chili d'Undercity ? HÉ HO ? Ce serait intéressant…",
+    "J'étais fatigué, alors j'ai fait virer la machine volante, direction la maison, mais avant, j'ai fait deux autres arrêts. J'ai survolé le seigneur Kazzak et ses démons, à la Balafre impure (il a horreur de ça), et j'en ai glissé un autre dans le cheminée d'Onyxia.\n\nFatigué. Dodo."
+   ]
+  }
+ ],
  "Divined Scroll": [
   {
    "first": "anevilforcecreatedtheseh",
@@ -673,6 +918,30 @@
    ]
   }
  ],
+ "Encrypted Letter": [
+  {
+   "first": "neverbeenmoreproudtobepa",
+   "pages": [
+    "Je n'ai jamais été aussi fier de travailler dans ce commerce que lors de ces dernières années. Le besoin en assassins, espions et éclaireurs n'a jamais été aussi important. Vous pourriez penser que les périodes de guerre entraînent une forte demande, mais curieusement, elles ne sont pas aussi rentables que des temps comme les nôtres, quand la paix commence à se détériorer.\n\nJ'ai entendu dire que vous cherchiez à apprendre quelques trucs. Quand vous aurez le temps, venez me voir près des écuries derrière l'abbaye.\n\n-Jorik Kerridan, maître des voleurs"
+   ]
+  }
+ ],
+ "Encrypted Memorandum": [
+  {
+   "first": "youwereexpectingthistobe",
+   "pages": [
+    "Vous vous attendiez à une note normale de votre roi ou je ne sais qui, pas vrai ? Disons que je sais deux ou trois choses sur l'art des faussaires et je voulais m'assurer que vous alliez recevoir ce message. Je ne peux pas me permettre d'attirer l'attention sur moi !\n\nJe me suis introduit dans Anvilmar, vous me trouverez près de la fosse à feu. Quand vous le pourrez, venez me voir. Je veux juste vous rencontrer pendant que nous le pouvons encore.\n\n-Solm Hargrin, Maître des voleurs"
+   ]
+  }
+ ],
+ "Encrypted Parchment": [
+  {
+   "first": "isendgreetingsiwaslostin",
+   "pages": [
+    "Je vous transmets mes salutations, $N. J'étais perdu dans mes pensées, quand il m'est venu à l'esprit que j'avais besoin de vous écrire.\n\nBeaucoup d'entre nous, dans notre culture, louent nos chamans car ils sont nos chefs spirituels, comme notre grand Chef de guerre. D'autres pensent que l'épée et la hache sont des activités plus nobles, mais n'oubliez jamais que les batailles, et même les guerres, sont gagnées à l'aide de compétences plus spécialisées. C'est de cela dont je souhaite vous entretenir, $N. Retrouvez-moi au fond de l'Antre dans la Vallée des épreuves.\n\n-Rwag, Maître des voleurs"
+   ]
+  }
+ ],
  "Encrypted Rune": [
   {
    "first": "brothersisterihopethisru",
@@ -681,11 +950,73 @@
    ]
   }
  ],
+ "Encrypted Scroll": [
+  {
+   "first": "takecarenottoignoremywor",
+   "pages": [
+    "Prenez garde à ne pas ignorer mes paroles, $N. Voici venue l'heure des subterfuges et des mensonges parmi toutes les nations... même dans notre chère Undercity. Tous ceux qui sont loyaux à Sylvanas travaillent pour construire une nouvelle ère, une ère où les Réprouvés auront le pouvoir. Et même si nous ne possédons pas de compétences magiques, et que nous ne défendons pas nos frontières par les armes, nous avons tout de même un rôle à jouer.\n\nVenez me trouver dans l'auberge du Glas. Nous parlerons davantage.\n\n-David Trias, Maître des voleurs"
+   ]
+  }
+ ],
+ "Encrypted Sigil": [
+  {
+   "first": "saelahmyfriendihopethiss",
+   "pages": [
+    "Sael'ah, j'espère que ce message vous trouvera en pleine forme. On m'a demandé de vous offrir mes services. Je suis moi aussi à Sombrevallon, dans le Grand arbre d'Aldrassil, et je voulais vous faire savoir que si vous avez besoin d'une formation plus poussée, vous pouvez venir me voir.\n\nEn ces temps difficiles, je crois prudent que ceux qui ont l'ombre pour vocation restent proches les uns des autres. Comment, sans cela, pourrions-nous protéger Teldrassil et notre manière de vivre ?\n\nVous me trouverez quand vous en aurez besoin.\n\n-Frahun Shadewhisper, Maître des voleurs"
+   ]
+  }
+ ],
+ "Encrypted Tablet": [
+  {
+   "first": "greetingsbrothersisterth",
+   "pages": [
+    "Salut, $gmon frère:ma soeur;. La Main brisée vous fait part de son respect et espère que vous trouvez la Vallée assez confortable pour y déployer votre commerce. C'est une période d'essai pour vous, pensez bien que vous serez sous surveillance permanente.\n\nIl est de mon devoir d'estimer vos compétences, puis d'informer la Main lorsque l'heure sera venue pour vous d'affronter des défis plus importants.\n\nLorsque vous vous en sentirez capable, venez me trouver au fin fond de l'Antre. Je vous attendrai là-bas.\n\n-Rwag, Maître des voleurs"
+   ]
+  }
+ ],
  "Etched Note": [
   {
    "first": "thisanvilisthepropertyof",
    "pages": [
     "Cette enclume est la propriété de Jordan Stilwell. NE PAS utiliser !\n\n- Jordan"
+   ]
+  },
+  {
+   "first": "mightywarriorsdefendourh",
+   "pages": [
+    "De puissants guerriers défendent notre foyer. Nos chamans guident nos esprits et nous montrent le passé de nos ancêtres. Nos druides nous aident à comprendre la volonté de la Terre-mère.\n\nMais vous êtes un de nos chasseurs, et nos chasseurs apprennent de nombreux aspects de nos traditions et les mélangent. Vous comprendrez que vous représentez le coeur de notre peuple, une partie des nôtres vous demandera de les guider, de les protéger. Mon devoir est de m'assurer que vous pourrez assumer ce rôle. Vous me trouverez au Camp Narache.\n\n-Lanka Farshot, Maître des chasseurs"
+   ]
+  }
+ ],
+ "Etched Parchment": [
+  {
+   "first": "yabeingoodhandsnowmonjen",
+   "pages": [
+    "Vous êtes entre de bonnes mains à présent. Jen'shan sait que vous voulez apprendre les voies du chasseur, et elle est prête à vous y aider... Si vous voulez l'entendre.\n\nVenez me voir dans la Vallée des épreuves. Jen'shan commencera votre formation et vous montrera les arcanes du métier de chasseur.\n\n-Jen'shan, Maître des chasseurs"
+   ]
+  }
+ ],
+ "Etched Rune": [
+  {
+   "first": "tamerofbeastsmastermarsk",
+   "pages": [
+    "Dompteur des bêtes, maître du tir, pisteur confirmé : que peut-on accomplir de plus en une seule vie ? Toutes ces choses, une fois combinées, demandent de l'intelligence et de la patience.\n\nLa voie du chasseur n'est pas facile, c'est certain. Vous aurez besoin de beaucoup d'entraînement si vous voulez vous aligner avec le plus mauvais de nos tireurs d'élite. Mais c'est pour cela que je suis ici.\n\nVous me trouverez dans Anvilmar, au-dessus de la vallée des Frigères. J'attendrai.\n\n-Thorgas Grimson, Maître des chasseurs"
+   ]
+  }
+ ],
+ "Etched Sigil": [
+  {
+   "first": "eluneiswithyouthewindwhi",
+   "pages": [
+    "Elune soit avec vous, $N. Les vents me murmurent bien des choses, et j'ai plaisir à pouvoir former la prochaine génération de chasseurs.\n\nD'après ce que j'ai entendu, vous êtes proche d'Aldrassil. Je vous rencontrerai dans le Grand arbre quand vous en aurez le temps.\n\nNos aînés m'ont demandé de m'assurer que les nouveaux chasseurs soient formés de façon appropriée, car les temps sont durs. Vous êtes encore novice, vous devriez venir me voir. Jusque là, portez-vous bien.\n\n-Ayanna Everstride, Maître des chasseurs"
+   ]
+  }
+ ],
+ "Etched Tablet": [
+  {
+   "first": "itbegoodtohearthatoneofj",
+   "pages": [
+    "Je vois avec plaisir un proche de Jen'shan venir dans la Vallée pour y améliorer ses aptitudes. Jen'shan a hâte d'y participer !\n\nJe n'ai pas besoin de vous rappeler ce qu'il faut de ruse et de force à un chasseur, vous le savez déjà. La tâche de Jen'shan sera d'augmenter cette ruse, cette force.\n\nVous trouverez Jen'shan dans la Vallée des épreuves. Elle vous guidera bien. Elle vous apprendra à dompter les plus grandes bêtes, entre autres choses.\n\n-Jen'shan, Maître des chasseurs"
    ]
   }
  ],
@@ -701,11 +1032,55 @@
    ]
   }
  ],
+ "Extended Annals of Darrowshire": [
+  {
+   "first": "theannalsofdarrowshireda",
+   "pages": [
+    "Les Annales de Darrowshire\n\nDarrowshire, dont le nom vient du lac Darrowmere situé à l'ouest, est un village coincé dans les contreforts sud de Lordaeron. Connu pour ses habitants humbles et travailleurs, Darrowshire est resté au second plan de l'histoire de Lordaeron jusqu'à la Deuxième Guerre.\n\nDes héros émergèrent durant cette guerre. Et des héros périrent.",
+    "La bataille de Darrowshire\n\nLa bataille de Darrowshire se déroula au milieu de la Deuxième Guerre, quand les forces du Fléau se déchaînèrent contre Lordaeron. Darrowshire fut coupé du gros des forces de l'Alliance, mais la ville fut défendue par une compagnie de troupes, un contingent de paladins de la Main d'argent, et un groupe fidèle d'une milice locale menée par le capitaine Joseph Redpath.",
+    "Les assauts du Fléau sur Darrowshire furent d'abord peu importants. De petits groupes de squelettes et de cadavres en maraude erraient autour du village avant d'être repoussés.\n\nMais le Fléau sentit probablement la ténacité des défenseurs et réagit en conséquence : une seconde vague d'attaques suivit peu après. Des champions parmi les goules, serviteurs du seigneur-goule Horgus, descendirent des collines en hurlant et assiégèrent les défenseurs de Darrowshire.",
+    "Les Défenseurs ont commencé à faiblir, mais des paladins sont venus à leur secours, des disciples de la Main d'argent. Leur chef, Davil Crokford, est originaire de Darrowshire. Il est venu avec ses disciples quand il a entendu parler de l'attaque. Avec les Défenseurs, ils ont repoussé les serviteurs d'Horgus.\n\nQuand Horgus lui-même a pris part à la bataille, il a rencontré Davil. Pendant plusieurs minutes, ils se sont battus et finalement Davil a été victorieux. Malheureusement, après avoir battu le seigneur-goule, il a succombé à une blessure mortelle.",
+    "La bataille s'est poursuivie et le capitaine Redpath a mené sa milice avec bravoure. Et elle aurait gagné si le capitaine n'avait pas été corrompu par le chevalier de la mort Marduk le Noir.\n\nAu milieu du combat, Marduk s'est dirigé vers Redpath, et avec de la magie noire il a arraché l'esprit de Redpath, le remplaçant par l'ombre maléfique du brave capitaine.",
+    "Le capitaine Redpath, corrompu, fut à l'origine de la trahison des défenseurs de Darrowshire envers leurs alliés, ainsi que du massacre de ces derniers. Puis les défenseurs se tournèrent vers la ville de Darrowshire et tuèrent tous ceux qui se cachaient dans leur maison.\n\nLe reste de l'armée du Fléau, accompagné de l'esprit corrompu du capitaine Redpath, quitta ensuite le village ravagé de Darrowshire et se rua sur Lordaeron, accroissant ainsi les douleurs et les morts de la Deuxième Guerre.",
+    "Le Destin d'Horgus le Ravageur\n\nHorgus le Ravageur tomba lors de la bataille de Darrowshire. Mais le mal qui vivait en lui ne disparut pas avec lui. Les forces du Fléau victorieuses prirent son crâne sur le champ de bataille de Darrowshire et le transportèrent avec elles pour répandre la terreur parmi les vivants qu'elles croisaient.\n\nQuelques jours plus tard, la compagnie du Fléau qui possédait la tête fut vaincue par les paladins de la Main d'argent. La tête d'Horgus fut immergée dans le lac de Noirbois.",
+    "Le Destin de Marduk le Noir\n\nMarduk a survécu à la Deuxième Guerre. Lui et son épée sont responsables de nombreuses morts et de beaucoup de douleur. Bien que Marduk soit encore en vie, son épée a été perdue dans une bataille près de la Croisée de Corin. Un capitaine nain a fracassé l'épée sur son bouclier enchanté, poussant ainsi Marduk à fuir le champ de bataille, ce qui permit à l'Alliance de remporter la victoire.\n\nL'épée de Marduk s'est enfoncée dans la terre et l'a corrompue, formant une gorge désormais connue sous le nom de Balafre infecte.",
+    "Le Destin de Davil Lightforge\n\nDavil Lightforge est mort à la Bataille de Darrowshire, mais sa bravoure a inspiré toute l'Alliance durant la guerre.\n\nSon livre, son libram de paladin, fut retrouvé par les troupes de la Croisade écarlate. Il se trouve désormais dans l'hôtel de ville de Hearthglen, contrôlée par la Croisade, et il est souvent lu par les croisés désireux de s'inspirer de la force de Davil.",
+    "Le Destin de Joseph Redpath\n\nJoseph Redpath fut tué durant la bataille de Darrowshire. Son esprit fut corrompu et prit une nouvelle forme, et cette créature répandit un grand mal à Lordaeron.\n\nA la Flétrissure de Gahrron, à l'est d'Andorhal, Redpath fut finalement vaincu par les forces de l'Alliance. Son bouclier se trouve toujours près de la grange de la ferme maudite, et les sbires du Fléau sont toujours attirés par son souvenir.",
+    "Le Destin de Carlin Redpath\n\nFrère du capitaine Joseph Redpath, Carlin est tombé durant la bataille de Darrowshire. Bien que grièvement blessé, il ne mourut pas.\n\nQuelques jours après la bataille, les agents de l'Aube d'argent ont trouvé Carlin en train d'errer, assoiffé et fiévreux, près de la Croisée de Corin. Ils l'ont soigné et l'ont transporté à la Chapelle de l'Espoir de Lumière.\n\nPour les remercier de leur charité, Carlin a rejoint les rangs de l'Aube d'argent. Désormais, il cherche à se venger du Fléau."
+   ]
+  }
+ ],
+ "Faded Photograph": [
+  {
+   "first": "",
+   "pages": [
+    ""
+   ]
+  }
+ ],
+ "Fel Tracker Owner's Manual": [
+  {
+   "first": "theconjuringofthebeastto",
+   "pages": [
+    "L'invocation de la créature :\n\nPour invoquer un gangrechien traqueur, vous devez utiliser l'Orbe corrompu fourni.\n\nNotes :\n\nLe gangrechien traqueur invoqué n'apparaîtra que pour trente minutes dans ce monde.\n\nLe gangrechien traqueur invoqué ne fera que vous assister dans votre quête de formations d'Azsharite.\n\nLe gangrechien traqueur conjuré NE FERA PAS ce qui suit : faire des farces, attaquer n'importe quoi, aider quoi que ce soit, danser, détruire des êtres magiques.\n\nPage suivante s'il vous plaît...",
+    "Contrôler la créature :\n\nLe gangrechien traqueur n'obéit qu'aux rugissements bestiaux. Afin d'amener votre gangrechien traqueur à suivre la piste des formations d'Azsharite, vous devez rugir avec vigueur ! (Ciblez le gangrechien traqueur et /rugir).\n\nLorsque le gangrechien traqueur localise une formation, il court sans prêter attention aux entités qui l'entourent. Vous n'aurez pas besoin de protéger le gangrechien traqueur mais il vaut mieux rester près de lui pour ne pas le perdre.",
+    "Se défaire de la créature :\n\nAu bout de trente minutes, la bête retournera chez elle dans le Néant.\n\nNote :\n\nDans son excitation, la bête PEUT tomber d'une falaise ou d'une montagne. Ne pleurez pas la perte d'un gangrechien traqueur, invoquez-en un autre."
+   ]
+  }
+ ],
  "Final Clue to Sander's Treasure": [
   {
    "first": "nowthatyefoundmeolwhiske",
    "pages": [
     "Maintenant que vous avez trouvé la vieille cruche de whisky, vous êtes presque au trésor ! Tournez-vous vers l'ouest et descendez vers le rivage. Ne vous arrêtez pas au bord de l'eau, continuez ! Nagez vers l'ouest jusqu'à l'île où se trouve mon coffre au trésor !"
+   ]
+  }
+ ],
+ "Fishing Tournament!": [
+  {
+   "first": "stranglethornfishingtour",
+   "pages": [
+    "Concours de pêche à Strangleronce!\n\n Dimanche après-midi de 14 h à 16 h !\n\nBaladez-vous le long de la côte de Strangleronce et guettez les bancs de courbines qui apparaîtront le long de la côte ! Envoyez votre flotteur dans le banc, et vous prendrez des poissons inhabituels au lieu des variétés normales de Strangleronce. Le premier à pêcher quarante courbines et à se présenter au maître de pêche Bassbait, à Baie-du-Butin, recevra un prix !\n\nMême si vous n'êtes pas le premier à prendre quarante courbines, vous pouvez toujours vous présenter pour les revendre. Et puis, il existe aussi des poissons spéciaux, pour lesquels il y a des récompenses particulières !"
    ]
   }
  ],
@@ -723,6 +1098,16 @@
    "first": "mrfizzlebubthebeverageyo",
    "pages": [
     "M. Fizzlebub,\n\nLe breuvage que vous avez confié à mon associé a eu beaucoup de succès. En plus d'être une boisson forte et qui trouble l'esprit, elle semble engendrer une certaine accoutumance. Je suis sûr que ceux qui y ont goûté en voudront plus.\n\nNous vous sommes redevables, Crank.\n\nEt je vous invite à venir aux Salines ou à envoyer quelqu'un de confiance pour profiter des nouvelles opportunités dont nous disposons là-bas.\n\n--Kravel"
+   ]
+  }
+ ],
+ "For the Light!": [
+  {
+   "first": "hisnamebroughtlighttodar",
+   "pages": [
+    "Son nom apporta la Lumière dans les ténèbres d'Azeroth.\n\nSa valeur renversa les murs de la souffrance.\n\nLa Main d'argent n'aurait pu accomplir plus grand bienfait\n\nque donner au monde le chevalier qui se sacrifia.",
+    "La renommée n'était pas ce qu'il cherchait,\n\nni le pouvoir sur son peuple.\n\nIl choisit plutôt de lutter pour Lordaeron\n\ndans l'espoir que les siens n'auraient plus à se battre.",
+    "L'histoire tragique de ce chevalier si saint\n\njamais ne se terminera par sa terrible mort.\n\nNous l'honorons, et lui rendons grâce !\n\nUther connaîtra toujours la gloire et la Lumière !"
    ]
   }
  ],
@@ -789,11 +1174,55 @@
    ]
   }
  ],
+ "Glyphic Letter": [
+  {
+   "first": "therearefourrulestomagic",
+   "pages": [
+    "Il y a quatre lois de la magie :\n\n   La Magie est puissante.\n   La Magie corrompt.\n   La Magie est une drogue.\n   La Magie attire les habitants du Néant distordu vers ceux qui manient les arcanes.\n\nCes règles existeront toujours. Ces règles gouverneront votre destinée si vous choisissez de poursuivre plus avant la voie de la magie.\n\nSi vous êtes assez stupide pour ignorer cet avertissement, alors venez me parler dans l'Aile de la Bibliothèque de l'abbaye à Northshire. Je vous attendrai en haut.\n\n-Khelden Bremen, Maître des mages"
+   ]
+  }
+ ],
+ "Glyphic Memorandum": [
+  {
+   "first": "tonewstudentsofthearcane",
+   "pages": [
+    "Pour : Les nouveaux étudiants des Arcanes :\nVous devez chercher le gnome Marryk Nurribit et y suivre son enseignement jusqu'à ce que vous soyez appelés à venir aider notre peuple à se trouver un nouveau foyer. Veuillez, sans angoisse excessive, vous préparer à des épreuves rigoureuses et une acclimatation difficile le temps de trouver un domicile, ou un compagnonnage avec les citoyens locaux.\n\nPosez toute question sur vos devoirs et capacités à Marrek Stromnur."
+   ]
+  }
+ ],
+ "Glyphic Scroll": [
+  {
+   "first": "thecorruptionandevilthat",
+   "pages": [
+    "La corruption et le mal, dont on dit qu'ils voyagent avec les arcanes, ne sont rien face à la douleur que nous avons déjà ressentie. Nous ne sommes plus des victimes, $N. Nous contrôlons désormais notre destin. Sylvanas nous a indiqué le chemin. Elle nous a prouvé que notre volonté nous appartient, que nous ne sommes plus les esclaves de ce maudit Arthas.\n\nTrouvez-moi dans l'église, je vous en dirai davantage... si tel est votre désir.\n\n- Isabella, Maître des mages"
+   ]
+  }
+ ],
+ "Glyphic Tablet": [
+  {
+   "first": "welcometoyourawakeningmo",
+   "pages": [
+    "Bienvenue à votre propre éveil ! Les secrets des arcanes sont à votre portée si vous avez la force de vous y affronter.\n\nVous trouverez Mai'ah lorsque vous le voudrez. Elle vous enseignera bien des choses sur la magie et les sorts dont vous aurez besoin pour détruire ceux qui se dresseront contre vous.\n\nMai'ah se trouve dans la Vallée des épreuves. Allez, trouvez-la et vous gagnerez en force. Puis vous pourrez montrer aux autres mages de quelle manière la magie se soumet à votre volonté... Et pas le contraire."
+   ]
+  }
+ ],
  "Goblin Rumors": [
   {
    "first": "thegoblinnazzsteamboilis",
    "pages": [
     "Nazz Steamboil est en réalité le fils d'un prince marchand gobelin (quel prince ? Cette information vaut de l'or).\n\nIl semble qu'il préfère dépenser l'argent familial plutôt que d'en gagner par lui-même. Il a dérobé une petite fortune à sa famille et est parti se cacher dans les Salines.\n\nSi son père savait où il était, il irait le chercher et le ramènerait à la maison... amputé d'un orteil pour son insolence."
+   ]
+  }
+ ],
+ "Goodsteel Ledger": [
+  {
+   "first": "greetingsandsalutationsa",
+   "pages": [
+    "Salutations, Aventuriers !\n\nMoi, Krinkle Goodsteel, j'ai besoin de ceux qui sont capables de prendre beaucoup de risques pour achever les tâches les plus ardues. En raison de mes nombreux devoirs et des charges que j'ai dû endosser, je m'assurerai que quiconque est assez brave pour rapporter cette liste d'objets intacts soit grassement récompensé.\n\nLa liste est contenue dans les pages suivantes...",
+    "Manches dans des pattes de cristal solide -\n\nLes araignées verrières de la gorge des Vents brûlants sont constituées d'une matière incroyable qui ressemble à du cristal. Leurs pattes, si elles ne sont pas endommagées lorsqu'on les tue, s'avèrent d'excellents conducteurs, utilisés par mes compagnons dans plusieurs expériences.\n\nIl m'en faudrait plusieurs pour faire des tests. Comme chaque araignée a huit pattes, cela ne devrait pas poser de problèmes pour un guerrier vétéran ou un mage entraîné.",
+    "Un paquet en retard -\n\nJ'ai engagé quelqu'un que je croyais un pilote fiable pour me rapporter un paquet de Theramore. Erreur de jugement. Le pilote a survécu, mais il a laissé derrière lui le zeppelin et sa cargaison pour sauver sa peau.\n\nJ'ai besoin de ce paquet. D'après ce que m'a dit Beezil, il s'est écrasé à l'ouest de la baie du marécage d'Âprefange. L'appareil s'est écrasé juste après avoir traversé les collines le long de la berge.\n\nHmmm... Il ne m'a jamais dit pourquoi il s'était écrasé.",
+    "La Flamberge de Goodsteel -\n\nEnfin, je veux l'une de mes plus belles réalisations à ce jour. Cette flamberge était une épée incroyable que j'ai donnée à quelqu'un que je prenais pour un grand et honorable guerrier. Eh bien, il a été battu à plates coutures par un murloc nommé Jarquai. Ou quelque chose du genre.\n\nIl voyageait le long de la côte des marais des Chagrins quand il a soudain eu l'idée d'attaquer cette créature. Il a échoué et s'est enfui, mais il a laissé l'épée derrière lui et le murloc s'en est saisi.",
+    "Trouvez ces objets et rapportez-les tous à Gadgetzan avec ce livre de compte. Je vous récompenserai."
    ]
   }
  ],
@@ -811,6 +1240,14 @@
    "first": "commanderofthealliancefl",
    "pages": [
     "Commandant des Flottes de l'Alliance\n\nAmi de Stormwind"
+   ]
+  }
+ ],
+ "Grape Manifest": [
+  {
+   "first": "brothernealsmygrapesares",
+   "pages": [
+    "Frère Neals,\n\nMes raisins sont sauvés ! $N, qui vous apporte ce manifeste, a réussi à braver l'adversité et à récupérer les raisins. Bien que les Défias continuent à sévir sur les berges de la rivière, presque toute ma récolte a été sauvée.\n\nVous pourrez ajouter bien des boisseaux à vos échoppes.\n\nQue la Lumière nous protège,\n-Milly Osworth"
    ]
   }
  ],
@@ -1012,11 +1449,51 @@
    ]
   }
  ],
+ "Gryshka's Letter": [
+  {
+   "first": "dearzarghthesteaksyousen",
+   "pages": [
+    "Cher Zargh,\n\nLes steaks que vous avez envoyés sont excellents. Marbrés, bien épais et enrobés de graisse de sanglier. Je ne les aime pas autrement. Quand je les mangerai plus tard, je penserai à vous tandis que je rongerai les derniers os. Je fermerai mes yeux et je verrai vos mains puissantes et balafrées donner des coups de hache et de couteau...\n\nHa ! Ça me rappelle la fois où vous avez eu cet accident, et que vous avez perdu un doigt... Oh, Zargh ! En repensant à ce jour, je suis guillerette comme une petite fille.\n\nVous êtes si mignon lorsque vous saignez !\n\n-Gryshka"
+   ]
+  }
+ ],
  "Hallowed Letter": [
   {
    "first": "yourconnectiontotheworld",
    "pages": [
     "Votre connexion avec le monde, et sa connexion avec vous, sont d'une importance vitale pour votre formation de prêtre. Sagesse et compassion vous permettront d'aider ceux qui en ont vraiment besoin. La précipitation et la maladresse causeront des désastres et affaibliront les autres.\n\nAu fur et à mesure que vous comprendrez ce que cela signifie, vous aurez besoin de nouvelles techniques et de nouveaux sorts pour vous aider. C'est là que mon rôle commence : venez me voir dans la bibliothèque de l'abbaye de Northshire quand vous penserez l'heure venue.\n\n-Prêtresse Anetta, Maître des prêtres"
+   ]
+  }
+ ],
+ "Hallowed Rune": [
+  {
+   "first": "withtheholylightwarminou",
+   "pages": [
+    "La Sainte Lumière nous soutient et nous faisons chaque jour de nouvelles découvertes. L'heure est à l'enthousiasme pour les enfants d'Ironforge. La Ligue des explorateurs avance chaque jour pour révéler les réponses à nos plus anciennes questions. Et aujourd'hui, vous rejoignez nos fidèles pour les aider au combat contre les troggs et les autres menaces qui rôdent à nos frontières.\n\nVenez me voir quand vous en aurez le temps. Je serai derrière Anvilmar, en haut de la colline.\n\n- Branstock Kahlder, Maître des prêtres"
+   ]
+  }
+ ],
+ "Hallowed Scroll": [
+  {
+   "first": "feelblessedthatyourespir",
+   "pages": [
+    "Réjouissez-vous que votre esprit n'ait pas été lâché dans le Néant, $N. Réjouissez-vous davantage que je vous pense apte à recevoir ce parchemin.\n\nLes gens que vous avez connus naguère, que vous avez aimés peut-être, ne sont plus. Vous devez apprendre à \"vivre\" avec cela jusqu'à la fin de votre vie... quelle qu'elle soit. Avant toutes choses, le vous suggère d'apprendre à l'accepter.\n\nSi vous pensez pouvoir affronter les épreuves à venir, venez me voir dans l'église du Glas.\n\n- Sombre clerc Duesten, Maître des prêtres"
+   ]
+  }
+ ],
+ "Hallowed Sigil": [
+  {
+   "first": "ihopethissigilfindsyouwe",
+   "pages": [
+    "J'espère que vous allez bien, $N. Les esprits m'annoncent votre venue et c'est pour cela que je vous écris vite. J'ai hâte de partager avec vous mon expérience et de vous guider vers les affaires importantes qui vous attendent hors de Teldrassil.\n\nAvec tout ce qui est survenu au cours des dernières années, nous pouvons faire beaucoup pour aider les autres races d'Azeroth. Venez me voir quand vous penserez l'heure venue, je serai à Aldrassil, au deuxième niveau.\n\n-Shanda, Maître des prêtres"
+   ]
+  }
+ ],
+ "Hallowed Tablet": [
+  {
+   "first": "ahhopedaspiritshaveprote",
+   "pages": [
+    "J'espère que la protection des esprits ne vous a pas été mesurée jusqu'à aujourd'hui. Vous avez bien des épreuves à affronter, mais je partagerai mon expérience avec vous quand vous le voudrez. A vous de voir quelle puissance vous voulez atteindre. Je ne pourrai vous guider que lorsque l'heure sera venue.\n\nPour certains, cela vient très vite. Pour d'autres... c'est plus lent. Mais ne vous inquiétez pas. Nous parlerons davantage quand vous serez là.\n\n-Ken'jai, Maître des prêtres"
    ]
   }
  ],
@@ -1112,6 +1589,14 @@
     "Ner'zhul envoya une vague de mort née dans les profondeurs du Trône de glace sur les terres arctiques. Contrôlant cette peste par la seule force de sa volonté, il la conduisit jusque dans les villages humains. En trois jours, tous les humains avaient péri. Presque aussitôt, les villageois morts se relevèrent sous la forme de cadavres zombifiés. Ner'zhul était capable de ressentir leur esprit et leurs pensées comme s'ils faisaient partie de lui.",
     "Cette cacophonie rugissant dans son esprit lui permit de croître encore en puissance, comme s'il se nourrissait de ces âmes. Il découvrit qu'il était très facile de contrôler les actions des zombies et d'en faire ce que bon lui semblait.",
     "Pendant les mois qui suivirent, Ner'zhul continua de faire des expériences avec sa peste mortelle en s'appropriant tous les habitants humains de Northrend. Son armée de morts-vivants grossissait chaque jour et il savait que l'heure de la confrontation véritable approchait."
+   ]
+  }
+ ],
+ "Important Blackrock Documents": [
+  {
+   "first": "wyrmthalakihavebeengiven",
+   "pages": [
+    "Wyrmthalak,\n\nj'ai reçu des ordres directs de votre maître, Nefarian. Je dois vous punir comme je le crois approprié si d'autres étrangers pénètrent dans la citadelle.\n\nN'oubliez pas qui commande, reptile.\n\nLe fils de Blackhand : Maître des épées et des combats. Le seul vrai Chef.\n\n-Rend"
    ]
   }
  ],
@@ -1322,6 +1807,14 @@
    ]
   }
  ],
+ "Laird's Response": [
+  {
+   "first": "nessaitisgoodtohearfromy",
+   "pages": [
+    "Nessa,\n\nquel bonheur d'avoir de vos nouvelles.\n\nLes ossements et les écailles que vous m'avez envoyés forment un incroyable ensemble ! Je n'avais jamais vu de poisson de cette taille. Les pêcheurs des Rut'theran doivent pouvoir récupérer sans mal une tonne de poissons chaque jour !\n\nJ'envie l'ampleur de leurs profits, mais quelque chose me trouble néanmoins. Notre nouvel Arbre monde pourra-t-il faire croître des poissons de cette taille ? Si c'est le cas, quels autres effets aura-t-il ?\n\nVoilà des questions à approfondir,\n-Laird"
+   ]
+  }
+ ],
  "Legacy of the Aspects": [
   {
    "first": "ihavedoneagreatdealofres",
@@ -1406,6 +1899,99 @@
    ]
   }
  ],
+ "Lewis' Note": [
+  {
+   "first": "osricpleasefindbelowthel",
+   "pages": [
+    "Osric,\n\nVeuillez trouver ci-dessous la liste des éléments dont nous avons besoin pour nos Armures :\n\n10 chemises de mailles\n20 heaumes\n30 pièces d'armure\n15 paires de bottes en mailles\n\nNous vous sommes, comme à notre habitude, redevables. Et si la marche de l'Ouest était jamais libérée des voleurs qui la menacent, cela apaiserait un peu ma gêne si je pouvais vous inviter dans ma maison pour un bon repas préparé avec la générosité qui a fait autrefois la réputation de ce pays.\n\n-Lewis\nIntendant, Colline des sentinelles"
+   ]
+  }
+ ],
+ "Libram of Constitution": [
+  {
+   "first": "thepageshereincontainmem",
+   "pages": [
+    "<Les pages sont couvertes d'antiques runes elfiques.>\n\nCe document retrace les évènements qui se sont produits lors de la collecte et de la création des composants nécessaires à la fabrication des arcanum mineurs.\n\nPourvu que nos ennemis n'aient jamais accès à cet ouvrage !\n\nPourvu que je vive pour revoir la pâle lueur de la lune inonder Quel'Thalas !\n\nPourvu que je meure pour la grâce de Kael'thas !\n\nPourvu que je tue pour la gloire d'Illidan !\n\nMaître Telmius Cherche-Rêve",
+    "",
+    "",
+    "",
+    ""
+   ]
+  }
+ ],
+ "Libram of Focus": [
+  {
+   "first": "thepageshereincontainmem",
+   "pages": [
+    "<Les pages sont couvertes d'antiques runes elfiques.>\n\nCe document retrace les évènements qui se sont produits lors de la collecte et de la création des composants nécessaires à la fabrication des arcanum majeurs.\n\nPourvu que nos ennemis n'aient jamais accès à cet ouvrage !\n\nPourvu que je vive pour revoir la pâle lueur de la lune inonder Quel'Thalas !\n\nPourvu que je meure pour la grâce de Kael'thas !\n\nPourvu que je tue pour la gloire d'Illidan !\n\nMaître Telmius Cherche-Rêve",
+    "<Vous ne comprenez rien à ce qui est écrit sur ces pages.>"
+   ]
+  }
+ ],
+ "Libram of Protection": [
+  {
+   "first": "thepageshereincontainmem",
+   "pages": [
+    "<Les pages sont couvertes d'antiques runes elfiques.>\n\nCe document retrace les événements qui se sont produits lors de la collecte et de la création des composants nécessaires à la fabrication des arcanum majeurs.\n\nPourvu que nos ennemis n'aient jamais accès à cet ouvrage !\n\nPourvu que je vive pour revoir la pâle lueur de la lune inonder Quel'Thalas !\n\nPourvu que je meure pour la grâce de Kael'Thas !\n\nPourvu que je tue pour la gloire d'Illidan !\n\nMaître Kariel Winthalus",
+    "<L'encre danse et se tord sur la page. Vous avez l'impression que le livre se moque de vous.>"
+   ]
+  }
+ ],
+ "Libram of Rapidity": [
+  {
+   "first": "thepageshereincontainmem",
+   "pages": [
+    "<Les pages sont couvertes d'antiques runes elfiques.>\n\nCe document retrace les évènements qui se sont produits lors de la collecte et de la création des composants nécessaires à la fabrication des arcanum majeurs.\n\nPourvu que nos ennemis n'aient jamais accès à cet ouvrage !\n\nPourvu que je vive pour revoir la pâle lueur de la lune inonder Quel'Thalas !\n\nPourvu que je meure pour la grâce de Kael'thas !\n\nPourvu que je tue pour la gloire d'Illidan !\n\nMaître Telmius Cherche-Rêve",
+    "<Regarder ces pages vous inflige une violente douleur.>"
+   ]
+  }
+ ],
+ "Libram of Resilience": [
+  {
+   "first": "thepageshereincontainmem",
+   "pages": [
+    "<Les pages sont couvertes d'antiques runes elfiques.>\n\nCe document retrace les évènements qui se sont produits lors de la collecte et de la création des composants nécessaires à la fabrication des arcanum mineurs.\n\nPourvu que nos ennemis n'aient jamais accès à cet ouvrage !\n\nPourvu que je vive pour revoir la pâle lueur de la lune inonder Quel'Thalas !\n\nPourvu que je meure pour la grâce de Kael'thas !\n\nPourvu que je tue pour la gloire d'Illidan !\n\nMaître Telmius Cherche-Rêve",
+    "",
+    "",
+    ""
+   ]
+  }
+ ],
+ "Libram of Rumination": [
+  {
+   "first": "thepageshereincontainmem",
+   "pages": [
+    "<Les pages sont couvertes d'anciennes runes elfiques.>\n\nCes pages contiennent les souvenirs des événements liés à la récupération et à la création des composants nécessaires à la réalisation des arcanum inférieurs.\n\nQue jamais nos ennemis ne trouvent l'accès à ces libram.\n\nPuissé-je vivre assez pour voir la lumière de la lune briller de nouveau sur Quel'Thalas.\n\nPuissé-je mourir pour le bien de Kael'thas.\n\nPuissé-je tuer pour la gloire d'Illidan.\n\n-Maître Kariel Winthalus",
+    "",
+    "",
+    ""
+   ]
+  }
+ ],
+ "Libram of Tenacity": [
+  {
+   "first": "thepageshereincontainmem",
+   "pages": [
+    "<Les pages sont couvertes d'anciennes runes elfiques.>\n\nCes pages contiennent les souvenirs des événements liés à la récupération et à la création des composants nécessaires à la réalisation des arcanum inférieurs.\n\nQue jamais nos ennemis ne trouvent l'accès à ces libram.\n\nPuissé-je vivre assez pour voir la lumière de la lune briller de nouveau sur Quel'Thalas.\n\nPuissé-je mourir pour le bien de Kael'thas.\n\nPuissé-je tuer pour la gloire d'Illidan.\n\n-Maître Kariel Winthalus",
+    "",
+    "",
+    "",
+    ""
+   ]
+  }
+ ],
+ "Libram of Voracity": [
+  {
+   "first": "thepageshereincontainmem",
+   "pages": [
+    "<Les pages sont couvertes d'antiques runes elfiques.>\n\nCe document retrace les évènements qui se sont produits lors de la collecte et de la création des composants nécessaires à la fabrication des arcanum mineurs.\n\nPourvu que nos ennemis n'aient jamais accès à cet ouvrage !\n\nPourvu que je vive pour revoir la pâle lueur de la lune inonder Quel'Thalas !\n\nPourvu que je meure pour la grâce de Kael'thas !\n\nPourvu que je tue pour la gloire d'Illidan !\n\nMaître Telmius Cherche-Rêve",
+    "",
+    "",
+    "",
+    ""
+   ]
+  }
+ ],
  "Lonebrow's Journal": [
   {
    "first": "dayonemyjourneyfromironf",
@@ -1436,6 +2022,28 @@
    ]
   }
  ],
+ "Maggran's Reserve Letter": [
+  {
+   "first": "grishyourrequestforsomet",
+   "pages": [
+    "Grish-\n\nVotre requête a été acceptée. Je vous envoie un guerrier tauren pour garder votre poste le temps que vous rendiez visite à votre famille. Revenez dans une semaine !\n\n-Maggran Earthbinder"
+   ]
+  }
+ ],
+ "Manual of Engineering Disciplines": [
+  {
+   "first": "theengineeringdiscipline",
+   "pages": [
+    "Les sciences de l'ingénierie\n\nAlors que l'on peut se demander quelle race fut la première à organiser les sciences de l'ingénierie sur Azeroth, il n'y a aucun doute quant aux races qui en sont les principales actrices : les gnomes et les gobelins. Leur passion de l'ingénierie a permis la création d'inventions fantastiques durant ce qui est indubitablement l'Age magique de l'invention. Par contre, cette passion a également exacerbé leur rivalité raciale. Cela se voit particulièrement dans leur choix divergent de disciplines.",
+    "Ingénierie des gnomes\n\nLes gnomes en tant que race tendent à exceller dans la création d'objets qui servent à manipuler et à contrôler le monde autour d'eux. Alors qu'ils n'ont qu'une connaissance superficielle des explosifs et des armements, l'ingénierie des gnomes se concentre plutôt sur les objets qui permettent de faciliter la vie. C'est une discipline de possibilités théoriques réalisées grâce au savoir-faire gnome. Cependant, certaines possibilités ne sont jamais complètement réalisées.",
+    "Ingénierie des gobelins\n\nPour une race qui se veut neutre dans presque tous les conflits, les gobelins ont été très actifs pour tirer profit de la science. Ils maîtrisent les applications pratiques de l'ingénierie, comme on peut le voir dans leurs créations d'explosifs, d'armes à feu et de machines. Les gobelins ingénieurs n'ont que peu d'intérêt dans la théorie de cette science. Leurs inventions ont la réputation de trop bien marcher. Timorés, s'abstenir.",
+    "Etude de disciplines\n\nLes gnomes et les gobelins protègent leurs savoirs respectifs avec tant de suspicion qu'il est presque impossible d'avoir accès aux deux types de disciplines simultanément. Chaque race, quelles que soient les affiliations politiques, réserve sa discipline à ceux qui acceptent de renoncer à l'autre. Si un apprenti décide d'apprendre l'ingénierie des gnomes, par exemple, l'ingénierie des gobelins lui restera à jamais inconnue.",
+    "Décisions définitives\n\nLe paragraphe précédent soulignait un point important concernant les deux disciplines d'ingénierie. Il est primordial pour la bonne conduite de vos études. S'engager dans l'une des disciplines signifie que toute la panoplie des disciplines adverses ne vous seront pas ouvertes. Alors que cet état de fait peut être décourageant pour un profane, un ingénieur initié comprendra que les gnomes et les gobelins tiennent à garder leurs secrets jalousement. Un peu de connaissance vaut mieux que rien.",
+    "Citations\n\n\"Vous voulez apprendre l'ingénierie des gobelins ? Allez parler à l'un de leurs meilleurs ingénieurs. Je crois que son nom est 'Nubby Stumpfingers'. Ne cherchez même pas à savoir pourquoi.\"\n-- Ringo Tragediction, ingénieur gnome\n\n\"Vous pouvez dire ce que vous voulez sur nous, les gobelins, mais sachez une chose : NOUS AVONS DES EXPLOSIFS !\"\n-- Yazz Nitrospork, bombardier gobelin",
+    "Encore des citations !\n\n\"Vous connaissez ce sentiment quand vous venez de finir de faire quelque chose et que vous le faites fonctionner pour la première fois. Vous éprouvez alors la joie et la puissance du créateur. Les gnomes n'éprouvent jamais cela.\"\n-- Nixx Sprocketspring, Maître-ingénieur gobelin de Gadgetzan\n\n\"L'ingénierie, c'est réaliser les rêves les plus fous !\"\n-- Rovis McCrankenspank, inventeur gnome"
+   ]
+  }
+ ],
  "Marshal McBride's Documents": [
   {
    "first": "reportkoboldstheactivity",
@@ -1462,6 +2070,17 @@
     "Tarrel -\n\nExcusez-moi de vous écrire à la va-vite, mais nous n'avons pas le luxe du temps.\n\nL'équipe de forage a fait des progrès significatifs, exhumant d'importants artefacts des Titans. Mais nous avons également trouvé d'autres objets antiques, en particulier des ossements de grande taille.",
     "Peu après l'exhumation des ossements, nous avons été attaqués par des raptors. Les hommes du régiment de Longbraid ont combattu vaillamment, mais ils ont été submergés. Presque tout le monde a péri. Nous ne sommes que trois à avoir survécu. Un ouvrier du nom d'Ormer s'est montré fort héroïque, en nous protégeant, le Prospecteur Whelgar et moi-même.",
     "Nous nous sommes réfugiés dans une caverne, apparemment hors de danger. Mais nous sommes piégés ici jusqu'à ce qu'une force puisse être envoyée pour reconnaître la position des raptors. Whelgar essaie de continuer le travail mais je suspecte qu'il est toujours bien effrayé. Telle est notre situation, Tarrel. Veuillez presser Longbraid de nous dépêcher immédiatement un contingent de secours.\n\nMon amour vous reste acquis, même en ces heures difficiles.\n\n--Merrin"
+   ]
+  }
+ ],
+ "Metzen's Letters and Notes": [
+  {
+   "first": "onbehalfofsmokywoodpastu",
+   "pages": [
+    "Au nom des Gourmandises Fumebois, nous vous remercions d'avoir accepté d'enquêter. Nous ne savons pas avec certitude quel groupe détient Metzen. Vous pouvez donc commencer par l'un ou par l'autre, à votre guise.\n\nLe temps, c'est de l'argent, mais dans ce cas précis, nous en manquons. Soyez rapide, car ces deux bandes sont capables du pire.\n\nVoici les deux demandes de rançon que nous avons reçues. Bonne chance.",
+    "Si vous voulez retrouver le renne vivant, dépêchez-vous de payer la rançon. Les pirates des Mers du sud n'aiment pas les retards de paiement, et nous savons que l'animal vous rend de grands services dans VOTRE forme de piraterie.\n\nApportez 1000 pièces d'or à l'entrée de la crique des Gréements, à Tanaris. Toute tentative pour libérer le renne nous obligera à lui faire subir le supplice de la planche, avec une toute petite planche suivie d'une très longue chute.\n\nYeargh !\n\nLes pirates des Mers du sud.",
+    "Votre animal bien-aimé supporte assez mal la chaleur incessante de la gorge des Vents brûlants… vous avez intérêt à payer la rançon sans tarder.\n\nNous demandons 700 pièces d'or et cinq rubis stellaires. Vous les placerez dans une boîte dépourvue de signes distinctifs que vous laisserez à l'entrée du passage de Formepierre d'ici une semaine.\n\nSi vous n'obtempérez pas, Metzen deviendra le plat principal du traditionnel festin sombrefer du Voile d'hiver.\n\nMmmm… du renne….",
+    "Plus rapide que des aigles sont ses coursiers,\n\nEt il siffle, et il crie, et il les encourage :\n\n« Hue, Mercer ! Hue, Chilton ! Hue, Jordan et Kaplan !\n\nAllons, Nagle ! Allons, Pardo ! Allons, Goodman et Metzen !\n\nEn haut des murailles ! En haut des toits !\n\nEn avant ! En avant ! En avant, tous ! »"
    ]
   }
  ],
@@ -1502,6 +2121,20 @@
    "first": "hereliesgrommashhellscre",
    "pages": [
     "Ici repose Grommash Hellscream, Chef du clan Warsong\n\nD'une certaine manière, la malédiction de notre peuple a commencé et fini avec Grom.\nSon nom signifie \"coeur de géant\" dans notre vieille langue. Il gagna ce surnom\nde façon bien méritée en s'opposant seul au démon Mannoroth\n- et en achetant notre liberté au prix du sang.\n\nLok'Tar ogar, grand frère. Que le clan Warsong jamais ne disparaisse.\n\n-Thrall, Chef de la Horde"
+   ]
+  }
+ ],
+ "Mor'zul's Instructions": [
+  {
+   "first": "tobindadreadsteedyoumust",
+   "pages": [
+    "Pour vous lier à un Destrier de l'effroi, vous devez faire les trois choses suivantes :\n\nCréer un Cercle d'invocation supérieure.\n\nA l'intérieur du Cercle, ouvrez une porte vers Xoroth et sortez-en un Destrier de l'effroi.\n\nTriomphez du Destrier de l'effroi, puis rendez-vous maître de son esprit.\n\nLes pages suivantes vous expliqueront comment accomplir chacune de ces actions. Ce ne sera pas facile, mais vous avez prouvé votre valeur. Montrez-vous habile, et je ne doute pas que le Destrier de l'effroi vous appartiendra.\n\nPoursuivez votre lecture,\n-Mor'zul Bloodbringer",
+    "Les instruments du Rituel\n\nAvant de commencer, il vous faut les instruments magiques suivants :\n\nLe bocal de J'eevee\nUne Magnétite noire\nGlyphes de Xoroth\n\nMon serviteur Gorzeeki vous les fournira, si vous payez. Ne tentez d'accomplir aucune des étapes du rituel si vous n'avez pas tous ces instruments. Chacun est très important.\n\nDans les pages qui suivent, j'expliquerai comment chaque instrument doit être utilisé.",
+    "Cercle de lien supérieur\n\nVous devez créer un Cercle de lien supérieur à un endroit où la magie est forte. Un tel lieu existe loin dans les ruines d'Eldre'Thalas, que l'on appelle aussi Hache-tripes. Un être très puissant est emprisonné à Eldre'Thalas : Immol'thar. C'est sur le socle de sa prison que vous devez accomplir le rituel pour créer le Cercle.\n\nCombattez pour atteindre le Socle, puis laissez J'eevee s'échapper de son bocal.",
+    "La Cloche, la Roue et la Chandelle\n\nQuand vous aurez libéré J'eevee, il mettra en place la Cloche, la Roue et la Chandelle et un cercle apparaîtra. C'est alors que commence le rituel. Prenez garde : les trois objets véhiculent des énergies très puissantes et peuvent cesser de fonctionner. Lorsque cela se produit, utilisez vite votre Magnétite noire pour les remettre en route avant que votre rituel n'échoue complètement.\n\nSi les objets cessent tous les trois de fonctionner avant que vous ne les ayez remis en route, le rituel est interrompu et il vous faudra tout recommencer.",
+    "La Cloche, la Roue et la Chandelle ne véhiculent pas seulement les énergies du rituel mais possèdent aussi des propriétés spécifiques.\n\nLorsqu'elle sonne, la Cloche de Dethmoora confère vigueur et énergie aux démonistes se trouvant à l'intérieur du cercle.\n\nLorsqu'elle tourne, la Roue de la Marche noire protège ceux qui se trouvent à l'intérieur du cercle.\n\nLorsqu'elle brûle, la Chandelle de l'apocalypse projette une énergie surnaturelle sur les ennemis qui pénètrent dans le cercle.\n\nEn raison de ces bienfaits, il est très important que les trois objets fonctionnent pendant le rituel.",
+    "Notez également que la Magnétite noire, qui permet de remettre en route la Cloche, la Roue et la Chandelle si elles cessent de fonctionner, nécessite des fragments d'âme. Chaque fois que vous remettez en route un objet du rituel à l'aide de la Magnétite, un de vos fragments d'âme sera consommé. Veillez donc à en avoir suffisamment avant de commencer le rituel.",
+    "La fin du Rituel\n\nVous pouvez surveiller la progression du rituel à l'aide des runes magiques autour du cercle. Le rituel est terminé lorsque neuf runes ont apparu, et vous verrez l'énergie s'élever du Cercle.\n\nVous pouvez dès lors invoquer les Glyphes de Xoroth, ouvrir une porte vers Xoroth et en sortir un Destrier de l'effroi.\n\nTriomphez du Destrier de l'effroi et libérez son esprit. Affrontez l'esprit et soumettez-le, et vous serez récompensé par le secret de son invocation."
    ]
   }
  ],
@@ -1551,6 +2184,14 @@
    ]
   }
  ],
+ "Nat Pagle's Guide to Extreme Anglin'": [
+  {
+   "first": "andsothatswhereyoullfind",
+   "pages": [
+    "… et c'est là que vous trouverez Porte-cendres, l'épée légendaire du généralissime de la Croisade écarlate.\n\nC'est fou ce qu'on trouve en une journée de pêche, pas vrai ?"
+   ]
+  }
+ ],
  "Neeka's Report": [
   {
    "first": "helgrummycomplimentstowh",
@@ -1559,6 +2200,14 @@
     "Je vais vous décrire les terres environnantes que les éclaireurs de Kargath ont explorées :\n\n-Des collines rocailleuses et rouges et de grandes étendues stériles.\n-Un soleil brûlant et des vents violents.\n-Ni lac, ni rivière. Pas même de point d'eau. Pour trouver de l'eau, les habitants doivent creuser profondément dans des puits boueux ou exploiter le peu d'humidité que l'on trouve dans les cactus.\n\nEn d'autres termes : chaud et difficile à supporter.",
     "Les Terres ingrates regorgent d'ennemis. Les ogres rôdent dans les sables brûlants, tendant des embuscades aux voyageurs trop confiants. Les nains Sombrefer habitent des bâtiments à l'est de Kargath et font la guerre à leurs cousins à la peau claire de Loch Modan, qui se trouvent au nord. Les troggs, brutaux et primitifs, chassent les points d'ombre et les défendent sauvagement.\n\nEt loin à l'est dans les Terres ingrates, il y a le ravin de Lethlor où vivent les dragons. Nous ne connaissons ni leur taille ni leur nombre. Les rares éclaireurs à s'en être approchés ne sont jamais revenus.",
     "Il faut dire que nous, les personnes en garnison à Kargath, sommes satisfaits de notre affectation. Ici, nous sommes constamment en état d'alerte et si nous relâchons notre vigilance, nous sommes morts.\n\nEt je ne voudrais pas qu'il en soit autrement.\n\nNeeka Bloodscar\nChef éclaireur, Kargath"
+   ]
+  }
+ ],
+ "Of Love and Family": [
+  {
+   "first": "",
+   "pages": [
+    ""
    ]
   }
  ],
@@ -1585,12 +2234,55 @@
    ]
   }
  ],
+ "Peeling the Onion": [
+  {
+   "first": "peelingtheonionthehowtog",
+   "pages": [
+    "Peler l'oignon\nComment démanteler les Stormpike\n-par Drek'Thar\n\nVous trouverez dans ces pages de nombreuses informations d'ordre tactique et politique. Le soldat érudit est celui qui se penche sur l'épaule de l'expérience. Que ce livre vous serve de guide dans votre bataille pour la Vallée d'Alterac.",
+    "Chapitre 1 - La première ligne\n\nDémanteler l'armée des Stormpike est tout à fait comparable à peler un oignon. Pour parvenir jusqu'au coeur, il faut commencer par enlever les couches extérieures.\n\nLes premières lignes, principalement constituées de Montagnards Stormpike et de Sentinelles de l'Alliance, sont liées au fortin du capitaine. C'est le capitaine Balinda Stonehearth qui commande ces unités et envoie des renforts quand les lignes sont assiégées. Frappez le capitaine et les forces de la première ligne s'effondreront.",
+    "Chapitre 2 - Les tours jumelles\n\nNe vous y trompez pas. Vanndar Stormpike est très loin d'être stupide. Une fois que la première ligne aura été percée, il faudra encore détruire les défenses secondaires. C'est depuis les tours jumelles de Stonehearth et de l'Aile de glace que sont commandés les gardes Stormpike à l'extérieur de Dun Baldar et les patrouilles Stormpike.",
+    "Prenez garde, soldat, car ces deux tours sont très bien gardées par des troupes sous les ordres de l'un des commandants d'élite de Vanndar. Si vos forces pénètrent dans les fortifications, assurez-vous que le commandant à l'intérieur a été... réduit au silence. Cela aussi fait partie du démantèlement des Stormpike.",
+    "Chapitre 3 - Les quatre commandants\n\nLa troisième couche de l'oignon Stormpike est constituée par les quatre commandants. À cet égard, Vanndar a copié nos glorieuses défenses Frostwolf. Bien sûr, il vous dira le contraire... Mais je m'égare.\n\nLes quatre commandants contrôlent les mouvements des gardes Stormpike qui protègent férocement Dun Baldar. Réduisez-les au silence et les gardes Stormpike tomberont.\n\nIl ne restera alors plus qu'une couche à peler.",
+    "Chapitre 4 - Les fortins de Dun Baldar\n\nComme vous l'avez sans doute remarqué, les couches défensives des Stormpike sont placées de sorte à empêcher qu'une puissante attaque ne détruise les défenses de l'armée entière. Inutile de demander : oui, c'est exactement comme cela que notre propres forces sont positionnées, et non, je ne changerai pas l'organisation de notre défense. Ce sont eux qui nous ont copiés, pourquoi devrions-nous changer ?",
+    "Où en étais-je ? Ah oui, les défenseurs Stormpike - les unités d'élite les plus fidèles de Vanndar - sont commandés depuis les fortins de Dun Baldar (situés à Dun Baldar). Détruisez ces deux tours et les renforts destinés à aider Vanndar n'existeront plus.",
+    "Epilogue\n\nQuand vous aurez fait tout cela, il vous restera le coeur de l'oignon. Vanndar Stormpike se retrouvera seul et sans défenses. Le code de conduite militaire nous oblige à lui demander sa reddition avant de procéder à toute exécution. N'oubliez pas de lui demander de se rendre quand vous le verrez... puis tuez-le."
+   ]
+  }
+ ],
+ "Petrified Bark": [
+  {
+   "first": "simonetheseductressyouwi",
+   "pages": [
+    "Simona la Séductrice :\n\nSimona empoisonne de sa présence le cratère d'Un'Goro. Ne vous laissez pas tromper par son apparence. Approchez-vous d'elle avec prudence et défiez-la.",
+    "Klinfran l'Enragé :\n\nKlinfran erre dans les Steppes ardentes. Approchez-vous de lui avec prudence et obligez-le à se montrer sous sa vraie forme.",
+    "Solenor le Tueur :\n\nC'est dans le paysage aride de Silithus que se tapit le démon Solenor le Tueur. Il est sans doute déguisé et il est extrêmement dangereux. Approchez-vous de lui et obligez-le à se transformer.",
+    "Artorius le Néfaste :\n\nArtorius n'apporte que la corruption et la ruine à tout ce qu'il touche au Berceau-de-l'Hiver. Trouvez-le et tuez-le.",
+    "Soyez prévenu, chasseur, ces démons ne se battent que s'ils le souhaitent. S'ils pensent qu'ils ne peuvent pas vous battre, ils fuient.\n\nPARTEZ SEUL."
+   ]
+  }
+ ],
+ "Podrig's Order": [
+  {
+   "first": "byorderofhighexecutorhad",
+   "pages": [
+    "Par ordre du Grand-exécuteur Hadrec, voici ci-dessous énumérés les objets jugés nécessaires pour maintenir le niveau des stocks du Sépulcre :\n\n12 Epées longues\n9 Dagues\n8 Boucliers ronds\n15 Haches\n1000 Flèches\n\nL'exécution de cet ordre doit être considéré comme un ordre venant directement de la Dame noire. Soyez assuré que les noms des responsables lui seront communiqués de même que ceux qui s'opposent à elle ou cherchent à entraver ses souhaits."
+   ]
+  }
+ ],
  "Prismatic Punch Card": [
   {
    "first": "thesecurityratingofthisd",
    "pages": [
     "Ces données sont très secrètes, si secrètes qu'elles ne peuvent même pas être classées !",
     "01000011 01100001 01110011 01110100 01110000 01101001 01110000 01100101 00100000 00111010 00100000 00111000 00100000 01100011 01101000 01100101 01101101 01101001 01110011 01100101 01110011 00100000 01100101 01110100 00100000 00110011 00100000 01100011 01100001 01101100 01100101 11100111 01101111 01101110 01110011 00101100 00100000 01110011 01110101 01110000 01110000 01101100 11101001 01101101 01100101 01101110 01110100 00100000 01100001 01101101 01101001 01100100 01101111 01101110 01101110 01100001 01100111 01100101 00101110"
+   ]
+  }
+ ],
+ "Proof of Deed": [
+  {
+   "first": "thisproofofdeedistoverif",
+   "pages": [
+    "Cette preuve atteste que $N a tué Margol l'Enragée, fléau de la gorge des Vents brûlants.\n\nLe musée d'Ironforge reconnaît cet exploit, remercie le porteur de la nouvelle et se réjouit de cette généreuse contribution.\n\n-Conservateur en chef Thorius Stonetender"
    ]
   }
  ],
@@ -1605,6 +2297,24 @@
    "first": "thisintactpteradonskelet",
    "pages": [
     "Ce squelette de ptéradon intact a été retrouvé dans le lointain cratère d'Un'Goro. D'après la structure du squelette, on peut affirmer que cette espèce n'a encore jamais été rencontrée. Il pourrait avoir été préservé pendant des siècles dans le riche humus de la région."
+   ]
+  }
+ ],
+ "Quel'Thalas Registry": [
+  {
+   "first": "entrydateunknownnamenath",
+   "pages": [
+    "Date : Inconnue\n\nNom : Nathanos Marris, seigneur des Forestiers de Lordaeron.\n\nEntrée :\n\nL'opposition de Kael'thas Haut-soleil à ma décision d'accueillir Nathanos Marris dans notre ordre a été notée. Par ailleurs, rappelons-nous que Nathanos, bien qu'il soit humain, est l'un des forestiers les plus doués que j'aie jamais eu le plaisir de former.\n\n(à suivre)",
+    "Durant des millénaires nous nous sommes isolés des étrangers. Je serai la première à admettre que nous avons fait des erreurs dans le passé. Les humains n'auraient jamais dû être exposés à la magie. Je ne le nierai pas mais je ne nous condamnerai pas non plus à une existence arriérée à cause des erreurs de nos ancêtres. Il est possible d'aller au-delà de la simple coexistence entre les Quel'dorei et les autres races de ce monde. Nous devons apprendre la tolérance.\n\n(à suivre)",
+    "C'est en ces termes que je rejette la requête de Kael concernant Nathanos Marris. Il sera un allié de valeur. Souvenez-vous de mes propos.\n\nSigné,\n\nSylvanas Windrunner\nGénéral des Forestiers de Lune-d'argent."
+   ]
+  }
+ ],
+ "Rabine's Letter": [
+  {
+   "first": "layowehavereceivedthegen",
+   "pages": [
+    "Layo :\n\nNous avons reçu l'aide généreuse de cet aventurier. Je vous l'ai envoyé à Silithus pour vous soutenir. Notez qu'il ne doit pas être gaspillé dans vos efforts pour comprendre les secrets qui sont enfouis ici. Le Cercle attend avec impatience des progrès.\n\nQue Cénarius veille sur vous...\nRabine"
    ]
   }
  ],
@@ -1640,6 +2350,14 @@
     "Stormwind, après quoi les honoraires de la Guilde des Maçons n'ont pas été acquittés.\n\nÀ l'époque, Edwin VanCleef venait d'être élu Maître de la Guilde des Maçons et il se fit le porte-parole des doléances de ses compagnons. En réponse, la Maison des Nobles de Stormwind ordonna la dissolution de la Guilde des Maçons, ce qui, c'est compréhensible, rendit VanCleef furieux. Dans une atmosphère d'émeute, VanCleef mena les Maçons hors de la ville.\n\nAvant de continuer, voici quelques-uns des événements qui sont survenus durant",
     "ces temps troublés et sur lesquels j'attire l'attention de Votre Majesté.\n\nTout d'abord, c'est à cette époque que je me vis offrir le poste d'architecte de la cité à condition de ne pas rejoindre VanCleef. En raison de certains divergences d'opinion avec lui, je choisis de rester à Stormwind.\n\nPendant les émeutes, le lieutenant de VanCleef, Bazil Thredd, fut capturé et jeté en prison, où il fut presque oublié, dans l'attente d'un procès.\n\nPour en revenir à VanCleef, après avoir conduit le restant des",
     "Maçons hors de Stormwind, il profita des faibles défenses de la marche de l'Ouest et s'appuya sur ses troupes pour chasser nombre de fermiers avant de s'emparer des mines d'or.\n\nGrâce à ces ressources, VanCleef a préparé la vengeance contre le gouvernement de Stormwind.\n\nCette information m'est parvenue dernièrement grâce à l'aide du porteur de ce document, qui a beaucoup contribué à mettre en lumière les dessous de cette vaste conspiration."
+   ]
+  }
+ ],
+ "Rexxar's Testament": [
+  {
+   "first": "thispagedocumentisblank",
+   "pages": [
+    "Ce document de 3 pages est vierge."
    ]
   }
  ],
@@ -1693,6 +2411,30 @@
    ]
   }
  ],
+ "Rune-Inscribed Note": [
+  {
+   "first": "igreetyouyoungthewindsto",
+   "pages": [
+    "Je vous salue, jeune $C. Les vents m'ont annoncé votre arrivée. La terre loue votre force. Et désormais les esprits anciens annoncent vos futurs accomplissements. Notre peuple a besoin de chefs importants et sages. Il se tourne souvent vers nous pour ces deux vertus. Si vous le désirez, je vous instruirai.\n\nTrouvez-moi dans le Camp Narache sur la Mesa de Nuage rouge. Nous discuterons plus amplement.\n\n-Meela Dawnstrider, Maître des chamans"
+   ]
+  }
+ ],
+ "Rune-Inscribed Parchment": [
+  {
+   "first": "loktarbrothersistertheel",
+   "pages": [
+    "Lok-tar, $gfrère:soeur;. Les éléments annoncent votre venue et me demandent de vous guider sur la voie du chaman. Les esprits de nos ancêtres observent depuis l'au-delà et tremblent de fierté à l'idée que vous ayez rejoint nos rangs.\n\nQuand vous le jugerez bon, venez me voir à l'entrée de l'Antre. C'est là que je forme les nôtres. Jusque là, que les vents vous soient favorables.\n\n-Shikrik, Maître des chamans"
+   ]
+  }
+ ],
+ "Rune-Inscribed Tablet": [
+  {
+   "first": "greetingstoyoubrothasist",
+   "pages": [
+    "Salutations. Les esprits disent que vous pouvez maintenant rejoindre nos rangs. Vous avez des liens solides avec les éléments, et vous avez bien plus de puissance aujourd'hui que lorsque vous avez commencé vos leçons avec nous.\n\nJe vous envoie maintenant à Shikrik, la chaman orc de la Vallée des épreuves. Elle sait déjà que vous viendrez étudier avec elle. Remplissez nos ancêtres de fierté. Jusqu'à ce que nous nous revoyions, que la flamme vous réchauffe et que les vents vous portent.\n\n-Ishi-yo"
+   ]
+  }
+ ],
  "Sara Balloo's Plea": [
   {
    "first": "tomyhonorablekingtisnott",
@@ -1738,6 +2480,68 @@
    "pages": [
     "Propagez l'information selon les moyens qui vous semblent appropriés.\n\nCommandement régional de Tirisfal\nCapitaine Melrose\nCapitaine Vachon\nCapitaine Perrine\n\nPar l'ordre du généralissime.\n\nCapitaine Perrine, fortifiez votre position à la tour du sud-ouest (comme indiqué). Des fournitures vous seront envoyées à une date ultérieure. En attendant, les matériaux voulus peuvent être obtenus dans les fermes voisines. De plus, des reconnaissances et des informations",
     "doivent impérativement nous renseigner sur l'organisation des morts-vivants à Brill.\n\nCapitaine Vachon, il semble que les morts-vivants s'agitent près de la tour du Nord. Vous devez vous occuper promptement de ces troubles.\n\nCapitaine Melrose, le niveau d'organisation des morts-vivants cause des soucis près de la frontière des Maleterres. Des troupes fraîches seront affectées à votre position dans les semaines à venir.\n\nGloire et Lumière"
+   ]
+  }
+ ],
+ "Sealed Research Report": [
+  {
+   "first": "helloasitturnsoutiveunea",
+   "pages": [
+    "Salut, $N. Eh bien, il semblerait que j'aie réussi à dénicher quelques informations à partir de cette note.\n\nJe crains de ne pas avoir trouvé grand-chose sur James. Cependant, j'ai fait quelques découvertes sur Amelia.\n\nNi elle ni ses enfants n'ont survécu à la guerre, mais son frère, un certain Alexander Calder, est toujours en vie. Vous pourrez le trouver dans la Caverne lugubre d'Ironforge, où il étudie la dangereuse magie de la Légion ardente.\n\nAmelia avait aussi une cousine dont elle était très proche, nommée Deze Snowbane, qui recrute pour la bataille du bassin d'Arathi à Orgrimmar.\n\nVous devriez rendre visite à l'un d'entre eux quand vous sera dans le coin. Je suis certain qu'ils seront contents d'entendre parler de leur défunte Amelia, à défaut de mieux."
+   ]
+  },
+  {
+   "first": "greetingsithoughtyoumigh",
+   "pages": [
+    "Bien le bonjour, $N. Je pense que vous serez $gintéressé:intéressée; par les résultats de mes recherches.\n\nIl semblerait que des membres de la famille de Reuben et de Leagrem aient survécu... Enfin, c'est une façon de parler. Même s'ils connaissent déjà le destin des soldats tombés, leur rendre visite en vaudra la peine.\n\nVous pourrez trouver l'ex-épouse de Reuben, Joanna Whitehall, dans le Quartier de la guerre d'Undercity, où elle passe le plus clair de son temps. Je ne sais pas trop si elle appréciera vraiment de recevoir des nouvelles, mais vous verrez bien…\n\nQuant à Leagrem, sa tante est devenue la gouvernante de l'orphelinat de Stormwind, un poste admirable.\n\nQuelle que soit la voie que vous suivrez, je vous souhaite bonne chance dans votre entreprise."
+   ]
+  },
+  {
+   "first": "ihopethisletterfindsyouw",
+   "pages": [
+    "$N, j'espère que cette lettre vous trouvera en bonne santé. Après avoir fouillé dans mes archives, j'ai découvert quelques informations sur les personnes qui ont écrit la note que vous avez récupérée.\n\nLe père de Samla dirige les Réprouvés et les trolls qui font le pèlerinage vers Thunder Bluff, en digne représentant de sa foi. Il se nomme Miles Welsh, et vous pourrez le trouver avec ses amis morts-vivants aux Bassins de la vision.\n\nLa cousine de Torgal, Elissa Dumas, a survécu. D'après ce que j'ai compris, elle mène une existence de recluse, et passe ses journées au Temple de la lune à Darnassus.\n\nJe vous conseille de rendre visite à l'un d'entre eux, $N. Ils n'ont peut-être jamais appris ce qui était arrivé à Torgal ou Samla."
+   ]
+  },
+  {
+   "first": "thekeeperpassedonthelett",
+   "pages": [
+    "“Le Gardien m'a transmis la lettre que vous avez découverte, $N, et j'ai pensé que vous apprécieriez peut-être quelques nouvelles.\n\nOn a retrouvé la trace du dernier survivant de la famille du \"Vargus\" mentionné dans le courrier en Silithus, au Fort cénarien. Il se nomme Garon Hutchins.\n\nVous devriez lui parler durant votre prochaine excursion dans le désert. Il sera peut-être heureux que vous lui relatiez ce que nous avons appris.\n\n\""
+   ]
+  },
+  {
+   "first": "salutationsiveatlastfoun",
+   "pages": [
+    "Salutations. J'ai enfin trouvé le temps d'examiner la missive que vous avez trouvée sur le Fléau. Bien que cela m'ait donné un peu de fil à retordre, je pense avoir découvert une parente du défunt encore en vie.\n\nLa sœur de Maxwell, une certaine Zarena Cromwind, dirige une petite affaire de vente d'armes à Baie-du-Butin. Je ne sais pas vraiment si elle était très proche de son frère, mais si vous passez dans la région, vous devriez lui rendre une petite visite. Pouvoir mettre un point final à ce genre d'affaire est une chose précieuse et rare, de nos jours."
+   ]
+  },
+  {
+   "first": "ivefinallyunearthedsomei",
+   "pages": [
+    "J'ai enfin réussi à déterrer quelques informations sur l'ancien soldat que vous avez combattu. La piste était difficile à suivre, car cette branche de l'arbre généalogique de la famille n'était pas à jour. Mais je suis tout de même parvenu à trouver un de ses parents.\n\nAuriez-vous cru que le conservateur Alen, à la chapelle de l'Espoir de Lumière, est en réalité le fils de Christoph ? Recevoir des nouvelles de son père pourrait l'apaiser. Si vous vous retrouvez une nouvelle fois au service de l'Aube d'argent dans les Maleterres, je vous en prie, allez lui parler. Ce serait un acte de pure bonté."
+   ]
+  }
+ ],
+ "Secret Note #1": [
+  {
+   "first": "agashamourplansmustbekep",
+   "pages": [
+    "Agasham,\n\nnos plans doivent rester secrets à tout prix ! Il serait désastreux que les autres tribus taurens découvrent notre alliance.\n\nSigné,\n\nMessager Elm"
+   ]
+  }
+ ],
+ "Secret Note #2": [
+  {
+   "first": "agashamworkingtogetherou",
+   "pages": [
+    "Agasham,\n\nEn travaillant de concert, nos forces seront plus puissantes que toutes les tribus de taurens réunies ! Mais nous avons besoin de votre totale obéissance. Souvenez-vous, votre peuple sera récompensé lorsque nos plans auront porté leurs fruits !\n\nSigné,\n\nMessager Rex"
+   ]
+  }
+ ],
+ "Secret Note #3": [
+  {
+   "first": "agashamouragentsfromlord",
+   "pages": [
+    "Agasham,\n\nNos agents de Lordaeron rencontreront bientôt vos délégués, très bientôt. Nous vous contacterons quand nous aurons trouvé un lieu adéquat pour notre rencontre.\n\nSigné,\n\nMessager Grakus"
    ]
   }
  ],
@@ -1801,6 +2605,14 @@
    "first": "manytribesclaimthatitisa",
    "pages": [
     "Bien des tribus affirment que c'est un don de savoir utiliser la magie ou de pouvoir parler avec les ancêtres. Mais sachez que vous aussi avez des dons, $C. Il est des gens qui n'ont pas le bras assez puissant pour tenir le bouclier, parer le coup d'un assassin, souffrir les douleurs infligées par un maître des arcanes. Vous, si. Vous avez cette force. Et je vous aiderai à en profiter. Vous me trouverez au Camp Narache.\n\n-Harutt Thunderhorn, Maître des guerriers"
+   ]
+  }
+ ],
+ "Simple Parchment": [
+  {
+   "first": "thromkawarrioriwontfawno",
+   "pages": [
+    "Throm-Ka, guerrier. Je ne m'attarderai pas sur votre valeur et votre force. Tout ça est connu. Vous avez tué des humains dernièrement ? Pas beaucoup, je suppose. Vous mollissez. Sans défis, vous vous embourgeoisez.\n\nJ'ai besoin d'un peu d'aide et, quoi que vous en pensiez, vous aurez l'usage des leçons que je peux vous donner. Quand vous aurez réussi à vous enfoncer ça dans le crâne, je vous attendrai sous la canopée.\n\n-Frang, Maître des guerriers"
    ]
   }
  ],
@@ -1919,6 +2731,14 @@
    ]
   }
  ],
+ "Studies in Spirit Speaking": [
+  {
+   "first": "oooooooooooooooooooooooo",
+   "pages": [
+    "OoOoOoO OOoOOoo OOOoOoo OOoOooO OOoOOoO OOooooO Oooooo OooOOOO OOoOOOo OOoOOoo OOoOooO OOoOOOo OOooOoO Oooooo OooOOOo OOooooO OOOoooo OOooooO Oooooo OoOoOOo OOooooO OOoOOoo OOoOOoo OOooOoO OOOOooO Oooooo OooOoOO OOoOOOo OOoOooO OOooOOO OOoOooo OOOoOoo OOOooOO Oooooo OOoOOOO OOooOOo Oooooo OooooOO OOoOooo OOooooO OOoOOOO OOOooOO"
+   ]
+  }
+ ],
  "Sully Balloo's Letter": [
   {
    "first": "dunmodrofthewetlandsmyde",
@@ -1959,6 +2779,38 @@
    "pages": [
     "Trouvez du jade. ll y en a à différents endroits. C'est une denrée rare, mais si vous parlez avec un forgeron ou un ingénieur, ils en auront peut-être un peu en réserve.",
     "Trouvez un Roncier de foudre. Pour le fabriquer, récupérez 10 bâtons totem de Witherbark que l'on trouve sur les trolls Witherbark des hautes-terres d'Arathi. Emportez les bâtons au Cercle de lien extérieur, un cercle de pierres qui se trouve sur les mêmes plateaux. Placez les bâtons au centre du cercle de pierres et attendez que la foudre s'abatte sur eux. Vous obtenez alors un Roncier de foudre."
+   ]
+  }
+ ],
+ "Tainted Letter": [
+  {
+   "first": "toooftenpeoplelikethefol",
+   "pages": [
+    "Trop souvent des personnes comme les disciples du Feu sacré effraient ceux qui recherchent le vrai pouvoir en les induisant à croire qu'ils ne peuvent maîtriser aucune forme des arcanes. Toutes les choses extérieures à ce monde ne sont pas mauvaises. Toutes les entités ne cherchent pas à dominer ou à soumettre les autres. Si vous êtes assez puissant, ces mêmes entités peuvent devenir vos disciples.\n\nC'est quelque chose dont j'aimerais discuter davantage avec vous. Trouvez-moi dans le cimetière situé sur le côté droit de l'abbaye.\n\n-Drusilla La Salle, Maître des démonistes"
+   ]
+  }
+ ],
+ "Tainted Memorandum": [
+  {
+   "first": "attentionremainsilentdon",
+   "pages": [
+    "ATTENTION :\n\nNe dites rien ! Ne regardez personne ! Quelqu'un est peut-être en train de vous surveiller en ce moment même.\n\nMon nom est Alamar Grimm, $N. J'entraîne ceux qui sont à la recherche d'une connaissance et d'un pouvoir venant... de mondes lointains. On m'a demandé de me mettre en contact avec vous discrètement et de vous informer que je peux vous enseigner une forme de magie véritable.\n\nQuand vous le pourrez, venez me trouver à l'arrière d'Anvilmar.\n\n-Alamar Grimm, Maître des démonistes"
+   ]
+  }
+ ],
+ "Tainted Parchment": [
+  {
+   "first": "iwritethismessageinthemo",
+   "pages": [
+    "J'ai écrit ce message avec l'encre la plus puissante que je suis arrivé à créer, $N. Une malédiction s'abattra sur quiconque tentera de le lire à part vous. Je suis assez puissant pour cela. J'invoque des démons du Néant distordu selon mes bons plaisirs. Je tourmente mes ennemis durant leur sommeil et sur le champ de bataille. Et désormais, vous aussi connaissez la puissance qui est la mienne. Mes frères sont très contents de cela.\n\nTrouvez-moi dans les profondeurs de l'Antre une fois que vous aurez trouvé votre chemin. Je vous parlerais alors de certaines choses importantes.\n\n-Nartok, Maître des démonistes"
+   ]
+  }
+ ],
+ "Tainted Scroll": [
+  {
+   "first": "anawfulpredicamenttofind",
+   "pages": [
+    "C'est une bien terrible situation, $N, n'est-ce pas ? Tourmentés par le vil prince. Ostracisés par nos propres familles. Nous avons retrouvé notre volonté propre, grâce à la belle Sylvanas, mais qu'y avons-nous gagné ? Changer de maître ne libère pas un esclave, telle est mon opinion.\n\nMais si nous devenions les maîtres à notre tour ? Oui, vous me comprenez, j'en suis certain.\n\nNous sommes séparés du reste des Réprouvés, $N. Et c'est pourquoi nous devons parler. Vous me trouverez à l'église du Glas."
    ]
   }
  ],
@@ -2105,6 +2957,28 @@
    ]
   }
  ],
+ "The Eye of Divinity": [
+  {
+   "first": "whenyoupeerintotheeyeima",
+   "pages": [
+    "Quand vous regardez dans l'Oeil, les images d'une grande bataille emplissent votre esprit.\n\nOn dirait que cet effroyable affrontement se déroule quelque part à Lordaeron.\n\nVous distinguez à peine une silhouette féminine, seule parmi des milliers de cadavres, repoussant une vague de morts-vivants du Fléau. Ils vont l'écraser sous leur nombre.\n\nDes filaments de lumière jaillissent de ses mains, lacérant des centaines de morts-vivants.",
+    "En vain, semble-t-il. Quelques instants plus tard, la prêtresse est submergée par les cadavres des paysans qui l'entouraient… Les morts se sont levés."
+   ]
+  }
+ ],
+ "The Feast of Winter Veil": [
+  {
+   "first": "thefeastofwinterveilthel",
+   "pages": [
+    "La Fête du Voile d'hiver\n\nLes dernières saisons d'Azeroth sont une période de changement dans de nombreuses cultures. Les nains et les taurens, plus particulièrement, célèbrent la légende du Voile d'hiver : la neige recouvre les terres d'un manteau pur qui annonce le renouveau. C'est une période de fête et de célébrations. Bien que les légendes que les races d'Azeroth partagent soient à peu près similaires, les manières qu'elles choisissent pour les célébrer sont aussi diverses que le nombre de races.",
+    "La Légende de Grand-père Hiver\n\nL'expression \"Voile d'hiver\" viendrait d'un être surnaturel, souvent appelé Grand-père Hiver, qui existe dans de nombreuses cultures. On dit que l'hiver le dissimule lorsqu'il se déplace dans le pays à la fin des saisons. À sa suite, le pays se recouvre de neige. La légende dit que Grand-père Hiver a jeté son voile d'hiver sur les terres. Bien que de nombreuses parties d'Azeroth restent sous la neige, cela laisse le temps à la terre de renaître.",
+    "Les nains\n\nLes nains sont obsédés par la recherche de leurs origines. Les nains ont choisi de célébrer la saison comme une reconnaissance de Grand-père Hiver lui-même. Ils considèrent qu'il est la personnification d'un membre des anciens d'Azeroth : les Titans. Bien qu'ils revendiquent une descendance plus ou moins éloignée avec ces êtres mystiques, ils considèrent que Dun Morogh est le meilleur exemple des bienfaits de Grand-père Hiver.",
+    "Les taurens\n\nLa légende du Voile de l'hiver s'accommode parfaitement de la vision chamaniste de l'hiver des taurens et de leurs intérêt récent pour le druidisme. Ils se focalisent presque entièrement sur les aspects de la tradition relatifs à la renaissance, laissant toute la partie cultuelle aux races qui, selon eux, sont moins en accord avec la nature des choses. De nombreux taurens considèrent cette époque comme le bon moment pour rendre grâce pour leur nouveau foyer à Mulgore.",
+    "Fête\n\nL'idée de fête durant cette époque de l'année est intimement liée à la légende elle-même. Tandis que Grand-père Hiver traverse Azeroth et apporte l'hiver, la légende dit qu'il est généreux avec ceux qui fêtent sa présence. En tant que telle, l'idée de fête durant le Voile d'hiver rapprocherait les différentes communautés car elles partagent ce qu'elles possèdent. Une seule journée de joie et de fête accueille le changement, en prévision du renouveau des terres.",
+    "Pratiques actuelles\n\nD'autres cultures ont commencé à accepter la Fête du Voile de l'hiver comme une période de célébration, bien que dans une tradition différente de ce sur quoi repose la légende. Les coutumes ne sont désormais rien d'autre qu'un prétexte pour des festivités et des échanges de présents. Même l'image de grand-père Hiver est parfois utilisée, mais davantage comme héraut commercial que comme titan surnaturel."
+   ]
+  }
+ ],
  "The First Troll Legend": [
   {
    "first": "amoonoverthevaleshinesca",
@@ -2140,6 +3014,19 @@
    ]
   }
  ],
+ "The Frostwolf Artichoke": [
+  {
+   "first": "thefrostwolfartichoketal",
+   "pages": [
+    "L'artichaut Frostwolf : Récits glorieux des Stormpike\n-par Vanndar Stormpike\n\nQu'est-ce que les Frostwolf ? La réponse est simple : les Frostwolf sont des sauvages qui essayent de briser notre élan impérialiste et notre impératif souverain.\n\nComme un artichaut, les Frostwolf possèdent des défenses hérissées de piquants, et comme un artichaut, une fois qu'on a ôté la couche extérieure, le coeur apparaît, prêt à être mangé avec une bonne petite sauce à l'aïl.\n\nDélicieux !",
+    "Chapitre 1 - La première ligne\n\nLes premières lignes des défenses des Frostwolf sont constituées de guerriers Frostwolf. Les guerriers sont déployés vers les premières lignes depuis la forteresse du capitaine Galvangar : la garnison de Glace-sang. Le moyen le plus efficace de briser cette couche de leurs défenses est de s'attaquer à la garnison de Glace-sang.\n\nAssiégez la forteresse et débarrassez-vous du capitaine Galvangar. Quand ce sera fait, les premières lignes s'effondreront.",
+    "Chapitre 2 - Glace-sang et la Halte de la tour\n\nUne fois la première couche tombée, la deuxième couche de l\"artichaut\" sera à nu. Détruire les tours Frostwolf qui se dressent près des premières lignes handicapera lourdement les patrouilles et les légionnaires qui sont à l'arrière.\n\nLes tours sont très bien gardées et chacune abrite l'un des commandants d'élite de Drek'Thar. Ils doivent être tués. Cela accélérera le démantèlement des défenses des Frostwolf.",
+    "Chapitre 3 - Les quatre commandants\n\nSi vous avez suivi les conseils de ce guide, deux des commandants de Drek'Thar sont maintenant morts. Bon travail, soldat ! Ils commencent déjà à perdre de leur détermination. Vous devez maintenant achever le démantèlement de la chaîne de commandement en tuant les deux commandants restants.\n\nQuand les quatre commandants seront tués, les légionnaires Frostwolf qui gardent le donjon Frostwolf seront éparpillés, sans personne pour les commander. Prêts à être cueillis !",
+    "Chapitre 4 - Les tours Frostwolf occidentales et orientales\n\nIl n'y a maintenant plus qu'une couche qui vous sépare de la victoire : les unités les plus puissantes et les plus fidèles de Drek'Thar, les Gardiens Frostwolf.\n\nLes Gardiens Frostwolf viennent des sections de réserve qui se tiennent dans les tours Frostwolf occidentales et orientales. Détruisez ces tours et regardez les Gardiens Frostwolf restants fuir dans le déshonneur.",
+    "Epilogue\n\n\"Couvrez le coeur de l'artichaut de beurre d'aïl et de mayonnaise. Accompagnez le repas d'une enivrante bière vieillie.\"\n\nDrek'Thar est maintenant seul, ses deux chiens à ses côtés. Prenez la hutte de guérison Frostwolf  pour vous aider dans votre bataille et finissez-en avec Drek'Thar. Quand le général tombera, cette terre reviendra enfin aux mains de ceux à qui elle appartient : les Stormpike."
+   ]
+  }
+ ],
  "The General's Response": [
   {
    "first": "honorablemagistratesolom",
@@ -2168,6 +3055,16 @@
     "La société tenait ses réunions secrètes dans les clairières de Tirisfal, où les hauts-elfes s'étaient initialement installés à Lordaeron. La secte secrète prit le nom de Gardiens de Tirisfal. Les champions mortels qui étaient choisis pour devenir Gardiens recevaient d'incroyables pouvoirs magiques, elfiques et humains. Il ne devait y avoir qu'un Gardien en même temps, mais son pouvoir était tel qu'il devait pouvoir combattre seul les agents de la Légion où qu'ils apparaissent dans le monde.",
     "La puissance du Gardien était telle que le Conseil de Tirisfal seul était autorisé à choisir ses successeurs potentiels. Quand un Gardien vieillissait, ou se lassait de la Guerre secrète contre le chaos, le Conseil choisissait un nouveau champion et, sous contrôle sévère, canalisait la puissance de l'ancien Gardien dans le nouveau.",
     "Les générations passaient et les Gardiens défendaient l'humanité contre la menace invisible de la Légion ardente sur toutes les terres d'Arathor et de Quel'Thalas. Arathor prospéra tandis que l'usage de la magie se répandait dans l'empire. Cependant, les Gardiens restaient aux aguets de tout signe d'activité démoniaque."
+   ]
+  }
+ ],
+ "The Horde's Hellscream": [
+  {
+   "first": "hisnamewillnotdiehissacr",
+   "pages": [
+    "Son nom ne mourra pas.\nSon sacrifice servira toujours\nà nous montrer la voie.\n\nLes chaînes qui autrefois\nétouffaient notre honneur\nne nous lient plus.",
+    "Entendez-vous son cri ?\nUn hurlement de bataille pour la Horde :\nLa victoire ou la mort !\n\nN'oublions jamais\nsa force face à la mort.\nSon rêve, à présent réalité.",
+    "Le danger est partout !\nLes ennemis cherchent à nous\nremettre dans les fers.\n\nQuand nous combattons, pensez à\ncelui qui fit son devoir.\nHellscream, pour toujours !"
    ]
   }
  ],
@@ -2262,6 +3159,18 @@
     "Les Titans donnèrent pouvoir à de nombreuses races de les aider à façonner le monde. Pour les aider à drainer les cavernes impénétrables sous la terre, ils créèrent les nains à partir d'une pierre magique et vivante. Pour les aider à contenir les mers et à séparer la terre de l'océan, ils créèrent d'immenses géants des mers, de tempérament doux. Pendant longtemps, les Titans transformèrent et bâtirent la terre, jusqu'à ce qu'il ne reste plus qu'un continent parfait.",
     "Au centre du continent, les Titans creusèrent un lac d'énergies scintillantes. Ils le nommèrent Puits d'éternité. Il devait devenir une fontaine de vie pour le monde. Ses puissantes énergies devaient nourrir la structure du monde et permettre à la vie de s'épanouir dans l'humus riche de la terre. Peu à peu, plantes, arbres, monstres et créatures diverses commencèrent à peupler le continent primordial.",
     "Lorsque le crépuscule tomba sur leur dernier jour de travail, les Titans nommèrent le continent Kalimdor : “terre de l'éternelle lumière”."
+   ]
+  }
+ ],
+ "The Pariah's Instructions": [
+  {
+   "first": "setfarbackinthevalleyofs",
+   "pages": [
+    "Le très saint temple de Maraudon se trouve très loin dans la vallée des Lances. Cela a beau être un sacrilège, je demande à un non-centaure de nous aider. Vous allez comprendre pourquoi.\n\nLà, juste derrière les portes, où seuls les esprits et nos prêtres et prêtresses les plus sacrés peuvent se rendre, réside le Prophète sans nom. Il est l'un des plus âgés de toutes les tribus, c'est notre plus haute autorité spirituelle.",
+    "Le Prophète est puissant et communique avec les esprits de nos ancêtres. Mais c'est un fou ! Il n'a aucune idée du vrai pouvoir qu'il possède. L'Amulette des esprits se trouve sur lui. C'est de là que toute sa force provient.\n\nJ'ai appris que l'Amulette est puissante, mais elle est incomplète.",
+    "Il manque cinq gemmes sur l'amulette. Et si ces gemmes sont retrouvées et replacées sur le symbole, le pouvoir de l'amulette excédera de loin celui qui est le sien actuellement. J'ai retrouvé les cinq gemmes, mais j'ai besoin de l'une de vos compétences pour m'aider à les rassembler. Tuer le Prophète sans nom est une hérésie, sans aucun doute, de même que dépouiller son cadavre, mais ce que je voudrais vous demander condamnerait n'importe quel centaure rien qu'en y pensant.",
+    "Les esprits de nos premiers khans rôdent à travers les cavernes de Maraudon. Les premiers enfants de notre mère et de notre père, et nos plus grands chefs : Gelk, Kolk, Magra, Maraudos et Veng. Chacun de ces esprits détient l'une des gemmes manquantes.",
+    "Utilisez le pouvoir de l'Amulette des esprits pour les inciter à se manifester et prenez les gemmes qu'elles ont ! Puis, placez les gemmes sur l'Amulette des esprits et rapportez-la-moi. Une fois que j'aurai l'Amulette d'union, je serai assez puissant pour reformer les tribus afin que nous puissions enfin devenir ce que nos ancêtres voulaient !"
    ]
   }
  ],
@@ -2400,6 +3309,27 @@
    ]
   }
  ],
+ "The War of the Shifting Sands": [
+  {
+   "first": "ithasbeennearlyathousand",
+   "pages": [
+    "Près de mille ans se sont écoulés depuis la “Guerre des sables changeants”. Pendant ce conflit, Fandral Staghelm a été frappé par une terrible tragédie, au cœur du désert de Silithus. Depuis, il porte un lourd fardeau. On suppose que le tempérament désagréable de l'archidruide vient en grande partie des événements décrits ici.",
+    "À un moment donné, une ancienne race insectoïde, les Qiraji, tenta de s'emparer de presque tout Kalimdor. Il revint à Staghelm, l'impérialiste pompeux, et à son armée d'elfes de la nuit, de les affronter sur le champ de bataille.",
+    "Père et fils se battirent vaillamment pour contenir les essaims à l'intérieur de Silithus. Un flot ininterrompu de silithides jaillissait de la forteresse d'Ahn'Qiraj pour renforcer les forces d'invasion des Qiraji. Tout Silithus était assiégé.",
+    "Staghelm l'aîné le regretta par la suite, mais il donna l'ordre au jeune Staghelm, Valstann, de défendre l'avant-poste de Sudevent. Hélas, Valstann fut tué ce même jour, lorsque Sudevent succomba devant les armées d'Ahn'Qiraj.",
+    "Le coeur lourd, la tête pleine de pensées de vengeance, Fandral Staghelm ne renonça pas. Une défaite en Silithus aurait représenté une perte tragique pour la nation des elfes de la nuit, et peut-être pour le monde entier.\n\nLa bataille se poursuivit pendant des mois. Les Qiraji conquirent tout Silithus. Staghelm et son armée furent repoussés jusqu'à Tanaris, et l'arrogance qui poussait Fandral Staghelm jusque-là disparut complètement.Ses troupes étaient décimées. D'innombrables innocents avaient trouvé la mort.",
+    "Son orgueil anéanti, Staghelm ressentit, pour la seconde fois de son existence, ce frisson au centre de son être qui ne pouvait venir que de la peur. C'est en Tanaris qu'il décida d'approcher Anachronos, progéniture de Nozdormu, et de demander l'aide du Vol de bronze.",
+    "Dans un premier temps, Anachronos refusa d'impliquer le Vol de bronze dans les affaires des races inférieures. Il fallut que les Qiraji osent attaquer les Grottes du temps pour qu'Anachronos accepte de s'allier aux elfes de la nuit.",
+    "Anachronos ne tarda pas à réaliser que même le puissant Vol de bronze ne parvenait pas à empêcher la progression des armées des Qiraji. À chaque fois que son souffle anéantissait cinquante insectes, cent autres prenaient leur place. Les lignes des elfes de nuit se délitèrent. Confronté à la possibilité d'une retraite dans les étendues sauvages de Feralas, Anachronos décida d'avertir les enfants des Aspects.",
+    "Il avertit d'abord le Vol draconique d'Ysera. Merithra du Rêve répondit à son appel. Ensuite, le Vol draconique d' Alexstrasza et le Vol draconique de Malygos furent informés.",
+    "Les dragons se rencontrèrent dans la stratosphère, très loin au-dessus de Silithus et de la forteresse d'Ahn'Qiraj.\n\nEtaient présents Anachronos, enfant de Nozdormu, Aspect du Temps.\n\nDu Rêve d'Emeraude vint Merithra, enfant d'Ysera, Aspect de la Nature.\n\nCaelestrasz, enfant d' Alexstrasza, Aspect de la Vie, représentait le Vol draconique rouge.\n\nArygos, enfant de Malygos, Aspect de la Magie, représentait le Vol draconique bleu.",
+    "Les dragons observèrent, et virent un flot incessant de silithides et de Qiraji jaillir d'Ahn'Qiraj. Il leur apparut vite que la force seule ne suffirait pas à mettre un terme à cette guerre. À l'intérieur du temple principal, des dizaines de milliers de soldats Qiraji attendaient, et d'autres naissaient sans cesse. Après une brève éducation, ils étaient prêts à être lâchés sur le monde.",
+    "Arygos fut le premier à sentir les étranges émanations. Le temple monolithique situé au sud d'Ahn'Qiraj irradiait une magie faible, mais très différente de celle des Qiraji. En dépit de leurs efforts, aucun des dragons ne parvint à pénétrer plus avant dans le temple ou à découvrir la source de cette énergie. Seule une créature d'une puissance immense pouvait se dissimuler aussi bien. Peut-être… peut-être que quelque chose d'autre contrôlait les insectes, y compris les Qiraji.",
+    "Les dragons comprirent qu'ils devaient réagir rapidement, sous peine de voir le monde souffrir d'une nouvelle et terrible catastrophe. Après avoir pesé leurs différents choix, ils décidèrent que la meilleure tactique sera d'arrêter l'armée ennemie près de sa source.",
+    "Une immense barrière serait érigée en puisant à la fois dans l'essence des elfes de la nuit et dans celle des vols draconiques. Cette barrière magique retiendrait les silithides et leurs maîtres à l'intérieur des murs d'Ahn'Qiraj, évitant ainsi de futures incursions. Ahn'Qiraj deviendrait une prison."
+   ]
+  }
+ ],
  "The White Stag and the Moon": [
   {
    "first": "intothebraveheartsofherp",
@@ -2444,6 +3374,14 @@
     "L'attaque a été brutale. Ils ont tué le tiers d'entre nous avant que nous ne puissions les abattre. Il nous reste à peine assez d'hommes pour surveiller nos frontières. Ce n'est qu'une question de temps avant que notre surveillance ne se relâche et que le Fléau n'attaque.\n\nEt bien que j'aie repéré le visage de Devlin parmi les désespérés du Fléau cette nuit-là, il s'est éclipsé avant que je ne puisse l'atteindre. Il est peut-être mort, ou peut-être est-il un agent bien vivant du Fléau.\n\nDans les deux cas, il est un monstre.",
     "Devlin nous a avertis que si nous tentions de nous opposer au Fléau, nous étions perdus. Il nous l'a dit quand ils sont entrés pour la première fois dans les clairières de Tirisfal, avant l'encerclement de notre foyer. Il nous implorait peut-être de partir, ou peut-être se vantait-il.\n\nIl est difficile de comprendre les motivations de Devlin. Depuis son enfance, il est un mystère pour nous tous.",
     "Mais il avait raison. Nous sommes perdus. La lignée de la famille Agamand va s'éteindre. Je suis toujours en vie, mais je sais que je n'en ai plus pour longtemps.\n\nJe n'ai pas peur et je ne regrette pas d'être resté avec ma famille. Mais mes dernières pensées vont vers vous.\n\nVivez, ma bien-aimée Yvette, et je trouverai la paix,\n-Thurman"
+   ]
+  }
+ ],
+ "Tinkee's Letter": [
+  {
+   "first": "hifelnokmystudiesinthebu",
+   "pages": [
+    "Salut Felnok !\n\nMes études dans les Steppes Ardentes se déroulent à merveille. Et je suis redevable à $N pour son aide ! Voici ce dont j'ai besoin pour continuer :\n\nUn bitzel en acier\nUn glaceur à 17 jauges\n12 livres de plumes de canard\nUn pot de la colle que vous fabriquez\n\nMerci beaucoup Felnok, et quand on se reverra, rappelez-moi une nouvelle fois de ne pas mettre de la colle dans vos bottes !\n\n-Tinkee"
    ]
   }
  ],
@@ -2503,6 +3441,14 @@
    ]
   }
  ],
+ "Urgent Message": [
+  {
+   "first": "urgentmessagetocliffwatc",
+   "pages": [
+    "Message urgent au garde-falaise Longhorn\n\nUne imposante force de centaures venu du camp E'thok a attaqué une de nos caravanes de ravitaillement. Tous les membres de la caravane sont perdus et les vivres également. Cette attaque audacieuse et sans précédent laisse craindre que d'autres surviennent dans le futur."
+   ]
+  }
+ ],
  "Uther the Lightbringer": [
   {
    "first": "hereliesutherthelightbri",
@@ -2540,6 +3486,22 @@
     "[Supervisor Fizsprocket, please find enclosed a list of the equipment you have requisitioned, approved by President Razdunk.\n\nHe has asked me to remind and to emphasize to you of the Venture Company's vested interest in setting up operations throughout Kalimdor. Our drilling and mining outposts in the Barrens have proven profitable and efficient, but we still await sufficient production numbers from Mulgore, your jurisdiction.\n\nThe advisory board understands the difficulties in establishing]",
     "[a large scale operation so close to the tauren homeland, but do not feel that they pose a large impediment to our overall business plan in the area.\n\nWe are pleased to hear that mining has begun in the mineral rich plains of Mulgore. Because of this the board has approved your equipment request. In addition to mining, we feel that Mulgore also has much to offer in the way of lumber, thus you will also be provided with several of our newest model shredders and raw materials to construct a]",
     "[mill.]"
+   ]
+  }
+ ],
+ "Verdant Note": [
+  {
+   "first": "thespiritscametomeinmydr",
+   "pages": [
+    "Les esprits me sont apparus en rêve la nuit dernière. Ils m'ont annoncé votre visite et m'ont expliqué que ma tâche serait de vous aider. Nous aurons beaucoup à faire pendant le temps trop court que nous passerons ensemble : parler de la nature, des esprits, de la Terre-mère, des elfes de la nuit... Mais je vous enseignerai ces leçons à votre venue, et je ferai tout ce qui sera en mon pouvoir pour vous préparer aux épreuves à venir.\n\nQue la sagesse vous guide. J'attendrai.\n\n-Gart Mistrunner, Maître des druides"
+   ]
+  }
+ ],
+ "Verdant Sigil": [
+  {
+   "first": "whenwordreachedmethatyou",
+   "pages": [
+    "Lorsque j'ai entendu dire que l'heure pour vous était venue, j'ai immédiatement envoyé ce message. Tous les druides de Cénarius ont plaisir à voir grandir notre nombre. Les esprits semblent même avoir gagné en puissance à votre arrivée. En temps voulu, avec de la patience, nous retrouverons notre grandeur passée. Vous me trouverez au sommet d'Aldrassil quand vous le voudrez. Je serai votre guide tant que vous serez à Sombrevallon.\n\n- Mardant Strongoak, Maître des druides"
    ]
   }
  ],
@@ -2604,6 +3566,18 @@
    ]
   }
  ],
+ "Warosh's Scroll": [
+  {
+   "first": "ohiamcursedonceagreatogr",
+   "pages": [
+    "Oh, je suis maudit ! J'étais autrefois un grand mage ogre du clan Pierre-du-pic. J'ai défié Urok Hurleruine et il m'a volé ma magie avant de me maudire. Maintenant j'arpente les couloirs de Hordemar sous cette pauvre défroque !\n\nAidez-moi ! Affrontez Urok et reprenez-lui ma magie ! Ce ne sera pas facile, car Urok reste dans les ombres et ne peut être invoqué que par un grand défi.\n\nCe défi marquera la fin de son allié le plus précieux, le généralissime Omokk.\n\nLisez, vous allez voir.",
+    "Le généralissime Omokk règne sur les Pierres-du-pic, mais seulement grâce à la magie d'Urok. Urok a charmé Omokk avec un sort qui fait tomber raide mort tout ogre qui le défie. Il a utilisé ce sort bien souvent et garde les crânes de ses ennemis en tas, au-dessus de la chambre d'Omokk.\n\nC'est là que vous devez aller pour affronter Urok.",
+    "Trouvez une pique de fortune dans le camp du Bouclier balafré. Les légionnaires les entassent généralement près des nattes, à côté de l'entrée du domaine des ogres Pierres-du-pic.\n\nQuand vous aurez la pique, foncez vers le généralissime Omokk. Tuez-le, placez la tête sur la pique.\n\nVous serez alors prêt pour le vrai défi.",
+    "Rendez-vous au lieu de pouvoir au-dessus du domaine des Pierres-du-pic, par-delà les tunnels de Toile-grouillante. Là sont empilés les crânes des ennemis et rivaux d'Urok. C'est là que vous devez apporter la pique portant la tête d'Omokk !\n\nLorsque la tête sera en place, Urok viendra à coup sûr... Mais d'abord il enverra ses serviteurs contre vous. Battez-les et Urok lui-même finira par être invoqué.\n\nTuez Urok et récupérez ma magie. Quand j'aurai de nouveau mes pouvoirs, je vous récompenserai.",
+    "Bonne chance à vous. Voici un indice qui pourra vous aider dans vos combats contre les serviteurs d'Urok :\n\nLe sort qu'utilise Omokk contre les ogres, celui qui les tue immédiatement, pourrait avoir toujours du pouvoir après la mort d'Omokk. Pendant votre combat contre les serviteurs d'Urok, invoquez la puissance de la tête d'Omokk. Avec un peu de chance, Omokk abattra les serviteurs d'Urok !\n\nQuelle ironie..."
+   ]
+  }
+ ],
  "White Punch Card": [
   {
    "first": "supercriticaltripleencod",
@@ -2626,6 +3600,17 @@
    "first": "hellomorganbusinessingol",
    "pages": [
     "Bonjour Morgan,\n\nLes affaires sont florissantes à Goldshire, au point que je n'ai pas eu le temps de vous envoyer la moindre cargaison !\n\nJ'ai demandé au porteur de ce message de vous remettre un grand paquet de bougies (vous savez, celles que les kobolds aiment porter sur le sommet du crâne ?)\n\nRemerciez ce messager et donnez-lui le paiement qui lui revient."
+   ]
+  }
+ ],
+ "Words of the High Chief": [
+  {
+   "first": "attackersfromallsidescan",
+   "pages": [
+    "Des agresseurs... de tous les côtés.\n\nOn peut le voir dans leurs yeux. Les Grumegueules sont maléfiques. L'ennemi.\n\nOn doit protéger la tribu. On doit protéger Tombe-hiver. On doit repousser les assaillants de nos terres.",
+    "Neige... Aveuglé...\n\nProtéger la tribu ! Les rendre forts... Etre fort...\n\nJe ne sais pas...",
+    "Eau de feu.\n\nEn faire plus. Plus d'eau de feu.\n\nTombe-hiver plus forts avec eau de feu. Battre nos ennemis.\n\nTombe-hiver pas d'alliés. Tombe-hiver forts. Nous très puissants.",
+    "Plus. Encore plus...\n\nTombe-hiver... pas... faible..."
    ]
   }
  ],
