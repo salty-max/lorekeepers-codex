@@ -2110,6 +2110,20 @@ ns.translate({
         { "Die Befehle betreffen mehr als Übungen. Troggs der Felsenkiefer bedrohen das Tal, Trolle der Frostmane haben in der Nähe ein Lager aufgeschlagen, und Balir Frosthammer und Grelin Whitebeard brauchen Hilfe gegen sie. Haltet Eure Waffe bereit, $gReisender:Reisende;. Die Rekruten werden gebraucht, bevor sie das Tal überhaupt verlassen haben." },
       },
     },
+    ["darkshire"] = {
+      title = "Dunkelhain",
+      text = {
+        { "Dunkelhain ist die einzige Stadt, die im Dämmerwald übrig ist, ein Haufen Häuser, ein Rathaus und ein Gasthaus hinter Laternen, die Tag und Nacht brennen. Ihr Oberbürgermeister Ello Ebonlocke regiert sie mit einem Rat, und seine Verwandten befehligen die Nachtwache. Eine Historikerin, Sirra Von'Indi, führt ihre Aufzeichnungen und übersetzt alles, was Ihr bringt, irgendwann." },
+        { "Es ist eine Stadt grimmiger Leute und grimmiger Witze, und mehr Geschichten, als eine Stadt dieser Größe haben sollte. Fragt die alte Wahrsagerin Madame Eva nach irgendeiner davon. Sie weiß schon, nach welcher Ihr fragen werdet." },
+      },
+    },
+    ["deadwind-pass"] = {
+      title = "Gebirgspass der Totenwinde",
+      text = {
+        { "Der Gebirgspass der Totenwinde schneidet ein graues Tal zwischen dem Dämmerwald und den Sümpfen des Elends. Tote Bäume, Krähen und zerstörte Lager säumen den Weg. Es gibt keine bewohnten Dörfer oder Höfe, und die Oger bieten wenig Grund zu verweilen." },
+        { "Medivhs Turm, Karazhan, steht in seinem Herzen, über verlassenen Gebäuden. Der Pass verbindet zwei bewohnte Gegenden, ohne ihre Annehmlichkeiten zu bieten." },
+      },
+    },
     ["deeprun-tram"] = {
       title = "Die Tiefenbahn",
       text = {
@@ -2139,6 +2153,13 @@ ns.translate({
         { "Dun Morogh ist das verschneite Hochland um Ironforge, Heimat der Zwerge des Bronzebeardklans und ihrer gnomischen Nachbarn." },
         { "Es ist unser Land, doch wir teilen es, und nicht immer freiwillig. Die Trolle der Frostmane halten die westlichen Hügel, Troggs graben, wo es ihnen gefällt, und seit dem Fall von Gnomeregan sind die Gnome unsere Nachbarn in ihren eigenen Tälern ebenso wie in unserer Stadt." },
         { "Lernt seine Straßen gut kennen, $gReisender:Reisende;. Die meisten Zwerge, denen Ihr je begegnen werdet, haben auf ihnen ihre ersten Schritte getan." },
+      },
+    },
+    ["duskwood"] = {
+      title = "Dämmerwald",
+      text = {
+        { "Südlich von Elwynn rücken die Bäume zusammen, das Licht wird grau, und Ihr seid im Dämmerwald. Einst war er Teil desselben grünen Waldes. Menschen lebten und ackerten hier wie in Elwynn. Dann senkte sich eine Dunkelheit über diese Wälder, die sich nie wieder gehoben hat. Niemand in Dunkelhain kann Euch mit Gewissheit sagen, warum, auch wenn viele nach Osten blicken, zu den toten Landen des Gebirgspasses der Totenwinde und dem Turm, der dort steht." },
+        { "Was die Dunkelheit brachte, ist klar genug. Die Toten erheben sich auf dem Friedhof von Rabenflucht, Worgen jagen in den Wäldern, Spinnen werden so groß wie Ponys, und Oger sind in die Hügel gezogen. Die Höfe sind verlassen, und wer geblieben ist, hat sich hinter den Laternen von Dunkelhain unter seiner eigenen Miliz versammelt, denn Stormwind hat seine Wachen abgezogen. Es ist ein Ort für mutige Reisende und für Geschichten, die man bei verriegelter Tür am Feuer erzählt." },
       },
     },
     ["edwin-vancleef"] = {
@@ -2271,6 +2292,14 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Sie meint die Einladung freundlich. Ich würde nicht raten, sie in den Farben der Horde anzunehmen." },
       },
     },
+    ["karazhan"] = {
+      title = "Karazhan",
+      text = {
+        { "Karazhan war das Zuhause von Medivh, dem letzten Wächter von Tirisfal. Er erbte Aegwynns außergewöhnliche Macht und mit ihr ein Geheimnis, das sie übersehen hatte: Sargeras hatte sich vor der Geburt ihres Sohnes in ihm verborgen. Durch den Wächter, der sich der Legion entgegenstellen sollte, half ihr Herr Gul'dan, das Dunkle Portal zu öffnen." },
+        { "Khadgar und Anduin Lothar töteten Medivh in diesem Turm, bevor der Erste Krieg endete. Jahre später kehrte er zurück, um Azeroth vor dem Einfall der Legion zu warnen. Selbst der Tod hatte die Geschichte des Wächters nicht beenden können." },
+        { "Das Dorf darunter ist zerstört, und der Keller des Meisters liegt unter seinen verlassenen Gebäuden. Karazhan selbst bleibt verschlossen. Der Turm hat den Mann überdauert, der dort lebte, und die Gewissheit, dass er jemals ganz allein war." },
+      },
+    },
     ["katrana-prestor"] = {
       title = "Lady Katrana Prestor",
       text = {
@@ -2346,11 +2375,27 @@ ns.translate({
         { "Es ist ein trauriger Ort, um hindurchzugehen, und kein sicherer. Die Bruderschaft beobachtet die Straße, und wer eine gewisse Scheune am Rand der Stadt zu lange ansieht, wird wahrscheinlich herausfinden, warum." },
       },
     },
+    ["morbent-fel"] = {
+      title = "Morbent Fel",
+      text = {
+        { "Morbent Fel ist der Nekromant des Dämmerwalds, derjenige, der die Toten von Rabenflucht wandeln lässt, und ein Verbündeter der dunklen Reiter, die aus dem Gebirgspass der Totenwinde kommen. Er lebt in einem Haus oben auf dem verlassenen Gut, über dem Friedhof, hinter seinen Toten und einem Bann, der jeden Schlag gegen ihn ablenkt." },
+        { "Sven Yorgen, ein Holzfäller, dessen Frau und Kinder die Reiter töteten, will ihn tot sehen, und der Weg dorthin ist lang. Das Tagebuch eines Defias verriet Sven, was auf seinem Hof geschehen war. Bischof Farthing in der Kathedrale von Stormwind wies den Weg zu einer Waffe, die den Bann brechen konnte. Das Eisen dafür kam aus den Wracks der dritten Flotte vor dem Sumpfland, wo eine Ladung Lichtschmiedeeisen unterging, und ein zwergischer Schmied in Stormwind schmiedete daraus Morbents Bann." },
+        { "Das ist sehr viel Aufwand für einen einzigen Nekromanten, $gReisender:Reisende;. Sven findet das nicht, und ich stelle fest, dass ich es ihm nicht verdenken kann." },
+      },
+    },
     ["morganth"] = {
       title = "Morganth",
       text = {
         { "In den östlichen Vorbergen des Rotkammgebirges steht ein einsamer Turm, Ilgalar, und in ihm lebt ein Hexenmeister namens Morganth, der die Gnolle der Schattenfelle mit verzauberten Anhängern in seinen Dienst gezwungen hat. Das Gesetz von Seenhain zählt ihn zu den Feinden des Königreichs und jeden, der ihm hilft, zu den Verbrechern." },
         { "Ein Magier aus Elwynn, Theocritus vom Turm von Azora, hat Morganths Gnolle durch eben diese Anhänger belauscht, und was er gehört hat, macht ihm Angst: Morganth sucht nach einem alten elfischen Relikt namens Sense von Elune und hat es vielleicht gefunden. Wenn ja, sagt Theocritus, wird ganz Stormwind es zu spüren bekommen. Von demselben Relikt spricht man im Dämmerwald, im Zusammenhang mit den Worgen. Ich vermerke es, und es gefällt mir nicht." },
+      },
+    },
+    ["morladim"] = {
+      title = "Mor'Ladim",
+      text = {
+        { "Morgan Ladimore war ein Ritter dieses Landes, bekannt dafür, die Armen und Bedrängten zu verteidigen, jung verheiratet mit einem Mädchen namens Lys und Vater von drei Kindern. Als in Lordaeron der Krieg ausbrach, zog er nach Norden, um an der Seite von Uther Lightbringer zu kämpfen, und er sah alles, wozu dieser Krieg wurde: die aufgelöste Silberne Hand, Uthers Tod, die Seuche. Was ihn bei Verstand hielt, war der Gedanke an die Heimkehr." },
+        { "Er kehrte heim in einen dunkel gewordenen Wald und ein zerstörtes Haus, und schließlich, auf dem Friedhof von Rabenflucht, an das Grab seiner Frau. Etwas in ihm zerbrach. Als die Wärter des Friedhofs ihn zurückhalten wollten, tötete er sie, und als er begriff, was er getan hatte, tötete er sich selbst. Man begrub ihn hastig, außerhalb des Friedhofs, und binnen weniger Tage war sein Grab leer. Nun wandelt er als Mor'Ladim durch den Dämmerwald und tötet jeden, dem er begegnet." },
+        { "Er wusste nicht, dass eine seiner Töchter überlebt hatte. Behüterin Ladimore dient in der Nachtwache, und sie möchte, dass er weiß, dass niemand ihm die Schuld gibt." },
       },
     },
     ["mosshide-gnolls"] = {
@@ -2366,6 +2411,13 @@ ns.translate({
         { "Nek'rosh Skullcrusher führt, was von den Dragonmaw im Sumpfland übrig ist, und er ist der Sohn seines Vaters: Nekros Skullcrusher war der Orc, der die Drachenkönigin in Grim Batol gefangen hielt. Als die Drachen sich befreiten, nahmen sie Rache am Klan. Nek'rosh will die seine." },
         { "Er baut die Stärke der Dragonmaw in den Hügeln wieder auf, und er hat Katapulte bauen lassen, um den Hafen von Menethil zu belagern und die Straße nach Loch Modan abzuschneiden." },
         { "Wenn Ihr derjenige seid, der ihn aufhält, $gReisender:Reisende;, wäre die Liga für einen Bericht darüber dankbar, wie. Kurz, wenn Ihr es schafft. Berichte über Orchäuptlinge geraten gern lang." },
+      },
+    },
+    ["night-watch"] = {
+      title = "Die Nachtwache",
+      text = {
+        { "Kommandantin Althea Ebonlocke führt die Nachtwache, die Miliz, die Dunkelhain aufstellte, nachdem Stormwind seine beauftragten Wachen abgezogen hatte. Die Bewohner verteidigen ihre Straße und ihre Tore gegen die Toten von Rabenflucht, die Worgen, die Oger und was sonst noch aus dem Wald kommt." },
+        { "Die meisten sind keine Soldaten, und es sind zu wenige. Dennoch haben sie Dunkelhain am Leben erhalten. Behüterin Ladimore dient unter ihnen. Die Geschichte ihres Vaters steht an anderer Stelle in diesem Register." },
       },
     },
     ["noble-conspiracy"] = {
@@ -2390,6 +2442,13 @@ ns.translate({
         { "Von der Späherkuppe aus bestreifen sie die Straßen, die sie können, jagen die Gnolle und die Defias und schicken ihre Späher in die Dolchhügel und die Ruinen von Moonbrook. Stoutmantle hat seine eigenen Freunde in niederen Kreisen, und durch einen von ihnen, einen Schurken in Seenhain, erfuhr er, wer die Bruderschaft anführt und wo sie sich verbirgt." },
       },
     },
+    ["raven-hill"] = {
+      title = "Rabenflucht",
+      text = {
+        { "Das Dorf Rabenflucht steht leer neben einem Friedhof, der sich über den ganzen Hang ausgebreitet hat. Skelette wandeln durch seine Reihen, Ghule graben zwischen den Gräbern, und die Nachtwache kann die Toten nicht in Ruhe halten. Der Friedhof ist gefährlicher geworden als die verlassenen Häuser um ihn herum." },
+        { "Morbent Fel, ein Nekromant, lebt in einem Haus über dem Friedhof. Ein Holzfäller, dessen Familie er tötete, will ihn tot sehen. In der Nähe bewohnt ein alter Einsiedler eine Hütte mit Blick auf die Gräber. Früher kam er für Vorräte nach Dunkelhain, doch dort hat man ihn schon eine Weile nicht mehr gesehen." },
+      },
+    },
     ["red-dragonflight"] = {
       title = "Der rote Drachenschwarm",
       text = {
@@ -2410,6 +2469,14 @@ ns.translate({
         { "König Varian Wrynn ist verschwunden. Er war der Sohn von König Llane, der im Ersten Krieg ermordet wurde, und wuchs unter den Flüchtlingen Stormwinds in Lordaeron auf. Sein eigenes Schicksal bleibt in der Stadt, über die er herrschte, unbekannt." },
         { "Sein junger Sohn Anduin trägt die Krone. Hochlord Bolvar Fordragon hält das Königreich für ihn, befehligt seine Streitkräfte und beschützt den Jungen. Die königliche Beraterin, Lady Katrana Prestor, steht an Bolvars Seite." },
         { "Stormwinds Heer ist dünn verteilt, und Forderungen treffen aus allen Richtungen ein." },
+      },
+    },
+    ["scythe-of-elune"] = {
+      title = "Die Sense von Elune",
+      text = {
+        { "Die Worgen des Dämmerwalds kamen nicht von Arugal, oder nicht nur von ihm. Die andere Hälfte der Geschichte beginnt in Ashenvale, bei einer Priesterin der Elune namens Velinde Starsong, die um einen Weg betete, ihre gefallenen Gefährtinnen an den Dämonen des Teufelswalds zu rächen, und einen erhielt: die Sense von Elune, ein verdrehter, knorriger Ast, der vielleicht älter ist als die Nachtelfen selbst." },
+        { "Ihr Tagebuch sagt, dass es die Mauern der Welt schwächte, sie zu halten. Durch sie sah sie die Worgen einen eigenen Krieg führen, lernte, ohne Worte mit ihnen zu sprechen, und holte dreißig von ihnen in diese Welt, um an ihrer Seite zu kämpfen. Weitere folgten. Dann verschwanden Rudel, und ihre Zahl wuchs weiter, selbst als sie aufhörte, sie zu rufen, als bräuchte die Sense sie nicht mehr. Sie ging nach Osten über das Meer, sagt das Tagebuch, um einen Zauberer der Kirin Tor namens Arugal aufzusuchen, von dem es hieß, er habe dasselbe getan. Das ist der letzte Eintrag." },
+        { "Die Sense tauchte in der Mine südlich von Dunkelhain auf, die die Einheimischen Rolands Verdammnis nennen. Ein Defias mit dem Spitznamen Jitters zog sie aus einem Haufen Geröll, und die Worgen strömten aus den Wänden. Auf der Flucht verlor er sie wieder, und wo sie jetzt liegt, sagen die Aufzeichnungen nicht. Ein Geschenk einer Göttin, irgendwo im Dunkel einer Mine im Dämmerwald, das vielleicht noch immer Türen öffnet. Mir wäre lieber, eine Priesterin fände sie als ein Schürfer." },
       },
     },
     ["sentinel-hill"] = {
@@ -2433,6 +2500,14 @@ ns.translate({
         { "Fünf Statuen stehen am Tor von Stormwind, und jede Tafel endet gleich: vermutlich verstorben. Es sind die Befehlshaber der Expedition der Allianz, die nach dem Zweiten Krieg durch das Dunkle Portal in die eigene Welt der Orcs marschierten, als Ner'zhul und die letzten der Klans durch es zurückkamen." },
         { "Khadgar, einst Medivhs Lehrling, führte sie, mit General Turalyon an seiner Seite. Die elfische Waldläuferin Alleria Windrunner kundschaftete für sie, Kurdran Wildhammer führte die Greifenreiter, und Danath Trollbane von Stromgarde beriet sie. Sie konnten Ner'zhul nicht davon abhalten, seine Portale zu anderen Welten zu öffnen, und als Draenor sich selbst zerriss, entschieden sie sich, das Dunkle Portal von der anderen Seite zu zerstören, damit Azeroth nicht mit hinabgerissen würde. Es gelang ihnen. Ob einer von ihnen entkam, bleibt, wie das Buch in unserer Bibliothek sagt, abzuwarten." },
         { "Lest die Tafeln selbst. Jede wurde von jemandem geschrieben, der den Helden kannte: Falstad für Kurdran, Uther für Turalyon, Thoras Trollbane für seinen Neffen, Antonidas für Khadgar, dem er alles Gute wünscht, wo immer er sei. Allerias Tafel schrieb ihre Schwester Sylvanas, Waldläufergeneralin von Quel'Thalas, bevor sie zu dem wurde, was sie heute ist." },
+      },
+    },
+    ["stalvan-mistmantle"] = {
+      title = "Stalvan Mistmantle",
+      text = {
+        { "Stalvan Mistmantle war Lehrer in Moonbrook und Hauslehrer bei Familien auf dem Land. Er bildete sich ein, seine Schülerin Tilloa erwidere seine Zuneigung. Als sie einen Verehrer vorstellte und ihren Lehrer einen gütigen alten Onkel nannte, schlug sein eigener Bericht in Wut um. Die Morde folgten." },
+        { "Briefe und Tagebücher verfolgen seinen Weg durch Westfall und Stormwind bis zum Anwesen nordöstlich von Dunkelhain, wo die Dunkelheit des Dämmerwalds ihn weiter verändert hat. Madame Evas Vorahnung beginnt die Suche, doch Stalvans eigene Worte tragen sie zu einem großen Teil weiter." },
+        { "Es ist eine hässliche Geschichte, die man aus so gewöhnlichen Papieren zusammensetzen muss. Eine Lehrstelle, der Briefwechsel einer Familie, der Name einer Schülerin: die Dinge, die zu einem stillen Leben hätten gehören sollen, bleiben zwischen den Spuren derer, die er zerstörte." },
       },
     },
     ["stonefields-and-maclures"] = {
@@ -2479,6 +2554,13 @@ ns.translate({
       text = {
         { "Die Todesminen versorgten Stormwind einst mit Gold. Verlassen, als die Orcs kamen, wurden sie im Ersten Krieg zur Höhle eines Ogers. Sir Anduin Lothar drang in sie ein, um ein heiliges Buch zurückzuholen, das aus Nordhain gestohlen worden war, und geriet selbst in Gefangenschaft. Soldaten aus Stormwind holten sowohl den Ritter als auch das Buch heraus." },
         { "Die Defias haben seither tiefer gegraben. In ihren Stollen finden sich Goblin-Ingenieure, eine Gießerei und ein Schredder, und unter den alten Schächten birgt eine verborgene Bucht ein großes Kriegsschiff im Bau. Van Cleefs Pläne reichen weit über den Diebstahl von Höfen hinaus. Wenn Ihr hinabsteigt, $gReisender:Reisende;, rechnet mit deutlich mehr als einer stillgelegten Mine." },
+      },
+    },
+    ["the-embalmer"] = {
+      title = "Der Einbalsamierer",
+      text = {
+        { "Die Kinder von Dunkelhain kennen die Geschichte vom Einbalsamierer: einem gütigen Alchemisten, dessen Frau Eliza starb und der sie nicht gehen lassen wollte. Er benutzte dunkle Magie, um sein eigenes Herz in ihre Brust zu setzen, und es brachte sie zurück, mit einem Hunger nach Menschenfleisch, sodass er sie begraben halten musste." },
+        { "Es ist keine Kindergeschichte. Der Einbalsamierer ist der alte Einsiedler Calvinius, der in einer Hütte über Rabenflucht lebt, und seine Braut wartet noch immer in ihrem Grab. Sein letztes Geschenk an Dunkelhain war Kleiner, ein aus Toten zusammengenähtes Ungeheuer, das er die Straße zur Stadt hinaufwanken ließ. Die Nachtwache erinnert sich an die Nacht, in der es kam." },
       },
     },
     ["the-stockade"] = {
