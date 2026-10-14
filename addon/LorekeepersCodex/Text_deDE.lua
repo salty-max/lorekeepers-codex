@@ -2109,6 +2109,14 @@ ns.translate({
         { "Die Verlassenen haben herausgefunden, warum: Unter Ambermill liegt ein ruhender Knotenpunkt von Kraftlinienenergie, und Dalaran will ihn wecken. Wozu, weiß niemand im Grabmal, und die Zauberer sagen es nicht." },
       },
     },
+    ["andorhal"] = {
+      title = "Andorhal",
+      text = {
+        { "Andorhal versorgte den Norden Lordaerons mit Getreide. Kel'Thuzads Kult der Verdammten verseuchte seine Kornspeicher, und die Lieferungen trugen die Seuche in die Dörfer dahinter. Eine wohlhabende Stadt wurde zu einem Mittel, den Tod durch das Land zu tragen, das von ihr abhing." },
+        { "Arthas tötete Kel'Thuzad hier, als er die Quelle der Seuche verfolgte. Der Tod des Nekromanten beendete sein Werk nicht. Andorhal bleibt in der Hand der Geißel, seine Ruinen beherrscht von Araj dem Beschwörer. Sowohl das Chillwind-Lager als auch das Bollwerk wollen den Lich vernichtet sehen." },
+        { side = "Horde", aside = true, sign = "P. F.", "Die Seuche kam mit Andorhals Getreide nach Norden, nicht hinter einem Heer. Das ist der Teil der Geschichte, den die Leute zuerst vergessen." },
+      },
+    },
     ["arathi-basin"] = {
       title = "Arathibecken",
       text = {
@@ -2176,6 +2184,20 @@ ns.translate({
         { "Hier verrichtet auch die Königliche Apothekervereinigung einen guten Teil ihrer Arbeit. Mehr will ich dazu nicht sagen, als dass ein Zwerg in Brill kein Getränk annehmen sollte." },
       },
     },
+    ["caer-darrow"] = {
+      title = "Caer Darrow",
+      text = {
+        { "Caer Darrow ist eine Burg auf einer Insel im Darrowmeresee, im Süden der Westlichen Pestländer, und sie war der Sitz des Hauses Barov, einer der großen Adelsfamilien Lordaerons. Es ist ein stiller, nebliger, schöner Ort. Seine Stadt ist voller Geister." },
+        { "Die Barovs haben sie verschenkt. Um ihr Vermögen zu behalten, als die Seuche kam, schlossen sie einen Handel mit Kel'Thuzad und übergaben ihre Burg dem Kult der Verdammten, der unter ihr die Scholomance grub, die Schule der Geißel für Nekromantie. Am Ende behielten die Barovs von gar nichts viel." },
+      },
+    },
+    ["chillwind-camp"] = {
+      title = "Chillwind-Lager",
+      text = {
+        { "Kommandant Ashlam Valorfist führt das Lager der Allianz in den südlichen Hügeln der Westlichen Pestländer, nahe dem Darrowmeresee. Seine Zelte haben Soldaten, Verbannte und Gelehrte angezogen, darunter Weldon Barov, den letzten lebenden Lord seines Hauses." },
+        { "Von hier greift die Allianz Andorhal an und arbeitet gegen die Seuchenkessel. Das Lager hat wenig Bequemlichkeit oder Vorräte übrig. Wenn Ihr Hilfe anzubieten habt, $gReisender:Reisende;, hat Valorfist gute Verwendung dafür. Seine Zelte sind ein kleiner Anfang für die Arbeit, die vor ihm liegt." },
+      },
+    },
     ["church-of-the-holy-light"] = {
       title = "Die Kirche des Heiligen Lichts",
       text = {
@@ -2197,6 +2219,14 @@ ns.translate({
         { "Dalarans Türme standen jahrhundertelang am Lordameresee, Heimat der Kirin Tor und von Generationen von Schülern der Magie. Im Dritten Krieg nahm die Geißel die Stadt ein und tötete Antonidas. Archimonde zerstörte dann, was ihre Verteidiger nicht hatten retten können." },
         { client = "classic", "Die überlebenden Kirin Tor haben eine große Kuppel aus violettem Licht über den Ruinen errichtet und mit dem Wiederaufbau begonnen. Ihre Zauberer arbeiten noch immer in Hillsbrad und im Silberwald, im alten Internierungslager und in Ambermill. Erzmagier Ansirem Runeweaver empfängt Reisende vor der Kuppel. Es hat etwas Ermutigendes, wenn eine Stadt neu beginnt, selbst wenn ihre Erbauer darauf bestehen, die Vorhänge zuzuziehen." },
         { client = "forever", "Der Wiederaufbau ist von einer Krise in der Stadt eingeholt worden. Etwas hat ihre Kraftlinien gestört und ihre Konstrukte unberechenbar und zerstörerisch gemacht. Der Rat will die Sache unter sich behalten. Modera, deren Abbild am Lordameresee wartet, hat um Hilfe von außen gerufen. Die Magier haben die Zerstörung einer Stadt überlebt. Sie ist nicht bereit, ihren Stolz zur Zerstörung einer weiteren beitragen zu lassen." },
+      },
+    },
+    ["dalsons-tears"] = {
+      title = "Dalsons Tränenfeld",
+      text = {
+        { "Der Hof, den die Pestländer Dalsons Tränenfeld nennen, gehörte einer Familie namens Dalson, und ihre Geschichte liegt aufgeschlagen auf einem Tisch im Haus, in Frau Dalsons eigener Handschrift. Ihr Mann Harold hatte sich verwandelt. Es kostete sie alles, was sie hatte, ihn an den einzigen Ort zu schleifen, den sie fand und der sich abschließen ließ, und sie behielt den Schlüssel bei sich." },
+        { "Sie wollte fort, doch sie brauchte Geld, und ihre Sachen waren im Schrank, und sie glaubte, Harold habe diesen Schlüssel bei sich. Sie wolle darüber schlafen, schrieb sie. Sie sei todmüde. Das ist der letzte Eintrag. Was aus ihr wurde, sagt das Tagebuch nicht." },
+        { "Die Geißel hat seither einen ihrer Seuchenkessel auf das Feld der Familie gestellt, und die Allianz in Chillwind und die Verlassenen am Bollwerk schicken beide Reisende, um seine Gifte umzukehren. Hof um Hof sind die Pestländer voller Häuser wie diesem. Dies ist das eine, in dem jemand es aufgeschrieben hat." },
       },
     },
     ["darkshire"] = {
@@ -2439,6 +2469,14 @@ ns.translate({
         { "Die Horde hat das Lager als Festung wiederaufgebaut und es ihm zum Gedenken benannt. Manche der Orcs hinter seiner Palisade waren einst Gefangene auf diesem Boden." },
       },
     },
+    ["hearthglen"] = {
+      title = "Hearthglen",
+      text = {
+        { "Hearthglen umgibt Burg Mardenholde im Norden der Westlichen Pestländer. Der Scharlachrote Kreuzzug hält seine Mauern, und Großinquisitor Isillien hält mit rücksichtslosen Mitteln eine grüne, überlebende Stadt inmitten des verseuchten Landes." },
+        { "Die Burg war einst Tirion Fordrings Sitz. Als er verbannt wurde, weil er einen Orc verteidigte, der ihm das Leben gerettet hatte, erzählte seine Frau ihrem Sohn Taelan, er sei tot. Taelan hält nun das Zuhause seines Vaters für den Kreuzzug. Tirion lebt in einer Hütte am Thondroril, sammelt, was er von der Vergangenheit des Jungen finden kann, und sucht nach einem Weg, ihn zu erreichen." },
+        { side = "Horde", aside = true, sign = "P. F.", "Lordaeron verbannte einen Paladin, weil er einen Orc verschonte. Die Orcs teilen ihre Horde heute mit den Toten Lordaerons, und ich habe noch nicht entschieden, was ich davon halten soll." },
+      },
+    },
     ["helcular"] = {
       title = "Helcular",
       text = {
@@ -2466,6 +2504,13 @@ ns.translate({
       text = {
         { "Der Steckbrief an der Weststromgarnison beschreibt Hogger als riesigen Gnoll, der im Süden lagert, im Südwesten von Elwynn. Er gehört zu den Flusspfoten, und den Wachen von Stormwind ist es nicht gelungen, ihn zu fangen. Für seine Klaue ist eine Belohnung ausgesetzt." },
         { "Der Steckbrief rät, eine Gruppe mitzubringen. Befolgt diesen Rat, $gReisender:Reisende;. Das Eingeständnis einer Wache, dass sie Hilfe braucht, ist nützlicher als die Gewissheit eines Abenteurers, dass er keine braucht." },
+      },
+    },
+    ["house-of-barov"] = {
+      title = "Das Haus Barov",
+      text = {
+        { "Die Barovs waren ein Adelshaus Lordaerons, reich und stolz, die Herren von Caer Darrow. Als die Seuche kam, schlossen sie ihren Handel mit Kel'Thuzad: ihre Burg für den Kult der Verdammten, im Tausch gegen die Sicherheit ihres Vermögens. Kel'Thuzad hielt sein Wort auf seine Weise. Der Lord und seine Familie sind noch immer in der Scholomance, als Diener der Geißel." },
+        { "Zwei Söhne sind übrig. Weldon Barov lebt und sitzt unter dem Schutz der Allianz im Chillwind-Lager. Alexi Barov lebt nicht und leistet den Verlassenen am Bollwerk Gesellschaft. Jeder will das Vermögen der Familie. Jeder hätte gern den Kopf seines Bruders auf einem Teller, und jeder bezahlt einen Reisenden dafür, ihn zu holen. Der Untod hat diesen Familienstreit nicht beendet." },
       },
     },
     ["internment-camps"] = {
@@ -2685,11 +2730,26 @@ ns.translate({
         { "Von der Späherkuppe aus bestreifen sie die Straßen, die sie können, jagen die Gnolle und die Defias und schicken ihre Späher in die Dolchhügel und die Ruinen von Moonbrook. Stoutmantle hat seine eigenen Freunde in niederen Kreisen, und durch einen von ihnen, einen Schurken in Seenhain, erfuhr er, wer die Bruderschaft anführt und wo sie sich verbirgt." },
       },
     },
+    ["plague-cauldrons"] = {
+      title = "Die Seuchenkessel",
+      text = {
+        { "Acht Seuchenkessel stehen auf den Höfen der Pestländer, vier im Westen und vier im Osten. Kessellords und die Toten der umliegenden Gehöfte bewachen sie. Ihre Dämpfe vergiften weiter ein Land, das seine Menschen schon verloren hat." },
+        { "Kel'Thuzads Macht hindert die Allianz und die Verlassenen daran, sie einfach zu löschen. Stattdessen suchen Helfer in Chillwind und am Bollwerk Proben, um Gegenmittel herzustellen. In die Kessel gegeben, verändern diese Mischungen ihre Dämpfe so, dass sie die Geißel schwächen. Der Vorrat muss immer wieder erneuert werden." },
+      },
+    },
     ["pyrewood-village"] = {
       title = "Pyrewood",
       text = {
         { "Pyrewood ist ein Dorf nahe dem Greymane-Wall, und bei Tag sieht es aus wie jedes andere: Bauern, ein Rat, ein Oberbürgermeister. Bei Nacht verwandeln sich seine Bewohner in Worgen. Der Magier Arugal hat ihnen dies mit verzauberten Fesseln auferlegt, und die Verlassenen, die es erforscht haben, sagen, es sei der seltsamste Fluch, den sie je gesehen hätten." },
         { "Die Dorfbewohner wissen es, glaube ich, und leben damit auf die einzige Weise, die ihnen bleibt. Es ist der traurigste Ort im Silberwald, und im Silberwald gibt es Konkurrenz." },
+      },
+    },
+    ["ras-frostwhisper"] = {
+      title = "Ras Frostraunen",
+      text = {
+        { "Der Lich, der die Hallen der Scholomance beherrscht, war einst ein Mann aus Stromgarde, Ras Frostraunen mit Namen. Als die Geißel nach Stratholme kam, gab er ihr sein Leben auf dem blutgetränkten Boden der Stadt, freiwillig und mit Absicht, um einer der Unsterblichen zu werden. Heute beaufsichtigt er die Schule der Nekromantie." },
+        { "Die Untoten fürchten das Leben, wie die Lebenden den Tod fürchten, sagt Magistrat Marduke, und ein denkender Untoter vernichtet oft jede Erinnerung daran, wer er war. Ras übersah etwas. Ein Andenken aus seinen sterblichen Jahren lag noch in den Ruinen von Stromgarde, und auf dem Boden eingestimmt, auf dem er starb, kann es ihn wieder sterblich machen: lange genug jedenfalls, um ihn endgültig niederzustrecken." },
+        { "Es ist selten, dass man einen Lich ungeschehen macht. Noch seltener ist es, dass dies mit etwas beginnt, das er wegzuwerfen vergaß." },
       },
     },
     ["raven-hill"] = {
@@ -2757,6 +2817,13 @@ ns.translate({
         { "Der Scharlachrote Kreuzzug hält ein Kloster auf einem Hügel im Norden von Tirisfal, über dem Meer. Seine Mauern umschließen eine Bibliothek, eine Waffenkammer, einen Friedhof und eine Kathedrale. Ritter, Priester und Inquisitoren üben dort für einen Krieg, der weit über die Geißel hinausreicht." },
         { "Auch die Verlassenen sind Feinde, ebenso jeder Reisende, den der Kreuzzug verdächtig findet. Hochinquisitor Whitemane und der Scharlachrote Kommandant Mograine halten die Kathedrale, während Streiter der Verlassenen gegen die Festung geschickt werden. Das Kloster hat die äußere Ausstattung eines Hauses des Lichts. Nähert Euch mit mehr Vorsicht, als diese Beschreibung nahelegen mag." },
         { side = "Horde", aside = true, sign = "P. F.", "Hinter diesen Mauern liegt eine Bibliothek, und in ihr ein Buch, mit dem sie ihre Paladine lehren, meinesgleichen zu vernichten. Ich schicke Helden, um es zu holen, und ich bitte sie, es zu lesen, bevor sie es zurückbringen." },
+      },
+    },
+    ["scholomance"] = {
+      title = "Scholomance",
+      text = {
+        { "Unter Caer Darrow liegt die Scholomance, die Schule des Kults der Verdammten, in der Nekromanten ausgebildet und die dunklen Künste der Geißel studiert werden. Ihr Schulleiter ist Dunkelmeister Gandling, und ihre Hallen sind voller Schüler, Lehrer und der Dinge, an denen sie üben. Ihre Tür ist für jeden ohne Schlüssel verriegelt." },
+        { "Auch die Barovs sind dort, oder was von ihnen übrig ist: der Lord und seine Lady, erweckt von den Herren, an die sie ihr Zuhause verkauft haben. Sowohl die Allianz als auch die Verlassenen wollen in die Scholomance hinein, und beide haben festgestellt, dass der Weg hinein durch sehr viel schlechte Geschichte führt." },
       },
     },
     ["scythe-of-elune"] = {
@@ -2880,6 +2947,14 @@ ns.translate({
         { "Sie stammte aus einer Familie von Waldläufern. Ihre ältere Schwester Alleria ging mit der Expedition der Allianz durch das Dunkle Portal und kam nie zurück. Es war Sylvanas, die die Worte auf ihre Tafel am Tor von Stormwind schrieb. Die jüngste, Vereesa, war ebenfalls eine Waldläuferin von Quel'Thalas." },
         { "Sie will Arthas tot sehen. Darüber hinaus behält sie ihre Gedanken für sich, und ihre Augen verraten nichts." },
         { side = "Horde", aside = true, sign = "P. F.", "Sie hat uns unseren Verstand zurückgegeben, was mehr ist, als das Licht vermochte. Was sie als Nächstes mit uns vorhat, hat sie nicht gesagt." },
+      },
+    },
+    ["taelan-fordring"] = {
+      title = "Taelan Fordring",
+      text = {
+        { "Taelan Fordring wuchs in dem Glauben auf, sein Vater sei tot. Als Tirion seiner Ländereien beraubt wurde, weil er sein Wort gegenüber einem Orc hielt, blieb Taelans Mutter zurück und erzählte dem Jungen so viel. Er trat dem Scharlachroten Kreuzzug bei, stieg unter dem Obersten Kreuzzügler auf, riss das Banner der Silbernen Hand in Northdale nieder und wurde Hochlord des Kreuzzugs in Hearthglen." },
+        { "Er habe nie aufgehört, von seinem Vater zu träumen, sagt er: davon, dass Tirion an seiner Seite stünde an dem Tag, an dem er zum Ritter geschlagen würde, dass sie gemeinsam gegen die Geißel kämpften, für die Ehre Lordaerons. Als Reisende ihm die Dinge bringen, die Tirion für ihn aufbewahrt hat, und die Wahrheit darüber, was aus dem Kreuzzug geworden ist, bricht er mit ihm und reitet hinaus, um seinen Vater zu finden." },
+        { "Weit kommt er nicht. Großinquisitor Isillien streckt ihn vor Hearthglen nieder, in Sichtweite des Mannes, zu dem er ritt, und Tirion tötet Isillien über dem Leichnam seines Sohnes. Der Orden der Silbernen Hand, sagt Tirion danach, ist wiedergeboren. Es kostete ihn seinen Sohn, sich zu erinnern, wofür er da war." },
       },
     },
     ["tarren-mill"] = {
@@ -3028,6 +3103,14 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Mit dem Apothekarium hat sie recht, so weit es reicht. Ihr findet mich dort, auf der südlichen seiner beiden Brücken, wo ich Helden Fragen stelle, die glauben, Stärke genüge. Kommt und lasst Euch prüfen, $gReisender:Reisende;." },
       },
     },
+    ["uthers-tomb"] = {
+      title = "Uthers Grabmal",
+      text = {
+        { "Uther Lightbringer war der erste der Paladine, gesalbt von Erzbischof Faol, der Befehlshaber der Ritter der Silbernen Hand, Prinz Arthas' Lehrer und der größte Streiter, den das Licht unter den Menschen hatte. Er weigerte sich, an der Säuberung Stratholmes teilzunehmen, und Arthas entließ ihn dafür. Als Arthas mit seinem verfluchten Schwert aus Nordend zurückkam, stellte Uther sich ihm entgegen, als Hüter der Urne mit König Terenas' Asche, und sagte seinem alten Schüler, er hoffe, in der Hölle warte ein besonderer Platz auf ihn. Arthas tötete ihn." },
+        { "Sein Grabmal steht auf Sorrow Hill über dem Darrowmeresee, eine Halle aus weißem Stein mit seiner Statue darin, mitten im toten Land. Dort ist es still wie nirgends sonst in den Pestländern, und wer noch an das Licht glaubt, kommt, um ihm die Ehre zu erweisen." },
+        { side = "Horde", aside = true, sign = "P. F.", "Terenas war mein König, und Uther starb, als er seine Asche hütete. Ich würde dieses Grabmal gern sehen." },
+      },
+    },
     ["valley-of-kings"] = {
       title = "Das Tal der Könige",
       text = {
@@ -3058,6 +3141,13 @@ ns.translate({
       text = {
         { "Der altgediente Bau bietet Schutz vor dem Schnee von Dun Morogh, vorausgesetzt, Ihr könnt seine Wendigos überreden, ihn zu teilen. Ein Bote, der vor ihnen floh, ließ eine Munitionslieferung zurück. Die Geschöpfe hatten das stärkere Argument." },
         { "Pilot Stonegear will ihre Mähnen für einen Teppich in seiner Belagerungsmaschine, der Trollpflug. Selbst Maschinen brauchen in diesem Land ein wenig Behaglichkeit, $gReisender:Reisende;. Die Munition zu bergen und die Maschine auszustatten, verlangt beides, einem Wendigo deutlich näher zu kommen, als dem Boten lieb war." },
+      },
+    },
+    ["western-plaguelands"] = {
+      title = "Westliche Pestländer",
+      text = {
+        { "Die Westlichen Pestländer waren einst reiches Ackerland Lordaerons. Verseuchtes Getreide trug den Untod durch seine Dörfer. Graue Felder, verfaulende Scheunen und verdorrte Bäume umgeben heute die Toten, die noch durch sie wandeln. Grünes Gift hängt über einem Land, das einst das Königreich ernährte." },
+        { "Das Chillwind-Lager beherbergt im Süden die Allianz und die Argentumdämmerung, die Verlassenen halten das Bollwerk im Westen, und der Scharlachrote Kreuzzug hält Hearthglen im Norden. Zwischen diesen Stützpunkten liegen Andorhal, die Seuchenkessel und die Scholomance am See. Den Weg eines Reisenden durch dieses Land bemisst man danach, wo die Lebenden noch Boden halten können." },
       },
     },
     ["westfall"] = {
