@@ -2078,6 +2078,14 @@ ns.translate({
         { "Wenn Ihr durch den Pass geht, seht Euch den Stein an. Er wird seit sehr langer Zeit von zwergischen Händen bearbeitet." },
       },
     },
+    ["alonsus-faol"] = {
+      title = "Alonsus Faol",
+      text = {
+        { "Alonsus Faol führte vor dem Ersten Krieg die Kleriker von Nordhain, und als Stormwind fiel und mit ihm die Abtei, ging der alte Mann mit den Flüchtlingen nach Norden. In Lordaeron gab er als Erzbischof der Kirche des Heiligen Lichts ein Schwert: Er gründete die Ritter der Silbernen Hand und salbte seinen Schüler Uther zum ersten der Paladine." },
+        { "Sein Werk reichte weiter als bis aufs Schlachtfeld. Eine Tafel in der Kathedrale von Stormwind sagt, dass er es in Stratholme begann, nach dem Zweiten Krieg half, die Bruderschaft von Nordhain neu zu ordnen, und die Mittel für den Wiederaufbau von Stormwind selbst sammelte. Er starb, bevor die Seuche kam, an nichts Schlimmerem als dem Alter, soweit man weiß." },
+        { "Hier soll er liegen. Vor der Geißel war es ein Ort der Pilgerfahrt. Heute sammelt er die Toten des Scharlachroten Klosters, und niemand kommt, um ihn zu betrauern. Er hätte Besseres verdient, und der Orden, den er gründete, ebenso." },
+      },
+    },
     ["archesonus"] = {
       title = "Königliche Historikerin Archesonus",
       text = {
@@ -2116,6 +2124,13 @@ ns.translate({
         { "Auch seine Schwarzmeerräuber sind hier zu Hause. Sie liegen im Krieg mit den Blutsegelbukanieren, die den Baron tot sehen wollen. Ein Händler findet in der Bucht einen Hafen, ein bewaffneter Reisender findet Arbeit in dem Streit dahinter. Revilgaz hat Geschäfte für beide." },
       },
     },
+    ["brill"] = {
+      title = "Brill",
+      text = {
+        { "Brill war ein stilles Bauerndorf an der Straße östlich von Deathknell, und die Verlassenen haben es zu ihrem gemacht: Im Rathaus sitzt ein Magistrat, die Taverne Zur Galgenschlinge schenkt ihre seltsamen Getränke an seltsame Gäste aus, und in ihrem Keller hält die Todeswache ihre Gefangenen fest, zwergische Gebirgsjäger darunter, bis man sich ihrer annehmen kann." },
+        { "Hier verrichtet auch die Königliche Apothekervereinigung einen guten Teil ihrer Arbeit. Mehr will ich dazu nicht sagen, als dass ein Zwerg in Brill kein Getränk annehmen sollte." },
+      },
+    },
     ["church-of-the-holy-light"] = {
       title = "Die Kirche des Heiligen Lichts",
       text = {
@@ -2143,6 +2158,13 @@ ns.translate({
       text = {
         { "Der Gebirgspass der Totenwinde schneidet ein graues Tal zwischen dem Dämmerwald und den Sümpfen des Elends. Tote Bäume, Krähen und zerstörte Lager säumen den Weg. Es gibt keine bewohnten Dörfer oder Höfe, und die Oger bieten wenig Grund zu verweilen." },
         { "Medivhs Turm, Karazhan, steht in seinem Herzen, über verlassenen Gebäuden. Der Pass verbindet zwei bewohnte Gegenden, ohne ihre Annehmlichkeiten zu bieten." },
+      },
+    },
+    ["deathknell"] = {
+      title = "Deathknell",
+      text = {
+        { "Deathknell ist eine Gruft und ein zerstörtes Dorf am westlichen Rand von Tirisfal, und hier erwachen die Verlassenen. Die Toten Lordaerons, die sich mit eigenem Verstand erheben, werden hierher gebracht, und der Hüter der Gruft begrüßt sie mit den Worten, an die sich jeder von ihnen erinnert: Ihr seid nicht länger der Sklave des Lichkönigs." },
+        { "Nicht alle, die sich erheben, haben so viel Glück. Der Norden des Dorfes ist voller geistloser Toter, die noch immer dem Lichkönig gehören, und die erste Pflicht der neu erwachten Verlassenen ist es, sie zu vernichten: ihre einstigen Brüder und Schwestern, wie die Schattenpriester der Kapelle sie erinnern." },
       },
     },
     ["deeprun-tram"] = {
@@ -2205,6 +2227,15 @@ ns.translate({
         { "Die Liga konnte ich kaum auslassen. Die Forscherliga ist Ironforges Gesellschaft der Historiker, Archäologen und Gräber: die Zwerge, die lieber eine Ruine lesen, als eine Halle zu bauen. Eine königliche Historikerin könnte sich keine bessere Gesellschaft wünschen." },
         { "Sie sind der ältesten Frage auf der Spur, die es gibt, nämlich woher die Zwerge kommen. Ihre Grabungen in Uldaman legen nahe, dass die Antwort bei den Titanen liegt, den Erschaffern der Welt, und wenn das stimmt, ändert es, wie jeder Zwerg von sich selbst denken sollte. König Magni nimmt es tatsächlich sehr ernst." },
         { "Ihr findet sie in der Halle der Forscher, unter Hochforscher Magellas. Bringt ihnen alles, was alt ist, $gReisender:Reisende;, und alles, was seltsam ist. Sie werden hören wollen, wo Ihr es gefunden habt, und ich ebenso." },
+      },
+    },
+    ["fall-of-lordaeron"] = {
+      title = "Der Fall Lordaerons",
+      text = {
+        { "Lordaeron war das erste unter den Königreichen der Menschen, und sein König Terenas Menethil hatte die Allianz durch den Zweiten Krieg geführt. Als die Seuche aus dem Norden kam und die Toten sich zu erheben begannen, war es sein Sohn, Prinz Arthas, ein Paladin der Silbernen Hand, der gegen sie auszog." },
+        { "Arthas verfolgte sie zu weit. Er ließ die verseuchte Stadt Stratholme über die Klinge springen, statt ihre Bewohner sich erheben zu sehen, folgte den Herren der Seuche nach Nordend und nahm dort eine verfluchte Runenklinge auf, Frostgram. Als er heimkehrte, jubelte das Volk ihm durch die Tore zu. Er ging in den Thronsaal seines Vaters und tötete ihn, und das Königreich fiel hinter ihm an die Toten." },
+        { "In diesen Ruinen ist es geschehen. Die Verlassenen gehen jeden Tag über sie hinweg, und manche von ihnen standen in der jubelnden Menge." },
+        { side = "Horde", aside = true, sign = "P. F.", "Sie schreibt, dass manche der Verlassenen in der jubelnden Menge standen. Manche von uns taten es. Ich habe mehr als einmal versucht, diesen Tag niederzuschreiben, und es ist mir noch nicht gelungen." },
       },
     },
     ["farstrider-lodge"] = {
@@ -2499,6 +2530,15 @@ ns.translate({
         { "Die Abtei unterweist die Rekruten des Königreichs heute in den Waffen ebenso wie im Glauben. Für beides gibt es ganz in der Nähe Verwendung: Kobolde besetzen die Mine, Wölfe streifen durch das Tal, und Diebe der Defias haben die Weinberge eingenommen." },
       },
     },
+    ["parqual-fintallas"] = {
+      title = "Parqual Fintallas",
+      text = {
+        { "Vor der Seuche war Parqual Fintallas einer der großen Historiker Lordaerons. Heute ist er ein Verlassener, hält sich im Apothekarium von Undercity auf und forscht noch immer, auch wenn sich das, was er erforscht, mit ihm verändert hat." },
+        { "Den jungen Helden der Horde stellt er eine Prüfung der Überlieferung. Bevor er seine Frage stellt, schickt er sie ins Scharlachrote Kloster nach den Anfängen der Bedrohung durch die Untoten, einem Buch, mit dem der Kreuzzug seine Paladine gegen seinesgleichen ausbildet, und er erwartet, dass sie es gelesen haben. Wissen, so meint er, zählt mehr als Stärke. Ich habe noch keinen Historiker etwas anderes behaupten hören." },
+        { "Wir sind uns nie begegnet und werden es wohl auch nicht. Man sagt mir, eine Abschrift dieses Registers habe ihn trotzdem erreicht, auf Wegen, von denen ich lieber nichts wüsste. Ich hoffe, er findet es gerecht. Er wüsste besser als die meisten, wo es das nicht ist." },
+        { side = "Horde", aside = true, sign = "P. F.", "Sie ist freundlicher zu mir als die Bücher des Kreuzzugs." },
+      },
+    },
     ["peoples-militia"] = {
       title = "Die Volksmiliz",
       text = {
@@ -2533,6 +2573,30 @@ ns.translate({
         { "König Varian Wrynn ist verschwunden. Er war der Sohn von König Llane, der im Ersten Krieg ermordet wurde, und wuchs unter den Flüchtlingen Stormwinds in Lordaeron auf. Sein eigenes Schicksal bleibt in der Stadt, über die er herrschte, unbekannt." },
         { "Sein junger Sohn Anduin trägt die Krone. Hochlord Bolvar Fordragon hält das Königreich für ihn, befehligt seine Streitkräfte und beschützt den Jungen. Die königliche Beraterin, Lady Katrana Prestor, steht an Bolvars Seite." },
         { "Stormwinds Heer ist dünn verteilt, und Forderungen treffen aus allen Richtungen ein." },
+      },
+    },
+    ["royal-apothecary-society"] = {
+      title = "Die Königliche Apothekervereinigung",
+      text = {
+        { "Meister Faranells Königliche Apothekervereinigung dient den Verlassenen mit Alchemie, Giften und dem Versprechen einer neuen Seuche. Sylvanas hat ihren Mitgliedern aufgetragen, eine Krankheit zu finden, die die Geißel des Lichkönigs vernichten kann. Ihre Vorbereitungen reichen weit über die Laboratorien von Undercity hinaus." },
+        { "In Brill und Hillsbrad sammeln Reisende Blut und andere Zutaten für Versuche an Tieren, Murlocs und Gefangenen. Apotheker Lydon blickt über das blühende Land von Hillsbrad und sehnt sich danach, seine Arbeit Tod darüber bringen zu sehen. Wer auch immer der erklärte Feind der Vereinigung sein mag, zu seinen Zielen gehören offensichtlich die Lebenden." },
+        { "Die Verlassenen wissen besser als die meisten, was es heißt, wenn eine Seuche einem die Heimat nimmt. Dieses Wissen hat nicht alle ihre Apotheker davor bewahrt, dasselbe Elend gern anderen zu bereiten." },
+      },
+    },
+    ["ruins-of-lordaeron"] = {
+      title = "Die Ruinen von Lordaeron",
+      text = {
+        { "Über Undercity sind die Straßen von Lordaerons Hauptstadt weniger leer, als sie vom Tor aus aussehen. Die Geißel wandelt noch in großer Zahl durch die tieferen Ruinen, und ein unheiliger Nebel ist über die Straßen und den alten Friedhof gekrochen, hervorgerufen, so glaubt die Todeswache, von einem Nekromanten namens Rath'mael auf der Warte Lordamere. Die Verlassenen schicken, was sie an Kräften erübrigen können, und ihre Verluste sind so groß, dass ein Paladin im Königsviertel Reisende um die unversehrten Gliedmaßen bittet, die die Toten zurücklassen." },
+        { "Nicht jeder, der hinaufgeht, geht für die Bansheekönigin. Edward Heartweaver ging jede Woche zum Friedhof, auf der Suche nach dem Sohn, den er verlor, als Arthas die Stadt zerstörte, bis er eines Tages nicht heimkam. Und unter den Monstrositäten, die dort oben zusammengenäht werden, ist eine, die die Apotheker den Baron nennen und unter einem älteren Namen kennen: Othmar Garithos, der Lord, der mit Sylvanas gemeinsame Sache gegen die Geißel machte und die Abmachung nicht überlebte. Captain Truman, der ihm diente, wartet noch immer in den Ruinen auf die Rückkehr seines Befehlshabers." },
+        { side = "Horde", aside = true, sign = "P. F.", "Von allem auf dieser Seite ist es Edward Heartweavers wöchentlicher Gang, zu dem ich immer wieder zurückkehre." },
+      },
+    },
+    ["scarlet-monastery"] = {
+      title = "Das Scharlachrote Kloster",
+      text = {
+        { "Der Scharlachrote Kreuzzug hält ein Kloster auf einem Hügel im Norden von Tirisfal, über dem Meer. Seine Mauern umschließen eine Bibliothek, eine Waffenkammer, einen Friedhof und eine Kathedrale. Ritter, Priester und Inquisitoren üben dort für einen Krieg, der weit über die Geißel hinausreicht." },
+        { "Auch die Verlassenen sind Feinde, ebenso jeder Reisende, den der Kreuzzug verdächtig findet. Hochinquisitor Whitemane und der Scharlachrote Kommandant Mograine halten die Kathedrale, während Streiter der Verlassenen gegen die Festung geschickt werden. Das Kloster hat die äußere Ausstattung eines Hauses des Lichts. Nähert Euch mit mehr Vorsicht, als diese Beschreibung nahelegen mag." },
+        { side = "Horde", aside = true, sign = "P. F.", "Hinter diesen Mauern liegt eine Bibliothek, und in ihr ein Buch, mit dem sie ihre Paladine lehren, meinesgleichen zu vernichten. Ich schicke Helden, um es zu holen, und ich bitte sie, es zu lesen, bevor sie es zurückbringen." },
       },
     },
     ["scythe-of-elune"] = {
@@ -2612,12 +2676,54 @@ ns.translate({
         { "Jeder kommt wegen irgendetwas hierher. Jäger kommen wegen Trophäen, Goblins wegen Gold und Holz, Piraten wegen Beute, und Soldaten der Allianz und der Horde, um gegen die Trolle, die Oger und einander zu kämpfen. Der Dschungel verschlingt die meisten von ihnen, früher oder später." },
       },
     },
+    ["sylvanas-windrunner"] = {
+      title = "Fürstin Sylvanas Windrunner",
+      text = {
+        { "Sylvanas Windrunner war die Waldläufergeneralin von Silbermond, die größte Bogenschützin der Hochelfen und die Befehlshaberin ihrer Waldläufer, und sie kämpfte gegen Prinz Arthas um jeden Schritt, als er die Geißel nach Quel'Thalas führte. Als er schließlich durchbrach, tötete er sie, und zur Strafe für ihren Widerstand ließ er sie nicht ruhen: Er erhob sie als Banshee und band sie an seinen Dienst." },
+        { "Als die Macht des Lichkönigs ins Wanken geriet, riss Sylvanas sich los. Sie sammelte die Untoten, die mit ihr erwacht waren, zwang einen Schreckenslord in ihren Dienst und nahm die Ruinen der Hauptstadt Lordaerons für sich ein. Die Verlassenen nennen sie die Dunkle Fürstin, und sie würden ihr überallhin folgen." },
+        { "Sie stammte aus einer Familie von Waldläufern. Ihre ältere Schwester Alleria ging mit der Expedition der Allianz durch das Dunkle Portal und kam nie zurück. Es war Sylvanas, die die Worte auf ihre Tafel am Tor von Stormwind schrieb. Die jüngste, Vereesa, war ebenfalls eine Waldläuferin von Quel'Thalas." },
+        { "Sie will Arthas tot sehen. Darüber hinaus behält sie ihre Gedanken für sich, und ihre Augen verraten nichts." },
+        { side = "Horde", aside = true, sign = "P. F.", "Sie hat uns unseren Verstand zurückgegeben, was mehr ist, als das Licht vermochte. Was sie als Nächstes mit uns vorhat, hat sie nicht gesagt." },
+      },
+    },
     ["thandol-span"] = {
       title = "Der Thandol-Übergang",
       text = {
         { "Der Thandol-Übergang trug die Straße von Khaz Modan nach Norden ins Arathihochland und zu den Königreichen der Menschen dahinter. Seine beiden großen zwergischen Brücken dienten dieser Straße über Generationen. Ein Ingenieur bittet Euch vielleicht, das Mauerwerk zu bewundern. Wer auf den Übergang angewiesen war, hatte ebenfalls Grund, es zu bewundern." },
         { "Die Dunkeleisenzwerge haben eine Brücke so gut wie zerstört. Zwergische Soldaten halten die andere, und die Straße bleibt unter ihrer Bewachung offen. Ein schönes Stück Ingenieurskunst lässt sich leichter loben, wenn jemand anderes es am Stehen hält." },
         { "Schaut hinüber zur zerbrochenen Brücke, wenn Ihr vorbeikommt, $gReisender:Reisende;. Beide Brücken wurden gebaut, um Menschen über das Wasser zu tragen. Nur eine kann es noch." },
+      },
+    },
+    ["the-agamands"] = {
+      title = "Die Agamands",
+      text = {
+        { "Die Agamands waren die reichste Familie in Tirisfal, und diese Mühlen gehörten ihnen. Als die Geißel kam, befestigten sie das Haus und befahlen allen in ihren Diensten, zu bleiben und es mit ihnen zu halten. Die Knechte blieben. Sie seien treu gewesen, sagt einer von ihnen heute, und Narren." },
+        { "Nichts davon hielt. Die Familie und ihre Arbeiter starben gemeinsam und erhoben sich gemeinsam, und die Agamands wandeln noch immer für den Lichkönig über die Mühlen: Gregor, der Vater, Nissa, seine Frau, und ihre Söhne. Ihre Gruft liegt am Nordende des Anwesens, mitten unter der Geißel." },
+        { "Manche ihrer Arbeiter rissen sich los und sind heute Verlassene. Coleman Farthing, der in ihren Mühlen arbeitete, schickt Reisende zurück, um zu vernichten, was von der Familie übrig ist, und ihre Gruft um ihre Erbstücke zu erleichtern. Rache, sagt er, schmeckt süß. Er hofft, dass sie vor dem Ende Furcht kannten. Es sei eine törichte Hoffnung, gibt er zu. Er hält trotzdem an ihr fest." },
+      },
+    },
+    ["the-ashbringer"] = {
+      title = "Der Aschenbringer",
+      text = {
+        { "Der Aschenbringer war ein Mann, bevor er ein Schwert war. Hochlord Mograine gründete den Scharlachroten Kreuzzug mit Hochgeneral Abbendis und Hochinquisitor Isillien, als er noch ein edler Orden war, und man nannte ihn den Aschenbringer für das, was er den Heeren des Lichkönigs antat: Er ging in ganze Bataillone von Untoten hinein und kam auf der anderen Seite heraus, und hinter ihm war nichts als Asche. Seine Klinge übernahm den Namen von ihm." },
+        { "Hochinquisitor Fairbanks, der dabei war, erzählt, wie es endete. Der Oberste Kreuzzügler schloss einen Handel mit Kel'Thuzad, und Mograine wurde von seinem eigenen Sohn Renault in Stratholme in einen Hinterhalt gelockt. Als die Geißel sich um sie schloss und die Klinge zu leuchten begann, hob Renault sie auf und stieß sie seinem Vater in den Rücken. 'Was hast du getan, Renault?' waren die letzten Worte des Hochlords. Der Mann und die Klinge waren eins gewesen, und der Mord verdarb beide. Mograine erhob sich als Todesritter Kel'Thuzads." },
+        { "Fairbanks entkam Stratholme nach zwei Tagen unter den Toten und erzählte die Geschichte jedem im Kloster, der zuhören wollte. Dafür wurde er ermordet und in seiner Kathedrale versteckt. Doch manche hörten ihn, sagt er, und so begann die Argentumdämmerung. Renault führt das Kloster heute, als sein Scharlachroter Kommandant." },
+      },
+    },
+    ["the-bulwark"] = {
+      title = "Das Bollwerk",
+      text = {
+        { "Das Bollwerk ist die Mauer, die die Verlassenen am östlichen Rand von Tirisfal gebaut haben, wo die Lichtungen enden und die Pestländer beginnen, und sie wird Tag und Nacht gegen die Geißel gehalten. Die Todeswache bemannt ihr Tor, und auch Offiziere der Argentumdämmerung halten dort einen Posten, was Euch verrät, wie sehr beide fürchten, was dahinter liegt." },
+        { "Am Bollwerk gibt es seltsamere Dinge. Alexi Barov, der Letzte eines Adelshauses von Lordaeron, das seine Burg an den Kult der Verdammten verkaufte, leistet dort den Verlassenen Gesellschaft und hat Ansichten über das Vermögen seiner Familie, die er gern mit Euch teilt." },
+      },
+    },
+    ["the-crusades-fallen"] = {
+      title = "Die Gefallenen des Kreuzzugs",
+      text = {
+        { "Das Scharlachrote Kloster begräbt seine Helden auf seinem eigenen Friedhof, und ihre Steine sagen mehr über den Kreuzzug als seine Predigten. Lest sie, und Ihr findet, dass er nie nur ein menschlicher Orden Lordaerons war: ein Hochzauberer und ein Waldläuferhauptmann, die Bürger von Quel'Thalas waren, Meuchler aus Dalaran, ein Krieger aus Alterac, ein Lord der Roten Höhlen, ein Admiral von Kul Tiras." },
+        { "Lest weiter, und Ihr findet, wie weit er ging. Orman von Stromgarde, sein erster Generalhauptmann, ging an der Mündung des Eiskronengletschers verloren. Der Großadmiral der Scharlachroten Flotte ging vor der gefrorenen Küste von Nordend verloren, und der erste Obermeuchler an Nordends Küsten. Der Kreuzzug trug seinen Krieg bis vor die Tür des Lichkönigs, und die Steine sind, was zurückkam." },
+        { "Andere fielen näher an der Heimat: ein Hochabt, getötet bei der Verteidigung des Klosters selbst, ein Verteidiger, der starb, als er einen Schreckenslord erschlug, ein Elf, gefangen in einem endlosen Kampf mit einem Nekromanten. Was auch immer der Kreuzzug seither geworden ist, $gReisender:Reisende;, dies waren die Leute, die zuerst an ihn glaubten." },
+        { side = "Horde", aside = true, sign = "P. F.", "Ich habe diese Steine auch gelesen. Ich kam mit einem weniger großzügigen Bericht davon." },
       },
     },
     ["the-deadmines"] = {
@@ -2632,6 +2738,15 @@ ns.translate({
       text = {
         { "Die Kinder von Dunkelhain kennen die Geschichte vom Einbalsamierer: einem gütigen Alchemisten, dessen Frau Eliza starb und der sie nicht gehen lassen wollte. Er benutzte dunkle Magie, um sein eigenes Herz in ihre Brust zu setzen, und es brachte sie zurück, mit einem Hunger nach Menschenfleisch, sodass er sie begraben halten musste." },
         { "Es ist keine Kindergeschichte. Der Einbalsamierer ist der alte Einsiedler Calvinius, der in einer Hütte über Rabenflucht lebt, und seine Braut wartet noch immer in ihrem Grab. Sein letztes Geschenk an Dunkelhain war Kleiner, ein aus Toten zusammengenähtes Ungeheuer, das er die Straße zur Stadt hinaufwanken ließ. Die Nachtwache erinnert sich an die Nacht, in der es kam." },
+      },
+    },
+    ["the-forsaken"] = {
+      title = "Die Verlassenen",
+      text = {
+        { "Als der Griff des Lichkönigs um seine Toten nachließ, erwachten einige von ihnen. Sie waren noch immer tot, doch ihr Verstand gehörte wieder ihnen, und sie erinnerten sich, was sie gewesen waren und was man ihnen angetan hatte. Sie nennen sich die Verlassenen, und sie folgen der, die sie befreite: Sylvanas Windrunner, der Bansheekönigin." },
+        { "Sie haben die Ruine der Hauptstadt ihres Königreichs zurückerobert und eine Stadt darunter gebaut, und sie führen ihren eigenen Krieg gegen die Geißel, die sie erschuf. Sie haben sich der Horde angeschlossen, die Verbündete gegen die Allianz brauchte, und die Horde hat sie aufgenommen, was die Verlassenen dringender brauchten. Es ist keine herzliche Freundschaft." },
+        { "Ich will nicht so tun, als wären die Verlassenen angenehme Gesellschaft. Die meisten von ihnen waren Männer und Frauen Lordaerons, die sich an ihr altes Leben erinnern und nicht dorthin zurückkönnen. Was sie jetzt wollen, über die Rache am Lichkönig hinaus, kann niemand außerhalb von Undercity sagen." },
+        { side = "Horde", aside = true, sign = "P. F.", "Niemand außerhalb von Undercity könne sagen, was wir wollen, schreibt sie. Die meisten von uns drinnen können es auch nicht. Ich will wissen, was man uns angetan hat, und es ordentlich niederschreiben." },
       },
     },
     ["the-stockade"] = {
@@ -2665,12 +2780,35 @@ ns.translate({
         { "Wenn Ihr ihn getötet habt, $gReisender:Reisende;, schreibt auf, was geschehen ist, solange Ihr Euch erinnert. Die Jäger werden schon bald ihren eigenen Bericht haben." },
       },
     },
+    ["tirisfal-glades"] = {
+      title = "Tirisfal",
+      text = {
+        { "Tirisfal war das Herz des Königreichs Lordaeron: sanft gewelltes Ackerland, Obstgärten und Mühlen rund um die Hauptstadt, das reichste Land im Norden. Es ist auch auf andere Weise alter Boden. Die Lichtungen gaben dem geheimen Orden der Magier seinen Namen, den Wächtern von Tirisfal, die jahrhundertelang über die Welt wachten." },
+        { "Heute ist es ein graues Land. Die Seuche nahm Lordaeron, die Toten wandelten, und die Hauptstadt fiel. Die Höfe sind leer oder Schlimmeres, die Bäume blattlos und das Licht immer trüb. Die Verlassenen beherrschen es von unter der zerstörten Stadt aus, der Scharlachrote Kreuzzug von seinem Kloster im Norden, und die Geißel wandert noch über die Felder dazwischen." },
+      },
+    },
+    ["undercity"] = {
+      title = "Undercity",
+      text = {
+        { "Lordaerons Hauptstadt liegt in Trümmern über der eigenen Stadt der Verlassenen. Hinter ihren zerbrochenen Mauern liegen der zerschmetterte Thronsaal und leblose Höfe. Darunter sind alte Grüfte und Katakomben zu Undercity geworden, angelegt um Ringe aus grünem Schleim. Sylvanas hält Hof in ihrem Königsviertel." },
+        { "Händler, Lehrer und Wachen bewohnen die anderen Viertel, und die Königliche Apothekervereinigung arbeitet im Apothekarium. Die Verlassenen haben eine funktionierende Hauptstadt unter dem Wrack derjenigen geschaffen, die sie im Leben kannten. Ein Reisender, der nur die Ruinen oben ansieht, würde übersehen, wo die verbliebenen Geschäfte des Königreichs heute geführt werden." },
+        { side = "Horde", aside = true, sign = "P. F.", "Mit dem Apothekarium hat sie recht, so weit es reicht. Ihr findet mich dort, auf der südlichen seiner beiden Brücken, wo ich Helden Fragen stelle, die glauben, Stärke genüge. Kommt und lasst Euch prüfen, $gReisender:Reisende;." },
+      },
+    },
     ["valley-of-kings"] = {
       title = "Das Tal der Könige",
       text = {
         { "Im Südwesten von Loch Modan halten zwei große Könige aus Stein Wache: Madoran Bronzebeard und Khardros Wildhammer, die ihre Klans im Krieg der drei Hämmer anführten." },
         { "Ihre Söhne errichteten diese Statuen nach ihrem Tod, um sie zu ehren und jeden, der diese Straße heraufkam, zu warnen, dass die Königreiche der Zwerge nicht zu erobern seien. Die Dunkeleisenzwerge waren damals im Süden, wie sie es heute sind. Die Botschaft hat sich nicht geändert." },
         { "Haltet an und schaut hinauf, $gReisender:Reisende;. Bronzebeard und Wildhammer stehen hier Seite an Seite, wie sie es seither kaum irgendwo sonst getan haben." },
+      },
+    },
+    ["varimathras"] = {
+      title = "Varimathras",
+      text = {
+        { "Als Arthas nach Nordend aufbrach, herrschten Varimathras und seine Brüder, die Schreckenslords, über die Ruinen Lordaerons. Sylvanas, gerade erst frei von der Kontrolle des Lichkönigs, besiegte ihn und ließ ihm die Wahl zwischen Dienst und Tod. Er wählte den Dienst und half ihr dann, sich gegen seine Brüder zu wenden." },
+        { "Heute steht er an der Seite der Bansheekönigin in Undercity. Es ist eine eindrucksvolle Partnerschaft, auch wenn ihr Anfang wenig Beruhigendes über die Treue beider Seiten verrät. Varimathras fand einen Weg, einen Wechsel des Herrn zu überleben. Sylvanas hat ihn dort behalten, wo sie ihn sehen kann." },
+        { side = "Horde", aside = true, sign = "P. F.", "Wir gehen im Königsviertel an ihm vorbei und sagen nichts. Ich bin mir weniger sicher als die Dunkle Fürstin, dass ihn in der Nähe zu halten dasselbe ist, wie ihn treu zu halten." },
       },
     },
     ["war-of-the-three-hammers"] = {
@@ -2711,6 +2849,14 @@ ns.translate({
         { "Noch eine Grabung der Liga, diese in den Marschen des Sumpflands, unter Ausgrabungsleiter Whelgar. Die Marsch behält, was sie verschluckt, und die Liga hatte große Hoffnungen in das gesetzt, was unter ihr lag." },
         { "Dann kamen die Raptoren. Sie zogen in die Grabung ein und betrachteten die Gräber als Freiwild, und die Leute der Liga wurden auf einen Grat über der Stätte vertrieben, wo manche von ihnen noch immer darauf warten, dass die Tiere abziehen." },
         { "Wenn Ihr vorbeikommt, seht nach ihnen. Sie werden sehr froh sein, jemanden mit einer Waffe zu sehen." },
+      },
+    },
+    ["whitemane-and-mograine"] = {
+      title = "Whitemane und Mograine",
+      text = {
+        { "Hochinquisitor Sally Whitemane und der Scharlachrote Kommandant Renault Mograine halten die Kathedrale des Scharlachroten Klosters. Er befehligt ihre Ritter. Sie lenkt ihren Glauben. Ihre Herrschaft über das Licht kann ihn wiedererwecken, wenn er fällt, was einen Sieg über den Kommandanten weniger endgültig macht, als ein Reisender hoffen mag." },
+        { "Renault ist der Sohn von Hochlord Alexandros Mograine, dem Aschenbringer, einem großen Streiter der Silbernen Hand gegen die Geißel. Sein Vater ist tot. Fairbanks, ein weiterer Hochinquisitor, versteckt in der Kathedrale, behauptet zu wissen, wie er starb, und sagt, dass Renault dabei war. Dem Kreuzzug wäre sein Schweigen lieber. Wer die Klinge des Hochlords bringt, hört vielleicht den Bericht, den sie nicht erzählt haben wollen. Die Seite des Aschenbringers in diesem Register erzählt, was er sagt." },
+        { side = "Horde", aside = true, sign = "P. F.", "Whitemane erweckt ihren Kommandanten von den Toten, und der Kreuzzug verbrennt den Rest von uns für weniger." },
       },
     },
     ["zandalar-tribe"] = {
