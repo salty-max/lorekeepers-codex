@@ -2070,6 +2070,13 @@ ns.translate({
     { "Das Tal der Geister", "Tal der Geister" },
   },
   pages = {
+    ["abyssal-council"] = {
+      title = "Der Abyssische Rat",
+      text = {
+        { "Kultisten des Twilight-Hammers versammeln sich an Beschwörungssteinen in Silithus. Mit Siegeln, Tafeln und Texten der Macht rufen sie Templer, Herzöge und Fürsten von Feuer, Luft, Wasser und Erde herbei: die Diener des Abyssischen Rates. Jedes Ritual kann einen mächtigeren Elementar in die Wüste bringen." },
+        { "Der Zirkel des Cenarius will den Kult aufgehalten und seine Texte genommen sehen. Die Steine liegen in derselben Wüste wie Ahn'Qiraj, eine Nähe, die wenig Trost spendet." },
+      },
+    },
     ["aerie-peak"] = {
       title = "Aerie Peak",
       text = {
@@ -2366,6 +2373,13 @@ ns.translate({
         { "Kein Reisender kommt weit hinein. Doch am Eingang der Höhlen hat man einen bronzenen Drachen in sterblicher Gestalt warten sehen, Anachronos, und er weiß sehr viel über den Krieg gegen die Insekten von Silithus vor tausend Jahren und über den Anteil, den sein Schwarm daran hatte." },
       },
     },
+    ["cenarion-hold"] = {
+      title = "Burg Cenarius",
+      text = {
+        { "Burg Cenarius ist die Festung des Zirkels des Cenarius im Norden von Silithus, errichtet, um die Stöcke und die versiegelte Stadt im Süden zu beobachten. Die Druiden, Allianz wie Horde, halten ihre Mauern, und der Krieg gegen die Silithiden wird von hier aus geführt." },
+        { "Manche in der Burg sind nicht, was sie scheinen. Unter den Druiden lebt die Brut Nozdormus, der bronzene Drachenschwarm in sterblicher Gestalt, der sich an den Krieg erinnert, der hier vor tausend Jahren geführt wurde, und auf seine Rückkehr achtet." },
+      },
+    },
     ["chillwind-camp"] = {
       title = "Chillwind-Lager",
       text = {
@@ -2393,6 +2407,13 @@ ns.translate({
       text = {
         { "J.D. Collies Arbeit beginnt mit den farbigen Kristallen, die über ganz Un'Goro verstreut sind. Berichte über große Pylonen, die mit Kristallen besetzt sind, führen ihre Nachforschungen in die Wildnis, wo drei davon im Norden, Osten und Westen des Kraters stehen." },
         { "Verschiedene Kombinationen erzeugen an diesen Pylonen nützliche Wirkungen, und Collie hat ein Handbuch für weitere Versuche geschrieben. Die Expedition kann jetzt etwas mit den Kristallen anfangen, auch wenn die Absichten ihrer Erbauer ein Rätsel bleiben. Es liegt eine ehrliche Befriedigung in einer Entdeckung, die die Werkbank erreicht, bevor sie die Geschichtsbücher erreicht." },
+      },
+    },
+    ["cthun"] = {
+      title = "C'Thun",
+      text = {
+        { "C'Thun liegt unter dem Tempel von Ahn'Qiraj, eine der uralten Mächte, die man die Alten Götter nennt. Ein gewaltiges Auge und Massen von Tentakeln füllen seine Kammer. Die Qiraji und ihre Schwärme von Silithiden dienen ihm." },
+        { "Wer sich nähert, hört Flüstern im eigenen Geist, Versprechen und Drohungen, die dem Geschöpf darunter gehören. Die Expedition fand und erschlug es. Ich kann diese Ereignisse niederschreiben, $gReisender:Reisende;, doch es bereitet mir wenig Freude, ein Ding zu verzeichnen, das seinen Betrachtern in ihren eigenen Gedanken antworten kann." },
       },
     },
     ["daelin-proudmoore"] = {
@@ -3305,6 +3326,13 @@ ns.translate({
         { "Ihr könnt verstehen, warum die Liga diese Aufzeichnung schätzt, $gReisender:Reisende;. Sie gibt uns Zwergen einen Anfang, den wir erforschen können, und macht die Geschöpfe, die die Grabungen der Liga stören, zum Teil derselben Frage wie unsere eigenen Ahnen." },
       },
     },
+    ["prince-thunderaan"] = {
+      title = "Prinz Donneraan",
+      text = {
+        { "Donneraan der Windsucher war ein Prinz der Elementarfürsten der Luft, bis Ragnaros der Feuerlord seine Essenz verschlang. Was von ihm übrig blieb, wurde in zwei Hälften einer Fessel gebunden, die die Leutnants des Feuerlords im Geschmolzenen Kern tragen." },
+        { "In Silithus weiß ein seltsames Wesen, das sich Hochlord Demitrian nennt, wie man ihn zurückbringt. Bringt ihm beide Hälften der Fesseln, das Elementium, um sie zu bearbeiten, und die Essenz des Feuerlords, und der Windsucher wird wiedergeboren. Was aus dieser Wiedergeburt hervorgeht, ist nicht dankbar, doch es lässt sich besiegen. Und daraus, so sagt man, lässt sich eine Klinge der Stürme machen." },
+      },
+    },
     ["pyrewood-village"] = {
       title = "Pyrewood",
       text = {
@@ -3456,6 +3484,13 @@ ns.translate({
         { "Die Verlassenen wissen besser als die meisten, was es heißt, wenn eine Seuche einem die Heimat nimmt. Dieses Wissen hat nicht alle ihre Apotheker davor bewahrt, dasselbe Elend gern anderen zu bereiten." },
       },
     },
+    ["ruins-of-ahnqiraj"] = {
+      title = "Ruinen von Ahn'Qiraj",
+      text = {
+        { "Als der Gong geschlagen wurde und der Skarabäuswall sich öffnete, strömten die Heere der Allianz und der Horde in die äußere Stadt von Ahn'Qiraj, die Ruinen, ein Ort aus zerbrochenen Tempeln und Sand, der von Insekten wimmelt. Der Qiraji-General Rajaxx befehligt hier, derselbe, der vor tausend Jahren Valstann Staghelm tötete, und die Ruinen werden in ihrem Herzen von dem großen steinernen Krieger Ossirian dem Narbenlosen bewacht." },
+        { "Der Zirkel des Cenarius schickte eigene Streiter in die Ruinen, und für sie war die Schlacht in der Stadt das Ende eines sehr alten Krieges." },
+      },
+    },
     ["ruins-of-lordaeron"] = {
       title = "Die Ruinen von Lordaeron",
       text = {
@@ -3585,6 +3620,13 @@ ns.translate({
         { "Von der Kaserne in der Altstadt aus leitet Mathias Shaw den Nachrichtendienst Stormwinds. SI:7 verfolgt die Geschäfte, die selten auf einem öffentlichen Aushang landen: die Defias, die Geheimnisse der Adligen und die Orte, an denen beide sich treffen." },
         { "Eine Beschreibung von Bazil Thredds Besucher führte Shaw zu einem Meuchler, der sich Marzon nannte und in den Diensten von Lord Gregor Lescovar stand. Die folgende Ermittlung endete mit beiden Männern tot in den Schlossgärten, außerhalb der bequemen Reichweite gewöhnlicher Gerechtigkeit." },
         { "Die Kaserne gibt dem Dienst ein unauffälliges Zuhause. Seine Arbeit führt in Räume, in denen sich die Feinde der Stadt sehr achtbar kleiden können." },
+      },
+    },
+    ["silithus"] = {
+      title = "Silithus",
+      text = {
+        { "Silithus ist eine Wüste aus gelbem Sand und großen Stöcken der Silithiden im Südwesten Kalimdors. Hinter dem Skarabäuswall liegt Ahn'Qiraj, die Stadt der Qiraji, der Herren der Insekten. Etwas noch Älteres liegt unter ihrer Herrschaft." },
+        { "Der Zirkel des Cenarius wacht von seiner Burg aus, während sich Kultisten des Twilight-Hammers in Lagern in der Wüste versammeln. Streitkräfte der Allianz und der Horde wurden gemeinsam aufgestellt, um gegen den Wall zu marschieren." },
       },
     },
     ["silverpine-forest"] = {
@@ -3747,6 +3789,13 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Man sagt uns, die neue Seuche der Apotheker sei für die Geißel bestimmt. Die letzte Seuche hat mich getötet, und das hätte ich gern schriftlich." },
       },
     },
+    ["temple-of-ahnqiraj"] = {
+      title = "Tempel von Ahn'Qiraj",
+      text = {
+        { "Die Zwillingsimperatoren Vek'lor und Vek'nilash herrschen vom Tempel von Ahn'Qiraj aus über die Qiraji. Zu ihren Dienern gehören die Schwärme der Silithiden und die großen Würmer in seinen Hallen. Die bronzenen Drachen betrachten diesen Ort mit Furcht." },
+        { "Unter den Imperatoren liegt C'Thun. Der Tempel und das Reich um ihn dienen diesem Alten Gott, nicht den Herrschern, denen ein Reisender zuerst begegnet. Die Imperatoren halten ihren Hof über der Kammer ihres eigenen Herrn." },
+      },
+    },
     ["thandol-span"] = {
       title = "Der Thandol-Übergang",
       text = {
@@ -3864,6 +3913,20 @@ ns.translate({
       text = {
         { "Die Verbannten im sicheren Hafen nennen sich Draenei. Mit Hufen und Fühlern und blaugrauer Haut sind sie anders als die anderen Völker, denen ein Reisender in Azeroth gewöhnlich begegnet. Sie sagen, sie seien nach einer schrecklichen Reise aus der Welt der Orcs gekommen. Die im sicheren Hafen sind sanft geblieben und bereit zu sprechen." },
         { "Andere leben im Fallow Heiligtum und werden die Verirrten genannt. Die Verbannten sagen, die Reise habe ihre einstigen Brüder zerbrochen. Sie greifen jeden an, der sich nähert, und haben Kristalle gestohlen, die den Verbannten heilig sind. Diese Berichte vor Ort verraten uns wenig über ihr früheres Leben oder darüber, was geschah, bevor sie hierher kamen. Ich lasse diesen Teil der Seite lieber offen, als ihnen eine Vergangenheit anzudichten, die sie nicht beschrieben haben." },
+      },
+    },
+    ["the-scarab-wall"] = {
+      title = "Der Skarabäuswall",
+      text = {
+        { "Vor tausend Jahren kamen die Qiraji und ihre Schwärme von Silithiden aus Ahn'Qiraj und fielen über Kalimdor her, und die Nachtelfen bekämpften sie im Krieg der Sandstürme. Allein konnten sie ihn nicht gewinnen. Fandral Staghelm, der sie führte, verlor seinen Sohn Valstann an die Qiraji: Der Junge wurde gefangen genommen und vor den Augen seines Vaters getötet." },
+        { "Die Drachen retteten sie. Der bronzene, der rote, der blaue und der grüne Drachenschwarm kamen und trieben die Insekten in ihre Stadt zurück. Und mit ihrer Magie errichteten die Nachtelfen eine große Mauer aus Stein und eine Barriere quer durch den Süden von Silithus, den Skarabäuswall, und schlossen sie ein. Die Toten dieses Krieges liegen in der Heldenwacht, außerhalb davon." },
+      },
+    },
+    ["the-scepter-of-the-shifting-sands"] = {
+      title = "Das Szepter der Sandstürme",
+      text = {
+        { "Um Ahn'Qiraj zu versiegeln, schuf der bronzene Drache Anachronos ein Szepter, das Szepter der Sandstürme, und damit schloss er den Skarabäuswall und stellte einen Gong auf einem Podest davor. Nur das Szepter, gegen den Gong geschlagen, kann ihn wieder öffnen. Er gab es Fandral Staghelm." },
+        { "Fandral wollte es nicht. In Gedanken an seinen Sohn zerbrach er das Szepter auf dem Boden und sagte, er wolle es nie wiedersehen. Seine Teile gingen zur Verwahrung an die Drachenschwärme. Tausend Jahre später zeigt ein kristallener Riss in der südlichen Wüste diese Erinnerung noch denen, die hineinsehen, und die bronzenen Drachen suchen jemanden, der das Szepter wieder ganz macht." },
       },
     },
     ["the-sepulcher"] = {
