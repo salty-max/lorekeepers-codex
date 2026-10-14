@@ -3232,11 +3232,27 @@ ns.translate({
         { "Was dann aus dem Friedhof von Southshore heraufkommt, ist nicht der Zauberer, der er war, doch es erinnert sich, wer ihn begraben hat. Southshore hat sehr viele Feinde, $gReisender:Reisende;. Diesen hat es sich selbst gemacht." },
       },
     },
+    ["high-elves"] = {
+      title = "Die Hochelfen",
+      text = {
+        { "Die Hochelfen begannen als Nachtelfen: Hochgeborene vom Hof Azsharas, die die Große Teilung überlebten und ihre Magie nicht aufgeben konnten. Als die Druiden sie bei Todesstrafe verboten, antwortete ihr Anführer Dath'Remar mit einem Sturm von Zaubern über Ashenvale. Die Druiden wollten nicht so viele ihrer eigenen Verwandten töten. Stattdessen verbannten sie sie, und Dath'Remars Volk segelte nach Osten über den Mahlstrom, froh, seine vorsichtigen Vettern los zu sein." },
+        { "Sie gingen im Norden dessen an Land, was die Menschen Lordaeron nennen sollten, und ließen sich zuerst auf den Lichtungen von Tirisfal nieder, bis nach einigen Jahren viele von ihnen wahnsinnig wurden. Gerüchte sagten, etwas Böses schlafe unter diesem Boden, und bewiesen wurde es nie. Vom Brunnen abgeschnitten, verloren sie unterwegs ihre Unsterblichkeit, wurden kleiner und blasser und kämpften um jede Meile gegen die Trolle der Amani. Schließlich gründeten sie Quel'Thalas tief in den nördlichen Wäldern, auf Land, das den Trollen heilig war, und umgaben es mit Runensteinen. Dath'Remar nahm den Namen Sonnenwanderer an, 'der am Tage wandelt', und sein Volk ist seither ein Volk der Sonne." },
+        { "Quel'Thalas ist nun fort. Die Elfen, denen ein Reisender begegnet, sind, was davon übrig ist: Waldläufer, die die Quel'Lithien-Lodge am Rand der Pestländer halten, die Hochtalelfen der Quel'Danil-Hütte im Hinterland, Wanderer hier und da. Sie sind selbst im Exil stolz. Angesichts dessen, was sie verloren haben, fällt es mir schwer, es ihnen vorzuhalten." },
+      },
+    },
     ["high-tinker-mekkatorque"] = {
       title = "Hochtüftler Mekkatorque",
       text = {
         { "Gelbin Mekkatorque führt die Gnome von Tüftlerstadt in Ironforge aus. Die Zwerge haben seinem Volk eine Zuflucht gegeben, doch ihre eigene Hauptstadt liegt weiter unter Dun Morogh. Ein von Freunden geliehenes Zuhause kann den Verlust von Gnomeregan nicht aufwiegen." },
         { "Die Strahlung, die gegen die eindringenden Troggs freigesetzt wurde, konnte sie nicht vernichten und hat auch die Gnome verwüstet. Mekkatorque vertraute einst Sicco Thermaplugg. Nun bezichtigt er ihn des Verrats an der Stadt und bittet Abenteurer, hineinzugehen und ihn zu töten." },
+      },
+    },
+    ["highborne"] = {
+      title = "Die Hochgeborenen",
+      text = {
+        { "Die Hochgeborenen waren die obere Kaste der Nachtelfen, die auserwählten Diener von Königin Azshara, die den Brunnen der Ewigkeit erforschten, bis sie Magie lernten, und sie dann mehr liebten als alles andere. Es war ihre Zauberkunst, die Sargeras in die Welt lockte, und ihre Königin und ihr Hof, die seiner Legion den Weg öffneten." },
+        { "Nicht alle teilten ihr Schicksal. Manche überlebten die Große Teilung unter den anderen Nachtelfen und wurden, verbannt, weil sie an ihrer Magie festhielten, zu den Hochelfen. Andere hielten in Eldre'Thalas aus, wo die Shen'dralar noch immer unter sich bleiben. Viele starben einfach und fanden keine Ruhe." },
+        { "Ihre Toten sind leicht zu finden: klagend in den Ruinen der Dunkelküste, als Erscheinungen und Lichlinge durch Azshara treibend, leidend am gefrorenen Kel'Therilsee in Winterspring. Zehntausend Jahre sind eine lange Zeit, um etwas zu bereuen, $gReisender:Reisende;. Mindestens einer von ihnen, am See, scheint es wirklich zu tun." },
       },
     },
     ["highborne-ruins"] = {
@@ -3265,6 +3281,14 @@ ns.translate({
       text = {
         { "Die Barovs waren ein Adelshaus Lordaerons, reich und stolz, die Herren von Caer Darrow. Als die Seuche kam, schlossen sie ihren Handel mit Kel'Thuzad: ihre Burg für den Kult der Verdammten, im Tausch gegen die Sicherheit ihres Vermögens. Kel'Thuzad hielt sein Wort auf seine Weise. Der Lord und seine Familie sind noch immer in der Scholomance, als Diener der Geißel." },
         { "Zwei Söhne sind übrig. Weldon Barov lebt und sitzt unter dem Schutz der Allianz im Chillwind-Lager. Alexi Barov lebt nicht und leistet den Verlassenen am Bollwerk Gesellschaft. Jeder will das Vermögen der Familie. Jeder hätte gern den Kopf seines Bruders auf einem Teller, und jeder bezahlt einen Reisenden dafür, ihn zu holen. Der Untod hat diesen Familienstreit nicht beendet." },
+      },
+    },
+    ["humans"] = {
+      title = "Die Menschen",
+      text = {
+        { "Das erste Königreich der Menschheit war Arathor, errichtet in Strom im Hochland, das noch heute seinen Namen trägt. Sein König Thoradin sammelte die verstreuten Stämme gegen die Trolle der Amani, und in diesem Krieg lehrten die Hochelfen von Quel'Thalas hundert Menschen, Magie zu wirken. Aus Arathor gingen mit der Zeit sieben Königreiche hervor: Stormwind, Lordaeron, Gilneas, Alterac, Stromgarde, Kul Tiras und die Stadt der Magier, Dalaran." },
+        { "Die Orcs kamen durch das Dunkle Portal und brannten zuerst Stormwind nieder. Sein Volk floh nach Norden, und die Allianz, die den Zweiten Krieg gewann, wurde in Lordaeron geschmiedet. Dann nahmen die Seuche und die Geißel Lordaeron selbst, Gilneas schloss sich hinter seiner Mauer ein, und Dalaran fiel. Stormwind, in weißem Stein wiederaufgebaut, ist die größte Stadt der Menschen, die übrig ist, und ein Knabenkönig sitzt unter einem Regenten auf ihrem Thron, solange sein Vater vermisst wird." },
+        { "Sie sind ein kurzlebiges Volk und ein sturköpfiges, $gReisender:Reisende;. Sie streiten mehr untereinander, als ihnen guttut, und bauen schneller wieder auf als jeder, den ich kenne. Die Liga hat gelernt, ihre Karten ernst zu nehmen und ihre Zahlungsversprechen mit etwas Vorsicht." },
       },
     },
     ["hunters"] = {
@@ -3398,6 +3422,14 @@ ns.translate({
         { "Leutnant Kirith diente dem Helden der Horde, dessen Geist nun vor Stonard wartet. Die beiden wurden in den Verwüsteten Landen von Erzmagier Allistarj gefangen genommen und dort in einer Höhle eingesperrt. Der Held hielt durch. Kiriths Wille brach. Sein Befehlshaber hörte die Experimente aus seinem eigenen Käfig, die Schreie, die durch die Hallen hallten, und danach sah und hörte er nichts mehr von ihm." },
         { "Was die Experimente aus ihm machten, wandelt nun als Kirith der Verdammte durch die Schlangenschlinge. Macht dem ein Ende, und was vom Leutnant übrig ist, spricht zu Euch und grinst sogar: Er weiß, wie Razelikh der Entweiher sich schützt, mit drei Dienern, die je ein Drittel eines Amuletts tragen, und er schickt Euch mit der Nachricht zurück zu seinem Befehlshaber." },
         { "Loramus Thalipedes, der in Azshara Dämonen jagt, nennt es unvorstellbar, dass jemand Kirith von seinem Leiden erlöst hat. Es ist eines der wenigen freundlichen Dinge, die in den Verwüsteten Landen seit langem geschehen sind." },
+      },
+    },
+    ["kobolds"] = {
+      title = "Die Kobolde",
+      text = {
+        { "Jeder Bergmann der Allianz hat eine Koboldgeschichte, und die meisten enden mit einer verlorenen Spitzhacke. Kobolde sind kleine Tunnelgeschöpfe mit Rattengesichtern, feige allein und gefährlich in Massen, und sie treten immer in Massen auf. Sie tragen Kerzen auf dem Kopf, um das Dunkel zu erhellen, und sie kämpfen für eine Kerze bis zum Tod, lange nachdem sie vor einem Schwert davongelaufen wären." },
+        { "Sie sind überall, wo es etwas zu graben gibt. Ein Klan aus dem Rotkammgebirge hat die Minen im Wald von Elwynn und in Westfall gefüllt, die Tunnelratten haben sich über Thelsamar eingegraben, die Trockenstoppel dienen den Riesen des Arathihochlands, und die Bruchschnauzen wühlen in Tausend Nadeln nach Erz." },
+        { "Es ist leicht, über sie zu lachen. Die Bauern von Elwynn, die ihr Vieh und ihre Ernten an sie verlieren, lachen nicht." },
       },
     },
     ["kodo-graveyard"] = {
@@ -3638,12 +3670,27 @@ ns.translate({
         { "Generationenlang wanderten die Tauren über die Ebenen Kalimdors, überall von den Zentauren bedrängt. Als die Orcs nach Kalimdor kamen, half Thrall Cairne Bloodhoofs Volk, die Zentauren zurückzudrängen und dieses Grasland einzunehmen, und seither haben sich die Stämme hier versammelt. Dennoch ist Mulgore nicht ohne Sorgen: Die Stacheleber der Borstennacken fallen aus den Schluchten ein, die Gnolle der Bleichmähnen jagen seine Tiere, und die Goblins der Venture Co. haben eine Mine in seine Klippen gegraben und seine Brunnen verschmutzt, gegen die ausdrückliche Weigerung der Tauren." },
       },
     },
+    ["murlocs"] = {
+      title = "Die Murlocs",
+      text = {
+        { "Murlochütten und Fischernetze säumen die Küsten auf beiden Kontinenten, von den Gewässern Elwynns bis zur Dunkelküste. Jäger und Orakel bewohnen ihre Siedlungen und greifen oft an, wer sich nähert. Ein Reisender kann mehreren Stämmen begegnen, ohne viel über die Geschichte hinter ihrer Anwesenheit zu erfahren." },
+        { "Ein Stamm hatte einen entscheidenden Anteil an der Reise der neuen Horde. Murlocs im Dienst einer Meerhexe nahmen auf den Inseln der Dunkelspeer Trolle und Orcs gefangen. Thralls Gefolgsleute kämpften sich frei. Sen'jin starb, und die überlebenden Dunkelspeer segelten mit ihnen nach Kalimdor. Dieses Bündnis begann an einer Küste, die Murlocs verteidigten, lange bevor es in Durotar eine Heimat hatte." },
+      },
+    },
     ["myzrael"] = {
       title = "Myzrael",
       text = {
         { "Die Splitter von Myzrael bieten eine Stimme aus der Tiefe unter dem Arathihochland. Eine gefangene Prinzessin der Erde bittet einen vorbeiziehenden Reisenden, ihr bei der Flucht zu helfen, und die Kristalle verleihen der Begegnung ein Gefühl von Wärme und Geborgenheit." },
         { "Theldurin der Verirrte erzählt es anders. Er fürchtet, was sie tun wird, sobald sie wieder zu Kräften kommt, und fragt, warum die Riesen sie angekettet haben, wenn sie so leicht zu beherrschen ist. Seine Antwort ist, sie herbeizurufen und zu besiegen und ihre Fesseln dann wieder an die Splitter zu binden." },
         { "Danach steigt ein Schrei aus der Tiefe unter der Erde auf. Die Kristalle bleiben, doch ihre alte Beruhigung ist fort. Was jetzt durch sie pulsiert, fühlt sich an wie Hass auf die Welt darüber. Die Stimme, die so sanft um Hilfe bat, ist zum Beunruhigendsten an diesem stillen Hang geworden." },
+      },
+    },
+    ["naga"] = {
+      title = "Die Naga",
+      text = {
+        { "Die Große Teilung riss Azsharas Hochgeborene mit ihrer Hauptstadt unter das Meer. Sie überlebten, verwandelt in geschuppte Wesen mit schlangenartigem Unterleib, Flossen und in manchen Fällen vier Armen. Sie bauten ein Königreich unter dem Wasser. Die alten Geschichten verorten ihre Königin noch immer dort." },
+        { "Im Dritten Krieg kehrten sie an die Oberfläche zurück, als Lady Vashj Naga in Illidans Diensten anführte. Kriegstrupps halten nun den Zoramstrand und den ertrunkenen Tempel der Blackfathom-Tiefe, die zerstörten Küsten von Azshara und der Dunkelküste und Küsten in Feralas, Desolace und Dustwallow." },
+        { "Die Geschichte der Hochgeborenen endete nicht, als ihre Städte versanken, $gReisender:Reisende;. Dieselben Hochgeborenen ringen heute um Orte an den Küsten des Kontinents, ebenso verändert wie das Land, das sie einst kannten." },
       },
     },
     ["nathanos-blightcaller"] = {
@@ -3690,6 +3737,14 @@ ns.translate({
         { "Nethergarde ist heute auf Stormwinds Karawanen angewiesen. Seine Magier erforschen das Portal und die Öde ringsum. Ein Gelehrter bewahrt Khadgars Abhandlungen über die Konvergenz der Dimensionen. Anderswo in den Verwüsteten Landen sucht die Draenei Kum'isha nach Relikten, die einen Weg nach Hause öffnen könnten. Ein Reisender findet mehrere Gründe, einen Durchgang zu erforschen, der so viel Unheil gebracht hat." },
       },
     },
+    ["night-elves"] = {
+      title = "Die Nachtelfen",
+      text = {
+        { "Die Kaldorei sind das älteste Volk, dem die Liga begegnet ist, und sie sind zu höflich, um uns oft daran zu erinnern. Vor zehntausend Jahren schöpften ihre Hochgeborenen aus dem Brunnen der Ewigkeit, bis die Brennende Legion seinetwegen kam, und der Krieg, der folgte, zerbrach die Welt. Danach entsagten die Überlebenden dem Arkanen. Sie wandten sich den Druiden Malfurion Stormrages und den Priesterinnen der Elune zu und pflanzten auf dem Hyjal einen Weltenbaum, der sie nicht altern ließ." },
+        { "Im Dritten Krieg kam die Legion zum Hyjal zurück. Um den Dämon Archimonde zu vernichten, gaben die Nachtelfen den Baum auf und mit ihm ihre Unsterblichkeit. Fandral Staghelm hat seither Teldrassil vor der Küste der Dunkelküste wachsen lassen, und Darnassus steht in seinen Ästen. Ob der neue Baum gesegnet ist wie der alte, sagen die Druiden nicht laut." },
+        { "Nun altern sie, und sie lernen, was das bedeutet, $gReisender:Reisende;. Tyrande Whisperwind führt sie vom Tempel des Mondes aus, solange Malfurion im Traum verloren ist. Wenn eine Nachtelfe jedes Wort abzuwägen scheint, denkt daran, dass sie bis vor wenigen Jahren alle Zeit der Welt hatten, es zu wählen." },
+      },
+    },
     ["night-watch"] = {
       title = "Die Nachtwache",
       text = {
@@ -3726,6 +3781,14 @@ ns.translate({
         { "Jaina Proudmoore hat Frieden mit Thrall geschlossen, und doch gehen die Kämpfe um die Feste weiter. Ein Reisender an dieser Küste versteht, warum man die Vereinbarung einer Herrscherin und das Verhalten eines Soldaten beide festhalten muss, wenn man diesen Frieden beschreibt." },
       },
     },
+    ["ogres"] = {
+      title = "Die Oger",
+      text = {
+        { "Die Oger kamen mit der Horde in diese Welt, aus demselben roten Land wie die Orcs, und kämpften im Zweiten Krieg als ihre schweren Fäuste. Der Hexenmeister Gul'dan verbesserte sie auf seine Weise: Er nutzte den Altar der Stürme, um Ogern die Kräfte der Ogermagier zu verleihen, und ihresgleichen beherrscht noch immer viele der Klans." },
+        { "Nachdem die Horde gebrochen war, ließen sich Ogerklans in den wilden Gegenden nieder und sind dort geblieben: die Mo'grosh in Loch Modan, die Splitterfäuste im Dämmerwald, die Crushridge in Alterac, die Felsfäuste in Arathi, die Staubspeier im Ödland, die Mosh'Ogg im Schlingendorntal und die Schreckensfelsoger am Dunklen Portal. Jenseits des Meeres leben die Gordunni in Feralas und die Dünenbrecher in Tanaris. Die Gordok haben es sich in den Ruinen einer Elfenstadt in Feralas bequem gemacht und krönen jeden, der ihren König tötet." },
+        { "Nicht jeder Klan hat das alte Bündnis vergessen. Die Stonemaul in den Marschen von Dustwallow kämpfen in Brackenwall an der Seite der Horde, und die Orcs sprechen gut von ihnen. Die übrigen würden Euch lieber fressen, als mit Euch zu reden." },
+      },
+    },
     ["onu"] = {
       title = "Onu",
       text = {
@@ -3745,6 +3808,14 @@ ns.translate({
       text = {
         { "Onyxia hat ihren Hort im Drachensumpf, im Süden der Marschen von Dustwallow: eine große Höhle in den Klippen, mit den Eiern ihrer Brut darin und schwarzen Drachkin überall im Moor ringsum. Die Marsch zu durchqueren, ist der leichte Teil." },
         { "Der Eingang ist gesichert, und nur ein Drachenfeueramulett öffnet den Weg. Allianz und Horde werden gleichermaßen auf den langen Umweg geschickt, um eines herzustellen: durch die Blackrockspitze, für das Blut von General Drakkisath, der die Drachen der Spitze befehligt. Der Weg der Horde führt außerdem an der Drachin Aschenschwinge vorbei, die mit einer Illusion getäuscht werden muss, doch es ist das Amulett, das Euch einlässt." },
+      },
+    },
+    ["orcs"] = {
+      title = "Die Orcs",
+      text = {
+        { "Die Orcs kamen von Draenor, einer Welt der Klans und Schamanen, und sie kamen nicht aus freiem Willen. Der Hexenmeister Gul'dan und sein Schattenrat, im Dienst des Dämons Kil'jaeden, lehrten sie Teufelsmagie und brachten ihre Häuptlinge dazu, das Blut Mannoroths zu trinken. Die Horde, die das Dunkle Portal überschritt, wurde aus diesem Handel geboren, und sie brannte Stormwind nieder, bevor die Allianz sie im Zweiten Krieg brach." },
+        { "Die besiegten Orcs wurden in Internierungslager gepfercht, teilnahmslos, während der Zorn der Dämonen aus ihnen wich. Thrall, als Sklave in Durnholde aufgewachsen, befreite sie, gab ihnen die alten Wege des Schamanen zurück und führte sie über das Meer nach Kalimdor. Am Hyjal kämpften sie an der Seite von Menschen und Nachtelfen gegen die Legion, und als Grom Hellscream Mannoroth tötete, war der Blutfluch gebrochen." },
+        { "Sie nannten ihr neues Land Durotar, nach Thralls Vater, und bauten Orgrimmar in seine Felsen. Sie sind ein stolzes Volk mit einer langen Erinnerung daran, benutzt worden zu sein, $gReisender:Reisende;. Begegnet einem Orc mit Respekt und Ehrlichkeit, und verlangt nie von einem, wieder einem Herrn zu dienen." },
       },
     },
     ["orgrim-doomhammer"] = {
@@ -3839,6 +3910,13 @@ ns.translate({
       text = {
         { "Die Quel'Danil-Hütte ist die Heimat der Hochtalelfen im Hinterland, weit südlich von Quel'Thalas. Ihre Waldläufer jagen in den Hügeln, stellen sich den Waldtrollen entgegen und leisten den Wildhammer Gesellschaft. Ihr Bündnis mit den Zwergen ist Teil eines viel älteren Streits zwischen den Elfen und den Amani." },
         { "Ihre Heimat liegt jenseits der Pestländer, von der Geißel verwüstet. Hier bleibt die Hütte ein Ort der Verständigung, mit Gesandten, die Beziehungen zu anderen Völkern suchen." },
+      },
+    },
+    ["quilboar"] = {
+      title = "Die Stacheleber",
+      text = {
+        { "Im Krieg der Urtume kämpfte ein großer Ebergott, Agammagan, gegen die Brennende Legion und fiel. Wo sein Blut in den Boden des Brachlands sickerte, wuchsen gewaltige Dornen, und die Stacheleber kamen, um zwischen ihnen zu leben: ein Volk aus Ebermenschen, bestachelt und mit Hauern, das die Dornen für heilig hält und sich seine Kinder nennt. Den größten dieser Dornenbauten nennen sie Razorfen." },
+        { "Die Stämme breiteten sich über das Brachland, Mulgore und Durotar aus: die Grimmhauer, die Borstennacken, die Stacheleber von Razorfen in ihrem Kral. Sie bekämpfen die Zentauren, die Tauren und die Orcs mit gleicher Wut, und sie bekämpften sie schon lange, bevor die Horde kam. Nun gibt es schlimmere Nachrichten. In den Hügeln von Razorfen hat der Stamm der Totenköpfe einen Handel mit der Geißel geschlossen, und ein Lich namens Amnennar der Kältebringer sitzt im Herzen von Agammagans Dornen." },
       },
     },
     ["ragefire-chasm"] = {
@@ -4058,6 +4136,22 @@ ns.translate({
         { "Aus den Eredar wählte er zwei Leutnants: Kil'jaeden den Betrüger, um die finstersten Völker zu finden und heranzuführen, und Archimonde den Entweiher, um das Heer zu führen. Er nannte dieses Heer die Brennende Legion. Wie viele Welten sie seither verbrannt hat, ist, wie das Buch in unserer Bibliothek sagt, noch unklar. Wir kennen eine, die sie nicht zu Ende bringen konnte." },
       },
     },
+    ["satyrs"] = {
+      title = "Die Satyrn",
+      text = {
+        { "Xavius half, den Hof von Königin Azshara der Brennenden Legion zu öffnen. Als er Sargeras enttäuschte, formte der Dämonenfürst ihn mit Hörnern, Hufen und Klauen neu. Der erste Satyr bot diese Verwandlung dann anderen Elfen an, die nach Macht hungerten, und der Fluch breitete sich unter seinen Anhängern aus." },
+        { "Ihre Lager liegen noch in den alten Landen der Nachtelfen, in den Wäldern von Ashenvale, dem Teufelswald und Azshara. Rings um sie wird das Wasser verschmutzt, Bäume erkranken und Tiere verwachsen. Die Elfen, die versuchen, diese Wälder zu heilen, ringen mit einer Verderbnis, die zuerst unter ihrem eigenen Volk Fuß fasste." },
+        { "Zehntausend Jahre sind eine lange Zeit, um einen Wald zu pflegen, $gReisender:Reisende;. Es ist eine bittere Zeitspanne, um seine alten Verräter noch immer am Werk darin zu finden." },
+      },
+    },
+    ["scarlet-crusade"] = {
+      title = "Der Scharlachrote Kreuzzug",
+      text = {
+        { "Als Prinz Arthas seinen Vater ermordete und Lordaeron an die Seuche fiel, sammelten die überlebenden Paladine der Silbernen Hand, was sie konnten, und schworen, die Toten aus dem Land zu brennen. Drei gründeten den Kreuzzug: Hochgeneral Abbendis, Hochinquisitor Isillien und Hochlord Mograine, der Aschenbringer, und in seinen ersten Tagen, so sagen die, die dabei waren, war er ein edler Orden. Sie wurden zum Scharlachroten Kreuzzug, und seither brennen sie: die Toten, und die Lebenden, die sie falsch ansehen." },
+        { "Sie trauen niemandem. Jeder Fremde könnte die Seuche tragen, jeder Elf oder Zwerg ein Spion sein, und die Verlassenen sind schlicht der Feind. Vom Kloster in Tirisfal, von Hearthglen und Tyrs Hand aus führen sie einen Krieg, den zu gewinnen niemand sonst eingeladen ist. Ihr Oberster Kreuzzügler, Saidan Dathrohan, herrscht von Stratholme aus über sie, und ihr Großinquisitor Isillien von Hearthglen aus." },
+        { "Der Kreuzzug bekämpft die Geißel, doch die Verderbnis in seinen eigenen Reihen gibt einen weiteren Grund, ihm zu misstrauen. Fragt im Kloster nach Hochlord Mograine und seiner Klinge, dem Aschenbringer, und achtet genau darauf, wer verstummt. Und fragt die Argentumdämmerung, was sie fand, als sie sich den Obersten Kreuzzügler selbst genau ansah." },
+      },
+    },
     ["scarlet-monastery"] = {
       title = "Das Scharlachrote Kloster",
       text = {
@@ -4071,6 +4165,14 @@ ns.translate({
       text = {
         { "Unter Caer Darrow liegt die Scholomance, die Schule des Kults der Verdammten, in der Nekromanten ausgebildet und die dunklen Künste der Geißel studiert werden. Ihr Schulleiter ist Dunkelmeister Gandling, und ihre Hallen sind voller Schüler, Lehrer und der Dinge, an denen sie üben. Ihre Tür ist für jeden ohne Schlüssel verriegelt." },
         { "Auch die Barovs sind dort, oder was von ihnen übrig ist: der Lord und seine Lady, erweckt von den Herren, an die sie ihr Zuhause verkauft haben. Sowohl die Allianz als auch die Verlassenen wollen in die Scholomance hinein, und beide haben festgestellt, dass der Weg hinein durch sehr viel schlechte Geschichte führt." },
+      },
+    },
+    ["scourge"] = {
+      title = "Die Geißel",
+      text = {
+        { "Die Geißel ist das Heer des Lichkönigs, einer Macht, die in Nordend auf einem Thron aus Eis sitzt und in den Geist der Toten spricht. Sie kam als Seuche nach Lordaeron, im Getreide getragen von einem Kult von Anbetern des Lichkönigs, und jeder, der davon aß und starb, erhob sich wieder, um ihm zu dienen. Der eigene Prinz des Königreichs, Arthas, vollendete das Werk und kehrte später nach Nordend zurück, wo er den Frostthron für sich beanspruchte." },
+        { "Was er zurückließ, sind die Pestländer: ein Königreich der Toten, mit Ghulen auf den Feldern, aus Leichen zusammengenähten Monstrositäten und Seuchenkesseln, die die Erde vergiften. Stratholme gehört ihnen, unter Baron Rivendare, und die Scholomance, und die Gehöfte der halben Nordlande. Nun hängt eine schwarze Zitadelle am Himmel über den Östlichen Pestländern, Naxxramas, und ihr Herr ist der Lich Kel'Thuzad." },
+        { "Die Toten ermüden nicht, und sie halten nicht an. Die Argentumdämmerung, der Scharlachrote Kreuzzug und die Verlassenen bekämpfen sie alle, trotz des Misstrauens zwischen ihnen. In der Kapelle des hoffnungsvollen Lichts haben die Dämmerung und der Kreuzzug vereinbart, gegen Naxxramas zusammenzuarbeiten." },
       },
     },
     ["scythe-of-elune"] = {
@@ -4100,6 +4202,14 @@ ns.translate({
       text = {
         { "Die Späherkuppe ist ein steinerner Wachturm auf einer Anhöhe mitten in Westfall, und sie ist der letzte Ort in der Provinz, an dem das Gesetz noch etwas bedeutet. Die Volksmiliz hält sie: eine Handvoll Soldaten und sehr viele ehemalige Bauern unter dem Paladin Gryan Stoutmantle, die lieber für ihr Land kämpfen, als ihm den Rücken zu kehren." },
         { "Viel gibt es hier nicht: den Turm, ein paar Zelte, einen Stall und ein Gasthaus, und einen guten Blick darauf, wie schlimm die Dinge geworden sind. Doch jeder Reisende, der Westfall helfen will, kommt zuerst hierher, und die Miliz hat mehr Arbeit als Hände." },
+      },
+    },
+    ["sentinels"] = {
+      title = "Die Schildwachen",
+      text = {
+        { "Als die Druiden im Smaragdgrünen Traum schlafen gingen, musste jemand die Wälder hüten. Tyrande Whisperwind, Hohepriesterin von Elune, sammelte ihre Schwestern zu einem Heer von Kriegerinnen und nannte sie die Schildwachen. Sie bat Malfurion, sie nicht für den Traum zu verlassen. Er ging trotzdem, und sie hielt Wache." },
+        { "Sie hielten sie zehntausend Jahre lang, bestreiften Ashenvale bei Nacht, während die Druiden schliefen, mit den Söhnen des Cenarius, den Hütern des Hains, und seinen scheuen Töchtern, den Dryaden, die sie in der Not rufen konnten. Tyrande hörte nie auf zu fürchten, dass die Legion zurückkommen würde. Am Ende behielt sie recht." },
+        { "Die Druiden sind nun wach, und die Schildwachen sind nicht abgezogen. Ihr findet sie an jedem Posten der Nachtelfen von Teldrassil bis Feathermoon, unter ihrer Generalin Shandris Feathermoon. Wenn eine von ihnen Euch ansieht, als hielte sie schon sehr lange Wache, $gReisender:Reisende;, dann tut sie das vielleicht wirklich." },
       },
     },
     ["shadowfang-keep"] = {
