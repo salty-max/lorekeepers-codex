@@ -1541,6 +1541,11 @@ do
     },
     titles = { ["The Founding of Quel'Thalas"] = "La fondation de Quel'Thalas" },
     subzones = { ["The Library"] = "La Bibliothèque" },
+    books = {
+      ["The Founding of Quel'Thalas"] = {
+        { first = "inthebeginning", pages = { "Au commencement, $N.", "Le milieu.", "La fin." } },
+      },
+    },
   })
   check(
     ns.placeName("The Library") == "La Bibliothèque",
@@ -1550,6 +1555,17 @@ do
   -- text read again in this language replaces its copy, never a second one
   local lib = LorekeepersCodexChar.library
   read("The Founding of Quel'Thalas", { "In the beginning...", "The middle.", "The end." })
+  do
+    local copy
+    for _, t in pairs(lib.texts) do
+      if t.title == "The Founding of Quel'Thalas" then copy = t end
+    end
+    local pages, whole = ns.textPages(copy)
+    check(
+      whole and #pages == 3 and ns.textForReader(pages[1]) == "Au commencement, " .. UnitName("player") .. ".",
+      "… a text copied in English reads in French, the game's own, the reader's name in it"
+    )
+  end
   local copies = 0
   for _ in pairs(lib.texts) do
     copies = copies + 1

@@ -82,6 +82,36 @@ local function here() return GetRealZoneText and GetRealZoneText() or nil, GetSu
 -- copied in English, else as copied.
 function ns.textTitle(title) return ns.textTitles and ns.textTitles[title] or title end
 
+-- A copy's pages in the client's language: the game's own text (a
+-- translation carries every book, note and plaque) for a text copied in
+-- English, a quest's letter long handed in included; else as copied. Several
+-- texts share some titles: the one whose first page begins as the copy's.
+local function letters(s) return (s:lower():gsub("[^a-z]", "")) end
+function ns.textPages(t)
+  local variants = ns.bookTexts and ns.bookTexts[t.title]
+  if not variants then return t.pages end
+  if #variants == 1 then return variants[1].pages, true end
+  local first = t.pages[1] and letters(plain(t.pages[1])) or ""
+  for _, v in ipairs(variants) do
+    if v.first ~= "" and first:sub(1, #v.first) == v.first then return v.pages, true end
+  end
+  return t.pages
+end
+
+-- The reader's own name, class and race in a text the game writes to them
+-- ($N, $C, $R: the game fills them in as it shows the text).
+function ns.textForReader(s)
+  local name = UnitName and UnitName("player") or ""
+  local class = UnitClass and UnitClass("player") or ""
+  local race = UnitRace and UnitRace("player") or ""
+  return (
+    s:gsub("%$([NnCcRr])", function(k)
+      k = k:upper()
+      return k == "N" and name or k == "C" and class or race
+    end)
+  )
+end
+
 -- The one copy of a text read again in another language: the copy whose
 -- title is this one's in English (the translation's titles), when there is
 -- exactly one.

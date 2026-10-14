@@ -68,6 +68,21 @@ function ns.translate(t)
     end
     return s
   end
+  -- the game's own texts (a copy made in another language reads in this one),
+  -- through the same words: the reader's gender, Classic's own names
+  local books = {}
+  for title, variants in pairs(t.books or {}) do
+    local mine = {}
+    for i, v in ipairs(variants) do
+      local pages = {}
+      for p, page in ipairs(v.pages) do
+        pages[p] = words(page)
+      end
+      mine[i] = { first = v.first, pages = pages }
+    end
+    books[title] = mine
+  end
+  ns.bookTexts = books
   local L = K.L
   for english, word in pairs(t.words or {}) do
     L[english] = words(word)

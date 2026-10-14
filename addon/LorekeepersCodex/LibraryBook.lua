@@ -39,7 +39,7 @@ local function matches(id, query)
   local t = textOf(id)
   if not t then return false end
   if ns.textTitle(t.title):lower():find(query, 1, true) then return true end
-  for _, p in pairs(t.pages) do
+  for _, p in pairs(ns.textPages(t)) do
     if p:lower():find(query, 1, true) then return true end
   end
   return false
@@ -153,14 +153,16 @@ function showText(id, pageNumber)
   local shelf = shelfFor(t)
   page:start(ns.textTitle(t.title), ("%s  -  %s"):format(shelf[2], foundAt(t)), ui.icon(shelf[3]))
   -- the pages: those copied, and how many there are once the last was read
-  local last = t.count
+  -- (a text copied in another language: the game's own, whole, in this one)
+  local pages, whole = ns.textPages(t)
+  local last = whole and #pages or t.count
   local highest = 0
-  for p in pairs(t.pages) do
+  for p in pairs(pages) do
     highest = math.max(highest, p)
   end
-  local body = t.pages[currentPage]
+  local body = pages[currentPage]
   page:text({
-    body and plain(body)
+    body and ns.textForReader(plain(body))
       or "|cff9e9178" .. L["This page did not reach the codex. Open the text again in the world to copy it."] .. "|r",
   })
   if (last or highest) > 1 then

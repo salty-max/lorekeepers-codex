@@ -14,6 +14,8 @@
  *   i18n/<locale>/chapters.json   { "<chapter id>": ["title", "summary"] }
  *   i18n/<locale>/subzones.json   the places inside buildings, by their English
  *                                 names (../addon-kit/subzones.py)
+ *   i18n/<locale>/books.json      the game's own texts by their English titles
+ *                                 (scripts/book_texts.py)
  *   i18n/<locale>/texts.json      the Library's titles by their English ones,
  *                                 { forever, classic } (scripts/text_titles.py)
  *   i18n/<locale>/pages/<chapter>/<id>.md
@@ -107,6 +109,9 @@ function read(locale: string) {
   const titles = json<{ forever?: Record<string, string>; classic?: Record<string, string> }>("texts.json", {});
   // the places inside buildings, which have no area id (../addon-kit/subzones.py)
   const subzones = json<{ forever?: Record<string, string>; classic?: Record<string, string> }>("subzones.json", {});
+  // the game's own texts in this language, by their English titles (a text
+  // copied in English reads in this one): scripts/book_texts.py
+  const books = json<Record<string, { first: string; pages: string[] }[]>>("books.json", {});
   for (const id of Object.keys(chapters)) if (!chapterIds.has(id)) fail(join(dir, "chapters.json"), `no chapter "${id}"`);
   const pages = new Map<string, Page>();
   for (const file of walk(join(dir, "pages"))) {
@@ -122,7 +127,7 @@ function read(locale: string) {
     }
     pages.set(id, { title: String(m.title), text: paragraphs(body), stale: m.source !== en.hash });
   }
-  return { meta, words, chapters, pages, classic, titles, subzones };
+  return { meta, words, chapters, pages, classic, titles, subzones, books };
 }
 
 // The names are Forever's (docs/localization.md): the English names the
@@ -207,6 +212,14 @@ ${Object.entries(t.subzones.forever ?? {})
 ${Object.entries(t.subzones.classic ?? {})
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([en, tr]) => `    [${q(en)}] = ${q(tr)},`)
+  .join("\n")}
+  },
+  -- the game's own texts, by their English titles: each text's pages, and
+  -- the start of its English first page (to tell apart those sharing a title)
+  books = {
+${Object.entries(t.books)
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([title, vs]) => `    [${q(title)}] = { ${vs.map((v) => `{ first = ${q(v.first)}, pages = { ${v.pages.map(q).join(", ")} } }`).join(", ")} },`)
   .join("\n")}
   },
   titlesClassic = {
