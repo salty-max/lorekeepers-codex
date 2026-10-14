@@ -2070,6 +2070,14 @@ ns.translate({
     { "Das Tal der Geister", "Tal der Geister" },
   },
   pages = {
+    ["algaz"] = {
+      title = "Algaz",
+      text = {
+        { "Die Straße aus Loch Modan nach Norden führt durch Dun Algaz, einen schmalen Pass, der durch die Berge ins Sumpfland geschlagen ist, und sie wird an beiden Enden bewacht." },
+        { "Auf unserer Seite bewachen die Gebirgsjäger der Station Algaz die Straße und die Hügel ringsum. Troggs tauchen im Pass öfter auf, als es irgendwem lieb ist, und das Sumpfland dahinter ist den Zwergen kein Freund mehr, seit die Dunkeleisenzwerge kamen." },
+        { "Wenn Ihr durch den Pass geht, seht Euch den Stein an. Er wird seit sehr langer Zeit von zwergischen Händen bearbeitet." },
+      },
+    },
     ["archesonus"] = {
       title = "Königliche Historikerin Archesonus",
       text = {
@@ -2118,6 +2126,14 @@ ns.translate({
         { "Lernt seine Straßen gut kennen, $gReisender:Reisende;. Die meisten Zwerge, denen Ihr je begegnen werdet, haben auf ihnen ihre ersten Schritte getan." },
       },
     },
+    ["edwin-vancleef"] = {
+      title = "Edwin van Cleef",
+      text = {
+        { "Edwin van Cleef war der Meister der Steinmetzgilde, der Mann, der Stormwind wiederaufbaute, und als die Adligen sich weigerten, seine Steinmetze zu bezahlen, stellte er sich zu den Männern, die unter ihm gearbeitet hatten. Er führte sie in einem Aufruhr durch die Straßen, die sie gebaut hatten, und hinaus aus der Stadt, und in Westfall wurde die Gilde zur Bruderschaft der Defias." },
+        { "Er führt sie noch immer, von seinem Schiff in der Tiefe der Todesminen aus, und er hat Stormwind nie vergeben. Bei seiner Leiche fanden diejenigen, die ihn schließlich erreichten, einen Brief an den Stadtarchitekten, versiegelt und nie abgeschickt, und er führte sehr weit, bis in die Gärten der königlichen Burg." },
+        { "Ich habe versucht, gerecht über ihn zu schreiben. Ihm wurde Unrecht getan, und er tat großes Unrecht zurück, und die Bauern von Westfall zahlten für beides." },
+      },
+    },
     ["elwynn-forest"] = {
       title = "Wald von Elwynn",
       text = {
@@ -2132,6 +2148,13 @@ ns.translate({
         { "Die Liga konnte ich kaum auslassen. Die Forscherliga ist Ironforges Gesellschaft der Historiker, Archäologen und Gräber: die Zwerge, die lieber eine Ruine lesen, als eine Halle zu bauen. Eine königliche Historikerin könnte sich keine bessere Gesellschaft wünschen." },
         { "Sie sind der ältesten Frage auf der Spur, die es gibt, nämlich woher die Zwerge kommen. Ihre Grabungen in Uldaman legen nahe, dass die Antwort bei den Titanen liegt, den Erschaffern der Welt, und wenn das stimmt, ändert es, wie jeder Zwerg von sich selbst denken sollte. König Magni nimmt es tatsächlich sehr ernst." },
         { "Ihr findet sie in der Halle der Forscher, unter Hochforscher Magellas. Bringt ihnen alles, was alt ist, $gReisender:Reisende;, und alles, was seltsam ist. Sie werden hören wollen, wo Ihr es gefunden habt, und ich ebenso." },
+      },
+    },
+    ["farstrider-lodge"] = {
+      title = "Die Weitschreiter-Lodge",
+      text = {
+        { "Jäger versammeln sich in der Weitschreiter-Lodge im Südosten von Loch Modan. Marek Ironheart handelt mit Krokiliskenfleisch und -häuten, während Daryl der Jüngling jedem Herausforderungen stellt, der seine Geschicklichkeit erproben will. Hier gibt es reichlich Arbeit für einen Bogen und keinen Mangel an Gesprächen darüber, wer ihn am besten führt." },
+        { "Vyrin Swiftwind schlägt eine andere Prüfung vor. Sie will Old Sooty tot sehen, als Teil eines Plans, Daryls Prahlerei bloßzustellen. In der Lodge lernt Ihr vielleicht etwas über die Jagd, $gReisender:Reisende;, aber Ihr lernt sehr viel über Jäger." },
       },
     },
     ["frostmane-trolls"] = {
@@ -2200,6 +2223,14 @@ ns.translate({
         { "Der Steckbrief rät, eine Gruppe mitzubringen. Befolgt diesen Rat, $gReisender:Reisende;. Das Eingeständnis einer Wache, dass sie Hilfe braucht, ist nützlicher als die Gewissheit eines Abenteurers, dass er keine braucht." },
       },
     },
+    ["ironbands-excavation-site"] = {
+      title = "Ironbands Ausgrabungsstätte",
+      text = {
+        { "Eine der Grabungen der Liga, in den Hügeln im Süden von Loch Modan, geleitet von Ausgrabungsleiter Ironband. Was er dort unten zu finden hoffte, behalte ich für mich. Was er fand, waren Troggs." },
+        { "Die Splittersteintroggs kamen in großer Zahl durch die Grabungen herauf, und die Stätte ist nun mehr Schlachtfeld als Grabung. Der Ausgrabungsleiter hat nicht aufgegeben, schließlich ist er ein Zwerg und ein Mitglied der Liga, aber über Hilfe wäre er sehr froh." },
+        { "Das meint die Liga, wenn sie sagt, Graben sei gefährliche Arbeit. Die Erde ist voller Dinge, die lieber begraben blieben, und mancher, die es lieber nicht wären." },
+      },
+    },
     ["ironforge"] = {
       title = "Ironforge",
       text = {
@@ -2232,6 +2263,14 @@ ns.translate({
         { "Wenn Ihr gegen sie kämpfen müsst, $gReisender:Reisende;, denkt daran, dass sie einmal jemandes Nachbarn waren." },
       },
     },
+    ["loch-modan"] = {
+      title = "Loch Modan",
+      text = {
+        { "Östlich der Tore liegt das sanfteste Land von Khaz Modan: grüne Hügel, Kiefernwälder und ein langer blauer See, alles gehalten von dem großen Damm an seinem Nordende." },
+        { "Es ist Acker- und Jagdland, und die Zwerge, die hier leben, sind ein wenig langsamer im Zorn und sehr viel schneller dabei, Euch etwas zu trinken anzubieten, als ihre Vettern in Ironforge. Die gute Laune brauchen sie. Troggs graben in den südlichen Tälern, Oger halten den Nordosten, und in den Hügeln hat man Dunkeleisenzwerge gesehen." },
+        { "Rastet in Thelsamar, seht Euch den Damm an und besucht das Tal der Könige. Dann gebt acht, wohin Ihr tretet." },
+      },
+    },
     ["magni-bronzebeard"] = {
       title = "König Magni Bronzebeard",
       text = {
@@ -2246,6 +2285,21 @@ ns.translate({
         { "Sicco Thermaplugg ist in Gnomeregan geblieben, während Hochtüftler Mekkatorque die Verbannten von Ironforge aus führt. Der Hochtüftler vertraute ihm einst. Dieses Vertrauen endete in einer Anklage wegen Verrats und der Bitte um seinen Tod." },
         { "Die Strahlung, die in der Stadt freigesetzt wurde, konnte die Troggs nicht vernichten und verwüstete ihre gnomischen Bewohner. Thermaplugg herrscht in den Ruinen, zwischen den Geschöpfen, die der Versuch vernichten sollte, und den Überlebenden, die er zurückließ." },
         { "Mekkatorque bittet Abenteurer, sein Urteil in diese Hallen zu tragen." },
+      },
+    },
+    ["mogrosh-ogres"] = {
+      title = "Die Oger der Mo'grosh",
+      text = {
+        { "Im Nordosten von Loch Modan haben sich die Oger der Mo'grosh eine eigene Festung gebaut und fordern jeden heraus, sie ihnen zu nehmen." },
+        { "Oger sind riesig, brutal und viel klüger, als Zwerge gern zugeben. Besonders ihre Schamanen und Mystiker sollte man nicht unterschätzen. Die Mo'grosh überfallen die Höfe und Straßen am See, wann es ihnen gefällt, und bisher hatte niemand die Stärke, sie endgültig aufzuhalten." },
+        { "Geht nicht allein in ihre Festung, $gReisender:Reisende;. Geht überhaupt nicht hinein, wenn Ihr es vermeiden könnt." },
+      },
+    },
+    ["moonbrook"] = {
+      title = "Moonbrook",
+      text = {
+        { "Moonbrook war die Marktstadt der Höfe von Westfall und die Heimat seiner Bergleute, im Ersten Krieg von den Orcs niedergebrannt und nach dem Zweiten wiederaufgebaut. Heute ist es eine Stadt der Defias: ihre Leute vertrieben, ihre Häuser voller rot maskierter Banditen, und ihre alte Schmiede und ihre Scheune verbergen den Weg hinab in die Todesminen." },
+        { "Es ist ein trauriger Ort, um hindurchzugehen, und kein sicherer. Die Bruderschaft beobachtet die Straße, und wer eine gewisse Scheune am Rand der Stadt zu lange ansieht, wird wahrscheinlich herausfinden, warum." },
       },
     },
     ["noble-conspiracy"] = {
@@ -2263,12 +2317,26 @@ ns.translate({
         { "Die Abtei unterweist die Rekruten des Königreichs heute in den Waffen ebenso wie im Glauben. Für beides gibt es ganz in der Nähe Verwendung: Kobolde besetzen die Mine, Wölfe streifen durch das Tal, und Diebe der Defias haben die Weinberge eingenommen." },
       },
     },
+    ["peoples-militia"] = {
+      title = "Die Volksmiliz",
+      text = {
+        { "Als Stormwinds Soldaten nicht kamen, stellten die Leute von Westfall ihre eigenen auf. Die Volksmiliz besteht aus ein paar Soldaten, sehr vielen Bauern und einem Paladin, der sie anführt: Gryan Stoutmantle, der nicht zusehen wollte, wie Westfall der Bruderschaft überlassen wird." },
+        { "Von der Späherkuppe aus bestreifen sie die Straßen, die sie können, jagen die Gnolle und die Defias und schicken ihre Späher in die Dolchhügel und die Ruinen von Moonbrook. Stoutmantle hat seine eigenen Freunde in niederen Kreisen, und durch einen von ihnen, einen Schurken in Seenhain, erfuhr er, wer die Bruderschaft anführt und wo sie sich verbirgt." },
+      },
+    },
     ["regency-of-stormwind"] = {
       title = "Die Regentschaft von Stormwind",
       text = {
         { "König Varian Wrynn ist verschwunden. Er war der Sohn von König Llane, der im Ersten Krieg ermordet wurde, und wuchs unter den Flüchtlingen Stormwinds in Lordaeron auf. Sein eigenes Schicksal bleibt in der Stadt, über die er herrschte, unbekannt." },
         { "Sein junger Sohn Anduin trägt die Krone. Hochlord Bolvar Fordragon hält das Königreich für ihn, befehligt seine Streitkräfte und beschützt den Jungen. Die königliche Beraterin, Lady Katrana Prestor, steht an Bolvars Seite." },
         { "Stormwinds Heer ist dünn verteilt, und Forderungen treffen aus allen Richtungen ein." },
+      },
+    },
+    ["sentinel-hill"] = {
+      title = "Späherkuppe",
+      text = {
+        { "Die Späherkuppe ist ein steinerner Wachturm auf einer Anhöhe mitten in Westfall, und sie ist der letzte Ort in der Provinz, an dem das Gesetz noch etwas bedeutet. Die Volksmiliz hält sie: eine Handvoll Soldaten und sehr viele ehemalige Bauern unter dem Paladin Gryan Stoutmantle, die lieber für ihr Land kämpfen, als ihm den Rücken zu kehren." },
+        { "Viel gibt es hier nicht: den Turm, ein paar Zelte, einen Stall und ein Gasthaus, und einen guten Blick darauf, wie schlimm die Dinge geworden sind. Doch jeder Reisende, der Westfall helfen will, kommt zuerst hierher, und die Miliz hat mehr Arbeit als Hände." },
       },
     },
     ["si-7"] = {
@@ -2295,6 +2363,13 @@ ns.translate({
         { "Der Streit geht um sie herum weiter: eine Tante der Stonefields, die den jungen Billy Maclure beschuldigt, ihre Halskette gestohlen zu haben, Mutter Stonefield, die der preisgekrönten Sau der Brackwells den Tod schwört, weil sie ihr Gemüse gefressen hat. Elwynn hat die Defias, die Kobolde und die Gnolle kommen und gehen sehen. Der Streit hat sie bisher alle überdauert." },
       },
     },
+    ["stonewrought-dam"] = {
+      title = "Der Stonewroughtdamm",
+      text = {
+        { "Der Stonewroughtdamm hält das Nordende des Sees. Seine Mauer und sein Wasserfall gehören zu den großen Sehenswürdigkeiten von Khaz Modan. Nehmt Euch Zeit, sie zu bewundern, $gReisender:Reisende;. Es hat sehr viel Arbeit gekostet, Euch diesen Anblick zu verschaffen." },
+        { "Chefingenieur Hinderweir ist einem Anschlag der Dunkeleisenzwerge auf den Damm auf die Spur gekommen. Seine Ermittlung führt zu einem Sprengfass und zu der Mischung, die nötig ist, um es zu entschärfen. Die Zwerge bewachen dieses Werk genau, und aus gutem Grund. Menschen hängen davon ab, dass die Mauer hält, und für Hinderweir steht weit mehr auf dem Spiel als der Stolz eines Ingenieurs." },
+      },
+    },
     ["stormwind-city"] = {
       title = "Stormwind",
       text = {
@@ -2304,11 +2379,26 @@ ns.translate({
         { client = "forever", "Es ist eine Stadt des Handels und der Soldaten, mit Schiffen in ihrem Hafen, der Priester und der Spione, und eines Hofes, der flüstert. Der Junge auf dem Thron ist ihr König. Die Männer und Frauen um ihn herum regieren sie." },
       },
     },
+    ["the-deadmines"] = {
+      title = "Die Todesminen",
+      text = {
+        { "Die Todesminen versorgten Stormwind einst mit Gold. Verlassen, als die Orcs kamen, wurden sie im Ersten Krieg zur Höhle eines Ogers. Sir Anduin Lothar drang in sie ein, um ein heiliges Buch zurückzuholen, das aus Nordhain gestohlen worden war, und geriet selbst in Gefangenschaft. Soldaten aus Stormwind holten sowohl den Ritter als auch das Buch heraus." },
+        { "Die Defias haben seither tiefer gegraben. In ihren Stollen finden sich Goblin-Ingenieure, eine Gießerei und ein Schredder, und unter den alten Schächten birgt eine verborgene Bucht ein großes Kriegsschiff im Bau. Van Cleefs Pläne reichen weit über den Diebstahl von Höfen hinaus. Wenn Ihr hinabsteigt, $gReisender:Reisende;, rechnet mit deutlich mehr als einer stillgelegten Mine." },
+      },
+    },
     ["the-stockade"] = {
       title = "Das Verlies",
       text = {
         { "Stormwinds Gefängnis liegt unter seinen Kanälen, in den Fels unter der Stadt gehauen. Unter den Defias, die dort eingesperrt waren, war Edwin van Cleefs Leutnant Bazil Thredd. Unter seiner Führung erhoben sich die Häftlinge und übernahmen die Zellen." },
         { "Der Aufseher rief Abenteurer, um den Aufstand niederzuschlagen. Thredd war nicht der einzige gefährliche Gefangene darin: Der Orc Targorr der Schreckliche war unter den Aufrührern. Es ist ein unbehaglicher Gedanke, eine feindliche Festung unter den Straßen der eigenen Hauptstadt zu haben." },
+      },
+    },
+    ["thelsamar"] = {
+      title = "Thelsamar",
+      text = {
+        { "Thelsamar ist das Herz von Loch Modan: ein Dorf aus Steinhäusern an der Straße zwischen Ironforge und dem Sumpfland, mit einer Schmiede, einem guten Gasthaus und einem Greifenmeister für alle, die es eilig haben." },
+        { "Es ist die Art von Ort, an dem jeder jeden kennt und die Neuigkeiten schneller reisen als die Greifen. Fragt im Gasthaus nach irgendetwas, das im Seenland geschieht, und Ihr hört es dreimal, jede Fassung besser als die letzte." },
+        { "Die Gebirgsjäger hier sind dünn verteilt. Wenn Ihr einen starken Arm und einen freien Nachmittag habt, finden sie etwas für Euch zu tun." },
       },
     },
     ["timber"] = {
@@ -2317,6 +2407,14 @@ ns.translate({
         { "Die Jäger von Kharanos nennen ihn Holzplanke: ein Wolf, größer als seine Artgenossen, mit einem lästigen Verständnis für Fallen. Sie sagen, er wähle sein Gelände und kehre auf seiner eigenen Fährte um. Jeder Jäger, der auf ihn angesetzt wurde, hat erleben müssen, dass die Beute ihn überdauerte." },
         { "Wölfe beschäftigen eine königliche Chronik selten. Dieser hier hat gute Gründe für seine Aufnahme geliefert, auch wenn ich bezweifle, dass er die Ehre zu schätzen wüsste." },
         { "Wenn Ihr ihn getötet habt, $gReisender:Reisende;, schreibt auf, was geschehen ist, solange Ihr Euch erinnert. Die Jäger werden schon bald ihren eigenen Bericht haben." },
+      },
+    },
+    ["valley-of-kings"] = {
+      title = "Das Tal der Könige",
+      text = {
+        { "Im Südwesten von Loch Modan halten zwei große Könige aus Stein Wache: Madoran Bronzebeard und Khardros Wildhammer, die ihre Klans im Krieg der drei Hämmer anführten." },
+        { "Ihre Söhne errichteten diese Statuen nach ihrem Tod, um sie zu ehren und jeden, der diese Straße heraufkam, zu warnen, dass die Königreiche der Zwerge nicht zu erobern seien. Die Dunkeleisenzwerge waren damals im Süden, wie sie es heute sind. Die Botschaft hat sich nicht geändert." },
+        { "Haltet an und schaut hinauf, $gReisender:Reisende;. Bronzebeard und Wildhammer stehen hier Seite an Seite, wie sie es seither kaum irgendwo sonst getan haben." },
       },
     },
     ["war-of-the-three-hammers"] = {
@@ -2333,6 +2431,14 @@ ns.translate({
       text = {
         { "Der altgediente Bau bietet Schutz vor dem Schnee von Dun Morogh, vorausgesetzt, Ihr könnt seine Wendigos überreden, ihn zu teilen. Ein Bote, der vor ihnen floh, ließ eine Munitionslieferung zurück. Die Geschöpfe hatten das stärkere Argument." },
         { "Pilot Stonegear will ihre Mähnen für einen Teppich in seiner Belagerungsmaschine, der Trollpflug. Selbst Maschinen brauchen in diesem Land ein wenig Behaglichkeit, $gReisender:Reisende;. Die Munition zu bergen und die Maschine auszustatten, verlangt beides, einem Wendigo deutlich näher zu kommen, als dem Boten lieb war." },
+      },
+    },
+    ["westfall"] = {
+      title = "Westfall",
+      text = {
+        { "Westfall war die Kornkammer Stormwinds: weite goldene Felder, Windmühlen und Gehöfte, die sich bis zum Meer hinabziehen. Die Orcs brannten es in den Kriegen nieder, und die Bauern kehrten zurück und säten von Neuem. Was die Orcs nicht vollenden konnten, haben die Defias vollendet." },
+        { "Die Bruderschaft hat sich Westfall zu eigen gemacht. Sie vertrieb die Bauernfamilien Hof um Hof von ihrem Land, nahm Moonbrook als ihre Stadt und die alten Minen darunter als ihre Festung, und das Heer des Königs kam nie. \"Stormwind hat uns im Stich gelassen\", werden Euch die Männer auf der Späherkuppe sagen, und es fällt schwer, ihnen zu widersprechen. Nun sind die Felder trocken, die Gnolle der Flusspfoten überfallen die Höfe, und Erntegolems pirschen durch die Furchen. Murlocs halten die Küste, und selbst im Leuchtturm spukt es." },
+        { "Ein paar sture Bauern sind geblieben. Fragt Bauer Saldean, warum, und er wird Euch sagen, dass es sein Land ist." },
       },
     },
   },
