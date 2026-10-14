@@ -1,0 +1,182 @@
+{
+  "ages-past": [
+    "Vergangene Zeitalter",
+    "Die Geschichte der Welt, von den Titanen bis zum letzten Krieg, wie die alten Bücher in ihren Bibliotheken sie erzählen."
+  ],
+  "alterac": [
+    "Alteracgebirge",
+    "Ein gefallenes Königreich im Schnee, Dalaran am See und ein Tal, um das zwei Völker streiten."
+  ],
+  "arathi": [
+    "Arathihochland",
+    "Die Wiege der Königreiche der Menschen, verfallen und noch immer umkämpft."
+  ],
+  "ashenvale": [
+    "Ashenvale",
+    "Der uralte Wald der Nachtelfen, und die Äxte der Orcs an seinem Rand."
+  ],
+  "azshara": [
+    "Azshara",
+    "Das Land der Königin, am Ufer des Meeres, das sie verschlang."
+  ],
+  "badlands": [
+    "Ödland",
+    "Eine rote Öde aus Schluchten, und darunter das Gewölbe der Titanen, Uldaman."
+  ],
+  "barrens": [
+    "Brachland",
+    "Die große trockene Savanne im Herzen Kalimdors, und alle, die darum kämpfen."
+  ],
+  "blackrock-mountain": [
+    "Der Blackrock",
+    "Der Berg des Feuerlords, und der Krieg in seinem Inneren."
+  ],
+  "blasted-lands": [
+    "Verwüstete Lande",
+    "Die rote Öde um das Dunkle Portal."
+  ],
+  "burning-steppes": [
+    "Brennende Steppe",
+    "Die Aschenebene südlich des Berges, wo einst das Rotkammgebirge lag."
+  ],
+  "callings": [
+    "Die Berufungen",
+    "Die Wege der Waffen, des Glaubens und der Magie, die ein Reisender gehen kann, und woher jeder von ihnen kommt."
+  ],
+  "darkshore": [
+    "Dunkelküste",
+    "Eine lange, neblige Küste voller Ruinen der Nachtelfen, jenseits des Wassers gegenüber dem Weltenbaum."
+  ],
+  "deadwind-pass": [
+    "Gebirgspass der Totenwinde",
+    "Das tote Tal des letzten Wächters."
+  ],
+  "desolace": [
+    "Desolace",
+    "Ein graues, totes Land der Zentauren, Knochen und Dämonen."
+  ],
+  "dun-morogh": [
+    "Dun Morogh und Ironforge",
+    "Die verschneiten Täler um Ironforge, die Wiege des Bronzebeardklans."
+  ],
+  "durotar": [
+    "Durotar und Orgrimmar",
+    "Das rote Land, das Thrall seinem Volk gab, und die Stadt, die nach dem Kriegshäuptling benannt ist, der sie befreite."
+  ],
+  "duskwood": [
+    "Dämmerwald",
+    "Ein Wald, in dem die Nacht nie ganz endet und die Toten nicht begraben bleiben."
+  ],
+  "dustwallow": [
+    "Marschen von Dustwallow",
+    "Lady Proudmoores Inselstadt, ein Sumpf voller Drachen und ein Gasthaus, das niederbrannte."
+  ],
+  "eastern-plaguelands": [
+    "Östliche Pestländer",
+    "Das alte Eastweald, Stratholme und die Nekropole am Himmel."
+  ],
+  "elwynn": [
+    "Wald von Elwynn und Stormwind",
+    "Das Herz des Königreichs der Menschen: sein Wald, seine Höfe und die weiße Stadt, aus der Asche wiederaufgebaut."
+  ],
+  "felwood": [
+    "Teufelswald",
+    "Der vergiftete Wald, in dem der Schädel von Gul'dan gefunden wurde."
+  ],
+  "feralas": [
+    "Feralas",
+    "Riesige Bäume, Oger und die Ruinen der Hochgeborenen."
+  ],
+  "hillsbrad": [
+    "Vorgebirge von Hillsbrad",
+    "Grüne Hügel, auf denen Lebende und Verlassene um jeden Hof kämpfen."
+  ],
+  "hinterlands": [
+    "Hinterland",
+    "Wilde Hügel der Wildhammerzwerge, und die Tempel der Trolle, mit denen sie sie teilen."
+  ],
+  "loch-modan": [
+    "Loch Modan",
+    "Das Seenland östlich von Ironforge, von einem Damm gehalten und von Königen aus Stein bewacht."
+  ],
+  "moonglade": [
+    "Moonglade",
+    "Das heilige Tal der Druiden."
+  ],
+  "mulgore": [
+    "Mulgore und Thunder Bluff",
+    "Die grünen Ebenen der Tauren, und die Stadt auf den Tafelbergen."
+  ],
+  "peoples": [
+    "Völker und Mächte",
+    "Die Völker, Orden und Fraktionen, denen ein Reisender in vielen Ländern begegnet, an einem Ort versammelt."
+  ],
+  "redridge": [
+    "Rotkammgebirge",
+    "Rote Hügel, ein stiller See und eine Stadt, die von Norden her belagert wird."
+  ],
+  "searing-gorge": [
+    "Sengende Schlucht",
+    "Die verbrannte Nordseite des Berges, und die große Grube der Dunkeleisenzwerge."
+  ],
+  "silithus": [
+    "Silithus",
+    "Die Wüste der Insekten, der Skarabäuswall und das, was dahinter schläft."
+  ],
+  "silverpine": [
+    "Silberwald",
+    "Graue Kiefern zwischen den Verlassenen und dem verschlossenen Tor von Gilneas."
+  ],
+  "stonetalon": [
+    "Steinkrallengebirge",
+    "Hohe Gipfel und alte Wälder, die unter den Sägen der Goblins brennen."
+  ],
+  "stranglethorn": [
+    "Schlingendorntal",
+    "Der Dschungel des alten Trollreichs, wo Piraten, Jäger und Goblins ihr Glück machen."
+  ],
+  "swamp-of-sorrows": [
+    "Sümpfe des Elends",
+    "Ein ertrunkenes Land aus Nebel und Morast, und ein Tempel, der für seine Sünden versank."
+  ],
+  "tanaris": [
+    "Tanaris",
+    "Die große Wüste des Südens, und die Tore der Wächter."
+  ],
+  "teldrassil": [
+    "Teldrassil und Darnassus",
+    "Der neue Weltenbaum der Nachtelfen, und die Stadt in seiner Krone."
+  ],
+  "thousand-needles": [
+    "Tausend Nadeln",
+    "Eine Schlucht aus Steinnadeln, und eine Salzebene, auf der Goblins und Gnome Rennen fahren."
+  ],
+  "tirisfal": [
+    "Tirisfal und Undercity",
+    "Das Kernland des gefallenen Lordaeron, und die Verlassenen, die unter seiner zerstörten Hauptstadt herrschen."
+  ],
+  "ungoro-crater": [
+    "Un'Goro-Krater",
+    "Eine verlorene Welt in einem Krater, und die rätselhaften Kristalle."
+  ],
+  "western-plaguelands": [
+    "Westliche Pestländer",
+    "Das tote Herz Lordaerons, wo die Seuche begann."
+  ],
+  "westfall": [
+    "Westfall",
+    "Die Kornkammer Stormwinds, zu Staub und Banditen verkommen."
+  ],
+  "wetlands": [
+    "Sumpfland",
+    "Die Marschen zwischen Khaz Modan und Arathi, wo die Straßen der Zwerge in alte Kriege münden."
+  ],
+  "winterspring": [
+    "Winterspring",
+    "Schnee, Goblins und der Fluch der Hochgeborenen."
+  ],
+  "zephras-isle": [
+    "Die Insel Zephras",
+    "Die fliegende Insel der Himmelsgeborenen, im Himmelswall."
+  ]
+}
