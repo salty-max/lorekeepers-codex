@@ -7,11 +7,12 @@ folder:
   python3 scripts/book_texts.py frFR
 
 Reads wow-data's databases (../wow-data): the texts (text objects, type 9,
-and items with a page), their English titles and pages from Classic Era's,
-the language's pages from Forever's (Wowhead's Forever pages, saved from a
-browser and kept in wow-data: Wowhead turns scripts away), the game's markup
-already turned into lines and its placeholders into the game's tokens ($N,
-$C, $R, $gmale:female;). Tracked corrections and translations in
+and items with a page), their English titles and pages from Classic Era's
+(Forever's own texts' from Forever's), the language's pages from Forever's
+(Wowhead's Forever pages, saved from a browser and kept in wow-data: Wowhead
+turns scripts away), the game's markup already turned into lines and its
+placeholders into the game's tokens ($N, $C, $R, $gmale:female;). A text
+Wowhead gives only in English, in brackets, is no translation. Tracked corrections and translations in
 i18n/<locale>/books-supplement.json take precedence, with hashes of their
 English sources and provenance. Its excluded records document
 deprecated/test items and broken source bindings.
@@ -50,6 +51,18 @@ def letters(text, n=24):
     return re.sub(r"[^a-z]", "", text.lower())[:n]
 
 
+def untranslated(tr, en):
+    """Wowhead's English in brackets: the language's client has no text of its
+    own there (a supplement's translation, or none)"""
+    if not en or len(tr) != len(en):
+        return False
+    for page, source in zip(tr, en):
+        page = page.strip()
+        if not (page.startswith("[") and page.endswith("]")) or letters(page[1:-1], None) != letters(source, None):
+            return False
+    return True
+
+
 def plain(page):
     """the Codex's own rules over the game's text: plain spaces, straight
     quotes, no semicolons (the gender tokens' own kept)"""
@@ -74,8 +87,11 @@ out, missing = {}, []
 for key, title in texts:
     if key in excluded:
         continue
-    en = pages("classic", key, "enUS")
+    # the English: Classic's, else Forever's (its own texts, Wowhead's pages)
+    en = pages("classic", key, "enUS") or pages("forever", key, "enUS")
     tr = pages("forever", key, locale) or None
+    if tr and untranslated(tr, en):
+        tr = None
     correction = corrections.get(key)
     if correction:
         digest = hashlib.sha256(json.dumps(en, ensure_ascii=False, separators=(",", ":")).encode()).hexdigest()

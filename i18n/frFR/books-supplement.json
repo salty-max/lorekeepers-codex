@@ -1,5 +1,5 @@
 {
- "description": "Supplement to the French readable cache. Authored translations are explicitly distinguished from recovered client text. The source hash covers the pinned English HTML page array as UTF-8 compact JSON.",
+ "description": "Supplement to the French readable cache. Authored translations are explicitly distinguished from recovered client text. The source hash covers the English page array (Classic's, else Forever's) as UTF-8 compact JSON.",
  "entries": {
   "i18401": {
    "title": "Nostro's Compendium of Dragon Slaying",
@@ -218,6 +218,100 @@
     "Le Moineau sanglant : Manifeste\n\n(20) tonneaux de rhum. Destination : Theramore\n(50) sacs de farine. Destination : Theramore\n(2) caisses d'assortiments d'outils gnomes. Destination : Ratchet\n(30) rouleaux de tissu en coton. Destination : Theramore\n(4) caisses d'épices. Destination : Theramore\n(3) passagers. Destination : Theramore",
     "Capitaine,\n\nJe vous souhaite bonne chance dans vos voyages. Malheureusement, la bonne fortune n'était pas avec nous lors de notre première tentative d'enlèvement.\n\nLorsque votre groupe a pris contact avec la cible dans les tunnels de Stormwind/Ironforge, ils n'ont trouvé qu'un leurre. Il semble qu'il était plus sage que nous le pensions.\n\nMais le second plan est déjà enclenché. Les agents Defias sont prêts à intercepter la cible quand elle approchera de Theramore. Bientôt Stormwind sentira notre étau autour de son cou.\n\n-M"
    ]
+  },
+  "i207098": {
+   "title": "Note from Ba'so",
+   "source_sha256": "9997b473603797d5a63c51a3f7aac63c625b3f9f4eb42373fe619750bdabe052",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the English page chain: Wowhead gives only the English for it in French, in brackets. Not verified French client wording.",
+   "pages": [
+    "J'ai la marchandise. Je me cacherai à l'ouest du donjon de Tiragarde, sous un arbre aux feuilles sombres. Si vous envoyez l'un de vos agents pour la récupérer, assurez-vous qu'il ne soit pas visible !\n\n- Ba'so"
+   ]
+  },
+  "i208205": {
+   "title": "Blackrat's Note",
+   "source_sha256": "be15a69b6f69422a1513c6f35f8619c791121d59e739237487d4bbc4567f55f0",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the English page chain: Wowhead gives only the English for it in French, in brackets. Not verified French client wording.",
+   "pages": [
+    "J'ai la marchandise. Je me cacherai près du refuge de Brumepins, à côté du vieux bateau. Si vous envoyez l'un de vos gars pour la récupérer, assurez-vous qu'il ne soit pas visible !\n\n- Ratnoir"
+   ]
+  },
+  "i208224": {
+   "title": "Acolyte's Note",
+   "source_sha256": "00e26e43d18bd87282dcb8c7c032c8e582fd1b281478fb9d30dac93e9364e8fd",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the English page chain: Wowhead gives only the English for it in French, in brackets. Not verified French client wording.",
+   "pages": [
+    "<Le texte de la page est en grande partie maculé de sang, mais on peut distinguer un nom.>\n\nCarendin"
+   ]
+  },
+  "i210967": {
+   "title": "Confidential Message",
+   "source_sha256": "f8c50f28bf3c4d0f7f595a0e608c7a076d1031ee12063ee0aff97e1a2f9bc19c",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the English page chain: Wowhead gives only the English for it in French, in brackets. Not verified French client wording.",
+   "pages": [
+    "Frère Esolon,\n\nSi vous avez besoin d'accéder au reliquaire, j'ai caché une clé dans le cimetière. Elle se trouve dans un coffret de pierre, sous le sol du mausolée nord.\n\nUn mécanisme permet de soulever le coffret. Pour l'activer, vous devez vous asseoir sur les deux bancs situés entre les paires de statues, de part et d'autre du cimetière.\n\nMerci de garder ces informations strictement confidentielles.\n\nBénédictions,\nFrère Seramus"
+   ]
+  },
+  "i216610": {
+   "title": "Orders from the Grand Crusader",
+   "source_sha256": "96839ec0da69539afb6769a38774db9cd6998453bdc190088734ccfc09fbbf5a",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the English page chain: Wowhead gives only the English for it in French, in brackets. Not verified French client wording.",
+   "pages": [
+    "Par ordre du grand croisé Dathrohan :\n\nL'hérétique connu sous le nom d'Aeonas le Silencieux est condamné pour les crimes de commerce avec les démons et les morts-vivants, d'abandon de la Lumière, de vol et de meurtre. Cette vile créature a tué pas moins de deux de nos vaillants frères de la Lumière en dérobant des biens importants de la Croisade écarlate. Une fois retrouvé, l'hérétique devra être conduit au monastère de Tirisfal pour y être interrogé et exécuté. Tout paquet ou artefact en sa possession lors de son arrestation devra être rendu au grand croisé au plus vite, comme pièce à conviction.\n\nUne fois capturé, Aeonas devra être bâillonné, et nul autre que le grand inquisiteur ne pourra lui parler, de peur que ses mensonges insidieux ne sèment le chaos et le doute dans des cœurs par ailleurs vertueux. Soyez prudents, mes frères et sœurs, car nul ne sait quelles magies infâmes Aeonas a pu obtenir dans ses sombres tractations avec les ennemis de la Lumière."
+   ]
+  },
+  "i219929": {
+   "title": "Bloody Missive",
+   "source_sha256": "da827250d777abae31c50584ccf2728e5b5712c7d8ad2fdefed1e5fb445f8433",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the English page chain: Wowhead gives only the English for it in French, in brackets. Not verified French client wording.",
+   "pages": [
+    "Nos espions nous apprennent que le SI:7 et la Main d'argent ont mordu à l'hameçon, et votre cible devrait se diriger vers vous. Découvrez ce qu'ils savent, puis veillez à vous en débarrasser discrètement, hors de la ville de préférence. Ces fouineurs doivent mourir et nos biens doivent nous revenir, par tous les moyens nécessaires. N'échouez pas."
+   ]
+  },
+  "i221017": {
+   "title": "Keldara's Log",
+   "source_sha256": "5c0093b9dcce68c6e8f5e1be4997455f5e69bd3d70988a3700a7909a1a41cc0a",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the English page chain: Wowhead gives only the English for it in French, in brackets. Not verified French client wording.",
+   "pages": [
+    "Jour 14 :\n\nJe crois avoir découvert un moyen de défaire la corruption apportée ici par les satyres : une teinture brassée à partir de leur propre fléau !\n\nAvec des échantillons de la satyrienne des environs, on pourrait préparer un extrait qui protège d'une corruption totale grâce à une exposition à une dose plus faible. On pourrait presque y voir une sorte d'antivenin.\n\nJ'aimerais tester mon remède sur la faune locale, mais les bêtes d'ici sont trop agressives. Si seulement je pouvais les tranquilliser d'une manière ou d'une autre."
+   ]
+  },
+  "i227748": {
+   "title": "Survivor Journal",
+   "source_sha256": "27c2685fa8ab0a8f1881d83382d838524c3cf2f7e3277aa4b427fa1748a3efad",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the English page chain: Wowhead gives only the English for it in French, in brackets. Not verified French client wording.",
+   "pages": [
+    "Sous la protection de l'éclat de Lumière, nous avons fui vers la crypte et nous nous y sommes barricadés. Mais Wescott et Billina sont partis chercher des provisions, et ont emporté l'éclat pour se protéger. Trois jours ont passé et ils ne sont pas revenus. Sans le pouvoir de l'éclat, le Fléau sera bientôt sur nous..."
+   ]
+  },
+  "i228144": {
+   "title": "Strange Note",
+   "source_sha256": "3e8512c8a1df7a1ecb5decce336e28606b220db7ebe7353f253878a2d80c948a",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the English page chain: Wowhead gives only the English for it in French, in brackets. Not verified French client wording.",
+   "pages": [
+    "Le cristal m'a montré des visions de son passé. Il a été arraché à un tout parfait, une chose d'une glorieuse puissance divine.\n\nLes conflits féroces entre les races d'Azeroth ne cessent de croître. Si les éclats étaient réunis maintenant, ils pourraient servir d'arme d'une terrifiante destruction.\n\nSi vous cherchez à réunir les éclats, je vous en conjure : servez-vous de leur pouvoir pour unir les enfants d'Azeroth, et non pour mener d'autres guerres."
+   ]
+  },
+  "i236002": {
+   "title": "List of Components",
+   "source_sha256": "5d541eab1feace98e62f3e0bce65ac293fd6ca684e7a87fd8017fbfc64e1d7d7",
+   "provenance": "codex-translation",
+   "note": "Faithful French translation of the English page chain: Wowhead gives only the English for it in French, in brackets. Not verified French client wording.",
+   "pages": [
+    "Pour traverser les ténèbres magiques que vous avez rencontrées à la crypte, il nous faudra créer une source de magie puissante, capable de percer cette nuit contre nature. C'est une magie délicate, qui exige une liste de composants bien précise.",
+    "Le premier composant est la flamme de vie. Une telle flamme est l'essence pure et ardente de la création et de la renaissance. On dit que les dragons rouges sont capables de produire une telle flamme, l'Aspect Alexstrasza elle-même étant à l'origine de cette magie au sein de son vol. Grim Batol pourrait être un bon point de départ.",
+    "Le composant suivant est une branche d'ancien bois de fer. Les Anciens immortels des légendes, qui marchent, sont entièrement faits de ce matériau merveilleux, mais prélever assez de bois de fer serait sans doute fatal à l'une de ces majestueuses créatures.\n\nJ'ai entendu parler d'un Ancien corrompu qui rôderait dans le canyon de la Malechute, au sud-est d'Ashenvale. Peut-être pourriez-vous trouver cette pauvre créature et la délivrer de son tourment, ce qui nous permettrait aussi d'obtenir la branche de bois de fer dont nous avons besoin.",
+    "Le dernier composant est un esprit pur et bienveillant, auquel la flamme donnera forme et qui accepte d'être lié à l'ancien bois de fer pour faire rempart contre les ténèbres.\n\nCe monde regorge d'esprits, bien sûr. Mais trouver le bon esprit pour cette tâche pourrait se révéler difficile. Il devrait être indépendant et obstiné, mais avoir grand besoin d'un but. La plupart des esprits sont distants et sans pensée, mais il arrive, rarement, d'en trouver un qui aspire à une vocation plus haute...",
+    "D'autres membres de mon ordre, présents lors de la bataille finale du mont Hyjal, racontent l'affrontement décisif entre les esprits des anciens Kaldorei et le seigneur démon Archimonde. Je ne vois pas de but plus digne pour un esprit que la défense de notre monde, mais si longtemps après cette bataille fatidique, ceux qui s'attardent encore pourraient être en quête d'une nouvelle cause, digne et noble.\n\nOn dit que la gorge du Sombre murmure est hantée par de nombreux esprits de ce genre.\n\nUne fois que vous aurez rassemblé tout cela, nous combinerons ces matériaux pour créer une source de flammes magiques qui devrait, je l'espère, dissiper les ténèbres et vous permettre de pénétrer dans la crypte."
+   ]
   }
  },
  "excluded": {
@@ -233,6 +327,7 @@
   "i6280": "The pinned page is Yuriv's Tombstone, not a missive. No verified corresponding body.",
   "o181475": "Not in Classic Era or Forever: Wowhead has no page for it in either game (checked 14 October 2026), a later expansion's object left in the pinned database. The user's call: no translation for it.",
   "o181573": "Not in Classic Era or Forever: Wowhead has no page for it in either game (checked 14 October 2026), a later expansion's object left in the pinned database. The user's call: no translation for it.",
-  "o181895": "The title is a ship-repair book, but the pinned page is an unrelated Outland postscript. No verified corresponding body."
+  "o181895": "The title is a ship-repair book, but the pinned page is an unrelated Outland postscript. No verified corresponding body.",
+  "i226421": "Placeholder item (its name is PLACEHOLDER_ASHBRINGER_QUESTITEM_01, its English page a developer's joke): no player-facing text to translate."
  }
 }

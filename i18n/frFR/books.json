@@ -126,6 +126,20 @@
    ]
   }
  ],
+ "Acolyte's Note": [
+  {
+   "first": "gakin",
+   "pages": [
+    "<Le texte de la page est en grande partie maculé de sang, mais on peut distinguer un nom.>\n\nGakin"
+   ]
+  },
+  {
+   "first": "carendin",
+   "pages": [
+    "<Le texte de la page est en grande partie maculé de sang, mais on peut distinguer un nom.>\n\nCarendin"
+   ]
+  }
+ ],
  "Admiral Barean Westwind": [
   {
    "first": "admiralbareanwestwindgra",
@@ -399,6 +413,14 @@
    ]
   }
  ],
+ "Blackrat's Note": [
+  {
+   "first": "ivegotthegoodsillbehidin",
+   "pages": [
+    "J'ai la marchandise. Je me cacherai près du refuge de Brumepins, à côté du vieux bateau. Si vous envoyez l'un de vos gars pour la récupérer, assurez-vous qu'il ne soit pas visible !\n\n- Ratnoir"
+   ]
+  }
+ ],
  "Bloodsail Orders": [
   {
    "first": "bloodsailorderspayattent",
@@ -418,6 +440,14 @@
     "Uldaman, 5ème jour\n\n...le trogg, s'emparant de la topaze que détenaient ses \"frères\" morts, s'engage dans la caverne annexe, près de l'entrée du hall...\n\n...il place rapidement la topaze dans une grande et superbe urne au fond de la chambre...\n\n...bon sang, des nains ! Trois de surcroît ! En fait, ils se sont barricadés pour combattre les troggs. Essayer de s'approcher d'eux serait un suicide, surtout dans mon état, ces ignobles troggs pourraient me massacrer. Une fois que j'aurai la troisième gemme, je pourrai...\"",
     "Uldaman, Jour 6\n\n…si faim. Je n'ai plus de provisions et même du pain moisi serait un festin… Mes yeux ont cru voir un steak juteux à la place d'une tête de trogg...",
     "Uldaman, Jour 7\n\n...une dernière chance de rattraper mes erreurs. Je crois que le rubis se trouve dans la dernière place forte tenue par les nains. Les combats qui les opposent aux troggs pour la gemme sont incessants. C'est comme si ces vils nains l'avaient cachée quelque part. Dans tous les cas, je dois me décider à agir. Peut-être qu'une course effrénée vers l'extérieur serait le meilleur choix..."
+   ]
+  }
+ ],
+ "Bloody Missive": [
+  {
+   "first": "ourspiestellusthatsiandt",
+   "pages": [
+    "Nos espions nous apprennent que le SI:7 et la Main d'argent ont mordu à l'hameçon, et votre cible devrait se diriger vers vous. Découvrez ce qu'ils savent, puis veillez à vous en débarrasser discrètement, hors de la ville de préférence. Ces fouineurs doivent mourir et nos biens doivent nous revenir, par tous les moyens nécessaires. N'échouez pas."
    ]
   }
  ],
@@ -537,6 +567,14 @@
    ]
   }
  ],
+ "Charred Note": [
+  {
+   "first": "adaimpleasedtohearisland",
+   "pages": [
+    "<La page est calcinée en plusieurs endroits, comme si quelqu'un avait tenté de la brûler en toute hâte. Une partie de ce qui reste est lisible.>\n\nAda,\n\nJe suis heureux d'entendre -------- île sur la rive assombrie. ----- Un de nos agents ------------ mot de passe ----\n\n« Quand une bougie s'éteint, une autre s'allume. »\n\n– Mitchells"
+   ]
+  }
+ ],
  "Civil War in the Plaguelands": [
   {
    "first": "nerzhulthelichkingknewth",
@@ -571,6 +609,14 @@
     "Après le succès de Kel'Thuzad à Lordaeron, le roi-liche termina ses préparatifs avant de se lancer à l'assaut de la civilisation humaine. Il créa des objets transportables, appelés chaudrons de peste, pour diffuser son énergie pestilentielle. Ner'zhul ordonna à Kel'Thuzad de transporter ces chaudrons à Lordaeron où ils seraient cachés dans des villages voués au culte.",
     "Les chaudrons, protégés par les membres loyaux du culte, agiront comme des générateurs de peste qui contamineront les fermes et les villes du nord de Lordaeron.\n\nLe plan du roi-liche se déroula à la perfection. Beaucoup de villages du Nord furent contaminés presque immédiatement. Comme pour le Northrend, les citoyens contaminés moururent et devinrent les esclaves du roi-liche.",
     "Les membres du culte, aux ordres de Kel'Thuzad, étaient pressés de mourir et de revenir à la vie pour servir leur seigneur ténébreux. Ils exultaient à l'idée de devenir immortels. Tandis que la peste se répandait, de plus en plus de zombies affluaient des terres du Nord. Kel'Thuzad observait l'armée sans cesse grandissante du roi-liche et la nomma le Fléau. Dans peu de temps, cette armée marcherait sur les portes de Lordaeron... Et éliminerait l'humanité de la surface de ce monde."
+   ]
+  }
+ ],
+ "Confidential Message": [
+  {
+   "first": "brotheresolonshouldyoune",
+   "pages": [
+    "Frère Esolon,\n\nSi vous avez besoin d'accéder au reliquaire, j'ai caché une clé dans le cimetière. Elle se trouve dans un coffret de pierre, sous le sol du mausolée nord.\n\nUn mécanisme permet de soulever le coffret. Pour l'activer, vous devez vous asseoir sur les deux bancs situés entre les paires de statues, de part et d'autre du cimetière.\n\nMerci de garder ces informations strictement confidentielles.\n\nBénédictions,\nFrère Seramus"
    ]
   }
  ],
@@ -668,6 +714,14 @@
    "pages": [
     "A quoi est-ce que je pensais ?\n\nMais une autre question s'impose : pourquoi suis-je en train d'écrire une note alors que je suis emprisonné dans le ventre d'un géant ?\n\n Deux questions pertinentes pour lesquelles je n'ai pas de réponses immédiates...\n\nIl faut reconnaître que ma mission n'était pas des plus simples. Je suis parti à la recherche d'Azsharite, un cristal unique en Azshara du Sud. Ah, j'aurais pu devenir riche !\n\nBah ! Regardez-moi maintenant...",
     "Si jamais une quelconque forme de vie intelligente trouve cette note, elle doit se demander ceci : \"Pourquoi se risquer à chahuter avec des géants violents de neuf mètres de haut ?\"\n\n- Mook"
+   ]
+  }
+ ],
+ "Cutty's Note": [
+  {
+   "first": "ivegotthegoodsillbehidin",
+   "pages": [
+    "J'ai la marchandise. Je me cacherai en amont de la rivière du lac de Cristal, près du mur. Si vous envoyez un agent pour la récupérer, assurez-vous qu'il ne soit pas visible !\n\n– Cutty"
    ]
   }
  ],
@@ -1092,6 +1146,16 @@
    ]
   }
  ],
+ "Field Guide": [
+  {
+   "first": "arbortarantulaorderarane",
+   "pages": [
+    "Tarentule arborescente\n\nOrdre : Araneae\nClimat : tropical\n\nConstruit son nid dans le bois mort et pourrissant. On la trouve souvent sur les zones d'exploitation forestière, car ces tarentules aiment s'installer dans les souches fraîchement coupées.",
+    "Pique-chair\n\nOrdre : Scorpiones\nClimat : aride\n\nComme son nom l'indique, ce scorpion pique et dévore la chair sur les ossements d'autres animaux. C'est un charognard qui se nourrit de préférence sur de grandes carcasses.",
+    "Charançon des foins\n\nOrdre : Coleoptera\nClimat : tempéré\n\nUne menace terrible sous sa petite carapace. Un seul de ces charançons peut dévorer une botte de foin entière en moins d'une heure. Les invasions sont rares, et le plus souvent signalées au nord des royaumes de l'Est."
+   ]
+  }
+ ],
  "Final Clue to Sander's Treasure": [
   {
    "first": "nowthatyefoundmeolwhiske",
@@ -1114,6 +1178,14 @@
    "pages": [
     "Mon bon Martek,\n\nj'ai des soucis et j'ai besoin de votre aide.\n\nMon frère et moi-même sommes en train de construire un char de course et nous avons besoin de pistons solides. Je ne trouve rien qui soit assez résistant. Rien n'est à la hauteur des performances de notre nouveau char. Le moteur casse sans arrêt !\n\nVous êtes un expert de la forge du métal. Vous devez nous aider. Vous êtes le seul à pouvoir le faire.",
     "Voici les caractéristiques du piston :\n\nLongueur : 32 LM\nLargeur : 12 LM\nPoids : 23,5 GGM à 25,5 GGM\nConduction : 70 CO\nPuissance de découpage : 98 ou plus\nTaux de combobulation : \"super robuste\" ou plus\n\nAu cas où vous auriez oublié les mesures gnomes :\nLM = largeur des moustaches\nGGM = gramme grosso modo\nCO = courbure des orteils"
+   ]
+  }
+ ],
+ "Fizzlefuse's Shopping List": [
+  {
+   "first": "dearfuturemedontforgetth",
+   "pages": [
+    "Chère moi du futur, n'oublie pas le pain, cette fois.\n\n– 8 litres de lait glacé, – 20 morceaux de cheddars affinés (les rats n'arrêtent pas de le manger), – 1 gâteau au chocolat délicieux, – ou plutôt 2 gâteaux, – 4 gobelets de carburant de fusée gobelin, – 2 tubes en thorium, – 1 altérateur de vrai-argent, – <l'encre a bavé, la ligne est illisible>\n– 2 gyrochronatomes."
    ]
   }
  ],
@@ -1761,6 +1833,14 @@
    ]
   }
  ],
+ "Keldara's Log": [
+  {
+   "first": "dayibelieveivediscovered",
+   "pages": [
+    "Jour 14 :\n\nJe crois avoir découvert un moyen de défaire la corruption apportée ici par les satyres : une teinture brassée à partir de leur propre fléau !\n\nAvec des échantillons de la satyrienne des environs, on pourrait préparer un extrait qui protège d'une corruption totale grâce à une exposition à une dose plus faible. On pourrait presque y voir une sorte d'antivenin.\n\nJ'aimerais tester mon remède sur la faune locale, mais les bêtes d'ici sont trop agressives. Si seulement je pouvais les tranquilliser d'une manière ou d'une autre."
+   ]
+  }
+ ],
  "Khazgorm's Journal": [
   {
    "first": "theexcavationofbaelmodan",
@@ -2034,6 +2114,18 @@
    ]
   }
  ],
+ "List of Components": [
+  {
+   "first": "inordertonavigatethemagi",
+   "pages": [
+    "Pour traverser les ténèbres magiques que vous avez rencontrées à la crypte, il nous faudra créer une source de magie puissante, capable de percer cette nuit contre nature. C'est une magie délicate, qui exige une liste de composants bien précise.",
+    "Le premier composant est la flamme de vie. Une telle flamme est l'essence pure et ardente de la création et de la renaissance. On dit que les dragons rouges sont capables de produire une telle flamme, l'Aspect Alexstrasza elle-même étant à l'origine de cette magie au sein de son vol. Grim Batol pourrait être un bon point de départ.",
+    "Le composant suivant est une branche d'ancien bois de fer. Les Anciens immortels des légendes, qui marchent, sont entièrement faits de ce matériau merveilleux, mais prélever assez de bois de fer serait sans doute fatal à l'une de ces majestueuses créatures.\n\nJ'ai entendu parler d'un Ancien corrompu qui rôderait dans le canyon de la Malechute, au sud-est d'Ashenvale. Peut-être pourriez-vous trouver cette pauvre créature et la délivrer de son tourment, ce qui nous permettrait aussi d'obtenir la branche de bois de fer dont nous avons besoin.",
+    "Le dernier composant est un esprit pur et bienveillant, auquel la flamme donnera forme et qui accepte d'être lié à l'ancien bois de fer pour faire rempart contre les ténèbres.\n\nCe monde regorge d'esprits, bien sûr. Mais trouver le bon esprit pour cette tâche pourrait se révéler difficile. Il devrait être indépendant et obstiné, mais avoir grand besoin d'un but. La plupart des esprits sont distants et sans pensée, mais il arrive, rarement, d'en trouver un qui aspire à une vocation plus haute...",
+    "D'autres membres de mon ordre, présents lors de la bataille finale du mont Hyjal, racontent l'affrontement décisif entre les esprits des anciens Kaldorei et le seigneur démon Archimonde. Je ne vois pas de but plus digne pour un esprit que la défense de notre monde, mais si longtemps après cette bataille fatidique, ceux qui s'attardent encore pourraient être en quête d'une nouvelle cause, digne et noble.\n\nOn dit que la gorge du Sombre murmure est hantée par de nombreux esprits de ce genre.\n\nUne fois que vous aurez rassemblé tout cela, nous combinerons ces matériaux pour créer une source de flammes magiques qui devrait, je l'espère, dissiper les ténèbres et vous permettre de pénétrer dans la crypte."
+   ]
+  }
+ ],
  "Lonebrow's Journal": [
   {
    "first": "dayonemyjourneyfromironf",
@@ -2120,6 +2212,14 @@
     "Tarrel -\n\nExcusez-moi de vous écrire à la va-vite, mais nous n'avons pas le luxe du temps.\n\nL'équipe de forage a fait des progrès significatifs, exhumant d'importants artefacts des Titans. Mais nous avons également trouvé d'autres objets antiques, en particulier des ossements de grande taille.",
     "Peu après l'exhumation des ossements, nous avons été attaqués par des raptors. Les hommes du régiment de Longbraid ont combattu vaillamment, mais ils ont été submergés. Presque tout le monde a péri. Nous ne sommes que trois à avoir survécu. Un ouvrier du nom d'Ormer s'est montré fort héroïque, en nous protégeant, le Prospecteur Whelgar et moi-même.",
     "Nous nous sommes réfugiés dans une caverne, apparemment hors de danger. Mais nous sommes piégés ici jusqu'à ce qu'une force puisse être envoyée pour reconnaître la position des raptors. Whelgar essaie de continuer le travail mais je suspecte qu'il est toujours bien effrayé. Telle est notre situation, Tarrel. Veuillez presser Longbraid de nous dépêcher immédiatement un contingent de secours.\n\nMon amour vous reste acquis, même en ces heures difficiles.\n\n--Merrin"
+   ]
+  }
+ ],
+ "Message from Emily": [
+  {
+   "first": "thegetawayplanisagowelea",
+   "pages": [
+    "Le plan d'évasion est prêt. Nous partons ce soir.\n\nIl y a juste une dernière chose. J'ai caché une réserve d'équipement aux collines de la Dague, à l'entrée de derrière des Mortemines. La clé est dans cette enveloppe. J'espère que nous n'en aurons pas besoin, mais on ne sait jamais.\n\nQuel soulagement que nous puissions enfin laisser cette histoire des Défias derrière nous. Demain, à la même heure, nous nous reposerons sur les plages de Strangleronce.\n\nAvec toute mon affection,\n Émilie"
    ]
   }
  ],
@@ -2234,6 +2334,14 @@
    ]
   }
  ],
+ "Naga Manuscript": [
+  {
+   "first": "",
+   "pages": [
+    "<Le manuscrit indique l'emplacement de trois cristaux le long de la grève de Zoram. Un itinéraire numéroté est tracé entre eux, du sud vers le nord. Près de chaque cristal se trouve un petit dessin représentant une explosion de magie arcanique.>"
+   ]
+  }
+ ],
  "Nat Pagle's Guide to Extreme Anglin'": [
   {
    "first": "andsothatswhereyoullfind",
@@ -2261,6 +2369,14 @@
    ]
   }
  ],
+ "Note from Ba'so": [
+  {
+   "first": "ivegotthegoodsillbehidin",
+   "pages": [
+    "J'ai la marchandise. Je me cacherai à l'ouest du donjon de Tiragarde, sous un arbre aux feuilles sombres. Si vous envoyez l'un de vos agents pour la récupérer, assurez-vous qu'il ne soit pas visible !\n\n- Ba'so"
+   ]
+  }
+ ],
  "Of Love and Family": [
   {
    "first": "",
@@ -2281,6 +2397,14 @@
     "L'armada de Proudmoore constituait une sérieuse menace pour l'équilibre de la région. Héros de la Deuxième Guerre, le père de Jaina était un sérieux ennemi de la Horde, et il était décidé à détruire Durotar avant que les orcs ne puissent s'étendre.",
     "Le Grand amiral força Jaina à prendre une terrible décision : le soutenir au combat contre les orcs et trahir ses nouveaux alliés, ou combattre son propre père pour maintenir la paix fragile que l'Alliance et la Horde avaient enfin établie. Après bien des hésitations, Jaina choisit la dernière solution et aida Thrall à vaincre son père.",
     "Malheureusement, l'amiral Proudmoore mourut au combat avant que Jaina ne puisse se réconcilier avec lui ni lui prouver que les orcs n'étaient plus des monstres assoiffés de sang. En remerciement de sa loyauté, les orcs permirent à Jaina et à ses forces de revenir en toute sécurité à Theramore."
+   ]
+  }
+ ],
+ "Orders from the Grand Crusader": [
+  {
+   "first": "byorderofgrandcrusaderda",
+   "pages": [
+    "Par ordre du grand croisé Dathrohan :\n\nL'hérétique connu sous le nom d'Aeonas le Silencieux est condamné pour les crimes de commerce avec les démons et les morts-vivants, d'abandon de la Lumière, de vol et de meurtre. Cette vile créature a tué pas moins de deux de nos vaillants frères de la Lumière en dérobant des biens importants de la Croisade écarlate. Une fois retrouvé, l'hérétique devra être conduit au monastère de Tirisfal pour y être interrogé et exécuté. Tout paquet ou artefact en sa possession lors de son arrestation devra être rendu au grand croisé au plus vite, comme pièce à conviction.\n\nUne fois capturé, Aeonas devra être bâillonné, et nul autre que le grand inquisiteur ne pourra lui parler, de peur que ses mensonges insidieux ne sèment le chaos et le doute dans des cœurs par ailleurs vertueux. Soyez prudents, mes frères et sœurs, car nul ne sait quelles magies infâmes Aeonas a pu obtenir dans ses sombres tractations avec les ennemis de la Lumière."
    ]
   }
  ],
@@ -2618,6 +2742,14 @@
    ]
   }
  ],
+ "Shadowsworn Note": [
+  {
+   "first": "weneedmorewillingsacrifi",
+   "pages": [
+    "Il nous faut d'autres sacrifices volontaires !\n\nCet autel doit demander une manipulation spéciale. Pour l'instant, il n'a rien produit.\n\nPrésentez votre rapport aux anneaux du serpent lorsque vous découvrirez quelque chose d'utile."
+   ]
+  }
+ ],
  "Shaw's Report": [
   {
    "first": "lordstoutmantleledbyedwi",
@@ -2783,6 +2915,14 @@
    ]
   }
  ],
+ "Strange Note": [
+  {
+   "first": "thecrystalhasshownmevisi",
+   "pages": [
+    "Le cristal m'a montré des visions de son passé. Il a été arraché à un tout parfait, une chose d'une glorieuse puissance divine.\n\nLes conflits féroces entre les races d'Azeroth ne cessent de croître. Si les éclats étaient réunis maintenant, ils pourraient servir d'arme d'une terrifiante destruction.\n\nSi vous cherchez à réunir les éclats, je vous en conjure : servez-vous de leur pouvoir pour unir les enfants d'Azeroth, et non pour mener d'autres guerres."
+   ]
+  }
+ ],
  "Studies in Spirit Speaking": [
   {
    "first": "oooooooooooooooooooooooo",
@@ -2814,6 +2954,14 @@
     "Arthas et le Fléau envahirent Quel'Thalas et assiégèrent les défenses vacillantes des elfes. Sylvanas Windrunner, général des Forestiers de Lune-d'argent, combattit vaillamment, mais Arthas finit par balayer l'armée des hauts-elfes et se fraya un passage jusqu'au Puits de soleil. Dans un geste dominateur et cruel, il releva le corps décédé de Sylvanas pour en faire une banshee, condamnée éternellement au service du conquérant de Quel'Thalas.",
     "Enfin, Arthas immergea les restes de Kel'Thuzad dans les eaux saintes du Puits de soleil. Bien que les puissantes eaux d'éternité aient été souillées par cet acte, Kel'Thuzad put renaître sous la forme d'une liche. Ressuscité et bien plus puissant qu'avant, Kel'Thuzad expliqua quelle était l'étape suivante du plan du roi-liche.",
     "Lorsque Arthas et son armée s'en allèrent vers le sud, il n'y avait plus âme qui vive dans Quel'Thalas. Le glorieux foyer des hauts-elfes, vieux de neuf mille ans, n'était plus."
+   ]
+  }
+ ],
+ "Survivor Journal": [
+  {
+   "first": "undertheprotectionofthes",
+   "pages": [
+    "Sous la protection de l'éclat de Lumière, nous avons fui vers la crypte et nous nous y sommes barricadés. Mais Wescott et Billina sont partis chercher des provisions, et ont emporté l'éclat pour se protéger. Trois jours ont passé et ils ne sont pas revenus. Sans le pouvoir de l'éclat, le Fléau sera bientôt sur nous..."
    ]
   }
  ],
@@ -3482,6 +3630,14 @@
    ]
   }
  ],
+ "Torn Letter": [
+  {
+   "first": "duetoyourcovensstaggerin",
+   "pages": [
+    "En raison de l'incompétence de votre groupe, ce ne sont pas un, mais deux intrus qui ont pu pénétrer vos défenses, infliger de lourdes pertes et voler ce qui nous appartenait. Je me chargerai de la Croisade écarlate, mais j'ai besoin que vos membres pathétiques retrouvent le paladin et la personne qui l'accompagnait pour récupérer…\n\n<La lettre est déchirée, il manque le reste.>"
+   ]
+  }
+ ],
  "Torn Note": [
   {
    "first": "imissmytribeandmyhomeiwo",
@@ -3607,6 +3763,14 @@
    "first": "argusasyouknowimuptomyne",
    "pages": [
     "Argus,\n\ncomme vous savez, je suis jusqu'au cou dans des demandes de réparation de l'armée. Je ne me plains pas du travail, mais il vide mes réserves de fer.\n\nJe n'en ai plus assez pour forger des fers à cheval. Je sais que vous en avez toujours un large stock. Je souhaiterais vous emprunter 50 paires de fers à cheval jusqu'à ce qu'arrive ma prochaine cargaison de fer.\n\nAvec toute ma gratitude,\n-Verner"
+   ]
+  }
+ ],
+ "Wanted Notice": [
+  {
+   "first": "knowntrespasserspyinterr",
+   "pages": [
+    "<Un portrait de nain grossier occupe l'essentiel de la feuille. Quelques lignes ont été inscrites en dessous.>\n\nIntrus connu ! Espion ! Il interroge NOS citoyens !\n\nLes tandems en visite à la ville des Ombreforges rapportent de courtes interactions avec un Nain à l'accent étrange, qui répéterait « Ce ne sont pas les deux qu'il nous faut. »\n\nSignalez tous renseignements aux officiers ragenclume !\n\nAttention, aucun groupe nombreux n'a rencontré cet importun.\nRestez sur vos gardes !"
    ]
   }
  ],

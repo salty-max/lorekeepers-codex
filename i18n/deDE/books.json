@@ -11,7 +11,7 @@
   {
    "first": "downwardspiralofdespairf",
    "pages": [
-    "[. . .downward spiral of despair.  First she mocks me and now she is engaged.  The ungracious charlatan was pretending to love when truly she desired to hurt me all along.  A black void lurks with in me now and it grows with each waking moment.  The blood I shall spill pales in comparison to the tears I have shed. . .]"
+    ". . .Abwärtsspirale der Verzweiflung. Erst verspottet sie mich, und nun ist sie verlobt. Die undankbare Scharlatanin hat Liebe nur vorgetäuscht, während sie mich die ganze Zeit verletzen wollte. Eine schwarze Leere lauert nun in mir, und sie wächst mit jedem wachen Augenblick. Das Blut, das ich vergießen werde, verblasst neben den Tränen, die ich vergossen habe. . ."
    ]
   }
  ],
@@ -128,9 +128,15 @@
  ],
  "Acolyte's Note": [
   {
-   "first": "",
+   "first": "gakin",
    "pages": [
     "<Der Text auf der Seite ist beinahe vollständig von Blut überdeckt, aber Ihr erkennt einen Namen.>\n\nGakin"
+   ]
+  },
+  {
+   "first": "carendin",
+   "pages": [
+    "<Der Text auf der Seite ist beinahe vollständig von Blut überdeckt, aber Ihr erkennt einen Namen.>\n\nCarendin"
    ]
   }
  ],
@@ -409,9 +415,9 @@
  ],
  "Blackrat's Note": [
   {
-   "first": "",
+   "first": "ivegotthegoodsillbehidin",
    "pages": [
-    "[I've got the goods. I'll be hiding near Misty Pine Refuge, by the old boat. If you send one of your guys for the pickup, make sure they stay out of sight!\n\n- Blackrat]"
+    "Ich habe die Ware. Ich verstecke mich bei der Nebelfichtenzuflucht, beim alten Boot. Wenn Ihr einen Eurer Leute zur Abholung schickt, sorgt dafür, dass er nicht gesehen wird!\n\n- Schwarzratte"
    ]
   }
  ],
@@ -439,7 +445,7 @@
  ],
  "Bloody Missive": [
   {
-   "first": "",
+   "first": "ourspiestellusthatsiandt",
    "pages": [
     "Unsere Spione berichten, dass der SI:7 und die Silberne Hand den Köder geschluckt haben. Euer Ziel dürfte unterwegs zu Euch sein. Findet heraus, was es weiß, und schaltet es anschließend unauffällig aus, am besten draußen vor der Stadt. Wir müssen diese Eindringlinge um jeden Preis beseitigen und unser Eigentum wiedererlangen. Versagt ja nicht!"
    ]
@@ -563,7 +569,7 @@
  ],
  "Charred Note": [
   {
-   "first": "",
+   "first": "adaimpleasedtohearisland",
    "pages": [
     "<Die Seite ist an mehreren Stellen verbrannt, als hätte jemand hastig versucht, sie zu verbrennen. Teile der Schrift sind noch lesbar.>\n\nAda,\n\nich freue mich, zu hören-------- Insel am dunklen Ufer. ---- Einer unserer Agenten -------- Passwort ----\n\n\"Wird eine Kerze gelöscht, wird eine andere entzündet.\"\n\n- Mitchells"
    ]
@@ -608,7 +614,7 @@
  ],
  "Confidential Message": [
   {
-   "first": "",
+   "first": "brotheresolonshouldyoune",
    "pages": [
     "Bruder Esolon,\n\nFalls Ihr auf das Reliquiar zugreifen müsst, ich habe einen Schlüssel dafür auf dem Friedhof versteckt. Er befindet sich in einer Steintruhe unter dem Boden des nördlichen Mausoleums.\n\nEs gibt einen Mechanismus, der die Truhe anhebt. Um ihn zu aktivieren, müsst Ihr Euch auf die beiden Sitzbänke zwischen den Statuen an den Seiten des Friedhofs setzen.\n\nBitte betrachtet diese Information als streng vertraulich.\n\nViel Glück,\nBruder Seramus"
    ]
@@ -713,7 +719,7 @@
  ],
  "Cutty's Note": [
   {
-   "first": "",
+   "first": "ivegotthegoodsillbehidin",
    "pages": [
     "Ich habe die Ware. Ich werde mich oben am Fluss, der aus dem Kristallsee entspringt, in der Nähe der Mauer verstecken. Wenn Ihr einen Eurer Agenten zur Abholung schickt, soll er außer Sicht bleiben!\n\n- Schnitti"
    ]
@@ -1034,7 +1040,7 @@
   {
    "first": "thisanvilisthepropertyof",
    "pages": [
-    "[This anvil is the property of Jordan Stilwell - Please do NOT use!\n\n- Jordan]"
+    "Dieser Amboss ist Eigentum von Jordan Stilwell. Bitte NICHT benutzen!\n\n- Jordan"
    ]
   },
   {
@@ -1142,7 +1148,7 @@
  ],
  "Field Guide": [
   {
-   "first": "",
+   "first": "arbortarantulaorderarane",
    "pages": [
     "Laubengangtarantel\n\nGattung: Araneae\nKlima: Tropisch\n\nBaut Nester in totem und verrottendem Holz. Häufig in der Nähe von Baumfällaktivitäten zu finden, da die Tarantel sich gerne in frisch gefällten Baumstümpfen eingräbt.",
     "Fleischpflücker\n\nGattung: Scorpiones\nKlima: Arid\n\nWie der Name schon andeutet, pflückt und frisst dieser Skorpid das Fleisch von den Knochen anderer Tiere. Er ist ein Aasfresser und zieht es vor, sich an größeren Kadavern zu laben.",
@@ -1177,7 +1183,7 @@
  ],
  "Fizzlefuse's Shopping List": [
   {
-   "first": "",
+   "first": "dearfuturemedontforgetth",
    "pages": [
     "Liebes zukünftiges Ich, vergiss dieses Mal bitte nicht das Brot.\n\n- 2 Gallonen eiskalte Milch\n- 20 Stücke feiner alter Cheddar (die Ratten essen alles auf)\n- 1 köstlicher Schokoladenkuchen\n- Machen wir lieber 2 Kuchen draus\n- 4 gefährliche Einheiten Goblinraketentreibstoff\n- 2 Thoriumröhren\n- 1 Echtsilberumwandler\n- <die Schrift ist bis zur Unkenntlichkeit verschmiert>\n- 2 Gyrochronatome"
    ]
@@ -1270,7 +1276,7 @@
   {
    "first": "thelargestoftheplainstri",
    "pages": [
-    "[The largest of the plainstrider birds, the Geru are few in number and rarely encountered.]"
+    "Die Geru sind die größten aller Ebenenschreiter. Es gibt nur wenige von ihnen, und man begegnet ihnen selten."
    ]
   }
  ],
@@ -1599,9 +1605,9 @@
  ],
  "Harthal Truesight": [
   {
-   "first": "fellariswiftarrowrangerc",
+   "first": "harthaltruesight",
    "pages": [
-    "[Harthal Truesight\nLord Paladin of the Scarlet Crusade\nCitizen of Azeroth - Knight of the Silver Hand\nLast seen entering the cursed city of Stratholme]"
+    "Harthal Truesight\nLordpaladin des Scharlachroten Kreuzzugs\nBürger von Azeroth - Ritter der Silbernen Hand\nZuletzt gesehen, als er die verfluchte Stadt Stratholme betrat"
    ]
   }
  ],
@@ -1683,7 +1689,7 @@
   {
    "first": "hordemilitaryranksoffice",
    "pages": [
-    "[HORDE MILITARY RANKS\n\nOFFICERS\n\nHigh Warlord\n\nWarlord\n\nGeneral\n\nLieutenant General\n\nChampion\n\nCenturion\n\nLegionnaire\n\nBlood Guard\n\nStone Guard\n\nENLISTED\n\nFirst Sergeant\n\nSenior Sergeant\n\nSergeant\n\nGrunt\n\nScout\n\n]"
+    "MILITÄRISCHE RÄNGE DER HORDE\n\nOFFIZIERE\n\nOberster Kriegsfürst\n\nKriegsfürst\n\nKriegsherr\n\nSturmreiter\n\nFeldherr\n\nKlinge der Horde\n\nZornbringer\n\nBlutgardist\n\nSteingardist\n\nMANNSCHAFTEN\n\nRottenmeister\n\nSchlachtrufer\n\nWaffenträger\n\nGrunzer\n\nSpäher"
    ]
   }
  ],
@@ -1829,7 +1835,7 @@
  ],
  "Keldara's Log": [
   {
-   "first": "",
+   "first": "dayibelieveivediscovered",
    "pages": [
     "Tag 14:\n\nIch glaube, ich habe einen Weg gefunden, die hiesige Verderbnis durch den Satyr rückgängig zu machen: eine Tinktur, gebraut aus ihrer eigenen Seuche!\n\nMit den Satyrkrautproben in der Nähe könnte ich ein Extrakt herstellen, das schon bei Verabreichung einer kleinen Menge komplett gegen die Verderbnis schützt. So eine Art Gegengift.\n\nIch würde mein Heilmittel gerne an der einheimischen Tierwelt testen, aber die Wildtiere hier sind äußerst aggressiv. Wenn ich sie nur irgendwie ruhigstellen könnte."
    ]
@@ -2110,7 +2116,7 @@
  ],
  "List of Components": [
   {
-   "first": "",
+   "first": "inordertonavigatethemagi",
    "pages": [
     "Um die magische Dunkelheit zu navigieren, der Ihr bei der Gruft begegnet seid, müssen wir einen Quell mächtiger Magie erschaffen, der die unnatürliche Nacht durchdringen kann. Es handelt sich um ein empfindliches Stück Magie, das eine sehr spezielle Reihe an Komponenten benötigt.",
     "Die erste Komponente ist die Flamme des Lebens. Eine solche Flamme ist rein, eine brennende Essenz des Schaffens und der Wiedergeburt. Es wird gemunkelt, dass rote Drachkin in der Lage sind, eine solche Flamme zu erzeugen, wobei Alexstrasza, die zu den großen Drachenaspekten zählt, als Urheberin dieser Magie in ihrem Schwarm gilt. Grim Batol könnte ein guter Ort sein, um mit der Suche zu beginnen.",
@@ -2211,7 +2217,7 @@
  ],
  "Message from Emily": [
   {
-   "first": "",
+   "first": "thegetawayplanisagowelea",
    "pages": [
     "Der Fluchtplan wird ausgeführt. Wir gehen heute Nacht.\n\nNur eine letzte Sache. Ich habe ein verstecktes Ausrüstungslager in den Dolchhügeln angelegt, am Hintereingang zu den Todesminen. Der Schlüssel zu diesem Lager befindet sich in diesem Umschlag. Hoffentlich werden wir es nicht brauchen, aber man weiß nie.\n\nIch bin so froh, dass wir diese Geschichte mit der Defias endlich hinter uns lassen können. Morgen um diese Zeit entspannen wir uns an den Stränden des Schlingendorntals.\n\nStets die Eure,\nEmily"
    ]
@@ -2332,7 +2338,7 @@
   {
    "first": "",
    "pages": [
-    "[< The manuscript shows a map of three crystals along the Zoram Strand. An ordered path is traced between the crystals, going from south to north. Next to each crystal is a drawing depicting an explosion of arcane magic. >]"
+    "<Das Manuskript zeigt eine Karte mit drei Kristallen entlang des Zoramstrands. Ein nummerierter Weg führt von Süden nach Norden von Kristall zu Kristall. Neben jedem Kristall ist eine Explosion arkaner Magie gezeichnet.>"
    ]
   }
  ],
@@ -2365,7 +2371,7 @@
  ],
  "Note from Ba'so": [
   {
-   "first": "",
+   "first": "ivegotthegoodsillbehidin",
    "pages": [
     "Ich habe die Ware. Ich werde mich westlich von Burg Tiragarde verstecken, unter einem Baum mit dunklen Blättern. Wenn Ihr einen Eurer Agenten zur Abholung schickt, soll er außer Sicht bleiben!\n\n- Ba'so"
    ]
@@ -2396,7 +2402,7 @@
  ],
  "Orders from the Grand Crusader": [
   {
-   "first": "",
+   "first": "byorderofgrandcrusaderda",
    "pages": [
     "Auf Befehl des Obersten Kreuzzüglers Dathrohan:\n\nDer Ketzer, bekannt unter dem Namen Aeonas der Stille, wird hiermit verurteilt für folgende schwerwiegende Verbrechen: Umgang mit Dämonen und Untoten, Abwenden vom Licht, Diebstahl und Mord. Es ist bekannt, dass diese abscheuliche Kreatur in Tateinheit mit dem Diebstahls eines wichtigen Besitzstücks des Scharlachroten Kreuzzugs zwei unserer tapferen Brüder des Lichts niedergestreckt hat. Sobald er gefunden ist, muss der Ketzer höchstselbst zur Befragung und Hinrichtung in das Kloster in Tirisfal überführt werden. Sollten sich bei seiner Ergreifung Pakete oder Artefakte in seinem Besitz finden, so müssen diese schnellstmöglich als Beweismittel an den Obersten Kreuzzügler übergeben werden.\n\nSollte er gefangen genommen werden, so muss Aeonas umgehend geknebelt werden. Niemand außer dem Hochinquisitor darf mit ihm sprechen, aus Furcht, seine heimtückischen Lügen könnten die Saat für Chaos und Zweifel in ansonsten rechtschaffene Herzen legen. Seid auf der Hut, Brüder und Schwestern, denn es ist nicht bekannt, auf welche bösartige Magie Aeonas im Gegenzug für seine teuflischen Handel mit den Feinden des Lichts Zugriff erhalten hat."
    ]
@@ -2407,14 +2413,6 @@
    "first": "ormanofstromgardethefirs",
    "pages": [
     "Orman von Stromgarde\nErster Captain-General des Scharlachroten Kreuzzugs\nBürger von Stromgarde\nAm Zugang zum Eiskrone-Gletscher verschollen"
-   ]
-  }
- ],
- "PLACEHOLDER_ASHBRINGER_QUESTITEM_01": [
-  {
-   "first": "",
-   "pages": [
-    "[...and that's how I found the Ashbringer and used it to totally pwn noobs in Warsgon Gulch.]"
    ]
   }
  ],
@@ -2585,7 +2583,7 @@
   {
    "first": "hereliesdurotanfirstchie",
    "pages": [
-    "[\n\nHere lies Durotan - first Chieftain of the Frostwolf Clan, and father of our honored Warchief, Thrall.  He was the bravest of our kind - betrayed by those who would see our people enslaved. Durotan gave his life that our freedom might be gained. We honor him - and the legacy he passed on to us through his son.\n\nDrek'Thar, Far Seer of the Frostwolves\n\n]"
+    "Hier ruht Durotan, erster Häuptling des Frostwolfklans und Vater unseres verehrten Kriegshäuptlings Thrall. Er war der Tapferste unserer Art, verraten von jenen, die unser Volk versklavt sehen wollten. Durotan gab sein Leben, damit wir unsere Freiheit erlangen konnten. Wir ehren ihn und das Vermächtnis, das er uns durch seinen Sohn hinterließ.\n\nDrek'Thar, Scharfseher der Frostwolf"
    ]
   }
  ],
@@ -2648,7 +2646,7 @@
   {
    "first": "foundintheremoterainfore",
    "pages": [
-    "[Found in the remote rainforest of the Un'Goro Crater, this egg once held an embryonic Devilsaur. The saurial's genetic material has proven invaluable to League ecologists who are closer than ever to devising a serum for the devilsaurs' debilitating venom.]"
+    "Dieses Ei wurde im abgelegenen Regenwald des Un'Goro-Kraters gefunden und barg einst den Embryo eines Teufelssauriers. Das Erbgut des Sauriers hat sich für die Ökologen der Liga als unschätzbar erwiesen. Sie sind einem Serum gegen das lähmende Gift der Teufelssaurier näher als je zuvor."
    ]
   }
  ],
@@ -2746,9 +2744,9 @@
  ],
  "Shadowsworn Note": [
   {
-   "first": "",
+   "first": "weneedmorewillingsacrifi",
    "pages": [
-    "[We need more willing sacrifices!\n\nThere must be some sort of trick to that altar - it's yielded nothing so far.\n\nReport back to the Serpent's Coil when you find something useful.]"
+    "Wir brauchen mehr willige Opfer!\n\nDieser Altar muss einen Trick haben. Bisher hat er nichts hervorgebracht.\n\nErstattet bei der Schlangenschlinge Bericht, wenn Ihr etwas Nützliches findet."
    ]
   }
  ],
@@ -2919,9 +2917,9 @@
  ],
  "Strange Note": [
   {
-   "first": "",
+   "first": "thecrystalhasshownmevisi",
    "pages": [
-    "[The crystal has shown me visions of its past. It was shattered from a perfect whole, a thing of glorious divine power.\n\nThe vicious conflicts between the races of Azeroth continue to grow. If the shards are reunited now, they could be wielded as a weapon of terrifying destruction.\n\nIf you seek to reunite the shards, I beseech you - use their power to unite Azeroth's children, not to wage further war.]"
+    "Der Kristall hat mir Visionen seiner Vergangenheit gezeigt. Er ist aus einem vollkommenen Ganzen herausgebrochen, einem Ding von herrlicher göttlicher Macht.\n\nDie erbitterten Konflikte zwischen den Völkern Azeroths nehmen weiter zu. Würden die Splitter jetzt wieder vereint, könnte man sie als Waffe von furchterregender Zerstörungskraft führen.\n\nWenn Ihr danach strebt, die Splitter wieder zu vereinen, so flehe ich Euch an: Nutzt ihre Macht, um die Kinder Azeroths zu einen, nicht um weiter Krieg zu führen."
    ]
   }
  ],
@@ -2961,9 +2959,9 @@
  ],
  "Survivor Journal": [
   {
-   "first": "",
+   "first": "undertheprotectionofthes",
    "pages": [
-    "[Under the protection of the shard of Light, we fled to the crypt and barricaded ourselves inside. But Wescott and Billina left to find supplies, and took the shard with them for protection. After three days they have not returned, and without the shard's power the Scourge will soon be upon us...]"
+    "Unter dem Schutz des Splitters des Lichts flohen wir in die Gruft und verbarrikadierten uns darin. Doch Wescott und Billina zogen los, um Vorräte zu suchen, und nahmen den Splitter zu ihrem Schutz mit. Seit drei Tagen sind sie nicht zurückgekehrt, und ohne die Macht des Splitters wird die Geißel bald über uns herfallen..."
    ]
   }
  ],
@@ -3212,7 +3210,7 @@
   {
    "first": "bymoonandfirebyfleshandb",
    "pages": [
-    "[By moon and fire,\nBy flesh and bone,\nScribed in blood,\nCarved in stone.\n\nLeave this place\nOr meet your doom\nDeath stands guard\nOver the Emperor's Tomb.]"
+    "Bei Mond und Glut,\nbei Fleisch und Bein,\ngeschrieben in Blut,\ngehauen in Stein.\n\nVerlasst diesen Ort,\nsonst trifft Euch Verderben.\nDer Tod hält Wache\nüber dem Grab des Imperators."
    ]
   }
  ],
@@ -3428,8 +3426,8 @@
   {
    "first": "taleofgrilekthewanderert",
    "pages": [
-    "[Tale of Gri'lek the Wanderer\n\n[...The beginnings of the tablet were worn and erased.  But the end was legible...]\n\nGri'lek stamped through the jungle.  And his eyes burned and his chest rumbled, for there was great anger in him.\n\nIn fury he roared to the sky, and he raised his arm.  He raised his left arm, grown strong and sure from hunting without its twin.\n\nFor Gri'lek's right arm was gone, and it would not return.]",
-    "[And so he wandered, and he searched.  And his arm remained lost to him.  And so he cursed and roared as he walked.\n\nBut Gri'lek had long ago turned his ear away from the spirits, and they were angered and would not listen to his curses.\n\nDoomed was Gri'lek.  Doomed to wander, armless.]"
+    "Die Geschichte von Gri'lek dem Wanderer\n\n[...Der Anfang der Tafel war verwittert und ausgelöscht. Doch das Ende war lesbar...]\n\nGri'lek stapfte durch den Dschungel. Seine Augen brannten und seine Brust grollte, denn großer Zorn war in ihm.\n\nIn seiner Wut brüllte er zum Himmel und hob seinen Arm. Er hob seinen linken Arm, der stark und sicher geworden war, weil er ohne seinen Zwilling jagte.\n\nDenn Gri'leks rechter Arm war fort, und er würde nicht zurückkehren.",
+    "Und so wanderte er, und er suchte. Und sein Arm blieb ihm verloren. Und so fluchte und brüllte er, während er ging.\n\nDoch Gri'lek hatte sein Ohr schon vor langer Zeit von den Geistern abgewandt, und sie waren erzürnt und wollten seine Flüche nicht hören.\n\nVerdammt war Gri'lek. Verdammt, armlos umherzuwandern."
    ]
   }
  ],
@@ -3634,9 +3632,9 @@
  ],
  "Torn Letter": [
   {
-   "first": "",
+   "first": "duetoyourcovensstaggerin",
    "pages": [
-    "[Due to your coven's staggering ineptitude not one but two groups of interlopers were able to penetrate your defenses, inflict heavy casualties, and steal our property. I will deal with the Scarlet Crusade, but I need your pitiful coven to muster the competence to track down the paladin and his accomplice and recover...\n\n<The letter is torn and the rest is missing>]"
+    "Wegen der erschütternden Unfähigkeit Eures Zirkels konnten nicht eine, sondern zwei Gruppen von Eindringlingen Eure Verteidigung durchbrechen, schwere Verluste anrichten und unser Eigentum stehlen. Ich kümmere mich um den Scharlachroten Kreuzzug, aber Euer erbärmlicher Zirkel muss genug Fähigkeit aufbringen, um den Paladin und seinen Komplizen aufzuspüren und zurückzuholen...\n\n<Der Brief ist zerrissen, der Rest fehlt.>"
    ]
   }
  ],
@@ -3668,7 +3666,7 @@
   {
    "first": "theseancientpiecesofeart",
    "pages": [
-    "[These ancient pieces of earthenware were recovered from the Uldaman excavation. Though they hold little in the way of suggestive runes or hieroglyphs, they do provide a telling look at the craftsmanship and day to day accessories of the ancient dwarven race.]"
+    "Diese uralten Tonwaren wurden bei der Ausgrabung in Uldaman geborgen. Sie tragen kaum aufschlussreiche Runen oder Hieroglyphen, gewähren aber einen vielsagenden Einblick in die Handwerkskunst und die Dinge des Alltags des uralten Zwergenvolks."
    ]
   }
  ],
@@ -3676,7 +3674,7 @@
   {
    "first": "theseetchedreliefrunners",
    "pages": [
-    "[These etched relief runners were perhaps the most significant find within the first chambers of Uldaman. The etchings clearly suggest a tie between the golem-like earthen and the dwarven race. Should further evidence arise, the theories of our supposed creation by the mythic titans could prove to be true.]"
+    "Diese gemeißelten Reliefbänder waren vielleicht der bedeutendste Fund in den ersten Kammern von Uldaman. Die Gravuren deuten klar auf eine Verbindung zwischen den golemartigen Irdenen und dem Volk der Zwerge hin. Sollten sich weitere Beweise finden, könnten sich die Theorien über unsere angebliche Erschaffung durch die sagenhaften Titanen als wahr erweisen."
    ]
   }
  ],
@@ -3684,7 +3682,7 @@
   {
    "first": "theswirlingsymbolsandpic",
    "pages": [
-    "[The swirling symbols and pictograms that fill the pages of this manual are esoteric beyond comprehension.]"
+    "Die wirbelnden Symbole und Bildzeichen, die die Seiten dieses Handbuchs füllen, sind so esoterisch, dass sie jedes Verständnis übersteigen."
    ]
   }
  ],
@@ -3770,7 +3768,7 @@
  ],
  "Wanted Notice": [
   {
-   "first": "",
+   "first": "knowntrespasserspyinterr",
    "pages": [
     "<Das grobe Bild eines Zwergengesichts bedeckt den Großteil der Notiz. Darunter stehen ein paar Zeilen.>\n\nBekannter Unbefugter! Spion! Verhört UNSERE Bürger!\n\nTouristenpaare in der Schattenschmiede melden kurze Begegnungen mit einem Zwerg, der mit einem fremden Akzent mehrfach gesagt haben soll: \"Das sind nicht die zwei, die wir suchen.\"\n\nMeldet sachdienliche Informationen an jeden dienstverpflichteten Offizier der Zorneshämmer!\n\nLasst Vorsicht walten, dieser geheime Gast ist noch keiner größeren Gruppe begegnet.\nSeid auf der Hut!"
    ]

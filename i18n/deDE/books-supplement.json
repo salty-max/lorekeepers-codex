@@ -1,13 +1,41 @@
 {
- "description": "Supplement to the German readable cache. Authored translations are explicitly distinguished from recovered client text. The source hash covers the pinned English HTML page array as UTF-8 compact JSON.",
+ "description": "Supplement to the German readable cache. Authored translations are explicitly distinguished from recovered client text. The source hash covers the English page array (Classic's, else Forever's) as UTF-8 compact JSON.",
  "entries": {
   "i18401": {
    "title": "Nostro's Compendium of Dragon Slaying",
    "source_sha256": "5fe73cb618e122a426a72403f3c68abcb4fed6f8ab49e8f86321ad974e5187bc",
    "provenance": "codex-translation",
-   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "note": "Faithful German translation of the English page chain. Not verified German client wording.",
    "pages": [
     "Nostros Kompendium des Drachentötens ist ein dickes Buch voller Schrift. Leider scheint der Text verworren und ergibt für Euch keinen Sinn."
+   ]
+  },
+  "i2006": {
+   "title": "The Second Troll Legend",
+   "source_sha256": "6e1c903715675ec602f15c75f7a48ab713163285ffeb371708773f17fdb0a211",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Die Geschichte von Gri'lek dem Wanderer\n\n[...Der Anfang der Tafel war verwittert und ausgelöscht. Doch das Ende war lesbar...]\n\nGri'lek stapfte durch den Dschungel. Seine Augen brannten und seine Brust grollte, denn großer Zorn war in ihm.\n\nIn seiner Wut brüllte er zum Himmel und hob seinen Arm. Er hob seinen linken Arm, der stark und sicher geworden war, weil er ohne seinen Zwilling jagte.\n\nDenn Gri'leks rechter Arm war fort, und er würde nicht zurückkehren.",
+    "Und so wanderte er, und er suchte. Und sein Arm blieb ihm verloren. Und so fluchte und brüllte er, während er ging.\n\nDoch Gri'lek hatte sein Ohr schon vor langer Zeit von den Geistern abgewandt, und sie waren erzürnt und wollten seine Flüche nicht hören.\n\nVerdammt war Gri'lek. Verdammt, armlos umherzuwandern."
+   ]
+  },
+  "i2008": {
+   "title": "The Fourth Troll Legend",
+   "source_sha256": "76e71052309529c4069cbf9753c98792d0a151fa0a0daf39d4af290add2ac2ab",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Bei Mond und Glut,\nbei Fleisch und Bein,\ngeschrieben in Blut,\ngehauen in Stein.\n\nVerlasst diesen Ort,\nsonst trifft Euch Verderben.\nDer Tod hält Wache\nüber dem Grab des Imperators."
+   ]
+  },
+  "i208205": {
+   "title": "Blackrat's Note",
+   "source_sha256": "be15a69b6f69422a1513c6f35f8619c791121d59e739237487d4bbc4567f55f0",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Ich habe die Ware. Ich verstecke mich bei der Nebelfichtenzuflucht, beim alten Boot. Wenn Ihr einen Eurer Leute zur Abholung schickt, sorgt dafür, dass er nicht gesehen wird!\n\n- Schwarzratte"
    ]
   },
   "i20949": {
@@ -23,11 +51,56 @@
    "title": "From the Desk of Lord Victor Nefarius",
    "source_sha256": "37b3441b8ac579bbca6cc8e0b52a8dc5413fbffe5d96ede865aac4d123621335",
    "provenance": "codex-translation",
-   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "note": "Faithful German translation of the English page chain. Not verified German client wording.",
    "pages": [
     "An alle, die es angeht,\n\nwie sehr ich diese Spielchen liebe, die wir spielen.\n\nWenn Ihr diesen Brief lest, kann ich nur annehmen, dass es Euch irgendwie, durch ein Wunder oder göttliches Eingreifen, gelungen ist, mich zu bezwingen. Absurd, ich weiß, aber in der Geschichte dieser Welt sind schon seltsamere Dinge geschehen.",
     "Wie alles im Leben hat auch diese traurige Geschichte einen herrlichen Silberstreif aus Tragödie, Chaos und Bosheit. Ihr habt mich zwar getötet, doch so langsam und ungeordnet, dass mir Zeit genug blieb, diesen Brief zu schreiben, NACHDEM ich Eure einzige Hoffnung zerstört hatte, diese Welt zu retten. Das zerstoßene rote Kristallpulver ist alles, was von Eurem Szeptersplitter übrig ist.",
     "Erfreut Euch an den Rüstungen der Nemesis und des Stormrage, die Ihr in meiner Schatzkammer finden mögt. Glaubt mir, wenn ich Euch sage: Es bereitet mir großes Vergnügen zu wissen, dass ich vollbracht habe, was meinem Vater nicht gelang...\n\nHochachtungsvoll,\n\nLord Victor Nefarius\n\"Nefarian\""
+   ]
+  },
+  "i211777": {
+   "title": "Naga Manuscript",
+   "source_sha256": "87572e3ab1c0891176cd34b0b6d3c6705ce52676939953f9a45e0fd73a431ca7",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "<Das Manuskript zeigt eine Karte mit drei Kristallen entlang des Zoramstrands. Ein nummerierter Weg führt von Süden nach Norden von Kristall zu Kristall. Neben jedem Kristall ist eine Explosion arkaner Magie gezeichnet.>"
+   ]
+  },
+  "i216956": {
+   "title": "Torn Letter",
+   "source_sha256": "76a5317b3d58df54f1721e74c075e9e2ff6847e8a428de1000c27e3a0f197afc",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Wegen der erschütternden Unfähigkeit Eures Zirkels konnten nicht eine, sondern zwei Gruppen von Eindringlingen Eure Verteidigung durchbrechen, schwere Verluste anrichten und unser Eigentum stehlen. Ich kümmere mich um den Scharlachroten Kreuzzug, aber Euer erbärmlicher Zirkel muss genug Fähigkeit aufbringen, um den Paladin und seinen Komplizen aufzuspüren und zurückzuholen...\n\n<Der Brief ist zerrissen, der Rest fehlt.>"
+   ]
+  },
+  "i227658": {
+   "title": "Shadowsworn Note",
+   "source_sha256": "378976ceb9e7d1b8f5cc60fd82b0f8b0f718d59a3d7194ed4ba46edf61b10283",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Wir brauchen mehr willige Opfer!\n\nDieser Altar muss einen Trick haben. Bisher hat er nichts hervorgebracht.\n\nErstattet bei der Schlangenschlinge Bericht, wenn Ihr etwas Nützliches findet."
+   ]
+  },
+  "i227748": {
+   "title": "Survivor Journal",
+   "source_sha256": "27c2685fa8ab0a8f1881d83382d838524c3cf2f7e3277aa4b427fa1748a3efad",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Unter dem Schutz des Splitters des Lichts flohen wir in die Gruft und verbarrikadierten uns darin. Doch Wescott und Billina zogen los, um Vorräte zu suchen, und nahmen den Splitter zu ihrem Schutz mit. Seit drei Tagen sind sie nicht zurückgekehrt, und ohne die Macht des Splitters wird die Geißel bald über uns herfallen..."
+   ]
+  },
+  "i228144": {
+   "title": "Strange Note",
+   "source_sha256": "3e8512c8a1df7a1ecb5decce336e28606b220db7ebe7353f253878a2d80c948a",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Der Kristall hat mir Visionen seiner Vergangenheit gezeigt. Er ist aus einem vollkommenen Ganzen herausgebrochen, einem Ding von herrlicher göttlicher Macht.\n\nDie erbitterten Konflikte zwischen den Völkern Azeroths nehmen weiter zu. Würden die Splitter jetzt wieder vereint, könnte man sie als Waffe von furchterregender Zerstörungskraft führen.\n\nWenn Ihr danach strebt, die Splitter wieder zu vereinen, so flehe ich Euch an: Nutzt ihre Macht, um die Kinder Azeroths zu einen, nicht um weiter Krieg zu führen."
    ]
   },
   "i5882": {
@@ -41,11 +114,74 @@
     "Captain,\n\nich wünsche Euch Glück auf Euren Reisen. Leider war uns das Glück bei unserem ersten Entführungversuch nicht hold.\n\nAls unsere Gruppe in den Gängen unter Stormwind bzw. Ironforge auf die Zielperson traf, fand sie dort nur einen Lockvogel vor. Er ist wohl doch schlauer als wir ihm zugetraut haben.\n\nAber unser zweiter Plan läuft. Agenten der Defias warten darauf, die Zielperson abzufangen, wenn sie sich Theramore nähert. Bald wird Stormwind unseren Zorn zu spüren bekommen!\n\n- M"
    ]
   },
+  "i7266": {
+   "title": "Ur's Treatise on Shadow Magic",
+   "source_sha256": "4709be6f174ee1a515da9f1be9877e011c413d8512849b732668a14fc6c84e66",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Die wirbelnden Symbole und Bildzeichen, die die Seiten dieses Handbuchs füllen, sind so esoterisch, dass sie jedes Verständnis übersteigen."
+   ]
+  },
+  "i939": {
+   "title": "A Bloodstained Journal Page",
+   "source_sha256": "ff4907be2a92b143a43c4b64283f56c06ac0c3875a373a8c16c9d4402e9ba8b0",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    ". . .Abwärtsspirale der Verzweiflung. Erst verspottet sie mich, und nun ist sie verlobt. Die undankbare Scharlatanin hat Liebe nur vorgetäuscht, während sie mich die ganze Zeit verletzen wollte. Eine schwarze Leere lauert nun in mir, und sie wächst mit jedem wachen Augenblick. Das Blut, das ich vergießen werde, verblasst neben den Tränen, die ich vergossen habe. . ."
+   ]
+  },
+  "o174746": {
+   "title": "Etched Note",
+   "source_sha256": "654ebad4c54c8ce9c91189997d7835f45768178b0a3aacd4f0d4bc6353cff05e",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Dieser Amboss ist Eigentum von Jordan Stilwell. Bitte NICHT benutzen!\n\n- Jordan"
+   ]
+  },
+  "o175682": {
+   "title": "Geru Strider",
+   "source_sha256": "cbe7ef3732ad6fc8f50438164ce44edb9917ca10477cb4293e5191350652e2af",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Die Geru sind die größten aller Ebenenschreiter. Es gibt nur wenige von ihnen, und man begegnet ihnen selten."
+   ]
+  },
+  "o175684": {
+   "title": "Saurial Egg",
+   "source_sha256": "a736347dab9464054b392c58adc643ccea4fdb41e22cda07456294dab17d7c30",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Dieses Ei wurde im abgelegenen Regenwald des Un'Goro-Kraters gefunden und barg einst den Embryo eines Teufelssauriers. Das Erbgut des Sauriers hat sich für die Ökologen der Liga als unschätzbar erwiesen. Sie sind einem Serum gegen das lähmende Gift der Teufelssaurier näher als je zuvor."
+   ]
+  },
+  "o175687": {
+   "title": "Uldaman Relics",
+   "source_sha256": "09e6456961652560a5651b49b60123d377982405ba492e06fff58e0f67963794",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Diese uralten Tonwaren wurden bei der Ausgrabung in Uldaman geborgen. Sie tragen kaum aufschlussreiche Runen oder Hieroglyphen, gewähren aber einen vielsagenden Einblick in die Handwerkskunst und die Dinge des Alltags des uralten Zwergenvolks."
+   ]
+  },
+  "o175689": {
+   "title": "Uldaman Reliefs",
+   "source_sha256": "a1a8f07676ac760c9d8c75bf0393a74abf391bb4e5aeefa88d905a1ad3e5550c",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Diese gemeißelten Reliefbänder waren vielleicht der bedeutendste Fund in den ersten Kammern von Uldaman. Die Gravuren deuten klar auf eine Verbindung zwischen den golemartigen Irdenen und dem Volk der Zwerge hin. Sollten sich weitere Beweise finden, könnten sich die Theorien über unsere angebliche Erschaffung durch die sagenhaften Titanen als wahr erweisen."
+   ]
+  },
   "o175773": {
    "title": "Dorgar Stoenbrow",
    "source_sha256": "910d530eb7217c420ea76a15176a515389b6dadbda32bb1d2e7d838ded3f1f23",
    "provenance": "codex-translation",
-   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "note": "Faithful German translation of the English page chain. Not verified German client wording.",
    "pages": [
     "Dorgar Stoenbrow\n\nKrieger des Scharlachroten Kreuzzugs\n\nHerr der Roten Höhlen\n\nZuletzt im Alteracgebirge gesehen"
    ]
@@ -54,7 +190,7 @@
    "title": "Fellari Swiftarrow",
    "source_sha256": "693bbf8dccbeaff7e27bc1c1b3dbe5137ba3ec501eb9f1a5d9184bb33856cf2d",
    "provenance": "codex-translation",
-   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "note": "Faithful German translation of the English page chain. Not verified German client wording.",
    "pages": [
     "Fellari Swiftarrow\nWaldläuferhauptmann des Scharlachroten Kreuzzugs\nBürgerin von Quel'Thalas\nVerschollen in den Wäldern des Silberwalds"
    ]
@@ -63,16 +199,26 @@
    "title": "Ferren Marcus",
    "source_sha256": "3c28a5549b7ccc4cd4b28ac22d17f87e1a9559b7564593951a100939fec45d85",
    "provenance": "codex-translation",
-   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "note": "Faithful German translation of the English page chain. Not verified German client wording.",
    "pages": [
     "Ferren Marcus\n\nHochabt des Scharlachroten Klosters\n\nBürger von Stratholme\n\nGefallen bei der Verteidigung des Scharlachroten Klosters beim ersten Sommerangriff"
+   ]
+  },
+  "o175776": {
+   "title": "Harthal Truesight",
+   "source_sha256": "33119249b5d647191a5caf752df1316873221ffbd32c69a7fb826e3ab68ba8a8",
+   "provenance": "codex-translation",
+   "english_first": "Harthal Truesight",
+   "note": "The pinned English page is Fellari Swiftarrow's plaque, not this one: Harthal's own English (Wowhead's, verified 14 October 2026) translated, which Wowhead gives only in English for German. Not verified German client wording.",
+   "pages": [
+    "Harthal Truesight\nLordpaladin des Scharlachroten Kreuzzugs\nBürger von Azeroth - Ritter der Silbernen Hand\nZuletzt gesehen, als er die verfluchte Stadt Stratholme betrat"
    ]
   },
   "o175777": {
    "title": "Holia Sunshield",
    "source_sha256": "472faa49e214b924e6944779e501f609b4e8eba31215ff82a0fc13cdd8764976",
    "provenance": "codex-translation",
-   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "note": "Faithful German translation of the English page chain. Not verified German client wording.",
    "pages": [
     "Holia Sunshield\n\nVerteidigerin des Scharlachroten Kreuzzugs\n\nFiel, als sie den Schreckenslord Beltheris erschlug"
    ]
@@ -81,9 +227,39 @@
    "title": "Yana Bloodspear",
    "source_sha256": "e045d38466431983ab4db0f54309f968aa4d4c3bc8b6da1c345f2fc24f572194",
    "provenance": "codex-translation",
-   "note": "Faithful German translation of the pinned English page chain. Not verified German client wording.",
+   "note": "Faithful German translation of the English page chain. Not verified German client wording.",
    "pages": [
     "Yana Bloodspear\n\nZweite Oberste Assassine des Scharlachroten Kreuzzugs\n\nBürgerin von Dalaran\n\nVerschollen in Tirisfal"
+   ]
+  },
+  "o177222": {
+   "title": "Pteradon Skeleton",
+   "source_sha256": "df0a1000844bdbd8bd25e62341ab8d73f6d83f3be4bfa1a491d74bf5c30c17d2",
+   "provenance": "client-text-reuse",
+   "note": "Wowhead gives this one only in English for German, but o175685 carries the same English text with the game's own German: reused.",
+   "pages": [
+    "Dieses unversehrte Pteradonskelett wurde im entlegenen Un'Goro Krater geborgen. Dem Aufbau des Skeletts lässt sich genau entnehmen, dass diese spezielle Unterart noch nicht entdeckt wurde. Das Skelett könnte Jahrhunderte unter dem fruchtbaren Boden der Region erhalten geblieben sein."
+   ],
+   "reused_from": [
+    "o175685"
+   ]
+  },
+  "o179741": {
+   "title": "Horde Military Ranks",
+   "source_sha256": "f4faf7abb59df127d7d5e32ca8741893fd70a0c571b1f1909172668b4f2e0a69",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "MILITÄRISCHE RÄNGE DER HORDE\n\nOFFIZIERE\n\nOberster Kriegsfürst\n\nKriegsfürst\n\nKriegsherr\n\nSturmreiter\n\nFeldherr\n\nKlinge der Horde\n\nZornbringer\n\nBlutgardist\n\nSteingardist\n\nMANNSCHAFTEN\n\nRottenmeister\n\nSchlachtrufer\n\nWaffenträger\n\nGrunzer\n\nSpäher"
+   ]
+  },
+  "o179909": {
+   "title": "Rock of Durotan",
+   "source_sha256": "c615ae5551505a89e6ca94184f54b48cb47be119da52074a81a292f4698e666c",
+   "provenance": "codex-translation",
+   "note": "Faithful German translation of the English page chain: Wowhead gives only the English for it in German, in brackets. Not verified German client wording.",
+   "pages": [
+    "Hier ruht Durotan, erster Häuptling des Frostwolfklans und Vater unseres verehrten Kriegshäuptlings Thrall. Er war der Tapferste unserer Art, verraten von jenen, die unser Volk versklavt sehen wollten. Durotan gab sein Leben, damit wir unsere Freiheit erlangen konnten. Wir ehren ihn und das Vermächtnis, das er uns durch seinen Sohn hinterließ.\n\nDrek'Thar, Scharfseher der Frostwolf"
    ]
   },
   "o182203": {
@@ -136,6 +312,7 @@
   "i1078": "Explicitly deprecated item. Its pinned pages duplicate Gramma Stonefield's Note.",
   "i12564": "The pinned page is the Horde Catapult museum plaque, not the assassination note. Do not bind that translation to this item.",
   "i1356": "Legacy entry whose pinned page is the last page of Shaw's Report. No verified corresponding body for this title.",
+  "i226421": "Placeholder item (its name is PLACEHOLDER_ASHBRINGER_QUESTITEM_01, its English page a developer's joke): no player-facing text to translate.",
   "i2793": "Explicitly deprecated item. Its pinned page duplicates Berard's Journal.",
   "i3677": "Explicitly deprecated item. Its pinned pages duplicate the end of Decrypted Letter.",
   "i3686": "Explicitly deprecated test item. No player-facing translation is supplied.",

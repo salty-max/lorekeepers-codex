@@ -104,5 +104,18 @@ verified French client wording.
 Rebuild with `python3 scripts/book_texts.py frFR`,
 `python3 scripts/text_titles.py frFR` and `bun run locales`.
 `bun run check` validates the generated addon and runs both client simulations.
-The importer reports 371 unique variants under 353 titles, 13 documented
-source exceptions, and no unaccounted records in its pinned 387-record scope.
+
+## Forever's newer texts (later on 14 October 2026)
+
+Forever's list of texts grew to 447 after the French fetch. The 21 newer
+items with a Wowhead page were fetched in French, and their English too
+(`books-enUS.json` in wow-data: neither Questie nor the Classic database
+has it). Ten came back in French. Ten came back as English in brackets,
+Wowhead's mark for a string the French client lacks: they are translated
+here like the earlier ones (`i207098`, `i208205`, `i208224`, `i210967`,
+`i216610`, `i219929`, `i221017`, `i227748`, `i228144`, `i236002`). The
+importer now treats a bracketed copy of the English as no translation at
+all, so none ships as one again. `i226421`, a placeholder item named
+`PLACEHOLDER_ASHBRINGER_QUESTITEM_01`, is a source exception. The importer
+reports 391 texts under 372 titles, 14 source exceptions, and 39 texts
+Wowhead has no page for in any language.

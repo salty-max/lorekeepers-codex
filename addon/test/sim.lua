@@ -1730,6 +1730,18 @@ do
     if not de.books[title] then table.insert(short, title) end
   end
   check(#short == 0, "… every book the French has (" .. table.concat(short, ", ") .. ")")
+  -- a text Wowhead gives only in English, in brackets, is no translation
+  local english = {}
+  for _, books in ipairs({ fr.books, de.books }) do
+    for title, variants in pairs(books) do
+      for _, v in ipairs(variants) do
+        if v.pages[1] and v.pages[1]:match("^%[") and v.pages[#v.pages]:match("%]$") then
+          table.insert(english, title)
+        end
+      end
+    end
+  end
+  check(#english == 0, "… no book in either language is Wowhead's English (" .. table.concat(english, ", ") .. ")")
   local before = ns.bookTexts
   ns.bookTexts = de.books
   local hills = ns.textPages({ title = "The Green Hills of Stranglethorn", pages = { "old English copy" } })
