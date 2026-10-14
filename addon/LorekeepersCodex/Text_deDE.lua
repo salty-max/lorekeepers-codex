@@ -2086,6 +2086,13 @@ ns.translate({
         { "Hier soll er liegen. Vor der Geißel war es ein Ort der Pilgerfahrt. Heute sammelt er die Toten des Scharlachroten Klosters, und niemand kommt, um ihn zu betrauern. Er hätte Besseres verdient, und der Orden, den er gründete, ebenso." },
       },
     },
+    ["altar-of-storms"] = {
+      title = "Der Altar der Stürme",
+      text = {
+        { "Der Altar der Stürme steht im Schatten der Blackrockspitze, eine erhaltene Stätte der Hexenmeisterriten der alten Horde. Im Zweiten Krieg verwandelte die Magie, die an solchen Altären gewirkt wurde, Oger in Ogermagier und gab ihnen List und die Macht, Zauber zu wirken." },
+        { "Hexenmeister der Blackrock versammeln sich noch immer hier. Mor'zul Bloodbringer, der den Altar erforscht hat, lagert in der Nähe und schickt andere Hexenmeister mit eigenen Aufträgen los." },
+      },
+    },
     ["alterac-mountains"] = {
       title = "Alteracgebirge",
       text = {
@@ -2115,6 +2122,14 @@ ns.translate({
         { "Andorhal versorgte den Norden Lordaerons mit Getreide. Kel'Thuzads Kult der Verdammten verseuchte seine Kornspeicher, und die Lieferungen trugen die Seuche in die Dörfer dahinter. Eine wohlhabende Stadt wurde zu einem Mittel, den Tod durch das Land zu tragen, das von ihr abhing." },
         { "Arthas tötete Kel'Thuzad hier, als er die Quelle der Seuche verfolgte. Der Tod des Nekromanten beendete sein Werk nicht. Andorhal bleibt in der Hand der Geißel, seine Ruinen beherrscht von Araj dem Beschwörer. Sowohl das Chillwind-Lager als auch das Bollwerk wollen den Lich vernichtet sehen." },
         { side = "Horde", aside = true, sign = "P. F.", "Die Seuche kam mit Andorhals Getreide nach Norden, nicht hinter einem Heer. Das ist der Teil der Geschichte, den die Leute zuerst vergessen." },
+      },
+    },
+    ["anduin-lothar"] = {
+      title = "Anduin Lothar",
+      text = {
+        { "Anduin Lothar war der Letzte aus dem Blut der Arathi, der Linie Thoradins, der die Menschheit zuerst vereinte, und er diente König Llane von Stormwind als sein Streiter und Waffenleutnant. Es war Lothar, der mit dem jungen Khadgar Karazhan stürmte und Medivh tötete, seinen alten Freund, als er begriff, was der Wächter getan hatte." },
+        { "Er kam zu spät heim, um Stormwind zu retten, führte sein Volk über das Meer nach Lordaeron und wurde Oberbefehlshaber der Allianz. Selbst die Elfen von Quel'Thalas kamen, wie widerwillig auch immer, wegen der Schuld, die sie bei seinen Ahnen hatten." },
+        { "Er starb hier. Als die Horde in der Blackrockspitze eingepfercht war, stürmte Orgrim Schicksalshammer mit seinen Leutnants heraus und traf mitten auf diesen Ebenen auf Lothars Paladine. Die beiden kämpften, bis sie erschöpft waren, und Schicksalshammer tötete ihn. Sein Leutnant Turalyon nahm Lothars blutbefleckten Schild auf und brach die Horde in der folgenden Flucht. Die Expedition, die später durch das Dunkle Portal marschierte, zog als die Söhne Lothars aus." },
       },
     },
     ["arathi-basin"] = {
@@ -2233,6 +2248,13 @@ ns.translate({
       text = {
         { "Brill war ein stilles Bauerndorf an der Straße östlich von Deathknell, und die Verlassenen haben es zu ihrem gemacht: Im Rathaus sitzt ein Magistrat, die Taverne Zur Galgenschlinge schenkt ihre seltsamen Getränke an seltsame Gäste aus, und in ihrem Keller hält die Todeswache ihre Gefangenen fest, zwergische Gebirgsjäger darunter, bis man sich ihrer annehmen kann." },
         { "Hier verrichtet auch die Königliche Apothekervereinigung einen guten Teil ihrer Arbeit. Mehr will ich dazu nicht sagen, als dass ein Zwerg in Brill kein Getränk annehmen sollte." },
+      },
+    },
+    ["burning-steppes"] = {
+      title = "Brennende Steppe",
+      text = {
+        { "Die Brennende Steppe liegt südlich des Blackrock, eine weite Ebene aus Asche, Lava und schwarzem Fels unter einem roten Himmel. Einst war all dies das Nordende des Rotkammgebirges, bevor Thaurissan den Feuerlord weckte. Die Explosion, die folgte, nahm die Berge, die Wälder und die eigene Stadt der Dunkeleisenzwerge und hinterließ dies." },
+        { "Es ist ein Land im Krieg. Die Orcs der Blackrock aus der Dunklen Horde halten die Spitze und die Pässe, der schwarze Drachenschwarm nistet auf den Höhen, und Oger halten den Schreckensfels. Die Allianz hat einen Stützpunkt in Morgans Wacht im Südosten, und es gibt einen kleinen neutralen Außenposten am Flammenkamm, auf einem Felsen über der Lava, wo jeder rasten kann." },
       },
     },
     ["caer-darrow"] = {
@@ -2550,6 +2572,13 @@ ns.translate({
         { "Die Horde hat das Lager als Festung wiederaufgebaut und es ihm zum Gedenken benannt. Manche der Orcs hinter seiner Palisade waren einst Gefangene auf diesem Boden." },
       },
     },
+    ["hammertoes-digsite"] = {
+      title = "Hammertoes Grabungsstätte",
+      text = {
+        { "Hammertoes Grabungsstätte ist das Lager der Forscherliga vor den Toren von Uldaman, benannt nach dem Ausgrabungsleiter, der es führte, und es hat schwere Zeiten hinter sich. Die Troggs kamen aus dem Gewölbe herauf und überrannten die Gräber. Ausgrabungsleiter Agmond, der die südlichen Stätten leitete, verstummte, und als jemand nachsehen ging, fand man sein Lager und das, was von ihm übrig war. Hammertoe selbst wurde von den Dunkeleisenzwergen des Klans Schattenschmiede verschleppt, die wissen wollen, was er über die Werke der Titanen weiß." },
+        { "Ausgrabungsleiter Ryedol hält, was von der Grabung übrig ist, und er gibt nicht leicht auf. Hammertoe hoffentlich auch nicht. Die Schattenschmiede suchen in Uldaman nach den Geheimnissen der Golems der Titanen, und Hammertoe suchte zuerst nach ihnen, um sie aus den Händen der Dunkeleisenzwerge zu halten." },
+      },
+    },
     ["hearthglen"] = {
       title = "Hearthglen",
       text = {
@@ -2629,6 +2658,13 @@ ns.translate({
         { "Das Dorf darunter ist zerstört, und der Keller des Meisters liegt unter seinen verlassenen Gebäuden. Karazhan selbst bleibt verschlossen. Der Turm hat den Mann überdauert, der dort lebte, und die Gewissheit, dass er jemals ganz allein war." },
       },
     },
+    ["kargath"] = {
+      title = "Kargath",
+      text = {
+        { "Kargath ist die Festung der Horde im Nordwesten des Ödlands, eine Palisade auf einer Klippe, benannt nach Kargath Bladefist, dem einhändigen Häuptling des Klans der Shattered-Hand im Zweiten Krieg. Es ist das Lager des Expeditionskorps von Kargath, und sein Geschäft ist der Krieg gegen die Dunkeleisenzwerge des Blackrock im Westen." },
+        { "Die Orcs haben Grund dazu. Die Dunkeleisenzwerge von General Zornesschmied metzelten eine ganze Abteilung des Expeditionskorps nieder, die hundertneunte, und der Kriegsherr von Kargath hat einen stehenden Befehl ausgegeben: sofort töten. In dieser einen Sache sind sich ein Zwerg aus Ironforge und ein Orc aus Kargath einig." },
+      },
+    },
     ["katrana-prestor"] = {
       title = "Lady Katrana Prestor",
       text = {
@@ -2698,6 +2734,13 @@ ns.translate({
         { "Seine Tochter beschäftigt ihn dringender. Prinzessin Moira ist in der Stadt der Dunkeleisenzwerge unter dem Blackrock, vermählt mit Imperator Dagran Thaurissan. Ironforge nennt es eine Entführung, und Magni verspricht demjenigen, der sie heimbringt, den Lohn eines Helden. Wenn Ihr diesen Auftrag annehmt, $gReisender:Reisende;, tragt Ihr die Hoffnungen eines Vaters ebenso wie die Befehle eines Königs." },
       },
     },
+    ["marshal-windsor"] = {
+      title = "Marshal Windsor",
+      text = {
+        { "Marshal Reginald Windsor befehligte Soldaten der Allianz in Morgans Wacht und sammelte Beweise, die die Orcs der Blackrock mit dem schwarzen Drachenschwarm in Verbindung brachten. Er begann zu vermuten, dass jemand in Stormwind diese Beweise verloren sehen wollte. Die Dunkeleisenzwerge nahmen ihn gefangen, nahmen seine Aufzeichnungen und machten sich daran, ihren Code zu entschlüsseln." },
+        { "Windsor überlebte im Gefängnis der Schattenschmiede. Er beharrte darauf, Bolvar Fordragon sei blind für die Wahrheit, obwohl der Beweis zwei Fuß von ihm entfernt stehe. Wer den Marshal rettete, erfuhr bald, was er meinte." },
+      },
+    },
     ["mekgineer-thermaplugg"] = {
       title = "Robogenieur Thermaplugg",
       text = {
@@ -2749,6 +2792,13 @@ ns.translate({
         { "Morbent Fel ist der Nekromant des Dämmerwalds, derjenige, der die Toten von Rabenflucht wandeln lässt, und ein Verbündeter der dunklen Reiter, die aus dem Gebirgspass der Totenwinde kommen. Er lebt in einem Haus oben auf dem verlassenen Gut, über dem Friedhof, hinter seinen Toten und einem Bann, der jeden Schlag gegen ihn ablenkt." },
         { "Sven Yorgen, ein Holzfäller, dessen Frau und Kinder die Reiter töteten, will ihn tot sehen, und der Weg dorthin ist lang. Das Tagebuch eines Defias verriet Sven, was auf seinem Hof geschehen war. Bischof Farthing in der Kathedrale von Stormwind wies den Weg zu einer Waffe, die den Bann brechen konnte. Das Eisen dafür kam aus den Wracks der dritten Flotte vor dem Sumpfland, wo eine Ladung Lichtschmiedeeisen unterging, und ein zwergischer Schmied in Stormwind schmiedete daraus Morbents Bann." },
         { "Das ist sehr viel Aufwand für einen einzigen Nekromanten, $gReisender:Reisende;. Sven findet das nicht, und ich stelle fest, dass ich es ihm nicht verdenken kann." },
+      },
+    },
+    ["morgans-vigil"] = {
+      title = "Morgans Wacht",
+      text = {
+        { "Morgans Wacht liegt in einem niedergebrannten Dorf im Südosten der Brennenden Steppe. Ein zerstörter Magierturm und Zelte bieten Soldaten der Allianz unter Marshal Maxwell Schutz. Sie stehen zwischen den Truppen der Blackrock und Seenhain jenseits der Berge." },
+        { "Ihre Berichte nennen den schwarzen Drachenschwarm als die Macht, die die Orcs antreibt. Stormwind verlangte Beweise. Lady Prestor sah keinen Grund zur Beunruhigung. Ein Reisender kann hier erfahren, was die Soldaten entdeckt haben, und auch, wie wenig Hilfe ihnen diese Entdeckung bisher gebracht hat." },
       },
     },
     ["morganth"] = {
@@ -2871,6 +2921,14 @@ ns.translate({
         { "Kel'Thuzads Macht hindert die Allianz und die Verlassenen daran, sie einfach zu löschen. Stattdessen suchen Helfer in Chillwind und am Bollwerk Proben, um Gegenmittel herzustellen. In die Kessel gegeben, verändern diese Mischungen ihre Dämpfe so, dass sie die Geißel schwächen. Der Vorrat muss immer wieder erneuert werden." },
       },
     },
+    ["platinum-discs"] = {
+      title = "Die Platinscheiben",
+      text = {
+        { "Tief in Uldaman, jenseits des Steinbewahrers Archaedas, bewahren vier Platinscheiben einen Bericht, den ein steinerner Wächter spricht. Er nennt die Titanen die Schöpfer. Sie schufen die Irdenen aus dem Stein Azeroths, um seine tiefen Orte zu formen: starke Arbeiter, unermüdlich und schwer zu verletzen." },
+        { "Der Wächter sagt, ihre Gestalt sei unter Belastung zerfallen. Ein Ergebnis behielt ihre Stärke, verlor aber den Verstand: die Troggs, als Fehlschlag beurteilt und unter der Erde versiegelt. Ein anderes behielt Stärke und Verstand, verlor aber den Stein. Das waren die Zwerge." },
+        { "Ihr könnt verstehen, warum die Liga diese Aufzeichnung schätzt, $gReisender:Reisende;. Sie gibt uns Zwergen einen Anfang, den wir erforschen können, und macht die Geschöpfe, die die Grabungen der Liga stören, zum Teil derselben Frage wie unsere eigenen Ahnen." },
+      },
+    },
     ["pyrewood-village"] = {
       title = "Pyrewood",
       text = {
@@ -2959,6 +3017,13 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Von allem auf dieser Seite ist es Edward Heartweavers wöchentlicher Gang, zu dem ich immer wieder zurückkehre." },
       },
     },
+    ["ruins-of-thaurissan"] = {
+      title = "Die Ruinen von Thaurissan",
+      text = {
+        { "Dies sind die Ruinen der Stadt Thaurissan, der Hauptstadt des Klans der Dunkeleisenzwerge, nachdem sie vor Jahrhunderten Ironforge verlassen hatten, als die Brennende Steppe grün war. Als ihre Heere bei Ironforge und Grim Batol vernichtet wurden, stiegen Zauberthan Thaurissan und sieben seiner größten Zwerge hinab, um die Mächte anzurufen, die unter der Welt schliefen, und den Krieg zu wenden." },
+        { "Was antwortete, war Ragnaros, der Herr des Feuers. Der Berg barst. Die Stadt wurde zerstört, die Täler brannten, und die Dunkeleisenzwerge, die überlebten, wurden die Sklaven des Feuerlords. Die Relikte der Stadt erinnern sich noch: Wer sie berührt, sieht acht Zwerge bei einem Ritual, und dann einen allein, kniend zwischen sieben Leichen vor einer Säule aus Flammen. Ich habe diese Geschichte auf dem Hohen Sitz öfter erzählt, als ich zählen kann, und diese Relikte erklären vieles davon, was ich nur vermutet hatte. Ein Goblin in Morgans Wacht, Maxwort, wird Euch sagen, die Sieben seien Zwerge von großem Wissen gewesen, und Wissen bringe Reichtum. Goblins." },
+      },
+    },
     ["scarlet-monastery"] = {
       title = "Das Scharlachrote Kloster",
       text = {
@@ -2980,6 +3045,13 @@ ns.translate({
         { "Die Worgen des Dämmerwalds kamen nicht von Arugal, oder nicht nur von ihm. Die andere Hälfte der Geschichte beginnt in Ashenvale, bei einer Priesterin der Elune namens Velinde Starsong, die um einen Weg betete, ihre gefallenen Gefährtinnen an den Dämonen des Teufelswalds zu rächen, und einen erhielt: die Sense von Elune, ein verdrehter, knorriger Ast, der vielleicht älter ist als die Nachtelfen selbst." },
         { "Ihr Tagebuch sagt, dass es die Mauern der Welt schwächte, sie zu halten. Durch sie sah sie die Worgen einen eigenen Krieg führen, lernte, ohne Worte mit ihnen zu sprechen, und holte dreißig von ihnen in diese Welt, um an ihrer Seite zu kämpfen. Weitere folgten. Dann verschwanden Rudel, und ihre Zahl wuchs weiter, selbst als sie aufhörte, sie zu rufen, als bräuchte die Sense sie nicht mehr. Sie ging nach Osten über das Meer, sagt das Tagebuch, um einen Zauberer der Kirin Tor namens Arugal aufzusuchen, von dem es hieß, er habe dasselbe getan. Das ist der letzte Eintrag." },
         { "Die Sense tauchte in der Mine südlich von Dunkelhain auf, die die Einheimischen Rolands Verdammnis nennen. Ein Defias mit dem Spitznamen Jitters zog sie aus einem Haufen Geröll, und die Worgen strömten aus den Wänden. Auf der Flucht verlor er sie wieder, und wo sie jetzt liegt, sagen die Aufzeichnungen nicht. Ein Geschenk einer Göttin, irgendwo im Dunkel einer Mine im Dämmerwald, das vielleicht noch immer Türen öffnet. Mir wäre lieber, eine Priesterin fände sie als ein Schürfer." },
+      },
+    },
+    ["searing-gorge"] = {
+      title = "Sengende Schlucht",
+      text = {
+        { "Die Sengende Schlucht liegt nördlich des Blackrock, ein Becken aus Asche und Schlacke, von Klippen umschlossen. Wege aus Loch Modan und dem Ödland führen hinein. Einst war dies grünes Land, verbrannt, als Thaurissan Ragnaros herbeirief. Noch immer steigt Rauch aus dem auf, was der Feuerlord zurückließ." },
+        { "Dunkeleisenzwerge bearbeiten die große Grube, die man den Kessel nennt, mit Sklaven und Golems. Feuerelementare ziehen über die Schlacke, und der Twilight-Hammer hält einen Altar in den nordwestlichen Hügeln. Über der Grube halten abtrünnige Dunkeleisenzwerge ein eigenes Lager. Von ihren Klippen aus könnt Ihr viel vom Land sehen, $gReisender:Reisende;, auch wenn wenig von der Aussicht einen behaglichen Anblick bietet." },
       },
     },
     ["sentinel-hill"] = {
@@ -3146,11 +3218,25 @@ ns.translate({
         { "Fairbanks entkam Stratholme nach zwei Tagen unter den Toten und erzählte die Geschichte jedem im Kloster, der zuhören wollte. Dafür wurde er ermordet und in seiner Kathedrale versteckt. Doch manche hörten ihn, sagt er, und so begann die Argentumdämmerung. Renault führt das Kloster heute, als sein Scharlachroter Kommandant." },
       },
     },
+    ["the-badlands"] = {
+      title = "Das Ödland",
+      text = {
+        { "Südlich von Loch Modan bricht das Land auf zum Ödland: roter Fels, trockene Schluchten, Tafelberge und Staub, kaum ein Baum oder Bach darin. Bussarde kreisen, Kojoten schleichen umher, Oger des Klans der Staubspeier halten die Hügel, und schwarze Drachen nisten in der Lethlorklamm im Osten." },
+        { "Zwerge kommen trotzdem her, denn unter dem Ödland liegt Uldaman, das Gewölbe der Titanen, und die Forscherliga gräbt seit Jahren an seiner Tür. Ebenso die Dunkeleisenzwerge, von ihrer Festung Angor aus, und ebenso die Troggs, die aus ihm heraufkamen. Auch die Horde hat hier ein Lager, in Kargath, um die Dunkeleisenzwerge zu beobachten. Es ist eine belebte Öde." },
+      },
+    },
     ["the-bulwark"] = {
       title = "Das Bollwerk",
       text = {
         { "Das Bollwerk ist die Mauer, die die Verlassenen am östlichen Rand von Tirisfal gebaut haben, wo die Lichtungen enden und die Pestländer beginnen, und sie wird Tag und Nacht gegen die Geißel gehalten. Die Todeswache bemannt ihr Tor, und auch Offiziere der Argentumdämmerung halten dort einen Posten, was Euch verrät, wie sehr beide fürchten, was dahinter liegt." },
         { "Am Bollwerk gibt es seltsamere Dinge. Alexi Barov, der Letzte eines Adelshauses von Lordaeron, das seine Burg an den Kult der Verdammten verkaufte, leistet dort den Verlassenen Gesellschaft und hat Ansichten über das Vermögen seiner Familie, die er gern mit Euch teilt." },
+      },
+    },
+    ["the-cauldron"] = {
+      title = "Der Kessel",
+      text = {
+        { "Der Kessel ist die große Grube der Dunkeleisenzwerge in der Sengenden Schlucht, umgeben von Grabmaschinen und in der Hitze mit Sklavenarbeit betrieben. Manche ihrer Gefangenen wurden in solchen Wahnsinn getrieben, dass sie selbst die angreifen, die sie befreien wollen." },
+        { "Die kleinere Grabung von Grimesilt liegt südöstlich davon. Unter der Hauptgrube befehligt Aufseher Maltorius die Schlackengrube, nachdem er die Thoriumbruderschaft verlassen hat, um zu seinen früheren Herren zurückzukehren. Es gibt in Grimesilt auch ein Abort mit einem Schlüssel. Die Geschäfte eines Reisenden in diesem Land können bemerkenswert verschiedene Arten von Einsperrung umfassen." },
       },
     },
     ["the-crusades-fallen"] = {
@@ -3222,6 +3308,13 @@ ns.translate({
         { "Seine Mauer verläuft noch immer über die Hügel zwischen Arathi und Hillsbrad, heute zerbrochen und überwuchert, aber noch immer groß. Die Männer, die sie bauten, sind längst fort, und das Reich mit ihnen, doch jeder König der Menschen hat behauptet, sein Erbe zu sein." },
       },
     },
+    ["thorium-brotherhood"] = {
+      title = "Die Thoriumbruderschaft",
+      text = {
+        { "Die Thoriumbruderschaft besteht aus Dunkeleisenzwergen, die ihren Imperator verlassen haben. Ihre Schmiede arbeiten an der Thoriumspitze über dem Kessel und handeln mit denen, die bereit sind, ihnen gegen Thaurissans Truppen zu helfen. Ein Bronzebeard kann ihr Handwerk ohne große Mühe bewundern. Die politische Lage braucht etwas mehr Erklärung." },
+        { "Sie wissen, wie man die Waffen und Rüstungen des Feuerlords schmiedet, vorausgesetzt, jemand bringt die Materialien aus dem Inneren des Berges. Einer von ihnen handelt sogar in der Taverne der Schattenschmiede, unter der Nase des Imperators. Wenn Ihr ihre Arbeit sucht, $gReisender:Reisende;, bringt, was sie brauchen. Ihr Streit mit ihren alten Verwandten hat ihr Können nicht geschmälert." },
+      },
+    },
     ["thule-ravenclaw"] = {
       title = "Thule Rabenklaue",
       text = {
@@ -3265,6 +3358,13 @@ ns.translate({
       text = {
         { "Tyrs Hand ist eine befestigte Stadt im Südosten der Pestländer, an Tyrs Bucht, voller Kirchen und eine der ältesten heiligen Stätten Lordaerons. Sie hat schon Krieg gesehen: Im Zweiten Krieg stachelten Spione Alteracs ihre Bauern zum Aufstand an, um eine Mine der Orcs zu verbergen, und die Silberne Hand wurde geschickt, um den Frieden zu wahren. Im Dritten Krieg hielt sie gegen die Geißel stand, und sie hält noch immer, für den Scharlachroten Kreuzzug." },
         { "Kreuzzüglerlord Valdelmar herrscht über sie, Hochgeneral Abbendis befehligt ihre Soldaten, und eine Seherin, die die Kreuzzügler das Scharlachrote Orakel nennen, berät den Obersten Kreuzzügler. Jeden Tag reiten Kuriere durch die Pestländer zwischen Tyrs Hand und Stratholme. Die Verlassenen beobachten jeden einzelnen." },
+      },
+    },
+    ["uldaman"] = {
+      title = "Uldaman",
+      text = {
+        { "Uldaman liegt unter dem Ödland, ein Gewölbe der Titanen aus behauenen Hallen und großen steinernen Wächtern. Die Grabungen der Liga öffneten einen Weg hinein. Troggs strömten heraus und gaben den Gräbern der Liga eine unwillkommene Antwort auf eine lange gestellte Frage über diese Geschöpfe." },
+        { "Troggs bewohnen nun die äußeren Hallen, und Dunkeleisenzwerge der Schattenschmiede suchen die Geheimnisse darin. Die Liga ringt mit beiden. Jenseits von Archaedas, dem letzten Wächter des Gewölbes, liegen die Scheiben von Norgannon und ihr Bericht über das Werk der Titanen. Die Liga hat guten Grund, weiterzugraben, selbst nachdem sie erfahren hat, was ihre Grabungen sonst noch freisetzen können." },
       },
     },
     ["undercity"] = {
