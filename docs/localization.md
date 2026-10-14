@@ -99,6 +99,14 @@ first translation, said so on the store page.
    French done 13 October 2026: the 203 words, 45 chapters and all 438
    pages; the user approved the voice on the Dun Morogh pilot. Names with no
    game data to check them against are listed for the reviewer.
+   German done 14 October 2026, flagged a first translation (no native
+   reader yet): the 206 words, 45 chapters and all 438 pages. Archesonus and
+   Parqual speak to the reader with the game's own formal "Ihr" (the
+   interface says "du"), "traveller" is `$gReisender:Reisende;`. Names are
+   Forever's German client's (most of Classic's cities kept English there),
+   lore names the data lacks as the German books write them (Todesschwinge,
+   Krieg der Urtume, Krieg der Sandstürme, die Große Teilung). The
+   Library's German book texts (Wowhead's German pages) are not yet saved.
 3. Russian, Portuguese (ptBR), Italian.
 4. Korean, Chinese (zhTW, zhCN): longer to review, their own typography.
 

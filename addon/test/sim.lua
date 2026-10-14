@@ -1690,4 +1690,36 @@ do
   ns.bookTexts = before
 end
 
+-- The German (Text_deDE.lua, a first translation): every page the French has,
+-- each with a title and its paragraphs, its gender tokens whole, no semicolon
+-- left in the prose.
+do
+  local function load(locale)
+    local t
+    assert(loadfile(DIR .. "Text_" .. locale .. ".lua"))("LorekeepersCodex", { translate = function(x) t = x end })
+    return t
+  end
+  local fr, de = load("frFR"), load("deDE")
+  local missing, bad, n = {}, {}, 0
+  for id in pairs(fr.pages) do
+    local p = de.pages[id]
+    if not (p and p.title and #p.text > 0) then table.insert(missing, id) end
+  end
+  for id, p in pairs(de.pages) do
+    n = n + 1
+    for _, para in ipairs(p.text) do
+      local prose = (para[1] or ""):gsub("%$g[^:;]*:[^;]*;", "")
+      if prose:find(";", 1, true) or prose:find("$g", 1, true) then table.insert(bad, id) end
+    end
+  end
+  check(#missing == 0 and n > 400, "the German: every page, " .. n .. " of them (" .. table.concat(missing, ", ") .. ")")
+  check(#bad == 0, "… its gender tokens whole, no semicolon in the prose (" .. table.concat(bad, ", ") .. ")")
+  check(
+    de.locale == "deDE"
+      and de.words["The Codex"] == "Der Kodex"
+      and de.pages.archesonus.title == "Königliche Historikerin Archesonus",
+    "… its words and titles"
+  )
+end
+
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")
