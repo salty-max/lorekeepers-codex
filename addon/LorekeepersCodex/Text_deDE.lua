@@ -2215,6 +2215,13 @@ ns.translate({
         { "Sehr wenige werden ihn je halten. Der bronzene Drache sagt, wer es tut, sei immer dazu bestimmt gewesen. Der bronzene Schwarm sagt solche Dinge sehr oft." },
       },
     },
+    ["auberdine"] = {
+      title = "Auberdine",
+      text = {
+        { "Auberdine ist der Hafen der Nachtelfen an der Dunkelküste, ein Dorf aus anmutigen Häusern am Ufer, mit Schiffen nach Teldrassil und über das Meer zum Hafen von Menethil. Für die meisten Reisenden aus den Östlichen Königreichen ist es die erste Stadt der Nachtelfen, die sie je sehen." },
+        { "Die Schildwachen, die es halten, haben alle Hände voll zu tun und sind froh über Hilfe. Auch die Liga hat hier einen Freund. Fragt nach Ausgrabungsleiter Remtravel, und macht Euch auf eine lange Geschichte gefasst." },
+      },
+    },
     ["azshara"] = {
       title = "Azshara",
       text = {
@@ -2500,11 +2507,25 @@ ns.translate({
         { "Es ist eine Stadt grimmiger Leute und grimmiger Witze, und mehr Geschichten, als eine Stadt dieser Größe haben sollte. Fragt die alte Wahrsagerin Madame Eva nach irgendeiner davon. Sie weiß schon, nach welcher Ihr fragen werdet." },
       },
     },
+    ["darkshore"] = {
+      title = "Dunkelküste",
+      text = {
+        { "Die Dunkelküste ist ein langer Streifen nebliger Küste am Nordrand Kalimdors, dunkler Kiefernwald auf der einen Seite und graues Meer auf der anderen, mit Teldrassil, das im Westen aus dem Wasser ragt. Die Nachtelfen leben hier seit der Zeit vor der Großen Teilung, und die Küste ist voller ihrer Ruinen: Türme und Hallen der Hochgeborenen, des alten Adels am Hof von Königin Azshara, deren Geister noch darin wandeln." },
+        { "In letzter Zeit ist es eine unruhige Küste. Große Meeresgeschöpfe werden an die Strände gespült, um dort zu sterben, die Furbolgs der Schwarzfelle sind wild geworden, Naga streifen an den Ufern, und der Twilight-Hammer hat im Süden ein Lager aufgeschlagen. Die Nachtelfen von Auberdine sind besorgt und sagen es auch, was für Nachtelfen sehr viel ist." },
+      },
+    },
     ["darkspear-trolls"] = {
       title = "Die Dunkelspeertrolle",
       text = {
         { "Die Dunkelspeer sind Dschungeltrolle, verwandt mit den Gurubashi des Schlingendorntals. Als Thralls Flotte auf ihrer Reise nach Kalimdor ihre Inseln erreichte, kämpfte der Stamm gegen Murlocs und ihre Meerhexe. Die Orcs kämpften an ihrer Seite. Häuptling Sen'jin starb, und die überlebenden Dunkelspeer folgten Thrall über das Meer." },
         { "Vol'jin führt sie nun von Orgrimmar aus, nah beim Kriegshäuptling. Ihre Jäger, Schamanen und Hexendoktoren dienen überall in der Horde und halten an den alten Loa der Trolle fest, während sie sich unter neuen Verbündeten ein Zuhause schaffen." },
+      },
+    },
+    ["darnassus"] = {
+      title = "Darnassus",
+      text = {
+        { "Darnassus steht in der Krone Teldrassils, eine neue Hauptstadt, nach dem Dritten Krieg erbaut. Mondlicht, Wasserfälle und das Leuchten des Tempels des Mondes füllen eine Stadt mit wenigen Mauern und Hallen, die zwischen den Ästen gewachsen sind. Ein Zwerg aus Ironforge ist gewohnt, deutlich mehr Stein über dem Kopf zu haben." },
+        { "Die Nachtelfen haben sich der Allianz angeschlossen und diese Stadt Besuchern von Völkern geöffnet, von denen sie sich lange ferngehalten haben. Tyrande Whisperwind führt die Priesterinnen vom Tempel aus, während Fandral Staghelm die Druiden in der Enklave des Cenarius leitet. Merkt Euch diese beiden Orte, $gReisender:Reisende;. Vieles von dem, was in der Stadt geschieht, beginnt am einen oder am anderen." },
       },
     },
     ["darrowshire"] = {
@@ -2558,6 +2579,13 @@ ns.translate({
         { "Heute ist sie in drei Teile zerbrochen. Die Oger der Gordok halten den Norden und krönen einen neuen König, wann immer der alte getötet wird. Der Satyr Alzzin der Wildformer hält den Osten und hat die Frucht der Fruchtbarkeit der Stadt zu einem üblen Ding verdorben, das man die Teufelsranke nennt. Der Westen wird noch von den Letzten der Hochgeborenen gehalten, den Shen'dralar, rund um ihre Bibliothek, die ich für sehr viel gern lesen würde." },
       },
     },
+    ["dolanaar"] = {
+      title = "Dolanaar",
+      text = {
+        { "Dolanaar liegt an der Straße von Shadowglen nach Darnassus, um einen Mondbrunnen versammelt, mit einem Gasthaus und Gebäuden zwischen den Bäumen. Druiden und Schildwachen arbeiten hier nah an den Sorgen des Waldes. Es ist ein nützlicher Halt, bevor ein Reisender zur Hauptstadt weiterzieht." },
+        { "In letzter Zeit gehören zu ihren Sorgen die Furbolgs der Knarzklauen, Satyrn in den Höhlen und kranke Geschöpfe in den Wäldern. Das ruhige Aussehen des Dorfes verrät wenig über diese Arbeit. Hört Euch an, worum seine Hüter Euch bitten. Sie haben die Veränderung des Landes um sie herum beobachtet." },
+      },
+    },
     ["dragonmaw-clan"] = {
       title = "Der Dragonmawklan",
       text = {
@@ -2570,6 +2598,14 @@ ns.translate({
       text = {
         { "Die Druiden des Giftzahns waren Naralex' Schüler, ein Orden edler Druiden, die in die Höhlen des Wehklagens hinabstiegen, um das Brachland zu heilen. Der Albtraum, der ihren Meister ergriff, ergriff auch sie. Nun wollen sie das Land nach ihren eigenen verdrehten Träumen neu formen und haben die Gestalten und Namen von Schlangen angenommen." },
         { "Es gibt vier Anführer unter ihnen, Lord Kobrahn, Lady Anacondra, Lord Pythas und Lord Serpentis, und jeder trägt einen Edelstein des Traums. Die Druiden von Thunder Bluff sagen, ihre Gesichter verfolgten sie. Sie hätten die Edelsteine gern heimgebracht." },
+      },
+    },
+    ["druids-of-the-talon"] = {
+      title = "Die Druiden der Kralle und der Klaue",
+      text = {
+        { "Malfurions Druiden waren nie ein einziger Orden. Manche nahmen die Gestalt des großen Bären an und wurden zu den Druiden der Klaue. Andere nahmen die Gestalt der Sturmkrähe an und wurden zu den Druiden der Kralle. Beide hielten den Pakt mit Ysera und schliefen jahrhundertelang in den Grabhügeln, während ihre Geister im Smaragdgrünen Traum wandelten, und im Dritten Krieg weckte Malfurion sie zum Kampf." },
+        { "Manche schlafen noch. Im Grabhügel von Ban'ethil auf Teldrassil liegen die Druiden der Kralle im Winterschlaf, bewacht von einem Großen Wächter. Die Furbolgs der Knarzklauen sind eingedrungen, und einer von ihnen, Ursal der Raufer, hat sich so an dem Ruf der Schläfer zu schaffen gemacht, dass sie Gefahr laufen, überhaupt nie mehr aufzuwachen. Ein Druide der Klaue, der im selben Hügel verloren ging, musste erleben, dass sein eigener Körper gegen ihn gewandt wurde." },
+        { "Es ist nicht immer leicht, sie zu wecken. Kerlonian Evershade, ein Druide der Klaue, gerade erst aus dem Traum zurück, döst am Straßenrand an der Dunkelküste und bittet darum, mit seinem Horn geweckt zu werden, falls er unterwegs einnickt. Zehntausend Jahre sind eine lange Zeit, um müde gewesen zu sein." },
       },
     },
     ["dun-garok"] = {
@@ -2709,6 +2745,13 @@ ns.translate({
       text = {
         { "Oberster Than Falstad Wildhammer herrscht in Aerie Peak zwischen seinen Greifenhorsten. Die Arbeit der Reiter reicht weit über das Hinterland hinaus: Als Brohann Caskbelly einen Piloten sucht, der über den Sümpfen des Elends verloren ging, schickt er Abenteurer zu Falstad, um Nachricht zu erhalten." },
         { "Die Wildhammer regieren sich selbst. Ihre Unabhängigkeit löscht ihre Geschichte mit der Allianz nicht aus, und Falstad bleibt ein nützlicher Kontakt für alle, die ihre Greifenreiter suchen. Haltet ein gemeinsames Anliegen nicht für eine Herrschaft aus Ironforge, $gReisender:Reisende;. Sein Klan hat seinen eigenen Than und seine eigene Heimat." },
+      },
+    },
+    ["fandral-staghelm"] = {
+      title = "Erzdruide Fandral Staghelm",
+      text = {
+        { "Fandral Staghelm ist in Malfurion Stormrages Abwesenheit der Erzdruide des Zirkels des Cenarius und derjenige, der die Druiden beim Wachsenlassen Teldrassils anführte. Er ist alt, stolz und ernst, und die Druiden folgen ihm mit etwas, das an Ehrfurcht grenzt." },
+        { "Sein Volk erinnert sich an einen Kummer über alle anderen. Vor tausend Jahren, im Krieg gegen das Insektenreich von Ahn'Qiraj, ritt sein Sohn Valstann aus, um den Südwindposten zu retten, und kam nicht zurück. Tage später trat der Qiraji-General Rajaxx vor das Heer der Nachtelfen, den jungen Elfen in seinen Klauen, und riss ihn vor den Augen seines Vaters in Stücke. Als die Drachen und die Druiden die Qiraji schließlich hinter dem Skarabäuswall versiegelten, gab Anachronos Fandral das Szepter, das ihn wieder öffnen würde, und Fandral zerschlug es am Tor. 'Ich werde meinen Sohn zurückbekommen', sagte er dem Drachen, 'und wenn es Jahrtausende dauert.' Er hält die Enklave des Cenarius in Darnassus, erforscht die Sorgen des Baumes, den er pflanzte, und wird Euch sagen, er habe sie im Griff." },
       },
     },
     ["farstrider-lodge"] = {
@@ -2928,6 +2971,13 @@ ns.translate({
       text = {
         { "Gelbin Mekkatorque führt die Gnome von Tüftlerstadt in Ironforge aus. Die Zwerge haben seinem Volk eine Zuflucht gegeben, doch ihre eigene Hauptstadt liegt weiter unter Dun Morogh. Ein von Freunden geliehenes Zuhause kann den Verlust von Gnomeregan nicht aufwiegen." },
         { "Die Strahlung, die gegen die eindringenden Troggs freigesetzt wurde, konnte sie nicht vernichten und hat auch die Gnome verwüstet. Mekkatorque vertraute einst Sicco Thermaplugg. Nun bezichtigt er ihn des Verrats an der Stadt und bittet Abenteurer, hineinzugehen und ihn zu töten." },
+      },
+    },
+    ["highborne-ruins"] = {
+      title = "Die Ruinen der Hochgeborenen",
+      text = {
+        { "Vor zehntausend Jahren wohnten die Hochgeborenen, die Zaubereradligen von Königin Azshara, in Türmen entlang dieser Küste, Ameth'Aran und Bashal'Aran unter ihnen, und übten ihre Magie frei aus. Der Krieg am Brunnen der Ewigkeit vernichtete sie. Tafeln in Ameth'Aran erzählen noch die Geschichte seines Falls, für jeden, der die alten Runen lesen kann und sich nicht von den Geistern verscheuchen lässt." },
+        { "Die Toten sind nicht gegangen. Die Geister der Hochgeborenen spuken in beiden Ruinen, und in Ameth'Aran ist der Geist einer Frau namens Anaya Dawnrunner, deren Geliebter Cerellean Whiteclaw sie um zehntausend Jahre überlebt hat und in Auberdine noch immer von ihr träumt. In Bashal'Aran liegt ein anderer Geist, Asterion, hinter einem Siegel gefangen, das einer der Mächtigsten seiner Art gesetzt hat, und die Satyrn und Feen, die sich von der Magie der Ruinen nähren, gehen nicht in die Nähe seines Schreins." },
       },
     },
     ["hillsbrad-foothills"] = {
@@ -3157,6 +3207,13 @@ ns.translate({
         { "Sie sind noch immer dort, mit einer seltsamen Schar von Gelehrten, Jägern und verirrten Forschern, die sich ihnen angeschlossen haben, und alle studieren den Krater von dem einen Ort aus, an dem nichts sie fressen wird. Einer von ihnen, ein Forscher namens Ringo, wanderte zum Vulkan davon. Wie ich höre, wurde er gefunden." },
       },
     },
+    ["masters-glaive"] = {
+      title = "Die Meistergleve",
+      text = {
+        { "Im Süden der Dunkelküste steckt eine gewaltige Klinge in der Erde, zu groß für jede Hand, die heute auf der Welt wandelt, und die Nachtelfen nennen den Ort die Meistergleve. Onu, das Urtum der Lehren, sagt, sie markiere einen Ort, an dem einer der alten Herren der Erde fiel, vor langer, langer Zeit." },
+        { "Darum ist der Twilight-Hammer gekommen. Der Kult verehrt diese alten Herren, und seine Leute haben sich an der Gleve und in den Höhlen ringsum versammelt, mit Büchern voller Namen, die nicht ausgesprochen werden sollten." },
+      },
+    },
     ["mekgineer-thermaplugg"] = {
       title = "Robogenieur Thermaplugg",
       text = {
@@ -3339,6 +3396,13 @@ ns.translate({
       text = {
         { "Soldaten Theramores halten Northwatch über der Händlerküste, südlich von Ratchet. Captain Thalo'thas Brightsun beschuldigt seine Kanoniere, Schiffe seiner Flotte versenkt zu haben. Er bittet Abenteurer, die Kanonen zum Schweigen zu bringen und Captain Hellstieg zu töten." },
         { "Jaina Proudmoore hat Frieden mit Thrall geschlossen, und doch gehen die Kämpfe um die Feste weiter. Ein Reisender an dieser Küste versteht, warum man die Vereinbarung einer Herrscherin und das Verhalten eines Soldaten beide festhalten muss, wenn man diesen Frieden beschreibt." },
+      },
+    },
+    ["onu"] = {
+      title = "Onu",
+      text = {
+        { "Onu, ein Urtum der Lehren, steht im Hain der Uralten im Süden der Dunkelküste. Er bittet Reisende, die Meistergleve zu untersuchen, wo der Twilight-Hammer zwischen den Überresten einer gefallenen Macht sucht. Onu glaubt, dass dort lange nach ihrem Tod noch etwas von ihrer Stärke zu finden sein könnte." },
+        { "Er gibt eine Phiole mit, die eine Wahrsageschale erschafft, damit er mit dem sprechen kann, der seine Untersuchung durchführt. Nehmt sie mit, $gReisender:Reisende;. Ein Urtum muss nicht zur Gleve gehen, um sich für das zu interessieren, was der Kult dort entdeckt." },
       },
     },
     ["onyxia"] = {
@@ -3545,6 +3609,13 @@ ns.translate({
         { "Stormwinds Heer ist dünn verteilt, und Forderungen treffen aus allen Richtungen ein." },
       },
     },
+    ["remtravels-excavation"] = {
+      title = "Remtravels Ausgrabung",
+      text = {
+        { "Als Golems Remtravels Ausgrabung im Süden der Dunkelküste überrannten, floh seine Assistentin nach Auberdine, um Hilfe zu holen. Der gefeierte Ausgrabungsleiter blieb bei der Arbeit. Hollees Bewunderung für seine Entdeckungen überdauert neben dem verzweifelten Wunsch, er möge gelegentlich bemerken, was um ihn herum geschieht." },
+        { "Sein rätselhaftes Fossil hat das Interesse von Chefarchäologe Greywhisker geweckt, und eine Ähnlichkeit mit einem anderen Fund führt die Nachforschungen weiter zu Flagongut im Hafen von Menethil. Remtravel hat etwas gefunden, das es wert ist, untersucht zu werden. Ihn lange genug am Leben zu halten, damit er die Untersuchung abschließen kann, ist zu einer eigenen zweiten Expedition geworden." },
+      },
+    },
     ["rend-blackhand"] = {
       title = "Kriegshäuptling Rend Blackhand",
       text = {
@@ -3669,6 +3740,13 @@ ns.translate({
         { "Arugal zog sich mit den Worgen, die er seine Kinder nennt, hierher zurück. Die Festung heißt nun Burg Shadowfang, ein Bollwerk, das die Verlassenen an ihrer Südgrenze haben wollen. Ihre Todespirscher gingen hinein, um sie auszukundschaften, und sind nicht zurückgekehrt." },
       },
     },
+    ["shadowglen"] = {
+      title = "Shadowglen",
+      text = {
+        { "Shadowglen versammelt die jungen Rekruten der Nachtelfen um Aldrassil, einen großen Baum, in dessen Ästen ihre Lehrer wohnen. Druiden, Priesterinnen und Schildwachen pflegen diese Senke im Wald Teldrassils. Ihr Bewahrer lehrt, dass das Gleichgewicht der Natur bei kleinen Dingen beginnt." },
+        { "Die Rekruten haben fast sofort Arbeit vor sich. Spinnen sind groß geworden, und die Feen und Grells sind bösartig geworden. Ein Reisender, der hier beginnt, lernt die Sorge der Hüter um den Wald kennen, indem er hilft, was darin falsch gelaufen ist." },
+      },
+    },
     ["shadowprey-village"] = {
       title = "Shadowprey",
       text = {
@@ -3718,6 +3796,14 @@ ns.translate({
         { "Von der Kaserne in der Altstadt aus leitet Mathias Shaw den Nachrichtendienst Stormwinds. SI:7 verfolgt die Geschäfte, die selten auf einem öffentlichen Aushang landen: die Defias, die Geheimnisse der Adligen und die Orte, an denen beide sich treffen." },
         { "Eine Beschreibung von Bazil Thredds Besucher führte Shaw zu einem Meuchler, der sich Marzon nannte und in den Diensten von Lord Gregor Lescovar stand. Die folgende Ermittlung endete mit beiden Männern tot in den Schlossgärten, außerhalb der bequemen Reichweite gewöhnlicher Gerechtigkeit." },
         { "Die Kaserne gibt dem Dienst ein unauffälliges Zuhause. Seine Arbeit führt in Räume, in denen sich die Feinde der Stadt sehr achtbar kleiden können." },
+      },
+    },
+    ["sickness-of-teldrassil"] = {
+      title = "Die Krankheit Teldrassils",
+      text = {
+        { "Teldrassil fehlen die Segnungen, die Alexstrasza und Nozdormu einst Nordrassil gaben. Die Druiden von Dolanaar sprechen offen darüber und über die Sorgen des neuen Baumes: Seltsame Tiere erheben sich aus seinem Boden, und einst freundliche Geschöpfe sind gewalttätig geworden." },
+        { "Teufelsmoos ergriff Ursal den Raufer und breitete sich in seinem Stamm der Knarzklauen aus. Schwarzmoos der Stinker, ein Bäumling, ist so überwuchert, dass sein abgetrenntes Herz unter dem dunklen Bewuchs noch schlägt. Ein Satyrfürst besetzt den Teufelsfels. In Ban'ethil, wo Druiden der Kralle unter ihrem Pakt mit Ysera im Smaragdgrünen Traum schlafen, ist der Wächter verstummt." },
+        { "Fandral erkennt die Probleme an und hat Heilmittel anzubieten. Andere Druiden setzen ihre Nachforschungen fort. Bringt ihnen, was Ihr findet, $gReisender:Reisende;. Ein Baum, groß genug, um einem Volk Obdach zu geben, ist auch recht groß, um von seinen Hütern untersucht zu werden." },
       },
     },
     ["silithus"] = {
@@ -3892,6 +3978,14 @@ ns.translate({
         { "Einst bewohnten Müller und Bauern Tarrens Mühle. Die Verlassenen halten es nun als südliches Bollwerk, mit einer Todeswache, die einer Hochexekutorin dient, die wiederum Varimathras Rechenschaft schuldet. Southshore ist nur einen kurzen Ritt entfernt." },
         { "Darthalia befiehlt Überfälle auf die Höfe von Hillsbrad und nennt ihre menschlichen Bewohner eine Plage. Sie will sie unterwerfen, während die Apotheker ihre neue Seuche vollenden. Der Krieg zwischen diesen Orten reicht weit über ihre Wachen hinaus: Die Bauern und ihre Ernten werden in seinen Befehlen beim Namen genannt." },
         { side = "Horde", aside = true, sign = "P. F.", "Man sagt uns, die neue Seuche der Apotheker sei für die Geißel bestimmt. Die letzte Seuche hat mich getötet, und das hätte ich gern schriftlich." },
+      },
+    },
+    ["teldrassil"] = {
+      title = "Teldrassil",
+      text = {
+        { "Teldrassil ist ein Baum, und ich schreibe diesen Satz im Wissen, wie töricht er klingt. Er erhebt sich vor der Nordküste der Dunkelküste aus dem Meer, so gewaltig, dass auf seinen Ästen Wälder wachsen und Flüsse an ihnen entlangfließen, und die Nachtelfen leben in seiner Krone. Sein Name bedeutet \"Krone der Erde\"." },
+        { "Die Nachtelfen hatten einst einen anderen solchen Baum, Nordrassil, auf dem Hyjal, und solange er stand, alterten sie nie. Am Ende des letzten Krieges ließen sie ihn brechen, um den Dämon Archimonde zu vernichten, und gaben mit ihm ihre Unsterblichkeit auf. Als der Krieg vorbei war, ließen die Druiden unter Fandral Staghelm Teldrassil wachsen, um seinen Platz einzunehmen." },
+        { "Der alte Baum hatte den Segen der großen Drachen. Der neue hat ihn nicht, und seine eigenen Hüter geben zu, dass sein Wachstum nicht ohne Makel war. Mehr dazu an anderer Stelle. Für jetzt: Nehmt in Auberdine ein Schiff, geht durch das Tor von Rut'theran und seht ihn Euch an. Es gibt nichts Vergleichbares auf der Welt." },
       },
     },
     ["temple-of-ahnqiraj"] = {
@@ -4161,12 +4255,27 @@ ns.translate({
         { "Heute ist es ein graues Land. Die Seuche nahm Lordaeron, die Toten wandelten, und die Hauptstadt fiel. Die Höfe sind leer oder Schlimmeres, die Bäume blattlos und das Licht immer trüb. Die Verlassenen beherrschen es von unter der zerstörten Stadt aus, der Scharlachrote Kreuzzug von seinem Kloster im Norden, und die Geißel wandert noch über die Felder dazwischen." },
       },
     },
+    ["tower-of-althalaxx"] = {
+      title = "Der Turm von Althalaxx",
+      text = {
+        { "Balthule Shadowstrike beobachtet den zerstörten Turm von Althalaxx nordöstlich von Auberdine. Er bleibt auf seinem Posten, statt zu riskieren, einen Hinweis zu verpassen. Die Umtriebe um ihn führen zum dunklen Strang, einem Kult von Nachtelfen, die Hexenmeistermagie ausüben. Ihr Volk hat Grund genug, sich zu erinnern, was solche Künste bringen können." },
+        { "Die Ermittlung reicht nach Süden bis Ashenvale, zu einem Hexenmeister der Orcs am Fire Scar-Schrein. Delgren der Läuterer von der Argentumdämmerung nimmt dort die Jagd auf." },
+      },
+    },
     ["treason-of-alterac"] = {
       title = "Der Verrat von Alterac",
       text = {
         { "König Aiden Perenolde urteilte, dass die Horde den Zweiten Krieg gewinnen würde. Während die anderen Königreiche der Menschen gemeinsam kämpften, öffnete Alterac den Orcs einen Weg und versorgte sie mit den Plänen der Allianz. Als die Allianz siegte, verhängte Lordaeron das Kriegsrecht. Die Herrscher stritten dann darüber, was aus dem Königreich werden sollte." },
         { "Alteracs Hauptstadt ist zerstört und seine Bibliotheken verstreut. Stormwind schickt Gelehrte, um die Bücher zu bergen. Perenoldes Sohn Aliden hat ein anderes Erbe angetreten: Er führt das Syndikat, zu dem ehemalige Adlige Alteracs gehören, und plant, die Orcs zu versklaven, wie es sein Lehrmeister Blackmoore wollte. Hier wird auf mehrere Arten zu bergen versucht, $gReisender:Reisende;. Die der Gelehrten ist die, die ich empfehlen würde." },
         { side = "Horde", aside = true, sign = "P. F.", "Es freut mich, dass jemand Alteracs Bücher rettet. Ob je eines davon Undercity erreicht, ist eine andere Frage." },
+      },
+    },
+    ["tyrande-whisperwind"] = {
+      title = "Tyrande Whisperwind",
+      text = {
+        { "Tyrande Whisperwind führt die Nachtelfen als Hohepriesterin von Elune. Vor zehntausend Jahren war sie eine junge Priesterin, die an der Seite von Malfurion und Illidan Stormrage gegen die Legion kämpfte. Sie liebte Malfurion. Illidans Liebe zu ihr blieb unerwidert. Sie war es, die die anderen überzeugte, dass Malfurion recht hatte und der Brunnen zerstört werden musste, und vor dem Ende nahmen Azsharas Satyrn sie gefangen. Unterwegs nahm sie eine junge verwaiste Bogenschützin auf, Shandris Feathermoon, die heute als ihre Generalin die Schildwachen führt." },
+        { "Während die Druiden im Smaragdgrünen Traum schliefen, bewachten ihre Priesterinnen und Schildwachen die Wälder durch die langen Zeitalter. Im Dritten Krieg sammelte sie die Nachtelfen, weckte Malfurion und stand am Hyjal, als Archimonde fiel." },
+        { "Malfurion wird nun vermisst, und die Druiden kennen sein Schicksal nicht. Tyrande führt vom Tempel des Mondes in Darnassus aus, während Fandral Staghelm die Druiden anführt. Begegnet ihrem Willkommen mit Achtung, $gReisender:Reisende;. Die Priesterin, die Besucher begrüßt, hat ihr Volk durch Kriege geführt, die weit älter sind als unsere Königreiche." },
       },
     },
     ["tyrs-hand"] = {
