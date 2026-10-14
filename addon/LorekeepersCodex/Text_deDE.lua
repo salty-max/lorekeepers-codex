@@ -2250,6 +2250,13 @@ ns.translate({
         { "Dämonen der Brennenden Legion wandeln noch immer hier. Die Allianz hält Wache von Nethergarde aus, die Oger halten ihre eigenen Lager, und die Horde hat ihre eigenen Geschäfte mit den Dämonen. Jeder, der hierher kommt, kommt wegen des Portals oder wegen dessen, was es zurückgelassen hat." },
       },
     },
+    ["bloodhoof-village"] = {
+      title = "Bloodhoof",
+      text = {
+        { "Bloodhoof ist das Herz der Ebenen, ein Dorf aus Langhäusern und Kodogehegen an der Straße zwischen Camp Narache und Thunder Bluff. Sein Häuptling ist Baine Bloodhoof, Sohn des Oberhäuptlings Cairne, und hier legen die Jungen den zweiten der Riten ab, den Ritus der Sicht: Sie trinken das Wasser der Seher vor dem Feuer des Dorfes und folgen, wohin die Vision sie führt." },
+        { "Es ist ein geschäftiger, freundlicher, praktischer Ort. Die Tauren von Bloodhoof sind ebenso Bauern und Hirten wie Jäger, und sie geben einem Fremden zu essen, bevor sie nach seinem Anliegen fragen." },
+      },
+    },
     ["bloodsail-buccaneers"] = {
       title = "Die Blutsegelbukaniere",
       text = {
@@ -2298,6 +2305,21 @@ ns.translate({
       text = {
         { "Caer Darrow ist eine Burg auf einer Insel im Darrowmeresee, im Süden der Westlichen Pestländer, und sie war der Sitz des Hauses Barov, einer der großen Adelsfamilien Lordaerons. Es ist ein stiller, nebliger, schöner Ort. Seine Stadt ist voller Geister." },
         { "Die Barovs haben sie verschenkt. Um ihr Vermögen zu behalten, als die Seuche kam, schlossen sie einen Handel mit Kel'Thuzad und übergaben ihre Burg dem Kult der Verdammten, der unter ihr die Scholomance grub, die Schule der Geißel für Nekromantie. Am Ende behielten die Barovs von gar nichts viel." },
+      },
+    },
+    ["cairne-bloodhoof"] = {
+      title = "Cairne Bloodhoof",
+      text = {
+        { "Cairne Bloodhoof ist der Oberhäuptling der Tauren, Häuptling des Stammes der Bloodhoof und der älteste Freund, den die Horde in Kalimdor hat. Als Thralls Orcs an Land kamen, führte er sein Volk über die Ebenen, mit den Zentauren auf den Fersen, und die Orcs kämpften an ihrer Seite. Cairne vergalt es ihnen mit Freundschaft und Rat, und seither gehören die Tauren zur Horde." },
+        { "Er ist heute sehr alt und sehr groß, und er spricht langsam und selten. Er erbaute Thunder Bluff, versammelte die Stämme dort und gab den Tauren zum ersten Mal, seit sie sich erinnern, eine Heimat. Sein Sohn Baine hält Bloodhoof, und einmal, so sagt man, wurde er von den Zentauren verschleppt und von einem Tiermeister der Horde zurückgebracht." },
+        { "Die Orcs verehren ihn, und die Allianz traut ihm weiter als jedem anderen Anführer der Horde. Beide, so glaube ich, haben recht." },
+      },
+    },
+    ["camp-narache"] = {
+      title = "Camp Narache",
+      text = {
+        { "Camp Narache liegt auf dem Red Cloud Mesa im Süden von Mulgore, ein Ring aus Fellzelten und Totems um ein Feuer, und hier beginnen junge Tauren. Häuptling Hawkwind und seine Familie halten das Lager, und sie stellen den Jungen den ersten der Riten der Erdenmutter: den Ritus der Kraft, bewiesen gegen die Stacheleber, die sich in die Schlucht darunter geschlichen haben." },
+        { "Es ist zuerst ein Jagdlager. Die Tauren jagen aus Not und aus Freude, und von einem jungen Tauren erwartet man, dass er Federn und Fleisch heimbringt, bevor jemand fragt, was er sonst noch kann." },
       },
     },
     ["camp-taurajo"] = {
@@ -2473,6 +2495,14 @@ ns.translate({
         { "Was die Dunkelheit brachte, ist klar genug. Die Toten erheben sich auf dem Friedhof von Rabenflucht, Worgen jagen in den Wäldern, Spinnen werden so groß wie Ponys, und Oger sind in die Hügel gezogen. Die Höfe sind verlassen, und wer geblieben ist, hat sich hinter den Laternen von Dunkelhain unter seiner eigenen Miliz versammelt, denn Stormwind hat seine Wachen abgezogen. Es ist ein Ort für mutige Reisende und für Geschichten, die man bei verriegelter Tür am Feuer erzählt." },
       },
     },
+    ["earth-mother"] = {
+      title = "Die Erdenmutter",
+      text = {
+        { "Die Tauren verehren die Erdenmutter als Quelle der Welt und ihres Lebens. Ihre Überlieferungen lehren Achtung vor den Gaben des Landes und Sorgfalt gegen Verschwendung. Schamanen sprechen mit seinen Geistern, Seher folgen Visionen, und die Ahnen bleiben Teil des Lebens derer, die nach ihnen kommen." },
+        { "Junge Tauren legen die Riten der Erdenmutter ab, bevor die Ältesten von Thunder Bluff sie aufnehmen. Kraft wird gegen die Feinde des Stammes bewiesen. Sicht kommt durch das Wasser der Seher und das, was im Feuer erscheint. Weisheit verlangt den Segen der Ahnen an den Teufelsfelsen. Die Reise endet vor dem Oberhäuptling." },
+        { "Achtet auf die Riten, wenn Ihr Eure Gastgeber verstehen wollt, $gReisender:Reisende;. Jagd, Erinnerung und das Land verbinden sich in der Art, wie ein junger Taure sich einen Platz unter ihnen verdient." },
+      },
+    },
     ["eastern-plaguelands"] = {
       title = "Östliche Pestländer",
       text = {
@@ -2586,6 +2616,13 @@ ns.translate({
         { "Magistrat Solomon hat eine Belohnung auf seinen Kopf ausgesetzt. Die Burg muss zurückerobert und ihr Befehlshaber getötet werden. Gath'Ilzoggs Tod ist nur der erste Schritt dieser Arbeit. Für Seenhain ist eine Festung am Horizont zum Maß dafür geworden, wie viel von ihrem eigenen Land die Stadt nicht mehr erreichen kann." },
       },
     },
+    ["ghost-howl"] = {
+      title = "Geistheuler",
+      text = {
+        { "Geistheuler ist ein großer Wolf aus Mulgore, dessen Fell eine schreckliche Wunde aus dem Kampf gegen die Brennende Legion trägt. Die Narbe gibt dieser besonderen Jagdtrophäe eine Geschichte, die über die Jagd über die Ebenen hinausreicht." },
+        { "Skorn Whitecloud erkennt das Fell in Bloodhoof wieder. Er bietet dem Jäger eine seiner Waffen an und hofft, dass der Geist des Wolfes Frieden gefunden hat." },
+      },
+    },
     ["gnomeregan"] = {
       title = "Gnomeregan",
       text = {
@@ -2679,6 +2716,13 @@ ns.translate({
       text = {
         { "Hammertoes Grabungsstätte ist das Lager der Forscherliga vor den Toren von Uldaman, benannt nach dem Ausgrabungsleiter, der es führte, und es hat schwere Zeiten hinter sich. Die Troggs kamen aus dem Gewölbe herauf und überrannten die Gräber. Ausgrabungsleiter Agmond, der die südlichen Stätten leitete, verstummte, und als jemand nachsehen ging, fand man sein Lager und das, was von ihm übrig war. Hammertoe selbst wurde von den Dunkeleisenzwergen des Klans Schattenschmiede verschleppt, die wissen wollen, was er über die Werke der Titanen weiß." },
         { "Ausgrabungsleiter Ryedol hält, was von der Grabung übrig ist, und er gibt nicht leicht auf. Hammertoe hoffentlich auch nicht. Die Schattenschmiede suchen in Uldaman nach den Geheimnissen der Golems der Titanen, und Hammertoe suchte zuerst nach ihnen, um sie aus den Händen der Dunkeleisenzwerge zu halten." },
+      },
+    },
+    ["hamuul-runetotem"] = {
+      title = "Erzdruide Hamuul Runetotem",
+      text = {
+        { "Erzdruide Hamuul Runetotem steht auf der Anhöhe der Ältesten in Thunder Bluff, unter den Lehrern und geistigen Führern der Tauren. Sein Platz dort gibt den Druiden eine Stimme in der Stadt ebenso wie ein Zuhause." },
+        { "Berichte aus den Höhlen des Wehklagens führen Abenteurer von jenseits Mulgores zu ihm. Er schickt sie zu Nara Wildmane, um die Nachforschungen fortzusetzen." },
       },
     },
     ["hearthglen"] = {
@@ -2954,6 +2998,13 @@ ns.translate({
         { "Er bittet Reisende, Gnolle nahe Dun Algaz zu töten, um das Gleichgewicht des Moors wiederherzustellen. Sein Bericht macht daraus einen Streit um ein gemeinsames Zuhause, das zu eng und beschädigt geworden ist. Die Äxte und Feuer sind einem Zwerg vertraut genug. Es ist beunruhigend, sie in der Klage eines anderen darüber zu finden, was mit dem Land geschieht." },
       },
     },
+    ["mulgore"] = {
+      title = "Mulgore",
+      text = {
+        { "Nach dem roten Staub von Durotar und dem gelben Gras des Brachlands kommt Mulgore als Überraschung: sanft gewellte grüne Ebenen, klare Seen und Bäche, Herden von Kodos und Ebenenschreitern und große Tafelberge mit flachen Gipfeln, die aus dem Gras ragen. Es ist die Heimat der Tauren, und sie halten es zum ersten Mal in ihrer langen Geschichte als ihr Eigen." },
+        { "Generationenlang wanderten die Tauren über die Ebenen Kalimdors, überall von den Zentauren bedrängt. Als die Orcs nach Kalimdor kamen, half Thrall Cairne Bloodhoofs Volk, die Zentauren zurückzudrängen und dieses Grasland einzunehmen, und seither haben sich die Stämme hier versammelt. Dennoch ist Mulgore nicht ohne Sorgen: Die Stacheleber der Borstennacken fallen aus den Schluchten ein, die Gnolle der Bleichmähnen jagen seine Tiere, und die Goblins der Venture Co. haben eine Mine in seine Klippen gegraben und seine Brunnen verschmutzt, gegen die ausdrückliche Weigerung der Tauren." },
+      },
+    },
     ["myzrael"] = {
       title = "Myzrael",
       text = {
@@ -3172,6 +3223,13 @@ ns.translate({
       text = {
         { "Alexstrasza nennt man die Lebensbinderin, Königin der roten Drachen und eine der ältesten Mächte der Welt. Während des Zweiten Krieges hielten die Dragonmaw sie in Grim Batol gefangen und zwangen ihre Kinder in ihren Dienst. Der Schwarm ist seither befreit." },
         { "Rote Drachkin bewachen noch immer die Zugänge zu Grim Batol. Sie behandeln Eindringlinge als Feinde, welches Anliegen diese Eindringlinge auch dorthin zu führen glauben. Haltet Abstand, $gReisender:Reisende;. Zu wissen, was ihnen hier widerfahren ist, macht einen Eindringling nicht willkommen." },
+      },
+    },
+    ["red-rocks"] = {
+      title = "Teufelsfelsen",
+      text = {
+        { "Östlich von Thunder Bluff, zwischen großen roten Steinen, liegt die heilige Begräbnisstätte der Tauren. Nur die Tapfersten werden an den Teufelsfelsen zur Ruhe gebettet: die Krieger, die halfen, Thunder Bluff zu gründen und zu verteidigen, und jene, die ihr Leben für ihre Stämme und Häuptlinge gaben. Die Geister der Ahnen sollen dort noch wandeln." },
+        { "Die Jungen kommen für den letzten der Riten hierher, den Ritus der Weisheit, um den Segen dieser Ahnen zu empfangen. In letzter Zeit graben die Stacheleber in den Gräbern, und der alte Hüter der Überlieferung, der sie pflegt, kann sie nicht mehr abwehren. Wenn Ihr Euch jeden Tauren in Mulgore zum Freund machen wollt, gibt es keinen schnelleren Weg." },
       },
     },
     ["redridge-mountains"] = {
@@ -3615,6 +3673,14 @@ ns.translate({
       text = {
         { "Thule Rabenklaue war vor dem Dritten Krieg ein junger Magier mit großer Zukunft. Als der Lichkönig sich erhob, verriet er die Seinen, um der Geißel zu dienen, und die Verlassenen, von denen manche im Leben neben ihm studiert hatten, wussten nicht, dass er noch lebte, bis sie sein Werk fanden." },
         { "Er hält die Insel Fenris im Lordameresee neben dem Silberwald, und die Gnolle des Klans der Moderfelle gehören ihm: tote Dinger, erweckt und getränkt in seinen fauligen Säften, die die Gräber von Tirisfal ausheben und ihm die Leichen bringen. Was er aus ihnen macht, würden die Verlassenen lieber nicht auf die harte Tour herausfinden." },
+      },
+    },
+    ["thunder-bluff"] = {
+      title = "Thunder Bluff",
+      text = {
+        { "Thunder Bluff steht hoch auf den Tafelbergen Mulgores, über große Aufzüge oder mit einem Windreiter zu erreichen. Seilbrücken verbinden seine Anhöhen. Ein Zwerg aus Ironforge, der feste Böden gewohnt ist, sollte vielleicht schauen, wohin er tritt, bevor er die Aussicht betrachtet." },
+        { "Cairne erbaute diese Zuflucht, nachdem die Tauren und die Orcs die Zentauren zurückgedrängt hatten. Stämme, die lange an das Wandern gewöhnt waren, versammelten sich hier. Händler und Handwerker teilen sie nun mit Jägern, den Druiden der Anhöhe der Ältesten und den Schamanen und Sehern der Anhöhe der Geister." },
+        { "Cairne bleibt Oberhäuptling in ihrer Mitte. Die Grimmtotem gehören zu denen, die sich seiner Führung widersetzen. Ein Reisender sieht ein Volk, das endlich eine Stadt hat, auch wenn eine dauerhafte Heimat die Meinungsverschiedenheiten zwischen seinen Stämmen nicht beendet hat." },
       },
     },
     ["timber"] = {
