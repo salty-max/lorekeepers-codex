@@ -2070,6 +2070,13 @@ ns.translate({
     { "Das Tal der Geister", "Tal der Geister" },
   },
   pages = {
+    ["aerie-peak"] = {
+      title = "Aerie Peak",
+      text = {
+        { "Aerie Peak ist die Heimat der Wildhammerzwerge, eine Stadt aus steinernen Hallen und Greifenhorsten, in einen Felsen am Westrand des Hinterlands gebaut. Sie hat den schönsten Greifenhorst der Welt, und jeder Zwerg aus Ironforge, der je auf einem Greifen geflogen ist, hat dafür einem Wildhammer zu danken." },
+        { "Es ist nicht Ironforge. Hier gibt es keine großen Schmieden, wenige Mauern und noch weniger Decken. Die Wildhammer leben unter freiem Himmel, bemalen ihre Haut mit Tätowierungen und sprechen mit den Geistern des Landes. Ein Zwerg aus Ironforge fühlt sich in Aerie Peak ein wenig fehl am Platz, und das soll er auch." },
+      },
+    },
     ["algaz"] = {
       title = "Algaz",
       text = {
@@ -2454,6 +2461,13 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Sie schreibt, dass manche der Verlassenen in der jubelnden Menge standen. Manche von uns taten es. Ich habe mehr als einmal versucht, diesen Tag niederzuschreiben, und es ist mir noch nicht gelungen." },
       },
     },
+    ["falstad-wildhammer"] = {
+      title = "Falstad Wildhammer",
+      text = {
+        { "Oberster Than Falstad Wildhammer herrscht in Aerie Peak zwischen seinen Greifenhorsten. Die Arbeit der Reiter reicht weit über das Hinterland hinaus: Als Brohann Caskbelly einen Piloten sucht, der über den Sümpfen des Elends verloren ging, schickt er Abenteurer zu Falstad, um Nachricht zu erhalten." },
+        { "Die Wildhammer regieren sich selbst. Ihre Unabhängigkeit löscht ihre Geschichte mit der Allianz nicht aus, und Falstad bleibt ein nützlicher Kontakt für alle, die ihre Greifenreiter suchen. Haltet ein gemeinsames Anliegen nicht für eine Herrschaft aus Ironforge, $gReisender:Reisende;. Sein Klan hat seinen eigenen Than und seine eigene Heimat." },
+      },
+    },
     ["farstrider-lodge"] = {
       title = "Die Weitschreiter-Lodge",
       text = {
@@ -2662,6 +2676,13 @@ ns.translate({
         { client = "forever", "Unter Alt-Ironforge liegt die Halle der Thanen. Eindringlinge der Dunkeleisenzwerge sind hineingebrochen, und Magni will den Kopf ihres Befehlshabers, Durgen Dirgehammer. Selbst hier können die ältesten Hallen einer Stadt zu ihrer neuesten Sorge werden." },
         { "Und dann ist da die Halle der Forscher, wo die Liga ihre Bibliothek und ihre Funde aufbewahrt: Relikte aus Uldaman, die Knochen von Tieren, die niemand lebend gesehen hat, und Karten von Orten, über die die meisten Zwerge nur je lesen werden. Was mich angeht, Ihr findet mich auf dem Hohen Sitz, wenige Schritte vom Thron des Königs entfernt. Besucht mich. Mir fehlt es immer an Leuten, die tatsächlich irgendwo gewesen sind." },
         { side = "Horde", aside = true, sign = "P. F.", "Sie meint die Einladung freundlich. Ich würde nicht raten, sie in den Farben der Horde anzunehmen." },
+      },
+    },
+    ["jinthaalor"] = {
+      title = "Jintha'Alor",
+      text = {
+        { "Jintha'Alor ist die große Tempelstadt der Trolle der Vilebranch im Süden des Hinterlands, ein Berg aus gestuftem Stein, der sich aus dem Wald erhebt. Auf seiner Spitze pflegen die Üble Priesterin Hexx und ihre Priester die alten Riten der Amani, und einige ältere und schlimmere: Sie haben Gefangene genommen, um sie Hakkar dem Seelenschinder zu opfern, dem Blutgott der Trolle." },
+        { "Die Priester der Atal'ai, die einst im Süden Hakkar dienten, reichen sogar bis hierher: Einer von ihnen, ein Priester, den sein eigenes Volk zum Exil verurteilte, lebt unter den Trollen des Hinterlands. Die Vilebranch, so verstehe ich, waren nicht traurig, ihn zu haben." },
       },
     },
     ["karazhan"] = {
@@ -2972,6 +2993,13 @@ ns.translate({
         { "Die Dorfbewohner wissen es, glaube ich, und leben damit auf die einzige Weise, die ihnen bleibt. Es ist der traurigste Ort im Silberwald, und im Silberwald gibt es Konkurrenz." },
       },
     },
+    ["queldanil-lodge"] = {
+      title = "Die Quel'Danil-Hütte",
+      text = {
+        { "Die Quel'Danil-Hütte ist die Heimat der Hochtalelfen im Hinterland, weit südlich von Quel'Thalas. Ihre Waldläufer jagen in den Hügeln, stellen sich den Waldtrollen entgegen und leisten den Wildhammer Gesellschaft. Ihr Bündnis mit den Zwergen ist Teil eines viel älteren Streits zwischen den Elfen und den Amani." },
+        { "Ihre Heimat liegt jenseits der Pestländer, von der Geißel verwüstet. Hier bleibt die Hütte ein Ort der Verständigung, mit Gesandten, die Beziehungen zu anderen Völkern suchen." },
+      },
+    },
     ["ragnaros"] = {
       title = "Ragnaros",
       text = {
@@ -3044,6 +3072,13 @@ ns.translate({
         { "Rend beansprucht nun von der Blackrockspitze aus den Titel des Kriegshäuptlings, dient Nefarian und befehligt die Orcs des Drachen. Thrall weist diesen Anspruch zurück und schickt Streiter, um ihn zu töten, wobei Etriggs Wissen über die Blackrock hilft, die Antwort zu lenken. Ihr werdet hier zwei Ansprüche auf die Horde hören, doch nur einer dieser Anführer ist einem schwarzen Drachen Rechenschaft schuldig." },
       },
     },
+    ["revantusk-village"] = {
+      title = "Revantusk",
+      text = {
+        { "Die Revantusk halten ein Dorf an der Ostküste des Hinterlands. Sie sind Waldtrolle, mit der Horde verbündet, ein kleiner Stamm, bedrängt von größeren Nachbarn. Die Vilebranch nahmen ihren Ältesten, um ihn zu opfern, und die Freundschaft der Wildhammer mit den Hochelfen gibt ihnen einen weiteren Streit gleich in der Nähe." },
+        { "Die Amani und die Elfen von Quel'Thalas sind Feinde, seit die Elfen sich in diesen Landen niederließen. Diese ältere Feindschaft lebt unter den Revantusk fort." },
+      },
+    },
     ["royal-apothecary-society"] = {
       title = "Die Königliche Apothekervereinigung",
       text = {
@@ -3109,6 +3144,13 @@ ns.translate({
       text = {
         { "Bevor Arugal kam, gehörte die Festung über Pyrewood Baron Silverlaine. Die Worgen des Magiers überrannten sie, und der Geist des Barons spukt noch immer in ihren Hallen. Kommandant Springvale, ein Paladin, gehört zu ihren anderen untoten Verteidigern." },
         { "Arugal zog sich mit den Worgen, die er seine Kinder nennt, hierher zurück. Die Festung heißt nun Burg Shadowfang, ein Bollwerk, das die Verlassenen an ihrer Südgrenze haben wollen. Ihre Todespirscher gingen hinein, um sie auszukundschaften, und sind nicht zurückgekehrt." },
+      },
+    },
+    ["shadra"] = {
+      title = "Shadra",
+      text = {
+        { "Shadra ist eine Spinnengöttin der Trolle, ein Loa des Gifts und der Netze, und die Witherbark verehren sie am Altar von Shadra'Alor im Hinterland. Sie ist kein Götzenbild. Sprecht die richtigen Worte an ihrem Altar, und sie kommt, so groß wie ein Haus." },
+        { "Die Witherbark bewahren in ihren Dörfern Flaschen mit ihrem Gift auf, und die Apotheker der Verlassenen in Tarrens Mühle wollen es sehr dringend, was Euch verrät, was sie damit vorhaben. Mir wäre lieber, Shadra behielte ihr Gift." },
       },
     },
     ["si-7"] = {
@@ -3342,6 +3384,13 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Niemand außerhalb von Undercity könne sagen, was wir wollen, schreibt sie. Die meisten von uns drinnen können es auch nicht. Ich will wissen, was man uns angetan hat, und es ordentlich niederschreiben." },
       },
     },
+    ["the-hinterlands"] = {
+      title = "Hinterland",
+      text = {
+        { "Nördlich von Arathi liegt das Hinterland: hohe grüne Hügel, tiefe Täler, Wasserfälle und alter Wald, wildes Land, über das nie ein König wirklich geherrscht hat. Die Wildhammerzwerge leben hier, in Aerie Peak, mit ihren Greifen. Ebenso die Waldtrolle des alten Reiches der Amani, deren zerfallene Tempel die Hälfte der Hügel krönen und deren lebende Stämme den Rest noch halten." },
+        { "Es ist ein schönes, gefährliches Land. Eulenbestien in den Wäldern, Brühschlammer in den Sümpfen, Trolle der Witherbark und der Vilebranch in den Ruinen, und oben auf dem großen Tempel von Jintha'Alor Priester, die noch immer dem Blutgott opfern. Die Greifenreiter von Aerie Peak behalten alles aus der Luft im Auge." },
+      },
+    },
     ["the-lost-ones"] = {
       title = "Die Verirrten",
       text = {
@@ -3545,6 +3594,13 @@ ns.translate({
         { "Hochinquisitor Sally Whitemane und der Scharlachrote Kommandant Renault Mograine halten die Kathedrale des Scharlachroten Klosters. Er befehligt ihre Ritter. Sie lenkt ihren Glauben. Ihre Herrschaft über das Licht kann ihn wiedererwecken, wenn er fällt, was einen Sieg über den Kommandanten weniger endgültig macht, als ein Reisender hoffen mag." },
         { "Renault ist der Sohn von Hochlord Alexandros Mograine, dem Aschenbringer, einem großen Streiter der Silbernen Hand gegen die Geißel. Sein Vater ist tot. Fairbanks, ein weiterer Hochinquisitor, versteckt in der Kathedrale, behauptet zu wissen, wie er starb, und sagt, dass Renault dabei war. Dem Kreuzzug wäre sein Schweigen lieber. Wer die Klinge des Hochlords bringt, hört vielleicht den Bericht, den sie nicht erzählt haben wollen. Die Seite des Aschenbringers in diesem Register erzählt, was er sagt." },
         { side = "Horde", aside = true, sign = "P. F.", "Whitemane erweckt ihren Kommandanten von den Toten, und der Kreuzzug verbrennt den Rest von uns für weniger." },
+      },
+    },
+    ["wildhammer-clan"] = {
+      title = "Der Wildhammerklan",
+      text = {
+        { "Die Wildhammer waren einer der drei Hämmer des alten Königreichs Khaz Modan, und nach dem Krieg, der die drei entzweite, nahmen sie Grim Batol als Heimat. Als die Königin der Dunkeleisenzwerge Modgud dort starb, hinterließ ihr Tod eine Finsternis im Stein, und so verließen die Wildhammer es und zogen nach Norden ins Hinterland, wo sie seither unter freiem Himmel leben, Greifen reiten und die alten Wege der Geister pflegen." },
+        { "Sie sind stolz, wild, sehr unabhängig, und sie finden, wir aus Ironforge hätten zu lange unter der Erde verbracht. Im Zweiten Krieg kämpften ihre Greifenreiter für die Allianz und waren der Schrecken der Drachen der Horde. Heute behalten sie ihre Gedanken für sich, und ihre eigenen Freunde: die Hochelfen von Quel'Danil unter ihnen, was die Trolle des Hinterlands ihnen übelnehmen." },
       },
     },
     ["zandalar-tribe"] = {
