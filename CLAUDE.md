@@ -88,6 +88,10 @@ conventions).
   words to translate; `--check` says which pages are stale (their English
   changed) and which words are missing. A translation keeps the English
   page's paragraph marks; its own letters are fine, curly quotes are not.
+  A name the glossary holds (`i18n/<locale>/glossary.json`, wow-data's names;
+  `glossary-by-hand.json`'s where no table has one) that an English page
+  names is in its translation as the game writes it (`scripts/names.ts`, in
+  `--check`; the exceptions, with their reason, in `names-ok.json`).
   The Library's titles copied in another language read by the client's (`i18n/<locale>/texts.json`, `python3 scripts/text_titles.py <locale>`: every text object and item with a page, each game's titles), and a text read again in the client's language replaces its copy (`ns.textTitle`). A copy made in English reads in the client's language whole: the game's own texts ship in each language (`i18n/<locale>/books.json`, `python3 scripts/book_texts.py <locale>` from wow-data's pages: Wowhead's, saved from a browser, which Wowhead serves only to one; `ns.textPages`, the reader's $N/$C/$R filled in by `ns.textForReader`): the user's call, 14 October 2026, so a quest item handed in still reads in French. Places inside buildings, which have no area id, read by `i18n/<locale>/subzones.json` (`../addon-kit/subzones.py`). Where a page or a text was found keeps the area ids of the zone and
   subzone (`zoneId`, `subId`, by the client's names of the codex's areas,
   `ns.areaOf`) and reads in the client's language (`ns.placeName`: an older

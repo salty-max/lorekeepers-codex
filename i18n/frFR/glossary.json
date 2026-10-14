@@ -54,6 +54,9 @@
   "Stonemaul": {
    "use": "Cognepierre"
   },
+  "Stormwind": {
+   "use": "Hurlevent"
+  },
   "The Blightcaller": {
    "use": "Le Flétrisseur"
   },
@@ -325,11 +328,6 @@
    "classic": "Garde Stormpike",
    "forever": "Garde Foudrepique",
    "use": "Garde Foudrepique"
-  },
-  "Stormwind": {
-   "classic": "Stormwind",
-   "forever": "Stormwind",
-   "use": "Stormwind"
   },
   "Syndicate": {
    "classic": "Syndicat",

@@ -1,5 +1,99 @@
 {
- "by hand": {},
+ "by hand": {
+  "Alexandros Mograine": {
+   "use": "Alexandros Mograine"
+  },
+  "Andorhal": {
+   "use": "Andorhal"
+  },
+  "Azjol-Nerub": {
+   "use": "Azjol-Nerub"
+  },
+  "Black Tooth Grin": {
+   "use": "Black Tooth Grin"
+  },
+  "Brann Bronzebeard": {
+   "use": "Brann Bronzebeard"
+  },
+  "Church of the Holy Light": {
+   "use": "Kirche des Heiligen Lichts"
+  },
+  "Deathwing": {
+   "use": "Todesschwinge"
+  },
+  "Dragonblight": {
+   "use": "Drachenöde"
+  },
+  "Dragonmaw Clan": {
+   "use": "Dragonmawklan"
+  },
+  "Frostmourne": {
+   "use": "Frostgram"
+  },
+  "Grimtotem": {
+   "use": "Grimmtotem"
+  },
+  "Icecrown": {
+   "use": "Eiskrone"
+  },
+  "Icecrown Glacier": {
+   "use": "Eiskronengletscher"
+  },
+  "Nordrassil": {
+   "use": "Nordrassil"
+  },
+  "Northshire": {
+   "use": "Nordhain"
+  },
+  "Quel'Thalas": {
+   "use": "Quel'Thalas"
+  },
+  "Shadow Council": {
+   "use": "Schattenrat"
+  },
+  "Shifting Sands": {
+   "use": "Sandstürme"
+  },
+  "Stonemaul": {
+   "use": "Stonemaul"
+  },
+  "The Emerald Dream": {
+   "use": "Der Smaragdgrüne Traum"
+  },
+  "The Sons of Lothar": {
+   "use": "Söhne Lothars"
+  },
+  "The Sundering": {
+   "use": "Die Große Teilung"
+  },
+  "The Tomb of Sargeras": {
+   "use": "Grabmal des Sargeras"
+  },
+  "The Twisting Nether": {
+   "use": "Wirbelnder Nether"
+  },
+  "Therazane": {
+   "use": "Therazane"
+  },
+  "Tomb of Sargeras": {
+   "use": "Grabmal des Sargeras"
+  },
+  "Twisting Nether": {
+   "use": "Wirbelnder Nether"
+  },
+  "Ulduar": {
+   "use": "Ulduar"
+  },
+  "War of the Shifting Sands": {
+   "use": "Krieg der Sandstürme"
+  },
+  "Well of Eternity": {
+   "use": "Brunnen der Ewigkeit"
+  },
+  "Zul'Aman": {
+   "use": "Zul'Aman"
+  }
+ },
  "factions": {
   "Al'Aketh": {
    "forever": "Al'Aketh",
@@ -337,6 +431,14 @@
    "forever": "Aethalas",
    "use": "Aethalas"
   },
+  "Aetheen of the Gales": {
+   "forever": "Aetheen von den Winden",
+   "use": "Aetheen von den Winden"
+  },
+  "Afadra Dunwall": {
+   "forever": "Afadra Dunwall",
+   "use": "Afadra Dunwall"
+  },
   "Alexi Barov": {
    "classic": "Alexi Barov",
    "forever": "Alexi Barov",
@@ -437,6 +539,10 @@
    "forever": "Erzmagier Arugal",
    "use": "Erzmagier Arugal"
   },
+  "Archmage Modera": {
+   "forever": "Erzmagierin Modera",
+   "use": "Erzmagierin Modera"
+  },
   "Arei": {
    "classic": "Arei",
    "forever": "Arei",
@@ -486,6 +592,10 @@
    "classic": "Aurora Skycaller",
    "forever": "Aurora Skycaller",
    "use": "Aurora Skycaller"
+  },
+  "Ayessa Dawnsinger": {
+   "forever": "Ayessa Dawnsinger",
+   "use": "Ayessa Dawnsinger"
   },
   "Azj'Tordin": {
    "classic": "Azj'Tordin",
@@ -546,6 +656,10 @@
    "classic": "Bazil Thredd",
    "forever": "Bazil Thredd",
    "use": "Bazil Thredd"
+  },
+  "Belathaan Brightwish": {
+   "forever": "Belathaan Brightwish",
+   "use": "Belathaan Brightwish"
   },
   "Billy Maclure": {
    "classic": "Billy Maclure",
@@ -671,6 +785,10 @@
    "classic": "Captain Thalo'thas Brightsun",
    "forever": "Captain Thalo'thas Brightsun",
    "use": "Captain Thalo'thas Brightsun"
+  },
+  "Captain Truman": {
+   "forever": "Captain Truman",
+   "use": "Captain Truman"
   },
   "Cerellean Whiteclaw": {
    "classic": "Cerellean Whiteclaw",
@@ -847,6 +965,10 @@
    "forever": "Fürst Nicholas Zverenhoff",
    "use": "Fürst Nicholas Zverenhoff"
   },
+  "Durgen Dirgehammer": {
+   "forever": "Durgen Dirgehammer",
+   "use": "Durgen Dirgehammer"
+  },
   "Earthcaller Franzahl": {
    "classic": "Erdenrufer Franzahl",
    "forever": "Erdenrufer Franzahl",
@@ -857,6 +979,14 @@
    "forever": "Irdener Wärter",
    "use": "Irdener Wärter"
   },
+  "Earthseer Farsen": {
+   "forever": "Erdseher Farsen",
+   "use": "Erdseher Farsen"
+  },
+  "Edward Heartweaver": {
+   "forever": "Edward Heartweaver",
+   "use": "Edward Heartweaver"
+  },
   "Edwin VanCleef": {
    "classic": "Edwin van Cleef",
    "forever": "Edwin van Cleef",
@@ -866,6 +996,10 @@
    "classic": "Etrigg",
    "forever": "Etrigg",
    "use": "Etrigg"
+  },
+  "Elaadrin Evengale": {
+   "forever": "Elaadrin Evengale",
+   "use": "Elaadrin Evengale"
   },
   "Elsharin": {
    "classic": "Elsharin",
@@ -896,6 +1030,10 @@
    "classic": "Exzhal",
    "forever": "Exzhal",
    "use": "Exzhal"
+  },
+  "Faldrim Anvilmar": {
+   "forever": "Faldrim Anvilmar",
+   "use": "Faldrim Anvilmar"
   },
   "Falfindel Waywarder": {
    "classic": "Falfindel Waywarder",
@@ -1107,6 +1245,10 @@
    "forever": "Hochinquisitor Whitemane",
    "use": "Hochinquisitor Whitemane"
   },
+  "High Priestess Lorthuna": {
+   "forever": "Hohepriesterin Lorthuna",
+   "use": "Hohepriesterin Lorthuna"
+  },
   "High Tinker Mekkatorque": {
    "classic": "Hochtüftler Mekkatorque",
    "forever": "Hochtüftler Mekkatorque",
@@ -1206,6 +1348,11 @@
    "classic": "J.D. Collie",
    "forever": "J.D. Collie",
    "use": "J.D. Collie"
+  },
+  "Jarod Shadowsong": {
+   "classic": "Jarod Shadowsong",
+   "forever": "Jarod Shadowsong",
+   "use": "Jarod Shadowsong"
   },
   "Je'neu Sancrea": {
    "classic": "Je'neu Sancrea",
@@ -2087,6 +2234,10 @@
    "forever": "Kleiner",
    "use": "Kleiner"
   },
+  "Stone Watcher": {
+   "forever": "Steinbehüter",
+   "use": "Steinbehüter"
+  },
   "Stone Watcher of Norgannon": {
    "classic": "Steinbehüter von Norgannon",
    "forever": "Steinbehüter von Norgannon",
@@ -2112,6 +2263,10 @@
    "forever": "Taerar",
    "use": "Taerar"
   },
+  "Talaanis Shadowsong": {
+   "forever": "Talaanis Shadowsong",
+   "use": "Talaanis Shadowsong"
+  },
   "Taragaman the Hungerer": {
    "classic": "Taragaman der Hungerleider",
    "forever": "Taragaman der Hungerleider",
@@ -2124,13 +2279,17 @@
   },
   "Teldrassil Sentinel": {
    "classic": "Teldrassil-Schildwache",
-   "forever": "Teldrassil-Schildwache",
-   "use": "Teldrassil-Schildwache"
+   "forever": "Schildwache von Dolanaar",
+   "use": "Schildwache von Dolanaar"
   },
   "The Banshee Queen": {
    "classic": "Die Bansheekönigin",
    "forever": "Die Bansheekönigin",
    "use": "Die Bansheekönigin"
+  },
+  "The Baron": {
+   "forever": "Der Baron",
+   "use": "Der Baron"
   },
   "The Lich King": {
    "classic": "Der Lichkönig",
@@ -2213,9 +2372,9 @@
    "use": "Tommy Joe Stonefield"
   },
   "Twilight Acolyte": {
-   "classic": "Twilight-Akolyt",
-   "forever": "Twilight-Akolyt",
-   "use": "Twilight-Akolyt"
+   "classic": "Twilight-Akolyth",
+   "forever": "Twilight-Akolyth",
+   "use": "Twilight-Akolyth"
   },
   "Tyrande Whisperwind": {
    "classic": "Tyrande Whisperwind",
@@ -2241,6 +2400,10 @@
    "classic": "Vaelastrasz der Verdorbene",
    "forever": "Vaelastrasz der Verdorbene",
    "use": "Vaelastrasz der Verdorbene"
+  },
+  "Valennia Stormfist": {
+   "forever": "Valennia Stormfist",
+   "use": "Valennia Stormfist"
   },
   "Vanndar Stormpike": {
    "classic": "Vanndar Stormpike",
@@ -4531,6 +4694,14 @@
    "forever": "Urtum der Lehren",
    "use": "Urtum der Lehren"
   },
+  "Ancient of War": {
+   "forever": "Urtum des Krieges",
+   "use": "Urtum des Krieges"
+  },
+  "Argent Dawn": {
+   "forever": "Argentumdämmerung",
+   "use": "Argentumdämmerung"
+  },
   "Banshee Queen": {
    "classic": "Bansheekönigin",
    "forever": "Bansheekönigin",
@@ -4543,8 +4714,8 @@
   },
   "Cenarion Circle": {
    "classic": "Der Zirkel des Cenarius",
-   "forever": "Der Zirkel des Cenarius",
-   "use": "Der Zirkel des Cenarius"
+   "forever": "Zirkel des Cenarius",
+   "use": "Zirkel des Cenarius"
   },
   "Champion of the Banshee Queen": {
    "classic": "Champion der Banshee-Königin",
@@ -4561,10 +4732,6 @@
    "forever": "Chefingenieur",
    "use": "Chefingenieur"
   },
-  "Church of the Holy Light": {
-   "forever": "Paladinlehrerin",
-   "use": "Paladinlehrerin"
-  },
   "City Architect": {
    "classic": "Stadtarchitekt",
    "forever": "Stadtarchitekt",
@@ -4576,13 +4743,17 @@
    "use": "Kult der Verdammten"
   },
   "Earthen Ring": {
-   "forever": "Der irdene Ring",
-   "use": "Der irdene Ring"
+   "forever": "Der Irdene Ring",
+   "use": "Der Irdene Ring"
   },
   "Elder Crone": {
    "classic": "Ältestengreisin",
    "forever": "Ältestengreisin",
    "use": "Ältestengreisin"
+  },
+  "Elder of Zephras Isle": {
+   "forever": "Älteste der Insel Zephras",
+   "use": "Älteste der Insel Zephras"
   },
   "Emerald Circle": {
    "classic": "Smaragdkreis",
@@ -4598,6 +4769,14 @@
    "classic": "Oberhäuptling",
    "forever": "Oberhäuptling",
    "use": "Oberhäuptling"
+  },
+  "High Elder of Zephras Isle": {
+   "forever": "Hochältester der Insel Zephras",
+   "use": "Hochältester der Insel Zephras"
+  },
+  "High Order": {
+   "forever": "Der Hohe Orden",
+   "use": "Der Hohe Orden"
   },
   "High Priestess of Elune": {
    "classic": "Hohepriesterin von Elune",
@@ -4633,6 +4812,10 @@
    "classic": "Orden der Silbernen Hand",
    "forever": "Orden der Silbernen Hand",
    "use": "Orden der Silbernen Hand"
+  },
+  "Ranger Captain": {
+   "forever": "Waldläufercaptain",
+   "use": "Waldläufercaptain"
   },
   "Royal Apothecary Society": {
    "classic": "Königliche Apothekervereinigung",
@@ -4687,6 +4870,10 @@
    "classic": "Twilight-Hammer",
    "forever": "Twilight-Hammer",
    "use": "Twilight-Hammer"
+  },
+  "Wildhammer Clan": {
+   "forever": "Wildhammerklan",
+   "use": "Wildhammerklan"
   },
   "Wintersaber Trainers": {
    "classic": "Wintersäblerausbilder",

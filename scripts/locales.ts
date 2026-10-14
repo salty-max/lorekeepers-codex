@@ -29,6 +29,9 @@
  * A language not given its own folder may borrow another's (esMX: esES).
  *
  *   bun scripts/locales.ts             write the Text files
+ *   (i18n/<locale>/names-ok.json: the names a translation writes otherwise
+ *   than the game, and why: scripts/names.ts)
+ *
  *   bun scripts/locales.ts --check     fail if one isn't up to date; say what
  *                                      is stale or missing (never a failure)
  *   bun scripts/locales.ts --keys      write i18n/words.json, every word to translate
@@ -40,6 +43,7 @@ import { createHash } from "node:crypto";
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join, relative } from "node:path";
 import { frontMatter, paragraphs, type Para } from "./markdown";
+import { misnamed } from "./names";
 
 const ROOT = new URL("..", import.meta.url).pathname;
 const CONTENT = join(ROOT, "content");
@@ -323,6 +327,12 @@ for (const locale of LOCALES) {
     if (missingPages.length && missingPages.length < 20) console.log(`  pages still in English: ${missingPages.join(", ")}`);
     const left = untranslated(locale, t);
     if (left.length) console.log(`  English names left (the glossary's: python3 scripts/glossary.py ${locale}): ${left.join(" | ")}`);
+    // (every page and foreword with its translation)
+    const pairs = (readdirSync(CONTENT, { recursive: true }) as string[])
+      .filter((f) => f.endsWith(".md") && !f.endsWith("_chapter.md"))
+      .map((f) => [join(CONTENT, f), join(I18N, locale, "pages", f)] as [string, string]);
+    for (const m of misnamed(I18N, locale, pairs))
+      errors.push(`i18n/${locale}: a name not as the game writes it (or i18n/${locale}/names-ok.json says why): ${m}`);
   }
 }
 if (errors.length) {

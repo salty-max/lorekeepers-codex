@@ -2786,7 +2786,7 @@ ns.translate({
     ["blackrock-depths"] = {
       title = "Les profondeurs de Rochenoire",
       text = {
-        { "Les profondeurs de Rochenoire sont la cité des Sombrefer sous la montagne : la cité d'Ombreforge, avec ses prisons, son arène, ses chambres fortes, ses ateliers de golems et sa taverne, le Sinistre Écluseur, où l'on brasse une bière noire. Tout au fond, dans son palais, siège l'empereur, et au-delà de lui s'ouvre le chemin qui descend vers le domaine même du seigneur du Feu." },
+        { "Les profondeurs de Rochenoire sont la cité des Sombrefer sous la montagne : la Ville des Ombreforges, avec ses prisons, son arène, ses chambres fortes, ses ateliers de golems et sa taverne, le Sinistre Écluseur, où l'on brasse une bière noire. Tout au fond, dans son palais, siège l'empereur, et au-delà de lui s'ouvre le chemin qui descend vers le domaine même du seigneur du Feu." },
         { "L'Alliance et la Horde viennent toutes deux ici, la Horde pour les golems des Sombrefer et leurs secrets, l'Alliance pour un maréchal capturé et pour la fille du roi Magni. Il y a beaucoup d'histoire ici, et la plus grande partie est en feu." },
       },
     },
@@ -2836,7 +2836,7 @@ ns.translate({
     ["bloodsail-buccaneers"] = {
       title = "La Voile sanglante",
       text = {
-        { "Les boucaniers de la Voile sanglante forment la grande flotte pirate des mers du sud, et leur querelle est avec Baie-du-Butin. Le baron et ses pillards des Flots noirs les empêchent de piller où bon leur semble et les pendent quand ils les attrapent. La Voile sanglante veut la mort du baron et de son amiral, et fera amiral quiconque lui apportera leurs têtes." },
+        { "Les boucaniers de la Voile sanglante forment la grande flotte pirate des mers du sud, et leur querelle est avec Baie-du-Butin. Le baron et ses Écumeurs des Flots noirs les empêchent de piller où bon leur semble et les pendent quand ils les attrapent. La Voile sanglante veut la mort du baron et de son amiral, et fera amiral quiconque lui apportera leurs têtes." },
         { "Leurs navires mouillent au large de la côte de Strangleronce, le Voile cramoisi parmi eux, et leurs camps tiennent les criques de la Côte sauvage. Leur amiral est Firallon, dont les marins des Flots noirs disent qu'il ne saurait pas mener un esquif d'un bord à l'autre d'un lac. Ils ne l'ont pas encore battu." },
       },
     },
@@ -2874,7 +2874,7 @@ ns.translate({
       title = "Baie-du-Butin",
       text = {
         { "Baie-du-Butin s'accroche aux falaises d'une grotte marine, à la pointe sud de Strangleronce. Maisons de bois, pilotis et ponts de corde se pressent autour de son port. Les mâchoires grandes ouvertes d'un énorme requin en marquent l'entrée. Le baron Revilgaz dirige le port pour le cartel Gentepression, avec le souci de le garder à la fois neutre et rentable." },
-        { "Ses pillards des Flots noirs y ont aussi leur foyer. Ils sont en guerre contre les boucaniers de la Voile sanglante, qui veulent la mort du baron. Un marchand peut trouver un havre dans la baie, et un voyageur armé un emploi dans la querelle au-delà. Revilgaz a des affaires pour les deux." },
+        { "Ses Écumeurs des Flots noirs y ont aussi leur foyer. Ils sont en guerre contre les boucaniers de la Voile sanglante, qui veulent la mort du baron. Un marchand peut trouver un havre dans la baie, et un voyageur armé un emploi dans la querelle au-delà. Revilgaz a des affaires pour les deux." },
       },
     },
     ["boulderslide-ravine"] = {
@@ -3067,7 +3067,7 @@ ns.translate({
     ["dagran-thaurissan"] = {
       title = "Empereur Dagran Thaurissan",
       text = {
-        { "Dagran Thaurissan règne sur les Sombrefer dans la cité d'Ombreforge, descendant du thane-sorcier qui invoqua Ragnaros. Il garde le nom de son ancêtre, et moi l'histoire de son ancêtre. Je doute que nous soyons d'accord sur grand-chose. L'empereur se dit le plus puissant serviteur du seigneur du Feu. Sa couronne n'a pas libéré son clan de la puissance que son ancêtre a fait s'abattre sur lui." },
+        { "Dagran Thaurissan règne sur les Sombrefer dans la Ville des Ombreforges, descendant du thane-sorcier qui invoqua Ragnaros. Il garde le nom de son ancêtre, et moi l'histoire de son ancêtre. Je doute que nous soyons d'accord sur grand-chose. L'empereur se dit le plus puissant serviteur du seigneur du Feu. Sa couronne n'a pas libéré son clan de la puissance que son ancêtre a fait s'abattre sur lui." },
         { "Il porte Hostefer, et ses agents sont allés jusqu'à Gnomeregan. Il a aussi fait de la fille du roi Magni, Moira, son épouse. Magni envoya des champions le tuer et la ramener. Ils tuèrent l'empereur. La réponse de Moira rendit le reste de leur mission nettement moins simple." },
       },
     },
@@ -3164,7 +3164,7 @@ ns.translate({
     ["defias-brotherhood"] = {
       title = "La Confrérie défias",
       text = {
-        { "Quand les orcs rasèrent Hurlevent pendant la Première Guerre, ce fut la guilde des Tailleurs de pierre, sous un maître nommé Edwin VanCleef, qui la rebâtit. Le travail achevé, la Chambre des nobles refusa de les payer. VanCleef mena ses maçons dans une émeute à travers les rues neuves, et quitta la cité en jurant vengeance." },
+        { "Quand les orcs rasèrent Hurlevent pendant la Première Guerre, ce fut la guilde des Tailleurs de pierre, sous un maître nommé Edwin VanCleef, qui la rebâtit. Le travail achevé, la Maison des nobles refusa de les payer. VanCleef mena ses maçons dans une émeute à travers les rues neuves, et quitta la cité en jurant vengeance." },
         { "La guilde devint une bande. Dans la Marche de l'Ouest, ils prirent le nom de Confrérie défias, nouèrent des foulards rouges sur leurs visages, et entreprirent de ruiner les terres agricoles qui nourrissent la cité : brûler les champs, chasser les familles, et s'allier à quiconque voulait d'eux. Des ingénieurs gobelins travaillent pour eux dans les Mortemines, et leur influence s'étend jusqu'à Elwynn, aux Carmines, au Bois de la Pénombre et jusqu'à la prison de la cité, où Bazil Thredd, le lieutenant de VanCleef, a soulevé les détenus." },
         { "Les maçons avaient un grief, pour leur travail impayé. Mais quoi que la Confrérie ait pu défendre un jour, les fermiers de la Marche de l'Ouest l'ont payé bien plus cher que n'importe quel seigneur de Hurlevent." },
       },
@@ -3581,7 +3581,7 @@ ns.translate({
     ["franclorn-forgewright"] = {
       title = "Franclorn Forgewright",
       text = {
-        { "Franclorn Forgewright était l'architecte en chef des nains Sombrefer et l'inventeur de la méthode de construction dite de formepierre. Il vous dira que vous avez presque certainement déjà marché sur l'un de ses ouvrages, et le grand barrage du Loch Modan porte le nom de sa méthode. La cité d'Ombreforge, la capitale des Sombrefer sous la montagne, fut son œuvre." },
+        { "Franclorn Forgewright était l'architecte en chef des nains Sombrefer et l'inventeur de la méthode de construction dite de formepierre. Il vous dira que vous avez presque certainement déjà marché sur l'un de ses ouvrages, et le grand barrage du Loch Modan porte le nom de sa méthode. La Ville des Ombreforges, la capitale des Sombrefer sous la montagne, fut son œuvre." },
         { "Il est mort. Son fantôme se tient dans son tombeau du mont Rochenoire, visible seulement de ceux qui sont morts eux-mêmes, et son successeur comme architecte, Fineous Darkvire, a pris son grand marteau, Souillefer. Franclorn veut qu'on le remette entre les mains de la statue que les Sombrefer lui ont élevée au sanctuaire de Thaurissan. En échange, il cède la clé des profondeurs de ce qu'il appelle sa cité maudite." },
         { "Il l'a bâtie tout de même. Un nain peut renier une cité et rester fier de sa maçonnerie, $gvoyageur:voyageuse;. J'en ai rencontré plusieurs." },
       },
@@ -4111,7 +4111,7 @@ ns.translate({
       title = "Le maréchal Windsor",
       text = {
         { "Le maréchal Reginald Windsor commandait des soldats de l'Alliance à la Veille de Morgan et rassembla des preuves reliant les orcs Blackrock au vol draconique noir. Il en vint à soupçonner que quelqu'un à Hurlevent voulait que ces preuves se perdent. Les Sombrefer le capturèrent et prirent ses notes, puis entreprirent de déchiffrer leur code." },
-        { "Windsor survécut dans la prison de la cité d'Ombreforge. Il affirmait que Bolvar Fordragon était aveugle à la vérité, bien que la preuve se tînt à deux pas de lui. Ceux qui sauvèrent le maréchal comprirent vite ce qu'il voulait dire." },
+        { "Windsor survécut dans la prison de la Ville des Ombreforges. Il affirmait que Bolvar Fordragon était aveugle à la vérité, bien que la preuve se tînt à deux pas de lui. Ceux qui sauvèrent le maréchal comprirent vite ce qu'il voulait dire." },
       },
     },
     ["marshals-refuge"] = {
@@ -5029,7 +5029,7 @@ ns.translate({
       title = "Hurlevent",
       text = {
         { "Hurlevent est la plus grande cité des hommes, et c'est la deuxième Hurlevent à se dresser à cet endroit. La première fut saccagée par la Horde pendant la Première Guerre et brûlée jusqu'aux fondations. Le roi Llane fut assassiné, et son peuple s'enfuit au nord, en Lordaeron, avec le champion Anduin Lothar. Une fois la Deuxième Guerre gagnée, ils revinrent chez eux et la rebâtirent." },
-        { "Les maçons de la guilde des Tailleurs de pierre l'élevèrent en pierre blanche, plus belle qu'avant : la cathédrale de la Lumière, les canaux et le donjon qui les domine tous. La Chambre des nobles refusa ensuite de les payer, et le grief des maçons est depuis devenu la Confrérie défias, si bien que la plus belle cité de l'Alliance est aussi celle dont on se souvient avec le plus d'amertume." },
+        { "Les maçons de la guilde des Tailleurs de pierre l'élevèrent en pierre blanche, plus belle qu'avant : la cathédrale de la Lumière, les canaux et le donjon qui les domine tous. La Maison des nobles refusa ensuite de les payer, et le grief des maçons est depuis devenu la Confrérie défias, si bien que la plus belle cité de l'Alliance est aussi celle dont on se souvient avec le plus d'amertume." },
         { client = "classic", "C'est une cité de commerce et de soldats, de prêtres et d'espions, et d'une cour qui chuchote. L'enfant sur le trône en est le roi. Les hommes et les femmes qui l'entourent la gouvernent." },
         { client = "forever", "C'est une cité de commerce et de soldats, avec des navires dans son port, de prêtres et d'espions, et d'une cour qui chuchote. L'enfant sur le trône en est le roi. Les hommes et les femmes qui l'entourent la gouvernent." },
       },
@@ -5481,7 +5481,7 @@ ns.translate({
       title = "La Confrérie du thorium",
       text = {
         { "La Confrérie du thorium est formée de nains Sombrefer qui ont quitté leur empereur. Ses forgerons travaillent à la Halte du thorium, au-dessus du Chaudron, et commercent avec ceux qui veulent bien les aider contre les forces de Thaurissan. Un Bronzebeard peut admirer leur art sans grande difficulté. L'arrangement politique demande un peu plus d'explications." },
-        { "Ils savent forger les armes et les armures du seigneur du Feu, pourvu que quelqu'un leur rapporte les matériaux de l'intérieur de la montagne. L'un d'eux fait même commerce dans la taverne de la cité d'Ombreforge, au nez et à la barbe de l'empereur. Si vous voulez leur travail, $gvoyageur:voyageuse;, apportez ce dont ils ont besoin. Leur querelle avec leurs anciens parents n'a rien ôté à leur talent." },
+        { "Ils savent forger les armes et les armures du seigneur du Feu, pourvu que quelqu'un leur rapporte les matériaux de l'intérieur de la montagne. L'un d'eux fait même commerce dans la taverne de la Ville des Ombreforges, au nez et à la barbe de l'empereur. Si vous voulez leur travail, $gvoyageur:voyageuse;, apportez ce dont ils ont besoin. Leur querelle avec leurs anciens parents n'a rien ôté à leur talent." },
       },
     },
     ["thousand-needles"] = {

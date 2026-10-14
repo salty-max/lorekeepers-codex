@@ -1011,7 +1011,7 @@ ns.content = {
     },
     ["highborne-ruins"] = {
       title = "The Highborne Ruins", kind = "history", chapter = "darkshore",
-      unlock = { { area = 447 }, { area = 446 }, { area = 443 }, { read = { "The Lay of Ameth'Aran", "아메스아란의 부흥", "Le Lai d'Ameth'Aran", "Die Lage von Ameth’Aran", "亚米萨兰的衰落", "La instauración de Ameth'Aran", "Песнь об Амет'Аране", "A Fundação de Ameth'Aran", "[The Lay of Ameth'Aran]" } }, { read = { "The Fall of Ameth'Aran", "아메스아란의 멸망", "La Chute de Ameth'Aran", "Der Untergang von Ameth’Aran", "亚米萨兰的毁灭", "La caída de Ameth'Aran", "Падение Амет'Арана", "A Queda de Ameth'Aran", "[The Fall of Ameth'Aran]" } } },
+      unlock = { { area = 447 }, { area = 446 }, { area = 443 }, { read = { "The Lay of Ameth'Aran", "아메스아란의 부흥", "Le Lai d'Ameth'Aran", "Die Lage von Ameth’Aran", "亚米萨兰的衰落", "La instauración de Ameth'Aran", "Песнь об Амет'Аране", "A Fundação de Ameth'Aran" } }, { read = { "The Fall of Ameth'Aran", "아메스아란의 멸망", "La Chute de Ameth'Aran", "Der Untergang von Ameth’Aran", "亚米萨兰的毁灭", "La caída de Ameth'Aran", "Падение Амет'Арана", "A Queda de Ameth'Aran" } } },
       also = { "darkshore", "satyrs", "auberdine" },
       text = {
         { "Ten thousand years ago the Highborne, the sorcerer-nobles of Queen Azshara, dwelt in towers along this coast, Ameth'Aran and Bashal'Aran among them, and practised their magics freely. The war at the Well of Eternity destroyed them. Tablets in Ameth'Aran still tell the story of its fall, for anyone who can read the old runes and is not frightened off by the spirits." },
