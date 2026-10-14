@@ -2077,6 +2077,13 @@ ns.translate({
         { "Es ist nicht Ironforge. Hier gibt es keine großen Schmieden, wenige Mauern und noch weniger Decken. Die Wildhammer leben unter freiem Himmel, bemalen ihre Haut mit Tätowierungen und sprechen mit den Geistern des Landes. Ein Zwerg aus Ironforge fühlt sich in Aerie Peak ein wenig fehl am Platz, und das soll er auch." },
       },
     },
+    ["agamaggan"] = {
+      title = "Agammagan",
+      text = {
+        { "Im Krieg der Urtume, vor zehntausend Jahren, erhoben sich die Halbgötter der Wildnis gegen die Brennende Legion, und unter ihnen war Agammagan, ein großer Eber. Er fiel. Wo sein Blut in die Erde des Brachlands sickerte, wuchsen gewaltige Dornen, und blutrote Steine bildeten sich im Boden. Die Stacheleber leben zwischen den Dornen, nennen sich seine Kinder und tragen die Steine als Totems." },
+        { "Die Schamanen der Stacheleber schöpfen noch immer aus seiner Macht, und ein Gefangener in Camp Taurajo teilt ihre Segnungen für den richtigen Preis. Die großen Dornenbauten im Süden, Razorfen, sind sein Grab, und die Stacheleber halten sie für heilig." },
+      },
+    },
     ["algaz"] = {
       title = "Algaz",
       text = {
@@ -2179,6 +2186,14 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Die Chroniken Lordaerons hatten ein Kapitel, das auf ihn wartete: der Erbe, der Paladin, der künftige König. Keine von ihnen irrte sich in seinen Gaben." },
       },
     },
+    ["bael-modan"] = {
+      title = "Bael Modan",
+      text = {
+        { "General Doppelzopfs Zwerge haben Bael Modan neben ihrer Grabung im Südosten des Brachlands errichtet, mit einer Kanone und Flugmaschinen, die die Siedlung stützen. Ausgrabungsleiter Khazgorm von der Forscherliga arbeitet unter ihnen. Eine alte Stätte, ein befestigtes Lager und einer der eigenen Ausgrabungsleiter der Liga: die Anfänge einer vertrauten Expedition." },
+        { "Gann Stonespire beschreibt, was dem vorausging. Dies sei die Heimat seines Stammes gewesen, sagt er, bevor die Sprengungen und Maschinen die Hügel aufrissen und sein Volk vertrieben. Die Diplomatie hat ihn im Stich gelassen. Nun will er Khazgorms Tod und die Zerstörung der Flugmaschine der Zwerge." },
+        { "Innerhalb der Expedition hat Feegly unter dem Fluch eines ausgegrabenen Steins gelitten. Die Grabung hat den Grabenden ebenso Unheil gebracht wie denen, die sie vertrieben hat. Ich wäre gern stolz auf jeden Ort, an dem der Name der Liga auftaucht. Bael Modan macht das schwer." },
+      },
+    },
     ["balnazzar"] = {
       title = "Balnazzar",
       text = {
@@ -2191,6 +2206,13 @@ ns.translate({
       text = {
         { "Baron Rivendare beherrscht die Hälfte Stratholmes, die der Geißel gehört, von ihrem Schlachthaus aus, ein Todesritter auf einem toten Pferd. Die Argentumdämmerung nennt ihn Kel'Thuzads Laufburschen. Herzog Zverenhoff in der Kapelle des hoffnungsvollen Lichts verlangt seinen Kopf." },
         { "Rivendare hält auch die Kreuzfahrerin der Argentumdämmerung Ysida Harmon gefangen. Ihr Mann bittet um ihre Rettung. Behaltet sie im Sinn, $gReisender:Reisende;, wenn das Kopfgeld des Herzogs Euch in die Stadt führt. Dort muss noch jemand lebend herauskommen." },
+      },
+    },
+    ["barrens-oases"] = {
+      title = "Die Oasen",
+      text = {
+        { "Die Oasen des Brachlands sind sein Leben: Becken mit frischem Wasser im trockenen Gras, an denen die Tiere und die Reisenden trinken. In letzter Zeit sind sie seltsam geworden. Tiere in ihrer Nähe verwachsen, Pflanzen wachsen zu schnell und falsch, und die Druiden von Thunder Bluff spürten eine Macht, die ins Land sickerte, und schickten einen der Ihren, um sie zu finden." },
+        { "Er fand Spalten am Grund der Becken, die tief in die Erde reichen. Die Oasen werden von unten gespeist, aus den Höhlen unter dem Brachland, und was auch immer in diesen Höhlen nicht stimmt, kommt mit dem Wasser herauf." },
       },
     },
     ["blackrock-depths"] = {
@@ -2276,6 +2298,13 @@ ns.translate({
       text = {
         { "Caer Darrow ist eine Burg auf einer Insel im Darrowmeresee, im Süden der Westlichen Pestländer, und sie war der Sitz des Hauses Barov, einer der großen Adelsfamilien Lordaerons. Es ist ein stiller, nebliger, schöner Ort. Seine Stadt ist voller Geister." },
         { "Die Barovs haben sie verschenkt. Um ihr Vermögen zu behalten, als die Seuche kam, schlossen sie einen Handel mit Kel'Thuzad und übergaben ihre Burg dem Kult der Verdammten, der unter ihr die Scholomance grub, die Schule der Geißel für Nekromantie. Am Ende behielten die Barovs von gar nichts viel." },
+      },
+    },
+    ["camp-taurajo"] = {
+      title = "Camp Taurajo",
+      text = {
+        { "Camp Taurajo ist ein Lager der Tauren im Süden des Brachlands, Zelte und Totems um ein Feuer, der letzte freundliche Ort an der Straße nach Tausend Nadeln. Seine Leute jagen in den südlichen Ebenen und behalten die Stacheleber in den Dornen von Razorfen im Auge." },
+        { "Es hat einen seltsamen Gast: einen Stacheleber namens Quetschzahn, einen Gefangenen der Tauren, der die Segnungen des Ebergottes Agammagan kennt und sie jedem lehrt, der ihm die richtigen Steine bringt. Die Tauren dulden ihn. Er ist, so sagt man mir, sehr unhöflich." },
       },
     },
     ["chillwind-camp"] = {
@@ -2380,6 +2409,13 @@ ns.translate({
       text = {
         { "Die Dragonmaw ritten im Zweiten Krieg auf roten Drachen in die Schlacht. In Grim Batol hielten sie Alexstrasza gefangen und zwangen ihre Kinder, der Horde zu dienen. Ihre Herrschaft über den Himmel beruhte auf der Gefangenschaft einer Mutter und ihrer Jungen." },
         { "Die Befreiung der Drachen brach die Stärke des Klans, doch Reste der Dragonmaw halten noch immer die Hügel des Sumpflands und überfallen seine Straßen. Sie sind Überlebende der alten Horde, nicht Gefolgsleute der neuen." },
+      },
+    },
+    ["druids-of-the-fang"] = {
+      title = "Die Druiden des Giftzahns",
+      text = {
+        { "Die Druiden des Giftzahns waren Naralex' Schüler, ein Orden edler Druiden, die in die Höhlen des Wehklagens hinabstiegen, um das Brachland zu heilen. Der Albtraum, der ihren Meister ergriff, ergriff auch sie. Nun wollen sie das Land nach ihren eigenen verdrehten Träumen neu formen und haben die Gestalten und Namen von Schlangen angenommen." },
+        { "Es gibt vier Anführer unter ihnen, Lord Kobrahn, Lady Anacondra, Lord Pythas und Lord Serpentis, und jeder trägt einen Edelstein des Traums. Die Druiden von Thunder Bluff sagen, ihre Gesichter verfolgten sie. Sie hätten die Edelsteine gern heimgebracht." },
       },
     },
     ["dun-garok"] = {
@@ -2904,6 +2940,13 @@ ns.translate({
         { "Er wusste nicht, dass eine seiner Töchter überlebt hatte. Behüterin Ladimore dient in der Nachtwache, und sie möchte, dass er weiß, dass niemand ihm die Schuld gibt." },
       },
     },
+    ["morshan-rampart"] = {
+      title = "Der Mor'shan-Schutzwall",
+      text = {
+        { "Mor'shan steht am nördlichen Rand des Brachlands, wo das Grasland in Ashenvale übergeht. Die Horde bewacht den Weg durch den Schutzwall, hin zu den Holzfällerlagern der Warsong und ihrem Streit mit den Schildwachen." },
+        { "Die Mauer markiert eine Grenze, die keine Seite für entschieden hält. Die Orcs brauchen Holz, und die Nachtelfen verteidigen den Wald, der es liefert." },
+      },
+    },
     ["mosshide-gnolls"] = {
       title = "Die Gnolle der Moosfelle",
       text = {
@@ -2983,6 +3026,13 @@ ns.translate({
       text = {
         { "Die Abtei von Nordhain steht in einem Tal am nördlichen Rand von Elwynn. Ihre Kleriker dienten Stormwind während des Ersten Krieges, bevor das Königreich an die Horde fiel. Nach dem Zweiten Krieg half Alonsus Faol, die Stadt wiederaufzubauen und die Bruderschaft von Nordhain neu zu ordnen." },
         { "Die Abtei unterweist die Rekruten des Königreichs heute in den Waffen ebenso wie im Glauben. Für beides gibt es ganz in der Nähe Verwendung: Kobolde besetzen die Mine, Wölfe streifen durch das Tal, und Diebe der Defias haben die Weinberge eingenommen." },
+      },
+    },
+    ["northwatch-hold"] = {
+      title = "Die Feste Northwatch",
+      text = {
+        { "Soldaten Theramores halten Northwatch über der Händlerküste, südlich von Ratchet. Captain Thalo'thas Brightsun beschuldigt seine Kanoniere, Schiffe seiner Flotte versenkt zu haben. Er bittet Abenteurer, die Kanonen zum Schweigen zu bringen und Captain Hellstieg zu töten." },
+        { "Jaina Proudmoore hat Frieden mit Thrall geschlossen, und doch gehen die Kämpfe um die Feste weiter. Ein Reisender an dieser Küste versteht, warum man die Vereinbarung einer Herrscherin und das Verhalten eines Soldaten beide festhalten muss, wenn man diesen Frieden beschreibt." },
       },
     },
     ["orgrim-doomhammer"] = {
@@ -3068,6 +3118,13 @@ ns.translate({
         { "Es ist selten, dass man einen Lich ungeschehen macht. Noch seltener ist es, dass dies mit etwas beginnt, das er wegzuwerfen vergaß." },
       },
     },
+    ["ratchet"] = {
+      title = "Ratchet",
+      text = {
+        { "Ratchet ist ein Goblinhafen an der Küste des Brachlands, eine der neutralen Städte des Steamwheedle-Kartells, wo Schiffe nach Booty Bay kommen und gehen und niemand eine Klinge gegen irgendwen zieht, ohne es zu bereuen. Sein Herr ist Gazlowe, derselbe Goblin-Ingenieur, der Thrall half, Orgrimmar zu bauen, und er führt es wie ein Geschäft." },
+        { "Seine Sorgen liegen meist auf See: Die Südmeerfreibeuter überfallen seine Schiffe von der Händlerküste aus, und die Kanoniere der Allianz in der Feste Northwatch, im Süden, haben einige davon aus Versehen versenkt, wie sie behaupten." },
+      },
+    },
     ["raven-hill"] = {
       title = "Rabenflucht",
       text = {
@@ -3094,6 +3151,20 @@ ns.translate({
       text = {
         { "Der Klingenhügel ist eine Garnisonsstadt an der Straße vom Tal der Prüfungen nach Orgrimmar: eine Kaserne, ein Gasthaus, ein Wachturm und eine Palisade aus angespitztem Holz auf einem Hügel über dem Meer. Sein Befehlshaber Gar'Thok hält ihn für den Kriegshäuptling und verbringt die meisten seiner Tage damit, alles abzuwehren, was aus den Schluchten heraufkommt oder von der Küste hereindrängt." },
         { "Gleich südlich liegt Burg Tiragarde, wo sich die Leute von Kul Tiras noch an die Küste von Durotar klammern, und das Wrack der Flotte ihres Admirals verrottet vor dem Strand. Die Grunzer des Klingenhügels behalten beides genau im Auge." },
+      },
+    },
+    ["razorfen-downs"] = {
+      title = "Die Hügel von Razorfen",
+      text = {
+        { "Südlich des Krals liegt ein weiterer von Agammagans Dornenbauten, die Hügel von Razorfen, und dort ist etwas Schreckliches geschehen. Die Stacheleber der Totenköpfe, die sie halten, haben einen Handel mit der Geißel geschlossen. Ein Lich, Amnennar der Kältebringer, herrscht nun über die Hügel, die Geißel hält einen Botschafter unter den Stacheleber, und die Toten wandeln zwischen den Dornen des Grabes des Ebergottes." },
+        { "Wie die Diener des Lichkönigs so tief nach Kalimdor gelangten, kann mir niemand sagen. Dass sie es getan haben und dort bauen, ist Grund genug für jedes Volk im Brachland, sich Sorgen zu machen." },
+      },
+    },
+    ["razorfen-kraul"] = {
+      title = "Der Kral von Razorfen",
+      text = {
+        { "Charlga Razorflank herrscht über den Kral von Razorfen, ein großes Labyrinth aus Dornen und Tunneln im Süden des Brachlands. Die Krieger der Schamanin der Stacheleber halten den Eber Agathelos in seinen Tiefen. Der Bau ist eine Festung im Herzen ihres Volkes." },
+        { "Henrik Lonebrows Tagebuch berichtet von seiner Gefangenschaft dort neben dem verwundeten Druiden Heralath. Heralath bat ihn, Falfindel Waywarder in Thalanaar vor Charlgas wachsender Macht zu warnen. Lonebrow erreichte den großen Aufzug, doch sein Leichnam liegt dort mit dem Tagebuch. Falfindel bittet andere, ihre Arbeit zu vollenden." },
       },
     },
     ["red-dragonflight"] = {
@@ -3391,6 +3462,13 @@ ns.translate({
         { "Zwerge kommen trotzdem her, denn unter dem Ödland liegt Uldaman, das Gewölbe der Titanen, und die Forscherliga gräbt seit Jahren an seiner Tür. Ebenso die Dunkeleisenzwerge, von ihrer Festung Angor aus, und ebenso die Troggs, die aus ihm heraufkamen. Auch die Horde hat hier ein Lager, in Kargath, um die Dunkeleisenzwerge zu beobachten. Es ist eine belebte Öde." },
       },
     },
+    ["the-barrens"] = {
+      title = "Brachland",
+      text = {
+        { "Das Brachland ist die große Savanne im Herzen Kalimdors: ein Meer aus gelbem Gras und Dornbäumen unter einem riesigen Himmel, mit Herden von Zhevras und Kodos, Löwen und Raptoren und ein paar kostbaren Oasen, an denen alles, was hier lebt, trinkt. Es ist heiß, trocken und gewaltig, und es gehört, soweit man das sagen kann, dem, der das nächste Wasserloch hält." },
+        { "Das sind sehr viele Leute. Die Horde hält Crossroads in seinem Herzen und die Straßen ringsum. Die Goblins halten Ratchet an der Küste. Die Allianz hält Northwatch im Osten und eine zwergische Grabung im Süden. Zentauren fallen aus den Hügeln ein, Stacheleber halten die Dornenbauten im Süden, Harpyien nisten in den Rinnen, und die Burning Blade und die Venture Co. haben ihre Lager. Ein Reisender im Brachland lernt, zu trinken, wann er kann, und mit einem offenen Auge zu schlafen." },
+      },
+    },
     ["the-bulwark"] = {
       title = "Das Bollwerk",
       text = {
@@ -3403,6 +3481,13 @@ ns.translate({
       text = {
         { "Der Kessel ist die große Grube der Dunkeleisenzwerge in der Sengenden Schlucht, umgeben von Grabmaschinen und in der Hitze mit Sklavenarbeit betrieben. Manche ihrer Gefangenen wurden in solchen Wahnsinn getrieben, dass sie selbst die angreifen, die sie befreien wollen." },
         { "Die kleinere Grabung von Grimesilt liegt südöstlich davon. Unter der Hauptgrube befehligt Aufseher Maltorius die Schlackengrube, nachdem er die Thoriumbruderschaft verlassen hat, um zu seinen früheren Herren zurückzukehren. Es gibt in Grimesilt auch ein Abort mit einem Schlüssel. Die Geschäfte eines Reisenden in diesem Land können bemerkenswert verschiedene Arten von Einsperrung umfassen." },
+      },
+    },
+    ["the-crossroads"] = {
+      title = "Crossroads",
+      text = {
+        { "Die großen Straßen des Brachlands treffen sich in Crossroads: nach Norden nach Orgrimmar, nach Westen nach Mulgore, nach Osten nach Ratchet und nach Süden nach Tausend Nadeln. Die Horde unterhält hier eine Palisade, ein Gasthaus und einen Horst für Windreiter, mit einer Besatzung, die dem Verkehr zwischen ihnen dient." },
+        { "Umtriebe der Zentauren und gestohlene Vorräte geben dieser Besatzung auch außerhalb ihrer Mauern Arbeit. Sergra Darkthorn bietet außerdem Jagdprüfungen an." },
       },
     },
     ["the-crusades-fallen"] = {
@@ -3636,6 +3721,13 @@ ns.translate({
       text = {
         { "Vol'jin führt die Dunkelspeer und ist ein Schattenjäger, einer ihrer Priesterkrieger, die mit den Loa wandeln. Sein Vater Sen'jin starb in den Kämpfen auf den Inseln, wo Thralls Flotte zuerst auf den Stamm traf. Vol'jin hat das Versprechen seines Vaters an die Horde gehalten." },
         { "Er bleibt in Thralls Nähe in Orgrimmar, während sein Volk Sen'jin hält und darauf blickt, die Echoinseln zurückzugewinnen. Ein Reisender, der den Anführer der Dunkelspeer sucht, findet ihn also in der Hauptstadt, die verlorene Heimat des Stammes noch immer unter seinen Sorgen." },
+      },
+    },
+    ["wailing-caverns"] = {
+      title = "Die Höhlen des Wehklagens",
+      text = {
+        { "Dampf klingt in den Höhlen unter dem Brachland wie Trauer, wo Flüsse durch ein Labyrinth aus Fels ziehen. Naralex sah in ihren Wassern ein Mittel, das trockene Land darüber zu heilen. Indem er sie mit dem Smaragdgrünen Traum verband, hoffte er, das Brachland grün zu machen." },
+        { "Er stieg mit seinen Schülern hinab und schlief. Der Traum wurde zum Albtraum. Naralex ist nicht erwacht, die Geschöpfe der Höhlen haben sich verändert, und die meisten seiner Anhänger sind mit ihm gefallen. Ein Schüler sucht noch Hilfe, um zu seinem Meister zu gelangen und ein Ritual des Erwachens durchzuführen." },
       },
     },
     ["war-of-the-three-hammers"] = {
