@@ -2148,6 +2148,29 @@ ns.translate({
         { "Arugal zog sich nach Burg Shadowfang zurück und begann, die Worgen als seine Kinder zu betrachten. Das nahe Pyrewood litt unter seinem Fluch, seine Bewohner verwandelt nach Einbruch der Nacht. Was als Versuch begann, eine einzige Stadt zu retten, hat eine Burg und ein Dorf im Griff seiner Antwort zurückgelassen." },
       },
     },
+    ["arthas-menethil"] = {
+      title = "Arthas Menethil",
+      text = {
+        { "Arthas Menethil war der einzige Sohn von König Terenas von Lordaeron, ein Paladin der Silbernen Hand, von Uther selbst ausgebildet, und in glücklicheren Tagen der jungen Zauberin Jaina Proudmoore nahe. Als die Seuche kam, zog er gegen sie aus." },
+        { "Er folgte ihr der Geißel voraus bis hierher und fand das Getreide bereits gegessen. Statt die Stadt sich gegen ihn erheben zu lassen, ließ er ihre Bewohner über die Klinge springen. Uther und Jaina wollten ihm nicht folgen. Der Schreckenslord Mal'Ganis, der auf ihn gewartet hatte, zog sich nach Norden zurück, und Arthas jagte ihn bis nach Nordend, verbrannte seine eigenen Schiffe, damit seine Männer nicht umkehren konnten, und nahm die Runenklinge Frostgram auf. Mit ihr tötete er Mal'Ganis und verlor seine Seele." },
+        { "Er kehrte als Todesritter heim, tötete seinen Vater in dessen eigenem Thronsaal und führte die Geißel durch das Königreich, über das er hätte herrschen sollen. In Andorhal tötete er Uther. Dann ging er nach Norden zum Frostthron und wurde, wie das Buch in unserer Bibliothek sagt, selbst zum Lichkönig. Stratholme erinnert sich an ihn besser als jeder andere Ort. Seine Straßen sind noch immer voller Menschen, die er retten wollte." },
+        { side = "Horde", aside = true, sign = "P. F.", "Die Chroniken Lordaerons hatten ein Kapitel, das auf ihn wartete: der Erbe, der Paladin, der künftige König. Keine von ihnen irrte sich in seinen Gaben." },
+      },
+    },
+    ["balnazzar"] = {
+      title = "Balnazzar",
+      text = {
+        { "Balnazzar war einer der Schreckenslords, die in Lordaeron zurückgelassen wurden, um die Geißel für die Brennende Legion zu beaufsichtigen. Nach der Niederlage der Legion stellten sie Arthas' Herrschaft in Frage. Arthas entkam ihrem Aufstand und ging nach Nordend. Sylvanas nahm ihnen später ihr Königreich. Auf ihren Befehl schien Varimathras seinen Bruder Balnazzar zu töten." },
+        { "Man glaubte an den Tod, doch der Dämon überlebte. Er nahm die Gestalt des Obersten Kreuzzüglers Dathrohan an und herrschte über die scharlachrote Bastion in Stratholme. Wer den vermeintlichen Kreuzzügler besiegt, enthüllt, was unter der Verkleidung steckt. Es ist eine hässliche Entdeckung für einen Orden, der sich der Vernichtung genau des Bösen verschrieben hat, das ihm seine Befehle erteilt." },
+      },
+    },
+    ["baron-rivendare"] = {
+      title = "Baron Rivendare",
+      text = {
+        { "Baron Rivendare beherrscht die Hälfte Stratholmes, die der Geißel gehört, von ihrem Schlachthaus aus, ein Todesritter auf einem toten Pferd. Die Argentumdämmerung nennt ihn Kel'Thuzads Laufburschen. Herzog Zverenhoff in der Kapelle des hoffnungsvollen Lichts verlangt seinen Kopf." },
+        { "Rivendare hält auch die Kreuzfahrerin der Argentumdämmerung Ysida Harmon gefangen. Ihr Mann bittet um ihre Rettung. Behaltet sie im Sinn, $gReisender:Reisende;, wenn das Kopfgeld des Herzogs Euch in die Stadt führt. Dort muss noch jemand lebend herauskommen." },
+      },
+    },
     ["bloodsail-buccaneers"] = {
       title = "Die Blutsegelbukaniere",
       text = {
@@ -2236,6 +2259,14 @@ ns.translate({
         { "Es ist eine Stadt grimmiger Leute und grimmiger Witze, und mehr Geschichten, als eine Stadt dieser Größe haben sollte. Fragt die alte Wahrsagerin Madame Eva nach irgendeiner davon. Sie weiß schon, nach welcher Ihr fragen werdet." },
       },
     },
+    ["darrowshire"] = {
+      title = "Darrowshire",
+      text = {
+        { "Darrowshire war ein Dorf im Süden des Eastweald. Als die Geißel kam, standen seine Leute und kämpften, mit dem Paladin Davil Lightfire von der Silbernen Hand und Joseph Redpath an ihrer Spitze, gegen den Ghulfürsten Horgus und den Todesritter Marduk Blackpool. Eine Weile hielten sie stand. Am Ende riss Marduk sich los, verdarb Redpaths Geist und wandte ihn gegen die Verteidiger, und das Dorf starb." },
+        { "Die Schlacht geht in Darrowshire noch immer weiter, unter den Geistern. Ein kleines Mädchen, Pamela Redpath, wandert durch die Ruinen und wartet darauf, dass ihr Vater heimkommt. Mit den Relikten der Schlacht, so heißt es, lassen sich die Geister von Darrowshire erwecken, um sie noch einmal zu schlagen, und diesmal kann Joseph Redpaths Seele vielleicht gerettet werden." },
+        { side = "Horde", aside = true, sign = "P. F.", "Jedes Dorf im Eastweald hatte seinen Joseph Redpath. Darrowshire ist das eine, dessen Tote die Geschichte vielleicht noch anders zu Ende bringen. Helft ihnen, wenn Ihr könnt." },
+      },
+    },
     ["deadwind-pass"] = {
       title = "Gebirgspass der Totenwinde",
       text = {
@@ -2310,6 +2341,13 @@ ns.translate({
       text = {
         { "Südlich von Elwynn rücken die Bäume zusammen, das Licht wird grau, und Ihr seid im Dämmerwald. Einst war er Teil desselben grünen Waldes. Menschen lebten und ackerten hier wie in Elwynn. Dann senkte sich eine Dunkelheit über diese Wälder, die sich nie wieder gehoben hat. Niemand in Dunkelhain kann Euch mit Gewissheit sagen, warum, auch wenn viele nach Osten blicken, zu den toten Landen des Gebirgspasses der Totenwinde und dem Turm, der dort steht." },
         { "Was die Dunkelheit brachte, ist klar genug. Die Toten erheben sich auf dem Friedhof von Rabenflucht, Worgen jagen in den Wäldern, Spinnen werden so groß wie Ponys, und Oger sind in die Hügel gezogen. Die Höfe sind verlassen, und wer geblieben ist, hat sich hinter den Laternen von Dunkelhain unter seiner eigenen Miliz versammelt, denn Stormwind hat seine Wachen abgezogen. Es ist ein Ort für mutige Reisende und für Geschichten, die man bei verriegelter Tür am Feuer erzählt." },
+      },
+    },
+    ["eastern-plaguelands"] = {
+      title = "Östliche Pestländer",
+      text = {
+        { "Das Eastweald umfasste einst die östlichen Dörfer Lordaerons, seine Abteien und die Stadt Stratholme. Die Seuche verwandelte es in die Östlichen Pestländer. Seine Bäume sind tot oder sterben, riesige Pilze ragen zwischen ihnen auf, und fauliges Wasser fließt durch ein Land, das größtenteils die Geißel beherrscht." },
+        { "Die Kapelle des hoffnungsvollen Lichts beherbergt im Osten die Argentumdämmerung. Der Scharlachrote Kreuzzug hält Tyrs Hand im Südosten. Tirion Fordring lebt im Exil am Thondroril, und Nathanos Blightcaller bewohnt sein altes Bauernhaus in Marris' Siedlung. Diese verstreuten Bewohner verfolgen sehr verschiedene Ziele." },
       },
     },
     ["edwin-vancleef"] = {
@@ -2555,6 +2593,15 @@ ns.translate({
         { "Nicht alle tun das. Als Magistrat Solomon von Seenhain den Thron um Soldaten gegen die Orcs der Blackrock anflehte, war es Lady Prestors Rat, der sie zu Hause hielt, und es gibt mindestens einen Marshal von Stormwind, der ihr das nie verziehen hat. Ich schreibe nur nieder, was bekannt ist. Eine Gelehrte, die mehr als das über eine Dame des Hofes schreibt, sollte sich ihrer Sache sehr sicher sein." },
       },
     },
+    ["kelthuzad"] = {
+      title = "Kel'Thuzad",
+      text = {
+        { "Kel'Thuzad war ein Erzmagier Dalarans und Mitglied seines herrschenden Rates, der nach verbotener Macht suchte. Antonidas fand sie zuerst, in seinen Lagerhäusern im Norden: tote Ratten, die er in Bewegung zu halten versucht hatte. Die Kirin Tor stellten ihn vor Gericht und beschlagnahmten seine Arbeit, und Kel'Thuzad, mit einer freundlichen Stimme im Kopf, die ihm die ganze Zeit geholfen hatte, verließ sie und ging nach Norden, um ihren Besitzer zu finden." },
+        { "In Nordend führte ihn ein Gruftlord, Anub'arak, durch eine Zikkurat namens Naxxramas: Laboratorien, Waffenkammern und Kessel, in denen eine Flüssigkeit braute, die die Sterbenden zu Toten machte. Bei dem Anblick wurde ihm übel, und er wollte fliehen, und die Gespenster des Lichkönigs ließen ihn nicht. Am Fuß des Frostthrons kroch er, bettelte und schwor sich dessen Herrn zu. Der Lichkönig antwortete mit einer Vision von Naxxramas, das sich in die Luft erhob, eine Festung, von der aus Kel'Thuzad die Macht seines Herrn verbreiten würde." },
+        { "Er kehrte zurück, um unter den Armen Lordaerons den Kult der Verdammten zu gründen, und mit ihnen verbreitete er die Seuche durch das Getreide von Andorhal. Prinz Arthas tötete ihn dort. Sein Leichnam wurde nach Quel'Thalas gebracht, zum Sonnenbrunnen, und durch dessen Macht als Lich erweckt." },
+        { "Er führte die Geißel nach Dalaran, um Archimonde selbst herbeizurufen, und er stand zu Arthas, als die Schreckenslords sich gegen ihn wandten. Als Arthas nach Norden zum Frostthron ging, blieb Kel'Thuzad, um in seinem Namen über die Pestländer zu herrschen, und er herrscht noch immer über sie, von Naxxramas aus. Selbst vernichtet ist ein Lich nicht am Ende, solange seine Phylakterie besteht." },
+      },
+    },
     ["kharanos"] = {
       title = "Kharanos",
       text = {
@@ -2583,6 +2630,13 @@ ns.translate({
         { "Nicht jeder Gnom ist Gnomeregan entkommen. Manche überlebten die Strahlung und wurden von ihr verändert, ihre Körper zerstört und ihr Geist seltsam und gewalttätig geworden. Die Zwerge nennen sie Lepragnome, und die Verbannten sprechen überhaupt nicht gern über sie." },
         { "Sie spuken an den Zugängen zur alten Stadt und an den Depots in ihrer Umgebung, plündern, was sie können, und greifen alle an, die zu nahe kommen." },
         { "Wenn Ihr gegen sie kämpfen müsst, $gReisender:Reisende;, denkt daran, dass sie einmal jemandes Nachbarn waren." },
+      },
+    },
+    ["lights-hope-chapel"] = {
+      title = "Kapelle des hoffnungsvollen Lichts",
+      text = {
+        { "Das hoffnungsvolle Licht ist eine kleine Steinkapelle auf geweihtem Boden im Osten der Pestländer. Lord Maxwell Tyrosus führt dort die Argentumdämmerung. Jeder, der gegen die Geißel kämpft, kann dort willkommen sein, ob er von der Allianz oder von der Horde kommt." },
+        { "Als Naxxramas über dem Land erschien, traf sich selbst der Scharlachrote Kreuzzug hier mit der Argentumdämmerung, um sich auf einen gemeinsamen Kampf zu einigen. Kel'Thuzads erbeutete Phylakterie wurde später in die Kapelle gebracht. Ein Reisender, der an ihren Mauern vorbeikommt, sieht ein bescheidenes Gebäude für einen Ort, an dem so viele Feinde Grund hatten, sich zu treffen." },
       },
     },
     ["loch-modan"] = {
@@ -2667,6 +2721,21 @@ ns.translate({
         { "Die Splitter von Myzrael bieten eine Stimme aus der Tiefe unter dem Arathihochland. Eine gefangene Prinzessin der Erde bittet einen vorbeiziehenden Reisenden, ihr bei der Flucht zu helfen, und die Kristalle verleihen der Begegnung ein Gefühl von Wärme und Geborgenheit." },
         { "Theldurin der Verirrte erzählt es anders. Er fürchtet, was sie tun wird, sobald sie wieder zu Kräften kommt, und fragt, warum die Riesen sie angekettet haben, wenn sie so leicht zu beherrschen ist. Seine Antwort ist, sie herbeizurufen und zu besiegen und ihre Fesseln dann wieder an die Splitter zu binden." },
         { "Danach steigt ein Schrei aus der Tiefe unter der Erde auf. Die Kristalle bleiben, doch ihre alte Beruhigung ist fort. Was jetzt durch sie pulsiert, fühlt sich an wie Hass auf die Welt darüber. Die Stimme, die so sanft um Hilfe bat, ist zum Beunruhigendsten an diesem stillen Hang geworden." },
+      },
+    },
+    ["nathanos-blightcaller"] = {
+      title = "Nathanos Blightcaller",
+      text = {
+        { "Nathanos Marris war ein Waldläuferlord Lordaerons, von allen geachtet, und der einzige Mensch, der je mit den Hochelfen von Quel'Thalas ausbilden durfte. Er starb in den Pestländern. Er wandelt noch immer dort, als Nathanos Blightcaller, der Champion der Banshee-Königin, mit seinen Seuchenhunden, an seinem eigenen alten Bauernhaus in Marris' Siedlung." },
+        { "Er gibt den Jägern der Horde ihre schwerste Arbeit, gegen die Tiere der Pestländer, die Hochelfen der Quel'Lithien-Lodge und den Scharlachroten Kreuzzug, und nennt sie alle Schwachköpfe. SI:7 schickte fünf Agenten, um herauszufinden, was aus ihm geworden war. Einer kam zurück und starb. Das Wort, das er mitbrachte, war Blightcaller. Als die Allianz die Wahrheit erfuhr, verlangte Hochlord Bolvar Fordragon den Kopf des Blightcallers." },
+        { side = "Horde", aside = true, sign = "P. F.", "Er nennt jeden einen Schwachkopf. Als Historiker bin ich verpflichtet festzuhalten, dass er nicht immer unrecht hat." },
+      },
+    },
+    ["naxxramas"] = {
+      title = "Naxxramas",
+      text = {
+        { "Naxxramas schwebt über den Pestländern, eine fliegende Zitadelle der Geißel und Kel'Thuzads Sitz. Von ihr kamen Streitkräfte für einen großen Einfall in die Städte Azeroths, was die Argentumdämmerung dazu brachte, jeden zu rufen, der bereit war, sich den Toten entgegenzustellen." },
+        { "Fünf Jahre nach dem letzten Krieg regt sich der Lichkönig wieder, und Kel'Thuzad sammelt Heere für einen weiteren Angriff. Monstrositäten, Spinnen und Seuchenbringer bewohnen die Nekropole, zusammen mit vier Reitern, die einst Streiter des Lichts waren. Schaut nach oben, wenn Ihr die Pestländer durchquert, $gReisender:Reisende;. Ihr Befehlshaber hat eine Festung, die nicht darauf angewiesen ist, die Straße darunter zu halten." },
       },
     },
     ["nekrosh"] = {
@@ -2932,6 +3001,15 @@ ns.translate({
         { "Jeder kommt wegen irgendetwas hierher. Jäger kommen wegen Trophäen, Goblins wegen Gold und Holz, Piraten wegen Beute, und Soldaten der Allianz und der Horde, um gegen die Trolle, die Oger und einander zu kämpfen. Der Dschungel verschlingt die meisten von ihnen, früher oder später." },
       },
     },
+    ["stratholme"] = {
+      title = "Stratholme",
+      text = {
+        { "Stratholme war die zweite Stadt Lordaerons, sein Juwel im Norden. Als die Seuche in Getreidewagen dorthin kam, traf Prinz Arthas mit Uther und Jaina ein und fand die ganze Stadt krank und im Begriff, sich zu verwandeln. Er befahl, sie zu säubern. Uther weigerte sich, und Jaina verließ ihn. Arthas ließ Stratholme Haus um Haus über die Klinge springen, bevor die Toten sich erheben konnten, und der Schreckenslord Mal'Ganis erwartete ihn am Ende. Die Säuberung nennt man es heute, und es war der Anfang von Arthas' Fall." },
+        { "Die Stadt hat seither schlimmeren Verrat gesehen. Ein Magier aus Stromgarde namens Ras Frostraunen gab sein Leben auf ihrem blutgetränkten Boden freiwillig der Geißel hin und erhob sich als Lich der Scholomance. Und hier wurde Hochlord Mograine, der Aschenbringer, von seinem eigenen Sohn in einen Hinterhalt gelockt und mit seiner eigenen Klinge getötet." },
+        { "Die Stadt brennt noch immer. Die Geißel hält die eine Hälfte, unter Baron Rivendare, und der Scharlachrote Kreuzzug die andere, von seiner Bastion aus, unter dem Obersten Kreuzzügler. Die Toten, die nicht gesäubert wurden, wandern noch durch ihre Straßen, und manche von ihnen, die Geister, wären sehr gern frei." },
+        { side = "Horde", aside = true, sign = "P. F.", "Es gibt noch immer welche, die sagen, der Prinz habe in Stratholme recht gehabt. Ich gehöre nicht zu ihnen." },
+      },
+    },
     ["stromgarde-keep"] = {
       title = "Burg Stromgarde",
       text = {
@@ -3080,6 +3158,14 @@ ns.translate({
         { "Wenn Ihr ihn getötet habt, $gReisender:Reisende;, schreibt auf, was geschehen ist, solange Ihr Euch erinnert. Die Jäger werden schon bald ihren eigenen Bericht haben." },
       },
     },
+    ["tirion-fordring"] = {
+      title = "Tirion Fordring",
+      text = {
+        { "Ihr findet Tirion Fordring vielleicht in einer kleinen Hütte am Thondroril. Er war einst Herr von Burg Mardenholde in Hearthglen und ein Paladin der Silbernen Hand. In seiner jetzigen Unterkunft deutet wenig auf das eine oder das andere hin." },
+        { "Der Orc Etrigg rettete ihm das Leben. Tirion widersetzte sich dessen Gefangennahme und weigerte sich bei seinem Prozess in Stratholme, den Eid zu brechen, den er ihm geschworen hatte. Man nahm ihm seine Titel und Besitzungen und schickte ihn ins Exil. Seine Frau erzählte ihrem Sohn Taelan, er sei tot." },
+        { "Taelan führt nun den Scharlachroten Kreuzzug in Hearthglen. Tirion bittet Reisende, einen Spielzeughammer zurückzuholen, den er dem Jungen schenkte, das Banner der Silbernen Hand, das Taelan in Northdale niederriss, und ein Gemälde, das in Stratholme versteckt ist. Das sind die Dinge, von denen er hofft, dass sie seinen Sohn erreichen. Wenn er Euch den Auftrag anvertraut, $gReisender:Reisende;, denkt daran, dass er versucht, Taelan heimzuholen." },
+      },
+    },
     ["tirisfal-glades"] = {
       title = "Tirisfal",
       text = {
@@ -3093,6 +3179,13 @@ ns.translate({
         { "König Aiden Perenolde urteilte, dass die Horde den Zweiten Krieg gewinnen würde. Während die anderen Königreiche der Menschen gemeinsam kämpften, öffnete Alterac den Orcs einen Weg und versorgte sie mit den Plänen der Allianz. Als die Allianz siegte, verhängte Lordaeron das Kriegsrecht. Die Herrscher stritten dann darüber, was aus dem Königreich werden sollte." },
         { "Alteracs Hauptstadt ist zerstört und seine Bibliotheken verstreut. Stormwind schickt Gelehrte, um die Bücher zu bergen. Perenoldes Sohn Aliden hat ein anderes Erbe angetreten: Er führt das Syndikat, zu dem ehemalige Adlige Alteracs gehören, und plant, die Orcs zu versklaven, wie es sein Lehrmeister Blackmoore wollte. Hier wird auf mehrere Arten zu bergen versucht, $gReisender:Reisende;. Die der Gelehrten ist die, die ich empfehlen würde." },
         { side = "Horde", aside = true, sign = "P. F.", "Es freut mich, dass jemand Alteracs Bücher rettet. Ob je eines davon Undercity erreicht, ist eine andere Frage." },
+      },
+    },
+    ["tyrs-hand"] = {
+      title = "Tyrs Hand",
+      text = {
+        { "Tyrs Hand ist eine befestigte Stadt im Südosten der Pestländer, an Tyrs Bucht, voller Kirchen und eine der ältesten heiligen Stätten Lordaerons. Sie hat schon Krieg gesehen: Im Zweiten Krieg stachelten Spione Alteracs ihre Bauern zum Aufstand an, um eine Mine der Orcs zu verbergen, und die Silberne Hand wurde geschickt, um den Frieden zu wahren. Im Dritten Krieg hielt sie gegen die Geißel stand, und sie hält noch immer, für den Scharlachroten Kreuzzug." },
+        { "Kreuzzüglerlord Valdelmar herrscht über sie, Hochgeneral Abbendis befehligt ihre Soldaten, und eine Seherin, die die Kreuzzügler das Scharlachrote Orakel nennen, berät den Obersten Kreuzzügler. Jeden Tag reiten Kuriere durch die Pestländer zwischen Tyrs Hand und Stratholme. Die Verlassenen beobachten jeden einzelnen." },
       },
     },
     ["undercity"] = {
