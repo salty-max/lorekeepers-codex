@@ -2137,6 +2137,14 @@ ns.translate({
         { "Die Verlassenen haben herausgefunden, warum: Unter Ambermill liegt ein ruhender Knotenpunkt von Kraftlinienenergie, und Dalaran will ihn wecken. Wozu, weiß niemand im Grabmal, und die Zauberer sagen es nicht." },
       },
     },
+    ["ancients"] = {
+      title = "Die Urtume",
+      text = {
+        { "Die Urtume sind die ältesten Bäume der Wälder der Nachtelfen, weise genug geworden, um zu denken, und stark genug, um zu gehen. Im Krieg der Urtume rief Cenarius sie aus den verzauberten Wäldern herbei und führte sie gegen die Brennende Legion, ein Heer aus Baummännern, das auf die eigene Stadt der Königin marschierte. Im Dritten Krieg marschierten sie erneut." },
+        { "Sie halten noch immer Wache. Urtumbeschützer stehen auf Teldrassil Wache, ein Urtum der Lehren und ein Urtum des Krieges haben ihren Platz in Darnassus, und Onu, ein weiteres Urtum der Lehren, spricht für den Wald im Hain der Uralten an der Dunkelküste." },
+        { "Sie sind langsam im Reden und noch langsamer darin, ihre Meinung zu ändern. Ein Volk, das seine Hauptstadt in einen Baum gepflanzt hat, lernt wohl, Bäumen zuzuhören." },
+      },
+    },
     ["andorhal"] = {
       title = "Andorhal",
       text = {
@@ -2182,6 +2190,14 @@ ns.translate({
       text = {
         { "Als Dalarans Verteidiger der Geißel erlagen, suchte Arugal nach einer Waffe gegen die Toten. Der Magier der Kirin Tor beschwor Worgen aus einer anderen Welt. Sie bekämpften die Eindringlinge und wandten sich dann gegen die Lebenden, die sie schützen sollten." },
         { "Arugal zog sich nach Burg Shadowfang zurück und begann, die Worgen als seine Kinder zu betrachten. Das nahe Pyrewood litt unter seinem Fluch, seine Bewohner verwandelt nach Einbruch der Nacht. Was als Versuch begann, eine einzige Stadt zu retten, hat eine Burg und ein Dorf im Griff seiner Antwort zurückgelassen." },
+      },
+    },
+    ["argent-dawn"] = {
+      title = "Die Argentumdämmerung",
+      text = {
+        { "Die Argentumdämmerung wirbt gegen die Geißel bei der Allianz wie bei der Horde an. Ihre Ritter, Priester und Gelehrten fragen, wogegen ein Reisender zu kämpfen bereit ist, und nicht, welchem Banner er folgt. Lord Maxwell Tyrosus führt sie von der Kapelle des hoffnungsvollen Lichts in den Östlichen Pestländern aus." },
+        { "Offiziere im Chillwind-Lager und am Bollwerk vergeben Aufträge und nehmen die Geißelsteine an, die die Toten bei sich tragen. Gesandte arbeiten in Stormwind, Darnassus und Everlook. Die Dämmerung hat ihren Krieg zu einer Sache gemacht, der sich Leute beider Fraktionen anschließen können." },
+        { "Sie teilt einen Feind mit dem Scharlachroten Kreuzzug und wenig Zuneigung für dessen Methoden. Die Dämmerung hält das Misstrauen des Kreuzzugs gegenüber jedem Fremden für eine Hilfe für den Lichkönig. Dieser Einwand hat praktischen Sinn: Der Kampf hat schon genug Feinde." },
       },
     },
     ["arthas-menethil"] = {
@@ -2268,11 +2284,27 @@ ns.translate({
         { "Er fand Spalten am Grund der Becken, die tief in die Erde reichen. Die Oasen werden von unten gespeist, aus den Höhlen unter dem Brachland, und was auch immer in diesen Höhlen nicht stimmt, kommt mit dem Wasser herauf." },
       },
     },
+    ["black-dragonflight"] = {
+      title = "Der schwarze Drachenschwarm",
+      text = {
+        { "Neltharion war der Erdwächter, betraut mit den tiefen Orten der Welt. Sein Verrat an den anderen Drachenschwärmen gab ihm den Namen Todesschwinge. Nach dem Zweiten Krieg trat er als Lord Prestor in die Räte der Menschenkönige, einen Drachen hinter dem Gesicht eines Adligen verborgen. Nach dem Kampf um Grim Batol entkam er den Aspekten. Wohin er sich zurückgezogen hat, bleibt unbekannt." },
+        { "Seine Kinder bewohnen Orte, die wir benennen können. Onyxia hält ihre Brut in den Marschen von Dustwallow. Nefarian hält die Blackrockspitze, befehligt ihre Orcs und züchtet über ihnen chromatische Drachen. Schwarze Welpen bewohnen das Rotkammgebirge und das Ödland, während Großdrachenbrut die größeren Besitzungen des Schwarms bewacht." },
+        { "Die Horte sind gewaltig genug. Lord Prestor zeigte, was ein schwarzer Drache mit einem Sitz an einem Ratstisch erreichen konnte." },
+      },
+    },
     ["blackfathom-deeps"] = {
       title = "Blackfathom-Tiefe",
       text = {
         { "An der Küste von Ashenvale, am Zoramstrand, gibt es vom Meer überflutete Höhlen, und in ihnen liegen die Ruinen eines Tempels der Elune, der versank, als der Brunnen der Ewigkeit zerstört wurde. Die Naga fanden ihn zuerst. Dann der Twilight-Hammer, angeführt von einem Twilight-Lord namens Kelris." },
         { "Ihre Papiere sagen, was sie dort tun. Sie sammeln die Macht der tiefen Wasser, um ein Geschöpf zu nähren, das sie Aku'mai nennen und das in den Tiefen des Tempels schläft, damit die Welt eines Tages zu dem zurückkehrt, was sie ihr größtes Zeitalter nennen: einem Zeitalter der Herrschaft der Alten Götter. Die Nachtelfen und die Horde schicken beide ihre Jungen, um sie aufzuhalten, was vielleicht das Einzige ist, worin sich die beiden in Ashenvale einig sind." },
+      },
+    },
+    ["blackrock-clan"] = {
+      title = "Der Blackrockklan",
+      text = {
+        { "Die Blackrock waren der größte Klan der alten Horde. Ihr Häuptling Blackhand führte sie als Kriegshäuptling im Ersten Krieg, bis Orgrim Schicksalshammer ihm den Schädel einschlug und den Titel nahm, und auch Schicksalshammer war ein Blackrock. Als die Horde fiel, ging der größte Teil des Klans mit allen anderen in die Lager, und viele von denen, die herauskamen, folgten Thrall." },
+        { "Nicht alle. Blackhands Söhne, Rend und Maim, sammelten Überlebende im Blackrock. Rends Gefolgsleute halten an den alten Wegen fest: an der Eroberung, der Grausamkeit und dem Kult um den Kriegshäuptling. Rend nennt sich bis heute Kriegshäuptling und hat für Thralls Namen nur Verachtung übrig. Schlimmer noch, er hat sich mit den schwarzen Drachen eingelassen, die in der oberen Spitze hausen." },
+        { "Vom Berg aus überfällt der Klan den Norden und Westen. Sie halten die Brennende Steppe, sie haben Burg Steinwacht im Rotkammgebirge eingenommen, und die Leute von Seenhain leben in Sichtweite ihrer Feuer. Was auch immer die Horde in Durotar geworden ist, dies ist, was sie war." },
       },
     },
     ["blackrock-depths"] = {
@@ -2310,6 +2342,14 @@ ns.translate({
         { "Dämonen der Brennenden Legion wandeln noch immer hier. Die Allianz hält Wache von Nethergarde aus, die Oger halten ihre eigenen Lager, und die Horde hat ihre eigenen Geschäfte mit den Dämonen. Jeder, der hierher kommt, kommt wegen des Portals oder wegen dessen, was es zurückgelassen hat." },
       },
     },
+    ["blood-elves"] = {
+      title = "Die Blutelfen",
+      text = {
+        { "Nachdem Quel'Thalas gefallen war, führte der Letzte seiner königlichen Linie, Prinz Kael'thas Sonnenwanderer, was von den Hochelfen übrig war, im Kampf der Allianz gegen die Geißel. Sie benannten sich zu Ehren ihres gefallenen Volkes in Blutelfen um. Vom Sonnenbrunnen abgeschnitten, der sie seit Tausenden von Jahren genährt hatte, lernten sie auch, wie dringend sie seine Magie brauchten, und sie litten unter ihrem Fehlen." },
+        { "Als die Allianz Schlachten verlangte, die seine geschwächten Kräfte allein nicht gewinnen konnten, nahm Kael'thas die Hilfe von Lady Vashj und ihren Naga an. Sein Befehlshaber Garithos verurteilte die Blutelfen als Verräter zum Tode. Vashj befreite sie aus den Kerkern von Dalaran und führte sie in die Scherbenwelt, den zerbrochenen Rest der Welt der Orcs. Dort befreiten sie Illidan Stormrage von seiner Wärterin, und Kael'thas schwor ihm Treue im Tausch für die Magie, die sein Volk brauchte." },
+        { "Manche seiner Leute sind viel näher. Blutelfen durchsuchen die Klippen und Ruinen von Azshara nach der Magie, die die Hochgeborenen zurückließen, und zermahlen, was sie finden, zu einem glitzernden Staub. Ein Goblin, der ihr Geld nahm, und ein Kriegstrupp der Orcs, der ihnen Wachen lieh, haben beide erfahren, was ihre Anstellung wert ist. Ein anderer ist nach Düsterbruch gegangen, um seine Ruinen ihrer Macht zu berauben. Gershala Nightwhisper in Auberdine fürchtet, sie gingen den Weg der Satyrn und der Naga. Ich fürchte, er könnte recht haben." },
+      },
+    },
     ["bloodhoof-village"] = {
       title = "Bloodhoof",
       text = {
@@ -2336,6 +2376,14 @@ ns.translate({
       text = {
         { "Der Blutgiftposten ist das Lager der Horde im Herzen des Teufelswalds, neben den vergifteten Fällen des Blutgiftflusses. Seine Leute kämpfen gegen den Schattenrat in Jaedenar und die verderbten Dinge des Waldes, und eine Witwe wartet dort auf Rache an dem Furbolg, der ihren Mann tötete." },
         { "Nicht jeder am Posten will den Teufelswald geheilt sehen. Eine Apothekerin der Verlassenen, Winna Hazzard, erforscht den verderbten Mondbrunnen der Jadefeuersatyrn und sucht in seinem Wasser einen Vorteil gegen die Allianz. Ich würde ihre Katze im Auge behalten." },
+      },
+    },
+    ["blue-dragonflight"] = {
+      title = "Der blaue Drachenschwarm",
+      text = {
+        { "Malygos, dem Zauberwirker, wurde die Sorge um die Magie gegeben, und sein Schwarm hat dafür bezahlt. Als Todesschwinge sich im Krieg der Urtume gegen die anderen Drachenschwärme wandte, litt der blaue Schwarm am schlimmsten. Sehr wenige überlebten, und Malygos ist seither nicht mehr derselbe." },
+        { "Ihre Horte in diesen Landen sind wenige. Blaue Drachkin bewachen die Ufer des Mennarsees in Azshara, und die Höhlen von Mazthoril in Winterspring verbergen eine Zuflucht, in der ihre Schutzpatronin Haleh jene empfängt, die die Schuppe eines blauen Drachen besitzen und auf der richtigen Rune stehen. Die Aspekte, wird sie Euch sagen, bestehen darauf, dass ihre Schwärme sich aus den Angelegenheiten der Sterblichen heraushalten. Sie wird Euch auch sagen, dass Todesschwinges Kinder das schwierig machen." },
+        { "Azuregos hält seine eigene Wache über die Ruinen im Süden von Azshara und sucht nach den arkanen Schätzen, die die Hochgeborenen zurückließen. Die Küste liegt seit zehntausend Jahren in Trümmern und gibt einem blauen Drachen noch immer Arbeit." },
       },
     },
     ["bolvar-fordragon"] = {
@@ -2373,6 +2421,30 @@ ns.translate({
       text = {
         { "Brill war ein stilles Bauerndorf an der Straße östlich von Deathknell, und die Verlassenen haben es zu ihrem gemacht: Im Rathaus sitzt ein Magistrat, die Taverne Zur Galgenschlinge schenkt ihre seltsamen Getränke an seltsame Gäste aus, und in ihrem Keller hält die Todeswache ihre Gefangenen fest, zwergische Gebirgsjäger darunter, bis man sich ihrer annehmen kann." },
         { "Hier verrichtet auch die Königliche Apothekervereinigung einen guten Teil ihrer Arbeit. Mehr will ich dazu nicht sagen, als dass ein Zwerg in Brill kein Getränk annehmen sollte." },
+      },
+    },
+    ["bronze-dragonflight"] = {
+      title = "Der bronzene Drachenschwarm",
+      text = {
+        { "Nozdormu, dem Zeitlosen, wurde die Hut über die Zeit gegeben, und sein Schwarm bewacht ihre Pfade. Man sieht sie selten. Wenn doch, dann meist, weil etwas damit schiefgegangen ist, wann die Dinge geschehen." },
+        { "In Andorhal geht einer von ihnen als seltsame kleine Gnomin namens Chromie umher und hat einen Raum des zerstörten Gasthauses in einen Ort verwandelt, der nicht ganz zum Rest der Stadt gehört. Sie sagt, die Geißel habe sich dort an der Zeit zu schaffen gemacht. Sie jagt die Parasiten, die sich von ihren zerrissenen Fäden nähren, und sie hat einem Reisenden geholfen, das Schicksal eines Mannes zu ändern, der in Darrowshire fiel." },
+        { "In Tanaris, nahe den Höhlen der Zeit, wartet Anachronos, der vor tausend Jahren am Skarabäuswall war, als er versiegelt wurde. Der bronzene Schwarm erinnert sich an den Krieg gegen Ahn'Qiraj, weil er darin kämpfte. Fragt sie, was sie über morgen wissen, $gReisender:Reisende;, und sie werden lächeln und sagen, Eure größten Taten stünden Euch noch bevor." },
+      },
+    },
+    ["burning-blade"] = {
+      title = "Die Burning Blade",
+      text = {
+        { "Die Burning Blade war einst ein Klan der Orcs, berühmt für seine Klingenmeister, und einige dieser Klingenmeister rissen sich von den Dämonen los und dienen Thrall noch heute. Der Rest des Namens ist an einen Kult gegangen. Die Burning Blade von heute ist eine Bruderschaft von Hexenmeistern und Fanatikern, die die Dämonen verehren, die ihr Volk einst versklavten, und dem Schattenrat gehorchen, der die Horde in diese Welt brachte." },
+        { "Sie sind die eigene Schande der Horde, versteckt in ihren eigenen Landen. Sie halten die Höhlen der Knochenhöhle in Durotar, in Sichtweite von Orgrimmar, und den Glutnebelgipfel im Brachland, wo eine Teufelswache über das wacht, was sie die Dämonensaat nennen, eine Verbindung zur Legion selbst. In Desolace haben sie die Festung Thunder Axe für sich genommen, und in den Abgründen unter Orgrimmar selbst plant ein Zweig, der sich Sengklinge nennt, im Dunkeln. Thralls Volk jagt sie, wo immer es sie findet." },
+        { "Sie kamen näher daran, einen neuen Krieg zu beginnen, als irgendwer zugeben mag. Ein paar Jahre nach dem Hyjal nahm ein niederer Dämon namens Zmodlor den Kult in die Hand und hetzte Durotar und Theramore gegeneinander: angegriffene Schiffe, Überfälle, die man der anderen Seite anlastete, ein Verräter, der im Rat jedes Anführers flüsterte, Lady Jaina Proudmoores eigener Kämmerer darunter. Jaina und Thrall deckten es gemeinsam auf, und der Frieden hielt. Der Kult war nicht am Ende, wie Euch die Knochenhöhle verraten wird." },
+      },
+    },
+    ["burning-legion"] = {
+      title = "Die Brennende Legion",
+      text = {
+        { "Die Brennende Legion ist ein Heer aus Dämonen, von dem gefallenen Titanen Sargeras aus tausend eroberten Welten zusammengetragen, und sie ist dreimal wegen unserer gekommen. Das erste Mal vor zehntausend Jahren, durch den Brunnen der Ewigkeit der Nachtelfen. Das zweite Mal durch die Orcs, die ihre Diener verdarben und durch das Dunkle Portal schickten. Das dritte Mal war der letzte Krieg, als ihr General Archimonde am Fuß des Weltenbaums auf dem Hyjal fiel." },
+        { "Ganz gegangen ist sie nie. Lord Kazzak hält die Verwüsteten Lande mit einem Heer von Dämonen rund um das ruhende Dunkle Portal. Die Hexenmeister des Schattenrats halten Dämonen in Jaedenar, im Teufelswald, wo der ganze Wald um sie herum verfault ist. Verdammniswachen und Höllenbestien wandeln durch den Demonfall-Canyon in Ashenvale, wo Grom Hellscream Mannoroth tötete, durch Mannorocs Koven in Desolace und durch die Ruinen von Azshara." },
+        { "Die Legion ist geduldig. Sie hat drei Kriege verloren und ist noch immer hier, und ich glaube nicht, dass sie mit uns fertig ist." },
       },
     },
     ["burning-steppes"] = {
@@ -2433,11 +2505,35 @@ ns.translate({
         { "Kein Reisender kommt weit hinein. Doch am Eingang der Höhlen hat man einen bronzenen Drachen in sterblicher Gestalt warten sehen, Anachronos, und er weiß sehr viel über den Krieg gegen die Insekten von Silithus vor tausend Jahren und über den Anteil, den sein Schwarm daran hatte." },
       },
     },
+    ["cenarion-circle"] = {
+      title = "Der Zirkel des Cenarius",
+      text = {
+        { "Der Zirkel des Cenarius ist die Gemeinschaft der Druiden, benannt nach dem Halbgott Cenarius, der die ersten von ihnen lehrte. Sein Gründer war Malfurion Stormrage, der die Nachtelfen vor zehntausend Jahren gegen die Brennende Legion führte und nun vermisst wird. Seine Mitdruiden wissen nicht, was aus ihm geworden ist. Den größten Teil seiner Geschichte war der Zirkel ein Orden der Nachtelfen. Heute haben auch die Tauren ihre Druiden darin, und Erzdruide Hamuul Runetotem vertritt sie in Thunder Bluff." },
+        { "Sein Sitz ist Nighthaven, in Moonglade, unter Bewahrer Remulos, dem Sohn des Cenarius, und sowohl die Allianz als auch die Horde dürfen dort in Frieden wandeln. Er unterhält Posten überall dort, wo die Natur verwundet ist: auf dem Steinkrallengipfel, in den vergifteten Wäldern des Teufelswalds und in Burg Cenarius in Silithus, von wo aus er die Insektenstöcke und die Mauern von Ahn'Qiraj beobachtet." },
+        { "Die Druiden sind geduldig über das Verständnis jedes Zwerges hinaus, und sie denken in Jahreszeiten und Jahrhunderten. Wenn der Zirkel sagt, dass etwas nicht stimmt, hören die Weisen zu." },
+      },
+    },
     ["cenarion-hold"] = {
       title = "Burg Cenarius",
       text = {
         { "Burg Cenarius ist die Festung des Zirkels des Cenarius im Norden von Silithus, errichtet, um die Stöcke und die versiegelte Stadt im Süden zu beobachten. Die Druiden, Allianz wie Horde, halten ihre Mauern, und der Krieg gegen die Silithiden wird von hier aus geführt." },
         { "Manche in der Burg sind nicht, was sie scheinen. Unter den Druiden lebt die Brut Nozdormus, der bronzene Drachenschwarm in sterblicher Gestalt, der sich an den Krieg erinnert, der hier vor tausend Jahren geführt wurde, und auf seine Rückkehr achtet." },
+      },
+    },
+    ["cenarius"] = {
+      title = "Cenarius",
+      text = {
+        { "Cenarius war der Herr der Wälder, ein Halbgott mit dem Körper eines Hirsches unterhalb der Hüfte und einem verzweigten Geweih, und der erste Lehrer der Nachtelfen. Lange vor der Großen Teilung gewann er ihr neugieriges junges Volk lieb und lehrte es die Wege der lebendigen Welt. Malfurion Stormrage war sein größter Schüler, und das Druidentum ist, was sie gemeinsam schufen." },
+        { "Er kämpfte im Krieg der Urtume gegen die Legion und führte die Urtume des Waldes gegen die Dämonen, überlebte die Große Teilung und half Malfurion, Illidan wegzusperren. Danach blieb er in Moonglade auf dem Hyjal. Seine Söhne, die Hüter des Hains, wachten über die Nachtelfen, während die Druiden schliefen, und seine Töchter, die Dryaden, zeigten sich kühner." },
+        { "Im Dritten Krieg kam er aus dem Wald, um Grom Hellscreams Orcs aus Ashenvale zu vertreiben, und die Orcs, wahnsinnig vom Dämonenblut, töteten ihn. Seine Kinder wandeln noch durch die Wälder Kalimdors, von Raynewood bis zum Steinkrallengebirge, und Remulos hütet Moonglade in seinem Namen. Das Gedächtnis eines Hüters ist lang. Ich würde bei einem von ihnen nicht das Thema Orcs anschneiden." },
+      },
+    },
+    ["centaurs"] = {
+      title = "Die Zentauren",
+      text = {
+        { "Die Zentauren stammen von Zaetar ab, einem Sohn des Cenarius, und von Theradras, einer Prinzessin der elementaren Erde. Sie töteten ihren Vater. Ihre Mutter begrub ihn in Maraudon. Seine Kinder bewachen das Grab noch heute als heiligen Boden." },
+        { "Zu ihren Klans gehören die Kolkar im Brachland und in Desolace, die rivalisierenden Gelkis und Magram, die Galak in Tausend Nadeln und die Maraudine am Grab. Generationenlang verfolgten sie die Tauren über die Ebenen Kalimdors, bis Cairne und seine Verbündeten, die Orcs, sie zurückdrängten." },
+        { "Die Klans überfallen weiterhin. Lernt ihre Namen ebenso wie das Geräusch ihrer Hufe, $gReisender:Reisende;. Die Streitigkeiten zwischen ihnen zählen für alle, die in Reichweite ihrer Lager zu leben versuchen." },
       },
     },
     ["chillwind-camp"] = {
@@ -2476,6 +2572,14 @@ ns.translate({
         { "Wer sich nähert, hört Flüstern im eigenen Geist, Versprechen und Drohungen, die dem Geschöpf darunter gehören. Die Expedition fand und erschlug es. Ich kann diese Ereignisse niederschreiben, $gReisender:Reisende;, doch es bereitet mir wenig Freude, ein Ding zu verzeichnen, das seinen Betrachtern in ihren eigenen Gedanken antworten kann." },
       },
     },
+    ["cult-of-the-damned"] = {
+      title = "Der Kult der Verdammten",
+      text = {
+        { "Kel'Thuzad war ein Erzmagier Dalarans und Mitglied seines herrschenden Rates, und er suchte in den nekromantischen Künsten nach verbotenen Dingen, bis etwas antwortete: der Lichkönig. Kel'Thuzad verließ die Kirin Tor, ging unter die Armen und Verzweifelten Lordaerons und versprach ihnen eine Welt ohne Könige und ohne Hunger. Sie wurden zum Kult der Verdammten, und sie glaubten ihm." },
+        { "Das Werk des Kults war die Seuche. Seine Leute verseuchten die Kornspeicher von Andorhal und die Dörfer im Norden, und die Toten erhoben sich, wo immer das Getreide gegessen wurde. Prinz Arthas tötete Kel'Thuzad in Andorhal, doch der Lichkönig brauchte ihn, und er kehrte als Lich zurück. Das Haus Barov übergab dem Kult seine Burg in Caer Darrow, und in ihren Gewölben unterhalten sie ihre Schule der Nekromantie, die Scholomance." },
+        { "Sie sind lebende Männer und Frauen, was ich schlimmer finde als die Toten. Ein Ghul hat keine Wahl, wem er dient. Die Nekromanten des Kults haben gewählt." },
+      },
+    },
     ["daelin-proudmoore"] = {
       title = "Daelin Proudmoore",
       text = {
@@ -2505,6 +2609,14 @@ ns.translate({
         { "Der Hof, den die Pestländer Dalsons Tränenfeld nennen, gehörte einer Familie namens Dalson, und ihre Geschichte liegt aufgeschlagen auf einem Tisch im Haus, in Frau Dalsons eigener Handschrift. Ihr Mann Harold hatte sich verwandelt. Es kostete sie alles, was sie hatte, ihn an den einzigen Ort zu schleifen, den sie fand und der sich abschließen ließ, und sie behielt den Schlüssel bei sich." },
         { "Sie wollte fort, doch sie brauchte Geld, und ihre Sachen waren im Schrank, und sie glaubte, Harold habe diesen Schlüssel bei sich. Sie wolle darüber schlafen, schrieb sie. Sie sei todmüde. Das ist der letzte Eintrag. Was aus ihr wurde, sagt das Tagebuch nicht." },
         { "Die Geißel hat seither einen ihrer Seuchenkessel auf das Feld der Familie gestellt, und die Allianz in Chillwind und die Verlassenen am Bollwerk schicken beide Reisende, um seine Gifte umzukehren. Hof um Hof sind die Pestländer voller Häuser wie diesem. Dies ist das eine, in dem jemand es aufgeschrieben hat." },
+      },
+    },
+    ["dark-iron-dwarves"] = {
+      title = "Die Dunkeleisenzwerge",
+      text = {
+        { "Der dritte der drei Hämmer, und derjenige, der nie vergab. Seit die Dunkeleisenzwerge ihren Krieg gegen Ironforge verloren und in ihrer Wut Ragnaros weckten, leben sie im Blackrock unter ihrem Imperator Dagran Thaurissan und dienen dem Feuerlord, den sie herbeiriefen." },
+        { "Dort geblieben sind sie nicht. Ihre Sklaven graben den Kessel in der Sengenden Schlucht, ihre Gräber der Schattenschmiede plündern die Ruinen von Uldaman und halten die Festung Angor im Ödland, ihre Spione schleichen durch Dun Morogh, und ihre Plünderer machen Loch Modan zu schaffen. Im Sumpfland haben sie echten Schaden angerichtet: Sie nahmen die Festung Dun Modr ein und zerbrachen den Thandol-Übergang, die große Brücke nach Norden." },
+        { "Ein Dunkeleisenzwerg kämpft mit Feuer, Schwarzpulver und einem Groll, der zwei Jahrhunderte tief reicht. Kehrt einem niemals den Rücken zu." },
       },
     },
     ["darkshire"] = {
