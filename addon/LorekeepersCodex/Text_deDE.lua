@@ -3869,6 +3869,13 @@ ns.translate({
         { "Die Trümmer versorgen Kravel Koalbeard mit Teilen, die er den Teams zurückverkauft. Die Brüder Brassbolt brauchen Helme für ihre Piloten. Ein Rennen bringt Sieger, Verlierer und eine nützliche Menge Schrott hervor. Die Leute, die neben der Strecke arbeiten, haben in allen dreien eine Beschäftigung gefunden." },
       },
     },
+    ["shrine-of-akir"] = {
+      title = "Der Schrein von Akir",
+      text = {
+        { "Der Schrein von Akir im Shen'darhochland ist die heilige Stätte der Al'Aketh und war der Sitz ihrer Anführerin, der Hohepriesterin Lorthuna. Um ihn einzunehmen, brauchte es den Hohen Orden, die Windformer und die Friedenswächter gemeinsam, was etwas über die Stärke des Kults verrät und noch mehr darüber, wie selten sich diese drei einig sind. Valennia Stormfist, die Hauptfrau der Friedenswächter, wurde im inneren Heiligtum schwer verwundet, und Lorthuna floh durch ein Portal zu den Türmen der Rohashi darüber." },
+        { "Was auf den Türmen geschah, haben die Shen'dorei für uns nicht aufgeschrieben. Lorthuna ist von Zephras verschwunden, und der Kult hat seinen Kopf verloren. Doch die Schutzzauber, die die Insel vor Al'Akir verbargen, fielen mit ihr, und der Hohe Älteste will nicht so tun, als wüsste er, wie lange der Windlord brauchen wird, um es zu bemerken." },
+      },
+    },
     ["si-7"] = {
       title = "SI:7",
       text = {
@@ -4058,6 +4065,13 @@ ns.translate({
         { "Weit kommt er nicht. Großinquisitor Isillien streckt ihn vor Hearthglen nieder, in Sichtweite des Mannes, zu dem er ritt, und Tirion tötet Isillien über dem Leichnam seines Sohnes. Der Orden der Silbernen Hand, sagt Tirion danach, ist wiedergeboren. Es kostete ihn seinen Sohn, sich zu erinnern, wofür er da war." },
       },
     },
+    ["talaanis-shadowsong"] = {
+      title = "Talaanis Shadowsong",
+      text = {
+        { "Talaanis Shadowsong ist der Hohe Älteste der Insel Zephras, und sein Volk spricht gut von ihm. Ein guter Mann, sagen sie, und sehr beliebt, was die Liga bei einem Herrscher nicht für selbstverständlich zu halten gelernt hat. Er regiert von Valanaar aus mit den anderen Ältesten der Insel, Aetheen von den Böen unter ihnen." },
+        { "Seine Amtsjahre waren nicht leicht. Die Pylonen versagen, die beiden Orden seines Volkes können sich kaum auf irgendetwas einigen, und der Kult der Al'Aketh griff den westlichen Wachturm an und tötete seinen eigenen Neffen, einen Friedenswächter. Als die Hohepriesterin des Kults endlich vertrieben war, nannte er es keinen Sieg. Die Schutzzauber, die Zephras vor Al'Akir verborgen hatten, waren gefallen, und er konnte nur sagen, dass es Jahre dauern könnte, vielleicht Jahrzehnte, bevor der Windlord seinen Blick auf sie richtete." },
+      },
+    },
     ["talonbranch-glade"] = {
       title = "Nachtlaublichtung",
       text = {
@@ -4109,6 +4123,13 @@ ns.translate({
         { "Die Agamands waren die reichste Familie in Tirisfal, und diese Mühlen gehörten ihnen. Als die Geißel kam, befestigten sie das Haus und befahlen allen in ihren Diensten, zu bleiben und es mit ihnen zu halten. Die Knechte blieben. Sie seien treu gewesen, sagt einer von ihnen heute, und Narren." },
         { "Nichts davon hielt. Die Familie und ihre Arbeiter starben gemeinsam und erhoben sich gemeinsam, und die Agamands wandeln noch immer für den Lichkönig über die Mühlen: Gregor, der Vater, Nissa, seine Frau, und ihre Söhne. Ihre Gruft liegt am Nordende des Anwesens, mitten unter der Geißel." },
         { "Manche ihrer Arbeiter rissen sich los und sind heute Verlassene. Coleman Farthing, der in ihren Mühlen arbeitete, schickt Reisende zurück, um zu vernichten, was von der Familie übrig ist, und ihre Gruft um ihre Erbstücke zu erleichtern. Rache, sagt er, schmeckt süß. Er hofft, dass sie vor dem Ende Furcht kannten. Es sei eine törichte Hoffnung, gibt er zu. Er hält trotzdem an ihr fest." },
+      },
+    },
+    ["the-al-aketh"] = {
+      title = "Die Al'Aketh",
+      text = {
+        { "Die Al'Aketh sind ein Kult der Shen'dorei, erkennbar an ihren grauen Roben und geschorenen Köpfen, die Al'Akir den Windlord als rechtmäßigen Herrscher des Himmelswalls verehren. Ihre Prediger erzählen eine einfache Geschichte: Die Shen'dorei wurden stolz und hielten die Gaben der Winde für selbstverständlich, und die Geister verließen sie dafür. Auf einer Insel, die auseinanderbricht, findet sie Zuhörer." },
+        { "Sie halten Falaath im Shen'darhochland und den Schrein von Akir unter ihrer Hohepriesterin Lorthuna. Sie haben die Wachtürme der Pylonen angegriffen, sind über die Druiden der Nachtklaue hergefallen, um einen eigenen Pylonen zu gewinnen, haben Spione in die Dörfer geschickt und mindestens einen Verräter in Valanaar gefunden. Ein ehemaliger Friedenswächter, Belguilos, den man den Brecher nennt, befehligt ihre Kämpfer." },
       },
     },
     ["the-ashbringer"] = {
@@ -4208,6 +4229,13 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Niemand außerhalb von Undercity könne sagen, was wir wollen, schreibt sie. Die meisten von uns drinnen können es auch nicht. Ich will wissen, was man uns angetan hat, und es ordentlich niederschreiben." },
       },
     },
+    ["the-high-order"] = {
+      title = "Der Hohe Orden",
+      text = {
+        { "Der Hohe Orden sind die Shen'dorei, die am Arkanen festhalten und an ihrer Abstammung von den Gelehrten der Hochgeborenen aus Eldre'Thalas. Als die Windgeister gingen, zogen sie eine harte Lehre daraus: Ihr Volk hatte sich so vollständig auf seine elementaren Schutzherren gestützt, dass es ohne sie hilflos war. Der Hohe Orden will das Wissen zurückgewinnen, das ihre Ahnen verloren, und auf eigenen Füßen stehen, und sein Oberster Magister Elaadrin Evengale blickt auf die Kirin Tor von Dalaran, um ihnen zu zeigen, wie." },
+        { "Die Windformer nennen sie leichtsinnig und überheblich. Der Hohe Orden nennt das Heuchelei. Sie haben für ihre Zuversicht bezahlt. Elaadrin schickte Belathaan Brightwish, um am Schrein von Akir Gespräche mit den Al'Aketh zu eröffnen, und Belathaan kam nie zurück. Der Kult schickte seine Zunge in einer Schachtel zurück, in Silber getaucht. Danach gab Elaadrin zu, dass die Windformer recht gehabt hatten." },
+      },
+    },
     ["the-hinterlands"] = {
       title = "Hinterland",
       text = {
@@ -4243,6 +4271,20 @@ ns.translate({
         { "Vorerst halten Arugals Worgen, die Gnolle der Moderfelle und die Magier von Ambermill seine Kräfte nahe der Heimat beschäftigt. Besonders wollen die Verlassenen Arugals Werk ungeschehen machen." },
       },
     },
+    ["the-shalnan"] = {
+      title = "Der Shal'nan",
+      text = {
+        { "Die Shen'dorei erinnern sich an den Anführer, der sie aus Eldre'Thalas herausführte, nur als den Shal'nan, den Verschleierten, wegen der gesichtslosen goldenen Maske, die sein Gesicht verbarg. Als Prinz Tortheldrins Ehrgeiz sich ins Dunkle wandte, zerbrachen die Aufständischen des Shal'nan das Netz kristallener Foki, auf das der Prinz angewiesen war, und flohen. Es war der Shal'nan, der Frieden mit den Windgeistern schloss und sein Volk hinauf in den Himmelswall führte." },
+        { "Er herrschte über ein Jahrhundert lang über sie, nach ihrem eigenen Bericht ein widerwilliger Anführer, und gab seine Macht dann an einen Rat der Provinzen ab, sobald die Inselzufluchten gegründet waren. Ein Kristall, hoch im großen Baum in Thendal aufbewahrt, erzählt seine Geschichte. Er sagt nicht, was aus ihm wurde, und die Shen'dorei bisher ebenso wenig." },
+      },
+    },
+    ["the-silence-of-the-winds"] = {
+      title = "Das Schweigen der Winde",
+      text = {
+        { "Tausende von Jahren hielten die Windgeister die Insel Zephras in der Luft und die Shen'dorei in ihrer Obhut. Vor einigen Jahrhunderten gingen sie, und nichts, was die Shen'dorei seither versucht haben, hat sie zurückgebracht oder erklärt, warum. Die Feen, die noch über der Insel spielen, sind Echos, ohne den Verstand der Geister, die einst mit ihnen sprachen." },
+        { "Was die Geister zurückließen, verschleißt. Ihre Ankerpylonen halten die Insel zusammen, und ihre Magie kommt und geht nun. Kraftlinien haben begonnen, wie Narben durch die Oberfläche zu brechen, und Windsteine, die die rohe Macht der Winde bergen, werden ernsthaft gesammelt und erforscht. Jede Gruppe auf der Insel hat ihre Antwort. Die Windformer wollen die Geister finden und heimbringen, der Hohe Orden will lernen, ohne sie zu leben, und die Al'Aketh wollen stattdessen vor dem Windlord knien." },
+      },
+    },
     ["the-stockade"] = {
       title = "Das Verlies",
       text = {
@@ -4271,6 +4313,13 @@ ns.translate({
         { "Die Wracks an der Nordküste des Sumpflands waren die dritte Flotte von Kul Tiras. Auf ihrer letzten Fahrt wurde sie vor dieser Küste von roten Drachen gestellt, von Orcs gerittenen Drachen, und verbrannt und versenkt, wo sie lag. Die Leute von Kul Tiras nennen sie die verlorene Flotte." },
         { "Ein Mann kam lebend davon: Fitzsimmons, einst Erster Maat der Wave Mistress, der im Hafen von Menethil trinkt und die Geschichte für den Preis eines Humpens erzählt. Nicht alle seine Schiffskameraden ruhen in Frieden. An Bord der INTREPID war etwas verstaut, eingeschlossen in der Geldkassette des Kapitäns, und seine Macht lässt die ertrunkenen Mannschaften über ihre verrottenden Decks gehen. Kapitän Halyndor geht noch immer mit dem Schlüssel über sein Schiff." },
         { "Was in dieser Kassette lag, war ein Auge von Paleth, eine der Kugeln, die menschliche Priester zum hellen Leuchten schufen, schwarz verflucht von dem, was es in jener Nacht sah. Die Priester von Menethil konnten es nicht reinigen. Der Erzbischof in Stormwind konnte es. Eine Flotte stirbt nicht immer auf einmal, $gReisender:Reisende;. Manchmal braucht es einen Priester und einen sturen Ersten Maat, um die Sache zu Ende zu bringen." },
+      },
+    },
+    ["the-windshapers"] = {
+      title = "Die Windformer",
+      text = {
+        { "Die Windformer sind die Shen'dorei, die den Windgeistern treu bleiben. Sie stammen von den Ersten ihres Volkes ab, die die Gabe der Himmelssicht von den Geistern empfingen, und sie pflegten die Instrumente und Konstrukte, die die Geister auf der Insel zurückließen. Sie haben geschworen, diese alte Schuld zurückzuzahlen: die Ebene der Elemente zu wagen, ihre verschwundenen Lehrmeister zu finden und heimzubringen. Ihre Großhimmelsseherin Ayessa Dawnsinger glaubt, der Weg liege unten, in Azeroth, und die Schamanen des irdenen Rings haben zu ihnen gestanden." },
+        { "Sie sind kein verzeihendes Volk. Auf die Gewalt des Kults antwortete Ayessa mit Blut für Blut, und die Windformer sagen von sich, dass sie weder vergeben noch vergessen. Sie wollen keinen Frieden mit den Al'Aketh, und sie halten die Magie des Hohen Ordens an ihren heiligen Stätten für eine Gefahr für eine Insel, die ohnehin schon auseinanderbricht." },
       },
     },
     ["thelsamar"] = {
@@ -4439,6 +4488,13 @@ ns.translate({
         { "Am Ende fing Nefarian ihn. Im Pechschwingenhort wartet er, verdreht von der Verderbnis des schwarzen Drachen, und fleht die an, die ihn erreichen, den Splitter des Zepters zurückzunehmen, bevor er zerstört wird. 'Zu spät, Freunde!', sagt er und wendet sich gegen sie. Wer ihn niederstreckt, erfährt danach, dass seine Seele Frieden gefunden hat. Ich hoffe es." },
       },
     },
+    ["valanaar"] = {
+      title = "Valanaar",
+      text = {
+        { "Valanaar ist die Hauptstadt der Insel Zephras, an ihrem südöstlichen Rand, und der Sitz ihres Hohen Ältesten. An seinen Docks legen die Himmelsschiffe an: kleine fliegende Schiffe, die einst zwischen den Inseln der Shen'dorei verkehrten und nun zum ersten Mal hinab nach Azeroth fahren, nach Dalaran für den Hohen Orden und nach Mulgore für die Windformer." },
+        { "Wenn Ihr durchkommt, schaut im Gasthaus vorbei. Oben bewahren die Shen'dorei einen Kristall, der den Aufstand ihrer Ahnen in Eldre'Thalas aus ihrer eigenen Sicht erzählt. Ich kenne nichts Älteres, das für sie spricht, und ich gäbe sehr viel darum, ihn zu hören." },
+      },
+    },
     ["valley-of-kings"] = {
       title = "Das Tal der Könige",
       text = {
@@ -4578,6 +4634,14 @@ ns.translate({
       text = {
         { "Die Zandalar bezeichnen sich als den ältesten Stamm der Trolle, von dem die anderen abstammen. Ihre Priester und Gelehrten bewahren die Erinnerung an ihr Volk und ihre Götter. Selten mischen sie sich in die Angelegenheiten anderer Völker ein, doch Hakkars Rückkehr hat sie auf die Insel Yojamba vor der Küste des Schlingendorntals gebracht." },
         { "Ihr Anführer Molthor arbeitet mit jedem zusammen, der bereit ist, sich dem Seelenschinder entgegenzustellen. Diese Einladung schließt Leute ein, die die Trolle gewöhnlich wenig Grund hätten willkommen zu heißen." },
+      },
+    },
+    ["zephras-isle"] = {
+      title = "Die Insel Zephras",
+      text = {
+        { "Die Insel Zephras ist eine Insel, die fliegt. Sie schwebt im Himmelswall, der Ebene der Luft, wohin die Windgeister die Shen'dorei vor langer Zeit trugen, und sie ist die Heimat der Himmelsgeborenen, die seit kurzem zu uns herabgekommen sind. Ihre Leute leben in Valanaar am südöstlichen Rand, in den Dörfern des Shen'darhochlands und in Thendal und auf den Höfen des Böenbeerentieflands." },
+        { "Die Geister, die die Insel banden, verließen sie vor einigen Jahrhunderten. Ihre großen Ankerpylonen halten Zephras noch oben, doch ihre Magie wird unstet, und Ban'aethal begann eines Nachts in den Himmel zu fallen und musste vor dem Morgen geräumt werden. Seit einiger Zeit hat kein Himmelsschiff mehr zu den anderen Inseln übergesetzt, Anvilas und Siroccas, und es gibt Shen'dorei, die fürchten, sie seien alles, was von ihrem Volk übrig ist." },
+        { "Ich habe nie dort gestanden, $gReisender:Reisende;, und ich beneide Euch ein wenig. Haltet Euch bitte von den Rändern fern." },
       },
     },
     ["zulfarrak"] = {
