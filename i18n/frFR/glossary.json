@@ -963,6 +963,10 @@
    "forever": "Duc Nicholas Zverenhoff",
    "use": "Duc Nicholas Zverenhoff"
   },
+  "Durgen Dirgehammer": {
+   "forever": "Durgen Mornemartel",
+   "use": "Durgen Mornemartel"
+  },
   "Earthcaller Franzahl": {
    "classic": "Implorateur de la terre Franzahl",
    "forever": "Implorateur de la terre Franzahl",
@@ -976,6 +980,10 @@
   "Earthseer Farsen": {
    "forever": "Terre-voyant Farsen",
    "use": "Terre-voyant Farsen"
+  },
+  "Edward Heartweaver": {
+   "forever": "Edward Tissecœur",
+   "use": "Edward Tissecœur"
   },
   "Edwin VanCleef": {
    "classic": "Edwin VanCleef",
@@ -2224,6 +2232,10 @@
    "forever": "Balafré",
    "use": "Balafré"
   },
+  "Stone Watcher": {
+   "forever": "Guetteur de pierre",
+   "use": "Guetteur de pierre"
+  },
   "Stone Watcher of Norgannon": {
    "classic": "Gardien des pierres de Norgannon",
    "forever": "Gardien des pierres de Norgannon",
@@ -2272,6 +2284,10 @@
    "classic": "La reine banshee",
    "forever": "La reine banshee",
    "use": "La reine banshee"
+  },
+  "The Baron": {
+   "forever": "Le baron",
+   "use": "Le baron"
   },
   "The Lich King": {
    "classic": "Le roi-liche",

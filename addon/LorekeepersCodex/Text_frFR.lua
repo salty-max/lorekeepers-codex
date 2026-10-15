@@ -4625,7 +4625,7 @@ ns.translate({
     ["hall-of-thanes"] = {
       title = "La salle des Thanes",
       text = {
-        { "Sous Forgefer s'étendent les cavernes du Vieux Forgefer, et parmi elles un lieu que les nains appellent la salle des Thanes. Les Sombrefer en ont trouvé le chemin. Une carte prise à leurs espions à la base d'Ironband montre des tunnels et d'anciennes routes qui convergent sous la cité, et le terre-voyant Farsen, venu du Nid-de-l'Aigle, les a suivis jusqu'à la salle et jusqu'au Sombrefer qui y commande, un certain Durgen Dirgehammer." },
+        { "Sous Forgefer s'étendent les cavernes du Vieux Forgefer, et parmi elles un lieu que les nains appellent la salle des Thanes. Les Sombrefer en ont trouvé le chemin. Une carte prise à leurs espions à la base d'Ironband montre des tunnels et d'anciennes routes qui convergent sous la cité, et le terre-voyant Farsen, venu du Nid-de-l'Aigle, les a suivis jusqu'à la salle et jusqu'au Sombrefer qui y commande, un certain Durgen Mornemartel." },
         { "Les morts de la salle ne sont pas en paix. Afadra Mur-de-Dun, gardienne du savoir de Forgefer, demande aux voyageurs d'apaiser les esprits de Courbenclume, et l'un d'eux, Faldrim Courbenclume, semble avoir gardé une vieille rancune bien au-delà de la tombe. Le roi Magni veut la tête du commandant. J'aimerais que la Ligue examine les lieux comme il se doit, une fois les Sombrefer partis." },
       },
     },
@@ -4778,7 +4778,7 @@ ns.translate({
       text = {
         { "Forgefer n'est pas bâtie sur la montagne : elle est bâtie dedans. Ses salles sont creusées au cœur de la montagne, et en son centre brûle la Grande forge." },
         { "La cité tourne autour de la forge comme une roue. Le roi Magni tient sa cour au Haut-Siège, la Garde militaire forme les défenseurs de la montagne, les mages se tiennent à la Garde mystique, et depuis la chute de Gnomeregan les gnomes exilés ont fait de Brikabrok leur domaine : bruyant, ingénieux et nostalgique. Sous tout cela court le Tram des profondeurs, œuvre gnome, qui emmène les voyageurs sous les montagnes jusqu'à Hurlevent." },
-        { client = "forever", "Sous le Vieux Forgefer s'étend la salle des Thanes. Des intrus sombrefer y ont fait une brèche, et Magni veut la tête de leur commandant, Durgen Dirgehammer. Même ici, les plus vieilles salles d'une cité peuvent devenir ses plus récents soucis." },
+        { client = "forever", "Sous le Vieux Forgefer s'étend la salle des Thanes. Des intrus sombrefer y ont fait une brèche, et Magni veut la tête de leur commandant, Durgen Mornemartel. Même ici, les plus vieilles salles d'une cité peuvent devenir ses plus récents soucis." },
         { "Et puis il y a le Hall des Explorateurs, où la Ligue garde sa bibliothèque et ses trouvailles : des reliques d'Uldaman, les ossements de bêtes que personne n'a vues vivantes, et des cartes de lieux que la plupart des nains ne connaîtront jamais que par les livres. Quant à moi, vous me trouverez au Haut-Siège, à quelques pas du trône du roi. Venez me voir. Je manque toujours de gens qui sont vraiment allés quelque part." },
         { side = "Horde", aside = true, sign = "P. F.", "Son invitation part d'un bon sentiment. Je ne conseillerais pas de l'accepter aux couleurs de la Horde." },
       },
@@ -5552,8 +5552,8 @@ ns.translate({
       title = "Les ruines de Lordaeron",
       text = {
         { "Au-dessus de Fossoyeuse, les rues de la capitale de Lordaeron sont moins vides qu'elles n'en ont l'air depuis la porte. Le Fléau arpente encore en nombre les ruines les plus profondes, et un brouillard impie s'est répandu sur les rues et le vieux cimetière, levé, croient les Gardes noirs, par un nécromancien du nom de Rath'mael, sur le surplomb de Lordamere. Les Réprouvés envoient les forces qu'ils peuvent détacher, et leurs pertes sont telles qu'un paladin du Quartier royal demande aux voyageurs de lui rapporter les membres intacts que laissent les morts." },
-        { "Tous ceux qui montent ne le font pas pour la reine banshee. Edward Heartweaver se rendait chaque semaine au cimetière, en quête du fils qu'il avait perdu quand Arthas rasa la cité, jusqu'à la semaine où il ne rentra pas. Et parmi les abominations cousues là-haut, il en est une que les apothicaires appellent le Baron, et qu'ils connaissent sous un nom plus ancien : Othmar Garithos, le seigneur qui fit cause commune avec Sylvanas contre le Fléau et ne survécut pas à l'arrangement. Le capitaine Truman, qui le servait, attend toujours dans les ruines le retour de son commandant." },
-        { side = "Horde", aside = true, sign = "P. F.", "De tout ce qui figure sur cette page, c'est la marche hebdomadaire d'Edward Heartweaver qui me revient sans cesse." },
+        { "Tous ceux qui montent ne le font pas pour la reine banshee. Edward Tissecœur se rendait chaque semaine au cimetière, en quête du fils qu'il avait perdu quand Arthas rasa la cité, jusqu'à la semaine où il ne rentra pas. Et parmi les abominations cousues là-haut, il en est une que les apothicaires appellent le Baron, et qu'ils connaissent sous un nom plus ancien : Othmar Garithos, le seigneur qui fit cause commune avec Sylvanas contre le Fléau et ne survécut pas à l'arrangement. Le capitaine Truman, qui le servait, attend toujours dans les ruines le retour de son commandant." },
+        { side = "Horde", aside = true, sign = "P. F.", "De tout ce qui figure sur cette page, c'est la marche hebdomadaire d'Edward Tissecœur qui me revient sans cesse." },
       },
     },
     ["ruins-of-thaurissan"] = {
