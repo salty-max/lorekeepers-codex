@@ -1080,6 +1080,20 @@ check(
 )
 libraryPage.cards[1].scripts.OnClick(libraryPage.cards[1])
 check(libraryPage.title.text ~= "The Library", "… a card opens its text")
+-- (the Library at a glance, at the head of the list, as the Pages tab's codex)
+local head
+for _, r in ipairs(ns.libraryRows) do
+  if r.shown and r.kind == "overview" then head = r end
+end
+check(
+  head and head.text.text == "The Library" and not head.selected.shown,
+  "the Library at a glance at the head of the list"
+)
+head.scripts.OnClick(head)
+check(
+  libraryPage.title.text == "The Library" and head.selected.shown and libraryPage.tiles[1].shown,
+  "… its row clicked from a text: the Library at a glance again, its row chosen"
+)
 LorekeepersCodexFrame:Hide()
 
 -- ── achievements ─────────────────────────────────────────────────────────────

@@ -1,8 +1,9 @@
--- The Library's tab: on the left, the texts copied (Library.lua) on their
--- shelves (books, notes and letters, plaques), folded or open, and searched by
--- their words; on the right (the kit's page), a text one page at a time, with
--- where and when it was found; before one is opened, the Library at a glance:
--- its figures by shelf, the texts copied lately.
+-- The Library's tab: on the left, the Library at a glance at the head of the
+-- list, then the texts copied (Library.lua) on their shelves (books, notes
+-- and letters, plaques), folded or open, and searched by their words; on the
+-- right (the kit's page), a text one page at a time, with where and when it
+-- was found; before one is opened, or its row at the head clicked, the
+-- Library at a glance: its figures by shelf, the texts copied lately.
 local _, ns = ...
 local L = ns.kit.L
 local ui = ns.ui
@@ -73,7 +74,21 @@ local function refreshList()
     r.text:ClearAllPoints()
     r.selected:Hide()
     r.count:SetText("")
-    if kind == "shelf" then
+    if kind == "overview" then
+      -- (the Library at a glance, as the Pages tab's codex: chosen while shown)
+      r.fold:Hide()
+      r.text:SetPoint("LEFT", 4, 0)
+      r.text:SetPoint("RIGHT", -4, 0)
+      r.text:SetFont(ui.TITLE_FONT, 14, "")
+      if currentText == nil then
+        r.selected:Show()
+        r.text:SetTextColor(1, 1, 1)
+      else
+        r.text:SetTextColor(unpack(ui.T.gold))
+      end
+      r:SetHeight(22)
+      y = y + 22
+    elseif kind == "shelf" then
       r.fold:Show()
       r.text:SetPoint("LEFT", 18, 0)
       r.text:SetPoint("RIGHT", -30, 0)
@@ -92,6 +107,12 @@ local function refreshList()
     end
     r:Show()
     return r
+  end
+  if not searching then
+    add("overview", L["The Library"]):SetScript("OnClick", function()
+      showShelf()
+      refreshList()
+    end)
   end
   local empty = true
   for _, shelf in ipairs(SHELVES) do
