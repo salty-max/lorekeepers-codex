@@ -32,7 +32,7 @@ to III, WoW's quests and books, and the novels and histories about that
 period. Later expansion events and answers to mysteries left open in the
 original game are kept out. The Codex reads in English, French and German
 (the German a first translation). Other clients get English, with the places
-in their own language. Most unlocks use game ids, and reading-based unlocks
+and the Library's titles in their own language. Most unlocks use game ids, and reading-based unlocks
 recognise titles in every client language. Where you found a page is kept by
 the game's ids, so it follows your client's language, even after you switch.
 

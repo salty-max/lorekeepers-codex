@@ -49,7 +49,7 @@ One download covers Classic Era, Hardcore, Season of Discovery, TBC Anniversary 
 
 Forever includes a Zephras Isle chapter and pages about its new dungeons. Kill-based unlocks work in the open world. Inside Forever dungeons and raids, the game hides creatures from addons, so kills there cannot unlock pages.
 
-The Codex speaks English, French and German. With a French or German client, every page, chapter and window is in that language, with every name as the game itself writes it. Known books in the Library follow your client's language, including copies saved in English, French or German. Existing game translations are supplemented with our own where needed. Unknown texts stay as copied. The German is a first translation: corrections are welcome on GitHub. Other clients get English, with the places named in their own language. Where you found each page and book is kept by the game's own ids, so it follows your client's language, even after you switch.
+The Codex speaks English, French and German. With a French or German client, every page, chapter and window is in that language, with every name as the game itself writes it. Known books in the Library follow your client's language, including copies saved in English, French or German. Existing game translations are supplemented with our own where needed. Unknown texts stay as copied. The German is a first translation: corrections are welcome on GitHub. Other clients get English, with the places and the Library's titles in their own language. Where you found each page and book is kept by the game's own ids, so it follows your client's language, even after you switch.
 
 If you want to help with future Forever chapters, `/codex scan on` records the places, creatures and quest texts you encounter.
 
