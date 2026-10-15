@@ -132,12 +132,23 @@
   "i23016": "i23016",
   "i236002": "i236002",
   "i239246": "i239246",
+  "i251522": "i251522",
+  "i251941": "i251941",
+  "i254871": "i254871",
   "i2560": "i2560",
   "i2619": "i2619",
   "i2628": "i2628",
   "i2637": "i2637",
   "i2639": "i2639",
+  "i264693": "i264693",
+  "i265782": "i265782",
+  "i266895": "i266895",
+  "i267454": "i267454",
+  "i270151": "i270151",
+  "i270308": "i270308",
+  "i271745": "i271745",
   "i2720": "i2720",
+  "i272319": "i272319",
   "i2724": "i2724",
   "i2725": "i2725",
   "i2728": "i2728",
@@ -158,8 +169,35 @@
   "i2757": "i2757",
   "i2758": "i2758",
   "i2759": "i2759",
+  "i277976": "i277976",
+  "i279045": "i279045",
+  "i279048": "i279048",
+  "i280430": "i280430",
+  "i281046": "i281046",
+  "i281139": "i281139",
+  "i281149": "i281149",
+  "i281243": "i281243",
+  "i281328": "i281328",
+  "i281347": "i281347",
+  "i282338": "i282338",
+  "i282346": "i282346",
+  "i282380": "i282380",
+  "i282400": "i282400",
+  "i282416": "i282416",
+  "i282418": "i282418",
+  "i282419": "i282419",
+  "i282420": "i282420",
+  "i282421": "i282421",
+  "i282422": "i282422",
+  "i282423": "i282423",
   "i2832": "i2832",
   "i2837": "i2837",
+  "i285356": "i285356",
+  "i285357": "i285357",
+  "i286104": "i286104",
+  "i286200": "i286200",
+  "i286201": "i286201",
+  "i286202": "i286202",
   "i2885": "i2885",
   "i2956": "i2956",
   "i3017": "i3017",
@@ -2050,6 +2088,41 @@
     "liebeszuknftigesichvergissdiesesmalbittenichtdasbrotgalloneneiskaltemilchstckefeineraltercheddardierattenessenallesaufkstlicherschokoladenkuchenmachenwirlieberkuchendrausgefhrlicheeinheitengoblinraketentreibstoffthoriumrhrenechtsilberumwandlerdieschriftistbiszurunkenntlichkeitverschmiertgyrochronatome"
    ]
   },
+  "i251522": {
+   "title": "Blood-Stained Letter",
+   "pages": [
+    "My dearest Tabitha,\n\nHow strange it is to foretell my own death. I've written this note as I do not know the hour when fate will claim me and although I know that this is a poor apology for a proper speech, my quill fails in its attempt to convey my pain for departing from you.\n\nEvery day I wake to the sorrow I failed to protect you from. I am sorry I could not protect our dear boy and I am sorry that my grieving has fallen into a trap from which it cannot escape.\n\nYou are my love, and my confidante and my life counted for more than it could alone. Every week when I venture into the ruins of our once proud home, I fear it would be my last, and every time I am thankful I have you to return to.\n\nI pray we are reunited, if even for a moment."
+   ],
+   "patterns": [
+    "matrschretabithacommeilesttrangedeprdiremapropremortjcriscettenotecarjignorequelleheuremonsortserascellcestbienloinderemplacerdevraisadieuxjelesaistequitterainsiestunegrandedouleuretmaplumeabiendumallexprimerchaquejouraurveiljeretrouvelechagrindontjaichouteprotgerjesuisdsoldenepasavoirpusauvernotrecherpetitetdavoirlaissledeuilmemenerdansunpigeauqueljenepeuxpluschappertuesmaconfidenteetlamourdemavieuneviequinauraitpascomptautantsanstaprsencechaquesemainequandjepntredanslesruinesdenotrefirecitjecrainsquecesoitladernirefoisetjeremerciechaquefoislaprovidenceensachantquecestauprsdetoiquejerentreraijepriepourquenoussoyonsrunisneseraitcequuninstant",
+    "mydearesttabithahowstrangeitistoforetellmyowndeathivewrittenthisnoteasidonotknowthehourwhenfatewillclaimmeandalthoughiknowthatthisisapoorapologyforaproperspeechmyquillfailsinitsattempttoconveymypainfordepartingfromyoueverydayiwaketothesorrowifailedtoprotectyoufromiamsorryicouldnotprotectourdearboyandiamsorrythatmygrievinghasfallenintoatrapfromwhichitcannotescapeyouaremyloveandmyconfidanteandmylifecountedformorethanitcouldaloneeveryweekwheniventureintotheruinsofouronceproudhomeifearitwouldbemylastandeverytimeiamthankfulihaveyoutoreturntoipraywearereunitedifevenforamoment"
+   ]
+  },
+  "i251941": {
+   "title": "Scribbled Letter",
+   "pages": [
+    "Oi, you, $C. Get off yer duff and come see me behind the abbey. A soft, green hunter such as yerself canna hope to survive let alone thrive in this land without some guidance, and ol' Tordrin is here to provide it, if ye have the guts!\n\nTordrin Stemblade, (extremely handsome) Hunter Trainer"
+   ],
+   "patterns": [
+    "heyihr[a-z]*bewegteuchundkommtzumirhinterdieabteieinezartegrnejgergestaltwieihrkannohneanleitungnichthoffenindiesemlandzuberlebengeschweigedennsichzuentwickelnaberderaltetordrinhierkanneuchgenaudasbietenwennihrdenmummdazuhabttordrinstembladeextremgutaussehenderjgerausbilder",
+    "hvous[a-z]*bougezvousetvenezmevoirderrirelabbayesansguideunchasseurnovicetellequevousnaaucunechancedesedbrouillernimmedesurvivredanslesenvironsheureusementlebonvieuxtordrinestlpourvousfileruncoupdemainsivousvoussentezdattaquetordrintigelamematredeschasseursettrsbelhomme",
+    "hvous[a-z]*bougezvousetvenezmevoirderrirelabbayesansguideunchasseurnovicetelquevousnaaucunechancedesedbrouillernimmedesurvivredanslesenvironsheureusementlebonvieuxtordrinestlpourvousfileruncoupdemainsivousvoussentezdattaquetordrintigelamematredeschasseursettrsbelhomme",
+    "hvous[a-z]*bougezvousetvenezmevoirderrirelabbayesansguideunechasseressenovicetellequevousnaaucunechancedesedbrouillernimmedesurvivredanslesenvironsheureusementlebonvieuxtordrinestlpourvousfileruncoupdemainsivousvoussentezdattaquetordrintigelamematredeschasseursettrsbelhomme",
+    "hvous[a-z]*bougezvousetvenezmevoirderrirelabbayesansguideunechasseressenovicetelquevousnaaucunechancedesedbrouillernimmedesurvivredanslesenvironsheureusementlebonvieuxtordrinestlpourvousfileruncoupdemainsivousvoussentezdattaquetordrintigelamematredeschasseursettrsbelhomme",
+    "oiyou[a-z]*getoffyerduffandcomeseemebehindtheabbeyasoftgreenhuntersuchasyerselfcannahopetosurviveletalonethriveinthislandwithoutsomeguidanceandoltordrinisheretoprovideitifyehavethegutstordrinstembladeextremelyhandsomehuntertrainer"
+   ]
+  },
+  "i254871": {
+   "title": "Bloody Note",
+   "pages": [
+    "The cult hit us by surprise. Raani never saw it coming and Arvensus took a sword to the gut. For my part, I took a lightning bolt to the chest and blacked out. They never bothered to finish me off... I guess they assumed my wounds would do me in. When it's all said and done, I suspect they might.",
+    "As soon as the fighting stopped, they started moving massive crates of windstones to the top of the tower. The leader, some kind of priest, said something about a ritual.\n\nI'm writing this note just in case I don't make it back to Shen'dar to warn Aonda, but they are doing something here. Something bad.",
+    "If anyone finds this, please, do your best to stop them. There were only a few left at the tower when I scribbled this note and crawled away.\n\nAlso, try and get Raani's lucky feather from his body. He liked to tell tall tales about how he plucked it from some kind of firebird and I think he'd want to make sure that it made its way back home.\n\nIf you are also able to retrieve Arvensus Shadowsong's family signet from his body, please do so. High Elder Shadowsong is his uncle and he would want it to be returned to the family."
+   ],
+   "patterns": [
+    "theculthitusbysurpriseraanineversawitcomingandarvensustookaswordtothegutformypartitookalightningbolttothechestandblackedouttheyneverbotheredtofinishmeoffiguesstheyassumedmywoundswoulddomeinwhenitsallsaidanddoneisuspecttheymight"
+   ]
+  },
   "i2560": {
    "title": "Jitters' Completed Journal",
    "pages": [
@@ -2132,6 +2205,82 @@
     "tarrelexcusezmoidevouscrirelavavitemaisnousnavonspasleluxedutempslquipedeforageafaitdesprogrssignificatifsexhumantdimportantsartefactsdestitansmaisnousavonsgalementtrouvdautresobjetsantiquesenparticulierdesossementsdegrandetaille"
    ]
   },
+  "i264693": {
+   "title": "Scarlet Crusade Attack Plans",
+   "pages": [
+    "We will attack the city of Brill just before dawn. The ancillary force will set the zeppelin tower aflame as a distraction. Once the fire is lit and the city defenders are drawn away, the main force led by the lieutenant will engage from the north. The Magistrate and civilians are the primary targets. Destroy all you see, and incinerate the bodies.\n\nThey say that the Forsaken feel no fear. We will put the fear of the light back into them, brothers and sisters. For Lordaeron!"
+   ],
+   "patterns": [
+    "wewillattackthecityofbrilljustbeforedawntheancillaryforcewillsetthezeppelintoweraflameasadistractiononcethefireislitandthecitydefendersaredrawnawaythemainforceledbythelieutenantwillengagefromthenorththemagistrateandciviliansaretheprimarytargetsdestroyallyouseeandincineratethebodiestheysaythattheforsakenfeelnofearwewillputthefearofthelightbackintothembrothersandsistersforlordaeron",
+    "wirgreifendiestadtbrillkurzvormorgengrauenanderhilfstruppsorgtfrablenkungindemerdenzeppelinturminbrandstecktsobalddasfeuergelegtistunddiestadtverteidigerweggelocktwurdennhertsichdiehauptstreitmachtangefhrtvomlieutenantausdemnordenprimrzielsinddermagistratunddiezivilistenzerstrtalleswasihrsehtundverbrenntdieleichenesheitdieverlassenenempfndenkeinefurchtwirwerdenihnenerneutdiefurchtvordemlichteinflenbrderundschwesternfrlordaeron"
+   ]
+  },
+  "i265782": {
+   "title": "Mysterious Orders",
+   "pages": [
+    "Brother Haalien,\n\nIt is time to prove your worth to the Al'Aketh! Go into Shadowgale to find the pylon. You have conveyed your concerns about the druids and the highest in our order have heard you.\n\nTake these faithful soldiers with you in your righteous mission. Kill the druids swiftly lest they interfere with our plans. We have eyes and ears in Valanaar that will confirm when you have been successful.\n\nThe time of reckoning is at hand! None shall be able to stop the ushering!\n\n-N"
+   ],
+   "patterns": [
+    "brotherhaalienitistimetoproveyourworthtothealakethgointoshadowgaletofindthepylonyouhaveconveyedyourconcernsaboutthedruidsandthehighestinourorderhaveheardyoutakethesefaithfulsoldierswithyouinyourrighteousmissionkillthedruidsswiftlylesttheyinterferewithourplanswehaveeyesandearsinvalanaarthatwillconfirmwhenyouhavebeensuccessfulthetimeofreckoningisathandnoneshallbeabletostoptheusheringn",
+    "bruderhaalienesistzeitdenalaketheurenwertzubeweisenbegebteuchnachschattenwindundfindetdenpylonenihrhabteurebedenkenbezglichderdruidenzumausdruckgebrachtunddiehchstrangigeninunseremordenhabensievernommennehmtdiesetreuensoldatenaufeuregerechtemissionmitttetdiedruidenschnellbevorsieunsereplnedurchkreuzenknnenwirhabenaugenundohreninvalanaardieunseurenerfolgbesttigenwerdendiezeitderabrechnungistangebrochenundniemandwirdsieaufhaltenknnenn",
+    "frrehaalienilesttempsdefairevospreuvesauxalakethrendezvousdanstrombenoireetlocalisezlepylnevousavezfaitpartdevosrservesausujetdesdruidesetlesautoritsdelordrevousontentenducespreuxsoldatsvousaccompagnerontdansvotremissionsacreliminezlesdruidessanstarderpourquilsnentraventpasnosplansnosyeuxetnosoreillesvalanaarpourrontnousconfirmervotrerussitelheuredelavengeanceasonnnulnepourrafaireobstaclelavnementn"
+   ]
+  },
+  "i266895": {
+   "title": "Solomon's Plea to Farholde",
+   "pages": [
+    "Lord Ebonlocke--\n\nThe Township of Lakeshire humbly requests the aid of the Night Watch.  We are under siege from both the Blackrock orcs and Morganth's Shadowhide gnolls.  I would not send bidding if our situation was not severe.  We await aid from Stormwind but until such help arrives, I beg of you to lend support.  Once the kingdom is breached, all of humanity is in peril.\n\nMagistrate Solomon"
+   ],
+   "patterns": [
+    "lordebonlockediestadtseenhainbittetuntertnigstumhilfedurchdienachtwachewirwerdenvondenorcsderblackrockebensobelagertwievonmorganthsschattenfellgnollenichwrdenichtumhilfebittenwredielagenichtsoernstwirerwartenhilfeausstormwindaberbisdieseeintrifftfleheicheuchumuntersttzunganwirddasknigreicherstberranntsindallemenscheningefahrmagistratsolomon",
+    "lordebonlockethetownshipoflakeshirehumblyrequeststheaidofthenightwatchweareundersiegefromboththeblackrockorcsandmorganthsshadowhidegnollsiwouldnotsendbiddingifoursituationwasnotsevereweawaitaidfromstormwindbutuntilsuchhelparrivesibegofyoutolendsupportoncethekingdomisbreachedallofhumanityisinperilmagistratesolomon",
+    "seigneurebonlockelavilledelakeshiredemandehumblementlaidedesveilleursnoussommesassigslafoisparlesorcsblackrocketlesgnollssombrepoildemorganthjenauraispasenvoydedemandesinotresituationntaitpassidlicatenousattendonsdelaidedestormwindmaisavantquecetteaidenarrivejevoussuppliedebienvouloirnousaccorderdesrenfortssileroyaumeestatteintcesttoutelhumanitquiestmenacemagistratsolomon"
+   ]
+  },
+  "i267454": {
+   "title": "Trevan's Weapon Notes",
+   "pages": [
+    "$N,\nOld Fire-Eye is a magical creature of the night, and as such, we require a magical weapon that is also of the night. We can infuse such a weapon with the light of the full moon and use it to turn the dark magic that drives this creature against itself. For this, we need a specific set of materials to craft a blade of brilliant moonsilver, capable of destroying this evil utterly.\n\nThis won't be easy, but you've shown great promise so I trust that you'll be able to get what we need.",
+    "Enchanted Moonsilver - This is the key ingredient to our creation. Moonsilver is an incredibly rare material, made from enchanted silver infused with the raw power of the moon. A number of weapons were forged to fight off the worgen once the curse began to take hold in Silverpine. Unfortunately they are all lost now and the location of the last remaining moonsilver ingots is unknown.\n\nThere is a rumor that there was a cache of such material in Shadowfang Keep to the south. It's a longshot, but it's our best bet for now to find some of this moonsilver.",
+    "Some good whitestone oak - There is a place in Westfall known as Moonbrook that once had an abundance of the lumber, used by the alliance artisans to rebuild stormwind after the second war.\n\nMoonbrook has fallen on tough times, but I've heard that goblin woodcarvers have been hired by a syndicate of bandits to build something in the mines under the town. I'd bet my left boot that they would have claimed any of the rare lumber that was left in town when they moved in.",
+    "A Kor Gem - From the tales I've been told, the gems are used by some spell casters to hold energy for their magics, making them even deadlier. I believe one of the gem's stored energies can be used in your weapon's creation.\n\nThere is a mage I once knew called Ulric Frostveil that can tell you more of these gems. Last I heard he was in kalimdor, at the Zoram'gar Outpost in western Ashenvale."
+   ],
+   "patterns": [
+    "[a-z]*oldfireeyeisamagicalcreatureofthenightandassuchwerequireamagicalweaponthatisalsoofthenightwecaninfusesuchaweaponwiththelightofthefullmoonanduseittoturnthedarkmagicthatdrivesthiscreatureagainstitselfforthisweneedaspecificsetofmaterialstocraftabladeofbrilliantmoonsilvercapableofdestroyingthisevilutterlythiswontbeeasybutyouveshowngreatpromisesoitrustthatyoullbeabletogetwhatweneed"
+   ]
+  },
+  "i270151": {
+   "title": "Benedict's Orders",
+   "pages": [
+    "Corporal Adamore,\n\nAt first light you are to muster a force of no more than 10 marines and report to a bounty hunter by the name of Terry Longdrink. You will be joining him in pursuit of a dangerous deserter whom you should presume to be armed and hostile.\n\nThis bounty hunter was a trusted ally of the Lord Admiral before his passing, and I expect you to show Longdrink the same deference you'd show any superior officer.\n\n--Lieutenant Benedict"
+   ],
+   "patterns": [
+    "corporaladamoreatfirstlightyouaretomusteraforceofnomorethanmarinesandreporttoabountyhunterbythenameofterrylongdrinkyouwillbejoininghiminpursuitofadangerousdeserterwhomyoushouldpresumetobearmedandhostilethisbountyhunterwasatrustedallyofthelordadmiralbeforehispassingandiexpectyoutoshowlongdrinkthesamedeferenceyoudshowanysuperiorofficerlieutenantbenedict",
+    "corporaladamoreimmorgengrauenwerdetihreinestreitkraftausnichtmehralsmarinesoldatenzusammenstellenundeuchbeieinemkopfgeldjgernamensterrylongdrinkmeldengemeinsammitihmwerdetihreuchaufdiespureinesgefhrlichendeserteurssetzendervoraussichtlichbewaffnetundeuchgegenberfeindseligeingestelltsinddieserkopfgeldjgerwarvordessentodeinvertrauenswrdigerverbndeterdeslordadmiralsicherwartealsodassihrlongdrinkdenselbenrespektwiejedemhherrangigenoffizierentgegenbringtlieutenantbenedict"
+   ]
+  },
+  "i270308": {
+   "title": "The First Tablet of I'lalai",
+   "pages": [
+    "A Moon over the Vale shines\nCasting its glow upon the jungle\nWhere proud Warriors heed the call\nTo defend our Nation and sacred grounds.\n\nA Moon over the Vale shines\nFar above the cries of battle\nWhere blood is spilled\nOf foe and comrade alike.",
+    "And when our brethren pass\nInto realms beyond the known\nThe soul-spirit hardens\nDeep beneath the Vale.\n\nAnd when our brethren pass\nInto the Mountain's Temple\nWe shall protect their eternal spirit\nEncased within the holy blue crystal.\n\nAnd when our brethren pass\nA Moon over the Vale shines."
+   ],
+   "patterns": [
+    "amoonoverthevaleshinescastingitsglowuponthejunglewhereproudwarriorsheedthecalltodefendournationandsacredgroundsamoonoverthevaleshinesfarabovethecriesofbattlewherebloodisspilledoffoeandcomradealike",
+    "dermondstehtbermtaletauchtdenwaldinmatteslichtwostolzekriegerdenrufvernehmenzuverteidigenunserlandundheilgengrunddermondstehtbermtalehochbermschlachtgetmmelwoblutinstrmenflietundfreundwiefeindzubodensinkt",
+    "unelunebrilleaudessusdelavallenoyantlajungledeseslueurscestlquedefiersguerrierssuiventlappeldenotrepaysetdesesterressacresunelunebrilleaudessusdelavallebienaudessusdesclameursducombatoseverselesangdelennemietdenoscamarades"
+   ]
+  },
+  "i271745": {
+   "title": "Bloody Map",
+   "pages": [
+    "<A crude rendition of the landscape, with a clear point of interest indicated.>\n\nMogodun- z kost a-hine\nta golg\ngar thon- kha z'ta gor weard-hald\n\n<The map is in too poor of condition to make out any other writing.>"
+   ],
+   "patterns": [
+    "acruderenditionofthelandscapewithaclearpointofinterestindicatedmogodunzkostahinetagolggarthonkhaztagorweardhaldthemapisintoopoorofconditiontomakeoutanyotherwriting",
+    "einegrobeskizzederlandschaftmiteinemklargekennzeichnetenortvoninteressemogodunzkostahinetagolggarthonkhaztagorweardhalddiekarteistineinemzuschlechtenzustandumweitereteilederschriftzuentziffern"
+   ]
+  },
   "i2720": {
    "title": "Muddy Note",
    "pages": [
@@ -2144,6 +2293,30 @@
     "dayamtoamuppercampamtoambreaklunchamtopmcanyonpasspmtopmuppercampdaysamescheduleasdaydaysamescheduledaysameschedulewithoneexceptionjustbeforesunsetthorsenhadmecoverforhimashecreptdownthecanyonpassiassumedhewenttomeetwithouragentsbuthereturnedanhourlaterthissurprisedmeihadhopedhemetwithouragentsandwouldrejoinkurzensomethingiswrong",
     "jourhhcampsuprieurhhpausedjeunerhhpasseducanyonhhcampsuprieurjouridemjourjouridemjouridemuneexceptionjusteavantlecrpusculethorsenmademanddelecouvrirpendantquilsenfonaitdanslapasseducanyonjesupposequilestallrencontrerundenosagentsmaisilestrevenuuneheureplustardcelamasurprisjespraisquilavaitrencontrundenosagentsetrejointkurzenquelquechosenevapas",
     "taguhrbisuhrmorgensobereslageruhrbisuhrmittagspauseuhrbisuhrnachmittagsschluchtpassuhrnachmittagsbisabendsobereslagertaggleicherablaufwieantagtaggleicherablauftaggleicherablaufmiteinerausnahmekurzvorsonnenaufgangsollteichthorsendeckenderdenschluchtpasshinunterschlichichnahmanerhabesichmitunserenagentengetroffenabererwarschoneinestundespterzurckdasberraschtemichichhattegehoffterhttesichmitunserenagentengetroffenundwrdesichwiederkurzenanschlieenhierstimmtwasnicht"
+   ]
+  },
+  "i272319": {
+   "title": "Tattered Note",
+   "pages": [
+    "Gul'dan agreed and decided that once the denizens of Azeroth were beaten, he would find the legendary tomb and claim his reward. Assured that the Horde would serve his purposes, Sargeras ordered the invasion to begin.",
+    "Through a joint effort, Medivh and the warlocks of the Shadow Council opened the dimensional gateway known as the Dark Portal. This portal bridged the distance between Azeroth and Draenor, and it was large enough that armies might pass through it. Gul'dan dispatched orc scouts through the portal to survey the lands which they would conquer. The returning scouts assured the Shadow Council that the world of Azeroth was ripe for the taking.",
+    "Still convinced that Gul'dan's corruption would destroy his people, Durotan spoke out against the warlocks once more. The brave warrior claimed that warlocks were destroying the purity of the orcish spirit and that this reckless invasion would be their doom. Gul'dan, unable to risk killing such a popular hero, was forced to exile Durotan and his Frostwolf Clan into the far reaches of this new world.",
+    "After the exiled Frostwolves charged through the portal, only a few orc clans followed. These orcs quickly set up a base of operations within the Black Morass, a dark and swampy area far to the east of the kingdom of Stormwind. As the orcs began to branch out and explore the new lands, they came into immediate conflict with the human defenders of Stormwind.",
+    "Though these skirmishes usually ended quickly, they did much to illustrate the weaknesses and strengths of both rival species. Llane and Lothar were never able to gather accurate data of the orcs' numbers and could only guess at how great a force they would have to contend with.",
+    "After a few years the majority of the orcish Horde had crossed into Azeroth, and Gul'dan deemed that the time for the primary strike against humanity had come. The Horde launched its full might against the unsuspecting kingdom of Stormwind.",
+    "As the forces of Azeroth and the Horde clashed across the kingdom, internal conflicts began to take their toll on both armies. King Llane, who believed the bestial orcs to be incapable of conquering Azeroth, contemptuously held his position at his capital of Stormwind. However, Sir Lothar became convinced that the battle should be taken directly to the enemy, and he was forced to choose between his convictions and his loyalty to the king.",
+    "Choosing to follow his instincts, Lothar stormed Medivh's tower-fortress of Karazhan with the help of the wizard's young apprentice, Khadgar. Khadgar and Lothar succeeded in vanquishing the possessed Guardian, whom they confirmed to be the source of the conflict.",
+    "By killing Medivh's body, Lothar and the young apprentice inadvertently banished the spirit of Sargeras to the abyss. As a consequence, the pure, virtuous spirit of Medivh was also allowed to live on... and wander the astral plane for many years to come.",
+    "Although Medivh had been defeated, the Horde continued to dominate the defenders of Stormwind. As the Horde's victory drew nearer, Orgrim Doomhammer, one of the greatest orc chieftains, began to see the depraved corruption that had spread throughout the clans since their time in Draenor.",
+    "His old comrade, Durotan, returned from exile and warned him yet again of Gul'dan's treachery. In speedy retribution, Gul'dan's assassins murdered Durotan and his family, leaving only his infant son alive. Unknown to Doomhammer was the fact that Durotan's infant son was found by the human officer, Aedelas Blackmoore, and taken as a slave.\n\nThat infant orc would one day rise to become the greatest leader his people would ever know.",
+    "Incensed by Durotan's death, Orgrim set out to free the Horde from demonic corruption and ultimately assumed the role of warchief of the Horde by killing Gul'dan's corrupt puppet, Blackhand. Under his decisive leadership the relentless Horde finally laid siege to Stormwind Keep.",
+    "King Llane had severely underestimated the might of the Horde, and he watched helplessly as his kingdom fell to the green-skinned invaders. Ultimately King Llane was assassinated by one of the Shadow Council's finest killers: the half-orc, Garona.",
+    "Lothar and his warriors, returning home from Karazhan, hoped to stem the loss of life and save their once-glorious homeland. Instead, they returned too late and found their beloved kingdom in smoking ruins. The orcish Horde continued to ravage the countryside and claimed the surrounding lands for its own. Forced into hiding, Lothar and his companions swore a grim oath to reclaim their homeland at any cost."
+   ],
+   "patterns": [
+    "guldanacceptaetdcidaquunefoisquelescitoyensdazerothseraientbattusiltrouveraitlatombelgendaireetdemanderaitsarcompensedsormaiscertainquelahordeserviraitsesdesseinssargerasordonnaledbutdelinvasion",
+    "guldanagreedanddecidedthatoncethedenizensofazerothwerebeatenhewouldfindthelegendarytombandclaimhisrewardassuredthatthehordewouldservehispurposessargerasorderedtheinvasiontobegin",
+    "guldanwilligteeinundbeschlossdasserdaslegendregrabfindenundseinebelohnungeinfordernwrdesobalddiebewohnervonazerothunterworfenwarensargeraswarsichnunsicherdassdiehordeseinenzweckendienenwrdeundgabdenbefehlzumbeginnderinvasion"
    ]
   },
   "i2724": {
@@ -2391,6 +2564,266 @@
     "jaimenlegroupejusqulameresprantquelerivagenousfourniraituneprotectioncontrelesraptorsdansnotrehtenoussommesallstroploinverslenordjusquunpromontoiredangereusementescarperreurfatalemafautenousnoussommesretrouvsbloqussurunecornichelesraptorsquelquespasderrirenous"
    ]
   },
+  "i277976": {
+   "title": "Gozwin's Mechanic's Log",
+   "pages": [
+    "Mechanic's Log\n\n<The small leatherbound journal is covered in oil and grease stains. There are sketches of schematics and mechanical configurations, each with notation and written descriptions. You flip to a random page.>\n\nThis commission will pay the bills for years. I just have to figure out how to keep the oscillation neutralizer from overheating or grinding itself to metal shavings. What I need to do is vortex transfer the excess heat into the combustion core, but I've been putting that off cause I'll need to dismantle the entire walker and then take the whole engine apart.\n\nPage 17",
+    "<You thumb through more of the bound paper and land on a diagram spread across both pages.>\n\nWeapons System Modifications\n\nIce Turret - Operational\nFlame Thrower - Operational\nElectro Pulse - Operational\nRadiation Spray - Operational\nAuto Rifle - Operational\nLaser Cutting Beam - EXPERIMENTAL\nSonic Cannon - EXPERIMENTAL\nPhase Ray - CONCEPT ONLY\n\nPage 34                                      Page 35",
+    "TO-DO\n\nPack equipment for hunting trip\nMake utility hooks for Grund's belt\nFix welding visor\nSend Mom a card\n\nPage 45"
+   ],
+   "patterns": [
+    "journaldumcaniciencepetitjournalreliencuirestcouvertdetachesdhuileetdegraisseonytrouvedescroquisdedispositifsmcaniquestousannotsvouslouvrezunepageauhasardcettecommandemeferavivrependantdesannesilfautjustequejetrouveunmoyendempcherleneutralisateurdoscillationsdesurchaufferoudeserduireencopeauxluimmeilfautquejinstalleunevortexificationdelexcsdechaleurverslenoyaudecombustionmaisjenemysuispasencoremisparcequilfaudraitdmontertoutletrotteuretensuitetoutlemoteurpage",
+    "mechanicslogthesmallleatherboundjournaliscoveredinoilandgreasestainstherearesketchesofschematicsandmechanicalconfigurationseachwithnotationandwrittendescriptionsyoufliptoarandompagethiscommissionwillpaythebillsforyearsijusthavetofigureouthowtokeeptheoscillationneutralizerfromoverheatingorgrindingitselftometalshavingswhatineedtodoisvortextransfertheexcessheatintothecombustioncorebutivebeenputtingthatoffcauseillneedtodismantletheentirewalkerandthentakethewholeengineapartpage",
+    "mechanikerprotokolldaskleineledergebundenetagebuchistmitlundfettfleckenberstesenthltskizzenvonschaltplnenundmechanischenkonfigurationenallesamtmitanmerkungenundbeschreibungenversehenihrschlagteinezuflligeseiteaufdieserauftragwirdjahrelangfrunserenlebensunterhaltsorgenichmussnurherausfindenwieichverhindernkanndasssichderoszillationsneutralisiererberhitztodersichselbstzumetallspnenzermahltichmussdieberschssigewrmemithilfeeinesvortextransfersindenverbrennungskernumleitenaberichhabedasbisheraufgeschobenweilichdafrdenganzenrahmenauseinanderbauenunddanndengesamtenmotorzerlegenmussseite"
+   ]
+  },
+  "i279045": {
+   "title": "Thundris' Letter",
+   "pages": [
+    "Mr. Alexston of Stormwind,\n\nI must congratulate you on the long journey restoring the city of Stormwind. Many whose path crosses Auberdine speak well of its grandeur and sound foundations. It is this success that bid me send you this message.\n\nAuberdine has found its place in this world by the sea. Where we were once isolated, we now find hope carried by the very winds that batter our shores.\n\nThis courier represents one such traveler the winds bore to me. I hope that they may aid your people as they have mine.\n\nIn return, I ask that you might send supplies and labor to Auberdine, such that we might bolster the city against the wrath of this world that has taken so much from us.\n\n-- Thundris Windweaver, Elder of Auberdine"
+   ],
+   "patterns": [
+    "herralexstonvonstormwindichmusseuchzumwiederaufbauvonstormwindundeuremlangenatemaufdemwegdorthingratulierenvielereisendediedurchauberdinekommensprechenvolleranerkennungberdieprachtunddassolidefundamentderstadtdiesererfolgveranlasstemicheuchdiesenachrichtzusendenauberdinehatseinenplatzinderweltammeergefundeneinstwarenwirisoliertdochnuntragendieselbenwindedieunserenkstenzusetzenneuehoffnungzuunsdiesebotinisteinederreisendendiederwindmirzugetragenhatichhoffeuersiewirdeuremvolkgenausohelfenwieermirgeholfenhatalsgegenleistungbitteicheuchvorrteundarbeiternachauberdinezuschickendamitwirunseresiedlunggegendenzorndieserweltwappnenknnenderunssovielgenommenhatthundriswindwirkerltestervonauberdine",
+    "herralexstonvonstormwindichmusseuchzumwiederaufbauvonstormwindundeuremlangenatemaufdemwegdorthingratulierenvielereisendediedurchauberdinekommensprechenvolleranerkennungberdieprachtunddassolidefundamentderstadtdiesererfolgveranlasstemicheuchdiesenachrichtzusendenauberdinehatseinenplatzinderweltammeergefundeneinstwarenwirisoliertdochnuntragendieselbenwindedieunserenkstenzusetzenneuehoffnungzuunsdiesebotinisteinederreisendendiederwindmirzugetragenhatichhoffeuersiewirdeuremvolkgenausohelfenwiesiemirgeholfenhatalsgegenleistungbitteicheuchvorrteundarbeiternachauberdinezuschickendamitwirunseresiedlunggegendenzorndieserweltwappnenknnenderunssovielgenommenhatthundriswindwirkerltestervonauberdine",
+    "herralexstonvonstormwindichmusseuchzumwiederaufbauvonstormwindundeuremlangenatemaufdemwegdorthingratulierenvielereisendediedurchauberdinekommensprechenvolleranerkennungberdieprachtunddassolidefundamentderstadtdiesererfolgveranlasstemicheuchdiesenachrichtzusendenauberdinehatseinenplatzinderweltammeergefundeneinstwarenwirisoliertdochnuntragendieselbenwindedieunserenkstenzusetzenneuehoffnungzuunsdiesebotinisteinerderreisendendiederwindmirzugetragenhatichhoffeuersiewirdeuremvolkgenausohelfenwieermirgeholfenhatalsgegenleistungbitteicheuchvorrteundarbeiternachauberdinezuschickendamitwirunseresiedlunggegendenzorndieserweltwappnenknnenderunssovielgenommenhatthundriswindwirkerltestervonauberdine",
+    "herralexstonvonstormwindichmusseuchzumwiederaufbauvonstormwindundeuremlangenatemaufdemwegdorthingratulierenvielereisendediedurchauberdinekommensprechenvolleranerkennungberdieprachtunddassolidefundamentderstadtdiesererfolgveranlasstemicheuchdiesenachrichtzusendenauberdinehatseinenplatzinderweltammeergefundeneinstwarenwirisoliertdochnuntragendieselbenwindedieunserenkstenzusetzenneuehoffnungzuunsdiesebotinisteinerderreisendendiederwindmirzugetragenhatichhoffeuersiewirdeuremvolkgenausohelfenwiesiemirgeholfenhatalsgegenleistungbitteicheuchvorrteundarbeiternachauberdinezuschickendamitwirunseresiedlunggegendenzorndieserweltwappnenknnenderunssovielgenommenhatthundriswindwirkerltestervonauberdine",
+    "herralexstonvonstormwindichmusseuchzumwiederaufbauvonstormwindundeuremlangenatemaufdemwegdorthingratulierenvielereisendediedurchauberdinekommensprechenvolleranerkennungberdieprachtunddassolidefundamentderstadtdiesererfolgveranlasstemicheuchdiesenachrichtzusendenauberdinehatseinenplatzinderweltammeergefundeneinstwarenwirisoliertdochnuntragendieselbenwindedieunserenkstenzusetzenneuehoffnungzuunsdieserboteisteinederreisendendiederwindmirzugetragenhatichhoffeuersiewirdeuremvolkgenausohelfenwieermirgeholfenhatalsgegenleistungbitteicheuchvorrteundarbeiternachauberdinezuschickendamitwirunseresiedlunggegendenzorndieserweltwappnenknnenderunssovielgenommenhatthundriswindwirkerltestervonauberdine",
+    "herralexstonvonstormwindichmusseuchzumwiederaufbauvonstormwindundeuremlangenatemaufdemwegdorthingratulierenvielereisendediedurchauberdinekommensprechenvolleranerkennungberdieprachtunddassolidefundamentderstadtdiesererfolgveranlasstemicheuchdiesenachrichtzusendenauberdinehatseinenplatzinderweltammeergefundeneinstwarenwirisoliertdochnuntragendieselbenwindedieunserenkstenzusetzenneuehoffnungzuunsdieserboteisteinederreisendendiederwindmirzugetragenhatichhoffeuersiewirdeuremvolkgenausohelfenwiesiemirgeholfenhatalsgegenleistungbitteicheuchvorrteundarbeiternachauberdinezuschickendamitwirunseresiedlunggegendenzorndieserweltwappnenknnenderunssovielgenommenhatthundriswindwirkerltestervonauberdine",
+    "herralexstonvonstormwindichmusseuchzumwiederaufbauvonstormwindundeuremlangenatemaufdemwegdorthingratulierenvielereisendediedurchauberdinekommensprechenvolleranerkennungberdieprachtunddassolidefundamentderstadtdiesererfolgveranlasstemicheuchdiesenachrichtzusendenauberdinehatseinenplatzinderweltammeergefundeneinstwarenwirisoliertdochnuntragendieselbenwindedieunserenkstenzusetzenneuehoffnungzuunsdieserboteisteinerderreisendendiederwindmirzugetragenhatichhoffeuersiewirdeuremvolkgenausohelfenwieermirgeholfenhatalsgegenleistungbitteicheuchvorrteundarbeiternachauberdinezuschickendamitwirunseresiedlunggegendenzorndieserweltwappnenknnenderunssovielgenommenhatthundriswindwirkerltestervonauberdine",
+    "herralexstonvonstormwindichmusseuchzumwiederaufbauvonstormwindundeuremlangenatemaufdemwegdorthingratulierenvielereisendediedurchauberdinekommensprechenvolleranerkennungberdieprachtunddassolidefundamentderstadtdiesererfolgveranlasstemicheuchdiesenachrichtzusendenauberdinehatseinenplatzinderweltammeergefundeneinstwarenwirisoliertdochnuntragendieselbenwindedieunserenkstenzusetzenneuehoffnungzuunsdieserboteisteinerderreisendendiederwindmirzugetragenhatichhoffeuersiewirdeuremvolkgenausohelfenwiesiemirgeholfenhatalsgegenleistungbitteicheuchvorrteundarbeiternachauberdinezuschickendamitwirunseresiedlunggegendenzorndieserweltwappnenknnenderunssovielgenommenhatthundriswindwirkerltestervonauberdine",
+    "malexstondehurleventjedoisvousfliciterpourtousvoseffortsconsacrslarestaurationdehurleventnombredevisiteursdepassageauberdinevantentsagrandeuretsessolidesfondationscestcetterussitequimepoussevouscrireauberdineatrouvsaplacedanslemondeauborddelameralorsquenotrecittaitautrefoisisolelesventsquibalaientnosrivagessontdsormaisporteursdespoircemessagerestlunedesmesquelesventsontpoussesdansmadirectionjesprequellesemontreraaussiutilevotrepeuplequellelatpourlemienenretourjevoussauraisgrdenvoyerfournituresetmainduvreauberdineafinquenouspuissionsprparerlacitaffronterlecourrouxdecemondequinousadjtantpristhundristisseventanciendauberdine",
+    "malexstondehurleventjedoisvousfliciterpourtousvoseffortsconsacrslarestaurationdehurleventnombredevisiteursdepassageauberdinevantentsagrandeuretsessolidesfondationscestcetterussitequimepoussevouscrireauberdineatrouvsaplacedanslemondeauborddelameralorsquenotrecittaitautrefoisisolelesventsquibalaientnosrivagessontdsormaisporteursdespoircemessagerestlunedesmesquelesventsontpoussesdansmadirectionjesprequilsemontreraaussiutilevotrepeuplequellelatpourlemienenretourjevoussauraisgrdenvoyerfournituresetmainduvreauberdineafinquenouspuissionsprparerlacitaffronterlecourrouxdecemondequinousadjtantpristhundristisseventanciendauberdine",
+    "malexstondehurleventjedoisvousfliciterpourtousvoseffortsconsacrslarestaurationdehurleventnombredevisiteursdepassageauberdinevantentsagrandeuretsessolidesfondationscestcetterussitequimepoussevouscrireauberdineatrouvsaplacedanslemondeauborddelameralorsquenotrecittaitautrefoisisolelesventsquibalaientnosrivagessontdsormaisporteursdespoircettemessagreestlunedesmesquelesventsontpoussesdansmadirectionjesprequellesemontreraaussiutilevotrepeuplequellelatpourlemienenretourjevoussauraisgrdenvoyerfournituresetmainduvreauberdineafinquenouspuissionsprparerlacitaffronterlecourrouxdecemondequinousadjtantpristhundristisseventanciendauberdine",
+    "malexstondehurleventjedoisvousfliciterpourtousvoseffortsconsacrslarestaurationdehurleventnombredevisiteursdepassageauberdinevantentsagrandeuretsessolidesfondationscestcetterussitequimepoussevouscrireauberdineatrouvsaplacedanslemondeauborddelameralorsquenotrecittaitautrefoisisolelesventsquibalaientnosrivagessontdsormaisporteursdespoircettemessagreestlunedesmesquelesventsontpoussesdansmadirectionjesprequilsemontreraaussiutilevotrepeuplequellelatpourlemienenretourjevoussauraisgrdenvoyerfournituresetmainduvreauberdineafinquenouspuissionsprparerlacitaffronterlecourrouxdecemondequinousadjtantpristhundristisseventanciendauberdine",
+    "malexstondestormwindjedoisvousfliciterpourtousvoseffortsconsacrslarestaurationdestormwindnombredevisiteursdepassageauberdinevantentsagrandeuretsessolidesfondationscestcetterussitequimepoussevouscrireauberdineatrouvsaplacedanslemondeauborddelameralorsquenotrecittaitautrefoisisolelesventsquibalaientnosrivagessontdsormaisporteursdespoircemessagerestlunedesmesquelesventsontpoussesdansmadirectionjesprequellesemontreraaussiutilevotrepeuplequellelatpourlemienenretourjevoussauraisgrdenvoyerfournituresetmainduvreauberdineafinquenouspuissionsprparerlacitaffronterlecourrouxdecemondequinousadjtantpristhundristisseventanciendauberdine",
+    "malexstondestormwindjedoisvousfliciterpourtousvoseffortsconsacrslarestaurationdestormwindnombredevisiteursdepassageauberdinevantentsagrandeuretsessolidesfondationscestcetterussitequimepoussevouscrireauberdineatrouvsaplacedanslemondeauborddelameralorsquenotrecittaitautrefoisisolelesventsquibalaientnosrivagessontdsormaisporteursdespoircemessagerestlunedesmesquelesventsontpoussesdansmadirectionjesprequilsemontreraaussiutilevotrepeuplequellelatpourlemienenretourjevoussauraisgrdenvoyerfournituresetmainduvreauberdineafinquenouspuissionsprparerlacitaffronterlecourrouxdecemondequinousadjtantpristhundristisseventanciendauberdine",
+    "malexstondestormwindjedoisvousfliciterpourtousvoseffortsconsacrslarestaurationdestormwindnombredevisiteursdepassageauberdinevantentsagrandeuretsessolidesfondationscestcetterussitequimepoussevouscrireauberdineatrouvsaplacedanslemondeauborddelameralorsquenotrecittaitautrefoisisolelesventsquibalaientnosrivagessontdsormaisporteursdespoircettemessagreestlunedesmesquelesventsontpoussesdansmadirectionjesprequellesemontreraaussiutilevotrepeuplequellelatpourlemienenretourjevoussauraisgrdenvoyerfournituresetmainduvreauberdineafinquenouspuissionsprparerlacitaffronterlecourrouxdecemondequinousadjtantpristhundristisseventanciendauberdine",
+    "malexstondestormwindjedoisvousfliciterpourtousvoseffortsconsacrslarestaurationdestormwindnombredevisiteursdepassageauberdinevantentsagrandeuretsessolidesfondationscestcetterussitequimepoussevouscrireauberdineatrouvsaplacedanslemondeauborddelameralorsquenotrecittaitautrefoisisolelesventsquibalaientnosrivagessontdsormaisporteursdespoircettemessagreestlunedesmesquelesventsontpoussesdansmadirectionjesprequilsemontreraaussiutilevotrepeuplequellelatpourlemienenretourjevoussauraisgrdenvoyerfournituresetmainduvreauberdineafinquenouspuissionsprparerlacitaffronterlecourrouxdecemondequinousadjtantpristhundristisseventanciendauberdine",
+    "mralexstonofstormwindimustcongratulateyouonthelongjourneyrestoringthecityofstormwindmanywhosepathcrossesauberdinespeakwellofitsgrandeurandsoundfoundationsitisthissuccessthatbidmesendyouthismessageauberdinehasfounditsplaceinthisworldbytheseawherewewereonceisolatedwenowfindhopecarriedbytheverywindsthatbatterourshoresthiscourierrepresentsonesuchtravelerthewindsboretomeihopethattheymayaidyourpeopleastheyhavemineinreturniaskthatyoumightsendsuppliesandlabortoauberdinesuchthatwemightbolsterthecityagainstthewrathofthisworldthathastakensomuchfromusthundriswindweaverelderofauberdine"
+   ]
+  },
+  "i279048": {
+   "title": "Alexston's Reply",
+   "pages": [
+    "I know how this letter will find you, and I am truly sorry about that, elder.\n\nWithout a doubt, I will send any able-bodied adventurers I can through your fine town. I hope their impact will make up for the lack of other support I can bring at this time.\n\nOur lands are pressured by a great many enemies. I'm sure you are no stranger to that world yourself, but it has painfully drained what resources we have.\n\nShould that change, I would love to help, but even then there are many projects close to home that will demand priority.\n\nHold strong. We're all in this together.\n\n-- Baros Alexston\nCity Architect, Stormwind"
+   ],
+   "patterns": [
+    "ichweiinwelchemzustandihrdiesenbrieferhaltenwerdetundestutmirwirklichleidltesterihrknntsicherseindassichallefhigenabenteurerdiemirbegegnenineureschnesiedlungschickenwerdeichhoffeihretatkraftwirdalsausgleichdafrdienendassicheuchderzeitkeineandereuntersttzungsendenkannunserelnderwerdenvoneinervielzahlvonfeindenbedrohtichbinsicherihrkenntdielageselbstnurallzugutunsereressourcenwurdendurchdiestndigebedrohungstarkerschpftsolltesichdaranetwasndernwrdeicheuchmitfreudenhelfenaberselbstdannwerdenvieleprojektenahederheimatprioritthabenhaltetdurchwirsitzenalleimgleichenbootbarosalexstonstadtarchitektstormwind",
+    "iknowhowthisletterwillfindyouandiamtrulysorryaboutthatelderwithoutadoubtiwillsendanyablebodiedadventurersicanthroughyourfinetownihopetheirimpactwillmakeupforthelackofothersupporticanbringatthistimeourlandsarepressuredbyagreatmanyenemiesimsureyouarenostrangertothatworldyourselfbutithaspainfullydrainedwhatresourceswehaveshouldthatchangeiwouldlovetohelpbuteventhentherearemanyprojectsclosetohomethatwilldemandpriorityholdstrongwereallinthistogetherbarosalexstoncityarchitectstormwind"
+   ]
+  },
+  "i280430": {
+   "title": "Mountaineer Gretchen's Report",
+   "pages": [
+    "A Report on the State of wendigo in the caves near Kharanos\n\nWritten by Mountaineer Gretchen based on the findings of Mountaineer Cornelius\n\nThe wendigo rarely leave their caves, but there have been reports that they have attacked civilians around nearby settlements such as Kharanos and Brewnall Village. They seem to be growing increasingly agitated as they search for food. We have now lost one of our own to the efforts of containing them. While the full removal of these beasts is impractical, the mountaineers request",
+    "additional resources to limit their spread. We can't continue to rely on throwing adventurers at the problem and hope for the best. Sooner or later the food will run out, and the wendigo will be forced to attack our cities directly. Maybe even Ironforge itself.\n\nPlease offer my condolences to the family of Mountaineer Cornelius, who bravely fought to keep the people of Dun Morogh safe."
+   ],
+   "patterns": [
+    "areportonthestateofwendigointhecavesnearkharanoswrittenbymountaineergretchenbasedonthefindingsofmountaineercorneliusthewendigorarelyleavetheircavesbuttherehavebeenreportsthattheyhaveattackedciviliansaroundnearbysettlementssuchaskharanosandbrewnallvillagetheyseemtobegrowingincreasinglyagitatedastheysearchforfoodwehavenowlostoneofourowntotheeffortsofcontainingthemwhilethefullremovalofthesebeastsisimpracticalthemountaineersrequest",
+    "einlageberichtzudenwendigosindenhhlenindernhevonkharanosgeschriebenvongebirgsjgeringretchenbasierendaufdenbeobachtungenvongebirgsjgercorneliusdiewendigosverlassenihrehhlennurseltenaberesgibtberichtedarberdasssiezivilistenausdennahegelegenensiedlungenwiekharanosoderbrewnallangegriffenhabensiewerdenoffenbaraufdersuchenachnahrungimmeraufgeregterjetzthabenwirbeimversuchsieinschachzuhalteneinenverlustinunsereneigenenreihenerlittenzwaristdievollstndigeeliminierungdieserbestiennichtdurchfhrbaraberdiegebirgsjgerbittenum",
+    "rapportsurlasituationdeswendigosdanslesgrottesprochesdekharanosrdigparlamontagnardegretchensurlabasedesobservationsdumontagnardcornliusleswendigossaventurentrarementhorsdeleursgrottesmaisdesattaquesdecivilsonttsignalesplusieursreprisesproximitdevillagescommekharanosetbrassetoutleswendigossemblentdeplusenplusagitslorsquilssemettentenqutedenourriturenousavonsdailleursperdulundesntresententantdenrayerleproblmesilliminationtotaledecesbtesnestpasenvisageablelesmontagnardsdemandent"
+   ]
+  },
+  "i281046": {
+   "title": "Raven Hill Tome",
+   "pages": [
+    "Memories of Valor\nA Recount of the Valor Family and Their Service to Raven Hill\n\nThere was no greater family in all of the Eastern Kingdoms than the Valor family. Their deeds to the people they swore to protect were nothing short of miracles, and their loss is a loss for all of Raven Hill.\n\nI write this account to set the record straight, detailing the marvels that were Grant, Ira, Silvia, and Merrick. May these writings be a small consolation for how sorry I am for their absence.",
+    "Merrick Valor, Watcher of Darkshire\n\nMerrick was the youngest son of the Valor family. As he witnessed the corruption coming to his homeland, he chose to join The Watch in a desperate bid to protect his loved ones.\n\nWhile he was the most inexperienced member of his family, he quickly made a name for himself amongst the ranks of The Watchers. He had a knack for archery, and soon became one of the most staunch defenders of Darkshire.\n\nHis personal mission was to keep the roads safe, wary of the ever more hostile creatures coming to the forests.",
+    "Silvia Valor, Raven Hill Guard\n\nSilvia Valor had already been a local hero by the time she was offered to join the Guard. If there was one thing she could not stand to suffer more than anything, it was opportunists who took advantage of those who were struggling.\n\nBandits, con artists, rabble-rousers, it didn't matter. Silvia put each to the sword for trying to sow chaos in her beloved home. It was only natural she would be put in a position of real authority to act out her vision of justice.\n\nIt's said that, until she drew her last breath, she would never abandon the farmsteads and homes of Duskwood. And perhaps not even then.",
+    "Ira Valor, Forest Stalker\n\nWhen Ira's father grew ill, she took it upon herself to gather food and supplies from the nearby forests. While resources were not in short supply, you were as likely to find food as you were to become it.\n\nOver the years, she adapted to the forests, preferring to spend her time within the dark woods rather than in Raven Hill. Travelers who got lost in the trees would tell stories of a shadow seemingly opening the way for them back to the road. There was no confirmations of who it was, but rumors spread quickly.\n\nIt's said that Ira is still in the woods offering a guiding hand to those who fall prey to the beasts within.",
+    "Lord Grant Valor, Sire of the Valor Family\n\nLord Grant, may he rest in peace, was the pinnacle of Alliance exceptionalism. A natural leader, his guiding hand helped lead the denizens of Raven Hill to prosperity. When darkness began to creep into the woods, he was the first to rally our people.\n\nThere was no more foul a foe than the undead to Lord Grant. He personally patrolled the cemeteries of Duskwood to keep the shambling hordes in check. The day he took a grievous blow from the monsters, everyone in town shared his pain.\n\nWith his family's care, he returned to his duties, but there was a lingering malady that seemed to follow him for the rest of his days.",
+    "Lady Cassandra Valor, Loving mother and wife\n\nNot much is known about Cassandra other than her love for her family. She nurtured brave children and a powerful husband, leading some to muse that the family's greatness was all her doing. A flattery she would always decline with grace.\n\nIf she is remembered for nothing else, let it be known that everything she did was for her family."
+   ],
+   "patterns": [
+    "erinnerungenandievalorseinberichtberfamilievalorundihreverdiensteumrabenfluchtindengesamtenstlichenknigreichengabeskeinebesserefamiliealsdievalorswassiefrdieleutevollbrachtendiesiezubeschtzengeschworenhattenwarnichtswenigeralseinwunderundihrverlustisteinverlustfrganzrabenfluchtichschreibediesenberichtumfalschebehauptungenzukorrigierenundzeugnisberdieauergewhnlichkeitvongrantirasilviaundmerrickabzulegenmgedieseschriftalskleinertrostdafrdienenwiesehrihreabwesenheitmichschmerzt",
+    "memoriesofvalorarecountofthevalorfamilyandtheirservicetoravenhilltherewasnogreaterfamilyinalloftheeasternkingdomsthanthevalorfamilytheirdeedstothepeopletheysworetoprotectwerenothingshortofmiraclesandtheirlossisalossforallofravenhilliwritethisaccounttosettherecordstraightdetailingthemarvelsthatweregrantirasilviaandmerrickmaythesewritingsbeasmallconsolationforhowsorryiamfortheirabsence",
+    "souvenirsdesvalorunechroniquedelafamillevaloretdesservicesquellearenduscollineauxcorbeauxaucunefamilledesroyaumesdelestnestplusremarquablequelafamillevalorlesexploitsaccomplisparsesmembresauservicedelapopulationquilsavaientjurdeprotgertiennentdumiracleetleurdisparitionestundramepourtoutcollineauxcorbeauxjcriscettechroniquepourrtablirlavritetmontrerquegrantirasilviaetmerricktaientdestresdexceptionquecesmotssoientsourcederconfortcarleurabsencemepeineprofondment"
+   ]
+  },
+  "i281139": {
+   "title": "Thunderhorn's Report",
+   "pages": [
+    "Arch Druid,\n\n$N has done a great service for the land today. The Winterhoof, Thunderhorn, and Wildmane wells have been cleansed of the goblins' poisons thanks to their bravery.\n\nWith time, the rejuvenated waters will nourish all who walk upon Mulgore's great plains, and the land will heal. Earth Mother be praised.\n\nIf you are willing, I request you provide a reward commensurate with their efforts, on behalf of all in Bloodhoof Village.\n\nWith great reverence,\n\nMull Thunderhorn"
+   ],
+   "patterns": [
+    "archdruid[a-z]*hasdoneagreatserviceforthelandtodaythewinterhoofthunderhornandwildmanewellshavebeencleansedofthegoblinspoisonsthankstotheirbraverywithtimetherejuvenatedwaterswillnourishallwhowalkuponmulgoresgreatplainsandthelandwillhealearthmotherbepraisedifyouarewillingirequestyouprovidearewardcommensuratewiththeireffortsonbehalfofallinbloodhoofvillagewithgreatreverencemullthunderhorn",
+    "erzdruide[a-z]*hatdemlandheuteeinengroendiensterwiesendiebrunnenvonwinterhoofthunderhornundwildmanewurdendankihrertapferkeitvomgiftdergoblinsgereinigtmitderzeitwerdendienunwiederfrischenwassererneutalleversorgendieberdiegroenebenenvonmulgoreziehenunddaslandwirdheilendieerdenmutterseigepriesenwenneseuerwilleistbitteicheuchdarumdiesetatimnamenallereinwohnervonbloodhoofangemessenzubelohnenintiefsterehrfurchtmullthunderhorn",
+    "erzdruide[a-z]*hatdemlandheuteeinengroendiensterwiesendiebrunnenvonwinterhoofthunderhornundwildmanewurdendankseinertapferkeitvomgiftdergoblinsgereinigtmitderzeitwerdendienunwiederfrischenwassererneutalleversorgendieberdiegroenebenenvonmulgoreziehenunddaslandwirdheilendieerdenmutterseigepriesenwenneseuerwilleistbitteicheuchdarumdiesetatimnamenallereinwohnervonbloodhoofangemessenzubelohnenintiefsterehrfurchtmullthunderhorn"
+   ]
+  },
+  "i281149": {
+   "title": "Memories of Valor",
+   "pages": [
+    "Memories of Valor\nA Recount of the Valor Family and Their Service to Raven Hill\n\nThere was no greater family in all of the Eastern Kingdoms than the Valor family. Their deeds to the people they swore to protect were nothing short of miracles, and their loss is a loss for all of Raven Hill.\n\nI write this account to set the record straight, detailing the marvels that were Grant, Ira, Silvia, and Merrick. May these writings be a small consolation for how sorry I am for their absence.",
+    "Merrick Valor, Watcher of Darkshire\n\nMerrick was the youngest son of the Valor family. As he witnessed the corruption coming to his homeland, he chose to join The Watch in a desperate bid to protect his loved ones.\n\nWhile he was the most inexperienced member of his family, he quickly made a name for himself amongst the ranks of The Watchers. He had a knack for archery, and soon became one of the most staunch defenders of Darkshire.\n\nHis personal mission was to keep the roads safe, wary of the ever more hostile creatures coming to the forests.",
+    "Silvia Valor, Raven Hill Guard\n\nSilvia Valor had already been a local hero by the time she was offered to join the Guard. If there was one thing she could not stand to suffer more than anything, it was opportunists who took advantage of those who were struggling.\n\nBandits, con artists, rabble-rousers, it didn't matter. Silvia put each to the sword for trying to sow chaos in her beloved home. It was only natural she would be put in a position of real authority to act out her vision of justice.\n\nIt's said that, until she drew her last breath, she would never abandon the farmsteads and homes of Duskwood. And perhaps not even then.",
+    "Ira Valor, Forest Stalker\n\nWhen Ira's father grew ill, she took it upon herself to gather food and supplies from the nearby forests. While resources were not in short supply, you were as likely to find food as you were to become it.\n\nOver the years, she adapted to the forests, preferring to spend her time within the dark woods rather than in Raven Hill. Travelers who got lost in the trees would tell stories of a shadow seemingly opening the way for them back to the road. There was no confirmations of who it was, but rumors spread quickly.\n\nIt's said that Ira is still in the woods offering a guiding hand to those who fall prey to the beasts within.",
+    "Lord Grant Valor, Sire of the Valor Family\n\nLord Grant, may he rest in peace, was the pinnacle of Alliance exceptionalism. A natural leader, his guiding hand helped lead the denizens of Raven Hill to prosperity. When darkness began to creep into the woods, he was the first to rally our people.\n\nThere was no more foul a foe than the undead to Lord Grant. He personally patrolled the cemeteries of Duskwood to keep the shambling hordes in check. The day he took a grievous blow from the monsters, everyone in town shared his pain.\n\nWith his family's care, he returned to his duties, but there was a lingering malady that seemed to follow him for the rest of his days.",
+    "Lady Cassandra Valor, Loving mother and wife\n\nNot much is known about Cassandra other than her love for her family. She nurtured brave children and a powerful husband, leading some to muse that the family's greatness was all her doing. A flattery she would always decline with grace.\n\nIf she is remembered for nothing else, let it be known that everything she did was for her family."
+   ],
+   "patterns": [
+    "erinnerungenandievalorseinberichtberfamilievalorundihreverdiensteumrabenfluchtindengesamtenstlichenknigreichengabeskeinebesserefamiliealsdievalorswassiefrdieleutevollbrachtendiesiezubeschtzengeschworenhattenwarnichtswenigeralseinwunderundihrverlustisteinverlustfrganzrabenfluchtichschreibediesenberichtumfalschebehauptungenzukorrigierenundzeugnisberdieauergewhnlichkeitvongrantirasilviaundmerrickabzulegenmgedieseschriftalskleinertrostdafrdienenwiesehrihreabwesenheitmichschmerzt",
+    "memoriesofvalorarecountofthevalorfamilyandtheirservicetoravenhilltherewasnogreaterfamilyinalloftheeasternkingdomsthanthevalorfamilytheirdeedstothepeopletheysworetoprotectwerenothingshortofmiraclesandtheirlossisalossforallofravenhilliwritethisaccounttosettherecordstraightdetailingthemarvelsthatweregrantirasilviaandmerrickmaythesewritingsbeasmallconsolationforhowsorryiamfortheirabsence",
+    "souvenirsdesvalorunechroniquedelafamillevaloretdesservicesquellearenduscollineauxcorbeauxaucunefamilledesroyaumesdelestnestplusremarquablequelafamillevalorlesexploitsaccomplisparsesmembresauservicedelapopulationquilsavaientjurdeprotgertiennentdumiracleetleurdisparitionestundramepourtoutcollineauxcorbeauxjcriscettechroniquepourrtablirlavritetmontrerquegrantirasilviaetmerricktaientdestresdexceptionquecesmotssoientsourcederconfortcarleurabsencemepeineprofondment"
+   ]
+  },
+  "i281243": {
+   "title": "Hollee's Note",
+   "pages": [
+    "Tarrel my beloved,\n\nNot a day goes by that I don't lose myself thinking of those bronze braids, that bellowing laugh, or those rippling forearms.\n\nYou must come to me in Auberdine on the next ship. We belong together--you know it to be true if you search your heart!\n\nYours if you'll have me,\n\nHollee"
+   ],
+   "patterns": [
+    "meingeliebtertarrelesvergehtkeintagandemichnichtandeinebronzenenzpfedeinschallendeslachenoderdeinemuskulsenunterarmedenkedumusstdasnchsteschiffzumirnachauberdinenehmenwirgehrenzusammenduweitdassesstimmtwennduaufdeinherzhrstfrimmerdeinwenndumichwillsthollee",
+    "monbienaimtarrelilnyapasunjourojenemeperdspaspensertestressesdebronzetonriretonitruantoutesbrasmusculeuxtudoisvenirmeretrouverauberdineparleprochainbateaunoussommesfaitslunpourlautreaufonddetoitusaisquecestvraijesuistiennesituveuxdemoihollee",
+    "tarrelmybelovednotadaygoesbythatidontlosemyselfthinkingofthosebronzebraidsthatbellowinglaughorthoseripplingforearmsyoumustcometomeinauberdineonthenextshipwebelongtogetheryouknowittobetrueifyousearchyourheartyoursifyoullhavemehollee"
+   ]
+  },
+  "i281328": {
+   "title": "Valory Family Crest",
+   "pages": [
+    "Memories of Valor\nA Recount of the Valor Family and Their Service to Raven Hill\n\nThere was no greater family in all of the Eastern Kingdoms than the Valor family. Their deeds to the people they swore to protect were nothing short of miracles, and their loss is a loss for all of Raven Hill.\n\nI write this account to set the record straight, detailing the marvels that were Grant, Ira, Silvia, and Merrick. May these writings be a small consolation for how sorry I am for their absence.",
+    "Merrick Valor, Watcher of Darkshire\n\nMerrick was the youngest son of the Valor family. As he witnessed the corruption coming to his homeland, he chose to join The Watch in a desperate bid to protect his loved ones.\n\nWhile he was the most inexperienced member of his family, he quickly made a name for himself amongst the ranks of The Watchers. He had a knack for archery, and soon became one of the most staunch defenders of Darkshire.\n\nHis personal mission was to keep the roads safe, wary of the ever more hostile creatures coming to the forests.",
+    "Silvia Valor, Raven Hill Guard\n\nSilvia Valor had already been a local hero by the time she was offered to join the Guard. If there was one thing she could not stand to suffer more than anything, it was opportunists who took advantage of those who were struggling.\n\nBandits, con artists, rabble-rousers, it didn't matter. Silvia put each to the sword for trying to sow chaos in her beloved home. It was only natural she would be put in a position of real authority to act out her vision of justice.\n\nIt's said that, until she drew her last breath, she would never abandon the farmsteads and homes of Duskwood. And perhaps not even then.",
+    "Ira Valor, Forest Stalker\n\nWhen Ira's father grew ill, she took it upon herself to gather food and supplies from the nearby forests. While resources were not in short supply, you were as likely to find food as you were to become it.\n\nOver the years, she adapted to the forests, preferring to spend her time within the dark woods rather than in Raven Hill. Travelers who got lost in the trees would tell stories of a shadow seemingly opening the way for them back to the road. There was no confirmations of who it was, but rumors spread quickly.\n\nIt's said that Ira is still in the woods offering a guiding hand to those who fall prey to the beasts within.",
+    "Lord Grant Valor, Sire of the Valor Family\n\nLord Grant, may he rest in peace, was the pinnacle of Alliance exceptionalism. A natural leader, his guiding hand helped lead the denizens of Raven Hill to prosperity. When darkness began to creep into the woods, he was the first to rally our people.\n\nThere was no more foul a foe than the undead to Lord Grant. He personally patrolled the cemeteries of Duskwood to keep the shambling hordes in check. The day he took a grievous blow from the monsters, everyone in town shared his pain.\n\nWith his family's care, he returned to his duties, but there was a lingering malady that seemed to follow him for the rest of his days.",
+    "Lady Cassandra Valor, Loving mother and wife\n\nNot much is known about Cassandra other than her love for her family. She nurtured brave children and a powerful husband, leading some to muse that the family's greatness was all her doing. A flattery she would always decline with grace.\n\nIf she is remembered for nothing else, let it be known that everything she did was for her family."
+   ],
+   "patterns": [
+    "erinnerungenandievalorseinberichtberfamilievalorundihreverdiensteumrabenfluchtindengesamtenstlichenknigreichengabeskeinebesserefamiliealsdievalorswassiefrdieleutevollbrachtendiesiezubeschtzengeschworenhattenwarnichtswenigeralseinwunderundihrverlustisteinverlustfrganzrabenfluchtichschreibediesenberichtumfalschebehauptungenzukorrigierenundzeugnisberdieauergewhnlichkeitvongrantirasilviaundmerrickabzulegenmgedieseschriftalskleinertrostdafrdienenwiesehrihreabwesenheitmichschmerzt",
+    "memoriesofvalorarecountofthevalorfamilyandtheirservicetoravenhilltherewasnogreaterfamilyinalloftheeasternkingdomsthanthevalorfamilytheirdeedstothepeopletheysworetoprotectwerenothingshortofmiraclesandtheirlossisalossforallofravenhilliwritethisaccounttosettherecordstraightdetailingthemarvelsthatweregrantirasilviaandmerrickmaythesewritingsbeasmallconsolationforhowsorryiamfortheirabsence",
+    "souvenirsdesvalorunechroniquedelafamillevaloretdesservicesquellearenduscollineauxcorbeauxaucunefamilledesroyaumesdelestnestplusremarquablequelafamillevalorlesexploitsaccomplisparsesmembresauservicedelapopulationquilsavaientjurdeprotgertiennentdumiracleetleurdisparitionestundramepourtoutcollineauxcorbeauxjcriscettechroniquepourrtablirlavritetmontrerquegrantirasilviaetmerricktaientdestresdexceptionquecesmotssoientsourcederconfortcarleurabsencemepeineprofondment"
+   ]
+  },
+  "i281347": {
+   "title": "Torn Page",
+   "pages": [
+    "The calm comes before the storm."
+   ],
+   "patterns": [
+    "dieruhekommtvordemsturm",
+    "lecalmeavantlatempte",
+    "thecalmcomesbeforethestorm"
+   ]
+  },
+  "i282338": {
+   "title": "Hallowed Memorandum",
+   "pages": [
+    "While you may be a refugee who has come to Ironforge out of desperation, the Light never turns away those in need. Over time your devotion will deepen and you'll learn to feel the warmth of the Light. Our cousins among the gnomes are as welcome among our ranks as any stout dwarf.\n\nI can tell that you have the gift of channeling the Light. This is a special quality and one that you should nurture.\n\nFind me when ya have the time. I'll be in the back of Anvilmar, just up the hill.\n\n- Branstock Khalder, Priest Trainer"
+   ],
+   "patterns": [
+    "ihrmgteinflchtlingundausverzweiflungnachironforgegekommenseindochdaslichtwendetsichnievonbedrftigenabmitderzeitwirdeurehingabewachsenundihrwerdetlernendiewrmedeslichtszusprenunserevetternunterdengnomensindinunserenreihenebensowillkommenwiejederstarkezwergichkannsprendassihrdiegabezumkanalisierendeslichtsbesitztdasisteinebesondereeigenschaftundeinedieihrpflegensolltetsuchtmichaufwennihrdiezeithabtichbinimhinterenteilvonanvilmargleichobenaufdemhgelbranstockkhalderpriesterlehrer",
+    "whileyoumaybearefugeewhohascometoironforgeoutofdesperationthelightneverturnsawaythoseinneedovertimeyourdevotionwilldeepenandyoulllearntofeelthewarmthofthelightourcousinsamongthegnomesareaswelcomeamongourranksasanystoutdwarficantellthatyouhavethegiftofchannelingthelightthisisaspecialqualityandonethatyoushouldnurturefindmewhenyahavethetimeillbeinthebackofanvilmarjustupthehillbranstockkhalderpriesttrainer"
+   ]
+  },
+  "i282346": {
+   "title": "Tainted Tablet",
+   "pages": [
+    "Your nascent skills are too rudimentary to realize that this tablet is suffused with powerful curses of suffering to prevent any unwanted eyes from reading it.\n\nThrough my power I have felt your first steps toward a tenuous connection with the Twisting Nether, and now I reach out to offer you the boon of mentorship. With my guidance, you will learn to command demons and call down the flames from beyond the mortal coil.\n\nSeek me out in the depths of the Den once you've found your way around. I would speak to you about important matters.\n\n-Nartok, Warlock Trainer"
+   ],
+   "patterns": [
+    "eureaufkeimendenfhigkeitenreichennochnichtausumzuerkennendassdiesetafelmitmchtigenflchenderqualdurchdrungensindumunwillkommeneaugendavonabzuhaltensiezulesendankmeinerkrafthabeicheureerstenschrittezueinerfragilenverbindungmitdemwirbelndennethergesprtundnunbieteicheuchdensegeneinesmentorsanuntermeinerfhrungwerdetihrlernendmonenzubefehligenundflammenvonjenseitsdessterblichendrangsalsheraufzubeschwrensuchtmichindentiefendeshhlenbausaufsobaldihrindernheseidichmussetwaswichtigesmiteuchbesprechennartokhexenmeisterlehrer",
+    "yournascentskillsaretoorudimentarytorealizethatthistabletissuffusedwithpowerfulcursesofsufferingtopreventanyunwantedeyesfromreadingitthroughmypowerihavefeltyourfirststepstowardatenuousconnectionwiththetwistingnetherandnowireachouttoofferyoutheboonofmentorshipwithmyguidanceyouwilllearntocommanddemonsandcalldowntheflamesfrombeyondthemortalcoilseekmeoutinthedepthsofthedenonceyouvefoundyourwayaroundiwouldspeaktoyouaboutimportantmattersnartokwarlocktrainer"
+   ]
+  },
+  "i282380": {
+   "title": "Glyphic Parchment",
+   "pages": [
+    "You see what other orcs cannot see, you feel the pulse of the universe around you. You got the touch of magic, and it be time to learn how to control it.\n\nYou find Mai'ah when you be ready. She teach you much about magic and the spells you need to destroy those dat stand against you.\n\nMai'ah be near the Den in the Valley of Trials. You come, you find her, then you be strong. Then you show other mages how magic bends to your will... not the other way 'round."
+   ],
+   "patterns": [
+    "ihrsehenwasandereorcsnichtsehenihrsprendenpulsdesuniversumsumeuchihrdieberhrungdermagiebesitzenundeszeitdassihrlernensiezubeherrschenihrfindenmaiahwennihrbereitseinsieeuchlehrenvielbermagieunddiezauberdieihrbrauchenumjenezuvernichtendiesicheuchindenwegstellenmaiahseinnahebeimhhlenbauimtalderprfungenihrkommenundsiefindendannihrwerdenstarkseindannihrzeigenanderenmagiernwiesichmagieeuremwillenunterwerfenundnichtandersherum",
+    "youseewhatotherorcscannotseeyoufeelthepulseoftheuniversearoundyouyougotthetouchofmagicanditbetimetolearnhowtocontrolityoufindmaiahwhenyoubereadysheteachyoumuchaboutmagicandthespellsyouneedtodestroythosedatstandagainstyoumaiahbenearthedeninthevalleyoftrialsyoucomeyoufindherthenyoubestrongthenyoushowothermageshowmagicbendstoyourwillnottheotherwayround"
+   ]
+  },
+  "i282400": {
+   "title": "Archaic Rune",
+   "pages": [
+    "You already felt the call of something greater than yourself, and that's the call of the elements. We dwarves have a strong connection to earth, but with the right training, you can learn to speak to all of the elements. The elementals can be demanding and challenging, but I'm here to guide you in learning how to communicate with them. Come find me in Anvilmar and I'll teach you how to listen to the elements, and how to get them to listen to you.\n\n- Teo Hammerstorm, Shaman Trainer"
+   ],
+   "patterns": [
+    "ihrhabtbereitsdenrufvonetwasgreremalseuchselbstgesprtunddasistderrufderelementewirzwergehabeneinestarkeverbindungzurerdeabermitderrichtigenausbildungknntihrlernenmitallenelementenzusprechendieelementeknnenforderndundanspruchsvollseinaberichwerdeeuchdabeihelfenzulernenwieihrmitihnenkommunizierenknntkommtzumirinanvilmarundichwerdeeuchlehrenwiemandenelementenzuhrtundwieihrsiedazubringenknnteuchzuzuhrenteohammerstormshamanenlehrer",
+    "vousavezdjressentilappeldeforcessuprieuresehbiencestlappeldeslmentsnouslesnainsavonsunlienfortaveclaterremaisaveclebonentranementvouspourrezapprendreparleravectousleslmentsleslmentairessontexigeantsmaisjesuisicipourvousguideretvousapprendrecommuniqueraveceuxvenezmetrouveranvilmaretjevousentraneraicouterleslmentsetlesfairevouscouterteomarteltemptematredeschamans",
+    "vousavezdjressentilappeldeforcessuprieuresehbiencestlappeldeslmentsnouslesnainsavonsunlienfortaveclaterremaisaveclebonentranementvouspourrezapprendreparleravectousleslmentsleslmentairessontexigeantsmaisjesuisicipourvousguideretvousapprendrecommuniqueraveceuxvenezmetrouvercourbenclumeetjevousentraneraicouterleslmentsetlesfairevouscouterteomarteltemptematredeschamans",
+    "youalreadyfeltthecallofsomethinggreaterthanyourselfandthatsthecalloftheelementswedwarveshaveastrongconnectiontoearthbutwiththerighttrainingyoucanlearntospeaktoalloftheelementstheelementalscanbedemandingandchallengingbutimheretoguideyouinlearninghowtocommunicatewiththemcomefindmeinanvilmarandillteachyouhowtolistentotheelementsandhowtogetthemtolistentoyouteohammerstormshamantrainer"
+   ]
+  },
+  "i282416": {
+   "title": "Glowing Recall Crystal",
+   "pages": [
+    "<As you touch the glowing crystal a draft of wind stirs around you, carrying the faint hint of spoken words.>\n\nThe High Order has been watching you, $N, and we see great promise in your abilities.\n\nThe Wind Spirits have left Zephras Isle, and now more than ever, promising mages like yourself are needed. If our people are to find the self-reliance to survive this crisis, we must use our knowledge of the arcane to uncover the secrets of this realm.\n\nSeek me out in Thendal Village, on the ground floor of the great tree. We will begin your training in earnest.\n\n-Dorii Brightwhisper, Mage Trainer"
+   ],
+   "patterns": [
+    "asyoutouchtheglowingcrystaladraftofwindstirsaroundyoucarryingthefainthintofspokenwordsthehighorderhasbeenwatchingyou[a-z]*andweseegreatpromiseinyourabilitiesthewindspiritshaveleftzephrasisleandnowmorethaneverpromisingmageslikeyourselfareneededifourpeoplearetofindtheselfreliancetosurvivethiscrisiswemustuseourknowledgeofthearcanetouncoverthesecretsofthisrealmseekmeoutinthendalvillageonthegroundfloorofthegreattreewewillbeginyourtraininginearnestdoriibrightwhispermagetrainer"
+   ]
+  },
+  "i282418": {
+   "title": "Humming Recall Crystal",
+   "pages": [
+    "<As you touch the glowing crystal a draft of wind stirs around you, carrying the faint hint of spoken words.>\n\nThe Windshapers have been watching you closely, and the time has come for you to take your next steps as a shaman.\n\nThe wind spirits have vanished from Zephras Isle and the burden falls to us to brave the dangers of the elemental plane and bring them home. There is no more sacred duty, and our survival depends on it.\n\nSeek me out in Thendal Village, near the town center. I will see to it that you are trained.\n\n-Windshaper Boro, Shaman Trainer"
+   ],
+   "patterns": [
+    "alsihrdieleuchtendenkristalleberhrtwerdetihrvoneinemwindstoumhlltderdenschwachenhauchgesprochenerwrtertrgtdiewindformerhabeneuchgenaubeobachtetunddiezeitistgekommendassihreurenchstenschrittealsschamaneunternehmtdiewindgeistersindvonderinselzephrasverschwundenunddiebrdesichdengefahrenderelementarebenezustellenundsiezurcknachhausezubringenlastetnunaufunsesgibtkeineheiligerepflichtundunserberlebenhngtdavonabsuchtmichinthendalaufindernhedesstadtzentrumsichwerdedafrsorgendassihreineangemesseneausbildungerhaltetwindformerboroschamanenlehrer",
+    "alsihrdieleuchtendenkristalleberhrtwerdetihrvoneinemwindstoumhlltderdenschwachenhauchgesprochenerwrtertrgtdiewindformerhabeneuchgenaubeobachtetunddiezeitistgekommendassihreurenchstenschrittealsschamaninunternehmtdiewindgeistersindvonderinselzephrasverschwundenunddiebrdesichdengefahrenderelementarebenezustellenundsiezurcknachhausezubringenlastetnunaufunsesgibtkeineheiligerepflichtundunserberlebenhngtdavonabsuchtmichinthendalaufindernhedesstadtzentrumsichwerdedafrsorgendassihreineangemesseneausbildungerhaltetwindformerboroschamanenlehrer",
+    "asyoutouchtheglowingcrystaladraftofwindstirsaroundyoucarryingthefainthintofspokenwordsthewindshapershavebeenwatchingyoucloselyandthetimehascomeforyoutotakeyournextstepsasashamanthewindspiritshavevanishedfromzephrasisleandtheburdenfallstoustobravethedangersoftheelementalplaneandbringthemhomethereisnomoresacreddutyandoursurvivaldependsonitseekmeoutinthendalvillagenearthetowncenteriwillseetoitthatyouaretrainedwindshaperboroshamantrainer",
+    "lorsquevoustouchezlecristalbrillantuncourantdairserpenteautourdevoustransportantlefaiblechodequelquesmotslessculpteventsontobservvosfaitsetgestesetilesttempspourvousdepasserltapesuivantedevotreformationchamaniquelesespritsduventontdisparudelledezphrasetilrevientnousdebraverlesdangersduplanlmentairepourlesramenerchezeuxilnexistepasdedevoirplussacretnotresurvieendpendretrouvezmoithendalprsducentrevillejevaisvousentranersculpteventboromatredeschamans"
+   ]
+  },
+  "i282419": {
+   "title": "Crumpled Note",
+   "pages": [
+    "$N, you've got a good sword arm and I've taken notice.\n\nThings are a fine mess here on Zephras Isle, no doubt about it. We need our fighting shen'dorei in top form if we are to survive what's to come. It's time for you to stop playing at being a proper warrior, and actually become one.\n\nFind me inside the base of the watchtower here in Thendal Village. I'll see to it you are properly trained.\n\n-Blademaster Ren, Warrior Trainer"
+   ],
+   "patterns": [
+    "[a-z]*ihrfhrteuerschwertgeschicktdashabeichzurkenntnisgenommeneinschnerschlamasselistdasaufderinselzephraskeinzweifelunserekmpfendenshendoreimsseninbestformbleibenwennwirdasberlebenwollenwasunsbevorstehtesistanderzeitdassihrnichtnurvorgebteinewahrekriegerinzuseinsonderndieserollenunauchwirklicheinnehmtfindetmichimwachturmhierinthendalichwerdedafrsorgendassihreineangemesseneausbildungerhaltetklingenmeisterinrenkriegerlehrerin",
+    "[a-z]*ihrfhrteuerschwertgeschicktdashabeichzurkenntnisgenommeneinschnerschlamasselistdasaufderinselzephraskeinzweifelunserekmpfendenshendoreimsseninbestformbleibenwennwirdasberlebenwollenwasunsbevorstehtesistanderzeitdassihrnichtnurvorgebteinwahrerkriegerzuseinsonderndieserollenunauchwirklicheinnehmtfindetmichimwachturmhierinthendalichwerdedafrsorgendassihreineangemesseneausbildungerhaltetklingenmeisterinrenkriegerlehrerin",
+    "[a-z]*jairemarququevousavezunbonbrasarmcestlebazarsurlledezphrasanefaitaucundoutenosguerriersetguerriresshendoreidevronttreaumeilleurdeleurformesinousvoulonssurvivrecequinousattendilesttempspourvousdarrterdejoueraupetitsoldatetdepasserauxchosessrieusesretrouvezmoidanslabasedelatourdeguetdethendaljevaisvousentranercorrectementmatrelamerenmatressedesguerriers",
+    "[a-z]*youvegotagoodswordarmandivetakennoticethingsareafinemesshereonzephrasislenodoubtaboutitweneedourfightingshendoreiintopformifwearetosurvivewhatstocomeitstimeforyoutostopplayingatbeingaproperwarriorandactuallybecomeonefindmeinsidethebaseofthewatchtowerhereinthendalvillageillseetoityouareproperlytrainedblademasterrenwarriortrainer"
+   ]
+  },
+  "i282420": {
+   "title": "Folded Parchment",
+   "pages": [
+    "Greetings, $N,\n\nSince the elemental wind spirits vanished, Zephras has been on a deadly precipice. The birds, the beasts, and even the roots beneath our feet call to us for aid.\n\nSeek me out on the ground floor of the great tree here in Thendal Village. I will counsel and train you in the druidic arts.\n\n-Xyton Silverwind, Druid Trainer"
+   ],
+   "patterns": [
+    "greetings[a-z]*sincetheelementalwindspiritsvanishedzephrashasbeenonadeadlyprecipicethebirdsthebeastsandeventherootsbeneathourfeetcalltousforaidseekmeoutonthegroundfloorofthegreattreehereinthendalvillageiwillcounselandtrainyouinthedruidicartsxytonsilverwinddruidtrainer",
+    "salutations[a-z]*depuisladisparitiondesespritslmentairesduventzphrassetrouveauborddunprcipicemortellesoiseauxlesbtesetmmelesracinessousnospiedsnousappellentlaideretrouvezmoiaurezdechaussedugrandarbredethendaljevaisvousconseilleretvousentranerdanslesartsdruidiquesxytonventargentmatredesdruides",
+    "seidgegrt[a-z]*seitdieelementarenwindgeisterverschwundensindstehtzephrasvoreinemtdlichenabgrunddievgeldiewildtiereundsogardiewurzelnunterunserenfenbittenunsumhilfesuchtmichimerstenstockdesgroenbaumshierinthendalaufichwerdeeuchberatenundindendruidenknstenausbildenxytonsilverwinddruidenlehrer"
+   ]
+  },
+  "i282421": {
+   "title": "Scribbled Note",
+   "pages": [
+    "Greetings, $N,\n\nYou've shown great promise as a hunter, and I'd like to ensure that you receive proper guidance and training.\n\nThe rangers do a good job of keeping the wilds in check here in Thendal Grove, but beyond our borders... well, the same can't be said.\n\nCome find me near the center of the village as soon as you are able. The wilds are calling.\n\n-Tai'ree Farsight, Hunter Trainer"
+   ],
+   "patterns": [
+    "greetings[a-z]*youveshowngreatpromiseasahunterandidliketoensurethatyoureceiveproperguidanceandtrainingtherangersdoagoodjobofkeepingthewildsincheckhereinthendalgrovebutbeyondourborderswellthesamecantbesaidcomefindmenearthecenterofthevillageassoonasyouareablethewildsarecallingtaireefarsighthuntertrainer",
+    "salutations[a-z]*voscapacitsdechassesontprometteusesetjaimeraismassurerquevousbnficiezdunaccompagnementetdunentranementadaptslesforestierssoccupentdecontrlerlafaunelocaledubosquetdethendalmaishorsdenosfrontirescestunetoutautrehistoirevenezmeretrouveraucentreduvillagedsquepossiblelanaturevousappelletaireedoublevuematressedeschasseurs",
+    "seidgegrt[a-z]*ihrhabtgroespotenzialalsjgerbewiesenundichmchtesicherstellendassihrangemessenefhrungundausbildungerhaltetdiewaldluferleistengutearbeitdiewildnishierinthendalhaininzaumzuhaltenaberberunseregrenzenhinausnundasiehtdiesacheetwasandersauskommtundsuchtmichinderdorfmitteaufsobaldihrknnttaireefarsightjgerlehrer",
+    "seidgegrt[a-z]*ihrhabtgroespotenzialalsjgerinbewiesenundichmchtesicherstellendassihrangemessenefhrungundausbildungerhaltetdiewaldluferleistengutearbeitdiewildnishierinthendalhaininzaumzuhaltenaberberunseregrenzenhinausnundasiehtdiesacheetwasandersauskommtundsuchtmichinderdorfmitteaufsobaldihrknnttaireefarsightjgerlehrer"
+   ]
+  },
+  "i282422": {
+   "title": "Simple Note",
+   "pages": [
+    "I'll make this short, $N.\n\nYou've got a slyness and grace to you that I respect, and I've been keeping my eye on you.\n\nSlyness and grace aren't always enough to keep you alive though. If you want to learn to be a proper rogue then I can teach you.\n\nCome find me inside the watchtower.\n\n-Akeri Duskblade, Rogue Trainer"
+   ],
+   "patterns": [
+    "ichwerdemichkurzhalten[a-z]*ihrhabteineverschlagenheitundanmutaneuchdieichrespektiereundichhabeeuchseiteinerweilebeobachtetverschlagenheitundanmutalleinwerdenabernichtimmerausreichenumfreuerberlebenzusorgenwennihrlernenmchteteinrichtigerschurkeeinerichtigeschurkinzuwerdendannkannicheseuchbeibringenihrfindetmichimwachturmakeriduskbladeschurkenlehrer",
+    "illmakethisshort[a-z]*youvegotaslynessandgracetoyouthatirespectandivebeenkeepingmyeyeonyouslynessandgracearentalwaysenoughtokeepyoualivethoughifyouwanttolearntobeaproperroguethenicanteachyoucomefindmeinsidethewatchtowerakeriduskbladeroguetrainer"
+   ]
+  },
+  "i282423": {
+   "title": "Consecrated Scroll",
+   "pages": [
+    "Welcome back, $N.\n\nI understand all too well the shock that one feels when finding themselves in the situation you now find yourself in. The fact that you have made it this far sets you apart from many other newly risen paladins.\n\nYou will find that the hardest part about your new life will be in rediscovering what you lost in life...and enduring the pain it causes you.\n\nSpeak with me in Deathknell, and I will help you find the resolve to take your first steps.\n\n-Aramis Hammerhand, Paladin Trainer"
+   ],
+   "patterns": [
+    "bonretourparminous[a-z]*jenecomprendsquetropbienlechocquelonpeutressentirdanslasituationovousvoustrouvezvousavezsurvcujusqumaintenantetcestcequivousdistinguedesautrespaladinsrcemmentressuscitslaspectleplusdifficiledevotrenouvellevieseraderedcouvrircequevousavezperduetdesupporterladouleurquecelavouscauseravenezmeparlerauglasetjevousaideraitrouverladterminationncessairepourfairevospremierspasaramismainmartelmatredespaladins",
+    "welcomeback[a-z]*iunderstandalltoowelltheshockthatonefeelswhenfindingthemselvesinthesituationyounowfindyourselfinthefactthatyouhavemadeitthisfarsetsyouapartfrommanyothernewlyrisenpaladinsyouwillfindthatthehardestpartaboutyournewlifewillbeinrediscoveringwhatyoulostinlifeandenduringthepainitcausesyouspeakwithmeindeathknellandiwillhelpyoufindtheresolvetotakeyourfirststepsaramishammerhandpaladintrainer",
+    "willkommenzurck[a-z]*ichkennedenschocknurzugutdenmanempfindetwennmansichindersituationbefindetinderihreuchgeradebefindetdietatsachedassihressoweitgeschaffthabthebteuchvondenanderenneuenpaladinenabihrwerdetfeststellendassderschwierigsteteileuresneuenlebensdarinbestehenwirdwiederzuentdeckenwasihrimlebenverlorenhabtunddenschmerzzuberstehendendasverursachthatsprechtmitmirindeathknellundichwerdeeuchdabeihelfendieentschlossenheitzufindendieihrfreureerstenschrittebrauchtaramishammerhandpaladinlehrer"
+   ]
+  },
   "i2832": {
    "title": "Verna's Westfall Stew Recipe",
    "pages": [
@@ -2416,6 +2849,79 @@
     "chreyvettejevaisconfiercettelettrenotreplusrapidemessagerjepriequiltrouveunpassagetraverslestroupesquinousentourentetjepriepourquevouspuissiezlirecesmotsquisontlesderniersquevousrecevrezdemoimonseulrconfortencesjourssombresestmonsoulagementlidequevousnepartagerezpasmondestin",
     "dearestyvetteiwillentrustthislettertoourfastestrunneriprayhecanfindawaythroughtheforcessurroundingusandiprayyoureadthesewordsfortheyarethelastyouwillhearofmemyonlycomfortinthesedarkdaysisthereliefifeelknowingthatyouarefreeofmyfate",
     "meineliebsteyvetteichvertrauediesenbriefunseremschnellstenluferanichbetedassereinenwegdurchdieunsumgebendenfeindlichenreihenfindetundichbetedassdudiesewortezulesenbekommstdenneswerdenmeineletztenandichseinmeineinzigertrostindiesendunklentagenistzuwissendassdirwenigstensmeinschicksalerspartbleibt"
+   ]
+  },
+  "i285356": {
+   "title": "Advisor Emerson's Instructions",
+   "pages": [
+    "Greetings,\n\nAs a guest of the Alliance, you have been given leave to travel freely throughout Alliance lands.\n\nThis document will serve as a guide to help you reach the other member cities of our alliance.",
+    "Your first stop should be Ironforge which can be reached via the technological marvel known as the Deeprun Tram.\n\nYou can find the entrance to the tram in the Dwarven District here in Stormwind, just to the southwest of the keep. The tram will transport you safely to the heart of Ironforge City.\n\nOnce you arrive, explore the city and locate High Tinker Mekkatorque and King Magni Bronzebeard in Tinker Town and the Great Forge, respectively. Introduce yourself as an agent of the Skyborne and they will show you their hospitality.",
+    "The city of Darnassus can be found across the sea, off the coast of northern Kalimdor. The city itself rests at the top of the great tree, Teldrassil.\n\nThe safest route for you currently is via the harbor on the west side of Stormwind. Take the ship departing from the southernmost dock to the port of Auberdine.\n\nUpon arriving, proceed to the north side of the Auberdine docks and take the ship there to Ru'theran Village. This village contains a magical transporter that will take you into the city itself.\n\nExplore Darnassus and seek out Tyrande Whisperwind, the High Priestess of Elune.",
+    "After you've become acquainted with the other leaders of the alliance, Lord Fordragon has requested that you report back to him here in the keep.\n\nI wish you good fortune in your journeys, Skyborne."
+   ],
+   "patterns": [
+    "greetingsasaguestoftheallianceyouhavebeengivenleavetotravelfreelythroughoutalliancelandsthisdocumentwillserveasaguidetohelpyoureachtheothermembercitiesofouralliance",
+    "salutationsentantquhtedelalliancevousavezreulautorisationdarpenterlibrementlensembledesesterrescedocumentvousserviradeguidepourvousaiderrejoindrelesautresvillesmembresdenotrealliance",
+    "seidgegrtalsgastderallianzdrftihreuchinnerhalbderlandederallianzfreibewegendiesesdokumentsolleuchalswegweiserdienenumdieanderenmitgliedsstdteunseresbndnisseszuerreichen"
+   ]
+  },
+  "i285357": {
+   "title": "Advisor Nazgrel's Instructions",
+   "pages": [
+    "Elf,\n\nAs a guest of the Horde, the Warchief has given you leave to travel freely throughout Horde territory.\n\nUse this guide to find your way around our lands.",
+    "Within this very chamber you will find Vol'jin of the Darkspear Tribe.\n\nThe Darkspear Trolls are steadfast friends of the orcs, our bond sealed in blood through the heat of battle during our flight from the human lands on the continent to the East.\n\nTreat him with respect, and he will treat you with respect. If you show him disrespect... well, don't do that.",
+    "Next, I'd advise you to travel back to Mulgore and seek out Cairne Bloodhoof in Thunder Bluff.\n\nCairne is the chieftain of the Bloodhoof tribe of Tauren, and it is by his grace that your people and the Earthen Ring have been given permission to establish yourselves in Mulgore.\n\nYou should already be familiar with the path to Thunder Bluff. Seek out the flight master in the center of Orgrimmar and take a riding wyvern to Thunder Bluff. Cairne can be found in the central plateau, just east of the great totem that serves as the wyvern roost in the city.",
+    "Our Forsaken allies make their home in the land known as the Tirisfal Glades on the eastern continent. Deep beneath the ruins of a city once called Lordaeron you will find the Undercity.\n\nTo reach Tirisfal, exit the city via the great southern gate, and head east towards the zeppelin tower.\n\nBoard the zeppelin that docks at the south side of the tower. After crossing the great sea, you will arrive at the town of Brill. Simply head north from Brill into the ruins of Lordaeron.\n\nLocate the lift and ride it down into the depths of the Undercity and find the Dark Lady in the Royal Quarter.\n\nWord of warning, you may find the forsaken capital to be... unnerving."
+   ],
+   "patterns": [
+    "elfalsgastderhordehatderkriegshuptlingeuchdasrechterteilteuchfreiimgebietderhordezubewegennutztdiesenwegweiserumeuchinunserenlandenzurechtzufinden",
+    "elfasaguestofthehordethewarchiefhasgivenyouleavetotravelfreelythroughouthordeterritoryusethisguidetofindyourwayaroundourlands",
+    "elfeentantquhtedelahordelechefdeguerrevousaaccordlautorisationdarpenterlibrementlensembledenotreterritoireutilisezceguidepourtrouvervotrecheminsurnosterres"
+   ]
+  },
+  "i286104": {
+   "title": "Longwalker Malah's Report",
+   "pages": [
+    "Day 1\n\nVenture Co. activity continues to be a concern. Their mining operations have only grown, and I hear a new, grinding sound that suggests some new horrific construct may have been unloaded there.\n\nI do not yet consider them a capable threat to Thunder Bluff, but if provoked they could successfully mount an attack on Bloodhoof Village from the south.",
+    "Day 2\n\nI hear a thunderous, stampeding sound echoing off the cliffs to the east, where our home meets the plains of the Barrens. It may be yet another zhevra or gazelle herd, or perhaps an enraged thunder lizard, but it continues deeper into the night than such beasts typically stay active.\n\nI will push forward to investigate further, but will maintain a safe distance.",
+    "Day 3\n\nCentaur have invaded Mulgore! Our most vile and ancient enemy has dared re-enter these plains after being driven out. The High Chieftain's fury will rain upon them!\n\nI must know what they plan, so that we may counter it most effectively. If I stay silent I think I can get close enough to overhear them.\n\nIt seems they plan to...\n\n<The rest of the text is covered in blood.>"
+   ],
+   "patterns": [
+    "dayventurecoactivitycontinuestobeaconcerntheirminingoperationshaveonlygrownandihearanewgrindingsoundthatsuggestssomenewhorrificconstructmayhavebeenunloadedthereidonotyetconsiderthemacapablethreattothunderbluffbutifprovokedtheycouldsuccessfullymountanattackonbloodhoofvillagefromthesouth",
+    "jourlactivitdelakapitalriskcontinuedtreunesourcedeproccupationsesoprationsdeminagenontcessdecrotreetjaientenduunnouveausondegrincementquisuggrequunnouvelappareillageterrifiantyapotentiellementtdchargjenelesconsidretoutefoispascommeunevritablemenacepourlespitonsdutonnerremaissionlesprovoqueilspourraientparvenirorganiseruneattaquefructueusesurbloodhoofdepuislesud",
+    "jourlactivitdelakapitalriskcontinuedtreunesourcedeproccupationsesoprationsdeminagenontcessdecrotreetjaientenduunnouveausondegrincementquisuggrequunnouvelappareillageterrifiantyapotentiellementtdchargjenelesconsidretoutefoispascommeunevritablemenacepourlespitonsdutonnerremaissionlesprovoqueilspourraientparvenirorganiseruneattaquefructueusesursabotdesangdepuislesud",
+    "tagdieaktivittenderventurecosindimmernocheinproblemihreschrfarbeitenwerdenimmerumfassenderundichhreeinneuesschleifendesgeruschdasvermutenlsstdasseinneuesschrecklicheskonstrukthierabgeladenwurdeichsehesienochnichtalswahrebedrohungfrthunderbluffaberwennmansieprovoziertknntensieeinenerfolgreichenangriffausdemsdenaufdasdorfderbloodhoofstarten"
+   ]
+  },
+  "i286200": {
+   "title": "Dillinger's Report",
+   "pages": [
+    "Scourge have continued to slip through both the Bulwark and the eastern waystation, their numbers growing by the day. How such a failure in our defenses is allowed to persist is beyond my reckoning.\n\nAs noted in my previous reports, the paltry allotment of guards assigned to Brill is insufficient for what comes for us. It is not a matter of if we will be overrun, but when. And once Brill falls, it shall serve as the perfect staging ground to lay siege to the Undercity.\n\nIt is not my recommendation, but my demand that reinforcements be dispatched from their luxurious posts in the Undercity to defuse the situation while we still possess the opportunity.\n\n--Deathguard Dillinger"
+   ],
+   "patterns": [
+    "dergeielgelingtesstellenweiseweiterhinsowohldasbollwerkalsauchdenstlichenauenpostenzuberwindenundihrezahlwchstmitjedemneuentagesistmirschleierhaftwiewireinsolchesversagenunsererverteidigungsolangeduldenkonntenwieinmeinenvorherigenberichtengeschildertistdieschmhlicheanzahlanwachendieinbrillstationiertsindvlligunzureichendumderbedrohungherrzuwerdendiefrageistnichtobwirberranntwerdensondernwannundsobaldbrillflltwirdeszumperfektenaufmarschpunktfreinebelagerungvonundercityichbittenichtdarumsondernichverlangedassverstrkungstruppenvonihrengemtlichenposteninundercityabgezogenwerdenumdielagezustabilisierensolangewirnochdiemglichkeitdazuhabentodeswachedillinger",
+    "scourgehavecontinuedtoslipthroughboththebulwarkandtheeasternwaystationtheirnumbersgrowingbythedayhowsuchafailureinourdefensesisallowedtopersistisbeyondmyreckoningasnotedinmypreviousreportsthepaltryallotmentofguardsassignedtobrillisinsufficientforwhatcomesforusitisnotamatterofifwewillbeoverrunbutwhenandoncebrillfallsitshallserveastheperfectstaginggroundtolaysiegetotheundercityitisnotmyrecommendationbutmydemandthatreinforcementsbedispatchedfromtheirluxuriouspostsintheundercitytodefusethesituationwhilewestillpossesstheopportunitydeathguarddillinger"
+   ]
+  },
+  "i286201": {
+   "title": "Kristof's Report",
+   "pages": [
+    "Executor Zygand,\n\nIt is my opinion that the Scourge we see further inland are not due to our defenses failing. I have witnessed our forces at the Bulwark and eastern waypoint for some time now, and it would take a veritable army to break through.\n\nRather, I suspect they are being newly created by some unseen enemy within our borders. I will continue to pull on this thread, in hopes that we may stop these occurrences at the source.\n\n--Kristof"
+   ],
+   "patterns": [
+    "executorzyganditismyopinionthatthescourgeweseefurtherinlandarenotduetoourdefensesfailingihavewitnessedourforcesatthebulwarkandeasternwaypointforsometimenowanditwouldtakeaveritablearmytobreakthroughratherisuspecttheyarebeingnewlycreatedbysomeunseenenemywithinourbordersiwillcontinuetopullonthisthreadinhopesthatwemaystoptheseoccurrencesatthesourcekristof",
+    "exekutorzygandichbinderauffassungdassdiegeieldiesichimhinterlandausbreitetnichtvonderschwcheunsererverteidigungzeugtichbeobachteunserestreitkrfteambollwerkundamstlichenauenpostennunschonseitgeraumerzeitundeswrdeeinewahrearmeebentigensiezudurchbrechenichvermutestattdessendasssievoneinemunbekanntenfeindinnerhalbunserergrenzenerschaffenwirdichwerdediesersacheweiternachgeheninderhoffnungdasswirdiewurzeldesproblemsvernichtenknnenkristof"
+   ]
+  },
+  "i286202": {
+   "title": "Gordo's Report",
+   "pages": [
+    "<Impressively, there is a barely legible carving in the remaining skin of the apple.>\n\nApple yum yum. Me pick flowers now."
+   ],
+   "patterns": [
+    "beeindruckenderweiseistaufdenrestenderapfelschaleetwaskaumlesbareseingeschnitztapfeljamjamichjetztpflckenblumen",
+    "impressivelythereisabarelylegiblecarvingintheremainingskinoftheappleappleyumyummepickflowersnow",
+    "tonnammentonpeutdistinguerdutextepeinelisiblegravsurlapeaurestantedelapommepommemiammiammoicueillirfleursmaintenant"
    ]
   },
   "i2885": {
@@ -5594,6 +6100,12 @@
   "Admiral Proudmoores Befehle": {
    "i4883": true
   },
+  "Advisor Emerson's Instructions": {
+   "i285356": true
+  },
+  "Advisor Nazgrel's Instructions": {
+   "i285357": true
+  },
   "Aegwynn and the Dragon Hunt": {
    "o175738": true
   },
@@ -5605,6 +6117,12 @@
   },
   "Aftermath of the Second War": {
    "o21581": true
+  },
+  "Alexston's Reply": {
+   "i279048": true
+  },
+  "Alexstons Antwort": {
+   "i279048": true
   },
   "Alliance Military Ranks": {
    "o179735": true
@@ -5642,6 +6160,9 @@
   "Angelwettbewerb!": {
    "i19978": true
   },
+  "Angriffspläne des Scharlachroten Kreuzzugs": {
+   "i264693": true
+  },
   "Annalen von Darrowshire": {
    "i12900": true
   },
@@ -5671,6 +6192,12 @@
   },
   "Arathor und die Trollkriege": {
    "o175734": true
+  },
+  "Archaic Rune": {
+   "i282400": true
+  },
+  "Archaische Rune": {
+   "i282400": true
   },
   "Archbishop Alonsus Faol": {
    "o177199": true
@@ -5711,6 +6238,9 @@
   "Aufstieg der Horde": {
    "o175742": true
   },
+  "Ausgerissene Seite": {
+   "i281347": true
+  },
   "Autel de Zanza": {
    "o180367": true
   },
@@ -5747,11 +6277,26 @@
   "Belamoores Forschungstagebuch": {
    "i3711": true
   },
+  "Benedict's Orders": {
+   "i270151": true
+  },
+  "Benedicts Befehle": {
+   "i270151": true
+  },
   "Berard's Journal": {
    "i3255": true
   },
   "Berards Tagebuch": {
    "i3255": true
+  },
+  "Berater Emersons Anweisungen": {
+   "i285356": true
+  },
+  "Berater Nazgrels Anweisungen": {
+   "i285357": true
+  },
+  "Bericht von Langläuferin Malah": {
+   "i286104": true
   },
   "Bericht über die Bruderschaft der Defias": {
    "i2956": true
@@ -5761,6 +6306,9 @@
   },
   "Besudelte Rolle": {
    "i9578": true
+  },
+  "Besudelte Tafel": {
+   "i282346": true
   },
   "Besudelter Brief": {
    "i9576": true
@@ -5777,8 +6325,14 @@
   "Blackrat's Note": {
    "i208205": true
   },
+  "Blason de la famille Valor": {
+   "i281328": true
+  },
   "Blaue Lochkarte": {
    "i9282": true
+  },
+  "Blood-Stained Letter": {
+   "i251522": true
   },
   "Bloodsail Orders": {
    "i3921": true
@@ -5786,17 +6340,32 @@
   "Bloodstained Journal": {
    "i7668": true
   },
+  "Bloody Map": {
+   "i271745": true
+  },
   "Bloody Missive": {
    "i219929": true
   },
+  "Bloody Note": {
+   "i254871": true
+  },
   "Blue Punch Card": {
    "i9282": true
+  },
+  "Blutbefleckter Brief": {
+   "i251522": true
   },
   "Blutbefleckter Umschlag": {
    "i22930": true
   },
   "Blutbeflecktes Tagebuch": {
    "i7668": true
+  },
+  "Blutige Karte": {
+   "i271745": true
+  },
+  "Blutige Notiz": {
+   "i254871": true
   },
   "Blutiges Schreiben": {
    "i219929": true
@@ -5969,6 +6538,9 @@
   "Consecrated Rune": {
    "i9563": true
   },
+  "Consecrated Scroll": {
+   "i282423": true
+  },
   "Control Console Operating Manual": {
    "i5088": true
   },
@@ -5978,10 +6550,17 @@
   "Crate of Horseshoes": {
    "i1284": true
   },
+  "Cristal de rappel bourdonnant": {
+   "i282418": true
+  },
+  "Cristal de rappel luminescent": {
+   "i282416": true
+  },
   "Crude Map": {
    "i21037": true
   },
   "Crumpled Note": {
+   "i282419": true,
    "i4100": true
   },
   "Crystal Pylon User's Manual": {
@@ -6070,6 +6649,9 @@
   },
   "Demande d'aide de Solomon à Darkshire": {
    "i1409": true
+  },
+  "Demande d'aide de Solomon à Fort-Lointain": {
+   "i266895": true
   },
   "Demande d'aide de Solomon à la marche de l'Ouest": {
    "i1407": true
@@ -6242,6 +6824,9 @@
   "Die dritte Troll-Legende": {
    "i2007": true
   },
+  "Die erste Schrifttafel von I'lalai": {
+   "i270308": true
+  },
   "Die erste Troll-Legende": {
    "i2005": true
   },
@@ -6256,6 +6841,12 @@
   },
   "Die zweite Troll-Legende": {
    "i2006": true
+  },
+  "Dillinger's Report": {
+   "i286200": true
+  },
+  "Dillingers Bericht": {
+   "i286200": true
   },
   "Disparu : caporal Keeshan": {
    "o1726": true
@@ -6356,6 +6947,7 @@
    "i916": true
   },
   "Einfache Notiz": {
+   "i282422": true,
    "i9547": true
   },
   "Einfache Rolle": {
@@ -6426,6 +7018,9 @@
    "i20677": true,
    "i20678": true,
    "i20679": true
+  },
+  "Erinnerungen an die Valors": {
+   "i281149": true
   },
   "Erweiterte Annalen von Darrowshire": {
    "i13202": true
@@ -6503,8 +7098,14 @@
   "Fizzlefuse's Shopping List": {
    "i239246": true
   },
+  "Folded Parchment": {
+   "i282420": true
+  },
   "Folgen des Zweiten Krieges": {
    "o21581": true
+  },
+  "Foliant von Rabenflucht": {
+   "i281046": true
   },
   "Fool's Stout Report": {
    "i5807": true
@@ -6554,6 +7155,12 @@
   "Fürstin Mara Fordragon": {
    "o177202": true
   },
+  "Gebirgsjägerin Gretchens Bericht": {
+   "i280430": true
+  },
+  "Gefaltetes Pergament": {
+   "i282420": true
+  },
   "Gefundene Rolle": {
    "i5455": true
   },
@@ -6569,6 +7176,9 @@
   "Geheiligter Brief": {
    "i9548": true
   },
+  "Geheiligtes Memorandum": {
+   "i282338": true
+  },
   "Geheiligtes Siegelzeichen": {
    "i9557": true
   },
@@ -6583,6 +7193,12 @@
   },
   "Geheimnotiz Nr.3": {
    "i12768": true
+  },
+  "Gekritzelte Notiz": {
+   "i282421": true
+  },
+  "Gekritzelter Brief": {
+   "i251941": true
   },
   "Gelbe Lochkarte": {
    "i9280": true
@@ -6601,6 +7217,9 @@
   },
   "Geweihte Rune": {
    "i9563": true
+  },
+  "Geweihte Schriftrolle": {
+   "i282423": true
   },
   "Geweihter Brief": {
    "i9570": true
@@ -6621,6 +7240,9 @@
   "Geätztes Siegelzeichen": {
    "i9567": true
   },
+  "Glowing Recall Crystal": {
+   "i282416": true
+  },
   "Glyphen-Brief": {
    "i9571": true
   },
@@ -6633,11 +7255,17 @@
   "Glyphen-Schrifttafel": {
    "i9575": true
   },
+  "Glyphenpergament": {
+   "i282380": true
+  },
   "Glyphic Letter": {
    "i9571": true
   },
   "Glyphic Memorandum": {
    "i9573": true
+  },
+  "Glyphic Parchment": {
+   "i282380": true
   },
   "Glyphic Scroll": {
    "i9574": true
@@ -6656,6 +7284,18 @@
   },
   "Goodsteel-Geschäftsbuch": {
    "i11727": true
+  },
+  "Gordo's Report": {
+   "i286202": true
+  },
+  "Gordos Bericht": {
+   "i286202": true
+  },
+  "Gozwin's Mechanic's Log": {
+   "i277976": true
+  },
+  "Gozwins Mechanikerlogbuch": {
+   "i277976": true
   },
   "Grades de l'Alliance": {
    "o179735": true
@@ -6774,6 +7414,9 @@
   "Hallowed Letter": {
    "i9548": true
   },
+  "Hallowed Memorandum": {
+   "i282338": true
+  },
   "Hallowed Rune": {
    "i9556": true
   },
@@ -6831,6 +7474,12 @@
   "Holia Sunshield": {
    "o175777": true
   },
+  "Hollee's Note": {
+   "i281243": true
+  },
+  "Hollees Nachricht": {
+   "i281243": true
+  },
   "Horatio Montgomery, M.D.": {
    "o124374": true
   },
@@ -6842,6 +7491,9 @@
   },
   "Horde Military Ranks": {
    "o179741": true
+  },
+  "Humming Recall Crystal": {
+   "i282418": true
   },
   "Héritage des Aspects": {
    "i5860": true
@@ -6878,6 +7530,12 @@
   },
   "Instructions de Thun'grim": {
    "i7587": true
+  },
+  "Instructions du conseiller Emerson": {
+   "i285356": true
+  },
+  "Instructions du conseiller Nazgrel": {
+   "i285357": true
   },
   "Invar One-Arm": {
    "o175778": true
@@ -6956,6 +7614,9 @@
   },
   "Journal de Weavil": {
    "i21130": true
+  },
+  "Journal de mécano de Gozwin": {
+   "i277976": true
   },
   "Journal de recherche de Belamoore": {
    "i3711": true
@@ -7060,6 +7721,12 @@
    "i10839": true,
    "i10840": true
   },
+  "Kristof's Report": {
+   "i286201": true
+  },
+  "Kristofs Bericht": {
+   "i286201": true
+  },
   "Kurdran Wildhammer": {
    "o25329": true
   },
@@ -7146,6 +7813,9 @@
   },
   "La première légende des trolls": {
    "i2005": true
+  },
+  "La première tablette d'I'lalai": {
+   "i270308": true
   },
   "La quatrième légende des trolls": {
    "i2008": true
@@ -7357,6 +8027,9 @@
   "Lettre de Sully Balloo": {
    "i4432": true
   },
+  "Lettre de Thundris": {
+   "i279045": true
+  },
   "Lettre de Thurman": {
    "i2837": true
   },
@@ -7384,6 +8057,9 @@
   "Lettre simple": {
    "i9542": true
   },
+  "Lettre tachée de sang": {
+   "i251522": true
+  },
   "Lettre traduite": {
    "i1656": true
   },
@@ -7402,11 +8078,17 @@
   "Lettre à Jorgen": {
    "i5948": true
   },
+  "Lettre écrite à la hâte": {
+   "i251941": true
+  },
   "Lettres et notes sur Metzen": {
    "i21314": true
   },
   "Letzter Hinweis auf Käpt'n Sanders Schatz": {
    "i1362": true
+  },
+  "Leuchtender Rückrufkristall": {
+   "i282416": true
   },
   "Lewis' Note": {
    "i15998": true
@@ -7489,6 +8171,9 @@
   "Lonebrows Tagebuch": {
    "i5790": true
   },
+  "Longwalker Malah's Report": {
+   "i286104": true
+  },
   "Lorgalis Manuscript": {
    "i5359": true
   },
@@ -7548,6 +8233,9 @@
   },
   "Maybells Liebesbrief": {
    "i1208": true
+  },
+  "Memories of Valor": {
+   "i281149": true
   },
   "Merrin's Letter": {
    "i2639": true
@@ -7627,11 +8315,20 @@
   "Mount Hyjal and Illidan's Gift": {
    "o175729": true
   },
+  "Mountaineer Gretchen's Report": {
+   "i280430": true
+  },
   "Muddy Journal Pages": {
    "i938": true
   },
   "Muddy Note": {
    "i2720": true
+  },
+  "Mysterious Orders": {
+   "i265782": true
+  },
+  "Mysteriöse Befehle": {
+   "i265782": true
   },
   "Mythologie der Titanen": {
    "i5536": true
@@ -7687,6 +8384,7 @@
    "i205864": true
   },
   "Note chiffonnée": {
+   "i282419": true,
    "i4100": true
   },
   "Note cristallisée": {
@@ -7711,6 +8409,9 @@
   },
   "Note de Cutty": {
    "i203723": true
+  },
+  "Note de Hollee": {
+   "i281243": true
   },
   "Note de Lewis": {
    "i15998": true
@@ -7745,8 +8446,14 @@
   "Note déchirée": {
    "i4102": true
   },
+  "Note en lambeaux": {
+   "i272319": true
+  },
   "Note en morceaux": {
    "i4101": true
+  },
+  "Note ensanglantée": {
+   "i254871": true
   },
   "Note from Ba'so": {
    "i207098": true
@@ -7754,6 +8461,9 @@
   "Note gravée": {
    "i9565": true,
    "o174746": true
+  },
+  "Note gribouillée": {
+   "i282421": true
   },
   "Note lige d'ombre": {
    "i227658": true
@@ -7787,6 +8497,9 @@
   },
   "Notes sur les armes de Jordan": {
    "i6996": true
+  },
+  "Notes sur les armes de Trevan": {
+   "i267454": true
   },
   "Notiz der Schattenanbeter": {
    "i227658": true
@@ -7837,6 +8550,9 @@
   "Ordres du grand croisé": {
    "i216610": true
   },
+  "Ordres mystérieux": {
+   "i265782": true
+  },
   "Orman de Stromgarde": {
    "o175779": true
   },
@@ -7858,6 +8574,9 @@
   "Page de journal humide (Jour 87)": {
    "i6305": true
   },
+  "Page déchirée": {
+   "i281347": true
+  },
   "Pages de journal maculées de boue": {
    "i938": true
   },
@@ -7867,6 +8586,9 @@
   "Parchemin codé": {
    "i9559": true,
    "i9560": true
+  },
+  "Parchemin consacré": {
+   "i282423": true
   },
   "Parchemin contaminé": {
    "i9579": true
@@ -7888,6 +8610,9 @@
   },
   "Parchemin gravé": {
    "i9553": true
+  },
+  "Parchemin plié": {
+   "i282420": true
   },
   "Parchemin runique": {
    "i9568": true
@@ -7980,8 +8705,14 @@
   "Rapport d'état d'Ironband": {
    "i2637": true
   },
+  "Rapport de Gordo": {
+   "i286202": true
+  },
   "Rapport de Grelin": {
    "i2619": true
+  },
+  "Rapport de Kristof": {
+   "i286201": true
   },
   "Rapport de Neeka": {
    "i6167": true
@@ -7991,6 +8722,12 @@
   },
   "Rapport de Shaw": {
    "i1353": true
+  },
+  "Rapport de la longue-marche Malah": {
+   "i286104": true
+  },
+  "Rapport de la montagnarde Gretchen": {
+   "i280430": true
   },
   "Rapport de recherches scellé": {
    "i23008": true,
@@ -8011,6 +8748,9 @@
   },
   "Rapport sur les défias": {
    "i2956": true
+  },
+  "Raven Hill Tome": {
+   "i281046": true
   },
   "Recette du Ragoût de la marche de l'Ouest, par Verna": {
    "i2832": true
@@ -8087,6 +8827,9 @@
   "Rumeurs gobelines": {
    "i5804": true
   },
+  "Rune archaïque": {
+   "i282400": true
+  },
   "Rune bénie": {
    "i9556": true
   },
@@ -8144,6 +8887,9 @@
   "Saurier-Ei": {
    "o175684": true
   },
+  "Scarlet Crusade Attack Plans": {
+   "i264693": true
+  },
   "Scarlet Crusade Documents": {
    "i2885": true
   },
@@ -8188,6 +8934,12 @@
   },
   "Schwarzrattes Notiz": {
    "i208205": true
+  },
+  "Scribbled Letter": {
+   "i251941": true
+  },
+  "Scribbled Note": {
+   "i282421": true
   },
   "Script défias": {
    "i6846": true
@@ -8249,6 +9001,7 @@
    "i9544": true
   },
   "Simple Note": {
+   "i282422": true,
    "i9547": true
   },
   "Simple Parchment": {
@@ -8275,11 +9028,17 @@
   "Solomon's Plea to Darkshire": {
    "i1409": true
   },
+  "Solomon's Plea to Farholde": {
+   "i266895": true
+  },
   "Solomon's Plea to Westfall": {
    "i1407": true
   },
   "Solomons Hilfegesuch an Dunkelhain": {
    "i1409": true
+  },
+  "Solomons Hilfegesuch an Farholde": {
+   "i266895": true
   },
   "Solomons Hilfegesuch an Westfall": {
    "i1407": true
@@ -8292,6 +9051,9 @@
   },
   "Souvenir affectueux": {
    "o181062": true
+  },
+  "Souvenirs des Valor": {
+   "i281149": true
   },
   "Spionbericht": {
    "i5917": true
@@ -8346,6 +9108,9 @@
   },
   "Sully Balloos Brief": {
    "i4432": true
+  },
+  "Summender Rückrufkristall": {
+   "i282418": true
   },
   "Sunwell - The Fall of Quel'Thalas": {
    "o175757": true
@@ -8404,6 +9169,12 @@
   "Tainted Scroll": {
    "i9578": true
   },
+  "Tainted Tablet": {
+   "i282346": true
+  },
+  "Tattered Note": {
+   "i272319": true
+  },
   "Teronis' Journal": {
    "i5505": true
   },
@@ -8451,6 +9222,9 @@
   },
   "The Feast of Winter Veil": {
    "i17735": true
+  },
+  "The First Tablet of I'lalai": {
+   "i270308": true
   },
   "The First Troll Legend": {
    "i2005": true
@@ -8542,6 +9316,18 @@
   "Thun'grims Anleitung": {
    "i7587": true
   },
+  "Thunderhorn's Report": {
+   "i281139": true
+  },
+  "Thunderhorns Bericht": {
+   "i281139": true
+  },
+  "Thundris' Brief": {
+   "i279045": true
+  },
+  "Thundris' Letter": {
+   "i279045": true
+  },
   "Thurman's Letter": {
    "i2837": true
   },
@@ -8578,6 +9364,9 @@
   "Tombe de Yuriv": {
    "o24777": true
   },
+  "Tome de Colline-aux-Corbeaux": {
+   "i281046": true
+  },
   "Toothgnasher's Skeleton": {
    "o175683": true
   },
@@ -8586,6 +9375,9 @@
   },
   "Torn Note": {
    "i4102": true
+  },
+  "Torn Page": {
+   "i281347": true
   },
   "Traité d'Ur sur la Magie des Ombres": {
    "i7266": true
@@ -8604,6 +9396,12 @@
   },
   "Trauer der Erdenmutter": {
    "o177204": true
+  },
+  "Trevan's Weapon Notes": {
+   "i267454": true
+  },
+  "Trevans Waffennotizen": {
+   "i267454": true
   },
   "Trotteur Geru": {
    "o175682": true
@@ -8701,6 +9499,9 @@
   "Valea Twinblades": {
    "o175780": true
   },
+  "Valory Family Crest": {
+   "i281328": true
+  },
   "Velinde's Journal": {
    "i5520": true
   },
@@ -8796,6 +9597,9 @@
   "Wanted Notice": {
    "i221314": true
   },
+  "Wappen der Familie Valor": {
+   "i281328": true
+  },
   "War of the Spider": {
    "o175753": true
   },
@@ -8862,6 +9666,9 @@
   "Zerfetzte Notiz": {
    "i4101": true
   },
+  "Zerfledderte Notiz": {
+   "i272319": true
+  },
   "Zerfledderter Brief": {
    "i22932": true
   },
@@ -8884,6 +9691,7 @@
    "i239246": true
   },
   "Zusammengeknüllte Notiz": {
+   "i282419": true,
    "i4100": true
   },
   "Übersetzter Brief": {

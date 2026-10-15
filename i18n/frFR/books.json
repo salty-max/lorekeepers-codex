@@ -215,6 +215,34 @@
    ]
   }
  ],
+ "Advisor Emerson's Instructions": [
+  {
+   "ids": [
+    "i285356"
+   ],
+   "first": "greetingsasaguestoftheal",
+   "pages": [
+    "Salutations,\n\nEn tant qu'hôte de l'Alliance, vous avez reçu l'autorisation d'arpenter librement l'ensemble de ses terres.\n\nCe document vous servira de guide pour vous aider à rejoindre les autres villes membres de notre alliance.",
+    "Votre première étape devrait être Forgefer, que vous pouvez rejoindre en empruntant la merveille technologique que constitue le tram des profondeurs.\n\nVous trouverez l'entrée du tram dans le quartier des Nains, ici à Hurlevent, juste au sud-ouest du donjon. Le tram vous transportera en toute sécurité au cœur de Forgefer.\n\nDès votre arrivée, n'hésitez pas à explorer la ville et à localiser le Grand Bricoleur Mekkanivelle et le roi Magni Barbe-de-Bronze, qui se situent respectivement dans Brikabrok et dans la Grande forge. Présentez-vous comme émissaire des Éolides et ils vous feront bon accueil.",
+    "The city of Darnassus can be found across the sea, off the coast of northern Kalimdor. The city itself rests at the top of the great tree, Teldrassil.\n\nThe safest route for you currently is via the harbor on the west side of Stormwind. Take the ship departing from the southernmost dock to the port of Auberdine.\n\nUpon arriving, proceed to the north side of the Auberdine docks and take the ship there to Ru'theran Village. This village contains a magical transporter that will take you into the city itself.\n\nExplore Darnassus and seek out Tyrande Whisperwind, the High Priestess of Elune.",
+    "Après avoir fait la connaissance des autres dirigeants de l'Alliance, le seigneur Fordragon a demandé à ce que vous le rejoigniez au donjon.\n\nJe vous souhaite bonne chance dans vos voyages, Éolide."
+   ]
+  }
+ ],
+ "Advisor Nazgrel's Instructions": [
+  {
+   "ids": [
+    "i285357"
+   ],
+   "first": "elfasaguestofthehordethe",
+   "pages": [
+    "Elfe,\n\nEn tant qu'hôte de la Horde, le chef de guerre vous a accordé l'autorisation d'arpenter librement l'ensemble de notre territoire.\n\nUtilisez ce guide pour trouver votre chemin sur nos terres.",
+    "Dans cette salle même, vous trouverez Vol'jin, de la tribu des Sombrelances.\n\nLes Trolls sombrelances sont des alliés solides des Orcs. Nos liens ont été scellés dans le sang et la chaleur des combats, au cours de notre exode des royaumes humains à l'est.\n\nTraitez-le avec égards et il en fera de même. Lui manquer de respect… serait une mauvaise idée.",
+    "Ensuite, je vous conseille de revenir à Mulgore et de chercher Cairne Sabot-de-sang, aux Pitons-du-Tonnerre.\n\nCairne est le chef de la tribu taurène des Sabot-de-sang et c'est par sa seule grâce que votre peuple et le Cercle terrestre ont reçu la permission de s'établir à Mulgore.\n\nVous connaissez sûrement déjà la route vers les Pitons-du-Tonnerre. Allez voir le maître de vol au centre d'Orgrimmar et prenez une wyverne de monte jusqu'aux Pitons-du-Tonnerre. Vous trouverez Cairne sur le plateau central, juste à l'est du grand totem qui sert de nid aux wyvernes de la ville.",
+    "Nos alliés Réprouvés résident dans la région connue sous le nom de clairières de Tirisfal, sur le continent est. Vous trouverez Fossoyeuse loin sous les ruines d'une cité autrefois appelée Lordaeron.\n\nPour vous rendre à Tirisfal, sortez de la ville par la grande porte sud et dirigez-vous vers la tour des zeppelins.\n\nEmbarquez à bord du zeppelin qui s'amarre sur le côté sud de la tour. Une fois que vous aurez franchi l'océan, vous arriverez dans le village de Brill. De là, marchez simplement vers le nord jusqu'aux ruines de Lordaeron.\n\nTrouvez l'ascenseur et empruntez-le pour descendre dans les profondeurs de Fossoyeuse et trouver la Dame noire dans le quartier royal.\n\nAttention cependant, vous pourriez trouver la capitale des Réprouvés pour le moins… déstabilisante."
+   ]
+  }
+ ],
  "Aegwynn and the Dragon Hunt": [
   {
    "ids": [
@@ -361,6 +389,17 @@
     "Les armées unies des elfes et des humains se heurtèrent aux innombrables trolls au pied des Montagnes d'Alterac. La bataille dura plusieurs jours, mais les armées inépuisables d'Arathor ne cédèrent jamais un pouce de terrain devant les assauts des trolls. Les seigneurs elfes pensèrent venu le temps d'utiliser leur magie contre l'ennemi.",
     "Les cent magi humains et les innombrables sorciers des elfes appelèrent la fureur et le feu du ciel sur les armées des trolls. Les flammes élémentaires empêchèrent les trolls de régénérer leurs blessures et les consumèrent de l'intérieur.",
     "Les trolls se débandèrent et s'enfuirent. Les armées de Thoradin les poursuivirent et éliminèrent tous les soldats. Les trolls n'allaient jamais se remettre de cette défaite, et le monde ne vit plus jamais les trolls s'unir en une grande nation. Sachant que Quel'Thalas était sauvée de la destruction, les elfes firent acte d'allégeance et d'amitié à la nation d'Arathor et à la lignée du roi Thoradin. Les humains et les elfes allaient vivre en paix pendant les années à venir."
+   ]
+  }
+ ],
+ "Archaic Rune": [
+  {
+   "ids": [
+    "i282400"
+   ],
+   "first": "youalreadyfeltthecallofs",
+   "pages": [
+    "Vous avez déjà ressenti l'appel de forces supérieures ? Eh bien, c'est l'appel des éléments. Nous, les Nains, avons un lien fort avec la terre, mais avec le bon entraînement, vous pourrez apprendre à parler avec tous les éléments. Les élémentaires sont exigeants, mais je suis ici pour vous guider et vous apprendre à communiquer avec eux. Venez me trouver à Courbenclume et je vous entraînerai à écouter les éléments et à les faire vous écouter.\n\n– Teo Martel-tempête, maître des chamans"
    ]
   }
  ],
@@ -548,6 +587,17 @@
    ]
   }
  ],
+ "Blood-Stained Letter": [
+  {
+   "ids": [
+    "i251522"
+   ],
+   "first": "mydearesttabithahowstran",
+   "pages": [
+    "Ma très chère Tabitha,\n\nComme il est étrange de prédire ma propre mort. J'écris cette note car j'ignore à quelle heure mon sort sera scellé. C'est bien loin de remplacer de vrais adieux, je le sais. Te quitter ainsi est une grande douleur et ma plume a bien du mal à l'exprimer.\n\nChaque jour, au réveil, je retrouve le chagrin dont j'ai échoué à te protéger. Je suis désolé de ne pas avoir pu sauver notre cher petit, et d'avoir laissé le deuil me mener dans un piège auquel je ne peux plus échapper.\n\nTu es ma confidente et l'amour de ma vie, une vie qui n'aurait pas compté autant sans ta présence. Chaque semaine, quand je pénètre dans les ruines de notre fière cité, je crains que ce soit la dernière fois, et je remercie à chaque fois la providence en sachant que c'est auprès de toi que je rentrerai.\n\nJe prie pour que nous soyons réunis, ne serait-ce qu'un instant."
+   ]
+  }
+ ],
  "Bloodsail Orders": [
   {
    "ids": [
@@ -584,6 +634,19 @@
    "first": "ourspiestellusthatsiandt",
    "pages": [
     "Nos espions nous apprennent que le SI:7 et la Main d'argent ont mordu à l'hameçon, et votre cible devrait se diriger vers vous. Découvrez ce qu'ils savent, puis veillez à vous en débarrasser discrètement, hors de la ville de préférence. Ces fouineurs doivent mourir et nos biens doivent nous revenir, par tous les moyens nécessaires. N'échouez pas."
+   ]
+  }
+ ],
+ "Bloody Note": [
+  {
+   "ids": [
+    "i254871"
+   ],
+   "first": "theculthitusbysurprisera",
+   "pages": [
+    "The cult hit us by surprise. Raani never saw it coming and Arvensus took a sword to the gut. For my part, I took a lightning bolt to the chest and blacked out. They never bothered to finish me off... I guess they assumed my wounds would do me in. When it's all said and done, I suspect they might.",
+    "Dès que les affrontements ont pris fin, ils ont commencé à monter de grandes caisses de pierres de vent jusqu'au sommet de la tour. Leur cheffe, une sorte de prêtre, a parlé d'un rituel.\n\nJ'écris cette note dans l'éventualité où je ne parviendrais pas à rentrer à Shen'dar pour prévenir Aonda. Il se trame quelque chose, ici. Quelque chose de terrible.",
+    "If anyone finds this, please, do your best to stop them. There were only a few left at the tower when I scribbled this note and crawled away.\n\nAlso, try and get Raani's lucky feather from his body. He liked to tell tall tales about how he plucked it from some kind of firebird and I think he'd want to make sure that it made its way back home.\n\nIf you are also able to retrieve Arvensus Shadowsong's family signet from his body, please do so. High Elder Shadowsong is his uncle and he would want it to be returned to the family."
    ]
   }
  ],
@@ -829,6 +892,17 @@
    ]
   }
  ],
+ "Consecrated Scroll": [
+  {
+   "ids": [
+    "i282423"
+   ],
+   "first": "welcomebackiunderstandal",
+   "pages": [
+    "Bon retour parmi nous, $N.\n\nJe ne comprends que trop bien le choc que l'on peut ressentir dans la situation où vous vous trouvez. Vous avez survécu jusqu'à maintenant, et c'est ce qui vous distingue des autres paladins récemment ressuscités.\n\nL'aspect le plus difficile de votre nouvelle vie sera de redécouvrir ce que vous avez perdu… et de supporter la douleur que cela vous causera.\n\nVenez me parler au Glas et je vous aiderai à trouver la détermination nécessaire pour faire vos premiers pas.\n\n– Aramis Mainmartel, maître des paladins"
+   ]
+  }
+ ],
  "Control Console Operating Manual": [
   {
    "ids": [
@@ -889,6 +963,15 @@
    "first": "fleeingfromthezanzilinth",
    "pages": [
     "Fuir les Zanzil dans ce bateau pourrissant semblait sage sur le moment, mais je commence à me dire que la mort aurait été un destin plus favorable.\n\nJe pensais que mes ancêtres m'avaient fait une faveur en me permettant d'échapper à leur colère. Mais je commence à me demander quelle sagesse je vais acquérir si je survis à mon emprisonnement."
+   ]
+  },
+  {
+   "ids": [
+    "i282419"
+   ],
+   "first": "youvegotagoodswordarmand",
+   "pages": [
+    "$N, j'ai remarqué que vous avez un bon bras armé.\n\nC'est le bazar sur l'île de Zéphras, ça ne fait aucun doute. Nos guerriers et guerrières shen'dorei devront être au meilleur de leur forme si nous voulons survivre à ce qui nous attend. Il est temps pour vous d'arrêter de jouer au petit soldat et de passer aux choses sérieuses.\n\nRetrouvez-moi dans la base de la tour de guet de Thendal. Je vais vous entraîner correctement.\n\n– Maître-lame Ren, maîtresse des guerriers"
    ]
   }
  ],
@@ -1574,6 +1657,17 @@
    ]
   }
  ],
+ "Folded Parchment": [
+  {
+   "ids": [
+    "i282420"
+   ],
+   "first": "greetingssincetheelement",
+   "pages": [
+    "Salutations, $N.\n\nDepuis la disparition des esprits élémentaires du vent, Zéphras se trouve au bord d'un précipice mortel. Les oiseaux, les bêtes et même les racines sous nos pieds nous appellent à l'aide.\n\nRetrouvez-moi au rez-de-chaussée du grand arbre de Thendal. Je vais vous conseiller et vous entraîner dans les arts druidiques.\n\n– Xyton Vent-argent, maître des druides"
+   ]
+  }
+ ],
  "Fool's Stout Report": [
   {
    "ids": [
@@ -1695,6 +1789,17 @@
    ]
   }
  ],
+ "Glowing Recall Crystal": [
+  {
+   "ids": [
+    "i282416"
+   ],
+   "first": "thehighorderhasbeenwatch",
+   "pages": [
+    "<As you touch the glowing crystal a draft of wind stirs around you, carrying the faint hint of spoken words.>\n\nThe High Order has been watching you, $N, and we see great promise in your abilities.\n\nThe Wind Spirits have left Zephras Isle, and now more than ever, promising mages like yourself are needed. If our people are to find the self-reliance to survive this crisis, we must use our knowledge of the arcane to uncover the secrets of this realm.\n\nSeek me out in Thendal Village, on the ground floor of the great tree. We will begin your training in earnest.\n\n-Dorii Brightwhisper, Mage Trainer"
+   ]
+  }
+ ],
  "Glyphic Letter": [
   {
    "ids": [
@@ -1762,6 +1867,30 @@
     "Un paquet en retard -\n\nJ'ai engagé quelqu'un que je croyais un pilote fiable pour me rapporter un paquet de Theramore. Erreur de jugement. Le pilote a survécu, mais il a laissé derrière lui le zeppelin et sa cargaison pour sauver sa peau.\n\nJ'ai besoin de ce paquet. D'après ce que m'a dit Beezil, il s'est écrasé à l'ouest de la baie du marécage d'Âprefange. L'appareil s'est écrasé juste après avoir traversé les collines le long de la berge.\n\nHmmm... Il ne m'a jamais dit pourquoi il s'était écrasé.",
     "La Flamberge de Goodsteel -\n\nEnfin, je veux l'une de mes plus belles réalisations à ce jour. Cette flamberge était une épée incroyable que j'ai donnée à quelqu'un que je prenais pour un grand et honorable guerrier. Eh bien, il a été battu à plates coutures par un murloc nommé Jarquai. Ou quelque chose du genre.\n\nIl voyageait le long de la côte des marais des Chagrins quand il a soudain eu l'idée d'attaquer cette créature. Il a échoué et s'est enfui, mais il a laissé l'épée derrière lui et le murloc s'en est saisi.",
     "Trouvez ces objets et rapportez-les tous à Gadgetzan avec ce livre de compte. Je vous récompenserai."
+   ]
+  }
+ ],
+ "Gordo's Report": [
+  {
+   "ids": [
+    "i286202"
+   ],
+   "first": "appleyumyummepickflowers",
+   "pages": [
+    "<Étonnamment, on peut distinguer du texte à peine lisible gravé sur la peau restante de la pomme.>\n\nPomme miam miam. Moi cueillir fleurs maintenant."
+   ]
+  }
+ ],
+ "Gozwin's Mechanic's Log": [
+  {
+   "ids": [
+    "i277976"
+   ],
+   "first": "mechanicslogthiscommissi",
+   "pages": [
+    "Journal du mécanicien\n\n<Ce petit journal relié en cuir est couvert de taches d'huile et de graisse. On y trouve des croquis de dispositifs mécaniques tous annotés. Vous l'ouvrez à une page au hasard.>\n\nCette commande me fera vivre pendant des années, il faut juste que je trouve un moyen d'empêcher le neutralisateur d'oscillations de surchauffer ou de se réduire en copeaux lui-même. Il faut que j'installe une vortexification de l'excès de chaleur vers le noyau de combustion, mais je ne m'y suis pas encore mis, parce qu'il faudrait démonter tout le trotteur et ensuite tout le moteur.\n\nPage 17",
+    "<Vous faites défiler et tombez sur un diagramme étalé sur deux pages.>\n\nModifications des systèmes d'armement\n\nTourelle de glace – Opérationnelle\nLance-flammes – Opérationnel\nGénérateur d'impulsions électriques – Opérationnel\nProjecteur de radiations – Opérationnel\nAutocanon – Opérationnel\nRayon découpeur laser – EXPÉRIMENTAL\nCanon sonique – EXPÉRIMENTAL\nRayon de phase – CONCEPT\n\nPage 34                                      Page 35",
+    "À FAIRE\n\nPréparer l'équipement pour l'expédition de chasse\nMousquetons pour la ceinture de Grund\nRéparer le casque de soudure\nCarte pour maman\n\nPage 45"
    ]
   }
  ],
@@ -2213,6 +2342,17 @@
    ]
   }
  ],
+ "Hollee's Note": [
+  {
+   "ids": [
+    "i281243"
+   ],
+   "first": "tarrelmybelovednotadaygo",
+   "pages": [
+    "Mon bien-aimé Tarrel,\n\nIl n'y a pas un jour où je ne me perds pas à penser à tes tresses de bronze, ton rire tonitruant ou tes bras musculeux.\n\nTu dois venir me retrouver à Auberdine par le prochain bateau. Nous sommes faits l'un pour l'autre, au fond de toi, tu sais que c'est vrai !\n\nJe suis tienne si tu veux de moi,\n\nHollee"
+   ]
+  }
+ ],
  "Horatio Montgomery, M.D.": [
   {
    "ids": [
@@ -2243,6 +2383,17 @@
    "first": "hordemilitaryranksoffice",
    "pages": [
     "GRADES MILITAIRES DE LA HORDE\n\nOFFICIERS\n\nGrand seigneur de guerre\n\nSeigneur de guerre\n\nGénéral\n\nLieutenant-général\n\nChampion\n\nCenturion\n\nLégionnaire\n\nGarde de sang\n\nGarde de pierre\n\nRECRUES\n\nAdjudant\n\nSergent-chef\n\nSergent\n\nGrunt\n\nEclaireur"
+   ]
+  }
+ ],
+ "Humming Recall Crystal": [
+  {
+   "ids": [
+    "i282418"
+   ],
+   "first": "thewindshapershavebeenwa",
+   "pages": [
+    "<Lorsque vous touchez le cristal brillant, un courant d'air serpente autour de vous, transportant le faible écho de quelques mots.>\n\nLes Sculpte-vents ont observé vos faits et gestes, et il est temps pour vous de passer à l'étape suivante de votre formation chamanique.\n\nLes esprits du vent ont disparu de l'île de Zéphras et il revient à nous de braver les dangers du plan élémentaire pour les ramener chez eux. Il n'existe pas de devoir plus sacré et notre survie en dépend.\n\nRetrouvez-moi à Thendal, près du centre-ville. Je vais vous entraîner.\n\n– Sculpte-vent Boro, maître des chamans"
    ]
   }
  ],
@@ -2520,6 +2671,17 @@
     "M. Fizzlebub,\n\nLe porteur de cette lettre et moi-même avons un projet commercial auquel nous vous proposons de vous joindre.\n\nComme vous le savez, j'ai passé beaucoup de temps dans les Salines. Le projet évoqué concerne les courses qui s'y déroulent.\n\nSi vous participez aux courses, et plus particulièrement si parier sur ces courses vous intéresse, continuez la lecture de ce document. Je suis certain que votre connaissance de Strangleronce sera très utile pour notre plan.",
     "Les chariots explosifs qui disputent les courses des salines nécessitent des réglages et un entretien très pointus. Il n'est donc pas étrange d'apercevoir les équipages dans les environs.\n\nIls testent leurs véhicules régulièrement et font des réglages lorsqu'une modification est nécessaire. C'est le seul moyen de conserver les véhicules en très bon état et performants.\n\nDonc... Nous recherchons un moyen de distraire les équipages afin qu'ils relâchent leur vigilance sur les véhicules, sans entretien, ils seront vite hors compétition.",
     "Si nous pouvons décider quels chariots sont en bon état et lesquels ne le sont pas, inutile de vous expliquer que nous aurons un sérieux avantage.\n\nDonc, mon bon Fizzlebub, nous avons besoin de quelque chose qui pousserait les équipages des chariots à faire des erreurs.\n\nEst-ce que Strangleronce possède des plantes, des herbes ou une boisson que nous pourrions utiliser pour perturber l'esprit des gnomes et des gobelins ?\n\n--K. Koalbeard"
+   ]
+  }
+ ],
+ "Kristof's Report": [
+  {
+   "ids": [
+    "i286201"
+   ],
+   "first": "executorzyganditismyopin",
+   "pages": [
+    "Executor Zygand,\n\nIt is my opinion that the Scourge we see further inland are not due to our defenses failing. I have witnessed our forces at the Bulwark and eastern waypoint for some time now, and it would take a veritable army to break through.\n\nRather, I suspect they are being newly created by some unseen enemy within our borders. I will continue to pull on this thread, in hopes that we may stop these occurrences at the source.\n\n--Kristof"
    ]
   }
  ],
@@ -2818,6 +2980,19 @@
    ]
   }
  ],
+ "Longwalker Malah's Report": [
+  {
+   "ids": [
+    "i286104"
+   ],
+   "first": "dayventurecoactivitycont",
+   "pages": [
+    "Jour 1\n\nL'activité de la KapitalRisk continue d'être une source de préoccupation. Ses opérations de minage n'ont cessé de croître et j'ai entendu un nouveau son de grincement qui suggère qu'un nouvel appareillage terrifiant y a potentiellement été déchargé.\n\nJe ne les considère toutefois pas comme une véritable menace pour les Pitons-du-Tonnerre, mais si on les provoque, ils pourraient parvenir à organiser une attaque fructueuse sur Sabot-de-Sang depuis le sud.",
+    "Jour 2\n\nJ'entends un son tonitruant de cavalcade se réverbérer sur les falaises à l'est, là où nos terres rencontrent les plaines des Tarides. Il peut s'agir d'un autre troupeau de zhévras ou de gazelles, voire d'un lézard-tonnerre enragé, mais ce bruit se poursuit tard dans la nuit, bien au-delà des heures d'activité de ces animaux.\n\nJe vous invite à enquêter plus avant, mais en vous tenant à bonne distance.",
+    "Jour 3\n\nLes centaures ont envahi Mulgore ! Notre adversaire le plus vil et le plus ancien a osé pénétrer à nouveau sur ces plaines après que nous les en avions chassés. Que la fureur du grand chef s'abatte sur eux !\n\nJe dois savoir ce qu'ils ont en tête, afin de pouvoir contrer leurs plans plus efficacement. En gardant le silence, je pense pouvoir me rapprocher suffisamment pour entendre leurs conversations.\n\nIl semble qu'ils prévoient de…\n\n<Le reste du texte est couvert de sang.>"
+   ]
+  }
+ ],
  "Lorgalis Manuscript": [
   {
    "ids": [
@@ -2893,6 +3068,22 @@
    "first": "tommyjoewitheachpassingh",
    "pages": [
     "Tommy Joe -\n\nA chaque heure qui passe, mon coeur gémit de ton absence. Oh, si seulement nos familles pouvaient oublier les torts qu'elles se sont infligés et comprendre que le seul vrai crime est la haine. La haine consume, et je crains ces sombres heures où la haine fera bien d'autres victimes que nos deux seules familles.\n\nSi les nôtres comprenaient, nous pourrions au moins être ensemble. C'est ce jour que j'attends dans l'espérance et c'est pour lui que je survis.\n\nTon amour,\nMaybell"
+   ]
+  }
+ ],
+ "Memories of Valor": [
+  {
+   "ids": [
+    "i281149"
+   ],
+   "first": "memoriesofvalorarecounto",
+   "pages": [
+    "Souvenirs des Valor\nUne chronique de la famille Valor et des services qu'elle a rendus à Colline-aux-Corbeaux\n\nAucune famille des royaumes de l'Est n'est plus remarquable que la famille Valor. Les exploits accomplis par ses membres au service de la population qu'ils avaient juré de protéger tiennent du miracle, et leur disparition est un drame pour tout Colline-aux-Corbeaux.\n\nJ'écris cette chronique pour rétablir la vérité, et montrer que Grant, Ira, Silvia et Merrick étaient des êtres d'exception. Que ces mots soient source de réconfort, car leur absence me peine profondément.",
+    "Merrick Valor, Watcher of Darkshire\n\nMerrick was the youngest son of the Valor family. As he witnessed the corruption coming to his homeland, he chose to join The Watch in a desperate bid to protect his loved ones.\n\nWhile he was the most inexperienced member of his family, he quickly made a name for himself amongst the ranks of The Watchers. He had a knack for archery, and soon became one of the most staunch defenders of Darkshire.\n\nHis personal mission was to keep the roads safe, wary of the ever more hostile creatures coming to the forests.",
+    "Silvia Valor, garde de Colline-aux-Corbeaux\n\nSilvia Valor était déjà une héroïne locale lorsqu'elle fut invitée à rejoindre les rangs de la Garde. S'il y avait bien une chose au monde qu'elle ne pouvait tolérer, c'était les opportunistes qui profitaient du malheur des gens.\n\nBandits, escrocs, fauteurs de troubles, tous connaissaient le même sort. Silvia passait au fil de l'épée quiconque tentait de semer le chaos dans sa contrée chérie. Il n'y avait donc rien d'étonnant qu'elle accède à un poste qui allait lui conférer l'autorité nécessaire pour appliquer son idéal de justice.\n\nÀ croire les récits, ce ne serait qu'en rendant son dernier soupir qu'elle aurait abandonné les fermes et foyers du bois de la Pénombre. Et cela reste encore à prouver.",
+    "Ira Valor, Forest Stalker\n\nWhen Ira's father grew ill, she took it upon herself to gather food and supplies from the nearby forests. While resources were not in short supply, you were as likely to find food as you were to become it.\n\nOver the years, she adapted to the forests, preferring to spend her time within the dark woods rather than in Raven Hill. Travelers who got lost in the trees would tell stories of a shadow seemingly opening the way for them back to the road. There was no confirmations of who it was, but rumors spread quickly.\n\nIt's said that Ira is still in the woods offering a guiding hand to those who fall prey to the beasts within.",
+    "Seigneur Grant Valor, patriarche de la famille Valor\n\nLe seigneur Grant, paix à son âme, était le summum de l'exceptionnalisme de l'Alliance. Un meneur né, ses choix avisés ont contribué à mener la population de Colline-aux-Corbeaux vers la prospérité. Lorsque les ténèbres ont commencé à envahir les bois, il fut le premier à rallier notre peuple.\n\nPour le seigneur Grant, aucun adversaire n'était plus abject que les morts-vivants. Il patrouillait en personne dans les cimetières du bois de la Pénombre pour contenir les hordes chancelantes. Le jour où les monstres lui infligèrent une grave blessure, toute la ville partagea sa souffrance.\n\nGrâce au dévouement de sa famille, il put reprendre ses fonctions, mais un mal tenace sembla l'affecter jusqu'à la fin de ses jours.",
+    "Dame Cassandra Valor, épouse et mère aimante\n\nOn sait peu de choses au sujet de Cassandra, si ce n'est qu'elle aimait sa famille. Elle prit grand soin de braves enfants et d'un mari puissant, en amenant certains à s'imaginer qu'elle était la source de la grandeur de sa famille. Des louanges qu'elle démentait toujours avec grâce.\n\nSi elle ne doit rester dans les mémoires que pour une unique raison, n'oublions jamais qu'elle a toujours œuvré pour le bien de sa famille."
    ]
   }
  ],
@@ -3022,6 +3213,18 @@
    ]
   }
  ],
+ "Mountaineer Gretchen's Report": [
+  {
+   "ids": [
+    "i280430"
+   ],
+   "first": "areportonthestateofwendi",
+   "pages": [
+    "Rapport sur la situation des wendigos dans les grottes proches de Kharanos\n\nRédigé par la montagnarde Gretchen sur la base des observations du montagnard Cornélius\n\nLes wendigos s'aventurent rarement hors de leurs grottes, mais des attaques de civils ont été signalées à plusieurs reprises à proximité de villages comme Kharanos et Brassetout. Les wendigos semblent de plus en plus agités lorsqu'ils se mettent en quête de nourriture. Nous avons d'ailleurs perdu l'un des nôtres en tentant d'enrayer le problème. Si l'élimination totale de ces bêtes n'est pas envisageable, les montagnards demandent",
+    "des moyens supplémentaires afin de freiner leur propagation. Nous ne pouvons pas indéfiniment recourir à des aventuriers pour faire face au problème, et espérer que les choses finissent par s'arranger. Tôt ou tard, les wendigos viendront à manquer de nourriture et s'attaqueront directement à nos villes. Même Forgefer pourrait être touchée.\n\nJe vous prie de présenter mes condoléances à la famille du montagnard Cornélius, qui a vaillamment combattu pour protéger la population de Dun Morogh."
+   ]
+  }
+ ],
  "Muddy Journal Pages": [
   {
    "ids": [
@@ -3045,6 +3248,17 @@
     "Jour 5 :\nThorsen était très agité aujourd'hui. Quoi qu'il ait vu ou qui qu'il ait rencontré durant son excursion d'hier, il a eu peur.\n\nJe suppose que nos agents lui ont parlé, mais lorsque j'ai demandé à Thorsen où il était allé pendant que je le couvrais, il est resté silencieux. Il me pense son ami, et croit me protéger contre un dangereux secret.\n\nIl place mal sa loyauté, mais il est loyal. Quand il nous rejoindra, il sera un apport inestimable aux forces de Kurzen.",
     "Jour 6 :\nTôt ce matin, Thorsen a longuement parlé avec le sergent Yohwa. J'ai dû faire semblant de dormir et je n'ai pu m'approcher pour les écouter. Mais je pense qu'ils parlaient de l'excursion récente de Thorsen.\n\nJe l'ai attentivement observé au déjeuner et j'ai vu que Yohwa en faisait autant. Plus tard, Doren a convoqué Thorsen. Tous trois partagent un secret. Doren et Yohwa doivent savoir que Thorsen rencontre vos agents.\n\nIl espionne les rebelles.",
     "Nous ne devons plus donner de renseignements à Thorsen et nous devons le tuer. Il n'est plus d'aucune utilité pour notre colonel.\n\nJe m'occuperai de Thorsen si j'en ai la possibilité, mais si vous recevez cette lettre, vous saurez que je n'en ai pas encore eu l'occasion.\n\nDans ce cas, je suggère que le prochain contact de Thorsen avec nos agents soit sa dernière heure.\n\nGloire à Kurzen,\n-M"
+   ]
+  }
+ ],
+ "Mysterious Orders": [
+  {
+   "ids": [
+    "i265782"
+   ],
+   "first": "brotherhaalienitistimeto",
+   "pages": [
+    "Frère Haalien,\n\nIl est temps de faire vos preuves aux Al'Aketh ! Rendez-vous dans Trombenoire et localisez le pylône. Vous avez fait part de vos réserves au sujet des druides et les autorités de l'ordre vous ont entendu.\n\nCes preux soldats vous accompagneront dans votre mission sacrée. Éliminez les druides sans tarder pour qu'ils n'entravent pas nos plans. Nos yeux et nos oreilles à Valanaar pourront nous confirmer votre réussite.\n\nL'heure de la vengeance a sonné ! Nul ne pourra faire obstacle à l'avènement !\n\n– N."
    ]
   }
  ],
@@ -3285,6 +3499,22 @@
    ]
   }
  ],
+ "Raven Hill Tome": [
+  {
+   "ids": [
+    "i281046"
+   ],
+   "first": "memoriesofvalorarecounto",
+   "pages": [
+    "Souvenirs des Valor\nUne chronique de la famille Valor et des services qu'elle a rendus à Colline-aux-Corbeaux\n\nAucune famille des royaumes de l'Est n'est plus remarquable que la famille Valor. Les exploits accomplis par ses membres au service de la population qu'ils avaient juré de protéger tiennent du miracle, et leur disparition est un drame pour tout Colline-aux-Corbeaux.\n\nJ'écris cette chronique pour rétablir la vérité, et montrer que Grant, Ira, Silvia et Merrick étaient des êtres d'exception. Que ces mots soient source de réconfort, car leur absence me peine profondément.",
+    "Merrick Valor, Watcher of Darkshire\n\nMerrick was the youngest son of the Valor family. As he witnessed the corruption coming to his homeland, he chose to join The Watch in a desperate bid to protect his loved ones.\n\nWhile he was the most inexperienced member of his family, he quickly made a name for himself amongst the ranks of The Watchers. He had a knack for archery, and soon became one of the most staunch defenders of Darkshire.\n\nHis personal mission was to keep the roads safe, wary of the ever more hostile creatures coming to the forests.",
+    "Silvia Valor, garde de Colline-aux-Corbeaux\n\nSilvia Valor était déjà une héroïne locale lorsqu'elle fut invitée à rejoindre les rangs de la Garde. S'il y avait bien une chose au monde qu'elle ne pouvait tolérer, c'était les opportunistes qui profitaient du malheur des gens.\n\nBandits, escrocs, fauteurs de troubles, tous connaissaient le même sort. Silvia passait au fil de l'épée quiconque tentait de semer le chaos dans sa contrée chérie. Il n'y avait donc rien d'étonnant qu'elle accède à un poste qui allait lui conférer l'autorité nécessaire pour appliquer son idéal de justice.\n\nÀ croire les récits, ce ne serait qu'en rendant son dernier soupir qu'elle aurait abandonné les fermes et foyers du bois de la Pénombre. Et cela reste encore à prouver.",
+    "Ira Valor, Forest Stalker\n\nWhen Ira's father grew ill, she took it upon herself to gather food and supplies from the nearby forests. While resources were not in short supply, you were as likely to find food as you were to become it.\n\nOver the years, she adapted to the forests, preferring to spend her time within the dark woods rather than in Raven Hill. Travelers who got lost in the trees would tell stories of a shadow seemingly opening the way for them back to the road. There was no confirmations of who it was, but rumors spread quickly.\n\nIt's said that Ira is still in the woods offering a guiding hand to those who fall prey to the beasts within.",
+    "Seigneur Grant Valor, patriarche de la famille Valor\n\nLe seigneur Grant, paix à son âme, était le summum de l'exceptionnalisme de l'Alliance. Un meneur né, ses choix avisés ont contribué à mener la population de Colline-aux-Corbeaux vers la prospérité. Lorsque les ténèbres ont commencé à envahir les bois, il fut le premier à rallier notre peuple.\n\nPour le seigneur Grant, aucun adversaire n'était plus abject que les morts-vivants. Il patrouillait en personne dans les cimetières du bois de la Pénombre pour contenir les hordes chancelantes. Le jour où les monstres lui infligèrent une grave blessure, toute la ville partagea sa souffrance.\n\nGrâce au dévouement de sa famille, il put reprendre ses fonctions, mais un mal tenace sembla l'affecter jusqu'à la fin de ses jours.",
+    "Dame Cassandra Valor, épouse et mère aimante\n\nOn sait peu de choses au sujet de Cassandra, si ce n'est qu'elle aimait sa famille. Elle prit grand soin de braves enfants et d'un mari puissant, en amenant certains à s'imaginer qu'elle était la source de la grandeur de sa famille. Des louanges qu'elle démentait toujours avec grâce.\n\nSi elle ne doit rester dans les mémoires que pour une unique raison, n'oublions jamais qu'elle a toujours œuvré pour le bien de sa famille."
+   ]
+  }
+ ],
  "Recruitment Letter": [
   {
    "ids": [
@@ -3487,6 +3717,28 @@
    "pages": [
     "Propagez l'information selon les moyens qui vous semblent appropriés.\n\nCommandement régional de Tirisfal\nCapitaine Melrose\nCapitaine Vachon\nCapitaine Perrine\n\nPar l'ordre du généralissime.\n\nCapitaine Perrine, fortifiez votre position à la tour du sud-ouest (comme indiqué). Des fournitures vous seront envoyées à une date ultérieure. En attendant, les matériaux voulus peuvent être obtenus dans les fermes voisines. De plus, des reconnaissances et des informations",
     "doivent impérativement nous renseigner sur l'organisation des morts-vivants à Brill.\n\nCapitaine Vachon, il semble que les morts-vivants s'agitent près de la tour du Nord. Vous devez vous occuper promptement de ces troubles.\n\nCapitaine Melrose, le niveau d'organisation des morts-vivants cause des soucis près de la frontière des Maleterres. Des troupes fraîches seront affectées à votre position dans les semaines à venir.\n\nGloire et Lumière"
+   ]
+  }
+ ],
+ "Scribbled Letter": [
+  {
+   "ids": [
+    "i251941"
+   ],
+   "first": "oiyougetoffyerduffandcom",
+   "pages": [
+    "Hé, vous, $C. Bougez-vous et venez me voir derrière l'abbaye. Sans guide, $gun chasseur:une chasseresse; novice $gtel:telle; que vous n'a aucune chance de se débrouiller ni même de survivre dans les environs. Heureusement, le bon vieux Tordrin est là pour vous filer un coup de main, si vous vous sentez d'attaque !\n\nTordrin Tigelame, maître des chasseurs (et très bel homme)"
+   ]
+  }
+ ],
+ "Scribbled Note": [
+  {
+   "ids": [
+    "i282421"
+   ],
+   "first": "greetingsyouveshowngreat",
+   "pages": [
+    "Salutations, $N.\n\nVos capacités de chasse sont prometteuses et j'aimerais m'assurer que vous bénéficiez d'un accompagnement et d'un entraînement adaptés.\n\nLes forestiers s'occupent de contrôler la faune locale du bosquet de Thendal, mais hors de nos frontières… c'est une tout autre histoire.\n\nVenez me retrouver au centre du village dès que possible. La nature vous appelle.\n\n– Tai'ree Doublevue, maîtresse des chasseurs"
    ]
   }
  ],
@@ -3767,6 +4019,17 @@
    ]
   }
  ],
+ "Solomon's Plea to Farholde": [
+  {
+   "ids": [
+    "i266895"
+   ],
+   "first": "lordebonlockethetownship",
+   "pages": [
+    "Seigneur Ebonlocke--\n\nLa ville de Lakeshire demande humblement l'aide des Veilleurs. Nous sommes assiégés à la fois par les orcs Blackrock et les gnolls Sombrepoil de Morganth. Je n'aurais pas envoyé de demande si notre situation n'était pas si délicate. Nous attendons de l'aide de Stormwind, mais avant que cette aide n'arrive, je vous supplie de bien vouloir nous accorder des renforts. Si le royaume est atteint, c'est toute l'humanité qui est menacée.\n\nMagistrat Solomon"
+   ]
+  }
+ ],
  "Solomon's Plea to Westfall": [
   {
    "ids": [
@@ -3971,6 +4234,30 @@
    ]
   }
  ],
+ "Tattered Note": [
+  {
+   "ids": [
+    "i272319"
+   ],
+   "first": "guldanagreedanddecidedth",
+   "pages": [
+    "Gul'dan accepta et décida qu'une fois que les citoyens d'Azeroth seraient battus, il trouverait la tombe légendaire et demanderait sa récompense. Désormais certain que la Horde servirait ses desseins, Sargeras ordonna le début de l'invasion.",
+    "Ensemble, Medivh et les démonistes du Conseil des ombres ouvrirent la voie connue sous le nom de Porte des ténèbres. Cette voie menait d'Azeroth à Draenor, et elle était assez vaste pour permettre à des armées de l'emprunter. Gul'dan envoya les éclaireurs orcs par la Porte pour explorer les terres qu'il entendait conquérir. Les éclaireurs, en revenant, assurèrent au Conseil des ombres que le monde d'Azeroth était prêt à tomber entre leurs mains.",
+    "Toujours convaincu que la corruption de Gul'dan allait détruire son peuple, Durotan se prononça une fois de plus contre les démonistes. Le brave guerrier affirma que les démonistes détruisaient la pureté de l'esprit des orcs et que cette invasion signerait leur perte. Gul'dan, ne pouvant tuer un héros si populaire, dut exiler Durotan et le clan Frostwolf dans les terres les plus reculées de ce nouveau monde.",
+    "Lorsque les exilés du clan Frostwolf passèrent le portail, quelques clans d'orcs seulement les suivirent. Ils établirent rapidement une base d'opérations dans le Noir Marécage, une zone sombre et marécageuse à l'est du royaume de Stormwind. En se lançant à l'exploration de ces nouvelles terres, les orcs entrèrent immédiatement en conflit avec les défenseurs de Stormwind.",
+    "Ces escarmouches ne duraient jamais longtemps, mais elles illustraient les forces et faiblesses respectives des armées en présence. Llane et Lothar ne furent jamais en mesure de rassembler des données précises sur le nombre des orcs et en furent contraints à spéculer sur les forces qu'ils auraient à affronter.",
+    "Il fallut quelques années à la majorité de la Horde pour venir sur Azeroth, et Gul'dan décida que l'heure d'une première attaque contre l'humanité était venue. La Horde lança toute sa puissance contre le royaume de Stormwind, qui ne s'y attendait pas.",
+    "Alors que les forces d'Azeroth et de la Horde s'affrontaient partout dans le royaume, des dissensions se firent jour au sein des deux armées. Le roi Llane, qui croyaient les orcs bestiaux incapables de conquérir Azeroth, restait avec dédain dans sa capitale de Stormwind. Mais le seigneur Lothar était convaincu que le combat devait être porté directement au coeur du territoire ennemi, et il eut à choisir entre ses convictions et sa loyauté envers le roi.",
+    "Choisissant de suivre son instinct, Lothar mit à sac la forteresse de Medivh à Karazhan avec l'aide du jeune apprenti sorcier Khadgar. Khadgar et Lothar parvinrent à vaincre le Gardien possédé, qui était sans doute possible la source du conflit.",
+    "En détruisant le corps de Medivh, Lothar et le jeune apprenti bannirent sans le vouloir l'esprit de Sargeras dans les abîmes. En conséquence, le pur et vertueux esprit de Medivh put survivre et continua d'errer dans le plan astral pendant des années.",
+    "En dépit de la défaite de Medivh, la Horde continua à prendre l'avantage sur les défenseurs de Stormwind. Alors que la victoire de la Horde semblait inéluctable, Orgrim Doomhammer, l'un des plus grands chefs des orcs, eut la révélation de la corruption et de la dépravation qui se répandaient dans les clans.",
+    "Son vieux camarade Durotan revint d'exil et l'avertit une fois encore de la trahison de Gul'dan. Les assassins de Gul'dan tuèrent immédiatement Durotan et sa famille, ne laissant en vie qu'un enfant en bas âge. Doomhammer ignorait que le fils de Durotan avait été trouvé par un officier humain, Aedelas Blackmoore, et réduit en esclavage.\n\nCe petit orc allait un jour devenir le plus grand chef que son peuple ait jamais connu.",
+    "Enragé par la mort de Durotan, Orgrim libéra la Horde de la corruption démoniaque et se mit à la tête des orcs en tuant l'homme de paille de Gul'dan, Blackhand. Sous son commandement vigoureux, la Horde vint finalement assiéger le donjon de Stormwind.",
+    "Le roi Llane avait nettement sous-estimé la puissance de la Horde, et il regarda impuissant son royaume s'effondrer sous l'assaut des envahisseurs à la peau verte. Il finit par être tué par un des plus subtils assassins du Conseil des ombres, la demi-orc Garona.",
+    "Lothar et ses guerriers, en revenant de Karazhan, espéraient endiguer les massacres et sauver leur terre naguère glorieuse. Mais ils revinrent trop tard et trouvèrent leur bien-aimé royaume en ruines. La Horde continuait de ravager la région et s'emparait de toutes les terres. Forcés de se cacher, Lothar et ses compagnons jurèrent de reprendre leur royaume à n'importe quel prix."
+   ]
+  }
+ ],
  "Teronis' Journal": [
   {
    "ids": [
@@ -4166,6 +4453,18 @@
     "Les taurens\n\nLa légende du Voile de l'hiver s'accommode parfaitement de la vision chamaniste de l'hiver des taurens et de leurs intérêt récent pour le druidisme. Ils se focalisent presque entièrement sur les aspects de la tradition relatifs à la renaissance, laissant toute la partie cultuelle aux races qui, selon eux, sont moins en accord avec la nature des choses. De nombreux taurens considèrent cette époque comme le bon moment pour rendre grâce pour leur nouveau foyer à Mulgore.",
     "Fête\n\nL'idée de fête durant cette époque de l'année est intimement liée à la légende elle-même. Tandis que Grand-père Hiver traverse Azeroth et apporte l'hiver, la légende dit qu'il est généreux avec ceux qui fêtent sa présence. En tant que telle, l'idée de fête durant le Voile d'hiver rapprocherait les différentes communautés car elles partagent ce qu'elles possèdent. Une seule journée de joie et de fête accueille le changement, en prévision du renouveau des terres.",
     "Pratiques actuelles\n\nD'autres cultures ont commencé à accepter la Fête du Voile de l'hiver comme une période de célébration, bien que dans une tradition différente de ce sur quoi repose la légende. Les coutumes ne sont désormais rien d'autre qu'un prétexte pour des festivités et des échanges de présents. Même l'image de grand-père Hiver est parfois utilisée, mais davantage comme héraut commercial que comme titan surnaturel."
+   ]
+  }
+ ],
+ "The First Tablet of I'lalai": [
+  {
+   "ids": [
+    "i270308"
+   ],
+   "first": "amoonoverthevaleshinesca",
+   "pages": [
+    "Une lune brille au-dessus de la vallée\nNoyant la jungle de ses lueurs\nC'est là que de fiers Guerriers suivent l'appel\nDe notre Pays et de ses terres sacrées.\n\nUne lune brille au-dessus de la Vallée\nBien au-dessus des clameurs du combat\nOù se verse le sang\nDe l'ennemi et de nos camarades.",
+    "Et lorsque nos frères passent\nDans le royaume dont on ne sait rien\nL'âme et l'esprit se durcissent\nLoin sous la vallée.\n\nEt lorsque nos frères passent\nDans le Temple de la montagne\nNous protégeons leur esprit immortel\nEnchâssé dans le saint cristal bleu.\n\nEt lorsque nos frères passent\nUne lune brille au-dessus de la vallée."
    ]
   }
  ],
@@ -4678,6 +4977,17 @@
    ]
   }
  ],
+ "Thundris' Letter": [
+  {
+   "ids": [
+    "i279045"
+   ],
+   "first": "mralexstonofstormwindimu",
+   "pages": [
+    "M. Alexston de Hurlevent,\n\nJe dois vous féliciter pour tous vos efforts consacrés à la restauration de Hurlevent. Nombre de visiteurs de passage à Auberdine vantent sa grandeur et ses solides fondations. C'est cette réussite qui me pousse à vous écrire.\n\nAuberdine a trouvé sa place dans le monde au bord de la mer. Alors que notre cité était autrefois isolée, les vents qui balaient nos rivages sont désormais porteurs d'espoir.\n\n$gCe messager:Cette messagère; est l'une des âmes que les vents ont poussées dans ma direction. J'espère $gqu'il:qu'elle; se montrera aussi utile à votre peuple qu'elle l'a été pour le mien.\n\nEn retour, je vous saurais gré d'envoyer fournitures et main-d'œuvre à Auberdine, afin que nous puissions préparer la cité à affronter le courroux de ce monde qui nous a déjà tant pris.\n\n– Thundris Tissevent, ancien d'Auberdine"
+   ]
+  }
+ ],
  "Thurman's Letter": [
   {
    "ids": [
@@ -4738,6 +5048,17 @@
    ]
   }
  ],
+ "Torn Page": [
+  {
+   "ids": [
+    "i281347"
+   ],
+   "first": "thecalmcomesbeforethesto",
+   "pages": [
+    "Le calme avant la tempête."
+   ]
+  }
+ ],
  "Translated Letter": [
   {
    "ids": [
@@ -4757,6 +5078,20 @@
    "first": "greetingselloebonlockema",
    "pages": [
     "Salutations, Ello Ebonlocke, maire de Darkshire. J'ai peur d'avoir de mauvaises nouvelles pour votre ville.\n\nVoyez-vous, je suis un créateur. J'ai trompé le porteur de ce message pour qu'il m'aide à réaliser ma dernière et plus audacieuse création : une créature mêlée de chair et de métal impie ! Au moment où vous lisez ces lignes, elle est probablement à l'extérieur de mon humble demeure, aiguisant ses dents et attendant que je lui donne l'ordre de commencer le massacre.\n\nMais vous verrez cela rapidement par vous-même.\n\n-L'Embaumeur"
+   ]
+  }
+ ],
+ "Trevan's Weapon Notes": [
+  {
+   "ids": [
+    "i267454"
+   ],
+   "first": "oldfireeyeisamagicalcrea",
+   "pages": [
+    "$N,\nOld Fire-Eye is a magical creature of the night, and as such, we require a magical weapon that is also of the night. We can infuse such a weapon with the light of the full moon and use it to turn the dark magic that drives this creature against itself. For this, we need a specific set of materials to craft a blade of brilliant moonsilver, capable of destroying this evil utterly.\n\nThis won't be easy, but you've shown great promise so I trust that you'll be able to get what we need.",
+    "Enchanted Moonsilver - This is the key ingredient to our creation. Moonsilver is an incredibly rare material, made from enchanted silver infused with the raw power of the moon. A number of weapons were forged to fight off the worgen once the curse began to take hold in Silverpine. Unfortunately they are all lost now and the location of the last remaining moonsilver ingots is unknown.\n\nThere is a rumor that there was a cache of such material in Shadowfang Keep to the south. It's a longshot, but it's our best bet for now to find some of this moonsilver.",
+    "Un peu de bon bois de chêne de blanchepierre – Il existe un endroit dans la marche de l'Ouest connu sous le nom de Ruisselune, qui contenait autrefois ce bois en abondance, les artisans de l'Alliance l'ont utilisé pour reconstruire Hurlevent après la Deuxième guerre.\n\nRuisselune n'est plus ce qu'elle était, mais j'ai entendu dire qu'une organisation de malfrats a eu recours à des sculpteurs gobelins pour entreprendre une construction dans les mines sous la ville. Je parierais ma botte gauche que les Gobelins en ont profité pour mettre la main sur les dernières réserves de ce bois rare.",
+    "Une gemme de Kor – D'après les contes que j'ai entendus, les gemmes sont utilisées par des lanceurs de sorts pour contenir l'énergie dont leur magie a besoin, ce qui la rend plus mortelle encore. Je crois que les énergies de l'une des gemmes peut servir à la création de votre arme.\n\nJ'ai connu un mage appelé Ulric Voile-de-givre, qui pourra vous en dire plus à leur sujet. Aux dernières nouvelles, il était en Kalimdor, à l'avant-poste de Zoram'gar, du côté ouest d'Orneval."
    ]
   }
  ],
@@ -4823,6 +5158,22 @@
    "first": "valeatwinbladeswarriorof",
    "pages": [
     "Valea Twinblades\nGuerrier de la Croisade écarlate\nCitoyen d'Alterac\nPorté disparu dans les Maleterres de l'est"
+   ]
+  }
+ ],
+ "Valory Family Crest": [
+  {
+   "ids": [
+    "i281328"
+   ],
+   "first": "memoriesofvalorarecounto",
+   "pages": [
+    "Souvenirs des Valor\nUne chronique de la famille Valor et des services qu'elle a rendus à Colline-aux-Corbeaux\n\nAucune famille des royaumes de l'Est n'est plus remarquable que la famille Valor. Les exploits accomplis par ses membres au service de la population qu'ils avaient juré de protéger tiennent du miracle, et leur disparition est un drame pour tout Colline-aux-Corbeaux.\n\nJ'écris cette chronique pour rétablir la vérité, et montrer que Grant, Ira, Silvia et Merrick étaient des êtres d'exception. Que ces mots soient source de réconfort, car leur absence me peine profondément.",
+    "Merrick Valor, Watcher of Darkshire\n\nMerrick was the youngest son of the Valor family. As he witnessed the corruption coming to his homeland, he chose to join The Watch in a desperate bid to protect his loved ones.\n\nWhile he was the most inexperienced member of his family, he quickly made a name for himself amongst the ranks of The Watchers. He had a knack for archery, and soon became one of the most staunch defenders of Darkshire.\n\nHis personal mission was to keep the roads safe, wary of the ever more hostile creatures coming to the forests.",
+    "Silvia Valor, garde de Colline-aux-Corbeaux\n\nSilvia Valor était déjà une héroïne locale lorsqu'elle fut invitée à rejoindre les rangs de la Garde. S'il y avait bien une chose au monde qu'elle ne pouvait tolérer, c'était les opportunistes qui profitaient du malheur des gens.\n\nBandits, escrocs, fauteurs de troubles, tous connaissaient le même sort. Silvia passait au fil de l'épée quiconque tentait de semer le chaos dans sa contrée chérie. Il n'y avait donc rien d'étonnant qu'elle accède à un poste qui allait lui conférer l'autorité nécessaire pour appliquer son idéal de justice.\n\nÀ croire les récits, ce ne serait qu'en rendant son dernier soupir qu'elle aurait abandonné les fermes et foyers du bois de la Pénombre. Et cela reste encore à prouver.",
+    "Ira Valor, Forest Stalker\n\nWhen Ira's father grew ill, she took it upon herself to gather food and supplies from the nearby forests. While resources were not in short supply, you were as likely to find food as you were to become it.\n\nOver the years, she adapted to the forests, preferring to spend her time within the dark woods rather than in Raven Hill. Travelers who got lost in the trees would tell stories of a shadow seemingly opening the way for them back to the road. There was no confirmations of who it was, but rumors spread quickly.\n\nIt's said that Ira is still in the woods offering a guiding hand to those who fall prey to the beasts within.",
+    "Seigneur Grant Valor, patriarche de la famille Valor\n\nLe seigneur Grant, paix à son âme, était le summum de l'exceptionnalisme de l'Alliance. Un meneur né, ses choix avisés ont contribué à mener la population de Colline-aux-Corbeaux vers la prospérité. Lorsque les ténèbres ont commencé à envahir les bois, il fut le premier à rallier notre peuple.\n\nPour le seigneur Grant, aucun adversaire n'était plus abject que les morts-vivants. Il patrouillait en personne dans les cimetières du bois de la Pénombre pour contenir les hordes chancelantes. Le jour où les monstres lui infligèrent une grave blessure, toute la ville partagea sa souffrance.\n\nGrâce au dévouement de sa famille, il put reprendre ses fonctions, mais un mal tenace sembla l'affecter jusqu'à la fin de ses jours.",
+    "Dame Cassandra Valor, épouse et mère aimante\n\nOn sait peu de choses au sujet de Cassandra, si ce n'est qu'elle aimait sa famille. Elle prit grand soin de braves enfants et d'un mari puissant, en amenant certains à s'imaginer qu'elle était la source de la grandeur de sa famille. Des louanges qu'elle démentait toujours avec grâce.\n\nSi elle ne doit rester dans les mémoires que pour une unique raison, n'oublions jamais qu'elle a toujours œuvré pour le bien de sa famille."
    ]
   }
  ],

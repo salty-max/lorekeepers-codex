@@ -39,6 +39,20 @@ texts = db("classic").execute(
          JOIN name n ON n.kind = 'item' AND n.id = i.id AND n.locale = 'enUS' WHERE i.page_id > 0)
        ORDER BY substr(key, 1, 1) DESC, CAST(substr(key, 2) AS INTEGER)"""
 ).fetchall()
+# and Forever's own, which Classic's database doesn't hold: the texts with
+# English pages in Forever's (Wowhead's pages, saved in wow-data), their
+# titles Forever's
+classic_keys = {key for key, _ in texts}
+texts += [
+    (key, title)
+    for key, title in db("forever").execute(
+        """SELECT DISTINCT substr(p.kind, 1, 1) || p.id AS key, n.name FROM readable_page p
+           JOIN name n ON n.kind = p.kind AND n.id = p.id AND n.locale = 'enUS'
+           WHERE p.locale = 'enUS'
+           ORDER BY substr(p.kind, 1, 1) DESC, p.id"""
+    )
+    if key not in classic_keys
+]
 
 
 def pages(game, key, loc):
