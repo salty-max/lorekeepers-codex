@@ -1,7 +1,8 @@
 -- The reader's language. The client loads its own Text_<locale>.lua (the
 -- TOCs name Text_[TextLocale].lua; scripts/locales.ts writes them from
--- i18n/), which hands its words, chapters and pages to ns.translate; English
--- stays wherever it says nothing. Loaded before any file reads a word.
+-- i18n/), which hands its words, chapters and pages to ns.translate (English
+-- stays wherever it says nothing) and the game's names in its language to
+-- ns.names. Loaded before any file reads a word.
 local _, ns = ...
 local K = ns.kit
 
@@ -29,6 +30,11 @@ local function replace(s, from, to)
   return table.concat(out)
 end
 
+-- The game's names in the client's language (its Text file's, every
+-- language's, English one of them): the places inside buildings by their ids,
+-- this game's.
+function ns.names(t) ns.insideNames = (ns.content.client == "classic" and t.insideClassic or t.inside) or {} end
+
 function ns.translate(t)
   ns.locale = t.locale
   K.isOne = PLURALS[t.plural] or K.isOne
@@ -47,17 +53,6 @@ function ns.translate(t)
     end
   end
   ns.textTitles = titles
-  -- the places inside buildings (no area id to ask the client), this game's
-  local inside = {}
-  for en, tr in pairs(t.subzones or {}) do
-    inside[en] = tr
-  end
-  if C.client == "classic" then
-    for en, tr in pairs(t.subzonesClassic or {}) do
-      inside[en] = tr
-    end
-  end
-  ns.subzoneNames = inside
   local female = UnitSex and UnitSex("player") == 3
   local swaps = C.client == "classic" and t.classic or nil
   local function words(s)

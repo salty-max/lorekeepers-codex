@@ -83,8 +83,9 @@ conventions).
   `build` and `check`) writes `Text_<locale>.lua` for the game's twelve
   languages from `i18n/<locale>/` (`meta.json`: plural rule, flagged;
   `words.json`; `chapters.json`; `pages/<chapter>/<id>.md`, each with the
-  English page's hash in `source:`, `--stamp` writes it, a stub where there's
-  no translation; esMX borrows esES); `--keys` writes `i18n/words.json`, the
+  English page's hash in `source:`, `--stamp` writes it; a language without
+  words reads in English, the game's names in its own all the same; esMX
+  borrows esES's translation); `--keys` writes `i18n/words.json`, the
   words to translate; `--check` says which pages are stale (their English
   changed) and which words are missing. A translation keeps the English
   page's paragraph marks; its own letters are fine, curly quotes are not.
@@ -92,10 +93,7 @@ conventions).
   `glossary-by-hand.json`'s where no table has one) that an English page
   names is in its translation as the game writes it (`scripts/names.ts`, in
   `--check`; the exceptions, with their reason, in `names-ok.json`).
-  The Library's titles copied in another language read by the client's (`i18n/<locale>/texts.json`, `python3 scripts/text_titles.py <locale>`: every text object and item with a page, each game's titles), and a text read again in the client's language replaces its copy (`ns.textTitle`). Known copies made in English, French or German follow the client's language, using readable identities and first-page templates (`i18n/books-index.json`, `python3 scripts/book_index.py` after the locale imports, generated as shared `Text_Sources.lua`: a plain first page known by its fingerprint, a pattern only where a name is inside; the English pages in `Text_enUS`/`Text_enGB` alone, `ns.textBodies`). A re-read uses that identity, keeping same-title variants distinct. Sourced game text and documented addon translations ship in each language (`i18n/<locale>/books.json`, `python3 scripts/book_texts.py <locale>` from wow-data's pages: Wowhead's, saved from a browser, which Wowhead serves only to one; `ns.textPages`, the reader's $N/$C/$R filled in by `ns.textForReader`): the user's call, 14 October 2026, so a quest item handed in still reads in French. Places inside buildings, which have no area id, read by `i18n/<locale>/subzones.json` (`../addon-kit/subzones.py`). Where a page or a text was found keeps the area ids of the zone and
-  subzone (`zoneId`, `subId`, by the client's names of the codex's areas,
-  `ns.areaOf`) and reads in the client's language (`ns.placeName`: an older
-  find, kept only by name, by its English one in `C.areaNames`).
+  The Library's titles copied in another language read by the client's (`i18n/<locale>/texts.json`, `python3 scripts/text_titles.py <locale>`: every text object and item with a page, each game's titles), and a text read again in the client's language replaces its copy (`ns.textTitle`). Known copies made in English, French or German follow the client's language, using readable identities and first-page templates (`i18n/books-index.json`, `python3 scripts/book_index.py` after the locale imports, generated as shared `Text_Sources.lua`: a plain first page known by its fingerprint, a pattern only where a name is inside; the English pages in `Text_enUS`/`Text_enGB` alone, `ns.textBodies`). A re-read uses that identity, keeping same-title variants distinct. Sourced game text and documented addon translations ship in each language (`i18n/<locale>/books.json`, `python3 scripts/book_texts.py <locale>` from wow-data's pages: Wowhead's, saved from a browser, which Wowhead serves only to one; `ns.textPages`, the reader's $N/$C/$R filled in by `ns.textForReader`): the user's call, 14 October 2026, so a quest item handed in still reads in French. Where a page or a text was found is kept by ids only, never a name (the family's rule, 15 October 2026; a name only where the client's gave no id): the zone's and subzone's areas (`zoneId`, `subId`, from the client's names of every area, `ns.areaOf`) or, inside a building, its building area (`subInside`, `ns.insideOf`, by the language's list: `i18n/<locale>/subzones.json`, `../addon-kit/subzones.py <locale>`, every language's, English one of them, loaded by `ns.names`); `ns.placeOf(zone, sub)` makes the record, `ns.placeNames(rec)` reads it in the client's language. An older find kept its names: turned into ids at the login (`ns.mendPlaces`), an English one by the codex's own (`C.areaNames`), today's language's by the client's; another language's waits for a client of its own.
 - The opt-in that shares what the game tells of the world (the kit's
   `K.collect`: quests' texts, creatures' facts, NPCs' lines, loot by source;
   off until the player ticks it on the welcome page or the Options page)
@@ -206,7 +204,7 @@ historical claims in other entries.
   branch classic_era); a wrong path silently shows nothing.
 
 - `.github/workflows/game-data.yml`: daily and by hand, wow-data's
-  `addon-data.yml` builds the game data again from wow-data's pins (the areas, the texts and their titles, the portraits, the glossaries and the places inside buildings in every language, then `bun run build`);
+  `addon-data.yml` builds the game data again from wow-data's pins (the areas, the texts, the portraits, the places inside buildings in every language, a translation's titles, texts and glossary, then `bun run build`);
   a pull request when a generated file changes, the checks run on it, then
   rebased onto main by itself and told to the owner's phone in words
   (Ravenpost's inbox). The generators' list lives there: a new one goes in too.

@@ -143,8 +143,8 @@ end
 
 -- Where and when it was copied.
 local function foundAt(t)
-  if not t.zone then return L["found"] end
-  local zone, sub = ns.placeName(t.zone, t.zoneId), t.sub and t.sub ~= "" and ns.placeName(t.sub, t.subId)
+  local zone, sub = ns.placeNames(t)
+  if not zone then return L["found"] end
   return L["found in %s, %s"]:format(sub and L["%s: %s"]:format(zone, sub) or zone, ui.day(t.at))
 end
 

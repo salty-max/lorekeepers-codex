@@ -1,9 +1,9 @@
 /**
  * i18n/<locale>/ → addon/LorekeepersCodex/Text_<locale>.lua, one for every
- * language the game has (a stub where there is no translation yet, so the
- * TOC never names a missing file): each client loads its own, through
- * Text_[TextLocale].lua in the TOCs, and English stays wherever a
- * translation says nothing (Locale.lua).
+ * language the game has (the game's names in it, and its translation where
+ * there is one): each client loads its own, through Text_[TextLocale].lua in
+ * the TOCs, and English stays wherever a translation says nothing
+ * (Locale.lua).
  *
  *   i18n/<locale>/meta.json       { "plural": "one" | "fr" | "ru" | "none",
  *                                    "flagged": true }  (a first translation,
@@ -12,8 +12,11 @@
  *                                  words, every L["..."] of the addon (its
  *                                  kit's included); i18n/words.json lists them
  *   i18n/<locale>/chapters.json   { "<chapter id>": ["title", "summary"] }
- *   i18n/<locale>/subzones.json   the places inside buildings, by their English
- *                                 names (../addon-kit/subzones.py)
+ *   i18n/<locale>/subzones.json   the places inside buildings by their ids,
+ *                                 { forever, classic }, every language's,
+ *                                 English one of them (enGB: enUS's), complete
+ *                                 (../addon-kit/subzones.py <locale>); the
+ *                                 one file of a language with no translation
  *   i18n/<locale>/books.json      the game's own texts by their English titles
  *                                 (scripts/book_texts.py)
  *   i18n/<locale>/texts.json      the Library's titles by their English ones,
@@ -26,7 +29,8 @@
  *                                  marked as the English ones ([forever],
  *                                  [horde] > ... -- P. F.)
  *
- * A language not given its own folder may borrow another's (esMX: esES).
+ * A language without its own words may borrow another's translation (esMX:
+ * esES).
  *
  *   bun scripts/locales.ts             write the Text files
  *   (i18n/<locale>/names-ok.json: the names a translation writes otherwise
@@ -52,6 +56,10 @@ const ADDON = join(ROOT, "addon/LorekeepersCodex");
 const LOCALES = ["enUS", "enGB", "deDE", "frFR", "esES", "esMX", "ruRU", "ptBR", "itIT", "koKR", "zhCN", "zhTW"];
 const ENGLISH = new Set(["enUS", "enGB"]);
 const BORROWS: Record<string, string> = { esMX: "esES" };
+// (the game's names: a language the client names nothing in its own, another's)
+const NAMES_OF: Record<string, string> = { enGB: "enUS" };
+// (a translation: its words)
+const translated = (locale: string) => existsSync(join(I18N, locale, "words.json"));
 const PLURALS = ["one", "fr", "ru", "none"];
 
 const errors: string[] = [];
@@ -111,8 +119,6 @@ function read(locale: string) {
   // the Library's titles in this language, by their English ones, each game's
   // (scripts/text_titles.py; Classic's only where they differ)
   const titles = json<{ forever?: Record<string, string>; classic?: Record<string, string> }>("texts.json", {});
-  // the places inside buildings, which have no area id (../addon-kit/subzones.py)
-  const subzones = json<{ forever?: Record<string, string>; classic?: Record<string, string> }>("subzones.json", {});
   // the game's own texts in this language, by their English titles (a text
   // copied in English reads in this one): scripts/book_texts.py
   const books = json<Record<string, { ids: string[]; first: string; pages: string[] }[]>>("books.json", {});
@@ -150,7 +156,7 @@ function read(locale: string) {
     }
     pages.set(id, { title: String(m.title), text: paragraphs(body), stale: m.source !== en.hash });
   }
-  return { meta, words, chapters, pages, classic, titles, subzones, books };
+  return { meta, words, chapters, pages, classic, titles, books };
 }
 
 // The names are Forever's (docs/localization.md): the English names the
@@ -190,16 +196,44 @@ const q = (s: string) => `"${s.replace(/\\/g, "\\\\").replace(/"/g, '\\"').repla
 const paraLua = (p: Para) =>
   `{ ${p.italic ? "italic = true, " : ""}${p.client ? `client = ${q(p.client)}, ` : ""}${p.side ? `side = ${q(p.side === "horde" ? "Horde" : "Alliance")}, ` : ""}${p.aside ? "aside = true, " : ""}${p.sign ? `sign = ${q(p.sign)}, ` : ""}${q(p.text)} }`;
 
+// The game's names in a language, every language's: the places inside
+// buildings by their ids, each game's.
+function namesLua(locale: string): string {
+  const file = join(I18N, NAMES_OF[locale] ?? locale, "subzones.json");
+  if (!existsSync(file)) fail(file, `missing: python3 ../addon-kit/subzones.py ${NAMES_OF[locale] ?? locale}`);
+  const t: { forever?: Record<string, string>; classic?: Record<string, string> } = existsSync(file)
+    ? JSON.parse(readFileSync(file, "utf8"))
+    : {};
+  const list = (names: Record<string, string> = {}) =>
+    Object.entries(names)
+      .sort(([a], [b]) => Number(a) - Number(b))
+      .map(([id, n]) => `    [${id}] = ${q(n)},`)
+      .join("\n");
+  return `-- the game's names in this language: the places inside buildings by their
+-- ids (no area id to ask the client), each game's
+ns.names({
+  inside = {
+${list(t.forever)}
+  },
+  insideClassic = {
+${list(t.classic)}
+  },
+})
+`;
+}
+
 function luaFor(locale: string): string {
-  const from = existsSync(join(I18N, locale)) ? locale : BORROWS[locale];
-  if (ENGLISH.has(locale) || !from || !existsSync(join(I18N, from))) {
-    return `-- Generated by scripts/locales.ts: no translation for ${locale} (yet), the codex reads in English.\n`;
+  const from = translated(locale) ? locale : BORROWS[locale] && translated(BORROWS[locale]) ? BORROWS[locale] : null;
+  if (ENGLISH.has(locale) || !from) {
+    return `-- Generated by scripts/locales.ts: no translation for ${locale} (yet), the codex reads in English.
+local _, ns = ...
+${namesLua(locale)}`;
   }
   const t = read(from);
   const pages = [...t.pages.entries()].sort(([a], [b]) => a.localeCompare(b));
   return `-- Generated by scripts/locales.ts from i18n/${from}/: edit those, not this file.
 local _, ns = ...
-ns.translate({
+${namesLua(locale)}ns.translate({
   locale = ${q(locale)},
   plural = ${q(t.meta.plural ?? "one")},
   words = {
@@ -219,20 +253,6 @@ ${Object.entries(t.chapters)
   -- reads by this language's title); Classic's own where they differ
   titles = {
 ${Object.entries(t.titles.forever ?? {})
-  .sort(([a], [b]) => a.localeCompare(b))
-  .map(([en, tr]) => `    [${q(en)}] = ${q(tr)},`)
-  .join("\n")}
-  },
-  -- the places inside buildings, by their English names (no area id to ask
-  -- the client); Classic's own where they differ
-  subzones = {
-${Object.entries(t.subzones.forever ?? {})
-  .sort(([a], [b]) => a.localeCompare(b))
-  .map(([en, tr]) => `    [${q(en)}] = ${q(tr)},`)
-  .join("\n")}
-  },
-  subzonesClassic = {
-${Object.entries(t.subzones.classic ?? {})
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([en, tr]) => `    [${q(en)}] = ${q(tr)},`)
   .join("\n")}
@@ -348,8 +368,7 @@ if (check) {
     outdated = true;
   }
 } else writeFileSync(indexOut, indexLua);
-const englishBodies = `local _, ns = ...
--- The game's English pages of the texts the codex knows in other languages:
+const englishBodies = `-- The game's English pages of the texts the codex knows in other languages:
 -- a copy made in French or German reads in English here (Text_Sources.lua).
 ns.textBodies = {
 ${Object.entries(index.texts)
@@ -369,7 +388,7 @@ for (const locale of LOCALES) {
       outdated = true;
     }
   } else writeFileSync(out, lua);
-  if (existsSync(join(I18N, locale))) {
+  if (translated(locale)) {
     const t = read(locale);
     const stale = [...t.pages.entries()].filter(([, p]) => p.stale).map(([id]) => id);
     const missingPages = [...english.keys()].filter((id) => !t.pages.has(id));

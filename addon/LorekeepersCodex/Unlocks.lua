@@ -77,8 +77,8 @@ function ns.pagesOfPlayer(unit)
 end
 
 -- Areas are matched by name as the client shows it, in its own language: the
--- names of the area ids come from the client (C_Map.GetAreaInfo), English as
--- a fallback.
+-- names of the area ids come from the client (C_Map.GetAreaInfo); an area
+-- this client lacks, by the codex's English name.
 local areasByName = {}
 local function indexAreas()
   for areaId in pairs(byArea) do
@@ -88,26 +88,92 @@ local function indexAreas()
   end
 end
 
--- A place as this client names it. A find keeps the area ids of its zone and
--- subzone when the codex knows them (its pages name some 400 places), so it
--- reads in the client's language whatever language it was found in; an older
--- find kept only the names, in the language of that day, and an English one
--- is looked up by the codex's own (C.areaNames). Any other stays as recorded.
+-- A place by its id: an area's (the client names it, C_Map.GetAreaInfo), or
+-- inside a building a building area's (the language's list, ns.insideNames,
+-- Text_<locale>.lua's). A find keeps the ids, found from the names the client
+-- gives in its own language: names only where it gave none. An older find
+-- kept its names, in the language of that day: turned into ids at the login
+-- (ns.mendPlaces), an English one by the codex's own names (C.areaNames),
+-- today's language's by the client's; another language's waits for a client
+-- of its own.
 local areaByEnglish = {}
 for areaId, name in pairs(C.areaNames or {}) do
   -- (a name some areas share: the lowest id, the same every time)
   if not areaByEnglish[name] or areaId < areaByEnglish[name] then areaByEnglish[name] = areaId end
 end
-function ns.areaOf(name)
-  local ids = name and areasByName[name]
-  return ids and ids[1] or nil
+local areaIds, insideIds, builtWith, builtInside
+local function reversed()
+  local info = C_Map and C_Map.GetAreaInfo
+  if areaIds and builtWith == info and builtInside == ns.insideNames then return end
+  -- (made again only if the game's function or the list is another: the tests' clients)
+  builtWith, builtInside = info, ns.insideNames
+  areaIds, insideIds = {}, {}
+  for id in pairs(C.areaNames or {}) do
+    local own = info and info(id)
+    if type(own) == "string" and own ~= "" and (not areaIds[own] or id < areaIds[own]) then areaIds[own] = id end
+  end
+  for id, own in pairs(ns.insideNames or {}) do
+    if not insideIds[own] or id < insideIds[own] then insideIds[own] = id end
+  end
 end
-function ns.placeName(name, areaId)
-  areaId = areaId or (name and areaByEnglish[name])
-  local here = areaId and C_Map and C_Map.GetAreaInfo and C_Map.GetAreaInfo(areaId)
-  if here and here ~= "" then return here end
-  -- (a place inside a building: a translation's own list)
-  return ns.subzoneNames and name and ns.subzoneNames[name] or name
+-- An area's id, a building area's, from the client's name for it.
+function ns.areaOf(name)
+  if type(name) ~= "string" or name == "" or secret(name) then return nil end
+  reversed()
+  return areaIds[name]
+end
+function ns.insideOf(name)
+  if type(name) ~= "string" or name == "" or secret(name) then return nil end
+  reversed()
+  return insideIds[name]
+end
+-- Where a find was made, by ids: its zone's area, its subzone's area or
+-- building area; a name only where the client's gave none.
+function ns.placeOf(zone, sub)
+  if type(zone) ~= "string" or secret(zone) then zone = nil end
+  if type(sub) ~= "string" or secret(sub) or sub == "" or sub == zone then sub = nil end
+  local rec = { zoneId = ns.areaOf(zone) }
+  rec.zone = not rec.zoneId and zone or nil
+  if sub then
+    rec.subId = ns.areaOf(sub)
+    rec.subInside = not rec.subId and ns.insideOf(sub) or nil
+    rec.sub = not (rec.subId or rec.subInside) and sub or nil
+  end
+  return rec
+end
+-- An older find's names turned into ids: an English one by the codex's own
+-- names, today's language's by the client's.
+local function mended(rec)
+  if rec.zone and not rec.zoneId then rec.zoneId = ns.areaOf(rec.zone) or areaByEnglish[rec.zone] end
+  if rec.zoneId then rec.zone = nil end
+  if rec.sub == "" then rec.sub = nil end
+  if rec.sub and not (rec.subId or rec.subInside) then
+    rec.subId = ns.areaOf(rec.sub) or areaByEnglish[rec.sub]
+    rec.subInside = not rec.subId and ns.insideOf(rec.sub) or nil
+  end
+  if rec.subId or rec.subInside then rec.sub = nil end
+  if rec.subId and rec.subId == rec.zoneId then rec.subId = nil end
+end
+function ns.mendPlaces(char)
+  for _, rec in pairs(char and char.entries or {}) do
+    mended(rec)
+  end
+  for _, t in pairs(char and char.library and char.library.texts or {}) do
+    if t.at then mended(t) end
+  end
+end
+-- A find's places in the client's language: its zone's, its subzone's (nil
+-- where none was kept).
+local function named(id, inside, name)
+  local own = id and C_Map and C_Map.GetAreaInfo and C_Map.GetAreaInfo(id)
+  if own and own ~= "" then return own end
+  if inside then return ns.insideNames and ns.insideNames[inside] or name end
+  return name
+end
+function ns.placeNames(rec)
+  local zone = (rec.zoneId or rec.zone) and named(rec.zoneId, nil, rec.zone)
+  local sub = (rec.subId or rec.subInside or rec.sub) and named(rec.subId, rec.subInside, rec.sub)
+  return zone, sub ~= zone and sub or nil
 end
 
 -- ── the codex ────────────────────────────────────────────────────────────────
@@ -188,16 +254,9 @@ end
 local function unlock(id, retro)
   local char = ns.codex()
   if not char or char.entries[id] or not ns.available(id) then return end
-  local zone, sub = GetRealZoneText(), GetSubZoneText()
-  char.entries[id] = {
-    at = time(),
-    level = UnitLevel("player"),
-    zone = zone,
-    sub = sub,
-    zoneId = ns.areaOf(zone),
-    subId = ns.areaOf(sub),
-    retro = retro or nil,
-  }
+  local rec = ns.placeOf(GetRealZoneText(), GetSubZoneText())
+  rec.at, rec.level, rec.retro = time(), UnitLevel("player"), retro or nil
+  char.entries[id] = rec
   if not retro then
     -- A link: clicking it opens the book at this page (see Book.lua).
     local link = ("|cffffd100|Hlorekeeper:%s|h[%s]|h|r"):format(id, C.entries[id].title)
@@ -383,6 +442,7 @@ function ns.startUnlocks()
   race = select(2, UnitRace("player"))
   countTotal()
   indexAreas()
+  ns.mendPlaces(ns.codex())
   ns.checkAchievements(true)
   ns.catchUp()
   if C_Timer and next(byMap) then C_Timer.NewTicker(2, checkPosition) end

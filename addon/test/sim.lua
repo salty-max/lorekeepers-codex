@@ -459,8 +459,8 @@ fire("ZONE_CHANGED")
 check(has("kharanos"), "reaching Kharanos unlocks it (name from the client)")
 local k = LorekeepersCodexChar.entries.kharanos
 check(
-  k.level == 5 and k.sub == "Kharanos" and k.zone == "Dun Morogh" and k.at == clock,
-  "a page remembers when, at what level and where"
+  k.level == 5 and k.subId == 131 and k.zoneId == 1 and not k.sub and not k.zone and k.at == clock,
+  "a page remembers when, at what level and where (its places by their ids)"
 )
 
 state.target = 1234
@@ -1555,17 +1555,23 @@ do
       },
     },
     titles = { ["The Founding of Quel'Thalas"] = "La fondation de Quel'Thalas" },
-    subzones = { ["The Library"] = "La Bibliothèque" },
     books = {
       ["The Founding of Quel'Thalas"] = {
         { first = "inthebeginning", pages = { "Au commencement, $N.", "Le milieu.", "La fin." } },
       },
     },
   })
+  -- (a place inside a building, no area id: by its building area's, named by
+  -- the language's list)
+  local inside = ns.insideNames
+  ns.names({ inside = { [4242] = "La Bibliothèque" }, insideClassic = { [4242] = "La Bibliothèque" } })
+  local place = ns.placeOf("Forgefer", "La Bibliothèque")
+  local _, sub = ns.placeNames(place)
   check(
-    ns.placeName("The Library") == "La Bibliothèque",
-    "… a place inside a building (no area id), by the translation's list"
+    place.subInside == 4242 and not place.sub and sub == "La Bibliothèque",
+    "… a place inside a building, kept by its building area's id, named by the language's list"
   )
+  ns.insideNames = inside
   -- the Library: a title copied in English reads by this language's; the
   -- text read again in this language replaces its copy, never a second one
   local lib = LorekeepersCodexChar.library
@@ -1635,8 +1641,8 @@ do
 end
 
 -- Where a page was found reads in the client's language: a find keeps its
--- places' area ids, and an older one, kept in English, is looked up by the
--- codex's own names; a place the codex does not know stays as recorded.
+-- places' ids; an older one, kept by name (in English, or in today's
+-- language), has them at the login; a place neither knows stays as recorded.
 do
   local areaInfo = C_Map.GetAreaInfo
   C_Map.GetAreaInfo = function(id)
@@ -1648,12 +1654,23 @@ do
   state.zone, state.sub = "Dun Morogh", "Kharanos"
   ns.unlock("kharanos")
   check(found.kharanos.zoneId == 1 and found.kharanos.subId == 131, "a find keeps the area ids of its zone and subzone")
+  found.older = { at = 1, zone = "Dun Morogh", sub = "Coldridge Valley" }
+  found.today = { at = 1, zone = "Dun Morogh", sub = "Vallée des Frigères" }
+  found.elsewhere = { at = 1, zone = "Somewhere", sub = "Else" }
+  ns.mendPlaces(LorekeepersCodexChar)
+  local zone, sub = ns.placeNames(found.older)
+  local _, other = ns.placeNames(found.elsewhere)
   check(
-    ns.placeName("Coldridge Valley") == "Vallée des Frigères"
-      and ns.placeName("Kharanos", 131) == "Kharanos"
-      and ns.placeName("Somewhere Else") == "Somewhere Else",
-    "… and reads in the client's language, an older English one too, an unknown place as recorded"
+    found.older.subId == 132
+      and not found.older.sub
+      and found.today.subId == 132
+      and zone == "Dun Morogh"
+      and sub == "Vallée des Frigères"
+      and other == "Else"
+      and found.elsewhere.sub == "Else",
+    "… an older find, kept in English or in today's language, by its ids at the login; an unknown place as recorded"
   )
+  found.older, found.today, found.elsewhere = nil, nil, nil
   C_Map.GetAreaInfo = areaInfo
 end
 
@@ -1664,6 +1681,7 @@ do
   local translated
   assert(loadfile(DIR .. "Text_frFR.lua"))("LorekeepersCodex", {
     translate = function(t) translated = t end,
+    names = function() end,
   })
   local before = ns.bookTexts
   ns.bookTexts = translated.books
@@ -1711,7 +1729,10 @@ end
 do
   local function load(locale)
     local t
-    assert(loadfile(DIR .. "Text_" .. locale .. ".lua"))("LorekeepersCodex", { translate = function(x) t = x end })
+    assert(loadfile(DIR .. "Text_" .. locale .. ".lua"))(
+      "LorekeepersCodex",
+      { translate = function(x) t = x end, names = function() end }
+    )
     return t
   end
   local fr, de = load("frFR"), load("deDE")
@@ -1905,7 +1926,10 @@ do
     )
   end
   local french
-  assert(loadfile(DIR .. "Text_frFR.lua"))("LorekeepersCodex", { translate = function(t) french = t end })
+  assert(loadfile(DIR .. "Text_frFR.lua"))(
+    "LorekeepersCodex",
+    { translate = function(t) french = t end, names = function() end }
+  )
   read("Harthal Truesight", french.books["Harthal Truesight"][1].pages)
   local old
   for _, text in pairs(ns.library().texts) do

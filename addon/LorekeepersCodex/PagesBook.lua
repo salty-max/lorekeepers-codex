@@ -34,10 +34,9 @@ end
 -- the codex holds it).
 local function foundLine(rec)
   if rec.retro then return L["In your codex since %s, at level %d."]:format(ui.day(rec.at), rec.level or 0) end
-  local where = rec.zone and ns.placeName(rec.zone, rec.zoneId) or "?"
-  if rec.sub and rec.sub ~= "" and rec.sub ~= rec.zone then
-    where = ns.placeName(rec.sub, rec.subId) .. ", " .. where
-  end
+  local zone, sub = ns.placeNames(rec)
+  local where = zone or "?"
+  if sub then where = sub .. ", " .. where end
   return L["Found in %s, at level %d, on %s."]:format(where, rec.level or 0, ui.day(rec.at))
 end
 

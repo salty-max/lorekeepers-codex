@@ -239,9 +239,10 @@ local function copy()
   end
   if reading.last then text.count = reading.last end
   if new then
-    local zone, sub = here()
-    text.at, text.level, text.zone, text.sub = time(), UnitLevel("player"), zone, sub ~= zone and sub or nil
-    text.zoneId, text.subId = ns.areaOf(zone), text.sub and ns.areaOf(text.sub) or nil
+    text.at, text.level = time(), UnitLevel("player")
+    for k, v in pairs(ns.placeOf(here())) do
+      text[k] = v
+    end
     local link = ("|cffffd100|Hlorekeeper:lib:%d|h[%s]|h|r"):format(id, text.title)
     print(PREFIX .. L["copied into the Library: %s"]:format(link))
     if ns.checkAchievements then ns.checkAchievements() end
