@@ -207,8 +207,9 @@ historical claims in other entries.
 
 - `.github/workflows/game-data.yml`: daily and by hand, wow-data's
   `addon-data.yml` builds the game data again from wow-data's pins (the areas, the texts and their titles, the portraits, the glossaries and the places inside buildings in every language, then `bun run build`);
-  a pull request when a generated file changes, the checks run on it, never
-  merged by itself. The generators' list lives there: a new one goes in too.
+  a pull request when a generated file changes, the checks run on it, then
+  rebased onto main by itself and told to the owner's phone in words
+  (Ravenpost's inbox). The generators' list lives there: a new one goes in too.
 
 ## Conventions
 
