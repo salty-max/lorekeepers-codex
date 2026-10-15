@@ -59,7 +59,8 @@ conventions).
   `ns.filterOf(n)`: the pages' kind), `PagesBook.lua` (the codex at a glance
   at the head of the list: figures, the pages found lately, the chapters to
   pick; a page: its text, where and when it was found, its related pages as
-  cards), `LibraryBook.lua` (the Library at a glance when its tab is clicked:
+  cards), `LibraryBook.lua` (the Library at a glance when its tab is clicked or its
+  row at the head of the list, as the Pages tab's codex:
   figures by shelf, the texts copied lately; a text a page at a time),
   `AchievementsBook.lua` (the kit's board), `Banner.lua` (the kit's banners,
   among the game's alerts: a page found, an achievement), `Hints.lua`

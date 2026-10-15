@@ -35,7 +35,7 @@ Type `/codex` or click the minimap button to read. Browse by chapter, search you
 
 The **Library** saves the books, notes, quest letters and plaques you read in the world. You can return to them later, even after handing in a quest letter or leaving the place where you found a book.
 
-Texts are copied in full and sorted into shelves, with when and where you read them. The Codex briefly hides the game's reader while it copies all the pages. Each character has its own collection. Letters written by other players are never copied. The Library and reading-based unlocks recognise texts in every game language.
+Texts are copied in full and sorted into shelves, with when and where you read them. The Codex briefly hides the game's reader while it copies all the pages. Each character has its own collection. Letters written by other players are never copied. The Library and reading-based unlocks recognise texts in every game language. The top of the shelves brings you back to the Library at a glance: what each shelf holds and the texts you copied lately.
 
 ## Achievements
 
@@ -49,7 +49,7 @@ One download covers Classic Era, Hardcore, Season of Discovery, TBC Anniversary 
 
 Forever includes a Zephras Isle chapter and pages about its new dungeons. Kill-based unlocks work in the open world. Inside Forever dungeons and raids, the game hides creatures from addons, so kills there cannot unlock pages.
 
-The Codex speaks English, French and German. With a French or German client, every page, chapter and window is in that language, with every name as the game itself writes it. Known books in the Library follow your client's language, including copies saved in English, French or German. Existing game translations are supplemented with our own where needed. Unknown texts stay as copied. The German is a first translation: corrections are welcome on GitHub. Other clients get English.
+The Codex speaks English, French and German. With a French or German client, every page, chapter and window is in that language, with every name as the game itself writes it. Known books in the Library follow your client's language, including copies saved in English, French or German. Existing game translations are supplemented with our own where needed. Unknown texts stay as copied. The German is a first translation: corrections are welcome on GitHub. Other clients get English, with the places named in their own language. Where you found each page and book is kept by the game's own ids, so it follows your client's language, even after you switch.
 
 If you want to help with future Forever chapters, `/codex scan on` records the places, creatures and quest texts you encounter.
 

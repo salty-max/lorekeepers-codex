@@ -30,8 +30,11 @@ and players who can unlock a page.
 The lore covers the world's past up to the original game, using Warcraft I
 to III, WoW's quests and books, and the novels and histories about that
 period. Later expansion events and answers to mysteries left open in the
-original game are kept out. The text is in English. Most unlocks use game
-ids, and reading-based unlocks recognise titles in every client language.
+original game are kept out. The Codex reads in English, French and German
+(the German a first translation). Other clients get English, with the places
+in their own language. Most unlocks use game ids, and reading-based unlocks
+recognise titles in every client language. Where you found a page is kept by
+the game's ids, so it follows your client's language, even after you switch.
 
 On Forever, kill-based unlocks work in the open world. Creatures inside
 dungeons and raids are hidden from addons, so kills there cannot unlock pages.
@@ -42,7 +45,8 @@ Some pages, paragraphs and unlocks differ between Classic and Forever.
 The **Library** saves the books, notes, quest letters and plaques you read
 in the world. Texts are copied in full, with where and when you found them,
 so you can return to a quest letter after handing it in. Letters written by
-players are never copied.
+players are never copied. The top of the shelves brings back the Library at a
+glance: what each shelf holds and the texts copied lately.
 
 The **Achievements** tab tracks page milestones, completed chapters, Library
 progress, notable encounters and feats. Each achievement records the day
