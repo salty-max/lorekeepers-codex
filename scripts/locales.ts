@@ -19,8 +19,9 @@
  *                                 one file of a language with no translation
  *   i18n/<locale>/books.json      the game's own texts by their English titles
  *                                 (scripts/book_texts.py)
- *   i18n/<locale>/texts.json      the Library's titles by their English ones,
- *                                 { forever, classic } (scripts/text_titles.py)
+ *   i18n/<locale>/texts.json      the Library's titles by their texts' ids,
+ *                                 { forever, classic }, every language's,
+ *                                 English one of them (scripts/text_titles.py)
  *   i18n/<locale>/pages/<chapter>/<id>.md
  *                                  a page: front matter id, title and source
  *                                  (the English page's hash, written by
@@ -116,9 +117,6 @@ function read(locale: string) {
   const chapters = json<Record<string, [string, string]>>("chapters.json", {});
   // Forever's names Classic writes otherwise (scripts/glossary.py)
   const classic = json<Record<string, string>>("classic.json", {});
-  // the Library's titles in this language, by their English ones, each game's
-  // (scripts/text_titles.py; Classic's only where they differ)
-  const titles = json<{ forever?: Record<string, string>; classic?: Record<string, string> }>("texts.json", {});
   // the game's own texts in this language, by their English titles (a text
   // copied in English reads in this one): scripts/book_texts.py
   const books = json<Record<string, { ids: string[]; first: string; pages: string[] }[]>>("books.json", {});
@@ -156,7 +154,7 @@ function read(locale: string) {
     }
     pages.set(id, { title: String(m.title), text: paragraphs(body), stale: m.source !== en.hash });
   }
-  return { meta, words, chapters, pages, classic, titles, books };
+  return { meta, words, chapters, pages, classic, books };
 }
 
 // The names are Forever's (docs/localization.md): the English names the
@@ -199,6 +197,15 @@ const paraLua = (p: Para) =>
 // The game's names in a language, every language's: the places inside
 // buildings by their ids, each game's.
 function namesLua(locale: string): string {
+  const titlesFile = join(I18N, NAMES_OF[locale] ?? locale, "texts.json");
+  if (!existsSync(titlesFile)) fail(titlesFile, `missing: python3 scripts/text_titles.py ${NAMES_OF[locale] ?? locale}`);
+  const titles: { forever?: Record<string, string>; classic?: Record<string, string> } = existsSync(titlesFile)
+    ? JSON.parse(readFileSync(titlesFile, "utf8"))
+    : {};
+  const byText = (names: Record<string, string> = {}) =>
+    Object.entries(names)
+      .map(([id, n]) => `    [${q(id)}] = ${q(n)},`)
+      .join("\n");
   const file = join(I18N, NAMES_OF[locale] ?? locale, "subzones.json");
   if (!existsSync(file)) fail(file, `missing: python3 ../addon-kit/subzones.py ${NAMES_OF[locale] ?? locale}`);
   const t: { forever?: Record<string, string>; classic?: Record<string, string> } = existsSync(file)
@@ -217,6 +224,13 @@ ${list(t.forever)}
   },
   insideClassic = {
 ${list(t.classic)}
+  },
+  -- the Library's titles by their texts' ids ("o<object>", "i<item>"), each game's
+  titles = {
+${byText(titles.forever)}
+  },
+  titlesClassic = {
+${byText(titles.classic)}
   },
 })
 `;
@@ -249,26 +263,12 @@ ${Object.entries(t.chapters)
   .map(([id, [title, summary]]) => `    [${q(id)}] = { ${q(title)}, ${q(summary)} },`)
   .join("\n")}
   },
-  -- the Library's titles by their English ones (a text copied in English
-  -- reads by this language's title); Classic's own where they differ
-  titles = {
-${Object.entries(t.titles.forever ?? {})
-  .sort(([a], [b]) => a.localeCompare(b))
-  .map(([en, tr]) => `    [${q(en)}] = ${q(tr)},`)
-  .join("\n")}
-  },
   -- the game's own texts, by their English titles: each text's pages, and
   -- the start of its English first page (to tell apart those sharing a title)
   books = {
 ${Object.entries(t.books)
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([title, vs]) => `    [${q(title)}] = { ${vs.map((v) => `{ ids = { ${v.ids.map(q).join(", ")} }, first = ${q(v.first)}, pages = { ${v.pages.map(q).join(", ")} } }`).join(", ")} },`)
-  .join("\n")}
-  },
-  titlesClassic = {
-${Object.entries(t.titles.classic ?? {})
-  .sort(([a], [b]) => a.localeCompare(b))
-  .map(([en, tr]) => `    [${q(en)}] = ${q(tr)},`)
   .join("\n")}
   },
   -- on Classic, its own names for the places Forever renamed (the longest first)

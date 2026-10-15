@@ -78,21 +78,21 @@ end
 
 local function here() return GetRealZoneText and GetRealZoneText() or nil, GetSubZoneText and GetSubZoneText() or nil end
 
--- Resolve a localized title only if every known text with it has the same
--- English title. A bare title cannot distinguish different books named alike.
+-- A copy's title in the client's language, by its text's id (its identity:
+-- the language's list, ns.textTitlesById); a copy not identified, by the one
+-- text its title names, or the title all the texts it names share in this
+-- language; else as copied (a bare title cannot tell apart books named alike).
 function ns.textTitle(title, copy)
-  local aliases = ns.textSources and ns.textSources.titles[title]
+  local byId = ns.textTitlesById or {}
   local identity = copy and ns.textIdentity(copy)
-  local english = identity and ns.textSources.texts[identity].title
-  if not english then
-    for id in pairs(aliases or {}) do
-      local name = ns.textSources.texts[id].title
-      if english and english ~= name then return title end
-      english = name
-    end
+  if identity then return byId[identity] or title end
+  local named
+  for id in pairs(ns.textSources and ns.textSources.titles[title] or {}) do
+    local own = byId[id]
+    if not own or (named and named ~= own) then return title end
+    named = own
   end
-  english = english or title
-  return ns.textTitles and ns.textTitles[english] or english
+  return named or title
 end
 
 local function letters(s) return (s:lower():gsub("[^a-z]", "")) end

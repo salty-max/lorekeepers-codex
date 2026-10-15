@@ -33,7 +33,12 @@ end
 -- The game's names in the client's language (its Text file's, every
 -- language's, English one of them): the places inside buildings by their ids,
 -- this game's.
-function ns.names(t) ns.insideNames = (ns.content.client == "classic" and t.insideClassic or t.inside) or {} end
+function ns.names(t)
+  local classic = ns.content.client == "classic"
+  ns.insideNames = (classic and t.insideClassic or t.inside) or {}
+  -- the Library's titles by their texts' ids, this game's
+  ns.textTitlesById = (classic and t.titlesClassic or t.titles) or {}
+end
 
 function ns.translate(t)
   ns.locale = t.locale
@@ -42,17 +47,6 @@ function ns.translate(t)
   -- every translated word passes here: the reader's gender (the game's own
   -- token, $gmasculine:feminine;) and, on Classic, its own names for the
   -- places Forever renamed (a translation is written with Forever's)
-  -- the Library's titles, this game's (Classic's own where they differ)
-  local titles = {}
-  for en, tr in pairs(t.titles or {}) do
-    titles[en] = tr
-  end
-  if C.client == "classic" then
-    for en, tr in pairs(t.titlesClassic or {}) do
-      titles[en] = tr
-    end
-  end
-  ns.textTitles = titles
   local female = UnitSex and UnitSex("player") == 3
   local swaps = C.client == "classic" and t.classic or nil
   local function words(s)

@@ -1291,8 +1291,11 @@ check(not LorekeepersCodexScan.npcs[1123], "… and records nothing while off")
 SlashCmdList.LOREKEEPERSCODEX("scan on")
 scanFire("PLAYER_TARGET_CHANGED")
 check(
-  LorekeepersCodexScan.on and LorekeepersCodexScan.npcs[1123] and LorekeepersCodexScan.npcs[1123].zone == state.zone,
-  "scan on: creatures met are recorded, with where"
+  LorekeepersCodexScan.on
+    and LorekeepersCodexScan.npcs[1123]
+    and LorekeepersCodexScan.npcs[1123].zoneId == ns.areaOf(state.zone)
+    and LorekeepersCodexScan.npcs[1123].zone == (not ns.areaOf(state.zone) and state.zone or nil),
+  "scan on: creatures met are recorded, with where (its places by their ids)"
 )
 check(LorekeepersCodexScan.races.Dwarf and next(LorekeepersCodexScan.areas), "… with the race's token and the area")
 function GetQuestID() return 4242 end
@@ -1568,7 +1571,6 @@ do
         },
       },
     },
-    titles = { ["The Founding of Quel'Thalas"] = "La fondation de Quel'Thalas" },
     books = {
       ["The Founding of Quel'Thalas"] = {
         { first = "inthebeginning", pages = { "Au commencement, $N.", "Le milieu.", "La fin." } },
@@ -1586,6 +1588,9 @@ do
     "… a place inside a building, kept by its building area's id, named by the language's list"
   )
   ns.insideNames = inside
+  -- (the Library's titles by their texts' ids, as the French file gives them)
+  local titlesBefore = ns.textTitlesById
+  ns.textTitlesById = { o175733 = "La fondation de Quel'Thalas" }
   -- the Library: a title copied in English reads by this language's; the
   -- text read again in this language replaces its copy, never a second one
   local lib = LorekeepersCodexChar.library
@@ -1652,6 +1657,7 @@ do
       ),
     "… the reader's gender ($g), and on Classic its own names for the places Forever renamed, elisions and all"
   )
+  ns.textTitlesById = titlesBefore
 end
 
 -- Where a page was found reads in the client's language: a find keeps its
@@ -1889,7 +1895,7 @@ do
           local de = target.textPages(copy)
           check(de == target.booksById[id], locale .. " shared-title copy reads the correct German variant: " .. id)
           check(
-            target.textTitle(copy.title, copy) == (target.textTitles[title] or title),
+            target.textTitle(copy.title, copy) == (target.textTitlesById[id] or title),
             locale .. " saved title reads in German even if its old label was ambiguous: " .. id
           )
           check(english.textTitle(copy.title, copy) == title, locale .. " saved title returns to English: " .. id)
@@ -1915,7 +1921,7 @@ end
 -- including old saved copies that predate readable ids and language stamps.
 do
   local before = LorekeepersCodexChar.library
-  local books, byId, locale, titles = ns.bookTexts, ns.booksById, ns.locale, ns.textTitles
+  local books, byId, locale, titles = ns.bookTexts, ns.booksById, ns.locale, ns.textTitlesById
   LorekeepersCodexChar.library = nil
   for _, id in ipairs({ "i20541", "i20545", "i20552" }) do
     local source = ns.textSources.texts[id]
@@ -1956,7 +1962,7 @@ do
     ns.libraryCount() == 4 and old.count == 1 and old.pages[2] == nil and old.at == foundAt,
     "a same-title re-read replaces stale pages and preserves when the text was found"
   )
-  ns.bookTexts, ns.booksById, ns.locale, ns.textTitles = books, byId, locale, titles
+  ns.bookTexts, ns.booksById, ns.locale, ns.textTitlesById = books, byId, locale, titles
   LorekeepersCodexChar.library = before
 end
 

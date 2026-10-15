@@ -2,7 +2,10 @@
 -- account (LorekeepersCodexScan): the areas entered, the creatures met (id,
 -- name, where), the quests read (id, title and texts), what NPCs say and the
 -- books read. Off by default. Made for Forever's new content, whose ids and
--- texts no database has yet; scripts/scan-export.lua turns it into JSON.
+-- texts no database has yet; scripts/scan-export.lua turns it into JSON. The
+-- places by their ids (ns.placeOf: a name only where the client's gives none),
+-- a quest's giver by its creature's id; the names and texts no database has
+-- yet kept as the game gave them (what it is for).
 local _, ns = ...
 local PREFIX = "|cffc9a227Lorekeeper's Codex:|r "
 
@@ -22,22 +25,26 @@ local function clean(v)
   return v
 end
 
--- Where the player stands: zone, subzone, map and position.
+-- Where the player stands: the zone's and the subzone's ids (a building's
+-- area inside one), the map and the position.
 local function here()
   local map = C_Map and C_Map.GetBestMapForUnit and C_Map.GetBestMapForUnit("player")
   local pos = map and C_Map.GetPlayerMapPosition(map, "player")
-  return {
-    zone = GetRealZoneText(),
-    sub = GetSubZoneText(),
-    map = map,
-    x = pos and math.floor(pos.x * 1000 + 0.5) / 10,
-    y = pos and math.floor(pos.y * 1000 + 0.5) / 10,
-  }
+  local h = ns.placeOf(GetRealZoneText(), GetSubZoneText())
+  h.map = map
+  h.x = pos and math.floor(pos.x * 1000 + 0.5) / 10
+  h.y = pos and math.floor(pos.y * 1000 + 0.5) / 10
+  return h
+end
+local function where(t, h)
+  t.zoneId, t.zone, t.subId, t.subInside, t.sub = h.zoneId, h.zone, h.subId, h.subInside, h.sub
+  t.map, t.x, t.y = h.map, h.x, h.y
 end
 
 local function area()
   local h = here()
-  local key = (h.zone or "?") .. " / " .. (h.sub ~= "" and h.sub or "-")
+  local sub = h.subId or (h.subInside and ("w" .. h.subInside)) or h.sub or "-"
+  local key = tostring(h.zoneId or h.zone or "?") .. " / " .. tostring(sub)
   local a = db().areas
   if not a[key] then
     h.seen = time()
@@ -51,7 +58,7 @@ local function creature(unit)
   local n = db().npcs
   local h = here()
   local entry = n[id] or { name = clean(UnitName(unit)), level = clean(UnitLevel(unit)), seen = time() }
-  entry.zone, entry.sub, entry.map, entry.x, entry.y = h.zone, h.sub, h.map, h.x, h.y
+  where(entry, h)
   entry.count = (entry.count or 0) + 1
   n[id] = entry
 end
@@ -64,10 +71,9 @@ local function quest(field, text)
   q[id][field] = clean(text)
   if field == "text" then
     q[id].objective = clean(GetObjectiveText and GetObjectiveText())
-    q[id].giver = clean(UnitName("npc"))
     q[id].giverId = ns.npcId("npc")
-    local h = here()
-    q[id].zone, q[id].sub = h.zone, h.sub
+    q[id].giver = not q[id].giverId and clean(UnitName("npc")) or nil
+    where(q[id], here())
   end
 end
 
