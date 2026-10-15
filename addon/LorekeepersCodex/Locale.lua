@@ -71,6 +71,7 @@ function ns.translate(t)
   -- the game's own texts (a copy made in another language reads in this one),
   -- through the same words: the reader's gender, Classic's own names
   local books = {}
+  local byId = {}
   for title, variants in pairs(t.books or {}) do
     local mine = {}
     for i, v in ipairs(variants) do
@@ -78,11 +79,16 @@ function ns.translate(t)
       for p, page in ipairs(v.pages) do
         pages[p] = words(page)
       end
-      mine[i] = { first = v.first, pages = pages }
+      mine[i] = { ids = v.ids, first = v.first, pages = pages }
+      for _, id in ipairs(v.ids or {}) do
+        local canonical = ns.textSources and ns.textSources.canonical[id] or id
+        byId[canonical] = pages
+      end
     end
     books[title] = mine
   end
   ns.bookTexts = books
+  ns.booksById = byId
   local L = K.L
   for english, word in pairs(t.words or {}) do
     L[english] = words(word)

@@ -270,7 +270,12 @@
    "priority": "P2",
    "line": 91,
    "file": "addon/LorekeepersCodex/Library.lua",
-   "id": "DE-001"
+   "id": "DE-001",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Readable identities, localized title aliases and source templates support saved EN/FR/DE copies in every direction. Ambiguous labels use the saved page identity in the Library UI."
+   }
   },
   {
    "path": "../../addon/LorekeepersCodex/Library.lua",
@@ -281,7 +286,12 @@
    "priority": "P2",
    "line": 96,
    "file": "addon/LorekeepersCodex/Library.lua",
-   "id": "DE-002"
+   "id": "DE-002",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Full first-page templates wildcard the reader placeholders. All six reports are tested with literal tokens, Thorin and an accented/hyphenated name."
+   }
   },
   {
    "path": "classic.json",
@@ -292,7 +302,12 @@
    "priority": "P2",
    "line": 5,
    "file": "i18n/deDE/classic.json",
-   "id": "DE-003"
+   "id": "DE-003",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Durable classic-by-hand.json identity override, regenerated swaps, runtime tests of actual German prose on both clients and both genders."
+   }
   },
   {
    "path": "../../addon/CURSEFORGE.md",
@@ -303,7 +318,12 @@
    "priority": "P2",
    "file": "addon/CURSEFORGE.md",
    "line": 52,
-   "id": "DE-004"
+   "id": "DE-004",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/ages-past/the-war-of-the-spider.md",
@@ -314,7 +334,12 @@
    "line": 6,
    "file": "i18n/deDE/pages/ages-past/the-war-of-the-spider.md",
    "priority": "P2",
-   "id": "DE-005"
+   "id": "DE-005",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/azshara/azshara.md",
@@ -325,7 +350,12 @@
    "line": 12,
    "file": "i18n/deDE/pages/azshara/azshara.md",
    "priority": "P2",
-   "id": "DE-006"
+   "id": "DE-006",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/azshara/the-sundering.md",
@@ -336,7 +366,12 @@
    "line": 6,
    "file": "i18n/deDE/pages/azshara/the-sundering.md",
    "priority": "P2",
-   "id": "DE-007"
+   "id": "DE-007",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/badlands/hammertoes-digsite.md",
@@ -347,7 +382,12 @@
    "line": 6,
    "file": "i18n/deDE/pages/badlands/hammertoes-digsite.md",
    "priority": "P2",
-   "id": "DE-008"
+   "id": "DE-008",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/badlands/uldaman.md",
@@ -358,7 +398,12 @@
    "line": 6,
    "file": "i18n/deDE/pages/badlands/uldaman.md",
    "priority": "P2",
-   "id": "DE-009"
+   "id": "DE-009",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/barrens/razorfen-downs.md",
@@ -369,7 +414,12 @@
    "line": 6,
    "file": "i18n/deDE/pages/barrens/razorfen-downs.md",
    "priority": "P2",
-   "id": "DE-010"
+   "id": "DE-010",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/callings/hunters.md",
@@ -380,7 +430,12 @@
    "line": 12,
    "file": "i18n/deDE/pages/callings/hunters.md",
    "priority": "P2",
-   "id": "DE-011"
+   "id": "DE-011",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/callings/warriors.md",
@@ -391,7 +446,12 @@
    "line": 10,
    "file": "i18n/deDE/pages/callings/warriors.md",
    "priority": "P2",
-   "id": "DE-012"
+   "id": "DE-012",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/dun-morogh/explorers-league.md",
@@ -402,7 +462,12 @@
    "line": 6,
    "file": "i18n/deDE/pages/dun-morogh/explorers-league.md",
    "priority": "P2",
-   "id": "DE-013"
+   "id": "DE-013",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/duskwood/stalvan-mistmantle.md",
@@ -413,7 +478,12 @@
    "line": 10,
    "file": "i18n/deDE/pages/duskwood/stalvan-mistmantle.md",
    "priority": "P2",
-   "id": "DE-014"
+   "id": "DE-014",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/eastern-plaguelands/darrowshire.md",
@@ -424,7 +494,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/eastern-plaguelands/darrowshire.md",
    "priority": "P2",
-   "id": "DE-015"
+   "id": "DE-015",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/eastern-plaguelands/nathanos-blightcaller.md",
@@ -435,7 +510,12 @@
    "line": 6,
    "file": "i18n/deDE/pages/eastern-plaguelands/nathanos-blightcaller.md",
    "priority": "P2",
-   "id": "DE-016"
+   "id": "DE-016",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/peoples/dark-iron-dwarves.md",
@@ -446,7 +526,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/peoples/dark-iron-dwarves.md",
    "priority": "P2",
-   "id": "DE-017"
+   "id": "DE-017",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/peoples/earthen-ring.md",
@@ -457,7 +542,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/peoples/earthen-ring.md",
    "priority": "P2",
-   "id": "DE-018"
+   "id": "DE-018",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/peoples/scarlet-crusade.md",
@@ -468,7 +558,12 @@
    "line": 6,
    "file": "i18n/deDE/pages/peoples/scarlet-crusade.md",
    "priority": "P2",
-   "id": "DE-019"
+   "id": "DE-019",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/teldrassil/shadowglen.md",
@@ -479,7 +574,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/teldrassil/shadowglen.md",
    "priority": "P2",
-   "id": "DE-020"
+   "id": "DE-020",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/western-plaguelands/scholomance.md",
@@ -490,7 +590,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/western-plaguelands/scholomance.md",
    "priority": "P2",
-   "id": "DE-021"
+   "id": "DE-021",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/wetlands/whelgars-excavation-site.md",
@@ -501,7 +606,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/wetlands/whelgars-excavation-site.md",
    "priority": "P2",
-   "id": "DE-022"
+   "id": "DE-022",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/zephras-isle/the-high-order.md",
@@ -512,7 +622,12 @@
    "line": 6,
    "file": "i18n/deDE/pages/zephras-isle/the-high-order.md",
    "priority": "P2",
-   "id": "DE-023"
+   "id": "DE-023",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/zephras-isle/the-windshapers.md",
@@ -523,7 +638,12 @@
    "line": 6,
    "file": "i18n/deDE/pages/zephras-isle/the-windshapers.md",
    "priority": "P2",
-   "id": "DE-024"
+   "id": "DE-024",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "words.json",
@@ -535,7 +655,12 @@
    "line": 25,
    "file": "i18n/deDE/words.json",
    "priority": "P2",
-   "id": "DE-025"
+   "id": "DE-025",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "../../docs/german-readable-translations.md",
@@ -546,7 +671,12 @@
    "priority": "P3",
    "line": 21,
    "file": "docs/german-readable-translations.md",
-   "id": "DE-026"
+   "id": "DE-026",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "books-supplement.json",
@@ -558,7 +688,12 @@
    "line": 76,
    "file": "i18n/deDE/books-supplement.json",
    "priority": "P3",
-   "id": "DE-027"
+   "id": "DE-027",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "books.json",
@@ -572,7 +707,12 @@
    "line": 1381,
    "file": "i18n/deDE/books.json",
    "priority": "P3",
-   "id": "DE-028"
+   "id": "DE-028",
+   "resolution": {
+    "status": "retained-source-wording",
+    "date": "2026-10-15",
+    "note": "Keep the sourced German Green Hills chapter, document the opposite emotion instead of silently rewriting a game transcript."
+   }
   },
   {
    "path": "pages/ages-past/sargeras-and-the-betrayal.md",
@@ -583,7 +723,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/ages-past/sargeras-and-the-betrayal.md",
    "priority": "P3",
-   "id": "DE-029"
+   "id": "DE-029",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/ages-past/the-lich-king.md",
@@ -594,7 +739,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/ages-past/the-lich-king.md",
    "priority": "P3",
-   "id": "DE-030"
+   "id": "DE-030",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/badlands/kargath.md",
@@ -605,7 +755,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/badlands/kargath.md",
    "priority": "P3",
-   "id": "DE-031"
+   "id": "DE-031",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/blasted-lands/nethergarde-keep.md",
@@ -616,7 +771,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/blasted-lands/nethergarde-keep.md",
    "priority": "P3",
-   "id": "DE-032"
+   "id": "DE-032",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/burning-steppes/anduin-lothar.md",
@@ -627,7 +787,12 @@
    "line": 10,
    "file": "i18n/deDE/pages/burning-steppes/anduin-lothar.md",
    "priority": "P3",
-   "id": "DE-033"
+   "id": "DE-033",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/durotar/ragefire-chasm.md",
@@ -638,7 +803,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/durotar/ragefire-chasm.md",
    "priority": "P3",
-   "id": "DE-034"
+   "id": "DE-034",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/elwynn/si-7.md",
@@ -649,7 +819,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/elwynn/si-7.md",
    "priority": "P3",
-   "id": "DE-035"
+   "id": "DE-035",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/moonglade/keeper-remulos.md",
@@ -660,7 +835,12 @@
    "line": 6,
    "file": "i18n/deDE/pages/moonglade/keeper-remulos.md",
    "priority": "P3",
-   "id": "DE-036"
+   "id": "DE-036",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/peoples/night-elves.md",
@@ -671,7 +851,12 @@
    "line": 10,
    "file": "i18n/deDE/pages/peoples/night-elves.md",
    "priority": "P3",
-   "id": "DE-037"
+   "id": "DE-037",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/stonetalon/stonetalon-mountains.md",
@@ -682,7 +867,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/stonetalon/stonetalon-mountains.md",
    "priority": "P3",
-   "id": "DE-038"
+   "id": "DE-038",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/tirisfal/the-crusades-fallen.md",
@@ -693,7 +883,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/tirisfal/the-crusades-fallen.md",
    "priority": "P3",
-   "id": "DE-039"
+   "id": "DE-039",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "German plaque says Am Zugang zum Eiskrone-Gletscher verschollen. Authored page now follows that wording without guessing another landmark."
+   }
   },
   {
    "path": "pages/ungoro-crater/crystal-pylons.md",
@@ -704,7 +899,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/ungoro-crater/crystal-pylons.md",
    "priority": "P3",
-   "id": "DE-040"
+   "id": "DE-040",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "pages/wetlands/menethil-harbor.md",
@@ -715,7 +915,12 @@
    "line": 8,
    "file": "i18n/deDE/pages/wetlands/menethil-harbor.md",
    "priority": "P3",
-   "id": "DE-041"
+   "id": "DE-041",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "words.json",
@@ -727,7 +932,12 @@
    "line": 23,
    "file": "i18n/deDE/words.json",
    "priority": "P3",
-   "id": "DE-042"
+   "id": "DE-042",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "words.json",
@@ -739,7 +949,12 @@
    "line": 31,
    "file": "i18n/deDE/words.json",
    "priority": "P3",
-   "id": "DE-043"
+   "id": "DE-043",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "words.json",
@@ -751,7 +966,12 @@
    "line": 149,
    "file": "i18n/deDE/words.json",
    "priority": "P3",
-   "id": "DE-044"
+   "id": "DE-044",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   },
   {
    "path": "words.json",
@@ -763,7 +983,12 @@
    "line": 204,
    "file": "i18n/deDE/words.json",
    "priority": "P3",
-   "id": "DE-045"
+   "id": "DE-045",
+   "resolution": {
+    "status": "fixed",
+    "date": "2026-10-15",
+    "note": "Correction applied to the authored source or provenance documentation and regenerated where applicable."
+   }
   }
  ],
  "pages": [
@@ -8387,5 +8612,12 @@
    "note": "Same institutional false friend.",
    "reason": "Not retained as an error: primary game text itself uses Adelshaus. Naming convention outweighs literal dictionary objection."
   }
- ]
+ ],
+ "resolution": {
+  "date": "2026-10-15",
+  "fixed": 44,
+  "retained_source_wording": 1,
+  "native_review_pending": true,
+  "details": "docs/german-translation-fixes.md"
+ }
 }

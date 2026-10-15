@@ -7,4 +7,4 @@ Stalvan Mistmantle war Lehrer in Moonbrook und Hauslehrer bei Familien auf dem L
 
 Briefe und Tagebücher verfolgen seinen Weg durch Westfall und Stormwind bis zum Anwesen nordöstlich von Dunkelhain, wo die Dunkelheit des Dämmerwalds ihn weiter verändert hat. Madame Evas Vorahnung beginnt die Suche, doch Stalvans eigene Worte tragen sie zu einem großen Teil weiter.
 
-Es ist eine hässliche Geschichte, die man aus so gewöhnlichen Papieren zusammensetzen muss. Eine Lehrstelle, der Briefwechsel einer Familie, der Name einer Schülerin: die Dinge, die zu einem stillen Leben hätten gehören sollen, bleiben zwischen den Spuren derer, die er zerstörte.
+Es ist eine hässliche Geschichte, die man aus so gewöhnlichen Papieren zusammensetzen muss. Eine Stelle als Lehrer, der Briefwechsel einer Familie, der Name einer Schülerin: die Dinge, die zu einem stillen Leben hätten gehören sollen, bleiben zwischen den Spuren derer, die er zerstörte.

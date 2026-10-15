@@ -3,6 +3,11 @@
 2026-10-14. Reviewed commit `8f85417`. Review only, with no translation,
 generator or addon changes.
 
+Follow-up, 15 October 2026: the corrections are implemented. See
+[German translation fixes](german-translation-fixes.md) for the changes and
+the source discrepancy deliberately retained. The findings below preserve
+the original review, and the JSON ledger now records each resolution.
+
 ## Verdict
 
 The German is usable and the authored coverage is complete. I would keep the

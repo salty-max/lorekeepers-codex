@@ -31,6 +31,7 @@ jobs:
           python3 scripts/glossary.py "$locale"
           python3 ../addon-kit/subzones.py "$locale"
         done
+        python3 scripts/book_index.py
         bun run build
       paths: |
         data

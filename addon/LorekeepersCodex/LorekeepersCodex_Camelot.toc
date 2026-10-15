@@ -20,6 +20,7 @@
 Kit.lua
 Content_Forever.lua
 Locale.lua
+Text_Sources.lua
 Text_[TextLocale].lua
 Core.lua
 Unlocks.lua

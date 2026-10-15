@@ -17,7 +17,8 @@ i18n/<locale>/books-supplement.json take precedence, with hashes of their
 English sources and provenance. Its excluded records document
 deprecated/test items and broken source bindings.
 
-Writes i18n/<locale>/books.json: { English title: [ { first, pages } ] },
+Writes i18n/<locale>/books.json: { English title: [ { ids, first, pages } ] },
+ids the source readable records (including identical copies deduplicated here),
 first the start of the English first page (letters only, to tell apart the
 texts that share a title), pages plain text in the Codex's own rules (plain
 spaces, straight quotes, no semicolons).
@@ -52,8 +53,7 @@ def letters(text, n=24):
 
 
 def untranslated(tr, en):
-    """Wowhead's English in brackets: the language's client has no text of its
-    own there (a supplement's translation, or none)"""
+    """Wowhead's English in brackets: no localized body in this source."""
     if not en or len(tr) != len(en):
         return False
     for page, source in zip(tr, en):
@@ -101,7 +101,7 @@ for key, title in texts:
     if not isinstance(tr, list) or not tr:
         missing.append(f"{key} {title}")
         continue
-    entry = {"first": letters(en[0]) if en else "", "pages": [plain(p) for p in tr]}
+    entry = {"ids": [key], "first": letters(en[0]) if en else "", "pages": [plain(p) for p in tr]}
     # Keep enough of the source to distinguish shared openings, such as the
     # three Twilight circulars beginning "For immediate dissemination...".
     entry["full_first"] = letters(en[0], None) if en else ""
@@ -110,7 +110,10 @@ for key, title in texts:
         entry["first"] = letters(correction["english_first"])
         entry["full_first"] = letters(correction["english_first"], None)
     variants = out.setdefault(title, [])
-    if not any(v["pages"] == entry["pages"] or v["full_source"] == entry["full_source"] for v in variants):
+    same = next((v for v in variants if v["pages"] == entry["pages"] or v["full_source"] == entry["full_source"]), None)
+    if same:
+        same["ids"].append(key)
+    else:
         variants.append(entry)
 for title, variants in out.items():
     for v in variants:

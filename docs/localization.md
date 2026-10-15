@@ -106,11 +106,10 @@ first translation, said so on the store page.
    Forever's German client's (most of Classic's cities kept English there),
    lore names the data lacks as the German books write them (Todesschwinge,
    Krieg der Urtume, Krieg der Sandstürme, die Große Teilung). The
-   Library's German books are the game's own (Wowhead's German pages, saved
-   in wow-data 14 October 2026): 391 texts, 10 supplement entries (the five
-   Scarlet plaques, Nostro's Compendium and Nefarius's letter translated
-   here, the Green Hills from the German chapters, the Captain's Documents,
-   the empty ledger).
+   Library's German books use sourced game wording where available and our
+   translations where needed: 391 texts, 29 supplement entries (25 authored
+   translations and four documented reuses/empty sources). See
+   `german-readable-translations.md` and `german-translation-fixes.md`.
 3. Russian, Portuguese (ptBR), Italian.
 4. Korean, Chinese (zhTW, zhCN): longer to review, their own typography.
 
@@ -119,7 +118,7 @@ phrase tables in English grammar: a much bigger job, last.
 
 ## Library readable supplements
 
-`python3 scripts/book_texts.py <locale>` imports the browser cache, then
+`python3 scripts/book_texts.py <locale>` reads wow-data's databases, then
 applies `i18n/<locale>/books-supplement.json` (French and German so far).
 This tracked file preserves translations and source corrections across
 cache refreshes. Each entry records its title,
@@ -141,8 +140,15 @@ with a translated cover and ending. The catalog retains page boundaries and
 reader tokens. Prose semicolons become commas and curly quotes become straight
 quotes during import. The semicolon terminating a `$gmale:female;` token stays.
 
-Texts sharing a title use enough letters of their English first page to tell
-their openings apart. Identical English page chains share one translation.
+Texts sharing a title keep their readable ids, with source templates accepting
+the reader's `$N`, `$C` and `$R` and either gender form. Identical English page
+chains share one translation. `python3 scripts/book_index.py`, run after the
+locale imports, writes `i18n/books-index.json`: title aliases, identities and
+first-page templates for English, French and German, plus verified English
+bodies. `bun run locales` writes the shared `Text_Sources.lua`, loaded before
+the client's own language file. Known copies follow language changes in all
+three directions without overwriting their saved pages. Unresolved copies
+stay as recorded. A re-read uses the identity instead of title-only merging.
 `bun run check` verifies that the supplement's pages are shipped, rejects
-bracketed English fallback bodies in the French catalog, and exercises the
-three similar Twilight circulars against the generated French addon file.
+bracketed English fallback bodies in the French catalog, and exercises all
+French/German readable variants through the actual loaders on both clients.

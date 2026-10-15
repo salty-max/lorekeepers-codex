@@ -18,7 +18,8 @@ Kriegsherr):
 - No German page on Wowhead: the five Scarlet Crusade plaques (`o175773`,
   `o175774`, `o175775`, `o175777`, `o175781`), Nostro's Compendium
   (`i18401`), Nefarius's letter (`i21142`).
-- Wowhead's German is the English in brackets (the German client has none):
+- Wowhead's German is the English in brackets (no German body in this source,
+  which does not establish what the game client contains):
   `o174746`, `o175682`, `o175684`, `o175687`, `o175689`, `o175776`,
   `o179741`, `o179909`, `i939`, `i2006`, `i2008`, `i7266`, `i208205`,
   `i211777`, `i216956`, `i227658`, `i227748`, `i228144`.
@@ -37,4 +38,10 @@ Kriegsherr):
 - `i20949`, Magical Ledger: empty in English, empty here.
 
 Rebuild with `python3 scripts/book_texts.py deDE`,
-`python3 scripts/text_titles.py deDE` and `bun run locales`.
+`python3 scripts/text_titles.py deDE`, `python3 scripts/book_index.py` and
+`bun run locales`.
+
+15 October review corrections: Torn Letter's competence insult is less
+literal. Green Hills page 12 still says "gut gelaunt", despite English
+"solemnly", because it reproduces the sourced German chapter. This is a
+documented game-text discrepancy, not an addon-authored translation.

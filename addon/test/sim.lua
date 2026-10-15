@@ -1774,4 +1774,150 @@ do
   ns.bookTexts = before
 end
 
+-- Run the real German loader, not just its raw catalog. Classic's swaps and
+-- both gender forms must survive in the finished prose on each client.
+do
+  local oldSex = UnitSex
+  local function client(locale, sex)
+    UnitSex = function() return sex end
+    local target = { kit = { L = {} }, on = function() end, secret = function() return false end }
+    for _, file in ipairs({
+      FOREVER and "Content_Forever.lua" or "Content_Classic.lua",
+      "Locale.lua",
+      "Text_Sources.lua",
+      "Text_" .. locale .. ".lua",
+      "Library.lua",
+    }) do
+      assert(loadfile(DIR .. file))("LorekeepersCodex", target)
+    end
+    return target
+  end
+  for _, sex in ipairs({ 2, 3 }) do
+    local target = client("deDE", sex)
+    for id, entry in pairs(target.content.entries) do
+      check(not entry.title:find("Der Der", 1, true), "German title has no repeated article: " .. id)
+      for _, para in ipairs(entry.text) do
+        check(
+          not para[1]:find("dem Der Zirkel", 1, true) and not para[1]:find("Der Der Zirkel", 1, true),
+          "German Classic faction swap preserves grammar: " .. id
+        )
+        check(not para[1]:find("$g", 1, true), "German gender expanded in the finished page: " .. id)
+        check(not para[1]:find(";", 1, true), "German finished prose has no semicolon: " .. id)
+      end
+    end
+    -- All six reports share a title. Some start with the player's name, and
+    -- must match both a literal token and a name filled in by the game.
+    for _, id in ipairs({ "i23008", "i23010", "i23011", "i23012", "i23013", "i23016" }) do
+      local source = target.textSources.texts[id]
+      for _, name in ipairs({ "$N", "Thorin", "Änna-Maria" }) do
+        local first = source.pages[1]:gsub("%$N", name)
+        local pages, localized = target.textPages({ title = source.title, pages = { first } })
+        check(
+          localized and pages == target.booksById[id],
+          "personalized report retains its variant: " .. id .. " / " .. name
+        )
+      end
+    end
+    local french = { title = "Lettre simple", pages = { "Dis-moi, guerrier, as-tu entendu un orc hurler ?" } }
+    local pages, localized = target.textPages(french)
+    check(localized and pages[1]:find("Orc", 1, true), "a saved French letter reads in German")
+    check(target.textTitle(french.title) == "Einfacher Brief", "a saved French title reads in German")
+    local original = french.pages[1]
+    local english = client("enUS", sex)
+    local en, translated = english.textPages(french)
+    check(translated and en[1]:find("Tell me", 1, true), "a saved French letter reads in English")
+    check(english.textTitle("Einfacher Brief") == "Simple Letter", "German titles return to English")
+    check(french.pages[1] == original, "language changes do not overwrite recorded pages")
+    for id, text in pairs(english.textSources.texts) do
+      for _, page in ipairs(text.pages) do
+        check(not page:find("$B", 1, true) and not page:find("$b", 1, true), "English line breaks are rendered: " .. id)
+        check(
+          not english.textForReader(page):find(";", 1, true),
+          "English gender tokens and prose are rendered: " .. id
+        )
+      end
+    end
+    -- Every real French/German first page resolves to its own identity,
+    -- including all seven Twilight circulars, then returns to English.
+    for _, locale in ipairs({ "frFR", "deDE" }) do
+      local from = client(locale, sex)
+      for title, variants in pairs(from.bookTexts) do
+        for _, variant in ipairs(variants) do
+          local id = from.textSources.canonical[variant.ids[1]]
+          local copy = { title = from.textTitle(title), pages = { from.textForReader(variant.pages[1]) } }
+          check(
+            from.textIdentity(copy) == id,
+            locale .. " shared-title copy preserves identity: " .. title .. " / " .. id
+          )
+          local de = target.textPages(copy)
+          check(de == target.booksById[id], locale .. " shared-title copy reads the correct German variant: " .. id)
+          check(
+            target.textTitle(copy.title, copy) == (target.textTitles[title] or title),
+            locale .. " saved title reads in German even if its old label was ambiguous: " .. id
+          )
+          check(english.textTitle(copy.title, copy) == title, locale .. " saved title returns to English: " .. id)
+          local enPages = english.textPages(copy)
+          if #english.textSources.texts[id].pages > 0 then
+            check(enPages == english.textSources.texts[id].pages, locale .. " variant returns to English: " .. id)
+          else
+            check(enPages == copy.pages, "a known wrong English source binding is never shown: " .. id)
+          end
+        end
+      end
+    end
+    local unknown = { "An unrecognized page under a shared title." }
+    check(
+      target.textPages({ title = "Sealed Research Report", pages = unknown }) == unknown,
+      "unmatched reports stay as recorded"
+    )
+  end
+  UnitSex = oldSex
+end
+
+-- Same-title circulars remain distinct when re-read in another language,
+-- including old saved copies that predate readable ids and language stamps.
+do
+  local before = LorekeepersCodexChar.library
+  local books, byId, locale, titles = ns.bookTexts, ns.booksById, ns.locale, ns.textTitles
+  LorekeepersCodexChar.library = nil
+  for _, id in ipairs({ "i20541", "i20545", "i20552" }) do
+    local source = ns.textSources.texts[id]
+    read(source.title, source.pages)
+  end
+  check(ns.libraryCount() == 3, "three Twilight circulars with shared openings have separate copies")
+  local library = ns.library()
+  library.keys = {}
+  for id, text in pairs(library.texts) do
+    text.readable, text.language = nil, nil
+    library.keys[text.title .. "|" .. text.pages[1]:sub(1, 80)] = id
+  end
+  assert(loadfile(DIR .. "Text_deDE.lua"))("LorekeepersCodex", ns)
+  for _, id in ipairs({ "i20541", "i20545", "i20552" }) do
+    read(ns.textTitle("Decoded Twilight Text"), ns.booksById[id])
+  end
+  check(ns.libraryCount() == 3, "re-reading the German circulars replaces only the corresponding copies")
+  for _, text in pairs(ns.library().texts) do
+    check(
+      text.title == ns.textTitle("Decoded Twilight Text") and text.readable,
+      "re-read copy keeps its stable identity"
+    )
+  end
+  local french
+  assert(loadfile(DIR .. "Text_frFR.lua"))("LorekeepersCodex", { translate = function(t) french = t end })
+  read("Harthal Truesight", french.books["Harthal Truesight"][1].pages)
+  local old
+  for _, text in pairs(ns.library().texts) do
+    if text.readable == "o175776" then old = text end
+  end
+  old.pages[2], old.count = "An obsolete trailing page in a legacy copy.", 2
+  local foundAt = old.at
+  read("Harthal Truesight", ns.booksById.o175776)
+  check(
+    ns.libraryCount() == 4 and old.count == 1 and old.pages[2] == nil and old.at == foundAt,
+    "a same-title re-read replaces stale pages and preserves when the text was found"
+  )
+  ns.bookTexts, ns.booksById, ns.locale, ns.textTitles = books, byId, locale, titles
+  LorekeepersCodexChar.library = before
+end
+
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")

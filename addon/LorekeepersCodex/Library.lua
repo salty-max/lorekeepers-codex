@@ -78,16 +78,70 @@ end
 
 local function here() return GetRealZoneText and GetRealZoneText() or nil, GetSubZoneText and GetSubZoneText() or nil end
 
--- A text's title in the client's language: the translation's for a title
--- copied in English, else as copied.
-function ns.textTitle(title) return ns.textTitles and ns.textTitles[title] or title end
+-- Resolve a localized title only if every known text with it has the same
+-- English title. A bare title cannot distinguish different books named alike.
+function ns.textTitle(title, copy)
+  local aliases = ns.textSources and ns.textSources.titles[title]
+  local identity = copy and ns.textIdentity(copy)
+  local english = identity and ns.textSources.texts[identity].title
+  if not english then
+    for id in pairs(aliases or {}) do
+      local name = ns.textSources.texts[id].title
+      if english and english ~= name then return title end
+      english = name
+    end
+  end
+  english = english or title
+  return ns.textTitles and ns.textTitles[english] or english
+end
 
--- A copy's pages in the client's language: the game's own text (a
--- translation carries every book, note and plaque) for a text copied in
--- English, a quest's letter long handed in included; else as copied. Several
--- texts share some titles: the one whose first page begins as the copy's.
 local function letters(s) return (s:lower():gsub("[^a-z]", "")) end
+
+-- Match a saved first page against source templates in every shipped language.
+-- The templates wildcard $N/$C/$R, including names filled in by a previous
+-- client. Multiple matches remain ambiguous, so the original copy is kept.
+function ns.textIdentity(t)
+  local source = ns.textSources
+  if not source then return nil end
+  local variants = source.titles[t.title]
+  if not variants then return t.readable and source.texts[t.readable] and t.readable or nil end
+  local only, count = nil, 0
+  for id in pairs(variants) do
+    only, count = id, count + 1
+  end
+  local first = t.pages[1] and letters(plain(t.pages[1])) or ""
+  local found
+  for id in pairs(variants) do
+    for _, pattern in ipairs(source.texts[id].patterns) do
+      if first:match("^" .. pattern .. "$") then
+        if found and found ~= id then return nil end
+        found = id
+        break
+      end
+    end
+  end
+  if found then return found, true end
+  if t.readable and source.texts[t.readable] then return t.readable end
+  if count == 1 then return only end
+end
+
+-- Known copies follow the client's language without rewriting saved pages.
+-- Missing bodies and ambiguous matches remain exactly as copied.
 function ns.textPages(t)
+  local id, matched = ns.textIdentity(t)
+  if id then
+    local pages = ns.booksById and ns.booksById[id]
+    if not pages and (not ns.locale or ns.locale == "enUS" or ns.locale == "enGB") then
+      local source = ns.textSources.texts[id]
+      -- A legacy English copy outside the cached templates stays as copied.
+      -- This also preserves custom/test text that happens to share a title.
+      if matched or t.title ~= source.title or (t.language and t.language ~= "enUS" and t.language ~= "enGB") then
+        pages = source.pages
+        if #pages == 0 then pages = nil end
+      end
+    end
+    if pages then return pages, true end
+  end
   local variants = ns.bookTexts and ns.bookTexts[t.title]
   if not variants then return t.pages end
   if #variants == 1 then return variants[1].pages, true end
@@ -104,6 +158,8 @@ function ns.textForReader(s)
   local name = UnitName and UnitName("player") or ""
   local class = UnitClass and UnitClass("player") or ""
   local race = UnitRace and UnitRace("player") or ""
+  local female = UnitSex and UnitSex("player") == 3
+  s = s:gsub("%$g([^:;]*):([^;]*);", function(m, f) return female and f or m end)
   return (
     s:gsub("%$([NnCcRr])", function(k)
       k = k:upper()
@@ -112,13 +168,13 @@ function ns.textForReader(s)
   )
 end
 
--- The one copy of a text read again in another language: the copy whose
--- title is this one's in English (the translation's titles), when there is
--- exactly one.
-local function copyInAnother(s, title)
+-- Re-reading another language replaces only the same readable identity,
+-- never an unrelated variant with the same localized title.
+local function copyInAnother(s, readable)
+  if not readable then return nil end
   local found
   for id, t in pairs(s.texts) do
-    if t.title ~= title and ns.textTitle(t.title) == title then
+    if ns.textIdentity(t) == readable then
       if found then return nil end
       found = id
     end
@@ -133,15 +189,12 @@ end
 local function copy()
   if not (reading and reading.pages[1]) or reading.skip then return end
   local s = store()
-  local key = reading.title .. "|" .. reading.pages[1]:sub(1, 80)
+  local readable = ns.textIdentity(reading)
+  local key = readable and ("readable:" .. readable) or (reading.title .. "|" .. reading.pages[1]:sub(1, 80))
   local id = s.keys[key]
   if not id then
-    id = copyInAnother(s, reading.title)
-    if id then
-      s.keys[key] = id
-      local t = s.texts[id]
-      t.title, t.pages, t.count = reading.title, {}, nil
-    end
+    id = copyInAnother(s, readable)
+    if id then s.keys[key] = id end
   end
   if not id then
     id = s.nextId
@@ -150,6 +203,11 @@ local function copy()
     s.texts[id] = { title = reading.title, material = reading.material, pages = {} }
   end
   local text = s.texts[id]
+  if text.title ~= reading.title or (readable and text.pages[1] ~= reading.pages[1]) then
+    text.title, text.pages, text.count = reading.title, {}, nil
+  end
+  text.readable = readable
+  text.language = ns.locale or GetLocale()
   local new = not text.at
   for p, page in pairs(reading.pages) do
     text.pages[p] = page

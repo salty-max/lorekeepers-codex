@@ -9,4 +9,4 @@ Was einen Jäger auszeichnet, ist ein Gefährte. Ein Wolf, eine Katze, ein Bär,
 
 [forever] Auch Menschen lassen sich heute zu Jägern ausbilden, und die Himmelsgeborenen bringen Jäger zur Allianz wie zur Horde.
 
-Die Liga beschäftigt Jäger als Führer, solange es sie gibt, $gReisender:Reisende;. Sie finden den Weg und das Abendessen, und sie sorgen dafür, dass keins von beiden zuerst die Gräber findet.
+Die Liga beschäftigt Jäger als Führer, solange es sie gibt, $gReisender:Reisende;. Sie finden den Weg und das Abendessen, und sie sorgen dafür, dass keins von beiden zuerst die Ausgräber findet.

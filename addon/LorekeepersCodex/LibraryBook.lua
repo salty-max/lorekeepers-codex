@@ -38,7 +38,7 @@ local function mine() return store().texts end
 local function matches(id, query)
   local t = textOf(id)
   if not t then return false end
-  if ns.textTitle(t.title):lower():find(query, 1, true) then return true end
+  if ns.textTitle(t.title, t):lower():find(query, 1, true) then return true end
   for _, p in pairs(ns.textPages(t)) do
     if p:lower():find(query, 1, true) then return true end
   end
@@ -98,7 +98,10 @@ local function refreshList()
     local ids = by[shelf[1]]
     if ids then
       empty = false
-      table.sort(ids, function(a, b) return ns.textTitle(textOf(a).title) < ns.textTitle(textOf(b).title) end)
+      table.sort(
+        ids,
+        function(a, b) return ns.textTitle(textOf(a).title, textOf(a)) < ns.textTitle(textOf(b).title, textOf(b)) end
+      )
       y = y + 4
       local r = add("shelf", shelf[2])
       r.count:SetText(#ids)
@@ -110,7 +113,7 @@ local function refreshList()
       end)
       if open then
         for _, id in ipairs(ids) do
-          local e = add("text", ns.textTitle(textOf(id).title))
+          local e = add("text", ns.textTitle(textOf(id).title, textOf(id)))
           e.id = id
           e:SetScript("OnClick", function()
             showText(id)
@@ -151,7 +154,7 @@ function showText(id, pageNumber)
   if not t then return end
   currentText, currentPage = id, pageNumber or 1
   local shelf = shelfFor(t)
-  page:start(ns.textTitle(t.title), ("%s  -  %s"):format(shelf[2], foundAt(t)), ui.icon(shelf[3]))
+  page:start(ns.textTitle(t.title, t), ("%s  -  %s"):format(shelf[2], foundAt(t)), ui.icon(shelf[3]))
   -- the pages: those copied, and how many there are once the last was read
   -- (a text copied in another language: the game's own, whole, in this one)
   local pages, whole = ns.textPages(t)
@@ -204,17 +207,22 @@ function showShelf()
   )
   table.sort(recent, function(a, b)
     if (a.t.at or 0) ~= (b.t.at or 0) then return (a.t.at or 0) > (b.t.at or 0) end
-    return ns.textTitle(a.t.title) < ns.textTitle(b.t.title)
+    return ns.textTitle(a.t.title, a.t) < ns.textTitle(b.t.title, b.t)
   end)
   if #recent > 0 then
     page:section(L["Copied lately"])
     for i = 1, math.min(LATELY, #recent) do
       local r = recent[i]
       local shelf = shelfFor(r.t)
-      page:card(ns.textTitle(r.t.title), ("%s  -  %s"):format(shelf[2], foundAt(r.t)), ui.icon(shelf[3]), function()
-        showText(r.id)
-        refreshList()
-      end)
+      page:card(
+        ns.textTitle(r.t.title, r.t),
+        ("%s  -  %s"):format(shelf[2], foundAt(r.t)),
+        ui.icon(shelf[3]),
+        function()
+          showText(r.id)
+          refreshList()
+        end
+      )
     end
   end
   page:finish()
