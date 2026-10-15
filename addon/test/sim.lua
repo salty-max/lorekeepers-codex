@@ -1807,10 +1807,12 @@ do
     end
     -- All six reports share a title. Some start with the player's name, and
     -- must match both a literal token and a name filled in by the game.
+    local bodies = client("enUS", sex).textBodies
     for _, id in ipairs({ "i23008", "i23010", "i23011", "i23012", "i23013", "i23016" }) do
       local source = target.textSources.texts[id]
+      check(target.textBodies == nil, "a German client carries no English pages")
       for _, name in ipairs({ "$N", "Thorin", "Änna-Maria" }) do
-        local first = source.pages[1]:gsub("%$N", name)
+        local first = bodies[id][1]:gsub("%$N", name)
         local pages, localized = target.textPages({ title = source.title, pages = { first } })
         check(
           localized and pages == target.booksById[id],
@@ -1828,8 +1830,8 @@ do
     check(translated and en[1]:find("Tell me", 1, true), "a saved French letter reads in English")
     check(english.textTitle("Einfacher Brief") == "Simple Letter", "German titles return to English")
     check(french.pages[1] == original, "language changes do not overwrite recorded pages")
-    for id, text in pairs(english.textSources.texts) do
-      for _, page in ipairs(text.pages) do
+    for id, pages in pairs(english.textBodies) do
+      for _, page in ipairs(pages) do
         check(not page:find("$B", 1, true) and not page:find("$b", 1, true), "English line breaks are rendered: " .. id)
         check(
           not english.textForReader(page):find(";", 1, true),
@@ -1857,8 +1859,8 @@ do
           )
           check(english.textTitle(copy.title, copy) == title, locale .. " saved title returns to English: " .. id)
           local enPages = english.textPages(copy)
-          if #english.textSources.texts[id].pages > 0 then
-            check(enPages == english.textSources.texts[id].pages, locale .. " variant returns to English: " .. id)
+          if english.textBodies[id] then
+            check(enPages == english.textBodies[id], locale .. " variant returns to English: " .. id)
           else
             check(enPages == copy.pages, "a known wrong English source binding is never shown: " .. id)
           end
@@ -1882,7 +1884,7 @@ do
   LorekeepersCodexChar.library = nil
   for _, id in ipairs({ "i20541", "i20545", "i20552" }) do
     local source = ns.textSources.texts[id]
-    read(source.title, source.pages)
+    read(source.title, ns.textBodies[id])
   end
   check(ns.libraryCount() == 3, "three Twilight circulars with shared openings have separate copies")
   local library = ns.library()

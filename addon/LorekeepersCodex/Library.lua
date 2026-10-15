@@ -96,6 +96,15 @@ function ns.textTitle(title, copy)
 end
 
 local function letters(s) return (s:lower():gsub("[^a-z]", "")) end
+-- (a first page's fingerprint: djb2 over its letters, and their count, as
+-- scripts/locales.ts writes Text_Sources.lua's sums)
+local function sum(s)
+  local h = 5381
+  for i = 1, #s do
+    h = (h * 33 + s:byte(i)) % 4294967296
+  end
+  return ("%08x:%d"):format(h, #s)
+end
 
 -- Match a saved first page against source templates in every shipped language.
 -- The templates wildcard $N/$C/$R, including names filled in by a previous
@@ -110,14 +119,19 @@ local function identify(t)
     only, count = id, count + 1
   end
   local first = t.pages[1] and letters(plain(t.pages[1])) or ""
+  local fingerprint = sum(first)
   local found
   for id in pairs(variants) do
-    for _, pattern in ipairs(source.texts[id].patterns) do
-      if first:match("^" .. pattern .. "$") then
-        if found and found ~= id then return nil end
-        found = id
-        break
-      end
+    local text, hit = source.texts[id], false
+    for _, s in ipairs(text.sums) do
+      if s == fingerprint then hit = true end
+    end
+    for _, pattern in ipairs(text.patterns) do
+      if not hit and first:match("^" .. pattern .. "$") then hit = true end
+    end
+    if hit then
+      if found and found ~= id then return nil end
+      found = id
     end
   end
   if found then return found, true end
@@ -148,8 +162,7 @@ function ns.textPages(t)
       -- A legacy English copy outside the cached templates stays as copied.
       -- This also preserves custom/test text that happens to share a title.
       if matched or t.title ~= source.title or (t.language and t.language ~= "enUS" and t.language ~= "enGB") then
-        pages = source.pages
-        if #pages == 0 then pages = nil end
+        pages = ns.textBodies and ns.textBodies[id]
       end
     end
     if pages then return pages, true end
