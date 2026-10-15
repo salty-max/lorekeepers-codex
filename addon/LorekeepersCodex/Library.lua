@@ -100,7 +100,7 @@ local function letters(s) return (s:lower():gsub("[^a-z]", "")) end
 -- Match a saved first page against source templates in every shipped language.
 -- The templates wildcard $N/$C/$R, including names filled in by a previous
 -- client. Multiple matches remain ambiguous, so the original copy is kept.
-function ns.textIdentity(t)
+local function identify(t)
   local source = ns.textSources
   if not source then return nil end
   local variants = source.titles[t.title]
@@ -123,6 +123,18 @@ function ns.textIdentity(t)
   if found then return found, true end
   if t.readable and source.texts[t.readable] then return t.readable end
   if count == 1 then return only end
+end
+
+-- (each copy's identity worked out once: the Library's sorts and searches ask
+-- for it over and over, and matching a whole first page is not cheap; worked
+-- out again only when the copy's title, first page or readable id change)
+local identities = setmetatable({}, { __mode = "k" })
+function ns.textIdentity(t)
+  local c = identities[t]
+  if c and c.title == t.title and c.first == t.pages[1] and c.readable == t.readable then return c.id, c.matched end
+  local id, matched = identify(t)
+  identities[t] = { title = t.title, first = t.pages[1], readable = t.readable, id = id, matched = matched }
+  return id, matched
 end
 
 -- Known copies follow the client's language without rewriting saved pages.
