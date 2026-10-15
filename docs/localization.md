@@ -146,7 +146,11 @@ chains share one translation. `python3 scripts/book_index.py`, run after the
 locale imports, writes `i18n/books-index.json`: title aliases, identities and
 first-page templates for English, French and German, plus verified English
 bodies. `bun run locales` writes the shared `Text_Sources.lua`, loaded before
-the client's own language file. Known copies follow language changes in all
+the client's own language file: titles, identities, and each first page as a
+fingerprint (djb2 over its letters, and their count) or, where the reader's
+name is inside, a pattern. The English bodies go to `Text_enUS.lua` and
+`Text_enGB.lua` alone (`ns.textBodies`): only an English client reads them, and
+sharing them cost every other client 420 KB. Known copies follow language changes in all
 three directions without overwriting their saved pages. Unresolved copies
 stay as recorded. A re-read uses the identity instead of title-only merging.
 `bun run check` verifies that the supplement's pages are shipped, rejects
