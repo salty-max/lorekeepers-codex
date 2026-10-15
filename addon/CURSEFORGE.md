@@ -85,4 +85,4 @@ Lorekeeper's Codex is free and will stay free. If you've enjoyed learning more a
 
 ## Source
 
-MIT licensed: [github.com/salty-max/lorekeepers-codex](https://github.com/salty-max/lorekeepers-codex). Not affiliated with Blizzard Entertainment.
+MIT licensed: [github.com/salty-max/lorekeepers-codex](https://github.com/salty-max/lorekeepers-codex). Places, creatures and books come from the game clients' tables, QuestieDB and the CMaNGOS Classic database. The Library's translated pages and Forever's own books come from Wowhead, as the game writes them. Thanks to their contributors. Not affiliated with Blizzard Entertainment.
