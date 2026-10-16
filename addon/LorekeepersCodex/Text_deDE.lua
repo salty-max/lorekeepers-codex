@@ -3796,10 +3796,40 @@ ns.translate({
   },
   -- on Classic, its own names for the places Forever renamed (the longest first)
   classic = {
+    { "Holzfällerlager des Kriegshymnenklans", "Das Holzfällerlager der Warsong" },
+    { "Kapelle des Hoffnungsvollen Lichts", "Kapelle des hoffnungsvollen Lichts" },
+    { "in der Zuflucht der Verirrten", "im Fallow Heiligtum" },
+    { "Hammerzehs Grabungsstätte", "Hammertoes Grabungsstätte" },
     { "Schildwache von Dolanaar", "Teldrassil-Schildwache" },
+    { "Der Zertrümmerte Strand", "Der zertrümmerte Strand" },
     { "Der Smaragdgrüne Traum", "Smaragdgrüner Traum" },
+    { "Die Klaffende Schlucht", "Die klaffende Schlucht" },
+    { "Die Vergessenen Teiche", "Die vergessenen Teiche" },
+    { "Zuflucht der Verirrten", "Das Fallow Heiligtum" },
+    { "das Dorf der Bluthufe", "Bloodhoof" },
+    { "Das Dorf der Bluthufe", "Bloodhoof" },
+    { "Die Schimmernde Ebene", "Die schimmernde Ebene" },
+    { "Sturmgrimms Grabhügel", "Die Stormrage Grabhügel" },
+    { "im Dorf der Bluthufe", "in Bloodhoof" },
+    { "Wirrbarts Ausgrabung", "Remtravels Ausgrabung" },
     { "Das Tal der Geister", "Tal der Geister" },
+    { "Schrein von Remulos", "Der Schrein von Remulos" },
     { "Zirkel des Cenarius", "Zirkel des Cenarius" },
+    { "Das Trostlose Feld", "Das trostlose Feld" },
+    { "Das Verbrannte Tal", "Das verbrannte Tal" },
+    { "Das Verlassene Gut", "Das verlassene Gut" },
+    { "Hof der Steinfelds", "Hof der Stonefields" },
+    { "Der Sichere Hafen", "Der sichere Hafen" },
+    { "Die Blühende Oase", "Die blühende Oase" },
+    { "Die Brackige Oase", "Die brackige Oase" },
+    { "Dorf der Bluthufe", "Bloodhoof" },
+    { "Fire-Scar-Schrein", "Fire Scar-Schrein" },
+    { "Der Große Aufzug", "Der große Aufzug" },
+    { "Der Graufelsbau", "Der altgediente Bau" },
+    { "Dorf der Gelkis", "Gelkis" },
+    { "Thandolübergang", "Thandol-Übergang" },
+    { "Zwielichtshain", "Der Zwielichtshain" },
+    { "Sturmwind", "Stormwind" },
   },
   pages = {
     ["abyssal-council"] = {
@@ -4083,10 +4113,10 @@ ns.translate({
       },
     },
     ["bloodhoof-village"] = {
-      title = "Bloodhoof",
+      title = "Dorf der Bluthufe",
       text = {
-        { "Bloodhoof ist das Herz der Ebenen, ein Dorf aus Langhäusern und Kodogehegen an der Straße zwischen Camp Narache und Thunder Bluff. Sein Häuptling ist Baine Bloodhoof, Sohn des Oberhäuptlings Cairne, und hier legen die Jungen den zweiten der Riten ab, den Ritus der Sicht: Sie trinken das Wasser der Seher vor dem Feuer des Dorfes und folgen, wohin die Vision sie führt." },
-        { "Es ist ein geschäftiger, freundlicher, praktischer Ort. Die Tauren von Bloodhoof sind ebenso Bauern und Hirten wie Jäger, und sie geben einem Fremden zu essen, bevor sie nach seinem Anliegen fragen." },
+        { "Das Dorf der Bluthufe liegt im Herzen der Ebenen, mit Langhäusern und Kodogehegen an der Straße zwischen Camp Narache und Thunder Bluff. Sein Häuptling ist Baine Bloodhoof, Sohn des Oberhäuptlings Cairne, und hier legen die Jungen den zweiten der Riten ab, den Ritus der Sicht: Sie trinken das Wasser der Seher vor dem Feuer des Dorfes und folgen, wohin die Vision sie führt." },
+        { "Es ist ein geschäftiger, freundlicher, praktischer Ort. Die Tauren im Dorf der Bluthufe sind ebenso Bauern und Hirten wie Jäger, und sie geben einem Fremden zu essen, bevor sie nach seinem Anliegen fragen." },
       },
     },
     ["bloodsail-buccaneers"] = {
@@ -4197,7 +4227,7 @@ ns.translate({
       title = "Cairne Bloodhoof",
       text = {
         { "Cairne Bloodhoof ist der Oberhäuptling der Tauren, Häuptling des Stammes der Bloodhoof und der älteste Freund, den die Horde in Kalimdor hat. Als Thralls Orcs an Land kamen, führte er sein Volk über die Ebenen, mit den Zentauren auf den Fersen, und die Orcs kämpften an ihrer Seite. Cairne vergalt es ihnen mit Freundschaft und Rat, und seither gehören die Tauren zur Horde." },
-        { "Er ist heute sehr alt und sehr groß, und er spricht langsam und selten. Er erbaute Thunder Bluff, versammelte die Stämme dort und gab den Tauren zum ersten Mal, seit sie sich erinnern, eine Heimat. Sein Sohn Baine hält Bloodhoof, und einmal, so sagt man, wurde er von den Zentauren verschleppt und von einem Tiermeister der Horde zurückgebracht." },
+        { "Er ist heute sehr alt und sehr groß, und er spricht langsam und selten. Er erbaute Thunder Bluff, versammelte die Stämme dort und gab den Tauren zum ersten Mal, seit sie sich erinnern, eine Heimat. Sein Sohn Baine hält das Dorf der Bluthufe, und einmal, so sagt man, wurde er von den Zentauren verschleppt und von einem Tiermeister der Horde zurückgebracht." },
         { "Die Orcs verehren ihn, und die Allianz traut ihm weiter als jedem anderen Anführer der Horde. Beide, so glaube ich, haben recht." },
       },
     },
@@ -4347,7 +4377,7 @@ ns.translate({
       title = "Die Dunkeleisenzwerge",
       text = {
         { "Der dritte der drei Hämmer, und derjenige, der nie vergab. Seit die Dunkeleisenzwerge ihren Krieg gegen Ironforge verloren und in ihrer Wut Ragnaros weckten, leben sie im Blackrock unter ihrem Imperator Dagran Thaurissan und dienen dem Feuerlord, den sie herbeiriefen." },
-        { "Dort geblieben sind sie nicht. Ihre Sklaven graben den Kessel in der Sengenden Schlucht, ihre Ausgräber der Schattenschmiede plündern die Ruinen von Uldaman und halten die Festung Angor im Ödland, ihre Spione schleichen durch Dun Morogh, und ihre Plünderer machen Loch Modan zu schaffen. Im Sumpfland haben sie echten Schaden angerichtet: Sie nahmen die Festung Dun Modr ein und zerbrachen den Thandol-Übergang, die große Brücke nach Norden." },
+        { "Dort geblieben sind sie nicht. Ihre Sklaven graben den Kessel in der Sengenden Schlucht, ihre Ausgräber der Schattenschmiede plündern die Ruinen von Uldaman und halten die Festung Angor im Ödland, ihre Spione schleichen durch Dun Morogh, und ihre Plünderer machen Loch Modan zu schaffen. Im Sumpfland haben sie echten Schaden angerichtet: Sie nahmen die Festung Dun Modr ein und zerbrachen den Thandolübergang, die große Brücke nach Norden." },
         { "Ein Dunkeleisenzwerg kämpft mit Feuer, Schwarzpulver und einem Groll, der zwei Jahrhunderte tief reicht. Kehrt einem niemals den Rücken zu." },
       },
     },
@@ -4517,7 +4547,7 @@ ns.translate({
     ["dun-modr"] = {
       title = "Dun Modr",
       text = {
-        { "Dun Modr wurde erbaut, um das Südende des Thandol-Übergangs zu bewachen, und viele Jahre lang tat es das. Heute weht dort kein Banner der Bronzebeards mehr. Die Dunkeleisenzwerge haben es eingenommen, und von seinen Mauern aus greifen sie den Übergang an und jeden, der die Straße nach Norden nimmt." },
+        { "Dun Modr wurde erbaut, um das Südende des Thandolübergangs zu bewachen, und viele Jahre lang tat es das. Heute weht dort kein Banner der Bronzebeards mehr. Die Dunkeleisenzwerge haben es eingenommen, und von seinen Mauern aus greifen sie den Übergang an und jeden, der die Straße nach Norden nimmt." },
         { "Für jeden Zwerg aus Ironforge ist es bitter, zwergische Hallen von Zwergen gegen uns gehalten zu sehen. Es erinnert uns daran, dass der Krieg der drei Hämmer nie wirklich geendet hat." },
         { "Wenn Ihr nahe vorbeikommt, zieht den Kopf ein. Ihre Schützen sind sehr gut." },
       },
@@ -4898,7 +4928,7 @@ ns.translate({
       title = "Geistheuler",
       text = {
         { "Geistheuler ist ein großer Wolf aus Mulgore, dessen Fell eine schreckliche Wunde aus dem Kampf gegen die Brennende Legion trägt. Die Narbe gibt dieser besonderen Jagdtrophäe eine Geschichte, die über die Jagd über die Ebenen hinausreicht." },
-        { "Skorn Whitecloud erkennt das Fell in Bloodhoof wieder. Er bietet dem Jäger eine seiner Waffen an und hofft, dass der Geist des Wolfes Frieden gefunden hat." },
+        { "Skorn Whitecloud erkennt das Fell im Dorf der Bluthufe wieder. Er bietet dem Jäger eine seiner Waffen an und hofft, dass der Geist des Wolfes Frieden gefunden hat." },
       },
     },
     ["gnolls"] = {
@@ -5020,9 +5050,9 @@ ns.translate({
       },
     },
     ["hammertoes-digsite"] = {
-      title = "Hammertoes Grabungsstätte",
+      title = "Hammerzehs Grabungsstätte",
       text = {
-        { "Hammertoes Grabungsstätte ist das Lager der Forscherliga vor den Toren von Uldaman, benannt nach dem Ausgrabungsleiter, der es führte, und es hat schwere Zeiten hinter sich. Die Troggs kamen aus dem Gewölbe herauf und überrannten die Ausgräber. Ausgrabungsleiter Agmond, der die südlichen Stätten leitete, verstummte, und als jemand nachsehen ging, fand man sein Lager und das, was von ihm übrig war. Hammertoe selbst wurde von den Dunkeleisenzwergen des Klans Schattenschmiede verschleppt, die wissen wollen, was er über die Werke der Titanen weiß." },
+        { "Hammerzehs Grabungsstätte ist das Lager der Forscherliga vor den Toren von Uldaman, benannt nach dem Ausgrabungsleiter, der es führte, und es hat schwere Zeiten hinter sich. Die Troggs kamen aus dem Gewölbe herauf und überrannten die Ausgräber. Ausgrabungsleiter Agmond, der die südlichen Stätten leitete, verstummte, und als jemand nachsehen ging, fand man sein Lager und das, was von ihm übrig war. Hammertoe selbst wurde von den Dunkeleisenzwergen des Klans Schattenschmiede verschleppt, die wissen wollen, was er über die Werke der Titanen weiß." },
         { "Ausgrabungsleiter Ryedol hält, was von der Grabung übrig ist, und er gibt nicht leicht auf. Hammertoe hoffentlich auch nicht. Die Schattenschmiede suchen in Uldaman nach den Geheimnissen der Golems der Titanen, und Hammertoe suchte zuerst nach ihnen, um sie aus den Händen der Dunkeleisenzwerge zu halten." },
       },
     },
@@ -6406,9 +6436,9 @@ ns.translate({
       },
     },
     ["thandol-span"] = {
-      title = "Der Thandol-Übergang",
+      title = "Der Thandolübergang",
       text = {
-        { "Der Thandol-Übergang trug die Straße von Khaz Modan nach Norden ins Arathihochland und zu den Königreichen der Menschen dahinter. Seine beiden großen zwergischen Brücken dienten dieser Straße über Generationen. Ein Ingenieur bittet Euch vielleicht, das Mauerwerk zu bewundern. Wer auf den Übergang angewiesen war, hatte ebenfalls Grund, es zu bewundern." },
+        { "Der Thandolübergang trug die Straße von Khaz Modan nach Norden ins Arathihochland und zu den Königreichen der Menschen dahinter. Seine beiden großen zwergischen Brücken dienten dieser Straße über Generationen. Ein Ingenieur bittet Euch vielleicht, das Mauerwerk zu bewundern. Wer auf den Übergang angewiesen war, hatte ebenfalls Grund, es zu bewundern." },
         { "Die Dunkeleisenzwerge haben eine Brücke so gut wie zerstört. Zwergische Soldaten halten die andere, und die Straße bleibt unter ihrer Bewachung offen. Ein schönes Stück Ingenieurskunst lässt sich leichter loben, wenn jemand anderes es am Stehen hält." },
         { "Schaut hinüber zur zerbrochenen Brücke, wenn Ihr vorbeikommt, $gReisender:Reisende;. Beide Brücken wurden gebaut, um Menschen über das Wasser zu tragen. Nur eine kann es noch." },
       },
@@ -6602,7 +6632,7 @@ ns.translate({
       title = "Die Verirrten",
       text = {
         { "Die Verbannten im sicheren Hafen nennen sich Draenei. Mit Hufen und Fühlern und blaugrauer Haut sind sie anders als die anderen Völker, denen ein Reisender in Azeroth gewöhnlich begegnet. Sie sagen, sie seien nach einer schrecklichen Reise aus der Welt der Orcs gekommen. Die im sicheren Hafen sind sanft geblieben und bereit zu sprechen." },
-        { "Andere leben im Fallow Heiligtum und werden die Verirrten genannt. Die Verbannten sagen, die Reise habe ihre einstigen Brüder zerbrochen. Sie greifen jeden an, der sich nähert, und haben Kristalle gestohlen, die den Verbannten heilig sind. Diese Berichte vor Ort verraten uns wenig über ihr früheres Leben oder darüber, was geschah, bevor sie hierher kamen. Ich lasse diesen Teil der Seite lieber offen, als ihnen eine Vergangenheit anzudichten, die sie nicht beschrieben haben." },
+        { "Andere leben in der Zuflucht der Verirrten und werden die Verirrten genannt. Die Verbannten sagen, die Reise habe ihre einstigen Brüder zerbrochen. Sie greifen jeden an, der sich nähert, und haben Kristalle gestohlen, die den Verbannten heilig sind. Diese Berichte vor Ort verraten uns wenig über ihr früheres Leben oder darüber, was geschah, bevor sie hierher kamen. Ich lasse diesen Teil der Seite lieber offen, als ihnen eine Vergangenheit anzudichten, die sie nicht beschrieben haben." },
       },
     },
     ["the-ordering"] = {
@@ -6987,7 +7017,7 @@ ns.translate({
     ["wendigos"] = {
       title = "Die Wendigos",
       text = {
-        { "Der altgediente Bau bietet Schutz vor dem Schnee von Dun Morogh, vorausgesetzt, Ihr könnt seine Wendigos überreden, ihn zu teilen. Ein Bote, der vor ihnen floh, ließ eine Munitionslieferung zurück. Die Geschöpfe hatten das stärkere Argument." },
+        { "Der Graufelsbau bietet Schutz vor dem Schnee von Dun Morogh, vorausgesetzt, Ihr könnt seine Wendigos überreden, ihn zu teilen. Ein Bote, der vor ihnen floh, ließ eine Munitionslieferung zurück. Die Geschöpfe hatten das stärkere Argument." },
         { "Pilot Stonegear will ihre Mähnen für einen Teppich in seiner Belagerungsmaschine, der Trollpflug. Selbst Maschinen brauchen in diesem Land ein wenig Behaglichkeit, $gReisender:Reisende;. Die Munition zu bergen und die Maschine auszustatten, verlangt beides, einem Wendigo deutlich näher zu kommen, als dem Boten lieb war." },
       },
     },
@@ -7010,7 +7040,7 @@ ns.translate({
       title = "Das Sumpfland",
       text = {
         { "Nördlich der Berge wird der Boden weich und die Luft grau, und Ihr seid im Sumpfland: Marsch, Schilf und Regen, vom Pass von Dun Algaz bis zum Meer beim Hafen von Menethil." },
-        { "Einst war dies Land der Zwerge, durch den Thandol-Übergang mit den Königreichen der Menschen verbunden. Heute ist es ein Kreuzweg der Kriege anderer Leute. Die Orcs der Dragonmaw halten die Hügel, die Dunkeleisenzwerge haben unsere Festung Dun Modr eingenommen, Gnolle und Murlocs füllen die Marschen, und im Osten brütet Grim Batol über allem." },
+        { "Einst war dies Land der Zwerge, durch den Thandolübergang mit den Königreichen der Menschen verbunden. Heute ist es ein Kreuzweg der Kriege anderer Leute. Die Orcs der Dragonmaw halten die Hügel, die Dunkeleisenzwerge haben unsere Festung Dun Modr eingenommen, Gnolle und Murlocs füllen die Marschen, und im Osten brütet Grim Batol über allem." },
         { "Bleibt auf der Straße, haltet Euer Pulver trocken und verweilt nicht nach Einbruch der Dunkelheit." },
       },
     },

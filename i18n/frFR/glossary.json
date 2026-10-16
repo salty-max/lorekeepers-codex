@@ -188,8 +188,8 @@
   },
   "Everlook": {
    "classic": "Long-guet",
-   "forever": "Long-guet",
-   "use": "Long-guet"
+   "forever": "Long-Guet",
+   "use": "Long-Guet"
   },
   "Frostwolf Clan": {
    "classic": "Clan Frostwolf",
@@ -281,8 +281,8 @@
   },
   "Ratchet": {
    "classic": "Ratchet",
-   "forever": "Ratchet",
-   "use": "Ratchet"
+   "forever": "Cabestan",
+   "use": "Cabestan"
   },
   "Ravenholdt": {
    "classic": "Ravenholdt",
@@ -2683,8 +2683,8 @@
   },
   "Ashenvale": {
    "classic": "Ashenvale",
-   "forever": "Ashenvale",
-   "use": "Ashenvale"
+   "forever": "Orneval",
+   "use": "Orneval"
   },
   "Astranaar": {
    "classic": "Astranaar",
@@ -3075,8 +3075,8 @@
   },
   "Everlook": {
    "classic": "Long-guet",
-   "forever": "Long-guet",
-   "use": "Long-guet"
+   "forever": "Long-Guet",
+   "use": "Long-Guet"
   },
   "Falaath Village": {
    "forever": "Falaath",
@@ -3109,8 +3109,8 @@
   },
   "Feathermoon Stronghold": {
    "classic": "Bastion de Feathermoon",
-   "forever": "Bastion de Feathermoon",
-   "use": "Bastion de Feathermoon"
+   "forever": "Bastion de Pennelune",
+   "use": "Bastion de Pennelune"
   },
   "Fel Rock": {
    "classic": "Gangreroche",
@@ -3632,8 +3632,8 @@
   },
   "Ratchet": {
    "classic": "Ratchet",
-   "forever": "Ratchet",
-   "use": "Ratchet"
+   "forever": "Cabestan",
+   "use": "Cabestan"
   },
   "Raven Hill": {
    "classic": "Colline-aux-Corbeaux",
@@ -3976,8 +3976,8 @@
   },
   "Stonewatch Keep": {
    "classic": "Donjon de Guet-de-pierre",
-   "forever": "Donjon de Guet-de-pierre",
-   "use": "Donjon de Guet-de-pierre"
+   "forever": "Donjon de Guet-de-Pierre",
+   "use": "Donjon de Guet-de-Pierre"
   },
   "Stonewrought Dam": {
    "classic": "Barrage de Formepierre",

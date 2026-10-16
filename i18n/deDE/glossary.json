@@ -2758,8 +2758,8 @@
    "use": "Blackfathom-Tiefe"
   },
   "Blackmaw Hold": {
-   "forever": "Die Schwarzschlundfeste",
-   "use": "Die Schwarzschlundfeste"
+   "forever": "Schwarzschlundfeste",
+   "use": "Schwarzschlundfeste"
   },
   "Blackrock Depths": {
    "classic": "Blackrocktiefen",
@@ -2788,8 +2788,8 @@
   },
   "Bloodhoof Village": {
    "classic": "Bloodhoof",
-   "forever": "Bloodhoof",
-   "use": "Bloodhoof"
+   "forever": "Dorf der Bluthufe",
+   "use": "Dorf der Bluthufe"
   },
   "Bloodvenom Post": {
    "classic": "Blutgiftposten",
@@ -3086,8 +3086,8 @@
   },
   "Fallow Sanctuary": {
    "classic": "Das Fallow Heiligtum",
-   "forever": "Das Fallow Heiligtum",
-   "use": "Das Fallow Heiligtum"
+   "forever": "Zuflucht der Verirrten",
+   "use": "Zuflucht der Verirrten"
   },
   "Faol's Rest": {
    "classic": "Faols Ruheplatz",
@@ -3146,8 +3146,8 @@
   },
   "Fire Scar Shrine": {
    "classic": "Fire Scar-Schrein",
-   "forever": "Fire Scar-Schrein",
-   "use": "Fire Scar-Schrein"
+   "forever": "Fire-Scar-Schrein",
+   "use": "Fire-Scar-Schrein"
   },
   "Flame Crest": {
    "classic": "Flammenkamm",
@@ -3156,8 +3156,8 @@
   },
   "Forlorn Rowe": {
    "classic": "Das verlassene Gut",
-   "forever": "Das verlassene Gut",
-   "use": "Das verlassene Gut"
+   "forever": "Das Verlassene Gut",
+   "use": "Das Verlassene Gut"
   },
   "Freewind Post": {
    "classic": "Freiwindposten",
@@ -3191,8 +3191,8 @@
   },
   "Gelkis Village": {
    "classic": "Gelkis",
-   "forever": "Gelkis",
-   "use": "Gelkis"
+   "forever": "Dorf der Gelkis",
+   "use": "Dorf der Gelkis"
   },
   "Gilneas": {
    "forever": "Gilneas",
@@ -3263,8 +3263,8 @@
   },
   "Hammertoe's Digsite": {
    "classic": "Hammertoes Grabungsstätte",
-   "forever": "Hammertoes Grabungsstätte",
-   "use": "Hammertoes Grabungsstätte"
+   "forever": "Hammerzehs Grabungsstätte",
+   "use": "Hammerzehs Grabungsstätte"
   },
   "Hearthglen": {
    "classic": "Hearthglen",
@@ -3397,8 +3397,8 @@
   },
   "Light's Hope Chapel": {
    "classic": "Kapelle des hoffnungsvollen Lichts",
-   "forever": "Kapelle des hoffnungsvollen Lichts",
-   "use": "Kapelle des hoffnungsvollen Lichts"
+   "forever": "Kapelle des Hoffnungsvollen Lichts",
+   "use": "Kapelle des Hoffnungsvollen Lichts"
   },
   "Lion's Pride Inn": {
    "classic": "Gasthaus Zur Höhle des Löwen",
@@ -3431,8 +3431,8 @@
   },
   "Lushwater Oasis": {
    "classic": "Die blühende Oase",
-   "forever": "Die blühende Oase",
-   "use": "Die blühende Oase"
+   "forever": "Die Blühende Oase",
+   "use": "Die Blühende Oase"
   },
   "Magram Village": {
    "classic": "Magram",
@@ -3699,8 +3699,8 @@
   },
   "Remtravel's Excavation": {
    "classic": "Remtravels Ausgrabung",
-   "forever": "Remtravels Ausgrabung",
-   "use": "Remtravels Ausgrabung"
+   "forever": "Wirrbarts Ausgrabung",
+   "use": "Wirrbarts Ausgrabung"
   },
   "Revantusk Village": {
    "classic": "Revantusk",
@@ -3889,8 +3889,8 @@
   },
   "Shrine of Remulos": {
    "classic": "Der Schrein von Remulos",
-   "forever": "Der Schrein von Remulos",
-   "use": "Der Schrein von Remulos"
+   "forever": "Schrein von Remulos",
+   "use": "Schrein von Remulos"
   },
   "Shrine of Thaurissan": {
    "classic": "Schrein von Thaurissan",
@@ -3988,13 +3988,13 @@
   },
   "Stormrage Barrow Dens": {
    "classic": "Die Stormrage Grabhügel",
-   "forever": "Die Stormrage Grabhügel",
-   "use": "Die Stormrage Grabhügel"
+   "forever": "Sturmgrimms Grabhügel",
+   "use": "Sturmgrimms Grabhügel"
   },
   "Stormwind City": {
    "classic": "Stormwind",
-   "forever": "Stormwind",
-   "use": "Stormwind"
+   "forever": "Sturmwind",
+   "use": "Sturmwind"
   },
   "Stormwind Keep": {
    "classic": "Burg Stormwind",
@@ -4083,8 +4083,8 @@
   },
   "Thandol Span": {
    "classic": "Thandol-Übergang",
-   "forever": "Thandol-Übergang",
-   "use": "Thandol-Übergang"
+   "forever": "Thandolübergang",
+   "use": "Thandolübergang"
   },
   "The Apothecarium": {
    "classic": "Das Apothekarium",
@@ -4118,8 +4118,8 @@
   },
   "The Charred Vale": {
    "classic": "Das verbrannte Tal",
-   "forever": "Das verbrannte Tal",
-   "use": "Das verbrannte Tal"
+   "forever": "Das Verbrannte Tal",
+   "use": "Das Verbrannte Tal"
   },
   "The Cleft": {
    "classic": "Die Kluft",
@@ -4172,8 +4172,8 @@
   },
   "The Forgotten Pools": {
    "classic": "Die vergessenen Teiche",
-   "forever": "Die vergessenen Teiche",
-   "use": "Die vergessenen Teiche"
+   "forever": "Die Vergessenen Teiche",
+   "use": "Die Vergessenen Teiche"
   },
   "The Frozen Throne": {
    "forever": "Der Frostthron",
@@ -4181,8 +4181,8 @@
   },
   "The Gaping Chasm": {
    "classic": "Die klaffende Schlucht",
-   "forever": "Die klaffende Schlucht",
-   "use": "Die klaffende Schlucht"
+   "forever": "Die Klaffende Schlucht",
+   "use": "Die Klaffende Schlucht"
   },
   "The Great Forge": {
    "classic": "Die große Schmiede",
@@ -4191,8 +4191,8 @@
   },
   "The Great Lift": {
    "classic": "Der große Aufzug",
-   "forever": "Der große Aufzug",
-   "use": "Der große Aufzug"
+   "forever": "Der Große Aufzug",
+   "use": "Der Große Aufzug"
   },
   "The Greymane Wall": {
    "classic": "Der Greymane-Wall",
@@ -4206,8 +4206,8 @@
   },
   "The Grizzled Den": {
    "classic": "Der altgediente Bau",
-   "forever": "Der altgediente Bau",
-   "use": "Der altgediente Bau"
+   "forever": "Der Graufelsbau",
+   "use": "Der Graufelsbau"
   },
   "The Hall of Thanes": {
    "forever": "Die Halle der Thanen",
@@ -4215,8 +4215,8 @@
   },
   "The Harborage": {
    "classic": "Der sichere Hafen",
-   "forever": "Der sichere Hafen",
-   "use": "Der sichere Hafen"
+   "forever": "Der Sichere Hafen",
+   "use": "Der Sichere Hafen"
   },
   "The High Seat": {
    "classic": "Der Hohe Sitz",
@@ -4342,13 +4342,13 @@
   },
   "The Shattered Strand": {
    "classic": "Der zertrümmerte Strand",
-   "forever": "Der zertrümmerte Strand",
-   "use": "Der zertrümmerte Strand"
+   "forever": "Der Zertrümmerte Strand",
+   "use": "Der Zertrümmerte Strand"
   },
   "The Shimmering Flats": {
    "classic": "Die schimmernde Ebene",
-   "forever": "Die schimmernde Ebene",
-   "use": "Die schimmernde Ebene"
+   "forever": "Die Schimmernde Ebene",
+   "use": "Die Schimmernde Ebene"
   },
   "The Slag Pit": {
    "classic": "Die Schlackengrube",
@@ -4371,8 +4371,8 @@
   },
   "The Stagnant Oasis": {
    "classic": "Die brackige Oase",
-   "forever": "Die brackige Oase",
-   "use": "Die brackige Oase"
+   "forever": "Die Brackige Oase",
+   "use": "Die Brackige Oase"
   },
   "The Stockade": {
    "classic": "Das Verlies",
@@ -4381,8 +4381,8 @@
   },
   "The Stonefield Farm": {
    "classic": "Hof der Stonefields",
-   "forever": "Hof der Stonefields",
-   "use": "Hof der Stonefields"
+   "forever": "Hof der Steinfelds",
+   "use": "Hof der Steinfelds"
   },
   "The Sunstrider": {
    "forever": "Die Sonnenwanderer",
@@ -4423,8 +4423,8 @@
   },
   "The Writhing Haunt": {
    "classic": "Das trostlose Feld",
-   "forever": "Das trostlose Feld",
-   "use": "Das trostlose Feld"
+   "forever": "Das Trostlose Feld",
+   "use": "Das Trostlose Feld"
   },
   "The Zoram Strand": {
    "classic": "Der Zoramstrand",
@@ -4517,8 +4517,8 @@
   },
   "Twilight Grove": {
    "classic": "Der Zwielichtshain",
-   "forever": "Der Zwielichtshain",
-   "use": "Der Zwielichtshain"
+   "forever": "Zwielichtshain",
+   "use": "Zwielichtshain"
   },
   "Tyr's Hand": {
    "classic": "Tyrs Hand",
@@ -4610,8 +4610,8 @@
   },
   "Warsong Lumber Camp": {
    "classic": "Das Holzfällerlager der Warsong",
-   "forever": "Das Holzfällerlager der Warsong",
-   "use": "Das Holzfällerlager der Warsong"
+   "forever": "Holzfällerlager des Kriegshymnenklans",
+   "use": "Holzfällerlager des Kriegshymnenklans"
   },
   "Westbrook Garrison": {
    "classic": "Weststromgarnison",

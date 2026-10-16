@@ -4,6 +4,7 @@
  "Camp de travail chanteguerre": "Camp de travail Warsong",
  "Contreforts de Hautebrande": "Contreforts d'Hillsbrad",
  "Profondeurs de Rochenoire": "Profondeurs de Blackrock",
+ "Donjon de Guet-de-Pierre": "Donjon de Guet-de-pierre",
  "Goulet des Chanteguerres": "Goulet des Warsong",
  "Voltigeurs chanteguerres": "Voltigeurs Warsong",
  "Abbaye de Comté-du-Nord": "Abbaye de Northshire",
@@ -13,6 +14,7 @@
  "Hautes-terres Arathies": "Hautes-terres d'Arathi",
  "Sentinelle de Dolanaar": "Sentinelle de Teldrassil",
  "Champs de Hautebrande": "Champs d'Hillsbrad",
+ "Bastion de Pennelune": "Bastion de Feathermoon",
  "Fort de Guet-du-Nord": "Fort du Nord",
  "Le mur de Grisetête": "Le mur de Greymane",
  "Clan Loup-de-Givre": "Clan Frostwolf",
@@ -47,8 +49,12 @@
  "Rochenoire": "Blackrock",
  "Grisetête": "Greymane",
  "Hurlevent": "Stormwind",
+ "Long-Guet": "Long-guet",
+ "Pennelune": "Feathermoon",
  "Pierrêche": "Stonard",
  "d'Âtreval": "de Hearthglen",
+ "Cabestan": "Ratchet",
  "Forgefer": "Ironforge",
+ "Orneval": "Ashenvale",
  "Âtreval": "Hearthglen"
 }

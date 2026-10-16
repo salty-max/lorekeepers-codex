@@ -3335,7 +3335,7 @@ ns.translate({
     ["ages-past"] = { "Les Âges passés", "L'histoire du monde, des Titans à la dernière guerre, telle que la racontent les vieux livres de ses bibliothèques." },
     ["alterac"] = { "Montagnes d'Alterac", "Un royaume déchu dans les neiges, Dalaran au bord du lac, et une vallée que deux peuples se disputent." },
     ["arathi"] = { "Hautes-terres Arathies", "Le berceau des royaumes humains, tombé en ruine et toujours disputé." },
-    ["ashenvale"] = { "Ashenvale", "L'antique forêt des elfes de la nuit, et les haches des orcs à sa lisière." },
+    ["ashenvale"] = { "Orneval", "L'antique forêt des elfes de la nuit, et les haches des orcs à sa lisière." },
     ["azshara"] = { "Azshara", "La terre de la reine, au bord de la mer qui l'a engloutie." },
     ["badlands"] = { "Terres ingrates", "Un désert rouge de canyons, et sous lui la chambre forte des titans, Uldaman." },
     ["barrens"] = { "Les Tarides", "La grande savane sèche au cœur de Kalimdor, et tous ceux qui se la disputent." },
@@ -3788,6 +3788,7 @@ ns.translate({
     { "Camp de travail chanteguerre", "Camp de travail Warsong" },
     { "Contreforts de Hautebrande", "Contreforts d'Hillsbrad" },
     { "Profondeurs de Rochenoire", "Profondeurs de Blackrock" },
+    { "Donjon de Guet-de-Pierre", "Donjon de Guet-de-pierre" },
     { "Goulet des Chanteguerres", "Goulet des Warsong" },
     { "Voltigeurs chanteguerres", "Voltigeurs Warsong" },
     { "Abbaye de Comté-du-Nord", "Abbaye de Northshire" },
@@ -3797,6 +3798,7 @@ ns.translate({
     { "Hautes-terres Arathies", "Hautes-terres d'Arathi" },
     { "Sentinelle de Dolanaar", "Sentinelle de Teldrassil" },
     { "Champs de Hautebrande", "Champs d'Hillsbrad" },
+    { "Bastion de Pennelune", "Bastion de Feathermoon" },
     { "Fort de Guet-du-Nord", "Fort du Nord" },
     { "Le mur de Grisetête", "Le mur de Greymane" },
     { "Clan Loup-de-Givre", "Clan Frostwolf" },
@@ -3832,9 +3834,13 @@ ns.translate({
     { "d'Âtreval", "de Hearthglen" },
     { "Grisetête", "Greymane" },
     { "Hurlevent", "Stormwind" },
+    { "Long-Guet", "Long-guet" },
+    { "Pennelune", "Feathermoon" },
     { "Pierrêche", "Stonard" },
+    { "Cabestan", "Ratchet" },
     { "Forgefer", "Ironforge" },
     { "Âtreval", "Hearthglen" },
+    { "Orneval", "Ashenvale" },
   },
   pages = {
     ["abyssal-council"] = {
@@ -3977,16 +3983,16 @@ ns.translate({
       },
     },
     ["ashenvale"] = {
-      title = "Ashenvale",
+      title = "Orneval",
       text = {
-        { "Ashenvale est l'antique forêt des elfes de la nuit : des arbres immenses, un clair de lune argenté, des lacs immobiles et des ruines plus vieilles que n'importe quel royaume des hommes. Pendant dix mille ans, les elfes de la nuit y vécurent cachés, gardés par leurs Sentinelles et par le demi-dieu Cénarius, et n'y laissèrent entrer personne." },
-        { "Puis les orcs arrivèrent en Kalimdor, avec un besoin de bois pour leur nouvelle terre, et la forêt est en guerre depuis. Pendant la dernière guerre, le clan Chanteguerre entama Ashenvale et tua Cénarius sous l'emprise de la corruption de Mannoroth. Les elfes de la nuit ne le leur ont pas pardonné, et la Horde n'a pas cessé de couper. Sentinelles et voltigeurs chanteguerres s'affrontent aujourd'hui le long de la lisière est de la forêt, tandis que des furbolgs devenus fous, des satyres et des nagas inquiètent tout le monde également." },
+        { "Orneval est l'antique forêt des elfes de la nuit : des arbres immenses, un clair de lune argenté, des lacs immobiles et des ruines plus vieilles que n'importe quel royaume des hommes. Pendant dix mille ans, les elfes de la nuit y vécurent cachés, gardés par leurs Sentinelles et par le demi-dieu Cénarius, et n'y laissèrent entrer personne." },
+        { "Puis les orcs arrivèrent en Kalimdor, avec un besoin de bois pour leur nouvelle terre, et la forêt est en guerre depuis. Pendant la dernière guerre, le clan Chanteguerre entama Orneval et tua Cénarius sous l'emprise de la corruption de Mannoroth. Les elfes de la nuit ne le leur ont pas pardonné, et la Horde n'a pas cessé de couper. Sentinelles et voltigeurs chanteguerres s'affrontent aujourd'hui le long de la lisière est de la forêt, tandis que des furbolgs devenus fous, des satyres et des nagas inquiètent tout le monde également." },
       },
     },
     ["astranaar"] = {
       title = "Astranaar",
       text = {
-        { "Astranaar se dresse sur une île au milieu d'un lac d'Ashenvale, reliée à la forêt par des ponts. Son puits de lune, son auberge et la caserne de ses Sentinelles donnent aux elfes de la nuit un centre d'où défendre le pays alentour. C'est une belle ville qui connaît bien peu de répit." },
+        { "Astranaar se dresse sur une île au milieu d'un lac d'Orneval, reliée à la forêt par des ponts. Son puits de lune, son auberge et la caserne de ses Sentinelles donnent aux elfes de la nuit un centre d'où défendre le pays alentour. C'est une belle ville qui connaît bien peu de répit." },
         { "Un père y cherche de l'aide pour la fièvre et les cauchemars de sa fille. Les remèdes ordinaires n'y ont rien fait. Les herboristes parlent d'une maladie de la forêt elle-même, tandis que les Sentinelles accusent la corruption laissée par les démons de la guerre. Un voyageur venu aider à défendre Astranaar découvrira peut-être que les ennuis de la ville commencent bien à l'intérieur de ses abords gardés." },
       },
     },
@@ -4062,8 +4068,8 @@ ns.translate({
     ["blackfathom-deeps"] = {
       title = "Les profondeurs de Brassenoire",
       text = {
-        { "Sur la côte d'Ashenvale, à la grève de Zoram, il y a des cavernes envahies par la mer, et elles renferment les ruines d'un temple d'Elune qui sombra quand le Puits d'éternité fut détruit. Les nagas le trouvèrent les premiers. Puis ce fut le tour du Marteau du crépuscule, mené par un seigneur du crépuscule du nom de Kelris." },
-        { "Leurs papiers disent ce qu'ils y font. Ils rassemblent la puissance des eaux profondes pour nourrir une créature qu'ils appellent Aku'mai, qui dort dans les profondeurs du temple, afin qu'un jour le monde revienne à ce qu'ils appellent son âge le plus glorieux : un âge où régneraient les Dieux très anciens. Les elfes de la nuit et la Horde y envoient tous deux leurs jeunes pour les arrêter, ce qui est peut-être la seule chose sur laquelle les deux s'entendent en Ashenvale." },
+        { "Sur la côte d'Orneval, à la grève de Zoram, il y a des cavernes envahies par la mer, et elles renferment les ruines d'un temple d'Elune qui sombra quand le Puits d'éternité fut détruit. Les nagas le trouvèrent les premiers. Puis ce fut le tour du Marteau du crépuscule, mené par un seigneur du crépuscule du nom de Kelris." },
+        { "Leurs papiers disent ce qu'ils y font. Ils rassemblent la puissance des eaux profondes pour nourrir une créature qu'ils appellent Aku'mai, qui dort dans les profondeurs du temple, afin qu'un jour le monde revienne à ce qu'ils appellent son âge le plus glorieux : un âge où régneraient les Dieux très anciens. Les elfes de la nuit et la Horde y envoient tous deux leurs jeunes pour les arrêter, ce qui est peut-être la seule chose sur laquelle les deux s'entendent en Orneval." },
       },
     },
     ["blackrock-clan"] = {
@@ -4210,7 +4216,7 @@ ns.translate({
       title = "La Légion ardente",
       text = {
         { "La Légion ardente est une armée de démons, rassemblée sur mille mondes conquis par le titan déchu Sargeras, et elle est venue trois fois pour le nôtre. La première, il y a dix mille ans, ce fut par le Puits d'éternité des elfes de la nuit. La deuxième, ce fut par les orcs, que ses serviteurs corrompirent et envoyèrent par la Porte des ténèbres. La troisième fut la dernière guerre, quand son général Archimonde tomba au pied de l'Arbre-Monde, sur le mont Hyjal." },
-        { "Elle n'est jamais tout à fait partie. Le seigneur Kazzak tient les Terres foudroyées avec une armée de démons autour de la Porte des ténèbres endormie. Les démonistes du Conseil des ombres gardent des démons à Jaedenar, en Gangrebois, où toute la forêt a pourri autour d'eux. Gardes funestes et infernaux arpentent le canyon de la Malechute en Ashenvale, où Grom Hellscream tua Mannoroth, le convent de Mannoroc en Désolace, et les ruines d'Azshara." },
+        { "Elle n'est jamais tout à fait partie. Le seigneur Kazzak tient les Terres foudroyées avec une armée de démons autour de la Porte des ténèbres endormie. Les démonistes du Conseil des ombres gardent des démons à Jaedenar, en Gangrebois, où toute la forêt a pourri autour d'eux. Gardes funestes et infernaux arpentent le canyon de la Malechute en Orneval, où Grom Hellscream tua Mannoroth, le convent de Mannoroc en Désolace, et les ruines d'Azshara." },
         { "La Légion est patiente. Elle a perdu trois guerres et elle est toujours là, et je ne crois pas qu'elle en ait fini avec nous." },
       },
     },
@@ -4292,7 +4298,7 @@ ns.translate({
       text = {
         { "Cénarius était le seigneur des forêts, un demi-dieu au corps de cerf sous la taille et aux bois ramifiés, et le premier maître des elfes de la nuit. Bien avant la Fracture, il se prit d'affection pour leur jeunesse curieuse et lui enseigna les voies du monde vivant. Malfurion Stormrage fut son plus grand élève, et le druidisme est ce qu'ils firent naître à eux deux." },
         { "Il combattit la Légion pendant la guerre des Anciens, à la tête des anciens de la forêt contre les démons, survécut à la Fracture et aida Malfurion à enfermer Illidan. Ensuite, il resta à Reflet-de-Lune, sur le mont Hyjal. Ses fils, les Gardiens du bosquet, veillèrent sur les elfes de la nuit pendant que les druides dormaient, et ses filles, les dryades, osèrent de plus en plus se montrer." },
-        { "Pendant la Troisième Guerre, il sortit de la forêt pour chasser d'Ashenvale les orcs de Grom Hellscream, et les orcs, fous de sang de démon, le tuèrent. Ses enfants arpentent toujours les bois de Kalimdor, de Raynebois aux Serres-Rocheuses, et Remulos garde Reflet-de-Lune en son nom. La mémoire d'un gardien est longue. Je n'aborderais pas le sujet des orcs avec l'un d'eux." },
+        { "Pendant la Troisième Guerre, il sortit de la forêt pour chasser d'Orneval les orcs de Grom Hellscream, et les orcs, fous de sang de démon, le tuèrent. Ses enfants arpentent toujours les bois de Kalimdor, de Raynebois aux Serres-Rocheuses, et Remulos garde Reflet-de-Lune en son nom. La mémoire d'un gardien est longue. Je n'aborderais pas le sujet des orcs avec l'un d'eux." },
       },
     },
     ["centaurs"] = {
@@ -4463,7 +4469,7 @@ ns.translate({
     ["demon-fall-canyon"] = {
       title = "Le canyon de la Malechute",
       text = {
-        { "Après que Grom Hellscream eut bu le sang du démon et tué Cénarius, Thrall et Jaina Proudmoore le traquèrent et le libérèrent de sa malédiction. Puis Grom partit à la recherche du démon. Dans un canyon d'Ashenvale, il trouva Mannoroth, le seigneur des abîmes dont le sang avait damné les orcs, le tua de sa hache, et en mourut." },
+        { "Après que Grom Hellscream eut bu le sang du démon et tué Cénarius, Thrall et Jaina Proudmoore le traquèrent et le libérèrent de sa malédiction. Puis Grom partit à la recherche du démon. Dans un canyon d'Orneval, il trouva Mannoroth, le seigneur des abîmes dont le sang avait damné les orcs, le tua de sa hache, et en mourut." },
         { "Les orcs se souviennent de lui comme de celui qui les a libérés, et ont donné son nom à leur grande salle d'Orgrimmar. Le canyon reste un lieu de démons : les serviteurs de la Légion ardente le tiennent, et le sol où tomba Mannoroth n'a jamais été purifié." },
       },
     },
@@ -4506,7 +4512,7 @@ ns.translate({
     ["dragons-of-nightmare"] = {
       title = "Les dragons du Cauchemar",
       text = {
-        { "Les dragons verts d'Ysera gardent le Rêve d'émeraude, le monde intact que parcourent les druides endormis. Quatre lieutenants veillaient sur ses grands arbres-portails : Ysondre, Léthon, Emeriss et Taerar, postés au Bois de la Pénombre, dans les Hinterlands, en Feralas et en Ashenvale." },
+        { "Les dragons verts d'Ysera gardent le Rêve d'émeraude, le monde intact que parcourent les druides endormis. Quatre lieutenants veillaient sur ses grands arbres-portails : Ysondre, Léthon, Emeriss et Taerar, postés au Bois de la Pénombre, dans les Hinterlands, en Feralas et en Orneval." },
         { "Le Cauchemar les a pris. Ils en ressortent déformés et attaquent ceux qui approchent. Emeriss répand la pourriture, Taerar se divise en ombres, et Léthon arrache les esprits des morts. Remulos rassemble des fragments de corruption pris aux portails pour les étudier. Un voyageur qui atteint l'un de ces arbres risque de découvrir que le gardien même qui aurait dû le rendre sûr en est devenu le danger." },
       },
     },
@@ -4631,8 +4637,8 @@ ns.translate({
     ["earthen-ring"] = {
       title = "Le Cercle terrestre",
       text = {
-        { "Le Cercle terrestre est un cercle de chamans voué à l'étude et à la préservation des éléments. Ils ont oublié plus de choses sur les étranges anciens dieux, les vieilles légendes et le savoir d'autrefois que la plupart des érudits n'en apprendront jamais, dit un éclaireur de la Horde en Ashenvale, et quand surgit des éléments quelque chose que personne ne sait expliquer, c'est à eux qu'on l'apporte." },
-        { "Ils se tiennent en marge des choses. Un chaman de l'avant-poste de Zoram'gar, sur la côte d'Ashenvale, étudie ce que la mer rejette de Brassenoire, et un autre attend à l'Espoir de Lumière, là où les morts se pressent le plus. On a dit leurs intentions pures, même parmi ceux qui doutent de leurs fréquentations. Le Cercle a jadis tendu la main aux Réprouvés, et certains à Thunder Bluff se demandent aujourd'hui si c'était bien sage." },
+        { "Le Cercle terrestre est un cercle de chamans voué à l'étude et à la préservation des éléments. Ils ont oublié plus de choses sur les étranges anciens dieux, les vieilles légendes et le savoir d'autrefois que la plupart des érudits n'en apprendront jamais, dit un éclaireur de la Horde en Orneval, et quand surgit des éléments quelque chose que personne ne sait expliquer, c'est à eux qu'on l'apporte." },
+        { "Ils se tiennent en marge des choses. Un chaman de l'avant-poste de Zoram'gar, sur la côte d'Orneval, étudie ce que la mer rejette de Brassenoire, et un autre attend à l'Espoir de Lumière, là où les morts se pressent le plus. On a dit leurs intentions pures, même parmi ceux qui doutent de leurs fréquentations. Le Cercle a jadis tendu la main aux Réprouvés, et certains à Thunder Bluff se demandent aujourd'hui si c'était bien sage." },
         { "Une société savante qui répond aux éléments plutôt qu'à un roi. La Ligue reconnaît le genre, et l'envie un peu." },
       },
     },
@@ -4742,16 +4748,16 @@ ns.translate({
       },
     },
     ["feathermoon-stronghold"] = {
-      title = "Le bastion de Feathermoon",
+      title = "Le bastion de Pennelune",
       text = {
-        { "Le bastion de Feathermoon se dresse sur l'île de Sardor, au large de la côte de Feralas, accessible en bateau depuis le continent. La générale Shandris Feathermoon y commande ses Sentinelles, derrière des murs blancs au-dessus d'un port. La forteresse porte son nom." },
+        { "Le bastion de Pennelune se dresse sur l'île de Sardor, au large de la côte de Feralas, accessible en bateau depuis le continent. La générale Shandris Feathermoon y commande ses Sentinelles, derrière des murs blancs au-dessus d'un port. La forteresse porte son nom." },
         { "Ses soldats s'opposent aux nagas Hainecrête de Solarsal et surveillent les ogres de la forêt. Des érudits travaillent aussi parmi les vieilles ruines elfiques de Feralas." },
       },
     },
     ["felwood"] = {
       title = "Gangrebois",
       text = {
-        { "Gangrebois était la partie nord de la grande forêt d'Ashenvale. C'est aujourd'hui une terre empoisonnée, aux arbres noirs et tordus, aux rivières vertes, aux furbolgs fous et aux plantes mêmes souillées. Ce sont les démons qui ont fait cela. Pendant la dernière guerre, le seigneur de l'effroi Tichondrius détenait ici le crâne de Gul'dan, et sa corruption se répandit dans les bois. Quand Illidan Stormrage prit pour lui la puissance du crâne, la forêt ne guérit pas." },
+        { "Gangrebois était la partie nord de la grande forêt d'Orneval. C'est aujourd'hui une terre empoisonnée, aux arbres noirs et tordus, aux rivières vertes, aux furbolgs fous et aux plantes mêmes souillées. Ce sont les démons qui ont fait cela. Pendant la dernière guerre, le seigneur de l'effroi Tichondrius détenait ici le crâne de Gul'dan, et sa corruption se répandit dans les bois. Quand Illidan Stormrage prit pour lui la puissance du crâne, la forêt ne guérit pas." },
         { "Le Conseil des ombres et ses démons tiennent Jaedenar, les satyres Jadefeu les vieilles ruines, et des anciens et des élémentaires corrompus parcourent les bois. Les druides du Cercle d'émeraude tentent de la guérir, plante après plante. La Horde tient le poste de la Vénéneuse au milieu, et les elfes de la nuit une clairière au nord, aux portes des Grumegueules." },
       },
     },
@@ -4977,7 +4983,7 @@ ns.translate({
     ["green-dragonflight"] = {
       title = "Le Vol draconique vert",
       text = {
-        { "Le vol d'Ysera garde le Rêve d'émeraude, et les quatre grands arbres où le Rêve touche le monde éveillé : Seradane dans les Hinterlands, l'Ombrage en Ashenvale, le Bosquet du rêve en Feralas et le Bosquet du crépuscule au Bois de la Pénombre. Les druides parcourent le Rêve grâce au pacte que leurs ancêtres ont conclu avec Ysera. Les dragons, eux, parcourent rarement le monde." },
+        { "Le vol d'Ysera garde le Rêve d'émeraude, et les quatre grands arbres où le Rêve touche le monde éveillé : Seradane dans les Hinterlands, l'Ombrage en Orneval, le Bosquet du rêve en Feralas et le Bosquet du crépuscule au Bois de la Pénombre. Les druides parcourent le Rêve grâce au pacte que leurs ancêtres ont conclu avec Ysera. Les dragons, eux, parcourent rarement le monde." },
         { "Tous ne se portent pas bien. Quelque chose s'est glissé dans le Rêve et a perverti certains des propres enfants d'Ysera. Les quatre qui hantent désormais les grands arbres ont leur propre page. Avant eux, il y eut Eranikus, endormi au-dessus du temple englouti du marais des Chagrins et pris dans le même cauchemar." },
         { "Itharius, un autre membre du vol, attend dans une grotte de ce marais et cherche des mortels capables d'aider à racheter Eranikus. Tandis que les gardiens corrompus hantent toujours les grands arbres, l'un des leurs demande à des inconnus de ramener un dragon chez lui." },
       },
@@ -5094,7 +5100,7 @@ ns.translate({
     ["high-elves"] = {
       title = "Les hauts-elfes",
       text = {
-        { "Les hauts-elfes furent d'abord des elfes de la nuit : des Bien-nés de la cour d'Azshara qui survécurent à la Fracture sans pouvoir renoncer à leur magie. Quand les druides l'interdirent sous peine de mort, leur chef, Dath'Remar, répondit par une tempête de sorts sur Ashenvale. Les druides ne voulurent pas tuer tant des leurs. Ils les exilèrent plutôt, et le peuple de Dath'Remar fit voile vers l'est à travers le Maelström, ravi d'être débarrassé de ses prudents cousins." },
+        { "Les hauts-elfes furent d'abord des elfes de la nuit : des Bien-nés de la cour d'Azshara qui survécurent à la Fracture sans pouvoir renoncer à leur magie. Quand les druides l'interdirent sous peine de mort, leur chef, Dath'Remar, répondit par une tempête de sorts sur Orneval. Les druides ne voulurent pas tuer tant des leurs. Ils les exilèrent plutôt, et le peuple de Dath'Remar fit voile vers l'est à travers le Maelström, ravi d'être débarrassé de ses prudents cousins." },
         { "Ils touchèrent terre dans le nord de ce que les hommes appelleraient Lordaeron et s'établirent d'abord dans les clairières de Tirisfal, jusqu'à ce que, au bout de quelques années, beaucoup d'entre eux commencent à perdre la raison. La rumeur disait que quelque chose de maléfique dormait sous cette terre, et cela ne fut jamais prouvé. Coupés du Puits, ils perdirent leur immortalité en chemin, devinrent plus petits et plus pâles, et disputèrent chaque lieue aux trolls amani. Enfin, ils fondèrent Quel'thalas au cœur des forêts du nord, sur une terre que les trolls tenaient pour sacrée, et l'entourèrent de pierres runiques. Dath'Remar prit le nom de Sunstrider, « celui qui marche dans le jour », et son peuple est depuis lors enfant du soleil." },
         { "Quel'thalas n'est plus. Les elfes qu'un voyageur rencontre sont ce qu'il en reste : des forestiers qui tiennent le gîte de Quel'Lithien au bord des Maleterres, les elfes du Haut-val au gîte de Quel'Danil dans les Hinterlands, des errants çà et là. Ils restent fiers, même en exil. Vu tout ce qu'ils ont perdu, j'ai du mal à le leur reprocher." },
       },
@@ -5511,7 +5517,7 @@ ns.translate({
     ["morshan-rampart"] = {
       title = "Le rempart de Mor'shan",
       text = {
-        { "Mor'shan se dresse à la lisière nord des Tarides, là où la prairie cède la place à Ashenvale. La Horde garde la route qui traverse le rempart vers les exploitations forestières des Chanteguerre et leur conflit avec les Sentinelles." },
+        { "Mor'shan se dresse à la lisière nord des Tarides, là où la prairie cède la place à Orneval. La Horde garde la route qui traverse le rempart vers les exploitations forestières des Chanteguerre et leur conflit avec les Sentinelles." },
         { "Le mur marque une frontière qu'aucun des deux camps ne tient pour réglée. Les orcs ont besoin de bois, et les elfes de la nuit défendent la forêt qui le fournit." },
       },
     },
@@ -5636,7 +5642,7 @@ ns.translate({
     ["northwatch-hold"] = {
       title = "Le Fort de Guet-du-Nord",
       text = {
-        { "Des soldats de Theramore tiennent le Fort de Guet-du-Nord, au-dessus de la Côte des marchands, au sud de Ratchet. Le capitaine Thalo'thas Brightsun accuse ses artilleurs de couler des navires de sa flotte. Il demande à des aventuriers de faire taire les canons et de tuer le capitaine Fairmount." },
+        { "Des soldats de Theramore tiennent le Fort de Guet-du-Nord, au-dessus de la Côte des marchands, au sud de Cabestan. Le capitaine Thalo'thas Brightsun accuse ses artilleurs de couler des navires de sa flotte. Il demande à des aventuriers de faire taire les canons et de tuer le capitaine Fairmount." },
         { "Jaina Proudmoore a fait la paix avec Thrall, et pourtant les combats continuent autour du fort. Un voyageur qui longe cette côte comprend pourquoi, pour décrire cette paix, il faut consigner à la fois l'accord d'une souveraine et la conduite d'un soldat." },
       },
     },
@@ -5801,9 +5807,9 @@ ns.translate({
       },
     },
     ["ratchet"] = {
-      title = "Ratchet",
+      title = "Cabestan",
       text = {
-        { "Ratchet est un port gobelin sur la côte des Tarides, l'une des villes neutres du cartel Gentepression, où vont et viennent les navires de Baie-du-Butin et où personne ne tire la lame contre personne sans le regretter. Son maître est Gazlowe, ce même ingénieur gobelin qui aida Thrall à bâtir Orgrimmar, et il la dirige comme une affaire." },
+        { "Cabestan est un port gobelin sur la côte des Tarides, l'une des villes neutres du cartel Gentepression, où vont et viennent les navires de Baie-du-Butin et où personne ne tire la lame contre personne sans le regretter. Son maître est Gazlowe, ce même ingénieur gobelin qui aida Thrall à bâtir Orgrimmar, et il la dirige comme une affaire." },
         { "Ses ennuis viennent surtout de la mer : les Flibustiers des Mers du sud attaquent ses navires depuis la Côte des marchands, et les artilleurs de l'Alliance du Fort de Guet-du-Nord, plus au sud, en ont coulé quelques-uns par erreur, à ce qu'ils disent." },
       },
     },
@@ -6007,7 +6013,7 @@ ns.translate({
       title = "Les satyres",
       text = {
         { "Xavius aida à ouvrir la cour de la reine Azshara à la Légion ardente. Quand il échoua auprès de Sargeras, le seigneur démon le refaçonna avec des cornes, des sabots et des griffes. Le premier satyre offrit ensuite cette transformation à d'autres elfes avides de pouvoir, et la malédiction se répandit parmi ses fidèles." },
-        { "Leurs camps demeurent dans les anciennes terres des elfes de la nuit, au milieu des forêts d'Ashenvale, de Gangrebois et d'Azshara. Autour d'eux, l'eau se souille, les arbres dépérissent et les bêtes se tordent. Les elfes qui tentent de guérir ces bois luttent contre une corruption qui a d'abord pris racine chez leur propre peuple." },
+        { "Leurs camps demeurent dans les anciennes terres des elfes de la nuit, au milieu des forêts d'Orneval, de Gangrebois et d'Azshara. Autour d'eux, l'eau se souille, les arbres dépérissent et les bêtes se tordent. Les elfes qui tentent de guérir ces bois luttent contre une corruption qui a d'abord pris racine chez leur propre peuple." },
         { "Dix mille ans, c'est long pour soigner une forêt, $gvoyageur:voyageuse;. C'est une durée bien amère pour y trouver ses vieux traîtres encore à l'œuvre." },
       },
     },
@@ -6045,7 +6051,7 @@ ns.translate({
     ["scythe-of-elune"] = {
       title = "La Faux d'Elune",
       text = {
-        { "Les worgens du Bois de la Pénombre ne sont pas venus d'Arugal, ou pas seulement de lui. L'autre moitié de l'histoire commence en Ashenvale, avec une prêtresse d'Elune nommée Velinde Starsong, qui pria pour avoir le moyen de venger ses camarades tombés contre les démons de Gangrebois, et en reçut un : la Faux d'Elune, une branche de bois tordue et noueuse, peut-être plus ancienne que les elfes de la nuit eux-mêmes." },
+        { "Les worgens du Bois de la Pénombre ne sont pas venus d'Arugal, ou pas seulement de lui. L'autre moitié de l'histoire commence en Orneval, avec une prêtresse d'Elune nommée Velinde Starsong, qui pria pour avoir le moyen de venger ses camarades tombés contre les démons de Gangrebois, et en reçut un : la Faux d'Elune, une branche de bois tordue et noueuse, peut-être plus ancienne que les elfes de la nuit eux-mêmes." },
         { "Son journal dit que la tenir affaiblissait les murs du monde. À travers elle, elle vit les worgens mener une guerre qui leur était propre, apprit à leur parler sans mots, et en attira une trentaine dans ce monde pour combattre à ses côtés. D'autres suivirent. Puis des meutes disparurent, et leur nombre continua de croître même quand elle cessa de les appeler, comme si la Faux n'avait plus besoin d'elle. Elle partit vers l'est par-delà la mer, dit le journal, pour chercher un sorcier du Kirin Tor nommé Arugal dont on disait qu'il avait fait la même chose. C'est la dernière entrée." },
         { "La Faux réapparut dans la mine au sud de Sombre-Comté que les gens du pays appellent le Destin de Roland. Un Défias surnommé La Tremblotte la tira d'un tas de gravats, et les worgens jaillirent des parois. Il la perdit de nouveau dans sa fuite, et les archives ne disent pas où elle se trouve aujourd'hui. Le présent d'une déesse, quelque part dans le noir d'une mine du Bois de la Pénombre, qui ouvre peut-être encore des portes. Je préférerais qu'elle soit retrouvée par une prêtresse plutôt que par un prospecteur." },
       },
@@ -6075,8 +6081,8 @@ ns.translate({
       title = "Les Sentinelles",
       text = {
         { "Quand les druides partirent dormir dans le Rêve d'émeraude, il fallut bien que quelqu'un garde les forêts. Tyrande Whisperwind, grande prêtresse d'Elune, rassembla ses sœurs en une armée de guerrières et les nomma les Sentinelles. Elle demanda à Malfurion de ne pas la quitter pour le Rêve. Il partit tout de même, et elle monta la garde." },
-        { "Elles la montèrent dix mille ans, patrouillant Ashenvale la nuit pendant que les druides dormaient, avec les fils de Cénarius, les Gardiens du bosquet, et ses timides filles, les dryades, à appeler en cas de besoin. Tyrande ne cessa jamais de craindre le retour de la Légion. À la fin, elle eut raison." },
-        { "Les druides sont éveillés maintenant, et les Sentinelles n'ont pas baissé la garde. Vous les trouverez à chaque poste elfe de la nuit, de Teldrassil à Feathermoon, sous les ordres de leur générale, Shandris Feathermoon. Si l'une d'elles vous regarde comme si elle montait la garde depuis très longtemps, $gvoyageur:voyageuse;, c'est peut-être bien le cas." },
+        { "Elles la montèrent dix mille ans, patrouillant Orneval la nuit pendant que les druides dormaient, avec les fils de Cénarius, les Gardiens du bosquet, et ses timides filles, les dryades, à appeler en cas de besoin. Tyrande ne cessa jamais de craindre le retour de la Légion. À la fin, elle eut raison." },
+        { "Les druides sont éveillés maintenant, et les Sentinelles n'ont pas baissé la garde. Vous les trouverez à chaque poste elfe de la nuit, de Teldrassil à Pennelune, sous les ordres de leur générale, Shandris Feathermoon. Si l'une d'elles vous regarde comme si elle montait la garde depuis très longtemps, $gvoyageur:voyageuse;, c'est peut-être bien le cas." },
       },
     },
     ["shadow-council"] = {
@@ -6217,8 +6223,8 @@ ns.translate({
     ["southsea-freebooters"] = {
       title = "Les Flibustiers des Mers du sud",
       text = {
-        { "Les Flibustiers des Mers du sud sont des pirates des mers chaudes de Kalimdor, et ils s'en prennent avant tout aux gobelins, parce que ce sont les gobelins qui ont le plus de choses qui valent d'être volées. Ils tiennent des camps le long de la Côte des marchands, dans les Tarides, au sud de Ratchet, et dans les criques de Tanaris, et leurs navires guettent tout ce qui quitte un port de Gentepression." },
-        { "Leur capitaine sur la Côte des marchands est le baron de Longrivage, et Gazlowe, de Ratchet, a mis sa tête à prix. Les gobelins de Gadgetzan paient tout aussi bien pour les pirates de Tanaris. Il n'y a pas de grande histoire derrière eux, ni roi exilé ni cause perdue. Ce sont des voleurs qui possèdent des bateaux, et la mer est vaste." },
+        { "Les Flibustiers des Mers du sud sont des pirates des mers chaudes de Kalimdor, et ils s'en prennent avant tout aux gobelins, parce que ce sont les gobelins qui ont le plus de choses qui valent d'être volées. Ils tiennent des camps le long de la Côte des marchands, dans les Tarides, au sud de Cabestan, et dans les criques de Tanaris, et leurs navires guettent tout ce qui quitte un port de Gentepression." },
+        { "Leur capitaine sur la Côte des marchands est le baron de Longrivage, et Gazlowe, de Cabestan, a mis sa tête à prix. Les gobelins de Gadgetzan paient tout aussi bien pour les pirates de Tanaris. Il n'y a pas de grande histoire derrière eux, ni roi exilé ni cause perdue. Ce sont des voleurs qui possèdent des bateaux, et la mer est vaste." },
       },
     },
     ["southshore"] = {
@@ -6232,7 +6238,7 @@ ns.translate({
     ["splintertree-post"] = {
       title = "Le poste de Bois-brisé",
       text = {
-        { "Le poste de Bois-brisé est le fort de la Horde à la lisière est d'Ashenvale, une palissade de bois brut où les bûcherons et les cavaliers Chanteguerre tiennent leur camp. Les Sentinelles l'attaquent sans cesse, et les orcs le leur rendent bien." },
+        { "Le poste de Bois-brisé est le fort de la Horde à la lisière est d'Orneval, une palissade de bois brut où les bûcherons et les cavaliers Chanteguerre tiennent leur camp. Les Sentinelles l'attaquent sans cesse, et les orcs le leur rendent bien." },
         { "Les orcs disent qu'ils ont besoin du bois : Durotar est une terre de roche rouge, et un peuple doit bâtir. Les elfes de la nuit disent que chaque arbre de cette forêt est plus vieux que la Horde. Les deux ont raison, et c'est bien ce qui rend la chose si difficile." },
       },
     },
@@ -6255,7 +6261,7 @@ ns.translate({
       title = "Le cartel Gentepression",
       text = {
         { "Le cartel Gentepression commerce avec l'Alliance comme avec la Horde. Ses gobelins ont compris que des gens prêts à se battre entre eux ont toujours besoin de provisions, et que les deux monnaies valent la peine d'être prises. Leurs villes offrent un endroit où traiter ces affaires." },
-        { "Baie-du-Butin, Gadgetzan, Ratchet et Long-guet couvrent la jungle, le désert, la côte et la neige. Des cogneurs y font régner la paix. Revilgaz veille sur Baie-du-Butin, tandis que Gazlowe a du travail pour les visiteurs à Ratchet. Chaque port a des ennuis que le commerce seul ne réglera pas." },
+        { "Baie-du-Butin, Gadgetzan, Cabestan et Long-guet couvrent la jungle, le désert, la côte et la neige. Des cogneurs y font régner la paix. Revilgaz veille sur Baie-du-Butin, tandis que Gazlowe a du travail pour les visiteurs à Cabestan. Chaque port a des ennuis que le commerce seul ne réglera pas." },
         { "Un voyageur peut y acheter des provisions, y trouver un emploi et y croiser l'autre faction sans porter aussitôt la main à son arme. Le cartel fait payer une bonne partie de ce qu'il offre, mais une halte neutre a sa valeur dans un monde dont les routes traversent tant de guerres." },
       },
     },
@@ -6277,7 +6283,7 @@ ns.translate({
     ["stonetalon-mountains"] = {
       title = "Les Serres-Rocheuses",
       text = {
-        { "Les Serres-Rocheuses s'élèvent entre Ashenvale et les Tarides : de hauts pics gris, des vallées profondes et de vieilles forêts, le foyer ancestral des harpies, avec en leur cœur le pic sacré des druides. Les esprits de ces montagnes sont en colère, disent les chamans de la Horde, et ils ont de quoi." },
+        { "Les Serres-Rocheuses s'élèvent entre Orneval et les Tarides : de hauts pics gris, des vallées profondes et de vieilles forêts, le foyer ancestral des harpies, avec en leur cœur le pic sacré des druides. Les esprits de ces montagnes sont en colère, disent les chamans de la Horde, et ils ont de quoi." },
         { "Les gobelins de la KapitalRisk sont venus couper, brûler et creuser, et des vallées entières ont disparu avec eux. Le Val calciné, au sud, a été entièrement ravagé par le feu de leurs machines. Les harpies Rougefurie tiennent les hauteurs, le Totem sinistre attaque les villages taurens, et au milieu de tout cela, les druides du pic et les chamans de Roche-Soleil tentent de soigner ce qu'ils peuvent." },
       },
     },
@@ -6482,7 +6488,7 @@ ns.translate({
       title = "Les Tarides",
       text = {
         { "Les Tarides sont la grande savane au cœur de Kalimdor : une mer d'herbe jaune et d'arbres épineux sous un ciel immense, avec des troupeaux de zhévras et de kodos, des lions et des raptors, et quelques précieuses oasis où tout ce qui vit ici vient boire. C'est chaud, sec et immense, et cela appartient, autant qu'on puisse le dire, à quiconque tient le prochain point d'eau." },
-        { "Cela fait beaucoup de monde. La Horde tient la Croisée en son cœur et les routes alentour. Les gobelins tiennent Ratchet sur la côte. L'Alliance tient Guet-du-Nord à l'est et un chantier nain au sud. Les centaures lancent leurs raids depuis les collines, les hurans tiennent les dédales d'épines du sud, les harpies nichent dans les ravines, et la Lame ardente et la KapitalRisk ont leurs camps. Un voyageur des Tarides apprend à boire quand il le peut et à dormir d'un œil." },
+        { "Cela fait beaucoup de monde. La Horde tient la Croisée en son cœur et les routes alentour. Les gobelins tiennent Cabestan sur la côte. L'Alliance tient Guet-du-Nord à l'est et un chantier nain au sud. Les centaures lancent leurs raids depuis les collines, les hurans tiennent les dédales d'épines du sud, les harpies nichent dans les ravines, et la Lame ardente et la KapitalRisk ont leurs camps. Un voyageur des Tarides apprend à boire quand il le peut et à dormir d'un œil." },
       },
     },
     ["the-battle-of-mount-hyjal"] = {
@@ -6519,7 +6525,7 @@ ns.translate({
     ["the-crossroads"] = {
       title = "La Croisée",
       text = {
-        { "Les grandes routes des Tarides se rejoignent à la Croisée : au nord vers Orgrimmar, à l'ouest vers Mulgore, à l'est vers Ratchet et au sud vers Mille pointes. La Horde y tient une palissade, une auberge et un perchoir de cavaliers célestes, avec une garnison au service des voyageurs qui empruntent ces routes." },
+        { "Les grandes routes des Tarides se rejoignent à la Croisée : au nord vers Orgrimmar, à l'ouest vers Mulgore, à l'est vers Cabestan et au sud vers Mille pointes. La Horde y tient une palissade, une auberge et un perchoir de cavaliers célestes, avec une garnison au service des voyageurs qui empruntent ces routes." },
         { "L'activité des centaures et les vols de provisions donnent à cette garnison du travail au-delà de ses murs. Sergra Darkthorn propose aussi des épreuves de chasse." },
       },
     },
@@ -6848,7 +6854,7 @@ ns.translate({
       title = "La tour d'Althalaxx",
       text = {
         { "Balthule Shadowstrike surveille la tour en ruine d'Althalaxx, au nord-est d'Auberdine. Il reste à son poste plutôt que de risquer de manquer un indice. L'agitation autour de la tour mène à la Rive noire, un culte d'elfes de la nuit qui pratiquent la magie des démonistes. Leur peuple a toutes les raisons de se souvenir de ce que de tels arts peuvent apporter." },
-        { "L'enquête descend au sud jusqu'en Ashenvale, vers un démoniste orc au sanctuaire de Scarfeu. Delgren le Purificateur, de l'Aube d'argent, y reprend la traque." },
+        { "L'enquête descend au sud jusqu'en Orneval, vers un démoniste orc au sanctuaire de Scarfeu. Delgren le Purificateur, de l'Aube d'argent, y reprend la traque." },
       },
     },
     ["treason-of-alterac"] = {
@@ -7008,14 +7014,14 @@ ns.translate({
     ["warsong-gulch"] = {
       title = "Le goulet des Chanteguerres",
       text = {
-        { "Dans le goulet des Chanteguerres, à la lisière sud d'Ashenvale, les elfes de la nuit ont tracé leur ligne contre l'abattage chanteguerre. Les Sentinelles d'Aile-argent tiennent un bout de la vallée et les voltigeurs chanteguerres l'autre. Leurs combattants traversent d'un camp à l'autre pour s'emparer de la bannière ennemie." },
-        { "La Horde y voit la défense d'une exploitation forestière. L'Alliance voit dans cette exploitation une invasion. Les deux camps envoient des combattants venus de bien au-delà d'Ashenvale." },
+        { "Dans le goulet des Chanteguerres, à la lisière sud d'Orneval, les elfes de la nuit ont tracé leur ligne contre l'abattage chanteguerre. Les Sentinelles d'Aile-argent tiennent un bout de la vallée et les voltigeurs chanteguerres l'autre. Leurs combattants traversent d'un camp à l'autre pour s'emparer de la bannière ennemie." },
+        { "La Horde y voit la défense d'une exploitation forestière. L'Alliance voit dans cette exploitation une invasion. Les deux camps envoient des combattants venus de bien au-delà d'Orneval." },
       },
     },
     ["warsong-lumber-camp"] = {
       title = "Le camp de bûcherons chanteguerre",
       text = {
-        { "Quand les orcs débarquèrent en Kalimdor, Thrall envoya Grom Hellscream et son clan Chanteguerre chercher du bois en Ashenvale. Les gardiens de la forêt ne voulaient pas d'eux, et le demi-dieu Cénarius, le seigneur de la forêt lui-même, se dressa contre eux." },
+        { "Quand les orcs débarquèrent en Kalimdor, Thrall envoya Grom Hellscream et son clan Chanteguerre chercher du bois en Orneval. Les gardiens de la forêt ne voulaient pas d'eux, et le demi-dieu Cénarius, le seigneur de la forêt lui-même, se dressa contre eux." },
         { "Grom ne put le vaincre. Alors il fit ce que les orcs avaient juré de ne plus jamais faire : il but le sang du démon Mannoroth, et grâce à sa force, les Chanteguerre tuèrent Cénarius dans sa propre forêt. La malédiction du démon pesait de nouveau sur eux. Les camps de bûcherons chanteguerres sont toujours là, et coupent toujours, et les elfes de la nuit ont la mémoire longue." },
       },
     },
