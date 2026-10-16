@@ -3787,7 +3787,7 @@ ns.translate({
   },
   -- on Classic, its own names for the places Forever renamed (the longest first)
   classic = {
-    { "Holzfällerlager des Kriegshymnenklans", "Das Holzfällerlager der Warsong" },
+    { "Holzfällerlager des Kriegshymnenklans", "Holzfällerlager der Warsong" },
     { "Kapelle des Hoffnungsvollen Lichts", "Kapelle des hoffnungsvollen Lichts" },
     { "in der Zuflucht der Verirrten", "im Fallow Heiligtum" },
     { "Hammerzehs Grabungsstätte", "Hammertoes Grabungsstätte" },
@@ -3800,11 +3800,11 @@ ns.translate({
     { "das Dorf der Bluthufe", "Bloodhoof" },
     { "Das Dorf der Bluthufe", "Bloodhoof" },
     { "Die Schimmernde Ebene", "Die schimmernde Ebene" },
-    { "Sturmgrimms Grabhügel", "Die Stormrage Grabhügel" },
+    { "Sturmgrimms Grabhügel", "Stormrage Grabhügel" },
     { "im Dorf der Bluthufe", "in Bloodhoof" },
     { "Wirrbarts Ausgrabung", "Remtravels Ausgrabung" },
     { "Das Tal der Geister", "Tal der Geister" },
-    { "Schrein von Remulos", "Der Schrein von Remulos" },
+    { "Schrein von Remulos", "Schrein von Remulos" },
     { "Zirkel des Cenarius", "Zirkel des Cenarius" },
     { "Das Trostlose Feld", "Das trostlose Feld" },
     { "Das Verbrannte Tal", "Das verbrannte Tal" },
@@ -3819,7 +3819,7 @@ ns.translate({
     { "Der Graufelsbau", "Der altgediente Bau" },
     { "Dorf der Gelkis", "Gelkis" },
     { "Thandolübergang", "Thandol-Übergang" },
-    { "Zwielichtshain", "Der Zwielichtshain" },
+    { "Zwielichtshain", "Zwielichtshain" },
     { "Sturmwind", "Stormwind" },
   },
   pages = {
