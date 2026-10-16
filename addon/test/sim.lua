@@ -213,6 +213,7 @@ local tipHooks, tipLines, tipUnit = {}, {}, nil
 GameTooltip.HookScript = function(self, name, fn) tipHooks[name] = fn end
 GameTooltip.GetUnit = function() return "Someone", tipUnit end
 GameTooltip.AddLine = function(self, text) table.insert(tipLines, text) end
+function UnitPlayerControlled() return false end
 function UnitIsPlayer(u) return u == "player" or (u == "target" or u == "mouseover") and state.player ~= nil end
 function GetCursorPosition() return 0, 0 end
 local linkHandlers = {}

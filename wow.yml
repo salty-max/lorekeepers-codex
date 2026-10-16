@@ -167,6 +167,9 @@ globals:
     any: true
   UnitGUID:
     any: true
+  UnitPlayerControlled:
+    args:
+      - type: string
   UnitIsPlayer:
     any: true
   UnitIsUnit:
