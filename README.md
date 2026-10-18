@@ -30,9 +30,10 @@ and players who can unlock a page.
 The lore covers the world's past up to the original game, using Warcraft I
 to III, WoW's quests and books, and the novels and histories about that
 period. Later expansion events and answers to mysteries left open in the
-original game are kept out. The Codex reads in English, French and German
-(the German a first translation). Other clients get English, with the places
-and the Library's titles in their own language. Most unlocks use game ids, and reading-based unlocks
+original game are kept out. The Codex reads in English, French, German and
+Spanish (German and Spanish are first translations). Other clients get English,
+with the places and the Library's titles in their own language. Most unlocks
+use game ids, and reading-based unlocks
 recognise titles in every client language. Where you found a page is kept by
 the game's ids, so it follows your client's language, even after you switch.
 
@@ -70,6 +71,11 @@ and `/codex import CODE`.
 - `/codex scan on` records areas, creatures, quest texts and books to help
   write Forever content. `scripts/scan-export.lua` converts the saved data
   to JSON.
+
+Known Library texts also follow your client's language, including Spanish
+and Latin American Spanish. Original game wording is used where available,
+with documented translations for missing bodies. Unrecognized copies stay
+as recorded. See [the Spanish translation notes](docs/spanish-translation.md).
 
 The full store description is in [addon/CURSEFORGE.md](addon/CURSEFORGE.md).
 The [Vanilla lore review](docs/lore-review.md) records the source checks and

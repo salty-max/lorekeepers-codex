@@ -1918,6 +1918,83 @@ do
   UnitSex = oldSex
 end
 
+-- Spanish: exercise the finished loaders, including regional game names,
+-- gender forms and saved copies that predate stable readable ids.
+do
+  local oldSex = UnitSex
+  local function client(locale, sex)
+    UnitSex = function() return sex end
+    local target = { kit = { L = {} }, on = function() end, secret = function() return false end }
+    for _, file in ipairs({
+      FOREVER and "Content_Forever.lua" or "Content_Classic.lua",
+      "Locale.lua",
+      "Text_Sources.lua",
+      "Text_" .. locale .. ".lua",
+      "Library.lua",
+    }) do
+      assert(loadfile(DIR .. file))("LorekeepersCodex", target)
+    end
+    return target
+  end
+  for _, sex in ipairs({ 2, 3 }) do
+    local english = client("enUS", sex)
+    for _, locale in ipairs({ "esES", "esMX" }) do
+      local target = client(locale, sex)
+      check(target.kit.L["The Codex"] == "El Códice", locale .. " interface loads")
+      check(target.kit.isOne(1), locale .. " singular rule loads")
+      check(not target.kit.isOne(0) and not target.kit.isOne(2), locale .. " zero and two are plural")
+      local greeting = target.content.entries["foreword-dwarf"].text[1][1]
+      check(greeting:find(sex == 3 and "Viajera" or "Viajero", 1, true), locale .. " foreword addresses the reader")
+      local leader = target.content.entries["high-tinker-mekkatorque"].title
+      check(
+        leader == (locale == "esMX" and "Manitas mayor Mekkatorque" or "Alto mecachifle Mekkatorque"),
+        locale .. " uses its client's Mekkatorque title"
+      )
+      check(
+        target.content.entries["si-7"].title == (locale == "esMX" and "IV:7" or "IS:8"),
+        locale .. " uses its client's intelligence service name"
+      )
+      for id, original in pairs(english.content.entries) do
+        local entry = target.content.entries[id]
+        check(entry and #entry.text == #original.text, locale .. " preserves paragraphs: " .. id)
+        for i, para in ipairs(entry.text) do
+          local source = original.text[i]
+          check(
+            para.side == source.side and para.aside == source.aside and para.italic == source.italic,
+            locale .. " preserves faction and narrator roles: " .. id
+          )
+          check(not para[1]:find("$g", 1, true) and not para[1]:find(";", 1, true), locale .. " renders prose: " .. id)
+          check(not para[1]:find("el Hermandad", 1, true), locale .. " regional faction has the right article: " .. id)
+        end
+      end
+      check(target.textBodies == nil, locale .. " loads no English Library bodies")
+      for _, fromLocale in ipairs({ "frFR", "deDE", "esES", "esMX" }) do
+        local from = client(fromLocale, sex)
+        for title, variants in pairs(from.bookTexts) do
+          for _, variant in ipairs(variants) do
+            local id = from.textSources.canonical[variant.ids[1]]
+            local copy = { title = from.textTitle(title), pages = { from.textForReader(variant.pages[1]) } }
+            -- Image-only and genuinely empty sources have no first-page text
+            -- to identify in an old copy. New copies retain their readable id.
+            if copy.pages[1] == "" then copy.readable = id end
+            check(from.textIdentity(copy) == id, fromLocale .. " retains readable identity: " .. id)
+            local pages, localized = target.textPages(copy)
+            check(localized and pages == target.booksById[id], locale .. " reads " .. fromLocale .. " copy: " .. id)
+            local en = english.textPages(copy)
+            check(
+              en == (english.textBodies[id] or copy.pages),
+              fromLocale .. " copy returns to English without inventing missing sources: " .. id
+            )
+          end
+        end
+      end
+      local broken = { title = "Unknown", pages = { "A page outside the known catalog." } }
+      check(target.textPages(broken) == broken.pages, locale .. " preserves unknown saved texts")
+    end
+  end
+  UnitSex = oldSex
+end
+
 -- Same-title circulars remain distinct when re-read in another language,
 -- including old saved copies that predate readable ids and language stamps.
 do

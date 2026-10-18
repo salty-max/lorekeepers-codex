@@ -3,6 +3,8 @@
 ## Notes: Unlock Azeroth's lore as you explore, meet its people and complete quests. Collect the books and notes you read along the way.
 ## Notes-frFR: Débloquez l'histoire d'Azeroth en explorant, en rencontrant ses habitants et en accomplissant des quêtes. Collectionnez les livres et les notes que vous lisez en chemin.
 ## Notes-deDE: Schalte die Geschichte Azeroths frei, indem du die Welt erkundest, ihren Bewohnern begegnest und Quests abschließt. Sammle die Bücher und Notizen, die du unterwegs liest.
+## Notes-esES: Descubre la historia de Azeroth mientras exploras, conoces a sus habitantes y completas misiones. Reúne los libros y las notas que lees por el camino.
+## Notes-esMX: Descubre la historia de Azeroth mientras exploras, conoces a sus habitantes y completas misiones. Reúne los libros y las notas que lees por el camino.
 ## Category: Roleplay
 ## Author: salty-max
 ## Version: 0.13.2

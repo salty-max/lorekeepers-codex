@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Readable identities and first-page templates for saved copies in EN/FR/DE.
+"""Readable identities and first-page templates for every translated catalog.
 
 Run after book_texts.py for every translated locale. Read only wow-data's
 databases and tracked catalogs/supplements. Never use a title alone to choose

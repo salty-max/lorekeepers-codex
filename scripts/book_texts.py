@@ -111,6 +111,11 @@ for key, title in texts:
         digest = hashlib.sha256(json.dumps(en, ensure_ascii=False, separators=(",", ":")).encode()).hexdigest()
         if correction["title"] != title or correction["source_sha256"] != digest:
             raise ValueError(f"{key}: translated source changed, review {supplement_path}")
+        for extra_key, expected in correction.get("additional_source_sha256", {}).items():
+            extra = pages("classic", extra_key, "enUS") or pages("forever", extra_key, "enUS")
+            actual = hashlib.sha256(json.dumps(extra, ensure_ascii=False, separators=(",", ":")).encode()).hexdigest()
+            if actual != expected:
+                raise ValueError(f"{key}: additional source {extra_key} changed, review {supplement_path}")
         tr = correction["pages"]
     if not isinstance(tr, list) or not tr:
         missing.append(f"{key} {title}")

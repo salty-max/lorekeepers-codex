@@ -1,0 +1,1149 @@
+{
+ "description": "Spanish readable supplements. Authored translations are distinguished from recovered Spanish client text. Source hashes cover the pinned English page arrays.",
+ "entries": {
+  "o175774": {
+   "title": "Fellari Swiftarrow",
+   "source_sha256": "693bbf8dccbeaff7e27bc1c1b3dbe5137ba3ec501eb9f1a5d9184bb33856cf2d",
+   "provenance": "client-text-reuse",
+   "note": "Spanish client pages reused from o175776 with the identical pinned English chain.",
+   "pages": [
+    "Harthal Vistarreal\nSeñor Paladín de la Cruzada Escarlata\nCiudadano de Azeroth, caballero de la Mano de Plata\nVisto por última vez entrando en la ciudad maldita de Stratholme"
+   ]
+  },
+  "i2757": {
+   "title": "Green Hills of Stranglethorn - Chapter II",
+   "source_sha256": "e75bb7320aed749d62154cc4bac96989b0ee3ee7b825674595d34b5dc5b55d2d",
+   "provenance": "client-text-reuse",
+   "note": "Spanish client pages recovered from the esMX source. Not claimed as verified esES client wording.",
+   "pages": [
+    "La bestia era un tigre macho de Tuercespina. Antes de que pudiera amartillar el rifle, Erlgadin levantó la ballesta y disparó en dirección al animal. El virote dejó su marca y sorprendió a la bestia con fuerza en el costado izquierdo. El tigre hizo un intento en vano por huir, pero la herida era demasiado grave. La bestia fue dando traspiés durante varios trágicos segundos, hasta que Barnil lo remató lanzando un hacha.",
+    "La matanza provocó un ánimo festivo en la expedición. Barnil sirvió aguamiel para disfrute de todos. Pero nuestros festejos fueron efímeros. Mientras preparábamos el cadáver para transportarlo de vuelta al campamento base, un rugido espantoso nos cogió desprevenidos a todos. En todos mis años nunca he oído nada que helara la sangre de tal modo.",
+    "En un rocoso precipicio en lo alto, perfilado por el sol poniente, podía distinguir el felino depredador más grande que he visto jamás. Pude liberar una descarga con mi rifle, pero el felino siguió su camino. Rugió una vez más, en esta ocasión vez con más fuerza que la anterior, y desapareció.\n\nRecogimos nuestras pertenencias y nos dirigimos solemnemente de vuelta al campamento.",
+    "Había prometido a la expedición que pasaríamos el día siguiente cazando panteras, ya que sus pieles son muy valoradas en Azeroth. Esta demanda se debe a que todos los cazadores, tramperos y comerciantes de pieles arriesgan valientemente su vida en nombre de la Alianza.",
+    "Ajeck y Sir Erlgadin estaban ansiosos por aprender a cazar eficazmente con un rifle de los enanos. Hice que los dos humanos dejaran sus primitivas armas en el campamento base. Barnil y yo los equipamos con algunas de las mejores armas de fuego de Forjaz.",
+    "Ese día nos aventuramos al sur, siguiendo algunos rastros recientes de pantera. Pronto llegamos a un barranco que se cruzaba por un enorme puente colgante. No pude evitar pensar en la descriptiva obra de Brann sobre aquella región cuando vi aquella maravilla de la ingeniería. Se suponía tan a menudo que los trols nativos eran una raza primitiva e inculta, pero, mientras observaba fijamente la artesanía maestra del puente, pude reconocer la habilidad con la que los albañiles trols superaron la hazaña, aparentemente imposible.",
+    "Al poco tiempo, Ajeck rastreó a la pantera en dirección al sudoeste. Anduvimos en silencio, con las armas preparadas, anticipándonos a nuestra presa. Un chasquido de ramas en un bosquecillo cercano llamó nuestra atención de inmediato. Allí había algo. Una mirada seria a Barnil bastó para transmitirle mis pensamientos. Barnil bajó su rifle lentamente. Esta presa no era para nosotros, sino para nuestros compañeros humanos. Innumerables panteras habían perdido la vida al enfrentarse a nuestros humeantes cañones. Esta presa era para los humanos.",
+    "Tanto Ajeck como Sir Erlgadin se mantuvieron erguidos, con las armas al nivel de la hirsuta maleza que había bajo unos árboles que se mecían de un lado a otro. El sol del mediodía ardía con fuerza sobre nosotros. Una lenta gota de sudor rodó por la sien de Erlgadin, al tiempo que retiraba el gatillo. Tras el chasquido, el follaje exuberante se abrió en dos y una pantera negra, espécimen hermoso, saltó veloz sobre la llanura."
+   ]
+  },
+  "i2759": {
+   "title": "Green Hills of Stranglethorn - Chapter IV",
+   "source_sha256": "bcc7bec37d8bbd564adb2cfa2b013412e4d899d76c2ac65c2ec5508105ed4e10",
+   "provenance": "client-text-reuse",
+   "note": "Spanish client pages recovered from the esMX source. Not claimed as verified esES client wording.",
+   "pages": [
+    "Conduje a la expedición hasta el mar, con el fin de que la costa nos protegiera de los raptores. Con nuestro apresuramiento, nos habíamos desviado demasiado al norte, a una altitud peligrosamente elevada. Nos habíamos equivocado. Fue culpa mía. Nos detuvimos delante de un escarpado acantilado, con los raptores justo detrás de nosotros.",
+    "Avancé lentamente con el arma levantada. Había conducido a estos valientes cazadores a su fin. Tenía que morir defendiéndolos. Los raptores colazote son particularmente feroces, conocidos por ser unos sanguinarios implacables. Eran muchos más que nosotros. Pero si hubiera dejado que nos mataran a mis camaradas y a mí, sin antes derramar parte de su propia sangre, no me lo habría perdonado.",
+    "Ajeck y Sir Erlgadin dispusieron sus armas, flanqueándome a cada lado, de espaldas al mar. Barnil dejó escapar un suspiro derrotado y blandió su hacha. Los colazotes estaban casi sobre nosotros. Su firme zancada se había hecho más lenta. Ahora acechaban a su presa, pues sabían que nos tenían atrapados.",
+    "Entonces ocurrió algo milagroso. Desde donde estábamos escuchamos el inconfundible y aterrador rugido del gran tigre blanco. A pesar de ser numerosos, los raptores dieron media vuelta y se dispersaron. Solo vimos el breve destello blanco de un tigre que salió disparado junto a nosotros, abalanzándose sobre uno de los raptores. No fue necesario dar ninguna orden. Los cuatro miembros de la expedición sabíamos que era el momento de salir corriendo.",
+    "Corrimos a toda velocidad hasta el campamento base, sin reducir la marcha en ningún momento. Más tarde aquella noche, nos sentamos en silencio alrededor de la hoguera, sabiendo que un extraño golpe de suerte nos había salvado la vida. Esos son los riesgos que corre el cazador de caza mayor. Jugamos con el destino. No obstante, todos, en algún momento de nuestras vidas, debemos afrontar las afiladas garras del destino. Este enano se alegra, porque ese momento aún no ha llegado a las verdes colinas de Tuercespina."
+   ]
+  },
+  "i16263": {
+   "title": "Laird's Response",
+   "source_sha256": "21bfb02f1bab0890950b666d49d353a05d683237a7da6f3b43ce72be208d3587",
+   "provenance": "client-text-reuse",
+   "note": "Spanish client pages recovered from the esMX source. Not claimed as verified esES client wording.",
+   "pages": [
+    "Nessa,\n\nMe alegra tener noticias tuyas.\n\nLa colección de huesos y escamas que me enviaste era increíble. Nunca había visto peces de ese tamaño cerca del continente. ¡Los pescadores de Rut'theran deben conseguir toneladas de pescados por día sin esfuerzo!\n\nMe da envidia el tamaño de sus presas, pero también hay algo que me inquieta. ¿Qué tal si nuestro nuevo Árbol del Mundo hace que los peces crezcan hasta ese tamaño? Y en ese caso, ¿qué otros efectos podría tener?\n\nTantas preguntas...\n-Laird"
+   ]
+  },
+  "o177222": {
+   "title": "Pteradon Skeleton",
+   "source_sha256": "df0a1000844bdbd8bd25e62341ab8d73f6d83f3be4bfa1a491d74bf5c30c17d2",
+   "provenance": "client-text-reuse",
+   "note": "Spanish client pages reused from o175685 with the identical pinned English chain.",
+   "pages": [
+    "Este esqueleto de pteradon intacto fue descubierto en el remoto cráter de Un'Goro. Basándonos en la estructura del esqueleto, resulta evidente que aún no se ha determinado su género. Este esqueleto quizás se conservó durante varios siglos bajo el rico suelo de la región."
+   ]
+  },
+  "i270308": {
+   "title": "The First Tablet of I'lalai",
+   "source_sha256": "3648a2f4ed11e3dae5250fafbf2f5ba633a692ef7f3456519b610ded89404848",
+   "provenance": "client-text-reuse",
+   "note": "Spanish client pages recovered from the esMX source. Not claimed as verified esES client wording.",
+   "pages": [
+    "Brilla la luna sobre el valle,\nresplandeciendo sobre la selva\nvalientes guerreros escuchan el clamor\npara defender nuestra nación y sus sagradas tierras.\n\nBrilla la luna sobre el valle\nen lo alto, sobre el fragor de la batalla\nallí donde se funde la sangre\ndel enemigo con la del compañero.",
+    "Cuando nuestros hermanos marchen\nhacia reinos de otro mundo,\nel alma y el espíritu se curtirán\nen las profundidades del valle.\n\nCuando nuestros hermanos marchen\nhasta el templo de la montaña,\nprotegeremos su espíritu eterno\ntallado en el sagrado añil del cristal.\n\nCuando nuestros hermanos marchen,\nla luna brillará sobre el valle."
+   ]
+  },
+  "i2005": {
+   "title": "The First Troll Legend",
+   "source_sha256": "3aa734eef64419612e867939bd53c69a29f78cf92b46521571501d8fd4cc94a7",
+   "provenance": "client-text-reuse",
+   "note": "Spanish client pages recovered from the esMX source. Not claimed as verified esES client wording.",
+   "pages": [
+    "Brilla la luna sobre el valle,\nresplandeciendo sobre la selva\nvalientes guerreros escuchan el clamor\npara defender nuestra nación y sus sagradas tierras.\n\nBrilla la luna sobre el valle\nen lo alto, sobre el fragor de la batalla\nallí donde se funde la sangre\ndel enemigo con la del compañero.",
+    "Cuando nuestros hermanos marchen\nhacia reinos de otro mundo,\nel alma y el espíritu se curtirán\nen las profundidades del valle.\n\nCuando nuestros hermanos marchen\nhasta el templo de la montaña,\nprotegeremos su espíritu eterno\ntallado en el sagrado añil del cristal.\n\nCuando nuestros hermanos marchen,\nla luna brillará sobre el valle."
+   ]
+  },
+  "i2008": {
+   "title": "The Fourth Troll Legend",
+   "source_sha256": "76e71052309529c4069cbf9753c98792d0a151fa0a0daf39d4af290add2ac2ab",
+   "provenance": "client-text-reuse",
+   "note": "Spanish client pages recovered from the esMX source. Not claimed as verified esES client wording.",
+   "pages": [
+    "Bajo la luna y el fuego,\nen la carne y el hueso,\nescrito con sangre,\ngrabado en la piedra.\n\nAbandona este lugar\no aguarda tu fin.\nLa muerte vigila\nla tumba del Emperador."
+   ]
+  },
+  "i2006": {
+   "title": "The Second Troll Legend",
+   "source_sha256": "6e1c903715675ec602f15c75f7a48ab713163285ffeb371708773f17fdb0a211",
+   "provenance": "client-text-reuse",
+   "note": "Spanish client pages recovered from the esMX source. Not claimed as verified esES client wording.",
+   "pages": [
+    "Cuento de Gri'lek el Trotamundos\n\n[...El comienzo de la tablilla estaba desgastado y borrado. Pero el final era legible...]\n\nGri'lek caminaba ruidosamente por la jungla. Sus ojos eran dos llamas y su pecho rugía, pues la ira lo consumía.\n\nEnfurecido, rugió mirando al cielo y levantó un brazo. Alzó el brazo izquierdo, que era fuerte y certero porque cazaba sin su gemelo.\n\nY es que el brazo derecho de Gri'lek ya no estaba y no volvería nunca más.",
+    "Y así deambuló y continuó buscando. Y su brazo permaneció perdido. Y, mientras andaba, maldijo y rugió.\n\nPero hace mucho tiempo que Gri'lek dejó de escuchar a los espíritus, y estos estaban airados y no querían atender sus maldiciones.\n\nGri'lek estaba condenado. Condenado a vagar inerme."
+   ]
+  },
+  "i1656": {
+   "title": "Translated Letter",
+   "source_sha256": "30fec9a026183a62ea6090f620b2bd723e2e08de172896994212f41847ae4b4c",
+   "provenance": "client-text-reuse",
+   "note": "Spanish client pages reused from i3248 with the identical pinned English chain.",
+   "pages": [
+    "Saludos, Ello Ebonlocke, Alcalde de Villa Oscura. Me temo que traigo noticias para tu ciudad. Noticias graves.\n\nSabes, soy un creador. He engañado al portador de esta nota para que me ayudase en mi última y más directa creación: ¡un demonio de carne, hueso y metal retorcido! Cuando leas esto, esta bestia estará junto a mi humilde morada, rechinando sus dientes y esperando mis órdenes para masacrar a alguien.\n\nPronto tendrás noticias mías.\n\nEl embalsamador"
+   ]
+  },
+  "i208224": {
+   "title": "Acolyte's Note",
+   "source_sha256": "00e26e43d18bd87282dcb8c7c032c8e582fd1b281478fb9d30dac93e9364e8fd",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "<El texto de la página está casi cubierto de sangre, pero se distingue un nombre.>\n\nCarendin"
+   ]
+  },
+  "i279048": {
+   "title": "Alexston's Reply",
+   "source_sha256": "3a6be0bcaab1d4935402f6a52859da7c04ba4672741dd7e3ed4cbfe2a5125fd1",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Sé en qué circunstancias te llegará esta carta y lo lamento de veras, anciano.\n\nSin duda enviaré a vuestra hermosa villa a cuantos aventureros capaces encuentre. Espero que su ayuda compense la falta de otro apoyo que pueda ofrecer ahora.\n\nNuestras tierras sufren la presión de muchos enemigos. Seguro que conoces bien ese mundo, pero ha agotado dolorosamente nuestros recursos.\n\nSi eso cambia, me encantaría ayudar, aunque incluso entonces hay muchos proyectos cerca de casa que tendrán prioridad.\n\nResistid. Estamos todos juntos en esto.\n\n-- Baros Alexston\nArquitecto urbano, Ventormenta"
+   ]
+  },
+  "i270151": {
+   "title": "Benedict's Orders",
+   "source_sha256": "49163c57974e0b1f2bbd64d2a3943d251fb648dbb13d5a9d5c7370752367e9bf",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Cabo Adamore:\n\nAl amanecer reunirás una fuerza de no más de diez infantes de marina y te presentarás ante un cazarrecompensas llamado Terry Tragolargo. Lo acompañaréis en la persecución de un desertor peligroso al que debéis suponer armado y hostil.\n\nEste cazarrecompensas fue un aliado de confianza del almirante antes de su muerte. Espero que mostréis a Tragolargo la misma deferencia que a cualquier oficial superior.\n\n--Teniente Benedict"
+   ]
+  },
+  "i3255": {
+   "title": "Berard's Journal",
+   "source_sha256": "489760c4af5cfcf2295f2a695b76660c02b10977f70edb276e1b77a3e0c9ef42",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Mediante el estudio de diversas criaturas fosilizadas he deducido que, en la antigüedad, una gran peste recorrió las aguas del Lago Lordamere. ¿Cuál fue la causa? Quizá nunca lo sepamos. Pero la tasa de contaminación parece haber sido extremadamente alta, a juzgar por las densas concentraciones de restos distribuidos por el lecho del lago.",
+    "En un intento de descubrir el pasado, he empezado a examinar las criaturas del presente con la esperanza de encontrar la pista que falta para resolver este misterio. Los Vigilantes del Lago y los Trepadores del Lago son bestias antiguas que habitan las islas del centro del Lago Lordamere. Sobre ellas crece un musgo parecido a los materiales que quedan en algunos fósiles. Hará falta investigar más antes de aventurar qué significa esta conexión.",
+    "Mientras intentaba recoger muestras de musgo, encontré el escenario de una batalla sangrienta. Una banda de gnolls había atacado a la tribu múrloc Anca Vil. Los cadáveres de ambos cubrían el campo de batalla. Al pasar junto al cuerpo destrozado de un múrloc, advertí un extraño tumor endurecido que sobresalía de la herida. Al estudiarlo quedó claro que poseía propiedades parecidas al musgo que recogía. Por desgracia, no encontré ningún otro tumor."
+   ]
+  },
+  "i208205": {
+   "title": "Blackrat's Note",
+   "source_sha256": "be15a69b6f69422a1513c6f35f8619c791121d59e739237487d4bbc4567f55f0",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Tengo la mercancía. Me esconderé cerca del Refugio Brumapino, junto a la barca vieja. Si envías a uno de los tuyos a recogerla, ¡asegúrate de que no lo vean!\n\n- Ratanegra"
+   ]
+  },
+  "i251522": {
+   "title": "Blood-Stained Letter",
+   "source_sha256": "0f1d230e716b0c08bc02312bc1a6cfb57117db4b65c1a945dfe5f2a30d6798b2",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Mi queridísima Tabitha:\n\nQué extraño es prever mi propia muerte. Escribo esta nota porque no sé a qué hora me reclamará el destino. Aunque sé que es un pobre sustituto de unas palabras adecuadas, mi pluma no logra expresar el dolor que me produce separarme de ti.\n\nCada día despierto ante la pena de la que no supe protegerte. Lamento no haber podido proteger a nuestro querido hijo y lamento que mi dolor haya caído en una trampa de la que no puede escapar.\n\nEres mi amor y mi confidente, y mi vida ha valido más de lo que habría valido sola. Cada semana, cuando me adentro en las ruinas de nuestro hogar antaño orgulloso, temo que sea la última, y cada vez agradezco tenerte esperándome al volver.\n\nRezo para que nos reunamos, aunque solo sea un instante."
+   ]
+  },
+  "i271745": {
+   "title": "Bloody Map",
+   "source_sha256": "d90131b37f0bc40581b7666871cfd6deb29e0cc786316a9c3b6c72a2ba720587",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "<Una representación rudimentaria del paisaje, con un punto de interés claramente señalado.>\n\nMogodun- z kost a-hine\nta golg\ngar thon- kha z'ta gor weard-hald\n\n<El mapa está demasiado deteriorado para distinguir cualquier otra inscripción.>"
+   ]
+  },
+  "i219929": {
+   "title": "Bloody Missive",
+   "source_sha256": "da827250d777abae31c50584ccf2728e5b5712c7d8ad2fdefed1e5fb445f8433",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Nuestros espías nos dicen que el IS:8 y la Mano de Plata han mordido el anzuelo y que tu objetivo debería estar de camino. Averigua lo que saben y después encárgate de eliminarlos sin hacer ruido, preferiblemente fuera de la ciudad. Debemos ver muertos a estos entrometidos y recuperar lo que nos pertenece por cualquier medio necesario. No falles."
+   ]
+  },
+  "i22344": {
+   "title": "Brazier of Invocation: User's Manual",
+   "source_sha256": "430c6e1a218b9c1a02518ceff24af1938f9c2cbd222126f67717708cae6707f6",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "BRASERO DE INVOCACIÓN: MANUAL DEL USUARIO\n\nDónde encontrar lugares embrujados\n\nINTRODUCCIÓN\n\nEstas páginas contienen las ubicaciones de los espíritus y almas caídos y corruptos implicados en el incidente del amuleto de lord Valthalak. Aunque ya has salvado a esos antiguos compañeros míos, conjeturo que en esos lugares aún permanecen ecos repugnantes del mal que retorció sus espíritus. Tal era el poder malévolo del espíritu de lord Valthalak.\n\nAdemás, el brasero puede usarse para invocar a lord Valthalak, aunque, como antes, debe hacerse con extrema cautela.",
+    "INTRODUCCIÓN, continuación...\n\nEl brasero funciona igual que el Brasero de Señalización. Basta con colocarlo al alcance de cualquiera de los cinco lugares embrujados para invocar a los espíritus de los muertos.\n\nComo apunte, porque sé que te interesará, el Estandarte de Provocación puede utilizarse de forma parecida en la arena de las Profundidades de Roca Negra. No dejes de dar una lección de mi parte a Theldren y sus matones siempre que tengas ocasión de pasar por allí.\n\nSigue leyendo si deseas saber más.",
+    "ISALIEN\n\nSacerdotisa de la Luna de los elfos de la noche\n\nCuando Isalien decidió dejar la compañía, lo hizo con intención de peregrinar a La Masacre, la ciudad ancestral caída de los elfos de la noche antes conocida como Eldre'Thalas. Allí aún hay una biblioteca de grandes conocimientos, un santuario que un pequeño grupo de elfos de la noche ha logrado preservar. Quería encontrar respuestas sobre su herencia y quizá sobre los fragmentos del amuleto. Cabe señalar que también era buena amiga de Falrin Tallarbol.",
+    "ISALIEN, continuación...\n\nPor desgracia, cuando ella y su compañero hipogrifo Empíreo entraban en la ciudad, Alzzin el Formaferal y sus esbirros los atacaron. Allí cayó para no volver a levantarse. Quizá sea mejor que Isalien nunca descubriera más secretos de la magia maligna con la que lord Valthalak encerró parte de su esencia en el amuleto.\n\nLa cámara al aire libre donde reside Alzzin es uno de estos lugares embrujados.",
+    "MOR PEZUÑA GRIS\n\nDruida tauren y primero en caer\n\nMor Pezuña Gris fue siempre un compañero firme y de confianza en La Hoja Velada. Es una desgracia que fuera el primero en caer ante los malvados esbirros de lord Valthalak.\n\nMientras huíamos de Valthalak, nos perseguía un auténtico ejército de sus asesinos y acechadores espectrales. La huida de la Cumbre de Roca Negra fue caótica, por decirlo suavemente. Por desgracia, Mor perdió pie por el camino, aunque sospecho que lo empujaron. En cualquier caso, cayó hasta las profundidades de la parte inferior de la Cumbre.",
+    "MOR PEZUÑA GRIS, continuación...\n\nDespués descubrimos que Mor había sobrevivido a la caída. Pero mi buen amigo no tendría un final feliz: los trols de Tazz'Alaor lo hicieron prisionero. Poco después, mientras el maestro de guerra Voone lo torturaba, un grupo de asesinos de Valthalak irrumpió y terminó el trabajo.\n\nSi quieres invocar el eco del espíritu de Mor Pezuña Gris, la cámara del maestro de guerra Voone es un lugar embrujado.",
+    "JARIEN Y SOTHOS\n\nHermanos y aspirantes a la Cruzada Escarlata\n\nJarien y Sothos eran dos de las personas más intolerantes que conocía. Sin embargo, su destreza en combate era excepcional y venían de una familia adinerada, lo que supongo que explica por qué Anthion, dirigente de La Hoja Velada, los conservaba.\n\nLos hermanos acabaron prendados de las enseñanzas y la filosofía de la Cruzada Escarlata. Siempre habían mostrado un celo especial al aniquilar a cualquier miembro de la Plaga que encontráramos en nuestros viajes. Se sospechaba que su familia tenía vínculos con la organización.",
+    "JARIEN Y SOTHOS, continuación...\n\nAsí llegaron a afrontar las pruebas exigidas a quienes quieren unirse a la Cruzada. Les interesaba especialmente ser caballeros en sus filas, algo que al parecer exigía pruebas más difíciles. Después se supo que Sothos había fallado la prueba final. Jarien no lo aceptó y, desafiándolos abiertamente, insistió en que le permitieran unirse a ella entre los caballeros. Por lo que hemos averiguado, el gran cruzado Dathrohan los mató allí mismo, en mitad de sus aposentos.\n\nAsí, otro de estos lugares embrujados es el Trono Carmesí, dentro del Bastión Escarlata de Stratholme.",
+    "KORMOK\n\nNigromante ogro de dos cabezas\n\n¿Qué puede decirse de Kormok? Era un ogro de dos cabezas de los que lanzan hechizos y antes no era tan malo. Cuando lo acogimos, era un prisionero de un encargo que habíamos aceptado en Las Estepas Ardientes. Sin embargo, resultó inestimable para salir de un buen apuro en el que caímos allí y se convirtió en uno de los principales magos de la compañía.\n\nLo extraño era la naturaleza completamente distinta de sus dos cabezas. Una siempre estaba alegre, aunque fuera un poco tonta. La otra era astuta, calculadora y tenía una mirada casi muerta. Daba bastante miedo, la verdad.",
+    "KORMOK, continuación...\n\nMás tarde, en nuestros viajes, Kormok entró en contacto con la vertiente nigromántica de la magia. Por desgracia, la cabeza siniestra mostró afinidad para levantar espíritus muertos y un placer perverso al hacerlo, sobre todo al invocar a los espíritus exiliados de la Isla del Purgatorio para que lo obedecieran.\n\nCuando se disolvió la compañía, Kormok ingresó en Scholomance para continuar su 'educación'. Los asesinos espectrales entraron en la escuela con demasiada facilidad y lo mataron ante su nuevo maestro, Ras Murmuhielo.\n\nPor ello, la cámara de Ras Murmuhielo es uno de los lugares embrujados donde puede utilizarse el brasero con éxito.",
+    "LORD VALTHALAK\n\nNoble dracónido y antiguo general de la Cumbre de Roca Negra\n\nAntes del general Drakkisath estuvo lord Valthalak, un brujo dracónido de inmenso poder. Es habitual que cambie el mando de la Cumbre y, por desgracia para nosotros, íbamos a participar en el último relevo.\n\nUn mago contrabandista goblin de Bahía del Botín, Gremnik Saltatrabas, nos encargó robar el libro de hechizos de Valthalak. No sabemos si quería estudiarlo, venderlo o ambas cosas, y ya no importa. Lo que importa es que nos infiltramos en lo alto de la Cumbre de Roca Negra y matamos a lord Valthalak en su guarida. Ahí empezó la diversión de verdad.",
+    "LORD VALTHALAK, continuación...\n\nNo teníamos idea de lo profundo que era el conocimiento mágico de Valthalak sobre la manipulación de almas. De haberlo sabido, probablemente nunca habríamos aceptado el encargo. Pero lo aceptamos y resultó ser el último.\n\nTras matar a lord Valthalak y llevarnos su libro de hechizos, Kormok debió de notar algo en su amuleto. Insistió en tomarlo como su parte del botín, lo que pronto degeneró en una discusión acalorada y casi una pelea por el objeto. No sabíamos entonces que el amuleto albergaba buena parte del espíritu de Valthalak. Lo descubrimos después, para nuestro disgusto.",
+    "LORD VALTHALAK, continuación...\n\nDividimos el amuleto en fragmentos y huimos del recién alzado fantasma de Valthalak y de su ejército de asesinos espectrales. ¡Y el ruido que hicimos discutiendo por el amuleto había despertado a varios defensores que quedaban en la Cumbre!\n\nCasi todos salimos de Roca Negra y creímos estar a salvo. Pero, incluso desde el más allá, Valthalak nos envió a sus esbirros sin importar dónde nos ocultáramos. La Hoja Velada se disolvió poco después de aquella misión y entonces fuimos presas fáciles.\n\nComo ya debes saber, esto convierte la morada de lord Valthalak, hoy la cámara de La Bestia en la Cumbre de Roca Negra, en el último de los lugares embrujados."
+   ]
+  },
+  "i205864": {
+   "title": "Charred Note",
+   "source_sha256": "46486bbb0d06925468c78d1ceb7ede36c54049caa67f8549f41e55c64ae84a3d",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "<La página está chamuscada en varios puntos, como si alguien hubiera intentado quemarla con prisa. Parte de lo que queda es legible.>\n\nAda:\n\nMe alegra saber -------- isla en la orilla oscurecida. ----- Uno de nuestros agentes ------------ contraseña ----\n\n\"Cuando una vela se apaga, otra se enciende.\"\n\n- Mitchells"
+   ]
+  },
+  "i210967": {
+   "title": "Confidential Message",
+   "source_sha256": "f8c50f28bf3c4d0f7f595a0e608c7a076d1031ee12063ee0aff97e1a2f9bc19c",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Hermano Esolon:\n\nSi necesitas entrar en el relicario, he ocultado una llave en el cementerio. Está en un cofre de piedra, bajo el suelo del mausoleo norte.\n\nHay un mecanismo para alzar el cofre. Para activarlo debes sentarte en los dos bancos que hay entre los pares de estatuas a ambos lados del cementerio.\n\nTe ruego que trates esta información con la máxima reserva.\n\nBendiciones,\nHermano Seramus"
+   ]
+  },
+  "i9563": {
+   "title": "Consecrated Rune",
+   "source_sha256": "f91a9a1cfccdbdf371b79c18383fb6b12ae48a824cb871df99aae15927197dce",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Algunos nos temen más que a los dragones. Algunos nos envidian más que a los herreros más diestros. Algunos alaban nuestra fuerza en combate. Otros se deleitan con nuestra fe. ¡Y algunos solo envidian que podamos beber más que ellos! Pero debes saber, $c, que formas parte de los protectores más selectos de Azeroth. La Luz Sagrada nos da fuerza tanto como nosotros la fortalecemos.\n\nTe contaré más cuando conozcas un poco estas tierras. Búscame dentro de Yunquemar, sobre el Valle.\n\n-Bromos Grummner, instructor de paladines"
+   ]
+  },
+  "i282423": {
+   "title": "Consecrated Scroll",
+   "source_sha256": "a3ab1038e07eb569ee0f04d0034cebb8dd8af50d95af1c5ed7d492e93855edd0",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Te doy la bienvenida de nuevo, $N.\n\nComprendo muy bien la conmoción de encontrarse en tu situación actual. Haber llegado hasta aquí te distingue de muchos otros paladines recién alzados.\n\nDescubrirás que lo más difícil de tu nueva vida será redescubrir lo que perdiste en vida... y soportar el dolor que te cause.\n\nHabla conmigo en Camposanto y te ayudaré a encontrar la determinación para dar tus primeros pasos.\n\n-Aramis Manomartillo, instructor de paladines"
+   ]
+  },
+  "i21037": {
+   "title": "Crude Map",
+   "source_sha256": "e877730baa7dcb303cb023b50bc891aa7b14229b2b9ca320d4ca1e019ef1bdba",
+   "provenance": "image-only-source",
+   "note": "The pinned English page contains only an image. As in the existing French and German catalogs, retain an empty text page rather than inventing a description. The Library text renderer does not display the map image.",
+   "pages": [
+    ""
+   ]
+  },
+  "i282419": {
+   "title": "Crumpled Note",
+   "source_sha256": "96d84bf325b8a5e037ec0211b48f790c80bab26d2adc40b98048efbbd98239cc",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "$N, tienes buen brazo con la espada y me he fijado en ello.\n\nNo cabe duda de que las cosas están bastante revueltas aquí en la Isla de Zephras. Necesitamos a nuestros combatientes shen'dorei en plena forma si queremos sobrevivir a lo que viene. Ya es hora de dejar de jugar a ser un guerrero de verdad y convertirte en uno.\n\nBúscame dentro de la base de la atalaya de Thendal. Me aseguraré de que recibas la instrucción adecuada.\n\n-Maestra del acero Ren, instructora de guerreros"
+   ]
+  },
+  "i6304": {
+   "title": "Damp Diary Page (Day 4)",
+   "source_sha256": "7c8432327d9fa619c21d2ac604fc1126732ca666bed9ae5079fe6a1a1f1cf884",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Diario - Día 4\n\nLlevo cuatro días varado en la isla, solo con mis pensamientos. Los plátanos están bastante ricos, pero hay que trepar mucho para alcanzarlos. Cuando no busco comida o me protejo de la lluvia ocasional, no pienso más que en el rescate.\n\nNo tendría tantas esperanzas de no ser por las cajas de papel y las botellas que llegaron a la orilla conmigo. Ahora me río al pensar en todo el tiempo que pasé en aquel barco maldiciendo mi suerte por estar atrapado con un cargamento de alquimistas y escribas."
+   ]
+  },
+  "i6306": {
+   "title": "Damp Diary Page (Day 512)",
+   "source_sha256": "126161f615b6746dd142565ea1e62e27d4c145de7bb900f20295d94813335400",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Diario - Día 512\n\nLos plátanos han empezado a hablarme y he aprendido mucho sobre su cultura. He cesado en mi absurda destrucción de sus hogares y en el consumo de sus pequeños. Qué poco sabía entonces de la gran civilización que estaba destruyendo.\n\nPor otro lado, parece que me quedan pocas botellas y poco papel. Cuando vi por primera vez aquellos enormes montones que llegaron a la orilla, pensé que serían inagotables. Ay de mí, mi diario pronto tendrá que terminar."
+   ]
+  },
+  "i6847": {
+   "title": "Dark Iron Script",
+   "source_sha256": "1f472059ab4e1f0765562d6f6dec72bc3914972cb86d34fa8dde5716dbe8180a",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Es tan fácil engañar a esos sucios troggs. Su odio hacia nuestros parientes hace aún más sencillo dirigirlos y usarlos como peones. Me asombra que haya podido forjarse alianza alguna, pero nuestros parientes suponen una amenaza mucho mayor para su existencia... al menos por ahora.\n\nCuando empiecen los ataques, ambos bandos quedarán debilitados y expuestos a nuestra propia ofensiva. Tomad la granja al sur del Lago de Helm y esperad nuevas instrucciones.\n\nForjaz será nuestra."
+   ]
+  },
+  "i20405": {
+   "title": "Decoded Tablet Transcription",
+   "source_sha256": "6a99ced875c5a0d3c9f9590988d3c718e0c0e7bc0ade2b00d43164a22269fdae",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Día 1\nNuestra peregrinación ha terminado. Por fin hemos llegado a Silithus, donde debemos establecer contacto. Hemos venido de muchos lugares para colaborar en lo que será una empresa monumental.\n\nEn el aire se respira una emoción inmensa. Mañana dedicaremos toda nuestra energía a construir lo que permitirá comunicarnos con ELLOS.\n\n¡Mañana construiremos una piedra de viento!",
+    "Día 2\nLa ubicación de la piedra de viento ha sido objeto de un gran debate. Ni los más sabios pueden determinar con certeza a qué lugar se refiere realmente la antigua profecía.\n\nMe he quedado con el grupo original del norte y el tiempo sin duda nos dará la razón. El argumento de que las líneas de energía se cruzan en ángulos perjudiciales en este lugar es necio e ingenuo.\n\nYa reunimos los materiales necesarios a gran velocidad.",
+    "Día 15\nNuestra dedicación ha dado fruto. Somos el primer campamento en terminar una piedra de viento. ¡Si los otros necios se hubieran quedado, habríamos acabado en menos de una semana!\n\nMañana comenzaremos los rituales para invocar al propio barón Kazum. Exigió ser el primero en probar el sistema y no pudimos contradecirlo, pues se enfada con facilidad.\n\nEspero que quede muy satisfecho con nosotros."
+   ]
+  },
+  "i20552": {
+   "title": "Decoded Twilight Text",
+   "source_sha256": "0abfd593f391400c3e431aff34145192bcf8dd2661e41108f36accbdde64238d",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Para difusión inmediata entre todos los miembros del Martillo Crepuscular.\n\nLa información siguiente describe el uso de las piedras de viento para comunicarnos con nuestros amos del Consejo Abisal.\n\nTodo uso frívolo de las piedras de viento se castigará de la manera más dolorosa.\n\n-Guardián Crepuscular Havunth",
+    "Templarios abisales\n\nComo iniciado, se te permite contactar con los templarios abisales para los rituales habituales. Recuerda llevar siempre la vestimenta adecuada al utilizar las piedras de viento para no activar nuestros encantamientos defensivos.\n\nEn caso de emergencia imprevista y sin supervisores presentes, tienes permiso para invocar a un templario abisal.\n\nPara los detalles de los rituales de invocación, consulta el Verdadero Creyente del mes pasado.",
+    "Duques abisales\n\nSolo los acólitos que posean un medallón de estatus pueden contactar con los duques abisales. Los medallones solo pueden ser usados por las personas a las que se entregaron originalmente.\n\nYo mismo disciplinaré a los miembros del Martillo Crepuscular que establezcan comunicaciones no autorizadas con los duques abisales o utilicen medallones de estatus sin permiso.",
+    "El Alto Consejo de los Señores Abisales\n\nSolo los señores del Crepúsculo pueden contactar con el príncipe Skaldrenox, el alto mariscal Eje Torbellino, el barón Kazum o lord Skwol.\n\nBajo ninguna circunstancia podrán los miembros de bajo rango del Martillo Crepuscular iniciar comunicaciones con el Alto Consejo. Cualquier extraño que utilice así una piedra de viento quedará reducido a cenizas en el acto."
+   ]
+  },
+  "i20677": {
+   "title": "Decoded Twilight Text",
+   "source_sha256": "c19ff5ab855debcb5787fe5b7befcb210760fed704b4ce5cf063772db41d86ab",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Estado del culto, volumen 127\n\n¡Es un día verdaderamente feliz! ¡Hemos sido puestos a prueba en Silithus y la hemos superado!\n\nLas noticias de la destrucción de nuestro campamento más septentrional quizá conmuevan a los infieles, pero esta matanza no debe verse como una tragedia. ¡No!",
+    "¡Que uno de los miembros del Alto Consejo Abisal derrame nuestra sangre es una bendición! Debemos envidiar a nuestros camaradas caídos, ¡pues sus espíritus residen ahora en el vientre de una bestia justísima!\n\n¡Alabados sean los dioses antiguos! ¡Alabados sean sus sirvientes! ¡Alabado sea el Martillo Crepuscular!"
+   ]
+  },
+  "i20678": {
+   "title": "Decoded Twilight Text",
+   "source_sha256": "a3cdf028b87ae7f542d86d2770044d2754a23ac893f8de38ce247af0a2ffa2b1",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Estado del culto, volumen 233\n\n¡La oportunidad vuelve a llamar, hermanos y hermanas! El Círculo Cenarion, un culto vil de amantes de la naturaleza, envía ahora agentes contra nosotros. Deben de querer impedir que invoquemos piedras de atracción rojas. ¡No podemos permitirlo!\n\nLas piedras rojas son cruciales para nuestros nuevos aliados. No debemos dejar que triunfen los perros falderos del Círculo Cenarion. Manteneos firmes, amigos fieles. ¡Manteneos firmes!"
+   ]
+  },
+  "i20679": {
+   "title": "Decoded Twilight Text",
+   "source_sha256": "5b3b3a9d8cde0bdcf550d36fc3510c2508c84feab6bc558725d27874ed0ede7a",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "¿Cómo sabemos que nos aman?\n\nAlgunos se preguntarán cómo pueden amarnos los dioses antiguos y sus esbirros. ¿Acaso no nos matan? ¿No causan dolor y sufrimiento a todos? ¿Cómo pueden seres tan entregados a la maldad conocer el amor en sus corazones?\n\nLa respuesta es sencilla. ¿Tan sencilla que no hace falta pronunciarla?",
+    "Fe. La fe es el manantial del que nos llueve la alegría de servir. La fe nos dará calor en las noches más frías de Silithus. La fe nos mantendrá en la gracia de nuestros señores cuando lleguen los Días del Fin.\n\nLa fe nos salvará."
+   ]
+  },
+  "i4429": {
+   "title": "Deepfury's Orders",
+   "source_sha256": "3cc8dfe729e2252757286e3c5614ac48fb80cd0f9314e0c319d483435592b8db",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "¡Estúpidos inútiles!\n\nMis planes exigían destruir ambos puentes al mismo tiempo. ¿Y qué hacéis vosotros, matones descerebrados? Solo termináis la mitad del trabajo y alertáis a toda la Alianza de nuestras intenciones. ¡Os digo que sois unos necios!\n\nTenéis una oportunidad de reparar vuestras acciones. Hay una reserva de explosivos en Tierras Altas de Arathi, no lejos del puente.\n\n¡Terminad el trabajo si apreciáis vuestras miserables vidas!\n\n--Kam Furiahonda"
+   ]
+  },
+  "i21130": {
+   "title": "Diary of Weavil",
+   "source_sha256": "647aac8f6ec4e823980a336ffd113a75f85b593530ab1cff014854924b73c1d9",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Querido diario:\n\nHoy, mi archienemigo Narain Sabelotodo intentó engañarme enviando secuaces a ocupar su lugar en la ejecución. SU ejecución. ¿Te lo puedes creer?\n\n¡Después de todo el trabajo de idear este plan diabólico para sacarlo de esa maldita cabaña, me hace esto! En fin... Estoy demasiado furioso para seguir escribiendo. Volveré luego.",
+    "Querido diario:\n\nSalí de mi escondite hecho una furia tras la última entrada. Vaya si estaba furioso. Decidí rediseñar los uniformes de mis esbirros para que reflejaran mejor mi angustia. Me siento algo mejor, pero falta algo. Vuelvo enseguida...",
+    "Querido diario:\n\nVale, ya estoy bien. He pegado a uno de mis esbirros hasta que lloró como una niña.\n\nMmm... Ahora me siento un poco mal. ¡Un momento! ¡Maldita sea, soy un genio MALVADO! ¡Malvado, entiendes! Qué decepción conmigo mismo. Ahora vuelvo.",
+    "Querido diario:\n\nLe di un abrazo y le dije que siguiera trabajando así de bien. Ahora me siento mejor. Que quede entre nosotros, diario.\n\n¿Por dónde iba? ¡Ah, sí, NARAIN! ¡¡¡ARGH!!! Odio a ese tipo. Al fin y al cabo, fue Narain quien arruinó la curva de notas en todos los exámenes cuando estudiábamos en el Instituto de Ingeniería de Gnomeregan.\n\n¿Conque me suspenden y me expulsan? ¡Por mí, Gnomeregan tuvo lo que merecía!\n\nEso es todo por hoy. ¡Que duermas bien, diario!",
+    "Querido diario:\n\nDebo de estar haciéndome viejo. Había olvidado por completo que te contaba lo de Narain y su engaño. En fin, al ver un señuelo disfrazado de Narain en lugar de Narain, me enfadé tanto que ordené a Número Dos que destruyera al necio.\n\nSubí a mi máquina voladora y empecé a destrozar su precioso, estúpido y memo libro de dracónico. ¡Qué presumido! ¿Quién lee dracónico? ¡Cuánto lo odio!",
+    "Querido diario:\n\nPerdona, me dormí. Así que volaba enfadado y tiraba capítulos de ese libro estúpido. Vi un demonio debajo, en Susurro Oscuro, y decidí convertir el primer capítulo en un tornado mágico de papel que le despedazara el cuerpo en un millón de trozos. Fue liberador. Magia + papel = diversión.\n\nEso me alegró bastante, así que decidí volar a los Reinos del Este. Mi primera parada fue el Núcleo de Magma. ¡Narain siempre hablaba de ese sitio! 'Que si el Núcleo de Magma esto, que si Ragnaros aquello...'",
+    "¿Pues sabes qué? Si tanto le gusta, ¡quizá le guste reconstruir su libro yendo al Núcleo de Magma y resucitando el capítulo de un montón de cenizas! ¡Ja!\n\nYa que estaba por allí, pensé que algunos de esos técnicos babosos del laboratorio del viejo Víctor Nefarius quizá aprovecharan el dracónico. ¡Bombas fuera!",
+    "Esto empezaba a ser una especie de deporte. ¡Le estaba cogiendo el gusto a repartir ese maldito libro!\n\nLas siguientes entregas fueron fáciles.\n\nEntrañas, hogar de los muertos pútridos y fétidos y quizá del mejor chili que he probado, recibió un capítulo. Ventormenta, capital del queso, otro. Diario, ¿alguna vez has puesto queso de Ventormenta en chili de Entrañas? ¿HOLA? Eso debería hacer saltar alguna alarma.",
+    "Ya me estaba cansando, así que di la vuelta a la máquina voladora y volví a casa, pero antes haría dos paradas más. Pasé volando junto a lord Kazzak y sus demonios en Escara Impía (odia que haga eso) y metí otro por la chimenea de Onyxia.\n\nCansado. Me voy a dormir."
+   ]
+  },
+  "o175773": {
+   "title": "Dorgar Stoenbrow",
+   "source_sha256": "910d530eb7217c420ea76a15176a515389b6dadbda32bb1d2e7d838ded3f1f23",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Dorgar Petrocejas\n\nGuerrero de la Cruzada Escarlata\n\nSeñor de las Cavernas Rojas\n\nVisto por última vez en las Montañas de Alterac"
+   ]
+  },
+  "i9560": {
+   "title": "Encrypted Parchment",
+   "source_sha256": "9ce3f0c0d2e96a3a0dfe881bf2dfd89fac4bae92596a82c4c94643baa50016aa",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Te envío mis saludos, $N. Estaba absorto en mis pensamientos cuando reparé en que tenía que escribirte.\n\nMuchos en nuestra cultura alaban a los chamanes como dirigentes espirituales, igual que nuestro gran Jefe de Guerra. Otros creen que la espada y el hacha son ocupaciones aún más nobles. Pero nunca olvides que las batallas, incluso las guerras, se ganan gracias a quienes tienen habilidades más especializadas. De eso quiero hablarte, $N. Búscame en lo profundo del Cubil del Valle de los Retos.\n\n-Rwag, instructor de pícaros"
+   ]
+  },
+  "i9550": {
+   "title": "Encrypted Rune",
+   "source_sha256": "be4368953c01a2e967ea7cbaa381790446419da4874cf79451b1e987c1bf30be",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "$gHermano:Hermana;, espero que esta runa te encuentre bien. Quería dedicar un momento a decirte que estoy dentro de Yunquemar, sobre el Valle de Crestanevada.\n\nSé lo importante que es mantenernos unidos. En estos tiempos de paz tensa es aún más importante tener cerca a los nuestros. Búscame cuando tengas tiempo.\n\n-Solm Hargrin, instructor de pícaros"
+   ]
+  },
+  "i9565": {
+   "title": "Etched Note",
+   "source_sha256": "825a3120afa00c0ecb0d464364b0a47c9e77454fa68b177b57fb9e54a8ed85e1",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Poderosos guerreros defienden nuestro hogar. Nuestros chamanes guían nuestros espíritus y nos muestran el pasado de nuestros antepasados. Y nuestros druidas nos ayudan a descubrir la voluntad de la Madre Tierra.\n\nPero tú eres uno de nuestros cazadores. Los cazadores aprenden muchos aspectos de esas funciones y los combinan. Descubrirás que representas el corazón de nuestro pueblo: algunos buscarán en ti orientación, otros protección. Es mi deber asegurarme de que estés a la altura. Búscame en el Campamento Narache.\n\n-Lanka Tirolejano, instructora de cazadores"
+   ]
+  },
+  "o175775": {
+   "title": "Ferren Marcus",
+   "source_sha256": "3c28a5549b7ccc4cd4b28ac22d17f87e1a9559b7564593951a100939fec45d85",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Ferren Marcus\n\nAlto abad del Monasterio Escarlata\n\nCiudadano de Stratholme\n\nMuerto defendiendo el Monasterio Escarlata durante el primer Asalto del Solsticio"
+   ]
+  },
+  "i213563": {
+   "title": "Field Guide",
+   "source_sha256": "5f887ed00773db6a9c2e3a421d900998c6d0cbf5f6b7585caa4e9a79ae609226",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Arbor Tarantula\n\nOrden: Araneae\nClima: tropical\n\nConstruye nidos dentro de madera muerta y podrida. Suele encontrarse cerca de las talas, pues busca excavar en los tocones recién cortados.",
+    "Flesh Picker\n\nOrden: Scorpiones\nClima: árido\n\nComo indica su nombre, este escórpido arranca y come la carne de los huesos de otros animales. Es carroñero y prefiere alimentarse de cadáveres grandes.",
+    "Hay Weevil\n\nOrden: Coleoptera\nClima: templado\n\nUna amenaza enorme en un caparazón diminuto. Un solo gorgojo puede comerse una bala de heno en menos de una hora. Las plagas son raras, pero suelen registrarse en el norte de los Reinos del Este."
+   ]
+  },
+  "i239246": {
+   "title": "Fizzlefuse's Shopping List",
+   "source_sha256": "ea287abd6d2060502edd3322cf19068ce70e81688b945b22c417623950efe1d2",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Querido yo del futuro: no olvides el pan esta vez.\n\n- 2 galones de leche fría como el hielo\n- 20 cuñas de cheddar bien curado (las ratas se lo comen todo)\n- 1 delicioso pastel de chocolate\n- En realidad, mejor 2 pasteles\n- 4 peligros de combustible de cohete goblin\n- 2 tubos de torio\n- 1 transformador de veraplata\n- <la escritura está emborronada e ilegible>\n- 2 girocronátomos"
+   ]
+  },
+  "i282420": {
+   "title": "Folded Parchment",
+   "source_sha256": "0c329618b2bf13c9794b4b8d2da29ec99ed67f5fa72817b1209c400130204d46",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Saludos, $N:\n\nDesde que desaparecieron los espíritus elementales del viento, Zephras está al borde de un precipicio mortal. Las aves, las bestias e incluso las raíces bajo nuestros pies nos piden ayuda.\n\nBúscame en la planta baja del gran árbol de Thendal. Te aconsejaré e instruiré en las artes druídicas.\n\n-Xyton Ventargento, instructor de druidas"
+   ]
+  },
+  "i20009": {
+   "title": "For the Light!",
+   "source_sha256": "1c1b36d8f6c134b4aa00ba15dd3e327ba976f509d86bca1ceffdef5708f2af43",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Su nombre llevó Luz a Azeroth más oscuro.\n\nSu valor derribó los muros del dolor.\n\nJamás haría la Mano de Plata mayor bien\n\nque dar al mundo al caballero que se entregaría a él.",
+    "No buscaba acrecentar su fama\n\nni ejercer señorío sobre los suyos.\n\nEligió, en cambio, luchar por Lordaeron\n\ncon la esperanza de que su pueblo no luchara más.",
+    "La trágica historia de este caballero sagrado\n\nno acabará jamás con su muerte impía.\n\n¡Lo honramos y le damos las gracias!\n\n¡Uther conocerá siempre gloria y Luz!"
+   ]
+  },
+  "o177205": {
+   "title": "Forestlord and the first Druids",
+   "source_sha256": "a72b3e6e8b7b66dcca38b099de815ca3cc003a843ceffbf9b85b8fb245934374",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Con el tiempo, el niño, Cenarius, alcanzó la estatura de su orgulloso padre. Hermano de los árboles y las estrellas, el gran cazador recorrió los lugares remotos del mundo cantando las armoniosas canciones del alba. Todas las criaturas se inclinaban ante su gracia y belleza: ninguna era tan astuta como el hijo de la luna y el ciervo blanco.",
+    "Con el tiempo, Cenarius trabó amistad con los shu'halo y les habló del mundo cambiante. Los hijos de la tierra lo conocieron como hermano y juraron ayudarlo a cuidar los campos de la vida y las criaturas predilectas de su gran Madre Tierra.",
+    "Cenarius enseñó a los hijos de la tierra a hablar con árboles y plantas. Los shu'halo se convirtieron en druidas y realizaron grandes proezas mágicas para sanar la tierra. Durante muchas generaciones cazaron con Cenarius y protegieron al mundo de las sombras que se agitaban debajo."
+   ]
+  },
+  "i21142": {
+   "title": "From the Desk of Lord Victor Nefarius",
+   "source_sha256": "37b3441b8ac579bbca6cc8e0b52a8dc5413fbffe5d96ede865aac4d123621335",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "A quien corresponda:\n\nCuánto me gustan estos juegos nuestros.\n\nSolo puedo suponer que, si lees esta carta, de algún modo, por milagro o intervención divina, has logrado vencerme. Absurdo, lo sé, pero cosas más extrañas han ocurrido en la historia de este mundo.",
+    "Como todo en la vida, esta triste historia tiene un glorioso lado bueno de tragedia, caos y maldad. Aunque me has matado, lo has hecho de forma tan lenta y desordenada que he tenido tiempo de escribir esta carta DESPUÉS de destruir tu única esperanza de salvar este mundo. El polvo de cristal rojo triturado es todo lo que queda de tu fragmento de cetro.",
+    "Disfruta de las armaduras de Némesis y Tempestira que puedas encontrar en mi tesoro. Créeme cuando te digo que me produce un gran placer saber que hice lo que mi padre no pudo...\n\nAtentamente,\n\nLord Víctor Nefarius\n\"Nefarian\""
+   ]
+  },
+  "o175682": {
+   "title": "Geru Strider",
+   "source_sha256": "cbe7ef3732ad6fc8f50438164ce44edb9917ca10477cb4293e5191350652e2af",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Los Geru, los mayores de los zancudos, son escasos y rara vez se los encuentra."
+   ]
+  },
+  "i282416": {
+   "title": "Glowing Recall Crystal",
+   "source_sha256": "d73b49545ea45c5950aea0b55f55f85f596d6e5a9efaf17416f3ac5f7fcaaa71",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "<Al tocar el cristal brillante, una corriente de aire se arremolina a tu alrededor y trae un tenue indicio de palabras.>\n\nLa Orden Eminente te ha observado, $N, y ve un gran porvenir en tus habilidades.\n\nLos espíritus del viento han abandonado la Isla de Zephras. Ahora más que nunca hacen falta magos prometedores como tú. Si nuestro pueblo quiere valerse por sí mismo y sobrevivir a esta crisis, debemos usar nuestros conocimientos arcanos para descubrir los secretos de este reino.\n\nBúscame en Thendal, en la planta baja del gran árbol. Comenzaremos tu instrucción en serio.\n\n-Dorii Susurro Brillante, instructora de magos"
+   ]
+  },
+  "i282380": {
+   "title": "Glyphic Parchment",
+   "source_sha256": "3a028ba2656df8a6215688cdcd09710d0d81b42bc69e4abbc49720eef113f193",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Tú ves lo que otros orcos no ven, sientes el pulso del universo a tu alrededor. Tienes el don de la magia y ha llegado la hora de aprender a controlarlo.\n\nBusca a Mai'ah cuando estés listo. Ella te enseñará mucho de magia y los hechizos que necesitas para destruir a quienes se enfrenten a ti.\n\nMai'ah está cerca del Cubil del Valle de los Retos. Ven, encuéntrala y serás fuerte. Después mostrarás a los otros magos cómo la magia se dobla a tu voluntad... y no al revés."
+   ]
+  },
+  "i9574": {
+   "title": "Glyphic Scroll",
+   "source_sha256": "2c3dcd8453eee33993dd10ba6c7faa2a98190e0763555ae4503ed1b9e87666a5",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "La corrupción y el mal que, según los rumores, acompañan a lo arcano no son nada comparados con el dolor que ya hemos sentido. Ya no somos víctimas, $N. Somos quienes controlan su destino. Sylvanas nos ha abierto el camino: ha demostrado que nuestra voluntad es nuestra, que ya no somos esclavos de ese bastardo de Arthas.\n\nBúscame en la iglesia y te instruiré más... si ese es tu deseo.\n\n- Isabella, instructora de magos"
+   ]
+  },
+  "i9575": {
+   "title": "Glyphic Tablet",
+   "source_sha256": "badaddd222e215276ddfc9a783215277bee25828ed4351e942410a1dbf4e6d28",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Bienvenido a tu despertar, colega. Los secretos de lo arcano están a tu alcance si tienes fuerza para aferrarte a ellos.\n\nBusca a Mai'ah cuando estés listo. Ella te enseñará mucho de magia y los hechizos que necesitas para destruir a quienes se enfrenten a ti.\n\nMai'ah está cerca del Cubil del Valle de los Retos. Ven, encuéntrala y serás fuerte. Después mostrarás a los otros magos cómo la magia se dobla a tu voluntad... y no al revés."
+   ]
+  },
+  "i9548": {
+   "title": "Hallowed Letter",
+   "source_sha256": "adda25e37b8e784ab3a0693a4c061b6bffda1be5e674433f520c32b0c8d25e4c",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Tu conexión con el mundo y la suya contigo son esenciales para tu éxito como sacerdote. La sabiduría y la compasión te permitirán ayudar a quienes de verdad lo necesiten. El exceso de entusiasmo y las decisiones torpes solo impiden que los demás se fortalezcan o causan daño.\n\nCuando empieces a comprender lo que significa, necesitarás nuevas habilidades y hechizos para ayudarte. Ahí empieza mi papel: búscame en el ala de la biblioteca de la Abadía de Villanorte cuando quieras instruirte.\n\n-Sacerdotisa Anetta, instructora de sacerdotes"
+   ]
+  },
+  "i282338": {
+   "title": "Hallowed Memorandum",
+   "source_sha256": "67269237f467ff4bc3b7834fa62d5cec338153901d1dbc563f6714a6f6e8d347",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Quizá hayas llegado a Forjaz como refugiado por desesperación, pero la Luz nunca rechaza a quien la necesita. Con el tiempo crecerá tu devoción y aprenderás a sentir su calor. Nuestros primos gnomos son tan bienvenidos en nuestras filas como cualquier enano robusto.\n\nVeo que tienes el don de canalizar la Luz. Es una cualidad especial que debes cultivar.\n\nBúscame cuando tengas tiempo. Estaré al fondo de Yunquemar, colina arriba.\n\n- Branstock Khalder, instructor de sacerdotes"
+   ]
+  },
+  "o177209": {
+   "title": "Hatred of the Centaur",
+   "source_sha256": "efcddb11d9a86b904888459f72ef0715861cf7bb051d146a0f332ed2dc928aa5",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Al disiparse las brumas del alba y avanzar la Era de la Memoria, el semidiós Cenarius siguió su camino por los campos del mundo. Los shu'halo, los tauren, lamentaron su marcha y olvidaron gran parte del druidismo que les había enseñado. Con el paso de las generaciones olvidaron cómo hablar con los árboles y los seres salvajes de la tierra. Los susurros oscuros de las profundidades del mundo volvieron a llegar a sus oídos.",
+    "Aunque los hijos de la tierra rechazaron los susurros malignos, una terrible maldición cayó sobre sus tribus errantes. De las tierras negras del oeste llegó una horda de criaturas asesinas: los centauros. Caníbales y devastadores, cayeron sobre los shu'halo como una peste. Aunque los valientes y cazadores combatían con la bendición de la Madre Tierra en el corazón, no lograron derrotarlos.",
+    "Los shu'halo tuvieron que abandonar sus tierras ancestrales y recorrer las llanuras sin fin como nómadas desde entonces. Se creía que un día volvería la esperanza y las tribus dispersas encontrarían un nuevo hogar bajo los brazos amorosos de la Madre Tierra."
+   ]
+  },
+  "o175777": {
+   "title": "Holia Sunshield",
+   "source_sha256": "472faa49e214b924e6944779e501f609b4e8eba31215ff82a0fc13cdd8764976",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Holia Escusol\n\nDefensora de la Cruzada Escarlata\n\nMuerta al abatir al señor del terror Beltheris"
+   ]
+  },
+  "i281243": {
+   "title": "Hollee's Note",
+   "source_sha256": "14dc79710f90ccd904087d9a298b0ce31b763bf2bd06a61b1d662cad7035a57d",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Tarrel, amado mío:\n\nNo pasa un día sin que me pierda pensando en esas trenzas de bronce, esa risa atronadora o esos antebrazos musculosos.\n\nDebes venir a Auberdine en el próximo barco. Estamos hechos el uno para el otro. ¡Sabes que es verdad si escuchas a tu corazón!\n\nTuya, si me aceptas,\n\nHollee"
+   ]
+  },
+  "o179741": {
+   "title": "Horde Military Ranks",
+   "source_sha256": "f4faf7abb59df127d7d5e32ca8741893fd70a0c571b1f1909172668b4f2e0a69",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "RANGOS MILITARES DE LA HORDA\n\nOFICIALES\n\nGran señor de la guerra\nSeñor de la guerra\nGeneral\nTeniente general\nCampeón\nCenturión\nLegionario\nGuardia de sangre\nGuardia de piedra\n\nSOLDADOS\n\nPrimer sargento\nCapataz\nSargento\nBruto\nExplorador"
+   ]
+  },
+  "o175778": {
+   "title": "Invar One-Arm",
+   "source_sha256": "8276afb19eb7bf734cf47f2e2b7b0217bc42fe068a8ab093cfe861bdc5e945a9",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Invar Unibrazo\n\nPrimer asesino jefe de la Cruzada Escarlata\n\nCiudadano de Dalaran\n\nVisto por última vez en las costas de Rasganorte"
+   ]
+  },
+  "i286104": {
+   "title": "Longwalker Malah's Report",
+   "source_sha256": "a9149468f36525542c83f92197b67035846b527e4abae1e0327510294238b0f9",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Día 1\n\nLa actividad de Ventura y Cía. sigue siendo preocupante. Sus explotaciones mineras no han dejado de crecer y oigo un nuevo ruido de molienda que sugiere que han descargado allí algún ensamblaje horrible.\n\nAún no los considero una amenaza capaz contra Cima del Trueno, pero, si se los provoca, podrían atacar con éxito el Poblado Pezuña de Sangre desde el sur.",
+    "Día 2\n\nOigo un estruendo de estampida que resuena en los riscos del este, donde nuestro hogar se encuentra con las llanuras de Los Baldíos. Podría ser otra manada de cebras o gacelas, o quizá un truenagarto enfurecido, pero continúa hasta más entrada la noche de lo que esas bestias suelen permanecer activas.\n\nAvanzaré para investigar, pero mantendré una distancia segura.",
+    "Día 3\n\n¡Los centauros han invadido Mulgore! Nuestro enemigo más vil y antiguo ha osado volver a estas llanuras tras ser expulsado. ¡La furia del gran jefe caerá sobre ellos!\n\nDebo saber qué planean para que podamos contrarrestarlo con la mayor eficacia. Si guardo silencio, creo que podré acercarme lo suficiente para oírlos.\n\nParece que planean...\n\n<El resto del texto está cubierto de sangre.>"
+   ]
+  },
+  "i20949": {
+   "title": "Magical Ledger",
+   "source_sha256": "055539df4a0b804c58caf46c0cd2941af10d64c1395ddd8e50b5f55d945841e6",
+   "provenance": "empty-source",
+   "note": "The pinned English page is empty. No text has been invented.",
+   "pages": [
+    ""
+   ]
+  },
+  "i280430": {
+   "title": "Mountaineer Gretchen's Report",
+   "source_sha256": "0776ba94c2f3f0ddba3fe68577a9a60d8abf092e242a3ae352867ee6d7c5fccf",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Informe sobre el estado de los wendigos en las cuevas cercanas a Kharanos\n\nEscrito por la montaraz Gretchen según los hallazgos del montaraz Cornelius\n\nLos wendigos rara vez abandonan sus cuevas, pero hay informes de ataques contra civiles alrededor de asentamientos cercanos como Kharanos y Las Birras. Parecen cada vez más agitados en su búsqueda de alimento. Ya hemos perdido a uno de los nuestros en los esfuerzos por contenerlos. Aunque eliminar por completo a estas bestias resulta impracticable, los montaraces solicitan",
+    "recursos adicionales para limitar su expansión. No podemos seguir enviando aventureros contra el problema y esperar lo mejor. Tarde o temprano se acabará la comida y los wendigos se verán obligados a atacar directamente nuestras ciudades. Quizá incluso la propia Forjaz.\n\nTransmitid mis condolencias a la familia del montaraz Cornelius, que luchó con valor para proteger a los habitantes de Dun Morogh."
+   ]
+  },
+  "i211777": {
+   "title": "Naga Manuscript",
+   "source_sha256": "87572e3ab1c0891176cd34b0b6d3c6705ce52676939953f9a45e0fd73a431ca7",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "<El manuscrito muestra un mapa de tres cristales de la Ensenada de Zoram. Entre ellos hay trazado un camino ordenado, de sur a norte. Junto a cada cristal aparece el dibujo de una explosión de magia arcana.>"
+   ]
+  },
+  "i18401": {
+   "title": "Nostro's Compendium of Dragon Slaying",
+   "source_sha256": "5fe73cb618e122a426a72403f3c68abcb4fed6f8ab49e8f86321ad974e5187bc",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "El Compendio de matar dragones de Foror es un grueso libro lleno de escritura. Por desgracia, el texto parece confuso y no tiene sentido para ti."
+   ]
+  },
+  "i207098": {
+   "title": "Note from Ba'so",
+   "source_sha256": "9997b473603797d5a63c51a3f7aac63c625b3f9f4eb42373fe619750bdabe052",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Tengo la mercancía. Me esconderé al oeste del Fuerte de Tiragarde, bajo un árbol de hojas oscuras. Si envías a uno de tus agentes a recogerla, ¡asegúrate de que no lo vean!\n\n- Ba'so"
+   ]
+  },
+  "i216610": {
+   "title": "Orders from the Grand Crusader",
+   "source_sha256": "96839ec0da69539afb6769a38774db9cd6998453bdc190088734ccfc09fbbf5a",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Por orden del gran cruzado Dathrohan:\n\nEl hereje conocido como Aeonas el Callado queda condenado por los graves delitos de aliarse con demonios y no-muertos, renunciar a la Luz, hurto y asesinato. Se sabe que esta vil criatura ha matado al menos a dos de nuestros firmes hermanos de la Luz mientras robaba bienes importantes de la Cruzada Escarlata. Cuando lo encuentren, se trasladará al hereje al Monasterio de Tirisfal para interrogarlo y ejecutarlo. Cualquier paquete o artefacto que tenga al ser apresado deberá devolverse con toda rapidez al Gran Cruzado como prueba.\n\nSi capturáis a Aeonas, amordazadlo. Nadie salvo el Alto Inquisidor podrá hablar con él, no sea que sus mentiras insidiosas siembren caos y dudas en corazones rectos. Estad atentos, hermanos y hermanas, pues no sabemos qué magias viles ha obtenido Aeonas en sus tratos perversos con los enemigos de la Luz."
+   ]
+  },
+  "o25331": {
+   "title": "Ranger Captain Alleria Windrunner",
+   "source_sha256": "38554d7d70a8ea350dd6d1b000e9dbfbbf5744116ea83d5797b9a8b144324051",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Capitana forestal Alleria Brisaveloz\n\nCélebre cazadora de trols de Quel'Thalas. Exploradora jefe y agente de inteligencia de la Expedición de la Alianza que marchó al mundo natal de los orcos, Draenor. Presuntamente fallecida.\n\nTu corazón volaba tan certero como cualquier flecha en el viento, hermana. Eras la más brillante de nuestra Orden. Eras la más querida de los nuestros.\n\n- Sylvanas Brisaveloz, general forestal de Quel'Thalas"
+   ]
+  },
+  "o179909": {
+   "title": "Rock of Durotan",
+   "source_sha256": "c615ae5551505a89e6ca94184f54b48cb47be119da52074a81a292f4698e666c",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Aquí yace Durotan, primer jefe del clan Lobo Gélido y padre de nuestro honrado Jefe de Guerra, Thrall. Fue el más valiente de los nuestros, traicionado por quienes querían ver esclavizado a nuestro pueblo. Durotan dio su vida para que pudiéramos alcanzar la libertad. Lo honramos a él y al legado que nos transmitió a través de su hijo.\n\nDrek'Thar, clarividente de los Lobo Gélido"
+   ]
+  },
+  "i4514": {
+   "title": "Sara Balloo's Plea",
+   "source_sha256": "94c128b32f5af78f7750b374025c9189835534da4354b3b24fe6023f72cd9630",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "A mi honorable rey:\n\nNo corresponde a la esposa de un humilde soldado cuestionar las acciones de grandes dirigentes como vos. Las batallas que asolan nuestras tierras se libran para preservar la gran vida que conocemos y amamos, desde las aguas frescas de Loch Modan hasta las cumbres nevadas de Dun Morogh.",
+    "Pero ¿a qué precio libramos estas guerras en nombre de la preservación? ¿Con la muerte de qué soldado caído comprendemos que la vida que intentamos salvar se nos escapa en el campo de batalla?\n\n¿Bajo cuántas espadas y hachas debemos arrojar nuestro futuro? ¿Bajo cuántos pies de tierra empapada debemos enterrar nuestro pasado?",
+    "No corresponde a la esposa de un humilde soldado hacer tales preguntas.\n\nPero ahora os escribo como viuda de ese humilde soldado. Para vos, mi marido quizá fuera un soldado entre miles. Para mí era el gran Sully Balloo, padre de mis hijos y mi único compañero en esta vida.\n\nPerdonadme si mis preguntas os resultan impropias, gran señor. Pero los muertos no pueden hacerlas por sí mismos...\n\nVuestra leal súbdita,\nSara Balloo"
+   ]
+  },
+  "o175684": {
+   "title": "Saurial Egg",
+   "source_sha256": "a736347dab9464054b392c58adc643ccea4fdb41e22cda07456294dab17d7c30",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Encontrado en la remota selva del Cráter de Un'Goro, este huevo albergó un embrión de demosaurio. El material genético del saurio ha resultado inestimable para los ecólogos de la Liga, que están más cerca que nunca de elaborar un suero contra el veneno debilitante de los demosaurios."
+   ]
+  },
+  "i264693": {
+   "title": "Scarlet Crusade Attack Plans",
+   "source_sha256": "383d22545d1e3be7ae1893f05a68867a0d1a712093f443eb9d5233a47ab155a5",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Atacaremos Rémol justo antes del amanecer. La fuerza auxiliar prenderá fuego a la torre de zepelines como distracción. Cuando el fuego esté encendido y los defensores se hayan alejado, la fuerza principal dirigida por el teniente entrará desde el norte. El magistrado y los civiles son los objetivos principales. Destruid todo lo que veáis e incinerad los cuerpos.\n\nDicen que los Renegados no sienten miedo. Volveremos a infundirles el temor a la Luz, hermanos y hermanas. ¡Por Lordaeron!"
+   ]
+  },
+  "i251941": {
+   "title": "Scribbled Letter",
+   "source_sha256": "67629ffaae5a3da5885bf6bb80521b048bf2e51098715f8184fbfcbcc68c663c",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Eh, tú, $C. Levanta el trasero y ven a verme detrás de la abadía. Un cazador blandengue y novato como tú no puede esperar sobrevivir, y mucho menos prosperar, en estas tierras sin orientación. ¡Y el viejo Tordrin está aquí para dártela, si tienes agallas!\n\nTordrin Hojadusta, instructor de cazadores (extremadamente guapo)"
+   ]
+  },
+  "i227658": {
+   "title": "Shadowsworn Note",
+   "source_sha256": "378976ceb9e7d1b8f5cc60fd82b0f8b0f718d59a3d7194ed4ba46edf61b10283",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "¡Necesitamos más sacrificios voluntarios!\n\nEse altar debe de tener algún truco. Hasta ahora no ha dado nada.\n\nInforma en Serpiente Enroscada cuando encuentres algo útil."
+   ]
+  },
+  "i282422": {
+   "title": "Simple Note",
+   "source_sha256": "7d325cc679be1e1bacf1b0e27613b29fc7b3ddeefe39f7c5de4acb8964018d0d",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Seré breve, $N.\n\nTienes una astucia y una gracia que respeto, y te he estado observando.\n\nPero la astucia y la gracia no siempre bastan para seguir con vida. Si quieres aprender a ser un pícaro de verdad, puedo enseñarte.\n\nVen a buscarme dentro de la atalaya.\n\n-Akeri Hoja Umbría, instructora de pícaros"
+   ]
+  },
+  "o177204": {
+   "title": "Sorrow of the Earthmother",
+   "source_sha256": "785f5a9dd62e746bfe7f5d91b5ccfae2c29886532ef9de65ceff306d07c420e1",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Mientras los hijos de la tierra recorrían los campos del alba, oyeron susurros oscuros de las profundidades del mundo. Los susurros les hablaron de las artes de la guerra y el engaño. Muchos shu'halo cayeron bajo la influencia de la sombra y abrazaron la malicia y la perversidad. Se volvieron contra sus hermanos puros y dejaron que su inocencia se perdiera por las llanuras.",
+    "La Madre Tierra, con el corazón apesadumbrado por la desgracia de sus hijos, no pudo soportar verlos caer. En su dolor se arrancó los ojos y los hizo girar por los cielos estrellados sin fin. An'she y Mu'sha, buscando aliviar el dolor del otro, solo podían perseguir su tenue resplandor por el cielo. Los gemelos aún se persiguen con cada giro del mundo.",
+    "Aunque ciega, la Madre Tierra no podía apartarse mucho tiempo del mundo de su corazón. Mantuvo el oído en los vientos y escuchó todo lo que ocurría en los campos del alba. Su gran corazón siempre estuvo con sus hijos y su sabiduría amorosa nunca los abandonó."
+   ]
+  },
+  "i228144": {
+   "title": "Strange Note",
+   "source_sha256": "3e8512c8a1df7a1ecb5decce336e28606b220db7ebe7353f253878a2d80c948a",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "El cristal me ha mostrado visiones de su pasado. Fue arrancado de un todo perfecto, algo de glorioso poder divino.\n\nLos conflictos feroces entre las razas de Azeroth no dejan de crecer. Si se reúnen ahora los fragmentos, podrían usarse como un arma de destrucción aterradora.\n\nSi intentas reunirlos, te lo ruego: usa su poder para unir a los hijos de Azeroth, no para librar más guerras."
+   ]
+  },
+  "i227748": {
+   "title": "Survivor Journal",
+   "source_sha256": "27c2685fa8ab0a8f1881d83382d838524c3cf2f7e3277aa4b427fa1748a3efad",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Bajo la protección del fragmento de Luz, huimos a la cripta y nos atrincheramos dentro. Pero Wescott y Billina salieron a buscar provisiones y se lo llevaron para protegerse. Han pasado tres días y no han vuelto. Sin el poder del fragmento, la Plaga no tardará en caer sobre nosotros..."
+   ]
+  },
+  "i282346": {
+   "title": "Tainted Tablet",
+   "source_sha256": "9c90aa66c95c23bd8728201f3baa08d82af40527f82e528f1a0a05bb6dd22cce",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Tus incipientes habilidades son demasiado rudimentarias para advertir que esta tablilla está impregnada de poderosas maldiciones de sufrimiento que impiden leerla a ojos no deseados.\n\nMediante mi poder he sentido tus primeros pasos hacia una tenue conexión con el Vacío Abisal. Ahora me pongo en contacto contigo para ofrecerte el don de mi tutela. Bajo mi guía aprenderás a mandar demonios e invocar las llamas de más allá de la vida mortal.\n\nBúscame en las profundidades del Cubil cuando hayas aprendido a orientarte. Quiero hablar contigo de asuntos importantes.\n\n-Nartok, instructor de brujos"
+   ]
+  },
+  "o175759": {
+   "title": "The Betrayer Ascendant",
+   "source_sha256": "52ea0802ec75708201b64e17c730f2baf62231877a0e1fd3a34d4e2d486125f4",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Durante la invasión de Vallefresno por la Legión, Illidan fue liberado de su prisión en un túmulo tras diez mil años de cautiverio. Aunque intentó complacer a sus camaradas, pronto volvió a su verdadera naturaleza y consumió las energías de un poderoso artefacto de brujo conocido como la Calavera de Gul'dan.",
+    "Al hacerlo, desarrolló rasgos demoníacos y un poder enormemente amplificado. También obtuvo algunos recuerdos antiguos de Gul'dan, sobre todo los de la Tumba de Sargeras, la mazmorra insular que, según los rumores, contenía los restos del titán oscuro Sargeras.",
+    "Rebosante de poder y libre para recorrer de nuevo el mundo, Illidan buscó su propio lugar en el gran orden de las cosas. Sin embargo, Kil'jaeden lo abordó con una oferta que no podía rechazar. La derrota de Archimonde en el Monte Hyjal había enfurecido al demonio, pero tenía preocupaciones mayores que la venganza.",
+    "Al sentir que su creación, el Rey Exánime, se hacía demasiado poderosa para controlarla, Kil'jaeden ordenó a Illidan destruir a Ner'zhul y acabar de una vez por todas con la Plaga. A cambio recibiría un poder incalculable y un verdadero puesto entre los señores restantes de la Legión Ardiente.",
+    "Illidan aceptó y se dispuso de inmediato a destruir el Trono Helado, el recipiente de cristal helado que albergaba el espíritu del Rey Exánime. Sabía que necesitaría un artefacto poderoso. Con los conocimientos obtenidos de los recuerdos de Gul'dan, decidió buscar la Tumba de Sargeras y reclamar los restos del titán oscuro.",
+    "Cobró antiguas deudas de los Altonato y atrajo a los serpentinos nagas de sus guaridas submarinas. Dirigidos por la astuta bruja lady Vashj, lo ayudaron a llegar a las Islas Abruptas, donde se rumoreaba que estaba la Tumba de Sargeras.",
+    "Mientras Illidan partía con los nagas, la celadora Maiev Cantosombrío comenzó a perseguirlo. Había sido su carcelera durante diez mil años y disfrutaba ante la idea de capturarlo de nuevo. Pero Illidan burló a Maiev y sus vigilantes y consiguió apoderarse del Ojo de Sargeras pese a sus esfuerzos. Con el poderoso Ojo en su poder viajó a la antigua ciudad de los magos, Dalaran.",
+    "Reforzado por las líneas Ley de la ciudad, Illidan usó el Ojo para lanzar un hechizo destructivo contra la ciudadela del Rey Exánime en Corona de Hielo, en el lejano Rasganorte. Su ataque quebró las defensas del Rey Exánime y rompió el propio techo del mundo. En el último momento, el hechizo fue detenido cuando su hermano Malfurion y la sacerdotisa Tyrande llegaron para ayudar a Maiev.",
+    "Sabiendo que a Kil'jaeden no le agradaría su fracaso al destruir el Trono Helado, Illidan huyó a la dimensión estéril llamada Terrallende, los últimos restos de Draenor, antiguo mundo natal de los orcos. Allí pensaba eludir la ira de Kil'jaeden y planear sus siguientes movimientos.",
+    "Tras detener a Illidan, Malfurion y Tyrande regresaron al Bosque de Vallefresno para velar por su pueblo. Maiev, sin embargo, no se rindió tan fácilmente. Siguió a Illidan a Terrallende, decidida a llevarlo ante la justicia."
+   ]
+  },
+  "i18646": {
+   "title": "The Eye of Divinity",
+   "source_sha256": "275ea2be67a9c6123127fe8c30edaa237967ede2e596882759e226bade8b713f",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Al mirar dentro del Ojo, las imágenes de una gran batalla llenan tu mente...\n\nEste conflicto aterrador parece ocurrir en algún lugar de Lordaeron...\n\nApenas distingues a una mujer sola entre mil cadáveres, resistiendo a un mar de la Plaga...\n\nEstá desesperadamente superada en número...\n\nZarcillos de luz escapan de sus manos y atraviesan a cientos de no-muertos.",
+    "Todo parece en vano...\n\nMomentos después, los cadáveres de los campesinos que la rodeaban se abalanzan sobre la sacerdotisa...\n\nLos caídos se han alzado."
+   ]
+  },
+  "o182203": {
+   "title": "The Green Hills of Stranglethorn",
+   "source_sha256": "a42672fb9f756a5cf903bcf3b946b132bd133f9394a05e35559dd7f103440310",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording. Existing official Spanish pages reused where the pinned English page is identical.",
+   "pages": [
+    "LAS VERDES COLINAS DE TUERCESPINA\n\npor Hemet Decautela",
+    "Nuestro primer día fue todo lo bien que se puede esperar que vayan los primeros días. La mayor parte del tiempo nos preocupamos de realizar los preparativos necesarios para establecer un campamento base. Encontré un lugar ideal, junto a la ensenada de un río de agua dulce. A juzgar por los viejos y abandonados muelles que hay cerca, este emplazamiento estuvo habitado hace algún tiempo. Por lo que respecta a los habitantes primitivos, solo el tiempo puede contar esa historia.",
+    "Para esta expedición he reunido a Ajeck Rouack y a Sir S. J. Erlgadin, junto con mi sirviente de confianza, Barnil Jarropetra. Libré muchas batallas al lado del padre de Ajeck en defensa de la Alianza. Verla crecida es bastante especial. Su padre la instruyó bien en las artes de las armas. Su habilidad con el arco me hace preguntarme si corre sangre élfica por esas venas.",
+    "Sir S. J. Erlgadin proviene de la aristocracia humana. Su padre, el conde Erlgadin, era célebre por su generosidad. Fue el conde quien presionó por una mejora en las condiciones de trabajo de la Hermandad de los Albañiles durante la restauración de Ventormenta después de la Segunda Gran Guerra.",
+    "En los años siguientes, después de que Ventormenta traicionara al Gremio de Canteros, sir Erlgadin se amargó por el papel de los nobles en el reino. Ya no deseaba mantener la posición que el linaje de su padre le había otorgado en la Casa de Nobles.\n\nPero me desvío. Esta historia no pretende ser un tratado político ni una biografía. Es el relato de mis experiencias de caza mayor en las verdes colinas de Tuercespina...",
+    "Nos levantamos al amanecer. Barnil empezó a preparar el desayuno. Advertí que Ajeck estaba un poco distraída. La caminata del día prometía ser larga y nos esperaban peligrosos episodios de caza. Cualquier descuido podía ponernos en una situación difícil. No obstante, Ajeck parecía incapaz de desviar su mirada de Barnil, que estaba de pie frente al río, limpiando su equipo.",
+    "Justo cuando estaba a punto de cuestionar la falta de interés de Ajeck en la estrategia de caza del día, alargó la mano hacia su arco, lo tensó con una flecha y la soltó justo hacia el pobre Barnil. Pero no era a Barnil a quien Ajeck disparaba, pues, cuando Barnil se echó a un lado boquiabierto, un gran crocolisco de río flotó a la superficie con la flecha de Ajeck perfectamente colocada entre sus grandes ojos.",
+    "Partimos al oeste, por la espesura enmarañada de la jungla. Avanzamos con pasos lentos y deliberados entre el follaje denso en busca de presas. La mañana pasó en un silencio frustrante. Nada se movía en la vega, ni una brisa. Por la tarde, la expedición estaba inquieta. Barnil ya no andaba con los pasos cautelosos de un depredador que sigue a su presa. Avanzaba torpemente por el sendero, pisando a menudo con ruido hojas secas y ramas caídas.",
+    "Durante semejante tropiezo, Erlgadin posó su mano pesadamente sobre el hombro de Barnil. Ajeck y yo apenas advertimos la escena, suponiendo que el hombre solo estaba dando una merecida reprimenda a Barnil por su descuido. No obstante, Erlgadin hizo un gesto lento con la cabeza en dirección a un árbol caído. Desde allí nos acechaban dos ojos negros penetrantes justo encima de un par de afilados colmillos.",
+    "La bestia era un tigre macho de Tuercespina. Antes de que pudiera amartillar el rifle, Erlgadin levantó la ballesta y disparó en dirección al animal. El virote dejó su marca y sorprendió a la bestia con fuerza en el costado izquierdo. El tigre hizo un intento en vano por huir, pero la herida era demasiado grave. La bestia fue dando traspiés durante varios trágicos segundos, hasta que Barnil lo remató lanzando un hacha.",
+    "La matanza provocó un ánimo festivo en la expedición. Barnil sirvió aguamiel para disfrute de todos. Pero nuestros festejos fueron efímeros. Mientras preparábamos el cadáver para transportarlo de vuelta al campamento base, un rugido espantoso nos cogió desprevenidos a todos. En todos mis años nunca he oído nada que helara la sangre de tal modo.",
+    "En un precipicio rocoso, recortado contra el sol poniente, distinguí al mayor felino de presa que he visto jamás. Logré disparar torpemente con mi rifle, pero el felino no se movió. Volvió a gruñir, esta vez más fuerte, y desapareció.\n\nRecogimos nuestras cosas y regresamos al campamento en silencio solemne.",
+    "Había prometido a la expedición que pasaríamos el día siguiente cazando panteras, ya que sus pieles son muy valoradas en Azeroth. Esta demanda se debe a que todos los cazadores, tramperos y comerciantes de pieles arriesgan valientemente su vida en nombre de la Alianza.",
+    "Ajeck y Sir Erlgadin estaban ansiosos por aprender a cazar eficazmente con un rifle de los enanos. Hice que los dos humanos dejaran sus primitivas armas en el campamento base. Barnil y yo los equipamos con algunas de las mejores armas de fuego de Forjaz.",
+    "Ese día nos aventuramos al sur, siguiendo algunos rastros recientes de pantera. Pronto llegamos a un barranco que se cruzaba por un enorme puente colgante. No pude evitar pensar en la descriptiva obra de Brann sobre aquella región cuando vi aquella maravilla de la ingeniería. Se suponía tan a menudo que los trols nativos eran una raza primitiva e inculta, pero, mientras observaba fijamente la artesanía maestra del puente, pude reconocer la habilidad con la que los albañiles trols superaron la hazaña, aparentemente imposible.",
+    "Al poco tiempo, Ajeck rastreó a la pantera en dirección al sudoeste. Anduvimos en silencio, con las armas preparadas, anticipándonos a nuestra presa. Un chasquido de ramas en un bosquecillo cercano llamó nuestra atención de inmediato. Allí había algo. Una mirada seria a Barnil bastó para transmitirle mis pensamientos. Barnil bajó su rifle lentamente. Esta presa no era para nosotros, sino para nuestros compañeros humanos. Innumerables panteras habían perdido la vida al enfrentarse a nuestros humeantes cañones. Esta presa era para los humanos.",
+    "Tanto Ajeck como Sir Erlgadin se mantuvieron erguidos, con las armas al nivel de la hirsuta maleza que había bajo unos árboles que se mecían de un lado a otro. El sol del mediodía ardía con fuerza sobre nosotros. Una lenta gota de sudor rodó por la sien de Erlgadin, al tiempo que retiraba el gatillo. Tras el chasquido, el follaje exuberante se abrió en dos y una pantera negra, espécimen hermoso, saltó veloz sobre la llanura.",
+    "Los humanos apuntaron a la pantera mientras corría por la linde de los árboles. Los cañones de sus armas se movían juntos, perfectamente paralelos. Barnil me lanzó una mirada apremiante, pero negué con la cabeza. Esta cacería era de los humanos, no de Barnil ni mía. Erlgadin disparó con un estruendo y falló por completo. Al parecer no estaba preparado para el violento retroceso del rifle.",
+    "El arma dio un fuerte salto hacia atrás entre sus brazos. El cañón se desvió y subió por debajo del rifle de Ajeck. Ella había elegido justo ese instante para apretar el gatillo. El rifle, ahora desviado torpemente hacia los árboles, sonó con un estruendo inconfundible. Una bandada salió de las copas gritando y se dispersó en todas direcciones. Del árbol subió una nube de humo. Miramos asombrados cómo una rama enorme caía de lleno sobre la pantera que huía y le rompía el espinazo",
+    "Unas semanas después, nuestras reservas de piel de pantera y tigre crecieron ostensiblemente. Decidí que era hora de que la expedición cambiara de objetivo: Raptores.\n\nLos humanos, valorando la instrucción que Barnil y yo les proporcionamos, decidieron abstenerse de cazar con armas de fuego. Ajeck estaba mucho más cómoda con un arco de cuerda fina, mientras que Sir Erlgadin nunca abandonaba el campamento sin su maciza ballesta.",
+    "Nos fuimos al alba en dirección al sur, más allá de las ruinas de Tkashi. Barnil expresó su preocupación ante la posibilidad de encontrarnos con miembros de la tribu Sangrapellejo. Recordé a Barnil que los Sangrapellejo estaban ocupados intentando destruir a su enemigo tribal, los Machacacráneos. De más está decir que Barnil no estaba en absoluto tranquilo. Yo, por mi parte, tenía el rifle cargado, un saco lleno de pólvora y tres cazadores infalibles que me acompañaban para aplacar mis preocupaciones ante una posible emboscada.",
+    "Una vez, en el campo de batalla, tuve delante a un inferno altísimo, con el ejército de la Legión Ardiente avanzando desde todas partes. Una banda de trols revoltosos parece tan inofensiva como una liebre en las colinas de Dun Morogh.\n\nPasamos por las ruinas de Tkashi sin contratiempos, lo que tranquilizó a Barnil en gran medida. El grupo avanzó hacia el oeste, en dirección al Mare Magnum, bordeando las ruinas de Zul'Kunda, situadas al sur. Al subir por los altos acantilados, divisamos al primer raptor.",
+    "La bestia ni siquiera detectó nuestra presencia. De hecho, el único saludo que recibió por parte de la expedición fue una bala en medio de la frente. Sir Erlgadin lanzó un grito de alegría, mientras Ajeck asentía y me miraba, haciendo un gesto de entusiasta aprobación. Revolví mi mochila en busca de mi pipa, esperando celebrar la hazaña con el humo de la victoria. Barnil empezó a correr por la cuesta para recuperar el cadáver del raptor. Miré a la bestia abatida con la satisfacción que produce una caza importante.",
+    "Sin embargo, no pude disfrutar de la victoria del cazador por mucho tiempo, pues al contemplar el horizonte, numerosas siluetas aparecieron en la cresta de la colina, justo encima del pobre Barnil.\n\n*¡Huye, Barnil!*, grité. Ajeck, Sir Erlgadin y yo lanzamos una descarga de balas y flechas por encima de Barnil, directo sobre los raptores. Alguien soltó la presa en medio de la confusión.",
+    "Nuestros disparos apresurados bastaron para permitir la huida de Barnil. Bajó como pudo de la colina y volvió al grupo. Nos internamos a toda prisa en la jungla, con una manada de feroces raptores Colazote siguiendo cada movimiento.\n\nLos cazadores eran ahora los cazados.",
+    "Conduje a la expedición hasta el mar, con el fin de que la costa nos protegiera de los raptores. Con nuestro apresuramiento, nos habíamos desviado demasiado al norte, a una altitud peligrosamente elevada. Nos habíamos equivocado. Fue culpa mía. Nos detuvimos delante de un escarpado acantilado, con los raptores justo detrás de nosotros.",
+    "Avancé lentamente con el arma levantada. Había conducido a estos valientes cazadores a su fin. Tenía que morir defendiéndolos. Los raptores colazote son particularmente feroces, conocidos por ser unos sanguinarios implacables. Eran muchos más que nosotros. Pero si hubiera dejado que nos mataran a mis camaradas y a mí, sin antes derramar parte de su propia sangre, no me lo habría perdonado.",
+    "Ajeck y Sir Erlgadin dispusieron sus armas, flanqueándome a cada lado, de espaldas al mar. Barnil dejó escapar un suspiro derrotado y blandió su hacha. Los colazotes estaban casi sobre nosotros. Su firme zancada se había hecho más lenta. Ahora acechaban a su presa, pues sabían que nos tenían atrapados.",
+    "Entonces ocurrió algo milagroso. Desde donde estábamos escuchamos el inconfundible y aterrador rugido del gran tigre blanco. A pesar de ser numerosos, los raptores dieron media vuelta y se dispersaron. Solo vimos el breve destello blanco de un tigre que salió disparado junto a nosotros, abalanzándose sobre uno de los raptores. No fue necesario dar ninguna orden. Los cuatro miembros de la expedición sabíamos que era el momento de salir corriendo.",
+    "Corrimos sin frenar hasta el campamento base. Más tarde, aquella noche, nos sentamos en silencio alrededor del fuego, sabiendo que un giro extraño del destino nos había salvado la vida. Tales son los riesgos de la caza mayor. Jugamos con el destino al repartirlo. Pero cada uno de nosotros afrontará alguna vez sus dientes afilados. Este enano se alegra de que ese momento no llegara en las verdes colinas de Tuercespina.\n\n--Fin--"
+   ]
+  },
+  "o175747": {
+   "title": "The Invasion of Draenor",
+   "source_sha256": "2a000673bb7f9cf3896da266c5ae8d5cf4cd8044014b0e54daf5bfffeaa22705",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Al apagarse los fuegos de la Segunda Guerra, la Alianza tomó medidas enérgicas para contener la amenaza orca. En el sur de Lordaeron se construyeron grandes campos de internamiento para los orcos cautivos. Vigilados por paladines y soldados veteranos de la Alianza, los campos resultaron un gran éxito.",
+    "Aunque los orcos cautivos estaban tensos y deseaban volver a combatir, los distintos guardianes de los campos, establecidos en la antigua fortaleza prisión de Durnholde, conservaron la paz y una firme apariencia de orden.",
+    "Sin embargo, en el mundo infernal de Draenor, un nuevo ejército orco se preparaba para atacar a la desprevenida Alianza. Ner'zhul, antiguo mentor de Gul'dan, reunió a los clanes restantes bajo su estandarte oscuro. Con ayuda del clan Sombraluna, el viejo chamán planeaba abrir portales en Draenor que llevaran a la Horda a mundos nuevos e intactos.",
+    "Para alimentar los nuevos portales necesitaba varios artefactos encantados de Azeroth. Para conseguirlos, Ner'zhul reabrió el Portal Oscuro y envió a sus voraces sirvientes a la carga por él.",
+    "La nueva Horda, dirigida por jefes veteranos como Grom Grito Infernal y Kilrogg Mortojo, del clan Foso Sangrante, sorprendió a las defensas de la Alianza y arrasó la comarca. Bajo el mando preciso de Ner'zhul, los orcos reunieron rápidamente los artefactos necesarios y huyeron de vuelta a la seguridad de Draenor.",
+    "El rey Terenas de Lordaeron, convencido de que los orcos preparaban otra invasión de Azeroth, reunió a sus lugartenientes de mayor confianza. Ordenó al general Turalyon y al archimago Khadgar dirigir una expedición a través del Portal Oscuro para acabar de una vez con la amenaza orca. Sus fuerzas entraron en Draenor y se enfrentaron repetidamente a los clanes de Ner'zhul en la devastada Península del Fuego Infernal.",
+    "Ni siquiera con ayuda de la alta elfa Alleria Brisaveloz, el enano Kurdran Martillo Salvaje y el soldado veterano Danath Aterratrols pudo Khadgar impedir que Ner'zhul abriera sus portales a otros mundos.",
+    "Ner'zhul abrió por fin los portales, pero no previó el terrible precio. Sus enormes energías empezaron a desgarrar el tejido mismo de Draenor. Mientras las fuerzas de Turalyon luchaban desesperadamente por volver a Azeroth, Draenor comenzó a derrumbarse sobre sí mismo. Grom Grito Infernal y Kilrogg Mortojo, al comprender que los planes demenciales de Ner'zhul condenarían a toda su raza, reunieron a los orcos restantes y escaparon a la seguridad relativa de Azeroth.",
+    "En Draenor, Turalyon y Khadgar acordaron hacer el sacrificio definitivo: destruir el Portal Oscuro desde su lado. Aunque les costara la vida y la de sus compañeros, sabían que era la única forma de asegurar la supervivencia de Azeroth. Mientras Grito Infernal y Mortojo se abrían paso entre las filas humanas en busca desesperada de libertad, el Portal Oscuro estalló a sus espaldas. Para ellos y los orcos que quedaban en Azeroth ya no habría vuelta atrás.",
+    "Ner'zhul y su fiel clan Sombraluna cruzaron el mayor de los portales recién creados mientras enormes erupciones volcánicas empezaban a romper los continentes de Draenor. Los mares ardientes se alzaron y agitaron el paisaje destrozado, hasta que el mundo torturado fue consumido en una explosión apocalíptica gigantesca."
+   ]
+  },
+  "i20415": {
+   "title": "The War of the Shifting Sands",
+   "source_sha256": "6f2d482ba3707c4f970bab3b847cefd6a5a4cabd05cb6d6ac056ca8013d01419",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Han pasado casi mil años desde la Guerra del Mar de Dunas. Durante aquella guerra, en el corazón del desierto de Silithus, una gran tragedia y una carga aún mayor cayeron sobre Fandral Corzocelada. Se cree que los hechos aquí descritos acabaron moldeando el desagradable carácter del archidruida.",
+    "Una antigua raza insectoide consciente, los qiraji, disputó en otro tiempo el dominio de buena parte de Kalimdor. Fueron el pomposo e imperialista Corzocelada y su ejército de elfos de la noche quienes se enfrentaron directamente a ellos.",
+    "Padre e hijo combatieron con fervor para contener la marea creciente del enjambre en Silithus. De la fortaleza de Ahn'Qiraj salía un flujo aparentemente interminable de silítidos que reforzaba a los invasores qiraji. Todo Silithus estaba sitiado.",
+    "En una decisión que Corzocelada lamentaría, se ordenó al joven Valstann defender el puesto de los elfos de la noche en la Aldea del Viento del Sur. Por desgracia, Valstann perdería la vida aquel día y la aldea caería ante los ejércitos de Ahn'Qiraj.",
+    "Sin dejarse vencer y con el corazón apesadumbrado, Fandral Corzocelada siguió adelante, sediento de venganza. La derrota en Silithus supondría una gran pérdida para los elfos de la noche y quizá para el mundo.\n\nLa batalla continuó durante meses. Los qiraji tomaron todo Silithus y empujaron a Corzocelada y su ejército hasta Tanaris. Con sus fuerzas diezmadas e incontables inocentes muertos, la arrogancia que lo había impulsado quedó completamente extinguida.",
+    "Con el orgullo hecho pedazos, Corzocelada sintió por segunda vez en su vida ese vuelco en el estómago que solo produce el miedo. Allí, en Tanaris, se acercó a Anacronos, vástago de Nozdormu, y suplicó la ayuda del Vuelo Bronce.",
+    "Al principio, Anacronos se negó a involucrar al Vuelo Bronce en los asuntos de las razas menores. Solo cuando los qiraji atacaron con insolencia las Cavernas del Tiempo aceptó unir sus fuerzas a las de los elfos de la noche.",
+    "Anacronos pronto comprendió que ni siquiera el poderoso Vuelo Bronce podía contener a los invasores. Por cada cincuenta insectos aniquilados por su aliento, cien esperaban para sustituirlos. Con las líneas élficas flaqueando y la amenaza constante de retroceder aún más al norte, hasta Feralas, decidió que los hijos de los Aspectos debían saberlo.",
+    "Llamó primero al Vuelo de Ysera. Merithra del Sueño respondió y, desde allí, los vuelos de Alexstrasza y Malygos fueron informados.",
+    "Los dragones se reunieron en la estratosfera sobre Silithus, a miles de pies de altura sobre Ahn'Qiraj.\n\nAllí estaba Anacronos, hijo de Nozdormu, Aspecto del Tiempo.\n\nDel Sueño Esmeralda llegó Merithra, hija de Ysera, Aspecto de la Naturaleza.\n\nCaelestrasz, hijo de Alexstrasza, Aspecto de la Vida, representaba al Vuelo Rojo.\n\nArygos, hijo de Malygos, Aspecto de la Magia, representaba al Vuelo Azul.",
+    "Los dragones observaron el flujo interminable de silítidos y qiraji que salía de Ahn'Qiraj. Comprendieron que ninguna fuerza podría poner fin a aquella guerra. Dentro del templo principal esperaban decenas de miles de qiraji. A cada segundo nacían más y quedaban preparados para ser liberados sobre el mundo.",
+    "Arygos fue el primero en advertir las extrañas emanaciones. El templo monolítico del sector sur de Ahn'Qiraj irradiaba una magia tenue, distinta de todo lo que habían sentido en los qiraji. Por más que lo intentaron, ninguno pudo penetrar más en el templo para encontrar su origen. Solo algo de un poder inmenso podía protegerse de forma tan completa. Quizá... algo que controlaba a los insectos. Algo que controlaba incluso a los qiraji.",
+    "Los dragones sabían que debían reaccionar pronto para evitar otra catástrofe épica al mundo. Tras deliberar con cuidado, decidieron que lo mejor sería detener a las huestes en su origen o cerca de él.",
+    "Crearían una gran barrera tomando la esencia tanto de los elfos de la noche como de los dragones. Una barrera mágica que contuviera a los silítidos y a sus amos dentro de los muros de Ahn'Qiraj e impidiera futuras incursiones. La propia Ahn'Qiraj se convertiría en prisión."
+   ]
+  },
+  "i281139": {
+   "title": "Thunderhorn's Report",
+   "source_sha256": "562ced75b3cdb44286a23cb6c559a45dbfbb3ef4783265dd1eb9494d3ff8ab91",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Archidruida:\n\n$N ha prestado hoy un gran servicio a la tierra. Gracias a su valor, los pozos Pezuña Invernal, Tronacuerno y Bravacrín han quedado limpios de los venenos goblins.\n\nCon el tiempo, las aguas renovadas nutrirán a todos los que recorren las grandes llanuras de Mulgore y la tierra sanará. Alabada sea la Madre Tierra.\n\nSi lo tenéis a bien, solicito en nombre de todos los habitantes del Poblado Pezuña de Sangre una recompensa a la altura de su esfuerzo.\n\nCon gran reverencia,\n\nMull Tronacuerno"
+   ]
+  },
+  "i279045": {
+   "title": "Thundris' Letter",
+   "source_sha256": "66cc819c0a0b3573a51bf1030fa715c9ea0898f9ffed1ecfd325146c729817a5",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Señor Alexston de Ventormenta:\n\nDebo felicitaros por el largo camino de restaurar la ciudad de Ventormenta. Muchos de quienes pasan por Auberdine alaban su grandeza y sus sólidos cimientos. Ese éxito me ha llevado a enviaros este mensaje.\n\nAuberdine ha encontrado su lugar en este mundo junto al mar. Donde antes estábamos aislados, ahora encontramos esperanza traída por los mismos vientos que azotan nuestras orillas.\n\nEste mensajero representa a uno de esos viajeros que los vientos me trajeron. Espero que ayude a vuestro pueblo como ha ayudado al mío.\n\nA cambio, os pido que enviéis provisiones y mano de obra a Auberdine para reforzar la villa frente a la furia de este mundo que tanto nos ha quitado.\n\n-- Thundris Tejevientos, anciano de Auberdine"
+   ]
+  },
+  "i216956": {
+   "title": "Torn Letter",
+   "source_sha256": "76a5317b3d58df54f1721e74c075e9e2ff6847e8a428de1000c27e3a0f197afc",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Debido a la asombrosa ineptitud de vuestro aquelarre, no uno, sino dos grupos de intrusos lograron atravesar vuestras defensas, causar numerosas bajas y robar lo que nos pertenece. Yo me ocuparé de la Cruzada Escarlata, pero necesito que vuestro patético aquelarre reúna la competencia necesaria para encontrar al paladín y su cómplice y recuperar...\n\n<La carta está rota y falta el resto.>"
+   ]
+  },
+  "i267454": {
+   "title": "Trevan's Weapon Notes",
+   "source_sha256": "88392d87f2bbc4de976e5b03b6eaa58c2d259ca992f3b2fe0d061208b2383a25",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "$N:\nEl Old Fire-Eye es una criatura mágica de la noche y, como tal, necesitamos un arma mágica que también sea de la noche. Podemos infundirla con la luz de la luna llena y usarla para volver contra la criatura la magia oscura que la impulsa. Para ello necesitamos materiales concretos con los que forjar una hoja de brillante plata lunar capaz de destruir por completo este mal.\n\nNo será fácil, pero has mostrado un gran potencial y confío en que consigas lo que necesitamos.",
+    "Plata lunar encantada: es el ingrediente clave. La plata lunar es un material increíblemente raro, hecho de plata encantada infundida con el poder bruto de la luna. Se forjaron varias armas para combatir a los ferocanis cuando la maldición empezó a extenderse por Argénteos. Por desgracia, todas se han perdido y se desconoce dónde están los últimos lingotes de plata lunar.\n\nSe rumorea que había una reserva en el Castillo de Colmillo Oscuro, al sur. Es una posibilidad remota, pero nuestra mejor opción para encontrar algo de esa plata.",
+    "Buena madera de roble de piedra blanca: en Páramos de Poniente hay un lugar llamado Arroyo de la Luna donde antes abundaba. Los artesanos de la Alianza la usaron para reconstruir Ventormenta tras la Segunda Guerra.\n\nArroyo de la Luna atraviesa malos tiempos, pero he oído que una banda de bandidos ha contratado a talladores goblins para construir algo en las minas de debajo. Me jugaría la bota izquierda a que se quedaron con toda la madera rara que aún había en la villa cuando llegaron.",
+    "Una gema Kor: por lo que me han contado, algunos hechiceros las usan para guardar energía para su magia, volviéndose aún más letales. Creo que podemos aprovechar la energía almacenada en una para crear tu arma.\n\nUn mago al que conocí, Ulric Frostveil, puede contarte más sobre estas gemas. Lo último que supe es que estaba en Kalimdor, en la Avanzada de Zoram'gar, al oeste de Vallefresno."
+   ]
+  },
+  "i7266": {
+   "title": "Ur's Treatise on Shadow Magic",
+   "source_sha256": "4709be6f174ee1a515da9f1be9877e011c413d8512849b732668a14fc6c84e66",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Los símbolos y pictogramas arremolinados que llenan las páginas de este manual son demasiado esotéricos para comprenderlos."
+   ]
+  },
+  "o175780": {
+   "title": "Valea Twinblades",
+   "source_sha256": "bdade681bb845ca10da1cfb8fab5b07bc9251941d4430ae1a064c00b406cd32b",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Valea Filosgemelos\n\nGuerrera de la Cruzada Escarlata\n\nCiudadana de Alterac\n\nVista por última vez en lo profundo de Tierras de la Peste del Este"
+   ]
+  },
+  "i5520": {
+   "title": "Velinde's Journal",
+   "source_sha256": "1147220ea8b439f9dff93b1b6611215b6569e16c57f57f058de590737803cd37",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Elune ha cumplido mis deseos. Las vidas de mis camaradas caídos no serán en vano y vengaré sus muertes con la Guadaña de Elune. Es algo antiguo, una rama de madera retorcida y nudosa que podría ser más vieja que los propios kaldorei. Durante horas examiné la herramienta que me concedió la diosa. No es un arma corriente, eso está claro, ni un simple instrumento mágico. Con ella... es como si se debilitaran las barreras del tiempo y el espacio. Al sostener la Guadaña",
+    "entre mis manos, recibí una visión de caos. Hombres lobo... los ferocanis... combatían a un enemigo increíble. Luchaban con el salvajismo propio de su raza primitiva, pero su enemigo no cedía: los Señores de la Llama Esmeralda. Entonces comprendí el verdadero poder de la Guadaña. Al concentrarme en ella pude comunicarme con los ferocanis. Sin embargo, no usé palabras. Era algo distinto... No sabría describirlo. Lo importante era que los ferocanis me oían",
+    "y comprendían. Al canalizar más energía en la Guadaña, las barreras se debilitaron aún más y pude traer ferocanis a nuestro mundo. Logré invocar una treintena en mi primer intento. Me siguieron al combate y, con su fuerza brutal a mis órdenes, nos lanzamos contra los demonios de Frondavil. Elune ha cumplido mis deseos. El bosque será purificado. Que sus bendiciones me acompañen hasta terminar mi trabajo.",
+    "Todo va bien. He invocado a más ferocanis para luchar a mi lado. Aunque son de mente sencilla, han mostrado una capacidad impresionante para coordinar sus ataques y actuar como grupo. He identificado dirigentes en sus manadas y les he dado el mando de pequeños grupos de guerreros. Atacamos muchos lugares del bosque a la vez y mi campaña contra los demonios da fruto. Que las bendiciones de Elune me acompañen hasta terminar mi trabajo.",
+    "Una manada se ha perdido. Envié a los ferocanis a recorrer el bosque y localizar zonas infestadas de demonios, pero no volvieron. Empiezo a preocuparme por los dirigentes a los que confié el control. Son de mente sencilla y llevan al extremo la pequeña autoridad que les he dado. ¿Estoy perdiendo el control? Quizá deje de invocar más ferocanis de momento. Que las bendiciones de Elune me acompañen hasta terminar mi trabajo.",
+    "Aunque no he invocado más ferocanis, su número sigue aumentando. Es como si la Guadaña ya no necesitara mi intervención para invocarlos. Resulta inquietante. He reunido a cuantas manadas he encontrado y les he ordenado permanecer en el Santuario de Mel'Thandris. Mientras tanto, he buscado en las bibliotecas de Darnassus y consultado al Círculo de los Ancestros en Costa Oscura. No he hallado ni una pizca de información sobre estos ferocanis. He oído noticias,",
+    "susurros, de un mago del Kirin Tor llamado Arugal. Por lo que he oído, quizá también haya invocado ferocanis. Consultaría con ese mago, por desagradable que resulte, para averiguar lo que sabe. Los ferocanis son peligrosos y deseo contener su avance. Mañana viajaré al puerto de Los Baldíos y reservaré pasaje al Nuevo Mundo. Que las bendiciones de Elune me acompañen hasta terminar mi trabajo."
+   ]
+  },
+  "i4834": {
+   "title": "Venture Co. Documents",
+   "source_sha256": "72f2a53840826cc0c8ebb1de5866c27a23b2ae437e054747be463f7113a0bb17",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Supervisor Fizsprocket: adjunto encontrarás la lista del equipo solicitado, aprobada por el presidente Razdunk. Me ha pedido recordar y recalcar el gran interés de Ventura y Cía. en establecer operaciones por todo Kalimdor. Nuestros puestos de perforación y minería de Los Baldíos han demostrado ser rentables y eficaces, pero aún esperamos cifras de producción suficientes en Mulgore, tu jurisdicción. La junta asesora comprende las dificultades de establecer",
+    "una operación a gran escala tan cerca de la patria tauren, pero no considera que supongan un gran obstáculo para nuestro plan de negocio general en la zona. Nos alegra saber que ha comenzado la minería en las llanuras ricas en minerales de Mulgore. Por ello, la junta ha aprobado tu solicitud de equipo. Además de la minería, creemos que Mulgore también tiene mucho que ofrecer en madera, así que recibirás varias de nuestras trituradoras del último modelo y materias primas para construir un",
+    "aserradero."
+   ]
+  },
+  "o175781": {
+   "title": "Yana Bloodspear",
+   "source_sha256": "e045d38466431983ab4db0f54309f968aa4d4c3bc8b6da1c345f2fc24f572194",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Yana Lanza de Sangre\n\nSegunda asesina jefe de la Cruzada Escarlata\n\nCiudadana de Dalaran\n\nDesaparecida en los Claros de Tirisfal"
+   ]
+  },
+  "i9280": {
+   "title": "Yellow Punch Card",
+   "source_sha256": "e691497e0834e5db2ff34eebcb79b3f325e494902a19e94aad3434eeec805524",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "¡DATOS ULTRAVITALES! ¡NIVEL DE SEGURIDAD 5122!\n\n01001001 01100110 00100000 01111001 01101111 01110101 00100000 01100011 01100001 01101110 00100000 01110010 01100101 01100001 01100100 00100000 01110100 01101000 01101001 01110011 00101100 00100000 01111001 01101111 01110101 00100111 01110010 01100101 00100000 01110011 01110100 01100001 01101110 01100100 01101001 01101110 01100111 00100000 01110100 01101111 01101111 00100000 01100011 01101100 01101111 01110011 01100101"
+   ]
+  },
+  "i273658": {
+   "title": "Bloody Parchment",
+   "source_sha256": "0d2c25469632ba60689e70e476c0dc52a81a11d85387e26404d3a388c0f268d0",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Es alentador saber que la nueva magia que nos dio nuestro señor ha superado las expectativas. Si el veneno es tan eficaz como afirmas, será una herramienta poderosa para el conflicto que se acerca. Te dije que había mucho que aprender de los no-muertos que llenan nuestra montaña. No te preocupes, no te reprocharé tu escepticismo inicial.\n\nTermina tus asuntos allí y vuelve a la cumbre con tus muestras. No hace falta matar a las bestias. Si se extienden a las zonas vecinas, solo sembrarán caos, confusión y miedo. Al final, eso favorecerá los objetivos del Pacto.\n\nBuen trabajo. Sin duda, el Rey Salvaje estará complacido con lo que has conseguido."
+   ]
+  },
+  "i273659": {
+   "title": "Bloody Parchment",
+   "source_sha256": "0d2c25469632ba60689e70e476c0dc52a81a11d85387e26404d3a388c0f268d0",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Es alentador saber que la nueva magia que nos dio nuestro señor ha superado las expectativas. Si el veneno es tan eficaz como afirmas, será una herramienta poderosa para el conflicto que se acerca. Te dije que había mucho que aprender de los no-muertos que llenan nuestra montaña. No te preocupes, no te reprocharé tu escepticismo inicial.\n\nTermina tus asuntos allí y vuelve a la cumbre con tus muestras. No hace falta matar a las bestias. Si se extienden a las zonas vecinas, solo sembrarán caos, confusión y miedo. Al final, eso favorecerá los objetivos del Pacto.\n\nBuen trabajo. Sin duda, el Rey Salvaje estará complacido con lo que has conseguido."
+   ]
+  },
+  "i274463": {
+   "title": "Tattered Note",
+   "source_sha256": "c284ba9ec90914e272c07a3e20d3c0d607a34073c1de298f5ea5a51633351ce7",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Los túneles han llegado a los riscos de Las Mil Agujas y nuestros preparativos han pasado inadvertidos, pero debemos actuar deprisa. No podemos permitir que los necios del Poblado Viento Libre nos descubran antes de estar listos para avanzar.\n\nEnvía a tu chamán. Con todo lo que Hirzek ha conseguido, estamos preparados para empezar.\n\nLa tormenta rugirá, la tierra temblará y la marea subirá, dejando solo cadáveres que animar a nuestro paso. Sus huesos abrirán un camino hasta...\n\n<La nota termina de golpe al pie de la página rota.>"
+   ]
+  },
+  "i274483": {
+   "title": "The Walks of Shaman",
+   "source_sha256": "076d828f1d02c3aeb3c7b6a96f271dfb49e3cf902577ce94a13875afcf929776",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Azeroth alberga un sinfín de criaturas brillantes. No tiene favoritos. Si aprendes a escucharla, sentir su presencia y responder a su llamada, es sencillo recurrir a sus fuerzas.\n\nCon tiempo y paciencia, cualquiera puede oír a los elementos, pero nuestros tótems nos proporcionan un conducto para canalizar ese poder. Las culturas más civilizadas solo entregan un tótem a quienes se han mostrado dignos, aunque un chamán suficientemente poderoso puede crear uno a voluntad.\n\nHemos visto criaturas que usan los elementos para el mal. Cuando la corrupción de la tierra es suficiente, Azeroth clama por protectores contra esos tótems retorcidos. Con bastantes de esos conductos corruptos, se puede incluso invocar a los elementos contaminados y desterrarlos de nuevo a los planos.",
+    "Los centauros Maraudine de Desolace.\n\nCuando usas el chamanismo para fortalecer a tu pueblo, hace falta armonía con la naturaleza. El viento responde porque así lo elige. Eres su campeón y él se convierte en el poder que permite a tu pueblo alzarse. Los Maraudine, sin embargo, no respetan ese equilibrio.\n\nEste clan solo ha usado el poder para su propio beneficio. Partidas de caza que vuelan por las llanuras tras sus enemigos, hechiceros que canalizan grandes tormentas para quemar aldeas. Ni siquiera eso les basta. Han creado tótems de poder espantoso que obligan a los elementos a someterse a su voluntad.\n\nNo nos corresponde decidir los deseos de Azeroth, pero una cosa está clara: los Maraudine no son amigos de los elementos.",
+    "Los múrlocs Ancalodo de Marjal Revolcafango.\n\nLos múrlocs tienen una conexión innata con el agua, como todo pueblo marino, pero de una forma curiosa. Muchas especies reconocen los elementos en la naturaleza sin recurrir directamente a ellos. Los múrlocs no solo pueden invocar el agua, sino usarla con una inteligencia sorprendente.\n\nSus oráculos tienen una afinidad curiosa con la magia restauradora. El agua es fuente de curación para todas las criaturas, desde la hidratación hasta la medicina, pero los múrlocs han logrado acceder a fuentes de poder aún más profundas. Algunos parecen nacer con un don que a ciertos adeptos les lleva décadas dominar.\n\nEn cualquier otro chamán se consideraría una bendición. Pero, al fin y al cabo, son múrlocs. Su magia curativa es un arma como cualquier otra, que mantiene alerta a sus cazadores y sus costas listas para combatir. El uso de tótems resulta curioso en una especie así, pero no te equivoques. Son tan corruptos como sus amos.",
+    "Los troggs Grutacanto de Tierras Inhóspitas.\n\nA menudo se entiende mal el fuego como fuente de destrucción. Aunque el fuego descontrolado sí es señal de un espíritu sin control, una llama concentrada ilumina hogares y aleja el frío amargo. Un pueblo que domina este elemento sin duda prosperará, tanto en combate como en casa.\n\nLos troggs Grutacanto no son una excepción.\n\nLos troggs son criaturas bastante sencillas. No destacan por grandes demostraciones de poder ni por una agresividad especialmente coordinada. Hasta que descubrieron el fuego, ni siquiera se los consideraba una cultura digna de estudio. Pero los elementos no tienen favoritos.\n\nA medida que han evolucionado, han aprendido a aprovechar el fuego para su barbarie tribal. Recibir un garrotazo es una cosa, pero un trogg agresivo con un tótem de fuego es otra muy distinta. El elemento del fuego quizá respete mantener viva su cultura, pero desde luego no el uso de sus tótems para una crueldad ciega.",
+    "Los Perdidos del Pantano de las Penas.\n\nLa tierra es el elemento de la fortaleza y la firmeza. Un chamán capaz de aprovechar su poder puede garantizar hogares sólidos y guerreros resistentes para su pueblo. Un golpe que derribaría a otro combatiente puede no afectar a quien recibe los dones de la tierra.\n\nTambién puede usarse para derrumbar a otros.\n\nCuando se los deja a su aire, Los Perdidos rara vez interfieren en los asuntos de otras culturas. Merodean en un estado de ensimismamiento vacío, como si no pertenecieran a ningún sitio. Solo los elementos les ofrecen algo a lo que aferrarse.\n\nA diferencia de los demás mencionados, no se cree necesariamente que Los Perdidos deseen de verdad hacer daño. La tierra les ofrece consuelo en su vagar sin rumbo. Pero con él llega su dependencia.\n\nPedir ayuda a los elementos es una cosa y exigir su presencia es otra. Son nuestros guías, no nuestras muletas. Ahora sus tótems están tan retorcidos como los propios Perdidos."
+   ]
+  },
+  "i284844": {
+   "title": "Dragonmaw Dispatch",
+   "source_sha256": "8e063723547fba24c80328ab6593147e16eb21dde6d305265ea31a05f0f66d13",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Averiguad qué ha desenterrado la Alianza. Sabemos lo que hay en estas colinas. Con ello llevaremos un tributo digno a Desgarro.\n\nJefe Nek'rosh"
+   ]
+  },
+  "i5826": {
+   "title": "Kravel's Scheme",
+   "source_sha256": "564704c26250d13b373dadf1527a3a30af5872513dc4836103575a0900f2a6f9",
+   "provenance": "client-text-correction",
+   "note": "Recovered Spanish client wording with broken gender-token delimiters and adjacent punctuation repaired. Kravel's Scheme also closes its unmatched parenthesis. No prose rewrite.",
+   "pages": [
+    "Sr. Pinchabujas:\n\n$gEl portador:La portadora; de esta carta y yo mismo estamos montando un negocio conjunto en el que nos gustaría que participaras.\n\nComo bien sabes, he pasado mucho tiempo en el Desierto de Sal (el negocio mencionado anteriormente está relacionado con las carreras que se organizan en este desierto).\n\nSi te interesan las carreras y, para ser más específicos, apostar a ellas, querrás continuar leyendo, ya que creo que tus conocimientos sobre Tuercespina serían muy útiles en nuestro negocio.",
+    "Los coches cohete que compiten por los desiertos han sido preparados y requieren bastante mantenimiento. Por eso no debe sorprender que haya equipos de boxes por todas partes.\n\nEstos equipos comprueban constantemente el estado de sus coches y efectúan reparaciones y modificaciones cuando es necesario. Es la única manera de que los coches alcancen el máximo rendimiento.\n\nPor esta razón, buscamos la manera de provocar algún fallo en las maniobras del equipo de boxes para que el coche se averíe rápidamente.",
+    "Si somos capaces de controlar qué coche está en plena forma y cuál no, entonces... No tengo que explicarte las ventajas que esto nos proporciona en el juego.\n\nPor eso, Pinchabujas, necesitamos que nos proporciones algo para hacer que el equipo de boxes cometa fallos.\n\n¿Hay en Tuercespina alguna planta, hierba o bebida que pueda usarse para trastocar la mente de los gnomos y los goblins?\n\nK. Karbarbán"
+   ]
+  },
+  "i2223": {
+   "title": "The Collector's Schedule",
+   "source_sha256": "fefea64e7fe4807bb4d753c5d413b487095359b5c7e2e1ede40c5aba97c9c913",
+   "provenance": "client-text-correction",
+   "note": "Recovered Spanish client wording with broken gender-token delimiters and adjacent punctuation repaired. Kravel's Scheme also closes its unmatched parenthesis. No prose rewrite.",
+   "pages": [
+    "Abajo se describe el proceso y el programa de excavación y transporte del oro de las minas de Elwynn a nuestro puesto de mando en los Páramos de Poniente.\n\nPrograma de excavación:\n\nDomingo: 12.30\nMiércoles: 12.30\n\nDurante todos los días señalados, el oro extraído de las minas de Elwynn se recogerá en la plantación de calabazas de Brackwell. El agente encargado de estos cargamentos o \"Recolector\" se reconocerá por su anillo grabado. Un anillo que yo le di.",
+    "Un grupo procedente del puesto de mando de los Defias se pondrá en contacto con el Coleccionista y él trasladará el oro recogido.\n\nAsegúrate de que este proceso se lleve a cabo cuidadosamente y con la mayor discreción. El Coleccionista es responsable del traslado del oro, pero, en última instancia, es responsable de todos los miembros de la Hermandad Defias, garantizando así que sus órdenes sean acatadas con atención y disciplina.",
+    "Recordad, $ghermanos míos:hermanas mías;, que un día fuimos $gartesanos:artesanas;. Realizaremos nuestro trabajo con la misma precisión que utilizamos en nuestro oficio anterior.\n\nEVC"
+   ]
+  },
+  "i254871": {
+   "title": "Bloody Note",
+   "source_sha256": "59f32dee4d59d870abc4d194c81aee34783191397984c0f989ccd6ba2008b3b6",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording. Existing official Spanish pages reused where the pinned English page is identical.",
+   "pages": [
+    "El culto nos tomó por sorpresa. Raani no lo vio venir y Arvensus recibió una espada en el vientre. Yo me llevé un rayo en el pecho y perdí el conocimiento. Ni se molestaron en rematarme... Supongo que creyeron que las heridas acabarían conmigo. Cuando todo termine, sospecho que quizá tengan razón.",
+    "En cuanto cesaron los combates, empezaron a subir unas cajas enormes de piedras de viento a lo alto de la torre. El líder, una especie de sacerdote, mencionó algo acerca de un ritual.\n\nEscribo esta nota para avisar a Aonda en caso de que no consiga volver a Shen'dar, pero aquí están tramando algo. Algo malo.",
+    "Si alguien encuentra esto, por favor, haz cuanto puedas para detenerlos. Solo quedaban unos pocos en la torre cuando garabateé esta nota y me alejé arrastrándome.\n\nIntenta también recuperar del cuerpo de Raani su pluma de la suerte. Le gustaba contar historias exageradas sobre cómo se la arrancó a una especie de ave de fuego. Creo que querría asegurarse de que volviera a casa.\n\nSi también puedes recuperar del cuerpo de Arvensus Cantosombrío el sello de su familia, hazlo. El sumo anciano Cantosombrío es su tío y querrá que vuelva a la familia."
+   ]
+  },
+  "i286200": {
+   "title": "Dillinger's Report",
+   "source_sha256": "8cb68c23f25ab1368fbb0c8ba70b321dd23f102c74c8dcc30deffda4c2f55379",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "La Plaga ha seguido atravesando tanto El Baluarte como el puesto oriental y sus filas crecen cada día. No alcanzo a comprender cómo se permite que persista semejante fallo en nuestras defensas.\n\nComo señalé en mis informes anteriores, la mísera dotación de guardias de Rémol es insuficiente para lo que nos espera. No es cuestión de si nos arrollarán, sino de cuándo. Y, cuando Rémol caiga, servirá como base perfecta para asediar Entrañas.\n\nNo recomiendo, sino que exijo, el envío de refuerzos desde sus lujosos puestos de Entrañas para resolver la situación mientras aún tenemos oportunidad.\n\n--Guardia de la Muerte Dillinger"
+   ]
+  },
+  "i9555": {
+   "title": "Encrypted Letter",
+   "source_sha256": "3fd5cc675bbbd4ce287ee73c78fa75699aeff1121fb7fed06d1518440660009b",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Nunca he sentido tanto orgullo de pertenecer al oficio como en estos últimos años. Jamás ha habido tanta necesidad de asesinos, espías y exploradores. Pensarías que habría más demanda en tiempos de guerra, pero, sorprendentemente, no prosperamos tanto durante la guerra como ahora, cuando la paz empieza a deteriorarse.\n\nMe dijeron que estarías por aquí para aprender algunas cosas. Cuando tengas tiempo, ven a verme junto a los establos de detrás de la abadía.\n\n-Jorik Kerridan, instructor de pícaros"
+   ]
+  },
+  "o25329": {
+   "title": "Kurdran Wildhammer",
+   "source_sha256": "e7c15af2e321a7b577579d524cc92d0578f0f2a11084678a8e3b1068fa6beb4a",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording.",
+   "pages": [
+    "Kurdran Martillo Salvaje\n\nCélebre combatiente de dragones. Maestro de grifos de Pico Nidal. Comandante de la división de jinetes de grifos de la Expedición de la Alianza que marchó al mundo natal de los orcos, Draenor. Presuntamente fallecido.\n\nOiremos las llamadas de Sky-Ree en el viento. Oiremos tronar tu martillo sobre las cumbres. Cabalga con fuerza hacia el más allá, hermano. Los salones de nuestros antepasados te esperan.\n\n- Gran señor feudal Falstad Martillo Salvaje"
+   ]
+  },
+  "i281149": {
+   "title": "Memories of Valor",
+   "source_sha256": "ac6a6a55a00ec10f14135902f665ecdeee413e1693bd94ab1e7f33f33ee7043a",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording. Existing official Spanish pages reused where the pinned English page is identical.",
+   "pages": [
+    "Memorias de los Valor\nUna crónica de la familia Valor y su servicio al Cerro del Cuervo\n\nNo había familia más grandiosa en todos los Reinos del Este que los Valor. Sus hazañas en defensa del pueblo al que juraron proteger fueron auténticos milagros, y su pérdida es una tragedia para el Cerro del Cuervo.\n\nEscribo este relato para que quede constancia de lo brillantes que fueron Grant, Ira, Silvia y Merrick. Que estas líneas sirvan de pequeño consuelo ante lo mucho que lamento su ausencia.",
+    "Merrick Valor, guardia de Villa Oscura\n\nMerrick era el hijo menor de los Valor. Al ver cómo llegaba la corrupción a su patria, eligió unirse a la Guardia en un intento desesperado de proteger a sus seres queridos.\n\nAunque era el más inexperto de la familia, pronto se hizo un nombre entre los guardias. Tenía talento para el arco y se convirtió en uno de los defensores más firmes de Villa Oscura.\n\nSu misión personal era mantener seguros los caminos, atento a las criaturas cada vez más hostiles que llegaban a los bosques.",
+    "Silvia Valor, guardia del Cerro del Cuervo\n\nSilvia Valor ya era toda una heroína local cuando le ofrecieron unirse a la guardia. Si había algo que no podía soportar más que nada en el mundo, eran los oportunistas que se aprovechaban de la gente en apuros.\n\nBandidos, estafadores, agitadores... Daba igual. Silvia acababa con ellos por tratar de sembrar el caos en su querido hogar. Era lógico que se le asignara un puesto de verdadera autoridad para que pudiera llevar a la práctica su visión de la justicia.\n\nSe dice que, hasta su último aliento, nunca abandonó las granjas y los hogares del Bosque del Ocaso. Y que quizá su vigilia tampoco acabara tras su muerte...",
+    "Ira Valor, acechadora del bosque\n\nCuando el padre de Ira enfermó, ella se encargó de recoger comida y provisiones en los bosques cercanos. Aunque no faltaban recursos, era tan probable encontrar alimento como convertirse en él.\n\nCon los años se adaptó a los bosques y prefirió pasar el tiempo entre los árboles oscuros en vez de en el Cerro del Cuervo. Los viajeros perdidos contaban historias de una sombra que parecía abrirles el camino de vuelta a la carretera. Nadie confirmó quién era, pero los rumores corrieron deprisa.\n\nSe dice que Ira sigue en los bosques, ofreciendo una mano que guía a quienes caen presa de sus bestias.",
+    "Lord Grant Valor, patriarca de la familia Valor\n\nLord Grant (que en paz descanse) fue el máximo exponente de la excelencia de la Alianza. Un líder nato, cuya mano firme guio a los habitantes del Cerro del Cuervo hacia la prosperidad. Cuando la oscuridad comenzó a tomar los bosques, fue el primero en movilizar a nuestro pueblo.\n\nPara lord Grant no existía enemigo más repugnante que los no-muertos. Patrullaba personalmente los cementerios del Bosque del Ocaso para mantener a raya a los siervos de la oscuridad. El día que recibió un golpe mortal, todos en la ciudad compartieron su dolor.\n\nGracias al cuidado de su familia, logró volver a sus obligaciones, pero, desde entonces, una persistente dolencia le acompañaría durante el resto de sus días.",
+    "Lady Cassandra Valor, madre amantísima y amada esposa\n\nPoco se sabe sobre Cassandra, salvo su amor por su familia. Crio a unos hijos valientes y cuidó de un marido poderoso, lo que ha llevado a algunos a pensar que la grandeza de la familia se debía exclusivamente a ella. Un halago que la misma Cassandra siempre rechazaba con elegancia.\n\nSi no se la recuerda por nada más, que quede claro que todo lo que hizo fue por su familia."
+   ]
+  },
+  "i281046": {
+   "title": "Raven Hill Tome",
+   "source_sha256": "ac6a6a55a00ec10f14135902f665ecdeee413e1693bd94ab1e7f33f33ee7043a",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording. Existing official Spanish pages reused where the pinned English page is identical.",
+   "pages": [
+    "Memorias de los Valor\nUna crónica de la familia Valor y su servicio al Cerro del Cuervo\n\nNo había familia más grandiosa en todos los Reinos del Este que los Valor. Sus hazañas en defensa del pueblo al que juraron proteger fueron auténticos milagros, y su pérdida es una tragedia para el Cerro del Cuervo.\n\nEscribo este relato para que quede constancia de lo brillantes que fueron Grant, Ira, Silvia y Merrick. Que estas líneas sirvan de pequeño consuelo ante lo mucho que lamento su ausencia.",
+    "Merrick Valor, guardia de Villa Oscura\n\nMerrick era el hijo menor de los Valor. Al ver cómo llegaba la corrupción a su patria, eligió unirse a la Guardia en un intento desesperado de proteger a sus seres queridos.\n\nAunque era el más inexperto de la familia, pronto se hizo un nombre entre los guardias. Tenía talento para el arco y se convirtió en uno de los defensores más firmes de Villa Oscura.\n\nSu misión personal era mantener seguros los caminos, atento a las criaturas cada vez más hostiles que llegaban a los bosques.",
+    "Silvia Valor, guardia del Cerro del Cuervo\n\nSilvia Valor ya era toda una heroína local cuando le ofrecieron unirse a la guardia. Si había algo que no podía soportar más que nada en el mundo, eran los oportunistas que se aprovechaban de la gente en apuros.\n\nBandidos, estafadores, agitadores... Daba igual. Silvia acababa con ellos por tratar de sembrar el caos en su querido hogar. Era lógico que se le asignara un puesto de verdadera autoridad para que pudiera llevar a la práctica su visión de la justicia.\n\nSe dice que, hasta su último aliento, nunca abandonó las granjas y los hogares del Bosque del Ocaso. Y que quizá su vigilia tampoco acabara tras su muerte...",
+    "Ira Valor, acechadora del bosque\n\nCuando el padre de Ira enfermó, ella se encargó de recoger comida y provisiones en los bosques cercanos. Aunque no faltaban recursos, era tan probable encontrar alimento como convertirse en él.\n\nCon los años se adaptó a los bosques y prefirió pasar el tiempo entre los árboles oscuros en vez de en el Cerro del Cuervo. Los viajeros perdidos contaban historias de una sombra que parecía abrirles el camino de vuelta a la carretera. Nadie confirmó quién era, pero los rumores corrieron deprisa.\n\nSe dice que Ira sigue en los bosques, ofreciendo una mano que guía a quienes caen presa de sus bestias.",
+    "Lord Grant Valor, patriarca de la familia Valor\n\nLord Grant (que en paz descanse) fue el máximo exponente de la excelencia de la Alianza. Un líder nato, cuya mano firme guio a los habitantes del Cerro del Cuervo hacia la prosperidad. Cuando la oscuridad comenzó a tomar los bosques, fue el primero en movilizar a nuestro pueblo.\n\nPara lord Grant no existía enemigo más repugnante que los no-muertos. Patrullaba personalmente los cementerios del Bosque del Ocaso para mantener a raya a los siervos de la oscuridad. El día que recibió un golpe mortal, todos en la ciudad compartieron su dolor.\n\nGracias al cuidado de su familia, logró volver a sus obligaciones, pero, desde entonces, una persistente dolencia le acompañaría durante el resto de sus días.",
+    "Lady Cassandra Valor, madre amantísima y amada esposa\n\nPoco se sabe sobre Cassandra, salvo su amor por su familia. Crio a unos hijos valientes y cuidó de un marido poderoso, lo que ha llevado a algunos a pensar que la grandeza de la familia se debía exclusivamente a ella. Un halago que la misma Cassandra siempre rechazaba con elegancia.\n\nSi no se la recuerda por nada más, que quede claro que todo lo que hizo fue por su familia."
+   ]
+  },
+  "i281328": {
+   "title": "Valory Family Crest",
+   "source_sha256": "ac6a6a55a00ec10f14135902f665ecdeee413e1693bd94ab1e7f33f33ee7043a",
+   "provenance": "codex-translation",
+   "note": "Faithful Spanish translation of the pinned English pages, with source page boundaries and reader tokens retained. Not verified Spanish client wording. Existing official Spanish pages reused where the pinned English page is identical.",
+   "pages": [
+    "Memorias de los Valor\nUna crónica de la familia Valor y su servicio al Cerro del Cuervo\n\nNo había familia más grandiosa en todos los Reinos del Este que los Valor. Sus hazañas en defensa del pueblo al que juraron proteger fueron auténticos milagros, y su pérdida es una tragedia para el Cerro del Cuervo.\n\nEscribo este relato para que quede constancia de lo brillantes que fueron Grant, Ira, Silvia y Merrick. Que estas líneas sirvan de pequeño consuelo ante lo mucho que lamento su ausencia.",
+    "Merrick Valor, guardia de Villa Oscura\n\nMerrick era el hijo menor de los Valor. Al ver cómo llegaba la corrupción a su patria, eligió unirse a la Guardia en un intento desesperado de proteger a sus seres queridos.\n\nAunque era el más inexperto de la familia, pronto se hizo un nombre entre los guardias. Tenía talento para el arco y se convirtió en uno de los defensores más firmes de Villa Oscura.\n\nSu misión personal era mantener seguros los caminos, atento a las criaturas cada vez más hostiles que llegaban a los bosques.",
+    "Silvia Valor, guardia del Cerro del Cuervo\n\nSilvia Valor ya era toda una heroína local cuando le ofrecieron unirse a la guardia. Si había algo que no podía soportar más que nada en el mundo, eran los oportunistas que se aprovechaban de la gente en apuros.\n\nBandidos, estafadores, agitadores... Daba igual. Silvia acababa con ellos por tratar de sembrar el caos en su querido hogar. Era lógico que se le asignara un puesto de verdadera autoridad para que pudiera llevar a la práctica su visión de la justicia.\n\nSe dice que, hasta su último aliento, nunca abandonó las granjas y los hogares del Bosque del Ocaso. Y que quizá su vigilia tampoco acabara tras su muerte...",
+    "Ira Valor, acechadora del bosque\n\nCuando el padre de Ira enfermó, ella se encargó de recoger comida y provisiones en los bosques cercanos. Aunque no faltaban recursos, era tan probable encontrar alimento como convertirse en él.\n\nCon los años se adaptó a los bosques y prefirió pasar el tiempo entre los árboles oscuros en vez de en el Cerro del Cuervo. Los viajeros perdidos contaban historias de una sombra que parecía abrirles el camino de vuelta a la carretera. Nadie confirmó quién era, pero los rumores corrieron deprisa.\n\nSe dice que Ira sigue en los bosques, ofreciendo una mano que guía a quienes caen presa de sus bestias.",
+    "Lord Grant Valor, patriarca de la familia Valor\n\nLord Grant (que en paz descanse) fue el máximo exponente de la excelencia de la Alianza. Un líder nato, cuya mano firme guio a los habitantes del Cerro del Cuervo hacia la prosperidad. Cuando la oscuridad comenzó a tomar los bosques, fue el primero en movilizar a nuestro pueblo.\n\nPara lord Grant no existía enemigo más repugnante que los no-muertos. Patrullaba personalmente los cementerios del Bosque del Ocaso para mantener a raya a los siervos de la oscuridad. El día que recibió un golpe mortal, todos en la ciudad compartieron su dolor.\n\nGracias al cuidado de su familia, logró volver a sus obligaciones, pero, desde entonces, una persistente dolencia le acompañaría durante el resto de sus días.",
+    "Lady Cassandra Valor, madre amantísima y amada esposa\n\nPoco se sabe sobre Cassandra, salvo su amor por su familia. Crio a unos hijos valientes y cuidó de un marido poderoso, lo que ha llevado a algunos a pensar que la grandeza de la familia se debía exclusivamente a ella. Un halago que la misma Cassandra siempre rechazaba con elegancia.\n\nSi no se la recuerda por nada más, que quede claro que todo lo que hizo fue por su familia."
+   ]
+  },
+  "i2628": {
+   "title": "Senir's Report",
+   "source_sha256": "a03d44b15b08ffba73c0f5ed08ef265b2922a7928caacccfe23342a061f8861f",
+   "provenance": "client-text-reuse",
+   "note": "Forever Spanish contains six pages, including the two-page Gretchen report inserted between the four original Classic pages. Retains the four official Spanish pages and reuses the authored translation of i280430 for its two untranslated English pages. Not all six pages are verified Spanish client wording.",
+   "additional_source_sha256": {
+    "i280430": "0776ba94c2f3f0ddba3fe68577a9a60d8abf092e242a3ae352867ee6d7c5fccf"
+   },
+   "pages": [
+    "Informe sobre el estado de los trols Peloescarcha en el área general de Dun Morogh\n\nLos trols situados en Dun Morogh están fundamentalmente ubicados en el poblado Peloescarcha, una cueva de montaña en la frontera oeste. Son lo suficientemente numerosos como para causar cierta preocupación, no obstante, parecen estar más que contentos dentro de su cueva. Sin duda, esto se debe a que no desean volver a desatar la ira de los enanos, arriesgándose al exterminio total de su raza. Sus acciones pueden considerarse de carácter territorial, por así decirlo, y creo",
+    "que no suponen una verdadera amenaza para nosotros, siempre que no invadamos su territorio. Esta situación puede resultar poco agradable para el pueblo de los enanos, pero dada la dispersión de los recursos militares, puede ser prudente relegar el exterminio de los trols a un segundo plano, para poder centrarnos en la amenaza de los troggs y los Hierro Negro.\n\nAdjunto copia del informe de mi hermano Grelin sobre Yunquemar.",
+    "Informe sobre el estado de los wendigos en las cuevas cercanas a Kharanos\n\nEscrito por la montaraz Gretchen según los hallazgos del montaraz Cornelius\n\nLos wendigos rara vez abandonan sus cuevas, pero hay informes de ataques contra civiles alrededor de asentamientos cercanos como Kharanos y Las Birras. Parecen cada vez más agitados en su búsqueda de alimento. Ya hemos perdido a uno de los nuestros en los esfuerzos por contenerlos. Aunque eliminar por completo a estas bestias resulta impracticable, los montaraces solicitan",
+    "recursos adicionales para limitar su expansión. No podemos seguir enviando aventureros contra el problema y esperar lo mejor. Tarde o temprano se acabará la comida y los wendigos se verán obligados a atacar directamente nuestras ciudades. Quizá incluso la propia Forjaz.\n\nTransmitid mis condolencias a la familia del montaraz Cornelius, que luchó con valor para proteger a los habitantes de Dun Morogh.",
+    "Informe sobre el estado de los trols Peloescarcha en el área general del Valle de Crestanevada\n\nElaborado por Grelin Barbablanca, enviado especial del senado\n\nDesde el momento en que empecé a observar el movimiento de los trols Peloescarcha en el área del Valle de Crestanevada, he determinado que no representan una especial amenaza para los asentamientos enanos de la zona. De hecho, constituyen esa clase de amenaza que puede eliminarse con un pequeño apoyo adicional por parte del ejército. Con la ayuda de los montaraces instalados en",
+    "el Valle de Crestanevada y unos cuantos mercenarios (pagados con fondos apartados por el senado antes de mi envío), confío en que el problema se resolverá muy pronto.\n\nEsta acción ha sido autorizada por la sanción otorgada por el rey Barbabronce."
+   ]
+  }
+ },
+ "excluded": {
+  "i1078": "Explicitly deprecated item. Its pinned pages duplicate Gramma Stonefield's Note.",
+  "i12564": "The pinned page is the Horde Catapult museum plaque, not the assassination note. Do not bind that translation to this item.",
+  "i1356": "Legacy entry whose pinned page is the last page of Shaw's Report. No verified corresponding body for this title.",
+  "i226421": "Placeholder item (its name is PLACEHOLDER_ASHBRINGER_QUESTITEM_01, its English page a developer's joke): no player-facing text to translate.",
+  "i2793": "Explicitly deprecated item. Its pinned page duplicates Berard's Journal.",
+  "i3677": "Explicitly deprecated item. Its pinned pages duplicate the end of Decrypted Letter.",
+  "i3686": "Explicitly deprecated test item. No player-facing translation is supplied.",
+  "i5174": "The pinned pages are the Control Console Operating Manual, not a note from Neeru. No verified corresponding body.",
+  "i5353": "The pinned pages concern the destruction of Ameth'Aran, ending with Foreboding Plans. No verified corresponding body for this title.",
+  "i5688": "Explicit test item. Its pinned page duplicates Letter to Jin'Zil.",
+  "i6280": "The pinned page is Yuriv's Tombstone, not a missive. No verified corresponding body.",
+  "o181475": "Not in Classic Era or Forever: Wowhead has no page for it in either game (checked 14 October 2026), a later expansion's object left in the pinned database. The user's call: no translation for it.",
+  "o181573": "Not in Classic Era or Forever: Wowhead has no page for it in either game (checked 14 October 2026), a later expansion's object left in the pinned database. The user's call: no translation for it.",
+  "o181895": "The title is a ship-repair book, but the pinned page is an unrelated Outland postscript. No verified corresponding body."
+ }
+}

@@ -26,14 +26,8 @@ jobs:
           curl -sSLo selene.zip https://github.com/Kampfkarren/selene/releases/download/0.32.0/selene-0.32.0-linux.zip
           unzip -qo stylua.zip && unzip -qo selene.zip && chmod +x stylua selene
           echo "$HOME/bin" >> "$GITHUB_PATH"
-      - name: Addon Lua formatted and linted
-        run: stylua --check addon && selene addon/LorekeepersCodex
-      - name: Content builds, content files are up to date
-        run: bun scripts/build.ts --check
-      - name: Simulation
-        run: luajit addon/test/sim.lua
-      - name: Simulation (Forever)
-        run: FOREVER=1 luajit addon/test/sim.lua
+      - name: Lua, content, translations and both game simulations
+        run: bun run check
       - name: Package (its TOCs agree)
         run: bun scripts/package.ts
       # The release's package (release.yml), made without publishing: the

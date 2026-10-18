@@ -31,7 +31,7 @@ jobs:
         for locale in $(ls i18n | grep -E '^[a-z]{2}[A-Z]{2}$'); do
           python3 ../addon-kit/subzones.py "$locale"
           python3 scripts/text_titles.py "$locale"
-          if [ -f "i18n/$locale/words.json" ]; then
+          if [ -f "i18n/$locale/words.json" ] || [ -f "i18n/$locale/regional.json" ]; then
             python3 scripts/book_texts.py "$locale"
             python3 scripts/glossary.py "$locale"
           fi

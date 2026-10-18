@@ -33,14 +33,14 @@ loads exactly what it does today.
 
 - `content/` stays the source of truth, in English. Unlock rules live there
   only.
-- `i18n/<locale>/<chapter>/<id>.md`: a translated page, its title and
+- `i18n/<locale>/pages/<chapter>/<id>.md`: a translated page, its title and
   paragraphs (`[horde]`, `[forever]` and the rest kept), with the hash of the
   English page it was made from. The build calls a translation **stale**
   when its English page changed since, and `--check` lists them.
-- `i18n/<locale>/ui.json`: the interface's words (tabs, buttons, chat lines,
+- `i18n/<locale>/words.json`: the interface's words (tabs, buttons, chat lines,
   the welcome, the settings). The code reads every visible string through
   `L[...]`, English by default.
-- `scripts/build.ts` writes `Text_<game>_<locale>.lua` per language (titles,
+- `scripts/locales.ts` writes `Text_<locale>.lua` per language (titles,
   paragraphs, the interface's words), and a stub for a language not
   translated yet, so the TOC never names a missing file. A page missing from
   a translation shows in English.
@@ -110,6 +110,17 @@ first translation, said so on the store page.
    translations where needed: 391 texts, 29 supplement entries (25 authored
    translations and four documented reuses/empty sources). See
    `german-readable-translations.md` and `german-translation-fixes.md`.
+   Spanish completed 18 October 2026, flagged a first translation pending a
+   native reader: 209 interface strings, 45 chapters and all 438 pages.
+   Archesonus and Parqual address the reader with "tú", with
+   `$gviajero:viajera;` where the source addresses a traveller. The esMX
+   client borrows this prose with reviewed regional game names from
+   `i18n/esMX/regional.json`, applied once to translated values during the
+   build. Each Spanish client loads its own Library catalog and Classic
+   name swaps. Both catalogs contain 433 variants covering 437 readable ids,
+   including every French and German readable. See
+   [spanish-translation.md](spanish-translation.md) for provenance and the
+   source texts still missing from wow-data.
 3. Russian, Portuguese (ptBR), Italian.
 4. Korean, Chinese (zhTW, zhCN): longer to review, their own typography.
 
@@ -119,7 +130,7 @@ phrase tables in English grammar: a much bigger job, last.
 ## Library readable supplements
 
 `python3 scripts/book_texts.py <locale>` reads wow-data's databases, then
-applies `i18n/<locale>/books-supplement.json` (French and German so far).
+applies `i18n/<locale>/books-supplement.json` (French, German, esES and esMX).
 This tracked file preserves translations and source corrections across
 cache refreshes. Each entry records its title,
 the SHA-256 of the pinned English HTML page array (compact UTF-8 JSON), its
@@ -127,7 +138,8 @@ translated pages and provenance. A changed English source stops the import for
 review. `codex-translation` means a faithful translation written for this
 addon, **not verified wording from that language's game client**. `client-text-reuse`
 means pages already collected in that language, with any authored portions
-noted.
+noted. A supplement combining different readable sources may also record
+`additional_source_sha256`, checked against each additional English chain.
 
 The supplement also documents source exceptions. A deprecated/test entry or
 a title pointing to an unrelated page chain stays out of the catalog until
@@ -144,15 +156,20 @@ Texts sharing a title keep their readable ids, with source templates accepting
 the reader's `$N`, `$C` and `$R` and either gender form. Identical English page
 chains share one translation. `python3 scripts/book_index.py`, run after the
 locale imports, writes `i18n/books-index.json`: title aliases, identities and
-first-page templates for English, French and German, plus verified English
-bodies. `bun run locales` writes the shared `Text_Sources.lua`, loaded before
+first-page templates for English, French, German and both Spanish catalogs,
+plus verified English bodies. `bun run locales` writes the shared `Text_Sources.lua`, loaded before
 the client's own language file: titles, identities, and each first page as a
 fingerprint (djb2 over its letters, and their count) or, where the reader's
 name is inside, a pattern. The English bodies go to `Text_enUS.lua` and
 `Text_enGB.lua` alone (`ns.textBodies`): only an English client reads them, and
 sharing them cost every other client 420 KB. Known copies follow language changes in all
-three directions without overwriting their saved pages. Unresolved copies
+supported languages without overwriting their saved pages. Unresolved copies
 stay as recorded. A re-read uses the identity instead of title-only merging.
 `bun run check` verifies that the supplement's pages are shipped, rejects
 bracketed English fallback bodies in the French catalog, and exercises all
-French/German readable variants through the actual loaders on both clients.
+French/German readable variants through the actual loaders on both games.
+Spanish checks also require complete, current authored pages, preserved
+paragraph roles and reader tokens, complete UI/chapter coverage, both
+regional catalogs, gender forms and cross-language saved copies. The daily
+game-data job regenerates locales with either their own interface strings
+or a regional profile, so esMX's catalogs and glossary stay current too.
