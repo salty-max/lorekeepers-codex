@@ -5,13 +5,14 @@
   "license": "MIT",
   "scripts": {
     "build": "bun scripts/build.ts && bun scripts/locales.ts",
-    "check": "bun run kit:check && bun run check:ci",
+    "check": "bun run kit:check && bun run ids && bun run check:ci",
     "check:ci": "bun run lint:lua && bun scripts/build.ts --check && bun scripts/locales.ts --check && bun test scripts/spanish.test.ts && luajit addon/test/sim.lua && FOREVER=1 luajit addon/test/sim.lua && bun scripts/package.ts --check",
     "package": "bun scripts/package.ts",
     "areas": "bun scripts/areas.ts",
     "lint:lua": "stylua --check addon && selene addon/LorekeepersCodex",
     "format:lua": "stylua addon",
     "kit:sync": "bun scripts/root.ts --run addon-kit/sync.ts addon/LorekeepersCodex",
+    "ids": "bun scripts/root.ts --run addon-kit/ids.ts check",
     "kit:check": "bun scripts/root.ts --run addon-kit/sync.ts --check addon/LorekeepersCodex",
     "locales": "bun scripts/locales.ts"
   }

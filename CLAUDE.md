@@ -27,7 +27,8 @@ docs above included.
 ## Commands
 
 ```bash
-bun run check        # the kit's copies, then check:ci (lint, the build's and languages' checks, the Spanish test, the sim on both games: what CI runs)
+bun run check        # the kit's copies, the saved ids, then check:ci (lint, the build's and languages' checks, the Spanish test, the sim on both games: what CI runs)
+bun run ids          # every table saved-ids.json lists keeps the ids it had at the fork point from origin/main (addon-kit's ids.ts)
 bun scripts/root.ts --run addon-kit/q.ts check -- bun run check   # the same, quiet, stamping the tree for the push
 bun run build        # content -> Content_Classic.lua and Content_Forever.lua, the language files
 bun run package      # dist/LorekeepersCodex-<version>.zip for a test in the game
@@ -52,6 +53,9 @@ scripts/release.sh [--version X.Y.Z] [--hold] NOTES.md   # check, tag, push; Act
   semicolons in prose in any language (gender tokens' own `;` aside).
 - Ids are verified (Wowhead Classic, wow-data's card) before writing,
   never guessed. Textures only those the Classic UI itself uses.
+- A regenerated table keeps every id a saved find may hold (`saved-ids.json`,
+  `bun run ids` in the check): an id leaves only with the user's go, under
+  `removed`.
 - Where a page or a text was found is kept by ids only. Every word through
   `L`, the game's names by id in the client's language; a translation names
   what the glossary holds as the game writes it (`scripts/names.ts`).
