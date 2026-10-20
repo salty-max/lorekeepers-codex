@@ -27,7 +27,7 @@ worktree.
 ## Commands
 
 ```bash
-bun run check        # lint, the build's and languages' checks, the Spanish test, the sim on both games
+bun run check        # the kit's copies, then check:ci (lint, the build's and languages' checks, the Spanish test, the sim on both games: what CI runs)
 bun scripts/root.ts --run addon-kit/q.ts check -- bun run check   # the same, quiet, stamping the tree for the push
 bun run build        # content -> Content_Classic.lua and Content_Forever.lua, the language files
 bun run package      # dist/LorekeepersCodex-<version>.zip for a test in the game
