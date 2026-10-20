@@ -11,8 +11,14 @@
  *   bun scripts/areas.ts --forever  Forever's only (Classic's file untouched)
  */
 import { readFileSync, writeFileSync } from "node:fs";
-import { openDb } from "../../wow-data/src/db";
-import { type Game, PINS } from "../../wow-data/src/pins";
+import type * as WowDb from "../../wow-data/src/db";
+import type * as WowPins from "../../wow-data/src/pins";
+import type { Game } from "../../wow-data/src/pins";
+import { familyPath } from "./root";
+
+// through the family folder, from a worktree too (scripts/root.ts)
+const { openDb } = (await import(familyPath("wow-data", "src", "db.ts"))) as typeof WowDb;
+const { PINS } = (await import(familyPath("wow-data", "src", "pins.ts"))) as typeof WowPins;
 
 const foreverOnly = process.argv.includes("--forever");
 type Area = { id: number; name: string; parent: number; continent: number };
