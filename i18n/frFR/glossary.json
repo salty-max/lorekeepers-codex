@@ -4692,6 +4692,10 @@
    "forever": "Ancien du savoir",
    "use": "Ancien du savoir"
   },
+  "Ancient of War": {
+   "forever": "Ancien de la guerre",
+   "use": "Ancien de la guerre"
+  },
   "Argent Dawn": {
    "forever": "L'Aube d'argent",
    "use": "L'Aube d'argent"
@@ -4749,6 +4753,10 @@
    "forever": "L'Ancienne",
    "use": "L'Ancienne"
   },
+  "Elder of Zephras Isle": {
+   "forever": "Ancienne de l'île de Zéphras",
+   "use": "Ancienne de l'île de Zéphras"
+  },
   "Emerald Circle": {
    "classic": "Cercle d'émeraude",
    "forever": "Cercle d'émeraude",
@@ -4763,6 +4771,14 @@
    "classic": "Grand chef",
    "forever": "Grand chef",
    "use": "Grand chef"
+  },
+  "High Elder of Zephras Isle": {
+   "forever": "Grand ancien de l'île de Zéphras",
+   "use": "Grand ancien de l'île de Zéphras"
+  },
+  "High Order": {
+   "forever": "Ordre suprême",
+   "use": "Ordre suprême"
   },
   "High Priestess of Elune": {
    "classic": "Grande prêtresse d'Elune",
@@ -4852,6 +4868,10 @@
    "classic": "Marteau du crépuscule",
    "forever": "Marteau du crépuscule",
    "use": "Marteau du crépuscule"
+  },
+  "Wildhammer Clan": {
+   "forever": "Clan Marteau-hardi",
+   "use": "Clan Marteau-hardi"
   },
   "Wintersaber Trainers": {
    "classic": "Eleveurs de sabres-d'hiver",
