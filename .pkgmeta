@@ -27,6 +27,7 @@ ignore:
   - PLAN.md
   - README.md
   - package.json
+  - saved-ids.json
   - selene.toml
   - stylua.toml
   - wow.yml
