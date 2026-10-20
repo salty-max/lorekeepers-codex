@@ -20,9 +20,9 @@ conventions); salty-max/lorekeepers-codex. Read the family's CLAUDE.md
 | The pages still to add under the lore rule | `docs/lore-expansion.md` |
 | The store page | `addon/CURSEFORGE.md` |
 
-`docs/` is ignored locally (`.git/info/exclude`): the docs above are
-tracked (force-added), anything else there is a local note, absent from a
-worktree.
+A few local review notes in `docs/` are excluded (`.git/info/exclude`):
+absent from git and from a worktree. Everything else there is tracked, the
+docs above included.
 
 ## Commands
 
