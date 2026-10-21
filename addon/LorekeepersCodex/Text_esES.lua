@@ -3365,7 +3365,7 @@ ns.translate({
     ["peoples"] = { "Pueblos y poderes", "Los pueblos, órdenes y facciones que un viajero encuentra en muchas tierras, reunidos en un solo lugar." },
     ["redridge"] = { "Montañas Crestagrana", "Colinas rojas, un lago tranquilo y una población asediada desde el norte." },
     ["searing-gorge"] = { "La Garganta de Fuego", "La cara norte quemada de la montaña y la gran fosa de los Hierro Negro." },
-    ["shen-dralas"] = { "Shen'dralas", "La tierra maldita más allá del Valle de los Huesos, donde los centauros han encontrado a los muertos." },
+    ["shen-dralas"] = { "Shen'dralas", "La tierra maldita del Valle de los Huesos, donde los centauros han encontrado a los muertos." },
     ["silithus"] = { "Silithus", "El desierto de los insectos, el Muro del Escarabajo y lo que duerme detrás." },
     ["silverpine"] = { "Bosque de Argénteos", "Pinos grises entre los Renegados y la puerta cerrada de Gilneas." },
     ["stonetalon"] = { "Sierra Espolón", "Altas cumbres y bosques antiguos que arden bajo las sierras goblins." },
@@ -6179,7 +6179,7 @@ ns.translate({
     ["shen-dralas"] = {
       title = "Shen'dralas",
       text = {
-        { "Shen'dralas se extiende más allá del Valle de los Huesos, en una tierra que según los centauros ya estaba maldita mucho antes de que llegaran. Casi todo lo que sé de ella me viene de los centauros que luchan a sus puertas. Más allá del valle hay un bosque, un templo cuyo artefacto se han llevado los jabaespines Erizapúas, y nombres en los mapas, el Mirador de Sombrapar y los Jardines Desolados, que nadie me ha explicado todavía." },
+        { "Shen'dralas empieza en el Valle de los Huesos, en una tierra que según los centauros ya estaba maldita mucho antes de que llegaran. Casi todo lo que sé de ella me viene de los centauros que luchan a sus puertas. Más allá del valle hay un bosque, un templo cuyo artefacto se han llevado los jabaespines Erizapúas, y nombres en los mapas, el Mirador de Sombrapar y los Jardines Desolados, que nadie me ha explicado todavía." },
         { "Lo que sí puedo contarte es quién llegó primero. Los Magram entraron en el valle y lo convirtieron en un frente. Los Gelkis los siguieron, unos para detenerlos y otros, por lo visto, para unirse a ellos. Al otro extremo se alza un campamento Magram, listo para marchar sobre el bosque, y los Erizapúas se atrincheraron igual de pronto y mantienen a raya a los Magram con lo que se llevaron del templo." },
         { "Escribiré más cuando vuelvan a contármelo los viajeros que vayan más allá del valle." },
       },
@@ -7241,7 +7241,7 @@ ns.translate({
       text = {
         { "En una jaula, entre los campamentos del Martillo Crepuscular en La Garganta de Fuego, está el espíritu de un elfo de la noche, y agradece la compañía. Hace muchos años que no recibe visitantes, dice Zamael Cardolún." },
         { "Cuando era un joven elfo de la noche en Costa Oscura, se cruzó con el Martillo Crepuscular. Algunos de ellos entablaron amistad con él y, para su vergüenza, él perdió la fe en Elune, abrazó el rencor del culto y sus dioses antiguos, e hizo mucho daño en el mundo por su causa. Entonces tuvo una visión procedente de Elune que lo despertó. Arrepentido, empezó a componer una oración para la diosa y grabó su arrepentimiento, su vergüenza, su pesar y su tristeza en una tablilla de oro puro. El culto encontró la tablilla, lo llamó blasfemo y lo ejecutó con la oración sin terminar. Su espíritu sigue atado a este mundo, y la jaula lo retiene aquí como advertencia para cualquiera que traicione al Martillo." },
-        { "Ha aceptado la jaula. Lo que pide es que alguien encuentre la oración entre los idólatras del Martillo y la lleve a Astarii Buscaestelar, en Darnassus, para que sea escuchada. La absolución, dice, es lo último que espera. Cuando la oración llegó a manos de Astarii, esta dijo que se le había devuelto a Elune un alma perdida." },
+        { "Ha aceptado la jaula. Lo que pide es que alguien encuentre la oración entre los idólatras del Martillo y la lleve a Astarii Buscaestelar, en Darnassus, para que sea escuchada. La absolución, dice, es lo último que espera." },
       },
     },
     ["zandalar-tribe"] = {

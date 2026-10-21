@@ -3,8 +3,8 @@ id: the-winterfall-firewater
 title: The Winterfall Firewater
 kind: history
 unlock:
-  - quest: 5087
-  - quest: 5121
+  - quest: 5123
+  - quest: 5128
 also: [winterspring, furbolgs, timbermaw, felwood]
 ---
 Donova Snowden came to Winterspring to study the Frostfire Hot Springs. There are no volcanoes in this country, so she believes the demons of Darkwhisper Gorge, to the south, warm the water. What she had not counted on was the Winterfall. They are not normally an aggressive tribe, but they had begun to guard the larger springs as fiercely as she wanted to study them, and they carried little vials of a green liquid that almost glowed.

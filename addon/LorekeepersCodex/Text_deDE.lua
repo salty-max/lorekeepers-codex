@@ -3368,7 +3368,7 @@ ns.translate({
     ["peoples"] = { "Völker und Mächte", "Die Völker, Orden und Fraktionen, denen ein Reisender in vielen Ländern begegnet, an einem Ort versammelt." },
     ["redridge"] = { "Rotkammgebirge", "Rote Hügel, ein stiller See und eine Stadt, die von Norden her belagert wird." },
     ["searing-gorge"] = { "Sengende Schlucht", "Die verbrannte Nordseite des Berges, und die große Grube der Dunkeleisenzwerge." },
-    ["shen-dralas"] = { "Shen'dralas", "Das verfluchte Land jenseits des Tals der Knochen, wo die Zentauren die Toten gefunden haben." },
+    ["shen-dralas"] = { "Shen'dralas", "Das verfluchte Land um das Tal der Knochen, wo die Zentauren die Toten gefunden haben." },
     ["silithus"] = { "Silithus", "Die Wüste der Insekten, der Skarabäuswall und das, was dahinter schläft." },
     ["silverpine"] = { "Silberwald", "Graue Kiefern zwischen den Verlassenen und dem verschlossenen Tor von Gilneas." },
     ["stonetalon"] = { "Steinkrallengebirge", "Hohe Gipfel und alte Wälder, die unter den Sägen der Goblins brennen." },
@@ -6199,7 +6199,7 @@ ns.translate({
     ["shen-dralas"] = {
       title = "Shen'dralas",
       text = {
-        { "Shen'dralas liegt jenseits des Tals der Knochen, in einem Land, das den Zentauren zufolge schon lange vor ihrer Ankunft verflucht war, und fast alles, was ich davon weiß, stammt von den Zentauren, die an seiner Schwelle kämpfen. Hinter dem Tal liegen ein Wald, ein Tempel, dessen Artefakt die Stacheleber der Borstennacken fortgeschleppt haben, und Namen auf den Karten, Evenshades Warte und die Verlorenen Gärten, die mir noch niemand erklärt hat." },
+        { "Shen'dralas beginnt am Tal der Knochen, in einem Land, das den Zentauren zufolge schon lange vor ihrer Ankunft verflucht war, und fast alles, was ich davon weiß, stammt von den Zentauren, die an seiner Schwelle kämpfen. Hinter dem Tal liegen ein Wald, ein Tempel, dessen Artefakt die Stacheleber der Borstennacken fortgeschleppt haben, und Namen auf den Karten, Evenshades Warte und die Verlorenen Gärten, die mir noch niemand erklärt hat." },
         { "Was ich Euch sagen kann, ist, wer zuerst dort war. Die Magram drangen ins Tal vor und machten es zur Front. Die Gelkis folgten ihnen, die einen, um sie aufzuhalten, die anderen, wie sich zeigt, um sich ihnen anzuschließen. Am anderen Ende steht ein Lager der Magram, bereit, in den Wald zu marschieren, und die Borstennacken haben sich ebenso früh eingegraben und halten die Magram mit dem fern, was sie aus dem Tempel geholt haben." },
         { "Ich werde mehr schreiben, wenn Reisende, die jenseits des Tals waren, zurückkehren und mir davon erzählen." },
       },
@@ -7261,7 +7261,7 @@ ns.translate({
       text = {
         { "In einem Käfig zwischen den Lagern des Twilight-Hammers in der Sengenden Schlucht sitzt der Geist eines Nachtelfen, und er freut sich über Gesellschaft. Es sei schon viele Jahre her, sagt Zamael Lunthistle, dass er Besuch gehabt habe." },
         { "Als junger Nachtelf in Dunkelküste geriet er an den Twilight-Hammer. Einige von ihnen freundeten sich mit ihm an, und zu seiner Schande leugnete er seinen Glauben an Elune, nahm die Parolen des Kults und seine alten Götter an und richtete in ihrem Namen viel Unheil in der Welt an. Dann weckte ihn eine Vision von Elune. Voller Reue begann er ein Gebet an sie und ätzte das Zeugnis seiner Reue, seiner Scham, seines Bedauerns und seiner Trauer in eine Schrifttafel aus reinstem Gold. Der Kult fand die Tafel, brandmarkte ihn als Ketzer und richtete ihn hin, ehe das Gebet fertig war. Sein Geist ist an diese Welt gefesselt, und der Käfig hält ihn hier als Warnung an alle, die den Hammer verraten würden." },
-        { "Mit dem Käfig hat er sich abgefunden. Er bittet nur darum, dass das Gebet bei den Götzenanbetern des Hammers gefunden und zu Astarii Starseeker nach Darnassus gebracht wird, damit es gehört wird. Vergebung, sagt er, erwarte er am allerwenigsten. Als das Gebet Astarii erreichte, sagte sie, Elune sei eine verlorene Seele zurückgegeben worden." },
+        { "Mit dem Käfig hat er sich abgefunden. Er bittet nur darum, dass das Gebet bei den Götzenanbetern des Hammers gefunden und zu Astarii Starseeker nach Darnassus gebracht wird, damit es gehört wird. Vergebung, sagt er, erwarte er am allerwenigsten." },
       },
     },
     ["zandalar-tribe"] = {

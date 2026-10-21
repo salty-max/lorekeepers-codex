@@ -3076,7 +3076,7 @@ ns.content = {
     },
     ["kalaran-windblade"] = {
       title = "Kalaran Windblade", kind = "figure", chapter = "searing-gorge", portrait = 7820,
-      unlock = { { npc = 8479 }, { quest = 3441 } },
+      unlock = { { quest = 3454 }, { quest = 3463 } },
       also = { "the-cauldron", "dark-iron-dwarves", "twilights-hammer", "searing-gorge" },
       text = {
         { "Kalaran Windblade camps in the Searing Gorge with a squire and a grudge. The Dark Irons of the Cauldron killed his father, he says, and when he begged the magistrate in Stormwind for help, nobody listened. Stormwind, as he tells it, would rather not admit that this corner of the world exists, let alone send its precious soldiers to see justice done. So it is vengeance, plain and simple, and he asks whether there is a more passionate cause in the world." },
@@ -3129,7 +3129,7 @@ ns.content = {
       text = {
         { "In a cage among the Twilight's Hammer's camps in the Searing Gorge sits the spirit of a night elf, and he is glad of company. It has been many years, Zamael Lunthistle says, since he had a visitor." },
         { "As a young night elf in Darkshore he fell in with the Twilight's Hammer. Some of them befriended him, and to his shame he turned from Elune and took up the cult's vitriol and its old gods, and did a great deal of harm in the world on their behalf. Then a vision came to him from Elune and woke him. In repentance he began a prayer to her, his remorse, shame, regret and sorrow etched into a tablet of pure gold. The cult found the tablet, branded him a blasphemer and executed him with the prayer unfinished. His spirit is bound to this world, and the cage keeps it here as a warning to anyone who would betray the Hammer." },
-        { "He has accepted the cage. What he asks is that the prayer be found among the Hammer's idol-worshippers and carried to Astarii Starseeker in Darnassus, so that it is heard. Absolution, he says, is the last thing he expects. When the prayer reached Astarii, she said that a lost soul had been returned to Elune." },
+        { "He has accepted the cage. What he asks is that the prayer be found among the Hammer's idol-worshippers and carried to Astarii Starseeker in Darnassus, so that it is heard. Absolution, he says, is the last thing he expects." },
       },
     },
     ["abyssal-council"] = {
@@ -4242,7 +4242,7 @@ ns.content = {
     },
     ["the-winterfall-firewater"] = {
       title = "The Winterfall Firewater", kind = "history", chapter = "winterspring",
-      unlock = { { quest = 5087 }, { quest = 5121 } },
+      unlock = { { quest = 5123 }, { quest = 5128 } },
       also = { "winterspring", "furbolgs", "timbermaw", "felwood" },
       text = {
         { "Donova Snowden came to Winterspring to study the Frostfire Hot Springs. There are no volcanoes in this country, so she believes the demons of Darkwhisper Gorge, to the south, warm the water. What she had not counted on was the Winterfall. They are not normally an aggressive tribe, but they had begun to guard the larger springs as fiercely as she wanted to study them, and they carried little vials of a green liquid that almost glowed." },

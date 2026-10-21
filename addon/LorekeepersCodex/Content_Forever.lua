@@ -32,7 +32,7 @@ ns.content = {
     { id = "ashenvale", title = "Ashenvale", summary = "The ancient forest of the night elves, and the orcs' axes at its edge.", entries = { "ashenvale", "astranaar", "blackfathom-deeps", "dartols-rod", "demon-fall-canyon", "grom-hellscream", "splintertree-post", "warsong-lumber-camp", "warsong-gulch" } },
     { id = "stonetalon", title = "Stonetalon Mountains", summary = "High peaks and old forests, burning under goblin saws.", entries = { "boulderslide-ravine", "stonetalon-mountains", "stonetalon-peak", "sun-rock-retreat", "windshear-crag" } },
     { id = "desolace", title = "Desolace", summary = "A grey, dead country of centaurs, bones and demons.", entries = { "desolace", "mannoroc-coven", "maraudon", "nijels-point", "rexxar", "shadowprey-village", "khans-of-desolace", "kodo-graveyard", "zaetar-and-theradras" } },
-    { id = "shen-dralas", title = "Shen'dralas", summary = "The cursed country past the Valley of Bones, where the centaurs have found the dead.", entries = { "shen-dralas", "the-valley-of-bones" } },
+    { id = "shen-dralas", title = "Shen'dralas", summary = "The cursed country of the Valley of Bones, where the centaurs have found the dead.", entries = { "shen-dralas", "the-valley-of-bones" } },
     { id = "feralas", title = "Feralas", summary = "Giant trees, ogres, and the ruins of the Highborne.", entries = { "camp-mojache", "dire-maul", "feathermoon-stronghold", "feralas", "shandris-feathermoon", "shendralar" } },
     { id = "thousand-needles", title = "Thousand Needles", summary = "A canyon of stone spires, and a salt flat where goblins and gnomes race.", entries = { "arikara", "freewind-post", "rustmaul-dig-site", "shimmering-flats", "thousand-needles" } },
     { id = "tanaris", title = "Tanaris", summary = "The great desert of the south, and the gates of the Watchers.", entries = { "atiesh", "gadgetzan", "tanaris", "caverns-of-time", "sandfury-trolls", "the-tablets-of-mosharu", "uldum", "zulfarrak" } },
@@ -3116,7 +3116,7 @@ ns.content = {
     },
     ["kalaran-windblade"] = {
       title = "Kalaran Windblade", kind = "figure", chapter = "searing-gorge", portrait = 7820,
-      unlock = { { npc = 8479 }, { quest = 3441 } },
+      unlock = { { quest = 3454 }, { quest = 3463 } },
       also = { "the-cauldron", "dark-iron-dwarves", "twilights-hammer", "searing-gorge" },
       text = {
         { "Kalaran Windblade camps in the Searing Gorge with a squire and a grudge. The Dark Irons of the Cauldron killed his father, he says, and when he begged the magistrate in Stormwind for help, nobody listened. Stormwind, as he tells it, would rather not admit that this corner of the world exists, let alone send its precious soldiers to see justice done. So it is vengeance, plain and simple, and he asks whether there is a more passionate cause in the world." },
@@ -3169,7 +3169,7 @@ ns.content = {
       text = {
         { "In a cage among the Twilight's Hammer's camps in the Searing Gorge sits the spirit of a night elf, and he is glad of company. It has been many years, Zamael Lunthistle says, since he had a visitor." },
         { "As a young night elf in Darkshore he fell in with the Twilight's Hammer. Some of them befriended him, and to his shame he turned from Elune and took up the cult's vitriol and its old gods, and did a great deal of harm in the world on their behalf. Then a vision came to him from Elune and woke him. In repentance he began a prayer to her, his remorse, shame, regret and sorrow etched into a tablet of pure gold. The cult found the tablet, branded him a blasphemer and executed him with the prayer unfinished. His spirit is bound to this world, and the cage keeps it here as a warning to anyone who would betray the Hammer." },
-        { "He has accepted the cage. What he asks is that the prayer be found among the Hammer's idol-worshippers and carried to Astarii Starseeker in Darnassus, so that it is heard. Absolution, he says, is the last thing he expects. When the prayer reached Astarii, she said that a lost soul had been returned to Elune." },
+        { "He has accepted the cage. What he asks is that the prayer be found among the Hammer's idol-worshippers and carried to Astarii Starseeker in Darnassus, so that it is heard. Absolution, he says, is the last thing he expects." },
       },
     },
     ["shen-dralas"] = {
@@ -3177,7 +3177,7 @@ ns.content = {
       unlock = { { area = 16651 } },
       also = { "the-valley-of-bones", "khans-of-desolace", "desolace", "quilboar" },
       text = {
-        { "Shen'dralas lies past the Valley of Bones, in country the centaurs say was cursed long before they came, and nearly everything I know of it comes from the centaurs fighting at its door. Beyond the valley there is a forest, a temple whose artifact the Bristleback quilboar have carried off, and names on the maps, Evenshade's Overlook and the Forlorn Gardens, that nobody has yet explained to me." },
+        { "Shen'dralas begins at the Valley of Bones, in country the centaurs say was cursed long before they came, and nearly everything I know of it comes from the centaurs fighting at its door. Beyond the valley there is a forest, a temple whose artifact the Bristleback quilboar have carried off, and names on the maps, Evenshade's Overlook and the Forlorn Gardens, that nobody has yet explained to me." },
         { "What I can tell you is who got there first. The Magram crossed into the valley and made it a front. The Gelkis followed, some to stop them and some, it turns out, to join them. A Magram camp stands at the far end, waiting to march into the forest, and the Bristleback dug in just as early and have held the Magram back with whatever they took from the temple." },
         { "I will write more when travellers who go beyond the valley come back to tell me." },
       },
@@ -4323,7 +4323,7 @@ ns.content = {
     },
     ["the-winterfall-firewater"] = {
       title = "The Winterfall Firewater", kind = "history", chapter = "winterspring",
-      unlock = { { quest = 5087 }, { quest = 5121 } },
+      unlock = { { quest = 5123 }, { quest = 5128 } },
       also = { "winterspring", "furbolgs", "timbermaw", "felwood" },
       text = {
         { "Donova Snowden came to Winterspring to study the Frostfire Hot Springs. There are no volcanoes in this country, so she believes the demons of Darkwhisper Gorge, to the south, warm the water. What she had not counted on was the Winterfall. They are not normally an aggressive tribe, but they had begun to guard the larger springs as fiercely as she wanted to study them, and they carried little vials of a green liquid that almost glowed." },

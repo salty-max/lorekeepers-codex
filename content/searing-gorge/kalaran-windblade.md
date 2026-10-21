@@ -4,8 +4,8 @@ title: Kalaran Windblade
 kind: figure
 portrait: 8479
 unlock:
-  - npc: 8479
-  - quest: 3441
+  - quest: 3454
+  - quest: 3463
 also: [the-cauldron, dark-iron-dwarves, twilights-hammer, searing-gorge]
 ---
 Kalaran Windblade camps in the Searing Gorge with a squire and a grudge. The Dark Irons of the Cauldron killed his father, he says, and when he begged the magistrate in Stormwind for help, nobody listened. Stormwind, as he tells it, would rather not admit that this corner of the world exists, let alone send its precious soldiers to see justice done. So it is vengeance, plain and simple, and he asks whether there is a more passionate cause in the world.

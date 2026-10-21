@@ -426,8 +426,8 @@ Broken Tooth, Zaricotl, 7:XT.
 | ✅ The Thorium Brotherhood | faction | Thorium Point (1446); reputation Thorium Brotherhood (59) friendly |
 | ✅ The Cauldron | place | The Cauldron (246); The Slag Pit (1443); Grimesilt Dig Site (247) |
 | ✅ The Suntara Stones | history | quest Rise, Obsidion! (3566); killing Lathoric the Black (8391) or Obsidion (8400): Dorius Stonetender's betrayal |
-| ✅ Zamael Lunthistle | figure | talking to him (8436); quest Prayer to Elune (3378): the caged night elf spirit, his tale from wow-data's gossip pages |
-| ✅ Kalaran Windblade | figure | talking to him (8479); quest Divine Retribution (3441): vengeance for his father, the Torch of Retribution, his tale from the gossip pages |
+| ✅ Zamael Lunthistle | figure | talking to (or targeting) him (8436); quest Prayer to Elune (3378): the caged night elf spirit, his tale from wow-data's gossip pages (the prayer's Darnassus ending left out: targeting would tell it) |
+| ✅ Kalaran Windblade | figure | quests The Torch of Retribution (3454), Set Them Ablaze! (3463), not on meeting him (npc unlocks fire on targeting, and the page tells the chain): vengeance for his father, the torch, his tale from the gossip pages |
 
 Not paged: Firewatch Ridge, Blackchar Cave, Dustfire Valley, Tanner Camp, the
 Sea of Cinders. Rares without a story: Rekk'tilac, Smoldar, Faulty War Golem,
@@ -819,7 +819,7 @@ Mongress, The Ongar.
 | ✅ Starfall Village | place | Starfall Village (2253) |
 | ✅ The Ruins of Kel'Theril | history | The Ruins of Kel'Theril (2252); Lake Kel'Theril (2251) |
 | ✅ Mazthoril | place | Mazthoril (2245): the blue dragons |
-| ✅ The Winterfall Firewater | history | quests Winterfall Runners (5087), High Chief Winterfall (5121): Donova Snowden, the Deadwood's toxin purified in the hot springs |
+| ✅ The Winterfall Firewater | history | quests The Final Piece (5123), Words of the High Chief (5128), after the High Chief's death the page tells: Donova Snowden, the Deadwood's toxin purified in the hot springs |
 | ✅ Storm Shadowhoof's Trials | creature | killing Ursius, Brumeran or Shy-Rotam (10806, 10807, 10737); their quests (5054-5056): the end of Melor Stonehoof's hunter's path |
 
 Not paged: Frostsaber Rock, Darkwhisper Gorge, Frostwhisper Gorge, Dun Mandarr,

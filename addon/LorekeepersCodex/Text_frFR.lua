@@ -3364,7 +3364,7 @@ ns.translate({
     ["peoples"] = { "Peuples et puissances", "Les peuples, ordres et factions qu'un voyageur rencontre en bien des contrées, réunis en un seul endroit." },
     ["redridge"] = { "Les Carmines", "Des collines rouges, un lac paisible et une ville assiégée par le nord." },
     ["searing-gorge"] = { "Gorge des Vents brûlants", "Le versant nord calciné de la montagne, et la grande fosse des Sombrefer." },
-    ["shen-dralas"] = { "Shen'dralas", "Le pays maudit au-delà de la Vallée des Ossements, où les centaures ont trouvé les morts." },
+    ["shen-dralas"] = { "Shen'dralas", "Le pays maudit de la Vallée des Ossements, où les centaures ont trouvé les morts." },
     ["silithus"] = { "Silithus", "Le désert des insectes, le Mur du scarabée, et ce qui dort derrière." },
     ["silverpine"] = { "Forêt des Pins argentés", "Des pins gris entre les Réprouvés et la porte close de Gilnéas." },
     ["stonetalon"] = { "Les Serres-Rocheuses", "De hauts pics et de vieilles forêts, qui brûlent sous les scies des gobelins." },
@@ -6207,7 +6207,7 @@ ns.translate({
     ["shen-dralas"] = {
       title = "Shen'dralas",
       text = {
-        { "Shen'dralas s'étend derrière la Vallée des Ossements, dans un pays que les centaures disent maudit depuis bien avant leur arrivée, et presque tout ce que j'en sais me vient des centaures qui se battent à sa porte. Passé la vallée, il y a une forêt, un temple dont les huranes Dos-hirsute ont emporté l'artefact, et des noms sur les cartes, le Surplomb d'Ombrégale et les Jardins Lugubres, que personne ne m'a encore expliqués." },
+        { "Shen'dralas commence à la Vallée des Ossements, dans un pays que les centaures disent maudit depuis bien avant leur arrivée, et presque tout ce que j'en sais me vient des centaures qui se battent à sa porte. Passé la vallée, il y a une forêt, un temple dont les huranes Dos-hirsute ont emporté l'artefact, et des noms sur les cartes, le Surplomb d'Ombrégale et les Jardins Lugubres, que personne ne m'a encore expliqués." },
         { "Ce que je peux vous dire, c'est qui est arrivé le premier. Les Magram ont franchi la vallée et en ont fait un front. Les Gelkis ont suivi, les uns pour les arrêter, les autres, semble-t-il, pour les rejoindre. Un camp magram se dresse à l'autre bout, prêt à marcher sur la forêt, et les Dos-hirsute se sont retranchés tout aussi tôt, tenant les Magram en respect avec ce qu'ils ont pris dans le temple." },
         { "J'en écrirai davantage quand les voyageurs qui iront au-delà de la vallée reviendront me le raconter." },
       },
@@ -7269,7 +7269,7 @@ ns.translate({
       text = {
         { "Dans une cage, au milieu des camps que le Marteau du crépuscule tient dans la Gorge des Vents brûlants, se tient l'esprit d'un elfe de la nuit, et il est heureux d'avoir de la compagnie. Cela fait des années, dit Zamael Lunthistle, qu'il n'a pas eu de visiteur." },
         { "Jeune elfe de la nuit à Sombrivage, il croisa le chemin du Marteau du crépuscule. Certains se lièrent d'amitié avec lui et, à sa grande honte, il repoussa sa foi en Elune pour embrasser le venin du culte et ses Dieux très anciens, et fit beaucoup de mal en ce monde pour leur compte. Puis une vision venue d'Elune le réveilla. En repentance, il commença une prière adressée à la déesse, et grava sur une tablette en or pur ses remords, sa honte, ses regrets et sa peine. Le culte trouva la tablette, le traita de blasphémateur et l'exécuta, sa prière inachevée. Son esprit reste lié à ce monde, et la cage le retient ici en guise d'avertissement pour quiconque voudrait trahir le Marteau." },
-        { "Il a accepté la cage. Ce qu'il demande, c'est que la prière soit retrouvée chez les adorateurs d'idoles du Marteau et portée à Astarii Starseeker, à Darnassus, pour qu'elle soit entendue. L'absolution, dit-il, est bien la dernière chose qu'il attende. Quand la prière parvint à Astarii, elle dit qu'un esprit égaré avait été ramené à Elune." },
+        { "Il a accepté la cage. Ce qu'il demande, c'est que la prière soit retrouvée chez les adorateurs d'idoles du Marteau et portée à Astarii Starseeker, à Darnassus, pour qu'elle soit entendue. L'absolution, dit-il, est bien la dernière chose qu'il attende." },
       },
     },
     ["zandalar-tribe"] = {
