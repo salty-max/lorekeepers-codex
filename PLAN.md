@@ -383,7 +383,7 @@ Putridius, The Husk, the Scarlet rare elites.
 | Page | Kind | Unlocks on |
 |---|---|---|
 | ✅ Eastern Plaguelands | place | the zone (139) |
-| ✅ Light's Hope Chapel | place | Light's Hope Chapel (2268) ❓ the battle there: vanilla sources only |
+| ✅ Light's Hope Chapel | place | Light's Hope Chapel (2268): Korfax's tale of Mograine's Dreadnaught armour ❓ the battle there: vanilla sources only |
 | ✅ Tirion Fordring | figure | talking to him (1855): the exiled paladin and Eitrigg |
 | ✅ Darrowshire | history | Darrowshire (2262); quest The Battle of Darrowshire (5721): Pamela Redpath |
 | ✅ Tyr's Hand | place | Tyr's Hand (2266); The Scarlet Basilica (2267) |
@@ -449,7 +449,7 @@ dragons), Blackrock Pass and Stronghold (the Blackrock clan), Terror Wing Path.
 Rares without a story: Hematos, Thauris Balgarr, Gruklash, Malfunctioning
 Reaver, Hahk'Zor, Gorgon'och, Deathmaw, Terrorspark, Volchan.
 
-## Blackrock Mountain (10 pages, all written)
+## Blackrock Mountain (13 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -463,9 +463,12 @@ Reaver, Hahk'Zor, Gorgon'och, Deathmaw, Terrorspark, Volchan.
 | ✅ Ragnaros | figure | killing him (11502) |
 | ✅ Blackwing Lair | place | the raid (2677) |
 | ✅ Nefarian | figure | killing him (11583), or Lord Victor Nefarius (10162) |
+| ✅ Franclorn Forgewright | figure | talking to (or targeting) him (8888); quests Dark Iron Legacy (3801, 3802) |
+| ✅ Vaelastrasz | figure | talking to (or targeting) Vaelan (10296); killing Vaelastrasz the Corrupt (13020): Vaelan's tale, Deathwing and the Demon Soul |
+| ✅ The Chromatic Flight | creature | any chromatic kill (10442, 10447, 10814, 14020, 14261–14265, 14302); talking to (or targeting) Awbee (10740); Blackwing Lair (2677): Vaelan's and Awbee's tales |
 
 Not paged: the Grim Guzzler, Lothos Riftwaker, General Drakkisath (in the
-Spire), Majordomo Executus (in Ragnaros), Vaelastrasz (in Nefarian).
+Spire), Majordomo Executus (in Ragnaros).
 
 ## Swamp of Sorrows (6 pages, all written)
 
@@ -651,7 +654,7 @@ Valley, Land's End Beach, Sandsorrow Watch. Rares without a story: Krazzilak,
 Jin'Zallah, Omgorn, Cyclok, Kregg Keelhaul, Soriid, Haarka, Greater Firebird,
 Murderous Blisterpaw.
 
-## Un'Goro Crater (4 pages, all written)
+## Un'Goro Crater (5 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -659,6 +662,7 @@ Murderous Blisterpaw.
 | ✅ Marshal's Refuge | place | Marshal's Refuge (541) |
 | ✅ The Crystal Pylons | history | quest Making Sense of It (4321); talking to J.D. Collie (9117): the titans' pylons |
 | ✅ Fire Plume Ridge | place | Fire Plume Ridge (537) |
+| ✅ Lar'korwi | creature | killing him (9684); quest The Bait for Lar'korwi (4292): Torwa Pathfinder's chain (4290–4292) |
 
 Not paged: Lakkari Tar Pits, Golakka Hot Springs, Terror Run, the Marshlands,
 Fungal Rock, Ironstone Plateau, the Slithering Scar (silithid). Rares without a

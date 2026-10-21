@@ -467,6 +467,10 @@
   "name": "Shadow Lord Fel'dan",
   "display": 10198
  },
+ "9684": {
+  "name": "Lar'korwi",
+  "display": 11318
+ },
  "10158": {
   "name": "Moonkin",
   "display": 5927
@@ -566,6 +570,10 @@
  "13278": {
   "name": "Duke Hydraxis",
   "display": 10849
+ },
+ "14020": {
+  "name": "Chromaggus",
+  "display": 14367
  },
  "14368": {
   "name": "Lorekeeper Lydros",

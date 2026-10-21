@@ -7,7 +7,7 @@ is an original text written as a note from Archesonus, Royal Historian of
 Ironforge. A Horde character's copy comes from Parqual Fintallas, a historian
 of the Undercity, who adds notes of his own in the margins.
 
-The Codex has **432 pages in 44 chapters**, or **447 pages in 46 chapters on
+The Codex has **434 pages in 44 chapters**, or **449 pages in 46 chapters on
 Forever**. It covers the original world's zones, landmarks, figures, peoples,
 classes and history. Each race gets its own foreword.
 

@@ -22,7 +22,7 @@ ns.content = {
     { id = "badlands", title = "The Badlands", summary = "A red wasteland of canyons, and beneath it the titans' vault of Uldaman.", entries = { "angor-fortress", "hammertoes-digsite", "kargath", "the-badlands", "the-lost-dwarves", "platinum-discs", "theldurin-the-lost", "uldaman" } },
     { id = "searing-gorge", title = "Searing Gorge", summary = "The burnt north side of the mountain, and the Dark Irons' great pit.", entries = { "kalaran-windblade", "searing-gorge", "the-cauldron", "the-suntara-stones", "thorium-brotherhood", "zamael-lunthistle" } },
     { id = "burning-steppes", title = "Burning Steppes", summary = "The ash plain south of the mountain, where Redridge once stood.", entries = { "anduin-lothar", "burning-steppes", "marshal-windsor", "morgans-vigil", "altar-of-storms", "ruins-of-thaurissan" } },
-    { id = "blackrock-mountain", title = "Blackrock Mountain", summary = "The Firelord's mountain, and the war inside it.", entries = { "blackrock-depths", "blackrock-mountain", "blackrock-spire", "blackwing-lair", "dagran-thaurissan", "franclorn-forgewright", "molten-core", "nefarian", "moira-bronzebeard", "ragnaros", "vaelastrasz", "rend-blackhand" } },
+    { id = "blackrock-mountain", title = "Blackrock Mountain", summary = "The Firelord's mountain, and the war inside it.", entries = { "blackrock-depths", "blackrock-mountain", "blackrock-spire", "blackwing-lair", "dagran-thaurissan", "franclorn-forgewright", "molten-core", "nefarian", "moira-bronzebeard", "ragnaros", "the-chromatic-flight", "vaelastrasz", "rend-blackhand" } },
     { id = "swamp-of-sorrows", title = "Swamp of Sorrows", summary = "A drowned country of mist and mire, and a temple that sank for its sins.", entries = { "eranikus", "stonard", "swamp-of-sorrows", "the-fallen-hero", "the-lost-ones", "the-temple-of-atalhakkar" } },
     { id = "blasted-lands", title = "Blasted Lands", summary = "The red waste around the Dark Portal.", entries = { "blasted-lands", "kirith-the-damned", "lord-kazzak", "nethergarde-keep", "razelikh-the-defiler", "the-dark-portal" } },
     { id = "deadwind-pass", title = "Deadwind Pass", summary = "The dead valley of the last Guardian.", entries = { "deadwind-pass", "karazhan" } },
@@ -34,7 +34,7 @@ ns.content = {
     { id = "feralas", title = "Feralas", summary = "Giant trees, ogres, and the ruins of the Highborne.", entries = { "camp-mojache", "dire-maul", "feathermoon-stronghold", "feralas", "shandris-feathermoon", "shendralar" } },
     { id = "thousand-needles", title = "Thousand Needles", summary = "A canyon of stone spires, and a salt flat where goblins and gnomes race.", entries = { "arikara", "freewind-post", "rustmaul-dig-site", "shimmering-flats", "thousand-needles" } },
     { id = "tanaris", title = "Tanaris", summary = "The great desert of the south, and the gates of the Watchers.", entries = { "atiesh", "gadgetzan", "tanaris", "caverns-of-time", "sandfury-trolls", "the-tablets-of-mosharu", "uldum", "zulfarrak" } },
-    { id = "ungoro-crater", title = "Un'Goro Crater", summary = "A lost world in a crater, and the mysterious crystals.", entries = { "fire-plume-ridge", "linken", "marshals-refuge", "crystal-pylons", "ungoro-crater" } },
+    { id = "ungoro-crater", title = "Un'Goro Crater", summary = "A lost world in a crater, and the mysterious crystals.", entries = { "fire-plume-ridge", "larkorwi", "linken", "marshals-refuge", "crystal-pylons", "ungoro-crater" } },
     { id = "silithus", title = "Silithus", summary = "The insect desert, the Scarab Wall, and what sleeps behind it.", entries = { "cthun", "cenarion-hold", "prince-thunderaan", "ruins-of-ahnqiraj", "silithus", "temple-of-ahnqiraj", "abyssal-council", "the-scarab-wall", "the-scepter-of-the-shifting-sands" } },
     { id = "durotar", title = "Durotar and Orgrimmar", summary = "The red land Thrall gave his people, and the city named for the Warchief who freed them.", entries = { "daelin-proudmoore", "durotar", "eitrigg", "orgrimmar", "ragefire-chasm", "razor-hill", "senjin-village", "darkspear-trolls", "echo-isles", "valley-of-trials", "thrall", "tiragarde-keep", "voljin" } },
     { id = "mulgore", title = "Mulgore and Thunder Bluff", summary = "The green plains of the tauren, and the city on the mesas.", entries = { "hamuul-runetotem", "bloodhoof-village", "cairne-bloodhoof", "camp-narache", "ghost-howl", "mulgore", "red-rocks", "earth-mother", "thunder-bluff" } },
@@ -832,12 +832,23 @@ ns.content = {
         { "Rend now claims the title of Warchief from Blackrock Spire, serving Nefarian and commanding the dragon's orcs. Thrall rejects that claim and sends champions to kill him, with Eitrigg's knowledge of the Blackrock helping guide the response. You will hear two claims to the Horde here, but only one of these leaders answers to a black dragon." },
       },
     },
+    ["the-chromatic-flight"] = {
+      title = "The Chromatic Flight", kind = "creature", chapter = "blackrock-mountain", portrait = 14367,
+      unlock = { { kill = 10442 }, { kill = 10447 }, { kill = 10814 }, { kill = 14020 }, { kill = 14261 }, { kill = 14262 }, { kill = 14263 }, { kill = 14264 }, { kill = 14265 }, { kill = 14302 }, { npc = 10740 }, { area = 2677 } },
+      also = { "nefarian", "blackwing-lair", "vaelastrasz", "black-dragonflight", "blue-dragonflight", "blackrock-spire" },
+      text = {
+        { "Vaelastrasz, who meets travellers in Blackrock Spire as Vaelan, says that before his banishment Deathwing was trying to breed offspring of his own: half-breeds immune to the powers of the Aspects, and wholly under his control. He failed. His son Nefarian, to judge by what crawls about the upper Spire, has at least partly succeeded. It was Ysera, the Aspect of Dreams, who saw the abominations and forced the dragons to act." },
+        { "Awbee knows how they are made. He is a young whelp of the blue flight, rescued in the Spire just as his torturers were about to throw him to the fiends below. Dragon riders came in the night on black dragons, he says, and carried off whelps like him. He watched his brothers and sisters used in Nefarian's experiments, and from their essence the chromatic flight was made. Nefarian ordered those found unsuitable destroyed at once, but their keepers tortured them first, then threw what was left into the lava or to the legion waiting below." },
+        { "What came of it can be met in the upper Spire and in the lair above it: whelps and dragonspawn in the colours of every flight, drakonids bred from each of the five, and Chromaggus, the greatest of them, deep in Blackwing Lair. The blood of all five flights went into this brood, and only the black flight had any say in it." },
+      },
+    },
     ["vaelastrasz"] = {
       title = "Vaelastrasz", kind = "figure", chapter = "blackrock-mountain", portrait = 13992,
       unlock = { { npc = 10296 }, { kill = 13020 } },
-      also = { "red-dragonflight", "nefarian", "blackwing-lair", "blackrock-spire", "the-scepter-of-the-shifting-sands" },
+      also = { "red-dragonflight", "nefarian", "blackwing-lair", "blackrock-spire", "the-chromatic-flight", "the-scepter-of-the-shifting-sands" },
       text = {
         { "Vaelastrasz is a red dragon of the Dragonqueen's flight, and a thousand years ago he was entrusted with a shard of the scepter that sealed Ahn'Qiraj. In Blackrock Spire he appears to mortals as Vaelan, in a form, as he puts it, that they can bear to look at, and he helps the bold forge the Seal of Ascension that opens the upper citadel to them." },
+        { "He has seen the dragons brought to the edge of extinction, he says: by the Burning Legion's onslaught and the Demon Soul, by the Aspects' division and Deathwing's rise, and by the Dragonmaw, who enslaved his own queen, Alexstrasza. Deathwing was Neltharion once, the Aspect of the world's strength, given power over it by the titan Khaz'goroth, and he talked the other four Aspects into giving their powers to the Demon Soul, which left them weak and divided. Now his son Nefarian holds the Spire and carries on his father's work, behind ancient wards that no dragon of another flight can pass. A mortal with the Seal can." },
         { "The forging takes gems from three of the Spire's generals and the breath of a black drake whose will has been broken. The red flight has never minded borrowing its enemy's fire." },
         { "Nefarian caught him in the end. In Blackwing Lair he waits, twisted by the black dragon's corruption, and begs those who reach him to take the scepter shard back before it is destroyed. 'Too late, friends,' he says, and turns on them. Those who bring him down are told afterwards that his soul is at ease. I hope so." },
       },
@@ -1727,10 +1738,11 @@ ns.content = {
     ["lights-hope-chapel"] = {
       title = "Light's Hope Chapel", kind = "place", chapter = "eastern-plaguelands",
       unlock = { { area = 2268 } },
-      also = { "argent-dawn", "church-of-the-holy-light", "naxxramas", "kelthuzad" },
+      also = { "argent-dawn", "church-of-the-holy-light", "naxxramas", "kelthuzad", "the-ashbringer", "scarlet-crusade" },
       text = {
-        { "Light's Hope is a small stone chapel on consecrated ground in the eastern Plaguelands. Lord Maxwell Tyrosus leads the Argent Dawn there. Anyone fighting the Scourge may find a welcome, whether they come from the Alliance or the Horde." },
-        { "When Naxxramas appeared above the country, even the Scarlet Crusade met the Argent Dawn here to agree on a common fight. Kel'Thuzad's captured phylactery was later brought to the chapel. A traveller passing its walls sees a modest building for a place where so many enemies have had reason to meet." },
+        { "Light's Hope is a small stone chapel on consecrated ground in the Eastern Plaguelands. Lord Maxwell Tyrosus leads the Argent Dawn there. Anyone fighting the Scourge may find a welcome, whether they come from the Alliance or the Horde." },
+        { "When Naxxramas appeared above the country, even the Scarlet Crusade met the Argent Dawn here to agree on a common fight. Kel'Thuzad's captured phylactery was later brought to the chapel. To a traveller passing its walls it looks too modest for a place where so many enemies have had reason to meet." },
+        { "Korfax, Champion of the Light, speaks there for the Brotherhood of the Light, which he describes as the Argent Dawn with its conscience taken out, or the Scarlet Crusade without the fanaticism. He also tells of the first Dreadnaught armour, made for Highlord Mograine alone. In it, Korfax says, the Highlord looked like something out of the Nether as he cut through a hundred Scourge with the Ashbringer raised and walked out of the dust and flame. After Mograine's death the knights of Lordaeron wore suits like it in his honour, and for every one of them who fell, more took up the fight. Korfax calls that death controversial, which is a kind word for it." },
       },
     },
     ["nathanos-blightcaller"] = {
@@ -3888,6 +3900,16 @@ ns.content = {
       text = {
         { "Fire Plume Ridge rises in the middle of Un'Goro, with lava on its slopes and fire elementals among the flows. Blazerunner occupies a cave near the peak. The volcano gives the crater's explorers a conspicuous subject for study." },
         { "Ringo went to investigate and was found in a cave on its southern slope, lost and badly overheated. The scholars at Marshal's Refuge still want to know what lies at the ridge's heart. A traveller can share their curiosity without sharing Ringo's preparations." },
+      },
+    },
+    ["larkorwi"] = {
+      title = "Lar'korwi", kind = "creature", chapter = "ungoro-crater", portrait = 11318,
+      unlock = { { kill = 9684 }, { quest = 4292 } },
+      also = { "ungoro-crater", "marshals-refuge", "tauren" },
+      text = {
+        { "Torwa Pathfinder, a tauren camped in Un'Goro, has a score to settle with Lar'korwi, the great raptor who rules the crater's ravasaurs. Long ago, Torwa says, a brother of his took some meat from one of Lar'korwi's kills without knowing that the raptor was watching from the trees. Lar'korwi stalked him for days and wrecked whatever he had touched. At last the brother tried to flee the crater, and Lar'korwi killed him not far from where Torwa now waits." },
+        { "Torwa's plan is to make the beast come to him. Whoever steals meat from a fresh kill will be followed, as his brother was. The scent glands of Lar'korwi's mates, taken among the ravasaur eggs, make a lure, and the stolen meat, rubbed with it and left on a mountain trail among the bones of great creatures long gone, should draw him out. Torwa describes a massive beast with claws like the finest blades, and promises death to whoever meets his eyes." },
+        { "Those who bring back his head are praised in the Earth Mother's name: only the greatest of Torwa's ancestors, he says, could have done such a thing. Torwa supplied the plan. The stealing, the gathering and the fighting he left to whoever he could talk into it." },
       },
     },
     ["linken"] = {

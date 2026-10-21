@@ -5370,6 +5370,14 @@ ns.translate({
         { "Ihr Magistrat Solomon ist ein vorsichtiger Mann mit sehr vielen Sorgen. Die Blackrock halten die Burg im Norden und sperren seine Leute in ihrer Stadt ein. Er hat Stormwind um Hilfe gebeten, und die Antwort kam zurück, es gebe nicht genug Soldaten, um sie auf bloße Vermutungen hin zu entbehren. Seither hat er erfahren, was die Orcs der Blackrock wirklich antreibt und wer in Stormwind ihn nicht gehört haben wollte. Seenhain, so vermute ich, wird es nicht vergessen." },
       },
     },
+    ["larkorwi"] = {
+      title = "Lar'korwi",
+      text = {
+        { "Torwa Pathfinder, ein Tauren, der im Un'Goro-Krater lagert, hat mit Lar'korwi noch eine Rechnung offen, dem großen Raptor, der im Krater über alle Ravasaurus-Rudel herrscht. Vor langer Zeit, erzählt Torwa, stahl einer seiner Brüder ein Stück Fleisch aus Lar'korwis Jagdbeute, ohne zu wissen, dass der Raptor ihn vom Wald aus beobachtete. Lar'korwi verfolgte ihn tagelang und verwüstete alles, was er berührt hatte. Schließlich versuchte der Bruder, aus dem Krater zu fliehen, und Lar'korwi tötete ihn nicht weit von der Stelle, an der Torwa heute wartet." },
+        { "Torwas Plan ist es, die Bestie zu sich zu locken. Wer Fleisch von einem frisch gerissenen Tier stiehlt, wird verfolgt wie einst der Bruder. Die Duftdrüsen von Lar'korwis Weibchen, bei den Ravasaurus-Eiern geholt, ergeben einen Köder, und das gestohlene Fleisch, damit eingerieben und auf einem Bergpfad zwischen die Knochen großer, längst verschwundener Kreaturen gelegt, sollte ihn hervorlocken. Torwa beschreibt ein riesiges Ungetüm mit Klauen so scharf wie die edelsten Klingen und verspricht jedem den Tod, der ihm in die Augen sieht." },
+        { "Wer Lar'korwis Kopf zurückbringt, wird im Namen der Erdenmutter gepriesen: Nur die größten von Torwas Vorfahren, sagt er, hätten so etwas vollbringen können. Torwa lieferte den Plan. Das Stehlen, das Sammeln und das Kämpfen überließ er jedem, den er dazu überreden konnte." },
+      },
+    },
     ["leper-gnomes"] = {
       title = "Die Lepragnome",
       text = {
@@ -5381,8 +5389,9 @@ ns.translate({
     ["lights-hope-chapel"] = {
       title = "Kapelle des hoffnungsvollen Lichts",
       text = {
-        { "Das hoffnungsvolle Licht ist eine kleine Steinkapelle auf geweihtem Boden im Osten der Pestländer. Lord Maxwell Tyrosus führt dort die Argentumdämmerung. Jeder, der gegen die Geißel kämpft, kann dort willkommen sein, ob er von der Allianz oder von der Horde kommt." },
-        { "Als Naxxramas über dem Land erschien, traf sich selbst der Scharlachrote Kreuzzug hier mit der Argentumdämmerung, um sich auf einen gemeinsamen Kampf zu einigen. Kel'Thuzads erbeutete Phylakterie wurde später in die Kapelle gebracht. Ein Reisender, der an ihren Mauern vorbeikommt, sieht ein bescheidenes Gebäude für einen Ort, an dem so viele Feinde Grund hatten, sich zu treffen." },
+        { "Das hoffnungsvolle Licht ist eine kleine Steinkapelle auf geweihtem Boden in den Östlichen Pestländern. Lord Maxwell Tyrosus führt dort die Argentumdämmerung. Jeder, der gegen die Geißel kämpft, findet dort Aufnahme, ob er von der Allianz oder von der Horde kommt." },
+        { "Als Naxxramas über dem Land erschien, traf sich selbst der Scharlachrote Kreuzzug hier mit der Argentumdämmerung, um sich auf einen gemeinsamen Kampf zu einigen. Kel'Thuzads erbeutete Phylakterie wurde später in die Kapelle gebracht. Einem Reisenden, der an ihren Mauern vorbeikommt, erscheint sie zu bescheiden für einen Ort, an dem so viele Feinde Grund hatten, sich zu treffen." },
+        { "Korfax der Held des Lichts spricht dort für die Bruderschaft des Lichts, die er als Argentumdämmerung ohne Gewissen beschreibt, oder als Scharlachroten Kreuzzug ohne den blinden Fanatismus. Er erzählt auch von der ersten Schreckenspanzer-Rüstung, die allein für Hochlord Mograine angefertigt wurde. Darin, sagt Korfax, sah der Hochlord aus wie etwas aus dem Nether, wenn er sich mit erhobenem Aschenbringer durch hundert Diener der Geißel schlug und aus Staub und Flammen wieder hervortrat. Nach Mograines Tod trugen die Ritter Lordaerons ähnliche Rüstungen zu seinen Ehren, und für jeden von ihnen, der fiel, nahmen andere den Kampf auf. Korfax nennt diesen Tod umstritten, und das ist noch milde ausgedrückt." },
       },
     },
     ["linken"] = {
@@ -6589,6 +6598,14 @@ ns.translate({
         { "Die kleinere Grabung von Grimesilt liegt südöstlich davon. Unter der Hauptgrube befehligt Aufseher Maltorius die Schlackengrube, nachdem er die Thoriumbruderschaft verlassen hat, um zu seinen früheren Herren zurückzukehren. Es gibt in Grimesilt auch ein Abort mit einem Schlüssel. Die Geschäfte eines Reisenden in diesem Land können bemerkenswert verschiedene Arten von Einsperrung umfassen." },
       },
     },
+    ["the-chromatic-flight"] = {
+      title = "Der chromatische Drachenschwarm",
+      text = {
+        { "Vaelastrasz, der Reisenden in der Blackrockspitze als Vaelan begegnet, erzählt, dass Todesschwinge vor seiner Verbannung versuchte, eigene Nachkommen hervorzubringen: Halbblute, immun gegen die Kräfte der Aspekte und ganz unter seiner Kontrolle. Er scheiterte. Sein Sohn Nefarian hat, nach dem zu urteilen, was durch die obere Spitze kriecht, zumindest zum Teil Erfolg gehabt. Ysera, der Aspekt der Träume, sah die Missgeburten und zwang die Drachen zu handeln." },
+        { "Awbee weiß, wie sie gemacht werden. Er ist ein junger Welpe des blauen Drachenschwarms, gerettet in der Spitze, als seine Peiniger ihn gerade den Bestien dort unten vorwerfen wollten. In der Nacht kamen die Drachenreiter auf schwarzen Drachen, sagt er, und packten junge Welpen wie ihn. Er musste mit ansehen, wie seine Brüder und Schwestern Nefarians Experimenten unterzogen wurden, und aus ihrer Essenz wurde der chromatische Drachenschwarm erschaffen. Nefarian hatte befohlen, ungeeignete Versuchsobjekte sofort zu töten, doch ihre Wärter folterten sie zuerst und warfen dann, was übrig war, in die Lava oder überließen es der blutrünstigen Legion da unten." },
+        { "Was daraus wurde, begegnet Euch in der oberen Spitze und im Hort darüber: Welpen und Drachenbrut in den Farben aller Schwärme, Drakonide, aus jedem der fünf Schwärme gezüchtet, und Chromaggus, der größte von ihnen, tief im Pechschwingenhort. Das Blut aller fünf Schwärme floss in diese Brut, und nur der schwarze hatte dabei etwas zu sagen." },
+      },
+    },
     ["the-crossroads"] = {
       title = "Crossroads",
       text = {
@@ -7062,8 +7079,9 @@ ns.translate({
       title = "Vaelastrasz",
       text = {
         { "Vaelastrasz ist ein roter Drache aus dem Schwarm der Drachenkönigin, und vor tausend Jahren wurde ihm ein Splitter des Zepters anvertraut, das Ahn'Qiraj versiegelte. In der Blackrockspitze erscheint er Sterblichen als Vaelan, in einer Gestalt, wie er sagt, deren Anblick sie ertragen können, und er hilft den Kühnen, das Siegel des Aufstiegs zu schmieden, das ihnen die obere Zitadelle öffnet." },
+        { "Er hat gesehen, wie die Drachen an den Rand der Ausrottung gebracht wurden, sagt er: durch den Ansturm der Brennenden Legion und die Dämonenseele, durch die Spaltung der Aspekte und den Aufstieg Todesschwinges, und durch die Dragonmaw, die seine eigene Königin Alexstrasza versklavten. Todesschwinge hieß einst Neltharion und war der Aspekt der Kraft der Welt, dem der Titan Khaz'goroth Macht über sie verliehen hatte. Durch Verrat brachte Neltharion die vier anderen Aspekte dazu, ihre Kräfte der Dämonenseele zu geben, was sie schwach und uneins zurückließ. Nun hält sein Sohn Nefarian die Spitze und führt das Werk seines Vaters fort, hinter uralten Schutzzaubern, die kein Drache eines anderen Schwarms überwinden kann. Ein Sterblicher mit dem Siegel schon." },
         { "Das Schmieden verlangt Edelsteine von drei Generälen der Spitze und den Atem eines schwarzen Drachen, dessen Wille gebrochen wurde. Der rote Schwarm hatte nie etwas dagegen, sich das Feuer seines Feindes zu borgen." },
-        { "Am Ende fing Nefarian ihn. Im Pechschwingenhort wartet er, verdreht von der Verderbnis des schwarzen Drachen, und fleht die an, die ihn erreichen, den Splitter des Zepters zurückzunehmen, bevor er zerstört wird. 'Zu spät, Freunde!', sagt er und wendet sich gegen sie. Wer ihn niederstreckt, erfährt danach, dass seine Seele Frieden gefunden hat. Ich hoffe es." },
+        { "Am Ende fing Nefarian ihn. Im Pechschwingenhort wartet er, entstellt von der Verderbnis des schwarzen Drachen, und fleht die an, die ihn erreichen, den Splitter des Zepters zurückzunehmen, ehe der Splitter zerstört wird. 'Zu spät, Freunde!', sagt er und wendet sich gegen sie. Wer ihn niederstreckt, erfährt danach, dass seine Seele Frieden gefunden hat. Ich hoffe es." },
       },
     },
     ["valanaar"] = {

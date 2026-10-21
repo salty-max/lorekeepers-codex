@@ -646,6 +646,11 @@
    "forever": "Aurora Skycaller",
    "use": "Aurora Skycaller"
   },
+  "Awbee": {
+   "classic": "Awbee",
+   "forever": "Awbee",
+   "use": "Awbee"
+  },
   "Ayessa Dawnsinger": {
    "forever": "Ayessa Chantelaube",
    "use": "Ayessa Chantelaube"
@@ -987,6 +992,11 @@
    "classic": "Chef Nek'rosh",
    "forever": "Chef Nek'rosh",
    "use": "Chef Nek'rosh"
+  },
+  "Chromaggus": {
+   "classic": "Chromaggus",
+   "forever": "Chromaggus",
+   "use": "Chromaggus"
   },
   "Chromie": {
    "classic": "Chromie",
@@ -2027,6 +2037,11 @@
    "forever": "Travailleur kobold",
    "use": "Travailleur kobold"
   },
+  "Korfax, Champion of the Light": {
+   "classic": "Korfax, Champion de la Lumière",
+   "forever": "Korfax, Champion de la Lumière",
+   "use": "Korfax, Champion de la Lumière"
+  },
   "Kozish": {
    "classic": "Kozish",
    "forever": "Kozish",
@@ -2096,6 +2111,11 @@
    "classic": "Dame Sylvanas Windrunner",
    "forever": "Dame Sylvanas Windrunner",
    "use": "Dame Sylvanas Windrunner"
+  },
+  "Lar'korwi": {
+   "classic": "Lar'korwi",
+   "forever": "Lar'korwi",
+   "use": "Lar'korwi"
   },
   "Lathoric the Black": {
    "classic": "Lathoric le Noir",
@@ -3458,6 +3478,11 @@
    "classic": "Tommy Joe Stonefield",
    "forever": "Tommy Joe Stonefield",
    "use": "Tommy Joe Stonefield"
+  },
+  "Torwa Pathfinder": {
+   "classic": "Torwa Pathfinder",
+   "forever": "Torwa Pathfinder",
+   "use": "Torwa Pathfinder"
   },
   "Tran'rek": {
    "classic": "Tran'rek",
@@ -6124,6 +6149,11 @@
    "classic": "Ecumeurs des Flots noirs",
    "forever": "Ecumeurs des Flots noirs",
    "use": "Ecumeurs des Flots noirs"
+  },
+  "Brotherhood of the Light": {
+   "classic": "Fraternité de la Lumière",
+   "forever": "Fraternité de la Lumière",
+   "use": "Fraternité de la Lumière"
   },
   "Cenarion Circle": {
    "classic": "Le Cercle cénarien",

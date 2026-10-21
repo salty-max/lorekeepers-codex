@@ -5334,6 +5334,14 @@ ns.translate({
         { "Su magistrado, Salomón, es un hombre prudente con muchísimos problemas. Los Roca Negra ocupan el fuerte del norte y mantienen a sus habitantes encerrados en la villa. Escribió a Ventormenta pidiendo ayuda y recibió por respuesta que no sobraban soldados para enviarlos basándose en conjeturas. Desde entonces ha sabido qué impulsa realmente a los orcos de Roca Negra y quién en Ventormenta no quería que lo escucharan. Sospecho que Villa del Lago no lo olvidará." },
       },
     },
+    ["larkorwi"] = {
+      title = "Lar'korwi",
+      text = {
+        { "El abrecaminos Torwa, un tauren acampado en el Cráter de Un'Goro, tiene una cuenta pendiente con Lar'korwi, el gran raptor que domina a los ravasaurios del cráter. Hace mucho tiempo, cuenta Torwa, uno de sus hermanos tomó carne de una de las presas de Lar'korwi sin saber que el raptor lo observaba desde el bosque. Lar'korwi lo acechó durante días y arrasó todo lo que había tocado. Al final, el hermano intentó huir del cráter, y Lar'korwi lo mató no muy lejos de donde Torwa espera ahora." },
+        { "El plan de Torwa es hacer que la bestia acuda a él. Quien robe carne de una presa fresca será perseguido, como lo fue su hermano. Las glándulas odoríferas de las hembras de Lar'korwi, tomadas entre los huevos de ravasaurio, sirven de cebo, y la carne robada, frotada con ellas y dejada en un sendero de montaña entre los huesos de grandes criaturas desaparecidas hace mucho, debería hacerlo salir. Torwa describe una mole con garras afiladas como cuchillos y promete la muerte a quien lo mire a los ojos." },
+        { "A quien le trae su cabeza, Torwa lo alaba en nombre de la Madre Tierra: solo el más poderoso de sus ancestros, dice, habría sido capaz de semejante hazaña. Torwa puso el plan. El robo, la recolección y la lucha se los dejó a quien pudo convencer." },
+      },
+    },
     ["leper-gnomes"] = {
       title = "Los gnomos parias",
       text = {
@@ -5345,8 +5353,9 @@ ns.translate({
     ["lights-hope-chapel"] = {
       title = "Capilla de la Esperanza de la Luz",
       text = {
-        { "La Esperanza de la Luz es una pequeña capilla de piedra en suelo consagrado del este de las Tierras de la Peste. Lord Maxwell Neófitus dirige allí al Alba Argenta. Cualquiera que combata a la Plaga puede encontrar acogida, venga de la Alianza o de la Horda." },
-        { "Cuando Naxxramas apareció sobre la comarca, hasta la Cruzada Escarlata se reunió aquí con el Alba Argenta para acordar una lucha común. Más tarde llevaron a la capilla la filacteria capturada de Kel'Thuzad. Quien pasa junto a sus muros ve un edificio modesto para un lugar donde tantos enemigos han tenido motivos para reunirse." },
+        { "La Esperanza de la Luz es una pequeña capilla de piedra en suelo consagrado de las Tierras de la Peste del Este. Lord Maxwell Neófitus dirige allí al Alba Argenta. Cualquiera que combata a la Plaga puede encontrar acogida, venga de la Alianza o de la Horda." },
+        { "Cuando Naxxramas apareció sobre la comarca, hasta la Cruzada Escarlata se reunió aquí con el Alba Argenta para acordar una lucha común. Más tarde llevaron a la capilla la filacteria capturada de Kel'Thuzad. A quien pasa junto a sus muros le parece demasiado modesta para un lugar donde tantos enemigos han tenido motivos para reunirse." },
+        { "Korfax, Campeón de la Luz, habla allí por la Hermandad de la Luz, que describe como el Alba Argenta sin conciencia, o la Cruzada Escarlata sin el fanatismo. También habla de la primera armadura Acorator, hecha solo para el Alto señor Mograine. Con ella, dice Korfax, el Alto señor parecía salido del infierno cuando se abría paso entre un centenar de guerreros de la Plaga, con la Crematoria en alto, y salía de entre el polvo y las llamas. Tras la muerte de Mograine, los caballeros de Lordaeron vistieron armaduras parecidas en su honor, y por cada uno de ellos que caía, otros retomaban la lucha. Korfax califica de polémica esa muerte, lo cual es una forma amable de decirlo." },
       },
     },
     ["linken"] = {
@@ -6553,6 +6562,14 @@ ns.translate({
         { "La Excavación de Limugre, menor, está al sureste. Bajo la gran fosa, el sobrestante Maltorius manda en La Fosa de la Escoria, tras abandonar la Hermandad del Torio para volver con sus antiguos amos. En Limugre también hay una letrina con llave. Los asuntos de un viajero en estas tierras pueden implicar encierros de tipos muy distintos." },
       },
     },
+    ["the-chromatic-flight"] = {
+      title = "El Vuelo Cromático",
+      text = {
+        { "Vaelastrasz, que se presenta a los viajeros de la Cumbre de Roca Negra como Vaelan, cuenta que antes de su destierro Alamuerte intentaba criar una descendencia propia: mestizos inmunes a los poderes de los Aspectos y sometidos por completo a su control. Fracasó. Su hijo Nefarian, a juzgar por lo que se arrastra por la parte alta de la Cumbre, lo ha logrado al menos en parte. Fue Ysera, aspecto de los sueños, quien vio estas abominaciones y obligó a los dragones a actuar." },
+        { "Awbee sabe cómo los hacen. Es una cría del Vuelo Azul. Lo rescataron en la Cumbre justo cuando sus torturadores iban a arrojarlo a los demonios de abajo. Los jinetes de dragones vinieron por la noche a lomos de dragones negros, cuenta, y se llevaron a crías como él. Vio cómo usaban a sus hermanos y hermanas en los experimentos de Nefarian, y con su esencia se creó el Vuelo Cromático. Nefarian había ordenado destruir de inmediato a los sujetos no aptos, pero sus guardianes los torturaban antes y luego arrojaban lo que quedaba a la lava o a la sádica legión de ahí abajo." },
+        { "Lo que resultó de aquello puede hallarse en la parte alta de la Cumbre y en la guarida que hay sobre ella: crías y dragauros con los colores de todos los vuelos, dracónidos criados a partir de cada uno de los cinco, y Chromaggus, el mayor de todos, en lo más hondo de la Guarida de Alanegra. La sangre de los cinco vuelos se usó para esta progenie, y solo el Vuelo Negro tuvo voz en ello." },
+      },
+    },
     ["the-crossroads"] = {
       title = "El Cruce",
       text = {
@@ -7026,8 +7043,9 @@ ns.translate({
       title = "Vaelastrasz",
       text = {
         { "Vaelastrasz es un dragón rojo del Vuelo de la Reina de los Dragones. Hace mil años se le confió un fragmento del cetro que selló Ahn'Qiraj. En la Cumbre de Roca Negra aparece a los mortales como Vaelan, con una forma que, como él dice, pueden soportar mirar. Ayuda a los valientes a forjar el Sello de Ascensión que abre la ciudadela superior." },
+        { "Ha visto a los dragones al borde de la extinción, cuenta: por el ataque de la Legión Ardiente y el Alma demoníaca, por la división de los Aspectos y el ascenso de Alamuerte, y por los Faucedraco, que esclavizaron a su propia reina, Alexstrasza. Alamuerte fue en su día Neltharion, el Aspecto de la fuerza del mundo, que recibió del titán Khaz'goroth su poder sobre él, y con engaños convenció a los otros cuatro Aspectos de que entregaran sus poderes al Alma demoníaca, lo que los dejó débiles y divididos. Ahora su hijo Nefarian domina la Cumbre y continúa la obra de su padre, tras unas protecciones antiguas que ningún dragón de otro vuelo puede cruzar. Un mortal con el Sello sí puede." },
         { "La forja exige gemas de tres generales de la Cumbre y el aliento de un draco negro cuya voluntad ha sido quebrada. Al Vuelo Rojo nunca le ha importado tomar prestado el fuego del enemigo." },
-        { "Nefarian acabó atrapándolo. Espera en la Guarida de Alanegra, retorcido por la corrupción del dragón negro, y suplica a quienes llegan que recuperen el fragmento del cetro antes de que sea destruido. 'Demasiado tarde, amigos', dice, y se vuelve contra ellos. A quienes lo derrotan les dicen después que su alma descansa. Eso espero." },
+        { "Nefarian acabó atrapándolo. Espera en la Guarida de Alanegra, retorcido por la corrupción del dragón negro, y suplica a quienes llegan que recuperen el fragmento del cetro antes de que sea destruido. 'Demasiado tarde, amigos', dice, y se vuelve contra ellos. A quienes lo derrotan se les dice después que su alma descansa. Eso espero." },
       },
     },
     ["valanaar"] = {

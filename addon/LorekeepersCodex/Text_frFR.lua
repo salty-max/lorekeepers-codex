@@ -5378,6 +5378,14 @@ ns.translate({
         { "Son magistrat, Solomon, est un homme prudent qui a beaucoup de soucis. Les Blackrock tiennent le donjon au nord et enferment ses gens dans leur ville. Il a écrit à Hurlevent pour demander de l'aide, et la réponse est revenue qu'il n'y avait pas assez de soldats à envoyer sur de simples suppositions. Il a appris depuis ce qui pousse vraiment les orcs Blackrock, et qui, à Hurlevent, ne voulait pas qu'on l'entende. Comté-du-Lac, je le soupçonne, ne l'oubliera pas." },
       },
     },
+    ["larkorwi"] = {
+      title = "Lar'korwi",
+      text = {
+        { "Torwa Pathfinder, un tauren qui campe dans le cratère d'Un'Goro, a un compte à régler avec Lar'korwi, le grand raptor qui règne sur les ravasaures du cratère. Il y a longtemps, raconte Torwa, l'un de ses frères préleva un peu de viande sur l'une des proies de Lar'korwi, sans savoir que le raptor l'observait depuis la forêt. Lar'korwi le traqua pendant des jours et ravagea tout ce qu'il avait touché. À la fin, le frère tenta de fuir le cratère, et Lar'korwi le tua non loin de l'endroit où Torwa attend aujourd'hui." },
+        { "Le plan de Torwa est de faire venir la bête à lui. Qui vole de la viande sur une proie fraîche sera suivi, comme son frère l'a été. Les glandes odorantes des compagnes de Lar'korwi, prises parmi les œufs de ravasaure, font un appât, et la viande volée, frottée avec et laissée sur un sentier de montagne parmi les ossements de grandes créatures disparues depuis longtemps, devrait le faire sortir. Torwa décrit une bête énorme aux griffes acérées comme les meilleures lames, et promet la mort à qui croisera son regard." },
+        { "Ceux qui rapportent sa tête sont loués au nom de la Terre-mère : seuls les plus grands des ancêtres de Torwa, dit-il, auraient pu accomplir un tel exploit. Torwa a fourni le plan. Le vol, la collecte et le combat, il les a laissés à ceux qu'il a su convaincre." },
+      },
+    },
     ["leper-gnomes"] = {
       title = "Les gnomes lépreux",
       text = {
@@ -5389,8 +5397,9 @@ ns.translate({
     ["lights-hope-chapel"] = {
       title = "La chapelle de l'Espoir de Lumière",
       text = {
-        { "L'Espoir de Lumière est une petite chapelle de pierre sur une terre consacrée, à l'est des Maleterres. Le seigneur Maxwell Tyrosus y dirige l'Aube d'argent. Quiconque combat le Fléau peut y trouver bon accueil, qu'il vienne de l'Alliance ou de la Horde." },
-        { "Quand Naxxramas apparut au-dessus du pays, même la Croisade écarlate vint y rencontrer l'Aube d'argent pour convenir d'un combat commun. Le phylactère capturé de Kel'Thuzad fut plus tard apporté à la chapelle. Un voyageur qui longe ses murs voit un bâtiment bien modeste pour un lieu où tant d'ennemis ont eu des raisons de se rencontrer." },
+        { "L'Espoir de Lumière est une petite chapelle de pierre sur une terre consacrée, dans les Maleterres de l'est. Le seigneur Maxwell Tyrosus y dirige l'Aube d'argent. Quiconque combat le Fléau peut y trouver bon accueil, qu'il vienne de l'Alliance ou de la Horde." },
+        { "Quand Naxxramas apparut au-dessus du pays, même la Croisade écarlate vint y rencontrer l'Aube d'argent pour convenir d'un combat commun. Le phylactère capturé de Kel'Thuzad fut plus tard apporté à la chapelle. Au voyageur qui longe ses murs, elle paraît bien modeste pour un lieu où tant d'ennemis ont eu des raisons de se rencontrer." },
+        { "Korfax, Champion de la Lumière, y parle pour la Fraternité de la Lumière, qu'il décrit comme l'Aube d'argent sans sa conscience, ou la Croisade écarlate sans le fanatisme. Il raconte aussi la première armure de cuirassier, forgée pour le seul généralissime Mograine. Ainsi vêtu, dit Korfax, le généralissime avait l'air de sortir du Néant quand il se frayait un chemin à travers une centaine de créatures du Fléau, Porte-cendres brandi bien haut, pour ressortir de la poussière et des flammes. Après la mort de Mograine, les chevaliers de Lordaeron portèrent des armures semblables en son honneur, et pour chacun d'eux qui tombait, d'autres reprenaient le combat. Korfax parle d'une mort controversée, et le mot est bien aimable." },
       },
     },
     ["linken"] = {
@@ -6597,6 +6606,14 @@ ns.translate({
         { "Le plus petit site de fouilles de Crasseboue se trouve au sud-est. Sous la fosse principale, le surveillant Maltorius commande la Fosse aux scories, après avoir abandonné la Confrérie du thorium pour retourner auprès de ses anciens maîtres. Il y a aussi, à Crasseboue, des latrines avec une clé. Les affaires d'un voyageur dans ce pays peuvent l'amener à des enfermements de natures remarquablement diverses." },
       },
     },
+    ["the-chromatic-flight"] = {
+      title = "Le vol chromatique",
+      text = {
+        { "Vaelastrasz, qui se présente aux voyageurs du pic Rochenoire sous le nom de Vaelan, raconte qu'avant d'être banni, Aile de mort cherchait à engendrer une descendance à lui : des demi-sang immunisés contre les pouvoirs des Aspects, et entièrement sous son contrôle. Il échoua. Son fils Nefarian, à en juger par ce qui rampe dans le haut du pic, a réussi, en partie tout au moins. C'est Ysera, l'Aspect des Rêves, qui vit ces abominations et força les dragons à agir." },
+        { "Awbee sait comment on les fait. C'est un jeune dragonnet du vol bleu, secouru dans le pic au moment où ses tortionnaires allaient le jeter en pâture aux bêtes d'en bas. Les chevaucheurs de dragons viennent la nuit, montés sur les dragons noirs, dit-il, et emportent des dragonnets comme lui. Il a vu ses frères et ses sœurs servir aux expériences de Nefarian, et c'est de leur essence qu'est né le vol chromatique. Nefarian avait ordonné de détruire sur-le-champ les sujets inexploitables, mais leurs gardiens les torturaient d'abord, puis jetaient ce qu'il en restait dans la lave ou aux légions sanguinaires d'en bas." },
+        { "Ce qui en est sorti se rencontre dans le haut du pic et dans le repaire au-dessus : des dragonnets et des draconides aux couleurs de tous les vols, des drakônides nés de chacun des cinq, et Chromaggus, le plus grand d'entre eux, au fond du repaire de l'Aile noire. Le sang des cinq vols est entré dans cette couvée, et seul le vol noir a eu son mot à dire." },
+      },
+    },
     ["the-crossroads"] = {
       title = "La Croisée",
       text = {
@@ -7070,8 +7087,9 @@ ns.translate({
       title = "Vaelastrasz",
       text = {
         { "Vaelastrasz est un dragon rouge du vol de la reine des dragons, et il y a mille ans, on lui confia un éclat du sceptre qui scella Ahn'Qiraj. Au pic Rochenoire, il apparaît aux mortels sous le nom de Vaelan, sous une forme, comme il dit, qu'ils peuvent supporter de regarder, et il aide les audacieux à forger le Sceau d'ascension qui leur ouvre la citadelle supérieure." },
+        { "Il a vu les dragons menés au bord de l'extinction, dit-il : par l'assaut de la Légion ardente et l'Âme du démon, par la division des Aspects et l'ascension d'Aile de mort, et par les Dragonmaw, qui asservirent sa propre reine, Alexstrasza. Aile de mort s'appelait autrefois Neltharion, l'Aspect de la force du monde, qui tenait du titan Khaz'goroth son pouvoir sur ce monde, et il persuada les quatre autres Aspects de livrer leurs pouvoirs à l'Âme du démon, ce qui les laissa faibles et divisés. Aujourd'hui, son fils Nefarian tient le pic et poursuit l'œuvre de son père, derrière d'anciennes protections qu'aucun dragon d'un autre vol ne peut franchir. Un mortel muni du Sceau le peut." },
         { "La forge demande des gemmes prises à trois des généraux du pic et le souffle d'un drake noir dont la volonté a été brisée. Le vol rouge n'a jamais rechigné à emprunter le feu de son ennemi." },
-        { "Nefarian finit par le capturer. Dans le repaire de l'Aile noire, il attend, perverti par la corruption du dragon noir, et supplie ceux qui l'atteignent de reprendre l'éclat du sceptre avant qu'il ne soit détruit. « Trop tard, mes amis », dit-il, et il se retourne contre eux. Ceux qui l'abattent apprennent ensuite que son âme est en paix. Je l'espère." },
+        { "Nefarian finit par le capturer. Dans le repaire de l'Aile noire, il attend, rongé par la corruption du dragon noir, et supplie ceux qui l'atteignent de reprendre l'éclat du sceptre avant qu'il ne soit détruit. « Trop tard, mes amis », dit-il, et il se retourne contre eux. Ceux qui l'abattent apprennent ensuite que son âme est en paix. Je l'espère." },
       },
     },
     ["valanaar"] = {
