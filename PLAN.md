@@ -400,7 +400,7 @@ Quel'Lithien Lodge, Zul'Mashar and Mazra'Alor (forest trolls). Rares without a
 story: Duggan Wildhammer, Hed'mush, Thresh'jin, Zul'Brin, Hawkspear, Gish,
 Darkscythe, Deathspeaker Selendre, High General Abbendis.
 
-## The Badlands (7 pages, all written)
+## The Badlands (8 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -410,6 +410,7 @@ Darkscythe, Deathspeaker Selendre, High General Abbendis.
 | ✅ Uldaman | place | the dungeon (1337); killing Archaedas (2748) |
 | ✅ The Platinum Discs | history | quest The Platinum Discs (2278): the titans, the earthen, and where dwarves came from |
 | ✅ Theldurin the Lost | figure | talking to him (2785): a Twilight's Hammer deserter, the cult's cells in Ironforge and the Undercity (quests 687, 709, 727-737, 968, 971, 1013) |
+| ✅ The Lost Dwarves | figure | reading Baelog's Journal (123463); talking to (or targeting) Baelog, Eric or Olaf (6906-6908); quest The Hidden Chamber (2240) |
 | ✅ Angor Fortress | place | killing Ambassador Infernus (2745); quests Prospect of Faith (724), An Ambassador of Evil (762): Hammertoe's end, the Shadowforge's base (no area unlock: it would tell Hammertoe's death before Uldaman) |
 
 Not paged: Lethlor Ravine, Apocryphan's Rest,
@@ -417,7 +418,7 @@ Camp Kosh and the ogre camps, Mirage Flats, the Dustbowl. Rares without a
 story: Shadowforge Commander, Siege Golem, War Golem, Rumbler, Anathemus,
 Broken Tooth, Zaricotl, 7:XT.
 
-## Searing Gorge (4 pages, all written)
+## Searing Gorge (6 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -425,6 +426,8 @@ Broken Tooth, Zaricotl, 7:XT.
 | ✅ The Thorium Brotherhood | faction | Thorium Point (1446); reputation Thorium Brotherhood (59) friendly |
 | ✅ The Cauldron | place | The Cauldron (246); The Slag Pit (1443); Grimesilt Dig Site (247) |
 | ✅ The Suntara Stones | history | quest Rise, Obsidion! (3566); killing Lathoric the Black (8391) or Obsidion (8400): Dorius Stonetender's betrayal |
+| ✅ Zamael Lunthistle | figure | talking to him (8436); quest Prayer to Elune (3378): the caged night elf spirit, his tale from wow-data's gossip pages |
+| ✅ Kalaran Windblade | figure | talking to him (8479); quest Divine Retribution (3441): vengeance for his father, the Torch of Retribution, his tale from the gossip pages |
 
 Not paged: Firewatch Ridge, Blackchar Cave, Dustfire Valley, Tanner Camp, the
 Sea of Cinders. Rares without a story: Rekk'tilac, Smoldar, Faulty War Golem,
@@ -630,7 +633,7 @@ Hold and Camp E'thok (centaurs), Splithoof, Roguefeather Den, the Screeching
 Canyon. Rares without a story: Achellios, Heartrazor, Ironeye, Vile Sting, Harb
 Foulmountain, Gibblesnik.
 
-## Tanaris (6 pages, all written)
+## Tanaris (7 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -639,6 +642,7 @@ Foulmountain, Gibblesnik.
 | ✅ The Sandfury Trolls | faction | any Sandfury kill (see the appendix: Tanaris and Zul'Farrak) |
 | ✅ Zul'Farrak | place | the dungeon (1176); killing Gahz'rilla (7273) or Chief Ukorz Sandscalp (7267) |
 | ✅ The Caverns of Time | place | Caverns of Time (2300); talking to Anachronos (15192): the bronze dragonflight |
+| ✅ The Tablets of Mosh'aru | history | quest Confront Yeh'kinya (8181): Yeh'kinya's prophecy, Ironboot's six tablets, Hakkar reborn (not on the earlier quests: they come before the reveal) |
 | ✅ Uldum | history | Valley of the Watchers (990); talking to the Stone Watcher of Norgannon (7918); quest The Stone Watcher (2954) |
 
 Not paged: Steamwheedle Port, Lost Rigger Cove (pirates), Noonshade and the
@@ -806,7 +810,7 @@ Bloodvenom Falls. Rares without a
 story: Dessecus, Immolatus, Death Howl, Alshirr, Ragepaw, Olm the Wise,
 Mongress, The Ongar.
 
-## Winterspring (5 pages, all written)
+## Winterspring (7 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -815,6 +819,8 @@ Mongress, The Ongar.
 | ✅ Starfall Village | place | Starfall Village (2253) |
 | ✅ The Ruins of Kel'Theril | history | The Ruins of Kel'Theril (2252); Lake Kel'Theril (2251) |
 | ✅ Mazthoril | place | Mazthoril (2245): the blue dragons |
+| ✅ The Winterfall Firewater | history | quests Winterfall Runners (5087), High Chief Winterfall (5121): Donova Snowden, the Deadwood's toxin purified in the hot springs |
+| ✅ Storm Shadowhoof's Trials | creature | killing Ursius, Brumeran or Shy-Rotam (10806, 10807, 10737); their quests (5054-5056): the end of Melor Stonehoof's hunter's path |
 
 Not paged: Frostsaber Rock, Darkwhisper Gorge, Frostwhisper Gorge, Dun Mandarr,
 Frostfire Hot Springs, Ice Thistle Hills, Owl Wing Thicket, Moon Horror Den,

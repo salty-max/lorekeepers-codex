@@ -3368,6 +3368,7 @@ ns.translate({
     ["peoples"] = { "Völker und Mächte", "Die Völker, Orden und Fraktionen, denen ein Reisender in vielen Ländern begegnet, an einem Ort versammelt." },
     ["redridge"] = { "Rotkammgebirge", "Rote Hügel, ein stiller See und eine Stadt, die von Norden her belagert wird." },
     ["searing-gorge"] = { "Sengende Schlucht", "Die verbrannte Nordseite des Berges, und die große Grube der Dunkeleisenzwerge." },
+    ["shen-dralas"] = { "Shen'dralas", "Das verfluchte Land jenseits des Tals der Knochen, wo die Zentauren die Toten gefunden haben." },
     ["silithus"] = { "Silithus", "Die Wüste der Insekten, der Skarabäuswall und das, was dahinter schläft." },
     ["silverpine"] = { "Silberwald", "Graue Kiefern zwischen den Verlassenen und dem verschlossenen Tor von Gilneas." },
     ["stonetalon"] = { "Steinkrallengebirge", "Hohe Gipfel und alte Wälder, die unter den Sägen der Goblins brennen." },
@@ -3804,12 +3805,14 @@ ns.translate({
     { "Hammerzehs Grabungsstätte", "Hammertoes Grabungsstätte" },
     { "Schildwache von Dolanaar", "Teldrassil-Schildwache" },
     { "Der Zertrümmerte Strand", "Der zertrümmerte Strand" },
+    { "Die Flüsternde Schlucht", "Die flüsternde Schlucht" },
     { "Der Smaragdgrüne Traum", "Smaragdgrüner Traum" },
     { "Die Klaffende Schlucht", "Die klaffende Schlucht" },
     { "Die Vergessenen Teiche", "Die vergessenen Teiche" },
     { "Zuflucht der Verirrten", "Das Fallow Heiligtum" },
     { "das Dorf der Bluthufe", "Bloodhoof" },
     { "Das Dorf der Bluthufe", "Bloodhoof" },
+    { "Die Frostfeuerquellen", "Die heißen Quellen von Frostfire" },
     { "Die Schimmernde Ebene", "Die schimmernde Ebene" },
     { "Sturmgrimms Grabhügel", "Stormrage Grabhügel" },
     { "im Dorf der Bluthufe", "in Bloodhoof" },
@@ -3826,6 +3829,7 @@ ns.translate({
     { "Die Brackige Oase", "Die brackige Oase" },
     { "Dorf der Bluthufe", "Bloodhoof" },
     { "Fire-Scar-Schrein", "Fire Scar-Schrein" },
+    { "Kalaran Windblade", "Velarok Windblade" },
     { "Der Große Aufzug", "Der große Aufzug" },
     { "Der Graufelsbau", "Der altgediente Bau" },
     { "Dorf der Gelkis", "Gelkis" },
@@ -5268,6 +5272,14 @@ ns.translate({
         { "Die Priester der Atal'ai, die einst im Süden Hakkar dienten, reichen sogar bis hierher: Einer von ihnen, ein Priester, den sein eigenes Volk zum Exil verurteilte, lebt unter den Trollen des Hinterlands. Die Vilebranch, so verstehe ich, waren nicht traurig, ihn zu haben." },
       },
     },
+    ["kalaran-windblade"] = {
+      title = "Kalaran Windblade",
+      text = {
+        { "Kalaran Windblade lagert in der Sengenden Schlucht, mit einem Knappen und einem Groll. Die Dunkeleisenzwerge des Kessels haben seinen Vater getötet, sagt er, und als er den Magistrat von Stormwind um Hilfe anflehte, hörte niemand zu. Stormwind, so erzählt er es, wolle nicht einmal zugeben, dass es diesen Winkel der Welt gibt, geschweige denn sein tolles Militär schicken, um für Recht zu sorgen. Also will er Rache, ganz einfach, und er fragt, ob es einen besseren Beweggrund gibt." },
+        { "Er ist ein einzelner Mann, und den Knappen, den er einen einfältigen Blödian nennt, zählt er nicht mit. Die Arbeit soll der Reisende machen. Die vier Wachtürme der Dunkeleisenzwerge sollen in einem Feuer brennen, das kein Element löschen kann, entzündet mit einer Fackel der Vergeltung aus seiner Werkstatt: Flammenherzen und Golemöl, ein Schaft, geschmiedet aus den Thoriumdolchen der Sklavenhändler des Kessels, und eine Ummantelung aus einem Symbol von Ragnaros, das man dem Twilight-Hammer abgenommen hat und dessen elende Magie, wie er sagt, wunderbar für seine Zwecke geeignet ist. Wer die Fackel ergreift, spürt Wellen von Hass und Wut durch sein ganzes Wesen pulsieren." },
+        { "Sein Knappe Maltrake lebt nur, um seinem Meister zu dienen, und findet die brennenden Türme glorreich. Kalaran verspricht seinen Helfern Reichtümer, die sie sich nie hätten träumen lassen, und hat bis dahin eine spitze Zunge für sie. Für einen Sohn, dem niemand zuhören wollte, habe ich ein wenig Mitgefühl, für eine Waffe aus dem Symbol des Feuerlords selbst deutlich weniger." },
+      },
+    },
     ["karazhan"] = {
       title = "Karazhan",
       text = {
@@ -6184,6 +6196,14 @@ ns.translate({
         { "Sie hat seit der Großen Teilung und durch die Zeitalter seither an Tyrandes Seite gestanden. Heute liegt ihr Kommando weit von Darnassus entfernt, in Feralas." },
       },
     },
+    ["shen-dralas"] = {
+      title = "Shen'dralas",
+      text = {
+        { "Shen'dralas liegt jenseits des Tals der Knochen, in einem Land, das den Zentauren zufolge schon lange vor ihrer Ankunft verflucht war, und fast alles, was ich davon weiß, stammt von den Zentauren, die an seiner Schwelle kämpfen. Hinter dem Tal liegen ein Wald, ein Tempel, dessen Artefakt die Stacheleber der Borstennacken fortgeschleppt haben, und Namen auf den Karten, Evenshades Warte und die Verlorenen Gärten, die mir noch niemand erklärt hat." },
+        { "Was ich Euch sagen kann, ist, wer zuerst dort war. Die Magram drangen ins Tal vor und machten es zur Front. Die Gelkis folgten ihnen, die einen, um sie aufzuhalten, die anderen, wie sich zeigt, um sich ihnen anzuschließen. Am anderen Ende steht ein Lager der Magram, bereit, in den Wald zu marschieren, und die Borstennacken haben sich ebenso früh eingegraben und halten die Magram mit dem fern, was sie aus dem Tempel geholt haben." },
+        { "Ich werde mehr schreiben, wenn Reisende, die jenseits des Tals waren, zurückkehren und mir davon erzählen." },
+      },
+    },
     ["shendralar"] = {
       title = "Die Shen'dralar",
       text = {
@@ -6345,6 +6365,14 @@ ns.translate({
       text = {
         { "Der Stonewroughtdamm hält das Nordende des Sees. Seine Mauer und sein Wasserfall gehören zu den großen Sehenswürdigkeiten von Khaz Modan. Nehmt Euch Zeit, sie zu bewundern, $gReisender:Reisende;. Es hat sehr viel Arbeit gekostet, Euch diesen Anblick zu verschaffen." },
         { "Chefingenieur Hinderweir ist einem Anschlag der Dunkeleisenzwerge auf den Damm auf die Spur gekommen. Seine Ermittlung führt zu einem Sprengfass und zu der Mischung, die nötig ist, um es zu entschärfen. Die Zwerge bewachen dieses Werk genau, und aus gutem Grund. Menschen hängen davon ab, dass die Mauer hält, und für Hinderweir steht weit mehr auf dem Spiel als der Stolz eines Ingenieurs." },
+      },
+    },
+    ["storm-shadowhoofs-trials"] = {
+      title = "Storm Shadowhoofs Prüfungen",
+      text = {
+        { "Der Pfad des Jägers, wie die Tauren ihn lehren, beginnt früh und führt weit. Der alte Skorn Whitecloud schickt die Ungeduldigen zu Melor Stonehoof auf die Anhöhe der Jäger in Thunder Bluff, und Melor schickt sie hinaus. Durch das Brachland mit Sergra Darkthorn. Nach Tausend Nadeln, auf die Spur von Stahlbiss, einer tyrannischen Hyäne, die nicht unter dem Segen der Erdenmutter steht. Hinauf in den Schnee von Alterac, zu Frostrachen, einem Yeti, den man kaum je zu sehen bekommt. Nach Dustwallow, um die Qualen von Schlammwühler zu beenden, einem uralten Krokilisk, dessen großer Geist von seinem eigenen gebrechlichen Körper gemartert wird. Das sei das Leben des Jägers, sagt Melor ihnen: Es führe eines Tages durch alle Länder der Erdenmutter." },
+        { "In Winterspring führt er zu Storm Shadowhoof, der sich in Everlook aufhält und drei Jagden aufgibt. Ursius von den Splitterzahnbären, in den Hügeln nordwestlich der Stadt, ist so schlau, dass seine Jäger bald selbst zur Beute werden. Brumeran von den Eiswindschimären gleitet anmutig und schnell durch den Süden, und wer ihren Weg kreuzt, bezahlt teuer dafür, häufig mit dem eigenen Leben. Shy-Rotam ist die Matriarchin der Frostsäbler, die sich am Frostsäblerfelsen sammeln, und sie kommt voller Zorn zu ihrem Stein, wenn man dort das Fleisch ihrer Artgenossen niederlegt." },
+        { "Die letzte Prüfung ist der Heimweg. Storm gibt dem Jäger einen Gutschein für Melor, der sich noch an ihn erinnern wird, vom Anfang des Weges vor langer Zeit. Den Schildwachen, die auf demselben Felsen Wintersäbler aufziehen, würde ich von Shy-Rotam lieber nichts erzählen." },
       },
     },
     ["stormpike-guard"] = {
@@ -6686,6 +6714,14 @@ ns.translate({
         { "Was daraus wurde, füllt die Hälfte der Seiten dieses Registers. Das Buch in unserer Bibliothek endet damit, dass Prinz Arthas zum Frostthron hinaufsteigt und Ner'zhuls Helm aufsetzt und die beiden eins werden. Es heißt, er baue gerüchteweise die Zitadelle von Eiskrone wieder auf und Kel'Thuzad herrsche in seinem Namen über die Pestländer. Die Liga hat keine Expedition in Nordend, $gReisender:Reisende;, und ich sehe keinen Grund, eine zu beginnen." },
       },
     },
+    ["the-lost-dwarves"] = {
+      title = "Die verschollenen Zwerge",
+      text = {
+        { "Als die Troggs aus Uldaman hervorbrachen, kamen sie so schnell, dass einige Leute aus Ironforge hinter ihren Linien festsaßen. Baelog war einer von ihnen. Als Freund von Ausgrabungsleiter Stormpike von der Forscherliga hatte er kurz vor dem Angriff einen kleinen Trupp tief in die Grabungsstätte geführt, und Stormpike schickte Reisende aus, um zu erfahren, ob noch einer von ihnen lebte." },
+        { "Sie lebten, und zwar bei guter Laune. Olaf hatte gewettet, dass ihm sein Bart bis zu den Knien wachsen würde, ehe sie wieder eine lebende Seele zu Gesicht bekämen, und als Hilfe kam, fehlten ihm noch ein paar Zoll. Eric, genannt der Flinke, war der Dritte. Festgesetzt oder nicht, Baelog hatte nicht die Hände in den Schoß gelegt. Sein Tagebuch beschreibt den Weg in die Kammer von Khaz'mul, hinter einer riesigen verschlossenen Tür: das Gni'kiv-Medaillon aus Baelogs Truhe nehmen, dem Trogg Revelosh den Schaft von Tsol abringen, beides zum Stab der Prähistorie vereinen und ihn im Kartenraum benutzen. Gelingt Euch das, schrieb er, gehört die Kammer Euch." },
+        { "Stormpike gibt zu, dass er bezweifelt hatte, dass es die Kammer überhaupt gibt. Er hofft, dass der Fund die Anführer von Ironforge dazu bewegt, Uldaman zurückzuerobern, samt seinen Geheimnissen. Reisende der Horde werden Baelogs Trupp deutlich weniger erfreut über ihren Besuch finden." },
+      },
+    },
     ["the-lost-ones"] = {
       title = "Die Verirrten",
       text = {
@@ -6786,6 +6822,14 @@ ns.translate({
         { "Lest den Brief noch einmal, $gReisender:Reisende;, nun da Ihr wisst, wer ihn schrieb. Fast jede Zeile darin ist wahr. Nur die Unterschrift lügt." },
       },
     },
+    ["the-tablets-of-mosharu"] = {
+      title = "Die Schrifttafeln von Mosh'aru",
+      text = {
+        { "Yeh'kinya, ein Troll im Hafen Steamwheedle, weiß viel über Hakkar den Seelenschinder und sagt, er glaube nichts davon. Unter den Trollen gebe es eine Prophezeiung, erklärt er, nach der der tote Gott eines Tages zurückkehren werde, zum Ruhm der Trolle oder zum Ende aller Dinge. Bloße Geschichten, sagt er. Doch die Essenz des Gottes enthalte große Macht, und diese Macht müsse von denen ferngehalten werden, die sie missbrauchen würden." },
+        { "Also sammelt er. Zuerst die Geister der Talkreischer von Feralas, Cousins des alten Gottes. Dann die beiden Schrifttafeln der Prophezeiung von Mosh'aru, vor langer Zeit nach Zul'Farrak gebracht, die eine bei Theka dem Märtyrer, der schon lange tot ist, inmitten der Skarabäen, in die seine Verfolger verflucht wurden, die andere bei Wasserbeschwörerin Velratha am hochheiligen Teich von Gahz'rilla. Dann ein uraltes Ei aus einer Höhle hinter dem Amphitheater von Jintha'Alor. Und zuletzt die Essenz des Avatars von Hakkar selbst, im Versunkenen Tempel eingefangen und im Ei versiegelt. Man habe eine Legende berührt, sagt er dem Reisenden, der es ihm bringt. Ich habe Gelehrte gekannt, die behaupteten, nichts von dem zu glauben, was sie studierten. Keiner von ihnen sammelte es so sorgfältig." },
+        { "Ausgrabungsleiter Ironboot, ein Zwerg im selben Hafen, hatte sich auf eigene Faust eingelesen. Es gab sechs Schrifttafeln von Mosh'aru, nicht zwei. Die vier, nach denen Yeh'kinya nie gefragt hatte, zwei bei den Trollen der Moosschinder in den Östlichen Pestländern und zwei bei den Gluthauern auf der Blackrockspitze, verraten, wozu das Ei dient. Es hält Hakkar nicht fest. Es bringt ihn zurück. Als der Reisende ihn zur Rede stellte, machte sich Yeh'kinya nicht die Mühe, es zu leugnen. Der Seelenschinder sei wiedergeboren, sagte er, im uralten Königreich der Trolle, Zul'Gurub, und er dankte dem Reisenden dafür, seine Rückkehr beschleunigt zu haben. Ironboot schickte den Reisenden weiter zu den zandalarianischen Trollen auf der Insel Yojamba, die vielleicht wüssten, wie man ihn aufhält." },
+      },
+    },
     ["the-temple-of-atalhakkar"] = {
       title = "Der Tempel von Atal'Hakkar",
       text = {
@@ -6801,6 +6845,14 @@ ns.translate({
         { "Was in dieser Kassette lag, war ein Auge von Paleth, eine der Kugeln, die menschliche Priester zum hellen Leuchten schufen, schwarz verflucht von dem, was es in jener Nacht sah. Die Priester von Menethil konnten es nicht reinigen. Der Erzbischof in Stormwind konnte es. Eine Flotte stirbt nicht immer auf einmal, $gReisender:Reisende;. Manchmal braucht es einen Priester und einen sturen Ersten Maat, um die Sache zu Ende zu bringen." },
       },
     },
+    ["the-valley-of-bones"] = {
+      title = "Das Tal der Knochen",
+      text = {
+        { "Das Tal der Knochen ist voller Toter: Knochen und Leichen, die Skelette der beiden Goliaths und Dinge, die umhergehen, obwohl sie ruhen sollten. Eine nekromantische Macht hat sich an diesem Ort festgesetzt, und die Magram, der erste Klan, der sich hineinwagte, haben beschlossen, dass diese Magie ihnen gehört. Die Toten, wie ich bemerke, hat niemand gefragt. Wer von ihnen nicht mit Klinge oder Hammer kämpft, lernt nun, die Toten zu erwecken, und sie haben inzwischen Necrokhane." },
+        { "Die Gelkis kamen nach ihnen. Einige Gelkis folgten den Magram ins Tal und eigneten sich dieselbe Kunst an, in einem verdrehten Versuch, so sagt einer ihrer Gefangenen, zu den Magram überzulaufen, und der Klan hat sie alle zur Verbannung verurteilt. Den Gelkisspäher Nerlokh widerte etwas anderes an. Die Skelette gehen auf zwei Beinen, nicht auf vier. Es sind keine toten Zentauren, sondern jene, die in dieser Erde lagen, lange bevor Desolace den Zentauren gehörte. Nerlokh konnte sich nicht vorstellen, wie die Magram es rechtfertigten, Mutter Theradras den Rücken zu kehren, um sie zu erwecken." },
+        { "Die Magram wollen das Tal einnehmen, dort ein Heer aufstellen und die anderen Klans in die Knie zwingen. Orgrul, der in ihrem Lager die Befehle gibt, hat sich angewöhnt, Rekruten zu fragen, ob sie genauso darauf brennen wie er, über ganz Desolace zu herrschen." },
+      },
+    },
     ["the-war-of-the-spider"] = {
       title = "Der Krieg der Spinne",
       text = {
@@ -6814,6 +6866,14 @@ ns.translate({
       text = {
         { "Die Windformer sind die Shen'dorei, die den Windgeistern treu bleiben. Sie stammen von den Ersten ihres Volkes ab, die die Gabe der Himmelssicht von den Geistern empfingen, und sie pflegten die Instrumente und Konstrukte, die die Geister auf der Insel zurückließen. Sie haben geschworen, diese alte Schuld zurückzuzahlen: sich in die Ebene der Elemente zu wagen, ihre verschwundenen Lehrmeister zu finden und heimzubringen. Ihre Großhimmelsseherin Ayessa Dawnsinger glaubt, der Weg liege unten, in Azeroth, und die Schamanen des irdenen Rings haben zu ihnen gestanden." },
         { "Sie sind kein verzeihendes Volk. Auf die Gewalt des Kults antwortete Ayessa mit Blut für Blut, und die Windformer sagen von sich, dass sie weder vergeben noch vergessen. Sie wollen keinen Frieden mit den Al'Aketh, und sie halten die Magie des Hohen Ordens an ihren heiligen Stätten für eine Gefahr für eine Insel, die ohnehin schon auseinanderbricht." },
+      },
+    },
+    ["the-winterfall-firewater"] = {
+      title = "Das Feuerwasser der Winterfelle",
+      text = {
+        { "Donova Snowden kam nach Winterspring, um die Frostfeuerquellen zu untersuchen. Es gibt in diesem Land keine Vulkane, darum glaubt sie, dass die Dämonen der Flüsternden Schlucht im Süden das Wasser erwärmen. Womit sie nicht gerechnet hatte, waren die Winterfelle. Für gewöhnlich ist das kein angriffslustiger Stamm, doch sie hatten begonnen, die größeren Quellen so eifrig zu bewachen, wie sie sie erforschen wollte, und sie trugen kleine Phiolen mit einer grünen Flüssigkeit bei sich, die beinahe leuchtete." },
+        { "Die Spur führte durch die Holzschlundfeste zu den Totenwaldfellen, den Furbolgs des Teufelswaldes, die von der Teufelsenergie in den Wahnsinn getrieben wurden. In einem Kessel der Totenwaldfelle brodelte dasselbe grüne Zeug, und Donova fand heraus, woher es kam: giftige Stoffe, die von den verderbten Elementaren des Eisenwalds gesammelt werden. Rein ist es Gift. Mit dem Wasser der heißen Quellen vermischt, verliert es seine Giftigkeit und behält nur seine Macht über den, der es trinkt. Darum bewachen die Winterfelle die Quellen, und darum gehen ihre Läufer den langen Weg in den Teufelswald und zurück. Zwerge verstehen ein wenig vom Brauen, und von einer solchen Brauerei habe ich noch nie gehört. Donova fragte sich, ob das Gebräu sie aggressiver machte. Größer wirkten die Winterfelle jedenfalls." },
+        { "Sie meinte, mit dem Tod des Oberhäuptlings der Winterfelle werde der Stamm nicht schlimmer werden, auch wenn nichts den bereits angerichteten Schaden ungeschehen machen könne. Das Tagebuch des Oberhäuptlings ist in so groben Zeichen geschrieben, dass Donova nichts damit anfangen konnte. Kelek Skykeeper, einer der Druiden des Smaragdkreises, die daran arbeiten, den Teufelswald zu heilen, hat es nun und hat Nachricht versprochen, sobald er es lesen kann. Über die Winterfelle selbst, gibt Kelek zu, wisse man sehr wenig." },
       },
     },
     ["theldurin-the-lost"] = {
@@ -7194,6 +7254,14 @@ ns.translate({
       text = {
         { "Zaetar war der Sohn des Cenarius, ein Wesen des Waldes. Theradras war eine Prinzessin der elementaren Erde. Aus ihrer Verbindung gingen die Zentauren hervor, die ihren eigenen Vater töteten. Theradras bettete ihn in den Höhlen von Maraudon zur Ruhe, wo seine Kinder ihn noch immer verehren und sein Grab bewachen." },
         { "Ein Druide des Zirkels des Cenarius wartet nahe Shadowprey und sucht jemanden, der Theradras gegenübertreten und Zaetars Überreste bergen kann. Der heilige Boden der Zentauren ist auch die Ruhestätte eines Mitglieds der Familie des Cenarius." },
+      },
+    },
+    ["zamael-lunthistle"] = {
+      title = "Zamael Lunthistle",
+      text = {
+        { "In einem Käfig zwischen den Lagern des Twilight-Hammers in der Sengenden Schlucht sitzt der Geist eines Nachtelfen, und er freut sich über Gesellschaft. Es sei schon viele Jahre her, sagt Zamael Lunthistle, dass er Besuch gehabt habe." },
+        { "Als junger Nachtelf in Dunkelküste geriet er an den Twilight-Hammer. Einige von ihnen freundeten sich mit ihm an, und zu seiner Schande leugnete er seinen Glauben an Elune, nahm die Parolen des Kults und seine alten Götter an und richtete in ihrem Namen viel Unheil in der Welt an. Dann weckte ihn eine Vision von Elune. Voller Reue begann er ein Gebet an sie und ätzte das Zeugnis seiner Reue, seiner Scham, seines Bedauerns und seiner Trauer in eine Schrifttafel aus reinstem Gold. Der Kult fand die Tafel, brandmarkte ihn als Ketzer und richtete ihn hin, ehe das Gebet fertig war. Sein Geist ist an diese Welt gefesselt, und der Käfig hält ihn hier als Warnung an alle, die den Hammer verraten würden." },
+        { "Mit dem Käfig hat er sich abgefunden. Er bittet nur darum, dass das Gebet bei den Götzenanbetern des Hammers gefunden und zu Astarii Starseeker nach Darnassus gebracht wird, damit es gehört wird. Vergebung, sagt er, erwarte er am allerwenigsten. Als das Gebet Astarii erreichte, sagte sie, Elune sei eine verlorene Seele zurückgegeben worden." },
       },
     },
     ["zandalar-tribe"] = {

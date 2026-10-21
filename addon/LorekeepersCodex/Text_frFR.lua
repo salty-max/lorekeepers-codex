@@ -3364,6 +3364,7 @@ ns.translate({
     ["peoples"] = { "Peuples et puissances", "Les peuples, ordres et factions qu'un voyageur rencontre en bien des contrées, réunis en un seul endroit." },
     ["redridge"] = { "Les Carmines", "Des collines rouges, un lac paisible et une ville assiégée par le nord." },
     ["searing-gorge"] = { "Gorge des Vents brûlants", "Le versant nord calciné de la montagne, et la grande fosse des Sombrefer." },
+    ["shen-dralas"] = { "Shen'dralas", "Le pays maudit au-delà de la Vallée des Ossements, où les centaures ont trouvé les morts." },
     ["silithus"] = { "Silithus", "Le désert des insectes, le Mur du scarabée, et ce qui dort derrière." },
     ["silverpine"] = { "Forêt des Pins argentés", "Des pins gris entre les Réprouvés et la porte close de Gilnéas." },
     ["stonetalon"] = { "Les Serres-Rocheuses", "De hauts pics et de vieilles forêts, qui brûlent sous les scies des gobelins." },
@@ -5279,6 +5280,14 @@ ns.translate({
         { "Les prêtres atal'ai qui servaient jadis Hakkar dans le sud étendent leur influence jusqu'ici : l'un d'eux, un prêtre condamné à l'exil par son propre peuple, vit parmi les trolls des Hinterlands. Les Vilebranch, je crois, n'ont pas été mécontents de l'accueillir." },
       },
     },
+    ["kalaran-windblade"] = {
+      title = "Velarok Lamevent",
+      text = {
+        { "Velarok Lamevent campe dans la Gorge des Vents brûlants avec un écuyer et une rancune. Les Sombrefer du Chaudron ont tué son père, dit-il, et quand il a supplié le magistrat de Hurlevent de l'aider, personne ne l'a écouté. Hurlevent, à l'entendre, préfère ne pas admettre que ce coin du monde existe, et encore moins y envoyer ses précieux soldats rendre justice. Alors c'est la vengeance, simple et sans détour, et il demande s'il existe en ce monde une cause plus ardente." },
+        { "Il est seul, avec ce qu'il appelle un balourd d'écuyer, et il compte bien que le travail soit fait par un autre que lui. Les quatre tours de guet des Sombrefer doivent brûler d'un feu qu'aucun élément ne pourra éteindre, allumé par une Torche de vindicte de sa fabrication : des cœurs de flamme et de l'huile de golem, un manche forgé avec les dagues en thorium des esclavagistes du Chaudron, et une enveloppe tirée d'un Symbole de Ragnaros pris au Marteau du crépuscule, dont l'infecte magie, dit-il, convient parfaitement à son dessein. Quiconque prend la torche sent des vagues de colère et de haine le submerger." },
+        { "Son écuyer, Maltrake, ne vit que pour servir son maître, et trouve glorieuses les tours en flammes. Velarok promet à ceux qui l'aident des richesses au-delà de leurs plus folles espérances, et leur réserve en attendant ses sarcasmes. J'éprouve un peu de sympathie pour un fils que personne n'a voulu écouter, et bien moins pour une arme faite du symbole même du seigneur du Feu." },
+      },
+    },
     ["karazhan"] = {
       title = "Karazhan",
       text = {
@@ -6195,6 +6204,14 @@ ns.translate({
         { "Elle s'est tenue aux côtés de Tyrande pendant la Fracture et les âges qui ont suivi. Son commandement se trouve aujourd'hui loin de Darnassus, en Feralas." },
       },
     },
+    ["shen-dralas"] = {
+      title = "Shen'dralas",
+      text = {
+        { "Shen'dralas s'étend derrière la Vallée des Ossements, dans un pays que les centaures disent maudit depuis bien avant leur arrivée, et presque tout ce que j'en sais me vient des centaures qui se battent à sa porte. Passé la vallée, il y a une forêt, un temple dont les huranes Dos-hirsute ont emporté l'artefact, et des noms sur les cartes, le Surplomb d'Ombrégale et les Jardins Lugubres, que personne ne m'a encore expliqués." },
+        { "Ce que je peux vous dire, c'est qui est arrivé le premier. Les Magram ont franchi la vallée et en ont fait un front. Les Gelkis ont suivi, les uns pour les arrêter, les autres, semble-t-il, pour les rejoindre. Un camp magram se dresse à l'autre bout, prêt à marcher sur la forêt, et les Dos-hirsute se sont retranchés tout aussi tôt, tenant les Magram en respect avec ce qu'ils ont pris dans le temple." },
+        { "J'en écrirai davantage quand les voyageurs qui iront au-delà de la vallée reviendront me le raconter." },
+      },
+    },
     ["shendralar"] = {
       title = "Les Shen'dralar",
       text = {
@@ -6356,6 +6373,14 @@ ns.translate({
       text = {
         { "Le barrage de Formepierre retient l'extrémité nord du Loch. Son mur et sa cascade comptent parmi les grandes merveilles du Khaz Modan. Prenez le temps de les admirer, $gvoyageur:voyageuse;. Il a fallu énormément de travail pour vous offrir cette vue." },
         { "L'ingénieur en chef Hinderweir a découvert un complot sombrefer contre le barrage. Son enquête le mène à un tonneau d'explosifs et au mélange nécessaire pour le désamorcer. Les nains gardent cet ouvrage de près, et pour cause. Des gens dépendent de la solidité de ce mur, et Hinderweir a bien plus en jeu que sa fierté d'ingénieur." },
+      },
+    },
+    ["storm-shadowhoofs-trials"] = {
+      title = "Les épreuves de Storm Shadowhoof",
+      text = {
+        { "La voie du chasseur, telle que l'enseignent les taurens, commence tôt et mène loin. Le vieux Skorn Whitecloud envoie les plus impatients à Melor Stonehoof, sur la Cime des chasseurs de Thunder Bluff, et Melor les envoie au loin. À travers les Tarides avec Sergra Darkthorn. Aux Mille pointes, sur la piste de Broie-l'acier, une hyène tyrannique qui vit hors des bénédictions de la Terre-mère. Dans les neiges d'Alterac, pour Gueule-glacée, un yéti qui se montre rarement. Dans le marécage d'Âprefange, pour mettre fin aux souffrances de Mortebourbe, un crocilisque millénaire dont le grand esprit est torturé par son propre vieux corps. Tel est le destin du chasseur, leur dit Melor : il conduit un jour à travers tous les domaines de la Terre-mère." },
+        { "Au Berceau-de-l'Hiver, elle mène à Storm Shadowhoof, qui se tient à Long-Guet et fixe trois chasses. Ursius, des ours Crocs acérés, dans les collines au nord-ouest de la ville, est si rusé que ceux qui le traquent deviennent vite la proie. Brumeran, des Noroît, glisse parmi les chimères du sud, gracieuse et rapide, et fait payer cher ceux qui croisent son chemin, parfois de leur vie. Shy-Rotam est la matriarche des sabres-de-givre qui se rassemblent au Roc des Sabres-de-Givre, et elle vient, furieuse, à sa pierre quand on y dépose la viande des siens." },
+        { "La dernière épreuve est de rentrer. Storm remet au chasseur un bon pour Melor, qui se souviendra du chasseur depuis le début de la route, il y a longtemps. Je ne parlerais pas de Shy-Rotam aux Sentinelles qui élèvent des sabres-d'hiver sur ce même rocher." },
       },
     },
     ["stormpike-guard"] = {
@@ -6697,6 +6722,14 @@ ns.translate({
         { "Ce qui en est sorti remplit la moitié des pages de ce registre. Le livre de notre bibliothèque s'achève sur le prince Arthas gravissant le Trône de glace et coiffant le heaume de Ner'zhul, les deux ne faisant plus qu'un. Il dit que l'on raconte qu'il rebâtit la citadelle de la Couronne de glace, et que Kel'Thuzad gouverne les Maleterres en son nom. La Ligue n'a pas d'expédition au Norfendre, $gvoyageur:voyageuse;, et je ne vois aucune raison d'en lancer une." },
       },
     },
+    ["the-lost-dwarves"] = {
+      title = "Les nains perdus",
+      text = {
+        { "Quand les troggs surgirent d'Uldaman, ils vinrent si vite que certains des gens de Forgefer se retrouvèrent pris derrière leurs lignes. Baelog était de ceux-là. Ami du Prospecteur Stormpike de la Ligue des explorateurs, il avait mené une petite troupe loin dans les profondeurs d'Uldaman juste avant l'attaque, et Stormpike envoya des voyageurs voir si certains vivaient encore." },
+        { "Ils vivaient, et de bonne humeur. Olaf avait parié que sa barbe lui descendrait jusqu'aux genoux avant qu'ils ne revoient âme qui vive, et quand les secours arrivèrent, il lui manquait encore quelques pouces. Eric, dit l'Agile, était le troisième. Pris au piège ou non, Baelog ne s'était pas tourné les pouces. Son journal décrit le chemin de la Chambre de Khaz'mul, derrière une lourde porte fermée : prendre le Médaillon de Gni'kiv dans le coffre de Baelog, arracher la Hampe de Tsol au trogg Revelosh, assembler les deux en Bâton de la préhistoire et s'en servir dans la salle de la carte. Faites tout ceci, écrivait-il, et la chambre sera à vous." },
+        { "Stormpike avoue qu'il doutait que la chambre existe. Il espère que la découverte incitera les chefs de Forgefer à reprendre Uldaman, et ses secrets avec. Les voyageurs de la Horde trouveront la troupe de Baelog bien moins heureuse de les voir." },
+      },
+    },
     ["the-lost-ones"] = {
       title = "Les Perdus",
       text = {
@@ -6797,6 +6830,14 @@ ns.translate({
         { "Relisez la lettre en sachant qui l'a écrite, $gvoyageur:voyageuse;. Presque chacune de ses lignes est vraie. Seule la signature ment." },
       },
     },
+    ["the-tablets-of-mosharu"] = {
+      title = "Les tablettes de Mosh'aru",
+      text = {
+        { "Yeh'kinya, un troll de Port Gentepression, en sait long sur Hakkar l'Écorcheur d'âmes et affirme ne pas en croire un mot. Il existe chez les trolls une prophétie, explique-t-il, selon laquelle le dieu mort reviendra un jour, pour la gloire des trolls ou pour la fin de tout. Un mythe, dit-il. Mais l'essence du dieu renferme un grand pouvoir, et ce pouvoir doit être tenu à l'écart de ceux qui en abuseraient." },
+        { "Alors il rassemble. D'abord les esprits des hurleurs des vallées de Feralas, cousins du dieu ancien. Puis les deux tablettes de la prophétie de Mosh'aru, apportées jadis à Zul'Farrak, l'une détenue par Theka le Martyr, mort depuis longtemps, parmi les scarabées en lesquels ses bourreaux furent changés par malédiction, l'autre par l'Hydromancienne Velratha, près du bassin sacré de Gahz'rilla. Puis un œuf antique, tiré d'une grotte derrière l'amphithéâtre de Jintha'Alor. Et enfin l'essence de l'avatar d'Hakkar lui-même, arrachée dans le Temple englouti et scellée dans l'œuf. Vous entrez dans la légende, dit-il au voyageur qui le lui rapporte. J'ai connu des érudits qui disaient ne croire à rien de ce qu'ils étudiaient. Aucun ne le collectionnait avec autant de soin." },
+        { "Le Prospecteur Ironboot, un nain du même port, avait fait ses propres lectures. Il y avait six tablettes de Mosh'aru, et non deux. Les quatre que Yeh'kinya n'avait jamais réclamées, deux chez les trolls Mossflayer des Maleterres de l'est et deux chez les Smolderthorn du Pic Rochenoire, révèlent à quoi sert l'œuf. Il ne retient pas Hakkar. Il le ramène. Quand le voyageur le confronta, Yeh'kinya ne prit pas la peine de nier. L'Écorcheur d'âmes était né à nouveau, dit-il, dans l'antique royaume troll de Zul'Gurub, et il remercia le voyageur d'avoir hâté son retour. Ironboot l'envoya ensuite auprès des trolls Zandalar de l'Ile de Yojamba, qui sauraient peut-être comment l'arrêter." },
+      },
+    },
     ["the-temple-of-atalhakkar"] = {
       title = "Le temple d'Atal'Hakkar",
       text = {
@@ -6812,6 +6853,14 @@ ns.translate({
         { "Ce coffre contenait un Œil de Paleth, l'un des orbes que les prêtres humains fabriquaient pour briller de mille feux, devenu noir et maudit par ce qu'il vit cette nuit-là. Les prêtres de Menethil ne purent le purifier. L'archevêque de Hurlevent, lui, le put. Une flotte ne meurt pas toujours d'un seul coup, $gvoyageur:voyageuse;. Il faut parfois un prêtre et un premier officier têtu pour en finir." },
       },
     },
+    ["the-valley-of-bones"] = {
+      title = "La Vallée des Ossements",
+      text = {
+        { "La Vallée des Ossements est pleine de morts : des os et des corps, les squelettes des Goliaths jumeaux, et des choses qui marchent alors qu'elles devraient reposer. Une puissance nécromantique imprègne les lieux, et les Magram, le premier clan à s'y risquer, ont décidé que cette magie leur revenait. Personne, je le remarque, n'a demandé leur avis aux morts. Ceux d'entre eux qui ne se battent ni à la lame ni au maillet apprennent à relever les morts, et ils ont désormais des Necrokhans." },
+        { "Les Gelkis sont venus après eux. Des Gelkis ont suivi les Magram dans la vallée et se sont mis au même art, dans une tentative tordue, dit l'un de leurs prisonniers, de passer dans le camp des Magram, et le clan les a tous condamnés à l'exil. L'éclaireur gelkis Nerlokh, lui, a été écœuré par autre chose. Les squelettes marchent sur deux jambes, pas sur quatre. Ce ne sont pas des morts centaures, mais ceux qui reposaient dans cette terre bien avant que la Désolace n'appartienne aux centaures. Nerlokh ne pouvait imaginer comment les Magram justifiaient de tourner le dos à Mère Theradras pour les relever." },
+        { "Les Magram entendent prendre la vallée, y lever une armée et mettre les autres clans à genoux. Orgrul, qui donne les ordres dans leur camp, a pris l'habitude de demander aux recrues si elles sont aussi impatientes que lui de régner sur toute la Désolace." },
+      },
+    },
     ["the-war-of-the-spider"] = {
       title = "La guerre de l'Araignée",
       text = {
@@ -6825,6 +6874,14 @@ ns.translate({
       text = {
         { "Les Sculpte-vents sont les shen'dorei qui restent fidèles aux esprits du vent. Ils descendent des premiers de leur peuple à avoir reçu le don de vision céleste des esprits, et ils entretenaient les instruments et les constructions que les esprits avaient laissés sur l'île. Ils ont juré de rembourser cette vieille dette : braver le plan élémentaire, retrouver leurs mentors disparus et les ramener. Leur grande voyante du ciel, Ayessa Chantelaube, croit que la voie passe par en bas, en Azeroth, et les chamans du Cercle terrestre se sont tenus à leurs côtés." },
         { "Ce n'est pas un peuple qui pardonne. À la violence du culte, Ayessa a répondu sang pour sang, et les Sculpte-vents disent d'eux-mêmes qu'ils ne pardonnent ni n'oublient. Ils ne veulent aucune paix avec les Al'Aketh, et tiennent la magie que l'Ordre suprême pratique sur leurs sites sacrés pour un danger sur une île qui se défait déjà." },
+      },
+    },
+    ["the-winterfall-firewater"] = {
+      title = "L'eau de feu des Tombe-hiver",
+      text = {
+        { "Donova Snowden est venue au Berceau-de-l'Hiver étudier les Sources de Givrefeu. Il n'y a pas de volcan dans ce pays, aussi croit-elle que ce sont les démons de la Gorge du Sombre murmure, au sud, qui réchauffent l'eau. Ce qu'elle n'avait pas prévu, ce sont les Tombe-hiver. Ce n'était pas d'ordinaire une tribu agressive, mais ils s'étaient mis à garder les plus grandes sources avec autant d'ardeur qu'elle en mettait à les étudier, et ils portaient de petites fioles d'un liquide d'un vert presque luisant." },
+        { "La piste passa par le Repaire des Grumegueules jusqu'aux Mort-bois, les furbolgs de Gangrebois que la gangrène a rendus fous. Dans un chaudron des Mort-bois bouillonnait la même substance verte, et Donova découvrit d'où elle venait : des matières toxiques recueillies sur les élémentaires corrompus du Bois d'Arbrefer. Pure, c'est un poison. Mélangée à l'eau des sources chaudes, elle perd sa toxicité et ne garde que son emprise sur qui la boit. Voilà pourquoi les Tombe-hiver gardent les sources, et pourquoi leurs messagers parcourent la longue route jusqu'à Gangrebois et retour. Les nains s'y connaissent un peu en brassage, et je n'ai jamais entendu parler d'une brasserie pareille. Donova se demandait si ce breuvage les rendait plus agressifs. Les Tombe-hiver semblaient, en tout cas, bien plus gros." },
+        { "Elle estimait qu'avec la mort du Grand chef Tombe-hiver, la tribu ne pourrait guère empirer, même si rien ne pouvait réparer le mal déjà fait. Le journal du Grand chef est écrit en signes si grossiers que Donova n'a rien pu en tirer. Kelek Skykeeper, du Cercle d'émeraude, des druides qui s'efforcent de guérir Gangrebois, l'a désormais entre les mains et a promis des nouvelles dès qu'il pourra le lire. Des Tombe-hiver eux-mêmes, reconnaît Kelek, on ne sait pas grand-chose." },
       },
     },
     ["theldurin-the-lost"] = {
@@ -7205,6 +7262,14 @@ ns.translate({
       text = {
         { "Zaetar était le fils de Cénarius, un être de la forêt. Theradras était une princesse de la terre élémentaire. De leur union naquirent les centaures, qui tuèrent leur propre père. Theradras le coucha dans les cavernes de Maraudon, où ses enfants le vénèrent encore et gardent son tombeau." },
         { "Un druide du Cercle cénarien attend près de Proie-de-l'Ombre, en quête de quelqu'un capable d'affronter Theradras et de rapporter la dépouille de Zaetar. La terre sacrée des centaures est aussi le lieu de repos d'un membre de la famille de Cénarius." },
+      },
+    },
+    ["zamael-lunthistle"] = {
+      title = "Zamael Lunthistle",
+      text = {
+        { "Dans une cage, au milieu des camps que le Marteau du crépuscule tient dans la Gorge des Vents brûlants, se tient l'esprit d'un elfe de la nuit, et il est heureux d'avoir de la compagnie. Cela fait des années, dit Zamael Lunthistle, qu'il n'a pas eu de visiteur." },
+        { "Jeune elfe de la nuit à Sombrivage, il croisa le chemin du Marteau du crépuscule. Certains se lièrent d'amitié avec lui et, à sa grande honte, il repoussa sa foi en Elune pour embrasser le venin du culte et ses Dieux très anciens, et fit beaucoup de mal en ce monde pour leur compte. Puis une vision venue d'Elune le réveilla. En repentance, il commença une prière adressée à la déesse, et grava sur une tablette en or pur ses remords, sa honte, ses regrets et sa peine. Le culte trouva la tablette, le traita de blasphémateur et l'exécuta, sa prière inachevée. Son esprit reste lié à ce monde, et la cage le retient ici en guise d'avertissement pour quiconque voudrait trahir le Marteau." },
+        { "Il a accepté la cage. Ce qu'il demande, c'est que la prière soit retrouvée chez les adorateurs d'idoles du Marteau et portée à Astarii Starseeker, à Darnassus, pour qu'elle soit entendue. L'absolution, dit-il, est bien la dernière chose qu'il attende. Quand la prière parvint à Astarii, elle dit qu'un esprit égaré avait été ramené à Elune." },
       },
     },
     ["zandalar-tribe"] = {

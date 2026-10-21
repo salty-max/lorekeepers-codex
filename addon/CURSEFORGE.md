@@ -13,7 +13,7 @@ For Classic Era (including Hardcore and Season of Discovery), TBC Anniversary an
 
 ## What you can discover
 
-The Codex contains **426 original pages across 44 chapters**, or **439 pages across 45 chapters on Forever**. It covers the original world's zones, landmarks, notable figures, peoples and history, from the Titans and the Sundering to the gates of Ahn'Qiraj.
+The Codex contains **432 original pages across 44 chapters**, or **447 pages across 46 chapters on Forever**. It covers the original world's zones, landmarks, notable figures, peoples and history, from the Titans and the Sundering to the gates of Ahn'Qiraj.
 
 - **Places and people.** Learn the stories behind the lands you cross and the characters you meet.
 - **Peoples and Powers.** Pages on the playable races, the Scourge, the Defias, the Dark Irons, the dragonflights and many others. Your own race's page is available from the start.
@@ -47,7 +47,7 @@ Open the tab with `/codex achievements`.
 
 One download covers Classic Era, Hardcore, Season of Discovery, TBC Anniversary and World of Warcraft: Forever.
 
-Forever includes a Zephras Isle chapter and pages about its new dungeons. Kill-based unlocks work in the open world. Inside Forever dungeons and raids, the game hides creatures from addons, so kills there cannot unlock pages.
+Forever includes Zephras Isle and Shen'dralas chapters and pages about its new dungeons. Kill-based unlocks work in the open world. Inside Forever dungeons and raids, the game hides creatures from addons, so kills there cannot unlock pages.
 
 The Codex speaks English, French, German and Spanish. With a French, German or Spanish client, every page, chapter and window is in that language, with every name as the game itself writes it. Known books in the Library follow your client's language, including copies saved in English, French, German or Spanish. Latin American Spanish shares the authored prose with its own game names and Library wording. Existing game translations are supplemented with our own where needed. Unknown texts stay as copied. German and Spanish are first translations: corrections are welcome on GitHub. Other clients get English, with the places and the Library's titles in their own language. Where you found each page and book is kept by the game's own ids, so it follows your client's language, even after you switch.
 

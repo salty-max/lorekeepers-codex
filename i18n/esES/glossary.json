@@ -548,6 +548,11 @@
    "forever": "Adon",
    "use": "Adon"
   },
+  "Advisor Belgrum": {
+   "classic": "Consejero Belgrum",
+   "forever": "Consejero Belgrum",
+   "use": "Consejero Belgrum"
+  },
   "Aethalas": {
    "classic": "Aethalas",
    "forever": "Aethalas",
@@ -720,6 +725,11 @@
    "forever": "Centinela de Vallefresno",
    "use": "Centinela de Vallefresno"
   },
+  "Astarii Starseeker": {
+   "classic": "Astarii Buscaestelar",
+   "forever": "Astarii Buscaestelar",
+   "use": "Astarii Buscaestelar"
+  },
   "Astranaar Sentinel": {
    "classic": "Centinela de Astranaar",
    "forever": "Centinela de Astranaar",
@@ -783,6 +793,11 @@
    "classic": "Azzleby",
    "forever": "Azzleby",
    "use": "Azzleby"
+  },
+  "Baelog": {
+   "classic": "Baelog",
+   "forever": "Baelog",
+   "use": "Baelog"
   },
   "Baine Bloodhoof": {
    "classic": "Baine Pezuña de Sangre",
@@ -1262,6 +1277,11 @@
    "forever": "Dirge Hojágil",
    "use": "Dirge Hojágil"
   },
+  "Donova Snowden": {
+   "classic": "Donova Cubilnevado",
+   "forever": "Donova Cubilnevado",
+   "use": "Donova Cubilnevado"
+  },
   "Dorin Songblade": {
    "classic": "Dorin Filosón",
    "forever": "Dorin Filosón",
@@ -1372,6 +1392,11 @@
    "classic": "Eranikus el Redimido",
    "forever": "Eranikus el Redimido",
    "use": "Eranikus el Redimido"
+  },
+  "Eric \"The Swift\"": {
+   "classic": "Eric \"El Suave\"",
+   "forever": "Eric \"El Suave\"",
+   "use": "Eric \"El Suave\""
   },
   "Everlook Bruiser": {
    "classic": "Truhán de Vista Eterna",
@@ -1772,6 +1797,11 @@
    "forever": "Hemet Decautela",
    "use": "Hemet Decautela"
   },
+  "High Chief Winterfall": {
+   "classic": "Gran Jefe Nevada",
+   "forever": "Gran Jefe Nevada",
+   "use": "Gran Jefe Nevada"
+  },
   "High Explorer Magellas": {
    "classic": "Alto Expedicionario Magellas",
    "forever": "Alto Expedicionario Magellas",
@@ -2006,6 +2036,11 @@
    "forever": "Kaela Lanzasombra",
    "use": "Kaela Lanzasombra"
   },
+  "Kalaran Windblade": {
+   "classic": "Kalaran Espada del Viento",
+   "forever": "Kalaran Espada del Viento",
+   "use": "Kalaran Espada del Viento"
+  },
   "Kebok": {
    "classic": "Kebok",
    "forever": "Kebok",
@@ -2035,6 +2070,11 @@
    "classic": "Kel'Thuzad",
    "forever": "Kel'Thuzad",
    "use": "Kel'Thuzad"
+  },
+  "Kelek Skykeeper": {
+   "classic": "Kelek Guardacielo",
+   "forever": "Kelek Guardacielo",
+   "use": "Kelek Guardacielo"
   },
   "Kerlonian Evershade": {
    "classic": "Kerlonian Semprumbrío",
@@ -2496,6 +2536,11 @@
    "forever": "Melizza Zumbala",
    "use": "Melizza Zumbala"
   },
+  "Melor Stonehoof": {
+   "classic": "Melor Pezuñapétrea",
+   "forever": "Melor Pezuñapétrea",
+   "use": "Melor Pezuñapétrea"
+  },
   "Mennet Carkad": {
    "classic": "Mennet Carkad",
    "forever": "Mennet Carkad",
@@ -2661,6 +2706,11 @@
    "forever": "Viejo Sooty",
    "use": "Viejo Sooty"
   },
+  "Olaf": {
+   "classic": "Olaf",
+   "forever": "Olaf",
+   "use": "Olaf"
+  },
   "Old Ironbark": {
    "classic": "Viejo Cortezaférrea",
    "forever": "Viejo Cortezaférrea",
@@ -2780,6 +2830,11 @@
    "classic": "Prospector Vetaferro",
    "forever": "Prospector Vetaferro",
    "use": "Prospector Vetaferro"
+  },
+  "Prospector Ironboot": {
+   "classic": "Prospector Ferrobota",
+   "forever": "Prospector Ferrobota",
+   "use": "Prospector Ferrobota"
   },
   "Prospector Khazgorm": {
    "classic": "Prospector Khazgorm",
@@ -3221,6 +3276,11 @@
    "forever": "Shreev",
    "use": "Shreev"
   },
+  "Shy-Rotam": {
+   "classic": "Shi-Rotam",
+   "forever": "Shi-Rotam",
+   "use": "Shi-Rotam"
+  },
   "Silithid Swarmer": {
    "classic": "Enjambrista silítido",
    "forever": "Enjambrista silítido",
@@ -3350,6 +3410,11 @@
    "forever": "Vigía de piedra de Norgannon",
    "use": "Vigía de piedra de Norgannon"
   },
+  "Storm Shadowhoof": {
+   "classic": "Ventisca Pezuña Umbría",
+   "forever": "Ventisca Pezuña Umbría",
+   "use": "Ventisca Pezuña Umbría"
+  },
   "Stormscale Myrmidon": {
    "classic": "Myrmidón Escama Tormentosa",
    "forever": "Myrmidón Escama Tormentosa",
@@ -3417,6 +3482,11 @@
    "classic": "El Rey Exánime",
    "forever": "El Rey Exánime",
    "use": "El Rey Exánime"
+  },
+  "Theka the Martyr": {
+   "classic": "Theka el Mártir",
+   "forever": "Theka el Mártir",
+   "use": "Theka el Mártir"
   },
   "Theldurin the Lost": {
    "classic": "Theldurin el Perdido",
@@ -3846,6 +3916,11 @@
    "classic": "Yuka Llavenrosca",
    "forever": "Yuka Llavenrosca",
    "use": "Yuka Llavenrosca"
+  },
+  "Zamael Lunthistle": {
+   "classic": "Zamael Cardolún",
+   "forever": "Zamael Cardolún",
+   "use": "Zamael Cardolún"
   },
   "Zamek": {
    "classic": "Zamek",
@@ -4293,6 +4368,11 @@
    "forever": "Costa Oscura",
    "use": "Costa Oscura"
   },
+  "Darkwhisper Gorge": {
+   "classic": "Garganta Negro Rumor",
+   "forever": "Garganta Negro Rumor",
+   "use": "Garganta Negro Rumor"
+  },
   "Darnassus": {
    "classic": "Darnassus",
    "forever": "Darnassus",
@@ -4438,6 +4518,10 @@
    "forever": "Santuario Esmeralda",
    "use": "Santuario Esmeralda"
   },
+  "Evenshade's Overlook": {
+   "forever": "Mirador de Sombrapar",
+   "use": "Mirador de Sombrapar"
+  },
   "Everlook": {
    "classic": "Vista Eterna",
    "forever": "Vista Eterna",
@@ -4521,6 +4605,10 @@
    "forever": "Peñasco Llamarada",
    "use": "Peñasco Llamarada"
   },
+  "Forlorn Gardens": {
+   "forever": "Jardines Desolados",
+   "use": "Jardines Desolados"
+  },
   "Forlorn Rowe": {
    "classic": "Loma Inhóspita",
    "forever": "Loma Inhóspita",
@@ -4530,6 +4618,11 @@
    "classic": "Poblado Viento Libre",
    "forever": "Poblado Viento Libre",
    "use": "Poblado Viento Libre"
+  },
+  "Frostfire Hot Springs": {
+   "classic": "Baños Escarchados",
+   "forever": "Baños de Fuego de Escarcha",
+   "use": "Baños de Fuego de Escarcha"
   },
   "Frostmane Hold": {
    "classic": "Poblado Peloescarcha",
@@ -4672,6 +4765,11 @@
    "forever": "Forjaz",
    "use": "Forjaz"
   },
+  "Irontree Woods": {
+   "classic": "Bosque de Troncoferro",
+   "forever": "Bosque de Troncoferro",
+   "use": "Bosque de Troncoferro"
+  },
   "Itharius's Cave": {
    "classic": "Cueva de Itharius",
    "forever": "Cueva de Itharius",
@@ -4813,6 +4911,10 @@
    "classic": "Oasis Aguaverde",
    "forever": "Oasis Aguaverde",
    "use": "Oasis Aguaverde"
+  },
+  "Magram Front": {
+   "forever": "Frente Magram",
+   "use": "Frente Magram"
   },
   "Magram Village": {
    "classic": "Poblado Magram",
@@ -4986,6 +5088,10 @@
    "classic": "Orgrimmar",
    "forever": "Orgrimmar",
    "use": "Orgrimmar"
+  },
+  "Outcast Hideaway": {
+   "forever": "Escondrijo de los Desterrados",
+   "use": "Escondrijo de los Desterrados"
   },
   "Outland": {
    "classic": "Terrallende",
@@ -5268,6 +5374,10 @@
    "forever": "Tierras Altas de Shen'dar",
    "use": "Tierras Altas de Shen'dar"
   },
+  "Shen'dralas": {
+   "forever": "Shen'dralas",
+   "use": "Shen'dralas"
+  },
   "Shrine of Akir": {
    "forever": "Santuario de Akir",
    "use": "Santuario de Akir"
@@ -5344,6 +5454,11 @@
    "forever": "Aldea Estrella Fugaz",
    "use": "Aldea Estrella Fugaz"
   },
+  "Steamwheedle Port": {
+   "classic": "Puerto Bonvapor",
+   "forever": "Puerto Bonvapor",
+   "use": "Puerto Bonvapor"
+  },
   "Steelgrill's Depot": {
    "classic": "Almacén de Brasacerada",
    "forever": "Almacén de Brasacerada",
@@ -5418,6 +5533,11 @@
    "classic": "Refugio Roca del Sol",
    "forever": "Refugio Roca del Sol",
    "use": "Refugio Roca del Sol"
+  },
+  "Sunken Temple": {
+   "classic": "Templo Sumergido",
+   "forever": "Templo Sumergido",
+   "use": "Templo Sumergido"
   },
   "Swamp of Sorrows": {
    "classic": "Pantano de las Penas",
@@ -5960,6 +6080,11 @@
   "Valanaar Skydocks": {
    "forever": "Muelles Aéreos de Valanaar",
    "use": "Muelles Aéreos de Valanaar"
+  },
+  "Valley of Bones": {
+   "classic": "Valle de los Huesos",
+   "forever": "Valle de los Huesos",
+   "use": "Valle de los Huesos"
   },
   "Valley of Heroes": {
    "classic": "Valle de los Héroes",

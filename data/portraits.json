@@ -379,6 +379,10 @@
   "name": "Blood Elf Reclaimer",
   "display": 7923
  },
+ "6906": {
+  "name": "Baelog",
+  "display": 5710
+ },
  "7044": {
   "name": "Black Drake",
   "display": 6374
@@ -422,6 +426,14 @@
  "7999": {
   "name": "Tyrande Whisperwind",
   "display": 7274
+ },
+ "8436": {
+  "name": "Zamael Lunthistle",
+  "display": 7749
+ },
+ "8479": {
+  "name": "Kalaran Windblade",
+  "display": 7820
  },
  "8547": {
   "name": "Death Cultist",
@@ -490,6 +502,10 @@
  "10618": {
   "name": "Rivern Frostwind",
   "display": 10190
+ },
+ "10737": {
+  "name": "Shy-Rotam",
+  "display": 10113
  },
  "10813": {
   "name": "Balnazzar",

@@ -426,6 +426,11 @@
    "forever": "Adon",
    "use": "Adon"
   },
+  "Advisor Belgrum": {
+   "classic": "Berater Belgrum",
+   "forever": "Berater Belgrum",
+   "use": "Berater Belgrum"
+  },
   "Aethalas": {
    "classic": "Aethalas",
    "forever": "Aethalas",
@@ -602,6 +607,11 @@
    "forever": "Schildwache von Ashenvale",
    "use": "Schildwache von Ashenvale"
   },
+  "Astarii Starseeker": {
+   "classic": "Astarii Starseeker",
+   "forever": "Astarii Starseeker",
+   "use": "Astarii Starseeker"
+  },
   "Astranaar Sentinel": {
    "classic": "Schildwache von Astranaar",
    "forever": "Schildwache von Astranaar",
@@ -665,6 +675,11 @@
    "classic": "Azzleby",
    "forever": "Azzleby",
    "use": "Azzleby"
+  },
+  "Baelog": {
+   "classic": "Baelog",
+   "forever": "Baelog",
+   "use": "Baelog"
   },
   "Baine Bloodhoof": {
    "classic": "Baine Bloodhoof",
@@ -1144,6 +1159,11 @@
    "forever": "Dirge Quikcleave",
    "use": "Dirge Quikcleave"
   },
+  "Donova Snowden": {
+   "classic": "Donova Snowden",
+   "forever": "Donova Snowden",
+   "use": "Donova Snowden"
+  },
   "Dorin Songblade": {
    "classic": "Dorin Songblade",
    "forever": "Dorin Songblade",
@@ -1254,6 +1274,11 @@
    "classic": "Eranikus der Erlöste",
    "forever": "Eranikus der Erlöste",
    "use": "Eranikus der Erlöste"
+  },
+  "Eric \"The Swift\"": {
+   "classic": "Eric \"Der Flinke\"",
+   "forever": "Eric \"Der Flinke\"",
+   "use": "Eric \"Der Flinke\""
   },
   "Everlook Bruiser": {
    "classic": "Haudrauf von Everlook",
@@ -1654,6 +1679,11 @@
    "forever": "Hemet Nesingwary",
    "use": "Hemet Nesingwary"
   },
+  "High Chief Winterfall": {
+   "classic": "Oberhäuptling der Winterfelle",
+   "forever": "Oberhäuptling der Winterfelle",
+   "use": "Oberhäuptling der Winterfelle"
+  },
   "High Explorer Magellas": {
    "classic": "Hochforscher Magellas",
    "forever": "Hochforscher Magellas",
@@ -1888,6 +1918,11 @@
    "forever": "Kaela Shadowspear",
    "use": "Kaela Shadowspear"
   },
+  "Kalaran Windblade": {
+   "classic": "Velarok Windblade",
+   "forever": "Kalaran Windblade",
+   "use": "Kalaran Windblade"
+  },
   "Kebok": {
    "classic": "Kebok",
    "forever": "Kebok",
@@ -1917,6 +1952,11 @@
    "classic": "Kel'Thuzad",
    "forever": "Kel'Thuzad",
    "use": "Kel'Thuzad"
+  },
+  "Kelek Skykeeper": {
+   "classic": "Kelek Skykeeper",
+   "forever": "Kelek Skykeeper",
+   "use": "Kelek Skykeeper"
   },
   "Kerlonian Evershade": {
    "classic": "Kerlonian Evershade",
@@ -2378,6 +2418,11 @@
    "forever": "Melizza Brimbuzzle",
    "use": "Melizza Brimbuzzle"
   },
+  "Melor Stonehoof": {
+   "classic": "Melor Stonehoof",
+   "forever": "Melor Stonehoof",
+   "use": "Melor Stonehoof"
+  },
   "Mennet Carkad": {
    "classic": "Mennet Carkad",
    "forever": "Mennet Carkad",
@@ -2543,6 +2588,11 @@
    "forever": "Old Sooty",
    "use": "Old Sooty"
   },
+  "Olaf": {
+   "classic": "Olaf",
+   "forever": "Olaf",
+   "use": "Olaf"
+  },
   "Old Ironbark": {
    "classic": "Eisenborke der Große",
    "forever": "Eisenborke der Große",
@@ -2662,6 +2712,11 @@
    "classic": "Ausgrabungsleiter Ironband",
    "forever": "Ausgrabungsleiter Ironband",
    "use": "Ausgrabungsleiter Ironband"
+  },
+  "Prospector Ironboot": {
+   "classic": "Ausgrabungsleiter Ironboot",
+   "forever": "Ausgrabungsleiter Ironboot",
+   "use": "Ausgrabungsleiter Ironboot"
   },
   "Prospector Khazgorm": {
    "classic": "Ausgrabungsleiter Khazgorm",
@@ -3103,6 +3158,11 @@
    "forever": "Shreev",
    "use": "Shreev"
   },
+  "Shy-Rotam": {
+   "classic": "Shy-Rotam",
+   "forever": "Shy-Rotam",
+   "use": "Shy-Rotam"
+  },
   "Silithid Swarmer": {
    "classic": "Silithidschwärmer",
    "forever": "Silithidschwärmer",
@@ -3232,6 +3292,11 @@
    "forever": "Steinbehüter von Norgannon",
    "use": "Steinbehüter von Norgannon"
   },
+  "Storm Shadowhoof": {
+   "classic": "Storm Shadowhoof",
+   "forever": "Storm Shadowhoof",
+   "use": "Storm Shadowhoof"
+  },
   "Stormscale Myrmidon": {
    "classic": "Myrmidone der Sturmschuppen",
    "forever": "Myrmidone der Sturmschuppen",
@@ -3299,6 +3364,11 @@
    "classic": "Der Lichkönig",
    "forever": "Der Lichkönig",
    "use": "Der Lichkönig"
+  },
+  "Theka the Martyr": {
+   "classic": "Theka der Märtyrer",
+   "forever": "Theka der Märtyrer",
+   "use": "Theka der Märtyrer"
   },
   "Theldurin the Lost": {
    "classic": "Theldurin der Verirrte",
@@ -3728,6 +3798,11 @@
    "classic": "Yuka Screwspigot",
    "forever": "Yuka Screwspigot",
    "use": "Yuka Screwspigot"
+  },
+  "Zamael Lunthistle": {
+   "classic": "Zamael Lunthistle",
+   "forever": "Zamael Lunthistle",
+   "use": "Zamael Lunthistle"
   },
   "Zamek": {
    "classic": "Zamek",
@@ -4179,6 +4254,11 @@
    "forever": "Dunkelküste",
    "use": "Dunkelküste"
   },
+  "Darkwhisper Gorge": {
+   "classic": "Die flüsternde Schlucht",
+   "forever": "Die Flüsternde Schlucht",
+   "use": "Die Flüsternde Schlucht"
+  },
   "Darnassus": {
    "classic": "Darnassus",
    "forever": "Darnassus",
@@ -4324,6 +4404,10 @@
    "forever": "Das Smaragdrefugium",
    "use": "Das Smaragdrefugium"
   },
+  "Evenshade's Overlook": {
+   "forever": "Evenshades Warte",
+   "use": "Evenshades Warte"
+  },
   "Everlook": {
    "classic": "Everlook",
    "forever": "Everlook",
@@ -4407,6 +4491,10 @@
    "forever": "Flammenkamm",
    "use": "Flammenkamm"
   },
+  "Forlorn Gardens": {
+   "forever": "Verlorene Gärten",
+   "use": "Verlorene Gärten"
+  },
   "Forlorn Rowe": {
    "classic": "Das verlassene Gut",
    "forever": "Das Verlassene Gut",
@@ -4416,6 +4504,11 @@
    "classic": "Freiwindposten",
    "forever": "Freiwindposten",
    "use": "Freiwindposten"
+  },
+  "Frostfire Hot Springs": {
+   "classic": "Die heißen Quellen von Frostfire",
+   "forever": "Die Frostfeuerquellen",
+   "use": "Die Frostfeuerquellen"
   },
   "Frostmane Hold": {
    "classic": "Höhle der Frostmane",
@@ -4558,6 +4651,11 @@
    "forever": "Ironforge",
    "use": "Ironforge"
   },
+  "Irontree Woods": {
+   "classic": "Der Eisenwald",
+   "forever": "Der Eisenwald",
+   "use": "Der Eisenwald"
+  },
   "Itharius's Cave": {
    "classic": "Itharius' Höhle",
    "forever": "Itharius' Höhle",
@@ -4699,6 +4797,10 @@
    "classic": "Die blühende Oase",
    "forever": "Die Blühende Oase",
    "use": "Die Blühende Oase"
+  },
+  "Magram Front": {
+   "forever": "Front der Magram",
+   "use": "Front der Magram"
   },
   "Magram Village": {
    "classic": "Magram",
@@ -4872,6 +4974,10 @@
    "classic": "Orgrimmar",
    "forever": "Orgrimmar",
    "use": "Orgrimmar"
+  },
+  "Outcast Hideaway": {
+   "forever": "Zuflucht der Ausgestoßenen",
+   "use": "Zuflucht der Ausgestoßenen"
   },
   "Outland": {
    "classic": "Scherbenwelt",
@@ -5154,6 +5260,10 @@
    "forever": "Shen'darhochland",
    "use": "Shen'darhochland"
   },
+  "Shen'dralas": {
+   "forever": "Shen'dralas",
+   "use": "Shen'dralas"
+  },
   "Shrine of Akir": {
    "forever": "Schrein von Akir",
    "use": "Schrein von Akir"
@@ -5230,6 +5340,11 @@
    "forever": "Starfall",
    "use": "Starfall"
   },
+  "Steamwheedle Port": {
+   "classic": "Steamwheedle",
+   "forever": "Steamwheedle",
+   "use": "Steamwheedle"
+  },
   "Steelgrill's Depot": {
    "classic": "Steelgrills Depot",
    "forever": "Steelgrills Depot",
@@ -5304,6 +5419,11 @@
    "classic": "Sonnenfels",
    "forever": "Sonnenfels",
    "use": "Sonnenfels"
+  },
+  "Sunken Temple": {
+   "classic": "Versunkener Tempel",
+   "forever": "Versunkener Tempel",
+   "use": "Versunkener Tempel"
   },
   "Swamp of Sorrows": {
    "classic": "Sümpfe des Elends",
@@ -5846,6 +5966,11 @@
   "Valanaar Skydocks": {
    "forever": "Himmelsdocks von Valanaar",
    "use": "Himmelsdocks von Valanaar"
+  },
+  "Valley of Bones": {
+   "classic": "Tal der Knochen",
+   "forever": "Tal der Knochen",
+   "use": "Tal der Knochen"
   },
   "Valley of Heroes": {
    "classic": "Das Tal der Helden",

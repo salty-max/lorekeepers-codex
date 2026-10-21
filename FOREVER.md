@@ -122,8 +122,12 @@ the beta. Forever's areas: `data/areas-forever.json` (`bun scripts/areas.ts
 - ✅ **Excavation Site: Wetlands** (Wetlands, 21 October 2026): the dig above
   Whelgar's, from the beta's quest texts in wow-data's forever.db (fourteen
   quests); its four areas and two quests unlock it. To reread at launch.
-- **Waiting for texts:** the Riverglades, Shen'dralas (19 quests with
-  texts in forever.db since), Mount Hyjal, Gilneas, the other new dungeons
+- ✅ **Shen'dralas** (chapter `shen-dralas`, order 28.5, 21 October 2026): the
+  zone and the Valley of Bones, from the beta's 19 quest texts (the Magram's
+  necromancy, the Gelkis outcasts). Only the valley has texts yet: the
+  forest, the temple, Evenshade's Overlook and the Forlorn Gardens wait, and
+  the page says so. To reread at launch.
+- **Waiting for texts:** the Riverglades, Mount Hyjal, Gilneas, the other new dungeons
   and the raids; and, on Zephras Isle, the cutscenes (Rohash and
   Lorthuna on the spires), the crystals' full texts and the Nightclaw druids.
 

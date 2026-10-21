@@ -3365,6 +3365,7 @@ ns.translate({
     ["peoples"] = { "Pueblos y poderes", "Los pueblos, órdenes y facciones que un viajero encuentra en muchas tierras, reunidos en un solo lugar." },
     ["redridge"] = { "Montañas Crestagrana", "Colinas rojas, un lago tranquilo y una población asediada desde el norte." },
     ["searing-gorge"] = { "La Garganta de Fuego", "La cara norte quemada de la montaña y la gran fosa de los Hierro Negro." },
+    ["shen-dralas"] = { "Shen'dralas", "La tierra maldita más allá del Valle de los Huesos, donde los centauros han encontrado a los muertos." },
     ["silithus"] = { "Silithus", "El desierto de los insectos, el Muro del Escarabajo y lo que duerme detrás." },
     ["silverpine"] = { "Bosque de Argénteos", "Pinos grises entre los Renegados y la puerta cerrada de Gilneas." },
     ["stonetalon"] = { "Sierra Espolón", "Altas cumbres y bosques antiguos que arden bajo las sierras goblins." },
@@ -5235,6 +5236,14 @@ ns.translate({
         { "Los sacerdotes Atal'ai que sirvieron a Hakkar en el sur llegan incluso hasta aquí: uno de ellos, condenado al exilio por su propio pueblo, vive entre los trols de Tierras del Interior. Por lo que entiendo, los Vilrama no lamentaron recibirlo." },
       },
     },
+    ["kalaran-windblade"] = {
+      title = "Kalaran Espada del Viento",
+      text = {
+        { "Kalaran Espada del Viento acampa en La Garganta de Fuego con un escudero y un rencor. La escoria Hierro Negro de La Caldera mató a su padre, dice, y cuando suplicó ayuda al magistrado de Ventormenta, nadie le hizo caso. Ventormenta, según él, prefiere no admitir que este rincón del mundo existe, y mucho menos enviar a su valiosa milicia a hacer justicia. Así que busca venganza, llanamente, y pregunta si existe en este mundo una causa más apasionada." },
+        { "Es un solo hombre, con lo que él llama un escudero medio idiota, y espera que sea el viajero quien haga el trabajo. Las cuatro torres de vigilancia de los Hierro Negro han de arder con un fuego que ningún elemento pueda apagar, encendido con una Antorcha de Retribución de su propia mano: corazones de llama y aceite de gólem, un mango forjado con las dagas de torio de los esclavistas de La Caldera, y un soporte sacado de un Símbolo de Ragnaros arrebatado al Martillo Crepuscular, cuya magia demoníaca, dice, es justo lo que necesitaba. Quien toma la antorcha siente una corriente de odio e ira correr por sus venas." },
+        { "Su escudero, Maltrake, vive para servir a su maestro, y las torres en llamas le parecen gloriosas. Kalaran promete a quienes le ayudan riquezas que jamás habrían podido imaginar, y mientras tanto no se muerde la lengua con ellos. Siento algo de simpatía por un hijo al que nadie quiso escuchar, y bastante menos por un arma hecha con el símbolo del mismísimo Señor del Fuego." },
+      },
+    },
     ["karazhan"] = {
       title = "Karazhan",
       text = {
@@ -6151,6 +6160,14 @@ ns.translate({
         { "Ha permanecido al lado de Tyrande a través del Gran Cataclismo y de las eras posteriores. Hoy su mando está lejos de Darnassus, en Feralas." },
       },
     },
+    ["shen-dralas"] = {
+      title = "Shen'dralas",
+      text = {
+        { "Shen'dralas se extiende más allá del Valle de los Huesos, en una tierra que según los centauros ya estaba maldita mucho antes de que llegaran. Casi todo lo que sé de ella me viene de los centauros que luchan a sus puertas. Más allá del valle hay un bosque, un templo cuyo artefacto se han llevado los jabaespines Erizapúas, y nombres en los mapas, el Mirador de Sombrapar y los Jardines Desolados, que nadie me ha explicado todavía." },
+        { "Lo que sí puedo contarte es quién llegó primero. Los Magram entraron en el valle y lo convirtieron en un frente. Los Gelkis los siguieron, unos para detenerlos y otros, por lo visto, para unirse a ellos. Al otro extremo se alza un campamento Magram, listo para marchar sobre el bosque, y los Erizapúas se atrincheraron igual de pronto y mantienen a raya a los Magram con lo que se llevaron del templo." },
+        { "Escribiré más cuando vuelvan a contármelo los viajeros que vayan más allá del valle." },
+      },
+    },
     ["shendralar"] = {
       title = "Los Shen'dralar",
       text = {
@@ -6312,6 +6329,14 @@ ns.translate({
       text = {
         { "La Presa de las Tres Cabezas cierra el extremo norte de Loch Modan. Su muro y su cascada son dos de las grandes vistas de Khaz Modan. Dedícales un rato, $gviajero:viajera;. Darte ese paisaje llevó muchísimo trabajo." },
         { "El ingeniero jefe Hinderweir ha descubierto un complot de los Hierro Negro contra la presa. Su investigación lleva a un barril explosivo y a la mezcla necesaria para desactivarlo. Los enanos vigilan de cerca esta obra, con razón. Hay gente que depende de que el muro aguante, y Hinderweir se juega bastante más que el orgullo de un ingeniero." },
+      },
+    },
+    ["storm-shadowhoofs-trials"] = {
+      title = "Las pruebas de Ventisca Pezuña Umbría",
+      text = {
+        { "El camino del cazador, tal como lo enseñan los tauren, empieza pronto y llega lejos. El viejo Skorn Nubeblanca envía a los más entusiastas a Melor Pezuñapétrea, en el Alto de los Cazadores de Cima del Trueno, y Melor los manda lejos. A través de Los Baldíos con Sergra Espinoscura. A Las Mil Agujas, tras Metaleador, una hiena tirana que no cuenta con la bendición de la Madre Tierra. A las nieves de Alterac, a por Faucehielo, un yeti que rara vez se deja ver. Al Marjal Revolcafango, para poner fin al dolor de Lodomuerto, un anciano crocolisco cuyo gran espíritu es torturado por su propio cuerpo viejo. Tal es el camino del cazador, les dice Melor: al final los llevará por todas las tierras de la Madre Tierra." },
+        { "En Cuna del Invierno el camino llega hasta Ventisca Pezuña Umbría, que no sale de Vista Eterna y encarga tres cacerías. Ursius de los osos dentoesquirla, en las colinas al noroeste del pueblo, es tan astuto que quienes lo cazan pronto se convierten en su presa. Brumerán de los Venfresco planea entre las quimeras del sur, grácil y veloz, y quien se cruza con ella lo paga muy caro, a menudo con su vida. Shi-Rotam es la matriarca de los sables de hielo que se reúnen en la Roca Sable de Hielo, y acude furiosa a su piedra cuando se deja allí la carne de los suyos." },
+        { "La última prueba es volver a casa. Ventisca le entrega al cazador una señal para Melor, que se acordará de él desde el comienzo del camino, hace ya tanto tiempo. Yo no nombraría a Shi-Rotam ante las Centinelas que crían sables de invierno en esa misma roca." },
       },
     },
     ["stormpike-guard"] = {
@@ -6653,6 +6678,14 @@ ns.translate({
         { "Lo que vino después llena la mitad de este registro. El libro de nuestra biblioteca termina con el príncipe Arthas ascendiendo al Trono Helado y poniéndose el yelmo de Ner'zhul, fundiéndose ambos en uno. Dice que se rumorea que reconstruye la ciudadela de Corona de Hielo y que Kel'Thuzad gobierna las Tierras de la Peste en su nombre. La Liga no tiene ninguna expedición en Rasganorte y no veo motivos para iniciarla, $gviajero:viajera;." },
       },
     },
+    ["the-lost-dwarves"] = {
+      title = "Los enanos desaparecidos",
+      text = {
+        { "Cuando los troggs salieron de Uldaman, llegaron tan deprisa que parte de la gente de Forjaz quedó atrapada tras sus líneas. Baelog era uno de ellos. Amigo del prospector Pico Tormenta, de la Liga de Expedicionarios, había llevado a una pequeña cuadrilla al fondo de la excavación justo antes del ataque, y Pico Tormenta envió viajeros a averiguar si alguno seguía con vida." },
+        { "Seguían vivos, y de buen humor. Olaf había apostado a que la barba le llegaría a las rodillas antes de que volvieran a ver un alma viva, y cuando llegó la ayuda aún le quedaba un buen trecho. Eric, llamado el Suave, era el tercero. Atrapado o no, Baelog no se había quedado de brazos cruzados. Su diario describe el camino hasta la cámara de Khaz'mul, tras una enorme puerta cerrada: tomar el medallón de Gni'kiv del cofre de Baelog, arrebatarle al trogg Revelosh el bastón de Tsol, unir ambos en el Bastón de Prehistoria y usarlo en el cuarto de mapas. Haz todo esto, escribió, y la cámara será tuya." },
+        { "Pico Tormenta admite que dudaba de que la cámara existiera. Espera que el hallazgo anime a los líderes de Forjaz a recuperar Uldaman, y sus secretos con él. A los viajeros de la Horda, la cuadrilla de Baelog los recibe con bastante menos alegría." },
+      },
+    },
     ["the-lost-ones"] = {
       title = "Los Perdidos",
       text = {
@@ -6753,6 +6786,14 @@ ns.translate({
         { "Vuelve a leer la carta sabiendo quién la escribió, $gviajero:viajera;. Casi todas sus líneas son ciertas. Solo miente la firma." },
       },
     },
+    ["the-tablets-of-mosharu"] = {
+      title = "Las tablillas de Mosh'aru",
+      text = {
+        { "Yeh'kinya, un trol de Puerto Bonvapor, sabe mucho de Hakkar el Cazador de Almas y dice no creer nada de ello. Entre los trols hay una profecía, explica, según la cual el dios muerto volverá algún día, para gloria de los trols o para el fin de todas las cosas. Un mito, lo llama. Pero la esencia del dios encierra un gran poder, y ese poder debe mantenerse lejos de quienes abusarían de él." },
+        { "Así que reúne. Primero los espíritus de los estridadores del valle de Feralas, primos de un viejo dios. Luego las dos tablillas de la profecía de Mosh'aru, llevadas hace mucho a Zul'Farrak, una en poder de Theka el Mártir, muerto hace tiempo, entre los escarabajos en los que fueron convertidos sus perseguidores, y la otra en manos de la hidromántica Velratha, junto a la poza sagrada de Gahz'rilla. Después un huevo antiguo, sacado de una cueva detrás del anfiteatro de Jintha'Alor. Y por último la esencia del avatar de Hakkar, arrancada en el Templo Sumergido y sellada en el huevo. Has tocado una leyenda, le dice al viajero que se lo trae. He conocido a eruditos que decían no creer nada de lo que estudiaban. Ninguno lo coleccionaba con tanto cuidado." },
+        { "El prospector Ferrobota, un enano del mismo puerto, había hecho sus propias lecturas. Había seis tablillas de Mosh'aru, no dos. Las cuatro que Yeh'kinya nunca pidió, dos en manos de los trols Fustamusgo de las Tierras de la Peste del Este y dos en las de los Espina Ahumada de la Cumbre de Roca Negra, revelan para qué sirve el huevo. No retiene a Hakkar. Lo trae de vuelta. Cuando el viajero se lo echó en cara, Yeh'kinya ni se molestó en negarlo. El Cazador de Almas había renacido, dijo, en el antiguo reino trol de Zul'Gurub, y dio las gracias al viajero por acelerar su regreso. Ferrobota lo envió después a ver a los trols Zandalar de la Isla Yojamba, que quizá supieran cómo detenerlo." },
+      },
+    },
     ["the-temple-of-atalhakkar"] = {
       title = "El Templo de Atal'Hakkar",
       text = {
@@ -6768,6 +6809,14 @@ ns.translate({
         { "La caja contenía un Ojo de Paleth, uno de los orbes creados por sacerdotes humanos para brillar, ennegrecido por la maldición de lo que vio aquella noche. Los sacerdotes de Menethil no pudieron purificarlo. El arzobispo de Ventormenta sí. Una flota no siempre muere de una sola vez, $gviajero:viajera;. A veces hacen falta un sacerdote y un primer oficial obstinado para zanjar el asunto." },
       },
     },
+    ["the-valley-of-bones"] = {
+      title = "El Valle de los Huesos",
+      text = {
+        { "El Valle de los Huesos está lleno de muertos: huesos y cuerpos, los esqueletos de los Goliats Gemelos y cosas que caminan cuando deberían descansar. Un poder nigromántico ha impregnado el lugar, y los Magram, el primer clan que se atrevió a entrar, han decidido que esa magia es suya. Nadie, por lo que veo, les preguntó a los muertos. Los que no luchan con espada o mazo aprenden a levantar a los muertos, y ya tienen Necrokhans." },
+        { "Los Gelkis llegaron después. Algunos Gelkis siguieron a los Magram al valle y se entregaron al mismo arte, en un retorcido intento, según uno de sus prisioneros, de pasarse a los Magram, y el clan los ha condenado a todos al exilio. Al explorador Gelkis Nerlokh le repugnó otra cosa. Los esqueletos andan sobre dos piernas, no sobre cuatro. No son muertos centauros, sino quienes yacían en esa tierra mucho antes de que Desolace perteneciera a los centauros. Nerlokh no podía imaginar cómo justificaban los Magram dar la espalda a la Madre Theradras para levantarlos." },
+        { "Los Magram quieren tomar el valle, reunir allí un ejército y poner de rodillas a los demás clanes. Orgrul, que da las órdenes en su campamento, ha tomado la costumbre de preguntar a los reclutas si están tan ansiosos como él por gobernar toda Desolace." },
+      },
+    },
     ["the-war-of-the-spider"] = {
       title = "La Guerra de la Araña",
       text = {
@@ -6781,6 +6830,14 @@ ns.translate({
       text = {
         { "Los Formavientos son los shen'dorei que mantienen su fe en los espíritus del viento. Descienden de los primeros que recibieron el don de la visión celeste y cuidaron de los instrumentos y constructos que los espíritus dejaron en la isla. Han jurado pagar aquella vieja deuda: adentrarse en el plano elemental, encontrar a sus mentores desaparecidos y traerlos a casa. Su gran vidente del cielo, Ayessa Cantoalba, cree que el camino está abajo, en Azeroth, y los chamanes del Anillo de la Tierra los han apoyado." },
         { "No son gente que perdone. Ayessa respondió a la violencia del culto con sangre por sangre, y los Formavientos dicen de sí mismos que no perdonan ni olvidan. No quieren paz con los Al'Aketh y consideran la magia de la Suma Orden en sus lugares sagrados un peligro para una isla que ya se está deshaciendo." },
+      },
+    },
+    ["the-winterfall-firewater"] = {
+      title = "La piroagua de los Nevada",
+      text = {
+        { "Donova Cubilnevado vino a Cuna del Invierno a estudiar los Baños de Fuego de Escarcha. En esta tierra no hay volcanes, así que ella cree que los demonios de la Garganta Negro Rumor, al sur, calientan el agua. Con lo que no contaba era con los Nevada. No suelen ser una tribu agresiva, pero habían empezado a vigilar los manantiales más grandes con el mismo empeño con que ella quería estudiarlos, y llevaban frasquitos de un líquido verde que casi brillaba." },
+        { "La pista condujo, pasando por el Bastión Fauces de Madera, hasta los Muertobosque, los fúrbolgs de Frondavil a quienes la vileza ha enloquecido. En un caldero de los Muertobosque burbujeaba la misma sustancia verde, y Donova averiguó de dónde salía: materia tóxica recogida de los elementales corruptos del Bosque de Troncoferro. Sola, es veneno. Mezclada con el agua de las fuentes termales, pierde su toxicidad y conserva solo su poder sobre quien la bebe. Por eso los Nevada protegen las fuentes, y por eso sus corredores hacen el largo camino hasta Frondavil y vuelta. Los enanos sabemos algo de cerveza, y nunca he oído hablar de una cervecería parecida. Donova se preguntaba si el brebaje los volvía más agresivos. Los Nevada, desde luego, parecían mucho más grandes." },
+        { "Creía que, muerto el Gran Jefe Nevada, la tribu no empeoraría, aunque nada podía deshacer el daño ya hecho. El diario del Gran Jefe está escrito con signos tan toscos que Donova no pudo sacar nada en claro. Kelek Guardacielo, del Círculo Esmeralda, druidas que trabajan para sanar Frondavil, lo tiene ahora y ha prometido dar noticias en cuanto consiga leerlo. De los Nevada en sí, admite Kelek, se sabe muy poco." },
       },
     },
     ["theldurin-the-lost"] = {
@@ -7161,6 +7218,14 @@ ns.translate({
       text = {
         { "Zaetar era hijo de Cenarius, un ser del bosque. Theradras era una princesa de la tierra elemental. De su unión nacieron los centauros, que mataron a su propio padre. Theradras lo sepultó en las cavernas de Maraudon, donde sus hijos aún lo veneran y custodian su tumba." },
         { "Un druida del Círculo Cenarion espera cerca de Cazasombras a alguien capaz de enfrentarse a Theradras y recuperar los restos de Zaetar. El suelo sagrado de los centauros también es el lugar de reposo de un miembro de la familia de Cenarius." },
+      },
+    },
+    ["zamael-lunthistle"] = {
+      title = "Zamael Cardolún",
+      text = {
+        { "En una jaula, entre los campamentos del Martillo Crepuscular en La Garganta de Fuego, está el espíritu de un elfo de la noche, y agradece la compañía. Hace muchos años que no recibe visitantes, dice Zamael Cardolún." },
+        { "Cuando era un joven elfo de la noche en Costa Oscura, se cruzó con el Martillo Crepuscular. Algunos de ellos entablaron amistad con él y, para su vergüenza, él perdió la fe en Elune, abrazó el rencor del culto y sus dioses antiguos, e hizo mucho daño en el mundo por su causa. Entonces tuvo una visión procedente de Elune que lo despertó. Arrepentido, empezó a componer una oración para la diosa y grabó su arrepentimiento, su vergüenza, su pesar y su tristeza en una tablilla de oro puro. El culto encontró la tablilla, lo llamó blasfemo y lo ejecutó con la oración sin terminar. Su espíritu sigue atado a este mundo, y la jaula lo retiene aquí como advertencia para cualquiera que traicione al Martillo." },
+        { "Ha aceptado la jaula. Lo que pide es que alguien encuentre la oración entre los idólatras del Martillo y la lleve a Astarii Buscaestelar, en Darnassus, para que sea escuchada. La absolución, dice, es lo último que espera. Cuando la oración llegó a manos de Astarii, esta dijo que se le había devuelto a Elune un alma perdida." },
       },
     },
     ["zandalar-tribe"] = {

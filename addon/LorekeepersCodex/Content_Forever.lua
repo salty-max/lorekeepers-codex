@@ -20,8 +20,8 @@ ns.content = {
     { id = "hinterlands", title = "The Hinterlands", summary = "Wild hills of the Wildhammer dwarves, and the troll temples they share them with.", entries = { "aerie-peak", "falstad-wildhammer", "jinthaalor", "queldanil-lodge", "revantusk-village", "shadra", "the-hinterlands", "wildhammer-clan" } },
     { id = "western-plaguelands", title = "Western Plaguelands", summary = "The dead heart of Lordaeron, where the plague began.", entries = { "andorhal", "caer-darrow", "chillwind-camp", "dalsons-tears", "hearthglen", "ras-frostwhisper", "scholomance", "taelan-fordring", "house-of-barov", "plague-cauldrons", "uthers-tomb", "western-plaguelands" } },
     { id = "eastern-plaguelands", title = "Eastern Plaguelands", summary = "The old Eastweald, Stratholme, and the necropolis in the sky.", entries = { "arthas-menethil", "balnazzar", "baron-rivendare", "darrowshire", "eastern-plaguelands", "kelthuzad", "lights-hope-chapel", "nathanos-blightcaller", "naxxramas", "stratholme", "tirion-fordring", "tyrs-hand" } },
-    { id = "badlands", title = "The Badlands", summary = "A red wasteland of canyons, and beneath it the titans' vault of Uldaman.", entries = { "angor-fortress", "hammertoes-digsite", "kargath", "the-badlands", "platinum-discs", "theldurin-the-lost", "uldaman" } },
-    { id = "searing-gorge", title = "Searing Gorge", summary = "The burnt north side of the mountain, and the Dark Irons' great pit.", entries = { "searing-gorge", "the-cauldron", "the-suntara-stones", "thorium-brotherhood" } },
+    { id = "badlands", title = "The Badlands", summary = "A red wasteland of canyons, and beneath it the titans' vault of Uldaman.", entries = { "angor-fortress", "hammertoes-digsite", "kargath", "the-badlands", "the-lost-dwarves", "platinum-discs", "theldurin-the-lost", "uldaman" } },
+    { id = "searing-gorge", title = "Searing Gorge", summary = "The burnt north side of the mountain, and the Dark Irons' great pit.", entries = { "kalaran-windblade", "searing-gorge", "the-cauldron", "the-suntara-stones", "thorium-brotherhood", "zamael-lunthistle" } },
     { id = "burning-steppes", title = "Burning Steppes", summary = "The ash plain south of the mountain, where Redridge once stood.", entries = { "anduin-lothar", "burning-steppes", "marshal-windsor", "morgans-vigil", "altar-of-storms", "ruins-of-thaurissan" } },
     { id = "blackrock-mountain", title = "Blackrock Mountain", summary = "The Firelord's mountain, and the war inside it.", entries = { "blackrock-depths", "blackrock-mountain", "blackrock-spire", "blackwing-lair", "dagran-thaurissan", "franclorn-forgewright", "molten-core", "nefarian", "moira-bronzebeard", "ragnaros", "vaelastrasz", "rend-blackhand" } },
     { id = "swamp-of-sorrows", title = "Swamp of Sorrows", summary = "A drowned country of mist and mire, and a temple that sank for its sins.", entries = { "eranikus", "stonard", "swamp-of-sorrows", "the-fallen-hero", "the-lost-ones", "the-temple-of-atalhakkar" } },
@@ -32,9 +32,10 @@ ns.content = {
     { id = "ashenvale", title = "Ashenvale", summary = "The ancient forest of the night elves, and the orcs' axes at its edge.", entries = { "ashenvale", "astranaar", "blackfathom-deeps", "dartols-rod", "demon-fall-canyon", "grom-hellscream", "splintertree-post", "warsong-lumber-camp", "warsong-gulch" } },
     { id = "stonetalon", title = "Stonetalon Mountains", summary = "High peaks and old forests, burning under goblin saws.", entries = { "boulderslide-ravine", "stonetalon-mountains", "stonetalon-peak", "sun-rock-retreat", "windshear-crag" } },
     { id = "desolace", title = "Desolace", summary = "A grey, dead country of centaurs, bones and demons.", entries = { "desolace", "mannoroc-coven", "maraudon", "nijels-point", "rexxar", "shadowprey-village", "khans-of-desolace", "kodo-graveyard", "zaetar-and-theradras" } },
+    { id = "shen-dralas", title = "Shen'dralas", summary = "The cursed country past the Valley of Bones, where the centaurs have found the dead.", entries = { "shen-dralas", "the-valley-of-bones" } },
     { id = "feralas", title = "Feralas", summary = "Giant trees, ogres, and the ruins of the Highborne.", entries = { "camp-mojache", "dire-maul", "feathermoon-stronghold", "feralas", "shandris-feathermoon", "shendralar" } },
     { id = "thousand-needles", title = "Thousand Needles", summary = "A canyon of stone spires, and a salt flat where goblins and gnomes race.", entries = { "arikara", "freewind-post", "rustmaul-dig-site", "shimmering-flats", "thousand-needles" } },
-    { id = "tanaris", title = "Tanaris", summary = "The great desert of the south, and the gates of the Watchers.", entries = { "atiesh", "gadgetzan", "tanaris", "caverns-of-time", "sandfury-trolls", "uldum", "zulfarrak" } },
+    { id = "tanaris", title = "Tanaris", summary = "The great desert of the south, and the gates of the Watchers.", entries = { "atiesh", "gadgetzan", "tanaris", "caverns-of-time", "sandfury-trolls", "the-tablets-of-mosharu", "uldum", "zulfarrak" } },
     { id = "ungoro-crater", title = "Un'Goro Crater", summary = "A lost world in a crater, and the mysterious crystals.", entries = { "fire-plume-ridge", "linken", "marshals-refuge", "crystal-pylons", "ungoro-crater" } },
     { id = "silithus", title = "Silithus", summary = "The insect desert, the Scarab Wall, and what sleeps behind it.", entries = { "cthun", "cenarion-hold", "prince-thunderaan", "ruins-of-ahnqiraj", "silithus", "temple-of-ahnqiraj", "abyssal-council", "the-scarab-wall", "the-scepter-of-the-shifting-sands" } },
     { id = "durotar", title = "Durotar and Orgrimmar", summary = "The red land Thrall gave his people, and the city named for the Warchief who freed them.", entries = { "daelin-proudmoore", "durotar", "eitrigg", "orgrimmar", "ragefire-chasm", "razor-hill", "senjin-village", "darkspear-trolls", "echo-isles", "valley-of-trials", "thrall", "tiragarde-keep", "voljin" } },
@@ -43,7 +44,7 @@ ns.content = {
     { id = "dustwallow", title = "Dustwallow Marsh", summary = "Lady Proudmoore's island city, a swamp full of dragons, and an inn that burned.", entries = { "brackenwall-village", "dustwallow-marsh", "jaina-proudmoore", "onyxia", "onyxias-lair", "the-missing-diplomat", "shady-rest-inn", "theramore-isle" } },
     { id = "azshara", title = "Azshara", summary = "The queen's land, on the shore of the sea that swallowed her.", entries = { "azshara", "azuregos", "captain-varothen", "loramus-thalipedes", "queen-azshara", "hydraxian-waterlords", "ravencrest-monument", "ruins-of-eldarath", "the-sundering" } },
     { id = "felwood", title = "Felwood", summary = "The poisoned forest, where the Skull of Gul'dan was found.", entries = { "bloodvenom-post", "felwood", "illidan-stormrage", "jaedenar", "talonbranch-glade", "emerald-sanctuary" } },
-    { id = "winterspring", title = "Winterspring", summary = "Snow, goblins, and the Highborne's curse.", entries = { "everlook", "mazthoril", "starfall-village", "ruins-of-keltheril", "winterspring" } },
+    { id = "winterspring", title = "Winterspring", summary = "Snow, goblins, and the Highborne's curse.", entries = { "everlook", "mazthoril", "starfall-village", "storm-shadowhoofs-trials", "ruins-of-keltheril", "the-winterfall-firewater", "winterspring" } },
     { id = "moonglade", title = "Moonglade", summary = "The druids' sacred valley.", entries = { "keeper-remulos", "malfurion-stormrage", "moonglade", "the-emerald-dream", "stormrage-barrow-dens" } },
     { id = "ages-past", title = "Ages Past", summary = "The world's history, from the Titans to the last war, as the old books in its libraries tell it.", entries = { "draenor", "sargeras-and-the-betrayal", "the-battle-of-mount-hyjal", "the-broken-alliance", "the-fall-of-quelthalas", "the-first-war", "the-five-aspects", "the-guardians-of-tirisfal", "the-lich-king", "the-ordering", "the-second-war", "the-seven-kingdoms", "the-war-of-the-spider" } },
     { id = "callings", title = "The Callings", summary = "The paths of arms, faith and magic a traveller may walk, and where each of them comes from.", entries = { "druids", "hunters", "mages", "paladins", "priests", "rogues", "shamans", "warlocks", "warriors" } },
@@ -572,6 +573,16 @@ ns.content = {
       text = {
         { "South of Loch Modan the land breaks open into the Badlands: red rock, dry canyons, mesas and dust, with hardly a tree or a stream in it. Buzzards circle, coyotes slink, ogres of the Dustbelcher clan hold the hills, and black dragons nest in Lethlor Ravine in the east." },
         { "Dwarves come here anyway, because under the Badlands lies Uldaman, the vault of the titans, and the Explorers' League has been digging at its door for years. So have the Dark Irons, from their fortress at Angor, and so have the troggs, who came up out of it. The Horde has a camp here too, at Kargath, to watch the Dark Irons. It is a busy wasteland." },
+      },
+    },
+    ["the-lost-dwarves"] = {
+      title = "The Lost Dwarves", kind = "figure", chapter = "badlands", portrait = 5710,
+      unlock = { { read = { "Baelog's Journal", "밸로그의 일지", "Journal de Baelog", "Baelogs Tagebuch", "巴尔洛戈的日记", "Diario de Baelog", "Дневник Бейлога", "Diário de Baelog", "巴爾洛戈的日記" } }, { npc = 6906 }, { npc = 6907 }, { npc = 6908 }, { quest = 2240 } },
+      also = { "uldaman", "explorers-league", "rockjaw-troggs", "hammertoes-digsite" },
+      text = {
+        { "When the troggs came up out of Uldaman, they came so fast that some of Ironforge's people were caught behind them. Baelog was one. A friend of Prospector Stormpike's at the Explorers' League, he had led a small band deep into the site just before the attack, and Stormpike sent travellers to learn whether any of them still lived." },
+        { "They did, and in good spirits. Olaf had wagered that his beard would reach his knees before they saw another living soul, and when help arrived it still had a few inches to go. Eric, called the Swift, was the third. Trapped or not, Baelog had not been idle. His journal describes the way into the Chamber of Khaz'mul, behind a great locked door: take the Medallion of Gni'kiv from Baelog's chest, win the Shaft of Tsol from the trogg Revelosh, join the two into the Staff of Prehistoria and use it in the map room. Do these things, he wrote, and the chamber will be yours." },
+        { "Stormpike admits he doubted the chamber was there at all. He hopes the finding will stir Ironforge's leaders to retake Uldaman, and its secrets with it. Travellers of the Horde will find Baelog's band rather less glad to see them." },
       },
     },
     ["theldurin-the-lost"] = {
@@ -3103,6 +3114,16 @@ ns.content = {
         { "A regiment of Stormwind's soldiers was cut to pieces among the ruined towers. A few survivors are said to be held in the caves. Warlord Gath'Ilzogg occupies the keep itself, with a price on his head from Magistrate Solomon. Look carefully at the ground, traveller. Lakeshire has already lost men trying to recover it." },
       },
     },
+    ["kalaran-windblade"] = {
+      title = "Kalaran Windblade", kind = "figure", chapter = "searing-gorge", portrait = 7820,
+      unlock = { { npc = 8479 }, { quest = 3441 } },
+      also = { "the-cauldron", "dark-iron-dwarves", "twilights-hammer", "searing-gorge" },
+      text = {
+        { "Kalaran Windblade camps in the Searing Gorge with a squire and a grudge. The Dark Irons of the Cauldron killed his father, he says, and when he begged the magistrate in Stormwind for help, nobody listened. Stormwind, as he tells it, would rather not admit that this corner of the world exists, let alone send its precious soldiers to see justice done. So it is vengeance, plain and simple, and he asks whether there is a more passionate cause in the world." },
+        { "He is one man, with what he calls a lumbering oaf of a squire, and he means the traveller to do the work. The Dark Irons' four sentry towers are to burn with a fire no element can put out, lit by a Torch of Retribution of his making: hearts of flame and golem oil, a shaft forged from the thorium daggers of the Cauldron's slavers, and a casing drawn from a Symbol of Ragnaros taken off the Twilight's Hammer, whose foul magic, he says, is perfectly suited to the task. Whoever takes up the torch feels waves of hatred and anger pulse through them." },
+        { "His squire, Maltrake, lives only to serve his master, and thinks the burning towers glorious. Kalaran promises his helpers riches beyond their wildest dreams and keeps a sharp tongue for them in the meantime. I have some sympathy for a son nobody would listen to, and rather less for a weapon made from the Firelord's own symbol." },
+      },
+    },
     ["searing-gorge"] = {
       title = "Searing Gorge", kind = "place", chapter = "searing-gorge",
       unlock = { { area = 51 } },
@@ -3139,6 +3160,36 @@ ns.content = {
       text = {
         { "The Thorium Brotherhood is made up of Dark Iron dwarves who left their emperor. Its smiths work at Thorium Point, above the Cauldron, and trade with those willing to help them against Thaurissan's forces. A Bronzebeard can admire their craft without much difficulty. The political arrangement takes a little more explaining." },
         { "They know how to forge the Firelord's arms and armour, provided someone brings the materials from within the mountain. One of their number even trades in Shadowforge City's tavern, under the emperor's nose. If you seek their work, traveller, bring what they need. Their quarrel with their old kin has not diminished their skill." },
+      },
+    },
+    ["zamael-lunthistle"] = {
+      title = "Zamael Lunthistle", kind = "figure", chapter = "searing-gorge", portrait = 7749,
+      unlock = { { npc = 8436 }, { quest = 3378 } },
+      also = { "twilights-hammer", "elune", "searing-gorge", "darnassus" },
+      text = {
+        { "In a cage among the Twilight's Hammer's camps in the Searing Gorge sits the spirit of a night elf, and he is glad of company. It has been many years, Zamael Lunthistle says, since he had a visitor." },
+        { "As a young night elf in Darkshore he fell in with the Twilight's Hammer. Some of them befriended him, and to his shame he turned from Elune and took up the cult's vitriol and its old gods, and did a great deal of harm in the world on their behalf. Then a vision came to him from Elune and woke him. In repentance he began a prayer to her, his remorse, shame, regret and sorrow etched into a tablet of pure gold. The cult found the tablet, branded him a blasphemer and executed him with the prayer unfinished. His spirit is bound to this world, and the cage keeps it here as a warning to anyone who would betray the Hammer." },
+        { "He has accepted the cage. What he asks is that the prayer be found among the Hammer's idol-worshippers and carried to Astarii Starseeker in Darnassus, so that it is heard. Absolution, he says, is the last thing he expects. When the prayer reached Astarii, she said that a lost soul had been returned to Elune." },
+      },
+    },
+    ["shen-dralas"] = {
+      title = "Shen'dralas", kind = "place", chapter = "shen-dralas",
+      unlock = { { area = 16651 } },
+      also = { "the-valley-of-bones", "khans-of-desolace", "desolace", "quilboar" },
+      text = {
+        { "Shen'dralas lies past the Valley of Bones, in country the centaurs say was cursed long before they came, and nearly everything I know of it comes from the centaurs fighting at its door. Beyond the valley there is a forest, a temple whose artifact the Bristleback quilboar have carried off, and names on the maps, Evenshade's Overlook and the Forlorn Gardens, that nobody has yet explained to me." },
+        { "What I can tell you is who got there first. The Magram crossed into the valley and made it a front. The Gelkis followed, some to stop them and some, it turns out, to join them. A Magram camp stands at the far end, waiting to march into the forest, and the Bristleback dug in just as early and have held the Magram back with whatever they took from the temple." },
+        { "I will write more when travellers who go beyond the valley come back to tell me." },
+      },
+    },
+    ["the-valley-of-bones"] = {
+      title = "The Valley of Bones", kind = "history", chapter = "shen-dralas",
+      unlock = { { area = 16675 }, { area = 16676 }, { quest = 93041 }, { quest = 92873 } },
+      also = { "shen-dralas", "khans-of-desolace", "zaetar-and-theradras", "centaurs" },
+      text = {
+        { "The Valley of Bones is full of the dead: bones and bodies, the skeletons of the Twin Goliaths, and things walking that should lie still. Some necromantic power has soaked into the place, and the Magram, the first clan to brave it, have decided that the magic is theirs. Nobody, I notice, asked the dead. Those of them who do not fight with blade or mallet are being taught to raise the dead, and they have Necrokhans now." },
+        { "The Gelkis came after them. Some Gelkis followed the Magram into the valley and took up the same art, in a twisted bid, one of their prisoners says, to defect to the Magram, and the clan has sentenced them all to exile. The Gelkis scout Nerlokh was sickened by something else. The skeletons walk on two legs, not four. They are not centaur dead at all, but whoever lay in that ground long before Desolace belonged to the centaurs. Nerlokh could not imagine how the Magram justified turning their backs on Mother Theradras to raise them." },
+        { "The Magram mean to take the valley, raise an army there and bring the other clans to their knees. Orgrul, who gives the orders in their camp, has taken to asking recruits whether they are as eager as he is to rule over all of Desolace." },
       },
     },
     ["abyssal-council"] = {
@@ -3557,6 +3608,16 @@ ns.content = {
       text = {
         { "Tanaris is the great desert of southern Kalimdor, an ocean of dunes and broken rock between the Thousand Needles and the sea. Water is worth more than gold here, and the goblins who run its only town know it." },
         { "It is a crowded desert for all its emptiness. The Sandfury trolls hold their city in the west, bandits of the Wastewander roam the dunes, pirates hold the southern coast, ogres the south, and in the Gaping Chasm the silithid are stirring. And in the far south, behind sealed gates, lies one of the titans' own works, which the Explorers' League would give its beards to enter." },
+      },
+    },
+    ["the-tablets-of-mosharu"] = {
+      title = "The Tablets of Mosh'aru", kind = "history", chapter = "tanaris",
+      unlock = { { quest = 8181 } },
+      also = { "hakkar", "zulfarrak", "the-temple-of-atalhakkar", "zulgurub", "zandalar-tribe" },
+      text = {
+        { "Yeh'kinya, a troll at Steamwheedle Port, knows a great deal about Hakkar the Soulflayer and says he believes none of it. There is a prophecy among the trolls, he explains, that the dead god will one day return, to trollkind's glory or to the end of all things. A myth, he calls it. But the god's essence holds great power, and that power ought to be kept from those who would abuse it." },
+        { "So he gathers. First the spirits of the vale screechers of Feralas, cousins of the old god. Then the two tablets of the prophecy of Mosh'aru, carried to Zul'Farrak long ago, one held by Theka the Martyr, long dead, among the scarabs his persecutors were cursed into, the other by the hydromancer Velratha at Gahz'rilla's pool. Then an ancient egg from a cave behind the amphitheatre of Jintha'Alor. And at last the essence of Hakkar's avatar itself, drawn out in the Sunken Temple and sealed in the egg. You have touched a legend, he tells the traveller who brings it back. I have known scholars who said they believed none of what they studied. None of them collected it so carefully." },
+        { "Prospector Ironboot, a dwarf at the same port, had been doing some reading of his own. There were six tablets of Mosh'aru, not two. The four Yeh'kinya never asked for, two with the Mossflayer trolls of the Eastern Plaguelands and two with the Smolderthorn in Blackrock Spire, reveal what the egg is for. It does not hold Hakkar. It brings him back. When the traveller confronted him, Yeh'kinya did not trouble to deny it. The Soulflayer was reborn, he said, in the old troll kingdom of Zul'Gurub, and he thanked the traveller for speeding his return. Ironboot sent them on to the Zandalar on Yojamba Isle, who might know how to stop him." },
       },
     },
     ["uldum"] = {
@@ -4248,6 +4309,26 @@ ns.content = {
       text = {
         { "Starfall Village is a small night elf settlement in the snows of Winterspring, where druids and scholars live among the trees. Its people study the land and its creatures, and the old ruins by the lake." },
         { "It was a scholar of Starfall who learned what the wildkin of Winterspring are: not beasts, but creatures of Elune, the moon goddess. The Arch Druid in Darnassus was very interested. So was I." },
+      },
+    },
+    ["storm-shadowhoofs-trials"] = {
+      title = "Storm Shadowhoof's Trials", kind = "creature", chapter = "winterspring", portrait = 10113,
+      unlock = { { kill = 10806 }, { kill = 10807 }, { kill = 10737 }, { quest = 5054 }, { quest = 5055 }, { quest = 5056 } },
+      also = { "winterspring", "everlook", "the-great-hunts", "tauren", "wintersaber-trainers" },
+      text = {
+        { "The hunter's path, as the tauren teach it, begins young and runs a long way. Old Skorn Whitecloud sends the eager to Melor Stonehoof on the Hunter's Rise in Thunder Bluff, and Melor sends them out. Through the Barrens with Sergra Darkthorn. To the Thousand Needles after Steelsnap, a hyena tyrant outside the Earthmother's blessing. Up into the snows of Alterac for Frostmaw, a yeti who rarely shows himself. Into Dustwallow to end the pain of Deadmire, an ancient crocolisk whose great spirit is tortured by his own old body. Such is the way of the hunter, Melor tells them: it leads at last through all the Earthmother's lands." },
+        { "In Winterspring it reaches Storm Shadowhoof, who keeps to Everlook and sets three hunts. Ursius of the Shardtooth bears, in the hills north-west of the town, is so clever that those who hunt him soon find themselves the prey. Brumeran of the Chillwind glides among the chimaera of the south, graceful and swift, and makes those who cross her pay, often with their lives. Shy-Rotam is the matriarch of the frostsabers who gather at Frostsaber Rock, and she comes in anger to her stone when the meat of her kin is laid there." },
+        { "The last trial is to go home. Storm gives the hunter a marker for Melor, who will remember them from the start of the road, long ago. I would not mention Shy-Rotam to the Sentinels who raise wintersabers on that same rock." },
+      },
+    },
+    ["the-winterfall-firewater"] = {
+      title = "The Winterfall Firewater", kind = "history", chapter = "winterspring",
+      unlock = { { quest = 5087 }, { quest = 5121 } },
+      also = { "winterspring", "furbolgs", "timbermaw", "felwood" },
+      text = {
+        { "Donova Snowden came to Winterspring to study the Frostfire Hot Springs. There are no volcanoes in this country, so she believes the demons of Darkwhisper Gorge, to the south, warm the water. What she had not counted on was the Winterfall. They are not normally an aggressive tribe, but they had begun to guard the larger springs as fiercely as she wanted to study them, and they carried little vials of a green liquid that almost glowed." },
+        { "The trail led through Timbermaw Hold to the Deadwood, the Felwood furbolgs the fel has driven mad. In a Deadwood cauldron bubbled the same green stuff, and Donova found where it came from: toxic matter gathered from the corrupted elementals of the Irontree Woods. Raw, it is poison. Mixed with the water of the hot springs, it loses its poison and keeps only its hold on whoever drinks it. That is why the Winterfall guard the springs, and why their runners walk the long road to Felwood and back. Dwarves know a little about brewing, and I have never heard of a brewery quite like it. Donova wondered whether the brew made them more aggressive. The Winterfall did seem much larger." },
+        { "She reckoned that with High Chief Winterfall dead the tribe would get no worse, though nothing could undo the harm already done. The High Chief's log is written in marks so crude that Donova could make nothing of it. Kelek Skykeeper of the Emerald Circle, druids who work to heal Felwood, has it now and has promised word once he can read it. Of the Winterfall themselves, Kelek admits, very little is known." },
       },
     },
     ["winterspring"] = {
