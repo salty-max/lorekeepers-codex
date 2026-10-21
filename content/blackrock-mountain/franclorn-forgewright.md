@@ -4,7 +4,7 @@ title: Franclorn Forgewright
 kind: figure
 portrait: 8888
 unlock:
-  - npc: 8888
+  - npc: 8888, 9056
   - kill: 9056
   - quest: 3801
   - quest: 3802

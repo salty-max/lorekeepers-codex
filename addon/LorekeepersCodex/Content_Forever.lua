@@ -790,7 +790,7 @@ ns.content = {
     },
     ["franclorn-forgewright"] = {
       title = "Franclorn Forgewright", kind = "figure", chapter = "blackrock-mountain", portrait = 8698,
-      unlock = { { npc = 8888 }, { kill = 9056 }, { quest = 3801 }, { quest = 3802 } },
+      unlock = { { npc = 8888 }, { npc = 9056 }, { kill = 9056 }, { quest = 3801 }, { quest = 3802 } },
       also = { "blackrock-depths", "dark-iron-dwarves", "dagran-thaurissan", "stonewrought-dam" },
       text = {
         { "Franclorn Forgewright was the chief architect of the Dark Iron dwarves and the inventor of the stonewrought method of building. He will tell you that you have almost certainly stood on something he made, and the great dam of Loch Modan bears his method's name. Shadowforge City, the Dark Irons' capital under the mountain, was his work." },
