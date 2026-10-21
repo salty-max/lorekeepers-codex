@@ -8,7 +8,7 @@
  * chain's ending unlocks on its last quest, not on meeting its giver.
  *
  *   bun scripts/when.ts <page id or chapter/id>...   those pages
- *   bun scripts/when.ts --changed                    the pages changed since origin/main
+ *   bun scripts/when.ts --changed                    the pages changed since origin/main, new ones too
  *   bun scripts/when.ts --all                        every page
  * Read-only: wow-data's databases (Forever's for a Forever-only page).
  */
@@ -36,8 +36,13 @@ const args = process.argv.slice(2);
 let wanted: string[];
 if (args.includes("--all")) wanted = [...pages.values()];
 else if (args.includes("--changed"))
-  wanted = execSync("git diff --name-only origin/main -- content", { cwd: ROOT, encoding: "utf8" })
-    .split("\n")
+  wanted = [
+    ...new Set(
+      ["git diff --name-only origin/main -- content", "git ls-files --others --exclude-standard -- content"].flatMap((cmd) =>
+        execSync(cmd, { cwd: ROOT, encoding: "utf8" }).split("\n"),
+      ),
+    ),
+  ]
     .filter((f) => f.endsWith(".md") && !f.split("/").pop()!.startsWith("_"))
     .map((f) => f.replace(/^content\//, "").replace(/\.md$/, ""));
 else wanted = args.map((a) => pages.get(a) ?? a.replace(/\.md$/, "").replace(/^content\//, ""));
