@@ -4,6 +4,8 @@ title: Excavation Site: Wetlands
 kind: place
 client: forever
 unlock:
+  - area: Excavation Site: Wetlands (zone)
+  - area: Excavation Site: Wetlands (Wetlands)
   - area: Lost Marsh
   - area: Stalker's Thicket
   - area: Site of the Guardian

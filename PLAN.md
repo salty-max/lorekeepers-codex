@@ -138,7 +138,7 @@ the Crusher, Large Loch Crocolisk.
 | ✅ The Red Dragonflight | creature | killing a dragonkin of Grim Batol (1045–1050) |
 | ✅ Whelgar's Excavation Site | place | Whelgar's Excavation Site (118) |
 | ✅ The Mosshide Gnolls | faction | any Mosshide kill (1007–1014); Mosshide Fen (1020) |
-| ✅ Excavation Site: Wetlands | place | Forever only: Lost Marsh, Stalker's Thicket, Site of the Guardian, Lost Dig Site; quests 95810, 95795: the dig above Whelgar's, the titan relics, the Dragonmaw and the Deathstalkers (the beta's texts, 21 October 2026) |
+| ✅ Excavation Site: Wetlands | place | Forever only: Excavation Site: Wetlands (both areas of the name), Lost Marsh, Stalker's Thicket, Site of the Guardian, Lost Dig Site; quests 95810, 95795: the dig above Whelgar's, the titan relics, the Dragonmaw and the Deathstalkers (the beta's texts, 21 October 2026) |
 | ✗ Ironbeard's Tomb | | dropped: no quest or source gives it a story |
 
 Not paged: Direforge Hill (Dragonmaw), Raptor Ridge, Bluegill Marsh, Black
@@ -553,7 +553,7 @@ Radison, Flagglemurk, Lady Vespira, Lord Sinslayer.
 | ✅ Blackfathom Deeps | place | the dungeon (719); killing Aku'mai (4829) |
 | ✗ The Shrine of Aessina | | dropped: no vanilla source gives it a story |
 | ✅ Warsong Gulch | place | the battleground (3277): the Silverwing Sentinels and the Warsong Outriders |
-| ✅ Dartol's Rod | history | quests Raene's Cleansing (1030, 1045); killing Ran Bloodtooth (3696): Teronis, the rod, Krolg's view of the corruption |
+| ✅ Dartol's Rod | history | quests Raene's Cleansing (1045, 1046, not 1030: meeting Krolg comes before Ran's death); killing Ran Bloodtooth (3696): Teronis, the rod, Krolg's view of the corruption |
 
 Not paged: Raynewood Retreat, Maestra's Post, Silverwind Refuge, Forest Song,
 Zoram'gar Outpost, Lake Falathim and Mystral Lake (in Dartol's Rod), Fallen Sky Lake, Iris Lake, the
@@ -874,7 +874,7 @@ they're met.
 | ✅ The Dragons of Nightmare | creature | killing (or targeting) Ysondre, Lethon, Emeriss or Taerar (14887–14890); Twilight Grove (856), Seradane (356), Dream Bough (1111) or Bough Shadow (438) |
 | ✅ The Burning Legion | faction | any kill of the Legion's ranks (ids in the appendix): Blasted Lands, Felwood, Ashenvale, Desolace, Azshara |
 | ✅ The Goblins | faction | targeting any goblin (229 ids, compiled from the creatures shown only with goblin models, holiday vendors left out): Kezan and Undermine, the Second War's sappers and zeppelins, the cartels |
-| ✅ The Elementals | creature | any kill of a fire, earth, air or water elemental (151 ids, hand-picked from the client's Elemental type: no treants, oozes, golems or swamp beasts) |
+| ✅ The Elementals | creature | any kill of a fire, earth, air or water elemental (150 ids, hand-picked from the client's Elemental type: no treants, oozes, golems or swamp beasts) |
 
 ---
 

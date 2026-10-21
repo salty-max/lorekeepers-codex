@@ -3,8 +3,8 @@ id: dartols-rod
 title: Dartol's Rod
 kind: history
 unlock:
-  - quest: 1030
   - quest: 1045
+  - quest: 1046
   - kill: 3696
 also: [furbolgs, astranaar, sentinels, ashenvale]
 ---

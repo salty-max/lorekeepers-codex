@@ -386,7 +386,7 @@ ns.content = {
     },
     ["dartols-rod"] = {
       title = "Dartol's Rod", kind = "history", chapter = "ashenvale",
-      unlock = { { quest = 1030 }, { quest = 1045 }, { kill = 3696 } },
+      unlock = { { quest = 1045 }, { quest = 1046 }, { kill = 3696 } },
       also = { "furbolgs", "astranaar", "sentinels", "ashenvale" },
       text = {
         { "Teronis, a friend of Raene Wolfrunner's, was helping the Sentinels of Astranaar against the furbolgs, and he believed a rod made by Dartol, an evil wizard now dead, could slow their attacks. He went after its gem at the shrine on an island in Lake Falathim and did not come back. His body was found there, cut by murloc blades, with his journal still on him." },
@@ -4119,7 +4119,7 @@ ns.content = {
     },
     ["excavation-site-wetlands"] = {
       title = "Excavation Site: Wetlands", kind = "place", chapter = "wetlands",
-      unlock = { { area = 16877 }, { area = 16878 }, { area = 16879 }, { area = 16880 }, { quest = 95810 }, { quest = 95795 } },
+      unlock = { { area = 16732 }, { area = 17732 }, { area = 16877 }, { area = 16878 }, { area = 16879 }, { area = 16880 }, { quest = 95810 }, { quest = 95795 } },
       also = { "whelgars-excavation-site", "explorers-league", "dragonmaw-clan", "deathstalkers", "earthen-ring", "wetlands" },
       text = {
         { "Prospector Whelgar's marsh is not the only dig in the Wetlands. A crew out of Loch Modan went up into the hills above it, into country no dwarf had set foot in, and found ruins, a second marsh up there with raptors and grasses taller than anything the diggers had seen, and something much older underneath. Not all of them came back. Dorin Songblade, the smith in Lakeshire, sent someone after his brother Daewyn when the letters stopped, and the answer was a body in the fen. Ardin Grassman of Menethil went up for the grasses and was found alive. He sent his wife a heart braided from reeds to say he was coming home." },
