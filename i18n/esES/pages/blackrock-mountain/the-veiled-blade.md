@@ -1,0 +1,10 @@
+---
+id: the-veiled-blade
+source: e5295ae3656e
+title: La Hoja Velada
+---
+La Cumbre de Roca Negra tuvo un señor antes que Drakkisath: Valthalak, un noble dracónido y además brujo, y de los poderosos. La Hoja Velada lo mató. Era una compañía de mercenarios a las órdenes de Anthion Harmon, contratada por Gremnik Saltatrabas, un contrabandista goblin de Bahía del Botín aficionado a la hechicería, para que le llevaran el libro de hechizos de Valthalak. Llegaron a la parte alta de la Cumbre, mataron a Valthalak en su guarida y se llevaron el libro. Entonces Kormok, el nigromante ogro de dos cabezas de la compañía, le arrancó el amuleto del cuello al señor muerto.
+
+Nadie sabía aún que el amuleto guardaba buena parte del espíritu de Valthalak. La compañía se peleó por él, lo partió en tres y se jugó los pedazos a los dados, y el fantasma de Valthalak se alzó entre ellos con sus asesinos espectrales. Huyeron, y Mor Pezuña Gris, un druida tauren, cayó, o lo empujaron, a la parte baja de la Cumbre, donde lo atraparon los trols. La compañía se disolvió y sus miembros murieron uno a uno. Mor murió bajo la tortura de los trols, Isalien al entrar en La Masacre, y los hermanos Jarien y Sothos, devotos de la Cruzada, a manos del propio Gran Cruzado. Kormok murió en Scholomance ante Ras Murmuhielo, Gremnik, que los había contratado, murió también, y Anthion cayó a las puertas de Stratholme intentando liberar a su esposa. Los asesinos de Valthalak encontraron a algunos, y el mundo se ocupó del resto.
+
+Bodley, un gnomo de la compañía que murió intentando volver a la Cumbre, sigue rondando la Montaña Roca Negra, visible solo a través del aparato revelafantasmas de un goblin. Fue Bodley quien se propuso deshacer todo lo ocurrido. Los pedazos se recuperaron de quienes los tenían, Valthalak fue traído de vuelta en lo que hoy es la cámara de la Bestia y muerto por segunda vez, y se le devolvió su amuleto entero. Perdonó a quien se lo había llevado, retiró a sus asesinos y prometió a los supervivientes que estaban a salvo, por ahora. Bodley lo dejó todo escrito después en el manual de un blandón. Es el relato más alegre de una matanza que he leído.

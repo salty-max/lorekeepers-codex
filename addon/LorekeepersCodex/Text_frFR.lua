@@ -3805,8 +3805,8 @@ ns.translate({
     { "Fort de Guet-du-Nord", "Fort du Nord" },
     { "Le mur de Grisetête", "Le mur de Greymane" },
     { "Clan Loup-de-Givre", "Clan Frostwolf" },
+    { "Quartier des Nains", "Quartier des nains" },
     { "Garde Foudrepique", "Garde Stormpike" },
-    { "Manoir Mantebrume", "Manoir Mistmantle" },
     { "Comté-de-Darrow", "Darrowshire" },
     { "de Courbenclume", "d'Anvilmar" },
     { "Mont Rochenoire", "Mont Blackrock" },
@@ -4519,6 +4519,15 @@ ns.translate({
       text = {
         { "Dolanaar se trouve sur la route de Sombrevallon à Darnassus, rassemblé autour d'un puits de lune, avec une auberge et des bâtisses parmi les arbres. Druides et Sentinelles y travaillent au plus près des ennuis de la forêt. C'est une halte utile avant de poursuivre vers la capitale." },
         { "Ces derniers temps, leurs soucis comprennent les furbolgs Pin-tordu, des satyres dans les grottes et des créatures malades dans les bois. L'air paisible du village ne dit pas grand-chose de ce travail. Écoutez ce que ses gardiens vous demandent. Ils ont vu changer le pays autour d'eux." },
+      },
+    },
+    ["dorn-plainstalkers-tests"] = {
+      title = "Les épreuves du Traqueur des plaines Dorn",
+      text = {
+        { "Le Traqueur des plaines Dorn, un tauren qui vit sur la Combe du Sabot fendu au-dessus des Mille pointes, tient qu'un être est fait d'une âme, d'un corps et d'un esprit, et que chacun d'eux peut être éprouvé. Il éprouve les jeunes de toute tribu de la Horde qui viennent à lui, car trop d'entre eux, à ce qu'il a vu, quittent leur foyer avant d'être prêts pour ce qui les attend au-dehors." },
+        { "La foi vient d'abord : un saut depuis les planches qui dominent les Mille pointes, sans promesse d'en sortir vivant. Le corps est éprouvé deux fois. L'endurance, c'est piller la Tanière des Volplumes, le repaire des harpies à l'ouest du Poste de Librevent, jusqu'à ce que Grenka Hurlesang sorte elle-même chercher l'intrus. La force, c'est Rok'Alim le Marteleur, un élémentaire d'un ordre plus ancien. Les Dieux très anciens, dit Dorn, retenaient jadis les élémentaires en ce monde, et quand ils tombèrent, la plupart des élémentaires partirent avec eux, et ne reviennent plus qu'à l'appel d'un invocateur. Quelques-uns étaient assez forts pour rester. Rok'Alim est de ceux-là." },
+        { "L'esprit, lui, n'est pas à Dorn d'en juger. Il envoie ses élèves à Braug Dimspirit, un chaman qui attend près de la Perce des Serres et qui traite tout ce qu'ils ont fait jusque-là de jeu d'enfant. Braug leur donne un livre à lire, l'Héritage des Aspects, qui repose au fond du Refuge des saisons de Dor'danil, en Orneval, puis une question à son sujet. Il les envoie ensuite de l'autre côté de la mer, à Fossoyeuse, chez Parqual Fintallas, qui exige d'abord qu'on lui vole un livre au Monastère écarlate avant d'en poser une autre. Ceux qui reviennent à la Combe du Sabot fendu y trouvent Dorn qui les attend. C'est le seul rite de passage que je connaisse qui envoie ses candidats à la bibliothèque, deux fois, et je l'approuve." },
+        { side = "Horde", aside = true, sign = "P. F.", "Les élèves de Braug m'arrivent très sûrs d'eux, et je leur dis qu'ils ne sont qu'une rumeur de taverne. Ceux qui me donnent tort sont ceux dont je me souviens." },
       },
     },
     ["draenor"] = {
@@ -5624,6 +5633,14 @@ ns.translate({
         { "L'histoire des Bien-nés ne s'est pas arrêtée quand leurs cités ont sombré, $gvoyageur:voyageuse;. Ces mêmes Bien-nés se disputent aujourd'hui des places le long des côtes du continent, aussi changés que la terre qu'ils ont connue." },
       },
     },
+    ["natalia-maralith"] = {
+      title = "Natalia Mar'alith",
+      text = {
+        { "Natalia Mar'alith était une prêtresse elfe de la nuit et l'épouse du Commandant Mar'alith, du Fort cénarien, et elle fut la première des gens du fort à suivre les fouilleurs de la Ligue quand ils arrivèrent en Silithus. Ils descendaient dans les ruches à la recherche d'artefacts perdus. Dans la Ruche'Regal, elle tomba sur un cristal gravé de glyphes, y appuya le visage comme si on l'appelait, et se figea. Les fouilleurs la portèrent dehors, et les druides du Cercle la réveillèrent. Pendant quelques semaines, elle sembla aller bien." },
+        { "Puis elle revint au camp des fouilleurs et exigea qu'ils retournent dans la ruche. Brann Bronzebeard, qui a disparu depuis, refusa d'y retourner sans une armée : l'essaim avait triplé. Avant que le combat ne commence, elle parlait déjà à quelqu'un qu'aucun d'eux ne voyait, dans une langue qu'aucun d'eux ne connaissait, alors qu'à eux quatre, singe compris, dit Frankal Stonebridge, ils en connaissent trente-huit, dont un peu de titan. Elle se battit avec l'esprit autant qu'avec les mains. Les nains entendirent des mots d'ombre résonner dans leur tête et s'effondrèrent l'un après l'autre, jusqu'à ce que le singe de l'expédition, Glibb, voie Brann tomber et la mette en fuite. Elle courut vers la Ruche'Regal, et pas un insecte ne lui barra la route." },
+        { "Son mari envoya des voyageurs à sa recherche, avec permission de faire ce qu'il faudrait. Ce qu'ils trouvèrent dans la ruche portait le titre de Grande prêtresse de C'Thun. Le Commandant n'avait jamais entendu ce nom. Je doute qu'il l'oublie." },
+      },
+    },
     ["nathanos-blightcaller"] = {
       title = "Nathanos le Flétrisseur",
       text = {
@@ -6490,6 +6507,14 @@ ns.translate({
         { "C'est un petit îlot de terre saine dans une forêt malade, et les Sentinelles qui le gardent veillent sur la route du nord pour tous les voyageurs qui doivent traverser Gangrebois." },
       },
     },
+    ["talvashs-necklace"] = {
+      title = "Le collier de Talvash",
+      text = {
+        { "Talvash del Kissel est un joaillier gnome de Forgefer, de grand renom jusqu'à ces derniers temps, et ce collier est l'une de ses plus belles œuvres. Il le fit pour un paladin qui s'était donné pour mission de purifier Uldaman de sa souillure maléfique, avec trois gemmes pour lier sa magie, et au dos le sceau de la cité et ses propres initiales. Le paladin mourut dans Uldaman. Un concurrent fit alors courir le bruit que le collier avait maudit le paladin, et les commandes se sont taries depuis." },
+        { "Les gemmes restèrent en bas. Le journal du paladin, retrouvé sur sa dépouille, dit où : le rubis derrière les barricades des nains Ombreforge, la topaze dans une urne des troggs, près de nains de l'Alliance, rien de moins, le saphir chez Grimlok, le chef des troggs. Pour réveiller le collier, Talvash avait besoin d'une source d'énergie, et le plus puissant assemblage des lieux en avait une. Le collier restauré revint à qui avait tout rapporté, avec prière de citer son créateur haut et fort, et souvent, et d'ajouter qu'il n'est pas maudit." },
+        { "La Horde le raconte autrement. La Récupération Droffers et fils, à Orgrimmar, entendit parler du collier du paladin mort et le fit chercher, et Jarkal Mossmeld, un troll de Kargath qui connaît un sort pour la langue des humains, traduisit le journal à condition de pouvoir étudier le collier entre-temps. Il garda la source d'énergie, en tira deux colliers, l'un pour lui et l'autre pour qui avait couru les chercher, et il lui en reste assez pour au moins trois autres. Les Droffers n'en savent rien. Talvash, je le soupçonne, n'en sait rien non plus. Ce n'est pas moi qui le lui dirai." },
+      },
+    },
     ["tanaris"] = {
       title = "Tanaris",
       text = {
@@ -6604,6 +6629,14 @@ ns.translate({
         { "Le plus petit site de fouilles de Crasseboue se trouve au sud-est. Sous la fosse principale, le surveillant Maltorius commande la Fosse aux scories, après avoir abandonné la Confrérie du thorium pour retourner auprès de ses anciens maîtres. Il y a aussi, à Crasseboue, des latrines avec une clé. Les affaires d'un voyageur dans ce pays peuvent l'amener à des enfermements de natures remarquablement diverses." },
       },
     },
+    ["the-charger"] = {
+      title = "Le destrier",
+      text = {
+        { "Le destrier d'un paladin ne s'achète ni ne s'élève. Il faut le reconquérir. Le Seigneur Grayson Shadowbreaker, qui guide les chevaliers de l'ordre vers leur destrier depuis le quartier de la Cathédrale de Hurlevent, les prévient que la tâche éprouvera deux choses avant tout, le sacrifice et le jugement, et que rien de tout cela n'est un exercice d'école : leur futur compagnon est aux mains du mal qu'ils ont combattu toute leur vie." },
+        { "Le sacrifice commence par des pièces, versées au Grandprêtre Rohan de Forgefer pour son encensoir d'exorcisme. Le jugement commence à Val-Terreur, dans les Maleterres de l'est, où l'encensoir, relevé d'une pincée de la terre souillée du lieu, est porté parmi les esprits tourmentés pour les chasser. Le caparaçon vient de Grimand Elmore, du quartier des Nains de Hurlevent, l'un des meilleurs armuriers vivants selon Grayson, et le meilleur selon lui-même. La bénédiction vient d'un Ancien esprit équin que le tréant corrompu Tendris Crochebois retient à Hache-tripes. Une fois le tréant mort, il faut encore nourrir l'esprit avant qu'il ne la donne." },
+        { "Le destrier lui-même est à la Scholomance. Ses os reposent dans le Grand ossuaire, et le Chevalier de la mort Ravassombre chevauche ce qui reste de son âme. Un clairvoyant bâti autour du même encensoir y fait surgir les esprits, puis le chevalier de la mort, et quand celui-ci tombe, le paladin rend au destrier son âme. De toutes les montures que j'ai consignées, c'est la seule qu'il faut d'abord sauver." },
+      },
+    },
     ["the-chromatic-flight"] = {
       title = "Le vol chromatique",
       text = {
@@ -6642,6 +6675,14 @@ ns.translate({
         { "Les Défias ont depuis creusé plus profond. Leurs galeries abritent des ingénieurs gobelins, une fonderie et un déchiqueteur, et sous les vieux puits, une crique cachée abrite un grand navire de guerre en construction. Les projets de VanCleef vont bien au-delà du pillage de fermes. Si vous descendez, $gvoyageur:voyageuse;, attendez-vous à bien plus qu'une mine désaffectée." },
       },
     },
+    ["the-dreadsteeds-of-xoroth"] = {
+      title = "Les destriers de l'effroi de Xoroth",
+      text = {
+        { "Les destriers de l'effroi vivent sur un autre monde, les plaines brûlantes de Xoroth, que Hel'nurath, l'un des grands démons, considère comme siennes, et le démoniste qui en veut un doit s'y ouvrir un passage et le prendre. Mor'zul Bloodbringer, qui campe près de l'Autel des tempêtes dans les Steppes ardentes, vend ce savoir, à un prix qui se paie en sang, en sueur et en bonne quantité d'or." },
+        { "Les glyphes sont tracés avec le sang des chouettards du Berceau-de-l'Hiver, rendus fous par les démons de la Gorge du Sombre murmure. Le serviteur de Mor'zul, Gorzeeki Wildeyes, un alchimiste gobelin qui préfère le sang encore tiède dans les veines d'un rongeur, fabrique le reste avec ce que le démoniste lui apporte : une cloche nommée d'après feu le démoniste Dethmoora Darkeyes, une roue et une bougie pour le cercle, et une pierre d'aimant d'arcanite pour tenir le tout. Le parchemin exige de la poussière d'étoile xorothienne, que seul le seigneur de l'effroi Banehollow, au siège du Conseil des ombres à Jaedenar, peut fournir, et pas pour rien. Il voulait le cœur de son propre serviteur Ulathek, qui espionnait pour Hel'nurath. Il comptait le manger après l'avoir laissé pourrir une semaine. La poussière passe ensuite dans le papier grâce à un diablotin dans un bocal, qu'on libère dans le laboratoire d'alchimie de la Scholomance." },
+        { "Le rituel se fait à Hache-tripes : un Cercle de lien supérieur, le parchemin, un portail vers Xoroth, et il en sort quelque chose qu'il faut vaincre avant que son esprit ne plie. Un grand démon, un seigneur de l'effroi, le Conseil des ombres et ce diablotin y ont tous leur part. Je le consigne parce que c'est vrai, $gvoyageur:voyageuse;, non parce que je le recommande." },
+      },
+    },
     ["the-embalmer"] = {
       title = "L'Embaumeur",
       text = {
@@ -6670,6 +6711,15 @@ ns.translate({
       text = {
         { "Hors de Pierrêche se tient le fantôme d'un héros de la Horde, qui attend des ordres. De son vivant, il mena ses guerriers dans les Terres foudroyées sans les attendre, et y trouva ce dont les ordres l'auraient averti : le démon Razelikh et ses lieutenants, qui prirent ses hommes et enfermèrent leurs esprits dans des pierres de tourment." },
         { "Il se reproche tout cela, et racontera son histoire à quiconque s'arrête pour l'écouter. Il veut que ses hommes soient libérés, et Razelikh détruit, et il aidera tout voyageur prêt à essayer, de la Horde ou de l'Alliance. C'est la seule chose qu'il lui reste à faire." },
+      },
+    },
+    ["the-felstones"] = {
+      title = "Les Felstone",
+      text = {
+        { "Le fantôme de Janice Felstone hante un coin de l'étage de sa maison, au Champ de Felstone, dans une panique qui dure depuis quatre ans. Elle avait un colis à envoyer et comptait partir à cheval avec, et la peste arriva la première. Le colis était toujours dans la grange, là où s'était tenu son cheval, poussiéreux et adressé à la hâte. Il contenait ses affaires personnelles, et l'acte de propriété de la ferme." },
+        { "Où il alla dépend de qui le porta. Selon l'Alliance, il était adressé à sa sœur Emma, à Hurlevent, et le recensement l'y retrouva : la vieille Emma, qui erre dans la cité en parlant toute seule et n'avait pas entendu son propre nom depuis des années. Selon la Horde, il allait à son frère Jeremiah, en Lordaeron, qui mourut, se releva et vend aujourd'hui des cafards près de la banque de Fossoyeuse sous le nom de Payson. J'ai les deux récits et j'ai renoncé à les accorder. Dans un cas comme dans l'autre, le colis contenait la moitié d'un porte-bonheur, que le frère ou la sœur lui renvoya." },
+        { "Janice en avait une moitié, et son mari John l'autre. Elle l'appelle encore. L'autre moitié réapparut à la ferme, sur l'une des goules. Quand les deux moitiés furent réunies et posées dans sa main, elle regarda pour la première fois la personne qui les lui tendait et dit qu'elle était libre. Je n'ai pas demandé de quelle goule il s'agissait." },
+        { side = "Horde", aside = true, sign = "P. F.", "Jeremiah Payson vend ses cafards à un prix honnête et modique. Ce qu'il était avant ne regarde que lui, et je prie l'historienne de l'Alliance de lui laisser le nom qu'il s'est choisi." },
       },
     },
     ["the-first-war"] = {
@@ -6874,6 +6924,14 @@ ns.translate({
         { "La Vallée des Ossements est pleine de morts : des os et des corps, les squelettes des Goliaths jumeaux, et des choses qui marchent alors qu'elles devraient reposer. Une puissance nécromantique imprègne les lieux, et les Magram, le premier clan à s'y risquer, ont décidé que cette magie leur revenait. Personne, je le remarque, n'a demandé leur avis aux morts. Ceux d'entre eux qui ne se battent ni à la lame ni au maillet apprennent à relever les morts, et ils ont désormais des Necrokhans." },
         { "Les Gelkis sont venus après eux. Des Gelkis ont suivi les Magram dans la vallée et se sont mis au même art, dans une tentative tordue, dit l'un de leurs prisonniers, de passer dans le camp des Magram, et le clan les a tous condamnés à l'exil. L'éclaireur gelkis Nerlokh, lui, a été écœuré par autre chose. Les squelettes marchent sur deux jambes, pas sur quatre. Ce ne sont pas des morts centaures, mais ceux qui reposaient dans cette terre bien avant que la Désolace n'appartienne aux centaures. Nerlokh ne pouvait imaginer comment les Magram justifiaient de tourner le dos à Mère Theradras pour les relever." },
         { "Les Magram entendent prendre la vallée, y lever une armée et mettre les autres clans à genoux. Orgrul, qui donne les ordres dans leur camp, a pris l'habitude de demander aux recrues si elles sont aussi impatientes que lui de régner sur toute la Désolace." },
+      },
+    },
+    ["the-veiled-blade"] = {
+      title = "La Lame voilée",
+      text = {
+        { "Le pic Rochenoire avait un maître avant Drakkisath : Valthalak, un seigneur des draconides, et un démoniste de surcroît, des plus puissants. La Lame voilée le tua. C'était une compagnie de mercenaires menée par Anthion Harmon, engagée par Gremnik Rizzlesprang, un contrebandier gobelin de Baie-du-Butin qui s'intéressait à la sorcellerie, pour lui rapporter le grimoire de Valthalak. Ils atteignirent le haut du pic, tuèrent Valthalak dans son repaire et prirent le livre. Puis Kormok, le nécromancien ogre à deux têtes de la compagnie, arracha l'amulette du cou du seigneur mort." },
+        { "Personne ne savait encore que l'amulette contenait une grande part de l'esprit de Valthalak. La compagnie se la disputa, la brisa en trois et tira les morceaux aux dés, et le fantôme de Valthalak se dressa au milieu d'eux avec ses assassins spectraux. Ils s'enfuirent, et Mor Grayhoof, un druide tauren, tomba, ou fut poussé, dans les profondeurs du pic, où les trolls le prirent. La compagnie se sépara, et ses membres moururent un à un. Mor mourut sous la torture des trolls, Isalien en entrant à Hache-tripes, Jarien et Sothos, frère et sœur acquis à la Croisade, de la main même du Grand croisé. Kormok mourut à la Scholomance sous les yeux de Ras Murmegivre, Gremnik, qui les avait engagés, mourut aussi, et Anthion tomba devant Stratholme en tentant de libérer sa femme. Les assassins de Valthalak en trouvèrent certains, et le monde se chargea des autres." },
+        { "Bodley, un gnome de la compagnie mort en tentant de retourner dans le pic, hante toujours le mont Rochenoire, visible seulement à travers l'appareil à révéler les fantômes d'un gobelin. C'est Bodley qui entreprit de tout défaire. Les morceaux furent repris à ceux qui les détenaient, Valthalak fut ramené dans ce qui est aujourd'hui l'antre de la Bête et tué une seconde fois, et son amulette lui fut rendue entière. Il épargna qui la lui avait rapportée, rappela ses assassins et promit aux survivants qu'ils étaient en sécurité, pour l'instant. Bodley a ensuite tout consigné dans le mode d'emploi d'un brasero. C'est le récit de massacre le plus gai que j'aie jamais lu." },
       },
     },
     ["the-war-of-the-spider"] = {

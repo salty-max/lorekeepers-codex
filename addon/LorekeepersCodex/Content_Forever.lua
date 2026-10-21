@@ -18,12 +18,12 @@ ns.content = {
     { id = "alterac", title = "Alterac Mountains", summary = "A fallen kingdom in the snows, Dalaran beside the lake, and a valley two peoples claim.", entries = { "alterac-mountains", "alterac-valley", "dalaran", "durotan-and-draka", "helcular", "ravenholdt-manor", "frostwolf-clan", "internment-camps", "stormpike-guard", "treason-of-alterac" } },
     { id = "arathi", title = "Arathi Highlands", summary = "The cradle of the human kingdoms, gone to ruin and fought over still.", entries = { "arathi-basin", "arathi-highlands", "hammerfall", "myzrael", "orgrim-doomhammer", "refuge-pointe", "stromgarde-keep", "thoradins-wall" } },
     { id = "hinterlands", title = "The Hinterlands", summary = "Wild hills of the Wildhammer dwarves, and the troll temples they share them with.", entries = { "aerie-peak", "falstad-wildhammer", "jinthaalor", "queldanil-lodge", "revantusk-village", "shadra", "the-hinterlands", "wildhammer-clan" } },
-    { id = "western-plaguelands", title = "Western Plaguelands", summary = "The dead heart of Lordaeron, where the plague began.", entries = { "andorhal", "caer-darrow", "chillwind-camp", "dalsons-tears", "hearthglen", "ras-frostwhisper", "scholomance", "taelan-fordring", "house-of-barov", "plague-cauldrons", "uthers-tomb", "western-plaguelands" } },
+    { id = "western-plaguelands", title = "Western Plaguelands", summary = "The dead heart of Lordaeron, where the plague began.", entries = { "andorhal", "caer-darrow", "chillwind-camp", "dalsons-tears", "hearthglen", "ras-frostwhisper", "scholomance", "taelan-fordring", "the-felstones", "house-of-barov", "plague-cauldrons", "uthers-tomb", "western-plaguelands" } },
     { id = "eastern-plaguelands", title = "Eastern Plaguelands", summary = "The old Eastweald, Stratholme, and the necropolis in the sky.", entries = { "arthas-menethil", "balnazzar", "baron-rivendare", "darrowshire", "eastern-plaguelands", "kelthuzad", "lights-hope-chapel", "nathanos-blightcaller", "naxxramas", "stratholme", "tirion-fordring", "tyrs-hand" } },
-    { id = "badlands", title = "The Badlands", summary = "A red wasteland of canyons, and beneath it the titans' vault of Uldaman.", entries = { "angor-fortress", "hammertoes-digsite", "kargath", "the-badlands", "the-lost-dwarves", "platinum-discs", "theldurin-the-lost", "uldaman" } },
+    { id = "badlands", title = "The Badlands", summary = "A red wasteland of canyons, and beneath it the titans' vault of Uldaman.", entries = { "angor-fortress", "hammertoes-digsite", "kargath", "talvashs-necklace", "the-badlands", "the-lost-dwarves", "platinum-discs", "theldurin-the-lost", "uldaman" } },
     { id = "searing-gorge", title = "Searing Gorge", summary = "The burnt north side of the mountain, and the Dark Irons' great pit.", entries = { "kalaran-windblade", "searing-gorge", "the-cauldron", "the-suntara-stones", "thorium-brotherhood", "zamael-lunthistle" } },
     { id = "burning-steppes", title = "Burning Steppes", summary = "The ash plain south of the mountain, where Redridge once stood.", entries = { "anduin-lothar", "burning-steppes", "marshal-windsor", "morgans-vigil", "altar-of-storms", "ruins-of-thaurissan" } },
-    { id = "blackrock-mountain", title = "Blackrock Mountain", summary = "The Firelord's mountain, and the war inside it.", entries = { "blackrock-depths", "blackrock-mountain", "blackrock-spire", "blackwing-lair", "dagran-thaurissan", "franclorn-forgewright", "molten-core", "nefarian", "moira-bronzebeard", "ragnaros", "the-chromatic-flight", "vaelastrasz", "rend-blackhand" } },
+    { id = "blackrock-mountain", title = "Blackrock Mountain", summary = "The Firelord's mountain, and the war inside it.", entries = { "blackrock-depths", "blackrock-mountain", "blackrock-spire", "blackwing-lair", "dagran-thaurissan", "franclorn-forgewright", "molten-core", "nefarian", "moira-bronzebeard", "ragnaros", "the-chromatic-flight", "the-veiled-blade", "vaelastrasz", "rend-blackhand" } },
     { id = "swamp-of-sorrows", title = "Swamp of Sorrows", summary = "A drowned country of mist and mire, and a temple that sank for its sins.", entries = { "eranikus", "stonard", "swamp-of-sorrows", "the-fallen-hero", "the-lost-ones", "the-temple-of-atalhakkar" } },
     { id = "blasted-lands", title = "Blasted Lands", summary = "The red waste around the Dark Portal.", entries = { "blasted-lands", "kirith-the-damned", "lord-kazzak", "nethergarde-keep", "razelikh-the-defiler", "the-dark-portal" } },
     { id = "deadwind-pass", title = "Deadwind Pass", summary = "The dead valley of the last Guardian.", entries = { "deadwind-pass", "karazhan" } },
@@ -34,10 +34,10 @@ ns.content = {
     { id = "desolace", title = "Desolace", summary = "A grey, dead country of centaurs, bones and demons.", entries = { "desolace", "mannoroc-coven", "maraudon", "nijels-point", "rexxar", "shadowprey-village", "khans-of-desolace", "kodo-graveyard", "zaetar-and-theradras" } },
     { id = "shen-dralas", title = "Shen'dralas", summary = "The cursed country of the Valley of Bones, where the centaurs have found the dead.", entries = { "shen-dralas", "the-valley-of-bones" } },
     { id = "feralas", title = "Feralas", summary = "Giant trees, ogres, and the ruins of the Highborne.", entries = { "camp-mojache", "dire-maul", "feathermoon-stronghold", "feralas", "shandris-feathermoon", "shendralar" } },
-    { id = "thousand-needles", title = "Thousand Needles", summary = "A canyon of stone spires, and a salt flat where goblins and gnomes race.", entries = { "arikara", "freewind-post", "rustmaul-dig-site", "shimmering-flats", "thousand-needles" } },
+    { id = "thousand-needles", title = "Thousand Needles", summary = "A canyon of stone spires, and a salt flat where goblins and gnomes race.", entries = { "arikara", "dorn-plainstalkers-tests", "freewind-post", "rustmaul-dig-site", "shimmering-flats", "thousand-needles" } },
     { id = "tanaris", title = "Tanaris", summary = "The great desert of the south, and the gates of the Watchers.", entries = { "atiesh", "gadgetzan", "tanaris", "caverns-of-time", "sandfury-trolls", "the-tablets-of-mosharu", "uldum", "zulfarrak" } },
     { id = "ungoro-crater", title = "Un'Goro Crater", summary = "A lost world in a crater, and the mysterious crystals.", entries = { "fire-plume-ridge", "larkorwi", "linken", "marshals-refuge", "crystal-pylons", "ungoro-crater" } },
-    { id = "silithus", title = "Silithus", summary = "The insect desert, the Scarab Wall, and what sleeps behind it.", entries = { "cthun", "cenarion-hold", "prince-thunderaan", "ruins-of-ahnqiraj", "silithus", "temple-of-ahnqiraj", "abyssal-council", "the-scarab-wall", "the-scepter-of-the-shifting-sands" } },
+    { id = "silithus", title = "Silithus", summary = "The insect desert, the Scarab Wall, and what sleeps behind it.", entries = { "cthun", "cenarion-hold", "natalia-maralith", "prince-thunderaan", "ruins-of-ahnqiraj", "silithus", "temple-of-ahnqiraj", "abyssal-council", "the-scarab-wall", "the-scepter-of-the-shifting-sands" } },
     { id = "durotar", title = "Durotar and Orgrimmar", summary = "The red land Thrall gave his people, and the city named for the Warchief who freed them.", entries = { "daelin-proudmoore", "durotar", "eitrigg", "orgrimmar", "ragefire-chasm", "razor-hill", "senjin-village", "darkspear-trolls", "echo-isles", "valley-of-trials", "thrall", "tiragarde-keep", "voljin" } },
     { id = "mulgore", title = "Mulgore and Thunder Bluff", summary = "The green plains of the tauren, and the city on the mesas.", entries = { "hamuul-runetotem", "bloodhoof-village", "cairne-bloodhoof", "camp-narache", "ghost-howl", "mulgore", "red-rocks", "earth-mother", "thunder-bluff" } },
     { id = "barrens", title = "The Barrens", summary = "The great dry savannah at the heart of Kalimdor, and everyone who fights over it.", entries = { "agamaggan", "bael-modan", "camp-taurajo", "northwatch-hold", "ratchet", "razorfen-downs", "razorfen-kraul", "the-barrens", "the-crossroads", "druids-of-the-fang", "the-great-hunts", "morshan-rampart", "barrens-oases", "wailing-caverns" } },
@@ -47,7 +47,7 @@ ns.content = {
     { id = "winterspring", title = "Winterspring", summary = "Snow, goblins, and the Highborne's curse.", entries = { "everlook", "mazthoril", "starfall-village", "storm-shadowhoofs-trials", "ruins-of-keltheril", "the-winterfall-firewater", "winterspring" } },
     { id = "moonglade", title = "Moonglade", summary = "The druids' sacred valley.", entries = { "keeper-remulos", "malfurion-stormrage", "moonglade", "the-emerald-dream", "stormrage-barrow-dens" } },
     { id = "ages-past", title = "Ages Past", summary = "The world's history, from the Titans to the last war, as the old books in its libraries tell it.", entries = { "draenor", "sargeras-and-the-betrayal", "the-battle-of-mount-hyjal", "the-broken-alliance", "the-fall-of-quelthalas", "the-first-war", "the-five-aspects", "the-guardians-of-tirisfal", "the-lich-king", "the-ordering", "the-second-war", "the-seven-kingdoms", "the-war-of-the-spider" } },
-    { id = "callings", title = "The Callings", summary = "The paths of arms, faith and magic a traveller may walk, and where each of them comes from.", entries = { "druids", "hunters", "mages", "paladins", "priests", "rogues", "shamans", "warlocks", "warriors" } },
+    { id = "callings", title = "The Callings", summary = "The paths of arms, faith and magic a traveller may walk, and where each of them comes from.", entries = { "druids", "hunters", "mages", "paladins", "priests", "rogues", "shamans", "the-charger", "the-dreadsteeds-of-xoroth", "warlocks", "warriors" } },
     { id = "peoples", title = "Peoples and Powers", summary = "The peoples, orders and factions a traveller meets in many lands, gathered in one place.", entries = { "cenarius", "elune", "ancients", "argent-dawn", "black-dragonflight", "blackrock-clan", "blood-elves", "blue-dragonflight", "bronze-dragonflight", "burning-blade", "burning-legion", "cenarion-circle", "centaurs", "cult-of-the-damned", "dark-iron-dwarves", "deathstalkers", "defias-brotherhood", "dragons-of-nightmare", "dreadlords", "dwarves", "earthen", "earthen-ring", "elementals", "forest-trolls", "furbolgs", "gnolls", "goblins", "green-dragonflight", "grimtotem", "harpies", "high-elves", "highborne", "humans", "kobolds", "murlocs", "naga", "night-elves", "ogres", "orcs", "quilboar", "satyrs", "scarlet-crusade", "scourge", "sentinels", "shadow-council", "silithid", "skyborne", "southsea-freebooters", "steamwheedle-cartel", "syndicate", "tauren", "timbermaw", "rockjaw-troggs", "twilights-hammer", "venture-company", "wildkin", "wintersaber-trainers", "worgen" } },
   },
   entries = {
@@ -566,6 +566,16 @@ ns.content = {
         { "You can understand why the League values this record, traveller. It gives us dwarves a beginning to investigate, and makes the creatures disturbing the League's digs part of the same question as our own ancestors." },
       },
     },
+    ["talvashs-necklace"] = {
+      title = "Talvash's Necklace", kind = "history", chapter = "badlands", portrait = 5647,
+      unlock = { { quest = 2361 }, { quest = 2341 } },
+      also = { "uldaman", "the-lost-dwarves", "ironforge", "kargath", "orgrimmar" },
+      text = {
+        { "Talvash del Kissel is a gnome jeweller of Ironforge, of great renown until lately, and the necklace is one of his finest works. He made it for a paladin who had set himself to cleanse Uldaman of its evil taint, with three gems to bind its magic, and the city's seal and his own initials on the back. The paladin died in Uldaman. A rival in the trade then put it about that the necklace had cursed the paladin, and the orders have dried up ever since." },
+        { "The gems stayed below. The paladin's journal, found on his remains, says where: the ruby behind the Shadowforge dwarves' barricades, the topaz in a trogg urn near some Alliance dwarves, of all people, the sapphire with Grimlok, the troggs' chief. To wake the necklace again Talvash needed a power source, and the strongest construct in the place had one. The restored necklace went to the one who brought it all back, with a request to mention its maker loudly and often, and to add that it is not cursed." },
+        { "The Horde tells it otherwise. Droffers and Son Salvage of Orgrimmar heard of the dead paladin's necklace and sent for it, and Jarkal Mossmeld, a troll of Kargath with a spell for the human tongue, translated the journal on condition that he could study the necklace in the meantime. He kept the power source, made two necklaces from it, one for himself and one for whoever had done his fetching, and has enough left for at least three more. The Droffers know nothing of it. Talvash, I suspect, knows nothing of it either. I am not going to be the one to tell him." },
+      },
+    },
     ["the-badlands"] = {
       title = "The Badlands", kind = "place", chapter = "badlands",
       unlock = { { area = 3 } },
@@ -844,6 +854,16 @@ ns.content = {
         { "What came of it can be met in the upper Spire and in the lair above it: whelps and dragonspawn in the colours of every flight, drakonids bred from each of the five, and Chromaggus, the greatest of them, deep in Blackwing Lair. The blood of all five flights went into this brood, and only the black flight had any say in it." },
       },
     },
+    ["the-veiled-blade"] = {
+      title = "The Veiled Blade", kind = "history", chapter = "blackrock-mountain", portrait = 14308,
+      unlock = { { quest = 8996 } },
+      also = { "blackrock-spire", "stratholme", "dire-maul", "scholomance", "ras-frostwhisper", "balnazzar", "booty-bay" },
+      text = {
+        { "Blackrock Spire had a master before Drakkisath: Valthalak, a lord of the draconids and a warlock besides, and a powerful one. The Veiled Blade killed him. They were a company of mercenaries under Anthion Harmon, hired by Gremnik Rizzlesprang, a goblin smuggler of Booty Bay with an interest in wizardry, to bring him Valthalak's spellbook. They reached the upper Spire, killed Valthalak in his lair and took the book. Then Kormok, the company's two-headed ogre necromancer, tore the amulet from the dead lord's neck." },
+        { "Nobody knew yet that the amulet held a great part of Valthalak's spirit. The company fought over it, broke it in three and diced for the pieces, and Valthalak's ghost rose among them with his spectral assassins. They fled, and Mor Grayhoof, a tauren druid, fell, or was pushed, into the lower Spire, where the trolls took him. The company broke up, and one by one its members died. Mor died under the trolls' torture, Isalien on her way into Dire Maul, and the Crusade-minded siblings Jarien and Sothos at the Grand Crusader's own hand. Kormok died in the Scholomance before Ras Frostwhisper, Gremnik, who had hired them, died as well, and Anthion fell outside Stratholme, trying to free his wife. Valthalak's assassins found some of them, and the world found the rest." },
+        { "Bodley, a gnome of the company who died trying to get back into the Spire, haunts Blackrock Mountain still, seen only through a goblin's ghost-revealing device. It was Bodley who set about undoing it all. The pieces were won back from those who held them, Valthalak was raised in what is now the Beast's chamber and killed a second time, and his amulet was given back to him whole. He spared the one who had brought it, called off his assassins and promised the survivors they were safe, for now. Bodley wrote the whole affair down afterwards in a user's manual for a brazier. It is the most cheerful account of a massacre I have read." },
+      },
+    },
     ["vaelastrasz"] = {
       title = "Vaelastrasz", kind = "figure", chapter = "blackrock-mountain", portrait = 13992,
       unlock = { { npc = 10296 }, { kill = 13020 } },
@@ -1037,6 +1057,26 @@ ns.content = {
         { "Thrall brought shamanism back to his people, and in Kalimdor they found others who had never lost it: the tauren, who honour the Earth Mother, and the trolls, whose witch doctors had kept their own. A shaman asks earth, fire, water and air for help, and carries a totem of each, and the elements, mostly, answer." },
         { "Lately dwarves have been seen calling on the stone and the storm too, and the Skyborne's Windshapers have come down looking for their lost wind spirits among the shamans of the Horde." },
         { "The League has learned to ask a shaman's leave before a dig, traveller. The ground has opinions, and they hear them." },
+      },
+    },
+    ["the-charger"] = {
+      title = "The Charger", kind = "creature", chapter = "callings", portrait = 14590,
+      unlock = { { quest = 7647 } },
+      also = { "paladins", "scholomance", "church-of-the-holy-light", "eastern-plaguelands", "dire-maul" },
+      text = {
+        { "A paladin's charger is not bought or bred. It has to be won back. Lord Grayson Shadowbreaker, who guides the order's knights to their chargers from Stormwind's Cathedral District, tells them that the work will try two things above all, sacrifice and judgment, and that none of it is a schoolroom exercise: their future companion is in the hands of the evil they have spent their lives fighting." },
+        { "Sacrifice begins in coin, paid to High Priest Rohan of Ironforge for his exorcism censer. Judgment begins in Terrordale in the Eastern Plaguelands, where the censer, seasoned with the place's own tainted soil, is carried among the tormented spirits to drive them out. The barding comes from Grimand Elmore of Stormwind's Dwarven District, one of the finest armourers living by Grayson's account and the finest by his own. The blessing comes from an Ancient Equine Spirit held in Dire Maul by the corrupted treant Tendris Warpwood. Once the treant is dead, the spirit has to be fed before it will give it." },
+        { "The charger itself is in the Scholomance. Its bones lie in the Great Ossuary, and the death knight Darkreaver rides what is left of its soul. A scryer built around the same censer calls up the spirits there, and after them the death knight, and when he falls the paladin hands the charger back its soul. Of all the mounts I have recorded, it is the only one that has to be saved first." },
+      },
+    },
+    ["the-dreadsteeds-of-xoroth"] = {
+      title = "The Dreadsteeds of Xoroth", kind = "creature", chapter = "callings", portrait = 14552,
+      unlock = { { quest = 7631 } },
+      also = { "warlocks", "dire-maul", "shadow-council", "jaedenar", "dreadlords", "burning-legion" },
+      text = {
+        { "The dreadsteeds live on another world, the burning Plains of Xoroth, which Hel'nurath, a lord among demons, counts as his own, and a warlock who wants one must open a way there and take it. Mor'zul Bloodbringer, camped by the Altar of Storms in the Burning Steppes, sells the knowledge, at a price paid in blood, sweat and a good deal of gold." },
+        { "The glyphs are inked in the blood of Winterspring's owlbeasts, maddened by the demons of Darkwhisper Gorge. Mor'zul's servant Gorzeeki Wildeyes, a goblin alchemist who prefers his blood still warm inside a rodent, makes the rest from what the warlock brings him: a bell named for the late warlock Dethmoora Darkeyes, a wheel and a candle for the circle, and a lodestone of arcanite to hold it together. The parchment needs Xorothian stardust, which only the dreadlord Banehollow, in the Shadow Council's seat at Jaedenar, can supply, and not for nothing. He wanted the heart of his own servant Ulathek, who had been spying for Hel'nurath. He meant to eat it once it had rotted for a week. The stardust goes into the paper by way of an imp in a jar, let out in the Scholomance's alchemy lab." },
+        { "The ritual is done in Dire Maul: a Circle of Greater Summoning, the parchment, a portal to Xoroth, and something comes through that has to be beaten before its spirit will bend. A demon lord, a dreadlord, the Shadow Council and that imp all have a hand in it. I record it because it is true, traveller, not because I recommend it." },
       },
     },
     ["warlocks"] = {
@@ -3229,6 +3269,16 @@ ns.content = {
         { "Those who approach hear whispers in their minds, promises and threats that belong to the creature below. The expedition found and slew it. I can set those events down, traveller, but I take little pleasure in recording a thing capable of answering its observers inside their own thoughts." },
       },
     },
+    ["natalia-maralith"] = {
+      title = "Natalia Mar'alith", kind = "figure", chapter = "silithus", portrait = 15330,
+      unlock = { { quest = 8306 } },
+      also = { "cthun", "cenarion-hold", "silithid", "the-scarab-wall", "explorers-league" },
+      text = {
+        { "Natalia Mar'alith was a night elf priestess and the wife of Commander Mar'alith of Cenarion Hold, and she was the first of the Hold's people to go out with the League's diggers when they came to Silithus. They went into the hives after lost artifacts. In Hive'Regal she came on a crystal carved with glyphs, pressed her face to it as if called, and went still. The diggers carried her out, and the druids of the Circle woke her. For a few weeks she seemed well." },
+        { "Then she came back to the diggers' camp and demanded that they return to the hive. Brann Bronzebeard, who has since gone missing, would not go back without an army: the swarm had grown threefold. Before the fighting began she was already talking to someone none of them could see, in a tongue none of them knew, though Frankal Stonebridge says the four of them, monkey included, know thirty-eight languages, a little Titan among them. She fought with the mind as much as the hand. The dwarves heard shadowed words in their heads and dropped one after another, until the expedition's monkey, Glibb, saw Brann fall and drove her off. She ran for Hive'Regal, and not one insect stood in her way." },
+        { "Her husband sent travellers after her, with leave to do what they must. What they found in the hive bore the title of High Priestess of C'Thun. The Commander had never heard the name before. I doubt he will forget it." },
+      },
+    },
     ["prince-thunderaan"] = {
       title = "Prince Thunderaan", kind = "figure", chapter = "silithus", portrait = 14992,
       unlock = { { kill = 14435 }, { quest = 7786 } },
@@ -3734,6 +3784,17 @@ ns.content = {
         { "Motega could not make sense of it when the deed was done. Why would Arikara be hunting Cairne? But Magatha could not be wrong, he decided. She was, after all, the tauren's most powerful shaman. He shook his head over it, and paid the hunter all the same." },
       },
     },
+    ["dorn-plainstalkers-tests"] = {
+      title = "Dorn Plainstalker's Tests", kind = "history", chapter = "thousand-needles", portrait = 10969,
+      unlock = { { quest = 1394 } },
+      also = { "thousand-needles", "freewind-post", "parqual-fintallas", "elementals", "tauren" },
+      text = {
+        { "Dorn Plainstalker, a tauren who lives on Splithoof Crag above the Thousand Needles, holds that a being is made of spirit, body and mind, and that each of them can be tried. He tries the young of any tribe of the Horde who come to him, because too many of them, in his experience, leave home before they are ready for what waits beyond." },
+        { "Faith comes first: a leap from the planks above the Needles, with no promise of coming through it alive. The body is tried twice. Endurance means raiding the Roguefeather harpies' den west of Freewind Post until Grenka Bloodscreech comes out for the intruder herself. Strength means Rok'Alim the Pounder, an elemental of an older order. The Old Gods, Dorn says, once held the elementals to this world, and when the Old Gods fell most of the elementals went with them, returning now only at a summoner's call. A few were strong enough to stay. Rok'Alim is one." },
+        { "The mind is not Dorn's to try. He sends his students to Braug Dimspirit, a shaman who waits by the Talondeep Path and calls everything they have done so far child's play. Braug sets them a book, the Legacy of the Aspects, from the bottom of Dor'danil in Ashenvale, and then a question about it. Then he sends them across the sea to the Undercity and Parqual Fintallas, who wants a book of his own stolen from the Scarlet Monastery before he asks another. Those who come back to Splithoof Crag find Dorn waiting. It is the only rite of passage I know of that sends its candidates to the library, twice, and I approve." },
+        { side = "Horde", aside = true, sign = "P. F.", "Braug's students reach me very sure of themselves, and I tell them they are a tavern rumour. The ones who prove me wrong are the ones I remember." },
+      },
+    },
     ["freewind-post"] = {
       title = "Freewind Post", kind = "place", chapter = "thousand-needles",
       unlock = { { area = 484 } },
@@ -4102,6 +4163,17 @@ ns.content = {
         { "Taelan Fordring grew up believing his father was dead. When Tirion was stripped of his lands for keeping his word to an orc, Taelan's mother stayed behind and told the boy that much. He joined the Scarlet Crusade, rose under the Grand Crusader, cast down the standard of the Silver Hand at Northdale, and became Highlord of the Crusade at Hearthglen." },
         { "He never stopped dreaming of his father, he says: of Tirion standing beside him on the day he was made a knight, of fighting the Scourge together, of honour to Lordaeron. When travellers bring him the things Tirion kept for him, and the truth about what the Crusade has become, he breaks with it and rides out to find his father." },
         { "He does not get far. Grand Inquisitor Isillien cuts him down outside Hearthglen, within sight of the man he was riding to meet, and Tirion kills Isillien over his son's body. The Order of the Silver Hand, Tirion says afterwards, is reborn. It cost him his son to remember what it was for." },
+      },
+    },
+    ["the-felstones"] = {
+      title = "The Felstones", kind = "history", chapter = "western-plaguelands", portrait = 10129,
+      unlock = { { quest = 5051 } },
+      also = { "western-plaguelands", "dalsons-tears", "plague-cauldrons", "stormwind-city", "undercity", "the-forsaken" },
+      text = {
+        { "Janice Felstone's ghost keeps to an upstairs corner of her house at Felstone Field, in a panic that has lasted four years. She had a parcel to send and meant to ride out with it, and the plague came first. The parcel was still in the barn where her horse had stood, dusty and addressed in a hurry. It held her personal things, and the deed to the farm." },
+        { "Where it went depends on who carried it. In the Alliance's account it was addressed to her sister Emma in Stormwind, and the census there found her: Ol' Emma, who wanders the city talking to herself and had not heard her own name in years. In the Horde's, it went to her brother Jeremiah in Lordaeron, who died and rose and now sells cockroaches near the Undercity's bank under the name Payson. I hold both accounts and have given up reconciling them. Either way, the parcel held half of a good luck charm, and the sibling sent it back to her." },
+        { "Janice had one half, and her husband John the other. She still calls for him. The other half turned up on the farm, on one of the ghouls. When the two halves were joined and put in her hand, she looked for the first time at the person holding them out and said she was free. I have not asked which ghoul it was." },
+        { side = "Horde", aside = true, sign = "P. F.", "Jeremiah Payson sells his cockroaches fair and cheap. What he was before is his business, and I would ask the Alliance's historian to leave him the name he chose." },
       },
     },
     ["uthers-tomb"] = {

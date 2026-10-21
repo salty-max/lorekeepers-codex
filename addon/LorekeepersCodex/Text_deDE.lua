@@ -3818,6 +3818,7 @@ ns.translate({
     { "im Dorf der Bluthufe", "in Bloodhoof" },
     { "Wirrbarts Ausgrabung", "Remtravels Ausgrabung" },
     { "Das Tal der Geister", "Tal der Geister" },
+    { "Der Zwergendistrikt", "Zwergendistrikt" },
     { "Schrein von Remulos", "Schrein von Remulos" },
     { "Zirkel des Cenarius", "Zirkel des Cenarius" },
     { "Das Trostlose Feld", "Das trostlose Feld" },
@@ -4511,6 +4512,15 @@ ns.translate({
       text = {
         { "Dolanaar liegt an der Straße von Shadowglen nach Darnassus, um einen Mondbrunnen versammelt, mit einem Gasthaus und Gebäuden zwischen den Bäumen. Druiden und Schildwachen arbeiten hier nah an den Sorgen des Waldes. Es ist ein nützlicher Halt, bevor ein Reisender zur Hauptstadt weiterzieht." },
         { "In letzter Zeit gehören zu ihren Sorgen die Furbolgs der Knarzklauen, Satyrn in den Höhlen und kranke Geschöpfe in den Wäldern. Das ruhige Aussehen des Dorfes verrät wenig über diese Arbeit. Hört Euch an, worum seine Hüter Euch bitten. Sie haben die Veränderung des Landes um sie herum beobachtet." },
+      },
+    },
+    ["dorn-plainstalkers-tests"] = {
+      title = "Dorn Plainstalkers Prüfungen",
+      text = {
+        { "Dorn Plainstalker, ein Tauren, der auf der Spalthufklippe über den Tausend Nadeln lebt, hält ein Wesen für eine Einheit aus Seele, Körper und Geist, und jedes dieser Dinge lässt sich prüfen. Er prüft die Jungen jedes Stammes der Horde, die zu ihm kommen, denn zu viele von ihnen, so hat er es erlebt, verlassen ihr Zuhause, bevor sie bereit sind für das, was draußen wartet." },
+        { "Zuerst kommt der Glaube: ein Sprung von den Planken über den Tausend Nadeln, ohne das Versprechen, ihn zu überleben. Der Körper wird zweimal geprüft. Ausdauer heißt, den Bau der Wildfedern westlich des Freiwindpostens zu plündern, bis Grenka Blutkreischer selbst herauskommt, um sich den Eindringling zu holen. Stärke heißt Rok'Alim der Trommler, ein Elementar älterer Ordnung. Die Alten Götter, sagt Dorn, hielten einst die Elementare an diese Welt gebunden, und als sie fielen, gingen die meisten Elementare mit ihnen und kehren nur noch zurück, wenn ein Beschwörer sie ruft. Einige waren stark genug, um zu bleiben. Rok'Alim ist einer von ihnen." },
+        { "Den Geist zu prüfen, steht Dorn nicht zu. Er schickt seine Schüler zu Braug Dimspirit, einem Schamanen, der beim Steinkrallenpfad wartet und alles, was sie bisher getan haben, Kinderkram nennt. Braug gibt ihnen ein Buch zu lesen, das Vermächtnis der Aspekte vom Grund des Dor'danil-Grabhügels in Ashenvale, und danach eine Frage dazu. Dann schickt er sie übers Meer nach Undercity zu Parqual Fintallas, der sich zuerst ein Buch aus dem Scharlachroten Kloster stehlen lässt, bevor er ihnen eine weitere Frage stellt. Wer zur Spalthufklippe zurückkehrt, findet Dorn wartend. Es ist der einzige Übergangsritus, den ich kenne, der seine Anwärter in die Bibliothek schickt, gleich zweimal, und ich heiße ihn gut." },
+        { side = "Horde", aside = true, sign = "P. F.", "Braugs Schüler kommen sehr selbstsicher zu mir, und ich sage ihnen, sie seien nur ein Wirtshausgerücht. An die, die mir das Gegenteil beweisen, erinnere ich mich." },
       },
     },
     ["draenor"] = {
@@ -5616,6 +5626,14 @@ ns.translate({
         { "Die Geschichte der Hochgeborenen endete nicht, als ihre Städte versanken, $gReisender:Reisende;. Dieselben Hochgeborenen ringen heute um Orte an den Küsten des Kontinents, ebenso verändert wie das Land, das sie einst kannten." },
       },
     },
+    ["natalia-maralith"] = {
+      title = "Natalia Mar'alith",
+      text = {
+        { "Natalia Mar'alith war eine Nachtelfenpriesterin und die Frau von Kommandant Mar'alith aus Burg Cenarius, und sie war die Erste aus der Burg, die mit den Ausgräbern der Liga hinauszog, als diese nach Silithus kamen. Sie stiegen in die Bauten der Silithiden hinab, auf der Suche nach verlorenen Artefakten. Im Bau des Regalschwarms stieß sie auf einen mit Glyphen beschriebenen Kristall, presste das Gesicht daran, als hätte man sie gerufen, und erstarrte. Die Ausgräber trugen sie hinaus, und die Druiden des Zirkels weckten sie. Ein paar Wochen lang schien es ihr gut zu gehen." },
+        { "Dann kam sie zurück ins Lager der Ausgräber und verlangte, dass sie in den Bau zurückkehrten. Brann Bronzebeard, der seither verschollen ist, wollte ohne ein Heer nicht zurück: Der Schwarm war auf das Dreifache angewachsen. Bevor der Kampf begann, sprach sie schon mit jemandem, den keiner von ihnen sehen konnte, in einer Sprache, die keiner von ihnen kannte, obwohl die vier, sagt Frankal Stonebridge, den Affen eingerechnet achtunddreißig Sprachen beherrschen, ein wenig Titanisch eingeschlossen. Sie kämpfte mit dem Geist so sehr wie mit der Hand. Die Zwerge hörten Schattenworte in ihren Köpfen und brachen einer nach dem anderen zusammen, bis der Affe der Expedition, Glibb, Brann fallen sah und sie vertrieb. Sie lief zum Bau des Regalschwarms, und kein einziges Insekt stellte sich ihr in den Weg." },
+        { "Ihr Mann schickte Reisende nach ihr aus, mit der Erlaubnis zu tun, was nötig sei. Was sie im Bau fanden, trug den Titel der Hohepriesterin von C'Thun. Der Kommandant hatte den Namen nie gehört. Ich bezweifle, dass er ihn vergisst." },
+      },
+    },
     ["nathanos-blightcaller"] = {
       title = "Nathanos Blightcaller",
       text = {
@@ -6482,6 +6500,14 @@ ns.translate({
         { "Sie ist eine kleine Insel aus reinem Boden in einem kranken Wald, und die Schildwachen, die sie halten, bewachen die Straße nach Norden für jeden Reisenden, der durch den Teufelswald muss." },
       },
     },
+    ["talvashs-necklace"] = {
+      title = "Talvashs Halskette",
+      text = {
+        { "Talvash del Kissel ist ein gnomischer Juwelier aus Ironforge, bis vor Kurzem von großem Ruf, und die Halskette ist eines seiner schönsten Werke. Er fertigte sie für einen Paladin, der es sich zur Aufgabe gemacht hatte, Uldaman von seinem bösen Makel zu reinigen. Drei Edelsteine banden die Magie der Kette, und auf der Rückseite trug sie das Siegel der Stadt und seine Initialen. Der Paladin starb in Uldaman. Ein Konkurrent brachte daraufhin das Gerücht in Umlauf, die Halskette habe den Paladin verflucht, und seither bleiben die Aufträge aus." },
+        { "Die Edelsteine blieben unten. Das Tagebuch des Paladins, das man bei seinen Überresten fand, sagt, wo: der Rubin hinter den Barrikaden der Schattenschmiede-Zwerge, der Topas in einer Urne der Troggs nahe einigen Zwergen der Allianz, ausgerechnet, der Saphir bei Grimlok, dem Häuptling der Troggs. Um die Halskette wieder zu wecken, brauchte Talvash eine Energiequelle, und das stärkste Konstrukt des Ortes hatte eine. Die wiederhergestellte Halskette ging an den, der alles zurückbrachte, mit der Bitte, ihren Schöpfer laut und oft zu nennen und hinzuzufügen, dass sie nicht verflucht ist." },
+        { "Die Horde erzählt es anders. Die Leute von Droffers und Sohn Bergungen in Orgrimmar hörten von der Halskette des toten Paladins und schickten nach ihr, und Jarkal Mossmeld, ein Troll aus Kargath mit einem Zauber für die Sprache der Menschen, übersetzte das Tagebuch unter der Bedingung, die Halskette in der Zwischenzeit studieren zu dürfen. Er behielt die Energiequelle, machte daraus zwei Halsketten, eine für sich und eine für den, der ihm alles gebracht hatte, und hat genug übrig für mindestens drei weitere. Die Droffers wissen nichts davon. Talvash, vermute ich, ebenso wenig. Ich werde nicht diejenige sein, die es ihm sagt." },
+      },
+    },
     ["tanaris"] = {
       title = "Tanaris",
       text = {
@@ -6596,6 +6622,14 @@ ns.translate({
         { "Die kleinere Grabung von Grimesilt liegt südöstlich davon. Unter der Hauptgrube befehligt Aufseher Maltorius die Schlackengrube, nachdem er die Thoriumbruderschaft verlassen hat, um zu seinen früheren Herren zurückzukehren. Es gibt in Grimesilt auch ein Abort mit einem Schlüssel. Die Geschäfte eines Reisenden in diesem Land können bemerkenswert verschiedene Arten von Einsperrung umfassen." },
       },
     },
+    ["the-charger"] = {
+      title = "Das Streitross",
+      text = {
+        { "Das Streitross eines Paladins wird weder gekauft noch gezüchtet. Es muss zurückgewonnen werden. Lord Grayson Shadowbreaker, der die Ritter des Ordens vom Kathedralenviertel Stormwinds aus zu ihren Streitrössern führt, sagt ihnen, dass die Aufgabe vor allem zweierlei prüfen wird, Opferbereitschaft und Urteilskraft, und dass nichts davon eine Schulübung ist: Ihr künftiger Gefährte ist in den Händen des Bösen, gegen das sie ihr Leben lang gekämpft haben." },
+        { "Das Opfer beginnt mit Münzen, gezahlt an Hohepriester Rohan in Ironforge für seinen Weihrauchschwenker. Das Urteil beginnt im Schreckenstal in den Östlichen Pestländern, wo der Schwenker, versetzt mit einer Prise der verderbten Erde des Ortes, unter die gequälten Geister getragen wird, um sie auszutreiben. Der Rossharnisch kommt von Grimand Elmore aus dem Zwergendistrikt Stormwinds, nach Graysons Worten einem der besten Rüstungsschmiede unter den Lebenden und nach seinen eigenen dem besten. Den Segen gibt ein Uralter Pferdegeist, den der verderbte Treant Tendris Wucherborke in Düsterbruch gefangen hält. Ist der Treant tot, muss der Geist noch gefüttert werden, bevor er ihn gewährt." },
+        { "Das Streitross selbst ist in der Scholomance. Seine Knochen liegen im Großen Beinhaus, und der Todesritter Schattensichel reitet, was von seiner Seele übrig ist. Ein Orakel, um denselben Schwenker gebaut, ruft dort die Geister herbei und nach ihnen den Todesritter, und wenn er fällt, gibt der Paladin dem Streitross seine Seele zurück. Von allen Reittieren, die ich verzeichnet habe, ist es das einzige, das man zuerst retten muss." },
+      },
+    },
     ["the-chromatic-flight"] = {
       title = "Der chromatische Drachenschwarm",
       text = {
@@ -6634,6 +6668,14 @@ ns.translate({
         { "Die Defias haben seither tiefer gegraben. In ihren Stollen finden sich Goblin-Ingenieure, eine Gießerei und ein Schredder, und unter den alten Schächten birgt eine verborgene Bucht ein großes Kriegsschiff im Bau. Van Cleefs Pläne reichen weit über den Diebstahl von Höfen hinaus. Wenn Ihr hinabsteigt, $gReisender:Reisende;, rechnet mit deutlich mehr als einer stillgelegten Mine." },
       },
     },
+    ["the-dreadsteeds-of-xoroth"] = {
+      title = "Die Schreckensrösser von Xoroth",
+      text = {
+        { "Die Schreckensrösser leben in einer anderen Welt, den brennenden Ebenen von Xoroth, die Hel'nurath, ein Fürst unter den Dämonen, als sein Eigen betrachtet, und ein Hexenmeister, der eines will, muss sich einen Weg dorthin öffnen und es holen. Mor'zul Bloodbringer, der beim Altar der Stürme in der Brennenden Steppe lagert, verkauft dieses Wissen zu einem Preis, der in Blut, Schweiß und reichlich Gold bezahlt wird." },
+        { "Die Glyphen werden mit dem Blut der Eulenbestien von Winterspring geschrieben, die von den Dämonen der Flüsternden Schlucht in den Wahnsinn getrieben wurden. Mor'zuls Diener Gorzeeki Wildeyes, ein Goblinalchemist, der sein Blut lieber noch warm in einem Nager hat, fertigt aus dem, was der Hexenmeister ihm bringt, den Rest: eine Glocke, benannt nach dem verstorbenen Hexenmeister Dethmoora Darkeyes, ein Rad und eine Kerze für den Kreis und einen Magnetstein aus Arkanit, der alles zusammenhält. Das Pergament braucht xorothianischen Sternenstaub, den nur der Schreckenslord Banehollow am Sitz des Schattenrats in Jaedenar beschaffen kann, und nicht umsonst. Er wollte das Herz seines eigenen Dieners Ulathek, der für Hel'nurath spioniert hatte. Er gedachte es zu essen, sobald es eine Woche verrottet war. Der Staub gelangt danach mithilfe eines Wichtels im Glas ins Papier, den man im Alchemielabor der Scholomance freilässt." },
+        { "Das Ritual findet in Düsterbruch statt: ein mächtiger Beschwörungskreis, das Pergament, ein Portal nach Xoroth, und es kommt etwas hindurch, das besiegt werden muss, bevor sein Geist sich beugt. Ein Dämonenfürst, ein Schreckenslord, der Schattenrat und jener Wichtel haben alle ihre Hand im Spiel. Ich verzeichne es, weil es wahr ist, $gReisender:Reisende;, nicht weil ich es empfehle." },
+      },
+    },
     ["the-embalmer"] = {
       title = "Der Einbalsamierer",
       text = {
@@ -6662,6 +6704,15 @@ ns.translate({
       text = {
         { "Vor Stonard steht der Geist eines Helden der Horde und wartet auf Befehle. Im Leben führte er seine Krieger in die Verwüsteten Lande, ohne auf sie zu warten, und fand dort, wovor die Befehle ihn gewarnt hätten: den Dämon Razelikh und seine Leutnants, die seine Männer nahmen und ihre Geister in Steine der Qual banden." },
         { "Er gibt sich selbst die Schuld an allem, und er erzählt seine Geschichte jedem, der anhält und zuhört. Er will seine Männer befreit und Razelikh vernichtet sehen, und er hilft jedem Reisenden, der es versuchen will, ob Horde oder Allianz. Es ist das Einzige, was ihm noch zu tun bleibt." },
+      },
+    },
+    ["the-felstones"] = {
+      title = "Die Familie Teufelsstein",
+      text = {
+        { "Janice Teufelssteins Geist hält sich in einer Ecke im Obergeschoss ihres Hauses auf dem Teufelssteinfeld auf, in einer Panik, die seit vier Jahren andauert. Sie hatte ein Paket zu verschicken und wollte damit fortreiten, und die Seuche kam ihr zuvor. Das Paket lag noch in der Scheune, wo ihr Pferd gestanden hatte, verstaubt und in Eile adressiert. Es enthielt ihre persönlichen Sachen und die Besitzurkunde des Hofes." },
+        { "Wohin es ging, hängt davon ab, wer es trug. Nach dem Bericht der Allianz war es an ihre Schwester Emma in Stormwind adressiert, und die Volkszählung fand sie dort: die Alte Emma, die durch die Stadt streift, mit sich selbst redet und ihren eigenen Namen seit Jahren nicht gehört hatte. Nach dem der Horde ging es an ihren Bruder Jeremiah in Lordaeron, der starb, sich wieder erhob und heute unter dem Namen Payson nahe der Bank von Undercity Kakerlaken verkauft. Ich habe beide Berichte und habe aufgehört, sie miteinander zu versöhnen. So oder so lag im Paket die Hälfte eines Glücksbringers, und ihr Bruder oder ihre Schwester schickte sie ihr zurück." },
+        { "Janice hatte die eine Hälfte, ihr Mann John die andere. Sie ruft noch immer nach ihm. Die andere Hälfte fand sich auf dem Hof, bei einem der Ghule. Als die beiden Hälften vereint und ihr in die Hand gelegt wurden, sah sie zum ersten Mal die Person an, die ihr die Hälften reichte, und sagte, sie sei frei. Ich habe nicht gefragt, welcher Ghul es war." },
+        { side = "Horde", aside = true, sign = "P. F.", "Jeremiah Payson verkauft seine Kakerlaken ehrlich und billig. Was er vorher war, ist seine Sache, und ich bitte die Historikerin der Allianz, ihm den Namen zu lassen, den er gewählt hat." },
       },
     },
     ["the-first-war"] = {
@@ -6866,6 +6917,14 @@ ns.translate({
         { "Das Tal der Knochen ist voller Toter: Knochen und Leichen, die Skelette der beiden Goliaths und Dinge, die umhergehen, obwohl sie ruhen sollten. Eine nekromantische Macht hat sich an diesem Ort festgesetzt, und die Magram, der erste Klan, der sich hineinwagte, haben beschlossen, dass diese Magie ihnen gehört. Die Toten, wie ich bemerke, hat niemand gefragt. Wer von ihnen nicht mit Klinge oder Hammer kämpft, lernt nun, die Toten zu erwecken, und sie haben inzwischen Necrokhane." },
         { "Die Gelkis kamen nach ihnen. Einige Gelkis folgten den Magram ins Tal und eigneten sich dieselbe Kunst an, in einem verdrehten Versuch, so sagt einer ihrer Gefangenen, zu den Magram überzulaufen, und der Klan hat sie alle zur Verbannung verurteilt. Den Gelkisspäher Nerlokh widerte etwas anderes an. Die Skelette gehen auf zwei Beinen, nicht auf vier. Es sind keine toten Zentauren, sondern jene, die in dieser Erde lagen, lange bevor Desolace den Zentauren gehörte. Nerlokh konnte sich nicht vorstellen, wie die Magram es rechtfertigten, Mutter Theradras den Rücken zu kehren, um sie zu erwecken." },
         { "Die Magram wollen das Tal einnehmen, dort ein Heer aufstellen und die anderen Klans in die Knie zwingen. Orgrul, der in ihrem Lager die Befehle gibt, hat sich angewöhnt, Rekruten zu fragen, ob sie genauso darauf brennen wie er, über ganz Desolace zu herrschen." },
+      },
+    },
+    ["the-veiled-blade"] = {
+      title = "Die Verhüllte Klinge",
+      text = {
+        { "Die Blackrockspitze hatte einen Herrn vor Drakkisath: Valthalak, einen Fürsten der Drakoniden und obendrein einen Hexenmeister, und einen mächtigen. Die Verhüllte Klinge tötete ihn. Sie war eine Söldnertruppe unter Anthion Harmon, angeheuert von Gremnik Rizzlesprang, einem Goblinschmuggler aus Booty Bay mit einem Faible für Zauberei, um ihm Valthalaks Zauberbuch zu bringen. Sie erreichten die obere Spitze, töteten Valthalak in seinem Hort und nahmen das Buch. Dann riss Kormok, der zweiköpfige Ogernekromant der Truppe, dem toten Fürsten das Amulett vom Hals." },
+        { "Niemand wusste damals, dass das Amulett einen großen Teil von Valthalaks Geist barg. Die Truppe stritt darum, zerbrach es in drei Teile und würfelte um die Stücke, und Valthalaks Geist erhob sich mitten unter ihnen mit seinen geisterhaften Assassinen. Sie flohen, und Mor Grayhoof, ein Taurendruide, stürzte, oder wurde gestoßen, in die untere Spitze, wo die Trolle ihn ergriffen. Die Truppe zerfiel, und ihre Mitglieder starben einer nach dem anderen. Mor starb unter der Folter der Trolle, Isalien auf dem Weg nach Düsterbruch hinein, die dem Kreuzzug zugeneigten Geschwister Jarien und Sothos durch die Hand des Obersten Kreuzzüglers selbst. Kormok starb in der Scholomance vor den Augen von Ras Frostraunen, Gremnik, der sie angeheuert hatte, starb ebenfalls, und Anthion fiel vor Stratholme beim Versuch, seine Frau zu befreien. Valthalaks Assassinen fanden einige von ihnen, die Welt den Rest." },
+        { "Bodley, ein Gnom der Truppe, der starb, als er in die Spitze zurückwollte, spukt noch immer im Blackrock, zu sehen nur durch ein Gerät, mit dem ein Goblin Geister sichtbar macht. Es war Bodley, der sich daranmachte, alles ungeschehen zu machen. Die Stücke wurden denen abgerungen, die sie hielten, Valthalak wurde in dem heraufbeschworen, was heute die Kammer der Bestie ist, ein zweites Mal getötet und erhielt sein Amulett unversehrt zurück. Er verschonte den, der es ihm gebracht hatte, rief seine Assassinen zurück und versprach den Überlebenden, sie seien sicher, vorerst. Bodley schrieb die ganze Geschichte danach in einem Handbuch für ein Räuchergefäß nieder. Es ist der fröhlichste Bericht über ein Gemetzel, den ich je gelesen habe." },
       },
     },
     ["the-war-of-the-spider"] = {

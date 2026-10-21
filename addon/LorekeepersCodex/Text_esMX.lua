@@ -4477,6 +4477,15 @@ ns.translate({
         { "Últimamente se ocupan de los fúrbolgs Tuercepinos, los sátiros de las cuevas y las criaturas enfermas del bosque. El aspecto tranquilo de la aldea revela poco de ese trabajo. Escucha lo que te piden sus guardianes. Han visto cómo cambiaban las tierras de alrededor." },
       },
     },
+    ["dorn-plainstalkers-tests"] = {
+      title = "Las pruebas de Dorn Acechallanos",
+      text = {
+        { "Dorn Acechallanos, un tauren que vive en el Risco Pezuña Quebrada, sobre Las Mil Agujas, sostiene que un ser está hecho de espíritu, cuerpo y mente, y que cada uno puede ponerse a prueba. Pone a prueba a los jóvenes de cualquier tribu de la Horda que acuden a él, porque demasiados, según ha visto, salen de casa antes de estar preparados para lo que les espera fuera." },
+        { "Primero viene la fe: un salto desde los tablones que dominan Las Mil Agujas, sin promesa de salir con vida. El cuerpo se prueba dos veces. La resistencia consiste en saquear la Guarida Malapluma, al oeste del Poblado Viento Libre, hasta que Grenka Aullasangre salga en persona a por el intruso. La fuerza se mide contra Rok'Alim el Aporreador, un elemental de un orden más antiguo. Los Dioses Antiguos, dice Dorn, ataban antaño a los elementales a este mundo, y cuando cayeron, la mayoría de los elementales se fue con ellos y ahora solo vuelve cuando la llama un invocador. Algunos fueron lo bastante fuertes para quedarse. Rok'Alim es uno de ellos." },
+        { "La mente no le corresponde a Dorn. Envía a sus alumnos a Braug Espiritoscuro, un chamán que espera junto a El Paso del Espolón y que llama juego de niños a todo lo que han hecho hasta entonces. Braug les da un libro que leer, el Legado de los Aspectos, que está en el fondo de El Túmulo de Dor'danil, en Vallefresno, y después les pregunta por él. Luego los manda al otro lado del mar, a Entrañas, con Parqual Fintallas, que primero quiere que le roben un libro del Monasterio Escarlata y después les plantea otra pregunta. Quienes vuelven al Risco Pezuña Quebrada encuentran a Dorn esperándolos. Es el único rito de paso que conozco que manda a sus aspirantes a la biblioteca, dos veces, y lo apruebo." },
+        { side = "Horde", aside = true, sign = "P. F.", "Los alumnos de Braug llegan muy seguros de sí mismos, y yo les digo que no son más que un rumor de taberna. Los que me demuestran lo contrario son los que recuerdo." },
+      },
+    },
     ["draenor"] = {
       title = "Draenor",
       text = {
@@ -5580,6 +5589,14 @@ ns.translate({
         { "La historia de los Altonato no terminó cuando se hundieron sus ciudades, $gviajero:viajera;. Esos mismos Altonato disputan ahora lugares en las costas del continente, tan cambiados como la tierra que conocieron." },
       },
     },
+    ["natalia-maralith"] = {
+      title = "Natalia Mar'alith",
+      text = {
+        { "Natalia Mar'alith era una sacerdotisa elfa de la noche y la esposa del Comandante Mar'alith, del Fuerte Cenarion, y fue la primera del fuerte en unirse a los excavadores de la Liga cuando llegaron a Silithus. Bajaban a las colmenas en busca de artefactos perdidos. En Colmen'Regal dio con un cristal grabado con glifos, apoyó la cara en él como si alguien la llamara y se quedó inmóvil. Los excavadores la sacaron de allí y los druidas del Círculo la despertaron. Durante unas semanas pareció estar bien." },
+        { "Luego volvió al campamento de los excavadores y exigió que regresaran a la colmena. Brann Barbabronce, que desde entonces ha desaparecido, se negó a volver sin un ejército: el enjambre se había triplicado. Antes de que empezara la pelea, ella ya hablaba con alguien a quien ninguno veía, en una lengua que ninguno conocía, aunque entre los cuatro, mono incluido, dice Frankal Petraponte, conocen treinta y ocho lenguas, entre ellas algo de titánico. Luchaba tanto con la mente como con las manos. Los enanos oían palabras de sombra en la cabeza y caían uno tras otro, hasta que el mono de la expedición, Glibb, vio caer a Brann y la ahuyentó. Huyó hacia Colmen'Regal, y ni un solo insecto se interpuso en su camino." },
+        { "Su marido envió viajeros tras ella, con permiso para hacer lo que fuera necesario. Lo que encontraron en la colmena llevaba el título de Suma sacerdotisa de C'Thun. El comandante nunca había oído ese nombre. Dudo que lo olvide." },
+      },
+    },
     ["nathanos-blightcaller"] = {
       title = "Nathanos Clamañublo",
       text = {
@@ -6446,6 +6463,14 @@ ns.translate({
         { "Es una pequeña isla de suelo limpio en un bosque enfermo. Las centinelas que lo mantienen protegen el camino del norte para todo viajero que deba atravesar Frondavil." },
       },
     },
+    ["talvashs-necklace"] = {
+      title = "El collar de Talvash",
+      text = {
+        { "Talvash del Kissel es un joyero gnomo de Forjaz, de gran renombre hasta hace poco, y el collar es una de sus mejores obras. Lo hizo para un paladín que se había propuesto limpiar Uldaman de su mancha maligna, con tres gemas para atar su magia y, en el reverso, el sello de la ciudad y sus propias iniciales. El paladín murió en Uldaman. Entonces un rival del oficio hizo correr la voz de que el collar había maldecido al paladín, y desde entonces apenas le llegan encargos." },
+        { "Las gemas se quedaron abajo. El diario del paladín, hallado junto a sus restos, dice dónde: el rubí tras las barricadas de los enanos Forjatiniebla, el topacio en una urna de los troggs cerca de unos enanos de la Alianza, nada menos, el zafiro en manos de Grimlok, el jefe de los troggs. Para despertar el collar, Talvash necesitaba una fuente de energía, y el ensamblaje más poderoso del lugar tenía una. El collar restaurado fue para quien lo trajo todo de vuelta, con el ruego de mencionar a su creador en voz alta y a menudo, y de añadir que no está maldito." },
+        { "La Horda lo cuenta de otra manera. Los de Rescates Droffers e Hijos, en Orgrimmar, oyeron hablar del collar del paladín muerto y enviaron a alguien a buscarlo, y Jarkal Musgofusión, un trol de Kargath con un hechizo para la lengua de los humanos, tradujo el diario a cambio de poder estudiar el collar mientras tanto. Se quedó con la fuente de energía, sacó de ella dos collares, uno para él y otro para quien se lo había traído todo, y le queda bastante para al menos tres más. Los Droffers no saben nada. Talvash, sospecho, tampoco. No seré yo quien se lo diga." },
+      },
+    },
     ["tanaris"] = {
       title = "Tanaris",
       text = {
@@ -6560,6 +6585,14 @@ ns.translate({
         { "La Excavación de Limugre, menor, está al sureste. Bajo la gran fosa, el sobrestante Maltorius manda en La Fosa de la Escoria, tras abandonar la Hermandad del Torio para volver con sus antiguos amos. En Limugre también hay una letrina con llave. Los asuntos de un viajero en estas tierras pueden implicar encierros de tipos muy distintos." },
       },
     },
+    ["the-charger"] = {
+      title = "El destrero",
+      text = {
+        { "El destrero de un paladín no se compra ni se cría. Hay que recuperarlo. Lord Grisillo Quiebrasombras, que guía a los caballeros de la orden hasta sus destreros desde el Distrito de la Catedral de Ventormenta, les advierte de que la tarea pondrá a prueba dos cosas por encima de todo, el sacrificio y el juicio, y de que nada de ello es un ejercicio de escuela: su futuro compañero está en manos del mal contra el que han luchado toda la vida." },
+        { "El sacrificio empieza con monedas, pagadas al Sumo Sacerdote Rohan de Forjaz por su incensario de exorcismo. El juicio empieza en el Valle del Terror, en las Tierras de la Peste del Este, adonde se lleva el incensario, sazonado con una pizca de la tierra corrupta del lugar, para recorrer con él a los espíritus atormentados y expulsarlos. La barda viene de Grimand Elmore, del Distrito de los Enanos de Ventormenta, uno de los mejores armeros vivos según Grisillo, y el mejor según él mismo. La bendición la da un Antiguo espíritu equino al que el antárbol corrupto Tendris Alabeo retiene en La Masacre. Una vez muerto el antárbol, aún hay que alimentar al espíritu antes de que la conceda." },
+        { "El destrero en sí está en Scholomance. Sus huesos yacen en el Gran Osario, y el Caballero de la Muerte Atracoscuro cabalga lo que queda de su alma. Un arúspice construido en torno al mismo incensario hace surgir allí a los espíritus, y tras ellos al caballero de la muerte, y cuando este cae, el paladín le devuelve al destrero su alma. De todas las monturas que he registrado, es la única a la que primero hay que salvar." },
+      },
+    },
     ["the-chromatic-flight"] = {
       title = "El Vuelo Cromático",
       text = {
@@ -6598,6 +6631,14 @@ ns.translate({
         { "Desde entonces, los Defias han excavado más hondo. En sus galerías hay ingenieros goblins, una fundición y una trituradora. Bajo los antiguos pozos, una cala oculta alberga un gran buque de guerra en construcción. Los planes de VanCleef van mucho más allá de robar en las granjas. Si bajas, prepárate para algo bastante mayor que una mina abandonada, $gviajero:viajera;." },
       },
     },
+    ["the-dreadsteeds-of-xoroth"] = {
+      title = "Los corceles nefastos de Xoroth",
+      text = {
+        { "Los corceles nefastos viven en otro mundo, las llanuras ardientes de Xoroth, que Hel'nurath, un señor de los demonios, considera suyas, y el brujo que quiera uno tiene que abrirse paso hasta allí y tomarlo. Mor'zul Sangredoble, que acampa junto al Altar de la Tempestad en Las Estepas Ardientes, vende ese saber a un precio que se paga en sangre, sudor y buena cantidad de oro." },
+        { "Los glifos se escriben con la sangre de las lechubestias de Cuna del Invierno, enloquecidas por los demonios de la Garganta Negro Rumor. El sirviente de Mor'zul, Gorzeeki Ojosalvajes, un alquimista goblin que prefiere la sangre todavía caliente dentro de un roedor, hace el resto con lo que el brujo le trae: una campana que lleva el nombre del difunto brujo Dethmoora Darkeyes, una rueda y una vela para el círculo y una piedra imán de arcanita que lo sostenga todo. El pergamino necesita polvo estelar xorotiano, que solo el señor del terror Pesadilla, en la sede del Consejo de la Sombra en Jaedenar, puede proporcionar, y no a cambio de nada. Quería el corazón de su propio sirviente Ulathek, que espiaba para Hel'nurath. Pensaba comérselo cuando llevara una semana pudriéndose. Después, el polvo pasa al papel gracias a un diablillo en un tarro, al que se suelta en el laboratorio de alquimia de Scholomance." },
+        { "El ritual se celebra en La Masacre: un Círculo de invocación superior, el pergamino, un portal a Xoroth, y por él llega algo que hay que vencer antes de que su espíritu se doblegue. Un señor demoníaco, un señor del terror, el Consejo de la Sombra y ese diablillo tienen parte en ello. Lo dejo escrito porque es verdad, $gviajero:viajera;, no porque lo recomiende." },
+      },
+    },
     ["the-embalmer"] = {
       title = "El Embalsamador",
       text = {
@@ -6626,6 +6667,15 @@ ns.translate({
       text = {
         { "Fuera de Rocal está el fantasma de un héroe de la Horda que espera órdenes. En vida condujo a sus guerreros a Las Tierras Devastadas sin esperarlas y encontró lo que las órdenes le habrían advertido: el demonio Razelikh y sus lugartenientes, que capturaron a sus hombres y ataron sus espíritus a piedras de tormento." },
         { "Se culpa de todo y cuenta su historia a quien se detenga a escucharla. Quiere liberar a sus hombres y destruir a Razelikh, y ayudará a cualquier viajero que lo intente, de la Horda o de la Alianza. Es lo único que aún puede hacer." },
+      },
+    },
+    ["the-felstones"] = {
+      title = "Los Piedra Mácula",
+      text = {
+        { "El fantasma de Janice Piedra Mácula ronda un rincón del piso de arriba de su casa, en el Campo de Piedramácula, presa de un pánico que dura ya cuatro años. Tenía un paquete que enviar y pensaba salir a caballo con él, y la peste llegó antes. El paquete seguía en el granero, donde había estado su caballo, polvoriento y con la dirección escrita a toda prisa. Contenía sus objetos personales y la escritura de la granja." },
+        { "Adónde fue depende de quién lo llevara. Según la Alianza, iba dirigido a su hermana Emma, en Ventormenta, y el censo la encontró allí: la Vieja Emma, que vaga por la ciudad hablando sola y llevaba años sin oír su propio nombre. Según la Horda, iba para su hermano Jeremiah, en Lordaeron, que murió, se levantó y hoy vende cucarachas cerca del banco de Entrañas con el nombre de Payson. Tengo los dos relatos y he dejado de intentar conciliarlos. En cualquier caso, en el paquete iba la mitad de un talismán de la suerte, y su hermano o su hermana se la devolvió." },
+        { "Janice tenía una mitad y su marido John la otra. Todavía lo llama. La otra mitad apareció en la granja, en uno de los necrófagos. Cuando las dos mitades se unieron y se las pusieron a ella en la mano, miró por primera vez a quien se las tendía y dijo que era libre. No he preguntado qué necrófago era." },
+        { side = "Horde", aside = true, sign = "P. F.", "Jeremiah Payson vende sus cucarachas a buen precio y sin trampa. Lo que fuera antes es asunto suyo, y le pido a la historiadora de la Alianza que le deje el nombre que eligió." },
       },
     },
     ["the-first-war"] = {
@@ -6830,6 +6880,14 @@ ns.translate({
         { "El Valle de los Huesos está lleno de muertos: huesos y cuerpos, los esqueletos de los Goliats Gemelos y cosas que caminan cuando deberían descansar. Un poder nigromántico ha impregnado el lugar, y los Magram, el primer clan que se atrevió a entrar, han decidido que esa magia es suya. Nadie, por lo que veo, les preguntó a los muertos. Los que no luchan con espada o mazo aprenden a levantar a los muertos, y ya tienen Necrokhans." },
         { "Los Gelkis llegaron después. Algunos Gelkis siguieron a los Magram al valle y se entregaron al mismo arte, en un retorcido intento, según uno de sus prisioneros, de pasarse a los Magram, y el clan los ha condenado a todos al exilio. Al explorador Gelkis Nerlokh le repugnó otra cosa. Los esqueletos andan sobre dos piernas, no sobre cuatro. No son muertos centauros, sino quienes yacían en esa tierra mucho antes de que Desolace perteneciera a los centauros. Nerlokh no podía imaginar cómo justificaban los Magram dar la espalda a la Madre Theradras para levantarlos." },
         { "Los Magram quieren tomar el valle, reunir allí un ejército y poner de rodillas a los demás clanes. Orgrul, que da las órdenes en su campamento, ha tomado la costumbre de preguntar a los reclutas si están tan ansiosos como él por gobernar toda Desolace." },
+      },
+    },
+    ["the-veiled-blade"] = {
+      title = "La Hoja Velada",
+      text = {
+        { "La Cumbre de Roca Negra tuvo un señor antes que Drakkisath: Valthalak, un noble dracónido y además brujo, y de los poderosos. La Hoja Velada lo mató. Era una compañía de mercenarios a las órdenes de Anthion Harmon, contratada por Gremnik Saltatrabas, un contrabandista goblin de Bahía del Botín aficionado a la hechicería, para que le llevaran el libro de hechizos de Valthalak. Llegaron a la parte alta de la Cumbre, mataron a Valthalak en su guarida y se llevaron el libro. Entonces Kormok, el nigromante ogro de dos cabezas de la compañía, le arrancó el amuleto del cuello al señor muerto." },
+        { "Nadie sabía aún que el amuleto guardaba buena parte del espíritu de Valthalak. La compañía se peleó por él, lo partió en tres y se jugó los pedazos a los dados, y el fantasma de Valthalak se alzó entre ellos con sus asesinos espectrales. Huyeron, y Mor Pezuña Gris, un druida tauren, cayó, o lo empujaron, a la parte baja de la Cumbre, donde lo atraparon los trols. La compañía se disolvió y sus miembros murieron uno a uno. Mor murió bajo la tortura de los trols, Isalien al entrar en La Masacre, y los hermanos Jarien y Sothos, devotos de la Cruzada, a manos del propio Gran Cruzado. Kormok murió en Scholomance ante Ras Murmuhielo, Gremnik, que los había contratado, murió también, y Anthion cayó a las puertas de Stratholme intentando liberar a su esposa. Los asesinos de Valthalak encontraron a algunos, y el mundo se ocupó del resto." },
+        { "Bodley, un gnomo de la compañía que murió intentando volver a la Cumbre, sigue rondando la Montaña Roca Negra, visible solo a través del aparato revelafantasmas de un goblin. Fue Bodley quien se propuso deshacer todo lo ocurrido. Los pedazos se recuperaron de quienes los tenían, Valthalak fue traído de vuelta en lo que hoy es la cámara de la Bestia y muerto por segunda vez, y se le devolvió su amuleto entero. Perdonó a quien se lo había llevado, retiró a sus asesinos y prometió a los supervivientes que estaban a salvo, por ahora. Bodley lo dejó todo escrito después en el manual de un blandón. Es el relato más alegre de una matanza que he leído." },
       },
     },
     ["the-war-of-the-spider"] = {

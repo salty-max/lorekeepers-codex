@@ -360,7 +360,7 @@ goes to The Dragons of Nightmare. Rares without a story: Razortalon, Old Cliff
 Jumper, The Reak, Ironback, Jalinde Summerdrake, Grimungous, Retherokk, Mith'rethis,
 Witherheart, Zul'arek Hatefowler.
 
-## Western Plaguelands (9 pages, all written)
+## Western Plaguelands (10 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -373,6 +373,7 @@ Witherheart, Zul'arek Hatefowler.
 | ✅ Hearthglen | place | Hearthglen (190); Mardenholde Keep (203); quest In Dreams (5944): Taelan Fordring |
 | ✅ Uther's Tomb | place | Uther's Tomb (196); Sorrow Hill (197) |
 | ✅ The Plague Cauldrons | history | Felstone Field (199), Dalson's Tears (200), The Writhing Haunt (202) or Gahrron's Withering (201); quest The Scourge Cauldrons (5215, 5228) |
+| ✅ The Felstones | history | quest Two Halves Become One (5051): Janice's parcel, Emma (Alliance) or Jeremiah (Horde), the charm |
 
 Not paged: Northridge Lumber Camp, the Weeping Cave, Darrowmere Lake (in Caer
 Darrow), Thondroril River. Rares without a story: Foulmane, Lord Maldazzar,
@@ -400,7 +401,7 @@ Quel'Lithien Lodge, Zul'Mashar and Mazra'Alor (forest trolls). Rares without a
 story: Duggan Wildhammer, Hed'mush, Thresh'jin, Zul'Brin, Hawkspear, Gish,
 Darkscythe, Deathspeaker Selendre, High General Abbendis.
 
-## The Badlands (8 pages, all written)
+## The Badlands (9 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -412,6 +413,7 @@ Darkscythe, Deathspeaker Selendre, High General Abbendis.
 | ✅ Theldurin the Lost | figure | talking to him (2785): a Twilight's Hammer deserter, the cult's cells in Ironforge and the Undercity (quests 687, 709, 727-737, 968, 971, 1013) |
 | ✅ The Lost Dwarves | figure | reading Baelog's Journal (123463); talking to (or targeting) Baelog, Eric or Olaf (6906-6908); quest The Hidden Chamber (2240): Stormpike's verdict left to the game |
 | ✅ Angor Fortress | place | quests An Ambassador of Evil (762), The Lost Tablets of Will (1139), not the Infernus kill or 724 (both before the strike it tells): Hammertoe's end, the Shadowforge's base (no area unlock: it would tell Hammertoe's death before Uldaman) |
+| ✅ Talvash's Necklace | history | quests Restoring the Necklace (2361, Alliance), Necklace Recovery, Take 3 (2341, Horde): both versions |
 
 Not paged: Lethlor Ravine, Apocryphan's Rest,
 Camp Kosh and the ogre camps, Mirage Flats, the Dustbowl. Rares without a
@@ -449,7 +451,7 @@ dragons), Blackrock Pass and Stronghold (the Blackrock clan), Terror Wing Path.
 Rares without a story: Hematos, Thauris Balgarr, Gruklash, Malfunctioning
 Reaver, Hahk'Zor, Gorgon'och, Deathmaw, Terrorspark, Volchan.
 
-## Blackrock Mountain (13 pages, all written)
+## Blackrock Mountain (14 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -466,6 +468,7 @@ Reaver, Hahk'Zor, Gorgon'och, Deathmaw, Terrorspark, Volchan.
 | ✅ Franclorn Forgewright | figure | talking to (or targeting) him (8888); quests Dark Iron Legacy (3801, 3802) |
 | ✅ Vaelastrasz | figure | talking to (or targeting) Vaelan (10296); killing Vaelastrasz the Corrupt (13020): Vaelan's tale, Deathwing and the Demon Soul |
 | ✅ The Chromatic Flight | creature | any chromatic kill (10442, 10447, 10814, 14020, 14261–14265, 14302); talking to (or targeting) Awbee (10740); Blackwing Lair (2677): Vaelan's and Awbee's tales, no rescue told |
+| ✅ The Veiled Blade | history | quest Return to Bodley (8996): Lord Valthalak, the company, Bodley's manual (dungeon set 2) |
 
 Not paged: the Grim Guzzler, Lothos Riftwaker, General Drakkisath (in the
 Spire), Majordomo Executus (in Ragnaros).
@@ -621,7 +624,7 @@ Wilderness, Thalanaar. Dream Bough goes to The Dragons of Nightmare. Rares
 without a story: Lady Szallah, Diamond Head, Bloodroar, Antilus, Arash-ethis,
 Qirot, Old Grizzlegut, Gnarl Leafbrother, Snarler.
 
-## Thousand Needles (5 pages, all written)
+## Thousand Needles (6 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -630,6 +633,7 @@ Qirot, Old Grizzlegut, Gnarl Leafbrother, Snarler.
 | ✅ The Shimmering Flats | place | The Shimmering Flats (439); Mirage Raceway (2240) |
 | ✅ The Rustmaul Dig Site | place | The Rustmaul Dig Site: a dwarven dig that broke into a silithid hive |
 | ✅ Arikara | creature | quest Arikara (5088) only: the serpent of vengeance, Magatha's warning |
+| ✅ Dorn Plainstalker's Tests | history | quest Final Passage (1394, Horde): faith, endurance, strength, then Braug's and Parqual's Test of Lore (1149-1160, 6627, 6628) |
 
 Not paged: the Great Lift, Highperch, Darkcloud Pinnacle (Grimtotem, its burial needle in Arikara), Galak
 Hold and Camp E'thok (centaurs), Splithoof, Roguefeather Den, the Screeching
@@ -668,7 +672,7 @@ Not paged: Lakkari Tar Pits, Golakka Hot Springs, Terror Run, the Marshlands,
 Fungal Rock, Ironstone Plateau, the Slithering Scar (silithid). Rares without a
 story: Ravasaur Matriarch, Clutchmother Zavas, Gruff, King Mosh, Uhk'loc.
 
-## Silithus (9 pages, all written)
+## Silithus (10 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -681,6 +685,7 @@ story: Ravasaur Matriarch, Clutchmother Zavas, Gruff, King Mosh, Uhk'loc.
 | ✅ Temple of Ahn'Qiraj | place | the raid: area Ahn'Qiraj (3428) or Temple of Ahn'Qiraj (16076) |
 | ✅ C'Thun | figure | killing it (15727) |
 | ✅ Prince Thunderaan | figure | killing him (14435); quest Thunderaan the Windseeker (7786) |
+| ✅ Natalia Mar'alith | figure | quest Into The Maw of Madness (8306): Rutgar's and Frankal's tales, the High Priestess of C'Thun |
 
 Not paged: the hives (silithid), the Twilight camps (Twilight's Hammer),
 Southwind Village, Bronzebeard Encampment, Hermit Ortell, the Crystal Vale,
@@ -973,6 +978,13 @@ demons too). Check again when the page is written.
 | **The codex** | **335** |  | **335** |
 
 Plus the 9 forewords: 344 entries in the build.
+
+## The Callings: the class mounts (2 pages, all written)
+
+| Page | Kind | Unlocks on |
+|---|---|---|
+| ✅ The Charger | creature | quest Judgment and Redemption (7647, paladins): Grayson's trials, Darkreaver's fallen charger |
+| ✅ The Dreadsteeds of Xoroth | creature | quest Dreadsteed of Xoroth (7631, warlocks): Mor'zul, Gorzeeki, Banehollow, the ritual in Dire Maul |
 
 ## Order of writing
 

@@ -621,6 +621,11 @@
    "forever": "Anaia Correalba",
    "use": "Anaia Correalba"
   },
+  "Ancient Equine Spirit": {
+   "classic": "Antiguo espíritu equino",
+   "forever": "Antiguo espíritu equino",
+   "use": "Antiguo espíritu equino"
+  },
   "Ancient Protector": {
    "classic": "Protector anciano",
    "forever": "Protector anciano",
@@ -640,6 +645,11 @@
    "classic": "Anduin Wrynn",
    "forever": "Anduin Wrynn",
    "use": "Anduin Wrynn"
+  },
+  "Anthion Harmon": {
+   "classic": "Anthion Harmon",
+   "forever": "Anthion Harmon",
+   "use": "Anthion Harmon"
   },
   "Apothecary Lydon": {
    "classic": "Boticario Lydon",
@@ -968,6 +978,11 @@
    "forever": "Braelyn Manofuego",
    "use": "Braelyn Manofuego"
   },
+  "Braug Dimspirit": {
+   "classic": "Braug Espiritoscuro",
+   "forever": "Braug Espiritoscuro",
+   "use": "Braug Espiritoscuro"
+  },
   "Brikk Keencraft": {
    "classic": "Brikk Finoficio",
    "forever": "Brikk Finoficio",
@@ -1147,6 +1162,11 @@
    "forever": "Comandante Ashlam Puñovalor",
    "use": "Comandante Ashlam Puñovalor"
   },
+  "Commander Mar'alith": {
+   "classic": "Comandante Mar'alith",
+   "forever": "Comandante Mar'alith",
+   "use": "Comandante Mar'alith"
+  },
   "Commander Springvale": {
    "classic": "Comandante Vallefont",
    "forever": "Comandante Vallefont",
@@ -1191,6 +1211,11 @@
    "classic": "Maestro oscuro Gandling",
    "forever": "Maestro oscuro Gandling",
    "use": "Maestro oscuro Gandling"
+  },
+  "Darkreaver's Fallen Charger": {
+   "classic": "Arremetedor Atracoscuro",
+   "forever": "Arremetedor Atracoscuro",
+   "use": "Arremetedor Atracoscuro"
   },
   "Darnassus Sentinel": {
    "classic": "Centinela de Darnassus",
@@ -1301,6 +1326,11 @@
    "classic": "Dorius Tienrroca",
    "forever": "Dorius Tienrroca",
    "use": "Dorius Tienrroca"
+  },
+  "Dorn Plainstalker": {
+   "classic": "Dorn Acechallanos",
+   "forever": "Dorn Acechallanos",
+   "use": "Dorn Acechallanos"
   },
   "Dragonmaw Raider": {
    "classic": "Asaltante Faucedraco",
@@ -1517,6 +1547,11 @@
    "forever": "Franclorn Forjador",
    "use": "Franclorn Forjador"
   },
+  "Frankal Stonebridge": {
+   "classic": "Frankal Petraponte",
+   "forever": "Frankal Petraponte",
+   "use": "Frankal Petraponte"
+  },
   "Frezza": {
    "classic": "Frezza",
    "forever": "Frezza",
@@ -1732,6 +1767,21 @@
    "forever": "Grelin Barbablanca",
    "use": "Grelin Barbablanca"
   },
+  "Gremnik Rizzlesprang": {
+   "classic": "Gremnik Saltatrabas",
+   "forever": "Gremnik Saltatrabas",
+   "use": "Gremnik Saltatrabas"
+  },
+  "Grenka Bloodscreech": {
+   "classic": "Grenka Aullasangre",
+   "forever": "Grenka Aullasangre",
+   "use": "Grenka Aullasangre"
+  },
+  "Grimand Elmore": {
+   "classic": "Grimand Elmore",
+   "forever": "Grimand Elmore",
+   "use": "Grimand Elmore"
+  },
   "Grimble": {
    "classic": "Grimble",
    "forever": "Grimble",
@@ -1831,6 +1881,11 @@
    "classic": "Alta inquisidora Melenablanca",
    "forever": "Alta inquisidora Melenablanca",
    "use": "Alta inquisidora Melenablanca"
+  },
+  "High Priest Rohan": {
+   "classic": "Sumo Sacerdote Rohan",
+   "forever": "Sumo Sacerdote Rohan",
+   "use": "Sumo Sacerdote Rohan"
   },
   "High Priestess Lorthuna": {
    "forever": "Suma sacerdotisa Lorthuna",
@@ -1996,6 +2051,16 @@
    "forever": "Jang",
    "use": "Jang"
   },
+  "Janice Felstone": {
+   "classic": "Janice Piedra Mácula",
+   "forever": "Janice Piedra Mácula",
+   "use": "Janice Piedra Mácula"
+  },
+  "Jarkal Mossmeld": {
+   "classic": "Jarkal Musgofusión",
+   "forever": "Jarkal Musgofusión",
+   "use": "Jarkal Musgofusión"
+  },
   "Jarod Shadowsong": {
    "classic": "Jarod Cantosombrío",
    "forever": "Jarod Cantosombrío",
@@ -2025,6 +2090,11 @@
    "classic": "Jer'kai Tejeluna",
    "forever": "Jer'kai Tejeluna",
    "use": "Jer'kai Tejeluna"
+  },
+  "Jeremiah Payson": {
+   "classic": "Jeremiah Payson",
+   "forever": "Jeremiah Payson",
+   "use": "Jeremiah Payson"
   },
   "Jeziba": {
    "classic": "Jeziba",
@@ -2326,6 +2396,11 @@
    "forever": "Lord Cresta de Halcón",
    "use": "Lord Cresta de Halcón"
   },
+  "Lord Grayson Shadowbreaker": {
+   "classic": "Lord Grisillo Quiebrasombras",
+   "forever": "Lord Grisillo Quiebrasombras",
+   "use": "Lord Grisillo Quiebrasombras"
+  },
   "Lord Gregor Lescovar": {
    "classic": "Lord Gregor Lescovar",
    "forever": "Lord Gregor Lescovar",
@@ -2355,6 +2430,11 @@
    "classic": "Lord Serpentis",
    "forever": "Lord Serpentis",
    "use": "Lord Serpentis"
+  },
+  "Lord Valthalak": {
+   "classic": "Lord Valthalak",
+   "forever": "Lord Valthalak",
+   "use": "Lord Valthalak"
   },
   "Lord Victor Nefarius": {
    "classic": "Lord Víctor Nefarius",
@@ -2571,6 +2651,11 @@
    "forever": "Misha",
    "use": "Misha"
   },
+  "Mistress Natalia Mar'alith": {
+   "classic": "Maestra Natalia Mar'alith",
+   "forever": "Maestra Natalia Mar'alith",
+   "use": "Maestra Natalia Mar'alith"
+  },
   "Mo'grosh Ogre": {
    "classic": "Ogro Mo'grosh",
    "forever": "Ogro Mo'grosh",
@@ -2590,6 +2675,11 @@
    "classic": "Lechúcico lunar",
    "forever": "Lechúcico lunar",
    "use": "Lechúcico lunar"
+  },
+  "Mor Grayhoof": {
+   "classic": "Mor Pezuña Gris",
+   "forever": "Mor Pezuña Gris",
+   "use": "Mor Pezuña Gris"
   },
   "Mor'Ladim": {
    "classic": "Mor'Ladim",
@@ -2720,6 +2810,11 @@
    "classic": "Noggle Castaneo",
    "forever": "Noggle Castaneo",
    "use": "Noggle Castaneo"
+  },
+  "Ol' Emma": {
+   "classic": "Vieja Emma",
+   "forever": "Vieja Emma",
+   "use": "Vieja Emma"
   },
   "Ol' Sooty": {
    "classic": "Viejo Sooty",
@@ -3075,6 +3170,11 @@
    "classic": "Trogg Mentueso",
    "forever": "Trogg Mentueso",
    "use": "Trogg Mentueso"
+  },
+  "Rok'Alim the Pounder": {
+   "classic": "Rok'Alim el Aporreador",
+   "forever": "Rok'Alim el Aporreador",
+   "use": "Rok'Alim el Aporreador"
   },
   "Roxxik": {
    "classic": "Roxxik",
@@ -3474,6 +3574,11 @@
    "forever": "Talaanis Cantosombrío",
    "use": "Talaanis Cantosombrío"
   },
+  "Talvash del Kissel": {
+   "classic": "Talvash del Kissel",
+   "forever": "Talvash del Kissel",
+   "use": "Talvash del Kissel"
+  },
   "Taragaman the Hungerer": {
    "classic": "Taragaman el Hambriento",
    "forever": "Taragaman el Hambriento",
@@ -3488,6 +3593,11 @@
    "classic": "Centinela de Teldrassil",
    "forever": "Centinela de Teldrassil",
    "use": "Centinela de Teldrassil"
+  },
+  "Tendris Warpwood": {
+   "classic": "Tendris Alabeo",
+   "forever": "Tendris Alabeo",
+   "use": "Tendris Alabeo"
   },
   "The Banshee Queen": {
    "classic": "La Reina alma en pena",
@@ -3916,6 +4026,11 @@
    "classic": "Xizzer Raybuja",
    "forever": "Xizzer Raybuja",
    "use": "Xizzer Raybuja"
+  },
+  "Xorothian Dreadsteed": {
+   "classic": "Corcel de la Muerte Xorothiano",
+   "forever": "Corcel de la Muerte Xorothiano",
+   "use": "Corcel de la Muerte Xorothiano"
   },
   "Yorba Screwspigot": {
    "classic": "Yorba Llavenrosca",
@@ -4508,6 +4623,11 @@
    "forever": "Marjal Revolcafango",
    "use": "Marjal Revolcafango"
   },
+  "Dwarven District": {
+   "classic": "Distrito de los Enanos",
+   "forever": "Distrito de los Enanos",
+   "use": "Distrito de los Enanos"
+  },
   "Eastern Kingdoms": {
    "classic": "Reinos del Este",
    "forever": "Reinos del Este",
@@ -4771,6 +4891,11 @@
    "forever": "Laderas de Trabalomas",
    "use": "Laderas de Trabalomas"
   },
+  "Hive'Regal": {
+   "classic": "Colmen'Regal",
+   "forever": "Colmen'Regal",
+   "use": "Colmen'Regal"
+  },
   "Hyjal": {
    "classic": "Hyjal",
    "use": "Hyjal"
@@ -4950,11 +5075,6 @@
    "classic": "Aquelarre Mannoroc",
    "forever": "Aquelarre Mannoroc",
    "use": "Aquelarre Mannoroc"
-  },
-  "Manor Mistmantle": {
-   "classic": "Mansión Mantoniebla",
-   "forever": "Mansión Mantoniebla",
-   "use": "Mansión Mantoniebla"
   },
   "Maraudon": {
    "classic": "Maraudon",
@@ -5470,6 +5590,11 @@
    "forever": "Puesto del Hachazo",
    "use": "Puesto del Hachazo"
   },
+  "Splithoof Crag": {
+   "classic": "Risco Pezuña Quebrada",
+   "forever": "Risco Pezuña Quebrada",
+   "use": "Risco Pezuña Quebrada"
+  },
   "Stalker's Thicket": {
    "forever": "Fronda del Acechador",
    "use": "Fronda del Acechador"
@@ -5609,6 +5734,11 @@
    "forever": "Templo de la Luna",
    "use": "Templo de la Luna"
   },
+  "Terrordale": {
+   "classic": "Valle del Terror",
+   "forever": "Valle del Terror",
+   "use": "Valle del Terror"
+  },
   "Thalanaar": {
    "classic": "Thalanaar",
    "forever": "Thalanaar",
@@ -5737,6 +5867,11 @@
    "forever": "El Gran Elevador",
    "use": "El Gran Elevador"
   },
+  "The Great Ossuary": {
+   "classic": "El Gran Osario",
+   "forever": "El Gran Osario",
+   "use": "El Gran Osario"
+  },
   "The Greymane Wall": {
    "classic": "La Muralla de Cringrís",
    "forever": "La Muralla de Cringrís",
@@ -5775,11 +5910,6 @@
    "classic": "Loch Modan",
    "forever": "Loch Modan",
    "use": "Loch Modan"
-  },
-  "The Lost Fleet": {
-   "classic": "La Flota Perdida",
-   "forever": "La Flota Perdida",
-   "use": "La Flota Perdida"
   },
   "The Maclure Vineyards": {
    "classic": "Los Viñedos de Maclure",
@@ -5944,6 +6074,11 @@
    "classic": "El Cubil del Espolón",
    "forever": "El Cubil del Espolón",
    "use": "El Cubil del Espolón"
+  },
+  "The Talondeep Path": {
+   "classic": "El Paso del Espolón",
+   "forever": "El Paso del Espolón",
+   "use": "El Paso del Espolón"
   },
   "The Temple of Atal'Hakkar": {
    "classic": "El Templo de Atal'Hakkar",
@@ -6305,6 +6440,11 @@
    "forever": "Culto de los Malditos",
    "use": "Culto de los Malditos"
   },
+  "Droffers and Son Salvage": {
+   "classic": "Rescates Droffers e Hijos",
+   "forever": "Rescates Droffers e Hijos",
+   "use": "Rescates Droffers e Hijos"
+  },
   "Earthen Ring": {
    "forever": "Anillo de la Tierra",
    "use": "Anillo de la Tierra"
@@ -6340,6 +6480,16 @@
   "High Order": {
    "forever": "Orden Eminente",
    "use": "Orden Eminente"
+  },
+  "High Priest": {
+   "classic": "Sumo sacerdote",
+   "forever": "Sumo sacerdote",
+   "use": "Sumo sacerdote"
+  },
+  "High Priestess of C'Thun": {
+   "classic": "Suma sacerdotisa de C'Thun",
+   "forever": "Suma sacerdotisa de C'Thun",
+   "use": "Suma sacerdotisa de C'Thun"
   },
   "High Priestess of Elune": {
    "classic": "Suma sacerdotisa de Elune",

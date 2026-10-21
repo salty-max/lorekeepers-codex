@@ -239,6 +239,10 @@
   "name": "Galak Centaur",
   "display": 9410
  },
+ "2986": {
+  "name": "Dorn Plainstalker",
+  "display": 10969
+ },
  "3056": {
   "name": "Ghost Howl",
   "display": 720
@@ -379,6 +383,10 @@
   "name": "Blood Elf Reclaimer",
   "display": 7923
  },
+ "6826": {
+  "name": "Talvash del Kissel",
+  "display": 5647
+ },
  "6906": {
   "name": "Baelog",
   "display": 5710
@@ -511,6 +519,10 @@
   "name": "Shy-Rotam",
   "display": 10113
  },
+ "10778": {
+  "name": "Janice Felstone",
+  "display": 10129
+ },
  "10813": {
   "name": "Balnazzar",
   "display": 10691
@@ -583,6 +595,14 @@
   "name": "Prince Thunderaan",
   "display": 14992
  },
+ "14502": {
+  "name": "Xorothian Dreadsteed",
+  "display": 14552
+ },
+ "14568": {
+  "name": "Darkreaver's Fallen Charger",
+  "display": 14590
+ },
  "14834": {
   "name": "Hakkar",
   "display": 15295
@@ -603,6 +623,10 @@
   "name": "Prince Skaldrenox",
   "display": 12002
  },
+ "15215": {
+  "name": "Mistress Natalia Mar'alith",
+  "display": 15330
+ },
  "15727": {
   "name": "C'Thun",
   "display": 15787
@@ -610,5 +634,9 @@
  "15990": {
   "name": "Kel'Thuzad",
   "display": 15945
+ },
+ "16042": {
+  "name": "Lord Valthalak",
+  "display": 14308
  }
 }
