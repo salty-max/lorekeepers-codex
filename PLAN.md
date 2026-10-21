@@ -727,7 +727,7 @@ Death Flayer, Captain Flat Tusk, Geolord Mottle.
 | ✅ Thunder Bluff | place | the city (1638) |
 | ✅ Cairne Bloodhoof | figure | talking to (or targeting) him (3057) |
 | ✅ Arch Druid Hamuul Runetotem | figure | talking to him (5769) |
-| ✅ Ghost Howl | creature | killing him (3056); quest The Demon Scarred Cloak (770), whose answer (the Legion's wound, Skorn) the page leaves to the game: the white wolf wounded fighting the Legion |
+| ✅ Ghost Howl | creature | quest The Demon Scarred Cloak (770) only, not the kill (the Legion's wound is Skorn's answer at the turn-in): the white wolf wounded fighting the Legion |
 
 Not paged: Bael'dun Digsite (in Bael Modan), the Venture Co. Mine, the water
 wells, Red Cloud Mesa, Windfury Ridge (harpies), Palemane Rock (gnolls),

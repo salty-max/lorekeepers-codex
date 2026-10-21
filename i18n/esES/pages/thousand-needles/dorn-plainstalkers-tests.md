@@ -1,6 +1,6 @@
 ---
 id: dorn-plainstalkers-tests
-source: 3f5a2f87b366
+source: 6926613f55f8
 title: Las pruebas de Dorn Acechallanos
 ---
 Dorn Acechallanos, un tauren que vive en el Risco Pezuña Quebrada, sobre Las Mil Agujas, sostiene que un ser está hecho de espíritu, cuerpo y mente, y que cada uno puede ponerse a prueba. Pone a prueba a los jóvenes de cualquier tribu de la Horda que acuden a él, porque demasiados, según ha visto, salen de casa antes de estar preparados para lo que les espera fuera.

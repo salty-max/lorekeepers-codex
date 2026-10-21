@@ -1,6 +1,6 @@
 ---
 id: dorn-plainstalkers-tests
-source: 3f5a2f87b366
+source: 6926613f55f8
 title: Les épreuves du Traqueur des plaines Dorn
 ---
 Le Traqueur des plaines Dorn, un tauren qui vit sur la Combe du Sabot fendu au-dessus des Mille pointes, tient qu'un être est fait d'une âme, d'un corps et d'un esprit, et que chacun d'eux peut être éprouvé. Il éprouve les jeunes de toute tribu de la Horde qui viennent à lui, car trop d'entre eux, à ce qu'il a vu, quittent leur foyer avant d'être prêts pour ce qui les attend au-dehors.

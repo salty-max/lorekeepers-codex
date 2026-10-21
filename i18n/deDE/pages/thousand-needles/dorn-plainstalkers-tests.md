@@ -1,6 +1,6 @@
 ---
 id: dorn-plainstalkers-tests
-source: 3f5a2f87b366
+source: 6926613f55f8
 title: Dorn Plainstalkers Prüfungen
 ---
 Dorn Plainstalker, ein Tauren, der auf der Spalthufklippe über den Tausend Nadeln lebt, hält ein Wesen für eine Einheit aus Seele, Körper und Geist, und jedes dieser Dinge lässt sich prüfen. Er prüft die Jungen jedes Stammes der Horde, die zu ihm kommen, denn zu viele von ihnen, so hat er es erlebt, verlassen ihr Zuhause, bevor sie bereit sind für das, was draußen wartet.

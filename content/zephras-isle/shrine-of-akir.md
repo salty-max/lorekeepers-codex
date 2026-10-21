@@ -4,7 +4,8 @@ title: The Shrine of Akir
 kind: place
 client: forever
 unlock:
-  - quest: 93835
+  - quest: 93836
+  - quest: 94369
 also: [the-al-aketh, talaanis-shadowsong, the-high-order, the-windshapers]
 ---
 The Shrine of Akir, in the Shen'dar Highlands, is the holy place of the Al'Aketh and was the seat of their leader, the High Priestess Lorthuna. Taking it needed the High Order, the Windshapers and the peacekeepers together, which tells you something about the cult's strength and more about how rarely those three agree. Valennia Stormfist, the peacekeepers' captain, was gravely wounded in the inner sanctum, and Lorthuna fled by a portal to the Rohashi Spires above.

@@ -858,7 +858,7 @@ ns.content = {
       also = { "blackrock-spire", "stratholme", "dire-maul", "scholomance", "ras-frostwhisper", "balnazzar", "booty-bay" },
       text = {
         { "Blackrock Spire had a master before Drakkisath: Valthalak, a lord of the draconids and a warlock besides, and a powerful one. The Veiled Blade killed him. They were a company of mercenaries under Anthion Harmon, hired by Gremnik Rizzlesprang, a goblin smuggler of Booty Bay with an interest in wizardry, to bring him Valthalak's spellbook. They reached the upper Spire, killed Valthalak in his lair and took the book. Then Kormok, the company's two-headed ogre necromancer, tore the amulet from the dead lord's neck." },
-        { "Nobody knew yet that the amulet held a great part of Valthalak's spirit. The company fought over it, broke it in three and diced for the pieces, and Valthalak's ghost rose among them with his spectral assassins. They fled, and Mor Grayhoof, a tauren druid, fell, or was pushed, into the lower Spire, where the trolls took him. The company broke up, and one by one its members died. Mor died under the trolls' torture, Isalien on her way into Dire Maul, and the Crusade-minded siblings Jarien and Sothos at the Grand Crusader's own hand. Kormok died in the Scholomance before Ras Frostwhisper, Gremnik, who had hired them, died as well, and Anthion fell outside Stratholme, trying to free his wife. Valthalak's assassins found some of them, and the world found the rest." },
+        { "Nobody knew yet that the amulet held a great part of Valthalak's spirit. The company fought over it, broke it in three and diced for the pieces, and Valthalak's ghost rose among them with his spectral assassins. They fled, and Mor Grayhoof, a tauren druid, fell, or was pushed, into the lower Spire, where the trolls took him. The company broke up, and one by one its members died. The assassins finished Mor while War Master Voone had him under torture. Isalien died on her way into Dire Maul, and the Crusade-minded siblings Jarien and Sothos at the Grand Crusader's own hand. Kormok died in the Scholomance in front of Ras Frostwhisper, Gremnik, who had hired them, died as well, and Anthion fell outside Stratholme, trying to free his wife. Valthalak's assassins found some of them, and the world found the rest." },
         { "Bodley, a gnome of the company who died trying to get back into the Spire, haunts Blackrock Mountain still, seen only through a goblin's ghost-revealing device. It was Bodley who set about undoing it all. The pieces were won back from those who held them, Valthalak was raised in what is now the Beast's chamber and killed a second time, and his amulet was given back to him whole. He spared the one who had brought it, called off his assassins and promised the survivors they were safe, for now. Bodley wrote the whole affair down afterwards in a user's manual for a brazier. It is the most cheerful account of a massacre I have read." },
       },
     },
@@ -2473,11 +2473,11 @@ ns.content = {
     },
     ["ghost-howl"] = {
       title = "Ghost Howl", kind = "creature", chapter = "mulgore", portrait = 720,
-      unlock = { { kill = 3056 }, { quest = 770 } },
-      also = { "mulgore", "bloodhoof-village" },
+      unlock = { { quest = 770 } },
+      also = { "mulgore", "burning-legion", "bloodhoof-village" },
       text = {
-        { "Ghost Howl is a great wolf of Mulgore whose hide bears a terrible wound. The scar gives the hunter's trophy a history beyond the chase across the plains." },
-        { "Somebody in Mulgore will know this wolf, and how it came by that scar." },
+        { "Ghost Howl is a great wolf of Mulgore whose hide bears a terrible wound from fighting the Burning Legion. The scar gives the hunter's trophy a history beyond the chase across the plains." },
+        { "Skorn Whitecloud recognises the hide at Bloodhoof Village. He offers the hunter one of his weapons and hopes the wolf's spirit has found peace." },
       },
     },
     ["hamuul-runetotem"] = {
@@ -3731,7 +3731,7 @@ ns.content = {
       text = {
         { "Dorn Plainstalker, a tauren who lives on Splithoof Crag above the Thousand Needles, holds that a being is made of spirit, body and mind, and that each of them can be tried. He tries the young of any tribe of the Horde who come to him, because too many of them, in his experience, leave home before they are ready for what waits beyond." },
         { "Faith comes first: a leap from the planks above the Needles, with no promise of coming through it alive. The body is tried twice. Endurance means raiding the Roguefeather harpies' den west of Freewind Post until Grenka Bloodscreech comes out for the intruder herself. Strength means Rok'Alim the Pounder, an elemental of an older order. The Old Gods, Dorn says, once held the elementals to this world, and when the Old Gods fell most of the elementals went with them, returning now only at a summoner's call. A few were strong enough to stay. Rok'Alim is one." },
-        { "The mind is not Dorn's to try. He sends his students to Braug Dimspirit, a shaman who waits by the Talondeep Path and calls everything they have done so far child's play. Braug sets them a book, the Legacy of the Aspects, from the bottom of Dor'danil in Ashenvale, and then a question about it. Then he sends them across the sea to the Undercity and Parqual Fintallas, who wants a book of his own stolen from the Scarlet Monastery before he asks another. Those who come back to Splithoof Crag find Dorn waiting. It is the only rite of passage I know of that sends its candidates to the library, twice, and I approve." },
+        { "The mind is not Dorn's to try. He sends his students to Braug Dimspirit, a shaman who waits by the Talondeep Path and calls everything they have done so far child's play. Braug sets them a book, the Legacy of the Aspects, from the bottom of Dor'danil in Ashenvale, and then a question about it. Then he sends them across the sea to the Undercity and Parqual Fintallas, who wants a book stolen from the Scarlet Monastery's library before he asks another. Those who come back to Splithoof Crag find Dorn waiting. It is the only rite of passage I know of that sends its candidates to the library, twice, and I approve." },
         { side = "Horde", aside = true, sign = "P. F.", "Braug's students reach me very sure of themselves, and I tell them they are a tavern rumour. The ones who prove me wrong are the ones I remember." },
       },
     },
