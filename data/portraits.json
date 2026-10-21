@@ -7,6 +7,10 @@
   "name": "Kobold Laborer",
   "display": 365
  },
+ "92": {
+  "name": "Rock Elemental",
+  "display": 171
+ },
  "116": {
   "name": "Defias Bandit",
   "display": 2357
@@ -203,6 +207,10 @@
   "name": "Baron Revilgaz",
   "display": 7167
  },
+ "2534": {
+  "name": "Zanzil the Outcast",
+  "display": 314
+ },
  "2552": {
   "name": "Witherbark Troll",
   "display": 3986
@@ -218,6 +226,10 @@
  "2784": {
   "name": "King Magni Bronzebeard",
   "display": 3597
+ },
+ "2785": {
+  "name": "Theldurin the Lost",
+  "display": 4903
  },
  "2962": {
   "name": "Windfury Harpy",
@@ -254,6 +266,14 @@
  "3381": {
   "name": "Southsea Brigand",
   "display": 3829
+ },
+ "3391": {
+  "name": "Gazlowe",
+  "display": 7052
+ },
+ "3475": {
+  "name": "Echeyakee",
+  "display": 1934
  },
  "3516": {
   "name": "Arch Druid Fandral Staghelm",
@@ -478,6 +498,10 @@
  "10840": {
   "name": "Argent Officer Pureheart",
   "display": 10211
+ },
+ "10882": {
+  "name": "Arikara",
+  "display": 10183
  },
  "11502": {
   "name": "Ragnaros",

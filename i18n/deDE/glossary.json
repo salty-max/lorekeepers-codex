@@ -439,6 +439,11 @@
    "forever": "Afadra Dunwall",
    "use": "Afadra Dunwall"
   },
+  "Alchemist Pestlezugg": {
+   "classic": "Alchimist Pestlezugg",
+   "forever": "Alchimist Pestlezugg",
+   "use": "Alchimist Pestlezugg"
+  },
   "Alexi Barov": {
    "classic": "Alexi Barov",
    "forever": "Alexi Barov",
@@ -449,6 +454,11 @@
    "forever": "Schildwache der Allianz",
    "use": "Schildwache der Allianz"
   },
+  "Alowicious Czervik": {
+   "classic": "Alowicious Czervik",
+   "forever": "Alowicious Czervik",
+   "use": "Alowicious Czervik"
+  },
   "Alzzin the Wildshaper": {
    "classic": "Alzzin der Wildformer",
    "forever": "Alzzin der Wildformer",
@@ -458,6 +468,11 @@
    "classic": "Botschafter Ardalan",
    "forever": "Botschafter Ardalan",
    "use": "Botschafter Ardalan"
+  },
+  "Ambassador Infernus": {
+   "classic": "Botschafter Infernus",
+   "forever": "Botschafter Infernus",
+   "use": "Botschafter Infernus"
   },
   "Amnennar the Coldbringer": {
    "classic": "Amnennar der Kältebringer",
@@ -543,6 +558,10 @@
    "forever": "Erzmagierin Modera",
    "use": "Erzmagierin Modera"
   },
+  "Ardin Grassman": {
+   "forever": "Ardin Grassman",
+   "use": "Ardin Grassman"
+  },
   "Arei": {
    "classic": "Arei",
    "forever": "Arei",
@@ -568,6 +587,11 @@
    "forever": "Argentumrüstmeister Lightspark",
    "use": "Argentumrüstmeister Lightspark"
   },
+  "Arikara": {
+   "classic": "Arikara",
+   "forever": "Arikara",
+   "use": "Arikara"
+  },
   "Ashenvale Outrunner": {
    "classic": "Kundschafter von Ashenvale",
    "forever": "Kundschafter von Ashenvale",
@@ -587,6 +611,31 @@
    "classic": "Auberdine-Schildwache",
    "forever": "Auberdine-Schildwache",
    "use": "Auberdine-Schildwache"
+  },
+  "Auctioneer Beardo": {
+   "classic": "Auktionator Beardo",
+   "forever": "Auktionator Beardo",
+   "use": "Auktionator Beardo"
+  },
+  "Auctioneer Graves": {
+   "classic": "Auktionator Graves",
+   "forever": "Auktionator Graves",
+   "use": "Auktionator Graves"
+  },
+  "Auctioneer Grizzlin": {
+   "classic": "Auktionatorin Grizzlin",
+   "forever": "Auktionatorin Grizzlin",
+   "use": "Auktionatorin Grizzlin"
+  },
+  "Auctioneer Kresky": {
+   "classic": "Auktionator Kresky",
+   "forever": "Auktionator Kresky",
+   "use": "Auktionator Kresky"
+  },
+  "Auctioneer O'reely": {
+   "classic": "Auktionator O'reely",
+   "forever": "Auktionator O'reely",
+   "use": "Auktionator O'reely"
   },
   "Aurora Skycaller": {
    "classic": "Aurora Skycaller",
@@ -611,6 +660,11 @@
    "classic": "Azuregos",
    "forever": "Azuregos",
    "use": "Azuregos"
+  },
+  "Azzleby": {
+   "classic": "Azzleby",
+   "forever": "Azzleby",
+   "use": "Azzleby"
   },
   "Baine Bloodhoof": {
    "classic": "Baine Bloodhoof",
@@ -657,14 +711,34 @@
    "forever": "Bazil Thredd",
    "use": "Bazil Thredd"
   },
+  "Beetix Ficklespragg": {
+   "classic": "Beetix Ficklespragg",
+   "forever": "Beetix Ficklespragg",
+   "use": "Beetix Ficklespragg"
+  },
   "Belathaan Brightwish": {
    "forever": "Belathaan Brightwish",
    "use": "Belathaan Brightwish"
+  },
+  "Bibbly F'utzbuckle": {
+   "classic": "Bibbly F'utzbuckle",
+   "forever": "Bibbly F'utzbuckle",
+   "use": "Bibbly F'utzbuckle"
+  },
+  "Bijou": {
+   "classic": "Bijou",
+   "forever": "Bijou",
+   "use": "Bijou"
   },
   "Billy Maclure": {
    "classic": "Billy Maclure",
    "forever": "Billy Maclure",
    "use": "Billy Maclure"
+  },
+  "Bishop DeLavey": {
+   "classic": "Bischof DeLavey",
+   "forever": "Bischof DeLavey",
+   "use": "Bischof DeLavey"
   },
   "Bishop Farthing": {
    "classic": "Bischof Farthing",
@@ -680,6 +754,31 @@
    "classic": "Held der Blackrock",
    "forever": "Held der Blackrock",
    "use": "Held der Blackrock"
+  },
+  "Blackwing Technician": {
+   "classic": "Techniker der Pechschwingen",
+   "forever": "Techniker der Pechschwingen",
+   "use": "Techniker der Pechschwingen"
+  },
+  "Blixrez Goodstitch": {
+   "classic": "Blixrez Goodstitch",
+   "forever": "Blixrez Goodstitch",
+   "use": "Blixrez Goodstitch"
+  },
+  "Blixxrak": {
+   "classic": "Blixxrak",
+   "forever": "Blixxrak",
+   "use": "Blixxrak"
+  },
+  "Blizrik Buckshot": {
+   "classic": "Blizrik Buckshot",
+   "forever": "Blizrik Buckshot",
+   "use": "Blizrik Buckshot"
+  },
+  "Bliztik": {
+   "classic": "Bliztik",
+   "forever": "Bliztik",
+   "use": "Bliztik"
   },
   "Blood Elf Reclaimer": {
    "classic": "Blutelfenwiederbeschafferin",
@@ -711,15 +810,45 @@
    "forever": "Blaue Bannschuppe",
    "use": "Blaue Bannschuppe"
   },
+  "Booty Bay Bruiser": {
+   "classic": "Haudrauf von Booty Bay",
+   "forever": "Haudrauf von Booty Bay",
+   "use": "Haudrauf von Booty Bay"
+  },
+  "Booty Bay Elite": {
+   "classic": "Elitesoldat von Booty Bay",
+   "forever": "Elitesoldat von Booty Bay",
+   "use": "Elitesoldat von Booty Bay"
+  },
+  "Boss Copperplug": {
+   "classic": "Boss Copperplug",
+   "forever": "Boss Copperplug",
+   "use": "Boss Copperplug"
+  },
   "Braelyn Firehand": {
    "classic": "Braelyn Firehand",
    "forever": "Braelyn Firehand",
    "use": "Braelyn Firehand"
   },
+  "Brikk Keencraft": {
+   "classic": "Brikk Keencraft",
+   "forever": "Brikk Keencraft",
+   "use": "Brikk Keencraft"
+  },
+  "Bro'kin": {
+   "classic": "Bro'kin",
+   "forever": "Bro'kin",
+   "use": "Bro'kin"
+  },
   "Brohann Caskbelly": {
    "classic": "Brohann Caskbelly",
    "forever": "Brohann Caskbelly",
    "use": "Brohann Caskbelly"
+  },
+  "Bronn Fitzwrench": {
+   "classic": "Bronn Fitzwrench",
+   "forever": "Bronn Fitzwrench",
+   "use": "Bronn Fitzwrench"
   },
   "Brood of Nozdormu": {
    "classic": "Brut Nozdormus",
@@ -741,6 +870,11 @@
    "forever": "Rohling der Burning Blade",
    "use": "Rohling der Burning Blade"
   },
+  "Buzzek Bracketswing": {
+   "classic": "Buzzek Bracketswing",
+   "forever": "Buzzek Bracketswing",
+   "use": "Buzzek Bracketswing"
+  },
   "C'Thun": {
    "classic": "C'Thun",
    "forever": "C'Thun",
@@ -761,6 +895,11 @@
    "forever": "Captain Hellstieg",
    "use": "Captain Hellstieg"
   },
+  "Captain Greenskin": {
+   "classic": "Captain Greenskin",
+   "forever": "Captain Greenskin",
+   "use": "Captain Greenskin"
+  },
   "Captain Halyndor": {
    "classic": "Kapitän Halyndor",
    "forever": "Kapitän Halyndor",
@@ -770,6 +909,11 @@
    "classic": "Captain Eisenberg",
    "forever": "Captain Eisenberg",
    "use": "Captain Eisenberg"
+  },
+  "Captain Keelhaul": {
+   "classic": "Käpt'n Kielhol",
+   "forever": "Käpt'n Kielhol",
+   "use": "Käpt'n Kielhol"
   },
   "Captain Rugelfuss": {
    "classic": "Captain Rugelfuss",
@@ -790,6 +934,11 @@
    "forever": "Captain Truman",
    "use": "Captain Truman"
   },
+  "Caravaneer Ruzzgot": {
+   "classic": "Karawanenführer Ruzzgot",
+   "forever": "Karawanenführer Ruzzgot",
+   "use": "Karawanenführer Ruzzgot"
+  },
   "Cerellean Whiteclaw": {
    "classic": "Cerellean Whiteclaw",
    "forever": "Cerellean Whiteclaw",
@@ -809,6 +958,11 @@
    "classic": "Chefarchäologe Greywhisker",
    "forever": "Chefarchäologe Greywhisker",
    "use": "Chefarchäologe Greywhisker"
+  },
+  "Chief Engineer Bilgewhizzle": {
+   "classic": "Chefingenieur Bilgewhizzle",
+   "forever": "Chefingenieur Bilgewhizzle",
+   "use": "Chefingenieur Bilgewhizzle"
   },
   "Chief Hawkwind": {
    "classic": "Häuptling Hawkwind",
@@ -855,6 +1009,26 @@
    "forever": "Kommandant Springvale",
    "use": "Kommandant Springvale"
   },
+  "Cork Gizelton": {
+   "classic": "Cork Gizelton",
+   "forever": "Cork Gizelton",
+   "use": "Cork Gizelton"
+  },
+  "Crane Operator Bigglefuzz": {
+   "classic": "Kranführer Bigglefuzz",
+   "forever": "Kranführer Bigglefuzz",
+   "use": "Kranführer Bigglefuzz"
+  },
+  "Crank Fizzlebub": {
+   "classic": "Crank Fizzlebub",
+   "forever": "Crank Fizzlebub",
+   "use": "Crank Fizzlebub"
+  },
+  "Crazk Sparks": {
+   "classic": "Crazk Sparks",
+   "forever": "Crazk Sparks",
+   "use": "Crazk Sparks"
+  },
   "Crusader Lord Valdelmar": {
    "classic": "Kreuzzüglerlord Valdelmar",
    "forever": "Kreuzzüglerlord Valdelmar",
@@ -879,6 +1053,11 @@
    "classic": "Schildwache von Darnassus",
    "forever": "Schildwache von Darnassus",
    "use": "Schildwache von Darnassus"
+  },
+  "Dashel Stonefist": {
+   "classic": "Dashel Stonefist",
+   "forever": "Dashel Stonefist",
+   "use": "Dashel Stonefist"
   },
   "Daughter of Cenarius": {
    "classic": "Tochter des Cenarius",
@@ -935,15 +1114,45 @@
    "forever": "Todespirscher Zraedus",
    "use": "Todespirscher Zraedus"
   },
+  "Deckhand Moishe": {
+   "classic": "Deckmatrose Moishe",
+   "forever": "Deckmatrose Moishe",
+   "use": "Deckmatrose Moishe"
+  },
   "Defias Bandit": {
    "classic": "Bandit der Defias",
    "forever": "Bandit der Defias",
    "use": "Bandit der Defias"
   },
+  "Defias Dockmaster": {
+   "classic": "Dockmeister der Defias",
+   "forever": "Dockmeister der Defias",
+   "use": "Dockmeister der Defias"
+  },
   "Delgren the Purifier": {
    "classic": "Delgren der Läuterer",
    "forever": "Delgren der Läuterer",
    "use": "Delgren der Läuterer"
+  },
+  "Digmaster Shovelphlange": {
+   "classic": "Grubenmeister Schaufelphlansch",
+   "forever": "Grubenmeister Schaufelphlansch",
+   "use": "Grubenmeister Schaufelphlansch"
+  },
+  "Dirge Quikcleave": {
+   "classic": "Dirge Quikcleave",
+   "forever": "Dirge Quikcleave",
+   "use": "Dirge Quikcleave"
+  },
+  "Dorin Songblade": {
+   "classic": "Dorin Songblade",
+   "forever": "Dorin Songblade",
+   "use": "Dorin Songblade"
+  },
+  "Dorius Stonetender": {
+   "classic": "Dorius Stonetender",
+   "forever": "Dorius Stonetender",
+   "use": "Dorius Stonetender"
   },
   "Dragonmaw Raider": {
    "classic": "Räuber der Dragonmaw",
@@ -954,6 +1163,11 @@
    "classic": "Drek'Thar",
    "forever": "Drek'Thar",
    "use": "Drek'Thar"
+  },
+  "Drizzlik": {
+   "classic": "Drizzlik",
+   "forever": "Drizzlik",
+   "use": "Drizzlik"
   },
   "Duke Hydraxis": {
    "classic": "Fürst Hydraxis",
@@ -983,6 +1197,11 @@
    "forever": "Erdseher Farsen",
    "use": "Erdseher Farsen"
   },
+  "Echeyakee": {
+   "classic": "Echeyakee",
+   "forever": "Echeyakee",
+   "use": "Echeyakee"
+  },
   "Edward Heartweaver": {
    "forever": "Edward Heartweaver",
    "use": "Edward Heartweaver"
@@ -1001,6 +1220,11 @@
    "forever": "Elaadrin Evengale",
    "use": "Elaadrin Evengale"
   },
+  "Elling Trias": {
+   "classic": "Elling Trias",
+   "forever": "Elling Trias",
+   "use": "Elling Trias"
+  },
   "Elsharin": {
    "classic": "Elsharin",
    "forever": "Elsharin",
@@ -1016,6 +1240,11 @@
    "forever": "Imperator Dagran Thaurissan",
    "use": "Imperator Dagran Thaurissan"
   },
+  "Engineer Whirleygig": {
+   "classic": "Ingenieur Whirleygig",
+   "forever": "Ingenieur Whirleygig",
+   "use": "Ingenieur Whirleygig"
+  },
   "Eranikus Transformed": {
    "classic": "Verwandelter Eranikus",
    "forever": "Verwandelter Eranikus",
@@ -1025,6 +1254,16 @@
    "classic": "Eranikus der Erlöste",
    "forever": "Eranikus der Erlöste",
    "use": "Eranikus der Erlöste"
+  },
+  "Everlook Bruiser": {
+   "classic": "Haudrauf von Everlook",
+   "forever": "Haudrauf von Everlook",
+   "use": "Haudrauf von Everlook"
+  },
+  "Evie Whirlbrew": {
+   "classic": "Evie Whirlbrew",
+   "forever": "Evie Whirlbrew",
+   "use": "Evie Whirlbrew"
   },
   "Exzhal": {
    "classic": "Exzhal",
@@ -1075,6 +1314,16 @@
    "forever": "Feathermoon-Schildwache",
    "use": "Feathermoon-Schildwache"
   },
+  "Felnok Steelspring": {
+   "classic": "Felnok Steelspring",
+   "forever": "Felnok Steelspring",
+   "use": "Felnok Steelspring"
+  },
+  "Fin Fizracket": {
+   "classic": "Fin Fizracket",
+   "forever": "Fin Fizracket",
+   "use": "Fin Fizracket"
+  },
   "Fineous Darkvire": {
    "classic": "Fineous Darkvire",
    "forever": "Fineous Darkvire",
@@ -1085,15 +1334,60 @@
    "forever": "Fiora Longears",
    "use": "Fiora Longears"
   },
+  "First Mate Crazz": {
+   "classic": "Erster Maat Crazz",
+   "forever": "Erster Maat Crazz",
+   "use": "Erster Maat Crazz"
+  },
+  "First Mate Nilzlix": {
+   "classic": "Erster Maat Nilzlix",
+   "forever": "Erster Maat Nilzlix",
+   "use": "Erster Maat Nilzlix"
+  },
+  "Fizzle Darkstorm": {
+   "classic": "Fizzle Dunkelsturm",
+   "forever": "Fizzle Dunkelsturm",
+   "use": "Fizzle Dunkelsturm"
+  },
+  "Foreman Cozzle": {
+   "classic": "Großknecht Cozzle",
+   "forever": "Großknecht Cozzle",
+   "use": "Großknecht Cozzle"
+  },
+  "Foreman Silixiz": {
+   "classic": "Großknecht Silixiz",
+   "forever": "Großknecht Silixiz",
+   "use": "Großknecht Silixiz"
+  },
   "Franclorn Forgewright": {
    "classic": "Franclorn Forgewright",
    "forever": "Franclorn Forgewright",
    "use": "Franclorn Forgewright"
   },
+  "Frezza": {
+   "classic": "Frezza",
+   "forever": "Frezza",
+   "use": "Frezza"
+  },
   "Frostmane Troll": {
    "classic": "Troll der Frostmane",
    "forever": "Troll der Frostmane",
    "use": "Troll der Frostmane"
+  },
+  "Fuzruckle": {
+   "classic": "Fuzruckle",
+   "forever": "Fuzruckle",
+   "use": "Fuzruckle"
+  },
+  "Gadgetzan Bruiser": {
+   "classic": "Haudrauf von Gadgetzan",
+   "forever": "Haudrauf von Gadgetzan",
+   "use": "Haudrauf von Gadgetzan"
+  },
+  "Gagsprocket": {
+   "classic": "Gagsprocket",
+   "forever": "Gagsprocket",
+   "use": "Gagsprocket"
   },
   "Galak Centaur": {
    "classic": "Zentaur der Galak",
@@ -1114,6 +1408,11 @@
    "classic": "Gath'Ilzogg",
    "forever": "Gath'Ilzogg",
    "use": "Gath'Ilzogg"
+  },
+  "Gazban": {
+   "classic": "Gazban",
+   "forever": "Gazban",
+   "use": "Gazban"
   },
   "Gazlowe": {
    "classic": "Gazlowe",
@@ -1140,6 +1439,11 @@
    "forever": "Gerenzo Wrenchwhistle",
    "use": "Gerenzo Wrenchwhistle"
   },
+  "Gerrig Bonegrip": {
+   "classic": "Gerrig Bonegrip",
+   "forever": "Gerrig Bonegrip",
+   "use": "Gerrig Bonegrip"
+  },
   "Gershala Nightwhisper": {
    "classic": "Gershala Nightwhisper",
    "forever": "Gershala Nightwhisper",
@@ -1149,6 +1453,21 @@
    "classic": "Geistheuler",
    "forever": "Geistheuler",
    "use": "Geistheuler"
+  },
+  "Gibbert": {
+   "classic": "Gibbert",
+   "forever": "Gibbert",
+   "use": "Gibbert"
+  },
+  "Gikkix": {
+   "classic": "Gikkix",
+   "forever": "Gikkix",
+   "use": "Gikkix"
+  },
+  "Gilnid": {
+   "classic": "Gilnid",
+   "forever": "Gilnid",
+   "use": "Gilnid"
   },
   "Gilthares Firebough": {
    "classic": "Gilthares Firebough",
@@ -1160,30 +1479,95 @@
    "forever": "Gilveradin Sunchaser",
    "use": "Gilveradin Sunchaser"
   },
+  "Gimblethorn": {
+   "classic": "Gimblethorn",
+   "forever": "Gimblethorn",
+   "use": "Gimblethorn"
+  },
+  "Glyx Brewright": {
+   "classic": "Glyx Brewright",
+   "forever": "Glyx Brewright",
+   "use": "Glyx Brewright"
+  },
   "Gnarlpine Warrior": {
    "classic": "Krieger der Knarzklauen",
    "forever": "Krieger der Knarzklauen",
    "use": "Krieger der Knarzklauen"
+  },
+  "Goblin Craftsman": {
+   "classic": "Goblin-Handwerker",
+   "forever": "Goblin-Handwerker",
+   "use": "Goblin-Handwerker"
+  },
+  "Goblin Engineer": {
+   "classic": "Goblin-Ingenieur",
+   "forever": "Goblin-Ingenieur",
+   "use": "Goblin-Ingenieur"
+  },
+  "Goblin Pit Boss": {
+   "classic": "Goblin-Boxenboss",
+   "forever": "Goblin-Boxenboss",
+   "use": "Goblin-Boxenboss"
+  },
+  "Goblin Pit Crewman": {
+   "classic": "Goblin-Boxencrew",
+   "forever": "Goblin-Boxencrew",
+   "use": "Goblin-Boxencrew"
+  },
+  "Goblin Shipbuilder": {
+   "classic": "Goblin-Schiffbauer",
+   "forever": "Goblin-Schiffbauer",
+   "use": "Goblin-Schiffbauer"
+  },
+  "Goblin Woodcarver": {
+   "classic": "Goblin-Holzschnitzer",
+   "forever": "Goblin-Holzschnitzer",
+   "use": "Goblin-Holzschnitzer"
+  },
+  "Gogo": {
+   "classic": "Gogo",
+   "forever": "Gogo",
+   "use": "Gogo"
   },
   "Gorn One Eye": {
    "classic": "Gorn Einauge",
    "forever": "Gorn Einauge",
    "use": "Gorn Einauge"
   },
+  "Gorzeeki Wildeyes": {
+   "classic": "Gorzeeki Wildeyes",
+   "forever": "Gorzeeki Wildeyes",
+   "use": "Gorzeeki Wildeyes"
+  },
   "Grand Crusader Dathrohan": {
    "classic": "Oberster Kreuzzügler Dathrohan",
    "forever": "Oberster Kreuzzügler Dathrohan",
    "use": "Oberster Kreuzzügler Dathrohan"
+  },
+  "Grand Foreman Puzik Gallywix": {
+   "classic": "Oberster Großknecht Puzik Gallywix",
+   "forever": "Oberster Großknecht Puzik Gallywix",
+   "use": "Oberster Großknecht Puzik Gallywix"
   },
   "Grand Inquisitor Isillien": {
    "classic": "Großinquisitor Isillien",
    "forever": "Großinquisitor Isillien",
    "use": "Großinquisitor Isillien"
   },
+  "Grarnik Goodstitch": {
+   "classic": "Grarnik Goodstitch",
+   "forever": "Grarnik Goodstitch",
+   "use": "Grarnik Goodstitch"
+  },
   "Grazle": {
    "classic": "Grazle",
    "forever": "Grazle",
    "use": "Grazle"
+  },
+  "Grazlix": {
+   "classic": "Grazlix",
+   "forever": "Grazlix",
+   "use": "Grazlix"
   },
   "Gregor Agamand": {
    "classic": "Gregor Agamand",
@@ -1195,10 +1579,35 @@
    "forever": "Grelin Whitebeard",
    "use": "Grelin Whitebeard"
   },
+  "Grimble": {
+   "classic": "Grimble",
+   "forever": "Grimble",
+   "use": "Grimble"
+  },
+  "Grimestack": {
+   "classic": "Grimestack",
+   "forever": "Grimestack",
+   "use": "Grimestack"
+  },
   "Grimtotem Raider": {
    "classic": "Räuber der Grimmtotem",
    "forever": "Räuber der Grimmtotem",
    "use": "Räuber der Grimmtotem"
+  },
+  "Griniblix the Spectator": {
+   "classic": "Griniblix der Beobachter",
+   "forever": "Griniblix der Beobachter",
+   "use": "Griniblix der Beobachter"
+  },
+  "Grinkle": {
+   "classic": "Grinkle",
+   "forever": "Grinkle",
+   "use": "Grinkle"
+  },
+  "Grizzlowe": {
+   "classic": "Grizzlowe",
+   "forever": "Grizzlowe",
+   "use": "Grizzlowe"
   },
   "Grol the Destroyer": {
    "classic": "Grol der Zerstörer",
@@ -1210,6 +1619,11 @@
    "forever": "Gryan Stoutmantle",
    "use": "Gryan Stoutmantle"
   },
+  "Hagar Lightninghoof": {
+   "classic": "Hagar Lightninghoof",
+   "forever": "Hagar Lightninghoof",
+   "use": "Hagar Lightninghoof"
+  },
   "Hakkar": {
    "classic": "Hakkar",
    "forever": "Hakkar",
@@ -1219,6 +1633,21 @@
    "classic": "Haleh",
    "forever": "Haleh",
    "use": "Haleh"
+  },
+  "Hammertoe Grez": {
+   "classic": "Hammertoe Grez",
+   "forever": "Hammertoe Grez",
+   "use": "Hammertoe Grez"
+  },
+  "Harlo Wigglesworth": {
+   "classic": "Harlo Wigglesworth",
+   "forever": "Harlo Wigglesworth",
+   "use": "Harlo Wigglesworth"
+  },
+  "Haughty Modiste": {
+   "classic": "Eingebildete Modeschöpferin",
+   "forever": "Eingebildete Modeschöpferin",
+   "use": "Eingebildete Modeschöpferin"
   },
   "Hemet Nesingwary": {
    "classic": "Hemet Nesingwary",
@@ -1279,6 +1708,16 @@
    "forever": "Hochlord Taelan Fordring",
    "use": "Hochlord Taelan Fordring"
   },
+  "Himmik": {
+   "classic": "Himmik",
+   "forever": "Himmik",
+   "use": "Himmik"
+  },
+  "Hin Denburg": {
+   "classic": "Hin Denburg",
+   "forever": "Hin Denburg",
+   "use": "Hin Denburg"
+  },
   "Historian Karnik": {
    "classic": "Historiker Karnik",
    "forever": "Historiker Karnik",
@@ -1293,6 +1732,11 @@
    "classic": "Hol'anyee Marshal",
    "forever": "Hol'anyee Marshal",
    "use": "Hol'anyee Marshal"
+  },
+  "Hornizz Brimbuzzle": {
+   "classic": "Hornizz Brimbuzzle",
+   "forever": "Hornizz Brimbuzzle",
+   "use": "Hornizz Brimbuzzle"
   },
   "Huntress Leafrunner": {
    "classic": "Jägerin Leafrunner",
@@ -1329,10 +1773,40 @@
    "forever": "Illiyana Moonblaze",
    "use": "Illiyana Moonblaze"
   },
+  "Innkeeper Fizzgrimble": {
+   "classic": "Gastwirt Fizzgrimble",
+   "forever": "Gastwirt Fizzgrimble",
+   "use": "Gastwirt Fizzgrimble"
+  },
+  "Innkeeper Skindle": {
+   "classic": "Gastwirt Skindle",
+   "forever": "Gastwirt Skindle",
+   "use": "Gastwirt Skindle"
+  },
+  "Innkeeper Vizzie": {
+   "classic": "Gastwirt Vizzie",
+   "forever": "Gastwirt Vizzie",
+   "use": "Gastwirt Vizzie"
+  },
+  "Innkeeper Wiley": {
+   "classic": "Gastwirt Wiley",
+   "forever": "Gastwirt Wiley",
+   "use": "Gastwirt Wiley"
+  },
   "Ironbark the Redeemed": {
    "classic": "Eisenborke der Erlöste",
    "forever": "Eisenborke der Erlöste",
    "use": "Eisenborke der Erlöste"
+  },
+  "Ironzar": {
+   "classic": "Ironzar",
+   "forever": "Ironzar",
+   "use": "Ironzar"
+  },
+  "Isha Awak": {
+   "classic": "Isha Awak",
+   "forever": "Isha Awak",
+   "use": "Isha Awak"
   },
   "Itharius": {
    "classic": "Itharius",
@@ -1344,15 +1818,45 @@
    "forever": "Ivus der Waldfürst",
    "use": "Ivus der Waldfürst"
   },
+  "Izzy Coppergrab": {
+   "classic": "Izzy Kupferzock",
+   "forever": "Izzy Kupferzock",
+   "use": "Izzy Kupferzock"
+  },
   "J.D. Collie": {
    "classic": "J.D. Collie",
    "forever": "J.D. Collie",
    "use": "J.D. Collie"
   },
+  "Jabbey": {
+   "classic": "Jabbey",
+   "forever": "Jabbey",
+   "use": "Jabbey"
+  },
+  "Jang": {
+   "classic": "Jang",
+   "forever": "Jang",
+   "use": "Jang"
+  },
   "Jarod Shadowsong": {
    "classic": "Jarod Shadowsong",
    "forever": "Jarod Shadowsong",
    "use": "Jarod Shadowsong"
+  },
+  "Jaxin Chong": {
+   "classic": "Jaxin Chong",
+   "forever": "Jaxin Chong",
+   "use": "Jaxin Chong"
+  },
+  "Jazzik": {
+   "classic": "Jazzik",
+   "forever": "Jazzik",
+   "use": "Jazzik"
+  },
+  "Jazzrik": {
+   "classic": "Jazzrik",
+   "forever": "Jazzrik",
+   "use": "Jazzrik"
   },
   "Je'neu Sancrea": {
    "classic": "Je'neu Sancrea",
@@ -1369,6 +1873,11 @@
    "forever": "Jeziba",
    "use": "Jeziba"
   },
+  "Jorn Skyseer": {
+   "classic": "Jorn Skyseer",
+   "forever": "Jorn Skyseer",
+   "use": "Jorn Skyseer"
+  },
   "Joseph Redpath": {
    "classic": "Joseph Redpath",
    "forever": "Joseph Redpath",
@@ -1379,10 +1888,20 @@
    "forever": "Kaela Shadowspear",
    "use": "Kaela Shadowspear"
   },
+  "Kebok": {
+   "classic": "Kebok",
+   "forever": "Kebok",
+   "use": "Kebok"
+  },
   "Keeper Albagorm": {
    "classic": "Bewahrer Albagorm",
    "forever": "Bewahrer Albagorm",
    "use": "Bewahrer Albagorm"
+  },
+  "Keeper Bel'dugur": {
+   "classic": "Bewahrer Bel'dugur",
+   "forever": "Bewahrer Bel'dugur",
+   "use": "Bewahrer Bel'dugur"
   },
   "Keeper Ordanus": {
    "classic": "Bewahrer Ordanus",
@@ -1409,10 +1928,35 @@
    "forever": "Kernda",
    "use": "Kernda"
   },
+  "Kernobee": {
+   "classic": "Kernobee",
+   "forever": "Kernobee",
+   "use": "Kernobee"
+  },
   "Khan Jehn": {
    "classic": "Khan Jehn",
    "forever": "Khan Jehn",
    "use": "Khan Jehn"
+  },
+  "Kibler": {
+   "classic": "Kibler",
+   "forever": "Kibler",
+   "use": "Kibler"
+  },
+  "Kiknikle": {
+   "classic": "Kiknikle",
+   "forever": "Kiknikle",
+   "use": "Kiknikle"
+  },
+  "Kilxx": {
+   "classic": "Kilxx",
+   "forever": "Kilxx",
+   "use": "Kilxx"
+  },
+  "Kim'jael": {
+   "classic": "Kim'jael",
+   "forever": "Kim'jael",
+   "use": "Kim'jael"
   },
   "Kindal Moonweaver": {
    "classic": "Kindal Moonweaver",
@@ -1429,15 +1973,55 @@
    "forever": "Kirith der Verdammte",
    "use": "Kirith der Verdammte"
   },
+  "Kixxle": {
+   "classic": "Kixxle",
+   "forever": "Kixxle",
+   "use": "Kixxle"
+  },
+  "Kizz Bluntstrike": {
+   "classic": "Kizz Bluntstrike",
+   "forever": "Kizz Bluntstrike",
+   "use": "Kizz Bluntstrike"
+  },
+  "Knot Thimblejack": {
+   "classic": "Knot Thimblejack",
+   "forever": "Knot Thimblejack",
+   "use": "Knot Thimblejack"
+  },
   "Kobold Laborer": {
    "classic": "Koboldhilfsarbeiter",
    "forever": "Koboldhilfsarbeiter",
    "use": "Koboldhilfsarbeiter"
   },
+  "Kozish": {
+   "classic": "Kozish",
+   "forever": "Kozish",
+   "use": "Kozish"
+  },
+  "Krakle": {
+   "classic": "Krakle",
+   "forever": "Krakle",
+   "use": "Krakle"
+  },
   "Kravel Koalbeard": {
    "classic": "Kravel Koalbeard",
    "forever": "Kravel Koalbeard",
    "use": "Kravel Koalbeard"
+  },
+  "Krazek": {
+   "classic": "Krazek",
+   "forever": "Krazek",
+   "use": "Krazek"
+  },
+  "Kregg Keelhaul": {
+   "classic": "Kregg Kielhol",
+   "forever": "Kregg Kielhol",
+   "use": "Kregg Kielhol"
+  },
+  "Krinkle Goodsteel": {
+   "classic": "Krinkle Goodsteel",
+   "forever": "Krinkle Goodsteel",
+   "use": "Krinkle Goodsteel"
   },
   "Kriss Goldenlight": {
    "classic": "Kriss Goldenlight",
@@ -1448,6 +2032,11 @@
    "classic": "Kundric Zanden",
    "forever": "Kundric Zanden",
    "use": "Kundric Zanden"
+  },
+  "Kzixx": {
+   "classic": "Kzixx",
+   "forever": "Kzixx",
+   "use": "Kzixx"
   },
   "Lady Anacondra": {
    "classic": "Lady Anacondra",
@@ -1473,6 +2062,21 @@
    "classic": "Fürstin Sylvanas Windrunner",
    "forever": "Fürstin Sylvanas Windrunner",
    "use": "Fürstin Sylvanas Windrunner"
+  },
+  "Lathoric the Black": {
+   "classic": "Lathoric der Schwarze",
+   "forever": "Lathoric der Schwarze",
+   "use": "Lathoric der Schwarze"
+  },
+  "Laziphus": {
+   "classic": "Laziphus",
+   "forever": "Laziphus",
+   "use": "Laziphus"
+  },
+  "Legacki": {
+   "classic": "Legacki",
+   "forever": "Legacki",
+   "use": "Legacki"
   },
   "Leper Gnome": {
    "classic": "Lepragnom",
@@ -1503,6 +2107,16 @@
    "classic": "Linken",
    "forever": "Linken",
    "use": "Linken"
+  },
+  "Liv Rizzlefix": {
+   "classic": "Liv Rizzlefix",
+   "forever": "Liv Rizzlefix",
+   "use": "Liv Rizzlefix"
+  },
+  "Lizzarik": {
+   "classic": "Lizzarik",
+   "forever": "Lizzarik",
+   "use": "Lizzarik"
   },
   "Lokhtos Darkbargainer": {
    "classic": "Lokhtos Darkbargainer",
@@ -1609,10 +2223,20 @@
    "forever": "Geist von Mondklaue",
    "use": "Geist von Mondklaue"
   },
+  "Lunnix Sprocketslip": {
+   "classic": "Lunnix Sprocketslip",
+   "forever": "Lunnix Sprocketslip",
+   "use": "Lunnix Sprocketslip"
+  },
   "Ma Stonefield": {
    "classic": "Mutter Stonefield",
    "forever": "Mutter Stonefield",
    "use": "Mutter Stonefield"
+  },
+  "Mad Magglish": {
+   "classic": "Zausel der Verrückte",
+   "forever": "Zausel der Verrückte",
+   "use": "Zausel der Verrückte"
   },
   "Madame Eva": {
    "classic": "Madame Eva",
@@ -1633,6 +2257,16 @@
    "classic": "Magistrat Solomon",
    "forever": "Magistrat Solomon",
    "use": "Magistrat Solomon"
+  },
+  "Magregan Deepshadow": {
+   "classic": "Magregan Grubenschatten",
+   "forever": "Magregan Grubenschatten",
+   "use": "Magregan Grubenschatten"
+  },
+  "Mahren Skyseer": {
+   "classic": "Mahren Skyseer",
+   "forever": "Mahren Skyseer",
+   "use": "Mahren Skyseer"
   },
   "Malfurion Stormrage": {
    "classic": "Malfurion Stormrage",
@@ -1674,6 +2308,11 @@
    "forever": "Marshal Windsor",
    "use": "Marshal Windsor"
   },
+  "Marvon Rivetseeker": {
+   "classic": "Marvon Rivetseeker",
+   "forever": "Marvon Rivetseeker",
+   "use": "Marvon Rivetseeker"
+  },
   "Marzon the Silent Blade": {
    "classic": "Marzon die Stille Klinge",
    "forever": "Marzon die Stille Klinge",
@@ -1683,6 +2322,11 @@
    "classic": "Apothekermeister Faranell",
    "forever": "Apothekermeister Faranell",
    "use": "Apothekermeister Faranell"
+  },
+  "Master Elemental Shaper Krixix": {
+   "classic": "Meisterelementarformer Krixix",
+   "forever": "Meisterelementarformer Krixix",
+   "use": "Meisterelementarformer Krixix"
   },
   "Master Mathias Shaw": {
    "classic": "Meister Mathias Shaw",
@@ -1694,10 +2338,30 @@
    "forever": "Mathredis Firestar",
    "use": "Mathredis Firestar"
   },
+  "Maxwort Uberglint": {
+   "classic": "Maxwort Uberglint",
+   "forever": "Maxwort Uberglint",
+   "use": "Maxwort Uberglint"
+  },
   "Maybell Maclure": {
    "classic": "Maybell Maclure",
    "forever": "Maybell Maclure",
    "use": "Maybell Maclure"
+  },
+  "Mazk Snipeshot": {
+   "classic": "Mazk Snipeshot",
+   "forever": "Mazk Snipeshot",
+   "use": "Mazk Snipeshot"
+  },
+  "Mebok Mizzyrix": {
+   "classic": "Mebok Mizzyrix",
+   "forever": "Mebok Mizzyrix",
+   "use": "Mebok Mizzyrix"
+  },
+  "Meggi Peppinrocker": {
+   "classic": "Meggi Peppinrocker",
+   "forever": "Meggi Peppinrocker",
+   "use": "Meggi Peppinrocker"
   },
   "Meilosh": {
    "classic": "Meilosh",
@@ -1708,6 +2372,11 @@
    "classic": "Robogenieur Thermaplugg",
    "forever": "Robogenieur Thermaplugg",
    "use": "Robogenieur Thermaplugg"
+  },
+  "Melizza Brimbuzzle": {
+   "classic": "Melizza Brimbuzzle",
+   "forever": "Melizza Brimbuzzle",
+   "use": "Melizza Brimbuzzle"
   },
   "Mennet Carkad": {
    "classic": "Mennet Carkad",
@@ -1774,10 +2443,30 @@
    "forever": "Gnoll der Moosfelle",
    "use": "Gnoll der Moosfelle"
   },
+  "Motega Firemane": {
+   "classic": "Motega Firemane",
+   "forever": "Motega Firemane",
+   "use": "Motega Firemane"
+  },
+  "Mupsi Shacklefridd": {
+   "classic": "Mupsi Shacklefridd",
+   "forever": "Mupsi Shacklefridd",
+   "use": "Mupsi Shacklefridd"
+  },
   "Murloc Forager": {
    "classic": "Murlocfutterwühler",
    "forever": "Murlocfutterwühler",
    "use": "Murlocfutterwühler"
+  },
+  "Mux Manascrambler": {
+   "classic": "Mux Manascrambler",
+   "forever": "Mux Manascrambler",
+   "use": "Mux Manascrambler"
+  },
+  "Myizz Luckycatch": {
+   "classic": "Myizz Luckycatch",
+   "forever": "Myizz Luckycatch",
+   "use": "Myizz Luckycatch"
   },
   "Myzrael": {
    "classic": "Myzrael",
@@ -1788,6 +2477,11 @@
    "classic": "Nara Wildmane",
    "forever": "Nara Wildmane",
    "use": "Nara Wildmane"
+  },
+  "Narkk": {
+   "classic": "Narkk",
+   "forever": "Narkk",
+   "use": "Narkk"
   },
   "Nathanos Blightcaller": {
    "classic": "Nathanos Blightcaller",
@@ -1804,10 +2498,45 @@
    "forever": "Nefarian",
    "use": "Nefarian"
   },
+  "Nez'raz": {
+   "classic": "Nez'raz",
+   "forever": "Nez'raz",
+   "use": "Nez'raz"
+  },
   "Nightbane Worgen": {
    "classic": "Worg der Nachtheuler",
    "forever": "Worg der Nachtheuler",
    "use": "Worg der Nachtheuler"
+  },
+  "Nixx Sprocketspring": {
+   "classic": "Nixx Sprocketspring",
+   "forever": "Nixx Sprocketspring",
+   "use": "Nixx Sprocketspring"
+  },
+  "Nixxrak": {
+   "classic": "Nixxrak",
+   "forever": "Nixxrak",
+   "use": "Nixxrak"
+  },
+  "Nixxrax Fillamug": {
+   "classic": "Nixxrax Fillamug",
+   "forever": "Nixxrax Fillamug",
+   "use": "Nixxrax Fillamug"
+  },
+  "Nizzik": {
+   "classic": "Nizzik",
+   "forever": "Nizzik",
+   "use": "Nizzik"
+  },
+  "Nogg": {
+   "classic": "Nogg",
+   "forever": "Nogg",
+   "use": "Nogg"
+  },
+  "Noggle Ficklespragg": {
+   "classic": "Noggle Ficklespragg",
+   "forever": "Noggle Ficklespragg",
+   "use": "Noggle Ficklespragg"
   },
   "Ol' Sooty": {
    "classic": "Old Sooty",
@@ -1829,10 +2558,20 @@
    "forever": "Onyxia",
    "use": "Onyxia"
   },
+  "Orwin Gizzmick": {
+   "classic": "Orwin Gizzmick",
+   "forever": "Orwin Gizzmick",
+   "use": "Orwin Gizzmick"
+  },
   "Ossirian the Unscarred": {
    "classic": "Ossirian der Narbenlose",
    "forever": "Ossirian der Narbenlose",
    "use": "Ossirian der Narbenlose"
+  },
+  "Overseer Glibby": {
+   "classic": "Vorarbeiter Glibby",
+   "forever": "Vorarbeiter Glibby",
+   "use": "Vorarbeiter Glibby"
   },
   "Overseer Maltorius": {
    "classic": "Aufseher Maltorius",
@@ -1849,10 +2588,35 @@
    "forever": "Parqual Fintallas",
    "use": "Parqual Fintallas"
   },
+  "Pikkle": {
+   "classic": "Pikkle",
+   "forever": "Pikkle",
+   "use": "Pikkle"
+  },
   "Pilot Stonegear": {
    "classic": "Pilot Stonegear",
    "forever": "Pilot Stonegear",
    "use": "Pilot Stonegear"
+  },
+  "Pixel": {
+   "classic": "Pixel",
+   "forever": "Pixel",
+   "use": "Pixel"
+  },
+  "Piznik": {
+   "classic": "Piznik",
+   "forever": "Piznik",
+   "use": "Piznik"
+  },
+  "Pizznukle": {
+   "classic": "Pizznukle",
+   "forever": "Pizznukle",
+   "use": "Pizznukle"
+  },
+  "Pozzik": {
+   "classic": "Pozzik",
+   "forever": "Pozzik",
+   "use": "Pozzik"
   },
   "Priestess A'moora": {
    "classic": "Priesterin A'moora",
@@ -1884,6 +2648,16 @@
    "forever": "Prinzessin Moira Bronzebeard",
    "use": "Prinzessin Moira Bronzebeard"
   },
+  "Princess Theradras": {
+   "classic": "Prinzessin Theradras",
+   "forever": "Prinzessin Theradras",
+   "use": "Prinzessin Theradras"
+  },
+  "Private Hendel": {
+   "classic": "Gefreiter Hendel",
+   "forever": "Gefreiter Hendel",
+   "use": "Gefreiter Hendel"
+  },
   "Prospector Ironband": {
    "classic": "Ausgrabungsleiter Ironband",
    "forever": "Ausgrabungsleiter Ironband",
@@ -1914,15 +2688,40 @@
    "forever": "Ausgrabungsleiter Whelgar",
    "use": "Ausgrabungsleiter Whelgar"
   },
+  "Qia": {
+   "classic": "Qia",
+   "forever": "Qia",
+   "use": "Qia"
+  },
+  "Qixdi Goodstitch": {
+   "classic": "Qixdi Goodstitch",
+   "forever": "Qixdi Goodstitch",
+   "use": "Qixdi Goodstitch"
+  },
+  "Qizzik": {
+   "classic": "Qizzik",
+   "forever": "Qizzik",
+   "use": "Qizzik"
+  },
   "Quel'Lithien Protector": {
    "classic": "Beschützer von Quel'Lithien",
    "forever": "Beschützer von Quel'Lithien",
    "use": "Beschützer von Quel'Lithien"
   },
+  "Quinn": {
+   "classic": "Quinn",
+   "forever": "Quinn",
+   "use": "Quinn"
+  },
   "Quinn Yorick": {
    "classic": "Quinn Yorick",
    "forever": "Quinn Yorick",
    "use": "Quinn Yorick"
+  },
+  "Quixxil": {
+   "classic": "Quixxil",
+   "forever": "Quixxil",
+   "use": "Quixxil"
   },
   "Raene Wolfrunner": {
    "classic": "Raene Wolfrunner",
@@ -1934,15 +2733,30 @@
    "forever": "Ragnaros",
    "use": "Ragnaros"
   },
+  "Ran Bloodtooth": {
+   "classic": "Ran Blutreißer",
+   "forever": "Ran Blutreißer",
+   "use": "Ran Blutreißer"
+  },
   "Rane Yorick": {
    "classic": "Rane Yorick",
    "forever": "Rane Yorick",
    "use": "Rane Yorick"
   },
+  "Ranik": {
+   "classic": "Ranik",
+   "forever": "Ranik",
+   "use": "Ranik"
+  },
   "Ras Frostwhisper": {
    "classic": "Ras Frostraunen",
    "forever": "Ras Frostraunen",
    "use": "Ras Frostraunen"
+  },
+  "Ratchet Bruiser": {
+   "classic": "Haudrauf von Ratchet",
+   "forever": "Haudrauf von Ratchet",
+   "use": "Haudrauf von Ratchet"
   },
   "Rattlecage Soldier": {
    "classic": "Klappernder Skelettsoldat",
@@ -1959,15 +2773,30 @@
    "forever": "Stacheleber der Grimmhauer",
    "use": "Stacheleber der Grimmhauer"
   },
+  "Razzeric": {
+   "classic": "Razzeric",
+   "forever": "Razzeric",
+   "use": "Razzeric"
+  },
   "Red Dragonspawn": {
    "classic": "Rotdrachenbrut",
    "forever": "Rotdrachenbrut",
    "use": "Rotdrachenbrut"
   },
+  "Reggifuz": {
+   "classic": "Reggifuz",
+   "forever": "Reggifuz",
+   "use": "Reggifuz"
+  },
   "Reginald Windsor": {
    "classic": "Reginald Windsor",
    "forever": "Reginald Windsor",
    "use": "Reginald Windsor"
+  },
+  "Renzik \"The Shiv\"": {
+   "classic": "Renzik \"Das Messer\"",
+   "forever": "Renzik \"Das Messer\"",
+   "use": "Renzik \"Das Messer\""
   },
   "Rethiel the Greenwarden": {
    "classic": "Rethiel der Sumpfhüter",
@@ -1979,10 +2808,55 @@
    "forever": "Rexxar",
    "use": "Rexxar"
   },
+  "Rezlak": {
+   "classic": "Rezlak",
+   "forever": "Rezlak",
+   "use": "Rezlak"
+  },
+  "Ribbly Screwspigot": {
+   "classic": "Ribbly Screwspigot",
+   "forever": "Ribbly Screwspigot",
+   "use": "Ribbly Screwspigot"
+  },
+  "Rickle Goldgrubber": {
+   "classic": "Rickle Goldgrubber",
+   "forever": "Rickle Goldgrubber",
+   "use": "Rickle Goldgrubber"
+  },
+  "Rigger Gizelton": {
+   "classic": "Rigger Gizelton",
+   "forever": "Rigger Gizelton",
+   "use": "Rigger Gizelton"
+  },
+  "Riggle Bassbait": {
+   "classic": "Riggle Bassbait",
+   "forever": "Riggle Bassbait",
+   "use": "Riggle Bassbait"
+  },
+  "Rigglefuzz": {
+   "classic": "Rigglefuzz",
+   "forever": "Rigglefuzz",
+   "use": "Rigglefuzz"
+  },
+  "Rikqiz": {
+   "classic": "Rikqiz",
+   "forever": "Rikqiz",
+   "use": "Rikqiz"
+  },
+  "Rilli Greasygob": {
+   "classic": "Rilli Greasygob",
+   "forever": "Rilli Greasygob",
+   "use": "Rilli Greasygob"
+  },
   "Rimblat Earthshatter": {
    "classic": "Rimblat Erdspalter",
    "forever": "Rimblat Erdspalter",
    "use": "Rimblat Erdspalter"
+  },
+  "Ringo": {
+   "classic": "Ringo",
+   "forever": "Ringo",
+   "use": "Ringo"
   },
   "Rivern Frostwind": {
    "classic": "Rivern Frostwind",
@@ -1994,15 +2868,35 @@
    "forever": "Gnoll der Flusspfoten",
    "use": "Gnoll der Flusspfoten"
   },
+  "Riznek": {
+   "classic": "Riznek",
+   "forever": "Riznek",
+   "use": "Riznek"
+  },
+  "Rock Elemental": {
+   "classic": "Felselementar",
+   "forever": "Felselementar",
+   "use": "Felselementar"
+  },
   "Rockjaw Trogg": {
    "classic": "Trogg der Felsenkiefer",
    "forever": "Trogg der Felsenkiefer",
    "use": "Trogg der Felsenkiefer"
   },
+  "Roxxik": {
+   "classic": "Roxxik",
+   "forever": "Roxxik",
+   "use": "Roxxik"
+  },
   "Royal Historian Archesonus": {
    "classic": "Königliche Historikerin Archesonus",
    "forever": "Königliche Historikerin Archesonus",
    "use": "Königliche Historikerin Archesonus"
+  },
+  "Rumsen Fizzlebrack": {
+   "classic": "Rumsen Fizzlebrack",
+   "forever": "Rumsen Fizzlebrack",
+   "use": "Rumsen Fizzlebrack"
   },
   "Ruul Eagletalon": {
    "classic": "Ruul Eagletalon",
@@ -2034,10 +2928,25 @@
    "forever": "Scharlachroter Krieger",
    "use": "Scharlachroter Krieger"
   },
+  "Scooty": {
+   "classic": "Scooty",
+   "forever": "Scooty",
+   "use": "Scooty"
+  },
   "Seasoned Sentinel": {
    "classic": "Erfahrene Schildwache",
    "forever": "Erfahrene Schildwache",
    "use": "Erfahrene Schildwache"
+  },
+  "Security Chief Bilgewhizzle": {
+   "classic": "Sicherheitchef Bilgewhizzle",
+   "forever": "Sicherheitchef Bilgewhizzle",
+   "use": "Sicherheitchef Bilgewhizzle"
+  },
+  "Senior Surveyor Fizzledowser": {
+   "classic": "Leitender Feldmesser Fizzledowser",
+   "forever": "Leitender Feldmesser Fizzledowser",
+   "use": "Leitender Feldmesser Fizzledowser"
   },
   "Sentinel Amarassan": {
    "classic": "Schildwache Amarassan",
@@ -2179,6 +3088,21 @@
    "forever": "Zelot der Shen'dralar",
    "use": "Zelot der Shen'dralar"
   },
+  "Shizzle": {
+   "classic": "Shizzle",
+   "forever": "Shizzle",
+   "use": "Shizzle"
+  },
+  "Short John Mithril": {
+   "classic": "Short John Mithril",
+   "forever": "Short John Mithril",
+   "use": "Short John Mithril"
+  },
+  "Shreev": {
+   "classic": "Shreev",
+   "forever": "Shreev",
+   "use": "Shreev"
+  },
   "Silithid Swarmer": {
    "classic": "Silithidschwärmer",
    "forever": "Silithidschwärmer",
@@ -2209,6 +3133,21 @@
    "forever": "Skorn Whitecloud",
    "use": "Skorn Whitecloud"
   },
+  "Smeed Scrabblescrew": {
+   "classic": "Smeed Scrabblescrew",
+   "forever": "Smeed Scrabblescrew",
+   "use": "Smeed Scrabblescrew"
+  },
+  "Sneed": {
+   "classic": "Sneed",
+   "forever": "Sneed",
+   "use": "Sneed"
+  },
+  "Snurk Bucksquick": {
+   "classic": "Snurk Bucksquick",
+   "forever": "Snurk Bucksquick",
+   "use": "Snurk Bucksquick"
+  },
   "Son of Cenarius": {
    "classic": "Cenarius Sohn",
    "forever": "Cenarius Sohn",
@@ -2219,15 +3158,65 @@
    "forever": "Brigant der Südmeerfreibeuter",
    "use": "Brigant der Südmeerfreibeuter"
   },
+  "Sovik": {
+   "classic": "Sovik",
+   "forever": "Sovik",
+   "use": "Sovik"
+  },
+  "Spark Nilminer": {
+   "classic": "Spark Nilminer",
+   "forever": "Spark Nilminer",
+   "use": "Spark Nilminer"
+  },
+  "Spigot Operator Luglunket": {
+   "classic": "Leitungshahnmaschinist Luglunket",
+   "forever": "Leitungshahnmaschinist Luglunket",
+   "use": "Leitungshahnmaschinist Luglunket"
+  },
   "Spirit of Azuregos": {
    "classic": "Geist von Azuregos",
    "forever": "Geist von Azuregos",
    "use": "Geist von Azuregos"
   },
+  "Spraggle Frock": {
+   "classic": "Spraggle Frock",
+   "forever": "Spraggle Frock",
+   "use": "Spraggle Frock"
+  },
+  "Sprinkle": {
+   "classic": "Sprinkle",
+   "forever": "Sprinkle",
+   "use": "Sprinkle"
+  },
+  "Sprogger": {
+   "classic": "Sprogger",
+   "forever": "Sprogger",
+   "use": "Sprogger"
+  },
+  "Sprok": {
+   "classic": "Sprok",
+   "forever": "Sprok",
+   "use": "Sprok"
+  },
+  "Sputtervalve": {
+   "classic": "Sputtervalve",
+   "forever": "Sputtervalve",
+   "use": "Sputtervalve"
+  },
+  "Squibby Overspeck": {
+   "classic": "Squibby Overspeck",
+   "forever": "Squibby Overspeck",
+   "use": "Squibby Overspeck"
+  },
   "Stalvan Mistmantle": {
    "classic": "Stalvan Mistmantle",
    "forever": "Stalvan Mistmantle",
    "use": "Stalvan Mistmantle"
+  },
+  "Steamwheedle Bruiser": {
+   "classic": "Haudrauf des Steamwheedle-Kartells",
+   "forever": "Haudrauf des Steamwheedle-Kartells",
+   "use": "Haudrauf des Steamwheedle-Kartells"
   },
   "Stitches": {
    "classic": "Kleiner",
@@ -2248,6 +3237,16 @@
    "forever": "Myrmidone der Sturmschuppen",
    "use": "Myrmidone der Sturmschuppen"
   },
+  "Supervisor Fizsprocket": {
+   "classic": "Vorsteher Fizsprocket",
+   "forever": "Vorsteher Fizsprocket",
+   "use": "Vorsteher Fizsprocket"
+  },
+  "Supervisor Lugwizzle": {
+   "classic": "Vorsteher Lugwizzle",
+   "forever": "Vorsteher Lugwizzle",
+   "use": "Vorsteher Lugwizzle"
+  },
   "Sven Yorgen": {
    "classic": "Sven Yorgen",
    "forever": "Sven Yorgen",
@@ -2257,6 +3256,11 @@
    "classic": "Schleicher des Syndikats",
    "forever": "Schleicher des Syndikats",
    "use": "Schleicher des Syndikats"
+  },
+  "Synge": {
+   "classic": "Synge",
+   "forever": "Synge",
+   "use": "Synge"
   },
   "Taerar": {
    "classic": "Taerar",
@@ -2361,6 +3365,26 @@
    "forever": "Holzbieger der Holzschlundfeste",
    "use": "Holzbieger der Holzschlundfeste"
   },
+  "Tinkee Steamboil": {
+   "classic": "Tinkee Steamboil",
+   "forever": "Tinkee Steamboil",
+   "use": "Tinkee Steamboil"
+  },
+  "Tinkerer Gizlock": {
+   "classic": "Tüftler Gizlock",
+   "forever": "Tüftler Gizlock",
+   "use": "Tüftler Gizlock"
+  },
+  "Tinkerer Sniggles": {
+   "classic": "Tüftler Sniggles",
+   "forever": "Tüftler Sniggles",
+   "use": "Tüftler Sniggles"
+  },
+  "Tinkerwiz": {
+   "classic": "Tinkerwiz",
+   "forever": "Tinkerwiz",
+   "use": "Tinkerwiz"
+  },
   "Tirion Fordring": {
    "classic": "Tirion Fordring",
    "forever": "Tirion Fordring",
@@ -2371,15 +3395,40 @@
    "forever": "Tommy Joe Stonefield",
    "use": "Tommy Joe Stonefield"
   },
+  "Tran'rek": {
+   "classic": "Tran'rek",
+   "forever": "Tran'rek",
+   "use": "Tran'rek"
+  },
+  "Twiggy Flathead": {
+   "classic": "Twiggy Flathead",
+   "forever": "Twiggy Flathead",
+   "use": "Twiggy Flathead"
+  },
   "Twilight Acolyte": {
    "classic": "Twilight-Akolyth",
    "forever": "Twilight-Akolyth",
    "use": "Twilight-Akolyth"
   },
+  "Twizwick Sprocketgrind": {
+   "classic": "Twizwick Sprocketgrind",
+   "forever": "Twizwick Sprocketgrind",
+   "use": "Twizwick Sprocketgrind"
+  },
   "Tyrande Whisperwind": {
    "classic": "Tyrande Whisperwind",
    "forever": "Tyrande Whisperwind",
    "use": "Tyrande Whisperwind"
+  },
+  "Umaron Stragarelm": {
+   "classic": "Umaron Stragarelm",
+   "forever": "Umaron Stragarelm",
+   "use": "Umaron Stragarelm"
+  },
+  "Umi Rumplesnicker": {
+   "classic": "Umi Rumplesnicker",
+   "forever": "Umi Rumplesnicker",
+   "use": "Umi Rumplesnicker"
   },
   "Ur'dan": {
    "classic": "Ur'dan",
@@ -2425,25 +3474,105 @@
    "forever": "Varo'thens Geist",
    "use": "Varo'thens Geist"
   },
+  "Vazario Linkgrease": {
+   "classic": "Vazario Linkgrease",
+   "forever": "Vazario Linkgrease",
+   "use": "Vazario Linkgrease"
+  },
+  "Veenix": {
+   "classic": "Veenix",
+   "forever": "Veenix",
+   "use": "Veenix"
+  },
   "Velinde Starsong": {
    "classic": "Velinde Starsong",
    "forever": "Velinde Starsong",
    "use": "Velinde Starsong"
+  },
+  "Venture Co. Foreman": {
+   "classic": "Großknecht der Venture Co.",
+   "forever": "Großknecht der Venture Co.",
+   "use": "Großknecht der Venture Co."
+  },
+  "Venture Co. Geologist": {
+   "classic": "Geologe der Venture Co.",
+   "forever": "Geologe der Venture Co.",
+   "use": "Geologe der Venture Co."
+  },
+  "Venture Co. Lookout": {
+   "classic": "Ausguck der Venture Co.",
+   "forever": "Ausguck der Venture Co.",
+   "use": "Ausguck der Venture Co."
+  },
+  "Venture Co. Lumberjack": {
+   "classic": "Holzfäller der Venture Co.",
+   "forever": "Holzfäller der Venture Co.",
+   "use": "Holzfäller der Venture Co."
+  },
+  "Venture Co. Mechanic": {
+   "classic": "Mechaniker der Venture Co.",
+   "forever": "Mechaniker der Venture Co.",
+   "use": "Mechaniker der Venture Co."
+  },
+  "Venture Co. Miner": {
+   "classic": "Minenarbeiter der Venture Co.",
+   "forever": "Minenarbeiter der Venture Co.",
+   "use": "Minenarbeiter der Venture Co."
+  },
+  "Venture Co. Patroller": {
+   "classic": "Patrouille der Venture Co.",
+   "forever": "Patrouille der Venture Co.",
+   "use": "Patrouille der Venture Co."
   },
   "Venture Co. Strip Miner": {
    "classic": "Akkordminenarbeiter der Venture Co.",
    "forever": "Akkordminenarbeiter der Venture Co.",
    "use": "Akkordminenarbeiter der Venture Co."
   },
+  "Venture Co. Surveyor": {
+   "classic": "Feldmesser der Venture Co.",
+   "forever": "Feldmesser der Venture Co.",
+   "use": "Feldmesser der Venture Co."
+  },
+  "Venture Co. Tinkerer": {
+   "classic": "Tüftler der Venture Co.",
+   "forever": "Tüftler der Venture Co.",
+   "use": "Tüftler der Venture Co."
+  },
+  "Venture Co. Workboss": {
+   "classic": "Arbeitsleiter der Venture Co.",
+   "forever": "Arbeitsleiter der Venture Co.",
+   "use": "Arbeitsleiter der Venture Co."
+  },
+  "Verifonix": {
+   "classic": "Verifonix",
+   "forever": "Verifonix",
+   "use": "Verifonix"
+  },
   "Veteran Sentinel": {
    "classic": "Schildwachenveteran",
    "forever": "Schildwachenveteran",
    "use": "Schildwachenveteran"
   },
+  "Vexspindle": {
+   "classic": "Vexspindle",
+   "forever": "Vexspindle",
+   "use": "Vexspindle"
+  },
   "Vile Priestess Hexx": {
    "classic": "Üble Priesterin Hexx",
    "forever": "Üble Priesterin Hexx",
    "use": "Üble Priesterin Hexx"
+  },
+  "Viznik Goldgrubber": {
+   "classic": "Viznik Goldgrubber",
+   "forever": "Viznik Goldgrubber",
+   "use": "Viznik Goldgrubber"
+  },
+  "Vizzklick": {
+   "classic": "Vizzklick",
+   "forever": "Vizzklick",
+   "use": "Vizzklick"
   },
   "Vol'jin": {
    "classic": "Vol'jin",
@@ -2470,6 +3599,16 @@
    "forever": "Kriegsherr Krellian",
    "use": "Kriegsherr Krellian"
   },
+  "Washte Pawne": {
+   "classic": "Washte Pawne",
+   "forever": "Washte Pawne",
+   "use": "Washte Pawne"
+  },
+  "Weegli Blastfuse": {
+   "classic": "Weegli Lunte",
+   "forever": "Weegli Lunte",
+   "use": "Weegli Lunte"
+  },
   "Weldon Barov": {
    "classic": "Weldon Barov",
    "forever": "Weldon Barov",
@@ -2480,6 +3619,26 @@
    "forever": "Wendigo",
    "use": "Wendigo"
   },
+  "Wenikee Boltbucket": {
+   "classic": "Wenikee Boltbucket",
+   "forever": "Wenikee Boltbucket",
+   "use": "Wenikee Boltbucket"
+  },
+  "Wharfmaster Dizzywig": {
+   "classic": "Werftmeister Dizzywig",
+   "forever": "Werftmeister Dizzywig",
+   "use": "Werftmeister Dizzywig"
+  },
+  "Wharfmaster Lozgil": {
+   "classic": "Werftmeister Lozgil",
+   "forever": "Werftmeister Lozgil",
+   "use": "Werftmeister Lozgil"
+  },
+  "Wigcik": {
+   "classic": "Wigcik",
+   "forever": "Wigcik",
+   "use": "Wigcik"
+  },
   "Wildhammer Sentry": {
    "classic": "Wachposten der Wildhammer",
    "forever": "Wachposten der Wildhammer",
@@ -2489,6 +3648,11 @@
    "classic": "William Pestle",
    "forever": "William Pestle",
    "use": "William Pestle"
+  },
+  "Willix the Importer": {
+   "classic": "Willix der Importeur",
+   "forever": "Willix der Importeur",
+   "use": "Willix der Importeur"
   },
   "Windfury Harpy": {
    "classic": "Harpyie der Windfurien",
@@ -2505,10 +3669,45 @@
    "forever": "Troll der Witherbark",
    "use": "Troll der Witherbark"
   },
+  "Wixxrak": {
+   "classic": "Wixxrak",
+   "forever": "Wixxrak",
+   "use": "Wixxrak"
+  },
+  "Wizlo Bearingshiner": {
+   "classic": "Wizlo Bearingshiner",
+   "forever": "Wizlo Bearingshiner",
+   "use": "Wizlo Bearingshiner"
+  },
+  "Wrenix the Wretched": {
+   "classic": "Wrenix der Jämmerliche",
+   "forever": "Wrenix der Jämmerliche",
+   "use": "Wrenix der Jämmerliche"
+  },
+  "Wrinkle Goodsteel": {
+   "classic": "Wrinkle Goodsteel",
+   "forever": "Wrinkle Goodsteel",
+   "use": "Wrinkle Goodsteel"
+  },
   "Xavian Betrayer": {
    "classic": "Verräter von Xavian",
    "forever": "Verräter von Xavian",
    "use": "Verräter von Xavian"
+  },
+  "Xizk Goodstitch": {
+   "classic": "Xizk Goodstitch",
+   "forever": "Xizk Goodstitch",
+   "use": "Xizk Goodstitch"
+  },
+  "Xizzer Fizzbolt": {
+   "classic": "Xizzer Fizzbolt",
+   "forever": "Xizzer Fizzbolt",
+   "use": "Xizzer Fizzbolt"
+  },
+  "Yorba Screwspigot": {
+   "classic": "Yorba Screwspigot",
+   "forever": "Yorba Screwspigot",
+   "use": "Yorba Screwspigot"
   },
   "Young Wendigo": {
    "classic": "Junger Wendigo",
@@ -2525,10 +3724,55 @@
    "forever": "Ysondre",
    "use": "Ysondre"
   },
+  "Yuka Screwspigot": {
+   "classic": "Yuka Screwspigot",
+   "forever": "Yuka Screwspigot",
+   "use": "Yuka Screwspigot"
+  },
+  "Zamek": {
+   "classic": "Zamek",
+   "forever": "Zamek",
+   "use": "Zamek"
+  },
   "Zanzil the Outcast": {
    "classic": "Zanzil der Ausgestoßene",
    "forever": "Zanzil der Ausgestoßene",
    "use": "Zanzil der Ausgestoßene"
+  },
+  "Zap Farflinger": {
+   "classic": "Zap Farflinger",
+   "forever": "Zap Farflinger",
+   "use": "Zap Farflinger"
+  },
+  "Zapetta": {
+   "classic": "Zapetta",
+   "forever": "Zapetta",
+   "use": "Zapetta"
+  },
+  "Zikkel": {
+   "classic": "Zikkel",
+   "forever": "Zikkel",
+   "use": "Zikkel"
+  },
+  "Zixil": {
+   "classic": "Zixil",
+   "forever": "Zixil",
+   "use": "Zixil"
+  },
+  "Ziz Fizziks": {
+   "classic": "Ziz Fizziks",
+   "forever": "Ziz Fizziks",
+   "use": "Ziz Fizziks"
+  },
+  "Zizzek": {
+   "classic": "Zizzek",
+   "forever": "Zizzek",
+   "use": "Zizzek"
+  },
+  "Zorbin Fandazzle": {
+   "classic": "Zorbin Fandazzle",
+   "forever": "Zorbin Fandazzle",
+   "use": "Zorbin Fandazzle"
   }
  },
  "peoples": {
@@ -2589,6 +3833,11 @@
   }
  },
  "places": {
+  "Addle's Stead": {
+   "classic": "Addles Siedlung",
+   "forever": "Addles Siedlung",
+   "use": "Addles Siedlung"
+  },
   "Aerie Peak": {
    "classic": "Aerie Peak",
    "forever": "Aerie Peak",
@@ -3080,6 +4329,10 @@
    "forever": "Everlook",
    "use": "Everlook"
   },
+  "Excavation Site: Wetlands": {
+   "forever": "Ausgrabungsstätte: Sumpfland",
+   "use": "Ausgrabungsstätte: Sumpfland"
+  },
   "Falaath Village": {
    "forever": "Falaath",
    "use": "Falaath"
@@ -3375,6 +4628,11 @@
    "forever": "Der Immerruhsee",
    "use": "Der Immerruhsee"
   },
+  "Lake Falathim": {
+   "classic": "Falathimsee",
+   "forever": "Falathimsee",
+   "use": "Falathimsee"
+  },
   "Lake Kel'Theril": {
    "classic": "Kel'Therilsee",
    "forever": "Kel'Therilsee",
@@ -3428,6 +4686,14 @@
   "Lordamere Overlook": {
    "forever": "Warte Lordamere",
    "use": "Warte Lordamere"
+  },
+  "Lost Dig Site": {
+   "forever": "Vergessene Ausgrabungsstätte",
+   "use": "Vergessene Ausgrabungsstätte"
+  },
+  "Lost Marsh": {
+   "forever": "Verlorener Marsch",
+   "use": "Verlorener Marsch"
   },
   "Lushwater Oasis": {
    "classic": "Die blühende Oase",
@@ -3532,6 +4798,11 @@
    "classic": "Mulgore",
    "forever": "Mulgore",
    "use": "Mulgore"
+  },
+  "Mystral Lake": {
+   "classic": "Mystralsee",
+   "forever": "Mystralsee",
+   "use": "Mystralsee"
   },
   "Naxxramas": {
    "classic": "Naxxramas",
@@ -3907,6 +5178,10 @@
    "forever": "Silberwald",
    "use": "Silberwald"
   },
+  "Site of the Guardian": {
+   "forever": "Stätte des Wächters",
+   "use": "Stätte des Wächters"
+  },
   "Skull Rock": {
    "classic": "Die Knochenhöhle",
    "forever": "Die Knochenhöhle",
@@ -3945,6 +5220,10 @@
    "classic": "Splintertreeposten",
    "forever": "Splintertreeposten",
    "use": "Splintertreeposten"
+  },
+  "Stalker's Thicket": {
+   "forever": "Pirscherdickicht",
+   "use": "Pirscherdickicht"
   },
   "Starfall Village": {
    "classic": "Starfall",
@@ -4174,6 +5453,11 @@
    "classic": "Die vergessenen Teiche",
    "forever": "Die Vergessenen Teiche",
    "use": "Die Vergessenen Teiche"
+  },
+  "The Forlorn Cavern": {
+   "classic": "Das düstere Viertel",
+   "forever": "Das düstere Viertel",
+   "use": "Das düstere Viertel"
   },
   "The Frozen Throne": {
    "forever": "Der Frostthron",
@@ -4515,6 +5799,11 @@
    "forever": "Der Turm von Ilgalar",
    "use": "Der Turm von Ilgalar"
   },
+  "Trade District": {
+   "classic": "Der Handelsdistrikt",
+   "forever": "Der Handelsdistrikt",
+   "use": "Der Handelsdistrikt"
+  },
   "Twilight Grove": {
    "classic": "Der Zwielichtshain",
    "forever": "Zwielichtshain",
@@ -4637,6 +5926,11 @@
    "classic": "Whelgars Ausgrabungsstätte",
    "forever": "Whelgars Ausgrabungsstätte",
    "use": "Whelgars Ausgrabungsstätte"
+  },
+  "Whitereach Post": {
+   "classic": "Weißgipfelposten",
+   "forever": "Weißgipfelposten",
+   "use": "Weißgipfelposten"
   },
   "Windshear Crag": {
    "classic": "Die Scherwindklippe",

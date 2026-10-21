@@ -124,7 +124,7 @@ Not paged: Grizzlepaw Ridge, Silver Stream Mine, Stoutlager Inn. Rares without
 a story: Boss Galgosh, Magosh, Grizlak, Lord Condar, Shanda the Spinner, Emogg
 the Crusher, Large Loch Crocolisk.
 
-## Chapter 3: The Wetlands (10 pages, all written)
+## Chapter 3: The Wetlands (12 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -138,6 +138,7 @@ the Crusher, Large Loch Crocolisk.
 | ✅ The Red Dragonflight | creature | killing a dragonkin of Grim Batol (1045–1050) |
 | ✅ Whelgar's Excavation Site | place | Whelgar's Excavation Site (118) |
 | ✅ The Mosshide Gnolls | faction | any Mosshide kill (1007–1014); Mosshide Fen (1020) |
+| ✅ Excavation Site: Wetlands | place | Forever only: Lost Marsh, Stalker's Thicket, Site of the Guardian, Lost Dig Site; quests 95810, 95795: the dig above Whelgar's, the titan relics, the Dragonmaw and the Deathstalkers (the beta's texts, 21 October 2026) |
 | ✗ Ironbeard's Tomb | | dropped: no quest or source gives it a story |
 
 Not paged: Direforge Hill (Dragonmaw), Raptor Ridge, Bluegill Marsh, Black
@@ -225,7 +226,7 @@ Banks. Twilight Grove goes to The Dragons of Nightmare. Rares without a story:
 Lord Malathrom, Fenros, Lupos, Nefaru, Naraxis, Commander Felstrom. Met here,
 paged in Peoples and Powers: the worgen, the Defias, ogres.
 
-## Stranglethorn Vale (12 pages, all written)
+## Stranglethorn Vale (13 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -241,11 +242,11 @@ paged in Peoples and Powers: the worgen, the Defias, ogres.
 | ✅ Zul'Gurub | place | the raid (1977): the Atal'ai's city and Hakkar's return |
 | ✅ Hakkar the Soulflayer | figure | killing him (14834); quest The Heart of Hakkar (8183) |
 | ✅ The Zandalar Tribe | faction | Yojamba Isle (3357); talking to Molthor (14875) or Exzhal (14910) |
+| ✅ Zanzil the Outcast | figure | killing him (2534); quests Saving Yenniku (592), Zanzil's Secret (621) |
 
 Not paged: the naga coves, the Crystal Shore, Lake Nazferiti, Mosh'Ogg Mound
-(ogres), Venture Co. camps, Jaguero Isle, Nek'mani Wellspring, Zanzil's
-followers (no vanilla source for him), King Bangalash and the hunt trophies,
-King Mukla. Rares without a story: Mosh'Ogg Butcher, Scale Belly, Lord
+(ogres), Venture Co. camps, Jaguero Isle, Nek'mani Wellspring, King Bangalash
+and the hunt trophies, King Mukla. Rares without a story: Mosh'Ogg Butcher, Scale Belly, Lord
 Sakrasis, Gluggle, Roloch, Rippa, Kurmokk, Verifonix. Met here, paged in Peoples
 and Powers: the Venture Company, ogres, the Steamwheedle Cartel, naga, murlocs.
 
@@ -399,7 +400,7 @@ Quel'Lithien Lodge, Zul'Mashar and Mazra'Alor (forest trolls). Rares without a
 story: Duggan Wildhammer, Hed'mush, Thresh'jin, Zul'Brin, Hawkspear, Gish,
 Darkscythe, Deathspeaker Selendre, High General Abbendis.
 
-## The Badlands (5 pages, all written)
+## The Badlands (7 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -408,19 +409,22 @@ Darkscythe, Deathspeaker Selendre, High General Abbendis.
 | ✅ Hammertoe's Digsite | place | Hammertoe's Digsite (346); Agmond's End (345): the League at Uldaman's door |
 | ✅ Uldaman | place | the dungeon (1337); killing Archaedas (2748) |
 | ✅ The Platinum Discs | history | quest The Platinum Discs (2278): the titans, the earthen, and where dwarves came from |
+| ✅ Theldurin the Lost | figure | talking to him (2785): a Twilight's Hammer deserter, the cult's cells in Ironforge and the Undercity (quests 687, 709, 727-737, 968, 971, 1013) |
+| ✅ Angor Fortress | place | killing Ambassador Infernus (2745); quests Prospect of Faith (724), An Ambassador of Evil (762): Hammertoe's end, the Shadowforge's base (no area unlock: it would tell Hammertoe's death before Uldaman) |
 
-Not paged: Angor Fortress (Dark Irons), Lethlor Ravine, Apocryphan's Rest,
+Not paged: Lethlor Ravine, Apocryphan's Rest,
 Camp Kosh and the ogre camps, Mirage Flats, the Dustbowl. Rares without a
 story: Shadowforge Commander, Siege Golem, War Golem, Rumbler, Anathemus,
 Broken Tooth, Zaricotl, 7:XT.
 
-## Searing Gorge (3 pages, all written)
+## Searing Gorge (4 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
 | ✅ Searing Gorge | place | the zone (51) |
 | ✅ The Thorium Brotherhood | faction | Thorium Point (1446); reputation Thorium Brotherhood (59) friendly |
 | ✅ The Cauldron | place | The Cauldron (246); The Slag Pit (1443); Grimesilt Dig Site (247) |
+| ✅ The Suntara Stones | history | quest Rise, Obsidion! (3566); killing Lathoric the Black (8391) or Obsidion (8400): Dorius Stonetender's betrayal |
 
 Not paged: Firewatch Ridge, Blackchar Cave, Dustfire Valley, Tanner Camp, the
 Sea of Cinders. Rares without a story: Rekk'tilac, Smoldar, Faulty War Golem,
@@ -537,7 +541,7 @@ the Long Wash, Twilight Vale and Shore. Rares without a story: Strider
 Clutchmother, Shadowclaw, Lady Moongazer, Carnivous, Licillin, Firecaller
 Radison, Flagglemurk, Lady Vespira, Lord Sinslayer.
 
-## Ashenvale (7 pages, all written)
+## Ashenvale (9 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -549,9 +553,10 @@ Radison, Flagglemurk, Lady Vespira, Lord Sinslayer.
 | ✅ Blackfathom Deeps | place | the dungeon (719); killing Aku'mai (4829) |
 | ✗ The Shrine of Aessina | | dropped: no vanilla source gives it a story |
 | ✅ Warsong Gulch | place | the battleground (3277): the Silverwing Sentinels and the Warsong Outriders |
+| ✅ Dartol's Rod | history | quests Raene's Cleansing (1030, 1045); killing Ran Bloodtooth (3696): Teronis, the rod, Krolg's view of the corruption |
 
 Not paged: Raynewood Retreat, Maestra's Post, Silverwind Refuge, Forest Song,
-Zoram'gar Outpost, Lake Falathim, Mystral Lake, Fallen Sky Lake, Iris Lake, the
+Zoram'gar Outpost, Lake Falathim and Mystral Lake (in Dartol's Rod), Fallen Sky Lake, Iris Lake, the
 Ruins of Stardust and Ordil'Aran, Bathran's Haunt, the Howling Vale, Kargathia
 Keep, Night Run, the Dor'Danil Barrow Den. Bough Shadow goes to The Dragons of
 Nightmare. Rares without a story: Akkrilus, Terrowulf Packlord, Lady Vespia,
@@ -610,7 +615,7 @@ Wilderness, Thalanaar. Dream Bough goes to The Dragons of Nightmare. Rares
 without a story: Lady Szallah, Diamond Head, Bloodroar, Antilus, Arash-ethis,
 Qirot, Old Grizzlegut, Gnarl Leafbrother, Snarler.
 
-## Thousand Needles (4 pages, all written)
+## Thousand Needles (5 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -618,8 +623,9 @@ Qirot, Old Grizzlegut, Gnarl Leafbrother, Snarler.
 | ✅ Freewind Post | place | Freewind Post (484) |
 | ✅ The Shimmering Flats | place | The Shimmering Flats (439); Mirage Raceway (2240) |
 | ✅ The Rustmaul Dig Site | place | The Rustmaul Dig Site: a dwarven dig that broke into a silithid hive |
+| ✅ Arikara | creature | killing her (10882); quests Serpent Wild (4865), Arikara (5088): the serpent of vengeance, Magatha's warning |
 
-Not paged: the Great Lift, Highperch, Darkcloud Pinnacle (Grimtotem), Galak
+Not paged: the Great Lift, Highperch, Darkcloud Pinnacle (Grimtotem, its burial needle in Arikara), Galak
 Hold and Camp E'thok (centaurs), Splithoof, Roguefeather Den, the Screeching
 Canyon. Rares without a story: Achellios, Heartrazor, Ironeye, Vile Sting, Harb
 Foulmountain, Gibblesnik.
@@ -716,7 +722,7 @@ Brambleblade Ravine (quilboar). Magatha Grimtotem is in The Grimtotem. Rares
 without a story: Mazzranache, Sister Hatelash, Snagglespear,
 Enforcer Emilgund, The Rake.
 
-## The Barrens (13 pages, all written)
+## The Barrens (14 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -733,6 +739,7 @@ Enforcer Emilgund, The Rake.
 | ✅ Razorfen Kraul | place | the dungeon (491); killing Charlga Razorflank (4421) |
 | ✅ Razorfen Downs | place | the dungeon (722); killing Amnennar the Coldbringer (7358) |
 | ✅ Bael Modan | place | Bael Modan (359); Bael'dun Keep (2157) (the dwarves' dig) |
+| ✅ The Great Hunts | creature | killing Echeyakee (3475), Ishamuhale (3257), Lakota'mani (3474), Washte Pawne (3472) or Isha Awak (3476); their quests (881, 882, 883, 885, 873): the tauren's named beasts and what each teaches |
 
 Not paged: Honor's Stand, Far Watch Post, Thorn Hill, Blackthorn Ridge,
 Dreadmist Peak (the Burning Blade), the Field of Giants, the Sludge Fen and
@@ -742,13 +749,13 @@ story: the Alliance Outrunners, Brontus, Humar, Snort, Swiftmane, Thunderstomp,
 Azzere, Stonearm, Brokespear, Rocklance, Takk, Hagg Taurenbane, Gesharahan,
 Rathorian.
 
-The Barrens hold more stories than these thirteen pages: most of the peoples
+The Barrens hold more stories than these fourteen pages: most of the peoples
 met there (centaurs, quilboar, harpies, the Burning Blade, the Southsea
 Freebooters, silithid, the Venture Company) wander other zones too, so they're
 paged in Peoples and Powers. A traveller in the Barrens unlocks about twenty
 pages.
 
-## Dustwallow Marsh (7 pages, all written)
+## Dustwallow Marsh (8 pages, all written)
 
 | Page | Kind | Unlocks on |
 |---|---|---|
@@ -759,6 +766,7 @@ pages.
 | ✅ The Shady Rest Inn | history | Shady Rest Inn (403): the burned inn and Daelin's deserters |
 | ✅ Onyxia's Lair | place | the raid (2159); Wyrmbog (511) |
 | ✅ Onyxia | figure | killing her (10184) |
+| ✅ The Missing Diplomat | history | quests The Missing Diplomat (1324, 1267): the Stormwind chain that ends in Theramore, the king taken on his way there (nothing after: Lo'Gosh and who held him stay out) |
 
 Not paged: Alcaz Island, Witch Hill and Swamplight Manor, Stonemaul Ruins
 (ogres), Emberstrife's Den (in Onyxia), the Quagmire, Bloodfen Burrow, the
@@ -824,7 +832,7 @@ Azurous.
 
 ---
 
-# Peoples and Powers (32 pages, all written)
+# Peoples and Powers (58 pages, all written)
 
 Peoples and factions met in many zones. Each page lists every creature id of
 its people: the lists are compiled when the page is written (all Wowhead
@@ -865,6 +873,8 @@ they're met.
 | ✅ The Cenarion Circle | faction | talking to Keeper Remulos (11832) or Arch Druid Hamuul Runetotem (5769); reputation Cenarion Circle (609) friendly |
 | ✅ The Dragons of Nightmare | creature | killing (or targeting) Ysondre, Lethon, Emeriss or Taerar (14887–14890); Twilight Grove (856), Seradane (356), Dream Bough (1111) or Bough Shadow (438) |
 | ✅ The Burning Legion | faction | any kill of the Legion's ranks (ids in the appendix): Blasted Lands, Felwood, Ashenvale, Desolace, Azshara |
+| ✅ The Goblins | faction | targeting any goblin (229 ids, compiled from the creatures shown only with goblin models, holiday vendors left out): Kezan and Undermine, the Second War's sappers and zeppelins, the cartels |
+| ✅ The Elementals | creature | any kill of a fire, earth, air or water elemental (151 ids, hand-picked from the client's Elemental type: no treants, oozes, golems or swamp beasts) |
 
 ---
 

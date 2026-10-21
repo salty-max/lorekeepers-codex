@@ -3936,6 +3936,14 @@ ns.translate({
         { "Il mourut ici. Alors que la Horde était acculée au pic Rochenoire, Orgrim Doomhammer chargea avec ses lieutenants et rencontra les paladins de Lothar au milieu de ces plaines. Les deux combattirent jusqu'à épuisement, et Doomhammer le tua. Son lieutenant, Turalyon, ramassa le bouclier ensanglanté de Lothar et brisa la Horde dans la déroute qui suivit. L'expédition qui franchit plus tard la Porte des ténèbres partit sous le nom de Fils de Lothar." },
       },
     },
+    ["angor-fortress"] = {
+      title = "Forteresse d'Angor",
+      text = {
+        { "La Forteresse d'Angor est le repaire du clan Ombreforge dans les Terres ingrates, le donjon Sombrefer d'où ils creusent à Uldaman. Voilà longtemps qu'ils courent après les secrets des Titans, et ce qu'ils veulent par-dessus tout, c'est le savoir qui fait des golems plus puissants. Hammertoe Grez le cherchait lui aussi, pour qu'il ne tombe pas entre leurs mains, et lui et l'Historien Karnik, du Hall des explorateurs, cherchaient ensemble les artefacts perdus." },
+        { "Les Ombreforge emmenèrent Hammertoe dans Uldaman pour apprendre ce qu'il savait. Les secours que le Prospecteur Ryedol envoya après lui le trouvèrent mourant. Hammertoe ne demanda qu'une chose, son amulette, que Magregan Deepshadow lui avait prise et qui pouvait mener celui qui la portait aux parchemins qu'ils cherchaient tous. Une fois qu'on l'eut retrouvée, Hammertoe la fit porter à Ryedol, et Ryedol l'envoya à Karnik. Hammertoe cherchait l'origine de notre peuple, dit Ryedol, et arrêter les Ombreforge faisait partie du même ouvrage. Karnik alla consulter l'esprit de son vieux compagnon, et le Conseiller Belgrum, au nom du roi, ordonna de frapper Angor." },
+        { "Ragnaros lui-même, on l'apprit alors, avait envoyé un ambassadeur à Angor pour superviser les fouilles des Ombreforge. Quand l'Ambassadeur Infernus tomba, le clan perdit son lien avec le Pic Rochenoire. Belgrum envoya ensuite le voyageur suivant chercher le dernier rêve de Hammertoe, la Tablette de volonté, un morceau de pierre que les Titans auraient gravé de magie pour donner à leurs créations une volonté propre. Elle est partie chez les mages du roi, qui doivent dire si la légende tient. Hammertoe est mort pour elle sans jamais l'avoir vue." },
+      },
+    },
     ["arathi-basin"] = {
       title = "Le bassin Arathi",
       text = {
@@ -3973,6 +3981,14 @@ ns.translate({
         { "L'Aube d'argent recrute contre le Fléau dans l'Alliance comme dans la Horde. Ses chevaliers, ses prêtres et ses érudits demandent à un voyageur ce qu'il est prêt à combattre, plutôt que la bannière qu'il suit. Le seigneur Maxwell Tyrosus la dirige depuis la chapelle de l'Espoir de Lumière, dans les Maleterres de l'est." },
         { "Des officiers au camp du Noroît et à la Barricade délivrent des commissions et acceptent les pierres du Fléau que portent les morts. Des émissaires travaillent à Hurlevent, à Darnassus et à Long-guet. L'Aube a fait de sa guerre une cause que les gens des deux factions peuvent rejoindre." },
         { "Elle partage un ennemi avec la Croisade écarlate, mais guère d'affection pour ses méthodes. L'Aube tient la méfiance de la Croisade envers chaque étranger pour une aide au roi-liche. L'objection a son bon sens : ce combat a déjà bien assez d'ennemis." },
+      },
+    },
+    ["arikara"] = {
+      title = "Arikara",
+      text = {
+        { "Hagar Lightninghoof, au Poste de Librevent, voulait examiner un œuf que les serpents des canyons gardaient comme s'il était l'un des leurs. Quand on le lui apporta enfin, il n'eut besoin que d'un regard pour faire chercher Motega Firemane au Poste de Blanc-relais. La vengeance s'abattait sur les Mille pointes, dit Hagar, et Motega en convint : la légende d'Arikara était vraie." },
+        { "Arikara ne se traque pas, elle s'appelle. Le moyen en est le feu sacré de la vie, longtemps éteint à la Cime de Noir-nuage, sur la pointe isolée où l'on enterre les morts. On l'allume avec une poudre d'agave d'incendia, une herbe qui ne pousse nulle part ailleurs qu'aux Mille pointes. Motega envoya les herbes à Magatha Grimtotem, sur la Cime des Anciens à Thunder Bluff, pour qu'elle les enchante, et Magatha donna une raison de se hâter. Trop de coutumes taurens avaient changé, dit-elle, et elle craignait que cela n'ait mis Arikara en colère, et que le serpent ne traque Cairne Bloodhoof." },
+        { "Une fois l'affaire faite, Motega n'y comprenait rien. Pourquoi Arikara poursuivrait-elle Cairne ? Mais Magatha ne pouvait se tromper, décida-t-il. C'était, après tout, la plus puissante des chamans taurens. Il secoua la tête, et paya le chasseur malgré tout." },
       },
     },
     ["arthas-menethil"] = {
@@ -4430,6 +4446,14 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Chaque village des Terres de l'Est avait son Joseph Redpath. Comté-de-Darrow est celui dont les morts peuvent encore finir l'histoire autrement. Aidez-les, si vous le pouvez." },
       },
     },
+    ["dartols-rod"] = {
+      title = "Le Bâtonnet de Dartol",
+      text = {
+        { "Teronis, un ami de Raene Wolfrunner, aidait les Sentinelles d'Astranaar contre les furbolgs, et il croyait qu'un bâtonnet fabriqué par Dartol, un sorcier malfaisant mort depuis, pourrait ralentir leurs attaques. Il partit en chercher la gemme au sanctuaire d'une île du Lac Falathim et ne revint pas. On retrouva son corps là-bas, tailladé par des lames de murlocs, son journal encore sur lui." },
+        { "Grâce au journal et à une dryade nommée Shael'dryn, le bâtonnet fut rassemblé pièce par pièce : la gemme reprise aux murlocs, une pièce tirée d'un coffre dont un tréant corrompu portait la clé près de la lisière de Gangrebois, la dernière au Refuge des saisons de Dor'danil, chez les druides tués peu de temps auparavant. Reconstitué et rechargé dans un sanctuaire caché au creux des montagnes, le Bâtonnet de Dartol permet à qui le porte de prendre l'apparence d'un furbolg." },
+        { "Sous cette forme, un voyageur peut approcher Krolg, un furbolg rejeté par sa tribu et encore épargné par la gangremousse qui rend les autres fous. Il accuse les elfes de la nuit, dont l'orgueil, dit-il, a fait s'abattre la corruption sur son peuple. Mais il ne souhaite aucun mal aux enfants des elfes, et il n'excuse pas les siens pour autant, qui restent responsables de leurs actes. Ran Dent-rouge, que la corruption n'a fait que rendre plus fort, est le mal qu'il désigne, et il demande au voyageur sous forme de furbolg de l'abattre : les furbolgs, dit-il, doivent maintenir l'ordre chez les leurs. Raene plaça le crâne de Ran et le bâtonnet à la place d'honneur, pour Teronis. Krolg resta où il était, au sud-est du Lac Mystral, à regarder la nuit les feux de son ancienne tribu." },
+      },
+    },
     ["deadwind-pass"] = {
       title = "Défilé de Deuillevent",
       text = {
@@ -4674,6 +4698,14 @@ ns.translate({
         { "Pendant l'attaque de Thrall sur Stratholme, Tirion libéra Eitrigg. Devant la cité, Thrall lui demanda de l'aider à rendre à la Horde ses anciennes coutumes, et il accepta." },
       },
     },
+    ["elementals"] = {
+      title = "Les élémentaires",
+      text = {
+        { "Les élémentaires sont les plus vieux soldats du monde. Ils servaient les Dieux très anciens avant l'arrivée des Titans, et quand leurs maîtres furent enchaînés sous la terre, ils furent rejetés dans un plan bien à eux, où les seigneurs du feu, de la terre, de l'air et de l'eau poursuivent la guerre entre eux. Ce qu'un voyageur rencontre de ce côté-ci s'est en général glissé à travers, y a été traîné ou a été laissé derrière : la roche qui marche dans les Terres ingrates, un tourbillon lâché dans les Mille pointes ou dans les sables de Silithus, l'eau agitée des côtes de Strangleronce." },
+        { "Leurs cours sont aussi férues de rangs que celle de n'importe quel roi, avec princes, ducs et barons. Ragnaros, le seigneur du Feu, fut appelé dans le monde par un thane Sombrefer et ne l'a pas quitté. Il a consumé l'essence du Prince Thunderaan, l'un des seigneurs de l'air, et ses lieutenants gardent ce qu'il reste du prince dans des entraves. Les serviteurs de Neptulon le Chasseur des vagues haïssent le feu par-dessus tout : le Duc Hydraxis se fait des alliés parmi les mortels depuis son île au large d'Azshara, et un envoyé du Tribunal des marées, à la Retraite de Roche-Soleil, paie chaque élémentaire de feu éteint dans le Val calciné des Serres-Rocheuses. À Maraudon vit la Princesse Theradras, une force élémentaire de la terre que les druides disent liée aux Dieux très anciens. À Silithus, le Marteau du crépuscule invoque des nobles élémentaires et prend ses ordres auprès d'eux." },
+        { "Certains ne sont plus en état de servir qui que ce soit. La peste a perverti les élémentaires d'eau que les Seigneurs des eaux avaient envoyés dans les Maleterres de l'est, jusqu'à les rendre malades et furieux, et le Duc Hydraxis y voit un affront à leur pureté. Les chamans parlent aux éléments, et les éléments leur répondent. Nous autres, $gvoyageur:voyageuse;, recevons en général pour réponse un poing de pierre." },
+      },
+    },
     ["elune"] = {
       title = "Elune",
       text = {
@@ -4709,6 +4741,14 @@ ns.translate({
       text = {
         { "Long-guet est une ville gobeline au milieu du Berceau-de-l'Hiver, le port d'escale le plus au nord du cartel Gentepression, avec des murs, une auberge, une banque et une garde de cogneurs gobelins, où l'Alliance et la Horde commercent côte à côte. Il y fait plus chaud qu'on ne le croirait, et bien plus cher." },
         { "Tout le monde passe par Long-guet. L'Aube d'argent y a un représentant, la Confrérie du thorium un forgeron, et tous les chasseurs, explorateurs et érudits du nord y font halte pour se réchauffer les pieds." },
+      },
+    },
+    ["excavation-site-wetlands"] = {
+      title = "Excavations : les Paluns",
+      text = {
+        { "Le marais du Prospecteur Whelgar n'est pas la seule fouille des Paluns. Une équipe venue du Loch Modan est montée dans les collines qui le dominent, sur des terres où aucun nain n'avait jamais posé le pied, et y a trouvé des ruines, un second marais là-haut, avec ses raptors et des herbes plus hautes que tout ce que les fouilleurs avaient jamais vu, et dessous, quelque chose de bien plus ancien. Tous ne sont pas revenus. Dorin Songblade, le forgeron de Comté-du-Lac, envoya quelqu'un aux nouvelles de son frère Daewyn quand les lettres cessèrent, et la réponse fut un corps dans la fange. Ardin Grassman, de Menethil, monta voir les herbes et fut retrouvé vivant. Il envoya à sa femme un cœur tressé de roseaux pour lui dire qu'il rentrait." },
+        { "Ce que la fouille a mis au jour, ce sont des éclats d'une étrange pierre composite qui diffracte la lumière tel un prisme vivant, et des morceaux d'une machine faite de roche. Rethiel le Gouverneur vert sentit une énergie ancienne s'éveiller sous ces eaux et dit aux fouilleurs d'arrêter. Les reliques sont depuis parties dans trois directions : chez les anciens de la Cime des Anciens, à Thunder Bluff, chez le Cercle terrestre, qui dit qu'un éclat vibre de la voix du monde même et garde des souvenirs du passé, et dans notre propre Hall des explorateurs, où le Grand Explorateur Magellas assure que ces marques ne peuvent avoir été laissées que par les gardiens." },
+        { "D'autres l'ont remarqué. Les Dragonmaw s'y sont installés, espérant que l'endroit leur rendra leur puissance d'antan et la faveur de Rend Blackhand, et les Traqueurs noirs de la Dame noire les surveillent. Une machine des Titans, un clan de dresseurs de dragons et les espions des Réprouvés, le tout sur une même colline détrempée." },
       },
     },
     ["explorers-league"] = {
@@ -4965,6 +5005,14 @@ ns.translate({
         { "Un peuple sans foyer, et les exilés les plus joyeux que vous rencontrerez jamais. Les gnomes qui ont fui Gnomeregan vivent désormais à Brikabrok, au cœur de Forgefer, et dans des avant-postes comme le dépôt de Steelgrill, en vue de leurs anciennes portes." },
         { "Ne vous laissez pas tromper par leur gaieté. Chaque invention qu'ils essaient, chaque recrue qu'ils forment, prépare un seul jour : celui où ils marcheront sur Gnomeregan pour la reprendre." },
         { "Forgefer leur a offert un abri aussi longtemps qu'il le faudra. La plupart des nains apprécient leur compagnie, sinon leur vacarme." },
+      },
+    },
+    ["goblins"] = {
+      title = "Les gobelins",
+      text = {
+        { "Les gobelins surgissent partout où il y a de l'argent à gagner, c'est-à-dire presque partout : ils tiennent les ports neutres, creusent et abattent du bois pour la KapitalRisk, vendent des explosifs à quiconque a de quoi payer. Leur patrie est l'île de Kezan, dans les mers du sud, et leur capitale est Undermine, où les princes marchands qui les gouvernent font leurs affaires." },
+        { "L'île n'a pas toujours été la leur. Interrogez les trolls Zandalar, et vous entendrez que Kezan était autrefois un immense territoire de l'empire Zandalar, jusqu'à ce que, comme ils disent, la souillure des princes marchands gobelins les en chasse. Le récit le plus long veut que les trolls aient fait extraire aux gobelins un minerai étrange, la kaja'mite, du volcan de l'île, et que ce minerai ait aiguisé l'esprit des mineurs jusqu'à ce qu'ils prennent Kezan pour eux-mêmes. Je ne peux pas me porter garante du minerai. Je veux bien croire le reste." },
+        { "Pendant la Seconde Guerre, les gobelins vendirent à la Horde des sapeurs et des zeppelins, et se firent payer les deux. À la Troisième Guerre, ils avaient cessé de choisir un camp, et leurs marchands, leurs laboratoires et leurs chantiers navals servaient qui voulait. Cet arrangement leur convient toujours. Le Cartel Gentepression ouvre ses ports à l'Alliance comme à la Horde, la KapitalRisk dépouille toute terre que personne ne l'empêche de dépouiller, et un ingénieur gobelin préfère le genre d'appareil qui finit par une grosse détonation. Les ingénieurs de Gnomeregan y voient une différence de philosophie. Je soupçonne une différence de patience." },
       },
     },
     ["goldshire"] = {
@@ -6610,6 +6658,14 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Personne hors de Fossoyeuse ne saurait dire ce que nous voulons, écrit-elle. La plupart d'entre nous, à l'intérieur, ne le sauraient pas non plus. Moi, je veux savoir ce qu'on nous a fait, et l'écrire comme il faut." },
       },
     },
+    ["the-great-hunts"] = {
+      title = "Les grandes chasses",
+      text = {
+        { "Les taurens donnent des noms aux grandes bêtes des Tarides, et en chasser une est une leçon autant qu'une épreuve. Sergra Darkthorn lance les voyageurs sur ce chemin à la Croisée, puis Jorn Skyseer au Camp Taurajo et Mahren Skyseer, sur la côte au sud de Cabestan, les mènent plus loin. Je tiens le récit de ceux qui l'ont parcouru, et des noms taurens eux-mêmes, qui en disent plus que nos noms ne le feraient." },
+        { "Echeyakee, Blanchebrume, est le roi des lions des savanes, si discret à la chasse que ses proies n'ont le temps ni d'avoir peur ni de souffrir : à la fois la miséricorde et la mort, disent les taurens. Il a son repaire parmi les os des kodos géants, au nord-est de la Croisée, et répond à l'appel d'une corne. Ishamuhale, Lancecroc, est le plus redoutable des raptors solécaille des plaines, qui tue parce que sa nature est de tuer, et vient à la carcasse fraîche d'un zhévra laissée au pied d'un arbre mort. Lakota'mani, le Trembleterre, est un grand kodo dont les pas sont tels le tonnerre incarné. Washte Pawne, le Rongeur d'esprit, est un faucon-tonnerre dont la mort peut présager une grande fortune ou une grande malédiction, et dont la plume fait mal au toucher. Isha Awak, le Destin des profondeurs, est le seigneur des eaux du large, et les humains de cette côte ont de bonnes raisons de le craindre." },
+        { "Ce que le chasseur rapporte, c'est un croc, un sabot, une plume ou un cœur, et avec, disent les Skyseer, quelque chose de la bête : la force de la subtilité et l'honneur de la miséricorde, une force tenue avec tempérance, le courage, la sagesse en laquelle se change le regret, et des yeux qui, un jour, apprendront à voir. Nous autres nains chassons pour manger et pour nous en vanter. Je ne suis pas sûre que nous ayons jamais pensé à demander au sanglier ce qu'il avait à nous apprendre." },
+      },
+    },
     ["the-guardians-of-tirisfal"] = {
       title = "Les Gardiens de Tirisfal",
       text = {
@@ -6646,6 +6702,14 @@ ns.translate({
       text = {
         { "Les exilés du Havre boueux se nomment eux-mêmes draeneï. Avec leurs sabots et leurs tentacules, leur peau d'un bleu-gris, ils ne ressemblent à aucun des autres peuples qu'un voyageur rencontre d'ordinaire en Azeroth. Ils disent être venus du monde des orcs après un terrible voyage. Ceux du Havre boueux restent doux et disposés à parler." },
         { "D'autres vivent au sanctuaire des Friches et sont appelés les Perdus. Les exilés disent que le voyage a brisé leurs anciens frères. Ils attaquent ceux qui approchent et ont volé des cristaux que les exilés tiennent pour sacrés. Ces récits locaux nous apprennent peu de chose sur leur vie d'avant ou sur ce qui s'est passé avant leur arrivée ici. Je préfère laisser cette partie de la page ouverte plutôt que de leur fournir un passé qu'ils n'ont pas décrit." },
+      },
+    },
+    ["the-missing-diplomat"] = {
+      title = "Un diplomate a disparu",
+      text = {
+        { "Hurlevent dit que son roi a disparu. Quelques personnes en savent un peu plus, et la piste qu'elles ont suivie commence, chose peu banale, dans une fromagerie. L'Evêque DeLavey, au Donjon de Stormwind, fit savoir en toute discrétion qu'un diplomate envoyé auprès de Dame Jaina Proudmoore à Theramore n'était jamais arrivé, et qu'il soupçonnait les Défias. Son vieil ami Jorgen, dans la Vallée des héros, confia l'affaire à Elling Trias, un fromager du Quartier commerçant aux relations remarquablement étendues." },
+        { "La piste passa par une réunion des Défias à la Ferme des Addle, dans le Bois de la Pénombre, et par un bagarreur de la Vieille ville nommé Dashel Stonefist, puis remonta jusqu'au Port de Menethil, où un ancien agent devenu tavernier désigna un homme qui écoutait de trop près. Tapoke Jahn, dit Slim, livra le reste une fois battu. Les Défias n'avaient pas enlevé un diplomate. Ils avaient enlevé le roi, en route vers une rencontre secrète à Theramore. Le rôle de Slim avait été de faire monter leur homme à bord du navire du roi pendant qu'il était à quai : le Soldat Hendel, un homme de la garnison de Theramore même. Et les Défias, ajouta-t-il, travaillaient pour quelqu'un de plus gros qu'eux." },
+        { "Hendel fut trouvé de garde dans le marais, aux abords de Theramore, et ramené sur l'île pour y être interrogé. C'est là que s'arrête le récit. Le roi n'a pas été retrouvé, et celui pour qui travaillaient les Défias n'a pas été nommé. Hurlevent a toujours un enfant sur le trône et un régent à ses côtés." },
       },
     },
     ["the-ordering"] = {
@@ -6724,6 +6788,15 @@ ns.translate({
         { "À la fin, Malfurion comprit que le Puits lui-même était la porte de la Légion, et le Puits d'éternité fut détruit. Il se déchira et emporta avec lui le cœur du continent, et la mer s'engouffra dans le trou qu'il laissa. Azshara et ses Bien-nés sombrèrent avec leur palais. De ce rivage, la Grève fracassée, vous contemplez l'endroit où le monde s'est brisé." },
       },
     },
+    ["the-suntara-stones"] = {
+      title = "Les pierres de Suntara",
+      text = {
+        { "Les pierres de Suntara n'étaient qu'une rumeur de fouilleurs jusqu'à ce que Dorius Stonetender parte les chercher dans la Gorge des Vents brûlants. Un voyageur le trouva sur la route du retour, gravement blessé, suppliant qu'on le ramène chez lui à Forgefer. Une balle l'atteignit avant qu'ils n'y arrivent. Il laissait une lettre pour son frère, le Conservateur en chef Thorius du Hall des explorateurs. Les pierres existaient, disait-elle, les Sombrefer les avaient, et leur chef, Lathoric le Noir, se servait de leur pouvoir pour asservir l'équipe d'archéologues de Dorius. Les fouilleurs avaient été emmenés au Chaudron, où ils travaillaient nuit et jour pour achever une chose nommée Obsidion. Secourez-les, demandait la lettre. Elle était signée comme la dernière volonté d'un homme mort." },
+        { "Thorius sécha ses larmes et jura que la volonté de son frère serait exaucée. On retrouva les fouilleurs dans la Fosse aux scories, travaillant encore alors que leurs corps avaient lâché, tenus à la tâche par les pierres jusqu'à ce qu'une relique gardée par le Marteau du crépuscule soit posée sur l'Autel de Suntara. L'un d'eux vécut assez longtemps pour dire que tout cela n'était qu'un piège, et pour demander qu'on tue l'homme qui l'avait tendu, pour Thorius." },
+        { "La tête de Lathoric le Noir, quand on la rapporta au Hall, était celle de Dorius. Il avait mis en scène sa propre mort sur la route, et la lettre avec. Thorius en accusa le seigneur du Feu et les Dieux très anciens, dont l'emprise reste forte sur ces terres : si un nain aussi honorable que son frère avait pu être soumis à la volonté de Ragnaros, dit-il, personne n'était en sûreté." },
+        { "Relisez la lettre en sachant qui l'a écrite, $gvoyageur:voyageuse;. Presque chacune de ses lignes est vraie. Seule la signature ment." },
+      },
+    },
     ["the-temple-of-atalhakkar"] = {
       title = "Le temple d'Atal'Hakkar",
       text = {
@@ -6752,6 +6825,15 @@ ns.translate({
       text = {
         { "Les Sculpte-vents sont les shen'dorei qui restent fidèles aux esprits du vent. Ils descendent des premiers de leur peuple à avoir reçu le don de vision céleste des esprits, et ils entretenaient les instruments et les constructions que les esprits avaient laissés sur l'île. Ils ont juré de rembourser cette vieille dette : braver le plan élémentaire, retrouver leurs mentors disparus et les ramener. Leur grande voyante du ciel, Ayessa Chantelaube, croit que la voie passe par en bas, en Azeroth, et les chamans du Cercle terrestre se sont tenus à leurs côtés." },
         { "Ce n'est pas un peuple qui pardonne. À la violence du culte, Ayessa a répondu sang pour sang, et les Sculpte-vents disent d'eux-mêmes qu'ils ne pardonnent ni n'oublient. Ils ne veulent aucune paix avec les Al'Aketh, et tiennent la magie que l'Ordre suprême pratique sur leurs sites sacrés pour un danger sur une île qui se défait déjà." },
+      },
+    },
+    ["theldurin-the-lost"] = {
+      title = "Theldurin l'Egaré",
+      text = {
+        { "Theldurin l'Egaré vit à la dure dans les Terres ingrates et parle tout seul, et une partie de ce qu'il dit mérite d'être entendue. Il fut autrefois membre du Marteau du crépuscule. Selon le culte, il perdit l'esprit, rejeta ses enseignements et s'enfuit en emportant le parchemin capable d'appeler Myzrael à la surface. Selon Theldurin, il retrouva au contraire la raison. Quelque chose attend sous la terre, les puissances que son ancien ordre nomme les habitants d'en dessous, et il refuse de prononcer leurs noms de peur qu'ils ne l'entendent." },
+        { "Ce qu'il veut désormais, c'est les comprendre assez pour les garder enfouis. Il envoie des voyageurs à Uldaman chercher une tablette rangée dans un coffre plus ancien que toute œuvre naine, puis le Sommaire de Yagyin, un vieux livre que son ancien ordre conserve en bien des endroits pour que les plus savants l'étudient. Un exemplaire se trouve dans une boutique de la caverne lugubre, à Forgefer, chez un nain nommé Gerrig Bonegrip qui accueille le glyphe du culte par une louange aux habitants d'en dessous. Un autre est gardé à Fossoyeuse par le Gardien Bel'dugur." },
+        { "J'aimerais que ce premier exemplaire soit n'importe où sauf ici. Sa boutique, les Runes et malédictions de Bonegrip, a vendu des livres de noms imprononçables et de sacrifices vivants sous la montagne de notre roi. Bonegrip, et Zaruk à Trépas-d'Orgrim pour la Horde, lancent les voyageurs sur la piste de Theldurin avec les mêmes mots : \"notre ordre, le Marteau du crépuscule\". Ils le disent fou. Depuis que j'ai vu ce que son ancien ordre garde sur ses étagères, je crois qu'il pourrait bien être le membre le plus sensé qu'il ait jamais eu. Si les habitants d'en dessous sont un jour libérés, dit-il, nous serons tous bons à nourrir les vers. Sur ce point, l'historienne royale et le fou sont d'accord." },
+        { side = "Horde", aside = true, sign = "P. F.", "Le Gardien Bel'dugur réunit les travaux d'Ur pour la Dame noire, à ce qu'il dit, et garde le Sommaire de Yagyin pour quelqu'un d'autre. Un gardien de livres devrait savoir pour qui il remplit ses étagères." },
       },
     },
     ["thelsamar"] = {
@@ -7130,6 +7212,14 @@ ns.translate({
       text = {
         { "Les Zandalar se décrivent comme la plus ancienne tribu troll, dont descendent les autres. Leurs prêtres et leurs érudits préservent la mémoire de leur peuple et de leurs dieux. Ils interviennent rarement dans les affaires des autres peuples, mais le retour de Hakkar les a amenés sur l'île de Yojamba, au large de la côte de Strangleronce." },
         { "Leur chef, Molthor, travaillera avec quiconque est prêt à s'opposer à l'Écorcheur d'âmes. Cette invitation s'étend à des gens que les trolls n'auraient d'ordinaire guère de raisons d'accueillir." },
+      },
+    },
+    ["zanzil-the-outcast"] = {
+      title = "Zanzil le Paria",
+      text = {
+        { "Zanzil le Paria tient les Ruines de Jubuwal et d'Aboraz, sur la côte au nord-est de Baie-du-Butin, entouré de partisans qui ne semblent pas tout à fait maîtres d'eux-mêmes. Il était sorcier-docteur jusqu'à ce que les chefs de sa propre tribu prennent peur de lui et le chassent. Son art est un mélange de plantes de la jungle qui étouffe la volonté et endurcit le corps, et ses zombies, ses chasseurs et ses sorciers-docteurs en sont tous imprégnés." },
+        { "Les Darkspear ont contre lui un grief particulier. Selon une vieille coutume, ils avaient confié Yenniku, le plus jeune fils de leur chef, aux Gurubashi de Zul'Gurub, et le perdirent en partant avec Thrall. Nimboya revint de la lointaine Orgrimmar pour retrouver le garçon et apprit que Zanzil le tenait, corps et esprit. Il fallut la Vue de l'esprit, un joyau arraché au mage ogre Mai'Zoth et façonné en Gemme d'âme, pour soustraire l'âme de Yenniku à Zanzil." },
+        { "Son mélange a des acheteurs. Crank Fizzlebub, à Baie-du-Butin, en paie des échantillons, avec un petit extra pour la discrétion, et l'une de ses recettes finit dans une bière brune destinée à rendre les coureurs des Salines trop ivres pour courir. Les trolls qui ont banni Zanzil craignaient ce qu'il pouvait faire à l'esprit des autres." },
       },
     },
     ["zephras-isle"] = {

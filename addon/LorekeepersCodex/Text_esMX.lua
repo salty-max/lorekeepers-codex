@@ -3892,6 +3892,14 @@ ns.translate({
         { "Murió aquí. Con la Horda encerrada en la Cumbre de Roca Negra, Orgrim Martillo Maldito salió a la carga con sus lugartenientes y se encontró con los paladines de Lothar en mitad de estas llanuras. Los dos combatieron hasta agotarse y Martillo Maldito lo mató. Su lugarteniente Turalyon recogió el escudo ensangrentado de Lothar y quebró a la Horda en la desbandada posterior. La expedición que más tarde atravesó el Portal Oscuro marchó como los Hijos de Lothar." },
       },
     },
+    ["angor-fortress"] = {
+      title = "Fortaleza de Angor",
+      text = {
+        { "La Fortaleza de Angor es el bastión del clan Forjatiniebla en las Tierras Inhóspitas, la plaza fuerte de los Hierro Negro desde la que trabajan en Uldaman. Llevan mucho tiempo tras los secretos de los titanes, y lo que más desean es el saber para construir gólems más poderosos. Grez Dedomaza también iba tras él, para que no cayera en sus manos, y él y Karnik el Historiador, de la Sala de los Expedicionarios, buscaban juntos los artefactos perdidos." },
+        { "Los Forjatiniebla se llevaron a Dedomaza a Uldaman para averiguar lo que sabía. La ayuda que el prospector Ryedol envió tras él lo encontró moribundo. Dedomaza pidió una sola cosa, su amuleto, que Magregan Sombraprofunda le había quitado y que podía guiar a quien lo llevara hasta los pergaminos que todos buscaban. Cuando lo recuperaron, Dedomaza hizo que se lo llevaran a Ryedol, y Ryedol se lo hizo llegar a Karnik. Dedomaza buscaba el origen de nuestro pueblo, dijo Ryedol, y detener a los Forjatiniebla formaba parte de la misma obra. Karnik fue a consultar al espíritu de su viejo compañero, y el consejero Belgrum, con la autoridad del rey, ordenó atacar Angor." },
+        { "El propio Ragnaros, según se supo, había enviado un embajador a Angor para supervisar las excavaciones de los Forjatiniebla. Cuando cayó el embajador Infernus, el clan perdió su vínculo con la Cumbre de Roca Negra. Después, Belgrum envió al siguiente viajero tras el último sueño de Dedomaza, la tablilla de Voluntad, un fragmento de piedra que, según la leyenda, los titanes grabaron con magia para dar voluntad propia a sus creaciones. Fue a parar a los magos del rey, que han de averiguar si la leyenda es cierta. Dedomaza murió por ella sin llegar a verla nunca." },
+      },
+    },
     ["arathi-basin"] = {
       title = "Cuenca de Arathi",
       text = {
@@ -3929,6 +3937,14 @@ ns.translate({
         { "El Alba Argenta recluta tanto en la Alianza como en la Horda para combatir a la Plaga. Sus caballeros, sacerdotes y estudiosos preguntan contra qué está dispuesto a luchar un viajero, en vez de qué estandarte sigue. Lord Maxwell Neófitus la dirige desde la Capilla de la Esperanza de la Luz, en Tierras de la Peste del Este." },
         { "Los oficiales del Campamento del Orvallo y del Baluarte entregan comisiones y aceptan las piedras de la Plaga que llevan los muertos. Sus enviados trabajan en Ventormenta, Darnassus y Vista Eterna. El Alba ha convertido su guerra en una causa a la que pueden sumarse personas de ambas facciones." },
         { "Comparte enemigo con la Cruzada Escarlata y poco aprecio por sus métodos. Considera que sospechar de todo extraño ayuda al Rey Exánime. La objeción tiene sentido práctico: esta lucha ya tiene enemigos suficientes." },
+      },
+    },
+    ["arikara"] = {
+      title = "Arikara",
+      text = {
+        { "Hagar Relampafauce, en el Poblado Viento Libre, quería examinar un huevo que las serpientes de los cañones custodiaban como si fuera uno de los suyos. Cuando por fin se lo trajeron, le bastó una mirada para mandar llamar a Motega Pirocabello, del Campamento del Tramo Blanco. Venganza había llegado a Las Mil Agujas, dijo Hagar, y Motega estuvo de acuerdo: la leyenda de Arikara era cierta." },
+        { "A Arikara no se la rastrea, se la llama. El medio es el fuego sagrado de la vida, apagado desde hace mucho en la Cumbre de la Nube Negra, en la aguja aislada donde se entierra a los muertos. Se enciende con un polvo de pita incendiaria, una planta que no crece en ningún sitio más que en Las Mil Agujas. Motega envió las plantas a Magatha Tótem Siniestro, en el Alto de los Ancestros de Cima del Trueno, para que las encantara, y Magatha dio un motivo para darse prisa. Habían cambiado demasiado las tradiciones de los tauren, dijo, y temía que eso hubiera enojado a Arikara, y que la serpiente anduviera tras Cairne Pezuña de Sangre." },
+        { "Una vez cumplida la tarea, Motega no le encontraba sentido. ¿Por qué iba Arikara a perseguir a Cairne? Pero Magatha no podía estar equivocada, decidió. Al fin y al cabo, era la chamán más poderosa de los tauren. Negó con la cabeza y pagó al cazador de todos modos." },
       },
     },
     ["arthas-menethil"] = {
@@ -4386,6 +4402,14 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Cada aldea del Bosque del Este tuvo su Joseph Rutagrana. Villa Darrow es aquella cuyos muertos aún podrían terminar la historia de otra manera. Ayúdalos si puedes." },
       },
     },
+    ["dartols-rod"] = {
+      title = "La vara de Dartol",
+      text = {
+        { "Teronis, amigo de Raene Correlobo, ayudaba a las Centinelas de Astranaar contra los fúrbolgs, y creía que una vara creada por Dartol, un hechicero malvado ya muerto, podía frenar sus ataques. Fue a buscar su gema al santuario de una isla del Lago Falathim y no volvió. Encontraron allí su cuerpo, acuchillado con hojas de múrloc, con el diario todavía encima." },
+        { "Gracias al diario y a una dríade llamada Shael'dryn, la vara se reconstruyó pieza a pieza: la gema, recuperada de los múrlocs, una parte sacada de un cofre cuya llave llevaba un antárbol corrupto cerca de la frontera con Frondavil, y la última, de El Túmulo de Dor'danil, cuyos druidas habían sido asesinados poco antes. Recompuesta y recargada en un santuario oculto en las montañas, la vara de Dartol permite a quien la lleva adoptar la forma de un fúrbolg." },
+        { "Con esa forma, un viajero puede llegar hasta Krolg, un fúrbolg expulsado de su tribu y todavía libre del musgovil que enloquece a los demás. Culpa a los elfos de la noche, cuyo orgullo, dice, trajo la corrupción sobre el suyo. Pero no desea ningún mal a los hijos de los elfos, y tampoco excusa a los suyos, que siguen siendo responsables de sus actos. Ran Dentesangre, a quien la corrupción solo ha hecho más fuerte, es el mal que señala, y pide al viajero con forma de fúrbolg que acabe con él: los fúrbolgs, dice, deben vigilar a los suyos. Raene puso el cráneo de Ran y la vara en un lugar de honor, por Teronis. Krolg se quedó donde estaba, al sureste del Lago Mystral, mirando de noche las fogatas de su antigua tribu." },
+      },
+    },
     ["deadwind-pass"] = {
       title = "Paso de la Muerte",
       text = {
@@ -4630,6 +4654,14 @@ ns.translate({
         { "Durante el ataque de Thrall contra Stratholme, Tirión liberó a Eitrigg. Fuera de la ciudad, Thrall le pidió ayuda para restaurar las antiguas costumbres de la Horda y él aceptó." },
       },
     },
+    ["elementals"] = {
+      title = "Los elementales",
+      text = {
+        { "Los elementales son los soldados más antiguos del mundo. Servían a los dioses antiguos antes de que llegaran los titanes, y cuando sus amos quedaron encadenados bajo la tierra, fueron expulsados a un plano propio, donde los señores del fuego, la tierra, el aire y el agua siguen guerreando entre sí. Lo que un viajero encuentra a este lado suele haberse colado, haber sido arrastrado o haberse quedado atrás: la roca que camina por las Tierras Inhóspitas, un torbellino suelto en Las Mil Agujas o en las arenas de Silithus, el agua inquieta de la costa de Tuercespina." },
+        { "Las cortes elementales son tan aficionadas a los rangos como cualquier rey, con príncipes, duques y barones. Ragnaros el Señor del Fuego fue llamado al mundo por un thane de los Hierro Negro y no lo ha abandonado. Consumió la esencia del Príncipe Thunderaan, uno de los señores del aire, y sus lugartenientes mantienen atado lo que queda del príncipe. Los siervos de Neptulon el Cazamareas odian el fuego por encima de todo: el duque Hydraxis hace aliados entre los mortales desde su isla frente a Azshara, y un enviado del Tribunal de las Mareas en el Refugio Roca del Sol paga por cada elemental de fuego extinguido en La Vega Carbonizada de Sierra Espolón. En Maraudon vive la princesa Theradras, una fuerza elemental de la tierra que los druidas dicen emparentada con los dioses antiguos. En Silithus, el Martillo Crepuscular invoca a nobles elementales y recibe órdenes de ellos." },
+        { "Algunos ya no pueden servir a nadie. La peste corrompió a los elementales de agua que los Señores del Agua enviaron a las Tierras de la Peste del Este hasta enfermarlos y enfurecerlos, y el duque Hydraxis lo llama una afrenta a su pureza. Los chamanes hablan con los elementos y obtienen respuesta. Los demás, $gviajero:viajera;, solemos recibir por respuesta un puño de piedra." },
+      },
+    },
     ["elune"] = {
       title = "Elune",
       text = {
@@ -4665,6 +4697,14 @@ ns.translate({
       text = {
         { "Vista Eterna es una población goblin en el centro de Cuna del Invierno, la escala más septentrional del Cártel Bonvapor, con muros, posada, banco y guardia de matones goblins, donde la Alianza y la Horda comercian juntas. Dentro hace más calor del que esperarías y todo es mucho más caro." },
         { "Todo el mundo pasa por Vista Eterna. El Alba Argenta mantiene aquí un representante y la Hermandad del Torio un herrero. Todos los cazadores, exploradores y estudiosos del norte se detienen a calentarse los pies." },
+      },
+    },
+    ["excavation-site-wetlands"] = {
+      title = "Excavación: Los Humedales",
+      text = {
+        { "El pantano del prospector Whelgar no es la única excavación de Los Humedales. Un equipo venido de Loch Modan subió a las colinas que lo dominan, a tierras que ningún enano había pisado jamás, y encontró ruinas, un segundo pantano allí arriba con raptores y hierbas más altas que todo lo que los excavadores habían visto, y debajo, algo mucho más antiguo. No todos volvieron. Dorin Filosón, el herrero de Villa del Lago, mandó a alguien a buscar a su hermano Daewyn cuando dejaron de llegar cartas, y la respuesta fue un cuerpo en la ciénaga. Ardin Grassman, de Menethil, subió a buscar las hierbas y lo encontraron con vida. Envió a su mujer un corazón trenzado con juncos para decirle que volvía a casa." },
+        { "Lo que sacó a la luz la excavación fueron fragmentos de una extraña piedra compuesta que dispersa la luz como un prisma vivo, y piezas de una máquina hecha de roca. Rethiel el Guardaverde sintió que una energía antigua despertaba bajo aquellas aguas y les dijo a los excavadores que pararan. Desde entonces, las reliquias han tomado tres caminos: hacia los ancianos del Alto de los Ancestros, en Cima del Trueno, hacia el Anillo de la Tierra, para quienes un fragmento vibra con la voz del propio mundo y guarda recuerdos del pasado, y hacia nuestra propia Sala de los Expedicionarios, donde el Alto Expedicionario Magellas asegura que las marcas de los guardianes no dejan lugar a dudas." },
+        { "Otros se han dado cuenta. El clan Faucedraco se ha instalado allí con la esperanza de que el lugar le devuelva su antiguo poder y el favor de Rend Puño Negro, y los mortacechadores de la Dama Oscura los vigilan. Una máquina de los titanes, un clan de domadores de dragones y los espías de los Renegados, todo en una misma colina empapada." },
       },
     },
     ["explorers-league"] = {
@@ -4921,6 +4961,14 @@ ns.translate({
         { "Un pueblo sin hogar y los exiliados más alegres que conocerás. Los gnomos que escaparon de Gnomeregan viven ahora en Ciudad Manitas, en el corazón de Forjaz, y en puestos como el Almacén de Brasacerada, desde donde se ven sus antiguas puertas." },
         { "No te dejes engañar por su alegría. Cada invento que prueban y cada recluta que instruyen tienen una misma meta: el día en que vuelvan a entrar en Gnomeregan para recuperarla." },
         { "Forjaz les ha ofrecido cobijo mientras lo necesiten. La mayoría de los enanos agradecen su compañía, aunque no tanto el ruido." },
+      },
+    },
+    ["goblins"] = {
+      title = "Los goblins",
+      text = {
+        { "Los goblins aparecen allí donde hay dinero que ganar, es decir, casi en todas partes: regentan los puertos neutrales, excavan y talan para Ventura y Cía. y venden explosivos a cualquiera que pueda pagarlos. Su patria es la isla de Kezan, en los mares del sur, y su capital es Villabajo, donde los príncipes mercaderes que los gobiernan hacen sus negocios." },
+        { "La isla no siempre fue suya. Pregunta a los trols Zandalar y oirás que Kezan fue un día un gran territorio del Imperio Zandalar, hasta que, como ellos dicen, los príncipes mercaderes goblins sumieron el país en el ocaso y los expulsaron. El relato más largo cuenta que los trols pusieron a los goblins a extraer un mineral extraño, la kaja'mita, del volcán de la isla, y que ese mineral les afiló el ingenio hasta que se quedaron con Kezan. No puedo dar fe del mineral. El resto me lo creo." },
+        { "En la Segunda Guerra, los goblins vendieron a la Horda zapadores y zepelines, y cobraron por ambos. Para la Tercera Guerra habían dejado de elegir bando, y sus mercaderes, laboratorios y astilleros servían a cualquiera. Ese arreglo les sigue conviniendo. El Cártel Bonvapor mantiene sus puertos abiertos a la Alianza y a la Horda por igual, Ventura y Cía. despoja cualquier tierra que nadie le impida despojar, y un ingeniero goblin prefiere la clase de artefacto que termina en una gran explosión. Los ingenieros de Gnomeregan lo llaman una diferencia de filosofía. Sospecho que es una diferencia de paciencia." },
       },
     },
     ["goldshire"] = {
@@ -6566,6 +6614,14 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Nadie fuera de Entrañas puede decir qué queremos, escribe. La mayoría de los de dentro tampoco. Yo quiero saber qué nos hicieron y dejarlo debidamente por escrito." },
       },
     },
+    ["the-great-hunts"] = {
+      title = "Las grandes cacerías",
+      text = {
+        { "Los tauren dan nombre a las grandes bestias de Los Baldíos, y cazar una es tanto una lección como una prueba. Sergra Espinoscura pone a los viajeros en ese camino en El Cruce, y Jorn Vidente del Cielo, en el Campamento Taurajo, y Mahren Videncielo, en la costa al sur de Trinquete, los llevan más allá. Lo sé por quienes lo recorrieron y por los propios nombres tauren, que dicen más de lo que dirían nuestros nombres." },
+        { "Echeyakee, Albineblina, es el rey de los felinos de la sabana, tan sigiloso al cazar que sus presas no tienen tiempo de sentir miedo ni dolor: muerte y misericordia a la vez, dicen los tauren. Tiene su guarida entre los huesos de kodos gigantes, al noreste de El Cruce, y acude al sonido de un cuerno. Ishamuhale, Dientarpón, es el más feroz de los raptores solescama de las llanuras, que mata porque matar es su naturaleza, y acude a los despojos frescos de una astacebra dejados junto a un árbol muerto. Lakota'mani, Sacuditerra, es un gran kodo cuyos pasos retumban como el trueno. Washte Pawne, Muerdespíritu, es un halcón trueno cuya muerte puede traer gran fortuna o una terrible condena, y cuya pluma duele al tocarla. Isha Awak, la Condena Abisal, es el señor de las aguas frente a la costa, y los humanos de esa costa tienen buenos motivos para temerlo." },
+        { "Lo que trae el cazador es un colmillo, una pezuña, una pluma o un corazón, y con ello, dicen Jorn y Mahren, algo de la bestia: la fuerza de la sutileza y el honor de la misericordia, una fuerza contenida por la templanza, el valor, la sabiduría en que se convierte el remordimiento, y unos ojos que, algún día, aprenderán a ver. Los enanos cazamos para comer y para presumir. No estoy segura de que se nos haya ocurrido nunca preguntarle al jabalí qué tenía que enseñarnos." },
+      },
+    },
     ["the-guardians-of-tirisfal"] = {
       title = "Los Guardianes de Tirisfal",
       text = {
@@ -6602,6 +6658,14 @@ ns.translate({
       text = {
         { "Los exiliados del Puerto se llaman draenei. Con pezuñas, tentáculos y piel gris azulada, no se parecen a los demás pueblos que suele encontrarse un viajero en Azeroth. Dicen que llegaron del mundo de los orcos después de un viaje terrible. Los del Puerto siguen siendo amables y dispuestos a hablar." },
         { "Otros viven en Retiro Fangoso y reciben el nombre de Los Perdidos. Los exiliados dicen que el viaje quebró a sus antiguos hermanos. Atacan a quien se acerca y han robado cristales que los exiliados consideran sagrados. Estos relatos locales dicen poco de su vida anterior o de lo ocurrido antes de llegar aquí. Prefiero dejar abierta esa parte de la página a darles un pasado que no han descrito." },
+      },
+    },
+    ["the-missing-diplomat"] = {
+      title = "El diplomático desaparecido",
+      text = {
+        { "Ventormenta dice que su rey ha desaparecido. Unos pocos saben algo más, y la pista que siguieron empieza nada menos que en una quesería. El obispo DeLavey, del Castillo de Ventormenta, dio a entender con discreción que un diplomático enviado a reunirse con Lady Jaina Valiente en Theramore nunca había llegado, y que sospechaba de los Defias. Su viejo amigo Jorgen, en el Valle de los Héroes, pasó el asunto a Elling Trias, un quesero del Distrito de Mercaderes con una red de contactos asombrosamente amplia." },
+        { "La pista pasó por una reunión de los Defias en la Granja de Addle, en el Bosque del Ocaso, y por un pendenciero del Casco Antiguo llamado Dashel Puñopiedra, y siguió al norte hasta el Puerto de Menethil, donde un antiguo agente metido a tabernero señaló a un hombre que escuchaba demasiado de cerca. Tapoke Jahn, al que llaman El Flaco, contó el resto en cuanto le dieron una paliza. Los Defias no se habían llevado a un diplomático. Se habían llevado al rey, de camino a una reunión secreta en Theramore. El papel de El Flaco había sido subir a su hombre a bordo del barco del rey mientras este estaba en el puerto: un tal soldado Hendel, uno de los hombres de la propia guarnición de Theramore. Y los Defias, dijo, trabajaban con alguien más grande que ellos." },
+        { "A Hendel lo encontraron de guardia en el pantano, a las afueras de Theramore, y se lo llevaron de vuelta a la isla para interrogarlo. Ahí termina el relato. El rey no ha aparecido, y nadie ha dicho para quién trabajaban los Defias. Ventormenta sigue teniendo un niño en el trono y un regente a su lado." },
       },
     },
     ["the-ordering"] = {
@@ -6680,6 +6744,15 @@ ns.translate({
         { "Al final, Malfurion comprendió que el propio Pozo era la puerta de la Legión y el Pozo de la Eternidad fue destruido. Se desgarró y se llevó consigo el corazón del continente. El mar se precipitó en el hueco. Azshara y sus Altonato se hundieron con su palacio. Desde esta orilla, La Playa Arrasada, contemplas el lugar donde se rompió el mundo." },
       },
     },
+    ["the-suntara-stones"] = {
+      title = "Las piedras de Suntara",
+      text = {
+        { "Las piedras de Suntara eran un rumor de excavadores hasta que Dorius Tienrroca fue a buscarlas a La Garganta de Fuego. Un viajero lo encontró en el camino de vuelta, malherido, suplicando que lo llevaran a casa, a Forjaz. Le dispararon antes de que llegaran. Dejó una carta para su hermano, el comisario Torio de la Sala de los Expedicionarios. Las piedras existían, decía, las tenían los Hierro Negro, y su jefe, Lathoric el Negro, usaba su poder para esclavizar al equipo de excavación de Dorius. A los excavadores se los habían llevado a La Caldera, donde trabajaban noche y día en algo llamado Obsidion. Ayúdalos, pedía la carta. Iba firmada como la última voluntad de un hombre muerto." },
+        { "Torio se secó los ojos y juró que el deseo de su hermano se cumpliría. Los excavadores aparecieron en La Fosa de la Escoria, trabajando todavía cuando sus cuerpos ya no daban más, atados a la tarea por las piedras hasta que alguien colocó sobre el altar de Suntara una reliquia que custodiaba el Martillo Crepuscular. Uno de ellos vivió lo suficiente para decir que todo había sido una trampa y para pedir que mataran al responsable, por Torio." },
+        { "La cabeza de Lathoric el Negro, cuando la llevaron a la Sala, era la de Dorius. Había fingido su propia muerte en el camino, y la carta formaba parte de la farsa. Torio culpó al Señor del Fuego y a los dioses antiguos, cuyo poder sigue siendo fuerte en aquella tierra. Si un enano tan honorable como su hermano había caído bajo la voluntad de Ragnaros, dijo, nadie estaba a salvo." },
+        { "Vuelve a leer la carta sabiendo quién la escribió, $gviajero:viajera;. Casi todas sus líneas son ciertas. Solo miente la firma." },
+      },
+    },
     ["the-temple-of-atalhakkar"] = {
       title = "El Templo de Atal'Hakkar",
       text = {
@@ -6708,6 +6781,15 @@ ns.translate({
       text = {
         { "Los Formavientos son los shen'dorei que mantienen su fe en los espíritus del viento. Descienden de los primeros que recibieron el don de la visión celeste y cuidaron de los instrumentos y constructos que los espíritus dejaron en la isla. Han jurado pagar aquella vieja deuda: adentrarse en el plano elemental, encontrar a sus mentores desaparecidos y traerlos a casa. Su gran vidente del cielo, Ayessa Cantoalba, cree que el camino está abajo, en Azeroth, y los chamanes del Anillo de la Tierra los han apoyado." },
         { "No son gente que perdone. Ayessa respondió a la violencia del culto con sangre por sangre, y los Formavientos dicen de sí mismos que no perdonan ni olvidan. No quieren paz con los Al'Aketh y consideran la magia de la Suma Orden en sus lugares sagrados un peligro para una isla que ya se está deshaciendo." },
+      },
+    },
+    ["theldurin-the-lost"] = {
+      title = "Theldurin el Perdido",
+      text = {
+        { "Theldurin el Perdido malvive en las Tierras Inhóspitas y habla solo, y parte de lo que dice merece ser escuchado. En otro tiempo fue miembro del Martillo Crepuscular. Según el propio culto, perdió la cabeza, desdeñó sus enseñanzas y huyó llevándose el pergamino capaz de llamar a Myzrael a la superficie. Según Theldurin, lo que hizo fue recobrar el juicio. Algo aguarda bajo la tierra: los poderes que su antigua orden llama los moradores del subsuelo, y se niega a pronunciar sus nombres por miedo a que lo oigan." },
+        { "Lo que quiere ahora es entenderlos lo bastante para mantenerlos abajo. Envía a los viajeros a Uldaman en busca de una tablilla guardada en un cofre más antiguo que cualquier obra de los enanos, y después en busca del Compendio de Yagyin, un viejo libro que su antigua orden guarda en muchos lugares para que lo estudien sus más eruditos. Un ejemplar está en una tienda de La Caverna Abandonada, en Forjaz, en manos de un enano llamado Gerrig Agarrahueso que recibe el sigilo del culto alabando a los moradores del subsuelo. Otro lo guarda en Entrañas el vigilante Bel'dugur." },
+        { "Preferiría que ese primer ejemplar estuviera en cualquier parte menos aquí. Su tienda ha vendido libros de nombres impronunciables y sacrificios vivos bajo la montaña de nuestro rey. Agarrahueso y, por la Horda, Zaruk en Sentencia mandan a los viajeros tras Theldurin con las mismas palabras: \"nuestra orden, el Martillo Crepuscular\". Dicen que está loco. Después de ver lo que su antigua orden guarda en sus estantes, casi lo tengo por el miembro más cuerdo que ha tenido nunca. Si los moradores del subsuelo llegan a liberarse, dice, todos seremos alimento de gusanos. En eso, la historiadora real y el loco están de acuerdo." },
+        { side = "Horde", aside = true, sign = "P. F.", "El vigilante Bel'dugur reúne las obras de Ur para la Dama Oscura, según dice, y guarda el Compendio de Yagyin para otro. Un guardián de libros debería saber para quién llena los estantes." },
       },
     },
     ["thelsamar"] = {
@@ -7086,6 +7168,14 @@ ns.translate({
       text = {
         { "Los Zandalar se describen como la tribu trol más antigua, de la que descienden las demás. Sus sacerdotes y estudiosos conservan la memoria de su pueblo y sus dioses. Rara vez intervienen en los asuntos de otros pueblos, pero el regreso de Hakkar los ha traído a la Isla Yojamba, frente a Tuercespina." },
         { "Su líder, Molthor, colaborará con cualquiera dispuesto a oponerse al Cazador de Almas. La invitación incluye a personas a las que los trols normalmente tendrían pocos motivos para recibir." },
+      },
+    },
+    ["zanzil-the-outcast"] = {
+      title = "Zanzil el Desarraigado",
+      text = {
+        { "Zanzil el Desarraigado domina las Ruinas de Jubuwal y las Ruinas de Aboraz, en la costa al noreste de la Bahía del Botín, rodeado de seguidores que no parecen del todo dueños de sí. Era médico brujo hasta que los líderes de su propia tribu empezaron a temerle y lo expulsaron. Su arte es una mezcla de plantas de la jungla que anula la voluntad y fortalece el cuerpo, y sus zombis, cazadores y médicos brujos están todos impregnados de ella." },
+        { "Los Lanza Negra tienen un agravio especial contra él. Por una vieja costumbre entregaron a Yenniku, el hijo menor de su jefe, a los Gurubashi de Zul'Gurub, y lo perdieron cuando se marcharon con Thrall. Nimboya volvió desde la lejana Orgrimmar para encontrar al muchacho y supo que Zanzil lo dominaba en cuerpo y alma. Hizo falta el Ojo de la mente, una joya arrebatada al mago ogro Mai'Zoth y convertida en una gema de alma, para sacar el alma de Yenniku del poder de Zanzil." },
+        { "Su mezcla tiene compradores. Loquillo Pinchabujas, en la Bahía del Botín, paga por las muestras, y algo más por la discreción, y una de sus recetas acaba en una cerveza negra pensada para dejar a los corredores de El Desierto de Sal demasiado borrachos para correr. Los trols que desterraron a Zanzil temían lo que podía hacer con la mente de los demás." },
       },
     },
     ["zephras-isle"] = {

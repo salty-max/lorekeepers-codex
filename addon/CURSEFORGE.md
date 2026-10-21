@@ -13,7 +13,7 @@ For Classic Era (including Hardcore and Season of Discovery), TBC Anniversary an
 
 ## What you can discover
 
-The Codex contains **416 original pages across 44 chapters**, or **428 pages across 45 chapters on Forever**. It covers the original world's zones, landmarks, notable figures, peoples and history, from the Titans and the Sundering to the gates of Ahn'Qiraj.
+The Codex contains **426 original pages across 44 chapters**, or **439 pages across 45 chapters on Forever**. It covers the original world's zones, landmarks, notable figures, peoples and history, from the Titans and the Sundering to the gates of Ahn'Qiraj.
 
 - **Places and people.** Learn the stories behind the lands you cross and the characters you meet.
 - **Peoples and Powers.** Pages on the playable races, the Scourge, the Defias, the Dark Irons, the dragonflights and many others. Your own race's page is available from the start.

@@ -119,9 +119,12 @@ the beta. Forever's areas: `data/areas-forever.json` (`bun scripts/areas.ts
   Morogh): pages of their own.
 - ✅ **Dalaran**: a `[forever]` paragraph (the city as a dungeon, the
   disruption, the High Order's appeal).
-- **Waiting for texts:** Excavation Site: Wetlands (only its objectives are
-  known), the Riverglades, Shen'dralas, Mount Hyjal, Gilneas, the other new
-  dungeons and the raids; and, on Zephras Isle, the cutscenes (Rohash and
+- ✅ **Excavation Site: Wetlands** (Wetlands, 21 October 2026): the dig above
+  Whelgar's, from the beta's quest texts in wow-data's forever.db (fourteen
+  quests); its four areas and two quests unlock it. To reread at launch.
+- **Waiting for texts:** the Riverglades, Shen'dralas (19 quests with
+  texts in forever.db since), Mount Hyjal, Gilneas, the other new dungeons
+  and the raids; and, on Zephras Isle, the cutscenes (Rohash and
   Lorthuna on the spires), the crystals' full texts and the Nightclaw druids.
 
 ## Open points
