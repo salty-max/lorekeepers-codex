@@ -241,7 +241,7 @@ ns.content = {
       text = {
         { "Helcular was a wizard of the hills above Southshore, and he was nearly a lich when the people of Southshore found his ritual lair and killed him. They buried him in their own cemetery, to keep an eye on him, one supposes. His apprentice took it badly." },
         { "The yetis have the lair now, and with it the rod Helcular worked his rites through. He had built three ceremonial pyres in the caves of these mountains, the Flames of Azel, Veraz and Uzel, and his apprentice wants the rod recovered, charged at each of them, and driven into his master's grave in the middle of the human town." },
-        { "What comes up out of Southshore's cemetery when that is done is not the wizard he was, but it remembers who buried him. Southshore has a good many enemies, traveller. It made this one itself." },
+        { "What will come up out of Southshore's cemetery, the apprentice does not say. Southshore has a good many enemies, traveller. It made this one itself." },
       },
     },
     ["internment-camps"] = {
@@ -313,7 +313,7 @@ ns.content = {
     },
     ["myzrael"] = {
       title = "Myzrael", kind = "figure", chapter = "arathi", portrait = 1165,
-      unlock = { { kill = 2755 }, { quest = 656 } },
+      unlock = { { quest = 656 } },
       also = { "arathi-highlands", "kobolds", "masters-glaive" },
       text = {
         { "The Shards of Myzrael offer a voice from beneath the Arathi Highlands. An imprisoned princess of the earth asks a passing traveller to help her escape, and the crystals lend the encounter a feeling of warmth and safety." },
@@ -387,7 +387,7 @@ ns.content = {
     },
     ["dartols-rod"] = {
       title = "Dartol's Rod", kind = "history", chapter = "ashenvale",
-      unlock = { { quest = 1045 }, { quest = 1046 }, { kill = 3696 } },
+      unlock = { { quest = 1046 } },
       also = { "furbolgs", "astranaar", "sentinels", "ashenvale" },
       text = {
         { "Teronis, a friend of Raene Wolfrunner's, was helping the Sentinels of Astranaar against the furbolgs, and he believed a rod made by Dartol, an evil wizard now dead, could slow their attacks. He went after its gem at the shrine on an island in Lake Falathim and did not come back. His body was found there, cut by murloc blades, with his journal still on him." },
@@ -530,12 +530,12 @@ ns.content = {
     },
     ["angor-fortress"] = {
       title = "Angor Fortress", kind = "place", chapter = "badlands",
-      unlock = { { kill = 2745 }, { quest = 724 }, { quest = 762 } },
+      unlock = { { quest = 762 }, { quest = 1139 } },
       also = { "hammertoes-digsite", "uldaman", "dark-iron-dwarves", "ragnaros", "explorers-league" },
       text = {
         { "Angor Fortress is the Shadowforge clan's hold in the Badlands, the Dark Iron keep from which they dig at Uldaman. They have been after the titans' secrets for a long time, and what they want most is the knowledge to make stronger golems. Hammertoe Grez was after it too, to keep it out of their hands, and he and Historian Karnik of the Hall of Explorers had been hunting the lost artifacts together." },
         { "The Shadowforge took Hammertoe into Uldaman to find out what he knew. The help Prospector Ryedol sent after him found him dying. Hammertoe asked for one thing, his amulet, which Magregan Deepshadow had taken and which could lead its bearer to the scrolls they were all after. Once it was recovered, Hammertoe had it carried to Ryedol, and Ryedol sent it on to Karnik. Hammertoe had been seeking the origins of our people, Ryedol said, and stopping the Shadowforge was part of the same work. Karnik went to consult his old partner's spirit, and Advisor Belgrum, on the king's authority, ordered a strike at Angor." },
-        { "Ragnaros himself, it turned out, had sent an ambassador to Angor to oversee the Shadowforge's digging. When Ambassador Infernus fell, the clan lost its link to Blackrock Spire. Belgrum then sent the next traveller after Hammertoe's last dream, the Tablet of Will, a stone shard the titans are said to have inscribed to give their creations a will of their own. It went to the king's mages to learn whether the legend holds. Hammertoe died for it without ever seeing it." },
+        { "Ragnaros himself, it turned out, had sent an ambassador to Angor to oversee the Shadowforge's digging. When Ambassador Infernus fell, the clan lost its link to Blackrock Spire. Belgrum then sent the next traveller after Hammertoe's last dream, the Tablet of Will, a stone shard the titans are said to have inscribed to give their creations a will of their own. Hammertoe died for it without ever seeing it." },
       },
     },
     ["hammertoes-digsite"] = {
@@ -582,7 +582,7 @@ ns.content = {
       text = {
         { "When the troggs came up out of Uldaman, they came so fast that some of Ironforge's people were caught behind them. Baelog was one. A friend of Prospector Stormpike's at the Explorers' League, he had led a small band deep into the site just before the attack, and Stormpike sent travellers to learn whether any of them still lived." },
         { "They did, and in good spirits. Olaf had wagered that his beard would reach his knees before they saw another living soul, and when help arrived it still had a few inches to go. Eric, called the Swift, was the third. Trapped or not, Baelog had not been idle. His journal describes the way into the Chamber of Khaz'mul, behind a great locked door: take the Medallion of Gni'kiv from Baelog's chest, win the Shaft of Tsol from the trogg Revelosh, join the two into the Staff of Prehistoria and use it in the map room. Do these things, he wrote, and the chamber will be yours." },
-        { "Stormpike admits he doubted the chamber was there at all. He hopes the finding will stir Ironforge's leaders to retake Uldaman, and its secrets with it. Travellers of the Horde will find Baelog's band rather less glad to see them." },
+        { "Baelog is sure the chamber is there. Uldaman was Ironforge's before the troggs came, and the Explorers' League has not given it up. Travellers of the Horde will find Baelog's band rather less glad to see them." },
       },
     },
     ["theldurin-the-lost"] = {
@@ -790,7 +790,7 @@ ns.content = {
     },
     ["moira-bronzebeard"] = {
       title = "Princess Moira Bronzebeard", kind = "figure", chapter = "blackrock-mountain", portrait = 8705,
-      unlock = { { npc = 8929 }, { quest = 4363 }, { quest = 4004 } },
+      unlock = { { quest = 4363 }, { quest = 4004 } },
       also = { "magni-bronzebeard", "dagran-thaurissan", "ironforge", "blackrock-depths" },
       text = {
         { "Moira Bronzebeard is Magni's only daughter and heir to Ironforge. The Dark Irons carried her away, and she became Emperor Dagran Thaurissan's wife. Her father believed the emperor had placed her under a spell and sent champions to release her." },
@@ -866,12 +866,11 @@ ns.content = {
     },
     ["kirith-the-damned"] = {
       title = "Kirith the Damned", kind = "figure", chapter = "blasted-lands", portrait = 6688,
-      unlock = { { npc = 7728 }, { area = 1440 }, { quest = 2721 } },
+      unlock = { { quest = 2721 } },
       also = { "the-fallen-hero", "razelikh-the-defiler", "loramus-thalipedes", "blasted-lands" },
       text = {
         { "Lieutenant Kirith served the hero of the Horde whose ghost now waits outside Stonard. The two of them were taken in the Blasted Lands by Archmage Allistarj and imprisoned in a cave there. The hero held out. Kirith's will gave way. His commander heard the experiments from his own cage, the screams ringing through the halls, and after that he saw and heard no more of him." },
-        { "What the experiments made of him walks the Serpent's Coil now as Kirith the Damned. Put an end to it and what is left of the lieutenant will speak to you, and even grin: he knows how Razelikh the Defiler guards himself, with three servants each wearing a third of an amulet, and he sends you back to his commander with the news." },
-        { "Loramus Thalipedes, who hunts demons in Azshara, calls it inconceivable that anyone freed Kirith from his suffering. It is one of the few kind things that has happened in the Blasted Lands in a long time." },
+        { "What the experiments made of him walks the Serpent's Coil now as Kirith the Damned. Put an end to it and what is left of the lieutenant will speak to you, and even grin: he knows how Razelikh the Defiler guards himself, with three servants each wearing a third of an amulet, and he sends you back to his commander with the news. Putting an end to it is one of the few kind things that has happened in the Blasted Lands in a long time." },
       },
     },
     ["lord-kazzak"] = {
@@ -944,7 +943,7 @@ ns.content = {
       also = { "morgans-vigil", "blackrock-depths", "katrana-prestor", "great-masquerade" },
       text = {
         { "Marshal Reginald Windsor commanded Alliance soldiers at Morgan's Vigil and gathered evidence linking the Blackrock orcs to the black dragonflight. He came to suspect that someone in Stormwind wanted the evidence lost. The Dark Irons captured him and took his notes, then set about deciphering their code." },
-        { "Windsor survived in Shadowforge City's prison. He insisted that Bolvar Fordragon was blind to the truth, though the proof stood two feet from him. Those who rescued the marshal soon learned what he meant." },
+        { "Windsor is held in Shadowforge City's prison. He insists that Bolvar Fordragon is blind to the truth, though the proof stands two feet from him. Whoever gets him out will learn what he means." },
       },
     },
     ["morgans-vigil"] = {
@@ -1555,7 +1554,7 @@ ns.content = {
     },
     ["morbent-fel"] = {
       title = "Morbent Fel", kind = "figure", chapter = "duskwood", portrait = 4272,
-      unlock = { { kill = 1200 }, { area = 243 }, { quest = 55 } },
+      unlock = { { quest = 55 } },
       also = { "raven-hill", "the-third-fleet", "scythe-of-elune", "darkshire", "duskwood" },
       text = {
         { "Morbent Fel is the necromancer of Duskwood, the one who keeps the dead of Raven Hill walking, and an ally of the dark riders who come out of Deadwind Pass. He lives in a house at the top of the Forlorn Rowe, above the cemetery, behind his dead and a ward that turns aside every blow struck at him." },
@@ -1570,7 +1569,6 @@ ns.content = {
       text = {
         { "Morgan Ladimore was a knight of this country, known for defending the poor and the afflicted, married young to a girl named Lys and the father of three children. When the war broke out in Lordaeron he went north to fight beside Uther the Lightbringer, and he saw everything that war became: the Silver Hand disbanded, Uther dead, the plague. What kept him sane was the thought of coming home." },
         { "He came home to a forest gone dark and a house in ruins, and at last, in the cemetery at Raven Hill, to his wife's grave. Something in him snapped. When the cemetery's attendants tried to restrain him he killed them, and when he understood what he had done he killed himself. He was buried quickly, outside the cemetery, and within days his grave was empty. He walks Duskwood now as Mor'Ladim, and kills whoever he meets." },
-        { "He did not know that one of his daughters had lived. Sarah Ladimore serves in the Night Watch, and she would have him know that no one holds him to blame." },
       },
     },
     ["night-watch"] = {
@@ -1603,7 +1601,7 @@ ns.content = {
     },
     ["stalvan-mistmantle"] = {
       title = "Stalvan Mistmantle", kind = "figure", chapter = "duskwood", portrait = 1562,
-      unlock = { { kill = 315 }, { area = 1098 }, { quest = 98 } },
+      unlock = { { quest = 98 } },
       also = { "duskwood", "darkshire" },
       text = {
         { "Stalvan Mistmantle was a teacher at Moonbrook and a tutor to families in the countryside. He imagined that his pupil Tilloa returned his affection. When she introduced a suitor and called her tutor a kindly old uncle, his own account turned to rage. The murders followed." },
@@ -1613,7 +1611,7 @@ ns.content = {
     },
     ["the-embalmer"] = {
       title = "The Embalmer", kind = "creature", chapter = "duskwood", portrait = 1693,
-      unlock = { { kill = 412 }, { kill = 314 }, { quest = 253 } },
+      unlock = { { quest = 252 } },
       also = { "raven-hill", "darkshire", "night-watch" },
       text = {
         { "The children of Darkshire know the story of the Embalmer: a kindly alchemist whose wife, Eliza, died, and who would not let her go. He used dark magic to place his own heart in her breast, and it brought her back, with a hunger for human flesh, so that he had to keep her buried." },
@@ -1853,7 +1851,7 @@ ns.content = {
     },
     ["great-masquerade"] = {
       title = "The Great Masquerade", kind = "history", chapter = "elwynn",
-      unlock = { { quest = 6403 }, { kill = 10184 } },
+      unlock = { { quest = 6403 } },
       also = { "katrana-prestor", "black-dragonflight", "regency-of-stormwind" },
       text = {
         { "Marshal Reginald Windsor gathered proof against Highlord Bolvar Fordragon's adviser, only to lose it in the dungeons of Blackrock Mountain. After his rescue, he returned with fresh evidence and companions willing to stand beside him. He brought both into Stormwind Keep." },
@@ -2194,8 +2192,8 @@ ns.content = {
       also = { "thrall", "syndicate", "hillsbrad-foothills" },
       text = {
         { "Durnholde controlled the orc internment camps after the Second War. Its master, Aedelas Blackmoore, raised an orc child as a slave and gladiator, intending him to command an obedient army. The child was Thrall. Taretha Foxton, a girl of Blackmoore's household, befriended him and helped him escape." },
-        { "Thrall went on to free his people. Blackmoore is dead, and the Syndicate holds the keep. His ambitions survived elsewhere: at a manor beside Lordamere Lake, Aliden Perenolde planned to enslave orcs in his turn. His companion Elysa carried Taretha's pendant." },
-        { "Thrall's agents came to Hillsbrad to recover it, and the Warchief has it again. A pendant is a small thing to set beside the fall of a fortress, traveller. It preserves the name of someone whose help made that fall possible." },
+        { "Thrall went on to free his people. Blackmoore is dead, and the Syndicate holds the keep. His ambitions outlived him elsewhere: at a manor beside Lordamere Lake, Aliden Perenolde plans to enslave orcs in his turn. His companion Elysa carries Taretha's pendant." },
+        { "Thrall wants it back. A pendant is a small thing to set beside the fall of a fortress, traveller. It preserves the name of someone whose help made that fall possible." },
         { side = "Horde", aside = true, sign = "P. F.", "A girl of a Lordaeron household did more for the orcs than the whole of its Alliance. Her name belongs in more histories than this one." },
       },
     },
@@ -2466,10 +2464,10 @@ ns.content = {
     ["ghost-howl"] = {
       title = "Ghost Howl", kind = "creature", chapter = "mulgore", portrait = 720,
       unlock = { { kill = 3056 }, { quest = 770 } },
-      also = { "mulgore", "burning-legion", "bloodhoof-village" },
+      also = { "mulgore", "bloodhoof-village" },
       text = {
-        { "Ghost Howl is a great wolf of Mulgore whose hide bears a terrible wound from fighting the Burning Legion. The scar gives this particular hunter's trophy a history beyond the chase across the plains." },
-        { "Skorn Whitecloud recognises the hide at Bloodhoof Village. He offers the hunter one of his weapons and hopes the wolf's spirit has found peace." },
+        { "Ghost Howl is a great wolf of Mulgore whose hide bears a terrible wound. The scar gives the hunter's trophy a history beyond the chase across the plains." },
+        { "Somebody in Mulgore will know this wolf, and how it came by that scar." },
       },
     },
     ["hamuul-runetotem"] = {
@@ -3156,7 +3154,7 @@ ns.content = {
     },
     ["the-suntara-stones"] = {
       title = "The Suntara Stones", kind = "history", chapter = "searing-gorge",
-      unlock = { { quest = 3566 }, { kill = 8391 }, { kill = 8400 } },
+      unlock = { { quest = 3566 } },
       also = { "the-cauldron", "dark-iron-dwarves", "explorers-league", "ragnaros" },
       text = {
         { "The Suntara stones were a digger's rumour until Dorius Stonetender went into the Searing Gorge after them. A traveller found him on the road out, badly hurt and begging to be taken home to Ironforge. He was shot before they got there. He left behind a letter to his brother, Curator Thorius of the Hall of Explorers. The stones were real, it said, the Dark Irons had them, and their leader, Lathoric the Black, was using their power to enslave Dorius's excavation team. The diggers had been taken to the Cauldron to work night and day on something called Obsidion. Free them, the letter asked. It was signed as the last wish of a dead man." },
@@ -3359,12 +3357,12 @@ ns.content = {
     },
     ["boulderslide-ravine"] = {
       title = "Boulderslide Ravine", kind = "place", chapter = "stonetalon",
-      unlock = { { area = 2540 }, { area = 3157 }, { kill = 11920 }, { quest = 6481 } },
+      unlock = { { area = 2540 }, { area = 3157 } },
       also = { "stonetalon-mountains", "sun-rock-retreat", "kobolds" },
       text = {
         { "In the south-east of Stonetalon there is a ravine with a deep cave, and the kobolds in it have been digging like creatures possessed, after a rare crystal they call resonite. The shamans of Sun Rock felt something wrong under the mountains and went to see why, and at the bottom of the cave they found a cask of resonite, and sleeping inside it, one of the earthen: a being of living stone named Goggeroc." },
-        { "The earthen, if the discs of Uldaman are to be believed, were made by the titans to shape the world, and they are the forefathers of my own people. I would have given a great deal to speak with one. The shamans of Sun Rock judged him a threat to the land, woke him weakened, and destroyed him before he could find his strength, and the kobolds went back to their digging." },
-        { "I do not say they were wrong. I was not there. But I would very much like to know what an earthen was doing asleep in a cask under Stonetalon, and who put him there." },
+        { "The earthen, if the discs of Uldaman are to be believed, were made by the titans to shape the world, and they are the forefathers of my own people. I would have given a great deal to speak with one. The shamans of Sun Rock judge him a threat to the land, and mean to wake him while he is weak and destroy him before he finds his strength." },
+        { "I do not say they are wrong. I have not seen him. But I would very much like to know what an earthen was doing asleep in a cask under Stonetalon, and who put him there." },
       },
     },
     ["stonetalon-mountains"] = {
@@ -3505,12 +3503,12 @@ ns.content = {
     },
     ["zanzil-the-outcast"] = {
       title = "Zanzil the Outcast", kind = "figure", chapter = "stranglethorn", portrait = 314,
-      unlock = { { kill = 2534 }, { quest = 592 }, { quest = 621 } },
+      unlock = { { quest = 592 } },
       also = { "gromgol-base-camp", "bloodscalp-and-skullsplitter", "gurubashi-empire", "booty-bay" },
       text = {
         { "Zanzil the Outcast holds the Ruins of Jubuwal and Aboraz on the coast north-east of Booty Bay, with followers who do not seem entirely their own. He was a witch doctor until his own tribe's leaders grew afraid of him and cast him out. His art is a mixture of jungle plants that suppresses the will and strengthens the body, and his zombies, hunters and witch doctors are all dosed with it." },
         { "The Darkspear have a particular grievance. By an old custom they gave Yenniku, their chief's youngest son, to the Gurubashi of Zul'Gurub, and they lost him when they left with Thrall. Nimboya came back from distant Orgrimmar to find the boy and learned that Zanzil held him, body and soul. It took the Mind's Eye, a jewel wrested from the ogre mage Mai'Zoth and reshaped into a soul gem, to carry Yenniku's soul out of Zanzil's keeping." },
-        { "His mixture has buyers. Crank Fizzlebub of Booty Bay pays for samples, and a little extra for discretion, and one of his recipes turns up in a stout meant to get the racers of the Shimmering Flats too drunk to race. The trolls who exiled Zanzil feared what he could do to other people's minds." },
+        { "His mixture has buyers. Crank Fizzlebub of Booty Bay pays for samples, and a little extra for discretion. The trolls who exiled Zanzil feared what he could do to other people's minds." },
       },
     },
     ["zulgurub"] = {
@@ -3728,7 +3726,7 @@ ns.content = {
     },
     ["arikara"] = {
       title = "Arikara", kind = "creature", chapter = "thousand-needles", portrait = 10183,
-      unlock = { { kill = 10882 }, { quest = 4865 }, { quest = 5088 } },
+      unlock = { { quest = 5088 } },
       also = { "freewind-post", "thousand-needles", "grimtotem", "cairne-bloodhoof" },
       text = {
         { "Hagar Lightninghoof of Freewind Post wanted a look at an egg that the serpents of the canyons were guarding as though it were one of their own. When at last it was brought to him he took one look and sent for Motega Firemane at Whitereach Post. Vengeance had come to Thousand Needles, Hagar said, and Motega agreed: the legend of Arikara was true." },
@@ -3984,7 +3982,7 @@ ns.content = {
     },
     ["linken"] = {
       title = "Linken", kind = "figure", chapter = "ungoro-crater", portrait = 8012,
-      unlock = { { npc = 8737 }, { quest = 3908 }, { quest = 3962 } },
+      unlock = { { quest = 3962 } },
       also = { "ungoro-crater", "marshals-refuge", "fire-plume-ridge" },
       text = {
         { "Linken turned up at Marshal's Refuge one day with no idea how he had got there. Nobody else knows either, he says cheerfully. It is a secret to everybody. He is a gnome, though the gnomes of the camp note that he shows none of their interest in gadgets, and he had a pack, a sword, and a bump on the head." },
@@ -4131,7 +4129,7 @@ ns.content = {
       also = { "defias-brotherhood", "the-deadmines", "noble-conspiracy", "peoples-militia" },
       text = {
         { "Edwin VanCleef was the master of the Stonemasons' Guild, the man who rebuilt Stormwind, and when the nobles refused to pay his masons, he stood with the men who had worked under him. He led them in a riot through the streets they had built, and out of the city, and in Westfall the guild became the Defias Brotherhood." },
-        { "He leads it still, from his ship in the depths of the Deadmines, and he has never forgiven Stormwind. On his body, those who finally reached him found a letter, sealed and never sent, to the City Architect, and it led a long way, as far as the gardens of the royal keep." },
+        { "He led it to the end, from his ship in the depths of the Deadmines, and he never forgave Stormwind. On his body, those who finally reached him found a letter, sealed and never sent, to the City Architect. Where that letter led is another story." },
         { "I have tried to write of him fairly. He was wronged, and he did great wrong in return, and the farmers of Westfall paid for both." },
       },
     },
@@ -4205,8 +4203,8 @@ ns.content = {
       unlock = { { area = 16732 }, { area = 17732 }, { area = 16877 }, { area = 16878 }, { area = 16879 }, { area = 16880 }, { quest = 95810 }, { quest = 95795 } },
       also = { "whelgars-excavation-site", "explorers-league", "dragonmaw-clan", "deathstalkers", "earthen-ring", "wetlands" },
       text = {
-        { "Prospector Whelgar's marsh is not the only dig in the Wetlands. A crew out of Loch Modan went up into the hills above it, into country no dwarf had set foot in, and found ruins, a second marsh up there with raptors and grasses taller than anything the diggers had seen, and something much older underneath. Not all of them came back. Dorin Songblade, the smith in Lakeshire, sent someone after his brother Daewyn when the letters stopped, and the answer was a body in the fen. Ardin Grassman of Menethil went up for the grasses and was found alive. He sent his wife a heart braided from reeds to say he was coming home." },
-        { "What the dig turned up were shards of a strange composite stone that throws light like a living prism, and pieces of a machine built of rock. Rethiel the Greenwarden felt an ancient energy stirring under those waters and told the diggers to stop. The relics have gone three ways since: to the elders on the Elder Rise in Thunder Bluff, to the Earthen Ring, who say a shard hums with the voice of the world and holds memories of the past, and to our own Hall of Explorers, where High Explorer Magellas declares that the keepers' marks on it are unmistakable." },
+        { "Prospector Whelgar's marsh is not the only dig in the Wetlands. A crew out of Loch Modan went up into the hills above it, into country no dwarf had set foot in, and found ruins, a second marsh up there with raptors and grasses taller than anything the diggers had seen, and something much older underneath. Not all of them have come back. Dorin Songblade, the smith in Lakeshire, has heard nothing from his brother Daewyn since the letters stopped, and Ardin Grassman of Menethil went up for the grasses and has not come back." },
+        { "The crew's dig has turned up shards of a strange composite stone that throws light like a living prism, and pieces of a machine built of rock. Rethiel the Greenwarden feels an ancient energy stirring under that marsh and wants the digging stopped. The elders of Thunder Bluff, the Earthen Ring and our own Hall of Explorers all want the relics, and I expect each will find in them what it hoped to." },
         { "Others have noticed. The Dragonmaw have moved in, hoping the place will win them back their old power and the favour of Rend Blackhand, and the Dark Lady's Deathstalkers are watching them. A titan machine, a dragon clan and the Forsaken's spies, all on one damp hillside." },
       },
     },
@@ -4269,7 +4267,7 @@ ns.content = {
     },
     ["the-third-fleet"] = {
       title = "The Third Fleet", kind = "history", chapter = "wetlands",
-      unlock = { { area = 1039 }, { quest = 288 }, { quest = 289 }, { quest = 292 } },
+      unlock = { { quest = 293 } },
       also = { "menethil-harbor", "wetlands", "red-dragonflight", "dragonmaw-clan", "the-second-war" },
       text = {
         { "The wrecks on the Wetlands' northern shore were the Third Fleet of Kul Tiras. On its last voyage it was caught off this coast by red dragons, dragons ridden by orcs, and burned and sunk where it lay. The Kul Tirans call it the Doomed Fleet." },
@@ -4364,7 +4362,7 @@ ns.content = {
     },
     ["shrine-of-akir"] = {
       title = "The Shrine of Akir", kind = "place", chapter = "zephras-isle",
-      unlock = { { area = 16629 }, { area = 16630 }, { quest = 92646 }, { quest = 93835 } },
+      unlock = { { quest = 93835 } },
       also = { "the-al-aketh", "talaanis-shadowsong", "the-high-order", "the-windshapers" },
       text = {
         { "The Shrine of Akir, in the Shen'dar Highlands, is the holy place of the Al'Aketh and was the seat of their leader, the High Priestess Lorthuna. Taking it needed the High Order, the Windshapers and the peacekeepers together, which tells you something about the cult's strength and more about how rarely those three agree. Valennia Stormfist, the peacekeepers' captain, was gravely wounded in the inner sanctum, and Lorthuna fled by a portal to the Rohashi Spires above." },

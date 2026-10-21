@@ -4,8 +4,6 @@ title: Linken
 kind: figure
 portrait: 8737
 unlock:
-  - npc: 8737
-  - quest: 3908
   - quest: 3962
 also: [ungoro-crater, marshals-refuge, fire-plume-ridge]
 ---

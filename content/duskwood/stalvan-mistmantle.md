@@ -4,8 +4,6 @@ title: Stalvan Mistmantle
 kind: figure
 portrait: 315
 unlock:
-  - kill: 315
-  - area: Manor Mistmantle
   - quest: 98
 also: [duskwood, darkshire]
 ---

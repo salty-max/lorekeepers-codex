@@ -3,9 +3,7 @@ id: dartols-rod
 title: Dartol's Rod
 kind: history
 unlock:
-  - quest: 1045
   - quest: 1046
-  - kill: 3696
 also: [furbolgs, astranaar, sentinels, ashenvale]
 ---
 Teronis, a friend of Raene Wolfrunner's, was helping the Sentinels of Astranaar against the furbolgs, and he believed a rod made by Dartol, an evil wizard now dead, could slow their attacks. He went after its gem at the shrine on an island in Lake Falathim and did not come back. His body was found there, cut by murloc blades, with his journal still on him.

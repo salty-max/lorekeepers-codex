@@ -3942,7 +3942,7 @@ ns.translate({
       text = {
         { "La Forteresse d'Angor est le repaire du clan Ombreforge dans les Terres ingrates, le donjon Sombrefer d'où ils creusent à Uldaman. Voilà longtemps qu'ils courent après les secrets des Titans, et ce qu'ils veulent par-dessus tout, c'est le savoir qui fait des golems plus puissants. Hammertoe Grez le cherchait lui aussi, pour qu'il ne tombe pas entre leurs mains, et lui et l'Historien Karnik, du Hall des explorateurs, cherchaient ensemble les artefacts perdus." },
         { "Les Ombreforge emmenèrent Hammertoe dans Uldaman pour apprendre ce qu'il savait. Les secours que le Prospecteur Ryedol envoya après lui le trouvèrent mourant. Hammertoe ne demanda qu'une chose, son amulette, que Magregan Deepshadow lui avait prise et qui pouvait mener celui qui la portait aux parchemins qu'ils cherchaient tous. Une fois qu'on l'eut retrouvée, Hammertoe la fit porter à Ryedol, et Ryedol l'envoya à Karnik. Hammertoe cherchait l'origine de notre peuple, dit Ryedol, et arrêter les Ombreforge faisait partie du même ouvrage. Karnik alla consulter l'esprit de son vieux compagnon, et le Conseiller Belgrum, au nom du roi, ordonna de frapper Angor." },
-        { "Ragnaros lui-même, on l'apprit alors, avait envoyé un ambassadeur à Angor pour superviser les fouilles des Ombreforge. Quand l'Ambassadeur Infernus tomba, le clan perdit son lien avec le Pic Rochenoire. Belgrum envoya ensuite le voyageur suivant chercher le dernier rêve de Hammertoe, la Tablette de volonté, un morceau de pierre que les Titans auraient gravé de magie pour donner à leurs créations une volonté propre. Elle est partie chez les mages du roi, qui doivent dire si la légende tient. Hammertoe est mort pour elle sans jamais l'avoir vue." },
+        { "Ragnaros lui-même, on l'apprit alors, avait envoyé un ambassadeur à Angor pour superviser les fouilles des Ombreforge. Quand l'Ambassadeur Infernus tomba, le clan perdit son lien avec le Pic Rochenoire. Belgrum envoya ensuite le voyageur suivant chercher le dernier rêve de Hammertoe, la Tablette de volonté, un morceau de pierre que les Titans auraient gravé de magie pour donner à leurs créations une volonté propre. Hammertoe est mort pour elle sans jamais l'avoir vue." },
       },
     },
     ["arathi-basin"] = {
@@ -4197,8 +4197,8 @@ ns.translate({
       title = "Le ravin des Éboulis",
       text = {
         { "Au sud-est des Serres-Rocheuses s'ouvre un ravin avec une grotte profonde, et les kobolds qui s'y trouvent creusent comme des possédés, en quête d'un cristal rare qu'ils appellent résonite. Les chamans de Roche-Soleil sentirent que quelque chose n'allait pas sous les montagnes et allèrent voir pourquoi, et au fond de la grotte, ils trouvèrent un tonneau de résonite, et endormi à l'intérieur, l'un des terrestres : un être de pierre vivante nommé Goggeroc." },
-        { "Les terrestres, si l'on en croit les disques d'Uldaman, furent créés par les titans pour façonner le monde, et ce sont les ancêtres de mon propre peuple. J'aurais donné beaucoup pour parler avec l'un d'eux. Les chamans de Roche-Soleil le jugèrent dangereux pour la terre, le réveillèrent affaibli et le détruisirent avant qu'il ne retrouve sa force, et les kobolds retournèrent à leurs fouilles." },
-        { "Je ne dis pas qu'ils ont eu tort. Je n'y étais pas. Mais j'aimerais beaucoup savoir ce qu'un terrestre faisait endormi dans un tonneau sous les Serres-Rocheuses, et qui l'y avait mis." },
+        { "Les terrestres, si l'on en croit les disques d'Uldaman, furent créés par les titans pour façonner le monde, et ce sont les ancêtres de mon propre peuple. J'aurais donné beaucoup pour parler avec l'un d'eux. Les chamans de Roche-Soleil le jugent dangereux pour la terre, et comptent le réveiller pendant qu'il est faible, pour le détruire avant qu'il ne retrouve sa force." },
+        { "Je ne dis pas qu'ils ont tort. Je ne l'ai pas vu. Mais j'aimerais beaucoup savoir ce qu'un terrestre faisait endormi dans un tonneau sous les Serres-Rocheuses, et qui l'y avait mis." },
       },
     },
     ["brackenwall-village"] = {
@@ -4602,8 +4602,8 @@ ns.translate({
       title = "Le donjon de Fort-de-Durn",
       text = {
         { "Fort-de-Durn contrôlait les camps d'internement des orcs après la Deuxième Guerre. Son maître, Aedelas Blackmoore, éleva un enfant orc comme esclave et gladiateur, avec l'intention de lui faire commander une armée docile. Cet enfant était Thrall. Taretha Foxton, une jeune fille de la maison de Blackmoore, se lia d'amitié avec lui et l'aida à s'évader." },
-        { "Thrall alla libérer son peuple. Blackmoore est mort, et le Syndicat tient le donjon. Ses ambitions lui ont survécu ailleurs : dans un manoir au bord du lac Lordamere, Aliden Perenolde projetait d'asservir des orcs à son tour. Sa compagne, Elysa, portait le pendentif de Taretha." },
-        { "Les agents de Thrall vinrent à Hautebrande le récupérer, et le chef de guerre l'a de nouveau. Un pendentif est peu de chose à côté de la chute d'une forteresse, $gvoyageur:voyageuse;. Il préserve le nom de quelqu'un dont l'aide a rendu cette chute possible." },
+        { "Thrall alla libérer son peuple. Blackmoore est mort, et le Syndicat tient le donjon. Ses ambitions lui ont survécu ailleurs : dans un manoir au bord du lac Lordamere, Aliden Perenolde projette d'asservir des orcs à son tour. Sa compagne, Elysa, porte le pendentif de Taretha." },
+        { "Thrall veut ravoir ce pendentif. Un pendentif est peu de chose à côté de la chute d'une forteresse, $gvoyageur:voyageuse;. Celui-ci préserve le nom de quelqu'un dont l'aide a rendu cette chute possible." },
         { side = "Horde", aside = true, sign = "P. F.", "Une jeune fille d'une maison de Lordaeron a fait plus pour les orcs que toute son Alliance. Son nom mérite de figurer dans d'autres histoires que celle-ci." },
       },
     },
@@ -4687,7 +4687,7 @@ ns.translate({
       title = "Edwin VanCleef",
       text = {
         { "Edwin VanCleef était le maître de la guilde des Tailleurs de pierre, l'homme qui rebâtit Hurlevent, et quand les nobles refusèrent de payer ses maçons, il prit le parti des hommes qui avaient travaillé sous ses ordres. Il les mena dans une émeute à travers les rues qu'ils avaient bâties, puis hors de la cité, et dans la Marche de l'Ouest, la guilde devint la Confrérie défias." },
-        { "Il la dirige toujours, depuis son navire au fond des Mortemines, et il n'a jamais pardonné à Hurlevent. Sur son corps, ceux qui finirent par l'atteindre trouvèrent une lettre, scellée et jamais envoyée, adressée à l'architecte de la cité, et elle mena loin, jusqu'aux jardins du donjon royal." },
+        { "Il la dirigea jusqu'au bout, depuis son navire au fond des Mortemines, et ne pardonna jamais à Hurlevent. Sur son corps, ceux qui finirent par l'atteindre trouvèrent une lettre, scellée et jamais envoyée, adressée à l'architecte de la cité. Où menait cette lettre, c'est une autre histoire." },
         { "J'ai essayé d'écrire sur lui avec justesse. On lui a fait du tort, il en a fait beaucoup en retour, et les fermiers de la Marche de l'Ouest ont payé pour les deux." },
       },
     },
@@ -4747,8 +4747,8 @@ ns.translate({
     ["excavation-site-wetlands"] = {
       title = "Excavations : les Paluns",
       text = {
-        { "Le marais du Prospecteur Whelgar n'est pas la seule fouille des Paluns. Une équipe venue du Loch Modan est montée dans les collines qui le dominent, sur des terres où aucun nain n'avait jamais posé le pied, et y a trouvé des ruines, un second marais là-haut, avec ses raptors et des herbes plus hautes que tout ce que les fouilleurs avaient jamais vu, et dessous, quelque chose de bien plus ancien. Tous ne sont pas revenus. Dorin Songblade, le forgeron de Comté-du-Lac, envoya quelqu'un aux nouvelles de son frère Daewyn quand les lettres cessèrent, et la réponse fut un corps dans la fange. Ardin Grassman, de Menethil, monta voir les herbes et fut retrouvé vivant. Il envoya à sa femme un cœur tressé de roseaux pour lui dire qu'il rentrait." },
-        { "Ce que la fouille a mis au jour, ce sont des éclats d'une étrange pierre composite qui diffracte la lumière tel un prisme vivant, et des morceaux d'une machine faite de roche. Rethiel le Gouverneur vert sentit une énergie ancienne s'éveiller sous ces eaux et dit aux fouilleurs d'arrêter. Les reliques sont depuis parties dans trois directions : chez les anciens de la Cime des Anciens, à Thunder Bluff, chez le Cercle terrestre, qui dit qu'un éclat vibre de la voix du monde même et garde des souvenirs du passé, et dans notre propre Hall des explorateurs, où le Grand Explorateur Magellas assure que ces marques ne peuvent avoir été laissées que par les gardiens." },
+        { "Le marais du Prospecteur Whelgar n'est pas la seule fouille des Paluns. Une équipe venue du Loch Modan est montée dans les collines qui le dominent, sur des terres où aucun nain n'avait jamais posé le pied, et y a trouvé des ruines, un second marais là-haut, avec ses raptors et des herbes plus hautes que tout ce que les fouilleurs avaient jamais vu, et dessous, quelque chose de bien plus ancien. Tous ne sont pas revenus. Dorin Songblade, le forgeron de Comté-du-Lac, est sans nouvelles de son frère Daewyn depuis que les lettres ont cessé, et Ardin Grassman, de Menethil, est monté voir les herbes et n'est pas revenu." },
+        { "Ce que la fouille a mis au jour, ce sont des éclats d'une étrange pierre composite qui diffracte la lumière tel un prisme vivant, et des morceaux d'une machine faite de roche. Rethiel le Gouverneur vert sent une énergie ancienne s'éveiller sous ce marais et voudrait qu'on cesse de creuser. Les anciens de Thunder Bluff, le Cercle terrestre et notre propre Hall des explorateurs se disputent les reliques, et je m'attends à ce que chacun y trouve ce qu'il espère." },
         { "D'autres l'ont remarqué. Les Dragonmaw s'y sont installés, espérant que l'endroit leur rendra leur puissance d'antan et la faveur de Rend Blackhand, et les Traqueurs noirs de la Dame noire les surveillent. Une machine des Titans, un clan de dresseurs de dragons et les espions des Réprouvés, le tout sur une même colline détrempée." },
       },
     },
@@ -4981,8 +4981,8 @@ ns.translate({
     ["ghost-howl"] = {
       title = "Hurleur fantomatique",
       text = {
-        { "Hurleur fantomatique est un grand loup de Mulgore dont la peau porte une terrible blessure, reçue en combattant la Légion ardente. La cicatrice donne à ce trophée de chasse une histoire qui dépasse la poursuite à travers les plaines." },
-        { "Skorn Whitecloud reconnaît la peau au village de Sabot-de-Sang. Il offre au chasseur l'une de ses armes et espère que l'esprit du loup a trouvé la paix." },
+        { "Hurleur fantomatique est un grand loup de Mulgore dont la peau porte une terrible blessure. La cicatrice donne à ce trophée de chasse une histoire qui dépasse la poursuite à travers les plaines." },
+        { "En Mulgore, quelqu'un reconnaîtra ce loup et saura d'où lui vient cette cicatrice." },
       },
     },
     ["gnolls"] = {
@@ -5145,7 +5145,7 @@ ns.translate({
       text = {
         { "Helcular était un sorcier des collines au-dessus d'Austrivage, et il était presque devenu une liche quand les gens d'Austrivage trouvèrent l'antre où il menait ses rituels et le tuèrent. Ils l'enterrèrent dans leur propre cimetière, pour garder un œil sur lui, j'imagine. Son apprenti le prit mal." },
         { "Les yétis ont désormais l'antre, et avec lui le bâton par lequel Helcular accomplissait ses rites. Il avait bâti trois bûchers cérémoniels dans les grottes de ces montagnes, les flammes d'Azel, de Veraz et d'Uzel, et son apprenti veut qu'on récupère le bâton, qu'on le charge à chacune d'elles et qu'on le plante dans la tombe de son maître, au milieu de la ville humaine." },
-        { "Ce qui sort alors du cimetière d'Austrivage n'est pas le sorcier qu'il était, mais cela se souvient de ceux qui l'ont enterré. Austrivage a bien des ennemis, $gvoyageur:voyageuse;. Celui-là, elle se l'est fait toute seule." },
+        { "Ce qui sortira alors du cimetière d'Austrivage, l'apprenti ne le dit pas. Austrivage a bien des ennemis, $gvoyageur:voyageuse;. Cet ennemi-là, elle se l'est fait toute seule." },
       },
     },
     ["high-elves"] = {
@@ -5344,8 +5344,7 @@ ns.translate({
       title = "Kirith le Damné",
       text = {
         { "Le lieutenant Kirith servait le héros de la Horde dont le fantôme attend aujourd'hui hors de Pierrêche. Tous deux furent capturés dans les Terres foudroyées par l'archimage Allistarj et emprisonnés dans une grotte. Le héros tint bon. La volonté de Kirith céda. Son commandant entendit les expériences depuis sa propre cage, les cris résonnant dans les salles, et après cela, il ne le vit ni ne l'entendit plus." },
-        { "Ce que les expériences ont fait de lui arpente aujourd'hui les Anneaux du serpent sous le nom de Kirith le Damné. Mettez-y fin et ce qui reste du lieutenant vous parlera, et sourira même : il sait comment Razelikh le Souilleur se protège, avec trois serviteurs portant chacun un tiers d'amulette, et il vous renvoie à son commandant avec la nouvelle." },
-        { "Loramus Thalipedes, qui chasse les démons en Azshara, juge inconcevable que quelqu'un ait délivré Kirith de ses souffrances. C'est l'une des rares choses bienveillantes arrivées dans les Terres foudroyées depuis longtemps." },
+        { "Ce que les expériences ont fait de lui arpente aujourd'hui les Anneaux du serpent sous le nom de Kirith le Damné. Mettez-y fin et ce qui reste du lieutenant vous parlera, et sourira même : il sait comment Razelikh le Souilleur se protège, avec trois serviteurs portant chacun un tiers d'amulette, et il vous renvoie à son commandant avec la nouvelle. Y mettre fin est l'une des rares choses bienveillantes arrivées dans les Terres foudroyées depuis longtemps." },
       },
     },
     ["kobolds"] = {
@@ -5476,7 +5475,7 @@ ns.translate({
       title = "Le maréchal Windsor",
       text = {
         { "Le maréchal Reginald Windsor commandait des soldats de l'Alliance à la Veille de Morgan et rassembla des preuves reliant les orcs Blackrock au vol draconique noir. Il en vint à soupçonner que quelqu'un à Hurlevent voulait que ces preuves se perdent. Les Sombrefer le capturèrent et prirent ses notes, puis entreprirent de déchiffrer leur code." },
-        { "Windsor survécut dans la prison de la Ville des Ombreforges. Il affirmait que Bolvar Fordragon était aveugle à la vérité, bien que la preuve se tînt à deux pas de lui. Ceux qui sauvèrent le maréchal comprirent vite ce qu'il voulait dire." },
+        { "Windsor est retenu dans la prison de la Ville des Ombreforges. Il affirme que Bolvar Fordragon est aveugle à la vérité, bien que la preuve se tienne à deux pas de lui. Celui qui le fera sortir comprendra ce qu'il veut dire." },
       },
     },
     ["marshals-refuge"] = {
@@ -5579,7 +5578,6 @@ ns.translate({
       text = {
         { "Morgan Ladimore était un chevalier de ce pays, connu pour défendre les pauvres et les affligés, marié jeune à une jeune femme nommée Lys et père de trois enfants. Quand la guerre éclata en Lordaeron, il partit au nord combattre aux côtés d'Uther le Porteur de lumière, et il vit tout ce que devint cette guerre : la Main d'argent dissoute, Uther mort, la peste. Ce qui le garda sain d'esprit, ce fut la pensée de rentrer chez lui." },
         { "Il rentra pour trouver une forêt devenue sombre et une maison en ruine, et enfin, au cimetière de Colline-aux-Corbeaux, la tombe de sa femme. Quelque chose se brisa en lui. Quand les gardiens du cimetière tentèrent de le retenir, il les tua, et quand il comprit ce qu'il avait fait, il se tua. On l'enterra à la hâte, hors du cimetière, et en quelques jours sa tombe était vide. Il arpente aujourd'hui le Bois de la Pénombre sous le nom de Mor'Ladim, et tue tous ceux qu'il croise." },
-        { "Il ignorait que l'une de ses filles avait survécu. Sarah Ladimore sert parmi les Veilleurs, et elle voudrait qu'il sache que personne ne lui en veut." },
       },
     },
     ["morshan-rampart"] = {
@@ -6744,7 +6742,7 @@ ns.translate({
       text = {
         { "Quand les troggs surgirent d'Uldaman, ils vinrent si vite que certains des gens de Forgefer se retrouvèrent pris derrière leurs lignes. Baelog était de ceux-là. Ami du Prospecteur Stormpike de la Ligue des explorateurs, il avait mené une petite troupe loin dans les profondeurs d'Uldaman juste avant l'attaque, et Stormpike envoya des voyageurs voir si certains vivaient encore." },
         { "Ils vivaient, et de bonne humeur. Olaf avait parié que sa barbe lui descendrait jusqu'aux genoux avant qu'ils ne revoient âme qui vive, et quand les secours arrivèrent, il lui manquait encore quelques pouces. Eric, dit l'Agile, était le troisième. Pris au piège ou non, Baelog ne s'était pas tourné les pouces. Son journal décrit le chemin de la Chambre de Khaz'mul, derrière une lourde porte fermée : prendre le Médaillon de Gni'kiv dans le coffre de Baelog, arracher la Hampe de Tsol au trogg Revelosh, assembler les deux en Bâton de la préhistoire et s'en servir dans la salle de la carte. Faites tout ceci, écrivait-il, et la chambre sera à vous." },
-        { "Stormpike avoue qu'il doutait que la chambre existe. Il espère que la découverte incitera les chefs de Forgefer à reprendre Uldaman, et ses secrets avec. Les voyageurs de la Horde trouveront la troupe de Baelog bien moins heureuse de les voir." },
+        { "Baelog est sûr que la chambre existe. Uldaman appartenait à Forgefer avant l'arrivée des troggs, et la Ligue des explorateurs n'y a pas renoncé. Les voyageurs de la Horde trouveront la troupe de Baelog bien moins heureuse de les voir." },
       },
     },
     ["the-lost-ones"] = {
@@ -7302,7 +7300,7 @@ ns.translate({
       text = {
         { "Zanzil le Paria tient les Ruines de Jubuwal et d'Aboraz, sur la côte au nord-est de Baie-du-Butin, entouré de partisans qui ne semblent pas tout à fait maîtres d'eux-mêmes. Il était sorcier-docteur jusqu'à ce que les chefs de sa propre tribu prennent peur de lui et le chassent. Son art est un mélange de plantes de la jungle qui étouffe la volonté et endurcit le corps, et ses zombies, ses chasseurs et ses sorciers-docteurs en sont tous imprégnés." },
         { "Les Darkspear ont contre lui un grief particulier. Selon une vieille coutume, ils avaient confié Yenniku, le plus jeune fils de leur chef, aux Gurubashi de Zul'Gurub, et le perdirent en partant avec Thrall. Nimboya revint de la lointaine Orgrimmar pour retrouver le garçon et apprit que Zanzil le tenait, corps et esprit. Il fallut la Vue de l'esprit, un joyau arraché au mage ogre Mai'Zoth et façonné en Gemme d'âme, pour soustraire l'âme de Yenniku à Zanzil." },
-        { "Son mélange a des acheteurs. Crank Fizzlebub, à Baie-du-Butin, en paie des échantillons, avec un petit extra pour la discrétion, et l'une de ses recettes finit dans une bière brune destinée à rendre les coureurs des Salines trop ivres pour courir. Les trolls qui ont banni Zanzil craignaient ce qu'il pouvait faire à l'esprit des autres." },
+        { "Son mélange a des acheteurs. Crank Fizzlebub, à Baie-du-Butin, en paie des échantillons, avec un petit extra pour la discrétion. Les trolls qui ont banni Zanzil craignaient ce qu'il pouvait faire à l'esprit des autres." },
       },
     },
     ["zephras-isle"] = {

@@ -138,7 +138,7 @@ the Crusher, Large Loch Crocolisk.
 | ✅ The Red Dragonflight | creature | killing a dragonkin of Grim Batol (1045–1050) |
 | ✅ Whelgar's Excavation Site | place | Whelgar's Excavation Site (118) |
 | ✅ The Mosshide Gnolls | faction | any Mosshide kill (1007–1014); Mosshide Fen (1020) |
-| ✅ Excavation Site: Wetlands | place | Forever only: Excavation Site: Wetlands (both areas of the name), Lost Marsh, Stalker's Thicket, Site of the Guardian, Lost Dig Site; quests 95810, 95795: the dig above Whelgar's, the titan relics, the Dragonmaw and the Deathstalkers (the beta's texts, 21 October 2026) |
+| ✅ Excavation Site: Wetlands | place | Forever only: Excavation Site: Wetlands (both areas of the name), Lost Marsh, Stalker's Thicket, Site of the Guardian, Lost Dig Site; quests 95810, 95795 (the area unlock tells no one's fate, 22 Oct): the dig above Whelgar's, the titan relics, the Dragonmaw and the Deathstalkers (the beta's texts, 21 October 2026) |
 | ✗ Ironbeard's Tomb | | dropped: no quest or source gives it a story |
 
 Not paged: Direforge Hill (Dragonmaw), Raptor Ridge, Bluegill Marsh, Black
@@ -162,7 +162,7 @@ Dragonmaw Battlemaster.
 | ✅ Stormwind City | place | the city (1519) (rebuilt by the stonemasons after the First War) |
 | ✅ The Regency of Stormwind | history | talking to Bolvar Fordragon (1748) or the boy king Anduin Wrynn (1747): King Varian missing, Bolvar regent |
 | ✅ Lady Katrana Prestor | figure | talking to her (1749) ❓ write as the court sees her, no reveal |
-| ✅ The Great Masquerade | history | quest The Great Masquerade (6403, Alliance), or killing Onyxia (10184): Prestor unmasked as Onyxia (the Horde's attunement chain never names Prestor) |
+| ✅ The Great Masquerade | history | quest The Great Masquerade (6403, Alliance), not the Onyxia kill (a raider who never did the chain would learn Windsor's death): Prestor unmasked as Onyxia (the Horde's attunement chain never names Prestor) |
 | ✅ The Noble Conspiracy | history | killing Lord Gregor Lescovar (1754); quest The Attack! (434): the nobles who paid the Defias |
 | ✅ SI:7 | faction | talking to Master Mathias Shaw (332) |
 | ✅ The Church of the Holy Light | faction | talking to Archbishop Benedictus (1284) or Bishop Farthing (1212) |
@@ -184,7 +184,7 @@ murlocs, gnolls.
 | ✅ The People's Militia | faction | talking to Gryan Stoutmantle (234), a paladin of the Silver Hand born in Westfall |
 | ✅ Moonbrook | place | Moonbrook (20) |
 | ✅ The Deadmines | place | the dungeon (1581): the Defias shipyard in a goblin mine |
-| ✅ Edwin VanCleef | figure | killing him (639); quest The Defias Brotherhood (166) |
+| ✅ Edwin VanCleef | figure | killing him (639); quest The Defias Brotherhood (166): the letter found, not where it leads |
 | ✗ The Harvest Golems | | dropped: no vanilla source ties them to a story (they're in the Westfall page) |
 
 Not paged: the Jansen Stead, the Molsen and Saldean farms, Jangolode Mine, the
@@ -216,9 +216,9 @@ clan, gnolls, murlocs, black dragon whelps.
 | ✅ Darkshire | place | Darkshire (42) |
 | ✅ The Night Watch | faction | talking to Commander Althea Ebonlocke (264) |
 | ✅ Raven Hill | place | Raven Hill (94); Raven Hill Cemetery (492) |
-| ✅ Stalvan Mistmantle | figure | killing him (315); Manor Mistmantle (1098); quest The Legend of Stalvan (98) |
-| ✅ Mor'Ladim | figure | killing him (522); quest Mor'Ladim (228): Morgan Ladimore and his daughter |
-| ✅ The Embalmer | creature | killing Stitches (412) or Eliza (314): Abercrombie, his bride and his gift |
+| ✅ Stalvan Mistmantle | figure | quest The Legend of Stalvan (98) only: the page solves the chain's mystery |
+| ✅ Mor'Ladim | figure | killing him (522); quest Mor'Ladim (228); reading The Story of Morgan Ladimore: Morgan Ladimore (his daughter left to the game's 229, 231) |
+| ✅ The Embalmer | creature | quest Translation to Ello (252): Abercrombie unmasked, his bride still in her grave (not on Stitches or Eliza: a kill would tell the twist) |
 
 Not paged: Addle's Stead, the Yorgen Farmstead (Sven), Brightwood Grove, the
 Rotting Orchard, Vul'Gol Ogre Mound, Roland's Doom, the Hushed and Darkened
@@ -242,7 +242,7 @@ paged in Peoples and Powers: the worgen, the Defias, ogres.
 | ✅ Zul'Gurub | place | the raid (1977): the Atal'ai's city and Hakkar's return |
 | ✅ Hakkar the Soulflayer | figure | killing him (14834); quest The Heart of Hakkar (8183) |
 | ✅ The Zandalar Tribe | faction | Yojamba Isle (3357); talking to Molthor (14875) or Exzhal (14910) |
-| ✅ Zanzil the Outcast | figure | killing him (2534); quests Saving Yenniku (592), Zanzil's Secret (621) |
+| ✅ Zanzil the Outcast | figure | quest Saving Yenniku (592) only: Yenniku's soul |
 
 Not paged: the naga coves, the Crystal Shore, Lake Nazferiti, Mosh'Ogg Mound
 (ogres), Venture Co. camps, Jaguero Isle, Nek'mani Wellspring, King Bangalash
@@ -298,7 +298,7 @@ Snarlmane, Ravenclaw Regent, Gorefang, Old Vicejaw, Krethis Shadowspinner.
 | ✅ Hillsbrad Foothills | place | the zone (267) |
 | ✅ Southshore | place | Southshore (271) |
 | ✅ Tarren Mill | place | Tarren Mill (272) |
-| ✅ Durnholde Keep | history | Durnholde Keep (275); quest Taretha's Gift (508): Blackmoore, the camps and Thrall's escape |
+| ✅ Durnholde Keep | history | Durnholde Keep (275); quest Taretha's Gift (508): Blackmoore, the camps and Thrall's escape, the pendant still to recover |
 | ✅ Dun Garok | place | Dun Garok (290) (Ironforge's southern fortress) |
 
 Not paged: Hillsbrad Fields, Azurelode Mine, Purgation Isle, Nethander Stead,
@@ -332,7 +332,7 @@ Powers: the Syndicate, ogres.
 | ✅ Thoradin's Wall | history | Thoradin's Wall (Arathi Highlands) (1857): Arathor, the first human kingdom |
 | ✅ Refuge Pointe | place | Refuge Pointe (320) |
 | ✅ Hammerfall | place | Hammerfall (321) (the internment camp Doomhammer and Thrall broke) |
-| ✅ Myzrael | figure | killing her (2755); quest Summoning the Princess (656) ❓ what she is |
+| ✅ Myzrael | figure | quest Summoning the Princess (656), not the kill (the crystals' change comes after it) ❓ what she is |
 | ✅ Arathi Basin | place | the battleground (3358); the League of Arathor and the Defilers |
 
 Not paged: the Circles of Binding (in Myzrael), Northfold Manor, Dabyrie's
@@ -410,8 +410,8 @@ Darkscythe, Deathspeaker Selendre, High General Abbendis.
 | ✅ Uldaman | place | the dungeon (1337); killing Archaedas (2748) |
 | ✅ The Platinum Discs | history | quest The Platinum Discs (2278): the titans, the earthen, and where dwarves came from |
 | ✅ Theldurin the Lost | figure | talking to him (2785): a Twilight's Hammer deserter, the cult's cells in Ironforge and the Undercity (quests 687, 709, 727-737, 968, 971, 1013) |
-| ✅ The Lost Dwarves | figure | reading Baelog's Journal (123463); talking to (or targeting) Baelog, Eric or Olaf (6906-6908); quest The Hidden Chamber (2240) |
-| ✅ Angor Fortress | place | killing Ambassador Infernus (2745); quests Prospect of Faith (724), An Ambassador of Evil (762): Hammertoe's end, the Shadowforge's base (no area unlock: it would tell Hammertoe's death before Uldaman) |
+| ✅ The Lost Dwarves | figure | reading Baelog's Journal (123463); talking to (or targeting) Baelog, Eric or Olaf (6906-6908); quest The Hidden Chamber (2240): Stormpike's verdict left to the game |
+| ✅ Angor Fortress | place | quests An Ambassador of Evil (762), The Lost Tablets of Will (1139), not the Infernus kill or 724 (both before the strike it tells): Hammertoe's end, the Shadowforge's base (no area unlock: it would tell Hammertoe's death before Uldaman) |
 
 Not paged: Lethlor Ravine, Apocryphan's Rest,
 Camp Kosh and the ogre camps, Mirage Flats, the Dustbowl. Rares without a
@@ -425,7 +425,7 @@ Broken Tooth, Zaricotl, 7:XT.
 | ✅ Searing Gorge | place | the zone (51) |
 | ✅ The Thorium Brotherhood | faction | Thorium Point (1446); reputation Thorium Brotherhood (59) friendly |
 | ✅ The Cauldron | place | The Cauldron (246); The Slag Pit (1443); Grimesilt Dig Site (247) |
-| ✅ The Suntara Stones | history | quest Rise, Obsidion! (3566); killing Lathoric the Black (8391) or Obsidion (8400): Dorius Stonetender's betrayal |
+| ✅ The Suntara Stones | history | quest Rise, Obsidion! (3566) only: Dorius Stonetender's betrayal comes out at the turn-in |
 | ✅ Zamael Lunthistle | figure | talking to (or targeting) him (8436); quest Prayer to Elune (3378): the caged night elf spirit, his tale from wow-data's gossip pages (the prayer's Darnassus ending left out: targeting would tell it) |
 | ✅ Kalaran Windblade | figure | quests The Torch of Retribution (3454), Set Them Ablaze! (3463), not on meeting him (npc unlocks fire on targeting, and the page tells the chain): vengeance for his father, the torch, his tale from the gossip pages |
 
@@ -442,7 +442,7 @@ Shleipnarr, Scald, Highlord Mastrogonde, Slave Master Blackheart.
 | ✗ Flame Crest | place | dropped: a small neutral outpost with no story of its own, mentioned on the zone page |
 | ✅ The Ruins of Thaurissan | history | Ruins of Thaurissan (250): the summoning of Ragnaros |
 | ✅ The Altar of Storms | history | Altar of Storms (Burning Steppes) (255): Gul'dan's death knights |
-| ✅ Marshal Windsor | figure | talking to him (9023); quest Marshal Windsor (4241) |
+| ✅ Marshal Windsor | figure | talking to him (9023); quest Marshal Windsor (4241): his rescue not told |
 
 Not paged: Dreadmaul Rock (ogres), Draco'dar and the Pillar of Ash (black
 dragons), Blackrock Pass and Stronghold (the Blackrock clan), Terror Wing Path.
@@ -456,7 +456,7 @@ Reaver, Hahk'Zor, Gorgon'och, Deathmaw, Terrorspark, Volchan.
 | ✅ Blackrock Mountain | place | Blackrock Mountain (25) |
 | ✅ Blackrock Depths | place | the dungeon (1584): Shadowforge City |
 | ✅ Emperor Dagran Thaurissan | figure | killing him (9019) |
-| ✅ Princess Moira Bronzebeard | figure | talking to (or targeting) her (8929); quests The Princess's Surprise (4363), The Princess Saved? (4004) ❓ |
+| ✅ Princess Moira Bronzebeard | figure | quests (not on targeting her: the page tells Thaurissan's death and the heir) The Princess's Surprise (4363), The Princess Saved? (4004) ❓ |
 | ✅ Blackrock Spire | place | the dungeon (1583) |
 | ✅ Warchief Rend Blackhand | figure | killing him (10429): the Dark Horde |
 | ✅ Molten Core | place | the raid (2717) |
@@ -559,7 +559,7 @@ Radison, Flagglemurk, Lady Vespira, Lord Sinslayer.
 | ✅ Blackfathom Deeps | place | the dungeon (719); killing Aku'mai (4829) |
 | ✗ The Shrine of Aessina | | dropped: no vanilla source gives it a story |
 | ✅ Warsong Gulch | place | the battleground (3277): the Silverwing Sentinels and the Warsong Outriders |
-| ✅ Dartol's Rod | history | quests Raene's Cleansing (1045, 1046, not 1030: meeting Krolg comes before Ran's death); killing Ran Bloodtooth (3696): Teronis, the rod, Krolg's view of the corruption |
+| ✅ Dartol's Rod | history | quest Raene's Cleansing (1046 only: not 1030, meeting Krolg comes before Ran's death, nor 1045 or the Ran kill, before Raene's honours): Teronis, the rod, Krolg's view of the corruption |
 
 Not paged: Raynewood Retreat, Maestra's Post, Silverwind Refuge, Forest Song,
 Zoram'gar Outpost, Lake Falathim and Mystral Lake (in Dartol's Rod), Fallen Sky Lake, Iris Lake, the
@@ -577,7 +577,7 @@ Raze, Ursol'lok, Apothecary Falthis.
 | ✅ Stonetalon Peak | place | Stonetalon Peak (467); The Talon Den (468) |
 | ✅ Sun Rock Retreat | place | Sun Rock Retreat (460) |
 | ✅ Windshear Crag | place | Windshear Crag (461); The Charred Vale (465): the Venture Co. clear-cut |
-| ✅ Boulderslide Ravine | place | Boulderslide Ravine (2540), Boulderslide Cavern (3157); killing Goggeroc (11920); quest Earthen Arise (6481): a sleeping earthen under the mountains |
+| ✅ Boulderslide Ravine | place | Boulderslide Ravine (2540), Boulderslide Cavern (3157), not the kill or Earthen Arise (6481), which come after and would contradict it: a sleeping earthen under the mountains, the shamans' plan not its end |
 
 Not paged: Malaka'jin, Camp Aparaje, Grimtotem Post, the Talondeep Path,
 Webwinder Path, Mirkfallon and Cragpool lakes, Greatwood Vale.
@@ -629,7 +629,7 @@ Qirot, Old Grizzlegut, Gnarl Leafbrother, Snarler.
 | ✅ Freewind Post | place | Freewind Post (484) |
 | ✅ The Shimmering Flats | place | The Shimmering Flats (439); Mirage Raceway (2240) |
 | ✅ The Rustmaul Dig Site | place | The Rustmaul Dig Site: a dwarven dig that broke into a silithid hive |
-| ✅ Arikara | creature | killing her (10882); quests Serpent Wild (4865), Arikara (5088): the serpent of vengeance, Magatha's warning |
+| ✅ Arikara | creature | quest Arikara (5088) only: the serpent of vengeance, Magatha's warning |
 
 Not paged: the Great Lift, Highperch, Darkcloud Pinnacle (Grimtotem, its burial needle in Arikara), Galak
 Hold and Camp E'thok (centaurs), Splithoof, Roguefeather Den, the Screeching
@@ -722,7 +722,7 @@ Death Flayer, Captain Flat Tusk, Geolord Mottle.
 | ✅ Thunder Bluff | place | the city (1638) |
 | ✅ Cairne Bloodhoof | figure | talking to (or targeting) him (3057) |
 | ✅ Arch Druid Hamuul Runetotem | figure | talking to him (5769) |
-| ✅ Ghost Howl | creature | killing him (3056); quest The Demon Scarred Cloak (770): the white wolf wounded fighting the Legion |
+| ✅ Ghost Howl | creature | killing him (3056); quest The Demon Scarred Cloak (770), whose answer (the Legion's wound, Skorn) the page leaves to the game: the white wolf wounded fighting the Legion |
 
 Not paged: Bael'dun Digsite (in Bael Modan), the Venture Co. Mine, the water
 wells, Red Cloud Mesa, Windfury Ridge (harpies), Palemane Rock (gnolls),

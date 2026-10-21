@@ -4,8 +4,6 @@ title: Morbent Fel
 kind: figure
 portrait: 1200
 unlock:
-  - kill: 1200
-  - area: Forlorn Rowe
   - quest: 55
 also: [raven-hill, the-third-fleet, scythe-of-elune, darkshire, duskwood]
 ---

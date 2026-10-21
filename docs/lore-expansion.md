@@ -92,7 +92,7 @@ histories; this holds what belongs to no single land.
 | Page | Chapter / kind | Unlock | The story | Sources · keep out |
 |---|---|---|---|---|
 | The Scythe of Elune | Duskwood / history | area Roland's Doom (2161); quest 1043 | Velinde, the Scythe and the worgen of Duskwood: an old mystery left open (research doc, page 1) | Quests 1037-1044, both journals. Out: Goldrinn, the Legion artifact |
-| The Third Fleet | Wetlands / history | area The Lost Fleet (1039); quests 288, 289, 292 | The Intrepid, Captain Halyndor's cursed crew and the Eye of Paleth (page 2) | Quests 288-293. Out: the Cataclysm rewrite |
+| The Third Fleet | Wetlands / history | quest 293 (22 Oct: the page tells the Eye's cleansing) | The Intrepid, Captain Halyndor's cursed crew and the Eye of Paleth (page 2) | Quests 288-293. Out: the Cataclysm rewrite |
 | The Sons of Lothar | Elwynn / history | area Valley of Heroes (1617); read the five plaques (25329-25333) | The five who crossed the Portal and were "presumed deceased" (page 3) | Plaques; WC2: Beyond the Dark Portal; *Beyond the Dark Portal* (2008). Out: their later return |
 | The Emerald Dream | Moonglade / history | area Shrine of Remulos (2362); npc Remulos 11832; quest 8447 | The pact of Nordrassil and the Dream; why the druids sleep (page 8) | Book 175730. Out: the Nightmare's author, Ardenweald |
 | Malfurion Stormrage | Moonglade / figure | area Stormrage Barrow Dens (2363); npc Remulos 11832 | The first druid: the Sundering, Nordrassil, the long sleep, the waking in the Third War, lost again in the Dream | WotA trilogy; WC3; book 175729. Out: where his spirit is, his return |
@@ -135,10 +135,10 @@ histories; this holds what belongs to no single land.
 | The Wintersaber Trainers | Peoples / faction | reputation 589 friendly; area Frostsaber Rock (2241) | The Sentinels who raise the white sabers of Winterspring | Their quests |
 | The Earthen Ring | Peoples / faction | npc Je'neu Sancrea 12736 (Zoram'gar), Rimblat Earthshatter 16134 (Light's Hope) | The shamans' circle that keeps the elements in balance | Their quests. Out: the Cataclysm's Ring |
 | Atiesh | Tanaris / history | quest 9251, 9257 | The Guardian's staff, broken and corrupted, cleansed again | The quests; *The Last Guardian* (research doc, reserves) |
-| Linken | Un'Goro / figure | npc 8737; quests 3845, 3908, 3914, 3942, 3961, 3962 | A newcomer to Marshal's Refuge with a bumped head and a strange sword, remembering his adventure piece by piece | The quests (research doc, reserves) |
+| Linken | Un'Goro / figure | quest 3962 (22 Oct: the page tells how his memory ends) | A newcomer to Marshal's Refuge with a bumped head and a strange sword, remembering his adventure piece by piece | The quests (research doc, reserves) |
 | Helcular | Alterac / figure | area Growless Cave (1683); quests 552, 553 | A wizard Southshore's mob killed on the edge of lichdom, and the apprentice who wants the town to pay | The quests |
-| Morbent Fel | Duskwood / figure | kill 1200; quest 55 | The sorcerer in the house above Raven Hill's cemetery, and the revenge sought on him | The quests. Overlap: Raven Hill |
-| Kirith the Damned | Blasted Lands / figure | npc 7728; area Serpent's Coil (1440); quest 2721 | A lieutenant tortured by Archmage Allistarj until his will broke, and what he became | The quests |
+| Morbent Fel | Duskwood / figure | quest 55 (22 Oct: the page tells the forging of Morbent's Bane) | The sorcerer in the house above Raven Hill's cemetery, and the revenge sought on him | The quests. Overlap: Raven Hill |
+| Kirith the Damned | Blasted Lands / figure | quest 2721 (22 Oct: the page tells what his spirit says) | A lieutenant tortured by Archmage Allistarj until his will broke, and what he became | The quests |
 | Bolvar Fordragon | Elwynn / figure | npc 1748 | Stormwind's Highlord, regent's protector while the king is missing | Vanilla texts only. Out: everything from Wrath on |
 | Stonefields and Maclures | Elwynn / history | area The Stonefield Farm (63), The Maclure Vineyards (64); npc Tommy Joe Stonefield 252, Maybell Maclure 251 | Two farming families' feud, and the young lovers caught in it | The quests |
 | The Crusade's Fallen | Tirisfal / history | read the Scarlet Monastery tombs (175771-175781) | Who the Crusade buried: elves of Quel'Thalas, a lord of Alterac's Red Caverns, the first Chief Assassin | The tombs' texts |

@@ -3,10 +3,7 @@ id: the-third-fleet
 title: The Third Fleet
 kind: history
 unlock:
-  - area: The Lost Fleet
-  - quest: 288
-  - quest: 289
-  - quest: 292
+  - quest: 293
 also: [menethil-harbor, wetlands, red-dragonflight, dragonmaw-clan, the-second-war]
 ---
 The wrecks on the Wetlands' northern shore were the Third Fleet of Kul Tiras. On its last voyage it was caught off this coast by red dragons, dragons ridden by orcs, and burned and sunk where it lay. The Kul Tirans call it the Doomed Fleet.

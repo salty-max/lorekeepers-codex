@@ -4,8 +4,6 @@ title: Arikara
 kind: creature
 portrait: 10882
 unlock:
-  - kill: 10882
-  - quest: 4865
   - quest: 5088
 also: [freewind-post, thousand-needles, grimtotem, cairne-bloodhoof]
 ---

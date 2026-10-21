@@ -3934,7 +3934,7 @@ ns.translate({
       text = {
         { "Die Festung Angor ist die Feste des Schattenschmiedeklans im Ödland, die Burg der Dunkeleisenzwerge, von der aus sie in Uldaman graben. Seit Langem sind sie hinter den Geheimnissen der Titanen her, und am meisten wollen sie das Wissen, mit dem sich stärkere Golems bauen lassen. Hammertoe Grez war ebenfalls dahinter her, um es ihnen vorzuenthalten, und er und Historiker Karnik aus der Halle der Forscher suchten gemeinsam nach den verschollenen Artefakten." },
         { "Die Schattenschmiede verschleppten Hammertoe nach Uldaman, um herauszufinden, was er wusste. Die Hilfe, die Ausgrabungsleiter Ryedol ihm nachschickte, fand ihn sterbend. Hammertoe bat um eines, sein Amulett, das Magregan Grubenschatten ihm abgenommen hatte und das seinen Träger zu den Schriftrollen führen konnte, nach denen sie alle suchten. Als es wiedergefunden war, ließ Hammertoe es zu Ryedol bringen, und Ryedol schickte es weiter zu Karnik. Hammertoe habe nach dem Ursprung unseres Volkes gesucht, sagte Ryedol, und die Schattenschmiede aufzuhalten sei Teil derselben Arbeit gewesen. Karnik ging, den Geist seines alten Gefährten zu befragen, und Berater Belgrum befahl im Namen des Königs einen Schlag gegen Angor." },
-        { "Ragnaros selbst, so stellte sich heraus, hatte einen Botschafter nach Angor geschickt, um über die Grabungen der Schattenschmiede zu wachen. Als Botschafter Infernus fiel, verlor der Klan seine Verbindung zur Blackrockspitze. Danach schickte Belgrum den nächsten Reisenden aus, Hammertoes letztem Traum nachzujagen, der Schrifttafel des Willens, einem Steinsplitter, den die Titanen mit Magie beschriftet haben sollen, um ihren Schöpfungen einen eigenen Willen zu geben. Sie ging an die Magier des Königs, die herausfinden sollen, ob die Legende stimmt. Hammertoe ist für sie gestorben, ohne sie je gesehen zu haben." },
+        { "Ragnaros selbst, so stellte sich heraus, hatte einen Botschafter nach Angor geschickt, um über die Grabungen der Schattenschmiede zu wachen. Als Botschafter Infernus fiel, verlor der Klan seine Verbindung zur Blackrockspitze. Danach schickte Belgrum den nächsten Reisenden aus, Hammertoes letztem Traum nachzujagen, der Schrifttafel des Willens, einem Steinsplitter, den die Titanen mit Magie beschriftet haben sollen, um ihren Schöpfungen einen eigenen Willen zu geben. Hammertoe ist für sie gestorben, ohne sie je gesehen zu haben." },
       },
     },
     ["arathi-basin"] = {
@@ -4189,8 +4189,8 @@ ns.translate({
       title = "Steinschlagklamm",
       text = {
         { "Im Südosten des Steinkrallengebirges gibt es eine Klamm mit einer tiefen Höhle, und die Kobolde darin haben wie besessen gegraben, auf der Suche nach einem seltenen Kristall, den sie Resonit nennen. Die Schamanen von Sonnenfels spürten etwas Falsches unter den Bergen und gingen nachsehen, und am Grund der Höhle fanden sie ein Fass voller Resonit, und darin schlafend einen der Irdenen: ein Wesen aus lebendem Stein namens Goggeroc." },
-        { "Die Irdenen wurden, wenn man den Scheiben von Uldaman glauben darf, von den Titanen geschaffen, um die Welt zu formen, und sie sind die Vorväter meines eigenen Volkes. Ich hätte sehr viel darum gegeben, mit einem zu sprechen. Die Schamanen von Sonnenfels hielten ihn für eine Bedrohung des Landes, weckten ihn geschwächt und vernichteten ihn, bevor er zu Kräften kommen konnte, und die Kobolde gruben weiter." },
-        { "Ich sage nicht, dass sie unrecht hatten. Ich war nicht dabei. Aber ich wüsste sehr gern, was ein Irdener schlafend in einem Fass unter dem Steinkrallengebirge tat, und wer ihn dort hineingelegt hat." },
+        { "Die Irdenen wurden, wenn man den Scheiben von Uldaman glauben darf, von den Titanen geschaffen, um die Welt zu formen, und sie sind die Vorväter meines eigenen Volkes. Ich hätte sehr viel darum gegeben, mit einem zu sprechen. Die Schamanen von Sonnenfels halten ihn für eine Bedrohung des Landes und wollen ihn wecken, solange er schwach ist, und ihn vernichten, bevor er zu Kräften kommt." },
+        { "Ich sage nicht, dass sie unrecht haben. Ich habe ihn nicht gesehen. Aber ich wüsste sehr gern, was ein Irdener schlafend in einem Fass unter dem Steinkrallengebirge zu suchen hatte, und wer ihn dort hineingelegt hat." },
       },
     },
     ["brackenwall-village"] = {
@@ -4594,8 +4594,8 @@ ns.translate({
       title = "Burg Durnholde",
       text = {
         { "Durnholde verwaltete nach dem Zweiten Krieg die Internierungslager der Orcs. Sein Herr, Aedelas Blackmoore, zog ein Orckind als Sklaven und Gladiator auf und wollte es ein gehorsames Heer befehligen lassen. Das Kind war Thrall. Taretha Foxton, ein Mädchen aus Blackmoores Haushalt, freundete sich mit ihm an und half ihm zu fliehen." },
-        { "Thrall befreite später sein Volk. Blackmoore ist tot, und das Syndikat hält die Burg. Sein Ehrgeiz überlebte anderswo: In einem Anwesen am Lordameresee plante Aliden Perenolde, seinerseits Orcs zu versklaven. Seine Gefährtin Elysa trug Tarethas Anhänger." },
-        { "Thralls Agenten kamen nach Hillsbrad, um ihn zurückzuholen, und der Kriegshäuptling hat ihn wieder. Ein Anhänger ist eine kleine Sache neben dem Fall einer Festung, $gReisender:Reisende;. Er bewahrt den Namen von jemandem, dessen Hilfe diesen Fall möglich machte." },
+        { "Thrall befreite später sein Volk. Blackmoore ist tot, und das Syndikat hält die Burg. Sein Ehrgeiz lebt anderswo fort: In einem Anwesen am Lordameresee plant Aliden Perenolde, seinerseits Orcs zu versklaven. Seine Gefährtin Elysa trägt Tarethas Anhänger." },
+        { "Thrall will den Anhänger zurückhaben. Ein Anhänger ist eine kleine Sache neben dem Fall einer Festung, $gReisender:Reisende;. Er bewahrt den Namen von jemandem, dessen Hilfe diesen Fall möglich machte." },
         { side = "Horde", aside = true, sign = "P. F.", "Ein Mädchen aus einem Haushalt Lordaerons hat für die Orcs mehr getan als die ganze Allianz Lordaerons. Ihr Name gehört in mehr Chroniken als diese." },
       },
     },
@@ -4679,7 +4679,7 @@ ns.translate({
       title = "Edwin van Cleef",
       text = {
         { "Edwin van Cleef war der Meister der Steinmetzgilde, der Mann, der Stormwind wiederaufbaute, und als die Adligen sich weigerten, seine Steinmetze zu bezahlen, stellte er sich zu den Männern, die unter ihm gearbeitet hatten. Er führte sie in einem Aufruhr durch die Straßen, die sie gebaut hatten, und hinaus aus der Stadt, und in Westfall wurde die Gilde zur Bruderschaft der Defias." },
-        { "Er führt sie noch immer, von seinem Schiff in der Tiefe der Todesminen aus, und er hat Stormwind nie vergeben. Bei seiner Leiche fanden diejenigen, die ihn schließlich erreichten, einen Brief an den Stadtarchitekten, versiegelt und nie abgeschickt, und er führte sehr weit, bis in die Gärten der königlichen Burg." },
+        { "Er führte sie bis zuletzt, von seinem Schiff in der Tiefe der Todesminen aus, und er hat Stormwind nie vergeben. Bei seiner Leiche fanden diejenigen, die ihn schließlich erreichten, einen Brief an den Stadtarchitekten, versiegelt und nie abgeschickt. Wohin dieser Brief führte, ist eine andere Geschichte." },
         { "Ich habe versucht, gerecht über ihn zu schreiben. Ihm wurde Unrecht getan, und er tat großes Unrecht zurück, und die Bauern von Westfall zahlten für beides." },
       },
     },
@@ -4739,9 +4739,9 @@ ns.translate({
     ["excavation-site-wetlands"] = {
       title = "Ausgrabungsstätte: Sumpfland",
       text = {
-        { "Der Sumpf von Ausgrabungsleiter Whelgar ist nicht die einzige Grabung im Sumpfland. Ein Trupp aus Loch Modan stieg in die Hügel oberhalb davon, in ein Land, das noch kein Zwerg betreten hatte, und fand Ruinen, dort oben einen zweiten Sumpf mit Raptoren und Gräsern, höher als alles, was die Ausgräber je gesehen hatten, und darunter etwas weit Älteres. Nicht alle kamen zurück. Dorin Songblade, der Schmied in Seenhain, schickte jemanden nach seinem Bruder Daewyn, als die Briefe ausblieben, und die Antwort war ein Leichnam im Moor. Ardin Grassman aus Menethil stieg wegen der Gräser hinauf und wurde lebend gefunden. Er schickte seiner Frau ein aus Schilf geflochtenes Herz, um ihr zu sagen, dass er heimkommt." },
-        { "Zutage brachte die Grabung Splitter eines seltsamen zusammengesetzten Steins, der das Licht streut wie ein lebendiges Prisma, und Teile einer Maschine aus Fels. Rethiel der Sumpfhüter spürte eine uralte Energie unter diesen Wassern erwachen und sagte den Ausgräbern, sie sollten aufhören. Die Fundstücke sind seither in drei Richtungen gegangen: zu den Ältesten auf der Anhöhe der Ältesten in Thunder Bluff, zum Irdenen Ring, für den ein Splitter mit der Stimme der Welt selbst summt und Erinnerungen an die Vergangenheit birgt, und in unsere eigene Halle der Forscher, wo Hochforscher Magellas erklärt, die Zeichen der Hüter darauf seien unmissverständlich." },
-        { "Andere haben es bemerkt. Die Dragonmaw haben sich dort festgesetzt, in der Hoffnung, der Ort bringe ihnen ihre alte Macht und die Gunst von Rend Blackhand zurück, und die Todespirscher der dunklen Fürstin beobachten sie. Eine Titanenmaschine, ein Drachenbändigerklan und die Spione der Verlassenen, alles auf einem feuchten Hügel." },
+        { "Der Sumpf von Ausgrabungsleiter Whelgar ist nicht die einzige Grabung im Sumpfland. Ein Trupp aus Loch Modan stieg in die Hügel oberhalb davon, in ein Land, das noch kein Zwerg betreten hatte, und fand Ruinen, dort oben einen zweiten Sumpf mit Raptoren und Gräsern, höher als alles, was die Ausgräber je gesehen hatten, und darunter etwas weit Älteres. Nicht alle sind zurückgekommen. Dorin Songblade, der Schmied in Seenhain, hat nichts mehr von seinem Bruder Daewyn gehört, seit die Briefe ausblieben, und Ardin Grassman aus Menethil stieg wegen der Gräser hinauf und kam nicht zurück." },
+        { "Die Grabung des Trupps hat Splitter eines seltsamen zusammengesetzten Steins, der das Licht streut wie ein lebendiges Prisma, und Teile einer Maschine aus Fels zutage gebracht. Rethiel der Sumpfhüter spürt eine uralte Energie unter diesem Sumpf erwachen und will, dass die Grabung aufhört. Die Ältesten in Thunder Bluff, der Irdene Ring und unsere eigene Halle der Forscher wollen die Fundstücke jeweils für sich, und ich erwarte, dass jeder darin findet, was er sich erhofft hat." },
+        { "Andere sind aufmerksam geworden. Die Dragonmaw haben sich dort festgesetzt, in der Hoffnung, der Ort bringe ihnen ihre alte Macht und die Gunst von Rend Blackhand zurück, und die Todespirscher der dunklen Fürstin beobachten sie. Eine Titanenmaschine, ein Drachenbändigerklan und die Spione der Verlassenen, alles auf einem feuchten Hügel." },
       },
     },
     ["explorers-league"] = {
@@ -4973,8 +4973,8 @@ ns.translate({
     ["ghost-howl"] = {
       title = "Geistheuler",
       text = {
-        { "Geistheuler ist ein großer Wolf aus Mulgore, dessen Fell eine schreckliche Wunde aus dem Kampf gegen die Brennende Legion trägt. Die Narbe gibt dieser besonderen Jagdtrophäe eine Geschichte, die über die Jagd über die Ebenen hinausreicht." },
-        { "Skorn Whitecloud erkennt das Fell im Dorf der Bluthufe wieder. Er bietet dem Jäger eine seiner Waffen an und hofft, dass der Geist des Wolfes Frieden gefunden hat." },
+        { "Geistheuler ist ein großer Wolf aus Mulgore, dessen Fell eine schreckliche Wunde trägt. Die Narbe gibt dieser besonderen Jagdtrophäe eine Geschichte, die über die Jagd auf den Ebenen hinausreicht." },
+        { "Jemand in Mulgore wird diesen Wolf kennen und wissen, woher die Narbe stammt." },
       },
     },
     ["gnolls"] = {
@@ -5137,7 +5137,7 @@ ns.translate({
       text = {
         { "Helcular war ein Zauberer aus den Hügeln über Southshore, und er war beinahe ein Lich, als die Leute von Southshore seinen Ritualhort fanden und ihn töteten. Sie begruben ihn auf ihrem eigenen Friedhof, wohl um ihn im Auge zu behalten. Sein Lehrling nahm es schlecht auf." },
         { "Die Yetis haben den Hort jetzt, und mit ihm die Rute, durch die Helcular seine Riten wirkte. Er hatte in den Höhlen dieser Berge drei zeremonielle Feuer errichtet, die Flammen von Azel, Veraz und Uzel, und sein Lehrling will, dass die Rute geborgen, an jeder von ihnen aufgeladen und in das Grab seines Meisters mitten in der Stadt der Menschen getrieben wird." },
-        { "Was dann aus dem Friedhof von Southshore heraufkommt, ist nicht der Zauberer, der er war, doch es erinnert sich, wer ihn begraben hat. Southshore hat sehr viele Feinde, $gReisender:Reisende;. Diesen hat es sich selbst gemacht." },
+        { "Was dann aus dem Friedhof von Southshore heraufkommt, verrät der Lehrling nicht. Southshore hat sehr viele Feinde, $gReisender:Reisende;. Diesen einen hat es sich selbst gemacht." },
       },
     },
     ["high-elves"] = {
@@ -5336,8 +5336,7 @@ ns.translate({
       title = "Kirith der Verdammte",
       text = {
         { "Leutnant Kirith diente dem Helden der Horde, dessen Geist nun vor Stonard wartet. Die beiden wurden in den Verwüsteten Landen von Erzmagier Allistarj gefangen genommen und dort in einer Höhle eingesperrt. Der Held hielt durch. Kiriths Wille brach. Sein Befehlshaber hörte die Experimente aus seinem eigenen Käfig, die Schreie, die durch die Hallen hallten, und danach sah und hörte er nichts mehr von ihm." },
-        { "Was die Experimente aus ihm machten, wandelt nun als Kirith der Verdammte durch die Schlangenschlinge. Macht dem ein Ende, und was vom Leutnant übrig ist, spricht zu Euch und grinst sogar: Er weiß, wie Razelikh der Entweiher sich schützt, mit drei Dienern, die je ein Drittel eines Amuletts tragen, und er schickt Euch mit der Nachricht zurück zu seinem Befehlshaber." },
-        { "Loramus Thalipedes, der in Azshara Dämonen jagt, nennt es unvorstellbar, dass jemand Kirith von seinem Leiden erlöst hat. Es ist eines der wenigen freundlichen Dinge, die in den Verwüsteten Landen seit langem geschehen sind." },
+        { "Was die Experimente aus ihm machten, wandelt nun als Kirith der Verdammte durch die Schlangenschlinge. Macht dem ein Ende, und was vom Leutnant übrig ist, spricht zu Euch und grinst sogar: Er weiß, wie Razelikh der Entweiher sich schützt, mit drei Dienern, die je ein Drittel eines Amuletts tragen, und er schickt Euch mit der Nachricht zurück zu seinem Befehlshaber. Dem ein Ende zu machen, ist eines der wenigen freundlichen Dinge, die in den Verwüsteten Landen seit Langem geschehen sind." },
       },
     },
     ["kobolds"] = {
@@ -5468,7 +5467,7 @@ ns.translate({
       title = "Marshal Windsor",
       text = {
         { "Marshal Reginald Windsor befehligte Soldaten der Allianz in Morgans Wacht und sammelte Beweise, die die Orcs der Blackrock mit dem schwarzen Drachenschwarm in Verbindung brachten. Er begann zu vermuten, dass jemand in Stormwind diese Beweise verloren sehen wollte. Die Dunkeleisenzwerge nahmen ihn gefangen, nahmen seine Aufzeichnungen und machten sich daran, ihren Code zu entschlüsseln." },
-        { "Windsor überlebte im Gefängnis der Schattenschmiede. Er beharrte darauf, Bolvar Fordragon sei blind für die Wahrheit, obwohl der Beweis zwei Fuß von ihm entfernt stehe. Wer den Marshal rettete, erfuhr bald, was er meinte." },
+        { "Windsor sitzt im Gefängnis der Schattenschmiede. Er beharrt darauf, Bolvar Fordragon sei blind für die Wahrheit, obwohl der Beweis zwei Fuß von ihm entfernt stehe. Wer Windsor dort herausholt, erfährt, was er meint." },
       },
     },
     ["marshals-refuge"] = {
@@ -5571,7 +5570,6 @@ ns.translate({
       text = {
         { "Morgan Ladimore war ein Ritter dieses Landes, bekannt dafür, die Armen und Bedrängten zu verteidigen, jung verheiratet mit einem Mädchen namens Lys und Vater von drei Kindern. Als in Lordaeron der Krieg ausbrach, zog er nach Norden, um an der Seite von Uther Lightbringer zu kämpfen, und er sah alles, wozu dieser Krieg wurde: die aufgelöste Silberne Hand, Uthers Tod, die Seuche. Was ihn bei Verstand hielt, war der Gedanke an die Heimkehr." },
         { "Er kehrte heim in einen dunkel gewordenen Wald und ein zerstörtes Haus, und schließlich, auf dem Friedhof von Rabenflucht, an das Grab seiner Frau. Etwas in ihm zerbrach. Als die Wärter des Friedhofs ihn zurückhalten wollten, tötete er sie, und als er begriff, was er getan hatte, tötete er sich selbst. Man begrub ihn hastig, außerhalb des Friedhofs, und binnen weniger Tage war sein Grab leer. Nun wandelt er als Mor'Ladim durch den Dämmerwald und tötet jeden, dem er begegnet." },
-        { "Er wusste nicht, dass eine seiner Töchter überlebt hatte. Behüterin Ladimore dient in der Nachtwache, und sie möchte, dass er weiß, dass niemand ihm die Schuld gibt." },
       },
     },
     ["morshan-rampart"] = {
@@ -6736,7 +6734,7 @@ ns.translate({
       text = {
         { "Als die Troggs aus Uldaman hervorbrachen, kamen sie so schnell, dass einige Leute aus Ironforge hinter ihren Linien festsaßen. Baelog war einer von ihnen. Als Freund von Ausgrabungsleiter Stormpike von der Forscherliga hatte er kurz vor dem Angriff einen kleinen Trupp tief in die Grabungsstätte geführt, und Stormpike schickte Reisende aus, um zu erfahren, ob noch einer von ihnen lebte." },
         { "Sie lebten, und zwar bei guter Laune. Olaf hatte gewettet, dass ihm sein Bart bis zu den Knien wachsen würde, ehe sie wieder eine lebende Seele zu Gesicht bekämen, und als Hilfe kam, fehlten ihm noch ein paar Zoll. Eric, genannt der Flinke, war der Dritte. Festgesetzt oder nicht, Baelog hatte nicht die Hände in den Schoß gelegt. Sein Tagebuch beschreibt den Weg in die Kammer von Khaz'mul, hinter einer riesigen verschlossenen Tür: das Gni'kiv-Medaillon aus Baelogs Truhe nehmen, dem Trogg Revelosh den Schaft von Tsol abringen, beides zum Stab der Prähistorie vereinen und ihn im Kartenraum benutzen. Gelingt Euch das, schrieb er, gehört die Kammer Euch." },
-        { "Stormpike gibt zu, dass er bezweifelt hatte, dass es die Kammer überhaupt gibt. Er hofft, dass der Fund die Anführer von Ironforge dazu bewegt, Uldaman zurückzuerobern, samt seinen Geheimnissen. Reisende der Horde werden Baelogs Trupp deutlich weniger erfreut über ihren Besuch finden." },
+        { "Baelog ist sich sicher, dass es die Kammer gibt. Uldaman gehörte Ironforge, bevor die Troggs kamen, und die Forscherliga hat es nie aufgegeben. Reisende der Horde werden Baelogs Trupp deutlich weniger erfreut über ihren Besuch finden." },
       },
     },
     ["the-lost-ones"] = {
@@ -7294,7 +7292,7 @@ ns.translate({
       text = {
         { "Zanzil der Ausgestoßene hält die Ruinen von Jubuwal und die Ruinen von Aboraz an der Küste nordöstlich von Booty Bay, umgeben von Anhängern, die nicht ganz Herr ihrer selbst zu sein scheinen. Er war Hexendoktor, bis die Anführer seines eigenen Stammes Angst vor ihm bekamen und ihn verbannten. Seine Kunst ist eine Mixtur aus Dschungelpflanzen, die den Willen unterdrückt und den Körper stärkt, und seine Zombies, Jäger und Hexendoktoren stehen alle unter ihrem Einfluss." },
         { "Die Darkspear haben einen besonderen Groll gegen ihn. Nach altem Brauch gaben sie Yenniku, den jüngsten Sohn ihres Häuptlings, den Gurubashi von Zul'Gurub, und sie verloren ihn, als sie mit Thrall fortzogen. Nimboya kam aus dem fernen Orgrimmar zurück, um den Jungen zu finden, und erfuhr, dass Zanzil ihn mit Leib und Seele beherrschte. Es brauchte das Gedankenauge, ein Juwel, das man dem Ogermagier Mai'Zoth entrissen und zu einem Seelenedelstein umgeformt hatte, um Yennikus Seele aus Zanzils Gewalt zu holen." },
-        { "Seine Mixtur hat Käufer. Crank Fizzlebub in Booty Bay zahlt für Proben, und ein wenig extra für Verschwiegenheit, und eines seiner Rezepte landet in einem Starkbier, das die Rennfahrer der Schimmernden Ebene zu betrunken für ein Rennen machen soll. Die Trolle, die Zanzil verbannten, fürchteten, was er mit dem Geist anderer anstellen konnte." },
+        { "Seine Mixtur hat Käufer. Crank Fizzlebub in Booty Bay zahlt für Proben, und ein wenig extra für Verschwiegenheit. Die Trolle, die Zanzil verbannten, fürchteten, was er mit dem Geist anderer anstellen konnte." },
       },
     },
     ["zephras-isle"] = {

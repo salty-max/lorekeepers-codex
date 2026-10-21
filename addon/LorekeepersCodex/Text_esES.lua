@@ -3914,7 +3914,7 @@ ns.translate({
       text = {
         { "La Fortaleza de Angor es el bastión del clan Forjatiniebla en las Tierras Inhóspitas, la plaza fuerte de los Hierro Negro desde la que trabajan en Uldaman. Llevan mucho tiempo tras los secretos de los titanes, y lo que más desean es el saber para construir gólems más poderosos. Grez Dedomaza también iba tras él, para que no cayera en sus manos, y él y Karnik el Historiador, de la Sala de los Exploradores, buscaban juntos los artefactos perdidos." },
         { "Los Forjatiniebla se llevaron a Dedomaza a Uldaman para averiguar lo que sabía. La ayuda que el prospector Ryedol envió tras él lo encontró moribundo. Dedomaza pidió una sola cosa, su amuleto, que Magregan Sombraprofunda le había quitado y que podía guiar a quien lo llevara hasta los pergaminos que todos buscaban. Cuando lo recuperaron, Dedomaza hizo que se lo llevaran a Ryedol, y Ryedol se lo hizo llegar a Karnik. Dedomaza buscaba el origen de nuestro pueblo, dijo Ryedol, y detener a los Forjatiniebla formaba parte de la misma obra. Karnik fue a consultar al espíritu de su viejo compañero, y el consejero Belgrum, con la autoridad del rey, ordenó atacar Angor." },
-        { "El propio Ragnaros, según se supo, había enviado un embajador a Angor para supervisar las excavaciones de los Forjatiniebla. Cuando cayó el embajador Infernus, el clan perdió su vínculo con la Cumbre de Roca Negra. Después, Belgrum envió al siguiente viajero tras el último sueño de Dedomaza, la tablilla de Voluntad, un fragmento de piedra que, según la leyenda, los titanes grabaron con magia para dar voluntad propia a sus creaciones. Fue a parar a los magos del rey, que han de averiguar si la leyenda es cierta. Dedomaza murió por ella sin llegar a verla nunca." },
+        { "El propio Ragnaros, según se supo, había enviado un embajador a Angor para supervisar las excavaciones de los Forjatiniebla. Cuando cayó el embajador Infernus, el clan perdió su vínculo con la Cumbre de Roca Negra. Después, Belgrum envió al siguiente viajero tras el último sueño de Dedomaza, la tablilla de Voluntad, un fragmento de piedra que, según la leyenda, los titanes grabaron con magia para dar voluntad propia a sus creaciones. Dedomaza murió por ella sin llegar a verla nunca." },
       },
     },
     ["arathi-basin"] = {
@@ -4169,8 +4169,8 @@ ns.translate({
       title = "Barranco del Alud",
       text = {
         { "En el sureste de la Sierra Espolón hay un barranco con una cueva profunda. Sus kóbolds han excavado como poseídos tras un cristal raro al que llaman resonita. Los chamanes de Roca del Sol sintieron que algo andaba mal bajo las montañas y fueron a investigar. Al fondo de la cueva encontraron un barril de resonita y, dormido dentro, a un terráneo: un ser de piedra viva llamado Goggeroc." },
-        { "Si hay que creer los discos de Uldaman, los titanes crearon a los terráneos para dar forma al mundo y son los antepasados de mi pueblo. Habría dado mucho por hablar con uno. Los chamanes de Roca del Sol lo consideraron una amenaza para la tierra, lo despertaron debilitado y lo destruyeron antes de que recuperase sus fuerzas. Los kóbolds volvieron a excavar." },
-        { "No digo que se equivocaran. Yo no estaba allí. Pero me gustaría mucho saber qué hacía un terráneo dormido en un barril bajo la Sierra Espolón y quién lo puso allí." },
+        { "Si hay que creer los discos de Uldaman, los titanes crearon a los terráneos para dar forma al mundo y son los antepasados de mi pueblo. Habría dado mucho por hablar con uno. Los chamanes de Roca del Sol lo consideran una amenaza para la tierra y quieren despertarlo y destruirlo mientras aún está débil." },
+        { "No digo que se equivoquen. Yo no lo he visto. Pero me gustaría mucho saber qué hacía un terráneo dormido en un barril bajo la Sierra Espolón y quién lo puso allí." },
       },
     },
     ["brackenwall-village"] = {
@@ -4574,8 +4574,8 @@ ns.translate({
       title = "Castillo de Durnholde",
       text = {
         { "Durnholde controlaba los campos de internamiento orcos tras la Segunda Guerra. Su amo, Aedelas Lodonegro, crio a un niño orco como esclavo y gladiador, con la intención de que mandara un ejército obediente. El niño era Thrall. Taretha Foxton, una muchacha de la casa de Lodonegro, se hizo su amiga y lo ayudó a escapar." },
-        { "Thrall acabó liberando a su pueblo. Lodonegro ha muerto y el Sindicato ocupa el castillo. Sus ambiciones sobrevivieron en otro lugar: en una mansión junto al Lago Lordamere, Aliden Perenolde planeaba esclavizar orcos a su vez. Su compañera Elysa llevaba el colgante de Taretha." },
-        { "Los agentes de Thrall vinieron a Trabalomas para recuperarlo, y el Jefe de Guerra vuelve a tenerlo. Un colgante parece poca cosa junto a la caída de una fortaleza, $gviajero:viajera;. Conserva el nombre de alguien cuya ayuda hizo posible aquella caída." },
+        { "Thrall acabó liberando a su pueblo. Lodonegro ha muerto y el Sindicato ocupa el castillo. Sus ambiciones sobrevivieron en otro lugar: en una mansión junto al Lago Lordamere, Aliden Perenolde planea esclavizar orcos a su vez. Su compañera Elysa lleva el colgante de Taretha." },
+        { "Thrall quiere recuperarlo. Un colgante parece poca cosa junto a la caída de una fortaleza, $gviajero:viajera;. Ese colgante conserva el nombre de alguien cuya ayuda hizo posible aquella caída." },
         { side = "Horde", aside = true, sign = "P. F.", "Una muchacha de una casa de Lordaeron hizo más por los orcos que toda su Alianza. Su nombre merece figurar en más historias que esta." },
       },
     },
@@ -4659,7 +4659,7 @@ ns.translate({
       title = "Edwin VanCleef",
       text = {
         { "Edwin VanCleef era el maestro del Gremio de Canteros, el hombre que reconstruyó Ventormenta. Cuando los nobles se negaron a pagar a sus albañiles, se mantuvo al lado de quienes habían trabajado para él. Los encabezó en una revuelta por las calles que habían construido y fuera de la ciudad. En Páramos de Poniente, el gremio se convirtió en la Hermandad Defias." },
-        { "Aún la dirige desde su barco en las profundidades de las Minas de la Muerte, y nunca ha perdonado a Ventormenta. Quienes por fin llegaron hasta él hallaron en su cuerpo una carta sellada y nunca enviada al arquitecto urbano. Los condujo muy lejos, hasta los jardines del castillo real." },
+        { "La dirigió hasta el final desde su barco en las profundidades de las Minas de la Muerte, y nunca perdonó a Ventormenta. Quienes por fin llegaron hasta él hallaron en su cuerpo una carta sellada y nunca enviada al arquitecto urbano. Adónde llevó esa carta es otra historia." },
         { "He intentado escribir sobre él con justicia. Sufrió un agravio y a cambio hizo mucho daño. Los granjeros de Páramos de Poniente pagaron por ambas cosas." },
       },
     },
@@ -4719,9 +4719,9 @@ ns.translate({
     ["excavation-site-wetlands"] = {
       title = "Excavación: Los Humedales",
       text = {
-        { "El pantano del prospector Whelgar no es la única excavación de Los Humedales. Un equipo venido de Loch Modan subió a las colinas que lo dominan, a tierras que ningún enano había pisado jamás, y encontró ruinas, un segundo pantano allí arriba con raptores y hierbas más altas que todo lo que los excavadores habían visto, y debajo, algo mucho más antiguo. No todos volvieron. Dorin Filosón, el herrero de Villa del Lago, mandó a alguien a buscar a su hermano Daewyn cuando dejaron de llegar cartas, y la respuesta fue un cuerpo en la ciénaga. Ardin Grassman, de Menethil, subió a buscar las hierbas y lo encontraron con vida. Envió a su mujer un corazón trenzado con juncos para decirle que volvía a casa." },
-        { "Lo que sacó a la luz la excavación fueron fragmentos de una extraña piedra compuesta que dispersa la luz como un prisma vivo, y piezas de una máquina hecha de roca. Rethiel el Guardaverde sintió que una energía antigua despertaba bajo aquellas aguas y les dijo a los excavadores que pararan. Desde entonces, las reliquias han tomado tres caminos: hacia los ancianos del Alto de los Ancestros, en Cima del Trueno, hacia el Anillo de la Tierra, para quienes un fragmento vibra con la voz del propio mundo y guarda recuerdos del pasado, y hacia nuestra propia Sala de los Exploradores, donde el Alto Expedicionario Magellas asegura que las marcas de los guardianes no dejan lugar a dudas." },
-        { "Otros se han dado cuenta. El clan Faucedraco se ha instalado allí con la esperanza de que el lugar le devuelva su antiguo poder y el favor de Desgarro Puño Negro, y los mortacechadores de la Dama Oscura los vigilan. Una máquina de los titanes, un clan de domadores de dragones y los espías de los Renegados, todo en una misma colina empapada." },
+        { "El pantano del prospector Whelgar no es la única excavación de Los Humedales. Un equipo venido de Loch Modan subió a las colinas que lo dominan, a tierras que ningún enano había pisado jamás, y encontró ruinas, un segundo pantano allí arriba con raptores y hierbas más altas que todo lo que los excavadores habían visto, y debajo, algo mucho más antiguo. No todos han vuelto. Dorin Filosón, el herrero de Villa del Lago, no sabe nada de su hermano Daewyn desde que dejaron de llegar cartas, y Ardin Grassman, de Menethil, subió a buscar las hierbas y no ha vuelto." },
+        { "La excavación del equipo ha sacado a la luz fragmentos de una extraña piedra compuesta que dispersa la luz como un prisma vivo, y piezas de una máquina hecha de roca. Rethiel el Guardaverde siente que una energía antigua despierta bajo aquel pantano y quiere que se deje de excavar. Tanto los ancianos de Cima del Trueno como el Anillo de la Tierra y nuestra propia Sala de los Exploradores quieren las reliquias, y supongo que cada cual verá en ellas lo que espera ver." },
+        { "Otros también se han dado cuenta. El clan Faucedraco se ha instalado allí con la esperanza de que el lugar le devuelva su antiguo poder y el favor de Desgarro Puño Negro, y los mortacechadores de la Dama Oscura los vigilan. Una máquina de los titanes, un clan de domadores de dragones y los espías de los Renegados, todo en una misma colina empapada." },
       },
     },
     ["explorers-league"] = {
@@ -4953,8 +4953,8 @@ ns.translate({
     ["ghost-howl"] = {
       title = "Aullido Fantasma",
       text = {
-        { "Aullido Fantasma es un gran lobo de Mulgore cuya piel lleva una terrible herida de su lucha contra la Legión Ardiente. La cicatriz da a este trofeo de caza una historia que va más allá de la persecución por las llanuras." },
-        { "Skorn Nubeblanca reconoce la piel en el Poblado Pezuña de Sangre. Ofrece al cazador una de sus armas y espera que el espíritu del lobo haya encontrado la paz." },
+        { "Aullido Fantasma es un gran lobo de Mulgore cuya piel lleva una terrible herida. La cicatriz da a este trofeo de caza una historia que va más allá de la persecución por las llanuras." },
+        { "Alguien en Mulgore conocerá a este lobo y sabrá cómo se hizo esa cicatriz." },
       },
     },
     ["gnolls"] = {
@@ -5117,7 +5117,7 @@ ns.translate({
       text = {
         { "Helcular era un mago de las colinas sobre Costasur. Estaba a punto de convertirse en un exánime cuando los habitantes de Costasur encontraron su guarida ritual y lo mataron. Lo enterraron en su propio cementerio, cabe suponer que para vigilarlo. Su aprendiz se lo tomó mal." },
         { "Los yetis ocupan ahora la guarida y tienen la vara con la que Helcular realizaba sus ritos. Había construido tres piras ceremoniales en las cuevas de estas montañas, las Llamas de Azel, Veraz y Uzel. Su aprendiz quiere recuperar la vara, cargarla en cada una y clavarla en la tumba de su maestro, en mitad del pueblo humano." },
-        { "Lo que surge del cementerio de Costasur cuando se hace eso no es el mago que fue, pero recuerda quién lo enterró. Costasur tiene muchos enemigos, $gviajero:viajera;. Este se lo creó ella misma." },
+        { "Qué surgirá entonces del cementerio de Costasur, el aprendiz no lo dice. Costasur tiene muchos enemigos, $gviajero:viajera;. Este enemigo se lo creó el propio pueblo." },
       },
     },
     ["high-elves"] = {
@@ -5316,8 +5316,7 @@ ns.translate({
       title = "Kirith el Maldito",
       text = {
         { "El teniente Kirith servía al héroe de la Horda cuyo fantasma espera ahora fuera de Rocal. El archimago Allistarj capturó a ambos en Las Tierras Devastadas y los encerró en una cueva. El héroe resistió. La voluntad de Kirith cedió. Desde su propia jaula, su comandante oyó los experimentos, los gritos resonando por los pasillos. Después no volvió a verlo ni a oírlo." },
-        { "Lo que hicieron de él esos experimentos recorre ahora Serpiente Enroscada como Kirith el Maldito. Acaba con ello y lo que queda del teniente te hablará, e incluso sonreirá: sabe cómo se protege Razelikh el Envilecido, con tres sirvientes que llevan cada uno un tercio de un amuleto, y te envía con la noticia a su comandante." },
-        { "Loramus Thalipedes, que caza demonios en Azshara, considera inconcebible que alguien haya liberado a Kirith de su sufrimiento. Es una de las pocas cosas bondadosas que han ocurrido en Las Tierras Devastadas en mucho tiempo." },
+        { "Lo que hicieron de él esos experimentos recorre ahora Serpiente Enroscada como Kirith el Maldito. Acaba con ello y lo que queda del teniente te hablará, e incluso sonreirá: sabe cómo se protege Razelikh el Envilecido, con tres sirvientes que llevan cada uno un tercio de un amuleto, y te envía con la noticia a su comandante. Acabar con ello es una de las pocas cosas bondadosas que han ocurrido en Las Tierras Devastadas en mucho tiempo." },
       },
     },
     ["kobolds"] = {
@@ -5448,7 +5447,7 @@ ns.translate({
       title = "Alguacil Windsor",
       text = {
         { "El alguacil Reginald Windsor mandaba soldados de la Alianza en Vigilia de Morgan y reunió pruebas que vinculaban a los orcos Roca Negra con el Vuelo Negro. Llegó a sospechar que alguien de Ventormenta quería que esas pruebas se perdieran. Los Hierro Negro lo capturaron, se quedaron con sus notas y empezaron a descifrar su código." },
-        { "Windsor sobrevivió en la prisión de Ciudad Forjatiniebla. Insistía en que Bolvar Fordragon no veía la verdad, aunque la prueba estaba a dos pasos. Quienes rescataron al alguacil pronto supieron a qué se refería." },
+        { "Windsor sigue preso en la prisión de Ciudad Forjatiniebla. Insiste en que Bolvar Fordragon no ve la verdad, aunque la prueba está a dos pasos. Quien lo saque de allí sabrá a qué se refiere." },
       },
     },
     ["marshals-refuge"] = {
@@ -5551,7 +5550,6 @@ ns.translate({
       text = {
         { "Morgan Ladimor era un caballero de estas tierras, conocido por defender a pobres y afligidos. Se casó joven con una muchacha llamada Lys y tuvo tres hijos. Cuando estalló la guerra en Lordaeron, marchó al norte para luchar junto a Uther el Iluminado y vio en qué se convirtió aquella guerra: la disolución de la Mano de Plata, la muerte de Uther, la peste. Lo mantuvo cuerdo la idea de volver a casa." },
         { "Volvió a un bosque oscurecido y una casa en ruinas, y por fin, en el cementerio del Cerro del Cuervo, a la tumba de su esposa. Algo se quebró en él. Cuando los cuidadores del cementerio intentaron sujetarlo, los mató. Al comprender lo que había hecho, se quitó la vida. Lo enterraron deprisa, fuera del cementerio, y a los pocos días su tumba estaba vacía. Ahora recorre el Bosque del Ocaso como Mor'Ladim y mata a quien encuentra." },
-        { "No sabía que una de sus hijas había sobrevivido. Sarah Ladimor sirve en La Guardia Nocturna y querría que supiera que nadie lo culpa." },
       },
     },
     ["morshan-rampart"] = {
@@ -6716,7 +6714,7 @@ ns.translate({
       text = {
         { "Cuando los troggs salieron de Uldaman, llegaron tan deprisa que parte de la gente de Forjaz quedó atrapada tras sus líneas. Baelog era uno de ellos. Amigo del prospector Pico Tormenta, de la Liga de Expedicionarios, había llevado a una pequeña cuadrilla al fondo de la excavación justo antes del ataque, y Pico Tormenta envió viajeros a averiguar si alguno seguía con vida." },
         { "Seguían vivos, y de buen humor. Olaf había apostado a que la barba le llegaría a las rodillas antes de que volvieran a ver un alma viva, y cuando llegó la ayuda aún le quedaba un buen trecho. Eric, llamado el Suave, era el tercero. Atrapado o no, Baelog no se había quedado de brazos cruzados. Su diario describe el camino hasta la cámara de Khaz'mul, tras una enorme puerta cerrada: tomar el medallón de Gni'kiv del cofre de Baelog, arrebatarle al trogg Revelosh el bastón de Tsol, unir ambos en el Bastón de Prehistoria y usarlo en el cuarto de mapas. Haz todo esto, escribió, y la cámara será tuya." },
-        { "Pico Tormenta admite que dudaba de que la cámara existiera. Espera que el hallazgo anime a los líderes de Forjaz a recuperar Uldaman, y sus secretos con él. A los viajeros de la Horda, la cuadrilla de Baelog los recibe con bastante menos alegría." },
+        { "Baelog está seguro de que la cámara existe. Uldaman era de Forjaz antes de que llegaran los troggs, y la Liga de Expedicionarios no ha renunciado a recuperarla. A los viajeros de la Horda, la cuadrilla de Baelog los recibe con bastante menos alegría." },
       },
     },
     ["the-lost-ones"] = {
@@ -7274,7 +7272,7 @@ ns.translate({
       text = {
         { "Zanzil el Desarraigado domina las Ruinas de Jubuwal y las Ruinas de Aboraz, en la costa al noreste de la Bahía del Botín, rodeado de seguidores que no parecen del todo dueños de sí. Era médico brujo hasta que los líderes de su propia tribu empezaron a temerle y lo expulsaron. Su arte es una mezcla de plantas de la jungla que anula la voluntad y fortalece el cuerpo, y sus zombis, cazadores y médicos brujos están todos impregnados de ella." },
         { "Los Lanza Negra tienen un agravio especial contra él. Por una vieja costumbre entregaron a Yenniku, el hijo menor de su jefe, a los Gurubashi de Zul'Gurub, y lo perdieron cuando se marcharon con Thrall. Nimboya volvió desde la lejana Orgrimmar para encontrar al muchacho y supo que Zanzil lo dominaba en cuerpo y alma. Hizo falta el Ojo de la mente, una joya arrebatada al mago ogro Mai'Zoth y convertida en una gema de alma, para sacar el alma de Yenniku del poder de Zanzil." },
-        { "Su mezcla tiene compradores. Loquillo Pinchabujas, en la Bahía del Botín, paga por las muestras, y algo más por la discreción, y una de sus recetas acaba en una cerveza negra pensada para dejar a los corredores de El Desierto de Sal demasiado borrachos para correr. Los trols que desterraron a Zanzil temían lo que podía hacer con la mente de los demás." },
+        { "Su mezcla tiene compradores. Loquillo Pinchabujas, en la Bahía del Botín, paga por las muestras, y algo más por la discreción. Los trols que desterraron a Zanzil temían lo que podía hacer con la mente de los demás." },
       },
     },
     ["zephras-isle"] = {

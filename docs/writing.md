@@ -103,7 +103,11 @@ historical claims in other entries.
   npc tells on the spot (a tale in its gossip) is no event and may unlock
   on sight there. `bun run when --changed` before a commit prints each
   changed page's moments (the on-sight ones as "whichever comes first")
-  and what comes after them.
+  and what comes after them. When a page tells more than its moment: if
+  the moment is the page's (meeting someone, seeing a place), cut the
+  ending and leave it to the game. If the ending is the page's point (a
+  twist, a mystery solved), unlock on the chain's last quest (the audit of
+  22 October 2026).
 - Unlocks (the user's rules): places when discovered; figures when talked to;
   mobs and rares when killed (a people's page lists every creature id of it);
   capitals get one page for the whole city (no per-district pages). Ids are

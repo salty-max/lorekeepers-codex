@@ -4,9 +4,6 @@ title: The Shrine of Akir
 kind: place
 client: forever
 unlock:
-  - area: Shrine of Akir
-  - area: Rohashi Spires
-  - quest: 92646
   - quest: 93835
 also: [the-al-aketh, talaanis-shadowsong, the-high-order, the-windshapers]
 ---

@@ -4,7 +4,6 @@ title: The Suntara Stones
 kind: history
 unlock:
   - quest: 3566
-  - kill: 8391, 8400
 also: [the-cauldron, dark-iron-dwarves, explorers-league, ragnaros]
 ---
 The Suntara stones were a digger's rumour until Dorius Stonetender went into the Searing Gorge after them. A traveller found him on the road out, badly hurt and begging to be taken home to Ironforge. He was shot before they got there. He left behind a letter to his brother, Curator Thorius of the Hall of Explorers. The stones were real, it said, the Dark Irons had them, and their leader, Lathoric the Black, was using their power to enslave Dorius's excavation team. The diggers had been taken to the Cauldron to work night and day on something called Obsidion. Free them, the letter asked. It was signed as the last wish of a dead man.

@@ -4,7 +4,6 @@ title: Myzrael
 kind: figure
 portrait: 2755
 unlock:
-  - kill: 2755
   - quest: 656
 also: [arathi-highlands, kobolds, masters-glaive]
 ---
