@@ -465,7 +465,7 @@ Reaver, Hahk'Zor, Gorgon'och, Deathmaw, Terrorspark, Volchan.
 | ✅ Ragnaros | figure | killing him (11502) |
 | ✅ Blackwing Lair | place | the raid (2677) |
 | ✅ Nefarian | figure | killing him (11583), or Lord Victor Nefarius (10162) |
-| ✅ Franclorn Forgewright | figure | talking to (or targeting) him (8888); quests Dark Iron Legacy (3801, 3802) |
+| ✅ Franclorn Forgewright | figure | talking to (or targeting) him (8888); quests Dark Iron Legacy (3801, 3802); killing Fineous Darkvire (9056), for the living: his ghost and quests need you dead, so none of them can fire on hardcore |
 | ✅ Vaelastrasz | figure | talking to (or targeting) Vaelan (10296); killing Vaelastrasz the Corrupt (13020): Vaelan's tale, Deathwing and the Demon Soul |
 | ✅ The Chromatic Flight | creature | any chromatic kill (10442, 10447, 10814, 14020, 14261–14265, 14302); talking to (or targeting) Awbee (10740); Blackwing Lair (2677): Vaelan's and Awbee's tales, no rescue told |
 | ✅ The Veiled Blade | history | quest Return to Bodley (8996): Lord Valthalak, the company, Bodley's manual (dungeon set 2) |

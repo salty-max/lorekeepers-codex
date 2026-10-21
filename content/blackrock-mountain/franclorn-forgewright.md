@@ -5,6 +5,7 @@ kind: figure
 portrait: 8888
 unlock:
   - npc: 8888
+  - kill: 9056
   - quest: 3801
   - quest: 3802
 also: [blackrock-depths, dark-iron-dwarves, dagran-thaurissan, stonewrought-dam]
