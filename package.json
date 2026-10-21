@@ -14,6 +14,7 @@
     "kit:sync": "bun scripts/root.ts --run addon-kit/sync.ts addon/LorekeepersCodex",
     "ids": "bun scripts/root.ts --run addon-kit/ids.ts check",
     "kit:check": "bun scripts/root.ts --run addon-kit/sync.ts --check addon/LorekeepersCodex",
-    "locales": "bun scripts/locales.ts"
+    "locales": "bun scripts/locales.ts",
+    "when": "bun scripts/when.ts"
   }
 }

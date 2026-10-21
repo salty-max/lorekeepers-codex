@@ -26,6 +26,12 @@ stays there). What a page is and how it is written: `docs/writing.md`.
   `data/areas-forever.json`: the areas Forever adds (Forever's table;
   `bun scripts/areas.ts --forever`): Forever-only pages and `[forever]`
   unlocks may name them.
+- `scripts/when.ts` (`bun run when <page>|--changed|--all`): when each page
+  unlocks, in plain words, from wow-data (read-only): every rule, the earliest
+  moment one fires, the quests after a quest unlock in its chain and the
+  quests an npc gives, and a `!` when a page unlocks on sight before its
+  quests. A writer's check against a page telling more than the player has
+  seen.
 - `data/texts.json`: the books and plaques pages unlock by being read
   (`read: <title>`): each title's text objects and the title in every client
   language (`python3 scripts/texts.py`, after adding a read: unlock).

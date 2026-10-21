@@ -95,6 +95,11 @@ historical claims in other entries.
   (vanilla quest texts on Wowhead); the wiki mixes eras, so date every claim.
   When sources disagree or it's uncertain, write around it rather than guess.
   The pages to add under this rule: `docs/lore-expansion.md`.
+- Unlocks fire on sight (an npc targeted, not only talked to, a creature
+  killed, an area entered, a text read) or on a quest turned in: a page
+  unlocks only after the last thing it tells (Kalaran's on the torch's
+  quests, not on meeting him). `bun run when --changed` before a commit
+  prints each new page's earliest moment and what comes after it.
 - Unlocks (the user's rules): places when discovered; figures when talked to;
   mobs and rares when killed (a people's page lists every creature id of it);
   capitals get one page for the whole city (no per-district pages). Ids are
