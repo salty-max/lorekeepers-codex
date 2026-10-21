@@ -662,7 +662,7 @@ Murderous Blisterpaw.
 | ✅ Marshal's Refuge | place | Marshal's Refuge (541) |
 | ✅ The Crystal Pylons | history | quest Making Sense of It (4321); talking to J.D. Collie (9117): the titans' pylons |
 | ✅ Fire Plume Ridge | place | Fire Plume Ridge (537) |
-| ✅ Lar'korwi | creature | quest The Bait for Lar'korwi (4292): Torwa Pathfinder's chain (4290–4292), not the kill (a group's counts too) |
+| ✅ Lar'korwi | creature | quest The Bait for Lar'korwi (4292): Torwa Pathfinder's chain (4290–4292), not the kill (a helper who never took the quest can land it) |
 
 Not paged: Lakkari Tar Pits, Golakka Hot Springs, Terror Run, the Marshlands,
 Fungal Rock, Ironstone Plateau, the Slithering Scar (silithid). Rares without a

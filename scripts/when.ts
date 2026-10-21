@@ -160,6 +160,6 @@ for (const rel of wanted) {
   const quest = moments.find((m) => m.when === QUEST);
   if (sight.length > 1) console.log(`  earliest: whichever comes first of ${sight.join(", ")}`);
   else if (moments.length) console.log(`  earliest: ${moments[0].what}`);
-  if (quest && sight.length) console.log(`  ! on sight before any quest: ${sight.join(" or ")} can come before ${quest.what} (a kill counts a group's too: fine only if the page tells nothing of the chain)`);
+  if (quest && sight.length) console.log(`  ! on sight before any quest: ${sight.join(" or ")} can come before ${quest.what} (a kill may be landed by a helper who never took the quest: fine only if the page tells nothing of the chain)`);
   console.log("");
 }

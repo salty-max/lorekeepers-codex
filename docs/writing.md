@@ -99,7 +99,8 @@ historical claims in other entries.
   killed, an area entered, a text read) or on a quest turned in: a page
   unlocks only after the last event it tells, a quest's outcome, a rescue,
   a death (Kalaran's on the torch's quests, not on meeting him). A kill
-  counts a group member's too, who may never have taken the quest. Lore an
+  (your killing blow or your pet's) can be landed by someone helping a
+  group who never took the quest. Lore an
   npc tells on the spot (a tale in its gossip) is no event and may unlock
   on sight there. `bun run when --changed` before a commit prints each
   changed page's moments (the on-sight ones as "whichever comes first")
