@@ -465,7 +465,7 @@ Reaver, Hahk'Zor, Gorgon'och, Deathmaw, Terrorspark, Volchan.
 | ✅ Nefarian | figure | killing him (11583), or Lord Victor Nefarius (10162) |
 | ✅ Franclorn Forgewright | figure | talking to (or targeting) him (8888); quests Dark Iron Legacy (3801, 3802) |
 | ✅ Vaelastrasz | figure | talking to (or targeting) Vaelan (10296); killing Vaelastrasz the Corrupt (13020): Vaelan's tale, Deathwing and the Demon Soul |
-| ✅ The Chromatic Flight | creature | any chromatic kill (10442, 10447, 10814, 14020, 14261–14265, 14302); talking to (or targeting) Awbee (10740); Blackwing Lair (2677): Vaelan's and Awbee's tales |
+| ✅ The Chromatic Flight | creature | any chromatic kill (10442, 10447, 10814, 14020, 14261–14265, 14302); talking to (or targeting) Awbee (10740); Blackwing Lair (2677): Vaelan's and Awbee's tales, no rescue told |
 
 Not paged: the Grim Guzzler, Lothos Riftwaker, General Drakkisath (in the
 Spire), Majordomo Executus (in Ragnaros).
@@ -662,7 +662,7 @@ Murderous Blisterpaw.
 | ✅ Marshal's Refuge | place | Marshal's Refuge (541) |
 | ✅ The Crystal Pylons | history | quest Making Sense of It (4321); talking to J.D. Collie (9117): the titans' pylons |
 | ✅ Fire Plume Ridge | place | Fire Plume Ridge (537) |
-| ✅ Lar'korwi | creature | killing him (9684); quest The Bait for Lar'korwi (4292): Torwa Pathfinder's chain (4290–4292) |
+| ✅ Lar'korwi | creature | quest The Bait for Lar'korwi (4292): Torwa Pathfinder's chain (4290–4292), not the kill (a group's counts too) |
 
 Not paged: Lakkari Tar Pits, Golakka Hot Springs, Terror Run, the Marshlands,
 Fungal Rock, Ironstone Plateau, the Slithering Scar (silithid). Rares without a

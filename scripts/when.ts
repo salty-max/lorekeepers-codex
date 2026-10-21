@@ -8,7 +8,7 @@
  * chain's ending unlocks on its last quest, not on meeting its giver.
  *
  *   bun scripts/when.ts <page id or chapter/id>...   those pages
- *   bun scripts/when.ts --changed                    the pages changed since origin/main, new ones too
+ *   bun scripts/when.ts --changed                    the pages changed since the fork point from origin/main, new ones too
  *   bun scripts/when.ts --all                        every page
  * Read-only: wow-data's databases (Forever's for a Forever-only page).
  */
@@ -35,17 +35,18 @@ for (const chapter of readdirSync(CONTENT, { withFileTypes: true })) {
 const args = process.argv.slice(2);
 let wanted: string[];
 if (args.includes("--all")) wanted = [...pages.values()];
-else if (args.includes("--changed"))
+else if (args.includes("--changed")) {
+  const base = execSync("git merge-base origin/main HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
   wanted = [
     ...new Set(
-      ["git diff --name-only origin/main -- content", "git ls-files --others --exclude-standard -- content"].flatMap((cmd) =>
+      [`git diff --name-only --diff-filter=d ${base} -- content`, "git ls-files --others --exclude-standard -- content"].flatMap((cmd) =>
         execSync(cmd, { cwd: ROOT, encoding: "utf8" }).split("\n"),
       ),
     ),
   ]
     .filter((f) => f.endsWith(".md") && !f.split("/").pop()!.startsWith("_"))
     .map((f) => f.replace(/^content\//, "").replace(/\.md$/, ""));
-else wanted = args.map((a) => pages.get(a) ?? a.replace(/\.md$/, "").replace(/^content\//, ""));
+} else wanted = args.map((a) => pages.get(a) ?? a.replace(/\.md$/, "").replace(/^content\//, ""));
 if (!wanted.length) {
   console.error("usage: bun scripts/when.ts <page id or chapter/id>... | --changed | --all");
   process.exit(1);
@@ -154,8 +155,11 @@ for (const rel of wanted) {
     moments.push({ when: SIGHT, step: 0, what: `${verb} ${ids.length > 1 ? `one of ${ids.length} creatures` : name(g, "creature", ids[0])}` });
   }
   moments.sort((a, b) => a.when - b.when || a.step - b.step);
-  if (moments.length) console.log(`  earliest: ${moments[0].what}`);
+  // which on-sight moment comes first is the player's road, not the page's: they are listed, not ranked
+  const sight = moments.filter((m) => m.when === SIGHT).map((m) => m.what);
   const quest = moments.find((m) => m.when === QUEST);
-  if (quest && moments[0].when === SIGHT) console.log(`  ! on sight before any quest: ${moments[0].what} comes before ${quest.what} (fine if the page tells nothing of the chain)`);
+  if (sight.length > 1) console.log(`  earliest: whichever comes first of ${sight.join(", ")}`);
+  else if (moments.length) console.log(`  earliest: ${moments[0].what}`);
+  if (quest && sight.length) console.log(`  ! on sight before any quest: ${sight.join(" or ")} can come before ${quest.what} (a kill counts a group's too: fine only if the page tells nothing of the chain)`);
   console.log("");
 }
