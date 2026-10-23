@@ -1,11 +1,29 @@
 {
   "//": "The tables naming the ids a saved find keeps (where a page or a text was found, the texts read): a regeneration never drops one (bun run ids, in check). An id leaves on purpose only with the user's go: under removed, with why and approved.",
   "tables": {
-    "texts (Forever)": { "json": "i18n/*/texts.json", "at": "forever" },
-    "texts (Classic)": { "json": "i18n/*/texts.json", "at": "classic" },
-    "building areas (Forever)": { "json": "i18n/*/subzones.json", "at": "forever" },
-    "building areas (Classic)": { "json": "i18n/*/subzones.json", "at": "classic" },
-    "areas' English names": { "lua": "addon/LorekeepersCodex/Content_*.lua", "at": "content.areaNames" }
+    "texts (Forever)": {
+      "json": "i18n/*/texts.json",
+      "at": "forever"
+    },
+    "texts (Classic)": {
+      "json": "i18n/*/texts.json",
+      "at": "classic"
+    },
+    "building areas (Forever)": {
+      "json": "i18n/*/subzones.json",
+      "at": "forever"
+    },
+    "building areas (Classic)": {
+      "json": "i18n/*/subzones.json",
+      "at": "classic"
+    },
+    "areas' English names": {
+      "lua": "addon/LorekeepersCodex/Content_*.lua",
+      "at": "content.areaNames"
+    }
+  },
+  "unlisted": {
+    "data/portraits.json": "Build input that maps a page's creature id to a display id baked into Content_*.lua, and no saved file keeps a creature id from it"
   },
   "removed": []
 }
