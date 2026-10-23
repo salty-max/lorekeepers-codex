@@ -1,5 +1,5 @@
 -- Turns what /codex scan recorded into JSON, for writing new pages.
---   luajit scripts/scan-export.lua "<WoW>/_classic_beta_/WTF/Account/<ACCOUNT>/SavedVariables/LorekeepersCodex.lua" > scan.json
+--   luajit scripts/scan-export.lua "<WoW>/_forever_/WTF/Account/<ACCOUNT>/SavedVariables/LorekeepersCodex.lua" > scan.json
 local path = arg[1]
 if not path then
   io.stderr:write("usage: luajit scripts/scan-export.lua <SavedVariables/LorekeepersCodex.lua>\n")

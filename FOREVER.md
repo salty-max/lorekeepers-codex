@@ -82,10 +82,11 @@ one package. This plan records the decisions and the work, in two waves.
 11. ✅ **Release:** both zips attached to each GitHub release (and uploaded to
     CurseForge per game once the project exists).
 
-### To test on the beta
+### To test in the game
 
 Install `dist/LorekeepersCodex` (after `bun run package`) into
-`World of Warcraft/_classic_beta_/Interface/AddOns/`.
+`World of Warcraft/_forever_/Interface/AddOns/` (the beta's folder was
+`_classic_beta_`).
 
 
 - The addon loads without "out of date" or Lua errors.
