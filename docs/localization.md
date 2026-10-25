@@ -118,7 +118,7 @@ first translation, said so on the store page.
    Archesonus and Parqual address the reader with "tú", with
    `$gviajero:viajera;` where the source addresses a traveller. The esMX
    client borrows this prose with reviewed regional game names from
-   `i18n/esMX/regional.json`, applied once to translated values during the
+   `i18n/esMX/regional.json` (`names`: esES game names, esMX's from wow-data; `words`: what is no game name), resolved into `regional.resolved.json` by addon-kit/regional.ts and applied once to translated values during the
    build. Each Spanish client loads its own Library catalog and Classic
    name swaps. Both catalogs contain 433 variants covering 437 readable ids,
    including every French and German readable. See

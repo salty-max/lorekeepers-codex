@@ -36,7 +36,10 @@ be replaced with an unrelated named location or creature.
 
 Latin American Spanish shares authored prose with esES. Reviewed substitutions
 in `i18n/esMX/regional.json` preserve regional client names, including titles,
-places and factions. They apply once, longest match first, to translated
+places and factions: a game name is listed under `names` (esES's spelling
+only: esMX's comes from wow-data, never typed here), what is no game name
+(prose words, a name with its article or ending) under `words`; addon-kit's
+`regional.ts` writes `regional.resolved.json` from both. They apply once, longest match first, to translated
 values only. English lookup keys and readable identities are unchanged.
 The esMX Library uses its own collected wording where available. Where it is
 missing, the supplement explicitly records shared Spanish wording rather

@@ -65,10 +65,11 @@ const translated = (locale: string) => existsSync(join(I18N, locale, "words.json
 const PLURALS = ["one", "fr", "ru", "none"];
 
 // Shared prose can still name the people and places as this client does.
-// Apply reviewed regional names once, longest first, without cascading a
+// Apply the regional names (regional.resolved.json, written from wow-data's
+// names and the hand file's words by addon-kit/regional.ts) once, longest first, without cascading a
 // replacement into another. English keys and readable identities stay intact.
 function regionalWords(locale: string): (text: string) => string {
-  const file = join(I18N, locale, "regional.json");
+  const file = join(I18N, locale, "regional.resolved.json");
   if (!existsSync(file)) return (text) => text;
   const names: Record<string, string> = JSON.parse(readFileSync(file, "utf8"));
   const replacements = new Map(Object.entries(names).map(([key, value]) => [key.toLowerCase(), value]));

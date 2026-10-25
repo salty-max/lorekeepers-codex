@@ -38,6 +38,8 @@ jobs:
           fi
         done
         python3 scripts/book_index.py
+        # (esMX's game names from wow-data, the hand file's words beside them)
+        bun scripts/root.ts --run addon-kit/regional.ts
         bun run build
       paths: |
         data
