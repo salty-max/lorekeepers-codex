@@ -1,4 +1,4 @@
--- addon-kit 7392765: a copy (kit:sync); edit the addon-kit repository's Kit.lua instead
+-- addon-kit be3f6a9: a copy (kit:sync); edit the addon-kit repository's Kit.lua instead
 -- The kit every addon of the family carries but Keyring (Hearthtale,
 -- Lorekeeper's Codex, Yonder, Second Wind, Palaver, Mealbook, Goodwill, Yours
 -- Truly): which game this is and the addon's events, its words, the books'
@@ -593,11 +593,17 @@ K.RINGS = {
 local RANK_RINGS = { elite = "gold", rare = "silver", rareelite = "silver", worldboss = "rose", boss = "rose" }
 function K.rankRing(rank) return rank and K.RINGS[RANK_RINGS[rank]] or nil end
 
--- A day as the books write it: "5 Oct 2026" (each language its own order).
+-- A day as the books write it: "5 Oct 2026" (each language its own order);
+-- o.year false: "5 Oct", o.time: then the time, "5 Oct 16:05". A month's
+-- name alone (a range's: "5 to 7 Oct").
 local MONTHS = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }
-function K.day(at)
+function K.month(at) return L[MONTHS[date("*t", at or 0).month]] end
+function K.day(at, o)
   local d = date("*t", at or 0)
-  return L["%d %s %d"]:format(d.day, L[MONTHS[d.month]], d.year)
+  local text = o and o.year == false and L["%d %s"]:format(d.day, L[MONTHS[d.month]])
+    or L["%d %s %d"]:format(d.day, L[MONTHS[d.month]], d.year)
+  if o and o.time then text = L["%s %02d:%02d"]:format(text, d.hour, d.min) end
+  return text
 end
 
 -- ── items ────────────────────────────────────────────────────────────────────
@@ -652,6 +658,65 @@ function K.spellIcon(id)
     icon = GetSpellTexture(id)
   end
   if icon and not K.secret(icon) then return icon end
+end
+-- An area's name in the client's language (C_Map.GetAreaInfo), none where
+-- the client has none.
+function K.areaName(id)
+  local name = id and C_Map and C_Map.GetAreaInfo and C_Map.GetAreaInfo(id)
+  return type(name) == "string" and name ~= "" and not K.secret(name) and name or nil
+end
+-- Places by the names the client gives, back to their ids: an area's (the
+-- client's own name for each id known, the lowest id for a name some share;
+-- the language's fixes where the client's name slips) and a place inside a
+-- building's (no area id there: the language's list of them). Made again
+-- when the game's function or a list is another (the tests' clients), and
+-- never for a secret or an empty name.
+--   Pl = K.places({ names = function() return { [areaId] = English name } end,
+--     inside = function() return { [id] = name } end, fixes = function() ... end })
+--   Pl:area(name), Pl:inside(name) (ids or nil), Pl:english(name) (an area's
+--   id by the English name the table holds: an older save's)
+function K.places(o)
+  local Pl = {}
+  local areas, insides, builtWith, builtInside, builtFixes, english
+  local function built()
+    local info = C_Map and C_Map.GetAreaInfo
+    local list, fixes = o.inside and o.inside(), o.fixes and o.fixes()
+    if areas and builtWith == info and builtInside == list and builtFixes == fixes then return end
+    builtWith, builtInside, builtFixes = info, list, fixes
+    areas, insides = {}, {}
+    for id in pairs(o.names() or {}) do
+      local own = info and info(id)
+      if type(own) == "string" and own ~= "" and (not areas[own] or id < areas[own]) then areas[own] = id end
+    end
+    for id, own in pairs(fixes or {}) do
+      areas[own] = areas[own] or id
+    end
+    for id, own in pairs(list or {}) do
+      if not insides[own] or id < insides[own] then insides[own] = id end
+    end
+  end
+  local function usable(name) return type(name) == "string" and name ~= "" and not K.secret(name) end
+  function Pl:area(name)
+    if not usable(name) then return nil end
+    built()
+    return areas[name]
+  end
+  function Pl:inside(name)
+    if not usable(name) then return nil end
+    built()
+    return insides[name]
+  end
+  function Pl:english(name)
+    if type(name) ~= "string" or name == "" then return nil end
+    if not english then
+      english = {}
+      for id, n in pairs(o.names() or {}) do
+        if not english[n] or id < english[n] then english[n] = id end
+      end
+    end
+    return english[name]
+  end
+  return Pl
 end
 -- A quest done, as the game keeps it.
 function K.questDone(id)

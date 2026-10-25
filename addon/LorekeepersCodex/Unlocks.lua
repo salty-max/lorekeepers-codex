@@ -96,37 +96,14 @@ end
 -- (ns.mendPlaces), an English one by the codex's own names (C.areaNames),
 -- today's language's by the client's; another language's waits for a client
 -- of its own.
-local areaByEnglish = {}
-for areaId, name in pairs(C.areaNames or {}) do
-  -- (a name some areas share: the lowest id, the same every time)
-  if not areaByEnglish[name] or areaId < areaByEnglish[name] then areaByEnglish[name] = areaId end
-end
-local areaIds, insideIds, builtWith, builtInside
-local function reversed()
-  local info = C_Map and C_Map.GetAreaInfo
-  if areaIds and builtWith == info and builtInside == ns.insideNames then return end
-  -- (made again only if the game's function or the list is another: the tests' clients)
-  builtWith, builtInside = info, ns.insideNames
-  areaIds, insideIds = {}, {}
-  for id in pairs(C.areaNames or {}) do
-    local own = info and info(id)
-    if type(own) == "string" and own ~= "" and (not areaIds[own] or id < areaIds[own]) then areaIds[own] = id end
-  end
-  for id, own in pairs(ns.insideNames or {}) do
-    if not insideIds[own] or id < insideIds[own] then insideIds[own] = id end
-  end
-end
+-- (the kit's: K.places, the client's names back to ids)
+local places = ns.kit.places({
+  names = function() return C.areaNames end,
+  inside = function() return ns.insideNames end,
+})
 -- An area's id, a building area's, from the client's name for it.
-function ns.areaOf(name)
-  if type(name) ~= "string" or name == "" or secret(name) then return nil end
-  reversed()
-  return areaIds[name]
-end
-function ns.insideOf(name)
-  if type(name) ~= "string" or name == "" or secret(name) then return nil end
-  reversed()
-  return insideIds[name]
-end
+function ns.areaOf(name) return places:area(name) end
+function ns.insideOf(name) return places:inside(name) end
 -- Where a find was made, by ids: its zone's area, its subzone's area or
 -- building area; a name only where the client's gave none.
 function ns.placeOf(zone, sub)
@@ -144,11 +121,11 @@ end
 -- An older find's names turned into ids: an English one by the codex's own
 -- names, today's language's by the client's.
 local function mended(rec)
-  if rec.zone and not rec.zoneId then rec.zoneId = ns.areaOf(rec.zone) or areaByEnglish[rec.zone] end
+  if rec.zone and not rec.zoneId then rec.zoneId = ns.areaOf(rec.zone) or places:english(rec.zone) end
   if rec.zoneId then rec.zone = nil end
   if rec.sub == "" then rec.sub = nil end
   if rec.sub and not (rec.subId or rec.subInside) then
-    rec.subId = ns.areaOf(rec.sub) or areaByEnglish[rec.sub]
+    rec.subId = ns.areaOf(rec.sub) or places:english(rec.sub)
     rec.subInside = not rec.subId and ns.insideOf(rec.sub) or nil
   end
   if rec.subId or rec.subInside then rec.sub = nil end

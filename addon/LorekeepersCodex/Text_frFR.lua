@@ -3124,6 +3124,7 @@ ns.translate({
   plural = "fr",
   words = {
     ["/codex opens the book, /codex achievements its achievements and /codex settings its settings. /codex banner shows or hides the alerts, /codex minimap the button. /codex welcome shows the welcome page again. /codex export gives this character's settings as a code, and /codex import CODE takes them. /codex reset starts this character's codex over."] = "/codex ouvre le livre, /codex achievements ses hauts faits et /codex settings ses réglages. /codex banner affiche ou masque les alertes, /codex minimap le bouton. /codex welcome réaffiche la page d'accueil. /codex export donne les réglages de ce personnage sous forme de code, et /codex import CODE les reprend. /codex reset recommence le codex de ce personnage.",
+    ["%d %s"] = "%d %s",
     ["%d %s %d"] = "%d %s %d",
     ["%d of %d"] = "%d sur %d",
     ["%d of %d achievements"] = "%d hauts faits sur %d",
@@ -3133,6 +3134,7 @@ ns.translate({
     ["%d s"] = "%d s",
     ["%d texts copied"] = "%d textes copiés",
     ["%d texts in the Library"] = "%d textes dans la Bibliothèque",
+    ["%s %02d:%02d"] = "%s %02d:%02d",
     ["%s has been added to the codex."] = "%s a rejoint le codex.",
     ["%s: %s"] = "%s : %s",
     ["%s's choices are this character's now."] = "Les choix de %s sont désormais ceux de ce personnage.",
