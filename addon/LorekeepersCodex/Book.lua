@@ -81,34 +81,13 @@ function ns.pictureOf(e, orBook)
   return orBook and K.icon(BOOK) or nil
 end
 
--- ── a list's row, a page's header ────────────────────────────────────────────
--- A row of a list on the left: its text, a count, a fold mark, its highlight
--- and the mark of the one picked out; each tab places them for its kinds.
-local ROW_WIDTH = 204
-local function listRow(parent)
-  local r = CreateFrame("Button", nil, parent)
-  r:SetSize(ROW_WIDTH, 18)
-  r.text = label(r, BODY_FONT, 12, T.text)
-  r.text:SetWordWrap(false)
-  r.count = label(r, BODY_FONT, 10, T.soft)
-  r.fold = r:CreateTexture(nil, "ARTWORK")
-  r.fold:SetSize(12, 12)
-  r.selected = K.highlight(r)
-  return r
-end
-
+-- ── a page's header ──────────────────────────────────────────────────────────
+-- The list on the left is the kit's (K.list, each tab its kinds of row).
 -- The page on the right: the kit's (a round picture, the title, a line under
 -- it, a rule, then its parts), as every book of the family.
 local WIDTH, HEADER_H = K.PAGE_WIDTH, K.PAGE_HEADER_H
 
--- The list's scroll area and the page, in the book's two panels (filtered:
--- the list under the select of a tab with a filter).
-local function listArea(name, book, filtered)
-  local s = scrollArea(book.left, ROW_WIDTH, name)
-  s:SetPoint("TOPLEFT", book.left, "TOPLEFT", 12, filtered and -70 or -40)
-  s:SetPoint("BOTTOMRIGHT", book.left, "BOTTOMRIGHT", -18, 12)
-  return s
-end
+-- The page, in the book's right panel.
 local function pageArea(name, book) return K.page(book.sheet, name) end
 
 -- ── the window ───────────────────────────────────────────────────────────────
@@ -255,7 +234,6 @@ ns.ui = {
   BODY_FONT = BODY_FONT,
   WIDTH = WIDTH,
   HEADER_H = HEADER_H,
-  ROW_WIDTH = ROW_WIDTH,
   label = label,
   rule = rule,
   bar = bar,
@@ -266,8 +244,6 @@ ns.ui = {
   icon = K.icon,
   day = K.day,
   BOOK = BOOK,
-  listRow = listRow,
-  listArea = listArea,
   pageArea = pageArea,
   KINDS = KINDS,
 }

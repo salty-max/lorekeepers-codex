@@ -22,15 +22,32 @@ local function folded()
   return c.libraryFolded
 end
 
-local function row(i)
-  local r = rows[i]
-  if r then return r end
-  r = ui.listRow(list.child)
-  r.count:SetPoint("RIGHT", -4, 0)
-  r.count:SetJustifyH("RIGHT")
-  r.fold:SetPoint("LEFT", 2, 0)
-  rows[i] = r
-  return r
+-- The kit's list (K.list): each kind of row placed here.
+local function style(r, kind)
+  r:Enable()
+  if kind == "overview" then
+    -- (the Library at a glance, as the Pages tab's codex: chosen while shown)
+    r.text:SetPoint("LEFT", 4, 0)
+    r.text:SetPoint("RIGHT", -4, 0)
+    r.text:SetFont(ui.TITLE_FONT, 14, "")
+    r.text:SetTextColor(unpack(ui.T.gold))
+    return 22
+  elseif kind == "shelf" then
+    r.fold:SetPoint("LEFT", 2, 0)
+    r.fold:Show()
+    r.count:SetPoint("RIGHT", -4, 0)
+    r.count:SetJustifyH("RIGHT")
+    r.text:SetPoint("LEFT", 18, 0)
+    r.text:SetPoint("RIGHT", -30, 0)
+    r.text:SetFont(ui.TITLE_FONT, 14, "")
+    r.text:SetTextColor(unpack(ui.T.gold))
+    return 22
+  end
+  r.text:SetPoint("LEFT", 18, 0)
+  r.text:SetPoint("RIGHT", -4, 0)
+  r.text:SetFont(ui.BODY_FONT, 12, "")
+  r.text:SetTextColor(unpack(ui.T.text))
+  return 18
 end
 
 local function textOf(id) return store().texts[id] end
@@ -49,9 +66,7 @@ end
 local showText, showShelf
 
 local function refreshList()
-  for _, r in ipairs(rows) do
-    r:Hide()
-  end
+  list:begin()
   local query = ns.kit.query(book.search)
   local searching = query ~= ""
   local by = {}
@@ -63,49 +78,9 @@ local function refreshList()
       table.insert(by[shelf], id)
     end
   end
-  local i, y = 0, 0
-  local function add(kind, text)
-    i = i + 1
-    local r = row(i)
-    r:ClearAllPoints()
-    r:SetPoint("TOPLEFT", 0, -y)
-    r.kind, r.id = kind, nil
-    r.text:SetText(text)
-    r.text:ClearAllPoints()
-    r.selected:Hide()
-    r.count:SetText("")
-    if kind == "overview" then
-      -- (the Library at a glance, as the Pages tab's codex: chosen while shown)
-      r.fold:Hide()
-      r.text:SetPoint("LEFT", 4, 0)
-      r.text:SetPoint("RIGHT", -4, 0)
-      r.text:SetFont(ui.TITLE_FONT, 14, "")
-      if currentText == nil then
-        r.selected:Show()
-        r.text:SetTextColor(1, 1, 1)
-      else
-        r.text:SetTextColor(unpack(ui.T.gold))
-      end
-      r:SetHeight(22)
-      y = y + 22
-    elseif kind == "shelf" then
-      r.fold:Show()
-      r.text:SetPoint("LEFT", 18, 0)
-      r.text:SetPoint("RIGHT", -30, 0)
-      r.text:SetFont(ui.TITLE_FONT, 14, "")
-      r.text:SetTextColor(unpack(ui.T.gold))
-      r:SetHeight(22)
-      y = y + 22
-    else
-      r.fold:Hide()
-      r.text:SetPoint("LEFT", 18, 0)
-      r.text:SetPoint("RIGHT", -4, 0)
-      r.text:SetFont(ui.BODY_FONT, 12, "")
-      r.text:SetTextColor(unpack(ui.T.text))
-      r:SetHeight(18)
-      y = y + 18
-    end
-    r:Show()
+  local function add(kind, text, count)
+    local r = list:add(kind, text, count)
+    if kind == "overview" and currentText == nil then list:pick(r) end
     return r
   end
   if not searching then
@@ -123,11 +98,10 @@ local function refreshList()
         ids,
         function(a, b) return ns.textTitle(textOf(a).title, textOf(a)) < ns.textTitle(textOf(b).title, textOf(b)) end
       )
-      y = y + 4
-      local r = add("shelf", shelf[2])
-      r.count:SetText(#ids)
+      list:gap(4)
+      local r = add("shelf", shelf[2], #ids)
       local open = searching or not folded()[shelf[1]]
-      r.fold:SetTexture(open and "Interface\\Buttons\\UI-MinusButton-Up" or "Interface\\Buttons\\UI-PlusButton-Up")
+      ns.kit.fold(r, open)
       r:SetScript("OnClick", function()
         folded()[shelf[1]] = not folded()[shelf[1]] or nil
         refreshList()
@@ -140,17 +114,13 @@ local function refreshList()
             showText(id)
             refreshList()
           end)
-          if id == currentText then
-            e.selected:Show()
-            e.text:SetTextColor(1, 1, 1)
-          end
+          if id == currentText then list:pick(e) end
         end
       end
     end
   end
   if empty then add("text", searching and L["No text found."] or L["Nothing read yet."]):SetScript("OnClick", nil) end
-  list.child:SetHeight(y + 8)
-  list:UpdateThumb()
+  list:finish(false)
 end
 
 -- A text's shelf: { id, name, icon }.
@@ -261,7 +231,7 @@ end
 
 local function build(b)
   book = b
-  list = ui.listArea("LorekeepersCodexLibraryList", book)
+  list = ns.kit.list(book.left, style, rows, false, "LorekeepersCodexLibraryList")
   page = ui.pageArea("LorekeepersCodexLibraryPage", book)
   -- Turning pages: the spellbook's arrows, and where you are, under the text.
   page.turn = CreateFrame("Frame", nil, page.child)

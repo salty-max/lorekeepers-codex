@@ -135,23 +135,45 @@ function showOverview()
 end
 
 -- ── the list of chapters and pages ───────────────────────────────────────────
+-- The kit's list (K.list): each kind of row placed here (the chapter's fold
+-- the plus and minus of the game's own lists, its progress a bar under its
+-- title, then the pages found).
 local rows = {}
 ns.listRows = rows -- for the tests
-local function row(i)
-  local r = rows[i]
-  if r then return r end
-  r = ui.listRow(list.child)
+local function style(r, kind)
+  r:Enable()
   r.text:SetPoint("RIGHT", -4, 0)
-  -- A chapter's fold: the plus and minus of the game's own lists.
-  r.fold:SetPoint("TOPLEFT", 2, -4)
-  -- A chapter's progress, under its title: a bar, then the pages found.
-  r.bar = ui.bar(r)
-  r.bar:SetPoint("BOTTOMLEFT", 18, 4)
-  r.bar:SetPoint("BOTTOMRIGHT", -44, 4)
-  r.bar:SetHeight(4)
-  r.count:SetPoint("LEFT", r.bar, "RIGHT", 6, 0)
-  rows[i] = r
-  return r
+  if kind == "overview" then
+    r.text:SetPoint("LEFT", 4, 0)
+    r.text:SetFont(TITLE_FONT, 14, "")
+    r.text:SetTextColor(unpack(T.gold))
+    return 22
+  elseif kind == "chapter" then
+    r.text:SetPoint("TOPLEFT", 18, -3)
+    r.text:SetFont(TITLE_FONT, 14, "")
+    r.text:SetTextColor(unpack(T.gold))
+    r.fold:SetPoint("TOPLEFT", 2, -4)
+    r.fold:Show()
+    if not r.bar then
+      r.bar = ui.bar(r)
+      r.bar:SetPoint("BOTTOMLEFT", 18, 4)
+      r.bar:SetPoint("BOTTOMRIGHT", -44, 4)
+      r.bar:SetHeight(4)
+    end
+    r.bar:Show()
+    r.count:SetPoint("LEFT", r.bar, "RIGHT", 6, 0)
+    return 32
+  elseif kind == "empty" then
+    r.text:SetPoint("LEFT", 8, 0)
+    r.text:SetFont(BODY_FONT, 12, "")
+    r.text:SetTextColor(unpack(T.soft))
+    r:Disable()
+    return 18
+  end
+  r.text:SetPoint("LEFT", 18, 0)
+  r.text:SetFont(BODY_FONT, 12, "")
+  r.text:SetTextColor(unpack(T.text))
+  return 18
 end
 
 -- Pages found in a chapter.
@@ -196,18 +218,6 @@ function ns.search(query)
   return out
 end
 
--- Scroll the list so the open page's row shows, in the middle if it was out
--- of sight. The scroll range is worked out here: the frame's own may not have
--- caught up with the list's new height yet.
-local function reveal(y)
-  local height = list:GetHeight()
-  local top = list:GetVerticalScroll()
-  if y >= top and y + 18 <= top + height then return end
-  local max = math.max(0, list.child:GetHeight() - height)
-  list:SetVerticalScroll(math.min(max, math.max(0, y - (height - 18) / 2)))
-  list:UpdateThumb()
-end
-
 -- Folded chapters, per character (each codex opens its own chapters).
 local function folded()
   local c = LorekeepersCodexChar
@@ -232,98 +242,47 @@ function ns.foldAll(fold)
   ns.refresh()
 end
 
-local PLUS, MINUS = "Interface\\Buttons\\UI-PlusButton-Up", "Interface\\Buttons\\UI-MinusButton-Up"
-
 -- scrollToCurrent: scroll to the open page (opening the book, a link, the banner).
 local function refresh(scrollToCurrent)
   -- Going to a page (a link, the banner) unfolds its chapter.
   local e = scrollToCurrent and current and C.entries[current]
   if e and e.chapter ~= "" then folded()[e.chapter] = nil end
-  local currentY
   book.count:SetText(L["%d of %d pages"]:format(ns.count(), ns.knownTotal()))
-  book.foldAll:SetNormalTexture(ns.anyUnfolded() and MINUS or PLUS)
-  for _, r in ipairs(rows) do
-    r:Hide()
-  end
+  ns.kit.fold(book.foldAll, ns.anyUnfolded())
+  list:begin()
   -- The select's kind of page ("": every one).
   local only = ns.filterOf(ns.TAB.pages) or ""
   local function fits(id) return only == "" or C.entries[id].kind == only end
-  local i, y = 0, 0
-  local function add(kind, text, id, found, total, chapter)
-    i = i + 1
-    local r = row(i)
-    r:ClearAllPoints()
-    r:SetPoint("TOPLEFT", 0, -y)
-    r.id = id
-    r.selected:Hide()
-    r.count:SetText(kind == "chapter" and id or "")
-    r.bar:SetShown(kind == "chapter")
-    r.fold:SetShown(kind == "chapter")
+  local function add(kind, text, id, count, found, total, chapter)
+    local r = list:add(kind, text, count)
     if kind == "overview" then
-      r:SetHeight(22)
-      r.text:ClearAllPoints()
-      r.text:SetPoint("LEFT", 4, 0)
-      r.text:SetPoint("RIGHT", -4, 0)
-      r.text:SetFont(TITLE_FONT, 14, "")
-      r.text:SetText(text)
-      if current == OVERVIEW then
-        currentY = y
-        r.selected:Show()
-        r.text:SetTextColor(1, 1, 1)
-      else
-        r.text:SetTextColor(unpack(T.gold))
-      end
-      r:Enable()
+      if current == OVERVIEW then list:pick(r) end
       r:SetScript("OnClick", function()
         showOverview()
         ns.refresh()
       end)
-      y = y + 24
+      list:gap(2)
     elseif kind == "chapter" then
-      r:SetHeight(32)
-      r.text:ClearAllPoints()
-      r.text:SetPoint("TOPLEFT", 18, -3)
-      r.text:SetPoint("RIGHT", -4, 0)
-      r.text:SetFont(TITLE_FONT, 14, "")
-      r.text:SetTextColor(unpack(T.gold))
-      r.text:SetText(text)
       r.bar:SetMinMaxValues(0, total)
       r.bar:SetValue(found)
-      r.fold:SetTexture(folded()[chapter] and PLUS or MINUS)
-      r:Enable()
+      ns.kit.fold(r, not folded()[chapter])
       r:SetScript("OnClick", function()
         folded()[chapter] = not folded()[chapter] or nil
         ns.refresh()
       end)
-      y = y + 34
+      list:gap(2)
     else
-      r:SetHeight(18)
-      r.text:ClearAllPoints()
-      r.text:SetPoint("LEFT", 18, 0)
-      r.text:SetPoint("RIGHT", -4, 0)
-      r.text:SetFont(BODY_FONT, 12, "")
-      if id == current then
-        currentY = y
-        r.selected:Show()
-        r.text:SetTextColor(1, 1, 1)
-      else
-        r.text:SetTextColor(unpack(T.text))
-      end
+      r.id = id
       r.text:SetText((ns.isRead(id) and "" or "|cffffd100•|r ") .. C.entries[id].title)
-      r:Enable()
+      if id == current then list:pick(r) end
       r:SetScript("OnClick", function()
         showPage(id)
         ns.refresh()
       end)
-      y = y + 18
     end
-    r:Show()
   end
-  local function finish()
-    list.child:SetHeight(y + 8)
-    list:UpdateThumb()
-    if scrollToCurrent and currentY then reveal(currentY) end
-  end
+  -- (the open page scrolled into view only when going to it)
+  local function finish() list:finish(scrollToCurrent and true or false) end
   -- While searching, the list is the results.
   local query = book.search and book.search:GetText() or ""
   if query:find("%S") then
@@ -334,26 +293,7 @@ local function refresh(scrollToCurrent)
     for _, id in ipairs(results) do
       add("page", nil, id)
     end
-    if #results == 0 then
-      i = i + 1
-      local r = row(i)
-      r:ClearAllPoints()
-      r:SetPoint("TOPLEFT", 0, 0)
-      r:SetHeight(18)
-      r.selected:Hide()
-      r.count:SetText("")
-      r.bar:Hide()
-      r.fold:Hide()
-      r.text:ClearAllPoints()
-      r.text:SetPoint("LEFT", 8, 0)
-      r.text:SetPoint("RIGHT", -4, 0)
-      r.text:SetFont(BODY_FONT, 12, "")
-      r.text:SetTextColor(unpack(T.soft))
-      r.text:SetText(L["No page found."])
-      r:Disable()
-      r:Show()
-      y = 18
-    end
+    if #results == 0 then list:add("empty", L["No page found."]) end
     return finish()
   end
   -- The codex at a glance, the loose pages (the foreword), then each chapter.
@@ -369,8 +309,8 @@ local function refresh(scrollToCurrent)
       if ns.page(id) and fits(id) then table.insert(kept, id) end
     end
     if found > 0 and #kept > 0 then
-      y = y + 4
-      add("chapter", ch.title, ("%d/%d"):format(found, #ch.entries), found, #ch.entries, ch.id)
+      list:gap(4)
+      add("chapter", ch.title, nil, ("%d/%d"):format(found, #ch.entries), found, #ch.entries, ch.id)
       if only ~= "" or not folded()[ch.id] then
         for _, id in ipairs(kept) do
           add("page", nil, id)
@@ -402,7 +342,7 @@ local function build(b)
   book.foldAll:SetScript("OnEnter", tip)
   book.foldAll:SetScript("OnLeave", function() GameTooltip:Hide() end)
 
-  list = ui.listArea("LorekeepersCodexList", book, true)
+  list = ns.kit.list(book.left, style, rows, true, "LorekeepersCodexList")
   page = ui.pageArea("LorekeepersCodexPage", book)
 end
 
