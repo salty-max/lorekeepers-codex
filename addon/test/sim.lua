@@ -607,7 +607,7 @@ local labels = {}
 for _, o in ipairs(panel.options()) do
   table.insert(labels, o.label)
 end
-check(#labels == #ns.SOUNDS and labels[#labels] == "None", "the sound can be chosen, or none")
+check(#labels == #ns.SOUNDS and labels[#labels] == "No sound", "the sound can be chosen, or none")
 
 -- Settings are each character's own (the kit's profiles); the welcome page
 -- offers them once per character, and another character's to take.
@@ -644,7 +644,10 @@ check(
   "… ticked: on, account-wide, this addon collects"
 )
 share.scripts.OnClick(share)
-check(not ns.collect:on() and next(LorekeepersCodexCollect.facts) == nil, "… unticked: off, what was kept forgotten")
+check(
+  not ns.collect:on() and LorekeepersCodexCollect.facts ~= nil and SaltyMaxCollector == nil,
+  "… unticked: off, the claim given up (what was kept stays here, never sent while off)"
+)
 local soundRow = W.rows[3]
 check(soundRow.select and soundRow.select:GetValue() == ns.option("sound"), "… the sound in a select, as it is")
 soundRow.select.scripts.OnClick(soundRow.select)
@@ -1822,8 +1825,9 @@ do
   local oldSex = UnitSex
   local function client(locale, sex)
     UnitSex = function() return sex end
-    local target = { kit = { L = {} }, on = function() end, secret = function() return false end }
+    local target = { on = function() end, secret = function() return false end }
     for _, file in ipairs({
+      "Kit.lua", -- (the kit first, as the TOC loads it: its words, its agree and swap)
       FOREVER and "Content_Forever.lua" or "Content_Classic.lua",
       "Locale.lua",
       "Text_Sources.lua",
@@ -1924,8 +1928,9 @@ do
   local oldSex = UnitSex
   local function client(locale, sex)
     UnitSex = function() return sex end
-    local target = { kit = { L = {} }, on = function() end, secret = function() return false end }
+    local target = { on = function() end, secret = function() return false end }
     for _, file in ipairs({
+      "Kit.lua", -- (the kit first, as the TOC loads it: its words, its agree and swap)
       FOREVER and "Content_Forever.lua" or "Content_Classic.lua",
       "Locale.lua",
       "Text_Sources.lua",
