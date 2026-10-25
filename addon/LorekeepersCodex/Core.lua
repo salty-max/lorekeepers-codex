@@ -98,7 +98,7 @@ function ns.login()
     local this = ns.forever and "Forever" or "Classic"
     print(
       PREFIX
-        .. L["this is the %s package, and this is %s: install the %s package to read this game's pages."]:format(
+        .. L["This is the %s package, and this is %s: install the %s package to read this game's pages."]:format(
           made == "forever" and "Forever" or "Classic",
           this,
           this

@@ -244,7 +244,7 @@ local function copy()
       text[k] = v
     end
     local link = ("|cffffd100|Hlorekeeper:lib:%d|h[%s]|h|r"):format(id, text.title)
-    print(PREFIX .. L["copied into the Library: %s"]:format(link))
+    print(PREFIX .. L["Copied into the Library: %s"]:format(link))
     if ns.checkAchievements then ns.checkAchievements() end
   end
   if ns.onLibrary then ns.onLibrary(id) end

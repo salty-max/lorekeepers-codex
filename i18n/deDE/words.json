@@ -38,6 +38,7 @@
   "Click it to open the codex, or drag it around the minimap.": "Klick darauf, um den Kodex zu öffnen, oder zieh es um die Minikarte.",
   "Click to read this page": "Klicken, um diese Seite zu lesen",
   "Collector of Words": "Sammler der Worte",
+  "Copied into the Library: %s": "In die Bibliothek abgeschrieben: %s",
   "Copied lately": "Zuletzt abgeschrieben",
   "Copy %d texts into the Library: books, notes, letters or plaques read in the world.": "Schreib %d Texte in die Bibliothek ab: Bücher, Notizen, Briefe oder Tafeln, die du in der Welt gelesen hast.",
   "Copy it (Ctrl+C), then on another character: Use a code, or /codex import CODE.": "Kopiere ihn (Strg+C). Wähle dann bei einem anderen Charakter „Code verwenden“ oder nutze /codex import CODE.",
@@ -130,6 +131,7 @@
   "The game's own alert, with the page's picture. A click on it reads the page.": "Die eigene Meldung des Spiels, mit dem Bild der Seite. Ein Klick darauf öffnet die Seite.",
   "The lore of Azeroth, written for you as you explore.": "Die Geschichte Azeroths, für dich aufgeschrieben, während du die Welt erkundest.",
   "This forgets every page and achievement this character has found. Type /codex reset yes to do it.": "Das löscht alle gefundenen Seiten und erhaltenen Erfolge dieses Charakters. Gib /codex reset yes ein, um es zu tun.",
+  "This is the %s package, and this is %s: install the %s package to read this game's pages.": "Dies ist das Paket für %s, und dies ist %s: Installiere das Paket für %s, um die Seiten dieses Spiels zu lesen.",
   "This page did not reach the codex. Open the text again in the world to copy it.": "Diese Seite hat den Kodex nicht erreicht. Öffne den Text in der Welt noch einmal, um ihn abzuschreiben.",
   "Three Hundred Pages": "Dreihundert Seiten",
   "Two Hundred Pages": "Zweihundert Seiten",
@@ -142,7 +144,6 @@
   "books": "Bücher",
   "chapter": "Kapitel",
   "chapters": "Kapitel",
-  "copied into the Library: %s": "in die Bibliothek abgeschrieben: %s",
   "found": "gefunden",
   "found in %s, %s": "gefunden: %s, %s",
   "library texts": "Texte",
@@ -153,7 +154,6 @@
   "pages found": "Seiten gefunden",
   "plaques": "Tafeln",
   "texts copied": "Texte abgeschrieben",
-  "this is the %s package, and this is %s: install the %s package to read this game's pages.": "dies ist das Paket für %s, und dies ist %s: Installiere das Paket für %s, um die Seiten dieses Spiels zu lesen.",
   "unread": "ungelesen",
   "until closed": "bis zum Schließen"
 }

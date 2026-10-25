@@ -38,6 +38,7 @@
   "Click it to open the codex, or drag it around the minimap.": "",
   "Click to read this page": "",
   "Collector of Words": "",
+  "Copied into the Library: %s": "",
   "Copied lately": "",
   "Copy %d texts into the Library: books, notes, letters or plaques read in the world.": "",
   "Copy it (Ctrl+C), then on another character: Use a code, or /codex import CODE.": "",
@@ -130,6 +131,7 @@
   "The game's own alert, with the page's picture. A click on it reads the page.": "",
   "The lore of Azeroth, written for you as you explore.": "",
   "This forgets every page and achievement this character has found. Type /codex reset yes to do it.": "",
+  "This is the %s package, and this is %s: install the %s package to read this game's pages.": "",
   "This page did not reach the codex. Open the text again in the world to copy it.": "",
   "Three Hundred Pages": "",
   "Two Hundred Pages": "",
@@ -142,7 +144,6 @@
   "books": "",
   "chapter": "",
   "chapters": "",
-  "copied into the Library: %s": "",
   "found": "",
   "found in %s, %s": "",
   "library texts": "",
@@ -153,7 +154,6 @@
   "pages found": "",
   "plaques": "",
   "texts copied": "",
-  "this is the %s package, and this is %s: install the %s package to read this game's pages.": "",
   "unread": "",
   "until closed": ""
 }

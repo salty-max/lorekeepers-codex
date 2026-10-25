@@ -1024,7 +1024,7 @@ check(
     and book.pages[3]
     and book.count == 3
     and shown == 1
-    and said("copied into the Library: |cffffd100|Hlorekeeper:lib:1|h[The Founding of Quel'Thalas]|h|r"),
+    and said("Copied into the Library: |cffffd100|Hlorekeeper:lib:1|h[The Founding of Quel'Thalas]|h|r"),
   "a book opened is copied whole at once (every page turned, then back to the first), and announced with a link"
 )
 check(

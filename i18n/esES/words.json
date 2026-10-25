@@ -38,6 +38,7 @@
   "Click it to open the codex, or drag it around the minimap.": "Pulsa para abrir el códice o arrastra el botón alrededor del minimapa.",
   "Click to read this page": "Pulsa para leer esta página",
   "Collector of Words": "Coleccionista de palabras",
+  "Copied into the Library: %s": "Copiado en la Biblioteca: %s",
   "Copied lately": "Copiados recientemente",
   "Copy %d texts into the Library: books, notes, letters or plaques read in the world.": "Copia %d textos en la Biblioteca: libros, notas, cartas o placas que leas por el mundo.",
   "Copy it (Ctrl+C), then on another character: Use a code, or /codex import CODE.": "Cópialo (Ctrl+C). Luego, en otro personaje: Usar un código o /codex import CÓDIGO.",
@@ -130,6 +131,7 @@
   "The game's own alert, with the page's picture. A click on it reads the page.": "El aviso del juego, con la imagen de la página. Púlsalo para leerla.",
   "The lore of Azeroth, written for you as you explore.": "La historia de Azeroth, escrita para ti mientras exploras.",
   "This forgets every page and achievement this character has found. Type /codex reset yes to do it.": "Esto borra todas las páginas y logros que ha descubierto este personaje. Escribe /codex reset yes para hacerlo.",
+  "This is the %s package, and this is %s: install the %s package to read this game's pages.": "Este es el paquete de %s y estás en %s: instala el paquete de %s para leer las páginas de este juego.",
   "This page did not reach the codex. Open the text again in the world to copy it.": "Esta página no llegó al códice. Vuelve a abrir el texto en el mundo para copiarlo.",
   "Three Hundred Pages": "Trescientas páginas",
   "Two Hundred Pages": "Doscientas páginas",
@@ -142,7 +144,6 @@
   "books": "libros",
   "chapter": "capítulo",
   "chapters": "capítulos",
-  "copied into the Library: %s": "copiado en la Biblioteca: %s",
   "found": "descubiertas",
   "found in %s, %s": "descubierto en %s, %s",
   "library texts": "textos de la Biblioteca",
@@ -153,7 +154,6 @@
   "pages found": "páginas descubiertas",
   "plaques": "placas",
   "texts copied": "textos copiados",
-  "this is the %s package, and this is %s: install the %s package to read this game's pages.": "este es el paquete de %s y estás en %s: instala el paquete de %s para leer las páginas de este juego.",
   "unread": "sin leer",
   "until closed": "hasta cerrarlo"
 }
