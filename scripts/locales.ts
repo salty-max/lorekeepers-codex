@@ -48,6 +48,7 @@ import { createHash } from "node:crypto";
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join, relative } from "node:path";
 import { frontMatter, paragraphs, type Para } from "./markdown";
+import { kitKeys, kitWords, ownKeys, problems } from "./locales-lib";
 import { misnamed } from "./names";
 
 const ROOT = new URL("..", import.meta.url).pathname;
@@ -105,22 +106,13 @@ for (const file of walk(CONTENT)) {
 }
 
 // ── the interface's words: every L["..."] and plural("one", "many") ─────────
+// (the codex's own, through the family's core: scripts/locales-lib.ts; the
+// kit's words are i18n/kit/'s, translated once for every addon; the
+// Library's shelves' short names, read through L by their id, LibraryBook.lua)
+const KIT_KEYS = kitKeys(ADDON);
 function keys(): string[] {
-  const found = new Set<string>();
-  for (const f of readdirSync(ADDON)) {
-    if (!f.endsWith(".lua") || /^(Content|Text)_/.test(f)) continue;
-    const src = readFileSync(join(ADDON, f), "utf8");
-    for (const m of src.matchAll(/\bL\["((?:[^"\\]|\\.)*)"\]/g)) found.add(m[1].replace(/\\"/g, '"').replace(/\\n/g, "\n"));
-    for (const m of src.matchAll(/plural\([^,]+,\s*"((?:[^"\\]|\\.)*)",\s*"((?:[^"\\]|\\.)*)"\)/g)) {
-      found.add(m[1]);
-      found.add(m[2]);
-    }
-  }
-  // the kit's month names, read through L by K.day; the Library's shelves'
-  // short names, read through L by their id (LibraryBook.lua)
-  for (const m of ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]) found.add(m);
-  for (const shelf of ["books", "notes", "plaques"]) found.add(shelf);
-  return [...found].sort();
+  const kit = new Set(KIT_KEYS);
+  return ownKeys(ADDON, /^(Content|Text)_/, ["books", "notes", "plaques"]).filter((k) => !kit.has(k));
 }
 
 // ── a language's folder ──────────────────────────────────────────────────────
@@ -287,7 +279,10 @@ ${namesLua(locale)}ns.translate({
   locale = ${q(locale)},
   plural = ${q(t.meta.plural ?? "one")},
   words = {
-${Object.entries(t.words)
+${Object.entries({
+  ...Object.fromEntries(Object.entries(t.words).filter(([k]) => !KIT_KEYS.includes(k))),
+  ...Object.fromEntries(KIT_KEYS.map((k) => [k, kitWords(I18N, from)[k]])),
+})
   .filter(([, v]) => v)
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([k, v]) => `    [${q(k)}] = ${q(v)},`)
@@ -428,8 +423,13 @@ for (const locale of LOCALES) {
     const t = read(locale);
     const stale = [...t.pages.entries()].filter(([, p]) => p.stale).map(([id]) => id);
     const missingPages = [...english.keys()].filter((id) => !t.pages.has(id));
-    const missingWords = [...known].filter((k) => !t.words[k]);
-    const unused = Object.keys(t.words).filter((k) => !known.has(k));
+    // (the family's checks: every word translated, its blanks kept, no stray %, no semicolon; the kit's too)
+    const { missing: missingWords, unused, errors: wordErrors } = problems(t.words, [...known]);
+    const kitTr = kitWords(I18N, locale);
+    const kitMissing = KIT_KEYS.filter((k) => !kitTr[k]);
+    for (const e of [...wordErrors, ...problems(kitTr, KIT_KEYS).errors]) errors.push(`i18n/${locale}: ${e}`);
+    if (missingWords.length) errors.push(`i18n/${locale}: no translation for ${missingWords.map((m) => JSON.stringify(m)).join(", ")}`);
+    if (kitMissing.length) errors.push(`i18n/kit/${locale}.json lacks ${kitMissing.map((m) => JSON.stringify(m)).join(", ")} (addon-kit/i18n, then kit:sync)`);
     console.log(
       `${locale}: ${t.pages.size}/${english.size} pages (${stale.length} stale), ${known.size - missingWords.length}/${known.size} words, ${Object.keys(t.chapters).length}/${chapterIds.size} chapters${t.meta.flagged ? ", flagged" : ""}`,
     );

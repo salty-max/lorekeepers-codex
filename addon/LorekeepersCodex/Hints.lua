@@ -39,8 +39,4 @@ local function addHint(tooltip)
   if missing then tooltip:AddLine(L["Lorekeeper's Codex: a page to find"], unpack(TO_FIND)) end
 end
 
-if TooltipDataProcessor and TooltipDataProcessor.AddTooltipPostCall and Enum and Enum.TooltipDataType then
-  TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Unit, addHint)
-else
-  GameTooltip:HookScript("OnTooltipSetUnit", addHint)
-end
+ns.kit.onUnitTooltip(addHint)

@@ -13,7 +13,7 @@ type Glossary = Record<string, Record<string, { use?: string } | string>>;
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const plain = (s: string) => s.normalize("NFD").replace(/\p{Mn}/gu, "").replace(/’/g, "'");
 const body = (file: string) => readFileSync(file, "utf8").replace(/^---\n[^]*?\n---\n/, "");
-const ARTICLE = /^(?:(?:der|die|das|le|la|les)\s+|l')/i;
+const ARTICLE = /^(?:(?:der|die|das|le|la|les|el|los|las)\s+|l')/i;
 const INNER = new Set(["der", "die", "das", "dem", "den", "des", "du", "de", "la", "le", "les"]);
 
 function pattern(use: string): RegExp {

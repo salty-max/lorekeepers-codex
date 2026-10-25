@@ -39,9 +39,9 @@ local function mine() return store().texts end
 local function matches(id, query)
   local t = textOf(id)
   if not t then return false end
-  if ns.textTitle(t.title, t):lower():find(query, 1, true) then return true end
+  if ns.kit.plain(ns.textTitle(t.title, t)):find(query, 1, true) then return true end
   for _, p in pairs(ns.textPages(t)) do
-    if p:lower():find(query, 1, true) then return true end
+    if ns.kit.plain(p):find(query, 1, true) then return true end
   end
   return false
 end
@@ -52,7 +52,7 @@ local function refreshList()
   for _, r in ipairs(rows) do
     r:Hide()
   end
-  local query = (book.search:GetText() or ""):lower():gsub("^%s+", ""):gsub("%s+$", "")
+  local query = ns.kit.query(book.search)
   local searching = query ~= ""
   local by = {}
   for id in pairs(mine()) do

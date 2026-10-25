@@ -6,30 +6,6 @@
 local _, ns = ...
 local K = ns.kit
 
--- (is n the "one" form? English, German, Spanish, Italian: 1; French and
--- Brazilian Portuguese: 0 and 1; Russian: 1, 21, 31... but not 11; Korean
--- and Chinese have one form)
-local PLURALS = {
-  one = function(n) return n == 1 end,
-  fr = function(n) return n == 0 or n == 1 end,
-  ru = function(n) return n % 10 == 1 and n % 100 ~= 11 end,
-  none = function() return false end,
-}
-
--- A plain replacement (names hold the pattern characters: "Comte-du-Lac").
-local function replace(s, from, to)
-  local out, i = {}, 1
-  while true do
-    local a, b = s:find(from, i, true)
-    if not a then break end
-    out[#out + 1] = s:sub(i, a - 1)
-    out[#out + 1] = to
-    i = b + 1
-  end
-  out[#out + 1] = s:sub(i)
-  return table.concat(out)
-end
-
 -- The game's names in the client's language (its Text file's, every
 -- language's, English one of them): the places inside buildings by their ids,
 -- this game's.
@@ -42,21 +18,13 @@ end
 
 function ns.translate(t)
   ns.locale = t.locale
-  K.isOne = PLURALS[t.plural] or K.isOne
   local C = ns.content
-  -- every translated word passes here: the reader's gender (the game's own
-  -- token, $gmasculine:feminine;) and, on Classic, its own names for the
-  -- places Forever renamed (a translation is written with Forever's)
-  local female = UnitSex and UnitSex("player") == 3
+  -- every translated word passes here (the kit's): the reader's gender (the
+  -- game's own token, $gmasculine:feminine;) and, on Classic, its own names
+  -- for the places Forever renamed (a translation is written with Forever's),
+  -- the longest first
   local swaps = C.client == "classic" and t.classic or nil
-  local function words(s)
-    if type(s) ~= "string" then return s end
-    s = s:gsub("%$g([^:;]*):([^;]*);", function(m, f) return female and f or m end)
-    for _, pair in ipairs(swaps or {}) do
-      if s:find(pair[1], 1, true) then s = replace(s, pair[1], pair[2]) end
-    end
-    return s
-  end
+  local function words(s) return K.swap(K.agree(s), swaps) end
   -- the game's own texts (a copy made in another language reads in this one),
   -- through the same words: the reader's gender, Classic's own names
   local books = {}
@@ -78,10 +46,7 @@ function ns.translate(t)
   end
   ns.bookTexts = books
   ns.booksById = byId
-  local L = K.L
-  for english, word in pairs(t.words or {}) do
-    L[english] = words(word)
-  end
+  K.translate(t, { swaps = swaps })
   for _, ch in ipairs(C.chapters) do
     local tr = t.chapters and t.chapters[ch.id]
     if tr then

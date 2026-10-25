@@ -20,11 +20,9 @@ ns.PREFIX = PREFIX
 -- client's language file, Text_<locale>.lua, fills it).
 ns.L = ns.kit.L
 
--- Which game: World of Warcraft: Forever (the original world on the modern
--- client, interface 16xxx) or Classic (Era, TBC Anniversary). Some pages and
--- paragraphs are for one client only (see Unlocks.lua's available() and the book).
-local interface = select(4, GetBuildInfo()) or 0
-ns.forever = interface >= 16000 and interface < 20000
+-- Which game (ns.forever: World of Warcraft: Forever, the original world on
+-- the modern client) the kit says. Some pages and paragraphs are for one
+-- client only (see Unlocks.lua's available() and the book).
 ns.client = ns.forever and "forever" or "classic"
 
 -- The reader's side: Archesonus of Ironforge writes the codex; a Horde
@@ -39,41 +37,18 @@ end
 
 -- Forever hides some values from addons ("secret values", in combat or
 -- instances): never compare or print one.
-ns.secret = issecretvalue or function() return false end
+ns.secret = ns.kit.secret
 
 local char
 function ns.codex() return char end
 
 -- ── events ───────────────────────────────────────────────────────────────────
--- Every file listens through ns.on (an event a client doesn't know is never
--- heard). Nothing is heard before the login.
-local frame = CreateFrame("Frame")
-local listeners = {}
-
-frame:SetScript("OnEvent", function(_, event, ...)
-  if event == "PLAYER_LOGIN" then ns.login() end
-  if not char then return end
-  for _, fn in ipairs(listeners[event] or {}) do
-    fn(...)
-  end
-end)
-frame:RegisterEvent("PLAYER_LOGIN")
-
-function ns.on(event, fn)
-  if not listeners[event] then
-    listeners[event] = {}
-    pcall(frame.RegisterEvent, frame, event)
-  end
-  table.insert(listeners[event], fn)
-end
-
--- Does this client have the event? (registering an unknown one throws)
-local probe = CreateFrame("Frame")
-function ns.knows(event)
-  local ok = pcall(probe.RegisterEvent, probe, event)
-  if ok then probe:UnregisterEvent(event) end
-  return ok
-end
+-- Every file listens through ns.on (the kit's events: each listener on its
+-- own, so one's error never silences the others, the login too; an event a
+-- client doesn't know never heard), ns.knows whether the client has one.
+-- Nothing is heard before the login.
+local events = ns.kit.events({ login = function() ns.login() end, ready = function() return char ~= nil end })
+ns.on, ns.knows = events.on, events.knows
 
 -- ── the login ────────────────────────────────────────────────────────────────
 -- The game keeps a character's saved variables under its name, so a new

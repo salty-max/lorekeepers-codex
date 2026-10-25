@@ -228,9 +228,7 @@ end
 -- ── links in chat ────────────────────────────────────────────────────────────
 -- |Hlorekeeper:<what>|h[Title]|h: a page's id, ach:<achievement>, lib:<text>.
 -- The game hands links of an unknown type to the handler registered for it.
-local function followLink(link)
-  local id = link:match("^lorekeeper:(.+)$")
-  if not id then return end
+local function followLink(id)
   local text = tonumber(id:match("^lib:(%d+)$"))
   if text then return ns.openText(text) end
   local achievement = id:match("^ach:(.+)$")
@@ -240,15 +238,8 @@ local function followLink(link)
     ns.open(id)
   end
 end
-if LinkUtil and LinkUtil.RegisterLinkHandler then
-  LinkUtil.RegisterLinkHandler("lorekeeper", function(link)
-    followLink(link)
-    return LinkProcessorResponse and LinkProcessorResponse.Handled
-  end)
-elseif hooksecurefunc and SetItemRef then
-  -- Clients without the link registry still pass every click to SetItemRef.
-  hooksecurefunc("SetItemRef", function(link) followLink(link) end)
-end
+-- (the kit's: the client's link registry, else SetItemRef)
+K.links("lorekeeper", followLink)
 
 -- A page found while the book is open shows up at once; so does an
 -- achievement, and a text copied into the Library.

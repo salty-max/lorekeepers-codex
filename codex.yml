@@ -1,0 +1,16 @@
+# The addon's own globals: its saved variables and its slash command
+# (selene.toml: std = "wow+codex"; the game's are the kit's wow.yml).
+name: codex
+globals:
+  LorekeepersCodexChar:
+    any: true
+  LorekeepersCodexCollect:
+    any: true
+  LorekeepersCodexScan:
+    any: true
+  LorekeepersCodexSettings:
+    any: true
+  SLASH_LOREKEEPERSCODEX1:
+    any: true
+  SLASH_LOREKEEPERSCODEX2:
+    any: true

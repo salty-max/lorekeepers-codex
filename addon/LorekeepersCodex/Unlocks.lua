@@ -281,23 +281,20 @@ local function checkArea()
 end
 
 local function checkPosition()
+  -- (Forever may keep where the player stands a secret: never compared then)
   local map = C_Map and C_Map.GetBestMapForUnit and C_Map.GetBestMapForUnit("player")
-  local spots = map and byMap[map]
+  if not map or secret(map) then return end
+  local spots = byMap[map]
   if not spots then return end
   local pos = C_Map.GetPlayerMapPosition(map, "player")
-  if not pos then return end
+  if not pos or secret(pos.x) or secret(pos.y) then return end
   local x, y = pos.x * 100, pos.y * 100
   for _, s in ipairs(spots) do
     if (x - s.x) ^ 2 + (y - s.y) ^ 2 <= s.r ^ 2 then unlock(s.id) end
   end
 end
 
-local function creatureId(guid)
-  if not guid or secret(guid) then return end
-  local kind, _, _, _, _, id = strsplit("-", guid)
-  if kind == "Creature" then return tonumber(id) end
-end
-local function npcId(unit) return creatureId(UnitGUID(unit)) end
+local function npcId(unit) return ns.kit.npcOf(unit) end
 ns.npcId = npcId
 
 local function checkNpc(unit)
@@ -329,10 +326,7 @@ local function checkPlayer(unit)
   end
 end
 
-local function questDone(id)
-  if C_QuestLog and C_QuestLog.IsQuestFlaggedCompleted then return C_QuestLog.IsQuestFlaggedCompleted(id) end
-  return IsQuestFlaggedCompleted and IsQuestFlaggedCompleted(id)
-end
+local questDone = ns.kit.questDone
 
 -- A faction's standing (1 hated .. 8 exalted): the old function on Classic,
 -- C_Reputation on the modern client.
@@ -360,7 +354,7 @@ local function killed(attacker, victim)
   if not attacker or secret(attacker) or (attacker ~= UnitGUID("player") and attacker ~= UnitGUID("pet")) then
     return
   end
-  local id = creatureId(victim)
+  local id = ns.kit.npcId(victim)
   for _, entry in ipairs(id and byKill[id] or {}) do
     unlock(entry)
   end

@@ -17,32 +17,29 @@ local _, ns = ...
 local L = ns.kit.L
 local K = ns.kit
 
--- (minimapAngle: the button's place around the minimap, in degrees; 200 is
--- lower left, clear of the game's buttons; welcomed: never copied)
+-- (minimapAngle: the button's place around the minimap, in degrees, the
+-- family's own for the Codex, K.MINIMAP_ANGLES: below, off Hearthtale's;
+-- welcomed: never copied)
 local DEFAULTS = {
   banner = true,
   bannerSeconds = 10,
   achievementToast = true,
   sound = -1,
   minimapHidden = false,
-  minimapAngle = 200,
+  minimapAngle = K.MINIMAP_ANGLES.LorekeepersCodex,
   tooltipHints = true,
   welcomed = false,
 }
 local SHARED =
   { "banner", "bannerSeconds", "achievementToast", "sound", "tooltipHints", "minimapHidden", "minimapAngle" }
 
--- Sounds for a new page: all from the original game's interface. -1 is the
--- sting heard on discovering a new zone, which differs by race.
-ns.SOUNDS = {
-  { -1, L["Zone discovery"] },
-  { 878, L["Quest complete"] },
-  { 3175, L["Map ping"] },
-  { 8960, L["Ready check"] },
-  { 836, L["Page turn"] },
-  { 844, L["Book opening (quiet)"] },
-  { 0, L["None"] },
-}
+-- Sounds for a new page: the kit's (all from the original game's interface;
+-- -1 the sting heard on discovering a new zone, which differs by race),
+-- named in the reader's language.
+ns.SOUNDS = {}
+for i, s in ipairs(K.SOUNDS) do
+  ns.SOUNDS[i] = { s[1], L[s[2]] }
+end
 
 -- The profiles: a code "LC1:b1:d10:v1:s-1:t1:h0:a200" (a page's alert and its
 -- seconds, an achievement's alert, the sound, tooltip hints, the minimap button
@@ -85,18 +82,9 @@ end
 function ns.option(key) return P:get(key) end
 function ns.setOption(key, value) P:set(key, value) end
 
--- The exploration sound kit of each race (Undead's token is Scourge).
-local DISCOVERY =
-  { Human = 4140, Orc = 4141, Scourge = 4142, Tauren = 4143, Troll = 4144, NightElf = 4145, Gnome = 4146, Dwarf = 4147 }
-
-function ns.playSound(id)
-  id = id or ns.option("sound")
-  if id == -1 then
-    local _, race = UnitRace("player")
-    id = DISCOVERY[race] or DISCOVERY.Human
-  end
-  if id and id > 0 and PlaySound then PlaySound(id) end
-end
+-- A sound of the list, the reader's choice by default (the kit's: -1 the
+-- race's own discovery sting).
+function ns.playSound(id) K.playSound(id or ns.option("sound")) end
 
 -- The opt-in that shares what the game tells of the world with the addons'
 -- database (the kit's, K.collect): account-wide, in LorekeepersCodexCollect, which

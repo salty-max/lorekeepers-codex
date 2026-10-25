@@ -446,7 +446,7 @@ check(
 )
 LorekeepersCodexFrame:Hide()
 check(
-  LorekeepersCodexMinimapButton ~= nil and ns.option("minimapAngle") == 200,
+  LorekeepersCodexMinimapButton ~= nil and ns.option("minimapAngle") == ns.kit.MINIMAP_ANGLES.LorekeepersCodex,
   "a minimap button, at its place (this character's settings)"
 )
 check(has("dun-morogh"), "being in Dun Morogh unlocks the zone's page")

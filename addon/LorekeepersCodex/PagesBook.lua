@@ -165,8 +165,9 @@ end
 
 -- Search: the pages this character has found whose title or text holds the
 -- query (never locked ones: no spoilers). Text is lowered once, on first use.
--- A curly apostrophe (typed or pasted) counts as a straight one.
-local function plain(s) return (s:lower():gsub("\226\128\153", "'")) end
+-- The kit's plain words: lowercase beyond ASCII, accents and curly
+-- apostrophes aside (typed or pasted).
+local plain = ns.kit.plain
 local haystack = {}
 local function matches(id, query)
   if not haystack[id] then

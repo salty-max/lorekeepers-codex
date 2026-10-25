@@ -1,6 +1,6 @@
 # The addon's Lua, linted by selene (bun run lint:lua): Lua 5.1 and the game's
 # globals the addon uses (wow.yml).
-std = "wow"
+std = "wow+codex"
 exclude = ["addon/LorekeepersCodex/Content_*.lua", "addon/LorekeepersCodex/Text_*.lua"]
 
 [lints]
