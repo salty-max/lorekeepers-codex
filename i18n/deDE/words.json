@@ -38,7 +38,7 @@
   "Click it to open the codex, or drag it around the minimap.": "Klick darauf, um den Kodex zu öffnen, oder zieh es um die Minikarte.",
   "Click to read this page": "Klicken, um diese Seite zu lesen",
   "Collector of Words": "Sammler der Worte",
-  "Copied into the Library: %s": "In die Bibliothek abgeschrieben: %s",
+  "Copied into the Library: %s.": "In die Bibliothek abgeschrieben: %s.",
   "Copied lately": "Zuletzt abgeschrieben",
   "Copy %d texts into the Library: books, notes, letters or plaques read in the world.": "Schreib %d Texte in die Bibliothek ab: Bücher, Notizen, Briefe oder Tafeln, die du in der Welt gelesen hast.",
   "Copy it (Ctrl+C), then on another character: Use a code, or /codex import CODE.": "Kopiere ihn (Strg+C). Wähle dann bei einem anderen Charakter „Code verwenden“ oder nutze /codex import CODE.",

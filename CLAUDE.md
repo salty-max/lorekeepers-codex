@@ -64,7 +64,7 @@ scripts/release.sh [--version X.Y.Z] [--hold] NOTES.md   # check, tag, push; Act
   `scripts/root.ts` and `root.py`); `Content_*.lua`, `data/*.json` and the
   language files are generated, `--check` fails a stale one. A new
   generator goes into `game-data.yml` too.
-- `Kit.lua`, `Media/`, `scripts/root.ts` (and `root.py`), `scripts/locales-lib.ts`,
+- `Kit.lua`, `Media/`, `scripts/root.ts` (and `root.py`), `scripts/locales-lib.ts`, `scripts/package-lib.ts`,
   `i18n/kit/` (the kit's words, translated once), `wow.yml` and `stylua.toml`
   are the kit's copies: edit addon-kit, then `bun run kit:sync`. The addon's
   own globals for selene are `codex.yml`.

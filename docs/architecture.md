@@ -60,9 +60,10 @@ stays there). What a page is and how it is written: `docs/writing.md`.
   from inside the reader's event: turns nested there crashed the game on a
   long book); per character
   in `LorekeepersCodexChar.library`; players' letters never), `Book.lua` (the
-  window, its tabs: each a file of its own registered with `ns.addTab`, the
-  links in chat, and what every tab is made of, `ns.ui`: the look, a list's
-  row, the kit's page (`K.page`: a header, sections, cards, figures, ...); a
+  window, the kit's `K.book`, its tabs: each a file of its own registered
+  with `ns.addTab`, the links in chat, and what every tab is made of,
+  `ns.ui`: the look, the kit's list (`K.list`, each tab its kinds of row),
+  the kit's page (`K.page`: a header, sections, cards, figures, ...); a
   page's picture, `ns.pictureOf`; a tab's own select under the search box,
   registered with its tab, `filter = { default, options() }`, its choice
   `ns.filterOf(n)`: the pages' kind), `PagesBook.lua` (the codex at a glance
@@ -127,8 +128,9 @@ stays there). What a page is and how it is written: `docs/writing.md`.
 ## Lua tools and releases
 
 - Lua: `bun run format:lua` (StyLua, `stylua.toml`) and `bun run lint:lua`
-  (selene, `selene.toml`; the game's globals in `wow.yml`: add one there when
-  the addon calls a new game function). Both run in `bun run check` and CI.
+  (selene, `selene.toml`; the game's globals in `wow.yml`, the kit's copy: a
+  new game function goes into addon-kit's `wow.yml`, then `bun run kit:sync`;
+  the addon's own globals in `codex.yml`). Both run in `bun run check` and CI.
 - Release: `scripts/release.sh [--version X.Y.Z] [--hold] NOTES.md` (main
   pushed first); GitHub Actions runs the BigWigs packager (`.pkgmeta`):
   the zip on GitHub, CurseForge (the TOCs' `X-Curse-Project-ID`, secret

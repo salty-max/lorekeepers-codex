@@ -108,7 +108,6 @@ local B = K.book({
   searchRight = -34,
   filter = true,
 })
-ns.kitBook = B -- (for the tests)
 function ns.addTab(n, tab) B:add(n, tab) end
 function ns.filterOf(n) return B:filterOf(n) end
 -- Rewrite what the open tab shows. scroll: bring its picked-out row into view.

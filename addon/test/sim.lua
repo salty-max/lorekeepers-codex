@@ -65,11 +65,14 @@ else
   function GetFactionInfoByID(id) return "Ironforge", "", state.standing[id] end
 end
 SOUNDKIT = { IG_QUEST_LOG_OPEN = 1 }
-local sounds, lastSound = 0, nil
--- (the game's: whether it will play, as a client with the sound says)
+local sounds, lastSound, playedIds, fanfareless = 0, nil, {}, false
+-- (the game's: whether it will play, as a client with the sound says;
+-- fanfareless: a client without the achievements' fanfare)
 function PlaySound(id)
   sounds = sounds + 1
   lastSound = id
+  table.insert(playedIds, id)
+  if fanfareless and id == 12891 then return false end
   return true
 end
 local ticker
@@ -558,10 +561,30 @@ for _, b in ipairs(toasted) do
   if b.achievement == "wanderer-one" then achieved = true end
 end
 check(achieved, "… and on a banner")
+local fanfared = false
+for _, id in ipairs(playedIds) do
+  if id == 12891 then fanfared = true end
+end
+check(fanfared, "… with the game's fanfare")
 kill(PLAYER, 706)
 check(
   sounds == 11 and ns.earned("pages-10"),
   "another Frostmane kill adds nothing (the tenth page earned Ink on the Fingers)"
+)
+-- (a client without the fanfare: the reader's own sound instead; Ink on the
+-- Fingers earned again to hear it)
+fanfareless = true
+local from = #playedIds
+LorekeepersCodexChar.achievements["pages-10"] = nil
+ns.checkAchievements()
+local fallback
+for i = from + 1, #playedIds - 1 do
+  if playedIds[i] == 12891 then fallback = playedIds[i + 1] end
+end
+fanfareless = false
+check(
+  ns.earned("pages-10") and fallback == 4147,
+  "… where the client has no fanfare, the page's sound (the dwarf's) instead"
 )
 
 state.zone, state.sub = "Ironforge", ""

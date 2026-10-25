@@ -38,7 +38,7 @@
   "Click it to open the codex, or drag it around the minimap.": "Cliquez dessus pour ouvrir le codex, ou faites-le glisser autour de la minicarte.",
   "Click to read this page": "Cliquez pour lire cette page",
   "Collector of Words": "$gCollectionneur:Collectionneuse; de mots",
-  "Copied into the Library: %s": "Copié dans la Bibliothèque : %s",
+  "Copied into the Library: %s.": "Copié dans la Bibliothèque : %s.",
   "Copied lately": "Copiés récemment",
   "Copy %d texts into the Library: books, notes, letters or plaques read in the world.": "Copier %d textes dans la Bibliothèque : livres, notes, lettres ou plaques lus dans le monde.",
   "Copy it (Ctrl+C), then on another character: Use a code, or /codex import CODE.": "Copiez-le (Ctrl+C), puis sur un autre personnage : Utiliser un code, ou /codex import CODE.",

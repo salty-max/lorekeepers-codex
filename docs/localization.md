@@ -37,9 +37,12 @@ loads exactly what it does today.
   paragraphs (`[horde]`, `[forever]` and the rest kept), with the hash of the
   English page it was made from. The build calls a translation **stale**
   when its English page changed since, and `--check` lists them.
-- `i18n/<locale>/words.json`: the interface's words (tabs, buttons, chat lines,
-  the welcome, the settings). The code reads every visible string through
-  `L[...]`, English by default.
+- `i18n/<locale>/words.json`: the interface's words (tabs, buttons, chat lines).
+  The code reads every visible string through `L[...]`, English by default.
+  The kit's own words (the welcome's buttons, the sounds, the months, the
+  settings' copy and import, the achievements' alert) are in `i18n/kit/`,
+  translated once in addon-kit (`addon-kit/i18n/<locale>.json`): fix one there,
+  then `bun run kit:sync`.
 - `scripts/locales.ts` writes `Text_<locale>.lua` per language (titles,
   paragraphs, the interface's words), and a stub for a language not
   translated yet, so the TOC never names a missing file. A page missing from

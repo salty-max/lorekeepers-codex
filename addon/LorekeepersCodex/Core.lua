@@ -118,14 +118,21 @@ end
 -- ── /codex ───────────────────────────────────────────────────────────────────
 
 local function where()
-  -- For writing content: where am I, in the terms the content files use.
+  -- For writing content: where am I, in the terms the content files use
+  -- (none of what Forever keeps secret in an instance compared or printed).
+  local secret = ns.secret
   local map = C_Map.GetBestMapForUnit("player")
+  if secret(map) then map = nil end
   local pos = map and C_Map.GetPlayerMapPosition(map, "player")
+  if pos and (secret(pos.x) or secret(pos.y)) then pos = nil end
+  local zone, sub = GetRealZoneText(), GetSubZoneText()
+  if secret(zone) then zone = nil end
+  if secret(sub) then sub = nil end
   print(
     PREFIX
       .. ("%s / %s · uiMap %s · %s"):format(
-        GetRealZoneText() or "?",
-        GetSubZoneText() ~= "" and GetSubZoneText() or "-",
+        zone or "?",
+        sub and sub ~= "" and sub or "-",
         tostring(map),
         pos and ("position: %d %.1f %.1f"):format(map, pos.x * 100, pos.y * 100) or "no position"
       )
