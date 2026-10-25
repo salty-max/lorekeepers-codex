@@ -97,104 +97,61 @@ ns.collect = K.collect({
   prefix = ns.PREFIX,
 })
 
-local category
+local O
 
+-- The page (the kit's, K.options).
 function ns.createSettingsPanel()
-  if category or not (Settings and Settings.RegisterVerticalLayoutCategory) then return end
-  category = Settings.RegisterVerticalLayoutCategory("Lorekeeper's Codex")
-
-  local function checkbox(key, name, tooltip, invert)
-    invert = invert or false
-    local setting = Settings.RegisterProxySetting(
-      category,
-      "LOREKEEPERSCODEX_" .. key:upper(),
-      Settings.VarType.Boolean,
-      name,
-      not DEFAULTS[key] == invert,
-      function() return ns.option(key) ~= invert end,
-      function(value) ns.setOption(key, value ~= invert) end
-    )
-    Settings.CreateCheckbox(category, setting, tooltip)
-  end
-  checkbox(
+  if O then return end
+  O = K.options({
+    title = "Lorekeeper's Codex",
+    key = "LOREKEEPERSCODEX",
+    get = ns.option,
+    set = ns.setOption,
+    defaults = DEFAULTS,
+    profiles = P,
+    slash = "/codex",
+    prefix = ns.PREFIX,
+  })
+  O:check(
     "banner",
     L["Alert for new pages"],
     L["Show each new page in the game's own alert. A click on it reads the page."]
   )
-  checkbox(
+  O:check(
     "achievementToast",
     L["Alert for achievements"],
     L["Show each achievement earned in the game's achievement alert. A click on it opens the achievements."]
   )
-  local seconds = Settings.RegisterProxySetting(
-    category,
-    "LOREKEEPERSCODEX_BANNERSECONDS",
-    Settings.VarType.Number,
+  O:slider(
+    "bannerSeconds",
     L["Alert shown for"],
-    DEFAULTS.bannerSeconds,
-    function() return ns.option("bannerSeconds") end,
-    function(value) ns.setOption("bannerSeconds", value) end
-  )
-  local options = Settings.CreateSliderOptions(0, 60, 5)
-  options:SetLabelFormatter(
-    MinimalSliderWithSteppersMixin.Label.Right,
+    L["How long the alert stays on screen. At 0 it stays until you read or dismiss it (right-click)."],
+    0,
+    60,
+    5,
     function(value) return value == 0 and L["until closed"] or L["%d s"]:format(value) end
   )
-  Settings.CreateSlider(
-    category,
-    seconds,
-    options,
-    L["How long the alert stays on screen. At 0 it stays until you read or dismiss it (right-click)."]
-  )
-
-  local sound = Settings.RegisterProxySetting(
-    category,
-    "LOREKEEPERSCODEX_SOUND",
-    Settings.VarType.Number,
-    L["Sound for a new page"],
-    DEFAULTS.sound,
-    function() return ns.option("sound") end,
-    function(value)
-      ns.setOption("sound", value)
-      ns.playSound(value)
-    end
-  )
-  Settings.CreateDropdown(category, sound, function()
-    local sounds = Settings.CreateControlTextContainer()
+  O:choice("sound", L["Sound for a new page"], L["Played when a page is added to the codex."], function()
+    local out = {}
     for _, s in ipairs(ns.SOUNDS) do
-      sounds:Add(s[1], s[2])
+      table.insert(out, { s[1], s[2] })
     end
-    return sounds:GetData()
-  end, L["Played when a page is added to the codex."])
-
-  checkbox(
+    return out
+  end, function(value) ns.playSound(value) end)
+  O:check(
     "tooltipHints",
     L["Hints on tooltips"],
     L["A line on the tooltip of creatures that unlock a page (a page to find, or its title once found), and of players whose people's or calling's page is still to find."]
   )
-
-  checkbox(
+  O:check(
     "minimapHidden",
     L["Minimap button"],
     L["The book by the minimap: click to open the codex, drag to move it."],
     true
   )
-
-  K.collectSetting(category, "CODEX_SHARE", ns.collect)
-
-  -- Another character's settings (of this game), for this one.
-  K.copySetting(
-    category,
-    "LOREKEEPERSCODEX_COPYFROM",
-    P,
-    L["Another character's choices, for this one (of this game: Classic and Forever keep their own). From elsewhere: /codex export there, then /codex import CODE here."],
-    function(other) print(ns.PREFIX .. L["%s's settings copied."]:format(other)) end
-  )
-
-  Settings.RegisterAddOnCategory(category)
+  O:collect(ns.collect)
+  O:copy()
+  O:done()
 end
 
-function ns.openSettings()
-  if category then Settings.OpenToCategory(category:GetID()) end
-  return category ~= nil
-end
+function ns.openSettings() return O ~= nil and O:open() end

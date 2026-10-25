@@ -66,9 +66,11 @@ else
 end
 SOUNDKIT = { IG_QUEST_LOG_OPEN = 1 }
 local sounds, lastSound = 0, nil
+-- (the game's: whether it will play, as a client with the sound says)
 function PlaySound(id)
   sounds = sounds + 1
   lastSound = id
+  return true
 end
 local ticker
 local timers = {}
@@ -207,6 +209,7 @@ local function ui()
   })
 end
 UIParent, UISpecialFrames, SlashCmdList = ui(), {}, {}
+UIParent.shown = true -- (the game's screen: always shown)
 Minimap, GameTooltip = ui(), ui()
 -- The tooltip: keep hooks, lines and the unit it shows.
 local tipHooks, tipLines, tipUnit = {}, {}, nil
@@ -254,9 +257,10 @@ Settings = {
 }
 local events
 local frames = {}
-function CreateFrame(kind, name)
+function CreateFrame(kind, name, parent)
   local f = ui()
   f.shown = true -- (a new frame is shown, as in the game)
+  f.parent = parent
   f.registered = {}
   f.RegisterEvent = function(self, e)
     if FOREVER and e == "COMBAT_LOG_EVENT_UNFILTERED" then error("COMBAT_LOG_EVENT_UNFILTERED: forbidden") end
@@ -269,6 +273,14 @@ function CreateFrame(kind, name)
   if not events and kind == "Frame" and not name then events = f end
   if name then _G[name] = f end
   return f
+end
+-- Seen on screen: shown, and every frame it sits in too (the game's IsVisible).
+local function visible(f)
+  while type(f) == "table" do
+    if not f.shown then return false end
+    f = rawget(f, "parent")
+  end
+  return true
 end
 -- An event, to every frame that registered it (the addon's, the kit's).
 local function fire(e, ...)
@@ -538,7 +550,7 @@ check(
   "… and earns an achievement, A Tale Worth Telling"
 )
 check(
-  said("achievement earned: |cffffd100|Hlorekeeper:ach:wanderer-one|h[A Tale Worth Telling]|h|r"),
+  said("Achievement earned: |cffffd100|Hlorekeeper:ach:wanderer-one|h[A Tale Worth Telling]|h|r."),
   "… announced in chat as a link"
 )
 local achieved = false
@@ -733,8 +745,19 @@ check(
   printed[1]:find("position: 1455 60.0 49.0", 1, true) ~= nil and printed[2]:find("npc: 2784", 1, true) ~= nil,
   "/codex where gives the position and target in content terms"
 )
+printed = {}
 SlashCmdList.LOREKEEPERSCODEX("reset")
-check(ns.count() > 3, "/codex reset alone only asks")
+check(
+  ns.count() > 3 and printed[1]:find("|r This forgets every page", 1, true) ~= nil,
+  "/codex reset alone only asks, a sentence after the prefix"
+)
+printed = {}
+SlashCmdList.LOREKEEPERSCODEX("resett")
+check(
+  #printed == 1 and printed[1]:find("/codex opens the book", 1, true) ~= nil and ns.count() > 3,
+  "an unknown word prints the usage, and does nothing else"
+)
+check(SLASH_LOREKEEPERSCODEX1 == "/codex" and SLASH_LOREKEEPERSCODEX2 == "/lorekeeper", "/lorekeeper says the same")
 SlashCmdList.LOREKEEPERSCODEX("reset yes")
 check(
   LorekeepersCodexChar.guid == PLAYER
@@ -1178,7 +1201,7 @@ ns.openAchievements("leaders")
 check(
   LorekeepersCodexFrame.shown
     and LorekeepersCodexFrame.selectedTab == 3
-    and LorekeepersCodexAchievements.shown
+    and visible(LorekeepersCodexAchievements)
     and not LorekeepersCodexList.shown,
   "an achievement opens the book at the achievements tab"
 )
@@ -1213,7 +1236,7 @@ check(
 )
 LorekeepersCodexFrameTab1.scripts.OnClick(LorekeepersCodexFrameTab1)
 check(
-  LorekeepersCodexFrame.selectedTab == 1 and LorekeepersCodexList.shown and not LorekeepersCodexAchievements.shown,
+  LorekeepersCodexFrame.selectedTab == 1 and LorekeepersCodexList.shown and not visible(LorekeepersCodexAchievements),
   "the Pages tab brings the pages back"
 )
 LorekeepersCodexFrame:Hide()

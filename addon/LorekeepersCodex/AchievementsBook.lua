@@ -4,9 +4,6 @@
 -- asks, when it was earned or how far along it is). Achievements.lua.
 local _, ns = ...
 local L = ns.kit.L
-local ui = ns.ui
-
-local book, board
 ns.achievementRows = {} -- for the tests
 
 -- (each group: its id, its heading, its picture, the figure it counts in)
@@ -29,59 +26,18 @@ local FIGURES = {
   { "encounters", L["of the encounters"] },
   { "reading", L["of the reading"] },
 }
-local selected
-
--- The achievements shown (no chapter's before it is opened: no spoilers).
-local function items()
-  local out = {}
-  for _, a in ipairs(ns.achievements) do
-    if ns.achievementVisible(a) then
-      table.insert(out, {
-        id = a.id,
-        group = a.group,
-        title = a.title,
-        text = a.text,
-        earned = ns.earned(a.id),
-        progress = a.progress,
-        unit = a.unit,
-      })
-    end
-  end
-  return out
-end
-
-local function refresh()
-  book.count:SetText(L["%d of %d achievements"]:format(ns.achievementCount()))
-  board:refresh(selected)
-end
-
-local function build(b)
-  book = b
-  book.achPanel = ui.panel(book)
-  book.achPanel:SetPoint("TOPLEFT", 8, -58)
-  book.achPanel:SetPoint("BOTTOMRIGHT", -8, 8)
-  board = ns.kit.board({
-    parent = book.achPanel,
-    name = "LorekeepersCodexAchievements",
-    groups = GROUPS,
-    figures = FIGURES,
-    items = items,
-    rows = ns.achievementRows,
-  })
-end
-
-local function show(n)
-  book.achPanel:SetShown(n == ns.TAB.achievements)
-  board.scroll:SetShown(n == ns.TAB.achievements)
-end
-
--- (its tab clicked: none picked out)
-local function chosen() selected = nil end
-
-ns.addTab(ns.TAB.achievements, { build = build, show = show, refresh = refresh, chosen = chosen, whole = true })
+-- (the kit's tab, K.deedsTab: its board over both panels and the count)
+local tab = ns.kit.deedsTab(ns.deeds, {
+  name = "LorekeepersCodexAchievements",
+  groups = GROUPS,
+  figures = FIGURES,
+  rows = ns.achievementRows,
+  n = ns.TAB.achievements,
+})
+ns.addTab(ns.TAB.achievements, tab.tab)
 
 -- Open the book at the achievements, one of them picked out.
 function ns.openAchievements(id)
-  selected = id
+  tab:pick(id)
   ns.openTab(ns.TAB.achievements)
 end

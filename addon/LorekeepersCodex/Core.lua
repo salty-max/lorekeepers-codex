@@ -137,65 +137,53 @@ local function where()
   end
 end
 
-SLASH_LOREKEEPERSCODEX1 = "/codex"
-SLASH_LOREKEEPERSCODEX2 = "/lorekeeper"
-SlashCmdList.LOREKEEPERSCODEX = function(msg)
-  local raw = strtrim(msg or "")
-  msg = raw:lower()
-  local scan = msg:match("^scan%s*(%a*)$")
-  if msg == "" then
-    ns.toggle()
-  elseif msg == "where" then
-    where()
-  elseif msg == "reset" then
-    print(
-      PREFIX .. L["this forgets every page and achievement this character has found. Type /codex reset yes to do it."]
-    )
-  elseif msg == "reset yes" then
-    newCodex(char.guid)
-    ns.catchUp()
-    ns.refresh()
-    print(PREFIX .. L["the codex starts afresh: %d of %d pages."]:format(ns.count(), ns.knownTotal()))
-  elseif msg == "welcome" then
-    ns.showWelcome()
-  elseif msg == "export" then
-    ns.showWelcome("export")
-  elseif msg:match("^import%s") then
-    if ns.profiles:import(raw:match("^%a+%s+(.+)$")) then
-      print(PREFIX .. L["settings imported for this character."])
-    else
-      print(PREFIX .. L["that isn't a Lorekeeper's Codex settings code (/codex export makes one)."])
-    end
-  elseif msg == "banner" then
-    ns.setOption("banner", not ns.option("banner"))
-    print(
-      PREFIX
-        .. (
-          ns.option("banner") and L["alerts shown for new pages."]
-          or L["alerts hidden (/codex banner to show them again)."]
-        )
-    )
-  elseif msg == "minimap" then
-    ns.setOption("minimapHidden", not ns.option("minimapHidden"))
-    print(
-      PREFIX
-        .. (
-          ns.option("minimapHidden") and L["minimap button hidden (/codex minimap to show it again)."]
-          or L["minimap button shown."]
-        )
-    )
-  elseif scan then
+local USAGE =
+  L["/codex opens the book, /codex achievements its achievements and /codex settings its settings. /codex banner shows or hides the alerts, /codex minimap the button. /codex welcome shows the welcome page again. /codex export gives this character's settings as a code, and /codex import CODE takes them. /codex reset starts this character's codex over."]
+
+-- The kit's command (K.commands): alone it opens the book, an unknown word
+-- prints the usage.
+ns.kit.commands({
+  names = { "/codex", "/lorekeeper" },
+  key = "LOREKEEPERSCODEX",
+  name = "Lorekeeper's Codex",
+  prefix = PREFIX,
+  profiles = function() return ns.profiles end,
+  open = function() ns.toggle() end,
+  usage = USAGE,
+  settings = function() return ns.openSettings() end,
+  welcome = function(mode) ns.showWelcome(mode) end,
+  minimap = { get = function(k) return ns.option(k) end, set = function(k, v) ns.setOption(k, v) end },
+  commands = {
+    where = where,
+    reset = function()
+      print(
+        PREFIX .. L["This forgets every page and achievement this character has found. Type /codex reset yes to do it."]
+      )
+    end,
+    ["reset yes"] = function()
+      newCodex(char.guid)
+      ns.catchUp()
+      ns.refresh()
+      print(PREFIX .. L["The codex starts afresh: %d of %d pages."]:format(ns.count(), ns.knownTotal()))
+    end,
+    banner = function()
+      ns.setOption("banner", not ns.option("banner"))
+      print(
+        PREFIX
+          .. (
+            ns.option("banner") and L["Alerts shown for new pages."]
+            or L["Alerts hidden (/codex banner shows them again)."]
+          )
+      )
+    end,
+    achievements = function() ns.openAchievements() end,
+    ach = function() ns.openAchievements() end,
+  },
+  -- (/codex scan, on, off or clear: what the game shows, for writing content)
+  match = function(msg)
+    local scan = msg:match("^scan%s*(%a*)$")
+    if not scan then return false end
     ns.scanCommand(scan)
-  elseif msg == "achievements" or msg == "ach" then
-    ns.openAchievements()
-  elseif msg == "settings" or msg == "options" then
-    if not ns.openSettings() then
-      print(PREFIX .. L["no settings page in this client: use /codex banner and /codex minimap."])
-    end
-  else
-    print(
-      PREFIX
-        .. L["/codex opens the book, /codex achievements its achievements and /codex settings its settings. /codex banner shows or hides the alerts, /codex minimap the button. /codex welcome shows the welcome page again. /codex export gives this character's settings as a code, and /codex import CODE takes them. /codex reset starts this character's codex over."]
-    )
-  end
-end
+    return true
+  end,
+})

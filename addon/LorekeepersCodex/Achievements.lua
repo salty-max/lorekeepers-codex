@@ -32,19 +32,35 @@ end
 -- of the whole codex is never shown (unit: the progress shows as a count of
 -- pages or chapters instead), and a chapter's achievement stays out of the
 -- list until the chapter has been opened (visible()).
-local list = {}
-ns.achievements = list
-ns.achievementById = {}
+-- (the kit's: K.deeds; earned as the game's own are, the fanfare, the
+-- codex's alert behind its switch, Banner.lua)
+local deeds = ns.kit.deeds({
+  saved = function()
+    local c = LorekeepersCodexChar
+    if not c then return nil end
+    c.achievements = c.achievements or {}
+    return c.achievements
+  end,
+  name = "Lorekeeper's Codex",
+  prefix = PREFIX,
+  link = function(a) return ("|cffffd100|Hlorekeeper:ach:%s|h[%s]|h|r"):format(a.id, a.title) end,
+  fallback = function() return ns.option("sound") end,
+  show = function(a) ns.showAchievementBanner(a.id) end,
+  earnHidden = true,
+  -- (Book.lua's, set once the book is made)
+  onEarned = function(a)
+    if ns.onAchievement then ns.onAchievement(a.id) end
+  end,
+})
+ns.deeds = deeds
+ns.achievements = deeds.list
+ns.achievementById = deeds.byId
 local function add(group, id, title, text, progress, extra)
-  local a = { group = group, id = id, title = title, text = text, progress = progress }
-  for k, v in pairs(extra or {}) do
-    a[k] = v
-  end
-  table.insert(list, a)
-  ns.achievementById[id] = a
+  local a = deeds:add(group, id, title, text, progress, extra and extra.visible)
+  a.unit = extra and extra.unit
 end
 
-function ns.achievementVisible(a) return not a.visible or a.visible() or ns.earned(a.id) ~= nil end
+function ns.achievementVisible(a) return deeds:visible(a) end
 
 -- The pages a feat names, for the tests: all must exist.
 ns.featPages = {}
@@ -304,41 +320,10 @@ for _, ch in ipairs(C.chapters) do
 end
 
 -- ── earning ──────────────────────────────────────────────────────────────────
-local function char() return LorekeepersCodexChar end
-
-function ns.earned(id)
-  local c = char()
-  return c and c.achievements and c.achievements[id]
-end
+function ns.earned(id) return deeds:earned(id) end
 
 -- Earned, and listed (what the reader may know of).
-function ns.achievementCount()
-  local n, shown = 0, 0
-  for _, a in ipairs(list) do
-    if ns.earned(a.id) then n = n + 1 end
-    if ns.achievementVisible(a) then shown = shown + 1 end
-  end
-  return n, shown
-end
+function ns.achievementCount() return deeds:count() end
 
 -- quiet: record without a word (reached before the addon looked).
-function ns.checkAchievements(quiet)
-  local c = char()
-  if not c then return end
-  c.achievements = c.achievements or {}
-  for _, a in ipairs(list) do
-    if not c.achievements[a.id] then
-      local done, need = a.progress()
-      if need > 0 and done >= need then
-        c.achievements[a.id] = { at = time(), level = UnitLevel("player"), retro = quiet or nil }
-        if not quiet then
-          local link = ("|cffffd100|Hlorekeeper:ach:%s|h[%s]|h|r"):format(a.id, a.title)
-          print(PREFIX .. L["achievement earned: %s"]:format(link))
-          ns.playSound()
-          ns.showAchievementBanner(a.id)
-        end
-        if ns.onAchievement then ns.onAchievement(a.id) end
-      end
-    end
-  end
-end
+function ns.checkAchievements(quiet) deeds:check(quiet) end

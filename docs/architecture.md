@@ -39,8 +39,13 @@ stays there). What a page is and how it is written: `docs/writing.md`.
   `portrait:` (figures, creatures, factions only; never a guess), from the
   Classic database's models (`python3 scripts/portraits.py`, after adding one).
 - `addon/LorekeepersCodex/`: `Core.lua` (the codex's record and its schema,
-  the events every file listens to: `ns.on`, `ns.knows`; the login, `/codex`,
-  `/codex where`), `Unlocks.lua` (the unlock engine: areas, npcs talked to or
+  the events every file listens to: `ns.on`, `ns.knows`; the login, `/codex`
+  (the kit's command, `K.commands`: alone it opens the book, an unknown word
+  prints the usage, the replies capitalised), `/codex where`),
+  `Achievements.lua` (the achievements on the kit's `K.deeds`: earned with
+  the game's fanfare (the page sound where a client lacks it), a chat line
+  with its link and the codex's alert behind its switch; a chapter's listed
+  once the chapter is opened, earned quietly before), `Unlocks.lua` (the unlock engine: areas, npcs talked to or
   targeted, players targeted (their race's page and class's: `people:`,
   `calling:`; one's own from the start; `met` for the encounters), kills by
   you or your pet: `PARTY_KILL`, an event of its own on Forever and Classic
@@ -66,15 +71,16 @@ stays there). What a page is and how it is written: `docs/writing.md`.
   cards), `LibraryBook.lua` (the Library at a glance when its tab is clicked or its
   row at the head of the list, as the Pages tab's codex:
   figures by shelf, the texts copied lately; a text a page at a time),
-  `AchievementsBook.lua` (the kit's board), `Banner.lua` (the kit's banners,
+  `AchievementsBook.lua` (the kit's tab, `K.deedsTab`: its board over both
+  panels), `Banner.lua` (the kit's banners,
   among the game's alerts: a page found, an achievement), `Hints.lua`
   (tooltips), `Scan.lua` (`/codex scan`, for writing Forever's pages),
   `Settings.lua` (each character's settings, the kit's profiles: a profile
   "Name - Realm" in LorekeepersCodexSettings, the minimap button's place among
   them; copied from another character of this game or from a code `LC1:...`,
   `/codex export` and `/codex import CODE`; a character who kept a codex before
-  starts from the account's old values; the Options page, its "Copy settings
-  from"), `Welcome.lua` (the kit's welcome page, once per character, `/codex
+  starts from the account's old values; the Options page, the kit's
+  `K.options`, its "Copy settings from"), `Welcome.lua` (the kit's welcome page, once per character, `/codex
   welcome`: the logo, `Media/Logo.tga` from `assets/logo.png` with magick,
   what the codex is, the choices and another character's; the packages carry
   `Media/`).
