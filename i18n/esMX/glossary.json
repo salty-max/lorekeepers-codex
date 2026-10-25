@@ -346,6 +346,10 @@
    "forever": "Aetheen de los Vendavales",
    "use": "Aetheen de los Vendavales"
   },
+  "Afadra Dunwall": {
+   "forever": "Afadra Murocre",
+   "use": "Afadra Murocre"
+  },
   "Alchemist Pestlezugg": {
    "classic": "Alquimista Morterozugg",
    "forever": "Alquimista Morterozugg",
@@ -471,6 +475,10 @@
    "forever": "Archimago Arugal",
    "use": "Archimago Arugal"
   },
+  "Archmage Modera": {
+   "forever": "Archimaga Modera",
+   "use": "Archimaga Modera"
+  },
   "Arei": {
    "classic": "Arei",
    "forever": "Arei",
@@ -561,6 +569,10 @@
    "forever": "Awbee",
    "use": "Awbee"
   },
+  "Ayessa Dawnsinger": {
+   "forever": "Ayessa Cantoalba",
+   "use": "Ayessa Cantoalba"
+  },
   "Azj'Tordin": {
    "classic": "Azj'Tordin",
    "forever": "Azj'Tordin",
@@ -635,6 +647,10 @@
    "classic": "Beetix Castañeta",
    "forever": "Beetix Castañeta",
    "use": "Beetix Castañeta"
+  },
+  "Belathaan Brightwish": {
+   "forever": "Belathaan Deseo Claro",
+   "use": "Belathaan Deseo Claro"
   },
   "Bibbly F'utzbuckle": {
    "classic": "Bibbly F'utzhebilla",
@@ -1125,6 +1141,10 @@
    "forever": "Duque Nicholas Zverenhoff",
    "use": "Duque Nicholas Zverenhoff"
   },
+  "Durgen Dirgehammer": {
+   "forever": "Durgen Martillo Funesto",
+   "use": "Durgen Martillo Funesto"
+  },
   "Earthcaller Franzahl": {
    "classic": "Clamor de Tierra Franzahl",
    "forever": "Clamor de Tierra Franzahl",
@@ -1134,6 +1154,10 @@
    "classic": "Custodio de tierra",
    "forever": "Custodio de tierra",
    "use": "Custodio de tierra"
+  },
+  "Earthseer Farsen": {
+   "forever": "Videnterra Farsen",
+   "use": "Videnterra Farsen"
   },
   "Echeyakee": {
    "classic": "Echeyakee",
@@ -1153,6 +1177,10 @@
    "classic": "Eitrigg",
    "forever": "Eitrigg",
    "use": "Eitrigg"
+  },
+  "Elaadrin Evengale": {
+   "forever": "Elaadrin Vendaval del Atardecer",
+   "use": "Elaadrin Vendaval del Atardecer"
   },
   "Elling Trias": {
    "classic": "Elling Trias",
@@ -1643,6 +1671,10 @@
    "forever": "Sumo sacerdote Rohan",
    "use": "Sumo sacerdote Rohan"
   },
+  "High Priestess Lorthuna": {
+   "forever": "Suma sacerdotisa Lorthuna",
+   "use": "Suma sacerdotisa Lorthuna"
+  },
   "High Tinker Mekkatorque": {
    "classic": "Manitas Mayor Mekkatorque",
    "forever": "Manitas Mayor Mekkatorque",
@@ -1812,6 +1844,11 @@
    "classic": "Jarkal Musgofusión",
    "forever": "Jarkal Musgofusión",
    "use": "Jarkal Musgofusión"
+  },
+  "Jarod Shadowsong": {
+   "classic": "Jarod Cantosombrío",
+   "forever": "Jarod Cantosombrío",
+   "use": "Jarod Cantosombrío"
   },
   "Jaxin Chong": {
    "classic": "Jaxin Chong",
@@ -3317,6 +3354,10 @@
    "forever": "Taerar",
    "use": "Taerar"
   },
+  "Talaanis Shadowsong": {
+   "forever": "Talaanis Cantosombrío",
+   "use": "Talaanis Cantosombrío"
+  },
   "Talvash del Kissel": {
    "classic": "Talvash del Kissel",
    "forever": "Talvash del Kissel",
@@ -3515,6 +3556,10 @@
    "classic": "Vaelastrasz el Corrupto",
    "forever": "Vaelastrasz el Corrupto",
    "use": "Vaelastrasz el Corrupto"
+  },
+  "Valennia Stormfist": {
+   "forever": "Valennia Puñotormenta",
+   "use": "Valennia Puñotormenta"
   },
   "Vanndar Stormpike": {
    "classic": "Vanndar Pico Tormenta",
@@ -6135,6 +6180,14 @@
    "forever": "Ancestro de Conocimiento",
    "use": "Ancestro de Conocimiento"
   },
+  "Ancient of War": {
+   "forever": "Anciano de la guerra",
+   "use": "Anciano de la guerra"
+  },
+  "Argent Dawn": {
+   "forever": "El Alba Argenta",
+   "use": "El Alba Argenta"
+  },
   "Banshee Queen": {
    "classic": "Reina alma en pena",
    "forever": "Reina alma en pena",
@@ -6190,8 +6243,8 @@
    "use": "Rescates Droffers e Hijos"
   },
   "Earthen Ring": {
-   "forever": "El Anillo de la Tierra",
-   "use": "El Anillo de la Tierra"
+   "forever": "Anillo de la Tierra",
+   "use": "Anillo de la Tierra"
   },
   "Elder Crone": {
    "classic": "Bruja anciana",
@@ -6216,6 +6269,10 @@
    "classic": "Gran jefe",
    "forever": "Gran jefe",
    "use": "Gran jefe"
+  },
+  "High Elder of Zephras Isle": {
+   "forever": "Sumo anciano de la Isla de Zephras",
+   "use": "Sumo anciano de la Isla de Zephras"
   },
   "High Order": {
    "forever": "Suma Orden",
