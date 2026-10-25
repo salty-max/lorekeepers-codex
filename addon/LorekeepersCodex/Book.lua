@@ -91,118 +91,32 @@ local WIDTH, HEADER_H = K.PAGE_WIDTH, K.PAGE_HEADER_H
 local function pageArea(name, book) return K.page(book.sheet, name) end
 
 -- ── the window ───────────────────────────────────────────────────────────────
-local book
+-- The kit's book (K.book): the window, its two panels, the search (room
+-- beside it for the fold-all button) and under it a tab's own select (the
+-- pages' kind), the tabs; each tab a file of its own, registered with
+-- ns.addTab: { build(book), show(selected tab), refresh(scroll), chosen(),
+-- whole (over both panels), filter = { default, options() } }.
 local TAB = { pages = 1, library = 2, achievements = 3 }
 ns.TAB = TAB
--- tabs[n] = { build(book), show(selected tab), refresh(scroll), whole (over
--- both panels) }
-local tabs, TAB_TITLES = {}, { L["Pages"], L["Library"], L["Achievements"] }
-function ns.addTab(n, tab) tabs[n] = tab end
-
--- A tab's choice in its select (the kit's, under the search box: filter =
--- { default, options() } in its registration), else its default; kept for
--- the session.
-function ns.filterOf(n)
-  local tab = tabs[n]
-  if not (tab and tab.filter) then return nil end
-  if tab.filterValue == nil then return tab.filter.default end
-  return tab.filterValue
-end
-
--- The standard game window (portrait: the codex's book; title bar), else a
--- plain dialog where the client has no such template (Kit.lua).
-local TITLE = "Lorekeeper's Codex"
-
+local B = K.book({
+  name = "LorekeepersCodexFrame",
+  title = "Lorekeeper's Codex",
+  art = "Interface\\AddOns\\LorekeepersCodex\\Media\\Logo",
+  titles = { L["Pages"], L["Library"], L["Achievements"] },
+  first = TAB.pages,
+  search = "LorekeepersCodexSearch",
+  searchRight = -34,
+  filter = true,
+})
+ns.kitBook = B -- (for the tests)
+function ns.addTab(n, tab) B:add(n, tab) end
+function ns.filterOf(n) return B:filterOf(n) end
 -- Rewrite what the open tab shows. scroll: bring its picked-out row into view.
-function ns.refresh(scroll)
-  local tab = book and tabs[book.selectedTab]
-  if tab and tab.built then tab.refresh(scroll) end
-end
-
--- The tab n shown (built on first showing).
-function ns.showTab(n)
-  if not book then return end
-  book.selectedTab = n
-  if PanelTemplates_SetTab then PanelTemplates_SetTab(book, n) end
-  local tab = tabs[n]
-  if not tab.built then
-    tab.build(book)
-    tab.built = true
-  end
-  book.left:SetShown(not tab.whole)
-  book.sheet:SetShown(not tab.whole)
-  book.search:SetShown(not tab.whole)
-  if tab.filter and not tab.whole then
-    book.filter:SetOptions(tab.filter.options())
-    book.filter:SetValue(ns.filterOf(n))
-    book.filter:Show()
-  else
-    book.filter:Hide()
-  end
-  for _, t in ipairs(tabs) do
-    if t.built then t.show(n) end
-  end
-  ns.refresh(true)
-end
-
-local function build()
-  local window = K.gameWindow("LorekeepersCodexFrame", TITLE, "Interface\\AddOns\\LorekeepersCodex\\Media\\Logo")
-  book = window or K.dialog("LorekeepersCodexFrame", TITLE)
-  K.movable(book, 780, 560)
-
-  -- The count beside the portrait; the list's column below it, the page to
-  -- the right, under the title bar; the search box at the top of the list's
-  -- column (its left edge holds the glass).
-  local edge = window and 8 or 14
-  book.count = label(book, BODY_FONT, 11, T.gold)
-  book.count:SetPoint("TOPLEFT", 64, -36)
-  book.left = panel(book, true)
-  book.left:SetPoint("TOPLEFT", edge, -58)
-  book.left:SetPoint("BOTTOMLEFT", edge, edge)
-  book.left:SetWidth(244)
-  book.sheet = panel(book)
-  book.sheet:SetPoint("TOPLEFT", book.left, "TOPRIGHT", 4, 32)
-  book.sheet:SetPoint("BOTTOMRIGHT", -edge, edge)
-  book.search = CreateFrame("EditBox", "LorekeepersCodexSearch", book, "SearchBoxTemplate")
-  book.search:SetHeight(20)
-  book.search:SetPoint("TOPLEFT", book.left, "TOPLEFT", 18, -10)
-  book.search:SetPoint("TOPRIGHT", book.left, "TOPRIGHT", -34, -10)
-  book.search:HookScript("OnTextChanged", function() ns.refresh() end)
-  -- Under it, the open tab's own select (the pages' kind), if it has one.
-  book.filter = K.select(book.left, 220, "")
-  book.filter:SetPoint("TOPLEFT", book.left, "TOPLEFT", 12, -38)
-  book.filter.onChange = function(value)
-    tabs[book.selectedTab].filterValue = value
-    ns.refresh(true)
-  end
-  book.filter:Hide()
-
-  book.selectedTab = TAB.pages
-  book:SetScript("OnShow", function() ns.showTab(book.selectedTab) end)
-  K.tabs(book, TAB_TITLES, function(n)
-    local chosen = tabs[n].chosen
-    if chosen then chosen() end
-    ns.showTab(n)
-  end)
-end
-
-local function window()
-  if not book then build() end
-  return book
-end
-
-function ns.toggle() window():SetShown(not book:IsShown()) end
-
+function ns.refresh(scroll) B:refresh(scroll) end
+function ns.showTab(n) B:show(n) end
+function ns.toggle() B:toggle() end
 -- The book open at a tab (the page it shows chosen by the caller).
-function ns.openTab(n)
-  window()
-  book.selectedTab = n
-  if book:IsShown() then
-    ns.showTab(n)
-  else
-    book:Show() -- (its OnShow shows the tab)
-  end
-end
+function ns.openTab(n) B:open(n) end
 
 -- ── links in chat ────────────────────────────────────────────────────────────
 -- |Hlorekeeper:<what>|h[Title]|h: a page's id, ach:<achievement>, lib:<text>.
@@ -223,7 +137,7 @@ K.links("lorekeeper", followLink)
 -- A page found while the book is open shows up at once; so does an
 -- achievement, and a text copied into the Library.
 local function shown()
-  if book and book:IsShown() then ns.refresh() end
+  if B.frame and B.frame:IsShown() then ns.refresh() end
 end
 ns.onUnlock, ns.onAchievement, ns.onLibrary = shown, shown, shown
 
