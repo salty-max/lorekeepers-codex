@@ -4996,7 +4996,7 @@ ns.translate({
     ["great-masquerade"] = {
       title = "La gran mascarada",
       text = {
-        { "El mariscal Reginald Windsor reunió pruebas contra la consejera del alto señor Bolvar Fordragón, pero las perdió en las mazmorras de la Montaña Roca Negra. Tras su rescate, regresó con nuevas pruebas y compañeros dispuestos a apoyarlo. Entró con unos y otras en el Castillo de Ventormenta." },
+        { "El alguacil Reginald Windsor reunió pruebas contra la consejera del alto señor Bolvar Fordragón, pero las perdió en las mazmorras de la Montaña Roca Negra. Tras su rescate, regresó con nuevas pruebas y compañeros dispuestos a apoyarlo. Entró con unos y otras en el Castillo de Ventormenta." },
         { "Allí reveló que lady Katrana Prestor era Onyxia, hija de Alamuerte y hermana de Nefarian. Había mantenido al ejército de Ventormenta en casa mientras los orcos de su hermano amenazaban Crestagrana, y había sometido a Bolvar a su voluntad. Windsor deshizo su disfraz ante la corte. Ella huyó a su guarida en Marjal Revolcafango." },
         { "Windsor murió en el enfrentamiento. Anota su nombre si dejas constancia de la derrota de la dragona, $gviajero:viajera;. Su contribución empezó mucho antes de que nadie llegara a su guarida." },
       },
@@ -5444,7 +5444,7 @@ ns.translate({
     ["marshal-windsor"] = {
       title = "Mariscal Windsor",
       text = {
-        { "El mariscal Reginald Windsor mandaba soldados de la Alianza en Vigilia de Morgan y reunió pruebas que vinculaban a los orcos Roca Negra con el Vuelo Negro. Llegó a sospechar que alguien de Ventormenta quería que esas pruebas se perdieran. Los Hierro Negro lo capturaron, se quedaron con sus notas y empezaron a descifrar su código." },
+        { "El alguacil Reginald Windsor mandaba soldados de la Alianza en Vigilia de Morgan y reunió pruebas que vinculaban a los orcos Roca Negra con el Vuelo Negro. Llegó a sospechar que alguien de Ventormenta quería que esas pruebas se perdieran. Los Hierro Negro lo capturaron, se quedaron con sus notas y empezaron a descifrar su código." },
         { "Windsor sigue preso en la prisión de Ciudad Forjatiniebla. Insiste en que Bolvar Fordragón no ve la verdad, aunque la prueba está a dos pasos. Quien lo saque de allí sabrá a qué se refiere." },
       },
     },
