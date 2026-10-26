@@ -47,5 +47,11 @@
     "el Sindicato": "la Hermandad",
     "del Sindicato": "de la Hermandad",
     "al Sindicato": "a la Hermandad"
+  },
+  "overrides": {
+    "alguacil Reginald Windsor": {
+      "to": "mariscal Reginald Windsor",
+      "why": "creature 9682's esMX in wow-data is Questie's, most likely esES's copy; the client names this man Mariscal Windsor everywhere (creature 9023, quest 4241, items 11464 and 11465), and the page is titled so. Check 9682 in an esMX client, then drop this."
+    }
   }
 }
