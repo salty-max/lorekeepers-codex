@@ -3321,7 +3321,7 @@ ns.translate({
     ["The Librarian's Apprentice"] = "$gApprenti:Apprentie; bibliothécaire",
     ["The Library"] = "La Bibliothèque",
     ["The lore of Azeroth, written for you as you explore."] = "L'histoire d'Azeroth, écrite pour vous au fil de vos explorations.",
-    ["This forgets every page and achievement this character has found. Type /codex reset yes to do it."] = "Ceci efface toutes les pages trouvées et tous les hauts faits obtenus par ce personnage. Tapez /codex reset yes pour le faire.",
+    ["This forgets every page and achievement this character has found. Type /codex reset yes to do it."] = "Ceci efface toutes les pages trouvées et tous les hauts faits obtenus par ce personnage. Tapez /codex reset yes pour confirmer.",
     ["This is the %s package, and this is %s: install the %s package to read this game's pages."] = "Ceci est le paquet %s, et ce jeu est %s : installez le paquet %s pour lire les pages de ce jeu.",
     ["This page did not reach the codex. Open the text again in the world to copy it."] = "Cette page n'a pas été copiée. Rouvrez le texte dans le monde pour la copier.",
     ["Three Hundred Pages"] = "Trois cents pages",
