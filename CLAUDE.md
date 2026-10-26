@@ -36,7 +36,7 @@ bun run kit:sync     # after a change to the kit (Kit.lua, Media, scripts/root.t
 bun run locales      # --keys writes i18n/words.json; --stamp once a translation is read again
 bun scripts/areas.ts [--forever]   # the areas; python3 scripts/texts.py, portraits.py after a read: or portrait:
 bun run when <page>|--changed|--all  # when each page unlocks and what comes after it: a page unlocks only after the last thing it tells
-scripts/release.sh [--version X.Y.Z] [--hold] NOTES.md   # check, tag, push; Actions publish
+scripts/release.sh --version X.Y.Z [--hold] NOTES.md   # check, tag, push; Actions publish
 ```
 
 ## Hard rules

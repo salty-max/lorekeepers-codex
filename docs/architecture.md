@@ -131,7 +131,7 @@ stays there). What a page is and how it is written: `docs/writing.md`.
   (selene, `selene.toml`; the game's globals in `wow.yml`, the kit's copy: a
   new game function goes into addon-kit's `wow.yml`, then `bun run kit:sync`;
   the addon's own globals in `codex.yml`). Both run in `bun run check` and CI.
-- Release: `scripts/release.sh [--version X.Y.Z] [--hold] NOTES.md` (main
+- Release: `scripts/release.sh --version X.Y.Z [--hold] NOTES.md` (main
   pushed first); GitHub Actions runs the BigWigs packager (`.pkgmeta`):
   the zip on GitHub, CurseForge (the TOCs' `X-Curse-Project-ID`, secret
   `CURSEFORGE_TOKEN`) and Wago Addons (`X-Wago-ID`, secret
