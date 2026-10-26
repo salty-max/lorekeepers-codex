@@ -3290,7 +3290,7 @@ ns.translate({
     ["Played when a page is added to the codex."] = "Suena cuando se añade una página al códice.",
     ["Quest complete"] = "Misión completada",
     ["Read %d pages of your codex."] = "Lee %d páginas de tu códice.",
-    ["Ready check"] = "Control de disponibilidad",
+    ["Ready check"] = "¿Listos?",
     ["Seasoned Traveller"] = "Viajero curtido",
     ["See also"] = "Véase también",
     ["Sep"] = "sep",
