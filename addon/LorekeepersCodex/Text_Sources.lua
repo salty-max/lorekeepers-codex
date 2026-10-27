@@ -1011,6 +1011,7 @@ ns.textSources = {
     ["Blutsegelbefehle"] = { ["i3921"] = true },
     ["Bolvar's Decree"] = { ["i11368"] = true },
     ["Bolvars Erlass"] = { ["i11368"] = true },
+    ["Bon pour une pièce d'armure de Hurlevent"] = { ["i748"] = true },
     ["Bon pour une pièce d'armure de Stormwind"] = { ["i748"] = true },
     ["Bonegrip's Note"] = { ["i4649"] = true },
     ["Bonegrips Notiz"] = { ["i4649"] = true },
