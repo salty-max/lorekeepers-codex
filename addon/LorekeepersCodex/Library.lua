@@ -12,7 +12,7 @@
 -- says how much there is to find. Its tab is LibraryBook.lua.
 local _, ns = ...
 local L = ns.kit.L
-local PREFIX = "|cffc9a227Lorekeeper's Codex:|r "
+local PREFIX = ns.PREFIX
 local secret = ns.secret
 
 local function store()

@@ -7,7 +7,7 @@
 -- a quest's giver by its creature's id; the names and texts no database has
 -- yet kept as the game gave them (what it is for).
 local _, ns = ...
-local PREFIX = "|cffc9a227Lorekeeper's Codex:|r "
+local PREFIX = ns.PREFIX
 
 local function db()
   LorekeepersCodexScan = LorekeepersCodexScan or {}

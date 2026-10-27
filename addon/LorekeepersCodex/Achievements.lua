@@ -8,7 +8,7 @@
 local _, ns = ...
 local L = ns.kit.L
 local C = ns.content
-local PREFIX = "|cffc9a227Lorekeeper's Codex:|r "
+local PREFIX = ns.PREFIX
 
 -- How many of these pages this character has found.
 local function found(ids)
@@ -44,7 +44,7 @@ local deeds = ns.kit.deeds({
   name = "Lorekeeper's Codex",
   prefix = PREFIX,
   link = function(a) return ("|cffffd100|Hlorekeeper:ach:%s|h[%s]|h|r"):format(a.id, a.title) end,
-  fallback = function() return ns.option("sound") end,
+  sound = function() return ns.option("achievementSound") end,
   show = function(a) ns.showAchievementBanner(a.id) end,
   earnHidden = true,
   -- (Book.lua's, set once the book is made)

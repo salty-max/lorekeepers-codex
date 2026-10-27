@@ -7,14 +7,8 @@ local _, ns = ...
 local L = ns.kit.L
 
 -- ── look ─────────────────────────────────────────────────────────────────────
--- The kit's (Kit.lua), in the Codex's theme: the family's gold, the panels a
--- touch cool, like ink in an archive.
+-- The kit's (Kit.lua), in the Codex's theme (set first thing in Core.lua).
 local K = ns.kit
-K.theme({
-  tint = { 0.88, 0.92, 1.00 },
-  shade = { 0.02, 0.025, 0.035, 0.55 },
-  aside = { 0.68, 0.78, 0.62 }, -- (Parqual's ink, the Horde's copy)
-})
 local T = K.T
 T.link = T.accent -- (a page's "See also" links)
 local BODY_FONT, TITLE_FONT = K.BODY_FONT, K.TITLE_FONT
@@ -107,6 +101,10 @@ local B = K.book({
   search = "LorekeepersCodexSearch",
   searchRight = -34,
   filter = true,
+  place = function()
+    LorekeepersCodexSettings = LorekeepersCodexSettings or {}
+    return ns.kit.place(LorekeepersCodexSettings, "book")
+  end,
 })
 function ns.addTab(n, tab) B:add(n, tab) end
 function ns.filterOf(n) return B:filterOf(n) end

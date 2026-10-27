@@ -13,7 +13,7 @@ local L = ns.kit.L
 local C = ns.content
 
 local banners, achievements
-local function seconds() return ns.option("bannerSeconds") or 10 end
+local function seconds() return ns.option("bannerSeconds") or ns.kit.BANNER_SECONDS end
 local function made()
   banners = banners or ns.kit.banners({ name = "LorekeepersCodexBanner", art = ns.ui.BOOK, seconds = seconds })
   achievements = achievements

@@ -6,7 +6,7 @@
 -- minimap button; the welcome page (Welcome.lua) offers them too.
 --
 --   LorekeepersCodexSettings.profiles["Name - Realm"] = { banner,
---     bannerSeconds, achievementToast, sound, tooltipHints, minimapHidden,
+--     bannerSeconds, achievementToast, achievementSound, sound, tooltipHints, minimapHidden,
 --     minimapAngle, welcomed }
 --   (banner: a new page's alert; achievementToast: an achievement's. The
 --   chat lines have no setting any more, always shown: a profile's old chat
@@ -22,16 +22,25 @@ local K = ns.kit
 -- welcomed: never copied)
 local DEFAULTS = {
   banner = true,
-  bannerSeconds = 10,
+  bannerSeconds = K.BANNER_SECONDS,
   achievementToast = true,
+  achievementSound = K.ACHIEVEMENT_SOUND,
   sound = -1,
   minimapHidden = false,
   minimapAngle = K.MINIMAP_ANGLES.LorekeepersCodex,
   tooltipHints = true,
   welcomed = false,
 }
-local SHARED =
-  { "banner", "bannerSeconds", "achievementToast", "sound", "tooltipHints", "minimapHidden", "minimapAngle" }
+local SHARED = {
+  "banner",
+  "bannerSeconds",
+  "achievementToast",
+  "achievementSound",
+  "sound",
+  "tooltipHints",
+  "minimapHidden",
+  "minimapAngle",
+}
 
 -- Sounds for a new page: the kit's (all from the original game's interface;
 -- -1 the sting heard on discovering a new zone, which differs by race),
@@ -41,8 +50,8 @@ for i, s in ipairs(K.SOUNDS) do
   ns.SOUNDS[i] = { s[1], L[s[2]] }
 end
 
--- The profiles: a code "LC1:b1:d10:v1:s-1:t1:h0:a200" (a page's alert and its
--- seconds, an achievement's alert, the sound, tooltip hints, the minimap button
+-- The profiles: a code "LC1:b1:d10:v1:f12891:s-1:t1:h0:a200" (a page's alert and its
+-- seconds, an achievement's alert and its sound, the sound, tooltip hints, the minimap button
 -- hidden, its angle; an older code's c, the chat lines, is left out).
 local P = K.profiles({
   saved = function()
@@ -55,6 +64,7 @@ local P = K.profiles({
     banner = "b",
     bannerSeconds = "d",
     achievementToast = "v",
+    achievementSound = "f",
     sound = "s",
     tooltipHints = "t",
     minimapHidden = "h",
@@ -122,15 +132,8 @@ function ns.createSettingsPanel()
     L["Alert for achievements"],
     L["Show each achievement earned in the game's achievement alert. A click on it opens the achievements."]
   )
-  O:slider(
-    "bannerSeconds",
-    L["Alert shown for"],
-    L["How long the alert stays on screen. At 0 it stays until you read or dismiss it (right-click)."],
-    0,
-    60,
-    5,
-    function(value) return value == 0 and L["until closed"] or L["%d s"]:format(value) end
-  )
+  O:achievementSound("achievementSound")
+  O:bannerSeconds("bannerSeconds")
   O:choice("sound", L["Sound for a new page"], L["Played when a page is added to the codex."], function()
     local out = {}
     for _, s in ipairs(ns.SOUNDS) do

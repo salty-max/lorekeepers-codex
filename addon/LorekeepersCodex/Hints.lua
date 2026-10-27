@@ -6,9 +6,6 @@ local _, ns = ...
 local L = ns.kit.L
 local C = ns.content
 
-local FOUND = { 0.65, 0.58, 0.45 }
-local TO_FIND = { 1, 0.82, 0 }
-
 local function addHint(tooltip)
   if tooltip ~= GameTooltip or not ns.option("tooltipHints") then return end
   local _, unit = tooltip:GetUnit()
@@ -18,7 +15,7 @@ local function addHint(tooltip)
   if isPlayer then
     for _, pageId in ipairs(ns.pagesOfPlayer(unit)) do
       if ns.available(pageId) and not ns.page(pageId) then
-        tooltip:AddLine(L["Lorekeeper's Codex: a page to find"], unpack(TO_FIND))
+        ns.kit.tooltipLine(tooltip, L["Lorekeeper's Codex: a page to find"], true)
         return
       end
     end
@@ -30,13 +27,13 @@ local function addHint(tooltip)
   for _, pageId in ipairs(ns.pagesOfNpc(id)) do
     if ns.available(pageId) then
       if ns.page(pageId) then
-        tooltip:AddLine(L["Lorekeeper's Codex: %s"]:format(C.entries[pageId].title), unpack(FOUND))
+        ns.kit.tooltipLine(tooltip, L["Lorekeeper's Codex: %s"]:format(C.entries[pageId].title), false)
       else
         missing = true
       end
     end
   end
-  if missing then tooltip:AddLine(L["Lorekeeper's Codex: a page to find"], unpack(TO_FIND)) end
+  if missing then ns.kit.tooltipLine(tooltip, L["Lorekeeper's Codex: a page to find"], true) end
 end
 
 ns.kit.onUnitTooltip(addHint)

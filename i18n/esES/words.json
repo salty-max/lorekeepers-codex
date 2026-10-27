@@ -2,7 +2,6 @@
   "%d of %d pages": "%d de %d páginas",
   "%d of %d pages found": "%d de %d páginas descubiertas",
   "%d of %d pages. Type /codex or click the book by the minimap to read them.": "%d de %d páginas. Escribe /codex o pulsa el libro junto al minimapa para leerlas.",
-  "%d s": "%d s",
   "%d texts copied": "%d textos copiados",
   "%d texts in the Library": "%d textos en la Biblioteca",
   "%s has been added to the codex.": "%s se ha añadido al códice.",
@@ -22,7 +21,6 @@
   "Achievements": "Logros",
   "Alert for achievements": "Avisos de logros",
   "Alert for new pages": "Avisos de nuevas páginas",
-  "Alert shown for": "Duración del aviso",
   "Alerts hidden (/codex banner shows them again).": "Avisos ocultos (/codex banner para volver a mostrarlos).",
   "Alerts shown for new pages.": "Avisos de nuevas páginas activados.",
   "All Walks of Life": "Todos los caminos",
@@ -77,7 +75,6 @@
   "Hints on tooltips": "Pistas en las descripciones",
   "Histories": "Historias",
   "History": "Historia",
-  "How long the alert stays on screen. At 0 it stays until you read or dismiss it (right-click).": "Cuánto tiempo permanece el aviso en pantalla. Con 0, permanece hasta que lo lees o lo cierras con clic derecho.",
   "In your codex since %s, at level %d.": "En tu códice desde el %s, al nivel %d.",
   "Ink on the Fingers": "Tinta en los dedos",
   "Into the Deep": "Hacia las profundidades",
@@ -154,6 +151,5 @@
   "pages found": "páginas descubiertas",
   "plaques": "placas",
   "texts copied": "textos copiados",
-  "unread": "sin leer",
-  "until closed": "hasta cerrarlo"
+  "unread": "sin leer"
 }

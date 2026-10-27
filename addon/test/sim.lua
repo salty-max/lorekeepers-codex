@@ -177,6 +177,9 @@ local function ui()
       if k == "GetStringHeight" then
         return function() return 14 end
       end
+      if k == "GetUnboundedStringWidth" then
+        return function() return 100 end
+      end
       if k == "SetHeight" then
         return function(self, v) self.height = v end
       end
@@ -242,7 +245,8 @@ Settings = {
   CreateCheckbox = function() end,
   CreateDropdown = function(_, setting, options)
     setting.options = options
-    panel.options = panel.options or options -- (the first: the sound's)
+    -- (the page sound's, not the achievements')
+    if setting.variable == "LOREKEEPERSCODEX_SOUND" then panel.options = options end
   end,
   CreateSliderOptions = function(min, max, step)
     return { min = min, max = max, step = step, SetLabelFormatter = function(self, _, fn) self.format = fn end }
@@ -571,7 +575,7 @@ check(
   sounds == 11 and ns.earned("pages-10"),
   "another Frostmane kill adds nothing (the tenth page earned Ink on the Fingers)"
 )
--- (a client without the fanfare: the reader's own sound instead; Ink on the
+-- (a client without the fanfare: Quest complete instead; Ink on the
 -- Fingers earned again to hear it)
 fanfareless = true
 local from = #playedIds
@@ -583,8 +587,8 @@ for i = from + 1, #playedIds - 1 do
 end
 fanfareless = false
 check(
-  ns.earned("pages-10") and fallback == 4147,
-  "… where the client has no fanfare, the page's sound (the dwarf's) instead"
+  ns.earned("pages-10") and fallback == 878,
+  "… where the client has no fanfare, the kit's Quest complete instead"
 )
 
 state.zone, state.sub = "Ironforge", ""
@@ -604,6 +608,15 @@ check(LorekeepersCodexList.vscroll > 0, "… and the list scrolls down to a page
 local far = LorekeepersCodexList.vscroll
 linkHandlers.lorekeeper("lorekeeper:foreword-dwarf")
 check(LorekeepersCodexList.vscroll < far, "… or back up to one above")
+-- (a foreword: the historian's own voice, signed under it as every book's
+-- voices are, not a paragraph of its own)
+local foreword = LorekeepersCodexPage.voices[1]
+local fw = ns.content.entries["foreword-dwarf"].text
+local signature = fw[#fw]
+check(
+  foreword and foreword.shown and foreword.sign.text == signature[1] and signature.italic,
+  "a foreword in the kit's voice, signed by its writer"
+)
 linkHandlers.lorekeeper("lorekeeper:grim-batol")
 check(not LorekeepersCodexChar.read["grim-batol"], "a link to a page not found yet opens nothing")
 LorekeepersCodexFrame:Hide()

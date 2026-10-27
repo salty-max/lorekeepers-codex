@@ -13,8 +13,18 @@
 --     library = { texts, keys, nextId }               the texts copied (Library.lua)
 --     collapsed[chapterId], libraryFolded[shelf]      the book's folds
 local _, ns = ...
-local L = ns.kit.L
-local PREFIX = "|cffc9a227Lorekeeper's Codex:|r "
+local K = ns.kit
+local L = K.L
+
+-- The kit's (Kit.lua), in the Codex's theme: the family's gold, the panels a
+-- touch cool, like ink in an archive.
+K.theme({
+  tint = { 0.88, 0.92, 1.00 },
+  shade = { 0.02, 0.025, 0.035, 0.55 },
+  aside = { 0.68, 0.78, 0.62 }, -- (Parqual's ink, the Horde's copy)
+})
+
+local PREFIX = K.prefix("Lorekeeper's Codex")
 ns.PREFIX = PREFIX
 -- Every word shown goes through L (the kit's, English by default; the
 -- client's language file, Text_<locale>.lua, fills it).

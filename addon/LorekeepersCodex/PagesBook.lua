@@ -48,11 +48,31 @@ local function showPage(id)
   if not e or not ns.page(id) then return end
   ns.markRead(id)
   page:start(e.title, aboutPage(e), ns.pictureOf(e))
-  local paras = {}
-  for _, para in ipairs(e.text) do
-    -- (an aside: Parqual's note, set apart by the kit's page)
-    if ns.shown(para) then table.insert(paras, para.aside and para or para[1]) end
+  -- (an aside: Parqual's note, set apart by the kit's page; a line in italics,
+  -- a foreword's signature: the paragraphs above it are the writer's own
+  -- voice, signed under them as every book's voices are)
+  local paras, run = {}, {}
+  local function flush()
+    for _, p in ipairs(run) do
+      table.insert(paras, p)
+    end
+    run = {}
   end
+  for _, para in ipairs(e.text) do
+    if ns.shown(para) then
+      if para.aside then
+        flush()
+        table.insert(paras, para)
+      elseif para.italic and #run > 0 then
+        -- selene: allow(mixed_table) (the kit's paragraph: its text, and what it is)
+        table.insert(paras, { table.concat(run, "\n\n"), voice = true, sign = para[1] })
+        run = {}
+      else
+        table.insert(run, para[1])
+      end
+    end
+  end
+  flush()
   page:text(paras)
   page:paragraph(foundLine(ns.page(id)), T.soft)
 
