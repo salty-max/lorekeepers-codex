@@ -3244,7 +3244,7 @@ ns.translate({
     ["Hints on tooltips"] = "Pistas en las descripciones",
     ["Histories"] = "Historias",
     ["History"] = "Historia",
-    ["How long the alert stays on screen. At 0 it stays until you read or dismiss it (right-click)."] = "Cuánto tiempo permanece el aviso en pantalla. Con 0, permanece hasta que lo lees o lo cierras con clic derecho.",
+    ["How long the alert stays on screen. At 0 it stays until you read or dismiss it (right-click)."] = "Tiempo que permanece el aviso en pantalla. Con 0, permanece hasta que lo lees o lo cierras con clic derecho.",
     ["In your codex since %s, at level %d."] = "En tu códice desde el %s, al nivel %d.",
     ["Ink on the Fingers"] = "Tinta en los dedos",
     ["Into the Deep"] = "Hacia las profundidades",
