@@ -43,7 +43,8 @@ stays there). What a page is and how it is written: `docs/writing.md`.
   (the kit's command, `K.commands`: alone it opens the book, an unknown word
   prints the usage, the replies capitalised), `/codex where`),
   `Achievements.lua` (the achievements on the kit's `K.deeds`: earned with
-  the game's fanfare (the page sound where a client lacks it), a chat line
+  the achievement sound the player picks (the game's fanfare by default, Quest
+  complete where a client lacks it), a chat line
   with its link and the codex's alert behind its switch; a chapter's listed
   once the chapter is opened, earned quietly before), `Unlocks.lua` (the unlock engine: areas, npcs talked to or
   targeted, players targeted (their race's page and class's: `people:`,
