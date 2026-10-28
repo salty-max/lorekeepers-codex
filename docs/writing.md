@@ -115,5 +115,5 @@ historical claims in other entries.
   verified on Wowhead Classic (`/classic/npcs/name:X` embeds the data,
   `nether.wowhead.com/classic/tooltip/npc/ID` gives the creature type) before
   writing; never guess one.
-- Textures: only ones the Classic UI itself uses (check Gethe/wow-ui-source,
-  branch classic_era); a wrong path silently shows nothing.
+- Textures: only ones the Classic UI itself uses (`bun wow-data/bin/ui.ts
+  texture <path>`: it says if the Classic client has the file); a wrong path silently shows nothing.
