@@ -7,7 +7,7 @@
 ## Notes-esMX: Descubre la historia de Azeroth mientras exploras, conoces a sus habitantes y completas misiones. Reúne los libros y las notas que lees por el camino.
 ## Category: Roleplay
 ## Author: salty-max
-## Version: 0.15.1
+## Version: 0.15.2
 ## SavedVariablesPerCharacter: LorekeepersCodexChar
 ## SavedVariables: LorekeepersCodexSettings, LorekeepersCodexScan, LorekeepersCodexCollect
 ## IconTexture: Interface\AddOns\LorekeepersCodex\Media\Logo
