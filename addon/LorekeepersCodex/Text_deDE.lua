@@ -3165,6 +3165,7 @@ ns.translate({
     ["A Tale Worth Telling"] = "Eine erzählenswerte Geschichte",
     ["A Word in Person"] = "Ein Wort unter vier Augen",
     ["Achievement earned: %s."] = "Erfolg errungen: %s.",
+    ["Achievement fanfare"] = "Erfolgsfanfare",
     ["Achievement sound"] = "Erfolgsklang",
     ["Achievements"] = "Erfolge",
     ["Alert for achievements"] = "Meldung für Erfolge",
