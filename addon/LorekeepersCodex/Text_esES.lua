@@ -4101,6 +4101,12 @@ ns.translate({
         { "Encontró fisuras en el fondo de las charcas que se adentraban en la tierra. Los oasis se alimentan desde abajo, desde las cavernas bajo Los Baldíos, y lo que anda mal en esas cavernas está subiendo con el agua." },
       },
     },
+    ["battle-in-the-depths"] = {
+      title = "Combate en las profundidades",
+      text = {
+        { "Tres breves piezas de batalla esperan en algún rincón de las mazmorras: el Castillo de Colmillo Oscuro, Las Minas de la Muerte, Uldaman, Maraudon y Stratholme. Ninguno de esos lugares ha carecido nunca de peleas." },
+      },
+    },
     ["black-dragonflight"] = {
       title = "El Vuelo Negro",
       text = {
@@ -4549,6 +4555,12 @@ ns.translate({
       text = {
         { "La Masacre fue Eldre'Thalas, una ciudad de los Altonato construida en tiempos de la reina Azshara para guardar sus secretos arcanos más preciados. Sobrevivió al Gran Cataclismo y buena parte sigue en pie: una ciudad de piedra blanca en el bosque, con salones llenos de libros y fantasmas." },
         { "Ahora está dividida en tres. Los ogros Gordok dominan el norte y coronan a un nuevo rey cada vez que matan al anterior. El sátiro Alzzin el Formaferal ocupa el este y ha corrompido el Fruto de la Fertilidad de la ciudad hasta convertirlo en una inmundicia llamada gangrevid. El oeste sigue en manos de los últimos Altonato, los Shen'dralar, alrededor de su biblioteca, por cuya lectura daría mucho." },
+      },
+    },
+    ["dire-maul-tune"] = {
+      title = "La Masacre",
+      text = {
+        { "En algún rincón de La Masacre, la ruina de Eldre'Thalas en Feralas, suena una pieza que no he encontrado en ningún otro sitio. Alzzin el Formaferal domina la parte este de la ciudad. Un prisionero de su príncipe caído, a quien un diablillo robó cuando huía, te pedirá que recuperes su libro de conjuros, y yo lo haría. Cambió la inmortalidad por la libertad, y un trato así no se hace dos veces." },
       },
     },
     ["dolanaar"] = {
@@ -5054,6 +5066,12 @@ ns.translate({
         { "Forjaz les ha ofrecido cobijo mientras lo necesiten. La mayoría de los enanos agradecen su compañía, aunque no tanto el ruido." },
       },
     },
+    ["gnomeregan-tune"] = {
+      title = "Gnomeregan",
+      text = {
+        { "Gnomeregan, la ciudad de los gnomos en Dun Morogh, tiene una melodía que suena en algún rincón de su interior, y esa misma melodía aparece en Vista Eterna, el pueblo de los goblins en Cuna del Invierno. Los gnomos intentaron echar a los troggs de su ciudad y convirtieron a la mayoría de los suyos en gnomos leprosos. Lo dicen ellos mismos, cosa que no hace la mayoría." },
+      },
+    },
     ["goblins"] = {
       title = "Los goblins",
       text = {
@@ -5089,6 +5107,12 @@ ns.translate({
       title = "Los reinos verdes",
       text = {
         { "Una sola melodía sirve a los bosques de los reinos humanos, del Bosque de Elwynn y las Montañas Crestagrana a Loch Modan, las Tierras del Interior y las Laderas de Trabalomas. Los humanos cultivaron y lucharon bajo estos árboles mucho antes de que la Horda cruzara el Portal Oscuro, y la melodía ha sobrevivido a todo ello. Si quieres oírla como es debido, deja de caminar." },
+      },
+    },
+    ["grey-hours"] = {
+      title = "Horas grises",
+      text = {
+        { "Dos piezas breves aparecen en lugares que poco más tienen en común. La primera pertenece a Punta de Nijel, un pequeño campamento escondido en las montañas del norte de Desolace, y a El Sagrario, en las Tierras Altas de Arathi. Vuelve a aparecer en algún rincón de Pico Nidal, la Aldea Estrella Fugaz, La Masacre y las torres del Marjal Revolcafango, y recibe a quien llega al Castillo de Durnholde. La segunda espera en algún rincón de la Torre de Petravista, en las Montañas Crestagrana, y recibe a quien llega al Castillo de Nethergarde." },
       },
     },
     ["greymane-wall"] = {
@@ -6686,6 +6710,12 @@ ns.translate({
         { "La paz de Hyjal aún se mantiene en Durotar y Theramore, aunque no todos a ambos lados se alegran de ello." },
       },
     },
+    ["the-battlefields"] = {
+      title = "Los campos de batalla",
+      text = {
+        { "Tres piezas de batalla pertenecen a los lugares donde siempre hay alguien luchando: la Mina Pedrusco en Los Baldíos, la Fortaleza del Hacha de Trueno en Desolace, el Castillo de Fenris en el Bosque de Argénteos, las Ruinas de Alterac, el Bastión Machacamiedo en Las Tierras Devastadas y toda la Cuenca de Arathi, entre otros lugares. El Filo Ardiente guarda en la Fortaleza del Hacha de Trueno la reliquia que abre sus portales demoníacos en el Aquelarre Mannoroc. En la Cuenca de Arathi, la Liga de Arathor y los Rapiñadores se disputan cada granja y cada mina." },
+      },
+    },
     ["the-broken-alliance"] = {
       title = "La Alianza quebrada",
       text = {
@@ -6890,6 +6920,12 @@ ns.translate({
         { "Los elfos les explicaron qué era la Legión y lo que ya había hecho al mundo. El Consejo de Lunargenta y los magócratas sellaron un pacto secreto: un campeón mortal, dotado de la fuerza combinada de la magia élfica y humana, combatiría a los agentes de la Legión en una guerra de la que nadie debía saber nada. Un consejo oculto, reunido en los claros de Tirisfal donde los elfos se asentaron por primera vez en Lordaeron, elegía a cada Guardián. Cuando envejecía o se cansaba, transmitía el poder bajo su cuidadoso control." },
         { "Funcionó durante generaciones. Después eligieron a Aegwynn, que no tenía interés en ser controlada. Derrotó al avatar del propio Sargeras en el norte helado y creyó haber acabado con él. Casi novecientos años después, negándose a que el Consejo nombrara a su sucesor, tuvo un hijo para que heredara su poder. Lo llamó Medivh, 'guardián de los secretos' en la lengua de los altos elfos. Lo que guardó se cuenta en Karazhan." },
         { "Una orden que mantiene su guerra en secreto para todo el mundo difícilmente puede ser corregida cuando se equivoca, $gviajero:viajera;. El Consejo lo aprendió demasiado tarde." },
+      },
+    },
+    ["the-haunted-rooms"] = {
+      title = "Las salas encantadas",
+      text = {
+        { "Esta pieza espera en algún rincón de tres edificios que no comparten nada más: el Mesón Aguahonda en el Puerto de Menethil, el Mesón La Horca en Rémol y Las Reservas en la Vega de Tuercespina. También recibe a quien llega a la Finca de Olsen, en el Bosque de Argénteos, y a Jaedenar, en Frondavil. He buscado lo que los une, y no lo he encontrado." },
       },
     },
     ["the-hidden-places"] = {
@@ -7155,6 +7191,12 @@ ns.translate({
         { "La Cumbre de Roca Negra tuvo un señor antes que Drakkisath: Valthalak, un noble dracónido y además brujo, y de los poderosos. La Hoja Velada lo mató. Era una compañía de mercenarios a las órdenes de Anthion Harmon, contratada por Gremnik Saltatrabas, un contrabandista goblin de Bahía del Botín aficionado a la hechicería, para que le llevaran el libro de hechizos de Valthalak. Llegaron a la parte alta de la Cumbre, mataron a Valthalak en su guarida y se llevaron el libro. Entonces Kormok, el nigromante ogro de dos cabezas de la compañía, le arrancó el amuleto del cuello al señor muerto." },
         { "Nadie sabía aún que el amuleto guardaba buena parte del espíritu de Valthalak. La compañía se peleó por él, lo partió en tres y se jugó los pedazos a los dados, y el fantasma de Valthalak se alzó entre ellos con sus asesinos espectrales. Huyeron, y Mor Pezuña Gris, un druida tauren, cayó, o lo empujaron, a la parte baja de la Cumbre, donde lo atraparon los trols. La compañía se disolvió y sus miembros murieron uno a uno. Los asesinos remataron a Mor mientras el Maestro de guerra Voone lo torturaba. Isalien murió al entrar en La Masacre, y los hermanos Jarien y Sothos, devotos de la Cruzada, a manos del propio Gran Cruzado. Kormok murió en Scholomance ante Ras Murmuhielo. Gremnik, que los había contratado, murió también, y Anthion cayó a las puertas de Stratholme intentando liberar a su esposa. Los asesinos de Valthalak encontraron a algunos, y el mundo se ocupó del resto." },
         { "Bodley, un gnomo de la compañía que murió intentando volver a la Cumbre, sigue rondando la Montaña Roca Negra, visible solo a través del aparato revelafantasmas de un goblin. Fue Bodley quien se propuso deshacer todo lo ocurrido. Los pedazos se recuperaron de quienes los tenían, Valthalak fue traído de vuelta en lo que hoy es la cámara de la Bestia y muerto por segunda vez, y se le devolvió su amuleto entero. Perdonó a quien se lo había llevado, retiró a sus asesinos y prometió a los supervivientes que estaban a salvo, por ahora. Bodley lo dejó todo escrito después en el manual de un blandón. Es el relato más alegre de una matanza que he leído." },
+      },
+    },
+    ["the-veiled-sea"] = {
+      title = "El Mar de la Bruma",
+      text = {
+        { "Esta pieza pertenece a las aguas abiertas del Mar de la Bruma frente a Costa Oscura, y recibe a quien llega a la Cima del Espolón y a Claro de la Luna. He cruzado esas aguas más veces de las que querría. El mar nunca ha tenido prisa." },
       },
     },
     ["the-war-of-the-spider"] = {
@@ -7608,6 +7650,12 @@ ns.translate({
         { "La Isla de Zephras es una isla que vuela. Está suspendida en Muro Celeste, el plano elemental del aire, adonde los espíritus del viento llevaron a los shen'dorei hace mucho. Es el hogar de los cielonatos que han descendido hasta nosotros hace poco. Su gente vive en Valanaar, al sureste, en las aldeas de Tierras Altas de Shen'dar y en Thendal, y en las granjas de Tierras Bajas de los Soplabayas." },
         { "Los espíritus que mantenían unida la isla se marcharon hace algunos siglos. Sus grandes pilones de anclaje aún sostienen Zephras, pero su magia es inestable. Una noche, Ban'aethal empezó a caer al cielo y tuvieron que evacuarlo antes del amanecer. Hace tiempo que ningún cortacielos cruza a las otras islas, Anvilas y Siroccas. Algunos shen'dorei temen ser todo lo que queda de su pueblo." },
         { "Nunca he estado allí y te envidio un poco, $gviajero:viajera;. Mantente lejos de los bordes." },
+      },
+    },
+    ["zul-gurub-tune"] = {
+      title = "Zul'Gurub",
+      text = {
+        { "Los trols Zandalar han acampado en la Isla Yojamba, frente a la costa de la Vega de Tuercespina, y la misma pieza suena en el Foso de las Llamas de Sangre, dentro de Zul'Gurub. Los Zandalar han venido a detener a Hakkar el Cazador de Almas, el dios de la sangre, antes de que su reinado se extienda por todo Azeroth. No les da vergüenza pedir ayuda, y poco les importa lo que creas." },
       },
     },
     ["zulfarrak"] = {

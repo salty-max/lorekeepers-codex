@@ -4409,6 +4409,11 @@
    "forever": "Talloumbrío",
    "use": "Talloumbrío"
   },
+  "Boulder Lode Mine": {
+   "classic": "Mina Pedrusco",
+   "forever": "Mina Pedrusco",
+   "use": "Mina Pedrusco"
+  },
   "Boulderslide Cavern": {
    "classic": "Cueva del Alud",
    "forever": "Cueva del Alud",
@@ -4568,6 +4573,11 @@
    "forever": "Tranvía Subterráneo",
    "use": "Tranvía Subterráneo"
   },
+  "Deepwater Tavern": {
+   "classic": "Mesón Aguahonda",
+   "forever": "Mesón Aguahonda",
+   "use": "Mesón Aguahonda"
+  },
   "Demon Fall Canyon": {
    "classic": "Barranco del Demonio",
    "forever": "Barranco del Demonio",
@@ -4592,6 +4602,11 @@
    "classic": "Dolanaar",
    "forever": "Dolanaar",
    "use": "Dolanaar"
+  },
+  "Dreadmaul Hold": {
+   "classic": "Bastión Machacamiedo",
+   "forever": "Bastión Machacamiedo",
+   "use": "Bastión Machacamiedo"
   },
   "Dreadmaul Rock": {
    "classic": "Roca Machacamiedo",
@@ -4759,6 +4774,11 @@
    "classic": "Isla de Fenris",
    "forever": "Isla de Fenris",
    "use": "Isla de Fenris"
+  },
+  "Fenris Keep": {
+   "classic": "Castillo de Fenris",
+   "forever": "Castillo de Fenris",
+   "use": "Castillo de Fenris"
   },
   "Feralas": {
    "classic": "Feralas",
@@ -5274,6 +5294,11 @@
    "forever": "Casco Antiguo",
    "use": "Casco Antiguo"
   },
+  "Olsen's Farthing": {
+   "classic": "Finca de Olsen",
+   "forever": "Finca de Olsen",
+   "use": "Finca de Olsen"
+  },
   "Onyxia's Lair": {
    "classic": "Guarida de Onyxia",
    "forever": "Guarida de Onyxia",
@@ -5709,10 +5734,20 @@
    "forever": "Fuerte de Petravista",
    "use": "Fuerte de Petravista"
   },
+  "Stonewatch Tower": {
+   "classic": "Torre de Petravista",
+   "forever": "Torre de Petravista",
+   "use": "Torre de Petravista"
+  },
   "Stonewrought Dam": {
    "classic": "Presa de las Tres Cabezas",
    "forever": "Presa de las Tres Cabezas",
    "use": "Presa de las Tres Cabezas"
+  },
+  "Storm Cliffs": {
+   "classic": "Acantilados Tormentosos",
+   "forever": "Acantilados Tormentosos",
+   "use": "Acantilados Tormentosos"
   },
   "Stormrage Barrow Dens": {
    "classic": "Túmulo de Tempestira",
@@ -5843,6 +5878,11 @@
    "classic": "Los Baldíos",
    "forever": "Los Baldíos",
    "use": "Los Baldíos"
+  },
+  "The Bloodfire Pit": {
+   "classic": "Foso de las Llamas de Sangre",
+   "forever": "Foso de las Llamas de Sangre",
+   "use": "Foso de las Llamas de Sangre"
   },
   "The Bulwark": {
    "classic": "El Baluarte",
@@ -6073,6 +6113,11 @@
    "forever": "Excavación Pico Roto",
    "use": "Excavación Pico Roto"
   },
+  "The Sanctum": {
+   "classic": "El Sagrario",
+   "forever": "El Sagrario",
+   "use": "El Sagrario"
+  },
   "The Savage Coast": {
    "classic": "La Costa Salvaje",
    "forever": "La Costa Salvaje",
@@ -6146,6 +6191,11 @@
    "classic": "Las Mazmorras",
    "forever": "Las Mazmorras",
    "use": "Las Mazmorras"
+  },
+  "The Stockpile": {
+   "classic": "Las Reservas",
+   "forever": "Las Reservas",
+   "use": "Las Reservas"
   },
   "The Stonefield Farm": {
    "classic": "La Granja Pedregosa",

@@ -4128,6 +4128,12 @@ ns.translate({
         { "Il trouva des fissures au fond des mares, qui plongeaient dans la terre. Les oasis sont alimentées par en dessous, par les cavernes sous les Tarides, et ce qui ne va pas dans ces cavernes remonte avec l'eau." },
       },
     },
+    ["battle-in-the-depths"] = {
+      title = "Combats dans les profondeurs",
+      text = {
+        { "Trois courts morceaux de bataille attendent quelque part dans les profondeurs : le Donjon d'Ombrecroc, les Mortemines, Uldaman, Maraudon et Stratholme. Aucun de ces lieux n'a jamais manqué de combats." },
+      },
+    },
     ["black-dragonflight"] = {
       title = "Le Vol draconique noir",
       text = {
@@ -4576,6 +4582,12 @@ ns.translate({
       text = {
         { "Hache-tripes était Eldre'Thalas, une cité des Bien-nés, bâtie au temps de la reine Azshara pour garder ses secrets arcaniques les plus précieux. Elle survécut à la Fracture, et une grande partie se dresse encore, une cité de pierre blanche dans la forêt, aux salles pleines de livres et de fantômes." },
         { "Elle est aujourd'hui brisée en trois. Les ogres Gordok tiennent le nord, et couronnent un nouveau roi chaque fois que l'ancien est tué. Le satyre Alzzin le Modeleur tient l'est, et a corrompu le Fruit de fertilité de la cité en une chose immonde appelée la Gangrevigne. L'ouest est toujours tenu par les derniers des Bien-nés, les Shen'dralar, autour de leur bibliothèque, que je donnerais beaucoup pour lire." },
+      },
+    },
+    ["dire-maul-tune"] = {
+      title = "Hache-tripes",
+      text = {
+        { "Quelque part dans Hache-tripes, la ruine d'Eldre'Thalas en Feralas, joue un morceau que je n'ai trouvé nulle part ailleurs. Alzzin le Modeleur tient la partie orientale de la cité. Un prisonnier du prince déchu de la cité, détroussé par un diablotin pendant son évasion, vous demandera de lui rapporter son livre d'incantations, et à votre place, je le ferais. Le prisonnier a troqué son immortalité contre sa liberté, et un marché aussi dur ne se conclut qu'une fois." },
       },
     },
     ["dolanaar"] = {
@@ -5081,6 +5093,12 @@ ns.translate({
         { "Forgefer leur a offert un abri aussi longtemps qu'il le faudra. La plupart des nains apprécient leur compagnie, sinon leur vacarme." },
       },
     },
+    ["gnomeregan-tune"] = {
+      title = "Gnomeregan",
+      text = {
+        { "Gnomeregan, la cité des gnomes en Dun Morogh, a un air qui joue quelque part à l'intérieur, et ce même air revient à Long-Guet, la ville des gobelins au Berceau-de-l'Hiver. Les gnomes ont voulu chasser les troggs de leur cité et ont fini par changer la plupart de leur propre peuple en gnomes lépreux. Ils le disent eux-mêmes, ce que peu de gens feraient." },
+      },
+    },
     ["goblins"] = {
       title = "Les gobelins",
       text = {
@@ -5116,6 +5134,12 @@ ns.translate({
       title = "Les royaumes verts",
       text = {
         { "Un seul air couvre les bois des royaumes humains, de la forêt d'Elwynn et des Carmines jusqu'au Loch Modan, aux Hinterlands et aux Contreforts de Hautebrande. Les humains cultivaient et se battaient sous ces arbres bien avant que la Horde ne franchisse la Porte des ténèbres, et l'air a survécu à tout cela. Si vous voulez l'entendre comme il faut, cessez de marcher." },
+      },
+    },
+    ["grey-hours"] = {
+      title = "Heures grises",
+      text = {
+        { "Deux courts morceaux reviennent dans des lieux qui n'ont guère d'autre point commun. Le premier appartient à la Combe de Nijel, un petit camp caché dans les montagnes du nord de la Désolace, et au Sanctuaire dans les Hautes-terres Arathies. On le retrouve aussi quelque part au Nid-de-l'Aigle, à Pluie-d'Etoiles, à Hache-tripes et dans les tours du Marécage d'Âprefange, et il salue les arrivants au Donjon de Fort-de-Durn. Le second attend quelque part dans la Tour de Guet-de-pierre, dans les Carmines, et il accueille les arrivants à Rempart-du-Néant." },
       },
     },
     ["greymane-wall"] = {
@@ -6713,6 +6737,12 @@ ns.translate({
         { "La paix conclue sur Hyjal tient toujours en Durotar et à Theramore, même si tout le monde, d'un côté comme de l'autre, ne s'en réjouit pas." },
       },
     },
+    ["the-battlefields"] = {
+      title = "Les champs de bataille",
+      text = {
+        { "Trois morceaux de bataille appartiennent à des lieux où l'on se bat sans cesse : la Mine des Pierriers dans les Tarides, la Forteresse de Hache-Tonnerre en Désolace, le Donjon de Fenris dans la forêt des Pins argentés, les Ruines d'Alterac, le Bastion Cognepeur dans les Terres foudroyées et tout le Bassin Arathi, entre autres. La Lame ardente garde à Hache-Tonnerre la relique qui ouvre ses portails démoniaques au Convent de Mannoroc. Dans le Bassin Arathi, la Ligue d'Arathor et les Profanateurs se disputent chaque ferme et chaque mine." },
+      },
+    },
     ["the-broken-alliance"] = {
       title = "L'Alliance brisée",
       text = {
@@ -6917,6 +6947,12 @@ ns.translate({
         { "Les elfes leur dirent ce qu'était la Légion, et ce qu'elle avait déjà fait au monde une fois. Ensemble, le Conseil de Lune-d'argent et les magocrates conclurent un pacte secret : un seul champion mortel, doté des puissances réunies de la magie elfique et humaine, combattrait les agents de la Légion dans une guerre dont personne d'autre ne devrait jamais entendre parler. Un conseil caché, qui se réunissait dans les clairières de Tirisfal où les elfes s'étaient d'abord établis en Lordaeron, choisissait chaque Gardien, et quand un Gardien vieillissait ou se lassait, le conseil veillait lui-même à la transmission du pouvoir." },
         { "Cela fonctionna pendant des générations. Puis le Conseil choisit Aegwynn, qui n'entendait pas être contrôlée. Elle abattit l'avatar de Sargeras lui-même dans le nord glacé et crut en avoir fini avec lui. Près de neuf cents ans plus tard, refusant de laisser le Conseil désigner son successeur, elle donna naissance à un fils pour hériter de son pouvoir et le nomma Medivh, « gardien des secrets » dans la langue des hauts-elfes. Ce qu'il gardait est raconté à la page de Karazhan." },
         { "Un ordre qui cache sa guerre au monde entier ne peut pas facilement être corrigé quand il se trompe, $gvoyageur:voyageuse;. Le Conseil l'apprit trop tard." },
+      },
+    },
+    ["the-haunted-rooms"] = {
+      title = "Les salles hantées",
+      text = {
+        { "Ce morceau attend quelque part dans trois bâtiments qui n'ont rien d'autre en commun : la Taverne de l'Eau-profonde au Port de Menethil, la Taverne des Pendus à Brill et la réserve dans la Vallée de Strangleronce. Il salue aussi les arrivants à la Ferme des Olsen, dans la forêt des Pins argentés, et à Jaedenar, en Gangrebois. J'ai cherché ce qui les relie, et je n'ai rien trouvé." },
       },
     },
     ["the-hidden-places"] = {
@@ -7182,6 +7218,12 @@ ns.translate({
         { "Le pic Rochenoire avait un maître avant Drakkisath : Valthalak, un seigneur des draconides, et un démoniste de surcroît, des plus puissants. La Lame voilée le tua. C'était une compagnie de mercenaires menée par Anthion Harmon, engagée par Gremnik Rizzlesprang, un contrebandier gobelin de Baie-du-Butin qui s'intéressait à la sorcellerie, pour lui rapporter le grimoire de Valthalak. Ils atteignirent le haut du pic, tuèrent Valthalak dans son repaire et prirent le livre. Puis Kormok, le nécromancien ogre à deux têtes de la compagnie, arracha l'amulette du cou du seigneur mort." },
         { "Personne ne savait encore que l'amulette contenait une grande part de l'esprit de Valthalak. La compagnie se la disputa, la brisa en trois et tira les morceaux aux dés, et le fantôme de Valthalak se dressa au milieu d'eux avec ses assassins spectraux. Ils s'enfuirent, et Mor Grayhoof, un druide tauren, tomba, ou fut poussé, dans les profondeurs du pic, où les trolls le prirent. La compagnie se sépara, et ses membres moururent un à un. Les assassins achevèrent Mor alors que le Maître de guerre Voone le torturait. Isalien mourut en entrant à Hache-tripes, et Jarien et Sothos, frère et sœur acquis à la Croisade, moururent de la main même du Grand croisé. Kormok mourut à la Scholomance sous les yeux de Ras Murmegivre. Gremnik, qui les avait engagés, mourut aussi, et Anthion tomba devant Stratholme en tentant de libérer sa femme. Les assassins de Valthalak en trouvèrent certains, et le monde se chargea des autres." },
         { "Bodley, un gnome de la compagnie mort en tentant de retourner dans le pic, hante toujours le mont Rochenoire, visible seulement à travers l'appareil à révéler les fantômes d'un gobelin. C'est Bodley qui entreprit de tout défaire. Les morceaux furent repris à ceux qui les détenaient, Valthalak fut ramené dans ce qui est aujourd'hui l'antre de la Bête et tué une seconde fois, et son amulette lui fut rendue entière. Il épargna qui la lui avait rapportée, rappela ses assassins et promit aux survivants qu'ils étaient en sécurité, pour l'instant. Bodley a ensuite tout consigné dans le mode d'emploi d'un brasero. C'est le récit de massacre le plus gai que j'aie jamais lu." },
+      },
+    },
+    ["the-veiled-sea"] = {
+      title = "La Mer voilée",
+      text = {
+        { "Ce morceau appartient aux eaux de la Mer voilée, au large de Sombrivage, et il salue les arrivants au Pic des Serres-Rocheuses et à Reflet-de-Lune. J'ai traversé ces eaux plus souvent que je ne l'aurais voulu. La mer, elle, n'a jamais été pressée." },
       },
     },
     ["the-war-of-the-spider"] = {
@@ -7635,6 +7677,12 @@ ns.translate({
         { "L'île de Zéphras est une île qui vole. Elle flotte dans le Mur-Céleste, le plan élémentaire de l'air, où les esprits du vent emportèrent jadis les shen'dorei, et c'est le foyer des éolides qui sont récemment descendus jusqu'à nous. Son peuple vit à Valanaar, sur la bordure sud-est, dans les villages des hautes-terres de Shen'dar et à Thendal, et dans les fermes des Plaines Aérelles." },
         { "Les esprits qui liaient l'île l'ont quittée il y a quelques siècles. Leurs grands pylônes d'ancrage maintiennent encore Zéphras dans les airs, mais leur magie devient instable, et une nuit, Ban'aethal a commencé à tomber dans le ciel et a dû être évacuée avant le matin. Aucun fend-ciel n'a rejoint les autres îles, Anvilas et Siroccas, depuis un certain temps, et certains shen'dorei craignent d'être tout ce qui reste de leur peuple." },
         { "Je n'y ai jamais mis les pieds, $gvoyageur:voyageuse;, et je vous envie un peu. Tenez-vous loin des bords." },
+      },
+    },
+    ["zul-gurub-tune"] = {
+      title = "Zul'Gurub",
+      text = {
+        { "Les trolls Zandalar ont installé leur camp sur l'Ile de Yojamba, au large de la Vallée de Strangleronce, et le même morceau joue dans la Fosse du Sang igné, au cœur de Zul'Gurub. Les Zandalar sont venus arrêter Hakkar l'Écorcheur d'âmes, le dieu du Sang, avant que son règne ne s'étende sur tout Azeroth. Ils n'hésitent pas à demander de l'aide, et ce que vous croyez leur importe peu." },
       },
     },
     ["zulfarrak"] = {

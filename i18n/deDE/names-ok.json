@@ -6,5 +6,6 @@
  "The Spire": "Blackrock Spire, which the page calls \"die Spitze\", not the place the glossary means",
  "Timber": "the English word (wood), not Timber the wolf",
  "Titan": "\"the Titans\", the makers, not the faction",
- "Venture Company": "\"Venture Co.\", as the game's own names of its people write it"
+ "Venture Company": "\"Venture Co.\", as the game's own names of its people write it",
+ "Olsen's Farthing": "The page writes it exactly as the game does (Olsen's Farthing, area 229): names.ts's pattern cuts the word before its apostrophe and cannot match it."
 }

@@ -3871,6 +3871,7 @@ ns.translate({
     { "Das Verbrannte Tal", "Das verbrannte Tal" },
     { "Das Verlassene Gut", "Das verlassene Gut" },
     { "Hof der Steinfelds", "Hof der Stonefields" },
+    { "Deepwater-Taverne", "Deepwater Taverne" },
     { "Der Sichere Hafen", "Der sichere Hafen" },
     { "Die Blühende Oase", "Die blühende Oase" },
     { "Die Brackige Oase", "Die brackige Oase" },
@@ -4119,6 +4120,12 @@ ns.translate({
       text = {
         { "Die Oasen des Brachlands sind sein Leben: Becken mit frischem Wasser im trockenen Gras, an denen die Tiere und die Reisenden trinken. In letzter Zeit sind sie seltsam geworden. Tiere in ihrer Nähe verwachsen, Pflanzen wachsen zu schnell und falsch, und die Druiden von Thunder Bluff spürten eine Macht, die ins Land sickerte, und schickten einen der Ihren, um sie zu finden." },
         { "Er fand Spalten am Grund der Becken, die tief in die Erde reichen. Die Oasen werden von unten gespeist, aus den Höhlen unter dem Brachland, und was auch immer in diesen Höhlen nicht stimmt, kommt mit dem Wasser herauf." },
+      },
+    },
+    ["battle-in-the-depths"] = {
+      title = "Kampf in der Tiefe",
+      text = {
+        { "Drei kurze Schlachtstücke warten irgendwo in den Verliesen: in Burg Shadowfang, in den Todesminen, in Uldaman, in Maraudon und in Stratholme. An keinem dieser Orte hat es je an Kämpfen gefehlt." },
       },
     },
     ["black-dragonflight"] = {
@@ -4569,6 +4576,12 @@ ns.translate({
       text = {
         { "Düsterbruch war Eldre'Thalas, eine Stadt der Hochgeborenen, in den Tagen Königin Azsharas erbaut, um ihre kostbarsten arkanen Geheimnisse zu bewahren. Sie überstand die Große Teilung, und vieles davon steht noch, eine Stadt aus weißem Stein im Wald, ihre Hallen voller Bücher und Geister." },
         { "Heute ist sie in drei Teile zerbrochen. Die Oger der Gordok halten den Norden und krönen einen neuen König, wann immer der alte getötet wird. Der Satyr Alzzin der Wildformer hält den Osten und hat die Frucht der Fruchtbarkeit der Stadt zu einem üblen Ding verdorben, das man die Teufelsranke nennt. Der Westen wird noch von den Letzten der Hochgeborenen gehalten, den Shen'dralar, rund um ihre Bibliothek, die ich für sehr viel gern lesen würde." },
+      },
+    },
+    ["dire-maul-tune"] = {
+      title = "Düsterbruch",
+      text = {
+        { "Irgendwo in Düsterbruch, der Ruine von Eldre'Thalas in Feralas, spielt ein Stück, das ich nirgendwo sonst gefunden habe. Alzzin der Wildformer hält den östlichen Teil der Stadt. Ein Gefangener des gefallenen Prinzen der Stadt, der auf der Flucht von einem Wichtel bestohlen wurde, wird Euch bitten, sein Buch der Beschwörungen zurückzuholen, und ich würde es tun. Er hat seine Unsterblichkeit gegen seine Freiheit getauscht, und einen so harten Handel schließt man kein zweites Mal." },
       },
     },
     ["dolanaar"] = {
@@ -5074,6 +5087,12 @@ ns.translate({
         { "Ironforge hat ihnen Obdach angeboten, solange sie es brauchen. Die meisten Zwerge freuen sich über die Gesellschaft, wenn auch nicht über den Lärm." },
       },
     },
+    ["gnomeregan-tune"] = {
+      title = "Gnomeregan",
+      text = {
+        { "Gnomeregan, die Stadt der Gnome in Dun Morogh, hat eine Melodie, die irgendwo darin spielt, und dieselbe Melodie taucht in Everlook auf, der Stadt der Goblins in Winterspring. Die Gnome haben die Troggs aus ihrer Stadt vertreiben wollen und dabei den Großteil ihres eigenen Volkes in Lepragnome verwandelt. Das sagen sie selbst, und das ist mehr, als die meisten tun würden." },
+      },
+    },
     ["goblins"] = {
       title = "Die Goblins",
       text = {
@@ -5109,6 +5128,12 @@ ns.translate({
       title = "Die grünen Königreiche",
       text = {
         { "Eine einzige Melodie liegt über den Wäldern der menschlichen Königreiche, vom Wald von Elwynn und dem Rotkammgebirge bis nach Loch Modan, ins Hinterland und ins Vorgebirge von Hillsbrad. Menschen bestellten Felder und bekämpften einander unter diesen Bäumen, lange bevor die Horde durch das Dunkle Portal kam, und die Melodie hat all das überdauert. Wer sie richtig hören will, bleibt stehen." },
+      },
+    },
+    ["grey-hours"] = {
+      title = "Graue Stunden",
+      text = {
+        { "Zwei kurze Stücke tauchen an Orten auf, die sonst wenig gemeinsam haben. Das erste gehört zur Nijelspitze, einem kleinen, in den Bergen im Norden von Desolace versteckten Lager, und zum Sanktum im Arathihochland. Es kehrt irgendwo in Aerie Peak, in Starfall, in Düsterbruch und in den Türmen der Marschen von Dustwallow wieder, und es empfängt Ankömmlinge in Burg Durnholde. Das zweite wartet irgendwo im Turm der Steinwacht im Rotkammgebirge, und es empfängt Ankömmlinge in Burg Nethergarde." },
       },
     },
     ["greymane-wall"] = {
@@ -6706,6 +6731,12 @@ ns.translate({
         { "Der Frieden, der am Hyjal geschlossen wurde, hält in Durotar und Theramore noch immer, auch wenn nicht jeder auf beiden Seiten froh darüber ist." },
       },
     },
+    ["the-battlefields"] = {
+      title = "Die Schlachtfelder",
+      text = {
+        { "Drei Schlachtstücke gehören zu den Orten, an denen immer jemand kämpft: die Felsadermine im Brachland, Festung Thunder Axe in Desolace, Burg Fenris im Silberwald, die Ruinen von Alterac, Feste Schreckensfels in den Verwüsteten Landen und das ganze Arathibecken, und andere mehr. Das Burning Blade hütet in Thunder Axe das Relikt, das seine Dämonenportale in Mannorocs Koven öffnet. Im Arathibecken kämpfen der Bund von Arathor und die Entweihten um jeden Hof und jede Mine." },
+      },
+    },
     ["the-broken-alliance"] = {
       title = "Die zerbrochene Allianz",
       text = {
@@ -6912,6 +6943,12 @@ ns.translate({
         { "Ein Orden, der seinen Krieg vor der ganzen Welt geheim hält, lässt sich nicht leicht berichtigen, wenn er fehlgeht, $gReisender:Reisende;. Der Rat lernte das zu spät." },
       },
     },
+    ["the-haunted-rooms"] = {
+      title = "Die verwunschenen Räume",
+      text = {
+        { "Dieses Stück wartet irgendwo in drei Gebäuden, die sonst nichts gemeinsam haben: in der Deepwater-Taverne im Hafen von Menethil, in der Taverne Zur Galgenschlinge in Brill und im Vorratslager im Schlingendorntal. Es empfängt außerdem Ankömmlinge in Olsen's Farthing im Silberwald und in Jaedenar im Teufelswald. Ich habe nach etwas gesucht, das sie verbindet, und nichts gefunden." },
+      },
+    },
     ["the-hidden-places"] = {
       title = "Die verborgenen Orte",
       text = {
@@ -6947,7 +6984,7 @@ ns.translate({
     ["the-inns"] = {
       title = "Die Gasthäuser",
       text = {
-        { "Die Brauerei Donnerbräu in Kharanos und der Gasthof Zum Starkbier-Lager in Loch Modan teilen sich eine Melodie, und die Taverne Zur Galgenschlinge in Brill, bei den Verlassenen, hat ihre eigene. Die erste Melodie taucht irgendwo in Stormwind, Ironforge, Seenhain, Dun Modr und in der Deepwater Taverne wieder auf. Die Donnerbräus brauen gutes Bier, und ihre Rivalen haben schon versucht, ein Fass der eigenen Sorte in deren Keller zu schmuggeln. Die Todeswache von Brill sperrt ihre Gefangenen in den Keller der Galgenschlinge, was ein guter Grund ist, oben zu trinken." },
+        { "Die Brauerei Donnerbräu in Kharanos und der Gasthof Zum Starkbier-Lager in Loch Modan teilen sich eine Melodie, und die Taverne Zur Galgenschlinge in Brill, bei den Verlassenen, hat ihre eigene. Die erste Melodie taucht irgendwo in Stormwind, Ironforge, Seenhain, Dun Modr und in der Deepwater-Taverne wieder auf. Die Donnerbräus brauen gutes Bier, und ihre Rivalen haben schon versucht, ein Fass der eigenen Sorte in deren Keller zu schmuggeln. Die Todeswache von Brill sperrt ihre Gefangenen in den Keller der Galgenschlinge, was ein guter Grund ist, oben zu trinken." },
       },
     },
     ["the-jungle"] = {
@@ -7175,6 +7212,12 @@ ns.translate({
         { "Die Blackrockspitze hatte einen Herrn vor Drakkisath: Valthalak, einen Fürsten der Drakoniden und obendrein einen Hexenmeister, und einen mächtigen. Die Verhüllte Klinge tötete ihn. Sie war eine Söldnertruppe unter Anthion Harmon, angeheuert von Gremnik Rizzlesprang, einem Goblinschmuggler aus Booty Bay mit einem Faible für Zauberei, um ihm Valthalaks Zauberbuch zu bringen. Sie erreichten die obere Spitze, töteten Valthalak in seinem Hort und nahmen das Buch. Dann riss Kormok, der zweiköpfige Ogernekromant der Truppe, dem toten Fürsten das Amulett vom Hals." },
         { "Niemand wusste damals, dass das Amulett einen großen Teil von Valthalaks Geist barg. Die Truppe stritt darum, zerbrach es in drei Teile und würfelte um die Stücke, und Valthalaks Geist erhob sich mitten unter ihnen mit seinen geisterhaften Assassinen. Sie flohen, und Mor Grayhoof, ein Taurendruide, stürzte, oder wurde gestoßen, in die untere Spitze, wo die Trolle ihn ergriffen. Die Truppe zerfiel, und ihre Mitglieder starben einer nach dem anderen. Die Assassinen erledigten Mor, während Kriegsmeister Voone ihn folterte. Isalien starb auf dem Weg nach Düsterbruch hinein, die dem Kreuzzug zugeneigten Geschwister Jarien und Sothos durch die Hand des Obersten Kreuzzüglers selbst. Kormok starb in der Scholomance vor den Augen von Ras Frostraunen. Gremnik, der sie angeheuert hatte, starb ebenfalls, und Anthion fiel vor Stratholme beim Versuch, seine Frau zu befreien. Valthalaks Assassinen fanden einige von ihnen, die Welt den Rest." },
         { "Bodley, ein Gnom der Truppe, der starb, als er in die Spitze zurückwollte, spukt noch immer im Blackrock, zu sehen nur durch ein Gerät, mit dem ein Goblin Geister sichtbar macht. Es war Bodley, der sich daranmachte, alles ungeschehen zu machen. Die Stücke wurden denen abgerungen, die sie hielten, Valthalak wurde in dem heraufbeschworen, was heute die Kammer der Bestie ist, ein zweites Mal getötet und erhielt sein Amulett unversehrt zurück. Er verschonte den, der es ihm gebracht hatte, rief seine Assassinen zurück und versprach den Überlebenden, sie seien sicher, vorerst. Bodley schrieb die ganze Geschichte danach in einem Handbuch für ein Räuchergefäß nieder. Es ist der fröhlichste Bericht über ein Gemetzel, den ich je gelesen habe." },
+      },
+    },
+    ["the-veiled-sea"] = {
+      title = "Das verhüllte Meer",
+      text = {
+        { "Dieses Stück gehört zur offenen See des verhüllten Meeres vor der Dunkelküste, und es empfängt Ankömmlinge auf dem Steinkrallengipfel und in Moonglade. Ich habe dieses Wasser öfter überquert, als mir lieb ist. Das Meer hat es noch nie eilig gehabt." },
       },
     },
     ["the-war-of-the-spider"] = {
@@ -7628,6 +7671,12 @@ ns.translate({
         { "Die Insel Zephras ist eine Insel, die fliegt. Sie schwebt im Himmelswall, der Ebene der Luft, wohin die Windgeister die Shen'dorei vor langer Zeit trugen, und sie ist die Heimat der Himmelsgeborenen, die seit kurzem zu uns herabgekommen sind. Ihre Leute leben in Valanaar am südöstlichen Rand, in den Dörfern des Shen'darhochlands und in Thendal und auf den Höfen des Böenbeerentieflands." },
         { "Die Geister, die die Insel banden, verließen sie vor einigen Jahrhunderten. Ihre großen Ankerpylonen halten Zephras noch oben, doch ihre Magie wird unstet, und Ban'aethal begann eines Nachts in den Himmel zu fallen und musste vor dem Morgen geräumt werden. Seit einiger Zeit hat kein Himmelsschiff mehr zu den anderen Inseln übergesetzt, Anvilas und Siroccas, und es gibt Shen'dorei, die fürchten, sie seien alles, was von ihrem Volk übrig ist." },
         { "Ich habe nie dort gestanden, $gReisender:Reisende;, und ich beneide Euch ein wenig. Haltet Euch bitte von den Rändern fern." },
+      },
+    },
+    ["zul-gurub-tune"] = {
+      title = "Zul'Gurub",
+      text = {
+        { "Die Trolle der Zandalar haben ihr Lager auf der Insel Yojamba vor der Küste des Schlingendorntals aufgeschlagen, und dasselbe Stück spielt in der Blutfeuergrube in Zul'Gurub. Die Zandalar sind gekommen, um Hakkar den Seelenschinder, den Blutgott, aufzuhalten, ehe seine Herrschaft sich über ganz Azeroth ausbreitet. Um Hilfe bitten sie ohne Scheu, und was Ihr glaubt, kümmert sie wenig." },
       },
     },
     ["zulfarrak"] = {

@@ -4295,6 +4295,11 @@
    "forever": "Bough Shadow",
    "use": "Bough Shadow"
   },
+  "Boulder Lode Mine": {
+   "classic": "Felsadermine",
+   "forever": "Felsadermine",
+   "use": "Felsadermine"
+  },
   "Boulderslide Cavern": {
    "classic": "Steinschlaghöhle",
    "forever": "Steinschlaghöhle",
@@ -4454,6 +4459,11 @@
    "forever": "Die Tiefenbahn",
    "use": "Die Tiefenbahn"
   },
+  "Deepwater Tavern": {
+   "classic": "Deepwater Taverne",
+   "forever": "Deepwater-Taverne",
+   "use": "Deepwater-Taverne"
+  },
   "Demon Fall Canyon": {
    "classic": "Demonfall-Canyon",
    "forever": "Demonfall-Canyon",
@@ -4478,6 +4488,11 @@
    "classic": "Dolanaar",
    "forever": "Dolanaar",
    "use": "Dolanaar"
+  },
+  "Dreadmaul Hold": {
+   "classic": "Feste Schreckensfels",
+   "forever": "Feste Schreckensfels",
+   "use": "Feste Schreckensfels"
   },
   "Dreadmaul Rock": {
    "classic": "Schreckensfels",
@@ -4645,6 +4660,11 @@
    "classic": "Insel Fenris",
    "forever": "Insel Fenris",
    "use": "Insel Fenris"
+  },
+  "Fenris Keep": {
+   "classic": "Burg Fenris",
+   "forever": "Burg Fenris",
+   "use": "Burg Fenris"
   },
   "Feralas": {
    "classic": "Feralas",
@@ -5160,6 +5180,11 @@
    "forever": "Altstadt",
    "use": "Altstadt"
   },
+  "Olsen's Farthing": {
+   "classic": "Olsen's Farthing",
+   "forever": "Olsen's Farthing",
+   "use": "Olsen's Farthing"
+  },
   "Onyxia's Lair": {
    "classic": "Onyxias Hort",
    "forever": "Onyxias Hort",
@@ -5595,10 +5620,20 @@
    "forever": "Burg Steinwacht",
    "use": "Burg Steinwacht"
   },
+  "Stonewatch Tower": {
+   "classic": "Turm der Steinwacht",
+   "forever": "Turm der Steinwacht",
+   "use": "Turm der Steinwacht"
+  },
   "Stonewrought Dam": {
    "classic": "Der Stonewroughtdamm",
    "forever": "Der Stonewroughtdamm",
    "use": "Der Stonewroughtdamm"
+  },
+  "Storm Cliffs": {
+   "classic": "Sturmklippen",
+   "forever": "Sturmklippen",
+   "use": "Sturmklippen"
   },
   "Stormrage Barrow Dens": {
    "classic": "Die Stormrage Grabhügel",
@@ -5729,6 +5764,11 @@
    "classic": "Brachland",
    "forever": "Brachland",
    "use": "Brachland"
+  },
+  "The Bloodfire Pit": {
+   "classic": "Die Blutfeuergrube",
+   "forever": "Die Blutfeuergrube",
+   "use": "Die Blutfeuergrube"
   },
   "The Bulwark": {
    "classic": "Das Bollwerk",
@@ -5959,6 +5999,11 @@
    "forever": "Die Rustmaul-Grabungsstätte",
    "use": "Die Rustmaul-Grabungsstätte"
   },
+  "The Sanctum": {
+   "classic": "Das Sanktum",
+   "forever": "Das Sanktum",
+   "use": "Das Sanktum"
+  },
   "The Savage Coast": {
    "classic": "Die ungezähmte Küste",
    "forever": "Die ungezähmte Küste",
@@ -6032,6 +6077,11 @@
    "classic": "Das Verlies",
    "forever": "Das Verlies",
    "use": "Das Verlies"
+  },
+  "The Stockpile": {
+   "classic": "Das Vorratslager",
+   "forever": "Das Vorratslager",
+   "use": "Das Vorratslager"
   },
   "The Stonefield Farm": {
    "classic": "Hof der Stonefields",

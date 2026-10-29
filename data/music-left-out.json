@@ -1,5 +1,10 @@
 {
   "//": "Reachable sets (data/music.json) deliberately left without a tune, per game, by id, with why. complete: false while the waves of ideas/soundtrack.md are written (the build then only counts what is missing), true once they are: a set no tune names and this list doesn't then fails the build, so a daily regeneration can't add one silently. Written by hand.",
   "complete": false,
-  "left": { "classic": {}, "forever": {} }
+  "left": {
+    "classic": {
+      "213": "Moment-Orgrimmar02: one track, the same file as set 221 (in the-horde-outposts), played only somewhere in the Deadmines by a whole-instance row. Forever has no such set, and a tune names only sets both games have."
+    },
+    "forever": {}
+  }
 }

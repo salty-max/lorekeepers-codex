@@ -4289,6 +4289,11 @@
    "forever": "L'Ombrage",
    "use": "L'Ombrage"
   },
+  "Boulder Lode Mine": {
+   "classic": "Mine des Pierriers",
+   "forever": "Mine des Pierriers",
+   "use": "Mine des Pierriers"
+  },
   "Boulderslide Cavern": {
    "classic": "Caverne des Eboulis",
    "forever": "Caverne des Eboulis",
@@ -4448,6 +4453,11 @@
    "forever": "Tram des profondeurs",
    "use": "Tram des profondeurs"
   },
+  "Deepwater Tavern": {
+   "classic": "Taverne de l'Eau-profonde",
+   "forever": "Taverne de l'Eau-profonde",
+   "use": "Taverne de l'Eau-profonde"
+  },
   "Demon Fall Canyon": {
    "classic": "Canyon de la Malechute",
    "forever": "Canyon de la Malechute",
@@ -4472,6 +4482,11 @@
    "classic": "Dolanaar",
    "forever": "Dolanaar",
    "use": "Dolanaar"
+  },
+  "Dreadmaul Hold": {
+   "classic": "Bastion Cognepeur",
+   "forever": "Bastion Cognepeur",
+   "use": "Bastion Cognepeur"
   },
   "Dreadmaul Rock": {
    "classic": "Rocher des Cognepeurs",
@@ -4639,6 +4654,11 @@
    "classic": "Ile de Fenris",
    "forever": "Ile de Fenris",
    "use": "Ile de Fenris"
+  },
+  "Fenris Keep": {
+   "classic": "Donjon de Fenris",
+   "forever": "Donjon de Fenris",
+   "use": "Donjon de Fenris"
   },
   "Feralas": {
    "classic": "Feralas",
@@ -5154,6 +5174,11 @@
    "forever": "Vieille ville",
    "use": "Vieille ville"
   },
+  "Olsen's Farthing": {
+   "classic": "Ferme des Olsen",
+   "forever": "Ferme des Olsen",
+   "use": "Ferme des Olsen"
+  },
   "Onyxia's Lair": {
    "classic": "Repaire d'Onyxia",
    "forever": "Repaire d'Onyxia",
@@ -5589,10 +5614,20 @@
    "forever": "Donjon de Guet-de-Pierre",
    "use": "Donjon de Guet-de-Pierre"
   },
+  "Stonewatch Tower": {
+   "classic": "Tour de Guet-de-pierre",
+   "forever": "Tour de Guet-de-pierre",
+   "use": "Tour de Guet-de-pierre"
+  },
   "Stonewrought Dam": {
    "classic": "Barrage de Formepierre",
    "forever": "Barrage de Formepierre",
    "use": "Barrage de Formepierre"
+  },
+  "Storm Cliffs": {
+   "classic": "Falaises de la Tempête",
+   "forever": "Falaises de la Tempête",
+   "use": "Falaises de la Tempête"
   },
   "Stormrage Barrow Dens": {
    "classic": "Refuge des saisons de Malfurion",
@@ -5723,6 +5758,11 @@
    "classic": "Les Tarides",
    "forever": "Les Tarides",
    "use": "Les Tarides"
+  },
+  "The Bloodfire Pit": {
+   "classic": "Fosse du Sang igné",
+   "forever": "Fosse du Sang igné",
+   "use": "Fosse du Sang igné"
   },
   "The Bulwark": {
    "classic": "La Barricade",
@@ -5953,6 +5993,11 @@
    "forever": "Site de fouilles de Rustmaul",
    "use": "Site de fouilles de Rustmaul"
   },
+  "The Sanctum": {
+   "classic": "Le Sanctuaire",
+   "forever": "Le Sanctuaire",
+   "use": "Le Sanctuaire"
+  },
   "The Savage Coast": {
    "classic": "La Côte sauvage",
    "forever": "La Côte sauvage",
@@ -6026,6 +6071,11 @@
    "classic": "La Prison",
    "forever": "La Prison",
    "use": "La Prison"
+  },
+  "The Stockpile": {
+   "classic": "La réserve",
+   "forever": "La réserve",
+   "use": "La réserve"
   },
   "The Stonefield Farm": {
    "classic": "La ferme des Stonefield",
