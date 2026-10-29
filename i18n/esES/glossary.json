@@ -325,6 +325,11 @@
    "forever": "Clan Lobo Gélido",
    "use": "Clan Lobo Gélido"
   },
+  "Furbolg": {
+   "classic": "Fúrbolg",
+   "forever": "Fúrbolg",
+   "use": "Fúrbolg"
+  },
   "Gadgetzan": {
    "classic": "Gadgetzan",
    "forever": "Gadgetzan",
@@ -2431,6 +2436,11 @@
    "forever": "Lord Serpentis",
    "use": "Lord Serpentis"
   },
+  "Lord Shalzaru": {
+   "classic": "Lord Shalzaru",
+   "forever": "Lord Shalzaru",
+   "use": "Lord Shalzaru"
+  },
   "Lord Valthalak": {
    "classic": "Lord Valthalak",
    "forever": "Lord Valthalak",
@@ -2850,6 +2860,11 @@
    "classic": "Osirio el Sinmarcas",
    "forever": "Osirio el Sinmarcas",
    "use": "Osirio el Sinmarcas"
+  },
+  "Overlord Mok'Morokk": {
+   "classic": "Señor Supremo Mok'Morkk",
+   "forever": "Señor Supremo Mok'Morkk",
+   "use": "Señor Supremo Mok'Morkk"
   },
   "Overseer Glibby": {
    "classic": "Sobrestante Glibby",
@@ -4628,6 +4643,11 @@
    "forever": "Marjal Revolcafango",
    "use": "Marjal Revolcafango"
   },
+  "Dustwind Cave": {
+   "classic": "Cueva Viento Seco",
+   "forever": "Cueva Viento Seco",
+   "use": "Cueva Viento Seco"
+  },
   "Dwarven District": {
    "classic": "Distrito de los Enanos",
    "forever": "Distrito de los Enanos",
@@ -4799,6 +4819,11 @@
    "forever": "Mesón La Horca",
    "use": "Mesón La Horca"
   },
+  "Gates of Ahn'Qiraj": {
+   "classic": "Puertas de Ahn'Qiraj",
+   "forever": "Puertas de Ahn'Qiraj",
+   "use": "Puertas de Ahn'Qiraj"
+  },
   "Gelkis Village": {
    "classic": "Poblado Gelkis",
    "forever": "Poblado Gelkis",
@@ -4924,6 +4949,11 @@
    "classic": "Bosque de Troncoferro",
    "forever": "Bosque de Troncoferro",
    "use": "Bosque de Troncoferro"
+  },
+  "Isle of Dread": {
+   "classic": "Isla del Terror",
+   "forever": "Isla del Terror",
+   "use": "Isla del Terror"
   },
   "Itharius's Cave": {
    "classic": "Cueva de Itharius",
@@ -5185,6 +5215,11 @@
    "forever": "Castillo de Nethergarde",
    "use": "Castillo de Nethergarde"
   },
+  "Night Web's Hollow": {
+   "classic": "Hoya Nocturácnidas",
+   "forever": "Hoya Nocturácnidas",
+   "use": "Hoya Nocturácnidas"
+  },
   "Nighthaven": {
    "classic": "Amparo de la Noche",
    "forever": "Amparo de la Noche",
@@ -5358,6 +5393,11 @@
    "forever": "Roca de Durotan",
    "use": "Roca de Durotan"
   },
+  "Roguefeather Den": {
+   "classic": "Guarida Malapluma",
+   "forever": "Guarida Malapluma",
+   "use": "Guarida Malapluma"
+  },
   "Rohashi Spires": {
    "forever": "Agujas Rohashi",
    "use": "Agujas Rohashi"
@@ -5510,6 +5550,11 @@
    "forever": "Santuario de Cantosombrío",
    "use": "Santuario de Cantosombrío"
   },
+  "Shadowthread Cave": {
+   "classic": "Gruta Narácnida",
+   "forever": "Gruta Narácnida",
+   "use": "Gruta Narácnida"
+  },
   "Shadra'Alor": {
    "classic": "Shadra'Alor",
    "forever": "Shadra'Alor",
@@ -5519,6 +5564,11 @@
    "classic": "Posada Reposo Umbrío",
    "forever": "Posada Reposo Umbrío",
    "use": "Posada Reposo Umbrío"
+  },
+  "Shalzaru's Lair": {
+   "classic": "Guarida de Shalzaru",
+   "forever": "Guarida de Shalzaru",
+   "use": "Guarida de Shalzaru"
   },
   "Shen'dar Highlands": {
    "forever": "Tierras Altas de Shen'dar",
@@ -5834,6 +5884,11 @@
    "forever": "Las Minas de la Muerte",
    "use": "Las Minas de la Muerte"
   },
+  "The Den of Flame": {
+   "classic": "Cubil de la Llama",
+   "forever": "Cubil de la Llama",
+   "use": "Cubil de la Llama"
+  },
   "The Farstrider Lodge": {
    "classic": "Cabaña del Errante",
    "forever": "Cabaña del Errante",
@@ -6028,6 +6083,16 @@
    "forever": "El Desierto de Sal",
    "use": "El Desierto de Sal"
   },
+  "The Shrine of Aessina": {
+   "classic": "El Santuario de Aessina",
+   "forever": "El Santuario de Aessina",
+   "use": "El Santuario de Aessina"
+  },
+  "The Skittering Dark": {
+   "classic": "Penumbra de las Celerácnidas",
+   "forever": "Penumbra de las Celerácnidas",
+   "use": "Penumbra de las Celerácnidas"
+  },
   "The Slag Pit": {
    "classic": "La Fosa de la Escoria",
    "forever": "La Fosa de la Escoria",
@@ -6089,6 +6154,11 @@
    "classic": "El Templo de Atal'Hakkar",
    "forever": "El Templo de Atal'Hakkar",
    "use": "El Templo de Atal'Hakkar"
+  },
+  "The Veiled Sea": {
+   "classic": "Mar de la Bruma",
+   "forever": "Mar de la Bruma",
+   "use": "Mar de la Bruma"
   },
   "The Wailing Caverns": {
    "classic": "Las Cuevas de los Lamentos",
@@ -6285,6 +6355,11 @@
    "classic": "Valormok",
    "forever": "Valormok",
    "use": "Valormok"
+  },
+  "Vul'Gol Ogre Mound": {
+   "classic": "Túmulo de Vul'Gol",
+   "forever": "Túmulo de Vul'Gol",
+   "use": "Túmulo de Vul'Gol"
   },
   "Wailing Caverns": {
    "classic": "Cuevas de los Lamentos",

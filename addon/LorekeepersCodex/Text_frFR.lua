@@ -6014,6 +6014,12 @@ ns.translate({
         { "Comment les serviteurs du roi-liche sont parvenus si loin en Kalimdor, personne ne sait me le dire. Qu'ils y soient, et qu'ils y bâtissent, suffit à inquiéter chaque peuple des Tarides." },
       },
     },
+    ["razorfen-downs-tune"] = {
+      title = "Souilles de Tranchebauge",
+      text = {
+        { "Les Souilles de Tranchebauge, le tertre des hurans au sud des Tarides, ont leur propre air. Les hurans de là-bas se sont alliés au Fléau, et une liche nommée Amnennar le Porte-froid les gouverne désormais. Il répond à Ner'zhul. Je n'ai jamais trouvé de bonne raison d'y descendre, et j'ai cherché." },
+      },
+    },
     ["razorfen-kraul"] = {
       title = "Le Kraal de Tranchebauge",
       text = {
@@ -6777,6 +6783,12 @@ ns.translate({
         { "Le rituel se fait à Hache-tripes : un Cercle de lien supérieur, le parchemin, un portail vers Xoroth, et il en sort quelque chose qu'il faut vaincre avant que son esprit ne plie. Un grand démon, un seigneur de l'effroi, le Conseil des ombres et ce diablotin y ont tous leur part. Je le consigne parce que c'est vrai, $gvoyageur:voyageuse;, non parce que je le recommande." },
       },
     },
+    ["the-dry-caves"] = {
+      title = "Les grottes arides",
+      text = {
+        { "La Caverne des Terrevent en Durotar, la Tanière des Volplumes dans les Mille pointes, l'Antre de Shalzaru en Feralas : un seul air pour les cavités du pays sec, et pour ceux qui s'y sont installés. Dans l'Antre de Shalzaru, ce sont des nagas qui ont creusé, en quête d'une relique, et leur seigneur Shalzaru l'a trouvée avant que quiconque ait pu l'en empêcher." },
+      },
+    },
     ["the-dry-lands"] = {
       title = "Les terres arides",
       text = {
@@ -6813,6 +6825,12 @@ ns.translate({
         { "Il se reproche tout cela, et racontera son histoire à quiconque s'arrête pour l'écouter. Il veut que ses hommes soient libérés, et Razelikh détruit, et il aidera tout voyageur prêt à essayer, de la Horde ou de l'Alliance. C'est la seule chose qu'il lui reste à faire." },
       },
     },
+    ["the-fel-woods"] = {
+      title = "Les bois gangrenés",
+      text = {
+        { "Gangrebois, le Canyon de la Malechute en Orneval et le Convent de Mannoroc en Désolace partagent un air, et une histoire. Les démons sont venus en Kalimdor et ont marqué la terre, et à Gangrebois les satyres Jadefeu et les sectateurs de Jaedenar entretiennent la marque. Le monument de Grom Hellscream se dresse dans le Canyon de la Malechute. Il a affronté seul Mannoroth, et la Horde voit dans son sacrifice la fin de la malédiction des orcs." },
+      },
+    },
     ["the-felstones"] = {
       title = "Les Felstone",
       text = {
@@ -6820,6 +6838,12 @@ ns.translate({
         { "Où il alla dépend de qui le porta. Selon l'Alliance, il était adressé à sa sœur Emma, à Hurlevent, et le recensement l'y retrouva : la vieille Emma, qui erre dans la cité en parlant toute seule et n'avait pas entendu son propre nom depuis des années. Selon la Horde, il allait à son frère Jeremiah, en Lordaeron, qui mourut, se releva et vend aujourd'hui des cafards près de la banque de Fossoyeuse sous le nom de Payson. J'ai les deux récits et j'ai renoncé à les accorder. Dans un cas comme dans l'autre, le colis contenait la moitié d'un porte-bonheur, que le frère ou la sœur lui renvoya." },
         { "Janice en avait une moitié, et son mari John l'autre. Elle l'appelle encore. L'autre moitié réapparut à la ferme, sur l'une des goules. Quand les deux moitiés furent réunies et posées dans sa main, elle regarda pour la première fois la personne qui les lui tendait et dit qu'elle était libre. Je n'ai pas demandé de quelle goule il s'agissait." },
         { side = "Horde", aside = true, sign = "P. F.", "Jeremiah Payson vend ses cafards à un prix honnête et modique. Ce qu'il était avant ne regarde que lui, et je prie l'historienne de l'Alliance de lui laisser le nom qu'il s'est choisi." },
+      },
+    },
+    ["the-fire-below"] = {
+      title = "Le feu des profondeurs",
+      text = {
+        { "Le Rocher des Cognepeurs, la Fosse aux scories de la Gorge des Vents brûlants, l'Antre des flammes au Marécage d'Âprefange et les profondeurs du Mont Rochenoire : voilà l'air des endroits brûlants sous terre. Les ogres en tiennent plusieurs, ce qui en dit long sur les ogres. Les orcs de Kargath envoient des gens au Rocher des Cognepeurs chercher un anneau de nez, ce qui en dit long sur les orcs." },
       },
     },
     ["the-first-war"] = {
@@ -6848,6 +6872,18 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Personne hors de Fossoyeuse ne saurait dire ce que nous voulons, écrit-elle. La plupart d'entre nous, à l'intérieur, ne le sauraient pas non plus. Moi, je veux savoir ce qu'on nous a fait, et l'écrire comme il faut." },
       },
     },
+    ["the-furbolg-dens"] = {
+      title = "Les villages furbolgs",
+      text = {
+        { "Les villages furbolgs de Gangrebois et d'Orneval, ceux des Mort-bois, de Gangrepatte et des Crins-de-Chardon, partagent un air. La gangrène a corrompu la plupart des furbolgs de ces forêts. Les Grumegueules y ont échappé, et ils gardent leur repaire entre Gangrebois et Reflet-de-Lune contre leurs propres frères déchus." },
+      },
+    },
+    ["the-graveyards"] = {
+      title = "Les cimetières",
+      text = {
+        { "Le cimetière de Colline-aux-Corbeaux et le cimetière des jardins paisibles au Bois de la Pénombre, Brill et les Moulins d'Agamand à Tirisfal, le Tombeau d'Uther et les Ruines d'Andorhal : cet air ne quitte guère les lieux où l'on enterre les morts, ni certains où ils ne sont pas restés en terre. Les Agamand de Tirisfal en sont un bon exemple. J'ai lu l'une de leurs lettres, et je préfère ne pas croiser la famille." },
+      },
+    },
     ["the-great-hunts"] = {
       title = "Les grandes chasses",
       text = {
@@ -6863,6 +6899,12 @@ ns.translate({
         { "Les elfes leur dirent ce qu'était la Légion, et ce qu'elle avait déjà fait au monde une fois. Ensemble, le Conseil de Lune-d'argent et les magocrates conclurent un pacte secret : un seul champion mortel, doté des puissances réunies de la magie elfique et humaine, combattrait les agents de la Légion dans une guerre dont personne d'autre ne devrait jamais entendre parler. Un conseil caché, qui se réunissait dans les clairières de Tirisfal où les elfes s'étaient d'abord établis en Lordaeron, choisissait chaque Gardien, et quand un Gardien vieillissait ou se lassait, le conseil veillait lui-même à la transmission du pouvoir." },
         { "Cela fonctionna pendant des générations. Puis le Conseil choisit Aegwynn, qui n'entendait pas être contrôlée. Elle abattit l'avatar de Sargeras lui-même dans le nord glacé et crut en avoir fini avec lui. Près de neuf cents ans plus tard, refusant de laisser le Conseil désigner son successeur, elle donna naissance à un fils pour hériter de son pouvoir et le nomma Medivh, « gardien des secrets » dans la langue des hauts-elfes. Ce qu'il gardait est raconté à la page de Karazhan." },
         { "Un ordre qui cache sa guerre au monde entier ne peut pas facilement être corrigé quand il se trompe, $gvoyageur:voyageuse;. Le Conseil l'apprit trop tard." },
+      },
+    },
+    ["the-hidden-places"] = {
+      title = "Les lieux cachés",
+      text = {
+        { "Cet air revient dans des lieux qui n'ont pas grand-chose en commun : le Nid-de-l'Aigle des nains Marteau-hardi, le temple Vilebranch de Jintha'Alor, la Faille à Teldrassil, la rive du Loch Modan. Un autre est la Tour d'Ilgalar, dans les Carmines, où vit le mage Morganth. Son rival le dit cruel, et je ne suis pas allée vérifier." },
       },
     },
     ["the-high-mountains"] = {
@@ -6883,6 +6925,12 @@ ns.translate({
       text = {
         { "Au nord d'Arathi s'étendent les Hinterlands : de hautes collines vertes, des vallées profondes, des cascades et une vieille forêt, un pays sauvage qu'aucun roi n'a jamais vraiment gouverné. Les nains Wildhammer y vivent, à Nid-de-l'Aigle, avec leurs griffons. Les trolls des forêts de l'ancien empire amani aussi, dont les temples en ruine couronnent la moitié des collines, et dont les tribus encore vivantes tiennent le reste." },
         { "C'est un pays beau et dangereux. Des chouettards dans les bois, des limons dans les marais, des trolls Witherbark et Vilebranch dans les ruines, et au sommet du grand temple de Jintha'Alor, des prêtres qui sacrifient encore au dieu du sang. Les chevaucheurs de griffons de Nid-de-l'Aigle gardent un œil sur tout cela depuis les airs." },
+      },
+    },
+    ["the-horde-outposts"] = {
+      title = "Les avant-postes de la Horde",
+      text = {
+        { "La Croisée, le Campement Grom'gol, le Poste de Bois-brisé, le Camp de bûcherons chanteguerre et la Retraite de Roche-Soleil partagent un air. Ce sont les forts de la Horde le long des routes, bâtis partout où il lui fallait un mur, un maître de vol et un cuisinier. La Croisée se tient là où se rejoignent les routes des Tarides, et tôt ou tard, tout voyageur de la région y passe." },
       },
     },
     ["the-jungle"] = {
@@ -6926,6 +6974,18 @@ ns.translate({
         { "Hurlevent dit que son roi a disparu. Quelques personnes en savent un peu plus, et la piste qu'elles ont suivie commence, chose peu banale, dans une fromagerie. L'Evêque DeLavey, au Donjon de Stormwind, fit savoir en toute discrétion qu'un diplomate envoyé auprès de Dame Jaina Proudmoore à Theramore n'était jamais arrivé, et qu'il soupçonnait les Défias. Son vieil ami Jorgen, dans la Vallée des héros, confia l'affaire à Elling Trias, un fromager du Quartier commerçant aux relations remarquablement étendues." },
         { "La piste passa par une réunion des Défias à la Ferme des Addle, dans le Bois de la Pénombre, et par un bagarreur de la Vieille ville nommé Dashel Stonefist, puis remonta jusqu'au Port de Menethil, où un ancien agent devenu tavernier désigna un homme qui écoutait de trop près. Tapoke Jahn, dit Slim, livra le reste une fois battu. Les Défias n'avaient pas enlevé un diplomate. Ils avaient enlevé le roi, en route vers une rencontre secrète à Theramore. Le rôle de Slim avait été de faire monter leur homme à bord du navire du roi pendant qu'il était à quai : le Soldat Hendel, un homme de la garnison de Theramore même. Et les Défias, ajouta-t-il, travaillaient pour quelqu'un de plus gros qu'eux." },
         { "Hendel fut trouvé de garde dans le marais, aux abords de Theramore, et ramené sur l'île pour y être interrogé. C'est là que s'arrête le récit. Le roi n'a pas été retrouvé, et celui pour qui travaillaient les Défias n'a pas été nommé. Hurlevent a toujours un enfant sur le trône et un régent à ses côtés." },
+      },
+    },
+    ["the-moonwells"] = {
+      title = "Les puits de lune",
+      text = {
+        { "Le puits de lune d'Orneval et le sanctuaire d'Aessina portent cet air, et on le retrouve aussi en certains lieux de Darnassus et de Hurlevent. Aessina est l'un des esprits de la nature que révèrent les elfes de la nuit. Son sanctuaire se trouve au cœur d'Orneval, et Therysil y attend des nouvelles de sa sœur." },
+      },
+    },
+    ["the-ogre-mounds"] = {
+      title = "Les tertres des ogres",
+      text = {
+        { "Le Tertre des ogres Vul'Gol au Bois de la Pénombre et Mur-de-Fougères au Marécage d'Âprefange partagent un air, et un grand nombre d'ogres. Les Brisepoing de Vul'Gol attaquent quiconque s'approche. À Mur-de-Fougères, les ogres Cognepierre servent le Seigneur Mok'Morokk, un titre que Rexxar lui a donné. Les dragons noirs de la couvée d'Onyxia les ont chassés de chez eux, et certains ogres du camp reprochent encore à Mok'Morokk d'avoir fui." },
       },
     },
     ["the-open-plains"] = {
@@ -7060,6 +7120,12 @@ ns.translate({
         { "Ce coffre contenait un Œil de Paleth, l'un des orbes que les prêtres humains fabriquaient pour briller de mille feux, devenu noir et maudit par ce qu'il vit cette nuit-là. Les prêtres de Menethil ne purent le purifier. L'archevêque de Hurlevent, lui, le put. Une flotte ne meurt pas toujours d'un seul coup, $gvoyageur:voyageuse;. Il faut parfois un prêtre et un premier officier têtu pour en finir." },
       },
     },
+    ["the-twilight-shores"] = {
+      title = "Les rivages du crépuscule",
+      text = {
+        { "Sombrivage, Reflet-de-Lune, les villages des Pins argentés et la côte des Paluns partagent cet air. Auberdine regarde la Mer voilée, et les druides veillent sur le Sanctuaire de Remulos à Reflet-de-Lune. Bois-du-Bûcher, dans les Pins argentés, est une autre affaire. Ses habitants sont humains le jour et worgens Ragelune la nuit, et c'est l'enchantement d'Arugal qu'il faut en blâmer." },
+      },
+    },
     ["the-valley-of-bones"] = {
       title = "La Vallée des Ossements",
       text = {
@@ -7082,6 +7148,12 @@ ns.translate({
         { "Tandis que Thrall libérait son peuple des camps, le roi-liche élevait une citadelle au-dessus du glacier de la Couronne de glace, et un royaume du Norfendre lui opposa un refus. Azjol-Nérub s'étendait sous terre, gouverné par les nérubiens, des seigneurs araignées dont les tunnels couraient sous la moitié du continent. Ils étaient insensibles à sa peste et à sa voix dans leur esprit, et ils frappaient ses places fortes et disparaissaient avant qu'il puisse répondre." },
         { "Il l'emporta à l'usure. Avec les seigneurs de l'effroi et une réserve inépuisable de morts, il envahit Azjol-Nérub et fit s'effondrer ses temples sur la tête des seigneurs araignées. La peste ne pouvait les prendre vivants, mais sa nécromancie pouvait les relever morts, et ainsi les nérubiens en vinrent à servir le maître qu'ils avaient combattu. Il admirait aussi leurs édifices : les forteresses du Fléau sont bâties dans leur style." },
         { "On peut voir les deux dans les Maleterres. Les démons des cryptes qui rampent parmi le Fléau sont des nérubiens, ou ce qu'il en reste, et les ziggourats des morts sont l'architecture des seigneurs araignées. Le roi-liche garde ses trophées près de lui." },
+      },
+    },
+    ["the-webbed-dark"] = {
+      title = "Les ténèbres tissées",
+      text = {
+        { "Les Grottes des Tisse-nuit à Tirisfal, le Grouillement dans les Pins argentés, la Grotte de Sombrefil à Teldrassil et les mines de la Marche de l'Ouest et du Loch Modan partagent un air. Les araignées aiment les trous sombres, et les mineurs en creusent. Les uns et les autres se croisent plus souvent qu'ils ne le voudraient." },
       },
     },
     ["the-windshapers"] = {

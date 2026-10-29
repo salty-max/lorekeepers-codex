@@ -6007,6 +6007,12 @@ ns.translate({
         { "Wie die Diener des Lichkönigs so tief nach Kalimdor gelangten, kann mir niemand sagen. Dass sie es getan haben und dort bauen, ist Grund genug für jedes Volk im Brachland, sich Sorgen zu machen." },
       },
     },
+    ["razorfen-downs-tune"] = {
+      title = "Die Hügel von Razorfen",
+      text = {
+        { "Die Hügel von Razorfen, die Grabhügel der Stacheleber im südlichen Brachland, haben eine eigene Melodie. Die Stacheleber dort haben sich der Geißel angeschlossen, und ein Lich namens Amnennar der Kältebringer herrscht nun über sie. Er gehorcht Ner'zhul. Ich habe nie einen guten Grund gefunden, dort hinabzusteigen, und ich habe gesucht." },
+      },
+    },
     ["razorfen-kraul"] = {
       title = "Der Kral von Razorfen",
       text = {
@@ -6770,6 +6776,12 @@ ns.translate({
         { "Das Ritual findet in Düsterbruch statt: ein mächtiger Beschwörungskreis, das Pergament, ein Portal nach Xoroth, und es kommt etwas hindurch, das besiegt werden muss, bevor sein Geist sich beugt. Ein Dämonenfürst, ein Schreckenslord, der Schattenrat und jener Wichtel haben alle ihre Hand im Spiel. Ich verzeichne es, weil es wahr ist, $gReisender:Reisende;, nicht weil ich es empfehle." },
       },
     },
+    ["the-dry-caves"] = {
+      title = "Die trockenen Höhlen",
+      text = {
+        { "Die Staubwindhöhle in Durotar, der Bau der Wildfedern in Tausend Nadeln, Shalzarus Unterschlupf in Feralas: eine Melodie für die Löcher im trockenen Land und für alle, die sich darin eingerichtet haben. In Shalzarus Unterschlupf waren es die Naga. Sie gruben nach einem Relikt, und ihr Lord Shalzaru fand es, ehe jemand ihn aufhalten konnte." },
+      },
+    },
     ["the-dry-lands"] = {
       title = "Die trockenen Lande",
       text = {
@@ -6806,6 +6818,12 @@ ns.translate({
         { "Er gibt sich selbst die Schuld an allem, und er erzählt seine Geschichte jedem, der anhält und zuhört. Er will seine Männer befreit und Razelikh vernichtet sehen, und er hilft jedem Reisenden, der es versuchen will, ob Horde oder Allianz. Es ist das Einzige, was ihm noch zu tun bleibt." },
       },
     },
+    ["the-fel-woods"] = {
+      title = "Die verderbten Wälder",
+      text = {
+        { "Teufelswald, der Demonfall-Canyon in Ashenvale und Mannorocs Koven in Desolace teilen sich eine Melodie und eine Geschichte. Die Dämonen kamen nach Kalimdor und hinterließen ihr Mal im Boden, und im Teufelswald halten die Jadefeuersatyrn und die Kultisten von Jaedenar das Mal lebendig. Grom Hellscreams Denkmal steht im Demonfall-Canyon. Er stellte sich Mannoroth allein entgegen, und die Horde sieht in seinem Opfer das Ende des Orc-Fluchs." },
+      },
+    },
     ["the-felstones"] = {
       title = "Die Familie Teufelsstein",
       text = {
@@ -6813,6 +6831,12 @@ ns.translate({
         { "Wohin es ging, hängt davon ab, wer es trug. Nach dem Bericht der Allianz war es an ihre Schwester Emma in Stormwind adressiert, und die Volkszählung fand sie dort: die Alte Emma, die durch die Stadt streift, mit sich selbst redet und ihren eigenen Namen seit Jahren nicht gehört hatte. Nach dem der Horde ging es an ihren Bruder Jeremiah in Lordaeron, der starb, sich wieder erhob und heute unter dem Namen Payson nahe der Bank von Undercity Kakerlaken verkauft. Ich habe beide Berichte und habe aufgehört, sie miteinander zu versöhnen. So oder so lag im Paket die Hälfte eines Glücksbringers, und ihr Bruder oder ihre Schwester schickte sie ihr zurück." },
         { "Janice hatte die eine Hälfte, ihr Mann John die andere. Sie ruft noch immer nach ihm. Die andere Hälfte fand sich auf dem Hof, bei einem der Ghule. Als die beiden Hälften vereint und ihr in die Hand gelegt wurden, sah sie zum ersten Mal die Person an, die ihr die Hälften reichte, und sagte, sie sei frei. Ich habe nicht gefragt, welcher Ghul es war." },
         { side = "Horde", aside = true, sign = "P. F.", "Jeremiah Payson verkauft seine Kakerlaken ehrlich und billig. Was er vorher war, ist seine Sache, und ich bitte die Historikerin der Allianz, ihm den Namen zu lassen, den er gewählt hat." },
+      },
+    },
+    ["the-fire-below"] = {
+      title = "Das Feuer in der Tiefe",
+      text = {
+        { "Der Schreckensfels, die Schlackengrube in der Sengenden Schlucht, der Flammenbau in den Marschen von Dustwallow und die Tiefen des Blackrock: Dies ist die Melodie der heißen Orte unter der Erde. Oger hausen in mehreren davon, was einiges über Oger sagt. Die Orcs aus Kargath schicken Leute in den Schreckensfels, um einen Nasenring zu holen, was einiges über Orcs sagt." },
       },
     },
     ["the-first-war"] = {
@@ -6841,6 +6865,18 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Niemand außerhalb von Undercity könne sagen, was wir wollen, schreibt sie. Die meisten von uns drinnen können es auch nicht. Ich will wissen, was man uns angetan hat, und es ordentlich niederschreiben." },
       },
     },
+    ["the-furbolg-dens"] = {
+      title = "Die Lager der Furbolgs",
+      text = {
+        { "Im Teufelswald und in Ashenvale teilen sich die Furbolglager eine Melodie: das Lager der Totenwaldfelle, das Revier der Teufelspfoten und das Lager der Distelfelle. Die Teufelsmagie hat die meisten Furbolgs dieser Wälder verdorben. Die Furbolgs der Holzschlundfeste entgingen ihm, und sie verteidigen ihre Feste zwischen Teufelswald und Moonglade gegen ihre eigenen gefallenen Verwandten." },
+      },
+    },
+    ["the-graveyards"] = {
+      title = "Die Friedhöfe",
+      text = {
+        { "Der Friedhof von Rabenflucht und der Friedhof \"Stille Gärten\" im Dämmerwald, Brill und Agamands Mühlen in Tirisfal, Uthers Grabmal und die Ruinen von Andorhal: Diese Melodie gehört zu den Orten, an denen man die Toten begräbt, und zu einigen, an denen sie nicht begraben blieben. Die Agamands aus Tirisfal sind ein gutes Beispiel. Ich habe einen ihrer Briefe gelesen, und dieser Familie begegne ich lieber nicht." },
+      },
+    },
     ["the-great-hunts"] = {
       title = "Die großen Jagden",
       text = {
@@ -6856,6 +6892,12 @@ ns.translate({
         { "Die Elfen erzählten ihnen, was die Legion war und was sie der Welt schon einmal angetan hatte. Gemeinsam schlossen der Rat von Silbermond und die Magokraten einen geheimen Pakt: Ein einzelner sterblicher Streiter, ausgestattet mit der vereinten Macht elfischer und menschlicher Magie, sollte die Agenten der Legion in einem Krieg bekämpfen, von dem sonst niemand je hören sollte. Ein verborgener Rat, der sich auf den Lichtungen von Tirisfal traf, wo die Elfen sich in Lordaeron zuerst niedergelassen hatten, wählte jeden Wächter, und wenn einer alt oder müde wurde, gab er die Macht unter seiner eigenen sorgfältigen Aufsicht weiter." },
         { "Es funktionierte über Generationen. Dann wählte der Rat Aegwynn, die sich nicht beaufsichtigen lassen wollte. Sie streckte im gefrorenen Norden den Avatar von Sargeras selbst nieder und glaubte, ihn erledigt zu haben. Fast neunhundert Jahre später weigerte sie sich, den Rat ihren Nachfolger bestimmen zu lassen, gebar einen Sohn, der ihre Macht erben sollte, und nannte ihn Medivh, 'Hüter der Geheimnisse' in der Sprache der Hochelfen. Was er hütete, steht unter Karazhan." },
         { "Ein Orden, der seinen Krieg vor der ganzen Welt geheim hält, lässt sich nicht leicht berichtigen, wenn er fehlgeht, $gReisender:Reisende;. Der Rat lernte das zu spät." },
+      },
+    },
+    ["the-hidden-places"] = {
+      title = "Die verborgenen Orte",
+      text = {
+        { "Diese Melodie taucht an Orten auf, die wenig gemeinsam haben: Aerie Peak der Wildhammerzwerge, der Tempel der Vilebranch in Jintha'Alor, die Kluft in Teldrassil, das Ufer des Loch Modan. Ein weiterer solcher Ort ist der Turm von Ilgalar im Rotkammgebirge, wo der Magier Morganth lebt. Sein Rivale nennt ihn grausam, und ich bin nicht hingegangen, um es nachzuprüfen." },
       },
     },
     ["the-high-mountains"] = {
@@ -6876,6 +6918,12 @@ ns.translate({
       text = {
         { "Nördlich von Arathi liegt das Hinterland: hohe grüne Hügel, tiefe Täler, Wasserfälle und alter Wald, wildes Land, über das nie ein König wirklich geherrscht hat. Die Wildhammerzwerge leben hier, in Aerie Peak, mit ihren Greifen. Ebenso die Waldtrolle des alten Reiches der Amani, deren zerfallene Tempel die Hälfte der Hügel krönen und deren lebende Stämme den Rest noch halten." },
         { "Es ist ein schönes, gefährliches Land. Eulenbestien in den Wäldern, Brühschlammer in den Sümpfen, Trolle der Witherbark und der Vilebranch in den Ruinen, und oben auf dem großen Tempel von Jintha'Alor Priester, die noch immer dem Blutgott opfern. Die Greifenreiter von Aerie Peak behalten alles aus der Luft im Auge." },
+      },
+    },
+    ["the-horde-outposts"] = {
+      title = "Die Vorposten der Horde",
+      text = {
+        { "Crossroads, das Basislager von Grom'gol, der Splintertreeposten, das Holzfällerlager des Kriegshymnenklans und Sonnenfels teilen sich eine Melodie. Das sind die Straßenfestungen der Horde, gebaut überall dort, wo sie eine Mauer, einen Flugmeister und einen Koch brauchte. Crossroads steht dort, wo sich die Straßen des Brachlands treffen, und früher oder später kommt jeder Reisende dort vorbei." },
       },
     },
     ["the-jungle"] = {
@@ -6919,6 +6967,18 @@ ns.translate({
         { "Stormwind sagt, sein König werde vermisst. Einige wenige wissen etwas mehr, und die Spur, der sie folgten, beginnt ausgerechnet in einem Käseladen. Bischof DeLavey in der Burg Stormwind ließ in aller Stille wissen, dass ein Diplomat, der Lady Jaina Proudmoore in Theramore treffen sollte, nie angekommen war, und dass er die Defias verdächtigte. Sein alter Freund Jorgen im Tal der Helden übergab die Sache an Elling Trias, einen Käsehändler im Handelsdistrikt mit bemerkenswert weitreichenden Verbindungen." },
         { "Die Spur führte über ein Treffen der Defias in Addles Siedlung im Dämmerwald und einen Raufbold in der Altstadt namens Dashel Stonefist nach Norden zum Hafen von Menethil, wo ein ehemaliger Agent, inzwischen Wirt, auf einen Mann zeigte, der allzu genau zuhörte. Tapoke Jahn, genannt Slim, gab den Rest preis, nachdem er geschlagen worden war. Die Defias hatten keinen Diplomaten entführt. Sie hatten den König entführt, auf dem Weg zu einem geheimen Treffen in Theramore. Slims Aufgabe war es gewesen, ihren Mann an Bord des königlichen Schiffes zu bringen, als es im Hafen lag: einen Gefreiten Hendel, einen von Theramores eigenen Soldaten. Und die Defias, sagte er, arbeiteten mit jemandem zusammen, der größer war als sie selbst." },
         { "Hendel wurde auf Wache im Sumpf vor Theramore gefunden und zur Befragung auf die Insel zurückgebracht. Dort endet der Bericht. Der König wurde nicht gefunden, und wer hinter den Defias steht, wurde nicht genannt. Stormwind hat noch immer einen Jungen auf dem Thron und einen Regenten an seiner Seite." },
+      },
+    },
+    ["the-moonwells"] = {
+      title = "Die Mondbrunnen",
+      text = {
+        { "Der Mondbrunnen in Ashenvale und der Schrein von Aessina teilen sich diese Melodie, und sie taucht irgendwo in Darnassus und in Stormwind wieder auf. Aessina ist einer der Geister der Wildnis, die die Nachtelfen verehren. Ihr Schrein liegt tief im Wald, und Therysil wartet dort auf Nachricht von ihrer Schwester." },
+      },
+    },
+    ["the-ogre-mounds"] = {
+      title = "Die Ogerhorte",
+      text = {
+        { "Der Ogerhort Vul'Gol im Dämmerwald und Brackenwall in den Marschen von Dustwallow teilen sich eine Melodie und sehr viele Oger. Die Splitterfäuste von Vul'Gol greifen jeden an, der zu nahe kommt. In Brackenwall dienen die Oger der Stonemaul ihrem Oberanführer Mok'Morokk, den Rexxar eingesetzt hat. Die schwarzen Drachen aus Onyxias Brut haben sie aus ihrer alten Heimat vertrieben, und nicht jeder Oger dort hat dem Oberanführer verziehen, dass er davonlief." },
       },
     },
     ["the-open-plains"] = {
@@ -7053,6 +7113,12 @@ ns.translate({
         { "Was in dieser Kassette lag, war ein Auge von Paleth, eine der Kugeln, die menschliche Priester zum hellen Leuchten schufen, schwarz verflucht von dem, was es in jener Nacht sah. Die Priester von Menethil konnten es nicht reinigen. Der Erzbischof in Stormwind konnte es. Eine Flotte stirbt nicht immer auf einmal, $gReisender:Reisende;. Manchmal braucht es einen Priester und einen sturen Ersten Maat, um die Sache zu Ende zu bringen." },
       },
     },
+    ["the-twilight-shores"] = {
+      title = "Die Küsten der Dämmerung",
+      text = {
+        { "Dunkelküste, Moonglade, die Dörfer des Silberwalds und die Küste des Sumpflands teilen sich diese Melodie. Auberdine blickt auf das verhüllte Meer, und die Druiden hüten den Schrein von Remulos in Moonglade. Anders liegt der Fall in Pyrewood im Silberwald. Seine Bewohner sind bei Tag Menschen und bei Nacht Moonrage-Worgen, und schuld daran ist Arugals Verzauberung." },
+      },
+    },
     ["the-valley-of-bones"] = {
       title = "Das Tal der Knochen",
       text = {
@@ -7075,6 +7141,12 @@ ns.translate({
         { "Während Thrall sein Volk aus den Lagern befreite, errichtete der Lichkönig eine Zitadelle über dem Gletscher von Eiskrone, und ein Königreich in Nordend verweigerte sich ihm. Azjol-Nerub lag unter der Erde, beherrscht von den Nerubern, Spinnenfürsten, deren Tunnel unter dem halben Kontinent verliefen. Sie waren gefeit gegen seine Seuche und gegen seine Stimme in ihrem Geist, und sie schlugen gegen seine Festungen los und waren wieder fort, bevor er antworten konnte." },
         { "Er siegte durch Zermürbung. Mit den Schreckenslords und einem endlosen Vorrat an Toten fiel er in Azjol-Nerub ein und brachte ihre Tempel über den Köpfen der Spinnenfürsten zum Einsturz. Die Seuche konnte sie lebend nicht nehmen, doch seine Nekromantie konnte sie tot erwecken, und so kamen die Neruber dazu, dem Herrn zu dienen, den sie bekämpft hatten. Er bewunderte auch ihre Bauten: Die Festungen der Geißel sind in ihrem Stil gebaut." },
         { "Beides könnt Ihr in den Pestländern sehen. Die Gruftbestien, die zwischen der Geißel kriechen, sind Neruber, oder was von ihnen übrig ist, und die Zikkurate der Toten sind die Baukunst der Spinnenfürsten. Der Lichkönig behält seine Trophäen gern in der Nähe." },
+      },
+    },
+    ["the-webbed-dark"] = {
+      title = "Das gesponnene Dunkel",
+      text = {
+        { "Der Nachtwebergrund in Tirisfal, das Huschdunkel im Silberwald, die Schattenweberhöhle in Teldrassil und die Minen von Westfall und Loch Modan teilen sich eine Melodie. Spinnen mögen dunkle Löcher, und Bergleute graben welche. Die beiden begegnen sich öfter, als einem von ihnen lieb ist." },
       },
     },
     ["the-windshapers"] = {

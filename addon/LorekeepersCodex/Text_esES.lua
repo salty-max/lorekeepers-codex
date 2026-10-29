@@ -5987,6 +5987,12 @@ ns.translate({
         { "Nadie sabe decirme cómo han llegado tan lejos en Kalimdor los sirvientes del Rey Exánime. Que lo hayan hecho y estén estableciéndose allí basta para preocupar a todos los pueblos de Los Baldíos." },
       },
     },
+    ["razorfen-downs-tune"] = {
+      title = "Zahúrda Rajacieno",
+      text = {
+        { "La Zahúrda Rajacieno, el túmulo de los jabaespines al sur de Los Baldíos, tiene su propia melodía. Los jabaespines de allí se han unido a la Plaga, y un liche llamado Amnennar el Gélido los gobierna ahora. Responde ante Ner'zhul. Nunca he encontrado una buena razón para bajar allí, y la he buscado." },
+      },
+    },
     ["razorfen-kraul"] = {
       title = "Horado Rajacieno",
       text = {
@@ -6750,6 +6756,12 @@ ns.translate({
         { "El ritual se celebra en La Masacre: un Círculo de invocación superior, el pergamino, un portal a Xoroth, y por él llega algo que hay que vencer antes de que su espíritu se doblegue. Un señor demoníaco, un señor del terror, el Consejo de la Sombra y ese diablillo tienen parte en ello. Lo dejo escrito porque es verdad, $gviajero:viajera;, no porque lo recomiende." },
       },
     },
+    ["the-dry-caves"] = {
+      title = "Las cuevas secas",
+      text = {
+        { "La Cueva Viento Seco en Durotar, la Guarida Malapluma en Las Mil Agujas, la Guarida de Shalzaru en Feralas: una sola melodía para los agujeros de la tierra seca y para quien se haya instalado en ellos. En la Guarida de Shalzaru fueron los naga, que cavaban en busca de una reliquia que su Lord Shalzaru encontró antes de que nadie pudiera detenerlo." },
+      },
+    },
     ["the-dry-lands"] = {
       title = "Las tierras secas",
       text = {
@@ -6786,6 +6798,12 @@ ns.translate({
         { "Se culpa de todo y cuenta su historia a quien se detenga a escucharla. Quiere liberar a sus hombres y destruir a Razelikh, y ayudará a cualquier viajero que lo intente, de la Horda o de la Alianza. Es lo único que aún puede hacer." },
       },
     },
+    ["the-fel-woods"] = {
+      title = "Los bosques viles",
+      text = {
+        { "Frondavil, el Barranco del Demonio en Vallefresno y el Aquelarre Mannoroc en Desolace comparten una melodía y una historia. Los demonios llegaron a Kalimdor y dejaron su marca en la tierra, y en Frondavil los sátiros Fuego de Jade y los cultores de Jaedenar la mantienen viva. El monumento de Grom Grito Infernal se alza en el Barranco del Demonio. Se enfrentó solo a Mannoroth, y la Horda ve en su sacrificio el fin de la maldición de los orcos." },
+      },
+    },
     ["the-felstones"] = {
       title = "Los Piedra Mácula",
       text = {
@@ -6793,6 +6811,12 @@ ns.translate({
         { "Adónde fue depende de quién lo llevara. Según la Alianza, iba dirigido a su hermana Emma, en Ventormenta, y el censo la encontró allí: la Vieja Emma, que vaga por la ciudad hablando sola y llevaba años sin oír su propio nombre. Según la Horda, iba para su hermano Jeremiah, en Lordaeron, que murió, se levantó y hoy vende cucarachas cerca del banco de Entrañas con el nombre de Payson. Tengo los dos relatos y he dejado de intentar conciliarlos. En cualquier caso, en el paquete iba la mitad de un talismán de la suerte, y su hermano o su hermana se la devolvió." },
         { "Janice tenía una mitad y su marido John la otra. Todavía lo llama. La otra mitad apareció en la granja, en uno de los necrófagos. Cuando las dos mitades se unieron y se las pusieron a ella en la mano, miró por primera vez a quien se las tendía y dijo que era libre. No he preguntado qué necrófago era." },
         { side = "Horde", aside = true, sign = "P. F.", "Jeremiah Payson vende sus cucarachas a buen precio y sin trampa. Lo que fuera antes es asunto suyo, y le pido a la historiadora de la Alianza que le deje el nombre que eligió." },
+      },
+    },
+    ["the-fire-below"] = {
+      title = "El fuego de las profundidades",
+      text = {
+        { "La Roca Machacamiedo, la Fosa de la Escoria en La Garganta de Fuego, el Cubil de la Llama en el Marjal Revolcafango y las profundidades de la Montaña Roca Negra: esta es la melodía de los lugares ardientes bajo tierra. Los ogros ocupan varios, lo que dice mucho de los ogros. Los orcos de Kargath mandan gente a la Roca Machacamiedo en busca de un aro de nariz, lo que dice mucho de los orcos." },
       },
     },
     ["the-first-war"] = {
@@ -6821,6 +6845,18 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Nadie fuera de Entrañas puede decir qué queremos, escribe. La mayoría de los de dentro tampoco. Yo quiero saber qué nos hicieron y dejarlo debidamente por escrito." },
       },
     },
+    ["the-furbolg-dens"] = {
+      title = "Los poblados furbolg",
+      text = {
+        { "Frondavil y Vallefresno tienen sus poblados furbolg, la Aldea Muertobosque, el Poblado Zarpavil y el Poblado Piel de Cardo, y todos comparten una melodía. La magia vil corrompió a la mayoría de los furbolg de estos bosques. Los Fauces de Madera se libraron de él, y defienden su bastión entre Frondavil y Claro de la Luna de sus propios parientes caídos." },
+      },
+    },
+    ["the-graveyards"] = {
+      title = "Los cementerios",
+      text = {
+        { "El Cementerio del Cerro del Cuervo y el Cementerio del Jardín Sereno en el Bosque del Ocaso, Rémol y los Molinos de Agamand en Tirisfal, la Tumba de Uther y las Ruinas de Andorhal: esta melodía no se aleja de los lugares donde se entierra a los muertos, ni de algunos donde no se quedaron enterrados. Los Agamand de Tirisfal son un buen ejemplo. He leído una de sus cartas, y prefiero no cruzarme con la familia." },
+      },
+    },
     ["the-great-hunts"] = {
       title = "Las grandes cacerías",
       text = {
@@ -6836,6 +6872,12 @@ ns.translate({
         { "Los elfos les explicaron qué era la Legión y lo que ya había hecho al mundo. El Consejo de Lunargenta y los magócratas sellaron un pacto secreto: un campeón mortal, dotado de la fuerza combinada de la magia élfica y humana, combatiría a los agentes de la Legión en una guerra de la que nadie debía saber nada. Un consejo oculto, reunido en los claros de Tirisfal donde los elfos se asentaron por primera vez en Lordaeron, elegía a cada Guardián. Cuando envejecía o se cansaba, transmitía el poder bajo su cuidadoso control." },
         { "Funcionó durante generaciones. Después eligieron a Aegwynn, que no tenía interés en ser controlada. Derrotó al avatar del propio Sargeras en el norte helado y creyó haber acabado con él. Casi novecientos años después, negándose a que el Consejo nombrara a su sucesor, tuvo un hijo para que heredara su poder. Lo llamó Medivh, 'guardián de los secretos' en la lengua de los altos elfos. Lo que guardó se cuenta en Karazhan." },
         { "Una orden que mantiene su guerra en secreto para todo el mundo difícilmente puede ser corregida cuando se equivoca, $gviajero:viajera;. El Consejo lo aprendió demasiado tarde." },
+      },
+    },
+    ["the-hidden-places"] = {
+      title = "Los lugares ocultos",
+      text = {
+        { "Esta melodía aparece en lugares que tienen poco en común: el Pico Nidal de los enanos Martillo Salvaje, el templo Vilrama de Jintha'Alor, La Grieta en Teldrassil, la orilla de Loch Modan. Otro es la Torre de Ilgalar, en las Montañas Crestagrana, donde vive el mago Morganth. Su rival lo llama cruel, y no he ido a comprobarlo." },
       },
     },
     ["the-high-mountains"] = {
@@ -6856,6 +6898,12 @@ ns.translate({
       text = {
         { "Al norte de Arathi están Tierras del Interior: altas colinas verdes, valles profundos, cascadas y bosque antiguo, una tierra salvaje que ningún rey ha gobernado de verdad. Aquí viven los enanos Martillo Salvaje, en Pico Nidal, con sus grifos. También los trols del bosque del antiguo imperio Amani, cuyos templos en ruinas coronan media comarca y cuyas tribus vivas aún dominan el resto." },
         { "Es una tierra hermosa y peligrosa. Lechubestias en los bosques, mocos en los pantanos, trols Secacorteza y Vilrama en las ruinas y, sobre el gran templo de Jintha'Alor, sacerdotes que aún sacrifican al dios de la sangre. Los jinetes de grifos de Pico Nidal lo vigilan todo desde el aire." },
+      },
+    },
+    ["the-horde-outposts"] = {
+      title = "Los puestos de la Horda",
+      text = {
+        { "El Cruce, el Campamento Grom'gol, el Puesto del Hachazo, el Aserradero Grito de Guerra y el Refugio Roca del Sol comparten una melodía. Son los fuertes de la Horda en los caminos, levantados allí donde hacía falta un muro, un maestro de vuelo y un cocinero. El Cruce está donde se juntan los caminos de Los Baldíos, y tarde o temprano todo el que anda por la región pasa por él." },
       },
     },
     ["the-jungle"] = {
@@ -6899,6 +6947,18 @@ ns.translate({
         { "Ventormenta dice que su rey ha desaparecido. Unos pocos saben algo más, y la pista que siguieron empieza nada menos que en una quesería. El obispo DeLavey, del Castillo de Ventormenta, dio a entender con discreción que un diplomático enviado a reunirse con Lady Jaina Valiente en Theramore nunca había llegado, y que sospechaba de los Defias. Su viejo amigo Jorgen, en el Valle de los Héroes, pasó el asunto a Elling Trias, un quesero del Distrito de Mercaderes con una red de contactos asombrosamente amplia." },
         { "La pista pasó por una reunión de los Defias en la Granja de Addle, en el Bosque del Ocaso, y por un pendenciero del Casco Antiguo llamado Dashel Puñopiedra, y siguió al norte hasta el Puerto de Menethil, donde un antiguo agente metido a tabernero señaló a un hombre que escuchaba demasiado de cerca. Tapoke Jahn, al que llaman El Flaco, contó el resto en cuanto le dieron una paliza. Los Defias no se habían llevado a un diplomático. Se habían llevado al rey, de camino a una reunión secreta en Theramore. El papel de El Flaco había sido subir a su hombre a bordo del barco del rey mientras este estaba en el puerto: un tal soldado Hendel, uno de los hombres de la propia guarnición de Theramore. Y los Defias, dijo, trabajaban con alguien más grande que ellos." },
         { "A Hendel lo encontraron de guardia en el pantano, a las afueras de Theramore, y se lo llevaron de vuelta a la isla para interrogarlo. Ahí termina el relato. El rey no ha aparecido, y nadie ha dicho para quién trabajaban los Defias. Ventormenta sigue teniendo un niño en el trono y un regente a su lado." },
+      },
+    },
+    ["the-moonwells"] = {
+      title = "Los pozos de la luna",
+      text = {
+        { "La Poza de la Luna, en Vallefresno, y El Santuario de Aessina comparten esta melodía, que vuelve a aparecer en algún rincón de Darnassus y de Ventormenta. Aessina es uno de los espíritus de la naturaleza de los elfos de la noche. Su santuario está en lo hondo de Vallefresno, y Therysil espera allí noticias de su hermana." },
+      },
+    },
+    ["the-ogre-mounds"] = {
+      title = "Los túmulos de los ogros",
+      text = {
+        { "El Túmulo de Vul'Gol en el Bosque del Ocaso y el Poblado Murohelecho en el Marjal Revolcafango comparten una melodía y muchísimos ogros. Los Puñastilla de Vul'Gol atacan a quien se acerque. En el Poblado Murohelecho, los ogros Quebrantarrocas sirven al Señor Supremo Mok'Morkk, título que le dio Rexxar. Los dragones negros de la progenie de Onyxia los echaron de su antiguo hogar, y no todos los ogros de allí han perdonado a Mok'Morkk que huyera." },
       },
     },
     ["the-open-plains"] = {
@@ -7033,6 +7093,12 @@ ns.translate({
         { "La caja contenía un Ojo de Paleth, uno de los orbes creados por sacerdotes humanos para brillar, ennegrecido por la maldición de lo que vio aquella noche. Los sacerdotes de Menethil no pudieron purificarlo. El arzobispo de Ventormenta sí. Una flota no siempre muere de una sola vez, $gviajero:viajera;. A veces hacen falta un sacerdote y un primer oficial obstinado para zanjar el asunto." },
       },
     },
+    ["the-twilight-shores"] = {
+      title = "Las costas del crepúsculo",
+      text = {
+        { "Costa Oscura, Claro de la Luna, las aldeas del Bosque de Argénteos y la costa de Los Humedales comparten esta melodía. Auberdine mira al Mar de la Bruma, y los druidas cuidan el Santuario de Remulos en Claro de la Luna. La Aldea Piroleña, en el Bosque de Argénteos, es otra historia. Sus vecinos son humanos de día y huargen Furia Lunar de noche, y la culpa es del encantamiento de Arugal." },
+      },
+    },
     ["the-valley-of-bones"] = {
       title = "El Valle de los Huesos",
       text = {
@@ -7055,6 +7121,12 @@ ns.translate({
         { "Mientras Thrall liberaba a su pueblo de los campos, el Rey Exánime levantaba una ciudadela sobre el glaciar de Corona de Hielo. Un reino de Rasganorte lo rechazó. Azjol-Nerub estaba bajo tierra, gobernado por los nerubianos, señores araña cuyos túneles recorrían medio continente. Eran inmunes a su peste y a su voz en sus mentes. Atacaban sus bastiones y desaparecían antes de que pudiera responder." },
         { "Ganó por desgaste. Con los señores del terror y un suministro interminable de muertos, invadió Azjol-Nerub y derribó sus templos sobre los señores araña. La peste no podía tomarlos vivos, pero su nigromancia podía alzarlos muertos. Así sirvieron los nerubianos al amo que habían combatido. También admiraba sus edificios: las fortalezas de la Plaga están hechas a su estilo." },
         { "Puedes ver ambas cosas en las Tierras de la Peste. Los malignos de la cripta que reptan entre la Plaga son nerubianos, o lo que queda de ellos. Los zigurats de los muertos son arquitectura de los señores araña. El Rey Exánime guarda cerca sus trofeos." },
+      },
+    },
+    ["the-webbed-dark"] = {
+      title = "La oscuridad tejida",
+      text = {
+        { "La Hoya Nocturácnidas en Tirisfal, la Penumbra de las Celerácnidas en el Bosque de Argénteos, la Gruta Narácnida en Teldrassil y las minas de los Páramos de Poniente y de Loch Modan comparten una melodía. A las arañas les gustan los agujeros oscuros, y los mineros los cavan. Unos y otras se encuentran más a menudo de lo que querrían." },
       },
     },
     ["the-windshapers"] = {
