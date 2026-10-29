@@ -4564,6 +4564,10 @@
    "forever": "Der Zwergendistrikt",
    "use": "Der Zwergendistrikt"
   },
+  "East Pylon Watchtower": {
+   "forever": "Die Ostpylonenwacht",
+   "use": "Die Ostpylonenwacht"
+  },
   "Eastern Kingdoms": {
    "classic": "Östliche Königreiche",
    "forever": "Östliche Königreiche",
@@ -4611,6 +4615,10 @@
   "Excavation Site: Wetlands": {
    "forever": "Ausgrabungsstätte: Sumpfland",
    "use": "Ausgrabungsstätte: Sumpfland"
+  },
+  "Fairweather Stables": {
+   "forever": "Die Ställe von Fairweather",
+   "use": "Die Ställe von Fairweather"
   },
   "Falaath Village": {
    "forever": "Falaath",
@@ -5416,6 +5424,10 @@
    "forever": "SI:7",
    "use": "SI:7"
   },
+  "Sanctum of Storms": {
+   "forever": "Sanktum der Stürme",
+   "use": "Sanktum der Stürme"
+  },
   "Sardor Isle": {
    "classic": "Insel Sardor",
    "forever": "Insel Sardor",
@@ -5481,6 +5493,10 @@
    "forever": "Die Schattenschmiede",
    "use": "Die Schattenschmiede"
   },
+  "Shadowgale Forest": {
+   "forever": "Schattenwindwald",
+   "use": "Schattenwindwald"
+  },
   "Shadowglen": {
    "classic": "Shadowglen",
    "forever": "Shadowglen",
@@ -5520,9 +5536,17 @@
    "forever": "Shen'darhochland",
    "use": "Shen'darhochland"
   },
+  "Shen'dar Village": {
+   "forever": "Shen'dar",
+   "use": "Shen'dar"
+  },
   "Shen'dralas": {
    "forever": "Shen'dralas",
    "use": "Shen'dralas"
+  },
+  "Shriekling Den": {
+   "forever": "Kreischlingsbau",
+   "use": "Kreischlingsbau"
   },
   "Shrine of Akir": {
    "forever": "Schrein von Akir",
@@ -5595,6 +5619,11 @@
    "classic": "Spalthufklippe",
    "forever": "Spalthufklippe",
    "use": "Spalthufklippe"
+  },
+  "Stables": {
+   "classic": "Ställe",
+   "forever": "Ställe",
+   "use": "Ställe"
   },
   "Stalker's Thicket": {
    "forever": "Pirscherdickicht",
@@ -6170,6 +6199,14 @@
    "forever": "Thelsamar",
    "use": "Thelsamar"
   },
+  "Thendal Grove": {
+   "forever": "Thendalhain",
+   "use": "Thendalhain"
+  },
+  "Thendal Standing Stones": {
+   "forever": "Die Menhire von Thendal",
+   "use": "Die Menhire von Thendal"
+  },
   "Thendal Village": {
    "forever": "Thendal",
    "use": "Thendal"
@@ -6362,6 +6399,10 @@
    "forever": "Holzfällerlager des Kriegshymnenklans",
    "use": "Holzfällerlager des Kriegshymnenklans"
   },
+  "West Pylon Watchtower": {
+   "forever": "Die Westpylonenwacht",
+   "use": "Die Westpylonenwacht"
+  },
   "Westbrook Garrison": {
    "classic": "Weststromgarnison",
    "forever": "Weststromgarnison",
@@ -6392,10 +6433,18 @@
    "forever": "Weißgipfelposten",
    "use": "Weißgipfelposten"
   },
+  "Windfield Orchard": {
+   "forever": "Obsthain der Windfields",
+   "use": "Obsthain der Windfields"
+  },
   "Windshear Crag": {
    "classic": "Die Scherwindklippe",
    "forever": "Die Scherwindklippe",
    "use": "Die Scherwindklippe"
+  },
+  "Windsong Lake": {
+   "forever": "Windweisensee",
+   "use": "Windweisensee"
   },
   "Winterspring": {
    "classic": "Winterspring",

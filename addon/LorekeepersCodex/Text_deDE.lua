@@ -5193,6 +5193,12 @@ ns.translate({
         { "Sein Fall war das Werk seiner eigenen Priester. Die Atal'ai holten den Blutgott Hakkar den Seelenschinder in die Welt, und sein Hunger nach Opfern brachte das Reich gegen sich selbst auf. Die Stämme erhoben sich, trieben die Atal'ai ins Exil und zerfielen. Was übrig blieb, wurde zu den Stämmen, die wir kennen: die Skullsplitter und die Bloodscalp im Dschungel, die Dunkelspeer, die mit Thrall fortgingen, und andere. Die Trolle haben nicht vergessen, was sie einmal waren." },
       },
     },
+    ["gustberry-lowlands-tune"] = {
+      title = "Böenbeerentiefland",
+      text = {
+        { "Das Böenbeerentiefland mit dem Obsthain der Windfields, den Ställen von Fairweather und der Ostpylonenwacht hat eine eigene Melodie. Hier liegen die Höfe der Insel. Die Wacht behält einen der Ankerpylonen im Auge, und auf Zephras nimmt niemand diese Aufgabe auf die leichte Schulter." },
+      },
+    },
     ["hakkar"] = {
       title = "Hakkar der Seelenschinder",
       text = {
@@ -6338,6 +6344,12 @@ ns.translate({
         { "Arugal zog sich mit den Worgen, die er seine Kinder nennt, hierher zurück. Die Festung heißt nun Burg Shadowfang, ein Bollwerk, das die Verlassenen an ihrer Südgrenze haben wollen. Ihre Todespirscher gingen hinein, um sie auszukundschaften, und sind nicht zurückgekehrt." },
       },
     },
+    ["shadowgale-forest-tune"] = {
+      title = "Schattenwindwald",
+      text = {
+        { "Der Schattenwindwald, Falaath und die Ruinen von Ban'aethal teilen sich eine Melodie, und keiner der drei Orte lädt zum Bleiben ein. Die Al'Aketh haben sich Falaath zu eigen gemacht. Ban'aethal steht leer, und was ihm beinahe zugestoßen wäre, ist die Warnung, mit der der Rest der Insel lebt." },
+      },
+    },
     ["shadowglen"] = {
       title = "Shadowglen",
       text = {
@@ -6391,6 +6403,12 @@ ns.translate({
         { "Ich werde mehr schreiben, wenn Reisende, die jenseits des Tals waren, zurückkehren und mir davon erzählen." },
       },
     },
+    ["shendar-highlands-tune"] = {
+      title = "Shen'darhochland",
+      text = {
+        { "Das Shen'darhochland teilt sich eine Melodie mit Shen'dar, dem Windweisensee, der Westpylonenwacht und zwei Gruppen von Menhiren, den Menhiren der Windweisen und den Menhiren der Warte. Der Kult griff einst die Wacht an, die den westlichen Pylon hütet. Wozu man die Steine aufstellte, hat mir niemand gesagt." },
+      },
+    },
     ["shendralar"] = {
       title = "Die Shen'dralar",
       text = {
@@ -6410,6 +6428,12 @@ ns.translate({
       text = {
         { "Der Schrein von Akir im Shen'darhochland ist die heilige Stätte der Al'Aketh und war der Sitz ihrer Anführerin, der Hohepriesterin Lorthuna. Um ihn einzunehmen, brauchte es den Hohen Orden, die Windformer und die Friedenswächter gemeinsam, was etwas über die Stärke des Kults verrät und noch mehr darüber, wie selten sich diese drei einig sind. Valennia Stormfist, die Hauptfrau der Friedenswächter, wurde im inneren Heiligtum schwer verwundet, und Lorthuna floh durch ein Portal zu den Türmen der Rohashi darüber." },
         { "Was auf den Türmen geschah, haben die Shen'dorei für uns nicht aufgeschrieben. Lorthuna ist von Zephras verschwunden, und der Kult hat seinen Kopf verloren. Doch die Schutzzauber, die die Insel vor Al'Akir verbargen, fielen mit ihr, und der Hochälteste will nicht so tun, als wüsste er, wie lange der Windlord brauchen wird, um es zu bemerken." },
+      },
+    },
+    ["shrine-of-akir-tune"] = {
+      title = "Schrein von Akir",
+      text = {
+        { "Der Schrein von Akir und das Sanktum der Stürme teilen sich vier Stücke. Der Kult, der sie hielt, betete zum Windlord, und die beiden Orden und die Friedenswächter, die ihm den Schrein abnahmen, sind sich sonst über kaum etwas einig. Ich wüsste gern, was man den Al'Aketh in diesen Räumen versprochen hat, um sie so sicher zu machen. Ich vermute, die Antwort würde mir nicht gefallen." },
       },
     },
     ["si-7"] = {
@@ -7309,6 +7333,12 @@ ns.translate({
         { "Die Gebirgsjäger hier sind dünn verteilt. Wenn Ihr einen starken Arm und einen freien Nachmittag habt, finden sie etwas für Euch zu tun." },
       },
     },
+    ["thendal-tune"] = {
+      title = "Thendal",
+      text = {
+        { "Thendal, der Thendalhain und die Menhire von Thendal teilen sich eine Melodie. Das Dorf bewahrt seine Geschichte hoch oben in seinem großen Baum auf, was mir ein vernünftiger Ort scheint, auf einer Insel, die schon einmal ein ganzes Dorf in einer einzigen Nacht räumen musste. Von allen Archiven, die ich kenne, ist es das am schwersten zu erreichende, und ich würde den Aufstieg trotzdem wagen." },
+      },
+    },
     ["theramore-isle"] = {
       title = "Die Insel Theramore",
       text = {
@@ -7500,6 +7530,12 @@ ns.translate({
       text = {
         { "Valanaar ist die Hauptstadt der Insel Zephras, an ihrem südöstlichen Rand, und der Sitz ihres Hohen Ältesten. An seinen Docks legen die Himmelsschiffe an: kleine fliegende Schiffe, die einst zwischen den Inseln der Shen'dorei verkehrten und nun zum ersten Mal hinab nach Azeroth fahren, nach Dalaran für den Hohen Orden und nach Mulgore für die Windformer." },
         { "Wenn Ihr durchkommt, schaut im Gasthaus vorbei. Oben bewahren die Shen'dorei einen Kristall, der den Aufstand ihrer Ahnen in Eldre'Thalas aus ihrer eigenen Sicht erzählt. Ich kenne nichts Älteres, das für sie spricht, und ich gäbe sehr viel darum, ihn zu hören." },
+      },
+    },
+    ["valanaar-tune"] = {
+      title = "Valanaar",
+      text = {
+        { "Valanaar hat drei eigene Stücke. Der Hochälteste regiert von dort aus, und von seinen Himmelsdocks brechen die Shen'dorei auf, wenn sie nach Azeroth hinabfahren, darum kommen mehr ihrer Reisenden durch Valanaar als durch jeden anderen Ort der Insel. Es ist das Erste, was die meisten Besucher von Zephras sehen, und das Letzte." },
       },
     },
     ["valley-of-kings"] = {
@@ -7720,6 +7756,12 @@ ns.translate({
         { "Die Insel Zephras ist eine Insel, die fliegt. Sie schwebt im Himmelswall, der Ebene der Luft, wohin die Windgeister die Shen'dorei vor langer Zeit trugen, und sie ist die Heimat der Himmelsgeborenen, die seit kurzem zu uns herabgekommen sind. Ihre Leute leben in Valanaar am südöstlichen Rand, in den Dörfern des Shen'darhochlands und in Thendal und auf den Höfen des Böenbeerentieflands." },
         { "Die Geister, die die Insel banden, verließen sie vor einigen Jahrhunderten. Ihre großen Ankerpylonen halten Zephras noch oben, doch ihre Magie wird unstet, und Ban'aethal begann eines Nachts in den Himmel zu fallen und musste vor dem Morgen geräumt werden. Seit einiger Zeit hat kein Himmelsschiff mehr zu den anderen Inseln übergesetzt, Anvilas und Siroccas, und es gibt Shen'dorei, die fürchten, sie seien alles, was von ihrem Volk übrig ist." },
         { "Ich habe nie dort gestanden, $gReisender:Reisende;, und ich beneide Euch ein wenig. Haltet Euch bitte von den Rändern fern." },
+      },
+    },
+    ["zephras-isle-tune"] = {
+      title = "Die Insel Zephras",
+      text = {
+        { "Ein großer Teil der Insel Zephras teilt sich eine Melodie, von den Himmelsdocks von Valanaar und den Türmen der Rohashi bis zum Kreischlingsbau und zur Nachtklauenhöhle. Wo ein Dorf oder eine heilige Stätte eigene Musik hat, übernimmt diese, und wo sie endet, kehrt jene zurück. Nicht viel anderes auf der Insel ist heutzutage so verlässlich." },
       },
     },
     ["zul-gurub-tune"] = {

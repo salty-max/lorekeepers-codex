@@ -5199,6 +5199,12 @@ ns.translate({
         { "Sa chute fut l'œuvre de ses propres prêtres. Les Atal'ai firent venir dans le monde le dieu du sang Hakkar l'Écorcheur d'âmes, et sa soif de sacrifices retourna l'empire contre lui-même. Les tribus se soulevèrent, chassèrent les Atal'ai en exil, et se séparèrent. Ce qui resta devint les tribus que nous connaissons : les Skullsplitter et les Bloodscalp dans la jungle, les Darkspear, partis avec Thrall, et d'autres. Les trolls n'ont pas oublié ce qu'ils étaient." },
       },
     },
+    ["gustberry-lowlands-tune"] = {
+      title = "Plaines Aérelles",
+      text = {
+        { "Les Plaines Aérelles, avec le Verger Champ-des-Vents, les Écuries Beautemps et la Tour de guet du pylône est, ont un air bien à elles. Ce sont les fermes de l'île. La tour de guet surveille l'un des pylônes d'ancrage, et sur l'île de Zéphras, personne ne prend cette tâche à la légère." },
+      },
+    },
     ["hakkar"] = {
       title = "Hakkar l'Écorcheur d'âmes",
       text = {
@@ -6344,6 +6350,12 @@ ns.translate({
         { "Arugal s'est retiré ici avec les worgens qu'il appelle ses enfants. La forteresse est désormais connue sous le nom de donjon d'Ombrecroc, une place forte que les Réprouvés veulent sur leur frontière sud. Leurs Traqueurs noirs y sont entrés en éclaireurs et ne sont pas revenus." },
       },
     },
+    ["shadowgale-forest-tune"] = {
+      title = "Forêt de Trombenoire",
+      text = {
+        { "La Forêt de Trombenoire, Falaath et les Ruines de Ban'aethal ont un air en commun, et aucun des trois n'est un endroit où s'installer. Les Al'Aketh ont fait de Falaath leur fief. Ban'aethal est vide, et ce qui a failli lui arriver est l'avertissement avec lequel vit le reste de l'île." },
+      },
+    },
     ["shadowglen"] = {
       title = "Sombrevallon",
       text = {
@@ -6397,6 +6409,12 @@ ns.translate({
         { "J'en écrirai davantage quand les voyageurs qui iront au-delà de la vallée reviendront me le raconter." },
       },
     },
+    ["shendar-highlands-tune"] = {
+      title = "Hautes-terres de Shen'dar",
+      text = {
+        { "Les Hautes-terres de Shen'dar ont un air en commun avec Shen'dar, le Lac Chantevent, la Tour de guet du pylône ouest et deux ensembles de pierres dressées, les Pierres dressées de Chantevent et les Pierres dressées surplombantes. Le culte a frappé un jour la tour qui garde le pylône de l'ouest. Personne ne m'a dit ce que les pierres devaient marquer." },
+      },
+    },
     ["shendralar"] = {
       title = "Les Shen'dralar",
       text = {
@@ -6416,6 +6434,12 @@ ns.translate({
       text = {
         { "Le sanctuaire d'Akir, dans les hautes-terres de Shen'dar, est le lieu saint des Al'Aketh, et fut le siège de leur cheffe, la grande prêtresse Lorthuna. Pour le prendre, il fallut l'Ordre suprême, les Sculpte-vents et les gardes-paix réunis, ce qui en dit long sur la force du culte, et plus encore sur la rareté des accords entre ces trois-là. Valennia Poing-Tempête, la capitaine des gardes-paix, fut grièvement blessée dans le sanctuaire intérieur, et Lorthuna s'enfuit par un portail vers les flèches Rohashi, au-dessus." },
         { "Ce qui s'est passé sur les flèches, les shen'dorei ne l'ont pas consigné pour nous. Lorthuna a quitté Zéphras et le culte a perdu sa tête. Mais les protections qui cachaient l'île à Al'Akir sont tombées avec elle, et le grand ancien ne prétendra pas savoir combien de temps le seigneur des Vents mettra à s'en apercevoir." },
+      },
+    },
+    ["shrine-of-akir-tune"] = {
+      title = "Sanctuaire d'Akir",
+      text = {
+        { "Le Sanctuaire d'Akir et le Sanctum des Tempêtes se partagent quatre morceaux. Le culte qui les tenait priait le seigneur des Vents, et les deux ordres et les gardes-paix qui lui ont pris le sanctuaire ne s'entendent sur presque rien d'autre. J'aimerais savoir ce qu'on promettait aux Al'Aketh dans ces salles pour les rendre si sûrs d'eux. Je soupçonne que la réponse ne me plairait pas." },
       },
     },
     ["si-7"] = {
@@ -7315,6 +7339,12 @@ ns.translate({
         { "Les montagnards d'ici sont débordés. Si vous avez le bras solide et un après-midi de libre, ils vous trouveront de quoi faire." },
       },
     },
+    ["thendal-tune"] = {
+      title = "Thendal",
+      text = {
+        { "Thendal, le Bosquet de Thendal et les Pierres dressées de Thendal jouent le même thème. Le village garde son histoire tout en haut de son grand arbre, ce qui me semble un endroit raisonnable sur une île qui a déjà dû vider tout un village en une seule nuit. De toutes les archives que je connais, c'est la plus difficile d'accès, et je ferais tout de même l'ascension." },
+      },
+    },
     ["theramore-isle"] = {
       title = "Île de Theramore",
       text = {
@@ -7506,6 +7536,12 @@ ns.translate({
       text = {
         { "Valanaar est la capitale de l'île de Zéphras, sur sa bordure sud-est, et le siège de son grand ancien. Les fend-ciel accostent à ses quais : de petits navires volants qui reliaient autrefois les îles des shen'dorei et qui, pour la première fois, descendent vers Azeroth, à Dalaran pour l'Ordre suprême et en Mulgore pour les Sculpte-vents." },
         { "Si vous y passez, entrez à l'auberge Calmebrise. À l'étage, les shen'dorei conservent un cristal qui raconte la rébellion de leurs ancêtres à Eldre'Thalas de leur propre point de vue. Je ne connais rien de plus ancien qui parle pour eux, et je donnerais beaucoup pour l'entendre." },
+      },
+    },
+    ["valanaar-tune"] = {
+      title = "Valanaar",
+      text = {
+        { "Valanaar a trois morceaux bien à elle. Le grand ancien gouverne depuis la ville, et c'est de ses quais aériens que partent les shen'dorei quand ils descendent vers Azeroth, si bien que leurs voyageurs passent par là plus que partout ailleurs sur l'île. C'est le premier visage de Zéphras que voient la plupart des visiteurs, et le dernier." },
       },
     },
     ["valley-of-kings"] = {
@@ -7726,6 +7762,12 @@ ns.translate({
         { "L'île de Zéphras est une île qui vole. Elle flotte dans le Mur-Céleste, le plan élémentaire de l'air, où les esprits du vent emportèrent jadis les shen'dorei, et c'est le foyer des éolides qui sont récemment descendus jusqu'à nous. Son peuple vit à Valanaar, sur la bordure sud-est, dans les villages des hautes-terres de Shen'dar et à Thendal, et dans les fermes des Plaines Aérelles." },
         { "Les esprits qui liaient l'île l'ont quittée il y a quelques siècles. Leurs grands pylônes d'ancrage maintiennent encore Zéphras dans les airs, mais leur magie devient instable, et une nuit, Ban'aethal a commencé à tomber dans le ciel et a dû être évacuée avant le matin. Aucun fend-ciel n'a rejoint les autres îles, Anvilas et Siroccas, depuis un certain temps, et certains shen'dorei craignent d'être tout ce qui reste de leur peuple." },
         { "Je n'y ai jamais mis les pieds, $gvoyageur:voyageuse;, et je vous envie un peu. Tenez-vous loin des bords." },
+      },
+    },
+    ["zephras-isle-tune"] = {
+      title = "Île de Zéphras",
+      text = {
+        { "Une grande partie de l'île de Zéphras partage un même air, des Quais aériens de Valanaar aux Flèches Rohashi, de la Tanière des criailleuses à la Caverne de la Noctegriffe. Là où un village ou un lieu saint a sa propre musique, celle-ci prend le relais, et là où elle s'arrête, celui-ci revient. Peu de choses sur l'île sont aussi fiables, ces temps-ci." },
       },
     },
     ["zul-gurub-tune"] = {

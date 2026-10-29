@@ -4678,6 +4678,10 @@
    "forever": "Distrito de los Enanos",
    "use": "Distrito de los Enanos"
   },
+  "East Pylon Watchtower": {
+   "forever": "Torre de vigilancia del pilón del este",
+   "use": "Torre de vigilancia del pilón del este"
+  },
   "Eastern Kingdoms": {
    "classic": "Reinos del Este",
    "forever": "Reinos del Este",
@@ -4725,6 +4729,10 @@
   "Excavation Site: Wetlands": {
    "forever": "Excavación: Los Humedales",
    "use": "Excavación: Los Humedales"
+  },
+  "Fairweather Stables": {
+   "forever": "Establos de Buentiempo",
+   "use": "Establos de Buentiempo"
   },
   "Falaath Village": {
    "forever": "Aldea Falaath",
@@ -5530,6 +5538,10 @@
    "forever": "IS:8",
    "use": "IS:8"
   },
+  "Sanctum of Storms": {
+   "forever": "Sagrario de las Tormentas",
+   "use": "Sagrario de las Tormentas"
+  },
   "Sardor Isle": {
    "classic": "Isla de Sardor",
    "forever": "Isla de Sardor",
@@ -5595,6 +5607,10 @@
    "forever": "Ciudad Forjatiniebla",
    "use": "Ciudad Forjatiniebla"
   },
+  "Shadowgale Forest": {
+   "forever": "Bosque Ventosombra",
+   "use": "Bosque Ventosombra"
+  },
   "Shadowglen": {
    "classic": "Cañada Umbría",
    "forever": "Cañada Umbría",
@@ -5634,9 +5650,17 @@
    "forever": "Tierras Altas de Shen'dar",
    "use": "Tierras Altas de Shen'dar"
   },
+  "Shen'dar Village": {
+   "forever": "Aldea Shen'dar",
+   "use": "Aldea Shen'dar"
+  },
   "Shen'dralas": {
    "forever": "Shen'dralas",
    "use": "Shen'dralas"
+  },
+  "Shriekling Den": {
+   "forever": "Guarida de Chilladoras",
+   "use": "Guarida de Chilladoras"
   },
   "Shrine of Akir": {
    "forever": "Santuario de Akir",
@@ -5709,6 +5733,11 @@
    "classic": "Risco Pezuña Quebrada",
    "forever": "Risco Pezuña Quebrada",
    "use": "Risco Pezuña Quebrada"
+  },
+  "Stables": {
+   "classic": "Establo",
+   "forever": "Establo",
+   "use": "Establo"
   },
   "Stalker's Thicket": {
    "forever": "Fronda del Acechador",
@@ -6284,6 +6313,14 @@
    "forever": "Thelsamar",
    "use": "Thelsamar"
   },
+  "Thendal Grove": {
+   "forever": "Arboleda Thendal",
+   "use": "Arboleda Thendal"
+  },
+  "Thendal Standing Stones": {
+   "forever": "Piedras verticales de Thendal",
+   "use": "Piedras verticales de Thendal"
+  },
   "Thendal Village": {
    "forever": "Thendal",
    "use": "Thendal"
@@ -6476,6 +6513,10 @@
    "forever": "Aserradero Grito de Guerra",
    "use": "Aserradero Grito de Guerra"
   },
+  "West Pylon Watchtower": {
+   "forever": "Torre de vigilancia del pilón del oeste",
+   "use": "Torre de vigilancia del pilón del oeste"
+  },
   "Westbrook Garrison": {
    "classic": "Cuartel Arroyoeste",
    "forever": "Cuartel de Arroyoeste",
@@ -6506,10 +6547,18 @@
    "forever": "Campamento del Tramo Blanco",
    "use": "Campamento del Tramo Blanco"
   },
+  "Windfield Orchard": {
+   "forever": "Huerto de los Campovento",
+   "use": "Huerto de los Campovento"
+  },
   "Windshear Crag": {
    "classic": "Risco Cortaviento",
    "forever": "Risco Cortaviento",
    "use": "Risco Cortaviento"
+  },
+  "Windsong Lake": {
+   "forever": "Lago Canzalvaje",
+   "use": "Lago Canzalvaje"
   },
   "Winterspring": {
    "classic": "Cuna del Invierno",

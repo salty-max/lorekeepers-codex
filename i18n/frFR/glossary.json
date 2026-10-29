@@ -4558,6 +4558,10 @@
    "forever": "Quartier des Nains",
    "use": "Quartier des Nains"
   },
+  "East Pylon Watchtower": {
+   "forever": "Tour de guet du pylône est",
+   "use": "Tour de guet du pylône est"
+  },
   "Eastern Kingdoms": {
    "classic": "Royaumes de l'est",
    "forever": "Royaumes de l'est",
@@ -4605,6 +4609,10 @@
   "Excavation Site: Wetlands": {
    "forever": "Excavations : les Paluns",
    "use": "Excavations : les Paluns"
+  },
+  "Fairweather Stables": {
+   "forever": "Écuries Beautemps",
+   "use": "Écuries Beautemps"
   },
   "Falaath Village": {
    "forever": "Falaath",
@@ -5410,6 +5418,10 @@
    "forever": "SI:7",
    "use": "SI:7"
   },
+  "Sanctum of Storms": {
+   "forever": "Sanctum des Tempêtes",
+   "use": "Sanctum des Tempêtes"
+  },
   "Sardor Isle": {
    "classic": "Ile de Sardor",
    "forever": "Ile de Sardor",
@@ -5475,6 +5487,10 @@
    "forever": "Ville des Ombreforges",
    "use": "Ville des Ombreforges"
   },
+  "Shadowgale Forest": {
+   "forever": "Forêt de Trombenoire",
+   "use": "Forêt de Trombenoire"
+  },
   "Shadowglen": {
    "classic": "Sombrevallon",
    "forever": "Sombrevallon",
@@ -5514,9 +5530,17 @@
    "forever": "Hautes-terres de Shen'dar",
    "use": "Hautes-terres de Shen'dar"
   },
+  "Shen'dar Village": {
+   "forever": "Shen'dar",
+   "use": "Shen'dar"
+  },
   "Shen'dralas": {
    "forever": "Shen'dralas",
    "use": "Shen'dralas"
+  },
+  "Shriekling Den": {
+   "forever": "Tanière des criailleuses",
+   "use": "Tanière des criailleuses"
   },
   "Shrine of Akir": {
    "forever": "Sanctuaire d'Akir",
@@ -5589,6 +5613,11 @@
    "classic": "Combe du Sabot fendu",
    "forever": "Combe du Sabot fendu",
    "use": "Combe du Sabot fendu"
+  },
+  "Stables": {
+   "classic": "Ecuries",
+   "forever": "Ecuries",
+   "use": "Ecuries"
   },
   "Stalker's Thicket": {
    "forever": "Fourré du Traqueur",
@@ -6164,6 +6193,14 @@
    "forever": "Thelsamar",
    "use": "Thelsamar"
   },
+  "Thendal Grove": {
+   "forever": "Bosquet de Thendal",
+   "use": "Bosquet de Thendal"
+  },
+  "Thendal Standing Stones": {
+   "forever": "Pierres dressées de Thendal",
+   "use": "Pierres dressées de Thendal"
+  },
   "Thendal Village": {
    "forever": "Thendal",
    "use": "Thendal"
@@ -6356,6 +6393,10 @@
    "forever": "Camp de bûcherons chanteguerre",
    "use": "Camp de bûcherons chanteguerre"
   },
+  "West Pylon Watchtower": {
+   "forever": "Tour de guet du pylône ouest",
+   "use": "Tour de guet du pylône ouest"
+  },
   "Westbrook Garrison": {
    "classic": "Garnison du ruisseau de l'ouest",
    "forever": "Garnison du ruisseau de l'ouest",
@@ -6386,10 +6427,18 @@
    "forever": "Poste de Blanc-relais",
    "use": "Poste de Blanc-relais"
   },
+  "Windfield Orchard": {
+   "forever": "Verger Champ-des-Vents",
+   "use": "Verger Champ-des-Vents"
+  },
   "Windshear Crag": {
    "classic": "Combe des Cisailles",
    "forever": "Combe des Cisailles",
    "use": "Combe des Cisailles"
+  },
+  "Windsong Lake": {
+   "forever": "Lac Chantevent",
+   "use": "Lac Chantevent"
   },
   "Winterspring": {
    "classic": "Berceau-de-l'Hiver",

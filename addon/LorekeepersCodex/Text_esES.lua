@@ -5172,6 +5172,12 @@ ns.translate({
         { "Su caída fue obra de sus propios sacerdotes. Los Atal'ai trajeron al mundo al dios de la sangre Hakkar el Cazador de Almas. Su hambre de sacrificios volvió al imperio contra sí mismo. Las tribus se alzaron, expulsaron a los Atal'ai y se separaron. Lo que quedó se convirtió en las tribus que conocemos: Machacacráneos y Cabellesangre en la jungla, Lanza Negra que partieron con Thrall, y otras. Los trols no han olvidado lo que fueron." },
       },
     },
+    ["gustberry-lowlands-tune"] = {
+      title = "Tierras Bajas de los Soplabayas",
+      text = {
+        { "Las Tierras Bajas de los Soplabayas, con el Huerto de los Campovento, los Establos de Buentiempo y la Torre de vigilancia del pilón del este, tienen su propia melodía. Son las granjas de la isla. La torre vigila uno de los pilones de anclaje, y en Zephras nadie se toma ese trabajo a la ligera." },
+      },
+    },
     ["hakkar"] = {
       title = "Hakkar el Cazador de Almas",
       text = {
@@ -6317,6 +6323,12 @@ ns.translate({
         { "Arugal se refugió aquí con los ferocanis a los que llama sus hijos. La fortaleza se conoce ahora como Castillo de Colmillo Oscuro, un bastión que los Renegados quieren para su frontera sur. Sus mortacechadores entraron a explorarlo y no han regresado." },
       },
     },
+    ["shadowgale-forest-tune"] = {
+      title = "Bosque Ventosombra",
+      text = {
+        { "El Bosque Ventosombra, la Aldea Falaath y las Ruinas de Ban'aethal comparten una melodía, y ninguno de los tres es un sitio para quedarse. Los Al'Aketh han hecho suya Falaath. Ban'aethal está vacía, y lo que estuvo a punto de pasarle es la advertencia con la que vive el resto de la isla." },
+      },
+    },
     ["shadowglen"] = {
       title = "Cañada Umbría",
       text = {
@@ -6370,6 +6382,12 @@ ns.translate({
         { "Escribiré más cuando vuelvan a contármelo los viajeros que vayan más allá del valle." },
       },
     },
+    ["shendar-highlands-tune"] = {
+      title = "Tierras Altas de Shen'dar",
+      text = {
+        { "Las Tierras Altas de Shen'dar comparten una melodía con la Aldea Shen'dar, el Lago Canzalvaje, la Torre de vigilancia del pilón del oeste y dos grupos de piedras verticales, las de Son del Viento y las del mirador. El culto atacó una vez la torre que guarda el pilón del oeste. Nadie me ha dicho qué debían señalar las piedras." },
+      },
+    },
     ["shendralar"] = {
       title = "Los Shen'dralar",
       text = {
@@ -6389,6 +6407,12 @@ ns.translate({
       text = {
         { "El Santuario de Akir, en Tierras Altas de Shen'dar, es el lugar sagrado de los Al'Aketh y fue la sede de su dirigente, la suma sacerdotisa Lorthuna. Para tomarlo hicieron falta la Orden Eminente, los Formavientos y los pacificadores juntos, lo que dice algo de la fuerza del culto y más de lo poco que esos tres coinciden. Valennia Puñotormenta, capitana de los pacificadores, quedó gravemente herida en el santuario interior. Lorthuna huyó por un portal a las Agujas Rohashi de arriba." },
         { "Los shen'dorei no nos han dejado por escrito lo ocurrido en las agujas. Lorthuna ya no está en Zephras y el culto ha perdido su cabeza. Pero con ella cayeron las protecciones que ocultaban la isla de Al'Akir, y el sumo anciano no pretende saber cuánto tardará el Señor del Viento en darse cuenta." },
+      },
+    },
+    ["shrine-of-akir-tune"] = {
+      title = "Santuario de Akir",
+      text = {
+        { "El Santuario de Akir y el Sagrario de las Tormentas comparten cuatro piezas. El culto que los ocupaba rezaba al Señor del Viento, y las dos órdenes y los pacificadores que le arrebataron el santuario apenas coinciden en nada más. Me gustaría saber qué les prometieron a los Al'Aketh en esas salas para que estuvieran tan seguros. Sospecho que la respuesta no me gustaría." },
       },
     },
     ["si-7"] = {
@@ -7288,6 +7312,12 @@ ns.translate({
         { "Los montaraces no dan abasto. Si tienes un brazo fuerte y una tarde libre, te encontrarán algo que hacer." },
       },
     },
+    ["thendal-tune"] = {
+      title = "Thendal",
+      text = {
+        { "Thendal, la Arboleda Thendal y las Piedras verticales de Thendal comparten una melodía. La aldea guarda su historia en lo alto de su gran árbol, lo que me parece un lugar sensato en una isla que ya tuvo que vaciar una aldea entera en una sola noche. De todos los archivos que conozco, es el más difícil de alcanzar, y aun así haría la subida." },
+      },
+    },
     ["theramore-isle"] = {
       title = "Isla de Theramore",
       text = {
@@ -7479,6 +7509,12 @@ ns.translate({
       text = {
         { "Valanaar es la capital de la Isla de Zephras, en su extremo sureste, y la sede del sumo anciano. En sus muelles atracan los cortacielos: pequeños barcos voladores que antes viajaban entre las islas shen'dorei y ahora, por primera vez, descienden a Azeroth, a Dalaran para la Orden Eminente y a Mulgore para los Formavientos." },
         { "Si pasas por allí, entra en la Posada Brisa Calmada. Arriba, los shen'dorei guardan un cristal que cuenta la rebelión de sus antepasados en Eldre'Thalas desde su propia perspectiva. No conozco nada más antiguo que hable por ellos y daría mucho por oírlo." },
+      },
+    },
+    ["valanaar-tune"] = {
+      title = "Valanaar",
+      text = {
+        { "Valanaar tiene tres piezas propias. El sumo anciano gobierna desde allí, y de sus muelles aéreos parten los shen'dorei cuando bajan a Azeroth, así que por ella pasan más viajeros suyos que por ningún otro lugar de la isla. Es lo primero que la mayoría de los visitantes ve de Zephras, y lo último." },
       },
     },
     ["valley-of-kings"] = {
@@ -7699,6 +7735,12 @@ ns.translate({
         { "La Isla de Zephras es una isla que vuela. Está suspendida en Muro Celeste, el plano elemental del aire, adonde los espíritus del viento llevaron a los shen'dorei hace mucho. Es el hogar de los cielonatos que han descendido hasta nosotros hace poco. Su gente vive en Valanaar, al sureste, en las aldeas de Tierras Altas de Shen'dar y en Thendal, y en las granjas de Tierras Bajas de los Soplabayas." },
         { "Los espíritus que mantenían unida la isla se marcharon hace algunos siglos. Sus grandes pilones de anclaje aún sostienen Zephras, pero su magia es inestable. Una noche, Ban'aethal empezó a caer al cielo y tuvieron que evacuarlo antes del amanecer. Hace tiempo que ningún cortacielos cruza a las otras islas, Anvilas y Siroccas. Algunos shen'dorei temen ser todo lo que queda de su pueblo." },
         { "Nunca he estado allí y te envidio un poco, $gviajero:viajera;. Mantente lejos de los bordes." },
+      },
+    },
+    ["zephras-isle-tune"] = {
+      title = "Isla de Zephras",
+      text = {
+        { "Buena parte de la Isla de Zephras comparte una melodía, desde los Muelles Aéreos de Valanaar y las Agujas Rohashi hasta la Guarida de Chilladoras y la Caverna Garranoche. Donde una aldea o un lugar sagrado tiene música propia, esa toma el relevo, y donde termina vuelve esta. Pocas cosas en la isla son tan fiables hoy en día." },
       },
     },
     ["zul-gurub-tune"] = {
