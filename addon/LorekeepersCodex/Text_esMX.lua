@@ -3948,6 +3948,12 @@ ns.translate({
         { "El propio Ragnaros, según se supo, había enviado un embajador a Angor para supervisar las excavaciones de los Forjatiniebla. Cuando cayó el embajador Infernus, el clan perdió su vínculo con la Cumbre de Roca Negra. Después, Belgrum envió al siguiente viajero tras el último sueño de Dedomaza, la tablilla de Voluntad, un fragmento de piedra que, según la leyenda, los titanes grabaron con magia para dar voluntad propia a sus creaciones. Dedomaza murió por ella sin llegar a verla nunca." },
       },
     },
+    ["anvilmar"] = {
+      title = "Yunquemar",
+      text = {
+        { "Yunquemar, entre las nieves de Dun Morogh, es donde empiezan muchos jóvenes enanos y gnomos, y en algún rincón de su interior se encuentran dos de las piezas de Forjaz. Thran, el instructor de guerreros, tiene allí su sala. Es un buen lugar para empezar, y uno frío." },
+      },
+    },
     ["arathi-basin"] = {
       title = "Cuenca de Arathi",
       text = {
@@ -4194,6 +4200,12 @@ ns.translate({
       text = {
         { "Bahía del Botín se aferra a los riscos de una cueva marina en el extremo sur de Tuercespina. Casas de madera, pilotes y puentes de cuerda se apiñan en su puerto. Las fauces abiertas de un tiburón enorme señalan la entrada. El barón Revilgaz lo administra para el Cártel Bonvapor, interesado en mantenerlo neutral y rentable." },
         { "Sus Asaltantes Aguasnegras también tienen aquí su hogar. Están en guerra con los Bucaneros Velasangre, que quieren muerto al barón. Un comerciante puede encontrar refugio en la bahía y un viajero armado puede encontrar empleo en la disputa de fuera. Revilgaz tiene negocios para ambos." },
+      },
+    },
+    ["bough-shadow"] = {
+      title = "Talloumbrío",
+      text = {
+        { "Talloumbrío, en el extremo oriental de Vallefresno, comparte una melodía con la Canción del Bosque, muy cerca, y esa melodía reaparece en algún rincón de las tres capitales de la Alianza. Talloumbrío es uno de los cuatro portales del sueño de Azeroth. Los dragonantes que lo guardan llevan ahora la corrupción de la Pesadilla, y es peor de lo que aparenta." },
       },
     },
     ["boulderslide-ravine"] = {
@@ -5749,6 +5761,12 @@ ns.translate({
         { "La abadía instruye ahora a los reclutas del reino tanto en las armas como en la fe. Ambas cosas hacen falta muy cerca: los kóbolds ocupan la mina, los lobos recorren el valle y los ladrones Defias se han apoderado de los viñedos." },
       },
     },
+    ["northshire-tune"] = {
+      title = "Abadía de Villanorte",
+      text = {
+        { "La Abadía de Villanorte, a la entrada del Bosque de Elwynn, toma prestada una de las piezas de Ventormenta, igual que el Refugio de la Zaga, en las Tierras Altas de Arathi, para quien llega allí. La pieza vuelve a aparecer en algún rincón de Forjaz y en La Basílica Escarlata. La mayoría de los jóvenes aventureros de Ventormenta empiezan aquí. La abadía guarda además una biblioteca, y su encargado, el hermano Paxton, hace meses tomó prestado un libro sobre la resistencia del hierro para copiarlo. El dueño del libro sigue esperándolo." },
+      },
+    },
     ["northwatch-hold"] = {
       title = "Fuerte del Norte",
       text = {
@@ -6890,10 +6908,22 @@ ns.translate({
         { "El Cruce, el Campamento Grom'gol, el Puesto del Hachazo, el Aserradero Grito de Guerra y el Refugio Roca del Sol comparten una melodía. Son los fuertes de la Horda en los caminos, levantados allí donde hacía falta un muro, un maestro de vuelo y un cocinero. El Cruce está donde se juntan los caminos de Los Baldíos, y tarde o temprano todo el que anda por la región pasa por él." },
       },
     },
+    ["the-inns"] = {
+      title = "Las tabernas",
+      text = {
+        { "La Destilería Cebatruenos en Kharanos y la Pensión La Cebada en Loch Modan comparten una melodía, y el Mesón La Horca de los Renegados, en Rémol, tiene la suya. La primera vuelve a aparecer en algún rincón de Ventormenta, Forjaz, Villa del Lago, Dun Modr y el Mesón Aguahonda. Los Cebatruenos hacen buena cerveza, y a sus rivales se les ha visto colar un barril propio en su bodega. La Guardia de la Muerte de Rémol encierra a sus prisioneros en la bodega del Mesón La Horca, lo que es una excelente razón para beber en la planta de arriba." },
+      },
+    },
     ["the-jungle"] = {
       title = "La jungla",
       text = {
         { "La misma melodía cubre la Vega de Tuercespina, Feralas y las ruinas trol de Zul'Gurub y del Templo de Atal'Hakkar. Los trols Gurubashi gobernaron en otro tiempo esta jungla desde su gran ciudad. Su imperio ha desaparecido, los árboles no." },
+      },
+    },
+    ["the-keeps"] = {
+      title = "Las fortalezas",
+      text = {
+        { "El Castillo de Stromgarde en las Tierras Altas de Arathi, el Fuerte de Tiragarde en la costa de Durotar y el Cuartel de Arroyoeste en el Bosque de Elwynn llevan piezas de la música de Ventormenta, y Stromgarde saluda cada llegada con una más. Stromgarde fue el reino de los Aterratrols, y una tumba de los Aterratrols sigue en el castillo. Tiragarde es un fuerte de Kul Tiras levantado en la misma costa de los orcos. La Horda lo tomó una vez, y los hombres del almirante Valiente lo han recuperado." },
       },
     },
     ["the-lich-king"] = {
@@ -6977,6 +7007,12 @@ ns.translate({
       text = {
         { "Hace mil años, los qiraji y sus enjambres silítidos salieron de Ahn'Qiraj y cayeron sobre Kalimdor. Los elfos de la noche los combatieron en la Guerra del Mar de Dunas. No podían ganarla solos. Fandral Corzocelada, que los dirigía, perdió a su hijo Valstann ante los qiraji: lo capturaron y mataron ante sus ojos." },
         { "Los dragones los salvaron. Llegaron los vuelos Bronce, Rojo, Azul y Verde y rechazaron a los insectos hasta su ciudad. Con su magia, los elfos de la noche levantaron un gran muro de piedra y una barrera en el sur de Silithus, el Muro del Escarabajo, y los encerraron. Los muertos de aquella guerra yacen fuera, en Sosiego del Valor." },
+      },
+    },
+    ["the-scarred-places"] = {
+      title = "Los lugares marcados",
+      text = {
+        { "La Guarida de Onyxia en el Marjal Revolcafango, la Escara Impía en Las Tierras Devastadas, el Barranco Rompesombras en Desolace, La Vega de Cristal en Silithus y los Acantilados Tormentosos comparten una pieza tomada de Los Baldíos. Cada lugar tiene sus problemas: un dragón negro en el primero, Lord Kazzak y sus demonios en el segundo, los invocadores del Filo Ardiente en el tercero. En el cuarto, el Alto Señor Demitrian espera a quien tenga el valor de alzar Trueno Furioso." },
       },
     },
     ["the-scepter-of-the-shifting-sands"] = {
@@ -7075,6 +7111,12 @@ ns.translate({
         { "Los pecios de la costa norte de Los Humedales fueron la Tercera Flota de Kul Tiras. En su último viaje, dragones rojos, montados por orcos, la sorprendieron frente a esta costa y la incendiaron y hundieron allí mismo. Los de Kul Tiras la llaman la Flota Condenada." },
         { "Un hombre salió con vida: Fitzsimmons, antiguo primer oficial de la Señora de las Olas, que bebe en el Puerto de Menethil y cuenta la historia por una jarra. No todos sus compañeros descansan. Algo viajaba a bordo del Intrépido, encerrado en la caja fuerte del capitán, y su poder mantiene a las tripulaciones ahogadas caminando por las cubiertas podridas. El capitán Halyndor aún recorre su barco con la llave." },
         { "La caja contenía un Ojo de Paleth, uno de los orbes creados por sacerdotes humanos para brillar, ennegrecido por la maldición de lo que vio aquella noche. Los sacerdotes de Menethil no pudieron purificarlo. El arzobispo de Ventormenta sí. Una flota no siempre muere de una sola vez, $gviajero:viajera;. A veces hacen falta un sacerdote y un primer oficial obstinado para zanjar el asunto." },
+      },
+    },
+    ["the-troll-villages"] = {
+      title = "Los poblados trols",
+      text = {
+        { "El Poblado Sen'jin en Durotar, Malaka'jin en la Sierra Espolón, la Aldea Cazasombras en Desolace y la Avanzada de Zoram'gar en Vallefresno comparten una melodía, y los trols de la Horda han hecho su hogar en casi todos. La tribu Lanza Negra se marchó con Thrall, y el Poblado Sen'jin, en la costa de Durotar, es hoy su hogar. Los Sangrapellejo de Tuercespina todavía cuentan a los Lanza Negra entre sus enemigos." },
       },
     },
     ["the-twilight-shores"] = {

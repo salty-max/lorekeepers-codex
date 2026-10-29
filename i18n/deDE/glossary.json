@@ -900,6 +900,11 @@
    "forever": "Bruder Nimetz",
    "use": "Bruder Nimetz"
   },
+  "Brother Paxton": {
+   "classic": "Bruder Paxton",
+   "forever": "Bruder Paxton",
+   "use": "Bruder Paxton"
+  },
   "Brother Ravenoak": {
    "classic": "Bruder Ravenoak",
    "forever": "Bruder Ravenoak",
@@ -4661,6 +4666,11 @@
    "forever": "Flammenkamm",
    "use": "Flammenkamm"
   },
+  "Forest Song": {
+   "classic": "Forest Song",
+   "forever": "Forest Song",
+   "use": "Forest Song"
+  },
   "Forlorn Gardens": {
    "forever": "Verlorene Gärten",
    "use": "Verlorene Gärten"
@@ -4836,11 +4846,6 @@
    "forever": "Der Eisenwald",
    "use": "Der Eisenwald"
   },
-  "Isle of Dread": {
-   "classic": "Die Insel des Schreckens",
-   "forever": "Die Insel des Schreckens",
-   "use": "Die Insel des Schreckens"
-  },
   "Itharius's Cave": {
    "classic": "Itharius' Höhle",
    "forever": "Itharius' Höhle",
@@ -4991,6 +4996,11 @@
    "classic": "Magram",
    "forever": "Magram",
    "use": "Magram"
+  },
+  "Malaka'jin": {
+   "classic": "Malaka'jin",
+   "forever": "Malaka'jin",
+   "use": "Malaka'jin"
   },
   "Mannoroc Coven": {
    "classic": "Mannorocs Koven",
@@ -5411,6 +5421,11 @@
    "forever": "Schattenfeste",
    "use": "Schattenfeste"
   },
+  "Shadowbreak Ravine": {
+   "classic": "Shadowbreakklamm",
+   "forever": "Shadowbreakklamm",
+   "use": "Shadowbreakklamm"
+  },
   "Shadowfang Keep": {
    "classic": "Burg Shadowfang",
    "forever": "Burg Shadowfang",
@@ -5600,6 +5615,11 @@
    "forever": "Burg Stormwind",
    "use": "Burg Stormwind"
   },
+  "Stoutlager Inn": {
+   "classic": "Gasthof Zum Starkbier-Lager",
+   "forever": "Gasthof Zum Starkbier-Lager",
+   "use": "Gasthof Zum Starkbier-Lager"
+  },
   "Strahnbrad": {
    "classic": "Strahnbrad",
    "forever": "Strahnbrad",
@@ -5754,6 +5774,11 @@
    "classic": "Crossroads",
    "forever": "Crossroads",
    "use": "Crossroads"
+  },
+  "The Crystal Vale": {
+   "classic": "Das Kristalltal",
+   "forever": "Das Kristalltal",
+   "use": "Das Kristalltal"
   },
   "The Dagger Hills": {
    "classic": "Die Dolchhügel",
@@ -6325,6 +6350,11 @@
    "classic": "Ruinen von Ziata'jai",
    "forever": "Ruinen von Ziata'jai",
    "use": "Ruinen von Ziata'jai"
+  },
+  "Zoram'gar Outpost": {
+   "classic": "Zoram'gar-Außenposten",
+   "forever": "Zoram'gar-Außenposten",
+   "use": "Zoram'gar-Außenposten"
   },
   "Zul'Farrak": {
    "classic": "Zul'Farrak",

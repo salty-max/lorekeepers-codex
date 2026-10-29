@@ -1018,6 +1018,11 @@
    "forever": "Hermano Nimetz",
    "use": "Hermano Nimetz"
   },
+  "Brother Paxton": {
+   "classic": "Hermano Paxton",
+   "forever": "Hermano Paxton",
+   "use": "Hermano Paxton"
+  },
   "Brother Ravenoak": {
    "classic": "Hermano Roblecuervo",
    "forever": "Hermano Roblecuervo",
@@ -4775,6 +4780,11 @@
    "forever": "Peñasco Llamarada",
    "use": "Peñasco Llamarada"
   },
+  "Forest Song": {
+   "classic": "Canción del Bosque",
+   "forever": "Canción del Bosque",
+   "use": "Canción del Bosque"
+  },
   "Forlorn Gardens": {
    "forever": "Jardines Desolados",
    "use": "Jardines Desolados"
@@ -4950,11 +4960,6 @@
    "forever": "Bosque de Troncoferro",
    "use": "Bosque de Troncoferro"
   },
-  "Isle of Dread": {
-   "classic": "Isla del Terror",
-   "forever": "Isla del Terror",
-   "use": "Isla del Terror"
-  },
   "Itharius's Cave": {
    "classic": "Cueva de Itharius",
    "forever": "Cueva de Itharius",
@@ -5105,6 +5110,11 @@
    "classic": "Poblado Magram",
    "forever": "Poblado Magram",
    "use": "Poblado Magram"
+  },
+  "Malaka'jin": {
+   "classic": "Malaka'jin",
+   "forever": "Malaka'jin",
+   "use": "Malaka'jin"
   },
   "Mannoroc Coven": {
    "classic": "Aquelarre Mannoroc",
@@ -5525,6 +5535,11 @@
    "forever": "Guarida Sombría",
    "use": "Guarida Sombría"
   },
+  "Shadowbreak Ravine": {
+   "classic": "Barranco Rompesombras",
+   "forever": "Barranco Rompesombras",
+   "use": "Barranco Rompesombras"
+  },
   "Shadowfang Keep": {
    "classic": "Castillo de Colmillo Oscuro",
    "forever": "Castillo de Colmillo Oscuro",
@@ -5714,6 +5729,11 @@
    "forever": "Castillo de Ventormenta",
    "use": "Castillo de Ventormenta"
   },
+  "Stoutlager Inn": {
+   "classic": "Pensión La Cebada",
+   "forever": "Pensión La Cebada",
+   "use": "Pensión La Cebada"
+  },
   "Strahnbrad": {
    "classic": "Strahnbrad",
    "forever": "Strahnbrad",
@@ -5868,6 +5888,11 @@
    "classic": "El Cruce",
    "forever": "El Cruce",
    "use": "El Cruce"
+  },
+  "The Crystal Vale": {
+   "classic": "La Vega de Cristal",
+   "forever": "La Vega de Cristal",
+   "use": "La Vega de Cristal"
   },
   "The Dagger Hills": {
    "classic": "Las Colinas Afiladas",
@@ -6439,6 +6464,11 @@
    "classic": "Ruinas de Ziata'jai",
    "forever": "Ruinas de Ziata'jai",
    "use": "Ruinas de Ziata'jai"
+  },
+  "Zoram'gar Outpost": {
+   "classic": "Avanzada de Zoram'gar",
+   "forever": "Avanzada de Zoram'gar",
+   "use": "Avanzada de Zoram'gar"
   },
   "Zul'Farrak": {
    "classic": "Zul'Farrak",

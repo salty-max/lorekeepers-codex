@@ -894,6 +894,11 @@
    "forever": "Frère Nimetz",
    "use": "Frère Nimetz"
   },
+  "Brother Paxton": {
+   "classic": "Frère Paxton",
+   "forever": "Frère Paxton",
+   "use": "Frère Paxton"
+  },
   "Brother Ravenoak": {
    "classic": "Frère Ravenoak",
    "forever": "Frère Ravenoak",
@@ -4655,6 +4660,11 @@
    "forever": "Corniche des flammes",
    "use": "Corniche des flammes"
   },
+  "Forest Song": {
+   "classic": "Chant des forêts",
+   "forever": "Chant des forêts",
+   "use": "Chant des forêts"
+  },
   "Forlorn Gardens": {
    "forever": "Jardins Lugubres",
    "use": "Jardins Lugubres"
@@ -4830,11 +4840,6 @@
    "forever": "Bois d'Arbrefer",
    "use": "Bois d'Arbrefer"
   },
-  "Isle of Dread": {
-   "classic": "lle de l'effroi",
-   "forever": "lle de l'effroi",
-   "use": "lle de l'effroi"
-  },
   "Itharius's Cave": {
    "classic": "Caverne d'Itharius",
    "forever": "Caverne d'Itharius",
@@ -4985,6 +4990,11 @@
    "classic": "Village des Magram",
    "forever": "Village des Magram",
    "use": "Village des Magram"
+  },
+  "Malaka'jin": {
+   "classic": "Malaka'jin",
+   "forever": "Malaka'jin",
+   "use": "Malaka'jin"
   },
   "Mannoroc Coven": {
    "classic": "Convent de Mannoroc",
@@ -5405,6 +5415,11 @@
    "forever": "Fort des ombres",
    "use": "Fort des ombres"
   },
+  "Shadowbreak Ravine": {
+   "classic": "Ravin de Brèche-de-l'Ombre",
+   "forever": "Ravin de Brèche-de-l'Ombre",
+   "use": "Ravin de Brèche-de-l'Ombre"
+  },
   "Shadowfang Keep": {
    "classic": "Donjon d'Ombrecroc",
    "forever": "Donjon d'Ombrecroc",
@@ -5594,6 +5609,11 @@
    "forever": "Donjon de Stormwind",
    "use": "Donjon de Stormwind"
   },
+  "Stoutlager Inn": {
+   "classic": "Auberge de la Fortebière",
+   "forever": "Auberge de la Fortebière",
+   "use": "Auberge de la Fortebière"
+  },
   "Strahnbrad": {
    "classic": "Strahnbrad",
    "forever": "Strahnbrande",
@@ -5748,6 +5768,11 @@
    "classic": "La Croisée",
    "forever": "La Croisée",
    "use": "La Croisée"
+  },
+  "The Crystal Vale": {
+   "classic": "La Vallée des cristaux",
+   "forever": "La Vallée des cristaux",
+   "use": "La Vallée des cristaux"
   },
   "The Dagger Hills": {
    "classic": "Les collines de la Dague",
@@ -6319,6 +6344,11 @@
    "classic": "Ruines de Ziata'jai",
    "forever": "Ruines de Ziata'jai",
    "use": "Ruines de Ziata'jai"
+  },
+  "Zoram'gar Outpost": {
+   "classic": "Avant-poste de Zoram'gar",
+   "forever": "Avant-poste de Zoram'gar",
+   "use": "Avant-poste de Zoram'gar"
   },
   "Zul'Farrak": {
    "classic": "Zul'Farrak",

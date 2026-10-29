@@ -2130,7 +2130,8 @@ for _ = 1, 12 do
   ns.soundtrackTick()
 end
 check(ns.tune("the-high-mountains") ~= nil, "Anvilmar's stay with the music on finds the high mountains' tune")
-check(not has("the-high-mountains") and ns.tuneCount() == 1, "a tune is no page and counts apart")
+check(ns.tune("anvilmar") ~= nil, "and Anvilmar's, which the client pins to the building somewhere in it")
+check(not has("the-high-mountains") and ns.tuneCount() == 2, "a tune is no page and counts apart")
 local orgrimmar = ns.tracksOf("orgrimmar-tune")
 check(
   #orgrimmar == 3 and orgrimmar[#orgrimmar][2] == "arrival" and orgrimmar[1][2] ~= "arrival",

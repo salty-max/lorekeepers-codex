@@ -3991,6 +3991,12 @@ ns.translate({
         { "Ragnaros lui-même, on l'apprit alors, avait envoyé un ambassadeur à Angor pour superviser les fouilles des Ombreforge. Quand l'Ambassadeur Infernus tomba, le clan perdit son lien avec le Pic Rochenoire. Belgrum envoya ensuite le voyageur suivant chercher le dernier rêve de Hammertoe, la Tablette de volonté, un morceau de pierre que les Titans auraient gravé de magie pour donner à leurs créations une volonté propre. Hammertoe est mort pour elle sans jamais l'avoir vue." },
       },
     },
+    ["anvilmar"] = {
+      title = "Courbenclume",
+      text = {
+        { "Courbenclume, dans les neiges de Dun Morogh, est l'endroit où bien des jeunes nains et gnomes font leurs débuts, et quelque part à l'intérieur on retrouve deux des morceaux de Forgefer. Thran, le maître des guerriers, y tient ses quartiers. C'est un bon endroit pour commencer, et un endroit froid." },
+      },
+    },
     ["arathi-basin"] = {
       title = "Le bassin Arathi",
       text = {
@@ -4237,6 +4243,12 @@ ns.translate({
       text = {
         { "Baie-du-Butin s'accroche aux falaises d'une grotte marine, à la pointe sud de Strangleronce. Maisons de bois, pilotis et ponts de corde se pressent autour de son port. Les mâchoires grandes ouvertes d'un énorme requin en marquent l'entrée. Le baron Revilgaz dirige le port pour le cartel Gentepression, avec le souci de le garder à la fois neutre et rentable." },
         { "Ses Écumeurs des Flots noirs y ont aussi leur foyer. Ils sont en guerre contre les boucaniers de la Voile sanglante, qui veulent la mort du baron. Un marchand peut trouver un havre dans la baie, et un voyageur armé un emploi dans la querelle au-delà. Revilgaz a des affaires pour les deux." },
+      },
+    },
+    ["bough-shadow"] = {
+      title = "L'Ombrage",
+      text = {
+        { "L'Ombrage, à l'extrémité est d'Orneval, partage un air avec le Chant des forêts tout proche, et cet air se retrouve en certains lieux des trois capitales de l'Alliance. L'Ombrage est l'un des quatre portails du rêve d'Azeroth. Les draconiens qui le gardent portent désormais la corruption du Cauchemar, ce qui est plus grave qu'il n'y paraît." },
       },
     },
     ["boulderslide-ravine"] = {
@@ -5792,6 +5804,12 @@ ns.translate({
         { "L'abbaye instruit désormais les recrues du royaume aux armes comme à la foi. Les deux ont leur utilité tout près : des kobolds occupent la mine, des loups rôdent dans la vallée, et des voleurs défias ont pris les vignes." },
       },
     },
+    ["northshire-tune"] = {
+      title = "Abbaye de Comté-du-Nord",
+      text = {
+        { "L'Abbaye de Comté-du-Nord, à l'entrée de la forêt d'Elwynn, emprunte l'un des morceaux de Hurlevent, tout comme le Refuge de l'Ornière, dans les Hautes-terres Arathies, pour qui y arrive. Ce morceau se retrouve aussi quelque part à Forgefer et dans la Basilique écarlate. La plupart des jeunes aventuriers de Hurlevent commencent ici. L'abbaye tient aussi une bibliothèque, et le gardien de cette bibliothèque, frère Paxton, a emprunté il y a des mois un livre sur les contraintes du fer, pour le recopier. Son propriétaire attend toujours qu'on le lui rende." },
+      },
+    },
     ["northwatch-hold"] = {
       title = "Le Fort de Guet-du-Nord",
       text = {
@@ -6933,10 +6951,22 @@ ns.translate({
         { "La Croisée, le Campement Grom'gol, le Poste de Bois-brisé, le Camp de bûcherons chanteguerre et la Retraite de Roche-Soleil partagent un air. Ce sont les forts de la Horde le long des routes, bâtis partout où il lui fallait un mur, un maître de vol et un cuisinier. La Croisée se tient là où se rejoignent les routes des Tarides, et tôt ou tard, tout voyageur de la région y passe." },
       },
     },
+    ["the-inns"] = {
+      title = "Les auberges",
+      text = {
+        { "La Distillerie Thunderbrew à Kharanos et l'Auberge de la Fortebière au Loch Modan ont un air en commun, et la Taverne des Pendus, chez les Réprouvés de Brill, a le sien. Le premier se retrouve aussi quelque part à Hurlevent, à Forgefer, à Comté-du-Lac, à Dun Modr et à la Taverne de l'Eau-profonde. Les Thunderbrew brassent de la bonne bière, et des rivaux ont déjà tenté de glisser un tonneau de leur cru dans la cave de la distillerie. Les gardes noirs de Brill enferment leurs prisonniers dans la cave de la Taverne des Pendus, ce qui est une excellente raison de boire à l'étage." },
+      },
+    },
     ["the-jungle"] = {
       title = "La jungle",
       text = {
         { "Le même air couvre la Vallée de Strangleronce, Feralas et les ruines trolles de Zul'Gurub et du temple d'Atal'Hakkar. Les trolls Gurubashi régnaient jadis sur cette jungle depuis leur grande cité. Leur empire a disparu, pas les arbres." },
+      },
+    },
+    ["the-keeps"] = {
+      title = "Les donjons",
+      text = {
+        { "Le Donjon de Stromgarde dans les Hautes-terres Arathies, le Donjon de Tiragarde sur la côte de Durotar et la Garnison du ruisseau de l'ouest dans la forêt d'Elwynn portent des morceaux de la musique de Hurlevent, et Stromgarde salue chaque arrivant d'un morceau de plus. Stromgarde était le royaume des Trollbane, et un tombeau des Trollbane se trouve toujours dans le donjon. Tiragarde est un donjon de Kul Tiras, planté sur la côte même des orcs. La Horde l'a pris une fois, et les hommes de l'amiral Proudmoore l'ont repris." },
       },
     },
     ["the-lich-king"] = {
@@ -7020,6 +7050,12 @@ ns.translate({
       text = {
         { "Il y a mille ans, les qiraji et leurs essaims de silithides sortirent d'Ahn'Qiraj et s'abattirent sur Kalimdor, et les elfes de la nuit les combattirent pendant la guerre des Sables changeants. Ils ne purent la gagner seuls. Fandral Staghelm, qui les menait, perdit son fils Valstann aux mains des qiraji : le garçon fut capturé et tué sous les yeux de son père." },
         { "Les dragons les sauvèrent. Les vols de bronze, rouge, bleu et vert vinrent, et repoussèrent les insectes dans leur cité. Et grâce à leur magie, les elfes de la nuit élevèrent un grand mur de pierre et une barrière à travers le sud de Silithus, le Mur du scarabée, et les y enfermèrent. Les morts de cette guerre reposent au Repos des vaillants, au pied du mur." },
+      },
+    },
+    ["the-scarred-places"] = {
+      title = "Les lieux balafrés",
+      text = {
+        { "Le Repaire d'Onyxia dans le Marécage d'Âprefange, la Balafre impure dans les Terres foudroyées, le Ravin de Brèche-de-l'Ombre en Désolace, la Vallée des cristaux en Silithus et les Falaises de la Tempête partagent un morceau emprunté aux Tarides. Chacun a ses ennuis : un dragon noir dans le premier, le seigneur Kazzak et ses démons dans le deuxième, les invocateurs de la Lame ardente dans le troisième. Dans le quatrième, le généralissime Demetrian attend quiconque aura l'audace de brandir Lame-tonnerre." },
       },
     },
     ["the-scepter-of-the-shifting-sands"] = {
@@ -7118,6 +7154,12 @@ ns.translate({
         { "Les épaves sur la rive nord des Paluns étaient la Troisième flotte de Kul Tiras. Lors de son dernier voyage, elle fut surprise au large de cette côte par des dragons rouges, des dragons montés par des orcs, et brûlée et coulée sur place. Les Kultirassiens l'appellent la Flotte maudite." },
         { "Un seul homme en réchappa : Fitzsimmons, autrefois premier officier de la Maîtresse-des-Vagues, qui boit à Port de Menethil et racontera l'histoire pour le prix d'une chope. Ses compagnons de bord ne reposent pas tous en paix. Quelque chose avait été chargé à bord de l'Intrépide, enfermé dans le coffre du capitaine, et son pouvoir fait que les équipages noyés arpentent toujours leurs ponts pourrissants. Le capitaine Halyndor arpente encore son navire avec la clé." },
         { "Ce coffre contenait un Œil de Paleth, l'un des orbes que les prêtres humains fabriquaient pour briller de mille feux, devenu noir et maudit par ce qu'il vit cette nuit-là. Les prêtres de Menethil ne purent le purifier. L'archevêque de Hurlevent, lui, le put. Une flotte ne meurt pas toujours d'un seul coup, $gvoyageur:voyageuse;. Il faut parfois un prêtre et un premier officier têtu pour en finir." },
+      },
+    },
+    ["the-troll-villages"] = {
+      title = "Les villages trolls",
+      text = {
+        { "Le Village de Sen'jin en Durotar, Malaka'jin dans les Serres-Rocheuses, Proie-de-l'Ombre en Désolace et l'Avant-poste de Zoram'gar en Orneval se partagent un même air, et la plupart abritent des trolls de la Horde. La tribu Darkspear est partie avec Thrall, et Sen'jin, sur la côte de Durotar, est aujourd'hui leur village. Les Bloodscalp de Strangleronce comptent toujours les Darkspear parmi leurs ennemis." },
       },
     },
     ["the-twilight-shores"] = {

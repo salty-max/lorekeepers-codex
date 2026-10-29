@@ -3984,6 +3984,12 @@ ns.translate({
         { "Ragnaros selbst, so stellte sich heraus, hatte einen Botschafter nach Angor geschickt, um über die Grabungen der Schattenschmiede zu wachen. Als Botschafter Infernus fiel, verlor der Klan seine Verbindung zur Blackrockspitze. Danach schickte Belgrum den nächsten Reisenden aus, Hammertoes letztem Traum nachzujagen, der Schrifttafel des Willens, einem Steinsplitter, den die Titanen mit Magie beschriftet haben sollen, um ihren Schöpfungen einen eigenen Willen zu geben. Hammertoe ist für sie gestorben, ohne sie je gesehen zu haben." },
       },
     },
+    ["anvilmar"] = {
+      title = "Anvilmar",
+      text = {
+        { "Anvilmar im Schnee von Dun Morogh ist der Ort, an dem viele junge Zwerge und Gnome beginnen, und irgendwo darin finden sich zwei von Ironforges Stücken. Thran, der Kriegerlehrer, hat dort seine Halle. Es ist ein guter Ort für den Anfang, und ein kalter." },
+      },
+    },
     ["arathi-basin"] = {
       title = "Arathibecken",
       text = {
@@ -4230,6 +4236,12 @@ ns.translate({
       text = {
         { "Booty Bay klammert sich an die Klippen einer Meereshöhle an der Südspitze des Schlingendorntals. Holzhäuser, Pfähle und Hängebrücken drängen sich um seinen Hafen. Das gewaltige offene Maul eines Hais markiert den Eingang. Baron Revilgaz führt den Hafen für das Steamwheedle-Kartell, mit dem Ziel, ihn neutral und einträglich zu halten." },
         { "Auch seine Schwarzmeerräuber sind hier zu Hause. Sie liegen im Krieg mit den Blutsegelbukanieren, die den Baron tot sehen wollen. Ein Händler findet in der Bucht einen Hafen, ein bewaffneter Reisender findet Arbeit in dem Streit dahinter. Revilgaz hat Geschäfte für beide." },
+      },
+    },
+    ["bough-shadow"] = {
+      title = "Bough Shadow",
+      text = {
+        { "Bough Shadow im äußersten Osten Ashenvales teilt sich eine Melodie mit Forest Song ganz in der Nähe, und die Melodie taucht irgendwo in den drei Hauptstädten der Allianz wieder auf. Bough Shadow ist eines der vier Traumportale Azeroths. Die Drachkin, die es bewachen, tragen inzwischen die Verderbnis des Albtraums in sich, und das ist schlimmer, als es auf dem Papier aussieht." },
       },
     },
     ["boulderslide-ravine"] = {
@@ -5785,6 +5797,12 @@ ns.translate({
         { "Die Abtei unterweist die Rekruten des Königreichs heute in den Waffen ebenso wie im Glauben. Für beides gibt es ganz in der Nähe Verwendung: Kobolde besetzen die Mine, Wölfe streifen durch das Tal, und Diebe der Defias haben die Weinberge eingenommen." },
       },
     },
+    ["northshire-tune"] = {
+      title = "Abtei von Nordhain",
+      text = {
+        { "Die Abtei von Nordhain am Rand des Waldes von Elwynn leiht sich eines von Stormwinds Stücken, und die Zuflucht im Arathihochland tut es ebenso für jeden, der dort ankommt. Das Stück taucht irgendwo in Ironforge und in der Scharlachroten Basilika wieder auf. Die meisten jungen Abenteurer Stormwinds beginnen hier. Die Abtei unterhält auch eine Bibliothek, und ihr Verwalter, Bruder Paxton, hat sich vor Monaten ein Buch über die Belastbarkeit von Eisen geliehen, um es abzuschreiben. Der Besitzer des Buches wartet noch immer darauf." },
+      },
+    },
     ["northwatch-hold"] = {
       title = "Die Feste Northwatch",
       text = {
@@ -6926,10 +6944,22 @@ ns.translate({
         { "Crossroads, das Basislager von Grom'gol, der Splintertreeposten, das Holzfällerlager des Kriegshymnenklans und Sonnenfels teilen sich eine Melodie. Das sind die Straßenfestungen der Horde, gebaut überall dort, wo sie eine Mauer, einen Flugmeister und einen Koch brauchte. Crossroads steht dort, wo sich die Straßen des Brachlands treffen, und früher oder später kommt jeder Reisende dort vorbei." },
       },
     },
+    ["the-inns"] = {
+      title = "Die Gasthäuser",
+      text = {
+        { "Die Brauerei Donnerbräu in Kharanos und der Gasthof Zum Starkbier-Lager in Loch Modan teilen sich eine Melodie, und die Taverne Zur Galgenschlinge in Brill, bei den Verlassenen, hat ihre eigene. Die erste Melodie taucht irgendwo in Stormwind, Ironforge, Seenhain, Dun Modr und in der Deepwater Taverne wieder auf. Die Donnerbräus brauen gutes Bier, und ihre Rivalen haben schon versucht, ein Fass der eigenen Sorte in deren Keller zu schmuggeln. Die Todeswache von Brill sperrt ihre Gefangenen in den Keller der Galgenschlinge, was ein guter Grund ist, oben zu trinken." },
+      },
+    },
     ["the-jungle"] = {
       title = "Der Dschungel",
       text = {
         { "Dieselbe Melodie liegt über dem Schlingendorntal und Feralas, über den Trollruinen von Zul'Gurub und dem Tempel von Atal'Hakkar. Die Gurubashi-Trolle herrschten einst von ihrer großen Stadt aus über diesen Dschungel. Ihr Reich ist vergangen, die Bäume nicht." },
+      },
+    },
+    ["the-keeps"] = {
+      title = "Die Burgen",
+      text = {
+        { "Burg Stromgarde im Arathihochland, Burg Tiragarde an der Küste Durotars und die Weststromgarnison im Wald von Elwynn tragen Stücke aus Stormwinds Musik, und Stromgarde empfängt jeden Ankömmling mit einem weiteren. Stromgarde war das Königreich der Trollbanes, und ein Grab der Trollbanes liegt noch immer in der Burg. Tiragarde ist eine Burg von Kul Tiras, mitten an der Küste der Orcs. Die Horde hat sie einmal erobert, und die Männer von Admiral Proudmoore haben sie zurückerobert." },
       },
     },
     ["the-lich-king"] = {
@@ -7013,6 +7043,12 @@ ns.translate({
       text = {
         { "Vor tausend Jahren kamen die Qiraji und ihre Schwärme von Silithiden aus Ahn'Qiraj und fielen über Kalimdor her, und die Nachtelfen bekämpften sie im Krieg der Sandstürme. Allein konnten sie ihn nicht gewinnen. Fandral Staghelm, der sie führte, verlor seinen Sohn Valstann an die Qiraji: Der Junge wurde gefangen genommen und vor den Augen seines Vaters getötet." },
         { "Die Drachen retteten sie. Der bronzene, der rote, der blaue und der grüne Drachenschwarm kamen und trieben die Insekten in ihre Stadt zurück. Und mit ihrer Magie errichteten die Nachtelfen eine große Mauer aus Stein und eine Barriere quer durch den Süden von Silithus, den Skarabäuswall, und schlossen sie ein. Die Toten dieses Krieges liegen in der Heldenwacht, außerhalb davon." },
+      },
+    },
+    ["the-scarred-places"] = {
+      title = "Die vernarbten Orte",
+      text = {
+        { "Onyxias Hort in den Marschen von Dustwallow, die faulende Narbe in den Verwüsteten Landen, die Shadowbreakklamm in Desolace, das Kristalltal in Silithus und die Sturmklippen teilen sich ein Stück, das aus dem Brachland entliehen ist. Jeder dieser Orte hat seine eigenen Sorgen: ein schwarzer Drache im ersten, Lord Kazzak und seine Dämonen im zweiten, die Beschwörer des Burning Blade im dritten. Im vierten wartet Hochlord Demitrian auf jeden, der kühn genug ist, Donnerzorn zu schwingen." },
       },
     },
     ["the-scepter-of-the-shifting-sands"] = {
@@ -7111,6 +7147,12 @@ ns.translate({
         { "Die Wracks an der Nordküste des Sumpflands waren die dritte Flotte von Kul Tiras. Auf ihrer letzten Fahrt wurde sie vor dieser Küste von roten Drachen gestellt, von Orcs gerittenen Drachen, und verbrannt und versenkt, wo sie lag. Die Leute von Kul Tiras nennen sie die verlorene Flotte." },
         { "Ein Mann kam lebend davon: Fitzsimmons, einst Erster Maat der Wave Mistress, der im Hafen von Menethil trinkt und die Geschichte für den Preis eines Humpens erzählt. Nicht alle seine Schiffskameraden ruhen in Frieden. An Bord der INTREPID war etwas verstaut, eingeschlossen in der Geldkassette des Kapitäns, und seine Macht lässt die ertrunkenen Mannschaften über ihre verrottenden Decks gehen. Kapitän Halyndor geht noch immer mit dem Schlüssel über sein Schiff." },
         { "Was in dieser Kassette lag, war ein Auge von Paleth, eine der Kugeln, die menschliche Priester zum hellen Leuchten schufen, schwarz verflucht von dem, was es in jener Nacht sah. Die Priester von Menethil konnten es nicht reinigen. Der Erzbischof in Stormwind konnte es. Eine Flotte stirbt nicht immer auf einmal, $gReisender:Reisende;. Manchmal braucht es einen Priester und einen sturen Ersten Maat, um die Sache zu Ende zu bringen." },
+      },
+    },
+    ["the-troll-villages"] = {
+      title = "Die Trolldörfer",
+      text = {
+        { "Sen'jin in Durotar, Malaka'jin im Steinkrallengebirge, Shadowprey in Desolace und der Zoram'gar-Außenposten in Ashenvale teilen sich eine Melodie, und in den meisten wohnen Trolle der Horde. Der Stamm der Darkspear zog mit Thrall fort, und Sen'jin an der Küste Durotars ist heute sein Dorf. Die Bloodscalp im Schlingendorntal halten die Darkspear noch immer für ihre Feinde." },
       },
     },
     ["the-twilight-shores"] = {
