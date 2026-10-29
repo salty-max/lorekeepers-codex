@@ -79,7 +79,10 @@ local ticker
 local timers = {}
 C_Timer = {
   After = function(_, fn) fn() end,
-  NewTicker = function(_, fn) ticker = fn end,
+  -- (the position check's, every 2 s; the soundtrack's own is run by hand)
+  NewTicker = function(seconds, fn)
+    if seconds == 2 then ticker = fn end
+  end,
   NewTimer = function(seconds, fn)
     local t = { seconds = seconds, fn = fn }
     t.Cancel = function(self) self.cancelled = true end
@@ -392,8 +395,8 @@ check(
 )
 check(not has("foreword-human") and not ns.available("foreword-human"), "… and no other race's")
 local pages = 0
-for _ in pairs(ns.content.entries) do
-  pages = pages + 1
+for _, e in pairs(ns.content.entries) do
+  if e.kind ~= "tune" then pages = pages + 1 end
 end
 local others = 0
 for _, e in pairs(ns.content.entries) do
@@ -422,6 +425,7 @@ check(
     and sounds == 2,
   "a new page is announced in chat as a link, with a sound"
 )
+
 local hints = 0
 for _, p in ipairs(printed) do
   if p:find("/codex", 1, true) then hints = hints + 1 end
@@ -2107,5 +2111,58 @@ do
   ns.bookTexts, ns.booksById, ns.locale, ns.textTitlesById = books, byId, locale, titles
   LorekeepersCodexChar.library = before
 end
+
+-- The soundtrack: a tune is found by standing where it plays with the music on.
+state.zone, state.sub = "Dun Morogh", "Anvilmar"
+check(not ns.tune("the-high-mountains"), "no tune is found at the login")
+for _ = 1, 3 do
+  ns.soundtrackTick()
+end
+check(not ns.tune("the-high-mountains"), "a short stay finds no tune")
+local cvars = { Sound_EnableAllSound = "1", Sound_EnableMusic = "0", Sound_MusicVolume = "0.4" }
+function GetCVar(name) return cvars[name] end
+for _ = 1, 12 do
+  ns.soundtrackTick()
+end
+check(not ns.tune("the-high-mountains"), "music switched off finds no tune")
+cvars.Sound_EnableMusic = "1"
+for _ = 1, 12 do
+  ns.soundtrackTick()
+end
+check(ns.tune("the-high-mountains") ~= nil, "Anvilmar's stay with the music on finds the high mountains' tune")
+check(not has("the-high-mountains") and ns.tuneCount() == 1, "a tune is no page and counts apart")
+check(#ns.tracksOf("the-high-mountains") == 7, "its tracks are the client's (seven, by day and night)")
+local played
+function PlayMusic(file) played = file end
+function StopMusic() played = nil end
+ns.playTrack("the-high-mountains", ns.tracksOf("the-high-mountains")[1][1])
+check(played == ns.tracksOf("the-high-mountains")[1][1] and ns.nowPlaying(), "a found tune plays again by its file id")
+ns.stopMusic()
+check(played == nil and not ns.nowPlaying(), "and stops")
+ns.openTab(ns.TAB.soundtrack)
+check(LorekeepersCodexFrame.shown and #ns.soundtrackRows > 0, "the Soundtrack tab opens and lists its tunes")
+check(
+  LorekeepersCodexFrame.count.text == ns.kit.L["%d of %d tunes"]:format(ns.tuneCount(), #ns.tunes),
+  "its count is the tunes found, apart from the pages"
+)
+local linkHandler = linkHandlers.lorekeeper
+check(
+  linkHandler("lorekeeper:tune:the-high-mountains") ~= nil or LorekeepersCodexFrame.shown,
+  "a tune's link in chat opens the tab"
+)
+LorekeepersCodexFrame:Hide()
+-- a subzone with music of its own is not its zone: The Crossroads plays another set
+state.zone, state.sub = "The Barrens", "The Crossroads"
+for _ = 1, 12 do
+  ns.soundtrackTick()
+end
+check(not ns.tune("the-dry-lands"), "a subzone with music of its own doesn't find its zone's tune")
+state.zone, state.sub = "The Barrens", nil
+for _ = 1, 12 do
+  ns.soundtrackTick()
+end
+check(ns.tune("the-dry-lands") ~= nil, "the zone itself does")
+ns.playTrack("the-jungle", ns.tracksOf("the-jungle")[1][1])
+check(played == nil, "a tune not found doesn't play")
 
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")

@@ -181,7 +181,7 @@ end
 local function countTotal()
   ns.total = 0
   for id in pairs(C.entries) do
-    if ns.available(id) then ns.total = ns.total + 1 end
+    if ns.available(id) and C.entries[id].kind ~= "tune" then ns.total = ns.total + 1 end
   end
 end
 countTotal()

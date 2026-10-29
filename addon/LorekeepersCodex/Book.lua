@@ -90,13 +90,13 @@ local function pageArea(name, book) return K.page(book.sheet, name) end
 -- pages' kind), the tabs; each tab a file of its own, registered with
 -- ns.addTab: { build(book), show(selected tab), refresh(scroll), chosen(),
 -- whole (over both panels), filter = { default, options() } }.
-local TAB = { pages = 1, library = 2, achievements = 3 }
+local TAB = { pages = 1, library = 2, achievements = 3, soundtrack = 4 }
 ns.TAB = TAB
 local B = K.book({
   name = "LorekeepersCodexFrame",
   title = "Lorekeeper's Codex",
   art = "Interface\\AddOns\\LorekeepersCodex\\Media\\Logo",
-  titles = { L["Pages"], L["Library"], L["Achievements"] },
+  titles = { L["Pages"], L["Library"], L["Achievements"], L["Soundtrack"] },
   first = TAB.pages,
   search = "LorekeepersCodexSearch",
   searchRight = -34,
@@ -121,6 +121,8 @@ function ns.openTab(n) B:open(n) end
 local function followLink(id)
   local text = tonumber(id:match("^lib:(%d+)$"))
   if text then return ns.openText(text) end
+  local tune = id:match("^tune:(.+)$")
+  if tune then return ns.openTune(tune) end
   local achievement = id:match("^ach:(.+)$")
   if achievement then
     ns.openAchievements(achievement)
@@ -136,7 +138,8 @@ K.links("lorekeeper", followLink)
 local function shown()
   if B.frame and B.frame:IsShown() then ns.refresh() end
 end
-ns.onUnlock, ns.onAchievement, ns.onLibrary = shown, shown, shown
+-- (a tune found, or one started or stopped: Soundtrack.lua)
+ns.onUnlock, ns.onAchievement, ns.onLibrary, ns.onTune, ns.onPlaying = shown, shown, shown, shown, shown
 
 -- The kit, for the tabs and the banner.
 ns.ui = {

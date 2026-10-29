@@ -37,6 +37,20 @@ function ns.showBanner(id)
   })
 end
 
+-- A tune found (Soundtrack.lua): the same card, the horn for its picture.
+function ns.showTuneBanner(id)
+  local e = C.entries[id]
+  if not ns.option("banner") or not e then return end
+  shown({
+    picture = ns.kit.icon("Interface\\Icons\\INV_Misc_Horn_01"),
+    kicker = L["A new tune in the soundtrack"],
+    title = e.title,
+    tip = L["Click to play it again"],
+    click = function() ns.openTune(id) end,
+    page = id,
+  })
+end
+
 function ns.showAchievementBanner(id)
   local a = ns.achievementById[id]
   if not ns.option("achievementToast") or not a then return end

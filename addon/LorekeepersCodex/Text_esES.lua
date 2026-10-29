@@ -3133,6 +3133,7 @@ ns.translate({
   locale = "esES",
   plural = "one",
   words = {
+    ["???"] = "???",
     ["/codex opens the book, /codex achievements its achievements and /codex settings its settings. /codex banner shows or hides the alerts, /codex minimap the button. /codex welcome shows the welcome page again. /codex export gives this character's settings as a code, and /codex import CODE takes them. /codex reset starts this character's codex over."] = "/codex abre el libro, /codex achievements sus logros y /codex settings sus opciones. /codex banner muestra u oculta los avisos y /codex minimap el botón. /codex welcome vuelve a mostrar la bienvenida. /codex export te da un código con las opciones de este personaje y /codex import CODE las importa. /codex reset reinicia el códice de este personaje.",
     ["%d %s"] = "%d %s",
     ["%d %s %d"] = "%d %s %d",
@@ -3141,11 +3142,14 @@ ns.translate({
     ["%d of %d pages"] = "%d de %d páginas",
     ["%d of %d pages found"] = "%d de %d páginas descubiertas",
     ["%d of %d pages. Type /codex or click the book by the minimap to read them."] = "%d de %d páginas. Escribe /codex o pulsa el libro junto al minimapa para leerlas.",
+    ["%d of %d tunes"] = "%d de %d melodías",
+    ["%d of %d tunes found"] = "%d de %d melodías encontradas",
     ["%d s"] = "%d s",
     ["%d texts copied"] = "%d textos copiados",
     ["%d texts in the Library"] = "%d textos en la Biblioteca",
     ["%s %02d:%02d"] = "%s %02d:%02d",
     ["%s has been added to the codex."] = "%s se ha añadido al códice.",
+    ["%s has been added to the soundtrack."] = "%s se ha añadido a la banda sonora.",
     ["%s:"] = "%s:",
     ["%s: %s"] = "%s: %s",
     ["%s's choices are this character's now."] = "Este personaje usa ahora las opciones de %s.",
@@ -3157,9 +3161,11 @@ ns.translate({
     ["A line on the tooltip of creatures that unlock a page (a page to find, or its title once found), and of players whose people's or calling's page is still to find."] = "Una línea en la descripción de las criaturas que desbloquean una página (una página por descubrir o su título, si ya la has descubierto), y de los jugadores cuya página de pueblo o vocación aún te falta.",
     ["A Mixed Company"] = "Una compañía variopinta",
     ["A new page in the codex"] = "Una nueva página en el códice",
+    ["A new tune in the soundtrack"] = "Una nueva melodía en la banda sonora",
     ["A Page by the Fire"] = "Una página junto al fuego",
     ["A Shelf Begun"] = "La primera estantería",
     ["A Tale Worth Telling"] = "Una historia que contar",
+    ["A tune of the game's music. Stand where it plays, with the music on, and it is yours to play again."] = "Una melodía de la música del juego. Quédate donde suena, con la música activada, y podrás volver a tocarla.",
     ["A Word in Person"] = "Unas palabras en persona",
     ["Achievement earned: %s."] = "Logro obtenido: %s.",
     ["Achievement fanfare"] = "Fanfarria de logro",
@@ -3190,9 +3196,11 @@ ns.translate({
     ["Chapters"] = "Capítulos",
     ["Choices for %s"] = "Opciones de %s",
     ["Choose a character"] = "Elige un personaje",
+    ["Cities and Taverns"] = "Ciudades y tabernas",
     ["Click it to open the book, or drag it around the minimap."] = "Haz clic para abrir el libro o arrastra el botón alrededor del minimapa.",
     ["Click it to open the codex, or drag it around the minimap."] = "Pulsa para abrir el códice o arrastra el botón alrededor del minimapa.",
     ["Click to open the book, right-click for the settings. Drag to move this button."] = "Haz clic para abrir el libro o clic derecho para ver las opciones. Arrastra el botón para moverlo.",
+    ["Click to play it again"] = "Haz clic para volver a tocarla",
     ["Click to read this page"] = "Pulsa para leer esta página",
     ["Click to see your achievements"] = "Haz clic para ver tus logros",
     ["Collector of Words"] = "Coleccionista de palabras",
@@ -3204,8 +3212,10 @@ ns.translate({
     ["Copy their choices"] = "Copiar sus opciones",
     ["Creature"] = "Criatura",
     ["Creatures"] = "Criaturas",
+    ["Day %d"] = "Día %d",
     ["Dec"] = "dic",
     ["Delver of the Deep"] = "En las profundidades",
+    ["Dungeons and Raids"] = "Mazmorras y bandas",
     ["Each character keeps its own codex, with the day and the place each page was found. The Library copies every book, note and plaque you read, and achievements mark the way."] = "Cada personaje tiene su propio códice, con la fecha y el lugar donde descubrió cada página. La Biblioteca copia todos los libros, notas y placas que lees, y los logros dejan constancia del camino.",
     ["earned"] = "obtenidos",
     ["Encounters"] = "Encuentros",
@@ -3273,10 +3283,14 @@ ns.translate({
     ["Minimap button"] = "Botón del minimapa",
     ["Minimap button hidden (%s minimap shows it again)."] = "Botón del minimapa oculto (%s minimap para volver a mostrarlo).",
     ["Minimap button shown."] = "Botón del minimapa visible.",
+    ["Moments"] = "Momentos",
+    ["Night %d"] = "Noche %d",
     ["No other character yet"] = "Aún no hay otro personaje",
     ["No page found."] = "No se ha encontrado ninguna página.",
     ["No sound"] = "Ningún sonido",
     ["No text found."] = "No se ha encontrado ningún texto.",
+    ["No tune found."] = "No se ha encontrado ninguna melodía.",
+    ["Not found yet"] = "Aún sin encontrar",
     ["Note"] = "Nota",
     ["notes"] = "notas",
     ["Notes"] = "Notas",
@@ -3299,8 +3313,10 @@ ns.translate({
     ["Places"] = "Lugares",
     ["plaques"] = "placas",
     ["Plaques and Monuments"] = "Placas y monumentos",
+    ["Play it again"] = "Volver a tocarla",
     ["Played when a page is added to the codex."] = "Suena cuando se añade una página al códice.",
     ["Played when an achievement is earned."] = "Suena al obtener un logro.",
+    ["Playing"] = "Sonando",
     ["Quest complete"] = "Misión completada",
     ["Read %d pages of your codex."] = "Lee %d páginas de tu códice.",
     ["Ready check"] = "¿Listos?",
@@ -3314,7 +3330,9 @@ ns.translate({
     ["Show each new page in the game's own alert. A click on it reads the page."] = "Muestra cada nueva página con el aviso del juego. Púlsalo para leerla.",
     ["Slayer of Legends"] = "Azote de leyendas",
     ["Sound for a new page"] = "Sonido de nueva página",
+    ["Soundtrack"] = "Banda sonora",
     ["Still to find here."] = "Aún por encontrar aquí.",
+    ["Stop"] = "Detener",
     ["Terrors of the Wild"] = "Terrores de la naturaleza",
     ["texts copied"] = "textos copiados",
     ["Thank you, it's a real help. What you see will help the addons keep up with Forever, and Ravenpost sends it from this computer: %s"] = "Gracias, es de gran ayuda. Lo que ves ayudará a los addons a seguir el ritmo de Forever. Ravenpost lo envía desde este ordenador: %s",
@@ -3329,16 +3347,25 @@ ns.translate({
     ["The Complete Codex"] = "El códice completo",
     ["The game's achievement alert could not be set up (%s): the book shows its own banner."] = "No se ha podido preparar la alerta de logros del juego (%s). El libro mostrará su propio aviso.",
     ["The game's achievement alert. A click on it opens the achievements."] = "El aviso de logros del juego. Púlsalo para abrir los logros.",
+    ["The game's music is switched off in your sound options."] = "La música del juego está desactivada en tus opciones de sonido.",
     ["The game's Options have no page for addons here."] = "Las opciones del juego no tienen aquí una página para addons.",
     ["The game's own alert, with the page's picture. A click on it reads the page."] = "El aviso del juego, con la imagen de la página. Púlsalo para leerla.",
     ["The Historian's Equal"] = "A la altura de la historiadora",
+    ["The Lands"] = "Las tierras",
     ["The Librarian's Apprentice"] = "Aprendiz de bibliotecario",
     ["The Library"] = "La Biblioteca",
     ["The lore of Azeroth, written for you as you explore."] = "La historia de Azeroth, escrita para ti mientras exploras.",
+    ["The Soundtrack"] = "La banda sonora",
+    ["The tunes of the game's music, found by standing where they play with the music on. The game never tells which track is playing, so a tune is found, not heard: stay a little while, and it is written here. Found, a tune plays again from this page."] = "Las melodías de la música del juego, que se encuentran quedándose donde suenan con la música activada. El juego nunca dice qué pista está sonando, así que una melodía se encuentra, no se oye: quédate un rato y quedará escrita aquí. Una vez encontrada, la melodía se vuelve a tocar desde esta página.",
     ["This forgets every page and achievement this character has found. Type /codex reset yes to do it."] = "Esto borra todas las páginas y logros que ha descubierto este personaje. Escribe /codex reset yes para confirmar.",
     ["This is the %s package, and this is %s: install the %s package to read this game's pages."] = "Este es el paquete de %s y estás en %s: instala el paquete de %s para leer las páginas de este juego.",
     ["This page did not reach the codex. Open the text again in the world to copy it."] = "Esta página no llegó al códice. Vuelve a abrir el texto en el mundo para copiarlo.",
     ["Three Hundred Pages"] = "Trescientas páginas",
+    ["Track %d"] = "Pista %d",
+    ["Tune found in %s, at level %d, on %s."] = "Melodía encontrada en %s, a nivel %d, el %s.",
+    ["tunes found"] = "melodías encontradas",
+    ["Tunes found lately"] = "Melodías encontradas hace poco",
+    ["tunes in all"] = "melodías en total",
     ["Two Hundred Pages"] = "Doscientas páginas",
     ["Unfold every chapter"] = "Expandir todos los capítulos",
     ["unread"] = "sin leer",
@@ -3386,6 +3413,7 @@ ns.translate({
     ["shen-dralas"] = { "Shen'dralas", "La tierra maldita del Valle de los Huesos, donde los centauros han encontrado a los muertos." },
     ["silithus"] = { "Silithus", "El desierto de los insectos, el Muro del Escarabajo y lo que duerme detrás." },
     ["silverpine"] = { "Bosque de Argénteos", "Pinos grises entre los Renegados y la puerta cerrada de Gilneas." },
+    ["soundtrack"] = { "La banda sonora", "Las melodías de la música del juego." },
     ["stonetalon"] = { "Sierra Espolón", "Altas cumbres y bosques antiguos que arden bajo las sierras goblins." },
     ["stranglethorn"] = { "Vega de Tuercespina", "La jungla del antiguo imperio trol, donde piratas, cazadores y goblins buscan fortuna." },
     ["swamp-of-sorrows"] = { "Pantano de las Penas", "Una tierra anegada de niebla y lodo, y un templo hundido por sus pecados." },
@@ -4429,6 +4457,12 @@ ns.translate({
         { "Los elfos de la noche se han unido a la Alianza y abierto esta ciudad a visitantes de pueblos de los que se mantuvieron apartados mucho tiempo. Tyrande Susurravientos dirige a las sacerdotisas desde el Templo, mientras Fandral Corzocelada guía a los druidas en el Enclave Cenarion. Apréndete esos dos lugares, $gviajero:viajera;. Buena parte de los asuntos de la ciudad comienza en uno u otro." },
       },
     },
+    ["darnassus-tune"] = {
+      title = "Darnassus",
+      text = {
+        { "Darnassus, la ciudad de los elfos de la noche, crece en las ramas de Teldrassil, y su melodía se oye allí y en las aldeas de abajo. Los elfos de la noche son un pueblo paciente. Me ha parecido poco sensato apremiarlos." },
+      },
+    },
     ["darrowshire"] = {
       title = "Villa Darrow",
       text = {
@@ -5038,6 +5072,12 @@ ns.translate({
         { "Itharius, otro miembro del Vuelo, espera en una cueva de ese pantano a mortales que ayuden a redimir a Eranikus. Mientras los guardianes corruptos siguen rondando los árboles, uno de sus parientes pide a extraños que traigan a un dragón a casa." },
       },
     },
+    ["green-kingdoms"] = {
+      title = "Los reinos verdes",
+      text = {
+        { "Una sola melodía sirve a los bosques de los reinos humanos, del Bosque de Elwynn y las Montañas Crestagrana a Loch Modan, las Tierras del Interior y las Laderas de Trabalomas. Los hombres cultivaron y lucharon bajo estos árboles mucho antes de que la Horda cruzara el Portal Oscuro, y la melodía ha sobrevivido a todo ello. Si quieres oírla como es debido, deja de caminar." },
+      },
+    },
     ["greymane-wall"] = {
       title = "La Muralla de Cringrís",
       text = {
@@ -5257,6 +5297,12 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Su invitación es amable. No aconsejaría aceptarla vistiendo los colores de la Horda." },
       },
     },
+    ["ironforge-tune"] = {
+      title = "Forjaz",
+      text = {
+        { "Forjaz es mi ciudad, y solo diré que su melodía suena en algún lugar de ella, pues los salones son muchos. Los Barbabronce mantienen encendida la Gran Forja bajo Magni desde hace más tiempo del que la mayoría de los reinos ha tenido nombre. Me encontrarás en la Sala de los Exploradores, si alguna vez necesitas una historiadora." },
+      },
+    },
     ["jaedenar"] = {
       title = "Jaedenar",
       text = {
@@ -5468,6 +5514,12 @@ ns.translate({
       text = {
         { "Maraudon es el lugar sagrado de los centauros en el suroeste de Desolace. Su padre Zaetar está enterrado en sus inmensas cavernas y su madre Theradras habita más allá de cámaras de cristal resplandeciente. Solo los más devotos de los centauros pueden entrar." },
         { "La tumba tiene problemas. Lord Lenguavil extiende veneno por las cuevas y ha creado una criatura de podredumbre. Celebras, sobrino de Zaetar, vaga allí maldito. Una mujer del Martillo Crepuscular pide tallas de las cavernas de cristal y afirma que contienen reliquias de los dioses antiguos. Ten cuidado con los fines a los que sirve tu viaje, $gviajero:viajera;. Hay varios interesados en lo que yace bajo este suelo sagrado." },
+      },
+    },
+    ["marsh-and-mire"] = {
+      title = "Marjal y cenagal",
+      text = {
+        { "Los Humedales y el Marjal Revolcafango comparten una melodía de aire húmedo y largas aguas grises. Los enanos mantienen el Puerto de Menethil en uno, y Theramore se alza en el otro. Ninguno es un sitio que yo elegiría para un paseo largo con buenas botas." },
       },
     },
     ["marshal-windsor"] = {
@@ -5770,6 +5822,12 @@ ns.translate({
         { "Orgrimmar es la capital de la Horda, construida en un gran cañón del norte de Durotar y llamada así por Orgrim Martillo Maldito, el Jefe de Guerra que dirigió a la Horda en la Segunda Guerra y murió luchando por liberarla de los campos. Thrall aún lleva su martillo. Los goblins ayudaron a construirla, y se nota: madera, pinchos y pieles sobre la piedra, caliente como una forja y ruidosa como un campamento de guerra." },
         { "En su corazón se alza el Fuerte Grommash, llamado así por Grom Grito Infernal, que bebió la sangre del demonio Mannoroth y condenó a su pueblo, para después matar a Mannoroth con su propia hacha y liberarlo. En el Valle de los Espíritus, los chamanes y los trols mantienen sus fuegos. En el Circo de las Sombras, según me dicen, hay brujos a los que la Horda tolera más que confía." },
         { "No es una ciudad que reciba bien a los enanos. Pero es una ciudad de verdad y los orcos la levantaron de la nada en unos pocos años, que es más de lo que puede decirse de la mayoría." },
+      },
+    },
+    ["orgrimmar-tune"] = {
+      title = "Orgrimmar",
+      text = {
+        { "Orgrimmar lleva el nombre de Orgrim Martillo Maldito, que dirigió la Horda antes que Thrall, y Thrall la levantó sobre la tierra roja de Durotar. Su melodía suena en algún lugar entre las murallas. No pretenderé saber dónde, solo que los orcos no son tímidos para nada." },
       },
     },
     ["paladins"] = {
@@ -6420,6 +6478,12 @@ ns.translate({
         { client = "forever", "Es una ciudad de comercio y soldados, con barcos en su puerto, de sacerdotes y espías, y de una corte que susurra. El niño del trono es su rey. Los hombres y las mujeres que lo rodean la gobiernan." },
       },
     },
+    ["stormwind-tune"] = {
+      title = "Ventormenta",
+      text = {
+        { "Ventormenta tiene su propia melodía, que suena entre los canales y las catedrales de la capital humana. La Horda quemó la ciudad en la primera guerra, y los humanos la reconstruyeron más grande y más orgullosa que antes. Observo que es una ciudad levantada por gente que esperaba ser atacada de nuevo." },
+      },
+    },
     ["stranglethorn-vale"] = {
       title = "Vega de Tuercespina",
       text = {
@@ -6612,6 +6676,12 @@ ns.translate({
         { "En El Baluarte hay cosas más extrañas. Alexi Barov, el último de una casa noble de Lordaeron que vendió su castillo al Culto de los Malditos, se reúne allí con los Renegados. Tiene opiniones sobre la fortuna familiar que comparte de buen grado." },
       },
     },
+    ["the-burning-lands"] = {
+      title = "Las tierras ardientes",
+      text = {
+        { "La Montaña Roca Negra, Las Estepas Ardientes y La Garganta de Fuego son el mismo fuego visto desde tres lados. Los enanos Hierro Negro tienen la Garganta, y Ragnaros tiene el corazón de la montaña. No me quedaría mucho rato en ninguno de los dos sitios." },
+      },
+    },
     ["the-cauldron"] = {
       title = "La Caldera",
       text = {
@@ -6658,6 +6728,12 @@ ns.translate({
         { "Tras la Segunda Guerra fue destruido y Ner'zhul lo abrió de nuevo en busca de mundos que conquistar. Una expedición de la Alianza, bajo Khadgar y Turalyon, lo atravesó hacia Draenor para acabar con la amenaza y destruyó el Portal desde el otro lado, cortando su regreso a Azeroth. Su gran armazón de piedra sigue en mitad del yermo, con el paso inactivo y demonios reunidos alrededor." },
       },
     },
+    ["the-dark-woods"] = {
+      title = "Los bosques sombríos",
+      text = {
+        { "El Bosque del Ocaso, el Paso de la Muerte, los Claros de Tirisfal y el Bosque de Argénteos comparten una sola melodía, y ninguno de ellos es un lugar cómodo donde quedarse. Tirisfal era la campiña de Lordaeron antes de que llegara la plaga, y hoy la guardan los Renegados. A la melodía no le hizo falta cambiar para ajustarse a ellos." },
+      },
+    },
     ["the-deadmines"] = {
       title = "Las Minas de la Muerte",
       text = {
@@ -6671,6 +6747,12 @@ ns.translate({
         { "Los corceles nefastos viven en otro mundo, las llanuras ardientes de Xoroth, que Hel'nurath, un señor de los demonios, considera suyas, y el brujo que quiera uno tiene que abrirse paso hasta allí y tomarlo. Mor'zul Sangredoble, que acampa junto al Altar de la Tempestad en Las Estepas Ardientes, vende ese saber a un precio que se paga en sangre, sudor y buena cantidad de oro." },
         { "Los glifos se escriben con la sangre de las lechubestias de Cuna del Invierno, enloquecidas por los demonios de la Garganta Negro Rumor. El sirviente de Mor'zul, Gorzeeki Ojosalvajes, un alquimista goblin que prefiere la sangre todavía caliente dentro de un roedor, hace el resto con lo que el brujo le trae: una campana que lleva el nombre del difunto brujo Dethmoora Darkeyes, una rueda y una vela para el círculo y una piedra imán de arcanita que lo sostenga todo. El pergamino necesita polvo estelar xorotiano, que solo el señor del terror Pesadilla, en la sede del Consejo de la Sombra en Jaedenar, puede proporcionar, y no a cambio de nada. Quería el corazón de su propio sirviente Ulathek, que espiaba para Hel'nurath. Pensaba comérselo cuando llevara una semana pudriéndose. Después, el polvo pasa al papel gracias a un diablillo en un tarro, al que se suelta en el laboratorio de alquimia de Scholomance." },
         { "El ritual se celebra en La Masacre: un Círculo de invocación superior, el pergamino, un portal a Xoroth, y por él llega algo que hay que vencer antes de que su espíritu se doblegue. Un señor demoníaco, un señor del terror, el Consejo de la Sombra y ese diablillo tienen parte en ello. Lo dejo escrito porque es verdad, $gviajero:viajera;, no porque lo recomiende." },
+      },
+    },
+    ["the-dry-lands"] = {
+      title = "Las tierras secas",
+      text = {
+        { "Polvo y espinos de los Baldíos a las Tierras Inhóspitas, y de ahí a Las Tierras Devastadas, Desolace y la Sierra Espolón: una sola melodía para todo. Los orcos hicieron suyos los Baldíos después de la guerra de la Horda, y Las Tierras Devastadas aún llevan la cicatriz del Portal Oscuro. Me parece una melodía acertada para una comarca tan disputada." },
       },
     },
     ["the-embalmer"] = {
@@ -6755,6 +6837,12 @@ ns.translate({
         { "Una orden que mantiene su guerra en secreto para todo el mundo difícilmente puede ser corregida cuando se equivoca, $gviajero:viajera;. El Consejo lo aprendió demasiado tarde." },
       },
     },
+    ["the-high-mountains"] = {
+      title = "Las altas montañas",
+      text = {
+        { "Dun Morogh, las Tierras Altas de Arathi y Cuna del Invierno responden todas a esta melodía, y confieso que no soy imparcial con la primera. Las Tierras Altas de Arathi albergaron en otro tiempo la capital de Thoradin, cuando Arathor gobernaba las tierras humanas. Cuna del Invierno no guarda más que nieve y mucha paciencia." },
+      },
+    },
     ["the-high-order"] = {
       title = "La Orden Eminente",
       text = {
@@ -6769,12 +6857,24 @@ ns.translate({
         { "Es una tierra hermosa y peligrosa. Lechubestias en los bosques, mocos en los pantanos, trols Secacorteza y Vilrama en las ruinas y, sobre el gran templo de Jintha'Alor, sacerdotes que aún sacrifican al dios de la sangre. Los jinetes de grifos de Pico Nidal lo vigilan todo desde el aire." },
       },
     },
+    ["the-jungle"] = {
+      title = "La jungla",
+      text = {
+        { "La misma melodía cubre la Vega de Tuercespina, Feralas y las ruinas trol de Zul'Gurub y del Templo de Atal'Hakkar. Los trols Gurubashi gobernaron en otro tiempo esta jungla desde su gran ciudad. Su imperio ha desaparecido, los árboles no." },
+      },
+    },
     ["the-lich-king"] = {
       title = "El Rey Exánime",
       text = {
         { "El Rey Exánime comenzó como un orco. Ner'zhul, el viejo chamán que primero condujo a su pueblo a la Legión, huyó al Vacío Abisal después de la última guerra de los orcos y Kil'jaeden lo esperaba. El demonio despedazó su cuerpo mientras mantenía vivo su espíritu y después le ofreció un último trato. Ner'zhul aceptó. Su espíritu quedó sellado en un bloque de hielo de los confines del Vacío y nació el Rey Exánime. Sus caballeros de la muerte y seguidores fueron rehechos como exánimes para servirlo." },
         { "Kil'jaeden arrojó el hielo al mundo. Cayó en el glaciar de Corona de Hielo, en Rasganorte, y quedó en forma de trono. Desde el Trono Helado, el Rey Exánime alcanzó las mentes del norte, primero trols de hielo y wendigos, y después una aldea humana al borde del Cementerio de Dragones, donde probó la peste destinada a Lordaeron. Los señores del terror lo vigilaban. Kil'jaeden no confiaba en nadie, menos aún en un prisionero." },
         { "Lo que vino después llena la mitad de este registro. El libro de nuestra biblioteca termina con el príncipe Arthas ascendiendo al Trono Helado y poniéndose el yelmo de Ner'zhul, fundiéndose ambos en uno. Dice que se rumorea que reconstruye la ciudadela de Corona de Hielo y que Kel'Thuzad gobierna las Tierras de la Peste en su nombre. La Liga no tiene ninguna expedición en Rasganorte y no veo motivos para iniciarla, $gviajero:viajera;." },
+      },
+    },
+    ["the-living-forest"] = {
+      title = "El bosque vivo",
+      text = {
+        { "La melodía de Teldrassil, el gran árbol que los elfos de la noche llaman hogar, continúa por los bosques de Vallefresno. Ambos pertenecen a un pueblo que cuenta sus años en milenios y que recorría estos bosques antes de que los enanos aprendieran a excavar." },
       },
     },
     ["the-lost-dwarves"] = {
@@ -6800,6 +6900,12 @@ ns.translate({
         { "A Hendel lo encontraron de guardia en el pantano, a las afueras de Theramore, y se lo llevaron de vuelta a la isla para interrogarlo. Ahí termina el relato. El rey no ha aparecido, y nadie ha dicho para quién trabajaban los Defias. Ventormenta sigue teniendo un niño en el trono y un regente a su lado." },
       },
     },
+    ["the-open-plains"] = {
+      title = "Las llanuras abiertas",
+      text = {
+        { "Las granjas de Páramos de Poniente, las colinas rojas de Durotar, la hierba de Mulgore y Las Mil Agujas comparten una sola melodía, que es pedir mucho a una canción para tantos pueblos. Los humanos aran Páramos de Poniente, los orcos hicieron de Durotar su patria bajo Thrall, y los tauren recorren Mulgore desde mucho antes que unos y otros." },
+      },
+    },
     ["the-ordering"] = {
       title = "La ordenación de Azeroth",
       text = {
@@ -6807,6 +6913,18 @@ ns.translate({
         { "El Panteón de los titanes les hizo la guerra. Cuatro grandes señores de los elementos dirigieron los ejércitos de los dioses antiguos: Ragnaros, el Señor del Fuego, Therazane, la Madre Pétrea, Al'Akir, el Señor del Viento, y Neptulon, el Cazamareas. Cayeron uno a uno. Las ciudadelas de los dioses antiguos fueron destruidas y los propios dioses, cinco, encadenados muy hondo bajo tierra. Sin sus amos, los elementales fueron desterrados a un plano propio para combatir entre sí eternamente." },
         { "Después trabajaron los titanes. Crearon terráneos de piedra viva para tallar las profundidades y gigantes marinos para alzar la tierra del mar. Al terminar había un continente, Kalimdor, y en su corazón un lago de poder brillante al que llamaron Pozo de la Eternidad." },
         { "Aún desenterramos sus obras en Uldaman y en los bancales de Tierras Inhóspitas. De vez en cuando también vuelve algo que enterraron: un Señor del Fuego bajo Roca Negra, un dios en las arenas de Silithus. Sospecho que los titanes dejaron el mundo más ordenado de lo que lo encontraron, pero no terminado." },
+      },
+    },
+    ["the-plagued-lands"] = {
+      title = "Las tierras de la plaga",
+      text = {
+        { "Las Tierras de la Peste del Oeste y las Tierras de la Peste del Este comparten esta melodía con el Monasterio Escarlata. La plaga empezó en el grano de Andorhal, y lo que hizo a las granjas del norte de Lordaeron aún se lee sobre el terreno. La Cruzada Escarlata es, a su manera, otro rostro de la misma herida." },
+      },
+    },
+    ["the-sands"] = {
+      title = "Las arenas",
+      text = {
+        { "Tanaris, Silithus y la ciudad trol de Zul'Farrak comparten una melodía de arena y sol. En Silithus se alzan además las Puertas de Ahn'Qiraj, lo cual es una mala razón para visitarla y una excelente razón para escribir sobre ella." },
       },
     },
     ["the-scarab-wall"] = {
@@ -6859,6 +6977,12 @@ ns.translate({
       text = {
         { "Durante miles de años, los espíritus del viento mantuvieron en el aire la Isla de Zephras y cuidaron de los shen'dorei. Hace algunos siglos se marcharon. Nada de lo que han intentado desde entonces los shen'dorei ha logrado traerlos de vuelta ni explicar por qué. Los duendes que aún juegan sobre la isla son ecos sin las mentes de los espíritus que antes hablaban con ellos." },
         { "Lo que dejaron los espíritus se desgasta. Sus pilones de anclaje mantienen unida la isla, pero su magia va y viene. Las líneas Ley han empezado a aflorar como cicatrices. Se recogen y estudian con empeño piedras de viento que contienen el poder bruto de los vientos. Cada facción tiene su respuesta: los Formavientos quieren encontrar a los espíritus y traerlos a casa, la Orden Eminente quiere aprender a vivir sin ellos y los Al'Aketh prefieren arrodillarse ante el Señor del Viento." },
+      },
+    },
+    ["the-sorrowful-swamp"] = {
+      title = "El pantano de las penas",
+      text = {
+        { "El Pantano de las Penas y el Cráter de Un'Goro, dos lugares sin nada más en común, tienen la misma melodía. El primero guarda la aldea orca de Rocal y el templo hundido de Atal'Hakkar. El segundo guarda una enorme cantidad de dinosaurios, algo que ninguna de mis historias ha logrado explicar." },
       },
     },
     ["the-stockade"] = {
@@ -7016,6 +7140,12 @@ ns.translate({
         { "Cairne sigue siendo el gran jefe en su centro. Los Tótem Siniestro se cuentan entre quienes se oponen a su liderazgo. El viajero ve a un pueblo que por fin tiene una ciudad, aunque un hogar permanente no haya terminado con los desacuerdos entre sus tribus." },
       },
     },
+    ["thunder-bluff-tune"] = {
+      title = "Cima del Trueno",
+      text = {
+        { "La Cima del Trueno se alza sobre las altas mesetas de Mulgore, hogar de los tauren y de Cairne Pezuña de Sangre, su jefe. Su melodía suena en las peñas y en las aldeas de las llanuras de abajo. Los tauren construyen como viven, despacio y al aire libre." },
+      },
+    },
     ["timber"] = {
       title = "Maderero",
       text = {
@@ -7111,6 +7241,12 @@ ns.translate({
         { "La capital de Lordaeron yace en ruinas sobre la ciudad de los Renegados. Tras sus muros derruidos están el salón del trono destrozado y los patios sin vida. Debajo, las viejas criptas y catacumbas se han convertido en Entrañas, dispuesta alrededor de anillos de cieno verde. Sylvanas celebra su corte en el Barrio Real." },
         { "Mercaderes, instructores y guardias ocupan los otros barrios, y la Sociedad Real de Boticarios trabaja en el Apothecarium. Los Renegados han creado una capital en funcionamiento bajo los restos de la que conocieron en vida. Quien solo mirase las ruinas de arriba no vería dónde se atienden ahora los asuntos que le quedan al reino." },
         { side = "Horde", aside = true, sign = "P. F.", "Lo que dice del Apothecarium es correcto, hasta donde llega. Me encontrarás allí, en el puente sur de los dos que tiene, donde formulo preguntas a los héroes que creen que basta con la fuerza. Ven a examinarte, $gviajero:viajera;." },
+      },
+    },
+    ["undercity-tune"] = {
+      title = "Entrañas",
+      text = {
+        { "Entrañas se extiende bajo las ruinas de la capital de Lordaeron, y los Renegados de Sylvanas la guardan. Su melodía suena en algún lugar de los salones de abajo. Es la única ciudad que conozco cuyos habitantes tomarían la palabra acogedora por un insulto." },
       },
     },
     ["ungoro-crater"] = {

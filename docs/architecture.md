@@ -86,6 +86,24 @@ stays there). What a page is and how it is written: `docs/writing.md`.
   welcome`: the logo, `Media/Logo.tga` from `assets/logo.png` with magick,
   what the codex is, the choices and another character's; the packages carry
   `Media/`).
+- The Soundtrack tab (added 29 October 2026, `ideas/soundtrack.md`): the
+  tunes of the game's music, one entry per `ZoneMusic` set, as
+  `content/soundtrack/<id>.md` (kind `tune`, `group:` lands | cities |
+  moments | depths, `unlock: - music: <set id>`). `scripts/music.ts` writes
+  `data/music.json` from wow-data's `music_*` tables (a game's file ids are
+  its own: Forever ships other recordings); the build puts each game's sets'
+  tracks and the areas that play them into `Content_*.lua` (`music`, only the
+  sets a tune names). A tune is no page: the soundtrack chapter is left out of
+  `chapters`, `ns.total` skips kind `tune`, and a find goes in
+  `char.tunes[id]`, not `char.entries`. `Soundtrack.lua` finds a tune after 45
+  seconds in an area that plays it with the music on (the client has no event
+  or call for the music playing: the place is the only signal, so it says
+  "found", never "heard"; a building row the client pins to a whole city is
+  inexact: the tune plays somewhere in it), and plays a found one again with
+  `PlayMusic(fileDataID)` (always true, even for a bad id) until `StopMusic`.
+  `SoundtrackBook.lua` is the tab (the kit's list and page: groups, "???" for
+  a tune not found, one button a track). Every tune is translated like a page
+  (French, German and Spanish pages are tested complete).
 - Languages (docs/localization.md): every word the addon shows goes through
   `L["..."]` (`ns.L`, the kit's `K.L`: English by default, a missing word is
   its own English; plurals through `ns.kit.plural(n, "one", "many")`, dates

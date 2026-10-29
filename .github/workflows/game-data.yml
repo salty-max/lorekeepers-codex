@@ -25,6 +25,7 @@ jobs:
       generate: |
         bun scripts/areas.ts
         bun scripts/areas.ts --forever
+        bun scripts/music.ts
         python3 scripts/texts.py
         python3 scripts/portraits.py
         # (the game's names in every language, English one of them; a

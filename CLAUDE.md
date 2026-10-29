@@ -13,6 +13,7 @@ conventions); salty-max/lorekeepers-codex. Read the family's CLAUDE.md
 | The addon file by file: content and build, the package, the game's data files, Core, Unlocks, Library, the book's tabs, languages, scan, the tests, the daily job, releases | `docs/architecture.md` |
 | What deserves a page, the two voices (Archesonus, Parqual), the lore scope, unlocks, textures | `docs/writing.md` |
 | The pages | `content/<chapter>/<id>.md`, `_chapter.md` per chapter |
+| The Soundtrack tab's tunes | `content/soundtrack/<id>.md` (kind `tune`), `data/music.json` (`bun scripts/music.ts`), `docs/architecture.md` |
 | The plan per zone (status, unlock, what to check) | `PLAN.md` |
 | Forever's own content | `FOREVER.md` |
 | Languages: how translation works, each language's notes | `docs/localization.md`, `docs/spanish-translation.md`, `docs/french-readable-translations.md`, `docs/german-readable-translations.md` |
@@ -34,6 +35,7 @@ bun run build        # content -> Content_Classic.lua and Content_Forever.lua, t
 bun run package      # dist/LorekeepersCodex-<version>.zip for a test in the game
 bun run kit:sync     # after a change to the kit (Kit.lua, Media, scripts/root.ts and root.py)
 bun run locales      # --keys writes i18n/words.json; --stamp once a translation is read again
+bun scripts/music.ts               # data/music.json, the music's sets, tracks and areas, from wow-data
 bun scripts/areas.ts [--forever]   # the areas; python3 scripts/texts.py, portraits.py after a read: or portrait:
 bun run when <page>|--changed|--all  # when each page unlocks and what comes after it: a page unlocks only after the last thing it tells
 scripts/release.sh --version X.Y.Z [--hold] NOTES.md   # check, tag, push; Actions publish

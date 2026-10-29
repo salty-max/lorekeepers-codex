@@ -11,7 +11,9 @@
 --                                                     race and class tokens, and
 --                                                     "Race:CLASS", for the encounters
 --     library = { texts, keys, nextId }               the texts copied (Library.lua)
---     collapsed[chapterId], libraryFolded[shelf]      the book's folds
+--     tunes[id] = { at, level, zoneId, subId }        the soundtrack's finds (Soundtrack.lua)
+--     collapsed[chapterId], libraryFolded[shelf],
+--     soundtrackFolded[group]                         the book's folds
 local _, ns = ...
 local K = ns.kit
 local L = K.L
@@ -78,7 +80,14 @@ function ns.belongsTo(saved, guid, level, xp)
 end
 
 local function newCodex(guid)
-  char = { guid = guid, entries = {}, read = {}, achievements = {}, met = { races = {}, classes = {}, combos = {} } }
+  char = {
+    guid = guid,
+    entries = {},
+    read = {},
+    achievements = {},
+    tunes = {},
+    met = { races = {}, classes = {}, combos = {} },
+  }
   LorekeepersCodexChar = char
 end
 
@@ -93,6 +102,7 @@ function ns.login()
     char.entries = char.entries or {}
     char.read = char.read or {}
     char.achievements = char.achievements or {}
+    char.tunes = char.tunes or {}
     char.met = char.met or { races = {}, classes = {}, combos = {} }
   else
     newCodex(guid)

@@ -22,10 +22,13 @@
  *                               # with its name in every language)
  *     - people: Dwarf           # a player of this race met (targeted), or one's own
  *     - calling: MAGE           # a player of this class met (targeted), or one's own
+ *     - music: 13               # a tune (kind: tune): the ZoneMusic set of that id (data/music.json,
+ *                               # bun scripts/music.ts), found by standing where it plays (Soundtrack.lua)
  *   also: [war-of-the-three-hammers]
  *   race: Dwarf, Gnome          # only for these races (UnitRace tokens, or
  *                               # "other" for races without a page of their own)
  *   client: forever             # only on this client (forever or classic)
+ *   group: cities               # a tune's group in the Soundtrack tab (lands | cities | moments | depths)
  *   portrait: 2784              # the creature whose still portrait heads the
  *                               # page (figures, creatures, factions: the figure,
  *                               # a typical one, the leader); its display id
@@ -54,14 +57,14 @@ import { join, relative } from "node:path";
 const ROOT = new URL("..", import.meta.url).pathname;
 const CONTENT = join(ROOT, "content");
 
-const KINDS = ["place", "figure", "faction", "creature", "history", "note", "calling"] as const;
+const KINDS = ["place", "figure", "faction", "creature", "history", "note", "calling", "tune"] as const;
 const CLASSES = ["WARRIOR", "PALADIN", "HUNTER", "ROGUE", "PRIEST", "SHAMAN", "MAGE", "WARLOCK", "DRUID"];
 const RACES = ["Human", "Dwarf", "NightElf", "Gnome", "Orc", "Troll", "Tauren", "Scourge", "Skyborne", "other"];
 const STANDINGS: Record<string, number> = { hated: 1, hostile: 2, unfriendly: 3, neutral: 4, friendly: 5, honored: 6, revered: 7, exalted: 8 };
 
 type Area = { id: number; name: string; parent: number };
-type Unlock = ({ always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number } | { people: string } | { calling: string } | { read: string[] }) & { client?: string };
-type Entry = { id: string; title: string; kind: string; portrait: number; chapter: string; unlock: Unlock[]; also: string[]; race: string[]; client: string; text: Para[]; file: string };
+type Unlock = ({ always: true } | { area: number } | { npc: number } | { kill: number } | { quest: number } | { faction: number; standing: number } | { map: number; x: number; y: number; r: number } | { people: string } | { calling: string } | { read: string[] } | { music: number }) & { client?: string };
+type Entry = { id: string; title: string; kind: string; portrait: number; chapter: string; unlock: Unlock[]; also: string[]; race: string[]; client: string; group: string; text: Para[]; file: string };
 const CLIENTS = ["classic", "forever"];
 
 const classicAreas: Area[] = JSON.parse(readFileSync(join(ROOT, "data/areas.json"), "utf8"));
@@ -72,6 +75,8 @@ const areas = [...classicAreas, ...foreverAreas];
 const areaById = new Map(areas.map((a) => [a.id, a]));
 const foreverOnly = new Set(foreverAreas.map((a) => a.id));
 const portraits: Record<number, { name: string; display: number }> = JSON.parse(readFileSync(join(ROOT, "data/portraits.json"), "utf8"));
+type Music = { sets: Record<string, { label: string; tracks: [number, string][] }>; areas: Record<string, { parent: number; sets: [number, number][] }> };
+const music: Record<string, Music> = JSON.parse(readFileSync(join(ROOT, "data/music.json"), "utf8"));
 const errors: string[] = [];
 const fail = (file: string, msg: string) => errors.push(`${relative(ROOT, file)}: ${msg}`);
 
@@ -150,6 +155,13 @@ function unlockOne(file: string, rule: string, client: string): Unlock | null {
       if (!text) return fail(file, `read: no text "${value.trim()}" in data/texts.json: python3 scripts/texts.py`), null;
       return { read: text.names };
     }
+    case "music": {
+      // a set of the game's music; on a page for both games, in both
+      const id = num(value);
+      const where = client ? [client] : CLIENTS;
+      if (id == null || !where.every((c) => music[c].sets[id])) return fail(file, `music: no set ${value} in ${where.join(" and ")} (data/music.json, bun scripts/music.ts)`), null;
+      return { music: id };
+    }
     case "position": {
       const [map, x, y, r] = value.split(/\s+/).map(Number);
       if (![map, x, y, r].every(Number.isFinite)) return fail(file, "position: <uiMapID> <x %> <y %> <radius %>"), null;
@@ -195,6 +207,7 @@ for (const file of walk(CONTENT).sort()) {
     text: paragraphs(body),
     race: typeof meta.race === "string" ? meta.race.split(",").map((r) => r.trim()) : [],
     client: typeof meta.client === "string" ? meta.client.trim() : "",
+    group: typeof meta.group === "string" ? meta.group.trim() : "",
     file,
   });
 }
@@ -209,6 +222,9 @@ for (const e of entries) {
   if (!e.text.length) fail(e.file, "no text");
   for (const r of e.race) if (!RACES.includes(r)) fail(e.file, `race: one of ${RACES.join(", ")}`);
   if (e.client && !CLIENTS.includes(e.client)) fail(e.file, `client: one of ${CLIENTS.join(", ")}`);
+  if ((e.kind === "tune") !== (e.chapter === "soundtrack")) fail(e.file, "a tune (kind: tune) lives in content/soundtrack/, and nothing else does");
+  if (e.kind === "tune" && !["lands", "cities", "moments", "depths"].includes(e.group)) fail(e.file, "group: one of lands, cities, moments, depths");
+  if (e.kind === "tune" && !e.unlock.some((u) => "music" in u)) fail(e.file, "a tune unlocks by music: <set id>");
   for (const client of CLIENTS) {
     if ((!e.client || e.client === client) && !e.unlock.some((u) => !u.client || u.client === client)) {
       fail(e.file, `no unlock rule on ${client}`);
@@ -242,6 +258,8 @@ const unlockLua = (u: Unlock) =>
               ? `{ people = ${JSON.stringify(u.people)} }`
               : "calling" in u
                 ? `{ calling = ${JSON.stringify(u.calling)} }`
+                : "music" in u
+                  ? `{ music = ${u.music} }`
                 : "read" in u
                   ? `{ read = { ${u.read.map(q).join(", ")} } }`
                   : `{ map = ${u.map}, x = ${u.x}, y = ${u.y}, r = ${u.r} }`;
@@ -262,7 +280,30 @@ function luaFor(client: string) {
   const chapterList = [...chapters.values()]
     .sort((a, b) => a.order - b.order)
     .map((c) => ({ ...c, entries: c.entries.filter((id) => keptIds.has(id)) }))
-    .filter((c) => c.entries.length);
+    // (the soundtrack's tunes are the Soundtrack tab's, not a chapter of the pages)
+    .filter((c) => c.entries.length && c.id !== "soundtrack");
+  // the music of the tunes this game has: their sets' tracks, and the areas that play them
+  const tuneSets = new Set(kept.flatMap((e) => rulesFor(e).flatMap((u) => ("music" in u ? [u.music] : []))));
+  const gm = music[client];
+  // a set with an exact area is found there only: a building row pinned to a whole city
+  // (Darnassus's music in Stormwind) counts where nothing plays the set exactly
+  const exactSets = new Set(Object.values(gm.areas).flatMap((a) => a.sets.filter(([, exact]) => exact).map(([set]) => set)));
+  // every area that plays music stays (its sets none of a tune's: an empty list), so a
+  // subzone with music of its own is never taken for its zone
+  const musicAreas = Object.entries(gm.areas).map(([id, a]) => ({
+    id: Number(id),
+    parent: a.parent,
+    sets: a.sets.filter(([set, exact]) => tuneSets.has(set) && (exact || !exactSets.has(set))),
+  }));
+  const musicLua = `  music = {
+    sets = {
+${[...tuneSets].sort((a, b) => a - b).map((id) => `      [${id}] = { ${gm.sets[id].tracks.map(([f, p]) => `{ ${f}, ${q(p)} }`).join(", ")} },`).join("\n")}
+    },
+    areas = {
+${musicAreas.map((a) => `      [${a.id}] = { ${a.parent}, ${a.sets.map(([set, exact]) => `{ ${set}, ${exact} }`).join(", ")} },`).join("\n")}
+    },
+  },
+`;
   const lua = `-- Generated by scripts/build.ts from content/: edit the Markdown, not this file.
 local _, ns = ...
 ns.content = {
@@ -274,7 +315,7 @@ ${chapterList.map((c) => `    { id = ${q(c.id)}, title = ${q(c.title)}, summary 
 ${kept
   .map(
     (e) => `    [${q(e.id)}] = {
-      title = ${q(e.title)}, kind = ${q(e.kind)}, chapter = ${q(e.chapter)},${e.portrait ? ` portrait = ${portraits[e.portrait].display},` : ""}
+      title = ${q(e.title)}, kind = ${q(e.kind)}, chapter = ${q(e.chapter)},${e.group ? ` group = ${q(e.group)},` : ""}${e.portrait ? ` portrait = ${portraits[e.portrait].display},` : ""}
       unlock = { ${rulesFor(e).map(unlockLua).join(", ")} },
       also = { ${e.also.filter((a) => keptIds.has(a)).map(q).join(", ")} },${e.race.length ? ` race = { ${e.race.map((r) => `${r} = true`).join(", ")} },` : ""}
       text = {
@@ -284,7 +325,7 @@ ${e.text.filter((p) => mine(p.client)).map((p) => `        { ${p.italic ? "itali
   )
   .join("\n")}
   },
-  -- English names of every area of this game's (when the client can't name an
+${musicLua}  -- English names of every area of this game's (when the client can't name an
   -- area id; and a place recorded in English, read in the client's language).
   areaNames = { ${(client === "forever" ? areas : classicAreas).map((a) => `[${a.id}] = ${q(a.name.trim())}`).join(", ")} },
 }
