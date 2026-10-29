@@ -3946,6 +3946,12 @@ ns.translate({
         { "Die Frostwolf sahen Eindringlinge. Die Stormpike sahen Orcs, die ehrlicher Wissenschaft im Weg standen, und König Magni hat ihnen inzwischen den königlichen Befehl erteilt, das Tal für Ironforge einzunehmen. Nun kämpfen die beiden mit Heeren, Burgen, Friedhöfen und Minen quer durch das Tal, und beide Seiten rufen ihr ganzes Bündnis um Hilfe. Ich wünschte, ich könnte sagen, die Liga habe keinen Anteil daran." },
       },
     },
+    ["alterac-valley-tune"] = {
+      title = "Alteractal",
+      text = {
+        { "Das Alteractal hat keine eigene Musik. Seine sechs Stücke sind von den verderbten Wäldern, den Lagern der Furbolgs und den verseuchten Landen geliehen. Orcs und Zwerge nennen das Tal beide ihr eigen, und jede Seite ruft ihre Verbündeten, um es zu halten. Die Befehle meines eigenen Königs sind Teil dieses Streits, und ich stehe seinem Thron zu nah, um gerecht darüber zu urteilen." },
+      },
+    },
     ["ambermill"] = {
       title = "Ambermill",
       text = {
@@ -5399,6 +5405,12 @@ ns.translate({
         { "Das Dorf darunter ist zerstört, und der Keller des Meisters liegt unter seinen verlassenen Gebäuden. Karazhan selbst bleibt verschlossen. Der Turm hat den Mann überdauert, der dort lebte, und die Gewissheit, dass er jemals ganz allein war." },
       },
     },
+    ["karazhan-crypts-tune"] = {
+      title = "Karazhangruften",
+      text = {
+        { "Die Gruften unter Karazhan, Medivhs Turm im Gebirgspass der Totenwinde, haben, irgendwo in ihnen, drei eigene Stücke. Medivh war der letzte Wächter von Tirisfal, und sein Turm hat ihn überdauert. Was darunter liegt, hat weit mehr überdauert." },
+      },
+    },
     ["kargath"] = {
       title = "Kargath",
       text = {
@@ -5754,6 +5766,12 @@ ns.translate({
       text = {
         { "Naxxramas schwebt über den Pestländern, eine fliegende Zitadelle der Geißel und Kel'Thuzads Sitz. Von ihr kamen Streitkräfte für einen großen Einfall in die Städte Azeroths, was die Argentumdämmerung dazu brachte, jeden zu rufen, der bereit war, sich den Toten entgegenzustellen." },
         { "Fünf Jahre nach dem letzten Krieg regt sich der Lichkönig wieder, und Kel'Thuzad sammelt Heere für einen weiteren Angriff. Monstrositäten, Spinnen und Seuchenbringer bewohnen die Nekropole, zusammen mit vier Reitern, die einst Streiter des Lichts waren. Schaut nach oben, wenn Ihr die Pestländer durchquert, $gReisender:Reisende;. Ihr Befehlshaber hat eine Festung, die nicht darauf angewiesen ist, die Straße darunter zu halten." },
+      },
+    },
+    ["naxxramas-tune"] = {
+      title = "Naxxramas",
+      text = {
+        { "Naxxramas, Kel'Thuzads schwebende Nekropole über den Pestländern, birgt, irgendwo in ihren Vierteln, mehr Musik als jeder andere Ort, den ich kenne. Ihre Flügel gehören den zusammengenähten Toten, den Spinnen und der Seuche, und ein weiterer vier Reitern, die für das Licht kämpften, bevor sie fielen. Dahinter lauern Saphiron und Kel'Thuzad. Die Argentumdämmerung bittet jeden, der kann, hineinzugehen und die Geißel dort zu vernichten." },
       },
     },
     ["nefarian"] = {
@@ -6152,6 +6170,12 @@ ns.translate({
         { "Die Verlassenen wissen besser als die meisten, was es heißt, wenn eine Seuche einem die Heimat nimmt. Dieses Wissen hat nicht alle ihre Apotheker davor bewahrt, dasselbe Elend gern anderen zu bereiten." },
       },
     },
+    ["ruins-of-ahn-qiraj-tune"] = {
+      title = "Ruinen von Ahn'Qiraj",
+      text = {
+        { "Die Ruinen von Ahn'Qiraj hinter dem Skarabäuswall in Silithus teilen sich vier Stücke mit den äußeren Hallen des Tempels. Vor tausend Jahren haben Nachtelfen und Drachen die Qiraji hinter diesem Wall eingeschlossen. Der Wall hat sich wieder geöffnet, und was hindurchkam, ist in der Zwischenzeit nicht freundlicher geworden." },
+      },
+    },
     ["ruins-of-ahnqiraj"] = {
       title = "Ruinen von Ahn'Qiraj",
       text = {
@@ -6226,12 +6250,25 @@ ns.translate({
         { "Der Kreuzzug bekämpft die Geißel, doch die Verderbnis in seinen eigenen Reihen gibt einen weiteren Grund, ihm zu misstrauen. Fragt im Kloster nach Hochlord Mograine und seiner Klinge, dem Aschenbringer, und achtet genau darauf, wer verstummt. Und fragt die Argentumdämmerung, was sie fand, als sie sich den Obersten Kreuzzügler selbst genau ansah." },
       },
     },
+    ["scarlet-enclave-tune"] = {
+      title = "Die Scharlachrote Enklave",
+      text = {
+        { "Die Scharlachrote Enklave des Kreuzzugs teilt sich ihre Musik mit Neu-Avalon in den Östlichen Pestländern. Tyrs Hand, Neu-Avalon und das Arkane Sanktum liegen heute alle in ihr, und an Mauern hat es dem Kreuzzug nie gefehlt." },
+        { client = "classic", "Sechs ihrer Stücke sind von den verborgenen Orten geliehen, und fünf gehören ihr allein. Irgendwo in der Kapelle der Enklave warten drei eigene Stücke mehr, neben drei weiteren von den verborgenen Orten." },
+      },
+    },
     ["scarlet-monastery"] = {
       title = "Das Scharlachrote Kloster",
       text = {
         { "Der Scharlachrote Kreuzzug hält ein Kloster auf einem Hügel im Norden von Tirisfal, über dem Meer. Seine Mauern umschließen eine Bibliothek, eine Waffenkammer, einen Friedhof und eine Kathedrale. Ritter, Priester und Inquisitoren üben dort für einen Krieg, der weit über die Geißel hinausreicht." },
         { "Auch die Verlassenen sind Feinde, ebenso jeder Reisende, den der Kreuzzug verdächtig findet. Hochinquisitor Whitemane und der Scharlachrote Kommandant Mograine halten die Kathedrale, während Streiter der Verlassenen gegen die Festung geschickt werden. Das Kloster hat die äußere Ausstattung eines Hauses des Lichts. Nähert Euch mit mehr Vorsicht, als diese Beschreibung nahelegen mag." },
         { side = "Horde", aside = true, sign = "P. F.", "Hinter diesen Mauern liegt eine Bibliothek, und in ihr ein Buch, mit dem sie ihre Paladine lehren, meinesgleichen zu vernichten. Ich schicke Helden, um es zu holen, und ich bitte sie, es zu lesen, bevor sie es zurückbringen." },
+      },
+    },
+    ["scarlet-monastery-tune"] = {
+      title = "Das Scharlachrote Kloster",
+      text = {
+        { "Irgendwo im Scharlachroten Kloster spielen zwei Stücke, die auch Ironforge hat, dieselben zwei wie in Anvilmar. Warum ein Kloster des Scharlachroten Kreuzzugs die Musik meiner eigenen Stadt entlehnt, kann ich nicht erklären, und Hochinquisitor Whitemane möchte ich lieber nicht fragen. Der Kreuzzug schickt seine Agenten von dort aus, bis nach Deathknell in Tirisfal." },
       },
     },
     ["scholomance"] = {
@@ -6668,6 +6705,12 @@ ns.translate({
         { "Teldrassil ist ein Baum, und ich schreibe diesen Satz im Wissen, wie töricht er klingt. Er erhebt sich vor der Nordküste der Dunkelküste aus dem Meer, so gewaltig, dass auf seinen Ästen Wälder wachsen und Flüsse an ihnen entlangfließen, und die Nachtelfen leben in seiner Krone. Sein Name bedeutet \"Krone der Erde\"." },
         { "Die Nachtelfen hatten einst einen anderen solchen Baum, Nordrassil, auf dem Hyjal, und solange er stand, alterten sie nie. Am Ende des letzten Krieges ließen sie ihn brechen, um den Dämon Archimonde zu vernichten, und gaben mit ihm ihre Unsterblichkeit auf. Als der Krieg vorbei war, ließen die Druiden unter Fandral Staghelm Teldrassil wachsen, um seinen Platz einzunehmen." },
         { "Der alte Baum hatte den Segen der großen Drachen. Der neue hat ihn nicht, und seine eigenen Hüter geben zu, dass sein Wachstum nicht ohne Makel war. Mehr dazu an anderer Stelle. Für jetzt: Nehmt in Auberdine ein Schiff, geht durch das Tor von Rut'theran und seht ihn Euch an. Es gibt nichts Vergleichbares auf der Welt." },
+      },
+    },
+    ["temple-of-ahn-qiraj-tune"] = {
+      title = "Tempel von Ahn'Qiraj",
+      text = {
+        { "Irgendwo tief im Tempel von Ahn'Qiraj spielt ein Dutzend Stücke, die ich nirgendwo sonst gefunden habe. Die Qiraji dienen C'Thun, einem Alten Gott, dessen Bosheit schon da war, bevor die Welt Gestalt annahm, und der Tempel ist sein Haus. Wer die letzte Kammer lebend verlassen hat, trägt das Auge dessen bei sich, der dort herrschte, und das nehme ich als redlichen Beweis, dass dort nichts zu alt ist, um zu sterben." },
       },
     },
     ["temple-of-ahnqiraj"] = {
@@ -7535,6 +7578,12 @@ ns.translate({
       text = {
         { "In der Warsongschlucht, am Südrand von Ashenvale, haben die Nachtelfen ihre Stellung gegen weiteres Holzfällen der Warsong bezogen. Die Schildwachen der Silverwing halten das eine Ende des Tals und die Warsongvorhut das andere. Ihre Kämpfer laufen zwischen den Lagern hin und her, um das Banner des Feindes zu erbeuten." },
         { "Die Horde betrachtet dies als Verteidigung eines Holzfällerbetriebs. Die Allianz betrachtet den Betrieb als Einfall. Beide schicken Kämpfer von weit jenseits Ashenvales." },
+      },
+    },
+    ["warsong-gulch-tune"] = {
+      title = "Warsongschlucht",
+      text = {
+        { "Die Warsongschlucht hat fünf eigene Stücke. Die Schildwachen der Silverwing kämpfen dort gegen die Warsongvorhut, im Streit um die Äxte der Orcs und die Bäume, die sie fällen. Die Nachtelfen halten diesen Wald für das, was Ashenvale verteidigbar macht, und meinen, Astranaar fiele bald nach ihm." },
       },
     },
     ["warsong-lumber-camp"] = {

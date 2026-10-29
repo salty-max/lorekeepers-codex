@@ -4286,6 +4286,11 @@
    "forever": "Tierras Altas de Arathi",
    "use": "Tierras Altas de Arathi"
   },
+  "Arcane Sanctum": {
+   "classic": "Sagrario Arcano",
+   "forever": "Sagrario Arcano",
+   "use": "Sagrario Arcano"
+  },
   "Ashenvale": {
    "classic": "Vallefresno",
    "forever": "Vallefresno",
@@ -5010,6 +5015,11 @@
    "forever": "Karazhan",
    "use": "Karazhan"
   },
+  "Karazhan Crypts": {
+   "classic": "Criptas de Karazhan",
+   "forever": "Criptas de Karazhan",
+   "use": "Criptas de Karazhan"
+  },
   "Kargath": {
    "classic": "Kargath",
    "forever": "Kargath",
@@ -5244,6 +5254,11 @@
    "classic": "Castillo de Nethergarde",
    "forever": "Castillo de Nethergarde",
    "use": "Castillo de Nethergarde"
+  },
+  "New Avalon": {
+   "classic": "Nuevo Avalon",
+   "forever": "Nuevo Avalon",
+   "use": "Nuevo Avalon"
   },
   "Night Web's Hollow": {
    "classic": "Hoya Nocturácnidas",
@@ -5519,6 +5534,11 @@
    "classic": "Isla de Sardor",
    "forever": "Isla de Sardor",
    "use": "Isla de Sardor"
+  },
+  "Scarlet Enclave": {
+   "classic": "Enclave Escarlata",
+   "forever": "Enclave Escarlata",
+   "use": "Enclave Escarlata"
   },
   "Scarlet Monastery": {
    "classic": "Monasterio Escarlata",

@@ -3952,6 +3952,12 @@ ns.translate({
         { "Les Loup-de-Givre y virent des envahisseurs. Les Foudrepique y virent des orcs qui barraient la route à une honnête érudition, et le roi Magni leur a depuis donné l'ordre royal de prendre la vallée pour Forgefer. Les deux camps s'y affrontent désormais avec des armées, des donjons, des cimetières et des mines, et chacun appelle à l'aide toute son alliance. J'aimerais pouvoir dire que la Ligue n'y est pour rien." },
       },
     },
+    ["alterac-valley-tune"] = {
+      title = "Vallée d'Alterac",
+      text = {
+        { "La Vallée d'Alterac n'a pas de musique à elle. Ses six morceaux sont empruntés aux bois gangrenés, aux villages furbolgs et aux terres de la peste. Orcs et nains disent tous deux que la vallée leur appartient, et chaque camp appelle ses alliés à la tenir. Les ordres de mon propre roi font partie de cette querelle, et je me tiens trop près de son trône pour en juger équitablement." },
+      },
+    },
     ["ambermill"] = {
       title = "Moulin-de-l'Ambre",
       text = {
@@ -5405,6 +5411,12 @@ ns.translate({
         { "Le village en contrebas est en ruine, et la cave du maître s'étend sous ses bâtiments abandonnés. Karazhan elle-même reste fermée. La tour a survécu à l'homme qui y vivait, et à la certitude qu'il y fut jamais tout à fait seul." },
       },
     },
+    ["karazhan-crypts-tune"] = {
+      title = "Cryptes de Karazhan",
+      text = {
+        { "Les cryptes de Karazhan, la tour de Medivh dans le Défilé de Deuillevent, ont trois morceaux bien à elles, quelque part à l'intérieur. Medivh fut le dernier Gardien de Tirisfal, et sa tour lui a survécu. Ce qui se trouve dessous a survécu à bien plus encore." },
+      },
+    },
     ["kargath"] = {
       title = "Kargath",
       text = {
@@ -5760,6 +5772,12 @@ ns.translate({
       text = {
         { "Naxxramas flotte au-dessus des Maleterres, une citadelle volante du Fléau et le siège de Kel'Thuzad. D'elle sont venues les forces d'une grande invasion des cités d'Azeroth, ce qui a poussé l'Aube d'argent à appeler tous ceux qui voulaient bien s'opposer aux morts." },
         { "Cinq ans après la dernière guerre, le roi-liche s'agite de nouveau et Kel'Thuzad rassemble des armées pour une autre attaque. Abominations, araignées et porte-peste occupent la nécropole, avec quatre cavaliers qui furent autrefois des champions de la Lumière. Levez les yeux en traversant les Maleterres, $gvoyageur:voyageuse;. Leur commandant possède une forteresse qui n'a pas besoin de contrôler la route en contrebas." },
+      },
+    },
+    ["naxxramas-tune"] = {
+      title = "Naxxramas",
+      text = {
+        { "Naxxramas, la nécropole volante de Kel'Thuzad au-dessus des Maleterres, garde en elle, quelque part dans ses quartiers, plus de musique que tout autre lieu que je connaisse. Ses ailes appartiennent aux morts recousus, aux araignées et à la peste, et une autre encore à quatre cavaliers qui combattaient pour la Lumière avant de tomber. Saphiron et Kel'Thuzad se tiennent au-delà. L'Aube d'argent demande à quiconque le peut d'y entrer et d'y détruire le Fléau." },
       },
     },
     ["nefarian"] = {
@@ -6158,6 +6176,12 @@ ns.translate({
         { "Les Réprouvés savent mieux que quiconque ce que c'est qu'une peste qui vous prend votre foyer. Ce savoir n'a pas rendu tous leurs apothicaires réticents à infliger la même misère au foyer des autres." },
       },
     },
+    ["ruins-of-ahn-qiraj-tune"] = {
+      title = "Ruines d'Ahn'Qiraj",
+      text = {
+        { "Les Ruines d'Ahn'Qiraj partagent quatre morceaux avec les salles extérieures du temple. Elles s'étendent derrière le Mur du scarabée, à Silithus. Il y a mille ans, les elfes de la nuit et les dragons ont enfermé les qiraji derrière ce mur. Le mur s'est rouvert, et ce qui en est sorti ne s'était pas adouci entre-temps." },
+      },
+    },
     ["ruins-of-ahnqiraj"] = {
       title = "Les ruines d'Ahn'Qiraj",
       text = {
@@ -6232,12 +6256,25 @@ ns.translate({
         { "La Croisade combat le Fléau, mais la corruption dans ses propres rangs donne une autre raison de s'en méfier. Interrogez le Monastère sur le généralissime Mograine et sa lame, le Porte-cendres, et écoutez bien qui se tait. Et demandez à l'Aube d'argent ce qu'elle a trouvé en regardant de près le grand croisé lui-même." },
       },
     },
+    ["scarlet-enclave-tune"] = {
+      title = "L'Enclave Écarlate",
+      text = {
+        { "L'Enclave Écarlate, celle de la Croisade, partage sa musique avec Nouvelle-Avalon, dans les Maleterres de l'est. La Main de Tyr, Nouvelle-Avalon et le Sanctum des Arcanes se trouvent aujourd'hui tous trois à l'intérieur, et la Croisade n'a jamais manqué de murailles." },
+        { client = "classic", "Six de ses morceaux sont empruntés aux lieux cachés, et cinq sont bien à elle. Quelque part dans la chapelle de l'Enclave attendent trois morceaux de plus, bien à elle, et trois autres empruntés aux lieux cachés." },
+      },
+    },
     ["scarlet-monastery"] = {
       title = "Le Monastère écarlate",
       text = {
         { "La Croisade écarlate tient un monastère sur une colline du nord de Tirisfal, au-dessus de la mer. Ses murs renferment une bibliothèque, une armurerie, un cimetière et une cathédrale. Chevaliers, prêtres et inquisiteurs s'y forment pour une guerre qui va bien au-delà du Fléau." },
         { "Les Réprouvés sont aussi des ennemis, tout comme n'importe quel voyageur que la Croisade juge suspect. La grande inquisitrice Whitemane et le commandant écarlate Mograine tiennent la cathédrale, tandis que des champions réprouvés sont envoyés contre la forteresse. Le monastère a les dehors d'une maison de la Lumière. Approchez-le avec plus de prudence que cette description ne pourrait le laisser croire." },
         { side = "Horde", aside = true, sign = "P. F.", "Derrière ces murs se trouve une bibliothèque, et dans celle-ci un livre qui leur sert à apprendre à leurs paladins comment détruire les miens. J'envoie des héros le chercher, et je leur demande de le lire avant de le rapporter." },
+      },
+    },
+    ["scarlet-monastery-tune"] = {
+      title = "Monastère écarlate",
+      text = {
+        { "Quelque part dans le Monastère écarlate jouent deux morceaux que Forgefer a aussi, les mêmes que porte Courbenclume. Je ne saurais expliquer pourquoi un monastère de la Croisade écarlate emprunte la musique de ma propre cité, et je préfère ne pas le demander au Grand Inquisiteur Whitemane. La Croisade envoie ses agents depuis ses murs, jusqu'au Glas, dans les Clairières de Tirisfal." },
       },
     },
     ["scholomance"] = {
@@ -6674,6 +6711,12 @@ ns.translate({
         { "Teldrassil est un arbre, et j'écris cette phrase en sachant combien elle paraît sotte. Il s'élève de la mer au large de la côte nord de Sombrivage, si vaste que des forêts poussent sur ses branches et que des rivières courent le long de celles-ci, et les elfes de la nuit vivent dans sa cime. Son nom signifie « couronne de la terre »." },
         { "Les elfes de la nuit avaient autrefois un autre arbre semblable, Nordrassil, sur le mont Hyjal, et tant qu'il se dressait, ils ne vieillissaient jamais. À la fin de la dernière guerre, ils le laissèrent se briser pour détruire le démon Archimonde, et renoncèrent avec lui à leur immortalité. La guerre terminée, les druides menés par Fandral Staghelm firent pousser Teldrassil pour le remplacer." },
         { "L'ancien arbre avait la bénédiction des grands dragons. Le nouveau ne l'a pas, et ses propres gardiens admettent que sa croissance n'a pas été sans défaut. J'en dirai davantage ailleurs. Pour l'heure, prenez le bateau à Auberdine, passez le portail de Rut'theran, et contemplez-le : il n'y a rien de semblable au monde." },
+      },
+    },
+    ["temple-of-ahn-qiraj-tune"] = {
+      title = "Temple d'Ahn'Qiraj",
+      text = {
+        { "Quelque part au plus profond du Temple d'Ahn'Qiraj jouent une douzaine de morceaux que je n'ai trouvés nulle part ailleurs. Les qiraji servent C'Thun, un Dieu très ancien dont la malveillance était là avant que le monde ne prenne forme, et le temple est sa demeure. Ceux qui sont ressortis de sa dernière salle rapportent l'œil de la chose qui y régnait, et j'y vois une preuve suffisante que rien, là-dedans, n'est trop vieux pour mourir." },
       },
     },
     ["temple-of-ahnqiraj"] = {
@@ -7541,6 +7584,12 @@ ns.translate({
       text = {
         { "Dans le goulet des Chanteguerres, à la lisière sud d'Orneval, les elfes de la nuit ont tracé leur ligne contre l'abattage chanteguerre. Les Sentinelles d'Aile-argent tiennent un bout de la vallée et les voltigeurs chanteguerres l'autre. Leurs combattants traversent d'un camp à l'autre pour s'emparer de la bannière ennemie." },
         { "La Horde y voit la défense d'une exploitation forestière. L'Alliance voit dans cette exploitation une invasion. Les deux camps envoient des combattants venus de bien au-delà d'Orneval." },
+      },
+    },
+    ["warsong-gulch-tune"] = {
+      title = "Goulet des Chanteguerres",
+      text = {
+        { "Le Goulet des Chanteguerres a cinq morceaux bien à lui. Les Sentinelles d'Aile-argent y combattent les Voltigeurs chanteguerres, à cause des haches des orcs et des arbres que ceux-ci abattent. Les elfes de la nuit tiennent que cette forêt est ce qui rend Orneval défendable, et qu'Astranaar tomberait peu après elle." },
       },
     },
     ["warsong-lumber-camp"] = {

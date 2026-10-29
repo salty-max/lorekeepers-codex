@@ -2146,6 +2146,8 @@ check(
   #both == #first + #second and both[1][1] == first[1][1] and both[#first + 1][1] == second[1][1],
   "a tune naming two sets lists both sets' tracks, in order"
 )
+ns.content.entries["two-sets"] = { kind = "tune", unlock = { { music = 8 }, { music = 8 } } }
+check(#ns.tracksOf("two-sets") == #first, "a file two sets share is listed once")
 ns.content.entries["two-sets"] = nil
 local played
 function PlayMusic(file) played = file end

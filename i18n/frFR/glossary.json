@@ -4166,6 +4166,11 @@
    "forever": "Hautes-terres Arathies",
    "use": "Hautes-terres Arathies"
   },
+  "Arcane Sanctum": {
+   "classic": "Sanctum des Arcanes",
+   "forever": "Sanctum des Arcanes",
+   "use": "Sanctum des Arcanes"
+  },
   "Ashenvale": {
    "classic": "Ashenvale",
    "forever": "Orneval",
@@ -4890,6 +4895,11 @@
    "forever": "Karazhan",
    "use": "Karazhan"
   },
+  "Karazhan Crypts": {
+   "classic": "Cryptes de Karazhan",
+   "forever": "Cryptes de Karazhan",
+   "use": "Cryptes de Karazhan"
+  },
   "Kargath": {
    "classic": "Kargath",
    "forever": "Kargath",
@@ -5124,6 +5134,11 @@
    "classic": "Rempart-du-Néant",
    "forever": "Rempart-du-Néant",
    "use": "Rempart-du-Néant"
+  },
+  "New Avalon": {
+   "classic": "Nouvelle-Avalon",
+   "forever": "Nouvelle-Avalon",
+   "use": "Nouvelle-Avalon"
   },
   "Night Web's Hollow": {
    "classic": "Grottes des Tisse-nuit",
@@ -5399,6 +5414,11 @@
    "classic": "Ile de Sardor",
    "forever": "Ile de Sardor",
    "use": "Ile de Sardor"
+  },
+  "Scarlet Enclave": {
+   "classic": "Enclave Écarlate",
+   "forever": "Enclave Écarlate",
+   "use": "Enclave Écarlate"
   },
   "Scarlet Monastery": {
    "classic": "Monastère écarlate",

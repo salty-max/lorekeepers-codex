@@ -4172,6 +4172,11 @@
    "forever": "Arathihochland",
    "use": "Arathihochland"
   },
+  "Arcane Sanctum": {
+   "classic": "Das Arkane Sanktum",
+   "forever": "Das Arkane Sanktum",
+   "use": "Das Arkane Sanktum"
+  },
   "Ashenvale": {
    "classic": "Ashenvale",
    "forever": "Ashenvale",
@@ -4896,6 +4901,11 @@
    "forever": "Karazhan",
    "use": "Karazhan"
   },
+  "Karazhan Crypts": {
+   "classic": "Karazhangruften",
+   "forever": "Karazhangruften",
+   "use": "Karazhangruften"
+  },
   "Kargath": {
    "classic": "Kargath",
    "forever": "Kargath",
@@ -5130,6 +5140,11 @@
    "classic": "Burg Nethergarde",
    "forever": "Burg Nethergarde",
    "use": "Burg Nethergarde"
+  },
+  "New Avalon": {
+   "classic": "Neu-Avalon",
+   "forever": "Neu-Avalon",
+   "use": "Neu-Avalon"
   },
   "Night Web's Hollow": {
    "classic": "Nachtwebergrund",
@@ -5405,6 +5420,11 @@
    "classic": "Insel Sardor",
    "forever": "Insel Sardor",
    "use": "Insel Sardor"
+  },
+  "Scarlet Enclave": {
+   "classic": "Scharlachrote Enklave",
+   "forever": "Scharlachrote Enklave",
+   "use": "Scharlachrote Enklave"
   },
   "Scarlet Monastery": {
    "classic": "Das Scharlachrote Kloster",

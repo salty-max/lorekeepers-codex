@@ -43,15 +43,22 @@ end
 -- sets one after the other, then its arrival stingers ("arrival").
 function ns.tracksOf(id)
   local e = C.entries[id]
-  local out = {}
+  local out, seen = {}, {}
+  -- (sets may share files, Naxxramas' two general sets are the same six: each file once)
   for _, u in ipairs(e and e.unlock or {}) do
     for _, t in ipairs(u.music and M.sets[u.music] or {}) do
-      table.insert(out, t)
+      if not seen[t[1]] then
+        seen[t[1]] = true
+        table.insert(out, t)
+      end
     end
   end
   for _, intro in ipairs(e and e.arrival or {}) do
     for _, file in ipairs(M.intros[intro] or {}) do
-      table.insert(out, { file, "arrival" })
+      if not seen[file] then
+        seen[file] = true
+        table.insert(out, { file, "arrival" })
+      end
     end
   end
   return out

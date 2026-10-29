@@ -3925,6 +3925,12 @@ ns.translate({
         { "Los Lobo Gélido vieron invasores. Los Pico Tormenta vieron orcos que entorpecían una investigación honrada, y desde entonces el rey Magni les ha dado una orden real de tomar el valle para Forjaz. Ahora ambos combaten con ejércitos, fortalezas, cementerios y minas, y piden ayuda a todos sus aliados. Ojalá pudiera decir que la Liga no tuvo nada que ver." },
       },
     },
+    ["alterac-valley-tune"] = {
+      title = "Valle de Alterac",
+      text = {
+        { "El Valle de Alterac no tiene música propia. Sus seis piezas son prestadas de los bosques viles, los poblados furbolg y las tierras de la plaga. Orcos y enanos dicen que el valle es suyo, y cada bando llama a sus aliados para conservarlo. Las órdenes de mi propio rey forman parte de esa disputa, y estoy demasiado cerca de su trono para juzgarla con justicia." },
+      },
+    },
     ["ambermill"] = {
       title = "Molino Ámbar",
       text = {
@@ -5378,6 +5384,12 @@ ns.translate({
         { "La aldea de abajo está en ruinas y el Sótano del Maestro se extiende bajo sus edificios abandonados. Karazhan permanece cerrada. La torre ha sobrevivido al hombre que vivía allí y a la certeza de que alguna vez estuviera del todo solo." },
       },
     },
+    ["karazhan-crypts-tune"] = {
+      title = "Criptas de Karazhan",
+      text = {
+        { "Las criptas bajo Karazhan, la torre de Medivh en el Paso de la Muerte, tienen tres piezas propias en algún rincón de su interior. Medivh fue el último Guardián de Tirisfal, y su torre le ha sobrevivido. Lo que yace debajo ha sobrevivido a mucho más." },
+      },
+    },
     ["kargath"] = {
       title = "Kargath",
       text = {
@@ -5733,6 +5745,12 @@ ns.translate({
       text = {
         { "Naxxramas flota sobre las Tierras de la Peste, una ciudadela aérea de la Plaga y sede de Kel'Thuzad. De ella salieron las fuerzas de una gran invasión de las ciudades de Azeroth, que llevó al Alba Argenta a llamar a todo el que quisiera oponerse a los muertos." },
         { "Cinco años después de la última guerra, el Rey Exánime vuelve a agitarse y Kel'Thuzad reúne ejércitos para otro ataque. Abominaciones, arañas y portadores de peste ocupan la necrópolis junto a cuatro jinetes que fueron campeones de la Luz. Alza la vista al cruzar estas tierras, $gviajero:viajera;. Su comandante tiene una fortaleza que no necesita dominar el camino de abajo." },
+      },
+    },
+    ["naxxramas-tune"] = {
+      title = "Naxxramas",
+      text = {
+        { "Naxxramas, la necrópolis flotante de Kel'Thuzad sobre las Tierras de la Peste, guarda, en algún rincón de sus barrios, más música que cualquier otro lugar que conozca. Sus alas pertenecen a los muertos cosidos, a las arañas y a la peste, y otra más a cuatro jinetes que lucharon por la Luz antes de caer. Sapphiron y Kel'Thuzad aguardan más allá. El Alba Argenta pide a todo el que pueda que entre y destruya allí a la Plaga." },
       },
     },
     ["nefarian"] = {
@@ -6131,6 +6149,12 @@ ns.translate({
         { "Los Renegados saben mejor que casi nadie lo que significa que una peste te arrebate el hogar. Ese conocimiento no ha vuelto a todos sus boticarios reacios a infligir la misma desgracia a otros." },
       },
     },
+    ["ruins-of-ahn-qiraj-tune"] = {
+      title = "Ruinas de Ahn'Qiraj",
+      text = {
+        { "Las Ruinas de Ahn'Qiraj, tras el Muro del Escarabajo en Silithus, comparten cuatro piezas con las salas exteriores del templo. Hace mil años, los elfos de la noche y los dragones encerraron a los qiraji tras ese muro. El muro se ha vuelto a abrir, y lo que salió por él no se había suavizado con los siglos." },
+      },
+    },
     ["ruins-of-ahnqiraj"] = {
       title = "Ruinas de Ahn'Qiraj",
       text = {
@@ -6205,12 +6229,25 @@ ns.translate({
         { "La Cruzada combate a la Plaga, pero la corrupción de sus propias filas da otro motivo para desconfiar. Pregunta en el Monasterio por el alto señor Mograine y su espada, la Crematoria, y fíjate en quién calla. Y pregunta al Alba Argenta qué encontró al mirar de cerca al propio Gran Cruzado." },
       },
     },
+    ["scarlet-enclave-tune"] = {
+      title = "El Enclave Escarlata",
+      text = {
+        { "El Enclave Escarlata de la Cruzada comparte su música con Nuevo Avalon, en las Tierras de la Peste del Este. La Mano de Tyr, Nuevo Avalon y el Sagrario Arcano están ahora todos dentro, y a la Cruzada nunca le han faltado murallas." },
+        { client = "classic", "Seis de sus piezas son prestadas de los lugares ocultos, y cinco son propias. En algún rincón de la capilla del Enclave esperan tres piezas propias más, junto a otras tres prestadas de los lugares ocultos." },
+      },
+    },
     ["scarlet-monastery"] = {
       title = "El Monasterio Escarlata",
       text = {
         { "La Cruzada Escarlata ocupa un monasterio sobre una colina del norte de Tirisfal, por encima del mar. Sus muros encierran una biblioteca, una armería, un cementerio y una catedral. Allí se instruyen caballeros, sacerdotes e inquisidores para una guerra que va mucho más allá de la Plaga." },
         { "Los Renegados también son enemigos, al igual que cualquier viajero que despierte las sospechas de la Cruzada. La alta inquisidora Melenablanca y el comandante Escarlata Mograine dominan la catedral, mientras se envía a campeones Renegados contra la fortaleza. El monasterio presenta el aspecto exterior de una casa de la Luz. Acércate con más cautela de la que esa descripción podría sugerir." },
         { side = "Horde", aside = true, sign = "P. F.", "Tras esos muros hay una biblioteca y en ella un libro con el que enseñan a sus paladines a destruir a los míos. Envío héroes a buscarlo y les pido que lo lean antes de traerlo." },
+      },
+    },
+    ["scarlet-monastery-tune"] = {
+      title = "Monasterio Escarlata",
+      text = {
+        { "En algún rincón del Monasterio Escarlata suenan dos piezas que también suenan en Forjaz, las mismas dos que lleva Yunquemar. No sabría explicar por qué un monasterio de la Cruzada Escarlata toma prestada la música de mi propia ciudad, y prefiero no preguntárselo a la Alta inquisidora Melenablanca. La Cruzada envía a sus agentes desde allí, hasta el Camposanto, en los Claros de Tirisfal." },
       },
     },
     ["scholomance"] = {
@@ -6647,6 +6684,12 @@ ns.translate({
         { "Teldrassil es un árbol, y escribo esa frase sabiendo lo absurda que suena. Se alza en el mar frente a la costa norte de Costa Oscura, tan enorme que en sus ramas crecen bosques y corren ríos. Los elfos de la noche viven en su copa. Su nombre significa 'corona de la tierra'." },
         { "Los elfos de la noche tuvieron otro árbol semejante, Nordrassil, en el Monte Hyjal, y mientras se mantuvo en pie no envejecieron. Al final de la última guerra permitieron que fuera destruido para acabar con el demonio Archimonde y renunciaron con él a su inmortalidad. Terminada la guerra, los druidas de Fandral Corzocelada hicieron crecer Teldrassil para sustituirlo." },
         { "El viejo árbol tenía la bendición de los grandes dragones. El nuevo no, y sus propios guardianes admiten que su crecimiento no ha estado libre de defectos. Hablaré de ello en otro lugar. Por ahora, toma un barco desde Auberdine, cruza el portal de Rut'theran y contémplalo: no hay nada igual en el mundo." },
+      },
+    },
+    ["temple-of-ahn-qiraj-tune"] = {
+      title = "Templo de Ahn'Qiraj",
+      text = {
+        { "En algún rincón profundo del Templo de Ahn'Qiraj suena una docena de piezas que no he encontrado en ningún otro sitio. Los qiraji sirven a C'Thun, un dios antiguo cuya malicia ya estaba aquí antes de que el mundo tomara forma, y el templo es su morada. Quienes han salido de su última cámara traen el ojo de la criatura que allí reinaba, y lo tomo por prueba suficiente de que nada ahí dentro es demasiado viejo para morir." },
       },
     },
     ["temple-of-ahnqiraj"] = {
@@ -7514,6 +7557,12 @@ ns.translate({
       text = {
         { "En la Garganta Grito de Guerra, en el extremo sur de Vallefresno, los elfos de la noche se han plantado contra el avance de la tala de los Grito de Guerra. Las Centinelas Ala de Plata ocupan un extremo del valle y la Escolta Grito de Guerra, el otro. Sus combatientes cruzan entre ambos campamentos para apoderarse del estandarte enemigo." },
         { "La Horda lo considera la defensa de una explotación maderera. La Alianza considera esa explotación una invasión. Ambas envían combatientes desde mucho más allá de Vallefresno." },
+      },
+    },
+    ["warsong-gulch-tune"] = {
+      title = "Garganta Grito de Guerra",
+      text = {
+        { "La Garganta Grito de Guerra tiene cinco piezas propias. Las Centinelas Ala de Plata luchan allí contra la Escolta Grito de Guerra por las hachas de los orcos y por los árboles que estos talan. Los elfos de la noche sostienen que este bosque es lo que hace defendible Vallefresno, y que Astranaar caería poco después que él." },
       },
     },
     ["warsong-lumber-camp"] = {
