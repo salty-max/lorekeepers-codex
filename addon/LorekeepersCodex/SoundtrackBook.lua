@@ -76,10 +76,13 @@ local showTune, showOverview, refreshList
 
 -- the tune's tracks as the buttons that play them, and the one that stops
 local function playButtons(id)
-  local out, day, night = {}, 0, 0
+  local out, day, night, arrival = {}, 0, 0, 0
   for _, t in ipairs(ns.tracksOf(id)) do
     local label
-    if t[2] == "night" then
+    if t[2] == "arrival" then
+      arrival = arrival + 1
+      label = L["Arrival %d"]:format(arrival)
+    elseif t[2] == "night" then
       night = night + 1
       label = L["Night %d"]:format(night)
     elseif t[2] == "day" then

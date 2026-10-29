@@ -3406,7 +3406,7 @@ ns.content = {
       },
     },
     ["darnassus-tune"] = {
-      title = "Darnassus", kind = "tune", chapter = "soundtrack", group = "cities",
+      title = "Darnassus", kind = "tune", chapter = "soundtrack", group = "cities", arrival = { 63 },
       unlock = { { music = 76 } },
       also = {  },
       text = {
@@ -3438,7 +3438,7 @@ ns.content = {
       },
     },
     ["orgrimmar-tune"] = {
-      title = "Orgrimmar", kind = "tune", chapter = "soundtrack", group = "cities",
+      title = "Orgrimmar", kind = "tune", chapter = "soundtrack", group = "cities", arrival = { 62 },
       unlock = { { music = 14 } },
       also = {  },
       text = {
@@ -3446,7 +3446,7 @@ ns.content = {
       },
     },
     ["stormwind-tune"] = {
-      title = "Stormwind", kind = "tune", chapter = "soundtrack", group = "cities",
+      title = "Stormwind", kind = "tune", chapter = "soundtrack", group = "cities", arrival = { 61 },
       unlock = { { music = 13 } },
       also = {  },
       text = {
@@ -3534,7 +3534,7 @@ ns.content = {
       },
     },
     ["thunder-bluff-tune"] = {
-      title = "Thunder Bluff", kind = "tune", chapter = "soundtrack", group = "cities",
+      title = "Thunder Bluff", kind = "tune", chapter = "soundtrack", group = "cities", arrival = { 381 },
       unlock = { { music = 226 } },
       also = {  },
       text = {
@@ -4680,6 +4680,12 @@ ns.content = {
       [227] = { { 8181013, "day" }, { 8181019, "day" }, { 8181011, "night" }, { 8181015, "night" }, { 8181017, "night" } },
       [232] = { { 8180965, "both" }, { 53194, "both" }, { 8180971, "both" } },
     },
+    intros = {
+      [61] = { 8180884 },
+      [62] = { 8181039 },
+      [63] = { 8180750 },
+      [381] = { 8180995 },
+    },
     areas = {
       [1] = { 0, { 8, 1 } },
       [2] = { 40, { 9, 1 } },
@@ -4791,7 +4797,7 @@ ns.content = {
       [132] = { 1, { 8, 1 } },
       [133] = { 1, { 8, 1 } },
       [134] = { 1, { 8, 1 } },
-      [135] = { 1, { 8, 1 }, { 227, 1 } },
+      [135] = { 1, { 8, 1 } },
       [136] = { 1, { 8, 1 } },
       [137] = { 1, { 8, 1 } },
       [138] = { 1, { 8, 1 } },
@@ -5593,6 +5599,7 @@ ns.content = {
       [2839] = { 36, { 1, 1 } },
       [2857] = { 440, { 176, 1 } },
       [2897] = { 331,  },
+      [2917] = { 0,  },
       [2937] = { 41, { 2, 1 } },
       [2938] = { 41, { 2, 1 } },
       [2957] = { 2597,  },

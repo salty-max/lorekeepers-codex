@@ -3,6 +3,7 @@ id: thunder-bluff-tune
 title: Thunder Bluff
 kind: tune
 group: cities
+arrival: 381
 unlock:
   - music: 226
 ---

@@ -2131,7 +2131,21 @@ for _ = 1, 12 do
 end
 check(ns.tune("the-high-mountains") ~= nil, "Anvilmar's stay with the music on finds the high mountains' tune")
 check(not has("the-high-mountains") and ns.tuneCount() == 1, "a tune is no page and counts apart")
+local orgrimmar = ns.tracksOf("orgrimmar-tune")
+check(
+  #orgrimmar == 3 and orgrimmar[#orgrimmar][2] == "arrival" and orgrimmar[1][2] ~= "arrival",
+  "a city's arrival stinger follows its tracks"
+)
 check(#ns.tracksOf("the-high-mountains") == 7, "its tracks are the client's (seven, by day and night)")
+-- a tune may name several sets: its tracks are theirs one after the other
+ns.content.entries["two-sets"] = { kind = "tune", unlock = { { music = 8 }, { music = 3 } } }
+local both = ns.tracksOf("two-sets")
+local first, second = ns.tracksOf("the-high-mountains"), ns.tracksOf("the-jungle")
+check(
+  #both == #first + #second and both[1][1] == first[1][1] and both[#first + 1][1] == second[1][1],
+  "a tune naming two sets lists both sets' tracks, in order"
+)
+ns.content.entries["two-sets"] = nil
 local played
 function PlayMusic(file) played = file end
 function StopMusic() played = nil end

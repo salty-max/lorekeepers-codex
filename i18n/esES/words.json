@@ -178,5 +178,6 @@
   "A tune of the game's music. Stand where it plays, with the music on, and it is yours to play again.": "Una melodía de la música del juego. Quédate donde suena, con la música activada, y podrás volver a escucharla.",
   "The tunes of the game's music, found by standing where they play with the music on. The game never tells which track is playing, so a tune is found, not heard: stay a little while, and it is written here. Found, a tune plays again from this page.": "Las melodías de la música del juego, que se encuentran quedándose donde suenan con la música activada. El juego nunca dice qué pista está sonando, así que una melodía se encuentra, no se oye: quédate un rato y quedará escrita aquí. Una vez encontrada, la melodía se vuelve a tocar desde esta página.",
   "Tunes found lately": "Melodías encontradas hace poco",
-  "Tune found in %s, at level %d, on %s.": "Melodía encontrada en %s, de nivel %d, el %s."
+  "Tune found in %s, at level %d, on %s.": "Melodía encontrada en %s, de nivel %d, el %s.",
+  "Arrival %d": "Llegada %d"
 }

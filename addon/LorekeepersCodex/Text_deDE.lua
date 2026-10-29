@@ -3185,6 +3185,7 @@ ns.translate({
     ["Another character's choices, for this one (of this game: Classic and Forever keep their own). From elsewhere: %s export there, then %s import CODE here."] = "Die Einstellungen eines anderen Charakters für diesen (nur aus diesem Spiel: Classic und Forever haben jeweils eigene). Von anderswo: dort %s export, dann hier %s import CODE.",
     ["Apr"] = "Apr.",
     ["Archesonus, Royal Historian of Ironforge, has left you a ledger."] = "Archesonus, Königliche Historikerin von Ironforge, hat dir ein Register hinterlassen.",
+    ["Arrival %d"] = "Ankunft %d",
     ["Aug"] = "Aug.",
     ["Begin"] = "Los geht's",
     ["Book opening (quiet)"] = "Buch aufschlagen (leise)",

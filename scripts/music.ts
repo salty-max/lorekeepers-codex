@@ -4,6 +4,7 @@
  * ZoneMusic, SoundKitEntry and AreaTable at the pinned build). Per game:
  *   sets   { "<ZoneMusic id>": { label, tracks: [[FileDataID, "day"|"night"|"both"], ...] } }
  *   areas  { "<area id>": { parent, sets: [[set id, exact 0|1], ...] } }
+ *   intros { "<ZoneIntroMusicTable id>": { label, files: [FileDataID, ...] } }: the stingers played on arriving
  * Only sets some area plays; a game's file ids are its own (Forever's
  * remaster has others). Read by scripts/build.ts (the `music:` unlock and the
  * Content files).
@@ -20,8 +21,14 @@ const { openDb } = (await import(familyPath("wow-data", "src", "db.ts"))) as typ
 const PLACEHOLDER = /UNUSED|unused|DELETE ME|Programmer|Designer|^zz|TEST|Test/;
 type Set = { label: string; tracks: [number, string][] };
 type AreaRow = { parent: number; sets: [number, number][] };
+type Intro = { label: string; files: number[] };
 function musicOf(game: Game) {
   const db = openDb(game);
+  const intros: Record<string, Intro> = {};
+  for (const r of db.query("SELECT DISTINCT intro_id, label, file_id FROM music_intro ORDER BY intro_id, file_id").all() as { intro_id: number; label: string; file_id: number }[]) {
+    intros[r.intro_id] ??= { label: r.label, files: [] };
+    intros[r.intro_id].files.push(r.file_id);
+  }
   const sets: Record<string, Set> = {};
   const areas: Record<string, AreaRow> = {};
   for (const r of db
@@ -40,7 +47,7 @@ function musicOf(game: Game) {
     const tracks = db.query("SELECT file_id, period FROM music_track WHERE set_id = ? ORDER BY seq").all(s.id) as { file_id: number; period: string }[];
     sets[s.id] = { label: s.label, tracks: tracks.map((t) => [t.file_id, t.period]) };
   }
-  return { sets, areas };
+  return { sets, areas, intros };
 }
 const out = { classic: musicOf("classic"), forever: musicOf("forever") };
 writeFileSync(new URL("../data/music.json", import.meta.url), JSON.stringify(out));

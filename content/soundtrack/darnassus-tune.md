@@ -3,6 +3,7 @@ id: darnassus-tune
 title: Darnassus
 kind: tune
 group: cities
+arrival: 63
 unlock:
   - music: 76
 ---

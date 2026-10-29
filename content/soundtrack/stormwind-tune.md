@@ -3,6 +3,7 @@ id: stormwind-tune
 title: Stormwind
 kind: tune
 group: cities
+arrival: 61
 unlock:
   - music: 13
 ---

@@ -39,13 +39,22 @@ function ns.tuneCount()
   end
   return n
 end
--- A tune's tracks: { { file, period } }, in the client's order.
+-- A tune's tracks: { { file, period } }, in the client's order, the tune's
+-- sets one after the other, then its arrival stingers ("arrival").
 function ns.tracksOf(id)
   local e = C.entries[id]
+  local out = {}
   for _, u in ipairs(e and e.unlock or {}) do
-    if u.music then return M.sets[u.music] or {} end
+    for _, t in ipairs(u.music and M.sets[u.music] or {}) do
+      table.insert(out, t)
+    end
   end
-  return {}
+  for _, intro in ipairs(e and e.arrival or {}) do
+    for _, file in ipairs(M.intros[intro] or {}) do
+      table.insert(out, { file, "arrival" })
+    end
+  end
+  return out
 end
 
 -- ── where the player stands ──────────────────────────────────────────────────

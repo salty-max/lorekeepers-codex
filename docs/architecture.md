@@ -101,7 +101,11 @@ stays there). What a page is and how it is written: `docs/writing.md`.
   "found", never "heard"; a building row the client pins to a whole city is
   inexact: the tune plays somewhere in it), and plays a found one again with
   `PlayMusic(fileDataID)` (always true, even for a bad id) until `StopMusic`.
-  `SoundtrackBook.lua` is the tab (the kit's list and page: groups, "???" for
+  A tune may name several sets (one `music:` rule each: found by any, its tracks all of
+  theirs) and carry `arrival:` stingers (`ZoneIntroMusicTable` ids, `music.intros`, listed
+  after the tracks). `data/music-left-out.json` (by hand, per game) lists the reachable sets
+  deliberately without a tune: the build counts the rest, and fails on one once `complete` is
+  true, and on a set two tunes name. `SoundtrackBook.lua` is the tab (the kit's list and page: groups, "???" for
   a tune not found, one button a track). Every tune is translated like a page
   (French, German and Spanish pages are tested complete).
 - Languages (docs/localization.md): every word the addon shows goes through

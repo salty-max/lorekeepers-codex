@@ -3,6 +3,7 @@ id: orgrimmar-tune
 title: Orgrimmar
 kind: tune
 group: cities
+arrival: 62
 unlock:
   - music: 14
 ---

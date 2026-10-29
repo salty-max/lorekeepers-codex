@@ -3346,7 +3346,7 @@ ns.content = {
       },
     },
     ["darnassus-tune"] = {
-      title = "Darnassus", kind = "tune", chapter = "soundtrack", group = "cities",
+      title = "Darnassus", kind = "tune", chapter = "soundtrack", group = "cities", arrival = { 63 },
       unlock = { { music = 76 } },
       also = {  },
       text = {
@@ -3378,7 +3378,7 @@ ns.content = {
       },
     },
     ["orgrimmar-tune"] = {
-      title = "Orgrimmar", kind = "tune", chapter = "soundtrack", group = "cities",
+      title = "Orgrimmar", kind = "tune", chapter = "soundtrack", group = "cities", arrival = { 62 },
       unlock = { { music = 14 } },
       also = {  },
       text = {
@@ -3386,7 +3386,7 @@ ns.content = {
       },
     },
     ["stormwind-tune"] = {
-      title = "Stormwind", kind = "tune", chapter = "soundtrack", group = "cities",
+      title = "Stormwind", kind = "tune", chapter = "soundtrack", group = "cities", arrival = { 61 },
       unlock = { { music = 13 } },
       also = {  },
       text = {
@@ -3474,7 +3474,7 @@ ns.content = {
       },
     },
     ["thunder-bluff-tune"] = {
-      title = "Thunder Bluff", kind = "tune", chapter = "soundtrack", group = "cities",
+      title = "Thunder Bluff", kind = "tune", chapter = "soundtrack", group = "cities", arrival = { 381 },
       unlock = { { music = 226 } },
       also = {  },
       text = {
@@ -4517,6 +4517,12 @@ ns.content = {
       [227] = { { 53696, "day" }, { 53699, "day" }, { 53695, "night" }, { 53697, "night" }, { 53698, "night" } },
       [232] = { { 53192, "both" }, { 53194, "both" }, { 53195, "both" } },
     },
+    intros = {
+      [61] = { 53211 },
+      [62] = { 53201 },
+      [63] = { 53183 },
+      [381] = { 53212 },
+    },
     areas = {
       [1] = { 0, { 8, 1 } },
       [2] = { 40, { 9, 1 } },
@@ -4628,7 +4634,7 @@ ns.content = {
       [132] = { 1, { 8, 1 } },
       [133] = { 1, { 8, 1 } },
       [134] = { 1, { 8, 1 } },
-      [135] = { 1, { 8, 1 }, { 227, 1 } },
+      [135] = { 1, { 8, 1 } },
       [136] = { 1, { 8, 1 } },
       [137] = { 1, { 8, 1 } },
       [138] = { 1, { 8, 1 } },
@@ -5170,6 +5176,7 @@ ns.content = {
       [1578] = { 33, { 3, 1 } },
       [1581] = { 0,  },
       [1582] = { 1581,  },
+      [1584] = { 0,  },
       [1599] = { 17, { 7, 1 } },
       [1617] = { 1519, { 13, 1 } },
       [1637] = { 0, { 7, 1 } },
@@ -5429,6 +5436,7 @@ ns.content = {
       [2839] = { 36, { 1, 1 } },
       [2857] = { 440, { 176, 1 } },
       [2897] = { 331,  },
+      [2917] = { 0,  },
       [2937] = { 41, { 2, 1 } },
       [2938] = { 41, { 2, 1 } },
       [2957] = { 2597,  },
@@ -5572,6 +5580,7 @@ ns.content = {
       [16039] = { 16029, { 1, 1 } },
       [16040] = { 16029, { 1, 1 } },
       [16041] = { 16029, { 1, 1 } },
+      [16074] = { 0,  },
       [16113] = { 0, { 1, 1 } },
       [16114] = { 0, { 2, 1 } },
       [16115] = { 0, { 7, 1 } },

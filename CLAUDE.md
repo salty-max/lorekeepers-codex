@@ -63,7 +63,7 @@ scripts/release.sh --version X.Y.Z [--hold] NOTES.md   # check, tag, push; Actio
   `L`, the game's names by id in the client's language; a translation names
   what the glossary holds as the game writes it (`scripts/names.ts`).
 - The game's data comes from wow-data only (scripts/, through
-  `scripts/root.ts` and `root.py`); `Content_*.lua`, `data/*.json` and the
+  `scripts/root.ts` and `root.py`); `Content_*.lua`, `data/*.json` (but `music-left-out.json`, by hand) and the
   language files are generated, `--check` fails a stale one. A new
   generator goes into `game-data.yml` too.
 - `Kit.lua`, `Media/`, `scripts/root.ts` (and `root.py`), `scripts/locales-lib.ts`, `scripts/package-lib.ts`,
