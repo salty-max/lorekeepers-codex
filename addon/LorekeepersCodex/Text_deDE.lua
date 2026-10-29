@@ -3168,7 +3168,7 @@ ns.translate({
     ["A Page by the Fire"] = "Eine Seite am Feuer",
     ["A Shelf Begun"] = "Ein angefangenes Regal",
     ["A Tale Worth Telling"] = "Eine erzählenswerte Geschichte",
-    ["A tune of the game's music. Stand where it plays, with the music on, and it is yours to play again."] = "Eine Melodie aus der Musik des Spiels. Steht dort, wo sie spielt, bei eingeschalteter Musik, und Ihr könnt sie noch einmal spielen.",
+    ["A tune of the game's music. Stand where it plays, with the music on, and it is yours to play again."] = "Eine Melodie aus der Musik des Spiels. Stell dich dorthin, wo sie spielt, bei eingeschalteter Musik, und du kannst sie noch einmal abspielen.",
     ["A Word in Person"] = "Ein Wort unter vier Augen",
     ["Achievement earned: %s."] = "Erfolg errungen: %s.",
     ["Achievement fanfare"] = "Erfolgsfanfare",
@@ -3359,7 +3359,7 @@ ns.translate({
     ["The Library"] = "Die Bibliothek",
     ["The lore of Azeroth, written for you as you explore."] = "Die Geschichte Azeroths, für dich aufgeschrieben, während du die Welt erkundest.",
     ["The Soundtrack"] = "Der Soundtrack",
-    ["The tunes of the game's music, found by standing where they play with the music on. The game never tells which track is playing, so a tune is found, not heard: stay a little while, and it is written here. Found, a tune plays again from this page."] = "Die Melodien der Spielmusik, gefunden, indem man dort steht, wo sie spielen, bei eingeschalteter Musik. Das Spiel verrät nie, welches Stück gerade läuft: Eine Melodie wird also gefunden, nicht gehört. Bleibt ein Weilchen, und sie wird hier eingetragen. Einmal gefunden, spielt sie von dieser Seite aus erneut.",
+    ["The tunes of the game's music, found by standing where they play with the music on. The game never tells which track is playing, so a tune is found, not heard: stay a little while, and it is written here. Found, a tune plays again from this page."] = "Die Melodien der Spielmusik, gefunden, indem man dort steht, wo sie spielen, bei eingeschalteter Musik. Das Spiel verrät nie, welches Stück gerade läuft: Eine Melodie wird also gefunden, nicht gehört. Bleib ein Weilchen, und sie wird hier eingetragen. Einmal gefunden, spielt sie von dieser Seite aus erneut.",
     ["This forgets every page and achievement this character has found. Type /codex reset yes to do it."] = "Das löscht alle gefundenen Seiten und erhaltenen Erfolge dieses Charakters. Gib /codex reset yes ein, um zu bestätigen.",
     ["This is the %s package, and this is %s: install the %s package to read this game's pages."] = "Dies ist das Paket für %s, und dies ist %s: Installiere das Paket für %s, um die Seiten dieses Spiels zu lesen.",
     ["This page did not reach the codex. Open the text again in the world to copy it."] = "Diese Seite hat den Kodex nicht erreicht. Öffne den Text in der Welt noch einmal, um ihn abzuschreiben.",
@@ -4480,7 +4480,7 @@ ns.translate({
     ["darnassus-tune"] = {
       title = "Darnassus",
       text = {
-        { "Darnassus, die Stadt der Nachtelfen, wächst in den Ästen von Teldrassil, und ihre Melodie ist dort und in den Dörfern darunter zu hören. Die Nachtelfen sind ein geduldiges Volk. Ich habe es für unklug befunden, sie zu drängen." },
+        { "Darnassus, die Stadt der Nachtelfen, wächst in den Ästen von Teldrassil, und ihre Melodie ist dort und in den Dörfern darunter zu hören. Die Nachtelfen sind ein geduldiges Volk. Ich habe es nie für klug gehalten, sie zu drängen." },
       },
     },
     ["darrowshire"] = {
@@ -5095,7 +5095,7 @@ ns.translate({
     ["green-kingdoms"] = {
       title = "Die grünen Königreiche",
       text = {
-        { "Eine einzige Melodie dient den Wäldern der menschlichen Königreiche, vom Wald von Elwynn und dem Rotkammgebirge bis nach Loch Modan, ins Hinterland und ins Vorgebirge von Hillsbrad. Menschen bestellten und bekämpften sich unter diesen Bäumen, lange bevor die Horde durch das Dunkle Portal kam, und die Melodie hat all das überdauert. Wer sie richtig hören will, bleibt stehen." },
+        { "Eine einzige Melodie liegt über den Wäldern der menschlichen Königreiche, vom Wald von Elwynn und dem Rotkammgebirge bis nach Loch Modan, ins Hinterland und ins Vorgebirge von Hillsbrad. Menschen bestellten Felder und bekämpften einander unter diesen Bäumen, lange bevor die Horde durch das Dunkle Portal kam, und die Melodie hat all das überdauert. Wer sie richtig hören will, bleibt stehen." },
       },
     },
     ["greymane-wall"] = {
@@ -5320,7 +5320,7 @@ ns.translate({
     ["ironforge-tune"] = {
       title = "Ironforge",
       text = {
-        { "Ironforge ist meine eigene Stadt, und ich sage nur, dass ihre Melodie irgendwo in ihr erklingt, denn die Hallen sind zahlreich. Die Bronzebarts halten die Große Schmiede unter Magni schon länger am Brennen, als die meisten Königreiche einen Namen haben. Ihr findet mich in der Halle der Forscher, falls Ihr je eine Historikerin braucht." },
+        { "Ironforge ist meine eigene Stadt, und ich sage nur, dass ihre Melodie irgendwo in ihr erklingt, denn die Hallen sind zahlreich. Die Bronzebeards halten die Große Schmiede unter Magni schon länger am Brennen, als die meisten Königreiche einen Namen haben. Ihr findet mich in der Halle der Forscher, falls Ihr je eine Historikerin braucht." },
       },
     },
     ["jaedenar"] = {
@@ -5539,7 +5539,7 @@ ns.translate({
     ["marsh-and-mire"] = {
       title = "Marsch und Morast",
       text = {
-        { "Das Sumpfland und die Marschen von Dustwallow teilen sich eine Melodie aus feuchter Luft und langem grauem Wasser. Zwerge halten den Hafen von Menethil auf dem einen, und Theramore steht auf dem anderen. Keiner von beiden ist ein Ort, den ich für einen langen Spaziergang in guten Stiefeln wählen würde." },
+        { "Das Sumpfland und die Marschen von Dustwallow teilen sich eine Melodie, und viel feuchte Luft und langes graues Wasser. In dem einen halten Zwerge den Hafen von Menethil, in der anderen steht Theramore. Keiner von beiden ist ein Ort, den ich für einen langen Spaziergang in guten Stiefeln wählen würde." },
       },
     },
     ["marshal-windsor"] = {
@@ -6501,7 +6501,7 @@ ns.translate({
     ["stormwind-tune"] = {
       title = "Stormwind",
       text = {
-        { "Stormwind hat seine eigene Melodie, die zwischen den Kanälen und Kathedralen der menschlichen Hauptstadt erklingt. Die Horde brannte die Stadt im Ersten Krieg nieder, und die Menschen bauten sie größer und stolzer wieder auf. Ich bemerke, dass es eine Stadt ist, die Leute gebaut haben, die damit rechneten, erneut angegriffen zu werden." },
+        { "Stormwind hat seine eigene Melodie, die zwischen den Kanälen und Kathedralen der menschlichen Hauptstadt erklingt. Die Horde brannte die Stadt im Ersten Krieg nieder, und die Menschen bauten sie größer und stolzer wieder auf. Mir fällt auf: Diese Stadt haben Leute gebaut, die damit rechneten, erneut angegriffen zu werden." },
       },
     },
     ["stranglethorn-vale"] = {
@@ -6699,7 +6699,7 @@ ns.translate({
     ["the-burning-lands"] = {
       title = "Die brennenden Lande",
       text = {
-        { "Der Blackrock, die Brennende Steppe und die Sengende Schlucht sind dasselbe Feuer von drei Seiten gesehen. Die Dunkeleisenzwerge halten die Schlucht, und Ragnaros hält das Herz des Berges. Ich würde bei keinem von beiden lange verweilen." },
+        { "Der Blackrock, die Brennende Steppe und die Sengende Schlucht sind dasselbe Feuer, von drei Seiten gesehen. Die Dunkeleisenzwerge halten die Schlucht, und Ragnaros hält das Herz des Berges. Ich würde bei keinem von beiden lange verweilen." },
       },
     },
     ["the-cauldron"] = {
@@ -6751,7 +6751,7 @@ ns.translate({
     ["the-dark-woods"] = {
       title = "Die finsteren Wälder",
       text = {
-        { "Dämmerwald, Gebirgspass der Totenwinde, Tirisfal und Silberwald teilen sich eine Melodie, und keiner dieser Orte lädt zum Verweilen ein. Tirisfal war das Bauernland Lordaerons, bevor die Seuche kam, und heute halten die Verlassenen es. Die Melodie musste sich ihnen nicht anpassen." },
+        { "Dämmerwald, Gebirgspass der Totenwinde, Tirisfal und Silberwald teilen sich eine Melodie, und keiner dieser Orte lädt zum Verweilen ein. Tirisfal war das Bauernland Lordaerons, bevor die Seuche kam, und heute halten die Verlassenen es. Ich habe den Verlassenen die Wahl ihrer Heimat nie streitig gemacht." },
       },
     },
     ["the-deadmines"] = {
@@ -6772,7 +6772,7 @@ ns.translate({
     ["the-dry-lands"] = {
       title = "Die trockenen Lande",
       text = {
-        { "Staub und Dornen vom Brachland über das Ödland bis in die Verwüsteten Lande, nach Desolace und ins Steinkrallengebirge: eine Melodie für alles. Die Orcs machten das Brachland nach dem Krieg der Horde zu ihrem Land, und die Verwüsteten Lande tragen noch die Narbe des Dunklen Portals. Ich finde die Melodie passend für eine Gegend, um die so oft gestritten wurde." },
+        { "Staub und Dornen vom Brachland über das Ödland bis in die Verwüsteten Lande, nach Desolace und ins Steinkrallengebirge: eine Melodie für alles. Die Orcs machten das Brachland nach dem Krieg der Horde zu ihrem Land, und die Verwüsteten Lande tragen noch die Narbe des Dunklen Portals. Es ist eine Gegend, um die öfter gestritten wurde als um die meisten." },
       },
     },
     ["the-embalmer"] = {
@@ -6860,7 +6860,7 @@ ns.translate({
     ["the-high-mountains"] = {
       title = "Die hohen Berge",
       text = {
-        { "Dun Morogh, das Arathihochland und Winterspring antworten alle auf diese Melodie, und ich gebe zu, dass ich beim ersten nicht unparteiisch bin. Im Arathihochland lag einst Thoradins Hauptstadt, als Arathor über die Länder der Menschen herrschte. Winterspring birgt nichts als Schnee und viel Geduld." },
+        { "Dun Morogh, das Arathihochland und Winterspring teilen sich alle diese Melodie, und ich gebe zu, dass ich beim ersten nicht unparteiisch bin. Im Arathihochland lag einst Thoradins Hauptstadt, als Arathor über die Länder der Menschen herrschte. In Winterspring gibt es nichts als Schnee und viel Geduld." },
       },
     },
     ["the-high-order"] = {
@@ -6880,7 +6880,7 @@ ns.translate({
     ["the-jungle"] = {
       title = "Der Dschungel",
       text = {
-        { "Dieselbe Melodie liegt über dem Schlingendorntal, Feralas und den Trollruinen von Zul'Gurub und dem Tempel von Atal'Hakkar. Die Gurubashi-Trolle herrschten einst von ihrer großen Stadt aus über diesen Dschungel. Ihr Reich ist vergangen, die Bäume nicht." },
+        { "Dieselbe Melodie liegt über dem Schlingendorntal und Feralas, über den Trollruinen von Zul'Gurub und dem Tempel von Atal'Hakkar. Die Gurubashi-Trolle herrschten einst von ihrer großen Stadt aus über diesen Dschungel. Ihr Reich ist vergangen, die Bäume nicht." },
       },
     },
     ["the-lich-king"] = {
@@ -6923,7 +6923,7 @@ ns.translate({
     ["the-open-plains"] = {
       title = "Die offenen Ebenen",
       text = {
-        { "Westfalls Höfe, Durotars rote Hügel, Mulgores Gras und die Tausend Nadeln teilen sich eine Melodie, was viel verlangt ist von einem einzigen Lied für so viele Völker. Menschen pflügen Westfall, die Orcs machten Durotar unter Thrall zu ihrer Heimat, und die Tauren durchstreifen Mulgore schon lange vor beiden." },
+        { "Westfalls Höfe, Durotars rote Hügel, Mulgores Gras und die Tausend Nadeln teilen sich eine Melodie, was viel verlangt ist für ein einziges Lied und so viele Völker. Menschen pflügten Westfall, die Orcs machten Durotar unter Thrall zu ihrer Heimat, und die Tauren durchstreiften Mulgore schon lange vor beiden." },
       },
     },
     ["the-ordering"] = {
@@ -6938,13 +6938,13 @@ ns.translate({
     ["the-plagued-lands"] = {
       title = "Die verseuchten Lande",
       text = {
-        { "Die Westlichen Pestländer und die Östlichen Pestländer teilen sich diese Melodie mit dem Scharlachroten Kloster. Die Seuche begann im Korn von Andorhal, und was sie den Höfen im Norden Lordaerons antat, lässt sich noch heute am Boden lesen. Der Scharlachrote Kreuzzug ist auf seine Weise ein anderes Gesicht derselben Wunde." },
+        { "Die Westlichen Pestländer und die Östlichen Pestländer teilen sich diese Melodie mit dem Scharlachroten Kloster. Die Seuche begann im Korn von Andorhal, und was sie den Höfen im Norden Lordaerons antat, lässt sich noch heute am Boden lesen. Der Scharlachrote Kreuzzug ist auf seine Weise ein anderer Ausdruck derselben Wunde." },
       },
     },
     ["the-sands"] = {
       title = "Die Sande",
       text = {
-        { "Tanaris, Silithus und die Trollstadt Zul'Farrak teilen sich eine Melodie aus Sand und Sonne. In Silithus stehen zudem die Tore von Ahn'Qiraj, was ein schlechter Grund ist, es zu besuchen, und ein ausgezeichneter, darüber zu schreiben." },
+        { "Tanaris, Silithus und die Trollstadt Zul'Farrak teilen sich eine Melodie, und viel Sand und Sonne. In Silithus stehen zudem die Tore von Ahn'Qiraj, was ein schlechter Grund ist, es zu besuchen, und ein ausgezeichneter, darüber zu schreiben." },
       },
     },
     ["the-scarab-wall"] = {
@@ -7002,7 +7002,7 @@ ns.translate({
     ["the-sorrowful-swamp"] = {
       title = "Der Sumpf der Sorgen",
       text = {
-        { "Die Sümpfe des Elends und der Un'Goro-Krater, zwei Orte ohne sonst etwas gemeinsam, spielen dieselbe Melodie. Der erste birgt das Orcdorf Stonard und den versunkenen Tempel von Atal'Hakkar. Der zweite birgt eine große Zahl Dinosaurier, was keine meiner Geschichten je erklären konnte." },
+        { "Die Sümpfe des Elends und der Un'Goro-Krater, zwei Orte, die sonst nichts gemeinsam haben, teilen sich dieselbe Melodie. Der erste birgt das Orc-Dorf Stonard und den versunkenen Tempel von Atal'Hakkar. Im zweiten leben erstaunlich viele Dinosaurier, was keine meiner Geschichten je erklären konnte." },
       },
     },
     ["the-stockade"] = {
@@ -7266,7 +7266,7 @@ ns.translate({
     ["undercity-tune"] = {
       title = "Undercity",
       text = {
-        { "Die Undercity liegt unter den Ruinen der Hauptstadt Lordaerons, und die Verlassenen unter Sylvanas halten sie. Ihre Melodie erklingt irgendwo in den Hallen unten. Es ist die einzige Stadt, die ich kenne, deren Bewohner das Wort einladend für eine Beleidigung hielten." },
+        { "Undercity liegt unter den Ruinen der Hauptstadt Lordaerons, und die Verlassenen unter Sylvanas halten sie. Ihre Melodie erklingt irgendwo in den Hallen unten. Es ist die einzige Stadt, die ich kenne, deren Bewohner das Wort \"einladend\" für eine Beleidigung hielten." },
       },
     },
     ["ungoro-crater"] = {

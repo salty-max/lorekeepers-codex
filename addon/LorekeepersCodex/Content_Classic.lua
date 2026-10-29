@@ -3374,7 +3374,7 @@ ns.content = {
       unlock = { { music = 227 } },
       also = {  },
       text = {
-        { "The Wetlands and Dustwallow Marsh share a tune of damp air and long grey water. Dwarves keep Menethil Harbor on the one, and Theramore stands on the other. Neither is a place I would choose for a long walk in good boots." },
+        { "The Wetlands and Dustwallow Marsh share a tune, and a great deal of damp air and long grey water. Dwarves keep Menethil Harbor on the one, and Theramore stands on the other. Neither is a place I would choose for a long walk in good boots." },
       },
     },
     ["orgrimmar-tune"] = {
@@ -3406,7 +3406,7 @@ ns.content = {
       unlock = { { music = 2 } },
       also = {  },
       text = {
-        { "Duskwood, Deadwind Pass, Tirisfal Glades and Silverpine Forest share one tune, and none of them is a comfortable place to stand. Tirisfal was the farmland of Lordaeron before the plague came, and the Forsaken now keep it. The tune did not have to change to suit them." },
+        { "Duskwood, Deadwind Pass, Tirisfal Glades and Silverpine Forest share one tune, and none of them is a comfortable place to stand. Tirisfal was the farmland of Lordaeron before the plague came, and the Forsaken now keep it. I have never argued with the Forsaken over their choice of home." },
       },
     },
     ["the-dry-lands"] = {
@@ -3414,7 +3414,7 @@ ns.content = {
       unlock = { { music = 7 } },
       also = {  },
       text = {
-        { "Dust and thorn from the Barrens to the Badlands, and on to the Blasted Lands, Desolace and the Stonetalon Mountains: one tune for all of it. The orcs made the Barrens their own after the Horde's war, and the Blasted Lands still carry the scar of the Dark Portal. I find it a fitting tune for a country that has been fought over so often." },
+        { "Dust and thorn from the Barrens to the Badlands, and on to the Blasted Lands, Desolace and the Stonetalon Mountains: one tune for all of it. The orcs made the Barrens their own after the Horde's war, and the Blasted Lands still carry the scar of the Dark Portal. It is a country that has been fought over more often than most." },
       },
     },
     ["the-high-mountains"] = {
@@ -3462,7 +3462,7 @@ ns.content = {
       unlock = { { music = 176 } },
       also = {  },
       text = {
-        { "Tanaris, Silithus and the troll city of Zul'Farrak share a tune of sand and sun. Silithus is also where the Gates of Ahn'Qiraj stand, which is a poor reason to visit it and an excellent reason to write about it." },
+        { "Tanaris, Silithus and the troll city of Zul'Farrak share a tune, and a great deal of sand and sun. Silithus is also where the Gates of Ahn'Qiraj stand, which is a poor reason to visit it and an excellent reason to write about it." },
       },
     },
     ["the-sorrowful-swamp"] = {

@@ -3165,7 +3165,7 @@ ns.translate({
     ["A Page by the Fire"] = "Una página junto al fuego",
     ["A Shelf Begun"] = "La primera estantería",
     ["A Tale Worth Telling"] = "Una historia que contar",
-    ["A tune of the game's music. Stand where it plays, with the music on, and it is yours to play again."] = "Una melodía de la música del juego. Quédate donde suena, con la música activada, y podrás volver a tocarla.",
+    ["A tune of the game's music. Stand where it plays, with the music on, and it is yours to play again."] = "Una melodía de la música del juego. Quédate donde suena, con la música activada, y podrás volver a escucharla.",
     ["A Word in Person"] = "Unas palabras en persona",
     ["Achievement earned: %s."] = "Logro obtenido: %s.",
     ["Achievement fanfare"] = "Fanfarria de logro",
@@ -3362,7 +3362,7 @@ ns.translate({
     ["This page did not reach the codex. Open the text again in the world to copy it."] = "Esta página no llegó al códice. Vuelve a abrir el texto en el mundo para copiarlo.",
     ["Three Hundred Pages"] = "Trescientas páginas",
     ["Track %d"] = "Pista %d",
-    ["Tune found in %s, at level %d, on %s."] = "Melodía encontrada en %s, a nivel %d, el %s.",
+    ["Tune found in %s, at level %d, on %s."] = "Melodía encontrada en %s, de nivel %d, el %s.",
     ["tunes found"] = "melodías encontradas",
     ["Tunes found lately"] = "Melodías encontradas hace poco",
     ["tunes in all"] = "melodías en total",
@@ -4460,7 +4460,7 @@ ns.translate({
     ["darnassus-tune"] = {
       title = "Darnassus",
       text = {
-        { "Darnassus, la ciudad de los elfos de la noche, crece en las ramas de Teldrassil, y su melodía se oye allí y en las aldeas de abajo. Los elfos de la noche son un pueblo paciente. Me ha parecido poco sensato apremiarlos." },
+        { "Darnassus, la ciudad de los elfos de la noche, crece en las ramas de Teldrassil, y su melodía se oye allí y en las aldeas de abajo. Los elfos de la noche son un pueblo paciente. No me ha parecido sensato apremiarlos." },
       },
     },
     ["darrowshire"] = {
@@ -5075,7 +5075,7 @@ ns.translate({
     ["green-kingdoms"] = {
       title = "Los reinos verdes",
       text = {
-        { "Una sola melodía sirve a los bosques de los reinos humanos, del Bosque de Elwynn y las Montañas Crestagrana a Loch Modan, las Tierras del Interior y las Laderas de Trabalomas. Los hombres cultivaron y lucharon bajo estos árboles mucho antes de que la Horda cruzara el Portal Oscuro, y la melodía ha sobrevivido a todo ello. Si quieres oírla como es debido, deja de caminar." },
+        { "Una sola melodía sirve a los bosques de los reinos humanos, del Bosque de Elwynn y las Montañas Crestagrana a Loch Modan, las Tierras del Interior y las Laderas de Trabalomas. Los humanos cultivaron y lucharon bajo estos árboles mucho antes de que la Horda cruzara el Portal Oscuro, y la melodía ha sobrevivido a todo ello. Si quieres oírla como es debido, deja de caminar." },
       },
     },
     ["greymane-wall"] = {
@@ -5519,7 +5519,7 @@ ns.translate({
     ["marsh-and-mire"] = {
       title = "Marjal y cenagal",
       text = {
-        { "Los Humedales y el Marjal Revolcafango comparten una melodía de aire húmedo y largas aguas grises. Los enanos mantienen el Puerto de Menethil en uno, y Theramore se alza en el otro. Ninguno es un sitio que yo elegiría para un paseo largo con buenas botas." },
+        { "Los Humedales y el Marjal Revolcafango comparten una melodía, y mucho aire húmedo y largas aguas grises. Los enanos mantienen el Puerto de Menethil en uno, y Theramore se alza en el otro. Ninguno es un sitio que yo elegiría para un paseo largo con buenas botas." },
       },
     },
     ["marshal-windsor"] = {
@@ -5827,7 +5827,7 @@ ns.translate({
     ["orgrimmar-tune"] = {
       title = "Orgrimmar",
       text = {
-        { "Orgrimmar lleva el nombre de Orgrim Martillo Maldito, que dirigió la Horda antes que Thrall, y Thrall la levantó sobre la tierra roja de Durotar. Su melodía suena en algún lugar entre las murallas. No pretenderé saber dónde, solo que los orcos no son tímidos para nada." },
+        { "Orgrimmar lleva el nombre de Orgrim Martillo Maldito, que dirigió la Horda antes que Thrall, y Thrall levantó la ciudad sobre la tierra roja de Durotar. Su melodía suena en algún lugar entre las murallas. No pretenderé saber dónde, solo que los orcos no son nada tímidos." },
       },
     },
     ["paladins"] = {
@@ -6679,7 +6679,7 @@ ns.translate({
     ["the-burning-lands"] = {
       title = "Las tierras ardientes",
       text = {
-        { "La Montaña Roca Negra, Las Estepas Ardientes y La Garganta de Fuego son el mismo fuego visto desde tres lados. Los enanos Hierro Negro tienen la Garganta, y Ragnaros tiene el corazón de la montaña. No me quedaría mucho rato en ninguno de los dos sitios." },
+        { "La Montaña Roca Negra, las Estepas Ardientes y la Garganta de Fuego son el mismo fuego visto desde tres lados. Los enanos Hierro Negro tienen la Garganta de Fuego, y Ragnaros tiene el corazón de la montaña. No me quedaría mucho rato en ninguno de ellos." },
       },
     },
     ["the-cauldron"] = {
@@ -6731,7 +6731,7 @@ ns.translate({
     ["the-dark-woods"] = {
       title = "Los bosques sombríos",
       text = {
-        { "El Bosque del Ocaso, el Paso de la Muerte, los Claros de Tirisfal y el Bosque de Argénteos comparten una sola melodía, y ninguno de ellos es un lugar cómodo donde quedarse. Tirisfal era la campiña de Lordaeron antes de que llegara la plaga, y hoy la guardan los Renegados. A la melodía no le hizo falta cambiar para ajustarse a ellos." },
+        { "El Bosque del Ocaso, el Paso de la Muerte, los Claros de Tirisfal y el Bosque de Argénteos comparten una sola melodía, y ninguno de ellos es un lugar cómodo donde quedarse. Tirisfal era la campiña de Lordaeron antes de que llegara la plaga, y hoy la guardan los Renegados. Nunca he discutido a los Renegados la elección de su hogar." },
       },
     },
     ["the-deadmines"] = {
@@ -6752,7 +6752,7 @@ ns.translate({
     ["the-dry-lands"] = {
       title = "Las tierras secas",
       text = {
-        { "Polvo y espinos de los Baldíos a las Tierras Inhóspitas, y de ahí a Las Tierras Devastadas, Desolace y la Sierra Espolón: una sola melodía para todo. Los orcos hicieron suyos los Baldíos después de la guerra de la Horda, y Las Tierras Devastadas aún llevan la cicatriz del Portal Oscuro. Me parece una melodía acertada para una comarca tan disputada." },
+        { "Polvo y espinos, de los Baldíos a las Tierras Inhóspitas, y de ahí a las Tierras Devastadas, Desolace y la Sierra Espolón: una sola melodía para todo. Los orcos hicieron suyos los Baldíos después de la guerra de la Horda, y las Tierras Devastadas aún llevan la cicatriz del Portal Oscuro. Es una comarca disputada más a menudo que la mayoría." },
       },
     },
     ["the-embalmer"] = {
@@ -6840,7 +6840,7 @@ ns.translate({
     ["the-high-mountains"] = {
       title = "Las altas montañas",
       text = {
-        { "Dun Morogh, las Tierras Altas de Arathi y Cuna del Invierno responden todas a esta melodía, y confieso que no soy imparcial con la primera. Las Tierras Altas de Arathi albergaron en otro tiempo la capital de Thoradin, cuando Arathor gobernaba las tierras humanas. Cuna del Invierno no guarda más que nieve y mucha paciencia." },
+        { "Dun Morogh, las Tierras Altas de Arathi y Cuna del Invierno comparten todas esta melodía, y confieso que no soy imparcial con la primera. Las Tierras Altas de Arathi albergaron en otro tiempo la capital de Thoradin, cuando Arathor gobernaba las tierras humanas. Cuna del Invierno no guarda más que nieve y mucha paciencia." },
       },
     },
     ["the-high-order"] = {
@@ -6903,7 +6903,7 @@ ns.translate({
     ["the-open-plains"] = {
       title = "Las llanuras abiertas",
       text = {
-        { "Las granjas de Páramos de Poniente, las colinas rojas de Durotar, la hierba de Mulgore y Las Mil Agujas comparten una sola melodía, que es pedir mucho a una canción para tantos pueblos. Los humanos aran Páramos de Poniente, los orcos hicieron de Durotar su patria bajo Thrall, y los tauren recorren Mulgore desde mucho antes que unos y otros." },
+        { "Las granjas de los Páramos de Poniente, las colinas rojas de Durotar, la hierba de Mulgore y las Mil Agujas comparten una sola melodía, lo cual es pedir mucho a una sola canción para tantos pueblos. Los humanos aran los Páramos de Poniente, los orcos hicieron de Durotar su patria bajo Thrall, y los tauren recorren Mulgore desde mucho antes que unos y otros." },
       },
     },
     ["the-ordering"] = {
@@ -6924,7 +6924,7 @@ ns.translate({
     ["the-sands"] = {
       title = "Las arenas",
       text = {
-        { "Tanaris, Silithus y la ciudad trol de Zul'Farrak comparten una melodía de arena y sol. En Silithus se alzan además las Puertas de Ahn'Qiraj, lo cual es una mala razón para visitarla y una excelente razón para escribir sobre ella." },
+        { "Tanaris, Silithus y la ciudad trol de Zul'Farrak comparten una melodía, y mucha arena y mucho sol. En Silithus se alzan además las Puertas de Ahn'Qiraj, lo cual es una mala razón para visitarla y una excelente razón para escribir sobre ella." },
       },
     },
     ["the-scarab-wall"] = {

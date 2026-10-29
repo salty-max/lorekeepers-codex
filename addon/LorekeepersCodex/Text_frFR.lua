@@ -3148,7 +3148,7 @@ ns.translate({
     ["%d texts in the Library"] = "%d textes dans la Bibliothèque",
     ["%s %02d:%02d"] = "%s %02d:%02d",
     ["%s has been added to the codex."] = "%s a rejoint le codex.",
-    ["%s has been added to the soundtrack."] = "%s a été ajouté à la bande-son.",
+    ["%s has been added to the soundtrack."] = "%s rejoint la bande-son.",
     ["%s:"] = "%s :",
     ["%s: %s"] = "%s : %s",
     ["%s's choices are this character's now."] = "Les choix de %s sont désormais ceux de ce personnage.",
@@ -3361,7 +3361,7 @@ ns.translate({
     ["This page did not reach the codex. Open the text again in the world to copy it."] = "Cette page n'a pas été copiée. Rouvrez le texte dans le monde pour la copier.",
     ["Three Hundred Pages"] = "Trois cents pages",
     ["Track %d"] = "Piste %d",
-    ["Tune found in %s, at level %d, on %s."] = "Air trouvé : %s, au niveau %d, le %s.",
+    ["Tune found in %s, at level %d, on %s."] = "Air trouvé dans %s, au niveau %d, le %s.",
     ["tunes found"] = "airs trouvés",
     ["Tunes found lately"] = "Airs trouvés récemment",
     ["tunes in all"] = "airs en tout",
@@ -4487,7 +4487,7 @@ ns.translate({
     ["darnassus-tune"] = {
       title = "Darnassus",
       text = {
-        { "Darnassus, la cité des elfes de la nuit, pousse dans les branches de Teldrassil, et son air s'y entend ainsi que dans les villages d'en dessous. Les elfes de la nuit sont un peuple patient. J'ai trouvé peu sage de les presser." },
+        { "Darnassus, la cité des elfes de la nuit, pousse dans les branches de Teldrassil, et son air s'entend aussi dans les villages d'en dessous. Les elfes de la nuit sont un peuple patient. Je n'ai jamais jugé sage de les presser." },
       },
     },
     ["darrowshire"] = {
@@ -5102,7 +5102,7 @@ ns.translate({
     ["green-kingdoms"] = {
       title = "Les royaumes verts",
       text = {
-        { "Un seul air sert les bois des royaumes humains, de la forêt d'Elwynn et des Carmines au Loch Modan, aux Hinterlands et aux Contreforts de Hautebrande. Les hommes cultivaient et se battaient sous ces arbres bien avant que la Horde ne franchisse la Porte des ténèbres, et l'air a survécu à tout cela. Si vous voulez l'entendre comme il faut, cessez de marcher." },
+        { "Un seul air couvre les bois des royaumes humains, de la forêt d'Elwynn et des Carmines jusqu'au Loch Modan, aux Hinterlands et aux Contreforts de Hautebrande. Les humains cultivaient et se battaient sous ces arbres bien avant que la Horde ne franchisse la Porte des ténèbres, et l'air a survécu à tout cela. Si vous voulez l'entendre comme il faut, cessez de marcher." },
       },
     },
     ["greymane-wall"] = {
@@ -5327,7 +5327,7 @@ ns.translate({
     ["ironforge-tune"] = {
       title = "Forgefer",
       text = {
-        { "Forgefer est ma propre cité, et je dirai seulement que son air joue quelque part entre ses murs, car les salles sont nombreuses. Les Bronzebeard gardent la Grande Forge allumée sous Magni depuis plus longtemps que la plupart des royaumes n'ont eu de nom. Vous me trouverez au Hall des explorateurs, si jamais vous avez besoin d'une historienne." },
+        { "Forgefer est ma propre cité, et je dirai seulement que son air joue quelque part entre ses murs, car les salles sont nombreuses. Les Bronzebeard gardent la Grande Forge allumée sous Magni depuis plus longtemps que la plupart des royaumes n'ont de nom. Vous me trouverez au Hall des explorateurs, si jamais vous avez besoin d'une historienne." },
       },
     },
     ["jaedenar"] = {
@@ -5546,7 +5546,7 @@ ns.translate({
     ["marsh-and-mire"] = {
       title = "Marais et fondrières",
       text = {
-        { "Les Paluns et le Marécage d'Âprefange partagent un air d'humidité et de longues eaux grises. Les nains tiennent le Port de Menethil sur l'un, et Theramore se dresse sur l'autre. Ni l'un ni l'autre ne sont un lieu que je choisirais pour une longue marche en bonnes bottes." },
+        { "Les Paluns et le Marécage d'Âprefange partagent un même air, et tous deux sont faits d'humidité et de longues eaux grises. Les nains tiennent le Port de Menethil sur l'un, Theramore sur l'autre. Ni l'un ni l'autre n'est un lieu que je choisirais pour une longue marche, même bien chaussée." },
       },
     },
     ["marshal-windsor"] = {
@@ -5854,7 +5854,7 @@ ns.translate({
     ["orgrimmar-tune"] = {
       title = "Orgrimmar",
       text = {
-        { "Orgrimmar porte le nom d'Orgrim Doomhammer, qui menait la Horde avant Thrall, et Thrall l'a élevée sur la terre rouge de Durotar. Son air joue quelque part entre les murs. Je ne prétendrai pas savoir où, seulement que les orcs ne sont timides en rien." },
+        { "Orgrimmar porte le nom d'Orgrim Doomhammer, qui menait la Horde avant Thrall, et Thrall l'a élevée sur la terre rouge de Durotar. Son air joue quelque part entre les murs. Je ne prétendrai pas savoir où, seulement que les orcs n'ont rien de timide." },
       },
     },
     ["paladins"] = {
@@ -6508,7 +6508,7 @@ ns.translate({
     ["stormwind-tune"] = {
       title = "Hurlevent",
       text = {
-        { "Hurlevent a son propre air, qui joue parmi les canaux et les cathédrales de la capitale humaine. La Horde a incendié la cité durant la première guerre, et les humains l'ont rebâtie plus grande et plus fière qu'avant. Je remarque que c'est une ville bâtie par des gens qui s'attendaient à être attaqués de nouveau." },
+        { "Hurlevent a son propre air, qui joue parmi les canaux et les cathédrales de la capitale humaine. La Horde a incendié la cité durant la Première Guerre, et les humains l'ont rebâtie plus grande et plus fière qu'avant. Je remarque que c'est une ville bâtie par des gens qui s'attendaient à être attaqués de nouveau." },
       },
     },
     ["stranglethorn-vale"] = {
@@ -6758,7 +6758,7 @@ ns.translate({
     ["the-dark-woods"] = {
       title = "Les bois sombres",
       text = {
-        { "Le Bois de la Pénombre, le Défilé de Deuillevent, les Clairières de Tirisfal et la forêt des Pins argentés partagent un seul air, et aucun de ces lieux n'invite à s'attarder. Tirisfal était la campagne cultivée de Lordaeron avant l'arrivée de la peste, et les Réprouvés la gardent aujourd'hui. L'air n'a pas eu besoin de changer pour leur convenir." },
+        { "Le Bois de la Pénombre, le Défilé de Deuillevent, les Clairières de Tirisfal et la forêt des Pins argentés partagent un seul air, et aucun de ces lieux n'invite à s'attarder. Tirisfal était la campagne cultivée de Lordaeron avant l'arrivée de la peste, et les Réprouvés la gardent aujourd'hui. Les lieux n'ont pas eu besoin de changer pour leur convenir." },
       },
     },
     ["the-deadmines"] = {
@@ -6779,7 +6779,7 @@ ns.translate({
     ["the-dry-lands"] = {
       title = "Les terres arides",
       text = {
-        { "De la poussière et des épines, des Tarides aux Terres ingrates, puis aux Terres foudroyées, à Désolace et aux Serres-Rocheuses : un seul air pour tout cela. Les orcs ont fait des Tarides leur terre après la guerre de la Horde, et les Terres foudroyées portent encore la cicatrice de la Porte des ténèbres. Je trouve l'air bien choisi pour une contrée qu'on s'est si souvent disputée." },
+        { "De la poussière et des épines, des Tarides aux Terres ingrates, puis aux Terres foudroyées, à Désolace et aux Serres-Rocheuses : un seul air pour tout cela. Les orcs ont fait des Tarides leur patrie après la guerre de la Horde, et les Terres foudroyées portent encore la cicatrice de la Porte des ténèbres. C'est une contrée qu'on s'est disputée plus souvent que la plupart." },
       },
     },
     ["the-embalmer"] = {
@@ -6867,7 +6867,7 @@ ns.translate({
     ["the-high-mountains"] = {
       title = "Les hautes montagnes",
       text = {
-        { "Dun Morogh, les Hautes-terres Arathies et Berceau-de-l'Hiver répondent tous à cet air, et j'avoue ne pas être impartiale pour le premier. Les Hautes-terres Arathies abritaient jadis la capitale de Thoradin, quand Arathor régnait sur les terres humaines. Berceau-de-l'Hiver ne contient que de la neige et beaucoup de patience." },
+        { "Dun Morogh, les Hautes-terres Arathies et Berceau-de-l'Hiver se partagent tous cet air, et j'avoue ne pas être impartiale pour le premier. Les Hautes-terres Arathies abritaient jadis la capitale de Thoradin, quand Arathor régnait sur les terres humaines. Berceau-de-l'Hiver ne contient que de la neige et beaucoup de patience." },
       },
     },
     ["the-high-order"] = {
@@ -6901,7 +6901,7 @@ ns.translate({
     ["the-living-forest"] = {
       title = "La forêt vivante",
       text = {
-        { "L'air de Teldrassil, le grand arbre que les elfes de la nuit appellent leur foyer, se poursuit dans les forêts d'Orneval. Les deux appartiennent à un peuple qui compte ses années en millénaires, et qui parcourait ces bois avant que les nains n'aient appris à creuser." },
+        { "L'air de Teldrassil, le grand arbre que les elfes de la nuit appellent leur foyer, se poursuit dans la forêt d'Orneval. Les deux appartiennent à un peuple qui compte ses années en millénaires, et qui parcourait ces bois avant que les nains n'aient appris à creuser." },
       },
     },
     ["the-lost-dwarves"] = {
@@ -6945,13 +6945,13 @@ ns.translate({
     ["the-plagued-lands"] = {
       title = "Les terres de la peste",
       text = {
-        { "Les Maleterres de l'ouest et les Maleterres de l'est partagent cet air avec le Monastère écarlate. La peste a commencé dans le grain à Andorhal, et ce qu'elle a fait aux fermes du nord de Lordaeron se lit encore sur le sol. La Croisade écarlate est, à sa façon, un autre visage de la même blessure." },
+        { "Les Maleterres de l'ouest et les Maleterres de l'est partagent cet air avec le Monastère écarlate. La peste a commencé dans le blé, à Andorhal, et ce qu'elle a fait aux fermes du nord de Lordaeron se lit encore sur le sol. La Croisade écarlate est, à sa façon, un autre visage de la même blessure." },
       },
     },
     ["the-sands"] = {
       title = "Les sables",
       text = {
-        { "Tanaris, Silithus et la cité troll de Zul'Farrak partagent un air de sable et de soleil. Silithus est aussi l'endroit où se dressent les Portes d'Ahn'Qiraj, ce qui est une mauvaise raison de s'y rendre et une excellente raison d'en parler." },
+        { "Tanaris, Silithus et la cité troll de Zul'Farrak partagent un même air, et tous trois sont faits de sable et de soleil. Silithus est aussi l'endroit où se dressent les Portes d'Ahn'Qiraj, ce qui est une mauvaise raison de s'y rendre et une excellente raison d'en parler." },
       },
     },
     ["the-scarab-wall"] = {
@@ -7007,9 +7007,9 @@ ns.translate({
       },
     },
     ["the-sorrowful-swamp"] = {
-      title = "Le marais des chagrins",
+      title = "Le Marais des Chagrins",
       text = {
-        { "Le Marais des Chagrins et le cratère d'Un'Goro, deux lieux qui n'ont rien d'autre en commun, jouent le même air. Le premier abrite le village orc de Pierrêche et le temple englouti d'Atal'Hakkar. Le second abrite quantité de dinosaures, ce qu'aucune de mes histoires n'a jamais su expliquer." },
+        { "Le Marais des Chagrins et le cratère d'Un'Goro n'ont rien d'autre en commun que cet air. Le premier abrite le village orc de Pierrêche et le temple englouti d'Atal'Hakkar. Le second compte quantité de dinosaures, ce qu'aucune de mes histoires n'a jamais su expliquer." },
       },
     },
     ["the-stockade"] = {
