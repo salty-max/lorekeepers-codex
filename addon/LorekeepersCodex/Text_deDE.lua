@@ -4459,6 +4459,12 @@ ns.translate({
         { client = "forever", "Der Wiederaufbau ist von einer Krise in der Stadt eingeholt worden. Etwas hat ihre Kraftlinien gestört und ihre Konstrukte unberechenbar und zerstörerisch gemacht. Der Rat will die Sache unter sich behalten. Modera, deren Abbild am Lordameresee wartet, hat um Hilfe von außen gerufen. Die Magier haben die Zerstörung einer Stadt überlebt. Sie ist nicht bereit, ihren Stolz zur Zerstörung einer weiteren beitragen zu lassen." },
       },
     },
+    ["dalaran-tune"] = {
+      title = "Dalaran",
+      text = {
+        { "Dalaran hat neun eigene Stücke, verteilt über seine Straßen, die Abendruh, den Teufelshain, die Kanalisation und die Turmspitze. Die Stadt der Kirin Tor steckt wieder in Schwierigkeiten: Ihre Kraftlinien sind aus dem Lot geraten, und ihre eigenen Konstrukte haben sich gegen sie gewandt. Der Rat hätte lieber gehabt, dass der Rest der Welt nichts davon erfährt. Erzmagierin Modera sieht das anders, und nur deshalb wissen wir davon." },
+      },
+    },
     ["dalsons-tears"] = {
       title = "Dalsons Tränenfeld",
       text = {
@@ -4636,6 +4642,12 @@ ns.translate({
         { "Ein Schreckenslord zeigt selten, was er ist. Wenn jemand in Amt und Würden darauf erpicht scheint, dass die Lebenden und die Toten einander weiter umbringen, $gReisender:Reisende;, lohnt es sich zu fragen, wem es nützt." },
       },
     },
+    ["dreambound-pinnacle-tune"] = {
+      title = "Die Traumgebundene Spitze",
+      text = {
+        { "Die Traumgebundene Spitze hat acht eigene Stücke und leiht sich ein weiteres von Burg Shadowfang. Ich kenne den Ort bisher nur bei seinem Namen und seiner Musik. Den Rest werde ich nicht erfinden." },
+      },
+    },
     ["druids"] = {
       title = "Druiden",
       text = {
@@ -4658,6 +4670,12 @@ ns.translate({
         { "Malfurions Druiden waren nie ein einziger Orden. Manche nahmen die Gestalt des großen Bären an und wurden zu den Druiden der Klaue. Andere nahmen die Gestalt der Sturmkrähe an und wurden zu den Druiden der Kralle. Beide hielten den Pakt mit Ysera und schliefen jahrhundertelang in den Grabhügeln, während ihre Geister im Smaragdgrünen Traum wandelten, und im Dritten Krieg weckte Malfurion sie zum Kampf." },
         { "Manche schlafen noch. Im Grabhügel von Ban'ethil auf Teldrassil liegen die Druiden der Kralle im Winterschlaf, bewacht von einem Großen Wächter. Die Furbolgs der Knarzklauen sind eingedrungen, und einer von ihnen, Ursal der Raufer, hat sich so an dem Ruf der Schläfer zu schaffen gemacht, dass sie Gefahr laufen, überhaupt nie mehr aufzuwachen. Ein Druide der Klaue, der im selben Hügel verloren ging, musste erleben, dass sein eigener Körper gegen ihn gewandt wurde." },
         { "Es ist nicht immer leicht, sie zu wecken. Kerlonian Evershade, ein Druide der Klaue, gerade erst aus dem Traum zurück, döst am Straßenrand an der Dunkelküste und bittet darum, mit seinem Horn geweckt zu werden, falls er unterwegs einnickt. Zehntausend Jahre sind eine lange Zeit, um müde gewesen zu sein." },
+      },
+    },
+    ["drunken-dwarf-tune"] = {
+      title = "Zum Betrunkenen Zwerg",
+      text = {
+        { "Zum Betrunkenen Zwerg im Sumpfland hat fünf eigene Stücke, und sie tauchen irgendwo in Ironforge ebenfalls auf. Ich war noch nicht dort. Bei so einem Namen rechne ich damit, alte Freunde zu treffen." },
       },
     },
     ["dun-garok"] = {
@@ -5211,6 +5229,12 @@ ns.translate({
       text = {
         { "Unter Ironforge liegen die Höhlen von Alt-Ironforge, und in ihnen ein Ort, den die Zwerge die Halle der Thanen nennen. Die Dunkeleisenzwerge haben ihren Weg dorthin gefunden. Eine Karte, die man ihren Spionen in Ironbands Truppenlager abgenommen hat, zeigt Tunnel und alte Fernstraßen, die unter der Stadt zusammenlaufen, und Erdseher Farsen, ein Besucher aus Aerie Peak, folgte ihnen hinab bis zur Halle und zu dem Dunkeleisenzwerg, der dort befiehlt, einem gewissen Durgen Dirgehammer." },
         { "Die eigenen Toten der Halle finden keine Ruhe. Afadra Dunwall, eine Hüterin der Überlieferung aus Ironforge, bittet Reisende, die Geister von Anvilmar zur Ruhe zu betten, und einer von ihnen, Faldrim Anvilmar, scheint einen alten Groll weit über das Grab hinaus bewahrt zu haben. König Magni will den Kopf des Befehlshabers. Ich hätte gern, dass die Liga sich den Ort einmal gründlich ansieht, sobald die Dunkeleisenzwerge draußen sind." },
+      },
+    },
+    ["hall-of-thanes-tune"] = {
+      title = "Die Halle der Thanen",
+      text = {
+        { "Die Halle der Thanen in den Höhlen von Alt-Ironforge unter der Stadt leiht sich vier Stücke von den verborgenen Orten, und diese Stücke tauchen irgendwo in Winterspring ebenfalls auf. Die Dunkeleisenzwerge haben die Halle durch die alten Tunnel erreicht, und die Toten von Anvilmar, die dort liegen, finden keine Ruhe. Ironforge hat einen Preis auf den Dunkeleisenzwerg ausgesetzt, der dort das Kommando führt. Sobald die Tunnel wieder ruhig sind, will ich die erste Geschichtsschreiberin sein, die hinabsteigt." },
       },
     },
     ["hammerfall"] = {
@@ -6211,6 +6235,12 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "Von allem auf dieser Seite ist es Edward Heartweavers wöchentlicher Gang, zu dem ich immer wieder zurückkehre." },
       },
     },
+    ["ruins-of-lordaeron-tune"] = {
+      title = "Ruinen von Lordaeron",
+      text = {
+        { "Die Straßen der alten Hauptstadt über Undercity, von der Königsgasse und der Marktstraße bis zum Friedhof und zur Warte Lordamere, leihen sich sechs Stücke. Drei gehören Undercity, und drei weitere spielen auch in Klageruh auf dem Hyjal. Die Verlassenen kämpfen in den Ruinen wieder gegen die Geißel und zahlen teuer für jede Straße. Es scheint mir passend, dass die Stadt oben und die Stadt unten sich die Hälfte ihrer Musik teilen." },
+      },
+    },
     ["ruins-of-thaurissan"] = {
       title = "Die Ruinen von Thaurissan",
       text = {
@@ -6395,6 +6425,12 @@ ns.translate({
         { "Sie hat seit der Großen Teilung und durch die Zeitalter seither an Tyrandes Seite gestanden. Heute liegt ihr Kommando weit von Darnassus entfernt, in Feralas." },
       },
     },
+    ["shapers-terrace-tune"] = {
+      title = "Die Terrasse des Formers",
+      text = {
+        { "Die Terrasse des Formers und die Säule der Assimilierung im Un'Goro-Krater haben acht eigene Stücke. Jemand hat die Pylonen und die farbigen Kristalle des Kraters erschaffen, und J.D. Collie, die sie erforscht, kann noch immer nicht sagen, wer. Eine Terrasse, die nach einem Former benannt ist, scheint mir der aussichtsreichste Ort, den ich kenne, um zu erfahren, wer." },
+      },
+    },
     ["shen-dralas"] = {
       title = "Shen'dralas",
       text = {
@@ -6414,6 +6450,12 @@ ns.translate({
       text = {
         { "Die Shen'dralar sind seit der Zeit vor der Großen Teilung in Eldre'Thalas geblieben. Vom Brunnen der Ewigkeit abgeschnitten, banden sie den Dämon Immol'thar mit fünf Pylonen unter ihrer Stadt. Seit Tausenden von Jahren zapfen sie seine Macht an, um sich selbst zu erhalten." },
         { "Prinz Tortheldrin herrscht noch immer, umgeben von Hallen, in denen die Geister seines Volkes spuken. Manche Shen'dralar haben die Freiheit der Unsterblichkeit vorgezogen. Die Uralte Shen'dralar bittet um Tortheldrins Tod und um Frieden für die Geister, während die Hüter des Athenaeums Hilfe mit ihrem Wissen belohnen. Hier gibt es eine bemerkenswerte Bibliothek, doch die Geschichte, wie ihr Volk überlebte, verdient ebenso viel Aufmerksamkeit." },
+      },
+    },
+    ["shendralas-tune"] = {
+      title = "Shen'dralas",
+      text = {
+        { "Das Tal der Knochen und das Land Shen'dralas dahinter haben vier eigene Stücke, von der Front der Magram und der Zuflucht der Ausgestoßenen bis zum Rückzugsort der Borstennacken, Evenshades Warte und den Verlorenen Gärten. Die Zentauren kamen als Erste dorthin und machten daraus einen Krieg. Die Skelette in diesem Tal gingen auf zwei Beinen, und niemand hat mir bisher gesagt, wem sie einst gehörten." },
       },
     },
     ["shimmering-flats"] = {
@@ -6742,6 +6784,12 @@ ns.translate({
       text = {
         { "Die Zwillingsimperatoren Vek'lor und Vek'nilash herrschen vom Tempel von Ahn'Qiraj aus über die Qiraji. Zu ihren Dienern gehören die Schwärme der Silithiden und die großen Würmer in seinen Hallen. Die bronzenen Drachen betrachten diesen Ort mit Furcht." },
         { "Unter den Imperatoren liegt C'Thun. Der Tempel und das Reich um ihn dienen diesem Alten Gott, nicht den Herrschern, denen ein Reisender zuerst begegnet. Die Imperatoren halten ihren Hof über der Kammer ihres eigenen Herrn." },
+      },
+    },
+    ["temple-of-bethekk-tune"] = {
+      title = "Tempel von Bethekk",
+      text = {
+        { "Der Tempel von Bethekk in Zul'Gurub hat ein einziges Stück, und dasselbe Stück empfängt Reisende, die in der Höhle der Frostmane, in Xavian, am Kodofels und auf dem Prügel-Eiland ankommen. Wem dieser Tempel geweiht war, habe ich noch nicht erfahren." },
       },
     },
     ["thandol-span"] = {
@@ -7657,6 +7705,12 @@ ns.translate({
         { "Nördlich der Berge wird der Boden weich und die Luft grau, und Ihr seid im Sumpfland: Marsch, Schilf und Regen, vom Pass von Dun Algaz bis zum Meer beim Hafen von Menethil." },
         { "Einst war dies Land der Zwerge, durch den Thandolübergang mit den Königreichen der Menschen verbunden. Heute ist es ein Kreuzweg der Kriege anderer Leute. Die Orcs der Dragonmaw halten die Hügel, die Dunkeleisenzwerge haben unsere Festung Dun Modr eingenommen, Gnolle und Murlocs füllen die Marschen, und im Osten brütet Grim Batol über allem." },
         { "Bleibt auf der Straße, haltet Euer Pulver trocken und verweilt nicht nach Einbruch der Dunkelheit." },
+      },
+    },
+    ["wetlands-excavation-tune"] = {
+      title = "Ausgrabungsstätte: Sumpfland",
+      text = {
+        { "Die Grabung in den Hügeln über dem Sumpfland hat neun eigene Stücke, für die Stätte selbst, den Verlorenen Marsch und die Stätte des Wächters, und leiht sich fünf weitere aus den Marschen darunter, für das Pirscherdickicht und die Vergessene Ausgrabungsstätte. Die Mannschaft aus Loch Modan hat dort oben unter dem Marsch eine Maschine aus Stein gefunden. Die Dragonmaw sind ihretwegen gekommen, und die Spione der Verlassenen beobachten sie." },
       },
     },
     ["whelgars-excavation-site"] = {

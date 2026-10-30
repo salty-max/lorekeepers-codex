@@ -4319,6 +4319,10 @@
    "forever": "Brill",
    "use": "Brill"
   },
+  "Bristleback Retreat": {
+   "forever": "Retraite des Dos-hirsute",
+   "use": "Retraite des Dos-hirsute"
+  },
   "Burning Steppes": {
    "classic": "Steppes ardentes",
    "forever": "Steppes ardentes",
@@ -4508,6 +4512,10 @@
    "forever": "Bosquet du rêve",
    "use": "Bosquet du rêve"
   },
+  "Dreambound Pinnacle": {
+   "forever": "Sommet Ligerêve",
+   "use": "Sommet Ligerêve"
+  },
   "Dun Algaz": {
    "classic": "Dun Algaz",
    "forever": "Dun Algaz",
@@ -4648,6 +4656,10 @@
    "forever": "Bastion de Pennelune",
    "use": "Bastion de Pennelune"
   },
+  "Fel Grove": {
+   "forever": "Gangrebosquet",
+   "use": "Gangrebosquet"
+  },
   "Fel Rock": {
    "classic": "Gangreroche",
    "forever": "Gangreroche",
@@ -4706,6 +4718,11 @@
    "classic": "La masure lugubre",
    "forever": "La masure lugubre",
    "use": "La masure lugubre"
+  },
+  "Fray Island": {
+   "classic": "Ile de la Dispute",
+   "forever": "Ile de la Dispute",
+   "use": "Ile de la Dispute"
   },
   "Freewind Post": {
    "classic": "Poste de Librevent",
@@ -4918,10 +4935,19 @@
    "forever": "Kharanos",
    "use": "Kharanos"
   },
+  "King's Alley": {
+   "forever": "Allée du Roi",
+   "use": "Allée du Roi"
+  },
   "Kodo Graveyard": {
    "classic": "Cimetière des kodos",
    "forever": "Cimetière des kodos",
    "use": "Cimetière des kodos"
+  },
+  "Kodo Rock": {
+   "classic": "Rocher des kodos",
+   "forever": "Rocher des kodos",
+   "use": "Rocher des kodos"
   },
   "Kolkar Village": {
    "classic": "Village des Kolkar",
@@ -5049,6 +5075,10 @@
    "forever": "Donjon de Mardenholde",
    "use": "Donjon de Mardenholde"
   },
+  "Market Street": {
+   "forever": "Rue du Marché",
+   "use": "Rue du Marché"
+  },
   "Marshal's Refuge": {
    "classic": "Refuge des Marshal",
    "forever": "Refuge des Marshal",
@@ -5117,6 +5147,10 @@
   "Mount Hyjal": {
    "forever": "Mont Hyjal",
    "use": "Mont Hyjal"
+  },
+  "Mourning's Rest": {
+   "forever": "Repos du deuil",
+   "use": "Repos du deuil"
   },
   "Mulgore": {
    "classic": "Mulgore",
@@ -5224,6 +5258,10 @@
    "classic": "Outreterre",
    "forever": "Outreterre",
    "use": "Outreterre"
+  },
+  "Pillar of Assimilation": {
+   "forever": "Pilier d'assimilation",
+   "use": "Pilier d'assimilation"
   },
   "Pool of Tears": {
    "classic": "Bassin des larmes",
@@ -5530,6 +5568,10 @@
    "forever": "Antre de Shalzaru",
    "use": "Antre de Shalzaru"
   },
+  "Shaper's Terrace": {
+   "forever": "Terrasse du Façonneur",
+   "use": "Terrasse du Façonneur"
+  },
   "Shen'dar Highlands": {
    "forever": "Hautes-terres de Shen'dar",
    "use": "Hautes-terres de Shen'dar"
@@ -5767,6 +5809,11 @@
    "forever": "Temple d'Ahn'Qiraj",
    "use": "Temple d'Ahn'Qiraj"
   },
+  "Temple of Bethekk": {
+   "classic": "Temple de Bethekk",
+   "forever": "Temple de Bethekk",
+   "use": "Temple de Bethekk"
+  },
   "Temple of Zin-Malor": {
    "classic": "Temple de Zin-Malor",
    "forever": "Temple de Zin-Malor",
@@ -5886,6 +5933,14 @@
    "classic": "L'Antre des flammes",
    "forever": "L'Antre des flammes",
    "use": "L'Antre des flammes"
+  },
+  "The Drunken Dwarf": {
+   "forever": "Le Nain ivre",
+   "use": "Le Nain ivre"
+  },
+  "The Eventide": {
+   "forever": "Le Brunant",
+   "use": "Le Brunant"
   },
   "The Farstrider Lodge": {
    "classic": "Le pavillon des Pérégrins",
@@ -6075,6 +6130,10 @@
    "classic": "Le Sépulcre",
    "forever": "Le Sépulcre",
    "use": "Le Sépulcre"
+  },
+  "The Shaper's Terrace": {
+   "forever": "La terrasse du Façonneur",
+   "use": "La terrasse du Façonneur"
   },
   "The Shattered Strand": {
    "classic": "La Grève fracassée",
@@ -6453,6 +6512,11 @@
    "classic": "Tourbière du Ver",
    "forever": "Tourbière du Ver",
    "use": "Tourbière du Ver"
+  },
+  "Xavian": {
+   "classic": "Xavian",
+   "forever": "Xavian",
+   "use": "Xavian"
   },
   "Yojamba Isle": {
    "classic": "Ile de Yojamba",

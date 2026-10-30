@@ -44,7 +44,12 @@
     "Huerto de los Campovento",
     "Lago Canzalvaje",
     "Acantilados Tormentosos",
-    "Señor Supremo Mok'Morkk"
+    "Señor Supremo Mok'Morkk",
+    "Cumbre Vinculasueño",
+    "Excavación: Los Humedales",
+    "Escondrijo de los Desterrados",
+    "Lugar del Guardián",
+    "El Enano Beodo"
   ],
   "words": {
     "Sindicato": "Hermandad",
@@ -65,7 +70,11 @@
     "las Agujas Rohashi": "los Pináculos Rohashi",
     "Las Tierras Bajas de los Soplabayas": "Los Bajíos Ventobaya",
     "las Tierras Bajas de los Soplabayas": "los Bajíos Ventobaya",
-    "a Mok'Morkk": "a Mok'Morokk"
+    "a Mok'Morkk": "a Mok'Morokk",
+    "el Retiro Erizapúas": "la Retirada Erizapúas",
+    "el Marjal Perdido": "la Marisma Perdida",
+    "la Fronda del Acechador": "el Zarzal del Acechador",
+    "la Excavación Olvidada": "el Sitio de Excavación Perdida"
   },
   "overrides": {
     "alguacil Reginald Windsor": {

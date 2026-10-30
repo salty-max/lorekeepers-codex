@@ -4422,6 +4422,12 @@ ns.translate({
         { client = "forever", "Una crisis dentro de la ciudad ha interrumpido la reconstrucción. Algo ha alterado sus líneas Ley y vuelto erráticos y destructivos a sus constructos. El consejo quiere mantener el problema en privado. Modera, cuya imagen espera junto al Lago Lordamere, ha pedido ayuda exterior. Los magos han sobrevivido a la destrucción de una ciudad. Ella no piensa dejar que su orgullo contribuya a provocar otra." },
       },
     },
+    ["dalaran-tune"] = {
+      title = "Dalaran",
+      text = {
+        { "Dalaran tiene nueve piezas propias, repartidas entre sus calles, El Manto de la Noche, la Arboleda Vil, las alcantarillas y la aguja. La ciudad del Kirin Tor vuelve a tener problemas: sus líneas Ley se han descontrolado y sus propios constructos se han vuelto contra ella. El consejo habría preferido que el resto del mundo no se enterara. La archimaga Modera no opina igual, y es la única razón por la que lo sabemos." },
+      },
+    },
     ["dalsons-tears"] = {
       title = "Lágrimas de Dalson",
       text = {
@@ -4599,6 +4605,12 @@ ns.translate({
         { "Un señor del terror rara vez te muestra lo que es. Si alguien con autoridad parece empeñado en que vivos y muertos sigan matándose, merece la pena preguntar quién sale ganando, $gviajero:viajera;." },
       },
     },
+    ["dreambound-pinnacle-tune"] = {
+      title = "Cumbre del Atasueños",
+      text = {
+        { "La Cumbre del Atasueños tiene ocho piezas propias y toma prestada una más del Castillo de Colmillo Oscuro. Conozco el lugar por su nombre y su música, y por nada más todavía. No voy a inventarme el resto." },
+      },
+    },
     ["druids"] = {
       title = "Druidas",
       text = {
@@ -4621,6 +4633,12 @@ ns.translate({
         { "Los druidas de Malfurion nunca fueron una sola orden. Algunos adoptaron la forma del gran oso y se convirtieron en los Druidas de la Zarpa. Otros tomaron la forma del cuervo de tormenta y fueron los Druidas de la Garfa. Ambos mantuvieron el pacto con Ysera y durmieron durante siglos en sus túmulos mientras sus espíritus recorrían el Sueño Esmeralda. En la Tercera Guerra, Malfurion los despertó para combatir." },
         { "Algunos aún duermen. En el Túmulo de Ban'ethil de Teldrassil, los Druidas de la Garfa hibernan bajo la vigilancia de un gran celador. Los fúrbolgs Tuercepinos han irrumpido allí y uno de ellos, Ursal el Violento, ha interferido con la llamada de los durmientes hasta ponerlos en peligro de no despertar jamás. Un druida de la Zarpa perdido en el mismo túmulo ha visto cómo su propio cuerpo se volvía contra él." },
         { "No siempre es fácil despertarlos. Kerlonian Semprumbrío, un druida de la Zarpa recién vuelto del Sueño, dormita junto al camino de Costa Oscura y pide que lo despierten con su cuerno si se adormece durante el viaje. Diez mil años son mucho tiempo para llevar cansado." },
+      },
+    },
+    ["drunken-dwarf-tune"] = {
+      title = "El Enano Borracho",
+      text = {
+        { "El Enano Borracho, en Los Humedales, tiene cinco piezas propias, y esas piezas aparecen también en algún rincón de Forjaz. No he estado allí. Con ese nombre, espero encontrarme con viejos amigos." },
       },
     },
     ["dun-garok"] = {
@@ -4793,7 +4811,7 @@ ns.translate({
       },
     },
     ["excavation-site-wetlands"] = {
-      title = "Excavación: Los Humedales",
+      title = "Sitio de Excavación: Los Humedales",
       text = {
         { "El pantano del prospector Whelgar no es la única excavación de Los Humedales. Un equipo venido de Loch Modan subió a las colinas que lo dominan, a tierras que ningún enano había pisado jamás, y encontró ruinas, un segundo pantano allí arriba con raptores y hierbas más altas que todo lo que los excavadores habían visto, y debajo, algo mucho más antiguo. No todos han vuelto. Dorin Filosón, el herrero de Villa del Lago, no sabe nada de su hermano Daewyn desde que dejaron de llegar cartas, y Ardin Grassman, de Menethil, subió a buscar las hierbas y no ha vuelto." },
         { "La excavación del equipo ha sacado a la luz fragmentos de una extraña piedra compuesta que dispersa la luz como un prisma vivo, y piezas de una máquina hecha de roca. Rethiel el Guardaverde siente que una energía antigua despierta bajo aquel pantano y quiere que se deje de excavar. Tanto los ancianos de Cima del Trueno como el Anillo de la Tierra y nuestra propia Sala de los Expedicionarios quieren las reliquias, y supongo que cada cual verá en ellas lo que espera ver." },
@@ -5174,6 +5192,12 @@ ns.translate({
       text = {
         { "Bajo Forjaz se abren las cavernas de la Antigua Forjaz, y en ellas un lugar que los enanos llaman El Salón de Señores Feudales. Los Hierro Negro han logrado llegar hasta él. Un mapa arrebatado a sus espías en el Complejo Vetaferro muestra túneles y antiguas calzadas que convergen bajo la ciudad. Videnterra Farsen, un visitante de Pico Nidal, los siguió hasta el salón y hasta el Hierro Negro que manda allí, un tal Durgen Martillo Funesto." },
         { "Los muertos del propio salón tampoco descansan. Afadra Murocre, sabia de Forjaz, pide a los viajeros que den reposo a los espíritus de Yunquemar. Uno de ellos, Faldrim Yunquemar, parece haber conservado un viejo rencor mucho más allá de la tumba. El rey Magni quiere la cabeza del comandante. A mí me gustaría que la Liga pudiera examinar el lugar en condiciones cuando los Hierro Negro se hayan marchado." },
+      },
+    },
+    ["hall-of-thanes-tune"] = {
+      title = "El Salón de Señores Feudales",
+      text = {
+        { "El Salón de Señores Feudales, en las cavernas de la Antigua Forjaz bajo la ciudad, toma prestadas cuatro piezas de los lugares ocultos, y esas mismas piezas aparecen en algún rincón de Cuna del Invierno. Los Hierro Negro han llegado al salón por los viejos túneles, y los muertos de Yunquemar que yacen allí no descansan en paz. Forjaz ha puesto precio al Hierro Negro que manda allí. Cuando los túneles vuelvan a estar tranquilos, pienso ser la primera historiadora en bajar por ellos." },
       },
     },
     ["hammerfall"] = {
@@ -6174,6 +6198,12 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "De todo lo que cuenta esta página, siempre vuelvo al paseo semanal de Edward Tejecorazones." },
       },
     },
+    ["ruins-of-lordaeron-tune"] = {
+      title = "Ruinas de Lordaeron",
+      text = {
+        { "Las calles de la antigua capital, sobre Entrañas, desde el Callejón del Rey y la Calle del Mercado hasta el cementerio y el Mirador de Lordamere, toman prestadas seis piezas. Tres son de Entrañas, y las otras tres suenan también en el Reposo del Luto, en el Monte Hyjal. Los Renegados vuelven a luchar allí arriba contra la Plaga, y cada calle les cuesta cara. Me parece justo que la ciudad de arriba y la de abajo compartan la mitad de su música." },
+      },
+    },
     ["ruins-of-thaurissan"] = {
       title = "Las Ruinas de Thaurissan",
       text = {
@@ -6358,6 +6388,12 @@ ns.translate({
         { "Ha permanecido al lado de Tyrande a través del Gran Cataclismo y de las eras posteriores. Hoy su mando está lejos de Darnassus, en Feralas." },
       },
     },
+    ["shapers-terrace-tune"] = {
+      title = "El Bancal del Creador",
+      text = {
+        { "El Bancal del Creador y el Pilar de Asimilación, en el Cráter de Un'Goro, tienen ocho piezas propias. Alguien fabricó los pilones del cráter y sus cristales de colores, y J.D. Collie, que los estudia, sigue sin saber quién. Un bancal que lleva el nombre de un creador me parece el mejor sitio para averiguar quién." },
+      },
+    },
     ["shen-dralas"] = {
       title = "Shen'dralas",
       text = {
@@ -6377,6 +6413,12 @@ ns.translate({
       text = {
         { "Los Shen'dralar permanecen en Eldre'Thalas desde antes del Gran Cataclismo. Separados del Pozo de la Eternidad, ataron al demonio Immol'thar bajo su ciudad con cinco pilones. Durante miles de años han drenado su poder para mantenerse." },
         { "El príncipe Tortheldrin aún gobierna, rodeado de salones habitados por los fantasmas de su pueblo. Algunos Shen'dralar han elegido la libertad antes que la inmortalidad. El anciano Shen'dralar pide la muerte de Tortheldrin y la paz para los espíritus, mientras los custodios del Athenaeum recompensan la ayuda con sus conocimientos. Aquí hay una biblioteca extraordinaria, pero la historia de cómo sobrevivió su gente merece tanta atención como ella." },
+      },
+    },
+    ["shendralas-tune"] = {
+      title = "Shen'dralas",
+      text = {
+        { "El Valle de los Huesos y el país de Shen'dralas que se extiende más allá tienen cuatro piezas propias, desde el Frente Magram y el Escondite de Marginado hasta la Retirada Erizapúas, el Mirador de Sombrapar y los Jardines Desolados. Los centauros llegaron primero e hicieron de él una guerra. Los esqueletos de ese valle caminaban sobre dos piernas, y nadie me ha dicho todavía de quién eran." },
       },
     },
     ["shimmering-flats"] = {
@@ -6705,6 +6747,12 @@ ns.translate({
       text = {
         { "Los emperadores gemelos Vek'lor y Vek'nilash gobiernan a los qiraji desde el Templo de Ahn'Qiraj. Entre sus sirvientes están los enjambres silítidos y los grandes gusanos de sus salones. Los dragones bronce miran este lugar con temor." },
         { "Bajo los emperadores yace C'Thun. El templo y el imperio que lo rodea sirven a este dios antiguo, no a los gobernantes que el viajero encuentra primero. Los emperadores celebran su corte sobre la cámara de su propio amo." },
+      },
+    },
+    ["temple-of-bethekk-tune"] = {
+      title = "Templo de Bethekk",
+      text = {
+        { "El Templo de Bethekk, dentro de Zul'Gurub, tiene una sola pieza, y esa misma pieza recibe a los viajeros que llegan al Poblado Peloescarcha, a Xavian, a la Roca de los Kodos y a la Isla de Batalla. Todavía no he averiguado a quién estaba consagrado ese templo." },
       },
     },
     ["thandol-span"] = {
@@ -7620,6 +7668,12 @@ ns.translate({
         { "Al norte de las montañas, el suelo se ablanda y el aire se vuelve gris. Estás en Los Humedales: marismas, juncos y lluvia, desde el paso de Dun Algaz hasta el mar en el Puerto de Menethil." },
         { "Antes era tierra enana, unida a los reinos humanos por el Puente Thandol. Ahora es un cruce de guerras ajenas. Los orcos Faucedraco dominan las colinas, los Hierro Negro han tomado nuestra fortaleza de Dun Modr, gnolls y múrlocs llenan las marismas y, al este, Grim Batol se cierne sobre todo ello." },
         { "Sigue el camino, mantén seca la pólvora y no te entretengas después de anochecer." },
+      },
+    },
+    ["wetlands-excavation-tune"] = {
+      title = "Sitio de Excavación: Los Humedales",
+      text = {
+        { "La excavación de las colinas sobre Los Humedales tiene nueve piezas propias, para el yacimiento, la Marisma Perdida y el Sitio del Guardián, y toma prestadas otras cinco de los marjales de abajo para el Zarzal del Acechador y el Sitio de Excavación Perdida. La cuadrilla venida de Loch Modan encontró allí arriba, bajo el marjal, una máquina de piedra. El clan Faucedraco ha ido a por ella, y los espías de los Renegados lo vigilan." },
       },
     },
     ["whelgars-excavation-site"] = {

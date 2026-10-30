@@ -4325,6 +4325,10 @@
    "forever": "Brill",
    "use": "Brill"
   },
+  "Bristleback Retreat": {
+   "forever": "Rückzugsort der Borstennacken",
+   "use": "Rückzugsort der Borstennacken"
+  },
   "Burning Steppes": {
    "classic": "Brennende Steppe",
    "forever": "Brennende Steppe",
@@ -4514,6 +4518,10 @@
    "forever": "Traum-Geäst",
    "use": "Traum-Geäst"
   },
+  "Dreambound Pinnacle": {
+   "forever": "Die Traumgebundene Spitze",
+   "use": "Die Traumgebundene Spitze"
+  },
   "Dun Algaz": {
    "classic": "Dun Algaz",
    "forever": "Dun Algaz",
@@ -4654,6 +4662,10 @@
    "forever": "Festung Feathermoon",
    "use": "Festung Feathermoon"
   },
+  "Fel Grove": {
+   "forever": "Teufelshain",
+   "use": "Teufelshain"
+  },
   "Fel Rock": {
    "classic": "Teufelsfels",
    "forever": "Teufelsfels",
@@ -4712,6 +4724,11 @@
    "classic": "Das verlassene Gut",
    "forever": "Das Verlassene Gut",
    "use": "Das Verlassene Gut"
+  },
+  "Fray Island": {
+   "classic": "Prügel-Eiland",
+   "forever": "Prügel-Eiland",
+   "use": "Prügel-Eiland"
   },
   "Freewind Post": {
    "classic": "Freiwindposten",
@@ -4924,10 +4941,19 @@
    "forever": "Kharanos",
    "use": "Kharanos"
   },
+  "King's Alley": {
+   "forever": "Königsgasse",
+   "use": "Königsgasse"
+  },
   "Kodo Graveyard": {
    "classic": "Der Kodofriedhof",
    "forever": "Der Kodofriedhof",
    "use": "Der Kodofriedhof"
+  },
+  "Kodo Rock": {
+   "classic": "Kodofels",
+   "forever": "Kodofels",
+   "use": "Kodofels"
   },
   "Kolkar Village": {
    "classic": "Kolkar",
@@ -5055,6 +5081,10 @@
    "forever": "Burg Mardenholde",
    "use": "Burg Mardenholde"
   },
+  "Market Street": {
+   "forever": "Marktstraße",
+   "use": "Marktstraße"
+  },
   "Marshal's Refuge": {
    "classic": "Marshals Zuflucht",
    "forever": "Marshals Zuflucht",
@@ -5123,6 +5153,10 @@
   "Mount Hyjal": {
    "forever": "Hyjal",
    "use": "Hyjal"
+  },
+  "Mourning's Rest": {
+   "forever": "Klageruh",
+   "use": "Klageruh"
   },
   "Mulgore": {
    "classic": "Mulgore",
@@ -5230,6 +5264,10 @@
    "classic": "Scherbenwelt",
    "forever": "Scherbenwelt",
    "use": "Scherbenwelt"
+  },
+  "Pillar of Assimilation": {
+   "forever": "Säule der Assimilierung",
+   "use": "Säule der Assimilierung"
   },
   "Pool of Tears": {
    "classic": "Tränenteich",
@@ -5536,6 +5574,10 @@
    "forever": "Shalzarus Unterschlupf",
    "use": "Shalzarus Unterschlupf"
   },
+  "Shaper's Terrace": {
+   "forever": "Terrasse des Formers",
+   "use": "Terrasse des Formers"
+  },
   "Shen'dar Highlands": {
    "forever": "Shen'darhochland",
    "use": "Shen'darhochland"
@@ -5773,6 +5815,11 @@
    "forever": "Tempel von Ahn'Qiraj",
    "use": "Tempel von Ahn'Qiraj"
   },
+  "Temple of Bethekk": {
+   "classic": "Tempel von Bethekk",
+   "forever": "Tempel von Bethekk",
+   "use": "Tempel von Bethekk"
+  },
   "Temple of Zin-Malor": {
    "classic": "Tempel von Zin-Malor",
    "forever": "Tempel von Zin-Malor",
@@ -5892,6 +5939,14 @@
    "classic": "Der Flammenbau",
    "forever": "Der Flammenbau",
    "use": "Der Flammenbau"
+  },
+  "The Drunken Dwarf": {
+   "forever": "Zum Betrunkenen Zwerg",
+   "use": "Zum Betrunkenen Zwerg"
+  },
+  "The Eventide": {
+   "forever": "Die Abendruh",
+   "use": "Die Abendruh"
   },
   "The Farstrider Lodge": {
    "classic": "Die Weitschreiter-Lodge",
@@ -6081,6 +6136,10 @@
    "classic": "Das Grabmal",
    "forever": "Das Grabmal",
    "use": "Das Grabmal"
+  },
+  "The Shaper's Terrace": {
+   "forever": "Die Terrasse des Formers",
+   "use": "Die Terrasse des Formers"
   },
   "The Shattered Strand": {
    "classic": "Der zertrümmerte Strand",
@@ -6459,6 +6518,11 @@
    "classic": "Der Drachensumpf",
    "forever": "Der Drachensumpf",
    "use": "Der Drachensumpf"
+  },
+  "Xavian": {
+   "classic": "Xavian",
+   "forever": "Xavian",
+   "use": "Xavian"
   },
   "Yojamba Isle": {
    "classic": "Die Insel Yojamba",

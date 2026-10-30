@@ -4465,6 +4465,12 @@ ns.translate({
         { client = "forever", "La reconstruction a été rattrapée par une crise à l'intérieur de la cité. Quelque chose a perturbé ses lignes telluriques, rendant ses créations erratiques et destructrices. Le conseil voudrait que l'affaire reste privée. Modera, dont l'image attend au bord du lac Lordamere, a appelé à l'aide de l'extérieur. Les mages ont survécu à la destruction d'une cité. Elle refuse de laisser leur orgueil contribuer à en provoquer une autre." },
       },
     },
+    ["dalaran-tune"] = {
+      title = "Dalaran",
+      text = {
+        { "Dalaran a neuf morceaux bien à elle, répartis entre ses rues, le Brunant, le Gangrebosquet, les égouts et la flèche. La cité du Kirin Tor a de nouveau des ennuis : ses lignes telluriques se sont déréglées et ses propres créations se sont retournées contre elle. Le conseil aurait préféré que le reste du monde n'en sache rien. L'archimage Modera n'est pas de cet avis, et c'est la seule raison pour laquelle nous le savons." },
+      },
+    },
     ["dalsons-tears"] = {
       title = "Les Larmes de Dalson",
       text = {
@@ -4642,6 +4648,12 @@ ns.translate({
         { "Un seigneur de l'effroi vous montre rarement ce qu'il est. Si quelqu'un en position d'autorité semble tenir à ce que les vivants et les morts continuent de s'entretuer, $gvoyageur:voyageuse;, demandez-vous à qui cela profite." },
       },
     },
+    ["dreambound-pinnacle-tune"] = {
+      title = "Sommet Ligerêve",
+      text = {
+        { "Le Sommet Ligerêve possède huit morceaux en propre et en emprunte un de plus au Donjon d'Ombrecroc. Je ne connais de l'endroit que son nom et sa musique, pour l'instant. Je n'inventerai pas le reste." },
+      },
+    },
     ["druids"] = {
       title = "Druides",
       text = {
@@ -4664,6 +4676,12 @@ ns.translate({
         { "Les druides de Malfurion n'ont jamais formé un seul ordre. Certains prirent la forme du grand ours et devinrent les druides de la Griffe. D'autres prirent la forme du corbeau-tempête et devinrent les druides de la Serre. Les uns comme les autres respectèrent le pacte conclu avec Ysera et dormirent des siècles durant dans les refuges des saisons tandis que leur esprit parcourait le Rêve d'émeraude, et pendant la Troisième Guerre, Malfurion les réveilla pour combattre." },
         { "Certains dorment encore. Dans le refuge des saisons de Ban'ethil, sur Teldrassil, les druides de la Serre hibernent sous la garde d'un grand gardien. Les furbolgs Pin-tordu y sont entrés par effraction, et l'un d'eux, Ursal le Mutileur, a tant troublé l'appel des dormeurs qu'ils risquent de ne jamais se réveiller. Un druide de la Griffe perdu dans le même refuge a vu son propre corps se retourner contre lui." },
         { "Ils ne sont pas toujours faciles à réveiller. Kerlonian Evershade, un druide de la Griffe tout juste revenu du Rêve, somnole volontiers au bord de la route en Sombrivage, et demande qu'on le réveille avec son cor s'il s'assoupit en chemin. Dix mille ans, c'est long pour avoir été fatigué." },
+      },
+    },
+    ["drunken-dwarf-tune"] = {
+      title = "Le Nain ivre",
+      text = {
+        { "Au Nain ivre, dans les Paluns, cinq morceaux sont bien à lui, et ils reviennent quelque part à Forgefer. Je n'y suis pas encore allée. Avec un nom pareil, je m'attends à croiser de vieux amis." },
       },
     },
     ["dun-garok"] = {
@@ -5217,6 +5235,12 @@ ns.translate({
       text = {
         { "Sous Forgefer s'étendent les cavernes du Vieux Forgefer, et parmi elles un lieu que les nains appellent la salle des Thanes. Les Sombrefer en ont trouvé le chemin. Une carte prise à leurs espions à la base d'Ironband montre des tunnels et d'anciennes routes qui convergent sous la cité, et le terre-voyant Farsen, venu du Nid-de-l'Aigle, les a suivis jusqu'à la salle et jusqu'au Sombrefer qui y commande, un certain Durgen Mornemartel." },
         { "Les morts de la salle ne sont pas en paix. Afadra Mur-de-Dun, gardienne du savoir de Forgefer, demande aux voyageurs d'apaiser les esprits de Courbenclume, et l'un d'eux, Faldrim Courbenclume, semble avoir gardé une vieille rancune bien au-delà de la tombe. Le roi Magni veut la tête du commandant. J'aimerais que la Ligue examine les lieux comme il se doit, une fois les Sombrefer partis." },
+      },
+    },
+    ["hall-of-thanes-tune"] = {
+      title = "La salle des Thanes",
+      text = {
+        { "La salle des Thanes, dans les cavernes du Vieux Forgefer sous la cité, emprunte quatre morceaux aux lieux cachés, et on les retrouve aussi quelque part au Berceau-de-l'Hiver. Les Sombrefer y sont arrivés par les anciens tunnels, et les morts de Courbenclume enterrés dans la salle ne trouvent pas la paix. Forgefer a mis à prix le Sombrefer qui y commande. Quand les tunnels seront de nouveau calmes, je compte bien être la première historienne à y descendre." },
       },
     },
     ["hammerfall"] = {
@@ -6217,6 +6241,12 @@ ns.translate({
         { side = "Horde", aside = true, sign = "P. F.", "De tout ce qui figure sur cette page, c'est la marche hebdomadaire d'Edward Tissecœur qui me revient sans cesse." },
       },
     },
+    ["ruins-of-lordaeron-tune"] = {
+      title = "Ruines de Lordaeron",
+      text = {
+        { "Les rues de l'ancienne capitale, au-dessus de Fossoyeuse, depuis l'Allée du Roi et la Rue du Marché jusqu'au cimetière et au Surplomb de Lordamere, empruntent six morceaux. Trois sont ceux de Fossoyeuse, et trois autres jouent aussi au Repos du deuil, sur le Mont Hyjal. Dans ces rues, les Réprouvés combattent de nouveau le Fléau, et chaque rue leur coûte cher. Il me semble juste que la ville d'en haut et celle d'en bas partagent la moitié de leur musique." },
+      },
+    },
     ["ruins-of-thaurissan"] = {
       title = "Les ruines de Thaurissan",
       text = {
@@ -6401,6 +6431,12 @@ ns.translate({
         { "Elle s'est tenue aux côtés de Tyrande pendant la Fracture et les âges qui ont suivi. Son commandement se trouve aujourd'hui loin de Darnassus, en Feralas." },
       },
     },
+    ["shapers-terrace-tune"] = {
+      title = "La terrasse du Façonneur",
+      text = {
+        { "La terrasse du Façonneur et le Pilier d'assimilation, dans le Cratère d'Un'Goro, ont à eux deux huit morceaux en propre. Quelqu'un a fabriqué les pylônes du cratère et ses cristaux colorés, et J.D. Collie, qui les étudie, ne sait toujours pas qui. Une terrasse qui porte le nom d'un façonneur me paraît le meilleur endroit que je connaisse pour apprendre de qui il s'agit." },
+      },
+    },
     ["shen-dralas"] = {
       title = "Shen'dralas",
       text = {
@@ -6420,6 +6456,12 @@ ns.translate({
       text = {
         { "Les Shen'dralar sont restés à Eldre'Thalas depuis avant la Fracture. Coupés du Puits d'éternité, ils enchaînèrent le démon Immol'thar sous leur cité au moyen de cinq pylônes. Depuis des milliers d'années, ils puisent dans son pouvoir pour subsister." },
         { "Le prince Tortheldrin règne toujours, entouré de salles hantées par les fantômes de son peuple. Certains Shen'dralar ont préféré la liberté à l'immortalité. L'Ancienne de Shen'Dralar demande la mort de Tortheldrin et la paix pour les esprits, tandis que les gardiens de l'Athenaeum récompensent l'aide qu'on leur apporte par leur savoir. Il y a ici une bibliothèque remarquable, mais l'histoire de la façon dont son peuple a survécu mérite tout autant d'attention." },
+      },
+    },
+    ["shendralas-tune"] = {
+      title = "Shen'dralas",
+      text = {
+        { "La Vallée des Ossements et le pays de Shen'dralas qui s'étend au-delà ont quatre morceaux bien à eux, du Front des Magram et de la Planque des renégats à la Retraite des Dos-hirsute, au Surplomb d'Ombrégale et aux Jardins Lugubres. Les centaures y sont arrivés les premiers et y ont mené leur guerre. Les squelettes de cette vallée marchaient sur deux jambes, et personne ne m'a encore dit à qui ils avaient appartenu." },
       },
     },
     ["shimmering-flats"] = {
@@ -6748,6 +6790,12 @@ ns.translate({
       text = {
         { "Les empereurs jumeaux Vek'lor et Vek'nilash règnent sur les qiraji depuis le temple d'Ahn'Qiraj. Leurs serviteurs comprennent les essaims de silithides et les grands vers de ses salles. Les dragons de bronze regardent cet endroit avec crainte." },
         { "Sous les empereurs gît C'Thun. Le temple et l'empire qui l'entoure servent ce Dieu très ancien, plutôt que les souverains qu'un voyageur rencontre d'abord. Les empereurs tiennent leur cour au-dessus de la salle de leur propre maître." },
+      },
+    },
+    ["temple-of-bethekk-tune"] = {
+      title = "Temple de Bethekk",
+      text = {
+        { "Le Temple de Bethekk, dans Zul'Gurub, a un seul morceau, et ce même morceau accueille les voyageurs qui arrivent au Repaire des Frostmane, à Xavian, au Rocher des kodos et sur l'Ile de la Dispute. Je n'ai pas encore appris à qui ce temple était voué." },
       },
     },
     ["thandol-span"] = {
@@ -7663,6 +7711,12 @@ ns.translate({
         { "Au nord des montagnes, le sol devient mou et l'air devient gris, et vous voilà dans les Paluns : marais, roseaux et pluie, du col de Dun Algaz jusqu'à la mer, à Port de Menethil." },
         { "C'était autrefois un pays nain, relié aux royaumes des hommes par le viaduc de Thandol. C'est aujourd'hui un carrefour des guerres des autres. Les orcs Dragonmaw tiennent les collines, les Sombrefer ont pris notre forteresse de Dun Modr, gnolls et murlocs emplissent les marais, et à l'est, Grim Batol couve le tout." },
         { "Restez sur la route, gardez votre poudre au sec, et ne traînez pas après la tombée de la nuit." },
+      },
+    },
+    ["wetlands-excavation-tune"] = {
+      title = "Excavations : les Paluns",
+      text = {
+        { "Le chantier des collines au-dessus des Paluns compte neuf morceaux en propre, pour le chantier lui-même, le Marais Perdu et le Site du Gardien, et en emprunte cinq autres aux marais d'en bas pour le Fourré du Traqueur et le Site de fouilles perdu. L'équipe venue du Loch Modan a trouvé là-haut, sous le marais, une machine de pierre. Les Dragonmaw sont venus la chercher, et les espions des Réprouvés les surveillent." },
       },
     },
     ["whelgars-excavation-site"] = {

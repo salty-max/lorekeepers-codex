@@ -4227,6 +4227,10 @@
    "forever": "Rémol",
    "use": "Rémol"
   },
+  "Bristleback Retreat": {
+   "forever": "Retirada Erizapúas",
+   "use": "Retirada Erizapúas"
+  },
   "Burning Steppes": {
    "classic": "Las Estepas Ardientes",
    "forever": "Las Estepas Ardientes",
@@ -4416,6 +4420,10 @@
    "forever": "Rama Oniria",
    "use": "Rama Oniria"
   },
+  "Dreambound Pinnacle": {
+   "forever": "Cumbre del Atasueños",
+   "use": "Cumbre del Atasueños"
+  },
   "Dun Algaz": {
    "classic": "Dun Algaz",
    "forever": "Dun Algaz",
@@ -4556,6 +4564,10 @@
    "forever": "Bastión Plumaluna",
    "use": "Bastión Plumaluna"
   },
+  "Fel Grove": {
+   "forever": "Arboleda Vil",
+   "use": "Arboleda Vil"
+  },
   "Fel Rock": {
    "classic": "Roca Mácula",
    "forever": "Roca Mácula",
@@ -4614,6 +4626,11 @@
    "classic": "Loma Inhóspita",
    "forever": "Loma Inhóspita",
    "use": "Loma Inhóspita"
+  },
+  "Fray Island": {
+   "classic": "Isla de Batalla",
+   "forever": "Isla de Batalla",
+   "use": "Isla de Batalla"
   },
   "Freewind Post": {
    "classic": "Poblado Viento Libre",
@@ -4826,10 +4843,19 @@
    "forever": "Kharanos",
    "use": "Kharanos"
   },
+  "King's Alley": {
+   "forever": "Callejón del Rey",
+   "use": "Callejón del Rey"
+  },
   "Kodo Graveyard": {
    "classic": "Cementerio de Kodos",
    "forever": "Cementerio de Kodos",
    "use": "Cementerio de Kodos"
+  },
+  "Kodo Rock": {
+   "classic": "Roca de los Kodos",
+   "forever": "Roca de los Kodos",
+   "use": "Roca de los Kodos"
   },
   "Kolkar Village": {
    "classic": "Poblado Kolkar",
@@ -4957,6 +4983,10 @@
    "forever": "Fortaleza de Mardenholde",
    "use": "Fortaleza de Mardenholde"
   },
+  "Market Street": {
+   "forever": "Calle del Mercado",
+   "use": "Calle del Mercado"
+  },
   "Marshal's Refuge": {
    "classic": "Refugio de Marshal",
    "forever": "Refugio de Marshal",
@@ -5025,6 +5055,10 @@
   "Mount Hyjal": {
    "forever": "Monte Hyjal",
    "use": "Monte Hyjal"
+  },
+  "Mourning's Rest": {
+   "forever": "Reposo del Luto",
+   "use": "Reposo del Luto"
   },
   "Mulgore": {
    "classic": "Mulgore",
@@ -5132,6 +5166,10 @@
    "classic": "Terrallende",
    "forever": "Terrallende",
    "use": "Terrallende"
+  },
+  "Pillar of Assimilation": {
+   "forever": "Pilar de Asimilación",
+   "use": "Pilar de Asimilación"
   },
   "Pool of Tears": {
    "classic": "Charca de Lágrimas",
@@ -5438,6 +5476,10 @@
    "forever": "Guarida de Shalzaru",
    "use": "Guarida de Shalzaru"
   },
+  "Shaper's Terrace": {
+   "forever": "Terraza del creador",
+   "use": "Terraza del creador"
+  },
   "Shen'dar Highlands": {
    "forever": "Tierras Altas de Shen'dar",
    "use": "Tierras Altas de Shen'dar"
@@ -5675,6 +5717,11 @@
    "forever": "Templo de Ahn'Qiraj",
    "use": "Templo de Ahn'Qiraj"
   },
+  "Temple of Bethekk": {
+   "classic": "Templo de Bethekk",
+   "forever": "Templo de Bethekk",
+   "use": "Templo de Bethekk"
+  },
   "Temple of Zin-Malor": {
    "classic": "Templo de Zin-Malor",
    "forever": "Templo de Zin-Malor",
@@ -5794,6 +5841,14 @@
    "classic": "Cubil de la Llama",
    "forever": "Cubil de la Llama",
    "use": "Cubil de la Llama"
+  },
+  "The Drunken Dwarf": {
+   "forever": "El Enano Borracho",
+   "use": "El Enano Borracho"
+  },
+  "The Eventide": {
+   "forever": "El Manto de la Noche",
+   "use": "El Manto de la Noche"
   },
   "The Farstrider Lodge": {
    "classic": "Cabaña del Errante",
@@ -5983,6 +6038,10 @@
    "classic": "El Sepulcro",
    "forever": "El Sepulcro",
    "use": "El Sepulcro"
+  },
+  "The Shaper's Terrace": {
+   "forever": "El Bancal del Creador",
+   "use": "El Bancal del Creador"
   },
   "The Shattered Strand": {
    "classic": "La Playa Arrasada",
@@ -6361,6 +6420,11 @@
    "classic": "Ciénaga de Fuego",
    "forever": "Ciénaga de Fuego",
    "use": "Ciénaga de Fuego"
+  },
+  "Xavian": {
+   "classic": "Xavian",
+   "forever": "Xavian",
+   "use": "Xavian"
   },
   "Yojamba Isle": {
    "classic": "Isla Yojamba",
