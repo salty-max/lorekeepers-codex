@@ -16,9 +16,9 @@
 ## X-Curse-Project-ID: 1727545
 ## X-Wago-ID: j6jAL0NR
 
-# Classic Era. Each game loads its own TOC (_Vanilla: Classic Era, _TBC: TBC
-# Anniversary, _Camelot: Forever), the same but for the interface and the game's
-# data (scripts/package.ts checks).
+# Classic Era. Each game loads its own TOC (_Vanilla: Classic Era, _Camelot:
+# Forever), the same but for the interface and the game's data (scripts/package.ts
+# checks).
 Kit.lua
 Content_Classic.lua
 Locale.lua

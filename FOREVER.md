@@ -13,7 +13,7 @@ one package. This plan records the decisions and the work, in two waves.
 | Lore sources for Forever-only pages | **Forever's own texts** (quests, NPCs, books), and only Forever readers see those pages. Original pages keep CLAUDE.md's Lore rule (any source, nothing anachronic to vanilla or Forever). |
 | Original pages contradicted by Forever | **Forever variants:** Forever-only paragraphs or replacement text; Classic readers see the original. |
 | Skyborne | **Their own foreword now**, written during the port from what the beta shows of them and Zephras Isle. |
-| Packaging | **One source, one zip** (since 0.9.2; two packages before): one version and changelog, a TOC per game (`_Vanilla`, `_Camelot`; a `_TBC` is left over and goes after the launch), each loading only its game's content. |
+| Packaging | **One source, one zip** (since 0.9.2; two packages before): one version and changelog, a TOC per game (`_Vanilla`, `_Camelot`), each loading only its game's content. |
 | Testing | **On the beta, by the user**, with a `/codex scan` command that records ids for the second wave. |
 
 ## What Forever changes (from the beta's AreaTable, wago.tools `wow_classic_beta`)
@@ -44,8 +44,8 @@ one package. This plan records the decisions and the work, in two waves.
 1. ✅ **Two packages from one source:** the build writes
    `Content_Classic.lua` and `Content_Forever.lua` (each with its game's
    pages and paragraphs only); `bun run package` assembles `dist/classic` and
-   `dist/forever`, each with its content file and a TOC for its game (`11509,
-   20506` / `16001`). The addon also asks the client which game it is
+   `dist/forever`, each with its content file and a TOC for its game (`11509` /
+   `16001`). The addon also asks the client which game it is
    (`GetBuildInfo`, interface 16xxx is Forever: `ns.forever`, `ns.client`),
    for the combat log and the API; a package installed on the other game
    still works and says so at login.

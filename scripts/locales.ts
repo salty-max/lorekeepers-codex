@@ -48,16 +48,13 @@ import { createHash } from "node:crypto";
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join, relative } from "node:path";
 import { frontMatter, paragraphs, type Para } from "./markdown";
-import { kitKeys, kitWords, ownKeys, problems } from "./locales-lib";
+import { BORROWS, ENGLISH, kitKeys, kitWords, LOCALES, ownKeys, problems } from "./locales-lib";
 import { misnamed } from "./names";
 
 const ROOT = new URL("..", import.meta.url).pathname;
 const CONTENT = join(ROOT, "content");
 const I18N = join(ROOT, "i18n");
 const ADDON = join(ROOT, "addon/LorekeepersCodex");
-const LOCALES = ["enUS", "enGB", "deDE", "frFR", "esES", "esMX", "ruRU", "ptBR", "itIT", "koKR", "zhCN", "zhTW"];
-const ENGLISH = new Set(["enUS", "enGB"]);
-const BORROWS: Record<string, string> = { esMX: "esES" };
 // (the game's names: a language the client names nothing in its own, another's)
 const NAMES_OF: Record<string, string> = { enGB: "enUS" };
 // (a translation: its words)

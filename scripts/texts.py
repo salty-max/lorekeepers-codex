@@ -18,7 +18,7 @@ from wowdata import db
 
 OUT = os.path.join(ROOT, "data", "texts.json")
 # the languages a title is looked for in, in this order (Wowhead Classic's:
-# esMX reads esES's names, itIT has none of its own on Classic)
+# esMX reads esES's names)
 LOCALES = ["enUS", "koKR", "frFR", "deDE", "zhCN", "esES", "ruRU", "ptBR", "zhTW"]
 
 

@@ -1602,7 +1602,6 @@ for _, locale in ipairs({
   "esMX",
   "ruRU",
   "ptBR",
-  "itIT",
   "koKR",
   "zhCN",
   "zhTW",

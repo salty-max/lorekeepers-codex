@@ -14,9 +14,3 @@ globals:
     any: true
   SLASH_LOREKEEPERSCODEX2:
     any: true
-  # (the game's music calls, which the kit's wow.yml doesn't list: Soundtrack.lua)
-  PlayMusic:
-    args:
-      - type: any
-  StopMusic:
-    args: []

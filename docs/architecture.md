@@ -12,8 +12,7 @@ stays there). What a page is and how it is written: `docs/writing.md`.
   and paragraphs only), with validation. `--check` fails if one is stale.
 - `addon/LorekeepersCodex` is one package for every game, installable as is: each game
   loads its own TOC (`LorekeepersCodex_Vanilla.toc`: Classic Era, 11509; `_Camelot.toc`:
-  Forever, 16001; a `_TBC.toc` is left over from the dropped TBC Anniversary
-  and goes after the launch), the same but for
+  Forever, 16001), the same but for
   the interface and the game's data (`Content_Classic.lua` or
   `Content_Forever.lua`). `scripts/package.ts` (`bun run package`) checks they
   agree and zips `dist/LorekeepersCodex-<version>.zip` for a test in the game
