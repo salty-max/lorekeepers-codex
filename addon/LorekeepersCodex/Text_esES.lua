@@ -7508,7 +7508,7 @@ ns.translate({
       title = "Valanaar",
       text = {
         { "Valanaar es la capital de la Isla de Zephras, en su extremo sureste, y la sede del sumo anciano. En sus muelles atracan los cortacielos: pequeños barcos voladores que antes viajaban entre las islas shen'dorei y ahora, por primera vez, descienden a Azeroth, a Dalaran para la Orden Eminente y a Mulgore para los Formavientos." },
-        { "Si pasas por allí, entra en la Posada Brisa Calmada. Arriba, los shen'dorei guardan un cristal que cuenta la rebelión de sus antepasados en Eldre'Thalas desde su propia perspectiva. No conozco nada más antiguo que hable por ellos y daría mucho por oírlo." },
+        { "El relato que los propios shen'dorei hacen de su rebelión en Eldre'Thalas no se guarda en la capital. Se conserva en cuatro partes, guardadas en más de un lugar de la isla, y una de ellas está en la Aldea Falaath, que ahora ocupan los Al'Aketh. No conozco nada más antiguo que dé voz a los shen'dorei, y daría mucho por tener las cuatro." },
       },
     },
     ["valanaar-tune"] = {

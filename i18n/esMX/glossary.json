@@ -99,6 +99,11 @@
    "forever": "Clan Lobo Gélido",
    "use": "Clan Lobo Gélido"
   },
+  "Furbolg": {
+   "classic": "Fúrbolg",
+   "forever": "Fúrbolg",
+   "use": "Fúrbolg"
+  },
   "Gadgetzan": {
    "classic": "Gadgetzan",
    "forever": "Gadgetzan",
@@ -796,6 +801,11 @@
    "classic": "Hermano Nimetz",
    "forever": "Hermano Nimetz",
    "use": "Hermano Nimetz"
+  },
+  "Brother Paxton": {
+   "classic": "Hermano Paxton",
+   "forever": "Hermano Paxton",
+   "use": "Hermano Paxton"
   },
   "Brother Ravenoak": {
    "classic": "Hermano Roblecuervo",
@@ -2215,6 +2225,11 @@
    "forever": "Lord Serpentis",
    "use": "Lord Serpentis"
   },
+  "Lord Shalzaru": {
+   "classic": "Lord Shalzaru",
+   "forever": "Lord Shalzaru",
+   "use": "Lord Shalzaru"
+  },
   "Lord Valthalak": {
    "classic": "Lord Valthalak",
    "forever": "Lord Valthalak",
@@ -2634,6 +2649,11 @@
    "classic": "Osirio el Sinmarcas",
    "forever": "Osirio el Sinmarcas",
    "use": "Osirio el Sinmarcas"
+  },
+  "Overlord Mok'Morokk": {
+   "classic": "Señor supremo Mok'Morokk",
+   "forever": "Señor supremo Mok'Morokk",
+   "use": "Señor supremo Mok'Morokk"
   },
   "Overseer Glibby": {
    "classic": "Sobrestante Glibby",
@@ -4054,6 +4074,11 @@
    "forever": "Tierras Altas de Arathi",
    "use": "Tierras Altas de Arathi"
   },
+  "Arcane Sanctum": {
+   "classic": "Sagrario Arcano",
+   "forever": "Sagrario Arcano",
+   "use": "Sagrario Arcano"
+  },
   "Ashenvale": {
    "classic": "Vallefresno",
    "forever": "Vallefresno",
@@ -4176,6 +4201,11 @@
    "classic": "Talloumbrío",
    "forever": "Talloumbrío",
    "use": "Talloumbrío"
+  },
+  "Boulder Lode Mine": {
+   "classic": "Mina Pedrusco",
+   "forever": "Mina Pedrusco",
+   "use": "Mina Pedrusco"
   },
   "Boulderslide Cavern": {
    "classic": "Cueva del Alud",
@@ -4336,6 +4366,11 @@
    "forever": "Tranvía Subterráneo",
    "use": "Tranvía Subterráneo"
   },
+  "Deepwater Tavern": {
+   "classic": "Mesón Aguahonda",
+   "forever": "Mesón Aguahonda",
+   "use": "Mesón Aguahonda"
+  },
   "Demon Fall Canyon": {
    "classic": "Barranco del Demonio",
    "forever": "Barranco del Demonio",
@@ -4360,6 +4395,11 @@
    "classic": "Dolanaar",
    "forever": "Dolanaar",
    "use": "Dolanaar"
+  },
+  "Dreadmaul Hold": {
+   "classic": "Bastión Machacamiedo",
+   "forever": "Bastión Machacamiedo",
+   "use": "Bastión Machacamiedo"
   },
   "Dreadmaul Rock": {
    "classic": "Roca Machacamiedo",
@@ -4416,10 +4456,19 @@
    "forever": "Marjal Revolcafango",
    "use": "Marjal Revolcafango"
   },
+  "Dustwind Cave": {
+   "classic": "Cueva Viento Seco",
+   "forever": "Cueva Viento Seco",
+   "use": "Cueva Viento Seco"
+  },
   "Dwarven District": {
    "classic": "Distrito de los Enanos",
    "forever": "Distrito de los Enanos",
    "use": "Distrito de los Enanos"
+  },
+  "East Pylon Watchtower": {
+   "forever": "Torre de Vigilancia del Pilar Este",
+   "use": "Torre de Vigilancia del Pilar Este"
   },
   "Eastern Kingdoms": {
    "classic": "Reinos del Este",
@@ -4468,6 +4517,10 @@
   "Excavation Site: Wetlands": {
    "forever": "Sitio de Excavación: Los Humedales",
    "use": "Sitio de Excavación: Los Humedales"
+  },
+  "Fairweather Stables": {
+   "forever": "Establos Buentiempo",
+   "use": "Establos Buentiempo"
   },
   "Falaath Village": {
    "forever": "Poblado Falaath",
@@ -4523,6 +4576,11 @@
    "forever": "Isla de Fenris",
    "use": "Isla de Fenris"
   },
+  "Fenris Keep": {
+   "classic": "Castillo de Fenris",
+   "forever": "Castillo de Fenris",
+   "use": "Castillo de Fenris"
+  },
   "Feralas": {
    "classic": "Feralas",
    "forever": "Feralas",
@@ -4542,6 +4600,11 @@
    "classic": "Peñasco Llamarada",
    "forever": "Peñasco Llamarada",
    "use": "Peñasco Llamarada"
+  },
+  "Forest Song": {
+   "classic": "Canción del Bosque",
+   "forever": "Canción del Bosque",
+   "use": "Canción del Bosque"
   },
   "Forlorn Gardens": {
    "forever": "Jardines Desolados",
@@ -4586,6 +4649,11 @@
    "classic": "Mesón La Horca",
    "forever": "Mesón La Horca",
    "use": "Mesón La Horca"
+  },
+  "Gates of Ahn'Qiraj": {
+   "classic": "Puerta de Ahn'Qiraj",
+   "forever": "Puerta de Ahn'Qiraj",
+   "use": "Puerta de Ahn'Qiraj"
   },
   "Gelkis Village": {
    "classic": "Poblado Gelkis",
@@ -4743,6 +4811,11 @@
    "forever": "Karazhan",
    "use": "Karazhan"
   },
+  "Karazhan Crypts": {
+   "classic": "Criptas de Karazhan",
+   "forever": "Criptas de Karazhan",
+   "use": "Criptas de Karazhan"
+  },
   "Kargath": {
    "classic": "Kargath",
    "forever": "Kargath",
@@ -4864,6 +4937,11 @@
    "forever": "Poblado Magram",
    "use": "Poblado Magram"
   },
+  "Malaka'jin": {
+   "classic": "Malaka'jin",
+   "forever": "Malaka'jin",
+   "use": "Malaka'jin"
+  },
   "Mannoroc Coven": {
    "classic": "Aquelarre Mannoroc",
    "forever": "Aquelarre Mannoroc",
@@ -4973,6 +5051,20 @@
    "forever": "Castillo de Nethergarde",
    "use": "Castillo de Nethergarde"
   },
+  "New Avalon": {
+   "classic": "Nuevo Avalon",
+   "forever": "Nuevo Avalon",
+   "use": "Nuevo Avalon"
+  },
+  "Night Web's Hollow": {
+   "classic": "Hoya Nocturácnidas",
+   "forever": "Hoya Nocturácnidas",
+   "use": "Hoya Nocturácnidas"
+  },
+  "Nightclaw Cavern": {
+   "forever": "Caverna Garra Nocturna",
+   "use": "Caverna Garra Nocturna"
+  },
   "Nighthaven": {
    "classic": "Amparo de la Noche",
    "forever": "Amparo de la Noche",
@@ -5016,6 +5108,11 @@
    "classic": "Casco Antiguo",
    "forever": "Casco Antiguo",
    "use": "Casco Antiguo"
+  },
+  "Olsen's Farthing": {
+   "classic": "Finca de Olsen",
+   "forever": "Finca de Olsen",
+   "use": "Finca de Olsen"
   },
   "Onyxia's Lair": {
    "classic": "Guarida de Onyxia",
@@ -5146,6 +5243,11 @@
    "forever": "Roca de Durotan",
    "use": "Roca de Durotan"
   },
+  "Roguefeather Den": {
+   "classic": "Guarida Malapluma",
+   "forever": "Guarida Malapluma",
+   "use": "Guarida Malapluma"
+  },
   "Rohashi Spires": {
    "forever": "Pináculos Rohashi",
    "use": "Pináculos Rohashi"
@@ -5228,10 +5330,19 @@
    "forever": "IV:7",
    "use": "IV:7"
   },
+  "Sanctum of Storms": {
+   "forever": "Sagrario de Tormentas",
+   "use": "Sagrario de Tormentas"
+  },
   "Sardor Isle": {
    "classic": "Isla de Sardor",
    "forever": "Isla de Sardor",
    "use": "Isla de Sardor"
+  },
+  "Scarlet Enclave": {
+   "classic": "Enclave Escarlata",
+   "forever": "Enclave Escarlata",
+   "use": "Enclave Escarlata"
   },
   "Scarlet Monastery": {
    "classic": "Monasterio Escarlata",
@@ -5273,6 +5384,11 @@
    "forever": "Guarida Sombría",
    "use": "Guarida Sombría"
   },
+  "Shadowbreak Ravine": {
+   "classic": "Barranco Rompesombras",
+   "forever": "Barranco Rompesombras",
+   "use": "Barranco Rompesombras"
+  },
   "Shadowfang Keep": {
    "classic": "Castillo de Colmillo Oscuro",
    "forever": "Castillo de Colmillo Oscuro",
@@ -5282,6 +5398,10 @@
    "classic": "Ciudad Forjatiniebla",
    "forever": "Ciudad Forjatiniebla",
    "use": "Ciudad Forjatiniebla"
+  },
+  "Shadowgale Forest": {
+   "forever": "Bosque Ventarrosombra",
+   "use": "Bosque Ventarrosombra"
   },
   "Shadowglen": {
    "classic": "Cañada Umbría",
@@ -5298,6 +5418,11 @@
    "forever": "Santuario Cantosombrío",
    "use": "Santuario Cantosombrío"
   },
+  "Shadowthread Cave": {
+   "classic": "Gruta Narácnida",
+   "forever": "Gruta Narácnida",
+   "use": "Gruta Narácnida"
+  },
   "Shadra'Alor": {
    "classic": "Shadra'Alor",
    "forever": "Shadra'Alor",
@@ -5308,13 +5433,26 @@
    "forever": "Posada Reposo Umbrío",
    "use": "Posada Reposo Umbrío"
   },
+  "Shalzaru's Lair": {
+   "classic": "Guarida de Shalzaru",
+   "forever": "Guarida de Shalzaru",
+   "use": "Guarida de Shalzaru"
+  },
   "Shen'dar Highlands": {
    "forever": "Tierras Altas de Shen'dar",
    "use": "Tierras Altas de Shen'dar"
   },
+  "Shen'dar Village": {
+   "forever": "Aldea Shen'dar",
+   "use": "Aldea Shen'dar"
+  },
   "Shen'dralas": {
    "forever": "Shen'dralas",
    "use": "Shen'dralas"
+  },
+  "Shriekling Den": {
+   "forever": "Guarida de Chillín",
+   "use": "Guarida de Chillín"
   },
   "Shrine of Akir": {
    "forever": "Santuario de Akir",
@@ -5388,6 +5526,11 @@
    "forever": "Risco Pezuña Quebrada",
    "use": "Risco Pezuña Quebrada"
   },
+  "Stables": {
+   "classic": "Establos",
+   "forever": "Establos",
+   "use": "Establos"
+  },
   "Stalker's Thicket": {
    "forever": "Zarzal del Acechador",
    "use": "Zarzal del Acechador"
@@ -5432,10 +5575,20 @@
    "forever": "Fuerte de Petravista",
    "use": "Fuerte de Petravista"
   },
+  "Stonewatch Tower": {
+   "classic": "Torre de Petravista",
+   "forever": "Torre de Petravista",
+   "use": "Torre de Petravista"
+  },
   "Stonewrought Dam": {
    "classic": "Presa de las Tres Cabezas",
    "forever": "Presa de las Tres Cabezas",
    "use": "Presa de las Tres Cabezas"
+  },
+  "Storm Cliffs": {
+   "classic": "Acantilados de la Tormenta",
+   "forever": "Acantilados de la Tormenta",
+   "use": "Acantilados de la Tormenta"
   },
   "Stormrage Barrow Dens": {
    "classic": "Túmulo de Tempestira",
@@ -5451,6 +5604,11 @@
    "classic": "Castillo de Ventormenta",
    "forever": "Castillo de Ventormenta",
    "use": "Castillo de Ventormenta"
+  },
+  "Stoutlager Inn": {
+   "classic": "Pensión La Cebada",
+   "forever": "Pensión La Cebada",
+   "use": "Pensión La Cebada"
   },
   "Strahnbrad": {
    "classic": "Strahnbrad",
@@ -5562,6 +5720,11 @@
    "forever": "Los Baldíos",
    "use": "Los Baldíos"
   },
+  "The Bloodfire Pit": {
+   "classic": "Foso de las Llamas de Sangre",
+   "forever": "Foso de las Llamas de Sangre",
+   "use": "Foso de las Llamas de Sangre"
+  },
   "The Bulwark": {
    "classic": "El Baluarte",
    "forever": "El Baluarte",
@@ -5607,6 +5770,11 @@
    "forever": "El Cruce",
    "use": "El Cruce"
   },
+  "The Crystal Vale": {
+   "classic": "La Vega de Cristal",
+   "forever": "La Vega de Cristal",
+   "use": "La Vega de Cristal"
+  },
   "The Dagger Hills": {
    "classic": "Las Colinas Afiladas",
    "forever": "Las Colinas Afiladas",
@@ -5621,6 +5789,11 @@
    "classic": "Las Minas de la Muerte",
    "forever": "Las Minas de la Muerte",
    "use": "Las Minas de la Muerte"
+  },
+  "The Den of Flame": {
+   "classic": "Cubil de la Llama",
+   "forever": "Cubil de la Llama",
+   "use": "Cubil de la Llama"
   },
   "The Farstrider Lodge": {
    "classic": "Cabaña del Errante",
@@ -5781,6 +5954,11 @@
    "forever": "Excavación Oximelena",
    "use": "Excavación Oximelena"
   },
+  "The Sanctum": {
+   "classic": "El Sagrario",
+   "forever": "El Sagrario",
+   "use": "El Sagrario"
+  },
   "The Savage Coast": {
    "classic": "La Costa Salvaje",
    "forever": "La Costa Salvaje",
@@ -5816,6 +5994,16 @@
    "forever": "El Desierto de Sal",
    "use": "El Desierto de Sal"
   },
+  "The Shrine of Aessina": {
+   "classic": "El Santuario de Aessina",
+   "forever": "El Santuario de Aessina",
+   "use": "El Santuario de Aessina"
+  },
+  "The Skittering Dark": {
+   "classic": "Penumbra de las Celerácnidas",
+   "forever": "Penumbra de las Celerácnidas",
+   "use": "Penumbra de las Celerácnidas"
+  },
   "The Slag Pit": {
    "classic": "La Fosa de la Escoria",
    "forever": "La Fosa de la Escoria",
@@ -5844,6 +6032,11 @@
    "classic": "Las Mazmorras",
    "forever": "Las Mazmorras",
    "use": "Las Mazmorras"
+  },
+  "The Stockpile": {
+   "classic": "Las Reservas",
+   "forever": "Las Reservas",
+   "use": "Las Reservas"
   },
   "The Stonefield Farm": {
    "classic": "La Granja Pedregosa",
@@ -5878,6 +6071,11 @@
    "forever": "El Templo de Atal'Hakkar",
    "use": "El Templo de Atal'Hakkar"
   },
+  "The Veiled Sea": {
+   "classic": "Mar de la Bruma",
+   "forever": "Mar de la Bruma",
+   "use": "Mar de la Bruma"
+  },
   "The Wailing Caverns": {
    "classic": "Las Cuevas de los Lamentos",
    "forever": "Las Cuevas de los Lamentos",
@@ -5906,6 +6104,14 @@
    "classic": "Thelsamar",
    "forever": "Thelsamar",
    "use": "Thelsamar"
+  },
+  "Thendal Grove": {
+   "forever": "Arboleda de Thendal",
+   "use": "Arboleda de Thendal"
+  },
+  "Thendal Standing Stones": {
+   "forever": "Piedras Erguidas de Thendal",
+   "use": "Piedras Erguidas de Thendal"
   },
   "Thendal Village": {
    "forever": "Poblado Thendal",
@@ -6074,6 +6280,11 @@
    "forever": "Valormok",
    "use": "Valormok"
   },
+  "Vul'Gol Ogre Mound": {
+   "classic": "Túmulo de Vul'Gol",
+   "forever": "Túmulo de Vul'Gol",
+   "use": "Túmulo de Vul'Gol"
+  },
   "Wailing Caverns": {
    "classic": "Cuevas de los Lamentos",
    "forever": "Cuevas de los Lamentos",
@@ -6093,6 +6304,10 @@
    "classic": "Aserradero Grito de Guerra",
    "forever": "Aserradero Grito de Guerra",
    "use": "Aserradero Grito de Guerra"
+  },
+  "West Pylon Watchtower": {
+   "forever": "Torre de Vigilancia del Pilar Oeste",
+   "use": "Torre de Vigilancia del Pilar Oeste"
   },
   "Westbrook Garrison": {
    "classic": "Cuartel de Arroyoeste",
@@ -6124,10 +6339,18 @@
    "forever": "Campamento del Tramo Blanco",
    "use": "Campamento del Tramo Blanco"
   },
+  "Windfield Orchard": {
+   "forever": "Huerto de Campo de Viento",
+   "use": "Huerto de Campo de Viento"
+  },
   "Windshear Crag": {
    "classic": "Risco Cortaviento",
    "forever": "Risco Cortaviento",
    "use": "Risco Cortaviento"
+  },
+  "Windsong Lake": {
+   "forever": "Lago Son del Viento",
+   "use": "Lago Son del Viento"
   },
   "Winterspring": {
    "classic": "Cuna del Invierno",
@@ -6152,6 +6375,11 @@
    "classic": "Ruinas de Ziata'jai",
    "forever": "Ruinas de Ziata'jai",
    "use": "Ruinas de Ziata'jai"
+  },
+  "Zoram'gar Outpost": {
+   "classic": "Avanzada de Zoram'gar",
+   "forever": "Avanzada de Zoram'gar",
+   "use": "Avanzada de Zoram'gar"
   },
   "Zul'Farrak": {
    "classic": "Zul'Farrak",

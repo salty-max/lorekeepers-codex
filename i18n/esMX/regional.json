@@ -30,7 +30,21 @@
     "Capitán Justamonta",
     "Jefe Nek'rosh",
     "magistrado Salomón",
-    "alguacil Windsor"
+    "alguacil Windsor",
+    "Muelles Aéreos de Valanaar",
+    "Guarida de Chilladoras",
+    "Caverna Garranoche",
+    "Torre de vigilancia del pilón del este",
+    "Torre de vigilancia del pilón del oeste",
+    "Establos de Buentiempo",
+    "Sagrario de las Tormentas",
+    "Bosque Ventosombra",
+    "Arboleda Thendal",
+    "Piedras verticales de Thendal",
+    "Huerto de los Campovento",
+    "Lago Canzalvaje",
+    "Acantilados Tormentosos",
+    "Señor Supremo Mok'Morkk"
   ],
   "words": {
     "Sindicato": "Hermandad",
@@ -46,7 +60,12 @@
     "pulsa Intro": "pulsa Enter",
     "el Sindicato": "la Hermandad",
     "del Sindicato": "de la Hermandad",
-    "al Sindicato": "a la Hermandad"
+    "al Sindicato": "a la Hermandad",
+    "la Aldea Falaath": "el Poblado Falaath",
+    "las Agujas Rohashi": "los Pináculos Rohashi",
+    "Las Tierras Bajas de los Soplabayas": "Los Bajíos Ventobaya",
+    "las Tierras Bajas de los Soplabayas": "los Bajíos Ventobaya",
+    "a Mok'Morkk": "a Mok'Morokk"
   },
   "overrides": {
     "alguacil Reginald Windsor": {

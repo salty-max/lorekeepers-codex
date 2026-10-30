@@ -5159,7 +5159,7 @@ ns.translate({
     ["gustberry-lowlands-tune"] = {
       title = "Bajíos Ventobaya",
       text = {
-        { "Las Bajíos Ventobaya, con el Huerto de los Campovento, los Establos de Buentiempo y la Torre de vigilancia del pilón del este, tienen su propia melodía. Son las granjas de la isla. La torre vigila uno de los pilones de anclaje, y en Zephras nadie se toma ese trabajo a la ligera." },
+        { "Los Bajíos Ventobaya, con el Huerto de Campo de Viento, los Establos Buentiempo y la Torre de Vigilancia del Pilar Este, tienen su propia melodía. Son las granjas de la isla. La torre vigila uno de los pilones de anclaje, y en Zephras nadie se toma ese trabajo a la ligera." },
       },
     },
     ["hakkar"] = {
@@ -6308,9 +6308,9 @@ ns.translate({
       },
     },
     ["shadowgale-forest-tune"] = {
-      title = "Bosque Ventosombra",
+      title = "Bosque Ventarrosombra",
       text = {
-        { "El Bosque Ventosombra, la Poblado Falaath y las Ruinas de Ban'aethal comparten una melodía, y ninguno de los tres es un sitio para quedarse. Los Al'Aketh han hecho suya Falaath. Ban'aethal está vacía, y lo que estuvo a punto de pasarle es la advertencia con la que vive el resto de la isla." },
+        { "El Bosque Ventarrosombra, el Poblado Falaath y las Ruinas de Ban'aethal comparten una melodía, y ninguno de los tres es un sitio para quedarse. Los Al'Aketh han hecho suya Falaath. Ban'aethal está vacía, y lo que estuvo a punto de pasarle es la advertencia con la que vive el resto de la isla." },
       },
     },
     ["shadowglen"] = {
@@ -6369,7 +6369,7 @@ ns.translate({
     ["shendar-highlands-tune"] = {
       title = "Tierras Altas de Shen'dar",
       text = {
-        { "Las Tierras Altas de Shen'dar comparten una melodía con la Aldea Shen'dar, el Lago Canzalvaje, la Torre de vigilancia del pilón del oeste y dos grupos de piedras verticales, las de Son del Viento y las del mirador. El culto atacó una vez la torre que guarda el pilón del oeste. Nadie me ha dicho qué debían señalar las piedras." },
+        { "Las Tierras Altas de Shen'dar comparten una melodía con la Aldea Shen'dar, el Lago Son del Viento, la Torre de Vigilancia del Pilar Oeste y dos grupos de piedras verticales, las de Son del Viento y las del mirador. El culto atacó una vez la torre que guarda el pilón del oeste. Nadie me ha dicho qué debían señalar las piedras." },
       },
     },
     ["shendralar"] = {
@@ -6389,14 +6389,14 @@ ns.translate({
     ["shrine-of-akir"] = {
       title = "El Santuario de Akir",
       text = {
-        { "El Santuario de Akir, en Tierras Altas de Shen'dar, es el lugar sagrado de los Al'Aketh y fue la sede de su dirigente, la suma sacerdotisa Lorthuna. Para tomarlo hicieron falta la Suma Orden, los Formavientos y los pacificadores juntos, lo que dice algo de la fuerza del culto y más de lo poco que esos tres coinciden. Valennia Puñotormenta, capitana de los pacificadores, quedó gravemente herida en el santuario interior. Lorthuna huyó por un portal a las Pináculos Rohashi de arriba." },
+        { "El Santuario de Akir, en Tierras Altas de Shen'dar, es el lugar sagrado de los Al'Aketh y fue la sede de su dirigente, la suma sacerdotisa Lorthuna. Para tomarlo hicieron falta la Suma Orden, los Formavientos y los pacificadores juntos, lo que dice algo de la fuerza del culto y más de lo poco que esos tres coinciden. Valennia Puñotormenta, capitana de los pacificadores, quedó gravemente herida en el santuario interior. Lorthuna huyó por un portal a los Pináculos Rohashi de arriba." },
         { "Los shen'dorei no nos han dejado por escrito lo ocurrido en las agujas. Lorthuna ya no está en Zephras y el culto ha perdido su cabeza. Pero con ella cayeron las protecciones que ocultaban la isla de Al'Akir, y el sumo anciano no pretende saber cuánto tardará el Señor del Viento en darse cuenta." },
       },
     },
     ["shrine-of-akir-tune"] = {
       title = "Santuario de Akir",
       text = {
-        { "El Santuario de Akir y el Sagrario de las Tormentas comparten cuatro piezas. El culto que los ocupaba rezaba al Señor del Viento, y las dos órdenes y los pacificadores que le arrebataron el santuario apenas coinciden en nada más. Me gustaría saber qué les prometieron a los Al'Aketh en esas salas para que estuvieran tan seguros. Sospecho que la respuesta no me gustaría." },
+        { "El Santuario de Akir y el Sagrario de Tormentas comparten cuatro piezas. El culto que los ocupaba rezaba al Señor del Viento, y las dos órdenes y los pacificadores que le arrebataron el santuario apenas coinciden en nada más. Me gustaría saber qué les prometieron a los Al'Aketh en esas salas para que estuvieran tan seguros. Sospecho que la respuesta no me gustaría." },
       },
     },
     ["si-7"] = {
@@ -6727,7 +6727,7 @@ ns.translate({
       title = "Los Al'Aketh",
       text = {
         { "Los Al'Aketh son un culto shen'dorei reconocible por sus túnicas grises y cabezas rapadas, que adora a Al'Akir, el Señor del Viento, como legítimo gobernante de Muro Celeste. Sus predicadores cuentan una historia sencilla: los shen'dorei se volvieron orgullosos y dieron por sentada la generosidad de los vientos, y por ello los espíritus los abandonaron. En una isla que se deshace, encuentra oyentes." },
-        { "Ocupan la Poblado Falaath, en Tierras Altas de Shen'dar, y el Santuario de Akir bajo su suma sacerdotisa Lorthuna. Han atacado las atalayas de los pilones, asaltado a los druidas Garranoche para conseguir un pilón propio, enviado espías a las aldeas y encontrado al menos un traidor en Valanaar. Un antiguo pacificador, Belguilos, llamado el Rompedor, manda a sus combatientes." },
+        { "Ocupan el Poblado Falaath, en Tierras Altas de Shen'dar, y el Santuario de Akir bajo su suma sacerdotisa Lorthuna. Han atacado las atalayas de los pilones, asaltado a los druidas Garranoche para conseguir un pilón propio, enviado espías a las aldeas y encontrado al menos un traidor en Valanaar. Un antiguo pacificador, Belguilos, llamado el Rompedor, manda a sus combatientes." },
       },
     },
     ["the-ashbringer"] = {
@@ -7075,7 +7075,7 @@ ns.translate({
     ["the-ogre-mounds"] = {
       title = "Los túmulos de los ogros",
       text = {
-        { "El Túmulo de Vul'Gol en el Bosque del Ocaso y el Poblado Murohelecho en el Marjal Revolcafango comparten una melodía y muchísimos ogros. Los Puñastilla de Vul'Gol atacan a quien se acerque. En el Poblado Murohelecho, los ogros Quebrantarrocas sirven al Señor Supremo Mok'Morkk, título que le dio Rexxar. Los dragones negros de la progenie de Onyxia los echaron de su antiguo hogar, y no todos los ogros de allí han perdonado a Mok'Morkk que huyera." },
+        { "El Túmulo de Vul'Gol en el Bosque del Ocaso y el Poblado Murohelecho en el Marjal Revolcafango comparten una melodía y muchísimos ogros. Los Puñastilla de Vul'Gol atacan a quien se acerque. En el Poblado Murohelecho, los ogros Quebrantarrocas sirven al Señor supremo Mok'Morokk, título que le dio Rexxar. Los dragones negros de la progenie de Onyxia los echaron de su antiguo hogar, y no todos los ogros de allí han perdonado a Mok'Morokk que huyera." },
       },
     },
     ["the-open-plains"] = {
@@ -7115,7 +7115,7 @@ ns.translate({
     ["the-scarred-places"] = {
       title = "Los lugares marcados",
       text = {
-        { "La Guarida de Onyxia en el Marjal Revolcafango, la Escara Impía en Las Tierras Devastadas, el Barranco Rompesombras en Desolace, La Vega de Cristal en Silithus y los Acantilados Tormentosos comparten una pieza tomada de Los Baldíos. Cada lugar tiene sus problemas: un dragón negro en el primero, Lord Kazzak y sus demonios en el segundo, los invocadores del Filo Ardiente en el tercero. En el cuarto, el Alto Señor Demitrian espera a quien tenga el valor de alzar Trueno Furioso." },
+        { "La Guarida de Onyxia en el Marjal Revolcafango, la Escara Impía en Las Tierras Devastadas, el Barranco Rompesombras en Desolace, La Vega de Cristal en Silithus y los Acantilados de la Tormenta comparten una pieza tomada de Los Baldíos. Cada lugar tiene sus problemas: un dragón negro en el primero, Lord Kazzak y sus demonios en el segundo, los invocadores del Filo Ardiente en el tercero. En el cuarto, el Alto Señor Demitrian espera a quien tenga el valor de alzar Trueno Furioso." },
       },
     },
     ["the-scepter-of-the-shifting-sands"] = {
@@ -7299,7 +7299,7 @@ ns.translate({
     ["thendal-tune"] = {
       title = "Thendal",
       text = {
-        { "Thendal, la Arboleda Thendal y las Piedras verticales de Thendal comparten una melodía. La aldea guarda su historia en lo alto de su gran árbol, lo que me parece un lugar sensato en una isla que ya tuvo que vaciar una aldea entera en una sola noche. De todos los archivos que conozco, es el más difícil de alcanzar, y aun así haría la subida." },
+        { "Thendal, la Arboleda de Thendal y las Piedras Erguidas de Thendal comparten una melodía. La aldea guarda su historia en lo alto de su gran árbol, lo que me parece un lugar sensato en una isla que ya tuvo que vaciar una aldea entera en una sola noche. De todos los archivos que conozco, es el más difícil de alcanzar, y aun así haría la subida." },
       },
     },
     ["theramore-isle"] = {
@@ -7492,7 +7492,7 @@ ns.translate({
       title = "Valanaar",
       text = {
         { "Valanaar es la capital de la Isla Zephras, en su extremo sureste, y la sede del sumo anciano. En sus muelles atracan los cortacielos: pequeños barcos voladores que antes viajaban entre las islas shen'dorei y ahora, por primera vez, descienden a Azeroth, a Dalaran para la Suma Orden y a Mulgore para los Formavientos." },
-        { "Si pasas por allí, entra en la Posada Brisa Calmada. Arriba, los shen'dorei guardan un cristal que cuenta la rebelión de sus antepasados en Eldre'Thalas desde su propia perspectiva. No conozco nada más antiguo que hable por ellos y daría mucho por oírlo." },
+        { "El relato que los propios shen'dorei hacen de su rebelión en Eldre'Thalas no se guarda en la capital. Se conserva en cuatro partes, guardadas en más de un lugar de la isla, y una de ellas está en el Poblado Falaath, que ahora ocupan los Al'Aketh. No conozco nada más antiguo que dé voz a los shen'dorei, y daría mucho por tener las cuatro." },
       },
     },
     ["valanaar-tune"] = {
@@ -7724,7 +7724,7 @@ ns.translate({
     ["zephras-isle-tune"] = {
       title = "Isla Zephras",
       text = {
-        { "Buena parte de la Isla Zephras comparte una melodía, desde los Muelles Aéreos de Valanaar y las Pináculos Rohashi hasta la Guarida de Chilladoras y la Caverna Garranoche. Donde una aldea o un lugar sagrado tiene música propia, esa toma el relevo, y donde termina vuelve esta. Pocas cosas en la isla son tan fiables hoy en día." },
+        { "Buena parte de la Isla Zephras comparte una melodía, desde los Muelles Celestiales de Valanaar y los Pináculos Rohashi hasta la Guarida de Chillín y la Caverna Garra Nocturna. Donde una aldea o un lugar sagrado tiene música propia, esa toma el relevo, y donde termina vuelve esta. Pocas cosas en la isla son tan fiables hoy en día." },
       },
     },
     ["zul-gurub-tune"] = {
