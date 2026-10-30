@@ -11,7 +11,7 @@ The Codex has **441 pages in 44 chapters**, or **456 pages in 46 chapters on
 Forever**. It covers the original world's zones, landmarks, figures, peoples,
 classes and history. Each race gets its own foreword.
 
-For Classic Era, Hardcore, Season of Discovery, TBC Anniversary and World of
+For Classic Era, Hardcore, Season of Discovery and World of
 Warcraft: Forever. One download covers all of them. See
 [FOREVER.md](FOREVER.md) for Forever support.
 
@@ -78,9 +78,8 @@ with documented translations for missing bodies. Unrecognized copies stay
 as recorded. See [the Spanish translation notes](docs/spanish-translation.md).
 
 The full store description is in [addon/CURSEFORGE.md](addon/CURSEFORGE.md).
-The [Vanilla lore review](docs/lore-review.md) records the source checks and
-corrections. The [voice review](docs/voice-review.md) records the writing
-review of the original 344 entries.
+The review ledgers of October 2026 (the lore review, the voice review, the
+German review) were removed on 30 October 2026, all in git's history.
 
 ## Writing pages
 

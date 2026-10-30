@@ -1,6 +1,6 @@
 # Lore to add (12 October 2026)
 
-The user's decision: the codex loosens its sources like the Field Journal's
+The user's decision: the codex loosens its sources like Yonder's
 expeditions. Any source may tell the world's past up to the vanilla era
 (games, novels, short stories, comics, RPG books, Chronicle), so long as
 nothing in it is anachronic to vanilla or Forever (CLAUDE.md, "Lore"). The
@@ -18,7 +18,7 @@ vanilla leaves open, another continuity. Each page still goes through the
 usual steps: ids checked on Wowhead Classic, sources read in full, the pages
 it overlaps reread, `bun run check`.
 
-After implementation, the review follow-up in [expansion-follow-up.md](expansion-follow-up.md)
+After implementation, the review follow-up (`expansion-follow-up.md`, removed 30 October 2026, in git's history)
 corrects the source details and expands membership encounters. The tables below
 record the original plan; final unlock lists live in the source pages. In
 particular, Azshara's Timbermaw routes are Classic-only, and Taelan's complete
@@ -40,7 +40,7 @@ and makes the libraries worth exploring.
   build checks the title against the dump's gameobject names.
 - Titles are the English client's: until the source object can be told
   (research: whether Classic 1.15 and Forever give the object's GUID on
-  `ITEM_TEXT_BEGIN`, as the Field Journal's expeditions need too), every page
+  `ITEM_TEXT_BEGIN`, as Yonder's expeditions need too), every page
   with a `read:` keeps another route, an area or a creature.
 - A `read:` unlock may only reveal a page of a chapter the reader can reach
   from where the book stands: the new chapter below (global, like Peoples and

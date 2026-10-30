@@ -9,7 +9,7 @@ Unlock Azeroth's lore as you explore, meet its people and complete quests. Colle
 
 Lorekeeper's Codex adds a book of Azeroth's lore that fills in as you explore. Enter a zone, speak to someone important or finish a quest, and you might unlock a page about the history behind it. The pages are notes from Archesonus, Royal Historian of Ironforge. On the Horde side, your copy comes from Parqual Fintallas, a historian of the Undercity, who adds notes of his own in the margins.
 
-For Classic Era (including Hardcore and Season of Discovery), TBC Anniversary and World of Warcraft: Forever.
+For Classic Era (including Hardcore and Season of Discovery) and World of Warcraft: Forever.
 
 ## What you can discover
 
@@ -45,7 +45,7 @@ Open the tab with `/codex achievements`.
 
 ## Compatibility
 
-One download covers Classic Era, Hardcore, Season of Discovery, TBC Anniversary and World of Warcraft: Forever.
+One download covers Classic Era, Hardcore, Season of Discovery and World of Warcraft: Forever.
 
 Forever includes Zephras Isle and Shen'dralas chapters and pages about its new dungeons. Kill-based unlocks work in the open world. Inside Forever dungeons and raids, the game hides creatures from addons, so kills there cannot unlock pages.
 

@@ -1,6 +1,6 @@
 # Lorekeeper's Codex
 
-A World of Warcraft addon (Lua 5.1; Classic Era, TBC Anniversary and Forever,
+A World of Warcraft addon (Lua 5.1; Classic Era and Forever,
 a TOC each): a codex of original lore texts that unlock per character as they
 play. Sister project of Yonder, in ~/code/wow-addons/yonder (same tooling and
 conventions); salty-max/lorekeepers-codex. Read the family's CLAUDE.md
@@ -14,10 +14,10 @@ conventions); salty-max/lorekeepers-codex. Read the family's CLAUDE.md
 | What deserves a page, the two voices (Archesonus, Parqual), the lore scope, unlocks, textures | `docs/writing.md` |
 | The pages | `content/<chapter>/<id>.md`, `_chapter.md` per chapter |
 | The Soundtrack tab's tunes | `content/soundtrack/<id>.md` (kind `tune`), `data/music.json` (`bun scripts/music.ts`), `docs/architecture.md` |
-| The plan per zone (status, unlock, what to check) | `PLAN.md` |
+| How the codex is laid out, what is left out, what is open | `PLAN.md` |
 | Forever's own content | `FOREVER.md` |
 | Languages: how translation works, each language's notes | `docs/localization.md`, `docs/spanish-translation.md`, `docs/french-readable-translations.md`, `docs/german-readable-translations.md` |
-| The approved voice samples, the entry decisions | `docs/voice-comparison.md`, `docs/voice-review.md` |
+| The approved voice samples | `docs/voice-comparison.md` |
 | The pages still to add under the lore rule | `docs/lore-expansion.md` |
 | The store page | `addon/CURSEFORGE.md` |
 

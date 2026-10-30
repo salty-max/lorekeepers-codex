@@ -1,7 +1,7 @@
 # Writing the Codex
 
 What deserves a page and how a page is written (moved from CLAUDE.md on 20
-October 2026). Forever's own content: `FOREVER.md`. The plan per zone: `PLAN.md`.
+October 2026). Forever's own content: `FOREVER.md`. The page layout and what is left out: `PLAN.md`.
 
 ## What deserves a page (the user's editorial line)
 
@@ -26,7 +26,7 @@ in sources true to the era (see Lore below).
 - History: regional events, hung on a related place or quest.
 - As many pages as the zone has stories: a small zone 8–10, a large one like
   the Barrens 30+. Every page still earns its place. The plan per zone is
-  PLAN.md (status, unlock, what to check): update it as pages land.
+  each page's front matter (unlock, anchors).
 
 Timber is an explicit user-approved exception: preserve its hunter tale
 as flavour text without an in-entry label. This does not permit unsupported
@@ -74,9 +74,9 @@ historical claims in other entries.
 - The approved voice samples are in `docs/voice-comparison.md`. Prefer concrete
   details and natural flow; keep dry asides sparse, vary openings and endings,
   and do not turn an entry into an audit note or append advice by habit. The
-  completed entry decisions are recorded in `docs/voice-review.md`.
-- Lore (the user's scope; loosened on 12 October 2026 to match the Field
-  Journal's): **everything from the origin of the universe up to the vanilla
+  entry decisions of October 2026 are in git's history (`docs/voice-review.md`, removed 30 October 2026).
+- Lore (the user's scope; loosened on 12 October 2026 to match
+  Yonder's): **everything from the origin of the universe up to the vanilla
   era**, from any source: the games (Warcraft I, II and III with their manuals,
   World of Warcraft to patch 1.12 with its quests, books and item texts, and a
   later game's look back at that past), the novels and short stories, the

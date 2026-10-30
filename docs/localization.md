@@ -13,8 +13,7 @@ Since retail 11.2.0, a TOC can name a file with the client's language in it:
 client and nothing else. Classic Era should have it from 1.15.8 and Forever
 too: the wiki's patch tables say those builds carry 11.2.0, though no page
 says so outright. A two-line test addon confirms it in each game before
-anything is built on it. TBC Anniversary is not known to: its TOC stays
-English.
+anything is built on it.
 
 So: **one package, one folder, the client picking its own language file.** No
 language packs:
@@ -112,7 +111,7 @@ first translation, said so on the store page.
    Library's German books use sourced game wording where available and our
    translations where needed: 391 texts, 29 supplement entries (25 authored
    translations and four documented reuses/empty sources). See
-   `german-readable-translations.md` and `german-translation-fixes.md`.
+   `german-readable-translations.md`.
    Spanish completed 18 October 2026, flagged a first translation pending a
    native reader: 209 interface strings, 45 chapters and all 438 pages.
    Archesonus and Parqual address the reader with "tú", with
@@ -124,7 +123,7 @@ first translation, said so on the store page.
    including every French and German readable. See
    [spanish-translation.md](spanish-translation.md) for provenance and the
    source texts still missing from wow-data.
-3. Russian, Portuguese (ptBR), Italian.
+3. Russian, Portuguese (ptBR). Italian is dropped: no client ships it.
 4. Korean, Chinese (zhTW, zhCN): longer to review, their own typography.
 
 Then the same for Yonder and Second Wind. Hearthtale writes its entries from
