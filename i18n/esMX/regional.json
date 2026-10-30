@@ -49,7 +49,13 @@
     "Excavación: Los Humedales",
     "Escondrijo de los Desterrados",
     "Lugar del Guardián",
-    "El Enano Beodo"
+    "El Enano Beodo",
+    "Braug Espiritoscuro",
+    "Hagar Relampafauce",
+    "Grez Dedomaza",
+    "Mahren Videncielo",
+    "Alguacil Windsor",
+    "Ran Dentesangre"
   ],
   "words": {
     "Sindicato": "Hermandad",
@@ -74,7 +80,11 @@
     "el Retiro Erizapúas": "la Retirada Erizapúas",
     "el Marjal Perdido": "la Marisma Perdida",
     "la Fronda del Acechador": "el Zarzal del Acechador",
-    "la Excavación Olvidada": "el Sitio de Excavación Perdida"
+    "la Excavación Olvidada": "el Sitio de Excavación Perdida",
+    "en El Páramo de los Ancianos": "en el Páramo de los Ancianos",
+    "se alzan además las Puertas de Ahn'Qiraj": "se alza además la Puerta de Ahn'Qiraj",
+    "Melor Pezuñapétrea": "Melor Pezuña Pétrea",
+    "Dedomaza": "Piemartillo"
   },
   "overrides": {
     "alguacil Reginald Windsor": {
