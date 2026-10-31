@@ -10,4 +10,4 @@ East of the gates lies the gentlest country in Khaz Modan: green hills, pine woo
 
 It is farming and hunting land, and the dwarves who live here are a little slower to anger and a great deal quicker to offer you a drink than their cousins in Ironforge. They need the good humour. Troggs dig in the southern valleys, ogres hold the north-east, and the Dark Irons have been seen in the hills.
 
-Rest in Thelsamar, look at the dam, and visit the Valley of Kings. Then mind your step.
+Thelsamar, the dam and the Valley of Kings are worth the visit. The rest of the loch is less forgiving.

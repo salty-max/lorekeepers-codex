@@ -16,4 +16,4 @@ The centaurs descend from Zaetar, a son of Cenarius, and Theradras, a princess o
 
 Their clans include the Kolkar of the Barrens and Desolace, the rival Gelkis and Magram, the Galak of Thousand Needles and the Maraudine at the tomb. For generations they pursued the tauren across Kalimdor's plains, until Cairne and his orc allies drove them back.
 
-The clans continue to raid. Learn their names as well as the sound of their hooves, traveller. The quarrels between them matter to those trying to live within reach of their camps.
+The clans continue to raid. Each clan has its own name and its own quarrels, and those quarrels matter to anyone living within reach of their camps.

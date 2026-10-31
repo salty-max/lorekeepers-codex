@@ -18,4 +18,4 @@ Silithid occupy vast hives beneath southern Kalimdor. Their wasps can be the siz
 
 The qiraji of Ahn'Qiraj command them. A thousand years ago their swarms drove north in the War of the Shifting Sands, until night elves and dragons sealed the city behind the Scarab Wall. The Cenarion Circle believes an older power beneath Ahn'Qiraj directs both masters and servants.
 
-Movement around the hives now suggests preparation for a great expansion. The Circle watches closely. For a traveller studying these insects, the work includes finding out how far their tunnels and their masters' purposes already reach.
+Movement around the hives now suggests preparation for a great expansion. The Circle watches closely. Nobody yet knows how far their tunnels, or their masters' purposes, already reach.

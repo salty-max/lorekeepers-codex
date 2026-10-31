@@ -12,4 +12,4 @@ Dalaran fell in the Third War, and its students scattered: to Theramore with Jai
 
 [forever] Orcs have been seen at the mages' trade too, and the Skyborne's High Order has come down looking for the arcane lore their people lost.
 
-A mage conjures fire, frost and pure arcane force, and a good deal of fresh water. I recommend one on every dig, traveller, for the water alone.
+A mage conjures fire, frost and pure arcane force, and a good deal of fresh water. Of those four, the water saves the most lives, at least in Tanaris.

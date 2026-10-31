@@ -10,4 +10,4 @@ The orcs came from Draenor, a world of clans and shamans, and they did not come 
 
 The defeated orcs were penned in internment camps, listless as the demons' fury drained out of them. Thrall, raised a slave at Durnholde, freed them, gave them back the old ways of the shaman and led them across the sea to Kalimdor. At Mount Hyjal they fought the Legion beside humans and night elves, and when Grom Hellscream killed Mannoroth the blood curse was broken.
 
-They named their new land Durotar, after Thrall's father, and built Orgrimmar in its rocks. They are a proud people with a long memory of being used, traveller. Offer an orc respect and plain dealing, and never ask one to serve a master again.
+They named their new land Durotar, after Thrall's father, and built Orgrimmar in its rocks. They are a proud people with a long memory of being used. Thrall's orcs answer respect with respect and plain dealing with plain dealing, and none of them means to serve a master again.

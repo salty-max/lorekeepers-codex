@@ -13,4 +13,4 @@ The Highborne were the night elves' upper caste, Queen Azshara's chosen servants
 
 Not all of them shared her fate. Some survived the Sundering among the other night elves and, exiled for clinging to their magic, became the high elves. Others held on in Eldre'Thalas, where the Shen'dralar keep their own counsel still. Many simply died, and did not rest.
 
-Their dead are easy to find: wailing in the ruins of Darkshore, drifting through Azshara as apparitions and lichlings, suffering by the frozen lake of Kel'Theril in Winterspring. Ten thousand years is a long time to be sorry, traveller. At least one of them, by the lake, seems truly to be.
+Their dead are easy to find: wailing in the ruins of Darkshore, drifting through Azshara as apparitions and lichlings, suffering by the frozen lake of Kel'Theril in Winterspring. They have had ten thousand years to be sorry. At least one of them, by the lake, truly seems to be.

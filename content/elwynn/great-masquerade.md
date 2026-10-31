@@ -10,4 +10,4 @@ Marshal Reginald Windsor gathered proof against Highlord Bolvar Fordragon's advi
 
 There he exposed Lady Katrana Prestor as Onyxia, daughter of Deathwing and sister of Nefarian. She had kept Stormwind's army at home while her brother's orcs threatened Redridge, and bent Bolvar to her will. Windsor broke her disguise before the court. She fled to her lair in Dustwallow Marsh.
 
-Windsor died in the confrontation. Set down his name, traveller, if you record the dragon's defeat. His part in it began long before anyone reached her lair.
+Windsor died in the confrontation. His name belongs in any account of the dragon's defeat. His part in it began long before anyone reached her lair.

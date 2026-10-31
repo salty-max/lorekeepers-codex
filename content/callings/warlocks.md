@@ -12,4 +12,4 @@ Its students are found on both sides now. The Burning Blade still serves the Leg
 
 [forever] The Darkspear now count warlocks among their own spellcasters as well.
 
-Most cities tolerate warlocks without trusting them, traveller, and the warlocks seem to prefer it that way.
+Most cities tolerate warlocks without trusting them, and the warlocks seem to prefer it that way.

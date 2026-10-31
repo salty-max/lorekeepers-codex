@@ -15,4 +15,4 @@ The Sundering carried Azshara's Highborne beneath the sea with their capital. Th
 
 They returned to the surface during the Third War, when Lady Vashj led naga in Illidan's service. Warbands now hold the Zoram Strand and drowned Blackfathom temple, the ruined coasts of Azshara and Darkshore, and shores in Feralas, Desolace and Dustwallow.
 
-The Highborne's story did not end when their cities sank, traveller. Those same Highborne now contend for places along the continent's coasts, changed as much as the land they once knew.
+The Highborne's story did not end when their cities sank. Those same Highborne now contend for places along the continent's coasts, changed as much as the land they once knew.

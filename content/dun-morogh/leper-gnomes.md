@@ -11,4 +11,4 @@ Not every gnome escaped Gnomeregan. Some lived through the radiation and were ch
 
 They haunt the approaches to the old city and the depots around it, scavenging what they can and attacking those who come too close.
 
-If you must fight them, traveller, remember that they were someone's neighbours once.
+They were someone's neighbours once.

@@ -13,4 +13,4 @@ Xavius helped open Queen Azshara's court to the Burning Legion. When he failed S
 
 Their camps remain in the old night elf lands, among the forests of Ashenvale, Felwood and Azshara. Water is fouled, trees sicken and beasts are twisted around them. The elves trying to heal those woods are contending with a corruption that first took hold among their own people.
 
-Ten thousand years is a long time to tend a forest, traveller. It is a bitter length of time to find its old betrayers still at work within it.
+The night elves have tended these forests for ten thousand years. It is bitter to find their old betrayers still at work within them.

@@ -12,4 +12,4 @@ On the Horde's side, the Darkspear have priests of their own, and the Forsaken k
 
 [forever] Gnomes now count priests among their people, adding another calling to the company in Tinker Town.
 
-They are the most welcome company a dig can have, traveller, and the least appreciated until somebody falls into a shaft.
+Priests are the most welcome company on any road, and the least appreciated until somebody is hurt on it.

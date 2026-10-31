@@ -10,4 +10,4 @@ Another of the League's digs, this one in the marshes of the Wetlands, under Pro
 
 Then the raptors came. They moved into the dig and treated the diggers as fair game, and the League's people were driven out onto a ridge above the site, where some of them are waiting still for the beasts to leave.
 
-If you are passing, look in on them. They will be very glad to see someone carrying a weapon.
+The diggers on the ridge will be very glad to see someone carrying a weapon.

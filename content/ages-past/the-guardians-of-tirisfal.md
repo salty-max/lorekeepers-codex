@@ -16,4 +16,4 @@ The elves told them what the Legion was, and what it had done to the world once 
 
 It worked for generations. Then the Council chose Aegwynn, who did not care to be controlled. She struck down the avatar of Sargeras himself in the frozen north and believed she had finished him. Nearly nine hundred years later, refusing to let the Council name her successor, she bore a son to inherit her power and named him Medivh, 'keeper of secrets' in the high elven tongue. What he kept is told under Karazhan.
 
-An order that keeps its war secret from the whole world cannot easily be corrected when it goes wrong, traveller. The Council learned that too late.
+An order that keeps its war secret from the whole world cannot easily be corrected when it goes wrong. The Council learned that too late.

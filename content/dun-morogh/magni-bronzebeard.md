@@ -11,4 +11,4 @@ King Magni Bronzebeard holds court in Ironforge's High Seat, ruling the city his
 
 Magni follows the League's work closely. The finds at Uldaman suggest that the dwarves were shaped long ago by the Titans. A king with so long a lineage has reason to ask where it began, and a historian who stands a few steps from his throne has every reason to welcome his interest.
 
-His daughter concerns him more urgently. Princess Moira is in the Dark Iron city beneath Blackrock Mountain, wed to Emperor Dagran Thaurissan. Ironforge calls it an abduction, and Magni promises a hero's reward for bringing her home. If you take up that charge, traveller, you carry a father's hopes as well as a king's orders.
+His daughter concerns him more urgently. Princess Moira is in the Dark Iron city beneath Blackrock Mountain, wed to Emperor Dagran Thaurissan. Ironforge calls it an abduction, and Magni promises a hero's reward for bringing her home. That charge carries a father's hopes as well as a king's orders.

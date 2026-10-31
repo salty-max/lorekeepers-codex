@@ -11,4 +11,4 @@ Arugal summoned worgen from another world as Dalaran's defenders fell to the Sco
 
 Duskwood presents a different trail. The Night Watch reports their sudden appearance in a mine south of Darkshire. Accounts point towards the Scythe of Elune, an old elven relic carried into the forest by someone who did not understand its power.
 
-The creatures are strong, clever and able to run on all fours despite their upright form. Keep the two trails distinct, traveller. Knowing who brought them into one forest has not explained their appearance in the other.
+The creatures are strong, clever and able to run on all fours despite their upright form. The two trails are distinct. Knowing who brought them into one forest has not explained their appearance in the other.

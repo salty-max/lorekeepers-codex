@@ -12,4 +12,4 @@ Thrall brought shamanism back to his people, and in Kalimdor they found others w
 
 [forever] Lately dwarves have been seen calling on the stone and the storm too, and the Skyborne's Windshapers have come down looking for their lost wind spirits among the shamans of the Horde.
 
-The League has learned to ask a shaman's leave before a dig, traveller. The ground has opinions, and they hear them.
+A shaman will tell you the ground has opinions. Shamans are the ones who hear them.

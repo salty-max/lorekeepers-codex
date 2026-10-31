@@ -12,4 +12,4 @@ Azuregos watches southern Azshara, where the Highborne left enough arcane treasu
 
 His charge also included the blue shard of the Scepter of the Shifting Sands. The search for it leads through a magical ledger and an elaborate means of drawing a great shark called Maws from the Bay of Storms. A missing piece of an ancient sceptre has become a matter of translation, engineering and very large teeth.
 
-There are solemn guardians in the world, traveller. Azuregos's arrangements suggest that centuries of responsibility need not extinguish a dragon's capacity to make work for somebody else.
+There are solemn guardians in the world. Azuregos's arrangements suggest that centuries of responsibility need not extinguish a dragon's capacity to make work for somebody else.

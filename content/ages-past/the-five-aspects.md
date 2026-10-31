@@ -13,4 +13,4 @@ Aman'Thul gave the bronze Nozdormu the keeping of time itself: he is the Timeles
 
 You will know how that last one ended. Neltharion forged the Demon Soul to master the other flights and turned it on them in the War of the Ancients. The world has called him Deathwing ever since. Malygos's flight was nearly wiped out. Ages later the same disc chained the Dragonqueen herself at Grim Batol.
 
-Five guardians were set over the world, traveller. One of them became what the others guard it against.
+Five guardians were set over the world. One of them became what the others guard it against.

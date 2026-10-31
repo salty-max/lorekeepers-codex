@@ -11,4 +11,4 @@ The Skyborne call themselves the shen'dorei, the hidden people, and until they c
 
 Zephras Isle hung there for ages. Now the wind spirits are gone, the isle is failing, and the Skyborne have come down to find help. The High Order looks for the arcane lore their people lost and goes to Dalaran's mages. The Windshapers look for their missing spirits and go to the shamans of the Horde.
 
-They are few, traveller, and they know it. A Skyborne who seems careful with every life, their own included, is reckoning with how many of their people there are left to lose.
+They are few, and they know it. A Skyborne who seems careful with every life, their own included, is reckoning with how many of their people there are left to lose.
