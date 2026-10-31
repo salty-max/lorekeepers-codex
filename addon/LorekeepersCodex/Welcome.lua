@@ -71,7 +71,9 @@ local W = K.welcome({
       K.collectChoice(ns.collect),
     }
   end,
-  footnote = L["Change them any time: /codex settings, or a right-click on the minimap button. /codex opens the book."],
+  footnote = L["Change them any time: %s, or a right-click on the minimap button."]:format("/codex settings")
+    .. " "
+    .. L["/codex opens the codex."],
   open = { text = L["Open the codex"], click = function() ns.toggle() end },
   exportHint = L["Copy it (Ctrl+C), then on another character: Use a code, or /codex import CODE."],
   importHint = L["Paste the code (/codex export on the other character), then press Enter."],

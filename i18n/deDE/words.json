@@ -5,7 +5,6 @@
   "%d texts copied": "%d Texte abgeschrieben",
   "%d texts in the Library": "%d Texte in der Bibliothek",
   "%s has been added to the codex.": "%s wurde in den Kodex aufgenommen.",
-  "%s: %s": "%s: %s",
   "/codex opens the book, /codex achievements its achievements and /codex settings its settings. /codex banner shows or hides the alerts, /codex minimap the button. /codex welcome shows the welcome page again. /codex export gives this character's settings as a code, and /codex import CODE takes them. /codex reset starts this character's codex over.": "/codex öffnet das Buch, /codex achievements seine Erfolge und /codex settings seine Einstellungen. /codex banner zeigt oder verbirgt die Meldungen, /codex minimap den Button. /codex welcome zeigt die Willkommensseite noch einmal. /codex export gibt die Einstellungen dieses Charakters als Code aus, und /codex import CODE übernimmt sie. /codex reset beginnt den Kodex dieses Charakters von vorn.",
   "A Crowded Road": "Eine belebte Straße",
   "A Growing Ledger": "Ein wachsendes Register",
@@ -18,8 +17,6 @@
   "A Word in Person": "Ein Wort unter vier Augen",
   "A line on the tooltip of creatures that unlock a page (a page to find, or its title once found), and of players whose people's or calling's page is still to find.": "Eine Zeile im Tooltip von Kreaturen, die eine Seite freischalten (eine Seite zu finden, oder ihr Titel, sobald gefunden), und von Spielern, für deren Volk oder Berufung dir noch die Seite fehlt.",
   "A new page in the codex": "Eine neue Seite im Kodex",
-  "Achievements": "Erfolge",
-  "Alert for achievements": "Meldung für Erfolge",
   "Alert for new pages": "Meldung für neue Seiten",
   "Alerts hidden (/codex banner shows them again).": "Meldungen verborgen (/codex banner zeigt sie wieder).",
   "Alerts shown for new pages.": "Meldungen für neue Seiten werden angezeigt.",
@@ -31,7 +28,6 @@
   "Bookworm": "Bücherwurm",
   "Calling": "Berufung",
   "Callings": "Berufungen",
-  "Change them any time: /codex settings, or a right-click on the minimap button. /codex opens the book.": "Ändern kannst du sie jederzeit: /codex settings, oder ein Rechtsklick auf den Minikarten-Button. /codex öffnet das Buch.",
   "Chapters": "Kapitel",
   "Click it to open the codex, or drag it around the minimap.": "Klick darauf, um den Kodex zu öffnen, oder zieh es um die Minikarte.",
   "Click to read this page": "Klicken, um diese Seite zu lesen",
@@ -90,7 +86,6 @@
   "Meet players of %d different pairings of race and class.": "Begegne Spielern von %d verschiedenen Verbindungen aus Volk und Klasse.",
   "Meet the historian behind your codex: Archesonus in Ironforge's High Seat, or Parqual Fintallas in the Undercity.": "Begegne dem Historiker hinter deinem Kodex: Archesonus auf dem Hohen Sitz in Ironforge, oder Parqual Fintallas in Undercity.",
   "Milestones": "Meilensteine",
-  "Minimap button": "Minikarten-Button",
   "No page found.": "Keine Seite gefunden.",
   "No text found.": "Kein Text gefunden.",
   "Note": "Notiz",
@@ -110,7 +105,6 @@
   "Read %d pages of your codex.": "Lies %d Seiten deines Kodex.",
   "Seasoned Traveller": "Erfahrener Reisender",
   "See also": "Siehe auch",
-  "Show each achievement earned in the game's achievement alert. A click on it opens the achievements.": "Zeigt jeden errungenen Erfolg in der Erfolgsmeldung des Spiels. Ein Klick darauf öffnet die Erfolge.",
   "Show each new page in the game's own alert. A click on it reads the page.": "Zeigt jede neue Seite in der eigenen Meldung des Spiels. Ein Klick darauf öffnet die Seite.",
   "Slayer of Legends": "Bezwinger der Legenden",
   "Sound for a new page": "Klang für eine neue Seite",
@@ -179,5 +173,6 @@
   "The tunes of the game's music, found by standing where they play with the music on. The game never tells which track is playing, so a tune is found, not heard: stay a little while, and it is written here. Found, a tune plays again from this page.": "Die Melodien der Spielmusik, gefunden, indem man dort steht, wo sie spielen, bei eingeschalteter Musik. Das Spiel verrät nie, welches Stück gerade läuft: Eine Melodie wird also gefunden, nicht gehört. Bleib ein Weilchen, und sie wird hier eingetragen. Einmal gefunden, spielt sie von dieser Seite aus erneut.",
   "Tunes found lately": "Kürzlich gefundene Melodien",
   "Tune found in %s, at level %d, on %s.": "Melodie gefunden in %s, auf Stufe %d, am %s.",
-  "Arrival %d": "Ankunft %d"
+  "Arrival %d": "Ankunft %d",
+  "/codex opens the codex.": "/codex öffnet das Buch."
 }
