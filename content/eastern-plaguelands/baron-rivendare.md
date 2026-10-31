@@ -7,6 +7,6 @@ unlock:
   - kill: 10440
 also: [stratholme, kelthuzad, argent-dawn]
 ---
-Baron Rivendare rules the Scourge's half of Stratholme from its slaughterhouse, a death knight mounted on a dead horse. The Argent Dawn calls him Kel'Thuzad's errand boy. Duke Zverenhoff at Light's Hope Chapel asks for his head.
+Baron Rivendare, a death knight mounted on a dead horse, rules the Scourge's half of Stratholme from its slaughterhouse. The Argent Dawn calls him Kel'Thuzad's errand boy. Duke Zverenhoff at Light's Hope Chapel asks for his head.
 
-Rivendare also holds the Argent Dawn crusader Ysida Harmon captive. Her husband seeks her rescue. Someone in that city still needs to come out alive.
+Rivendare also holds the Argent Dawn crusader Ysida Harmon captive. Her husband seeks her rescue. Ysida is still alive in that city, and still waiting.

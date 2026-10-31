@@ -16,7 +16,7 @@ also: [burning-legion, sickness-of-teldrassil]
 ---
 The furbolgs belong to Kalimdor's northern forests, where their villages and totems have stood beside night elf country for ages. They fought the Burning Legion alongside the elves ten thousand years ago. Some of that friendship survives, though a stranger is met fiercely at their camps now.
 
-Tribe after tribe has suffered corruption: the Gnarlpine of Teldrassil, the Blackwood of Darkshore, the Deadwood of Felwood and the Winterfall of Winterspring among them. The madness has turned neighbours into enemies. In Felwood, the poisoned land gives the night elves ample reason to blame the Legion's taint.
+Tribe after tribe has suffered corruption: the Gnarlpine of Teldrassil, the Blackwood of Darkshore, the Deadwood of Felwood and the Winterfall of Winterspring among them. The madness has turned neighbours into enemies. In Felwood, the night elves blame the Legion's taint.
 
 [classic] The Timbermaw have resisted that fate. They guard the tunnels joining Felwood, Moonglade and Winterspring, and another closed hold in Azshara. Help against their corrupted kin can slowly earn a traveller their trust.
 

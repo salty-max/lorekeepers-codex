@@ -6,4 +6,4 @@ group: depths
 unlock:
   - music: 238
 ---
-Somewhere in the Scarlet Monastery play two pieces that Ironforge plays too, the same two Anvilmar carries. I cannot explain why a monastery of the Scarlet Crusade borrows my city's music, unless both were built by people who trust nobody outside their walls. The Crusade sends its agents out from there, as far as Deathknell in Tirisfal.
+Somewhere in the Scarlet Monastery play two pieces that Ironforge plays too, the same two Anvilmar carries. I cannot explain why a monastery of the Scarlet Crusade borrows my city's music, unless both were built by people who trust nobody outside their walls.

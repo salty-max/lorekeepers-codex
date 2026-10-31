@@ -9,7 +9,7 @@ unlock:
   - kill: 6202, 7105, 7106, 7107, 7108, 7109, 7110, 7111, 11451, 11790
 also: [burning-legion, sickness-of-teldrassil]
 ---
-Xavius helped open Queen Azshara's court to the Burning Legion. When he failed Sargeras, the demon lord remade him with horns, hooves and claws. The first satyr then offered that transformation to other elves hungry for power, and the curse spread through his followers.
+Xavius helped open Queen Azshara's court to the Burning Legion. When he failed Sargeras, the demon lord remade him with horns, hooves and claws. Xavius, the first satyr, then offered that transformation to other elves hungry for power, and the curse spread through his followers.
 
 Their camps remain in the old night elf lands, among the forests of Ashenvale, Felwood and Azshara. Water is fouled, trees sicken and beasts are twisted around them. The elves trying to heal those woods are contending with a corruption that first took hold among their own people.
 

@@ -14,4 +14,4 @@ He has seen the dragons brought to the edge of extinction, he says: by the Burni
 
 The forging takes gems from three of the Spire's generals and the breath of a black drake whose will has been broken. The red flight has never minded borrowing its enemy's fire.
 
-Nefarian caught him in the end. In Blackwing Lair he waits, twisted by the black dragon's corruption, and begs those who reach him to take the sceptre shard back before it is destroyed. 'Too late, friends,' he says, and turns on them. Those who bring him down are told afterwards that his soul is at ease. I hope so.
+He takes a great risk, helping mortals under Nefarian's own roof. I hope he knows how great.

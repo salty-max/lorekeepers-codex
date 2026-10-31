@@ -68,7 +68,7 @@ historical claims in other entries.
   point (a handful), else the notes become a formula.
 - Tunes (`content/soundtrack/`): a name and two to four plain sentences in
   Archesonus's voice, about 55 words (the 69 rewritten on 31 October 2026 run
-  47 to 73, mean 60). The rule once said about 35, and the English audit's
+  42 to 73, mean 59). The rule once said about 35, and the English audit's
   brief one to three sentences: this rule stands. A tune says why the place
   sounds as it does (stone and hammers under a mountain, a city of crypts),
   never "a forest tune", and the rest is the place, not a quest. No

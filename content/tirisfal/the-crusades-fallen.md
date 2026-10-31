@@ -20,6 +20,6 @@ The Scarlet Monastery buries its heroes in its own graveyard, and their stones s
 
 Read further and you find how far it went. Orman of Stromgarde, its first Captain General, was lost at the mouth of Icecrown Glacier. The Grand Admiral of the Scarlet Fleet was lost off the frozen coast of Northrend, and so was the first Chief Assassin, on Northrend's shores. The Crusade carried its war to the Lich King's own door, and the stones are what came back.
 
-Others fell nearer home: a High Abbot killed defending the Monastery itself, a defender who died slaying a dreadlord, an elf locked in endless combat with a necromancer. Whatever the Crusade has become since, traveller, these were the people who believed in it first.
+Others fell nearer home: a High Abbot killed defending the Monastery itself, a defender who died slaying a dreadlord, an elf locked in endless combat with a necromancer. Whatever the Crusade has become since, these were the people who believed in it first.
 
 [horde] > I have read those stones too. I came away with a less generous account. -- P. F.

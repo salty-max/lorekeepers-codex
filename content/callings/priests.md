@@ -10,6 +10,6 @@ Priests serve their people's faith, and their people's faith differs. In Stormwi
 
 On the Horde's side, the Darkspear have priests of their own, and the Forsaken keep theirs too, whose prayers lean towards the shadow as readily as the Light. A priest of any of them can mend a wound, shield a friend, raise the fallen, or turn the same power on an enemy.
 
-[forever] Gnomes now count priests among their people, adding another calling to the company in Tinker Town.
+[forever] Gnomes now count priests among their people too, in Tinker Town.
 
 Priests are the most welcome company on any road, and the least appreciated until somebody is hurt on it.

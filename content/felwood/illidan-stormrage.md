@@ -12,4 +12,4 @@ Illidan was Malfurion's twin brother, and he loved Tyrande too. She chose Malfur
 
 Tyrande freed him when the Legion came back, hoping he would help. In these woods he did something else. The dreadlord Tichondrius held the Skull of Gul'dan here, a warlock's relic full of fel power, and Illidan took it and drank its strength. He came out of it a demon in shape, with some of Gul'dan's memories, and killed Tichondrius. Malfurion banished him for it.
 
-The book in our library has him flee after that, beyond the world, to the broken remains of the orcs' homeland, with the naga and the blood elves at his back. Felwood has not recovered from that night either.
+The book in our library has him flee after that, beyond the world, to the broken remains of the orcs' homeland, with the naga and the blood elves at his back. Felwood has not recovered from that night.

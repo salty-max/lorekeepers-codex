@@ -6,4 +6,4 @@ group: depths
 unlock:
   - music: 245
 ---
-The Zandalar trolls have made camp on Yojamba Isle, off the coast of Stranglethorn Vale, and the same piece plays in the Bloodfire Pit inside Zul'Gurub. It is a troll piece for a troll quarrel. The Zandalar have come to stop the Soulflayer, Hakkar the Blood God, before his reign spreads across Azeroth. They will take help from anyone, and they do not much care what their helpers believe.
+The Zandalar trolls have made camp on Yojamba Isle, off the coast of Stranglethorn Vale, and the same piece plays in the Bloodfire Pit inside Zul'Gurub. Both the piece and the quarrel belong to trolls. The Zandalar have come to stop the Soulflayer, Hakkar the Blood God, before his reign spreads across Azeroth. They will take help from anyone, and they do not much care what their helpers believe.

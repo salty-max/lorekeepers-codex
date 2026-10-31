@@ -15,4 +15,4 @@ unlock:
   - music: 264
   - music: 265
 ---
-Naxxramas, Kel'Thuzad's floating necropolis above the Plaguelands, keeps more music inside it than any other place I know. Each wing has its own, because each wing is its own horror: the stitched dead, the spiders, the plague, and four riders who fought for the Light before they fell. The Argent Dawn asks anyone who can to go in and destroy the Scourge there.
+Naxxramas, Kel'Thuzad's floating necropolis above the Plaguelands, keeps more music inside it than any other place I know. Each wing has its own, because each wing is its own horror: the stitched dead, the spiders, the plague, and four riders who fought for the Light before they fell. The Argent Dawn is the only order I know that wants to hear it up close.

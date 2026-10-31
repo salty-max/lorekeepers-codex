@@ -8,6 +8,6 @@ unlock:
   - area: Shrine of Remulos
 also: [moonglade, cenarion-circle, dragons-of-nightmare, eranikus, tyrande-whisperwind]
 ---
-Keeper Remulos is Cenarius's son, with his father's stag-like lower body. Druids come to his shrine in Moonglade for aid. The Nightmare spreading through the Emerald Dream has given them urgent reason to seek it.
+Keeper Remulos is Cenarius's son, with his father's stag-like lower body. Druids come to his shrine in Moonglade for aid. The Nightmare spreading through the Emerald Dream has given them urgent reason to seek him out.
 
 When Eranikus, Ysera's consort, was summoned here, the Nightmare came with him. Remulos defended Nighthaven while his allies fought to free the dragon. Tyrande arrived to redeem Eranikus. Moonglade is known as a place of peace. Its keeper has had to fight for that peace at the heart of the village.

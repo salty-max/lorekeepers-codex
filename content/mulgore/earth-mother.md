@@ -7,7 +7,7 @@ unlock:
   - area: Spirit Rise
 also: [camp-narache, bloodhoof-village, red-rocks, thunder-bluff]
 ---
-The tauren revere the Earth Mother as the source of the world and its life. Their traditions teach respect for the land's gifts and care against waste. Shamans speak with its spirits, seers follow visions, and the ancestors remain part of the lives of those who come after them.
+The tauren revere the Earth Mother as the source of the world and its life. Their traditions teach respect for the land's gifts and care against waste. Shamans speak with the land's spirits, seers follow visions, and the ancestors remain part of the lives of those who come after them.
 
 Young tauren undertake the Rites of the Earth Mother before the elders of Thunder Bluff accept them. Strength is proved against the tribe's enemies. Vision comes through the Water of the Seers and what appears in the fire. Wisdom requires the ancestors' blessing at Red Rocks. The journey ends before the High Chieftain.
 

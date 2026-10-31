@@ -12,4 +12,4 @@ Colonel Kurzen came to Stranglethorn with a soldier's reputation: a brilliant ta
 
 Lieutenant Doren led the breakaways into a rebel camp in the hills. Outnumbered ten to one, they fight Kurzen with the tactics he taught them. Brother Nimetz first suspects troll magic, but his investigation leads to Mai'Zoth, an ogre mage, and the Mind's Eye used to control minds.
 
-Nimetz asks for the mage's death and the recovery of the artifact. The second task matters most to him. He fears that leaving it behind would leave another soldier open to Kurzen's fate.
+Nimetz asks for the mage's death and the recovery of the artifact. The second task matters most to him. He fears that abandoning it would expose another soldier to Kurzen's fate.

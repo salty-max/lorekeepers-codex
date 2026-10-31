@@ -8,4 +8,4 @@ also: [gadgetzan, sandfury-trolls, uldum, caverns-of-time, steamwheedle-cartel, 
 ---
 Tanaris is the great desert of southern Kalimdor, an ocean of dunes and broken rock between the Thousand Needles and the sea. Water is worth more than gold here, and the goblins who run its only town know it.
 
-It is a crowded desert for all its emptiness. The Sandfury trolls hold their city in the west, bandits of the Wastewander roam the dunes, pirates hold the southern coast, ogres the south, and in the Gaping Chasm the silithid are stirring. And in the far south, behind sealed gates, lies one of the Titans' own works, which the Explorers' League would give a great deal to enter.
+It is a crowded desert for all its emptiness. The Sandfury trolls hold their city in the west, bandits of the Wastewander roam the dunes, pirates hold the coast, ogres the southern dunes, and in the Gaping Chasm the silithid are stirring. And in the far south, behind sealed gates, lies one of the Titans' own works, which the Explorers' League would give a great deal to enter.

@@ -10,4 +10,4 @@ Orgrim Doomhammer was Durotan's friend on Draenor, a chieftain of the Blackrock 
 
 In the Second War he drove the Horde to the gates of Lordaeron's capital, until Gul'dan's desertion forced him back. He killed Anduin Lothar in single combat in the Burning Steppes, and lost the war anyway. Captured at the Dark Portal and taken to Lordaeron, he escaped and lived for years as a hermit.
 
-Thrall found him there. The old warchief, his father's friend, followed the young one, and fell freeing one of the camps. Thrall took up his hammer and his black armour and became Warchief. This town carries his name, and so does the Horde's capital. They remember him as the warchief who lost a war and still made sure there was a Horde left at the end of it.
+Thrall found him there. The old warchief, his father's friend, followed the young one, and fell freeing one of the camps. Thrall took up Doomhammer's hammer and black armour and became Warchief. This town carries Orgrim's name, and so does the Horde's capital. The Horde remembers him as the warchief who lost a war and still made sure there was a Horde left at the end of it.

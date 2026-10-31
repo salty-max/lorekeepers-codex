@@ -6,4 +6,4 @@ group: lands
 unlock:
   - music: 9
 ---
-Westfall's farms, Durotar's red hills, Mulgore's grass and the Thousand Needles share one tune, which is a great many peoples to ask of a single song. Where you can see a long way, a tune can take its time, and this one does. Humans plough Westfall, the orcs made Durotar their homeland under Thrall, and the tauren have walked Mulgore since long before either.
+One tune carries Westfall's farms, Durotar's red hills, Mulgore's grass and the Thousand Needles, which is a great many peoples to ask of a single song. Where you can see a long way, a tune can take its time, and this one does. Humans plough Westfall, the orcs made Durotar their homeland under Thrall, and the tauren have walked Mulgore since long before either.

@@ -11,4 +11,4 @@ Tyrande Whisperwind leads the night elves as High Priestess of Elune. Ten thousa
 
 While the druids slept in the Emerald Dream, her priestesses and Sentinels guarded the forests through the long ages. In the Third War she rallied the night elves, woke Malfurion and stood at Hyjal when Archimonde fell.
 
-Malfurion is now missing, and the druids do not know his fate. Tyrande leads from Darnassus's Temple of the Moon while Fandral Staghelm heads the druids. The priestess greeting visitors has led her people through wars far older than our kingdoms.
+Malfurion is now missing, and the druids do not know his fate. Tyrande leads from Darnassus's Temple of the Moon while Fandral Staghelm heads the druids. The priestess greeting visitors has led her people through wars far older than any kingdom of dwarves or men.

@@ -10,4 +10,4 @@ Gnomeregan lies beneath western Dun Morogh, the old gnomish capital brought to r
 
 The troggs survived. Many gnomes died, and others were transformed into the violent survivors now called leper gnomes. Those who escaped found shelter in Ironforge. The cost of the attempt is still plain in the poisoned halls.
 
-Sicco Thermaplugg remains there. High Tinker Mekkatorque calls him a traitor and asks travellers to kill him. It was a capital full of homes and workshops, and its people are still trying to recover what is left.
+Sicco Thermaplugg remains there. High Tinker Mekkatorque calls him a traitor and asks travellers to kill him. Gnomeregan was a capital full of homes and workshops, and its people are still trying to recover what is left.
