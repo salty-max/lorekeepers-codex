@@ -74,7 +74,7 @@ and `/codex import CODE`.
 
 Known Library texts also follow your client's language, including Spanish
 and Latin American Spanish. Original game wording is used where available,
-with documented translations for missing bodies. Unrecognized copies stay
+with documented translations for missing bodies. Unrecognised copies stay
 as recorded. See [the Spanish translation notes](docs/spanish-translation.md).
 
 The full store description is in [addon/CURSEFORGE.md](addon/CURSEFORGE.md).

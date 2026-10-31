@@ -6,6 +6,19 @@
 local _, ns = ...
 local K = ns.kit
 
+-- A sentence's blanks filled in, in the order its language puts them: the
+-- blanks are numbered ("%1$s, %2$d") so a translation may move them, which
+-- LuaJIT's format can't read (the game's can). Second Wind's ns.fmt.
+function ns.fmt(s, ...)
+  if not s:find("%%%d%$") then return s:format(...) end
+  local args, order = { ... }, {}
+  local plain = s:gsub("%%(%d)%$", function(i)
+    table.insert(order, args[tonumber(i)])
+    return "%"
+  end)
+  return plain:format(unpack(order))
+end
+
 -- The game's names in the client's language (its Text file's, every
 -- language's, English one of them): the places inside buildings by their ids,
 -- this game's.

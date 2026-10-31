@@ -10,4 +10,4 @@ The kaldorei are the oldest people the League has met, and they are too polite t
 
 In the Third War the Legion came back to Hyjal. To destroy the demon Archimonde, the night elves gave up the Tree and their immortality with it. Fandral Staghelm has since grown Teldrassil off the coast of Darkshore, and Darnassus stands in its branches. Whether the new Tree is blessed as the old one was, the druids do not say out loud.
 
-They now grow old, and they are learning what that means, traveller. Tyrande Whisperwind leads them from the Temple of the Moon while Malfurion is lost in the Dream. If a night elf seems to weigh every word, remember that until a few years ago they had all the time in the world to choose them.
+They now grow old, and they are learning what that means, traveller. Tyrande Whisperwind leads them from the Temple of the Moon while Malfurion is lost in the Dream. If a night elf seems to weigh every word, remember that until a few years ago they had endless years to choose each one.

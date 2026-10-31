@@ -144,7 +144,7 @@ function ns.createSettingsPanel()
   O:check(
     "tooltipHints",
     L["Hints on tooltips"],
-    L["A line on the tooltip of creatures that unlock a page (a page to find, or its title once found), and of players whose people's or calling's page is still to find."]
+    L["A line on the tooltip of creatures that unlock a page: the page to find, or its title once found. Players whose people's or calling's page is still to find get one too."]
   )
   O:check(
     "minimapHidden",

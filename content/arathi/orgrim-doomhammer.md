@@ -6,7 +6,7 @@ unlock:
   - area: Hammerfall
 also: [hammerfall, thrall, orgrimmar, blackrock-clan, anduin-lothar, durotan-and-draka, the-second-war]
 ---
-Orgrim Doomhammer was Durotan's friend on Draenor, a chieftain of the Blackrock clan who saw what the warlocks were doing to his people and, unlike Durotan, waited for his moment. It came in the First War. When Gul'dan's assassins murdered Durotan, Doomhammer killed Blackhand, the puppet warchief Gul'dan had set up, and took the Horde for himself. He destroyed Stormwind and broke the Shadow Council.
+Orgrim Doomhammer was Durotan's friend on Draenor, a chieftain of the Blackrock clan who saw what the warlocks were doing to his people and, unlike Durotan, waited for his moment. It came in the First War. When Gul'dan's assassins murdered Durotan, Doomhammer killed Blackhand, the puppet Warchief Gul'dan had set up, and took the Horde for himself. He destroyed Stormwind and broke the Shadow Council.
 
 In the Second War he drove the Horde to the gates of Lordaeron's capital, until Gul'dan's desertion forced him back. He killed Anduin Lothar in single combat in the Burning Steppes, and lost the war anyway. Captured at the Dark Portal and taken to Lordaeron, he escaped and lived for years as a hermit.
 

@@ -24,7 +24,7 @@ unlock:
   - kill: 16452, 16573, 16861, 16981, 16982, 16983, 16984
 also: [cult-of-the-damned, scarlet-crusade, argent-dawn, fall-of-lordaeron, the-forsaken]
 ---
-The Scourge is the army of the Lich King, a power that sits on a throne of ice in Northrend and speaks into the minds of the dead. It came to Lordaeron as a plague, carried in the grain by a cult of the Lich King's worshippers, and everyone who ate of it and died rose again to serve him. The kingdom's own prince, Arthas, finished the work, and later returned to Northrend, where he claimed the Frozen Throne.
+The Scourge is the army of the Lich King, a power that sits on a throne of ice in Northrend and speaks into the minds of the dead. It came to Lordaeron as a plague, carried in the grain by the Cult of the Damned, and everyone who ate of it and died rose again to serve him. The kingdom's own prince, Arthas, finished the work, and later returned to Northrend, where he claimed the Frozen Throne.
 
 What he left behind is the Plaguelands: a kingdom of the dead, with ghouls in the fields, abominations stitched together from corpses, and the plague cauldrons poisoning the earth. Stratholme is theirs, under the Baron Rivendare, and Scholomance, and the farmsteads of half the north. Now a black citadel hangs in the sky over the Eastern Plaguelands, Naxxramas, and its master is the lich Kel'Thuzad.
 

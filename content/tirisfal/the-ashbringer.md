@@ -7,7 +7,7 @@ unlock:
   - kill: 4542, 3976
 also: [scarlet-crusade, whitemane-and-mograine, scarlet-monastery, argent-dawn, kelthuzad, stratholme]
 ---
-The Ashbringer was a man before it was a sword. Highlord Mograine founded the Scarlet Crusade with High General Abbendis and Isillien, now its Grand Inquisitor, when it was still a noble order. Mograine was called the Ashbringer for what he did to the Lich King's armies: he would walk into whole battalions of undead and come out the other side with nothing behind him but ash. His blade took the name from him.
+The Ashbringer was a man before it was a sword. Highlord Mograine founded the Scarlet Crusade with High General Abbendis and Isillien, now its Grand Inquisitor, when it was still a noble order. Mograine was called the Ashbringer for what he did to the Lich King's armies: he would walk into whole battalions of undead and come out the other side with nothing behind him but ash. His blade took the name from the man.
 
 High Inquisitor Fairbanks, who was there, tells how it ended. The Grand Crusader struck a deal with Kel'Thuzad, and Mograine was led into an ambush in Stratholme by his own son, Renault. As the Scourge closed in and the blade began to glow, Renault picked it up and drove it through his father's back. 'What have you done, Renault?' were the Highlord's last words. The man and the blade had been one, and the murder corrupted both. Mograine rose as a death knight of Kel'Thuzad.
 

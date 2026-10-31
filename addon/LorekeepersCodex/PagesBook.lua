@@ -37,7 +37,7 @@ local function foundLine(rec)
   local zone, sub = ns.placeNames(rec)
   local where = zone or "?"
   if sub then where = sub .. ", " .. where end
-  return L["Found in %s, at level %d, on %s."]:format(where, rec.level or 0, ui.day(rec.at))
+  return ns.fmt(L["Found in %1$s, at level %2$d, on %3$s."], where, rec.level or 0, ui.day(rec.at))
 end
 
 local showOverview

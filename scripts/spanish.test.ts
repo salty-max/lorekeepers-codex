@@ -2,6 +2,7 @@ import { describe, expect, test } from "bun:test";
 import { createHash } from "node:crypto";
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { formatArgs } from "./locales-lib";
 import { frontMatter, paragraphs } from "./markdown";
 
 const root = join(import.meta.dir, "..");
@@ -9,7 +10,6 @@ const json = (path: string) => JSON.parse(readFileSync(join(root, path), "utf8")
 const read = (path: string) => frontMatter(readFileSync(join(root, path), "utf8"), (why) => { throw new Error(`${path}: ${why}`); });
 const pages = (dir: string) => (readdirSync(join(root, dir), { recursive: true }) as string[]).filter((file) => file.endsWith(".md") && !file.endsWith("_chapter.md")).sort();
 const prose = (text: string) => text.replace(/\$g[^:;]*:[^;]*;/g, "");
-const formats = (text: string) => text.match(/%[-+0-9.]*[sdf]/g) ?? [];
 
 describe("complete Spanish translation", () => {
   // A stale page (its English changed since) waits for its translation: the
@@ -43,7 +43,7 @@ describe("complete Spanish translation", () => {
     for (const [key, value] of Object.entries(es)) {
       expect(typeof value).toBe("string");
       expect((value as string).length).toBeGreaterThan(0);
-      expect(formats(value as string)).toEqual(formats(key));
+      expect(formatArgs(value as string)).toEqual(formatArgs(key)); // (numbered blanks may move)
       expect(prose(value as string)).not.toMatch(/[;‘’“”]|\$g/);
     }
     const chapters = (readdirSync(join(root, "content"), { recursive: true }) as string[]).filter((path) => path.endsWith("/_chapter.md")).map((path) => path.split("/")[0]).sort();

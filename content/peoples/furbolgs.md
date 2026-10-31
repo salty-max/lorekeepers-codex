@@ -14,7 +14,7 @@ unlock:
   - kill: 14342, 14372
 also: [burning-legion, sickness-of-teldrassil]
 ---
-The furbolgs belong to Kalimdor's northern forests, where their villages and totems have stood beside night elf country for ages. They fought the Burning Legion alongside the elves ten thousand years ago. Their history has room for old friendships, however fiercely a stranger may now be met at a camp.
+The furbolgs belong to Kalimdor's northern forests, where their villages and totems have stood beside night elf country for ages. They fought the Burning Legion alongside the elves ten thousand years ago. Some of that friendship survives, though a stranger is met fiercely at their camps now.
 
 Tribe after tribe has suffered corruption: the Gnarlpine of Teldrassil, the Blackwood of Darkshore, the Deadwood of Felwood and the Winterfall of Winterspring among them. The madness has turned neighbours into enemies. In Felwood, the poisoned land gives the night elves ample reason to blame the Legion's taint.
 

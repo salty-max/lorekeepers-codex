@@ -118,7 +118,8 @@ function ns.login()
     local this = ns.forever and "Forever" or "Classic"
     print(
       PREFIX
-        .. L["This is the %s package, and this is %s: install the %s package to read this game's pages."]:format(
+        .. ns.fmt(
+          L["This is the %1$s package, and this is %2$s: install the %3$s package to read this game's pages."],
           made == "forever" and "Forever" or "Classic",
           this,
           this
@@ -165,7 +166,7 @@ local function where()
 end
 
 local USAGE =
-  L["/codex opens the book, /codex achievements its achievements and /codex settings its settings. /codex banner shows or hides the alerts, /codex minimap the button. /codex welcome shows the welcome page again. /codex export gives this character's settings as a code, and /codex import CODE takes them. /codex reset starts this character's codex over."]
+  L["/codex opens the codex, /codex achievements its achievements and /codex settings its settings. /codex banner shows or hides the alerts, /codex minimap the button. /codex welcome shows the welcome page again. /codex export gives this character's settings as a code, and /codex import CODE takes them. /codex reset starts this character's codex over."]
 
 -- The kit's command (K.commands): alone it opens the book, an unknown word
 -- prints the usage.

@@ -794,7 +794,7 @@ check(
 printed = {}
 SlashCmdList.LOREKEEPERSCODEX("resett")
 check(
-  #printed == 1 and printed[1]:find("/codex opens the book", 1, true) ~= nil and ns.count() > 3,
+  #printed == 1 and printed[1]:find("/codex opens the codex", 1, true) ~= nil and ns.count() > 3,
   "an unknown word prints the usage, and does nothing else"
 )
 check(SLASH_LOREKEEPERSCODEX1 == "/codex" and SLASH_LOREKEEPERSCODEX2 == "/lorekeeper", "/lorekeeper says the same")
