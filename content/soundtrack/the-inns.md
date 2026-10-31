@@ -7,4 +7,4 @@ unlock:
   - music: 156
   - music: 189
 ---
-The Thunderbrew Distillery in Kharanos and the Stoutlager Inn of Loch Modan share a tune, and the Forsaken's Gallows' End Tavern in Brill keeps one of its own. The first turns up again somewhere in Stormwind, Ironforge, Lakeshire, Dun Modr and the Deepwater Tavern. The Thunderbrews make good drink, and their rivals have been known to slip a barrel of their own into the Thunderbrew cellar. The Deathguard of Brill keep their prisoners in the cellar of Gallows' End, which is a fine reason to drink upstairs.
+The Thunderbrew Distillery in Kharanos and the Stoutlager Inn share a tune, and Gallows' End Tavern in Brill keeps one of its own. The first turns up again somewhere in Stormwind, Ironforge, Lakeshire, Dun Modr and the Deepwater Tavern. It is the music of a warm room after a cold road, which is what an inn is for. Gallows' End, above a cellar of the Deathguard's prisoners, is another kind of inn.

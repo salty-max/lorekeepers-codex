@@ -6,4 +6,4 @@ group: lands
 unlock:
   - music: 191
 ---
-Darkshore, Moonglade, the villages of Silverpine and the coast of the Wetlands share this tune. Auberdine looks out over the Veiled Sea, and the druids keep the Shrine of Remulos in Moonglade. Pyrewood Village in Silverpine is another matter. Its people are human by day and Moonrage worgen by night, and Arugal's enchantment is to blame.
+Darkshore, Moonglade, the villages of Silverpine and the coast of the Wetlands share this tune. These are grey northern shores where the evening seems to last all day, and the music keeps that dusk. Auberdine looks out over the Veiled Sea, and the druids keep the Shrine of Remulos in Moonglade. In Pyrewood Village in Silverpine, Arugal's enchantment makes the people Moonrage worgen by night.

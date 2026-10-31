@@ -55,7 +55,7 @@ historical claims in other entries.
   her charge, and she tells a story at length; she knows the Horde's lands from
   others' accounts. Parqual's notes: only where a Forsaken who was Lordaeron's
   historian sees it otherwise (Lordaeron and the plague, the Scarlet Crusade,
-  the camps, the Horde's own), never by habit (some 25 pages); one to three
+  the camps, the Horde's own), never by habit (some 30 pages); one to three
   sentences, "[horde] > ... -- P. F." at the page's end (an aside: the kit's
   page sets it apart in his ink, the initials under it; no "in another hand"
   in the words); precise
@@ -67,10 +67,16 @@ historical claims in other entries.
   disagreement or an open question; a sharp last line only where it is the
   point (a handful), else the notes become a formula.
 - Tunes (`content/soundtrack/`): a name and two to four plain sentences in
-  Archesonus's voice, about 55 words (the 69 shipped run 28 to 87, median 55,
-  most of them three sentences). The rule once said about 35, a planning estimate the corpus never followed
-  (31 October 2026). A tune says why the place sounds as it does, never "a
-  forest tune"; a "moment" set that reuses a city's tracks says it borrows,
+  Archesonus's voice, about 55 words (the 69 rewritten on 31 October 2026 run
+  47 to 73, mean 60). The rule once said about 35, and the English audit's
+  brief one to three sentences: this rule stands. A tune says why the place
+  sounds as it does (stone and hammers under a mountain, a city of crypts),
+  never "a forest tune", and the rest is the place, not a quest. No
+  sentence is a formula repeated across tunes: not the closer ("I note
+  that", "I have found it unwise", "I have never argued with", "which says
+  something about"), and not the reason ("It is ... music for ..." in a
+  row of tunes). "Somewhere" stays where a building's music is pinned to a
+  whole city (`docs/architecture.md`). A "moment" set that reuses a city's tracks says it borrows,
   and a claim about shared pieces is checked per game (Forever plays its own
   recordings).
 - Plain ASCII text: straight apostrophes and quotes (the build rejects others;

@@ -10,4 +10,4 @@ unlock:
   - music: 3672
   - music: 3673
 ---
-Dalaran has nine pieces of its own, spread through its streets, the Eventide, the Fel Grove, the sewers and the spire. The city of the Kirin Tor is in trouble again: its ley lines have gone wrong and its own constructs have turned on it. The council would rather the rest of us never heard. Archmage Modera disagrees, which is the only reason we have.
+Dalaran has nine pieces of its own, in its streets, the Eventide, the Fel Grove, the sewers and the spire. A city of mages keeps many rooms and many tempers, and its music changes nearly as often as its streets turn. Its ley lines have gone wrong lately, and its own constructs have turned on it. Archmage Modera is the reason the rest of us know.

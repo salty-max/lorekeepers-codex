@@ -7,4 +7,4 @@ client: forever
 unlock:
   - music: 3662
 ---
-The Hall of Thanes, in the caverns of Old Ironforge beneath the city, borrows four pieces from the hidden places, and they turn up somewhere in Winterspring as well. The Dark Irons have reached the hall by the old tunnels, and the dead of Anvilmar who lie in it are not resting easily. Ironforge has put a price on the Dark Iron who commands there. When the tunnels are quiet again, I mean to be the first historian down them.
+The Hall of Thanes, in Old Ironforge beneath the city, borrows four pieces from the hidden places. The hall was built for the honoured dead, and its music sounds like a tomb that has been disturbed. The Dark Irons have come up the old tunnels, and the dead of Anvilmar are not resting easily. When the tunnels are quiet again, I mean to be the first historian down them.

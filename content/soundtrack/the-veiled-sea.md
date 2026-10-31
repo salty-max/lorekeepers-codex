@@ -6,4 +6,4 @@ group: moments
 unlock:
   - music: 200
 ---
-This piece belongs to the open water of the Veiled Sea off Darkshore, and it greets arrivals at Stonetalon Peak and in Moonglade. I have crossed that water more often than I would like. The sea has never once been in a hurry.
+This piece belongs to the open water of the Veiled Sea off Darkshore, and it greets arrivals at Stonetalon Peak and in Moonglade. A long crossing wants slow music, and this is slow. I have made that crossing many times, and the sea has never once been in a hurry.

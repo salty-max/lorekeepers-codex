@@ -8,4 +8,4 @@ unlock:
   - music: 230
   - music: 233
 ---
-Ironforge is my own city, and I will say only that its tune plays somewhere in it, since the halls are many. The Bronzebeards have kept the Great Forge lit under Magni for longer than most kingdoms have had names. You will find me in the Hall of Explorers, if you ever need a historian.
+Ironforge is my own city, and its tune plays somewhere in its many halls. It is music made under a mountain, around the Great Forge, and it sounds of stone, fire and hammers because the city has never had much else to listen to. The Bronzebeards have kept that forge lit under Magni for longer than most kingdoms have had names.

@@ -3410,7 +3410,7 @@ ns.content = {
       unlock = { { music = 242 } },
       also = {  },
       text = {
-        { "Alterac Valley has no music of its own. Its six pieces are borrowed from the fel-touched woods, the furbolg dens and the plagued lands. Orcs and dwarves both call the valley theirs, and each side sends for its allies to hold it. My own king's orders are part of that quarrel, and I stand too close to his throne to judge it fairly." },
+        { "Alterac Valley has no music of its own. Its six pieces are borrowed from the fel-touched woods, the furbolg dens and the plagued lands, and they suit a valley where nobody has stopped fighting long enough to compose anything. Orcs and dwarves both call the valley theirs. I stand too close to my king's throne to judge that quarrel fairly." },
       },
     },
     ["anvilmar"] = {
@@ -3418,7 +3418,7 @@ ns.content = {
       unlock = { { music = 236 } },
       also = {  },
       text = {
-        { "Anvilmar, in the snows of Dun Morogh, is where many young dwarves and gnomes begin, and somewhere inside it carries two of Ironforge's pieces. Thran, the warrior trainer, keeps his hall there. It is a fine place to begin, and a cold one." },
+        { "Anvilmar, in the snows of Dun Morogh, carries two of Ironforge's pieces somewhere inside, and that is fitting. Many young dwarves and gnomes take their first lessons there, and the hall gives them the sound of the city they will defend before they have ever seen it. Thran, the warrior trainer, sees to the rest." },
       },
     },
     ["battle-in-the-depths"] = {
@@ -3426,7 +3426,7 @@ ns.content = {
       unlock = { { music = 209 }, { music = 210 }, { music = 217 } },
       also = {  },
       text = {
-        { "Three short battle pieces wait somewhere in the dungeons: Shadowfang Keep, the Deadmines, Uldaman, Maraudon and Stratholme. None of these places has ever been short of a fight." },
+        { "Three short battle pieces wait somewhere in the dungeons: Shadowfang Keep, the Deadmines, Uldaman, Maraudon and Stratholme. They are short because a fight in close quarters is short and loud, and nobody in those halls has the breath for a long song. Each of the five gives them plenty of chances to play." },
       },
     },
     ["bough-shadow"] = {
@@ -3434,7 +3434,7 @@ ns.content = {
       unlock = { { music = 188 } },
       also = {  },
       text = {
-        { "Bough Shadow, in the far east of Ashenvale, shares a tune with Forest Song nearby, and the tune turns up again somewhere in the three Alliance capitals. Bough Shadow is one of the four dream portals of Azeroth. The dragonkin that guard it now carry the Nightmare's corruption, which is worse than it looks on paper." },
+        { "Bough Shadow, in the far east of Ashenvale, shares a tune with Forest Song nearby, and the tune turns up again somewhere in the three Alliance capitals. A dream portal ought to be calm, and Bough Shadow, one of the four in Azeroth, has calm music to match. The calm deceives. The dragonkin that guard the portal now carry the Nightmare's corruption." },
       },
     },
     ["dalaran-tune"] = {
@@ -3442,7 +3442,7 @@ ns.content = {
       unlock = { { music = 3170 }, { music = 3171 }, { music = 3672 }, { music = 3673 } },
       also = {  },
       text = {
-        { "Dalaran has nine pieces of its own, spread through its streets, the Eventide, the Fel Grove, the sewers and the spire. The city of the Kirin Tor is in trouble again: its ley lines have gone wrong and its own constructs have turned on it. The council would rather the rest of us never heard. Archmage Modera disagrees, which is the only reason we have." },
+        { "Dalaran has nine pieces of its own, in its streets, the Eventide, the Fel Grove, the sewers and the spire. A city of mages keeps many rooms and many tempers, and its music changes nearly as often as its streets turn. Its ley lines have gone wrong lately, and its own constructs have turned on it. Archmage Modera is the reason the rest of us know." },
       },
     },
     ["darnassus-tune"] = {
@@ -3450,7 +3450,7 @@ ns.content = {
       unlock = { { music = 76 }, { music = 96 } },
       also = {  },
       text = {
-        { "Darnassus, the city of the night elves, grows in the branches of Teldrassil, and its tune is heard there and in the villages beneath. The night elves are a patient people. I have found it unwise to hurry them." },
+        { "Darnassus, the city of the night elves, grows in the branches of Teldrassil, and its tune is heard there and in the villages beneath. The city has no need to raise its voice, and its music never does. The night elves have lived for millennia without hurrying, and their capital sounds like it." },
       },
     },
     ["dire-maul-tune"] = {
@@ -3458,7 +3458,7 @@ ns.content = {
       unlock = { { music = 179 } },
       also = {  },
       text = {
-        { "Somewhere in Dire Maul, the ruin of Eldre'Thalas in Feralas, a piece plays that I have found nowhere else. Alzzin the Wildshaper holds the eastern part of the city. A prisoner of its fallen prince, robbed by an imp on his way out, will ask you to fetch his book of incantations, and I would do it. He gave up his immortality for his freedom, which is a hard bargain to make twice." },
+        { "Somewhere in Dire Maul, the ruin of Eldre'Thalas in Feralas, a piece plays that I have found nowhere else. It is the sound of a great city emptied. The Highborne built for grandeur, and grandeur echoes when nobody is left to fill it. Alzzin the Wildshaper holds the eastern part now, and ogres and ghosts the rest." },
       },
     },
     ["dreambound-pinnacle-tune"] = {
@@ -3466,7 +3466,7 @@ ns.content = {
       unlock = { { music = 3663 }, { music = 3665 } },
       also = {  },
       text = {
-        { "Dreambound Pinnacle has eight pieces of its own and borrows one more from Shadowfang Keep. I know the place by its name and by its music, and by nothing else yet. I will not invent the rest." },
+        { "Dreambound Pinnacle has eight pieces of its own and borrows one more from Shadowfang Keep. I know the place by its name and its music, and by nothing else yet. A place named for dreams that borrows from Shadowfang does not promise a restful sleep, and I will not invent the rest." },
       },
     },
     ["drunken-dwarf-tune"] = {
@@ -3474,7 +3474,7 @@ ns.content = {
       unlock = { { music = 3562 } },
       also = {  },
       text = {
-        { "The Drunken Dwarf, in the Wetlands, has five pieces of its own, and they turn up somewhere in Ironforge too. I have not been there. With a name like that, I expect I would find old friends there." },
+        { "The Drunken Dwarf, in the Wetlands, has five pieces of its own, and they turn up somewhere in Ironforge too. A room full of dwarves sounds like home to any dwarf, wherever the room stands, so the music travels well between them. I have not been there yet. The name alone tells me I would know half the room." },
       },
     },
     ["gnomeregan-tune"] = {
@@ -3482,7 +3482,7 @@ ns.content = {
       unlock = { { music = 235 } },
       also = {  },
       text = {
-        { "Gnomeregan, the gnomes' city in Dun Morogh, has a tune that plays somewhere inside, and the same tune turns up in Everlook, the goblins' town in Winterspring. The gnomes tried to clear the troggs out of their city and turned most of their own people into leper gnomes instead. They say so themselves, which is more than most would." },
+        { "Gnomeregan, the gnomes' city in Dun Morogh, has a tune that plays somewhere inside, and the same tune turns up in Everlook, the goblins' town in Winterspring. Both towns belong to tinkers who never stop building, and the music clanks like their workshops. The gnomes tried to clear the troggs from their city and poisoned most of their own people instead. They admit it, which is more than most would." },
       },
     },
     ["green-kingdoms"] = {
@@ -3490,7 +3490,7 @@ ns.content = {
       unlock = { { music = 1 } },
       also = {  },
       text = {
-        { "One tune serves the woods of the human kingdoms, from Elwynn Forest and Redridge to Loch Modan, the Hinterlands and the Hillsbrad Foothills. Men farmed and fought across these trees long before the Horde came through the Dark Portal, and the tune has outlasted all of it. If you want to hear it properly, stop walking." },
+        { "One tune serves the woods of the human kingdoms, from Elwynn Forest and Redridge to Loch Modan, the Hinterlands and the Hillsbrad Foothills. The tune is as gentle as the country looks, all farms, streams and old trees. Men farmed and fought across these woods long before the Horde came through the Dark Portal, and the tune remembers the farming." },
       },
     },
     ["grey-hours"] = {
@@ -3498,7 +3498,7 @@ ns.content = {
       unlock = { { music = 206 }, { music = 207 } },
       also = {  },
       text = {
-        { "Two short pieces turn up in places with little else in common. The first belongs to Nijel's Point, a small camp hidden in the mountains of northern Desolace, and to The Sanctum in the Arathi Highlands. It turns up again somewhere in Aerie Peak, Starfall Village, Dire Maul and the towers of Dustwallow Marsh, and it greets arrivals at Durnholde Keep. The second waits somewhere in Stonewatch Tower in Redridge, and greets arrivals at Nethergarde Keep." },
+        { "Two short pieces turn up in places with little else in common, and they are music for arriving somewhere grey and uncertain. The first belongs to Nijel's Point in Desolace and The Sanctum in the Arathi Highlands, plays somewhere in Aerie Peak, Starfall Village, Dire Maul and the towers of Dustwallow Marsh, and greets arrivals at Durnholde Keep. The second waits somewhere in Stonewatch Tower in Redridge and greets arrivals at Nethergarde Keep." },
       },
     },
     ["gustberry-lowlands-tune"] = {
@@ -3506,7 +3506,7 @@ ns.content = {
       unlock = { { music = 3553 } },
       also = {  },
       text = {
-        { "The Gustberry Lowlands, with the Windfield Orchard, the Fairweather Stables and the East Pylon Watchtower, have a tune of their own. These are the island's farms. The watchtower keeps an eye on one of the anchor pylons, and on Zephras that is not a job anyone takes lightly." },
+        { "The Gustberry Lowlands, with the Windfield Orchard, the Fairweather Stables and the East Pylon Watchtower, have a tune of their own. These are the island's farms, and their music has the ease of a place where the work is done in daylight. The watchtower is the exception. It watches one of the anchor pylons, and on Zephras nobody takes that lightly." },
       },
     },
     ["hall-of-thanes-tune"] = {
@@ -3514,7 +3514,7 @@ ns.content = {
       unlock = { { music = 3662 } },
       also = {  },
       text = {
-        { "The Hall of Thanes, in the caverns of Old Ironforge beneath the city, borrows four pieces from the hidden places, and they turn up somewhere in Winterspring as well. The Dark Irons have reached the hall by the old tunnels, and the dead of Anvilmar who lie in it are not resting easily. Ironforge has put a price on the Dark Iron who commands there. When the tunnels are quiet again, I mean to be the first historian down them." },
+        { "The Hall of Thanes, in Old Ironforge beneath the city, borrows four pieces from the hidden places. The hall was built for the honoured dead, and its music sounds like a tomb that has been disturbed. The Dark Irons have come up the old tunnels, and the dead of Anvilmar are not resting easily. When the tunnels are quiet again, I mean to be the first historian down them." },
       },
     },
     ["ironforge-tune"] = {
@@ -3522,7 +3522,7 @@ ns.content = {
       unlock = { { music = 232 }, { music = 230 }, { music = 233 } },
       also = {  },
       text = {
-        { "Ironforge is my own city, and I will say only that its tune plays somewhere in it, since the halls are many. The Bronzebeards have kept the Great Forge lit under Magni for longer than most kingdoms have had names. You will find me in the Hall of Explorers, if you ever need a historian." },
+        { "Ironforge is my own city, and its tune plays somewhere in its many halls. It is music made under a mountain, around the Great Forge, and it sounds of stone, fire and hammers because the city has never had much else to listen to. The Bronzebeards have kept that forge lit under Magni for longer than most kingdoms have had names." },
       },
     },
     ["marsh-and-mire"] = {
@@ -3530,7 +3530,7 @@ ns.content = {
       unlock = { { music = 227 } },
       also = {  },
       text = {
-        { "The Wetlands and Dustwallow Marsh share a tune, and a great deal of damp air and long grey water. Dwarves keep Menethil Harbor on the one, and Theramore stands on the other. Neither is a place I would choose for a long walk in good boots." },
+        { "The Wetlands and Dustwallow Marsh share a tune, and a great deal of damp air and long grey water. Nothing in a marsh moves quickly, least of all a walker in wet boots, and the music keeps that pace. Dwarves keep Menethil Harbor on the one, and Theramore stands on the other." },
       },
     },
     ["naxxramas-tune"] = {
@@ -3538,7 +3538,7 @@ ns.content = {
       unlock = { { music = 255 }, { music = 256 }, { music = 257 }, { music = 258 }, { music = 259 }, { music = 261 }, { music = 262 }, { music = 263 }, { music = 264 }, { music = 265 } },
       also = {  },
       text = {
-        { "Naxxramas, Kel'Thuzad's floating necropolis above the Plaguelands, keeps more music inside it than any other place I know, somewhere in its quarters. Its wings belong to the stitched dead, to the spiders and to the plague, and one more to four riders who fought for the Light before they fell. Sapphiron and Kel'Thuzad wait beyond them. The Argent Dawn asks anyone who can to go in and destroy the Scourge there." },
+        { "Naxxramas, Kel'Thuzad's floating necropolis above the Plaguelands, keeps more music inside it than any other place I know. Each wing has its own, because each wing is its own horror: the stitched dead, the spiders, the plague, and four riders who fought for the Light before they fell. The Argent Dawn asks anyone who can to go in and destroy the Scourge there." },
       },
     },
     ["northshire-tune"] = {
@@ -3546,7 +3546,7 @@ ns.content = {
       unlock = { { music = 180 } },
       also = {  },
       text = {
-        { "Northshire Abbey, at the head of Elwynn Forest, borrows one of Stormwind's pieces, and so does Refuge Pointe in the Arathi Highlands for anyone arriving there. The piece turns up again somewhere in Ironforge and in the Scarlet Basilica. Most young adventurers of Stormwind begin here. The abbey also keeps a library, and its caretaker, Brother Paxton, borrowed a book on the stresses of iron to copy it months ago. Its owner is still waiting." },
+        { "Northshire Abbey, at the head of Elwynn Forest, borrows one of Stormwind's pieces, and so does Refuge Pointe for anyone arriving there. The piece turns up again somewhere in Ironforge and in the Scarlet Basilica. It is a church's music, which explains the abbey and the basilica, if not the rest. Most of Stormwind's young begin here, and hear their capital before they see it." },
       },
     },
     ["orgrimmar-tune"] = {
@@ -3554,7 +3554,7 @@ ns.content = {
       unlock = { { music = 14 } },
       also = {  },
       text = {
-        { "Orgrimmar carries the name of Orgrim Doomhammer, who led the Horde before Thrall, and Thrall raised it on Durotar's red earth. Its tune plays somewhere within the walls. I will not claim to know where, only that the orcs are not shy about anything." },
+        { "Orgrimmar carries the name of Orgrim Doomhammer, who led the Horde before Thrall, and Thrall raised it on Durotar's red earth. Its tune plays somewhere within the walls, and it sounds like the orcs, loud and proud and made to be heard over a war drum. A people who rebuilt themselves after the camps were never going to write quiet music." },
       },
     },
     ["razorfen-downs-tune"] = {
@@ -3562,7 +3562,7 @@ ns.content = {
       unlock = { { music = 220 } },
       also = {  },
       text = {
-        { "Razorfen Downs, the barrow of the quilboar in the southern Barrens, has a tune of its own. The quilboar there have joined the Scourge, and a lich named Amnennar the Coldbringer rules them now. He answers to Ner'zhul. I have never found a good reason to go down there, and I have looked." },
+        { "Razorfen Downs, the barrow of the quilboar in the southern Barrens, has a tune of its own. The quilboar there have joined the Scourge, and a lich named Amnennar the Coldbringer rules them now, so their barrow sounds less like a warren than a crypt. He answers to Ner'zhul." },
       },
     },
     ["ruins-of-ahn-qiraj-tune"] = {
@@ -3570,7 +3570,7 @@ ns.content = {
       unlock = { { music = 248 } },
       also = {  },
       text = {
-        { "The Ruins of Ahn'Qiraj, behind the Scarab Wall in Silithus, and the outer halls of the temple share four pieces. A thousand years ago the night elves and the dragons sealed the qiraji behind that wall. The wall has opened again, and what came through it had not grown any kinder in the meantime." },
+        { "The Ruins of Ahn'Qiraj, behind the Scarab Wall in Silithus, and the outer halls of the temple share four pieces. Their sound is strange and foreign. The qiraji spent a thousand years behind a sealed wall, and their music belongs to them, not to anyone who walks in from the desert." },
       },
     },
     ["ruins-of-lordaeron-tune"] = {
@@ -3578,7 +3578,7 @@ ns.content = {
       unlock = { { music = 3657 } },
       also = {  },
       text = {
-        { "The streets of the old capital above the Undercity, from King's Alley and Market Street to the graveyard and the Lordamere Overlook, borrow six pieces. Three are the Undercity's own, and three more play at Mourning's Rest on Mount Hyjal. The Forsaken are fighting the Scourge up there again, and paying for every street. It seems right to me that the city above and the city below share half their music." },
+        { "The streets of the old capital above the Undercity, from King's Alley and Market Street to the graveyard and the Lordamere Overlook, borrow six pieces. Three are the Undercity's own, and three more play at Mourning's Rest on Mount Hyjal. The city above and the city below share their music because they are one city, in two states of ruin. The Forsaken are fighting the Scourge up there again." },
       },
     },
     ["scarlet-enclave-tune"] = {
@@ -3586,7 +3586,7 @@ ns.content = {
       unlock = { { music = 3158 }, { music = 3161 } },
       also = {  },
       text = {
-        { "The Scarlet Enclave of the Crusade shares its music with New Avalon in the Eastern Plaguelands. Tyr's Hand, New Avalon and the Arcane Sanctum all lie inside it now, and the Crusade has never been short of walls." },
+        { "The Scarlet Enclave of the Crusade shares its music with New Avalon in the Eastern Plaguelands. Tyr's Hand, New Avalon and the Arcane Sanctum all lie inside it now, and the music has the stern sound of a faith behind walls. The Crusade has never been short of either." },
       },
     },
     ["scarlet-monastery-tune"] = {
@@ -3594,7 +3594,7 @@ ns.content = {
       unlock = { { music = 238 } },
       also = {  },
       text = {
-        { "Somewhere in the Scarlet Monastery play two pieces that Ironforge plays too, the same two Anvilmar carries. I cannot explain why a monastery of the Scarlet Crusade borrows the music of my own city, and I would rather not ask High Inquisitor Whitemane. The Crusade sends its agents out from there, as far as Deathknell in Tirisfal." },
+        { "Somewhere in the Scarlet Monastery play two pieces that Ironforge plays too, the same two Anvilmar carries. I cannot explain why a monastery of the Scarlet Crusade borrows my city's music, unless both were built by people who trust nobody outside their walls. The Crusade sends its agents out from there, as far as Deathknell in Tirisfal." },
       },
     },
     ["shadowgale-forest-tune"] = {
@@ -3602,7 +3602,7 @@ ns.content = {
       unlock = { { music = 3536 } },
       also = {  },
       text = {
-        { "Shadowgale Forest, Falaath Village and the Ruins of Ban'aethal share a tune, and none of the three is a place to settle. The Al'Aketh have made Falaath their own. Ban'aethal stands empty, and what nearly happened to it is the warning the rest of the island lives by." },
+        { "Shadowgale Forest, Falaath Village and the Ruins of Ban'aethal share a tune, and none of the three is a place to settle. The music is uneasy because the places are. The Al'Aketh have made Falaath their own, and Ban'aethal stands empty. What nearly happened to it is the warning the rest of the island lives by." },
       },
     },
     ["shapers-terrace-tune"] = {
@@ -3610,7 +3610,7 @@ ns.content = {
       unlock = { { music = 3522 } },
       also = {  },
       text = {
-        { "The Shaper's Terrace and the Pillar of Assimilation, in Un'Goro Crater, have eight pieces of their own. Someone made the crater's pylons and its coloured crystals, and J.D. Collie, who studies them, still cannot say who. A terrace named for a shaper seems the likeliest place I know to learn who." },
+        { "The Shaper's Terrace and the Pillar of Assimilation, in Un'Goro Crater, have eight pieces of their own. Someone made the crater's pylons and its coloured crystals, and the music has the strange order of a thing made rather than grown. J.D. Collie, who studies the crystals, still cannot say who made them. A terrace named for a shaper seems the likeliest place to learn." },
       },
     },
     ["shendar-highlands-tune"] = {
@@ -3618,7 +3618,7 @@ ns.content = {
       unlock = { { music = 3554 } },
       also = {  },
       text = {
-        { "The Shen'dar Highlands share a tune with Shen'dar Village, Windsong Lake, the West Pylon Watchtower and two sets of standing stones, Windsong's and the Overlook's. The cult once struck the watchtower that guards the western pylon. Nobody has told me what the stones were raised to mark." },
+        { "The Shen'dar Highlands share a tune with Shen'dar Village, Windsong Lake, the West Pylon Watchtower and two sets of standing stones, Windsong's and the Overlook's. On high ground the wind does most of the talking, and the tune leaves it room. The cult once struck the watchtower that guards the western pylon. Nobody has told me what the stones were raised to mark." },
       },
     },
     ["shendralas-tune"] = {
@@ -3626,7 +3626,7 @@ ns.content = {
       unlock = { { music = 306 } },
       also = {  },
       text = {
-        { "The Valley of Bones and the country of Shen'dralas beyond it have four pieces of their own, from the Magram Front and the Outcast Hideaway to the Bristleback Retreat, Evenshade's Overlook and the Forlorn Gardens. The centaurs reached it first and made a war of it. The skeletons in that valley walked on two legs, and nobody has yet told me whose they were." },
+        { "The Valley of Bones and the country of Shen'dralas beyond it have four pieces of their own, from the Magram Front and the Outcast Hideaway to the Bristleback Retreat, Evenshade's Overlook and the Forlorn Gardens. They are sombre, because the centaurs reached that country first and made a war of it, over a valley full of the dead." },
       },
     },
     ["shrine-of-akir-tune"] = {
@@ -3634,7 +3634,7 @@ ns.content = {
       unlock = { { music = 3537 } },
       also = {  },
       text = {
-        { "The Shrine of Akir and the Sanctum of Storms share four pieces. The cult that held them prayed to the Windlord, and the two orders and the peacekeepers who took the shrine from it agree on very little else. I would like to know what the Al'Aketh were promised in those rooms to make them so certain. I suspect I would not like the answer." },
+        { "The Shrine of Akir and the Sanctum of Storms share four pieces. The cult that held them prayed to the Windlord, and their music still sounds like a place built for a storm to live in. The two orders and the peacekeepers who took the shrine from the cult have agreed on very little since. I would like to know what the Al'Aketh were promised in those rooms." },
       },
     },
     ["stormwind-tune"] = {
@@ -3642,7 +3642,7 @@ ns.content = {
       unlock = { { music = 13 } },
       also = {  },
       text = {
-        { "Stormwind has its own tune, which plays among the canals and cathedrals of the human capital. The Horde burned the city in the First War, and the humans rebuilt it larger and prouder than before. I note that it is a city built by people who expected to be attacked again." },
+        { "Stormwind has its own tune, which plays among the canals and cathedrals of the human capital. It is grand music, and it means to be. The Horde burned the city in the First War, and the humans rebuilt it larger and prouder than before, as people do when they expect to be attacked again." },
       },
     },
     ["temple-of-ahn-qiraj-tune"] = {
@@ -3650,7 +3650,7 @@ ns.content = {
       unlock = { { music = 249 }, { music = 252 }, { music = 253 }, { music = 254 } },
       also = {  },
       text = {
-        { "Somewhere deep in the Temple of Ahn'Qiraj play a dozen pieces I have found nowhere else. The qiraji serve C'Thun, an Old God whose malice was here before the world took its shape, and the temple is its house. Those who have walked out of its last chamber carry the eye of the thing that ruled it, which I take as fair proof that nothing there is too old to die." },
+        { "Somewhere deep in the Temple of Ahn'Qiraj play a dozen pieces I have found nowhere else. The qiraji serve C'Thun, an Old God whose malice was here before the world took its shape, and the temple is its house. Its music does not sound as if it was made for mortal ears, and I doubt it was." },
       },
     },
     ["temple-of-bethekk-tune"] = {
@@ -3658,7 +3658,7 @@ ns.content = {
       unlock = { { music = 136 } },
       also = {  },
       text = {
-        { "The Temple of Bethekk, inside Zul'Gurub, has one piece, and the same piece greets travellers arriving at Frostmane Hold, Xavian, Kodo Rock and Fray Island. I have not yet learned whose temple it was." },
+        { "The Temple of Bethekk, inside Zul'Gurub, has one piece, and the same piece greets arrivals at Frostmane Hold, Xavian, Kodo Rock and Fray Island. Those places share little but their distance from anywhere, and the piece sounds like it, the music of a place that does not expect you. I have not yet learned whose temple it was." },
       },
     },
     ["the-battlefields"] = {
@@ -3666,7 +3666,7 @@ ns.content = {
       unlock = { { music = 211 }, { music = 215 }, { music = 219 } },
       also = {  },
       text = {
-        { "Three battle pieces belong to the places where someone is always fighting: the Boulder Lode Mine in the Barrens, Thunder Axe Fortress in Desolace, Fenris Keep in Silverpine, the Ruins of Alterac, Dreadmaul Hold in the Blasted Lands and the whole of Arathi Basin, among others. The Burning Blade keeps in Thunder Axe the relic that opens its demon portals at Mannoroc Coven. In Arathi Basin the League of Arathor and the Defilers fight over every farm and every mine." },
+        { "Three battle pieces belong to the places where someone is always fighting: the Boulder Lode Mine, Thunder Axe Fortress in Desolace, Fenris Keep, the Ruins of Alterac, Dreadmaul Hold in the Blasted Lands and the whole of Arathi Basin, among others. The music does not rest because the places do not. In Arathi Basin the League of Arathor and the Defilers fight over every farm and every mine." },
       },
     },
     ["the-burning-lands"] = {
@@ -3674,7 +3674,7 @@ ns.content = {
       unlock = { { music = 10 } },
       also = {  },
       text = {
-        { "Blackrock Mountain, the Burning Steppes and the Searing Gorge are the same fire seen from three sides. The Dark Iron dwarves hold the Gorge, and Ragnaros holds the mountain's heart. I would not linger on either account." },
+        { "Blackrock Mountain, the Burning Steppes and the Searing Gorge are the same fire seen from three sides, and they share one tune for it. The tune is as hot and heavy as the ground. The Dark Iron dwarves hold the Gorge, and Ragnaros holds the mountain's heart." },
       },
     },
     ["the-dark-woods"] = {
@@ -3682,7 +3682,7 @@ ns.content = {
       unlock = { { music = 2 } },
       also = {  },
       text = {
-        { "Duskwood, Deadwind Pass, Tirisfal Glades and Silverpine Forest share one tune, and none of them is a comfortable place to stand. Tirisfal was the farmland of Lordaeron before the plague came, and the Forsaken now keep it. I have never argued with the Forsaken over their choice of home." },
+        { "Duskwood, Deadwind Pass, Tirisfal Glades and Silverpine Forest share one tune, and none of them is a comfortable place to stand. They are woods where the dead walk and the light fails early, and the music keeps its voice down. Tirisfal was the farmland of Lordaeron before the plague came, and the Forsaken keep it now." },
       },
     },
     ["the-dry-caves"] = {
@@ -3690,7 +3690,7 @@ ns.content = {
       unlock = { { music = 192 } },
       also = {  },
       text = {
-        { "Dustwind Cave in Durotar, the Roguefeather Den in the Thousand Needles, Shalzaru's Lair in Feralas: one tune for the holes in dry country, and for whoever has moved into them. In Shalzaru's Lair it was the naga, digging for a relic their Lord Shalzaru found before anyone could stop him." },
+        { "Dustwind Cave in Durotar, the Roguefeather Den in the Thousand Needles, Shalzaru's Lair in Feralas: one tune for the holes in dry country, and for whoever has moved into them. In Shalzaru's Lair the tenants were the naga, digging for a relic their Lord Shalzaru found before anyone could stop him. A dry cave is close and still, and so is its music." },
       },
     },
     ["the-dry-lands"] = {
@@ -3698,7 +3698,7 @@ ns.content = {
       unlock = { { music = 7 } },
       also = {  },
       text = {
-        { "Dust and thorn from the Barrens to the Badlands, and on to the Blasted Lands, Desolace and the Stonetalon Mountains: one tune for all of it. The orcs made the Barrens their own after the Horde's war, and the Blasted Lands still carry the scar of the Dark Portal. It is a country that has been fought over more often than most." },
+        { "Dust and thorn from the Barrens to the Badlands, and on to the Blasted Lands, Desolace and the Stonetalon Mountains: one tune for all of it. The tune keeps the slow pace of anyone crossing that country on foot. The orcs made the Barrens their own after the Horde's war, and the Blasted Lands still carry the scar of the Dark Portal." },
       },
     },
     ["the-fel-woods"] = {
@@ -3706,7 +3706,7 @@ ns.content = {
       unlock = { { music = 193 } },
       also = {  },
       text = {
-        { "Felwood, Demon Fall Canyon in Ashenvale and the Mannoroc Coven in Desolace share a tune, and a history. The demons came to Kalimdor and left their mark in the soil, and in Felwood the Jadefire satyrs and the cultists of Jaedenar keep it fresh. Grom Hellscream's monument stands in Demon Fall Canyon. He stood alone against Mannoroth, and the Horde counts his sacrifice as the end of the orcs' curse." },
+        { "Felwood, Demon Fall Canyon in Ashenvale and the Mannoroc Coven in Desolace share a tune, and a history. The demons came to Kalimdor and left their mark in the soil, and the music sounds as sick as the ground. In Felwood the Jadefire satyrs and the cultists of Jaedenar keep the wound open. Grom Hellscream's monument stands in Demon Fall Canyon, where he stood alone against Mannoroth." },
       },
     },
     ["the-fire-below"] = {
@@ -3714,7 +3714,7 @@ ns.content = {
       unlock = { { music = 196 } },
       also = {  },
       text = {
-        { "Dreadmaul Rock, the Slag Pit of the Searing Gorge, the Den of Flame in Dustwallow and the depths of Blackrock: this is the tune of hot places underground. Ogres hold several of them, which says something about ogres. Kargath's orcs send people into Dreadmaul Rock after a nose-ring, which says something about orcs." },
+        { "Dreadmaul Rock, the Slag Pit of the Searing Gorge, the Den of Flame in Dustwallow and the depths of Blackrock share the tune of hot places underground. Where the air itself is a hazard, the music stays close and low. Ogres hold several of them, and Kargath's orcs send people into Dreadmaul Rock after a nose-ring." },
       },
     },
     ["the-furbolg-dens"] = {
@@ -3722,7 +3722,7 @@ ns.content = {
       unlock = { { music = 194 } },
       also = {  },
       text = {
-        { "The furbolg villages of Felwood and Ashenvale, Deadwood, Felpaw and Thistlefur, share a tune. The fel corrupted most of the furbolgs of these woods. The Timbermaw escaped it, and they guard their hold between Felwood and Moonglade against their own fallen kin." },
+        { "The furbolg villages of Felwood and Ashenvale, Deadwood, Felpaw and Thistlefur, share a tune. The tune is sad, and the reason is plain. The fel corrupted most of the furbolgs of these woods, and their villages are what is left of a gentle people. The Timbermaw escaped it, and they guard their hold between Felwood and Moonglade against their own fallen kin." },
       },
     },
     ["the-graveyards"] = {
@@ -3730,7 +3730,7 @@ ns.content = {
       unlock = { { music = 15 } },
       also = {  },
       text = {
-        { "Raven Hill Cemetery and the Tranquil Gardens in Duskwood, Brill and the Agamand Mills in Tirisfal, Uther's Tomb and the ruins of Andorhal: this tune keeps to the places where the dead are buried, and to some where they did not stay buried. The Agamands of Tirisfal are a fair example. I have read one of their letters, and I would rather not meet the family." },
+        { "Raven Hill Cemetery and the Tranquil Gardens in Duskwood, Brill and the Agamand Mills in Tirisfal, Uther's Tomb and the ruins of Andorhal: this tune keeps to the places where the dead are buried, and to some where they did not stay buried. It is mourning music, and these places have more to mourn than most. I have read one of the Agamands' letters, and I would rather not meet the family." },
       },
     },
     ["the-haunted-rooms"] = {
@@ -3738,7 +3738,7 @@ ns.content = {
       unlock = { { music = 183 } },
       also = {  },
       text = {
-        { "This piece waits somewhere in three buildings that share nothing else: the Deepwater Tavern at Menethil Harbor, Gallows' End Tavern in Brill and the Stockpile in Stranglethorn Vale. It also greets arrivals at Olsen's Farthing in Silverpine Forest and at Jaedenar in Felwood. I have looked for a reason that joins them, and I have not found one." },
+        { "This piece waits somewhere in three buildings that share nothing else: the Deepwater Tavern at Menethil Harbor, Gallows' End Tavern in Brill and the Stockpile in Stranglethorn Vale. It also greets arrivals at Olsen's Farthing in Silverpine Forest and at Jaedenar in Felwood. It is uneasy music, and each of those places has its own cause for unease. I have yet to find one cause that joins them all." },
       },
     },
     ["the-hidden-places"] = {
@@ -3746,7 +3746,7 @@ ns.content = {
       unlock = { { music = 204 } },
       also = {  },
       text = {
-        { "This tune turns up in places that have little in common: Aerie Peak of the Wildhammer dwarves, the Vilebranch temple of Jintha'Alor, The Cleft in Teldrassil, the shore of Loch Modan. Another is the Tower of Ilgalar in Redridge, home of the mage Morganth. His rival calls him vicious, and I have not gone to find out." },
+        { "This tune turns up in places that have little in common: Aerie Peak, the Vilebranch temple of Jintha'Alor, The Cleft in Teldrassil, the shore of Loch Modan and the Tower of Ilgalar in Redridge. Each is tucked away from the road, and the music has the hush of somewhere you have to look for. The tower belongs to the mage Morganth, whose rival calls him vicious." },
       },
     },
     ["the-high-mountains"] = {
@@ -3754,7 +3754,7 @@ ns.content = {
       unlock = { { music = 8 } },
       also = {  },
       text = {
-        { "Dun Morogh, the Arathi Highlands and Winterspring all answer to this tune, and I will admit I am not impartial about the first. The Arathi Highlands once held Thoradin's capital, when Arathor ruled the human lands. Winterspring holds nothing but snow and a good deal of patience." },
+        { "Dun Morogh, the Arathi Highlands and Winterspring all answer to this tune, and I will admit I am not impartial about the first. Thin air and a long view give the tune its height. The Arathi Highlands once held Thoradin's capital, when Arathor ruled the human lands. Winterspring holds snow and a great deal of patience." },
       },
     },
     ["the-horde-outposts"] = {
@@ -3762,7 +3762,7 @@ ns.content = {
       unlock = { { music = 228 }, { music = 221 } },
       also = {  },
       text = {
-        { "The Crossroads, Grom'gol Base Camp, Splintertree Post, the Warsong Lumber Camp and Sun Rock Retreat share a tune. These are the Horde's forts on the road, built wherever it needed a wall, a flight master and a cook. The Crossroads stands where the roads of the Barrens meet, and sooner or later every traveller there passes it." },
+        { "The Crossroads, Grom'gol Base Camp, Splintertree Post, the Warsong Lumber Camp and Sun Rock Retreat share a tune. These are the Horde's forts on the road, built wherever it needed a wall, a flight master and a cook, and their music is the sound of a camp that expects company of either kind. The Crossroads stands where the roads of the Barrens meet." },
       },
     },
     ["the-inns"] = {
@@ -3770,7 +3770,7 @@ ns.content = {
       unlock = { { music = 156 }, { music = 189 } },
       also = {  },
       text = {
-        { "The Thunderbrew Distillery in Kharanos and the Stoutlager Inn of Loch Modan share a tune, and the Forsaken's Gallows' End Tavern in Brill keeps one of its own. The first turns up again somewhere in Stormwind, Ironforge, Lakeshire, Dun Modr and the Deepwater Tavern. The Thunderbrews make good drink, and their rivals have been known to slip a barrel of their own into the Thunderbrew cellar. The Deathguard of Brill keep their prisoners in the cellar of Gallows' End, which is a fine reason to drink upstairs." },
+        { "The Thunderbrew Distillery in Kharanos and the Stoutlager Inn share a tune, and Gallows' End Tavern in Brill keeps one of its own. The first turns up again somewhere in Stormwind, Ironforge, Lakeshire, Dun Modr and the Deepwater Tavern. It is the music of a warm room after a cold road, which is what an inn is for. Gallows' End, above a cellar of the Deathguard's prisoners, is another kind of inn." },
       },
     },
     ["the-jungle"] = {
@@ -3778,7 +3778,7 @@ ns.content = {
       unlock = { { music = 3 } },
       also = {  },
       text = {
-        { "The same tune covers Stranglethorn Vale, Feralas and the troll ruins of Zul'Gurub and the Temple of Atal'Hakkar. The Gurubashi trolls once ruled this jungle from their great city. Their empire is gone and the trees are not." },
+        { "The same tune covers Stranglethorn Vale, Feralas and the troll ruins of Zul'Gurub and the Temple of Atal'Hakkar. A jungle is never quiet, and neither is its music: something is always calling in the trees. The Gurubashi trolls once ruled this jungle from their great city. Their empire is gone and the trees are not." },
       },
     },
     ["the-keeps"] = {
@@ -3786,7 +3786,7 @@ ns.content = {
       unlock = { { music = 186 }, { music = 222 } },
       also = {  },
       text = {
-        { "Stromgarde Keep in the Arathi Highlands, Tiragarde Keep on the coast of Durotar and the Westbrook Garrison in Elwynn Forest carry pieces of Stormwind's music, and Stromgarde greets an arrival with one more. Stromgarde was the Trollbanes' kingdom, and a Trollbane tomb is still in the keep. Tiragarde is a keep of Kul Tiras on the orcs' own coast. The Horde took it once, and Admiral Proudmoore's men have taken it back." },
+        { "Stromgarde Keep in the Arathi Highlands, Tiragarde Keep in Durotar and the Westbrook Garrison in Elwynn Forest carry pieces of Stormwind's music, and Stromgarde greets an arrival with one more. They borrow the capital's music because they are the walls of the human kingdoms. Stromgarde was the Trollbanes' kingdom. Tiragarde is a keep of Kul Tiras on the orcs' own coast, taken by the Horde once and taken back since." },
       },
     },
     ["the-living-forest"] = {
@@ -3794,7 +3794,7 @@ ns.content = {
       unlock = { { music = 11 } },
       also = {  },
       text = {
-        { "The tune of Teldrassil, the great tree the night elves call home, carries on into the forests of Ashenvale. Both belong to a people who measure their years in millennia, and who were walking these woods before the dwarves had learned to dig." },
+        { "The tune of Teldrassil, the great tree the night elves call home, carries on into the forests of Ashenvale. Both woods belong to a people who measure their years in millennia, and the music is as patient as they are. They were walking these forests before the dwarves had learned to dig." },
       },
     },
     ["the-moonwells"] = {
@@ -3802,7 +3802,7 @@ ns.content = {
       unlock = { { music = 199 } },
       also = {  },
       text = {
-        { "The moonwell of Ashenvale and the Shrine of Aessina carry this tune, and it turns up again somewhere in Darnassus and in Stormwind. Aessina is one of the night elves' spirits of the wild. Her shrine stands deep in Ashenvale, and Therysil waits there for news of her sister." },
+        { "The moonwell of Ashenvale and the Shrine of Aessina carry this tune, and it turns up again somewhere in Darnassus and in Stormwind. Holy water asks for quiet, and the tune keeps it: even a dwarf lowers her voice there. Aessina is one of the night elves' spirits of the wild, and her shrine stands deep in Ashenvale." },
       },
     },
     ["the-ogre-mounds"] = {
@@ -3810,7 +3810,7 @@ ns.content = {
       unlock = { { music = 214 } },
       also = {  },
       text = {
-        { "Vul'Gol Ogre Mound in Duskwood and Brackenwall Village in Dustwallow Marsh share a tune, and a great many ogres. The Splinter Fist of Vul'Gol attack anyone who comes near. At Brackenwall the Stonemaul ogres serve Overlord Mok'Morokk, whom Rexxar made Overlord. The black dragons of Onyxia's brood drove them from their old home, and not every ogre there has forgiven him for running." },
+        { "Vul'Gol Ogre Mound in Duskwood and Brackenwall Village in Dustwallow Marsh share a tune, and a great many ogres. Heavy and blunt, the tune is fair to the ogres. The Splinter Fist of Vul'Gol attack anyone who comes near. At Brackenwall the Stonemaul serve Overlord Mok'Morokk, and not every ogre there has forgiven him for fleeing the black dragons that took their old home." },
       },
     },
     ["the-open-plains"] = {
@@ -3818,7 +3818,7 @@ ns.content = {
       unlock = { { music = 9 } },
       also = {  },
       text = {
-        { "Westfall's farms, Durotar's red hills, Mulgore's grass and the Thousand Needles share one tune, which is a great many peoples to ask of a single song. Humans plough Westfall, the orcs made Durotar their homeland under Thrall, and the tauren have walked Mulgore since long before either." },
+        { "Westfall's farms, Durotar's red hills, Mulgore's grass and the Thousand Needles share one tune, which is a great many peoples to ask of a single song. Where you can see a long way, a tune can take its time, and this one does. Humans plough Westfall, the orcs made Durotar their homeland under Thrall, and the tauren have walked Mulgore since long before either." },
       },
     },
     ["the-plagued-lands"] = {
@@ -3826,7 +3826,7 @@ ns.content = {
       unlock = { { music = 205 } },
       also = {  },
       text = {
-        { "The Western and Eastern Plaguelands share this tune with the Scarlet Monastery. The plague began in the grain at Andorhal, and what it did to the northern farms of Lordaeron you may still read on the ground. The Scarlet Crusade, in its own way, is another face of the same wound." },
+        { "The Western and Eastern Plaguelands share this tune with the Scarlet Monastery. The tune mourns a dead kingdom. The plague began in the grain at Andorhal, and what it did to the northern farms of Lordaeron you may still read on the ground. The Scarlet Crusade, in its own way, is another face of the same wound." },
       },
     },
     ["the-sands"] = {
@@ -3834,7 +3834,7 @@ ns.content = {
       unlock = { { music = 176 } },
       also = {  },
       text = {
-        { "Tanaris, Silithus and the troll city of Zul'Farrak share a tune, and a great deal of sand and sun. Silithus is also where the Gates of Ahn'Qiraj stand, which is a poor reason to visit it and an excellent reason to write about it." },
+        { "Tanaris, Silithus and the troll city of Zul'Farrak share a tune, and a great deal of sand and sun. The music is dry and patient, like country where shade is a day's walk away. Silithus is also where the Gates of Ahn'Qiraj stand, a poor reason to visit it and an excellent reason to write about it." },
       },
     },
     ["the-scarred-places"] = {
@@ -3842,7 +3842,7 @@ ns.content = {
       unlock = { { music = 237 } },
       also = {  },
       text = {
-        { "Onyxia's Lair in Dustwallow Marsh, the Tainted Scar in the Blasted Lands, Shadowbreak Ravine in Desolace, the Crystal Vale of Silithus and the Storm Cliffs share a piece borrowed from the Barrens. Each has its own trouble: a black dragon in the first, Lord Kazzak and his demons in the second, the Burning Blade's summoners in the third. In the fourth, Highlord Demitrian waits for anyone bold enough to raise Thunderfury." },
+        { "Onyxia's Lair, the Tainted Scar, Shadowbreak Ravine in Desolace, the Crystal Vale of Silithus and the Storm Cliffs share a piece borrowed from the Barrens. It is a menacing piece, and each place has earned it: a black dragon in the first, Lord Kazzak and his demons in the second, the Burning Blade's summoners in the third. In the fourth, Highlord Demitrian waits for anyone bold enough to raise Thunderfury." },
       },
     },
     ["the-sorrowful-swamp"] = {
@@ -3850,7 +3850,7 @@ ns.content = {
       unlock = { { music = 223 } },
       also = {  },
       text = {
-        { "The Swamp of Sorrows and Un'Goro Crater, two places with nothing else in common, play the same tune. The first holds the orc village of Stonard and the sunken temple of Atal'Hakkar. The second holds a great many dinosaurs, which no history of mine has ever managed to explain." },
+        { "The Swamp of Sorrows and Un'Goro Crater play the same tune, and they have more in common than it seems: both are wet, green and very old. The first holds the orc village of Stonard and the sunken temple of Atal'Hakkar. The second holds a great many dinosaurs, which no history of mine has ever managed to explain." },
       },
     },
     ["the-troll-villages"] = {
@@ -3858,7 +3858,7 @@ ns.content = {
       unlock = { { music = 185 } },
       also = {  },
       text = {
-        { "Sen'jin Village in Durotar, Malaka'jin in the Stonetalon Mountains, Shadowprey Village in Desolace and Zoram'gar Outpost in Ashenvale share a tune, and the Horde's trolls keep house in most of them. The Darkspear tribe left with Thrall, and Sen'jin on the coast of Durotar is their village now. The Bloodscalps of Stranglethorn still count them as enemies." },
+        { "Sen'jin Village in Durotar, Malaka'jin in the Stonetalon Mountains, Shadowprey Village in Desolace and Zoram'gar Outpost in Ashenvale share a tune, and the Horde's trolls keep house in most of them. A troll village sounds like a troll village on any coast, and the music goes wherever they settle. The Darkspear left with Thrall, and Sen'jin is their village now." },
       },
     },
     ["the-twilight-shores"] = {
@@ -3866,7 +3866,7 @@ ns.content = {
       unlock = { { music = 191 } },
       also = {  },
       text = {
-        { "Darkshore, Moonglade, the villages of Silverpine and the coast of the Wetlands share this tune. Auberdine looks out over the Veiled Sea, and the druids keep the Shrine of Remulos in Moonglade. Pyrewood Village in Silverpine is another matter. Its people are human by day and Moonrage worgen by night, and Arugal's enchantment is to blame." },
+        { "Darkshore, Moonglade, the villages of Silverpine and the coast of the Wetlands share this tune. These are grey northern shores where the evening seems to last all day, and the music keeps that dusk. Auberdine looks out over the Veiled Sea, and the druids keep the Shrine of Remulos in Moonglade. In Pyrewood Village in Silverpine, Arugal's enchantment makes the people Moonrage worgen by night." },
       },
     },
     ["the-veiled-sea"] = {
@@ -3874,7 +3874,7 @@ ns.content = {
       unlock = { { music = 200 } },
       also = {  },
       text = {
-        { "This piece belongs to the open water of the Veiled Sea off Darkshore, and it greets arrivals at Stonetalon Peak and in Moonglade. I have crossed that water more often than I would like. The sea has never once been in a hurry." },
+        { "This piece belongs to the open water of the Veiled Sea off Darkshore, and it greets arrivals at Stonetalon Peak and in Moonglade. A long crossing wants slow music, and this is slow. I have made that crossing many times, and the sea has never once been in a hurry." },
       },
     },
     ["the-webbed-dark"] = {
@@ -3882,7 +3882,7 @@ ns.content = {
       unlock = { { music = 229 } },
       also = {  },
       text = {
-        { "Night Web's Hollow in Tirisfal, the Skittering Dark in Silverpine, Shadowthread Cave in Teldrassil and the mines of Westfall and Loch Modan share a tune. Spiders like a dark hole, and miners dig them. The two meet more often than either would like." },
+        { "Night Web's Hollow in Tirisfal, the Skittering Dark in Silverpine, Shadowthread Cave in Teldrassil and the mines of Westfall and Loch Modan share a tune. The tunnels are tight and something lives in the walls, and the music creeps to match. Spiders like a dark hole, and miners dig them, so the two meet more often than either would choose." },
       },
     },
     ["thendal-tune"] = {
@@ -3890,7 +3890,7 @@ ns.content = {
       unlock = { { music = 3555 } },
       also = {  },
       text = {
-        { "Thendal Village, Thendal Grove and the Thendal Standing Stones share a tune. The village keeps its history high up in its great tree, which seems a sensible place for it on an island that once had to empty a whole village in a single night. Of all the archives I know, it is the hardest to reach, and I would still make the climb." },
+        { "Thendal Village, Thendal Grove and the Thendal Standing Stones share a tune. It is the music of a village that keeps its memory close. Its history is kept high in its great tree, on an island that once had to empty a whole village in a single night. Of all the archives I know, it is the hardest to reach, and I would still make the climb." },
       },
     },
     ["thunder-bluff-tune"] = {
@@ -3898,7 +3898,7 @@ ns.content = {
       unlock = { { music = 226 } },
       also = {  },
       text = {
-        { "Thunder Bluff stands on the high mesas of Mulgore, home of the tauren and of Cairne Bloodhoof, their chief. Its tune plays on the bluffs and in the villages of the plains below. The tauren build as they live, slowly and in the open." },
+        { "Thunder Bluff stands on the high mesas of Mulgore, home of the tauren and of Cairne Bloodhoof, their chief. Its tune plays on the bluffs and in the villages of the plains below. The tauren build as they live, slowly and in the open, and their music is the same, unhurried and full of wind." },
       },
     },
     ["undercity-tune"] = {
@@ -3906,7 +3906,7 @@ ns.content = {
       unlock = { { music = 182 } },
       also = {  },
       text = {
-        { "The Undercity lies beneath the ruins of Lordaeron's capital, and the Forsaken under Sylvanas keep it. Its tune plays somewhere in the halls below. It is the only city I know whose citizens would find the word welcoming an insult." },
+        { "The Undercity lies beneath the ruins of Lordaeron's capital, and the Forsaken under Sylvanas keep it. Its tune plays somewhere in the halls below, cold and echoing, music for a city made of crypts. It is the only city I know whose citizens would take the word welcoming as an insult." },
       },
     },
     ["valanaar-tune"] = {
@@ -3914,7 +3914,7 @@ ns.content = {
       unlock = { { music = 3535 } },
       also = {  },
       text = {
-        { "Valanaar has three pieces of its own. The High Elder governs from it, and its skydocks are where the shen'dorei set out when they come down to Azeroth, so more of their travellers pass through it than anywhere else on the island. It is the first of Zephras that most visitors see, and the last." },
+        { "Valanaar has three pieces of its own. The High Elder governs from it, and its skydocks are where the shen'dorei set out when they come down to Azeroth, so more of the island's travellers pass through it than anywhere else. Its music is the sound of arrivals and farewells. It is the first of Zephras that most visitors see, and the last." },
       },
     },
     ["warsong-gulch-tune"] = {
@@ -3922,7 +3922,7 @@ ns.content = {
       unlock = { { music = 243 } },
       also = {  },
       text = {
-        { "Warsong Gulch has five pieces of its own. The Silverwing Sentinels fight the Warsong Outriders there over the orcs' axes and the trees they fell. The night elves hold that this forest is what keeps Ashenvale defensible, and that Astranaar would fall soon after it." },
+        { "Warsong Gulch has five pieces of its own. The Silverwing Sentinels fight the Warsong Outriders there over the orcs' axes and the trees they fell, and its music has the urgency of a fight that never quite ends. The night elves hold that this forest keeps Ashenvale defensible, and that Astranaar would fall soon after it." },
       },
     },
     ["wetlands-excavation-tune"] = {
@@ -3930,7 +3930,7 @@ ns.content = {
       unlock = { { music = 3659 }, { music = 3660 }, { music = 3661 } },
       also = {  },
       text = {
-        { "The dig in the hills above the Wetlands has nine pieces of its own, for the site, the Lost Marsh and the Site of the Guardian, and borrows five more from the marshes below for Stalker's Thicket and the Lost Dig Site. The crew from Loch Modan found a machine of stone under the marsh up there. The Dragonmaw have come for it, and the Forsaken's spies are watching them." },
+        { "The dig in the hills above the Wetlands has nine pieces of its own and borrows five more from the marshes below. The crew from Loch Modan found a machine of stone under the marsh up there, and the music has the weight of old stone woken up. The Dragonmaw have come for it, and the Forsaken's spies are watching them." },
       },
     },
     ["zephras-isle-tune"] = {
@@ -3938,7 +3938,7 @@ ns.content = {
       unlock = { { music = 3230 } },
       also = {  },
       text = {
-        { "Much of Zephras Isle shares one tune, from the Valanaar Skydocks and the Rohashi Spires to the Shriekling Den and the Nightclaw Cavern. Where a village or a holy place has music of its own, that takes over, and where it ends this one comes back. Not much else on the island is so dependable these days." },
+        { "Much of Zephras Isle shares one tune, from the Valanaar Skydocks and the Rohashi Spires to the Shriekling Den and the Nightclaw Cavern. It is the island's own voice, and where a village or a holy place has music of its own, that takes over. Where that ends, this one comes back, and not much else on the island is so dependable these days." },
       },
     },
     ["zul-gurub-tune"] = {
@@ -3946,7 +3946,7 @@ ns.content = {
       unlock = { { music = 245 } },
       also = {  },
       text = {
-        { "The Zandalar trolls have made camp on Yojamba Isle, off the coast of Stranglethorn Vale, and the same piece plays in the Bloodfire Pit inside Zul'Gurub. The Zandalar have come to stop the Soulflayer, Hakkar the Blood God, before his reign spreads across Azeroth. They are not shy about asking for help, and they do not much care what you believe." },
+        { "The Zandalar trolls have made camp on Yojamba Isle, off the coast of Stranglethorn Vale, and the same piece plays in the Bloodfire Pit inside Zul'Gurub. It is a troll piece for a troll quarrel. The Zandalar have come to stop the Soulflayer, Hakkar the Blood God, before his reign spreads across Azeroth. They will take help from anyone, and they do not much care what their helpers believe." },
       },
     },
     ["boulderslide-ravine"] = {

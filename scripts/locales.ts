@@ -436,9 +436,10 @@ for (const locale of LOCALES) {
     if (missingPages.length && missingPages.length < 20) console.log(`  pages still in English: ${missingPages.join(", ")}`);
     const left = untranslated(locale, t);
     if (left.length) console.log(`  English names left (the glossary's: python3 scripts/glossary.py ${locale}): ${left.join(" | ")}`);
-    // (every page and foreword with its translation)
+    // (every page and foreword with its current translation: a stale one waits for its new translation)
     const pairs = (readdirSync(CONTENT, { recursive: true }) as string[])
       .filter((f) => f.endsWith(".md") && !f.endsWith("_chapter.md"))
+      .filter((f) => !stale.includes(readFileSync(join(CONTENT, f), "utf8").match(/^id: *(\S+)/m)?.[1] ?? ""))
       .map((f) => [join(CONTENT, f), join(I18N, locale, "pages", f)] as [string, string]);
     for (const m of misnamed(I18N, locale, pairs))
       errors.push(`i18n/${locale}: a name not as the game writes it (or i18n/${locale}/names-ok.json says why): ${m}`);

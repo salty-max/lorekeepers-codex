@@ -6,4 +6,4 @@ group: depths
 unlock:
   - music: 179
 ---
-Somewhere in Dire Maul, the ruin of Eldre'Thalas in Feralas, a piece plays that I have found nowhere else. Alzzin the Wildshaper holds the eastern part of the city. A prisoner of its fallen prince, robbed by an imp on his way out, will ask you to fetch his book of incantations, and I would do it. He gave up his immortality for his freedom, which is a hard bargain to make twice.
+Somewhere in Dire Maul, the ruin of Eldre'Thalas in Feralas, a piece plays that I have found nowhere else. It is the sound of a great city emptied. The Highborne built for grandeur, and grandeur echoes when nobody is left to fill it. Alzzin the Wildshaper holds the eastern part now, and ogres and ghosts the rest.

@@ -8,4 +8,4 @@ unlock:
   - music: 210
   - music: 217
 ---
-Three short battle pieces wait somewhere in the dungeons: Shadowfang Keep, the Deadmines, Uldaman, Maraudon and Stratholme. None of these places has ever been short of a fight.
+Three short battle pieces wait somewhere in the dungeons: Shadowfang Keep, the Deadmines, Uldaman, Maraudon and Stratholme. They are short because a fight in close quarters is short and loud, and nobody in those halls has the breath for a long song. Each of the five gives them plenty of chances to play.
