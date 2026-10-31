@@ -6,7 +6,7 @@ unlock:
   - area: Thunder Bluff
 also: [cairne-bloodhoof, hamuul-runetotem, mulgore, grimtotem]
 ---
-Thunder Bluff stands high on Mulgore's mesas, reached by great lifts or a wind rider. Rope bridges join its rises. An Ironforge dwarf accustomed to solid floors may want to look where he puts his feet before looking at the view.
+Thunder Bluff stands high on Mulgore's mesas, reached by great lifts or a wind rider. Rope bridges join its rises. A visitor from Ironforge, used to solid floors, may want to watch the planks before looking at the view.
 
 Cairne built this refuge after the tauren and orcs drove back the centaur. Tribes long accustomed to wandering gathered here. Traders and artisans now share it with hunters, Elder Rise's druids, and the shamans and seers of Spirit Rise.
 

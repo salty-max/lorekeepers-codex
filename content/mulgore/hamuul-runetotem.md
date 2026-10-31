@@ -9,4 +9,4 @@ also: [cairne-bloodhoof, cenarion-circle, thunder-bluff]
 ---
 Arch Druid Hamuul Runetotem stands on Thunder Bluff's Elder Rise, among the tauren's teachers and spiritual leaders. His place there gives the druids a voice in the city as well as a home.
 
-Reports from the Wailing Caverns bring adventurers to him from beyond Mulgore. He sends them to Nara Wildmane to continue the enquiry.
+Reports from the Wailing Caverns bring travellers to him from beyond Mulgore. He sends them to Nara Wildmane to continue the enquiry.

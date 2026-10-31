@@ -6,7 +6,7 @@ unlock:
   - people: NightElf
 also: [darnassus, tyrande-whisperwind, the-sundering, fandral-staghelm, cenarion-circle, teldrassil]
 ---
-The kaldorei are the oldest people the League has met, and they are too polite to remind us of it often. Ten thousand years ago their Highborne drew on the Well of Eternity until the Burning Legion came for it, and the war that followed broke the world. Afterwards the survivors gave up the arcane. They turned to the druids of Malfurion Stormrage and the priestesses of Elune, and planted a World Tree on Mount Hyjal that kept them from growing old.
+The kaldorei are the oldest people the League has met, and they are too polite to remind us dwarves of it often. Ten thousand years ago their Highborne drew on the Well of Eternity until the Burning Legion came for it, and the war that followed broke the world. Afterwards the survivors gave up the arcane. They turned to the druids of Malfurion Stormrage and the priestesses of Elune, and planted a World Tree on Mount Hyjal that kept them from growing old.
 
 In the Third War the Legion came back to Hyjal. To destroy the demon Archimonde, the night elves gave up the Tree and their immortality with it. Fandral Staghelm has since grown Teldrassil off the coast of Darkshore, and Darnassus stands in its branches. Whether the new Tree is blessed as the old one was, the druids do not say out loud.
 

@@ -12,4 +12,4 @@ Sicco Thermaplugg remains in Gnomeregan while High Tinker Mekkatorque leads its 
 
 The radiation released in the city failed to eradicate the troggs and devastated its gnomish inhabitants. Thermaplugg rules in the ruins, among the creatures the attempt was meant to destroy and the survivors it left behind.
 
-Mekkatorque asks adventurers to carry his judgement into those halls.
+Mekkatorque asks travellers to carry his judgement into those halls.

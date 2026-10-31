@@ -14,4 +14,4 @@ The Titans' Pantheon made war on them. Four great lords of the elements led the 
 
 Then the Titans set to work. They made the earthen from living stone to carve the deep places, and the sea giants to lift the land out of the sea. When they were done there was one continent, Kalimdor, and at its heart a lake of shining power they named the Well of Eternity.
 
-We are still digging up their work at Uldaman and on the terraces of the Badlands. Now and then something they buried comes back up as well: a Firelord under Blackrock, a god in the sands of Silithus. The Titans, I suspect, left the world tidier than they found it, but not finished.
+The League is still digging up their work at Uldaman and on the terraces of the Badlands. Now and then something they buried comes back up as well: a Firelord under Blackrock, a god in the sands of Silithus. The Titans, I suspect, left the world tidier than they found it, but not finished.
