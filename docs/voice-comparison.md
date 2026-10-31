@@ -1,5 +1,7 @@
 # Voice comparison
 
+**Historical (31 October 2026).** These are the samples that approved the first voice rework. The voice has since moved on: the Codex speaks as Royal Historian Archesonus (a dwarf, she) and the League is the city's, not her order, so the right-hand column's "the League's records" is no longer how a page reads (Timber now says "a royal history"). Read it for the shape of the rework. The rules are in `writing.md`.
+
 This comparison preserves the three samples used to approve the voice rework. The right-hand versions have now been adopted in the addon. The left column captures the wording before that pass, including edits from the lore audit. This compares the writing, but is not a controlled test of Claude against Codex. The versions use the same narrative facts; Timber retains the approved hunter tale.
 
 Each sample tests a different part of the voice: a dry aside, a place described through what the traveller sees, and a personal history with emotional restraint.

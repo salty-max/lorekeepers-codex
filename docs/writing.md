@@ -66,12 +66,20 @@ historical claims in other entries.
   ("mine among them"). Vary the endings and openings: most end plainly, on a
   disagreement or an open question; a sharp last line only where it is the
   point (a handful), else the notes become a formula.
+- Tunes (`content/soundtrack/`): a name and two to four plain sentences in
+  Archesonus's voice, about 55 words (the 69 shipped run 28 to 87, median 55,
+  most of them three sentences). The rule once said about 35, a planning estimate the corpus never followed
+  (31 October 2026). A tune says why the place sounds as it does, never "a
+  forest tune"; a "moment" set that reuses a city's tracks says it borrows,
+  and a claim about shared pieces is checked per game (Forever plays its own
+  recordings).
 - Plain ASCII text: straight apostrophes and quotes (the build rejects others;
   some game fonts lack them, and the search matches what players type).
 - No semicolons in prose, English or French (the user's rule, 14 October
   2026): two sentences, or a comma, or a rewrite for a list. The gender
   tokens' own `;` stay.
-- The approved voice samples are in `docs/voice-comparison.md`. Prefer concrete
+- The first voice samples are in `docs/voice-comparison.md`, historical (see its
+  heading). Prefer concrete
   details and natural flow; keep dry asides sparse, vary openings and endings,
   and do not turn an entry into an audit note or append advice by habit. The
   entry decisions of October 2026 are in git's history (`docs/voice-review.md`, removed 30 October 2026).

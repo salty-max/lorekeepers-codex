@@ -17,7 +17,7 @@ conventions); salty-max/lorekeepers-codex. Read the family's CLAUDE.md
 | How the codex is laid out, what is left out, what is open | `PLAN.md` |
 | Forever's own content | `FOREVER.md` |
 | Languages: how translation works, each language's notes | `docs/localization.md`, `docs/spanish-translation.md`, `docs/french-readable-translations.md`, `docs/german-readable-translations.md` |
-| The approved voice samples | `docs/voice-comparison.md` |
+| The first voice samples (historical) | `docs/voice-comparison.md` |
 | The pages still to add under the lore rule | `docs/lore-expansion.md` |
 | The store page | `addon/CURSEFORGE.md` |
 

@@ -85,12 +85,65 @@ translation left where Forever translates them.
 
 The product is the text, Archesonus's voice and Parqual's. A translation per
 language, chapter by chapter, with a voice guide for that language (her warm,
-dry court register; his cutting asides) and the glossary. About 55,000 words
+dry court register; his cutting asides: the next section) and the glossary. About 55,000 words
 and 27 notes per language, plus the interface.
 
 Review: French by the user. Other languages by native readers where any
 volunteer (an issue per language, "corrections welcome"); else shipped as a
 first translation, said so on the store page.
+
+## The voice guide: register in French, German and Spanish
+
+Written from the shipped pages (31 October 2026), as the paragraph above
+promised. The English voice is `docs/writing.md`: Archesonus is a dwarf, she
+speaks to "traveller", warm and dry; Parqual's `[horde]` notes are a dead
+historian's, cutting and short. The translations keep those two people, not
+the English sentence shapes.
+
+| | Address to the reader | The reader itself | Parqual's notes |
+|---|---|---|---|
+| French | **vous** throughout, Archesonus and Parqual alike | `$gvoyageur:voyageuse;` (about 107 uses) is the commonest word that agrees with the reader, in the forewords' greeting and wherever "traveller" stands. A few others agree where the sentence needs one (`$gun lecteur:une lectrice;`, `$gseul:seule;`, the race forewords' `$gun Kaldorei:une Kaldorei;`). Otherwise the sentence is turned ("Emportez-le avec vous") | vous too, a dry first-person voice ("La dernière peste m'a tué") |
+| German | **Ihr / Euch / Euer**, the old courtly address a royal historian would use, with the imperative in the "ihr" form ("Tragt es bei Euch und lest eine Seite") | `$gReisender:Reisende;` (about 107 uses), no "du" and no "Sie" to the reader | Euch too, short and dry |
+| Spanish | **tú** ("te doy la bienvenida", "Llévalo contigo y lee"), neutral, no "vosotros" (esMX reads esES's words, so a Castilian "habéis" is a fault). Known gap: four esES forewords (gnome, nightelf, troll, skyborne) address the reader's people in vosotros ("habéis", "vuestras"), to be rewritten to "ustedes" with the esMX fixes (the audit's D7), a shipped-word change | `$gViajero:Viajera;` | tú |
+
+Rules the three share:
+
+- A translation is written as the language would say it, not line by line. The
+  English "traveller" is the one word that always carries the token.
+- The game's own names, by id, from the glossary (`i18n/<locale>/glossary.json`)
+  and never matched by an English name. Forever's names in the text, Classic
+  Era's swapped in (`classic.json`).
+- No semicolons in any language, the gender tokens' own `;` aside. German
+  nouns capitalised, "Euch/Euer" always capitalised.
+- Archesonus's warmth and dryness survive translation. If a dry aside turns
+  into a joke or a pat, the French or German is wrong, not the English.
+
+Two real passages to hear them by, the dwarf foreword (`foreword-dwarf.md`):
+
+> Emportez-le avec vous, et lisez une page quand un lieu vous donne une
+> raison de vous arrêter. Une ruine se remarque plus facilement que la vie
+> qu'elle abritait.
+
+> Tragt es bei Euch und lest eine Seite, wenn ein Ort Euch Grund zum
+> Innehalten gibt. Eine Ruine fällt leichter ins Auge als das Leben, dem sie
+> einst Obdach gab.
+
+and Parqual's foreword note (`foreword-other.md`):
+
+> Ce registre a été écrit à Forgefer, par Archesonus, son historienne royale,
+> et il vous parvient de Fossoyeuse en passant par mon bureau.
+
+> Dieses Register wurde in Ironforge geschrieben, von Archesonus, seiner
+> Königlichen Historikerin, und es kommt aus Undercity über meinen Schreibtisch
+> zu Euch.
+
+and, in Spanish, Parqual's note (same page):
+
+> Este registro lo escribió en Forjaz Archesonus, su historiadora real, y te
+> llega desde Entrañas a través de mi mesa.
+
+The family's table of every addon's registers is in
+`addon-kit/skills/wow-translating/SKILL.md`.
 
 ## Order
 
@@ -175,3 +228,5 @@ paragraph roles and reader tokens, complete UI/chapter coverage, both
 regional catalogs, gender forms and cross-language saved copies. The daily
 game-data job regenerates locales with either their own interface strings
 or a regional profile, so esMX's catalogs and glossary stay current too.
+
+
