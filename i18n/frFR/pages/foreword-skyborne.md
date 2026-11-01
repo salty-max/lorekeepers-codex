@@ -11,4 +11,4 @@ Nous connaissions votre commencement sans savoir qu'il était le vôtre. Vos anc
 
 Aujourd'hui, les esprits sont partis, l'île se meurt, et votre peuple est venu chercher de l'aide, l'Ordre suprême auprès des mages de Dalaran, les Sculpte-vents auprès des chamans. Ce registre connaît le monde où vous êtes revenus mieux que celui que vous avez quitté. Partout où l'histoire s'est faite, j'ai laissé une page pour vous. Lisez-les au coin du feu, et souvenez-vous que chaque ruine fut un jour le foyer de quelqu'un.
 
-*Historienne royale Archesonus, le Haut-Siège, Forgefer*
+*Historienne royale Archesonus, le Haut Siège, Forgefer*

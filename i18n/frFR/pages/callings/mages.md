@@ -3,7 +3,7 @@ id: mages
 source: b337bb8b3878
 title: Mages
 ---
-L'art humain de la magie commença avec cent élèves. Pendant les guerres des Trolls, les hauts-elfes de Quel'thalas leur apprirent à lancer des sorts en échange d'une aide contre les Amani, et leurs héritiers fondèrent Dalaran et son conseil dirigeant, le Kirin Tor. La cité devint le grand foyer du savoir arcanique des humains.
+L'art humain de la magie commença avec cent élèves. Pendant les guerres des Trolls, les hauts-elfes de Quel'Thalas leur apprirent à lancer des sorts en échange d'une aide contre les Amani, et leurs héritiers fondèrent Dalaran et son conseil dirigeant, le Kirin Tor. La cité devint le grand foyer du savoir arcanique des humains.
 
 Dalaran tomba pendant la Troisième Guerre, et ses élèves se dispersèrent : à Theramore avec Jaina Proudmoore, à Hurlevent, à Fossoyeuse parmi les Réprouvés, dont certains y avaient étudié dans leur première vie. Les gnomes et les trolls Darkspear ont leurs propres mages. Une éducation au Kirin Tor est une des voies vers cet art, même si ses diplômés en parlent parfois comme si c'était la seule.
 

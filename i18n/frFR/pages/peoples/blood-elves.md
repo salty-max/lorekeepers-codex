@@ -3,7 +3,7 @@ id: blood-elves
 source: e2dacd87098a
 title: Les elfes de sang
 ---
-Après la chute de Quel'thalas, le dernier de sa lignée royale, le prince Kael'thas Sunstrider, mena ce qui restait des hauts-elfes dans la lutte de l'Alliance contre le Fléau. Ils se rebaptisèrent elfes de sang en l'honneur de leur peuple tombé. Coupés du Puits de soleil qui les avait nourris pendant des milliers d'années, ils découvrirent aussi à quel point ils avaient besoin de sa magie, et souffrirent de son manque.
+Après la chute de Quel'Thalas, le dernier de sa lignée royale, le prince Kael'thas Haut-Soleil, mena ce qui restait des hauts-elfes dans la lutte de l'Alliance contre le Fléau. Ils se rebaptisèrent elfes de sang en l'honneur de leur peuple tombé. Coupés du Puits de soleil qui les avait nourris pendant des milliers d'années, ils découvrirent aussi à quel point ils avaient besoin de sa magie, et souffrirent de son manque.
 
 Comme l'Alliance exigeait des batailles que ses forces affaiblies ne pouvaient gagner seules, Kael'thas accepta l'aide de dame Vashj et de ses nagas. Son commandant, Garithos, déclara les elfes de sang traîtres et les condamna à mort. Vashj les libéra des cachots de Dalaran et les mena en Outreterre, le reste brisé du monde des orcs. Là, ils libérèrent Illidan Stormrage de sa geôlière, et Kael'thas se mit à son service en échange de la magie dont son peuple avait besoin.
 

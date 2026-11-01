@@ -1,4 +1,5 @@
-// The names as the game writes them (the same file in the Codex and Yonder):
+// The names as the game writes them (the same file in the Codex and Yonder,
+// but the Codex's minds case inside a word since 1 November 2026):
 // a name the glossary holds (i18n/<locale>/glossary.json, wow-data's
 // databases' names, ../addon-kit/glossary.py) that an English text names is in
 // that text's translation, as the language declines it (an ending, an article
@@ -16,15 +17,22 @@ const body = (file: string) => readFileSync(file, "utf8").replace(/^---\n[^]*?\n
 const ARTICLE = /^(?:(?:der|die|das|le|la|les|el|los|las)\s+|l')/i;
 const INNER = new Set(["der", "die", "das", "dem", "den", "des", "du", "de", "la", "le", "les"]);
 
+// (case counts inside a word, "Quel'thalas" is not "Quel'Thalas", but not on a
+// word's first letter, nor after an elision: a title or a place in running
+// prose may be lower case, "l'est" or "l'Est")
+const either = (c: string) => `[${esc(c.toLowerCase())}${esc(c.toUpperCase())}]`;
+const cased = (s: string) =>
+  /^[dl]'./i.test(s) ? `${either(s[0])}'${either(s[2])}${esc(s.slice(3))}` : s ? `${either(s[0])}${esc(s.slice(1))}` : "";
+
 function pattern(use: string): RegExp {
   const part = (w: string) =>
     INNER.has(w.toLowerCase())
-      ? "(?:der|die|das|dem|den|des|du|de|la|le|les|d')"
+      ? `(?:${["der", "die", "das", "dem", "den", "des", "du", "de", "la", "le", "les", "d'"].map(cased).join("|")})`
       : /(frau|mann)$/.test(w)
-        ? `${esc(w.slice(0, -4))}(?:frau|mann)\\p{L}*`
-        : `${esc(w.length > 5 ? w.slice(0, -2) : w)}\\p{L}*`;
+        ? `${cased(w.slice(0, -4))}(?:frau|mann)\\p{L}*`
+        : `${cased(w.length > 5 ? w.slice(0, -2) : w)}\\p{L}*`;
   const words = plain(use).replace(ARTICLE, "").split(/[\s,-]+/).filter(Boolean);
-  return new RegExp(`(?<![\\p{L}\\d])${words.map(part).join("[\\s,-]+")}`, "iu");
+  return new RegExp(`(?<![\\p{L}\\d])${words.map(part).join("[\\s,-]+")}`, "u");
 }
 
 /** The names a translation writes otherwise: "English -> the game's (files)". */

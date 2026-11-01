@@ -3,7 +3,7 @@ id: the-guardians-of-tirisfal
 source: 03906eda74ad
 title: Les Gardiens de Tirisfal
 ---
-Dalaran apprit tôt le prix de la magie. Ses jeunes mages dépensaient sans compter leur pouvoir, et plus ils en dépensaient, plus le monde s'amincissait autour de leur cité, jusqu'à ce que de petits démons de la Légion ardente commencent à s'y glisser. Les magocrates qui gouvernaient la cité cachèrent ce qu'ils purent. Quand le peuple commença à murmurer de révolution, ils allèrent demander de l'aide aux elfes de Quel'thalas.
+Dalaran apprit tôt le prix de la magie. Ses jeunes mages dépensaient sans compter leur pouvoir, et plus ils en dépensaient, plus le monde s'amincissait autour de leur cité, jusqu'à ce que de petits démons de la Légion ardente commencent à s'y glisser. Les magocrates qui gouvernaient la cité cachèrent ce qu'ils purent. Quand le peuple commença à murmurer de révolution, ils allèrent demander de l'aide aux elfes de Quel'Thalas.
 
 Les elfes leur dirent ce qu'était la Légion, et ce qu'elle avait déjà fait au monde une fois. Ensemble, le Conseil de Lune-d'argent et les magocrates conclurent un pacte secret : un seul champion mortel, doté des puissances réunies de la magie elfique et humaine, combattrait les agents de la Légion dans une guerre dont personne d'autre ne devrait jamais entendre parler. Un conseil caché, qui se réunissait dans les clairières de Tirisfal où les elfes s'étaient d'abord établis en Lordaeron, choisissait chaque Gardien. Quand l'un d'eux vieillissait ou se lassait, le conseil veillait lui-même à la transmission du pouvoir.
 

@@ -7,8 +7,8 @@ title: Un mot de l'historienne royale
 
 $gVoyageur:Voyageuse;, bienvenue. Ce registre suit les villes, les ruines et les routes d'Azeroth, et les gens dont la vie les a laissées telles que vous les trouvez. Nul besoin d'une ascendance particulière pour s'intéresser à l'endroit où l'on se tient.
 
-J'écris depuis le Haut-Siège, à Forgefer, à quelques pas du trône du roi, et la Ligue des explorateurs me rapporte plus de choses à lire que je n'en finirai jamais. Le récit d'une naine aura les intérêts d'une naine, mais le monde nous a donné plus à étudier que les affaires de nos propres clans.
+J'écris depuis le Haut Siège, à Forgefer, à quelques pas du trône du roi, et la Ligue des explorateurs me rapporte plus de choses à lire que je n'en finirai jamais. Le récit d'une naine aura les intérêts d'une naine, mais le monde nous a donné plus à étudier que les affaires de nos propres clans.
 
 Lisez une page quand vos voyages vous mènent à son lieu. Les pierres ont parfois mieux survécu que les noms. J'ai essayé de garder les deux à portée de main.
 
-*Historienne royale Archesonus, le Haut-Siège, Forgefer*
+*Historienne royale Archesonus, le Haut Siège, Forgefer*

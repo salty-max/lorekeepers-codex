@@ -9,4 +9,4 @@ Pendant la plupart de ces années, votre peuple est resté dans ses forêts sans
 
 Partout où l'histoire s'est faite, j'ai laissé une page pour vous. Lisez-les au coin du feu, et souvenez-vous que chaque ruine fut un jour le foyer de quelqu'un.
 
-*Historienne royale Archesonus, le Haut-Siège, Forgefer*
+*Historienne royale Archesonus, le Haut Siège, Forgefer*

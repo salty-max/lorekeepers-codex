@@ -3,7 +3,7 @@ id: the-crusades-fallen
 source: 733b6961de48
 title: Les morts de la Croisade
 ---
-Le Monastère écarlate enterre ses héros dans son propre cimetière, et leurs pierres en disent plus sur la Croisade que ses sermons. Lisez-les et vous découvrirez qu'elle ne fut jamais un simple ordre humain de Lordaeron : un grand sorcier et un capitaine des forestiers citoyens de Quel'thalas, des assassins de Dalaran, un guerrier d'Alterac, un seigneur des Cavernes rouges, un amiral de Kul Tiras.
+Le Monastère écarlate enterre ses héros dans son propre cimetière, et leurs pierres en disent plus sur la Croisade que ses sermons. Lisez-les et vous découvrirez qu'elle ne fut jamais un simple ordre humain de Lordaeron : un grand sorcier et un capitaine des forestiers citoyens de Quel'Thalas, des assassins de Dalaran, un guerrier d'Alterac, un seigneur des Cavernes rouges, un amiral de Kul Tiras.
 
 Lisez plus loin et vous verrez jusqu'où elle est allée. Orman de Stromgarde, son premier capitaine général, se perdit à l'entrée du glacier de la Couronne de glace. Le grand amiral de la Flotte écarlate se perdit au large de la côte gelée du Norfendre, et le premier maître assassin aussi, sur les rivages du Norfendre. La Croisade a porté sa guerre jusqu'à la porte même du roi-liche, et les pierres sont ce qui en est revenu.
 

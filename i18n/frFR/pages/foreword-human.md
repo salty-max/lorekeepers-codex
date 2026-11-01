@@ -9,4 +9,4 @@ Hurlevent fut détruite et rebâtie. Sa nouvelle maçonnerie est une grande réu
 
 Servez-vous du livre en voyageant. Les villes, les ruines et les routes peuvent vous dire comment un pays est devenu ce que vous trouvez, pourvu que quelqu'un garde la trace des gens qui les ont faits.
 
-*Historienne royale Archesonus, le Haut-Siège, Forgefer*
+*Historienne royale Archesonus, le Haut Siège, Forgefer*

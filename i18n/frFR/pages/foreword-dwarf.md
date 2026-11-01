@@ -9,4 +9,4 @@ Les pages suivent nos clans, les guerres qui les ont divisés, et les ouvrages p
 
 Emportez-le avec vous, et lisez une page quand un lieu vous donne une raison de vous arrêter. Une ruine se remarque plus facilement que la vie qu'elle abritait. Les deux méritent une place dans les archives.
 
-*Historienne royale Archesonus, le Haut-Siège, Forgefer*
+*Historienne royale Archesonus, le Haut Siège, Forgefer*

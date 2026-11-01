@@ -3,7 +3,7 @@ id: the-valley-of-bones
 source: 15fbb62fcd69
 title: La Vallée des Ossements
 ---
-La Vallée des Ossements est pleine de morts : des os et des corps, les squelettes des Goliaths jumeaux, et des choses qui marchent alors qu'elles devraient reposer. Une puissance nécromantique imprègne les lieux, et les Magram, le premier clan à s'y risquer, ont décidé que cette magie leur revenait. Personne, je le remarque, n'a demandé leur avis aux morts. Ceux des Magram qui ne se battent ni à la lame ni au maillet apprennent à relever les morts, et ils ont désormais des Necrokhans.
+La Vallée des Ossements est pleine de morts : des os et des corps, les squelettes des Colosses jumeaux, et des choses qui marchent alors qu'elles devraient reposer. Une puissance nécromantique imprègne les lieux, et les Magram, le premier clan à s'y risquer, ont décidé que cette magie leur revenait. Personne, je le remarque, n'a demandé leur avis aux morts. Ceux des Magram qui ne se battent ni à la lame ni au maillet apprennent à relever les morts, et ils ont désormais des Necrokhans.
 
 Les Gelkis sont venus ensuite. Certains d'entre eux ont suivi les Magram dans la vallée et se sont mis au même art. Un prisonnier y voit une tentative tordue de passer à l'ennemi, et les Gelkis ont condamné chaque déserteur à l'exil. L'éclaireur gelkis Nerlokh, lui, a été écœuré par autre chose. Les squelettes marchent sur deux jambes, pas sur quatre, si bien que ce ne sont pas du tout des morts centaures. Ils appartiennent à ceux qui reposaient dans cette terre bien avant que la Désolace n'appartienne aux centaures. Nerlokh ne pouvait imaginer comment les Magram pouvaient tourner le dos à Mère Theradras pour relever ces os.
 

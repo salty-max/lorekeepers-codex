@@ -9,4 +9,4 @@ Forgefer a offert un abri à votre peuple. Vous avez apporté dans nos salles de
 
 Lisez ces pages partout où votre travail vous mène. J'espère que la page consacrée à votre foyer aura un jour besoin d'un ajout plus heureux. D'ici là, son histoire a sa place à côté des inventions et des missions qui vous aideront peut-être à le reprendre.
 
-*Historienne royale Archesonus, le Haut-Siège, Forgefer*
+*Historienne royale Archesonus, le Haut Siège, Forgefer*
