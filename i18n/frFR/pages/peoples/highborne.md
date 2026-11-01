@@ -7,4 +7,4 @@ Les Bien-nés étaient la caste supérieure des elfes de la nuit, les serviteurs
 
 Tous ne partagèrent pas son sort. Certains survécurent à la Fracture parmi les autres elfes de la nuit et, exilés pour s'être accrochés à leur magie, devinrent les hauts-elfes. D'autres tinrent bon à Eldre'Thalas, où les Shen'dralar gardent encore leurs propres secrets. Beaucoup moururent tout simplement, et ne trouvèrent pas le repos.
 
-Leurs morts sont faciles à trouver : ils gémissent dans les ruines de Sombrivage, errent dans Azshara sous forme d'apparitions et de jeunes liches, souffrent au bord du lac gelé de Kel'Theril, au Berceau-de-l'Hiver. Ils ont eu dix mille ans pour regretter. L'un d'eux au moins, au bord du lac, semble le regretter sincèrement.
+Leurs morts sont faciles à trouver : ils gémissent dans les ruines de Sombrivage, errent dans Azshara sous forme d'apparitions et de jeunes liches, souffrent au bord du lac gelé de Kel'Theril, au Berceau-de-l'Hiver. Ils ont eu dix mille ans pour regretter. L'un d'eux au moins, au bord du lac, semble le regretter sincèrement.

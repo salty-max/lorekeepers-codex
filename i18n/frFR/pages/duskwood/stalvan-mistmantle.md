@@ -7,4 +7,4 @@ Stalvan Mistmantle était enseignant à Ruisselune et précepteur dans des famil
 
 Des lettres et des journaux retracent ses déplacements à travers la Marche de l'Ouest et Hurlevent jusqu'au manoir au nord-est de Sombre-Comté, où l'obscurité du Bois de la Pénombre l'a changé davantage encore. Le pressentiment de Madame Eva lance la recherche, mais ce sont surtout les propres mots de Stalvan qui la font avancer.
 
-C'est une histoire laide à reconstituer à partir de papiers si ordinaires. Un poste d'enseignant, la correspondance d'une famille, le nom d'une élève : les choses qui auraient dû appartenir à une vie tranquille demeurent parmi les traces de ceux qu'il a détruits.
+C'est une histoire laide à reconstituer à partir de papiers si ordinaires. Un poste d'enseignant, la correspondance d'une famille, le nom d'une élève : les choses qui auraient dû appartenir à une vie tranquille demeurent parmi les traces de ceux qu'il a détruits.

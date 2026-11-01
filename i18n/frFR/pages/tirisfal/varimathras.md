@@ -7,4 +7,4 @@ Quand Arthas partit pour le Norfendre, Varimathras et ses frères seigneurs de l
 
 Il se tient désormais aux côtés de la reine banshee, à Fossoyeuse. C'est une association imposante, même si ses débuts n'offrent guère de garanties sur la loyauté de l'un ou de l'autre. Varimathras a trouvé le moyen de survivre à un changement de maître. Sylvanas l'a gardé là où elle peut le voir.
 
-[horde] > Nous le croisons dans le Quartier royal sans rien dire. Le garder près de soi suffit-il à s'assurer sa loyauté ? J'en suis moins sûr que la Dame noire ne semble l'être. -- P. F.
+[horde] > Nous le croisons dans le Quartier royal sans rien dire. Le garder près de soi suffit-il à s'assurer sa loyauté ? J'en suis moins sûr que la Dame noire ne semble l'être. -- P. F.

@@ -35,6 +35,7 @@ bun run build        # content -> Content_Classic.lua and Content_Forever.lua, t
 bun run package      # dist/LorekeepersCodex-<version>.zip for a test in the game
 bun run kit:sync     # after a change to the kit (Kit.lua, Media, scripts/root.ts and root.py)
 bun run locales      # --keys writes i18n/words.json; --stamp once a translation is read again
+bun scripts/typography.ts          # French typography (a no-break space before : ? ! %, inside « »); --check in the check
 bun scripts/music.ts               # data/music.json, the music's sets, tracks and areas, from wow-data
 bun scripts/areas.ts [--forever]   # the areas; python3 scripts/texts.py, portraits.py after a read: or portrait:
 bun run when <page>|--changed|--all  # when each page unlocks and what comes after it: a page unlocks only after the last thing it tells

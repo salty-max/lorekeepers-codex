@@ -7,4 +7,4 @@ L'Aube d'argent recrute contre le Fléau dans l'Alliance comme dans la Horde. Se
 
 Des officiers au camp du Noroît et à la Barricade délivrent des commissions et acceptent les pierres du Fléau que portent les morts. Des émissaires travaillent à Hurlevent, à Darnassus et à Long-guet. L'Aube a fait de sa guerre une cause que les gens des deux factions peuvent rejoindre.
 
-Elle partage un ennemi avec la Croisade écarlate, mais guère d'affection pour ses méthodes. L'Aube tient la méfiance de la Croisade envers chaque étranger pour une aide au roi-liche. L'objection a son bon sens : ce combat a déjà bien assez d'ennemis.
+Elle partage un ennemi avec la Croisade écarlate, mais guère d'affection pour ses méthodes. L'Aube tient la méfiance de la Croisade envers chaque étranger pour une aide au roi-liche. L'objection a son bon sens : ce combat a déjà bien assez d'ennemis.

@@ -1,7 +1,7 @@
 ---
 id: excavation-site-wetlands
 source: c24b7df06389
-title: Excavations : les Paluns
+title: Excavations : les Paluns
 ---
 Le marais du prospecteur Whelgar n'est pas la seule fouille des Paluns. Une équipe venue du Loch Modan est montée dans les collines qui le dominent, sur des terres où aucun nain n'avait jamais posé le pied, et y a trouvé des ruines, un second marais là-haut, avec ses raptors et des herbes plus hautes que tout ce que les fouilleurs avaient jamais vu, et dessous, quelque chose de bien plus ancien. Tous ne sont pas revenus. Dorin Songblade, le forgeron de Comté-du-Lac, est sans nouvelles de son frère Daewyn depuis que les lettres ont cessé, et Ardin Grassman, de Menethil, est monté voir les herbes et on ne l'a plus revu.
 

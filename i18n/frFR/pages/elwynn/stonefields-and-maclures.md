@@ -7,4 +7,4 @@ Les Stonefield et les Maclure cultivent leurs terres de part et d'autre de la mi
 
 La grand-mère des Stonefield est du côté des jeunes gens. Elle envoie un mot à son vieil ami William Pestle, à Comté-de-l'Or, qui sait brasser une liqueur d'invisibilité si quelqu'un lui rapporte du varech cristallin pris aux murlocs du lac de Cristal. Grâce à elle, Maybell peut quitter les vignes de sa famille sans être vue. Elle se sent coupable de les tromper, dit-elle, mais pas assez pour rester.
 
-La querelle continue autour d'eux : une tante Stonefield accuse le jeune Billy Maclure d'avoir volé son collier, Maman Stonefield jure la mort de la truie primée des Brackwell pour avoir mangé ses légumes. Elwynn a vu les Défias, les kobolds et les gnolls aller et venir. Jusqu'ici, la querelle leur a survécu à tous.
+La querelle continue autour d'eux : une tante Stonefield accuse le jeune Billy Maclure d'avoir volé son collier, Maman Stonefield jure la mort de la truie primée des Brackwell pour avoir mangé ses légumes. Elwynn a vu les Défias, les kobolds et les gnolls aller et venir. Jusqu'ici, la querelle leur a survécu à tous.

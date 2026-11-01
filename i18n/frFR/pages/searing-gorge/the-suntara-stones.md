@@ -7,6 +7,6 @@ Les pierres de Suntara n'étaient qu'une rumeur de fouilleurs jusqu'à ce que Do
 
 Thorius sécha ses larmes et jura que la volonté de son frère serait exaucée. On retrouva les fouilleurs dans la Fosse aux scories, travaillant encore alors que leurs corps avaient lâché, tenus à la tâche par les pierres jusqu'à ce qu'une relique gardée par le Marteau du crépuscule soit posée sur l'Autel de Suntara. L'un d'eux vécut assez longtemps pour dire que tout cela n'était qu'un piège, et pour demander qu'on tue l'homme qui l'avait tendu, pour Thorius.
 
-La tête de Lathoric le Noir, quand on la rapporta au Hall, était celle de Dorius. Il avait mis en scène sa propre mort sur la route, et la lettre avec. Thorius en accusa le seigneur du Feu et les Dieux très anciens, dont l'emprise reste forte sur ces terres : si un nain aussi honorable que son frère avait pu être soumis à la volonté de Ragnaros, dit-il, personne n'était en sûreté.
+La tête de Lathoric le Noir, quand on la rapporta au Hall, était celle de Dorius. Il avait mis en scène sa propre mort sur la route, et la lettre avec. Thorius en accusa le seigneur du Feu et les Dieux très anciens, dont l'emprise reste forte sur ces terres : si un nain aussi honorable que son frère avait pu être soumis à la volonté de Ragnaros, dit-il, personne n'était en sûreté.
 
 Relisez la lettre en sachant qui l'a écrite, $gvoyageur:voyageuse;. Presque chacune de ses lignes est vraie. Seule la signature ment.
