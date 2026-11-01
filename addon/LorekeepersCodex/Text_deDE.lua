@@ -4249,8 +4249,8 @@ ns.translate({
       title = "Hochlord Bolvar Fordragon",
       text = {
         { "Hochlord Bolvar Fordragon befehligt die Heere Stormwinds und steht dem Knabenkönig Anduin Wrynn zur Seite, solange dessen Vater Varian verschollen ist. Er ist ein Paladin der alten Schule, fromm, ehrlich und unerschütterlich, und er hält die Soldaten des Königreichs dort, wo das Königreich sie am dringendsten braucht, was selten dort ist, wo die Provinzen sie gern hätten." },
-        { "Er ist ein vorsichtiger Mann, vielleicht zu vorsichtig. Als der Magistrat von Seenhain meldete, dass die Orcs der Blackrock Drachen hinter sich hätten, wollte Bolvar keine Truppen auf bloße Vermutungen hin bewegen und schickte den Boten, Lady Katrana Prestor um Rat zu fragen. Marshal Windsor, der den Beweis gefunden hatte, nannte ihn einen Narren: Der Beweis stehe zwei Fuß von ihm entfernt, sagte er, und er sehe ihn nicht. Als Windsor die Lady im Thronsaal als Onyxia entlarvte, die Tochter Todesschwinges, sagte er, selbst der Hochlord sei ihre Marionette gewesen, gehalten von einem Drachenmedaillon. Am Ende blieb Bolvar mit dem zerschmetterten Medaillon in der Hand zurück." },
-        { "Er ist kein Narr. Er ist ein ehrlicher Mann, der einem Drachen aufs Wort glaubte, und ich bezweifle, dass er es noch einmal tun wird." },
+        { "Er ist ein vorsichtiger Mann, vielleicht zu vorsichtig. Als der Magistrat von Seenhain meldete, dass die Orcs der Blackrock Drachen hinter sich hätten, wollte Bolvar keine Truppen auf bloße Vermutungen hin bewegen und schickte den Boten, Lady Katrana Prestor um Rat zu fragen." },
+        { "Er ist kein Narr." },
       },
     },
     ["booty-bay"] = {
@@ -4878,7 +4878,7 @@ ns.translate({
         { "Lordaeron war das erste unter den Königreichen der Menschen, und sein König Terenas Menethil hatte die Allianz durch den Zweiten Krieg geführt. Als die Seuche aus dem Norden kam und die Toten sich zu erheben begannen, war es sein Sohn, Prinz Arthas, ein Paladin der Silbernen Hand, der gegen sie auszog." },
         { "Arthas verfolgte sie zu weit. Er ließ die verseuchte Stadt Stratholme über die Klinge springen, statt ihre Bewohner sich erheben zu sehen, folgte den Herren der Seuche nach Nordend und nahm dort eine verfluchte Runenklinge auf, Frostgram. Als er heimkehrte, jubelte das Volk ihm durch die Tore zu. Er ging in den Thronsaal seines Vaters und tötete ihn, und das Königreich fiel hinter ihm an die Toten." },
         { "In diesen Ruinen ist es geschehen. Die Verlassenen gehen jeden Tag über sie hinweg, und manche von ihnen standen in der jubelnden Menge." },
-        { side = "Horde", aside = true, sign = "P. F.", "Sie schreibt, dass manche der Verlassenen in der jubelnden Menge standen. Manche von uns taten es. Ich habe mehr als einmal versucht, diesen Tag niederzuschreiben, und es ist mir noch nicht gelungen." },
+        { side = "Horde", aside = true, sign = "P. F.", "Sie schreibt, dass manche der Verlassenen in der jubelnden Menge standen. Manche von uns taten es." },
       },
     },
     ["falstad-wildhammer"] = {
@@ -5528,7 +5528,7 @@ ns.translate({
       title = "Seenhain",
       text = {
         { "Seenhain ist eine Stadt aus Holzhäusern am Ufer des Immerruhsees, mit einem Gasthaus, einem Rathaus und einer Brücke über das Wasser, die die Bewohner noch immer wiederaufbauen: Bei der letzten Invasion schmolzen sie ihr Eisen ein, um Schwerter daraus zu machen, und die Gnolle stahlen die Lieferung, die es ersetzen sollte." },
-        { "Ihr Magistrat Solomon ist ein vorsichtiger Mann mit sehr vielen Sorgen. Die Blackrock halten die Burg im Norden und sperren seine Leute in ihrer Stadt ein. Er hat Stormwind um Hilfe gebeten, und die Antwort kam zurück, es gebe nicht genug Soldaten, um sie auf bloße Vermutungen hin zu entbehren. Seither hat er erfahren, was die Orcs der Blackrock wirklich antreibt und wer in Stormwind ihn nicht gehört haben wollte. Seenhain, so vermute ich, wird es nicht vergessen." },
+        { "Ihr Magistrat Solomon ist ein vorsichtiger Mann mit sehr vielen Sorgen. Die Blackrock halten die Burg im Norden und sperren seine Leute in ihrer Stadt ein. Er hat Stormwind um Hilfe gebeten, und die Antwort kam zurück, es gebe nicht genug Soldaten, um sie auf bloße Vermutungen hin zu entbehren. Seenhain, so vermute ich, wird es nicht vergessen." },
       },
     },
     ["larkorwi"] = {
@@ -6233,7 +6233,7 @@ ns.translate({
       title = "Die Ruinen von Kel'Theril",
       text = {
         { "Am gefrorenen Kel'Therilsee liegen die Ruinen einer Stadt der Hochgeborenen, und ihre Hochgeborenen sind noch dort, als Geister. Vor langer Zeit stahlen sie ein heiliges Relikt, den Kristall von Zin-Malor, aus seinem Tempel, um seine Macht für sich selbst abzuschöpfen. Das Ritual ging schief. Der Kristall zersprang in einer gewaltigen Explosion, und seine Stücke wurden unter das Eis des Sees getrieben." },
-        { "Die Hochgeborenen wurden verflucht, an dem Ort zu bleiben, an dem sie es getan hatten, und für immer nach den Stücken zu suchen. Als schließlich jemand sie sammelte und den Kristall wieder ganz machte, sprach einer der Geister: Es tue ihm leid, und er wisse, dass nichts die Vergangenheit ändern könne, doch er habe Frieden. Der Tempel des Kristalls liegt in Ruinen, also ging er stattdessen an den Erzdruiden in Darnassus." },
+        { "Die Hochgeborenen wurden verflucht, an dem Ort zu bleiben, an dem sie es getan hatten, und für immer nach den Stücken zu suchen." },
       },
     },
     ["ruins-of-lordaeron"] = {
@@ -6763,7 +6763,7 @@ ns.translate({
       text = {
         { "Einst bewohnten Müller und Bauern Tarrens Mühle. Die Verlassenen halten es nun als südliches Bollwerk, mit einer Todeswache, die einer Hochexekutorin dient, die wiederum Varimathras Rechenschaft schuldet. Southshore ist nur einen kurzen Ritt entfernt." },
         { "Darthalia befiehlt Überfälle auf die Höfe von Hillsbrad und nennt ihre menschlichen Bewohner eine Plage. Sie will sie unterwerfen, während die Apotheker ihre neue Seuche vollenden. Der Krieg zwischen diesen Orten reicht weit über ihre Wachen hinaus: Die Bauern und ihre Ernten werden in seinen Befehlen beim Namen genannt." },
-        { side = "Horde", aside = true, sign = "P. F.", "Man sagt uns, die neue Seuche der Apotheker sei für die Geißel bestimmt. Die letzte Seuche hat mich getötet, und das hätte ich gern schriftlich." },
+        { side = "Horde", aside = true, sign = "P. F.", "Man sagt uns, die neue Seuche der Apotheker sei für die Geißel bestimmt. Das hätte ich gern schriftlich." },
       },
     },
     ["tauren"] = {
@@ -6785,7 +6785,7 @@ ns.translate({
     ["temple-of-ahn-qiraj-tune"] = {
       title = "Tempel von Ahn'Qiraj",
       text = {
-        { "Irgendwo tief im Tempel von Ahn'Qiraj spielt ein Dutzend Stücke, die ich nirgendwo sonst gefunden habe. Die Qiraji dienen C'Thun, einem Alten Gott, dessen Bosheit schon da war, bevor die Welt Gestalt annahm, und der Tempel ist sein Haus. Wer die letzte Kammer lebend verlassen hat, trägt das Auge dessen bei sich, der dort herrschte, und das nehme ich als redlichen Beweis, dass dort nichts zu alt ist, um zu sterben." },
+        { "Irgendwo tief im Tempel von Ahn'Qiraj spielt ein Dutzend Stücke, die ich nirgendwo sonst gefunden habe. Die Qiraji dienen C'Thun, einem Alten Gott, dessen Bosheit schon da war, bevor die Welt Gestalt annahm, und der Tempel ist sein Haus." },
       },
     },
     ["temple-of-ahnqiraj"] = {
@@ -7548,7 +7548,7 @@ ns.translate({
       text = {
         { "Lordaerons Hauptstadt liegt in Trümmern über der eigenen Stadt der Verlassenen. Hinter ihren zerbrochenen Mauern liegen der zerschmetterte Thronsaal und leblose Höfe. Darunter sind alte Grüfte und Katakomben zu Undercity geworden, angelegt um Ringe aus grünem Schleim. Sylvanas hält Hof in ihrem Königsviertel." },
         { "Händler, Lehrer und Wachen bewohnen die anderen Viertel, und die Königliche Apothekervereinigung arbeitet im Apothekarium. Die Verlassenen haben eine funktionierende Hauptstadt unter dem Wrack derjenigen geschaffen, die sie im Leben kannten. Ein Reisender, der nur die Ruinen oben ansieht, würde übersehen, wo die verbliebenen Geschäfte des Königreichs heute geführt werden." },
-        { side = "Horde", aside = true, sign = "P. F.", "Mit dem Apothekarium hat sie recht, so weit es reicht. Ihr findet mich dort, auf der südlichen seiner beiden Brücken, wo ich Helden Fragen stelle, die glauben, Stärke genüge. Kommt und lasst Euch prüfen, $gReisender:Reisende;." },
+        { side = "Horde", aside = true, sign = "P. F.", "Mit dem Apothekarium hat sie recht, so weit es reicht. Ihr findet mich dort, auf der südlichen seiner beiden Brücken, wo ich Helden Fragen stelle, die glauben, Stärke genüge." },
       },
     },
     ["undercity-tune"] = {
@@ -7578,8 +7578,8 @@ ns.translate({
       text = {
         { "Vaelastrasz ist ein roter Drache aus dem Schwarm der Drachenkönigin, und vor tausend Jahren wurde ihm ein Splitter des Zepters anvertraut, das Ahn'Qiraj versiegelte. In der Blackrockspitze erscheint er Sterblichen als Vaelan, in einer Gestalt, wie er sagt, deren Anblick sie ertragen können, und er hilft den Kühnen, das Siegel des Aufstiegs zu schmieden, das ihnen die obere Zitadelle öffnet." },
         { "Er hat gesehen, wie die Drachen an den Rand der Ausrottung gebracht wurden, sagt er: durch den Ansturm der Brennenden Legion und die Dämonenseele, durch die Spaltung der Aspekte und den Aufstieg Todesschwinges, und durch die Dragonmaw, die seine eigene Königin Alexstrasza versklavten. Todesschwinge hieß einst Neltharion und war der Aspekt der Kraft der Welt, dem der Titan Khaz'goroth Macht über sie verliehen hatte. Durch Verrat brachte Neltharion die vier anderen Aspekte dazu, ihre Kräfte der Dämonenseele zu geben, was sie schwach und uneins zurückließ. Nun hält sein Sohn Nefarian die Spitze und führt das Werk seines Vaters fort, hinter uralten Schutzzaubern, die kein Drache eines anderen Schwarms überwinden kann. Ein Sterblicher mit dem Siegel schon." },
-        { "Das Schmieden verlangt Edelsteine von drei Generälen der Spitze und den Atem eines schwarzen Drachen, dessen Wille gebrochen wurde. Der rote Schwarm hatte nie etwas dagegen, sich das Feuer seines Feindes zu borgen." },
-        { "Am Ende fing Nefarian ihn. Im Pechschwingenhort wartet er, entstellt von der Verderbnis des schwarzen Drachen, und fleht die an, die ihn erreichen, den Splitter des Zepters zurückzunehmen, ehe der Splitter zerstört wird. 'Zu spät, Freunde!', sagt er und wendet sich gegen sie. Wer ihn niederstreckt, erfährt danach, dass seine Seele Frieden gefunden hat. Ich hoffe es." },
+        { "Das Schmieden verlangt Edelsteine von drei Generälen der Spitze und den Atem eines schwarzen Drachen, dessen Wille gebrochen wurde." },
+        { "Der rote Schwarm hatte nie etwas dagegen, sich das Feuer seines Feindes zu borgen." },
       },
     },
     ["valanaar"] = {

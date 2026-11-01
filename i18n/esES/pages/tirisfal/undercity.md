@@ -8,4 +8,4 @@ La capital de Lordaeron yace en ruinas sobre la ciudad de los Renegados. Tras su
 
 Mercaderes, instructores y guardias ocupan los otros barrios, y la Sociedad Real de Boticarios trabaja en el Apothecarium. Los Renegados han creado una capital en funcionamiento bajo los restos de la que conocieron en vida. Quien solo mirase las ruinas de arriba no vería dónde se atienden ahora los asuntos que le quedan al reino.
 
-[horde] > Lo que dice del Apothecarium es correcto, hasta donde llega. Me encontrarás allí, en el puente sur de los dos que tiene, donde formulo preguntas a los héroes que creen que basta con la fuerza. Ven a examinarte, $gviajero:viajera;. -- P. F.
+[horde] > Lo que dice del Apothecarium es correcto, hasta donde llega. Me encontrarás allí, en el puente sur de los dos que tiene, donde formulo preguntas a los héroes que creen que basta con la fuerza. -- P. F.

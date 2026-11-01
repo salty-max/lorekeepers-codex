@@ -4228,8 +4228,8 @@ ns.translate({
       title = "Alto señor Bolvar Fordragon",
       text = {
         { "El alto señor Bolvar Fordragon manda los ejércitos de Ventormenta y permanece junto al joven rey Anduin Wrynn mientras su padre, Varian, sigue desaparecido. Es un paladín de la vieja escuela, devoto, honrado e inamovible, y mantiene a los soldados del reino donde más falta hacen, que rara vez es donde querrían las provincias." },
-        { "Es un hombre prudente, quizá demasiado. Cuando el magistrado de Villa del Lago avisó de que los orcos Roca Negra contaban con dragones, Bolvar se negó a mover tropas basándose en conjeturas y envió al mensajero a pedir consejo a lady Katrana Prestor. El alguacil Windsor, que había encontrado las pruebas, lo llamó necio: las tenía a dos pasos y no las veía. Cuando Windsor desenmascaró a la dama en el salón del trono como Onyxia, hija de Alamuerte, afirmó que hasta el alto señor había sido su marioneta, sometido por el medallón de un dragón. Al final, Bolvar se quedó con él en las manos, hecho añicos." },
-        { "No es un necio. Es un hombre honrado que creyó la palabra de una dragona, y dudo que vuelva a hacerlo." },
+        { "Es un hombre prudente, quizá demasiado. Cuando el magistrado de Villa del Lago avisó de que los orcos Roca Negra contaban con dragones, Bolvar se negó a mover tropas basándose en conjeturas y envió al mensajero a pedir consejo a lady Katrana Prestor." },
+        { "No es un necio." },
       },
     },
     ["booty-bay"] = {
@@ -4857,7 +4857,7 @@ ns.translate({
         { "Lordaeron era el primero de los reinos humanos y su rey, Terenas Menethil, había guiado a la Alianza durante la Segunda Guerra. Cuando la peste llegó del norte y los muertos empezaron a alzarse, fue su hijo, el príncipe Arthas, paladín de la Mano de Plata, quien salió a combatirla." },
         { "Arthas la persiguió demasiado lejos. Pasó a cuchillo la ciudad apestada de Stratholme antes que ver a sus habitantes resucitar, siguió a los amos de la peste hasta Rasganorte y empuñó allí una hoja rúnica maldita, Agonía de Escarcha. Cuando volvió, el pueblo lo aclamó al cruzar las puertas. Entró en el salón del trono de su padre y lo mató. Tras él, el reino cayó en manos de los muertos." },
         { "Estas ruinas son el lugar donde ocurrió. Los Renegados caminan sobre ellas cada día y algunos estaban entre la multitud que lo aclamó." },
-        { side = "Horde", aside = true, sign = "P. F.", "Escribe que algunos Renegados estábamos entre aquella multitud. Algunos estábamos, sí. He intentado más de una vez poner aquel día por escrito. Aún no lo he conseguido." },
+        { side = "Horde", aside = true, sign = "P. F.", "Escribe que algunos Renegados estábamos entre aquella multitud. Algunos estábamos, sí." },
       },
     },
     ["falstad-wildhammer"] = {
@@ -5507,7 +5507,7 @@ ns.translate({
       title = "Villa del Lago",
       text = {
         { "Villa del Lago es una población de casas de madera a orillas del Lago Sempiterno, con posada, ayuntamiento y un puente que sus vecinos aún están reconstruyendo: en la última invasión fundieron su hierro para hacer espadas, y los gnolls robaron el cargamento que debía reponerlo." },
-        { "Su magistrado, Salomón, es un hombre prudente con muchísimos problemas. Los Roca Negra ocupan el fuerte del norte y mantienen a sus habitantes encerrados en la villa. Escribió a Ventormenta pidiendo ayuda y recibió por respuesta que no sobraban soldados para enviarlos basándose en conjeturas. Desde entonces ha sabido qué impulsa realmente a los orcos de Roca Negra y quién en Ventormenta no quería que lo escucharan. Sospecho que Villa del Lago no lo olvidará." },
+        { "Su magistrado, Salomón, es un hombre prudente con muchísimos problemas. Los Roca Negra ocupan el fuerte del norte y mantienen a sus habitantes encerrados en la villa. Escribió a Ventormenta pidiendo ayuda y recibió por respuesta que no sobraban soldados para enviarlos basándose en conjeturas. Sospecho que Villa del Lago no lo olvidará." },
       },
     },
     ["larkorwi"] = {
@@ -6212,7 +6212,7 @@ ns.translate({
       title = "Las Ruinas de Kel'Theril",
       text = {
         { "Junto al helado Lago Kel'Theril están las ruinas de una población Altonato, cuyos habitantes siguen allí como fantasmas. Hace mucho robaron una reliquia sagrada de su templo, el Cristal de Zin-Malor, para absorber su poder. El ritual salió mal. El cristal se hizo añicos en una gran explosión y sus fragmentos quedaron bajo el hielo del lago." },
-        { "Los Altonato fueron condenados a permanecer donde lo habían hecho, buscando los fragmentos para siempre. Cuando alguien los reunió por fin y reconstruyó el cristal, uno de los fantasmas habló: se arrepentía y sabía que nada podía cambiar el pasado, pero estaba en paz. El templo del cristal está en ruinas, así que lo llevaron al archidruida de Darnassus." },
+        { "Los Altonato fueron condenados a permanecer donde lo habían hecho, buscando los fragmentos para siempre." },
       },
     },
     ["ruins-of-lordaeron"] = {
@@ -6742,7 +6742,7 @@ ns.translate({
       text = {
         { "En otro tiempo, molineros y granjeros habitaban Molino Tarren. Ahora los Renegados lo ocupan como bastión del sur, con guardias de la Muerte al servicio de un sumo ejecutor que responde ante Varimathras. Costasur está a un breve trayecto a caballo." },
         { "Darthalia ordena ataques contra las granjas de Trabalomas y llama plaga a sus habitantes humanos. Pretende someterlos mientras los boticarios terminan su nueva peste. La guerra entre estas poblaciones va mucho más allá de sus guardias: los granjeros y sus cosechas figuran en las órdenes." },
-        { side = "Horde", aside = true, sign = "P. F.", "Nos dicen que la nueva peste de los boticarios está destinada a la Plaga. La última peste me mató. Me gustaría verlo por escrito." },
+        { side = "Horde", aside = true, sign = "P. F.", "Nos dicen que la nueva peste de los boticarios está destinada a la Plaga. Me gustaría verlo por escrito." },
       },
     },
     ["tauren"] = {
@@ -6764,7 +6764,7 @@ ns.translate({
     ["temple-of-ahn-qiraj-tune"] = {
       title = "Templo de Ahn'Qiraj",
       text = {
-        { "En algún rincón profundo del Templo de Ahn'Qiraj suena una docena de piezas que no he encontrado en ningún otro sitio. Los qiraji sirven a C'Thun, un dios antiguo cuya malicia ya estaba aquí antes de que el mundo tomara forma, y el templo es su morada. Quienes han salido de su última cámara traen el ojo de la criatura que allí reinaba, y lo tomo por prueba suficiente de que nada ahí dentro es demasiado viejo para morir." },
+        { "En algún rincón profundo del Templo de Ahn'Qiraj suena una docena de piezas que no he encontrado en ningún otro sitio. Los qiraji sirven a C'Thun, un dios antiguo cuya malicia ya estaba aquí antes de que el mundo tomara forma, y el templo es su morada." },
       },
     },
     ["temple-of-ahnqiraj"] = {
@@ -7527,7 +7527,7 @@ ns.translate({
       text = {
         { "La capital de Lordaeron yace en ruinas sobre la ciudad de los Renegados. Tras sus muros derruidos están el salón del trono destrozado y los patios sin vida. Debajo, las viejas criptas y catacumbas se han convertido en Entrañas, dispuesta alrededor de anillos de cieno verde. Sylvanas celebra su corte en el Barrio Real." },
         { "Mercaderes, instructores y guardias ocupan los otros barrios, y la Sociedad Real de Boticarios trabaja en el Apothecarium. Los Renegados han creado una capital en funcionamiento bajo los restos de la que conocieron en vida. Quien solo mirase las ruinas de arriba no vería dónde se atienden ahora los asuntos que le quedan al reino." },
-        { side = "Horde", aside = true, sign = "P. F.", "Lo que dice del Apothecarium es correcto, hasta donde llega. Me encontrarás allí, en el puente sur de los dos que tiene, donde formulo preguntas a los héroes que creen que basta con la fuerza. Ven a examinarte, $gviajero:viajera;." },
+        { side = "Horde", aside = true, sign = "P. F.", "Lo que dice del Apothecarium es correcto, hasta donde llega. Me encontrarás allí, en el puente sur de los dos que tiene, donde formulo preguntas a los héroes que creen que basta con la fuerza." },
       },
     },
     ["undercity-tune"] = {
@@ -7557,8 +7557,8 @@ ns.translate({
       text = {
         { "Vaelastrasz es un dragón rojo del Vuelo de la Reina de los Dragones. Hace mil años se le confió un fragmento del cetro que selló Ahn'Qiraj. En la Cumbre de Roca Negra aparece a los mortales como Vaelan, con una forma que, como él dice, pueden soportar mirar. Ayuda a los valientes a forjar el Sello de Ascensión que abre la ciudadela superior." },
         { "Ha visto a los dragones al borde de la extinción, cuenta: por el ataque de la Legión Ardiente y el Alma demoníaca, por la división de los Aspectos y el ascenso de Alamuerte, y por los Faucedraco, que esclavizaron a su propia reina, Alexstrasza. Alamuerte fue en su día Neltharion, el Aspecto de la fuerza del mundo, que recibió del titán Khaz'goroth su poder sobre él, y con engaños convenció a los otros cuatro Aspectos de que entregaran sus poderes al Alma demoníaca, lo que los dejó débiles y divididos. Ahora su hijo Nefarian domina la Cumbre y continúa la obra de su padre, tras unas protecciones antiguas que ningún dragón de otro vuelo puede cruzar. Un mortal con el Sello sí puede." },
-        { "La forja exige gemas de tres generales de la Cumbre y el aliento de un draco negro cuya voluntad ha sido quebrada. Al Vuelo Rojo nunca le ha importado tomar prestado el fuego del enemigo." },
-        { "Nefarian acabó atrapándolo. Espera en la Guarida de Alanegra, retorcido por la corrupción del dragón negro, y suplica a quienes llegan que recuperen el fragmento del cetro antes de que sea destruido. 'Demasiado tarde, amigos', dice, y se vuelve contra ellos. A quienes lo derrotan se les dice después que su alma descansa. Eso espero." },
+        { "La forja exige gemas de tres generales de la Cumbre y el aliento de un draco negro cuya voluntad ha sido quebrada." },
+        { "Al Vuelo Rojo nunca le ha importado tomar prestado el fuego del enemigo." },
       },
     },
     ["valanaar"] = {

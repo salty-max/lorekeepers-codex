@@ -10,4 +10,4 @@ Arthas la persiguió demasiado lejos. Pasó a cuchillo la ciudad apestada de Str
 
 Estas ruinas son el lugar donde ocurrió. Los Renegados caminan sobre ellas cada día y algunos estaban entre la multitud que lo aclamó.
 
-[horde] > Escribe que algunos Renegados estábamos entre aquella multitud. Algunos estábamos, sí. He intentado más de una vez poner aquel día por escrito. Aún no lo he conseguido. -- P. F.
+[horde] > Escribe que algunos Renegados estábamos entre aquella multitud. Algunos estábamos, sí. -- P. F.

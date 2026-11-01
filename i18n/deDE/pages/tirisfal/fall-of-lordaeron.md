@@ -9,4 +9,4 @@ Arthas verfolgte sie zu weit. Er ließ die verseuchte Stadt Stratholme über die
 
 In diesen Ruinen ist es geschehen. Die Verlassenen gehen jeden Tag über sie hinweg, und manche von ihnen standen in der jubelnden Menge.
 
-[horde] > Sie schreibt, dass manche der Verlassenen in der jubelnden Menge standen. Manche von uns taten es. Ich habe mehr als einmal versucht, diesen Tag niederzuschreiben, und es ist mir noch nicht gelungen. -- P. F.
+[horde] > Sie schreibt, dass manche der Verlassenen in der jubelnden Menge standen. Manche von uns taten es. -- P. F.
