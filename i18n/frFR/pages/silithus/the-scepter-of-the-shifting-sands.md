@@ -1,6 +1,6 @@
 ---
 id: the-scepter-of-the-shifting-sands
-source: 5a0a3da23ed7
+source: dc787dcf6dc9
 title: Le sceptre des Sables changeants
 ---
 Pour sceller Ahn'Qiraj, le dragon de bronze Anachronos fabriqua un sceptre, le sceptre des Sables changeants, et avec lui il ferma le Mur du scarabée et plaça devant celui-ci un gong sur une estrade. Seul le sceptre, frappé sur le gong, peut le rouvrir. Il le remit à Fandral Staghelm.

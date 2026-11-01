@@ -1,6 +1,6 @@
 ---
 id: feathermoon-stronghold
-source: afff2c822d24
+source: cdd3882e1b09
 title: Le bastion de Pennelune
 ---
 Le bastion de Pennelune se dresse sur l'île de Sardor, au large de la côte de Feralas, accessible en bateau depuis le continent. La générale Shandris Feathermoon y commande ses Sentinelles, derrière des murs blancs au-dessus d'un port. La forteresse porte son nom.

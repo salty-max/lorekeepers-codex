@@ -1,8 +1,8 @@
 ---
 id: harpies
-source: cdc29a79a19e
+source: 08c29ec30a20
 title: Les harpies
 ---
-Les harpies nichent dans tout Kalimdor, chassant et lançant des sorts, avec des ailes et des serres pour les porter au-dessus du sol. Les Terrevent occupent Durotar, les Furie-des-vents Mulgore, les Ensorçaile les Tarides et les Rougefurie les Serres-Rocheuses. Leurs nuées se sont fait des ennemis parmi les établissements d'en bas.
+Les harpies nichent dans tout Kalimdor, chassant en vol, toutes serres et tous sorts dehors. Les Terrevent occupent Durotar, les Furie-des-vents Mulgore, les Ensorçaile les Tarides et les Rougefurie les Serres-Rocheuses. Leurs nuées se sont fait des ennemis parmi les établissements d'en bas.
 
-Ruul Eagletalon envoie des chasseurs contre les Furie-des-vents en guise d'épreuve. Les druides des Serres-Rocheuses veulent reprendre le Val calciné aux Rougefurie pour le restaurer. Un voyageur qui passe sous leurs aires a une raison toute pratique d'apprendre quelle nuée les tient.
+Ruul Eagletalon envoie des chasseurs contre les Furie-des-vents en guise d'épreuve. Les druides des Serres-Rocheuses veulent qu'on reprenne le Val calciné aux Rougefurie pour le restaurer. Quelle nuée tient quelle falaise, voilà ce qui décide de la sûreté de la route en contrebas.

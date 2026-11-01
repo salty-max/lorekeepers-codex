@@ -1,6 +1,6 @@
 ---
 id: archmage-arugal
-source: f2a466462c1a
+source: dd0e9ec5ee11
 title: Archimage Arugal
 ---
 Tandis que les défenseurs de Dalaran tombaient sous le Fléau, Arugal chercha une arme contre les morts. Le mage du Kirin Tor fit venir des worgens d'un autre monde. Ils combattirent les envahisseurs, puis se retournèrent contre les vivants qu'ils avaient été appelés à protéger.

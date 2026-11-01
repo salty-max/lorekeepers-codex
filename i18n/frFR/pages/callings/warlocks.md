@@ -1,6 +1,6 @@
 ---
 id: warlocks
-source: e99c96c1a3f5
+source: dc16f8372731
 title: Démonistes
 ---
 Gul'dan apporta la magie démoniste dans la Horde orque. Lui et son Conseil des ombres l'avaient apprise de Kil'jaeden, et grâce à elle ils firent de leur peuple une arme de la Légion ardente. Les démonistes de la Horde relevèrent les morts, invoquèrent des démons et brûlèrent des contrées entières, et leur art survécut à leurs maîtres.
@@ -9,4 +9,4 @@ On trouve aujourd'hui ses élèves des deux côtés. La Lame ardente sert toujou
 
 [forever] Les Darkspear comptent désormais eux aussi des démonistes parmi leurs lanceurs de sorts.
 
-La plupart des cités tolèrent les démonistes sans leur faire confiance, $gvoyageur:voyageuse;, et les démonistes semblent préférer qu'il en soit ainsi.
+La plupart des cités tolèrent les démonistes sans leur faire confiance, et les démonistes semblent préférer qu'il en soit ainsi.

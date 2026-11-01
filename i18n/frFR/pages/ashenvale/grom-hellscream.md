@@ -1,6 +1,6 @@
 ---
 id: grom-hellscream
-source: a4c92d5a5295
+source: bdda2f8a99b5
 title: Grom Hellscream
 ---
 Grommash Hellscream, chef des Chanteguerre, fut le premier des chefs orcs à boire le sang de Mannoroth sur Draenor, et il y mena les autres. La force qu'il leur donna lia les clans au démon dont ils partageaient le sang.
