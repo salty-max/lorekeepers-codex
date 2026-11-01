@@ -4254,9 +4254,9 @@ ns.translate({
     ["bolvar-fordragon"] = {
       title = "Généralissime Bolvar Fordragon",
       text = {
-        { "Le généralissime Bolvar Fordragon commande les armées de Hurlevent et se tient aux côtés de l'enfant-roi, Anduin Wrynn, tandis que son père Varian a disparu. C'est un paladin de la vieille école, pieux, honnête et inébranlable, et il garde les soldats du royaume là où le royaume en a le plus besoin, ce qui est rarement là où les provinces les voudraient." },
-        { "C'est un homme prudent, trop prudent peut-être. Quand le magistrat de Comté-du-Lac fit savoir que les orcs Blackrock avaient des dragons derrière eux, Bolvar refusa de déplacer des troupes sur une simple supposition et envoya le messager demander conseil à dame Katrana Prestor. Le maréchal Windsor, qui avait trouvé la preuve, le traita d'imbécile : elle se tenait à deux pas de lui, dit-il, et il ne la voyait pas. Quand Windsor démasqua la dame dans la salle du trône comme étant Onyxia, fille d'Aile de mort, il déclara que même le généralissime avait été sa marionnette, tenu par un médaillon de dragon. À la fin, ce fut Bolvar qui resta avec le médaillon brisé entre les mains." },
-        { "Ce n'est pas un imbécile. C'est un honnête homme qui a cru une dragonne sur parole, et je doute qu'il recommence." },
+        { "Le généralissime Bolvar Fordragon commande les armées de Hurlevent et se tient aux côtés de l'enfant-roi, Anduin Wrynn, tandis que le père d'Anduin, Varian, a disparu. C'est un paladin de la vieille école, pieux, honnête et inébranlable, et il garde les soldats du royaume là où le royaume en a le plus besoin, ce qui est rarement là où les provinces les voudraient." },
+        { "C'est un homme prudent, trop prudent peut-être. Quand le magistrat de Comté-du-Lac fit savoir que les orcs Blackrock avaient des dragons derrière eux, Bolvar refusa de déplacer des troupes sur une simple supposition et envoya le messager demander conseil à dame Katrana Prestor." },
+        { "Certains, en ville, jugent cette prudence insensée. J'y vois l'habitude d'un honnête homme, qui s'attend à ce que les conseils qu'on lui donne soient honnêtes eux aussi." },
       },
     },
     ["booty-bay"] = {
@@ -4882,9 +4882,9 @@ ns.translate({
       title = "La chute de Lordaeron",
       text = {
         { "Lordaeron était le premier des royaumes des hommes, et son roi, Terenas Menethil, avait mené l'Alliance pendant la Deuxième Guerre. Quand la peste descendit du nord et que les morts commencèrent à se relever, ce fut son fils, le prince Arthas, paladin de la Main d'argent, qui partit la combattre." },
-        { "Arthas la poursuivit trop loin. Il passa au fil de l'épée la cité de Stratholme, frappée par la peste, plutôt que de voir ses habitants se relever, suivit les maîtres de la peste jusqu'au Norfendre, et y prit une lame runique maudite, Deuillegivre. À son retour, le peuple l'acclama jusqu'aux portes. Il entra dans la salle du trône de son père et le tua, et derrière lui le royaume tomba aux mains des morts." },
+        { "Arthas poursuivit la peste trop loin. Il passa au fil de l'épée la cité de Stratholme, frappée par la peste, plutôt que de voir ses habitants se relever, suivit les maîtres de la peste jusqu'au Norfendre, et y prit une lame runique maudite, Deuillegivre. À son retour, le peuple l'acclama jusqu'aux portes. Il entra dans la salle du trône de son père et le tua, et derrière lui le royaume tomba aux mains des morts." },
         { "C'est dans ces ruines que cela s'est passé. Les Réprouvés y marchent chaque jour, et certains d'entre eux étaient dans la foule qui l'acclamait." },
-        { side = "Horde", aside = true, sign = "P. F.", "Elle écrit que certains Réprouvés étaient dans la foule qui l'acclamait. Certains d'entre nous y étaient. J'ai plus d'une fois tenté de mettre ce jour par écrit, et je n'y suis pas encore parvenu." },
+        { side = "Horde", aside = true, sign = "P. F.", "Elle écrit que certains Réprouvés étaient dans la foule qui l'acclamait. Certains d'entre nous y étaient." },
       },
     },
     ["falstad-wildhammer"] = {
@@ -5533,8 +5533,8 @@ ns.translate({
     ["lakeshire"] = {
       title = "Comté-du-Lac",
       text = {
-        { "Comté-du-Lac est une ville de maisons en bois au bord du lac Placide, avec une auberge, un hôtel de ville et un pont sur l'eau que les habitants sont encore en train de rebâtir : lors de la dernière invasion, ils ont fondu leur fer pour en faire des épées, et les gnolls ont volé le chargement qui devait le remplacer." },
-        { "Son magistrat, Solomon, est un homme prudent qui a beaucoup de soucis. Les Blackrock tiennent le donjon au nord et enferment ses gens dans leur ville. Il a écrit à Hurlevent pour demander de l'aide, et la réponse est revenue qu'il n'y avait pas assez de soldats à envoyer sur de simples suppositions. Il a appris depuis ce qui pousse vraiment les orcs Blackrock, et qui, à Hurlevent, ne voulait pas qu'on l'entende. Comté-du-Lac, je le soupçonne, ne l'oubliera pas." },
+        { "Comté-du-Lac est une ville de maisons en bois au bord du lac Placide, avec une auberge, un hôtel de ville et un pont sur l'eau que les habitants sont encore en train de rebâtir. Lors de la dernière invasion, ils ont fondu leur fer pour en faire des épées, et les gnolls ont volé le chargement qui devait le remplacer." },
+        { "Son magistrat, Solomon, est un homme prudent qui a beaucoup de soucis. Les Blackrock tiennent le donjon au nord et enferment ses gens dans leur ville. Il a écrit à Hurlevent pour demander de l'aide, et la réponse est revenue qu'il n'y avait pas assez de soldats à envoyer sur de simples suppositions. Comté-du-Lac, je le soupçonne, ne l'oubliera pas." },
       },
     },
     ["larkorwi"] = {
@@ -6239,7 +6239,7 @@ ns.translate({
       title = "Les ruines de Kel'Theril",
       text = {
         { "Au bord du lac gelé de Kel'Theril se trouvent les ruines d'une ville des Bien-nés, et ses Bien-nés y sont toujours, sous forme de fantômes. Il y a longtemps, ils volèrent une relique sacrée, le cristal de Zin-Malor, dans son temple, dans l'intention d'en drainer la puissance pour eux-mêmes. Le rituel tourna mal. Le cristal se brisa dans une grande explosion, et ses morceaux furent projetés sous la glace du lac." },
-        { "Les Bien-nés furent maudits et condamnés à rester là où ils avaient commis leur faute, à chercher les morceaux pour toujours. Quand enfin quelqu'un les rassembla et reconstitua le cristal, l'un des fantômes parla : il regrettait, et il savait que rien ne pouvait changer le passé, mais il était en paix. Le temple du cristal est en ruine. Il partit donc chez l'archidruide, à Darnassus." },
+        { "Les Bien-nés furent maudits et condamnés à rester là où ils avaient commis leur faute, à chercher les morceaux pour toujours. Le temple qu'ils ont pillé, loin d'ici, en Azshara, est en ruine." },
       },
     },
     ["ruins-of-lordaeron"] = {
@@ -6768,8 +6768,8 @@ ns.translate({
       title = "Moulin-de-Tarren",
       text = {
         { "Des meuniers et des fermiers occupaient autrefois Moulin-de-Tarren. Les Réprouvés en ont fait leur place forte du sud, avec des Gardes noirs au service d'une grande exécutrice placée sous les ordres de Varimathras. Austrivage n'est qu'à une courte chevauchée." },
-        { "Darthalia ordonne des raids contre les fermes de Hautebrande et traite leurs habitants humains d'infestation. Elle entend les soumettre pendant que les apothicaires achèvent leur nouvelle peste. La guerre entre ces villes va bien au-delà de leurs gardes : les fermiers et leurs récoltes sont nommés dans ses ordres." },
-        { side = "Horde", aside = true, sign = "P. F.", "On nous dit que la nouvelle peste des apothicaires est destinée au Fléau. La dernière peste m'a tué, et j'aimerais bien voir ça par écrit." },
+        { "Darthalia ordonne des raids contre les fermes de Hautebrande et traite leurs habitants humains d'infestation. Elle entend les soumettre pendant que les apothicaires achèvent leur nouvelle peste. La guerre entre ces villes va bien au-delà de leurs gardes : les fermiers et leurs récoltes sont nommés dans les ordres de Darthalia." },
+        { side = "Horde", aside = true, sign = "P. F.", "On nous dit que la nouvelle peste des apothicaires est destinée au Fléau. J'aimerais bien voir ça par écrit." },
       },
     },
     ["tauren"] = {
@@ -6791,7 +6791,7 @@ ns.translate({
     ["temple-of-ahn-qiraj-tune"] = {
       title = "Temple d'Ahn'Qiraj",
       text = {
-        { "Quelque part au plus profond du Temple d'Ahn'Qiraj jouent une douzaine de morceaux que je n'ai trouvés nulle part ailleurs. Les qiraji servent C'Thun, un Dieu très ancien dont la malveillance était là avant que le monde ne prenne forme, et le temple est sa demeure. Ceux qui sont ressortis de sa dernière salle rapportent l'œil de la chose qui y régnait, et j'y vois une preuve suffisante que rien, là-dedans, n'est trop vieux pour mourir." },
+        { "Quelque part au plus profond du Temple d'Ahn'Qiraj jouent une douzaine de morceaux que je n'ai trouvés nulle part ailleurs. Les qiraji servent C'Thun, un Dieu très ancien dont la malveillance était là avant que le monde ne prenne forme, et le temple est sa demeure. Sa musique ne semble pas faite pour des oreilles mortelles, et je doute qu'elle l'ait jamais été." },
       },
     },
     ["temple-of-ahnqiraj"] = {
@@ -7553,8 +7553,8 @@ ns.translate({
       title = "Fossoyeuse",
       text = {
         { "La capitale de Lordaeron gît en ruine au-dessus de la propre cité des Réprouvés. Derrière ses murailles brisées se trouvent la salle du trône dévastée et des cours sans vie. En dessous, de vieilles cryptes et des catacombes sont devenues Fossoyeuse, disposée autour d'anneaux de bave verte. Sylvanas tient sa cour dans son quartier royal." },
-        { "Marchands, maîtres et gardes occupent les autres quartiers, et la Société royale des apothicaires travaille à l'Apothicarium. Les Réprouvés ont fait une capitale qui fonctionne sous l'épave de celle qu'ils ont connue de leur vivant. Un voyageur qui ne regarderait que les ruines d'en haut manquerait l'endroit où se traitent désormais les affaires qui restent au royaume." },
-        { side = "Horde", aside = true, sign = "P. F.", "Elle a raison pour l'Apothicarium, jusqu'à un certain point. Vous m'y trouverez, sur le plus au sud de ses deux ponts, où je pose des questions aux héros qui croient que la force suffit. Venez vous faire examiner, $gvoyageur:voyageuse;." },
+        { "Marchands, maîtres et gardes occupent les autres quartiers, et la Société royale des apothicaires travaille à l'Apothicarium. Les Réprouvés ont fait une capitale qui fonctionne sous l'épave de celle qu'ils ont connue de leur vivant. Ce qui reste des affaires du royaume se traite ici, en bas, et non dans les ruines d'en haut." },
+        { side = "Horde", aside = true, sign = "P. F.", "Elle a raison pour l'Apothicarium, jusqu'à un certain point. Je me tiens sur le plus méridional de ses deux ponts, où je pose des questions aux héros qui croient que la force suffit." },
       },
     },
     ["undercity-tune"] = {
@@ -7582,10 +7582,10 @@ ns.translate({
     ["vaelastrasz"] = {
       title = "Vaelastrasz",
       text = {
-        { "Vaelastrasz est un dragon rouge du vol de la reine des dragons, et il y a mille ans, on lui confia un éclat du sceptre qui scella Ahn'Qiraj. Au pic Rochenoire, il apparaît aux mortels sous le nom de Vaelan, sous une forme, comme il dit, qu'ils peuvent supporter de regarder, et il aide les audacieux à forger le Sceau d'ascension qui leur ouvre la citadelle supérieure." },
-        { "Il a vu les dragons menés au bord de l'extinction, dit-il : par l'assaut de la Légion ardente et l'Âme du démon, par la division des Aspects et l'ascension d'Aile de mort, et par les Dragonmaw, qui asservirent sa propre reine, Alexstrasza. Aile de mort s'appelait autrefois Neltharion, l'Aspect de la force du monde, qui tenait du titan Khaz'goroth son pouvoir sur ce monde, et il persuada les quatre autres Aspects de livrer leurs pouvoirs à l'Âme du démon, ce qui les laissa faibles et divisés. Aujourd'hui, son fils Nefarian tient le pic et poursuit l'œuvre de son père, derrière d'anciennes protections qu'aucun dragon d'un autre vol ne peut franchir. Un mortel muni du Sceau le peut." },
+        { "Vaelastrasz est un dragon rouge du vol de la reine des dragons, et il y a mille ans, on lui confia un éclat du sceptre qui scella Ahn'Qiraj. Au pic Rochenoire, il apparaît aux mortels sous le nom de Vaelan, sous une forme, comme il dit, qu'ils peuvent supporter de regarder. Il aide les audacieux à forger le Sceau d'ascension qui leur ouvre la citadelle supérieure." },
+        { "Il a vu les dragons menés au bord de l'extinction, dit-il : par l'assaut de la Légion ardente et l'Âme du démon, par la division des Aspects et l'ascension d'Aile de mort, et par les Dragonmaw, qui asservirent sa propre reine, Alexstrasza. Aile de mort s'appelait autrefois Neltharion, l'Aspect de la force du monde, qui tenait du Titan Khaz'goroth son pouvoir sur ce monde. Il persuada les quatre autres Aspects de livrer leurs pouvoirs à l'Âme du démon, ce qui les laissa faibles et divisés. Aujourd'hui, son fils Nefarian tient le pic et poursuit l'œuvre de son père, derrière d'anciennes protections qu'aucun dragon d'un autre vol ne peut franchir. Un mortel muni du Sceau le peut." },
         { "La forge demande des gemmes prises à trois des généraux du pic et le souffle d'un drake noir dont la volonté a été brisée. Le vol rouge n'a jamais rechigné à emprunter le feu de son ennemi." },
-        { "Nefarian finit par le capturer. Dans le repaire de l'Aile noire, il attend, rongé par la corruption du dragon noir, et supplie ceux qui l'atteignent de reprendre l'éclat du sceptre avant qu'il ne soit détruit. « Trop tard, mes amis », dit-il, et il se retourne contre eux. Ceux qui l'abattent apprennent ensuite que son âme est en paix. Je l'espère." },
+        { "Il prend un grand risque en aidant des mortels sous le toit même de Nefarian. J'espère qu'il sait à quel point." },
       },
     },
     ["valanaar"] = {
