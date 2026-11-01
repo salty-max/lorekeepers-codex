@@ -3,6 +3,7 @@
 --   FOREVER=1 luajit addon/test/sim.lua    the same on Forever's client: no
 --                                          combat log, secret values, C_Reputation
 local DIR = "addon/LorekeepersCodex/"
+local held = dofile("addon/test/held.lua")
 local FOREVER = os.getenv("FOREVER") == "1"
 function GetBuildInfo() return "1.15.8", "60000", "Oct 1 2026", FOREVER and 16001 or 11509 end
 -- Values the game hides from addons on Forever.
@@ -1812,7 +1813,9 @@ end
 -- The German (Text_deDE.lua, a first translation): every page the French has,
 -- each with a title and its paragraphs, its gender tokens whole, no semicolon
 -- left in the prose.
-do
+if held("deDE") then
+  print("skipped: deDE held back (HIDDEN_LOCALES): the German pages")
+else
   local function load(locale)
     local t
     assert(loadfile(DIR .. "Text_" .. locale .. ".lua"))(
@@ -1883,7 +1886,9 @@ end
 
 -- Run the real German loader, not just its raw catalog. Classic's swaps and
 -- both gender forms must survive in the finished prose on each client.
-do
+if held("deDE") then
+  print("skipped: deDE held back (HIDDEN_LOCALES): the German loader")
+else
   local oldSex = UnitSex
   local function client(locale, sex)
     UnitSex = function() return sex end
@@ -2006,57 +2011,69 @@ do
   for _, sex in ipairs({ 2, 3 }) do
     local english = client("enUS", sex)
     for _, locale in ipairs({ "esES", "esMX" }) do
-      local target = client(locale, sex)
-      check(target.kit.L["The Codex"] == "El Códice", locale .. " interface loads")
-      check(target.kit.isOne(1), locale .. " singular rule loads")
-      check(not target.kit.isOne(0) and not target.kit.isOne(2), locale .. " zero and two are plural")
-      local greeting = target.content.entries["foreword-dwarf"].text[1][1]
-      check(greeting:find(sex == 3 and "Viajera" or "Viajero", 1, true), locale .. " foreword addresses the reader")
-      local leader = target.content.entries["high-tinker-mekkatorque"].title
-      check(
-        leader == (locale == "esMX" and "Manitas mayor Mekkatorque" or "Alto mecachifle Mekkatorque"),
-        locale .. " uses its client's Mekkatorque title"
-      )
-      check(
-        target.content.entries["si-7"].title == (locale == "esMX" and "IV:7" or "IS:8"),
-        locale .. " uses its client's intelligence service name"
-      )
-      for id, original in pairs(english.content.entries) do
-        local entry = target.content.entries[id]
-        check(entry and #entry.text == #original.text, locale .. " preserves paragraphs: " .. id)
-        for i, para in ipairs(entry.text) do
-          local source = original.text[i]
-          check(
-            para.side == source.side and para.aside == source.aside and para.italic == source.italic,
-            locale .. " preserves faction and narrator roles: " .. id
-          )
-          check(not para[1]:find("$g", 1, true) and not para[1]:find(";", 1, true), locale .. " renders prose: " .. id)
-          check(not para[1]:find("el Hermandad", 1, true), locale .. " regional faction has the right article: " .. id)
-        end
-      end
-      check(target.textBodies == nil, locale .. " loads no English Library bodies")
-      for _, fromLocale in ipairs({ "frFR", "deDE", "esES", "esMX" }) do
-        local from = client(fromLocale, sex)
-        for title, variants in pairs(from.bookTexts) do
-          for _, variant in ipairs(variants) do
-            local id = from.textSources.canonical[variant.ids[1]]
-            local copy = { title = from.textTitle(title), pages = { from.textForReader(variant.pages[1]) } }
-            -- Image-only and genuinely empty sources have no first-page text
-            -- to identify in an old copy. New copies retain their readable id.
-            if copy.pages[1] == "" then copy.readable = id end
-            check(from.textIdentity(copy) == id, fromLocale .. " retains readable identity: " .. id)
-            local pages, localized = target.textPages(copy)
-            check(localized and pages == target.booksById[id], locale .. " reads " .. fromLocale .. " copy: " .. id)
-            local en = english.textPages(copy)
+      if held(locale) then
+        print("skipped: " .. locale .. " held back (HIDDEN_LOCALES)")
+      else
+        local target = client(locale, sex)
+        check(target.kit.L["The Codex"] == "El Códice", locale .. " interface loads")
+        check(target.kit.isOne(1), locale .. " singular rule loads")
+        check(not target.kit.isOne(0) and not target.kit.isOne(2), locale .. " zero and two are plural")
+        local greeting = target.content.entries["foreword-dwarf"].text[1][1]
+        check(greeting:find(sex == 3 and "Viajera" or "Viajero", 1, true), locale .. " foreword addresses the reader")
+        local leader = target.content.entries["high-tinker-mekkatorque"].title
+        check(
+          leader == (locale == "esMX" and "Manitas mayor Mekkatorque" or "Alto mecachifle Mekkatorque"),
+          locale .. " uses its client's Mekkatorque title"
+        )
+        check(
+          target.content.entries["si-7"].title == (locale == "esMX" and "IV:7" or "IS:8"),
+          locale .. " uses its client's intelligence service name"
+        )
+        for id, original in pairs(english.content.entries) do
+          local entry = target.content.entries[id]
+          check(entry and #entry.text == #original.text, locale .. " preserves paragraphs: " .. id)
+          for i, para in ipairs(entry.text) do
+            local source = original.text[i]
             check(
-              en == (english.textBodies[id] or copy.pages),
-              fromLocale .. " copy returns to English without inventing missing sources: " .. id
+              para.side == source.side and para.aside == source.aside and para.italic == source.italic,
+              locale .. " preserves faction and narrator roles: " .. id
+            )
+            check(
+              not para[1]:find("$g", 1, true) and not para[1]:find(";", 1, true),
+              locale .. " renders prose: " .. id
+            )
+            check(
+              not para[1]:find("el Hermandad", 1, true),
+              locale .. " regional faction has the right article: " .. id
             )
           end
         end
+        check(target.textBodies == nil, locale .. " loads no English Library bodies")
+        for _, fromLocale in ipairs({ "frFR", "deDE", "esES", "esMX" }) do
+          if not held(fromLocale) then
+            local from = client(fromLocale, sex)
+            for title, variants in pairs(from.bookTexts) do
+              for _, variant in ipairs(variants) do
+                local id = from.textSources.canonical[variant.ids[1]]
+                local copy = { title = from.textTitle(title), pages = { from.textForReader(variant.pages[1]) } }
+                -- Image-only and genuinely empty sources have no first-page text
+                -- to identify in an old copy. New copies retain their readable id.
+                if copy.pages[1] == "" then copy.readable = id end
+                check(from.textIdentity(copy) == id, fromLocale .. " retains readable identity: " .. id)
+                local pages, localized = target.textPages(copy)
+                check(localized and pages == target.booksById[id], locale .. " reads " .. fromLocale .. " copy: " .. id)
+                local en = english.textPages(copy)
+                check(
+                  en == (english.textBodies[id] or copy.pages),
+                  fromLocale .. " copy returns to English without inventing missing sources: " .. id
+                )
+              end
+            end
+          end
+        end
+        local broken = { title = "Unknown", pages = { "A page outside the known catalog." } }
+        check(target.textPages(broken) == broken.pages, locale .. " preserves unknown saved texts")
       end
-      local broken = { title = "Unknown", pages = { "A page outside the known catalog." } }
-      check(target.textPages(broken) == broken.pages, locale .. " preserves unknown saved texts")
     end
   end
   UnitSex = oldSex
@@ -2064,7 +2081,9 @@ end
 
 -- Same-title circulars remain distinct when re-read in another language,
 -- including old saved copies that predate readable ids and language stamps.
-do
+if held("deDE") then
+  print("skipped: deDE held back (HIDDEN_LOCALES): the German circulars")
+else
   local before = LorekeepersCodexChar.library
   local books, byId, locale, titles = ns.bookTexts, ns.booksById, ns.locale, ns.textTitlesById
   LorekeepersCodexChar.library = nil

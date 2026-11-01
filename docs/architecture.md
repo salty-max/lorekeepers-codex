@@ -3,6 +3,8 @@
 The addon file by file (moved from CLAUDE.md on 20 October 2026; the map
 stays there). What a page is and how it is written: `docs/writing.md`.
 
+German and Spanish (deDE, esES, esMX) are held back from players since 1 November 2026 (`HIDDEN_LOCALES` in addon-kit's `locales-lib.ts`): their language files are stubs with the game's names or English, their tests skip (`addon/test/held.lua`), and their `i18n/` stays. Restoring them starts by emptying that list.
+
 ## The files
 
 - `content/<chapter>/<id>.md`: the pages (front matter + paragraphs), and
