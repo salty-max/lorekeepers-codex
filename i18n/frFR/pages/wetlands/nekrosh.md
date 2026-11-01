@@ -7,4 +7,4 @@ Nek'rosh Skullcrusher mène ce qui reste des Dragonmaw dans les Paluns, et il es
 
 Il reconstruit la force des Dragonmaw dans les collines, et il a fait construire des catapultes pour assiéger Port de Menethil et couper la route du Loch Modan.
 
-Si c'est vous qui l'arrêtez, $gvoyageur:voyageuse;, la Ligue vous serait reconnaissante d'un récit de la chose. Bref, si vous y parvenez. Les récits sur les chefs orcs ont tendance à s'éterniser.
+Si c'est vous qui l'arrêtez, $gvoyageur:voyageuse;, la Ligue vous serait reconnaissante d'un récit de l'affaire. Un récit bref, si vous en êtes capable. Les récits sur les chefs orcs ont tendance à s'éterniser.

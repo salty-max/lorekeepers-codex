@@ -21,7 +21,7 @@
   ],
   "badlands": [
     "Terres ingrates",
-    "Un désert rouge de canyons, et sous lui la chambre forte des titans, Uldaman."
+    "Un désert rouge de canyons, et sous lui la chambre forte des Titans, Uldaman."
   ],
   "barrens": [
     "Les Tarides",
@@ -61,7 +61,7 @@
   ],
   "durotar": [
     "Durotar et Orgrimmar",
-    "La terre rouge que Thrall a donnée à son peuple, et la cité qui porte le nom du chef de guerre qui les a libérés."
+    "La terre rouge que Thrall a donnée à son peuple, et la cité qui porte le nom du chef de guerre qui l'a libéré."
   ],
   "duskwood": [
     "Bois de la Pénombre",
@@ -182,5 +182,9 @@
   "shen-dralas": [
     "Shen'dralas",
     "Le pays maudit de la Vallée des Ossements, où les centaures ont trouvé les morts."
+  ],
+  "soundtrack": [
+    "La bande-son",
+    "Les airs de la musique du jeu. Ils ne figurent jamais parmi les pages : l'onglet Bande-son les rassemble."
   ]
 }
