@@ -3,7 +3,7 @@ id: treason-of-alterac
 source: 62aad9932ca8
 title: La trahison d'Alterac
 ---
-Le roi Aiden Perenolde jugea que la Horde gagnerait la Deuxième Guerre. Tandis que les autres royaumes humains combattaient ensemble, Alterac ouvrit un passage aux orcs et leur fournit les plans de l'Alliance. Quand l'Alliance l'emporta, Lordaeron imposa la loi martiale. Les souverains se disputèrent ensuite sur le sort du royaume.
+Le roi Aiden Perenolde jugea que la Horde gagnerait la Deuxième Guerre. Tandis que les autres royaumes humains combattaient ensemble, Alterac ouvrit un passage aux orcs et leur fournit les plans de l'Alliance. Quand l'Alliance l'emporta, Lordaeron imposa la loi martiale. Les souverains se disputèrent ensuite au sujet du sort du royaume.
 
 La capitale d'Alterac est en ruine et ses bibliothèques dispersées. Hurlevent envoie des érudits récupérer les livres. Le fils de Perenolde, Aliden, poursuit un autre héritage : il dirige le Syndicat, qui compte d'anciens nobles d'Alterac, et projette d'asservir les orcs comme son mentor Blackmoore en avait l'intention. On tente ici plusieurs sortes de sauvetage. Celui des érudits est celui que je recommanderais.
 

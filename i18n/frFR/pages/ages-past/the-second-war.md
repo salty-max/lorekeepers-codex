@@ -3,7 +3,7 @@ id: the-second-war
 source: f5e548a8b83f
 title: La Deuxième Guerre
 ---
-En Lordaeron, Lothar trouva les rois humains disposés à écouter, pour une fois. Ils acceptèrent de s'unir en Alliance de Lordaeron, la première fois que les héritiers d'Arathor se tenaient sous une même bannière depuis près de trois mille ans, et nommèrent Lothar commandant suprême. Uther le Porteur de lumière, l'amiral Daelin Proudmoore et Turalyon servirent sous ses ordres. Forgefer se joignit à eux, et, plus à contrecœur, quelques hauts-elfes, qui avaient une dette envers la lignée d'Arathi.
+En Lordaeron, Lothar trouva les rois humains disposés à écouter, pour une fois. Ils acceptèrent de s'unir en Alliance de Lordaeron, la première fois depuis près de trois mille ans que les héritiers d'Arathor se rassemblaient sous une même bannière, et nommèrent Lothar commandant suprême. Uther le Porteur de lumière, l'amiral Daelin Proudmoore et Turalyon servirent sous ses ordres. Forgefer se joignit à eux, et, plus à contrecœur, quelques hauts-elfes, qui avaient une dette envers la lignée d'Arathi.
 
 Doomhammer fit venir des ogres de Draenor et des trolls amani des forêts, submergea le Khaz Modan et marcha vers le nord. La Horde avait trouvé l'Âme du démon et, grâce à elle, asservi la reine des dragons, si bien que des dragons rouges combattaient pour les orcs. Les marches de Quel'Thalas brûlèrent, ce qui dissipa les doutes des elfes, et les villes de Lordaeron furent rasées une à une.
 

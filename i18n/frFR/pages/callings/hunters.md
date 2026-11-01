@@ -9,4 +9,4 @@ Ce qui distingue un chasseur, c'est son compagnon. Un loup, un félin, un ours, 
 
 [forever] Les humains se forment désormais eux aussi à la chasse, et les éolides amènent des chasseurs à l'Alliance comme à la Horde.
 
-La Ligue emploie des chasseurs comme guides depuis qu'elle existe. Ils trouvent la route et le dîner, et veillent à ce que le danger ne trouve pas les fouilleurs le premier.
+La Ligue emploie des chasseurs comme guides depuis qu'elle existe. Ils trouvent la route et le dîner, et veillent à ce que le danger ne trouve pas les fouilleurs avant eux.

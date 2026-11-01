@@ -3,7 +3,7 @@ id: mekgineer-thermaplugg
 source: a8e8c0be8117
 title: Mekgénieur Thermaplugg
 ---
-Sicco Thermaplugg est resté à Gnomeregan tandis que le grand bricoleur Mekkatorque mène ses exilés depuis Forgefer. Le grand bricoleur lui faisait jadis confiance. Cette confiance a fini en accusation de trahison, et en appel à sa mort.
+Sicco Thermaplugg est resté à Gnomeregan tandis que le grand bricoleur Mekkatorque mène ses exilés depuis Forgefer. Le grand bricoleur lui faisait jadis confiance. Cette confiance s'est achevée sur une accusation de trahison et un appel à sa mort.
 
 Les radiations répandues dans la cité n'ont pas su exterminer les troggs et ont dévasté ses habitants gnomes. Thermaplugg règne dans les ruines, parmi les créatures que la tentative devait détruire et les survivants qu'elle a laissés derrière elle.
 

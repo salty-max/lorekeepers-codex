@@ -7,4 +7,4 @@ Le roi Magni Bronzebeard tient sa cour au Haut Siège de Forgefer et règne sur 
 
 Magni suit de près les travaux de la Ligue. Les trouvailles d'Uldaman laissent penser que les nains furent façonnés il y a bien longtemps par les Titans. Un roi d'une si longue lignée a de bonnes raisons de demander où elle commence, et une historienne qui se tient à quelques pas de son trône a toutes les raisons de saluer son intérêt.
 
-Sa fille lui cause un souci plus pressant. La princesse Moira se trouve dans la cité sombrefer sous le mont Rochenoire, mariée à l'empereur Dagran Thaurissan. Forgefer parle d'enlèvement, et Magni promet une récompense digne d'un héros à qui la ramènera. Ce sauvetage porte les espoirs d'un père autant que les ordres d'un roi.
+Sa fille lui cause un souci plus pressant. La princesse Moira se trouve dans la cité Sombrefer sous le mont Rochenoire, mariée à l'empereur Dagran Thaurissan. Forgefer parle d'enlèvement, et Magni promet une récompense digne d'un héros à qui la ramènera. Ce sauvetage porte les espoirs d'un père autant que les ordres d'un roi.
