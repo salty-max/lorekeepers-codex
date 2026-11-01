@@ -48,7 +48,8 @@ loads exactly what it does today.
   a translation shows in English.
 - The ASCII rule stays for English; a translation may use its language's
   letters (accents, Cyrillic, CJK) and typography, still never curly quotes
-  where the game's fonts lack them. The kit already picks fonts by locale
+  where the game's fonts lack them (French: the rules under the voice guide,
+  `scripts/typography.ts`). The kit already picks fonts by locale
   (the body font is the game's `STANDARD_TEXT_FONT`, Morpheus for Latin
   languages only).
 
@@ -102,7 +103,7 @@ the English sentence shapes.
 
 | | Address to the reader | The reader itself | Parqual's notes |
 |---|---|---|---|
-| French | **vous** throughout, Archesonus and Parqual alike | `$gvoyageur:voyageuse;` (about 107 uses) is the commonest word that agrees with the reader, in the forewords' greeting and wherever "traveller" stands. A few others agree where the sentence needs one (`$gun lecteur:une lectrice;`, `$gseul:seule;`, the race forewords' `$gun Kaldorei:une Kaldorei;`). Otherwise the sentence is turned ("Emportez-le avec vous") | vous too, a dry first-person voice ("La dernière peste m'a tué") |
+| French | **vous** throughout, Archesonus and Parqual alike | `$gvoyageur:voyageuse;` (about 107 uses) is the commonest word that agrees with the reader, in the forewords' greeting and wherever "traveller" stands. A few others agree where the sentence needs one (`$gun lecteur:une lectrice;`, `$gseul:seule;`, the race forewords' `$gun Kaldorei:une Kaldorei;`). Otherwise the sentence is turned ("Emportez-le avec vous") | vous too, a dry first-person voice ("Certains d'entre nous y étaient.") |
 | German | **Ihr / Euch / Euer**, the old courtly address a royal historian would use, with the imperative in the "ihr" form ("Tragt es bei Euch und lest eine Seite") | `$gReisender:Reisende;` (about 107 uses), no "du" and no "Sie" to the reader | Euch too, short and dry |
 | Spanish | **tú** ("te doy la bienvenida", "Llévalo contigo y lee"), neutral, no "vosotros" (esMX reads esES's words, so a Castilian "habéis" is a fault). Known gap: four esES forewords (gnome, nightelf, troll, skyborne) address the reader's people in vosotros ("habéis", "vuestras"), to be rewritten to "ustedes" with the esMX fixes (the audit's D7), a shipped-word change | `$gViajero:Viajera;` | tú |
 
@@ -117,6 +118,29 @@ Rules the three share:
   nouns capitalised, "Euch/Euer" always capitalised.
 - Archesonus's warmth and dryness survive translation. If a dry aside turns
   into a joke or a pat, the French or German is wrong, not the English.
+
+French alone (the French fixes, 1 November 2026, on the user's decisions):
+
+- **Achievement titles may carry a gender token** ("$gCollectionneur:Collectionneuse;
+  de mots", "$gFin lettré:Fine lettrée;", eight of them): the exception to the
+  skill's "a title never genders the reader", decided 31 October 2026. They
+  resolve through `K.agree` like every word (`Locale.lua`), as Yonder's do.
+- **The generic "un voyageur"** (a traveller, not the reader) stays masculine
+  without a token. Where the sentence is really about the reader, it turns to
+  "on" or names who it means.
+- **Capitals**: a title before a name in running prose is lower case ("le
+  prospecteur Ryedol", "dame Jaina", "le duc Hydraxis"), a page's title keeps
+  its capital ("Dame Jaina Proudmoore"). A place is written as the game
+  writes it (the glossary).
+- **Typography** (decision Q1): a no-break space before `: ? !` and a percent
+  sign, and inside « », in the pages, chapters and words:
+  `bun scripts/typography.ts` (the check runs it with `--check`). The
+  Library's texts keep plain spaces: `scripts/book_texts.py`'s `plain()`
+  makes every text it shows plain, the game's own and ours alike.
+- **Names decided**: "Marteau-hardi" for the Wildhammer clan (Forever's
+  subname, swapped back to "Wildhammer" on Classic Era by
+  `classic-by-hand.json`), its people by the game's own names ("Falstad
+  Wildhammer"). "Haut-Soleil" for the Sunstrider, "le donjon de Hurlevent".
 
 Two real passages to hear them by, the dwarf foreword (`foreword-dwarf.md`):
 
