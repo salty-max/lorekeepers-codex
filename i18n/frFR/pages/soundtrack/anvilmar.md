@@ -1,6 +1,6 @@
 ---
 id: anvilmar
-source: fbd1347da40d
+source: 9ee26a8ac92d
 title: Courbenclume
 ---
-Courbenclume, dans les neiges de Dun Morogh, est l'endroit où bien des jeunes nains et gnomes font leurs débuts, et quelque part à l'intérieur on retrouve deux des morceaux de Forgefer. Thran, le maître des guerriers, y tient ses quartiers. C'est un bon endroit pour commencer, et un endroit froid.
+Courbenclume, dans les neiges de Dun Morogh, abrite quelque part deux des morceaux de Forgefer, et c'est bien normal. Bien des jeunes nains et gnomes y reçoivent leurs premières leçons, et la salle leur fait entendre la cité qu'ils défendront avant même qu'ils l'aient vue. Thran, le maître des guerriers, se charge du reste.

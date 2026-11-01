@@ -1,6 +1,6 @@
 ---
 id: scarlet-monastery-tune
-source: 77044198b675
+source: efa893b41a7f
 title: Monastère écarlate
 ---
-Quelque part dans le Monastère écarlate jouent deux morceaux que Forgefer a aussi, les mêmes que porte Courbenclume. Je ne saurais expliquer pourquoi un monastère de la Croisade écarlate emprunte la musique de ma propre cité, et je préfère ne pas le demander au Grand Inquisiteur Whitemane. La Croisade envoie ses agents depuis ses murs, jusqu'au Glas, dans les Clairières de Tirisfal.
+Quelque part dans le Monastère écarlate jouent deux morceaux que Forgefer joue aussi, les deux mêmes que porte Courbenclume. Je ne saurais expliquer pourquoi un monastère de la Croisade écarlate emprunte la musique de ma cité, à moins que les deux n'aient été bâtis par des gens qui ne font confiance à personne hors de leurs murs.

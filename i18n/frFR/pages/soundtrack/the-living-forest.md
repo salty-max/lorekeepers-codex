@@ -1,6 +1,6 @@
 ---
 id: the-living-forest
-source: 1f1877bcea2c
+source: b89289087391
 title: La forêt vivante
 ---
-L'air de Teldrassil, le grand arbre que les elfes de la nuit appellent leur foyer, se poursuit dans la forêt d'Orneval. Les deux appartiennent à un peuple qui compte ses années en millénaires, et qui parcourait ces bois avant que les nains n'aient appris à creuser.
+L'air de Teldrassil, le grand arbre dont les elfes de la nuit ont fait leur foyer, se prolonge dans les forêts d'Orneval. Les deux bois appartiennent à un peuple qui compte ses années en millénaires, et la musique est aussi patiente que lui. Les elfes parcouraient ces forêts avant que les nains aient appris à creuser.

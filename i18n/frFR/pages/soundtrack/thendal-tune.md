@@ -1,6 +1,6 @@
 ---
 id: thendal-tune
-source: 472c8d681e28
+source: 759f866e5d60
 title: Thendal
 ---
-Thendal, le Bosquet de Thendal et les Pierres dressées de Thendal jouent le même thème. Le village garde son histoire tout en haut de son grand arbre, ce qui me semble un endroit raisonnable sur une île qui a déjà dû vider tout un village en une seule nuit. De toutes les archives que je connais, c'est la plus difficile d'accès, et je ferais tout de même l'ascension.
+Thendal, le Bosquet de Thendal et les Pierres dressées de Thendal partagent un air. Le village garde sa mémoire tout en haut d'un grand arbre, et la musique est aussi feutrée qu'une salle d'archives. L'île a dû un jour vider tout un village en une seule nuit, et Thendal ne l'a pas oublié. De toutes les archives que je connais, celles de cet arbre sont les plus difficiles d'accès, et je ferais tout de même l'ascension.

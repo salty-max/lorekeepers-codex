@@ -3964,7 +3964,7 @@ ns.translate({
     ["alterac-valley-tune"] = {
       title = "Vallée d'Alterac",
       text = {
-        { "La Vallée d'Alterac n'a pas de musique à elle. Ses six morceaux sont empruntés aux bois gangrenés, aux villages furbolgs et aux terres de la peste. Orcs et nains disent tous deux que la vallée leur appartient, et chaque camp appelle ses alliés à la tenir. Les ordres de mon propre roi font partie de cette querelle, et je me tiens trop près de son trône pour en juger équitablement." },
+        { "La Vallée d'Alterac n'a pas de musique à elle. Ses six morceaux sont empruntés aux bois gangrenés, aux villages furbolgs et aux terres de la peste, et ils conviennent à une vallée où personne n'a cessé de se battre assez longtemps pour composer quoi que ce soit. Orcs et nains disent tous deux que la vallée leur appartient. Je me tiens trop près du trône de mon roi pour juger équitablement de cette querelle." },
       },
     },
     ["ambermill"] = {
@@ -4009,7 +4009,7 @@ ns.translate({
     ["anvilmar"] = {
       title = "Courbenclume",
       text = {
-        { "Courbenclume, dans les neiges de Dun Morogh, est l'endroit où bien des jeunes nains et gnomes font leurs débuts, et quelque part à l'intérieur on retrouve deux des morceaux de Forgefer. Thran, le maître des guerriers, y tient ses quartiers. C'est un bon endroit pour commencer, et un endroit froid." },
+        { "Courbenclume, dans les neiges de Dun Morogh, abrite quelque part deux des morceaux de Forgefer, et c'est bien normal. Bien des jeunes nains et gnomes y reçoivent leurs premières leçons, et la salle leur fait entendre la cité qu'ils défendront avant même qu'ils l'aient vue. Thran, le maître des guerriers, se charge du reste." },
       },
     },
     ["arathi-basin"] = {
@@ -4146,7 +4146,7 @@ ns.translate({
     ["battle-in-the-depths"] = {
       title = "Combats dans les profondeurs",
       text = {
-        { "Trois courts morceaux de bataille attendent quelque part dans les profondeurs : le Donjon d'Ombrecroc, les Mortemines, Uldaman, Maraudon et Stratholme. Aucun de ces lieux n'a jamais manqué de combats." },
+        { "Trois courts morceaux de bataille jouent quelque part dans cinq donjons : le Donjon d'Ombrecroc, les Mortemines, Uldaman, Maraudon et Stratholme. Ils sont courts parce qu'un combat en espace clos est court et bruyant, et que personne, dans ces salles, n'a le souffle pour une longue chanson." },
       },
     },
     ["black-dragonflight"] = {
@@ -4269,7 +4269,7 @@ ns.translate({
     ["bough-shadow"] = {
       title = "L'Ombrage",
       text = {
-        { "L'Ombrage, à l'extrémité est d'Orneval, partage un air avec le Chant des forêts tout proche, et cet air se retrouve en certains lieux des trois capitales de l'Alliance. L'Ombrage est l'un des quatre portails du rêve d'Azeroth. Les draconiens qui le gardent portent désormais la corruption du Cauchemar, ce qui est plus grave qu'il n'y paraît." },
+        { "L'Ombrage, à l'extrémité est d'Orneval, partage un air avec le Chant des forêts tout proche, et cet air revient quelque part dans les trois capitales de l'Alliance. Un portail du rêve devrait être paisible, et l'Ombrage, l'un des quatre d'Azeroth, a une musique paisible à l'avenant. Ce calme est trompeur. Les draconiens qui gardent le portail portent désormais la corruption du Cauchemar." },
       },
     },
     ["boulderslide-ravine"] = {
@@ -4477,7 +4477,7 @@ ns.translate({
     ["dalaran-tune"] = {
       title = "Dalaran",
       text = {
-        { "Dalaran a neuf morceaux bien à elle, répartis entre ses rues, le Brunant, le Gangrebosquet, les égouts et la flèche. La cité du Kirin Tor a de nouveau des ennuis : ses lignes telluriques se sont déréglées et ses propres créations se sont retournées contre elle. Le conseil aurait préféré que le reste du monde n'en sache rien. L'archimage Modera n'est pas de cet avis, et c'est la seule raison pour laquelle nous le savons." },
+        { "Dalaran a neuf morceaux à elle, dans ses rues, au Brunant, au Gangrebosquet, dans ses égouts et dans sa flèche. Une cité de mages a beaucoup de salles et beaucoup d'humeurs, et sa musique change avec elles. Ses lignes telluriques se sont déréglées ces derniers temps, et ses propres créations se sont retournées contre elle. C'est l'archimage Modera qui l'a fait savoir au reste du monde." },
       },
     },
     ["dalsons-tears"] = {
@@ -4527,7 +4527,7 @@ ns.translate({
     ["darnassus-tune"] = {
       title = "Darnassus",
       text = {
-        { "Darnassus, la cité des elfes de la nuit, pousse dans les branches de Teldrassil, et son air s'entend aussi dans les villages d'en dessous. Les elfes de la nuit sont un peuple patient. Je n'ai jamais jugé sage de les presser." },
+        { "Darnassus, la cité des elfes de la nuit, pousse dans les branches de Teldrassil, et son air s'entend là-haut comme dans les villages d'en dessous. La cité n'a pas besoin d'élever la voix, et sa musique ne le fait jamais. Les elfes de la nuit vivent depuis des millénaires sans se presser, et leur capitale sonne comme eux." },
       },
     },
     ["darrowshire"] = {
@@ -4608,7 +4608,7 @@ ns.translate({
     ["dire-maul-tune"] = {
       title = "Hache-tripes",
       text = {
-        { "Quelque part dans Hache-tripes, la ruine d'Eldre'Thalas en Feralas, joue un morceau que je n'ai trouvé nulle part ailleurs. Alzzin le Modeleur tient la partie orientale de la cité. Un prisonnier du prince déchu de la cité, détroussé par un diablotin pendant son évasion, vous demandera de lui rapporter son livre d'incantations, et à votre place, je le ferais. Le prisonnier a troqué son immortalité contre sa liberté, et un marché aussi dur ne se conclut qu'une fois." },
+        { "Quelque part dans Hache-tripes, la ruine d'Eldre'Thalas en Feralas, joue un morceau que je n'ai trouvé nulle part ailleurs. C'est le son d'une grande cité vidée de ses habitants. Les Bien-nés bâtissaient pour la grandeur, et la grandeur résonne quand plus personne n'est là pour l'emplir. Alzzin le Modeleur tient aujourd'hui la partie orientale, et des ogres et des fantômes le reste." },
       },
     },
     ["dolanaar"] = {
@@ -4660,7 +4660,7 @@ ns.translate({
     ["dreambound-pinnacle-tune"] = {
       title = "Sommet Ligerêve",
       text = {
-        { "Le Sommet Ligerêve possède huit morceaux en propre et en emprunte un de plus au Donjon d'Ombrecroc. Je ne connais de l'endroit que son nom et sa musique, pour l'instant. Je n'inventerai pas le reste." },
+        { "Le Sommet Ligerêve possède huit morceaux en propre et en emprunte un de plus au Donjon d'Ombrecroc. Je ne connais l'endroit que par son nom et sa musique, rien de plus pour l'instant. Un lieu qui porte le nom des rêves et emprunte à Ombrecroc ne promet pas un sommeil paisible, et je n'inventerai pas le reste." },
       },
     },
     ["druids"] = {
@@ -4690,7 +4690,7 @@ ns.translate({
     ["drunken-dwarf-tune"] = {
       title = "Le Nain ivre",
       text = {
-        { "Au Nain ivre, dans les Paluns, cinq morceaux sont bien à lui, et ils reviennent quelque part à Forgefer. Je n'y suis pas encore allée. Avec un nom pareil, je m'attends à croiser de vieux amis." },
+        { "Le Nain ivre, dans les Paluns, a cinq morceaux à lui, et on les retrouve aussi quelque part à Forgefer. Pour un nain, une salle pleine de nains, c'est toujours un peu chez soi, où qu'elle se trouve, et la musique passe donc sans peine de l'une à l'autre. Je n'y suis pas encore allée. Le nom seul me dit que j'y connaîtrais la moitié de la salle." },
       },
     },
     ["dun-garok"] = {
@@ -5129,7 +5129,7 @@ ns.translate({
     ["gnomeregan-tune"] = {
       title = "Gnomeregan",
       text = {
-        { "Gnomeregan, la cité des gnomes en Dun Morogh, a un air qui joue quelque part à l'intérieur, et ce même air revient à Long-Guet, la ville des gobelins au Berceau-de-l'Hiver. Les gnomes ont voulu chasser les troggs de leur cité et ont fini par changer la plupart de leur propre peuple en gnomes lépreux. Ils le disent eux-mêmes, ce que peu de gens feraient." },
+        { "Gnomeregan, la cité des gnomes en Dun Morogh, a un air qui joue quelque part à l'intérieur, et ce même air revient à Long-Guet, la ville des gobelins au Berceau-de-l'Hiver. Les deux villes appartiennent à des bricoleurs qui ne cessent jamais de construire, et la musique cliquette comme leurs ateliers. Les gnomes ont voulu chasser les troggs de leur cité, et ils ont empoisonné à la place la plupart des leurs. Ils le reconnaissent, ce que peu de peuples feraient." },
       },
     },
     ["goblins"] = {
@@ -5166,13 +5166,13 @@ ns.translate({
     ["green-kingdoms"] = {
       title = "Les royaumes verts",
       text = {
-        { "Un seul air couvre les bois des royaumes humains, de la forêt d'Elwynn et des Carmines jusqu'au Loch Modan, aux Hinterlands et aux Contreforts de Hautebrande. Les humains cultivaient et se battaient sous ces arbres bien avant que la Horde ne franchisse la Porte des ténèbres, et l'air a survécu à tout cela. Si vous voulez l'entendre comme il faut, cessez de marcher." },
+        { "Un seul air sert les bois des royaumes de l'Est, de la forêt d'Elwynn et des Carmines jusqu'au Loch Modan, aux Hinterlands et aux Contreforts de Hautebrande. Il est aussi doux que le pays en a l'air, tout en fermes, en ruisseaux et en vieux arbres. Les humains ont cultivé ces bois et s'y sont battus bien avant que la Horde ne franchisse la Porte des ténèbres, et l'air se souvient des moissons." },
       },
     },
     ["grey-hours"] = {
       title = "Heures grises",
       text = {
-        { "Deux courts morceaux reviennent dans des lieux qui n'ont guère d'autre point commun. Le premier appartient à la Combe de Nijel, un petit camp caché dans les montagnes du nord de la Désolace, et au Sanctuaire dans les Hautes-terres Arathies. On le retrouve aussi quelque part au Nid-de-l'Aigle, à Pluie-d'Etoiles, à Hache-tripes et dans les tours du Marécage d'Âprefange, et il salue les arrivants au Donjon de Fort-de-Durn. Le second attend quelque part dans la Tour de Guet-de-pierre, dans les Carmines, et il accueille les arrivants à Rempart-du-Néant." },
+        { "Deux courts morceaux reviennent dans des lieux qui n'ont guère d'autre point commun, et ce sont des musiques pour arriver dans un lieu gris et incertain. Le premier appartient à la Combe de Nijel, en Désolace, et au Sanctuaire, dans les Hautes-terres Arathies. On l'entend aussi au Nid-de-l'Aigle, à Pluie-d'Etoiles, à Hache-tripes et dans les tours du Marécage d'Âprefange, et il accueille les arrivants au Donjon de Fort-de-Durn. Le second attend quelque part dans la Tour de Guet-de-pierre, dans les Carmines, et accueille les arrivants à Rempart-du-Néant." },
       },
     },
     ["greymane-wall"] = {
@@ -5229,7 +5229,7 @@ ns.translate({
     ["gustberry-lowlands-tune"] = {
       title = "Plaines Aérelles",
       text = {
-        { "Les Plaines Aérelles, avec le Verger Champ-des-Vents, les Écuries Beautemps et la Tour de guet du pylône est, ont un air bien à elles. Ce sont les fermes de l'île. La tour de guet surveille l'un des pylônes d'ancrage, et sur l'île de Zéphras, personne ne prend cette tâche à la légère." },
+        { "Les Plaines Aérelles, avec le Verger Champ-des-Vents, les Écuries Beautemps et la Tour de guet du pylône est, ont un air à elles. Ce sont les fermes de l'île, et leur musique a l'aisance d'un endroit où l'on travaille à la lumière du jour. La tour de guet fait exception. Elle surveille l'un des pylônes d'ancrage, et sur Zéphras, personne ne prend les pylônes à la légère." },
       },
     },
     ["hakkar"] = {
@@ -5249,7 +5249,7 @@ ns.translate({
     ["hall-of-thanes-tune"] = {
       title = "La salle des Thanes",
       text = {
-        { "La salle des Thanes, dans les cavernes du Vieux Forgefer sous la cité, emprunte quatre morceaux aux lieux cachés, et on les retrouve aussi quelque part au Berceau-de-l'Hiver. Les Sombrefer y sont arrivés par les anciens tunnels, et les morts de Courbenclume enterrés dans la salle ne trouvent pas la paix. Forgefer a mis à prix le Sombrefer qui y commande. Quand les tunnels seront de nouveau calmes, je compte bien être la première historienne à y descendre." },
+        { "La salle des Thanes, dans le Vieux Forgefer sous la cité, emprunte quatre morceaux aux lieux cachés. La salle a été bâtie pour les morts que l'on honore, et sa musique sonne comme un tombeau qu'on a dérangé. Les Sombrefer sont montés par les anciens tunnels, et les morts de Courbenclume ne reposent pas en paix. Quand les tunnels seront de nouveau calmes, je compte bien être la première historienne à les descendre." },
       },
     },
     ["hammerfall"] = {
@@ -5409,7 +5409,7 @@ ns.translate({
     ["ironforge-tune"] = {
       title = "Forgefer",
       text = {
-        { "Forgefer est ma propre cité, et je dirai seulement que son air joue quelque part entre ses murs, car les salles sont nombreuses. Les Bronzebeard gardent la Grande Forge allumée sous Magni depuis plus longtemps que la plupart des royaumes n'ont de nom. Vous me trouverez au Hall des explorateurs, si jamais vous avez besoin d'une historienne." },
+        { "Forgefer est ma propre cité, et son air joue quelque part dans ses nombreuses salles. C'est une musique faite sous une montagne, autour de la Grande Forge, et elle a le son de la pierre, du feu et des marteaux parce que la cité n'a jamais eu grand-chose d'autre à écouter. Les Bronzebeard gardent cette forge allumée sous Magni depuis plus longtemps que la plupart des royaumes ne portent un nom." },
       },
     },
     ["jaedenar"] = {
@@ -5453,7 +5453,7 @@ ns.translate({
     ["karazhan-crypts-tune"] = {
       title = "Cryptes de Karazhan",
       text = {
-        { "Les cryptes de Karazhan, la tour de Medivh dans le Défilé de Deuillevent, ont trois morceaux bien à elles, quelque part à l'intérieur. Medivh fut le dernier Gardien de Tirisfal, et sa tour lui a survécu. Ce qui se trouve dessous a survécu à bien plus encore." },
+        { "Les cryptes sous Karazhan, la tour de Medivh dans le Défilé de Deuillevent, ont trois morceaux à elles, quelque part à l'intérieur. La tour d'en haut est connue depuis longtemps pour des bruits que personne ne sait expliquer, et les cryptes perpétuent l'habitude sous terre. Medivh fut le dernier Gardien de Tirisfal, et sa tour lui a survécu. Ce qui se trouve dessous a survécu à bien davantage." },
       },
     },
     ["kargath"] = {
@@ -5634,7 +5634,7 @@ ns.translate({
     ["marsh-and-mire"] = {
       title = "Marais et fondrières",
       text = {
-        { "Les Paluns et le Marécage d'Âprefange partagent un même air, et tous deux sont faits d'humidité et de longues eaux grises. Les nains tiennent le Port de Menethil sur l'un, Theramore sur l'autre. Ni l'un ni l'autre n'est un lieu que je choisirais pour une longue marche, même bien chaussée." },
+        { "Les Paluns et le Marécage d'Âprefange partagent un air, et beaucoup d'air humide et de longues eaux grises. Rien ne bouge vite dans un marais, surtout pas un marcheur aux bottes trempées, et la musique garde ce pas. Les nains tiennent le Port de Menethil, dans les Paluns, et Theramore se dresse dans le Marécage d'Âprefange." },
       },
     },
     ["marshal-windsor"] = {
@@ -5816,7 +5816,7 @@ ns.translate({
     ["naxxramas-tune"] = {
       title = "Naxxramas",
       text = {
-        { "Naxxramas, la nécropole volante de Kel'Thuzad au-dessus des Maleterres, garde en elle, quelque part dans ses quartiers, plus de musique que tout autre lieu que je connaisse. Ses ailes appartiennent aux morts recousus, aux araignées et à la peste, et une autre encore à quatre cavaliers qui combattaient pour la Lumière avant de tomber. Saphiron et Kel'Thuzad se tiennent au-delà. L'Aube d'argent demande à quiconque le peut d'y entrer et d'y détruire le Fléau." },
+        { "Naxxramas, la nécropole volante de Kel'Thuzad au-dessus des Maleterres, renferme plus de musique que tout autre lieu que je connaisse. Chaque aile a la sienne, parce que chaque aile est une horreur à part : les morts recousus, les araignées, la peste, et quatre cavaliers qui combattaient pour la Lumière avant de tomber. L'Aube d'argent est le seul ordre que je connaisse qui souhaite l'entendre de près." },
       },
     },
     ["nefarian"] = {
@@ -5888,7 +5888,7 @@ ns.translate({
     ["northshire-tune"] = {
       title = "Abbaye de Comté-du-Nord",
       text = {
-        { "L'Abbaye de Comté-du-Nord, à l'entrée de la forêt d'Elwynn, emprunte l'un des morceaux de Hurlevent, tout comme le Refuge de l'Ornière, dans les Hautes-terres Arathies, pour qui y arrive. Ce morceau se retrouve aussi quelque part à Forgefer et dans la Basilique écarlate. La plupart des jeunes aventuriers de Hurlevent commencent ici. L'abbaye tient aussi une bibliothèque, et le gardien de cette bibliothèque, frère Paxton, a emprunté il y a des mois un livre sur les contraintes du fer, pour le recopier. Son propriétaire attend toujours qu'on le lui rende." },
+        { "L'Abbaye de Comté-du-Nord, à l'entrée de la forêt d'Elwynn, emprunte l'un des morceaux de Hurlevent, tout comme le Refuge de l'Ornière pour qui y arrive. Le morceau revient quelque part à Forgefer et dans la Basilique écarlate. C'est une musique d'église, ce qui explique l'abbaye et la basilique, à défaut du reste. La plupart des jeunes de Hurlevent commencent ici, et entendent leur capitale avant de la voir." },
       },
     },
     ["northwatch-hold"] = {
@@ -5954,7 +5954,7 @@ ns.translate({
     ["orgrimmar-tune"] = {
       title = "Orgrimmar",
       text = {
-        { "Orgrimmar porte le nom d'Orgrim Doomhammer, qui menait la Horde avant Thrall, et Thrall l'a élevée sur la terre rouge de Durotar. Son air joue quelque part entre les murs. Je ne prétendrai pas savoir où, seulement que les orcs n'ont rien de timide." },
+        { "Orgrimmar porte le nom d'Orgrim Doomhammer, qui menait la Horde avant Thrall, et Thrall l'a élevée sur la terre rouge de Durotar. Son air joue quelque part entre ses murs, et il sonne comme les orcs : fort, fier, fait pour s'entendre par-dessus un tambour de guerre. Un peuple qui s'est rebâti après les camps n'allait sûrement pas composer une musique discrète." },
       },
     },
     ["paladins"] = {
@@ -6116,7 +6116,7 @@ ns.translate({
     ["razorfen-downs-tune"] = {
       title = "Souilles de Tranchebauge",
       text = {
-        { "Les Souilles de Tranchebauge, le tertre des hurans au sud des Tarides, ont leur propre air. Les hurans de là-bas se sont alliés au Fléau, et une liche nommée Amnennar le Porte-froid les gouverne désormais. Il répond à Ner'zhul. Je n'ai jamais trouvé de bonne raison d'y descendre, et j'ai cherché." },
+        { "Les Souilles de Tranchebauge, le tertre des hurans au sud des Tarides, ont leur propre air. Les hurans de là-bas ont rejoint le Fléau, et une liche nommée Amnennar le Porte-froid les gouverne désormais, si bien que leur tertre tient moins du terrier que de la crypte." },
       },
     },
     ["razorfen-kraul"] = {
@@ -6218,7 +6218,7 @@ ns.translate({
     ["ruins-of-ahn-qiraj-tune"] = {
       title = "Ruines d'Ahn'Qiraj",
       text = {
-        { "Les Ruines d'Ahn'Qiraj partagent quatre morceaux avec les salles extérieures du temple. Elles s'étendent derrière le Mur du scarabée, à Silithus. Il y a mille ans, les elfes de la nuit et les dragons ont enfermé les qiraji derrière ce mur. Le mur s'est rouvert, et ce qui en est sorti ne s'était pas adouci entre-temps." },
+        { "Les Ruines d'Ahn'Qiraj, derrière le Mur du scarabée, à Silithus, et les salles extérieures du temple partagent quatre morceaux. Leur son est étrange et étranger. Les qiraji ont passé mille ans derrière un mur scellé, et leur musique leur appartient, pas à qui arrive du désert." },
       },
     },
     ["ruins-of-ahnqiraj"] = {
@@ -6253,7 +6253,7 @@ ns.translate({
     ["ruins-of-lordaeron-tune"] = {
       title = "Ruines de Lordaeron",
       text = {
-        { "Les rues de l'ancienne capitale, au-dessus de Fossoyeuse, depuis l'Allée du Roi et la Rue du Marché jusqu'au cimetière et au Surplomb de Lordamere, empruntent six morceaux. Trois sont ceux de Fossoyeuse, et trois autres jouent aussi au Repos du deuil, sur le Mont Hyjal. Dans ces rues, les Réprouvés combattent de nouveau le Fléau, et chaque rue leur coûte cher. Il me semble juste que la ville d'en haut et celle d'en bas partagent la moitié de leur musique." },
+        { "Les rues de l'ancienne capitale au-dessus de Fossoyeuse, de l'Allée du Roi et de la Rue du Marché jusqu'au cimetière et au Surplomb de Lordamere, empruntent six morceaux. Trois sont ceux de Fossoyeuse, et trois autres jouent au Repos du deuil, sur le Mont Hyjal. La ville d'en haut et celle d'en bas partagent leur musique parce qu'elles ne forment qu'une cité, en deux états de ruine. Là-haut, les Réprouvés combattent de nouveau le Fléau." },
       },
     },
     ["ruins-of-thaurissan"] = {
@@ -6304,8 +6304,8 @@ ns.translate({
     ["scarlet-enclave-tune"] = {
       title = "L'Enclave Écarlate",
       text = {
-        { "L'Enclave Écarlate, celle de la Croisade, partage sa musique avec Nouvelle-Avalon, dans les Maleterres de l'est. La Main de Tyr, Nouvelle-Avalon et le Sanctum des Arcanes se trouvent aujourd'hui tous trois à l'intérieur, et la Croisade n'a jamais manqué de murailles." },
-        { client = "classic", "Six de ses morceaux sont empruntés aux lieux cachés, et cinq sont bien à elle. Quelque part dans la chapelle de l'Enclave attendent trois morceaux de plus, bien à elle, et trois autres empruntés aux lieux cachés." },
+        { "L'Enclave Écarlate de la Croisade, dans les Maleterres de l'est, englobe la Main de Tyr, Nouvelle-Avalon et le Sanctum des Arcanes. L'Enclave et la Main de Tyr partagent leur musique, Nouvelle-Avalon garde la sienne, et toute cette musique a le son austère d'une foi derrière des murailles. La Croisade n'a jamais manqué de foi, ni de murailles." },
+        { client = "classic", "Six de ses morceaux sont empruntés aux lieux cachés, et cinq lui appartiennent. Quelque part dans la chapelle de l'Enclave en attendent trois autres qui lui sont propres, à côté de trois autres venus des lieux cachés." },
       },
     },
     ["scarlet-monastery"] = {
@@ -6319,7 +6319,7 @@ ns.translate({
     ["scarlet-monastery-tune"] = {
       title = "Monastère écarlate",
       text = {
-        { "Quelque part dans le Monastère écarlate jouent deux morceaux que Forgefer a aussi, les mêmes que porte Courbenclume. Je ne saurais expliquer pourquoi un monastère de la Croisade écarlate emprunte la musique de ma propre cité, et je préfère ne pas le demander au Grand Inquisiteur Whitemane. La Croisade envoie ses agents depuis ses murs, jusqu'au Glas, dans les Clairières de Tirisfal." },
+        { "Quelque part dans le Monastère écarlate jouent deux morceaux que Forgefer joue aussi, les deux mêmes que porte Courbenclume. Je ne saurais expliquer pourquoi un monastère de la Croisade écarlate emprunte la musique de ma cité, à moins que les deux n'aient été bâtis par des gens qui ne font confiance à personne hors de leurs murs." },
       },
     },
     ["scholomance"] = {
@@ -6392,7 +6392,7 @@ ns.translate({
     ["shadowgale-forest-tune"] = {
       title = "Forêt de Trombenoire",
       text = {
-        { "La Forêt de Trombenoire, Falaath et les Ruines de Ban'aethal ont un air en commun, et aucun des trois n'est un endroit où s'installer. Les Al'Aketh ont fait de Falaath leur fief. Ban'aethal est vide, et ce qui a failli lui arriver est l'avertissement avec lequel vit le reste de l'île." },
+        { "La Forêt de Trombenoire, Falaath et les Ruines de Ban'aethal ont un air en commun, et aucun des trois n'est un endroit où s'installer. La musique est inquiète parce que les lieux le sont. Les Al'Aketh ont fait de Falaath leur fief. Ban'aethal est vide, et le reste de l'île se règle sur cet avertissement." },
       },
     },
     ["shadowglen"] = {
@@ -6443,7 +6443,7 @@ ns.translate({
     ["shapers-terrace-tune"] = {
       title = "La terrasse du Façonneur",
       text = {
-        { "La terrasse du Façonneur et le Pilier d'assimilation, dans le Cratère d'Un'Goro, ont à eux deux huit morceaux en propre. Quelqu'un a fabriqué les pylônes du cratère et ses cristaux colorés, et J.D. Collie, qui les étudie, ne sait toujours pas qui. Une terrasse qui porte le nom d'un façonneur me paraît le meilleur endroit que je connaisse pour apprendre de qui il s'agit." },
+        { "La terrasse du Façonneur et le Pilier d'assimilation, dans le Cratère d'Un'Goro, ont huit morceaux en propre. Quelqu'un a fabriqué les pylônes du cratère et ses cristaux colorés, et la musique a l'ordre étrange d'une chose fabriquée, non d'une chose qui a poussé. J.D. Collie, qui étudie les cristaux, ne sait toujours pas dire qui les a faits. Une terrasse qui porte le nom d'un façonneur me paraît l'endroit où j'ai le plus de chances de l'apprendre." },
       },
     },
     ["shen-dralas"] = {
@@ -6457,7 +6457,7 @@ ns.translate({
     ["shendar-highlands-tune"] = {
       title = "Hautes-terres de Shen'dar",
       text = {
-        { "Les Hautes-terres de Shen'dar ont un air en commun avec Shen'dar, le Lac Chantevent, la Tour de guet du pylône ouest et deux ensembles de pierres dressées, les Pierres dressées de Chantevent et les Pierres dressées surplombantes. Le culte a frappé un jour la tour qui garde le pylône de l'ouest. Personne ne m'a dit ce que les pierres devaient marquer." },
+        { "Les Hautes-terres de Shen'dar ont un air en commun avec Shen'dar, le Lac Chantevent, la Tour de guet du pylône ouest et deux ensembles de pierres dressées, les Pierres dressées de Chantevent et les Pierres dressées surplombantes. Sur les hauteurs, le vent fait l'essentiel de la conversation, et la musique lui laisse de la place. Personne ne m'a dit ce que les pierres devaient marquer, et la musique garde leur silence." },
       },
     },
     ["shendralar"] = {
@@ -6470,7 +6470,7 @@ ns.translate({
     ["shendralas-tune"] = {
       title = "Shen'dralas",
       text = {
-        { "La Vallée des Ossements et le pays de Shen'dralas qui s'étend au-delà ont quatre morceaux bien à eux, du Front des Magram et de la Planque des renégats à la Retraite des Dos-hirsute, au Surplomb d'Ombrégale et aux Jardins Lugubres. Les centaures y sont arrivés les premiers et y ont mené leur guerre. Les squelettes de cette vallée marchaient sur deux jambes, et personne ne m'a encore dit à qui ils avaient appartenu." },
+        { "La Vallée des Ossements et le pays de Shen'dralas qui s'étend au-delà ont quatre morceaux à eux, du Front des Magram et de la Planque des renégats à la Retraite des Dos-hirsute, au Surplomb d'Ombrégale et aux Jardins Lugubres. Ils sont sombres, parce que les centaures sont arrivés les premiers dans ce pays et en ont fait une guerre pour une vallée pleine de morts." },
       },
     },
     ["shimmering-flats"] = {
@@ -6490,7 +6490,7 @@ ns.translate({
     ["shrine-of-akir-tune"] = {
       title = "Sanctuaire d'Akir",
       text = {
-        { "Le Sanctuaire d'Akir et le Sanctum des Tempêtes se partagent quatre morceaux. Le culte qui les tenait priait le seigneur des Vents, et les deux ordres et les gardes-paix qui lui ont pris le sanctuaire ne s'entendent sur presque rien d'autre. J'aimerais savoir ce qu'on promettait aux Al'Aketh dans ces salles pour les rendre si sûrs d'eux. Je soupçonne que la réponse ne me plairait pas." },
+        { "Le Sanctuaire d'Akir et le Sanctum des Tempêtes se partagent quatre morceaux. Les Al'Aketh, le culte qui les tenait, priaient le seigneur des Vents, et la musique sonne encore comme un lieu bâti pour qu'une tempête y vive. Ceux qui ont pris le sanctuaire au culte ne se sont entendus sur presque rien depuis. J'aimerais savoir ce qu'on promettait aux Al'Aketh dans ces salles." },
       },
     },
     ["si-7"] = {
@@ -6669,7 +6669,7 @@ ns.translate({
     ["stormwind-tune"] = {
       title = "Hurlevent",
       text = {
-        { "Hurlevent a son propre air, qui joue parmi les canaux et les cathédrales de la capitale humaine. La Horde a incendié la cité durant la Première Guerre, et les humains l'ont rebâtie plus grande et plus fière qu'avant. Je remarque que c'est une ville bâtie par des gens qui s'attendaient à être attaqués de nouveau." },
+        { "Hurlevent a son propre air, qui joue parmi les canaux et les cathédrales de la capitale humaine. C'est une musique grandiose, et elle entend l'être. La Horde a incendié la cité pendant la Première Guerre, et les humains l'ont rebâtie plus grande et plus fière qu'avant, comme on le fait quand on s'attend à être attaqué de nouveau." },
       },
     },
     ["stranglethorn-vale"] = {
@@ -6804,7 +6804,7 @@ ns.translate({
     ["temple-of-bethekk-tune"] = {
       title = "Temple de Bethekk",
       text = {
-        { "Le Temple de Bethekk, dans Zul'Gurub, a un seul morceau, et ce même morceau accueille les voyageurs qui arrivent au Repaire des Frostmane, à Xavian, au Rocher des kodos et sur l'Ile de la Dispute. Je n'ai pas encore appris à qui ce temple était voué." },
+        { "Le Temple de Bethekk, dans Zul'Gurub, a un seul morceau, et ce même morceau accueille les arrivants au Repaire des Frostmane, à Xavian, au Rocher des kodos et sur l'Ile de la Dispute. Ces lieux n'ont guère en commun que leur éloignement de tout, et le morceau sonne de même : la musique d'un endroit qui ne vous attend pas. Je n'ai pas encore appris à qui ce temple était voué." },
       },
     },
     ["thandol-span"] = {
@@ -6864,7 +6864,7 @@ ns.translate({
     ["the-battlefields"] = {
       title = "Les champs de bataille",
       text = {
-        { "Trois morceaux de bataille appartiennent à des lieux où l'on se bat sans cesse : la Mine des Pierriers dans les Tarides, la Forteresse de Hache-Tonnerre en Désolace, le Donjon de Fenris dans la forêt des Pins argentés, les Ruines d'Alterac, le Bastion Cognepeur dans les Terres foudroyées et tout le Bassin Arathi, entre autres. La Lame ardente garde à Hache-Tonnerre la relique qui ouvre ses portails démoniaques au Convent de Mannoroc. Dans le Bassin Arathi, la Ligue d'Arathor et les Profanateurs se disputent chaque ferme et chaque mine." },
+        { "Trois morceaux de bataille appartiennent aux lieux où quelqu'un se bat toujours : la Mine des Pierriers, la Forteresse de Hache-Tonnerre en Désolace, le Donjon de Fenris, les Ruines d'Alterac, le Bastion Cognepeur dans les Terres foudroyées et tout le Bassin Arathi, entre autres. La musique ne se repose pas parce que les lieux ne se reposent pas. Dans le Bassin Arathi, la Ligue d'Arathor et les Profanateurs se disputent chaque ferme et chaque mine." },
       },
     },
     ["the-broken-alliance"] = {
@@ -6885,7 +6885,7 @@ ns.translate({
     ["the-burning-lands"] = {
       title = "Les terres ardentes",
       text = {
-        { "Le Mont Rochenoire, les Steppes ardentes et la Gorge des Vents brûlants sont le même feu vu sous trois angles. Les nains Sombrefer tiennent la Gorge, et Ragnaros tient le cœur de la montagne. Je ne m'attarderais ni chez les uns ni chez l'autre." },
+        { "Le Mont Rochenoire, les Steppes ardentes et la Gorge des Vents brûlants sont le même feu vu sous trois angles, et ils partagent le même air. Il est aussi chaud et lourd que le sol. Les nains Sombrefer tiennent la Gorge, et Ragnaros tient le cœur de la montagne." },
       },
     },
     ["the-cauldron"] = {
@@ -6937,7 +6937,7 @@ ns.translate({
     ["the-dark-woods"] = {
       title = "Les bois sombres",
       text = {
-        { "Le Bois de la Pénombre, le Défilé de Deuillevent, les Clairières de Tirisfal et la forêt des Pins argentés partagent un seul air, et aucun de ces lieux n'invite à s'attarder. Tirisfal était la campagne cultivée de Lordaeron avant l'arrivée de la peste, et les Réprouvés la gardent aujourd'hui. Les lieux n'ont pas eu besoin de changer pour leur convenir." },
+        { "Du Bois de la Pénombre et du Défilé de Deuillevent jusqu'aux Clairières de Tirisfal et à la forêt des Pins argentés, un seul air couvre les bois, et aucun n'est un endroit où l'on se tient à son aise. Ce sont des bois où marchent les morts et où la lumière baisse tôt, et la musique parle à voix basse. Tirisfal était la campagne de Lordaeron avant l'arrivée de la peste, et les Réprouvés la gardent aujourd'hui." },
       },
     },
     ["the-deadmines"] = {
@@ -6958,13 +6958,13 @@ ns.translate({
     ["the-dry-caves"] = {
       title = "Les grottes arides",
       text = {
-        { "La Caverne des Terrevent en Durotar, la Tanière des Volplumes dans les Mille pointes, l'Antre de Shalzaru en Feralas : un seul air pour les cavités du pays sec, et pour ceux qui s'y sont installés. Dans l'Antre de Shalzaru, ce sont des nagas qui ont creusé, en quête d'une relique, et leur seigneur Shalzaru l'a trouvée avant que quiconque ait pu l'en empêcher." },
+        { "La Caverne des Terrevent en Durotar, la Tanière des Volplumes dans les Mille pointes, l'Antre de Shalzaru en Feralas : un seul air pour les trous du pays sec, et pour qui s'y est installé. Dans l'Antre de Shalzaru, les occupants étaient des nagas, qui creusaient pour une relique que leur seigneur Shalzaru a trouvée avant que quiconque puisse l'en empêcher. Une grotte sèche est confinée et immobile, et sa musique aussi." },
       },
     },
     ["the-dry-lands"] = {
       title = "Les terres arides",
       text = {
-        { "De la poussière et des épines, des Tarides aux Terres ingrates, puis aux Terres foudroyées, à Désolace et aux Serres-Rocheuses : un seul air pour tout cela. Les orcs ont fait des Tarides leur patrie après la guerre de la Horde, et les Terres foudroyées portent encore la cicatrice de la Porte des ténèbres. C'est une contrée qu'on s'est disputée plus souvent que la plupart." },
+        { "De la poussière et des épines, des Tarides aux Terres ingrates, puis aux Terres foudroyées, à Désolace et aux Serres-Rocheuses : un seul air pour tout cela. Il garde le pas lent de quiconque traverse ce pays à pied. Les orcs ont fait des Tarides leur pays après la guerre de la Horde, et les Terres foudroyées portent encore la cicatrice de la Porte des ténèbres." },
       },
     },
     ["the-embalmer"] = {
@@ -7000,7 +7000,7 @@ ns.translate({
     ["the-fel-woods"] = {
       title = "Les bois gangrenés",
       text = {
-        { "Gangrebois, le Canyon de la Malechute en Orneval et le Convent de Mannoroc en Désolace partagent un air, et une histoire. Les démons sont venus en Kalimdor et ont marqué la terre, et à Gangrebois les satyres Jadefeu et les sectateurs de Jaedenar entretiennent la marque. Le monument de Grom Hellscream se dresse dans le Canyon de la Malechute. Il a affronté seul Mannoroth, et la Horde voit dans son sacrifice la fin de la malédiction des orcs." },
+        { "Gangrebois, le Canyon de la Malechute en Orneval et le Convent de Mannoroc en Désolace partagent un air, et une histoire. Les démons sont venus en Kalimdor et ont laissé leur marque dans la terre, et la musique sonne aussi malade que le sol. À Gangrebois, les satyres Jadefeu et les sectateurs de Jaedenar gardent la plaie ouverte. Le monument de Grom Hellscream se dresse dans le Canyon de la Malechute, là où il affronta seul Mannoroth." },
       },
     },
     ["the-felstones"] = {
@@ -7015,7 +7015,7 @@ ns.translate({
     ["the-fire-below"] = {
       title = "Le feu des profondeurs",
       text = {
-        { "Le Rocher des Cognepeurs, la Fosse aux scories de la Gorge des Vents brûlants, l'Antre des flammes au Marécage d'Âprefange et les profondeurs du Mont Rochenoire : voilà l'air des endroits brûlants sous terre. Les ogres en tiennent plusieurs, ce qui en dit long sur les ogres. Les orcs de Kargath envoient des gens au Rocher des Cognepeurs chercher un anneau de nez, ce qui en dit long sur les orcs." },
+        { "Le Rocher des Cognepeurs, la Fosse aux scories de la Gorge des Vents brûlants, l'Antre des flammes au Marécage d'Âprefange et les profondeurs du Mont Rochenoire partagent la musique des lieux brûlants sous terre. Là où l'atmosphère même est un danger, la musique reste basse et serrée. Des ogres en tiennent plusieurs, et la chaleur semble leur plaire." },
       },
     },
     ["the-first-war"] = {
@@ -7047,13 +7047,13 @@ ns.translate({
     ["the-furbolg-dens"] = {
       title = "Les villages furbolgs",
       text = {
-        { "Les villages furbolgs de Gangrebois et d'Orneval, ceux des Mort-bois, de Gangrepatte et des Crins-de-Chardon, partagent un air. La gangrène a corrompu la plupart des furbolgs de ces forêts. Les Grumegueules y ont échappé, et ils gardent leur repaire entre Gangrebois et Reflet-de-Lune contre leurs propres frères déchus." },
+        { "Les villages furbolgs de Gangrebois et d'Orneval, ceux des Mort-bois, de Gangrepatte et des Crins-de-Chardon, partagent un air. Il est triste, et la raison en est simple. La gangrène a corrompu la plupart des furbolgs de ces forêts, et leurs villages sont ce qui reste d'un peuple paisible. Les Grumegueules y ont échappé, et ils gardent leur repaire entre Gangrebois et Reflet-de-Lune contre leurs propres frères déchus." },
       },
     },
     ["the-graveyards"] = {
       title = "Les cimetières",
       text = {
-        { "Le cimetière de Colline-aux-Corbeaux et le cimetière des jardins paisibles au Bois de la Pénombre, Brill et les Moulins d'Agamand à Tirisfal, le Tombeau d'Uther et les Ruines d'Andorhal : cet air ne quitte guère les lieux où l'on enterre les morts, ni certains où ils ne sont pas restés en terre. Les Agamand de Tirisfal en sont un bon exemple. J'ai lu l'une de leurs lettres, et je préfère ne pas croiser la famille." },
+        { "Le cimetière de Colline-aux-Corbeaux et le cimetière des jardins paisibles au Bois de la Pénombre, Brill et les Moulins d'Agamand à Tirisfal, le Tombeau d'Uther et les Ruines d'Andorhal : cet air ne quitte guère les lieux où l'on enterre les morts, ni certains où ils ne sont pas restés en terre. Ces lieux ont plus à pleurer que la plupart, et l'air garde le pas d'un cortège de deuil. Les Moulins d'Agamand sont de la seconde sorte." },
       },
     },
     ["the-great-hunts"] = {
@@ -7076,19 +7076,19 @@ ns.translate({
     ["the-haunted-rooms"] = {
       title = "Les salles hantées",
       text = {
-        { "Ce morceau attend quelque part dans trois bâtiments qui n'ont rien d'autre en commun : la Taverne de l'Eau-profonde au Port de Menethil, la Taverne des Pendus à Brill et la réserve dans la Vallée de Strangleronce. Il salue aussi les arrivants à la Ferme des Olsen, dans la forêt des Pins argentés, et à Jaedenar, en Gangrebois. J'ai cherché ce qui les relie, et je n'ai rien trouvé." },
+        { "Ce morceau attend quelque part dans trois bâtiments qui n'ont rien d'autre en commun : la Taverne de l'Eau-profonde au Port de Menethil, la Taverne des Pendus à Brill et la réserve dans la Vallée de Strangleronce. Il accueille aussi les arrivants à la Ferme des Olsen, dans la forêt des Pins argentés, et à Jaedenar, en Gangrebois. L'air est inquiet, et chacun de ces lieux a sa propre raison de l'être." },
       },
     },
     ["the-hidden-places"] = {
       title = "Les lieux cachés",
       text = {
-        { "Cet air revient dans des lieux qui n'ont pas grand-chose en commun : le Nid-de-l'Aigle des nains Marteau-hardi, le temple Vilebranch de Jintha'Alor, la Faille à Teldrassil, la rive du Loch Modan. Un autre est la Tour d'Ilgalar, dans les Carmines, où vit le mage Morganth. Son rival le dit cruel, et je ne suis pas allée vérifier." },
+        { "Cet air revient dans des lieux qui n'ont pas grand-chose en commun : le Nid-de-l'Aigle, le temple Vilebranch de Jintha'Alor, la Faille à Teldrassil, la rive du Loch Modan et la Tour d'Ilgalar, dans les Carmines. Chacun se tient à l'écart de la route, et la musique a le silence feutré d'un endroit qu'il faut chercher." },
       },
     },
     ["the-high-mountains"] = {
       title = "Les hautes montagnes",
       text = {
-        { "Dun Morogh, les Hautes-terres Arathies et Berceau-de-l'Hiver se partagent tous cet air, et j'avoue ne pas être impartiale pour le premier. Les Hautes-terres Arathies abritaient jadis la capitale de Thoradin, quand Arathor régnait sur les terres humaines. Berceau-de-l'Hiver ne contient que de la neige et beaucoup de patience." },
+        { "Dun Morogh, les Hautes-terres Arathies et Berceau-de-l'Hiver ont tous cet air en partage, et j'avoue ne pas être impartiale pour le premier. Un air raréfié et une vue qui porte loin donnent à la musique sa hauteur. Les Hautes-terres Arathies abritaient jadis la capitale de Thoradin, quand Arathor régnait sur les terres humaines. Berceau-de-l'Hiver, lui, abrite de la neige et beaucoup de patience." },
       },
     },
     ["the-high-order"] = {
@@ -7108,25 +7108,25 @@ ns.translate({
     ["the-horde-outposts"] = {
       title = "Les avant-postes de la Horde",
       text = {
-        { "La Croisée, le Campement Grom'gol, le Poste de Bois-brisé, le Camp de bûcherons chanteguerre et la Retraite de Roche-Soleil partagent un air. Ce sont les forts de la Horde le long des routes, bâtis partout où il lui fallait un mur, un maître de vol et un cuisinier. La Croisée se tient là où se rejoignent les routes des Tarides, et tôt ou tard, tout voyageur de la région y passe." },
+        { "La Croisée, le Campement Grom'gol, le Poste de Bois-brisé, le Camp de bûcherons chanteguerre et la Retraite de Roche-Soleil partagent un air. Ce sont les forts de la Horde le long des routes, bâtis partout où il lui fallait un mur, un maître de vol et un cuisinier, et leur musique est celle d'un camp qui attend de la visite, amicale ou non. La Croisée se tient là où se rejoignent les routes des Tarides." },
       },
     },
     ["the-inns"] = {
       title = "Les auberges",
       text = {
-        { "La Distillerie Thunderbrew à Kharanos et l'Auberge de la Fortebière au Loch Modan ont un air en commun, et la Taverne des Pendus, chez les Réprouvés de Brill, a le sien. Le premier se retrouve aussi quelque part à Hurlevent, à Forgefer, à Comté-du-Lac, à Dun Modr et à la Taverne de l'Eau-profonde. Les Thunderbrew brassent de la bonne bière, et des rivaux ont déjà tenté de glisser un tonneau de leur cru dans la cave de la distillerie. Les gardes noirs de Brill enferment leurs prisonniers dans la cave de la Taverne des Pendus, ce qui est une excellente raison de boire à l'étage." },
+        { "La Distillerie Thunderbrew à Kharanos et l'Auberge de la Fortebière ont un air en commun, et la Taverne des Pendus, à Brill, a le sien. Le premier revient quelque part à Hurlevent, à Forgefer, à Comté-du-Lac, à Dun Modr et à la Taverne de l'Eau-profonde. Une salle chaude après une route froide, c'est à cela que sert une auberge, et l'air en a le son. La Taverne des Pendus, au-dessus d'une cave pleine des prisonniers des gardes noirs, est une auberge d'un autre genre." },
       },
     },
     ["the-jungle"] = {
       title = "La jungle",
       text = {
-        { "Le même air couvre la Vallée de Strangleronce, Feralas et les ruines trolles de Zul'Gurub et du temple d'Atal'Hakkar. Les trolls Gurubashi régnaient jadis sur cette jungle depuis leur grande cité. Leur empire a disparu, pas les arbres." },
+        { "Le même air couvre la Vallée de Strangleronce, Feralas et les ruines trolles de Zul'Gurub et du temple d'Atal'Hakkar. Une jungle n'est jamais silencieuse, et sa musique non plus : quelque chose appelle toujours dans les arbres. Les trolls Gurubashi régnaient jadis sur cette jungle depuis leur grande cité. Leur empire a disparu, pas les arbres." },
       },
     },
     ["the-keeps"] = {
       title = "Les donjons",
       text = {
-        { "Le Donjon de Stromgarde dans les Hautes-terres Arathies, le Donjon de Tiragarde sur la côte de Durotar et la Garnison du ruisseau de l'ouest dans la forêt d'Elwynn portent des morceaux de la musique de Hurlevent, et Stromgarde salue chaque arrivant d'un morceau de plus. Stromgarde était le royaume des Trollbane, et un tombeau des Trollbane se trouve toujours dans le donjon. Tiragarde est un donjon de Kul Tiras, planté sur la côte même des orcs. La Horde l'a pris une fois, et les hommes de l'amiral Proudmoore l'ont repris." },
+        { "Le Donjon de Stromgarde dans les Hautes-terres Arathies, le Donjon de Tiragarde en Durotar et la Garnison du ruisseau de l'ouest dans la forêt d'Elwynn portent des morceaux de la musique de Hurlevent, et Stromgarde accueille l'arrivant d'un morceau de plus. Ils empruntent la musique de la capitale parce qu'ils sont les murailles des royaumes humains. Stromgarde était le royaume des Trollbane. Tiragarde est un donjon de Kul Tiras sur la côte même des orcs, pris une fois par la Horde et repris depuis." },
       },
     },
     ["the-lich-king"] = {
@@ -7140,7 +7140,7 @@ ns.translate({
     ["the-living-forest"] = {
       title = "La forêt vivante",
       text = {
-        { "L'air de Teldrassil, le grand arbre que les elfes de la nuit appellent leur foyer, se poursuit dans la forêt d'Orneval. Les deux appartiennent à un peuple qui compte ses années en millénaires, et qui parcourait ces bois avant que les nains n'aient appris à creuser." },
+        { "L'air de Teldrassil, le grand arbre dont les elfes de la nuit ont fait leur foyer, se prolonge dans les forêts d'Orneval. Les deux bois appartiennent à un peuple qui compte ses années en millénaires, et la musique est aussi patiente que lui. Les elfes parcouraient ces forêts avant que les nains aient appris à creuser." },
       },
     },
     ["the-lost-dwarves"] = {
@@ -7169,19 +7169,19 @@ ns.translate({
     ["the-moonwells"] = {
       title = "Les puits de lune",
       text = {
-        { "Le puits de lune d'Orneval et le sanctuaire d'Aessina portent cet air, et on le retrouve aussi en certains lieux de Darnassus et de Hurlevent. Aessina est l'un des esprits de la nature que révèrent les elfes de la nuit. Son sanctuaire se trouve au cœur d'Orneval, et Therysil y attend des nouvelles de sa sœur." },
+        { "Le puits de lune d'Orneval et le sanctuaire d'Aessina portent cet air, et on le retrouve quelque part à Darnassus et à Hurlevent. L'eau sacrée demande le silence, et l'air le respecte : même une naine y baisse la voix. Aessina est l'un des esprits de la nature des elfes de la nuit, et son sanctuaire se trouve au cœur d'Orneval." },
       },
     },
     ["the-ogre-mounds"] = {
       title = "Les tertres des ogres",
       text = {
-        { "Le Tertre des ogres Vul'Gol au Bois de la Pénombre et Mur-de-Fougères au Marécage d'Âprefange partagent un air, et un grand nombre d'ogres. Les Brisepoing de Vul'Gol attaquent quiconque s'approche. À Mur-de-Fougères, les ogres Cognepierre servent le Seigneur Mok'Morokk, un titre que Rexxar lui a donné. Les dragons noirs de la couvée d'Onyxia les ont chassés de chez eux, et certains ogres du camp reprochent encore à Mok'Morokk d'avoir fui." },
+        { "Le Tertre des ogres Vul'Gol au Bois de la Pénombre et Mur-de-Fougères au Marécage d'Âprefange partagent un air, et un grand nombre d'ogres. Lourd et simple, l'air convient aux ogres, qui bâtissent de la même façon. À Mur-de-Fougères, les Cognepierre servent le seigneur Mok'Morokk, et tous les ogres du camp ne lui ont pas pardonné d'avoir fui les dragons noirs qui leur ont pris leur ancien foyer." },
       },
     },
     ["the-open-plains"] = {
       title = "Les plaines ouvertes",
       text = {
-        { "Les fermes de la Marche de l'Ouest, les collines rouges de Durotar, l'herbe de Mulgore et les Mille pointes partagent un seul air, ce qui fait beaucoup de peuples pour une seule chanson. Les humains labourent la Marche de l'Ouest, les orcs ont fait de Durotar leur patrie sous la conduite de Thrall, et les taurens parcourent Mulgore depuis bien avant les uns et les autres." },
+        { "Un seul air porte les fermes de la Marche de l'Ouest, les collines rouges de Durotar, l'herbe de Mulgore et les Mille pointes, ce qui fait beaucoup de peuples à demander à une seule chanson. Là où l'on voit loin, un air peut prendre son temps, et celui-ci le prend. Les humains labourent la Marche de l'Ouest, les orcs ont fait de Durotar leur patrie sous la conduite de Thrall, et les taurens parcourent Mulgore depuis bien avant les uns et les autres." },
       },
     },
     ["the-ordering"] = {
@@ -7196,13 +7196,13 @@ ns.translate({
     ["the-plagued-lands"] = {
       title = "Les terres de la peste",
       text = {
-        { "Les Maleterres de l'ouest et les Maleterres de l'est partagent cet air avec le Monastère écarlate. La peste a commencé dans le blé, à Andorhal, et ce qu'elle a fait aux fermes du nord de Lordaeron se lit encore sur le sol. La Croisade écarlate est, à sa façon, un autre visage de la même blessure." },
+        { "Les Maleterres de l'ouest et les Maleterres de l'est partagent cet air avec le Monastère écarlate. Il pleure un royaume mort. La peste a commencé dans le blé, à Andorhal, et ce qu'elle a fait aux fermes du nord de Lordaeron, vous pouvez encore le lire sur le sol. La Croisade écarlate est, à sa façon, un autre visage de la même blessure." },
       },
     },
     ["the-sands"] = {
       title = "Les sables",
       text = {
-        { "Tanaris, Silithus et la cité troll de Zul'Farrak partagent un même air, et tous trois sont faits de sable et de soleil. Silithus est aussi l'endroit où se dressent les Portes d'Ahn'Qiraj, ce qui est une mauvaise raison de s'y rendre et une excellente raison d'en parler." },
+        { "Tanaris, Silithus et la cité troll de Zul'Farrak partagent un air, et beaucoup de sable et de soleil. La musique est sèche et patiente, comme un pays où l'ombre est à une journée de marche. Silithus est aussi l'endroit où se dressent les Portes d'Ahn'Qiraj, ce qui est une piètre raison de s'y rendre et une excellente raison d'écrire à son sujet." },
       },
     },
     ["the-scarab-wall"] = {
@@ -7215,7 +7215,7 @@ ns.translate({
     ["the-scarred-places"] = {
       title = "Les lieux balafrés",
       text = {
-        { "Le Repaire d'Onyxia dans le Marécage d'Âprefange, la Balafre impure dans les Terres foudroyées, le Ravin de Brèche-de-l'Ombre en Désolace, la Vallée des cristaux en Silithus et les Falaises de la Tempête partagent un morceau emprunté aux Tarides. Chacun a ses ennuis : un dragon noir dans le premier, le seigneur Kazzak et ses démons dans le deuxième, les invocateurs de la Lame ardente dans le troisième. Dans le quatrième, le généralissime Demetrian attend quiconque aura l'audace de brandir Lame-tonnerre." },
+        { "Le Repaire d'Onyxia, la Balafre impure, le Ravin de Brèche-de-l'Ombre en Désolace, la Vallée des cristaux en Silithus et les Falaises de la Tempête partagent un morceau emprunté aux Tarides. Le morceau est menaçant, et ces lieux l'ont mérité : le repaire d'un dragon noir, les démons du seigneur Kazzak dans la Balafre impure, les invocateurs de la Lame ardente dans le Ravin de Brèche-de-l'Ombre." },
       },
     },
     ["the-scepter-of-the-shifting-sands"] = {
@@ -7266,7 +7266,7 @@ ns.translate({
     ["the-sorrowful-swamp"] = {
       title = "Le Marais des Chagrins",
       text = {
-        { "Le Marais des Chagrins et le cratère d'Un'Goro n'ont rien d'autre en commun que cet air. Le premier abrite le village orc de Pierrêche et le temple englouti d'Atal'Hakkar. Le second compte quantité de dinosaures, ce qu'aucune de mes histoires n'a jamais su expliquer." },
+        { "Le Marais des Chagrins et le Cratère d'Un'Goro jouent le même air, et ils ont plus en commun qu'il n'y paraît : tous deux sont humides, verts et très vieux. Le premier abrite le village orc de Pierrêche et le temple englouti d'Atal'Hakkar. Le second abrite quantité de dinosaures, ce qu'aucune de mes histoires n'a jamais su expliquer." },
       },
     },
     ["the-stockade"] = {
@@ -7319,13 +7319,13 @@ ns.translate({
     ["the-troll-villages"] = {
       title = "Les villages trolls",
       text = {
-        { "Le Village de Sen'jin en Durotar, Malaka'jin dans les Serres-Rocheuses, Proie-de-l'Ombre en Désolace et l'Avant-poste de Zoram'gar en Orneval se partagent un même air, et la plupart abritent des trolls de la Horde. La tribu Darkspear est partie avec Thrall, et Sen'jin, sur la côte de Durotar, est aujourd'hui leur village. Les Bloodscalp de Strangleronce comptent toujours les Darkspear parmi leurs ennemis." },
+        { "Le Village de Sen'jin en Durotar, Malaka'jin dans les Serres-Rocheuses, Proie-de-l'Ombre en Désolace et l'Avant-poste de Zoram'gar en Orneval partagent un air, et les trolls de la Horde habitent la plupart d'entre eux. Les trolls portent leurs tambours d'un rivage à l'autre, et la musique va où vont les tambours. Les Darkspear sont partis avec Thrall, et Sen'jin est aujourd'hui leur village." },
       },
     },
     ["the-twilight-shores"] = {
       title = "Les rivages du crépuscule",
       text = {
-        { "Sombrivage, Reflet-de-Lune, les villages des Pins argentés et la côte des Paluns partagent cet air. Auberdine regarde la Mer voilée, et les druides veillent sur le Sanctuaire de Remulos à Reflet-de-Lune. Bois-du-Bûcher, dans les Pins argentés, est une autre affaire. Ses habitants sont humains le jour et worgens Ragelune la nuit, et c'est l'enchantement d'Arugal qu'il faut en blâmer." },
+        { "Sombrivage, Reflet-de-Lune, les villages des Pins argentés et la côte des Paluns partagent cet air. Ce sont des rivages gris du nord, où le soir semble durer toute la journée, et la musique garde ce crépuscule. Auberdine regarde la Mer voilée, et les druides veillent sur le Sanctuaire de Remulos à Reflet-de-Lune." },
       },
     },
     ["the-valley-of-bones"] = {
@@ -7347,7 +7347,7 @@ ns.translate({
     ["the-veiled-sea"] = {
       title = "La Mer voilée",
       text = {
-        { "Ce morceau appartient aux eaux de la Mer voilée, au large de Sombrivage, et il salue les arrivants au Pic des Serres-Rocheuses et à Reflet-de-Lune. J'ai traversé ces eaux plus souvent que je ne l'aurais voulu. La mer, elle, n'a jamais été pressée." },
+        { "Ce morceau appartient aux eaux de la Mer voilée, au large de Sombrivage, et il accueille les arrivants au Pic des Serres-Rocheuses et à Reflet-de-Lune. Une longue traversée veut une musique lente, et celle-ci l'est. J'ai fait cette traversée bien des fois, et la mer n'a jamais été pressée." },
       },
     },
     ["the-war-of-the-spider"] = {
@@ -7361,7 +7361,7 @@ ns.translate({
     ["the-webbed-dark"] = {
       title = "Les ténèbres tissées",
       text = {
-        { "Les Grottes des Tisse-nuit à Tirisfal, le Grouillement dans les Pins argentés, la Grotte de Sombrefil à Teldrassil et les mines de la Marche de l'Ouest et du Loch Modan partagent un air. Les araignées aiment les trous sombres, et les mineurs en creusent. Les uns et les autres se croisent plus souvent qu'ils ne le voudraient." },
+        { "Araignées et mineurs se croisent aux Grottes des Tisse-nuit à Tirisfal, au Grouillement dans les Pins argentés, à la Grotte de Sombrefil à Teldrassil et dans les mines de la Marche de l'Ouest et du Loch Modan, et un même air joue partout. Les tunnels sont étroits, quelque chose vit dans les parois, et la musique rampe à l'avenant. Les araignées aiment les trous sombres, et les mineurs en creusent, si bien que les deux se croisent plus souvent que l'un ou l'autre ne le voudrait." },
       },
     },
     ["the-windshapers"] = {
@@ -7399,7 +7399,7 @@ ns.translate({
     ["thendal-tune"] = {
       title = "Thendal",
       text = {
-        { "Thendal, le Bosquet de Thendal et les Pierres dressées de Thendal jouent le même thème. Le village garde son histoire tout en haut de son grand arbre, ce qui me semble un endroit raisonnable sur une île qui a déjà dû vider tout un village en une seule nuit. De toutes les archives que je connais, c'est la plus difficile d'accès, et je ferais tout de même l'ascension." },
+        { "Thendal, le Bosquet de Thendal et les Pierres dressées de Thendal partagent un air. Le village garde sa mémoire tout en haut d'un grand arbre, et la musique est aussi feutrée qu'une salle d'archives. L'île a dû un jour vider tout un village en une seule nuit, et Thendal ne l'a pas oublié. De toutes les archives que je connais, celles de cet arbre sont les plus difficiles d'accès, et je ferais tout de même l'ascension." },
       },
     },
     ["theramore-isle"] = {
@@ -7457,7 +7457,7 @@ ns.translate({
     ["thunder-bluff-tune"] = {
       title = "Thunder Bluff",
       text = {
-        { "Thunder Bluff se dresse sur les hautes mesas de Mulgore, patrie des taurens et de Cairne Bloodhoof, leur chef. Son air joue sur les pitons et dans les villages des plaines en contrebas. Les taurens bâtissent comme ils vivent, lentement et à ciel ouvert." },
+        { "Thunder Bluff se dresse sur les hautes mesas de Mulgore, patrie des taurens et de Cairne Bloodhoof, leur chef. Son air joue sur les pitons et dans les villages de la plaine en contrebas. Les taurens bâtissent comme ils vivent, lentement et à ciel ouvert, et leur musique leur ressemble, sans hâte et pleine de vent." },
       },
     },
     ["timber"] = {
@@ -7560,7 +7560,7 @@ ns.translate({
     ["undercity-tune"] = {
       title = "Fossoyeuse",
       text = {
-        { "Fossoyeuse s'étend sous les ruines de la capitale de Lordaeron, et les Réprouvés de Sylvanas la gardent. Son air joue quelque part dans les salles d'en bas. C'est la seule ville que je connaisse dont les habitants prendraient le mot accueillante pour une insulte." },
+        { "Fossoyeuse s'étend sous les ruines de la capitale de Lordaeron, et les Réprouvés de Sylvanas la gardent. Son air joue quelque part dans les salles d'en bas, froid et plein d'échos, une musique pour une cité faite de cryptes. C'est la seule ville que je connaisse dont les habitants prendraient le mot accueillante pour une insulte." },
       },
     },
     ["ungoro-crater"] = {
@@ -7598,7 +7598,7 @@ ns.translate({
     ["valanaar-tune"] = {
       title = "Valanaar",
       text = {
-        { "Valanaar a trois morceaux bien à elle. Le grand ancien gouverne depuis la ville, et c'est de ses quais aériens que partent les shen'dorei quand ils descendent vers Azeroth, si bien que leurs voyageurs passent par là plus que partout ailleurs sur l'île. C'est le premier visage de Zéphras que voient la plupart des visiteurs, et le dernier." },
+        { "Valanaar a trois morceaux à elle. Le grand ancien y gouverne, et c'est de ses quais aériens que partent les shen'dorei quand ils descendent vers Azeroth, si bien que plus de voyageurs de l'île passent par là que partout ailleurs. Sa musique est celle des arrivées et des adieux. C'est le premier visage de Zéphras que voient la plupart des visiteurs, et le dernier." },
       },
     },
     ["valley-of-kings"] = {
@@ -7682,7 +7682,7 @@ ns.translate({
     ["warsong-gulch-tune"] = {
       title = "Goulet des Chanteguerres",
       text = {
-        { "Le Goulet des Chanteguerres a cinq morceaux bien à lui. Les Sentinelles d'Aile-argent y combattent les Voltigeurs chanteguerres, à cause des haches des orcs et des arbres que ceux-ci abattent. Les elfes de la nuit tiennent que cette forêt est ce qui rend Orneval défendable, et qu'Astranaar tomberait peu après elle." },
+        { "Le Goulet des Chanteguerres a cinq morceaux à lui. Les Sentinelles d'Aile-argent y combattent les Voltigeurs chanteguerres pour les haches des orcs et des arbres qu'elles abattent, et sa musique a l'urgence d'un combat qui ne finit jamais tout à fait. Les elfes de la nuit tiennent que cette forêt rend Orneval défendable, et qu'Astranaar tomberait peu après elle." },
       },
     },
     ["warsong-lumber-camp"] = {
@@ -7725,7 +7725,7 @@ ns.translate({
     ["wetlands-excavation-tune"] = {
       title = "Excavations : les Paluns",
       text = {
-        { "Le chantier des collines au-dessus des Paluns compte neuf morceaux en propre, pour le chantier lui-même, le Marais Perdu et le Site du Gardien, et en emprunte cinq autres aux marais d'en bas pour le Fourré du Traqueur et le Site de fouilles perdu. L'équipe venue du Loch Modan a trouvé là-haut, sous le marais, une machine de pierre. Les Dragonmaw sont venus la chercher, et les espions des Réprouvés les surveillent." },
+        { "Le chantier des collines au-dessus des Paluns a neuf morceaux en propre et en emprunte cinq autres aux marais d'en bas. L'équipe venue du Loch Modan a trouvé là-haut, sous le marais, une machine de pierre, et la musique a le poids d'une vieille pierre qu'on a réveillée. Les Dragonmaw sont venus la chercher, et les espions des Réprouvés les surveillent." },
       },
     },
     ["whelgars-excavation-site"] = {
@@ -7830,13 +7830,13 @@ ns.translate({
     ["zephras-isle-tune"] = {
       title = "Île de Zéphras",
       text = {
-        { "Une grande partie de l'île de Zéphras partage un même air, des Quais aériens de Valanaar aux Flèches Rohashi, de la Tanière des criailleuses à la Caverne de la Noctegriffe. Là où un village ou un lieu saint a sa propre musique, celle-ci prend le relais, et là où elle s'arrête, celui-ci revient. Peu de choses sur l'île sont aussi fiables, ces temps-ci." },
+        { "Une grande partie de l'île de Zéphras partage un même air, des Quais aériens de Valanaar et des Flèches Rohashi à la Tanière des criailleuses et à la Caverne de la Noctegriffe. C'est la voix propre de l'île, et là où un village ou un lieu saint a sa musique à lui, celle-ci prend le relais. Là où cette musique s'arrête, l'air de l'île revient, et peu d'autres choses y sont aussi fiables ces temps-ci." },
       },
     },
     ["zul-gurub-tune"] = {
       title = "Zul'Gurub",
       text = {
-        { "Les trolls Zandalar ont installé leur camp sur l'Ile de Yojamba, au large de la Vallée de Strangleronce, et le même morceau joue dans la Fosse du Sang igné, au cœur de Zul'Gurub. Les Zandalar sont venus arrêter Hakkar l'Écorcheur d'âmes, le dieu du Sang, avant que son règne ne s'étende sur tout Azeroth. Ils n'hésitent pas à demander de l'aide, et ce que vous croyez leur importe peu." },
+        { "Les trolls Zandalar ont installé leur camp sur l'Ile de Yojamba, au large de la Vallée de Strangleronce, et le même morceau joue dans la Fosse du Sang igné, au cœur de Zul'Gurub. Le morceau comme la querelle appartiennent aux trolls. Les Zandalar sont venus arrêter l'Écorcheur d'âmes, Hakkar le dieu du Sang, avant que son règne ne s'étende sur tout Azeroth. Ils acceptent l'aide de n'importe qui, et ce que croient ceux qui les aident leur importe peu." },
       },
     },
     ["zulfarrak"] = {

@@ -1,8 +1,8 @@
 ---
 id: scarlet-enclave-tune
-source: 6a7f3dc2ad93
+source: 84bbe50a3cc0
 title: L'Enclave Écarlate
 ---
-L'Enclave Écarlate, celle de la Croisade, partage sa musique avec Nouvelle-Avalon, dans les Maleterres de l'est. La Main de Tyr, Nouvelle-Avalon et le Sanctum des Arcanes se trouvent aujourd'hui tous trois à l'intérieur, et la Croisade n'a jamais manqué de murailles.
+L'Enclave Écarlate de la Croisade, dans les Maleterres de l'est, englobe la Main de Tyr, Nouvelle-Avalon et le Sanctum des Arcanes. L'Enclave et la Main de Tyr partagent leur musique, Nouvelle-Avalon garde la sienne, et toute cette musique a le son austère d'une foi derrière des murailles. La Croisade n'a jamais manqué de foi, ni de murailles.
 
-[classic] Six de ses morceaux sont empruntés aux lieux cachés, et cinq sont bien à elle. Quelque part dans la chapelle de l'Enclave attendent trois morceaux de plus, bien à elle, et trois autres empruntés aux lieux cachés.
+[classic] Six de ses morceaux sont empruntés aux lieux cachés, et cinq lui appartiennent. Quelque part dans la chapelle de l'Enclave en attendent trois autres qui lui sont propres, à côté de trois autres venus des lieux cachés.

@@ -1,6 +1,6 @@
 ---
 id: the-scarred-places
-source: f7a68f91a10d
+source: 237c75da40fd
 title: Les lieux balafrés
 ---
-Le Repaire d'Onyxia dans le Marécage d'Âprefange, la Balafre impure dans les Terres foudroyées, le Ravin de Brèche-de-l'Ombre en Désolace, la Vallée des cristaux en Silithus et les Falaises de la Tempête partagent un morceau emprunté aux Tarides. Chacun a ses ennuis : un dragon noir dans le premier, le seigneur Kazzak et ses démons dans le deuxième, les invocateurs de la Lame ardente dans le troisième. Dans le quatrième, le généralissime Demetrian attend quiconque aura l'audace de brandir Lame-tonnerre.
+Le Repaire d'Onyxia, la Balafre impure, le Ravin de Brèche-de-l'Ombre en Désolace, la Vallée des cristaux en Silithus et les Falaises de la Tempête partagent un morceau emprunté aux Tarides. Le morceau est menaçant, et ces lieux l'ont mérité : le repaire d'un dragon noir, les démons du seigneur Kazzak dans la Balafre impure, les invocateurs de la Lame ardente dans le Ravin de Brèche-de-l'Ombre.

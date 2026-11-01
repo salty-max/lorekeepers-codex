@@ -1,6 +1,6 @@
 ---
 id: the-burning-lands
-source: dd3cf3c82889
+source: ea5a8a2cfcac
 title: Les terres ardentes
 ---
-Le Mont Rochenoire, les Steppes ardentes et la Gorge des Vents brûlants sont le même feu vu sous trois angles. Les nains Sombrefer tiennent la Gorge, et Ragnaros tient le cœur de la montagne. Je ne m'attarderais ni chez les uns ni chez l'autre.
+Le Mont Rochenoire, les Steppes ardentes et la Gorge des Vents brûlants sont le même feu vu sous trois angles, et ils partagent le même air. Il est aussi chaud et lourd que le sol. Les nains Sombrefer tiennent la Gorge, et Ragnaros tient le cœur de la montagne.

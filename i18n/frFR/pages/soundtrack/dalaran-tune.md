@@ -1,6 +1,6 @@
 ---
 id: dalaran-tune
-source: a4865213ff4c
+source: 0501f09266ad
 title: Dalaran
 ---
-Dalaran a neuf morceaux bien à elle, répartis entre ses rues, le Brunant, le Gangrebosquet, les égouts et la flèche. La cité du Kirin Tor a de nouveau des ennuis : ses lignes telluriques se sont déréglées et ses propres créations se sont retournées contre elle. Le conseil aurait préféré que le reste du monde n'en sache rien. L'archimage Modera n'est pas de cet avis, et c'est la seule raison pour laquelle nous le savons.
+Dalaran a neuf morceaux à elle, dans ses rues, au Brunant, au Gangrebosquet, dans ses égouts et dans sa flèche. Une cité de mages a beaucoup de salles et beaucoup d'humeurs, et sa musique change avec elles. Ses lignes telluriques se sont déréglées ces derniers temps, et ses propres créations se sont retournées contre elle. C'est l'archimage Modera qui l'a fait savoir au reste du monde.

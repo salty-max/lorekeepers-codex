@@ -1,6 +1,6 @@
 ---
 id: warsong-gulch-tune
-source: 34d593998c34
+source: adef311c4695
 title: Goulet des Chanteguerres
 ---
-Le Goulet des Chanteguerres a cinq morceaux bien à lui. Les Sentinelles d'Aile-argent y combattent les Voltigeurs chanteguerres, à cause des haches des orcs et des arbres que ceux-ci abattent. Les elfes de la nuit tiennent que cette forêt est ce qui rend Orneval défendable, et qu'Astranaar tomberait peu après elle.
+Le Goulet des Chanteguerres a cinq morceaux à lui. Les Sentinelles d'Aile-argent y combattent les Voltigeurs chanteguerres pour les haches des orcs et des arbres qu'elles abattent, et sa musique a l'urgence d'un combat qui ne finit jamais tout à fait. Les elfes de la nuit tiennent que cette forêt rend Orneval défendable, et qu'Astranaar tomberait peu après elle.

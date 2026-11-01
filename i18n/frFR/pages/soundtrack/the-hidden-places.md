@@ -1,6 +1,6 @@
 ---
 id: the-hidden-places
-source: cbbd55df329a
+source: fae6bc5ccb1c
 title: Les lieux cachés
 ---
-Cet air revient dans des lieux qui n'ont pas grand-chose en commun : le Nid-de-l'Aigle des nains Marteau-hardi, le temple Vilebranch de Jintha'Alor, la Faille à Teldrassil, la rive du Loch Modan. Un autre est la Tour d'Ilgalar, dans les Carmines, où vit le mage Morganth. Son rival le dit cruel, et je ne suis pas allée vérifier.
+Cet air revient dans des lieux qui n'ont pas grand-chose en commun : le Nid-de-l'Aigle, le temple Vilebranch de Jintha'Alor, la Faille à Teldrassil, la rive du Loch Modan et la Tour d'Ilgalar, dans les Carmines. Chacun se tient à l'écart de la route, et la musique a le silence feutré d'un endroit qu'il faut chercher.

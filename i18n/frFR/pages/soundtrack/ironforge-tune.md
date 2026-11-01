@@ -1,6 +1,6 @@
 ---
 id: ironforge-tune
-source: 4b465c847308
+source: 28ea92d00c30
 title: Forgefer
 ---
-Forgefer est ma propre cité, et je dirai seulement que son air joue quelque part entre ses murs, car les salles sont nombreuses. Les Bronzebeard gardent la Grande Forge allumée sous Magni depuis plus longtemps que la plupart des royaumes n'ont de nom. Vous me trouverez au Hall des explorateurs, si jamais vous avez besoin d'une historienne.
+Forgefer est ma propre cité, et son air joue quelque part dans ses nombreuses salles. C'est une musique faite sous une montagne, autour de la Grande Forge, et elle a le son de la pierre, du feu et des marteaux parce que la cité n'a jamais eu grand-chose d'autre à écouter. Les Bronzebeard gardent cette forge allumée sous Magni depuis plus longtemps que la plupart des royaumes ne portent un nom.

@@ -1,6 +1,6 @@
 ---
 id: shadowgale-forest-tune
-source: 5a4a3df9864c
+source: b9d2ec1470b4
 title: Forêt de Trombenoire
 ---
-La Forêt de Trombenoire, Falaath et les Ruines de Ban'aethal ont un air en commun, et aucun des trois n'est un endroit où s'installer. Les Al'Aketh ont fait de Falaath leur fief. Ban'aethal est vide, et ce qui a failli lui arriver est l'avertissement avec lequel vit le reste de l'île.
+La Forêt de Trombenoire, Falaath et les Ruines de Ban'aethal ont un air en commun, et aucun des trois n'est un endroit où s'installer. La musique est inquiète parce que les lieux le sont. Les Al'Aketh ont fait de Falaath leur fief. Ban'aethal est vide, et le reste de l'île se règle sur cet avertissement.

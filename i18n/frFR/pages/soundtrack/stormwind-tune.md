@@ -1,6 +1,6 @@
 ---
 id: stormwind-tune
-source: 73663e41876f
+source: 1bf1d7d90cc2
 title: Hurlevent
 ---
-Hurlevent a son propre air, qui joue parmi les canaux et les cathédrales de la capitale humaine. La Horde a incendié la cité durant la Première Guerre, et les humains l'ont rebâtie plus grande et plus fière qu'avant. Je remarque que c'est une ville bâtie par des gens qui s'attendaient à être attaqués de nouveau.
+Hurlevent a son propre air, qui joue parmi les canaux et les cathédrales de la capitale humaine. C'est une musique grandiose, et elle entend l'être. La Horde a incendié la cité pendant la Première Guerre, et les humains l'ont rebâtie plus grande et plus fière qu'avant, comme on le fait quand on s'attend à être attaqué de nouveau.

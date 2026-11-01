@@ -1,6 +1,6 @@
 ---
 id: dire-maul-tune
-source: 7ad01e7f08cf
+source: 15395bbbb27f
 title: Hache-tripes
 ---
-Quelque part dans Hache-tripes, la ruine d'Eldre'Thalas en Feralas, joue un morceau que je n'ai trouvé nulle part ailleurs. Alzzin le Modeleur tient la partie orientale de la cité. Un prisonnier du prince déchu de la cité, détroussé par un diablotin pendant son évasion, vous demandera de lui rapporter son livre d'incantations, et à votre place, je le ferais. Le prisonnier a troqué son immortalité contre sa liberté, et un marché aussi dur ne se conclut qu'une fois.
+Quelque part dans Hache-tripes, la ruine d'Eldre'Thalas en Feralas, joue un morceau que je n'ai trouvé nulle part ailleurs. C'est le son d'une grande cité vidée de ses habitants. Les Bien-nés bâtissaient pour la grandeur, et la grandeur résonne quand plus personne n'est là pour l'emplir. Alzzin le Modeleur tient aujourd'hui la partie orientale, et des ogres et des fantômes le reste.

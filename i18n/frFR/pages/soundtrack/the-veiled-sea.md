@@ -1,6 +1,6 @@
 ---
 id: the-veiled-sea
-source: ada0122ac001
+source: a7a8a58fb0a8
 title: La Mer voilée
 ---
-Ce morceau appartient aux eaux de la Mer voilée, au large de Sombrivage, et il salue les arrivants au Pic des Serres-Rocheuses et à Reflet-de-Lune. J'ai traversé ces eaux plus souvent que je ne l'aurais voulu. La mer, elle, n'a jamais été pressée.
+Ce morceau appartient aux eaux de la Mer voilée, au large de Sombrivage, et il accueille les arrivants au Pic des Serres-Rocheuses et à Reflet-de-Lune. Une longue traversée veut une musique lente, et celle-ci l'est. J'ai fait cette traversée bien des fois, et la mer n'a jamais été pressée.
