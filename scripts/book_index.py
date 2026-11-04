@@ -144,5 +144,40 @@ out = {"canonical": canonical, "texts": texts,
        "titles": {title: {key: True for key in sorted(variants)}
                   for title, variants in sorted(aliases.items())}}
 output_path = ROOT / "i18n" / "books-index.json"
-output_path.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
+if "--check" in sys.argv and "--index" in sys.argv[:-1]:  # --check against another saved index (the test's, a past commit's)
+    output_path = Path(sys.argv[sys.argv.index("--index") + 1]).resolve()
+rendered = json.dumps(out, ensure_ascii=False, indent=1) + "\n"
+
+
+shown = output_path.relative_to(ROOT) if output_path.is_relative_to(ROOT) else output_path
+
+
+def stale_books(saved):
+    """Plain lines naming each book whose saved index differs from `out`."""
+    lines = []
+    for key in sorted(set(canonical) | set(saved.get("canonical", {}))):
+        if canonical.get(key) != saved.get("canonical", {}).get(key):
+            lines.append(f"{key} ({records.get(key, '?')}): its identity changed")
+    for identity in sorted(set(texts) | set(saved.get("texts", {}))):
+        now, then = texts.get(identity), saved.get("texts", {}).get(identity)
+        if now != then:
+            title = (now or then)["title"]
+            lines.append(f"{identity} ({title}): its patterns or pages changed")
+    for title in sorted(set(out["titles"]) | set(saved.get("titles", {}))):
+        if out["titles"].get(title) != saved.get("titles", {}).get(title):
+            lines.append(f"title {title!r}: its books changed")
+    return lines
+
+
+if "--check" in sys.argv:
+    saved_text = output_path.read_text() if output_path.exists() else ""
+    if saved_text == rendered:
+        print(f"{shown} is up to date")
+        sys.exit(0)
+    names = stale_books(json.loads(saved_text) if saved_text else {})
+    print(f"{shown} is out of date: run python3 scripts/book_index.py", file=sys.stderr)
+    for line in names or ["only its formatting differs"]:
+        print(f"  {line}", file=sys.stderr)
+    sys.exit(1)
+output_path.write_text(rendered)
 print(f"{output_path.relative_to(ROOT)}: {len(texts)} identities, {len(aliases)} titles")

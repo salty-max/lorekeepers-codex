@@ -28,7 +28,7 @@ docs above included.
 ## Commands
 
 ```bash
-bun run check        # the kit's copies, the saved ids, then check:ci (lint, the build's and languages' checks, the Spanish test, the sim on both games: what CI runs)
+bun run check        # the kit's copies, the saved ids, the books index (book_index.py --check), then check:ci (lint, the build's and languages' checks, the Spanish test, the sim on both games: what CI runs)
 bun run ids          # every table saved-ids.json lists keeps the ids it had at the fork point from origin/main (addon-kit's ids.ts)
 bun scripts/root.ts --run addon-kit/q.ts check -- bun run check   # the same, quiet, stamping the tree for the push
 bun run build        # content -> Content_Classic.lua and Content_Forever.lua, the language files
