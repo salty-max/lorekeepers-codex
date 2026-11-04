@@ -1,4 +1,4 @@
-# addon-kit 9e6c86c: a copy (kit:sync); edit the addon-kit repository's root.py instead
+# addon-kit 7c47f9b: a copy (kit:sync); edit the addon-kit repository's root.py instead
 """The family folder (~/code/wow-addons, the one holding addon-kit/ and
 wow-data/), found from anywhere: root.ts's twin, the same order and answers.
 
