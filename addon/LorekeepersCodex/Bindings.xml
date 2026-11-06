@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="LOREKEEPERSCODEX_OPEN" category="BINDING_HEADER_LOREKEEPERSCODEX">
+		LorekeepersCodexBinding();
+	</Binding>
+</Bindings>

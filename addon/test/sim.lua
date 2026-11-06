@@ -2200,4 +2200,15 @@ check(ns.tune("the-dry-lands") ~= nil, "the zone itself does")
 ns.playTrack("the-jungle", ns.tracksOf("the-jungle")[1][1])
 check(played == nil, "a tune not found doesn't play")
 
+-- the key binding (Bindings.xml calls this global): it opens and closes the window as ns.toggle does
+do
+  check(type(LorekeepersCodexBinding) == "function", "the key binding's function is there")
+  local was = LorekeepersCodexFrame and LorekeepersCodexFrame:IsShown() or false
+  LorekeepersCodexBinding()
+  check(LorekeepersCodexFrame and LorekeepersCodexFrame:IsShown() == not was, "the key binding opens the window")
+  LorekeepersCodexBinding()
+  check(LorekeepersCodexFrame:IsShown() == was, "… and a second press closes it")
+  check(BINDING_HEADER_LOREKEEPERSCODEX ~= nil, "… under the addon's own heading")
+end
+
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")

@@ -31,3 +31,12 @@ end
 function ns.updateMinimapButton()
   if M then M:update() end
 end
+
+-- The key binding (the kit's K.binding, Bindings.xml): one key or pad button opens and closes the window as the
+-- minimap button's click does.
+ns.kit.binding({
+  key = "LOREKEEPERSCODEX",
+  name = "Lorekeeper's Codex",
+  global = "LorekeepersCodexBinding",
+  toggle = function() ns.toggle() end,
+})
