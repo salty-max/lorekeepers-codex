@@ -10,7 +10,6 @@ local L = ns.kit.L
 -- The kit's (Kit.lua), in the Codex's theme (set first thing in Core.lua).
 local K = ns.kit
 local T = K.T
-T.link = T.accent -- (a page's "See also" links)
 local BODY_FONT, TITLE_FONT = K.BODY_FONT, K.TITLE_FONT
 local label, rule, bar, card, panel, scrollArea, roundIcon =
   K.label, K.rule, K.bar, K.card, K.panel, K.scrollArea, K.roundIcon

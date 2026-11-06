@@ -5,6 +5,7 @@
 local DIR = "addon/LorekeepersCodex/"
 local held = dofile("addon/test/held.lua")
 local FOREVER = os.getenv("FOREVER") == "1"
+local PAPER = os.getenv("PAPER") == "1" -- (the character chose the paper look and the largest book)
 function GetBuildInfo() return "1.15.8", "60000", "Oct 1 2026", FOREVER and 16001 or 11509 end
 -- Values the game hides from addons on Forever.
 local secrets = {}
@@ -119,6 +120,8 @@ function UnitIsUnit(a, b) return a == b end
 function UnitFactionGroup() return state.side or "Alliance" end
 
 -- UI: any method works and returns something sensible, scripts are kept.
+local painted = {} -- (every colour set, in order)
+local coded = {} -- (every text set with a colour code in it, in order)
 local function ui()
   local o = { shown = false, scripts = {} }
   return setmetatable(o, {
@@ -142,8 +145,33 @@ local function ui()
         end
       end
       -- (a texture's tint and greying: a ring's colour)
+      if k == "SetScale" then
+        return function(self, v) self.scale = v end
+      end
+      if k == "GetScale" then
+        return function(self) return rawget(self, "scale") or 1 end
+      end
       if k == "SetVertexColor" then
-        return function(self, r, g, b) self.vertex = { r, g, b } end
+        return function(self, r, g, b)
+          self.vertex = { r, g, b }
+          table.insert(painted, { "vertex", self, r, g, b, nil, debug.getinfo(2, "Sl") })
+        end
+      end
+      -- (the colours the addon paints, kept to ask of the paper look that none is the dark look's)
+      if k == "SetTextColor" then
+        return function(self, r, g, b)
+          self.textColor = { r, g, b }
+          table.insert(painted, { "text", self, r, g, b, nil, debug.getinfo(2, "Sl") })
+        end
+      end
+      if k == "SetColorTexture" then
+        return function(self, r, g, b, a)
+          self.fill = { r, g, b, a }
+          table.insert(painted, { "fill", self, r, g, b, a, debug.getinfo(2, "Sl") })
+        end
+      end
+      if k == "SetBackdropColor" or k == "SetBackdropBorderColor" then
+        return function(self, r, g, b, a) table.insert(painted, { k, self, r, g, b, a, debug.getinfo(2, "Sl") }) end
       end
       if k == "SetDesaturated" then
         return function(self, v) self.desaturated = v end
@@ -173,7 +201,10 @@ local function ui()
         return function() return 1 end
       end
       if k == "SetText" then
-        return function(self, v) self.text = v end
+        return function(self, v)
+          self.text = v
+          if type(v) == "string" and v:find("|c", 1, true) then table.insert(coded, v) end
+        end
       end
       if k == "GetText" then
         return function(self) return rawget(self, "text") or "" end
@@ -220,6 +251,8 @@ local function ui()
 end
 UIParent, UISpecialFrames, SlashCmdList = ui(), {}, {}
 UIParent.shown = true -- (the game's screen: always shown)
+UIParent.GetWidth = function() return 1920 end
+UIParent.GetHeight = function() return 1080 end
 Minimap, GameTooltip = ui(), ui()
 -- The tooltip: keep hooks, lines and the unit it shows.
 local tipHooks, tipLines, tipUnit = {}, {}, nil
@@ -337,6 +370,12 @@ for line in io.lines(DIR .. (FOREVER and "LorekeepersCodex_Camelot.toc" or "Lore
   local f = line:gsub("%[TextLocale%]", "enUS"):match("^([%w_]+%.lua)%s*$")
   if f and not f:match("^Content_") then assert(loadfile(DIR .. f))("LorekeepersCodex", ns) end
 end
+-- The kit's dark look as the Codex themes it, before any login chooses the paper
+-- (the paper look must not paint the addon's own windows in any of these).
+local DARK = {}
+for k, v in pairs(ns.kit.T) do
+  if type(v) == "table" and type(v[1]) == "number" then DARK[k] = { v[1], v[2], v[3], v[4] } end
+end
 -- The banners shown (what each said), and the kit's banners themselves, to
 -- clear them between scenes.
 local toasted, banners = {}, nil
@@ -373,6 +412,9 @@ end
 local function has(id) return LorekeepersCodexChar.entries[id] ~= nil end
 
 -- ── a session ────────────────────────────────────────────────────────────────
+if PAPER then
+  LorekeepersCodexSettings = { profiles = { ["Thorin - Nightslayer"] = { paper = true, bookSize = 4 } } }
+end
 -- A deleted character's codex, left under the same name.
 LorekeepersCodexChar = { guid = "Player-6113-0DEAD000", entries = { ironforge = { at = 1, level = 20 } }, read = {} }
 fire("PLAYER_LOGIN")
@@ -681,6 +723,22 @@ check(
   P:key() == "Thorin - Nightslayer" and LorekeepersCodexSettings.profiles["Thorin - Nightslayer"],
   "settings: this character's own profile"
 )
+do
+  local K = ns.kit
+  check(
+    K.paper == PAPER and ns.option("paper") == PAPER,
+    "the look: the character's choice is the kit's (" .. (PAPER and "paper" or "dark") .. ")"
+  )
+  check(ns.option("bookSize") == (PAPER and 4 or 1), "the book size is the character's choice, Normal by default")
+  check(
+    K.lookGet and K.lookGet("bookSize") == ns.option("bookSize") and K.lookGet("paper") == ns.option("paper"),
+    "the kit reads the look from the options (before the first window)"
+  )
+  check(
+    panel.settings.LOREKEEPERSCODEX_BOOKSIZE and panel.settings.LOREKEEPERSCODEX_PAPER,
+    "the settings page shows the book size and the paper box"
+  )
+end
 fire("PLAYER_ENTERING_WORLD", true, false)
 local W = ns.welcome
 check(W.frame and W.frame.shown and #W.rows == 6, "the first login: the welcome page and its six choices")
@@ -2211,4 +2269,79 @@ do
   check(BINDING_HEADER_LOREKEEPERSCODEX ~= nil, "… under the addon's own heading")
 end
 
+-- ── the book's size and the paper look ───────────────────────────────────────
+do
+  local K = ns.kit
+  local frame = LorekeepersCodexFrame
+  local sizes = { 1, 1.15, 1.3, 1.5 }
+  for step = 1, 4 do
+    panel.settings.LOREKEEPERSCODEX_BOOKSIZE.set(step)
+    check(ns.option("bookSize") == step, "size " .. step .. " is kept")
+    check(
+      math.abs(frame:GetScale() - K.scaleFor(step, K.BOOK_W, K.BOOK_H)) < 1e-9
+        and math.abs(frame:GetScale() - sizes[step]) < 1e-9,
+      "… and scales the open window at once to " .. sizes[step]
+    )
+  end
+  panel.settings.LOREKEEPERSCODEX_BOOKSIZE.set(PAPER and 4 or 1)
+  panel.settings.LOREKEEPERSCODEX_PAPER.set(PAPER)
+  check(ns.option("paper") == PAPER, "the paper box is kept")
+  -- A code carries both choices to another character
+  local code = ns.profiles:export()
+  check(code:find(":z%d") and code:find(":p%d?"), "the profile's code carries the size and the paper")
+  if PAPER then
+    -- Nothing the addon paints is the dark look's: its own files paint nothing
+    -- but the kit's current colours, and no text on the paper is hard to read.
+    local function same(r, g, b, c)
+      return c and math.abs(r - c[1]) < 1e-6 and math.abs(g - c[2]) < 1e-6 and math.abs(b - c[3]) < 1e-6
+    end
+    local ownPaints, bad, worst = 0, {}, 99
+    for _, p in ipairs(painted) do
+      local kind, _, r, g, b, _, where = unpack(p)
+      if r then
+        local own = where and not where.short_src:find("Kit.lua", 1, true)
+        if own then ownPaints = ownPaints + 1 end
+        for name, c in pairs(DARK) do
+          local now = K.T[name]
+          if same(r, g, b, c) and not same(r, g, b, now) and (own or kind == "text") then
+            table.insert(
+              bad,
+              ("%s %s at %s"):format(kind, name, where and where.short_src .. ":" .. where.currentline or "?")
+            )
+          end
+        end
+        if kind == "text" then
+          worst = math.min(worst, K.contrast({ r, g, b }, K.PAPER.ground), K.contrast({ r, g, b }, K.PAPER.back))
+        end
+      end
+    end
+    -- (a colour written into a string: the unread dot of a list row)
+    local dots, yellow = 0, 0
+    for _, r in ipairs(ns.listRows) do
+      local t = rawget(r.text, "text")
+      if type(t) == "string" and t:find("•", 1, true) then
+        dots = dots + 1
+        if t:find("|cffffd100", 1, true) then yellow = yellow + 1 end
+      end
+    end
+    check(yellow == 0, "paper: no unread dot in the game's yellow (" .. dots .. " seen)")
+    -- (the grey line of a text whose page was never copied is written into the string too)
+    LorekeepersCodexChar.library.texts[9999] = { title = "A lost text", pages = {}, count = 2, at = 1, level = 1 }
+    ns.openText(9999)
+    local lost, grey = 0, 0
+    for _, t in ipairs(coded) do
+      if t:find("did not reach the codex", 1, true) then
+        lost = lost + 1
+        if t:find("9e9178", 1, true) then grey = grey + 1 end
+      end
+    end
+    check(lost > 0 and grey == 0, "paper: the grey line of a page not copied is the paper's own (" .. lost .. " seen)")
+    LorekeepersCodexChar.library.texts[9999] = nil
+    check(ownPaints > 0, "the scan sees what the addon's own files paint (" .. ownPaints .. " colours)")
+    check(#bad == 0, "paper: nothing painted is a dark-look colour " .. table.concat(bad, ", "))
+    check(worst >= 4.5, ("paper: every text reads, worst %.2f to 1"):format(worst))
+  end
+end
+
+if os.getenv("RENDER") then dofile("addon/test/render.lua")(ns, ns.kit, os.getenv("RENDER")) end
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")

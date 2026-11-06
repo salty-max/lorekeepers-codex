@@ -140,7 +140,18 @@ German and Spanish (deDE, esES, esMX) are held back from players since 1 Novembe
   keeps it account-wide in `LorekeepersCodexCollect`, which Ravenpost sends
   to the addons' database.
 - `addon/test/sim.lua`: fake WoW API + a replayed session; the UI runs against a
-  permissive stub (catches Lua errors, not layout).
+  permissive stub (catches Lua errors, not layout). It records the colours set
+  (`painted`): `PAPER=1` plays a character on the paper look at the largest
+  book size, and checks that nothing the addon paints is a dark-look colour and
+  every text reads (4.5 to 1); both run in `check:ci`, on both games.
+  `RENDER=dir [PAPER=1] luajit addon/test/sim.lua` writes the book as HTML
+  (`addon/test/render.lua`: the real list, page and colours, Chrome's fonts) for
+  a look before a build; see the kit's README, "The book's size and the paper look".
+- The book's size and the paper look (6 November 2026, the kit's `O:look()` in
+  `Settings.lua`, settings `bookSize` and `paper`): every colour is read from `K.T`
+  when a piece is built, never kept at load; chat lines keep the game's link
+  yellow (the chat's ground is dark whatever the look); the options are made
+  first in Core's login so the kit knows the look before the first window.
 
 ## The daily game data
 

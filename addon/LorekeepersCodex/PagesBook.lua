@@ -293,7 +293,7 @@ local function refresh(scrollToCurrent)
       list:gap(2)
     else
       r.id = id
-      r.text:SetText((ns.isRead(id) and "" or "|cffffd100•|r ") .. C.entries[id].title)
+      r.text:SetText((ns.isRead(id) and "" or ("|cff%s•|r "):format(ns.kit.linkColour())) .. C.entries[id].title)
       if id == current then list:pick(r) end
       r:SetScript("OnClick", function()
         showPage(id)

@@ -7,7 +7,7 @@
 --
 --   LorekeepersCodexSettings.profiles["Name - Realm"] = { banner,
 --     bannerSeconds, achievementToast, achievementSound, sound, tooltipHints, minimapHidden,
---     minimapAngle, welcomed }
+--     minimapAngle, bookSize, paper, welcomed }
 --   (banner: a new page's alert; achievementToast: an achievement's. The
 --   chat lines have no setting any more, always shown: a profile's old chat
 --   value is left unread)
@@ -29,6 +29,8 @@ local DEFAULTS = {
   minimapHidden = false,
   minimapAngle = K.MINIMAP_ANGLES.LorekeepersCodex,
   tooltipHints = true,
+  bookSize = 1,
+  paper = false,
   welcomed = false,
 }
 local SHARED = {
@@ -40,6 +42,8 @@ local SHARED = {
   "tooltipHints",
   "minimapHidden",
   "minimapAngle",
+  "bookSize",
+  "paper",
 }
 
 -- Sounds for a new page: the kit's (all from the original game's interface;
@@ -50,9 +54,9 @@ for i, s in ipairs(K.SOUNDS) do
   ns.SOUNDS[i] = { s[1], L[s[2]] }
 end
 
--- The profiles: a code "LC1:b1:d10:v1:f12891:s-1:t1:h0:a200" (a page's alert and its
+-- The profiles: a code "LC1:b1:d10:v1:f12891:s-1:t1:h0:a200:z1:p0" (a page's alert and its
 -- seconds, an achievement's alert and its sound, the sound, tooltip hints, the minimap button
--- hidden, its angle; an older code's c, the chat lines, is left out).
+-- hidden, its angle, the book size 1 to 4, the paper look 0 or 1; an older code's c, the chat lines, is left out).
 local P = K.profiles({
   saved = function()
     if type(LorekeepersCodexSettings) ~= "table" then LorekeepersCodexSettings = {} end
@@ -69,6 +73,8 @@ local P = K.profiles({
     tooltipHints = "t",
     minimapHidden = "h",
     minimapAngle = "a",
+    bookSize = "z",
+    paper = "p",
   },
   tag = "LC1",
   changed = function(key)
@@ -153,6 +159,7 @@ function ns.createSettingsPanel()
     true
   )
   O:collect(ns.collect)
+  O:look()
   O:copy()
   O:done()
 end

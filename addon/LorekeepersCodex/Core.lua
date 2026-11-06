@@ -108,10 +108,11 @@ function ns.login()
     newCodex(guid)
   end
   ns.loadProfile(before)
+  -- (the options first: they tell the kit the look before any window is built)
+  ns.createSettingsPanel()
   ns.collect:start()
   ns.startUnlocks()
   ns.createMinimapButton()
-  ns.createSettingsPanel()
   -- The package made for the other game: it works, but says so.
   local made = ns.content.client
   if made and made ~= ns.client then
