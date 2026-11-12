@@ -103,8 +103,18 @@ German and Spanish (deDE, esES, esMX) are held back from players since 1 Novembe
   told, not told is not Hardcore) has no account: `ns.shared()` is nil, it
   reads and writes its own tables as before. The Pages tab marks a page only
   others found (the soft colour, a found line of its own) and its select offers
-  "Found by your other characters". `/codex reset yes` clears the character's
-  own record, the account's pages stay.
+  "Not found by this character yet". `/codex reset yes` clears the character's
+  own record, the account's pages stay. The option `missingPages` (off by
+  default, the Options page, in the settings' code as `k`): the Pages list also
+  shows a greyed row ("???") for each page not found, after the found ones of
+  an open chapter, and the chapters not started as their name with `0/total`.
+  The rows carry no id, title, kind or place (nothing stored, nothing to open,
+  no search or tooltip reaches them), all alike and after the found pages, so
+  they say how many are left and never which or in what order (a place in the
+  chapter's order would give the unlock order away). A kind chosen in the
+  select or a search shows none. The found count follows `ns.page`, so a
+  normal character counts the account's pages and a Hardcore one its own, and
+  the header's "N of M pages" counts every chapter while the option is on.
 - The Soundtrack tab (added 29 October 2026, `ideas/soundtrack.md`): the
   tunes of the game's music, one entry per `ZoneMusic` set, as
   `content/soundtrack/<id>.md` (kind `tune`, `group:` lands | cities |

@@ -189,6 +189,12 @@ local function style(r, kind)
     r.bar:Show()
     r.count:SetPoint("LEFT", r.bar, "RIGHT", 6, 0)
     return 32
+  elseif kind == "locked" then
+    r.text:SetPoint("LEFT", 18, 0)
+    r.text:SetFont(BODY_FONT, 12, "")
+    r.text:SetTextColor(unpack(T.soft))
+    r:Disable()
+    return 18
   elseif kind == "empty" then
     r.text:SetPoint("LEFT", 8, 0)
     r.text:SetFont(BODY_FONT, 12, "")
@@ -292,6 +298,18 @@ local function refresh(scrollToCurrent)
         ns.refresh()
       end)
       list:gap(2)
+    elseif kind == "locked" then
+      -- (a page not found, the option on: a greyed row, no id, nothing to open or hear of it)
+      r:SetScript("OnClick", nil)
+    elseif kind == "chapter" and found == 0 then
+      -- (a chapter not started, the option on: its name and size, nothing to open)
+      r.bar:SetMinMaxValues(0, total)
+      r.bar:SetValue(0)
+      r.fold:Hide()
+      r.text:SetTextColor(unpack(T.soft))
+      r:SetScript("OnClick", nil)
+      r:Disable()
+      list:gap(2)
     elseif kind == "chapter" then
       r.bar:SetMinMaxValues(0, total)
       r.bar:SetValue(found)
@@ -348,7 +366,18 @@ local function refresh(scrollToCurrent)
         for _, id in ipairs(kept) do
           add("page", nil, id)
         end
+        -- (the option on: a greyed row for each page not found, after the found
+        -- ones, all alike: only how many are left, never which or in what order)
+        if only == "" and ns.option("missingPages") then
+          for _ = 1, #ch.entries - found do
+            add("locked", L["???"])
+          end
+        end
       end
+    elseif found == 0 and only == "" and ns.option("missingPages") then
+      -- (the totals on: the chapters not started too, by name and size alone)
+      list:gap(4)
+      add("chapter", ch.title, nil, ("0/%d"):format(#ch.entries), 0, #ch.entries, ch.id)
     end
   end
   finish()

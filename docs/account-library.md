@@ -183,3 +183,23 @@ Whether `IsHardcoreActive` answers at the moment of login on both clients
 (the one risk of a Hardcore character leaking), the Forever Hardcore
 ruleset's answer once it opens, and how the soft-coloured rows read in the
 real book.
+
+## Missing pages (added the same day, the user's call)
+
+An opt-in choice in the Options (`missingPages`, off by default, in the
+settings' code as `k`): the Pages list also shows a greyed row for each page
+this character has not found, and the chapters not started as a bare name with
+`0/total`. Each chapter header already shows found/total.
+
+- A locked row is `"???"` and nothing else: no id, title, text, kind or place
+  anywhere (not in a row, a tooltip, a link, the search, the saved variables).
+  It cannot be opened.
+- Order: the found pages in the chapter's usual order, then the locked rows as
+  one block of identical rows. A locked row never sits where its page would,
+  because the position in a chapter would give away the order the pages come
+  in, and the titles. The number of rows is `total - found`.
+- Counts follow the account rule through `ns.page`: the union for a normal
+  character, only its own pages for a Hardcore one. A search or a chosen kind
+  shows no locked row. Off is today's list exactly.
+- While on, the header's "N of M pages" counts every chapter (`ns.knownTotal`),
+  so it agrees with the rows.

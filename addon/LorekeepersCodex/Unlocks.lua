@@ -232,7 +232,7 @@ function ns.knownTotal()
   end
   for _, ch in ipairs(C.chapters) do
     for _, id in ipairs(ch.entries) do
-      if ns.page(id) then
+      if ns.page(id) or ns.option("missingPages") then
         n = n + #ch.entries
         break
       end

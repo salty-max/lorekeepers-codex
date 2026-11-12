@@ -2548,6 +2548,171 @@ do
     "… chosen, it lists every page only another character found, and no other (" .. listed .. ")"
   )
   filter.rows[1].scripts.OnClick(filter.rows[1])
+  -- The missing pages (off by default): a greyed row for each page not found, no title,
+  -- text or place; the chapters not started by name and total alone.
+  local pageWords
+  local function rowsOf()
+    local started, bare, locked, texts = 0, 0, 0, {}
+    pageWords = {}
+    for _, r in ipairs(ns.listRows) do
+      if r.shown then
+        local t, n = rawget(r.text, "text"), rawget(r.count, "text")
+        -- (colour codes and the unread dot stripped: the words a reader sees)
+        if t then
+          local words = (tostring(t):gsub("|c%x%x%x%x%x%x%x%x", ""):gsub("|r", ""):gsub("^[^%w?]+ ", ""))
+          table.insert(texts, words)
+          if r.kind ~= "chapter" then table.insert(pageWords, words) end
+        end
+        if r.id then check(ns.page(r.id), "… every row with a page holds a page found") end
+        if n then table.insert(texts, tostring(n)) end
+        if r.kind == "locked" then
+          locked = locked + 1
+          check(not r.id and not (r.scripts and r.scripts.OnClick), "… a locked row: no id, nothing to click")
+        elseif r.kind == "chapter" and r.bar and r.bar.shown then
+          if r.fold.shown then
+            started = started + 1
+          else
+            bare = bare + 1
+          end
+        end
+      end
+    end
+    return started, bare, locked, texts
+  end
+  ns.openTab(ns.TAB.pages)
+  check(ns.option("missingPages") == false, "missing pages: off by default")
+  ns.refresh()
+  local startedOff, bareOff, lockedOff = rowsOf()
+  check(
+    bareOff == 0 and lockedOff == 0 and startedOff > 0,
+    "… off: today's list, started chapters and found pages only"
+  )
+  ns.setOption("missingPages", true)
+  local startedOn, bareOn, lockedOn, texts = rowsOf()
+  local expected = 0
+  for _, ch in ipairs(C.chapters) do
+    if ns.found(ch) > 0 and not LorekeepersCodexChar.collapsed[ch.id] then
+      expected = expected + #ch.entries - ns.found(ch)
+    end
+  end
+  check(
+    startedOn == startedOff and bareOn == #C.chapters - startedOn,
+    "… on: every other chapter too, by name alone (" .. bareOn .. ")"
+  )
+  check(
+    lockedOn == expected and lockedOn > 0,
+    "… and one greyed row for each page not found in an open chapter (" .. lockedOn .. ")"
+  )
+  -- In each chapter the locked rows come after the found pages, one block (no place, no order).
+  do
+    local locking = false
+    for _, r in ipairs(ns.listRows) do
+      if r.shown then
+        if r.kind == "locked" then
+          locking = true
+        elseif r.kind == "chapter" then
+          locking = false
+        elseif locking and r.kind ~= "empty" then
+          check(false, "… a page row after a locked one")
+        end
+      end
+    end
+    check(true, "… the locked rows follow the found pages of their chapter, as one block")
+  end
+  -- Nothing about a page not found reaches the list's words, or the saved variables.
+  local all = table.concat(texts, "\n")
+  local shown = {}
+  for _, t in ipairs(texts) do
+    shown[t] = true
+  end
+  local saved = snapshot(ns.account()) .. snapshot(ns.codex())
+  local leaks, chapterNames = {}, {}
+  for _, ch in ipairs(C.chapters) do
+    chapterNames[ch.title] = true
+    chapterNames[ch.id] = true
+  end
+  for id, e in pairs(C.entries) do
+    if ns.available(id) and e.kind ~= "tune" and not ns.page(id) and not chapterNames[id] then
+      -- (a zone's own page is named as its chapter is: the chapter's name is shown by design)
+      if
+        (not chapterNames[e.title] and (shown[e.title] or table.concat(pageWords, "\n"):find(e.title, 1, true)))
+        or all:find(id, 1, true)
+        or saved:find("[{,]" .. id:gsub("%-", "%%-") .. "=")
+      then
+        table.insert(leaks, id)
+      end
+    end
+  end
+  check(
+    #leaks == 0,
+    "… no title, id or place of a page not found in the list's words or the saved variables "
+      .. table.concat(leaks, " ")
+  )
+  local totals = true
+  for _, ch in ipairs(C.chapters) do
+    if ns.found(ch) == 0 then
+      local seen
+      for _, t in ipairs(texts) do
+        if t == ("0/%d"):format(#ch.entries) then seen = true end
+      end
+      totals = totals and seen
+    end
+  end
+  check(totals, "… each chapter not started with its total, 0/total")
+  -- a search or a chosen kind shows no locked row
+  LorekeepersCodexFrame.search:SetText("ironforge")
+  ns.refresh()
+  local _, bareFound, lockedFound = rowsOf()
+  check(bareFound == 0 and lockedFound == 0, "… a search finds found pages alone")
+  LorekeepersCodexFrame.search:SetText("")
+  ns.refresh()
+  ns.setOption("missingPages", false)
+  local _, bareAgain, lockedAgain = rowsOf()
+  check(bareAgain == 0 and lockedAgain == 0, "… off again: back to today's")
+  ns.setOption("missingPages", true)
+  -- the count follows the account for a normal character, the character's own for a Hardcore one
+  local dun = CH["dun-morogh"]
+  local function dunCount()
+    for _, r in ipairs(ns.listRows) do
+      if r.shown and r.text.text == dun.title and r.fold.shown then
+        return tonumber(rawget(r.count, "text"):match("^(%d+)/"))
+      end
+    end
+  end
+  ns.refresh()
+  local normalCount = dunCount()
+  C_GameRules = { IsHardcoreActive = function() return true end }
+  local own = relog({ guid = PLAYER, entries = { kharanos = { at = 2, level = 1 } }, read = {} })
+  ns.refresh()
+  local hardcoreCount = dunCount()
+  local hardcoreLocked = 0
+  for _, r in ipairs(ns.listRows) do
+    if r.shown and r.kind == "locked" then hardcoreLocked = hardcoreLocked + 1 end
+  end
+  local expectedLocked = 0
+  for _, ch in ipairs(C.chapters) do
+    if ns.found(ch) > 0 and not LorekeepersCodexChar.collapsed[ch.id] then
+      expectedLocked = expectedLocked + #ch.entries - ns.found(ch)
+    end
+  end
+  check(
+    hardcoreLocked == expectedLocked and hardcoreLocked > 0,
+    "a Hardcore character's locked rows count its own pages only (" .. hardcoreLocked .. ")"
+  )
+  C_GameRules = rules
+  check(
+    normalCount == 3 and hardcoreCount == 2 and ns.page("timber") == nil,
+    "the found count: the account's for a normal character (3), only its own for a Hardcore one (2, not the account's Timber)"
+  )
+  -- the profile carries the choice: copied, exported, imported
+  relog({ guid = PLAYER, entries = {}, read = {} })
+  ns.setOption("missingPages", true)
+  local code = ns.profiles:export()
+  ns.setOption("missingPages", false)
+  ns.profiles:import(code)
+  check(ns.option("missingPages") == true, "the choice goes with the settings' code")
+  ns.setOption("missingPages", false)
+
   accountOver()
 end
 

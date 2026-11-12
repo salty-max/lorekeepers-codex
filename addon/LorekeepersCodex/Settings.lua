@@ -7,7 +7,7 @@
 --
 --   LorekeepersCodexSettings.profiles["Name - Realm"] = { banner,
 --     bannerSeconds, achievementToast, achievementSound, sound, tooltipHints, minimapHidden,
---     minimapAngle, bookSize, paper, welcomed }
+--     minimapAngle, bookSize, paper, missingPages, welcomed }
 --   (banner: a new page's alert; achievementToast: an achievement's. The
 --   chat lines have no setting any more, always shown: a profile's old chat
 --   value is left unread)
@@ -31,6 +31,7 @@ local DEFAULTS = {
   tooltipHints = true,
   bookSize = 1,
   paper = false,
+  missingPages = false,
   welcomed = false,
 }
 local SHARED = {
@@ -44,6 +45,7 @@ local SHARED = {
   "minimapAngle",
   "bookSize",
   "paper",
+  "missingPages",
 }
 
 -- Sounds for a new page: the kit's (all from the original game's interface;
@@ -56,7 +58,7 @@ end
 
 -- The profiles: a code "LC1:b1:d10:v1:f12891:s-1:t1:h0:a200:z1:p0" (a page's alert and its
 -- seconds, an achievement's alert and its sound, the sound, tooltip hints, the minimap button
--- hidden, its angle, the book size 1 to 4, the paper look 0 or 1; an older code's c, the chat lines, is left out).
+-- hidden, its angle, the book size 1 to 4, the paper look 0 or 1, the missing pages 0 or 1; an older code's c, the chat lines, is left out).
 local P = K.profiles({
   saved = function()
     if type(LorekeepersCodexSettings) ~= "table" then LorekeepersCodexSettings = {} end
@@ -75,11 +77,13 @@ local P = K.profiles({
     minimapAngle = "a",
     bookSize = "z",
     paper = "p",
+    missingPages = "k",
   },
   tag = "LC1",
   changed = function(key)
     if key == "banner" and not ns.option("banner") then ns.hideBanner() end
     if key == "minimapHidden" or key == "minimapAngle" then ns.updateMinimapButton() end
+    if key == "missingPages" and ns.refresh then ns.refresh() end
   end,
 })
 ns.profiles = P
@@ -151,6 +155,11 @@ function ns.createSettingsPanel()
     "tooltipHints",
     L["Hints on tooltips"],
     L["A line on the tooltip of creatures that unlock a page: the page to find, or its title once found. Players whose people's or calling's page is still to find get one too."]
+  )
+  O:check(
+    "missingPages",
+    L["Missing pages"],
+    L["Show a greyed row for each page you have not found, with no title, text or place, and list the chapters you have not started by name and page count alone."]
   )
   O:check(
     "minimapHidden",
