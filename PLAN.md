@@ -45,5 +45,3 @@ Modan), class quests, and anything failing the three tests.
 
 - Forever's 18 tuneless music sets: list them as left out in
   `data/music-left-out.json` and set `complete: true`, or write their tunes.
-- The pages' ids are saved ids, but `saved-ids.json` does not list them yet,
-  so `bun run ids` cannot refuse a regeneration that drops one.

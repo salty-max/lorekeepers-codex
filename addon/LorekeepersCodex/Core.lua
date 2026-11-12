@@ -14,6 +14,14 @@
 --     tunes[id] = { at, level, zoneId, subId }        the soundtrack's finds (Soundtrack.lua)
 --     collapsed[chapterId], libraryFolded[shelf],
 --     soundtrackFolded[group]                         the book's folds
+--     hardcore = true                                 told Hardcore once, kept
+--   LorekeepersCodexAccount (SavedVariables), the codex every normal character
+--   shares (a Hardcore one never reads or writes it, docs/account-library.md):
+--     entries[id], tunes[id], read[id]                as the character's own
+--     library = { texts, keys, nextId }               the texts copied, all characters'
+--   A character's own tables stay what it earned itself; it reads its own and
+--   the account's together (ns.page, ns.tune, ns.isRead); ns.library() is the
+--   account's Library alone (a Hardcore character's: its own).
 local _, ns = ...
 local K = ns.kit
 local L = K.L
@@ -54,6 +62,80 @@ ns.secret = ns.kit.secret
 local char
 function ns.codex() return char end
 
+-- ── the account's codex ──────────────────────────────────────────────────────
+-- Every normal character reads and writes it; a Hardcore character's finds
+-- neither feed nor read it. The game says whether a character is Hardcore
+-- (Classic Era's Hardcore realms and season, Forever's Hardcore ruleset):
+-- C_GameRules.IsHardcoreActive on both, and on Classic Era the season too
+-- (the client's own Hardcore test). Not told (no call, an error, a secret
+-- value): not Hardcore. Once told, kept on the character, so a call that
+-- fails later never moves it into the shared codex.
+function ns.detectHardcore()
+  local rules = C_GameRules
+  if rules and rules.IsHardcoreActive then
+    local ok, on = pcall(rules.IsHardcoreActive)
+    if ok and not ns.secret(on) and on == true then return true end
+  end
+  local seasons = C_Seasons
+  local hardcore = Enum and Enum.SeasonID and Enum.SeasonID.Hardcore
+  if seasons and seasons.GetActiveSeason and hardcore then
+    local ok, season = pcall(seasons.GetActiveSeason)
+    if ok and not ns.secret(season) and season == hardcore then return true end
+  end
+  return false
+end
+
+function ns.account()
+  if type(LorekeepersCodexAccount) ~= "table" then LorekeepersCodexAccount = {} end
+  local a = LorekeepersCodexAccount
+  a.entries, a.tunes, a.read = a.entries or {}, a.tunes or {}, a.read or {}
+  a.library = a.library or {}
+  a.library.texts, a.library.keys, a.library.nextId = a.library.texts or {}, a.library.keys or {}, a.library.nextId or 1
+  return a
+end
+
+-- The account's codex for this character, nil for a Hardcore one (and before
+-- the login).
+function ns.shared()
+  if not char or char.hardcore then return nil end
+  return ns.account()
+end
+
+-- A flat record (a find) copied: the account never shares a table with a character.
+local function copied(rec)
+  local out = {}
+  for k, v in pairs(rec) do
+    out[k] = v
+  end
+  return out
+end
+ns.copied = copied
+
+-- Does a find beat another: one found for real beats one looked back on, then
+-- the earlier.
+local function better(a, b)
+  if (a.retro and true or false) ~= (b.retro and true or false) then return not a.retro end
+  return (a.at or math.huge) < (b.at or math.huge)
+end
+
+-- What a normal character holds goes into the account where the account lacks
+-- it (the better record wins). Nothing in the character is touched or dropped,
+-- and nothing in the account: run at every login, it is the same each time.
+function ns.mergeAccount()
+  local a = ns.shared()
+  if not a then return end
+  for _, name in ipairs({ "entries", "tunes" }) do
+    for id, rec in pairs(char[name] or {}) do
+      local held = a[name][id]
+      if type(rec) == "table" and (not held or better(rec, held)) then a[name][id] = copied(rec) end
+    end
+  end
+  for id in pairs(char.read or {}) do
+    a.read[id] = true
+  end
+  if ns.mergeLibrary then ns.mergeLibrary(a.library, char.library) end
+end
+
 -- ── events ───────────────────────────────────────────────────────────────────
 -- Every file listens through ns.on (the kit's events: each listener on its
 -- own, so one's error never silences the others, the login too; an event a
@@ -79,9 +161,10 @@ function ns.belongsTo(saved, guid, level, xp)
   return true
 end
 
-local function newCodex(guid)
+local function newCodex(guid, hardcore)
   char = {
     guid = guid,
+    hardcore = hardcore or nil,
     entries = {},
     read = {},
     achievements = {},
@@ -107,6 +190,8 @@ function ns.login()
   else
     newCodex(guid)
   end
+  -- (told Hardcore before anything is merged: such a character stays apart)
+  if not char.hardcore and ns.detectHardcore() then char.hardcore = true end
   ns.loadProfile(before)
   -- (the options first: they tell the kit the look before any window is built)
   ns.createSettingsPanel()
@@ -186,11 +271,17 @@ ns.kit.commands({
     where = where,
     reset = function()
       print(
-        PREFIX .. L["This forgets every page and achievement this character has found. Type /codex reset yes to do it."]
+        PREFIX
+          .. (
+            char
+              and char.hardcore
+              and L["This forgets every page and achievement this character has found. Type /codex reset yes to do it."]
+            or L["This forgets what this character found itself, and its achievements. The shared codex keeps every page, so they stay readable. Type /codex reset yes to do it."]
+          )
       )
     end,
     ["reset yes"] = function()
-      newCodex(char.guid)
+      newCodex(char.guid, char.hardcore)
       ns.catchUp()
       ns.refresh()
       print(PREFIX .. L["The codex starts afresh: %d of %d pages."]:format(ns.count(), ns.knownTotal()))

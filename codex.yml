@@ -2,6 +2,8 @@
 # (selene.toml: std = "wow+codex"; the game's are the kit's wow.yml).
 name: codex
 globals:
+  LorekeepersCodexAccount:
+    any: true
   LorekeepersCodexChar:
     any: true
   LorekeepersCodexCollect:

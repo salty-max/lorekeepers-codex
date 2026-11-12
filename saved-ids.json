@@ -17,6 +17,10 @@
       "json": "i18n/*/subzones.json",
       "at": "classic"
     },
+    "pages and tunes": {
+      "lua": "addon/LorekeepersCodex/Content_*.lua",
+      "at": "content.entries"
+    },
     "areas' English names": {
       "lua": "addon/LorekeepersCodex/Content_*.lua",
       "at": "content.areaNames"

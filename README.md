@@ -19,8 +19,10 @@ Warcraft: Forever. One download covers all of them. See
 
 Type `/codex` or click the minimap button to read. Browse by chapter, search
 your discovered pages or filter by type. Related pages link to each other.
-Each character keeps a separate codex, with the date, level and location of
-every discovery. Undiscovered pages stay hidden.
+Your characters share one codex, with the date, level and location of every
+discovery: a page one of them found is there on the others, marked, and the
+Pages list can show just those. A Hardcore character keeps a codex of its own.
+Undiscovered pages stay hidden.
 
 Pages unlock by exploring, meeting people, defeating creatures, finishing
 quests, gaining reputation and reading books or inscriptions. A chat link,
@@ -66,7 +68,8 @@ and `/codex import CODE`.
 
 - `/codex minimap` shows or hides the minimap button. Drag it to move it.
 - `/codex banner` toggles page alerts.
-- `/codex reset` clears this character's codex after confirmation.
+- `/codex reset` clears what this character found itself after confirmation.
+  The shared codex keeps every page.
 - `/codex where` prints your position and target for writing new pages.
 - `/codex scan on` records areas, creatures, quest texts and books to help
   write Forever content. `scripts/scan-export.lua` converts the saved data

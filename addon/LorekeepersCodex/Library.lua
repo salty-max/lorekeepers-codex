@@ -1,6 +1,7 @@
 -- The Library: every book, note, letter and plaque this character reads in the
 -- world is copied into its codex, whole, to be read again; each character its
--- own (an orc's library is not a dwarf's):
+-- own, or for every normal character together, the account's (a Hardcore
+-- character keeps its own: docs/account-library.md):
 --   LorekeepersCodexChar.library = { texts[id] = { title, material, pages, count,
 --                                    at, level, zone, sub }, keys[key] = id, nextId }
 -- On opening a text, the addon turns through every page and back to the
@@ -15,11 +16,14 @@ local L = ns.kit.L
 local PREFIX = ns.PREFIX
 local secret = ns.secret
 
+-- The Library every normal character shares (the account's), or a Hardcore
+-- character's own.
 local function store()
   local c = LorekeepersCodexChar
   if not c then return { texts = {}, keys = {}, nextId = 1 } end
-  c.library = c.library or {}
-  local s = c.library
+  local holder = ns.shared and ns.shared() or c
+  holder.library = holder.library or {}
+  local s = holder.library
   s.texts, s.keys, s.nextId = s.texts or {}, s.keys or {}, s.nextId or 1
   return s
 end
@@ -205,6 +209,57 @@ local function copyInAnother(s, readable)
     end
   end
   return found
+end
+
+-- A character's own texts (what it copied before the codex was shared) go into
+-- the account's Library, each by the key it was copied under: a key the
+-- account has, or a copy of the same text in another language, is the same
+-- text, its pages filled in where the account lacks them; any other is added
+-- under a new id. Nothing in the character's own Library is touched, and run
+-- again it changes nothing.
+function ns.mergeLibrary(into, from)
+  if type(from) ~= "table" or type(from.texts) ~= "table" then return end
+  local keyOf = {}
+  for key, id in pairs(from.keys or {}) do
+    keyOf[id] = keyOf[id] or {}
+    table.insert(keyOf[id], key)
+  end
+  for id, t in pairs(from.texts) do
+    local keys = keyOf[id]
+    if not keys then keys = { (t.title or "?") .. "|" .. (t.pages and t.pages[1] or ""):sub(1, 80) } end
+    local target
+    for _, key in ipairs(keys) do
+      target = target or into.keys[key]
+    end
+    target = target or copyInAnother(into, t.pages and ns.textIdentity(t))
+    if not target then
+      target = into.nextId
+      into.nextId = target + 1
+      local own = ns.copied(t)
+      own.pages = ns.copied(t.pages or {})
+      into.texts[target] = own
+    else
+      local held = into.texts[target]
+      -- (pages are filled in only from a copy in the same language: two never mix)
+      if held.language == t.language or not (held.language and t.language) then
+        for p, page in pairs(t.pages or {}) do
+          if held.pages[p] == nil then held.pages[p] = page end
+        end
+      end
+      -- (the earlier reading gives the date and the place, as a page's find does)
+      if t.at and (not held.at or t.at < held.at) then
+        for _, k in ipairs({ "at", "level", "zone", "zoneId", "sub", "subId", "subInside" }) do
+          held[k] = t[k]
+        end
+      end
+      held.count = math.max(held.count or 0, t.count or 0)
+      if held.count == 0 then held.count = nil end
+      held.readable = held.readable or t.readable
+    end
+    for _, key in ipairs(keys) do
+      into.keys[key] = into.keys[key] or target
+    end
+  end
 end
 
 -- Copies what has been read so far into the Library (a text is known by its

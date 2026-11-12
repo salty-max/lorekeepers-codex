@@ -6,7 +6,7 @@
 ## Author: salty-max
 ## Version: 0.16.0
 ## SavedVariablesPerCharacter: LorekeepersCodexChar
-## SavedVariables: LorekeepersCodexSettings, LorekeepersCodexScan, LorekeepersCodexCollect
+## SavedVariables: LorekeepersCodexSettings, LorekeepersCodexScan, LorekeepersCodexCollect, LorekeepersCodexAccount
 ## IconTexture: Interface\AddOns\LorekeepersCodex\Media\Logo
 ## X-Website: https://github.com/salty-max/lorekeepers-codex
 ## X-License: MIT

@@ -39,7 +39,6 @@
   "Creature": "Criatura",
   "Creatures": "Criaturas",
   "Delver of the Deep": "En las profundidades",
-  "Each character keeps its own codex, with the day and the place each page was found. The Library copies every book, note and plaque you read, and achievements mark the way.": "Cada personaje tiene su propio códice, con la fecha y el lugar donde descubrió cada página. La Biblioteca copia todos los libros, notas y placas que lees, y los logros dejan constancia del camino.",
   "Encounters": "Encuentros",
   "Every Calling": "Todas las vocaciones",
   "Every book, note and plaque you read in the world is copied here whole, so that you can read it again, even a letter long since handed in. Letters written by players are never copied.": "Aquí se copia íntegramente cada libro, nota y placa que leas por el mundo, para que puedas volver a leerlos, incluso una carta que entregaste hace tiempo. Nunca se copian las cartas escritas por jugadores.",
@@ -174,5 +173,10 @@
   "Tunes found lately": "Melodías encontradas hace poco",
   "Tune found in %1$s, at level %2$d, on %3$s.": "Melodía encontrada en %s, de nivel %d, el %s.",
   "Arrival %d": "Llegada %d",
-  "/codex opens the codex.": "/codex abre el libro."
+  "/codex opens the codex.": "/codex abre el libro.",
+  "Your characters share one codex, with the day and the place each page was found, and a Hardcore character keeps its own. The Library copies every book, note and plaque you read, and achievements mark the way.": "Tus personajes comparten un único códice, con la fecha y el lugar donde se descubrió cada página, y un personaje Hardcore guarda el suyo. La Biblioteca copia todos los libros, notas y placas que lees, y los logros dejan constancia del camino.",
+  "Found by one of your characters, on %s.": "Descubierta por uno de tus personajes, el %s.",
+  "Not found by this character yet (%d)": "Aún no descubiertas por este personaje (%d)",
+  "found elsewhere": "descubiertas en otro sitio",
+  "This forgets what this character found itself, and its achievements. The shared codex keeps every page, so they stay readable. Type /codex reset yes to do it.": "Esto borra lo que este personaje descubrió por sí mismo, y sus logros. El códice compartido conserva todas las páginas, así que siguen siendo legibles. Escribe /codex reset yes para confirmar."
 }

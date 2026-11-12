@@ -25,7 +25,7 @@ local W = K.welcome({
       .. " "
       .. L["Walk into a land, meet a figure of legend, defeat a people's warriors or finish the right quest, and a page of history is added."]
       .. "\n\n"
-      .. L["Each character keeps its own codex, with the day and the place each page was found. The Library copies every book, note and plaque you read, and achievements mark the way."]
+      .. L["Your characters share one codex, with the day and the place each page was found, and a Hardcore character keeps its own. The Library copies every book, note and plaque you read, and achievements mark the way."]
   end,
   profiles = ns.profiles,
   choices = function()

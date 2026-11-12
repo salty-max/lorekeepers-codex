@@ -847,7 +847,7 @@ check(
 printed = {}
 SlashCmdList.LOREKEEPERSCODEX("reset")
 check(
-  ns.count() > 3 and printed[1]:find("|r This forgets every page", 1, true) ~= nil,
+  ns.count() > 3 and printed[1]:find("|r This forgets what this character found itself", 1, true) ~= nil,
   "/codex reset alone only asks, a sentence after the prefix"
 )
 printed = {}
@@ -865,6 +865,21 @@ check(
     and not LorekeepersCodexChar.entries.timber,
   "/codex reset yes starts over, from what the character has already done"
 )
+check(
+  not LorekeepersCodexChar.entries.kharanos and ns.page("kharanos") and ns.fromOthers("kharanos"),
+  "… the account's codex keeps what was found: the page stays readable, as another character's find"
+)
+-- (the rest of this session is one character's: the account's starts over too)
+local function accountOver()
+  local a = ns.account()
+  wipe(a.entries)
+  wipe(a.tunes)
+  wipe(a.read)
+  wipe(a.library.texts)
+  wipe(a.library.keys)
+  a.library.nextId = 1
+end
+accountOver()
 -- ── tooltip hints and search ─────────────────────────────────────────────────
 local function hover(id)
   tipLines, tipUnit, state.mouseover = {}, "mouseover", id
@@ -1115,7 +1130,7 @@ printed = {}
 local quelThalas =
   { "In the beginning...", "<HTML><BODY><H1>The Sunwell</H1><P>And so it was.</P></BODY></HTML>", "The end." }
 local shown = read("The Founding of Quel'Thalas", quelThalas)
-local book = LorekeepersCodexChar.library.texts[1]
+local book = ns.library().texts[1]
 check(
   book
     and book.pages[1]
@@ -1139,14 +1154,14 @@ check(ns.codex().entries["high-elves"], "a history read in the world unlocks its
 ns.readText("Die sieben Königreiche")
 check(ns.codex().entries["the-seven-kingdoms"], "… and by its title in the game's other languages")
 read("Ironforge plaque", { "Here stood..." }, "Bronze")
-check(ns.libraryShelf(LorekeepersCodexChar.library.texts[2]) == "plaques", "texts cut in metal or stone are plaques")
+check(ns.libraryShelf(ns.library().texts[2]) == "plaques", "texts cut in metal or stone are plaques")
 read("A letter", { "Dear friend, my secret..." }, "Parchment", "Someplayer")
-check(not LorekeepersCodexChar.library.texts[3], "a letter written by a player is never copied")
+check(not ns.library().texts[3], "a letter written by a player is never copied")
 if FOREVER then
   secrets["Someone hidden"] = true
   read("A sealed letter", { "Of no one known..." }, "Parchment", "Someone hidden")
   secrets["Someone hidden"] = nil
-  check(not LorekeepersCodexChar.library.texts[3], "Forever: a letter whose writer the game keeps secret is not copied")
+  check(not ns.library().texts[3], "Forever: a letter whose writer the game keeps secret is not copied")
 end
 -- A long book the game knows already (The Alliance of Lordaeron, sixteen
 -- pages): each page turned at a frame of its own, never from inside the
@@ -1158,7 +1173,7 @@ do
   end
   shown = read("The Alliance of Lordaeron", long)
   local copied
-  for _, t in pairs(LorekeepersCodexChar.library.texts) do
+  for _, t in pairs(ns.library().texts) do
     if t.title == "The Alliance of Lordaeron" then copied = t end
   end
   check(
@@ -1167,7 +1182,7 @@ do
   )
   -- … and one whose last page leads to itself: walked to its end, no further.
   shown = read("A Book Without End", { "The first page.", "The last page, again and again." }, nil, nil, true)
-  for _, t in pairs(LorekeepersCodexChar.library.texts) do
+  for _, t in pairs(ns.library().texts) do
     if t.title == "A Book Without End" then copied = t end
   end
   check(
@@ -1348,6 +1363,7 @@ linkHandlers.lorekeeper("lorekeeper:kharanos")
 check(LorekeepersCodexFrame.selectedTab == 1, "a page link goes back to the pages")
 SlashCmdList.LOREKEEPERSCODEX("achievements")
 check(LorekeepersCodexFrame.selectedTab == 3, "/codex achievements opens them too")
+accountOver()
 SlashCmdList.LOREKEEPERSCODEX("reset yes")
 local loud = false
 for _, e in pairs(LorekeepersCodexChar.achievements) do
@@ -1718,7 +1734,7 @@ do
   ns.textTitlesById = { o175733 = "La fondation de Quel'Thalas" }
   -- the Library: a title copied in English reads by this language's; the
   -- text read again in this language replaces its copy, never a second one
-  local lib = LorekeepersCodexChar.library
+  local lib = ns.library()
   read("The Founding of Quel'Thalas", { "In the beginning...", "The middle.", "The end." })
   do
     local copy
@@ -2142,9 +2158,10 @@ end
 if held("deDE") then
   print("skipped: deDE held back (HIDDEN_LOCALES): the German circulars")
 else
-  local before = LorekeepersCodexChar.library
+  local holder = ns.shared() or LorekeepersCodexChar
+  local before = holder.library
   local books, byId, locale, titles = ns.bookTexts, ns.booksById, ns.locale, ns.textTitlesById
-  LorekeepersCodexChar.library = nil
+  holder.library = nil
   for _, id in ipairs({ "i20541", "i20545", "i20552" }) do
     local source = ns.textSources.texts[id]
     read(source.title, ns.textBodies[id])
@@ -2185,7 +2202,7 @@ else
     "a same-title re-read replaces stale pages and preserves when the text was found"
   )
   ns.bookTexts, ns.booksById, ns.locale, ns.textTitlesById = books, byId, locale, titles
-  LorekeepersCodexChar.library = before
+  holder.library = before
 end
 
 -- The soundtrack: a tune is found by standing where it plays with the music on.
@@ -2326,7 +2343,7 @@ do
     end
     check(yellow == 0, "paper: no unread dot in the game's yellow (" .. dots .. " seen)")
     -- (the grey line of a text whose page was never copied is written into the string too)
-    LorekeepersCodexChar.library.texts[9999] = { title = "A lost text", pages = {}, count = 2, at = 1, level = 1 }
+    ns.library().texts[9999] = { title = "A lost text", pages = {}, count = 2, at = 1, level = 1 }
     ns.openText(9999)
     local lost, grey = 0, 0
     for _, t in ipairs(coded) do
@@ -2336,11 +2353,202 @@ do
       end
     end
     check(lost > 0 and grey == 0, "paper: the grey line of a page not copied is the paper's own (" .. lost .. " seen)")
-    LorekeepersCodexChar.library.texts[9999] = nil
+    ns.library().texts[9999] = nil
     check(ownPaints > 0, "the scan sees what the addon's own files paint (" .. ownPaints .. " colours)")
     check(#bad == 0, "paper: nothing painted is a dark-look colour " .. table.concat(bad, ", "))
     check(worst >= 4.5, ("paper: every text reads, worst %.2f to 1"):format(worst))
   end
+end
+
+-- ── one codex for the account, a Hardcore character apart ────────────────────
+-- (docs/account-library.md: two characters of one account, one Hardcore)
+do
+  local function snapshot(t)
+    local keys = {}
+    for k, v in pairs(t) do
+      keys[#keys + 1] = tostring(k) .. "=" .. (type(v) == "table" and snapshot(v) or tostring(v))
+    end
+    table.sort(keys)
+    return "{" .. table.concat(keys, ",") .. "}"
+  end
+  local function relog(saved)
+    LorekeepersCodexChar = saved
+    ns.login()
+    return ns.codex()
+  end
+  local tune = ns.tunes[1]
+  local rules = C_GameRules
+  accountOver()
+  state.zone, state.sub = "Ironforge", ""
+
+  -- A, an older character: pages (one looked back on), a tune, a page read, a text.
+  local a = relog({
+    guid = PLAYER,
+    entries = { kharanos = { at = 100, level = 5 }, ironforge = { at = 300, level = 9, retro = true } },
+    tunes = { [tune] = { at = 120, level = 5 } },
+    read = { kharanos = true },
+    library = {
+      texts = {
+        [1] = { title = "The Hammer", pages = { "one", "two" }, count = 2, at = 130, level = 5 },
+        [2] = { title = "A note", pages = { "x" }, count = 1, at = 140, level = 5 },
+      },
+      keys = { ["The Hammer|one"] = 1, ["A note|x"] = 2 },
+      nextId = 3,
+    },
+  })
+  local acct = ns.account()
+  check(
+    acct.entries.kharanos.at == 100 and acct.entries.ironforge.at == 300 and acct.tunes[tune].at == 120,
+    "account: a character's pages and tunes go into the account at its login"
+  )
+  check(acct.read.kharanos and ns.libraryCount() == 2, "… its reads, and its Library's texts")
+  check(
+    a.entries.kharanos.at == 100 and a.library.texts[1].pages[2] == "two" and a.library.nextId == 3,
+    "… and the character's own are left as they were"
+  )
+
+  -- B: another character: an overlap (a real find beats a looked-back one), its own pages, texts.
+  local b = relog({
+    guid = PLAYER,
+    entries = { ironforge = { at = 200, level = 4 }, timber = { at = 50, level = 3 } },
+    read = {},
+    library = {
+      texts = {
+        [1] = { title = "The Hammer", pages = { "one", "two", "three" }, count = 3, at = 60, level = 3 },
+        [2] = { title = "Another", pages = { "y" }, count = 1, at = 70, level = 3 },
+      },
+      keys = { ["The Hammer|one"] = 1, ["Another|y"] = 2 },
+      nextId = 3,
+    },
+  })
+  acct = ns.account()
+  check(
+    acct.entries.ironforge.at == 200 and not acct.entries.ironforge.retro and acct.entries.timber.at == 50,
+    "account: the better find wins (one found for real beats one looked back on)"
+  )
+  check(acct.entries.kharanos and not b.entries.kharanos, "B holds A's page in the account, not in its own")
+  check(
+    ns.page("kharanos") == acct.entries.kharanos and ns.fromOthers("kharanos") and not ns.fromOthers("timber"),
+    "B reads A's page, marked as another character's"
+  )
+  check(ns.isRead("kharanos") and ns.tune(tune), "… and A's read marks and tunes")
+  local hammer
+  for _, t in pairs(acct.library.texts) do
+    if t.title == "The Hammer" then hammer = t end
+  end
+  check(
+    ns.libraryCount() == 3 and hammer.pages[3] == "three" and hammer.count == 3,
+    "the Library: the same text is one, its pages filled in; the others are added (3 texts)"
+  )
+  check(hammer.at == 60 and hammer.level == 3, "the Library: the earlier reading gives a text's date and place")
+  check(ns.othersCount() >= 1 and ns.count() >= 3, "the count includes the account's pages")
+
+  -- An alt gets no page unlocked by a book only another character read.
+  local readPage
+  for id, e in pairs(C.entries) do
+    for _, u in ipairs(e.unlock) do
+      if u.read and not readPage and ns.available(id) then readPage = { id = id, title = u.read[1] } end
+    end
+  end
+  if readPage then
+    local x = ns.account()
+    x.library.texts[99] = { title = readPage.title, pages = { "p" }, count = 1, at = 5, level = 1 }
+    x.library.keys[readPage.title .. "|p"] = 99
+    ns.catchUp()
+    check(not b.entries[readPage.id], "catch-up: a book only another character read unlocks nothing here")
+    x.library.texts[99], x.library.keys[readPage.title .. "|p"] = nil, nil
+  end
+
+  -- No toast for a page another character found, the page then B's own.
+  printed = {}
+  ns.unlock("kharanos")
+  check(
+    b.entries.kharanos and b.entries.kharanos.at ~= 100 and #printed == 0 and not ns.fromOthers("kharanos"),
+    "a page the account holds is B's own quietly (no line), and loses its mark"
+  )
+  printed = {}
+  ns.unlock("zulgurub")
+  check(
+    #printed == 1 and printed[1]:find("has been added to the codex", 1, true) and ns.account().entries.zulgurub,
+    "a page found for the first time on the account is announced, and goes to the account"
+  )
+
+  -- The same logins again change nothing.
+  -- (one login settles a find's names into ids, as it always did: then it is the same each time)
+  b = relog(b)
+  local before = snapshot(ns.account())
+  local own = snapshot(b)
+  b = relog(b)
+  check(
+    snapshot(ns.account()) == before and snapshot(b) == own,
+    "a login again changes nothing, in the account or the character"
+  )
+
+  -- A Hardcore character: neither reads nor feeds the account.
+  C_GameRules = { IsHardcoreActive = function() return true end }
+  local before_h = snapshot(ns.account())
+  local h = relog({ guid = PLAYER, entries = { timber = { at = 9, level = 2 } }, read = {} })
+  check(h.hardcore and ns.shared() == nil, "told Hardcore (C_GameRules): kept on the character, no account")
+  check(
+    ns.page("kharanos") == nil and ns.page("timber") and not ns.fromOthers("timber"),
+    "a Hardcore character reads only its own pages"
+  )
+  ns.unlock("grim-batol")
+  ns.markRead("timber")
+  check(
+    ns.page("grim-batol") and not ns.account().entries["grim-batol"] and not ns.account().read.timber,
+    "… and its finds and reads never reach the account"
+  )
+  check(
+    ns.libraryCount() == 0 and ns.tune(tune) == nil and ns.othersCount() == 0,
+    "… nor its Library, tunes or other characters' pages"
+  )
+  check(snapshot(ns.account()) == before_h, "… the account is exactly as it was")
+  C_GameRules = rules
+  h = relog(h)
+  check(h.hardcore and ns.shared() == nil, "once told Hardcore, kept even if the game no longer says")
+
+  -- The Classic season says Hardcore too; a call that fails, or a secret, is not Hardcore.
+  local seasons, enum = C_Seasons, Enum
+  C_Seasons = { GetActiveSeason = function() return 3 end }
+  Enum = setmetatable({ SeasonID = { Hardcore = 3 } }, { __index = enum })
+  check(relog({ guid = PLAYER, entries = {}, read = {} }).hardcore, "the Classic Era Hardcore season is Hardcore")
+  C_Seasons, Enum = seasons, enum
+  C_GameRules = { IsHardcoreActive = function() error("not ready") end }
+  check(not relog({ guid = PLAYER, entries = {}, read = {} }).hardcore, "a call that fails: not Hardcore")
+  C_GameRules = {}
+  check(not relog({ guid = PLAYER, entries = {}, read = {} }).hardcore, "no call at all: not Hardcore")
+  C_GameRules = rules
+
+  -- What this character lacks: the select's choice lists exactly the pages only others found.
+  local c = relog({ guid = PLAYER, entries = { timber = { at = 5, level = 1 } }, read = {} })
+  local others = ns.othersCount()
+  check(others > 0 and not c.entries.kharanos, "a fresh character: the account's pages are others'")
+  ns.openTab(ns.TAB.pages)
+  ns.refresh()
+  local filter = LorekeepersCodexFrame.filter
+  local k
+  for i, o in ipairs(filter.options) do
+    if o.value == "others" then k = i end
+  end
+  check(
+    k and filter.options[k].text == ("Not found by this character yet (%d)"):format(others),
+    "the Pages select offers the pages other characters found, counted"
+  )
+  filter.rows[k].scripts.OnClick(filter.rows[k])
+  local listed, onlyOthers = 0, true
+  for _, r in ipairs(ns.listRows) do
+    if r.shown and r.id and C.entries[r.id] then
+      listed = listed + 1
+      if not ns.fromOthers(r.id) then onlyOthers = false end
+    end
+  end
+  check(
+    onlyOthers and listed == others,
+    "… chosen, it lists every page only another character found, and no other (" .. listed .. ")"
+  )
+  filter.rows[1].scripts.OnClick(filter.rows[1])
+  accountOver()
 end
 
 if os.getenv("RENDER") then dofile("addon/test/render.lua")(ns, ns.kit, os.getenv("RENDER")) end

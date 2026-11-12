@@ -88,6 +88,23 @@ German and Spanish (deDE, esES, esMX) are held back from players since 1 Novembe
   welcome`: the logo, `Media/Logo.tga` from `assets/logo.png` with magick,
   what the codex is, the choices and another character's; the packages carry
   `Media/`).
+- The account's codex (13 November 2026, `docs/account-library.md`): every
+  normal character reads and writes `LorekeepersCodexAccount` (SavedVariables,
+  one per game: `entries`, `tunes`, `read`, `library`) besides its own record in
+  `LorekeepersCodexChar`, which stays what it found itself and is never
+  trimmed. `ns.page`, `ns.tune`, `ns.isRead` read the two
+  together, `ns.library()` is the account's Library alone (`ns.fromOthers(id)`: held only through the account), a find is
+  written to both, and a page the account holds is a character's own quietly
+  (no line, sound or banner). `ns.mergeAccount()` (Core.lua, at every login,
+  after the places are mended) copies what the character holds into the account
+  where it lacks it (the better record wins), the Library's texts by their keys
+  (`ns.mergeLibrary`). A Hardcore character (`ns.detectHardcore`:
+  `C_GameRules.IsHardcoreActive`, and Classic Era's Hardcore season; kept once
+  told, not told is not Hardcore) has no account: `ns.shared()` is nil, it
+  reads and writes its own tables as before. The Pages tab marks a page only
+  others found (the soft colour, a found line of its own) and its select offers
+  "Found by your other characters". `/codex reset yes` clears the character's
+  own record, the account's pages stay.
 - The Soundtrack tab (added 29 October 2026, `ideas/soundtrack.md`): the
   tunes of the game's music, one entry per `ZoneMusic` set, as
   `content/soundtrack/<id>.md` (kind `tune`, `group:` lands | cities |

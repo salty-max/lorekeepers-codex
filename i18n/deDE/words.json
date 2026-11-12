@@ -39,7 +39,6 @@
   "Creature": "Kreatur",
   "Creatures": "Kreaturen",
   "Delver of the Deep": "Ergründer der Tiefe",
-  "Each character keeps its own codex, with the day and the place each page was found. The Library copies every book, note and plaque you read, and achievements mark the way.": "Jeder Charakter führt seinen eigenen Kodex, mit dem Tag und dem Ort, an dem jede Seite gefunden wurde. Die Bibliothek schreibt jedes Buch, jede Notiz und jede Tafel ab, die du liest, und Erfolge markieren den Weg.",
   "Encounters": "Begegnungen",
   "Every Calling": "Jede Berufung",
   "Every book, note and plaque you read in the world is copied here whole, so that you can read it again, even a letter long since handed in. Letters written by players are never copied.": "Jedes Buch, jede Notiz und jede Tafel, die du in der Welt liest, wird hier vollständig abgeschrieben, damit du sie wieder lesen kannst, selbst einen Brief, den du längst abgegeben hast. Briefe, die Spieler geschrieben haben, werden nie abgeschrieben.",
@@ -174,5 +173,10 @@
   "Tunes found lately": "Kürzlich gefundene Melodien",
   "Tune found in %1$s, at level %2$d, on %3$s.": "Melodie gefunden in %s, auf Stufe %d, am %s.",
   "Arrival %d": "Ankunft %d",
-  "/codex opens the codex.": "/codex öffnet das Buch."
+  "/codex opens the codex.": "/codex öffnet das Buch.",
+  "Your characters share one codex, with the day and the place each page was found, and a Hardcore character keeps its own. The Library copies every book, note and plaque you read, and achievements mark the way.": "Deine Charaktere teilen sich einen Kodex, mit dem Tag und dem Ort, an dem jede Seite gefunden wurde, und ein Hardcore-Charakter führt seinen eigenen. Die Bibliothek schreibt jedes Buch, jede Notiz und jede Tafel ab, die du liest, und Erfolge markieren den Weg.",
+  "Found by one of your characters, on %s.": "Von einem deiner Charaktere gefunden, am %s.",
+  "Not found by this character yet (%d)": "Von diesem Charakter noch nicht gefunden (%d)",
+  "found elsewhere": "anderswo gefunden",
+  "This forgets what this character found itself, and its achievements. The shared codex keeps every page, so they stay readable. Type /codex reset yes to do it.": "Das löscht, was dieser Charakter selbst gefunden hat, und seine Erfolge. Der gemeinsame Kodex behält alle Seiten, sie bleiben also lesbar. Gib /codex reset yes ein, um zu bestätigen."
 }

@@ -28,14 +28,22 @@ end
 table.sort(tunes, function(a, b) return C.entries[a].title < C.entries[b].title end)
 ns.tunes = tunes
 
+-- A tune this character holds: its own find or the account's (Hardcore: its own).
 function ns.tune(id)
   local char = ns.codex()
-  return char and char.tunes and char.tunes[id] or nil
+  if not char then return nil end
+  local shared = ns.shared()
+  return char.tunes and char.tunes[id] or (shared and shared.tunes[id]) or nil
 end
 function ns.tuneCount()
   local char, n = ns.codex(), 0
-  for id in pairs(char and char.tunes or {}) do
+  if not char then return 0 end
+  local shared = ns.shared()
+  for id in pairs(char.tunes or {}) do
     if C.entries[id] then n = n + 1 end
+  end
+  for id in pairs(shared and shared.tunes or {}) do
+    if C.entries[id] and not (char.tunes and char.tunes[id]) then n = n + 1 end
   end
   return n
 end
@@ -141,6 +149,16 @@ local function find(id)
   local rec = ns.placeOf(GetRealZoneText(), GetSubZoneText())
   rec.at, rec.level = time(), UnitLevel("player")
   char.tunes[id] = rec
+  -- (a tune the account holds already is written quietly: found before)
+  local shared = ns.shared()
+  if shared then
+    if shared.tunes[id] then
+      if ns.onTune then ns.onTune(id) end
+      if ns.checkAchievements then ns.checkAchievements() end
+      return
+    end
+    shared.tunes[id] = ns.copied(rec)
+  end
   local link = ("|cffffd100|Hlorekeeper:tune:%s|h[%s]|h|r"):format(id, C.entries[id].title)
   print(ns.PREFIX .. L["%s has been added to the soundtrack."]:format(link))
   ns.playSound()

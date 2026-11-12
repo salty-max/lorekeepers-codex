@@ -132,11 +132,13 @@ local function mended(rec)
   if rec.subId and rec.subId == rec.zoneId then rec.subId = nil end
 end
 function ns.mendPlaces(char)
-  for _, rec in pairs(char and char.entries or {}) do
-    mended(rec)
-  end
-  for _, t in pairs(char and char.library and char.library.texts or {}) do
-    if t.at then mended(t) end
+  for _, holder in ipairs({ char or {}, ns.shared() or {} }) do
+    for _, rec in pairs(holder.entries or {}) do
+      mended(rec)
+    end
+    for _, t in pairs(holder.library and holder.library.texts or {}) do
+      if t.at then mended(t) end
+    end
   end
 end
 -- A find's places in the client's language: its zone's, its subzone's (nil
@@ -186,18 +188,39 @@ local function countTotal()
 end
 countTotal()
 
+-- A page this character holds: its own find, or one of the account's (a
+-- Hardcore character has no account: ns.shared() is nil).
 function ns.page(id)
   local char = ns.codex()
-  return char and ns.available(id) and char.entries[id] or nil
+  if not (char and ns.available(id)) then return nil end
+  local shared = ns.shared()
+  return char.entries[id] or (shared and shared.entries[id]) or nil
+end
+-- Held only through the account: another character found it, this one has not
+-- (yet) met what it tells.
+function ns.fromOthers(id)
+  local char = ns.codex()
+  return char ~= nil and char.entries[id] == nil and ns.page(id) ~= nil
+end
+function ns.othersCount()
+  local n = 0
+  for id in pairs(ns.shared() and ns.shared().entries or {}) do
+    if ns.fromOthers(id) then n = n + 1 end
+  end
+  return n
 end
 function ns.isRead(id)
   local char = ns.codex()
-  return char and char.read[id]
+  if not char then return nil end
+  local shared = ns.shared()
+  return char.read[id] or (shared and shared.read[id])
 end
 function ns.markRead(id)
   local char = ns.codex()
-  if not char or char.read[id] then return end
+  if not char or ns.isRead(id) then return end
   char.read[id] = true
+  local shared = ns.shared()
+  if shared then shared.read[id] = true end
   ns.checkAchievements()
 end
 -- The pages a reader may know of: those of the chapters it has opened (one
@@ -223,17 +246,30 @@ function ns.count()
   for id in pairs(char and char.entries or {}) do
     if ns.available(id) then n = n + 1 end
   end
-  return n
+  return n + ns.othersCount()
 end
 
 -- retro: found by looking back (a quest done before the addon, a page given
 -- from the start): recorded quietly.
+--
+-- A page the account holds already (another character found it) is
+-- written to this character quietly: no line, sound or banner, the page was
+-- found when the account first found it. A page found here for the first
+-- time anywhere goes to the account too.
 local function unlock(id, retro)
   local char = ns.codex()
   if not char or char.entries[id] or not ns.available(id) then return end
   local rec = ns.placeOf(GetRealZoneText(), GetSubZoneText())
   rec.at, rec.level, rec.retro = time(), UnitLevel("player"), retro or nil
   char.entries[id] = rec
+  local shared = ns.shared()
+  if shared then
+    if shared.entries[id] then
+      retro = true
+    else
+      shared.entries[id] = ns.copied(rec)
+    end
+  end
   if not retro then
     -- A link: clicking it opens the book at this page (see Book.lua).
     local link = ("|cffffd100|Hlorekeeper:%s|h[%s]|h|r"):format(id, C.entries[id].title)
@@ -394,8 +430,9 @@ function ns.catchUp()
       end
     end
   end
-  -- (what this character read before: the Library keeps every title)
-  for _, text in pairs(ns.library and ns.library().texts or {}) do
+  -- (what this character read before: its own Library keeps every title; the
+  -- account's texts, read by other characters, unlock nothing here)
+  for _, text in pairs(ns.codex() and ns.codex().library and ns.codex().library.texts or {}) do
     for _, id in ipairs(byRead[text.title] or {}) do
       unlock(id, true)
     end
@@ -414,6 +451,7 @@ function ns.startUnlocks()
   countTotal()
   indexAreas()
   ns.mendPlaces(ns.codex())
+  ns.mergeAccount()
   ns.checkAchievements(true)
   ns.catchUp()
   if C_Timer and next(byMap) then C_Timer.NewTicker(2, checkPosition) end

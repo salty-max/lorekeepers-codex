@@ -27,7 +27,7 @@ The lore covers the world's past up to the original game. It draws on Warcraft I
 
 Pages unlock as you play. Exploring, talking to or targeting characters, defeating creatures, completing quests and gaining reputation can all add to the book. Reading a history book or a monument's inscription can unlock a related lore page too.
 
-A new page brings a chat link, an alert with its picture and a sound. Each character keeps a separate codex, with the date, level and location of every discovery. Tooltips point out creatures and players who can unlock a page.
+A new page brings a chat link, an alert with its picture and a sound. Your characters share one codex, with the date, level and location of every discovery, so a page one of them found is there on the others. A Hardcore character keeps a codex of its own, apart from the shared one. The Pages list marks pages this character has not found itself and can show just those. Tooltips point out creatures and players who can unlock a page.
 
 Type `/codex` or click the minimap button to read. Browse by chapter, search your discovered pages or filter by type, such as places, figures or histories. Related pages link to each other. Only the pages and chapters you have discovered are shown.
 
@@ -35,7 +35,7 @@ Type `/codex` or click the minimap button to read. Browse by chapter, search you
 
 The **Library** saves the books, notes, quest letters and plaques you read in the world. You can return to them later, even after handing in a quest letter or leaving the place where you found a book.
 
-Texts are copied in full and sorted into shelves, with when and where you read them. The Codex briefly hides the game's reader while it copies all the pages. Each character has its own collection. Letters written by other players are never copied. The Library and reading-based unlocks recognise texts in every game language. The top of the shelves brings you back to the Library at a glance: what each shelf holds and the texts you copied lately.
+Texts are copied in full and sorted into shelves, with when and where you read them. The Codex briefly hides the game's reader while it copies all the pages. The copies are shared by your characters too, except a Hardcore character's. Letters written by other players are never copied. The Library and reading-based unlocks recognise texts in every game language. The top of the shelves brings you back to the Library at a glance: what each shelf holds and the texts you copied lately.
 
 ## Achievements
 
@@ -63,7 +63,7 @@ Each character has its own settings. Copy another character's settings within th
 
 - `/codex achievements` opens the achievement tab.
 - `/codex minimap` shows or hides the minimap button.
-- `/codex reset` clears this character's codex after confirmation.
+- `/codex reset` clears what this character found itself after confirmation. The shared codex keeps every page.
 - `/codex where` prints your position, useful when reporting a discovery or helping with new pages.
 
 ## Help the addons keep up with Forever

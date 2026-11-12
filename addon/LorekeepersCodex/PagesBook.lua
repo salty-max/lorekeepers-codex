@@ -13,6 +13,7 @@ local C = ns.content
 local ui = ns.ui
 local T, TITLE_FONT, BODY_FONT, KINDS = ui.T, ui.TITLE_FONT, ui.BODY_FONT, ui.KINDS
 local OVERVIEW = "overview" -- (the codex at a glance, in place of a page)
+local OTHERS = "others" -- (the select's choice: the pages only another character found)
 
 local chapterTitle = {}
 for _, ch in ipairs(C.chapters) do
@@ -32,7 +33,8 @@ end
 
 -- Where and when this character found it (found by looking back: since when
 -- the codex holds it).
-local function foundLine(rec)
+local function foundLine(rec, id)
+  if id and ns.fromOthers(id) then return L["Found by one of your characters, on %s."]:format(ui.day(rec.at)) end
   if rec.retro then return L["In your codex since %s, at level %d."]:format(ui.day(rec.at), rec.level or 0) end
   local zone, sub = ns.placeNames(rec)
   local where = zone or "?"
@@ -74,7 +76,7 @@ local function showPage(id)
   end
   flush()
   page:text(paras)
-  page:paragraph(foundLine(ns.page(id)), T.soft)
+  page:paragraph(foundLine(ns.page(id), id), T.soft)
 
   -- "See also": the related pages this character has found, as cards.
   local also = {}
@@ -116,12 +118,16 @@ function showOverview()
     if a.at ~= b.at then return a.at > b.at end
     return a.e.title < b.e.title
   end)
-  page:stats({
+  local figures = {
     { tostring(ns.count()), L["pages found"] },
     { tostring(#opened), ns.kit.plural(#opened, "chapter", "chapters") },
     { tostring(unread), L["unread"] },
     { tostring(ns.libraryCount()), L["library texts"] },
-  })
+  }
+  -- (pages only another of this player's characters found, when there are some)
+  local others = ns.othersCount()
+  if others > 0 then table.insert(figures, { tostring(others), L["found elsewhere"] }) end
+  page:stats(figures)
   if #recent > 0 then
     page:section(L["Found lately"])
     for i = 1, math.min(LATELY, #recent) do
@@ -272,7 +278,11 @@ local function refresh(scrollToCurrent)
   list:begin()
   -- The select's kind of page ("": every one).
   local only = ns.filterOf(ns.TAB.pages) or ""
-  local function fits(id) return only == "" or C.entries[id].kind == only end
+  if only == OTHERS and ns.othersCount() == 0 then only = "" end
+  local function fits(id)
+    if only == OTHERS then return ns.fromOthers(id) end
+    return only == "" or C.entries[id].kind == only
+  end
   local function add(kind, text, id, count, found, total, chapter)
     local r = list:add(kind, text, count)
     if kind == "overview" then
@@ -293,7 +303,10 @@ local function refresh(scrollToCurrent)
       list:gap(2)
     else
       r.id = id
-      r.text:SetText((ns.isRead(id) and "" or ("|cff%s•|r "):format(ns.kit.linkColour())) .. C.entries[id].title)
+      -- (a page only another of this player's characters found: in the soft colour)
+      local title = C.entries[id].title
+      if ns.fromOthers(id) then title = ns.kit.hex(T.soft) .. title .. "|r" end
+      r.text:SetText((ns.isRead(id) and "" or ("|cff%s•|r "):format(ns.kit.linkColour())) .. title)
       if id == current then list:pick(r) end
       r:SetScript("OnClick", function()
         showPage(id)
@@ -403,6 +416,10 @@ local function kinds()
     if ns.page(id) then count[e.kind] = (count[e.kind] or 0) + 1 end
   end
   local out = { { value = "", text = L["Every kind of page"] } }
+  local others = ns.othersCount()
+  if others > 0 then
+    table.insert(out, { value = OTHERS, text = L["Not found by this character yet (%d)"]:format(others) })
+  end
   for _, k in ipairs(ORDER) do
     if count[k] then table.insert(out, { value = k, text = ("%s (%d)"):format(PLURAL[k], count[k]) }) end
   end
