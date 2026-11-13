@@ -27,7 +27,7 @@ The lore covers the world's past up to the original game. It draws on Warcraft I
 
 Pages unlock as you play. Exploring, talking to or targeting characters, defeating creatures, completing quests and gaining reputation can all add to the book. Reading a history book or a monument's inscription can unlock a related lore page too.
 
-A new page brings a chat link, an alert with its picture and a sound. Your characters share one codex, with the date, level and location of every discovery, so a page one of them found is there on the others. A Hardcore character keeps a codex of its own, apart from the shared one. The Pages list marks pages this character has not found itself and can show just those. Tooltips point out creatures and players who can unlock a page.
+A new page brings a chat link, an alert with its picture and a sound. Your characters share one codex, with the date, level and location of every discovery, so a page one of them found is there on the others. A Hardcore character keeps a codex of its own, apart from the shared one. The Pages list marks pages this character has not found itself and can show just those. The **Missing pages** option adds a greyed row for each page you have not found, with no title, text or place, and lists the chapters you have not started by name and page count alone. It is off by default. Tooltips point out creatures and players who can unlock a page.
 
 Type `/codex` or click the minimap button to read. Browse by chapter, search your discovered pages or filter by type, such as places, figures or histories. Related pages link to each other. Only the pages and chapters you have discovered are shown.
 
@@ -36,6 +36,10 @@ Type `/codex` or click the minimap button to read. Browse by chapter, search you
 The **Library** saves the books, notes, quest letters and plaques you read in the world. You can return to them later, even after handing in a quest letter or leaving the place where you found a book.
 
 Texts are copied in full and sorted into shelves, with when and where you read them. The Codex briefly hides the game's reader while it copies all the pages. The copies are shared by your characters too, except a Hardcore character's. Letters written by other players are never copied. The Library and reading-based unlocks recognise texts in every game language. The top of the shelves brings you back to the Library at a glance: what each shelf holds and the texts you copied lately.
+
+## Soundtrack
+
+The fourth tab collects the game's music. Stay in a place for a short while with the music on and the tune that plays there is found, with a page on why the place sounds as it does. Found tunes are kept under lands, cities, moments and depths, and a click plays one again. Tunes you have not found show as "???". Your characters share found tunes, a Hardcore character keeps its own.
 
 ## Achievements
 
@@ -57,11 +61,18 @@ If you want to help with future Forever chapters, `/codex scan on` records the p
 
 A welcome page introduces the Codex on each character's first login. Use `/codex welcome` to see it again.
 
-Settings are under **Options > AddOns > Lorekeeper's Codex**, through `/codex settings` or by right-clicking the minimap button. Adjust the alerts for new pages and for achievements (each its own switch), their duration, sounds, tooltip hints and the minimap button. Chat lines always show.
+Settings are under **Options > AddOns > Lorekeeper's Codex**, through `/codex settings` or by right-clicking the minimap button. Adjust the alerts for new pages and for achievements (each its own switch), their duration, sounds, tooltip hints, the missing pages and the minimap button. Chat lines always show.
+
+Two choices change how the book looks. **Book size** makes the whole window larger, in four steps from Normal to Largest. **Paper colours** replace the dark look with dark ink on tan paper, which some players find easier on the eyes. Paper colours take effect after a reload, and the settings page ends with a **Reload** button for it.
+
+**Options > Key Bindings** lists **Open Lorekeeper's Codex** under a heading of its own. Put a key on it, or on Forever a controller button, and one press opens or closes the book. Nothing is bound until you choose.
+
+On Forever with the Gamepad UI on, the game can show its own blocked-action popup after you open an options page. That is a bug in the game's Gamepad UI, and a reload clears it.
 
 Each character has its own settings. Copy another character's settings within the same game using the welcome or settings page, or transfer them with `/codex export` and `/codex import CODE`.
 
 - `/codex achievements` opens the achievement tab.
+- `/codex account` prints what this character and the shared codex hold, in English, for finding out why another character's pages are missing.
 - `/codex minimap` shows or hides the minimap button.
 - `/codex reset` clears what this character found itself after confirmation. The shared codex keeps every page.
 - `/codex where` prints your position, useful when reporting a discovery or helping with new pages.
