@@ -286,6 +286,30 @@ ns.kit.commands({
       ns.refresh()
       print(PREFIX .. L["The codex starts afresh: %d of %d pages."]:format(ns.count(), ns.knownTotal()))
     end,
+    -- (English only, like where: a support line for finding out why another
+    -- character's pages are missing. A character's own pages reach the
+    -- account only when it logs in on this version. Pages counted as the book
+    -- counts them, those this package has.)
+    account = function()
+      local own, held = 0, 0
+      for id in pairs(char and char.entries or {}) do
+        if ns.available(id) then own = own + 1 end
+      end
+      for id in pairs(ns.account().entries) do
+        if ns.available(id) then held = held + 1 end
+      end
+      local apart = char and char.hardcore
+      print(
+        PREFIX
+          .. ("account: %s · this character found %d page(s), the account holds %d, %s · %s"):format(
+            apart and "Hardcore, apart from the account" or "shared with the account",
+            own,
+            held,
+            apart and "none read here" or ns.othersCount() .. " of them from others",
+            ns.forever and "Forever" or "Classic"
+          )
+      )
+    end,
     banner = function()
       ns.setOption("banner", not ns.option("banner"))
       print(

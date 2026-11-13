@@ -71,6 +71,7 @@ and `/codex import CODE`.
 - `/codex reset` clears what this character found itself after confirmation.
   The shared codex keeps every page.
 - `/codex where` prints your position and target for writing new pages.
+- `/codex account` prints what this character and the shared codex hold (English only, for finding out why another character's pages are missing).
 - `/codex scan on` records areas, creatures, quest texts and books to help
   write Forever content. `scripts/scan-export.lua` converts the saved data
   to JSON.

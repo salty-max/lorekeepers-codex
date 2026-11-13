@@ -2524,6 +2524,38 @@ do
   local c = relog({ guid = PLAYER, entries = { timber = { at = 5, level = 1 } }, read = {} })
   local others = ns.othersCount()
   check(others > 0 and not c.entries.kharanos, "a fresh character: the account's pages are others'")
+  local ownCount, heldCount = 0, 0
+  for id in pairs(c.entries) do
+    if ns.available(id) then ownCount = ownCount + 1 end
+  end
+  for id in pairs(ns.account().entries) do
+    if ns.available(id) then heldCount = heldCount + 1 end
+  end
+  printed = {}
+  SlashCmdList.LOREKEEPERSCODEX("account")
+  check(
+    printed[1]
+      and printed[1]:find("account: shared with the account", 1, true)
+      and printed[1]:find(
+        ("found %d page(s), the account holds %d, %d of them from others"):format(ownCount, heldCount, others),
+        1,
+        true
+      ),
+    "/codex account: shared, with this character's, the account's and the others' counts"
+  )
+  -- (a Hardcore character: apart, and the line still says what the account holds)
+  C_GameRules = { IsHardcoreActive = function() return true end }
+  relog({ guid = PLAYER, entries = {}, read = {} })
+  printed = {}
+  SlashCmdList.LOREKEEPERSCODEX("account")
+  check(
+    printed[1]
+      and printed[1]:find("account: Hardcore, apart from the account", 1, true)
+      and printed[1]:find(("the account holds %d, none read here"):format(heldCount), 1, true),
+    "/codex account on a Hardcore character: apart, the account's count kept"
+  )
+  C_GameRules = rules
+  c = relog(c)
   ns.openTab(ns.TAB.pages)
   ns.refresh()
   local filter = LorekeepersCodexFrame.filter

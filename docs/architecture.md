@@ -43,7 +43,7 @@ German and Spanish (deDE, esES, esMX) are held back from players since 1 Novembe
 - `addon/LorekeepersCodex/`: `Core.lua` (the codex's record and its schema,
   the events every file listens to: `ns.on`, `ns.knows`; the login, `/codex`
   (the kit's command, `K.commands`: alone it opens the book, an unknown word
-  prints the usage, the replies capitalised), `/codex where`),
+  prints the usage, the replies capitalised), `/codex where`, `/codex account`: both English only, support lines),
   `Achievements.lua` (the achievements on the kit's `K.deeds`: earned with
   the achievement sound the player picks (the game's fanfare by default, Quest
   complete where a client lacks it), a chat line
