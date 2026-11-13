@@ -1,4 +1,4 @@
--- addon-kit 7d2d3c8: a copy (kit:sync); edit the addon-kit repository's Kit.lua instead
+-- addon-kit 726a8e9: a copy (kit:sync); edit the addon-kit repository's Kit.lua instead
 -- The kit every addon of the family carries but Keyring (Hearthtale,
 -- Lorekeeper's Codex, Yonder, Second Wind, Palaver, Mealbook, Goodwill, Yours
 -- Truly, Primer): which game this is and the addon's events, its words, the books'
@@ -160,23 +160,35 @@ local DEFAULT = {
 -- paper's: set by K.look before anything is built (a colour is read when a
 -- piece is made, so the choice is kept from one login to the next).
 K.PAPER = {
-  ground = { 0.89, 0.81, 0.64 }, -- (the panels: the page and the list)
-  back = { 0.80, 0.71, 0.53 }, -- (the window's body, behind the panels)
-  edge = { 0.42, 0.30, 0.13 },
-  text = { 0.09, 0.06, 0.03 },
-  soft = { 0.27, 0.20, 0.11 },
-  dim = { 0.33, 0.27, 0.19 },
+  -- (the panels: the page and the list. The paper is the game's quest paper
+  -- over a light base: this is the picture's 1st percentile blended with it
+  -- (measured on the 1.13.5 art), the colour every ink is darkened against.
+  -- Only a pixel in a hundred is darker, and the text still reads on the darkest)
+  ground = { 0.67, 0.53, 0.36 },
+  back = { 0.66, 0.56, 0.42 }, -- (the window's body, behind the panels: a duller, darker tan)
+  edge = { 0.29, 0.18, 0.06 },
+  text = { 0.06, 0.04, 0.02 },
+  soft = { 0.14, 0.09, 0.04 },
+  dim = { 0.17, 0.11, 0.05 },
   tint = { 1, 1, 1 },
   shade = { 0.89, 0.81, 0.64, 0.55 },
-  highlight = { 0.42, 0.28, 0.08 },
+  highlight = { 0.36, 0.16, 0.05 },
   field = { 0.96, 0.92, 0.80, 0.9 },
   menu = { 0.93, 0.87, 0.72, 0.99 },
-  trough = { 0.30, 0.20, 0.08, 0.30 },
-  wash = { 0.25, 0.16, 0.05, 0.06 },
-  picked = { 0.09, 0.06, 0.03 },
+  trough = { 0.96, 0.90, 0.74, 0.55 }, -- (light: the rust fill reads against it, never a black bar)
+  wash = { 0.25, 0.12, 0.04, 0.07 },
+  picked = { 0.06, 0.04, 0.02 },
 }
+-- The paper's picture: the game's quest paper (Interface\QuestFrame\QuestBG,
+-- in both clients), the part inside its torn edge, laid at PAPER_ART_ALPHA over
+-- the base colour so the ink keeps its contrast.
+K.PAPER_ART = "Interface\\QuestFrame\\QuestBG"
+K.PAPER_CROP = { 12 / 512, 284 / 512, 12 / 512, 316 / 512 }
+K.PAPER_BASE = { 0.95, 0.87, 0.68 }
+K.PAPER_ART_ALPHA = 0.7
 -- The least contrast ratio a text keeps on the paper (WCAG's AA for text).
 K.PAPER_CONTRAST = 4.5
+K.PAPER_BAR_CONTRAST = 1.9
 
 -- A colour's relative luminance, and the contrast of two colours (1 to 21).
 local function luminance(c)
@@ -217,9 +229,20 @@ function K.theme(theme)
     for k, v in pairs(P) do
       T[k] = v
     end
-    T.accent = K.ink((theme and theme.accent) or DEFAULT.accent, grounds)
+    -- (a warm accent, the gold, leans to red-brown on paper: a deep, livelier heading)
+    local accent = (theme and theme.accent) or DEFAULT.accent
+    if accent[1] > accent[2] and accent[2] >= accent[3] then
+      accent = { accent[1] * 0.7 + 0.48 * 0.3, accent[2] * 0.7 + 0.12 * 0.3, accent[3] * 0.7 + 0.05 * 0.3 }
+    end
+    T.accent = K.ink(accent, grounds)
     T.aside = K.ink((theme and theme.aside) or DEFAULT.aside, grounds)
-    T.bar = K.ink((theme and theme.bar) or DEFAULT.bar, grounds, 3)
+    -- (a bar is a fill on a trough, not text: a warm gold leans to rust, and it
+    -- needs only 1.9 to 1 against the paper, else it is dark brown, near black)
+    local bar = (theme and theme.bar) or DEFAULT.bar
+    if bar[1] > bar[2] and bar[2] >= bar[3] then
+      bar = { bar[1] * 0.5 + 0.62 * 0.5, bar[2] * 0.5 + 0.27 * 0.5, bar[3] * 0.5 + 0.05 * 0.5 }
+    end
+    T.bar = K.ink(bar, grounds, K.PAPER_BAR_CONTRAST)
     T.ring = K.ink((theme and theme.ring) or DEFAULT.ring, grounds, 3)
   end
   T.gold = T.accent
@@ -456,6 +479,20 @@ local function border(f, color)
   end
 end
 
+-- The paper's field (a search box, a select): the template's dark art hidden
+-- (its Left, Middle and Right on an edit box, its Background on a dropdown),
+-- the paper's own light field and edge in its place.
+local function paperField(f, art)
+  for _, key in ipairs(art) do
+    local t = f[key]
+    if type(t) == "table" and t.Hide then t:Hide() end
+  end
+  local back = f:CreateTexture(nil, "BACKGROUND")
+  back:SetAllPoints()
+  back:SetColorTexture(unpack(T.field))
+  border(f, { T.ring[1], T.ring[2], T.ring[3], 0.7 })
+end
+
 -- ── panels ───────────────────────────────────────────────────────────────────
 -- Forever's Professions card (a dark rounded panel), cut in nine so it
 -- stretches to any size without bending its corners; tinted by the theme.
@@ -515,12 +552,39 @@ function K.inset(parent, book)
   return f
 end
 
--- The paper look's panel: flat paper in a thin brown edge, on both clients.
+-- The paper look's panel, on both clients: the game's quest paper in a dark
+-- brown edge, shaded a little inside it for depth (the picture missing: the
+-- base colour alone).
 function K.paperPanel(parent)
   local f = CreateFrame("Frame", nil, parent)
-  local back = f:CreateTexture(nil, "BACKGROUND")
-  back:SetAllPoints()
-  back:SetColorTexture(unpack(T.ground))
+  local base = f:CreateTexture(nil, "BACKGROUND")
+  base:SetAllPoints()
+  base:SetColorTexture(unpack(K.PAPER_BASE))
+  local art = f:CreateTexture(nil, "BACKGROUND", nil, 1)
+  art:SetAllPoints()
+  if art:SetTexture(K.PAPER_ART) == false then
+    art:Hide()
+  else
+    art:SetTexCoord(unpack(K.PAPER_CROP))
+    art:SetAlpha(K.PAPER_ART_ALPHA)
+  end
+  local E = K.PAPER.edge
+  for i, alpha in ipairs({ 0.3, 0.14, 0.06 }) do
+    local inset = i -- (1, 2 and 3 pixels in: the edge fading into the paper)
+    for _, side in ipairs({ "TOP", "BOTTOM", "LEFT", "RIGHT" }) do
+      local t = f:CreateTexture(nil, "BORDER")
+      t:SetColorTexture(E[1], E[2], E[3], alpha)
+      if side == "TOP" or side == "BOTTOM" then
+        t:SetHeight(1)
+        t:SetPoint(side .. "LEFT", inset, side == "TOP" and -inset or inset)
+        t:SetPoint(side .. "RIGHT", -inset, side == "TOP" and -inset or inset)
+      else
+        t:SetWidth(1)
+        t:SetPoint("TOP" .. side, side == "LEFT" and inset or -inset, -inset)
+        t:SetPoint("BOTTOM" .. side, side == "LEFT" and inset or -inset, inset)
+      end
+    end
+  end
   border(f, T.edge)
   return f
 end
@@ -2559,11 +2623,11 @@ function K.deedsTab(A, o)
 end
 
 -- ── choosing ─────────────────────────────────────────────────────────────────
--- A select: the game's own dropdown, in a box the caller places: the menu
--- system's (WowStyle1DropdownTemplate), which every client the family ships
--- for has (Classic Era 1.15.9 and Forever alike); the older UIDropDownMenu
--- kept for a client without it, the kit's own where there's neither (the
--- test games).
+-- A select: on Forever the kit's own list of plain buttons (no Blizzard menu,
+-- see K.settingsDropdown); elsewhere the game's own dropdown, in a box the
+-- caller places: the menu system's (WowStyle1DropdownTemplate, Classic Era
+-- 1.15.9 has it), the older UIDropDownMenu kept for a client without it, the
+-- kit's own where there's neither (the test games).
 --   s = K.select(parent, width, placeholder)   (s.placeholder: shown without a choice)
 --   s:SetOptions({ { value = v, text = "..." }, ... }), s:SetValue(v), s:GetValue()
 --   s.onChange = function(value) end   (a choice made by the player)
@@ -2716,6 +2780,28 @@ local function menuSelect(parent, width, placeholder)
   box:SetPoint("LEFT")
   box:SetWidth(width)
   s.box = box
+  if K.paper then
+    -- (its dark text holder hidden: the paper's field, and the ink on it)
+    local field = CreateFrame("Frame", nil, s)
+    field:SetPoint("TOPLEFT", box, "TOPLEFT")
+    field:SetPoint("BOTTOMRIGHT", box, "BOTTOMRIGHT", -22, 0)
+    field:SetFrameLevel(s:GetFrameLevel())
+    paperField(field, {})
+    if type(box.Background) == "table" and box.Background.Hide then box.Background:Hide() end
+    -- (the template's state handler paints the text light on every hover, press
+    -- and show: ours runs after it and puts the ink back)
+    local function ink(self)
+      if type(self.Text) == "table" and self.Text.SetTextColor then
+        self.Text:SetTextColor(unpack(self:IsEnabled() and T.text or T.dim))
+      end
+    end
+    local theirs = box.OnButtonStateChanged
+    box.OnButtonStateChanged = function(self, ...)
+      if theirs then theirs(self, ...) end
+      ink(self)
+    end
+    ink(box)
+  end
   local value -- (the choice: kept here, not on the frame)
   local function setup()
     box:SetupMenu(function(_, root)
@@ -2755,6 +2841,19 @@ local function dropDownSelect(parent, width, placeholder)
   box:SetPoint("LEFT", -16, -2)
   UIDropDownMenu_SetWidth(box, width - 26)
   s.box = box
+  if K.paper then
+    for _, part in ipairs({ "Left", "Middle", "Right" }) do
+      local t = box[part]
+      if type(t) == "table" and t.Hide then t:Hide() end
+    end
+    local field = CreateFrame("Frame", nil, s)
+    field:SetPoint("TOPLEFT", s, "TOPLEFT", 0, -2)
+    field:SetPoint("BOTTOMRIGHT", s, "BOTTOMRIGHT", -2, 2)
+    field:SetFrameLevel(s:GetFrameLevel())
+    paperField(field, {})
+    local text = box.Text
+    if type(text) == "table" and text.SetTextColor then text:SetTextColor(unpack(T.text)) end
+  end
   local value -- (the choice: kept here, not on the frame)
   UIDropDownMenu_Initialize(box, function(_, level)
     for _, o in ipairs(s.options) do
@@ -2788,6 +2887,9 @@ local function dropDownSelect(parent, width, placeholder)
 end
 
 function K.select(parent, width, placeholder)
+  -- (the Gamepad UI on: no Blizzard menu, its opening taints the manager, see
+  -- K.settingsChoice. The kit's own list of plain buttons.)
+  if K.gamepadUI() then return kitSelect(parent, width, placeholder) end
   local templates = C_XMLUtil and C_XMLUtil.GetTemplateInfo
   if MenuUtil and templates and templates("WowStyle1DropdownTemplate") then
     return menuSelect(parent, width, placeholder)
@@ -3346,6 +3448,40 @@ function K.tabs(window, titles, clicked)
   local template = hasTemplate("CharacterFrameTabButtonTemplate") and "CharacterFrameTabButtonTemplate"
     or "PanelTabButtonTemplate"
   local prefix = window.kitName .. "Tab"
+  local current = window.selectedTab or 1
+  local function go(n)
+    current = n
+    K.selectTab(window, n)
+    clicked(n)
+    if PlaySound and SOUNDKIT and SOUNDKIT.IG_CHARACTER_INFO_TAB then PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB) end
+  end
+  -- LB and RB turn to the previous and next tab, on the controller (the
+  -- Gamepad UI's own windows do the same). Our own handler on our own window:
+  -- nothing of Blizzard's is written, so it works whether the manager is told
+  -- of the window or not. Other buttons pass through.
+  -- (The game refuses EnableGamePadButton and SetPropagateKeyboardInput to
+  -- addon code in a fight, and a window that listens with propagation off eats
+  -- every button: so both are set together, once, out of combat, with
+  -- propagation on. LB and RB then reach the game as well as the book. Not
+  -- verified in the game: whether the flag governs pad buttons at all.)
+  if window.EnableGamePadButton then
+    local function arm()
+      window:EnableGamePadButton(true)
+      if window.SetPropagateKeyboardInput then window:SetPropagateKeyboardInput(true) end
+    end
+    if InCombatLockdown and InCombatLockdown() then
+      K.lateArm = K.lateArm or {}
+      table.insert(K.lateArm, arm)
+    else
+      arm()
+    end
+    window:SetScript("OnGamePadButtonDown", function(_, button)
+      local step = button == "PADRSHOULDER" and 1 or button == "PADLSHOULDER" and -1 or nil
+      if not step then return end
+      local now = window.selectedTab or current
+      go(((now - 1 + step) % #titles) + 1)
+    end)
+  end
   for n, text in ipairs(titles) do
     local tab = CreateFrame("Button", prefix .. n, window, template)
     tab:SetID(n)
@@ -3355,11 +3491,7 @@ function K.tabs(window, titles, clicked)
     else
       tab:SetPoint("LEFT", prefix .. (n - 1), "RIGHT", -14, 0)
     end
-    tab:SetScript("OnClick", function(self)
-      K.selectTab(window, self:GetID())
-      clicked(self:GetID())
-      if PlaySound and SOUNDKIT and SOUNDKIT.IG_CHARACTER_INFO_TAB then PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB) end
-    end)
+    tab:SetScript("OnClick", function(self) go(self:GetID()) end)
     tab:SetScript("OnShow", function(self)
       if PanelTemplates_TabResize then PanelTemplates_TabResize(self, 0) end
     end)
@@ -3443,8 +3575,26 @@ end
 -- it is behind pcall: a window's own showing never depends on it. ("raised" is
 -- a lower bound: securecallfunction may hand an error to the game's handler.)
 K.pad = { shown = 0, hidden = 0, failed = 0, blocked = 0, waiting = 0 }
-K.padOn = true -- (a switch for a session: /<addon> pad off stops telling the manager, pad on starts again)
+-- The manager is told of our windows exactly when the Gamepad UI is the game's
+-- interface style (InputUtil.IsGamepadUIEnabled, read at each call, never
+-- cached: a player may switch in the game), like Blizzard's own windows: that
+-- is what gives a window the stick and the D-pad (the user's decision, 8
+-- November 2026, over a saved "Controller support" option, now removed).
+-- Honest: telling it may taint what the game reads (focusedFrame,
+-- topSuspendedFrame, SmartNavigation's buttonGroups), and the options page was
+-- once blocked by it (see docs/controller.md for the cause that was then
+-- found: Settings dropdowns, which that page no longer uses with the Gamepad
+-- UI on). /<addon> pad on|off|auto forces it or follows the Gamepad UI again,
+-- for a session, to diagnose. A window is told it is hidden only if it was told
+-- it is shown, whatever the style is by then. LB and RB switching a book's
+-- tabs does not need the manager (K.tabs) and works either way.
+K.padForce = nil -- (nil: follow the Gamepad UI)
+local function padActive()
+  if K.padForce ~= nil then return K.padForce end
+  return K.gamepadUI()
+end
 local padWatch
+local padWatcher
 local padTold, padWait = {}, {} -- (windows the manager was told of; windows to settle after a fight)
 local padWindows = setmetatable({}, { __mode = "k" }) -- (every window K.padHook hooked)
 local function padManager()
@@ -3454,10 +3604,15 @@ local function padManager()
 end
 local padCall
 local function padSettle()
+  local late = K.lateArm
+  K.lateArm = nil
+  for _, arm in ipairs(late or {}) do
+    pcall(arm)
+  end
   for window in pairs(padWait) do
     padWait[window] = nil
     K.pad.waiting = K.pad.waiting - 1
-    local shown = window:IsShown() and K.padOn and true or false
+    local shown = window:IsShown() and padActive() and true or false
     if shown and not padTold[window] then
       padCall("FrameShown", window)
     elseif not shown and padTold[window] then
@@ -3466,26 +3621,40 @@ local function padSettle()
   end
 end
 K.padSettle = padSettle -- (the fight's end; the tests call it)
+-- The game's refusals blamed on this addon, counted with the action's name:
+-- watched from the first window built, not only once the manager is told, so a
+-- refusal from the options page is caught too (/<addon> pad prints the names).
+function padWatcher()
+  if padWatch or not CreateFrame then return end
+  local pad = K.pad
+  padWatch = CreateFrame("Frame")
+  for _, event in ipairs({ "ADDON_ACTION_BLOCKED", "ADDON_ACTION_FORBIDDEN", "PLAYER_REGEN_ENABLED" }) do
+    if K.knows(event) then padWatch:RegisterEvent(event) end
+  end
+  padWatch:SetScript("OnEvent", function(_, event, who, what)
+    if event == "PLAYER_REGEN_ENABLED" then
+      padSettle()
+    elseif who == addonName then
+      pad.blocked = pad.blocked + 1
+      pad.names = pad.names or {}
+      local name, known = tostring(what), false
+      for _, n in ipairs(pad.names) do
+        known = known or n == name
+      end
+      if not known and #pad.names < 5 then table.insert(pad.names, name) end
+    end
+  end)
+end
 function padCall(method, window)
-  if method == "FrameShown" and not K.padOn then return end
+  if method == "FrameShown" and not padActive() then return end
+  -- (the manager is told a window is hidden only if it was told it is shown:
+  -- a hide it never heard of reaches its own state and the taint report names us)
+  if method == "FrameHidden" and not padTold[window] then return end
   local manager = padManager()
   local fn = manager and manager[method]
   if type(fn) ~= "function" then return end
   local pad = K.pad
-  if not padWatch then
-    -- (the game's refusals blamed on this addon, counted: only here, only on Forever)
-    padWatch = CreateFrame("Frame")
-    for _, event in ipairs({ "ADDON_ACTION_BLOCKED", "ADDON_ACTION_FORBIDDEN", "PLAYER_REGEN_ENABLED" }) do
-      if K.knows(event) then padWatch:RegisterEvent(event) end
-    end
-    padWatch:SetScript("OnEvent", function(_, event, who)
-      if event == "PLAYER_REGEN_ENABLED" then
-        padSettle()
-      elseif who == addonName then
-        pad.blocked = pad.blocked + 1
-      end
-    end)
-  end
+  padWatcher()
   if InCombatLockdown and InCombatLockdown() then
     if not padWait[window] then pad.waiting = pad.waiting + 1 end
     padWait[window] = true
@@ -3501,6 +3670,8 @@ function padCall(method, window)
   else
     pad.failed = pad.failed + 1
     pad.last = tostring(err)
+    -- (a show that raised may have half-written the manager's state: its hide is still owed)
+    if method == "FrameShown" then padTold[window] = true end
   end
 end
 
@@ -3515,7 +3686,7 @@ function K.padReport()
     local ok, on = pcall(InputUtil.IsGamepadUIEnabled)
     if ok then ui = on and "on" or "off" end
   end
-  return ("Controller: Gamepad UI %s, manager %s, told shown %d, hidden %d, raised %d%s, blocked %d, waiting %d, stick set %d, no panel %d, registration %s"):format(
+  return ("Controller: Gamepad UI %s, manager %s, told shown %d, hidden %d, raised %d%s, blocked %d%s, waiting %d, stick set %d, no panel %d, registration %s"):format(
     ui,
     padManager() and "found" or "absent",
     pad.shown,
@@ -3523,10 +3694,11 @@ function K.padReport()
     pad.failed,
     pad.last and (" (" .. pad.last .. ")") or "",
     pad.blocked,
+    pad.names and (" (" .. table.concat(pad.names, ", ") .. ")") or "",
     pad.waiting,
     pad.scrolled or 0,
     pad.nopanel or 0,
-    K.padOn and "on" or "off"
+    (padActive() and "on" or "off") .. (K.padForce ~= nil and " (forced)" or " (follows the Gamepad UI)")
   )
 end
 
@@ -3562,7 +3734,7 @@ local function padFindText(frame, depth)
   return first
 end
 function K.padText(window)
-  if not K.padOn or not padTold[window] then return end
+  if not padActive() or not padTold[window] then return end
   local nav = SmartNavigation
   if type(nav) ~= "table" or type(nav.SetScrollFrameForFrame) ~= "function" then return end
   local scroll = padFindText(window, 0)
@@ -3577,15 +3749,20 @@ function K.padText(window)
   if pcall(run, nav.SetScrollFrameForFrame, nav, window, scroll) then K.pad.scrolled = (K.pad.scrolled or 0) + 1 end
 end
 
--- Turns the registration off or on for the session (not saved): off tells the
--- manager every window of ours is hidden and stops telling it, on tells it
--- about the ones shown. A way to settle, in the game, whether it is what
--- taints Blizzard's own code: the same action, once with it on, once off.
+-- Forces the registration on or off for the session (not saved), or nil to
+-- follow the Gamepad UI again: off tells the manager every window of ours that
+-- it was told of is hidden and stops telling it, on tells it about the ones
+-- shown. A way to settle, in the game, whether it is what taints Blizzard's
+-- own code: the same action, once with it on, once off.
 function K.padSet(on)
-  K.padOn = on and true or false
+  if on == nil then
+    K.padForce = nil
+  else
+    K.padForce = on and true or false
+  end
   for window in pairs(padWindows) do
-    if K.padOn then
-      if window:IsShown() then padCall("FrameShown", window) end
+    if padActive() then
+      if window:IsShown() and not padTold[window] then padCall("FrameShown", window) end
     elseif padTold[window] then
       padCall("FrameHidden", window)
     end
@@ -3670,6 +3847,7 @@ end
 function K.padHook(window)
   if rawget(window, "kitPadHooked") then return end
   window.kitPadHooked = true
+  padWatcher()
   padWindows[window] = true
   window:HookScript("OnShow", function(self) padCall("FrameShown", self) end)
   window:HookScript("OnHide", function(self) padCall("FrameHidden", self) end)
@@ -3804,6 +3982,24 @@ function K.book(o)
     f.search:SetHeight(20)
     f.search:SetPoint("TOPLEFT", f.left, "TOPLEFT", 18, -10)
     f.search:SetPoint("TOPRIGHT", f.left, "TOPRIGHT", o.searchRight or -12, -10)
+    if K.paper then
+      -- (the template's field is drawn for a dark ground: on paper its art is
+      -- hidden, the paper's own field stands in, and its words are the ink)
+      paperField(f.search, { "Left", "Middle", "Right" })
+      -- (the template's fonts are small, outlined and shadowed, drawn for light
+      -- on dark: thin and smudged in ink. The kit's body font, plain, like the labels)
+      f.search:SetFont(K.BODY_FONT, 12, "")
+      f.search:SetTextColor(unpack(T.text))
+      f.search:SetShadowOffset(0, 0)
+      local hint = f.search.Instructions
+      if hint then
+        pcall(function()
+          hint:SetFont(K.BODY_FONT, 12, "")
+          hint:SetShadowOffset(0, 0)
+          hint:SetTextColor(unpack(T.dim))
+        end)
+      end
+    end
     f.search:HookScript("OnTextChanged", function() B:refresh() end)
     f.filter = false -- (every field set: none read before it is)
     if o.filter then
@@ -4014,9 +4210,15 @@ function K.commands(o)
       )
     elseif msg ~= "help" and o.commands and o.commands[msg] then
       o.commands[msg](raw)
-    elseif msg == "pad" or msg == "pad on" or msg == "pad off" then
+    elseif msg == "pad" or msg == "pad on" or msg == "pad off" or msg == "pad auto" then
       -- (the controller's trace: not in the usage, not a player's word)
-      if msg ~= "pad" then K.padSet(msg == "pad on") end
+      if msg == "pad on" then
+        K.padSet(true)
+      elseif msg == "pad off" then
+        K.padSet(false)
+      elseif msg == "pad auto" then
+        K.padSet(nil)
+      end
       say(K.padReport())
       say(K.taintReport())
     elseif msg == "help" or not (o.match and o.match(msg, raw)) then
@@ -4076,6 +4278,90 @@ function K.binding(o)
   return { action = o.key .. "_OPEN", global = o.global }
 end
 
+-- ── a choice on the Options page: a dropdown, or a slider with the Gamepad UI ─
+-- THE RULE: with the Gamepad UI on, the options page uses no Blizzard dropdown.
+-- A dropdown's opening runs the Gamepad UI's own unwrapped SuspendFrame
+-- (MenuProxy.OnShow), right after the menu has read the options our code made,
+-- and that taints the manager: the "blocked from an action only available to
+-- the Blizzard UI" popup (docs/controller.md). Nothing built from addon code
+-- can be made secure to prevent it, so a choice becomes the game's own stepped
+-- slider over the list's positions, its label the choice's word. The setting
+-- keeps the option's value (bookSize 1 to 4, a sound id, "frFR"): the slider's
+-- proxy setting is the position, mapped to and from the value (a saved value
+-- not in the list shows as the nearest step, and nothing is written). With the
+-- Gamepad UI off it is Blizzard's dropdown exactly as it always was. The
+-- choice is made once, when the page is built: a player who changes the
+-- Gamepad UI reloads (the page's Reload button).
+
+-- Whether the Gamepad UI is the game's interface style now (Era has none).
+function K.gamepadUI()
+  if InputUtil and InputUtil.IsGamepadUIEnabled then
+    local ok, on = pcall(InputUtil.IsGamepadUIEnabled)
+    return ok and on and true or false
+  end
+  return false
+end
+
+-- The position of a value in a list of { value, text }: its own, else (a
+-- number) the nearest, else the first. Only for what is shown.
+local function choiceIndex(options, value)
+  for i, opt in ipairs(options) do
+    if opt[1] == value then return i end
+  end
+  if type(value) == "number" then
+    local best, gap
+    for i, opt in ipairs(options) do
+      if type(opt[1]) == "number" and (not gap or math.abs(opt[1] - value) < gap) then
+        best, gap = i, math.abs(opt[1] - value)
+      end
+    end
+    if best then return best end
+  end
+  return 1
+end
+
+-- Registers one choice on a Settings category and returns its setting.
+-- list(): { { value, text }, ... }. get(), set(value) as for a proxy setting.
+function K.settingsChoice(category, variable, kind, text, default, get, set, list, tooltip)
+  if K.gamepadUI() and Settings.CreateSlider and Settings.CreateSliderOptions then
+    local options = list()
+    -- (one option or none: nothing to step through, and a slider over one position
+    -- divides 0 by 0 for its step. The copy row goes too when nobody can be copied from.)
+    if #options < 2 then return end
+    local setting = Settings.RegisterProxySetting(
+      category,
+      variable,
+      Settings.VarType.Number,
+      text,
+      choiceIndex(options, default),
+      function() return choiceIndex(options, get()) end,
+      function(position)
+        local opt = options[position]
+        if opt then set(opt[1]) end
+      end
+    )
+    local slider = Settings.CreateSliderOptions(1, #options, 1)
+    if MinimalSliderWithSteppersMixin then
+      slider:SetLabelFormatter(MinimalSliderWithSteppersMixin.Label.Right, function(position)
+        local opt = options[math.floor(position + 0.5)]
+        return opt and opt[2] or ""
+      end)
+    end
+    Settings.CreateSlider(category, setting, slider, tooltip)
+    return setting
+  end
+  if not (Settings.CreateDropdown and Settings.CreateControlTextContainer) then return end
+  local setting = Settings.RegisterProxySetting(category, variable, kind, text, default, get, set)
+  Settings.CreateDropdown(category, setting, function()
+    local c = Settings.CreateControlTextContainer()
+    for _, opt in ipairs(list()) do
+      c:Add(opt[1], opt[2])
+    end
+    return c:GetData()
+  end, tooltip)
+  return setting
+end
+
 -- ── the Options page ─────────────────────────────────────────────────────────
 -- The addon's page in the game's Options (AddOns), where the client has the
 -- Settings panel: boxes, a slider, a choice, the opt-in, another character's
@@ -4083,13 +4369,14 @@ end
 --   O = K.options({ title = "Lorekeeper's Codex", key = "LOREKEEPERSCODEX",
 --     get = ns.option, set = ns.setOption, defaults = DEFAULTS,
 --     profiles = P, slash = "/codex", prefix = ns.PREFIX })
---   O:check(key, text, tip, inverted)   (inverted: the box ticked when the setting is false: minimapHidden)
+--   O:check(key, text, tip, inverted, after)   (inverted: the box ticked when the setting is false: minimapHidden; after(value): run when it is set)
 --   O:slider(key, text, tip, min, max, step, label)  (label(value): the value as shown)
 --   O:choice(key, text, tip, options, after)  (options(): { { value, text }, ... }; after(value): once chosen)
 --   O:collect(C), O:copy(), O:done() (the page registered), O:open() (true when it opened), O.category
 function K.options(o)
   local O = { variables = {} }
   local category
+  local function put(key, value) o.set(key, value) end
   local ok = Settings and Settings.RegisterVerticalLayoutCategory and Settings.RegisterProxySetting
   if ok then
     category = Settings.RegisterVerticalLayoutCategory(o.title)
@@ -4101,7 +4388,7 @@ function K.options(o)
     table.insert(O.variables, v)
     return Settings.RegisterProxySetting(category, v, kind, text, default, get, set)
   end
-  function O:check(key, text, tip, inverted)
+  function O:check(key, text, tip, inverted, after)
     if not category then return end
     inverted = inverted and true or false
     local setting = register(
@@ -4110,7 +4397,10 @@ function K.options(o)
       text,
       (o.defaults[key] and true or false) ~= inverted,
       function() return (o.get(key) and true or false) ~= inverted end,
-      function(value) o.set(key, value ~= inverted) end
+      function(value)
+        put(key, value ~= inverted)
+        if after then after(value) end
+      end
     )
     Settings.CreateCheckbox(category, setting, tip)
   end
@@ -4122,7 +4412,7 @@ function K.options(o)
       text,
       o.defaults[key],
       function() return o.get(key) end,
-      function(value) o.set(key, value) end
+      function(value) put(key, value) end
     )
     local options = Settings.CreateSliderOptions(min, max, step)
     if label and MinimalSliderWithSteppersMixin then
@@ -4131,19 +4421,22 @@ function K.options(o)
     Settings.CreateSlider(category, setting, options, tip)
   end
   function O:choice(key, text, tip, list, after)
-    if not (category and Settings.CreateDropdown and Settings.CreateControlTextContainer) then return end
+    if not category then return end
     local kind = type(o.defaults[key]) == "number" and Settings.VarType.Number or Settings.VarType.String
-    local setting = register(key, kind, text, o.defaults[key], function() return o.get(key) end, function(value)
-      o.set(key, value)
+    local v = variable(key)
+    table.insert(O.variables, v)
+    K.settingsChoice(category, v, kind, text, o.defaults[key], function() return o.get(key) end, function(value)
+      put(key, value)
       if after then after(value) end
-    end)
-    Settings.CreateDropdown(category, setting, function()
-      local c = Settings.CreateControlTextContainer()
-      for _, opt in ipairs(list()) do
-        c:Add(opt[1], opt[2])
-      end
-      return c:GetData()
-    end, tip)
+    end, list, tip)
+  end
+  -- A choice of its own for an addon whose setting is not in its profile (a
+  -- character's own, with its own getter and setter): a dropdown, or a slider
+  -- with the Gamepad UI, as O:choice. kind: Settings.VarType.String or .Number;
+  -- options: { { value, text }, ... }.
+  function O:dropdown(name, kind, text, default, get, set, options, tip)
+    if not category then return end
+    K.settingsChoice(category, name, kind, text, default, get, set, function() return options end, tip)
   end
   -- The family's two shared choices, the same words in every addon: how long
   -- a banner stays (K.BANNER_SECONDS by default), and the sound of an
@@ -4174,6 +4467,7 @@ function K.options(o)
   -- (the settings bookSize, 1 to 4, and paper). The size is applied at once to
   -- the windows already built, the look from the next reload.
   function O:look()
+    padWatcher()
     if o.defaults.bookSize == nil then o.defaults.bookSize = 1 end
     if o.defaults.paper == nil then o.defaults.paper = false end
     K.lookGet = o.get
@@ -4187,7 +4481,7 @@ function K.options(o)
     self:check(
       "paper",
       L["Paper colours"],
-      L["Dark ink on tan paper, easier on the eyes than light text on a dark ground. Takes effect when you reload the interface (/reload)."]
+      L["Dark ink on tan paper, easier on the eyes than light text on a dark ground. Takes effect when you reload the interface. Use the Reload button below."]
     )
   end
   function O:collect(C)
@@ -4206,7 +4500,37 @@ function K.options(o)
       function(other) print((o.prefix or "") .. L["%s's settings copied."]:format(other)) end
     )
   end
+  -- The foot of the page: a hint and a button that reloads the interface, the
+  -- game's own rows (CreateSettingsListSectionHeaderInitializer and
+  -- CreateSettingsButtonInitializer, in both clients), the click one ReloadUI()
+  -- and nothing else: no popup of ours (a StaticPopup shown by an addon taints),
+  -- and never a reload from code without a click. Static on purpose: a shown
+  -- predicate would hand a function of ours to the Settings panel, which runs it
+  -- unwrapped on every display and every search keystroke. With the Gamepad UI
+  -- on (decided once, as the page is built) the row also says that the
+  -- blocked-action popup is the game's own bug, which a reload clears.
+  function O:reload()
+    if not (category and CreateSettingsButtonInitializer and Settings.RegisterInitializer) then return end
+    local pad = K.gamepadUI()
+    local name = pad and L["A blocked-action popup is the game's own bug"] or L["Reload the interface"]
+    local tip = pad
+        and L["Some choices only take effect after a reload. The blocked-action popup comes from a bug in the game's own Gamepad UI, and a reload clears it."]
+      or L["Reloads the interface. Some choices only take effect after it."]
+    pcall(function()
+      if CreateSettingsListSectionHeaderInitializer then
+        Settings.RegisterInitializer(
+          category,
+          CreateSettingsListSectionHeaderInitializer(L["Some changes need a reload"], tip)
+        )
+      end
+      Settings.RegisterInitializer(
+        category,
+        CreateSettingsButtonInitializer(name, L["Reload"], function() ReloadUI() end, tip, false)
+      )
+    end)
+  end
   function O:done()
+    self:reload()
     if category then Settings.RegisterAddOnCategory(category) end
   end
   function O:open()
@@ -4551,24 +4875,54 @@ end
 -- The Options page's "Copy settings from": another character of this game
 -- (the game's own dropdown, where the page is the game's). said(other): after.
 function K.copySetting(category, variable, P, tooltip, said)
-  if not (Settings.CreateDropdown and Settings.CreateControlTextContainer and Settings.VarType.String) then return end
-  local copy = Settings.RegisterProxySetting(
+  if not (Settings.RegisterProxySetting and Settings.VarType) then return end
+  local function options()
+    local list = { { "", L["Choose a character"] } }
+    for _, other in ipairs(P:others()) do
+      table.insert(list, { other, other })
+    end
+    return list
+  end
+  local function copy(other)
+    if other ~= "" and P:copy(other) and said then said(other) end
+  end
+  if K.gamepadUI() and CreateSettingsButtonInitializer and Settings.RegisterInitializer then
+    -- (a slider over the characters, then a button: moving the slider copies nothing)
+    local chosen = ""
+    local setting = K.settingsChoice(
+      category,
+      variable,
+      Settings.VarType.String,
+      L["Copy settings from"],
+      "",
+      function() return chosen end,
+      function(other) chosen = other end,
+      options,
+      tooltip
+    )
+    if not setting then return end
+    pcall(function()
+      Settings.RegisterInitializer(
+        category,
+        CreateSettingsButtonInitializer("", L["Copy their choices"], function()
+          local other = chosen
+          chosen = ""
+          copy(other)
+          if Settings.NotifyUpdate then pcall(Settings.NotifyUpdate, variable) end
+        end, nil, false)
+      )
+    end)
+    return
+  end
+  K.settingsChoice(
     category,
     variable,
     Settings.VarType.String,
     L["Copy settings from"],
     "",
     function() return "" end,
-    function(other)
-      if other ~= "" and P:copy(other) and said then said(other) end
-    end
+    copy,
+    options,
+    tooltip
   )
-  Settings.CreateDropdown(category, copy, function()
-    local options = Settings.CreateControlTextContainer()
-    options:Add("", L["Choose a character"])
-    for _, other in ipairs(P:others()) do
-      options:Add(other, other)
-    end
-    return options:GetData()
-  end, tooltip)
 end
