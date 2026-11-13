@@ -1,8 +1,13 @@
 -- Achievements: milestones (pages found), feats (pages read, sets of pages
 -- worth seeking out), encounters (players met: every race, every class, their
 -- pairings) and one per chapter, completed. Each character earns its
--- own, from its own codex, and each remembers when and at what level:
---   LorekeepersCodexChar.achievements[id] = { at, level, retro }
+-- account, from the shared codex, and each remembers when and at what level
+-- (docs/account-library.md):
+--   LorekeepersCodexAccount.achievements[id] = { at, level, retro }  every normal character's
+--   LorekeepersCodexChar.achievements[id] = { at, level, retro }     what this character earned itself
+-- A normal character reads the account's record (its own before the merge)
+-- and writes both, so the fanfare fires once for the account: an alt finds it
+-- earned and shows it quietly. A Hardcore character reads and writes its own.
 -- Earned at once when the codex reaches them; those reached before the addon
 -- knew about them (a codex from 0.3.0, a reset) are recorded quietly.
 local _, ns = ...
@@ -34,12 +39,32 @@ end
 -- list until the chapter has been opened (visible()).
 -- (the kit's: K.deeds; earned as the game's own are, the fanfare, the
 -- codex's alert behind its switch, Banner.lua)
+-- (the table the kit's deeds read and write: reads the account's record, else
+-- the character's own; a write goes to both, the better record kept on the account)
+local view = setmetatable({}, {
+  __index = function(_, id)
+    local shared = ns.shared()
+    local rec = shared and shared.achievements[id]
+    if rec then return rec end
+    local c = LorekeepersCodexChar
+    return c and c.achievements and c.achievements[id]
+  end,
+  __newindex = function(_, id, rec)
+    local c = LorekeepersCodexChar
+    if not c then return end
+    c.achievements = c.achievements or {}
+    c.achievements[id] = rec
+    local shared = ns.shared()
+    if shared and type(rec) == "table" then
+      local held = shared.achievements[id]
+      if not held or ns.better(rec, held) then shared.achievements[id] = ns.copied(rec) end
+    end
+  end,
+})
 local deeds = ns.kit.deeds({
   saved = function()
-    local c = LorekeepersCodexChar
-    if not c then return nil end
-    c.achievements = c.achievements or {}
-    return c.achievements
+    if not LorekeepersCodexChar then return nil end
+    return view
   end,
   name = "Lorekeeper's Codex",
   prefix = PREFIX,

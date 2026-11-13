@@ -24,6 +24,10 @@
     "areas' English names": {
       "lua": "addon/LorekeepersCodex/Content_*.lua",
       "at": "content.areaNames"
+    },
+    "achievements": {
+      "json": "data/achievement-ids.json",
+      "at": ""
     }
   },
   "unlisted": {

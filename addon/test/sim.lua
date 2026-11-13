@@ -627,6 +627,7 @@ check(
 fanfareless = true
 local from = #playedIds
 LorekeepersCodexChar.achievements["pages-10"] = nil
+ns.account().achievements["pages-10"] = nil
 ns.checkAchievements()
 local fallback
 for i = from + 1, #playedIds - 1 do
@@ -1254,11 +1255,27 @@ check(
   #ns.achievements == 9 + 4 + 10 + 5 + 4 + #C.chapters,
   "milestones, feats, encounters, the Library's and one achievement per chapter"
 )
+-- (every achievement id is in data/achievement-ids.json, which saved-ids.json lists so that
+-- bun run ids refuses a release that drops one a journal may hold)
+do
+  local f = assert(io.open("data/achievement-ids.json"))
+  local listed = f:read("*a")
+  f:close()
+  local missing = {}
+  for _, a in ipairs(ns.achievements) do
+    if not listed:find('"' .. a.id .. '"', 1, true) then missing[#missing + 1] = a.id end
+  end
+  check(
+    #missing == 0,
+    "every achievement id is in data/achievement-ids.json (missing: " .. table.concat(missing, ", ") .. ")"
+  )
+end
 -- A codex from before achievements: what it deserves is recorded quietly.
 for _, id in ipairs(CH["loch-modan"].entries) do
   ns.unlock(id, true)
 end
 LorekeepersCodexChar.achievements = {}
+ns.account().achievements = {}
 printed = {}
 local before = sounds
 ns.checkAchievements(true)
@@ -1370,8 +1387,8 @@ for _, e in pairs(LorekeepersCodexChar.achievements) do
   if not e.retro then loud = true end
 end
 check(
-  not ns.earned("leaders") and not ns.earned("chapter-" .. dun.id) and not loud,
-  "/codex reset forgets the achievements (what the codex still earns comes back quietly)"
+  not loud,
+  "/codex reset forgets this character's own record (the account's achievements stay, docs/account-library.md)"
 )
 -- ── the two clients ───────────────────────────────────────────────────────────
 check(not ns.available("foreword-skyborne"), "the Skyborne foreword is for the Skyborne")
@@ -2519,6 +2536,138 @@ do
   C_GameRules = {}
   check(not relog({ guid = PLAYER, entries = {}, read = {} }).hardcore, "no call at all: not Hardcore")
   C_GameRules = rules
+
+  -- ── the achievements, account-wide (docs/account-library.md) ──
+  do
+    C_GameRules = rules
+    local function toasts()
+      local n = 0
+      for _, line in ipairs(printed) do
+        if line:find("Achievement earned", 1, true) then n = n + 1 end
+      end
+      return n
+    end
+    local function force(id)
+      local d = ns.achievementById[id]
+      local was = d.progress
+      d.progress = function() return 1, 1 end
+      return function() d.progress = was end
+    end
+    ns.account().achievements = {}
+    -- Oma, a real file: one achievement in her own table.
+    local oma = {
+      guid = PLAYER,
+      entries = {},
+      read = {},
+      achievements = { ["pages-10"] = { at = 1793834184, level = 1 } },
+    }
+    local ownBefore = snapshot(oma.achievements["pages-10"])
+    relog(oma)
+    local rec = ns.account().achievements["pages-10"]
+    check(
+      rec and rec.at == 1793834184 and rec.level == 1 and not rec.retro,
+      "achievements: a character's own go into the account at its login, as earned"
+    )
+    check(snapshot(oma.achievements["pages-10"]) == ownBefore, "… and the character's own record is left as it was")
+    -- A second character sees it, without a word.
+    printed = {}
+    local mage = relog({ guid = PLAYER, entries = {}, read = {} })
+    check(
+      ns.earned("pages-10") and ns.earned("pages-10").at == 1793834184 and mage.achievements["pages-10"] == nil,
+      "an alt finds the first one's achievement earned, not in its own table"
+    )
+    check(toasts() == 0, "… and no word for it at the login (nor the merge)")
+    -- Earned for real by one character: one fanfare for the account.
+    local undo = force("pages-25")
+    printed = {}
+    local soundsBefore = sounds
+    ns.checkAchievements()
+    check(
+      toasts() == 1
+        and ns.account().achievements["pages-25"]
+        and mage.achievements["pages-25"]
+        and sounds > soundsBefore,
+      "a first earning on the account: the fanfare once, in the account and the character's own"
+    )
+    ns.checkAchievements()
+    check(toasts() == 1, "… and never twice")
+    printed = {}
+    soundsBefore = sounds
+    relog({ guid = PLAYER, entries = {}, read = {} })
+    ns.checkAchievements()
+    check(
+      toasts() == 0 and sounds == soundsBefore and ns.earned("pages-25"),
+      "another alt: the same achievement shows earned, quietly (no line, no sound)"
+    )
+    undo()
+    -- Hardcore stays apart.
+    C_GameRules = { IsHardcoreActive = function() return true end }
+    local hc = relog({ guid = PLAYER, entries = {}, read = {} })
+    check(
+      ns.earned("pages-10") == nil and ns.earned("pages-25") == nil,
+      "Hardcore: the account's achievements are not read"
+    )
+    undo = force("pages-50")
+    printed = {}
+    ns.checkAchievements()
+    undo()
+    check(
+      toasts() == 1 and hc.achievements["pages-50"] and ns.account().achievements["pages-50"] == nil,
+      "Hardcore: its own earning is its own, never written to the account"
+    )
+    C_GameRules = rules
+    relog({ guid = PLAYER, entries = {}, read = {} })
+    check(ns.earned("pages-50") == nil, "… and a normal character never sees it")
+    -- The merge keeps the honest record and loses nothing, again and again.
+    local ach = ns.account().achievements
+    ach["pages-100"] = { at = 1, level = 1, retro = true }
+    ach["pages-150"] = { at = 9, level = 2 }
+    local mixed = {
+      guid = PLAYER,
+      entries = {},
+      read = {},
+      achievements = { ["pages-100"] = { at = 9, level = 2 }, ["pages-150"] = { at = 1, level = 1, retro = true } },
+    }
+    relog(mixed)
+    check(
+      ach["pages-100"].at == 9
+        and not ach["pages-100"].retro
+        and ach["pages-150"].at == 9
+        and not ach["pages-150"].retro,
+      "the merge: a real earning beats a looked-back one, either way round"
+    )
+    ach["pages-200"] = { at = 20, level = 3 }
+    relog({ guid = PLAYER, entries = {}, read = {}, achievements = { ["pages-200"] = { at = 5, level = 1 } } })
+    check(
+      ach["pages-200"].at == 5 and ach["pages-10"].at == 1793834184,
+      "the merge: the earlier of two real ones, nothing dropped"
+    )
+    relog(mixed) -- (one login settles a find's names into ids, as it always did)
+    local acctSnap, mixedSnap = snapshot(ns.account()), snapshot(mixed)
+    relog(mixed)
+    relog(mixed)
+    check(
+      snapshot(ns.account()) == acctSnap and snapshot(mixed) == mixedSnap,
+      "the merge again: nothing changes, in the account or the character"
+    )
+    -- A reset forgets this character's own record and leaves the account's.
+    local keep = snapshot(ns.account().achievements)
+    SlashCmdList.LOREKEEPERSCODEX("reset yes")
+    check(
+      snapshot(ns.account().achievements) == keep
+        and ns.earned("pages-10")
+        and ns.codex().achievements["pages-100"] == nil,
+      "/codex reset: the account's achievements stay, the character's own record starts afresh"
+    )
+    -- The diagnostic line counts them.
+    printed = {}
+    SlashCmdList.LOREKEEPERSCODEX("account")
+    check(
+      printed[1] and printed[1]:find("achievements: 0 here, ", 1, true) and printed[1]:find(" on the account", 1, true),
+      "/codex account: the achievements here and on the account"
+    )
+    C_GameRules = rules
+  end
 
   -- What this character lacks: the select's choice lists exactly the pages only others found.
   local c = relog({ guid = PLAYER, entries = { timber = { at = 5, level = 1 } }, read = {} })

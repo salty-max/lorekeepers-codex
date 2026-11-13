@@ -178,7 +178,7 @@
   "Found by one of your characters, on %s.": "Trouvée par l'un de vos personnages, le %s.",
   "Not found by this character yet (%d)": "Pas encore trouvées par ce personnage (%d)",
   "found elsewhere": "trouvées ailleurs",
-  "This forgets what this character found itself, and its achievements. The shared codex keeps every page, so they stay readable. Type /codex reset yes to do it.": "Cette commande efface ce que ce personnage a trouvé lui-même, et ses hauts faits. Le codex partagé garde toutes les pages, elles restent donc lisibles. Tapez /codex reset yes pour confirmer.",
+  "This forgets what this character found itself. The shared codex keeps every page and achievement, so they stay. Type /codex reset yes to do it.": "Cette commande efface ce que ce personnage a trouvé lui-même. Le codex partagé garde toutes les pages et tous les hauts faits, ils restent donc. Tapez /codex reset yes pour confirmer.",
   "Missing pages": "Pages manquantes",
   "Show a greyed row for each page you have not found, with no title, text or place, and list the chapters you have not started by name and page count alone.": "Afficher une ligne grisée pour chaque page non trouvée, sans titre, texte ni lieu, et lister les chapitres non commencés par leur seul nom et leur nombre de pages."
 }

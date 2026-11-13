@@ -18,6 +18,7 @@
 --   LorekeepersCodexAccount (SavedVariables), the codex every normal character
 --   shares (a Hardcore one never reads or writes it, docs/account-library.md):
 --     entries[id], tunes[id], read[id]                as the character's own
+--     achievements[id] = { at, level, retro }         the first record on the account
 --     library = { texts, keys, nextId }               the texts copied, all characters'
 --   A character's own tables stay what it earned itself; it reads its own and
 --   the account's together (ns.page, ns.tune, ns.isRead); ns.library() is the
@@ -89,6 +90,7 @@ function ns.account()
   if type(LorekeepersCodexAccount) ~= "table" then LorekeepersCodexAccount = {} end
   local a = LorekeepersCodexAccount
   a.entries, a.tunes, a.read = a.entries or {}, a.tunes or {}, a.read or {}
+  a.achievements = a.achievements or {}
   a.library = a.library or {}
   a.library.texts, a.library.keys, a.library.nextId = a.library.texts or {}, a.library.keys or {}, a.library.nextId or 1
   return a
@@ -117,6 +119,7 @@ local function better(a, b)
   if (a.retro and true or false) ~= (b.retro and true or false) then return not a.retro end
   return (a.at or math.huge) < (b.at or math.huge)
 end
+ns.better = better
 
 -- What a normal character holds goes into the account where the account lacks
 -- it (the better record wins). Nothing in the character is touched or dropped,
@@ -124,7 +127,7 @@ end
 function ns.mergeAccount()
   local a = ns.shared()
   if not a then return end
-  for _, name in ipairs({ "entries", "tunes" }) do
+  for _, name in ipairs({ "entries", "tunes", "achievements" }) do
     for id, rec in pairs(char[name] or {}) do
       local held = a[name][id]
       if type(rec) == "table" and (not held or better(rec, held)) then a[name][id] = copied(rec) end
@@ -276,7 +279,7 @@ ns.kit.commands({
             char
               and char.hardcore
               and L["This forgets every page and achievement this character has found. Type /codex reset yes to do it."]
-            or L["This forgets what this character found itself, and its achievements. The shared codex keeps every page, so they stay readable. Type /codex reset yes to do it."]
+            or L["This forgets what this character found itself. The shared codex keeps every page and achievement, so they stay. Type /codex reset yes to do it."]
           )
       )
     end,
@@ -291,7 +294,13 @@ ns.kit.commands({
     -- account only when it logs in on this version. Pages counted as the book
     -- counts them, those this package has.)
     account = function()
-      local own, held = 0, 0
+      local own, held, deeds, ownDeeds = 0, 0, 0, 0
+      for _ in pairs(ns.account().achievements) do
+        deeds = deeds + 1
+      end
+      for _ in pairs(char and char.achievements or {}) do
+        ownDeeds = ownDeeds + 1
+      end
       for id in pairs(char and char.entries or {}) do
         if ns.available(id) then own = own + 1 end
       end
@@ -301,11 +310,13 @@ ns.kit.commands({
       local apart = char and char.hardcore
       print(
         PREFIX
-          .. ("account: %s · this character found %d page(s), the account holds %d, %s · %s"):format(
+          .. ("account: %s · this character found %d page(s), the account holds %d, %s · achievements: %d here, %d on the account · %s"):format(
             apart and "Hardcore, apart from the account" or "shared with the account",
             own,
             held,
             apart and "none read here" or ns.othersCount() .. " of them from others",
+            ownDeeds,
+            deeds,
             ns.forever and "Forever" or "Classic"
           )
       )

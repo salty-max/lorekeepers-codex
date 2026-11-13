@@ -48,7 +48,7 @@ German and Spanish (deDE, esES, esMX) are held back from players since 1 Novembe
   the achievement sound the player picks (the game's fanfare by default, Quest
   complete where a client lacks it), a chat line
   with its link and the codex's alert behind its switch; a chapter's listed
-  once the chapter is opened, earned quietly before), `Unlocks.lua` (the unlock engine: areas, npcs talked to or
+  once the chapter is opened, earned quietly before; account-wide, a Hardcore character apart: `docs/account-library.md`), `Unlocks.lua` (the unlock engine: areas, npcs talked to or
   targeted, players targeted (their race's page and class's: `people:`,
   `calling:`; one's own from the start; `met` for the encounters), kills by
   you or your pet: `PARTY_KILL`, an event of its own on Forever and Classic

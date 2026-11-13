@@ -9,7 +9,7 @@ character's finds neither feed nor read the shared library).
 
 - `LorekeepersCodexChar` (per character): `entries[id]` (pages found, each
   `{ at, level, zoneId, subId, retro }`), `read[id]`, `tunes[id]`,
-  `achievements[id]`, `met`, `library` (the texts copied), the book's folds.
+  `achievements[id]` (what it earned itself), `met`, `library` (the texts copied), the book's folds.
 - `LorekeepersCodexSettings` (account): profiles per "Name - Realm", the
   minimap place. `LorekeepersCodexCollect`, `LorekeepersCodexScan`: account.
 - Everything reads a page through `ns.page(id)` (= `char.entries[id]`), and
@@ -27,6 +27,7 @@ LorekeepersCodexAccount = {
   entries[id] = { at, level, zoneId, subId, retro },  -- the pages any normal character found
   tunes[id]   = { at, level, zoneId, subId },
   read[id]    = true,                                 -- opened by any normal character
+  achievements[id] = { at, level, retro },            -- the first record on the account
 }
 ```
 
@@ -52,8 +53,8 @@ LorekeepersCodexAccount = {
   version may stop keeping the copy once the user is sure.
 - A save whose GUID is not the character's (`ns.belongsTo`, a deleted
   character's name reused) is dropped as today and never merged.
-- `/codex reset yes` forgets this character's own record and achievements as
-  today. The shared codex keeps every page, so they stay readable (the
+- `/codex reset yes` forgets this character's own record, achievements
+  included (the account's stay: see "Achievements"). The shared codex keeps every page, so they stay readable (the
   wording says so, and the found line names no finder, since after a reset
   the character's own finds read as the account's). No account-wide reset command (not asked for).
 
@@ -100,10 +101,48 @@ Era I add one second test, `C_Seasons.GetActiveSeason() == Enum.SeasonID.Hardcor
 - The "new" dot (unread) follows `read`, which is the account's: a page read
   on any character is not new on the others. A page nobody opened still shows
   the dot, on whichever character.
-- Achievements stay per character, counted from what the character holds
-  (the library included), so an alt gets the milestone ones at its first
-  login quietly (retro, as a reset does today). Not made account-wide: not
-  asked for.
+- Achievements are account-wide too (the user's call, 13 November 2026), see
+  "Achievements" below.
+
+## Achievements (13 November 2026)
+
+- `LorekeepersCodexAccount.achievements[id] = { at, level, retro }`, read as
+  the union: a normal character sees the account's record (its own one before
+  the merge), a Hardcore character only its own, as for the pages. The kit's
+  `K.deeds` is given a view of the two (Achievements.lua), so nothing in the
+  kit changed: a read is the account's record or else the character's, a write
+  goes to the character's own table and, for a normal character, to the
+  account's.
+- Fanfare once per account: the alert, the sound and the chat line are
+  announced only when a normal character earns an achievement nobody on the
+  account holds. An alt that finds it already earned shows it quietly. The
+  login merges before its quiet check, so what the shared pages complete at
+  that moment is recorded retro and never announced.
+- `ns.mergeAccount()` copies each of the character's own achievements into the
+  account under the pages' rule (`ns.better`: a real earning beats a looked-back
+  one, then the earlier `at`). So a retro record never hides a real one, and the
+  earliest real date wins. The character's own table is left as it was
+  (rollback loses nothing). Idempotent, every login.
+- `/codex reset yes` empties this character's own table only. The account's
+  achievements are left alone, because one character should not delete what
+  the others earned (the same stand as for the pages). They still show earned
+  here, as they did before the reset. A Hardcore character's reset forgets its
+  own, as before. The reset text says so.
+- `/codex export` and `/codex import` carry the settings profile only (never
+  pages or achievements), so they are unchanged. `/codex account` also counts
+  the achievements here and on the account.
+- Saved ids: the achievement ids (the milestones, feats, encounters, the
+  Library's, one per chapter) are listed in `data/achievement-ids.json`, named
+  in `saved-ids.json` so `bun run ids` refuses a commit that deletes a line.
+  It is kept by hand, both games' ids together, and the sim fails when an
+  achievement of the running game is missing from it (a new chapter needs a
+  new line). A line is never removed: a renamed or dropped chapter keeps its
+  old line, since saved records may still hold the id (the guard covers the
+  list, not the code).
+- Tests (`addon/test/sim.lua`): Oma's real file shape migrates, a second
+  character sees it without a line or a sound, one earning is one fanfare for
+  the account, Hardcore stays apart both ways, the merge keeps the honest
+  record and is idempotent, a reset leaves the account's.
 
 ## What am I missing
 

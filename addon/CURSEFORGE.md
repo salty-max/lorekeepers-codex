@@ -39,7 +39,7 @@ Texts are copied in full and sorted into shelves, with when and where you read t
 
 ## Achievements
 
-The third tab tracks achievements for discovering pages, building your Library, completing chapters and meeting players of different races and classes. There are also feats for finding legendary wanderers, meeting your faction's leaders, meeting the historian behind your codex and exploring dungeons. Each achievement records the day and level you earned it, and shows in the game's achievement alert.
+The third tab tracks achievements for discovering pages, building your Library, completing chapters and meeting players of different races and classes. There are also feats for finding legendary wanderers, meeting your faction's leaders, meeting the historian behind your codex and exploring dungeons. Each achievement records the day and level you earned it, and shows in the game's achievement alert once for your whole account (a Hardcore character keeps its own).
 
 Open the tab with `/codex achievements`.
 

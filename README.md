@@ -53,7 +53,7 @@ glance: what each shelf holds and the texts copied lately.
 
 The **Achievements** tab tracks page milestones, completed chapters, Library
 progress, notable encounters and feats. Each achievement records the day
-and level you earned it. Open the tab with `/codex achievements`.
+and level you earned it, and your characters share them (a Hardcore character keeps its own). Open the tab with `/codex achievements`.
 
 ## Settings and commands
 
