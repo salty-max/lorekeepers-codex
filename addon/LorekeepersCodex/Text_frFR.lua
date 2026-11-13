@@ -3218,7 +3218,7 @@ ns.translate({
     ["Copy their choices"] = "Copier ses choix",
     ["Creature"] = "Créature",
     ["Creatures"] = "Créatures",
-    ["Dark ink on tan paper, easier on the eyes than light text on a dark ground. Takes effect when you reload the interface. Use the Reload button below."] = "Encre sombre sur papier beige, plus reposant pour les yeux qu'un texte clair sur fond sombre. S'applique au rechargement de l'interface. Utilisez le bouton « Recharger » ci-dessous.",
+    ["Dark ink on tan paper, easier on the eyes than light text on a dark ground. Takes effect when you reload the interface. Use the Reload button below."] = "Encre sombre sur papier beige, plus reposant pour les yeux qu'un texte clair sur fond sombre. S'applique au rechargement de l'interface. Utilisez le bouton « Recharger » ci-dessous.",
     ["Day %d"] = "Jour %d",
     ["Dec"] = "déc.",
     ["Delver of the Deep"] = "$gArpenteur:Arpenteuse; des profondeurs",
