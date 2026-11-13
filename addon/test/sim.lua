@@ -2496,6 +2496,16 @@ do
     ns.catchUp()
     check(not b.entries[readPage.id], "catch-up: a book only another character read unlocks nothing here")
     x.library.texts[99], x.library.keys[readPage.title .. "|p"] = nil, nil
+    -- (a title this character read itself after the merge still unlocks its page at a catch-up)
+    ns.readText(readPage.title)
+    b.entries[readPage.id] = nil
+    ns.catchUp()
+    check(
+      b.entries[readPage.id],
+      "catch-up: a title this character read itself unlocks its page, the Library being the account's"
+    )
+    b.entries[readPage.id], b.read[readPage.id], b.titles = nil, nil, nil
+    x.entries[readPage.id], x.read[readPage.id] = nil, nil
   end
 
   -- No toast for a page another character found, the page then B's own.

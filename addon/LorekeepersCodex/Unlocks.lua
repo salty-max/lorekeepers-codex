@@ -394,6 +394,13 @@ local function talking() checkNpc("npc") end
 -- A book or plaque read (Library.lua, as the game's reader opens): the pages
 -- its title unlocks.
 function ns.readText(title)
+  -- (kept on the character: the account's Library holds the texts now, and a page a later
+  -- update ties to this title must still come back at the catch-up)
+  local c = ns.codex()
+  if c and type(title) == "string" then
+    c.titles = c.titles or {}
+    c.titles[title] = true
+  end
   for _, id in ipairs(byRead[title] or {}) do
     unlock(id)
   end
@@ -434,6 +441,12 @@ function ns.catchUp()
   -- account's texts, read by other characters, unlock nothing here)
   for _, text in pairs(ns.codex() and ns.codex().library and ns.codex().library.texts or {}) do
     for _, id in ipairs(byRead[text.title] or {}) do
+      unlock(id, true)
+    end
+  end
+  -- (and the titles it read since the Library became the account's)
+  for title in pairs(ns.codex() and ns.codex().titles or {}) do
+    for _, id in ipairs(byRead[title] or {}) do
       unlock(id, true)
     end
   end
