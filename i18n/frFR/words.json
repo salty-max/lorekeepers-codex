@@ -174,11 +174,11 @@
   "Tune found in %1$s, at level %2$d, on %3$s.": "Air trouvé : %1$s, au niveau %2$d, le %3$s.",
   "Arrival %d": "Arrivée %d",
   "/codex opens the codex.": "/codex ouvre le codex.",
-  "Your characters share one codex, with the day and the place each page was found, and a Hardcore character keeps its own. The Library copies every book, note and plaque you read, and achievements mark the way.": "Vos personnages partagent un seul codex, avec le jour et le lieu où chaque page a été trouvée, et un personnage Hardcore garde le sien. La Bibliothèque copie chaque livre, note et plaque que vous lisez, et des hauts faits jalonnent le chemin.",
+  "Your characters share one codex, with the day and the place each page was found, and a Hardcore character keeps its own. The Library copies every book, note and plaque you read, and achievements mark the way.": "Vos personnages partagent un seul codex, avec le jour et le lieu où chaque page a été trouvée, et un personnage extrême garde le sien. La Bibliothèque copie chaque livre, note et plaque que vous lisez, et des hauts faits jalonnent le chemin.",
   "Found by one of your characters, on %s.": "Trouvée par l'un de vos personnages, le %s.",
   "Not found by this character yet (%d)": "Pas encore trouvées par ce personnage (%d)",
   "found elsewhere": "trouvées ailleurs",
-  "This forgets what this character found itself. The shared codex keeps every page and achievement, so they stay. Type /codex reset yes to do it.": "Cette commande efface ce que ce personnage a trouvé lui-même. Le codex partagé garde toutes les pages et tous les hauts faits, ils restent donc. Tapez /codex reset yes pour confirmer.",
+  "This forgets what this character found itself. The shared codex keeps every page and achievement, so they stay. Type /codex reset yes to do it.": "Cette commande efface ce que ce personnage a trouvé lui-même. Le codex partagé garde toutes les pages et tous les hauts faits, qui ne bougent pas. Tapez /codex reset yes pour confirmer.",
   "Missing pages": "Pages manquantes",
-  "Show a greyed row for each page you have not found, with no title, text or place, and list the chapters you have not started by name and page count alone.": "Afficher une ligne grisée pour chaque page non trouvée, sans titre, texte ni lieu, et lister les chapitres non commencés par leur seul nom et leur nombre de pages."
+  "Show a greyed row for each page you have not found, with no title, text or place, and list the chapters you have not started by name and page count alone.": "Afficher une ligne grisée pour chaque page non trouvée, sans titre, texte ni lieu, et lister les chapitres non commencés avec leur seul nom et leur nombre de pages."
 }
