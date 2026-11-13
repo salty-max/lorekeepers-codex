@@ -376,6 +376,28 @@ local DARK = {}
 for k, v in pairs(ns.kit.T) do
   if type(v) == "table" and type(v[1]) == "number" then DARK[k] = { v[1], v[2], v[3], v[4] } end
 end
+-- The kit's own select keeps the dark look's colours on paper, by design: what it paints
+-- while it is built, filled or set is left out of the record of what was painted.
+do
+  local function unrecorded(f)
+    return function(...)
+      local n = #painted
+      local a, b = f(...)
+      for i = #painted, n + 1, -1 do
+        painted[i] = nil
+      end
+      return a, b
+    end
+  end
+  local make = unrecorded(ns.kit.select)
+  ns.kit.select = function(...)
+    local s = make(...)
+    for _, name in ipairs({ "SetOptions", "SetValue" }) do
+      s[name] = unrecorded(s[name])
+    end
+    return s
+  end
+end
 -- The banners shown (what each said), and the kit's banners themselves, to
 -- clear them between scenes.
 local toasted, banners = {}, nil
